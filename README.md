@@ -19,7 +19,12 @@ scrapable. The online version takes the form of nearly 100 HTML tables, each cor
 becomes
 ~~~~
 <!-- 72 -->
-<bibl n="7.15"><date when="1852">1 Sept. 1852</date><author>Phillips, Mrs. Alfred</author><title>The Master Passion</title><ref target="#vpp:Vol07xvMaster.pdf">PDF</ref><title type="sub">A Comedy in 2 Acts</title><note type="firstPerf">Royal Olympic Theatre</note></bibl>
+<bibl n="7.15">
+<date when="1852">1 Sept. 1852</date><author>Phillips, Mrs. Alfred</author>
+<title>The Master Passion</title>
+<ref target="#vpp:Vol07xvMaster.pdf">PDF</ref>
+<title type="sub">A Comedy in 2 Acts</title>
+<note type="firstPerf">Royal Olympic Theatre</note></bibl>
 ~~~~
 ready for further enrichment and correction. I plan to add links to other online editions as I find them. 
 
