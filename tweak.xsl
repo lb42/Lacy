@@ -10,7 +10,39 @@
             <xsl:apply-templates select="@* | node()"/>
         </xsl:copy>
     </xsl:template>
-
+    
+    <!-- fix @n attribute -->
+    
+    <xsl:template match="bibl/@n">
+ <xsl:attribute name="n">       <xsl:value-of select="substring-before(.,'_')"/>
+ </xsl:attribute>   </xsl:template>
+    
+    <xsl:template match="bibl/@status"/>
+    
+   <!-- add magic key on title --> 
+    
+    <xsl:template match="title">
+        <title xmlns="http://www.tei-c.org/ns/1.0">
+             <xsl:attribute name="n">
+                <xsl:choose>
+                    <xsl:when test="contains(.,':')">
+                        <xsl:value-of select="t:sanitize(substring-before(.,':'))"/>
+                    </xsl:when>
+                    <xsl:when test="contains(.,';')">
+                        <xsl:value-of select="t:sanitize(substring-before(.,';'))"/>
+                    </xsl:when>
+                    <xsl:when test="contains(.,',')">
+                        <xsl:value-of select="t:sanitize(substring-before(.,','))"/>
+                    </xsl:when>
+                    <xsl:otherwise>
+                        <xsl:value-of select="t:sanitize(.)"/>
+                    </xsl:otherwise>
+                </xsl:choose>            
+            </xsl:attribute>
+            <xsl:apply-templates/>
+        </title>
+    </xsl:template>
+<!-- group performance info -->
    <xsl:template match="note[@type='firstPerf']">
        <note type="firstPerf" xmlns="http://www.tei-c.org/ns/1.0">
         <name><xsl:value-of select="."/></name>
@@ -18,11 +50,13 @@
 </xsl:text><xsl:copy-of select="../date"/>
        </note>
    </xsl:template>
+   
+    <!-- group digitization info -->
     
     <xsl:template match="bibl[ref]">
         <bibl xmlns="http://www.tei-c.org/ns/1.0">
-            <xsl:apply-templates select="@*"/>
-            <xsl:apply-templates/>
+           <xsl:apply-templates select="@*"/>
+           <xsl:apply-templates />
         <note type="digitizations" xmlns="http://www.tei-c.org/ns/1.0">
                 <xsl:for-each select="ref">
                 <xsl:copy-of select="."/>    
@@ -41,8 +75,10 @@
                  </note>
              </xsl:if>
          </xsl:template>
-         
-         <xsl:template match="title[@type='sub']">
+    
+      <!-- more work to do here -->   
+    
+    <xsl:template match="title[@type='sub']">
              <subtitle xmlns="http://www.tei-c.org/ns/1.0">
                  <xsl:attribute name="acts">
                      <xsl:analyze-string select="." regex="in\s*(\d)\s[Aa]ct">
@@ -81,5 +117,14 @@
             "/>
         
     </xsl:function>
-    
+    <xsl:function name="t:sanitize" as="xs:string">
+        <xsl:param name="text"/>        
+        <xsl:variable name="result" select="
+            lower-case(normalize-space(replace($text, '\W+', '')))"/>
+        <xsl:value-of select="
+            if (string-length($result) &gt; 21) then
+            concat(substring($result, 1, 21), '...')
+            else
+            $result"/>
+    </xsl:function>
 </xsl:stylesheet>
