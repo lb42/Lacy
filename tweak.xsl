@@ -74,7 +74,7 @@
     </xsl:analyze-string>
     <xsl:text>_</xsl:text>
     <xsl:analyze-string select="title[@type = 'sub']"
-     regex="(Comedy|Farce|Tragedy|Drama|Burlesque|Pantomime)">
+     regex="([Cc]omedy|[Ff]arce|[Tt]ragedy|[Dd]rama|[Bb]urlesque|[Pp]antomime|[Cc]omedietta)">
      <xsl:matching-substring>
       <xsl:value-of select="regex-group(1)"/>
      </xsl:matching-substring>
