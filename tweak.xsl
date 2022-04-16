@@ -10,6 +10,13 @@
   </xsl:copy>
  </xsl:template>
 
+<!-- suppress unwanted attributes -->
+ <xsl:template match="div/@org"/>
+ <xsl:template match="div/@part"/>
+ <xsl:template match="note/@anchored"/>
+ <xsl:template match="bibl/@status[not(. eq 'supplied')]"/>
+ 
+
  <!-- fix @n attribute -->
 
  <xsl:template match="bibl/@n">
@@ -18,8 +25,7 @@
   </xsl:attribute>
  </xsl:template>
 
- <xsl:template match="bibl/@status"/>
-
+ 
  <!-- add magic key on title -->
 
  <xsl:template match="title[not(@type = 'sub')]">
@@ -49,10 +55,8 @@
    <name>
     <xsl:value-of select="."/>
    </name>
-   <xsl:text>
-</xsl:text>
    <xsl:copy-of select="../date"/>
-   <xsl:if test="../note[@type = 'LCP']">
+   <xsl:if test="../note[@type = 'LCP']">. Licenced for performance 
     <ref type="ms" target="{../note[@type='LCP']/ref/@target}" xmlns="http://www.tei-c.org/ns/1.0"
      >LC ms</ref>
    </xsl:if>
@@ -66,8 +70,12 @@
  <xsl:template match="bibl">
   <bibl xmlns="http://www.tei-c.org/ns/1.0">
    <xsl:apply-templates select="@*"/>
+   <xsl:attribute name="xml:id">
+    <xsl:text>L</xsl:text>
+    <xsl:number value="count(preceding::*:bibl)+1" format="0001"/>
+   </xsl:attribute>
    <xsl:attribute name="type">
-    <xsl:analyze-string select="title[@type = 'sub']" regex="in\s*(\d)\s[Aa]ct">
+    <xsl:analyze-string select="title[@type = 'sub']" regex="in\s*(\d)\s+[Aa]ct">
      <xsl:matching-substring>
       <xsl:value-of select="regex-group(1)"/>
      </xsl:matching-substring>
