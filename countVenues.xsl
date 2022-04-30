@@ -6,11 +6,11 @@
  version="2.0">
  <xsl:template match="/">
   <xsl:variable name="context" select="."/>
-  <xsl:for-each select="distinct-values(//t:bibl/t:note[@type='firstPerf'])">
+  <xsl:for-each select="distinct-values(//t:bibl/t:note[@type='firstPerf']))">
     <xsl:sort/>
    <xsl:variable name="a" select="."/>   
-   <xsl:value-of select="normalize-space(.)"/><xsl:text> (</xsl:text>
-   <xsl:value-of select="count($context//t:note[starts-with(.,$a)])"/> <xsl:text>)
+<xsl:value-of select="normalize-space(.)"/><xsl:text> (</xsl:text>
+<xsl:value-of select="count($context//t:note[starts-with(.,$a)])"/> <xsl:text>)
 </xsl:text>
   </xsl:for-each>
  </xsl:template>
