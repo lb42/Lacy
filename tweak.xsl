@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
  xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:t="http://www.tei-c.org/ns/1.0"
- xmlns="http://www.tei-c.org/ns/1.0" xpath-default-namespace="http://www.tei-c.org/ns/1.0"
+ xmlns="http://www.tei-c.org/ns/1.0" 
+ xpath-default-namespace="http://www.tei-c.org/ns/1.0"
  xmlns:e="http://distantreading.net/eltec/ns" exclude-result-prefixes="xs e t" version="2.0">
 
  <xsl:template match="/ | @* | node()">
@@ -16,7 +17,16 @@
  <xsl:template match="note/@anchored"/>
  <xsl:template match="bibl/@status[not(. eq 'supplied')]"/>
  
+ <!-- add @notBefore attribute to each volume -->
 
+<xsl:template match="div[@type='volume']">
+ <xsl:copy><xsl:attribute name="notBefore">
+  <xsl:value-of select="max(bibl/date/@when)"/>
+ </xsl:attribute>
+ <xsl:apply-templates select="@*"/>
+  <xsl:apply-templates/></xsl:copy>
+</xsl:template>
+ 
  <!-- fix @n attribute -->
 
  <xsl:template match="bibl/@n">
@@ -75,6 +85,7 @@
     <xsl:number value="count(preceding::*:bibl)+1" format="0001"/>
    </xsl:attribute>
    <xsl:attribute name="type">
+<xsl:if test="title[@type='sub']">
     <xsl:analyze-string select="title[@type = 'sub']" regex="in\s*(\d)\s+[Aa]ct">
      <xsl:matching-substring>
       <xsl:value-of select="regex-group(1)"/>
@@ -87,6 +98,7 @@
       <xsl:value-of select="regex-group(1)"/>
      </xsl:matching-substring>
     </xsl:analyze-string>
+</xsl:if>
    </xsl:attribute>
    <xsl:apply-templates/>
    <xsl:if test="ref">
