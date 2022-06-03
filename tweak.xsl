@@ -86,18 +86,22 @@
    </xsl:attribute>
    <xsl:attribute name="type">
 <xsl:if test="title[@type='sub']">
+ <xsl:variable name="playType">
+  <xsl:analyze-string select="title[@type = 'sub']" 
+   regex="([Cc]omedy|[Ff]arce|[Tt]ragedy|[Dd]rama|[Bb]urlesque|[Pp]antomime|[Cc]omedietta)">
+   <xsl:matching-substring>
+    <xsl:value-of select="regex-group(1)"/>
+   </xsl:matching-substring>
+  </xsl:analyze-string>
+ </xsl:variable>
     <xsl:analyze-string select="title[@type = 'sub']" regex="in\s*(\d)\s+[Aa]ct">
      <xsl:matching-substring>
       <xsl:value-of select="regex-group(1)"/>
      </xsl:matching-substring>
     </xsl:analyze-string>
     <xsl:text>_</xsl:text>
-    <xsl:analyze-string select="title[@type = 'sub']"
-     regex="([Cc]omedy|[Ff]arce|[Tt]ragedy|[Dd]rama|[Bb]urlesque|[Pp]antomime|[Cc]omedietta)">
-     <xsl:matching-substring>
-      <xsl:value-of select="regex-group(1)"/>
-     </xsl:matching-substring>
-    </xsl:analyze-string>
+    <xsl:choose><xsl:when test="$playType"><xsl:value-of select="$playType"/></xsl:when>
+     <xsl:otherwise>"X"</xsl:otherwise></xsl:choose>
 </xsl:if>
    </xsl:attribute>
    <xsl:apply-templates/>
@@ -107,6 +111,9 @@
       <xsl:copy-of select="."/>
      </xsl:for-each>
     </note>
+   </xsl:if>
+   <xsl:if test="@status='supplied'">
+    <note type="firstPerf"><date when="0000"/></note>
    </xsl:if>
   </bibl>
  </xsl:template>
