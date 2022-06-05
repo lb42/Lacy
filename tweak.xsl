@@ -61,17 +61,44 @@
  </xsl:template>
  <!-- group performance info -->
  <xsl:template match="note[@type = 'firstPerf']">
+  
   <note type="firstPerf" xmlns="http://www.tei-c.org/ns/1.0">
-   <name>
-    <xsl:value-of select="."/>
-   </name>
-   <xsl:copy-of select="../date"/>
+   <xsl:choose>
+    <xsl:when test="contains(.,'[')">
+   <name><xsl:value-of select="substring-before(.,'[')"/>
+  </name>   
+    </xsl:when>
+    <xsl:otherwise>
+     <name>
+      <xsl:value-of select="."/>
+     </name>
+    </xsl:otherwise>
+   </xsl:choose>
+
+   <xsl:choose>
+    <xsl:when test="not(contains(../date,'['))">     
+     <xsl:copy-of select="../date"/>
+    </xsl:when>
+    <xsl:when test="starts-with(../date,'[')">     
+     <xsl:copy-of select="../date"/>
+    </xsl:when>
+    <xsl:otherwise>
+     <date><xsl:value-of select="substring-before(../date,'[')"/></date>
+    </xsl:otherwise>
+   </xsl:choose>  
    <xsl:if test="../note[@type = 'LCP']">. Licenced for performance 
     <ref type="ms" target="{../note[@type='LCP']/ref/@target}" xmlns="http://www.tei-c.org/ns/1.0"
      >LC ms</ref>
    </xsl:if>
+   
   </note>
 
+  <xsl:if test="contains(.,'[')">
+   <note type="otherPerfs">
+    <name><xsl:value-of select="substring-before(substring-after(.,'['),']')"/></name>
+    <date><xsl:value-of select="substring-before(substring-after(../date,'['),']')"/></date> 
+   </note>
+  </xsl:if>
 
  </xsl:template>
 
