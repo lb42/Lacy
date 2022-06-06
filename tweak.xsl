@@ -17,6 +17,9 @@
  <xsl:template match="note/@anchored"/>
  <xsl:template match="bibl/@status[not(. eq 'supplied')]"/>
  
+ <!-- remove empty notes -->
+ <xsl:template match="note[string-length(normalize-space(.)) eq 0][parent::date]"/>
+ 
  <!-- add @notBefore attribute to each volume -->
 
 <xsl:template match="div[@type='volume']">
@@ -60,8 +63,7 @@
   </title>
  </xsl:template>
  <!-- group performance info -->
- <xsl:template match="note[@type = 'firstPerf']">
-  
+ <xsl:template match="note[@type = 'firstPerf']"> 
   <note type="firstPerf" xmlns="http://www.tei-c.org/ns/1.0">
    <xsl:choose>
     <xsl:when test="contains(.,'[')">
@@ -140,7 +142,7 @@
     </note>
    </xsl:if>
    <xsl:if test="@status='supplied'">
-    <note type="firstPerf"><date when="0000"/></note>
+    <note type="firstPerf"><date /></note>
    </xsl:if>
   </bibl>
  </xsl:template>

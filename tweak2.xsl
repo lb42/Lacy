@@ -13,13 +13,26 @@
 
 <xsl:template match="date[not(@when)]">
 <xsl:variable name="yr"> 
- <xsl:analyze-string select="." regex='(1[78]\d\d)'>
+<!-- <xsl:analyze-string select="." regex='(.*)(1[78]\d\d)(.*)$'>
   <xsl:matching-substring>
-   <xsl:value-of select="regex-group(1)"/>
+   <xsl:value-of select="regex-group(2)"/>
   </xsl:matching-substring>
-<!--<xsl:non-matching-substring>"99"</xsl:non-matching-substring>-->
- </xsl:analyze-string></xsl:variable>
+ </xsl:analyze-string></xsl:variable>-->
+ <xsl:value-of select="t:getYr(normalize-space(.))"/></xsl:variable>
  <date when="{$yr}"><xsl:value-of select="normalize-space(.)"/></date>
- <xsl:message><xsl:value-of select="normalize-space(.)"/> -> <xsl:value-of select="$yr"/></xsl:message>
+ <xsl:message><xsl:value-of select="normalize-space(.)"/>  ...  <xsl:value-of select="$yr"/></xsl:message>
 </xsl:template>
+ 
+ <xsl:function name="t:getYr">
+  <xsl:param name="str"/>
+  <xsl:choose>
+   <xsl:when test="$str eq 'Unknown'"/>
+   <xsl:when test="matches($str, '1[78]\d\d')">
+    <xsl:value-of select="replace($str,'(.*)(1[78]\d\d)(.*)$','$2')"/>    
+   </xsl:when>
+   <xsl:otherwise>
+    <xsl:message><xsl:value-of select="$str"/> contains no valid year</xsl:message>
+   </xsl:otherwise>
+  </xsl:choose>
+ </xsl:function> 
 </xsl:stylesheet>
