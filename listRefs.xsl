@@ -5,14 +5,15 @@
  exclude-result-prefixes="xs"
  version="2.0">
  <xsl:template match="/">
-<xsl:for-each select="//t:bibl[count(t:ref) gt 0]">
+  
+<xsl:for-each select="//t:bibl[count(t:note/t:ref) gt 0]">
+ <xsl:value-of select="@n"/><xsl:text>,</xsl:text>
+ <xsl:value-of select="count(t:note/t:ref[starts-with(@target,'vpp')])"/><xsl:text>,</xsl:text>
+ <xsl:value-of select="count(t:note/t:ref[starts-with(@target,'ia:')])"/><xsl:text>,</xsl:text>
+ <xsl:value-of select="count(t:note/t:ref[starts-with(@target,'http')])"/><xsl:text>,</xsl:text>
+ <xsl:value-of select="count(t:note/t:ref[starts-with(@target,'lcp')])"/><xsl:text>
+ </xsl:text>
  
- <xsl:value-of select="@n"/>
- <xsl:for-each select="t:ref/@target"><xsl:text>: </xsl:text>
- <xsl:value-of select="normalize-space(.)"/><xsl:text> </xsl:text>
-</xsl:for-each>
-<xsl:text>
-</xsl:text>
   </xsl:for-each>
  </xsl:template>
 </xsl:stylesheet>
