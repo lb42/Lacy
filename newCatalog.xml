@@ -6,12 +6,12 @@
     <title>T.H. Lacy's Acting Edition of Victorian Plays (1848-1873) : a bibliography</title>
    </titleStmt>
    <publicationStmt>
-    <p part="N">Unpublished</p>
+    <p>Unpublished</p>
    </publicationStmt>
    <sourceDesc>
-    <p part="N">Screen-scraped and re-encoded from <ref
+    <p>Screen-scraped and re-encoded from <ref
      target="http://victorian.nuigalway.ie/modx/index.php?id=64">the VPP website at NUIG</ref>. </p>
-    <p part="N">165 volumes documented (but not accessible from) <ref
+    <p>165 volumes documented (but not accessible from) <ref
      target="https://catalog.hathitrust.org/Record/000515120"/>, covering period 1849-1917</p>
    </sourceDesc>
   </fileDesc>
@@ -19,21 +19,25 @@
    <listPrefixDef>
     <prefixDef ident="vpp" matchPattern="([.+])"
      replacementPattern="http://victorian.nuigalway.ie/modx/assets/docs/pdf/$1">
-     <ab part="N">URLs using this prefix point to a PDF format file as distributed by the VPP in
-      Galway</ab>
+     <ab>URLs using this prefix point to a PDF format file as distributed by the VPP in Galway</ab>
     </prefixDef>
     <prefixDef ident="gut" matchPattern="([0-9]+)"
      replacementPattern="https://www.gutenberg.org/files/$1/$1-h/$1-h.htm">
-     <ab part="N">URLs using this prefix point to an HTML transcription from Project Gutenberg</ab>
+     <ab>URLs using this prefix point to an HTML transcription from Project Gutenberg</ab>
     </prefixDef>
     <prefixDef ident="ia" matchPattern="([0-9]+)"
      replacementPattern="https://archive.org/details/$1">
-     <ab part="N">URLs using this prefix point to a set of page images available from the Internet
+     <ab>URLs using this prefix point to a set of page images available from the Internet
       Archive</ab>
+    </prefixDef>
+    <prefixDef ident="local" matchPattern="([0-9]+)"
+     replacementPattern="file:///home/lou/Data/Lacy/nonVPP/$1">
+     <ab>URLs using this prefix point to a locally stored copy of the resource indicated</ab>
     </prefixDef>
    </listPrefixDef>
   </encodingDesc>
   <revisionDesc status="draft">
+   <change when="2022-08-02">LB tidying up IA links</change>
    <change when="2022-06-03">LB tidying up performance data; removed "[n.p.]"; "0000" etc
     etc</change>
    <change when="2022-04-07" status="draft">LB added numerous links </change>
@@ -73,16 +77,18 @@
      n="theswisscottage">The Swiss Cottage, or Why Don't She Marry? </title> <title type="sub">A
      Vaudeville in 1 Act</title> <note type="firstPerf"><name>Royal Olympic Theatre</name><date
      when="1837">[1837]</date></note> <note>date taken from Dicks edition</note><note
-     type="digitizations"><ref target="https://archive.org/details/swisscottageorwh0000bayl">The
+     type="digitizations"><!--The
      Swiss cottage, or why don't she marry? : a vaudeville, in one act / by Thomas Haynes Bayly,
-     author of "One hour, or the carnival ball", "My eleventh day"...&amp;c.</ref><ref
+     author of "One hour, or the carnival ball", "My eleventh day"...&c.--><ref
+     target="https://archive.org/details/swisscottageorwh0000bayl">Internet Archive</ref><ref
      target="local:L0005.pdf"> local copy </ref><ref target="local:L0005.pdf"> local copy </ref>
      <!--mv ~/Downloads/swisscottageorwh0000bayl.pdf ~/pCloudDrive/LacyWork/googleBooks/L0005.pdf--></note></bibl>
     <bibl n="1.6" xml:id="L0006" type="1_MusicDrama"> <author>Bayly, Thomas Haynes</author> <title
      n="theladderoflove">The Ladder of Love</title> <title type="sub">A Musical Drama in 1 Act (Just
      Published)</title> <note type="firstPerf"><name>Unknown</name><date>Unknown</date></note> <note
-     type="digitizations"><ref target="https://archive.org/details/ladderoflovemusi0000bayl">Hall
-     Collection</ref><ref target="local:L0006.pdf"> local copy </ref><ref target="local:L0006.pdf">
+     type="digitizations"><!--Internet Archive
+--><ref target="https://archive.org/details/ladderoflovemusi0000bayl">Internet
+     Archive</ref><ref target="local:L0006.pdf"> local copy </ref><ref target="local:L0006.pdf">
      local copy </ref>
      <!--mv ~/Downloads/ladderoflovemusi0000bayl.pdf ~/pCloudDrive/LacyWork/googleBooks/L0006.pdf--></note></bibl>
     <bibl n="1.7" xml:id="L0007" type="1_Drama"> <author>Bayly, Thomas Haynes</author> <title
@@ -98,10 +104,10 @@
     <bibl n="1.10" xml:id="L0010" type="1_Farce"> <author>Bayly, Thomas Haynes</author> <title
      n="comfortableservice">Comfortable Service</title> <title type="sub">An Original Farce in 1
      Act</title> <note type="firstPerf"><name>Royal Olympic Theatre</name><date when="1836">[1 Jan.
-     1836 (dedication)]</date></note> <note type="digitizations"><ref
-     target="https://archive.org/details/comfortableservi0000bayl">London: Wm. Strange,
-     1836</ref><ref target="local:L0010.pdf"> local copy </ref><ref target="local:L0010.pdf"> local
-     copy </ref>
+     1836 (dedication)]</date></note> <note type="digitizations"><!--London: Wm. Strange,
+     1836--><ref target="https://archive.org/details/comfortableservi0000bayl">Internet
+     Archive</ref><ref target="local:L0010.pdf"> local copy </ref><ref target="local:L0010.pdf">
+     local copy </ref>
      <!--mv ~/Downloads/comfortableservi0000bayl.pdf ~/pCloudDrive/LacyWork/googleBooks/L0010.pdf--></note></bibl>
     <bibl n="1.11" xml:id="L0011" type="2_Drama"> <author>Bernard, Bayle</author> <title
      n="thepassingcloud">The Passing Cloud</title> <title type="sub">A Romantic Drama in 2
@@ -112,8 +118,8 @@
      Acts</title> <note type="firstPerf"><name>Theatre Royal Lyceum</name><date when="1847">8 Apr.
      1847</date></note> <note type="digitizations"><ref
      target="http://victorian.nuigalway.ie/modx/assets/docs/pdf/Vol1xiiCreole.pdf">PDF</ref><ref
-     target="https://archive.org/details/creoleorlovesfe00broogoog"/><ref target="local:L0012.pdf">
-     local copy </ref><ref target="local:L0012.pdf"> local copy </ref>
+     target="https://archive.org/details/creoleorlovesfe00broogoog">Internet Archive</ref><ref
+     target="local:L0012.pdf"> local copy </ref><ref target="local:L0012.pdf"> local copy </ref>
      <!--mv ~/Downloads/creoleorlovesfe00broogoog.pdf ~/pCloudDrive/LacyWork/googleBooks/L0012.pdf--></note></bibl>
     <bibl n="1.13" xml:id="L0013" type="_X"> <author>[Anon. (Tom Taylor &amp; Albert
      Smith)]</author><note type="authorInfo">The identification of the authors of this play is
@@ -321,10 +327,12 @@
      the author of "Angelo", both in this volume.</note> <title n="theladiesbattleor">The Ladies'
      Battle! or, Un Duel en Amour!</title> <title type="sub">Based on a Comedy by Scribe and
      Legouve. A Comedy in 3 Acts</title> <note type="firstPerf"><name>Royal Olympic
-     Theatre</name><date when="1851">7 May 1851</date></note> </bibl>
+     Theatre</name><date when="1851">7 May 1851</date></note> <note type="digitizations"><ref
+     target="http://archive.org/details/ladiesbattlecome00scri">Internet Archive</ref>; <ref
+     target="local:L0047.pdf">Local copy</ref></note></bibl>
     <bibl n="4.3" xml:id="L0048" type="1_Extravagan"> <author>Brough, William</author> <title
-     n="apartments">Apartments, "Visitors to the Exhibition may be Accommodated", &amp; c. &amp;
-     c.</title> <title type="sub">A Piece of Extravagance to "Suit the Times", in 1 Act</title>
+     n="apartments">Apartments, "Visitors to the Exhibition may be Accommodated", &amp;c.
+     &amp;c.</title> <title type="sub">A Piece of Extravagance to "Suit the Times", in 1 Act</title>
      <note type="firstPerf"><name>Royal Princess's Theatre</name><date when="1851">14 May
      1851</date></note> <note type="digitizations"><ref
      target="http://victorian.nuigalway.ie/modx/assets/docs/pdf/Vol04iiiApartments.pdf"
@@ -450,10 +458,11 @@
      Willow Pattern Plate</title> <title type="sub">A Chinese Tale</title> <note type="firstPerf"
      ><name>Punch's Playhouse, Strand Theatre</name><date when="1851">26 December 1851</date></note>
      <note type="digitizations"><ref
-     target="http://victorian.nuigalway.ie/modx/assets/docs/pdf/Vol05xivMandarins.pdf">PDF</ref><ref
-     target="https://archive.org/details/mandarinsdaughte0000talf">The mandarin's daughter! being
+     target="http://victorian.nuigalway.ie/modx/assets/docs/pdf/Vol05xivMandarins.pdf"
+     >PDF</ref><!--The mandarin's daughter! being
      the simple story of the willow-pattern plate : a Chinese tale / from the heads of the authors
-     of "Godiva", &amp;c., &amp;c.</ref><ref target="local:L0074.pdf"> local copy </ref>
+     of "Godiva", &c., &c.--><ref target="https://archive.org/details/mandarinsdaughte0000talf"
+     >Internet Archive</ref><ref target="local:L0074.pdf"> local copy </ref>
      <!--mv ~/Downloads/mandarinsdaughte0000talf.pdf ~/pCloudDrive/LacyWork/googleBooks/L0074.pdf--></note></bibl>
     <bibl n="5.15" xml:id="L0075" type="1_Farce"> <author>Phillips, Mrs. Alfred</author> <title
      n="anorganicaffection">An Organic Affection</title> <title type="sub">A Farce in 1 Act</title>
@@ -475,8 +484,8 @@
      <term>food and dining.</term> </note><note type="digitizations"><ref
      target="http://victorian.nuigalway.ie/modx/assets/docs/pdf/Vol06iDuel.pdf">PDF</ref><ref
      target="https://www.gutenberg.org/files/50012/50012-h/50012-h.htm"/><ref
-     target="https://archive.org/details/duelindarkanorig00coynuoft"/><ref target="local:L0076.pdf">
-     local copy </ref>
+     target="https://archive.org/details/duelindarkanorig00coynuoft">Internet Archive</ref><ref
+     target="local:L0076.pdf"> local copy </ref>
      <!--mv ~/Downloads/duelindarkanorig00coynuoft.pdf ~/pCloudDrive/LacyWork/googleBooks/L0076.pdf--></note></bibl>
     <bibl n="6.2" xml:id="L0077" type="1_Farce"> <author>Buckstone, John Baldwin</author> <title
      n="akissinthedark">A Kiss in the Dark</title> <title type="sub">A Farce in 1 Act</title> <note
@@ -571,8 +580,8 @@
      n="theroseofettrickvale">The Rose of Ettrick Vale; or, The Bridal of the Borders</title> <title
      type="sub">A Drama in 2 Acts</title> <note type="firstPerf"><name>Queenstreet Theatre,
      Glasgow</name><date>Unknown</date></note> <note type="digitizations"><ref
-     target="https://archive.org/details/roseofettrickval00lyncrich"/><ref target="local:L0092.pdf">
-     local copy </ref>
+     target="https://archive.org/details/roseofettrickval00lyncrich">Internet Archive</ref><ref
+     target="local:L0092.pdf"> local copy </ref>
      <!--mv ~/Downloads/roseofettrickval00lyncrich.pdf ~/pCloudDrive/LacyWork/googleBooks/L0092.pdf--></note></bibl>
     <bibl n="7.3" xml:id="L0093" type="1_ComicInterlude"> <author>Morton, John Maddison</author>
      <title n="amostunwarrantableint...">A Most Unwarrantable Intrusion</title> <title type="sub">A
@@ -581,7 +590,7 @@
     <bibl n="7.4" xml:id="L0094" type="1_Farce"> <author>Coyne, Joseph Stirling</author> <title
      n="binksthebagman">Binks the Bagman</title> <title type="sub">A Farce in 1 Act</title> <note
      type="firstPerf"><name>Royal Adelphi Theatre</name><date when="1843">13 Feb. 1843</date></note>
-     <note type="digitizations"><ref target="Binks_the_Bagman_a_farce_in_one_act.pdf">Google
+     <note type="digitizations"> <ref target="Binks_the_Bagman_a_farce_in_one_act.pdf">Google
      Books</ref></note></bibl>
     <bibl n="7.5" xml:id="L0095" type="1_ComicBurle"> <author>Wilks, Thomas Egerton</author> <title
      n="themillerofwhetstone">The Miller of Whetstone; or, The Cross-Bow Letter</title> <title
@@ -659,10 +668,11 @@
      n="theprimadonna">The Prima Donna</title> <title type="sub">A Comedy in 2 Acts. </title> <note
      type="firstPerf"><name>Royal Princess's Theatre</name><date when="1852">18 Sept.
      1852</date></note> <note type="digitizations"><ref
-     target="http://victorian.nuigalway.ie/modx/assets/docs/pdf/Vol08iPrima.pdf">PDF</ref><ref
-     target="https://archive.org/details/primadonnacomedy0000bouc">The prima donna : a comedy in two
+     target="http://victorian.nuigalway.ie/modx/assets/docs/pdf/Vol08iPrima.pdf"
+     >PDF</ref><!--The prima donna : a comedy in two
      acts / by Dion Boucicault, author of "London assurance", "Old heads and young hearts", "Love in
-     a maze", &amp;c. &amp;c. &amp;c.</ref><ref target="local:L0106.pdf"> local copy </ref>
+     a maze", &c. &c. &c.--><ref target="https://archive.org/details/primadonnacomedy0000bouc"
+     >Internet Archive</ref><ref target="local:L0106.pdf"> local copy </ref>
      <!--mv ~/Downloads/primadonnacomedy0000bouc.pdf ~/pCloudDrive/LacyWork/googleBooks/L0106.pdf--></note></bibl>
     <bibl n="8.2" xml:id="L0107" type="1_Farce"> <author>Coyne, Joseph Stirling</author> <title
      n="wanted">Wanted, 1000 Spirited Young Milliners for the Gold Diggings!</title> <title
@@ -708,8 +718,8 @@
      relationships</term> <term>children</term> <term>food and dining</term> <term>animals</term>
      <term>flirtation</term> <term>trains and rail travel.</term> </note><note type="digitizations"
      ><ref target="http://victorian.nuigalway.ie/modx/assets/docs/pdf/Vol08viiiBox.pdf"
-     >PDF</ref><ref target="https://archive.org/details/boxandcoxmarried00coynuoft"/><ref
-     target="local:L0113.pdf"> local copy </ref>
+     >PDF</ref><ref target="https://archive.org/details/boxandcoxmarried00coynuoft">Internet
+     Archive</ref><ref target="local:L0113.pdf"> local copy </ref>
      <!--mv ~/Downloads/boxandcoxmarried00coynuoft.pdf ~/pCloudDrive/LacyWork/googleBooks/L0113.pdf--></note></bibl>
     <bibl n="8.9" xml:id="L0114" type="2_Comedy"> <author>Planché, J.R.</author> <title
      n="themysteriousladyor">The Mysterious Lady! or, "Worth Makes the Man"</title> <title
@@ -738,11 +748,11 @@
     <bibl n="8.13" xml:id="L0118" type="1_Farce"> <author>Morton, John Maddison</author> <title
      n="betsybakeror">Betsy Baker! or, Too Attentive by Half</title> <title type="sub">A Farce in 1
      Act</title> <note type="firstPerf"><name>Royal Princess's Theatre</name><date when="1850">13
-     Nov. 1850</date></note> <note type="digitizations"><ref
-     target="https://archive.org/details/betsybakerortooa0000mort">Betsy Baker! or, too attentive by
+     Nov. 1850</date></note> <note type="digitizations"><!--Betsy Baker! or, too attentive by
      half : a farce, in one act / by John Maddison Morton, member of the Dramatic authors' society,
-     author of Box and cox, Two Bonnycastles...&amp;c.</ref><ref target="local:L0118.pdf"> local
-     copy </ref>
+     author of Box and cox, Two Bonnycastles...&c.--><ref
+     target="https://archive.org/details/betsybakerortooa0000mort">Internet Archive</ref><ref
+     target="local:L0118.pdf"> local copy </ref>
      <!--mv ~/Downloads/betsybakerortooa0000mort.pdf ~/pCloudDrive/LacyWork/googleBooks/L0118.pdf--></note></bibl>
     <bibl n="8.14" xml:id="L0119" type="1_Farce"> <author>Morton, Thomas</author> <title
      n="gotobedtom">Gotobed Tom!</title> <title type="sub">A Farce in 1 Act</title> <note
@@ -781,10 +791,12 @@
      n="theloanofalover">The Loan of a Lover</title> <title type="sub">A Vaudeville</title> <note
      type="firstPerf"><name>Royal Olympic Theatre</name><date when="1834">29 Sept.
      1834</date></note> <note type="digitizations"><ref
-     target="http://victorian.nuigalway.ie/modx/assets/docs/pdf/Vol09ivLoan.pdf">PDF</ref><ref
-     target="https://archive.org/details/loanoflovervaude0000plan_m3j9">The loan of a lover : a
+     target="http://victorian.nuigalway.ie/modx/assets/docs/pdf/Vol09ivLoan.pdf"
+     >PDF</ref><!--The loan of a lover : a
      vaudeville / by J. R. Planché, author of "Reputation", "Follies of a night", "Grist to the
-     mill", "Captain of the watch"...&amp;c.</ref><ref target="local:L0124.pdf"> local copy </ref>
+     mill", "Captain of the watch"...&c.--><ref
+     target="https://archive.org/details/loanoflovervaude0000plan_m3j9">Internet Archive</ref><ref
+     target="local:L0124.pdf"> local copy </ref>
      <!--mv ~/Downloads/loanoflovervaude0000plan_m3j9.pdf ~/pCloudDrive/LacyWork/googleBooks/L0124.pdf--></note></bibl>
     <bibl n="9.5" xml:id="L0125" type="2_Extravagan"> <author>Planché, J.R.</author> <title
      n="thegoodwomaninthewood">The Good Woman in the Wood</title> <title type="sub">A new and
@@ -793,10 +805,12 @@
      >27 Dec. 1852</date>. Licenced for performance <ref type="ms" target="lcp:LCP_52936_Y">LC
      ms</ref></note> <note type="LCPkeywords"><term>family relationships</term> <term>animals</term>
      <term>Uncle Tom's Cabin</term> <term>property</term> <term>fairies and other supernatural
-     creatures</term> <term>the supernatural.</term> </note><note type="digitizations"><ref
-     target="https://archive.org/details/goodwomaninwoodn0000plan">The good woman in the wood : a
+     creatures</term> <term>the supernatural.</term> </note><note type="digitizations"
+     ><!--The good woman in the wood : a
      new and original fairy extravaganza in two acts, founded on Mademoiselle de la Force's fairy
-     tale 'La bonne femme' / by J.R. Planché.</ref><ref target="local:L0125.pdf"> local copy </ref>
+     tale 'La bonne femme' / by J.R. Planché.--><ref
+     target="https://archive.org/details/goodwomaninwoodn0000plan">Internet Archive</ref><ref
+     target="local:L0125.pdf"> local copy </ref>
      <!--mv ~/Downloads/goodwomaninwoodn0000plan.pdf ~/pCloudDrive/LacyWork/googleBooks/L0125.pdf--></note></bibl>
     <bibl n="9.6" xml:id="L0126" type="1_Burle"> <author>Coyne, Joseph Stirling; Talfourd, Francis
      </author> <title n="leotheterrible">Leo the Terrible</title> <title type="sub">An entirely new
@@ -815,9 +829,10 @@
     <bibl n="9.8" xml:id="L0128" type="1_Farce"> <author>Payne, John Howard</author> <title
      n="twasi">'Twas I!</title> <title type="sub">A Farce in 1 Act</title> <note type="firstPerf"
      ><name>Theatre Royal, Covent Garden</name><date when="1825">3 Dec. 1825</date></note> <note
-     type="digitizations"><ref target="https://archive.org/details/twasifarceinonea0000payn">'Twas
-     I! : a farce in one act / by John Howard Payne.</ref><ref target="local:L0128.pdf"> local copy
-     </ref>
+     type="digitizations"><!--'Twas
+     I! : a farce in one act / by John Howard Payne.--><ref
+     target="https://archive.org/details/twasifarceinonea0000payn">Internet Archive</ref><ref
+     target="local:L0128.pdf"> local copy </ref>
      <!--mv ~/Downloads/twasifarceinonea0000payn.pdf ~/pCloudDrive/LacyWork/googleBooks/L0128.pdf--></note></bibl>
     <bibl n="9.9" xml:id="L0129" type="1_ComicDrama"> <author>Morton, John Maddison</author> <title
      n="wheretheresawillthere...">Where There's a Will There's a Way</title> <title type="sub">A
@@ -849,7 +864,9 @@
      target="lcp:LCP_52937_L">LC ms</ref></note> <note type="LCPkeywords"><term>military</term>
      <term>French influence</term> <term>aristocracy</term> <term>family relationships</term>
      <term>land and farming</term> <term>illness</term> <term>treason</term> <term>murder.</term>
-     </note></bibl>
+     </note><note type="digitizations"><ref
+     target="http://archive.org/details/louisxihistorica00markiala">Internet Archive</ref>; <ref
+     target="local:L0134.pdf">Local copy</ref></note></bibl>
     <bibl n="9.15" status="supplied" xml:id="L0135" type="1_farce"> <title
      n="toparisandbackforfive...">To Paris and back for five pounds</title><title type="sub">An
      original farce in 1 act</title> <author>Morton, John Maddison</author> <note>Title not found in
@@ -864,8 +881,8 @@
      Sadler's Wells</name><date when="1853">21 Feb. 1853</date>. Licenced for performance <ref
      type="ms" target="lcp:LCP_52938_A">LC ms</ref></note> <note type="LCPkeywords"><term>food and
      dining</term> <term>servants.</term> </note><note type="digitizations"><ref
-     target="https://archive.org/details/obstinatefamilyf00londrich"/><ref target="local:L0136.pdf">
-     local copy </ref>
+     target="https://archive.org/details/obstinatefamilyf00londrich">Internet Archive</ref><ref
+     target="local:L0136.pdf"> local copy </ref>
      <!--mv ~/Downloads/obstinatefamilyf00londrich.pdf ~/pCloudDrive/LacyWork/googleBooks/L0136.pdf--></note></bibl>
     <bibl n="10.2" xml:id="L0137" type="5_Play"> <author>Wilkins, John H.</author> <title
      n="civilization">Civilization</title> <title type="sub">A Play in 5 Acts</title> <note
@@ -958,11 +975,12 @@
     <bibl n="10.15" xml:id="L0150" type="1_ComicDrama"> <author>Buckstone, John Baldwin</author>
      <title n="themaidwiththemilking...">The Maid with the Milking Pail</title> <title type="sub">A
      Comic Drama in 1 Act</title> <note type="firstPerf"><name>Theatre Royal Haymarket</name> and
-     <name>Adelphi</name><date>Unknown</date></note> <note type="digitizations"><ref
-     target="https://archive.org/details/maidwithmilkingp0000buck">The maid with the milking pail :
+     <name>Adelphi</name><date>Unknown</date></note> <note type="digitizations"
+     ><!--The maid with the milking pail :
      a comic drama in one act / by John Baldwin Buckstone, author of Married life, The wreck ashore,
-     The dead shot, A kiss in the dark, &amp;c., &amp;c., &amp;c.</ref><ref target="local:L0150.pdf"
-     > local copy </ref>
+     The dead shot, A kiss in the dark, &c., &c., &c.--><ref
+     target="https://archive.org/details/maidwithmilkingp0000buck">Internet Archive</ref><ref
+     target="local:L0150.pdf"> local copy </ref>
      <!--mv ~/Downloads/maidwithmilkingp0000buck.pdf ~/pCloudDrive/LacyWork/googleBooks/L0150.pdf--></note></bibl>
    </div>
    <!-- 76 -->
@@ -986,10 +1004,10 @@
     <bibl n="11.3" xml:id="L0153" type="2_Drama"> <author>Paul, Howard</author> <title n="themobcap"
      >The Mob Cap; or, Love's Disguises</title> <title type="sub">A Domestic Drama in 2 Acts</title>
      <note type="firstPerf"><name>Theatre Royal, Drury Lane</name><date when="1853">13 April
-     1853</date></note> <note type="digitizations"><ref
-     target="https://archive.org/details/thricemarriedper0000paul_d6b1">The mob cap; or, love's
-     disguises : a domestic drama, in two acts / by Howard Paul.</ref><ref target="local:L0153.pdf">
-     local copy </ref>
+     1853</date></note> <note type="digitizations"><!--The mob cap; or, love's
+     disguises : a domestic drama, in two acts / by Howard Paul.--><ref
+     target="https://archive.org/details/thricemarriedper0000paul_d6b1">Internet Archive</ref><ref
+     target="local:L0153.pdf"> local copy </ref>
      <!--mv ~/Downloads/thricemarriedper0000paul_d6b1.pdf ~/pCloudDrive/LacyWork/googleBooks/L0153.pdf--></note></bibl>
     <bibl n="11.4" xml:id="L0154" type="3_Comedy"> <author>Lawrence, Slingsby [G.H. Lewes]</author>
      <title n="thelawyers">The Lawyers</title> <title type="sub">A Comedy in 3 Acts</title> <note
@@ -1029,8 +1047,8 @@
      type="firstPerf"><name>Royal Olympic Theatre</name><date when="1853">4 July 1853</date></note>
      <note type="digitizations"><ref
      target="http://victorian.nuigalway.ie/modx/assets/docs/pdf/Vol11ixShylock.pdf">PDF</ref><ref
-     target="https://archive.org/details/shylockormerchan00talf"/><ref target="local:L0159.pdf">
-     local copy </ref>
+     target="https://archive.org/details/shylockormerchan00talf">Internet Archive</ref><ref
+     target="local:L0159.pdf"> local copy </ref>
      <!--mv ~/Downloads/shylockormerchan00talf.pdf ~/pCloudDrive/LacyWork/googleBooks/L0159.pdf--></note></bibl>
     <bibl n="11.10" xml:id="L0160" type="1_Farce"> <author>Parry, Tom</author> <title n="pp">P.P.;
      or, The Man and the Tiger</title> <title type="sub">A Farce in 1 Act</title> <note
@@ -1061,9 +1079,10 @@
     <bibl n="11.15" xml:id="L0165" type="1_Farce"> <author>Planché, J.R.</author> <title
      n="somebodyelse">Somebody Else</title> <title type="sub">A Farce in 1 Act</title> <note
      type="firstPerf"><name>Theatre Royal Haymarket</name><date>Unknown</date></note> <note
-     type="digitizations"><ref target="https://archive.org/details/somebodyelsefarc0000plan"
-     >Somebody else : a farce, in one act : J. R. Planchè, author of Not a bad judge; The
-     Jenkinses...&amp;c.</ref><ref target="local:L0165.pdf"> local copy </ref>
+     type="digitizations"
+     ><!--Somebody else : a farce, in one act : J. R. Planchè, author of Not a bad judge; The
+     Jenkinses...&c.--><ref target="https://archive.org/details/somebodyelsefarc0000plan"
+     >Internet Archive</ref><ref target="local:L0165.pdf"> local copy </ref>
      <!--mv ~/Downloads/somebodyelsefarc0000plan.pdf ~/pCloudDrive/LacyWork/googleBooks/L0165.pdf--></note></bibl>
    </div>
    <!-- 78 -->
@@ -1168,9 +1187,9 @@
      Licenced for performance <ref type="ms" target="lcp:LCP_52943_N">LC ms</ref></note> <note
      type="LCPkeywords"><term>French influence</term> <term>theatre</term> <term>cross
      dressing</term> <term>impersonation</term> <term>English characters</term> <term>Paris</term>
-     <term>military.</term> </note><note type="digitizations"><ref
-     target="https://archive.org/details/petofpublicfarce0000stir">A pet of the public : a farce in
-     one act.</ref><ref target="local:L0180.pdf"> local copy </ref>
+     <term>military.</term> </note><note type="digitizations"><!--A pet of the public : a farce in
+     one act.--><ref target="https://archive.org/details/petofpublicfarce0000stir">Internet
+     Archive</ref><ref target="local:L0180.pdf"> local copy </ref>
      <!--mv ~/Downloads/.pdf ~/pCloudDrive/LacyWork/googleBooks/L0180.pdf--></note></bibl>
    </div>
    <!-- 79 -->
@@ -1222,9 +1241,9 @@
     <bibl n="13.8" xml:id="L0188" type="1_ComicDrama"> <author>[Anon.]</author> <title
      n="thefirstnight">The First Night</title> <title type="sub">A Comic Drama in 1 Act</title>
      <note type="firstPerf"><name>Royal Princess's Theatre</name><date when="1849">1 Oct.
-     1849</date></note> <note type="digitizations"><ref
-     target="https://archive.org/details/firstnightcomicd0000wiga">The first night : a comic drama
-     in one act / [anon].</ref><ref target="local:L0188.pdf"> local copy </ref>
+     1849</date></note> <note type="digitizations"><!--The first night : a comic drama
+     in one act / [anon].--><ref target="https://archive.org/details/firstnightcomicd0000wiga"
+     >Internet Archive</ref><ref target="local:L0188.pdf"> local copy </ref>
      <!--mv ~/Downloads/firstnightcomicd0000wiga.pdf ~/pCloudDrive/LacyWork/googleBooks/L0188.pdf--></note></bibl>
     <bibl n="13.9" xml:id="L0189" type="2_ComicDrama"> <author>Lemon, Mark</author> <title
      n="theladiesclub">The Ladies' Club</title> <title type="sub">A Comic Drama in 2 Acts</title>
@@ -1236,8 +1255,8 @@
      n="perfection">Perfection; or, The Lady of Munster</title> <title type="sub">A Comedy in 1
      Act</title> <note type="firstPerf"><name>Theatre Royal, Drury Lane</name><date when="1830">15
      March 1830</date></note> <note type="digitizations"><ref
-     target="https://archive.org/details/perfectionorlad00baylgoog"/><ref target="local:L0190.pdf">
-     local copy </ref>
+     target="https://archive.org/details/perfectionorlad00baylgoog">Internet Archive</ref><ref
+     target="local:L0190.pdf"> local copy </ref>
      <!--mv ~/Downloads/perfectionorlad00baylgoog.pdf ~/pCloudDrive/LacyWork/googleBooks/L0190.pdf--></note></bibl>
     <bibl n="13.11" xml:id="L0191" type="3_Drama"> <author>[Anon. (Tom Taylor; Lang)], J. </author>
      <title n="plotandpassion">Plot and Passion</title> <title type="sub">An Original Drama in 3
@@ -1343,15 +1362,16 @@
      n="thefolliesofanight">The Follies of a Night</title> <title type="sub">A Vaudeville Comedy in
      2 Acts</title> <note type="firstPerf"><name>Theatre Royal, Drury Lane</name><date when="1842">5
      Oct. 1842</date></note> <note type="digitizations"><ref
-      target="https://hdl.handle.net/2027/osu.32435054681622">HathiTrust</ref>; <ref target="local:L0209.pdf"> local copy </ref></note></bibl>
+     target="https://hdl.handle.net/2027/osu.32435054681622">Hathi Trust</ref>; <ref
+     target="local:L0209.pdf"> local copy </ref></note></bibl>
     <bibl n="14.15" xml:id="L0210" type="1_Farce"> <author>Lunn, Joseph</author> <title
      n="familyjars">Family Jars</title> <title type="sub">A Farce in 1 Act</title> <note
      type="firstPerf"><name>Theatre Royal Haymarket</name><date when="1822">26 April
-     1822</date></note> <note type="digitizations"><ref
-     target="https://archive.org/details/familyjarsfarcei0000lunn">Family jars : a farce in one act
+     1822</date></note> <note type="digitizations"><!--Family jars : a farce in one act
      / by Joseph Lunn, author of Roses and thorns, The widows bewitch'd, Fish out of water, Honest
-     frauds, False and constant, Belford castle, Rhyme and reason, The rights of woman, &amp;c.,
-     &amp;c., &amp;c.</ref><ref target="local:L0210.pdf"> local copy </ref>
+     frauds, False and constant, Belford castle, Rhyme and reason, The rights of woman, &c.,
+     &c., &c.--><ref target="https://archive.org/details/familyjarsfarcei0000lunn">Internet
+     Archive</ref><ref target="local:L0210.pdf"> local copy </ref>
      <!--mv ~/Downloads/familyjarsfarcei0000lunn.pdf ~/pCloudDrive/LacyWork/googleBooks/L0210.pdf--></note></bibl>
    </div>
    <!-- 81 -->
@@ -1381,8 +1401,8 @@
      Acts. Translated from the French of Michael Carré, expressly for this Edition of Plays</title>
      <note type="firstPerf"><name>Théatre de Gymnase-Dramatique</name><date when="1850">19 August
      1850</date></note> <note type="digitizations"><ref
-     target="https://archive.org/details/faustmargueriter00carr"/><ref target="local:L0213.pdf">
-     local copy </ref>
+     target="https://archive.org/details/faustmargueriter00carr">Internet Archive</ref><ref
+     target="local:L0213.pdf"> local copy </ref>
      <!--mv ~/Downloads/faustmargueriter00carr.pdf ~/pCloudDrive/LacyWork/googleBooks/L0213.pdf--></note></bibl>
     <bibl n="15.4" xml:id="L0214" type="_X"> <author>Selby, Charles</author> <title
      n="themarbleheart">The Marble Heart; or, The Sculptor's Dream</title> <title type="sub">A
@@ -1401,12 +1421,13 @@
     <bibl n="15.6" xml:id="L0216" type="2_Drama"> <author>Jerrold, Douglas</author> <title
      n="therentday">The Rent Day</title> <title type="sub">A Domestic Drama in 2 Acts</title> <note
      type="firstPerf"><name>Unknown</name><date when="1852">25 Jan. 1852</date></note> <note
-     type="digitizations"><ref target="https://archive.org/details/rentdaydomesticd0000jerr">The
+     type="digitizations"><!--The
      rent day : a domestic drama, in two acts / by Douglas Jerrold, author of John Overy, Black eyed
      Susan, The bride of Ludgate, Ambrose Gwinett, The housekeeper, The schoolfellows, Beau Nash,
      The prisoner of war, The hazard of the die, Time works wonders, The white milliner, Doves in a
-     cage, The painter of Ghent, St. Cupid, &amp;c., &amp;c.</ref><ref target="local:L0216.pdf">
-     local copy </ref>
+     cage, The painter of Ghent, St. Cupid, &c., &c.--><ref
+     target="https://archive.org/details/rentdaydomesticd0000jerr">Internet Archive</ref><ref
+     target="local:L0216.pdf"> local copy </ref>
      <!--mv ~/Downloads/rentdaydomesticd0000jerr.pdf ~/pCloudDrive/LacyWork/googleBooks/L0216.pdf--></note></bibl>
     <bibl n="15.7" xml:id="L0217" type="2_ComicDrama"> <author>Morton, John Maddison</author> <title
      n="fromvillagetocourt">From Village to Court</title> <title type="sub">A Comic Drama in 2
@@ -1482,8 +1503,8 @@
     <bibl n="16.2" xml:id="L0227" type="1_Farce"> <author>Lemon, Mark</author> <title
      n="amovingtale">A Moving Tale</title> <title type="sub">A Farce in 1 Act</title> <note
      type="firstPerf"><name>Royal Adelphi Theatre</name><date when="1854">7 June 1854</date></note>
-     <note type="digitization"><ref target="https://hdl.handle.net/2027/uiug.30112070137283"
-     >HathiTrust</ref></note></bibl>
+     <note type="digitization"><ref target="https://hdl.handle.net/2027/uiug.30112070137283">Hathi
+     Trust</ref></note></bibl>
     <bibl n="16.3" xml:id="L0228" type="2_Drama"> <author>Johnstone, J.B.</author> <title
      n="benbolt">Ben Bolt</title> <title type="sub">An Original Drama in 2 Acts</title> <note
      type="firstPerf"><name>Royal Surrey Theatre</name><date when="1854">28 March 1854</date>.
@@ -1515,7 +1536,7 @@
      type="firstPerf"><name>Theatre Royal, Drury Lane</name><date when="1842">29 Oct.
      1842</date></note> </bibl>
     <bibl n="16.8" xml:id="L0233" type="1_FarceVaudeville"> <author>Taylor, Tom</author> <title
-     n="ablightedbeing">A Blighted Being</title> <title type="sub">A Farce in 1 Act. Adapted from
+     n="ablightedbeing">A Blighted Being.</title> <title type="sub">A Farce in 1 Act. Adapted from
      the French Vaudeville "Une Existence Décolorée"</title> <note type="firstPerf"><name>Royal
      Olympic Theatre</name><date when="1854">16 Oct. 1854</date>. Licenced for performance <ref
      type="ms" target="lcp:LCP_52949_T">LC ms</ref></note> <note type="LCPkeywords"><term>seaside
@@ -1523,15 +1544,16 @@
      <term>doctors and medicine</term> <term>science and technology</term> <term>the press</term>
      <term>literature and literary reference</term> <term>suicide</term> <term>bachelors.</term>
      </note><note type="digitizations"><ref
-     target="http://victorian.nuigalway.ie/modx/assets/docs/pdf/Vol16viiiBlighted.pdf"
-     >PDF</ref></note></bibl>
+     target="http://victorian.nuigalway.ie/modx/assets/docs/pdf/Vol16viiiBlighted.pdf">PDF</ref>;
+     <ref target="http://archive.org/details/blightedbeingfar00taylrich">Internet Archive</ref>;
+     <ref target="local:L0233.pdf">Local copy</ref></note></bibl>
     <bibl n="16.9" xml:id="L0234" type="1_Comedietta"> <author>Troughton, Adolphus Charles</author>
      <title n="livingtoofast">Living Too Fast; or, A Twelvemonth's Honeymoon</title> <title
      type="sub">A Comedietta in 1 Act</title> <note type="firstPerf"><name>Royal Princess's
      Theatre</name><date when="1854">9 Oct. 1854</date>. Licenced for performance <ref type="ms"
      target="lcp:LCP_52948_AA">LC ms</ref></note> <note type="LCPkeywords"><term>adultery</term>
      <term>property</term> <term>politicians</term> <term>family relationships</term> <term>debt and
-     its consequences</term> <term>suicide.</term> </note></bibl>
+     its consequences</term> <term>suicide.</term> </note> </bibl>
     <bibl n="16.10" xml:id="L0235" type="1_Farce"> <author>Addison, H.R.</author> <title
      n="sophiassupper">Sophia's Supper</title> <title type="sub">A Farce in 1 Act</title> <note
      type="firstPerf"><name>Royal Surrey Theatre</name><date when="1849">30 April 1849</date></note> </bibl>
@@ -1554,10 +1576,11 @@
     <bibl n="16.13" xml:id="L0238" type="1_Farce"> <author>Stocqueler, J.H.</author> <title
      n="anobjectofinterest">An Object of Interest</title> <title type="sub">A Farce in 1 Act</title>
      <note type="firstPerf"><name>Theatre Royal Lyceum</name><date when="1845">14 July
-     1845</date></note> <note type="digitizations"><ref
-     target="https://archive.org/details/objectofinterest0000stoc">An object of interest : a farce,
+     1845</date></note> <note type="digitizations"><!--An object of interest : a farce,
      in one act / by J. H. Stocqueler, Esq. author of Polkamania, A good name, The seven champions
-     of Christendom, &amp;c., &amp;c.</ref><ref target="local:L0238.pdf"> local copy </ref>
+     of Christendom, &c., &c.--><ref
+     target="https://archive.org/details/objectofinterest0000stoc">Internet Archive</ref><ref
+     target="local:L0238.pdf"> local copy </ref>
      <!--mv ~/Downloads/objectofinterest0000stoc.pdf ~/pCloudDrive/LacyWork/googleBooks/L0238.pdf--></note></bibl>
     <bibl n="16.14" xml:id="L0239" type="_Farce"> <author>Brough, William</author> <title
      n="bonâfidetravellersapo...">Bonâ Fide Travellers (A Point of Law, Arising out of the New Beer
@@ -1603,7 +1626,7 @@
      <title type="sub">A New and Original Fairy Extravaganza in 1 Act</title> <note type="firstPerf"
      ><name>Royal Olympic Theatre</name><date when="1854">26 Dec. 1854</date></note> <note
      type="digitizations"><ref target="http://dbooks.bodleian.ox.ac.uk/books/PDFs/555095391.pdf"
-     >Bodleian</ref></note></bibl>
+     >Bodleian Library Shuttleworth 67 (1)</ref></note></bibl>
     <bibl n="17.6" xml:id="L0246" type="2_Drama"> <author>Taylor, Tom P.</author> <title
      n="thebottle">The Bottle</title> <title type="sub">A Drama in 2 Acts. Founded upon the Graphic
      Illustrations of George Cruikshank, Esq.</title> <note type="firstPerf"><name>City of London
@@ -1632,8 +1655,8 @@
      <title n="aroughdiamond">A Rough Diamond</title> <title type="sub">A Comic Drama in 1
      Act</title> <note type="firstPerf"><name>Royal Lyceum Theatre</name><date when="1847">8 Nov.
      1847</date></note> <note type="digitizations"><ref
-     target="https://www.gutenberg.org/files/46138/46138-h/46138-h.htm">Gutenberg</ref><ref
-     target="https://hdl.handle.net/2027/uc1.31175035142085">Hathi Trust</ref><ref
+     target="https://www.gutenberg.org/files/46138/46138-h/46138-h.htm">Project Gutenberg</ref>;
+     <ref target="https://hdl.handle.net/2027/uc1.31175035142085">Hathi Trust</ref><ref
      target="local:L0250.pdf">local copy</ref></note></bibl>
     <bibl n="17.11" xml:id="L0251" type="1_ComicDrama"> <author>Buckstone, John Baldwin</author>
      <title n="goodfornothing">Good for Nothing</title> <title type="sub">A Comic Drama in 1
@@ -1651,9 +1674,9 @@
      and Adapted from "Un Caprice"</title> <note type="firstPerf"><name>Théàtre Français
      </name><date>Unknown</date></note> <note type="otherPerfs"><name>Royal Lyceum
      Theatre</name><title type="alt">A Charming Widow</title><date when="1847">27 Nov.
-     1847</date></note> <note type="digitizations"><ref
-     target="https://archive.org/details/goodlittlewifeco0000muss">A good little wife : a comedy, in
-     one act / translated and adapted from "Un caprice" by Alfred de Musset.</ref><ref
+     1847</date></note> <note type="digitizations"><!--A good little wife : a comedy, in
+     one act / translated and adapted from "Un caprice" by Alfred de Musset.--><ref
+     target="https://archive.org/details/goodlittlewifeco0000muss">Internet Archive</ref><ref
      target="local:L0253.pdf">local copy</ref><ref target="local:L0253.pdf"> local copy </ref>
      <!--mv ~/Downloads/goodlittlewifeco0000muss.pdf ~/pCloudDrive/LacyWork/googleBooks/L0253.pdf--></note></bibl>
     <bibl n="17.14" xml:id="L0254" type="1_Farce"> <author>Paul, Howard</author> <title
@@ -1664,11 +1687,11 @@
      n="thethreemusketeers">The Three Musketeers; or, The Queen, the Cardinal, and the
      Adventurer</title> <title type="sub">A Drama in 3 Acts. Founded on Dumas' Celebrated
      Romance</title> <note type="firstPerf"><name>Manchester</name><date when="1850">2 Aug.
-     1850</date></note> <note type="digitizations"><ref
-     target="https://archive.org/details/threemusketeerso0000rice">The three musketeers; or, the
+     1850</date></note> <note type="digitizations"><!--The three musketeers; or, the
      Queen, the Cardinal, and the adventurer : a drama, in three acts / founded on Dumas' celebrated
      romance;by Charles Rice, comedian, author of "The bride", "Quatre Bras", "Painter of Rome"...,
-     &amp;c.</ref><ref target="local:L0255.pdf"> local copy </ref>
+     &c.--><ref target="https://archive.org/details/threemusketeerso0000rice">Internet
+     Archive</ref><ref target="local:L0255.pdf"> local copy </ref>
      <!--mv ~/Downloads/threemusketeerso0000rice.pdf ~/pCloudDrive/LacyWork/googleBooks/L0255.pdf--></note></bibl>
    </div>
    <!-- 84 -->
@@ -1676,11 +1699,11 @@
     <bibl n="18.1" xml:id="L0256" type="2_ComicDrama"> <author>Dance, Charles</author> <title
      n="awonderfulwoman">A Wonderful Woman</title> <title type="sub">A Comic Drama in 2 Acts</title>
      <note type="firstPerf"><name>Royal Lyceum Theatre</name><date when="1849">24 May
-     1849</date></note> <note type="digitizations"><ref
-     target="https://archive.org/details/wonderfulwomanco0000danc">A wonderful woman : a comic
+     1849</date></note> <note type="digitizations"><!--A wonderful woman : a comic
      drama, in two acts / by Charles Dance, Esq., (member of the Dramatic Authors' Society), author
-     of "Delicate ground", "The country squire"...&amp;c.</ref><ref target="local:L0256.pdf"> local
-     copy </ref>
+     of "Delicate ground", "The country squire"...&c.--><ref
+     target="https://archive.org/details/wonderfulwomanco0000danc">Internet Archive</ref><ref
+     target="local:L0256.pdf"> local copy </ref>
      <!--mv ~/Downloads/wonderfulwomanco0000danc.pdf ~/pCloudDrive/LacyWork/googleBooks/L0256.pdf--></note></bibl>
     <bibl n="18.2" xml:id="L0257" type="1_Farce"> <author>Robertson, T.W.</author> <title
      n="mywifesdiary">My Wife's Diary</title> <title type="sub">A Farce in 1 Act. Translated and
@@ -1731,10 +1754,11 @@
      target="lcp:LCP_52953_P">LC ms</ref></note> <note type="LCPkeywords"><term>Spanish
      influence</term> <term>peasants</term> <term>dance</term> <term>travel</term>
      <term>orphans</term> <term>aristocracy</term> <term>festivals and celebration</term>
-     <term>disguise</term> <term>impersonation.</term> </note><note type="digitizations"><ref
-     target="https://archive.org/details/muleteeroftoledo0000mort">The muleteer of Toledo; or, King,
+     <term>disguise</term> <term>impersonation.</term> </note><note type="digitizations"
+     ><!--The muleteer of Toledo; or, King,
      queen and knave : a comic drama, in two acts / by John Maddison Morton, author of Away with
-     melancholy, From village to court, Whitebait at Greenwich...&amp;c.</ref><ref
+     melancholy, From village to court, Whitebait at Greenwich...&c.--><ref
+     target="https://archive.org/details/muleteeroftoledo0000mort">Internet Archive</ref><ref
      target="local:L0264.pdf"> local copy </ref>
      <!--mv ~/Downloads/muleteeroftoledo0000mort.pdf ~/pCloudDrive/LacyWork/googleBooks/L0264.pdf--></note></bibl>
     <bibl n="18.10" xml:id="L0265" type="5_Tragedy"> <author>Shakespeare, William</author> <title
@@ -1746,9 +1770,10 @@
      from "Le Chapeau d'un Horologer"</title> <note type="firstPerf">As "Betty Martin", <name>Royal
      Adelphi Theatre</name> <date when="1855">7 March 1855</date></note><note type="otherPerfs"
      ><name>Théàtre du Gymnase</name><date when="1854">16 Dec. 1854</date></note> <note
-     type="digitizations"><ref target="https://archive.org/details/clockmakershatfa0000auth">The
+     type="digitizations"><!--The
      clockmaker's hat : a farce in one act / adapted from "Le chapeau d'un horologer" by Madama
-     Émile de Girardin.</ref><ref target="local:L0266.pdf"> local copy </ref>
+     Émile de Girardin.--><ref target="https://archive.org/details/clockmakershatfa0000auth"
+     >Internet Archive</ref><ref target="local:L0266.pdf"> local copy </ref>
      <!--mv ~/Downloads/clockmakershatfa0000auth.pdf ~/pCloudDrive/LacyWork/googleBooks/L0266.pdf--></note></bibl>
     <bibl n="18.12" xml:id="L0267" type="2_Drama"> <author>Prest, Thomas Peckett</author> <title
      n="themiserofshoreditch">The Miser of Shoreditch</title> <title type="sub">An Original Romantic
@@ -1806,22 +1831,24 @@
      n="fortunio">Fortunio, and his Seven Gifted Servants</title> <title type="sub">A Fairy
      Extravaganza in 2 Acts. Founded on the Popular Nursery Tale by the Countess D'Anois</title>
      <note type="firstPerf"><name>Theatre Royal Drury Lane</name><date when="1843">17 April
-     1843</date></note> <note type="digitizations"><ref
-     target="https://archive.org/details/fortuniohisseven0000plan">Fortunio, and his seven gifted
+     1843</date></note> <note type="digitizations"><!--Fortunio, and his seven gifted
      servants : a fairy extravaganza, in two acts / founded on the popular nursery tale by the
      Countess D'Anois;and dramtized by J. R. Planché, Esq., author of Blue beard, Sleeping beauty,
-     Bee and the orange tree..., &amp;c.</ref><ref target="local:L0276.pdf"> local copy </ref>
+     Bee and the orange tree..., &c.--><ref
+     target="https://archive.org/details/fortuniohisseven0000plan">Internet Archive</ref><ref
+     target="local:L0276.pdf"> local copy </ref>
      <!--mv ~/Downloads/fortuniohisseven0000plan.pdf ~/pCloudDrive/LacyWork/googleBooks/L0276.pdf--></note></bibl>
     <bibl n="19.7" xml:id="L0277" type="1_Extravagan"> <author>Planché, J.R.</author> <title
      n="theinvisibleprince">The Invisible Prince; or, the Island of Tranquil Delights</title> <title
      type="sub">A Grand Fairy Extravaganza in 1 Act. Founded on the Countess D'Aulnoy's Fairy Tale
      of "Prince Lutin"</title> <note type="firstPerf"><name>Theatre Royal Haymarket </name><date
      when="1846">26 Dec. 1846</date></note><note type="otherPerfs"><name>New Adelphi</name><date
-     when="1859">10 Feb. 1859</date></note> <note type="digitizations"><ref
-     target="https://archive.org/details/invisibleprinceo0000plan">The invisible prince; or, The
+     when="1859">10 Feb. 1859</date></note> <note type="digitizations"
+     ><!--The invisible prince; or, The
      island of tranquil delights : a grand fairy extravaganza, in one act / founded on the Countess
      D'Aulnoy's fairy tale of "Prince Lutin";by J. R. Planché, Esq., author of Fortunio, Blue beard,
-     Sleeping beauty...&amp;c.</ref><ref target="local:L0277.pdf"> local copy </ref>
+     Sleeping beauty...&c.--><ref target="https://archive.org/details/invisibleprinceo0000plan"
+     >Internet Archive</ref><ref target="local:L0277.pdf"> local copy </ref>
      <!--mv ~/Downloads/invisibleprinceo0000plan.pdf ~/pCloudDrive/LacyWork/googleBooks/L0277.pdf--></note></bibl>
     <bibl n="19.8" xml:id="L0278" type="_ComicExtravagan"> <author>Planché, J.R.</author> <title
      n="theislandofjewels">The Island of Jewels</title> <title type="sub">An Original Grand, Comic,
@@ -1836,11 +1863,11 @@
      n="thekingofthepeacocks">The King of the Peacocks</title> <title type="sub">An Original Fairy
      Extravaganza in 2 Acts. Founded on the Countess D'Anois's story "La Princesse Rosette"</title>
      <note type="firstPerf"><name>Royal Lyceum Theatre</name><date when="1848">26 Dec.
-     1848</date></note> <note type="digitizations"><ref
-     target="https://archive.org/details/kingofpeacocksor0000plan">The King of the peacocks : an
+     1848</date></note> <note type="digitizations"><!--The King of the peacocks : an
      original fairy extravaganza in two acts / founded upon the Countess D'Anois' story "La
      princesse Rosette";by J. R. Planché, Esq. author of Fortunio - Blue beard - Sleeping
-     beauty...&amp;c.</ref><ref target="local:L0280.pdf"> local copy </ref>
+     beauty...&c.--><ref target="https://archive.org/details/kingofpeacocksor0000plan">Internet
+     Archive</ref><ref target="local:L0280.pdf"> local copy </ref>
      <!--mv ~/Downloads/kingofpeacocksor0000plan.pdf ~/pCloudDrive/LacyWork/googleBooks/L0280.pdf--></note></bibl>
     <bibl n="19.11" xml:id="L0281" type="2_ComicExtravagan"> <author>Planché, J.R.</author> <title
      n="theprinceofhappyland">The Prince of Happy Land; or, the Fawn in the Forest</title> <title
@@ -1921,18 +1948,20 @@
      J.R.</author> <title n="gristtothemill">Grist to the Mill</title> <title type="sub">A Comic
      Drama in 2 Acts. This little Comedy is Founded upon a One Act Vaudeville, entitled "La Marquise
      de Carabas"</title> <note type="firstPerf"><name>Theatre Royal Haymarket</name><date
-     when="1844">22 Feb. 1844</date></note> <note type="digitizations"><ref
-     target="https://archive.org/details/gristtomillcomic0000plan">Grist to the mill : a comic
+     when="1844">22 Feb. 1844</date></note> <note type="digitizations"
+     ><!--Grist to the mill : a comic
      drama, in two acts / by J. R. Planché author of the "Sleeping beauty", "Beauty and the beast",
-     "Not a bad judge"..., &amp;c.</ref><ref target="local:L0295.pdf"> local copy </ref>
+     "Not a bad judge"..., &c.--><ref
+     target="https://archive.org/details/gristtomillcomic0000plan">Internet Archive</ref><ref
+     target="local:L0295.pdf"> local copy </ref>
      <!--mv ~/Downloads/gristtomillcomic0000plan.pdf ~/pCloudDrive/LacyWork/googleBooks/L0295.pdf--></note></bibl>
     <bibl n="20.11" xml:id="L0296" type="2_ComicDrama"> <author>Planché, J.R.</author> <title
      n="theirishpost">The Irish Post</title> <title type="sub">A Comic Drama in 2 Acts</title> <note
      type="firstPerf"><name>Theatre Royal Haymarket</name><date when="1846">28 Feb.
      1846</date></note> <note type="digitizations"><ref
      target="http://victorian.nuigalway.ie/modx/assets/docs/pdf/Vol20xiIrish.pdf">PDF</ref><ref
-     target="https://archive.org/details/irishpostcomicdr00planrich"/><ref target="local:L0296.pdf">
-     local copy </ref>
+     target="https://archive.org/details/irishpostcomicdr00planrich">Internet Archive</ref><ref
+     target="local:L0296.pdf"> local copy </ref>
      <!--mv ~/Downloads/irishpostcomicdr00planrich.pdf ~/pCloudDrive/LacyWork/googleBooks/L0296.pdf--></note></bibl>
     <bibl n="20.12" xml:id="L0297" type="2_ComicDrama"> <author>Planché, J.R.</author> <title
      n="theprideofthemarket">The Pride of the Market</title> <title type="sub">A Comic Drama in 2
@@ -1970,8 +1999,8 @@
     <bibl n="21.4" xml:id="L0304" type="_ComicOpera"> <author>Gay, John</author> <title
      n="thebeggarsopera">The Beggar's Opera</title> <title type="sub">A Comic Opera</title> <note
      type="firstPerf"><name>Unknown</name><date>Unknown</date></note> </bibl>
-    <bibl n="21.5" xml:id="L0305" type="1_ComicDrama"> <author>Simpson, John Palgrave</author> <title
-     n="onlyaclod">Only a Clod</title> <title type="sub">A Comic Drama in 1 Act</title> <note
+    <bibl n="21.5" xml:id="L0305" type="1_ComicDrama"> <author>Simpson, John Palgrave</author>
+     <title n="onlyaclod">Only a Clod</title> <title type="sub">A Comic Drama in 1 Act</title> <note
      type="firstPerf"><name>Royal Lyceum Theatre</name><date when="1851">20 May 1851</date></note>
      <note type="digitizations"><ref
      target="http://victorian.nuigalway.ie/modx/assets/docs/pdf/Vol21vOnly.pdf"
@@ -1990,10 +2019,11 @@
      in 1 Act. A translation from "La Munière de Marly"</title> <note type="firstPerf"
      ><name>Sadler's Wells</name><date when="1849">17 Oct. 1849</date></note> <note
      type="digitizations"><ref
-     target="http://victorian.nuigalway.ie/modx/assets/docs/pdf/Vol21viiiMistress.pdf">PDF</ref><ref
-     target="https://archive.org/details/mistressofmillco0000monc">The mistress of the mill : a
-     comedietta in one act / by W. T. Moncrieff, Esq.</ref><ref target="local:L0308.pdf"> local copy
-     </ref>
+     target="http://victorian.nuigalway.ie/modx/assets/docs/pdf/Vol21viiiMistress.pdf"
+     >PDF</ref><!--The mistress of the mill : a
+     comedietta in one act / by W. T. Moncrieff, Esq.--><ref
+     target="https://archive.org/details/mistressofmillco0000monc">Internet Archive</ref><ref
+     target="local:L0308.pdf"> local copy </ref>
      <!--mv ~/Downloads/mistressofmillco0000monc.pdf ~/pCloudDrive/LacyWork/googleBooks/L0308.pdf--></note></bibl>
     <bibl n="21.9" xml:id="L0309" type="1_Farce"> <author>Younge, Mr. A.</author> <title
      n="thefirstofmay">The First of May</title> <title type="sub">An Original Farce in 1 Act</title>
@@ -2102,9 +2132,10 @@
      n="thestranger">The Stranger</title> <title type="sub">A Drama in 5 Acts. Translated by
      Benjamin Thompson</title> <note type="firstPerf"><name>Theatre Royal Drury Lane</name><date
      when="1798">24 March 1798</date></note> <note type="digitizations"><ref
-     target="http://victorian.nuigalway.ie/modx/assets/docs/pdf/Vol22xiStranger.pdf">PDF</ref><ref
-     target="https://archive.org/details/strangerdramainf0000kotz">The stranger : a drama, in five
-     acts / by Augustus von Kotzebue;translated by Benjamin Thompson.</ref><ref
+     target="http://victorian.nuigalway.ie/modx/assets/docs/pdf/Vol22xiStranger.pdf"
+     >PDF</ref><!--The stranger : a drama, in five
+     acts / by Augustus von Kotzebue;translated by Benjamin Thompson.--><ref
+     target="https://archive.org/details/strangerdramainf0000kotz">Internet Archive</ref><ref
      target="local:L0326.pdf"> local copy </ref>
      <!--mv ~/Downloads/strangerdramainf0000kotz.pdf ~/pCloudDrive/LacyWork/googleBooks/L0326.pdf--></note></bibl>
     <bibl n="22.12" xml:id="L0327" type="1_Farce"> <author>Morton, John Maddison</author> <title
@@ -2168,8 +2199,8 @@
      n="mywifesmother">My Wife's Mother</title> <title type="sub">A Comic Drama in 2 Acts</title>
      <note type="firstPerf"><name>Theatre Royal Haymarket</name><date when="1833">3 July
      1833</date></note> <note type="digitizations"><ref
-     target="https://archive.org/details/mywifesmothercom00mathrich"/><ref target="local:L0336.pdf">
-     local copy </ref>
+     target="https://archive.org/details/mywifesmothercom00mathrich">Internet Archive</ref><ref
+     target="local:L0336.pdf"> local copy </ref>
      <!--mv ~/Downloads/mywifesmothercom00mathrich.pdf ~/pCloudDrive/LacyWork/googleBooks/L0336.pdf--></note></bibl>
     <bibl n="23.7" xml:id="L0337" type="1_Comedy"> <author>Dance, Charles</author> <title
      n="whospeaksfirst">Who Speaks First?</title> <title type="sub">A Petite Comedy in 1 Act</title>
@@ -2182,10 +2213,10 @@
     <bibl n="23.9" xml:id="L0339" type="1_Farce"> <author>Bernard, Bayle</author> <title
      n="thefoursisters">The Four Sisters</title> <title type="sub">An Original Farce in 1
      Act</title> <note type="firstPerf"><name>Strand Theatre</name><date when="1832">3 May
-     1832</date></note> <note type="digitizations"><ref
-     target="https://archive.org/details/foursistersorigi0000bern">The four sisters : an original
+     1832</date></note> <note type="digitizations"><!--The four sisters : an original
      farce in one act / by Bayle Bernard, author of The dumb belle; A practical
-     man...&amp;c.</ref><ref target="local:L0339.pdf"> local copy </ref>
+     man...&c.--><ref target="https://archive.org/details/foursistersorigi0000bern">Internet
+     Archive</ref><ref target="local:L0339.pdf"> local copy </ref>
      <!--mv ~/Downloads/foursistersorigi0000bern.pdf ~/pCloudDrive/LacyWork/googleBooks/L0339.pdf--></note></bibl>
     <bibl n="23.10" xml:id="L0340" type="3_Comedy"> <author>Coyne, Joseph Stirling</author> <title
      n="themanofmanyfriends">The Man of Many Friends</title> <title type="sub">An Original Comedy in
@@ -2193,8 +2224,8 @@
      Sept. 1855</date>. Licenced for performance <ref type="ms" target="lcp:LCP_52955_P">LC
      ms</ref></note> <note type="LCPkeywords"><term>suburbs</term> <term>working class
      characters</term> <term>London</term> <term>animals</term> <term>travel.</term> </note><note
-     type="digitizations"><ref target="https://archive.org/details/manofmanyfriends00coynuoft"/><ref
-     target="local:L0340.pdf"> local copy </ref>
+     type="digitizations"><ref target="https://archive.org/details/manofmanyfriends00coynuoft"
+     >Internet Archive</ref><ref target="local:L0340.pdf"> local copy </ref>
      <!--mv ~/Downloads/manofmanyfriends00coynuoft.pdf ~/pCloudDrive/LacyWork/googleBooks/L0340.pdf--></note></bibl>
     <bibl n="23.11" xml:id="L0341" type="1_Interlude"> <author>Dance, George</author> <title
      n="petticoatgovernment">Petticoat Government</title> <title type="sub">An Interlude in 1
@@ -2213,8 +2244,8 @@
      type="otherPerfs"><name>Princess's</name> as "<title>Ernestine</title>"; <name>St.
      James's</name> as "Clarisse, or the Foster Sister"; <name>Grecian Saloon</name> as "The Foster
      Sisters"<date when="1855">14 Apr. 1846; 17 Feb. 1855; 1855</date></note> <note
-     type="digitizations"><ref target="https://archive.org/details/nomiedramaintw00enneuoft"/><ref
-     target="local:L0343.pdf"> local copy </ref>
+     type="digitizations"><ref target="https://archive.org/details/nomiedramaintw00enneuoft"
+     >Internet Archive</ref><ref target="local:L0343.pdf"> local copy </ref>
      <!--mv ~/Downloads/nomiedramaintw00enneuoft.pdf ~/pCloudDrive/LacyWork/googleBooks/L0343.pdf--></note></bibl>
     <bibl n="23.14" xml:id="L0344" type="_Opera"> <author>Dibdin, Charles</author> <title
      n="thewaterman">The Waterman; or, the First of August</title> <title type="sub">A Ballad
@@ -2226,9 +2257,10 @@
      <note type="firstPerf"><name>Theatre Royal Haymarket</name><date when="1855">11 Oct.
      1855</date>. Licenced for performance <ref type="ms" target="lcp:LCP_52956_I">LC
      ms</ref></note> <note type="LCPkeywords"><term>marital separation</term> <term>family
-     relationships</term> <term>travel.</term> </note><note type="digitizations"><ref
-     target="https://archive.org/details/littletreasureco0000harr">The little treasure : a comedy in
-     two acts / by A. Harris, author of The avalanche; Too much of a good thing...&amp;c.</ref><ref
+     relationships</term> <term>travel.</term> </note><note type="digitizations"
+     ><!--The little treasure : a comedy in
+     two acts / by A. Harris, author of The avalanche; Too much of a good thing...&c.--><ref
+     target="https://archive.org/details/littletreasureco0000harr">Internet Archive</ref><ref
      target="local:L0345.pdf"> local copy </ref>
      <!--mv ~/Downloads/littletreasureco0000harr.pdf ~/pCloudDrive/LacyWork/googleBooks/L0345.pdf--></note></bibl>
    </div>
@@ -2245,8 +2277,8 @@
      <title n="theheiratlaw">The Heir at Law</title> <title type="sub">A Comedy in 5 Acts</title>
      <note type="firstPerf"><name>Theatre Royal Haymarket</name><date when="1747">15 July
      1747</date></note> <note type="digitizations"><ref
-     target="https://archive.org/details/atlawcomedyi00colmheirrich"/><ref target="local:L0348.pdf">
-     local copy </ref>
+     target="https://archive.org/details/atlawcomedyi00colmheirrich">Internet Archive</ref><ref
+     target="local:L0348.pdf"> local copy </ref>
      <!--mv ~/Downloads/atlawcomedyi00colmheirrich.pdf ~/pCloudDrive/LacyWork/googleBooks/L0348.pdf--></note></bibl>
     <bibl n="24.4" xml:id="L0349" type="3_Tragedy"> <author>Sheil, Richard Lalor</author> <title
      n="evadne">Evadne; or, The Statue</title> <title type="sub">A Tragedy in 3 Acts. Altered from
@@ -2309,17 +2341,18 @@
      type="firstPerf"><name>Royal Olympic Theatre</name><date when="1835">26 Nov. 1835</date></note>
      <note type="digitizations"><ref
      target="http://victorian.nuigalway.ie/modx/assets/docs/pdf/Vol24xivTwice.pdf">PDF</ref><ref
-     target="https://www.gutenberg.org/files/49481/49481-h/49481-h.htm"/><ref
-     target="https://archive.org/details/twicekilledfarce0000oxen">Twice killed : a farce in one act
+     target="https://www.gutenberg.org/files/49481/49481-h/49481-h.htm"
+     /><!--Twice killed : a farce in one act
      / by John Oxenford author of Five pounds reward; Only a half-penny; Reigning favourite; Dice of
-     death, &amp;c. &amp;c.</ref><ref target="local:L0359.pdf"> local copy </ref>
+     death, &c. &c.--><ref target="https://archive.org/details/twicekilledfarce0000oxen"
+     >Internet Archive</ref><ref target="local:L0359.pdf"> local copy </ref>
      <!--mv ~/Downloads/twicekilledfarce0000oxen.pdf ~/pCloudDrive/LacyWork/googleBooks/L0359.pdf--></note></bibl>
     <bibl n="24.15" xml:id="L0360" type="1_Farce"> <author>Coyne, Joseph Stirling</author> <title
      n="urgentprivateaffairs">"Urgent Private Affairs"</title> <title type="sub">An Original Farce
      in 1 Act</title> <note type="firstPerf"><name>Adelphi Theatre</name><date when="1856">7 Jan.
      1856</date></note> <note type="digitizations"><ref
-     target="https://archive.org/details/urgentprivateaff00coynuoft"/><ref target="local:L0360.pdf">
-     local copy </ref>
+     target="https://archive.org/details/urgentprivateaff00coynuoft">Internet Archive</ref><ref
+     target="local:L0360.pdf"> local copy </ref>
      <!--mv ~/Downloads/urgentprivateaff00coynuoft.pdf ~/pCloudDrive/LacyWork/googleBooks/L0360.pdf--></note></bibl>
    </div>
    <!-- 92 -->
@@ -2331,9 +2364,9 @@
      type="ms" target="lcp:LCP_52931_N">LC ms</ref></note> <note type="LCPkeywords"><term>the
      supernatural</term> <term>fairies and other supernatural creatures</term> <term>festivals and
      celebration</term> <term>castles</term> <term>aristocracy</term> <term>food and dining</term>
-     <term>servants.</term> </note><note type="digitizations"><ref
-     target="https://archive.org/details/mephistophelesor0000brou">Mephistopheles; or, an ambassador
-     from below : an extravaganza in one act / by Robert Brough; Edwards, Sutherland.</ref><ref
+     <term>servants.</term> </note><note type="digitizations"><!--Mephistopheles; or, an ambassador
+     from below : an extravaganza in one act / by Robert Brough; Edwards, Sutherland.--><ref
+     target="https://archive.org/details/mephistophelesor0000brou">Internet Archive</ref><ref
      target="local:L0361.pdf"> local copy </ref>
      <!--mv ~/Downloads/mephistophelesor0000brou.pdf ~/pCloudDrive/LacyWork/googleBooks/L0361.pdf--></note></bibl>
     <bibl n="25.2" xml:id="L0362" type="2_Drama"> <author>Blake, Thomas G.</author> <title
@@ -2347,14 +2380,14 @@
      type="firstPerf"><name>Drury Lane </name><date when="1761">1761</date></note><note
      type="otherPerfs"><name>Olympic; Princess's</name><date when="1855">1855; 1855</date></note>
      <note type="digitizations"><ref target="https://archive.org/details/wifecomed00colmjealousrich"
-     /><ref target="local:L0363.pdf"> local copy </ref>
+     >Internet Archive</ref><ref target="local:L0363.pdf"> local copy </ref>
      <!--mv ~/Downloads/wifecomed00colmjealousrich.pdf ~/pCloudDrive/LacyWork/googleBooks/L0363.pdf--></note></bibl>
     <bibl n="25.4" xml:id="L0364" type="_Comedy"> <author>Shakespeare, William</author> <title
      n="themerchantofvenice">The Merchant of Venice</title> <title type="sub">A Comedy</title> <note
      type="firstPerf"><name>Theatre Royal, Drury Lane</name><date when="1814">26 Jan.
      1814</date></note> <note type="digitizations"><ref
-     target="https://archive.org/details/merchantofvenice00shak_14"/><ref target="local:L0364.pdf">
-     local copy </ref>
+     target="https://archive.org/details/merchantofvenice00shak_14">Internet Archive</ref><ref
+     target="local:L0364.pdf"> local copy </ref>
      <!--mv ~/Downloads/merchantofvenice00shak_14.pdf ~/pCloudDrive/LacyWork/googleBooks/L0364.pdf--></note></bibl>
     <bibl n="25.5" xml:id="L0365" type="1_Farce"> <author>Buckstone, John Baldwin</author> <title
      n="johnjones">John Jones</title> <title type="sub">A Farce in 1 Act</title> <note
@@ -2373,10 +2406,11 @@
     <bibl n="25.7" xml:id="L0367" type="2_MusicComedy"> <author>Buckstone, John Baldwin</author>
      <title n="josephine">Josephine, The Child of the Regiment, or The Fortune of War</title> <title
      type="sub">A Musical Comedy in 2 Acts</title> <note type="firstPerf"><name>Theatre Royal
-     Haymarket</name><date>Unknown</date></note> <note type="digitizations"><ref
-     target="https://archive.org/details/josephinechildof0000buck">Josephine, the child of the
+     Haymarket</name><date>Unknown</date></note> <note type="digitizations"
+     ><!--Josephine, the child of the
      regiment, or the fortune of war : a musical comedy, in two acts / by John Baldwin Buckstone,
-     author of the "The rough diamond", "Good for nothing", "Dead shot"...&amp;c.</ref><ref
+     author of the "The rough diamond", "Good for nothing", "Dead shot"...&c.--><ref
+     target="https://archive.org/details/josephinechildof0000buck">Internet Archive</ref><ref
      target="local:L0367.pdf"> local copy </ref>
      <!--mv ~/Downloads/josephinechildof0000buck.pdf ~/pCloudDrive/LacyWork/googleBooks/L0367.pdf--></note></bibl>
     <bibl n="25.8" xml:id="L0368" type="3_Drama"> <author>[Anon.]</author> <title
@@ -2385,8 +2419,8 @@
      type="firstPerf"><name>Theatre des Varieties, Paris </name><date when="1840">15 Feb.
      1840</date></note><note type="otherPerfs"><name>Princess's Theatre</name><date when="1845">20
      May 1845</date></note> <note type="digitizations"><ref
-     target="https://archive.org/details/chevalierdestgeo00robe"/><ref target="local:L0368.pdf">
-     local copy </ref>
+     target="https://archive.org/details/chevalierdestgeo00robe">Internet Archive</ref><ref
+     target="local:L0368.pdf"> local copy </ref>
      <!--mv ~/Downloads/chevalierdestgeo00robe.pdf ~/pCloudDrive/LacyWork/googleBooks/L0368.pdf--></note></bibl>
     <bibl n="25.9" xml:id="L0369" type="_Comedy"> <author>Robson, William</author> <title
      n="comedyandtragedy">Comedy and Tragedy</title> <title type="sub">A Comedy. From the French of
@@ -2397,13 +2431,14 @@
      type="digitizations"><ref
      target="http://victorian.nuigalway.ie/modx/assets/docs/pdf/Vol25ixComedy.pdf"
      >PDF</ref></note></bibl>
-    <bibl n="25.10" xml:id="L0370" type="3_Comedy"> <author>Goldsmith,
-     Oliver <!--wrongly entered as William in VPP list--></author> <title n="shestoopstoconquer">She Stoops to
-     Conquer</title> <title type="sub">A Comedy in 3 Acts</title> <note type="firstPerf"
+    <bibl n="25.10" xml:id="L0370" type="3_Comedy"> <author>Goldsmith, Oliver
+     <!--wrongly entered as William in VPP list--></author> <title n="shestoopstoconquer">She Stoops
+     to Conquer</title> <title type="sub">A Comedy in 3 Acts</title> <note type="firstPerf"
      ><name>Covent Garden </name><date when="1773">15 March 1773</date></note><note
      type="otherPerfs"><name>Haymarket Theatre</name><date when="1856">1856</date></note> <note
-     type="digitizations"><ref target="https://archive.org/details/shestoopstoconqu00gold_4"/><ref
-     target="local:L0370.pdf"> local copy </ref><!-- not Acting Edition -->
+     type="digitizations"><ref target="https://archive.org/details/shestoopstoconqu00gold_4"
+     >Internet Archive</ref><ref target="local:L0370.pdf"> local copy
+     </ref><!-- not Acting Edition -->
      <!--mv ~/Downloads/shestoopstoconqu00gold_4.pdf ~/pCloudDrive/LacyWork/googleBooks/L0370.pdf--></note></bibl>
     <bibl n="25.11" xml:id="L0371" type="2_Drama"> <author>Hazlewood, Colin H.</author> <title
      n="jessyvere">Jessy Vere; or, the Return of the Wanderer</title> <title type="sub">An Original
@@ -2426,10 +2461,10 @@
      March 1856</date>. Licenced for performance <ref type="ms" target="lcp:LCP_52958_Z">LC
      ms</ref></note> <note type="LCPkeywords"><term>Italy</term> <term>Italian influence</term>
      <term>aristocracy</term> <term>French imperialism</term> <term>political revolution.</term>
-     </note><note type="digitizations"><ref
-     target="https://archive.org/details/princeforhourcom0000mort">A prince for an hour : a comic
+     </note><note type="digitizations"><!--A prince for an hour : a comic
      drama in one act / by John Maddison Morton, author of How stout you're getting, The muleteer of
-     Toledo...&amp;c.</ref><ref target="local:L0373.pdf"> local copy </ref>
+     Toledo...&c.--><ref target="https://archive.org/details/princeforhourcom0000mort">Internet
+     Archive</ref><ref target="local:L0373.pdf"> local copy </ref>
      <!--mv ~/Downloads/princeforhourcom0000mort.pdf ~/pCloudDrive/LacyWork/googleBooks/L0373.pdf--></note></bibl>
     <bibl n="25.14" xml:id="L0374" type="2_Drama"> <author>[Anon.]</author> <title n="peterwilkins"
      >Peter Wilkins; or, The Flying Islanders</title> <title type="sub">A Melo-Dramatic Spectacle in
@@ -2471,9 +2506,9 @@
      Woman</title> <title type="sub">A Farce in 1 Act. From the French</title> <note
      type="firstPerf"><name>Royal Coburg Theatre </name><date>Unknown</date></note><note
      type="otherPerfs"><name>Drury Lane</name> under the Management of Madame Vestris and Blanchard
-     <date>Unknown</date></note> <note type="digitizations"><ref
-     target="https://archive.org/details/fifteenyearsofla0000amhe">Fifteen years of labour lost; or,
-     the youth who never saw a woman : a farce, in one act from the French.</ref><ref
+     <date>Unknown</date></note> <note type="digitizations"><!--Fifteen years of labour lost; or,
+     the youth who never saw a woman : a farce, in one act from the French.--><ref
+     target="https://archive.org/details/fifteenyearsofla0000amhe">Internet Archive</ref><ref
      target="local:L0380.pdf"> local copy </ref>
      <!--mv ~/Downloads/fifteenyearsofla0000amhe.pdf ~/pCloudDrive/LacyWork/googleBooks/L0380.pdf--></note></bibl>
     <bibl n="26.6" xml:id="L0381" type="2_Drama"> <author>Rayner, B.F.</author> <title
@@ -2496,10 +2531,11 @@
     <bibl n="26.9" xml:id="L0384" type="3_ComicDramaOpera"> <author>Welstead, Henry</author> <title
      n="giralda">Giralda; or, The Invisible Husband</title> <title type="sub">A Comic Drama in 3
      Acts. Adapted from Scribe's Celebrated Opera</title> <note type="firstPerf"><name>Royal Olympic
-     Theatre</name><date when="1850">12 Sept. 1850</date></note> <note type="digitizations"><ref
-     target="https://archive.org/details/giraldaorinvisib0000wels">Giralda; or, The invisible
+     Theatre</name><date when="1850">12 Sept. 1850</date></note> <note type="digitizations"
+     ><!--Giralda; or, The invisible
      husband : a comic drama in three acts / adapted from Scribe's celebrated opera;by Henry
-     Welstead, Esq.</ref><ref target="local:L0384.pdf"> local copy </ref>
+     Welstead, Esq.--><ref target="https://archive.org/details/giraldaorinvisib0000wels"
+     >Internet Archive</ref><ref target="local:L0384.pdf"> local copy </ref>
      <!--mv ~/Downloads/giraldaorinvisib0000wels.pdf ~/pCloudDrive/LacyWork/googleBooks/L0384.pdf--></note></bibl>
     <bibl n="26.10" xml:id="L0385" type="1_Farce"> <author>Morton, John Maddison</author> <title
      n="therightsandwrongsofw...">The Rights and Wrongs of Woman</title> <title type="sub">A Farce
@@ -2597,10 +2633,11 @@
      n="theprisonerofwar">The Prisoner of War</title> <title type="sub">A Comedy in 2 Acts</title>
      <note type="firstPerf"><name>Theatre Royal, Drury Lane</name><date when="1842">8 Feb.
      1842</date></note> <note type="digitizations"><ref
-     target="http://victorian.nuigalway.ie/modx/assets/docs/pdf/Vol27xPrisoner.pdf">PDF</ref><ref
-     target="https://archive.org/details/prisonerofwarcom0000jerr">The prisoner of war : a comedy,
+     target="http://victorian.nuigalway.ie/modx/assets/docs/pdf/Vol27xPrisoner.pdf"
+     >PDF</ref><!--The prisoner of war : a comedy,
      in two acts / by Douglas Jerrold, author of "The rent day", "Black eyed Susan", "Painter of
-     Ghent"...&amp;c.</ref><ref target="local:L0400.pdf"> local copy </ref>
+     Ghent"...&c.--><ref target="https://archive.org/details/prisonerofwarcom0000jerr">Internet
+     Archive</ref><ref target="local:L0400.pdf"> local copy </ref>
      <!--mv ~/Downloads/prisonerofwarcom0000jerr.pdf ~/pCloudDrive/LacyWork/googleBooks/L0400.pdf--></note></bibl>
     <bibl n="27.11" xml:id="L0401" type="5_Play"> <author>Sheridan, Richard Brinsley</author> <title
      n="pizarro">Pizarro</title> <title type="sub">A Play in 5 Acts. Adapted from the German of
@@ -2694,10 +2731,11 @@
     <bibl n="28.12" xml:id="L0417" type="2_ComicDrama"> <author>Morton, John Maddison</author>
      <title n="ourwife">Our Wife; or, The Rose of Amiens</title> <title type="sub">A Comic Drama in
      2 Acts</title> <note type="firstPerf"><name>Royal Princess's Theatre</name><date when="1850"
-     >Nov. 1850</date></note> <note type="digitizations"><ref target="ia:ourwifeorroseofa0000mort"
-     >Our wife; or, the rose of Amiens : a comic drama in two acts / by John Maddison Morton, author
-     of Friend Waggles - Three cuckoos...&amp;c. </ref><ref target="local:L0417.pdf"> local copy
-     </ref>
+     >Nov. 1850</date></note> <note type="digitizations"
+     ><!-- Our wife; or, the rose of Amiens : a comic drama in two acts / by John Maddison Morton, author
+     of Friend Waggles - Three cuckoos...&amp;c. --><ref
+     target="https://archive.org/details/ourwifeorroseofa0000mort">Internet Archive</ref>; <ref
+     target="local:L0417.pdf"> local copy </ref>
      <!--mv ~/Downloads/.pdf ~/pCloudDrive/LacyWork/googleBooks/L0417.pdf--></note></bibl>
     <bibl n="28.13" xml:id="L0418" type="1_Drama"> <author>Wilks, Thomas Egerton</author> <title
      n="bamboozling">Bamboozling</title> <title type="sub">An Original Drama in 1 Act</title> <note
@@ -2720,8 +2758,9 @@
      Dec. 1856</date>. Licenced for performance <ref type="ms" target="lcp:LCP_52963_AA">LC
      ms</ref></note> <note type="LCPkeywords"><term>fairies and other supernatural creatures</term>
      <term>animals</term> <term>festival and celebration</term> <term>castles.</term> </note><note
-     type="digitizations"><ref target="https://archive.org/details/younghandsomenew0000plan">Young
-     and handsome : a new and original fairy extravaganza, in one act ...</ref><ref
+     type="digitizations"><!--Young
+     and handsome : a new and original fairy extravaganza, in one act ...--><ref
+     target="https://archive.org/details/younghandsomenew0000plan">Internet Archive</ref><ref
      target="local:L0421.pdf"> local copy </ref>
      <!--mv ~/Downloads/younghandsomenew0000plan.pdf ~/pCloudDrive/LacyWork/googleBooks/L0421.pdf--></note></bibl>
     <bibl n="29.2" xml:id="L0422" type="_ComicPantomime"> <author>Morton, John Maddison</author>
@@ -2737,12 +2776,13 @@
      target="lcp:LCP_52963_X">LC ms</ref></note> <note type="LCPkeywords"><term>dance</term>
      <term>fairies and other supernatural creatures</term> <term>nautical interest</term> <term>land
      and farming</term> <term>entertainment</term> <term>black characters</term> <term>slavery and
-     abolitionism</term> <term>Mont Blanc.</term> </note><note type="digitizations"><ref
-     target="https://archive.org/details/conradmedoraorha0000brou">Conrad and Medora; or, Harlequin
+     abolitionism</term> <term>Mont Blanc.</term> </note><note type="digitizations"
+     ><!--Conrad and Medora; or, Harlequin
      corsair and the little fairy at the bottom of the sea : a new Christmas burlesque and pantomime
      / founded upon the Ballet of "Le Corsaire";by William Brough, author of Perdita, or the royal
-     milkmaid, Prince Prettypet and the butterfly.</ref><ref target="local:L0423.pdf"> local copy
-     </ref>
+     milkmaid, Prince Prettypet and the butterfly.--><ref
+     target="https://archive.org/details/conradmedoraorha0000brou">Internet Archive</ref><ref
+     target="local:L0423.pdf"> local copy </ref>
      <!--mv ~/Downloads/conradmedoraorha0000brou.pdf ~/pCloudDrive/LacyWork/googleBooks/L0423.pdf--></note></bibl>
     <bibl n="29.4" xml:id="L0424" type="1_Farce"> <author>Oxenford, John</author> <title
      n="afamilyfailing">A Family Failing</title> <title type="sub">A Farce in 1 Act</title> <note
@@ -2762,18 +2802,19 @@
      n="thecaptainisnotamiss">The Captain is not A-Miss</title> <title type="sub">A Farce in 1
      Act</title> <note type="firstPerf"><name>English Opera House</name><date when="1836">18 April
      1836</date></note> <note type="digitizations"><ref
-     target="http://victorian.nuigalway.ie/modx/assets/docs/pdf/Vol29viCaptain.pdf">PDF</ref><ref
-     target="https://archive.org/details/captainisnotamis0000wilk">The captain is not a-miss : a
+     target="http://victorian.nuigalway.ie/modx/assets/docs/pdf/Vol29viCaptain.pdf"
+     >PDF</ref><!--The captain is not a-miss : a
      farce in one act / by Thomas Egerton Wilks author of Eily O'Connor - The red crow - Wenlock of
-     Wenlock..., &amp;c.</ref><ref target="local:L0426.pdf"> local copy </ref>
+     Wenlock..., &c.--><ref target="https://archive.org/details/captainisnotamis0000wilk"
+     >Internet Archive</ref><ref target="local:L0426.pdf"> local copy </ref>
      <!--mv ~/Downloads/captainisnotamis0000wilk.pdf ~/pCloudDrive/LacyWork/googleBooks/L0426.pdf--></note></bibl>
     <bibl n="29.7" xml:id="L0427" type="2_Comedy"> <author>Jerrold, Douglas</author> <title
      n="thehousekeeper">The Housekeeper; or, "The White Rose"</title> <title type="sub">A Comedy in
      2 Acts</title> <note type="firstPerf"><name>Theatre Royal Haymarket</name><date when="1833">17
-     July 1833</date></note> <note type="digitizations"><ref
-     target="https://archive.org/details/housekeeperorthe0000jerr">The housekeeper; or, "The white
-     rose" : a comedy in two acts / by Douglas Jerrold.</ref><ref target="local:L0427.pdf"> local
-     copy </ref>
+     July 1833</date></note> <note type="digitizations"><!--The housekeeper; or, "The white
+     rose" : a comedy in two acts / by Douglas Jerrold.--><ref
+     target="https://archive.org/details/housekeeperorthe0000jerr">Internet Archive</ref><ref
+     target="local:L0427.pdf"> local copy </ref>
      <!--mv ~/Downloads/housekeeperorthe0000jerr.pdf ~/pCloudDrive/LacyWork/googleBooks/L0427.pdf--></note></bibl>
     <bibl n="29.8" xml:id="L0428" type="1_Sketch"> <author>Yates, Edmund; Harrington, N.H. </author>
      <title n="anightatnottinghill">A Night at Notting Hill</title> <title type="sub">An Original
@@ -2930,9 +2971,10 @@
     <bibl n="31.4" xml:id="L0454" type="2_Comedy"> <author>Mildenhall, Thomas</author> <title
      n="thegovernorswife">The Governor's Wife</title> <title type="sub">A Comedy in 2 Acts</title>
      <note type="firstPerf"><name>Royal Lyceum Theatre</name><date>Unknown</date></note> <note
-     type="digitizations"><ref target="https://archive.org/details/governorswifecom0000mild">The
+     type="digitizations"><!--The
      governor's wife : a comedy in two acts / by Thomas Mildenhall, author of The post of honour -
-     Marriage certificate - Two heads better than one, &amp;c, &amp;c.</ref><ref
+     Marriage certificate - Two heads better than one, &c, &c.--><ref
+     target="https://archive.org/details/governorswifecom0000mild">Internet Archive</ref><ref
      target="local:L0454.pdf"> local copy </ref>
      <!--mv ~/Downloads/governorswifecom0000mild.pdf ~/pCloudDrive/LacyWork/googleBooks/L0454.pdf--></note></bibl>
     <bibl n="31.5" xml:id="L0455" type="5_Tragedy"> <author>Shakespeare, William</author> <title
@@ -3052,10 +3094,11 @@
     <bibl n="32.11" xml:id="L0476" type="1_Opere"> <author>Buckingham, Leicester; Harris,
      A.</author> <title n="jeanetteswedding">Jeanette's Wedding</title> <title type="sub">An
      Operetta in 1 Act</title> <note type="firstPerf"
-     ><name>Unknown</name><date>Unknown</date></note> <note type="digitizations"><ref
-     target="https://archive.org/details/jeanetteswedding0000buck">Jeanette's wedding : an operetta
-     in one act / by Leicester Buckingham and A. Harris.</ref><ref target="local:L0476.pdf"> local
-     copy </ref>
+     ><name>Unknown</name><date>Unknown</date></note> <note type="digitizations"
+     ><!--Jeanette's wedding : an operetta
+     in one act / by Leicester Buckingham and A. Harris.--><ref
+     target="https://archive.org/details/jeanetteswedding0000buck">Internet Archive</ref><ref
+     target="local:L0476.pdf"> local copy </ref>
      <!--mv ~/Downloads/jeanetteswedding0000buck.pdf ~/pCloudDrive/LacyWork/googleBooks/L0476.pdf--></note></bibl>
     <bibl n="32.12" xml:id="L0477" type="_Burle"> <author>Buckingham, Leicester</author> <title
      n="williamtell">William Tell, A Telling Version of an Old Tell-Tale</title> <title type="sub"
@@ -3111,9 +3154,10 @@
      <note type="LCPkeywords"><term>family relationships</term> <term>bankers</term>
      <term>servants</term> <term>festival and celebration.</term> <term>family relationships</term>
      <term>bankers</term> <term>servants</term> <term>festival and celebration.</term> </note><note
-     type="digitizations"><ref target="https://archive.org/details/leadingstringsco0000trou">Leading
+     type="digitizations"><!--Leading
      strings : a comedy in three acts / by Adolphus Charles Troughton author of Living too fast,
-     &amp;c., &amp;c.</ref><ref target="local:L0486.pdf"> local copy </ref>
+     &c., &c.--><ref target="https://archive.org/details/leadingstringsco0000trou">Internet
+     Archive</ref><ref target="local:L0486.pdf"> local copy </ref>
      <!--mv ~/Downloads/leadingstringsco0000trou.pdf ~/pCloudDrive/LacyWork/googleBooks/L0486.pdf--></note></bibl>
     <bibl n="33.7" xml:id="L0487" type="1_Farce"> <author>Wilks, Thomas Egerton</author> <title
      n="suddenthoughts">Sudden Thoughts</title> <title type="sub">An Original Farce in 1 Act</title>
@@ -3158,8 +3202,9 @@
      ><name>Pavilion Theatre </name><date when="1838">May 1838</date></note><note type="otherPerfs"
      ><name>Royal Surrey Theatre</name><date when="1838">19 Nov. 1838</date></note> <note
      type="digitizations"><ref
-     target="http://victorian.nuigalway.ie/modx/assets/docs/pdf/Vol33xivOliver.pdf"
-     >PDF</ref></note></bibl>
+     target="http://victorian.nuigalway.ie/modx/assets/docs/pdf/Vol33xivOliver.pdf">PDF</ref>; <ref
+     target="http://archive.org/details/ldpd_8257009_000">Internet Archive</ref>; <ref
+     target="local:L0494.pdf">Local copy</ref></note></bibl>
     <bibl n="33.15" xml:id="L0495" type="1_Sketch"> <author>Stirling, Edward</author> <title
      n="apairofpidgeons">A Pair of Pidgeons</title> <title type="sub">An Original Domestic Sketch in
      1 Act</title> <note type="firstPerf"><name>Theatre Royal Lyceum</name><date when="1857"
@@ -3306,9 +3351,10 @@
      Burlesque Burletta</title> <note type="firstPerf"><name>Strand Theatre </name><date when="1858"
      >5 April 1858</date></note><note type="otherPerfs"><name>Strand Theatre</name><date when="1860"
      >10 Sept. 1860</date></note> <note type="digitizations"><ref
-     target="http://victorian.nuigalway.ie/modx/assets/docs/pdf/Vol35xiiFra.pdf">PDF</ref><ref
-     target="https://archive.org/details/fradiavoloorbeau0000byro">Fra Diavolo! or, The beauty and
-     the brigands : a new and original burlesque burletta / by H.J. Byron, Esq.</ref><ref
+     target="http://victorian.nuigalway.ie/modx/assets/docs/pdf/Vol35xiiFra.pdf"
+     >PDF</ref><!--Fra Diavolo! or, The beauty and
+     the brigands : a new and original burlesque burletta / by H.J. Byron, Esq.--><ref
+     target="https://archive.org/details/fradiavoloorbeau0000byro">Internet Archive</ref><ref
      target="local:L0522.pdf"> local copy </ref>
      <!--mv ~/Downloads/fradiavoloorbeau0000byro.pdf ~/pCloudDrive/LacyWork/googleBooks/L0522.pdf--></note></bibl>
     <bibl n="35.13" xml:id="L0523" type="3_Drama"> <author>Stirling, Edward</author> <title
@@ -3356,10 +3402,10 @@
     <bibl n="36.6" xml:id="L0531" type="1_Comedietta"> <author>Oxenford, John</author> <title
      n="adoubtfulvictory">A Doubtful Victory</title> <title type="sub">A Comedietta in 1 Act</title>
      <note type="firstPerf"><name>Royal Olympic Theatre</name><date when="1858">20 April
-     1858</date></note> <note type="digitizations"><ref
-     target="https://archive.org/details/doubtfulvictoryc0000oxen">A doubtful victory : a comedietta
+     1858</date></note> <note type="digitizations"><!--A doubtful victory : a comedietta
      in one act / by John Oxenford, Esq. author of Twice killed - A day well
-     spent...&amp;c.</ref><ref target="local:L0531.pdf"> local copy </ref>
+     spent...&c.--><ref target="https://archive.org/details/doubtfulvictoryc0000oxen">Internet
+     Archive</ref><ref target="local:L0531.pdf"> local copy </ref>
      <!--mv ~/Downloads/doubtfulvictoryc0000oxen.pdf ~/pCloudDrive/LacyWork/googleBooks/L0531.pdf--></note></bibl>
     <bibl n="36.7" xml:id="L0532" type="1_ComedyDrama"> <author>Dance, Charles</author> <title
      n="thestockexchange">The Stock Exchange, or The Green Business</title> <title type="sub">A
@@ -3371,15 +3417,18 @@
      <title n="thebrideofabydos">The Bride of Abydos; or, The Prince, The Pirate, and The
      Pearl</title> <title type="sub">An Oriental Burlesque Extravaganza</title> <note
      type="firstPerf"><name>Unknown</name><date>Unknown</date></note> <note type="digitizations"
-     ><ref target="https://archive.org/details/brideofabydosorp0000byro">The bride of Abydos, or,
+     ><!--The bride of Abydos, or,
      The prince, the pirate, and the pearl : an original oriental burlesque extravaganza / by Henry
      J. Byron, Esq., author of "Fra Diavolo travestie", "Latest edition of the Lady of Lyons",
-     &amp;c., &amp;c.</ref><ref target="local:L0533.pdf"> local copy </ref>
+     &c., &c.--><ref target="https://archive.org/details/brideofabydosorp0000byro">Internet
+     Archive</ref><ref target="local:L0533.pdf"> local copy </ref>
      <!--mv ~/Downloads/brideofabydosorp0000byro.pdf ~/pCloudDrive/LacyWork/googleBooks/L0533.pdf--></note></bibl>
     <bibl n="36.9" xml:id="L0534" type="2_Drama"> <author>Johnstone, J.B.</author> <title
      n="thegipsyfarmer">The Gipsy Farmer; or, Jack and Jack's Brother</title> <title type="sub">A
      Drama in 2 Acts</title> <note type="firstPerf"><name>Surrey Theatre</name><date when="1849"
-     >March 1849</date></note> </bibl>
+     >March 1849</date></note> <note type="digitizations"><ref
+     target="http://archive.org/details/gipsyfarmerorjac00john">Internet Archive</ref>; <ref
+     target="local:L0534.pdf">Local copy</ref></note></bibl>
     <bibl n="36.10" xml:id="L0535" type="1_Drama"> <author>Milner, H.M.</author> <title
      n="theveteranof102years">The Veteran of 102 Years, or Five Generations</title> <title
      type="sub">A Drama in 1 Act. Adapted from the French</title> <note type="firstPerf"><name>Royal
@@ -3469,19 +3518,21 @@
     <bibl n="37.11" xml:id="L0551" type="_MusicInterlude"> <author>Selby, Charles</author> <title
      n="thebonniefishwife">The Bonnie Fish Wife</title> <title type="sub">An Original Musical
      Interlude</title> <note type="firstPerf"><name>Royal Strand Theatre</name><date when="1858">20
-     Sept. 1858</date></note> <note type="digitizations"><ref
-     target="https://archive.org/details/bonniefishwifeor0000selb">The bonnie fish wife : an
+     Sept. 1858</date></note> <note type="digitizations"><!--The bonnie fish wife : an
      original musical interlude in one act / by Charles Selby, Comedian. Member of the Dramatic
      Authors' Society author of Captain Stevens - A day in Paris - Unfinished gentleman...,
-     &amp;c.</ref><ref target="local:L0551.pdf"> local copy </ref>
+     &c.--><ref target="https://archive.org/details/bonniefishwifeor0000selb">Internet
+     Archive</ref><ref target="local:L0551.pdf"> local copy </ref>
      <!--mv ~/Downloads/bonniefishwifeor0000selb.pdf ~/pCloudDrive/LacyWork/googleBooks/L0551.pdf--></note></bibl>
     <bibl n="37.12" xml:id="L0552" type="_BurleBurleOpera"> <author>Byron, Henry James</author>
      <title n="themaidandthemagpie">The Maid and the Magpie; or, The Fatal Spoon!</title> <title
      type="sub">A Burlesque Burletta. Founded on the Opera "La Gazza Larda."</title> <note
      type="firstPerf"><name>Strand Theatre</name><date when="1858">11 Oct. 1858</date></note> <note
-     type="digitizations"><ref target="https://archive.org/details/maidmagpieorfata0000byro">The
+     type="digitizations"><!--The
      maid and the magpie, or, The fatal spoon! : a burlesque burletta, founded on the opera of 'La
-     Gazza Ladra' / by Henry J. Byron.</ref><ref target="local:L0552.pdf"> local copy </ref>
+     Gazza Ladra' / by Henry J. Byron.--><ref
+     target="https://archive.org/details/maidmagpieorfata0000byro">Internet Archive</ref><ref
+     target="local:L0552.pdf"> local copy </ref>
      <!--mv ~/Downloads/maidmagpieorfata0000byro.pdf ~/pCloudDrive/LacyWork/googleBooks/L0552.pdf--></note></bibl>
     <bibl n="37.13" xml:id="L0553" type="1_Farce"> <author>Wooler, J.P.</author> <title
      n="atwicetoldtale">A Twice Told Tale</title> <title type="sub">An Original Farce in 1
@@ -3509,10 +3560,11 @@
      n="thelittlesavage">The Little Savage</title> <title type="sub">A Farce in 1 Act</title> <note
      type="firstPerf"><name>Strand Theatre</name><date when="1858">November 1858</date></note> <note
      type="digitizations"><ref
-     target="http://victorian.nuigalway.ie/modx/assets/docs/pdf/Vol38iiLittle.pdf">PDF</ref><ref
-     target="https://archive.org/details/littlesavagefarc0000mort">The little savage : a farce in
+     target="http://victorian.nuigalway.ie/modx/assets/docs/pdf/Vol38iiLittle.pdf"
+     >PDF</ref><!--The little savage : a farce in
      one act / by J. M. Morton, Esq. author of Lend me five shillings - Three cuckoos - My precious
-     Betsy...&amp;c.</ref><ref target="local:L0557.pdf"> local copy </ref>
+     Betsy...&c.--><ref target="https://archive.org/details/littlesavagefarc0000mort">Internet
+     Archive</ref><ref target="local:L0557.pdf"> local copy </ref>
      <!--mv ~/Downloads/littlesavagefarc0000mort.pdf ~/pCloudDrive/LacyWork/googleBooks/L0557.pdf--></note></bibl>
     <bibl n="38.3" xml:id="L0558" type="3_Drama"> <author>Boucicault, Dion</author> <title
      n="jessiebrown">Jessie Brown; or, The Relief of Lucknow</title> <title type="sub">A Drama in 3
@@ -3529,10 +3581,10 @@
     <bibl n="38.5" xml:id="L0560" type="_OperaBurleBurle"> <author>Dowling, Maurice G.</author>
      <title n="othellotravestie">Othello Travestie</title> <title type="sub">An Operatic Burlesque
      Burletta</title> <note type="firstPerf"><name>Liver Theatre, Liverpool</name><date when="1834"
-     >March 1834</date></note> <note type="digitizations"><ref
-     target="https://archive.org/details/othellotravestie0000dowl">Othello travestie : a burlesque
+     >March 1834</date></note> <note type="digitizations"><!--Othello travestie : a burlesque
      burletta, in one act / by M. G. Dowling, Esq., author of "Romeo and Juliet travestie,"
-     &amp;c.</ref><ref target="local:L0560.pdf"> local copy </ref>
+     &c.--><ref target="https://archive.org/details/othellotravestie0000dowl">Internet
+     Archive</ref><ref target="local:L0560.pdf"> local copy </ref>
      <!--mv ~/Downloads/othellotravestie0000dowl.pdf ~/pCloudDrive/LacyWork/googleBooks/L0560.pdf--></note></bibl>
     <bibl n="38.6" xml:id="L0561" type="5_Play"> <author>Shakespeare, William</author> <title
      n="kingjohn">King John</title> <title type="sub">A Play in 5 Acts</title> <note
@@ -3562,8 +3614,8 @@
      Acts</title> <note type="firstPerf"><name>Queen's Theatre</name><date when="1858">13 Nov.
      1858</date></note> <note type="digitizations"><ref
      target="http://victorian.nuigalway.ie/modx/assets/docs/pdf/Vol38xiiWoman.pdf">PDF</ref><ref
-     target="https://archive.org/details/womanofworlddram00cave"/><ref target="local:L0567.pdf">
-     local copy </ref>
+     target="https://archive.org/details/womanofworlddram00cave">Internet Archive</ref><ref
+     target="local:L0567.pdf"> local copy </ref>
      <!--mv ~/Downloads/womanofworlddram00cave.pdf ~/pCloudDrive/LacyWork/googleBooks/L0567.pdf--></note></bibl>
     <bibl n="38.13" xml:id="L0568" type="1_Farce"> <author>Morton, John Maddison</author> <title
      n="themillinersholiday">The Milliner's Holiday</title> <title type="sub">A Farce in 1
@@ -3598,8 +3650,8 @@
      n="youngmother">Young Mother</title> <title type="sub">A Comic Drama in 1 Act</title> <note
      type="firstPerf"><name>Theatre Royal, Haymarket</name><date when="1859">28 Feb.
      1859</date></note> <note type="digitizations"><ref
-     target="https://archive.org/details/youngmothercomic00selbuoft"/><ref target="local:L0574.pdf">
-     local copy </ref>
+     target="https://archive.org/details/youngmothercomic00selbuoft">Internet Archive</ref><ref
+     target="local:L0574.pdf"> local copy </ref>
      <!--mv ~/Downloads/youngmothercomic00selbuoft.pdf ~/pCloudDrive/LacyWork/googleBooks/L0574.pdf--></note></bibl>
     <bibl n="39.5" xml:id="L0575" type="2_Farce"> <author>Bayle, Bernard</author> <title
      n="thenervousmanandthema...">The Nervous Man and The Man of Nerve</title> <title type="sub">A
@@ -3613,8 +3665,8 @@
      n="thepoorgentleman">The Poor Gentleman</title> <title type="sub">A Comedy in 3 Acts</title>
      <note type="firstPerf"><name>Theatre Royal, Covent Garden</name><date when="1801">11 Feb.
      1801</date></note> <note type="digitizations"><ref
-     target="https://archive.org/details/poorgentlemancom00colmrich"/><ref target="local:L0577.pdf">
-     local copy </ref>
+     target="https://archive.org/details/poorgentlemancom00colmrich">Internet Archive</ref><ref
+     target="local:L0577.pdf"> local copy </ref>
      <!--mv ~/Downloads/poorgentlemancom00colmrich.pdf ~/pCloudDrive/LacyWork/googleBooks/L0577.pdf--></note></bibl>
     <bibl n="39.8" xml:id="L0578" type="1_Drama"> <author>Morton, John Maddison</author> <title
      n="themidnightwatch">The Midnight Watch</title> <title type="sub">An Original Drama in 1
@@ -3659,11 +3711,12 @@
      mythology</term> <term>family relationships</term> <term>war</term> <term>poison</term>
      <term>marital relationships</term> <term>murder</term> <term>daughters</term>
      <term>mothers</term> <term>popular song.</term> </note><note type="digitizations"><ref
-     target="http://victorian.nuigalway.ie/modx/assets/docs/pdf/Vol39xvElectra.pdf">PDF</ref><ref
-     target="https://archive.org/details/electrainnewelec0000talf">Electra in a new electr'ic light
+     target="http://victorian.nuigalway.ie/modx/assets/docs/pdf/Vol39xvElectra.pdf"
+     >PDF</ref><!--Electra in a new electr'ic light
      : an entirely new and original extravaganza, in one act / by Francis Talfourd, Esq., author of
-     Atalanta, Pluto and Proserpine, Abon Hassan...&amp;c.</ref><ref target="local:L0585.pdf"> local
-     copy </ref>
+     Atalanta, Pluto and Proserpine, Abon Hassan...&c.--><ref
+     target="https://archive.org/details/electrainnewelec0000talf">Internet Archive</ref><ref
+     target="local:L0585.pdf"> local copy </ref>
      <!--mv ~/Downloads/electrainnewelec0000talf.pdf ~/pCloudDrive/LacyWork/googleBooks/L0585.pdf--></note></bibl>
    </div>
    <!-- 108 -->
@@ -3759,13 +3812,13 @@
      </author> <title n="olympicdevils">Olympic Devils, or Orpheus and Eurydice</title> <title
      type="sub">An Original Mythological Burlesque Burletta in 1 Act</title> <note type="firstPerf"
      ><name>Royal Olympic Theatre</name><date when="1831">26 Dec. 1831</date></note><note
-     type="digitizations"><ref target="https://hdl.handle.net/2027/iau.31858044573339"
-     >HathiTrust</ref></note> </bibl>
+     type="digitizations"><ref target="https://hdl.handle.net/2027/iau.31858044573339">Hathi
+     Trust</ref></note> </bibl>
     <bibl n="41.3" xml:id="L0603" type="1_Burle"> <author>Planché, J.R.; Dance, Charles </author>
      <title n="thedeepdeepsea">The Deep Deep Sea, or Perseus and Andromeda</title> <title type="sub"
      >An Original Mythological, Aquatic, Equestrian Burletta in 1 Act</title> <note type="firstPerf"
      ><name>Unknown</name><date when="1833">26 Dec. 1833</date></note> <note type="digitizations"
-     ><ref target="https://archive.org/details/deepdeepseaorper00plan"/><ref
+     ><ref target="https://archive.org/details/deepdeepseaorper00plan">Internet Archive</ref><ref
      target="local:L0603.pdf"> local copy </ref>
      <!--mv ~/Downloads/deepdeepseaorper00plan.pdf ~/pCloudDrive/LacyWork/googleBooks/L0603.pdf--></note></bibl>
     <bibl n="41.4" xml:id="L0604" type="1_Extravagan"> <author>Selby, Charles</author> <title
@@ -3824,8 +3877,8 @@
      <term>stagecraft</term> <term>natural phenomena</term> <term>music</term>
      <term>tableaus.</term> </note><note type="digitizations"><ref
      target="http://victorian.nuigalway.ie/modx/assets/docs/pdf/Vol41xiRuthven.pdf">PDF</ref><ref
-     target="https://archive.org/details/ruthvendramainfo00harr"/><ref target="local:L0611.pdf">
-     local copy </ref>
+     target="https://archive.org/details/ruthvendramainfo00harr">Internet Archive</ref><ref
+     target="local:L0611.pdf"> local copy </ref>
      <!--mv ~/Downloads/ruthvendramainfo00harr.pdf ~/pCloudDrive/LacyWork/googleBooks/L0611.pdf--></note></bibl>
     <bibl n="41.12" xml:id="L0612" type="1_BurleDrama"> <author>Byron, Henry James</author> <title
      n="thebabesinthewoodandt...">The Babes in the Wood! And the Good Little Fairy Birds!</title>
@@ -3846,8 +3899,8 @@
      <term>moneylenders</term> <term>Stock Exchange</term> <term>aristocracy</term>
      <term>exile</term> <term>execution</term> <term>courtship</term> <term>celebrations</term>
      <term>music.</term> </note><note type="digitizations"><ref
-     target="https://archive.org/details/payableondemando00tayliala"/><ref target="local:L0614.pdf">
-     local copy </ref>
+     target="https://archive.org/details/payableondemando00tayliala">Internet Archive</ref><ref
+     target="local:L0614.pdf"> local copy </ref>
      <!--mv ~/Downloads/payableondemando00tayliala.pdf ~/pCloudDrive/LacyWork/googleBooks/L0614.pdf--></note></bibl>
     <bibl n="41.15" xml:id="L0615" type="2_ComicDrama"> <author>Planché, J.R.</author> <title
      n="anoldoffender">An Old Offender</title> <title type="sub">A Comic Drama in 2 Acts</title>
@@ -3918,9 +3971,10 @@
     <bibl n="42.10" xml:id="L0625" type="1_ComicDrama"> <author>Selby, Charles</author> <title
      n="peggygreen">Peggy Green</title> <title type="sub">A Comic Drama in 1 Act</title> <note
      type="firstPerf"><name>Theatre Royal</name><date when="1847">1 Dec. 1847</date></note> <note
-     type="digitizations"><ref target="https://archive.org/details/peggygreencomicd0000selb">Peggy
+     type="digitizations"><!--Peggy
      Green : a comic drama in one act / by Charles Selby, comedian author of Captain Stevens - A day
-     in Paris...&amp;c.</ref><ref target="local:L0625.pdf"> local copy </ref>
+     in Paris...&c.--><ref target="https://archive.org/details/peggygreencomicd0000selb"
+     >Internet Archive</ref><ref target="local:L0625.pdf"> local copy </ref>
      <!--mv ~/Downloads/peggygreencomicd0000selb.pdf ~/pCloudDrive/LacyWork/googleBooks/L0625.pdf--></note></bibl>
     <bibl n="42.11" xml:id="L0626" type="1_Farce"> <author>Falconer, Edmund</author> <title
      n="toomuchforgoodnature">Too Much For Good Nature!</title> <title type="sub">A Farce in 1
@@ -3946,8 +4000,8 @@
      n="halveitheunknown">Halvei The Unknown</title> <title type="sub">An Original Drama in 3
      Acts</title> <note type="firstPerf"><name>City of London Theatre</name><date when="1848">30
      Sept. 1848</date></note> <note type="digitizations"><ref
-     target="https://archive.org/details/halveiunknownan00wilkgoog"/><ref target="local:L0630.pdf">
-     local copy </ref>
+     target="https://archive.org/details/halveiunknownan00wilkgoog">Internet Archive</ref><ref
+     target="local:L0630.pdf"> local copy </ref>
      <!--mv ~/Downloads/halveiunknownan00wilkgoog.pdf ~/pCloudDrive/LacyWork/googleBooks/L0630.pdf--></note></bibl>
    </div>
    <!-- 112 -->
@@ -3983,10 +4037,10 @@
      <term>masquerade</term> <term>nurses</term> <term>animals</term> <term>monks</term>
      <term>operatic references</term> <term>murder</term> <term>politics</term> <term>games</term>
      <term>family relationships</term> <term>narcotics</term> <term>dance</term>
-     <term>ghosts.</term> </note><note type="digitizations"><ref
-     target="https://archive.org/details/husbandtoorderse0000mort">A husband to order : a serio
+     <term>ghosts.</term> </note><note type="digitizations"><!--A husband to order : a serio
      comic drama in two acts / by John M. Morton, Esq. author of Lend me five shillings - Little
-     savage...&amp;c.</ref><ref target="local:L0632.pdf"> local copy </ref>
+     savage...&c.--><ref target="https://archive.org/details/husbandtoorderse0000mort">Internet
+     Archive</ref><ref target="local:L0632.pdf"> local copy </ref>
      <!--mv ~/Downloads/husbandtoorderse0000mort.pdf ~/pCloudDrive/LacyWork/googleBooks/L0632.pdf--></note></bibl>
     <bibl n="43.3" xml:id="L0633" type="1_Burle"> <author>Halliday, Andrew</author> <title
      n="romeoandjuliettravest...">Romeo and Juliet Travestie; or, the Cup of Cold Poison</title>
@@ -4000,10 +4054,12 @@
      <term>politics</term> <term>games</term> <term>family relationships</term>
      <term>narcotics</term> <term>dance</term> <term>ghosts.</term> </note><note
      type="digitizations"><ref
-     target="http://victorian.nuigalway.ie/modx/assets/docs/pdf/Vol43iiiRomeo.pdf">PDF</ref><ref
-     target="https://archive.org/details/romeojuliettrave0000hall">Romeo and Juliet travestie; or,
+     target="http://victorian.nuigalway.ie/modx/assets/docs/pdf/Vol43iiiRomeo.pdf"
+     >PDF</ref><!--Romeo and Juliet travestie; or,
      the cup of cold poison : a burlesque, in one act / by Andrew Halliday, Esq., joint author of
-     "Kenilworth", &amp;c., &amp;c.</ref><ref target="local:L0633.pdf"> local copy </ref>
+     "Kenilworth", &c., &c.--><ref
+     target="https://archive.org/details/romeojuliettrave0000hall">Internet Archive</ref><ref
+     target="local:L0633.pdf"> local copy </ref>
      <!--mv ~/Downloads/romeojuliettrave0000hall.pdf ~/pCloudDrive/LacyWork/googleBooks/L0633.pdf--></note></bibl>
     <bibl n="43.4" xml:id="L0634" type="2_drama"> <author>[Anon.]</author> <title
      n="thedogofmontargis">The Dog of Montargis, or The Forest of Bondy</title> <title type="sub">A
@@ -4145,10 +4201,11 @@
      <term>animals</term> <term>monks</term> <term>operatic references</term> <term>murder</term>
      <term>politics</term> <term>games</term> <term>family relationships</term>
      <term>narcotics</term> <term>dance</term> <term>ghosts.</term> </note><note
-     type="digitizations"><ref target="https://archive.org/details/alfredgreatormin0000brou">Alfred
+     type="digitizations"><!--Alfred
      the Great; or; The minstrel king : an historical extravaganza / by Robert B. Brough, author of
-     "Medea", "Masienello", "Siege of Troy", &amp;c., &amp;c.</ref><ref target="local:L0644.pdf">
-     local copy </ref>
+     "Medea", "Masienello", "Siege of Troy", &c., &c.--><ref
+     target="https://archive.org/details/alfredgreatormin0000brou">Internet Archive</ref><ref
+     target="local:L0644.pdf"> local copy </ref>
      <!--mv ~/Downloads/alfredgreatormin0000brou.pdf ~/pCloudDrive/LacyWork/googleBooks/L0644.pdf--></note></bibl>
     <bibl n="43.15" xml:id="L0645" type="_BurleExtravaganComicPantomime"> <author>Byron, Henry
      James</author> <title n="jackthegiantkiller">Jack the Giant Killer; or Harlequin King Arthur,
@@ -4189,13 +4246,14 @@
     <bibl n="44.3" xml:id="L0648" type="1_Sketch"> <author>Talfourd, Francis</author> <title
      n="ahouseholdfairy">A Household Fairy</title> <title type="sub">A Domestic Sketch in 1
      Act</title> <note type="firstPerf"><name>St. James Theatre</name><date when="1859">24 Dec.
-     1859</date></note> <note type="digitizations"><ref
-     target="https://archive.org/details/householdfairydo0000talf">A household fairy : a domestic
+     1859</date></note> <note type="digitizations"><!--A household fairy : a domestic
      sketch in one act / by Francis Talfourd author of Atalanta - Pluto and Proserpine - Abon Hassan
-     - Ganem...&amp;c.</ref><ref target="https://archive.org/details/householdfairydo0000talf_m4b4"
-     >A household fairy : a domestic sketch in one act / by Francis Talfourd author of Atalanta -
-     Pluto and Proserpine - Abon Hassan - Ganem...&amp;c.</ref><ref target="local:L0648.pdf"> local
-     copy </ref>
+     - Ganem...&c.--><ref target="https://archive.org/details/householdfairydo0000talf"
+     >Internet
+     Archive</ref><!--A household fairy : a domestic sketch in one act / by Francis Talfourd author of Atalanta -
+     Pluto and Proserpine - Abon Hassan - Ganem...&c.--><ref
+     target="https://archive.org/details/householdfairydo0000talf_m4b4">Internet Archive</ref><ref
+     target="local:L0648.pdf"> local copy </ref>
      <!--mv ~/Downloads/householdfairydo0000talf.pdf ~/pCloudDrive/LacyWork/googleBooks/L0648.pdf--><ref
      target="local:L0648.pdf"> local copy </ref>
      <!--mv ~/Downloads/householdfairydo0000talf_m4b4.pdf ~/pCloudDrive/LacyWork/googleBooks/L0648-bis.pdf--></note></bibl>
@@ -4240,10 +4298,12 @@
      civilization</term> <term>literary references</term> <term>crossdressing</term>
      <term>Carthage</term> <term>Africa</term> <term>sea settings</term> <term>dance</term>
      <term>ballet</term> <term>popular song</term> <term>natural phenomena</term>
-     <term>royalty</term> <term>stagecraft.</term> </note><note type="digitizations"><ref
-     target="https://archive.org/details/didotragicalclas0000burn">Dido : a tragical, classical, and
+     <term>royalty</term> <term>stagecraft.</term> </note><note type="digitizations"
+     ><!--Dido : a tragical, classical, and
      original burlesque, in one act / by F. C. Burnand, Esq. author of Alonzo and Imogene - St.
-     George and the dragon...&amp;c.</ref><ref target="local:L0655.pdf"> local copy </ref>
+     George and the dragon...&c.--><ref
+     target="https://archive.org/details/didotragicalclas0000burn">Internet Archive</ref><ref
+     target="local:L0655.pdf"> local copy </ref>
      <!--mv ~/Downloads/didotragicalclas0000burn.pdf ~/pCloudDrive/LacyWork/googleBooks/L0655.pdf--></note></bibl>
     <bibl n="44.11" xml:id="L0656" type="2_DramaDrama"> <author>Suter, William E.</author> <title
      n="hollybushhall">Holly Bush Hall, or The Track in the Snow</title> <title type="sub">A Drama
@@ -4316,11 +4376,11 @@
     <bibl n="45.5" xml:id="L0665" type="1_X"> <author>Paul, Howard</author> <title n="thricemarried"
      >Thrice Married</title> <title type="sub">A Personation Piece in 1 Act</title> <note
      type="firstPerf"><name>Theatre Royal, Drury Lane</name><date when="1854">12 March
-     1854</date></note> <note type="digitizations"><ref
-     target="https://archive.org/details/thricemarriedper0000paul">Thrice married : a personation
+     1854</date></note> <note type="digitizations"><!--Thrice married : a personation
      piece in one act / by Howard Paul author of The mob cap - Opposite neighbours - A lucky hit - A
-     change of system - Queen of Aragon, &amp;c. &amp;c. &amp;c.</ref><ref target="local:L0665.pdf">
-     local copy </ref>
+     change of system - Queen of Aragon, &c. &c. &c.--><ref
+     target="https://archive.org/details/thricemarriedper0000paul">Internet Archive</ref><ref
+     target="local:L0665.pdf"> local copy </ref>
      <!--mv ~/Downloads/thricemarriedper0000paul.pdf ~/pCloudDrive/LacyWork/googleBooks/L0665.pdf--></note></bibl>
     <bibl n="45.6" xml:id="L0666" type="3_Drama"> <author>Fitzball, Edward</author> <title
      n="christmaseve">Christmas Eve, or The Duel in the Snow</title> <title type="sub">An Original
@@ -4368,8 +4428,8 @@
      ><term>millers</term> <term>forest scenes</term> <term>bandits</term> <term>robbers</term>
      <term>murder</term> <term>explosions</term> <term>popular song</term> <term>dance</term>
      <term>pictures.</term> </note><note type="digitizations"><ref
-     target="https://archive.org/details/millerandhismen00byrogoog"/><ref target="local:L0670.pdf">
-     local copy </ref>
+     target="https://archive.org/details/millerandhismen00byrogoog">Internet Archive</ref><ref
+     target="local:L0670.pdf"> local copy </ref>
      <!--mv ~/Downloads/millerandhismen00byrogoog.pdf ~/pCloudDrive/LacyWork/googleBooks/L0670.pdf--></note></bibl>
     <bibl n="45.11" xml:id="L0671" type="1_X"> <author>Byron, Henry James</author> <title
      n="thepilgrimoflove">The Pilgrim of Love</title> <title type="sub">A Fairy Romance in 1
@@ -4464,10 +4524,11 @@
     <bibl n="46.9" xml:id="L0684" type="1_ComicOperaDrama"> <author>Dimond, William</author> <title
      n="brotherandsister">Brother and Sister</title> <title type="sub">A Comic Operatic Drama in 1
      Act</title> <note type="firstPerf"><name>Theatre Royal, Covent Garden</name><date when="1815">1
-     Feb. 1815</date></note> <note type="digitizations"><ref
-     target="https://archive.org/details/brothersistercom0000dimo">Brother and sister : a comic
+     Feb. 1815</date></note> <note type="digitizations"><!--Brother and sister : a comic
      operatic drama in one act / by William Dimond author of Nymph of the grotto - Foundling of the
-     forest, &amp;c.;the music by Bishop.</ref><ref target="local:L0684.pdf"> local copy </ref>
+     forest, &c.;the music by Bishop.--><ref
+     target="https://archive.org/details/brothersistercom0000dimo">Internet Archive</ref><ref
+     target="local:L0684.pdf"> local copy </ref>
      <!--mv ~/Downloads/brothersistercom0000dimo.pdf ~/pCloudDrive/LacyWork/googleBooks/L0684.pdf--></note></bibl>
     <bibl n="46.10" xml:id="L0685" type="1_Farce"> <author>Mayhew, Augustus; Edwards,
      Sutherland</author> <title n="christmasboxes">Christmas Boxes</title> <title type="sub">A Farce
@@ -4502,11 +4563,11 @@
      Licenced for performance <ref type="ms" target="lcp:LCP_52993_C">LC ms</ref></note> <note
      type="LCPkeywords"><term>marital relationships</term> <term>family relationships</term>
      <term>painting</term> <term>celebrations</term> <term>gossip</term> <term>adultery.</term>
-     </note><note type="digitizations"><ref
-     target="https://archive.org/details/dearestmammacome0000gord">Dearest mamma! : a comedietta in
+     </note><note type="digitizations"><!--Dearest mamma! : a comedietta in
      one act / by Walter Gordon, Esq. (Member of the Dramatic Authors' Society) author of The state
-     prisoner - Two can play at that game, &amp;c. &amp;c.</ref><ref target="local:L0689.pdf"> local
-     copy </ref>
+     prisoner - Two can play at that game, &c. &c.--><ref
+     target="https://archive.org/details/dearestmammacome0000gord">Internet Archive</ref><ref
+     target="local:L0689.pdf"> local copy </ref>
      <!--mv ~/Downloads/dearestmammacome0000gord.pdf ~/pCloudDrive/LacyWork/googleBooks/L0689.pdf--></note></bibl>
     <bibl n="46.15" xml:id="L0690" type="1_BurleExtravagan"> <author>Byron, Henry James</author>
      <title n="mazeppa">Mazeppa!</title> <title type="sub">A Burlesque Extravaganza in 1 Act</title>
@@ -4550,9 +4611,10 @@
     <bibl n="47.7" xml:id="L0697" type="1_X"> <author>Suter, William E.</author> <title
      n="doubledealing">Double Dealing, or The Rifle Volunteer</title> <title type="sub">A Duo-logue
      in 1 Act</title> <note type="firstPerf"><name>Unknown</name><date>Unknown</date></note> <note
-     type="digitizations"><ref target="https://archive.org/details/doubledealingorr0000sute">Double
+     type="digitizations"><!--Double
      dealing; or, The rifle volunteer : a duologue in one act / by W. E. Suter, author of Sarah's
-     young man...&amp;c.</ref><ref target="local:L0697.pdf"> local copy </ref>
+     young man...&c.--><ref target="https://archive.org/details/doubledealingorr0000sute"
+     >Internet Archive</ref><ref target="local:L0697.pdf"> local copy </ref>
      <!--mv ~/Downloads/doubledealingorr0000sute.pdf ~/pCloudDrive/LacyWork/googleBooks/L0697.pdf--></note></bibl>
     <bibl n="47.8" xml:id="L0698" type="1_Comedy"> <author>Wigan, Horace</author> <title
      n="observationandflirtat...">Observation and Flirtation</title> <title type="sub">A Comedy in 1
@@ -4596,9 +4658,11 @@
     <bibl n="47.13" xml:id="L0703" type="1_Comedietta"> <author>Williams, Montagu</author> <title
      n="afairexchange">A Fair Exchange</title> <title type="sub">A Comedietta in 1 Act</title> <note
      type="firstPerf"><name>Royal Olympic Theatre</name><date when="1860">27 Aug. 1860</date></note>
-     <note type="digitizations"><ref target="https://archive.org/details/fairexchangecome0000will">A
+     <note type="digitizations"><!--A
      fair exchange : a comedietta in one act / by Montagu Williams, Esq. part author of B B. - A
-     volunteer ball, &amp;c. &amp;c.</ref><ref target="local:L0703.pdf"> local copy </ref>
+     volunteer ball, &c. &c.--><ref
+     target="https://archive.org/details/fairexchangecome0000will">Internet Archive</ref><ref
+     target="local:L0703.pdf"> local copy </ref>
      <!--mv ~/Downloads/fairexchangecome0000will.pdf ~/pCloudDrive/LacyWork/googleBooks/L0703.pdf--></note></bibl>
     <bibl n="47.14" xml:id="L0704" type="1_Farce"> <author>Harrington, N.H.</author> <title
      n="hithim">Hit Him, He Has No Friends!</title> <title type="sub">A Farce in 1 Act</title> <note
@@ -4646,10 +4710,11 @@
     <bibl n="48.7" xml:id="L0712" type="1_Farce"> <author>Bernard, Bayle</author> <title
      n="themiddyashore">The Middy Ashore</title> <title type="sub">A Farce in 1 Act</title> <note
      type="firstPerf"><name>English Opera House</name><date when="1836">23 May 1836</date></note>
-     <note type="digitizations"><ref
-     target="https://archive.org/details/middyashorefarce0000bern_p4z3">The middy ashore : a farce,
+     <note type="digitizations"><!--The middy ashore : a farce,
      in one act / by Bayle Bernard, author of The farmer's story, The man about town, The practical
-     man, The passing cloud, etc., etc.</ref><ref target="local:L0712.pdf"> local copy </ref>
+     man, The passing cloud, etc., etc.--><ref
+     target="https://archive.org/details/middyashorefarce0000bern_p4z3">Internet Archive</ref><ref
+     target="local:L0712.pdf"> local copy </ref>
      <!--mv ~/Downloads/middyashorefarce0000bern_p4z3.pdf ~/pCloudDrive/LacyWork/googleBooks/L0712.pdf--></note></bibl>
     <bibl n="48.8" xml:id="L0713" type="3_Drama"> <author>Wilson, J. Crawford</author> <title
      n="thegitanilla">The Gitanilla, or The Children of the Zincali</title> <title type="sub">A
@@ -4767,12 +4832,12 @@
      Theatre</name><date when="1860">26 Dec. 1860</date>. Licenced for performance <ref type="ms"
      target="lcp:LCP_52999_W">LC ms</ref></note> <note type="LCPkeywords"/></bibl>
     <bibl n="49.10" xml:id="L0730" type="1_ComicOperaMusic"> <author>[Anon.]</author> <title
-     n="dolly">Dolly</title> <title type="sub">A Comic Opera in 1 Act. Music by Adolphe
-     Adam. This Version of the Libretto has been Especially Adapted for Performance on the English
+     n="dolly">Dolly</title> <title type="sub">A Comic Opera in 1 Act. Music by Adolphe Adam. This
+     Version of the Libretto has been Especially Adapted for Performance on the English
      Stage</title> <note type="firstPerf"><name>Theatre Royal, Cork</name><date when="1860">26 Dec.
      1860</date></note> <note type="digitizations"><ref
-     target="https://archive.org/details/dollyacomicoper00adamgoog"/><ref target="local:L0730.pdf">
-     local copy </ref>
+     target="https://archive.org/details/dollyacomicoper00adamgoog">Internet Archive</ref><ref
+     target="local:L0730.pdf"> local copy </ref>
      <!--mv ~/Downloads/dollyacomicoper00adamgoog.pdf ~/pCloudDrive/LacyWork/googleBooks/L0730.pdf--></note></bibl>
     <bibl n="49.11" xml:id="L0731" type="2_ComicDrama"> <author>Courtney, John</author> <title
      n="oldjoeandyoungjoe">Old Joe and Young Joe</title> <title type="sub">A Comic Drama in 2
@@ -4783,10 +4848,12 @@
      Classical Mythological Extravaganza</title> <note type="firstPerf"><name>Royal St. James's
      Theatre</name><date when="1860">26. Dec. 1860</date>. Licenced for performance <ref type="ms"
      target="lcp:LCP_52999_E">LC ms</ref></note> <note type="LCPkeywords"/><note
-     type="digitizations"><ref target="ia:endymionornaught0000brou">Endymion; or, The naughty boy
+     type="digitizations"><ref target="http://archive.org/details/endymionornaught0000brou"
+     ><!--Endymion; or, The naughty boy
      who cried for the moon : a classical mythological extravaganza in one act / by William Brough,
      (member of the Dramatic authors' society), author of "The Sylphide"; "Conrad and
-     Medora"...&amp;c.</ref><ref target="local:L0732.pdf"> local copy </ref>
+     Medora"...&amp;c.-->Internet Archive</ref>; <ref target="local:L0732.pdf"> local copy
+     </ref>
      <!--mv ~/Downloads/.pdf ~/pCloudDrive/LacyWork/googleBooks/L0732.pdf--></note></bibl>
     <bibl n="49.13" xml:id="L0733" type="_Extravagan"> <author>Oxenford, John; Brooks, Shirley
      </author> <title n="timourthetartaror">Timour the Tartar! Or, The Iron Master of
@@ -4869,8 +4936,8 @@
      Kock</title> <note type="firstPerf"><name>Théatre Ambigu-Comique </name><date when="1860">22
      Sept. 1860</date></note><note type="otherPerfs"><name>Marylebone Theatre</name><date
      when="1861">1 April 1861</date></note> <note type="digitizations"><ref
-     target="https://archive.org/details/oldhouseonbridge00hazl"/><ref target="local:L0744.pdf">
-     local copy </ref>
+     target="https://archive.org/details/oldhouseonbridge00hazl">Internet Archive</ref><ref
+     target="local:L0744.pdf"> local copy </ref>
      <!--mv ~/Downloads/oldhouseonbridge00hazl.pdf ~/pCloudDrive/LacyWork/googleBooks/L0744.pdf--></note></bibl>
     <bibl n="50.10" xml:id="L0745" type="1_BurleDrama"> <author>O'Hara, Kane</author> <title
      n="tomthumb">Tom Thumb</title> <title type="sub">A Burlesque Drama in 1 Act. Altered from Henry
@@ -5023,8 +5090,8 @@
      Queen's Theatre </name><date>Unknown</date></note> <note type="otherPerfs"><name>under the
      Management of Mr. C.J. James</name><date>Unknown</date></note> <note type="digitizations"><ref
      target="http://victorian.nuigalway.ie/modx/assets/docs/pdf/Vol52vMary.pdf">PDF</ref><ref
-     target="https://archive.org/details/marypriceoradven00reyn"/><ref target="local:L0770.pdf">
-     local copy </ref>
+     target="https://archive.org/details/marypriceoradven00reyn">Internet Archive</ref><ref
+     target="local:L0770.pdf"> local copy </ref>
      <!--mv ~/Downloads/marypriceoradven00reyn.pdf ~/pCloudDrive/LacyWork/googleBooks/L0770.pdf--></note></bibl>
     <bibl n="52.6" xml:id="L0771" type="2_Drama"> <author>Suter, William E.</author> <title
      n="thesyrenofparis">The Syren of Paris</title> <title type="sub">A Romantic Drama in 2 Acts.
@@ -5058,11 +5125,16 @@
      <title n="shortandsweet">Short and Sweet</title> <title type="sub">A Comic Drama in 1
      Act</title> <note type="firstPerf"><name>Strand Theatre</name><date when="1861">10 Oct.
      1861</date>. Licenced for performance <ref type="ms" target="lcp:LCP_53007_H">LC
-      ms</ref></note> <note type="LCPkeywords"/><note type="digitizations"><ref target="ia:TroughtonShortSweet">Internet Archive</ref></note></bibl>
+     ms</ref></note> <note type="LCPkeywords"/><note type="digitizations"><ref
+     target="http://archive.org/details/TroughtonShortSweet">Internet Archive</ref>; <ref
+     target="local:L0776.pdf">Local copy</ref></note></bibl>
     <bibl n="52.12" xml:id="L0777" type="1_Farce"> <author>Kenney, James; Millingen, J.G.</author>
      <title n="theillustriousstrange...">The Illustrious Stranger; or, Married and Buried</title>
      <title type="sub">A Farce in 1 Act</title> <note type="firstPerf"><name>Theatre Royal, Drury
-      Lane</name><date>Unknown</date></note><!-- all versions in worldcat are 2 acts --> <ref target="ia:McGillLibrary-rbsc_illustrious-stranger_PR1243L3v3-20823"/></bibl>
+     Lane</name><date>Unknown</date></note><!-- all versions in worldcat are 2 acts --> <note
+     type="digitizations"><ref
+     target="https://archive.org/details/McGillLibrary-rbsc_illustrious-stranger_PR1243L3v3-20823"
+     >Internet Archive</ref>; <ref target="local:L0777.pdf">local copy</ref></note></bibl>
     <bibl n="52.13" xml:id="L0778" type="1_Farce"> <author>Morton, John Maddison</author> <title
      n="wooingoneswife">Wooing One's Wife</title> <title type="sub">A Farce in 1 Act</title> <note
      type="firstPerf"><name>Royal Olympic Theatre</name><date when="1861">21 Oct. 1861</date>.
@@ -5112,9 +5184,9 @@
      <note type="firstPerf"><name>Royal Olympic Theatre</name><date when="1861">28 Oct. 1861</date>.
      Licenced for performance <ref type="ms" target="lcp:LCP_53007_K">LC ms</ref></note> <note
      type="LCPkeywords"/></bibl>
-    <bibl n="53.5" xml:id="L0785" type="2_ComicDrama"> <author>Simpson, John Palgrave</author> <title
-     n="courtcards">Court Cards</title> <title type="sub">A Comic Drama in 2 Acts</title> <note
-     type="firstPerf"><name>Royal Olympic Theatre</name><date when="1861">25 Nov. 1861</date>.
+    <bibl n="53.5" xml:id="L0785" type="2_ComicDrama"> <author>Simpson, John Palgrave</author>
+     <title n="courtcards">Court Cards</title> <title type="sub">A Comic Drama in 2 Acts</title>
+     <note type="firstPerf"><name>Royal Olympic Theatre</name><date when="1861">25 Nov. 1861</date>.
      Licenced for performance <ref type="ms" target="lcp:LCP_53009_C">LC ms</ref></note> <note
      type="LCPkeywords"/></bibl>
     <bibl n="53.6" xml:id="L0786" type="1_Farce"> <author>Bernard, Bayle</author> <title
@@ -5159,11 +5231,12 @@
      type="sub">A Classical Extravaganza</title> <note type="firstPerf"><name>Royal St. James's
      Theatre</name><date when="1861">26 Dec. 1861</date>. Licenced for performance <ref type="ms"
      target="lcp:LCP_53009_T">LC ms</ref></note> <note type="LCPkeywords"/><note
-     type="digitizations"><ref target="https://archive.org/details/perseusandromeda0000brou">Perseus
+     type="digitizations"><!--Perseus
      and Andromeda; or, the maid and the monster : a classical extravaganza / by William Brough
      (Member of the Dramatic Authors' Society), author of "Endymion, or the naughty boy who cried
-     for the moon"; "Conrad and Medora"; "Lalla Rookh"..., etc.</ref><ref target="local:L0792.pdf">
-     local copy </ref>
+     for the moon"; "Conrad and Medora"; "Lalla Rookh"..., etc.--><ref
+     target="https://archive.org/details/perseusandromeda0000brou">Internet Archive</ref><ref
+     target="local:L0792.pdf"> local copy </ref>
      <!--mv ~/Downloads/perseusandromeda0000brou.pdf ~/pCloudDrive/LacyWork/googleBooks/L0792.pdf--></note></bibl>
     <bibl n="53.13" xml:id="L0793" type="1_Farce"> <author>Cheltnam, Charles Smith</author> <title
      n="slowtopsengagements">Slowtop's Engagements</title> <title type="sub">A Farce in 1 Act. From
@@ -5296,11 +5369,12 @@
      n="princeamabel">Prince Amabel; or The Fairy Rose</title> <title type="sub">An Original Fairy
      Extravaganza</title> <note type="firstPerf"><name>Royal St. James's Theatre</name><date
      when="1862">5 May 1862</date>. Licenced for performance <ref type="ms" target="lcp:LCP_53013_U"
-     >LC ms</ref></note> <note type="LCPkeywords"/><note type="digitizations"><ref
-     target="https://archive.org/details/princeamabelorfa0000brou">Prince Amabel; or, the fairy
+     >LC ms</ref></note> <note type="LCPkeywords"/><note type="digitizations"
+     ><!--Prince Amabel; or, the fairy
      roses : an original fairy extravaganza / by William Brough (member of the Dramatic Authors'
      Society), author of Perseus and Andromeda; Endymion, or the naughty boy who cried for the
-     moon...&amp;c.</ref><ref target="local:L0815.pdf"> local copy </ref>
+     moon...&c.--><ref target="https://archive.org/details/princeamabelorfa0000brou">Internet
+     Archive</ref><ref target="local:L0815.pdf"> local copy </ref>
      <!--mv ~/Downloads/princeamabelorfa0000brou.pdf ~/pCloudDrive/LacyWork/googleBooks/L0815.pdf--></note></bibl>
     <bibl n="55.6" xml:id="L0816" type="1_Farce"> <author>Oxenford, John</author> <title
      n="icouldnthelpit">I Couldn't Help It</title> <title type="sub">An Original Farce in 1
@@ -5316,8 +5390,9 @@
     <bibl n="55.8" xml:id="L0818" type="1_Farce"> <author>Raymond, R.J.</author> <title n="mrswhite"
      >Mrs White</title> <title type="sub">A Farce in 1 Act</title> <note type="firstPerf"
      ><name>English Opera House</name><date when="1836">July 1836</date></note> <note
-     type="digitizations"><ref target="https://archive.org/details/mrswhitefarceino0000raym">Mrs.
-     White : a farce, in one act / by R. J. Raymond, author of Robert the devil...&amp;c.</ref><ref
+     type="digitizations"><!--Mrs.
+     White : a farce, in one act / by R. J. Raymond, author of Robert the devil...&c.--><ref
+     target="https://archive.org/details/mrswhitefarceino0000raym">Internet Archive</ref><ref
      target="local:L0818.pdf"> local copy </ref>
      <!--mv ~/Downloads/mrswhitefarceino0000raym.pdf ~/pCloudDrive/LacyWork/googleBooks/L0818.pdf--></note></bibl>
     <bibl n="55.9" xml:id="L0819" type="1_Extravagan"> <author>Brough, William; Halliday, Andrew
@@ -5347,7 +5422,7 @@
      n="jonathanbradford">Jonathan Bradford</title> <title type="sub">A Melo-Drama in 2 Acts</title>
      <note type="firstPerf"><name>Surrey Theatre</name><date when="1833">12 June 1833</date></note>
      <note type="digitizations"><ref target="https://archive.org/details/jonathanbradford00fitz"
-     /><ref target="local:L0824.pdf"> local copy </ref>
+     >Internet Archive</ref><ref target="local:L0824.pdf"> local copy </ref>
      <!--mv ~/Downloads/jonathanbradford00fitz.pdf ~/pCloudDrive/LacyWork/googleBooks/L0824.pdf--></note></bibl>
     <bibl n="55.15" xml:id="L0825" type="1_ComicDrama"> <author>Lunn, Joseph</author> <title
      n="sharppractice">Sharp Practice; or, The "Lear" of Chipplegate</title> <title type="sub">A
@@ -5547,8 +5622,8 @@
      target="lcp:LCP_53021_P">LC ms</ref></note> <note type="LCPkeywords"/><note
      type="digitizations"><ref
      target="http://victorian.nuigalway.ie/modx/assets/docs/pdf/Vol58iAurora.pdf">PDF</ref><ref
-     target="https://archive.org/details/aurorafloyddrama00sute"/><ref target="local:L0856.pdf">
-     local copy </ref>
+     target="https://archive.org/details/aurorafloyddrama00sute">Internet Archive</ref><ref
+     target="local:L0856.pdf"> local copy </ref>
      <!--mv ~/Downloads/aurorafloyddrama00sute.pdf ~/pCloudDrive/LacyWork/googleBooks/L0856.pdf--></note></bibl>
     <bibl n="58.2" xml:id="L0857" type="_DramaDramaSketch"> <author>Coyne, Joseph Stirling</author>
      <title n="buckstoneathome">Buckstone at Home; or, The Manager and His Friends</title> <title
@@ -5596,7 +5671,9 @@
      Construction the Romantic Pathos of the Well-known Balls "Alonzo and Imogene" with the
      Thrilling Horrors of Goethe's "Faust"</title> <note type="firstPerf"><name>A.D.C. Rooms
      Cambridge</name><date>Unknown</date>. Licenced for performance <ref type="ms"
-     target="lcp:LCP_53021_P">LC ms</ref></note> <note type="LCPkeywords"/></bibl>
+     target="lcp:LCP_53021_P">LC ms</ref></note> <note type="LCPkeywords"/><note
+     type="digitizations"><ref target="http://archive.org/details/alonzobravefairi00miln">Internet
+     Archive</ref>; <ref target="local:L0864.pdf">Local copy</ref></note></bibl>
     <bibl n="58.10" xml:id="L0865" type="1_Comedietta"> <author>Williams, Thomas J.</author> <title
      n="thelittlesentinel">The Little Sentinel!</title> <title type="sub">A Comedietta in 1
      Act</title> <note type="firstPerf"><name>Royal St. James's</name><date when="1863">4 May
@@ -5855,9 +5932,9 @@
      type="digitizations"><ref
      target="http://victorian.nuigalway.ie/modx/assets/docs/pdf/Vol61viiiKing.pdf"
      >PDF</ref></note></bibl>
-    <bibl n="61.9" xml:id="L0909" type="1_Farce"> <author>[Anon.]</author> <title n="loveandrain">Love
-     and Rain</title> <title type="sub">A Farce in 1 Act. Adapted from the French</title> <note
-     type="firstPerf"><name>Unknown</name><date>Unknown</date></note> </bibl>
+    <bibl n="61.9" xml:id="L0909" type="1_Farce"> <author>[Anon.]</author> <title n="loveandrain"
+     >Love and Rain</title> <title type="sub">A Farce in 1 Act. Adapted from the French</title>
+     <note type="firstPerf"><name>Unknown</name><date>Unknown</date></note> </bibl>
     <bibl n="61.10" xml:id="L0910" type="1_X"> <author>Byron, Henry James</author> <title
      n="ladybellebelle">Lady Belle Belle; or, Fortunio and His Seven Magic Men</title> <title
      type="sub">A Christmas Fairy Tale in 1 Act</title> <note type="firstPerf"><name>Royal Adelphi
@@ -5920,8 +5997,8 @@
      1863</date></note> <note type="digitizations"><ref
      target="http://victorian.nuigalway.ie/modx/assets/docs/pdf/Vol62viLost.pdf"
      >PDF</ref></note></bibl>
-    <bibl n="62.7" xml:id="L0922" type="_X"> <author>[Anon.]</author> <title n="venusandadonis">Venus
-     and Adonis!</title> <title type="sub">A Story of The Two Rivals and a Small Boar [in 5
+    <bibl n="62.7" xml:id="L0922" type="_X"> <author>[Anon.]</author> <title n="venusandadonis"
+     >Venus and Adonis!</title> <title type="sub">A Story of The Two Rivals and a Small Boar [in 5
      Scenes]</title> <note type="firstPerf"><name>Theatre Royal, Haymarket</name><date when="1864"
      >28 March 1864</date></note> </bibl>
     <bibl n="62.8" xml:id="L0923" type="1_Extravagan"> <author>Burnand, Francis C.</author> <title
@@ -5932,8 +6009,9 @@
      n="drawingrooms">Drawing Rooms, Second Floor, and Attics</title> <title type="sub">A Farce in 1
      Act</title> <note type="firstPerf"><name>Royal Princess's Theatre</name><date when="1864">28
      March 1864</date></note> <note type="digitizations"><ref
-     target="http://victorian.nuigalway.ie/modx/assets/docs/pdf/Vol62ixDrawing.pdf"
-      >PDF</ref>; <ref target="ia:MortonDrawingRooms"/></note></bibl>
+     target="http://victorian.nuigalway.ie/modx/assets/docs/pdf/Vol62ixDrawing.pdf">PDF</ref>; <ref
+     target="http://archive.org/details/MortonDrawingRooms">Internet Archive</ref>; <ref
+     target="local:L0924.pdf">Local copy</ref></note></bibl>
     <bibl n="62.10" xml:id="L0925" type="5_Comedy"> <author>Shakespeare, William</author> <title
      n="themerrywivesofwindso...">The Merry Wives of Windsor</title> <title type="sub">A Comedy in 5
      Acts</title> <note type="firstPerf"><name>Theatre Royal Covent Garden</name><date when="1840">7
@@ -5984,8 +6062,8 @@
      n="faustandmarguerite">Faust and Marguerite</title> <title type="sub">An Entirely New Original
      Travestie in 1 Act</title> <note type="firstPerf"><name>Royal St. James's Theatre</name><date
      when="1864">9 July 1864</date></note> <note type="digitizations"><ref
-     target="https://archive.org/details/faustmargueritee00burn"/><ref target="local:L0935.pdf">
-     local copy </ref>
+     target="https://archive.org/details/faustmargueritee00burn">Internet Archive</ref><ref
+     target="local:L0935.pdf"> local copy </ref>
      <!--mv ~/Downloads/faustmargueritee00burn.pdf ~/pCloudDrive/LacyWork/googleBooks/L0935.pdf--></note></bibl>
     <bibl n="63.6" xml:id="L0936" type="3_Play"> <author>Oxenford, John</author> <title
      n="themonasteryofstjust">The Monastery of St. Just</title> <title type="sub">A Play in 3 Acts.
@@ -6077,8 +6155,8 @@
      Famous Adelphi Drama of "The Green Bushes"</title> <note type="firstPerf"><name>Royal Strand
      Theatre</name><date when="1864">26. Dec. 1864</date></note> <note type="digitizations"><ref
      target="http://victorian.nuigalway.ie/modx/assets/docs/pdf/Vol64xGrin.pdf">PDF</ref><ref
-     target="https://archive.org/details/grinbushesormrsb00byro"/><ref target="local:L0955.pdf">
-     local copy </ref>
+     target="https://archive.org/details/grinbushesormrsb00byro">Internet Archive</ref><ref
+     target="local:L0955.pdf"> local copy </ref>
      <!--mv ~/Downloads/grinbushesormrsb00byro.pdf ~/pCloudDrive/LacyWork/googleBooks/L0955.pdf--></note></bibl>
     <bibl n="64.11" xml:id="L0956" type="_Extravagan"> <author>Burnand, Francis C.</author> <title
      n="cupidandpsyche">Cupid and Psyche, or, Beautiful as a Butterfly</title> <title type="sub">A
@@ -6170,11 +6248,11 @@
     <bibl n="65.13" xml:id="L0973" type="3_Comedy"> <author>Buckingham, Leicester</author> <title
      n="facesinthefire">Faces in the Fire</title> <title type="sub">A Comedy in 3 Acts</title> <note
      type="firstPerf"><name>Royal St. James's Theatre</name><date when="1865">25 Feb.
-     1865</date></note> <note type="digitizations"><ref
-     target="https://archive.org/details/facesinfirecomed0000buck">Faces in the fire : a comedy, in
+     1865</date></note> <note type="digitizations"><!--Faces in the fire : a comedy, in
      three acts / by Leicester Buckingham, (Member of the Dramatic Authors' Society), author of The
-     silver lining, The merry widow.....Valentine and Orson.</ref><ref target="local:L0973.pdf">
-     local copy </ref>
+     silver lining, The merry widow.....Valentine and Orson.--><ref
+     target="https://archive.org/details/facesinfirecomed0000buck">Internet Archive</ref><ref
+     target="local:L0973.pdf"> local copy </ref>
      <!--mv ~/Downloads/facesinfirecomed0000buck.pdf ~/pCloudDrive/LacyWork/googleBooks/L0973.pdf--></note></bibl>
     <bibl n="65.14" xml:id="L0974" type="2_Drama"> <author>Suter, William E.</author> <title
      n="fanfanthetulip">Fan-Fan, The Tulip; or, A Soldier's Fortune</title> <title type="sub">A
@@ -6208,10 +6286,11 @@
      type="firstPerf"><name>Royal Princess's Theatre</name><date when="1865">13 March
      1865</date></note> </bibl>
     <bibl n="66.4" xml:id="L0979" type="1_Farce"> <author>Suter, William E.</author> <title
-     n="wanted">"Wanted, A Young Lady-"</title> <title type="sub">A Farce in 1 Act</title> <note
+     n="wanted">"Wanted, A Young Lady"</title> <title type="sub">A Farce in 1 Act</title> <note
      type="firstPerf"><name>Unknown</name><date>Unknown</date></note> <note type="digitizations"
-     ><ref target="http://victorian.nuigalway.ie/modx/assets/docs/pdf/Vol66ivWanted.pdf"
-     >PDF</ref></note></bibl>
+     ><ref target="http://victorian.nuigalway.ie/modx/assets/docs/pdf/Vol66ivWanted.pdf">PDF</ref>;
+     <ref target="http://archive.org/details/SuterWantedYoungLady">Internet Archive</ref>; <ref
+     target="local:L0979.pdf">Local copy</ref></note></bibl>
     <bibl n="66.5" xml:id="L0980" type="_Burle"> <author>Burnand, Francis C.</author> <title
      n="ulysses">Ulysses; or, The Iron-clad Warrior and the Little Tug of War</title> <title
      type="sub">An Entirely Original Burlesque</title> <note type="firstPerf"><name>Royal St.
@@ -6435,11 +6514,12 @@
      n="adayinparis">A Day in Paris</title> <title type="sub">A Farce in 1 Act</title> <note
      type="firstPerf"><name>Strand Theatre</name><date when="1832">18 July 1832</date>. Licenced for
      performance <ref type="ms" target="lcp:LCP_53023_G">LC ms</ref></note> <note type="LCPkeywords"
-     /><note type="digitizations"><ref target="https://archive.org/details/dayinparisinterl0000selb"
-     >A day in Paris! : an interlude, in one act / by Charles Selby, comedian, author Captain
+     /><note type="digitizations"
+     ><!--A day in Paris! : an interlude, in one act / by Charles Selby, comedian, author Captain
      Stevens, Frank Fox Phipps, The military execution, Unfinished gentlemen, Robert Macaire,
      Married rake, Catching an heiress, Hunting a turtle, Widow's victim, Frederick of Prussia,
-     &amp;c.</ref><ref target="local:L1025.pdf"> local copy </ref>
+     &c.--><ref target="https://archive.org/details/dayinparisinterl0000selb">Internet
+     Archive</ref><ref target="local:L1025.pdf"> local copy </ref>
      <!--mv ~/Downloads/dayinparisinterl0000selb.pdf ~/pCloudDrive/LacyWork/googleBooks/L1025.pdf--></note></bibl>
     <bibl n="69.6" xml:id="L1026" type="2_Drama"> <author>Buckstone, John Baldwin</author> <title
      n="lukethelabourer">Luke the Labourer; or, The Lost Son</title> <title type="sub">A Domestic
@@ -6510,9 +6590,9 @@
      <note type="digitizations"><ref
      target="http://victorian.nuigalway.ie/modx/assets/docs/pdf/Vol70iChild.pdf"
      >PDF</ref></note></bibl>
-    <bibl n="70.2" xml:id="L1037" type="1_Burle"> <author>[Anon.]</author> <title n="thecourtoflions"
-     >The Court of Lions; or, Granada Taken and Done For</title> <title type="sub">A Historical
-     Burlesque in 1 Act</title> <note type="firstPerf"
+    <bibl n="70.2" xml:id="L1037" type="1_Burle"> <author>[Anon.]</author> <title
+     n="thecourtoflions">The Court of Lions; or, Granada Taken and Done For</title> <title
+     type="sub">A Historical Burlesque in 1 Act</title> <note type="firstPerf"
      ><name>Unknown</name><date>Unknown</date></note> </bibl>
     <bibl n="70.3" xml:id="L1038" type="1_Farce"> <author>Hay, Frederic</author> <title
      n="aphotographicfix">A Photographic Fix</title> <title type="sub">An Original Farce in 1
@@ -6604,23 +6684,25 @@
      n="themanoftheworld">The Man of the World</title> <title type="sub">A Comedy in 5 Acts</title>
      <note type="firstPerf"><name>Theatre Royal Covent Garden</name><date when="1868">10 May
      1868</date></note> <note type="digitizations"><ref
-     target="https://archive.org/details/manofworldcomedy00mackrich"/><ref target="local:L1054.pdf">
-     local copy </ref>
+     target="https://archive.org/details/manofworldcomedy00mackrich">Internet Archive</ref><ref
+     target="local:L1054.pdf"> local copy </ref>
      <!--mv ~/Downloads/manofworldcomedy00mackrich.pdf ~/pCloudDrive/LacyWork/googleBooks/L1054.pdf--></note></bibl>
     <bibl n="71.5" xml:id="L1055" type="1_Farce"> <author>Selby, Charles</author> <title
      n="themarriedrake">The Married Rake</title> <title type="sub">A Farce in 1 Act</title> <note
      type="firstPerf"><name>Queen's Theatre</name><date when="1835">9 Feb. 1835</date></note> <note
-     type="digitizations"><ref target="https://archive.org/details/marriedrakefarce0000selb">The
+     type="digitizations"><!--The
      married rake : a farce, in one act / by Charles Selby, comedian, author of Captain Stevens,
-     Robert Macaire, Unfinished gentlemen, Widow's victim, &amp;c.</ref><ref
+     Robert Macaire, Unfinished gentlemen, Widow's victim, &c.--><ref
+     target="https://archive.org/details/marriedrakefarce0000selb">Internet Archive</ref><ref
      target="local:L1055.pdf"> local copy </ref>
      <!--mv ~/Downloads/marriedrakefarce0000selb.pdf ~/pCloudDrive/LacyWork/googleBooks/L1055.pdf--></note></bibl>
     <bibl n="71.6" xml:id="L1056" type="1_Farce"> <author>Morton, Edward</author> <title
      n="thewindmill">The Windmill</title> <title type="sub">A Farce in 1 Act</title> <note
      type="firstPerf"><name>Theatre Royal Drury Lane</name><date when="1842">25 Jan.
-     1842</date></note> <note type="digitizations"><ref
-     target="https://archive.org/details/windmillfarceino0000mort">The windmill : a farce, in one
-     act / by Edward Morton, Esq.</ref><ref target="local:L1056.pdf"> local copy </ref>
+     1842</date></note> <note type="digitizations"><!--The windmill : a farce, in one
+     act / by Edward Morton, Esq.--><ref
+     target="https://archive.org/details/windmillfarceino0000mort">Internet Archive</ref><ref
+     target="local:L1056.pdf"> local copy </ref>
      <!--mv ~/Downloads/windmillfarceino0000mort.pdf ~/pCloudDrive/LacyWork/googleBooks/L1056.pdf--></note></bibl>
     <bibl n="71.7" xml:id="L1057" type="_Farce"> <author>Allingham, J.T.</author> <title
      n="theweathercock">The Weathercock</title> <title type="sub">A Farce [in 3 scenes]</title>
@@ -6630,9 +6712,9 @@
      n="mypollandmypartnerjoe">My Poll and My Partner Joe</title> <title type="sub">A Nautical Drama
      in 3 Acts. The Music Selected and Arranged by Mr. Jolly</title> <note type="firstPerf"
      ><name>Royal Surrey Theatre</name><date when="1835">Sept. 1835</date></note> </bibl>
-    <bibl n="71.9" xml:id="L1059" type="1_Comedietta"> <author>Simpson, John Palgrave</author> <title
-     n="jackinabox">Jack in a Box!</title> <title type="sub">A Comedietta in 1 Act</title> <note
-     type="firstPerf"><name>Royal St James's Theatre</name><date when="1866">11 June
+    <bibl n="71.9" xml:id="L1059" type="1_Comedietta"> <author>Simpson, John Palgrave</author>
+     <title n="jackinabox">Jack in a Box!</title> <title type="sub">A Comedietta in 1 Act</title>
+     <note type="firstPerf"><name>Royal St James's Theatre</name><date when="1866">11 June
      1866</date></note> </bibl>
     <bibl n="71.10" xml:id="L1060" type="3_Comedy"> <note>Dedicated to 'My Dear Friend Tom Hood'
      </note><author>Robertson, T.W.</author> <title n="society">Society</title> <title type="sub">A
@@ -6641,8 +6723,8 @@
      Wales's Theatre London</name><date when="1865">11 Nov. 1865</date></note> <note
      type="digitizations"><ref
      target="http://victorian.nuigalway.ie/modx/assets/docs/pdf/Vol71xSociety.pdf">PDF</ref><ref
-     target="https://archive.org/details/societycomedyint00robe"/><ref target="local:L1060.pdf">
-     local copy </ref>
+     target="https://archive.org/details/societycomedyint00robe">Internet Archive</ref><ref
+     target="local:L1060.pdf"> local copy </ref>
      <!--mv ~/Downloads/societycomedyint00robe.pdf ~/pCloudDrive/LacyWork/googleBooks/L1060.pdf--></note></bibl>
     <bibl n="71.11" xml:id="L1061" type="2_Drama"> <author>Almar, George</author> <title
      n="thecharcoalburner">The Charcoal Burner; or, The Dropping Well of Knaresborough</title>
@@ -6712,15 +6794,17 @@
      Sketch in 1 Act. Adapted from La Chatte Métamorphosée en Femme</title> <note type="firstPerf"
      ><name>Theatre du Gymnase Dramatique </name><date when="1827">3 March 1827</date></note><note
      type="otherPerfs"><name>Princess's Theatre as "Puss"</name><date when="1859">Oct.
-     1859</date></note> </bibl>
+     1859</date></note> <note type="digitizations"><ref
+     target="http://archive.org/details/womanthatwascatm00scri">Internet Archive</ref>; <ref
+     target="local:L1072.pdf">Local copy</ref></note></bibl>
     <bibl n="72.8" xml:id="L1073" type="3_Comedy"> <author>Cowley, Hannah</author> <title
      n="thebellesstratagem">The Belle's Stratagem</title> <title type="sub">A Comedy in 3
      Acts</title> <note type="firstPerf"><name>Theatre Royal Covent Garden </name><date when="1780"
      >22 Feb, 1780</date></note><note type="otherPerfs"><name>Drury Lane; Covent Garden; Covent
      Garden; Drury Lane; St James's</name><date when="1866">22 March 1790; 8 Jan. 1808; 12 Sept.
      1817; 20 Jan. 1818; 6 Oct. 1866</date></note> <note type="digitizations"><ref
-     target="https://archive.org/details/bellesstratagemc00cowlrich"/><ref target="local:L1073.pdf">
-     local copy </ref>
+     target="https://archive.org/details/bellesstratagemc00cowlrich">Internet Archive</ref><ref
+     target="local:L1073.pdf"> local copy </ref>
      <!--mv ~/Downloads/bellesstratagemc00cowlrich.pdf ~/pCloudDrive/LacyWork/googleBooks/L1073.pdf--></note></bibl>
     <bibl n="72.9" xml:id="L1074" type="_Farce"> <author>Williams, Thomas J.</author> <title
      n="larkinsloveletter">Larkins' Love Letter</title> <title type="sub">A Farce</title> <note
@@ -6790,8 +6874,8 @@
      n="lovebylanternlight">Love by Lantern-Light</title> <title type="sub">An Operetta in 1 Act.
      Adapted from "Le Marriage aux Lanternes". Music by Jacques Offenbach</title> <note
      type="firstPerf"><name>Soho Theatre</name><date when="1862">1862</date></note> <note
-     type="digitizations"><ref target="https://archive.org/details/lovebylanternlig00carr"/><ref
-     target="local:L1086.pdf"> local copy </ref>
+     type="digitizations"><ref target="https://archive.org/details/lovebylanternlig00carr">Internet
+     Archive</ref><ref target="local:L1086.pdf"> local copy </ref>
      <!--mv ~/Downloads/lovebylanternlig00carr.pdf ~/pCloudDrive/LacyWork/googleBooks/L1086.pdf--></note></bibl>
     <bibl n="73.7" xml:id="L1087" type="2_Comedy"> <author>Oxenford, John</author> <title
      n="neighbours">Neighbours</title> <title type="sub">A New Comedy in 2 Acts</title> <note
@@ -6811,11 +6895,11 @@
      type="firstPerf"><name>New Strand Theatre </name><date when="1854">8 June
      1854</date></note><note type="otherPerfs"><name>Royal Olympic</name><date when="1866">24 Nov.
      1866</date></note> </bibl>
-    <bibl n="73.10" xml:id="L1090" type="1_Comedy"> <author>[Anon.]</author> <title n="speakoutboldly"
-     >Speak Out <corr>Boldly</corr></title> <title type="sub">A Petite Comedy in 1 Act</title> <note
-     type="firstPerf"><name>Unknown</name><date>Unknown</date></note> <note type="digitizations"
-     ><ref target="https://archive.org/details/speakoutboldlype00sute"/><ref
-     target="local:L1090.pdf"> local copy </ref>
+    <bibl n="73.10" xml:id="L1090" type="1_Comedy"> <author>[Anon.]</author> <title
+     n="speakoutboldly">Speak Out <corr>Boldly</corr></title> <title type="sub">A Petite Comedy in 1
+     Act</title> <note type="firstPerf"><name>Unknown</name><date>Unknown</date></note> <note
+     type="digitizations"><ref target="https://archive.org/details/speakoutboldlype00sute">Internet
+     Archive</ref><ref target="local:L1090.pdf"> local copy </ref>
      <!--mv ~/Downloads/speakoutboldlype00sute.pdf ~/pCloudDrive/LacyWork/googleBooks/L1090.pdf--></note></bibl>
     <bibl n="73.11" xml:id="L1091" type="_Farce"> <author>Williams, Thomas J.</author> <title
      n="myturnnext">My Turn Next</title> <title type="sub">A Farce</title> <note type="firstPerf"
@@ -7020,8 +7104,8 @@
      n="princesscharming">Princess Charming; or, The Bard, the Baron, the Beauty, the Buffer and the
      Bogey</title> <title type="sub">[no subtitle]</title> <note type="firstPerf"><name>Royal
      Gardens, Cremorne</name><date when="1867">29 April 1867</date></note> </bibl>
-    <bibl n="76.8" xml:id="L1133" type="2_Comedy"> <author>Harris, A.; Williams, Thomas J.
-     </author> <title n="gossip">Gossip</title> <title type="sub">A Comedy in 2 Acts</title> <note
+    <bibl n="76.8" xml:id="L1133" type="2_Comedy"> <author>Harris, A.; Williams, Thomas J. </author>
+     <title n="gossip">Gossip</title> <title type="sub">A Comedy in 2 Acts</title> <note
      type="firstPerf"><name>Royal Princess's Theatre</name><date when="1859">23 Nov. 1859</date>.
      Licenced for performance <ref type="ms" target="lcp:LCP_52987_G">LC ms</ref></note> <note
      type="LCPkeywords"><term>West Indians</term> <term>British Empire</term> <term>marital
@@ -7115,11 +7199,12 @@
      n="thelatesteditionofbla...">The Latest Edition of Black-Eyed Susan; or, The Little Bill that
      Was Taken Up</title> <title type="sub">An Original Burlesque</title> <note type="firstPerf"
      ><name>New Royalty Theatre</name><date when="1866">29 Nov. 1866</date></note> <note
-     type="digitizations"><ref target="https://archive.org/details/latesteditionofb0000burn">The
+     type="digitizations"><!--The
      latest edition of black-eyed Susan : or, The little bill that was taken up : an original
      burlesque / by F.C. Burnand, Esq. (member of the Dramatic Author's Society) author of Alonzo
-     the brave: or, Faust and the fair Imogene...&amp;c.</ref><ref target="local:L1150.pdf"> local
-     copy </ref>
+     the brave: or, Faust and the fair Imogene...&c.--><ref
+     target="https://archive.org/details/latesteditionofb0000burn">Internet Archive</ref><ref
+     target="local:L1150.pdf"> local copy </ref>
      <!--mv ~/Downloads/latesteditionofb0000burn.pdf ~/pCloudDrive/LacyWork/googleBooks/L1150.pdf--></note></bibl>
     <bibl n="77.11" xml:id="L1151" type="_Farce"> <author>Williams, Thomas J.</author> <title
      n="acureforthefidgets">A Cure for the Fidgets</title> <title type="sub">A Farce</title> <note
@@ -7157,7 +7242,9 @@
      Pippin</title> <title type="sub">A Grand New And Original Burlesque</title> <note
      type="firstPerf"><name>Royal Alexandra Theatre Liverpool </name><date when="1867">4 Sept.
      1867</date></note><note type="otherPerfs"><name>Royal Strand Theatre</name><date when="1867">5
-     Oct. 1867</date></note> </bibl>
+     Oct. 1867</date></note> <note type="digitizations"><ref
+     target="http://archive.org/details/williamtellwithv00byro">Internet Archive</ref>; <ref
+     target="local:L1157.pdf">Local copy</ref></note></bibl>
     <bibl n="78.3" xml:id="L1158" type="1_Burle"> <author>Burnand, Francis C.</author> <title
      n="maryturner">Mary Turner; or, The Wicious Willan and Wictorious Wirtue!</title> <title
      type="sub">An Entirely New and Original Burlesque in 1 Act</title> <note type="firstPerf"
@@ -7240,7 +7327,7 @@
      ><name>New Royalty Theatre</name><date when="1867">19 Dec. 1867</date></note> <note
      type="digitizations"><ref
      target="http://victorian.nuigalway.ie/modx/assets/docs/pdf/Vol79vHumbug.pdf">PDF</ref><ref
-     target="https://archive.org/details/humbugcomedyintw00burn"/><ref
+     target="https://archive.org/details/humbugcomedyintw00burn">Internet Archive</ref><ref
      target="https://hdl.handle.net/2027/uiug.30112102126197">Hathi Trust</ref><ref
      target="local:L1175.pdf"> local copy </ref>
      <!--mv ~/Downloads/humbugcomedyintw00burn.pdf ~/pCloudDrive/LacyWork/googleBooks/L1175.pdf--></note></bibl>
@@ -7392,10 +7479,10 @@
      Personation Farce</title> <note type="firstPerf"><name>Royal Grecian
      Theatre</name><date>Unknown</date></note> <note>"This piece is the property of T.H. Lacy"
      </note> </bibl>
-    <bibl n="81.6" xml:id="L1205" type="3_Drama"> <author>Yates, Edmund Harrington; Simpson, John Palgrave
-     </author> <title n="blacksheep">Black Sheep</title> <title type="sub">Drama in 3 Acts. Founded
-     on Edmund Yates' Novel</title> <note type="firstPerf"><name>Royal Olympic Theatre</name><date
-     when="1868">5 April 1868</date></note> <note type="digitizations"><ref
+    <bibl n="81.6" xml:id="L1205" type="3_Drama"> <author>Yates, Edmund Harrington; Simpson, John
+     Palgrave </author> <title n="blacksheep">Black Sheep</title> <title type="sub">Drama in 3 Acts.
+     Founded on Edmund Yates' Novel</title> <note type="firstPerf"><name>Royal Olympic
+     Theatre</name><date when="1868">5 April 1868</date></note> <note type="digitizations"><ref
      target="http://victorian.nuigalway.ie/modx/assets/docs/pdf/Vol81viBlack.pdf"
      >PDF</ref></note></bibl>
     <bibl n="81.7" xml:id="L1206" type="3_Drama"> <author>Leslie, Henry</author> <title
@@ -7475,8 +7562,8 @@
      n="chrononhotonthologos">Chrononhotonthologos</title> <title type="sub">The Most Original
      Tragedy that Ever was Tragedized by any Company of Tragedians in 1 Act</title> <note
      type="firstPerf"><name>Theatre Royal Drury Lane</name><date when="1820">1820</date></note> </bibl>
-    <bibl n="82.8" xml:id="L1222" type="1_Farce"> <author>[Anon.]</author> <title n="oldandyoung">Old
-     and Young; or, The Four Mowbrays</title> <title type="sub">A Farce in 1 Act</title> <note
+    <bibl n="82.8" xml:id="L1222" type="1_Farce"> <author>[Anon.]</author> <title n="oldandyoung"
+     >Old and Young; or, The Four Mowbrays</title> <title type="sub">A Farce in 1 Act</title> <note
      type="firstPerf"><name>Drury Lane </name><date when="1826">1826</date></note><note
      type="otherPerfs"><name>Covent Garden</name><date when="1831">1831</date></note> </bibl>
     <bibl n="82.9" xml:id="L1223" type="3_Drama"> <author>Holl, Henry</author> <title
@@ -7510,7 +7597,7 @@
      type="sub">A Domestic Drama in 1 Act. Adapted from the French</title> <note type="firstPerf"
      ><name>Theatre Royal Edinburgh </name><date>Unknown</date></note><note type="otherPerfs"
      ><name>Glasgow</name><date when="1850">14 June 1850</date></note> <note type="digitizations"
-     ><ref target="https://archive.org/details/philippeorsecret00murr"/><ref
+     ><ref target="https://archive.org/details/philippeorsecret00murr">Internet Archive</ref><ref
      target="local:L1228.pdf"> local copy </ref>
      <!--mv ~/Downloads/philippeorsecret00murr.pdf ~/pCloudDrive/LacyWork/googleBooks/L1228.pdf--></note></bibl>
     <bibl n="82.15" xml:id="L1229" type="_Farce"> <author>Peake, Richard Brinsley</author> <title
@@ -7555,8 +7642,8 @@
      >Faust; or, The Fate of Margaret</title> <title type="sub">A Romantic Play in 4 Acts. Adapted
      from the Poem of Goethe. With an Introduction</title> <note type="firstPerf"><name>Theatre
      Royal Drury Lane</name><date when="1866">20 Oct. 1866</date></note> </bibl>
-    <bibl n="83.9" xml:id="L1238" type="1_Comedietta"> <author>[Anon.]</author> <title n="acupoftea">A
-     Cup of Tea</title> <title type="sub">A Comedietta in 1 Act</title> <note type="firstPerf"
+    <bibl n="83.9" xml:id="L1238" type="1_Comedietta"> <author>[Anon.]</author> <title n="acupoftea"
+     >A Cup of Tea</title> <title type="sub">A Comedietta in 1 Act</title> <note type="firstPerf"
      ><name>Royal Princess's Theatre</name><date when="1869">15 Feb. 1869</date></note> <note
      type="digitizations"><ref
      target="http://victorian.nuigalway.ie/modx/assets/docs/pdf/Vol83ixCup.pdf"
@@ -7706,11 +7793,11 @@
      Liverpool</name><date when="1869">14 April 1869</date></note> <note type="digitizations"><ref
      target="http://victorian.nuigalway.ie/modx/assets/docs/pdf/Vol85xHome.pdf"
      >PDF</ref></note></bibl>
-    <bibl n="85.11" xml:id="L1270" type="1_Farce"> <author>[Anon.]</author> <title n="thespoiledchild"
-     >The Spoiled Child</title> <title type="sub">A Farce in 1 Act</title> <note type="firstPerf"
-     ><name>Drury Lane </name><date when="1790">1790</date></note><note type="otherPerfs"
-     ><name>Drury Lane; Drury Lane; Covent Garden; Haymarket; English Opera</name><date when="1826"
-     >1804; 1820; 4 Oct. 1826; 3 Oct. 1826</date></note> </bibl>
+    <bibl n="85.11" xml:id="L1270" type="1_Farce"> <author>[Anon.]</author> <title
+     n="thespoiledchild">The Spoiled Child</title> <title type="sub">A Farce in 1 Act</title> <note
+     type="firstPerf"><name>Drury Lane </name><date when="1790">1790</date></note><note
+     type="otherPerfs"><name>Drury Lane; Drury Lane; Covent Garden; Haymarket; English
+     Opera</name><date when="1826">1804; 1820; 4 Oct. 1826; 3 Oct. 1826</date></note> </bibl>
     <bibl n="85.12" xml:id="L1271" type="3_Drama"> <author>Halliday, Andrew</author> <title
      n="daddygray">Daddy Gray</title> <title type="sub">An Original Drama in 3 Acts</title> <note
      type="firstPerf"><name>Royalty Theatre</name><date when="1868">1 Feb. 1868</date></note> </bibl>
@@ -7744,9 +7831,10 @@
     <bibl n="86.4" xml:id="L1278" type="_DramaSketch"> <author>Lemon, Harry</author> <title
      n="waitforananswer">Wait for an Answer</title> <title type="sub">A Dramatic Sketch</title>
      <note type="firstPerf"><name>Theatre Royal Holborn</name><date when="1869">25 Sept.
-     1869</date></note> <note type="digitizations"><ref
-     target="https://archive.org/details/waitforanswerdra0000lemo">Wait for an answer : a dramatic
-     sketch / by Harry Lemon.</ref><ref target="local:L1278.pdf"> local copy </ref>
+     1869</date></note> <note type="digitizations"><!--Wait for an answer : a dramatic
+     sketch / by Harry Lemon.--><ref
+     target="https://archive.org/details/waitforanswerdra0000lemo">Internet Archive</ref><ref
+     target="local:L1278.pdf"> local copy </ref>
      <!--mv ~/Downloads/waitforanswerdra0000lemo.pdf ~/pCloudDrive/LacyWork/googleBooks/L1278.pdf--></note></bibl>
     <bibl n="86.5" xml:id="L1279" type="5_Tragedy"> <author>Mitford, Mary Russell</author> <title
      n="foscari">Foscari</title> <title type="sub">A Tragedy in 5 Acts</title> <note
@@ -7846,8 +7934,8 @@
      of Trials and Temptations in 3 Acts</title> <note type="firstPerf"><name>Royal Grecian
      Theatre</name><date when="1869">7 Oct. 1869</date></note> <note type="digitizations"><ref
      target="http://victorian.nuigalway.ie/modx/assets/docs/pdf/Vol87xLizzie.pdf">PDF</ref><ref
-     target="https://archive.org/details/lizzielyleorflow00hazlrich"/><ref target="local:L1299.pdf">
-     local copy </ref>
+     target="https://archive.org/details/lizzielyleorflow00hazlrich">Internet Archive</ref><ref
+     target="local:L1299.pdf"> local copy </ref>
      <!--mv ~/Downloads/lizzielyleorflow00hazlrich.pdf ~/pCloudDrive/LacyWork/googleBooks/L1299.pdf--></note></bibl>
     <bibl n="87.11" xml:id="L1300" type="1_Drama"> <author>Harrington, Richard</author> <title
      n="thepedlarboy">The Pedlar Boy; or, The Old Mill Ruin</title> <title type="sub">A Drama in 1
@@ -7886,7 +7974,9 @@
      characters</term> <term>German characters</term> <term>family relationships</term>
      <term>aristocracy</term> <term>Pop Goes the Weasel</term> <term>fairies and other supernatural
      creatures</term> <term>prisons and prisoners</term> <term>dance</term> <term>the
-     supernatural</term> <term>America.</term> </note></bibl>
+     supernatural</term> <term>America.</term> </note><note type="digitizations"><ref
+     target="http://archive.org/details/songsduetscinext00brou">Internet Archive</ref>; <ref
+     target="local:L1305.pdf">Local copy</ref></note></bibl>
     <bibl n="88.2" xml:id="L1306" type="3_Drama"> <author>Rede, William Leman</author> <title
      n="ourvillage">Our Village; or, The Lost Ship</title> <title type="sub">A Domestic Drama in 3
      Acts</title> <note type="firstPerf"><name>Olympic</name> and
@@ -7994,8 +8084,8 @@
      knew him, and to a world of others who know his books". London, Christmas, 1869. </note> <note
      type="digitizations"><ref
      target="http://victorian.nuigalway.ie/modx/assets/docs/pdf/Vol89viMarlowe.pdf">PDF</ref><ref
-     target="https://archive.org/details/deathmarloweatr00horngoog"/><ref target="local:L1325.pdf">
-     local copy </ref>
+     target="https://archive.org/details/deathmarloweatr00horngoog">Internet Archive</ref><ref
+     target="local:L1325.pdf"> local copy </ref>
      <!--mv ~/Downloads/deathmarloweatr00horngoog.pdf ~/pCloudDrive/LacyWork/googleBooks/L1325.pdf--></note></bibl>
     <bibl n="89.7" xml:id="L1326" type="1_Interlude"> <author>[Anon.]</author> <title
      n="personation">Personation; or, Fairly Taken In</title> <title type="sub">An Interlude in 1
@@ -8117,8 +8207,8 @@
      n="everymaninhishumour">Every Man in His Humour</title> <title type="sub">A Comedy in 5
      Acts</title> <note type="firstPerf"><name>Theatre Royal, Covent Garden</name><date when="1825"
      >1825</date></note> <note type="digitizations"><ref
-     target="https://archive.org/details/everymaninhishum00jonsrich"/><ref target="local:L1351.pdf">
-     local copy </ref>
+     target="https://archive.org/details/everymaninhishum00jonsrich">Internet Archive</ref><ref
+     target="local:L1351.pdf"> local copy </ref>
      <!--mv ~/Downloads/everymaninhishum00jonsrich.pdf ~/pCloudDrive/LacyWork/googleBooks/L1351.pdf--></note></bibl>
     <bibl n="91.4" xml:id="L1352" type="3_Drama"> <author>Gully, J.M., M.D.</author> <title
      n="theladyofbelleisle">The Lady of Belleisle; or, A Night in the Bastille</title> <title
@@ -8181,8 +8271,8 @@
      Burlesque Extravaganza. Being a Second Edition of "Orpheus and Eurydice; or, The Young
      Gentleman who Charmed the Rocks"</title> <note type="firstPerf"><name>Royal Strand
      Theatre</name><date when="1871">24 April 1871</date></note> <note type="digitizations"><ref
-     target="https://archive.org/details/eurydiceorlittle00byro"/><ref target="local:L1365.pdf">
-     local copy </ref>
+     target="https://archive.org/details/eurydiceorlittle00byro">Internet Archive</ref><ref
+     target="local:L1365.pdf"> local copy </ref>
      <!--mv ~/Downloads/eurydiceorlittle00byro.pdf ~/pCloudDrive/LacyWork/googleBooks/L1365.pdf--></note></bibl>
     <bibl n="92.3" xml:id="L1366" type="1_Play"> <author>Jerrold, Douglas</author> <title
      n="thepainterofghent">The Painter of Ghent</title> <title type="sub">A Play in 1 Act</title>
@@ -8191,8 +8281,8 @@
      <title n="theclandestinemarriag...">The Clandestine Marriage</title> <title type="sub">A Comedy
      in 5 Acts</title> <note type="firstPerf"><name>Covent Garden</name><date when="1840"
      >1840</date></note> <note type="digitizations"><ref
-     target="https://archive.org/details/clandestinemarri00colmrich"/><ref target="local:L1367.pdf">
-     local copy </ref>
+     target="https://archive.org/details/clandestinemarri00colmrich">Internet Archive</ref><ref
+     target="local:L1367.pdf"> local copy </ref>
      <!--mv ~/Downloads/clandestinemarri00colmrich.pdf ~/pCloudDrive/LacyWork/googleBooks/L1367.pdf--></note></bibl>
     <bibl n="92.5" xml:id="L1368" type="1_Farce"> <author>Hay, Frederic</author> <title
      n="lodgersanddodgers">Lodgers and Dodgers</title> <title type="sub">A Farce in 1 Act</title>
@@ -8263,8 +8353,8 @@
      n="thestarofthenorth">The Star of the North</title> <title type="sub">A Drama in 3 Acts.
      Adapted from the French</title> <note type="firstPerf"
      ><name>Unknown</name><date>Unknown</date></note> <note type="digitizations"><ref
-     target="https://archive.org/details/starofnorthdrama00robe"/><ref target="local:L1384.pdf">
-     local copy </ref>
+     target="https://archive.org/details/starofnorthdrama00robe">Internet Archive</ref><ref
+     target="local:L1384.pdf"> local copy </ref>
      <!--mv ~/Downloads/starofnorthdrama00robe.pdf ~/pCloudDrive/LacyWork/googleBooks/L1384.pdf--></note></bibl>
     <bibl n="93.7" xml:id="L1385" type="_Extravagan"> <author>Byron, Henry James</author> <title
      n="theorangetreeandthehu...">The Orange Tree and the Humble Bee; or, The Little Princess Who
@@ -8315,9 +8405,10 @@
     <bibl n="94.4" xml:id="L1397" type="_X"> <author>Colman, George</author> <title
      n="themanagerindistress">The Manager in Distress</title> <title type="sub">A Prelude</title>
      <note type="firstPerf"><name>Theatre Royal, Haymarket</name><date when="1780">13 May
-     1780</date></note> <note type="digitizations"><ref
-     target="https://archive.org/details/managerindistres0000colm">The manager in distress : a
-     prelude / by George Colman, the Elder.</ref><ref target="local:L1397.pdf"> local copy </ref>
+     1780</date></note> <note type="digitizations"><!--The manager in distress : a
+     prelude / by George Colman, the Elder.--><ref
+     target="https://archive.org/details/managerindistres0000colm">Internet Archive</ref><ref
+     target="local:L1397.pdf"> local copy </ref>
      <!--mv ~/Downloads/managerindistres0000colm.pdf ~/pCloudDrive/LacyWork/googleBooks/L1397.pdf--></note></bibl>
     <bibl n="94.5" xml:id="L1398" type="1_Comedy"> <author>Selby, Charles</author> <title
      n="therivalpages">The Rival Pages</title> <title type="sub">A Petite Comedy in 1 Act</title>
@@ -8333,8 +8424,8 @@
      n="luckystars">Lucky Stars; or, The Cobbler of Cripplegate!</title> <title type="sub">A
      Burletta in 1 Act</title> <note type="firstPerf"><name>New Strand Theatre</name><date
      when="1842">July 1842</date></note> <note type="digitizations"><ref
-     target="https://archive.org/details/luckystarsorcobb00danc"/><ref target="local:L1401.pdf">
-     local copy </ref>
+     target="https://archive.org/details/luckystarsorcobb00danc">Internet Archive</ref><ref
+     target="local:L1401.pdf"> local copy </ref>
      <!--mv ~/Downloads/luckystarsorcobb00danc.pdf ~/pCloudDrive/LacyWork/googleBooks/L1401.pdf--></note></bibl>
     <bibl n="94.9" xml:id="L1402" type="_Extravagan"> <author>Byron, Henry James</author> <title
      n="camaralzamanandthefai...">Camaralzaman and the Fair Badoura; or, The Bad Djinn and the Good
@@ -8412,8 +8503,8 @@
     <bibl n="95.12" xml:id="L1420" type="1_Farce"> <author>Robertson, T.W.</author> <title
      n="peaceatanyprice">Peace at any Price</title> <title type="sub">A Farce in 1 Act. Adapted from
      the French</title> <note type="firstPerf"><name>Unknown</name><date>Unknown</date></note> <note
-     type="digitizations"><ref target="https://archive.org/details/peaceatanypricef00robeuoft"/><ref
-     target="local:L1420.pdf"> local copy </ref>
+     type="digitizations"><ref target="https://archive.org/details/peaceatanypricef00robeuoft"
+     >Internet Archive</ref><ref target="local:L1420.pdf"> local copy </ref>
      <!--mv ~/Downloads/peaceatanypricef00robeuoft.pdf ~/pCloudDrive/LacyWork/googleBooks/L1420.pdf--></note></bibl>
     <bibl n="95.13" xml:id="L1421" type="_Burle"> <author>Reece, R.</author> <title
      n="theverylastdaysofpomp...">The Very Last Days of Pompeii!</title> <title type="sub">A New

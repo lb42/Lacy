@@ -22,7 +22,7 @@ becomes
 <bibl n="7.15">
 <date when="1852">1 Sept. 1852</date><author>Phillips, Mrs. Alfred</author>
 <title>The Master Passion</title>
-<ref target="#vpp:Vol07xvMaster.pdf">PDF</ref>
+<ref target="vpp:Vol07xvMaster.pdf">PDF</ref>
 <title type="sub">A Comedy in 2 Acts</title>
 <note type="firstPerf">Royal Olympic Theatre</note></bibl>
 ~~~~
