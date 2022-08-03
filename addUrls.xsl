@@ -10,6 +10,8 @@
             <xsl:apply-templates select="@* | node()"/>
         </xsl:copy>
     </xsl:template>
+ 
+ <!--<note type="digitizations"><ref target="">Google Books</ref>; <ref target="local:">local copy</ref></note>-->
 
    <xsl:template match="@target">
    <xsl:attribute name="target">   <xsl:value-of select="t:expandPrefix(.)"/></xsl:attribute>
