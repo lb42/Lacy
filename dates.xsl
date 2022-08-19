@@ -10,10 +10,17 @@
     </xsl:template>
     <xsl:template match="body">
         <xsl:for-each select="div">
-           <xsl:value-of select="@n"/>, <xsl:value-of select="@notBefore"/><xsl:text>,</xsl:text>
+            <xsl:variable name="vol"><xsl:value-of select="substring-before(@n,'/')"/></xsl:variable>
+            <xsl:variable name="volYr"><xsl:value-of select="substring-after(@n,'/')"/></xsl:variable>
+           <xsl:value-of select="$vol"/>, <xsl:value-of select="$volYr"/><xsl:text>,</xsl:text>
             <xsl:for-each select="bibl/note[@type='firstPerf']/date">
-                <xsl:value-of select="@when"/><xsl:text>,</xsl:text></xsl:for-each>
-            <xsl:value-of select="avg(bibl/note[@type='firstPerf']/date/@when[. gt '0000'])"/><xsl:text>
+               <!-- <xsl:variable name="interval">
+              -->      <xsl:value-of select="$volYr - @when"/>
+                <!--</xsl:variable>-->
+               <!-- <xsl:value-of select="concat($interval,':', @when)"/>--><xsl:text>,</xsl:text>
+            
+            </xsl:for-each>
+           <xsl:text>
 </xsl:text>
         </xsl:for-each>
     </xsl:template>
