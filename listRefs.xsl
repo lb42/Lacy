@@ -6,8 +6,8 @@
  version="2.0">
  <xsl:template match="/">
   
-<xsl:message>There are <xsl:value-of select="count(//t:bibl)"/> records. </xsl:message>  
-  <xsl:message>There are <xsl:value-of select="count(//t:bibl[t:note[@type='digitizations'][t:ref]])"/> titles with at least one digref  and <xsl:value-of select="count(//t:bibl[t:note[@type='digitizations'][count(t:ref) gt 1]])"/> with more than one  </xsl:message>
+<xsl:message>There are <xsl:value-of select="count(//t:div/t:bibl)"/> records. </xsl:message>  
+   <xsl:message>There are <xsl:value-of select="count(//t:div/t:bibl[t:note[@type='digitizations'][t:ref]])"/> titles with at least one digref  and <xsl:value-of select="count(//t:div/t:bibl[t:note[@type='digitizations'][count(t:ref) gt 1]])"/> with more than one  </xsl:message>
 <xsl:message>Of which, <xsl:value-of select="count(//t:note[@type='digitizations']/t:ref[contains(@target,'victorian')])"/> from VPP </xsl:message>  
 <xsl:message>... <xsl:value-of select="count(//t:note[@type='digitizations']/t:ref[contains(@target,'archive')])"/> from Internet Archive </xsl:message>  
   <xsl:message>... <xsl:value-of select="count(//t:note[@type='digitizations']/t:ref[contains(@target,'hdl')])"/> from HathiTrust</xsl:message>

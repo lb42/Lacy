@@ -18,6 +18,22 @@
 386-405 L0089 #taking
 406-427 L0090 #verysuspicious
 
+#https://hdl.handle.net/2027/mdp.3901506745375 vol21
+#court
+#alcestis
+#romantic
+#beggars
+#only
+#seven
+#cramond
+#mistress
+#sweethearts
+#dayof
+#lovein
+#dream
+#spitalfields
+#ladyin
+#promotion
 
 #https://hdl.handle.net/2027/mdp.39015053749829 (vol 22)
 10-33 L0316 #morning
@@ -94,6 +110,67 @@
 376-403 L0809 #catch
 404-457 L0810 #idiot
 
+#https://hdl.handle.net/2027/mdp.39015067453806 vol60
+8-49 L0886 #manfred
+50-70 L0887 #double
+#71 #ADVER
+72-105 L0888 #deal
+106-149 L0889 #ixion
+150-167 L0890 #easy
+168-185 L0891 #pirates
+186-207 L0892 #highwaymans
+208-246 L0893 #miriams
+#247 #advert
+248-293 L0894 #accusing
+294-319 L0895 #wheres
+320-364 L0896 #charming
+#365 #advert
+366-391 L0897 #beauty
+392-405 L0898 #myheart
+406-427 L0899 #little
+429-455 L0900 #fortunes
+
+
+#https://hdl.handle.net/2027/mdp.39015067453640 vol 62
+8-61 L0916 #silver
+62-107 L0917 #pauls
+108-135 L0918 #reapers
+136-151 L0919 #area
+152-173 L0920 #alabama
+174-191 L0921 #lost
+192-241 L0922 #venus
+242-295 L0923 #rumpelstiltskin
+296-325 L0924 #drawingroom
+327-399 L0925 #merrywives
+401-440 L0926 #katherine
+442-457 L0927 #april
+458-476 L0928 #oddlot
+#477 #ADVERT
+478-536 L0929 #kings
+#537 #ADVERT
+539-565 L0930 #widows
+
+#https://hdl.handle.net/2027/mdp.39015067453798 vol63
+10-72 L0931 #sense
+#73 #advert
+74-125 L0932 #colleen
+126-151 L0933 #hunt
+152-174 L0934 #maid
+#175 #advert
+176-217 L0935 #faust
+218-270 L0936 #monastery
+#271 #advert
+272-295 L0937 #mywife
+296-315 L0938 #actors
+316-334 L0939 #timothy
+#335 #advert
+336-371 L0940 #mazourka
+372-409 L0941 #deborah
+410-427 L0942 #mydress
+428-444 L0943 #music
+#445 #advert
+446-475 L0944 #onthesly
+476-515 L0945 #woodcocks
 
 #https://hdl.handle.net/2027/mdp.39015067453780 (vol64)
 10-57 L0946 #how
@@ -115,6 +192,23 @@
 588-617 L0959 #princess
 618-661 L0960 #lesson
 
+#https://hdl.handle.net/2027/mdp.39015005299659 vol 69
+#flies
+#pipkins
+#lending
+#fly
+#day
+#luke
+#susan
+#robbers
+#derfreischutz
+#ocean
+#ladyandgent
+#ticket
+#firstlove
+#snapping
+#eddystone
+
 #https://hdl.handle.net/2027/mdp.39015067453764 (vol74
 10-61 L1096 #yew
 62-83 L1097 #suit
@@ -131,6 +225,41 @@
 487-518 L1108 #mineralo
 520-542 L1109 #davenport
 544-593 L1110 #theliar
+
+#https://hdl.handle.net/2027/mdp.39015067453756 VOL75
+#ingomar
+#roland
+#floating
+#adonis
+#giveme
+#huguenot
+#french
+#pygmalion
+#helies
+#sisters
+#bestway
+#antony
+#kennyngton
+#frankenstein
+#peter
+
+#https://hdl.handle.net/2027/mdp.39015067453751 vol78
+#weall
+#tell
+#mary
+#lord
+#dandelions
+#belle
+#jack
+#hesa
+#simon
+#lucia
+#crown
+#mutiny
+#affair
+#two
+#kind
+
 
 #https://hdl.handle.net/2027/mdp.39015067453749 (vol 79)
 6-37 L1171 #ifihad
@@ -186,7 +315,24 @@
 522-551 L1228 #philippe
 553-587 L1229 #comfortable
 
-#84
+#https://hdl.handle.net/2027/mdp.39015067453582 (vol84
+10-74 L1245 #notguilty
+76-95 L1246 #winning
+96-115 L1247 #lion
+116-143 L1248 #witch
+144-195 L1249 #paris
+197-251 L1250 #fire
+252-271 L1251 #winning
+272-291 L1252 #lame
+292-342 L1253 #ladies
+344-355 L1254 #bird
+356-373 L1255 #fair
+374-417 L1256 #edendale
+418-447 L1257 #test
+448-462 L1258 #chops
+464-483 L1259 #mrssmith
+
+
 
 #https://hdl.handle.net/2027/mdp.39015067453731 (vol 85)
 10-87 L1260 #manof
@@ -223,4 +369,24 @@
 578-611 L1348 #worth
 612-631 L1349 #misstibbet
 
-#92
+#https://hdl.handle.net/2027/mdp.39015067453715 vol92
+6-83 L1364 #time
+84-122 L1365 #eurydice
+125-144 L1366 #painter
+#145 #advert
+147-216 L1367 #clandestine
+#217 #advert
+218-231 L1368 #lodgers
+233-295 L1369 #ivanhoe
+296-339 L1370 #deadmans
+340-388 L1371 #trueassteel
+#388 #advert
+390-406 L1372 #down
+#407 #advert
+408-423 L1373 #borrowed
+425-451 L1374 #everybodys
+453-483 L1375 #zarah
+484-527 L1376 #fourcousins
+528-583 L1377 #woman
+584-636 L1378 #watchdog
+#637 #lae ad
