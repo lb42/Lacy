@@ -1,4 +1,8 @@
-#https://hdl.handle.net/2027/mdp.39015067453822 vol 06
+# starred volumes have a title (or more) in VPP, but no images
+*2
+*5
+
+#06 https://hdl.handle.net/2027/mdp.39015067453822 vol 06
 10-26 L0076 #duel
 28-44 L0077 #kiss
 #45 #advert
@@ -18,24 +22,29 @@
 386-405 L0089 #taking
 406-427 L0090 #verysuspicious
 
-#https://hdl.handle.net/2027/mdp.3901506745375 vol21
-#court
-#alcestis
-#romantic
-#beggars
-#only
-#seven
-#cramond
-#mistress
-#sweethearts
-#dayof
-#lovein
-#dream
-#spitalfields
-#ladyin
-#promotion
+*12
 
-#https://hdl.handle.net/2027/mdp.39015053749829 (vol 22)
+#21 https://hdl.handle.net/2027/mdp.3901506745375 vol21
+8-39 L0301  #court
+40-65 L0302  #alcestis
+66-93 L0303  #romantic
+95-138 L0304  #beggars
+#139 #advert
+140-169 L0305  #only
+170-209 L0306  #seven
+210-231 L0307  #cramond
+232-261 L0308  #mistress
+262-305 L0309  #sweethearts
+306-349 L0310  #dayof
+350-373 L0311  #lovein
+374-408 L0312  #dream
+#409 #advert ref lae
+410-429 L0313  #spitalfields
+430-464 L0314  #ladyin
+#465 #advert lae
+466-482 L0315  #promotion
+
+#22 https://hdl.handle.net/2027/mdp.39015053749829 (vol 22)
 10-33 L0316 #morning
 34-57 L0317 #haymarket
 58-77 L0318 #toomuch
@@ -53,7 +62,9 @@
 #ad #571
 572-607 L0330 #mountain
 
-#https://hdl.handle.net/2027/mdp.39015067453277 (vol 40)
+*25
+
+#40 https://hdl.handle.net/2027/mdp.39015067453277 (vol 40)
 10-63 L0586 #everybodys
 65-101 L0587 #richard
 103-127 L0588 #hunting
@@ -71,9 +82,28 @@
 500-511 L0599 #rifle
 512-547 L0600 #nine
 
-#https://hdl.handle.net/2027/mdp.39015067453277 (vol 50
+*41
 
-#https://hdl.handle.net/2027/mdp.39015067453830 (vol 51)
+#50 https://hdl.handle.net/2027/mdp.39015067453277 (vol 50
+10-80 L0736 #babes
+#81 #adv LAE
+82-141 L0737  #upat
+143-167 L0738  #dominique
+168-187 L0739  #didi
+188-215 L0740 #legacy
+216-239 L0741  #oldtrusty
+240-275 L0742  #chimney
+276-302 L0743  #cantab
+305-352 L0744  #house
+#353 #adv LAE
+355-377 L0745  #tom
+378-401 L0746  #little
+492-429 L0747  #hisexcellency
+430-445 L0748  #census
+446-501 L0749  #adventures
+502-543 L0750  #aladdin
+
+#51 https://hdl.handle.net/2027/mdp.39015067453830 (vol 51)
 10-63 L0751 #blacksheep
 64-107 L0752 #pirates
 108-145 L0753 #maccarthy
@@ -91,11 +121,11 @@
 498-515 L0764 #peace
 516-531 L0765 #pretty [pp 1-4  missing
 
-#https://hdl.handle.net/2027/mdp.39015067453822 (vol 54)
+#54 https://hdl.handle.net/2027/mdp.39015067453822 (vol 54
 10-30 L0796 #villikins
 #31 #laelist
 32-50 L0797 #eclipsing
-#51 #laelist (to v15)
+#51 #laelist (to v15
 52-75 L0798 #margery
 76-111 L0799 #oldphil
 112-129 L0800 #mother
@@ -110,7 +140,11 @@
 376-403 L0809 #catch
 404-457 L0810 #idiot
 
-#https://hdl.handle.net/2027/mdp.39015067453806 vol60
+*55
+*58
+*59
+
+#60 https://hdl.handle.net/2027/mdp.39015067453806 vol60
 8-49 L0886 #manfred
 50-70 L0887 #double
 #71 #ADVER
@@ -130,8 +164,9 @@
 406-427 L0899 #little
 429-455 L0900 #fortunes
 
+*61 (4
 
-#https://hdl.handle.net/2027/mdp.39015067453640 vol 62
+#62 https://hdl.handle.net/2027/mdp.39015067453640 vol 62
 8-61 L0916 #silver
 62-107 L0917 #pauls
 108-135 L0918 #reapers
@@ -150,7 +185,7 @@
 #537 #ADVERT
 539-565 L0930 #widows
 
-#https://hdl.handle.net/2027/mdp.39015067453798 vol63
+#63 https://hdl.handle.net/2027/mdp.39015067453798 vol63
 10-72 L0931 #sense
 #73 #advert
 74-125 L0932 #colleen
@@ -172,7 +207,7 @@
 446-475 L0944 #onthesly
 476-515 L0945 #woodcocks
 
-#https://hdl.handle.net/2027/mdp.39015067453780 (vol64)
+#64 https://hdl.handle.net/2027/mdp.39015067453780 (vol64
 10-57 L0946 #how
 59-130 L0947 #henry
 #131 #ad
@@ -192,24 +227,42 @@
 588-617 L0959 #princess
 618-661 L0960 #lesson
 
-#https://hdl.handle.net/2027/mdp.39015005299659 vol 69
-#flies
-#pipkins
-#lending
-#fly
-#day
-#luke
-#susan
-#robbers
-#derfreischutz
-#ocean
-#ladyandgent
-#ticket
-#firstlove
-#snapping
-#eddystone
+*65 (4
 
-#https://hdl.handle.net/2027/mdp.39015067453764 (vol74
+*66 (4
+
+*67 (4
+
+*68 (4
+
+#69 https://hdl.handle.net/2027/mdp.39015005299659 vol 69
+8-57 L1021 #flies
+58-81 L1022  #pipkins
+82-101 L1023  #lending
+#102-109 #flyPART
+110-145 L1024  #fly
+#146-153 #dayPART
+154-174 L1025  #day
+#175 #advert
+177-222 L1026  #luke
+224-271 L1027  #susan
+273-313 L1028  #robbers
+314-348 L1029  #derfreischutz
+#349 #advert
+351-406 L1030  #ocean
+408-430 L1031  #ladyandgent
+#431 #advert
+432-503 L1032  #ticket
+504-556 L1033  #firstlove
+558-585 L1034  #snapping
+587-621 L1035  #eddystone
+
+*70 (4
+*71 (4
+*72 (2
+*73 (4
+
+#74 https://hdl.handle.net/2027/mdp.39015067453764 (vol74
 10-61 L1096 #yew
 62-83 L1097 #suit
 85-135 L1098 #wife
@@ -226,42 +279,47 @@
 520-542 L1109 #davenport
 544-593 L1110 #theliar
 
-#https://hdl.handle.net/2027/mdp.39015067453756 VOL75
-#ingomar
-#roland
-#floating
-#adonis
-#giveme
-#huguenot
-#french
-#pygmalion
-#helies
-#sisters
-#bestway
-#antony
-#kennyngton
-#frankenstein
-#peter
+#75 https://hdl.handle.net/2027/mdp.39015067453756 VOL75
+8-69 L1111 #ingomar
+71-105 L1112  #roland
+107-137 L1113  #floating
+138-193 L1114  #adonis
+194-215 L1115  #giveme
+216-267 L1116  #huguenot
+268-283 L1117  #french
+284-319 L1118  #pygmalion
+320-345 L1119  #helies
+346-407 L1120  #sisters
+408-432 L1121  #bestway
+435-515 L1122  #antony
+516-563 L1123  #kennyngton
+564-589 L1124  #frankenstein
+590-605 L1125  #peter
 
-#https://hdl.handle.net/2027/mdp.39015067453751 vol78
-#weall
-#tell
-#mary
-#lord
-#dandelions
-#belle
-#jack
-#hesa
-#simon
-#lucia
-#crown
-#mutiny
-#affair
-#two
-#kind
+*76 (4
+*77 (4
 
 
-#https://hdl.handle.net/2027/mdp.39015067453749 (vol 79)
+#78 https://hdl.handle.net/2027/mdp.39015067453751 vol78
+10-36 L1156 #weall
+38-76 L1157  #tell
+#77 #advert
+78-115 L1158 #mary
+117-153 L1159 #lord
+154-177 L1160 #dandelions
+178-197 L1161  #belle
+198-243 L1162  #jack
+244-263 L1163  #hesa
+264-304 L1164  #simon
+306-329 L1165  #lucia
+330-389 L1166  #crown
+391-434 L1167  #mutiny
+437-463 L1168  #affair
+464-486 L1169  #two
+488-523 L1170  #kind
+
+
+#79 https://hdl.handle.net/2027/mdp.39015067453749 (vol 79
 6-37 L1171 #ifihad
 38-71 L1172 #caesar
 73-109 L1173 #inchcape
@@ -279,7 +337,7 @@
 492-517 L1184 #whostowin
 
 
-#https://hdl.handle.net/2027/mdp.39015067453590 (vol 80: many pp unusable)
+#80 https://hdl.handle.net/2027/mdp.39015067453590 BAD (vol 80
 10-55 L1185 #maud
 56-69 L1186 #verypleasant
 70-114 L1187 #peepshow
@@ -297,7 +355,7 @@
 506-521 L1199 #goto
 
 
-#https://hdl.handle.net/2027/mdp.39015019190373 (vol 82)
+#82 https://hdl.handle.net/2027/mdp.39015019190373 (vol 82
 10-71 L1215 #wifes
 72-84 L1216 #beautiful
 86-106 L1217 #atchi
@@ -315,7 +373,11 @@
 522-551 L1228 #philippe
 553-587 L1229 #comfortable
 
-#https://hdl.handle.net/2027/mdp.39015067453582 (vol84
+*79(3
+*80(3
+
+
+#84 https://hdl.handle.net/2027/mdp.39015067453582 (vol84
 10-74 L1245 #notguilty
 76-95 L1246 #winning
 96-115 L1247 #lion
@@ -334,7 +396,7 @@
 
 
 
-#https://hdl.handle.net/2027/mdp.39015067453731 (vol 85)
+#85 https://hdl.handle.net/2027/mdp.39015067453731 (vol 85
 10-87 L1260 #manof
 88-115 L1261 #pedrillo
 116-157 L1262 #oldscore
@@ -351,8 +413,9 @@
 606-621 L1273 #seagulls
 622-645 L1274 #oldgooseberry
 
+*89
 
-# https://hdl.handle.net/2027/mdp.39015005887966 (vol 90)
+#90  https://hdl.handle.net/2027/mdp.39015005887966 (vol 90
 9-85 L1335 # new men
 86-153 L1336 #rienzi
 154-185 L1337 #innkeeper
@@ -369,7 +432,9 @@
 578-611 L1348 #worth
 612-631 L1349 #misstibbet
 
-#https://hdl.handle.net/2027/mdp.39015067453715 vol92
+*91 
+
+#92 https://hdl.handle.net/2027/mdp.39015067453715 vol92
 6-83 L1364 #time
 84-122 L1365 #eurydice
 125-144 L1366 #painter

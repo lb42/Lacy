@@ -9,15 +9,8 @@
     <xsl:template match="/">
         <xsl:apply-templates select="//body"/>
     </xsl:template>
-    <xsl:function name="t:inRange">
-        <xsl:param name="min"/>
-        <xsl:param name="max"/>
-        <xsl:param name="val"/>
-        
-    </xsl:function>
-    <xsl:template match="body">
-       
-        <xsl:text>vol,volyr,date,undated,age0-2,age3ro9,age10to19,age20to49,age50plus
+   
+    <xsl:template match="body">     <xsl:text>vol,volyr,undated,age0-2,age3-9,age10-19,age20-29,age30plus
         </xsl:text>
         <xsl:for-each select="div">
             
