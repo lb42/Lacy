@@ -5,7 +5,18 @@
  exclude-result-prefixes="xs"
  version="2.0">
  <xsl:template match="/">
-  
+ <xsl:for-each select="//t:div[@type='volume']">
+ <xsl:message> <xsl:value-of select="count(t:bibl/t:note[@type='digitizations']/t:ref) "/> in <xsl:value-of 
+   select="substring-before(@n,'/')"/>
+  </xsl:message>
+  <vol n="{substring-before(@n,'/')}" ref="https://hdl">
+   <xsl:for-each select="t:bibl">
+    <title pp="0 0" key="{@xml:id}" label="{@n}"/> <xsl:text>
+</xsl:text>
+   </xsl:for-each>
+  </vol><xsl:text>
+</xsl:text>
+ </xsl:for-each> 
 <xsl:message>There are <xsl:value-of select="count(//t:div/t:bibl)"/> records. </xsl:message>  
    <xsl:message>There are <xsl:value-of select="count(//t:div/t:bibl[t:note[@type='digitizations'][t:ref]])"/> titles with at least one digref  and <xsl:value-of select="count(//t:div/t:bibl[t:note[@type='digitizations'][count(t:ref) gt 1]])"/> with more than one  </xsl:message>
 <xsl:message>Of which, <xsl:value-of select="count(//t:note[@type='digitizations']/t:ref[contains(@target,'victorian')])"/> from VPP </xsl:message>  

@@ -2,7 +2,7 @@
 *2
 *5
 
-#06 https://hdl.handle.net/2027/mdp.39015067453822 vol 06
+#vol06 https://hdl.handle.net/2027/mdp.39015067453822 vol 06
 10-26 L0076 #duel
 28-44 L0077 #kiss
 #45 #advert
@@ -23,6 +23,26 @@
 406-427 L0090 #verysuspicious
 
 *12
+
+#vol13 https://hdl.handle.net/2027/mdp.39015067453343
+12-34 L0181 #parents
+#35 advert lae
+36-58 L0182 #howto
+60-100 L0183 #hope (p11 blank; other pp poor)
+102-133 L0184 #cure
+134-163 L0185 #nicefirm
+164-211 L0186 #onceupon
+212-257 L0187 #lancers
+258-287 L0188 #firstnight
+288-319 L0189 #ladiesclub
+320-345 L0190 #perfection
+346-401 L0191 #plot
+402-449 L0192 #ranelagh
+#451 illus
+452-519 L0193 #richard
+520-551 L0194 #invasion
+552-597 L0195 #seaofice
+
 
 #21 https://hdl.handle.net/2027/mdp.3901506745375 vol21
 8-39 L0301  #court
@@ -63,6 +83,31 @@
 572-607 L0330 #mountain
 
 *25
+
+#vol29 https://hdl.handle.net/2027/mdp.
+<vol n="29" ref="https://hdl.handle.net/2027/mdp.39015067453004">
+<title from="10" to="53" xml:id="L0421" tag="youngandhandsome" pp="0"/>
+<title from="54" to="71" xml:id="L0422" tag="aladdinandthewonderfu..." pp="0"/>
+<title from="72" to="107" xml:id="L0423" tag="conradandmedora" pp="0"/>
+<title from="108" to="137" xml:id="L0424" tag="afamilyfailing" pp="0"/>
+<title from="138" to="157" xml:id="L0425" tag="crinoline" pp="0"/>
+<!-- illus p 159 -->
+<title from="160" to="177" xml:id="L0426" tag="thecaptainisnotamiss" pp="0"/>
+<!-- illus p 179 -->
+<title from="180" to="217" xml:id="L0427" tag="thehousekeeper" pp="0"/>
+<title from="218" to="231" xml:id="L0428" tag="anightatnottinghill" pp="0"/>
+<title from="232" to="273" xml:id="L0429" tag="abirdinthehandisworth..." pp="0"/>
+<title from="274" to="291" xml:id="L0430" tag="thejewsdaughter" pp="0"/>
+<title from="292" to="334" xml:id="L0431" tag="ruthoakley" pp="0"/>
+<!-- advert p 335-->
+<!-- illus p 337-->
+<title from="338" to="355" xml:id="L0432" tag="thedumbmaidofgenoa" pp="0"/>
+<title from="356" to="409" xml:id="L0433" tag="fraudanditsvictims" pp="0"/>
+<title from="410" to="436" xml:id="L0434" tag="angelordevil" pp="0"/>
+<!-- advert p 437-->
+<title from="438" to="469" xml:id="L0435" tag="gwynnethvaughan" pp="0"/>
+</vol>
+
 
 #40 https://hdl.handle.net/2027/mdp.39015067453277 (vol 40)
 10-63 L0586 #everybodys
@@ -121,6 +166,53 @@
 498-515 L0764 #peace
 516-531 L0765 #pretty [pp 1-4  missing
 
+
+<vol n="52" ref="https://hdl.handle.net/2027/mdp.39015067453525">
+<title from="10" to="81" xml:id="L0766" tag="mylordandmylady" pp="0"/>
+<title from="82" to="113" xml:id="L0767" tag="theisleofsttropez" pp="0"/>
+<title from="114" to="136" xml:id="L0768" tag="firstaffections" pp="0"/>
+<!-- advert LAE 137 -->
+<title from="138" to="161" xml:id="L0769" tag="acomicalcountess" pp="0"/>
+<title from="162" to="193" xml:id="L0770" tag="maryprice" pp="0"/>
+<title from="194" to="235" xml:id="L0771" tag="thesyrenofparis" pp="0"/>
+<title from="236" to="255" xml:id="L0772" tag="aluckyescape" pp="0"/>
+<!-- illus 257 -->
+<title from="258" to="303" xml:id="L0773" tag="thewrenboys" pp="0"/>
+<title from="304" to="340" xml:id="L0774" tag="temptation" pp="0"/>
+<!-- advert 341 -->
+<title from="342" to="361" xml:id="L0775" tag="thataffairatfinchley" pp="0"/>
+<title from="362" to="391" xml:id="L0776" tag="shortandsweet" pp="0"/>
+<title from="394" to="423" xml:id="L0777" tag="theillustriousstrange..." pp="0"/>
+<title from="424" to="451" xml:id="L0778" tag="wooingoneswife" pp="0"/>
+<title from="452" to="493" xml:id="L0779" tag="esmeraldaByron" pp="0"/>
+<title from="494" to="517" xml:id="L0780" tag="brotherbillandme" pp="0"/>
+</vol>
+
+<vol n="53" ref="https://hdl.handle.net/2027/mdp.39015067453673">
+<title from="10" to="53" xml:id="L0781" tag="misseilyoconnor" pp="0"/>
+<title from="54" to="72" xml:id="L0782" tag="aterriblesecret" pp="0"/>
+<!-- LAE advert 73 -->
+<title from="74" to="100" xml:id="L0783" tag="medea" pp="0"/>
+<!-- advert 101 -->
+<title from="102" to="123" xml:id="L0784" tag="alegalimpediment" pp="0"/>
+<title from="124" to="167" xml:id="L0785" tag="courtcards" pp="0"/>
+<!-- illus 169 -->
+<title from="170" to="189" xml:id="L0786" tag="themummy" pp="0"/>
+<title from="190" to="241" xml:id="L0787" tag="thepoornobleman" pp="0"/>
+<!-- illus 243 -->
+<title from="244" to="261" xml:id="L0788" tag="statesecrets" pp="0"/>
+<title from="262" to="277" xml:id="L0789" tag="deerfoot" pp="0"/>
+<title from="278" to="325" xml:id="L0790" tag="kingofthemerrows" pp="0"/>
+<title from="326" to="357" xml:id="L0791" tag="littleredridinghoodan..." pp="0"/>
+<title from="358" to="393" xml:id="L0792" tag="perseusandandromeda" pp="0"/>
+<title from="394" to="414" xml:id="L0793" tag="slowtopsengagements" pp="0"/>
+<!-- LAE advert 415 -->
+<title from="416" to="429" xml:id="L0794" tag="johnsmith" pp="0"/>
+<title from="430" to="4590" xml:id="L0795" tag="anhouratseville" pp="0"/>
+</vol>
+
+
+
 #54 https://hdl.handle.net/2027/mdp.39015067453822 (vol 54
 10-30 L0796 #villikins
 #31 #laelist
@@ -164,7 +256,27 @@
 406-427 L0899 #little
 429-455 L0900 #fortunes
 
-*61 (4
+
+#vol61 https://hdl.handle.net/2027/mdp.39015067453491
+10-75 L0901 #puregold
+76-99 L0902 #patient
+102-128 L0903 #review
+#129 #ad
+130-181 L0904 #silken
+182-205 L0905 #madas
+206-241 L0906 #madame
+242-285 L0907 #orpheus
+286-321 L0908 #kingarthur
+322-333 L0909 #love
+334-377 L0910 #ladybelle
+#407-408 scanfault
+378-409 L0911 #1863
+410-425 L0912 #stolen
+426-441 L0913 #margate
+442-457 L0914 #modelof
+458-484 L0915 #unlimited
+#485 #ad
+
 
 #62 https://hdl.handle.net/2027/mdp.39015067453640 vol 62
 8-61 L0916 #silver
@@ -229,7 +341,27 @@
 
 *65 (4
 
-*66 (4
+
+#vol66 https://hdl.handle.net/2027/mdp.39015067453632
+10-67 L0976 #playing
+#68-75 bodge
+76-91 L0977 #three
+92-106 L0978 #ample (incomplete)
+107-122 L0979 #wanted (tp missing)
+#123 advert
+124-161 L0980 #ulysses
+162-197 L0981 #lasonnambula
+198-221 L0982 #steeple
+222-257 L0983 #pan
+258-303 L0984 #fazio
+304-355 L0985 #rocambole
+356-403 L0986 #willand
+404-450 L0987 #onetree
+#451 advert 
+452-469 L0988 #upstairs
+470-508  L0989 #fair
+#509 advert
+510-521 L0990 #twogentlemen
 
 *67 (4
 
