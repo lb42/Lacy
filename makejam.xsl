@@ -6,16 +6,18 @@
     exclude-result-prefixes="xs t"
     version="2.0">
          
-   <!-- input doneVols.xml 
-       output pdfjam commands
+   <!-- 
+         input ~/Public/Lacy/doneVols.xml 
+         output pdfjam commands to be run inside ~/Data/Lacy
        -->
     
-     <xsl:template match="vols/vol">
+     <xsl:template match="*:vols/*:vol">
       <xsl:variable name="volNo">  <xsl:value-of select="@n"/>
       </xsl:variable>  
-         <xsl:for-each select="title">
-             <xsl:value-of select='concat("pdfjam -o vol", $volNo, "/",@xml:id, " HTvols/vol",$volNo,".pdf ",
-                 @from,"-",@to)'/>
+         <xsl:for-each select="*:title">
+             <xsl:value-of select='concat("pdfjam -o Vol", $volNo, "/",@xml:id, " HTvols/vol",$volNo,".pdf ",
+                 @from,"-",@to)'/><xsl:text>
+</xsl:text>
          </xsl:for-each>
     </xsl:template>
 </xsl:stylesheet>
