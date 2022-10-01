@@ -15,9 +15,12 @@
       <xsl:variable name="volNo">  <xsl:value-of select="@n"/>
       </xsl:variable>  
          <xsl:for-each select="*:title">
-             <xsl:value-of select='concat("pdfjam -o Vol", $volNo, "/",@xml:id, " HTvols/vol",$volNo,".pdf ",
+             <xsl:value-of select='concat("pdfjam -o Vol", $volNo, "/",@xml:id, "/",@xml:id,".pdf HTvols/vol",$volNo,".pdf ",
                  @from,"-",@to)'/><xsl:text>
 </xsl:text>
          </xsl:for-each>
+      <xsl:for-each select="*:list">
+       <xsl:value-of select='concat("pdfimages -f ",@from, " -l ", @from, " HTvols/vol",$volNo,".pdf  Lists/v", $volNo)'/><xsl:text>
+</xsl:text></xsl:for-each>
     </xsl:template>
 </xsl:stylesheet>
