@@ -33,3 +33,8 @@ Scripts processing this catalogue include
  - `countAuthors.xsl` : lists authors with frequency counts
  - `countVenues.xsl` : lists venues cited for first performance with frequency counts
  
+Further versions of this catalogue (as of Dec 2022) are as follows:
+
+- `oldCatalog.xml` : hand edited version of the foregoing, correcting numerous errors and ommissions, last changed July 2022
+- `catalogue.xml` : current version, incorporating various additions
+- `cataloguePlus.xml : working version, including additional information for checking, taken from Allardyce Nicoll's checklists (created by running `~/pCloudDrive/LacyWork/Nicoll/addNic.xsl` against `catalogue.xml` using `~/pCloudDrive/LacyWork/Nicoll/lacyEntriesDated.xml`
