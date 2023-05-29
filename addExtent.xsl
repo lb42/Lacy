@@ -6,7 +6,7 @@
     exclude-result-prefixes="xs t"
     version="2.0">
          
-         <xsl:param name="extraFile">allVols.xml</xsl:param>
+         <xsl:param name="extraFile">UMtitles.xml</xsl:param>
     
         <xsl:template match="/ | @* | node()">
             <xsl:copy>
@@ -16,7 +16,7 @@
     
   <xsl:template match="div/bibl">
       <xsl:variable name="currentBib" select="@xml:id"/>
-      <xsl:if test="document($extraFile)/*:vols/*:vol/*:title[@xml:id=$currentBib]/@pp &lt; 1">
+      <xsl:if test="document($extraFile)/*:vols/*:vol/*:title[@xml:id=$currentBib][not(@pp)]">
           <xsl:message>Pagecount missing for <xsl:value-of select="$currentBib"/></xsl:message>
       </xsl:if>
       <xsl:copy>

@@ -3,10 +3,13 @@
  
      A definitive list of titles found in each of the 94 volumes of the copy from UM library
      as digitized by Google and preserved by HathiTrust.  
-     The @xml:id identifies the title and is L followed by four digits, except that when different copies of this 
-     volume have a different title at this point, the suffix R is added. 
-     When the title concerned is listed in the VPP catalogue, but no digitized version has yet been found, the entry 
-     is commented out  -->
+     The @xml:id identifies the title and is L followed by four digits, except that when 
+     the title varies from that found at this point in other collected volumes or in printed
+     lists, the suffix R (for replacement) is added. 
+     Details of the title being replaced are retained as a comment 
+     Attributes from to and pp relate to the pagination of the UM editions
+     Attribute pDate supplies the year of first performance, as given in the text
+-->
 <vols>
  <vol n="01" ref="https://hdl.handle.net/2027/mdp.39015043286031">
   <title from="8" to="31" xml:id="L0001" tag="timetriesall" pp="23" pDate="1848"/>
@@ -14,7 +17,8 @@
   <title from="56" to="108" xml:id="L0003" tag="thesoldiersprogress" pp="52" pDate="1849"/>
   <title from="110" to="139" xml:id="L0004" tag="thereigningfavorite" pp="29" pDate="1849"/>
   <title from="140" to="161" xml:id="L0005" tag="theswisscottage" pp="21" pDate="1837"/>
-<title from="163" to="185" xml:id="L0006" tag="no" pp="22" pDate="1837"/>
+  <!--title xml:id="L0006" tag="theladderoflove" /-->
+  <title from="163" to="185" xml:id="L0006R" tag="no" pp="22" pDate="1837"/>
   <title from="186" to="205" xml:id="L0007" tag="thedaughter" pp="19" pDate="1836"/>
   <title from="206" to="227" xml:id="L0008" tag="thetwoqueens" pp="21" pDate="1835"/>
   <title from="228" to="246" xml:id="L0009" tag="howdoyoumanage" pp="18" pDate="1836"/>
@@ -30,7 +34,8 @@
   <title from="10" to="45" xml:id="L0016" tag="esmeraldaSmith" pp="35" pDate="1850"/>
   <!-- title from="47" to="0" xml:id="L0017" tag="powerandprinciple" pp="0"/-->
   <!-- replaced by -->
-  <title from="47" to="107" xml:id="L0017R" tag="foundling" pp="60" pDate=""/><!-- performed at Theatres Royal; preface by DG  -->
+  <title from="47" to="107" xml:id="L0017R" tag="foundling" pp="60" pDate=""/>
+  <!-- performed at Theatres Royal; preface by DG  -->
   <title from="108" to="129" xml:id="L0018" tag="outontheloose" pp="21" pDate="1850"/>
   <title from="132" to="153" xml:id="L0019" tag="poorcousinwalter" pp="21" pDate="1854"/>
   <!-- <title from="0" to="0" xml:id="L0020" tag="thevicarofwakefield" pp="0"/> replaced by
@@ -80,14 +85,16 @@
   <title from="218" to="232" xml:id="L0052" tag="thefireeater" pp="14" pDate="1851"/>
   <title from="234" to="255" xml:id="L0053" tag="anythingforachange" pp="21" pDate="1848"/>
   <title from="256" to="289" xml:id="L0054" tag="grimshaw" pp="33" pDate="1851"/>
-  <title from="290" to="304" xml:id="L0055" tag="toothache" pp="14" pDate=""/><!-- no info in Nicoll -->
+  <title from="290" to="304" xml:id="L0055" tag="toothache" pp="14" pDate=""/>
+  <!-- no info in Nicoll -->
   <title from="306" to="326" xml:id="L0056" tag="godiva" pp="20" pDate="1851"/>
   <!-- <title from="0" to="0" xml:id="L0057" tag="angelo" pp="0"/> replaced by -->
   <title from="329" to="401" xml:id="L0057R" tag="newway" pp="72" pDate="1816"/>
   <title from="402" to="427" xml:id="L0058" tag="maryqueenofscots" pp="25" pDate="1831"/>
   <!-- <title from="0" to="0" xml:id="L0059" tag="leftinacab" pp="0"/> replaced by
  -->
-  <title from="428" to="445" xml:id="L0059R" tag="loversquarrels" pp="17" pDate=""/><!-- 1816, revived 1864 -->
+  <title from="428" to="445" xml:id="L0059R" tag="loversquarrels" pp="17" pDate=""/>
+  <!-- 1816, revived 1864 -->
   <title from="446" to="484" xml:id="L0060" tag="thecarpenterofrouen" pp="38" pDate="1840"/>
  </vol>
 
@@ -135,7 +142,8 @@
  </vol>
 
  <vol n="07" ref="https://hdl.handle.net/2027/mdp.39015067453210">
-  <title from="8" to="21" xml:id="L0091" tag="leftthestage" pp="13" pDate=""/> <!-- no indication -->
+  <title from="8" to="21" xml:id="L0091" tag="leftthestage" pp="13" pDate=""/>
+  <!-- no indication -->
   <title from="22" to="53" xml:id="L0092" tag="theroseofettrickvale" pp="31" pDate=""/>
   <title from="55" to="68" xml:id="L0093" tag="amostunwarrantableint..." pp="13" pDate="1849"/>
   <list from="69"/>
@@ -328,7 +336,8 @@
 
  <vol n="17" ref="https://hdl.handle.net/2027/mdp.39015067453186">
   <title from="10" to="41" xml:id="L0241" tag="thebalanceofcomfort" pp="31" pDate="1854"/>
-  <title from="42" to="71" xml:id="L0242" tag="thecourtofoberon" pp="29" pDate=""/> <!-- written t the end of the last century -->
+  <title from="42" to="71" xml:id="L0242" tag="thecourtofoberon" pp="29" pDate=""/>
+  <!-- written t the end of the last century -->
   <title from="72" to="89" xml:id="L0243" tag="harlequinbluebeardthe..." pp="17" pDate="1854"/>
   <title from="92" to="113" xml:id="L0244" tag="thesailoroffrance" pp="21" pDate="1854"/>
   <title from="114" to="152" xml:id="L0245" tag="theyellowdwarfandthek..." pp="38" pDate="1854"/>
@@ -1864,7 +1873,7 @@
   <list from="637"/>
  </vol>
  <!-- vols 93 to 100  not included in digitized UM copy-->
- 
+
  <vol n="93" ref="https://hdl.handle.net/2027/mdp.">
   <title from="0" to="0" xml:id="L1379" tag="thelostwife" pp="26" pDate="1871"/>
   <title xml:id="L1380" tag="giselle" pp="26" pDate="1871"/>
@@ -1882,7 +1891,8 @@
   <title xml:id="L1392" tag="thebridgeofludgate" pp="49" pDate="1831"/>
   <title xml:id="L1393" tag="thenewfootman" pp="27" pDate="1842"/>
  </vol>
- <vol n="94" ref="https://hdl.handle.net/2027/mdp."><title xml:id="L1394" tag="coalsoffire" pp="" pdate="1871"/>
+ <vol n="94" ref="https://hdl.handle.net/2027/mdp.">
+  <title xml:id="L1394" tag="coalsoffire" pp="" pdate="1871"/>
   <title xml:id="L1395" tag="cupidinwaiting" pp="" pdate="1871"/>
   <title xml:id="L1396" tag="theagreeablesurprise" pp="" pdate="1796"/>
   <title xml:id="L1397" tag="themanagerindistress" pp="12" pdate="1780"/>
@@ -1898,7 +1908,8 @@
   <title xml:id="L1407" tag="paquita" pp="" pdate="1871"/>
   <title xml:id="L1408" tag="achristmascarol" pp="" pdate="1844"/>
  </vol>
- <vol n="95" ref="https://hdl.handle.net/2027/mdp."><title xml:id="L1409" tag="kingchristmas" pp="" pdate="1871"/>
+ <vol n="95" ref="https://hdl.handle.net/2027/mdp.">
+  <title xml:id="L1409" tag="kingchristmas" pp="" pdate="1871"/>
   <title xml:id="L1410" tag="neverreckonyourchicke..." pp="" pdate="1871"/>
   <title xml:id="L1411" tag="clari" pp="" pdate="1823"/>
   <title xml:id="L1412" tag="alittlechange" pp="" pdate=""/>
@@ -1914,7 +1925,8 @@
   <title xml:id="L1422" tag="coriolanus" pp="" pdate="1824"/>
   <title xml:id="L1423" tag="inkleandyarico" pp="54" pdate="1790"/>
  </vol>
- <vol n="96" ref="https://hdl.handle.net/2027/mdp."><title xml:id="L1424" tag="pastandpresent" pp="" pdate="1830"/>
+ <vol n="96" ref="https://hdl.handle.net/2027/mdp.">
+  <title xml:id="L1424" tag="pastandpresent" pp="" pdate="1830"/>
   <title xml:id="L1425" tag="brownethemartyr" pp="" pdate="1870"/>
   <title xml:id="L1426" tag="mywifewhatwife" pp="" pdate="1829"/>
   <title xml:id="L1427" tag="achapterofaccidents" pp="" pdate="1870"/>
@@ -1981,7 +1993,8 @@
   <title xml:id="L1482" tag="cato" pp="" pdate="1824"/>
   <title xml:id="L1483" tag="theenchantedwood" pp="" pdate="1871"/>
  </vol>
- <vol n="100" ref="https://hdl.handle.net/2027/mdp."><title from="0" to="0" xml:id="L1484" tag="doesheloveme" pp="0"/>
+ <vol n="100" ref="https://hdl.handle.net/2027/mdp.">
+  <title from="0" to="0" xml:id="L1484" tag="doesheloveme" pp="0"/>
   <title from="0" to="0" xml:id="L1485" tag="adodgefordinner" pp="23" pDate="1872"/>
   <title from="0" to="0" xml:id="L1486" tag="bobbya1" pp="0"/>
   <title from="0" to="0" xml:id="L1487" tag="daddyhardacre" pp="0"/>
