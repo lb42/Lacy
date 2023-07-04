@@ -7,12 +7,14 @@
     <author>Brooks, Shirley</author>
    </titleStmt>
    <publicationStmt>
-    <ab>Unpublished draft: not for circulation</ab>
+    <distributor>Privately published on the Lacy Website</distributor>
    </publicationStmt>
    <sourceDesc>
     <bibl type="print"><title level="s">Lacy's Acting Editions, no. 012 Vol. 1 no.
      12</title><date>1850</date><ref target="vpp:Vol1xiiCreole.pdf"/><ref
      target="ia:creoleorlovesfe00broogoog"/></bibl>
+    <!-- The VPP edition however derives from a different edition, "London: Printed for the author, by F. Ledger",
+     with a few minor differences, notably the lack of costume information -->
    </sourceDesc>
   </fileDesc>
   <revisionDesc>
@@ -25,16 +27,16 @@
   <front>
    <titlePage>
     <titlePart> THE CREOLE; OR, LOVE'S FETTERS.</titlePart>
-    <titlePart> AN ORIGINAL DRAMA, IN THREE ACTS. BY SHIRLEY BROOKS, MEMBER OF THE DRAMATIC AUTHORS'
-     SOCIETY; AUTHOR OF "OUR NEW GOVERNESS," " HONOURS AND TRICKS," "THE WIGWAM," ETC.,
-     ETC.</titlePart>
+    <titlePart> AN ORIGINAL DRAMA, IN THREE ACTS.</titlePart><byline> BY <docAuthor>SHIRLEY BROOKS</docAuthor>, MEMBER OF THE DRAMATIC AUTHORS'
+     SOCIETY; AUTHOR OF <title>OUR NEW GOVERNESS</title>, <title>HONOURS AND TRICKS</title>, <title>THE WIGWAM</title>, ETC.,
+     ETC.</byline>
     <titlePart> FIRST PERFORMED AT THE THEATRE ROYAL, LYCEUM THURSDAY, APRIL 8, 1847.</titlePart>
-    <titlePart> LONDON: PRINTED FOR THE AUTHOR, BY F. LEDGER, HELMET-COURT, STRAND. MAY BE HAD OF
-     ONWHYN, CATHERINE-STREET, STRAND; BARTH, BRYDGES-STREET: ALL BOOKSELLERS ; AND AT THE THEATRE:
-    </titlePart>
+    <docImprint> LONDON: PRINTED FOR THE AUTHOR, BY F. LEDGER, HELMET-COURT, STRAND. MAY BE HAD OF
+     ONWHYN, CATHERINE-STREET, STRAND; BARTH, BRYDGES-STREET: ALL BOOKSELLERS ; AND AT THE THEATRE.
+    </docImprint>
    </titlePage>
    <div xml:id="L0012_01">
-    <head xml:id="L0012_10" rend="Heading_#4 1_">PREFACE.</head>
+    <head xml:id="L0012_10" >PREFACE.</head>
     <head>FROM THE LYCEUM PLAYBILL.</head>
     <p>" THE dramatic form of composition, more than any other, demands completeness; and it is not
      with an idea of appending explanation to the picture he has endeavoured to paint, that the
@@ -92,25 +94,25 @@
     <p>Percy-street, Bedford-square, April 14, 1847</p>
    </div>
    <div xml:id="L0012_02">
-    <head>DRAMATIS PERSONÆ.</head>
+   
 
-    <castList>
-     <castItem><role>GENERAL MALARTIC (Governor of the Isle of France </role><actor>MR.
+    <castList> <head>DRAMATIS PERSONÆ.</head>
+     <castItem n="Gov."><role>GENERAL MALARTIC (Governor of the Isle of France </role><actor>MR.
       KINLOCH.</actor> </castItem>
-     <castItem> <role>DAMIRON (a Planter)</role> <actor>MR. F. MATTHEWS.</actor> </castItem>
-     <castItem><role>ALPHONSE DE NYON (an Officer in the Revolutionary Army </role>.<actor>MR. LEIGH
+     <castItem n="Dami."> <role>DAMIRON (a Planter)</role> <actor>MR. F. MATTHEWS.</actor> </castItem>
+     <castItem n="Alph."><role>ALPHONSE DE NYON (an Officer in the Revolutionary Army </role>.<actor>MR. LEIGH
       MURRAY</actor> </castItem>
-     <castItem><role>HYACINTHE ST. EMILION (another Officer)</role> . . . . <actor>MISS
+     <castItem n="Hyac."><role>HYACINTHE ST. EMILION (another Officer)</role> <actor>MISS
       DICKINSON.</actor> </castItem>
-     <castItem><role>ANTONY LATOUR (a Creole)</role> . <actor>MR. EMERY.</actor> </castItem>
-     <castItem><role>BOKES ( a Jew)</role> <actor>MR. KEELEY.</actor> </castItem>
-     <castItem><role>A NAVAL OFFICER </role>. . . <actor>MR. SILVER.</actor> </castItem>
+     <castItem n="Latour."><role>ANTONY LATOUR (a Creole)</role> . <actor>MR. EMERY.</actor> </castItem>
+     <castItem n="Bokes."><role>BOKES ( a Jew)</role> <actor>MR. KEELEY.</actor> </castItem>
+     <castItem><role>A NAVAL OFFICER </role> <actor>MR. SILVER.</actor> </castItem>
      <castItem> <role>OFFICER IN ATTENDANCE ON THE GOVERNOR</role> . . . <actor>MR. BRADY.</actor> </castItem>
      <castItem><role>SERVANT TO M. DAMIRON </role>. . <actor>MR. RICHARDSON.</actor> </castItem>
      <castItem><role>SERVANT TO M. DE NYON </role>. <actor>MR. ANDREWS.</actor> </castItem>
-     <castItem><role>MDLLE. VIRGINIE DAMIRON .</role> <actor>MISS MARY KEELEY</actor> </castItem>
-     <castItem><role>LOUISE FAURIEL </role> <actor>MISS MAY.</actor> </castItem>
-     <castItem><role>BELLONA ST. MARS (a Vivandiere)</role> <actor>MRS. KEELEY.</actor> </castItem>
+     <castItem n="Virg."><role>MDLLE. VIRGINIE DAMIRON .</role> <actor>MISS MARY KEELEY</actor> </castItem>
+     <castItem n="Louise."><role>LOUISE FAURIEL </role> <actor>MISS MAY.</actor> </castItem>
+     <castItem n="Bel."><role>BELLONA ST. MARS (a Vivandiere)</role> <actor>MRS. KEELEY.</actor> </castItem>
 
      <castItem type="list">LADIES—Misses Travers, Healy, Hicks, Sidney, Sanders, M. Sanders, Brady,
       Edgar, Page, E. Healy, Horn, and Hart. </castItem>
@@ -1162,7 +1164,7 @@
      <stage>[BELLONA'S voice heard singing, "Cadet Rouselle e trois maisons," &amp;c.</stage>
      <stage>Enter BELLONA, dressed as a Vivandiere, very smart and military.</stage>
      <sp>
-      <speaker>Bellona.</speaker>
+      <speaker n="Bel.">Bellona.</speaker>
       <p> Here she is, most respectable civilian, and delighted to contribute to the happiness of
        yourself or any other friend, <stage>(gravely)</stage> supposing him to be a friend of
        France. Lieutenant Alphonse, I am charmed to see you again. I have kept the manners and
@@ -1176,7 +1178,7 @@
       <p> Bellona !</p>
      </sp>
      <sp>
-      <speaker>Bellona.</speaker>
+      <speaker n="Bel.">Bellona.</speaker>
       <p> Approach me, if you please.</p>
      </sp>
      <sp>
@@ -1186,7 +1188,7 @@
      </sp>
      <stage>[Comes up to BELLONA.</stage>
      <sp>
-      <speaker>Bellona.</speaker>
+      <speaker n="Bel.">Bellona.</speaker>
       <stage> (severely)</stage>
       <p> What are your intentions in regard to that young person you are talking to ?</p>
      </sp>
@@ -1195,7 +1197,7 @@
       <p> Strictly honourable. She's rich.</p>
      </sp>
      <sp>
-      <speaker>Bellona.</speaker>
+      <speaker n="Bel.">Bellona.</speaker>
       <p> You have leave. <stage>(HYACINTHE laughs and returns to VIRGINIE. BELLONA suddenly returns
        to her usual vivacity.)</stage> So, this is the Isle of France. I respect it for its very
        name. I say, Alphonse, we have had such a race for our lives.</p>
@@ -1205,7 +1207,7 @@
       <p> You!</p>
      </sp>
      <sp>
-      <speaker>Bellona.</speaker>
+      <speaker n="Bel.">Bellona.</speaker>
       <p> I, and the regiment, and the ship—in fact, all of us.</p>
      </sp>
      <sp>
@@ -1213,7 +1215,7 @@
       <p> Who has been chasing you?</p>
      </sp>
      <sp>
-      <speaker>Bellona.</speaker>
+      <speaker n="Bel.">Bellona.</speaker>
       <p> Our natural enemies, of course.</p>
      </sp>
      <sp>
@@ -1221,7 +1223,7 @@
       <p> The English ?</p>
      </sp>
      <sp>
-      <speaker>Bellona.</speaker>
+      <speaker n="Bel.">Bellona.</speaker>
       <p> Oh, don't mention them! How I do hate them!</p>
      </sp>
      <sp>
@@ -1229,7 +1231,7 @@
       <p> I did not hear of this.</p>
      </sp>
      <sp>
-      <speaker>Bellona.</speaker>
+      <speaker n="Bel.">Bellona.</speaker>
       <p> Well, it's not pleasant to talk about, but you ought to be au fait at the history of the
        regiment. You see, one afternoon during the voyage, I was lying in a hammock they had hung
        for me on deck, that I might keep my eye upon the soldiers. I was mending my model of the
@@ -1242,7 +1244,7 @@
       <p> That's where I like to see it—in the extreme distance.</p>
      </sp>
      <sp>
-      <speaker>Bellona.</speaker>
+      <speaker n="Bel.">Bellona.</speaker>
       <p> I shouted at the captain—the captain shouted at the first lieutenant—the first lieutenant
        shouted at the second lieutenant—he shouted at the men—the men shouted at one another—and, in
        short, everybody shouted at everybody.</p>
@@ -1252,7 +1254,7 @@
       <p> It's a way they have in our navy. I think it's vulgar, but I suppose it's useful.</p>
      </sp>
      <sp>
-      <speaker>Bellona.</speaker>
+      <speaker n="Bel.">Bellona.</speaker>
       <p> You be quiet—you shouted as much as anybody. Well, out came the telescopes, and we soon
        made out that our enemy was a celebrated English cruiser. So we crowded all sail, and bore
        away as fast as we could.</p>
@@ -1262,7 +1264,7 @@
       <p> Why the vessel there carries nearly twice as many guns as any of the English cruisers.</p>
      </sp>
      <sp>
-      <speaker>Bellona.</speaker>
+      <speaker n="Bel.">Bellona.</speaker>
       <p> That was just it. We agreed that it would be treason to France to risk the loss of all our
        guns against such a miserable handful. So away we went. But the cruiser was alive, and in a
        few minutes we found that she, too, was crowding all sail to chase us. Away we flew, tearing
@@ -4046,27 +4048,6 @@
    </div>
    <trailer>PRINTED BY F. LEDGER, HELMET COURT, STRAND</trailer>
   </body>
-  <!--
-    
-Speaker prefix list 
-   
-    : 752
-All. : 1
-Alph. : 180
-Bel : 93
-Bel. : 81
-Bellona. : 11
-Bokes. : 76
-Dami. : 96
-Drop descends. : 1
-Gov. : 27
-Hyac. : 31
-Latour : 178
-Latour. : 176
-Louise. : 33
-Officer. : 1
-The moment she sees : 1
-Virg. : 32
--->
+
  </text>
 </TEI>
