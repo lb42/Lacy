@@ -16,22 +16,21 @@
     
   <xsl:template match="div/bibl">
       <xsl:variable name="currentBib" select="@xml:id"/>
-      <xsl:if test="document($extraFile)/*:vols/*:vol/*:title[@xml:id=$currentBib][not(@pp)]">
-          <xsl:message>Pagecount missing for <xsl:value-of select="$currentBib"/></xsl:message>
-      </xsl:if>
+      
       <xsl:copy>
           <xsl:apply-templates select="@*"/>
           <xsl:apply-templates/>
-          <note type="extent" xmlns="http://www.tei-c.org/ns/1.0">
+       <xsl:if test="document($extraFile)/*:vols/*:vol/*:title[@xml:id=$currentBib]/@pp">      
+          <note type="UM_extent" xmlns="http://www.tei-c.org/ns/1.0">
               <xsl:value-of select="document($extraFile)/*:vols/*:vol/*:title[@xml:id=$currentBib]/@pp"/>
               <xsl:text> pp (</xsl:text>
               <xsl:value-of select="document($extraFile)/*:vols/*:vol/*:title[@xml:id=$currentBib]/@from"/>
               <xsl:text> - </xsl:text>
               <xsl:value-of select="document($extraFile)/*:vols/*:vol/*:title[@xml:id=$currentBib]/@to"/>
-
               <xsl:text>)</xsl:text>
           </note>
+       </xsl:if>
       </xsl:copy>
-      
   </xsl:template>
+
 </xsl:stylesheet>

@@ -1,14 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- 
- 
      A definitive list of titles found in each of the 94 volumes of the copy from UM library
      as digitized by Google and preserved by HathiTrust.  
      The @xml:id identifies the title and is L followed by four digits, except that when 
      the title varies from that found at this point in other collected volumes or in printed
      lists, the suffix R (for replacement) is added. 
      Details of the title being replaced are retained as a comment 
+     
      Attributes from to and pp relate to the pagination of the UM editions
      Attribute pDate supplies the year of first performance, as given in the text
+     
+     script "addExtent" extracts this data and adds it as a note type="UM_extent"
 -->
 <vols>
  <vol n="01" ref="https://hdl.handle.net/2027/mdp.39015043286031">
