@@ -14,13 +14,14 @@
             </xsl:copy>
         </xsl:template>
     
-  <xsl:template match="div/bibl">
+  <xsl:template match="body/div/bibl">
       <xsl:variable name="currentBib" select="@xml:id"/>
+      <xsl:variable name="currentVol" select="substring-before(parent::*:div/@n, '/')"/>
       
       <xsl:copy>
           <xsl:apply-templates select="@*"/>
           <xsl:apply-templates/>
-       <xsl:if test="document($extraFile)/*:vols/*:vol/*:title[@xml:id=$currentBib]/@pp">      
+       <xsl:if test="document($extraFile)/*:vols/*:vol/*:title[@xml:id=$currentBib]/@pp gt '0'">    
           <note type="UM_extent" xmlns="http://www.tei-c.org/ns/1.0">
               <xsl:value-of select="document($extraFile)/*:vols/*:vol/*:title[@xml:id=$currentBib]/@pp"/>
               <xsl:text> pp (</xsl:text>
@@ -28,7 +29,7 @@
               <xsl:text> - </xsl:text>
               <xsl:value-of select="document($extraFile)/*:vols/*:vol/*:title[@xml:id=$currentBib]/@to"/>
               <xsl:text>)</xsl:text>
-          </note>
+          </note>          
        </xsl:if>
       </xsl:copy>
   </xsl:template>
