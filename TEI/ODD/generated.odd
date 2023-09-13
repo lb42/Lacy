@@ -162,7 +162,7 @@
                </attList>
             </classSpec>
             <!--Checking module core--><moduleRef key="core"
-                       include="p foreign emph name date ptr ref list item label head note pb lb series author respStmt resp title publisher bibl l lg sp speaker stage"/>
+                       include="p foreign emph hi name date ptr ref list item label head note pb lb series author respStmt resp title publisher bibl l lg sp speaker stage"/>
             <elementSpec ident="name" mode="change">
                <attList>
                   <attDef ident="ref" mode="delete"/>
@@ -359,6 +359,7 @@
                         <valItem ident="act"/>
                         <valItem ident="costume"/>
                         <valItem ident="liminal"/>
+                        <valItem ident="notes"/>
                         <valItem ident="programme"/>
                         <valItem ident="scene"/>
                         <valItem ident="setting"/>
