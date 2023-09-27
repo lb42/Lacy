@@ -7,10 +7,10 @@ namespace teix = "http://www.tei-c.org/ns/Examples"
 namespace xi = "http://www.w3.org/2001/XInclude"
 namespace xlink = "http://www.w3.org/1999/xlink"
 
-# Schema generated from ODD source 2023-09-10T19:09:01Z. .
-# TEI Edition: Version 4.6.0a. Last updated on
-#         25th October 2022, revision 1922ba70a
-# TEI Edition Location: https://www.tei-c.org/Vault/P5/Version 4.6.0a./
+# Schema generated from ODD source 2023-09-27T20:50:39Z. .
+# TEI Edition: Version 4.5.0. Last updated on
+#         25th October 2022, revision 3e98e619e
+# TEI Edition Location: https://www.tei-c.org/Vault/P5/Version 4.5.0/
 #
 
 #
@@ -141,6 +141,10 @@ att.cReferencing.attribute.cRef =
     ]
   ]
   attribute cRef { xsd:string }?
+att.datable.w3c.attributes =
+  att.datable.w3c.attribute.when,
+  att.datable.w3c.attribute.notBefore,
+  att.datable.w3c.attribute.notAfter
 att.datable.w3c.attribute.when =
   
   ## supplies the value of the date or time in a standard form, e.g. yyyy-mm-dd.
@@ -240,6 +244,7 @@ sch:pattern [
   "\x{a}" ~
   "   "
 ]
+att.datable.attributes = att.datable.w3c.attributes
 sch:pattern [
   id = "oddbyexample-att.datable-calendar-constraint-rule-4"
   "\x{a}" ~
@@ -826,7 +831,7 @@ model.placeStateLike_sequenceOptionalRepeatable =
 model.placeStateLike_sequenceRepeatable =
   model.placeNamePart_sequenceRepeatable+
 model.publicationStmtPart.agency = publisher | distributor
-model.publicationStmtPart.detail = model.ptrLike | date
+model.publicationStmtPart.detail = model.ptrLike | date | idno
 model.quoteLike = notAllowed
 model.quoteLike_alternation = notAllowed
 model.quoteLike_sequence = empty
@@ -864,31 +869,37 @@ model.nameLike =
   model.nameLike.agent
   | model.offsetLike
   | model.placeStateLike
+  | idno
   | model.persNamePart
 model.nameLike_alternation =
   model.nameLike.agent_alternation
   | model.offsetLike_alternation
   | model.placeStateLike_alternation
+  | idno
   | model.persNamePart_alternation
 model.nameLike_sequence =
   model.nameLike.agent_sequence,
   model.offsetLike_sequence,
   model.placeStateLike_sequence,
+  idno,
   model.persNamePart_sequence
 model.nameLike_sequenceOptional =
   model.nameLike.agent_sequenceOptional?,
   model.offsetLike_sequenceOptional?,
   model.placeStateLike_sequenceOptional?,
+  idno?,
   model.persNamePart_sequenceOptional?
 model.nameLike_sequenceOptionalRepeatable =
   model.nameLike.agent_sequenceOptionalRepeatable*,
   model.offsetLike_sequenceOptionalRepeatable*,
   model.placeStateLike_sequenceOptionalRepeatable*,
+  idno*,
   model.persNamePart_sequenceOptionalRepeatable*
 model.nameLike_sequenceRepeatable =
   model.nameLike.agent_sequenceRepeatable+,
   model.offsetLike_sequenceRepeatable+,
   model.placeStateLike_sequenceRepeatable+,
+  idno+,
   model.persNamePart_sequenceRepeatable+
 model.global =
   model.global.meta
@@ -1257,6 +1268,7 @@ series =
      | title
      | model.ptrLike
      | respStmt
+     | idno
      | model.global)*,
     att.global.attributes,
     empty
@@ -1554,6 +1566,60 @@ distributor =
   
   ## (distributor) supplies the name of a person or other agency responsible for the distribution of a text. [2.2.4. Publication, Distribution, Licensing, etc.]
   element distributor { macro.phraseSeq, att.global.attributes, empty }
+idno =
+  
+  ## (identifier) supplies any form of identifier used to identify some object, such as a bibliographic item, a person, a title, an organization, etc. in a standardized way. [13.3.1. Basic Principles 2.2.4. Publication, Distribution, Licensing, etc. 2.2.5. The Series Statement 3.12.2.4. Imprint, Size of a Document, and Reprint Information]
+  element idno {
+    (text | model.gLike | idno)*,
+    att.global.attributes,
+    att.sortable.attributes,
+    att.datable.attributes,
+    
+    ## categorizes the identifier, for example as an ISBN, Social Security number, etc.
+    ## Suggested values include: 1] ISBN; 2] ISSN; 3] DOI; 4] URI; 5] VIAF; 6] ESTC; 7] OCLC
+    attribute type {
+      [
+        a:documentation [
+          "International Standard Book Number: a 13- or (if assigned prior to 2007) 10-digit identifying number assigned by the publishing industry to a published book or similar item, registered with the "
+          ns1:a [
+            href = "https://www.isbn-international.org"
+            " International ISBN Agency."
+          ]
+          "\x{a}" ~
+          "                  "
+        ]
+      ]
+      "ISBN"
+      | 
+        ## International Standard Serial Number: an eight-digit number to uniquely identify a serial publication.
+        "ISSN"
+      | 
+        ## Digital Object Identifier: a unique string of letters and numbers assigned to an electronic document.
+        "DOI"
+      | [
+          a:documentation [
+            "Uniform Resource Identifier: a string of characters to uniquely identify a resource, following the syntax of "
+            ns1:a [
+              href = "https://datatracker.ietf.org/doc/html/rfc3986"
+              "RFC 3986"
+            ]
+            "."
+          ]
+        ]
+        "URI"
+      | 
+        ## A data number in the Virtual Internet Authority File assigned to link different names in catalogs around the world for the same entity.
+        "VIAF"
+      | 
+        ## English Short-Title Catalogue number: an identifying number assigned to a document in English printed in the British Isles or North America before 1801.
+        "ESTC"
+      | 
+        ## OCLC control number (record number) for the union catalog record in WorldCat, a union catalog for member libraries in the Online Computer Library Center global cooperative.
+        "OCLC"
+      | xsd:token { pattern = "[^\p{C}\p{Z}]+" }
+    }?,
+    empty
+  }
 sourceDesc =
   
   ## (source description) describes the source(s) from which an electronic text was derived or generated, typically a bibliographic description in the case of a digitized text, or a phrase such as "born digital" for a text which has no previous existence. [2.2.7. The Source Description]
@@ -1850,8 +1916,23 @@ castList =
   element castList {
     ((model.divTop | model.global)*,
      (model.common, model.global*)*,
-     ((castItem), model.global*)+,
+     ((castItem | castGroup), model.global*)+,
      (model.common, model.global*)*),
+    att.global.attributes,
+    empty
+  }
+castGroup =
+  [
+    a:documentation [
+      "(cast list grouping) groups one or more individual "
+      ns1:code [ "<castItem>" ]
+      " elements within a cast list. [7.1.4. Cast Lists]"
+    ]
+  ]
+  element castGroup {
+    ((model.global | model.headLike)*,
+     ((castItem | castGroup | roleDesc), model.global*)+,
+     (trailer, model.global*)?),
     att.global.attributes,
     empty
   }
