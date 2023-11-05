@@ -411,18 +411,29 @@
                   </attDef>
                </attList>
             </elementSpec>-->
-           <!-- <elementSpec ident="role" mode="change">
+           <elementSpec ident="role" mode="change">
                <attList>
-                  <attDef ident="gender" mode="delete"/>
+                  <attDef ident="gender" mode="change">
+                   <valList mode="add" type="closed">
+                    <valItem ident="F"><desc>Female</desc></valItem>
+                    <valItem ident="J"><desc>Juvenile</desc></valItem>
+                    <valItem ident="M"><desc>Male</desc></valItem>
+                    <valItem ident="X"><desc>Mixed</desc></valItem></valList>
+                  </attDef>
                </attList>
             </elementSpec>
             <elementSpec ident="actor" mode="change">
                <attList>
-                  <attDef ident="sex" mode="delete"/>
+                  <attDef ident="sex" mode="change">
+                   <valList mode="add" type="closed">
+                    <valItem ident="F"><desc>Female</desc></valItem>
+                    <valItem ident="M"><desc>Male</desc></valItem>
+                   </valList>
+                  </attDef>
                   <attDef ident="gender" mode="delete"/>
                   <attDef ident="ref" mode="delete"/>
                </attList>
-            </elementSpec>-->
+            </elementSpec>
             <elementSpec ident="spGrp" mode="change">
                <attList>
                   <attDef ident="type" mode="delete"/>
