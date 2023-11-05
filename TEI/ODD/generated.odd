@@ -162,7 +162,7 @@
                </attList>
             </classSpec>
             <!--Checking module core--><moduleRef key="core"
-                       include="p foreign emph hi name date ptr ref list item label head note pb lb series author respStmt resp title publisher bibl l lg sp speaker stage"/>
+                       include="p foreign emph hi name date ptr ref list item label head note pb lb series author respStmt resp title publisher bibl l lg sp speaker stage sic"/>
             <elementSpec ident="name" mode="change">
                <attList>
                   <attDef ident="ref" mode="delete"/>
@@ -396,7 +396,7 @@
                </attList>
             </elementSpec>
             <!--Checking module drama--><moduleRef key="drama"
-                       include="set performance castGroup castList castItem role roleDesc actor spGrp"/>
+                       include="set performance castGroup castList castItem role roleDesc actor spGrp sound"/>
         <!--    <elementSpec ident="castItem" mode="change">
                <attList>
                   <attDef ident="type" mode="change">
@@ -411,7 +411,7 @@
                   </attDef>
                </attList>
             </elementSpec>-->
-            <elementSpec ident="role" mode="change">
+           <!-- <elementSpec ident="role" mode="change">
                <attList>
                   <attDef ident="gender" mode="delete"/>
                </attList>
@@ -422,7 +422,7 @@
                   <attDef ident="gender" mode="delete"/>
                   <attDef ident="ref" mode="delete"/>
                </attList>
-            </elementSpec>
+            </elementSpec>-->
             <elementSpec ident="spGrp" mode="change">
                <attList>
                   <attDef ident="type" mode="delete"/>

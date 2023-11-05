@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
  <teiHeader>
   <fileDesc>
    <titleStmt><title>The Last of the Legends</title>
@@ -47,27 +46,33 @@
     <castList>
      <head>Characters</head>
      <head>Characters existing some time ago</head>
-     <castItem><role>Karl</role><roleDesc>(the Youthful Baron of Pilfersberg)</roleDesc><actor>Miss
-      Emily Pitt</actor></castItem>
-     <castItem><role>Count Fritz</role><roleDesc>(his Friend)</roleDesc><actor>Miss Emily
-      Vining</actor></castItem>
-     <castItem><role>Sir Hubert De Bow</role><roleDesc>(a Norman Knight)</roleDesc><actor>Mr. F.
-      Wood</actor></castItem>
+     <castItem><role gender="M">Karl </role><actor sex="F">Miss Emily Pitt </actor></castItem>
+
+     <castItem><role gender="M">Count Fritz </role><actor sex="F">Miss Emily Vining </actor></castItem>
+
+     <castItem><role gender="M">Sir Hubert De Bow </role><actor sex="M">Mr. F. Wood </actor></castItem>
+
      <castGroup>
       <roleDesc>(Boon Companions of Karl)</roleDesc>
-      <castItem><role>Sintram</role><actor>Miss Isabel Harold</actor></castItem>
-      <castItem><role>Wilhelm</role><actor>Miss Kate Easton</actor></castItem>
+      <castItem><role gender="M">Sintram </role><actor sex="F">Miss Isabel Harold </actor></castItem>
+
+      <castItem><role gender="M">Wilhelm </role><actor sex="F">Miss Kate Easton </actor></castItem>
+
      </castGroup>
-     <castItem><role>Seltzerwasser</role><roleDesc/><actor>Mr Yarnold</actor></castItem>
-     <castItem><role>The Lady Bertha</role><roleDesc/><actor>Miss Cicy Cecil</actor></castItem>
-     <castItem><role>Erlinda</role><roleDesc/><actor>Miss Alice Mowbray</actor></castItem>
-     <castItem><role>Dorothea</role><roleDesc/><actor>Miss Alice Clifford</actor></castItem>
-     <castItem>Retainers, Serfcs, and other representatives of the Twelfth Centiry.</castItem>
+     <castItem><role gender="M">Seltzerwasser </role><actor sex="M">Mr Yarnold </actor></castItem>
+
+     <castItem><role gender="F">The Lady Bertha </role><actor sex="F">Miss Cicy Cecil </actor></castItem>
+
+     <castItem><role gender="F">Erlinda </role><actor sex="F">Miss Alice Mowbray </actor></castItem>
+
+     <castItem><role gender="F">Dorothea </role><actor sex="F">Miss Alice Clifford </actor></castItem>
+
+     <castItem>Retainers, Serfs, and other representatives of the Twelfth Century.</castItem>
     </castList>
     <castList>
      <head>A Character existing some time hence</head>
-     <castItem><role>Smith</role><roleDesc>(First Duke of Bayswater)</roleDesc><actor>Mr. Arthur
-      Wood.</actor></castItem>
+     <castItem><role gender="M">Smith </role><actor sex="M">Mr. Arthur Wood. </actor></castItem>
+
     </castList>
    <pb n="3"/>
 
@@ -410,7 +415,7 @@
     <sp>
      <speaker>Seltz. </speaker>
 
-     <p><stage>(to >Karl)</stage> Quite reminds one of your father !</p>
+     <p><stage>(to &gt;Karl)</stage> Quite reminds one of your father !</p>
     </sp>
     <sp>
      <speaker>Sir H.</speaker>

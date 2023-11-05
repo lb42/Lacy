@@ -1,6 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
- <teiHeader xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader>
   <fileDesc>
    <titleStmt>
     <title>The Crèole; or, Love's Fetters : VPP edition</title>
@@ -11,8 +10,7 @@
    </publicationStmt>
    <sourceDesc>
     <bibl type="print"><title level="s">Lacy's Acting Editions, no. 012 Vol. 1 no.
-     12</title><date>1850</date><ref target="vpp:Vol1xiiCreole.pdf"/><ref
-     target="ia:creoleorlovesfe00broogoog"/></bibl>
+     12</title><date>1850</date><ref target="vpp:Vol1xiiCreole.pdf"/><ref target="ia:creoleorlovesfe00broogoog"/></bibl>
     <!-- The VPP edition however derives from a different edition, "London: Printed for the author, by F. Ledger",
      with a few minor differences, notably the lack of costume information -->
    </sourceDesc>
@@ -36,7 +34,7 @@
     </docImprint>
    </titlePage>
    <div xml:id="L0012_01">
-    <head xml:id="L0012_10" >PREFACE.</head>
+    <head xml:id="L0012_10">PREFACE.</head>
     <head>FROM THE LYCEUM PLAYBILL.</head>
     <p>" THE dramatic form of composition, more than any other, demands completeness; and it is not
      with an idea of appending explanation to the picture he has endeavoured to paint, that the
@@ -97,22 +95,32 @@
    
 
     <castList> <head>DRAMATIS PERSONÆ.</head>
-     <castItem n="Gov."><role>GENERAL MALARTIC (Governor of the Isle of France </role><actor>MR.
-      KINLOCH.</actor> </castItem>
-     <castItem n="Dami."> <role>DAMIRON (a Planter)</role> <actor>MR. F. MATTHEWS.</actor> </castItem>
-     <castItem n="Alph."><role>ALPHONSE DE NYON (an Officer in the Revolutionary Army </role>.<actor>MR. LEIGH
-      MURRAY</actor> </castItem>
-     <castItem n="Hyac."><role>HYACINTHE ST. EMILION (another Officer)</role> 
-      <actor>MISS DICKINSON.</actor> </castItem>
-     <castItem n="Latour."><role>ANTONY LATOUR (a Creole)</role> . <actor>MR. EMERY.</actor> </castItem>
-     <castItem n="Bokes."><role>BOKES ( a Jew)</role> <actor>MR. KEELEY.</actor> </castItem>
-     <castItem><role>A NAVAL OFFICER </role> <actor>MR. SILVER.</actor> </castItem>
-     <castItem> <role>OFFICER IN ATTENDANCE ON THE GOVERNOR</role> . . . <actor>MR. BRADY.</actor> </castItem>
-     <castItem><role>SERVANT TO M. DAMIRON </role>. . <actor>MR. RICHARDSON.</actor> </castItem>
-     <castItem><role>SERVANT TO M. DE NYON </role>. <actor>MR. ANDREWS.</actor> </castItem>
-     <castItem n="Virg."><role>MDLLE. VIRGINIE DAMIRON .</role> <actor>MISS MARY KEELEY</actor> </castItem>
-     <castItem n="Louise."><role>LOUISE FAURIEL </role> <actor>MISS MAY.</actor> </castItem>
-     <castItem n="Bel."><role>BELLONA ST. MARS (a Vivandiere)</role> <actor>MRS. KEELEY.</actor> </castItem>
+     <castItem><role gender="M">General Malartic </role><roleDesc>(governor Of The Isle Of France </roleDesc><actor sex="M">Mr. Kinloch. </actor></castItem>
+
+     <castItem><role gender="M">Damiron </role><roleDesc>(a Planter) </roleDesc><actor sex="M">Mr. F. Matthews. </actor></castItem>
+
+     <castItem><role gender="M">Alphonse De Nyon </role><roleDesc>(an Officer In The Revolutionary Army </roleDesc><actor sex="M">Mr. Leigh Murray </actor></castItem>
+
+     <castItem><role gender="M">Hyacinthe St. Emilion </role><roleDesc>(another Officer) </roleDesc><actor sex="F">Miss Dickinson. </actor></castItem>
+
+     <castItem><role gender="M">Antony Latour </role><roleDesc>(a Creole) </roleDesc><actor sex="M">Mr. Emery. </actor></castItem>
+
+     <castItem><role gender="M">Bokes </role><roleDesc>( A Jew) </roleDesc><actor sex="M">Mr. Keeley. </actor></castItem>
+
+     <castItem><role gender="M">A Naval Officer </role><actor sex="M">Mr. Silver. </actor></castItem>
+
+     <castItem><role gender="M">Officer In Attendance On The Governor </role><actor sex="M">Mr. Brady. </actor></castItem>
+
+     <castItem><role gender="M">Servant To M. Damiron </role><actor sex="M">Mr. Richardson. </actor></castItem>
+
+     <castItem><role gender="M">Servant To M. De Nyon </role><actor sex="M">Mr. Andrews. </actor></castItem>
+
+     <castItem><role gender="F">Mdlle. Virginie Damiron . </role><actor sex="F">Miss Mary Keeley </actor></castItem>
+
+     <castItem><role gender="F">Louise Fauriel </role><actor sex="F">Miss May. </actor></castItem>
+
+     <castItem><role gender="F">Bellona St. Mars </role><roleDesc>(a Vivandiere) </roleDesc><actor sex="F">Mrs. Keeley. </actor></castItem>
+
 
      <castItem type="list">LADIES—Misses Travers, Healy, Hicks, Sidney, Sanders, M. Sanders, Brady,
       Edgar, Page, E. Healy, Horn, and Hart. </castItem>
@@ -129,7 +137,7 @@
   <body>
    <head>THE CREOLE; OR, LOVE'S FETTERS.</head>
    <div type="act" xml:id="L0012_1">
-    <head xml:id="L0012_18" >ACT I.</head>
+    <head xml:id="L0012_18">ACT I.</head>
     <div type="scene" xml:id="L0012_11">
      <stage type="setting">SCENE 1.—The Scene represents a large open space, known as the "Place d'Armes." Port
       Louis, Mauritius. A lofty range of mountains in the distance, in some places grassy, in others

@@ -1,6 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../../../../../home/lou/Public/Lacy/TEI/out/generated.rnc" type="application/relax-ng-compact-syntax"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
-  <teiHeader xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../../../../../home/lou/Public/Lacy/TEI/out/generated.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
     <fileDesc>
 <titleStmt>
   <title n="twicekilled">Twice Killed</title>
@@ -28,61 +27,12 @@
   <text>
 
 
-    <!--
-
-The Project Gutenberg EBook of Twice Killed, by John Oxenford
-
-This eBook is for the use of anyone anywhere in the United States and most
-other parts of the world at no cost and with almost no restrictions
-whatsoever.  You may copy it, give it away or re-use it under the terms of
-the Project Gutenberg License included with this eBook or online at
-www.gutenberg.org.  If you are not located in the United States, you'll have
-to check the laws of the country where you are located before using this ebook.
-
-Title: Twice Killed
- A Farce in One Act
-
-Author: John Oxenford
-
-Release Date: July 18, 2015 [EBook #49481]
-
-Language: English
-
-Character set encoding: UTF-8
-
-*** START OF THIS PROJECT GUTENBERG EBOOK TWICE KILLED ***
-
-
-
-
-Produced by Paul Haxo from page images generously made
-available by the HathiTrust, Ohio State University and
-Google, and with special thanks to the Victorian Plays
-Project.
-
-
-
-
-
-
--->
+    
 
 
 
     <front>
-<!--<div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" class="frontispiece">
-<p xmlns=""><img xmlns="http://www.w3.org/1999/xhtml" alt="Frontispiece" src="images/frontispiece.jpg" title="Frontispiece" height="75%"/></p>
 
-<blockquote class="caption">
-<p xmlns=""><emph>RECKLESS.</emph> My old friend Facile. I can’t be mistaken. (slaps on back.)
-Facile, my boy!</p>
-
-<p xmlns=""><emph>FACILE.</emph> (aside.) That’s the constable. No, sir, not here; it came from
-the window next door.</p>
-
-<p xmlns="">Act I, Scene ii</p>
-</blockquote>
-</div>-->
 
 <titlePage>
 
@@ -115,15 +65,24 @@ Favourite;</title><title> Dice of Death, &amp;c. &amp;c.</title>
 
 <castList>
   <head>CHARACTERS.</head>
-  <castItem><role>Mr. Euclid Facile</role><actor>Mr. KEELEY.</actor></castItem>
-  <castItem><role>Mr. Ralph Reckless</role><actor>Mr. J. VINING.</actor></castItem>
-  <castItem><role>Tom,  (his servant)</role><actor>Mr. SALTER.</actor></castItem>
-  <castItem><role>Mr. Holdfast</role><actor>Mr. W. VINING.</actor></castItem>
-  <castItem><role>Mr. Fergus Fable</role><actor>Mr. COLLIER.</actor></castItem>
-  <castItem><role>Robert</role><actor>Mr. BRAYNE.</actor></castItem>
-  <castItem><role>Mrs. Facile</role><actor>Miss PAGET.</actor></castItem>
-  <castItem><role>Miss Julia Flighty</role><actor>Miss MALCOLM.</actor></castItem>
-  <castItem><role>Fanny Pepper</role><actor>Mrs. ORGER.</actor></castItem>
+  <castItem><role gender="M">Mr. Euclid Facile </role><actor sex="M">Mr. Keeley. </actor></castItem>
+
+  <castItem><role gender="M">Mr. Ralph Reckless </role><actor sex="M">Mr. J. Vining. </actor></castItem>
+
+  <castItem><role gender="M">Tom,  </role><roleDesc>(his Servant) </roleDesc><actor sex="M">Mr. Salter. </actor></castItem>
+
+  <castItem><role gender="M">Mr. Holdfast </role><actor sex="M">Mr. W. Vining. </actor></castItem>
+
+  <castItem><role gender="M">Mr. Fergus Fable </role><actor sex="M">Mr. Collier. </actor></castItem>
+
+  <castItem><role gender="M">Robert </role><actor sex="M">Mr. Brayne. </actor></castItem>
+
+  <castItem><role gender="F">Mrs. Facile </role><actor sex="F">Miss Paget. </actor></castItem>
+
+  <castItem><role gender="F">Miss Julia Flighty </role><actor sex="F">Miss Malcolm. </actor></castItem>
+
+  <castItem><role gender="F">Fanny Pepper </role><actor sex="F">Mrs. Orger. </actor></castItem>
+
 </castList>
 
 <div type="costume">
@@ -717,8 +676,7 @@ admirer, Thomas—and, oh! he’s sitting by a female—and, oh! <stage>hides he
   face.)</stage> how shocking, horrid, disgusting—he kissed her; it is so low-lived to
 kiss in the open air! He shall see how I’ll trim his jacket when I meet him again! I’ll
 give—but what’s this, a basket? M-i-ss, Miss—F-a-n, Fan-n-y-ny, Fanny—Miss Fanny P-e-p,
-Pep—Miss Fanny Pep-p-e-r, per—Miss Fanny Pepper. It’s horrid writing, <pb n="10"
-  /><stage>tears off note.)</stage> a present, but I won’t keep it; I’ll—I’ll do as Mrs.
+Pep—Miss Fanny Pep-p-e-r, per—Miss Fanny Pepper. It’s horrid writing, <pb n="10"/><stage>tears off note.)</stage> a present, but I won’t keep it; I’ll—I’ll do as Mrs.
 Facile did, I’ll shy it out of window into the water. <stage>tries to lift it.)</stage>
 Oh, gemini, how heavy it is. Hush! there’s footsteps.</p>
   </sp>
@@ -2410,13 +2368,11 @@ greatest pleasure in killing him twice more to-morrow.</p>
   <head>Transcriber’s Note</head>
 
   <p>This transcription is based on images digitized by Google from a copy made available by
-    the Ohio State University and posted by the HathiTrust at <ref
-target="http://catalog.hathitrust.org/Record/100593073">catalog.hathitrust.org/Record/
+    the Ohio State University and posted by the HathiTrust at <ref target="http://catalog.hathitrust.org/Record/100593073">catalog.hathitrust.org/Record/
 100593073</ref></p>
 
   <p>Because a few page scans had text cut off next to the margin, this transcription has been
-    compared with the text posted by the Victorian Plays Project at: <ref
-target="http://victorian.nuigalway.ie/modx/assets/docs/pdf/Vol24xivTwice.pdf">victorian.
+    compared with the text posted by the Victorian Plays Project at: <ref target="http://victorian.nuigalway.ie/modx/assets/docs/pdf/Vol24xivTwice.pdf">victorian.
 nuigalway.ie</ref></p>
 
   <p>In general, this transcription attempts to retain the punctuation and spelling of the
