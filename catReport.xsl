@@ -4,18 +4,28 @@
  exclude-result-prefixes="xs" xpath-default-namespace="http://www.tei-c.org/ns/1.0"
  version="2.0">
  <xsl:template match="/">
-  <xsl:message>Today there are <xsl:value-of select="count(//div/bibl)"/> items in the catalogue, of which ....</xsl:message>
+  <xsl:variable name="root" select="."/>
+  <xsl:message>Today there are <xsl:value-of select="count($root//div/bibl)"/> items in the catalogue, of which ....</xsl:message>
   <xsl:message><xsl:value-of select="count(//div/bibl[@status='nf'])"/> items have not (apparently) been digitized.</xsl:message>
-  <xsl:message><xsl:value-of select="count(//div/bibl[@status='TEI-0'])"/> items are available in TEI format.</xsl:message>
-  <xsl:message><xsl:value-of select="count(//div/bibl[@status='nopi'])"/> items lack performance date information.</xsl:message>
+  <xsl:message><xsl:value-of select="count(//div/bibl[@status='TEI-0'])"/> items are marked as available in TEI format.</xsl:message>
+  <xsl:message><xsl:value-of select="count(//div/bibl[@status='nopi'])"/> items are marked as lacking performance date information.</xsl:message>
+  <xsl:message><xsl:value-of select="count(//div/bibl[@status='replaced'])"/> items are marked as replaced.</xsl:message> 
   <xsl:message><xsl:value-of select="count(//div/bibl[not(note[contains(@type,'extent')])])"/> items lack extent data.</xsl:message>
+ <xsl:for-each select="document('/home/lou/Public/Lacy/TEI/driver.xml')//*:include/@href">
+ <xsl:variable name="idToCheck"><xsl:value-of select="substring-before(.,'.')"/></xsl:variable>
+ <!-- <xsl:message>Occurring <xsl:value-of select="count($root//*:div/*:bibl[@xml:id = $idToCheck][starts-with(@status,'TEI')])"/> times</xsl:message>
+ --> 
+  <xsl:if test="count($root//*:div/*:bibl[@xml:id = $idToCheck][starts-with(@status,'TEI')]) eq 0">
+   <xsl:message><xsl:value-of select="$idToCheck"/> not marked TEI</xsl:message></xsl:if>
+ </xsl:for-each> 
+  
   
   <xsl:message>VPP:  <xsl:value-of select="count(//div/bibl[listRef/ref[starts-with(@target,'vpp')]])"/> links;  <xsl:value-of select="count(//div/bibl[listRef/ref[contains(@target,'-vpp')]])"/> local copies.</xsl:message>
   <xsl:message>In the UM set digitized by Google:</xsl:message>
   <xsl:message> <xsl:value-of select="count(//div/bibl[note[@type='UM_extent']])"/> UM extent notes</xsl:message>
   <xsl:message> <xsl:value-of select="count(//div/bibl[note[@type='extent']])"/> Non-UM extent notes</xsl:message>
-  <xsl:message> <xsl:value-of select="count(//div/bibl[not(note[contains(@type,'extent')])])"/> No extent notes</xsl:message>
-  
+ <!-- <xsl:message> <xsl:value-of select="count(//div/bibl[not(note[contains(@type,'extent')])])"/> No extent notes</xsl:message>
+ --> 
   <xsl:message> <xsl:value-of select="count(//div/bibl[listRef/ref[contains(@target,'-um')]])"/> UM copies</xsl:message>
   
   <xsl:for-each select="TEI/text/body/div/bibl">
