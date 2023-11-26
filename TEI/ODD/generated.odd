@@ -162,7 +162,7 @@
                </attList>
             </classSpec>
             <!--Checking module core--><moduleRef key="core"
-                       include="p foreign emph hi name date ptr ref list item label head note pb lb series author respStmt resp title publisher bibl l lg sp speaker stage sic"/>
+                       include="p foreign emph hi name date ptr ref list item label head note pb lb series author respStmt resp title publisher bibl l lg sp speaker stage sic quote"/>
             <elementSpec ident="name" mode="change">
                <attList>
                   <attDef ident="ref" mode="delete"/>
@@ -340,7 +340,7 @@
                </attList>
             </classSpec>
             <!--Checking module textstructure--><moduleRef key="textstructure"
-                       include="TEI text body div trailer byline titlePage docTitle titlePart docAuthor docImprint front back"/>
+                       include="TEI text body div trailer byline titlePage docTitle titlePart docAuthor docImprint docDate epigraph signed front back"/>
             <elementSpec ident="TEI" mode="change">
                <attList>
                   <attDef ident="version" mode="delete"/>

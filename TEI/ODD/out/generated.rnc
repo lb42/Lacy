@@ -7,10 +7,10 @@ namespace teix = "http://www.tei-c.org/ns/Examples"
 namespace xi = "http://www.w3.org/2001/XInclude"
 namespace xlink = "http://www.w3.org/1999/xlink"
 
-# Schema generated from ODD source 2023-11-05T19:56:03Z. .
-# TEI Edition: Version 4.6.0. Last updated on
-#         4th April 2023, revision f18deffba
-# TEI Edition Location: https://www.tei-c.org/Vault/P5/Version 4.6.0/
+# Schema generated from ODD source 2023-11-26T19:31:48Z. .
+# TEI Edition: Version 4.6.0a. Last updated on
+#         25th October 2022, revision 1922ba70a
+# TEI Edition Location: https://www.tei-c.org/Vault/P5/Version 4.6.0a./
 #
 
 #
@@ -511,6 +511,20 @@ att.internetMedia.attribute.mimeType =
     }
   }?
 att.naming.attributes = att.canonical.attributes
+att.notated.attributes = att.notated.attribute.notation
+att.notated.attribute.notation =
+  
+  ## names the notation used for the content of the element.
+  attribute notation {
+    xsd:token { pattern = "[^\p{C}\p{Z}]+" }
+  }?
+att.typed.attributes = att.typed.attribute.type
+att.typed.attribute.type =
+  
+  ## characterizes the element in some sense, using any convenient classification scheme or typology.
+  attribute type {
+    xsd:token { pattern = "[^\p{C}\p{Z}]+" }
+  }?
 sch:pattern [
   id = "oddbyexample-att.typed-subtypeTyped-constraint-rule-6"
   "\x{a}" ~
@@ -832,12 +846,12 @@ model.placeStateLike_sequenceRepeatable =
   model.placeNamePart_sequenceRepeatable+
 model.publicationStmtPart.agency = publisher | distributor
 model.publicationStmtPart.detail = model.ptrLike | date | idno
-model.quoteLike = notAllowed
-model.quoteLike_alternation = notAllowed
-model.quoteLike_sequence = empty
-model.quoteLike_sequenceOptional = empty
-model.quoteLike_sequenceOptionalRepeatable = empty
-model.quoteLike_sequenceRepeatable = notAllowed
+model.quoteLike = quote
+model.quoteLike_alternation = quote
+model.quoteLike_sequence = quote
+model.quoteLike_sequenceOptional = quote?
+model.quoteLike_sequenceOptionalRepeatable = quote*
+model.quoteLike_sequenceRepeatable = quote+
 model.attributable = model.quoteLike
 model.attributable_alternation = model.quoteLike_alternation
 model.attributable_sequence = model.quoteLike_sequence
@@ -847,16 +861,29 @@ model.attributable_sequenceOptionalRepeatable =
 model.attributable_sequenceRepeatable =
   model.quoteLike_sequenceRepeatable+
 model.respLike = author | respStmt
-model.divWrapper = byline | docAuthor
-model.divTopPart = model.headLike
+model.divWrapper = byline | epigraph | docAuthor | docDate
+model.divTopPart = model.headLike | signed
 model.divTop = model.divWrapper | model.divTopPart
 model.frontPart.drama = set | performance | castList
 model.pLike.front =
-  head | byline | docTitle | titlePart | docAuthor | docImprint
-model.divBottomPart = trailer
+  head
+  | byline
+  | epigraph
+  | docTitle
+  | titlePart
+  | docAuthor
+  | docImprint
+  | docDate
+model.divBottomPart = trailer | signed
 model.divBottom = model.divWrapper | model.divBottomPart
 model.titlepagePart =
-  byline | docTitle | titlePart | docAuthor | docImprint
+  byline
+  | epigraph
+  | docTitle
+  | titlePart
+  | docAuthor
+  | docImprint
+  | docDate
 model.imprintPart = publisher | distributor
 model.castItemPart = role | roleDesc | actor
 model.addressLike = notAllowed
@@ -1052,6 +1079,16 @@ hi =
     macro.paraContent,
     att.global.attributes,
     att.written.attributes,
+    empty
+  }
+quote =
+  
+  ## (quotation) contains a phrase or passage attributed by the narrator or author to some agency external to the text. [3.3.3. Quotation 4.3.1. Grouped Texts]
+  element quote {
+    macro.specialPara,
+    att.global.attributes,
+    att.typed.attributes,
+    att.notated.attributes,
     empty
   }
 sic =
@@ -1383,15 +1420,10 @@ lg =
   ## (line group) contains one or more verse lines functioning as a formal unit, e.g. a stanza, refrain, verse paragraph, etc. [3.13.1. Core Tags for Verse 3.13. Passages of Verse or Drama 7.2.5. Speech Contents]
   element lg {
     ((model.divTop | model.global)*,
+     (model.lLike | model.stageLike | model.labelLike | lg),
      (model.lLike
       | model.stageLike
       | model.labelLike
-      | model.pPart.transcriptional
-      | lg),
-     (model.lLike
-      | model.stageLike
-      | model.labelLike
-      | model.pPart.transcriptional
       | model.global
       | lg)*,
      (model.divBottom, model.global*)*)
@@ -1687,10 +1719,6 @@ TEI =
     >> sch:ns [
          prefix = "rng"
          uri = "http://relaxng.org/ns/structure/1.0"
-       ]
-    >> sch:ns [
-         prefix = "rna"
-         uri = "http://relaxng.org/ns/compatibility/annotations/1.0"
        ],
     att.global.attributes,
     empty
@@ -1833,6 +1861,21 @@ byline =
     att.global.attributes,
     empty
   }
+epigraph =
+  
+  ## (epigraph) contains a quotation, anonymous or attributed, appearing at the start or end of a section or on a title page. [4.2.3. Arguments, Epigraphs, and Postscripts 4.2. Elements Common to All Divisions 4.6. Title Pages]
+  element epigraph {
+    (model.common | model.global)*, att.global.attributes, empty
+  }
+signed =
+  
+  ## (signature) contains the closing salutation, etc., appended to a foreword, dedicatory epistle, or other division of a text. [4.2.2. Openers and Closers]
+  element signed {
+    macro.paraContent,
+    att.global.attributes,
+    att.written.attributes,
+    empty
+  }
 titlePage =
   
   ## (title page) contains the title page of a text, appearing within the front or back matter. [4.6. Title Pages]
@@ -1863,8 +1906,33 @@ docImprint =
   
   ## (document imprint) contains the imprint statement (place and date of publication, publisher name), as given (usually) at the foot of a title page. [4.6. Title Pages]
   element docImprint {
-    (text | model.gLike | model.phrase | publisher | model.global)*,
+    (text
+     | model.gLike
+     | model.phrase
+     | docDate
+     | publisher
+     | model.global)*,
     att.global.attributes,
+    empty
+  }
+docDate =
+  
+  ## (document date) contains the date of a document, as given on a title page or in a dateline. [4.6. Title Pages]
+  element docDate {
+    macro.phraseSeq,
+    att.global.attributes,
+    
+    ## (when) gives the value of the date in standard form, i.e. YYYY-MM-DD.
+    attribute when {
+      xsd:date
+      | xsd:gYear
+      | xsd:gMonth
+      | xsd:gDay
+      | xsd:gYearMonth
+      | xsd:gMonthDay
+      | xsd:time
+      | xsd:dateTime
+    }?,
     empty
   }
 front =
@@ -1975,29 +2043,7 @@ castItem =
 role =
   
   ## (role) contains the name of a dramatic role, as given in a cast list. [7.1.4. Cast Lists]
-  element role {
-    macro.phraseSeq,
-    att.global.attributes,
-    
-    ## specifies the gender of the role.
-    attribute gender {
-      list {
-        (
-         ## Female
-         "F"
-         | 
-           ## Juvenile
-           "J"
-         | 
-           ## Male
-           "M"
-         | 
-           ## Mixed
-           "X")+
-      }
-    }?,
-    empty
-  }
+  element role { macro.phraseSeq, att.global.attributes, empty }
 roleDesc =
   
   ## (role description) describes a character's role in a drama. [7.1.4. Cast Lists]
@@ -2005,23 +2051,7 @@ roleDesc =
 actor =
   
   ## contains the name of an actor appearing within a cast list. [7.1.4. Cast Lists]
-  element actor {
-    macro.phraseSeq,
-    att.global.attributes,
-    
-    ## specifies the sex of the actor.
-    attribute sex {
-      list {
-        (
-         ## Female
-         "F"
-         | 
-           ## Male
-           "M")+
-      }
-    }?,
-    empty
-  }
+  element actor { macro.phraseSeq, att.global.attributes, empty }
 spGrp =
   
   ## (speech group) contains a group of speeches or songs in a performance text presented in a source as constituting a single unit or number. [7.2.3. Grouped Speeches]
