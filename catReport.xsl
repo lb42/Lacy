@@ -5,6 +5,7 @@
  version="2.0">
  <xsl:template match="/">
   <xsl:variable name="root" select="."/>
+  <xsl:variable name="totLAE" select="count($root//div/bibl)"/> 
   <xsl:message>Today there are <xsl:value-of select="count($root//div/bibl)"/> items in the catalogue, of which ....</xsl:message>
   <xsl:message><xsl:value-of select="count(//div/bibl[@status='nf'])"/> items have not (apparently) been digitized.</xsl:message>
   <xsl:message><xsl:value-of select="count(//div/bibl[@status='TEI-0'])"/> items are marked as available in TEI format.</xsl:message>
@@ -19,6 +20,7 @@
    <xsl:message><xsl:value-of select="$idToCheck"/> not marked TEI</xsl:message></xsl:if>
  </xsl:for-each> 
   
+  <xsl:variable name="totVPP" select="count(//div/bibl[listRef/ref[starts-with(@target,'vpp')]])"/>
   
   <xsl:message>VPP:  <xsl:value-of select="count(//div/bibl[listRef/ref[starts-with(@target,'vpp')]])"/> links;  <xsl:value-of select="count(//div/bibl[listRef/ref[contains(@target,'-vpp')]])"/> local copies.</xsl:message>
   <xsl:message>In the UM set digitized by Google:</xsl:message>
@@ -43,5 +45,22 @@
    </xsl:for-each>
   <xsl:text>
 </xsl:text></xsl:for-each>
+  
+  <xsl:for-each select="distinct-values(//*:ref/@target[starts-with(.,'local:')]/substring-before(substring-after(.,'-'),'.pdf'))">
+   <xsl:sort/>
+   <xsl:variable name="f" select="concat('-', ., '.pdf')"/>
+   <xsl:message><xsl:value-of select="."/><xsl:text> </xsl:text> <xsl:value-of select="count($root//*:ref[ends-with(@target, $f)])"/></xsl:message>
+  </xsl:for-each>
+  
+<!-- balance criterion : length -->
+<xsl:value-of select="$totVPP"/><xsl:text>, </xsl:text>
+<xsl:value-of select="count(//bibl[starts-with(@type,'1') and listRef/ref[starts-with(.,'VPP')]] )"/><xsl:text>, </xsl:text>
+  <xsl:value-of select="count(//bibl[starts-with(@type,'2') and listRef/ref[starts-with(.,'VPP')]] )"/><xsl:text>, </xsl:text>
+  <xsl:value-of select="count(//bibl[starts-with(@type,'3') and listRef/ref[starts-with(.,'VPP')]] )"/><xsl:text>, </xsl:text>
+  <xsl:value-of select="count(//bibl[starts-with(@type,'4') and listRef/ref[starts-with(.,'VPP')]] )"/><xsl:text>, </xsl:text>
+  <xsl:value-of select="count(//bibl[starts-with(@type,'5') and listRef/ref[starts-with(.,'VPP')]] )"/><xsl:text> </xsl:text>
+  
+  
+  
  </xsl:template>
 </xsl:stylesheet>

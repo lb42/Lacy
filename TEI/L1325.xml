@@ -1,1281 +1,1367 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-    <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title n="thedeathofmarlowe">The Death of Marlowe</title>
-                <author>Horne, R.H.</author>
-                <respStmt>
-                    <resp>Curated by</resp>
-                    <name>Lou Burnard</name>
-                </respStmt>
-            </titleStmt>
-            <publicationStmt>
-                <distributor>Privately published on the Lacy Website</distributor>
-                <idno>L1325</idno>
-            </publicationStmt>
-            <sourceDesc>
-                <p>Retagged from Docx produced by Abby from a Vpp Pdf edition</p>
-            </sourceDesc>
-        </fileDesc>
-        <revisionDesc>
-            <change when="2023-11-23">Header confected</change>
-        </revisionDesc>
-    </teiHeader>
-    <text>
-        <front>
-            <titlePage>
-                <titlePart>The Death Of Marlowe.</titlePart>
-                <titlePart>A Tragedy, In One Act.</titlePart>
-                <byline> By <docAuthor> R . H. Horne,</docAuthor> Author Of <title>" Orion;"
-                    </title> the Tragedies of <title>"Cosmo de' Medici,"</title><title> " Gregory
-                        Vii.,"</title><title> " Judas Iscariot, a Mystery Play,"</title><title>
-                        "Ballad Romances,"</title> &amp;c, &amp;c. </byline>
-                  <epigraph>
-                    <quote>" He was a Man, fiery-real, from the great fire-bosom of Nature herself."
-                            <bibl>Carlyle's French Revolution. </bibl></quote>
-                    <quote>
-                        <l>" Sweet Helen, make me immortal with a kiss!</l>
-                        <l>Now hast thou but one bare hour to live."</l>
-                        <bibl> Marlowe's Faustus. </bibl>
-                    </quote>
-                </epigraph>
-                <titlePart>Fifth Edition. </titlePart>
-                <docImprint> London: Thomas Hailes Lacy, 89, Strand. <docDate> 1870 </docDate>.
-                </docImprint>
-            </titlePage>
-            <pb n="2"/>
-            <div type="liminal">
-                <head> Dedication . </head>
-                <p> This brief Tragedy, long since out of print, was originally published in London
-                    (by Messrs. Saunders and Otley), and was inscribed to the author's friend, Leigh
-                    Hunt, happily living at that time; and it is now Dedicated to his dear
-                    Memory—deservedly dear to all who knew him, and to a world of others who know
-                    his books.</p>
-                <signed>R.H.H.</signed>
-                <trailer> London, Christmas, 1869.</trailer>
-            </div>
-            <div type="liminal">
-                <head>The Death Of Marlowe.</head>
-                <head>Written After Reading "The Death Of Marlowe," By R. H. Horne, Esq.</head>
-                <lg>
-                    <l>A dream of Life and Death—a passionate dream ! </l>
-                    <l>Genius, self-borne in fierce and wild career, </l>
-                    <l>Unconscious of the gulf that yawneth near.</l>
-                    <l>Black, rayless, save with life's last flickering gleam, </l>
-                    <l>Lost child of Pride and Power! may none redeem ?</l>
-                    <l>With fixed ere and with outstretched hands, </l>
-                    <l>Lo! on the lightning-rifted rock he stands </l>
-                    <l>That sternly shadows Lethe's sluggard stream.</l>
-                </lg>
-                <signed> J . W. Dalby.</signed>
-                <trailer> Amersham, Bucks.</trailer>
-            </div>
-            <pb n="4"/>
-            <castList>
-                <head>Dramatis Personae</head>
-                <castItem>
-                    <role>Christopher Marlowe</role>
-                    <role>Thomas Heywood</role>
-                    <roleDesc>Dramatists and Actors.</roleDesc>
-                </castItem>
-                <castItem>
-                    <role>Thomas Middleton</role>
-                    <roleDesc>Dramatist .</roleDesc>
-                </castItem>
-                <castItem>
-                    <role>Cecilia</role>
-                    <roleDesc> Runaway Wife of the Drunkard, Ben Gough.</roleDesc>
-                </castItem>
-                <castItem>
-                    <role>Jacconot, alias Jack-'o-night</role>
-                    <roleDesc>A Tavern Pander and Swashbuckler.</roleDesc>
-                </castItem>
-                <castItem>
-                    <role>Gentlemen, Officers, Servants, &amp;c.</role>
-                </castItem>
-            </castList>
-        </front>
-        <body>
-            <p>The Death Of Marlowe.</p>
-            <div type="scene">
-                <stage type="setting"> Scene First.—Public Gardens—Liberty of the Clink,Southwark. </stage>
-                <stage>Enter Marlowe and Heywood, R. </stage>
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title n="thedeathofmarlowe">The Death of Marlowe</title>
+    <author>Horne, R.H.</author>
+    <respStmt>
+     <resp>Curated by</resp>
+     <name>Lou Burnard</name>
+    </respStmt>
+   </titleStmt>
+   <publicationStmt>
+    <distributor>Privately published on the Lacy Website</distributor>
+    <idno>L1325</idno>
+   </publicationStmt>
+   <sourceDesc>
+    <p>Retagged from Docx produced by Abby from a Vpp Pdf edition</p>
+   </sourceDesc>
+  </fileDesc>
+  <revisionDesc>
+   <change when="2023-11-23">Header confected</change>
+  </revisionDesc>
+ </teiHeader>
+ <text>
+  <front>
+   <titlePage>
+    <titlePart>The Death Of Marlowe.</titlePart>
+    <titlePart>A Tragedy, In One Act.</titlePart>
+    <byline> By <docAuthor> R. H. Horne,</docAuthor> Author Of <title>" Orion;" </title> the
+     Tragedies of <title>"Cosmo de' Medici,"</title><title> " Gregory Vii.,"</title><title> " Judas
+     Iscariot, a Mystery Play,"</title><title> "Ballad Romances,"</title> &amp;c, &amp;c. </byline>
+    <epigraph>
+     <quote>" He was a Man, fiery-real, from the great fire-bosom of Nature herself."
+      <bibl>Carlyle's French Revolution. </bibl></quote>
+     <quote>
+      <l>" Sweet Helen, make me immortal with a kiss!</l>
+      <l>Now hast thou but one bare hour to live."</l> <bibl> Marlowe's Faustus. </bibl> </quote>
+    </epigraph>
+    <titlePart>Fifth Edition. </titlePart>
+    <docImprint> London: Thomas Hailes Lacy, 89, Strand. <docDate> 1870 </docDate>. </docImprint>
+   </titlePage>
+   <pb n="2"/>
+   <div type="liminal">
+    <head> Dedication. </head>
+    <p> This brief Tragedy, long since out of print, was originally published in London (by Messrs.
+     Saunders and Otley), and was inscribed to the author's friend, Leigh Hunt, happily living at
+     that time; and it is now Dedicated to his dear Memory—deservedly dear to all who knew him, and
+     to a world of others who know his books.</p>
+    <signed>R.H.H.</signed>
+    <trailer> London, Christmas, 1869.</trailer>
+   </div>
+   <div type="liminal">
+    <head>The Death Of Marlowe.</head>
+    <head>Written After Reading "The Death Of Marlowe," By R. H. Horne, Esq.</head>
+    <lg>
+     <l>A dream of Life and Death—a passionate dream ! </l>
+     <l>Genius, self-borne in fierce and wild career, </l>
+     <l>Unconscious of the gulf that yawneth near.</l>
+     <l>Black, rayless, save with life's last flickering gleam, </l>
+     <l>Lost child of Pride and Power! may none redeem ?</l>
+     <l>With fixed ere and with outstretched hands, </l>
+     <l>Lo! on the lightning-rifted rock he stands </l>
+     <l>That sternly shadows Lethe's sluggard stream.</l>
+    </lg>
+    <signed> J. W. Dalby.</signed>
+    <trailer> Amersham, Bucks.</trailer>
+   </div>
+   <pb n="4"/>
+   <castList>
+    <head>Dramatis Personae</head>
+    <castItem> <role>Christopher Marlowe</role> <role>Thomas Heywood</role> <roleDesc>Dramatists and
+     Actors.</roleDesc> </castItem>
+    <castItem> <role>Thomas Middleton</role> <roleDesc>Dramatist.</roleDesc> </castItem>
+    <castItem> <role>Cecilia</role> <roleDesc> Runaway Wife of the Drunkard, Ben Gough.</roleDesc> </castItem>
+    <castItem> <role>Jacconot, alias Jack-'o-night</role> <roleDesc>A Tavern Pander and
+     Swashbuckler.</roleDesc> </castItem>
+    <castItem> <role>Gentlemen, Officers, Servants, &amp;c.</role> </castItem>
+   </castList>
+  </front>
+  <body>
+   <head>The Death Of Marlowe.</head>
+   <div type="scene">
+    <stage type="setting">Scene First.—Public Gardens—Liberty of the Clink,Southwark. </stage>
+    <stage>Enter Marlowe and Heywood, R. </stage>
+    <sp>
+     <speaker>Heywood.</speaker>
+     <l>Be sure of it.</l>
+    </sp>
+    <sp>
+     <speaker>Marlowe.</speaker>
+     <l>I am ; but not by your light.</l>
+    </sp>
+    <sp>
+     <speaker>Hey.</speaker>
+     <l>I speak it not in malice, nor in envy</l>
+     <l>Of your good fortune with so bright a beauty ; </l>
+     <l>But I have heard such things!</l>
+    </sp>
+    <sp>
+     <speaker>Marl.</speaker>
+     <l>Good Master Heywood,</l>
+     <l>I prithee plague me not with what thou'st heard ; </l>
+     <l>I've seen, and I do love her—and, for hearing, </l>
+     <l>The music of her voice is in my soul, </l>
+     <l>And holds a rapturous jubilee 'midst dreams </l>
+     <l>That melt the day and night into one bliss.</l>
+    </sp>
+    <sp>
+     <speaker>Hey.</speaker>
+     <l>Beware the waking hour!</l>
+    </sp>
+    <sp>
+     <speaker>Marl.</speaker>
+     <l>In lovely radiance,</l>
+     <l>Like all that's fabled of Olympus' queen,</l>
+     <l> She moves—as if the earth were undulant clouds, </l>
+     <l>And all its flowers her subject stars.</l>
+    </sp>
+    <sp>
+     <speaker>Hey.</speaker>
+     <l>Proceed.</l>
+    </sp>
+    <sp>
+     <speaker>Marl.</speaker>
+     <l>Smile not; for 'tis most true : the very air </l>
+     <l>With her sweet presence is impregnate richly. </l>
+     <l>As in a mead, that's fresh with youngest green, </l>
+     <l>Some fragrant shrub, some secret herb, exhales </l>
+     <l>Ambrosial odours ; or in lonely bower, </l>
+     <l>Where one may find the musk-plant, heliotrope, </l>
+     <l>Geranium, or grape-hyacinth, confers </l>
+     <l>A ruling influence, charming present sense, </l>
+     <l>And sure of memory ; so, her person bears</l>
+     <l> A natural balm, obedient to the rays</l>
+     <l>Of heaven—or to her own, which glow within,</l>
+     <pb n="6"/>
+     <l>Distilling incense by their own sweet power.</l>
+     <l>The dew at sunrise on a ripen'd peach</l>
+     <l> Was never more delicious than her neck.</l>
+     <l> Such forms are Nature's favourites.</l>
+    </sp>
+    <sp>
+     <speaker>Hey.</speaker>
+     <l>Come, come—</l>
+     <l>Pygmalion and Prometheus dwell within you!</l>
+     <l>You poetize her rarely, and exalt</l>
+     <l>With goddess-attributes, and chastity</l>
+     <l>Beyond most goddesses : be not thus serious!</l>
+     <l>If for a passing paramour thou'dst love her, </l>
+     <l>Why, so, it may be well; but never place </l>
+     <l>Thy full heart in her hand.</l>
+    </sp>
+    <sp>
+     <speaker>Marl.</speaker>
+     <l>I have—I do—</l>
+     <l>And I will lay it bleeding at her feet.</l>
+     <l>Reason no more, for I do love this woman:</l>
+     <l>To me she's chaste, whatever thou hast heard.</l>
+     <l>Whatever I may hear, know, find, or fancy,</l>
+     <l>I must possess her constantly, or die.</l>
+    </sp>
+    <sp>
+     <speaker>Hey.</speaker>
+     <l>Nay, if't be thus, I'll fret thine ear no more</l>
+     <l>With raven voice; but aid thee all I can.</l>
+    </sp>
+    <sp>
+     <speaker>Marl.</speaker>
+     <l>Cecilia!—Go, dear friend—good Master Heywood</l>
+     <l> Leave me alone—I see her coming hither!</l>
+    </sp>
+    <sp>
+     <speaker>Hey.</speaker>
+     <l>Bliss wait thy wooing; peace of mind its end !</l>
+     <l> <stage>(aside)</stage> His knees shake, and his face and hands are wet,</l>
+     <l>As with a sudden fall of dew—God speed him !</l>
+     <l> This is a desperate fancy !<stage> Exit, r. </stage> </l>
+     <stage> Enter Cecilia, L. </stage>
+    </sp>
+    <sp>
+     <speaker>Cecilia.</speaker>
+     <l>Thoughtful sir,</l>
+     <l>How fare you? </l>
+     <l>Thou'st been reading much of late </l>
+     <l>By the moon's light, I fear me ?</l>
+    </sp>
+    <sp>
+     <speaker>Marl.</speaker>
+     <l>Why so, lady?</l>
+    </sp>
+    <sp>
+     <speaker>Cecil.</speaker>
+     <l>The reflex of the page is on thy face.</l>
+    </sp>
+    <sp>
+     <speaker>Marl.</speaker>
+     <l>But in my heart the spirit of a shrine</l>
+     <l>Burns, with immortal radiation crown'd.</l>
+    </sp>
+    <sp>
+     <speaker>Cecil.</speaker>
+     <l>Nay, primrose gentleman, think'st me a saint ? </l>
+    </sp>
+    <sp>
+     <speaker>Marl.</speaker>
+     <l> I feel thy power.</l>
+    </sp>
+    <sp>
+     <speaker>Cecil.</speaker>
+     <l>I exercise no arts—</l>
+     <l>Whence is my influence ?</l>
+    </sp>
+    <sp>
+     <speaker>Marl.</speaker>
+     <l>From heaven, I think.</l>
+     <pb n="7"/>
+     <l>Madam, I love you—ere to-day you've seen it, </l>
+     <l>Although my lips ne'er breathed the word before ;</l>
+     <l>And seldom as we've met, and briefly spoken, </l>
+     <l>There are such spiritual passings to and fro </l>
+     <l>'Twixt thee and me—though I alone may suffer— </l>
+     <l>As make me know this love blends with my life; </l>
+     <l>Must branch with it, bud, blossom, put forth fruit,</l>
+     <l> Nor end e'en when its last husks strew the grave,</l>
+     <l> Whence we together shall ascend to bliss.</l>
+    </sp>
+    <sp>
+     <speaker>Cecil.</speaker>
+     <l>Continued from this world?</l>
+    </sp>
+    <sp>
+     <speaker>Marl.</speaker>
+     <l> Thy hand,—both hands !—</l>
+     <l>I kiss them from my soul !</l>
+    </sp>
+    <sp>
+     <speaker>Cecil.</speaker>
+     <l>Nay, sir, you burn me—</l>
+     <l>Let loose my hands!</l>
+    </sp>
+    <sp>
+     <speaker>Marl.</speaker>
+     <l>I loose them—half my life has thus gone from me!—</l>
+     <l> That which is left can scarce contain my heart,</l>
+     <l> Now grown too full with the high tide of joy, </l>
+     <l>Whose ebb, retiring, fills the caves of sorrow, </l>
+     <l>Where Syrens sing beneath their dripping hair,</l>
+     <l> And raise the mirror'd fate.</l>
+    </sp>
+    <sp>
+     <speaker>Cecil.</speaker>
+     <l>Then, gaze not in it,</l>
+     <l>Lest thou should'st see thy passing funeral.</l>
+     <l>I would not—I might chance to see far worse.</l>
+    </sp>
+    <sp>
+     <speaker>Marl.</speaker>
+     <l>Thou art too beautiful ever to die !</l>
+     <l>I look upon thee, and can ne'er believe it.</l>
+    </sp>
+    <sp>
+     <speaker>Cecil.</speaker>
+     <l>O, sir—but passion, circumstance, and fate, </l>
+     <l>Can do far worse than kill: they can dig graves,</l>
+     <l> And make the future owners dance above them,</l>
+     <l> Well knowing how 'twill end. Why look you sad ? </l>
+     <l>'Tis not your case ; you are a man in love— </l>
+     <l>At least, you say so—and should therefore feel</l>
+     <l> A constant sunshine, wheresoe'er you tread,</l>
+     <l> Nor think of what's beneath. But speak no more : </l>
+     <l>I see a volume gathering in your eye</l>
+     <l>Which you would fain have printed in my heart;</l>
+     <l>But you were better cast it in the fire.</l>
+     <l>Enough you've said, and I enough have listened.</l>
+    </sp>
+    <sp>
+     <speaker>Marl.</speaker>
+     <l>I have said naught.</l>
+    </sp>
+    <sp>
+     <speaker>Cecil.</speaker>
+     <l>You have spoken very plain—</l>
+     <l>So, Master Marlowe, please you, break we off;</l>
+     <l>And, since your mind is now relieved—good day!</l>
+     <pb n="8"/>
+    </sp>
+    <sp>
+     <speaker>Marl.</speaker>
+     <l>Leave me not thus !—forgive me!</l>
+    </sp>
+    <sp>
+     <speaker>Cecil.</speaker>
+     <l>For what offence ?</l>
+    </sp>
+    <sp>
+     <speaker>Marl.</speaker>
+     <l>The expression of my love.</l>
+    </sp>
+    <sp>
+     <speaker>Cecil.</speaker>
+     <l>Tut! that's a trifle.</l>
+     <l>Think'st thou I ne'er saw men in love before ?</l>
+     <l>Unto the summer of beauty they are common</l>
+     <l>As grasshoppers.</l>
+    </sp>
+    <sp>
+     <speaker>Marl.</speaker>
+     <l>And to its winter, lady ?</l>
+    </sp>
+    <sp>
+     <speaker>Cecil.</speaker>
+     <l>There is no winter in my thoughts—adieu !<stage>Exit,R.</stage></l>
+    </sp>
+    <sp>
+     <speaker>Marl.</speaker>
+     <l> She's gone!—How leafless is my life!—My strength </l>
+     <l>Seems melted—my breast vacant—and in my brain </l>
+     <l>I hear the sound of a retiring sea. <stage>Exit, R.</stage> </l>
+    </sp>
 
-                <sp>
-                <speaker>Heywood .</speaker>
-                <l>Be sure of it.</l>
-                </sp><sp>
-                <speaker>Marlowe .</speaker>
-                <l>I am ; but not by your light.</l>
-                </sp><sp>
-                <speaker>Hey .</speaker>
-                <l>I speak it not in malice, nor in envy</l>
-                <l>Of your good fortune with so bright a beauty ; </l>
-                <l>But I have heard such things!</l>
-                </sp><sp>
-                <speaker>Marl .</speaker>
-                <l>Good Master Heywood,</l>
-                <l>I prithee plague me not with what thou'st heard ; </l>
-                <l>I've seen, and I do love her—and, for hearing, </l>
-                <l>The music of her voice is in my soul, </l>
-                <l>And holds a rapturous jubilee 'midst dreams </l>
-                <l>That melt the day and night into one bliss.</l>
-                </sp><sp>
-                <speaker>Hey .</speaker>
-                <l>Beware the waking hour!</l>
-                </sp><sp>
-                <speaker>Marl .</speaker>
-                <l>In lovely radiance,</l>
-                <l>Like all that's fabled of Olympus' queen,</l>
-                <l> She moves—as if the earth were undulant clouds, </l>
-                <l>And all its flowers her subject stars.</l>
-                </sp><sp>
-                <speaker>Hey .</speaker>
-                <l>Proceed.</l>
-                </sp><sp>
-                <speaker>Marl .</speaker>
-                <l>Smile not; for 'tis most true : the very air </l>
-                <l>With her sweet presence is impregnate richly. </l>
-                <l>As in a mead, that's fresh with youngest green, </l>
-                <l>Some fragrant shrub, some secret herb, exhales </l>
-                <l>Ambrosial odours ; or in lonely bower, </l>
-                <l>Where one may find the musk-plant, heliotrope, </l>
-                <l>Geranium, or grape-hyacinth, confers </l>
-                <l>A ruling influence, charming present sense, </l>
-                <l>And sure of memory ; so, her person bears</l>
-                <l> A natural balm, obedient to the rays</l>
-                <l>Of heaven—or to her own, which glow within,</l>
-                <pb n="6"/>
-                <l>Distilling incense by their own sweet power.</l>
-                <l>The dew at sunrise on a ripen'd peach</l>
-                <l> Was never more delicious than her neck.</l>
-                <l> Such forms are Nature's favourites.</l>
-                </sp><sp>
-                <speaker>Hey .</speaker>
-                <l>Come, come—</l>
-                <l>Pygmalion and Prometheus dwell within you!</l>
-                <l>You poetize her rarely, and exalt</l>
-                <l>With goddess-attributes, and chastity</l>
-                <l>Beyond most goddesses : be not thus serious!</l>
-                <l>If for a passing paramour thou'dst love her, </l>
-                <l>Why, so, it may be well; but never place </l>
-                <l>Thy full heart in her hand.</l>
-                </sp><sp>
-                <speaker>Marl .</speaker>
-                <l>I have—I do—</l>
-                <l>And I will lay it bleeding at her feet.</l>
-                <l>Reason no more, for I do love this woman:</l>
-                <l>To me she's chaste, whatever thou hast heard.</l>
-                <l>Whatever I may hear, know, find, or fancy,</l>
-                <l>I must possess her constantly, or die.</l>
-                </sp><sp>
-                <speaker>Hey .</speaker>
-                <l>Nay, if't be thus, I'll fret thine ear no more</l>
-                <l>With raven voice; but aid thee all I can.</l>
-                </sp><sp>
-                <speaker>Marl .</speaker>
-                <l>Cecilia!—Go, dear friend—good Master Heywood</l>
-                <l> Leave me alone—I see her coming hither!</l>
-                </sp><sp>
-                <speaker>Hey .</speaker>
-                <l>Bliss wait thy wooing; peace of mind its end !</l>
-                <l>
-                    <stage>(aside)</stage> His knees shake, and his face and hands are wet,</l>
-                <l>As with a sudden fall of dew—God speed him !</l>
-                <l> This is a desperate fancy !<stage> Exit, r. </stage>
-                </l>
-                <stage> Enter Cecilia, L. </stage>
-                </sp><sp>
-                <speaker>Cecilia .</speaker>
-                <l>Thoughtful sir,</l>
-                <l>How fare you? </l>
-                <l>Thou'st been reading much of late </l>
-                <l>By the moon's light, I fear me ?</l>
-                </sp><sp>
-                <speaker>Marl .</speaker>
-                <l>Why so, lady?</l>
-                </sp><sp>
-                <speaker>Cecil .</speaker>
-                <l>The reflex of the page is on thy face.</l>
-                </sp><sp>
-                <speaker>Marl .</speaker>
-                <l>But in my heart the spirit of a shrine</l>
-                <l>Burns, with immortal radiation crown'd.</l>
-                </sp><sp>
-                <speaker>Cecil .</speaker>
-                <l>Nay, primrose gentleman, think'st me a saint ? </l>
-                </sp><sp>
-                <speaker>Marl.</speaker>
-                <l> I feel thy power.</l>
-                </sp><sp>
-                <speaker>Cecil .</speaker>
-                <l>I exercise no arts—</l>
-                <l>Whence is my influence ?</l>
-                </sp><sp>
-                <speaker>Marl .</speaker>
-                <l>From heaven, I think.</l>
-                <pb n="7"/>
-                <l>Madam, I love you—ere to-day you've seen it, </l>
-                <l>Although my lips ne'er breathed the word before ;</l>
-                <l>And seldom as we've met, and briefly spoken, </l>
-                <l>There are such spiritual passings to and fro </l>
-                <l>'Twixt thee and me—though I alone may suffer— </l>
-                <l>As make me know this love blends with my life; </l>
-                <l>Must branch with it, bud, blossom, put forth fruit,</l>
-                <l> Nor end e'en when its last husks strew the grave,</l>
-                <l> Whence we together shall ascend to bliss.</l>
-                </sp><sp>
-                <speaker>Cecil .</speaker>
-                <l>Continued from this world?</l>
-                </sp><sp>
-                <speaker>Marl .</speaker>
-                <l> Thy hand,—both hands !—</l>
-                <l>I kiss them from my soul !</l>
-                </sp><sp>
-                <speaker>Cecil .</speaker>
-                <l>Nay, sir, you burn me—</l>
-                <l>Let loose my hands!</l>
-                </sp><sp>
-                <speaker>Marl .</speaker>
-                <l>I loose them—half my life has thus gone from me!—</l>
-                <l> That which is left can scarce contain my heart,</l>
-                <l> Now grown too full with the high tide of joy, </l>
-                <l>Whose ebb, retiring, fills the caves of sorrow, </l>
-                <l>Where Syrens sing beneath their dripping hair,</l>
-                <l> And raise the mirror'd fate.</l>
-                </sp><sp>
-                <speaker>Cecil .</speaker>
-                <l>Then, gaze not in it,</l>
-                <l>Lest thou should'st see thy passing funeral.</l>
-                <l>I would not—I might chance to see far worse.</l>
-                </sp><sp>
-                <speaker>Marl .</speaker>
-                <l>Thou art too beautiful ever to die !</l>
-                <l>I look upon thee, and can ne'er believe it.</l>
-                </sp><sp>
-                <speaker>Cecil .</speaker>
-                <l>O, sir—but passion, circumstance, and fate, </l>
-                <l>Can do far worse than kill: they can dig graves,</l>
-                <l> And make the future owners dance above them,</l>
-                <l> Well knowing how 'twill end. Why look you sad ? </l>
-                <l>'Tis not your case ; you are a man in love— </l>
-                <l>At least, you say so—and should therefore feel</l>
-                <l> A constant sunshine, wheresoe'er you tread,</l>
-                <l> Nor think of what's beneath. But speak no more : </l>
-                <l>I see a volume gathering in your eye</l>
-                <l>Which you would fain have printed in my heart;</l>
-                <l>But you were better cast it in the fire.</l>
-                <l>Enough you've said, and I enough have listened.</l>
-                </sp><sp>
-                <speaker>Marl .</speaker>
-                <l>I have said naught.</l>
-                </sp><sp>
-                <speaker>Cecil .</speaker>
-                <l>You have spoken very plain—</l>
-                <l>So, Master Marlowe, please you, break we off;</l>
-                <l>And, since your mind is now relieved—good day!</l>
-                <pb n="8"/>
-                </sp><sp>
-                <speaker>Marl .</speaker>
-                <l>Leave me not thus !—forgive me!</l>
-                </sp><sp>
-                <speaker>Cecil .</speaker>
-                <l>For what offence ?</l>
-                </sp><sp>
-                <speaker>Marl .</speaker>
-                <l>The expression of my love.</l>
-                </sp><sp>
-                <speaker>Cecil .</speaker>
-                <l>Tut! that's a trifle.</l>
-                <l>Think'st thou I ne'er saw men in love before ?</l>
-                <l>Unto the summer of beauty they are common</l>
-                <l>As grasshoppers.</l>
-                </sp><sp>
-                <speaker>Marl .</speaker>
-                <l>And to its winter, lady ?</l>
-                </sp><sp>
-                <speaker>Cecil .</speaker>
-                <l>There is no winter in my thoughts—adieu !<stage>Exit,R .</stage></l>
-                </sp><sp>
-                <speaker>Marl .</speaker>
-                <l> She's gone!—How leafless is my life!—My strength </l>
-                <l>Seems melted—my breast vacant—and in my brain </l>
-                <l>I hear the sound of a retiring sea. <stage>Exit, R.</stage>
-                </l></sp>
+   </div>
+   <div type="scene">
+    <stage type="setting"> Scene Second.—Gravel Lane; Bankside. </stage>
+    <stage> Enter Heywood and Middleton, L. </stage>
+    <sp>
+     <speaker>Middleton.</speaker>
+     <p>And yet it may end well, after his fit is over.</p>
+    </sp>
+    <sp>
+     <speaker>Hey.</speaker>
+     <p>But he is earnest in it.</p>
+    </sp>
+    <sp>
+     <speaker>Middle.</speaker>
+     <p> Tis his habit: a little thunder clears the atmosphere. At present he is spell-bound, and
+      smouldereth in a hot cloud of passion; but when he once makes his way, he will soon disperse
+      his free spirit abroad over the inspired heavens.</p>
+    </sp>
+    <sp>
+     <speaker>Hey.</speaker>
+     <p>I fear me she will sow quick seed of feverish fancies in his mind that may go near to drive
+      him mad.</p>
+    </sp>
+    <sp>
+     <speaker>Middle.</speaker>
+     <p> How so ? He knoweth her for what she is, as well as for what she was;—the high spirited and
+      once virtuous wife of the drunkard Bengough. You remember him ?</p>
+    </sp>
+    <sp>
+     <speaker>Hey.</speaker>
+     <p>I have seen him i' the mire. 'Twas his accustomed bed o' nights—and mornings, too—many a
+      time. He preferred <hi>that</hi> to the angel he left at home. Some men do. 'Tis a sorrow to
+      think upon.</p>
+    </sp>
+    <sp>
+     <speaker>Middle.</speaker>
+     <p>And one that tears cannot wash! But Master Marlowe hath too deep a reading i' the books of
+      nature to nail his heart upon a gilded weathercock. He is only desperate after the fashion of
+      a pearl diver. When he hath enough, he will desist—breathe freely, polish the shells, and
+      build Circean grottoes.</p>
+     <pb n="9"/>
+    </sp>
+    <sp>
+     <speaker>Hey.</speaker>
+     <p>Nay, he persisteth in <hi>not</hi> knowing her for a courtezan—talks of her purity in
+      burning words, that seem to glow and enhance his love from his convictions of her virtue; then
+      suddenly falls into silent abstraction, looking like a man whose eyes are filled with visions
+      of Paradise. No pains takes she to deceive him; for he supersedes the chance by deceiving
+      himself beyond measure. He either listens not at all to intimation, or insists the
+      contrary.</p>
+    </sp>
+    <sp>
+     <speaker>Middle.</speaker>
+     <p>This is his passionate aggravation or self will: he <hi>must</hi> know it.</p>
+    </sp>
+    <sp>
+     <speaker>Hey.</speaker>
+     <p> 'Tis my belief; but her beauty blinds him with its beams, and drives his exiled reason into
+      darkness.</p>
+    </sp>
+    <sp>
+     <speaker>Middle.</speaker>
+     <p>Here comes one that could enlighten his perception, methinks.</p>
+    </sp>
+    <sp>
+     <speaker>Hey.</speaker>
+     <p> Who's he? <stage>(looking off)</stage> Jack-o'-night, the tavern pander and
+      swashbuckler.</p>
+     <stage> Enter Jacconot,R. </stage>
+    </sp>
+    <sp>
+     <speaker>Jacconot.</speaker>
+     <p> Save ye, my masters; lusty thoughts go with ye, and a jovial full cup wait on your steps:
+      so shall your blood rise, and honest women pledge ye in their dreams ! </p>
+    </sp>
+    <sp>
+     <speaker>Middle.</speaker>
+     <p>Your weighty-pursed knowledge of women, balanced against your squinting knowledge of
+      honesty, Master Jack-o'-night, would come down to earth, methinks, as rapid as a fall from a
+      gallows-tree.</p>
+    </sp>
+    <sp>
+     <speaker>Jacco.</speaker>
+     <p>Well said, Master Middleton—a merry devil and a long-lived one run monkey-wise up your
+      backbone ! May your days be as happy as they're sober, and your nights full of applause ! May
+      no brawling mob pelt you, or your friends, when throned, nor hoot down your plays when your
+      soul's pinned like a cockchafer on public opinion ! May no learned or unlearned calf write
+      against your knowledge and wit, and no brother paper-stainer pilfer your pages, and then call
+      you a general thief! Am I the only rogue and vagabond in the world ?</p>
+    </sp>
+    <sp>
+     <speaker>Middle.</speaker>
+     <p>I' faith, not: nay, an' thou wert, there would be no lack of them i' the next generation.
+      Thou might'st be the father of the race, being now the bodily
+      <pb n="10"/>type of it. The phases of thy villany are so numerous that, were they embodied,
+      they would break down the fatal tree which is thine inheritance, and cause a lack of cords for
+      the Thames shipping!</p>
+    </sp>
+    <sp>
+     <speaker>Jacco.</speaker>
+     <p>Don't choke me with compliments!</p>
+    </sp>
+    <sp>
+     <speaker>Hey.</speaker>
+     <p> <stage>(to Middleton)</stage> He seems right proud of this multiplied idea of his latter
+      end.</p>
+    </sp>
+    <sp>
+     <speaker>Jacco.</speaker>
+     <p>Ay; hanging's of high antiquity, and, thereto, of broad modern repute. The flag, the sign,
+      the fruit, the felon, and other high and mighty game, all hang; though the sons of ink and
+      sawdust try to stand apart, smelling civet, as one should say,—faugh! Jewelled caps, ermined
+      cloaks, powdered wigs, church bells, <hi>bona-roba</hi> bedgowns, gilded bridles, spurs,
+      shields, swords, harness, holy relics and salted hogs, all hang in glory! Pictures, too, of
+      rare value! Also music's ministrants,—the lute, the horn, the fiddle, the pipe, the gong, the
+      viol, the salt-box, the tambourine and the triangle, make a deadwall dream of festive
+      harmonies!</p>
+    </sp>
+    <sp>
+     <speaker>Middle.</speaker>
+     <p>Infernal discords, thou would'st say!</p>
+    </sp>
+    <sp>
+     <speaker>Jacco.</speaker>
+     <p> <stage>(rapidly)</stage> These are but few things among many! for 'scutcheons, scarecrows,
+      proclamations, the bird in a cage, the target for fools' wit, <hi>hic jacet</hi> tablets (that
+      is, lying ones), the King's Head and the Queen's Arms, ropes of onions, dried herbs, smoked
+      fish, holly boughs, hall lanthorns, framed piety texts, and adored frights of family
+      portraits, all hang! Likewise corkscrews, cat-skins, glittering trophies, sausage links,
+      shining icicles, the crucifix, and the skeleton in chains. There, we all swing, my masters!
+      Tut! hanging's a high Act of Parliament privilege!—a Star-Chamber Garter-right !</p>
+    </sp>
+    <sp>
+     <speaker>Middle.</speaker>
+     <p> <stage>(to Heywood laughingly)</stage> The devil's seed germinates with reptile rapidity,
+      and blossoms and fructifies in the vinous fallows of this bully's brain!</p>
+    </sp>
+    <sp>
+     <speaker>Jacco.</speaker>
+     <p> I tell thee what <stage>(looking off, L.)</stage> another time!<stage> Exit Jacconot,
+      hastily, L.</stage> </p>
+    </sp>
+    <sp>
+     <speaker>Hey.</speaker>
+     <p>I breathe fresh air!</p>
 
-            </div>
-            <div type="scene">
-                <stage type="setting"> Scene Second.—Gravel Lane; Bankside. </stage>
-                <stage> Enter Heywood and Middleton, L. </stage>
-                <sp>
-                <speaker>Middleton .</speaker>
-                <p>And yet it may end well, after his fit is over.</p>
-                </sp><sp>
-                <speaker>Hey .</speaker>
-                <p>But he is earnest in it.</p>
-                </sp><sp>
-                <speaker>Middle .</speaker>
-                <p> Tis his habit: a little thunder clears the atmosphere. At present he is
-                    spell-bound, and smouldereth in a hot cloud of passion; but when he once makes
-                    his way, he will soon disperse his free spirit abroad over the inspired
-                    heavens.</p>
-                </sp><sp>
-                <speaker>Hey .</speaker>
-                <p>I fear me she will sow quick seed of feverish fancies in his mind that may go
-                    near to drive him mad.</p>
-                </sp><sp>
-                <speaker>Middle .</speaker>
-                <p> How so ? He knoweth her for what she is, as well as for what she was;—the high
-                    spirited and once virtuous wife of the drunkard Bengough. You remember him ?</p>
-                </sp><sp>
-                <speaker>Hey .</speaker>
-                <p>I have seen him i' the mire. 'Twas his accustomed bed o' nights—and mornings,
-                    too—many a time. He preferred <hi>that</hi> to the angel he left at home. Some
-                    men do. 'Tis a sorrow to think upon.</p>
-                </sp><sp>
-                <speaker>Middle .</speaker>
-                <p>And one that tears cannot wash! But Master Marlowe hath too deep a reading i' the
-                    books of nature to nail his heart upon a gilded weathercock. He is only
-                    desperate after the fashion of a pearl diver. When he hath enough, he will
-                    desist—breathe freely, polish the shells, and build Circean grottoes.</p>
-                <pb n="9"/>
-                </sp><sp>
-                <speaker>Hey .</speaker>
-                <p>Nay, he persisteth in <hi>not</hi> knowing her for a courtezan—talks of her
-                    purity in burning words, that seem to glow and enhance his love from his
-                    convictions of her virtue; then suddenly falls into silent abstraction, looking
-                    like a man whose eyes are filled with visions of Paradise. No pains takes she to
-                    deceive him; for he supersedes the chance by deceiving himself beyond measure.
-                    He either listens not at all to intimation, or insists the contrary.</p>
-                </sp><sp>
-                <speaker>Middle .</speaker>
-                <p>This is his passionate aggravation or self will: he <hi>must</hi> know it.</p>
-                </sp><sp>
-                <speaker>Hey .</speaker>
-                <p> 'Tis my belief; but her beauty blinds him with its beams, and drives his exiled
-                    reason into darkness.</p>
-                </sp><sp>
-                <speaker>Middle .</speaker>
-                <p>Here comes one that could enlighten his perception, methinks.</p>
-                </sp><sp>
-                <speaker>Hey .</speaker>
-                <p> Who's he? <stage>(looking off)</stage> Jack-o'-night, the tavern pander and
-                    swashbuckler.</p>
-                <stage> Enter Jacconot,R. </stage>
-                </sp><sp>
-                <speaker>Jacconot .</speaker>
-                <p> Save ye, my masters; lusty thoughts go with ye, and a jovial full cup wait on
-                    your steps: so shall your blood rise, and honest women pledge ye in their dreams
-                    ! </p>
-                </sp><sp>
-                <speaker>Middle .</speaker>
-                <p>Your weighty-pursed knowledge of women, balanced against your squinting knowledge
-                    of honesty, Master Jack-o'-night, would come down to earth, methinks, as rapid
-                    as a fall from a gallows-tree.</p>
-                </sp><sp>
-                <speaker>Jacco .</speaker>
-                <p>Well said, Master Middleton—a merry devil and a long-lived one run monkey-wise up
-                    your backbone ! May your days be as happy as they're sober, and your nights full
-                    of applause ! May no brawling mob pelt you, or your friends, when throned, nor
-                    hoot down your plays when your soul's pinned like a cockchafer on public opinion
-                    ! May no learned or unlearned calf write against your knowledge and wit, and no
-                    brother paper-stainer pilfer your pages, and then call you a general thief! Am I
-                    the only rogue and vagabond in the world ?</p>
-                </sp><sp>
-                <speaker>Middle .</speaker>
-                <p>I' faith, not: nay, an' thou wert, there would be no lack of them i' the next
-                    generation. Thou might'st be the father of the race, being now the bodily <pb
-                        n="10"/>type of it. The phases of thy villany are so numerous that, were
-                    they embodied, they would break down the fatal tree which is thine inheritance,
-                    and cause a lack of cords for the Thames shipping!</p>
-                </sp><sp>
-                <speaker>Jacco .</speaker>
-                <p>Don't choke me with compliments!</p>
-                </sp><sp>
-                <speaker>Hey .</speaker>
-                <p>
-                    <stage>(to Middleton)</stage> He seems right proud of this multiplied idea of
-                    his latter end.</p>
-                </sp><sp>
-                <speaker>Jacco .</speaker>
-                <p>Ay; hanging's of high antiquity, and, thereto, of broad modern repute. The flag,
-                    the sign, the fruit, the felon, and other high and mighty game, all hang; though
-                    the sons of ink and sawdust try to stand apart, smelling civet, as one should
-                    say,—faugh! Jewelled caps, ermined cloaks, powdered wigs, church bells,
-                        <hi>bona-roba</hi> bedgowns, gilded bridles, spurs, shields, swords,
-                    harness, holy relics and salted hogs, all hang in glory! Pictures, too, of rare
-                    value! Also music's ministrants,—the lute, the horn, the fiddle, the pipe, the
-                    gong, the viol, the salt-box, the tambourine and the triangle, make a deadwall
-                    dream of festive harmonies!</p>
-                </sp><sp>
-                <speaker>Middle .</speaker>
-                <p>Infernal discords, thou would'st say!</p>
-                </sp><sp>
-                <speaker>Jacco .</speaker>
-                <p>
-                    <stage>(rapidly)</stage> These are but few things among many! for 'scutcheons,
-                    scarecrows, proclamations, the bird in a cage, the target for fools' wit,
-                        <hi>hic jacet</hi> tablets (that is, lying ones), the King's Head and the
-                    Queen's Arms, ropes of onions, dried herbs, smoked fish, holly boughs, hall
-                    lanthorns, framed piety texts, and adored frights of family portraits, all hang!
-                    Likewise corkscrews, cat-skins, glittering trophies, sausage links, shining
-                    icicles, the crucifix, and the skeleton in chains. There, we all swing, my
-                    masters! Tut! hanging's a high Act of Parliament privilege!—a Star-Chamber
-                    Garter-right !</p>
-                </sp><sp>
-                <speaker>Middle .</speaker>
-                <p>
-                    <stage>(to Heywood laughingly)</stage> The devil's seed germinates with reptile
-                    rapidity, and blossoms and fructifies in the vinous fallows of this bully's
-                    brain!</p>
-                </sp><sp>
-                <speaker>Jacco .</speaker>
-                <p> I tell thee what <stage>(looking off, L.)</stage> another time!<stage> Exit
-                        Jacconot, hastily, L.</stage>
-                </p>
-                </sp><sp>
-                <speaker>Hey .</speaker>
-                <p>I breathe fresh air!</p>
+    </sp>
+    <sp>
+     <speaker>Middle.</speaker>
+     <l>Look!—said I not so ? See whom 'tis he meets;</l>
+     <l>And with a lounging, loose, familiar air, </l>
+     <l>Cocking his cap, and setting his hand on's hip</l>
+     <pb n="11"/>
+     <l>Salutes with such free language as his action </l>
+     <l>And attitude explain!</l>
+    </sp>
+    <sp>
+     <speaker>Hey.</speaker>
+     <l>I grieve for Marlowe:</l>
+     <l>The more, since 'tis as certain he must haye</l>
+     <l>Full course of passion, as that its object's full </l>
+     <l>Of most unworthy elements.</l>
+    </sp>
+    <sp>
+     <speaker>Middle.</speaker>
+     <l>Unworthy,</l>
+     <l>Indeed, of such a form, if all be base.</l>
+     <l>But Nature, methinks, doth seldom so belie </l>
+     <l>The inward by the outward; seldom frame</l>
+     <l> A cheat so finish'd to ensnare the senses, </l>
+     <l>And break our faith in all substantial truth. <stage>Exeunt, R. </stage></l>
+     <stage> Enter Cecilia , L., followed by Jacconot.</stage>
+    </sp>
+    <sp>
+     <speaker>Jacco.</speaker>
+     <p>Well, well, Mistress St. Cecil; the money is all well enough—I object nothing to the
+      money.</p>
+    </sp>
+    <sp>
+     <speaker>Cecil.</speaker>
+     <p>Then, go your ways.</p>
+    </sp>
+    <sp>
+     <speaker>Jacco.</speaker>
+     <p>My ways are your ways—a murrain on your beauties—has your brain shot forth skylarks as your
+      eyes do sparks?</p>
+    </sp>
+    <sp>
+     <speaker>Cecil.</speaker>
+     <p>Go !—here is my purse.</p>
+    </sp>
+    <sp>
+     <speaker>Jacco.</speaker>
+     <p>I'll no more of't!—I have a mind to fling back what thou'st already given me for my
+      services.</p>
+    </sp>
+    <sp>
+     <speaker>Cecil.</speaker>
+     <p>Master Jacconot, I would have no further services from thee. If thou art not yet satisfied,
+      fetch the weight and scales, and I will cast my gold into it, and my dross besides—so shall I
+      be doubly relieved.</p>
+    </sp>
+    <sp>
+     <speaker>Jacco.</speaker>
+     <p>I say again—and the devil bear me fierce witness!—it is not gold I want, but rightful
+      favour; not silver, but sweet civility ; not dross, but due respect to my nonpareil value!
+      Bethink thee, Cecil—bethink thee of many things! Ay ! am not I the true gallant of my time ?
+      the great Glowworm and Will-o'-the-wisp—the life, the fortune, and the favourite of the
+      brightest among ye!</p>
+    </sp>
+    <sp>
+     <speaker>Cecilia.</speaker>
+     <p>Away !</p>
+    </sp>
+    <sp>
+     <speaker>Jacco.</speaker>
+     <p>Whither?</p>
+    </sp>
+    <sp>
+     <speaker>Cecil.</speaker>
+     <p>Anywhere, so it be distant, <stage>(crosses, L.)</stage> </p>
+    </sp>
+    <sp>
+     <speaker>Jacco.</speaker>
+     <p>What mean'st by discarding me, and why is it ? 'Slud! is this the right sort of return for
+      all my skilful activities, my adroit fascinations of young lords in drink, my tricks at dice,
+      cards, and dagger-play, not to speak too
+      <pb n="12"/>loudly of bets on bear-baits, soap-bubbles, and Shrovetide cocks; or my lies about
+      your beauty and temper? Have I not brought dukes and earls and reverend seniors, on tiptoe,
+      and softly whispering, for fear of "the world," right under the balcony of your window ?—O,
+      don't beat the dust with your fine foot ! These be good services, I think!</p>
+    </sp>
+    <sp>
+     <speaker>Cecil.</speaker>
+     <p> <stage>(half aside)</stage> Alas ! alas !—the world sees us only as bright, though baleful
+      stars, little knowing our painful punishments in the dark—our anguish in secret.</p>
+    </sp>
+    <sp>
+     <speaker>Jacco.</speaker>
+     <p>Are you thinking of me ?</p>
+    </sp>
+    <sp>
+     <speaker>Cecil.</speaker>
+     <p>Go !</p>
+    </sp>
+    <sp>
+     <speaker>Jacco.</speaker>
+     <p>Go !—a death's-head crown your pillow! May you dream of love, and wake and see that !</p>
+    </sp>
+    <sp>
+     <speaker>Cecil.</speaker>
+     <p>I had rather see't than you.</p>
+    </sp>
+    <sp>
+     <speaker>Jacco.</speaker>
+     <p>What's i' the wind,—nobleman, or gentleman, or a brain fancy—am not I at hand ? Are you mad
+      ?</p>
+    </sp>
+    <sp>
+     <speaker>Cecil.</speaker>
+     <p> <stage>(overcome)</stage> I'd gladly believe I have been so.</p>
+    </sp>
+    <sp>
+     <speaker>Jacco.</speaker>
+     <p>Good. I'm content you see me aright once more, and acknowledge yourself wrong.</p>
+    </sp>
+    <sp>
+     <speaker>Cecil.</speaker>
+     <p> <stage>(half aside, and tearfully)</stage> Oh, wrong indeed— very wrong—to my better
+      nature—my better nature.</p>
+    </sp>
+    <sp>
+     <speaker>Jacco.</speaker>
+     <p>And to me, too ! Bethink thee, I say, when last year, after the dance at Hampton, thou wert
+      enraged against the noble that slighted thee; and, flushed with wine, thou took'st me by the
+      ear, and mad'st me hand thee into thy coach, and get in beside thee, with a drawn sword in my
+      hand and a dripping trencher on my head, singing such songs, until ——</p>
+    </sp>
+    <sp>
+     <speaker>Cecil.</speaker>
+     <p>Earthworms and stone walls!</p>
+    </sp>
+    <sp>
+     <speaker>Jacco.</speaker>
+     <p>Hey ! what of them ?</p>
 
-                </sp><sp>
-                <speaker>Middle .</speaker>
-                <l>Look!—said I not so ? See whom 'tis he meets;</l>
-                <l>And with a lounging, loose, familiar air, </l>
-                <l>Cocking his cap, and setting his hand on's hip</l>
-                <pb n="11"/>
-                <l>Salutes with such free language as his action </l>
-                <l>And attitude explain!</l>
-                </sp><sp>
-                <speaker>Hey .</speaker>
-                <l>I grieve for Marlowe:</l>
-                <l>The more, since 'tis as certain he must haye</l>
-                <l>Full course of passion, as that its object's full </l>
-                <l>Of most unworthy elements.</l>
-                </sp><sp>
-                <speaker>Middle .</speaker>
-                <l>Unworthy,</l>
-                <l>Indeed, of such a form, if all be base.</l>
-                <l>But Nature, methinks, doth seldom so belie </l>
-                <l>The inward by the outward; seldom frame</l>
-                <l> A cheat so finish'd to ensnare the senses, </l>
-                <l>And break our faith in all substantial truth. <stage>Exeunt, R. </stage></l>
-                <stage> Enter Cecilia , L ., followed by Jacconot .</stage>
-                </sp><sp>
-                <speaker>Jacco .</speaker>
-                <p>Well, well, Mistress St. Cecil; the money is all well enough—I object nothing to
-                    the money.</p>
-                </sp><sp>
-                <speaker>Cecil .</speaker>
-                <p>Then, go your ways.</p>
-                </sp><sp>
-                <speaker>Jacco .</speaker>
-                <p>My ways are your ways—a murrain on your beauties—has your brain shot forth
-                    skylarks as your eyes do sparks?</p>
-                </sp><sp>
-                <speaker>Cecil .</speaker>
-                <p>Go !—here is my purse.</p>
-                </sp><sp>
-                <speaker>Jacco .</speaker>
-                <p>I'll no more of't!—I have a mind to fling back what thou'st already given me for
-                    my services.</p>
-                </sp><sp>
-                <speaker>Cecil .</speaker>
-                <p>Master Jacconot, I would have no further services from thee. If thou art not yet
-                    satisfied, fetch the weight and scales, and I will cast my gold into it, and my
-                    dross besides—so shall I be doubly relieved.</p>
-                </sp><sp>
-                <speaker>Jacco .</speaker>
-                <p>I say again—and the devil bear me fierce witness!—it is not gold I want, but
-                    rightful favour; not silver, but sweet civility ; not dross, but due respect to
-                    my nonpareil value! Bethink thee, Cecil—bethink thee of many things! Ay ! am not
-                    I the true gallant of my time ? the great Glowworm and Will-o'-the-wisp—the
-                    life, the fortune, and the favourite of the brightest among ye!</p>
-                </sp><sp>
-                <speaker>Cecilia .</speaker>
-                <p>Away !</p>
-                </sp><sp>
-                <speaker>Jacco .</speaker>
-                <p>Whither?</p>
-                </sp><sp>
-                <speaker>Cecil .</speaker>
-                <p>Anywhere, so it be distant, <stage>(crosses, L.)</stage>
-                </p>
-                </sp><sp>
-                <speaker>Jacco .</speaker>
-                <p>What mean'st by discarding me, and why is it ? 'Slud! is this the right sort of
-                    return for all my skilful activities, my adroit fascinations of young lords in
-                    drink, my tricks at dice, cards, and dagger-play, not to speak too <pb n="12"
-                    />loudly of bets on bear-baits, soap-bubbles, and Shrovetide cocks; or my lies
-                    about your beauty and temper? Have I not brought dukes and earls and reverend
-                    seniors, on tiptoe, and softly whispering, for fear of "the world," right under
-                    the balcony of your window ?—O, don't beat the dust with your fine foot ! These
-                    be good services, I think!</p>
-                </sp><sp>
-                <speaker>Cecil .</speaker>
-                <p>
-                    <stage>(half aside)</stage> Alas ! alas !—the world sees us only as bright,
-                    though baleful stars, little knowing our painful punishments in the dark—our
-                    anguish in secret.</p>
-                </sp><sp>
-                <speaker>Jacco .</speaker>
-                <p>Are you thinking of me ?</p>
-                </sp><sp>
-                <speaker>Cecil .</speaker>
-                <p>Go !</p>
-                </sp><sp>
-                <speaker>Jacco .</speaker>
-                <p>Go !—a death's-head crown your pillow! May you dream of love, and wake and see
-                    that !</p>
-                </sp><sp>
-                <speaker>Cecil .</speaker>
-                <p>I had rather see't than you.</p>
-                </sp><sp>
-                <speaker>Jacco .</speaker>
-                <p>What's i' the wind,—nobleman, or gentleman, or a brain fancy—am not I at hand ?
-                    Are you mad ?</p>
-                </sp><sp>
-                <speaker>Cecil .</speaker>
-                <p>
-                    <stage>(overcome)</stage> I'd gladly believe I have been so.</p>
-                </sp><sp>
-                <speaker>Jacco .</speaker>
-                <p>Good. I'm content you see me aright once more, and acknowledge yourself
-                    wrong.</p>
-                </sp><sp>
-                <speaker>Cecil .</speaker>
-                <p>
-                    <stage>(half aside, and tearfully)</stage> Oh, wrong indeed— very wrong—to my
-                    better nature—my better nature.</p>
-                </sp><sp>
-                <speaker>Jacco .</speaker>
-                <p>And to me, too ! Bethink thee, I say, when last year, after the dance at Hampton,
-                    thou wert enraged against the noble that slighted thee; and, flushed with wine,
-                    thou took'st me by the ear, and mad'st me hand thee into thy coach, and get in
-                    beside thee, with a drawn sword in my hand and a dripping trencher on my head,
-                    singing such songs, until ——</p>
-                </sp><sp>
-                <speaker>Cecil .</speaker>
-                <p>Earthworms and stone walls!</p>
-                </sp><sp>
-                <speaker>Jacco .</speaker>
-                <p>Hey ! what of them ?</p>
+    </sp>
+    <sp>
+     <speaker>Cecil.</speaker>
+     <l>I would that as the corporal Past they cover, </l>
+     <l>They could, at earnest bidding of the will,</l>
+     <l> Entomb in walls of darkness and devour</l>
+     <l>The hated retrospections of the mind, <stage>(crosses, R.)</stage> </l>
+    </sp>
+    <sp>
+     <speaker>Jacco.</speaker>
+     <l> <stage>(aside)</stage> Oho !—the lamps and saw-dust!—Here's foul play</l>
+     <l>And mischief in the market. Preaching varlet!</l>
+     <l>I'll find him out—I'll dog him ! </l>
+     <stage>Exit, L. </stage>
+    </sp>
+    <sp>
+     <speaker>Cecil.</speaker>
+     <l>Self disgust</l>
+     <l>Gnaws at the roots of being, and doth hang</l>
+     <pb n="13"/>
+     <l>A heavy sickness on the beams of day, </l>
+     <l>Making the atmosphere, which should exalt</l>
+     <l> Our contemplations, press us down to earth, </l>
+     <l>As though our breath had made it thick with plague. </l>
+     <l>That mar us from ourselves, and make our acts </l>
+     <l>Cursed! accursed be the freaks of Nature, </l>
+     <l>The scorn and loathing of our afterthoughts— </l>
+     <l>The finger-mark of Conscience, who, most treacherous, </l>
+     <l>Wakes to accuse, but slumber'd o'er the sin. <stage>Exit, R.</stage> </l>
+    </sp>
 
-                </sp><sp>
-                <speaker>Cecil .</speaker>
-                <l>I would that as the corporal Past they cover, </l>
-                <l>They could, at earnest bidding of the will,</l>
-                <l> Entomb in walls of darkness and devour</l>
-                <l>The hated retrospections of the mind, <stage>(crosses, R.)</stage>
-                </l>
-                </sp><sp>
-                <speaker>Jacco.</speaker>
-                <l>
-                    <stage>(aside)</stage> Oho !—the lamps and saw-dust!—Here's foul play</l>
-                <l>And mischief in the market. Preaching varlet!</l>
-                <l>I'll find him out—I'll dog him ! </l>
-                <stage>Exit, L. </stage>
-                </sp><sp>
-                <speaker>Cecil .</speaker>
-                <l>Self disgust</l>
-                <l>Gnaws at the roots of being, and doth hang</l>
-                <pb n="13"/>
-                <l>A heavy sickness on the beams of day, </l>
-                <l>Making the atmosphere, which should exalt</l>
-                <l> Our contemplations, press us down to earth, </l>
-                <l>As though our breath had made it thick with plague. </l>
-                <l>That mar us from ourselves, and make our acts </l>
-                <l>Cursed! accursed be the freaks of Nature, </l>
-                <l>The scorn and loathing of our afterthoughts— </l>
-                <l>The finger-mark of Conscience, who, most treacherous, </l>
-                <l>Wakes to accuse, but slumber'd o'er the sin. <stage>Exit, R.</stage>
-                </l></sp>
+   </div>
+   <div>
+    <stage type="setting">Scene third.- A Room in the Triple Tun, Blackfriars. Marlowe, Middleton,
+     and Gentlemen.</stage>
 
-            </div>
-            <div>
-                <stage type="setting">Scene third .- A Room in the Triple Tun, Blackfriars. Marlowe,
-                    Middleton, and Gentlemen.</stage>
+    <sp>
+     <speaker>A Gentleman.</speaker>
+     <l> I do rejoice to find myself among </l>
+     <l>The choicest spirits of the age : health, sirs !</l>
+     <l>I would commend your fame to future years, </l>
+     <l>But that I know ere this ye must be old </l>
+     <l>In the conviction, and that ye full oft </l>
+     <l>With sure posterity have shaken hands </l>
+     <l>Over the unstable bridge of present time.</l>
+    </sp>
+    <sp>
+     <speaker>Marl.</speaker>
+     <l>Not so : we write from the full heart within, </l>
+     <l>And leave posterity to find her own.</l>
+     <l>Health, sir!—your good deeds laurel you in heaven.</l>
+    </sp>
+    <sp>
+     <speaker>Middle. </speaker>
+     <l>'Twere best men left their fame to chance and fashion,</l>
+     <l>As birds bequeath their eggs to the sun's hatching,</l>
+     <l> Since Genius can make no will.</l>
+    </sp>
+    <sp>
+     <speaker>Marl.</speaker>
+     <l>Troth, can it !</l>
+     <l>But for the consequences of the deed, </l>
+     <l>What fires of blind fatality may catch them ! </l>
+     <l>Say, you do love a woman—do adore her— </l>
+     <l>You may embalm the memory of her worth </l>
+     <l> And chronicle her beauty to all time,</l>
+     <l> In words whereat great Jove himself might flush, </l>
+     <l>And feel Olympus tremble at his thoughts ;</l>
+     <l>Yet where is your security ? Some clerk </l>
+     <l>Wanting a foolscap, or some boy a kite, </l>
+     <l> Some housewife fuel, or some sportsman wadding</l>
+     <l> To wrap a ball (which hits the poet's brain</l>
+     <l> By merest accident) seizes your record,</l>
+     <l> And to the winds thus scatters all your will,</l>
+     <pb n="14"/>
+     <l>Or, rather, your will's object. Thus, our pride </l>
+     <l>Swings like a planet by a single hair,</l>
+     <l> Obedient to God's breath. More wine ! more wine ! </l>
+     <l>I preach—and I grow melancholy—wine!</l>
+     <stage> Enter Drawer , with a tankard, R. U. E.</stage>
+    </sp>
+    <sp>
+     <speaker>A Gentleman.</speaker>
+     <l><stage>(rising)</stage>. We're wending homeward— gentlemen, good night!</l>
+    </sp>
+    <sp>
+     <speaker>Marl.</speaker>
+     <l>Not yet—not yet—the night has scarce begun— </l>
+     <l>Nay, Master Heywood—Middleton, you'll stay! </l>
+     <l>Bright skies to those who go—high thoughts go with ye,</l>
+     <l>And constant youth!</l>
+    </sp>
+    <sp>
+     <speaker>Gentlemen.</speaker>
+     <l>We thank you, sir—good night!</l>
+     <stage> Exeunt Gentlemen, L. </stage>
+    </sp>
+    <sp>
+     <speaker>Hey.</speaker>
+     <l>Let's follow—'tis near morning.</l>
+    </sp>
+    <sp>
+     <speaker>Marl.</speaker>
+     <l>Do not go.</l>
+     <l>I'm ill at ease, touching a certain matter</l>
+     <l>I've taken to heart—don't speak oft—and besides </l>
+     <l>I have a sort of horror of my bed.</l>
+     <l>Last night a squadron charged me in a dream, </l>
+     <l>With Isis and Osiris at the flanks, </l>
+     <l>Towering and waving their colossal arms, </l>
+     <l>While in the van a fiery chariot roll'd, </l>
+     <l>Wherein a woman stood—I knew her well— </l>
+     <l>Who seem'd but newly risen from the grave ! </l>
+     <l>She whirl'd a javelin at me, and methought</l>
+     <l> I woke ; when, slowly at the foot o' the bed </l>
+     <l>The mist-like curtains parted, and upon me</l>
+     <l> Did learned Faustus look! He shook his head </l>
+     <l>With grave reproof, but more of sympathy,</l>
+     <l> As though his past humanity came o'er him—</l>
+     <l> Then went away with a low, gushing sigh, </l>
+     <l>That startled his own death-cold breast, and seem'd </l>
+     <l>As from a marble urn where passion's ashes</l>
+     <l>Their sleepless vigil keep. Well—perhaps they do.</l>
+     <l> <stage>(after a pause)</stage> Lived he not greatly ? Think what was his power!</l>
+     <l> All knowledge at his beck—the very Devil </l>
+     <l>His common slave. And, oh ! brought he not back, </l>
+     <pb n="15"/>
+     <l>Through the thick-million'd catacombs of ages, </l>
+     <l>Helen's unsullied loveliness to his arms ? </l>
+    </sp>
+    <sp>
+     <speaker>Middle.</speaker>
+     <l>So—let us have more wine, then!</l>
+    </sp>
+    <sp>
+     <speaker>Hey.</speaker>
+     <l>Spirit enough</l>
+     <l>Springs from thee, Master Marlowe—what need more ?</l>
+    </sp>
+    <sp>
+     <speaker>Marl.</speaker>
+     <l>Drawer ! lift up thy leaden poppy-head !</l>
+     <l>Up man!—where art ? The night seems wondrous hot !</l>
 
-                <sp>
-                <speaker>A Gentleman.</speaker>
-                <l> I do rejoice to find myself among </l>
-                <l>The choicest spirits of the age : health, sirs !</l>
-                <l>I would commend your fame to future years, </l>
-                <l>But that I know ere this ye must be old </l>
-                <l>In the conviction, and that ye full oft </l>
-                <l>With sure posterity have shaken hands </l>
-                <l>Over the unstable bridge of present time.</l>
-                </sp><sp>
-                <speaker>Marl .</speaker>
-                <l>Not so : we write from the full heart within, </l>
-                <l>And leave posterity to find her own.</l>
-                <l>Health, sir!—your good deeds laurel you in heaven.</l>
-                </sp><sp>
-                <speaker>Middle. </speaker>
-                <l>'Twere best men left their fame to chance and fashion,</l>
-                <l>As birds bequeath their eggs to the sun's hatching,</l>
-                <l> Since Genius can make no will.</l>
-                </sp><sp>
-                <speaker>Marl .</speaker>
-                <l>Troth, can it !</l>
-                <l>But for the consequences of the deed, </l>
-                <l>What fires of blind fatality may catch them ! </l>
-                <l>Say, you do love a woman—do adore her— </l>
-                <l>You may embalm the memory of her worth </l>
-                <l> And chronicle her beauty to all time,</l>
-                <l> In words whereat great Jove himself might flush, </l>
-                <l>And feel Olympus tremble at his thoughts ;</l>
-                <l>Yet where is your security ? Some clerk </l>
-                <l>Wanting a foolscap, or some boy a kite, </l>
-                <l> Some housewife fuel, or some sportsman wadding</l>
-                <l> To wrap a ball (which hits the poet's brain</l>
-                <l> By merest accident) seizes your record,</l>
-                <l> And to the winds thus scatters all your will,</l>
-                <pb n="14"/>
-                <l>Or, rather, your will's object. Thus, our pride </l>
-                <l>Swings like a planet by a single hair,</l>
-                <l> Obedient to God's breath. More wine ! more wine ! </l>
-                <l>I preach—and I grow melancholy—wine!</l>
-                <stage> Enter Drawer , with a tankard, R . U . E .</stage>
-                </sp><sp>
-                <speaker>A Gentleman.</speaker>
-                <l><stage>(rising)</stage>. We're wending homeward— gentlemen, good night!</l>
-                </sp><sp>
-                <speaker>Marl .</speaker>
-                <l>Not yet—not yet—the night has scarce begun— </l>
-                <l>Nay, Master Heywood—Middleton, you'll stay! </l>
-                <l>Bright skies to those who go—high thoughts go with ye,</l>
-                <l>And constant youth!</l>
-                </sp><sp>
-                <speaker>Gentlemen .</speaker>
-                <l>We thank you, sir—good night!</l>
-                <stage> Exeunt Gentlemen, L. </stage>
-                </sp><sp>
-                <speaker>Hey .</speaker>
-                <l>Let's follow—'tis near morning.</l>
-                </sp><sp>
-                <speaker>Marl .</speaker>
-                <l>Do not go.</l>
-                <l>I'm ill at ease, touching a certain matter</l>
-                <l>I've taken to heart—don't speak oft—and besides </l>
-                <l>I have a sort of horror of my bed.</l>
-                <l>Last night a squadron charged me in a dream, </l>
-                <l>With Isis and Osiris at the flanks, </l>
-                <l>Towering and waving their colossal arms, </l>
-                <l>While in the van a fiery chariot roll'd, </l>
-                <l>Wherein a woman stood—I knew her well— </l>
-                <l>Who seem'd but newly risen from the grave ! </l>
-                <l>She whirl'd a javelin at me, and methought</l>
-                <l> I woke ; when, slowly at the foot o' the bed </l>
-                <l>The mist-like curtains parted, and upon me</l>
-                <l> Did learned Faustus look! He shook his head </l>
-                <l>With grave reproof, but more of sympathy,</l>
-                <l> As though his past humanity came o'er him—</l>
-                <l> Then went away with a low, gushing sigh, </l>
-                <l>That startled his own death-cold breast, and seem'd </l>
-                <l>As from a marble urn where passion's ashes</l>
-                <l>Their sleepless vigil keep. Well—perhaps they do.</l>
-                <l>
-                    <stage>(after a pause)</stage> Lived he not greatly ? Think what was his
-                    power!</l>
-                <l> All knowledge at his beck—the very Devil </l>
-                <l>His common slave. And, oh ! brought he not back, </l>
-                <pb n="15"/>
-                <l>Through the thick-million'd catacombs of ages, </l>
-                <l>Helen's unsullied loveliness to his arms ? </l>
-                </sp><sp>
-                <speaker>Middle .</speaker>
-                <l>So—let us have more wine, then!</l>
-                </sp><sp>
-                <speaker>Hey .</speaker>
-                <l>Spirit enough</l>
-                <l>Springs from thee, Master Marlowe—what need more ?</l>
-                </sp><sp>
-                <speaker>Marl .</speaker>
-                <l>Drawer ! lift up thy leaden poppy-head !</l>
-                <l>Up man!—where art ? The night seems wondrous hot !</l>
+     <stage>(Marlowe throws open a window, l. c, that reaches down to the floor, and stands there,
+      looking out)</stage>
 
-                <stage>(Marlowe throws open a window, l. c, that reaches down to the floor, and
-                    stands there, looking out)</stage>
+    </sp>
+    <sp>
+     <speaker>Hey.</speaker>
+     <l> <stage>(to Middleton)</stage> The air flows in upon his heated face,</l>
+     <l>And he grows pale with looking at the stars ;</l>
+     <l>Thinking the while of many things in heaven.</l>
+    </sp>
+    <sp>
+     <speaker>Middle.</speaker>
+     <l>And some one on the earth—as fair to him—</l>
+     <l>For, lo you !—is't not she ? <stage>(pointing towards the open window </stage> </l>
+    </sp>
+    <sp>
+     <speaker>Hey.</speaker>
+     <l> The lady, folded</l>
+     <l>In the long mantle, coming down the street ?</l>
+    </sp>
+    <sp>
+     <speaker>Middle.</speaker>
+     <l>Let be ; we cannot help him.</l>
 
-                </sp><sp>
-                <speaker>Hey .</speaker>
-                <l>
-                    <stage>(to Middleton)</stage> The air flows in upon his heated face,</l>
-                <l>And he grows pale with looking at the stars ;</l>
-                <l>Thinking the while of many things in heaven.</l>
-                </sp><sp>
-                <speaker>Middle .</speaker>
-                <l>And some one on the earth—as fair to him—</l>
-                <l>For, lo you !—is't not she ? <stage>(pointing towards the open window </stage>
-                </l>
-                </sp><sp>
-                <speaker>Hey .</speaker>
-                <l> The lady, folded</l>
-                <l>In the long mantle, coming down the street ?</l>
-                </sp><sp>
-                <speaker>Middle .</speaker>
-                <l>Let be ; we cannot help him.</l>
+     <stage>(Heywood and Middleton retire apart—CEcilia is passing by the open window, R. to L
+     .)</stage>
 
-                <stage>(Heywood and Middleton retire apart—CEcilia is passing by the open window, R.
-                    to L .)</stage>
+    </sp>
+    <sp>
+     <speaker>Marl.</speaker>
+     <l>Stay awhile!—</l>
+     <l>One moment stay!</l>
+    </sp>
+    <sp>
+     <speaker>Cecil,</speaker>
+     <l> <stage>(pausing)</stage> That is not much to ask. <stage>(she steps in through the
+      window)</stage> </l>
+    </sp>
+    <sp>
+     <speaker>Marl.</speaker>
+     <l>Nor much for you to grant; but oh, to me</l>
+     <l>That moment is a circle without bounds,—</l>
+     <l>Because I see no end to my delight!</l>
+    </sp>
+    <sp>
+     <speaker>Cecil.</speaker>
+     <l>Oh, sir, you make me very sad at heart;</l>
+     <l>Let's speak no more of this. I am on my way</l>
+     <l>To walk beside the river.</l>
+    </sp>
+    <sp>
+     <speaker>Marl.</speaker>
+     <l>May I come ?</l>
+    </sp>
+    <sp>
+     <speaker>Cecil.</speaker>
+     <l>Ah, no; I'll go alone.</l>
+    </sp>
+    <sp>
+     <speaker>Marl.</speaker>
+     <l>'Tis dark and dismal—</l>
+     <l>Nor do I deem it safe!</l>
+    </sp>
+    <sp>
+     <speaker>Cecil.</speaker>
+     <l>What can harm me? </l>
+     <l>If not above, at least I am beyond</l>
+     <l>All common dangers. No, you shall not come.</l>
+     <pb n="16"/>
+     <l>I have some questions I would ask myself;</l>
+     <l>And in the sullen, melancholy flow</l>
+     <l>O'the unromantic Thames, that has heen witness </l>
+     <l>Of many tragical realities,</l>
+     <l>Bare of adornment as its cold stone stairs,</l>
+     <l>I may find sympathy, if not response. </l>
+    </sp>
+    <sp>
+     <speaker>Marl.</speaker>
+     <l>You find both here. I know thy real life;</l>
+     <l>We do not see the truth—or, O, how little!</l>
+     <l>Pure light sometimes through painted windows streams;</l>
+     <l>And, when all's dark around thee, thou art fair!</l>
+     <l>Thou bear'st within an ever-burning lamp, </l>
+     <l>To me more sacred than a vestal's shrine;</l>
+     <l>For she may be of heartless chastity, </l>
+     <l>False in all else, and proud of her poor ice, </l>
+     <l>As though 'twere fire suppress'd; but thou art good </l>
+     <l>For goodness' sake ;—true-hearted, loveable, </l>
+     <l>For truth and honour's sake; and such a woman, </l>
+     <l>That man who wins, the gods themselves may envy.</l>
+    </sp>
+    <sp>
+     <speaker>Cecil.</speaker>
+     <l> <stage>(going)</stage> Considering all things, this is bitter sweet.</l>
+    </sp>
+    <sp>
+     <speaker>Marl.</speaker>
+     <l> And I may come ? <stage>(following her)</stage></l>
+    </sp>
+    <sp>
+     <speaker>Cecilia.</speaker>
+     <l> <stage>(firmly)</stage> You shall not.</l>
+    </sp>
+    <sp>
+     <speaker>Marl.</speaker>
+     <l>I obey you.</l>
+    </sp>
+    <sp>
+     <speaker>Cecil.</speaker>
+     <l> <stage>(tenderly)</stage> Ah! Kit Marlowe,—</l>
+     <l>You think too much of me—and of yourself</l>
+     <l>Too little !</l>
+    </sp>
+    <sp>
+     <speaker>Marl.</speaker>
+     <l>Then I may —— <stage>(advancing)</stage> </l>
+    </sp>
+    <sp>
+     <speaker>Cecil.</speaker>
+     <l> <stage>(firmly)</stage> No—no!</l>
+    </sp>
+    <sp>
+     <speaker>Marl.</speaker>
+     <l>Wilt promise</l>
+     <l>To see me for one "good night" ere you sleep? </l>
+    </sp>
+    <sp>
+     <speaker> Cecil. </speaker>
+     <l>On my way home, I will.</l>
 
-                </sp><sp>
-                <speaker>Marl .</speaker>
-                <l>Stay awhile!—</l>
-                <l>One moment stay!</l>
-                </sp><sp>
-                <speaker>Cecil,</speaker>
-                <l>
-                    <stage>(pausing)</stage> That is not much to ask. <stage>(she steps in through
-                        the window)</stage>
-                </l>
-                </sp><sp>
-                <speaker>Marl .</speaker>
-                <l>Nor much for you to grant; but oh, to me</l>
-                <l>That moment is a circle without bounds,—</l>
-                <l>Because I see no end to my delight!</l>
-                </sp><sp>
-                <speaker>Cecil .</speaker>
-                <l>Oh, sir, you make me very sad at heart;</l>
-                <l>Let's speak no more of this. I am on my way</l>
-                <l>To walk beside the river.</l>
-                </sp><sp>
-                <speaker>Marl .</speaker>
-                <l>May I come ?</l>
-                </sp><sp>
-                <speaker>Cecil .</speaker>
-                <l>Ah, no; I'll go alone.</l>
-                </sp><sp>
-                <speaker>Marl .</speaker>
-                <l>'Tis dark and dismal—</l>
-                <l>Nor do I deem it safe!</l>
-                </sp><sp>
-                <speaker>Cecil .</speaker>
-                <l>What can harm me? </l>
-                <l>If not above, at least I am beyond</l>
-                <l>All common dangers. No, you shall not come.</l>
-                <pb n="16"/>
-                <l>I have some questions I would ask myself;</l>
-                <l>And in the sullen, melancholy flow</l>
-                <l>O'the unromantic Thames, that has heen witness </l>
-                <l>Of many tragical realities,</l>
-                <l>Bare of adornment as its cold stone stairs,</l>
-                <l>I may find sympathy, if not response. </l>
-                </sp><sp>
-                <speaker>Marl.</speaker>
-                <l>You find both here. I know thy real life;</l>
-                <l>We do not see the truth—or, O, how little!</l>
-                <l>Pure light sometimes through painted windows streams;</l>
-                <l>And, when all's dark around thee, thou art fair!</l>
-                <l>Thou bear'st within an ever-burning lamp, </l>
-                <l>To me more sacred than a vestal's shrine;</l>
-                <l>For she may be of heartless chastity, </l>
-                <l>False in all else, and proud of her poor ice, </l>
-                <l>As though 'twere fire suppress'd; but thou art good </l>
-                <l>For goodness' sake ;—true-hearted, loveable, </l>
-                <l>For truth and honour's sake; and such a woman, </l>
-                <l>That man who wins, the gods themselves may envy.</l>
-                </sp><sp>
-                <speaker>Cecil.</speaker>
-                <l>
-                    <stage>(going)</stage> Considering all things, this is bitter sweet.</l>
-                </sp><sp>
-                <speaker>Marl.</speaker>
-                <l> And I may come ? <stage>(following her)</stage></l>
-                </sp><sp>
-                <speaker>Cecilia.</speaker>
-                <l>
-                    <stage>(firmly)</stage> You shall not.</l>
-                </sp><sp>
-                <speaker>Marl.</speaker>
-                <l>I obey you.</l>
-                </sp><sp>
-                <speaker>Cecil .</speaker>
-                <l>
-                    <stage>(tenderly)</stage> Ah! Kit Marlowe,—</l>
-                <l>You think too much of me—and of yourself</l>
-                <l>Too little !</l>
-                </sp><sp>
-                <speaker>Marl .</speaker>
-                <l>Then I may —— <stage>(advancing)</stage>
-                </l>
-                </sp><sp>
-                <speaker>Cecil .</speaker>
-                <l>
-                    <stage>(firmly)</stage> No—no!</l>
-                </sp><sp>
-                <speaker>Marl .</speaker>
-                <l>Wilt promise</l>
-                <l>To see me for one "good night" ere you sleep? </l>
-                </sp><sp>
-                <speaker> Cecil. </speaker>
-                <l>On my way home, I will.</l>
+     <stage>(she turns to look at him — then steps through the window — Exit to L.)</stage>
 
-                <stage>(she turns to look at him — then steps through the window — Exit to
-                    L.)</stage>
+    </sp>
+    <sp>
+     <speaker>Marl.</speaker>
+     <l>Be sure—be sure !</l>
 
-                </sp><sp>
-                <speaker>Marl .</speaker>
-                <l>Be sure—be sure !</l>
-
-                <stage>(Heywood and Middleton approach)</stage>
-                </sp><sp>
-                <speaker>Hey.</speaker>
-                <l> Now, Marlowe !—you desert us!</l>
-                </sp><sp>
-                <speaker>Marl .</speaker>
-                <l>Say not so ;—</l>
-                <l>Or, saying so, add—that I have lost myself!</l>
-                <l>Nay, but I <hi>have;</hi> yonder I go in the dark! <stage>(pointing after Cecilia
-                        )</stage>
-                </l>
-                <pb n="17"/>
-                <stage> Street Music. —Jacconot , singing outside. </stage>
-                <l>Ram out the link, boys; ho, boys !<note place="foot"> The inverted iron horns or
-                        tubes, a few of which still remain on lamp-posts and gates, were formerly
-                        used as extinguishers to the torches, which were thrust into them.</note>
-                </l>
-                <l>There's daylight in the sky!</l>
-                <l>While the trenchers strew the floor,</l>
-                <l> And the worn-out grey beards snore, </l>
-                <l>Jolly throats continue dry!</l>
-                <l>Ram out the link, boys, &amp;c.</l>
-
-
-                </sp><sp>
-                <speaker>Middle .</speaker>
-                <p>What voice is that ?</p>
-                </sp><sp>
-                <speaker>Marl .</speaker>
-                <p>
-                    <stage>(through his teeth)</stage> From one of the hells. </p>
-                </sp><sp>
-                <speaker>Hey. </speaker>
-                <p> The roystering singer approaches.</p>
-                <stage> Enter Jacconot , with a full tankard, L .</stage>
-                </sp><sp>
-                <speaker>Jacco .</speaker>
-                <p>Ever awake and shining, my masters ! and here am I, your twin lustre, always
-                    ready to herald and anoint your pleasures, like a true Master of the Revels. I
-                    ha' just stepped over the drawer's body, laid nose and heels together on the
-                    door-mat, asleep, and here's wherewith to continue the glory!</p>
-                </sp><sp>
-                <speaker>Middle .</speaker>
-                <p>We need not your help.</p>
-                </sp><sp>
-                <speaker>Hey .</speaker>
-                <p>We thank you, Jack-o'-night: we would be alone.</p>
-                </sp><sp>
-                <speaker>Jacco .</speaker>
-                <p>What say <hi>you,</hi> Master Marlowe ? you look as grim as a sign-painter's
-                    first sketch on a tavern bill after his ninth tankard.</p>
-                </sp><sp>
-                <speaker>Middle .</speaker>
-                <p>Cease your death-rattle, night-hawk !</p>
-                </sp><sp>
-                <speaker>Marl .</speaker>
-                <p>That's well said.</p>
-                </sp><sp>
-                <speaker>Jacco .</speaker>
-                <p>Is it ? So 'tis, my gallants—a night-bird like yourselves, am I.</p>
-                </sp><sp>
-                <speaker>Marl .</speaker>
-                <p>Beast!—we know you.</p>
-                </sp><sp>
-                <speaker>Jacco .</speaker>
-                <p>Your merry health, Master Kit Marlowe! I'll bring a loud pair of palms to cheer
-                    your soul the next time you strut in red paint with a wooden weapon at your
-                    thigh.</p>
-                </sp><sp>
-                <speaker>Marl .</speaker>
-                <p>Who sent for <hi>you,</hi> dorr-hawk ?—go!</p>
-                </sp><sp>
-                <speaker>Jacco .</speaker>
-                <p>Go! Aha!—I remember the word—same tone, same gesture—or as like as the two
-                    profiles of a monkey, or as two squeaks for one pinch. Go!—not I—here's to all
-                    your healths ! One pull more ! There, I've done— <pb n="18"/>take it, Master
-                    Marlowe; and pledge me as the true knight of London's rarest beauties !</p>
-                </sp><sp>
-                <speaker>Marl .</speaker>
-                <p>
-                    <stage>( L .)</stage> I will! <stage>(dashes the tankard at his head)</stage>
-                </p>
-                </sp><sp>
-                <speaker>Jacco .</speaker>
-                <p>
-                    <stage>(stooping quickly)</stage>. A miss, 'fore-gad !—the wall has got it! See
-                    where it trickles down like the long robe of some dainty fair one! And look you
-                    here—and there again, look you!—what make you of the picture he hath presented
-                    ?</p>
-
-                </sp><sp>
-                <speaker>Marl .</speaker>
-                <l>
-                    <stage>(staggers as he stares at the wall)</stage> O subtle Nature ! who hath so
-                    compounded</l>
-                <l>Our senses, playing into each other's wheels, </l>
-                <l>That feeling oft acts substitute for sight, </l>
-                <l>As sight becomes obedient to the thought— </l>
-                <l>How canst thou place such wonders at the mercy </l>
-                <l>Of every wretch that crawls? I feel—I see!</l>
-                <stage>(Street Music as before, but farther off)</stage>
+     <stage>(Heywood and Middleton approach)</stage>
+    </sp>
+    <sp>
+     <speaker>Hey.</speaker>
+     <l> Now, Marlowe !—you desert us!</l>
+    </sp>
+    <sp>
+     <speaker>Marl.</speaker>
+     <l>Say not so ;—</l>
+     <l>Or, saying so, add—that I have lost myself!</l>
+     <l>Nay, but I <hi>have;</hi> yonder I go in the dark! <stage>(pointing after Cecilia )</stage> </l>
+     <pb n="17"/>
+     <stage> Street Music. —Jacconot , singing outside. </stage>
+     <l>Ram out the link, boys; ho, boys !<note place="foot"> The inverted iron horns or tubes, a
+      few of which still remain on lamp-posts and gates, were formerly used as extinguishers to the
+      torches, which were thrust into them.</note> </l>
+     <l>There's daylight in the sky!</l>
+     <l>While the trenchers strew the floor,</l>
+     <l> And the worn-out grey beards snore, </l>
+     <l>Jolly throats continue dry!</l>
+     <l>Ram out the link, boys, &amp;c.</l>
 
 
-                </sp><sp>
-                <speaker>Jacco .</speaker>
-                <l>
-                    <stage>(singing)</stage>. Ram out the link, boys; ho, boys!</l>
-                <l>The blear-eyed morning's here;</l>
-                <l>Let us wander through the streets, </l>
-                <l>And kiss whoe'er one meets;</l>
+    </sp>
+    <sp>
+     <speaker>Middle.</speaker>
+     <p>What voice is that ?</p>
+    </sp>
+    <sp>
+     <speaker>Marl.</speaker>
+     <p> <stage>(through his teeth)</stage> From one of the hells. </p>
+    </sp>
+    <sp>
+     <speaker>Hey. </speaker>
+     <p> The roystering singer approaches.</p>
+     <stage> Enter Jacconot , with a full tankard, L.</stage>
+    </sp>
+    <sp>
+     <speaker>Jacco.</speaker>
+     <p>Ever awake and shining, my masters ! and here am I, your twin lustre, always ready to herald
+      and anoint your pleasures, like a true Master of the Revels. I ha' just stepped over the
+      drawer's body, laid nose and heels together on the door-mat, asleep, and here's wherewith to
+      continue the glory!</p>
+    </sp>
+    <sp>
+     <speaker>Middle.</speaker>
+     <p>We need not your help.</p>
+    </sp>
+    <sp>
+     <speaker>Hey.</speaker>
+     <p>We thank you, Jack-o'-night: we would be alone.</p>
+    </sp>
+    <sp>
+     <speaker>Jacco.</speaker>
+     <p>What say <hi>you,</hi> Master Marlowe ? you look as grim as a sign-painter's first sketch on
+      a tavern bill after his ninth tankard.</p>
+    </sp>
+    <sp>
+     <speaker>Middle.</speaker>
+     <p>Cease your death-rattle, night-hawk !</p>
+    </sp>
+    <sp>
+     <speaker>Marl.</speaker>
+     <p>That's well said.</p>
+    </sp>
+    <sp>
+     <speaker>Jacco.</speaker>
+     <p>Is it ? So 'tis, my gallants—a night-bird like yourselves, am I.</p>
+    </sp>
+    <sp>
+     <speaker>Marl.</speaker>
+     <p>Beast!—we know you.</p>
+    </sp>
+    <sp>
+     <speaker>Jacco.</speaker>
+     <p>Your merry health, Master Kit Marlowe! I'll bring a loud pair of palms to cheer your soul
+      the next time you strut in red paint with a wooden weapon at your thigh.</p>
+    </sp>
+    <sp>
+     <speaker>Marl.</speaker>
+     <p>Who sent for <hi>you,</hi> dorr-hawk ?—go!</p>
+    </sp>
+    <sp>
+     <speaker>Jacco.</speaker>
+     <p>Go! Aha!—I remember the word—same tone, same gesture—or as like as the two profiles of a
+      monkey, or as two squeaks for one pinch. Go!—not I—here's to all your healths ! One pull more
+      ! There, I've done—
+      <pb n="18"/>take it, Master Marlowe; and pledge me as the true knight of London's rarest
+      beauties !</p>
+    </sp>
+    <sp>
+     <speaker>Marl.</speaker>
+     <p> <stage>( L.)</stage> I will! <stage>(dashes the tankard at his head)</stage> </p>
+    </sp>
+    <sp>
+     <speaker>Jacco.</speaker>
+     <p> <stage>(stooping quickly)</stage>. A miss, 'fore-gad !—the wall has got it! See where it
+      trickles down like the long robe of some dainty fair one! And look you here—and there again,
+      look you!—what make you of the picture he hath presented ?</p>
 
-                <l> St. Cecil is my dear!</l>
-                <l>Ram out the link, boys, &amp;c.</l>
-                </sp><sp>
-                <speaker>Marl .</speaker>
-                <l>
-                    <stage>(drawing)</stage> Lightning come up from hell and strangle thee!</l>
-                </sp><sp>
-                <speaker>Middle and Hey..</speaker>
-                <l> Nay, Marlowe! Marlowe ! <stage>(they hold him back)</stage>
-                </l>
-                </sp><sp>
-                <speaker>Middle .</speaker>
-                <l>
-                    <stage>(to Jacconot)</stage> Away, thou bestial villain !</l>
-                </sp><sp>
-                <speaker>Jacco .</speaker>
-                <l>
-                    <stage>(singing at Marlowe)</stage>. St Cecil is my dear!</l>
-                </sp><sp>
-                <speaker>Marl .</speaker>
-                <l>
-                    <stage>(furiously)</stage> Blast! blast and scatter</l>
-                <l>Thy body to ashes ! Off! I'll have his ghost!</l>
-
-                <stage>(rushes at Jacconot — they fight —Marlowe disarms him; but Jacconot wrests
-                    Marlowe's own sword from his hand, and stabs him —Marlowe falls)</stage>
-                </sp><sp>
-                <speaker>Middle .</speaker>
-                <l>See! see!</l>
-                </sp><sp>
-                <speaker>Marl .</speaker>
-                <l>
-                    <stage>(clasping his forehead)</stage> Who's down ?—answer me, friends—is't I
-                    ?—</l>
-                <pb n="19"/>
-                <l>Or in the maze of some delirious trance, </l>
-                <l>Some realm unknown, or passion newly born— </l>
-                <l>Ne'er felt before—am I transported thus ?</l>
-                <l>My fingers paddle, too, in blood—is't mine ?</l>
-                </sp><sp>
-                <speaker>Jacco .</speaker>
-                <p>Oh, content you, Master Marplot—'tis you that's down, drunk or sober; and that's
-                    your own blood on your fingers, running from a three-inch groove in your ribs
-                    for the devil's imps to slide into you. Ugh! cry gramercy! for it's all over
-                    with your rhyming!</p>
-
-                </sp><sp>
-                <speaker>Hey .</speaker>
-                <l>O, heartless mischief!</l>
-                </sp><sp>
-                <speaker>Middle .</speaker>
-                <l>Hence, thou rabid cur!</l>
-                </sp><sp>
-                <speaker>Marl .</speaker>
-                <l>What demon in the air with unseen arm</l>
-                <l>Hath turn'd my unchain'd fury against myself?</l>
-                <l>Recoiling dragon! thy resistless force </l>
-                <l>Scatters thy mortal master in his pride,</l>
-                <l> To teach him, with self-knowledge, to fear thee. </l>
-                <l>Forgetful of ail corporal conditions, </l>
-                <l>My passion hath destroy'd me!</l>
-
-                </sp><sp>
-                <speaker>Jacco .</speaker>
-                <p>No such matter; it was <hi>my</hi> doing. You shouldn't ha' ran at me in that
-                    fashion with a real sword—I thought it had been one o' your sham ones.</p>
-
-                </sp><sp>
-                <speaker>Middle .</speaker>
-                <l> Away! </l>
-                </sp><sp>
-                <speaker>Hey .</speaker>
-                <l>See! his face changes—lift him up!</l>
-                <l>
-                    <stage>(they raise and support him)</stage> Here—place your hand upon his
-                    side—here, here— </l>
-                <l>Close over mine, and staunch the flowing wound!</l>
-                </sp><sp>
-                <speaker>Marl .</speaker>
-                <l>
-                    <stage>(delirious)</stage> Bright is the day—the air with glory teems—</l>
-                <l>And eagles wanton in the smile of Jove:</l>
-                <l>Can these things be, and Marlowe live no more!</l>
-                <l>Oh, Heywood! Heywood ! I had a world of hopes </l>
-                <l>About that woman—now in my heart they rise </l>
-                <l>Confused, as flames from my life's coloured map,</l>
-                <l> That burns until with wrinkling agony</l>
-                <l>Its ashes flatten, separate, and drift</l>
-                <l>Through gusty darkness. Hold me fast by the arm!</l>
-                <l>A little aid will save me:—See! she's here!</l>
-                <l>I clasp thy form—I feel thy breath, my love—</l>
-                <l> And know thee for a sweet saint come to save me! </l>
-                <l>Save !—is it death I feel—it cannot be death?</l>
-                <pb n="20"/>
-                </sp><sp>
-                <speaker>Jacco .</speaker>
-                <p>
-                    <stage>(half aside)</stage> Marry, but it can!—or else your sword's a foolish
-                    dog that dar'n't bite his owner.</p>
-                </sp><sp>
-                <speaker>Marl .</speaker>
-                <l>Oh, friends—clear friends—this is a sorry end—</l>
-                <l>A most unworthy end! To think—oh, God ! </l>
-                <l>To think that I should fall by the hand of one </l>
-                <l>Whose office, like his nature, is all baseness, </l>
-                <l>Gives Death ten thousand stings, and to the Grave </l>
-                <l>A damning victory! Fame sinks with life!</l>
-                <l>A galling—shameful—ignominious end! <stage>(sinks down)</stage>
-                </l>
-                <l> Oh, mighty heart! Oh, full and orbed heart, </l>
-                <l>Flee to thy kindred sun, rolling on high!</l>
-                <l>Or let the hoary and eternal sea</l>
-                <l>Sweep me away, and swallow body and soul!</l>
-                </sp><sp>
-                <speaker>Jacco .</speaker>
-                <p>There'll be no "encore" to either, I wot; for thou'st led an ill life, Master
-                    Marlowe ; and so the sweet Saint thou spok'st of, will remain my fair
-                    game—behind the scenes.</p>
-                </sp><sp>
-                <speaker>Marl .</speaker>
-                <l>Liar! slave ! sla—— Kind Master Heywood, </l>
-                <l>You will not see me die thus!—thus by the hand </l>
-                <l>And maddening tongue of such a beast as that !</l>
-                <l> Haste, if you love me—fetch a leech to help me— </l>
-                <l>Here—Middleton—sweet friend—a bandage here—</l>
-                <l> I cannot die by such a hand—I will not— </l>
-                <l>I say I will not die by that vile hand!</l>
-                <l>Go bring Cecilia to me—bring the leech— </l>
-                <l>Close—close this wound—you know I did it myself— </l>
-                <l>Bring sweet Cecilia—haste—haste—instantly— </l>
-                <l>Bring life and time—bring heaven!—Oh, I am dying!—</l>
-                <l>Some water—stay beside me—maddening death, </l>
-                <l>By such a hand! Oh villain I from the grave </l>
-                <l>I constantly will rise—to curse! curse! curse thee !</l>
-                <stage>(rises — and falls dead)</stage>
-                </sp><sp>
-                <speaker>Middle.</speaker>
-                <l> Terrible end!</l>
-                </sp><sp>
-                <speaker>Hey .</speaker>
-                <l>Oh, God !—he is quite gone!</l>
-
-                </sp><sp>
-                <speaker>Jacco .</speaker>
-                <p>
-                    <stage>(aghast)</stage> 'Twas dreadful—'twas! Christ help us ! and lull him to
-                    sleep in's grave. I stand up for mine own nature none the less, <stage>(voices
-                        without)</stage> What noise is that?</p>
-                <pb n="21"/>
-                <stage> Enter Officers, L. </stage>
-                </sp><sp>
-                <speaker>Chief Officer.</speaker>
-                <p> This is our man—ha! murder has been here! You are our prisoner—the gallows waits
-                    you!</p>
-                </sp><sp>
-                <speaker>Jacco .</speaker>
-                <p>What have I done to be hung up like a miracle ? The hemp's not sown nor the
-                    ladder-wood grown, that shall help fools to finish me! He did it himself! He
-                    said so with his last words!—there stand his friends and brother players—put
-                    them to their Testament if he said not he did it himself ?</p>
-                </sp><sp>
-                <speaker>Chief O .</speaker>
-                <l> Who is it lies here ?—methinks that I should know him,</l>
-                <l>But for the fierce distortion of his face!</l>
-                </sp><sp>
-                <speaker>Middle .</speaker>
-                <l>He who erewhile wrote with a brand of fire, </l>
-                <l>Now, in his passionate blood, floats tow'rds the grave! </l>
-                <l>The present time is ever ignorant—</l>
-                <l>We lack clear vision in our self-love's maze ;</l>
-                <l>But Marlowe in the future will stand great, </l>
-                <l>Whom this—the lowest caitiff in the world— </l>
-                <l>A nothing, save in grossness, hath destroy'd.</l>
-
-                </sp><sp>
-                <speaker>Jacco .</speaker>
-                <p>"Caitiff" back again in your throat! and "gross nothing" to boot—may you have it
-                    to live upon for a month, and die mad and starving! Would'st swear my life away
-                    so lightly ? Tut! who was he ? I could always find the soundings of a quart
-                    tankard, or empty a pasty in half his time, and swear as rare oaths between
-                    whiles—who was he ? I too ha' writ my odes and Pindar jigs with the twinkling of
-                    a bedpost, to the sound of the harp and hurdygurdy, while Capricornus wagged his
-                    fiery beard ; I ha' sung songs to the faint moon's echoes at daybreak, and
-                    danced here away and there away, like the lightning through a forest! As to your
-                    sword and dagger play, I've got the trick o' the eye and wrist—who was he ?
-                    What's all his gods—his goddesses and lies ?—the first a'nt worth a word; and
-                    for the two last, I was always a prince of both ! "Caitiff!" and " beast !" and
-                    "nothing !"—who was he ?</p>
-                </sp><sp>
-                <speaker>Chief O .</speaker>
-                <l> You're ours, for sundry villanies committed, </l>
-                <l>Sufficient each to bring your vice to an end: </l>
-                <l>The law hath got you safely in its grasp!</l>
-                <pb n="22"/>
-                </sp><sp>
-                <speaker>Jacco .</speaker>
-                <p>
-                    <stage>(after a pause)</stage> Then may Vice and I sit crown'd in heaven—while
-                    Law and Honesty stalk damned through hell! Now do I see the thing very
-                    plain!—treachery— treachery, my masters! I know the jade that hath betrayed me—I
-                    know her. 'Slud! who cares? She was a fine woman, too—a rare person—and a "good
-                    spirit; but there's an end of all now—she's turned foolish and virtuous, and a
-                    tell-tale, and I am to be turned to dust through it—long, long before my time ;
-                    and these princely limbs must go make a dirt-pie—build up a mud hut—or fatten an
-                    alderman's garden ! There ! calf-heads—there's a lemon for your mouths! Heard'st
-                    ever such a last dying speech and confession! Write it in red ochre on a sheet
-                    of Irish, and send it to Mistress Cecily for a deathwinder. I know what you've
-                    got against me—and I know you all deserve just the same yourselves—but lead on,
-                    my masters!<stage> Exeunt Jacconot and Officers, L.</stage>
-                </p>
-
-                </sp><sp>
-                <speaker>Middle .</speaker>
-                <l>Oh, Marlowe! canst thou rise with power no more?</l>
-                <l>Can greatness die thus ?</l>
-                </sp><sp>
-                <speaker>Hey .</speaker>
-                <l>
-                    <stage>(bending over the body)</stage> Miserable sight!</l>
-                <stage>( a shriek outside the house)</stage>
-                </sp><sp>
-                <speaker>Middle .</speaker>
-                <l>That cry! —what may that mean ?</l>
-                </sp><sp>
-                <speaker>Hey .</speaker>
-                <l>
-                    <stage>(as if awaking)</stage> I hear no cry.</l>
-                </sp><sp>
-                <speaker>Middle .</speaker>
-                <l>What is't comes hither, like a gust of wind ?</l>
-                <stage> Cecilia rushes in, L.</stage>
-                </sp><sp>
-                <speaker>Cecil .</speaker>
-                <l>Where—where ? Oh, then, 'tis true—and he is dead!</l>
-                <l>All's over now—there's nothing in the world— </l>
-                <l>For he who raised my heart up from the dust, </l>
-                <l>And show'd me noble lights in mine own soul, </l>
-                <l>Has fled my gratitude and growing love—</l>
-                <l> I never knew how deep it was till now !</l>
-                <l>Through me, too!—do not curse me !—I was the cause—</l>
-                <l>Yet do not curse me—No! no ! not the cause, </l>
-                <l>But that it happen'd so. This the reward </l>
-                <l> Of Marlowe's love!—why, why did I delay ? </l>
-                <l>Oh, gentlemen, pray for me! I have been </l>
-                <l> Lifted in heavenly air—and suddenly</l>
-                <pb n="23"/>
-                <l>The arm that placed me, and with strength sustain'd me,</l>
-                <l>Is snatch'd up, starward: I can neither follow, </l>
-                <l>Nor can I touch the gross earth any more !</l>
-                <l>Pray for me, gentlemen!—but breathe no blessings—</l>
-                <l> Let not a blessing sweeten your dread prayers— </l>
-                <l>I wish no blessings—nor could bear their weight;</l>
-                <l>For I am left I know not where or how:</l>
-                <l>But, pray for me—my soul is buried here.</l>
-                <stage>(sinks down upon the body)</stage>
-                </sp><sp>
-                <speaker>Middle .</speaker>
-                <l>"Cut is the branch that might have grown full straight,</l>
-                <l>"And burned is Apollo's laurel bough!"</l></sp>
-                <stage>(Solemn Music)</stage>
-                <stage>Dark Curtain</stage>
-         </div>
-        </body>
-        <back>
-            <div type="costume">
-                <head>Costumes .—Period, 1593.</head>
-<list type="gloss">
-                <label> Marlowe .</label>
-                <item>—A grey doublet and trunks, slashed with black ; grey hose, buff shoes, black
-                    and grey cloak, trencher cap, sword and belt, hair rather short, and
-                    moustache.</item>
-
-                <label>Heywood .</label>
-                <item>The same, of a different colour.</item>
-
-                <label>Middleton .</label>
-                <item>—Brown hose, trunks, and doublet, long overcoat, with slashed and falling
-                    sleeves, trencher cap.</item>
-
-                <label>Jacconot</label>
-                <item>—Old red doublet and trunks, black hose, and short boots, hair rather long
-                    (the whole appearance that of a poor and careless vagabond and bully), long
-                    rusty sword.</item>
-
-                <label>Cecilia .</label>
-                <item>—White dress, tight sleeves (full and puffed from the elbow), Mary Stuart cap,
-                    square-cut body.</item></list>
-
-                <trailer>Printed by Thomas Scott, Warwick Court, Holborn.</trailer>
-            </div>
-            <div type="liminal">
-                <head> Opinions Of Literati On Mr. R. H. Horne'S Dramatic Genius. </head>
-                <p> [The Publisher begs to state that, although all the following Opinions do not
-                    refer especially to the present Tragedy, he could greatly have added to the
-                    number with respect to this production.] </p>
-                <p> It is a masterly specimen of the concentration of a world of life, passion, and
-                    sympathy. If the old Globe, or Blackfriars Theatre, could suddenly be raised out
-                    of the ground, with those who just remembered the days of Marlowe for
-                    spectators, this were a piece to fill up an hour for them, to the content of
-                    their stout and truly refined souls;—souls that minced no matters in which
-                    humanity was discernible. We have to thank Mr. Horne for a great honour done to
-                    us, by the inscription of the work to our name.—Leigh Hunt. </p>
-                <p>In my humble opinion it contains the very salt of the Old Drama. I was delighted
-                    and surprised - Lord Lytton .</p>
-
-                <p> Mr. Horne is unlucky not to have lived in the reign of Queen Elizabeth. His
-                    dramas then would have been acted; and they now might have been reprinted, with
-                    notes and illustrations. No critic, in that case, would have objected that his
-                    language was so like that of the old dramatists: the critic would only have
-                    admired.—W. J. Fox.</p>
-                <p> There are finer things to be found in his writings than in any dramatist since
-                    the age of Elizabeth.—Robert Bell. </p>
-                <p>No one after reading his Gregory Vii., will doubt Mr. R. H. Horne'S capacity for
-                    the loftiest description of dramatic writing.—John Forster . [Examiner.]</p>
-
-                <p>Mr. R. H. Horne is a man of the most unquestionable genius.—G. H. Lewes .
-                    (Westminster Review, 184.)</p>
+    </sp>
+    <sp>
+     <speaker>Marl.</speaker>
+     <l> <stage>(staggers as he stares at the wall)</stage> O subtle Nature ! who hath so
+      compounded</l>
+     <l>Our senses, playing into each other's wheels, </l>
+     <l>That feeling oft acts substitute for sight, </l>
+     <l>As sight becomes obedient to the thought— </l>
+     <l>How canst thou place such wonders at the mercy </l>
+     <l>Of every wretch that crawls? I feel—I see!</l>
+     <stage>(Street Music as before, but farther off)</stage>
 
 
-                <p>Mr. R. H. Horne's noble dramas are not the mere wordy imitation of the elder
-                    dramatists, but kindred productions; inspired by a like vigorous and splendid
-                    imagination; alike guided by the instincts of a lofty genius ; at once
-                    penetrating and universal.—F. G. Tomlins' Brief View of the Drama. </p>
-                <p> The Death of Marlowe haunted me long after reading it, as though the actual
-                    scene of passion had really taken place in my own room, before my own eyes. It
-                    has extraordinary power.—Elizabeth Barrett Browning. </p>
-                <p>It is equally beautiful, dreadful, and pathetic. I read it through at a blow.
-                    Douglas Jerrold.</p>
-                <p> It seems to me very much what Kit Marlowe himself might have written of the
-                    violent death of some other great and wayward genius, under similar
-                    circumstances, had the idea struck him.—Mary Russell Mitford. </p>
-                <p> The Death of Marlowe is condensed to the utmost point. It is the very essence
-                    and sublimation of a tragedy; not a sketch or outline, be it observed, but the
-                    germ of gigantic nature. If lengthened, which it might be, all additions would
-                    ramify outwards from the vital spirit within .—The Author of Spirit of Modern
-                    Tragedy. </p>
-                <p> There is fire in it: you must fight and wrestle as for life, till you get it
-                    purified into " fire of the stars." Fight and conquer.—Thomas Carlyle </p>
-                <p> I had read it already, and with greater delight than any dramatic or other
-                    poetical work of the last twenty years.—Walter Savage Landor. </p>
-                <p> If the stage shall fall to decay, I shall deplore it, if it be only for the sake
-                    of what we shall lose in Mr. R. H. Horne, and in the younger genius (1844) of
-                    Robert Browning—a genius only yet dimly perceived, but deeply felt. And I am not
-                    sanguine for the cause of dramatic authors unless a race of actors shall arise
-                    to help them.—Sir Thomas Talfourd. </p>
-            </div>
-        </back>
-    </text>
+    </sp>
+    <sp>
+     <speaker>Jacco.</speaker>
+     <l> <stage>(singing)</stage>. Ram out the link, boys; ho, boys!</l>
+     <l>The blear-eyed morning's here;</l>
+     <l>Let us wander through the streets, </l>
+     <l>And kiss whoe'er one meets;</l>
+
+     <l> St. Cecil is my dear!</l>
+     <l>Ram out the link, boys, &amp;c.</l>
+    </sp>
+    <sp>
+     <speaker>Marl.</speaker>
+     <l> <stage>(drawing)</stage> Lightning come up from hell and strangle thee!</l>
+    </sp>
+    <sp>
+     <speaker>Middle and Hey..</speaker>
+     <l> Nay, Marlowe! Marlowe ! <stage>(they hold him back)</stage> </l>
+    </sp>
+    <sp>
+     <speaker>Middle.</speaker>
+     <l> <stage>(to Jacconot)</stage> Away, thou bestial villain !</l>
+    </sp>
+    <sp>
+     <speaker>Jacco.</speaker>
+     <l> <stage>(singing at Marlowe)</stage>. St Cecil is my dear!</l>
+    </sp>
+    <sp>
+     <speaker>Marl.</speaker>
+     <l> <stage>(furiously)</stage> Blast! blast and scatter</l>
+     <l>Thy body to ashes ! Off! I'll have his ghost!</l>
+
+     <stage>(rushes at Jacconot — they fight —Marlowe disarms him; but Jacconot wrests Marlowe's own
+      sword from his hand, and stabs him —Marlowe falls)</stage>
+    </sp>
+    <sp>
+     <speaker>Middle.</speaker>
+     <l>See! see!</l>
+    </sp>
+    <sp>
+     <speaker>Marl.</speaker>
+     <l> <stage>(clasping his forehead)</stage> Who's down ?—answer me, friends—is't I ?—</l>
+     <pb n="19"/>
+     <l>Or in the maze of some delirious trance, </l>
+     <l>Some realm unknown, or passion newly born— </l>
+     <l>Ne'er felt before—am I transported thus ?</l>
+     <l>My fingers paddle, too, in blood—is't mine ?</l>
+    </sp>
+    <sp>
+     <speaker>Jacco.</speaker>
+     <p>Oh, content you, Master Marplot—'tis you that's down, drunk or sober; and that's your own
+      blood on your fingers, running from a three-inch groove in your ribs for the devil's imps to
+      slide into you. Ugh! cry gramercy! for it's all over with your rhyming!</p>
+
+    </sp>
+    <sp>
+     <speaker>Hey.</speaker>
+     <l>O, heartless mischief!</l>
+    </sp>
+    <sp>
+     <speaker>Middle.</speaker>
+     <l>Hence, thou rabid cur!</l>
+    </sp>
+    <sp>
+     <speaker>Marl.</speaker>
+     <l>What demon in the air with unseen arm</l>
+     <l>Hath turn'd my unchain'd fury against myself?</l>
+     <l>Recoiling dragon! thy resistless force </l>
+     <l>Scatters thy mortal master in his pride,</l>
+     <l> To teach him, with self-knowledge, to fear thee. </l>
+     <l>Forgetful of ail corporal conditions, </l>
+     <l>My passion hath destroy'd me!</l>
+
+    </sp>
+    <sp>
+     <speaker>Jacco.</speaker>
+     <p>No such matter; it was <hi>my</hi> doing. You shouldn't ha' ran at me in that fashion with a
+      real sword—I thought it had been one o' your sham ones.</p>
+
+    </sp>
+    <sp>
+     <speaker>Middle.</speaker>
+     <l> Away! </l>
+    </sp>
+    <sp>
+     <speaker>Hey.</speaker>
+     <l>See! his face changes—lift him up!</l>
+     <l> <stage>(they raise and support him)</stage> Here—place your hand upon his side—here, here— </l>
+     <l>Close over mine, and staunch the flowing wound!</l>
+    </sp>
+    <sp>
+     <speaker>Marl.</speaker>
+     <l> <stage>(delirious)</stage> Bright is the day—the air with glory teems—</l>
+     <l>And eagles wanton in the smile of Jove:</l>
+     <l>Can these things be, and Marlowe live no more!</l>
+     <l>Oh, Heywood! Heywood ! I had a world of hopes </l>
+     <l>About that woman—now in my heart they rise </l>
+     <l>Confused, as flames from my life's coloured map,</l>
+     <l> That burns until with wrinkling agony</l>
+     <l>Its ashes flatten, separate, and drift</l>
+     <l>Through gusty darkness. Hold me fast by the arm!</l>
+     <l>A little aid will save me:—See! she's here!</l>
+     <l>I clasp thy form—I feel thy breath, my love—</l>
+     <l> And know thee for a sweet saint come to save me! </l>
+     <l>Save !—is it death I feel—it cannot be death?</l>
+     <pb n="20"/>
+    </sp>
+    <sp>
+     <speaker>Jacco.</speaker>
+     <p> <stage>(half aside)</stage> Marry, but it can!—or else your sword's a foolish dog that
+      dar'n't bite his owner.</p>
+    </sp>
+    <sp>
+     <speaker>Marl.</speaker>
+     <l>Oh, friends—clear friends—this is a sorry end—</l>
+     <l>A most unworthy end! To think—oh, God ! </l>
+     <l>To think that I should fall by the hand of one </l>
+     <l>Whose office, like his nature, is all baseness, </l>
+     <l>Gives Death ten thousand stings, and to the Grave </l>
+     <l>A damning victory! Fame sinks with life!</l>
+     <l>A galling—shameful—ignominious end! <stage>(sinks down)</stage> </l>
+     <l> Oh, mighty heart! Oh, full and orbed heart, </l>
+     <l>Flee to thy kindred sun, rolling on high!</l>
+     <l>Or let the hoary and eternal sea</l>
+     <l>Sweep me away, and swallow body and soul!</l>
+    </sp>
+    <sp>
+     <speaker>Jacco.</speaker>
+     <p>There'll be no "encore" to either, I wot; for thou'st led an ill life, Master Marlowe ; and
+      so the sweet Saint thou spok'st of, will remain my fair game—behind the scenes.</p>
+    </sp>
+    <sp>
+     <speaker>Marl.</speaker>
+     <l>Liar! slave ! sla—— Kind Master Heywood, </l>
+     <l>You will not see me die thus!—thus by the hand </l>
+     <l>And maddening tongue of such a beast as that !</l>
+     <l> Haste, if you love me—fetch a leech to help me— </l>
+     <l>Here—Middleton—sweet friend—a bandage here—</l>
+     <l> I cannot die by such a hand—I will not— </l>
+     <l>I say I will not die by that vile hand!</l>
+     <l>Go bring Cecilia to me—bring the leech— </l>
+     <l>Close—close this wound—you know I did it myself— </l>
+     <l>Bring sweet Cecilia—haste—haste—instantly— </l>
+     <l>Bring life and time—bring heaven!—Oh, I am dying!—</l>
+     <l>Some water—stay beside me—maddening death, </l>
+     <l>By such a hand! Oh villain I from the grave </l>
+     <l>I constantly will rise—to curse! curse! curse thee !</l>
+     <stage>(rises — and falls dead)</stage>
+    </sp>
+    <sp>
+     <speaker>Middle.</speaker>
+     <l> Terrible end!</l>
+    </sp>
+    <sp>
+     <speaker>Hey.</speaker>
+     <l>Oh, God !—he is quite gone!</l>
+
+    </sp>
+    <sp>
+     <speaker>Jacco.</speaker>
+     <p> <stage>(aghast)</stage> 'Twas dreadful—'twas! Christ help us ! and lull him to sleep in's
+      grave. I stand up for mine own nature none the less, <stage>(voices without)</stage> What
+      noise is that?</p>
+     <pb n="21"/>
+     <stage> Enter Officers, L. </stage>
+    </sp>
+    <sp>
+     <speaker>Chief Officer.</speaker>
+     <p> This is our man—ha! murder has been here! You are our prisoner—the gallows waits you!</p>
+    </sp>
+    <sp>
+     <speaker>Jacco.</speaker>
+     <p>What have I done to be hung up like a miracle ? The hemp's not sown nor the ladder-wood
+      grown, that shall help fools to finish me! He did it himself! He said so with his last
+      words!—there stand his friends and brother players—put them to their Testament if he said not
+      he did it himself ?</p>
+    </sp>
+    <sp>
+     <speaker>Chief O.</speaker>
+     <l> Who is it lies here ?—methinks that I should know him,</l>
+     <l>But for the fierce distortion of his face!</l>
+    </sp>
+    <sp>
+     <speaker>Middle.</speaker>
+     <l>He who erewhile wrote with a brand of fire, </l>
+     <l>Now, in his passionate blood, floats tow'rds the grave! </l>
+     <l>The present time is ever ignorant—</l>
+     <l>We lack clear vision in our self-love's maze ;</l>
+     <l>But Marlowe in the future will stand great, </l>
+     <l>Whom this—the lowest caitiff in the world— </l>
+     <l>A nothing, save in grossness, hath destroy'd.</l>
+
+    </sp>
+    <sp>
+     <speaker>Jacco.</speaker>
+     <p>"Caitiff" back again in your throat! and "gross nothing" to boot—may you have it to live
+      upon for a month, and die mad and starving! Would'st swear my life away so lightly ? Tut! who
+      was he ? I could always find the soundings of a quart tankard, or empty a pasty in half his
+      time, and swear as rare oaths between whiles—who was he ? I too ha' writ my odes and Pindar
+      jigs with the twinkling of a bedpost, to the sound of the harp and hurdygurdy, while
+      Capricornus wagged his fiery beard ; I ha' sung songs to the faint moon's echoes at daybreak,
+      and danced here away and there away, like the lightning through a forest! As to your sword and
+      dagger play, I've got the trick o' the eye and wrist—who was he ? What's all his gods—his
+      goddesses and lies ?—the first a'nt worth a word; and for the two last, I was always a prince
+      of both ! "Caitiff!" and " beast !" and "nothing !"—who was he ?</p>
+    </sp>
+    <sp>
+     <speaker>Chief O.</speaker>
+     <l> You're ours, for sundry villanies committed, </l>
+     <l>Sufficient each to bring your vice to an end: </l>
+     <l>The law hath got you safely in its grasp!</l>
+     <pb n="22"/>
+    </sp>
+    <sp>
+     <speaker>Jacco.</speaker>
+     <p> <stage>(after a pause)</stage> Then may Vice and I sit crown'd in heaven—while Law and
+      Honesty stalk damned through hell! Now do I see the thing very plain!—treachery— treachery, my
+      masters! I know the jade that hath betrayed me—I know her. 'Slud! who cares? She was a fine
+      woman, too—a rare person—and a "good spirit; but there's an end of all now—she's turned
+      foolish and virtuous, and a tell-tale, and I am to be turned to dust through it—long, long
+      before my time ; and these princely limbs must go make a dirt-pie—build up a mud hut—or fatten
+      an alderman's garden ! There ! calf-heads—there's a lemon for your mouths! Heard'st ever such
+      a last dying speech and confession! Write it in red ochre on a sheet of Irish, and send it to
+      Mistress Cecily for a deathwinder. I know what you've got against me—and I know you all
+      deserve just the same yourselves—but lead on, my masters!<stage> Exeunt Jacconot and Officers,
+      L.</stage> </p>
+
+    </sp>
+    <sp>
+     <speaker>Middle.</speaker>
+     <l>Oh, Marlowe! canst thou rise with power no more?</l>
+     <l>Can greatness die thus ?</l>
+    </sp>
+    <sp>
+     <speaker>Hey.</speaker>
+     <l> <stage>(bending over the body)</stage> Miserable sight!</l>
+     <stage>( a shriek outside the house)</stage>
+    </sp>
+    <sp>
+     <speaker>Middle.</speaker>
+     <l>That cry! —what may that mean ?</l>
+    </sp>
+    <sp>
+     <speaker>Hey.</speaker>
+     <l> <stage>(as if awaking)</stage> I hear no cry.</l>
+    </sp>
+    <sp>
+     <speaker>Middle.</speaker>
+     <l>What is't comes hither, like a gust of wind ?</l>
+     <stage> Cecilia rushes in, L.</stage>
+    </sp>
+    <sp>
+     <speaker>Cecil.</speaker>
+     <l>Where—where ? Oh, then, 'tis true—and he is dead!</l>
+     <l>All's over now—there's nothing in the world— </l>
+     <l>For he who raised my heart up from the dust, </l>
+     <l>And show'd me noble lights in mine own soul, </l>
+     <l>Has fled my gratitude and growing love—</l>
+     <l> I never knew how deep it was till now !</l>
+     <l>Through me, too!—do not curse me !—I was the cause—</l>
+     <l>Yet do not curse me—No! no ! not the cause, </l>
+     <l>But that it happen'd so. This the reward </l>
+     <l> Of Marlowe's love!—why, why did I delay ? </l>
+     <l>Oh, gentlemen, pray for me! I have been </l>
+     <l> Lifted in heavenly air—and suddenly</l>
+     <pb n="23"/>
+     <l>The arm that placed me, and with strength sustain'd me,</l>
+     <l>Is snatch'd up, starward: I can neither follow, </l>
+     <l>Nor can I touch the gross earth any more !</l>
+     <l>Pray for me, gentlemen!—but breathe no blessings—</l>
+     <l> Let not a blessing sweeten your dread prayers— </l>
+     <l>I wish no blessings—nor could bear their weight;</l>
+     <l>For I am left I know not where or how:</l>
+     <l>But, pray for me—my soul is buried here.</l>
+     <stage>(sinks down upon the body)</stage>
+    </sp>
+    <sp>
+     <speaker>Middle.</speaker>
+     <l>"Cut is the branch that might have grown full straight,</l>
+     <l>"And burned is Apollo's laurel bough!"</l>
+    </sp>
+    <stage>(Solemn Music)</stage>
+    <stage>Dark Curtain</stage>
+   </div>
+  </body>
+  <back>
+   <div type="costume">
+    <head>Costumes.—Period, 1593.</head>
+    <list type="gloss">
+     <label> Marlowe.</label>
+     <item>—A grey doublet and trunks, slashed with black ; grey hose, buff shoes, black and grey
+      cloak, trencher cap, sword and belt, hair rather short, and moustache.</item>
+
+     <label>Heywood.</label>
+     <item>The same, of a different colour.</item>
+
+     <label>Middleton.</label>
+     <item>—Brown hose, trunks, and doublet, long overcoat, with slashed and falling sleeves,
+      trencher cap.</item>
+
+     <label>Jacconot</label>
+     <item>—Old red doublet and trunks, black hose, and short boots, hair rather long (the whole
+      appearance that of a poor and careless vagabond and bully), long rusty sword.</item>
+
+     <label>Cecilia.</label>
+     <item>—White dress, tight sleeves (full and puffed from the elbow), Mary Stuart cap, square-cut
+      body.</item>
+    </list>
+
+    <trailer>Printed by Thomas Scott, Warwick Court, Holborn.</trailer>
+   </div>
+   <div type="liminal">
+    <head> Opinions Of Literati On Mr. R. H. Horne'S Dramatic Genius. </head>
+    <p> [The Publisher begs to state that, although all the following Opinions do not refer
+     especially to the present Tragedy, he could greatly have added to the number with respect to
+     this production.] </p>
+    <p> It is a masterly specimen of the concentration of a world of life, passion, and sympathy. If
+     the old Globe, or Blackfriars Theatre, could suddenly be raised out of the ground, with those
+     who just remembered the days of Marlowe for spectators, this were a piece to fill up an hour
+     for them, to the content of their stout and truly refined souls;—souls that minced no matters
+     in which humanity was discernible. We have to thank Mr. Horne for a great honour done to us, by
+     the inscription of the work to our name.—Leigh Hunt. </p>
+    <p>In my humble opinion it contains the very salt of the Old Drama. I was delighted and
+     surprised - Lord Lytton.</p>
+
+    <p> Mr. Horne is unlucky not to have lived in the reign of Queen Elizabeth. His dramas then
+     would have been acted; and they now might have been reprinted, with notes and illustrations. No
+     critic, in that case, would have objected that his language was so like that of the old
+     dramatists: the critic would only have admired.—W. J. Fox.</p>
+    <p> There are finer things to be found in his writings than in any dramatist since the age of
+     Elizabeth.—Robert Bell. </p>
+    <p>No one after reading his Gregory Vii., will doubt Mr. R. H. Horne'S capacity for the loftiest
+     description of dramatic writing.—John Forster. [Examiner.]</p>
+
+    <p>Mr. R. H. Horne is a man of the most unquestionable genius.—G. H. Lewes. (Westminster
+     Review, 184.)</p>
+
+
+    <p>Mr. R. H. Horne's noble dramas are not the mere wordy imitation of the elder dramatists, but
+     kindred productions; inspired by a like vigorous and splendid imagination; alike guided by the
+     instincts of a lofty genius ; at once penetrating and universal.—F. G. Tomlins' Brief View of
+     the Drama. </p>
+    <p> The Death of Marlowe haunted me long after reading it, as though the actual scene of passion
+     had really taken place in my own room, before my own eyes. It has extraordinary
+     power.—Elizabeth Barrett Browning. </p>
+    <p>It is equally beautiful, dreadful, and pathetic. I read it through at a blow. Douglas
+     Jerrold.</p>
+    <p> It seems to me very much what Kit Marlowe himself might have written of the violent death of
+     some other great and wayward genius, under similar circumstances, had the idea struck him.—Mary
+     Russell Mitford. </p>
+    <p> The Death of Marlowe is condensed to the utmost point. It is the very essence and
+     sublimation of a tragedy; not a sketch or outline, be it observed, but the germ of gigantic
+     nature. If lengthened, which it might be, all additions would ramify outwards from the vital
+     spirit within.—The Author of Spirit of Modern Tragedy. </p>
+    <p> There is fire in it: you must fight and wrestle as for life, till you get it purified into "
+     fire of the stars." Fight and conquer.—Thomas Carlyle </p>
+    <p> I had read it already, and with greater delight than any dramatic or other poetical work of
+     the last twenty years.—Walter Savage Landor. </p>
+    <p> If the stage shall fall to decay, I shall deplore it, if it be only for the sake of what we
+     shall lose in Mr. R. H. Horne, and in the younger genius (1844) of Robert Browning—a genius
+     only yet dimly perceived, but deeply felt. And I am not sanguine for the cause of dramatic
+     authors unless a race of actors shall arise to help them.—Sir Thomas Talfourd. </p>
+   </div>
+  </back>
+ </text>
 </TEI>
