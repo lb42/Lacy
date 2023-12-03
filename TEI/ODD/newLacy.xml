@@ -960,13 +960,18 @@ type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0" ?>
      </elementSpec>
 
      <elementSpec ident="note" mode="change">
-    <!--  <constraintSpec mode="add" ident="notePlacement" scheme="schematron">
-       <constraint>
-        <sch:assert test="parent::tei:div[@type='notes']" role="ERROR">Notes must be given out of
-         line and inside a div of type 'notes'</sch:assert>
-       </constraint>
-      </constraintSpec>-->
+  
       <attList>
+       <attDef ident="type" mode="change">
+        <datatype>
+         <dataRef key="teidata.enumerated"/>
+        </datatype>
+        <valList type="closed">
+         <valItem ident="ed"><desc>annotation or comment supplied by the encoder or editor</desc></valItem>
+         <valItem ident="orig"><desc>annotation in the original source</desc></valItem>
+         <valItem ident="add"><desc>manuscript or other annotation added to the original source</desc></valItem>
+        </valList>
+       </attDef>
        <attDef ident="anchored" mode="delete"/>
        <attDef ident="targetEnd" mode="delete"/>
       </attList>
