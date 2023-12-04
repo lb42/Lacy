@@ -283,12 +283,24 @@ type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0" ?>
       </remarks>
      </elementSpec>
      <elementSpec ident="div" mode="change">
-     
+      
+      <constraintSpec mode="add" ident="frontDivTypes" scheme="schematron">
+       <constraint>
+            <sch:rule context="tei:div"><sch:assert  test="not(parent::tei:front) or @type=('costume','liminal','programme')"
+         role="ERROR">Inside the front matter, div elements must be of type liminal or costume </sch:assert></sch:rule>
+       </constraint>    
+      </constraintSpec>    
+      
+      
         <attList>
         <attDef ident="type" mode="change">
+       
          <datatype>
           <dataRef key="teidata.enumerated"/>
          </datatype>
+         
+        
+     
          <valList type="closed" mode="replace">
           <valItem ident="act"/>
           <valItem ident="costume"/>
@@ -301,7 +313,7 @@ type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0" ?>
         </attDef>
        </attList>
             
-     
+       
      </elementSpec>
  
      <elementSpec ident="encodingDesc" mode="change">
@@ -860,39 +872,14 @@ type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0" ?>
         </quote></egXML>
       </exemplum>
      </elementSpec>
-     <elementSpec ident="front" mode="change">
+    <!-- <elementSpec ident="front" mode="change">
       <constraintSpec mode="add" ident="frontDivTypes" scheme="schematron">
        <constraint>
         <sch:assert  test="child::tei:div[@type='costume'] or child::tei:div[@type='liminal']"
          role="ERROR">Inside the front matter, div elements must be of liminal or costume type</sch:assert>
        </constraint>
-      </constraintSpec>
-     <!-- <exemplum>
-       <egXML xmlns="http://www.tei-c.org/ns/Examples">
-        <front>
-         <div type="titlePage">
-          <p>Bucura Dumbravă</p>
-          <p>HAIDUCUL</p>
-          <p>Tradus</p>
-          <p>de</p>
-          <p>Teodor Nica</p>
-          <p>ediția a IV-a</p>
-          <p>București</p>
-          <p>Editura Librăriei Școlelor C. Sfetea</p>
-          <p>63-64, - Calea Moșilor, - 62-64</p>
-          <p>1919</p>
-         </div>
-         <div type="liminal">
-          <head>PREFAȚĂ LA EDȚIA ÎNTÂIA</head>
-          <p>Isvoarele, de cari m'am slujit la studiul vieții lin Iancu Jianu și a timpului său,
-           sunt cele următoare...</p>
-          <p>BUCURA DUMBRAVĂ.</p>
-          <p>București, 1911.</p>
-         </div>
-        </front>
-       </egXML>
-      </exemplum>-->
-     </elementSpec>
+      </constraintSpec>     
+     </elementSpec>-->
  <elementSpec ident="head" mode="change">
       <exemplum>
        <egXML xmlns="http://www.tei-c.org/ns/Examples">
