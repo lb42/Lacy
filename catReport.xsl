@@ -23,18 +23,12 @@
   <xsl:variable name="totVPP" select="count(//div/bibl[listRef/ref[starts-with(@target,'vpp')]])"/>
   
   <xsl:message>VPP:  <xsl:value-of select="count(//div/bibl[listRef/ref[starts-with(@target,'vpp')]])"/> links;  <xsl:value-of select="count(//div/bibl[listRef/ref[contains(@target,'-vpp')]])"/> local copies.</xsl:message>
-  <xsl:message>In the UM set digitized by Google:</xsl:message>
-  <xsl:message> <xsl:value-of select="count(//div/bibl[note[@type='UM_extent']])"/> UM extent notes</xsl:message>
-  <xsl:message> <xsl:value-of select="count(//div/bibl[note[@type='extent']])"/> Non-UM extent notes</xsl:message>
- <!-- <xsl:message> <xsl:value-of select="count(//div/bibl[not(note[contains(@type,'extent')])])"/> No extent notes</xsl:message>
- --> 
-  <xsl:message> <xsl:value-of select="count(//div/bibl[listRef/ref[contains(@target,'-um')]])"/> UM copies</xsl:message>
+  
+  <xsl:message> <xsl:value-of select="count(//div/bibl[note[@type='extent']])"/> extent notes</xsl:message>
+ 
   
   <xsl:for-each select="TEI/text/body/div/bibl">
-   <xsl:if test="not(note[@type='UM_extent']) and listRef/ref[contains(@target,'-um')]">
-    <xsl:message>Misplaced UMextent 
-     <xsl:value-of select="@xml:id"/></xsl:message>
-   </xsl:if>
+  
    
    
    <xsl:value-of select="@xml:id"/><xsl:text>, </xsl:text>
@@ -53,13 +47,19 @@
   </xsl:for-each>
   
 <!-- balance criterion : length -->
+  <xsl:message>Length distribution</xsl:message>
 <xsl:value-of select="$totVPP"/><xsl:text>, </xsl:text>
+ <xsl:message> <xsl:value-of select="count(//bibl[starts-with(@type,'1')])"/><xsl:text>, </xsl:text>
 <xsl:value-of select="count(//bibl[starts-with(@type,'1') and listRef/ref[starts-with(.,'VPP')]] )"/><xsl:text>, </xsl:text>
+  <xsl:value-of select="count(//bibl[starts-with(@type,'2')])"/><xsl:text>, </xsl:text>
   <xsl:value-of select="count(//bibl[starts-with(@type,'2') and listRef/ref[starts-with(.,'VPP')]] )"/><xsl:text>, </xsl:text>
+  <xsl:value-of select="count(//bibl[starts-with(@type,'3')])"/><xsl:text>, </xsl:text>
   <xsl:value-of select="count(//bibl[starts-with(@type,'3') and listRef/ref[starts-with(.,'VPP')]] )"/><xsl:text>, </xsl:text>
+  <xsl:value-of select="count(//bibl[starts-with(@type,'4')])"/><xsl:text>, </xsl:text>
   <xsl:value-of select="count(//bibl[starts-with(@type,'4') and listRef/ref[starts-with(.,'VPP')]] )"/><xsl:text>, </xsl:text>
+  <xsl:value-of select="count(//bibl[starts-with(@type,'5')])"/><xsl:text>, </xsl:text>
   <xsl:value-of select="count(//bibl[starts-with(@type,'5') and listRef/ref[starts-with(.,'VPP')]] )"/><xsl:text> </xsl:text>
-  
+  </xsl:message>
   
   
  </xsl:template>

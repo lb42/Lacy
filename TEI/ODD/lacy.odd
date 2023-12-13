@@ -83,8 +83,8 @@ type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0" ?>
      <classSpec ident="att.global.responsibility" type="atts" mode="delete"/>
      <classSpec ident="att.global.source" type="atts" mode="delete"/>
      <classSpec ident="att.internetMedia" type="atts" mode="delete"/>
-      <classSpec ident="att.naming" type="atts" mode="delete"/>
-     <classSpec ident="att.personal" type="atts" mode="delete"/>
+ <!--     <classSpec ident="att.naming" type="atts" mode="delete"/>
+-->     <classSpec ident="att.personal" type="atts" mode="delete"/>
   <classSpec ident="att.ranging" type="atts" mode="delete"/>
      <classSpec ident="att.spanning" type="atts" mode="delete"/>
      <classSpec ident="att.timed" type="atts" mode="delete"/>
@@ -95,6 +95,13 @@ type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0" ?>
   -->  
  
  <!-- next modifications for classes which provide some attributes we want and some we don't -->
+ 
+ <classSpec ident="att.naming" type="atts" mode="change">
+  <attList>
+   <attDef ident="nymRef" mode="delete"/>
+  </attList>
+ </classSpec>
+ 
  
  <classSpec ident="att.canonical" type="atts" mode="change">
   <attList>
