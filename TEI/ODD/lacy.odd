@@ -84,7 +84,8 @@ type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0" ?>
      <classSpec ident="att.global.source" type="atts" mode="delete"/>
      <classSpec ident="att.internetMedia" type="atts" mode="delete"/>
  <!--     <classSpec ident="att.naming" type="atts" mode="delete"/>
--->     <classSpec ident="att.personal" type="atts" mode="delete"/>
+-->    
+ <classSpec ident="att.personal" type="atts" mode="delete"/>
   <classSpec ident="att.ranging" type="atts" mode="delete"/>
      <classSpec ident="att.spanning" type="atts" mode="delete"/>
      <classSpec ident="att.timed" type="atts" mode="delete"/>
@@ -223,7 +224,7 @@ type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0" ?>
       <constraintSpec mode="add" ident="frontDivTypes" scheme="schematron">
        <constraint>
             <sch:rule context="tei:div"><sch:assert  test="not(parent::tei:front) or @type=('costume','liminal','programme')"
-         role="ERROR">Inside the front matter, div elements must be of type liminal or costume </sch:assert></sch:rule>
+         role="ERROR">Inside the front matter, div elements must be of type liminal or costume or programme</sch:assert></sch:rule>
        </constraint>    
       </constraintSpec>    
  <attList>
@@ -231,7 +232,7 @@ type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0" ?>
          <datatype>
           <dataRef key="teidata.enumerated"/>
          </datatype>
-                <valList type="closed" mode="replace">
+        <valList type="closed" mode="replace">
           <valItem ident="act"/>
           <valItem ident="costume"/>
           <valItem ident="liminal"/>
@@ -299,7 +300,7 @@ type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0" ?>
   <exemplum>  
    <egXML xmlns="http://www.tei-c.org/ns/Examples">
     <titleStmt>
-     <title n="anythingforachange">Anything for a Change</title>
+     <title n="anythingforachange">Anything for a Change: TEI edition</title>
      <author>Brooks, Shirley</author>
      <respStmt>
       <resp>Curated by</resp>
