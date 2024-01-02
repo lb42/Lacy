@@ -25,8 +25,8 @@
   
   <xsl:message>VPP:  <xsl:value-of select="count(//div/bibl[listRef/ref[starts-with(@target,'vpp')]])"/> links;  <xsl:value-of select="count(//div/bibl[listRef/ref[contains(@target,'-vpp')]])"/> local copies.</xsl:message>
   
-  <xsl:message> <xsl:value-of select="count(//div/bibl[note[@type='extent']])"/> extent notes</xsl:message>
- 
+ <!-- <xsl:message> <xsl:value-of select="count(//div/bibl[note[@type='extent']])"/> extent notes</xsl:message>
+--> 
   
   <xsl:for-each select="TEI/text/body/div/bibl">
   
