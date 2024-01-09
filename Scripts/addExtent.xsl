@@ -5,8 +5,12 @@
     xpath-default-namespace="http://www.tei-c.org/ns/1.0"   
     exclude-result-prefixes="xs t"
     version="2.0">
-         
-         <xsl:param name="extraFile">UMtitles.xml</xsl:param>
+
+  <!-- transfers data about extent (page count and range)  
+      from the UMtitles.xml file into the catalogue -->
+  
+  
+      <xsl:param name="extraFile">UMtitles.xml</xsl:param>
     
         <xsl:template match="/ | @* | node()">
             <xsl:copy>

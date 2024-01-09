@@ -3,6 +3,9 @@
  xmlns:xs="http://www.w3.org/2001/XMLSchema"
  exclude-result-prefixes="xs" xpath-default-namespace="http://www.tei-c.org/ns/1.0"
  version="2.0">
+
+  <!-- reports on current state of catalogue; regenerates file digitizations.xml -->
+  
  <xsl:template match="/">
   <xsl:variable name="root" select="."/>
   <xsl:variable name="totLAE" select="count($root//div/bibl)"/> 
@@ -24,23 +27,8 @@
   <xsl:variable name="totVPP" select="count(//div/bibl[listRef/ref[starts-with(@target,'vpp')]])"/>
   
   <xsl:message>VPP:  <xsl:value-of select="count(//div/bibl[listRef/ref[starts-with(@target,'vpp')]])"/> links;  <xsl:value-of select="count(//div/bibl[listRef/ref[contains(@target,'-vpp')]])"/> local copies.</xsl:message>
-  
- <!-- <xsl:message> <xsl:value-of select="count(//div/bibl[note[@type='extent']])"/> extent notes</xsl:message>
---> 
-  
-  <xsl:for-each select="TEI/text/body/div/bibl">
-  
-   
-   
-   <xsl:value-of select="@xml:id"/><xsl:text>, </xsl:text>
-   <xsl:for-each select="listRef/ref">
-    <xsl:value-of select="normalize-space(.)"/><xsl:text>, </xsl:text>
-    <xsl:if test="starts-with(@target,'local:')">
-     <xsl:value-of select="substring-before(substring-after(@target,'-'),'.pdf')"/><xsl:text>, </xsl:text></xsl:if>
-   </xsl:for-each>
-  <xsl:text>
-</xsl:text></xsl:for-each>
-  
+
+  <xsl:message>Digitizations from...</xsl:message>
   <xsl:for-each select="distinct-values(//*:ref/@target[starts-with(.,'local:')]/substring-before(substring-after(.,'-'),'.pdf'))">
    <xsl:sort/>
    <xsl:variable name="f" select="concat('-', ., '.pdf')"/>
@@ -62,6 +50,17 @@
   <xsl:value-of select="count(//bibl[starts-with(@type,'5') and listRef/ref[starts-with(.,'VPP')]] )"/><xsl:text> </xsl:text>
   </xsl:message>
   
+  <xsl:result-document href="digitizations.xml">
+  <xsl:for-each select="TEI/text/body/div/bibl">  
+   <xsl:value-of select="@xml:id"/><xsl:text>, </xsl:text>
+   <xsl:for-each select="listRef/ref">
+    <xsl:value-of select="normalize-space(.)"/><xsl:text>, </xsl:text>
+    <xsl:if test="starts-with(@target,'local:')">
+     <xsl:value-of select="substring-before(substring-after(@target,'-'),'.pdf')"/><xsl:text>, </xsl:text></xsl:if>
+   </xsl:for-each>
+  <xsl:text>
+</xsl:text></xsl:for-each>
+  </xsl:result-document>
   
  </xsl:template>
 </xsl:stylesheet>

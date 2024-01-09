@@ -5,9 +5,14 @@
  version="2.0">
  <xsl:output omit-xml-declaration="yes" method="text"/>
  
- <!-- (a) produce shell script 'filecheck.sh' to check there is a file for each @target=local 
-      (b) report on file type usage
+ <!-- run 
+saxon catalogue.xml checkFiles.xsl to
+
+(a) produce shell script '$root/fileCheck.sh' to check 
+    the root directory contains a file for each @target=local 
+(b) report on location codes for digital versions
  -->
+ 
  <xsl:param name="root">/home/lou/Data/Lacy/</xsl:param>
  <xsl:variable name="outFile"><xsl:value-of select="concat($root,'fileCheck.sh')"/></xsl:variable>
  

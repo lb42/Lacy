@@ -5,6 +5,10 @@
  exclude-result-prefixes="xs"
  version="2.0">
 
+  <!-- generate listPerson for all named actors in TEI plays -->
+
+  <!-- &winita; -->
+  
  <xsl:template match="/">
   <xsl:variable name="context" select="."/>
    <listPerson xmlns="http://www.tei-c.org/ns/1.0">

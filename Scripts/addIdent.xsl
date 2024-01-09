@@ -4,7 +4,8 @@
  xmlns:a="http://www.abbyy.com/FineReader_xml/FineReader10-schema-v1.xml"
  xmlns:t="http://www.tei-c.org/ns/1.0" exclude-result-prefixes="xs a t" version="2.0">
 
- 
+  <!-- adds an @xml:id derived from the filename to the root TEI -->
+  
 
  <xsl:output xpath-default-namespace="http://www.tei-c.org/ns/1.0"/>
 

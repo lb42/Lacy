@@ -5,6 +5,8 @@
  xpath-default-namespace="http://www.tei-c.org/ns/1.0"
  xmlns:e="http://distantreading.net/eltec/ns" exclude-result-prefixes="xs e t" version="2.0">
 
+<!-- adds a code for size to existing @type values on bibl --> 
+  
  <xsl:template match="/ | @* | node()">
   <xsl:copy>
    <xsl:apply-templates select="@* | node()"/>
@@ -12,7 +14,8 @@
  </xsl:template>
 
  <xsl:template match="div/bibl[not(@status='replaced')][not(@status='nf')]">
-  <bibl xmlns="http://www.tei-c.org/ns/1.0">
+
+   <bibl xmlns="http://www.tei-c.org/ns/1.0">
    <xsl:apply-templates select="@*"/>
   
    <xsl:variable name="pp">

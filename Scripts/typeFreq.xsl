@@ -10,17 +10,21 @@
   <xsl:variable name="samp" select="count(//t:div/t:bibl[@status='TEI-0'])"/>
 
   <xsl:message><xsl:value-of select="concat('pop is ',$pop,' samp is ',$samp)"/></xsl:message>
-  <xsl:for-each select="distinct-values(//t:div/t:bibl[not(@status='nf') and not(@status='replaced')]/substring-before(@type,'_'))">
+
+<!--  <xsl:for-each select="tokenize(//t:div/t:bibl[not(@status='nf') and not(@status='replaced')]/@type">
+    <xsl:message><xsl:value-of select="."/></xsl:message>
+-->
+  <xsl:for-each select="distinct-values(//t:div/t:bibl[not(@status='nf') and not(@status='replaced')]/substring-after(@type,'_'))">
    <xsl:sort/>
    <xsl:variable name="val" select="."/>
-   <xsl:variable name="count" select="count($context//t:bibl[starts-with(@type, $val)])"/>
+   <xsl:variable name="count" select="count($context//t:bibl[ends-with(@type, $val)])"/>
    
-   <xsl:variable name="percPop" select="number($count div $pop *100)"/>
-   <xsl:message><xsl:value-of select="concat($val,' occurs ',$count,' times, i.e. ',$percPop,' in LAE
+   <xsl:variable name="percPop" select="format-number($count div $pop *100, '##.##')"/>
+   <xsl:message><xsl:value-of select="concat($val,' occurs ',$count,' times, i.e. ',$percPop,' % of LAE
 ')"/></xsl:message>
    <xsl:variable name="count" select="count($context//t:bibl[@status='TEI-0'][starts-with(@type, $val)])"/>
-   <xsl:variable name="percSamp" select="$count div $samp *100"/>
-   <xsl:message><xsl:value-of select="concat($val,' occurs ',$count,' times i.e. ',$percSamp,' in TEI subset
+   <xsl:variable name="percSamp" select="format-number($count div $samp *100,'##.##')"/>
+   <xsl:message><xsl:value-of select="concat($val,' occurs ',$count,' times i.e. ',$percSamp,'% of TEI subset
     ')"/></xsl:message>
    
   </xsl:for-each>

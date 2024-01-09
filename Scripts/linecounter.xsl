@@ -2,7 +2,12 @@
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
  xmlns:xs="http://www.w3.org/2001/XMLSchema" exclude-result-prefixes="xs"  
  xpath-default-namespace="http://www.tei-c.org/ns/1.0" version="2.0">
- <xsl:output omit-xml-declaration="yes"/>
+  <xsl:output omit-xml-declaration="yes"/>
+
+<!-- lists the speaker codes used in a TEI format play
+    with the number of paras or lines and the total wordcount for each
+-->
+  
  
  <xsl:template match="/">
   
