@@ -15,6 +15,7 @@
                 <xsl:apply-templates select="@* | node()"/>
             </xsl:copy>
  </xsl:template>
+</xsl:stylesheet>
     
  <xsl:template match="div/bibl/note[@type='digitizations']">
       <xsl:variable name="currentBib" select="../@xml:id"/>

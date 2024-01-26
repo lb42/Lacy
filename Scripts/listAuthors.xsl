@@ -38,6 +38,7 @@
      </xsl:choose>
     </xsl:attribute>
    <persName> <xsl:value-of select="$a"/></persName>
+    <persName resp="Nicoll"><xsl:value-of select="upper-case($a)"/></persName>
    <writerOf><xsl:value-of select="$occurrences"/></writerOf> 
    </person><xsl:text>
 </xsl:text>
