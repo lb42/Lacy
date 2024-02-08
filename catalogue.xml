@@ -13,52 +13,19 @@
     <p>This is an enhanced and extended version of the catalogue of Lacy's Acting Edition originally
      created by the Victorian Plays Project (VPP), made by screen-scraping and re-encoding data
      archived at <ref target="http://victorian.nuigalway.ie/modx/index.php?id=64">the VPP_website at
-     NUI Galway</ref>. (These modernized PDFs are also available from <ref
+     NUI Galway</ref>.<note> (These modernized PDFs are also available from <ref
      target="https://www.yumpu.com/en/document/view/51111508/view-pdf-victorian-plays-project"
-     >YUMPU</ref>)</p>
+     >YUMPU</ref>)</note></p>
     <p>The catalogue has been cross-checked against several other contemporary sources. Various
      minor errors and inconsistencies have been corrected, and additional information added,
      particularly about available digitizations of the plays. </p>
-    <!-- <p>Copies of the Lacy Acting Editions are scattered across many research libraries. In some
-     cases, they also exist in digital form, usually as scanned page images. It is relatively easy
-     to recover details of a library's holdings from their online catalogue, for example by
-     searching for the string "Lacy's Acting Edition" or by specifying "Thomas Hailes Lacy" as
-     publisher. It is less easy to restrict the search to generally available digital versions as
-     there is still no reliable joint catalogue of digitized texts in major public collections,
-     combining the digital holdings of say the British Library, the Bodleian, and other UK
-     libraries, in the same way as has been done for many US libraries by the Hathi_Trust, or more
-     generally by the Internet Archive, and (to a certain extent) by Google Books. (A project at the
-     National Library of Scotland did set up such a site, under the name opentexts.world, a few
-     years back, but its status is currently unclear and unsupported.)
-     <!-\- as of this writing the results seem to have disappeared entirely and inexplicably from public view. One may speculate that this was because the software engineer responsible for the pilot project changed jobs, though which is cause and which effect is harder to determine) -\-></p>
-    <p>The ease with which the results of such searches can be obtained in a machine-tractable form
-     (rather then simply displayed on a web page) is also quite variable. One is usually forced to
-     fall back on web-scraping techniques to assemble a list of readily available links to digitized
-     copies of the Acting Editions, or tedious and repetitive cutting and pasting from one web page
-     to another. </p>
-    <p>The intention is to provide direct links to such digitizations where possible, or to a page
-     from which a digitization can be downloaded without former formality (e.g. from the Internet
-     Archive, which makes texts available in various formats), or with very little (e.g. from Google
-     Books, which requires the would be downloader to complete a Captcha test). Regrettably,
-     although 93 volumes of the Acting Edition have been digitized by Google for the University of
-     Michigan and <ref target="https://catalog.hathitrust.org/Record/000515120">catalogued by the
-     Hathi_Trust</ref> these versions are not generally available online, allegedly "due to
-     copyright restrictions". Why such restrictions apply to works published long before 1927 is
-     almost as mysterious as why they do not apparently apply to volumes 77, 93, or 97, all of which
-     are freely available from Google Books, if you know where to look. </p>
-    <p>Those 93 digitized volumes are however fully available if (a) you are (or appear to be)
-     located in the United States and if (b) you are a registered user logged into the Hathi_Trust
-     site. For that reason, and for that subset of humanity, I have included Hathi_Trust handles for
-     the individual volumes below. The rest of us can take consolation in the fact that for a
-     digitization exercise allegedly undertaken for preservation purposes, the results are
-     remarkably poor and in some cases unusable (pages are omitted, damaged, suffering from bleed
-     through, etc. etc.) </p>-->
+
 
     <p>Authors' names have been standardised, in the form "Surname, Forenames-or-initials" following
      the most frequent usage in cases of doubt. Square brackets are used to indicate that the author
      name contained within them is not attested on the titlepage of the work in question; the
      attribute <att>resp</att> is used to indicate the grounds for making the attribution, and takes
-     one of the following values: <list>
+     one of the following values: <list type="gloss">
      <item>btao: ("By The Author Of") the title is listed in a btao indication somewhere</item>
      <item>ATC: attribution is made in the Adelphi Theatre Catalog</item>
      <item>msnote: attribution is made by manuscript annotation on a library copy</item>
@@ -210,7 +177,7 @@
      </listRef></bibl>
 
     <bibl n="1.5" xml:id="L0005" type="S_1_Vaudeville"> <author>Bayly, Thomas Haynes</author> <title
-     n="theswisscottage">The Swiss Cottage, or Why Don't She Marry? </title> <title type="sub">A
+     n="theswisscottage">The Swiss Cottage; or, Why Don't She Marry? </title> <title type="sub">A
      Vaudeville in one act</title> <note type="firstPerf"><name>Royal Olympic Theatre</name><date
      notAfter="1837">[1837]</date></note> <note>date taken from Dicks edition</note><listRef>
      <ref target="ia:swisscottageorwh0000bayl">Internet Archive (from UW)</ref>
@@ -284,7 +251,7 @@
      <ref target="local:Vol01/L0011/L0011-um.pdf">UM original</ref>
      </listRef></bibl>
     <bibl status="TEI-0" n="1.12" xml:id="L0012" type="M_3_Drama"> <author>Brooks, Shirley</author>
-     <title n="thecreole">The Crèole; or, Love's Fetters</title> <title type="sub">An Original Drama
+     <title n="thecrèole">The Crèole; or, Love's Fetters</title> <title type="sub">An Original Drama
      in three acts</title> <note type="firstPerf"><name>Theatre Royal Lyceum</name><date
      notAfter="1847">8 Apr. 1847</date></note> <listRef>
      <ref target="vpp:Vol1xiiCreole.pdf">VPP_PDF</ref>
@@ -361,7 +328,7 @@
      Strand Theatre</name><date notAfter="1850">10 June 1850</date></note> </bibl>
     <!-- replaced in HT edition  by the following -->
     <bibl n="2.2" xml:id="L0017R" type="L_3_Drama"> <author>Dimond, William</author> <title
-     n="foundling">The foundling of the forest</title> <title type="sub">A Play in three acts
+     n="thefoundlingofthefore">The foundling of the forest</title> <title type="sub">A Play in three acts
      </title> <note type="firstPerf"><name>Theatre Royal, London</name></note> <note type="extent"
      >60 pp (UM copy: 47 - 107)</note><listRef type="localCopies">
      <ref target="local:Vol02/L0017/L0017R-um.pdf">UM original</ref>
@@ -402,7 +369,7 @@
      </listRef></bibl>
     <!-- replaced in HT edition by the following: -->
     <bibl n="2.5" xml:id="L0020R" type="M_2_Drama"> <author>Planché, J.R.</author><title
-     n="thetitle">The brigand</title><title type="sub">A romantic drama in two acts</title><note
+     n="thebrigand">The brigand</title><title type="sub">A romantic drama in two acts</title><note
      type="firstPerf"><name>Theatre Royal Drury Lane</name><date notAfter="1829"
      >1829</date></note><note type="extent">34 pp (UM copy: 155 - 189)</note><listRef
      type="localCopies">
@@ -549,7 +516,7 @@
      Marylebone Theatre</name><date notAfter="1848">4 December 1848</date></note> <note>Republished as L1248</note></bibl>
     <!-- replaced in HT by the following; -->
     <bibl n="3.6" xml:id="L0036R" type="S_1_Interlude"> <author>Kemble, Mrs Charles</author> <title
-     n="thedayafter">The day after the wedding, or a wife's first lesson </title> <title type="sub"
+     n="thedayafter">The day after the wedding; or, a wife's first lesson </title> <title type="sub"
      >An interlude in one act</title> <title type="source" n="#FR">Adapted from the
      French</title><note type="firstPerf"><name>Theatre Royal Covent Garden</name><date
      notAfter="1803">May 18th 1803</date></note> <note type="extent">18 pp (UM copy: 138 -
@@ -590,7 +557,7 @@
      <ref target="local:Vol03/L0039/L0039-um.pdf">UM original</ref>
      <ref target="local:Vol03/L0039/L0039-vpp.pdf">VPP original</ref>
      </listRef></bibl>
-    <bibl n="3.10" xml:id="L0040" type="S_2_extravagan"> <author resp="ATC">[Smith, Albert]</author>
+    <bibl n="3.10" xml:id="L0040" type="S_2_extravagan"> <author resp="nicoll">[TALFOURD, FRANCIS]</author><author resp="ATC">[Smith, Albert]</author>
      <title n="latarantula">La Tarantula; or, the Spider King</title> <title type="sub">An entirely
      new extravaganza, made up into an English dress from the best French materials, in two
      acts</title> <note type="firstPerf"><name>Royal Adelphi Theatre</name><date notAfter="1850">26
@@ -841,7 +808,7 @@
      <ref target="local:Vol05/L0065/L0065-um.pdf">UM original</ref>
      </listRef></bibl>
     <bibl status="TEI-0" n="5.6" xml:id="L0066" type="S_1_farce"> <author>Morton, John
-     Maddison</author> <title n="athumpinglegacy">A Thumping Legacy</title> <title type="sub">A
+     Maddison</author> <title n="thethumpinglegacy">A Thumping Legacy</title> <title type="sub">A
      farce in one act</title> <note type="firstPerf"><name>Theatre Royal, Drury Lane</name><date
      notAfter="1843">11 February 1843</date></note> <ptr target="proquest"/><note type="extent">17
      pp (UM copy: 150 - 167)</note><listRef type="localCopies">
@@ -1437,7 +1404,7 @@
      <ref target="local:Vol09/L0121/L0121-vpp.pdf">VPP original</ref>
      </listRef></bibl>
     <bibl n="9.2" xml:id="L0122" type="S__Pantomime"> <author>Blanchard, E.L.</author> <title
-     n="harlequinhudibras">Harlequin Hudibras! or, Old Dame Durden, and the Droll Days of the Merry
+     n="harlequinhudibras">Harlequin Hudibras; or, Old Dame Durden, and the Droll Days of the Merry
      Monarch</title> <title type="sub">A new grand poetical, historical, operatical, dramatical,
      anachronismatical, tragical, comical, pastoral, Christmas pantomime</title> <note
      type="firstPerf" resp="#nicoll"><name>Drury Lane</name><date notAfter="1852">27 Dec
@@ -3039,10 +3006,11 @@
      <ref target="local:Vol19/L0272/L0272-um.pdf">UM original</ref>
      <ref target="local:Vol19/L0272/L0272-vpp.pdf">VPP original</ref>
      </listRef></bibl>
-    <bibl n="19.3" xml:id="L0273" type="S__BurleExtravagan"> <author>Byron, Henry James</author>
-     <title n="bluebeardfromanewpoin...">Blue Beard! From a New Point of Hue</title> <title
-     type="sub">A Burlesque Extravaganza</title> <note type="firstPerf"><name>Theatre Royal New
-     Adelphi</name><date notAfter="1860">26 Dec. 1860?</date></note><note type="rate" n="special"/><note>Republished as L0729</note>
+    <bibl n="19.3" xml:id="L0273" type="S__BurleExtravagan"> <author>Planché,
+     J.R.</author> <title n="bluebeard">Blue Beard.</title> <title
+     type="sub">A Grand Musical, Comi-Tragical, Melo-Dramatic, Burlesque Burletta, in one act.</title> 
+     <note type="firstPerf"><name>Olympic</name>
+      <date notAfter="1839">1 Jan. 1839</date></note><note type="rate" n="special"/>
      <note type="extent">27 pp (UM copy: 72 - 99)</note><listRef type="localCopies">
      <ref target="local:Vol19/L0273/L0273-um.pdf">UM original</ref>
      </listRef></bibl>
@@ -3115,7 +3083,7 @@
      </listRef></bibl>
     <bibl n="19.11" xml:id="L0281" type="M_2_ComicExtravagan"> <author>Planché, J.R.</author> <title
      n="theprinceofhappyland">The Prince of Happy Land; or, the Fawn in the Forest</title> <title
-     type="sub">A New and Orignial Grand Comic Fairy Extravaganza in two acts</title><title
+     type="sub">A New and Original Grand Comic Fairy Extravaganza in two acts</title><title
      type="source" n="#FR">Founded on the Countess D'Anois's Popular Story "La Biche au
      Bois"</title> <note type="firstPerf"><name>Royal Lyceum Theatre</name><date notAfter="1851">26
      Dec. 1851</date></note> <note type="extent">37 pp (UM copy: 378 - 415)</note><listRef
@@ -4760,7 +4728,7 @@
      <ref target="local:Vol30/L0449/L0449-um.pdf">UM original</ref>
      </listRef></bibl>
     <bibl n="30.15" xml:id="L0450" type="M_2_Drama"> <author>Selby, Charles</author> <title
-     n="robertmacaire">Robert Macaire, or, Les Auberge des Adrets</title> <title type="sub">A Melo
+     n="robertmacaire">Robert Macaire; or, Les Auberge des Adrets</title> <title type="sub">A Melo
      Drama in two acts</title> <note type="firstPerf"><name>Victoria Theatre</name><date
      notAfter="1834">3 Dec. 1834</date></note> <note type="extent">32 pp (UM copy: 513 -
      545)</note><listRef type="localCopies">
@@ -4830,7 +4798,7 @@
      <ref target="local:Vol31/L0456/L0456-um.pdf">UM original</ref>
      </listRef></bibl>
     <bibl n="31.7" xml:id="L0457" type="M_2_Drama"> <author>Buckstone, John Baldwin</author> <title
-     n="thebearhunters">The Bear Hunters, or, The Fatal Ravine</title> <title type="sub">A Melo
+     n="thebearhunters">The Bear Hunters; or, The Fatal Ravine</title> <title type="sub">A Melo
      Drama in two acts</title> <note type="firstPerf"><name>Coburg</name><date resp="#nicoll"
      notAfter="1825">25 Apr 1825</date></note> <listRef>
      <ref target="https://hdl.handle.net/2027/iau.31858023996568">Hathi_Trust</ref>
@@ -5918,7 +5886,7 @@
      <ref target="local:Vol39/L0573/L0573-vpp.pdf">VPP original</ref>
      </listRef></bibl>
     <bibl n="39.4" xml:id="L0574" type="S_1_ComicDrama"> <author>Selby, Charles</author> <title
-     n="youngmother">Young Mother</title> <title type="sub">A Comic Drama in one act</title> <note
+     n="theyoungmother">The Young Mother</title> <title type="sub">A Comic Drama in one act</title> <note
      type="firstPerf"><name>Theatre Royal, Haymarket</name><date notAfter="1859">28 Feb.
      1859</date></note> <listRef>
      <ref target="ia:youngmothercomic00selbuoft">Internet Archive</ref>
@@ -9724,14 +9692,14 @@
      <ref target="local:Vol64/L0955/L0955-um.pdf">UM original</ref>
      </listRef></bibl>
     <bibl n="64.11" xml:id="L0956" type="M__Extravagan"> <author>Burnand, Francis C.</author> <title
-     n="cupidandpsyche">Cupid and Psyche, or, Beautiful as a Butterfly</title> <title type="sub">A
+     n="cupidandpsyche">Cupid and Psyche; or, Beautiful as a Butterfly</title> <title type="sub">A
      New and Original Extravaganza</title> <note type="firstPerf"><name>Royal Olympic
      Theatre</name><date notAfter="1864">26 Dec. 1864</date></note> <note type="extent">35 pp (UM
      copy: 490 - 525)</note><listRef type="localCopies">
      <ref target="local:Vol64/L0956/L0956-um.pdf">UM original</ref>
      </listRef></bibl>
     <bibl n="64.12" xml:id="L0957" type="M__Extravagan"> <author>Brough, William</author> <title
-     n="herculesandomphale">Hercules and Omphale, or, The Power of Love</title> <title type="sub">An
+     n="herculesandomphale">Hercules and Omphale; or, The Power of Love</title> <title type="sub">An
      Original Classical Extravaganza</title> <note type="firstPerf"><name>Royal St. James's
      Theatre</name><date notAfter="1864">26 Dec. 1864</date></note> <note type="extent">42 pp (UM
      copy: 526 - 568)</note><listRef type="localCopies">
@@ -10010,7 +9978,7 @@
      </listRef></bibl>
     <bibl n="66.13" xml:id="L0988" type="S_1_Farce"> <author>Brough,
      William</author><author>Halliday, Andrew</author> <title n="upstairsanddownstairs">Upstairs and
-     Downstairs, or, The Great Per-Centage Question</title> <title type="sub">A Farce in one
+     Downstairs; or, The Great Per-Centage Question</title> <title type="sub">A Farce in one
      act</title> <note type="firstPerf"><name>Royal Strand Theatre</name><date notAfter="1865">15
      May 1865</date></note> <listRef>
      <ref target="vpp:Vol66xiiiUpstairs.pdf">VPP_PDF</ref>
@@ -10346,8 +10314,8 @@
      </listRef><note type="extent">47 pp (UM copy: 224 - 271)</note><listRef type="localCopies">
      <ref target="local:Vol69/L1027/L1027-um.pdf">UM original</ref>
      </listRef></bibl>
-    <bibl n="69.8" xml:id="L1028" type="M_2_Drama"> <author>Pocock, John</author> <title
-     n="therobberswife">The Robber's Wife</title> <title type="sub">A Domestic Drama in two
+    <bibl n="69.8" xml:id="L1028" type="M_2_Drama"> <author>Pocock, Isaac</author> <title
+     n="therobberswife">The Robber's Wife</title> <title type="sub">A Romantic Domestic Drama in two
      acts</title> <note type="firstPerf"><name>Theatre Royal Covent Garden</name><date
      notAfter="1830">7 Jan. 1830</date>. Licenced for performance <ref type="ms"
      target="lcp:LCP_53023_G">LC ms</ref></note> <note type="extent">40 pp (UM copy: 273 -
@@ -11172,7 +11140,7 @@
     <bibl status="TEI-0" n="75.14" xml:id="L1124" type="S_2_Drama"> <author>Milner, H.M.</author>
      <title n="frankenstein">Frankenstein; or, The Man and the Monster</title> <title type="sub">A
      Romantic Melo-Drama in two acts</title><title type="source" n="#EN #FR">Founded Principally on
-     Mrs Shelley's Singular Work Entitled Frankenstein, or, The Modern Prometheus, and Partly on the
+     Mrs Shelley's Singular Work Entitled Frankenstein; or, The Modern Prometheus, and Partly on the
      French Piece "Le Magicien et le Monstre"</title> <note type="firstPerf"><name>Royal Coburg
      Theatre</name><date notAfter="1826">3 July 1826</date></note><note type="otherPerfs"
      resp="mullin">Lyceum, 1839, with Mr Norman; Sadlers Wells, Nov 1843 </note> <listRef>
@@ -12693,7 +12661,7 @@
      <ref target="local:Vol87/L1292/L1292-um.pdf">UM original</ref>
      </listRef></bibl>
     <bibl n="87.4" xml:id="L1293" type="M_3_Drama"> <author>Pitt, George Dibdin</author> <title
-     n="thebeggarsposition">The Beggar's Position; or, A Fatherless Love and a Motherless
+     n="thebeggarsposition">The Beggar's Petition; or, A Father's Love and a Mother's
      Care</title> <title type="sub">A Drama in three acts</title> <note type="firstPerf"><name>City
      Theatre</name><date notAfter="1841">18 Oct. 1841</date></note> <note type="extent">45 pp (UM
      copy: 110 - 155)</note><listRef type="localCopies">
@@ -13668,7 +13636,7 @@
      <ref target="local:Vol94/L1400/L1400-bl.pdf">Downloaded</ref>
      </listRef></bibl>
     <bibl n="94.8" xml:id="L1401" type="S_1_Burle"> <author>Dance, George</author> <title
-     n="luckystars">Lucky Stars; or, The Cobbler of Cripplegate!</title> <title type="sub">A
+     n="luckystars">The Lucky Stars; or, The Cobbler of Cripplegate!</title> <title type="sub">A
      Burletta in one act</title> <note type="firstPerf"><name>New Strand Theatre</name><date
      notAfter="1842">July 1842</date></note> <listRef>
      <ref target="ia:luckystarsorcobb00danc">Internet Archive</ref>
@@ -13698,14 +13666,14 @@
      </listRef><note type="extent">45 pp</note><listRef type="localCopies">
      <ref target="local:Vol94/L1405/L1405-nyp.pdf">Downloaded</ref>
      </listRef> </bibl>
-    <bibl n="94.13" xml:id="L1406" type="M_5_Tragedy"> <author>Souther, Thomas</author> <title
+    <bibl n="94.13" xml:id="L1406" type="M_5_Tragedy"> <author>Southerne, Thomas</author> <title
      n="isabella">Isabella; or, The Fatal Marriage</title> <title type="sub">A Tragedy in five
      acts</title> <note type="firstPerf"><name>Covent Garden</name><date notAfter="1824"
      >1824</date></note> <listRef>
      <ref target="https://hdl.handle.net/2027/mdp.39015091031636">Hathi_Trust</ref>
      </listRef><note type="extent">47 pp (12-58) </note><listRef type="localCopies">
      <ref target="local:Vol94/L1406/L1406-um.pdf">Downloaded</ref>
-     </listRef></bibl>
+     </listRef><note>Not found in Nicoll</note></bibl>
     <bibl n="94.14" xml:id="L1407" type="2_ComicOperaMusic" status="nf"> <author>Reece, R.</author>
      <title n="paquita">Paquita; or, Love in a Frame</title> <title type="sub">An Original Comic
      Opera in two acts</title><note type="music">The Music Composed by J.E. Mallandaine</note> <note
@@ -13837,7 +13805,7 @@
       >Google Books</ref>
      </listRef><note type="extent">54 pp </note><listRef type="localCopies">
      <ref target="local:Vol95/L1423/L1423-bl.pdf">Downloaded</ref>
-     </listRef></bibl>
+     </listRef><note>Not found in Nicoll</note></bibl>
    </div>
 
    <div type="volume" n="96/1879">
@@ -13853,7 +13821,7 @@
      n="mywifewhatwife">My Wife!- What Wife?</title> <title type="sub">A Farce in one actor two
      acts</title> <note type="firstPerf"><name>Drury Lane</name><date notAfter="1829">2 April
      1829</date></note> </bibl>
-    <bibl n="96.4" xml:id="L1427" type="1_Farce" status="nf"> <author>Douglas, John T.</author>
+    <bibl n="96.4" xml:id="L1427" type="1_Farce" status="nf"> <author>Douglass, John T.</author>
      <title n="achapterofaccidents">A Chapter of Accidents</title> <title type="sub">A Farce in one
      Act</title> <note type="firstPerf"><name>National Standard Theatre</name><date notAfter="1870"
      >14 Oct. 1870</date></note> </bibl>
@@ -14067,7 +14035,7 @@
      <ref target="local:Vol97/L1451/L1451-bl.pdf">Downloaded</ref>
      </listRef></bibl>
     <bibl n="97.14" xml:id="L1452" type="M_5_Play"> <author>Daly, Augustin</author> <title n="leah"
-     >Leah, The Forsaken</title> <title type="sub">A Play in five acts</title> <note
+     >Leah The Forsaken</title> <title type="sub">A Play in five acts</title> <note
      type="firstPerf"><name>Howard Athenæum, Boston</name><date notAfter="1862">9 Dec. 1862</date>.
      Licenced for performance <ref type="ms" target="lcp:LCP_53025_R">LC ms</ref></note> <listRef>
      <ref
@@ -14158,9 +14126,9 @@
      <note type="firstPerf"><name>Royal Adelphi Theatre</name><date notAfter="1873">10 March
      1873</date></note><note type="extent">24 pp; </note> </bibl>
     <bibl n="98.11" xml:id="L1464" type="M_1_Comedy" status="nf"> <author>Weatherley, Frederick
-     Edward</author><author>Weatherly, Alfred W. Moore</author> <title n="champagne"
+     Edward</author><author>Weatherley, Alfred W. Moore</author> <title n="champagne"
      >Champagne</title> <title type="sub">A Petite Comedy Adapted from the French</title> <note
-     type="firstPerf"><name>Unknown</name><date/></note><note type="extent">35 pp; </note> </bibl>
+     type="firstPerf"><name>Unknown</name><date/></note><note type="extent">35 pp; </note> <note>Not in Nicoll</note></bibl>
     <bibl n="98.12" xml:id="L1465" type="S_1_Drama" status="nf"> <author>Thompson, C.
      Pelham</author> <title n="thedumbsavoyard">The Dumb Savoyard, and His Monkey</title> <title
      type="sub">A Melo-Drama in one act</title> <note type="firstPerf" resp="#mullin"><name>Drury
@@ -14168,11 +14136,11 @@
     <bibl n="98.13" xml:id="L1466" type="S_1_Farce" status="nf"> <author>Poole, John</author> <title
      n="scapegoat">Scapegoat</title> <title type="sub">A Farce in one act</title> <note
      type="firstPerf"><name>Theatre Royal, Covent Garden</name><date notAfter="1825">25 Nov.
-     1825</date></note><note type="extent">22 pp; </note> </bibl>
+     1825</date></note><note type="extent">22 pp; </note> <note>Not in Nicoll.</note></bibl>
     <bibl n="98.14" xml:id="L1467" type="S_1_Comedietta" status="nf"> <author>Langbridge,
      Frederick</author> <title n="manproposes">"Man Proposes"</title> <title type="sub">An Original
      Comedietta in one Act</title> <note type="firstPerf"><name>Unknown</name><date/></note><note
-     type="extent">14 pp; </note> </bibl>
+     type="extent">14 pp; </note> <note>Not in Nicoll.</note></bibl>
     <bibl n="98.15" xml:id="L1468" type="M_3_Drama" status="nf"> <author>Amherst, J.H.</author>
      <title n="thebattleofwaterloo">The Battle of Waterloo</title> <title type="sub">A Grand
      Military Melo-Drama in three acts</title> <note type="firstPerf"><name>Astley's Royal
@@ -14206,7 +14174,7 @@
      <ref target="local:Vol99/L1471/L1471-hv.pdf">Downloaded</ref>
      </listRef> </bibl>
     <bibl n="99.4" xml:id="L1472" type="S_1_Farce"> <author>Spencer, George</author><author>James,
-     Walter</author> <title n="areturnticket">A Return Ticket</title> <title type="sub">An Original
+     Walter</author> <title n="areturnticket">A Return Ticket to the International Exhibition</title> <title type="sub">An Original
      Farce in one Act</title> <note type="firstPerf"><name>Royal St. James's Theatre</name><date
      notAfter="1862">11 August 1862</date></note> <listRef>
      <ref target="https://www.google.com/books/edition/A_Return_Ticket/M3FZI-8UA4gC">Google
@@ -14277,9 +14245,9 @@
      <ref target="https://hdl.handle.net/2027/osu.32435053533659">Hathi Trust</ref>
      </listRef><note type="extent">49 pp</note><listRef type="localCopies">
      <ref target="local:Vol99/L1482/L1482-osu.pdf">Downloaded</ref>
-     </listRef> </bibl>
+     </listRef><note>Not in Nicoll; OSU copy is from Dunscombe. </note> </bibl>
     <bibl n="99.15" xml:id="L1483" type="_Extravagan" status="nf"> <author>Byron, Henry
-     James</author> <title n="theenchantedwood">The Enchanted Wood, or, The Three Transformed
+     James</author> <title n="theenchantedwood">The Enchanted Wood; or, The Three Transformed
      Princes</title> <title type="sub">A Fairy Extravaganza</title> <note type="firstPerf"
      ><name>Royal Adelphi Theatre</name><date notAfter="1871">4 May 1871</date></note><note
      type="rate" n="special"/> </bibl>
@@ -14295,7 +14263,7 @@
      <term>courtship</term> <term>forgery</term> <term>letters</term> <term>family
      relationships.</term> </note></bibl>
     <bibl n="100.2" xml:id="L1485" type="S_1_Farce"> <author>Palmer, T.A.</author> <title
-     n="adodgefordinner">A Dodge for Dinner</title> <title type="sub">A Farce in one act</title>
+     n="adodgeforadinner">A Dodge for a Dinner</title> <title type="sub">A Farce in one act</title>
      <note type="firstPerf"><name>Strand Theatre</name><date notAfter="1872">28 Dec.
      1872</date></note> <listRef>
      <ref target="https://hdl.handle.net/2027/uiug.30112070591059">Hathi_Trust</ref>
@@ -14359,7 +14327,7 @@
     <bibl n="100.11" xml:id="L1494" type="1_Comedietta" status="nf"> <author>Lyste, Henry
      P.</author> <title n="onlyapennyaliner">Only a Penny-a-Liner!</title> <title type="sub">A
      Comedietta in one Act</title> <note type="firstPerf"><name>Unknown</name><date notAfter="1872"
-     >[dedication 8 and 9 April 1872]</date></note> </bibl>
+     >[dedication 8 and 9 April 1872]</date></note> <note>Not in Nicoll. Appears on Worldcat. </note></bibl>
     <bibl n="100.12" xml:id="L1495" type="4_Drama" status="nf"> <author>Young, Sir Charles L.,
      Bart.</author> <title n="shadows">Shadows</title> <title type="sub">A Romantic Drama in a
      Prologue and four acts</title> <note type="firstPerf"><name>Royal Princess's
