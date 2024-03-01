@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title>« L'édition de pièces de théâtre la plus parfaite jamais publiée » : vers une
+     numérisation de <hi rend="italic">Lacy's Acting Edition.</hi> </title>
+    <author>Lou Burnard</author>
+   </titleStmt>
+   <editionStmt>
+    <edition> <date>2024-02-16T17:08:42.346060207</date> </edition>
+   </editionStmt>
+   <publicationStmt>
+    <p>no publication statement available</p>
+   </publicationStmt>
+   <sourceDesc>
+    <p>Converted from ODT abstract draft</p>
+   </sourceDesc>
+  </fileDesc>
+  <revisionDesc>
+
+   <change> <name>First draft</name> <date>2024-02-22T20:04:05.117590525</date> </change>
+  </revisionDesc>
+ </teiHeader>
+ <text>
+  <body>
+   <div type="slide">
+    <head>L'édition la plus parfaite jamais publiée </head>
+    <figure>
+     <graphic width="80%" url="../media/image1.png" rend="center"/>
+    </figure>
+    <list>
+     <item>C'est quoi, une "Acting edition" ? </item>
+     <item>C'est qui, Thomas Hailes Lacy ?</item>
+     <item>L'édition considérée comme corpus numérique</item>
+     <item>Modalités du travail de construction</item>
+     <item>Etat actuel du corpus. </item>
+    </list>
+   </div>
+   <div type="slide">
+    <head>Acting edition: le concept</head>
+    <list>
+     <item>Edition des œuvres dramatiques au XIXe siècle: un démarche compliqué mais
+      nécessaire</item>
+     <item>Le marché supportait: <list>
+      <item>la pièce individuelle à 6 pence </item>
+      <item>mais également les volumes à 7 shilling</item>
+      </list></item>
+     <item>Avec quelques exceptions, l'oeuvre complète d'un auteur dramatique n'etait guère
+      rentable</item>
+    </list>
+   </div>
+   <div type="slide">
+    <head>Une pièce individuelle</head>
+    <list>
+     <item>prix modeste</item>
+     <item>public ciblé: acteurs professionels et amateurs</item>
+     <item>disponibilité tres répandu</item>
+    </list>
+    <cb/>
+    <p> <graphic url="../media/L0106-cover.png" height="70%" width="40%"/> </p>
+
+
+   </div>
+   <div type="slide">
+    <head>Une volume</head>
+    <list>
+     <item>prix moins modeste (selon reliure)</item>
+     <item>public ciblé: collectionneurs respectables</item>
+     <item>100 volumes sont parus entre 1848 et 1873</item>
+     <item>chacun contenant 15 titres très variés</item>
+    </list>
+    <cb/>
+
+    <figure>
+     <graphic url="../media/vol22.png" height="70%" width="40%"/>
+    </figure>
+
+   </div>
+   <div type="slide">
+    <head>Thomas Hailes Lacy (1809-1873)</head>
+    <figure>
+     <graphic url="../media/THLacy.jpg" height="60%" width="60%"/>
+    </figure>
+   </div>
+
+   <div type="slide">
+    <head>Caracteristiques du corpus</head>
+    <list>
+     <item>Taille des pieces</item>
+
+     <item>"Fraicheur" des textes</item>
+
+     <item>Type des pieces</item>
+    </list>
+   </div>
+
+   <div type="slide">
+    <head>Taille de piece</head>
+    <list>
+     <item>La taille des piece, en "actes" ou en pages, semble varier avec son type (drame, farce, etc.) </item>
+     <item>Les drames serieuses et les tragedies necessitaient au moins 3, 4, ou 5  actes i.e. vers 50 pages; les farces
+      et les petites comedies beaucoup moins (entre 10 et 50 pp)</item>
+     <item>Jusqu'aux 80s, une soiree theatrale typique  necessitait une grande piece avec une ou deux
+      petites pieces d'accompagnement</item>
+     <item>La taille d'une piece (no. des actes) determinait ses benefices financieres -- a
+      l'auteur, au licenseur -- et bien sur son prix de production</item>
+    </list>
+    <figure><graphic url="../media/sizeByVol.png"/></figure>
+    <p rend="box">Avec deux exceptions, chaque volume de la LAE fournissait des pieces de taille variee. Une des exceptions (vol 19) est un volume evidemment concu comme hommage  a J.R. Planche, ne contenant que son oeuvre</p>
+   </div>
+   <div type="slide">
+    <head>"Fraicheur"</head>
+    <list>
+     <item>La datation d'une piece n'est ni evidente ni certaine: la plus fiable serait la date de
+      sa premiere representation </item>
+     <item>Nous calculons pour chaque volume: l'an, et combien de pieces contenues sont agees de
+      moins de 10 ans (en bleu), plus de 20 ans (en orange), et entre les deux (en rouge) </item>
+    </list>
+    <figure>
+     <graphic url="../media/dateChart.png"/>
+    </figure>
+    <p rend="box"> Sauf quelques exceptions, le plupart des volumes contenaient majoritairement des
+     pieces modernes. Mais la proportion de pieces plus antiques parait s'accroitre vers la fin de
+     l'edition. </p>
+   </div>
+
+
+   <div type="slide">
+    <head>Encodage TEI (minimal)</head>
+    <p>Nos objectifs:</p>
+    <list>
+     <item>faciliter l'analyse automatique des composants structurants (scenes, repliques,
+      didascalies, etc.) </item>
+     <item>defavoriser la representation des conventions typographiques</item>
+     <item>preferer un balisage simple et coherent -- voire apauvri</item>
+     <item>permettre l'enrichissement graduel</item>
+    </list>
+   </div>
+   <div type="slide">
+    <head>Exemple prosaique</head>
+    <figure>
+     <graphic url="../media/primaStart.png" width="60%"/>
+    </figure>
+    <cb/>
+
+    <figure>
+     <graphic url="../media/primaStartX.png" width="50%"/>
+    </figure>
+
+    <!--<egXML xmlns="http://www.tei-c.org/ns/Examples" rend="tiny">    
+    <body>
+   <head>The Prima Donna.</head>
+   <div type="act">
+    <head>Act I.</head>
+    <stage>Scene I —An Apartment in Holbein's House a door at the back opens on the Lawn. Table and
+     chair L. on the right a sofa, and a sofa table, tastefully arranged with books flowers and a
+     French clock. Fire-place R., doors L 2 E and C. </stage>
+    <stage> Enter Stella, followed by Rouble both in travelling costume, C. from L. </stage>
+    <sp>
+    <speaker>Stel.</speaker>
+    <p>Mr Rouble you compel me to tell you that you pass all endurance.</p>
+    </sp><sp>
+    <speaker>Rou.</speaker>
+    <p>I am prepared for all you can say.</p>
+    </sp><sp>
+    <speaker>Stel.</speaker>
+    <p>When I quitted Milan so suddenly, under an assumed name, delicacy might have suggested to you 
+     that I desired to travel alone.</p>
+    </sp><sp>
+    <speaker>Rou.</speaker>
+    <p>Ah signora ! the idea of your travelling alone—you who are besieged by lovers.</p>
+    </sp><sp>
+    <speaker>Stel.</speaker>
+    <p>Sir!</p>
+    </sp><sp>
+    <speaker>Rou.</speaker>
+    <p>Oh in the most honourable sense of the word, reproach has never looked upon you —
+     no — amongst the roses that have strewn your path there has been no thorn.</p>
+    </sp><sp>
+    <speaker>Stel.</speaker>
+    <p>Pardon me I feel one now.</p>
+    </sp><sp>
+    <speaker>Rou.</speaker>
+    <p><stage>(bowing)</stage> Eh ? Oh I thank you—you the Prima Donna, who have turned Milan into a
+      lunatic asylum—the syren, on whose notes the intrigues of courts and the calculations of
+      commerce have hung suspended—you, whose actions are the business and livelihood of a hundred
+      spies.</p>
+    </sp><sp>
+    <speaker>Stel.</speaker>
+    <p>Spies!</p>
+    </sp><sp>
+    <speaker>Rou.</speaker>
+    <p>I have kept a dozen myself in constant pay.</p>
+    </sp></div></body>
+     
+    </egXML>
+    
+    -->
+
+
+   </div>
+   <div type="slide">
+    <head>Exemple poetique</head>
+    <egXML xmlns="http://www.tei-c.org/ns/Examples"> <body>
+     <head>The Death Of Marlowe.</head>
+     <div type="scene">
+      <stage type="setting">Scene First. — Public Gardens — Liberty of the Clink, Southwark. </stage>
+      <stage>Enter Marlowe and Heywood, R. </stage>
+      <sp>
+       <speaker>Heywood.</speaker>
+       <l>Be sure of it.</l>
+      </sp>
+      <sp>
+       <speaker>Marlowe.</speaker>
+       <l>I am ; but not by your light.</l>
+      </sp>
+      <sp>
+       <speaker>Hey.</speaker>
+       <l>I speak it not in malice, nor in envy</l>
+       <l>Of your good fortune with so bright a beauty ; </l>
+       <l>But I have heard such things!</l>
+      </sp>
+      <sp> <speaker>Marl.</speaker>
+       <l>Good Master Heywood,</l>
+       <l>I prithee plague me not with what thou'st heard; </l> ... </sp>
+     </div>
+     </body></egXML>
+    <cb/>
+    <p> <graphic url="../media/image2.png" height="100%" width="50%"/> </p>
+   </div>
+
+
+   <div type="slide">
+    <head>Encodage des pages de titre</head>
+    <!-- <p style="text-align: left;">The &lt;titlePage&gt; element contains a transcription of the
+      text printed on the title page of a play. This will usually contain</p>
+     <list rend="numbered">
+      <item>at least one and usually several title fragments, each within a
+       &lt;titlePart&gt;</item>
+      <item>a byline indicating the author and their other works</item>
+      <item>an imprint, usually including Lacy’s address</item>
+     </list>-->
+
+    <p> <graphic url="../media/image5.png" height="100%" width="50%"/> </p>
+    <cb/>
+    <p><graphic url="../media/primaTitle.png" width="50%"/></p>
+
+    <!--   <p>The formatting of the original is mostly discarded: the markup only distinguishes the main
+      title from its subtitle, and also indicates the boundaries of the other titles mentioned.
+      Case is normalized, and line breaks ignored, just as when transcribing the text of the play.
+     </p>-->
+   </div>
+   <div type="slide">
+    <head>Encodage des castings</head>
+
+    <p> <graphic url="../media/image7.png" height="100%" width="70%"/> </p>
+    <cb/>
+    <p><graphic url="../media/image8.png" width="50%"/></p>
+
+   </div>
+
+   <div type="slide">
+    <head>Exemple un peu plus complexe...</head>
+    <p> <graphic url="../media/castListPlusSetting.png" height="100%" width="70%"/> </p>
+   </div>
+   <div type="slide">
+    <head>Encodage de ce qui precede .. </head>
+    <egXML xmlns="http://www.tei-c.org/ns/Examples">
+     <pb n="3"/> <castList> <head> Fairies Invited To The Banquet </head> <castItem> <role
+     gender="F">The Fairy Antidota</role><actor sex="F"> Miss Lee.</actor></castItem> <castItem>
+     <role gender="F">The Fairy Elegantia</role> <actor sex="F">Miss E. Phillips.</actor>
+     </castItem> <castItem> <role gender="F">The Fairy Dewdrop </role><actor sex="F">Miss
+     Baker</actor> </castItem> <castItem><role gender="F">The Fairy Rosebud</role> <actor sex="F"
+     >Miss Fiztjames.</actor> </castItem> <castItem> <role gender="F">The Fairy Gossamer</role>
+     <actor sex="F">Miss Charlton.</actor> </castItem> <castItem><role gender="F">The Fairy
+     Philomel</role> <actor sex="F">Miss Lane.</actor> </castItem> <castItem> <role gender="F">The
+     Fairy Choremusica </role><actor sex="F">Miss Jackson. </actor></castItem> <castItem> <role
+     gender="M">Lords, Ladies, Pages, Guards, Servants, &amp;c.</role> <actor sex="M">Messrs.
+     Gardner, Morelli, Hughes, Kerridge, Horton, Hodges, Collett, S. Smith, Benedict, Connel, Healy,
+     Brace, Charles, Chant, T. Ireland, Santry, Davis, Butler, Roberts, Andrews, Russel,
+     &amp;c.</actor><actor sex="F"> Mesdames Hatton, Chester, Fenton, Platt, Schmidt, Bailey,
+     Beresford, A. Jackson, Wood, Maynard, Davis, Gardner, Goward, Cummins, Collett, Butler,
+     &amp;c.</actor> </castItem> </castList> <castList> <head>Part Second-Period, 1601. Vestibule In
+     The Royal Castle.</head> <castItem><role gender="F"> The Lady Aurora
+     Abigail</role><roleDesc>(First Lady of the Bed Chamber)</roleDesc><actor sex="F"> Miss.
+     Rainforth.</actor> </castItem> </castList> <castList> <head> Apartment of the Princess in the
+     Octagon Tower, </head> <castItem> <role gender="F">The Princess Is-A-Belle
+     </role><roleDesc>(aged 18, all but an hour or so)</roleDesc><actor sex="F">Madame Vestris.
+     </actor></castItem> </castList>
+     <p> Mademoiselle Maria Luigia Bettoni &amp; Monsieur Saxoni will dance a new Pas De Deux,
+     (Being their Second Appearance at this Theatre.) </p> <castList> <head>Lobby And Lumber Room At
+     The Very Top Of The Castle.</head> <castItem><role gender="F"> Old Woman</role><roleDesc>(still
+     a Spinster)</roleDesc> <actor sex="F">Madame Simon.</actor> </castItem> </castList> <castList>
+     <head> State Bed Chamber. </head> <castItem><role gender="F"> Sylphides.</role> <actor sex="F"
+     >Miss Fairbrother, Mrs. Gibson. Miss Ryals, and Miss Kendall.</actor> </castItem> </castList>
+    </egXML>
+   </div>
+  </body>
+ </text>
+</TEI>
