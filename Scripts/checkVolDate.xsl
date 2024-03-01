@@ -10,12 +10,12 @@
  <xsl:template match="/">
   <xsl:for-each select="//div">
    <xsl:variable name="v1">  <xsl:value-of select="substring-after(@n,'/')"/></xsl:variable>
-   <xsl:variable name="vList"><xsl:value-of select="bibl/note[@type='firstPerf']/date/@notAfter"/></xsl:variable>
-   <xsl:variable name="v2">  <xsl:value-of select="max(bibl/note[@type='firstPerf']/date/@notAfter)"/></xsl:variable>
+   <xsl:variable name="vList"><xsl:value-of select="bibl[not(@status='replaced')]/note[@type='firstPerf']/date/@notAfter"/></xsl:variable>
+   <xsl:variable name="v2">  <xsl:value-of select="max(bibl[not(@status='replaced')]/note[@type='firstPerf']/date/@notAfter)"/></xsl:variable>
    <xsl:if test="$v1 ne $v2">
    <xsl:value-of select="@n"/>
    <xsl:text>     </xsl:text>
-    <xsl:value-of select="max(bibl/note[@type='firstPerf']/date/@notAfter)"/>
+    <xsl:value-of select="max(bibl[not(@status='replaced')]/note[@type='firstPerf']/date/@notAfter)"/>
     <xsl:text>     </xsl:text>
     <xsl:value-of select="$vList"/><xsl:text>
 </xsl:text></xsl:if>

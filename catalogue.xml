@@ -17,7 +17,7 @@
      minor errors and inconsistencies have been corrected, and additional information added,
      particularly about available digitizations of the plays. </p>
 
-
+<!-- resp=#CRL means I found this data in https://catalog.crl.edu:-->
     <p>Authors' names have been standardised, in the form "Surname, Forenames-or-initials" following
      the most frequent usage in cases of doubt. Square brackets are used to indicate that the author
      name contained within them is not attested on the titlepage of the work in question; the
@@ -414,7 +414,7 @@
      </listRef><note type="extent">12 pp (UM copy: 52 - 64)</note><listRef type="localCopies">
      <ref target="local:Vol03/L0032/L0032-um.pdf">UM original</ref>
      </listRef></bibl>
-    <bibl n="3.3" xml:id="L0033" type="S__Pantomime"> <author>[Anon.]</author> <note type="authorInfo">Nicoll gives Nelson Lee as author of "Bluff King Hal"</note><title n="harlequinandalfredthe...">(Harlequin and) Alfred the Great! or, the Magic Banjo and the
+    <bibl n="3.3" xml:id="L0033" type="S__Pantomime"> <author resp="#nicoll">[Lee, Nelson]</author> <note type="authorInfo">Nicoll gives Nelson Lee as author of "Bluff King Hal"</note><title n="harlequinalfredthegre...">Harlequin Alfred the Great! or, the Magic Banjo and the
      Mystic Raven!</title> <title type="sub">A New and Original Grand Historical Christmas
      Pantomime</title> <title type="btao">By the Author of "Bluff King Hal"</title><note type="firstPerf"><name>Royal Marylebone Theatre</name><date notAfter="1850">26 December
      1850</date></note> <note type="extent">23 pp (UM copy: 66 - 89)</note><listRef type="localCopies">
@@ -493,7 +493,7 @@
     <bibl n="3.12" xml:id="L0042" status="replaced" type="1_Comedietta"> <author>Simpson, John
      Palgrave</author> <title n="thatodiouscaptaincutt...">That Odious Captain Cutter!</title>
      <title type="sub">A Comedietta in one act</title> <note type="firstPerf"><name>Royal Olympic
-     Theatre</name><date notAfter="1851">21 February 1851</date></note> </bibl>
+     Theatre</name><date notAfter="1851">21 February 1851</date></note><note type="extent" resp="CRL">24 pp</note> </bibl>
     <!-- replaced in HT by the following -->
     <bibl n="3.12" xml:id="L0042R" type="M_2_Farce"> <author>Townley, James</author> <title n="highlifebelowstairs">High life below stairs</title> <title type="sub">A Farce in two
      acts</title> <note type="firstPerf"><name>Theatre Royal Drury Lane</name><date notAfter="1759">October 31st 1759</date></note> <listRef>
@@ -630,7 +630,7 @@
      Edward</author> <title n="leftinacab">Left in a Cab</title> <title type="sub">An original farce
      in one act</title> <note type="firstPerf"><name>Royal Surrey Theatre</name><date notAfter="1851">11 August 1851</date></note> </bibl>
     <!-- replaced in HT by the following -->
-    <bibl n="4.14" xml:id="L0059R" type="S_1_farce"> <author>[Anon.]</author> <title n="loversquarrels">Lovers' Quarrels</title> <title type="sub">A farce in one act</title><title type="source" n="#EN">From the comedy of The Mistake by Sir John Vanbrugh</title><note type="firstPerf">[Performance Free]</note><listRef>
+    <bibl n="4.14" xml:id="L0059R" type="S_1_farce"> <author>[Vanbrugh, Sir John]</author> <title n="loversquarrels">Lovers' Quarrels; or, like Master like Man</title> <title type="sub">A farce in one act</title><title type="source" n="#EN">From the comedy of The Mistake by Sir John Vanbrugh</title><note type="firstPerf"><name>Drury Lane</name><date notAfter="1816">1816</date></note><note type="otherPerf"><name>Victoria</name><date notAfter="1864">1864</date></note><note>[Performance Free]</note><listRef>
      <ref target="https://hdl.handle.net/2027/uiug.30112074220044">Hathi_Trust</ref>
      </listRef><note type="extent">17 pp (UM copy: 428 - 445)</note><listRef type="localCopies">
      <ref target="local:Vol04/L0059/L0059R-uiu.pdf">Downloaded from HT</ref>
@@ -1904,7 +1904,7 @@
      Bateman, with interesting particulars of the Fair Sophia</title> <title type="sub">An
      Extravaganza in two acts</title> <note type="firstPerf"><name>Theatre Royal Adelphi</name><date notAfter="1854">17 April 1854</date>. Licenced for performance <ref type="ms" target="lcp:LCP_52947_C">LC ms</ref></note> <note type="LCPkeywords"><term>theatre</term>
      <term>travel</term> <term>aristocracy</term> <term>Muslims and Islam</term> <term>French
-     characters</term> <term>French imperialism</term> <term>British empire</term> <term>Russian
+     characters</term>Paris <term>French imperialism</term> <term>British empire</term> <term>Russian
      empire</term> <term>Russian characters</term> <term>festivals and celebration</term>
      <term>Crimea.</term> </note><listRef>
      <ref target="https://hdl.handle.net/2027/uc1.31175035139602">Hathi_Trust</ref>
@@ -2408,7 +2408,7 @@
      </listRef></bibl>
    </div>
 
-   <div source="http://hdl.handle.net/2027/mdp.39015067453020" type="volume" n="19/1860">
+   <div source="http://hdl.handle.net/2027/mdp.39015067453020" type="volume" n="19/1851">
     <bibl n="19.1" xml:id="L0271" type="S_2_Extravagan" status="TEI-0"> <author>Planché,
      J.R.</author> <title n="thegoldenbranch">The Golden Branch</title> <title type="sub">An
      Original Fairy Extravaganza in two acts</title> <note type="firstPerf"><name>Royal Lyceum
@@ -9520,10 +9520,11 @@
      <note type="extent">22 pp (UM copy: 259 - 281)</note><listRef type="localCopies">
      <ref target="local:Vol82/L1221/L1221-um.pdf">UM original</ref>
      </listRef></bibl>
-    <bibl n="82.8" xml:id="L1222" type="S_1_Farce"> <author>[Anon.]</author> <title n="oldandyoung">Old and Young; or, The Four Mowbrays</title> <title type="sub">A Farce in one act</title>
+    <bibl n="82.8" xml:id="L1222" type="S_1_Farce"> <author>[Poole, John]</author> <title n="oldandyoung">Old and Young; or, The Four Mowbrays</title> <title type="sub">A Farce in one act</title>
      <note type="firstPerf"><name>Drury Lane</name><date notAfter="1826">1826</date></note><note type="otherPerfs"><name>Covent Garden</name><date notAfter="1831">1831</date></note> <note type="extent">28 pp (UM copy: 283 - 311)</note><listRef type="localCopies">
      <ref target="local:Vol82/L1222/L1222-um.pdf">UM original</ref>
-     </listRef></bibl>
+     </listRef><!-- [perf dates in Nicoll & Mullin differ  -->
+    </bibl>
     <bibl n="82.9" xml:id="L1223" type="M_3_Drama"> <author>Holl, Henry</author> <title n="gracehuntley">Grace Huntley</title> <title type="sub">A Domestic Drama in three acts</title>
      <note type="firstPerf"><name>Theatre Royal Adelphi</name><date notAfter="1833">1833</date></note> <note type="extent">44 pp (UM copy: 313 - 357)</note><listRef type="localCopies">
      <ref target="local:Vol82/L1223/L1223-um.pdf">UM original</ref>
@@ -10723,7 +10724,7 @@
     <bibl n="94.9" xml:id="L1402" type="_Extravagan" status="nf"> <author>Byron, Henry
      James</author> <title n="camaralzamanandthefai...">Camaralzaman and the Fair Badoura; or, The
      Bad Djinn and the Good Spirit</title> <title type="sub">An Extravaganza</title> <note type="firstPerf"><name>Vaudeville Theatre</name><date notAfter="1871">22 Nov.
-     1871</date></note><note type="rate" n="special"/> </bibl>
+      1871</date></note><note type="rate" n="special"/> <note type="extent">40 pp.</note><!-- from https://catalog.crl.edu/Record/0f7383ad-5650-5d4a-a785-bec73a75173c#description --></bibl>
     <bibl n="94.10" xml:id="L1403" type="3_Drama" status="nf"> <author>Stirling, Edward</author>
      <title n="aline">Aline; or,  The Rose of Killarney</title> <title type="sub">A Drama in three
      acts</title> <note type="firstPerf"><name>Strand Theatre</name><date notAfter="1843">10 July
@@ -10859,14 +10860,15 @@
      <title n="brownethemartyr">Browne the Martyr</title> <title type="sub">A Farce in one
      act</title> <note type="firstPerf"><name>Royal Court Theatre</name><date notAfter="1870">20
      Jan. 1870</date></note> </bibl>
-    <bibl n="96.3" xml:id="L1426" type="_Farce" status="nf"> <author>Poole, John</author> <title n="mywifewhatwife">My Wife!- What Wife?</title> <title type="sub">A Farce in one actor two
+    <bibl n="96.3" xml:id="L1426" type="1_Farce" status="nf"> <author>Poole, John</author> <title n="mywifewhatwife">My Wife!- What Wife?</title> <title type="sub">A Farce in one actor two
      acts</title> <note type="firstPerf"><name>Drury Lane</name><date notAfter="1829">2 April
-     1829</date></note> </bibl>
+     1829</date></note><note type="extent" resp="#CRL">13 pp</note> </bibl>
     <bibl n="96.4" xml:id="L1427" type="1_Farce" status="nf"> <author>Douglass, John T.</author>
      <title n="achapterofaccidents">A Chapter of Accidents</title> <title type="sub">A Farce in one
      Act</title> <note type="firstPerf"><name>National Standard Theatre</name><date notAfter="1870">14 Oct. 1870</date></note> </bibl>
-    <bibl n="96.5" xml:id="L1428" type="_Farce" status="nf"> <author>Williams, Thomas J.</author>
-     <title n="atouriststicket">A Tourist's Ticket</title> <title type="sub">A Farce</title> <note type="firstPerf"><name>Globe Theatre</name><date notAfter="1872">1 April 1872</date></note> </bibl>
+    <bibl n="96.5" xml:id="L1428" type="1_Farce" status="nf"> <author>Williams, Thomas J.</author>
+     <title n="atouriststicket">A Tourist's Ticket</title> <title type="sub">A Farce</title> <note type="firstPerf"><name>Globe Theatre</name><date notAfter="1872">1 April 1872</date></note> 
+     <note type="extent" resp="#CRL">27 pp</note></bibl>
     <bibl n="96.6" xml:id="L1429" type="1_Farce" status="nf"> <author>Becher, Martin</author> <title n="apoeticproposal">A Poetic Proposal!</title> <title type="sub">A Farce in one act</title>
      <note type="firstPerf"><name>Globe Theatre</name><date notAfter="1872">20 March
      1872</date></note> </bibl>
@@ -10878,7 +10880,7 @@
      Smith</author> <title n="leatherlungosthegreat...">Leatherlungos the Great, How he Storm'd,
      Reign'd and Mizzled</title> <title type="sub">An Entirely New and Original Extravaganza</title>
      <note type="firstPerf"><name>Royal Adelphi</name><date notAfter="1872">1 July
-     1872</date></note> </bibl>
+      1872</date></note><note type="extent">32 pp.<!-- https://catalog.crl.edu/Record/fac74f1e-4af4-5910-abf0-756de18cda05#description--></note> </bibl>
     <bibl n="96.9" xml:id="L1432" type="L_3_DramaDrama"> <author>Milner, H.M.</author> <title n="mazeppa">Mazeppa; or , The Wild Horse of Tartary</title> <title type="sub">A Romantic Drama
      in three acts</title><title type="source" n="#EN">Dramatised from Lord Byron's Poem</title>
      <note type="firstPerf"><name>Royal Amphitheatre</name><date notAfter="1831">Easter Monday
@@ -10891,9 +10893,9 @@
      <title n="theshepherdofcournoua...">The Shepherd of Cournouailles</title> <title type="sub">An
      Operetta in one act</title><note type="music">Music by Virginia Gabriel</note> <note type="firstPerf" resp="#nicoll"><name>St G. Liverpool</name><date notAfter="1879">28 Apr
      1879</date></note> </bibl>
-    <bibl n="96.11" xml:id="L1434" type="_Comedy" status="nf"> <author>Graves, A.P.</author> <title n="outofthefryingpan">Out of The Frying Pan</title> <title type="sub">A one act
+    <bibl n="96.11" xml:id="L1434" type="1_Comedy" status="nf"> <author>Graves, A.P.</author> <title n="outofthefryingpan">Out of The Frying Pan</title> <title type="sub">A one act
      Comedy</title><title type="source" n="#DK">Adapted from the Danish by P. Toft</title> <note type="firstPerf"><name>Royal Holborn Theatre</name><date notAfter="1872">4 May
-     1872</date></note><!-- limited access but in HT --> </bibl>
+     1872</date></note><!-- limited access but in HT --> <note type="extent">36 pp</note></bibl>
     <bibl n="96.12" xml:id="L1435" type="1_Farce" status="nf"> <author>Hazlewood, Colin
      H.</author><author>Williams, Arthur</author> <title n="leaveittome">"Leave it to me"</title>
      <title type="sub">A Farce in one Act</title> <note type="firstPerf"><name>Royal Surrey
@@ -11184,7 +11186,8 @@
      </listRef><note>Not in Nicoll; OSU copy is from Dunscombe. </note> </bibl>
     <bibl n="99.15" xml:id="L1483" type="_Extravagan" status="nf"> <author>Byron, Henry
      James</author> <title n="theenchantedwood">The Enchanted Wood; or, The Three Transformed
-     Princes</title> <title type="sub">A Fairy Extravaganza</title> <note type="firstPerf"><name>Royal Adelphi Theatre</name><date notAfter="1871">4 May 1871</date></note><note type="rate" n="special"/> </bibl>
+     Princes</title> <title type="sub">A Fairy Extravaganza</title> <note type="firstPerf"><name>Royal Adelphi Theatre</name><date notAfter="1871">4 May 1871</date></note><note type="rate" n="special"/> 
+     <note type="extent">28 pp<!--https://books.google.co.uk/books/about/The_Enchanted_Wood_Or_the_Three_Transfor.html?id=cD2Ipn-oiQYC--></note></bibl>
    </div>
 
    <div type="volume" n="100/1874">
@@ -11202,7 +11205,7 @@
      </listRef> <note type="extent">23 pp</note> <listRef type="localCopies">
      <ref target="local:Vol100/L1485/L1485-uiu.pdf">Downloaded</ref>
      </listRef> </bibl>
-    <bibl n="100.3" xml:id="L1486" type="S_1_Farce"> <author>Hodgson, G.S.</author> <title n="bobbya1">Bobby A1; or, A Warm Reception</title> <title type="sub">A Farce in one act</title>
+    <bibl n="100.3" xml:id="L1486" type="S_1_Farce"> <author>Hodgson, G.S.</author> <title n="bobbyno1">Bobby A1; or, A Warm Reception</title> <title type="sub">A Farce in one act</title>
      <note type="firstPerf"><name>Surrey Theatre</name><date notAfter="1872">7 Oct.
      1872</date></note> <listRef>
      <ref target="https://hdl.handle.net/2027/hvd.32044086861937">Hathi Trust</ref>
@@ -11244,10 +11247,11 @@
      <ref target="local:Vol100/L1492/L1492-uiu.pdf">Downloaded</ref>
      </listRef></bibl>
     <bibl n="100.10" xml:id="L1493" type="_Burle" status="nf"> <author>Reece, R.</author> <title n="ruyblasrighted">Ruy Blas Righted; or, The Love, the Lugger, and the Lackey</title> <title type="sub">An Original Burlesque</title> <note type="firstPerf"><name>Vaudeville
-     Theatre</name><date notAfter="1874">3 Jan. 1874</date></note> </bibl>
+     Theatre</name><date notAfter="1874">3 Jan. 1874</date></note> <note type="extent">31 pp</note></bibl>
     <bibl n="100.11" xml:id="L1494" type="1_Comedietta" status="nf"> <author>Lyste, Henry
      P.</author> <title n="onlyapennyaliner">Only a Penny-a-Liner!</title> <title type="sub">A
-     Comedietta in one Act</title> <note type="firstPerf"><name>Unknown</name><date notAfter="1872">[dedication 8 and 9 April 1872]</date></note> <note>Not in Nicoll. Appears on Worldcat. </note></bibl>
+     Comedietta in one Act</title> <note type="firstPerf"><name>Unknown</name><date notAfter="1872">[dedication 8 and 9 April 1872]</date></note> <note>Not in Nicoll. Appears on Worldcat. </note>
+    <note type="extent" resp="CRL">24 pp</note></bibl>
     <bibl n="100.12" xml:id="L1495" type="4_Drama" status="nf"> <author>Young, Sir Charles L.,
      Bart.</author> <title n="shadows">Shadows</title> <title type="sub">A Romantic Drama in a
      Prologue and four acts</title> <note type="firstPerf"><name>Royal Princess's
