@@ -44,7 +44,7 @@
       nécessaire</item>
      <item>Le marché supportait: <list>
       <item>la pièce individuelle à 6 pence </item>
-      <item>mais également les volumes à 7 shilling</item>
+      <item>mais également les volumes à 7 shillings</item>
       </list></item>
      <item>Avec quelques exceptions, l'oeuvre complète d'un auteur dramatique n'etait guère
       rentable</item>
@@ -87,42 +87,48 @@
    <div type="slide">
     <head>Caracteristiques du corpus</head>
     <list>
-     <item>Taille des pieces</item>
+     <item>Taille des pièces</item>
 
      <item>"Fraicheur" des textes</item>
 
-     <item>Type des pieces</item>
+     <item>Type des pièces</item>
     </list>
    </div>
-
+<!--
+    add entries for addenda resp=LB
+    remove entries for "see"
+    recategorise xxx using ana values and X
+    
+    
+    -->
    <div type="slide">
-    <head>Taille de piece</head>
+    <head>Taille de pièce</head>
     <list>
-     <item>La taille des piece, en "actes" ou en pages, semble varier avec son type (drame, farce, etc.) </item>
-     <item>Les drames serieuses et les tragedies necessitaient au moins 3, 4, ou 5  actes i.e. vers 50 pages; les farces
-      et les petites comedies beaucoup moins (entre 10 et 50 pp)</item>
-     <item>Jusqu'aux 80s, une soiree theatrale typique  necessitait une grande piece avec une ou deux
-      petites pieces d'accompagnement</item>
-     <item>La taille d'une piece (no. des actes) determinait ses benefices financieres -- a
+     <item>La taille des pièces, en "actes" ou en pages, semble varier avec son type (drame, farce, etc.) </item>
+     <item>Les drames sérieuses et les tragédies necessitaient au moins 3, 4, ou 5  actes i.e. vers 50 pages; les farces
+      et les petites comédies beaucoup moins (entre 10 et 50 pp)</item>
+     <item>Jusqu'aux 80s, une soirée théatrale typique  nécessitait une grande pièce avec une ou deux
+      petites pièces d'accompagnement</item>
+     <item>La taille d'une pièce (no. des actes) déterminait ses bénéfices financières -- à
       l'auteur, au licenseur -- et bien sur son prix de production</item>
     </list>
     <figure><graphic url="../media/sizeByVol.png"/></figure>
-    <p rend="box">Avec deux exceptions, chaque volume de la LAE fournissait des pieces de taille variee. Une des exceptions (vol 19) est un volume evidemment concu comme hommage  a J.R. Planche, ne contenant que son oeuvre</p>
+    <p rend="box">Avec deux exceptions, chaque volume de la LAE fournissait des pièces de taille assortie. Une des exceptions (vol 19) est un volume évidemment conḉu comme hommage  à J.R. Planché, ne contenant que son oeuvre</p>
    </div>
    <div type="slide">
     <head>"Fraicheur"</head>
     <list>
-     <item>La datation d'une piece n'est ni evidente ni certaine: la plus fiable serait la date de
-      sa premiere representation </item>
-     <item>Nous calculons pour chaque volume: l'an, et combien de pieces contenues sont agees de
+     <item>La datation d'une pièce n'est ni evidente ni certaine: la plus fiable serait la date de
+      sa première représentation </item>
+     <item>Nous calculons pour chaque volume: l'an, et combien de pieces contenues sont agées de
       moins de 10 ans (en bleu), plus de 20 ans (en orange), et entre les deux (en rouge) </item>
     </list>
     <figure>
      <graphic url="../media/dateChart.png"/>
     </figure>
     <p rend="box"> Sauf quelques exceptions, le plupart des volumes contenaient majoritairement des
-     pieces modernes. Mais la proportion de pieces plus antiques parait s'accroitre vers la fin de
-     l'edition. </p>
+     pièces récentes. Mais la proportion de pieces plus antiques parait s'accroitre vers la fin de
+     l'édition. </p>
    </div>
 
 
@@ -138,7 +144,7 @@
     </list>
    </div>
    <div type="slide">
-    <head>Exemple prosaique</head>
+    <head>Exemple en prose</head>
     <figure>
      <graphic url="../media/primaStart.png" width="60%"/>
     </figure>
@@ -201,7 +207,7 @@
 
    </div>
    <div type="slide">
-    <head>Exemple poetique</head>
+    <head>Exemple en vers</head>
     <egXML xmlns="http://www.tei-c.org/ns/Examples"> <body>
      <head>The Death Of Marlowe.</head>
      <div type="scene">
@@ -266,7 +272,7 @@
    </div>
    <div type="slide">
     <head>Encodage de ce qui precede .. </head>
-    <egXML xmlns="http://www.tei-c.org/ns/Examples">
+    <egXML xmlns="http://www.tei-c.org/ns/Examples" rend="tiny">
      <pb n="3"/> <castList> <head> Fairies Invited To The Banquet </head> <castItem> <role
      gender="F">The Fairy Antidota</role><actor sex="F"> Miss Lee.</actor></castItem> <castItem>
      <role gender="F">The Fairy Elegantia</role> <actor sex="F">Miss E. Phillips.</actor>
