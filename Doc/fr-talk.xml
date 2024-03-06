@@ -40,14 +40,20 @@
    <div type="slide">
     <head>Acting edition: le concept</head>
     <list>
-     <item>Edition des œuvres dramatiques au XIXe siècle: un démarche compliqué mais
-      nécessaire</item>
+     <item>Edition des œuvres dramatiques au XIXe siècle: un démarche compliqué 
+      <list>  <item>Les droits d'auteur etait en transition: au debut du siecle, imprimer une piece etait la
+      meilleur methode d'assurer qu'elle soit piratée</item>
+     <item>Toute représentation théatrale devrait etre licenciée par une office d'etat (le Lord
+      Chamberlain's Office)</item>
+     <item>Toute représentation theatrale necessitait paiement d'une redevance au ayant-droit: soit
+      un editeur comme Lacy, soit la Society of Dramatic Authors</item></list></item>
+     <item>Les editeurs vendait les "Acting Editions" sous un format très pauvre</item>
      <item>Le marché supportait: <list>
       <item>la pièce individuelle à 6 pence </item>
-      <item>mais également les volumes à 7 shillings</item>
+      <item>le volume relié à 7 shillings</item>
       </list></item>
-     <item>Avec quelques exceptions, l'oeuvre complète d'un auteur dramatique n'etait guère
-      rentable</item>
+     <item>Avec quelques exceptions, éditer l'oeuvre complète d'un auteur dramatique n'était guère
+      rentable avant la fin du siecle</item>
     </list>
    </div>
    <div type="slide">
@@ -63,12 +69,12 @@
 
    </div>
    <div type="slide">
-    <head>Une volume</head>
+    <head>Un volume relié</head>
     <list>
      <item>prix moins modeste (selon reliure)</item>
      <item>public ciblé: collectionneurs respectables</item>
      <item>100 volumes sont parus entre 1848 et 1873</item>
-     <item>chacun contenant 15 titres très variés</item>
+     <item>chacun contenant 15 titres très variés, et restant imprimé</item>
     </list>
     <cb/>
 
@@ -80,10 +86,68 @@
    <div type="slide">
     <head>Thomas Hailes Lacy (1809-1873)</head>
     <figure>
-     <graphic url="../media/THLacy.jpg" height="60%" width="60%"/>
+     <graphic url="../media/THLacy.jpg" height="55%" width="55%"/>
     </figure>
+    <cb/>
+    <p>Éditeur et dramaturge anglais, Lacy s'est lancé en ecrivant une poignée de pièces sans
+     distinction pour les petits théâtres de Londres. Sa conjointe etait une actrice à succès
+     modéré. En 1851, il s'installe comme éditeur de pièces de théâtre au 89 Strand, créant une
+     série intitulée<hi> Lacy's Acting Editions</hi>. </p>
+    <p>Avec d'autres séries concurrantes, (Cumberland, Duncombe, Richardson, Dicks ..) Lacy's
+     représentait presque la seule façon dont les pièces étaient publiées après environ 1830, suite
+     à la disparition du marché pour les octavos liés à 3 ou 5 shillings.</p>
+    <p> Lacy a acheté les droits d'auteur de l'auteur pour une petite somme, parfois aussi basse que
+     5 £ ou 3 £, puis a collecté des redevances auprès d'amateurs et de professionnels pour toutes
+     les pièces de ses listes: une affaire tres rentable. La série de Lacy a été reprise par son ami
+     new-yorkais Samuel French dans les années 1860 et se poursuit encore aujourd'hui.</p>
    </div>
+   <div type="slide">
+    <head>Le paysage dramatique du 19e siecle : un aperçu quantitatif</head>
 
+    <p>Grace aux travaux d'Allardyce Nicoll dans son <title>A history of English Drama
+     1660-1900</title> (CUP 1959), nous disposons d'un bilan tres complet des représentations
+     théatrales: ca. 25 000 représentations entre 1800 et 1900 y sont énumerées. Ces notices
+     derivent principalement <list>
+     <item>des archives du Lord Chamberlain's Office</item>
+     <item>des revues contemporaines</item>
+     <item>des affiches théatrales</item>
+     </list></p>
+    <figure>
+     <graphic url="../media/nicollEntry.jpg"/>
+    </figure>
+    <p>Chaque notice contient: <list>
+     <item>le nom d'un (ou plusieurs) auteur</item>
+     <item>une indication de genre</item>
+     <item>un titre (ou plusieurs)</item>
+     <item>la théatre ou lieu et la date de la première représentation</item>
+     <item>des informations sur le licencement</item>
+     <item>détails de publications eventuelles</item>
+     <item>d'autres remarques</item>
+     </list></p>
+    <p>(Une version bien structurée en TEI est en cours...)</p>
+   </div>
+   <div type="slide">
+    <head>La théatre imprimée </head>
+
+    <p rend="block">La vaste majorité des représentations constatées par Nicoll n'ont aucune version
+     imprimée ou publiee </p>
+    <figure>
+     <graphic url="../media/formatByDecade.png"/>
+     <!--  <head>Representations theatrales enumerees par Nicoll, par decennie (figures brutes)</head>
+  -->
+    </figure>
+    <p>Pour les 3 000+ representations associées avec un texte imprimée, les "Handlists" indiquent
+     la maniere ou chaque piece fut editée</p>
+    <p> </p>
+    <figure>
+     <graphic url="../media/formPercByDecade.png"/>
+    </figure>
+    <p rend="box"><list>
+     <item>A son apogée, Lacy est responsable de 80% des publications théatrales</item>
+     <item>Sa domination du marché (jusqu'aux 70s) correspond avec une diminution en l'usage des
+      formats classiques (octavo, duodecimo) </item>
+     </list> </p>
+   </div>
    <div type="slide">
     <head>Caracteristiques du corpus</head>
     <list>
@@ -94,7 +158,7 @@
      <item>Type des pièces</item>
     </list>
    </div>
-<!--
+   <!--
     add entries for addenda resp=LB
     remove entries for "see"
     recategorise xxx using ana values and X
@@ -104,16 +168,21 @@
    <div type="slide">
     <head>Taille de pièce</head>
     <list>
-     <item>La taille des pièces, en "actes" ou en pages, semble varier avec son type (drame, farce, etc.) </item>
-     <item>Les drames sérieuses et les tragédies necessitaient au moins 3, 4, ou 5  actes i.e. vers 50 pages; les farces
-      et les petites comédies beaucoup moins (entre 10 et 50 pp)</item>
-     <item>Jusqu'aux 80s, une soirée théatrale typique  nécessitait une grande pièce avec une ou deux
+     <item>La taille des pièces, en "actes" ou en pages, semble varier avec son type (drame, farce,
+      etc.) </item>
+     <item>Les drames sérieuses et les tragédies necessitaient au moins 3, 4, ou 5 actes i.e. vers
+      50 pages; les farces et les petites comédies beaucoup moins (entre 10 et 50 pp)</item>
+     <item>Jusqu'aux 80s, une soirée théatrale typique nécessitait une grande pièce avec une ou deux
       petites pièces d'accompagnement</item>
      <item>La taille d'une pièce (no. des actes) déterminait ses bénéfices financières -- à
       l'auteur, au licenseur -- et bien sur son prix de production</item>
     </list>
-    <figure><graphic url="../media/sizeByVol.png"/></figure>
-    <p rend="box">Avec deux exceptions, chaque volume de la LAE fournissait des pièces de taille assortie. Une des exceptions (vol 19) est un volume évidemment conḉu comme hommage  à J.R. Planché, ne contenant que son oeuvre</p>
+    <figure>
+     <graphic url="../media/sizeByVol.png"/>
+    </figure>
+    <p rend="box">Avec deux exceptions, chaque volume de la LAE fournissait des pièces de taille
+     assortie. Une des exceptions (vol 19) est un volume évidemment conḉu comme hommage à J.R.
+     Planché, ne contenant que son oeuvre</p>
    </div>
    <div type="slide">
     <head>"Fraicheur"</head>
@@ -130,6 +199,15 @@
      pièces récentes. Mais la proportion de pieces plus antiques parait s'accroitre vers la fin de
      l'édition. </p>
    </div>
+   <div type="slide"><head>Genre</head>
+    <list><item>on peut classer les pieces selon un taxinomie basique (("drame", "comedie", "farce", "tragedie", "opera", "burlesque" ...) ou selon sa description dans les sources ("")</item><item>Nicoll nous fournit une classification toute faite</item><item>Mais dans une taxinomie qui confond les deux methodes de classification </item></list>
+   <figure><graphic url="../media/camembert.png"/></figure>
+    <p>Certain des genres sont plus ou moins present a un moment donne </p>
+    <figure><graphic url="../media/genreByDecade.png"/></figure>
+    
+  <p>Est-ce  que la selection de Lacy est representative ?</p> 
+    <figure><graphic url="../media/lacyCamembert.png"/></figure>
+   </div>
 
 
    <div type="slide">
@@ -145,16 +223,16 @@
    </div>
    <div type="slide">
     <head>Exemple en prose</head>
-    <figure>
-     <graphic url="../media/primaStart.png" width="60%"/>
-    </figure>
-    <cb/>
+ 
 
-    <figure>
+   <!-- <figure>
      <graphic url="../media/primaStartX.png" width="50%"/>
+    </figure>-->
+   <table><row><cell> <figure>
+     <graphic url="../media/primaStart.png" width="700px"/>
     </figure>
-
-    <!--<egXML xmlns="http://www.tei-c.org/ns/Examples" rend="tiny">    
+  </cell><cell>
+  <egXML xmlns="http://www.tei-c.org/ns/Examples" rend="tiny">    
     <body>
    <head>The Prima Donna.</head>
    <div type="act">
@@ -178,40 +256,21 @@
     <p>Ah signora ! the idea of your travelling alone—you who are besieged by lovers.</p>
     </sp><sp>
     <speaker>Stel.</speaker>
-    <p>Sir!</p>
-    </sp><sp>
-    <speaker>Rou.</speaker>
-    <p>Oh in the most honourable sense of the word, reproach has never looked upon you —
-     no — amongst the roses that have strewn your path there has been no thorn.</p>
-    </sp><sp>
-    <speaker>Stel.</speaker>
-    <p>Pardon me I feel one now.</p>
-    </sp><sp>
-    <speaker>Rou.</speaker>
-    <p><stage>(bowing)</stage> Eh ? Oh I thank you—you the Prima Donna, who have turned Milan into a
-      lunatic asylum—the syren, on whose notes the intrigues of courts and the calculations of
-      commerce have hung suspended—you, whose actions are the business and livelihood of a hundred
-      spies.</p>
-    </sp><sp>
-    <speaker>Stel.</speaker>
-    <p>Spies!</p>
-    </sp><sp>
-    <speaker>Rou.</speaker>
-    <p>I have kept a dozen myself in constant pay.</p>
+    <p><stage>(Outraged)</stage>Sir!</p>
     </sp></div></body>
      
     </egXML>
     
-    -->
-
+</cell></row></table>
 
    </div>
    <div type="slide">
     <head>Exemple en vers</head>
-    <egXML xmlns="http://www.tei-c.org/ns/Examples"> <body>
+     <egXML xmlns="http://www.tei-c.org/ns/Examples" > <body>
      <head>The Death Of Marlowe.</head>
      <div type="scene">
-      <stage type="setting">Scene First. — Public Gardens — Liberty of the Clink, Southwark. </stage>
+      <stage type="setting">Scene First. — Public Gardens 
+       — Liberty of the Clink, Southwark. </stage>
       <stage>Enter Marlowe and Heywood, R. </stage>
       <sp>
        <speaker>Heywood.</speaker>
@@ -229,12 +288,14 @@
       </sp>
       <sp> <speaker>Marl.</speaker>
        <l>Good Master Heywood,</l>
-       <l>I prithee plague me not with what thou'st heard; </l> ... </sp>
+       <l>I prithee plague me not with what thou'st heard; </l> 
+      ... </sp>
      </div>
      </body></egXML>
     <cb/>
-    <p> <graphic url="../media/image2.png" height="100%" width="50%"/> </p>
-   </div>
+    <p> <figure><graphic url="../media/image2.png" height="100%" width="50%"/></figure> </p>
+    
+    </div>
 
 
    <div type="slide">
@@ -260,10 +321,22 @@
    <div type="slide">
     <head>Encodage des castings</head>
 
-    <p> <graphic url="../media/image7.png" height="100%" width="70%"/> </p>
-    <cb/>
+    <table><row><cell><p> <graphic url="../media/image7.png" width="600px"/> </p>
+    </cell><!--<cell>
     <p><graphic url="../media/image8.png" width="50%"/></p>
-
+    </cell>--><cell> <egXML xmlns="http://www.tei-c.org/ns/Examples" rend="tiny"><performance>
+     <p>First performed at the Royal Princess's Theatre, 
+      on Saturday, September 18th, 1852.</p>
+     <castList>
+      <head>Characters</head>
+      <castItem><role gender="F">Stella</role><actor sex="F">Miss Heath.</actor></castItem>
+      <castItem><role gender="F">Margaret</role><actor sex="F">Miss Robertson.</actor></castItem>
+      <castItem><role gender="M">Rouble</role><actor sex="M">Mr. Walter Law.</actor></castItem>
+      <castItem><role gender="M">Eric</role> <actor sex="M">Mr. Cathcart.</actor></castItem>
+      <castItem><role gender="M">Holbein</role><actor sex="M">Mr. Addison.</actor></castItem>
+     </castList>
+    </performance>     
+    </egXML></cell></row></table>
    </div>
 
    <div type="slide">
@@ -276,9 +349,12 @@
      <pb n="3"/> <castList> <head> Fairies Invited To The Banquet </head> <castItem> <role
      gender="F">The Fairy Antidota</role><actor sex="F"> Miss Lee.</actor></castItem> <castItem>
      <role gender="F">The Fairy Elegantia</role> <actor sex="F">Miss E. Phillips.</actor>
-     </castItem> <castItem> <role gender="F">The Fairy Dewdrop </role><actor sex="F">Miss
-     Baker</actor> </castItem> <castItem><role gender="F">The Fairy Rosebud</role> <actor sex="F"
-     >Miss Fiztjames.</actor> </castItem> <castItem> <role gender="F">The Fairy Gossamer</role>
+     </castItem> 
+      <castItem> 
+       <role gender="F">The Fairy Dewdrop </role>
+       <actor sex="F">Miss Baker</actor> </castItem> 
+      <castItem><role gender="F">The Fairy Rosebud</role> <actor sex="F">Miss Fitzjames.</actor> </castItem> 
+      <castItem> <role gender="F">The Fairy Gossamer</role>
      <actor sex="F">Miss Charlton.</actor> </castItem> <castItem><role gender="F">The Fairy
      Philomel</role> <actor sex="F">Miss Lane.</actor> </castItem> <castItem> <role gender="F">The
      Fairy Choremusica </role><actor sex="F">Miss Jackson. </actor></castItem> <castItem> <role
@@ -287,7 +363,8 @@
      Brace, Charles, Chant, T. Ireland, Santry, Davis, Butler, Roberts, Andrews, Russel,
      &amp;c.</actor><actor sex="F"> Mesdames Hatton, Chester, Fenton, Platt, Schmidt, Bailey,
      Beresford, A. Jackson, Wood, Maynard, Davis, Gardner, Goward, Cummins, Collett, Butler,
-     &amp;c.</actor> </castItem> </castList> <castList> <head>Part Second-Period, 1601. Vestibule In
+     &amp;c.</actor> </castItem> </castList> 
+     <castList> <head>Part Second-Period, 1601. Vestibule In
      The Royal Castle.</head> <castItem><role gender="F"> The Lady Aurora
      Abigail</role><roleDesc>(First Lady of the Bed Chamber)</roleDesc><actor sex="F"> Miss.
      Rainforth.</actor> </castItem> </castList> <castList> <head> Apartment of the Princess in the
@@ -295,9 +372,11 @@
      </role><roleDesc>(aged 18, all but an hour or so)</roleDesc><actor sex="F">Madame Vestris.
      </actor></castItem> </castList>
      <p> Mademoiselle Maria Luigia Bettoni &amp; Monsieur Saxoni will dance a new Pas De Deux,
-     (Being their Second Appearance at this Theatre.) </p> <castList> <head>Lobby And Lumber Room At
-     The Very Top Of The Castle.</head> <castItem><role gender="F"> Old Woman</role><roleDesc>(still
-     a Spinster)</roleDesc> <actor sex="F">Madame Simon.</actor> </castItem> </castList> <castList>
+     (Being their Second Appearance at this Theatre.) </p> 
+     <castList> <head>Lobby And Lumber Room At The Very Top Of The Castle.</head> 
+      <castItem><role gender="F"> Old Woman</role><roleDesc>(still
+     a Spinster)</roleDesc> <actor sex="F">Madame Simon.</actor> 
+      </castItem> </castList> <castList>
      <head> State Bed Chamber. </head> <castItem><role gender="F"> Sylphides.</role> <actor sex="F"
      >Miss Fairbrother, Mrs. Gibson. Miss Ryals, and Miss Kendall.</actor> </castItem> </castList>
     </egXML>
