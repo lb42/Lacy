@@ -1,0 +1,3 @@
+saxon ../catalogue.xml sizeByVol.xsl > ../sizeByVol.csv
+saxon ../catalogue.xml ageByVol.xsl > temp.txt
+cat plotDatesHead.txt temp.txt plotDatesTail.txt > ../ageByVol.html

@@ -16,18 +16,13 @@
   <xsl:text>['vol', 'age &lt; 5', 'age 5 - 19', 'age 20+'],
  </xsl:text>
          <xsl:for-each select="div">
-         <xsl:sort select="substring-after(@n,'/')"/>
+         <xsl:sort select="number(substring-before(@n,'/'))"/>
             <xsl:variable name="vol"><xsl:value-of select="substring-before(@n,'/')"/></xsl:variable>
             <xsl:variable name="volYr"><xsl:value-of select="substring-after(@n,'/')"/></xsl:variable>
             <xsl:variable name="low1" select="$volYr - 5"/>
             <xsl:variable name="low2" select="$volYr - 20"/>
             <xsl:variable name="low3" select="1700"/>
-         <!-- <xsl:message>For <xsl:value-of select="$volYr"/> selecting  </xsl:message>
-          <xsl:message> fresh  <xsl:value-of select="bibl[not(@status='replaced')]/note[@type='firstPerf']/date/@notAfter[. >= $low1 and . &lt;= $volYr]"/></xsl:message>
-          <xsl:message> less fresh  <xsl:value-of select="bibl[not(@status='replaced')]/note[@type='firstPerf']/date/@notAfter[. >= $low2 and . &lt;= $low1]"/></xsl:message>
-          <xsl:message> not fresh  <xsl:value-of select="bibl[not(@status='replaced')]/note[@type='firstPerf']/date/@notAfter[. >= $low3 and . &lt;= $low2]"/></xsl:message>
-      -->    
-            
+
          <xsl:text>['</xsl:text> <xsl:value-of select="$vol"/> <xsl:text>', </xsl:text> 
          <xsl:value-of select="count(bibl[not(@status='replaced')]/note[@type='firstPerf']/date/@notAfter[. >= $low1 and . &lt;= $volYr])"/><xsl:text>,</xsl:text>
          <xsl:value-of select="count(bibl[not(@status='replaced')]/note[@type='firstPerf']/date/@notAfter[. >= $low2  and . &lt;= $low1])"/><xsl:text>,</xsl:text>

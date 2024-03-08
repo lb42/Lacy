@@ -15,8 +15,8 @@
  <xsl:template match="body">     <xsl:text>['vol', 'pp &lt; 25', 'pp 25 - 49', 'pp 50+',
  </xsl:text>
          <xsl:for-each select="div">
-         <xsl:sort select="substring-after(@n,'/')"/>
-            <xsl:variable name="vol"><xsl:value-of select="substring-before(@n,'/')"/></xsl:variable>
+          <xsl:sort select="number(substring-before(@n,'/'))"/>
+          <xsl:variable name="vol"><xsl:value-of select="substring-before(@n,'/')"/></xsl:variable>
             <xsl:variable name="volYr"><xsl:value-of select="substring-after(@n,'/')"/></xsl:variable>          
          <xsl:text>'</xsl:text> <xsl:value-of select="$vol"/> <xsl:text>', </xsl:text> 
          <xsl:value-of select="count(bibl[not(@status='replaced')][starts-with(@type,'S')])"/><xsl:text>,</xsl:text>
