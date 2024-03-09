@@ -7,7 +7,6 @@
      numérisation de <hi rend="italic">Lacy's Acting Edition.</hi> </title>
     <author>Lou Burnard</author>
    </titleStmt>
-   
    <publicationStmt>
     <p>Unpublished draft for delivery at Uni Caen 2024-3-15</p>
    </publicationStmt>
@@ -16,8 +15,8 @@
    </sourceDesc>
   </fileDesc>
   <revisionDesc>
-
-   <change> <name>First draft started</name> <date>2024-02-22T20:04:05.117590525</date> </change>
+<change when="2024-03-08">Sent to PYB for relecture</change>
+   <change when="2024-02-22">First draft started</change>
   </revisionDesc>
  </teiHeader>
  <text>
@@ -44,16 +43,16 @@
       <item>Toute représentation théatrale devrait etre licenciée par un office d'état (le Lord
        Chamberlain's Office)</item>
       <item>Toute représentation théatrale nécessitait paiement d'une redevance au ayant-droit: soit
-       un editeur comme Lacy, soit la Society of Dramatic Authors</item>
+       un éditeur comme Lacy, soit la Society of Dramatic Authors</item>
       </list></item>
-     <item>Les editeurs vendait les "Acting Editions" sous deux formats </item>
-     <item>Le marché supportait: <list>
+     <item>Les editeurs vendait les "Acting Editions" sous deux formats<list>
       <item>la pièce individuelle à 6 pence </item>
       <item>le volume relié à 7 shillings</item>
       </list></item>
-     <item>Avec quelques exceptions, éditer l'oeuvre complète d'un auteur dramatique n'était guère
-      rentable avant la fin du siecle</item>
+     <item>Avec de rares exceptions, l'édition des pièces de théatre destinée au "lecteur dans son cabinet" n'était plus
+      rentable entre 1830 et 1890. </item>
     </list>
+   
    </div>
    <div type="slide">
     <head>Une pièce individuelle</head>
@@ -63,13 +62,25 @@
      <item>public ciblé: acteurs professionels et amateurs</item>
      <item>disponibilité tres répandu</item>
     </list>
-    <p rend="box">des productions à petit budget, purement utilitaires, conçues pour faciliter
+    <p rend="box">Des productions à petit budget, purement utilitaires, conçues pour faciliter
      l’expérience théâtrale complète, mais en aucun cas pour la remplacer.</p>
     <cb/>
     <p> <graphic url="media/L0106-cover.png" height="70%" width="40%"/> </p>
-
-
    </div>
+   <div type="slide">
+    <head>L106</head>
+    <table>
+     <row>
+      <cell><graphic url="media/prima-perf.png"/></cell>
+      <cell><graphic url="media/prima-pref.png"/></cell>
+     </row>
+     <row>
+      <cell><graphic url="media/prima-p1.png"/></cell>
+      <cell><graphic url="media/prima-p2.png"/></cell>
+     </row>
+    </table>
+   </div>
+
    <div type="slide">
     <head>Un volume relié</head>
     <list>
@@ -160,37 +171,30 @@
    </div>
    <div type="slide">
     <head>Caracteristiques du corpus</head>
-    <p>Si on considere la LAE comme un echantillon de la production totale theatrale, attestee par
-     la base Nicoll, une question de recherche importante serait:</p>
-    <p rend="box">A quel point peut on considerer la LAE representative du theatre de son
-     epoque?</p>
-    <p>Pour repondre à cette question, il faut une investigation de quelques parametres mesurables,
+    <p>Si on considère la LAE comme échantillon de la production totale théatrale, attestée par la
+     base Nicoll, une question de recherche importante serait:</p>
+    <p rend="box">A quel point peut on considérer la LAE représentative du théatre de son
+     époque?</p>
+    <p>Pour répondre à cette question, il faut une investigation de quelques paramètres mesurables,
      tels que ... </p>
     <list>
      <item>la taille des pièces</item>
-
      <item>la "fraicheur" des textes</item>
-
      <item>le genre des pièces</item>
-
      <item>l'origine des pièces</item>
+     <item>des propretés de l'auteur (sexe, renommée, age ...)</item>
+     <item>cout/complexité de production théâtrale</item>
 
     </list>
    </div>
-   <!--
-    add entries for addenda resp=LB
-    remove entries for "see"
-    recategorise xxx using ana values and X
-    
-    
-    -->
+
    <div type="slide">
     <head>Taille de pièce</head>
     <p>Nicoll ne fournit aucune indication précise des tailles des pièces énumérées dans ses
      <hi>Handlist</hi>s. Pourtant: </p>
     <list>
      <item>La taille d'une pièce, en "actes" ou en pages, semble varier directement avec son type
-      (drame, farce, etc.) : le nom utilise pour le type implique une taille relative (poar ex.
+      (drame, farce, etc.) : le nom utilise pour le type implique une taille relative (par ex.
       <hi>comedietta</hi> vs <hi>comedy</hi>, <hi>burletta</hi> vs <hi>burlesque</hi> etc.)</item>
      <item>Les drames sérieuses et les tragédies nécessitaient au moins 3, 4, ou 5 actes i.e. vers
       50 pages; les farces et les petites comédies beaucoup moins (entre 10 et 50 pp)</item>
@@ -212,7 +216,7 @@
      <item>La datation d'une pièce n'est ni evidente ni certaine, mais la plus fiable serait la date
       de sa première représentation </item>
      <item>Nous calculons cette date pour chaque volume, et ensuite nous notons combien des pièces
-      contenues sont agées de moins de 10 ans (en bleu), plus de 20 ans (en orange), et entre les
+      contenues sont agées de moins de 5 ans (en bleu), plus de 20 ans (en orange), et entre les
       deux (en rouge) </item>
     </list>
     <figure>
@@ -226,27 +230,30 @@
     <list>
      <item>On peut classer les pièces selon un taxinomie basique (("drame", "comedie", "farce",
       "tragedie", "opera", "burlesque" ...) ou selon sa description dans les sources ("Patriotic
-      Effusion", "Lyrical Drama", )</item>
+      Effusion", "Dramatic Equestrian Spectacle", "Grand Comic Romantic Operatic Melo-Dramatic Fair
+      Extravaganza" ...)</item>
      <item>Nicoll nous fournit une classification toute faite ... mais qui semble confondre les deux
-      methodes de classification </item>
-     <item>J'ai essaye de simplifier un peu en regroupant les "types" de Nicoll en des classes plus
-      larges</item>
+      methodes de classification. Et plusieurs valeurs utilisés dans les notices ne sont pas
+      explicités dans sa taxinomie. On trouve par exemple "Past." (Pastoral), "Past.D." (Drama
+      pastorale), "Past.O." (Opera pastorale), et "Pasticcio" (?).</item>
+     <item>J'ai essayé de simplifier un peu en regroupant les "types" de Nicoll en des classes plus
+      larges. </item>
     </list>
-
+<p><graphic url="media/taxonomy.png"/></p>
     <table>
      <row>
       <cell> <figure>
        <graphic url="media/allClass.png"/>
-       <head>Genre des représentations constatées par Nicoll</head>
+       <head>Distribution de genre des représentations constatées par Nicoll</head>
        </figure> </cell>
       <cell> <figure>
        <graphic url="media/L-allClass.png"/>
-       <head>Genre des titres édités par Lacy </head>
+       <head>Distribution de genre des titres édités par Lacy </head>
        </figure></cell>
      </row>
     </table>
-    <p rend="box">Evidemment, Lacy a des preferences. Par ex, le pantomime et les spectacles sont
-     relativement defavorises, peut etre parce qu'il fallait un budget serieux pour les monter... </p>
+    <p rend="box">Evidemment, Lacy a des préférences. Par ex, le pantomime et les spectacles sont
+     relativement défavorisés, peut etre parce qu'il fallait un budget sérieux pour les monter... </p>
     <!--<list>
      <item><label>Ballet</label>Ballet</item>
      <item><label>Burlesque</label></item>
@@ -266,74 +273,80 @@
    </div>
    <div type="slide">
     <head>L'évolution des préférences théatrales</head>
-    <p>En visualisant la distribution des genres preférés par décennie, on peut tracer l'évolution
+    <p>En visualisant la distribution des genres préférés par décennie, on peut tracer l'évolution
      de la mode (ou du gout) populaire</p>
+    <p>On peut aussi comparer les chiffres dans LAE et selon Nicoll.</p>
     <table>
      <row>
       <cell> <figure>
        <graphic url="media/typesByDecade.png" width="90%"/>
-       <head>% Distribution (par décennie) des types Nicoll le plus frequent</head>
+       <head>% Distribution (par décennie) des types Nicoll le plus fréquent</head>
        </figure></cell>
       <cell> <figure>
-       <graphic url="media/classByDecade.png"/>
-       <head>% Distribution (par décennie) de classes de types (toutes)</head>
+       <graphic url="media/L-typesByDecade.png"/>
+       <head>% Distribution (par décennie) des types Nicoll le plus fréquent (LAE)</head>
        </figure> </cell>
      </row>
     </table>
-    <p>Est-ce que la selection de Lacy est representative ?</p>
+    <p rend="box">Deux problèmes: il y a plusieurs types de basse fréquence qui ne sont pas pris en compte; les données manquent pour quelques décennies </p>
+    </div>
+   <div type="slide"><head>Avec regroupement des types en classes ... </head>
+ 
+    <p>Est-ce que la séléction de Lacy est représentative ?</p>
     <table>
      <row>
       <cell> <figure>
-       <graphic url="media/L-typesByDecade.png"/>
+       <graphic url="media/classByDecade.png"/>
+       <head>% Distribution (par décennie) de "classes" de types (toutes)</head>
        </figure></cell>
       <cell> <figure>
        <graphic url="media/L-classByDecade.png"/>
-       </figure></cell>
+       <head>% Distribution (par décennie) de "classes" de types (LAE)</head>
+      </figure></cell>
      </row>
     </table>
    </div>
-   <!-- repeat with smaller time focus -->
+  
 
 
 
 
    <div type="slide">
-    <head>Disponibilite des versions imprimees</head>
-    <p>On trouve des copies de la LAE plus ou moins complète dans plusieurs grand bibliotheques,
+    <head>Disponibilité des versions imprimées</head>
+    <p>On trouve des copies de la LAE plus ou moins complète à plusieurs grand bibliothèques,
      notamment <list>
-     <item>Le Folger dispose d'une serie complete, anciennement du Garrick Club</item>
-     <item>Les grands bibliothèque de dépôt légal, (British Library, Bodleian, etc) peut etre (mais
-      la LAE elle-meme ne figure pas au catalogue)</item>
-     <item>Plusieurs autres bibliothèques disposent de series incomplètes, par ex Aberdeen (64 vol),
+     <item>Le Folger dispose d'une série complète, anciennement du Garrick Club</item>
+     <item>Les grands bibliothèques de dépôt légal, (British Library, Bodleian, etc) devrait en avoir, mais
+      je ne trouve pas la LAE elle-meme  au catalogues </item>
+     <item>Quelques autres bibliothèques disposent de séries incomplètes, par ex Aberdeen (64 vol),
       Michigan (94 vol) </item>
      </list></p>
-    <p>On trouve des copies des pièces individuelles dans quelques collections spécialisées <list>
+    <p>On trouve des copies des pièces individuelles dans quelques collections spécialisées, par exemple:  <list>
      <item>Au BU de Warwick, la "Hall Collection of Prompt Books" : presque 600 livrets de souffleur
       anciennement appartenant à une actrice professional, dont 102 titres proviennent de la LAE </item>
-     <item>Washington</item>
-     <item>Au BU de Californie, la "Playscript collection P200" fait mention de 347 items attributes
+     <item>Au BU de Californie, la "Playscript collection P200" fait mention de 347 items attribués
       à Lacy</item>
-     <item>Au BU de Washington, la "19th century Acting Editions Collection à catalogue 363 items de
-      la LAE</item>
+     <item>Au BU de Washington, la "19th century Acting Editions Collection" à catalogué 363 items
+      de la LAE</item>
      </list></p>
    </div>
    <div type="slide">
     <head>Avant Google Books, il y avait ... </head>
-    <p>Entre l'imprime et la numerisation de masse, il y avait une fois d'autre formats de
+    <p>Entre l'imprimé et la numérisation de masse, il y avait une fois d'autre formats de
      distribution, notamment:</p>
     <list>
-     <item>les filmes de préservation microform: par exemple "English and American Drama of the 19th
+     <item>les collections de préservation sous microforme: par exemple "English and American Drama of the 19th
       century" (1997)</item>
-     <item>les publications encylopédiques, souvent dérivées des microfilm, mais vendues par
-      souscription online ou eventuellement sur d'autre media comme CD ROM par exemple: Chadwyck
-      Healey "LION: Literature on Line" </item>
-     <item>"distribution" limitée principalement aux bibliotheques riches</item>
+     <item>les publications encylopédiques, souvent dérivées des microforme, mais vendues par
+      souscription online ou éventuellement utilisant d'autre média tels que CD ROM: par exemple
+      Chadwyck Healey "LION: Literature on Line" </item>
+     <item>"distribution" limitée principalement aux bibliothèques riches</item>
     </list>
-
+<cb/><figure><graphic url="media/microfilm.jpg"/></figure>
    </div>
    <div type="slide">
-    <head>Disponibilité des versions numerisées</head>
-    <p>On peut rechercher une version numerisée d'un titre spécifique aupres des "usual suspects"
+    <head>Disponibilité des versions numériques</head>
+    <p>On peut rechercher une version numérisée d'un titre spécifique aupres des "usual suspects"
      (Google, Hathi Trust, Online Books ... ) mais le vrai challenge est de retrouver une liste
      complète des titres de la LAE qui ont déja étés numerisées, et de la télécharger.</p>
     <p>Après plusieurs mois de travaux fastidieux et pénibles, j'ose dire que l’identification des
@@ -348,6 +361,9 @@
     <p>La vaste majorité de ces numérisations ne proposent que des images de page plus ou moins
      exacte: je n’ai trouvé qu’une soixantaine de textes déjà transcrites, soit en HTML, soit en
      RTF. </p>
+    <cb/>
+    <p><graphic url="media/hathitrust.png" width="200px"/></p><p>
+     <graphic url="media/googleBooks.png"/></p>
    </div>
    <div type="slide">
     <head>Le Victorian Plays Project: un récit édifiant </head>
@@ -357,33 +373,62 @@
     <p>Le flux d'opérations adopté consistait en : <list>
      <item>la numérisation de c. 15000 pages (effectuée sous contrat externe) en mode image</item>
      <item>l'OCRisation et chargement des textes en Word</item>
-     <item>une relecture initiale avec correction sous Word pour enrichir avec des indications du
-      format originel</item>
+     <item>une relecture initiale avec correction sous Word suivie d'une enrichissement avec des
+      indications de la mise en forme originelle</item>
      <item>un export en PDF</item>
      <item>une deuxieme relecture avec corrections direct du PDF avec Acrobat</item>
      <item>gestion, hébergement, et distribution des fichiers PDF par CMS classique</item>
      </list></p>
-    <p>Le projet était toujours actif en 2014, lorsque Pearson se déplacait à l'université de Galway
+    <p>Le projet était toujours actif en 2014, lorsque Pearson se déplaçait à l'université de Galway
      en Irlande. A ce point, le VPP proposait 340 titres de la LAE en format PDF, respectant la mise
      en forme et l'apparence des originels, et accompagné d'une base de données bibliographique, le
-     tout béneficiant de support informatique à l'univ de Galway pour sa diffusion sur le web.</p>
-    <p> Mais en 2018, Pearson est décédé, personne s'occupait du projet, et depuis juin 2022, le
-     site web est disparu... </p>
+     tout bénéficiant de support informatique à l'univ de Galway pour sa diffusion sur le web.</p>
+    <p> Mais en 2018 Pearson est décédé, personne s'occupait du projet, et depuis juin 2022, le site
+     web est disparu... </p>
    </div>
    <div type="slide">
-    <head>Relancement du projet</head>
-    <p>En avril 2022 dans le cadre du projet CLS Infra j'ai essayé de relancer un peu ce projet.
-     J'ai récupéré tout ce qui restait disponible, à Galway et ailleurs, soit: <list>
-     <item>Les documents originaux numerisés (9549 pages en tiff, pour 262 titres)</item>
-     <item>les versions PDF modernes corrigées par les soins du projet (342 titres)</item>
-     <item>la base de données bibliographiques elaborée par le projet (en forme de pages HTML :-()
-     </item>
-     </list> </p>
-    <p>J'ai converti cette base en format TEI XML, avec plusieurs corrections, mises à jour, et
-     enrichissements: notamment des indications des versions numériques disponibles online.</p>
-    <p rend="box">Ces travaux sont toujours en cours. La version actuelle est visible à <ref
-     target="http://lb42.github.io/Lacy/lacyCatalogue.html"
-     >http://lb42.github.io/Lacy/lacyCatalogue.html</ref> </p>
+    <head>Relancement du projet VPP</head>
+    <table>
+     <row>
+      <cell>
+       <p>En avril 2022 dans le cadre du projet CLS Infra j'ai essayé de relancer un peu ce projet.
+       J'ai récupéré tout ce qui restait disponible, à Galway et ailleurs, soit: <list>
+       <item>les documents originaux numerisés (9549 pages en tiff, pour 262 titres)</item>
+       <item>les versions corrigées par les soins du projet (342 titres en PDF moderne)</item>
+       <item>la base de données bibliographiques elaborée par le projet (en forme de pages HTML :-()
+       </item>
+       </list> </p>
+       <p>J'ai converti cette base en format TEI XML, avec plusieurs corrections, mises à jour, et
+       enrichissements: notamment des indications des versions numériques disponibles online.</p>
+       <p rend="box">Ces travaux sont toujours en cours. La version actuelle est visible à <ref
+       target="http://lb42.github.io/Lacy/lacyCatalogue.html"
+       >http://lb42.github.io/Lacy/lacyCatalogue.html</ref> </p>
+       <p>Autre objectif, un peu quichottesque, la création des versions TEI-XML de l'ensemble de la
+       LAE </p> </cell>
+      <cell>
+       <p><graphic url="media/donquich.jpg" width="400px"/></p></cell>
+     </row>
+    </table>
+   </div>
+   <div type="slide">
+    <head>Comment faire d'une buse un epervier ...</head>
+    <p>Jusqu'a présent je n'ai trouvé aucune méthode 100% fiable de convertir les PDF du VPP en
+     TEI-XML bien structure, dans la mesure où toutes ont nécessité un certain degré de rangement
+     manuel, variable en termes de temps nécessaire. Et pour la conversion des PDF page-image du
+     Hathi Trust/Google etc. la situation est encore pire. </p>
+    <p>Pour les (peu nombreuses) pieces déjà transcrites, par ex HTML du Project Gutenberg ou RTF de
+     Chadwyck Healey, la conversion en TEI-XML semble plus simple, mais une controle du texte par
+     rapport aux pages originales s'impose toujours. </p>
+    <p>Pour les autres, voici la solution la moins pire que j'ai adoptée ... </p>
+    <list>
+     <item>OCRisation du VPP-PDF avec sortie en Word (merci Huma-Num)</item>
+     <item>Conversion Word-TEI (merci TEI Stylesheets)</item>
+     <item>Amelioration de l'encodage TEI (XSLT maison)</item>
+     <item>Enrichissement du TEI Header (ibid)</item>
+     <item>Relecture du texte par rapport aux pages d'une édition source </item>
+    </list>
+    <p>Par ces méthodes, nous disposons actuellement de 61 pièces en TEI-XML minimal, une petite
+     étape préliminaire vers l'établissement d'une édition numérique de la LAE...</p>
    </div>
    <div type="slide">
     <head>Encodage TEI (minimal)</head>
@@ -399,9 +444,8 @@
    <div type="slide">
     <head>Exemple en prose</head>
 
-
     <!-- <figure>
-     <graphic url="media/primaStartX.png" width="50%"/>
+     <graphic url="media/primaStartx.png" width="50%"/>
     </figure>-->
     <table>
      <row>
@@ -435,17 +479,17 @@
         </sp>
         <sp>
          <speaker>Stel.</speaker>
-         <p><stage>(Outraged)</stage>Sir!</p>
+         <p>Sir!</p>
         </sp>
        </div>
        </body> </egXML> </cell>
      </row>
     </table>
-
    </div>
+
    <div type="slide">
     <head>Exemple en vers</head>
-    <egXML xmlns="http://www.tei-c.org/ns/Examples"> <body>
+    <egXML xmlns="http://www.tei-c.org/ns/Examples" rend="tiny"> <body>
      <head>The Death Of Marlowe.</head>
      <div type="scene">
       <stage type="setting">Scene First. — Public Gardens — Liberty of the Clink, Southwark. </stage>
@@ -473,33 +517,17 @@
     <p> <figure>
      <graphic url="media/marloweStart.png" height="100%" width="50%"/>
      </figure> </p>
-
    </div>
 
 
    <div type="slide">
     <head>Encodage des pages de titre</head>
-    <!-- <p style="text-align: left;">The &lt;titlePage&gt; element contains a transcription of the
-      text printed on the title page of a play. This will usually contain</p>
-     <list rend="numbered">
-      <item>at least one and usually several title fragments, each within a
-       &lt;titlePart&gt;</item>
-      <item>a byline indicating the author and their other works</item>
-      <item>an imprint, usually including Lacy’s address</item>
-     </list>-->
-
     <p> <graphic url="media/primaTitlePage.png" height="100%" width="50%"/> </p>
     <cb/>
     <p><graphic url="media/primaTitle.png" width="50%"/></p>
-
-    <!--   <p>The formatting of the original is mostly discarded: the markup only distinguishes the main
-      title from its subtitle, and also indicates the boundaries of the other titles mentioned.
-      Case is normalized, and line breaks ignored, just as when transcribing the text of the play.
-     </p>-->
    </div>
    <div type="slide">
-    <head>Encodage des castings</head>
-
+    <head>Encodage de la distribution des rôles</head>
     <table>
      <row>
       <cell>
@@ -520,7 +548,7 @@
    </div>
 
    <div type="slide">
-    <head>Exemple un peu plus complexe...</head>
+    <head>Exemple un peu plus complex...</head>
     <p> <graphic url="media/castListPlusSetting.png" height="100%" width="70%"/> </p>
    </div>
    <div type="slide">
@@ -554,6 +582,23 @@
      <head> State Bed Chamber. </head> <castItem><role gender="F"> Sylphides.</role> <actor sex="F"
      >Miss Fairbrother, Mrs. Gibson. Miss Ryals, and Miss Kendall.</actor> </castItem> </castList>
     </egXML>
+   </div>
+   <div type="slide">
+    <head>Perspectives et travaux en cours</head>
+    <list>
+     <item>associer chaque item du catalogue Lacy avec une notice Nicoll (restent c. 250 cas
+      mystérieux)</item>
+     <item>améliorer la structuration des notices Nicoll (par ex. distinguer les adaptations;
+      distinguer les renvois) </item>
+     <item>améliorer l'affichage des textes TEI sur le site </item>
+     <item>continuer la conversion en TEI des textes</item>
+     <item>repenser la méthode d'encoder en TEI (essayer FETE? IA?)</item>
+     <item>améliorer la visibilité du projet</item>
+    </list>
+    <cb/>
+    <figure>
+     <graphic url="media/brownWork.jpg" width="600px"/>
+    </figure>
    </div>
   </body>
  </text>
