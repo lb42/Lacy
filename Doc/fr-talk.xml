@@ -424,14 +424,14 @@
      Chadwyck Healey, la conversion en TEI-XML semble plus simple, mais une contrôle du texte par
      rapport aux pages originales s'impose toujours. </p>
     <p>Pour les autres, voici la solution la moins pire que j'ai adoptée ... </p>
-    <list>
+   <table><row><cell> <list>
      <item>OCRisation du VPP-PDF avec sortie en Word (merci Huma-Num)</item>
      <item>Conversion Word-TEI (merci TEI Stylesheets)</item>
      <item>Amélioration de l'encodage TEI (XSLT maison; merci oXygen)</item>
      <item>Enrichissement du TEI Header (ibid)</item>
      <item>Relecture du texte par rapport aux pages d'une édition source </item>
     </list>
-    <p>Par ces méthodes, nous disposons actuellement de 61 pièces en TEI-XML minimal, une petite
+</cell><cell><graphic url="media/epervier.jpg"/></cell></row></table>    <p>Par ces méthodes, nous disposons actuellement de 61 pièces en TEI-XML minimal, une petite
      étape préliminaire vers l'établissement d'une édition numérique de la LAE...</p>
    </div>
    <div type="slide">
@@ -551,6 +551,25 @@
        Addison.</actor></castItem> </castList> </performance> </egXML></cell>
      </row>
     </table>
+   </div><div type="slide"><head>Association énoncés/personnes</head>
+   <list>
+    <item>A faire: utilisation de <gi>particDesc</gi></item>
+   </list>
+  <egXML xmlns="http://www.tei-c.org/ns/Examples">
+   <sp who="#L0106_001">
+    <speaker>Stel.</speaker>
+     <p>Sir!</p>
+   </sp>
+   <!-- ... -->
+   <particDesc>
+    <person xml:id="L0106_001" age="20">
+     <persName>Stella</persName>
+     <occupation>Actress</occupation>
+    <!-- ... etc -->
+    </person>
+   </particDesc>
+  </egXML>
+   
    </div>
 
    <div type="slide">
@@ -597,8 +616,7 @@
    <div type="slide">
     <head>Perspectives et travaux en cours</head>
     <list>
-     <item>associer chaque item du catalogue Lacy avec une notice Nicoll (restent c. 250 cas
-      mystérieux)</item>
+     <item>associer chaque item du catalogue Lacy avec une notice Nicoll ; intégrer l'information des notices du Lord Chamberlain's Office concernant les versions manuscrites</item>
      <item>améliorer la structuration des notices Nicoll (par ex. distinguer les adaptations;
       distinguer les renvois) </item>
      <item>améliorer l'affichage des textes TEI sur le site </item>
