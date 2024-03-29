@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model
-href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_odds.rng"
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_odds.rng"
 type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0" ?>
 <?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_odds.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude"
- xmlns:sch="http://purl.oclc.org/dsdl/schematron" xmlns:e="http://distantreading.net/eltec/ns">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:sch="http://purl.oclc.org/dsdl/schematron" xmlns:e="http://distantreading.net/eltec/ns">
  <teiHeader>
   <fileDesc>
    <titleStmt>
@@ -39,72 +37,8 @@ type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0" ?>
     
     
     
-<schemaSpec ident="lacy" start="TEI">
-
- <!-- (1) which modules and which elements from those modules ? -->
- 
- <moduleRef key="tei"/>
-     <moduleRef key="core"
-      include="p foreign emph hi name date ptr ref list item label head note pb  series author respStmt resp title publisher bibl l lg sp speaker stage sic corr quote delSpan anchor"/>
-    <!-- include="author bibl choice corr orig date emph foreign gap head hi item l label lg list measure
-            milestone name note p pb publisher pubPlace quote ref resp respStmt rs sp stage hi teiCorpus term title "/>
-   -->  
-     <moduleRef key="textstructure" 
-     include="TEI text body div trailer byline titlePage docTitle titlePart docAuthor docImprint docDate epigraph signed front back"/>
-     <!--include="TEI text div body front back trailer"/>-->
-     <moduleRef key="header"
-      include="teiHeader fileDesc titleStmt publicationStmt distributor sourceDesc encodingDesc revisionDesc change idno"/>
-     <!--include="availability change  distributor encodingDesc
-                   extent fileDesc idno keywords langUsage language licence
-            profileDesc publicationStmt revisionDesc sourceDesc teiHeader textClass titleStmt"/>-->
- <moduleRef key="drama"
-  include="set performance castGroup castList castItem role roleDesc actor spGrp sound"/>
- 
- <!-- <moduleRef key="corpus" include="textDesc"/>  --> 
- <!-- <moduleRef key="analysis" include="s w pc span spanGrp"/>-->
-     
-     
- <!-- (2) Class modifications to reduce attribute clutter -->
-     
-     <!-- first remove classes which provide attributes we dont want -->
- 
-     <classSpec ident="att.ascribed" type="atts" mode="delete"/>
-     <classSpec ident="att.breaking" type="atts" mode="delete"/>
-     <classSpec ident="att.cReferencing" type="atts" mode="delete"/>    
- <classSpec ident="att.calendarSystem" type="atts" mode="delete"/>
- <classSpec ident="att.datable.iso" type="atts" mode="delete"/>
-     <classSpec ident="att.datable.custom" type="atts" mode="delete"/>
-     <classSpec ident="att.declarable" type="atts" mode="delete"/>
-     <classSpec ident="att.declaring" type="atts" mode="delete"/>
-     <classSpec ident="att.divLike" type="atts" mode="delete"/>
-     <classSpec ident="att.docStatus" type="atts" mode="delete"/>
-    <classSpec ident="att.editLike" type="atts" mode="delete"/>
-     <classSpec ident="att.fragmentable" type="atts" mode="delete"/>
-     <classSpec ident="att.global.responsibility" type="atts" mode="delete"/>
-     <classSpec ident="att.global.source" type="atts" mode="delete"/>
-     <classSpec ident="att.internetMedia" type="atts" mode="delete"/>
- <!--     <classSpec ident="att.naming" type="atts" mode="delete"/>
--->    
- <classSpec ident="att.personal" type="atts" mode="delete"/>
-  <classSpec ident="att.ranging" type="atts" mode="delete"/>
-     <classSpec ident="att.spanning" type="atts" mode="delete"/>
-     <classSpec ident="att.timed" type="atts" mode="delete"/>
-     <classSpec ident="att.written" type="atts" mode="delete"/>
- <!--   <classSpec ident="att.measurement" type="atts" mode="delete"/>
-        <classSpec ident="att.placement" type="atts" mode="delete"/>
-        <classSpec ident="att.edition" type="atts" mode="delete"/>
-  -->  
- 
- <!-- next modifications for classes which provide some attributes we want and some we don't -->
- 
- <classSpec ident="att.naming" type="atts" mode="change">
-  <attList>
-   <attDef ident="nymRef" mode="delete"/>
-  </attList>
- </classSpec>
- 
- 
- <classSpec ident="att.canonical" type="atts" mode="change">
+<schemaSpec ident="lacy" start="TEI" prefix="tei_" targetLang="en" docLang="en"><moduleRef key="tei"/><moduleRef key="core" include="p foreign emph hi name date ptr ref list item label head note pb series author respStmt resp title publisher bibl l lg sp speaker stage sic corr quote delSpan"/><moduleRef key="textstructure" include="TEI text body div trailer byline titlePage docTitle titlePart docAuthor docImprint docDate epigraph signed front back"/><moduleRef key="header" include="teiHeader fileDesc titleStmt publicationStmt distributor sourceDesc encodingDesc revisionDesc change idno extent profileDesc langUsage language"/><moduleRef key="drama" include="set performance castGroup castList castItem role roleDesc actor spGrp "/>
+ <moduleRef key="linking" include="seg"/><classSpec ident="att.ascribed" type="atts" mode="delete"/><classSpec ident="att.breaking" type="atts" mode="delete"/><classSpec ident="att.cReferencing" type="atts" mode="delete"/><classSpec ident="att.calendarSystem" type="atts" mode="delete"/><classSpec ident="att.canonical" type="atts" mode="change">
   <attList>
    <attDef ident="ref" mode="change">
     <exemplum>
@@ -116,46 +50,50 @@ type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0" ?>
    </attDef>
    <attDef ident="key" mode="delete"/>
   </attList>
- </classSpec>
- 
- 
- <classSpec type="atts" ident="att.dimensions" mode="change">
-      <attList>
-       <attDef ident="precision" mode="delete"/>
-       <attDef ident="scope" mode="delete"/>
-      </attList>
-     </classSpec>
-<classSpec type="atts" ident="att.datable" mode="change">
+ </classSpec><classSpec type="atts" ident="att.datable" mode="change">
       <attList>
        <attDef ident="calendar" mode="delete"/>
        <attDef ident="period" mode="delete"/>
       </attList>
-</classSpec>
- 
- <classSpec type="atts" ident="att.global.rendition" mode="change">
+</classSpec><classSpec ident="att.declarable" type="atts" mode="delete"/><classSpec ident="att.declaring" type="atts" mode="delete"/><classSpec type="atts" ident="att.dimensions" mode="change">
+      <attList>
+       <attDef ident="precision" mode="delete"/>
+       <attDef ident="scope" mode="delete"/>
+      </attList>
+     </classSpec><classSpec ident="att.divLike" type="atts" mode="delete"/><classSpec ident="att.docStatus" type="atts" mode="delete"/><classSpec ident="att.editLike" type="atts" mode="delete"/><classSpec ident="att.fragmentable" type="atts" mode="delete"/><classSpec type="atts" ident="att.global.rendition" mode="change">
   <attList>
    <attDef ident="rendition" mode="delete"/>
    <attDef ident="style" mode="delete"/>
   </attList>
- </classSpec>
- 
- <classSpec type="atts" ident="att.pointing" mode="change">
+ </classSpec><classSpec ident="att.global.responsibility" type="atts" mode="delete"/><classSpec ident="att.global.source" type="atts" mode="delete"/><classSpec ident="att.internetMedia" type="atts" mode="delete"/><classSpec ident="att.naming" type="atts" mode="change">
+  <attList>
+   <attDef ident="nymRef" mode="delete"/>
+  </attList>
+ </classSpec><classSpec ident="att.personal" type="atts" mode="delete"/><classSpec type="atts" ident="att.pointing" mode="change">
   <attList>
    <attDef ident="targetLang" mode="delete"/>
    <attDef ident="evaluate" mode="delete"/>
   </attList>
- </classSpec>
- 
- 
- <classSpec type="atts" ident="att.typed" mode="change">
+ </classSpec><classSpec ident="att.ranging" type="atts" mode="delete"/><classSpec ident="att.spanning" type="atts" mode="delete"/><classSpec ident="att.timed" type="atts" mode="delete"/><classSpec type="atts" ident="att.typed" mode="change">
   <attList>
    <attDef ident="subtype" mode="delete"/>
   </attList>
- </classSpec>
- 
- <!-- 3a : element modifications : constraining attribute values -->
- 
- <elementSpec ident="actor" mode="change">
+ </classSpec><classSpec ident="att.written" type="atts" mode="delete"/><elementSpec ident="TEI" mode="change">
+  <attList>
+   <attDef ident="xml:id" mode="change" usage="req"/>
+   <attDef ident="version" mode="delete"/>
+  </attList>
+  <exemplum>
+   <egXML xmlns="http://www.tei-c.org/ns/Examples">
+    &lt;TEI xml:id="L0001" xmlns="http://www.tei-c.org/ns/1.0" &gt;
+     &lt;!--  --&gt;
+    &lt;/TEI&gt;  </egXML>
+  </exemplum>
+  <remarks>
+   <p>The attribute  xml:id should supply the Lacy Identifier for the title being encoded. This should begin with a letter L, followed by four digits, and (optionally) the letter R, if the text in question is a replacement.
+   </p>
+  </remarks>
+ </elementSpec><elementSpec ident="actor" mode="change">
   <attList>
    <attDef ident="sex" mode="change">
     <valList mode="add" type="closed">
@@ -166,48 +104,39 @@ type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0" ?>
    <attDef ident="gender" mode="delete"/>
    <attDef ident="ref" mode="delete"/>
   </attList>
- </elementSpec>
- 
- <elementSpec ident="role" mode="change">
-  <attList>
-   <attDef ident="gender" mode="change">
-    <valList mode="add" type="closed">
-     <valItem ident="F"><desc>Female</desc></valItem>
-     <valItem ident="J"><desc>Juvenile</desc></valItem>
-     <valItem ident="M"><desc>Male</desc></valItem>
-     <valItem ident="X"><desc>Mixed</desc></valItem></valList>
-   </attDef>
-  </attList>
- </elementSpec>
- 
- <elementSpec ident="spGrp" mode="change">
-  <attList>
-   <attDef ident="type" mode="delete"/>
-  </attList>
- </elementSpec>
-
- <elementSpec ident="TEI" mode="change">
-  <attList >
-   <attDef ident="xml:id" mode="change" usage="req"/>
-   <attDef ident="version" mode="delete"/>
-  </attList>
-  <exemplum>
+ </elementSpec><elementSpec ident="author" mode="change">
+  <classes>
+   <memberOf key="att.global"/>
+   <memberOf key="att.naming"/>
+   <memberOf key="model.respLike"/>
+  </classes>
+  <attList><attDef ident="calendar" mode="delete"/><attDef ident="role" mode="delete"/></attList><exemplum>
+   <p>provides the name of  an author </p>
    <egXML xmlns="http://www.tei-c.org/ns/Examples">
-   <![CDATA[ <TEI xml:id="L0001" xmlns="http://www.tei-c.org/ns/1.0" >
-     <!--  -->
-    </TEI>]]>  </egXML>
+    <author>Christof Schöch</author>
+   </egXML>
   </exemplum>
   <remarks>
-   <p>The attribute  xml:id should supply the Lacy Identifier for the title being encoded. This should begin with a letter L, followed by four digits, and (optionally) the letter R, if the text in question is a replacement.
-   </p>
+   <p>Not permitted outside the header</p>
   </remarks>
- </elementSpec>
- 
-      <elementSpec ident="change" mode="change">
+ </elementSpec><elementSpec ident="byline" mode="change">
+  <content>
+   <alternate maxOccurs="unbounded">
+    <textNode/>
+    <elementRef key="docAuthor"/>
+    <elementRef key="title"/>
+   </alternate>
+  </content>
+  <exemplum>
+   <egXML xmlns="http://www.tei-c.org/ns/Examples">
+    <byline>By <docAuthor>Shirley Brooks.</docAuthor>Author of <title>The Daughter of the
+   Stars</title>; <title>The Creole</title>; <title>The Guardian Angel</title>, &amp;c.,
+   &amp;c.</byline></egXML></exemplum>
+ </elementSpec><elementSpec ident="change" mode="change">
       <attList>
        <attDef ident="when" mode="change" usage="req"/>
        <attDef ident="target" mode="delete"/>
-      </attList>
+      <attDef ident="when-custom" mode="delete"/><attDef ident="notBefore-custom" mode="delete"/><attDef ident="notAfter-custom" mode="delete"/><attDef ident="from-custom" mode="delete"/><attDef ident="to-custom" mode="delete"/><attDef ident="datingPoint" mode="delete"/><attDef ident="datingMethod" mode="delete"/><attDef ident="when-iso" mode="delete"/><attDef ident="notBefore-iso" mode="delete"/><attDef ident="notAfter-iso" mode="delete"/><attDef ident="from-iso" mode="delete"/><attDef ident="to-iso" mode="delete"/><attDef ident="calendar" mode="delete"/></attList>
       <exemplum>
        <egXML xmlns="http://www.tei-c.org/ns/Examples">
         <change when="2023-05-19">Header confected</change>      
@@ -217,14 +146,19 @@ type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0" ?>
        <p>The <att>when</att> attribute must be supplied and should indicate a date
         in the format YYYY-MM-DD. </p>
       </remarks>
-     </elementSpec>
-    
- <elementSpec ident="div" mode="change">
+     </elementSpec><elementSpec ident="corr" mode="change">
+      <exemplum>
+       <p>The printed source reads something other than "Perdita", which has been corrected by the transcriber </p>
+       <egXML xmlns="http://www.tei-c.org/ns/Examples">
+        <l><stage>(embracing <corr>Perdita</corr>.)</stage> Kiss me, my pet—Leontes, how d'ye do ?
+        </l>
+       </egXML>
+      </exemplum>
+     </elementSpec><elementSpec ident="div" mode="change">
       
       <constraintSpec mode="add" ident="frontDivTypes" scheme="schematron">
        <constraint>
-            <sch:rule context="tei:div"><sch:assert  test="not(parent::tei:front) or @type=('costume','liminal','programme')"
-         role="ERROR">Inside the front matter, div elements must be of type liminal or costume or programme</sch:assert></sch:rule>
+            <sch:rule context="tei:div"><sch:assert test="not(parent::tei:front) or @type=('costume','liminal','programme','castList')" role="ERROR">Inside the front matter, div elements must be of type liminal or costume or programme or castList</sch:assert></sch:rule>
        </constraint>    
       </constraintSpec>    
  <attList>
@@ -243,15 +177,153 @@ type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0" ?>
          </valList>
         </attDef>
        </attList>
-       </elementSpec>
- 
-     <elementSpec ident="encodingDesc" mode="change">
+       </elementSpec><elementSpec ident="emph" mode="change">
+      <exemplum>
+       <!-- ENG19060 -->
+       <p>The editor/transcriber wishes to show that the word "my" is linguistically emphasized in
+        the original source:</p>
+       <egXML xmlns="http://www.tei-c.org/ns/Examples">Oh—don’t mind <emph>my</emph> feelings—call
+        me a mangy monkey—I’ve tried hard enough to look like one! </egXML>
+      </exemplum>
+     </elementSpec><elementSpec ident="encodingDesc" mode="change">
       <content>
        <elementRef key="p"/>
       </content>    
-     </elementSpec>
+     </elementSpec><elementSpec ident="foreign" mode="change">
+      <exemplum>
+       <p>The Latin phrase "Ab urbe condita" is not in the same language (Portuguese) as the rest of
+        the paragraph </p>
+       <egXML xmlns="http://www.tei-c.org/ns/Examples">
+        <p>E calcando a espada debaixo do pé esquerdo, curvou-a: <foreign>Ab urbe condita</foreign>,
+         da fundação de Roma, no ano seiscentos e três. </p></egXML>
+      </exemplum> 
+     </elementSpec><elementSpec ident="head" mode="change">
+      <exemplum>
+       <egXML xmlns="http://www.tei-c.org/ns/Examples">
+        <body>        
+         <head>TIME TRIES ALL.</head>
+         <div>
+          <head>Act I</head>
+          <stage type="setting">SCENE.— Handsome, Apartment in the House of Leeson and Bates, Merchants —
+           Door in C , with window on each side — Doors L.C. Flat and R. 2 E., Chairs, Tables, Sofa,
+           &amp;c., &amp;c. </stage>  
+         
+       <!-- ... -->
+            <trailer>End of Act 1</trailer>
+         </div>
+         <!-- other acts here -->
+        </body>
+       </egXML>
+       <p>A heading of any kind at the start of a division of any kind should be marked using
+         <gi>head</gi>.  The detailed description which usually begins a scene 
+       should be marked as a stage, however. </p>
+      </exemplum>
+     </elementSpec><elementSpec ident="hi" mode="change">
+      <exemplum>
+       <egXML xmlns="http://www.tei-c.org/ns/Examples">
+        <p> Yes, Harry; your old schoolfellow is <hi>Sir</hi> Charles Chatterton now. Ha! </p>
+       </egXML>
+      </exemplum>
+      <remarks>
+       <p>This element is used for any kind of typographic salience (usually italics) recorded by the
+        encoder.</p>
+      </remarks>
+     </elementSpec><elementSpec ident="idno" mode="change">
+ <attList>
+  <attDef ident="calendar" mode="delete"/>
+ </attList>
+</elementSpec><elementSpec ident="l" mode="change">
+      <exemplum> 
+       <p>When a single metrical line is split between speakers, each fragment is marked as a distinct <gi>l</gi> element, as in this example:
+       </p><egXML xmlns="http://www.tei-c.org/ns/Examples">
+        <sp>
+         <speaker>Cecilia.</speaker>
+         <l>Thoughtful sir,</l>
+         <l>How fare you? </l>
+         <l>Thou'st been reading much of late </l>
+         <l>By the moon's light, I fear me ?</l>
+        </sp>
+        <sp>
+         <speaker>Marl.</speaker>
+         <l>Why so, lady?</l>
+        </sp>
+        <sp>
+         <speaker>Cecil.</speaker>
+         <l>The reflex of the page is on thy face.</l>
+        </sp>
+       </egXML>
+      </exemplum>
+      <!-- FR0726_Gay_Elleonore -->
+     </elementSpec><elementSpec ident="label" mode="change">
+      <exemplum>
+       <egXML xmlns="http://www.tei-c.org/ns/Examples">
+        <div type="costume">
+         <list type="gloss">
+          <label>Mr. Tippity </label>
+          <item>Great coat, modern shooting jacket, light vest and trowsers.</item>
+          <label>American.</label>
+          <item>—Light frock coat, vest and trowsers, and broad hat.</item>
+          <label>Frenchman.</label>
+          <item>—Dressing gown, trowsers, beard, and moustache</item>
+          <label>Scotchman.</label>
+          <item>—Full Highland dress.</item>
+          <label>Indian.</label>
+          <item>Dress of the country.</item>
+          <label>Mrs. Tippity.</label>
+          <item>High-necked modern dress.</item>
+          <label>Clementina.</label>
+          <item>—Dark cotton dress, short sleeves, apron, &amp;c.</item>
+         </list>
+        </div></egXML>
+      </exemplum>
+     </elementSpec><elementSpec ident="name" mode="change">
+      <classes>
+       <memberOf key="att.global"/>
+      <memberOf key="att.typed"/>
+      </classes>
+      <exemplum>
+       <p>provides the name of a person who is neither an author nor a publisher</p>
+       <egXML xmlns="http://www.tei-c.org/ns/Examples">
+        <name>Christof Schöch</name>
+       </egXML>
+      </exemplum>
+      <remarks>
+       <p>Not permitted outside the header</p>
+      </remarks>
+     </elementSpec><elementSpec ident="note" mode="change">
+  
+      <attList>
+       <attDef ident="type" mode="change">
+        <datatype>
+         <dataRef key="teidata.enumerated"/>
+        </datatype>
+        <valList type="closed">
+         <valItem ident="ed"><desc>annotation or comment supplied by the encoder or editor</desc></valItem>
+         <valItem ident="orig"><desc>annotation in the original source</desc></valItem>
+         <valItem ident="add"><desc>manuscript or other annotation added to the original source</desc></valItem>
+        </valList>
+       </attDef>
+       <attDef ident="anchored" mode="delete"/>
+       <attDef ident="targetEnd" mode="delete"/>
+      </attList>
+ 
+     </elementSpec><elementSpec ident="p" mode="change">
+      <constraintSpec ident="abstractModel-structure-p" scheme="schematron" mode="delete"/>
+      <constraintSpec ident="abstractModel-structure-l" scheme="schematron" mode="delete"/>
 
-     <elementSpec ident="pb" mode="change">
+      <exemplum>
+       <egXML xmlns="http://www.tei-c.org/ns/Examples">
+        <sp>
+         <speaker>Sanson.</speaker>
+         <stage> (bowing)</stage>
+         <p>The fame of the celestial beauty, which illumines this remote region, has attracted me.</p>
+        </sp>
+        <sp>
+         <speaker>Ninon.</speaker>
+         <p>I beg your pardon.</p>
+        </sp>       </egXML>
+      </exemplum>
+     </elementSpec><elementSpec ident="pb" mode="change">
       <attList>
        <attDef ident="facs">
         <desc>link to a graphic image of the page beginning here</desc>
@@ -294,69 +366,21 @@ type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0" ?>
         This will normally be the page number or signature printed on it, since the physical
         sequence number is implicit in the presence of the <gi>pb</gi> element itself. </p>
       </remarks>
-     </elementSpec>
- 
- <elementSpec ident="titleStmt" mode="change">
-  <exemplum>  
-   <egXML xmlns="http://www.tei-c.org/ns/Examples">
-    <titleStmt>
-     <title n="anythingforachange">Anything for a Change: TEI edition</title>
-     <author>Brooks, Shirley</author>
-     <respStmt>
-      <resp>Curated by</resp>
-      <name>Lou Burnard</name>
-     </respStmt>
-    </titleStmt>
-   </egXML>
-  </exemplum>
-   </elementSpec>
-    
-     <elementSpec ident="trailer" mode="change">
-      <exemplum>  <egXML xmlns="http://www.tei-c.org/ns/Examples">
-       <body>
-        <!-- ... -->
-        <sp>
-        <speaker>Rat.</speaker>
-        <p>At any rate, I have secured this lady for my <emph>partner,</emph> and for such a prize who
-         would not play “A Desperate Game.”</p>
-       </sp>
-       
-       <stage>CURTAIN.</stage>
-       
-       <trailer>PRINTED BY THOMAS SCOTT, WARWICK COURT, HOLBORN.</trailer>
-       
-       </body></egXML>
-      </exemplum>
-     </elementSpec>
- 
-     <elementSpec ident="label" mode="change">
+     </elementSpec><elementSpec ident="pubPlace" mode="delete"/><elementSpec ident="publisher" mode="change">
       <exemplum>
        <egXML xmlns="http://www.tei-c.org/ns/Examples">
-        <div type="costume">
-         <list type="gloss">
-          <label>Mr. Tippity </label>
-          <item>Great coat, modern shooting jacket, light vest and trowsers.</item>
-          <label>American.</label>
-          <item>—Light frock coat, vest and trowsers, and broad hat.</item>
-          <label>Frenchman.</label>
-          <item>—Dressing gown, trowsers, beard, and moustache</item>
-          <label>Scotchman.</label>
-          <item>—Full Highland dress.</item>
-          <label>Indian.</label>
-          <item>Dress of the country.</item>
-          <label>Mrs. Tippity.</label>
-          <item>High-necked modern dress.</item>
-          <label>Clementina.</label>
-          <item>—Dark cotton dress, short sleeves, apron, &amp;c.</item>
-         </list>
-        </div></egXML>
+        <bibl type="firstEdition">
+         <title>La baronne trépassée</title>
+         <publisher>Baudry</publisher>
+         <pubPlace>Paris</pubPlace>
+         <date>1852</date>
+        </bibl>
+       </egXML>
       </exemplum>
-     </elementSpec>
- 
- 
- 
-    
-     <elementSpec ident="respStmt" mode="change">
+      <remarks>
+       <p>Not permitted outside the header</p>
+      </remarks>
+     </elementSpec><elementSpec ident="respStmt" mode="change">
       <exemplum>
        <egXML xmlns="http://www.tei-c.org/ns/Examples">
         <respStmt>
@@ -373,11 +397,19 @@ type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0" ?>
         </respStmt></egXML>
       </exemplum>
       <remarks>
-       <p></p>
+       <p/>
       </remarks>
-     </elementSpec>
- 
-     <elementSpec ident="sourceDesc" mode="change">
+     </elementSpec><elementSpec ident="role" mode="change">
+  <attList>
+   <attDef ident="gender" mode="change">
+    <valList mode="add" type="closed">
+     <valItem ident="F"><desc>Female</desc></valItem>
+     <valItem ident="J"><desc>Juvenile</desc></valItem>
+     <valItem ident="M"><desc>Male</desc></valItem>
+     <valItem ident="X"><desc>Mixed</desc></valItem></valList>
+   </attDef>
+  </attList>
+ </elementSpec><elementSpec ident="sourceDesc" mode="change">
       <exemplum>
        <p> </p>
        <egXML xmlns="http://www.tei-c.org/ns/Examples">
@@ -387,189 +419,11 @@ type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0" ?>
         </sourceDesc>
        </egXML>
       </exemplum>
-     </elementSpec>
- 
-     <elementSpec ident="name" mode="change">
-      <exemplum>
-       <p>provides the name of a person who is neither an author nor a publisher</p>
-       <egXML xmlns="http://www.tei-c.org/ns/Examples">
-        <name>Christof Schöch</name>
-       </egXML>
-      </exemplum>
-      <remarks>
-       <p>Not permitted outside the header</p>
-      </remarks>
-     </elementSpec>
- 
-     <elementSpec ident="pubPlace" mode="change">
-      <exemplum>
-       <egXML xmlns="http://www.tei-c.org/ns/Examples">
-        <bibl type="firstEdition">
-         <title>Herança de lágrimas</title>
-         <author>Lopo de Souza</author>
-         <publisher>Redação do Vimaranense-Editora</publisher>
-         <pubPlace>Guimarães</pubPlace>
-         <date>1871</date>
-        </bibl>
-       </egXML>
-      </exemplum>
-     </elementSpec>
- 
-     <elementSpec ident="publisher" mode="change">
-      <exemplum>
-       <egXML xmlns="http://www.tei-c.org/ns/Examples">
-        <bibl type="firstEdition">
-         <title>La baronne trépassée</title>
-         <publisher>Baudry</publisher>
-         <pubPlace>Paris</pubPlace>
-         <date>1852</date>
-        </bibl>
-       </egXML>
-      </exemplum>
-      <remarks>
-       <p>Not permitted outside the header</p>
-      </remarks>
-     </elementSpec>
- 
- <elementSpec ident="byline" mode="change">
-  <content>
-   <alternate maxOccurs="unbounded">
-    <textNode/>
-    <elementRef key="docAuthor"/>
-    <elementRef key="title"/>
-   </alternate>
-  </content>
-  <exemplum>
-   <egXML xmlns="http://www.tei-c.org/ns/Examples">
-    <byline>By <docAuthor>Shirley Brooks.</docAuthor>Author of <title>The Daughter of the
-   Stars</title>; <title>The Creole</title>; <title>The Guardian Angel</title>, &amp;c.,
-   &amp;c.</byline></egXML></exemplum>
- </elementSpec>
- 
- 
-     <elementSpec ident="corr" mode="change">
-      <exemplum>
-       <p>The printed source reads something other than "Perdita", which has been corrected by the transcriber </p>
-       <egXML xmlns="http://www.tei-c.org/ns/Examples">
-        <l><stage>(embracing <corr>Perdita</corr>.)</stage> Kiss me, my pet—Leontes, how d'ye do ?
-        </l>
-       </egXML>
-      </exemplum>
-     </elementSpec>
- 
-     <elementSpec ident="emph" mode="change">
-      <exemplum>
-       <!-- ENG19060 -->
-       <p>The editor/transcriber wishes to show that the word "my" is linguistically emphasized in
-        the original source:</p>
-       <egXML xmlns="http://www.tei-c.org/ns/Examples">Oh—don’t mind <emph>my</emph> feelings—call
-        me a mangy monkey—I’ve tried hard enough to look like one! </egXML>
-      </exemplum>
-     </elementSpec>
-     <elementSpec ident="foreign" mode="change">
-      <exemplum>
-       <p>The Latin phrase "Ab urbe condita" is not in the same language (Portuguese) as the rest of
-        the paragraph </p>
-       <egXML xmlns="http://www.tei-c.org/ns/Examples">
-        <p>E calcando a espada debaixo do pé esquerdo, curvou-a: <foreign>Ab urbe condita</foreign>,
-         da fundação de Roma, no ano seiscentos e três. </p></egXML>
-      </exemplum> 
-     </elementSpec>
-    
- <elementSpec ident="head" mode="change">
-      <exemplum>
-       <egXML xmlns="http://www.tei-c.org/ns/Examples">
-        <body>        
-         <head>TIME TRIES ALL.</head>
-         <div>
-          <head>Act I</head>
-          <stage type="setting">SCENE.— Handsome, Apartment in the House of Leeson and Bates, Merchants —
-           Door in C , with window on each side — Doors L.C. Flat and R. 2 E., Chairs, Tables, Sofa,
-           &amp;c., &amp;c. </stage>  
-         
-       <!-- ... -->
-            <trailer>End of Act 1</trailer>
-         </div>
-         <!-- other acts here -->
-        </body>
-       </egXML>
-       <p>A heading of any kind at the start of a division of any kind should be marked using
-         <gi>head</gi>.  The detailed description which usually begins a scene 
-       should be marked as a stage, however. </p>
-      </exemplum>
-     </elementSpec>
-     <elementSpec ident="hi" mode="change">
-      <exemplum>
-       <egXML xmlns="http://www.tei-c.org/ns/Examples">
-        <p> Yes, Harry; your old schoolfellow is <hi>Sir</hi> Charles Chatterton now. Ha! </p>
-       </egXML>
-      </exemplum>
-      <remarks>
-       <p>This element is used for any kind of typographic salience (usually italics) recorded by the
-        encoder.</p>
-      </remarks>
-     </elementSpec>
-      <elementSpec ident="l" mode="change">
-      <exemplum> 
-       <p>When a single metrical line is split between speakers, each fragment is marked as a distinct <gi>l</gi> element, as in this example:
-       </p><egXML xmlns="http://www.tei-c.org/ns/Examples">
-        <sp>
-         <speaker>Cecilia.</speaker>
-         <l>Thoughtful sir,</l>
-         <l>How fare you? </l>
-         <l>Thou'st been reading much of late </l>
-         <l>By the moon's light, I fear me ?</l>
-        </sp>
-        <sp>
-         <speaker>Marl.</speaker>
-         <l>Why so, lady?</l>
-        </sp>
-        <sp>
-         <speaker>Cecil.</speaker>
-         <l>The reflex of the page is on thy face.</l>
-        </sp>
-       </egXML>
-      </exemplum>
-      <!-- FR0726_Gay_Elleonore -->
-     </elementSpec>
-
-     <elementSpec ident="note" mode="change">
-  
-      <attList>
-       <attDef ident="type" mode="change">
-        <datatype>
-         <dataRef key="teidata.enumerated"/>
-        </datatype>
-        <valList type="closed">
-         <valItem ident="ed"><desc>annotation or comment supplied by the encoder or editor</desc></valItem>
-         <valItem ident="orig"><desc>annotation in the original source</desc></valItem>
-         <valItem ident="add"><desc>manuscript or other annotation added to the original source</desc></valItem>
-        </valList>
-       </attDef>
-       <attDef ident="anchored" mode="delete"/>
-       <attDef ident="targetEnd" mode="delete"/>
-      </attList>
- 
-     </elementSpec>
-     <elementSpec ident="p" mode="change">
-      <constraintSpec ident="abstractModel-structure-p" scheme="schematron" mode="delete"/>
-      <constraintSpec ident="abstractModel-structure-l" scheme="schematron" mode="delete"/>
-
-      <exemplum>
-       <egXML xmlns="http://www.tei-c.org/ns/Examples">
-        <sp>
-         <speaker>Sanson.</speaker>
-         <stage> (bowing)</stage>
-         <p>The fame of the celestial beauty, which illumines this remote region, has attracted me.</p>
-        </sp>
-        <sp>
-         <speaker>Ninon.</speaker>
-         <p>I beg your pardon.</p>
-        </sp>       </egXML>
-      </exemplum>
-     </elementSpec>
-    
-     <elementSpec ident="text" mode="change">
+     </elementSpec><elementSpec ident="spGrp" mode="change">
+  <attList>
+   <attDef ident="type" mode="delete"/>
+  </attList>
+ </elementSpec><elementSpec ident="text" mode="change">
       <exemplum>
        <egXML xmlns="http://www.tei-c.org/ns/Examples">
         <text>
@@ -583,9 +437,40 @@ type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0" ?>
       <remarks>
        <p/>
       </remarks>
-     </elementSpec>
-
-    </schemaSpec>
+     </elementSpec><elementSpec ident="title" mode="change"> 
+  <attList>
+   <attDef ident="calendar" mode="delete"/>
+  </attList>
+ </elementSpec><elementSpec ident="titleStmt" mode="change">
+  <exemplum>  
+   <egXML xmlns="http://www.tei-c.org/ns/Examples">
+    <titleStmt>
+     <title n="anythingforachange">Anything for a Change: TEI edition</title>
+     <author>Brooks, Shirley</author>
+     <respStmt>
+      <resp>Curated by</resp>
+      <name>Lou Burnard</name>
+     </respStmt>
+    </titleStmt>
+   </egXML>
+  </exemplum>
+   </elementSpec><elementSpec ident="trailer" mode="change">
+      <exemplum>  <egXML xmlns="http://www.tei-c.org/ns/Examples">
+       <body>
+        <!-- ... -->
+        <sp>
+        <speaker>Rat.</speaker>
+        <p>At any rate, I have secured this lady for my <emph>partner,</emph> and for such a prize who
+         would not play “A Desperate Game.”</p>
+       </sp>
+       
+       <stage>CURTAIN.</stage>
+       
+       <trailer>PRINTED BY THOMAS SCOTT, WARWICK COURT, HOLBORN.</trailer>
+       
+       </body></egXML>
+      </exemplum>
+     </elementSpec></schemaSpec>
    </div>
   </back>
  </text>
