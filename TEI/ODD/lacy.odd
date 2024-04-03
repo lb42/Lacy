@@ -1,8 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_odds.rng"
-type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0" ?>
-<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_odds.rng" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:sch="http://purl.oclc.org/dsdl/schematron" xmlns:e="http://distantreading.net/eltec/ns">
  <teiHeader>
   <fileDesc>
@@ -37,8 +33,11 @@ type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0" ?>
     
     
     
-<schemaSpec ident="lacy" start="TEI" prefix="tei_" targetLang="en" docLang="en"><moduleRef key="tei"/><moduleRef key="core" include="p foreign emph hi name date ptr ref list item label head note pb series author respStmt resp title publisher bibl l lg sp speaker stage sic corr quote delSpan"/><moduleRef key="textstructure" include="TEI text body div trailer byline titlePage docTitle titlePart docAuthor docImprint docDate epigraph signed front back"/><moduleRef key="header" include="teiHeader fileDesc titleStmt publicationStmt distributor sourceDesc encodingDesc revisionDesc change idno extent profileDesc langUsage language"/><moduleRef key="drama" include="set performance castGroup castList castItem role roleDesc actor spGrp "/>
- <moduleRef key="linking" include="seg"/><classSpec ident="att.ascribed" type="atts" mode="delete"/><classSpec ident="att.breaking" type="atts" mode="delete"/><classSpec ident="att.cReferencing" type="atts" mode="delete"/><classSpec ident="att.calendarSystem" type="atts" mode="delete"/><classSpec ident="att.canonical" type="atts" mode="change">
+<schemaSpec ident="lacy" start="TEI" prefix="tei_" targetLang="en" docLang="en"><moduleRef key="tei"/><moduleRef key="core" include="add del p foreign emph hi name date ptr ref list item label head note pb series author respStmt resp title publisher bibl l lg sp speaker stage sic corr quote delSpan"/><moduleRef key="textstructure" include="TEI text body div trailer byline titlePage docTitle titlePart docAuthor docImprint docDate epigraph signed front back"/><moduleRef key="header" include="teiHeader fileDesc titleStmt publicationStmt distributor sourceDesc encodingDesc revisionDesc change idno extent profileDesc langUsage language"/><moduleRef key="drama" include="set performance castGroup castList castItem role roleDesc actor spGrp sound"/>
+ <moduleRef key="linking" include="seg"/>
+ <moduleRef key="transcr" include="subst addSpan delSpan"/>
+ 
+ <classSpec ident="att.ascribed" type="atts" mode="delete"/><classSpec ident="att.breaking" type="atts" mode="delete"/><classSpec ident="att.cReferencing" type="atts" mode="delete"/><classSpec ident="att.calendarSystem" type="atts" mode="delete"/><classSpec ident="att.canonical" type="atts" mode="change">
   <attList>
    <attDef ident="ref" mode="change">
     <exemplum>
@@ -60,7 +59,11 @@ type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0" ?>
        <attDef ident="precision" mode="delete"/>
        <attDef ident="scope" mode="delete"/>
       </attList>
-     </classSpec><classSpec ident="att.divLike" type="atts" mode="delete"/><classSpec ident="att.docStatus" type="atts" mode="delete"/><classSpec ident="att.editLike" type="atts" mode="delete"/><classSpec ident="att.fragmentable" type="atts" mode="delete"/><classSpec type="atts" ident="att.global.rendition" mode="change">
+     </classSpec><classSpec ident="att.divLike" type="atts" mode="delete"/><classSpec ident="att.docStatus" type="atts" mode="delete"/><classSpec ident="att.editLike" type="atts" mode="delete"/><classSpec ident="att.fragmentable" type="atts" mode="delete"/>
+ <classSpec type="atts" ident="att.global.change" mode="delete"/>
+ <classSpec type="atts" ident="att.global.facs" mode="delete"/>
+ <classSpec type="atts" ident="att.global.linking" mode="delete"/> 
+ <classSpec type="atts" ident="att.global.rendition" mode="change">
   <attList>
    <attDef ident="rendition" mode="delete"/>
    <attDef ident="style" mode="delete"/>
@@ -74,7 +77,9 @@ type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0" ?>
    <attDef ident="targetLang" mode="delete"/>
    <attDef ident="evaluate" mode="delete"/>
   </attList>
- </classSpec><classSpec ident="att.ranging" type="atts" mode="delete"/><classSpec ident="att.spanning" type="atts" mode="delete"/><classSpec ident="att.timed" type="atts" mode="delete"/><classSpec type="atts" ident="att.typed" mode="change">
+ </classSpec><classSpec ident="att.ranging" type="atts" mode="delete"/>
+ <!--<classSpec ident="att.spanning" type="atts" mode="delete"/>
+--> <classSpec ident="att.timed" type="atts" mode="delete"/><classSpec type="atts" ident="att.typed" mode="change">
   <attList>
    <attDef ident="subtype" mode="delete"/>
   </attList>
@@ -323,7 +328,8 @@ type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0" ?>
          <p>I beg your pardon.</p>
         </sp>       </egXML>
       </exemplum>
-     </elementSpec><elementSpec ident="pb" mode="change">
+     </elementSpec>
+ <elementSpec ident="pb" mode="change">
       <attList>
        <attDef ident="facs">
         <desc>link to a graphic image of the page beginning here</desc>
@@ -381,14 +387,7 @@ type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0" ?>
        <p>Not permitted outside the header</p>
       </remarks>
      </elementSpec><elementSpec ident="respStmt" mode="change">
-      <exemplum>
-       <egXML xmlns="http://www.tei-c.org/ns/Examples">
-        <respStmt>
-         <resp>ELTeC conversion</resp>
-         <name>Leonard Konle</name>
-        </respStmt>
-       </egXML>
-      </exemplum>
+    
       <exemplum>
      
        <egXML xmlns="http://www.tei-c.org/ns/Examples"><respStmt>
