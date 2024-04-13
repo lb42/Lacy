@@ -33,11 +33,18 @@
     
     
     
-<schemaSpec ident="lacy" start="TEI" prefix="tei_" targetLang="en" docLang="en"><moduleRef key="tei"/><moduleRef key="core" include="add del p foreign emph hi name date ptr ref list item label head note pb series author respStmt resp title publisher bibl l lg sp speaker stage sic corr quote delSpan"/><moduleRef key="textstructure" include="TEI text body div trailer byline titlePage docTitle titlePart docAuthor docImprint docDate epigraph signed front back"/><moduleRef key="header" include="teiHeader fileDesc titleStmt publicationStmt distributor sourceDesc encodingDesc revisionDesc change idno extent profileDesc langUsage language"/><moduleRef key="drama" include="set performance castGroup castList castItem role roleDesc actor spGrp sound"/>
- <moduleRef key="linking" include="seg"/>
- <moduleRef key="transcr" include="subst addSpan delSpan"/>
+<schemaSpec ident="lacy" start="TEI" prefix="tei_" targetLang="en" docLang="en"><moduleRef key="tei"/><moduleRef key="core" include="add del p foreign emph hi name date ptr ref list item label head note pb series author respStmt resp title publisher bibl l lg sp speaker stage sic corr quote"/>
+ <moduleRef key="textstructure" include="TEI text body div trailer byline titlePage docTitle titlePart docAuthor docImprint docDate epigraph signed front back"/>
+ <moduleRef key="header" include="teiHeader fileDesc titleStmt publicationStmt distributor sourceDesc encodingDesc revisionDesc change idno extent profileDesc langUsage language"/>
+ <moduleRef key="drama" include="set performance castGroup castList castItem role roleDesc actor spGrp sound"/>
+<!-- <moduleRef key="linking" include="seg"/>
+--> <moduleRef key="transcr" include="subst addSpan delSpan"/>
  
- <classSpec ident="att.ascribed" type="atts" mode="delete"/><classSpec ident="att.breaking" type="atts" mode="delete"/><classSpec ident="att.cReferencing" type="atts" mode="delete"/><classSpec ident="att.calendarSystem" type="atts" mode="delete"/><classSpec ident="att.canonical" type="atts" mode="change">
+ <classSpec ident="att.ascribed" type="atts" mode="delete"/>
+ <classSpec ident="att.breaking" type="atts" mode="delete"/>
+ <classSpec ident="att.cReferencing" type="atts" mode="delete"/>
+ <classSpec ident="att.calendarSystem" type="atts" mode="delete"/>
+ <classSpec ident="att.canonical" type="atts" mode="change">
   <attList>
    <attDef ident="ref" mode="change">
     <exemplum>
@@ -49,7 +56,8 @@
    </attDef>
    <attDef ident="key" mode="delete"/>
   </attList>
- </classSpec><classSpec type="atts" ident="att.datable" mode="change">
+ </classSpec>
+ <classSpec type="atts" ident="att.datable" mode="change">
       <attList>
        <attDef ident="calendar" mode="delete"/>
        <attDef ident="period" mode="delete"/>
@@ -109,7 +117,8 @@
    <attDef ident="gender" mode="delete"/>
    <attDef ident="ref" mode="delete"/>
   </attList>
- </elementSpec><elementSpec ident="author" mode="change">
+ </elementSpec>
+ <elementSpec ident="author" mode="change">
   <classes>
    <memberOf key="att.global"/>
    <memberOf key="att.naming"/>
@@ -192,7 +201,7 @@
       </exemplum>
      </elementSpec><elementSpec ident="encodingDesc" mode="change">
       <content>
-       <elementRef key="p"/>
+       <elementRef key="p" minOccurs="1" maxOccurs="unbounded"/>
       </content>    
      </elementSpec><elementSpec ident="foreign" mode="change">
       <exemplum>
@@ -281,10 +290,14 @@
          </list>
         </div></egXML>
       </exemplum>
-     </elementSpec><elementSpec ident="name" mode="change">
+     </elementSpec>
+ <elementSpec ident="name" mode="change">
       <classes>
        <memberOf key="att.global"/>
       <memberOf key="att.typed"/>
+       <memberOf key="model.nameLikeAgent"/>
+       <memberOf key="model.personPart"/>
+
       </classes>
       <exemplum>
        <p>provides the name of a person who is neither an author nor a publisher</p>
@@ -295,7 +308,9 @@
       <remarks>
        <p>Not permitted outside the header</p>
       </remarks>
-     </elementSpec><elementSpec ident="note" mode="change">
+     </elementSpec>
+ 
+ <elementSpec ident="note" mode="change">
   
       <attList>
        <attDef ident="type" mode="change">
@@ -386,8 +401,18 @@
       <remarks>
        <p>Not permitted outside the header</p>
       </remarks>
-     </elementSpec><elementSpec ident="respStmt" mode="change">
-    
+     </elementSpec>
+ 
+ <elementSpec ident="resp" mode="change">
+  <attList><attDef ident="calendar" mode="delete"></attDef></attList>
+</elementSpec>
+ 
+ <elementSpec ident="respStmt" mode="change">
+ <content>
+  <sequence>
+  <elementRef key="resp"/>
+  <elementRef key="name"/>
+</sequence> </content>
       <exemplum>
      
        <egXML xmlns="http://www.tei-c.org/ns/Examples"><respStmt>
@@ -398,7 +423,8 @@
       <remarks>
        <p/>
       </remarks>
-     </elementSpec><elementSpec ident="role" mode="change">
+     </elementSpec>
+ <elementSpec ident="role" mode="change">
   <attList>
    <attDef ident="gender" mode="change">
     <valList mode="add" type="closed">
@@ -440,7 +466,8 @@
   <attList>
    <attDef ident="calendar" mode="delete"/>
   </attList>
- </elementSpec><elementSpec ident="titleStmt" mode="change">
+ </elementSpec>
+ <elementSpec ident="titleStmt" mode="change">
   <exemplum>  
    <egXML xmlns="http://www.tei-c.org/ns/Examples">
     <titleStmt>
@@ -453,7 +480,9 @@
     </titleStmt>
    </egXML>
   </exemplum>
-   </elementSpec><elementSpec ident="trailer" mode="change">
+   </elementSpec>
+ 
+ <elementSpec ident="trailer" mode="change">
       <exemplum>  <egXML xmlns="http://www.tei-c.org/ns/Examples">
        <body>
         <!-- ... -->

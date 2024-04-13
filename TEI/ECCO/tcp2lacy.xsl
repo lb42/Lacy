@@ -148,4 +148,17 @@
             <xsl:apply-templates/>
         </hi>
     </xsl:template>
+    
+    <xsl:template match="t:stage/t:hi">
+        <xsl:apply-templates/>
+    </xsl:template>
+
+
+<xsl:template match="t:speaker/t:hi">
+    <xsl:apply-templates/>
+</xsl:template>
+
+<xsl:template match="body//text()">
+    <xsl:value-of select="replace(., 'ſ','s')"/>
+</xsl:template>
 </xsl:stylesheet>

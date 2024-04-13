@@ -19,8 +19,6 @@
       <xsl:variable name="normName" select="normalize-space(self::node())"/> 
       <xsl:variable name="name" select="self::node()"/> 
        
-<!--<xsl:message><xsl:value-of select="concat($name,' ', $normName, 
-         ' ',$groupName)"/></xsl:message>-->
       
       <person xmlns="http://www.tei-c.org/ns/1.0" xml:id="{substring-after($groupName,'Mr')}">
         <xsl:for-each select="distinct-values(current-group())">
@@ -28,7 +26,7 @@
         </xsl:for-each>       
       </person>
        <xsl:comment>
-<xsl:value-of select="count($context//actor[matches(.,$name)])"/> 
+<xsl:value-of select="count($context//*:actor[matches(.,$name)])"/> 
 </xsl:comment>
     <xsl:text>
 </xsl:text>
