@@ -33,7 +33,7 @@
     
     
     
-<schemaSpec ident="lacy" start="TEI" prefix="tei_" targetLang="en" docLang="en"><moduleRef key="tei"/><moduleRef key="core" include="add del p foreign emph hi name date ptr ref list item label head note pb series author respStmt resp title publisher bibl l lg sp speaker stage sic corr quote"/>
+<schemaSpec ident="lacy" start="TEI" prefix="tei_" targetLang="en" docLang="en"><moduleRef key="tei"/><moduleRef key="core" include="add del desc p foreign emph gap hi name date ptr ref list item label head note pb series author respStmt resp title publisher bibl l lg sp speaker stage sic corr quote"/>
  <moduleRef key="textstructure" include="TEI text body div trailer byline titlePage docTitle titlePart docAuthor docImprint docDate epigraph signed front back"/>
  <moduleRef key="header" include="teiHeader fileDesc titleStmt publicationStmt distributor sourceDesc encodingDesc revisionDesc change idno extent profileDesc langUsage language"/>
  <moduleRef key="drama" include="set performance castGroup castList castItem role roleDesc actor spGrp sound"/>

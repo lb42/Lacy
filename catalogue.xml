@@ -6,21 +6,21 @@
     <author>Revised and extended by Lou Burnard</author>
    </titleStmt>
    <publicationStmt>
-    <p>First web edition, 2022</p>
+    <p>Second web edition, 2024</p>
    </publicationStmt>
    <sourceDesc>
     <p>This is an enhanced and extended version of the catalogue of Lacy's Acting Edition originally
      created by the Victorian Plays Project (VPP), made by screen-scraping and re-encoding data
      archived at <ref target="http://victorian.nuigalway.ie/modx/index.php?id=64">the VPP_website at
-     NUI Galway</ref>.<note> (These modernized PDFs are also available from <ref target="https://www.yumpu.com/en/document/view/51111508/view-pdf-victorian-plays-project">YUMPU</ref>)</note></p>
-    <p>The catalogue has been cross-checked against several other contemporary sources. Various
+     NUI Galway</ref>.<!--<note> (13 of these modernized PDFs are also available from <ref target="https://www.yumpu.com/en/document/view/51111508/view-pdf-victorian-plays-project">YUMPU</ref>)</note>--></p>
+    <p>The catalogue has been cross-checked against several other sources of information. Various
      minor errors and inconsistencies have been corrected, and additional information added,
      particularly about available digitizations of the plays. </p>
-
+    <p>Each entry in the catalogue has been given a unique identifier beginning with "L", followed by a four digit sequence number; these "Lacy numbers" correspond with the numbers used in the original published lists. In a few cases, Lacy appears to have replaced one or more titles in the printed volumes subsequent to their first appearance (see <ref target="#lacyReps">below</ref> for details); these replacement titles have been given an identifier suffixed with an R.  </p>
     <!-- resp=#CRL means I found this data in https://catalog.crl.edu:-->
     <p>Authors' names have been standardised, in the form "Surname, Forenames-or-initials" following
      the most frequent usage in cases of doubt. Square brackets are used to indicate that the author
-     name contained within them is not attested on the titlepage of the work in question; the
+     name contained within them is not attested in this form on the title page of the work in question; <!--the
      attribute <att>resp</att> is used to indicate the grounds for making the attribution, and takes
      one of the following values: <list type="gloss">
      <item>btao: ("By The Author Of") the title is listed in a btao indication somewhere</item>
@@ -28,29 +28,19 @@
      <item>msnote: attribution is made by manuscript annotation on a library copy</item>
      <item>nicoll: attribution made in Allardyce Nicoll's Handlist</item>
      </list></p>
-    <p>When no author is given and none has been plausibly identified, the author is given as
-     "[Anon.]"</p>
-    <p>Several <gi>title</gi> elements may be present, corresponding with different parts of the
+    <p>W--> sources for such attributions include Allardyce Nicoll's Handlists, the Adelphi Theatre Catalog, manuscript annotation of the source, presence of the title in a "By the Author Of" title elsewhere. In a few rare cases where no author is given and none has been plausibly identified, the author is given as
+     "[Anon.]". In several cases,  multiple author names are given. </p>
+    <p>The entry for each title begins with a main title, rendered in italics. This is followed by one or more subtitles, indicating the type and length of the piece, or its source in the case of a translation or adaptation, as given on the title page. This is followed by a note giving the date and location of the first performance, as indicated in the source.</p>
+   <!-- <p>   
+     iSeveral <gi>title</gi> elements may be present, corresponding with different parts of the
      title page. The main title has no @type attribute; other values used are: <list>
      <item>sub: a subtitle</item>
      <item>source: indicates that the title is an adaptation or translation</item>
      <item>btao: the title contains a list of other titles by the same author</item>
      </list> For example: <egXML xmlns="http://www.tei-c.org/ns/Examples"> <author resp="btao">[Robertson, T.W.; Reade, Charles]</author> <title>The Lost Husband</title> <title type="sub">A
      Drama in four acts</title> <title type="source" n="#FR">Written and Adapted from the
-     French</title> <title type="btao"> by the author of The ladies' battle</title></egXML></p>
-    <p>The selection of titles making up each volume seems to have changed very little during the
-     course their long printing history. Certainly the lists of titles which appear occasionally in
-     the printed volumes show little variation. I have identified a small number of titles which
-     change between their first appearance -- if we are to believe the printed lists -- and their
-     appearance in the 93 volume HathiTrust edition digitized by Google from a copy at the
-     University of Michigan. They are listed below in a <gi>bibl</gi> with the <att>status</att>
-     attribute set to <code>replaced</code>. The texts which replaced them are also described below;
-     they have the same number (e.g. 12.2), but their identifier is suffixed with an R. For example,
-     the sixth title in volume 1 has two versions, both given the number <code>1.6</code>. In the
-     advertising pages consulted, this title is text L0006, Bayly's <title>Ladder of Love</title>.
-     However, in the HT edition, the sixth title in volume 1 is Murray's <title>No!</title>, to
-     which we therefore give the identifier L0006R. A list of these modifications is given <ref target="#lacyReps">below.</ref> </p>
-    <p/>
+     French</title> <title type="btao"> by the author of The ladies' battle</title></egXML></p>-->
+   
    </sourceDesc>
   </fileDesc>
   <encodingDesc>
@@ -498,7 +488,7 @@
      <title type="sub">A Comedietta in one act</title> <note type="firstPerf"><name>Royal Olympic
      Theatre</name><date notAfter="1851">21 February 1851</date></note><note type="extent" resp="CRL">24 pp</note> </bibl>
     <!-- replaced in HT by the following -->
-    <bibl n="3.12" xml:id="L0042R" type="M_2_Farce"> <author>Townley, James</author> <title n="highlifebelowstairs">High life below stairs</title> <title type="sub">A Farce in two
+    <bibl n="3.12" xml:id="L0042R" type="M_2_Farce" status="TEI-0"> <author>Townley, James</author> <title n="highlifebelowstairs">High life below stairs</title> <title type="sub">A Farce in two
      acts</title> <note type="firstPerf"><name>Theatre Royal Drury Lane</name><date notAfter="1759">October 31st 1759</date></note> <listRef>
      <ref target="https://babel.hathitrust.org/cgi/pt?id=uc1.31175035137689">Hathi_Trust</ref><ref type="ECCO">K096840</ref>
      </listRef><note type="extent">32 pp (UM copy: 381 - 413)</note><listRef type="localCopies">
@@ -620,7 +610,7 @@
      <ref target="local:Vol04/L0057/L0057-uc.pdf">Downloaded</ref>
      </listRef></bibl>
     <!--replaced in UM by the following -->
-    <bibl n="4.12" xml:id="L0057R" type="L_5_Comedy"> <author>Massinger, Philip</author><title n="anewwaytopayolddebts">A new way to pay old debts</title> <title type="sub">A Play in five
+    <bibl n="4.12" xml:id="L0057R" type="L_5_Comedy" status="TEI-0"> <author>Massinger, Philip</author><title n="anewwaytopayolddebts">A new way to pay old debts</title> <title type="sub">A Play in five
      acts</title> <note type="firstPerf"><name>Theatre Royal Drury Lane</name><date notAfter="1816">12 January 1816</date></note> <note type="extent">72 pp (UM copy: 329 - 401)</note><listRef><ref target="eebo:A07241.0001.001"/></listRef><listRef type="localCopies">
      <ref target="local:Vol04/L0057/L0057R-um.pdf">UM original</ref>
      </listRef></bibl>
@@ -11347,7 +11337,20 @@
   <back>
    <div xml:id="lacyReps">
     <head>Replacement titles</head>
-    <p>Dates given are those of the first performance, according to the copy.</p>
+    <p>The selection of titles making up each volume seems to have changed very little during the
+     course their long printing history. Certainly the lists of titles which appear occasionally in
+     the printed volumes show little variation. However, a small number of titles do
+     change between their first appearance -- if we are to believe the printed lists -- and their
+     appearance in the 93 volume HathiTrust edition digitized by Google from a copy at the
+     University of Michigan. <!--They are listed below in a <gi>bibl</gi> with the <att>status</att>
+     attribute set to <code>replaced</code>. The texts which replaced them are also described below-->
+     The present catalogue includes both the original title, and its replacement, distinguished by the R suffix.
+     <!--they have the same number (e.g. 12.2), but their identifier is suffixed with an R. -->For example,
+     the sixth title in volume 1 has two versions, both given the number <code>1.6</code>. In the
+     advertising pages consulted, this title is text L0006, Bayly's <title>Ladder of Love</title>.
+     However, in the HT edition, the sixth title in volume 1 is Murray's <title>No!</title>, to
+     which we therefore give the identifier L0006R. A list of these modifications foillows. The 
+    dates given are those of the first performance according to the copy, where this is supplied.</p>
     <table>
      <row role="label">
       <cell>Text</cell>
