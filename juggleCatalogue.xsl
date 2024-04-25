@@ -63,7 +63,7 @@
     <xsl:when test="starts-with(@target,'gb:')">   
      <xsl:value-of select="concat('https://www.google.com/books/edition/',$str)"/> </xsl:when>
     <xsl:when test="@type eq 'ECCO'">
-     <xsl:value-of select="concat('http://hdl.handle.net/20.500.12024/',.)"/>
+     <xsl:value-of select="concat('http://hdl.handle.net/20.500.14106/',.,'.000')"/>
     </xsl:when>
 <xsl:otherwise>
  <xsl:value-of select="@target"/>
