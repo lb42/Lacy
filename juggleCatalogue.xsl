@@ -23,7 +23,7 @@
  
  <xsl:template match="*:bibl">
   
-  <entry xmlns="http://www.tei-c.org/ns/1.0">
+  <bibl xmlns="http://www.tei-c.org/ns/1.0">
    <xsl:apply-templates select="@*"/>
    <xsl:apply-templates select="*:author"/>
    <xsl:apply-templates select="*:title"/>
@@ -33,8 +33,17 @@
    <xsl:apply-templates select="*:note[@type='authorInfo']"/>  
    <xsl:apply-templates select="*:note[not(@type)]"/>
    
-  </entry><xsl:text>
+  </bibl><xsl:text>
   </xsl:text>
+ </xsl:template>
+ <xsl:template match="*:author[following-sibling::*:author]">
+  <author xmlns="http://www.tei-c.org/ns/1.0"> 
+   <xsl:apply-templates/>
+  <xsl:text>; </xsl:text></author>
+ </xsl:template>
+ 
+ <xsl:template match="*:ref[starts-with(@target, 'lcp:')]">
+  <xsl:value-of select="concat(' (BL ms ',substring-after(@target,'lcp:'), ') ')"/>
  </xsl:template>
  
  <xsl:template match="*:ref">
@@ -53,12 +62,20 @@
      <xsl:value-of select="concat('https://archive.org/details/',$str)"/> </xsl:when>
     <xsl:when test="starts-with(@target,'gb:')">   
      <xsl:value-of select="concat('https://www.google.com/books/edition/',$str)"/> </xsl:when>
+    <xsl:when test="@type eq 'ECCO'">
+     <xsl:value-of select="concat('http://hdl.handle.net/20.500.12024/',.)"/>
+    </xsl:when>
 <xsl:otherwise>
  <xsl:value-of select="@target"/>
 </xsl:otherwise>    
    </xsl:choose>
   </xsl:attribute>
-  <xsl:value-of select="."/></ref>
+  <xsl:choose>
+   <xsl:when test="@type='ECCO'">ECCO</xsl:when>
+   <xsl:otherwise><xsl:value-of select="."/></xsl:otherwise>
+  </xsl:choose>
+  
+  </ref>
  </xsl:template> 
  
  
