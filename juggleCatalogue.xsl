@@ -32,7 +32,7 @@
    <xsl:apply-templates select="*:listRef[not(@type)]"/>
    <xsl:apply-templates select="*:note[@type='authorInfo']"/>  
    <xsl:apply-templates select="*:note[not(@type)]"/>
-   
+   <xsl:apply-templates select="*:relatedItem"/>
   </bibl><xsl:text>
   </xsl:text>
  </xsl:template>
