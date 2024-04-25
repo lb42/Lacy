@@ -124,6 +124,17 @@
    <memberOf key="att.naming"/>
    <memberOf key="model.respLike"/>
   </classes>
+  <content>
+   <alternate>
+    <sequence>
+     <elementRef key="surname"/>
+     <elementRef key="forename" minOccurs="0" maxOccurs="unbounded"/>
+     <elementRef key="name" minOccurs="0"  maxOccurs="unbounded"/>
+     <elementRef key="date"/>
+    </sequence>
+    <textNode/>
+   </alternate>
+  </content>
   <attList><attDef ident="calendar" mode="delete"/><attDef ident="role" mode="delete"/></attList><exemplum>
    <p>provides the name of  an author </p>
    <egXML xmlns="http://www.tei-c.org/ns/Examples">
