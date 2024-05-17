@@ -24,9 +24,8 @@
   <xsl:message><xsl:value-of select="count(//div/bibl[not(note[contains(@type,'extent')])])"/> items lack extent data.</xsl:message>
  
   
-  <xsl:variable name="totVPP" select="count(//div/bibl[listRef/ref[starts-with(@target,'vpp')]])"/>
-  
-  <xsl:message>VPP:  <xsl:value-of select="count(//div/bibl[listRef/ref[starts-with(@target,'vpp')]])"/> links;  <xsl:value-of select="count(//div/bibl[listRef/ref[contains(@target,'-vpp')]])"/> local copies.</xsl:message>
+    <xsl:message>VPP:  <xsl:value-of select="count(//div/bibl[listRef/ref[starts-with(@target,'vpp')]])"/> links;  <xsl:value-of 
+   select="count(//div/bibl[listRef/ref[contains(@target,'-vpp')]])"/> local copies.</xsl:message>
 
   <xsl:message>Digitizations from...</xsl:message>
   <xsl:for-each select="distinct-values(//*:ref/@target[starts-with(.,'local:')]/substring-before(substring-after(.,'-'),'.pdf'))">
@@ -35,8 +34,14 @@
    <xsl:message><xsl:value-of select="."/><xsl:text> </xsl:text> <xsl:value-of select="count($root//*:ref[ends-with(@target, $f)])"/></xsl:message>
   </xsl:for-each>
   
+  <xsl:variable name="totVPP" select="count(//div/bibl[listRef/ref[contains(.,'VPP_PDF')]])"/>
+  
+  
 <!-- balance criterion : length -->
-  <xsl:message>Length distribution</xsl:message>
+  
+  
+  <xsl:message>Length distribution for VPP titles</xsl:message>
+  
 <xsl:value-of select="$totVPP"/><xsl:text>, </xsl:text>
  <xsl:message> <xsl:value-of select="count(//bibl[starts-with(@type,'1')])"/><xsl:text>, </xsl:text>
 <xsl:value-of select="count(//bibl[starts-with(@type,'1') and listRef/ref[starts-with(.,'VPP')]] )"/><xsl:text>, </xsl:text>

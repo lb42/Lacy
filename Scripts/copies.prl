@@ -1,0 +1,6 @@
+print "<copies>\n";
+while (<>) {
+if (/Data\/Lacy\/(Vol\d+)\/(L\d\d\d\d)\: (.+)/)  {
+print "<cc vol\=\"$1\" id\=\"$2\">$3<\/cc>\n";
+}}
+print "<\/copies>\n";
