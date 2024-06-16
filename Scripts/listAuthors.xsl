@@ -11,17 +11,19 @@
  <xsl:template match="/">
   <xsl:variable name="context" select="."/>
   <authorList>
+   <xsl:variable name="chars2zap">["\[\]]</xsl:variable>
    <xsl:variable name="authorsNormalized" as="xs:string*"
-    select="//t:div/t:bibl/descendant::t:author/normalize-space(replace(.,'[\[\]]',''))"/>  
+    select="//t:div/t:bibl/descendant::t:author/normalize-space(replace(.,$chars2zap,''))"/>  
    <xsl:for-each select="distinct-values($authorsNormalized)">
     <xsl:sort select="."/>
+    <xsl:if test="string-length(.) gt 1">
     <xsl:variable name="a" as="xs:string" select="."/>
     <xsl:variable name="f" select="count($authorsNormalized[. eq $a])"/> 
-   <xsl:variable name="occurrences"><xsl:value-of select="$context//t:author[contains(normalize-space(.),$a)]/parent::t:bibl/@xml:id"/></xsl:variable>
+     <xsl:variable name="occurrences"><xsl:value-of select="$context//t:author[contains(normalize-space(replace(.,$chars2zap,'')),$a)]/parent::t:bibl/@xml:id"/></xsl:variable>
    
    <xsl:comment> <xsl:value-of select="$a"/> occurs <xsl:value-of select="$f"/> times
 </xsl:comment>
-   
+     <xsl:variable name="nicName"><xsl:value-of select="upper-case($a)"/></xsl:variable>
    <xsl:variable name="id">
      <xsl:number value="position()" format="001"/>
    </xsl:variable>  
@@ -38,10 +40,18 @@
      </xsl:choose>
     </xsl:attribute>
    <persName> <xsl:value-of select="$a"/></persName>
-    <persName resp="Nicoll"><xsl:value-of select="upper-case($a)"/></persName>
-   <writerOf><xsl:value-of select="$occurrences"/></writerOf> 
+    <xsl:choose> 
+     <xsl:when test="count(document('/home/lou/pCloudDrive/LacyWork/Nicoll/allEntries.xml')//*:entry[matches(*:author,$nicName)]) gt 0">
+      <persName resp="Nicoll"><xsl:value-of select="$nicName"/></persName>
+     </xsl:when>
+   <xsl:otherwise>
+    <xsl:message><xsl:value-of select="concat('Couldnt find ',$nicName,' in allEntries for ',$a)"/></xsl:message>   
+   </xsl:otherwise></xsl:choose>
+    
+ <!--   
+-->   <writerOf><xsl:value-of select="$occurrences"/></writerOf> 
    </person><xsl:text>
-</xsl:text>
+</xsl:text></xsl:if>
    </xsl:for-each>
 </authorList> </xsl:template>
 </xsl:stylesheet>
