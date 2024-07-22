@@ -7,15 +7,11 @@
   <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title><!-- name of markup language being defined goes here --></title>
-            <author><!-- primary author --></author>
-            <editor><!-- editor or secondary author --></editor>
+            <title>entryODD </title>
+            <author>Lou Burnard</author>
          </titleStmt>
          <publicationStmt><p>Unpublished draft</p>
-        <!-- put <publisher>, <distributor>, or <authority> here -->
-        <!-- put <availability> and other optional details about-->
-        <!-- the publisher, distributor, or release authority here -->
-      </publicationStmt>
+             </publicationStmt>
          <sourceDesc>
             <p>born digital</p>
          </sourceDesc>
@@ -23,15 +19,9 @@
   </teiHeader>
   <text>
       <body>
-         <head><!-- name of markup language being defined can be repeated here --></head>
-         <p><!-- prose description of, and explanation of, markup language goes here;
-              you can use any TEI constructs you like, including multiple paragarphs,
-              tables, nested divisions, etc. Furthermore, <specGrp> elements may
-              be used to include snippets of schema definitions, and <specList>
-              can be used to include to insert a list of descriptions of elements
-              and attributes. --></p>
-       <!--
--->
+         <head>entryODD</head>
+         <p>Hand-made ODD for checking markup of Nicoll Handlists</p>
+      
        <schemaSpec ident="nicoll" start="doc" ns="http://lb42.github.io">     <!-- @ident is required -->
             <desc>ODD for Nicoll Handlist entries</desc>
            <elementSpec ident="doc" >
@@ -39,18 +29,18 @@
            <content><elementRef key="entry" minOccurs="1" maxOccurs="unbounded"/></content>
            </elementSpec>
           <elementSpec ident="entry">
-           <desc>An entry in the Handlist</desc>
+           <desc>Any entry in the Handlist, of any type</desc>
            <content>
             <sequence>
              <elementRef key="class" minOccurs="0" maxOccurs="1"/>
              <elementRef key="author" minOccurs="0" maxOccurs="unbounded"/>
              <elementRef key="title" minOccurs="0" maxOccurs="unbounded"/>
-             <elementRef key="perf" minOccurs="0"/>
-             <elementRef key="lic"  minOccurs="0"/>
-             <elementRef key="bib"  minOccurs="0"/>
+             <alternate minOccurs="1" maxOccurs="unbounded">
+              <elementRef key="perf" ></elementRef>
+             <elementRef key="lic"  />
+             <elementRef key="bib"  /></alternate>
              <elementRef key="note" minOccurs="0"  maxOccurs="unbounded"/>
-             <elementRef key="ref" minOccurs="0"  maxOccurs="unbounded"/>
-             
+             <elementRef key="ref" minOccurs="0"  maxOccurs="unbounded"/>           
             </sequence>
            </content>
            <attList>
@@ -67,7 +57,7 @@
              <valList type="closed">
               <valItem ident="plain"><desc>A plain entry documenting a dramatic event, with a single author label</desc></valItem>
              <valItem ident="ref"><desc>An entry duplicating (wholly or partly) information about a dramatic event, referencing another entry</desc></valItem>
-              <valItem ident="multi"><desc>An entry duplicating (wholly or partly) information about a dramatic event with multiple authors</desc></valItem>
+              <valItem ident="multi"><desc>An entry duplicating (wholly or partly) information about a dramatic event associated with multiple authors</desc></valItem>
               <valItem ident="note"><desc>An entry containing a note or comment</desc></valItem></valList>
            
              </attDef><attDef ident="n">
@@ -119,8 +109,9 @@
         </valList></attDef> </attList>
         </elementSpec>
         <elementSpec ident="title">
-         <desc>Canonical form of author's name used as heading by Nicoll</desc>
-         <content><textNode/></content>
+         <desc>Reference form of title as given by Nicoll</desc>
+         <content><alternate minOccurs="0" maxOccurs="unbounded"><textNode/><elementRef key="graphic"/></alternate></content>
+         <remarks><p>Titles appearing elsewhere in an entry, notably in cases where a piece is performed or licensed under a different title, are delimited by parentheses { and }.</p></remarks>
         </elementSpec>
         <elementSpec ident="perf">
          <desc>Data concerning one or more performances</desc>
@@ -132,7 +123,7 @@
         </elementSpec>
         <elementSpec ident="bib">
          <desc>Data concerning one or more publications</desc>
-         <content><alternate minOccurs="0" maxOccurs="unbounded"><textNode/><elementRef key="title"/></alternate></content>
+         <content><alternate minOccurs="0" maxOccurs="unbounded"><textNode/><elementRef key="title"/><elementRef key="graphic"/></alternate></content>
         </elementSpec>
         <elementSpec ident="note">
          <desc>Additional comments of any kind</desc>
@@ -146,7 +137,20 @@
             </valList>
           </attDef>
          </attList>
-        </elementSpec><elementSpec ident="ref"><desc>Cross reference text</desc>      <content><textNode/></content>
+        </elementSpec>
+        
+        <elementSpec ident="ref"><desc>Cross reference text</desc>      <content><textNode/></content>
+        </elementSpec>
+        <elementSpec ident="graphic"><desc>Graphic element included within text</desc>      
+         <content><empty/></content>
+         <attList>
+          <attDef ident="desc"><desc>description of graphic content</desc>
+           <datatype><dataRef name="string"/></datatype>
+          </attDef>
+          <attDef ident="uri">
+           <desc>pointer to file containing representation of graphic content</desc>
+          <datatype><dataRef name="anyURI"/></datatype></attDef>
+         </attList>
         </elementSpec>
         
         <dataSpec ident="vicDate">
