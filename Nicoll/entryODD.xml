@@ -46,7 +46,8 @@
            <attList>
             <attDef ident="when">
              <desc>Earliest date associated with this item </desc>
-             <datatype><dataRef name="token"/></datatype>
+             <datatype><dataRef key="vicDate"/>
+            </datatype>
             </attDef>
             <attDef ident="xml:id">
              <desc>Unique identifier for this entry, comprising letter N and a 4 digit number derived from original sequence</desc>
@@ -56,10 +57,11 @@
               <desc>Indicates type of entry</desc>
              <valList type="closed">
               <valItem ident="plain"><desc>A plain entry documenting a dramatic event, with a single author label</desc></valItem>
-             <valItem ident="ref"><desc>An entry duplicating (wholly or partly) information about a dramatic event, referencing another entry</desc></valItem>
+             <valItem ident="part"><desc>An entry duplicating (wholly or partly) information about a dramatic event, referencing another entry</desc></valItem>
               <valItem ident="multi"><desc>An entry duplicating (wholly or partly) information about a dramatic event associated with multiple authors</desc></valItem>
-              <valItem ident="note"><desc>An entry containing a note or comment</desc></valItem></valList>
-           
+              <valItem ident="note"><desc>An entry containing a note or comment</desc></valItem>
+              <valItem ident="add"><desc>A skeletal entry derived from a comment</desc></valItem></valList>
+             
              </attDef><attDef ident="n">
               <datatype><dataRef name="string"/></datatype>
              </attDef>
@@ -156,9 +158,7 @@
         <dataSpec ident="vicDate">
          <desc>Normalised form for Victorian dates</desc>
          <content>
-          <sequence><dataRef name="gDay"/>
-          <dataRef name="gMonth"/>
-          <dataRef name="gYear"/></sequence>
+           <alternate><dataRef name="date"/><dataRef name="gYear"/></alternate>
          </content>
         </dataSpec>
          </schemaSpec>
