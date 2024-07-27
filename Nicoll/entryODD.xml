@@ -158,7 +158,10 @@
         <dataSpec ident="vicDate">
          <desc>Normalised form for Victorian dates</desc>
          <content>
-           <alternate><dataRef name="date"/><dataRef name="gYear"/></alternate>
+           <alternate><dataRef name="date"/>
+            <dataRef name="gYear"/>
+            <dataRef name="gYearMonth"/>           
+           </alternate>
          </content>
         </dataSpec>
          </schemaSpec>
