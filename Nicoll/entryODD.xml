@@ -2,169 +2,346 @@
 <!--<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_customization.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_customization.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>-->
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en"
- xmlns:lb="http://lb42.github.io">
-  <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>entryODD </title>
-            <author>Lou Burnard</author>
-         </titleStmt>
-         <publicationStmt><p>Unpublished draft</p>
-             </publicationStmt>
-         <sourceDesc>
-            <p>born digital</p>
-         </sourceDesc>
-      </fileDesc>
-  </teiHeader>
-  <text>
-      <body>
-         <head>entryODD</head>
-         <p>Hand-made ODD for checking markup of Nicoll Handlists</p>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" xmlns:lb="http://lb42.github.io">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title>entryODD </title>
+    <author>Lou Burnard</author>
+   </titleStmt>
+   <publicationStmt>
+    <p>Unpublished draft</p>
+   </publicationStmt>
+   <sourceDesc>
+    <p>born digital</p>
+   </sourceDesc>
+  </fileDesc>
+ </teiHeader>
+ <text>
+  <body>
+   <head>entryODD</head>
+   <p>Hand-made ODD for checking markup of Nicoll Handlists</p>
+
+   <schemaSpec ident="nicoll" start="doc" ns="http://lb42.github.io">
+    <!-- @ident is required -->
+    <desc>ODD for Nicoll Handlist entries</desc>
+    <elementSpec ident="doc">
+     <desc>Arbitrary root element</desc>
+     <content>
+      <alternate minOccurs="1" maxOccurs="unbounded">
+       <elementRef key="entryFrag"/>
+       <elementRef key="entry"/>
+      </alternate>
+     </content>
+    </elementSpec>
+
+    <elementSpec ident="entry">
+     <desc>Any entry in the Handlist, of any type</desc>
+     <content>
+      <sequence>
+       <elementRef key="class" minOccurs="0" maxOccurs="1"/>
+       <elementRef key="author" minOccurs="0" maxOccurs="unbounded"/>
+       <elementRef key="title" minOccurs="0" maxOccurs="unbounded"/>
+       <alternate minOccurs="1" maxOccurs="unbounded">
+        <elementRef key="perf"/>
+        <elementRef key="lic"/>
+        <elementRef key="bib"/>
+       </alternate>
+       <elementRef key="note" minOccurs="0" maxOccurs="unbounded"/>
+       <elementRef key="ref" minOccurs="0" maxOccurs="unbounded"/>
+      </sequence>
+     </content>
+     <attList>
+      <attDef ident="when">
+       <desc>Earliest date associated with this item </desc>
+       <datatype>
+        <dataRef key="vicDate"/>
+       </datatype>
+      </attDef>
+      <attDef ident="xml:id">
+       <desc>Unique identifier for this entry, comprising letter N and a 4 digit number derived from
+        original sequence</desc>
+       <datatype>
+        <dataRef name="ID"/>
+       </datatype>
+      </attDef>
+      <attDef ident="eType">
+       <desc>Indicates type of entry</desc>
+       <valList type="closed">
+        <valItem ident="plain">
+         <desc>A plain entry documenting a dramatic event, with a single author label</desc>
+        </valItem>
+        <valItem ident="part">
+         <desc>An entry duplicating (wholly or partly) information about a dramatic event,
+          referencing another entry</desc>
+        </valItem>
+        <valItem ident="multi">
+         <desc>An entry duplicating (wholly or partly) information about a dramatic event associated
+          with multiple authors</desc>
+        </valItem>
+        <valItem ident="note">
+         <desc>An entry containing a note or comment</desc>
+        </valItem>
+        <valItem ident="add">
+         <desc>A skeletal entry derived from a comment</desc>
+        </valItem>
+       </valList>
+
+      </attDef>
+      <attDef ident="n">
+       <datatype>
+        <dataRef name="string"/>
+       </datatype>
+      </attDef>
+      <attDef ident="matches">
+       <desc>Lacy ID for this item</desc>
+       <datatype>
+        <dataRef name="Name"/>
+       </datatype>
+      </attDef>
+     </attList>
+    </elementSpec>
+
+    <elementSpec ident="entryFrag">
+     <desc>A partial entry in the Handlist, of any type</desc>
+     <content>
+      <sequence>
+       <elementRef key="class" minOccurs="0" maxOccurs="1"/>
+       <elementRef key="author" minOccurs="0" maxOccurs="unbounded"/>
+       <elementRef key="title" minOccurs="0" maxOccurs="unbounded"/>
+       <alternate minOccurs="0" maxOccurs="unbounded">
+        <elementRef key="perf"/>
+        <elementRef key="lic"/>
+        <elementRef key="bib"/>
+       </alternate>
+       <elementRef key="note" minOccurs="0" maxOccurs="unbounded"/>
+       <elementRef key="ref" minOccurs="0" maxOccurs="unbounded"/>
+      </sequence>
+     </content>
+     <attList>
+      <attDef ident="when">
+       <desc>Earliest date associated with this item </desc>
+       <datatype>
+        <dataRef key="vicDate"/>
+       </datatype>
+      </attDef>
+      <attDef ident="xml:id">
+       <desc>Unique identifier for this entry, comprising letter N and a 4 digit number derived from
+        original sequence</desc>
+       <datatype>
+        <dataRef name="ID"/>
+       </datatype>
+      </attDef>
+      <attDef ident="eType">
+       <desc>Indicates type of entry</desc>
+       <valList type="closed">
       
-       <schemaSpec ident="nicoll" start="doc" ns="http://lb42.github.io">     <!-- @ident is required -->
-            <desc>ODD for Nicoll Handlist entries</desc>
-           <elementSpec ident="doc" >
-            <desc>Arbitrary root element</desc>
-           <content><elementRef key="entry" minOccurs="1" maxOccurs="unbounded"/></content>
-           </elementSpec>
-          <elementSpec ident="entry">
-           <desc>Any entry in the Handlist, of any type</desc>
-           <content>
-            <sequence>
-             <elementRef key="class" minOccurs="0" maxOccurs="1"/>
-             <elementRef key="author" minOccurs="0" maxOccurs="unbounded"/>
-             <elementRef key="title" minOccurs="0" maxOccurs="unbounded"/>
-             <alternate minOccurs="1" maxOccurs="unbounded">
-              <elementRef key="perf" ></elementRef>
-             <elementRef key="lic"  />
-             <elementRef key="bib"  /></alternate>
-             <elementRef key="note" minOccurs="0"  maxOccurs="unbounded"/>
-             <elementRef key="ref" minOccurs="0"  maxOccurs="unbounded"/>           
-            </sequence>
-           </content>
-           <attList>
-            <attDef ident="when">
-             <desc>Earliest date associated with this item </desc>
-             <datatype><dataRef key="vicDate"/>
-            </datatype>
-            </attDef>
-            <attDef ident="xml:id">
-             <desc>Unique identifier for this entry, comprising letter N and a 4 digit number derived from original sequence</desc>
-             <datatype><dataRef name="ID"/></datatype>
-            </attDef>
-             <attDef ident="eType">
-              <desc>Indicates type of entry</desc>
-             <valList type="closed">
-              <valItem ident="plain"><desc>A plain entry documenting a dramatic event, with a single author label</desc></valItem>
-             <valItem ident="part"><desc>An entry duplicating (wholly or partly) information about a dramatic event, referencing another entry</desc></valItem>
-              <valItem ident="multi"><desc>An entry duplicating (wholly or partly) information about a dramatic event associated with multiple authors</desc></valItem>
-              <valItem ident="note"><desc>An entry containing a note or comment</desc></valItem>
-              <valItem ident="add"><desc>A skeletal entry derived from a comment</desc></valItem></valList>
-             
-             </attDef><attDef ident="n">
-              <datatype><dataRef name="string"/></datatype>
-             </attDef>
-            <attDef ident="matches">
-             <desc>Lacy ID for this item</desc>
-             <datatype><dataRef name="Name"/></datatype>
-            </attDef>
-           </attList>         
-          </elementSpec>
-        <elementSpec ident="class">
-         <desc>Nicoll's classification code for this dramatic event</desc>
-         <content><textNode/></content>
-         <attList><attDef ident="group"><desc>group to which this classification belongs</desc>
-         <valList type="closed">
-          <valItem ident="BALLET"><desc></desc></valItem>
-          <valItem ident="BURLESQUE"><desc></desc></valItem>
-          <valItem ident="BURLETTA"><desc></desc></valItem>
-          <valItem ident="COMEDIETTA"><desc></desc></valItem>
-          <valItem ident="COMEDY"><desc></desc></valItem>
-          <valItem ident="DRAMA"><desc></desc></valItem>
-          <valItem ident="FARCE"><desc></desc></valItem>
-          <valItem ident="MELODRAMA"><desc></desc></valItem>
-          <valItem ident="MUSICAL"><desc></desc></valItem>
-          <valItem ident="OPERA"><desc></desc></valItem>
-          <valItem ident="PANTO"><desc></desc></valItem>
-          <valItem ident="SPECTACLE"><desc></desc></valItem>
-          <valItem ident="TRAGEDY"><desc></desc></valItem>
-          <valItem ident="UNC"><desc></desc></valItem>
-          <valItem ident="—"><desc>Value missing from taxonomy</desc></valItem>
-          <valItem ident="_"><desc>Value missing from taxonomy</desc></valItem>
-         </valList></attDef></attList>
-        </elementSpec>
-        <elementSpec ident="author">
-         <desc>Canonical form of author's name used as heading by Nicoll</desc>
-         <content><textNode/></content>
-         <attList>
-          <attDef ident="origin"><desc>author origin</desc>
-          <valList>
-           <valItem ident="US"><desc>American author</desc></valItem>
-          </valList></attDef>
-        <attDef ident="resp">
-        <desc>source for this attribution</desc>
-        <valList>
-         <valItem ident="LB"/>
-         <valItem ident="VPP"/>
-         <valItem ident="nicoll"/>
-        </valList></attDef> </attList>
-        </elementSpec>
-        <elementSpec ident="title">
-         <desc>Reference form of title as given by Nicoll</desc>
-         <content><alternate minOccurs="0" maxOccurs="unbounded"><textNode/><elementRef key="graphic"/></alternate></content>
-         <remarks><p>Titles appearing elsewhere in an entry, notably in cases where a piece is performed or licensed under a different title, are delimited by parentheses { and }.</p></remarks>
-        </elementSpec>
-        <elementSpec ident="perf">
-         <desc>Data concerning one or more performances</desc>
-         <content><textNode/></content>
-        </elementSpec>
-        <elementSpec ident="lic">
-         <desc>Data concerning one or more licences</desc>
-         <content><textNode/></content>
-        </elementSpec>
-        <elementSpec ident="bib">
-         <desc>Data concerning one or more publications</desc>
-         <content><alternate minOccurs="0" maxOccurs="unbounded"><textNode/><elementRef key="title"/><elementRef key="graphic"/></alternate></content>
-        </elementSpec>
-        <elementSpec ident="note">
-         <desc>Additional comments of any kind</desc>
-         <content><textNode/></content>
-         <attList>
-          <attDef ident="type">
-           <desc>categorizes the topic of the note</desc>
-           <valList>
-            <valItem ident="music"><desc/></valItem>
-            <valItem ident="auth"><desc/></valItem>
-            </valList>
-          </attDef>
-         </attList>
-        </elementSpec>
-        
-        <elementSpec ident="ref"><desc>Cross reference text</desc>      <content><textNode/></content>
-        </elementSpec>
-        <elementSpec ident="graphic"><desc>Graphic element included within text</desc>      
-         <content><empty/></content>
-         <attList>
-          <attDef ident="desc"><desc>description of graphic content</desc>
-           <datatype><dataRef name="string"/></datatype>
-          </attDef>
-          <attDef ident="uri">
-           <desc>pointer to file containing representation of graphic content</desc>
-          <datatype><dataRef name="anyURI"/></datatype></attDef>
-         </attList>
-        </elementSpec>
-        
-        <dataSpec ident="vicDate">
-         <desc>Normalised form for Victorian dates</desc>
-         <content>
-           <alternate><dataRef name="date"/>
-            <dataRef name="gYear"/>
-            <dataRef name="gYearMonth"/>           
-           </alternate>
-         </content>
-        </dataSpec>
-         </schemaSpec>
-      </body>
-  </text>
+        <valItem ident="part">
+         <desc>An entry duplicating (wholly or partly) information about a dramatic event,
+          referencing another entry</desc>
+        </valItem>
+               <valItem ident="note">
+         <desc>An entry containing a note or comment</desc>
+        </valItem>
+        <valItem ident="add">
+         <desc>A skeletal entry derived from a comment</desc>
+        </valItem>
+       </valList>
+       
+      </attDef>
+      <attDef ident="n">
+       <datatype>
+        <dataRef name="string"/>
+       </datatype>
+      </attDef>
+      <attDef ident="matches">
+       <desc>Lacy ID for this item</desc>
+       <datatype>
+        <dataRef name="Name"/>
+       </datatype>
+      </attDef>
+     </attList>
+    </elementSpec>
+    
+
+    <elementSpec ident="class">
+     <desc>Nicoll's classification code for this dramatic event</desc>
+     <content>
+      <textNode/>
+     </content>
+     <attList>
+      <attDef ident="group">
+       <desc>group to which this classification belongs</desc>
+       <valList type="closed">
+        <valItem ident="BALLET">
+         <desc/>
+        </valItem>
+        <valItem ident="BURLESQUE">
+         <desc/>
+        </valItem>
+        <valItem ident="BURLETTA">
+         <desc/>
+        </valItem>
+        <valItem ident="COMEDIETTA">
+         <desc/>
+        </valItem>
+        <valItem ident="COMEDY">
+         <desc/>
+        </valItem>
+        <valItem ident="DRAMA">
+         <desc/>
+        </valItem>
+        <valItem ident="FARCE">
+         <desc/>
+        </valItem>
+        <valItem ident="MELODRAMA">
+         <desc/>
+        </valItem>
+        <valItem ident="MUSICAL">
+         <desc/>
+        </valItem>
+        <valItem ident="OPERA">
+         <desc/>
+        </valItem>
+        <valItem ident="PANTO">
+         <desc/>
+        </valItem>
+        <valItem ident="SPECTACLE">
+         <desc/>
+        </valItem>
+        <valItem ident="TRAGEDY">
+         <desc/>
+        </valItem>
+        <valItem ident="UNC">
+         <desc/>
+        </valItem>
+        <valItem ident="—">
+         <desc>Value missing from taxonomy</desc>
+        </valItem>
+        <valItem ident="_">
+         <desc>Value missing from taxonomy</desc>
+        </valItem>
+       </valList>
+      </attDef>
+     </attList>
+    </elementSpec>
+    <elementSpec ident="author">
+     <desc>Canonical form of author's name used as heading by Nicoll</desc>
+     <content>
+      <textNode/>
+     </content>
+     <attList>
+      <attDef ident="origin">
+       <desc>author origin</desc>
+       <valList>
+        <valItem ident="US">
+         <desc>American author</desc>
+        </valItem>
+       </valList>
+      </attDef>
+      <attDef ident="resp">
+       <desc>source for this attribution</desc>
+       <valList>
+        <valItem ident="LB"/>
+        <valItem ident="VPP"/>
+        <valItem ident="nicoll"/>
+       </valList>
+      </attDef>
+     </attList>
+    </elementSpec>
+    <elementSpec ident="title">
+     <desc>Reference form of title as given by Nicoll</desc>
+     <content>
+      <alternate minOccurs="0" maxOccurs="unbounded">
+       <textNode/>
+       <elementRef key="graphic"/>
+      </alternate>
+     </content>
+     <remarks>
+      <p>Titles appearing elsewhere in an entry, notably in cases where a piece is performed or
+       licensed under a different title, are delimited by parentheses { and }.</p>
+     </remarks>
+    </elementSpec>
+    <elementSpec ident="perf">
+     <desc>Data concerning one or more performances</desc>
+     <content>
+      <textNode/>
+     </content>
+    </elementSpec>
+    <elementSpec ident="lic">
+     <desc>Data concerning one or more licences</desc>
+     <content>
+      <textNode/>
+     </content>
+    </elementSpec>
+    <elementSpec ident="bib">
+     <desc>Data concerning one or more publications</desc>
+     <content>
+      <alternate minOccurs="0" maxOccurs="unbounded">
+       <textNode/>
+       <elementRef key="title"/>
+       <elementRef key="graphic"/>
+      </alternate>
+     </content>
+    </elementSpec>
+    <elementSpec ident="note">
+     <desc>Additional comments of any kind</desc>
+     <content>
+      <textNode/>
+     </content>
+     <attList>
+      <attDef ident="type">
+       <desc>categorizes the topic of the note</desc>
+       <valList>
+        <valItem ident="music">
+         <desc/>
+        </valItem>
+        <valItem ident="auth">
+         <desc/>
+        </valItem>
+       </valList>
+      </attDef>
+     </attList>
+    </elementSpec>
+
+    <elementSpec ident="ref">
+     <desc>Cross reference text</desc>
+     <content>
+      <textNode/>
+     </content>
+    </elementSpec>
+    <elementSpec ident="graphic">
+     <desc>Graphic element included within text</desc>
+     <content>
+      <empty/>
+     </content>
+     <attList>
+      <attDef ident="desc">
+       <desc>description of graphic content</desc>
+       <datatype>
+        <dataRef name="string"/>
+       </datatype>
+      </attDef>
+      <attDef ident="uri">
+       <desc>pointer to file containing representation of graphic content</desc>
+       <datatype>
+        <dataRef name="anyURI"/>
+       </datatype>
+      </attDef>
+     </attList>
+    </elementSpec>
+
+    <dataSpec ident="vicDate">
+     <desc>Normalised form for Victorian dates</desc>
+     <content>
+      <alternate>
+       <dataRef name="date"/>
+       <dataRef name="gYear"/>
+       <dataRef name="gYearMonth"/>
+      </alternate>
+     </content>
+    </dataSpec>
+   </schemaSpec>
+  </body>
+ </text>
 </TEI>
