@@ -50,38 +50,85 @@
    </performance>
    <castList>
     <head>Characters.</head>
-    <castItem><role gender="M">The Duke De Montbazon </role><actor sex="M">Mr. Bruce Norton.
-     </actor></castItem>
-    <castItem><role gender="M">The Grand Bailli De Coargement </role><actor sex="M">Mr. Raymond.
-     </actor></castItem>
-    <castItem><role gender="M">The Count De Castel Blangy </role><actor sex="M">Mr. W. Montague.
-     </actor></castItem>
-    <castItem><role gender="M">The Vicomte Hercules </role><actor sex="M">Mr. H. Widdicomb.
-     </actor></castItem>
-    <castItem><role gender="M">The Judge D'arpignol </role><actor sex="M">Mr. Fenton.
-     </actor></castItem>
-    <castItem><role gender="M">Commander Of The Pouffieres. </role><actor sex="M">Mr. J. Parry.
-     </actor></castItem>
-    <castItem><role gender="M">The Chevalier De Rollac </role><actor sex="M">Mr. T. Mead.
-     </actor></castItem>
-    <castItem><role gender="M">Doctor </role><actor sex="M">Mr. Butler. </actor></castItem>
-    <castItem><role gender="M">Beaumesnil . </role><actor sex="M">Mr. </actor></castItem>
-    <castItem><role gender="M">Duperon . </role><actor sex="M">Mr. </actor></castItem>
-    <castItem><role gender="M">Grelu ... Proprietor And Deputy Prefet) ... </role><actor sex="M">Mr.
-     Fitzroy. </actor></castItem>
-    <castItem><role gender="M">Jean Joson ... </role><roleDesc>(the Deputy's Deputy)
-     </roleDesc><actor sex="M">Mr. J. W. Collier. </actor></castItem>
-    <castItem><role gender="M">Guillaume, Surnamed Belphegor </role><actor sex="M">Mr. Creswick.
-     </actor></castItem>
-    <castItem><role gender="M">Grain D'amour </role><actor sex="M">Mr. Rivers. </actor></castItem>
-    <castItem><role gender="M">Henri </role><roleDesc>(son To Belphegor) </roleDesc><actor sex="F"
-     >Miss Mandlebert. </actor></castItem>
-    <castItem><role gender="F">Madeline </role><roleDesc>(wife To Belphegor) </roleDesc><actor
-     sex="F">Miss Cooper. </actor></castItem>
-    <castItem><role gender="F">Nini Flora </role><roleDesc>(dancer At The Academie)
-     </roleDesc><actor sex="F">Miss J. Coveney. </actor></castItem>
-    <castItem><role gender="F">Catherine </role><actor sex="F">Miss H. Coveney. </actor></castItem>
-    <castItem> <roleDesc>Masqueraders, Peasants, Soldiers, Servants, &amp;c. </roleDesc> </castItem>
+    <castItem>
+     <role gender="M">The Duke De Montbazon </role>
+     <actor sex="M">Mr. Bruce Norton. </actor>
+    </castItem>
+    <castItem>
+     <role gender="M">The Grand Bailli De Courgement </role>
+     <actor sex="M">Mr. Raymond. </actor>
+    </castItem>
+    <castItem>
+     <role gender="M">The Count De Castel Blangy </role>
+     <actor sex="M">Mr. W. Montague. </actor>
+    </castItem>
+    <castItem>
+     <role gender="M">The Vicomte Hercules </role>
+     <actor sex="M">Mr. H. Widdicomb. </actor>
+    </castItem>
+    <castItem>
+     <role gender="M">The Judge D'arpignol </role>
+     <actor sex="M">Mr. Fenton. </actor>
+    </castItem>
+    <castItem>
+     <role gender="M">Commander Of The Pouffieres. </role>
+     <actor sex="M">Mr. J. Parry. </actor>
+    </castItem>
+    <castItem>
+     <role gender="M">The Chevalier De Rollac </role>
+     <actor sex="M">Mr. T. Mead. </actor>
+    </castItem>
+    <castItem>
+     <role gender="M">Doctor </role>
+     <actor sex="M">Mr. Butler. </actor>
+    </castItem>
+    <castItem>
+     <role gender="M">Beaumesnil . </role>
+     <actor sex="M">Mr. </actor>
+    </castItem>
+    <castItem>
+     <role gender="M">Duperon . </role>
+     <actor sex="M">Mr. </actor>
+    </castItem>
+    <castItem>
+     <role gender="M">Grelu ... Proprietor And Deputy Prefet) ... </role>
+     <actor sex="M">Mr. Fitzroy. </actor>
+    </castItem>
+    <castItem>
+     <role gender="M">Jean Joson ... </role>
+     <roleDesc>(the Deputy's Deputy) </roleDesc>
+     <actor sex="M">Mr. J. W. Collier. </actor>
+    </castItem>
+    <castItem>
+     <role gender="M">Guillaume, Surnamed Belphegor </role>
+     <actor sex="M">Mr. Creswick. </actor>
+    </castItem>
+    <castItem>
+     <role gender="M">Grain D'amour </role>
+     <actor sex="M">Mr. Rivers. </actor>
+    </castItem>
+    <castItem>
+     <role gender="M">Henri </role>
+     <roleDesc>(son To Belphegor) </roleDesc>
+     <actor sex="F">Miss Mandlebert. </actor>
+    </castItem>
+    <castItem>
+     <role gender="F">Madeline </role>
+     <roleDesc>(wife To Belphegor) </roleDesc>
+     <actor sex="F">Miss Cooper. </actor>
+    </castItem>
+    <castItem>
+     <role gender="F">Nini Flora </role>
+     <roleDesc>(dancer At The Academie) </roleDesc>
+     <actor sex="F">Miss J. Coveney. </actor>
+    </castItem>
+    <castItem>
+     <role gender="F">Catherine </role>
+     <actor sex="F">Miss H. Coveney. </actor>
+    </castItem>
+    <castItem>
+     <roleDesc>Masqueraders, Peasants, Soldiers, Servants, &amp;c. </roleDesc>
+    </castItem>
    </castList>
 
    <set>
@@ -162,7 +209,9 @@
      </sp>
      <sp>
       <speaker>Omnes.</speaker>
-      <p> <stage> laugh.</stage> </p>
+      <p>
+       <stage> laugh.</stage>
+      </p>
      </sp>
      <sp>
       <speaker>Grelu.</speaker>
@@ -1664,7 +1713,9 @@
      </sp>
      <sp>
       <speaker>Henri.</speaker>
-      <p> <stage>(goes up, L.H., prepares dinner.)</stage> </p>
+      <p>
+       <stage>(goes up, L.H., prepares dinner.)</stage>
+      </p>
      </sp>
      <sp>
       <speaker>Cath.</speaker>
@@ -2740,7 +2791,7 @@
     </sp>
     <sp>
      <speaker>Duke.</speaker>
-     <p><stage>(takes Hercules by the ear)</stage> So, you villain, this s your professor, eh? </p>
+     <p><stage>(takes Hercules by the ear)</stage> So, you villain, this is your professor, eh? </p>
     </sp>
     <sp>
      <speaker>Her.</speaker>
@@ -2937,21 +2988,76 @@
     </sp>
     <sp>
      <speaker>Flora.</speaker>
-     <p> I do not know him. <stage>(as Belphegor and Henri come down. Anas. Nor I. Fanny. Nor I. D U
-      P . Nor I. B E L . Your pardon, ladies and gentlemen. I fear I have come at an unlucky
-      moment—in the midst of a fete. Beau. Perfect, perfect—I declare: one would imagine it real—he
-      acts the character splendidly. H E R . How a man can look so miserable as that, without being
-      so, I can't conceive—and the boy, too. You gave all the invitations—do you guess which of our
-      guests it is? all aside. Flora. No. H E R . I don't much like the looks of them. Flora. I am
-      sure the boy is very handsome. Her. Where the deuce did you get that mountebank's dress from?
-      Beau. From Paris direct, I dare say—ha, ha! B E L . I've worn it long, Messieurs, and the late
-      journey, the heavy roads we have travelled, the rain, mud, dust, has not improved its
-      appearance; but I keep my little Jacquinet as neat as I can— bow, Jacquinet, to the ladies aud
-      gentlemen. Flora. Come and kiss me, boy. Her. Ha, ha, ha!—'pon my life he's alarmed! D U P
-      .(aside to Flora.)</stage> Don't let them guess that we see it's a joke, treat them as if they
-      were really vagabonds, and see how they'll keep it up. It will be capital fun—I'll manage
-      it.<stage>(aloud)</stage>. Now, Mountebank, where do you come from; give us some of your
-      history, and what you have been about? </p>
+     <p> I do not know him. <stage>(as Belphegor and Henri come down. </stage></p>
+    </sp>
+    <sp>
+     <speaker>Anas.</speaker>
+     <p> Nor I.</p>
+    </sp>
+    <sp>
+     <speaker>Fanny. </speaker>
+     <p>Nor I.</p>
+    </sp>
+    <pb n="29"/>
+    <sp>
+     <speaker>Dup.</speaker>
+     <p>Nor I.</p>
+    </sp>
+    <sp>
+     <speaker>Bel.</speaker>
+     <p>Your pardon, ladies and gentlemen. I fear I have come at an unlucky moment—in the midst of a
+      <hi>fete</hi>.</p>
+    </sp>
+    <sp>
+     <speaker>Beau.</speaker>
+     <p> Perfect, perfect—I declare: one would imagine it real—he acts the character splendidly.</p>
+    </sp>
+    <sp>
+     <speaker>Her.</speaker>
+     <p>How a man can look so miserable as that, without being so, I can't conceive—and the boy,
+      too. You gave all the invitations—do you guess which of our guests it is?</p>
+     <stage>all aside. </stage>
+    </sp>
+    <sp>
+     <speaker>Flora.</speaker>
+     <p> No.</p>
+    </sp>
+    <sp>
+     <speaker>Her.</speaker>
+     <p>I don't much like the looks of them.</p>
+    </sp>
+    <sp>
+     <speaker>Flora.</speaker>
+     <p>I am sure the boy is very handsome.</p>
+    </sp>
+    <sp>
+     <speaker>Her.</speaker>
+     <p>Where the deuce did you get that mountebank's dress from?</p>
+    </sp>
+    <sp>
+     <speaker>Beau.</speaker>
+     <p> From Paris direct, I dare say—ha, ha!</p>
+    </sp>
+    <sp>
+     <speaker>Bel.</speaker>
+     <p>I've worn it long, Messieurs, and the late journey, the heavy roads we have travelled, the
+      rain, mud, dust, has not improved its appearance; but I keep my little Jacquinet as neat as I
+      can— bow, Jacquinet, to the ladies aud gentlemen. </p>
+    </sp>
+    <sp>
+     <speaker>Flora.</speaker>
+     <p>Come and kiss me, boy. </p>
+    </sp>
+    <sp>
+     <speaker>Her.</speaker>
+     <p>Ha, ha, ha!—'pon my life he's alarmed!</p>
+    </sp>
+    <sp>
+     <speaker>Dup.</speaker>
+     <p><stage>(aside to Flora.)</stage> Don't let them guess that we see it's a joke, treat them as
+      if they were really vagabonds, and see how they'll keep it up. It will be capital fun—I'll
+      manage it.<stage>(aloud)</stage>. Now, Mountebank, where do you come from; give us some of
+      your history, and what you have been about? </p>
     </sp>
     <sp>
      <speaker>Bel.</speaker>
@@ -3444,8 +3550,8 @@
       <p> <stage>(C.)</stage> Very well; as the Duke is not here, I'll wait for him. <stage>(Servant
        bows and exits, C.)</stage> The Duke is now in great favour, and I entreated his good
        offices—<stage>(looks off.)</stage> The Count de Blangy! What the devil brings him here? An
-       intriguing—plotting—fawning <stage>( D E Blangy, having entered, comes down, R.)</stage> Ah!
-       my dear Count, this is a pleasure; I am delighted to see you. </p>
+       intriguing—plotting—fawning <stage>(De Blangy, having entered, comes down, R.)</stage> Ah! my
+       dear Count, this is a pleasure; I am delighted to see you. </p>
      </sp>
      <sp>
       <speaker>Blan.</speaker>
