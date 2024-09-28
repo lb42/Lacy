@@ -11,7 +11,7 @@
     </xsl:template>
 
     
- <xsl:template match="body">     <xsl:text>['volYr', 'age &lt; 5', 'age 5 - 19', 'age 20+'],
+ <xsl:template match="body">     <xsl:text>volYr, age &lt; 5, age 5 - 19, age 20+
  </xsl:text>
          <xsl:for-each select="div">
          <xsl:sort select="substring-after(@n,'/')"/>
