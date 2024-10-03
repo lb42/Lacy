@@ -11,7 +11,7 @@
   
  <xsl:template match="/">
   <xsl:variable name="context" select="."/>
-   <listPerson xmlns="http://www.tei-c.org/ns/1.0">
+   <listPerson xmlns="http://www.tei-c.org/ns/1.0" type="actors">
      <xsl:for-each-group select="//t:actor"    
        group-by="normalize-space(replace(.,'[ -,.\n]',''))" >
        <xsl:sort/>
@@ -33,21 +33,4 @@
      </xsl:for-each-group>
    </listPerson></xsl:template></xsl:stylesheet>
      
-  <!--   
-     
-     
-     <xsl:for-each select="distinct-values(//t:bibl/t:note[@type='firstPerf']/t:name)">
-    <xsl:sort/>
-   <xsl:variable name="name" select="."/>  
-    <xsl:variable name="normName" select="normalize-space(.)"/> 
-     <xsl:variable name="squashName" select="normalize-space(replace(.,'[ -,.\n]',''))"/>
-    <place xmlns="http://www.tei-c.org/ns/1.0" xml:id="{$squashName}"><xsl:value-of select="$normName"/></place>
-<xsl:comment>
-<xsl:value-of select="count($context//t:note/t:name[contains(.,$name)])"/> 
-</xsl:comment>
-<xsl:text>
-</xsl:text>
-  </xsl:for-each></listPlace>
- </xsl:template>
-</xsl:stylesheet>
--->
+ 

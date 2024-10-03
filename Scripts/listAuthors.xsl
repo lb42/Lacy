@@ -21,11 +21,15 @@
     <xsl:variable name="f" select="count($authorsNormalized[. eq $a])"/> 
      <xsl:variable name="occurrences"><xsl:value-of select="$context//t:author[contains(normalize-space(replace(.,$chars2zap,'')),$a)]/parent::t:bibl/@xml:id"/></xsl:variable>
    
-   <xsl:comment> <xsl:value-of select="$a"/> occurs <xsl:value-of select="$f"/> times
-</xsl:comment>
-     <xsl:variable name="nicName"><xsl:value-of select="upper-case($a)"/></xsl:variable>
-   <xsl:variable name="id">
-     <xsl:number value="position()" format="001"/>
+ <!--  <xsl:comment> <xsl:value-of select="$a"/> occurs <xsl:value-of select="$f"/> times</xsl:comment>
+ -->    <xsl:variable name="nicNums" select="$context//t:div/t:bibl[contains($occurrences,@xml:id)]/@corresp"/>
+       <xsl:variable name="nicNo" select="substring-after($nicNums[position() eq 1],':')"/>
+<!--     <xsl:comment>Nicno <xsl:value-of select="$nicNo"/></xsl:comment>
+-->     <xsl:variable name="nicName"><xsl:value-of 
+      select="document('/home/lou/Public/Lacy/Nicoll/allEntries.xml')//(*:entry|*:entryFrag)[@xml:id=$nicNo]/*:author"></xsl:value-of>
+     </xsl:variable>
+     <xsl:variable name="id">
+     <xsl:number value="position()" format="0001"/>
    </xsl:variable>  
    <person role="author" xml:id="{concat('W',$id)}">
   <xsl:attribute name="freq">
@@ -40,16 +44,19 @@
      </xsl:choose>
     </xsl:attribute>
    <persName> <xsl:value-of select="$a"/></persName>
+  
     <xsl:choose> 
-     <xsl:when test="count(document('/home/lou/pCloudDrive/LacyWork/Nicoll/allEntries.xml')//*:entry[matches(*:author,$nicName)]) gt 0">
+     <xsl:when test="string-length($nicName) gt 0">
       <persName resp="Nicoll"><xsl:value-of select="$nicName"/></persName>
      </xsl:when>
+     <xsl:when test="count($nicNums) eq 0">
+      <xsl:message>Entry for <xsl:value-of select="$a"/> not linked to Nicoll </xsl:message>   
+     </xsl:when>
    <xsl:otherwise>
-    <xsl:message><xsl:value-of select="concat('Couldnt find ',$nicName,' in allEntries for ',$a)"/></xsl:message>   
+    <xsl:message>Couldn't find <xsl:value-of select="$a"/> in <xsl:value-of select="$nicNums"/></xsl:message>   
    </xsl:otherwise></xsl:choose>
     
- <!--   
--->   <writerOf><xsl:value-of select="$occurrences"/></writerOf> 
+  <writerOf><xsl:value-of select="$occurrences"/></writerOf> 
    </person><xsl:text>
 </xsl:text></xsl:if>
    </xsl:for-each>
