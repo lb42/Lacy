@@ -188,14 +188,15 @@
        <valItem ident="TEI_0"><desc>Preliminary TEI conversion checked</desc></valItem>
        <valItem ident="TEI_1"><desc>Metadata enriched from Lacy Catalogue</desc></valItem>
       </valList>
-     </attDef>  <attDef ident="corresp" mode="add">
+     </attDef>  
+       <attDef ident="corresp" mode="add">
         <desc>points to an equivalent bibliographic description elsewhere; typically in Nicoll's
          Handlists </desc>
         <datatype>
          <dataRef key="teidata.pointer"/>
         </datatype>
        </attDef>
-       <attDef ident="type" mode="change">
+       <attDef ident="type" mode="replace">
         <desc>specifies the scope of the bibliographic description; in Lacy only two values are
          distinguished</desc>
         <valList type="closed">

@@ -21,38 +21,49 @@
   
   <xsl:message><xsl:value-of select="count(//div/bibl[@status='nopi'])"/> items are marked as lacking performance date information.</xsl:message>
   <xsl:message><xsl:value-of select="count(//div/bibl[@status='replaced'])"/> items are marked as replaced.</xsl:message> 
-  <xsl:message><xsl:value-of select="count(//div/bibl[not(note[contains(@type,'extent')])])"/> items lack extent data.</xsl:message>
+  <xsl:message><xsl:value-of select="count(//div/bibl[not(//extent)])"/> items lack extent data.</xsl:message>
  
   
-    <xsl:message>VPP:  <xsl:value-of select="count(//div/bibl[listRef/ref[starts-with(@target,'vpp')]])"/> links;  <xsl:value-of 
-   select="count(//div/bibl[listRef/ref[contains(@target,'-vpp')]])"/> local copies.</xsl:message>
+    <xsl:message>VPP:  <xsl:value-of select="count(//div/bibl/listRef/ref[starts-with(.,'VPP')])"/> links;  <xsl:value-of 
+   select="count(//div/bibl//ident[contains(.,'-vpp')])"/> local copies.</xsl:message>
 
   <xsl:message>Digitizations from...</xsl:message>
-  <xsl:for-each select="distinct-values(//*:ref/@target[starts-with(.,'local:')]/substring-before(substring-after(.,'-'),'.pdf'))">
+  <xsl:for-each select="distinct-values(//note[@type='localCopies']/ident/substring-before(substring-after(.,'-'),'.pdf'))">
    <xsl:sort/>
    <xsl:variable name="f" select="concat('-', ., '.pdf')"/>
-   <xsl:message><xsl:value-of select="."/><xsl:text> </xsl:text> <xsl:value-of select="count($root//*:ref[ends-with(@target, $f)])"/></xsl:message>
+   <xsl:message><xsl:value-of select="."/><xsl:text> </xsl:text> 
+    <xsl:value-of select="count($root//*:ident[ends-with(. , $f)])"/></xsl:message>
   </xsl:for-each>
   
   <xsl:variable name="totVPP" select="count(//div/bibl[listRef/ref[contains(.,'VPP_PDF')]])"/>
+  <xsl:variable name="totLarge" select="count(//div/bibl[starts-with(@type,'L')])"/>
+  <xsl:variable name="totMed" select="count(//div/bibl[starts-with(@type,'M')])"/>
+  <xsl:variable name="totSmall" select="count(//div/bibl[starts-with(@type,'S')])"/>
   
   
-<!-- balance criterion : length -->
+<!-- balance criterion : size -->
   
+  <xsl:text>Size distribution all titles</xsl:text>
   
-  <xsl:message>Length distribution for VPP titles</xsl:message>
+  <xsl:value-of select="$totVPP"/><xsl:text>, </xsl:text>
+  <xsl:value-of select="$totLarge"/><xsl:text>, </xsl:text>
+  <xsl:value-of select="$totMed"/><xsl:text>, </xsl:text>
+  <xsl:value-of select="$totSmall"/><xsl:text>
+  </xsl:text>
   
-<xsl:value-of select="$totVPP"/><xsl:text>, </xsl:text>
- <xsl:message> <xsl:value-of select="count(//bibl[starts-with(@type,'1')])"/><xsl:text>, </xsl:text>
-<xsl:value-of select="count(//bibl[starts-with(@type,'1') and listRef/ref[starts-with(.,'VPP')]] )"/><xsl:text>, </xsl:text>
-  <xsl:value-of select="count(//bibl[starts-with(@type,'2')])"/><xsl:text>, </xsl:text>
-  <xsl:value-of select="count(//bibl[starts-with(@type,'2') and listRef/ref[starts-with(.,'VPP')]] )"/><xsl:text>, </xsl:text>
-  <xsl:value-of select="count(//bibl[starts-with(@type,'3')])"/><xsl:text>, </xsl:text>
-  <xsl:value-of select="count(//bibl[starts-with(@type,'3') and listRef/ref[starts-with(.,'VPP')]] )"/><xsl:text>, </xsl:text>
+  <xsl:message>Size distribution for VPP titles</xsl:message>
+
+
+ <xsl:message> <xsl:value-of select="count(//bibl[starts-with(@type,'L')])"/><xsl:text>, </xsl:text>
+<xsl:value-of select="count(//bibl[starts-with(@type,'L') and listRef/ref[starts-with(.,'VPP')]] )"/><xsl:text>, </xsl:text>
+  <xsl:value-of select="count(//bibl[starts-with(@type,'M')])"/><xsl:text>, </xsl:text>
+  <xsl:value-of select="count(//bibl[starts-with(@type,'M') and listRef/ref[starts-with(.,'VPP')]] )"/><xsl:text>, </xsl:text>
+  <xsl:value-of select="count(//bibl[starts-with(@type,'S')])"/><xsl:text>, </xsl:text>
+  <xsl:value-of select="count(//bibl[starts-with(@type,'S') and listRef/ref[starts-with(.,'VPP')]] )"/><xsl:text>, <!--</xsl:text>
   <xsl:value-of select="count(//bibl[starts-with(@type,'4')])"/><xsl:text>, </xsl:text>
   <xsl:value-of select="count(//bibl[starts-with(@type,'4') and listRef/ref[starts-with(.,'VPP')]] )"/><xsl:text>, </xsl:text>
   <xsl:value-of select="count(//bibl[starts-with(@type,'5')])"/><xsl:text>, </xsl:text>
-  <xsl:value-of select="count(//bibl[starts-with(@type,'5') and listRef/ref[starts-with(.,'VPP')]] )"/><xsl:text> </xsl:text>
+  <xsl:value-of select="count(//bibl[starts-with(@type,'5') and listRef/ref[starts-with(.,'VPP')]] )"/><xsl:text>--> </xsl:text>
   </xsl:message>
   
   <xsl:result-document href="digitizations.xml">

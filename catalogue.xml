@@ -1230,6 +1230,7 @@
      type="firstPerf"><date resp="nicoll" when="1851-07-07"/><name>Strand Theatre</name><date
      resp="source" when="1851-07-07">7 July 1851</date></eventName><note type="localCopies"
      ><ident>Vol04/L0056/L0056-um.pdf</ident> </note></bibl>
+    
     <bibl n="4.12" xml:id="L0057" status="replaced" type="S_4_Tragedy_T._TRAGEDY"
      corresp="nic:N04141">
      <author>[Anon.]</author>
@@ -14647,12 +14648,17 @@
       <ref target="http://victorian.nuigalway.ie/modx/assets/docs/pdf/Vol57ixLady.pdf">VPP_PDF</ref>
      </listRef>
      <note type="localCopies">
-      <ident>Vol57/L0849/hvd-32044018937516-1704563101.pdf</ident>
-      <ident>Vol57/L0849/L0849-um.pdf</ident>
-      <ident>Vol57/L0849/L0849-vpp.pdf</ident>
+       <ident>Vol57/L0849/L0849-vpp.pdf</ident>
       <ident>Vol57/L0849/pages</ident>
-      <ident>Vol57/L0849/VAB7088.xml</ident>
-      <ident>Vol57/L0849/Vol57ixLady.pdf</ident>
+       <ident>Vol57/L0849/Vol57ixLady.pdf</ident>
+      <!-- these are of different version, attributed to C.H. Hazlewood and in  Nicoll as N13762, which seems to have 
+       replaced the VPP digitized version -->
+      <ident>Vol57/L0849/L0489-hvd.pdf</ident>
+      <ident>Vol57/L0849/L0849-um.pdf</ident>
+      -->
+      <!-- this is the novel 
+       <ident>Vol57/L0849/VAB7088.xml</ident>
+      -->
      </note>
     </bibl>
     <bibl n="57.10" xml:id="L0850" type="M_3_DramaPlayOpera__" status="nopi">
@@ -15651,7 +15657,7 @@
       <ident>Vol61/L0910/L0910-um.pdf</ident>
      </note>
     </bibl>
-    <bibl n="61.11" xml:id="L0911" type="M_1_Comic_Ext._SPECTACLE" corresp="nic:N10380">
+    <bibl n="61.11" status="TEI_0" xml:id="L0911" type="M_1_Comic_Ext._SPECTACLE" corresp="nic:N10380">
      <author>Byron, Henry James</author>
      <title n="1863">1863; or, The Sensations of the Past Season. With A Shameful Revelation of Lady
       Somebody's Secret</title>
@@ -25359,7 +25365,7 @@
      number<code>1.6</code>. In the advertising pages consulted, this title is text L0006,
      Bayly's<title>Ladder of Love</title>. However, in the HT edition, the sixth title in volume 1
      is Murray's<title>No!</title>, to which we therefore give the identifier L0006R. A list of
-     these modifications foillows. The dates given are those of the first performance according to
+     these modifications follows. The dates given are those of the first performance according to
      the copy, where this is supplied.</p>
     <table>
      <row role="label">
