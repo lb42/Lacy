@@ -1,40 +1,24 @@
 # Lacy
-Exploring Thomas Hailes Lacy's acting edition of Victorian Plays (1848-1873)
 
-The catalogue of Lacy's Acting editions originally prepared as part of
-the Victorian Plays Project at Worcester, is still online and easily
-scrapable. The online version takes the form of nearly 100 HTML tables, each corresponding with a single volume. I ran a simple minded script to do the following :
-
- - grabs the web page for each volume summary, available as an URL in the form "http://victorian.nuigalway.ie/modx/index.php?id=$i" where $i runs from 76 to 173
- - runs a perl script `munge.prl` to do some minimal tidying of the HTML, chiefly to replace entity references with Unicode characters
- - runs the XSLT  script `makeCat.xsl`  to turn the table/td/tr  tagging into something more meaningful. Thus the part of page 72 which reads (in HTML) like this:
-~~~~
-<tr><td>1 Sept. 1852</td>
-<td><strong>Phillips, Mrs. Alfred</strong></td>
-<td><strong><a href="assets/docs/pdf/Vol07xvMaster.pdf">The Master Passion</a></strong></td>
-<td>A Comedy in 2 Acts</td>
-<td>Royal Olympic Theatre</td>
-</tr>
-~~~~
-becomes
-~~~~
-<!-- 72 -->
-<bibl n="7.15">
-<date when="1852">1 Sept. 1852</date><author>Phillips, Mrs. Alfred</author>
-<title>The Master Passion</title>
-<ref target="vpp:Vol07xvMaster.pdf">PDF</ref>
-<title type="sub">A Comedy in 2 Acts</title>
-<note type="firstPerf">Royal Olympic Theatre</note></bibl>
-~~~~
-ready for further enrichment and correction. I plan to add links to other online editions as I find them. 
-
-Scripts processing this catalogue include
-
- - `countAuthors.xsl` : lists authors with frequency counts
- - `countVenues.xsl` : lists venues cited for first performance with frequency counts
+  <img src="https://lb42.github.io/Lacy/media/theBestest.png"/>
  
-Further versions of this catalogue (as of Dec 2022) are as follows:
+ A digital exploration of Lacy's Acting Edition of Plays, published by Thomas Hailes Lacy (1809-1873) between 1848 and 1873
+    
+This repository contains (amongst other things) ...
+ 
+ - `catalogue.xml` bibliographic details of Lacy's Acting Edition, with links to digitized versions of individual titles
+ - `Nicoll/allEntries.xml` metadata transcribed from  Allardyce Nicoll's "Handlists" (from his History of English Drama, vols 4 and 5)
+ - `TEI` a folder of TEI transcriptions 
+ - `Doc` a folder of talks, articles, etc.
+ 
+ A public facing version of the site is in preparation at http://lb42.github.io/Lacy
 
-- `oldCatalog.xml` : hand edited version of the foregoing, correcting numerous errors and ommissions, last changed July 2022
-- `catalogue.xml` : current version, incorporating various additions
-- `cataloguePlus.xml : working version, including additional information for checking, taken from Allardyce Nicoll's checklists (created by running `~/pCloudDrive/LacyWork/Nicoll/addNic.xsl` against `catalogue.xml` using `~/pCloudDrive/LacyWork/Nicoll/lacyEntriesDated.xml`
+## Licence!
+
+Unless otherwise stated, all the material in this repository is made available under the terms of Creative Commons Licence CC-BY-NC-ND 4.0 DEED 
+
+<a href="https://creativecommons.org/licenses/by-nc-nd/4.0/"><img src="ccbyncnd.png"/></a>
+
+## Contact
+
+Please raise issues in the Github repo! 
