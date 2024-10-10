@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://dracor.org/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L0001">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://dracor.org/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L0001">
  <teiHeader>
   <fileDesc>
    <titleStmt>
@@ -15,11 +13,16 @@
     <distributor>Privately published on the Lacy Website</distributor>
     <idno>L0001</idno>
    </publicationStmt>
-   <sourceDesc>
-    <p>Retagged from DOCX produced by Abby from VPP PDF file Vol1iTime and checked against Brum page images.</p>
-   </sourceDesc>
+   <sourceDesc><bibl type="digital">Retagged from DOCX produced by Abby from VPP PDF file Vol1iTime and checked against Brum page images.</bibl><bibl type="source" status="TEI_1" n="1.1" corresp="nic:N00793"><author>Courtney, John</author><title n="timetriesall">Time Tries All!</title><title type="sub">An Original Drama in two acts</title><extent>23 pp (UM copy: 8 - 31)<measure type="pp" quantity="23"/><measure type="txWords" quantity="10037"/><measure type="spWords" quantity="8783"/><measure type="stWords" quantity="1254"/></extent><eventName notAfter="1848" type="firstPerf">
+      <date resp="nicoll" when="1848-09-04"/>
+      <name>Royal Olympic Theatre</name>
+      <date resp="source" when="1848-09-04">4 Sept. 1848</date>
+     </eventName><listRef>
+      <ref target="http://victorian.nuigalway.ie/modx/assets/docs/pdf/Vol1iTime.pdf">VPP_PDF</ref>
+      <ref target="https://hdl.handle.net/2027/hvd.32044086859295">Hathi_Trust</ref>
+     </listRef><listRef type="localCopies"><ref>Vol01/L0001/L0001-um.pdf</ref><ref>Vol01/L0001/L0001-vpp.pdf</ref><ref>Vol01/L0001/pages</ref><ref>Vol01/L0001/Vol1iTime.pdf</ref></listRef></bibl></sourceDesc>
   </fileDesc>
-  <revisionDesc>
+  <profileDesc><textClass><!--S_2_Drama_D._DRAMA--><catRef target="#sizeS"/><catRef target="#act2"/><catRef target="nic:D."/><keywords><term>DRAMA</term></keywords></textClass></profileDesc><revisionDesc><change when="2024-10-03">Header enriched</change>
    <change when="2023-10-06">Header confected</change>
   </revisionDesc>
  </teiHeader>

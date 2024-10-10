@@ -13,7 +13,7 @@ This repository contains (amongst other things) ...
  
  A public facing version of the site is in preparation at http://lb42.github.io/Lacy
 
-## Licence!
+## Licence
 
 Unless otherwise stated, all the material in this repository is made available under the terms of Creative Commons Licence CC-BY-NC-ND 4.0 DEED 
 

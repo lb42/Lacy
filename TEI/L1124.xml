@@ -12,21 +12,20 @@
    <publicationStmt>
     <p>Part of TEI-Lacy Edition, 2022</p>
    </publicationStmt>
-   <sourceDesc>
-    <bibl type="printSource"> <title>Frankenstein; or, The Man and the Monster. A Romantic
-     Melo-Drama in two acts. Founded Principally on Mrs Shelley's Singular Work Entitled
-     Frankenstein, or, The Modern Prometheus, and Partly on the French Piece "Le Magicien et le
-     Monstre"</title> <publisher>Thomas Hailes Lacy.</publisher> <date notBefore="1826" notAfter="1867"/><series>Lacy Acting Edition, vol 75, no 1124</series> <note>Probably a reprint of the 1835 Duncombe ed.</note> </bibl>
-    <bibl type="digitalSources">
-     <ref target="http://victorian.nuigalway.ie/modx/assets/docs/pdf/Vol75xivFrankenstein.pdf">Vpp Pdf</ref> 
-     <ref target="http://knarf.english.upenn.edu/Milner/milnertp.html">Html at Upenn</ref>
-     <ref target="https://www.proquest.com/books/frankenstein-1867/docview/2138576315/se-2">Proquest edition</ref>
-     <ref target="https://hdl.handle.net/2027/mdp.39015067453756">Page images of Lae Vol 75 at Hathi Trust</ref>
-    </bibl>
-   </sourceDesc>
+   <sourceDesc><bibl type="digital"/><bibl type="source" status="TEI_1" n="75.14" corresp="nic:N02517"><author>Milner, H.M.</author><title n="frankenstein">Frankenstein; or, The Man and the Monster</title><title type="sub">A Romantic Melo-Drama in two acts</title><title type="source" n="#EN #FR">Founded Principally on Mrs Shelley's Singular Work Entitled
+      Frankenstein; or, The Modern Prometheus, and Partly on the French Piece "Le Magicien et le
+      Monstre"</title><extent>25 pp (UM copy: 564 - 589)<measure type="pp" quantity="22"/><measure type="txWords" quantity="8329"/><measure type="spWords" quantity="5968"/><measure type="stWords" quantity="2361"/></extent><eventName notAfter="1823" type="firstPerf">
+      <date resp="nicoll" when="1823-08-18"/>
+      <name>Royal Coburg Theatre</name>
+      <date resp="source" when="1826-07-03">3 July 1826</date>
+     </eventName><note type="otherPerfs" resp="mullin">Lyceum, 1839, with Mr Norman; Sadlers Wells, Nov
+      1843</note><listRef>
+      <ref target="http://victorian.nuigalway.ie/modx/assets/docs/pdf/Vol75xivFrankenstein.pdf">VPP_PDF</ref>
+      <ref target="http://knarf.english.upenn.edu/Milner/milnertp.html">HTML at Upenn</ref>
+     </listRef><listRef type="localCopies"><ref>Vol75/L1124/L1124-um.pdf</ref><ref>Vol75/L1124/pages</ref><ref>Vol75/L1124/Vol75xivFrankenstein.pdf</ref></listRef></bibl></sourceDesc>
   </fileDesc>
 <encodingDesc><p>Retagged in TEI P5</p></encodingDesc>
-  <revisionDesc><change when="2022-09-20">First complete TEI edition</change></revisionDesc>
+  <profileDesc><textClass><!--S_2_Drama_M.D._MELODRAMA--><catRef target="#sizeS"/><catRef target="#act2"/><catRef target="nic:M.D."/><keywords><term>MELODRAMA</term></keywords></textClass></profileDesc><revisionDesc><change when="2024-10-03">Header enriched</change><change when="2022-09-20">First complete TEI edition</change></revisionDesc>
  </teiHeader>
 
  <text>
@@ -1308,7 +1307,7 @@
       in pursuit. — Frankenstein enters with Emmeline — they are followed by a party of Soldiers,
       whom Frankenstein encourages to the attack of the Monster. They all go off in pursuit, from L.
       to R.</stage>
-     <!--  <head>Act Ii, Scene Viii</head>-->
+     
     </div>
     <div type="scene">
      <head>Scene Eight.</head>

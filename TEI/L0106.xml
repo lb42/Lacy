@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L0106">
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L0106">
  <teiHeader>
   <fileDesc>
    <titleStmt>
@@ -14,11 +13,16 @@
     <distributor>Privately published on the Lacy Website</distributor>
     <idno>L0106</idno>
    </publicationStmt>
-   <sourceDesc>
-    <p>Retagged from Docx produced by Abby from a Vpp Pdf edition</p>
-   </sourceDesc>
+   <sourceDesc><bibl type="digital">Retagged from Docx produced by Abby from a Vpp Pdf edition</bibl><bibl type="source" status="TEI_1" n="8.1" corresp="nic:N09535"><author>Boucicault, Dion</author><title n="theprimadonna">The Prima Donna</title><title type="sub">A Comedy in two acts</title><extent>23 pp (UM copy: 10 - 33)<measure type="pp" quantity="21"/><measure type="txWords" quantity="8627"/><measure type="spWords" quantity="7297"/><measure type="stWords" quantity="1330"/></extent><eventName notAfter="1852" type="firstPerf">
+      <date resp="nicoll" when="1852-09-18"/>
+      <name>Royal Princess's Theatre</name>
+      <date resp="source" when="1852-09-18">18 Sept. 1852</date>
+     </eventName><listRef>
+      <ref target="http://victorian.nuigalway.ie/modx/assets/docs/pdf/Vol08iPrima.pdf">VPP_PDF</ref>
+      <ref target="https://archive.org/details/primadonnacomedy0000bouc">Internet Archive</ref>
+     </listRef><listRef type="localCopies"><ref>Vol08/L0106/L0106-um.pdf</ref><ref>Vol08/L0106/L0106-uw.pdf</ref><ref>Vol08/L0106/L0106-vpp.pdf</ref><ref>Vol08/L0106/pages</ref><ref>Vol08/L0106/Vol08iPrima.pdf</ref></listRef></bibl></sourceDesc>
   </fileDesc>
-  <revisionDesc>
+  <profileDesc><textClass><!--S_2_Comedy_F._FARCE--><catRef target="#sizeS"/><catRef target="#act2"/><catRef target="nic:F."/><keywords><term>FARCE</term></keywords></textClass></profileDesc><revisionDesc><change when="2024-10-03">Header enriched</change>
    <change when="2023-12-02">Header confected</change>
   </revisionDesc>
  </teiHeader>
@@ -33,7 +37,7 @@
     <docImprint>Thomas Hailes Lacy, Wellington Street, Strand, London</docImprint>
    </titlePage>
    <pb n="2"/>
-   <div type="preface">
+   <div type="liminal">
     <head>Prefatory Note.</head>
     <p>I had been often told by my literary friends, that the sentimental Comedies, so popular at
      the <hi>Gymnase Theatre</hi> in Paris, were unsuited to the taste of a London Public. In spite

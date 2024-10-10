@@ -1,11 +1,10 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L0039">
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L0039">
  <teiHeader>
   <fileDesc>
    <titleStmt>
     <title>Belphegor, or the Mountebank and his Wife: TEI edition</title>
     <author ref="https://en.wikipedia.org/wiki/John_Courtney_(playwright)">Courtney, John
-     <!--[pseud. John Fuller] (1804-1865)--></author>
+     </author>
     <respStmt>
      <resp>Curated by</resp>
      <name>Lou Burnard</name>
@@ -14,14 +13,23 @@
    <publicationStmt>
     <distributor>Privately published on the Lacy Website</distributor>
    </publicationStmt>
-   <sourceDesc>
-    <p>Retagged from VPP PDF, which derives from an unidentified copy in Birmingham Library. Note
-     that this is quite different from the Lacy acting edition version digitized by Google. </p>
-    <p>The French source text is <title>Paillasse</title>, by D'Ennery and Marc-Fournier, first
-     performed at the theatre de la Gaite, Paris, 9 Nov 1850). </p>
-   </sourceDesc>
+   <sourceDesc><bibl type="digital">Retagged from VPP PDF, which derives from an unidentified copy in Birmingham Library. Note
+     that this is quite different from the Lacy acting edition version digitized by Google.  The French source text is Paillasse, by D'Ennery and Marc-Fournier, first
+     performed at the theatre de la Gaite, Paris, 9 Nov 1850). </bibl><bibl type="source" status="TEI_1" n="3.9" corresp="nic:N11183"><author>Courtney, John</author><title n="belphegortheitinerant">Belphegor; or, The Mountebank and his Wife</title><title type="sub">A Drama in four acts</title><title type="source" n="#FR">Adapted from the French</title><extent>55 pp (UM copy: 254 - 309)<measure type="pp" quantity="48"/><measure type="txWords" quantity="18842"/><measure type="spWords" quantity="15743"/><measure type="stWords" quantity="3099"/></extent><eventName notAfter="1851" type="firstPerf">
+      <date resp="nicoll" when="1851-01-20"/>
+      <name>Royal Surrey Theatre</name>
+      <date resp="source" when="1851-01-20">20 January 1851</date>
+     </eventName><listRef>
+      <ref target="http://victorian.nuigalway.ie/modx/assets/docs/pdf/Vol3ixBelphegor.pdf">VPP_PDF</ref>
+      <ref target="https://www.google.com/books/edition/Belphegor_Or/hT8WAAAAYAAJ">Google
+       Books</ref>
+     </listRef><relatedItem type="source">
+      <bibl>
+       <title>Paillasse, drame en cing actes / par Mm d'Ennery et Marc-Fournier</title>
+      </bibl>
+     </relatedItem><listRef type="localCopies"><ref>Vol03/L0039/L0039-hv.pdf</ref><ref>Vol03/L0039/L0039-um.pdf</ref><ref>Vol03/L0039/L0039-vpp.pdf</ref><ref>Vol03/L0039/pages</ref><ref>Vol03/L0039/Vol3ixBelphegor.pdf</ref></listRef></bibl></sourceDesc>
   </fileDesc>
-  <revisionDesc>
+  <profileDesc><textClass><!--L_4_Drama_D._DRAMA--><catRef target="#sizeL"/><catRef target="#act4"/><catRef target="nic:D."/><keywords><term>DRAMA</term></keywords></textClass></profileDesc><revisionDesc><change when="2024-10-03">Header enriched</change>
    <change when="2023-08-10">Hand edited</change>
   </revisionDesc>
  </teiHeader>
@@ -5429,14 +5437,7 @@
       <p> And man, whatever his chance of birth, may still be happy in his heart's affection, so
        that that heart be true to honour and itself. </p>
      </sp>
-     <!--
-<sp><speaker>R.H.</speaker><p> 
-</p></sp>
-<sp><speaker>L.H.</speaker><p> 
-{Guards.
-Guards.} 
-</p></sp>
-<sp><speaker>Decourgement.Duke.Henri.Belphegor.Jeanne.Madeline.</speaker><p> -->
+     
      <stage>Curtain.</stage>
     </div>
    </div>

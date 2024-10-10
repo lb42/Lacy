@@ -13,11 +13,20 @@
     <distributor>Privately published on the Lacy Website</distributor>
     <idno>L1325</idno>
    </publicationStmt>
-   <sourceDesc>
-    <p>Retagged from Docx produced by Abby from a Vpp Pdf edition</p>
-   </sourceDesc>
+   <sourceDesc><bibl type="digital">Retagged from Docx produced by Abby from a Vpp Pdf edition</bibl><bibl type="source" status="TEI_1" n="89.6" corresp="nic:N01850"><author>Horne, R.H.</author><title n="thedeathofmarlowe">The Death of Marlowe</title><title type="sub">A Tragedy in one act</title><extent>22 pp (UM copy: 204 - 226)<measure type="pp" quantity="20"/><measure type="txWords" quantity="5393"/><measure type="spWords" quantity="5083"/><measure type="stWords" quantity="310"/></extent><eventName notAfter="1837" type="firstPerf">
+      <date resp="nicoll" when="1837"/>
+      <name>First edition</name>
+      <date resp="source" when="1837">1837</date>
+     </eventName><listRef>
+      <ref target="http://victorian.nuigalway.ie/modx/assets/docs/pdf/Vol89viMarlowe.pdf">VPP_PDF</ref>
+      <ref target="https://archive.org/details/deathmarloweatr00horngoog">Internet Archive</ref>
+     </listRef><note>The dedication to the "fifth edition" explains that "this brief Tragedy, long since out
+      of print, was originally published in London (by Messrs. Saunders and Otley), and was
+      inscribed to the author's friend, LEIGH HUNT, happily living at that time; and it is now
+      dedicated to his dear Memory — deservedly dear to all who knew him, and to a world of others
+      who know his books". London, Christmas, 1869.</note><listRef type="localCopies"><ref>Vol89/L1325/L1325-hv.pdf</ref><ref>Vol89/L1325/L1325-um.pdf</ref><ref>Vol89/L1325/L1325-vpp.pdf</ref><ref>Vol89/L1325/pages</ref><ref>Vol89/L1325/Vol89viMarlowe.pdf</ref></listRef></bibl></sourceDesc>
   </fileDesc>
-  <revisionDesc>
+  <profileDesc><textClass><!--S_1_Tragedy_T._TRAGEDY--><catRef target="#sizeS"/><catRef target="#act1"/><catRef target="nic:T."/><keywords><term>TRAGEDY</term></keywords></textClass></profileDesc><revisionDesc><change when="2024-10-03">Header enriched</change>
    <change when="2023-11-23">Header confected</change>
   </revisionDesc>
  </teiHeader>
@@ -40,7 +49,7 @@
     <docImprint> London: Thomas Hailes Lacy, 89, Strand. <docDate> 1870 </docDate>. </docImprint>
    </titlePage>
    <pb n="2"/>
-   <div type="preface">
+   <div type="liminal">
     <head> Dedication. </head>
     <p> This brief Tragedy, long since out of print, was originally published in London (by Messrs.
      Saunders and Otley), and was inscribed to the author's friend, Leigh Hunt, happily living at
@@ -49,7 +58,7 @@
     <signed>R.H.H.</signed>
     <trailer> London, Christmas, 1869.</trailer>
    </div>
-   <div type="epigraph">
+   <div type="liminal">
     <head>The Death Of Marlowe.</head>
     <head>Written After Reading "The Death Of Marlowe," By R. H. Horne, Esq.</head>
     <lg>
@@ -68,13 +77,13 @@
    <pb n="4"/>
    <castList>
     <head>Dramatis Personae</head>
-    <castItem> <role>Christopher Marlowe</role> <role>Thomas Heywood</role> <roleDesc>Dramatists and
+    <castItem> <role gender="M">Christopher Marlowe</role> <role gender="M">Thomas Heywood</role> <roleDesc>Dramatists and
      Actors.</roleDesc> </castItem>
-    <castItem> <role>Thomas Middleton</role> <roleDesc>Dramatist.</roleDesc> </castItem>
-    <castItem> <role>Cecilia</role> <roleDesc> Runaway Wife of the Drunkard, Ben Gough.</roleDesc> </castItem>
-    <castItem> <role>Jacconot, alias Jack-'o-night</role> <roleDesc>A Tavern Pander and
+    <castItem> <role gender="M">Thomas Middleton</role> <roleDesc>Dramatist.</roleDesc> </castItem>
+    <castItem> <role gender="F">Cecilia</role> <roleDesc> Runaway Wife of the Drunkard, Ben Gough.</roleDesc> </castItem>
+    <castItem> <role gender="M">Jacconot, alias Jack-'o-night</role> <roleDesc>A Tavern Pander and
      Swashbuckler.</roleDesc> </castItem>
-    <castItem> <role>Gentlemen, Officers, Servants, &amp;c.</role> </castItem>
+    <castItem> <role gender="M">Gentlemen, Officers, Servants, &amp;c.</role> </castItem>
    </castList>
   </front>
   <body>
