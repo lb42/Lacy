@@ -25,7 +25,8 @@
  
   
     <xsl:message>VPP:  <xsl:value-of select="count(//div/bibl/listRef/ref[starts-with(.,'VPP')])"/> links;  <xsl:value-of 
-   select="count(//div/bibl//ident[contains(.,'-vpp')])"/> local copies.</xsl:message>
+      select="count(//div/bibl//ident[contains(.,'-vpp')])"/> local copies; <xsl:value-of 
+        select="count(//div/bibl[note/ident[contains(.,'-vpp')] and contains(@status,'TEI')])"/> in TEI</xsl:message>
 
   <xsl:message>Digitizations from...</xsl:message>
   <xsl:for-each select="distinct-values(//note[@type='localCopies']/ident/substring-before(substring-after(.,'-'),'.pdf'))">
@@ -70,11 +71,13 @@
   <xsl:for-each select="TEI/text/body/div/bibl">  
    <xsl:value-of select="@xml:id"/><xsl:text>, </xsl:text>
    <xsl:for-each select="listRef/ref">
-    <xsl:value-of select="normalize-space(.)"/><xsl:text>, </xsl:text>
-    <xsl:if test="starts-with(@target,'local:')">
-     <xsl:value-of select="substring-before(substring-after(@target,'-'),'.pdf')"/><xsl:text>, </xsl:text></xsl:if>
-   </xsl:for-each>
-  <xsl:text>
+    <xsl:value-of select="normalize-space(.)"/><xsl:text> </xsl:text>
+    </xsl:for-each>
+  <xsl:text>,</xsl:text>
+    <xsl:for-each select="note[@type='localCopies']/ident">
+      <xsl:value-of select="."/><xsl:text> </xsl:text>
+    </xsl:for-each>
+    <xsl:text>
 </xsl:text></xsl:for-each>
   </xsl:result-document>
   
