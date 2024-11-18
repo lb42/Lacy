@@ -6,7 +6,9 @@
 
 <!-- some = 6-10 ; few = 1-5 ; many = gt 10 
  -->
-<authorList xmlns:t="http://www.tei-c.org/ns/1.0">
+
+
+<listPerson xmlns="http://lb42.github.io">
  <person role="author" xml:id="W0002" freq="7" lacyTitles="some" ref="http://viaf.org/viaf/72544739"
   dlb="y">
   <persName>A'Beckett, Gilbert Abbott (1811-1856)</persName>
@@ -22,10 +24,11 @@
   <ref target="https://en.wikipedia.org/wiki/Gilbert_Arthur_%C3%A0_Beckett">Wikipedia</ref>
  </person>
  <person role="author" xml:id="W0004" freq="3" lacyTitles="few">
-  <persName>Addison, H.R.</persName>
+  <persName>Addison, Henry Robert (1805-1876)</persName>
   <persName resp="Nicoll">ADDISON, Captain (later Lieutenant-Colonel) HENRY ROBERT </persName>
   <writerOf>L0164 L0235 L0708</writerOf>
   <ref target="https://en.wikipedia.org/wiki/Henry_Robert_Addison">Wikipedia</ref>
+  <ptr target="#LDA101"/>
  </person>
  <person role="author" xml:id="W0005" freq="1" lacyTitles="few" ref="http://viaf.org/viaf/7413288">
   <persName>Addison, Joseph (1672-1719)</persName>
@@ -39,20 +42,21 @@
   <writerOf>L0900 L1057</writerOf>
   <ref target="https://en.wikipedia.org/wiki/John_Till_Allingham">Wikipedia</ref>
  </person>
- <person role="author" xml:id="W0007" freq="8" lacyTitles="some">
-  <persName>Almar, George</persName>
+ <person role="author" xml:id="W0007" freq="8" lacyTitles="some" ref="http://viaf.org/viaf/1365950
+  ">
+  <persName>Almar, George (1802-1854)</persName>
   <persName resp="Nicoll">ALMAR, GEORGE</persName>
   <writerOf>L0494 L0519 L0831 L1061 L1098 L1250 L1296 L1360</writerOf>
   <ref> not in wpedia </ref>
  </person>
  <person role="author" xml:id="W0008" freq="1" lacyTitles="few">
-  <persName>Amcotts, Vincent</persName>
+  <persName>Amcotts, Vincent (1845-1881)</persName>
   <persName resp="Nicoll">AMCOTTS, VINCENT </persName>
   <writerOf>L1114</writerOf>
   <ref> not in wpedia </ref>
  </person>
  <person role="author" xml:id="W0009" freq="4" lacyTitles="few">
-  <persName>Amherst, J.H.</persName>
+  <persName>Amherst, J.H. (1776-1851)</persName>
   <persName resp="Nicoll">AMHERST, J. H.</persName>
   <writerOf>L0194 L0380 L1201 L1468</writerOf>
   <ref> not in wikipedia </ref>
@@ -87,7 +91,7 @@
   <persName resp="Nicoll">ARNOLD, HENRY THOMAS </persName>
   <persName resp="Nicoll">[“H. T. ARDEN”] </persName>
   <writerOf>L1132 L1161</writerOf>
-  <ref> not found in wikipedia </ref>
+  <ref> not found in wikipedia ; not in jrs</ref>
  </person>
  <person role="author" xml:id="W0015" freq="1" lacyTitles="few" ref="http://viaf.org/viaf/29921604">
   <persName>Arnold, W.H. (1774-1852) </persName>
@@ -105,7 +109,7 @@
   <persName>Baddeley, G.C.</persName>
   <persName resp="Nicoll">BADDELEY, G. C. </persName>
   <writerOf>L1101</writerOf>
-  <ref> not found </ref>
+  <ref> not found  ; not in jrs </ref>
  </person>
  <person role="author" xml:id="W0018" freq="1" lacyTitles="few">
   <persName>Banim, John (1798-1842)</persName>
@@ -117,7 +121,7 @@
   <persName>Barnett, B.</persName>
   <persName resp="Nicoll">BARNETT, BENJAMIN </persName>
   <writerOf>L0018</writerOf>
-  <ref> not found </ref>
+  <ref> not found  ; not in jrs </ref>
  </person>
  <person role="author" xml:id="W0020" freq="1" lacyTitles="few" ref="http://viaf.org/viaf/104499259">
   <persName>Barnett, Charles Zachary (1813-1849)</persName>
@@ -162,7 +166,7 @@
   <writerOf>L1020</writerOf>
   <ref target="https://en.wikipedia.org/wiki/Samuel_Beazley">Wikipedia</ref>
  </person>
- <person role="author" xml:id="W0027" freq="4" lacyTitles="few">
+ <person role="author" xml:id="W0027" freq="4" lacyTitles="few" ref="http://viaf.org/viaf/315646807">
   <persName>Becher, Martin</persName>
   <persName resp="Nicoll">BECHER, MARTIN </persName>
   <writerOf>L1359 L1382 L1414 L1429</writerOf>
@@ -181,6 +185,7 @@
   <writerOf>L0002 L0011 L0027 L0200 L0241 L0333 L0339 L0382 L0420 L0436 L0439 L0466 L0481 L0556
    L0575 L0653 L0712 L0786 L1237 L1260</writerOf>
   <ref target="https://en.wikipedia.org/wiki/William_Bayle_Bernard">Wikipedia</ref>
+  <ptr target="#LDA102"/>
  </person>
  <person role="author" xml:id="W0030" freq="1" lacyTitles="few">
   <persName>Berrie, E.</persName>
@@ -195,12 +200,13 @@
   <persName type="pseudo" resp="Nicoll">[“JOHN DALY”] </persName>
   <writerOf>L0158 L0203 L0286</writerOf>
   <ref> not found </ref>
+  <ptr target="#LDA203"/>
  </person>
  <person role="author" xml:id="W0032" freq="2" lacyTitles="few">
   <persName>Best, William</persName>
   <persName resp="Nicoll">BEST, WILLIAM</persName>
   <writerOf>L0997 L1019</writerOf>
-  <ref target="https://lb42.github.io/Lacy/media/notFound.png">Not found</ref>
+  <ref >Not found</ref>
  </person>
  <person role="author" xml:id="W0033" freq="1" lacyTitles="few">
   <persName>Bickerstaff, Isaac (1733-1808)</persName>
@@ -208,7 +214,7 @@
   <writerOf>L1129</writerOf>
   <ref target="https://en.wikipedia.org/wiki/Isaac_Bickerstaffe">Wikipedia</ref>
  </person>
- <person role="author" xml:id="W0034" freq="3" lacyTitles="few">
+ <person role="author" xml:id="W0034" freq="3" lacyTitles="few" ref="http://viaf.org/viaf/77720118">
   <persName>Blake, Thomas G.</persName>
   <persName resp="Nicoll">BLAKE, THOMAS G.</persName>
   <writerOf>L0086R L0229 L0362</writerOf>
@@ -219,6 +225,7 @@
   <persName resp="Nicoll">BLANCHARD, EDWARD LEMAN </persName>
   <writerOf>L0122 L0619 L0664</writerOf>
   <ref target="https://en.wikipedia.org/wiki/Edward_Litt_Laman_Blanchard">Wikipedia</ref>
+  <ptr target="#LDA103"/>
  </person>
  <person role="author" xml:id="W0036" freq="1" lacyTitles="few">
   <persName>Bolton, Charles</persName>
@@ -232,12 +239,13 @@
   <persName resp="Nicoll">[DIONYSIUS L. BOURCICAULT] </persName>
   <writerOf>L0106 L0356 L0500 L0558 L0932 L0963</writerOf>
   <ref target="https://en.wikipedia.org/wiki/Dion_Boucicault">Wikipedia</ref>
+  <ptr target="#LDA104"/>
  </person>
- <person role="author" xml:id="W0038" freq="6" lacyTitles="some">
-  <persName>Bridgeman, J.V.</persName>
+ <person role="author" xml:id="W0038" freq="6" lacyTitles="some" ref=" http://viaf.org/viaf/303030696">
+  <persName>Bridgeman, John Vipon (1819-1889)</persName>
   <persName resp="Nicoll">BRIDGEMAN, JOHN V. </persName>
   <writerOf>L0070 L0096 L0198 L0331 L0623 L0895</writerOf>
-  <ref> no wikipedia entry </ref>
+  <ref> no wikipedia entry </ref><!-- music journalist -->
  </person>
  <person role="author" xml:id="W0039" freq="1" lacyTitles="few">
   <persName>Bristow, George F. (1825-1898)</persName>
@@ -255,12 +263,13 @@
   <persName resp="Nicoll">BROOKS, CHARLES WILLIAM SHIRLEY</persName>
   <writerOf>L0012 L0022 L0044 L0053 L0067 L0733</writerOf>
   <ref target="https://en.wikipedia.org/wiki/Shirley_Brooks">Wikipedia</ref>
+  <ptr target="#LDA105"/>
  </person>
  <person role="author" xml:id="W0042" freq="10" lacyTitles="some">
   <persName>Brough, Robert B. (1828-1860)</persName>
   <persName resp="Nicoll">BROUGH, ROBERT BARNABAS </persName>
   <writerOf>L0083 L0205 L0212 L0361 L0393 L0425 L0474 L0644 L1305 L1308</writerOf>
-  <ref tareget="https://en.wikipedia.org/wiki/Robert_Barnabas_Brough">Wikipedia</ref>
+  <ref target="https://en.wikipedia.org/wiki/Robert_Barnabas_Brough">Wikipedia</ref>
  </person>
  <person role="author" xml:id="W0043" freq="40" lacyTitles="many"
   ref="https://viaf.org/viaf/42732877/">
@@ -270,12 +279,14 @@
    L0792 L0815 L0817 L0819 L0843 L0844 L0898 L0908 L0919 L0927 L0938 L0948 L0957 L0969 L0988 L0991
    L0996 L1010 L1118 L1140 L1170 L1178 L1197 L1211 L1282 L1283</writerOf>
   <ref target="https://en.wikipedia.org/wiki/William_Brough_(writer)">Wikipedia</ref>
+  <ptr target="#LDA106"/>
  </person>
  <person role="author" xml:id="W0044" freq="4" lacyTitles="few">
   <persName>Brougham, John (1814-1880)</persName>
   <persName resp="Nicoll">BROUGHAM, JOHN </persName>
   <writerOf>L0390 L0976 L1021 L1227</writerOf>
   <ref target="https://en.wikipedia.org/wiki/John_Brougham">Wikipedia</ref>
+  <ptr target="#LDA107"/>
  </person>
  <person role="author" xml:id="W0045" freq="14" lacyTitles="some"
   ref="http://viaf.org/viaf/44663176">
@@ -291,6 +302,7 @@
   <writerOf>L0008 L0077 L0087 L0150 L0250 L0251 L0365 L0367 L0457 L0507 L1026 L1034 L1179 L1189
    L1220 L1298</writerOf>
   <ref target="https://en.wikipedia.org/wiki/John_Baldwin_Buckstone">Wikipedia</ref>
+  <ptr target="#LDA108"/>
  </person>
  <person role="author" xml:id="W0047" freq="2" lacyTitles="few">
   <persName>Bunn, Alfred (1796-1860)</persName>
@@ -306,6 +318,7 @@
    L0864 L0888 L0889 L0890 L0902 L0906 L0922 L0923 L0935 L0951 L0956 L0975 L0980 L0992 L1150 L1153
    L1158 L1175 L1176 L1249 L1338 L1370 L1473</writerOf>
   <ref target="https://en.wikipedia.org/wiki/F._C._Burnand">Wikipedia</ref>
+  <ptr target="#LDA109"/>
  </person>
 
  <person role="author" xml:id="W0050" freq="1" lacyTitles="few">
@@ -336,6 +349,7 @@
    L0959 L0981 L0983 L0993 L1076 L1077 L1138 L1154 L1157 L1214 L1291 L1294 L1314 L1320 L1365 L1380
    L1381 L1385 L1402 L1483</writerOf>
   <ref target="https://en.wikipedia.org/wiki/Henry_James_Byron">Wikipedia</ref>
+  <ptr target="#LDA110"/>
  </person>
  <person role="author" xml:id="W0054" freq="1" lacyTitles="few">
   <persName> Cole, John William, (1792-1870) </persName>
@@ -369,6 +383,8 @@
   <writerOf>L0763 L0772 L0793 L0801 L0941 L0960 L0965 L0999 L1032 L1256 L1287 L1340 L1390
    L1431</writerOf>
   <ref> not in wikipedia </ref>
+  <note>Curran index no 1404</note>
+  <ptr target="#LDA112"/>
  </person>
  <person role="author" xml:id="W0059" freq="1" lacyTitles="few" ref="http://viaf.org/viaf/51763613">
   <persName>Cibber, Colley (1671-1757)</persName>
@@ -427,10 +443,11 @@
   <ref target="https://en.wikipedia.org/wiki/Robert_T._Conrad">Wikipedia</ref>
  </person>
  <person role="author" xml:id="W0068" freq="1" lacyTitles="few">
-  <persName>Cooper, Frederick Fox</persName>
+  <persName>Cooper, Frederick Fox (1806-1879)</persName>
   <persName resp="Nicoll">COOPER, FREDERICK FOX</persName>
   <writerOf>L1333</writerOf>
   <ref> not found </ref>
+  <note>New biog F. Renard Cooper 'Nothing extenuate' 1964</note>
  </person>
  <person role="author" xml:id="W0069" freq="10" lacyTitles="some">
   <persName>Courtney, John (1804–1865)</persName>
@@ -459,12 +476,14 @@
    L0433 L0434 L0499 L0511 L0521 L0529 L0579 L0586 L0613 L0716 L0746 L0751 L0775 L0782 L0833 L0857
    L0958 L1203 L1269 L1377 L1400</writerOf>
   <ref target="https://en.wikipedia.org/wiki/Joseph_Stirling_Coyne">Wikipedia</ref>
+  <ptr target="#LDA113"/>
  </person>
  <person role="author" xml:id="W0073" freq="11" lacyTitles="some">
   <persName>Craven, H.T. (1818-1905)</persName>
   <persName resp="Nicoll">CRAVEN, HENRY THORNTON [HENRY THORNTON] </persName>
   <writerOf>L0694 L0720 L0742 L0851 L0893 L0987 L1081 L1128 L1209 L1263 L1394</writerOf>
   <ref target="https://en.wikipedia.org/wiki/Henry_Thornton_Craven">Wikipedia</ref>
+  <ptr target="#LDA114"/>
  </person>
  <person role="author" xml:id="W0074" freq="1" lacyTitles="few">
   <persName>Cullerne, Edward</persName>
@@ -529,10 +548,10 @@
   <persName resp="Nicoll">DILLEY, JOSEPH J. </persName>
   <writerOf>L1126</writerOf>
   <ref> not found </ref>
+  <ptr target="#LDA205"/>
  </person>
  <person role="author" xml:id="W0085" freq="7" lacyTitles="some">
   <persName>Dimond, William (1781-1837)</persName>
-  <persName resp="Nicoll">BARNETT, MORRIS </persName>
   <writerOf>L0017R L0142 L0684 L1042 L1266 L1343 L1354</writerOf>
   <ref target="https://en.wikipedia.org/wiki/William_Dimond">Wikipedia</ref>
  </person>
@@ -562,10 +581,11 @@
   <ref> not found </ref>
  </person>
  <person role="author" xml:id="W0090" freq="3" lacyTitles="few">
-  <persName>Dubourg, Augustus W.</persName>
+  <persName>Dubourg, Augustus William (1830-1910)</persName>
   <persName resp="Nicoll">DUBOURG, AUGUSTUS W.</persName>
   <writerOf>L1120 L1335 L1438</writerOf>
   <ref> not found </ref>
+  <note>Curran 1713</note>
  </person>
  <person role="author" xml:id="W0091" freq="4" lacyTitles="few">
   <persName>Edwardes, Conway</persName>
@@ -580,10 +600,11 @@
   <ref> not found ; presumably not https://en.wikipedia.org/wiki/Pierpont_Edwards </ref>
  </person>
  <person role="author" xml:id="W0093" freq="4" lacyTitles="few">
-  <persName>Edwards, Sutherland</persName>
+  <persName>Edwards, Henry Sutherland (1828-1806)</persName>
   <persName resp="Nicoll"> EDWARDS, H. SUTHERLAND </persName>
   <writerOf>L0361 L0654 L0685 L1376</writerOf>
-  <ref> probably not https://en.wikipedia.org/wiki/Henry_Sutherland_Edwards </ref>
+  <ref target="https://en.wikipedia.org/wiki/Henry_Sutherland_Edwards">Wikipedia </ref>
+  <note resp="curran" n="1681">Author and journalist; contributed to Punch and other periodicals; wrote light dramatic pieces; foreign correspondent; wrote The Russians at Home (1861); wrote on musical history and criticism; editor of The Graphic. See ODNB.</note>
  </person>
  <person role="author" xml:id="W0094" freq="1" lacyTitles="few">
   <persName>Ellis, George</persName>
@@ -592,7 +613,7 @@
   <ref> not found </ref>
  </person>
  <person role="author" xml:id="W0095" freq="2" lacyTitles="few">
-  <persName>Emden, W.S.</persName>
+  <persName>Emden, William S. (1800-1871)</persName>
   <persName resp="Nicoll">EMDEN, W. S. </persName>
   <writerOf>L0650 L1046</writerOf>
   <ref> william s emden was lessee of olympic </ref>
@@ -608,9 +629,10 @@
   <persName resp="Nicoll">FALCONER, EDMUND </persName>
   <writerOf>L0462 L0616 L0626 L0673 L0679 L0700 L0723 L0734 L1484</writerOf>
   <ref target="https://en.wikipedia.org/wiki/Edmund_Falconer">Wikipedia</ref>
+  <ptr target="#LDA115"/>
  </person>
  <person role="author" xml:id="W0098" freq="1" lacyTitles="few">
-  <persName>Farrell, John</persName>
+  <persName>Farrell, John (1791 - 1848)</persName>
   <persName resp="Nicoll">FARRELL, JOHN</persName>
   <writerOf>L0432</writerOf>
   <ref> not found </ref>
@@ -634,6 +656,7 @@
   <writerOf>L0179 L0263 L0449 L0520 L0537 L0609 L0666 L0718 L0824 L0827 L1052 L1113 L1173 L1337
    L1415</writerOf>
   <ref target="https://en.wikipedia.org/wiki/Edward_Fitzball">Wikipedia</ref>
+  <ptr target="#LDA116"/>
  </person>
  <person role="author" xml:id="W0102" freq="2" lacyTitles="few">
   <persName>Foote, Samuel (1720-1770)</persName>
@@ -678,6 +701,7 @@
   <persName type="pseudo" resp="Nicoll">[“F. LATOUR TOMLINE”] </persName>
   <writerOf>L1262 L1290 L1319 L1331 L1353 L1362 L1458</writerOf>
   <ref target="https://en.wikipedia.org/wiki/W._S._Gilbert">Wikipedia</ref>
+  <ptr target="#LDA206"/>
  </person>
  <person role="author" xml:id="W0110" freq="1" lacyTitles="few">
   <persName>Goldsmith, Oliver (1728-1744)</persName>
@@ -691,6 +715,7 @@
   <persName resp="Nicoll"> [ WILLIAM AYLMER COWING]</persName>
   <writerOf>L0689 L0696 L0722 L0741 L0840 L0928 L1286</writerOf>
   <ref> not found in wikipedia</ref>
+  <ptr target="#LDA207"/>
  </person>
  <person role="author" xml:id="W0112" freq="1" lacyTitles="few">
   <persName>Gott, Henry</persName>
@@ -736,11 +761,13 @@
   <writerOf>L0646 L0651 L0676 L0687 L1030 L1058 L1096</writerOf>
   <ref target="https://en.wikipedia.org/wiki/John_Thomas_Haines">Wikipedia</ref>
  </person>
- <person role="author" xml:id="W0119" freq="2" lacyTitles="few">
-  <persName>Hale, William Palmer</persName>
-  <persName resp="Nicoll">HALE, WILLIAM PALMER TALFOURD, FRANCIS </persName>
+ <person role="author" xml:id="W0119" freq="2" lacyTitles="few" ref="http://viaf.org/viaf/53046447">
+  <persName>Hale, William Palmer (1824-1871)</persName>
+  <persName resp="Nicoll">HALE, WILLIAM PALMER  </persName>
   <writerOf>L0056 L0065 L0074</writerOf>
   <ref> not found </ref>
+  <note resp="curran" n="1115">"W.P. Hale" is probably William Palmer Hale who was the son of William Hale Hale, master of Charterhouse; a barrister and friend of Edmund Yates, he wrote The Oude Question (1857) and poetry and prose in The Train Magazine (1856).</note>
+
  </person>
  <person role="author" xml:id="W0120" freq="1" lacyTitles="few">
   <persName>Halford, Joseph</persName>
@@ -755,6 +782,7 @@
   <writerOf>L0566 L0633 L0748 L0765 L0817 L0819 L0844 L0898 L0919 L0927 L0938 L0948 L0969 L0988
    L0996 L1264 L1268 L1271</writerOf>
   <ref target="https://en.wikipedia.org/wiki/Andrew_Halliday_(journalist)">Wikipedia</ref>
+  <ptr target="#LDA117"/>
  </person>
  <person role="author" xml:id="W0122" freq="1" lacyTitles="few">
   <persName>Halm, Frederick</persName>
@@ -817,6 +845,7 @@
   <writerOf>L0161 L0371 L0467 L0479 L0620 L0744 L0822 L0954 L1039 L1047 L1145 L1267 L1299 L1379
    L1435 L1471</writerOf>
   <ref target="https://en.wikipedia.org/wiki/Colin_Henry_Hazlewood">Wikipedia</ref>
+  <ptr target="#LDA208"/>
  </person>
  <person role="author" xml:id="W0132" freq="1" lacyTitles="few">
   <persName>Hermann, Charles</persName>
@@ -860,16 +889,18 @@
   <ref target="https://en.wikipedia.org/wiki/Thomas_Holcroft">Wikipedia</ref>
  </person>
  <person role="author" xml:id="W0139" freq="2" lacyTitles="few">
-  <persName>Holl, Henry</persName>
+  <persName>Holl, Henry (1811-1884)</persName>
   <persName resp="Nicoll">HOLL, HENRY </persName>
   <writerOf>L0658 L1223</writerOf>
   <ref>not found</ref>
+  <note resp="curran" n="">Actor and author; wrote for Jerrold's Shilling Magazine in 1846; wrote a novel The White Favour (1866), The Forest Keeper: A Drama in Two Acts (1872), acted at the Haymarket.</note>
  </person>
  <person role="author" xml:id="W0140" freq="1" lacyTitles="few">
-  <persName>Hollingshead, John ((1827-1904)</persName>
+  <persName>Hollingshead, John (1827-1904)</persName>
   <persName resp="Nicoll">HOLLINGSHEAD, JOHN </persName>
   <writerOf>L0518</writerOf>
   <ref target="https://en.wikipedia.org/wiki/John_Hollingshead">Wikipedia</ref>
+  <ptr target="#LDA209"/>
  </person>
  <person role="author" xml:id="W0141" freq="1" lacyTitles="few">
   <persName>Home, Rev. John (1722-1808)</persName>
@@ -932,11 +963,12 @@
    Douglas Jerrold: A Life (1803–1857). </note>
  </person>
  <person role="author" xml:id="W0150" freq="7" lacyTitles="some">
-  <persName>Johnstone, J.B.</persName>
+  <persName>Johnstone, John Beer (1803-1891)</persName>
   <persName resp="Nicoll">JOHNSTONE, JOHN BEER</persName>
   <writerOf>L0104 L0228 L0244 L0403 L0534 L1261 L1481</writerOf>
   <note>For Ben Bolt, see https://en.wikipedia.org/wiki/Ben_Bolt</note>
   <ref>Not found</ref>
+  <ptr target="#LDA119"/>
  </person>
  <person role="author" xml:id="W0151" freq="1" lacyTitles="few">
   <persName>Jones, J.S. (1809-1877)</persName>
@@ -989,10 +1021,21 @@
   <ref>Not found</ref>
  </person>
  <person role="author" xml:id="W0160" freq="1" lacyTitles="few">
-  <persName>Kingdom, John M.</persName>
+  <persName>Kingdom, John M. (0000 -1876)</persName>
   <persName resp="Nicoll">KINGDOM, J.M. </persName>
   <writerOf>L0168</writerOf>
   <ref>Not found</ref>
+  <note resp="boase">
+   KINGDOM, JOHN M. _b._ London; solicitor; wrote the following
+   plays, Marcoretti; Madeline; Which is my husband; The old ferry
+   house; Three musketeers; Giraldo; Tancred; The crusaders;
+   The old house on the Thames; The three princes, a romantic
+   extravaganza, Surrey theatre 1 April 1850; The fountain of
+   beauty, or the king, the princess and the geni, a fairy
+   extravaganza, Drury Lane 5 Sep. 1853; Queen Mary, a drama by A.
+   Tennyson, with full stage directions 1875. _d._ New York 24 July
+   1876.
+  </note>
  </person>
  <person role="author" xml:id="W0161" freq="4" lacyTitles="few" dlb="y">
   <persName>Knowles, James Sheridan (1784-1862)</persName>
@@ -1017,7 +1060,7 @@
   <persName>Lacy, Thomas Hailes (1809-1873)</persName>
   <persName resp="Nicoll">ROBERTSON, THOMAS WILLIAM</persName>
   <writerOf>L0491 L0492 L0761 L0850 L0885 L1080 L1143 L1251 L1404</writerOf>
-  <ref targetr="https://en.wikipedia.org/wiki/Thomas_Hailes_Lacy">Wikipedia</ref>
+  <ref target="https://en.wikipedia.org/wiki/Thomas_Hailes_Lacy">Wikipedia</ref>
  </person>
  <person role="author" xml:id="W0166" freq="2" lacyTitles="few">
   <persName>Langbridge, Frederick</persName>
@@ -1026,7 +1069,7 @@
   <ref> not found </ref>
  </person>
  <person role="author" xml:id="W0167" freq="1" lacyTitles="few">
-  <persName>Lawrence, Frederic</persName>
+  <persName>Lawrance, Frederic</persName>
   <persName resp="Nicoll"> LAWRANCE, F.</persName>
   <writerOf>L0566</writerOf>
   <ref>Not found</ref>
@@ -1042,24 +1085,28 @@
   <persName resp="Nicoll">LEE, NELSON </persName>
   <writerOf>L0033 L0034 L0072</writerOf>
   <ref target="https://en.wikipedia.org/wiki/Richard_Nelson_Lee">Wikipedia</ref>
+  <ptr target="#LDA120"/>
  </person>
  <person role="author" xml:id="W0170" freq="4" lacyTitles="few">
   <persName>Lemon, Harry</persName>
   <persName resp="Nicoll">LEMON, HARRY </persName>
   <writerOf>L1177 L1199 L1236 L1278</writerOf>
   <ref> not in wikipedia </ref>
+  <note resp="curran" n="3208">Son (b 1845) of Mark Lemon?</note>
  </person>
  <person role="author" xml:id="W0171" freq="8" lacyTitles="some">
   <persName>Lemon, Mark (1809-1870)</persName>
   <persName resp="Nicoll">LEMON, MARK</persName>
   <writerOf>L0021 L0024 L0189 L0227 L0247 L0347 L0435 L1317</writerOf>
   <ref target="https://en.wikipedia.org/wiki/Mark_Lemon">Wikipedia</ref>
+  <ptr target="#LDA121"/>
  </person>
  <person role="author" xml:id="W0172" freq="5" lacyTitles="some">
-  <persName>Leslie, Henry</persName>
+  <persName>Leslie, Henry (1830- )</persName>
   <persName resp="Nicoll">LESLIE, HENRY T. </persName>
   <writerOf>L1012 L1071 L1095 L1206 L1242</writerOf>
   <ref> not found in wikipedia</ref>
+  <ptr target="#LDA122"/>
  </person>
  <person role="author" xml:id="W0174" freq="9" lacyTitles="some">
   <persName>Lewes, G.H. (1817-1878)</persName>
@@ -1069,6 +1116,7 @@
   <persName type="pseudo" resp="Nicoll">[“SLINGSBY LAWRENCE”] </persName>
   <writerOf>L0064 L0089 L0139 L0154 L0218 L0313 L0322 L0354 L0355</writerOf>
   <ref target="https://en.wikipedia.org/wiki/George_Henry_Lewes">Wikipedia</ref>
+  <ptr target="#LDA210"/>
  </person>
  <person role="author" xml:id="W0175" freq="1" lacyTitles="few">
   <persName>Lewis, Leopold (1828-1890)</persName>
@@ -1104,6 +1152,7 @@
   <persName resp="Nicoll">LOVELL, GEORGE WILLIAM</persName>
   <writerOf>L1004 L1215</writerOf>
   <ref target="https://en.wikipedia.org/wiki/George_William_Lovell">Wikipedia</ref>
+  <ptr target="#LDA211"/>
  </person>
  <person role="author" xml:id="W0181" freq="1" lacyTitles="few" sex="F">
   <persName>Lovell, Maria (1803–1877)</persName>
@@ -1120,10 +1169,17 @@
   <ref target="https://en.wikipedia.org/wiki/Samuel_Lover">Wikipedia</ref>
  </person>
  <person role="author" xml:id="W0183" freq="1" lacyTitles="few">
-  <persName>Lucas, J. Templeton</persName>
+  <persName>Lucas, J. Templeton (1836-1880) </persName>
   <persName resp="Nicoll">LUCAS, J. TEMPLETON </persName>
   <writerOf>L1425</writerOf>
   <ref> not found </ref>
+  <note resp="boase"> LUCAS, JOHN TEMPLETON (eld. son of the preceding). _b._ London
+   1836; exhibited 7 landscapes at R.A., 13 at B.I. and 30 at
+   Suffolk st. gallery 1859–76; his farce Browne the Martyr
+   produced at Court theatre 20 Jany. 1872 and printed in Lacy’s
+   acting edition of plays vol. xcvi; author of fairy tales
+   entitled Prince Ubbely Bubble’s New story book 1871; and of
+   Edwin Landseer 1873, memorial verses. _d._ Whitby, Sep. 1880.</note>
  </person>
  <person role="author" xml:id="W0184" freq="4" lacyTitles="few">
   <persName>Lucas, W.J.</persName>
@@ -1207,6 +1263,7 @@
   <persName resp="Nicoll">MARSTON, JOHN WESTLAND</persName>
   <writerOf>L0706 L0707 L0721 L0804 L0806 L0826 L0901</writerOf>
   <ref target="https://en.wikipedia.org/wiki/John_Westland_Marston">Wikipedia</ref>
+  <ptr target="#LDA125"/>
  </person>
  <person role="author" xml:id="W0199" freq="1" lacyTitles="few">
   <persName>Martin, William</persName>
@@ -1222,11 +1279,12 @@
 
  <person role="author" xml:id="W0202" freq="13" lacyTitles="some"
   ref="http://viaf.org/viaf/57418276">
-  <persName>Mathews, Charles (1776-1835) </persName>
+  <persName>Mathews, Charles James (1776-1835) </persName>
   <persName>Mathews &amp; Co.</persName>
   <persName resp="Nicoll">MATHEWS, CHARLES JAMES</persName>
   <writerOf>L0031 L0139 L0173 L0249 L0292 L0313 L0323 L0336 L0747 L0749 L1008 L1009 L1110</writerOf>
   <ref target="https://en.wikipedia.org/wiki/Charles_Mathews">Wikipedia</ref>
+  <ptr target="#LDA126"/>
  </person>
  <person role="author" xml:id="W0203" freq="3" lacyTitles="few">
   <persName>Mayhew, Augustus (1826-1875)</persName>
@@ -1235,16 +1293,29 @@
   <ref target="https://en.wikipedia.org/wiki/Augustus_Mayhew">Wikipedia</ref>
  </person>
  <person role="author" xml:id="W0204" freq="1" lacyTitles="few">
-  <persName>Mayhew, Edward</persName>
+  <persName>Mayhew, Edward (1813 - )</persName>
   <persName resp="Nicoll">MAYHEW, EDWARD</persName>
   <writerOf>L0877</writerOf>
   <ref> not found </ref>
+  <note>Possibly Curran 711 "1813-1868 (Member Royal College of Surgeons and editor; edited and wrote works on animals and veterinary care. See Boase II: 815.)"</note>
+  <note resp="Boase"> MAYHEW, EDWARD (brother of A. S. Mayhew 1826–1875). _b._ 1813;
+   M.R.C.S. 1854; edited F. Clater’s Every man his own cattle
+   doctor 1853, another ed. 1859; F. Clater’s Every man his own
+   farrier 1854, another ed. 1861; D. P. Blaine’s Outlines of the
+   veterinary art 6 ed. 1854; author of Stage effect 1840; The
+   horse’s mouth, shewing the age by the teeth 1849; Dogs, their
+   management 1854; The illustrated horse doctor 1860, another ed.
+   1891; The illustrated horse management 1864; with G. Smith Make
+   your wills, a farce Haymarket theatre 1836. Name not in Medical
+   or London directories after 1855. _G. Hodder’s Memories of my
+   time_ (1870) 58–61.</note>
  </person>
  <person role="author" xml:id="W0205" freq="1" lacyTitles="few">
   <persName>Mayhew, Henry (1812-1887)</persName>
   <persName resp="Nicoll">MAYHEW, HENRY</persName>
   <writerOf>L0342</writerOf>
   <ref target="https://en.wikipedia.org/wiki/Henry_Mayhew">Wikipedia</ref>
+  <ptr target="#LDA127"/>
  </person>
  <person role="author" xml:id="W0206" freq="1" lacyTitles="few" ref=" http://viaf.org/viaf/57974296">
   <persName>Meritt, Paul (1843-1895)</persName>
@@ -1302,10 +1373,38 @@
   <writerOf>L0079</writerOf>
   <ref target="https://en.wikipedia.org/wiki/Xavier_de_Mont%C3%A9pin">Wikipedia</ref></person>
  <person role="author" xml:id="W0215" freq="2" lacyTitles="few">
-  <persName>Montgomery, William Henry</persName>
+  <persName>Montgomery, William Henry(0000 - 1886)</persName>
   <persName resp="Nicoll">FITZBALL, EDWARD </persName>
   <writerOf>L0537 L1106</writerOf>
-  <ref>Not found</ref></person>
+  <ref>Not found</ref>
+  <note resp="boase">  (maybe)  MONTGOMERY, WILLIAM HENRY. Studied under W. M. Rooke and W.
+   Shield; member of Royal soc. of musicians; musical director
+   at Sadler’s Wells theatre 1844–60, at Covent Garden 1864, at
+   the Strand 1861 etc., and at the Lyceum 1865 etc.; composed
+   and printed in The Musical Boquet 110 pieces 1846 etc.; wrote
+   the music of the ballads in The ring and the keeper 1862;
+   contributed to the Alliance Musicale 1877 and to the Victoria
+   music book 1878; composer of Oh! ask me not to love again,
+   ballad 1845; Song of the haymakers 1847; The youthful harmonist
+   1852, twenty numbers; Oh! had I but Aladdin’s lamp, song
+   1852; The sacred harmonist, airs as solo for the piano 1852,
+   twenty numbers; The reaper and the flowers 1856; Montgomery’s
+   Bouquet of dance music for a septett band 1856; The silver lake
+   varsoviana 1856; Montgomery’s One hundred and thirty Christy
+   minstrel songs arranged for the violin 1860; Moore’s Irish
+   melodies arranged 1860–1 three sets; Montgomery’s 120 Dances for
+   the cornet, flute and violin 1860, three series; Montgomery’s
+   Orchestral journal of dance music 1861, twenty five numbers;
+   Bertha’s wedding, an operatic sketch, words by J. P. Wooler
+   1863; The violinist’s album 1876, twenty four numbers; Metzler’s
+   Twenty three duets, songs and waltzes arranged 1877, three
+   series; his name is attached to above 400 pieces of music, and
+   he also wrote the music for about 50 pantomimes. _d._ Waterloo
+   road, London 12 Sep. 1886. _bur._ Norwood cemet.
+  </note>
+ 
+ 
+ </person>
  <person role="author" xml:id="W0216" freq="2" lacyTitles="few">
   <persName>Morton, Edward</persName>
   <persName resp="Nicoll">MORTON, THOMAS, Jr.,</persName>
@@ -1327,6 +1426,7 @@
    target="https://thecharterhouse.org/blog/life-john-maddison-morton-playwright-brother"
    >obituary</ref>; <ref target="gut:59210">Comediettas and Farces (1886) NY: Harper &amp; Bros.
    with prefaces by JMM and Clement Scott</ref>
+  <ptr target="#LDA128"/>
  </person>
  <person role="author" xml:id="W0218" freq="8" lacyTitles="some">
   <persName>Morton, Thomas (1764-1838)</persName>
@@ -1335,10 +1435,42 @@
   <ref target="https://en.wikipedia.org/wiki/Thomas_Morton_(playwright)">Wikipedia</ref>
  </person>
  <person role="author" xml:id="W0219" freq="1" lacyTitles="few">
-  <persName>Murray, Gaston</persName>
+  <persName type="pseudo">Murray, Gaston</persName>
+ <persName>Wilson, Garstin Parker (1826-1889) </persName>
   <persName resp="Nicoll">MURRAY, GASTON</persName>
   <writerOf>L0808</writerOf>
   <ref>Not known</ref>
+  <note resp="boase">   MURRAY, GASTON, stage name of Garstin Parker Wilson. _b._
+   London 1826; first appeared on the stage at Prince’s theatre,
+   Glasgow June 1854, as Charles in The happiest day of my life;
+   first appeared in London 2 March 1855, at the Lyceum as Tom
+   Saville in Used up; played sir George Evelyn in Mrs. Inchbald’s
+   Wives as they were and maids as they are 24 Nov. 1856; Charles
+   Rushout in Tom Taylor’s Going to the bad 5 June 1858, both at
+   Olympic; took part in the Windsor castle theatricals in Jany.
+   1857, appearing as Jules de Crussac in Secret Service; played
+   Alfred Warnford in Oxenford’s Lost Hope at Adelphi 16 Feb. 1859;
+   Vicentio in Falconer’s The Leprechaun 2 March 1859, and Leonardo
+   in Falconer’s Francesca 30 March 1859, both at Lyceum; played
+   Charles Chetty in Craven’s Chimney Corner at Olympic 21 Feb.
+   1861, George Talboys in Lady Audley’s Secret 28 Feb. 1863, Mr.
+   Monkton in Eleanor’s Victory 29 May 1865, both at St. James’s;
+   played Wm. Fielding in Charles Reade’s Never too late to mend
+   at Princess’s 4 Oct. 1865; Sir George Touchwood in The Belle’s
+   Stratagem 8 Oct. 1866, Tomaso in W. S. Gilbert’s burlesque
+   Dulcamara 29 Dec. 1866, and Baron Lintz in Idalia 25 April 1867,
+   all at St. James’s; played Edward Ashley in Miss Le Thiere’s
+   All for money at Haymarket 12 July 1869; Bracassin in Fernande
+   15 Oct. 1870, and lord Leyton de Lay in Albery’s Two Thorns 4
+   March 1871, both at St. James’s; played Prince of Hesselstadt in
+   Edmund Kean at Holborn 23 Sept. 1871; acted in Pickwick and The
+   Bells at Lyceum 1871; played Pickwick at Standard theatre 1872;
+   treasurer to Earl of Londesborough when he produced Babil and
+   Bijou at Covent Garden 29 Aug. 1872; secretary of the General
+   theatrical fund 1880–2. _d._ 8 Aug. 1889. _bur._ Nunhead cemet.
+   12 Aug., left a widow and 5 daughters. _The Era 10 Aug. 1889 p._
+   8, _17 Aug. p._ 8.
+  </note>
  </person>
  <person role="author" xml:id="W0220" freq="6" lacyTitles="some">
   <persName>Murray, William Henry (1790–1852)</persName>
@@ -1390,6 +1522,7 @@
    L0733 L0784 L0811 L0816 L0829 L0830 L0897 L0936 L0953 L0970 L1013 L1029 L1048 L1087 L1289
    L1372</writerOf>
   <ref target="https://en.wikipedia.org/wiki/John_Oxenford">Wikipedia</ref>
+  <ptr target="#LDA129"/>
  </person>
  <person role="author" xml:id="W0228" freq="1" lacyTitles="few">
   <persName>Palmer, T.A.</persName>
@@ -1398,21 +1531,51 @@
   <ref>Not found</ref>
  </person>
  <person role="author" xml:id="W0229" freq="3" lacyTitles="few">
-  <persName>Parry, Tom</persName>
+  <persName>Parry, Thomas (1806-1862)</persName>
   <persName resp="Nicoll">PARRY, THOMAS</persName>
   <writerOf>L0160 L0184 L0377</writerOf><ref>not found</ref>
+  <note resp="boase"> PARRY, THOMAS (brother of John Parry of the Britannia theatre).
+   _b._ 1806; first appeared at Covent Garden 22 Nov. 1830; he
+   wrote Damp Beds, a farce, Strand May 1832; P.P. or the Man and
+   the tiger, a farce, Adelphi 21 Oct. 1833; Meet me by moonlight,
+   a farce, Olympic theatre; The lucky horse shoe or woman’s
+   trials, a drama, Drury Lane 27 Dec. 1839; A cure for love, a
+   comedy, Haymarket 29 Nov. 1842; Eugenia Claircille, a drama,
+   Adelphi 17 Sept. 1846; The harvest home, a drama, Adelphi; The
+   First night or my own ghost, a drama Princess’ 1 Oct. 1849. _d._
+   Pigott’s hotel, 166 Westminster bridge road, London 5 Dec. 1862.
+   _The Era 7 Dec. 1862 p._ 11.
+  </note>
  </person>
  <person role="author" xml:id="W0230" freq="1" lacyTitles="few">
-  <persName>Parselle, J.</persName>
+  <persName>Parselle, John (1820-1885)</persName>
   <persName resp="Nicoll">PARSELLE, J. </persName>
   <writerOf>L0839</writerOf><ref>not found</ref>
+  <note resp="boase"> PARSELLE, JOHN. _b._ 1820; educ. Marischall coll. Aberdeen;
+   attended Mr. Rowhill’s Latin class Glasgow gram. sch 1834–9;
+   acted the Chevalier de Bellevue in the Pride of the Market,
+   Lyceum 18 Oct. 1847; at the Adelphi under Madame Celeste’s
+   management 1853 etc.; acting manager Strand theatre, where he
+   also played Mr. Bingley in Craven’s The Post boy 31 Oct. 1860,
+   Max Altman in Wooller’s Silver wedding 24 Jany. 1861, Lieut.
+   Hilliard in Troughton’s Unlimited confidence 1 Feb. 1864, Edward
+   Hartwright in his own comedietta Cross purposes 27 March 1865;
+   wrote My son’s a daughter, produced Strand theatre 15 Sept.
+   1862; stage manager for Fanny Joseph at Holborn theatre 13 April
+   1868; at the Globe acted in Craven’s Philomel 10 Feb. 1870; went
+   to America with Charles Wyndham’s company in 1873; connected
+   with the management of A. M. Palmer’s Union square theatre, New
+   York 1873 to death. _d._ New York 17 Feb. 1885. _bur._ Evergreen
+   cemetery. _Entr’acte Annual_ (1882) 58 _portrait_; _Scott and
+   Howard’s E. L. Blanchard_ (1891) 105, 720.
+  </note>
  </person>
  <person role="author" xml:id="W0231" freq="8" lacyTitles="some">
   <persName>Paul, Howard (1830-1905)</persName>
   <persName resp="Nicoll">PAUL, HOWARD M. </persName>
   <writerOf>L0153 L0156 L0254 L0399 L0438 L0665 L0669 L0717</writerOf>
   <ref target="https://en.wikipedia.org/wiki/Henry_Howard_Paul">Wikipedia</ref>
-
+  <ptr target="#LDA212"/>
  </person>
  <person role="author" xml:id="W0232" freq="1" lacyTitles="few">
   <persName>Paulton, Harry</persName>
@@ -1435,7 +1598,7 @@
   <persName>Peake, Richard Brinsley (1792-1847)</persName>
   <persName type="pseudo" resp="Nicoll">TAYLOR, TOM [“JOHN ROAKES”] </persName>
   <writerOf>L0015R L0638 L1229 L1405</writerOf>
-  <ref targe="https://en.wikipedia.org/wiki/Richard_Brinsley_Peake">Wikipedia</ref>
+  <ref target="https://en.wikipedia.org/wiki/Richard_Brinsley_Peake">Wikipedia</ref>
  </person>
  <person role="author" xml:id="W0236" freq="1" lacyTitles="few">
   <persName>Penley, Samson</persName>
@@ -1468,6 +1631,7 @@
   <writerOf>L0876 L0881 L0884 L0917 L1100 L1116 L1137 L1155 L1185 L1194 L1225 L1235 L1244 L1245
    L1247 L1344</writerOf>
   <ref target="https://en.wikipedia.org/wiki/Watts_Phillips">Wikipedia</ref>
+  <ptr target="#LDA130"/>
  </person>
  <person role="author" xml:id="W0242" freq="1" lacyTitles="few">
   <persName>Phipps, Edmund(1808-1857)</persName>
@@ -1502,9 +1666,10 @@
    L0310 L0314 L0315 L0317 L0321 L0352 L0357 L0421 L0472 L0515 L0580 L0601 L0602 L0603 L0615 L0622
    L0660 L0760 L0766 L0872 L1003 L1011 L1099 L1409</writerOf>
   <ref target="https://en.wikipedia.org/wiki/James_Planch%C3%A9">Wikipedia</ref>
-  <ref target="">The Extravaganzas of J. R. Planché, esq., (Somerset Herald) 1825–1871 1879, 5
+  <note><ref> The Extravaganzas of J. R. Planché, esq., (Somerset Herald) 1825–1871 1879, 5
    vols.</ref>
-  <ref>Suggestions for establishing an English Art Theatre, 1879.</ref>
+  <ref>Suggestions for establishing an English Art Theatre, 1879.</ref></note>
+  <ptr target="#LDA131"/>
  </person>
  <person role="author" xml:id="W0247" freq="1" lacyTitles="few">
   <persName>Plowman, Thomas F.</persName>
@@ -1513,10 +1678,12 @@
   <ref> not found </ref>
  </person>
  <person role="author" xml:id="W0248" freq="1" lacyTitles="few">
-  <persName>Plunkett, Henry Grattan</persName>
+  <persName>Plunkett, Henry Grattan</persName><!-- so on titlepage -->
+  <persName>Grattan, Henry Plunkett (1808-1889)</persName>
   <persName resp="Nicoll">PLUNKETT, HENRY GRATTAN [H. P. GRATTAN].</persName>
   <writerOf>L1108</writerOf>
   <ref>Not found</ref></person>
+ 
  <person role="author" xml:id="W0249" freq="6" lacyTitles="some" dlb="y">
   <persName>Pocock, Isaac (1782-1835)</persName>
   <persName resp="Nicoll">POCOCK, ISAAC.</persName>
@@ -1529,6 +1696,7 @@
   <persName resp="Nicoll">POOLE, JOHN</persName>
   <writerOf>L0147 L0206 L0207 L0222 L0398 L0593 L0803 L1104 L1222 L1424 L1426 L1466</writerOf>
   <ref target="https://en.wikipedia.org/wiki/John_Poole_(playwright)">Wikipedia</ref>
+  <ptr target="#LDA213"/>
  </person>
  <person role="author" xml:id="W0252" freq="2" lacyTitles="few">
   <persName>Power, Tyrone (1797-1841)</persName>
@@ -1565,6 +1733,7 @@
   <persName resp="Nicoll">READE, CHARLES </persName>
   <writerOf>L0086 L0152 L0220</writerOf>
   <ref target="https://en.wikipedia.org/wiki/Charles_Reade">Wikipedia</ref>
+  <ptr target="#LDA132"/>
  </person>
  <person role="author" xml:id="W0258" freq="5" lacyTitles="some" dlb="y">
   <persName>Rede, William Leman (1802-1842)</persName>
@@ -1579,6 +1748,7 @@
   <persName type="pseudo" resp="Nicoll">[“E. G. LANKESTER”] </persName>
   <writerOf>L1017 L1064 L1218 L1226 L1332 L1345 L1347 L1363 L1407 L1421 L1453 L1493</writerOf>
   <ref target=" https://en.wikipedia.org/wiki/Robert_Reece">Wikipedia</ref>
+  <ptr target="#LDA133"/>
  </person>
  <person role="author" xml:id="W0260" freq="8" lacyTitles="some">
   <persName>Reeve, Wybert (1831-1906)</persName>
@@ -1603,18 +1773,20 @@
   <writerOf>L0255</writerOf><ref>Not found</ref>
  </person>
  <person role="author" xml:id="W0264" freq="7" lacyTitles="some">
-  <persName>Roberts, George</persName>
+  <persName>Roberts, George (1832- )</persName>
   <persName type="pseudo" resp="Nicoll">ROBERTS, GEORGE [“ROBERT WALTERS”] </persName>
   <writerOf>L0853 L0854 L0870 L0977 L0978 L1130 L1342</writerOf>
   <ref> not in wikipedia </ref>
+  <ptr target="#LDA215"/>
  </person>
  <person role="author" xml:id="W0265" freq="16" lacyTitles="some" dlb="y"
   ref="http://viaf.org/viaf/77121679">
-  <persName>Robertson, T.W. (1829-1871)</persName>
+  <persName>Robertson, Thomas William (1829-1871)</persName>
   <persName resp="Nicoll">ROBERTSON, THOMAS WILLIAM </persName>
   <writerOf>L0047 L0086 L0195 L0257 L0343 >L0368 L0491 L0743 L0757 L0852 L1060 L1356 L1384 L1388
    L1420 L1439</writerOf>
   <ref target="https://en.wikipedia.org/wiki/T._W._Robertson">Wikipedia</ref>
+  <ptr target="#LDA134"/>
  </person>
 
  <person role="author" xml:id="W0267" freq="1" lacyTitles="few">
@@ -1659,7 +1831,7 @@
   <ref target="https://en.wikipedia.org/wiki/Nicholas_Rowe_(writer)">Wikipedia</ref>
  </person>
  <person role="author" xml:id="W0274" freq="1" lacyTitles="few">
-  <persName>Rowe, Nicholas</persName>
+  <persName>"Rowe, Nicholas"</persName>
   <ref> no relation </ref>
   <persName resp="Nicoll">ROWE, NICHOLAS </persName>
   <writerOf>L1095</writerOf>
@@ -1697,6 +1869,7 @@
   <persName resp="Nicoll">SERLE, THOMAS JAMES </persName>
   <writerOf>L0071</writerOf>
   <ref target="https://en.wikipedia.org/wiki/Thomas_James_Serle">Wikipedia</ref>
+  <ptr target="#LDA216"/>
  </person>
  <person role="author" xml:id="W0280" freq="24" lacyTitles="many"
   ref="https://viaf.org/viaf/96994048/">
@@ -1725,6 +1898,7 @@
   <writerOf>L0019 L0025 L0042 L0081 L0090 L0138 L0192 L0221 L0305 L0409 L0610 L0692 L0756 L0768
    L0785 L0790 L0952 L0989 L1059 L1105 L1205 L1207 L1272 L1378 L1437 L1442 L1446 L1487</writerOf>
   <ref target="https://en.wikipedia.org/wiki/John_Palgrave_Simpson">Wikipedia</ref>
+  <ptr target="#LDA136"/>
  </person>
 
  <person role="author" xml:id="W0285" freq="5" lacyTitles="some" ref="http://viaf.org/viaf/56971644">
@@ -1745,17 +1919,17 @@
   <writerOf>L0877</writerOf>
   <ref>Not found</ref>
  </person>
- <person role="author" xml:id="W0287" freq="3" lacyTitles="few">
-  <persName>Smith, S. Theyre</persName>
+ <person role="author" xml:id="W0287" freq="3" lacyTitles="few" ref="http://viaf.org/viaf/275657978">
+  <persName>Theyre-Smith, Spenser (1834-1911)</persName>
   <persName resp="Nicoll">SMITH, S. THEYRE </persName>
   <writerOf>L1230 L1450 L1451</writerOf>
-  <ref> not found </ref>
+  <ref target="https://en.wikisource.org/wiki/Author:Spenser_Theyre_Smith"></ref>
+  
  </person>
  <person role="author" xml:id="W0288" freq="1" lacyTitles="few">
   <persName>Smith, William Henry (1806–1872)</persName>
   <writerOf>L0102</writerOf>
   <note target="https://en.wikipedia.org/wiki/The_Drunkard">Wikipedia</note>
-  <ref>Not found</ref>
  </person>
  <person role="author" xml:id="W0289" freq="1" lacyTitles="few">
   <persName>Soane, George (1790–1860)</persName>
@@ -1779,6 +1953,7 @@
   <persName resp="Nicoll">SOUTAR, J. Jr.</persName>
   <writerOf>L0051</writerOf>
   <ref target="https://en.wikipedia.org/wiki/Robert_Soutar">Wikipedia</ref>
+  <ptr target="#LDA217"/>
  </person>
  <person role="author" xml:id="W0293" freq="1" lacyTitles="few">
   <persName>Southerne, Thomas (1660-1746)</persName>
@@ -1808,6 +1983,7 @@
   <writerOf>L0023 L0049 L0059 L0180 L0311 L0430 L0495 L0514 L0523 L0573 L0599 L0705 L0709 L0740
    L0918 L0964 L1147 L1210 L1403 L1474</writerOf>
   <ref target="https://en.wikipedia.org/wiki/Edward_Stirling_(playwright)">Wikipedia</ref>
+  <ptr target="#LDA139"/>
  </person>
  <person role="author" xml:id="W0298" freq="1" lacyTitles="few">
   <persName>Stocqueler, J.H. (1801-1886)</persName>
@@ -1816,13 +1992,14 @@
   <ref target="https://en.wikipedia.org/wiki/Joachim_Hayward_Stocqueler">Wikipedia</ref>
  </person>
  <person role="author" xml:id="W0299" freq="1" lacyTitles="few">
-  <persName>Sullivan, Robert</persName>
+  <persName>Sullivan, Robert (1797-1865)</persName>
   <persName resp="Nicoll">SULLIVAN, ROBERT </persName>
   <writerOf>L0143</writerOf><ref>Not found</ref>
+  <note resp="curran" n="77">Poet and dramatist; wrote The Silent River (1824), Fittings of Fancy (London: Henry Colburn, 1837).</note>
  </person>
  <person role="author" xml:id="W0300" freq="43" lacyTitles="many"
   ref="http://viaf.org/viaf/75221101">
-  <persName>Suter, William E. (1811-1882)</persName>
+  <persName>Suter, William Edmund (1811-1882)</persName>
   <persName resp="Nicoll">SUTER, WILLIAM E. </persName>
   <writerOf>L0446 L0463 L0548 L0571 L0628 L0656 L0697 L0724 L0752 L0761 L0771 L0780 L0810 L0814
    L0834 L0837 L0848 L0849 L0856 L0874 L0892 L0894 L0921 L0967 L0968 L0974 L0979 L0985 L0990 L1033
@@ -1848,6 +2025,7 @@
    L1006 L1044 L1120 L1139 L1219 L1335</writerOf>
   <ref target="https://en.wikipedia.org/wiki/Tom_Taylor">Wikipedia</ref>
   <ref target="http://archiveshub.jisc.ac.uk/data/gb71-thm/223">Archive at V&amp;A</ref>
+  <ptr target="#LDA140"/>
  </person>
  <person role="author" xml:id="W0303" freq="1" lacyTitles="few" ref=" http://viaf.org/viaf/53046679
   ">
@@ -1857,7 +2035,7 @@
   <ref target=" https://en.wikipedia.org/wiki/Daniel_Terry">Wikipedia</ref>
  </person>
  <person role="author" xml:id="W0304" freq="1" lacyTitles="few">
-  <persName>Thackeray, T.J.</persName>
+  <persName>Thackeray, Thomas James (1796-1877)</persName>
   <persName resp="Nicoll">THACKERAY, THOMAS JAMES</persName>
   <writerOf>L0330</writerOf>
   <note>Probably not https://en.wikipedia.org/wiki/Thomas_Thackeray</note>
@@ -1873,9 +2051,8 @@
   <persName>Thompson, Alfred (1831-1895)</persName>
   <persName type="pseudo" resp="Nicoll">“THOMPSON, ALFRED”</persName>
   <writerOf>L1254</writerOf>
-  <ref target="https://en.wikipedia.org/
-   wiki/Alfred_Thompson_(librettist)">Wikipedia</ref>
-  <ref> ? </ref>
+  <ref target="https://en.wikipedia.org/wiki/Alfred_Thompson_(librettist)">Wikipedia</ref>
+  <note resp="curran" n="3219">British musical theatre librettist, set designer, costume designer, theatre manager, journalist and artist, contributing to Punch and Vanity Fair. See Boase VI: 679-80.</note>
  </person>
  <person role="author" xml:id="W0307" freq="2" lacyTitles="few">
   <persName>Thompson, C. Pelham</persName>
@@ -1908,10 +2085,11 @@
   <ref>not found </ref>
  </person>
  <person role="author" xml:id="W0312" freq="8" lacyTitles="some">
-  <persName>Troughton, Adolphus Charles</persName>
+  <persName>Troughton, Adolphus Charles (1818-1900)</persName>
   <persName resp="Nicoll">TROUGHTON, ADOLPHUS C. </persName>
   <writerOf>L0234 L0486 L0555 L0583 L0639 L0776 L0915 L1024</writerOf>
   <ref> not in wikipedia </ref>
+  <ptr target="#LDA2019"/>
  </person>
  <person role="author" xml:id="W0313" freq="1" lacyTitles="few">
   <persName>Vanbrugh, Sir John (1664-1726)</persName>
@@ -1919,33 +2097,38 @@
   <writerOf>L0059R</writerOf>
   <ref target="https://en.wikipedia.org/wiki/John_Vanbrugh">Wikipedia</ref>
  </person>
- <person role="author" xml:id="W0314" freq="2" lacyTitles="few">
-  <persName>Vellère, Dr. E.R.W.</persName>
+ <person role="author" xml:id="W0314" freq="2" lacyTitles="few" ref="http://viaf.org/viaf/23497596
+  ">
+  <persName>Vellère, Dr. Edward Raphael Weller</persName>
   <persName resp="Nicoll">VELLÈRE, Dr — </persName>
   <writerOf>L1469 L1491</writerOf>
   <ref> not found </ref>
  </person>
  <person role="author" xml:id="W0315" freq="1" lacyTitles="few">
-  <persName>Vernon, Captain Leicester, M.P.</persName>
+  <persName>Vernon, Captain Leicester, M.P. (1798-1860)(</persName>
   <persName resp="Nicoll">VERNON, Capt. LEICESTER </persName>
   <writerOf>L0187</writerOf>
-  <ref> probably not https://en.wikipedia.org/wiki/Leicester_Viney_Vernon </ref>
+  <ref> possibly an MP https://en.wikipedia.org/wiki/Leicester_Viney_Vernon </ref>
+  <note>Smith, afterwards Vernon, Leicester Viney; b. Perth 1798; asst. deputy Q.M.G. at Dublin, 1842; took name of Vernon by r.l. 3 May 1850; M.P. for Berkshire 1859 to death; d. London 14 Apr. 1860)‏ </note>
+  
  </person>
- <person role="author" xml:id="W0316" freq="2" lacyTitles="few">
+ <person role="author" xml:id="W0316" freq="2" lacyTitles="few" ref="http://viaf.org/viaf/72761204
+  ">
   <persName>Vicars, W. A. </persName>
   <persName type="pseudo">“Taylor Bilkins“</persName>
   <persName type="pseudo" resp="Nicoll">VICARS, W. A. [“TAYLOR BILKINS”] </persName>
   <writerOf>L1358 L1419</writerOf>
   <ref> not found </ref>
  </person>
- <person role="author" xml:id="W0317" freq="1" lacyTitles="few">
-  <persName>Walcot, Charles M.</persName>
+ <person role="author" xml:id="W0317" freq="1" lacyTitles="few" ref="http://viaf.org/viaf/72761204">
+  <persName>Walcot, Charles Melton (1815-1868)</persName>
   <persName resp="Nicoll">WALCOT, C. M.</persName>
   <writerOf>L0485</writerOf>
   <ref> not found </ref>
  </person>
- <person role="author" xml:id="W0318" freq="4" lacyTitles="few">
-  <persName>Waldron, W.R.</persName>
+ <person role="author" xml:id="W0318" freq="4" lacyTitles="few" ref="http://viaf.org/viaf/118235767
+  ">
+  <persName>Waldron, William Richard</persName>
   <persName resp="Nicoll">WALDRON, W. RICHARD </persName>
   <writerOf>L0986 L1131 L1348 L1391</writerOf>
   <ref> not found </ref>
@@ -1968,9 +2151,10 @@
   <ref> not found </ref>
  </person>
  <person role="author" xml:id="W0322" freq="1" lacyTitles="few" ref="http://viaf.org/viaf/59351585">
-  <persName>Weatherley, Frederick Edward (1848-1929)</persName>
+  <persName>Weatherly, Frederic (1848-1929)</persName>
   <writerOf>L1464</writerOf>
   <ref> not found </ref>
+  <note resp="curran" n="3247">Barrister and song writer; contributed to Punch in 1871.</note>
  </person>
  <person role="author" xml:id="W0323" freq="1" lacyTitles="few">
   <persName>Weber, Carl Maria von (1786-1826)</persName>
@@ -1983,6 +2167,7 @@
   <persName resp="Nicoll">WEBSTER, BENJAMIN NOTTINGHAM </persName>
   <writerOf>L0097 L1016 L1127 L1430 L1459</writerOf>
   <ref target="https://en.wikipedia.org/wiki/Benjamin_Nottingham_Webster">Wikipedia</ref>
+  <ptr target="#LDA141"/>
  </person>
  <person role="author" xml:id="W0325" freq="1" lacyTitles="few">
   <persName>Welstead, Henry</persName>
@@ -1995,6 +2180,7 @@
   <persName resp="Nicoll">WIGAN, ALFRED SYDNEY </persName>
   <writerOf>L0252 L0914</writerOf>
   <ref target="https://en.wikipedia.org/wiki/Alfred_Wigan">Wikipedia</ref>
+  <ptr target="#LDA142"/>
  </person>
  <person role="author" xml:id="W0327" freq="9" lacyTitles="some">
   <persName>Wigan, Horace (1815-1885)</persName>
@@ -2045,14 +2231,18 @@
    L1188 L1192 L1196 L1274 L1276 L1304 L1428 L1463</writerOf>
   <note>OBP has many titles</note>
   <ref> not found in wikipedia </ref>
+  <ptr target="#LDA143"/>
  </person>
  <person role="author" xml:id="W0334" freq="1" lacyTitles="few">
-  <persName>Wilson, J. Crawford</persName>
+  <persName>Wilson, John Crawford (1825-1901)</persName>
   <persName resp="Nicoll">WILSON, JOHN CRAWFORD </persName>
   <writerOf>L0713</writerOf><ref>Not found</ref>
+  <note resp="curran" n="1406">Poet; correct Wellesley birth year to 1825. EMC, VPR 34 (2001), 357.</note>
+  <ptr target="#LDA221"/>
  </person>
- <person role="author" xml:id="W0335" freq="3" lacyTitles="few">
-  <persName>Wood, Arthur</persName>
+ <person role="author" xml:id="W0335" freq="3" lacyTitles="few"
+  ref="http://viaf.org/viaf/28518437">
+  <persName>Wood, Arthur H.E.</persName>
   <persName resp="Nicoll">WOOD, ARTHUR </persName>
   <writerOf>L1341 L1436 L1448</writerOf>
 <ref>not found</ref> </person>
@@ -2060,6 +2250,7 @@
   <persName>Wood, George</persName>
   <persName resp="Nicoll">WOOD, GEORGE A. F.</persName>
   <writerOf>L0397</writerOf><ref>not found</ref>
+  <note>Title appears in the National Liby Ireland catalogue, attributed to George A.F. Wood</note>
  </person>
  <person role="author" xml:id="W0337" freq="18" lacyTitles="some" ref="http://viaf.org/viaf/5826883">
   <persName>Wooler, J.P. (1824-1868)</persName>
@@ -2068,7 +2259,7 @@
    L0962 L1063 L1067 L1246</writerOf>
   <ref> not found in wikipedia </ref>
  </person>
- <person role="author" xml:id="W0338" freq="1" lacyTitles="few">
+ <person role="author" xml:id="W0338" freq="1" lacyTitles="few" ref=" http://viaf.org/viaf/13668502">
   <persName>Wray, Charles</persName>
   <persName resp="Nicoll">WRAY, CECIL </persName>
   <writerOf>L0192</writerOf>
@@ -2081,6 +2272,7 @@
   <ref target="https://en.wikipedia.org/wiki/Edmund_Yates">Wikipedia</ref>
   <ref target="https://victoriansecrets.co.uk/letters-of-george-augustus-sala-to-edmund-yates/">Bio
    info</ref>
+  <ptr target="#LDA144"/>
  </person>
  <person role="author" xml:id="W0340" freq="1" lacyTitles="few">
   <persName>Yorke, Elizabeth, Countess of Hardwicke (1763-1858)</persName>
@@ -2092,7 +2284,7 @@
   <persName>Young, A.</persName>
   <persName resp="Nicoll">YOUNG, A.</persName>
   <writerOf>L0309</writerOf>
-  <ref>Not found</ref>
+  <ref>Not found</ref><note>No VIAF</note>
  </person>
  <person role="author" xml:id="W0342" freq="1" lacyTitles="few">
   <persName>Young, Edward, Dr. (1683-1785)</persName>
@@ -2111,7 +2303,7 @@
   <persName>Younge, A.</persName>
   <persName resp="Nicoll">YOUNGE, A. </persName>
   <writerOf>L0302</writerOf>
-  <ref>Not found</ref>
+  <ref>Not found</ref><note>No VIAF</note>
  </person>
  <person role="author" xml:id="W0345" freq="1" lacyTitles="few">
   <persName>‎Hale, William Palmer</persName>
@@ -2150,4 +2342,4 @@
    target="https://en.wikisource.org/wiki/Dictionary_of_National_Biography,_1885-1900/Rose,_George_(1817-1882)"
    >DNB</ref>
  </person>
-</authorList>
+</listPerson>

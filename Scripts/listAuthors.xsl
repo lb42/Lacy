@@ -10,7 +10,7 @@
  
  <xsl:template match="/">
   <xsl:variable name="context" select="."/>
-  <authorList>
+  <listPerson>
    <xsl:variable name="chars2zap">["\[\]]</xsl:variable>
    <xsl:variable name="authorsNormalized" as="xs:string*"
     select="//t:div/t:bibl/descendant::t:author/normalize-space(replace(.,$chars2zap,''))"/>  
@@ -60,5 +60,5 @@
    </person><xsl:text>
 </xsl:text></xsl:if>
    </xsl:for-each>
-</authorList> </xsl:template>
+</listPerson> </xsl:template>
 </xsl:stylesheet>
