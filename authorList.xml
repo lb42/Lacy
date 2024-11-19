@@ -3,9 +3,13 @@
     enriched with wikipedia and viaf links, also dates -->
 <!-- last update: 2024-10-12 -->
 <!-- 338 persons;  41 not found, 104 found, -->
-
-<!-- some = 6-10 ; few = 1-5 ; many = gt 10 
- -->
+<!-- on 2024-11-18:
+   337 persons
+   210 with a persname[contains(.,'(1')]
+   185 with ref/@target
+   99 with VIAF link 
+-->   
+<!-- some = 6-10 ; few = 1-5 ; many = gt 10 -->
 
 
 <listPerson xmlns="http://lb42.github.io">
@@ -23,7 +27,7 @@
   <writerOf>L1476</writerOf>
   <ref target="https://en.wikipedia.org/wiki/Gilbert_Arthur_%C3%A0_Beckett">Wikipedia</ref>
  </person>
- <person role="author" xml:id="W0004" freq="3" lacyTitles="few">
+ <person role="author" xml:id="W0004" freq="3" lacyTitles="few" ref="http://viaf.org/viaf/45631581">
   <persName>Addison, Henry Robert (1805-1876)</persName>
   <persName resp="Nicoll">ADDISON, Captain (later Lieutenant-Colonel) HENRY ROBERT </persName>
   <writerOf>L0164 L0235 L0708</writerOf>
@@ -36,32 +40,34 @@
   <writerOf>L1482</writerOf>
   <ref target="https://en.wikipedia.org/wiki/Joseph_Addison">Wikipedia</ref>
  </person>
- <person role="author" xml:id="W0006" freq="2" lacyTitles="few">
+ <person role="author" xml:id="W0006" freq="2" lacyTitles="few" ref="http://viaf.org/viaf/50145602353601361093">
   <persName>Allingham, J.T. (1776-1812)</persName>
   <persName resp="Nicoll">ALLINGHAM, JOHN TILL.</persName>
   <writerOf>L0900 L1057</writerOf>
   <ref target="https://en.wikipedia.org/wiki/John_Till_Allingham">Wikipedia</ref>
  </person>
- <person role="author" xml:id="W0007" freq="8" lacyTitles="some" ref="http://viaf.org/viaf/1365950
-  ">
+ <person role="author" xml:id="W0007" freq="8" lacyTitles="some" 
+  ref="http://viaf.org/viaf/1365950">
   <persName>Almar, George (1802-1854)</persName>
   <persName resp="Nicoll">ALMAR, GEORGE</persName>
   <writerOf>L0494 L0519 L0831 L1061 L1098 L1250 L1296 L1360</writerOf>
   <ref> not in wpedia </ref>
  </person>
- <person role="author" xml:id="W0008" freq="1" lacyTitles="few">
+ <person role="author" xml:id="W0008" freq="1" lacyTitles="few"
+  ref=" http://viaf.org/viaf/21038967">
   <persName>Amcotts, Vincent (1845-1881)</persName>
   <persName resp="Nicoll">AMCOTTS, VINCENT </persName>
   <writerOf>L1114</writerOf>
   <ref> not in wpedia </ref>
  </person>
- <person role="author" xml:id="W0009" freq="4" lacyTitles="few">
+ <person role="author" xml:id="W0009" freq="4" lacyTitles="few" ref="http://viaf.org/viaf/3828752">
   <persName>Amherst, J.H. (1776-1851)</persName>
   <persName resp="Nicoll">AMHERST, J. H.</persName>
   <writerOf>L0194 L0380 L1201 L1468</writerOf>
   <ref> not in wikipedia </ref>
  </person>
- <person role="author" xml:id="W0010" freq="1" lacyTitles="few">
+ <person role="author" xml:id="W0010" freq="1" lacyTitles="few"
+  ref="http://viaf.org/viaf/3828752">
   <persName>Anderson, James Robertson (1811-1895)</persName>
   <persName resp="Nicoll">ANDERSON, JAMES R. </persName>
   <writerOf>L1303</writerOf>
@@ -85,13 +91,13 @@
   <writerOf>L0608 L0675 L0681 L0691</writerOf>
   <ref target="https://en.wikipedia.org/wiki/Thomas_Archer_(actor)">Wikipedia</ref>
  </person>
- <person role="author" xml:id="W0014" freq="2" lacyTitles="few">
-  <persName>Arnold, H.T. </persName>
+ <person role="author" xml:id="W0014" freq="2" lacyTitles="few" ref="http://viaf.org/viaf/48110764">
+  <persName>Arnold, Henry Thomas (1840-1876) </persName>
   <persName>“Arden, H.T.“</persName>
   <persName resp="Nicoll">ARNOLD, HENRY THOMAS </persName>
   <persName resp="Nicoll">[“H. T. ARDEN”] </persName>
   <writerOf>L1132 L1161</writerOf>
-  <ref> not found in wikipedia ; not in jrs</ref>
+  <ref> not found in wikipedia </ref>
  </person>
  <person role="author" xml:id="W0015" freq="1" lacyTitles="few" ref="http://viaf.org/viaf/29921604">
   <persName>Arnold, W.H. (1774-1852) </persName>
@@ -99,25 +105,25 @@
   <writerOf>L0539</writerOf>
   <ref target="https://en.wikipedia.org/wiki/Samuel_James_Arnold">Wikipedia</ref>
  </person>
- <person role="author" xml:id="W0016" freq="1" lacyTitles="few">
+ <person role="author" xml:id="W0016" freq="1" lacyTitles="few" ref="http://viaf.org/viaf/205634691">
   <persName>Ayton, Richard (1786–1823)</persName>
   <persName resp="Nicoll">AYTON, RICHARD</persName>
   <writerOf>L0635</writerOf>
   <ref target="https://en.wikipedia.org/wiki/Richard_Ayton">Wikipedia</ref>
  </person>
- <person role="author" xml:id="W0017" freq="1" lacyTitles="few">
+ <person role="author" xml:id="W0017" freq="1" lacyTitles="few" ref="http://viaf.org/viaf/62904176">
   <persName>Baddeley, G.C.</persName>
   <persName resp="Nicoll">BADDELEY, G. C. </persName>
   <writerOf>L1101</writerOf>
-  <ref> not found  ; not in jrs </ref>
+  <ref> not found  </ref>
  </person>
- <person role="author" xml:id="W0018" freq="1" lacyTitles="few">
+ <person role="author" xml:id="W0018" freq="1" lacyTitles="few" ref=" http://viaf.org/viaf/62904176">
   <persName>Banim, John (1798-1842)</persName>
   <persName resp="Nicoll">BANIM, JOHN</persName>
   <writerOf>L0335</writerOf>
   <ref target="https://en.wikipedia.org/wiki/John_Banim">Wikipedia</ref>
  </person>
- <person role="author" xml:id="W0019" freq="1" lacyTitles="few">
+ <person role="author" xml:id="W0019" freq="1" lacyTitles="few"  ref="http://viaf.org/viaf/306282625">
   <persName>Barnett, B.</persName>
   <persName resp="Nicoll">BARNETT, BENJAMIN </persName>
   <writerOf>L0018</writerOf>
@@ -129,7 +135,7 @@
   <writerOf>L1408</writerOf>
   <ref target="https://en.wikipedia.org/wiki/Charles_Zachary_Barnett">Wikipedia</ref>
  </person>
- <person role="author" xml:id="W0021" freq="1" lacyTitles="few">
+ <person role="author" xml:id="W0021" freq="1" lacyTitles="few" ref=" http://viaf.org/viaf/57356538">
   <persName>Barnett, John (1802-1890)</persName>
   <persName resp="Nicoll">THACKERAY, THOMAS JAMES</persName>
   <writerOf>L0330</writerOf>
@@ -141,26 +147,27 @@
   <writerOf>L0017 L0018 L0031 L0127 L0202 L0419 L0464 L0465</writerOf>
   <ref target="https://en.wikipedia.org/wiki/Morris_Barnett">Wikipedia</ref>
  </person>
- <person role="author" xml:id="W0023" freq="4" lacyTitles="few">
+ <person role="author" xml:id="W0023" freq="4" lacyTitles="few" ref="http://viaf.org/viaf/305041171">
   <persName>Barrymore, William (1759-1830)</persName>
   <persName resp="Nicoll">BARRYMORE, WILLIAM</persName>
   <writerOf>L0082 L0634 L0715 L1092</writerOf>
   <ref target="https://en.wikipedia.org/wiki/William_Barrymore_(stage_actor)">Wikipedia</ref>
 
  </person>
- <person role="author" xml:id="W0024" freq="1" lacyTitles="few">
+ <person role="author" xml:id="W0024" freq="1" lacyTitles="few" ref="http://viaf.org/viaf/116475072">
   <persName>Battu, Léon (1829-1857)</persName>
   <persName resp="Nicoll">BARNETT, MORRIS</persName>
   <writerOf>L1086</writerOf>
   <ref target="https://en.wikipedia.org/wiki/L%C3%A9on_Battu">Wikipedia</ref>
  </person>
- <person role="author" xml:id="W0025" freq="6" lacyTitles="some" dlb="y">
+ <person role="author" xml:id="W0025" freq="6" lacyTitles="some" dlb="y" ref="http://viaf.org/viaf/27808896">
   <persName>Bayly, Thomas Haynes (1797-1839)</persName>
   <persName resp="Nicoll">BAYLY, THOMAS HAYNES.</persName>
   <writerOf>L0005 L0006 L0007 L0009 L0010 L0190</writerOf>
   <ref target="https://en.wikipedia.org/wiki/Thomas_Haynes_Bayly">Wikipedia</ref>
  </person>
- <person role="author" xml:id="W0026" freq="1" lacyTitles="few">
+ 
+ <person role="author" xml:id="W0026" freq="1" lacyTitles="few" ref="http://viaf.org/viaf/33059066">
   <persName>Beazley, Samuel (1786–1851)</persName>
   <persName resp="Nicoll">BEAZLEY, SAMUEL, Junior,</persName>
   <writerOf>L1020</writerOf>
@@ -172,7 +179,7 @@
   <writerOf>L1359 L1382 L1414 L1429</writerOf>
   <ref> probably not the steeple chase rider https://en.wikipedia.org/wiki/Martin_Becher </ref>
  </person>
- <person role="author" xml:id="W0028" freq="3" lacyTitles="few">
+ <person role="author" xml:id="W0028" freq="3" lacyTitles="few" ref="http://viaf.org/viaf/118066883">
   <persName>Bellingham, Henry</persName>
   <persName resp="Nicoll">BELLINGHAM, HENRY</persName>
   <writerOf>L0997 L1019 L1045</writerOf>
@@ -187,14 +194,14 @@
   <ref target="https://en.wikipedia.org/wiki/William_Bayle_Bernard">Wikipedia</ref>
   <ptr target="#LDA102"/>
  </person>
- <person role="author" xml:id="W0030" freq="1" lacyTitles="few">
+ <person role="author" xml:id="W0030" freq="1" lacyTitles="few" ref="http://viaf.org/viaf/62904182">
   <persName>Berrie, E.</persName>
   <persName resp="Nicoll">BERRIE, ERNIE </persName>
   <writerOf>L1329</writerOf>
   <ref> not found </ref>
  </person>
- <person role="author" xml:id="W0031" freq="3" lacyTitles="few">
-  <persName>Besemeres, John </persName>
+ <person role="author" xml:id="W0031" freq="3" lacyTitles="few" ref="http://viaf.org/viaf/20027270">
+  <persName>Besemeres, John (1822-1879)</persName>
   <persName type="pseudo">“Daly, John“</persName>
   <persName resp="Nicoll">BESEMERES, JOHN </persName>
   <persName type="pseudo" resp="Nicoll">[“JOHN DALY”] </persName>
@@ -202,13 +209,13 @@
   <ref> not found </ref>
   <ptr target="#LDA203"/>
  </person>
- <person role="author" xml:id="W0032" freq="2" lacyTitles="few">
+ <person role="author" xml:id="W0032" freq="2" lacyTitles="few" ref="http://viaf.org/viaf/75210728">
   <persName>Best, William</persName>
   <persName resp="Nicoll">BEST, WILLIAM</persName>
   <writerOf>L0997 L1019</writerOf>
   <ref >Not found</ref>
  </person>
- <person role="author" xml:id="W0033" freq="1" lacyTitles="few">
+ <person role="author" xml:id="W0033" freq="1" lacyTitles="few" ref="http://viaf.org/viaf/121550765">
   <persName>Bickerstaff, Isaac (1733-1808)</persName>
   <persName resp="Nicoll">BICKERSTAFFE, ISAAC.</persName>
   <writerOf>L1129</writerOf>
@@ -227,13 +234,13 @@
   <ref target="https://en.wikipedia.org/wiki/Edward_Litt_Laman_Blanchard">Wikipedia</ref>
   <ptr target="#LDA103"/>
  </person>
- <person role="author" xml:id="W0036" freq="1" lacyTitles="few">
+ <person role="author" xml:id="W0036" freq="1" lacyTitles="few" ref=" http://viaf.org/viaf/118070112">
   <persName>Bolton, Charles</persName>
   <persName resp="Nicoll">BOLTON, CHARLES </persName>
   <writerOf>L0807</writerOf>
   <ref> not found </ref>
  </person>
- <person role="author" xml:id="W0037" freq="6" lacyTitles="some" dlb="y">
+ <person role="author" xml:id="W0037" freq="6" lacyTitles="some" dlb="y" ref="http://viaf.org/viaf/100231834">
   <persName>Boucicault, Dion (1820-1890)</persName>
   <persName resp="Nicoll">BOUCICAULT, DION </persName>
   <persName resp="Nicoll">[DIONYSIUS L. BOURCICAULT] </persName>
@@ -247,26 +254,26 @@
   <writerOf>L0070 L0096 L0198 L0331 L0623 L0895</writerOf>
   <ref> no wikipedia entry </ref><!-- music journalist -->
  </person>
- <person role="author" xml:id="W0039" freq="1" lacyTitles="few">
+ <person role="author" xml:id="W0039" freq="1" lacyTitles="few" ref="http://viaf.org/viaf/79200758">
   <persName>Bristow, George F. (1825-1898)</persName>
   <writerOf>L0581</writerOf>
   <ref target="https://en.wikipedia.org/wiki/George_Frederick_Bristow">Wikipedia</ref>
  </person>
- <person role="author" xml:id="W0040" freq="1" lacyTitles="few">
+ <person role="author" xml:id="W0040" freq="1" lacyTitles="few" ref="http://viaf.org/viaf/60440861">
   <persName>Brookes, Sheridan</persName>
   <persName resp="Nicoll">Brookes, Sheridan</persName>
   <writerOf>L0998</writerOf>
   <ref> not known </ref>
  </person>
- <person role="author" xml:id="W0041" freq="6" lacyTitles="some">
+ <person role="author" xml:id="W0041" freq="6" lacyTitles="some" ref=" http://viaf.org/viaf/3253534">
   <persName>Brooks, Shirley (1816-1874)</persName>
   <persName resp="Nicoll">BROOKS, CHARLES WILLIAM SHIRLEY</persName>
   <writerOf>L0012 L0022 L0044 L0053 L0067 L0733</writerOf>
   <ref target="https://en.wikipedia.org/wiki/Shirley_Brooks">Wikipedia</ref>
   <ptr target="#LDA105"/>
  </person>
- <person role="author" xml:id="W0042" freq="10" lacyTitles="some">
-  <persName>Brough, Robert B. (1828-1860)</persName>
+ <person role="author" xml:id="W0042" freq="10" lacyTitles="some" ref="http://viaf.org/viaf/33358014">
+  <persName>Brough, Robert Barnabas (1828-1860)</persName>
   <persName resp="Nicoll">BROUGH, ROBERT BARNABAS </persName>
   <writerOf>L0083 L0205 L0212 L0361 L0393 L0425 L0474 L0644 L1305 L1308</writerOf>
   <ref target="https://en.wikipedia.org/wiki/Robert_Barnabas_Brough">Wikipedia</ref>
@@ -281,7 +288,7 @@
   <ref target="https://en.wikipedia.org/wiki/William_Brough_(writer)">Wikipedia</ref>
   <ptr target="#LDA106"/>
  </person>
- <person role="author" xml:id="W0044" freq="4" lacyTitles="few">
+ <person role="author" xml:id="W0044" freq="4" lacyTitles="few" ref="http://viaf.org/viaf/16135965">
   <persName>Brougham, John (1814-1880)</persName>
   <persName resp="Nicoll">BROUGHAM, JOHN </persName>
   <writerOf>L0390 L0976 L1021 L1227</writerOf>
@@ -296,7 +303,8 @@
    L1041</writerOf>
   <ref target="https://en.wikipedia.org/wiki/Leicester_Silk_Buckingham">Wikipedia</ref>
  </person>
- <person role="author" xml:id="W0046" freq="16" lacyTitles="some" dlb="y">
+ <person role="author" xml:id="W0046" freq="16" lacyTitles="some" 
+  dlb="y" ref="http://viaf.org/viaf/77054583">
   <persName>Buckstone, John Baldwin (1802-1879)</persName>
   <persName resp="Nicoll">BUCKSTONE, JOHN BALDWIN</persName>
   <writerOf>L0008 L0077 L0087 L0150 L0250 L0251 L0365 L0367 L0457 L0507 L1026 L1034 L1179 L1189
@@ -304,7 +312,8 @@
   <ref target="https://en.wikipedia.org/wiki/John_Baldwin_Buckstone">Wikipedia</ref>
   <ptr target="#LDA108"/>
  </person>
- <person role="author" xml:id="W0047" freq="2" lacyTitles="few">
+ <person role="author" xml:id="W0047" freq="2" lacyTitles="few" 
+  ref="http://viaf.org/viaf/315673080">
   <persName>Bunn, Alfred (1796-1860)</persName>
   <persName resp="Nicoll">BUNN, ALFRED</persName>
   <writerOf>L0258 L1461</writerOf>
@@ -321,20 +330,21 @@
   <ptr target="#LDA109"/>
  </person>
 
- <person role="author" xml:id="W0050" freq="1" lacyTitles="few">
-  <persName>Burton, W.E. (1804-1860)</persName>
+ <person role="author" xml:id="W0050" freq="1" lacyTitles="few"
+  ref="http://viaf.org/viaf/3542295">
+  <persName>Burton, William Evans (1804-1860)</persName>
   <persName resp="Nicoll">BURTON, WILLIAM EVANS</persName>
   <writerOf>L0496</writerOf>
   <ref target="https://en.wikipedia.org/wiki/William_Evans_Burton">Wikipedia</ref>
  </person>
- <person role="author" xml:id="W0051" freq="1" lacyTitles="few">
+ <person role="author" xml:id="W0051" freq="1" lacyTitles="few" ref="http://viaf.org/viaf/72765127">
   <persName>Butler, Richard Lord Glengall (1794-1858)</persName>
   <persName resp="Nicoll">BUTLER, RICHARD, Earl of GLENGALL</persName>
   <writerOf>L0538</writerOf>
   <ref target="https://en.wikipedia.org/wiki/Richard_Butler,_2nd_Earl_of_Glengall">Wikipedia </ref>
   <ref> ?  or maybe his father ? </ref>
  </person>
- <person role="author" xml:id="W0052" freq="3" lacyTitles="few">
+ <person role="author" xml:id="W0052" freq="3" lacyTitles="few" ref="http://viaf.org/viaf/95230688">
   <persName>Byron, George Gordon Lord (1788-1824)</persName>
   <persName resp="Nicoll">BYRON, Lord GEORGE GORDON</persName>
   <writerOf>L0155 L0886 L1043</writerOf>
@@ -351,33 +361,33 @@
   <ref target="https://en.wikipedia.org/wiki/Henry_James_Byron">Wikipedia</ref>
   <ptr target="#LDA110"/>
  </person>
- <person role="author" xml:id="W0054" freq="1" lacyTitles="few">
+ <person role="author" xml:id="W0054" freq="1" lacyTitles="few" ref="http://viaf.org/viaf/100372269">
   <persName> Cole, John William, (1792-1870) </persName>
   <persName type="pseudo">Calcraft, John William</persName>
   <persName resp="Nicoll">CALCRAFT [or COLE], JOHN WILLIAM.</persName>
   <writerOf>L0413</writerOf>
   <ref> attribution from hathitrust </ref>
  </person>
- <person role="author" xml:id="W0055" freq="1" lacyTitles="few">
+ <person role="author" xml:id="W0055" freq="1" lacyTitles="few" ref="http://viaf.org/viaf/14965532">
   <persName>Carey, Henry (1687-1743)</persName>
   <persName type="pseudo">Carey, Robert</persName>
   <persName resp="Nicoll">CAREY, HENRY.</persName>
   <writerOf>L1221</writerOf>
   <ref target="https://en.wikipedia.org/wiki/Henry_Carey_(writer)">Wikipedia</ref>
  </person>
- <person role="author" xml:id="W0056" freq="1" lacyTitles="few">
+ <person role="author" xml:id="W0056" freq="1" lacyTitles="few" ref="http://viaf.org/viaf/18030378">
   <persName>Carré, M.</persName>
   <persName resp="Nicoll">BARNETT, MORRIS</persName>
   <writerOf>L1086</writerOf>
   <ref> not found </ref>
  </person>
- <person role="author" xml:id="W0057" freq="2" lacyTitles="few" sex="F">
+ <person role="author" xml:id="W0057" freq="2" lacyTitles="few" sex="F" ref="http://viaf.org/viaf/41874559">
   <persName>Centlivre, Susanna (1669-1723)</persName>
   <persName resp="Nicoll"> CENTLIVRE, Mrs SUSANNAH (Mrs CARROLL).</persName>
   <writerOf>L0372 L0410</writerOf>
   <ref target="https://en.wikipedia.org/wiki/Susanna_Centlivre">Wikipedia</ref>
  </person>
- <person role="author" xml:id="W0058" freq="14" lacyTitles="some">
+ <person role="author" xml:id="W0058" freq="14" lacyTitles="some" ref="http://viaf.org/viaf/28419759">
   <persName>Cheltnam, Charles Smith (1823-1912)</persName>
   <persName resp="Nicoll">CHELTNAM, CHARLES SMITH </persName>
   <writerOf>L0763 L0772 L0793 L0801 L0941 L0960 L0965 L0999 L1032 L1256 L1287 L1340 L1390
@@ -399,19 +409,20 @@
   <ref> not found </ref>
  </person>
 
- <person role="author" xml:id="W0061" freq="1" lacyTitles="few">
+ <person role="author" xml:id="W0061" freq="1" lacyTitles="few" ref="http://viaf.org/viaf/766412">
   <persName>Clarke, Campbell (1845-1902)</persName>
   <persName resp="Nicoll">CLARKE, CAMPBELL </persName>
   <writerOf>L1454</writerOf>
   <ref target="https://en.wikipedia.org/wiki/Campbell_Clarke">Wikipedia</ref>
  </person>
- <person role="author" xml:id="W0062" freq="1" lacyTitles="few">
-  <persName>Clements, Arthur</persName>
+ <person role="author" xml:id="W0062" freq="1" lacyTitles="few"
+  ref=" http://viaf.org/viaf/7147093663125000713">
+  <persName>Clements, Arthur (1842-1913)</persName>
   <persName resp="Nicoll">CLEMENTS, ARTHUR </persName>
   <writerOf>L1462</writerOf>
   <ref> not found </ref>
  </person>
- <person role="author" xml:id="W0063" freq="2" lacyTitles="few">
+ <person role="author" xml:id="W0063" freq="2" lacyTitles="few" ref="http://viaf.org/viaf/35811840">
   <persName>Cobb, James (1756–1818)</persName>
   <persName resp="Nicoll">COBB, JAMES.</persName>
   <writerOf>L1281</writerOf>
@@ -436,32 +447,32 @@
   <writerOf>L1109</writerOf>
   <ref target="https://www.victorianresearch.org/atcl/show_author.php?aid=406">ATCL entry</ref>
  </person>
- <person role="author" xml:id="W0067" freq="1" lacyTitles="few">
+ <person role="author" xml:id="W0067" freq="1" lacyTitles="few" ref="http://viaf.org/viaf/13659144">
   <persName>Conrad, Robert T. (1810-1858)</persName>
   <persName resp="Nicoll">CONRAD, R. T. </persName>
   <writerOf>L1233</writerOf>
   <ref target="https://en.wikipedia.org/wiki/Robert_T._Conrad">Wikipedia</ref>
  </person>
- <person role="author" xml:id="W0068" freq="1" lacyTitles="few">
+ <person role="author" xml:id="W0068" freq="1" lacyTitles="few" ref="http://viaf.org/viaf/33355700">
   <persName>Cooper, Frederick Fox (1806-1879)</persName>
   <persName resp="Nicoll">COOPER, FREDERICK FOX</persName>
   <writerOf>L1333</writerOf>
   <ref> not found </ref>
   <note>New biog F. Renard Cooper 'Nothing extenuate' 1964</note>
  </person>
- <person role="author" xml:id="W0069" freq="10" lacyTitles="some">
+ <person role="author" xml:id="W0069" freq="10" lacyTitles="some" ref="http://viaf.org/viaf/48122612">
   <persName>Courtney, John (1804–1865)</persName>
   <persName resp="Nicoll">COURTNEY, JOHN</persName>
   <writerOf>L0001 L0003 L0039 L0224 L0445 L0451 L0663 L0731 L0879 L1143</writerOf>
   <ref target="https://en.wikipedia.org/wiki/John_Courtney_(playwright)">Wikipedia</ref>
  </person>
- <person role="author" xml:id="W0070" freq="1" lacyTitles="few" sex="F">
+ <person role="author" xml:id="W0070" freq="1" lacyTitles="few" sex="F" ref="http://viaf.org/viaf/34730405">
   <persName>Cowley, Hannah (1743-1809)</persName>
   <persName resp="Nicoll">COWLEY, Mrs HANNAH.</persName>
   <writerOf>L1073</writerOf>
   <ref target="https://en.wikipedia.org/wiki/Hannah_Cowley_(writer)">Wikipedia</ref>
  </person>
- <person role="author" xml:id="W0071" freq="1" lacyTitles="few">
+ <person role="author" xml:id="W0071" freq="1" lacyTitles="few" ref="http://viaf.org/viaf/6984551">
   <persName>Coyne, J. Denis</persName>
   <persName resp="Nicoll">COYNE, JOSEPH STIRLING </persName>
   <writerOf>L1269</writerOf>
@@ -478,27 +489,27 @@
   <ref target="https://en.wikipedia.org/wiki/Joseph_Stirling_Coyne">Wikipedia</ref>
   <ptr target="#LDA113"/>
  </person>
- <person role="author" xml:id="W0073" freq="11" lacyTitles="some">
-  <persName>Craven, H.T. (1818-1905)</persName>
+ <person role="author" xml:id="W0073" freq="11" lacyTitles="some" ref="http://viaf.org/viaf/40733441">
+  <persName>Craven, Henry Thornton (1818-1905)</persName>
   <persName resp="Nicoll">CRAVEN, HENRY THORNTON [HENRY THORNTON] </persName>
   <writerOf>L0694 L0720 L0742 L0851 L0893 L0987 L1081 L1128 L1209 L1263 L1394</writerOf>
   <ref target="https://en.wikipedia.org/wiki/Henry_Thornton_Craven">Wikipedia</ref>
   <ptr target="#LDA114"/>
  </person>
- <person role="author" xml:id="W0074" freq="1" lacyTitles="few">
+ <person role="author" xml:id="W0074" freq="1" lacyTitles="few" ref="http://viaf.org/viaf/118113382">
   <persName>Cullerne, Edward</persName>
   <persName resp="Nicoll">CULLERNE, E. A.</persName>
   <writerOf>L1413</writerOf>
   <ref>not found</ref>
  </person>
- <person role="author" xml:id="W0075" freq="2" lacyTitles="few">
+ <person role="author" xml:id="W0075" freq="2" lacyTitles="few" ref="http://viaf.org/viaf/61925568">
   <persName>Dale, Felix (1839-1906)</persName>
   <persName type="pseudo" resp="Nicoll"> “DALE, FELIX” </persName>
   <persName resp="Nicoll">[HERMAN CHARLES MERIVALE ]</persName>
   <writerOf>L1144 L1163 L1207</writerOf>
   <ref target="https://en.wikipedia.org/wiki/Herman_Charles_Merivale">Wikipedia</ref>
  </person>
- <person role="author" xml:id="W0076" freq="2" lacyTitles="few">
+ <person role="author" xml:id="W0076" freq="2" lacyTitles="few" ref="http://viaf.org/viaf/29655626">
   <persName>Daly, Augustin (1838-1899)</persName>
   <persName resp="Nicoll">DALY, AUGUSTIN </persName>
   <writerOf>L1200 L1452</writerOf>
@@ -519,44 +530,46 @@
   <writerOf>L0392 L0394</writerOf>
   <ref> not found </ref>
  </person>
- <person role="author" xml:id="W0080" freq="1" lacyTitles="few">
+ 
+ <person role="author" xml:id="W0080" freq="1" lacyTitles="few" ref="http://viaf.org/viaf/24601979">
   <persName>De Girardin, Madame Émile (1804-1855)</persName>
   <persName resp="Nicoll">ROBERTSON, THOMAS WILLIAM </persName>
   <writerOf>L0266</writerOf>
   <ref target="https://en.wikipedia.org/wiki/Delphine_de_Girardin">Wikipedia</ref>
  </person>
- <person role="author" xml:id="W0081" freq="1" lacyTitles="few">
+ 
+ <person role="author" xml:id="W0081" freq="1" lacyTitles="few" ref="http://viaf.org/viaf/10144782707884000575">
   <persName>De Pass, E.A.</persName>
   <persName resp="Nicoll">DE_PASS, E. A. </persName>
   <writerOf>L1488</writerOf>
   <ref> not found: cf eliot de pass </ref>
  </person>
- <person role="author" xml:id="W0082" freq="2" lacyTitles="few" dlb="y">
+ <person role="author" xml:id="W0082" freq="2" lacyTitles="few" dlb="y" ref="http://viaf.org/viaf/22406778">
   <persName>Dibdin, Charles (1745-1814)</persName>
   <persName resp="Nicoll">DIBDIN, CHARLES.</persName>
   <writerOf>L0344 L1277</writerOf>
   <ref target="https://en.wikipedia.org/wiki/Charles_Dibdin">Wikipedia</ref>
  </person>
- <person role="author" xml:id="W0083" freq="4" lacyTitles="few" dlb="y">
+ <person role="author" xml:id="W0083" freq="4" lacyTitles="few" dlb="y" ref="http://viaf.org/viaf/40145601975801321615" >
   <persName>Dibdin, Thomas J. (1771-1841)</persName>
   <persName resp="Nicoll">DIBDIN, THOMAS JOHN</persName>
   <writerOf>L0800 L1050 L1369 L1461</writerOf>
   <ref target="https://en.wikipedia.org/wiki/Thomas_John_Dibdin">Wikipedia</ref>
  </person>
- <person role="author" xml:id="W0084" freq="1" lacyTitles="few">
+ <person role="author" xml:id="W0084" freq="1" lacyTitles="few" ref="http://viaf.org/viaf/1367613">
   <persName>Dilley, Joseph J.</persName>
   <persName resp="Nicoll">DILLEY, JOSEPH J. </persName>
   <writerOf>L1126</writerOf>
   <ref> not found </ref>
   <ptr target="#LDA205"/>
  </person>
- <person role="author" xml:id="W0085" freq="7" lacyTitles="some">
+ <person role="author" xml:id="W0085" freq="7" lacyTitles="some" ref="http://viaf.org/viaf/2375167867505523060004">
   <persName>Dimond, William (1781-1837)</persName>
   <writerOf>L0017R L0142 L0684 L1042 L1266 L1343 L1354</writerOf>
   <ref target="https://en.wikipedia.org/wiki/William_Dimond">Wikipedia</ref>
  </person>
- <person role="author" xml:id="W0086" freq="1" lacyTitles="few">
-  <persName>Dixon, Bernhard H.</persName>
+ <person role="author" xml:id="W0086" freq="1" lacyTitles="few" ref="http://viaf.org/viaf/23500602">
+  <persName>Dixon, Bernard Homer</persName>
   <persName resp="Nicoll">DIXON, BERNARD HOMER </persName>
   <writerOf>L1448</writerOf>
   <ref> not found </ref>
@@ -568,28 +581,28 @@
   <writerOf>L1044</writerOf>
   <ref> not found </ref>
  </person>
- <person role="author" xml:id="W0088" freq="1" lacyTitles="few">
+ <person role="author" xml:id="W0088" freq="1" lacyTitles="few" ref="http://viaf.org/viaf/6291017">
   <persName>Douglass, John T.</persName>
   <persName resp="Nicoll">DOUGLASS, JOHN THOMAS </persName>
   <writerOf>L1427</writerOf>
   <ref> probably not https://en.wikipedia.org/wiki/John_Thomas_Douglass </ref>
  </person>
- <person role="author" xml:id="W0089" freq="1" lacyTitles="few">
+ <person role="author" xml:id="W0089" freq="1" lacyTitles="few" ref="http://viaf.org/viaf/11203390">
   <persName>Dowling, Maurice G.</persName>
   <persName resp="Nicoll">DOWLING, MAURICE G.</persName>
   <writerOf>L0560</writerOf>
   <ref> not found </ref>
  </person>
- <person role="author" xml:id="W0090" freq="3" lacyTitles="few">
+ <person role="author" xml:id="W0090" freq="3" lacyTitles="few" ref="http://viaf.org/viaf/30908861">
   <persName>Dubourg, Augustus William (1830-1910)</persName>
   <persName resp="Nicoll">DUBOURG, AUGUSTUS W.</persName>
   <writerOf>L1120 L1335 L1438</writerOf>
   <ref> not found </ref>
   <note>Curran 1713</note>
  </person>
- <person role="author" xml:id="W0091" freq="4" lacyTitles="few">
-  <persName>Edwardes, Conway</persName>
-  <persName resp="Nicoll">EDWARDES, CONWAY THEODORE MARRIOTT </persName>
+ <person role="author" xml:id="W0091" freq="4" lacyTitles="few" ref="http://viaf.org/viaf/118113324"  >
+  <persName>Edwardes, Conway (0000-1880)</persName>
+  <persName resp="Nicoll">EDWARDES, CONWAY </persName>
   <writerOf>L1301 L1328 L1413 L1441</writerOf>
   <ref> not found </ref>
  </person>
@@ -599,7 +612,7 @@
   <writerOf>L1195</writerOf>
   <ref> not found ; presumably not https://en.wikipedia.org/wiki/Pierpont_Edwards </ref>
  </person>
- <person role="author" xml:id="W0093" freq="4" lacyTitles="few">
+ <person role="author" xml:id="W0093" freq="4" lacyTitles="few" ref="http://viaf.org/viaf/64370955">
   <persName>Edwards, Henry Sutherland (1828-1806)</persName>
   <persName resp="Nicoll"> EDWARDS, H. SUTHERLAND </persName>
   <writerOf>L0361 L0654 L0685 L1376</writerOf>
@@ -612,42 +625,42 @@
   <writerOf>L0123</writerOf>
   <ref> not found </ref>
  </person>
- <person role="author" xml:id="W0095" freq="2" lacyTitles="few">
+ <person role="author" xml:id="W0095" freq="2" lacyTitles="few" ref="http://viaf.org/viaf/118113590">
   <persName>Emden, William S. (1800-1871)</persName>
   <persName resp="Nicoll">EMDEN, W. S. </persName>
   <writerOf>L0650 L1046</writerOf>
   <ref> william s emden was lessee of olympic </ref>
  </person>
- <person role="author" xml:id="W0096" freq="1" lacyTitles="few">
+ <person role="author" xml:id="W0096" freq="1" lacyTitles="few" ref="http://viaf.org/viaf/118113672">
   <persName>Emson, Frank E.</persName>
   <persName resp="Nicoll">EMSON, FRANK E. </persName>
   <writerOf>L1478</writerOf>
   <ref> not found </ref>
  </person>
- <person role="author" xml:id="W0097" freq="9" lacyTitles="some">
+ <person role="author" xml:id="W0097" freq="9" lacyTitles="some" ref="http://viaf.org/viaf/67827890">
   <persName>Falconer, Edmund (1814-1879)</persName>
   <persName resp="Nicoll">FALCONER, EDMUND </persName>
   <writerOf>L0462 L0616 L0626 L0673 L0679 L0700 L0723 L0734 L1484</writerOf>
   <ref target="https://en.wikipedia.org/wiki/Edmund_Falconer">Wikipedia</ref>
   <ptr target="#LDA115"/>
  </person>
- <person role="author" xml:id="W0098" freq="1" lacyTitles="few">
+ <person role="author" xml:id="W0098" freq="1" lacyTitles="few" ref="http://viaf.org/viaf/118114856">
   <persName>Farrell, John (1791 - 1848)</persName>
   <persName resp="Nicoll">FARRELL, JOHN</persName>
   <writerOf>L0432</writerOf>
   <ref> not found </ref>
  </person>
- <person role="author" xml:id="W0099" freq="1" lacyTitles="few">
+ <person role="author" xml:id="W0099" freq="1" lacyTitles="few" ref="http://viaf.org/viaf/56215328">
   <persName>Farren, Percy</persName>
   <persName resp="Nicoll">FARREN, WILLIAM</persName>
   <writerOf>L0236</writerOf>
   <ref> not found; possibly https://en.wikipedia.org/wiki/Henry_Farren </ref>
  </person>
- <person role="author" xml:id="W0100" freq="1" lacyTitles="few">
-  <persName>Fisher, David</persName>
+ <person role="author" xml:id="W0100" freq="1" lacyTitles="few" ref="http://viaf.org/viaf/67839600">
+  <persName>Fisher, David (1816-1887)</persName>
   <persName resp="Nicoll">FISHER, DAVID </persName>
   <writerOf>L0943</writerOf>
-  <ref> probably https://en.wikipedia.org/wiki/David_Fisher_(II) or https://en.wikipedia.org/wiki/David_Nunn_Fisher#Walter_David_Fisher </ref>
+  <ref target="https://en.wikipedia.org/wiki/David_Nunn_Fisher">Wikipedia</ref>
  </person>
  <person role="author" xml:id="W0101" freq="15" lacyTitles="some" dlb="y"
   ref="http://viaf.org/viaf/58149294238880521187">
@@ -658,32 +671,31 @@
   <ref target="https://en.wikipedia.org/wiki/Edward_Fitzball">Wikipedia</ref>
   <ptr target="#LDA116"/>
  </person>
- <person role="author" xml:id="W0102" freq="2" lacyTitles="few">
+ <person role="author" xml:id="W0102" freq="2" lacyTitles="few" ref="http://viaf.org/viaf/29561715">
   <persName>Foote, Samuel (1720-1770)</persName>
   <persName resp="Nicoll">FOOTE, SAMUEL.</persName>
   <writerOf>L1078 L1110</writerOf>
   <ref target="https://en.wikipedia.org/wiki/Samuel_Foote">Wikipedia</ref>
  </person>
- <person role="author" xml:id="W0103" freq="1" lacyTitles="few">
+ <person role="author" xml:id="W0103" freq="1" lacyTitles="few" ref="http://viaf.org/viaf/96814577">
   <persName>Forrest, Harry</persName>
   <writerOf>L1234</writerOf>
   <ref> not known </ref>
  </person>
- <person role="author" xml:id="W0104" freq="1" lacyTitles="few">
-  <persName>French, Sidney</persName>
-  <persName resp="Nicoll">FRENCH, SYDNEY
-  </persName>
+ <person role="author" xml:id="W0104" freq="1" lacyTitles="few" ref="http://viaf.org/viaf/91135054">
+  <persName>French, Sydney</persName>
+  <persName resp="Nicoll">FRENCH, SYDNEY</persName>
   <writerOf>L0682</writerOf>
   <ref> not known </ref>
  </person>
 
- <person role="author" xml:id="W0106" freq="2" lacyTitles="few">
+ <person role="author" xml:id="W0106" freq="2" lacyTitles="few" ref="http://viaf.org/viaf/24563">
   <persName>Garrick, David (1717-1779)</persName>
   <persName resp="Nicoll">GARRICK, DAVID.</persName>
   <writerOf>L0926 L1367</writerOf>
   <ref target="https://en.wikipedia.org/wiki/David_Garrick">Wikipedia</ref>
  </person>
- <person role="author" xml:id="W0107" freq="1" lacyTitles="few">
+ <person role="author" xml:id="W0107" freq="1" lacyTitles="few" ref="http://viaf.org/viaf/2480890">
   <persName>Gay, John (1685-1732)</persName>
   <persName resp="Nicoll">GAY, JOHN</persName>
   <writerOf>L0304</writerOf>
@@ -695,7 +707,7 @@
   <writerOf>L1037</writerOf>
   <ref> not found </ref>
  </person>
- <person role="author" xml:id="W0109" freq="7" lacyTitles="some" dlb="y">
+ <person role="author" xml:id="W0109" freq="7" lacyTitles="some" dlb="y" ref="http://viaf.org/viaf/22191447">
   <persName>Gilbert, W.S. (1836-1911)</persName>
   <persName resp="Nicoll">GILBERT, WILLIAM SCHWENK </persName>
   <persName type="pseudo" resp="Nicoll">[“F. LATOUR TOMLINE”] </persName>
@@ -703,16 +715,16 @@
   <ref target="https://en.wikipedia.org/wiki/W._S._Gilbert">Wikipedia</ref>
   <ptr target="#LDA206"/>
  </person>
- <person role="author" xml:id="W0110" freq="1" lacyTitles="few">
+ <person role="author" xml:id="W0110" freq="1" lacyTitles="few" ref="http://viaf.org/viaf/100167171">
   <persName>Goldsmith, Oliver (1728-1744)</persName>
   <persName resp="Nicoll">GOLDSMITH, OLIVER.</persName>
   <writerOf>L0370</writerOf>
   <ref target="https://en.wikipedia.org/wiki/Oliver_Goldsmith">Wikipedia</ref>
  </person>
- <person role="author" xml:id="W0111" freq="7" lacyTitles="some">
-  <persName>Gordon, Walter</persName>
+ <person role="author" xml:id="W0111" freq="7" lacyTitles="some" ref="http://viaf.org/viaf/91135199">
+  <persName>Gordon, Walter (1823-1892)</persName>
   <persName type="pseudo" resp="Nicoll">“GORDON, WALTER”</persName>
-  <persName resp="Nicoll"> [ WILLIAM AYLMER COWING]</persName>
+  <persName resp="Nicoll"> [ WILLIAM AYLMER GOWING]</persName>
   <writerOf>L0689 L0696 L0722 L0741 L0840 L0928 L1286</writerOf>
   <ref> not found in wikipedia</ref>
   <ptr target="#LDA207"/>
@@ -723,8 +735,8 @@
   <writerOf>L1224</writerOf>
   <ref> not found </ref>
  </person>
- <person role="author" xml:id="W0113" freq="1" lacyTitles="few">
-  <persName>Grangé, E.</persName>
+ <person role="author" xml:id="W0113" freq="1" lacyTitles="few" ref="http://viaf.org/viaf/100168357">
+  <persName>Grangé, Eugène</persName>
   <persNae resp="Nicoll">[BOUCICAULT, DION ] </persNae>
   <writerOf>L0079</writerOf>
   <ref> not found </ref>
@@ -734,10 +746,11 @@
   <persName>Graves, A.P.</persName>
   <persName resp="Nicoll">GRAVES, A. P. </persName>
   <writerOf>L1434</writerOf>
-  <ref> possibly member of https://en.wikipedia.org/wiki/Groves_family</ref>
+  <note>Viaf suggests Albert Phelps (1829-1911) or Alfred Perceval (1846-1931)</note>
  </person>
- <person role="author" xml:id="W0115" freq="1" lacyTitles="few">
-  <persName>Grosette, H.W.</persName>
+ 
+ <person role="author" xml:id="W0115" freq="1" lacyTitles="few" ref="http://viaf.org/viaf/257430971">
+  <persName>Grosette, Henry William</persName>
   <persName resp="Nicoll">LEWIS, MATTHEW GREGORY</persName>
   <writerOf>L0641</writerOf>
   <ref> not found </ref>
@@ -749,13 +762,13 @@
   <writerOf>L1412</writerOf>
   <ref target="https://en.wikipedia.org/wiki/Sydney_Grundy">Wikipedia</ref>
  </person>
- <person role="author" xml:id="W0117" freq="1" lacyTitles="few">
-  <persName>Gully, J.M.,M.D.</persName>
+ <person role="author" xml:id="W0117" freq="1" lacyTitles="few" ref="http://viaf.org/viaf/38275913">
+  <persName>Gully, James Manby,M.D.</persName>
   <persName resp="Nicoll">GULLY, JAMES MANBY</persName>
   <writerOf>L1352</writerOf>
-  <ref> surely not really https://en.wikipedia.org/wiki/James_Manby_Gully </ref>
+  <ref target="https://en.wikipedia.org/wiki/James_Manby_Gully">Wikipedia</ref>
  </person>
- <person role="author" xml:id="W0118" freq="7" lacyTitles="some">
+ <person role="author" xml:id="W0118" freq="7" lacyTitles="some" ref="http://viaf.org/viaf/25977583">
   <persName>Haines, John Thomas (1799–1843)</persName>
   <persName resp="Nicoll">HAINES, JOHN THOMAS</persName>
   <writerOf>L0646 L0651 L0676 L0687 L1030 L1058 L1096</writerOf>
@@ -769,7 +782,7 @@
   <note resp="curran" n="1115">"W.P. Hale" is probably William Palmer Hale who was the son of William Hale Hale, master of Charterhouse; a barrister and friend of Edmund Yates, he wrote The Oude Question (1857) and poetry and prose in The Train Magazine (1856).</note>
 
  </person>
- <person role="author" xml:id="W0120" freq="1" lacyTitles="few">
+ <person role="author" xml:id="W0120" freq="1" lacyTitles="few" ref="http://viaf.org/viaf/11908839"><!-- maybe -->
   <persName>Halford, Joseph</persName>
   <persName resp="Nicoll">HALFORD, J. </persName>
   <writerOf>L1089</writerOf>
@@ -784,11 +797,11 @@
   <ref target="https://en.wikipedia.org/wiki/Andrew_Halliday_(journalist)">Wikipedia</ref>
   <ptr target="#LDA117"/>
  </person>
- <person role="author" xml:id="W0122" freq="1" lacyTitles="few">
-  <persName>Halm, Frederick</persName>
+ <person role="author" xml:id="W0122" freq="1" lacyTitles="few" ref="http://viaf.org/viaf/66610632">
+   <persName>Halm, Frederick (1806-1871)</persName>
   <persName resp="Nicoll">HALM, Frederick</persName>
   <writerOf>L0101</writerOf>
-  <ref> not found </ref>
+  <ref target="https://en.wikipedia.org/wiki/Friedrich_Halm">Wikipedia </ref>
  </person>
 
  <person role="author" xml:id="W0123" freq="4" lacyTitles="few">
@@ -802,14 +815,15 @@
   <persName resp="Nicoll">HARDWICKE, PELHAM </persName>
   <writerOf>L0177</writerOf>
   <ref> not found </ref>
+  <note>VIAF thinks this persname is an alias of Thomas H Reynoldson 1808-1888 but does not list this title; Nicoll thinks otherwise</note>
  </person>
- <person role="author" xml:id="W0125" freq="6" lacyTitles="some">
-  <persName>Harrington, N.H.</persName>
+ <person role="author" xml:id="W0125" freq="6" lacyTitles="some" ref="http://viaf.org/viaf/35827847">
+  <persName>Harrington, Nicholas Herbert</persName>
   <persName resp="Nicoll">HARRINGTON, N. H.</persName>
   <writerOf>L0428 L0437 L0516 L0527 L0606 L0704</writerOf>
   <ref> not found in wikipedia </ref>
  </person>
- <person role="author" xml:id="W0126" freq="1" lacyTitles="few">
+ <person role="author" xml:id="W0126" freq="1" lacyTitles="few" ref="http://viaf.org/viaf/106897977">
   <persName>Harrington, Richard</persName>
   <persName resp="Nicoll">HARRINGTON, RICHARD </persName>
   <writerOf>L1300</writerOf>
@@ -822,25 +836,25 @@
   <writerOf>L0237 L0318 L0345 L0412 L0431 L0461 L0476 L0490 L0611 L1133 L1208</writerOf>
   <ref target="https://en.wikipedia.org/wiki/Augustus_Glossop_Harris">Wikipedia</ref>
  </person>
- <person role="author" xml:id="W0128" freq="1" lacyTitles="few">
+ <person role="author" xml:id="W0128" freq="1" lacyTitles="few" ref=" http://viaf.org/viaf/114759094">
   <persName>Harrison, Wilmot</persName>
   <persName resp="Nicoll">HARRISON, WILMOT</persName>
   <writerOf>L1198</writerOf>
   <ref> not found </ref>
  </person>
- <person role="author" xml:id="W0129" freq="1" lacyTitles="few">
-  <persName>Hartopp, W.W.</persName>
+ <person role="author" xml:id="W0129" freq="1" lacyTitles="few" ref="http://viaf.org/viaf/101572134">
+  <persName>Hartopp, W. W.</persName>
   <persName resp="Nicoll">HARTOPP, W. W. </persName>
   <writerOf>L0797</writerOf>
   <ref>Possibly https://en.wikipedia.org/wiki/William_Hartopp</ref> </person>
- <person role="author" xml:id="W0130" freq="11" lacyTitles="some">
-  <persName>Hay, Frederic</persName>
+ <person role="author" xml:id="W0130" freq="11" lacyTitles="some" ref="http://viaf.org/viaf/2057034">
+  <persName>Hay, Frederick</persName>
   <persName resp="Nicoll">HAY, FREDERICK </persName>
   <writerOf>L1001 L1038 L1097 L1117 L1135 L1216 L1252 L1258 L1357 L1368 L1457</writerOf>
   <ref> not found in wikipedia </ref>
  </person>
- <person role="author" xml:id="W0131" freq="16" lacyTitles="some" dlb="y">
-  <persName>Hazlewood, Colin H. (1823-1875)</persName>
+ <person role="author" xml:id="W0131" freq="16" lacyTitles="some" dlb="y" ref="http://viaf.org/viaf/2057034">
+  <persName>Hazlewood, Colin Henry (1823-1875)</persName>
   <persName resp="Nicoll">HAZLEWOOD, COLIN HENRY </persName>
   <writerOf>L0161 L0371 L0467 L0479 L0620 L0744 L0822 L0954 L1039 L1047 L1145 L1267 L1299 L1379
    L1435 L1471</writerOf>
@@ -853,81 +867,81 @@
   <writerOf>L0178</writerOf>
   <ref>Not found</ref>
  </person>
- <person role="author" xml:id="W0133" freq="1" lacyTitles="few">
+ <person role="author" xml:id="W0133" freq="1" lacyTitles="few" ref="http://viaf.org/viaf/48138368">
   <persName>Heron, Matilda (1830-1877)</persName>
   <persName resp="Nicoll">HERON, MATILDA </persName>
   <writerOf>L0783</writerOf>
   <ref target="https://en.wikipedia.org/wiki/Matilda_Heron">Wikipedia</ref>
  </person>
- <person role="author" xml:id="W0134" freq="3" lacyTitles="few">
-  <persName>Higgie, Thomas</persName>
+ <person role="author" xml:id="W0134" freq="3" lacyTitles="few" ref="http://viaf.org/viaf/6544667">
+  <persName>Higgie, Thomas (1808-1893)</persName>
   <persName resp="Nicoll">HIGGIE, THOMAS H.</persName>
   <writerOf>L0468 L1318 L1404</writerOf>
   <ref>Two mentions in Wikipedia but no entry</ref>
  </person>
- <person role="author" xml:id="W0135" freq="1" lacyTitles="few">
-  <persName>Hipkins, H.T.</persName>
+ <person role="author" xml:id="W0135" freq="1" lacyTitles="few" ref="http://viaf.org/viaf/61160087">
+  <persName>Hipkins, Henry T.</persName>
   <persName resp="Nicoll">HIPKINS, T.H.</persName>
   <writerOf>L0808</writerOf>
   <ref>Not found</ref>
  </person>
- <person role="author" xml:id="W0136" freq="1" lacyTitles="few">
+ <person role="author" xml:id="W0136" freq="1" lacyTitles="few" ref="http://viaf.org/viaf/32343336">
   <persName>Hoare, Prince (1755-1834)</persName>
   <writerOf>L1321</writerOf>
   <ref target="https://en.wikipedia.org/wiki/Prince_Hoare_(younger)">Wikipedia</ref>
  </person>
- <person role="author" xml:id="W0137" freq="1" lacyTitles="few">
-  <persName>Hodgson, G.S.</persName>
+ <person role="author" xml:id="W0137" freq="1" lacyTitles="few" ref="http://viaf.org/viaf/24216725">
+  <persName>Hodgson, George S.</persName>
   <persName resp="Nicoll">HODGSON, G. S. </persName>
   <writerOf>L1486</writerOf>
   <ref>Not found</ref>
  </person>
- <person role="author" xml:id="W0138" freq="1" lacyTitles="few">
+ <person role="author" xml:id="W0138" freq="1" lacyTitles="few" ref="http://viaf.org/viaf/56644486">
   <persName>Holcroft, Thomas (1745-1809)</persName>
   <persName resp="Nicoll">HOLCROFT, THOMAS.</persName>
   <writerOf>L0617</writerOf>
   <ref target="https://en.wikipedia.org/wiki/Thomas_Holcroft">Wikipedia</ref>
  </person>
- <person role="author" xml:id="W0139" freq="2" lacyTitles="few">
+ <person role="author" xml:id="W0139" freq="2" lacyTitles="few" ref="http://viaf.org/viaf/55771455">
   <persName>Holl, Henry (1811-1884)</persName>
   <persName resp="Nicoll">HOLL, HENRY </persName>
   <writerOf>L0658 L1223</writerOf>
   <ref>not found</ref>
   <note resp="curran" n="">Actor and author; wrote for Jerrold's Shilling Magazine in 1846; wrote a novel The White Favour (1866), The Forest Keeper: A Drama in Two Acts (1872), acted at the Haymarket.</note>
  </person>
- <person role="author" xml:id="W0140" freq="1" lacyTitles="few">
+ <person role="author" xml:id="W0140" freq="1" lacyTitles="few" ref="http://viaf.org/viaf/37275543">
   <persName>Hollingshead, John (1827-1904)</persName>
   <persName resp="Nicoll">HOLLINGSHEAD, JOHN </persName>
   <writerOf>L0518</writerOf>
   <ref target="https://en.wikipedia.org/wiki/John_Hollingshead">Wikipedia</ref>
   <ptr target="#LDA209"/>
  </person>
- <person role="author" xml:id="W0141" freq="1" lacyTitles="few">
+ <person role="author" xml:id="W0141" freq="1" lacyTitles="few" ref="http://viaf.org/viaf/49234619" >
   <persName>Home, Rev. John (1722-1808)</persName>
   <persName resp="Nicoll">HOLMAN, JOSEPH GEORGE.</persName>
   <writerOf>L0453</writerOf>
   <ref target="https://en.wikipedia.org/wiki/John_Home">Wikipedia</ref>
  </person>
- <person role="author" xml:id="W0142" freq="2" lacyTitles="few">
-  <persName>Horne, Lennox F.</persName>
+ <person role="author" xml:id="W0142" freq="2" lacyTitles="few" ref="http://viaf.org/viaf/117935530">
+  <persName>Horne, F. Lennox</persName>
   <persName resp="Nicoll">HORNE, F. LENNOX </persName>
   <writerOf>L0396 L0971</writerOf>
   <ref>Not found</ref>
  </person>
- <person role="author" xml:id="W0143" freq="1" lacyTitles="few">
-  <persName>Horne, R.H. (1802-1884)</persName>
+ <person role="author" xml:id="W0143" freq="1" lacyTitles="few" ref="http://viaf.org/viaf/59892846">
+  <persName>Horne, Richard Hengist (1802-1884)</persName>
   <persName resp="Nicoll">HORNE, RICHARD HENGIST</persName>
   <writerOf>L1325</writerOf>
   <ref target="https://en.wikipedia.org/wiki/Richard_Henry_Horne">Wikipedia</ref>
  </person>
- <person role="author" xml:id="W0144" freq="1" lacyTitles="few">
+ <person role="author" xml:id="W0144" freq="1" lacyTitles="few" ref="http://viaf.org/viaf/106843996">
   <persName>Hoskins, Francis Radcliffe</persName>
   <persName resp="Nicoll">HOSKINS, FRANCIS RADCLIFFE </persName>
   <writerOf>L1241</writerOf>
   <ref>Not found</ref>
  </person>
- <person role="author" xml:id="W0145" freq="1" lacyTitles="few">
-  <persName>Hughes, F.</persName>
+ <person role="author" xml:id="W0145" freq="1" lacyTitles="few" ref="http://viaf.org/viaf/70297756">
+  <persName>Hughes, Frederic</persName>
   <persName resp="Nicoll">HUGHES, FRED </persName>
   <writerOf>L1447</writerOf>
   <ref>Not found</ref>
@@ -944,7 +958,7 @@
   <writerOf>L1472</writerOf>
   <ref>Not found</ref>
  </person>
- <person role="author" xml:id="W0148" freq="3" lacyTitles="few">
+ <person role="author" xml:id="W0148" freq="3" lacyTitles="few"  ref="http://viaf.org/viaf/74230463">
   <persName>Jerrold, Blanchard (1826-1884)</persName>
   <persName resp="Nicoll">JERROLD, M. W. BLANCHARD </persName>
   <writerOf>L0062 L0652 L1395</writerOf>
@@ -962,7 +976,7 @@
    memoir by his son, W. B. Jerrold, in 1863–64, which was never completed. See also Michael Slater.
    Douglas Jerrold: A Life (1803–1857). </note>
  </person>
- <person role="author" xml:id="W0150" freq="7" lacyTitles="some">
+ <person role="author" xml:id="W0150" freq="7" lacyTitles="some" ref="http://viaf.org/viaf/72995587">
   <persName>Johnstone, John Beer (1803-1891)</persName>
   <persName resp="Nicoll">JOHNSTONE, JOHN BEER</persName>
   <writerOf>L0104 L0228 L0244 L0403 L0534 L1261 L1481</writerOf>
@@ -970,31 +984,31 @@
   <ref>Not found</ref>
   <ptr target="#LDA119"/>
  </person>
- <person role="author" xml:id="W0151" freq="1" lacyTitles="few">
-  <persName>Jones, J.S. (1809-1877)</persName>
+ <person role="author" xml:id="W0151" freq="1" lacyTitles="few" ref="http://viaf.org/viaf/62884668" >
+  <persName>Jones, J.S. (1811-1877)</persName>
   <persName resp="Nicoll">JONES, JOSEPH STEVENS </persName>
   <writerOf>L0060</writerOf>
   <ref target="https://en.wikipedia.org/wiki/Joseph_Stevens_Jones">Wikipedia</ref>
  </person>
- <person role="author" xml:id="W0152" freq="1" lacyTitles="few">
+ <person role="author" xml:id="W0152" freq="1" lacyTitles="few" ref="http://viaf.org/viaf/292789691">
   <persName>Jonson, Ben (1572-1637)</persName>
   <persName resp="Nicoll">GARRICK, DAVID.</persName>
   <writerOf>L1351</writerOf>
   <ref target="https://en.wikipedia.org/wiki/Ben_Jonson">Wikipedia</ref>
  </person>
- <person role="author" xml:id="W0153" freq="1" lacyTitles="few">
+ <person role="author" xml:id="W0153" freq="1" lacyTitles="few" ref="http://viaf.org/viaf/66621983">
   <persName>Kean, Charles (1811-1868)</persName>
   <persName resp="Nicoll">BYRON, Lord GEORGE GORDON</persName>
   <writerOf>L0155</writerOf>
   <ref target="https://en.wikipedia.org/wiki/Charles_Kean">Wikipedia</ref>
  </person>
- <person role="author" xml:id="W0154" freq="1" lacyTitles="few" dlb="y">
+ <person role="author" xml:id="W0154" freq="1" lacyTitles="few" dlb="y" ref="http://viaf.org/viaf/74763759">
   <persName>Kemble, Charles (1775-1854)</persName>
   <persName resp="Nicoll">KEMBLE, CHARLES</persName>
   <writerOf>L1346</writerOf>
   <ref target="https://en.wikipedia.org/wiki/Charles_Kemble">Wikipedia</ref>
  </person>
- <person role="author" xml:id="W0155" freq="2" lacyTitles="few" sex="F">
+ <person role="author" xml:id="W0155" freq="2" lacyTitles="few" sex="F" ref="http://viaf.org/viaf/122326367">
   <persName>Kemble, Marie-Thérèse (1774–1838)</persName>
   <persName resp="Nicoll">KEMBLE, MARIE-THERESE [née MARIE THERESE DECAMP]</persName>
   <persName resp="Nicoll">SELBY, CHARLES</persName>
@@ -1002,25 +1016,27 @@
   <ref target="https://en.wikipedia.org/wiki/Maria_Theresa_Kemble">Wikipedia</ref>
  </person>
 
- <person role="author" xml:id="W0157" freq="8" lacyTitles="some" dlb="y">
+ <person role="author" xml:id="W0157" freq="8" lacyTitles="some" dlb="y"  ref="http://viaf.org/viaf/47830009">
   <persName>Kenney, James (1780–1849)</persName>
   <persName resp="Nicoll">SELBY, CHARLES</persName>
   <writerOf>L0037R L0350 L0543 L0777 L0861 L1103 L1141 L1383</writerOf>
   <ref target="https://en.wikipedia.org/wiki/James_Kenney_(dramatist)">Wikipedia</ref>
  </person>
- <person role="author" xml:id="W0158" freq="2" lacyTitles="few">
+ 
+ <person role="author" xml:id="W0158" freq="2" lacyTitles="few" ref="http://viaf.org/viaf/7312147270433335700002">
   <persName>Kerr, John</persName>
   <persName resp="Nicoll">KERR, JOHN</persName>
   <writerOf>L0505 L1015</writerOf>
   <ref>Not found</ref>
  </person>
- <person role="author" xml:id="W0159" freq="1" lacyTitles="few">
+ 
+ <person role="author" xml:id="W0159" freq="1" lacyTitles="few" ref="http://viaf.org/viaf/34078144">
   <persName>Kimpton, F.</persName>
   <persName resp="Nicoll">KIMPTON, F.</persName>
   <writerOf>L1119</writerOf>
   <ref>Not found</ref>
  </person>
- <person role="author" xml:id="W0160" freq="1" lacyTitles="few">
+ <person role="author" xml:id="W0160" freq="1" lacyTitles="few" ref="http://viaf.org/viaf/29118354">
   <persName>Kingdom, John M. (0000 -1876)</persName>
   <persName resp="Nicoll">KINGDOM, J.M. </persName>
   <writerOf>L0168</writerOf>
@@ -1037,78 +1053,79 @@
    1876.
   </note>
  </person>
- <person role="author" xml:id="W0161" freq="4" lacyTitles="few" dlb="y">
+ <person role="author" xml:id="W0161" freq="4" lacyTitles="few" dlb="y" ref="http://viaf.org/viaf/59352010">
   <persName>Knowles, James Sheridan (1784-1862)</persName>
   <persName resp="Nicoll">KNOWLES, JAMES SHERIDAN</persName>
   <writerOf>L1000 L1007 L1107 L1232</writerOf>
   <ref target="https://en.wikipedia.org/wiki/James_Sheridan_Knowles">Wikipedia</ref>
  </person>
 
- <person role="author" xml:id="W0163" freq="1" lacyTitles="few">
+ <person role="author" xml:id="W0163" freq="1" lacyTitles="few" ref="http://viaf.org/viaf/14771963">
   <persName>Kotzebue, Augustus von (1761-1819)</persName>
   <persName resp="Nicoll">PAPENDICK, GEORGE.</persName>
   <writerOf>L0326</writerOf>
   <ref target="https://en.wikipedia.org/wiki/August_von_Kotzebue">Wikipedia</ref>
  </person>
- <person role="author" xml:id="W0164" freq="4" lacyTitles="few">
+ <person role="author" xml:id="W0164" freq="4" lacyTitles="few" ref="http://viaf.org/viaf/27279116">
   <persName>Lacy, Michael Rophino (1795-1867)</persName>
   <persName resp="Nicoll">LACY, MICHAEL ROPHINO</persName>
   <writerOf>L0262 L0459 L0812 L1075</writerOf>
   <ref target="https://en.wikipedia.org/wiki/Michael_Rophino_Lacy">Wikipedia</ref>
  </person>
- <person role="author" xml:id="W0165" freq="9" lacyTitles="some">
+ <person role="author" xml:id="W0165" freq="9" lacyTitles="some" ref="http://viaf.org/viaf/33370406">
   <persName>Lacy, Thomas Hailes (1809-1873)</persName>
   <persName resp="Nicoll">ROBERTSON, THOMAS WILLIAM</persName>
   <writerOf>L0491 L0492 L0761 L0850 L0885 L1080 L1143 L1251 L1404</writerOf>
   <ref target="https://en.wikipedia.org/wiki/Thomas_Hailes_Lacy">Wikipedia</ref>
  </person>
- <person role="author" xml:id="W0166" freq="2" lacyTitles="few">
-  <persName>Langbridge, Frederick</persName>
+ <person role="author" xml:id="W0166" freq="2" lacyTitles="few" ref="http://viaf.org/viaf/6227149198227774940007">
+  <persName>Langbridge, Frederick (1848-1922)</persName>
   <persName resp="Nicoll">LANGBRIDGE, Rev. FREDERICK</persName>
   <writerOf>L1255 L1467</writerOf>
   <ref> not found </ref>
  </person>
- <person role="author" xml:id="W0167" freq="1" lacyTitles="few">
+ <person role="author" xml:id="W0167" freq="1" lacyTitles="few" ref="http://viaf.org/viaf/14328074">
   <persName>Lawrance, Frederic</persName>
   <persName resp="Nicoll"> LAWRANCE, F.</persName>
   <writerOf>L0566</writerOf>
   <ref>Not found</ref>
  </person>
- <person role="author" xml:id="W0168" freq="1" lacyTitles="few">
-  <persName>LeRoss, Christian</persName>
-  <persName resp="Nicoll">LEROSS, CHRISTIAN </persName>
+ <person role="author" xml:id="W0168" freq="1" lacyTitles="few" ref="http://viaf.org/viaf/16143315">
+  <persName>Le Ross, Christian</persName>
+  <persName>Sorrell, William J.</persName>
+  <persName resp="Nicoll">LE ROSS, CHRISTIAN </persName>
   <writerOf>L0366</writerOf>
   <ref>Not found</ref>
  </person>
- <person role="author" xml:id="W0169" freq="3" lacyTitles="few">
+ <person role="author" xml:id="W0169" freq="3" lacyTitles="few" ref="http://viaf.org/viaf/11203414">
   <persName>Lee, Nelson (1806-1872)</persName>
   <persName resp="Nicoll">LEE, NELSON </persName>
   <writerOf>L0033 L0034 L0072</writerOf>
   <ref target="https://en.wikipedia.org/wiki/Richard_Nelson_Lee">Wikipedia</ref>
   <ptr target="#LDA120"/>
  </person>
- <person role="author" xml:id="W0170" freq="4" lacyTitles="few">
+ <person role="author" xml:id="W0170" freq="4" lacyTitles="few" ref="http://viaf.org/viaf/9468087">
   <persName>Lemon, Harry</persName>
   <persName resp="Nicoll">LEMON, HARRY </persName>
   <writerOf>L1177 L1199 L1236 L1278</writerOf>
   <ref> not in wikipedia </ref>
   <note resp="curran" n="3208">Son (b 1845) of Mark Lemon?</note>
  </person>
- <person role="author" xml:id="W0171" freq="8" lacyTitles="some">
+ <person role="author" xml:id="W0171" freq="8" lacyTitles="some"  ref="http://viaf.org/viaf/32794333">
   <persName>Lemon, Mark (1809-1870)</persName>
   <persName resp="Nicoll">LEMON, MARK</persName>
   <writerOf>L0021 L0024 L0189 L0227 L0247 L0347 L0435 L1317</writerOf>
   <ref target="https://en.wikipedia.org/wiki/Mark_Lemon">Wikipedia</ref>
   <ptr target="#LDA121"/>
  </person>
- <person role="author" xml:id="W0172" freq="5" lacyTitles="some">
-  <persName>Leslie, Henry (1830- )</persName>
+ <person role="author" xml:id="W0172" freq="5" lacyTitles="some" ref="http://viaf.org/viaf/65365874">
+  <persName>Leslie, Henry (1830-1881)</persName>
   <persName resp="Nicoll">LESLIE, HENRY T. </persName>
   <writerOf>L1012 L1071 L1095 L1206 L1242</writerOf>
   <ref> not found in wikipedia</ref>
   <ptr target="#LDA122"/>
  </person>
- <person role="author" xml:id="W0174" freq="9" lacyTitles="some">
+ <person role="author" xml:id="W0174" freq="9" lacyTitles="some" ref="http://viaf.org/viaf/5017038">
   <persName>Lewes, G.H. (1817-1878)</persName>
   <persName type="pseudo">“Slingsby Lawrence“</persName>
   <persName type="pseudo">“Frank Churchill“</persName>
@@ -1118,43 +1135,43 @@
   <ref target="https://en.wikipedia.org/wiki/George_Henry_Lewes">Wikipedia</ref>
   <ptr target="#LDA210"/>
  </person>
- <person role="author" xml:id="W0175" freq="1" lacyTitles="few">
+ <person role="author" xml:id="W0175" freq="1" lacyTitles="few" ref="http://viaf.org/viaf/98006654">
   <persName>Lewis, Leopold (1828-1890)</persName>
   <persName resp="Nicoll">LEWIS, LEOPOLD DAVID </persName>
   <writerOf>L1445</writerOf>
   <ref target="https://en.wikipedia.org/wiki/Leopold_David_Lewis">Wikipedia</ref>
  </person>
- <person role="author" xml:id="W0176" freq="3" lacyTitles="few">
+ <person role="author" xml:id="W0176" freq="3" lacyTitles="few" ref="http://viaf.org/viaf/71394067">
   <persName>Lewis, Matthew Gregory (1775-1818)</persName>
   <writerOf>L0441 L1181 L1339</writerOf>
   <ref target="https://en.wikipedia.org/wiki/Matthew_Gregory_Lewis">Wikipedia</ref>
  </person>
- <person role="author" xml:id="W0177" freq="1" lacyTitles="few">
-  <persName>Lille, Hubert</persName>
+ <person role="author" xml:id="W0177" freq="1" lacyTitles="few" ref="http://viaf.org/viaf/117966087">
+  <persName>Lille, Herbert</persName>
   <persName resp="Nicoll">LILLE, HUBERT </persName>
   <writerOf>L0225</writerOf>
   <ref> not found </ref>
  </person>
- <person role="author" xml:id="W0178" freq="1" lacyTitles="few">
+ <person role="author" xml:id="W0178" freq="1" lacyTitles="few" ref=" http://viaf.org/viaf/36964036">
   <persName>Lillo, George (1691-1739)</persName>
   <persName resp="Nicoll">LILLO, GEORGE</persName>
   <writerOf>L1183</writerOf>
   <ref target="https://en.wikipedia.org/wiki/George_Lillo">Wikipedia</ref>
  </person>
- <person role="author" xml:id="W0179" freq="1" lacyTitles="few">
+ <person role="author" xml:id="W0179" freq="1" lacyTitles="few"  ref="http://viaf.org/viaf/25961856">
   <persName>Linley, George (1797-1865)</persName>
   <persName resp="Nicoll">LINLEY, GEORGE </persName>
   <writerOf>L0855</writerOf>
   <ref target="https://en.wikipedia.org/wiki/George_Linley">Wikipedia</ref>
  </person>
- <person role="author" xml:id="W0180" freq="2" lacyTitles="few">
-  <persName>Lovell, George W. (1804-1878)</persName>
+ <person role="author" xml:id="W0180" freq="2" lacyTitles="few" ref="http://viaf.org/viaf/3845962">
+  <persName>Lovell, George William (1804-1878)</persName>
   <persName resp="Nicoll">LOVELL, GEORGE WILLIAM</persName>
   <writerOf>L1004 L1215</writerOf>
   <ref target="https://en.wikipedia.org/wiki/George_William_Lovell">Wikipedia</ref>
   <ptr target="#LDA211"/>
  </person>
- <person role="author" xml:id="W0181" freq="1" lacyTitles="few" sex="F">
+ <person role="author" xml:id="W0181" freq="1" lacyTitles="few" sex="F" ref="http://viaf.org/viaf/38269680">
   <persName>Lovell, Maria (1803–1877)</persName>
   <persName resp="Nicoll">LOVELL, Mrs G. W. </persName>
   <persName resp="Nicoll" type="alt">[Miss MARIA LACY ] </persName>
@@ -1162,14 +1179,14 @@
   <ref target="https://en.wikipedia.org/wiki/Maria_Ann_Lovell"
    >https://en.wikipedia.org/wiki/Maria_Ann_Lovell</ref>
  </person>
- <person role="author" xml:id="W0182" freq="1" lacyTitles="few">
+ <person role="author" xml:id="W0182" freq="1" lacyTitles="few" ref="http://viaf.org/viaf/76581393">
   <persName>Lover, Samuel (1797-1868)</persName>
   <persName resp="Nicoll">LOVER, SAMUEL </persName>
   <writerOf>L0753</writerOf>
   <ref target="https://en.wikipedia.org/wiki/Samuel_Lover">Wikipedia</ref>
  </person>
- <person role="author" xml:id="W0183" freq="1" lacyTitles="few">
-  <persName>Lucas, J. Templeton (1836-1880) </persName>
+ <person role="author" xml:id="W0183" freq="1" lacyTitles="few" ref="http://viaf.org/viaf/107593251">
+  <persName>Lucas, John Templeton (1836-1880) </persName>
   <persName resp="Nicoll">LUCAS, J. TEMPLETON </persName>
   <writerOf>L1425</writerOf>
   <ref> not found </ref>
@@ -1181,8 +1198,8 @@
    entitled Prince Ubbely Bubble’s New story book 1871; and of
    Edwin Landseer 1873, memorial verses. _d._ Whitby, Sep. 1880.</note>
  </person>
- <person role="author" xml:id="W0184" freq="4" lacyTitles="few">
-  <persName>Lucas, W.J.</persName>
+ <person role="author" xml:id="W0184" freq="4" lacyTitles="few" ref="http://viaf.org/viaf/25978473">
+  <persName>Lucas, William James</persName>
   <persName resp="Nicoll">LUCAS, WILLIAM JAMES </persName>
   <writerOf>L0408 L0414 L1180 L1416</writerOf>
   <ref> not found </ref>
@@ -1199,37 +1216,37 @@
   <writerOf>L0092</writerOf>
   <ref>Not known</ref>
  </person>
- <person role="author" xml:id="W0187" freq="1" lacyTitles="few">
+ <person role="author" xml:id="W0187" freq="1" lacyTitles="few" ref="http://viaf.org/viaf/31622086">
   <persName>Lyste, Henry P.</persName>
   <writerOf>L1494</writerOf>
   <ref>Not known</ref>
   
  </person>
- <person role="author" xml:id="W0188" freq="1" lacyTitles="few">
+ <person role="author" xml:id="W0188" freq="1" lacyTitles="few" ref="http://viaf.org/viaf/304391045">
   <persName>Macklin, Charles (1699-1797)</persName>
   <persName resp="Nicoll">MACKLIN, CHARLES.</persName>
   <writerOf>L1054</writerOf>
   <ref target="https://en.wikipedia.org/wiki/Charles_Macklin">Wikipedia</ref>
  </person>
- <person role="author" xml:id="W0189" freq="2" lacyTitles="few">
-  <persName>Macready, William (1793-1873)</persName>
+ <person role="author" xml:id="W0189" freq="2" lacyTitles="few" ref="http://viaf.org/viaf/5743196">
+  <persName>Macready, William Charles (1793-1873)</persName>
   <persName resp="Nicoll">MACREADY, WILLIAM.</persName>
   <writerOf>L0636 L1182</writerOf>
   <ref target="https://en.wikipedia.org/wiki/William_Macready">Wikipedia</ref>
  </person>
- <person role="author" xml:id="W0190" freq="1" lacyTitles="few">
+ <person role="author" xml:id="W0190" freq="1" lacyTitles="few" ref="http://viaf.org/viaf/11933338">
   <persName>Maddox, Frederick More</persName>
   <persName resp="Nicoll">MADDOX, FREDERICK MORE</persName>
   <writerOf>L0133</writerOf>
 <ref>Not found</ref> </person>
- <person role="author" xml:id="W0191" freq="3" lacyTitles="few">
+ <person role="author" xml:id="W0191" freq="3" lacyTitles="few" ref="http://viaf.org/viaf/25964276">
   <persName>Maddox, John Medex (1789–1861)</persName>
   <persName resp="Nicoll">MADDOX, J. M. </persName>
   <writerOf>L0148 L0149 L0167</writerOf>
   <ref target="https://en.wikipedia.org/wiki/John_Medex_Maddox">Wikipedia</ref>
  </person>
- <person role="author" xml:id="W0193" freq="6" lacyTitles="some">
-  <persName>Maltby, C.A. (1842-1901)</persName>
+ <person role="author" xml:id="W0193" freq="6" lacyTitles="some"  ref=" http://viaf.org/viaf/93272135">
+  <persName>Maltby, C. Alfred (1842-1901)</persName>
   <persName resp="Nicoll">MALTBY, ALFRED </persName>
   <writerOf>L1273 L1307 L1373 L1449 L1496 L1498</writerOf>
   <ref target="https://en.wikipedia.org/wiki/Alfred_Maltby">Wikipedia</ref>
@@ -1240,25 +1257,24 @@
   <writerOf>L1322 L1327 L1433</writerOf>
   <ref> not found </ref>
  </person>
- <person role="author" xml:id="W0195" freq="1" lacyTitles="few">
+ <person role="author" xml:id="W0195" freq="1" lacyTitles="few" ref="http://viaf.org/viaf/67834338">
   <persName>Marchant, Frederick</persName>
-  <persName resp="Nicoll">MONCRIEFF, WILLIAM THOMAS</persName>
-  <writerOf>L1212</writerOf>
+    <writerOf>L1212</writerOf>
   <ref> not found</ref>
  </person>
- <person role="author" xml:id="W0196" freq="1" lacyTitles="few">
-  <persName>Markwell, W.R.</persName>
+ <person role="author" xml:id="W0196" freq="1" lacyTitles="few" ref="http://viaf.org/viaf/35811919">
+  <persName>Markwell, William Robert S.</persName>
   <persName resp="Nicoll">MARKWELL, W. R. </persName>
   <writerOf>L0134</writerOf>
   <ref> not found </ref>
  </person>
- <person role="author" xml:id="W0197" freq="1" lacyTitles="few">
+ <person role="author" xml:id="W0197" freq="1" lacyTitles="few" ref="http://viaf.org/viaf/1732917">
   <persName>Marshall, Francis (1840-1889)</persName>
   <persName resp="Nicoll">MARSHALL, FRANK </persName>
   <writerOf>L0905</writerOf>
   <ref target="https://en.wikipedia.org/wiki/Francis_Albert_Marshall">Wikipedia</ref>
  </person>
- <person role="author" xml:id="W0198" freq="7" lacyTitles="some" dlb="y">
+ <person role="author" xml:id="W0198" freq="7" lacyTitles="some" dlb="y" ref="http://viaf.org/viaf/34445221">
   <persName>Marston, Westland (1819-1890)</persName>
   <persName resp="Nicoll">MARSTON, JOHN WESTLAND</persName>
   <writerOf>L0706 L0707 L0721 L0804 L0806 L0826 L0901</writerOf>
@@ -1271,7 +1287,7 @@
   <writerOf>L1014</writerOf>
   <ref>Not known</ref>
  </person>
- <person role="author" xml:id="W0200" freq="2" lacyTitles="few">
+ <person role="author" xml:id="W0200" freq="2" lacyTitles="few" ref="http://viaf.org/viaf/39419260">
   <persName>Massinger, Philip (1583-1640)</persName>
   <writerOf>L0057R L1311</writerOf>
   <ref target="https://en.wikipedia.org/wiki/Philip_Massinger">Wikipedia</ref>
@@ -1286,14 +1302,14 @@
   <ref target="https://en.wikipedia.org/wiki/Charles_Mathews">Wikipedia</ref>
   <ptr target="#LDA126"/>
  </person>
- <person role="author" xml:id="W0203" freq="3" lacyTitles="few">
+ <person role="author" xml:id="W0203" freq="3" lacyTitles="few" ref=" http://viaf.org/viaf/27450007">
   <persName>Mayhew, Augustus (1826-1875)</persName>
   <persName resp="Nicoll">MAYHEW, AUGUSTUS</persName>
   <writerOf>L0654 L0685 L1376</writerOf>
   <ref target="https://en.wikipedia.org/wiki/Augustus_Mayhew">Wikipedia</ref>
  </person>
- <person role="author" xml:id="W0204" freq="1" lacyTitles="few">
-  <persName>Mayhew, Edward (1813 - )</persName>
+ <person role="author" xml:id="W0204" freq="1" lacyTitles="few" ref="http://viaf.org/viaf/40733724">
+  <persName>Mayhew, Edward (1813 - 1868 )</persName>
   <persName resp="Nicoll">MAYHEW, EDWARD</persName>
   <writerOf>L0877</writerOf>
   <ref> not found </ref>
@@ -1310,7 +1326,7 @@
    or London directories after 1855. _G. Hodder’s Memories of my
    time_ (1870) 58–61.</note>
  </person>
- <person role="author" xml:id="W0205" freq="1" lacyTitles="few">
+ <person role="author" xml:id="W0205" freq="1" lacyTitles="few" ref="http://viaf.org/viaf/42716540">
   <persName>Mayhew, Henry (1812-1887)</persName>
   <persName resp="Nicoll">MAYHEW, HENRY</persName>
   <writerOf>L0342</writerOf>
@@ -1323,20 +1339,20 @@
   <writerOf>L1480</writerOf>
   <ref target="https://en.wikipedia.org/wiki/Paul_Meritt">Wikipedia</ref>
  </person>
- <person role="author" xml:id="W0207" freq="2" lacyTitles="few">
+ <person role="author" xml:id="W0207" freq="2" lacyTitles="few"  ref="http://viaf.org/viaf/61925568">
   <persName>Merivale, H.C. (1839-1906)</persName>
   <persName resp="Nicoll">MERIVALE, HERMAN CHARLES</persName>
   <persName type="pseudo" resp="Nicoll"> [“FELIX DALE”]</persName>
   <writerOf>L1443 L1497</writerOf>
   <ref target="https://en.wikipedia.org/wiki/Herman_Charles_Merivale">Wikipedia</ref>
  </person>
- <person role="author" xml:id="W0208" freq="2" lacyTitles="few">
+ <person role="author" xml:id="W0208" freq="2" lacyTitles="few" ref="http://viaf.org/viaf/24176726">
   <persName>Mildenhall, Thomas</persName>
   <persName resp="Nicoll">MILDENHALL, T.</persName>
   <writerOf>L0454 L0710</writerOf>
   <ref>Not known</ref>
  </person>
- <person role="author" xml:id="W0209" freq="2" lacyTitles="few">
+ <person role="author" xml:id="W0209" freq="2" lacyTitles="few" ref=" http://viaf.org/viaf/3197782">
   <persName>Millingen, J.G. (1782-1849)</persName>
   <persName resp="Nicoll">MILLINGEN, JOHN GIDEON</persName>
   <writerOf>L0146 L0777</writerOf>
@@ -1355,25 +1371,25 @@
   <writerOf>L0535 L1051 L1069 L1124 L1432</writerOf>
   <ref target="https://en.wikipedia.org/wiki/Henry_M._Milner">Wikipedia</ref>
  </person>
- <person role="author" xml:id="W0212" freq="2" lacyTitles="few" sex="F">
+ <person role="author" xml:id="W0212" freq="2" lacyTitles="few" sex="F" ref="http://viaf.org/viaf/19709107">
   <persName>Mitford, Mary Russell (1787-1855)</persName>
   <persName resp="Nicoll">MITFORD, MARY RUSSELL</persName>
   <writerOf>L1279 L1336</writerOf>
   <ref target="https://en.wikipedia.org/wiki/Mary_Russell_Mitford">Wikipedia</ref>
  </person>
- <person role="author" xml:id="W0213" freq="9" lacyTitles="some" dlb="y">
+ <person role="author" xml:id="W0213" freq="9" lacyTitles="some" dlb="y" ref="http://viaf.org/viaf/9978961">
   <persName>Moncrieff, William Thomas (1794-1857)</persName>
   <persName resp="Nicoll">MONCRIEFF, WILLIAM THOMAS</persName>
   <writerOf>L0308 L0517 L0880 L1102 L1172 L1212 L1231 L1280 L1309</writerOf>
   <ref target="https://en.wikipedia.org/wiki/William_Thomas_Moncrieff">Wikipedia</ref>
  </person>
- <person role="author" xml:id="W0214" freq="1" lacyTitles="few">
-  <persName>Montepin, X. de (1823-1902)</persName>
+ <person role="author" xml:id="W0214" freq="1" lacyTitles="few" ref=" http://viaf.org/viaf/87953024">
+  <persName>Montepin, Xavier de (1823-1902)</persName>
   <persName resp="Nicoll">[BOUCICAULT, DION ] </persName>
   <writerOf>L0079</writerOf>
   <ref target="https://en.wikipedia.org/wiki/Xavier_de_Mont%C3%A9pin">Wikipedia</ref></person>
- <person role="author" xml:id="W0215" freq="2" lacyTitles="few">
-  <persName>Montgomery, William Henry(0000 - 1886)</persName>
+ <person role="author" xml:id="W0215" freq="2" lacyTitles="few" ref="http://viaf.org/viaf/57974323">
+  <persName>Montgomery, William Henry(1810 - 1886)</persName>
   <persName resp="Nicoll">FITZBALL, EDWARD </persName>
   <writerOf>L0537 L1106</writerOf>
   <ref>Not found</ref>
