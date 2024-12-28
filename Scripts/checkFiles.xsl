@@ -22,10 +22,11 @@ saxon catalogue.xml checkFiles.xsl to
   <xsl:for-each select="//*:div">   
     <xsl:for-each select="*:bibl/*:note[@type='localCopies']/*:ident">
        <xsl:variable name="file"><xsl:value-of select="."/></xsl:variable>
+     <xsl:if test="not(contains($file, 'ages'))">
 <xsl:text>if ! test -f </xsl:text>
 <xsl:value-of select="$file" />
      <xsl:text>; then echo "</xsl:text><xsl:value-of select="$file"/><xsl:text> not found"; fi; 
-</xsl:text></xsl:for-each></xsl:for-each></xsl:result-document>
+</xsl:text></xsl:if></xsl:for-each></xsl:for-each></xsl:result-document>
    <xsl:for-each select="distinct-values(//*:idno/substring-before(substring-after(.,'-'),'.pdf'))">
    <xsl:sort/>
    <xsl:variable name="f" select="concat('-', ., '.pdf')"/>
