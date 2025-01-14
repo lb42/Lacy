@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L1325">
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L1326">
  <teiHeader>
   <fileDesc>
    <titleStmt>
@@ -13,20 +13,35 @@
     <distributor>Privately published on the Lacy Website</distributor>
     <idno>L1325</idno>
    </publicationStmt>
-   <sourceDesc><bibl type="digital">Retagged from Docx produced by Abby from a Vpp Pdf edition</bibl><bibl type="source" status="TEI_1" n="89.6" corresp="nic:N01850"><author>Horne, R.H.</author><title n="thedeathofmarlowe">The Death of Marlowe</title><title type="sub">A Tragedy in one act</title><extent>22 pp (UM copy: 204 - 226)<measure type="pp" quantity="20"/><measure type="txWords" quantity="5393"/><measure type="spWords" quantity="5083"/><measure type="stWords" quantity="310"/></extent><eventName notAfter="1837" type="firstPerf">
+   <sourceDesc><bibl type="digital">Retagged from Docx produced by Abby from a Vpp Pdf edition</bibl><bibl n="89.6" type="S_1_Tragedy_T._TRAGEDY" status="TEI-0" corresp="nic:N01850">
+     <author>Horne, R.H.</author>
+     <title type="main" n="thedeathofmarlowe">The Death of Marlowe</title>
+     <title type="sub">A Tragedy in one act</title>
+     <extent>22 pp (UM copy: 204 - 226)</extent>
+     <eventName notAfter="1837" type="firstPerf">
       <date resp="nicoll" when="1837"/>
-      <name>First edition</name>
+    <!--  <name>First edition</name>
       <date resp="source" when="1837">1837</date>
-     </eventName><listRef>
+   -->  </eventName>
+     <listRef>
       <ref target="http://victorian.nuigalway.ie/modx/assets/docs/pdf/Vol89viMarlowe.pdf">VPP_PDF</ref>
       <ref target="https://archive.org/details/deathmarloweatr00horngoog">Internet Archive</ref>
-     </listRef><note>The dedication to the "fifth edition" explains that "this brief Tragedy, long since out
+     </listRef>
+     <note>The dedication to the "fifth edition" explains that "this brief Tragedy, long since out
       of print, was originally published in London (by Messrs. Saunders and Otley), and was
       inscribed to the author's friend, LEIGH HUNT, happily living at that time; and it is now
       dedicated to his dear Memory — deservedly dear to all who knew him, and to a world of others
-      who know his books". London, Christmas, 1869.</note><listRef type="localCopies"><ref>Vol89/L1325/L1325-hv.pdf</ref><ref>Vol89/L1325/L1325-um.pdf</ref><ref>Vol89/L1325/L1325-vpp.pdf</ref><ref>Vol89/L1325/pages</ref><ref>Vol89/L1325/Vol89viMarlowe.pdf</ref></listRef></bibl></sourceDesc>
+      who know his books". London, Christmas, 1869.</note>
+     <note type="localCopies">
+      <ident>Vol89/L1326/L1326-hv.pdf</ident>
+      <ident>Vol89/L1326/L1326-um.pdf</ident>
+      <ident>Vol89/L1326/L1326-vpp.pdf</ident>
+      <ident>Vol89/L1326/pages</ident>
+      <ident>Vol89/L1326/Vol89viMarlowe.pdf</ident>
+     </note>
+    </bibl></sourceDesc>
   </fileDesc>
-  <profileDesc><textClass><!--S_1_Tragedy_T._TRAGEDY--><catRef target="#sizeS"/><catRef target="#act1"/><catRef target="nic:T."/><keywords><term>TRAGEDY</term></keywords></textClass></profileDesc><revisionDesc><change when="2024-10-03">Header enriched</change>
+  <profileDesc><textClass><!--S_1_Tragedy_T._TRAGEDY--><catRef target="#sizeS"/><catRef target="#act1"/><catRef target="nic:T."/><keywords><term>TRAGEDY</term></keywords></textClass></profileDesc><revisionDesc><change when="2025-01-14">Renumbering</change><change when="2024-10-03">Header enriched</change>
    <change when="2023-11-23">Header confected</change>
   </revisionDesc>
  </teiHeader>
