@@ -249,10 +249,11 @@
       </attDef>
       <attDef ident="resp">
        <desc>source for this attribution</desc>
-       <valList>
-        <valItem ident="LB"/>
-        <valItem ident="VPP"/>
-        <valItem ident="nicoll"/>
+       <valList type="closed">
+        <valItem ident="LB"><desc>I made it up</desc></valItem>
+        <valItem ident="VPP"><desc>VPP catalogue claim</desc></valItem>
+        <valItem ident="nicoll"><desc>Nicoll claim</desc></valItem>
+        <valItem ident="lic"><desc>>BL catalogue record for licence makes this attribution </desc></valItem>
        </valList>
       </attDef>
      </attList>
@@ -281,6 +282,12 @@
      <content>
       <textNode/>
      </content>
+  <attList>   <attDef ident="n">
+      <desc>reference number for this licence record</desc>
+      <datatype>
+       <dataRef name="Name"/>
+      </datatype>
+     </attDef></attList>
     </elementSpec>
     <elementSpec ident="bib">
      <desc>Data concerning one or more publications</desc>
