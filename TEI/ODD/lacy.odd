@@ -35,13 +35,13 @@
 
     <schemaSpec ident="lacy" start="TEI" prefix="tei_" targetLang="en" docLang="en">
      <moduleRef key="tei"/>
-     <moduleRef key="core" include="add del desc p foreign emph gap hi name date ptr ref list item
+     <moduleRef key="core" include="ab add del desc p foreign emph gap hi name date ptr ref list item
       label head measure note pb series author respStmt resp title publisher bibl l lg relatedItem sp speaker
       stage sic  term     corr quote"/>
      <moduleRef key="textstructure" include="TEI text body div trailer byline titlePage docTitle
       titlePart docAuthor docImprint docDate epigraph signed front back"/>
      <moduleRef key="header" include="teiHeader fileDesc titleStmt publicationStmt distributor
-      sourceDesc encodingDesc revisionDesc change idno extent profileDesc langUsage language textClass catRef keywords "/>
+      sourceDesc encodingDesc classDecl taxonomy category catDesc listPrefixDef prefixDef revisionDesc change idno extent profileDesc langUsage language textClass catRef keywords "/>
      <moduleRef key="drama" include="set performance castGroup castList castItem role roleDesc actor
       spGrp sound"/>
      <!-- <moduleRef key="linking" include="seg"/>-->
@@ -296,11 +296,11 @@
         me a mangy monkey—I’ve tried hard enough to look like one! </egXML>
       </exemplum>
      </elementSpec>
-     <elementSpec ident="encodingDesc" mode="change">
+     <!--<elementSpec ident="encodingDesc" mode="change">
       <content>
        <elementRef key="p" minOccurs="1" maxOccurs="unbounded"/>
       </content>
-     </elementSpec>
+     </elementSpec>-->
      <elementSpec ident="foreign" mode="change">
       <exemplum>
        <p>The Latin phrase "Ab urbe condita" is not in the same language (Portuguese) as the rest of
@@ -413,6 +413,9 @@
          </valItem>
          <valItem ident="add">
           <desc>manuscript or other annotation added to the original source</desc>
+         </valItem>
+         <valItem ident="otherPerfs">
+          <desc>note summarizing performance history after the first</desc>
          </valItem>
         </valList>
        </attDef>
