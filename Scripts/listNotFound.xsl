@@ -6,20 +6,31 @@
  <xsl:output method="text"/>
  
  <xsl:template match="/">
-  <xsl:text>Titles listed in the Lacy Catalogue, but not yet found online
+  <xsl:text>Titles listed in the Lacy Catalogue, but not online
   </xsl:text>
-  <xsl:for-each select="//*:bibl[@status='nf']">
-  <xsl:value-of select="@xml:id"/><xsl:text>: </xsl:text>
-   <xsl:value-of select="*:author"/><xsl:text>: </xsl:text>
-   <xsl:value-of select="normalize-space(*:title[1])"/><xsl:text>. </xsl:text>
-   <xsl:value-of select="normalize-space(*:title[@type='sub'])"/><xsl:text>  (</xsl:text>
-   <xsl:value-of select="normalize-space(*:note[@type='firstPerf']/*:name)"/><xsl:text> </xsl:text>
-   <xsl:value-of select="normalize-space(*:note[@type='firstPerf']/*:date)"/><xsl:text>)
+  <xsl:for-each select="//*:div[*:bibl[@status='nf']]"> 
+   <xsl:text>   
+   </xsl:text><xsl:value-of select="concat('Volume ', @n)"/>
+   <xsl:text>
 </xsl:text>
-  </xsl:for-each>
+   <xsl:for-each select="*:bibl[@status='nf']">
+  <xsl:value-of select="@xml:id"/><xsl:text>: </xsl:text>
+    <xsl:for-each select="*:author[position() ne last()]">
+     <xsl:value-of select="normalize-space(.)"/>
+     <xsl:text>; </xsl:text>  
+    </xsl:for-each>
+    <xsl:value-of select="normalize-space(*:author[position() eq last()])"/>
+    <xsl:text> : </xsl:text>  <xsl:value-of select="normalize-space(*:title[1])"/><xsl:text>. </xsl:text>
+   <xsl:value-of select="normalize-space(*:title[@type='sub'])"/><xsl:text>  (</xsl:text>
+   <xsl:value-of select="normalize-space(*:eventName[@type='firstPerf']/*:name)"/><xsl:text> </xsl:text>
+   <xsl:value-of select="normalize-space(*:eventName[@type='firstPerf']/@notAfter)"/><xsl:text>)
+</xsl:text>
+  </xsl:for-each></xsl:for-each>
+  <xsl:text>
+  </xsl:text>
   <xsl:text>Titles listed in the Lacy Catalogue, but not yet found in Nicoll
   </xsl:text>
-  <xsl:for-each select="//*:bibl[not(@corresp)]">
+  <xsl:for-each select="//*:div/*:bibl[not(@corresp)]">
    <xsl:value-of select="@xml:id"/><xsl:text>: </xsl:text>  
    <xsl:for-each select="*:author[position() ne last()]">
     <xsl:value-of select="normalize-space(.)"/>
@@ -29,8 +40,8 @@
  <xsl:text> : </xsl:text>
    <xsl:value-of select="normalize-space(*:title[1])"/><xsl:text>. </xsl:text>
    <xsl:value-of select="normalize-space(*:title[@type='sub'])"/><xsl:text>  (</xsl:text>
-   <xsl:value-of select="normalize-space(*:note[@type='firstPerf']/*:name)"/><xsl:text> </xsl:text>
-   <xsl:value-of select="normalize-space(*:note[@type='firstPerf']/*:date)"/><xsl:text>)
+   <xsl:value-of select="normalize-space(*:eventName[@type='firstPerf']/*:name)"/><xsl:text> </xsl:text>
+   <xsl:value-of select="normalize-space(*:eventName[@type='firstPerf']/@notAfter)"/><xsl:text>)
 </xsl:text>
   </xsl:for-each> 
  </xsl:template>
