@@ -14,7 +14,7 @@
 <!--  <xsl:for-each select="tokenize(//t:div/t:bibl[not(@status='nf') and not(@status='replaced')]/@type">
     <xsl:message><xsl:value-of select="."/></xsl:message>
 -->
-  <xsl:for-each select="distinct-values(//t:div/t:bibl[not(@status='nf') and not(@status='replaced')]/substring-after(@type,'_'))">
+  <xsl:for-each select="distinct-values(//t:div/t:bibl[not(@status='nf') and not(@status='replaced')]/tokenize(@type,'_')[last()])">
    <xsl:sort/>
    <xsl:variable name="val" select="."/>
    <xsl:variable name="count" select="count($context//t:bibl[ends-with(@type, $val)])"/>
