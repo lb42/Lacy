@@ -84,7 +84,7 @@
      <classSpec ident="att.fragmentable" type="atts" mode="delete"/>
      <classSpec type="atts" ident="att.global.change" mode="delete"/>
      <classSpec type="atts" ident="att.global.facs" mode="delete"/>
-     <!--    <classSpec type="atts" ident="att.global.linking" mode="delete"/>
+ <!--    <classSpec type="atts" ident="att.global.linking" mode="delete"/>
 -->
      <classSpec type="atts" ident="att.global.rendition" mode="change">
       <attList>
@@ -396,7 +396,6 @@
      </elementSpec>-->
 
      <elementSpec ident="note" mode="change">
-
       <attList>
        <attDef ident="type" mode="change">
         <datatype>
@@ -414,6 +413,9 @@
          </valItem>
          <valItem ident="otherPerfs">
           <desc>note summarizing performance history after the first</desc>
+         </valItem>
+         <valItem ident="LCP">
+          <desc>note concerns Lord Chamberlain's licencing of this source</desc>
          </valItem>
         </valList>
        </attDef>
@@ -536,6 +538,16 @@
          by John Maddison Morton</ref> (Release Date: May 11, 2014 [EBook #45628])</p>
         </sourceDesc> </egXML>
       </exemplum>
+     </elementSpec>
+     <elementSpec ident="sp" mode="change">
+      <attList>
+       <attDef ident="synch">
+        <desc>points to one or more speeches which are to be performed simultaneously</desc>
+        <datatype maxOccurs="unbounded">
+         <dataRef name="anyURI" />
+        </datatype>
+       </attDef>
+      </attList>
      </elementSpec>
      <elementSpec ident="spGrp" mode="change">
       <attList>
