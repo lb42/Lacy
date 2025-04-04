@@ -116,9 +116,9 @@
                              <xsl:value-of select="$thisOne//t:extent/t:measure[@type = 'pp']/@quantity"/>                        </xsl:variable>
                             <xsl:variable name="date"  
                              select="$thisOne/t:sourceDesc/t:bibl[@type = 'source']/t:eventName/@notAfter"  />
-                                <xsl:message><xsl:value-of select="concat($textID, ' ', $wc, ' ', $pc, ' ', $date)"/>
+ <!--                               <xsl:message><xsl:value-of select="concat($textID, ' ', $wc, ' ', $pc, ' ', $date)"/>
                                 </xsl:message>   
-    
+-->    
                             <td>
                                 <a>
                                     <xsl:attribute name="href">
