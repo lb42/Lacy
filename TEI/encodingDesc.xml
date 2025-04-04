@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<encodingDesc xmlns="http://www.tei-c.org/ns/1.0">
+ <listPrefixDef>
+  <prefixDef ident="vpp" matchPattern="(.+)"
+   replacementPattern="http://victorian.nuigalway.ie/modx/assets/docs/pdf/$1">
+   <ab>URLs using this prefix point to a PDF format file as distributed by the VPP_in Galway</ab>
+  </prefixDef>
+  <prefixDef ident="nic" matchPattern="(.+)" replacementPattern="document('https://raw.githubusercontent.com/lb42/Lacy/main/Nicoll/allEntries.xml')//*:entry[@xml:id eq $1]">
+   <ab>URLs using this prefix point to an entry in Nicoll's handlists with this identifier</ab>
+  </prefixDef>
+  <prefixDef ident="gut" matchPattern="([0-9]+)"
+   replacementPattern="https://www.gutenberg.org/files/$1/$1-h/$1-h.htm">
+   <ab>URLs using this prefix point to an HTML transcription from Project Gutenberg</ab>
+  </prefixDef>
+  <prefixDef ident="ia" matchPattern="(.+)" replacementPattern="https://archive.org/details/$1">
+   <ab>URLs using this prefix point to a set of page images available from the Internet
+    Archive</ab>
+  </prefixDef>
+  <prefixDef ident="gb" matchPattern="(.+)"
+   replacementPattern="https://www.google.com/books/edition/$1">
+   <ab>URLs using this prefix point to a set of page images available from the Internet
+    Archive</ab>
+  </prefixDef>
+  <prefixDef ident="local" matchPattern="(.+)"
+   replacementPattern="file:///home/lou/Data/Lacy/$1">
+   <ab>URLs using this prefix point to a locally stored copy of the resource indicated</ab>
+  </prefixDef>
+ </listPrefixDef>
+ <classDecl>
+  <taxonomy>
+   <desc>Status of this entry</desc>
+   <category xml:id="TEI-0">
+    <catDesc>A preliminary TEI version is available</catDesc>
+   </category>
+   <category xml:id="nf">
+    <catDesc>No digitized version has been found</catDesc>
+   </category>
+   <category xml:id="nopi">
+    <catDesc>No performance information has been found</catDesc>
+   </category>
+   <category xml:id="replaced">
+    <catDesc>Title appearing in Lacy Lists but not found in either Lacy volume</catDesc>
+   </category>
+   <category xml:id="supplied">
+    <catDesc>Title appearing in Lacy Lists but not found in VPP catalogue</catDesc>
+   </category>
+  </taxonomy>
+  <taxonomy>
+   <desc>Number of acts (not used in catalogue: instead given as a digit in second field of @type)</desc>
+   <category xml:id="acts1">
+    <catDesc>A one act piece</catDesc>
+   </category>
+   <category xml:id="acts2">
+    <catDesc>A two act piece</catDesc>
+   </category>
+   <category xml:id="acts3">
+    <catDesc>A three act piece</catDesc>
+   </category>
+   <category xml:id="acts4">
+    <catDesc>A four act piece</catDesc>
+   </category>
+   <category xml:id="acts5">
+    <catDesc>A five act piece</catDesc>
+   </category>
+  </taxonomy>
+  <taxonomy>
+   <desc>Source type</desc>
+   <category xml:id="MUS">
+    <catDesc>Musical attribution (not used)</catDesc>
+   </category>
+   <category xml:id="EN">
+    <catDesc>Adapted from an English original</catDesc>
+   </category>
+   <category xml:id="FR">
+    <catDesc>Translated or adapted from a French original</catDesc>
+   </category>
+   <category xml:id="DE">
+    <catDesc>Translated or adapted from a German original</catDesc>
+   </category>
+   <category xml:id="XX">
+    <catDesc>Translated or adapted from an unknown source</catDesc>
+   </category>
+  </taxonomy>
+  <taxonomy>
+   <desc>Size of piece (given as first field of bibl@type)</desc>
+   <category xml:id="S">
+    <catDesc>small: printed edition has up to 25 pages</catDesc>
+   </category>
+   <category xml:id="M">
+    <catDesc>medium: printed edition has more than 25 and up to 50 pages</catDesc>
+   </category>
+   <category xml:id="L">
+    <catDesc>large: printed edition has more than 50 pages</catDesc>
+   </category>
+  </taxonomy>
+ </classDecl>
+ 
+</encodingDesc>
