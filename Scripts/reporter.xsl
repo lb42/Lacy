@@ -70,24 +70,24 @@
                 <table class="catalogue" id="theTable">
                     <tr class="label">
                         <th onclick="sortTable(0)">Identifier</th>
-                        <th onclick="sortTable(1)">Lacy No.</th>
-                        <th onclick="sortTableNumerically(2)">Pages</th>
-                        <th onclick="sortTableNumerically(3)">Words</th>
-                        <th onclick="sortTableNumerically(4)">Spoken Words</th>
+                        <th onclick="sortTable(1)">Vol.no</th>
+                        <th onclick="sortTableNumerically(2)">Page count</th>
+                        <th onclick="sortTableNumerically(3)">Word count</th>
+                        <th onclick="sortTableNumerically(4)">Spoken word count</th>
                         <th onclick="sortTable(5)">Date</th>
-                        <th onclick="sortTable(6)">FirstPerf</th>
+                        <th onclick="sortTable(6)">First Performance</th>
                         <th onclick="sortTable(7)">Title</th>
                         <th onclick="sortTable(8)">Author</th>
-                        <th onclick="sortTable(9)">Classcodes</th>
+                        <th onclick="sortTable(9)">Class codes</th>
                         <th onclick="sortTable(10)">Genre</th>
                     </tr>
 
                     <!-- Create index file containing details from the header of each text in the driver file -->
 
                     <xsl:for-each select="t:TEI/t:TEI/t:teiHeader/t:fileDesc">
-
+<!--
                         <xsl:sort select="parent::t:TEI/@xml:id"/>
-
+-->
                         <xsl:variable name="textID" select="parent::t:teiHeader/parent::t:TEI/@xml:id">
                  <!--  <xsl:choose>      
                     <xsl:when test="t:publicationStmt/t:idno"> 
