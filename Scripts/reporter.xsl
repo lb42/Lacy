@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
     xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:t="http://www.tei-c.org/ns/1.0"
-    xmlns:e="http://distantreading.net/eltec/ns" exclude-result-prefixes="xs t e " version="2.0">
+     exclude-result-prefixes="xs t  " version="2.0">
     <xsl:output method="html"/>
 
    <!-- <xsl:param name="corpus">XXX</xsl:param>
@@ -73,28 +73,30 @@
                         <th onclick="sortTable(1)">Lacy No.</th>
                         <th onclick="sortTableNumerically(2)">Pages</th>
                         <th onclick="sortTableNumerically(3)">Words</th>
-                        <th onclick="sortTable(4)">Spoken Words</th>
-                        <th onclick="sortTable(5)">FirstPerf</th>
-                        <th onclick="sortTable(6)">Title</th>
-                        <th onclick="sortTable(7)">Author</th>
-                        <th onclick="sortTable(8)">Size</th>
-                        <th onclick="sortTable(9)">Genre</th>
+                        <th onclick="sortTableNumerically(4)">Spoken Words</th>
+                        <th onclick="sortTable(5)">Date</th>
+                        <th onclick="sortTable(6)">FirstPerf</th>
+                        <th onclick="sortTable(7)">Title</th>
+                        <th onclick="sortTable(8)">Author</th>
+                        <th onclick="sortTable(9)">Classcodes</th>
+                        <th onclick="sortTable(10)">Genre</th>
                     </tr>
 
-                    <!-- now loop round the headers again, this time outputting details to the HTML index file -->
+                    <!-- Create index file containing details from the header of each text in the driver file -->
 
                     <xsl:for-each select="t:TEI/t:TEI/t:teiHeader/t:fileDesc">
 
                         <xsl:sort select="parent::t:TEI/@xml:id"/>
 
-                        <xsl:variable name="textID">
-                   <xsl:choose>      
+                        <xsl:variable name="textID" select="parent::t:teiHeader/parent::t:TEI/@xml:id">
+                 <!--  <xsl:choose>      
                     <xsl:when test="t:publicationStmt/t:idno"> 
                      <xsl:value-of select="t:publicationStmt/t:idno"/></xsl:when>
                     <xsl:otherwise>
                      <xsl:value-of select="parent::t:teiHeader/parent::t:TEI/@xml:id"/>
                     </xsl:otherwise>
-              </xsl:choose>          </xsl:variable>
+              </xsl:choose>          --></xsl:variable>
+                        
                      <xsl:variable name="thisOne" select="."/>
                      
                         <!-- this is the dummy HTML file used by CETEICEAN -->
@@ -151,8 +153,8 @@
                          <td><xsl:value-of select="$thisOne//t:bibl[@type='source']/t:extent/t:measure[@type = 'spWords']/@quantity"/>                  
                             </td>
                             <td>
-                                <xsl:value-of select="$date"/> (<xsl:value-of
-                                    select="t:fileDesc/e:timeSlot/@key"/>) </td>
+                                <xsl:value-of select="$date"/>  </td>
+                            <td><xsl:value-of select="$thisOne/t:sourceDesc/t:bibl[@type = 'source']/t:eventName/t:name[1]"  /></td>
 
                             <td>
                                 
@@ -162,7 +164,10 @@
 
                             </td>
                             <td>
-                                <xsl:value-of select="normalize-space($thisOne/t:titleStmt/t:author[1])"/>
+                                <xsl:for-each select="$thisOne/t:titleStmt/t:author">
+                                    <xsl:value-of select="concat(normalize-space(.), ' ')"/>
+                                </xsl:for-each>
+                                
                             </td>
                             <td>
                                 <xsl:value-of select="following-sibling::t:profileDesc/t:textClass/t:catRef/@target"
@@ -302,9 +307,9 @@
         </html>
 
     </xsl:template>
-    <xsl:function name="e:sanitize"> </xsl:function>
+    <xsl:function name="t:sanitize"> </xsl:function>
 
-    <xsl:function name="e:checkSize">
+    <xsl:function name="t:checkSize">
         <xsl:param name="count" as="xs:integer"/>
         <xsl:param name="code"/>
         <xsl:variable name="actualCode">
@@ -317,7 +322,7 @@
         <xsl:if test="$code ne $actualCode"> !!</xsl:if>
     </xsl:function>
 
-    <xsl:function name="e:showBalance" as="item()*">
+    <xsl:function name="t:showBalance" as="item()*">
         <xsl:param name="nodes"/>
         <xsl:param name="totalVal" as="xs:integer"/>
         <xsl:param name="values" as="xs:string"/>
