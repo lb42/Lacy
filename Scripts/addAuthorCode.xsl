@@ -6,7 +6,7 @@
 <!-- enhances catalogue to include a  @ref on author elements, 
      using data from authors.xml -->
   
- <xsl:param name="extraFile">/home/lou/Public/Lacy/authors.xml</xsl:param>
+ <xsl:param name="extraFile">/home/lou/Public/Lacy/authorList.xml</xsl:param>
 
  <xsl:template match="/ | @* | node()">
   <xsl:copy>

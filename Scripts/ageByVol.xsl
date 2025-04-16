@@ -10,6 +10,7 @@
         <xsl:apply-templates select="//body"/>
     </xsl:template>
 
+   <!-- process catalogue to produce table showing age distribution of titles per volume -->
     
  <xsl:template match="body">     
 
@@ -24,9 +25,9 @@
             <xsl:variable name="low3" select="1700"/>
 
          <xsl:text>['</xsl:text> <xsl:value-of select="$vol"/> <xsl:text>', </xsl:text> 
-         <xsl:value-of select="count(bibl[not(@status='replaced')]/note[@type='firstPerf']/date/@notAfter[. >= $low1 and . &lt;= $volYr])"/><xsl:text>,</xsl:text>
-         <xsl:value-of select="count(bibl[not(@status='replaced')]/note[@type='firstPerf']/date/@notAfter[. >= $low2  and . &lt;= $low1])"/><xsl:text>,</xsl:text>
-         <xsl:value-of select="count(bibl[not(@status='replaced')]/note[@type='firstPerf']/date/@notAfter[. >= $low3 and . &lt;= $low2])"/><xsl:text>]</xsl:text>
+             <xsl:value-of select="count(bibl[not(@status='replaced') and eventName[@type='firstPerf']/@notAfter >= $low1 and  eventName[@type='firstPerf']/@notAfter &lt;= $volYr])"/><xsl:text>,</xsl:text>
+             <xsl:value-of select="count(bibl[not(@status='replaced') and eventName[@type='firstPerf']/@notAfter >= $low2  and eventName[@type='firstPerf']/@notAfter  &lt;= $low1])"/><xsl:text>,</xsl:text>
+             <xsl:value-of select="count(bibl[not(@status='replaced') and eventName[@type='firstPerf']/@notAfter >= $low3 and eventName[@type='firstPerf']/@notAfter &lt;= $low2])"/><xsl:text>]</xsl:text>
           <xsl:if test="not(position()=last())"><xsl:text>,</xsl:text></xsl:if>
           <xsl:text>
 </xsl:text>
