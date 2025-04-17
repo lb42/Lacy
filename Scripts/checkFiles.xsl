@@ -27,10 +27,10 @@ saxon catalogue.xml checkFiles.xsl to
 <xsl:value-of select="$file" />
      <xsl:text>; then echo "</xsl:text><xsl:value-of select="$file"/><xsl:text> not found"; fi; 
 </xsl:text></xsl:if></xsl:for-each></xsl:for-each></xsl:result-document>
-   <xsl:for-each select="distinct-values(//*:idno/substring-before(substring-after(.,'-'),'.pdf'))">
+   <xsl:for-each select="distinct-values(//*:ident/substring-before(substring-after(.,'-'),'.pdf'))">
    <xsl:sort/>
    <xsl:variable name="f" select="concat('-', ., '.pdf')"/>
-   <xsl:message><xsl:value-of select="."/><xsl:text> </xsl:text> <xsl:value-of select="count($context//*:idno[ends-with(., $f)])"/></xsl:message>
+   <xsl:message><xsl:value-of select="."/><xsl:text> </xsl:text> <xsl:value-of select="count($context//*:ident[ends-with(., $f)])"/></xsl:message>
   </xsl:for-each>
  </xsl:template>
 </xsl:stylesheet>
