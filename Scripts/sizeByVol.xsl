@@ -19,9 +19,9 @@
           <xsl:variable name="vol"><xsl:value-of select="substring-before(@n,'/')"/></xsl:variable>
             <xsl:variable name="volYr"><xsl:value-of select="substring-after(@n,'/')"/></xsl:variable>          
          <xsl:text>'</xsl:text> <xsl:value-of select="$vol"/> <xsl:text>', </xsl:text> 
-         <xsl:value-of select="count(bibl[not(@status='replaced')][starts-with(@type,'S')])"/><xsl:text>,</xsl:text>
-          <xsl:value-of select="count(bibl[not(@status='replaced')][starts-with(@type,'M')])"/><xsl:text>,</xsl:text>
-          <xsl:value-of select="count(bibl[not(@status='replaced')][starts-with(@type,'L')])"/>
+         <xsl:value-of select="count(bibl[not(starts-with(@status,'replaced'))][starts-with(@type,'S')])"/><xsl:text>,</xsl:text>
+          <xsl:value-of select="count(bibl[not(starts-with(@status,'replaced'))][starts-with(@type,'M')])"/><xsl:text>,</xsl:text>
+          <xsl:value-of select="count(bibl[not(starts-with(@status,'replaced'))][starts-with(@type,'L')])"/>
           <xsl:if test="not(position()=last())"><xsl:text>,</xsl:text></xsl:if>
           <xsl:text>
 </xsl:text>
