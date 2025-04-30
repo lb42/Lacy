@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+ xmlns:f='http://expath.org/ns/file'
  exclude-result-prefixes="xs" xpath-default-namespace="http://www.tei-c.org/ns/1.0"
  version="2.0">
 
@@ -33,14 +34,7 @@
       select="count(//div/bibl//ident[contains(.,'-vpp')])"/> local copies; <xsl:value-of 
         select="count(//div/bibl[note/ident[contains(.,'-vpp')] and contains(@status,'TEI')])"/> in TEI</xsl:message>
 
-  <!--<xsl:message>Digitizations from...</xsl:message>
-  <xsl:for-each select="distinct-values(//note[@type='localCopies']/ident/substring-before(substring-after(.,'-'),'.pdf'))">
-   <xsl:sort/>
-   <xsl:variable name="f" select="concat('-', ., '.pdf')"/>
-   <xsl:message><xsl:value-of select="."/><xsl:text> </xsl:text> 
-    <xsl:value-of select="count($root//*:ident[ends-with(. , $f)])"/></xsl:message>
-  </xsl:for-each>
-    -->
+  
   <xsl:variable name="totVPP" select="count(//div/bibl[idno[@type='vpp']])"/>
   <xsl:variable name="totLarge" select="count(//div/bibl[starts-with(@type,'L')])"/>
   <xsl:variable name="totMed" select="count(//div/bibl[starts-with(@type,'M')])"/>
@@ -69,19 +63,40 @@
   
   </xsl:message>
   
-  <xsl:result-document href="digitizations.txt">
+<xsl:result-document href="digitizations.txt">
   <xsl:for-each select="TEI/text/body/div/bibl">  
-   <xsl:value-of select="@xml:id"/><xsl:text>, </xsl:text>
-   <xsl:for-each select="listRef/ref">
-    <xsl:value-of select="normalize-space(.)"/><xsl:text> </xsl:text>
-    </xsl:for-each>
-  <xsl:text>,</xsl:text>
-    <xsl:for-each select="note[@type='localCopies']/ident">
-      <xsl:value-of select="."/><xsl:text> </xsl:text>
-    </xsl:for-each>
-    <xsl:text>
+   <xsl:variable name="theId" select="@xml:id"/>
+<xsl:variable name="dataDir" select="/home/lou/Data/Lacy"/>
+   <!-- links to lb42.github.io or to ECCO are not counted -->
+<xsl:if 
+ test="count(listRef/ref[not(contains(.,'ECCO'))]) lt count(note[@type='localCopies']/ident[matches(.,'L\d\d\d\dR?\-') and not(contains(.,'vpp')) ])">
+<xsl:message>Refcount lt identcount  <xsl:value-of select="$theId"/></xsl:message>
+
+</xsl:if>
+
+<xsl:for-each select="listRef/ref">
+<xsl:value-of select="$theId"/><xsl:text> </xsl:text>
+ <xsl:value-of select="normalize-space(@target)"/><xsl:text> 
+</xsl:text>
+</xsl:for-each>
+
+<xsl:for-each select="note[@type='localCopies']/ident">
+      <xsl:value-of select="$theId"/><xsl:text> </xsl:text> <xsl:value-of select="."/><xsl:text> 
+</xsl:text>
+
+  <xsl:variable name="file" select="concat('/home/lou/Data/Lacy/',.)"/>
+<xsl:if test="not(f:exists($file))">
+<xsl:message>File <xsl:value-of select="$file"/> not found</xsl:message></xsl:if>
+
+<!--<xsl:if test="not(matches(.,$theId)) and matches(.,'L\d\d\d')">
+<xsl:message><xsl:value-of select="concat($theId,' mismatch ',.)"/></xsl:message>
+<xsl:value-of select="concat('#',$theId,' mv ',.,' ',replace(.,'L\d\d\d\d',$theId))"/><xsl:text>
+</xsl:text>
+</xsl:if>-->
+</xsl:for-each>
+<xsl:text>
 </xsl:text></xsl:for-each>
-  </xsl:result-document>
+</xsl:result-document>
   
  </xsl:template>
 </xsl:stylesheet>
