@@ -76,7 +76,7 @@
 <!-- -->
    <!-- links to lb42.github.io or to ECCO are not counted -->
 <xsl:if 
- test="count(listRef/ref[not(contains(.,'ECCO'))]) gt count(note[@type='localCopies']/ident[matches(.,'L\d\d\d\dR?\-') and not(contains(.,'vpp')) ])">
+ test="count(listRef/ref[not(contains(.,'ECCO')) and not(contains(@target,'gutenberg')) and not(contains(.,'copy'))]) gt count(note[@type='localCopies']/ident[matches(.,'L\d\d\d\dR?\-') and not(contains(.,'vpp')) ])">
 <xsl:message>Refcount gt identcount  <xsl:value-of select="$theId"/></xsl:message>
 
 </xsl:if>
