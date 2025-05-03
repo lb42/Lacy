@@ -6,11 +6,17 @@
  version="2.0">
 
   <!-- reports on current state of catalogue; regenerates file digitizations.txt -->
-  
+ <!-- this must be run from within Oxygen, because it uses the xpath "exists" function which is not available from saxon HE -->
+ 
+ 
+ 
  <xsl:template match="/">
+ <xsl:variable name="dataDir">/home/lou/Data/Lacy/New/</xsl:variable>
   <xsl:variable name="root" select="."/>
+  
   <xsl:variable name="totLAE" select="count($root//div/bibl)"/> 
    <xsl:variable name="totTEI" select="count($root//div/bibl[contains(@status,'TEI')])"/> 
+  <xsl:message>Data directory is <xsl:value-of select="$dataDir"/> </xsl:message>
   <xsl:message>Today there are <xsl:value-of select="count($root//div/bibl)"/> items in the catalogue, of which ....</xsl:message>
   <xsl:message><xsl:value-of select="count(//div/bibl[@status='nf'])"/> items have not (apparently) been digitized.</xsl:message>
   <xsl:message><xsl:value-of select="count(//div/bibl[starts-with(@status,'TEI')])"/> items are marked as available in TEI format: 
@@ -62,15 +68,16 @@
   
   
   </xsl:message>
-  
+ 
 <xsl:result-document href="digitizations.txt">
   <xsl:for-each select="TEI/text/body/div/bibl">  
    <xsl:variable name="theId" select="@xml:id"/>
-<xsl:variable name="dataDir" select="/home/lou/Data/Lacy"/>
+
+<!-- -->
    <!-- links to lb42.github.io or to ECCO are not counted -->
 <xsl:if 
- test="count(listRef/ref[not(contains(.,'ECCO'))]) lt count(note[@type='localCopies']/ident[matches(.,'L\d\d\d\dR?\-') and not(contains(.,'vpp')) ])">
-<xsl:message>Refcount lt identcount  <xsl:value-of select="$theId"/></xsl:message>
+ test="count(listRef/ref[not(contains(.,'ECCO'))]) gt count(note[@type='localCopies']/ident[matches(.,'L\d\d\d\dR?\-') and not(contains(.,'vpp')) ])">
+<xsl:message>Refcount gt identcount  <xsl:value-of select="$theId"/></xsl:message>
 
 </xsl:if>
 
@@ -81,18 +88,15 @@
 </xsl:for-each>
 
 <xsl:for-each select="note[@type='localCopies']/ident">
-      <xsl:value-of select="$theId"/><xsl:text> </xsl:text> <xsl:value-of select="."/><xsl:text> 
+      <xsl:value-of select="$theId"/><xsl:text> </xsl:text>
+      <xsl:value-of select="."/><xsl:text> 
 </xsl:text>
 
-  <xsl:variable name="file" select="concat('/home/lou/Data/Lacy/',.)"/>
-<xsl:if test="not(f:exists($file))">
+  <xsl:variable name="file" select="concat($dataDir,.)"/>
+ <xsl:if test="not(f:exists($file))">
 <xsl:message>File <xsl:value-of select="$file"/> not found</xsl:message></xsl:if>
 
-<!--<xsl:if test="not(matches(.,$theId)) and matches(.,'L\d\d\d')">
-<xsl:message><xsl:value-of select="concat($theId,' mismatch ',.)"/></xsl:message>
-<xsl:value-of select="concat('#',$theId,' mv ',.,' ',replace(.,'L\d\d\d\d',$theId))"/><xsl:text>
-</xsl:text>
-</xsl:if>-->
+
 </xsl:for-each>
 <xsl:text>
 </xsl:text></xsl:for-each>
