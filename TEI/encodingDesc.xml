@@ -3,32 +3,32 @@
  <listPrefixDef>
   <prefixDef ident="vpp" matchPattern="(.+)"
    replacementPattern="http://victorian.nuigalway.ie/modx/assets/docs/pdf/$1">
-   <ab>URLs using this prefix point to a PDF format file as distributed by the VPP_in Galway</ab>
+   <p>URLs using this prefix point to a PDF format file as distributed by the VPP_in Galway</p>
   </prefixDef>
   <prefixDef ident="nic" matchPattern="(.+)" replacementPattern="document('https://raw.githubusercontent.com/lb42/Lacy/main/Nicoll/allEntries.xml')//*:entry[@xml:id eq $1]">
-   <ab>URLs using this prefix point to an entry in Nicoll's handlists with this identifier</ab>
+   <p>URLs using this prefix point to an entry in Nicoll's handlists with this identifier</p>
   </prefixDef>
   <prefixDef ident="gut" matchPattern="([0-9]+)"
    replacementPattern="https://www.gutenberg.org/files/$1/$1-h/$1-h.htm">
-   <ab>URLs using this prefix point to an HTML transcription from Project Gutenberg</ab>
+   <p>URLs using this prefix point to an HTML transcription from Project Gutenberg</p>
   </prefixDef>
   <prefixDef ident="ia" matchPattern="(.+)" replacementPattern="https://archive.org/details/$1">
-   <ab>URLs using this prefix point to a set of page images available from the Internet
-    Archive</ab>
+   <p>URLs using this prefix point to a set of page images available from the Internet
+    Archive</p>
   </prefixDef>
   <prefixDef ident="gb" matchPattern="(.+)"
    replacementPattern="https://www.google.com/books/edition/$1">
-   <ab>URLs using this prefix point to a set of page images available from the Internet
-    Archive</ab>
+   <p>URLs using this prefix point to a set of page images available from the Internet
+    Archive</p>
   </prefixDef>
+  
   <prefixDef ident="local" matchPattern="(.+)"
    replacementPattern="file:///home/lou/Data/Lacy/$1">
-   <ab>URLs using this prefix point to a locally stored copy of the resource indicated</ab>
+   <p>URLs using this prefix point to a locally stored copy of the resource indicated</p>
   </prefixDef>
  </listPrefixDef>
  <classDecl>
-  <taxonomy>
-   <desc>Status of this entry</desc>
+  <taxonomy>   <desc>Status of this entry</desc>
    <category xml:id="TEI-0">
     <catDesc>A preliminary TEI version is available</catDesc>
    </category>

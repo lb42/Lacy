@@ -44,7 +44,7 @@
       spGrp sound"/>
      <!-- <moduleRef key="linking" include="seg"/>-->
      <moduleRef key="transcr" include="subst addSpan delSpan"/>
-     <moduleRef key="namesdates" include="eventName"/>
+     <moduleRef key="namesdates" include="eventName event listEvent"/>
      <moduleRef key="tagdocs" include="listRef ident"/>
 
      <classSpec ident="att.anchoring" type="atts" mode="delete"/>
@@ -142,6 +142,9 @@
          </valItem>
          <valItem ident="M">
           <desc>Male</desc>
+         </valItem>
+         <valItem ident="J">
+          <desc>Junior</desc>
          </valItem>
         </valList>
        </attDef>
