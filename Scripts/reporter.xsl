@@ -4,9 +4,7 @@
      exclude-result-prefixes="xs t  " version="2.0">
     <xsl:output method="html"/>
 
-   <!-- <xsl:param name="corpus">XXX</xsl:param>
-    --><!-- the language code -->
-
+   
     <xsl:param name="webRoot">https://lb42.github.io/Lacy</xsl:param>
     <!-- target website -->
 
@@ -37,7 +35,7 @@
                 <link rel="stylesheet" type="text/css"
                     href="https://distantreading.github.io/css/eltec-styler.css"/>
                 <title>
-                    <xsl:text>Lacys Acting Edition</xsl:text>
+                    <xsl:text>Lacy's Acting Edition</xsl:text>
                 </title>
             </head>
             <body>
@@ -64,7 +62,7 @@
                     <xsl:text> words</xsl:text>
                 </xsl:variable>
 <xsl:message><xsl:value-of select="$status"/></xsl:message>
-                  
+                <p class="heading"><xsl:value-of select="$status"/></p>  
                 <p class="explain">Click on a column heading to sort. Click on a text identifier to
                     read the text (may not work in older browsers).</p>
                 <table class="catalogue" id="theTable">

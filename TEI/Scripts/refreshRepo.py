@@ -15,7 +15,7 @@ folderRoot='https://raw.githubusercontent.com/lb42/Lacy/main/TEI/'
 reporter='/home/lou/Public/Lacy/Scripts/reporter.xsl'
 #exposer='/home/lou/Public/ELTeC/Scripts/expose.xsl'
 reportBalance='/home/lou/Public/ELTeC/Scripts/mosaic.R'
-outputFile='index.html'
+outputFile='report.html'
 string1='''<!DOCTYPE html>
 <html><head>
   <meta charset="UTF-8">
@@ -88,7 +88,7 @@ print("Reporting on repo "+repoName)
 command="saxon -xi -s:" + repoName + "driver.tei -xsl:" + reporter + ' >'+webRepoName+outputFile
 #print(command)
 subprocess.check_output(command,shell=True)
-
+print("Report is in "+webRepoName+outputFile)
 #command="Rscript "+reportBalance+" --args "+webRoot+LANG
 #subprocess.check_output(command,shell=True)
 # could run summarize.py here
