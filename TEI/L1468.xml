@@ -3,7 +3,7 @@
  <teiHeader>
   <fileDesc>
    <titleStmt>
-     <title type="main" n="scapegoat">The Scape-goat</title>
+    <title type="main" n="scapegoat">The Scape-goat</title>
     <title type="sub">A Farce in one act</title>
     <author>Poole, John</author>
     <respStmt>
@@ -15,10 +15,36 @@
     <distributor>Privately published on the Lacy Website</distributor>
    </publicationStmt>
    <sourceDesc>
-    <p>Converted from Gutenberg XHTML EBOOK 52717</p>
+    <bibl type="digital">Converted from Gutenberg XHTML EBOOK 52717</bibl>
+    <bibl type="source" n="98.13"><author>Poole, John</author><title type="main" n="scapegoat">The
+     Scape-goat</title><title type="sub">A Farce in one act</title><extent>22 pp;<measure type="pp"
+     quantity="31"/><measure type="spCount" quantity="354"/><measure type="spvCount" quantity="0"
+     /><measure type="txWords" quantity="7387"/><measure type="spWords" quantity="6854"/><measure
+      type="stWords" quantity="533"/></extent> <eventName notAfter="1825" type="firstPerf"><date
+       resp="nicoll" when="1825-11-25"/><name>Theatre Royal, Covent Garden</name><date resp="source"
+        when="1825-11-25">25 Nov. 1825</date></eventName> <ref>Vol98/L1468/L1468-hvd.pdf</ref><idno type="nic"
+     >N03189</idno></bibl>
+    <listEvent>
+     <event type="firstPerf" notAfter="1825">
+      <desc><date source="#nicoll" when="1825-11-25"/><date when="1825-11-25">25 Nov.
+       1825</date><name>Theatre Royal, Covent Garden</name></desc>
+     </event>
+    </listEvent>
    </sourceDesc>
   </fileDesc>
+  <profileDesc>
+   <!--S_1_Farce_F._FARCE-->
+   <textClass>
+    <catRef target="#sizeS"/>
+    <catRef target="#act1"/>
+    <catRef target="nic:F."/>
+    <keywords>
+     <term>FARCE</term>
+    </keywords>
+   </textClass>
+  </profileDesc>
   <revisionDesc>
+   <change when="2025-05-11">Header enriched</change>
    <change when="2025-05-10">Header confected</change>
   </revisionDesc>
  </teiHeader>
@@ -59,20 +85,19 @@
    <pb n="iii"/>
    <note> ⁂ A French Piece, called “Le Precepteur dans l’embarras,” furnished the ground-work of the
     following Farce.</note>
-   <!-- Le précepteur dans l'embarras: Comédie-vaudeville, en un acte
-Constant Ménissier · Ernest Renaud · Octave Cavalhero
-Jan 1823 · Pollet-->
+
    <pb n="iv"/>
 
    <castList>
     <head>DRAMATIS PERSONÆ.</head>
     <castItem><role ana="#M">Old Eustace</role><actor ana="#M">Mr. Blanchard.</actor></castItem>
     <castItem><role ana="#M">Charles, (his son)</role><actor ana="#M">Mr. Cooper.</actor></castItem>
-    <castItem><role ana="#M">Ignatius Polyglot</role><actor ana="#M">Mr. W. Farren.</actor></castItem>
+    <castItem><role ana="#M">Ignatius Polyglot</role><actor ana="#M">Mr. W.
+     Farren.</actor></castItem>
     <castItem><role ana="#M">Robin</role><actor ana="#M">Mr. Meadows.</actor></castItem>
     <castItem><role ana="#J">Master Frederick</role></castItem>
-    <castItem><role ana="#F">Harriet</role><actor  ana="#F">Miss A. Jones.</actor></castItem>
-    <castItem><role  ana="#F">Molly Maggs</role><actor  ana="#F">Miss Jones.</actor></castItem>
+    <castItem><role ana="#F">Harriet</role><actor ana="#F">Miss A. Jones.</actor></castItem>
+    <castItem><role ana="#F">Molly Maggs</role><actor ana="#F">Miss Jones.</actor></castItem>
    </castList>
   </front>
   <body>
@@ -1827,7 +1852,7 @@ Jan 1823 · Pollet-->
 
    </div>
   </body>
-  <!--*** END OF THE PROJECT GUTENBERG EBOOK 52717 ***-->
-  <!-- created with ppgen.py 3.56 on 2016-08-03 06:43:25 GMT -->
+
+
  </text>
 </TEI>

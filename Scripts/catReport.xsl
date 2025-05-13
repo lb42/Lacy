@@ -21,8 +21,16 @@
    (apparently) been digitized.</xsl:message>
   <xsl:message><xsl:value-of select="count(//div/bibl[contains(@status, 'TEI')])"/> items are marked
    as available in TEI format: <xsl:value-of
-   select="count(document('/home/lou/Public/Lacy/TEI/driver.tei')//TEI)"/> are included by
+   select="count(document('/home/lou/Public/Lacy/TEI/driver.tei')//TEI/TEI)"/> are included by
    driver.tei</xsl:message>
+  <xsl:for-each select="document('/home/lou/Public/Lacy/TEI/driver.tei')//TEI/@xml:id">
+   <xsl:variable name="myId" select="."/>
+   <!--<xsl:message><xsl:value-of select="$myId"/></xsl:message>
+  --> 
+   <xsl:if test="count($root//div/bibl[@xml:id eq $myId and contains(@status,'TEI')] ) eq 0">
+  <xsl:message>Update <xsl:value-of select="."/>!</xsl:message></xsl:if> 
+  </xsl:for-each>
+  
   <!-- <xsl:for-each select="document('/home/lou/Public/Lacy/TEI/driver.tei')//*:include/@href">
    <xsl:variable name="idToCheck"><xsl:value-of select="substring-before(.,'.')"/></xsl:variable>
    <xsl:if test="count($root//*:div/*:bibl[@xml:id = $idToCheck][starts-with(@status,'TEI')]) eq 0">
@@ -42,7 +50,8 @@
 
 
   <xsl:message>VPP: <xsl:value-of select="count(//div/bibl/idno[@type = 'vpp'])"/> idnos;
-   <xsl:value-of select="count(//div/bibl//ident[contains(., '-vpp')])"/> local copies;
+   <xsl:value-of select="count(//div/bibl//ident[contains(., '-vpp')])"/> vpp editions;
+   <xsl:value-of select="count(//div/bibl//ident[contains(., 'pages')])"/> vpp source pages;
    <xsl:value-of
    select="count(//div/bibl[note/ident[contains(., '-vpp')] and contains(@status, 'TEI')])"/> in
    TEI</xsl:message>
@@ -79,8 +88,8 @@
     <!-- -->
     <!-- links to lb42.github.io or to ECCO are not counted -->
     <xsl:if
-     test="count(listRef/ref[not(contains(., 'ECCO')) and not(contains(@target, 'gutenberg')) and not(contains(., 'copy'))]) gt count(note[@type = 'localCopies']/ident[matches(., 'L\d\d\d\dR?\-') and not(contains(., 'vpp'))])">
-     <xsl:message>Refcount gt identcount <xsl:value-of select="$theId"/></xsl:message>
+     test="count(listRef/ref[not(contains(., 'ECCO')) and not(contains(@target, 'gutenberg')) and not(contains(., 'copy'))]) lt count(note[@type = 'localCopies']/ident[matches(., 'L\d\d\d\dR?\-') and not(contains(., 'vpp'))])">
+     <xsl:message>Refcount lt identcount <xsl:value-of select="$theId"/></xsl:message>
 
     </xsl:if>
 
