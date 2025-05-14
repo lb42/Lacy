@@ -9,7 +9,7 @@
 
 
  <xsl:template match="/">
-  <xsl:variable name="dataDir">/home/lou/Data/Lacy/New/</xsl:variable>
+  <xsl:variable name="dataDir">/home/lou/Data/Lacy/</xsl:variable>
   <xsl:variable name="root" select="."/>
 
   <xsl:variable name="totLAE" select="count($root//div/bibl)"/>
@@ -50,13 +50,14 @@
 
 
   <xsl:message>VPP: <xsl:value-of select="count(//div/bibl/idno[@type = 'vpp'])"/> idnos;
-   <xsl:value-of select="count(//div/bibl//ident[contains(., '-vpp')])"/> vpp editions;
-   <xsl:value-of select="count(//div/bibl//ident[contains(., 'pages')])"/> vpp source pages;
+   <xsl:value-of select="count(//ident[contains(., '-vpp')])"/> vpp source pdfs;
+   <xsl:value-of select="count(//ident[contains(., 'pages')])"/> vpp source tifs;
    <xsl:value-of
    select="count(//div/bibl[note/ident[contains(., '-vpp')] and contains(@status, 'TEI')])"/> in
    TEI</xsl:message>
 
-
+<xsl:message>UM: <xsl:value-of select="count(//ident[contains(.,'-um.')])"/> UM sourced </xsl:message>
+  
   <xsl:variable name="totVPP" select="count(//div/bibl[idno[@type = 'vpp']])"/>
   <xsl:variable name="totLarge" select="count(//div/bibl[starts-with(@type, 'L')])"/>
   <xsl:variable name="totMed" select="count(//div/bibl[starts-with(@type, 'M')])"/>
