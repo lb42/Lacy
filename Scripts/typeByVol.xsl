@@ -15,7 +15,7 @@
         <xsl:variable name="types"
             select="distinct-values(//bibl/tokenize(@type, '_')[last()])"/>
 
-        <xsl:text>Vol </xsl:text>
+      <!--  <xsl:text>Vol </xsl:text>-->
         <xsl:value-of select="$types"/>
 <xsl:text>
 </xsl:text>
@@ -23,9 +23,9 @@
             <xsl:sort select="number(substring-before(@n, '/'))"/>
             <xsl:variable name="vol" select="substring-before(@n, '/')"/>
             <xsl:variable name="start" select="."/>
-            <xsl:value-of select="$vol"/>
+        <!--    <xsl:value-of select="$vol"/>
             <xsl:text>,</xsl:text>
-            <xsl:for-each select="$types">
+    -->        <xsl:for-each select="$types">
                 <xsl:variable name="t" select="concat('_',.)"/>
                 <xsl:if test="string-length($t) gt 1">
                     <xsl:value-of
