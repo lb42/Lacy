@@ -28,7 +28,7 @@
     <head>Full formal specifications</head>
     <p>The encoding scheme defined by this document is a TEI-conformant customization, from which
      user documentation, and formal RELAXNG or DTD specifications can be generated automatically. </p>
-    <p> This section contains the full schema specification from which formal schemas may be are
+    <p> This section contains the full schema specification from which formal schemas may be 
      subsequently derived. It must be converted using (for example) teitorelaxng. </p>
 
     <schemaSpec ident="lacy" start="TEI" prefix="tei_" targetLang="en" docLang="en">
@@ -48,8 +48,8 @@
      <moduleRef key="tagdocs" include="listRef ident"/>
 
      <classSpec ident="att.anchoring" type="atts" mode="delete"/>
-     <classSpec ident="att.ascribed" type="atts" mode="delete"/>
-     <classSpec ident="att.breaking" type="atts" mode="delete"/>
+    <!-- <classSpec ident="att.ascribed.directed" type="atts" mode="delete"/>
+  -->   <classSpec ident="att.breaking" type="atts" mode="delete"/>
      <classSpec ident="att.cReferencing" type="atts" mode="delete"/>
      <classSpec ident="att.calendarSystem" type="atts" mode="delete"/>
      <classSpec ident="att.canonical" type="atts" mode="change">
@@ -542,7 +542,7 @@
         </sourceDesc> </egXML>
       </exemplum>
      </elementSpec>
-     <elementSpec ident="sp" mode="change">
+     <!--<elementSpec ident="sp" mode="change">
       <attList>
        <attDef ident="synch">
         <desc>points to one or more speeches which are to be performed simultaneously</desc>
@@ -551,7 +551,7 @@
         </datatype>
        </attDef>
       </attList>
-     </elementSpec>
+     </elementSpec>-->
      <elementSpec ident="spGrp" mode="change">
       <attList>
        <attDef ident="type" mode="delete"/>
