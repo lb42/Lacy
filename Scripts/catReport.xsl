@@ -25,17 +25,12 @@
    driver.tei</xsl:message>
   <xsl:for-each select="document('/home/lou/Public/Lacy/TEI/driver.tei')//TEI/@xml:id">
    <xsl:variable name="myId" select="."/>
-   <!--<xsl:message><xsl:value-of select="$myId"/></xsl:message>
-  --> 
+
    <xsl:if test="count($root//div/bibl[@xml:id eq $myId and contains(@status,'TEI')] ) eq 0">
   <xsl:message>Update <xsl:value-of select="."/>!</xsl:message></xsl:if> 
   </xsl:for-each>
   
-  <!-- <xsl:for-each select="document('/home/lou/Public/Lacy/TEI/driver.tei')//*:include/@href">
-   <xsl:variable name="idToCheck"><xsl:value-of select="substring-before(.,'.')"/></xsl:variable>
-   <xsl:if test="count($root//*:div/*:bibl[@xml:id = $idToCheck][starts-with(@status,'TEI')]) eq 0">
-    <xsl:message><xsl:value-of select="$idToCheck"/> is not marked TEI</xsl:message></xsl:if>
-  </xsl:for-each> -->
+
 
   <xsl:message><xsl:value-of select="count(//div/bibl[contains(@status, 'nopi')])"/> items are
    marked as lacking performance date information.</xsl:message>
@@ -89,7 +84,9 @@
     <!-- -->
     <!-- links to lb42.github.io or to ECCO are not counted -->
     <xsl:if
-     test="count(listRef/ref[not(contains(., 'ECCO')) and not(contains(@target, 'gutenberg')) and not(contains(., 'copy'))]) lt count(note[@type = 'localCopies']/ident[matches(., 'L\d\d\d\dR?\-') and not(contains(., 'vpp'))])">
+     test="count(listRef/ref[not(contains(., 'ECCO')) and not(contains(@target, 'gutenberg'))
+  and not(contains(., 'copy'))]) 
+lt count(note[@type = 'localCopies']/ident[matches(., 'L\d\d\d\dR?\-') and not(contains(., 'vpp'))])">
      <xsl:message>Refcount lt identcount <xsl:value-of select="$theId"/></xsl:message>
 
     </xsl:if>
