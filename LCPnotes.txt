@@ -1,0 +1,11 @@
+0. The file driver.xml includes 2466 LCP records from the BT project, for years 1852-1863 inclusive, auto reformatted in XML, not entirely reliably.
+
+1. Of these, 2407 have an explicitly marked licence, and only 518 an explicitly marked pubNote.
+
+2. 506 entries contain the string 'Lacy', 426 of them within the aforesaid pubNotes
+
+3. The file LacyLCP.xml contains 436 more or less accurately structured descriptions of LCP entries, extracted from the foregoing and hand-edited. It's in the repo.
+
+4. Also in the repo is LCPlist.xml, which contains 424 records from the same sources but only for the years 1861 and 1862; these include an indication of the Nicoll entry number for all but 60 (of which 54 are explicitly missing according to BT project). [Where is script to add NIC ids?]
+
+5. 400 of the 436 entries in (3) above have been added as eventNames to the appropriate entry in catalogue.xml (scripts makeAdds and addAdds; much fiddling) 
