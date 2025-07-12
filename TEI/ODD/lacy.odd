@@ -94,8 +94,8 @@
      </classSpec>
      <!-- <classSpec ident="att.global.responsibility" type="atts" mode="delete"/>
    -->
-     <classSpec ident="att.global.source" type="atts" mode="delete"/>
-     <classSpec ident="att.internetMedia" type="atts" mode="delete"/>
+   <!--  <classSpec ident="att.global.source" type="atts" mode="delete"/>
+   -->  <classSpec ident="att.internetMedia" type="atts" mode="delete"/>
      <classSpec ident="att.naming" type="atts" mode="change">
       <attList>
        <attDef ident="nymRef" mode="delete"/>
@@ -188,6 +188,9 @@
       <valList type="closed">
        <valItem ident="TEI_0"><desc>Preliminary TEI conversion checked</desc></valItem>
        <valItem ident="TEI_1"><desc>Metadata enriched from Lacy Catalogue</desc></valItem>
+      <valItem ident="replaced"><desc>This item is replaced by another in later versions of the LAE</desc></valItem>
+      <valItem ident="nf"><desc>no digital version of this item has been found</desc></valItem>
+      
       </valList>
      </attDef>  
        <attDef ident="corresp" mode="add">
@@ -284,6 +287,7 @@
          <valItem ident="programme"/>
          <valItem ident="scene"/>
          <valItem ident="setting"/>
+        <valItem ident="volume"/>
         </valList>
        </attDef>
       </attList>
@@ -405,21 +409,36 @@
          <dataRef key="teidata.enumerated"/>
         </datatype>
         <valList type="closed">
+        <valItem ident="bib">
+        <desc>any other bibliographic note</desc>
+        </valItem>
          <valItem ident="ed">
-          <desc>annotation or comment supplied by the encoder or editor</desc>
+          <desc>any non-bibliographic annotation or comment on the text supplied by the encoder</desc>
          </valItem>
          <valItem ident="orig">
-          <desc>annotation in the original source</desc>
+          <desc>annotation printed as such in the original source</desc>
          </valItem>
          <valItem ident="add">
-          <desc>manuscript or other annotation added to the original source</desc>
+          <desc>contemporary manuscript annotation in the original source</desc>
          </valItem>
          <valItem ident="otherPerfs">
           <desc>note summarizing performance history after the first</desc>
          </valItem>
          <valItem ident="LCP">
-          <desc>note concerns Lord Chamberlain's licencing of this source</desc>
+          <desc>note concerning Lord Chamberlain's licencing of this source</desc>
          </valItem>
+        <valItem ident="fees">
+        <desc>note concerning performance fees payable as given in the source text</desc>
+        </valItem>
+        <valItem ident="source">
+        <desc>note concerning original source from which source text is derived</desc>
+        </valItem>
+        <valItem ident="media">
+        <desc>note contains links to media associated with this item</desc>
+        </valItem>       
+        <valItem ident="localCopies">
+        <desc>note concerns local copies (deprecated)</desc>
+        </valItem>
         </valList>
        </attDef>
       <!-- <attDef ident="anchored" mode="delete"/>

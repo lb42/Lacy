@@ -9,23 +9,25 @@
 
   <xsl:template match="/">
   <xsl:variable name="context" select="."/>
-   <listPerson xmlns="http://www.tei-c.org/ns/1.0">
+  <particDesc  xmlns="http://www.tei-c.org/ns/1.0">
+   <listPerson>
 
    <xsl:for-each select="distinct-values(//t:castList//t:role)">
 <person xml:id="{replace(lower-case(.),'[\-\[,.\s]','')}">
 <persName type="role"><xsl:value-of select="."/></persName>
-<xsl:comment>Add speaker counts here</xsl:comment>
+<xsl:text>
+</xsl:text>
 </person>
 <xsl:text>
 </xsl:text></xsl:for-each>
 
 <xsl:for-each select="distinct-values($context//t:speaker)">
 <xsl:variable name="pfx" select="."/>
-
 <persName type="spkr" n="{count($context//*:speaker[starts-with(.,$pfx)])}">
 <xsl:value-of select="normalize-space(.)"/>
 </persName>
      <xsl:text>
 </xsl:text></xsl:for-each>
     
-   </listPerson></xsl:template></xsl:stylesheet>
+   </listPerson></particDesc>
+</xsl:template></xsl:stylesheet>
