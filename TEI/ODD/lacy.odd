@@ -204,11 +204,11 @@
         <desc>specifies the scope of the bibliographic description; in Lacy only two values are
          distinguished</desc>
         <valList type="closed">
-         <valItem ident="digital">
+         <valItem ident="digitalSource">
           <desc>the description contains prose summarising the process by which the digitized TEI
            document was created</desc>
          </valItem>
-         <valItem ident="source">
+         <valItem ident="printSource">
           <desc>the description documents the printed source in LAE, its performance history, and
            available digitizations</desc>
          </valItem>
@@ -288,6 +288,7 @@
          <valItem ident="scene"/>
          <valItem ident="setting"/>
         <valItem ident="volume"/>
+        <valItem ident="work"/>
         </valList>
        </attDef>
       </attList>

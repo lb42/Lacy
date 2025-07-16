@@ -221,7 +221,7 @@ from HT</ref>
 Bayle</author><title type="main" n="apracticalman">A Practical Man</title><title
 type="sub">An Original Farce in one Act</title><extent>23 pp (UM copy: 32 -
 55)</extent><eventName notAfter="1849" type="firstPerf"><name>Royal Lyceum
-Theatre</name><date when="1849-10-20">20/10/1849</date></eventName>
+Theatre</name><date when="1849-10-20" source="text">20/10/1849</date></eventName>
 <listRef>
 <ref target="https://lb42.github.io/Lacy/Source/VPP/L0002-vpp.pdf">LoB from
 VPP</ref>
@@ -946,7 +946,7 @@ target="https://babel.hathitrust.org/cgi/pt?id=mdp.39015067453202&amp;seq=415 "
 >UM from HT</ref>
 </listRef><note type="localCopies"><ident>Vol03/L0043/L0043-um.pdf</ident>
 </note><idno type="nic">N03364</idno></bibl>
-<bibl n="3.14" xml:id="L0044" ana="S_1_X_Ext._SPECTACLE"><author>Brooks,
+<bibl n="3.14" xml:id="L0044" ana="S_1_X_Ext._SPECTACLE" status="TEI_0"><author>Brooks,
 Shirley</author><title type="main" n="theexposition">The Exposition: A
 Scandinavian Sketch</title><title type="sub">Containing as Much Irrelevant
 Matter as Possible, in one act</title><extent>21 pp (UM copy: 438 -
@@ -1336,8 +1336,8 @@ target="https://babel.hathitrust.org/cgi/pt?id=mdp.39015067453053&amp;seq=150 "
 Shirley</author><title type="main" n="theguardianangel">The Guardian
 Angel</title><title type="sub">A Farce in one act</title><extent>18 pp (UM copy:
 190 - 208)</extent><eventName notAfter="1849" type="firstPerf"><date
-when="1849-10-25" source="nicoll"/><name>Theatre Royal Haymarket</name><date
-when="1849-10" source="#mullin">Oct 1849</date></eventName>
+when="1849-10-25" source="nicoll"/><name>Theatre Royal Haymarket</name><!--<date
+when="1849-10" source="#mullin">Oct 1849</date>--></eventName>
 <listRef>
 <ref
 target="https://babel.hathitrust.org/cgi/pt?id=mdp.39015067453053&amp;seq=190 "
@@ -1916,9 +1916,10 @@ Frederick</author><title type="main" n="thesonofthewilderness">The Son of the
 Wilderness</title><title type="sub">A Play in five acts</title><title
 type="source" n="#EN">Translated into Verse by William Henry
 Charlton</title><extent>58 pp (UM copy: 248 - 306)</extent><eventName
-notAfter="1847" type="firstPerf"><date source="nicoll"
-/><name>Unknown</name><date when="1847-01-14" source="text">[preface dated 14
-Jan. 1847]</date></eventName>
+notAfter="1847" type="firstPerf"><name>Unknown</name><date source="text">n.d.</date>
+</eventName>
+<note type="bib" source="LB">According to the preface, which is dated 14
+Jan. 1847, the German original was first staged in 1842.</note>
 <listRef>
 <ref
 target="https://babel.hathitrust.org/cgi/pt?id=mdp.39015067453210&amp;seq=248 "
@@ -1932,8 +1933,8 @@ Halm</author><title>Der Sohn der Wildnis (1842)</title></bibl>
 H.</author>;<author>“A Gentleman“ [John Pierpont]</author><title type="main"
 n="thedrunkard">The Drunkard</title><title type="sub">A Moral Domestic Drama of
 American Life in four acts</title><extent>37 pp (UM copy: 308 -
-345)</extent><eventName notAfter="1844" type="firstPerf"><name>Boston
-Museum</name><date source="text">[pub. 1844]</date></eventName>
+345)</extent><eventName type="firstPerf"><name>Boston
+Museum</name><date source="text">n.d.</date></eventName>
 <listRef>
 <ref target="https://lb42.github.io/Lacy/Source/VPP/L0102-vpp.pdf">LoB from
 VPP</ref>
@@ -2126,7 +2127,7 @@ target="https://babel.hathitrust.org/cgi/pt?id=mdp.39015067453061&amp;seq=178 "
 >UM from HT</ref>
 </listRef><note type="localCopies"><ident>Vol08/L0112/L0112-um.pdf</ident>
 </note><idno type="nic">N16001</idno></bibl>
-<bibl n="8.8" xml:id="L0113" ana="S_1_Farce_F._FARCE"><author>Coyne, Joseph
+<bibl n="8.8" xml:id="L0113" ana="S_1_Farce_F._FARCE"  status="TEI_0"><author>Coyne, Joseph
 Stirling</author><title type="main" n="boxandcoxmarriedandse...">Box and Cox
 Married and Settled!</title><title type="sub">An Original Farce in one
 act</title><extent>13 pp (UM copy: 200 - 213)</extent><eventName notAfter="1852"
@@ -6569,7 +6570,7 @@ resp="mullin">[Amherst, J.H. ]</author><title type="main"
 n="fifteenyearsoflabourl...">Fifteen Years of Labour Lost; or, The Youth Who
 Never Saw a Woman</title><title type="sub">A Farce in one act</title><title
 type="source" n="#FR">From the French</title><extent>20 pp (UM copy: 100 -
-120)</extent><eventName type="firstPerf"><date source="nicoll"/><name>Royal
+120)</extent><eventName type="firstPerf"><name>Royal
 Coburg Theatre</name><date source="text">n.d.</date></eventName>
 <listRef>
 <ref target="https://archive.org/details/fifteenyearsofla0000amhe">UW from
@@ -6688,8 +6689,8 @@ target="https://babel.hathitrust.org/cgi/pt?id=mdp.39015005887933&amp;seq=354 "
 ><author>Burnand, Francis C.</author><title type="main" n="inforaholyday">In for
 a Holyday</title><title type="sub">An Original Farce in one
 act</title><extent>17 pp (UM copy: 378 - 395)</extent><eventName
-type="firstPerf" notAfter="1855"><date source="burnand"
->1855</date><name>[Cambridge ADC]</name><date source="text"
+type="firstPerf" notAfter="1855"><!--<date source="burnand"
+>1855</date>--><name>[Cambridge ADC]</name><date source="text"
 >n.d.</date></eventName>
 <listRef>
 <ref
@@ -6701,7 +6702,7 @@ target="https://babel.hathitrust.org/cgi/pt?id=mdp.39015005887933&amp;seq=378 "
 Francis C.</author><title type="main" n="romanceunderdifficult...">Romance under
 Difficulties</title><title type="sub">An Original Farce in one
 act</title><extent>15 pp (UM copy: 396 - 411)</extent><eventName notAfter="1856"
-type="firstPerf"><date when="1856" source="nicoll"/><name>Cambridge</name><date
+type="firstPerf"><date when="1856" source="nicoll"/><name>Cambridge [ADC]</name><date
 when="1856" source="text">1856</date></eventName>
 <listRef>
 <ref
@@ -7685,7 +7686,7 @@ target="https://babel.hathitrust.org/cgi/pt?id=mdp.39015067453152&amp;seq=485 "
 Charles</author><title type="main" n="robertmacaire">Robert Macaire; or, Les
 Auberge des Adrets</title><title type="sub">A Melo Drama in two
 acts</title><extent>32 pp (UM copy: 513 - 545)</extent><eventName
-notAfter="1834" type="firstPerf"><date source="nicoll"/><name>Victoria
+notAfter="1834" type="firstPerf"><name>Victoria
 Theatre</name><date when="1834-12-03" source="text">3 Dec.
 1834</date></eventName>
 <listRef>
@@ -10880,7 +10881,7 @@ target="https://babel.hathitrust.org/cgi/pt?id=mdp.39015067453269&amp;seq=166 "
 >UM from HT</ref>
 </listRef><note type="localCopies"><ident>Vol44/L0651/L0651-um.pdf</ident>
 </note><idno type="nic">N01751</idno></bibl>
-<bibl n="44.7" xml:id="L0652" ana="M_2_Drama_D._DRAMA"><author>Jerrold,
+<bibl n="44.7" xml:id="L0652" ana="M_2_Drama_D._DRAMA"  status="TEI_0"><author>Jerrold,
 Blanchard</author><title type="main" n="beaubrummel">Beau Brummell, The King of
 Calais</title><title type="sub">A Drama in two acts</title><extent>35 pp (UM
 copy: 216 - 251)</extent><eventName notAfter="1859" type="firstPerf"><date
@@ -11618,7 +11619,7 @@ target="https://babel.hathitrust.org/cgi/pt?id=mdp.39015067453848&amp;seq=158 "
 William E.</author><title type="main" n="doubledealingortherif...">Double
 Dealing; or, The Rifle Volunteer</title><title type="sub">A Duo-logue in one
 act</title><extent>19 pp (UM copy: 182 - 201)</extent><eventName
-type="firstPerf"><date source="nicoll"/><name>Unknown</name><date source="text"
+type="firstPerf"><name>Unknown</name><date source="text"
 >n.d.</date></eventName>
 <listRef>
 <ref target="https://archive.org/details/doubledealingorr0000sute">UW from
@@ -14158,7 +14159,7 @@ The Hunchback of Paris</title><title type="sub">A Drama in three acts, and a
 Prologue</title><title type="source" n="#FR">Dramatized from Paul Feval's “Le
 Petite Parisien” by Anicet Bourgois and Feval as “Le Bossu”. Adapted for the
 English Stage</title><extent>42 pp (UM copy: 348 - 390)</extent><eventName
-notAfter="1862" type="firstPerf"><date source="nicoll"/><name>Porte St. Martin
+notAfter="1862" type="firstPerf"><name>Porte St. Martin
 Theatre, Paris</name><date when="1862-09-08" source="text">8 Sept.
 1862</date></eventName><eventName type="LCP" when="1862-12-31" n="Lyceum"
 >Licenced for performance (BL ms LCP_53018.AA)</eventName><eventName type="LCP"
@@ -16079,7 +16080,7 @@ target="https://babel.hathitrust.org/cgi/pt?id=mdp.39015067453632&amp;seq=92 "
 ><author>Suter, William E.</author><title type="main" n="wantedayounglady"
 >“Wanted, A Young Lady”</title><title type="sub">A Farce in one
 act</title><extent>15 pp (UM copy: 107 - 122)</extent><eventName
-type="firstPerf"><date source="nicoll"/><name>Unknown</name><date source="text"
+type="firstPerf"><name>Unknown</name><date source="text"
 >n.d.</date></eventName>
 <listRef>
 <ref target="http://archive.org/details/SuterWantedYoungLady">Internet
@@ -16246,7 +16247,7 @@ target="https://babel.hathitrust.org/cgi/pt?id=mdp.39015067453632&amp;seq=470 "
 ><author>Suter, William E.</author><title type="main" n="twogentlemeninafix">Two
 Gentlemen in a Fix; or, How to Lose the Train</title><title type="sub">An
 Interlude</title><extent>11 pp (UM copy: 510 - 521)</extent><eventName
-type="firstPerf"><date source="nicoll"/><name>Unknown</name><date source="text"
+type="firstPerf"><name>Unknown</name><date source="text"
 >n.d.</date></eventName>
 <listRef>
 <ref target="https://hdl.handle.net/2027/uiug.30112073440395">UIU from HT</ref>
@@ -16602,7 +16603,7 @@ target="https://babel.hathitrust.org/cgi/pt?id=mdp.39015067453475&amp;seq=378 "
 John</author><title type="main" n="ripvanwinkle">Rip Van Winkle; A Legend of
 Sleepy Hollow</title><title type="sub">A Romantic Drama in two
 acts</title><extent>26 pp (UM copy: 402 - 428)</extent><eventName
-notAfter="1825" type="firstPerf"><date source="nicoll"/><name>West London
+notAfter="1825" type="firstPerf"><name>West London
 Theatre</name><date when="1825" source="text">1825</date></eventName>
 <listRef>
 <ref target="https://hdl.handle.net/2027/uc1.31175035141897">UC from HT</ref>
@@ -17541,7 +17542,7 @@ Garden</name><date notAfter="1828">30 Nov. 1763; 25 June 1817; 23 April
 Tiger</title><title type="sub">A Farce in one act</title><title type="source"
 n="#FR">Adapted from the French. For private representation.</title><extent>19
 pp (UM copy: 538 - 557)</extent><eventName type="firstPerf" notAfter="1853"
-><name>Unknown: private</name><date notAfter="1856"/></eventName>
+><name>Unknown: private</name><date source="text">n.d.</date></eventName>
 <listRef>
 <ref
 target="https://babel.hathitrust.org/cgi/pt?id=mdp.39015067453467&amp;seq=541"
@@ -17614,7 +17615,7 @@ target="https://babel.hathitrust.org/cgi/pt?id=mdp.39015067453616&amp;seq=84 "
 >More Free than Welcome</title><title type="sub">A Farce for 3 Male
 Characters</title><title type="source" n="#FR">Adapted from the
 French</title><extent>17 pp (UM copy: 116 - 133)</extent><eventName
-type="firstPerf"><date source="nicoll"/><name>Unknown</name><date source="text"
+type="firstPerf"><name>Unknown</name><date source="text"
 >n.d.</date></eventName>
 <listRef>
 <ref
@@ -17750,7 +17751,7 @@ Nov. 1820</date></note><note type="localCopies"
 ><author>Suter, William E.</author><title type="main"
 n="incompatibilityoftemp...">Incompatibility of Temper</title><title type="sub"
 >A Farce in one Act</title><extent>12 pp (UM copy: 358 - 370)</extent><eventName
-type="firstPerf"><date source="nicoll"/><name>Unknown</name><date source="text"
+type="firstPerf"><name>Unknown</name><date source="text"
 >n.d.</date></eventName>
 <listRef>
 <ref
@@ -18214,8 +18215,8 @@ n="76/1868">
 J.</author><title type="main" n="thesleepinghare">The Sleeping
 Hare</title><title type="sub">A Comedy in two acts</title><extent>35 pp (UM
 copy: 10 - 45)</extent><eventName notAfter="1868" type="firstPerf"
-resp="#nicoll"><date when="1868-04-06" source="nicoll"/><name>Cavendish </name>
-[amat] <date when="1868-04-06" source="text">6 Apr 1868</date></eventName>
+resp="#nicoll"><date when="1868-04-06" source="nicoll"/><name>Cavendish [amat]</name>
+ <date when="1868-04-06" source="text">6 Apr 1868</date></eventName>
 <listRef>
 <ref
 target="https://babel.hathitrust.org/cgi/pt?id=mdp.39015067453608&amp;seq=10 "
@@ -18293,7 +18294,7 @@ type="source" n="#FR">From the French of Messrs D'Ennery and Dugué. Translated
 and Adapted by W.R. Waldron, esq.</title><extent>45 pp (UM copy: 230 -
 275)</extent><eventName notAfter="1860" type="firstPerf" resp="#nicoll"><date
 when="1860-10-16" source="nicoll"/><name>Stand.</name><date when="1860-10-16"
-source="text">16 Oct 1860</date>.</eventName>
+source="text">16 Oct 1860</date></eventName>
 <listRef>
 <ref
 target="https://babel.hathitrust.org/cgi/pt?id=mdp.39015067453608&amp;seq=230 "
@@ -19070,7 +19071,7 @@ target="https://babel.hathitrust.org/cgi/pt?id=mdp.39015067453749&amp;seq=375 "
 >10 May 1831</date></note><note type="localCopies"
 ><ident>Vol79/L1182/L1182-um.pdf</ident>
 </note><idno type="nic">N02246</idno></bibl>
-<bibl n="79.12" xml:id="L1183" ana="S_1_Farce_F._FARCE"><author>Macready,
+<bibl n="79.12" xml:id="L1183" ana="S_1_Farce_F._FARCE"  status="TEI_0"><author>Macready,
 William</author><title type="main" n="theirishmaninlondon">The Irishman in
 London</title><title type="sub">A Farce in one act</title><title type="source"
 n="#EN">Adapted from the “Intriguing Footman”</title><extent>25 pp (UM copy: 420
@@ -19136,7 +19137,7 @@ target="https://babel.hathitrust.org/cgi/pt?id=mdp.39015067453590&amp;seq=10 "
 ><author>Suter, William E.</author><title type="main" n="averypleasantevening">A
 Very Pleasant Evening</title><title type="sub">A Farce in one
 Act</title><extent>13 pp (UM copy: 56 - 69)</extent><eventName type="firstPerf"
-><date source="nicoll"/><name>Unknown</name><date source="text"
+><name>Unknown</name><date source="text"
 >n.d.</date></eventName>
 <listRef>
 <ref
@@ -19692,7 +19693,7 @@ target="https://babel.hathitrust.org/cgi/pt?id=mdp.39015019190373&amp;seq=313 "
 ><author>Gott, Henry</author><title type="main" n="thewizardofthemoor">The
 Wizard of the Moor</title><title type="sub">A Melo-Drama in three
 acts</title><extent>40 pp (UM copy: 359 - 399)</extent><eventName
-type="firstPerf"><date source="nicoll"/><name>Royal West London
+type="firstPerf"><name>Royal West London
 Theatre</name><date source="text">n.d.</date></eventName>
 <listRef>
 <ref
@@ -20162,7 +20163,7 @@ target="https://babel.hathitrust.org/cgi/pt?id=mdp.39015067453582&amp;seq=344 "
 >Fair Rosamond's Bower; or, The Monarch, The Maiden, The Maze, and The
 Mixture</title><title type="sub">An Anti-Historical Burletta in one
 act</title><extent>17 pp (UM copy: 356 - 373)</extent><eventName
-type="firstPerf"><date source="nicoll"/><name>Unknown</name><date source="text"
+type="firstPerf"><name>Unknown</name><date source="text"
 >n.d.</date></eventName>
 <listRef>
 <ref
@@ -20822,7 +20823,7 @@ target="https://babel.hathitrust.org/cgi/pt?id=mdp.39015067453574&amp;seq=321 "
 >UM from HT</ref>
 </listRef><note type="localCopies"><ident>Vol87/L1299/L1299-um.pdf</ident>
 </note><idno type="nic">N00578</idno></bibl>
-<bibl n="87.10" xml:id="L1300" ana="M_3_X_D._DRAMA"><author>Hazlewood, Colin
+<bibl n="87.10" xml:id="L1300" ana="M_3_X_D._DRAMA"  status="TEI_0"><author>Hazlewood, Colin
 H.</author><title type="main" n="flowermakersandheartb...">Lizzie Lyle; or, The
 Flower Makers of Finsbury</title><title type="sub">A Tale of Trials and
 Temptations in three acts</title><extent>49 pp (UM copy: 346 -
@@ -21449,7 +21450,7 @@ target="https://babel.hathitrust.org/cgi/pt?id=mdp.39015005887966&amp;seq=186 "
 Gregory</author><title type="main" n="oneoclockortheknighta...">One O'Clock! or,
 The Knight and the Wood Demon</title><title type="sub">A Grand Operatic Romance
 in three acts</title><extent>51 pp (UM copy: 222 - 273)</extent><eventName
-notAfter="1824" type="firstPerf"><date source="nicoll"/><name>English
+notAfter="1824" type="firstPerf"><name>English
 Opera</name><date when="1824" source="text">1824</date></eventName>
 <listRef>
 <ref
@@ -21499,7 +21500,7 @@ target="https://babel.hathitrust.org/cgi/pt?id=mdp.39015005887966&amp;seq=310 "
 </listRef><note type="localCopies"><ident>Vol90/L1343/L1343-um.pdf</ident>
 <ident>Vol90/L1343/L1343-vpp.pdf</ident>
 <ident>Vol90/L1343/pages</ident>
-</note><idno type="nic">N17511</idno></bibl>
+</note><idno type="nic">N17511</idno><idno type='vpp'>Vol90viiiCurtain</idno><!-- file not found --></bibl>
 <bibl n="90.9" xml:id="L1344" ana="M_1_ComicDrama_O.F._OPERA"><author>Dimond,
 William</author><title type="main" n="theladyandthedevil">The Lady and the
 Devil</title><title type="sub">A Comic Drama in one act</title><extent>33 pp (UM
@@ -22593,7 +22594,7 @@ type="firstPerf"><date when="1872-07-01" source="nicoll"/><name>Royal
 Adelphi</name><date when="1872-07-01" source="text">1 July
 1872</date></eventName><note type="localCopies"/><idno type="nic"
 >N10749</idno></bibl>
-<bibl n="96.9" xml:id="L1434" ana="L_3_DramaDrama_R.D._DRAMA"><author>Milner,
+<bibl n="96.9" xml:id="L1434" ana="L_3_DramaDrama_R.D._DRAMA"  status="TEI_0"><author>Milner,
 H.M.</author><title type="main" n="mazeppa">Mazeppa; or , The Wild Horse of
 Tartary</title><title type="sub">A Romantic Drama in three acts</title><title
 type="source" n="#EN">Dramatised from Lord Byron's Poem</title><extent>52
@@ -22956,7 +22957,7 @@ pp;</extent><eventName type="firstPerf"><name>Unknown</name><date source="text"
 C. Pelham</author><title type="main" n="thedumbsavoyardandhis...">The Dumb
 Savoyard, and His Monkey</title><title type="sub">A Melo-Drama in one
 act</title><extent>18 pp;</extent><eventName notAfter="1830" type="firstPerf"
-resp="#mullin"><date when="1830-07-05" source="nicoll"/><name>Drury
+><date when="1830-07-05" source="nicoll"/><name>Drury
 Lane</name><date when="1830" source="text">1830</date></eventName><listRef>
 <ref target="https://lb42.github.io/Lacy/Source/Vol98/L1467-lb.pdf">LB from
 LB</ref>
@@ -22992,7 +22993,7 @@ LB</ref>
 <note type="localCopies"><ident>Vol98/L1469/L1469-lb.pdf</ident>
 <ident>Vol98/L1469/Pages</ident>
 </note><idno type="nic">N13177</idno></bibl>
-<bibl n="98.15" xml:id="L1470" ana="M_3_Drama_Spec._SPECTACLE"><author>Amherst,
+<bibl n="98.15" xml:id="L1470" ana="M_3_Drama_Spec._SPECTACLE"  status="TEI_0"><author>Amherst,
 J.H.</author><title type="main" n="thebattleofwaterloo">The Battle of
 Waterloo</title><title type="sub">A Grand Military Melo-Drama in three
 acts</title><series>Duncombe's edition</series><extent>36 pp;</extent><eventName
@@ -23065,8 +23066,8 @@ Maddison</author><title n="coxandbox" type="main">Cox and Box; or, The Long-lost
 brothers</title><title type="sub">A Romance of Real Life in one
 act</title><title type="music">Music by Arthur Sullivan</title><extent
 resp="#CRL">28 pp</extent><eventName notAfter="1867" type="firstPerf"
-resp="#nicoll"><date when="1867-05-17" source="nicoll"/><name>Adelphi</name>
-[amat]<date when="1867-01-01" source="text">1 Jan 1867</date></eventName><note
+resp="#nicoll"><date when="1867-05-17" source="nicoll"/><name>Adelphi [amat]</name>
+<date when="1867-01-01" source="text">1 Jan 1867</date></eventName><note
 type="localCopies"/><idno type="nic">N10159</idno></bibl>
 <bibl n="99.6" xml:id="L1476" status="nf" ana="M_3_Drama_Spec._SPECTACLE"
 ><author>Stirling, Edward</author><title type="main" n="themisersdaughter">The
@@ -23257,9 +23258,8 @@ Theatre</name><date when="1874-01-03" source="text">3 Jan.
 <bibl n="100.11" xml:id="L1496" status="nf" ana="S_1_Comedietta_Ca._COMEDIETTA"
 ><author>Lyste, Henry P.</author><title type="main" n="onlyapennyaliner">Only a
 Penny-a-Liner!</title><title type="sub">A Comedietta in one Act</title><extent
-resp="#CRL">24 pp</extent><eventName type="firstPerf" notAfter="1872"
-><name>Unknown</name><date source="text">[dedication 8 and 9 April
-1872]</date></eventName><note type="localCopies"/></bibl>
+source="#CRL">24 pp</extent><eventName type="firstPerf" notAfter="1872"
+><name>Unknown</name><date source="text">n.d.</date></eventName><note type="localCopies"/></bibl>
 <bibl n="100.12" xml:id="L1497" status="nf" ana="M_4_Drama_D._DRAMA"
 ><author>Young, Sir Charles L., Bart.</author><title type="main" n="shadows"
 >Shadows</title><title type="sub">A Romantic Drama in a Prologue and four
