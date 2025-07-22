@@ -72,14 +72,25 @@
      </classSpec>
      <classSpec ident="att.declarable" type="atts" mode="delete"/>
      <classSpec ident="att.declaring" type="atts" mode="delete"/>
+
      <classSpec type="atts" ident="att.dimensions" mode="change">
       <attList>
        <attDef ident="precision" mode="delete"/>
        <attDef ident="scope" mode="delete"/>
       </attList>
      </classSpec>
-     <classSpec ident="att.divLike" type="atts" mode="delete"/>
-     <classSpec ident="att.docStatus" type="atts" mode="delete"/>
+
+  <classSpec ident="att.divLike" type="atts" mode="change">
+  <attList>
+<attDef ident="org" mode="change">
+  <valList mode="change">
+  <valItem ident="parallel" mode="add"><desc>the immediate contents of this
+  element are regarded as forming a logical unit, to be
+  processed in parallel.</desc></valItem></valList>
+  </attDef> </attList> 
+
+</classSpec>
+<classSpec ident="att.docStatus" type="atts" mode="delete"/>
      <classSpec ident="att.editLike" type="atts" mode="delete"/>
      <classSpec ident="att.fragmentable" type="atts" mode="delete"/>
      <classSpec type="atts" ident="att.global.change" mode="delete"/>
@@ -573,9 +584,29 @@
       </attList>
      </elementSpec>-->
      <elementSpec ident="spGrp" mode="change">
-      <attList>
+<classes>
+<memberOf key="att.global"/>
+<memberOf key="att.ascribed.directed"/>
+<memberOf key="att.typed"/>
+<memberOf key="att.divLike"/>
+<memberOf key="model.divPart"/>
+</classes>
+     <content>
+     <sequence>
+     <classRef key="model.headLike" minOccurs="0" maxOccurs="unbounded"/>
+     <alternate minOccurs="1" maxOccurs="unbounded">
+     <classRef key="model.global"/>
+     <elementRef key="sp"/>
+     <elementRef key="spGrp"/>
+     <classRef key="model.stageLike"/>
+     </alternate>
+     </sequence>
+     </content>
+<attList>
        <attDef ident="type" mode="delete"/>
+<attDef ident="sample" mode="delete"/>
       </attList>
+
      </elementSpec>
      <elementSpec ident="text" mode="change">
       <exemplum>
