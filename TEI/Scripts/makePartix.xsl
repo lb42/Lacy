@@ -5,6 +5,8 @@
  exclude-result-prefixes="xs t"
  version="2.0">
 
+<xsl:param name="textId"/>
+
   <!-- generate listPerson for all named roles in TEI plays -->
 
   <xsl:template match="/">
@@ -12,8 +14,16 @@
   <particDesc  xmlns="http://www.tei-c.org/ns/1.0">
    <listPerson>
 
-   <xsl:for-each select="distinct-values(//t:castList//t:role)">
-<person xml:id="{replace(lower-case(.),'[\-\[,.\s]','')}">
+<!--<xsl:for-each select="distinct-values(//t:castList//t:role)">-->
+
+<xsl:for-each select="//t:castList//t:role">
+<xsl:if test="not(@gender)">
+<xsl:message><xsl:value-of select="."/> : please assign a gender to this role and try again</xsl:message></xsl:if>
+<xsl:variable name="pid"><xsl:value-of select="concat($textId, '_', @gender, position())"/> </xsl:variable>
+<!--<person xml:id="{replace(lower-case(.),'[\-\[,.\s]','')}">
+-->
+
+<person xml:id="{$pid}">
 <persName type="role"><xsl:value-of select="."/></persName>
 <xsl:text>
 </xsl:text>
