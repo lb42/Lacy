@@ -49,7 +49,8 @@
 
      <classSpec ident="att.anchoring" type="atts" mode="delete"/>
     <!-- <classSpec ident="att.ascribed.directed" type="atts" mode="delete"/>
-  -->   <classSpec ident="att.breaking" type="atts" mode="delete"/>
+  -->   
+      <classSpec ident="att.breaking" type="atts" mode="delete"/>
      <classSpec ident="att.cReferencing" type="atts" mode="delete"/>
      <classSpec ident="att.calendarSystem" type="atts" mode="delete"/>
      <classSpec ident="att.canonical" type="atts" mode="change">
@@ -64,12 +65,16 @@
        <attDef ident="key" mode="delete"/>
       </attList>
      </classSpec>
+    <classSpec ident="att.cmc" type="atts" mode="delete"/>
+    
      <classSpec type="atts" ident="att.datable" mode="change">
       <attList>
        <attDef ident="calendar" mode="delete"/>
        <attDef ident="period" mode="delete"/>
       </attList>
      </classSpec>
+
+    <classSpec ident="att.datcat" type="atts" mode="delete"/>
      <classSpec ident="att.declarable" type="atts" mode="delete"/>
      <classSpec ident="att.declaring" type="atts" mode="delete"/>
 
@@ -83,7 +88,7 @@
   <classSpec ident="att.divLike" type="atts" mode="change">
   <attList>
 <attDef ident="org" mode="change">
-  <valList mode="change">
+  <valList mode="change" type="closed">
   <valItem ident="parallel" mode="add"><desc>the immediate contents of this
   element are regarded as forming a logical unit, to be
   processed in parallel.</desc></valItem></valList>
@@ -119,6 +124,7 @@
        <attDef ident="evaluate" mode="delete"/>
       </attList>
      </classSpec>
+    <classSpec ident="att.notated" type="atts" mode="delete"/>
      <classSpec ident="att.ranging" type="atts" mode="delete"/>
      <!--<classSpec ident="att.spanning" type="atts" mode="delete"/>
 -->
