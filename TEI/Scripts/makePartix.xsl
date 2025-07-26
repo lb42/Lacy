@@ -19,7 +19,7 @@
 <xsl:for-each select="//t:castList//t:role">
 <xsl:if test="not(@gender)">
 <xsl:message><xsl:value-of select="."/> : please assign a gender to this role and try again</xsl:message></xsl:if>
-<xsl:variable name="pid"><xsl:value-of select="concat($textId, '_', @gender, position())"/> </xsl:variable>
+<xsl:variable name="pid"><xsl:value-of select="concat(substring-before($textId, '.xml'), '_', @gender, position())"/> </xsl:variable>
 <!--<person xml:id="{replace(lower-case(.),'[\-\[,.\s]','')}">
 -->
 
