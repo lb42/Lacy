@@ -34,7 +34,7 @@
 <xsl:for-each select="distinct-values($context//t:speaker)">
 <xsl:variable name="pfx" select="."/>
 <persName type="spkr" n="{count($context//*:speaker[starts-with(.,$pfx)])}">
-<xsl:value-of select="normalize-space(.)"/>
+<xsl:value-of select="$pfx"/>
 </persName>
      <xsl:text>
 </xsl:text></xsl:for-each>
