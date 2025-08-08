@@ -49,7 +49,7 @@ select="substring-before(@n,'.')"/>, No. <xsl:value-of select="substring-after(@
 <xsl:variable name='f' select="$root/note[@type='localCopies']/ident[ends-with(.,'vpp.pdf')]"/>
 <ref target="{concat('local:',$f)}"/>
 <xsl:variable name='f' select="$root/note[@type='localCopies']/ident[contains(.,'/Vol')]"/>
-<ref target="{concat('local:',$f)}"/>
+ <xsl:if test="$f"><ref target="{concat('local:',$f)}"/></xsl:if><!-- allows for possibility that there is no VPP PDF file -->
 </xsl:when>
 <xsl:when test="contains(@target,'hvd') or starts-with(.,'HV')">
 <xsl:variable name='f' select="$root/note[@type='localCopies']/ident[ends-with(.,'-hv.pdf')]"/>
@@ -72,6 +72,27 @@ select="substring-before(@n,'.')"/>, No. <xsl:value-of select="substring-after(@
 
 <xsl:if test="eventName">
 <listEvent xmlns="http://www.tei-c.org/ns/1.0">
+ 
+ <xsl:for-each select="eventName[@type eq 'LCP']">
+  
+  <xsl:variable name="LCPid" select="substring-before(substring-after(.,'LCP_'),')')"/>
+  
+  <event type="{@type}" >
+   
+   <xsl:if test="@when">
+    <xsl:attribute name="when" select="@when"/>
+   </xsl:if>
+   
+   <xsl:if test="@n">
+    <xsl:attribute name="where" select="@n"/>
+   </xsl:if>
+   <desc xmlns="http://www.tei-c.org/ns/1.0">
+    <xsl:value-of select="doc('/home/lou/Public/Lacy/LacyLCP.xml')//*:bibl[starts-with(@n,$LCPid)]/*:licence"/>
+   </desc>
+   <bibl type="msSource"><xsl:value-of select="substring-before(substring-after(.,'('),')')"/></bibl>
+  </event> 
+  
+ </xsl:for-each>
 <!-- firstPerf events -->
 <xsl:for-each select="eventName[@type='firstPerf']">
 <xsl:variable name="dateNic" select="date[@source='nicoll']/@when"/>
@@ -135,21 +156,7 @@ select="substring-before(@n,'.')"/>, No. <xsl:value-of select="substring-after(@
 
 <!-- LCP events -->
 
-<xsl:for-each select="eventName[@type eq 'LCP']">
 
-<xsl:variable name="LCPid" select="substring-before(substring-after(.,'LCP_'),')')"/>
-
-<event type="{@type}" when="{@when}">
-<xsl:if test="@n">
-<xsl:attribute name="where" select="@n"/>
-</xsl:if>
-<desc xmlns="http://www.tei-c.org/ns/1.0">
-<xsl:value-of select="doc('/home/lou/Public/Lacy/LacyLCP.xml')//*:bibl[starts-with(@n,$LCPid)]/*:licence"/>
-</desc>
-<bibl type="msSource"><xsl:value-of select="substring-before(substring-after(.,'('),')')"/></bibl>
-</event> 
-
-</xsl:for-each>
 
 <!-- otherPerf events -->
 

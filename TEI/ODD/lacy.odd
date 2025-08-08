@@ -218,8 +218,8 @@
         </datatype>
        </attDef>
        <attDef ident="type" mode="replace">
-        <desc>specifies the scope of the bibliographic description; in Lacy only two values are
-         distinguished</desc>
+        <desc>specifies the scope of the bibliographic description; in Dracor only two values are
+         distinguished; we add a third</desc>
         <valList type="closed">
          <valItem ident="digitalSource">
           <desc>the description contains prose summarising the process by which the digitized TEI
@@ -228,6 +228,9 @@
          <valItem ident="printSource">
           <desc>the description documents the printed source in LAE, its performance history, and
            available digitizations</desc>
+         </valItem>
+         <valItem ident="msSource">
+          <desc>the description documents a manuscript source for the work</desc>
          </valItem>
         </valList>
        </attDef>
