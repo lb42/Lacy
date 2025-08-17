@@ -152,6 +152,12 @@
      </elementSpec>
      <elementSpec ident="actor" mode="change">
       <attList>
+       <attDef ident="perf" mode="add">
+        <desc>[Lacy specific] points to a performance in which this actor had the role indicated</desc>
+        <datatype ><dataRef key="teidata.pointer"/></datatype>
+     <remarks><p>The element targetted may be a <gi>performance</gi> element, or an <gi>event</gi></p></remarks>
+       
+       </attDef>
        <attDef ident="sex" mode="change">
         <valList mode="add" type="closed">
          <valItem ident="F">
