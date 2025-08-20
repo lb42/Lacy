@@ -32,17 +32,18 @@
 
    <div type="slide">
     <figure>
-     <graphic url="/home/lou/Public/lb42.github.io/Lacy/media/THLacy.jpg" height="55%" width="50%"/>
+     <graphic url="media/THLacy.jpg" height="55%" width="50%"/>
      <head>Thomas Hailes Lacy (1809-1873)</head>
     </figure>
-   
+
     <cb/>
     <list>
      <item>With only modest success as a playwright and actor initially, Lacy eventually became the
-      leading theatrical publisher of "Acting Editions" -- practical working documents printed at 6d a copy for
-      individual titles, or 5s for a bound volume of 15 titles. </item>
-     <item>Between 1848 and 1873, his <title>Lacy's Acting Edition of Plays</title>, grew to contain 100 volumes of
-      15 titles each: it was sold across the globe, and made him a reasonable fortune.</item>
+      leading theatrical publisher of "Acting Editions" -- practical working documents printed at 6d
+      a copy for individual titles, or 5s for a bound volume of 15 titles. </item>
+     <item>Between 1848 and 1873, his <title>Lacy's Acting Edition of Plays</title>, grew to contain
+      100 volumes of 15 titles each: it was sold across the globe, and made him a reasonable
+      fortune.</item>
      <item>The LAE is a unique sample, apparently covering the full range of Victorian Theatrical
       presentations</item>
      <item>For comparison, vols 4 and 5 of Allardyce Nicoll's magisterial <title>History of English
@@ -51,51 +52,102 @@
    </div>
    <div type="slide">
     <head>How representative is this sample?</head>
-    <p>A corpus is a sample, hopefully representative of a known population. Initial comparisons between the LAE and Allardyce Nicoll's <title>Handlist</title>s  suggest distributions of size, age, and mode are comparable. </p>
+    <p>A corpus is a sample, hopefully representative of a known population. Initial comparisons
+     between the LAE and Allardyce Nicoll's <title>Handlist</title>s suggest distributions of size,
+     age, and mode are comparable. </p>
     <figure>
-     <graphic url="/home/lou/Public/lb42.github.io/Lacy/media/agebyvol.png"/>
+     <graphic url="media/agebyvol.png"/>
      <head>First performance dates by volume</head>
     </figure>
     <p rend="box">"It is hard to avoid the conclusion that Lacy astutely leavened the mix for each
-     volume, using mainly contemporary titles to complement the old favourites." (<ref target="https://doi.org/10.58079/140cy">How old are these plays?</ref></p>
+     volume, using mainly contemporary titles to complement the old favourites." (cf. <ref
+      target="https://doi.org/10.58079/140cy">How old are these plays?</ref>)</p>
+   </div>
+   <div type="slide">
+    <head>Digital Lacy project</head>
+    <list>
+     <item>Builds on and expands data from Richard Pearson's <title>Victorian Plays Project</title>
+      (VPP), AHRB funded 2005-2007 </item>
+     <item>
+      <list>
+       <item>The VPP produced a catalogue of the LAE, along with c. 15000 page images from a copy
+        held at Birmingham Library</item>
+       <item>These were OCRd, proofed, and made available in a PDF format as visually faithful as
+        possible to the original</item>
+       <item>By 2014, the project had processed 340 titles which were distributed from a site at the
+        University of Galway</item>
+       <item>Following Pearson's death in 2018, the project was frozen; by June 2022 the website had
+        disappeared...</item>
+      </list></item>
+     <item>In 2022, with the aid of researchers who worked on the project, I recovered most of the
+      resources it had created and archived them on github </item>
+     <item>Digital Lacy now combines : <list>
+       <item> a detailed and expanding set of metadata relating to the LAE and its authors, enhanced
+        with links to available digital versions</item>
+       <item>a slowly increasing number of TEI-XML transcripts</item>
+      </list></item>
+    </list>
+    <p>Proto-website at <ref target="http://lb42.github.io/Lacy/"
+     >http://lb42.github.io/Lacy</ref></p>
    </div>
 
    <div type="slide">
     <head>Current workflow</head>
     <figure>
-     <graphic url="/home/lou/Public/lb42.github.io/Lacy/media/workflow-1.png" width="75%"/>
+     <graphic url="media/workflow-1.png" width="90%"/>
     </figure>
     <cb/>
     <list>
-     <item>VPP-PDF to Docx (OCR by Abby, thanks Humanum)</item>
+     <item>VPP-PDF to Docx (OCR by Abby, thanks Huma-num)</item>
      <item>DocX to TEI-All (XSLT by TEI)</item>
      <item>TEI-All to Lacy XML (homegrown XSLT scripts)</item>
-     <item>Minimal markup, largely ignoring ignoring visual salience </item>
-
+     <item>Minimal markup, largely ignoring ignoring visual salience</item>
+     <item>TEI schema defined by ODD very close to dracor-schema </item>
     </list>
     <p>Impossible without manual intervention!</p>
    </div>
 
    <div type="slide">
-    <head>What can possibly go wrong?</head>
+    <head>How close ?</head>
+    <p>Dracor and Lacy have a few ideological differences...</p>
+    <list>
+     <item>In DraCor metadata, the digital version is primary, any source version being nested
+      within it; in Lacy, that hierarchy is reversed. </item>
+     <item>Some DraCor metadata (notably performances and identifiers) is relegated to a
+       <gi>standOff</gi>; in Lacy it is imbricated in the TEI Header </item>
+     <item>Dracor uses explicit scene divisions to define stage-presence, as the basis for its
+      network analysis; a quarter of Lacy titles don't have scene divisions.</item>
+     <item>Lacy uses many of the available TEI tags for the front matter of a play ; Dracor largely
+      ignores this.</item>
+     <item>Lacy makes explicit that role is gendered (not supported by Dracor ODD)</item>
+    </list>
+    <p rend="box">However - the Dracor team is very responsive and helpful !</p>
+   </div>
 
-
+   <div type="slide">
+    <head>Just a few tagging headaches </head>
+    <p>These texts often push the constraints </p>
+    <list>
+     <item>speaker may be implicit</item>
+     <item>speaker may be multiple person</item>
+     <item>musical numbers (<gi>spGrp</gi>) don't tesselate and may self-nest</item>
+    </list>
    </div>
 
 
    <div type="slide">
     <head>Implied speaker</head>
     <figure>
-     <graphic url="/home/lou/Public/lb42.github.io/Lacy/media/impliedSpkr.png"/>
+     <graphic url="media/impliedSpkr.png"/>
     </figure>
    </div>
 
    <div type="slide">
     <head>Speeches assigned to multiple speakers</head>
     <figure>
-     <graphic url="/home/lou/Public/lb42.github.io/Lacy/media/egMult.png" width="50%"/>
+     <graphic url="media/egMult.png" width="50%"/>
      <cb/>
-     <graphic url="/home/lou/Public/lb42.github.io/Lacy/media/egMultx.png" width="60%"/>
+     <graphic url="media/egMultx.png" width="60%"/>
     </figure>
     <p>(<gi>stage</gi> not currently permitted within <gi>speaker</gi>)</p>
 
@@ -105,17 +157,30 @@
    <div type="slide">
     <head>Nesting of simultaneous speech or song</head>
     <figure>
-     <graphic url="/home/lou/Public/lb42.github.io/Lacy/media/parallelExample.png" width="65%"/>
+     <graphic url="media/parallelExample.png" width="65%"/>
     </figure>
     <cb/>
     <figure>
-     <graphic url="/home/lou/Public/lb42.github.io/Lacy/media/parallelExampleX.png" width="50%"/>
+     <graphic url="media/tyrolienne.png" width="45%"/>
     </figure>
 
     <p>The whole dance (the Tyrolienne) is contained by a <gi>spGrp</gi> element which contains two
      nested <gi>spGrp</gi> elements, each containing two <gi>sp</gi> elements to be performed in
      parallel. (See also <ref target="https://github.com/TEIC/TEI/issues/2695">TEI Issue 2695</ref>)
     </p>
+   </div>
+   <div type="slide">
+    <head>Tentative suggestions and conclusions</head>
+    <list>
+     <item>TEI conformance is crucial to the interoperability of Dracor corpora. The Dracor
+      profile/ODD should specify which parts of the TEI model are mandatory, desirable, permissible,
+      unsupported ... </item>
+     <item>The documentation provided by the Dracor ODD is good, but could be improved: more
+      examples and more discussion of some edge cases would be useful for example</item>
+     <item>Simple tutorial guides showing how to use Dracor-conformant corpora with a variety of
+      tools (not only python, plz)</item>
+     <item>Provide a forum for corpus creators to discuss possible solutions to common encoding problems</item>
+    </list>
    </div>
   </body>
  </text>
