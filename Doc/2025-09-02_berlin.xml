@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="file:/home/lou/Public/TEIslides/teislides.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title>"The most perfect edition of plays ever published": the Digital Lacy project</title>
+
+    <author>Lou Burnard (Independent Scholar)</author>
+   </titleStmt>
+   <publicationStmt>
+    <p>unpublished draft</p>
+   </publicationStmt>
+   <sourceDesc>
+    <p>born digital</p>
+   </sourceDesc>
+  </fileDesc>
+  <revisionDesc>
+   <change when="2025-08-18">Created file</change>
+  </revisionDesc>
+ </teiHeader>
+ <text>
+  <body>
+
+   <!-- <div type="slide">
+    <head>"The most perfect edition of plays ever published": the Digital Lacy project</head>
+    <figure>
+     <graphic url="media/theBestest.png"/>
+    </figure>
+    
+   </div>-->
+
+   <div type="slide">
+    <figure>
+     <graphic url="/home/lou/Public/lb42.github.io/Lacy/media/THLacy.jpg" height="55%" width="50%"/>
+     <head>Thomas Hailes Lacy (1809-1873)</head>
+    </figure>
+   
+    <cb/>
+    <list>
+     <item>With only modest success as a playwright and actor initially, Lacy eventually became the
+      leading theatrical publisher of "Acting Editions" -- practical working documents printed at 6d a copy for
+      individual titles, or 5s for a bound volume of 15 titles. </item>
+     <item>Between 1848 and 1873, his <title>Lacy's Acting Edition of Plays</title>, grew to contain 100 volumes of
+      15 titles each: it was sold across the globe, and made him a reasonable fortune.</item>
+     <item>The LAE is a unique sample, apparently covering the full range of Victorian Theatrical
+      presentations</item>
+     <item>For comparison, vols 4 and 5 of Allardyce Nicoll's magisterial <title>History of English
+       Drama</title> list c. 24,000 distinct titles performed between 1800 and 1900.</item>
+    </list>
+   </div>
+   <div type="slide">
+    <head>How representative is this sample?</head>
+    <p>A corpus is a sample, hopefully representative of a known population. Initial comparisons between the LAE and Allardyce Nicoll's <title>Handlist</title>s  suggest distributions of size, age, and mode are comparable. </p>
+    <figure>
+     <graphic url="/home/lou/Public/lb42.github.io/Lacy/media/agebyvol.png"/>
+     <head>First performance dates by volume</head>
+    </figure>
+    <p rend="box">"It is hard to avoid the conclusion that Lacy astutely leavened the mix for each
+     volume, using mainly contemporary titles to complement the old favourites." (<ref target="https://doi.org/10.58079/140cy">How old are these plays?</ref></p>
+   </div>
+
+   <div type="slide">
+    <head>Current workflow</head>
+    <figure>
+     <graphic url="/home/lou/Public/lb42.github.io/Lacy/media/workflow-1.png" width="75%"/>
+    </figure>
+    <cb/>
+    <list>
+     <item>VPP-PDF to Docx (OCR by Abby, thanks Humanum)</item>
+     <item>DocX to TEI-All (XSLT by TEI)</item>
+     <item>TEI-All to Lacy XML (homegrown XSLT scripts)</item>
+     <item>Minimal markup, largely ignoring ignoring visual salience </item>
+
+    </list>
+    <p>Impossible without manual intervention!</p>
+   </div>
+
+   <div type="slide">
+    <head>What can possibly go wrong?</head>
+
+
+   </div>
+
+
+   <div type="slide">
+    <head>Implied speaker</head>
+    <figure>
+     <graphic url="/home/lou/Public/lb42.github.io/Lacy/media/impliedSpkr.png"/>
+    </figure>
+   </div>
+
+   <div type="slide">
+    <head>Speeches assigned to multiple speakers</head>
+    <figure>
+     <graphic url="/home/lou/Public/lb42.github.io/Lacy/media/egMult.png" width="50%"/>
+     <cb/>
+     <graphic url="/home/lou/Public/lb42.github.io/Lacy/media/egMultx.png" width="60%"/>
+    </figure>
+    <p>(<gi>stage</gi> not currently permitted within <gi>speaker</gi>)</p>
+
+   </div>
+
+
+   <div type="slide">
+    <head>Nesting of simultaneous speech or song</head>
+    <figure>
+     <graphic url="/home/lou/Public/lb42.github.io/Lacy/media/parallelExample.png" width="65%"/>
+    </figure>
+    <cb/>
+    <figure>
+     <graphic url="/home/lou/Public/lb42.github.io/Lacy/media/parallelExampleX.png" width="50%"/>
+    </figure>
+
+    <p>The whole dance (the Tyrolienne) is contained by a <gi>spGrp</gi> element which contains two
+     nested <gi>spGrp</gi> elements, each containing two <gi>sp</gi> elements to be performed in
+     parallel. (See also <ref target="https://github.com/TEIC/TEI/issues/2695">TEI Issue 2695</ref>)
+    </p>
+   </div>
+  </body>
+ </text>
+</TEI>
