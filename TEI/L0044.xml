@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L0044">
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L0044">
 <teiHeader>
 <fileDesc>
 <titleStmt>
@@ -12,13 +11,15 @@
 </titleStmt>
 <publicationStmt>
 <distributor>Privately published on the Lacy Website</distributor>
-<idno>L0044</idno>
+<idno type="URL">lae:L0044</idno>
 </publicationStmt>
-<sourceDesc>
-<p>Retagged from Docx produced by Abby from a Vpp Pdf edition</p>
-</sourceDesc>
+<sourceDesc><bibl type="digital">Retagged from Docx produced by Abby from a Vpp Pdf edition</bibl><bibl type="source" n="3.14"><author>Brooks, Shirley</author><title type="main" n="theexposition">The
+Exposition: A Scandinavian Sketch</title><title type="sub">Containing as Much
+Irrelevant Matter as Possible, in one act</title><extent>21 pp (UM copy: 438 -
+459)<measure type="pp" quantity="22"/><measure type="spCount" quantity="298"/><measure type="spvCount" quantity="298"/><measure type="txWords" quantity="6626"/><measure type="spWords" quantity="5818"/><measure type="stWords" quantity="808"/></extent>
+<ref>Vol03/L0044/L0044-um.pdf</ref><ref>Vol03/L0044/L0044-vpp.pdf</ref><ref>Vol03/L0044/pages</ref><ref>Vol03/L0044/Vol3xivExposition.pdf</ref><idno type="nic">N09809</idno><idno type="vpp">Vol3xivExposition</idno></bibl><listEvent><event type="firstPerf" notAfter="1851"><desc><date when="1851-04-28" source="nicoll"/><date when="1851-04-28" source="text">28 April 1851</date><name>Punch's Playhouse, Strand Theatre</name></desc></event></listEvent></sourceDesc>
 </fileDesc>
-<revisionDesc>
+<profileDesc><!----><textClass><catRef target="#size"/><catRef target="#act"/><catRef target="nic:"/><keywords><term/></keywords></textClass></profileDesc><revisionDesc><change when="2025-08-20">Header enriched</change>
 <change when="2024-10-12">Header confected</change>
 </revisionDesc>
 </teiHeader>
@@ -44,47 +45,47 @@ the Stars," " Honours and Tricks,"&amp;c. &amp;c. </byline>
 <castList>
 <head>Supernaturals.</head>
 <castItem>
-<role gender="M">Odin </role><roleDesc>(the Scandinavian Jove)</roleDesc>
+<role ana="#M">Odin </role><roleDesc>(the Scandinavian Jove)</roleDesc>
 <actor>Mr. Norton.</actor>
 </castItem>
 <castGroup>
 <roleDesc>Brothers</roleDesc>
 <castItem>
-<role gender="M">Thor</role>
+<role ana="#M">Thor</role>
 <actor> Mr. John Reeve</actor>
 </castItem>
 <castItem>
-<role gender="M">Balder</role>
+<role ana="#M">Balder</role>
 <actor> Mr. J. Rogers.</actor>
 </castItem>
 </castGroup>
 <castItem>
-<role gender="M">Heimdall </role><roleDesc>(the Celestial Porter)</roleDesc>
+<role ana="#M">Heimdall </role><roleDesc>(the Celestial Porter)</roleDesc>
 <actor> Mr. Romer.</actor>
 </castItem>
-<castItem><role gender="M">Vidur </role><roleDesc>(God of Silence)</roleDesc>
+<castItem><role ana="#M">Vidur </role><roleDesc>(God of Silence)</roleDesc>
 <actor> Mr. White.</actor>
 </castItem>
-<castItem><role gender="F">Freya </role><roleDesc>(Wife of Odin)</roleDesc>
+<castItem><role ana="#F">Freya </role><roleDesc>(Wife of Odin)</roleDesc>
 <actor> Mrs. C. Horsman</actor>
 </castItem>
-<castItem><role gender="F">Fylla </role><roleDesc>(her Maid)</roleDesc>
+<castItem><role ana="#F">Fylla </role><roleDesc>(her Maid)</roleDesc>
 <actor> Mrs. C. Melville.</actor>
 </castItem>
-<castItem><role gender="F">Narma</role><roleDesc>(Wife of Balder)</roleDesc>
+<castItem><role ana="#F">Narma</role><roleDesc>(Wife of Balder)</roleDesc>
 <actor> Miss Dibdin.</actor>
 </castItem>
-<castItem><role gender="F">Snowtra </role><roleDesc>(expectant Wife of Thor)</roleDesc>
+<castItem><role ana="#F">Snowtra </role><roleDesc>(expectant Wife of Thor)</roleDesc>
 <actor> Miss M. Taylor. </actor></castItem>
 </castList>
 <castList>
 <head>Preternatural.</head>
-<castItem><role gender="F">The Spirit Of The Age</role>
+<castItem><role ana="#F">The Spirit Of The Age</role>
 <actor>Miss Marshall</actor></castItem>
 </castList>
 <castList>
 <head>Natural.</head>
-<castItem><role gender="M">An Author,</role>
+<castItem><role ana="#M">An Author,</role>
 <roleDesc>who, wishing to be strictly anonymous, will be represented
 by</roleDesc>
 <actor>Mr. Attwood.</actor></castItem>
@@ -354,7 +355,7 @@ goblets, and laughing; Author retires to L. corner)</stage>
 <head> Chorus of Gods. Nigger Air—<title>"There was once a little man, and his
 name was Uncle Ned."</title>
 </head>
-<sp><speaker></speaker>
+<sp><speaker/>
 <l>We're a jolly lot of Gods, and our names, it is said, </l>
 <l>Were held in awe long ago;</l>
 <l>And old Odin, there, was our king and our head, </l>
