@@ -54,9 +54,9 @@
 <xsl:message>UM: <xsl:value-of select="count(//ident[contains(.,'-um.')])"/> UM sourced </xsl:message>
   
   <xsl:variable name="totVPP" select="count(//div/bibl[idno[@type = 'vpp']])"/>
-  <xsl:variable name="totLarge" select="count(//div/bibl[starts-with(@type, 'L')])"/>
-  <xsl:variable name="totMed" select="count(//div/bibl[starts-with(@type, 'M')])"/>
-  <xsl:variable name="totSmall" select="count(//div/bibl[starts-with(@type, 'S')])"/>
+  <xsl:variable name="totLarge" select="count(//div/bibl[starts-with(@ana, 'L')])"/>
+  <xsl:variable name="totMed" select="count(//div/bibl[starts-with(@ana, 'M')])"/>
+  <xsl:variable name="totSmall" select="count(//div/bibl[starts-with(@ana, 'S')])"/>
 
 
   <!-- balance criterion : size -->
@@ -66,16 +66,16 @@
    /><xsl:text>, </xsl:text> <xsl:value-of select="$totMed"/><xsl:text>, </xsl:text> <xsl:value-of
    select="$totSmall"/><xsl:text>
   vpp, </xsl:text> <xsl:value-of select="$totVPP"/><xsl:text>, </xsl:text> <xsl:value-of
-   select="count(//bibl[starts-with(@type, 'L') and idno[@type = 'vpp']])"/><xsl:text>, </xsl:text>
-   <xsl:value-of select="count(//bibl[starts-with(@type, 'M') and idno[@type = 'vpp']])"
+   select="count(//bibl[starts-with(@ana, 'L') and idno[@type = 'vpp']])"/><xsl:text>, </xsl:text>
+   <xsl:value-of select="count(//bibl[starts-with(@ana, 'M') and idno[@type = 'vpp']])"
    /><xsl:text>, </xsl:text> <xsl:value-of
-   select="count(//bibl[starts-with(@type, 'S') and idno[@type = 'vpp']])"/><xsl:text>
+   select="count(//bibl[starts-with(@ana, 'S') and idno[@type = 'vpp']])"/><xsl:text>
   tei,</xsl:text> <xsl:value-of select="$totTEI"/><xsl:text>, </xsl:text> <xsl:value-of
-   select="count(//bibl[starts-with(@type, 'L') and contains(@status, 'TEI')])"
+   select="count(//bibl[starts-with(@ana, 'L') and contains(@status, 'TEI')])"
    /><xsl:text>, </xsl:text> <xsl:value-of
-   select="count(//bibl[starts-with(@type, 'M') and contains(@status, 'TEI')])"
+   select="count(//bibl[starts-with(@ana, 'M') and contains(@status, 'TEI')])"
    /><xsl:text>, </xsl:text> <xsl:value-of
-   select="count(//bibl[starts-with(@type, 'S') and contains(@status, 'TEI')])"/> </xsl:message>
+   select="count(//bibl[starts-with(@ana, 'S') and contains(@status, 'TEI')])"/> </xsl:message>
 
   <xsl:result-document href="digitizations.txt">
    <xsl:for-each select="TEI/text/body/div/bibl">
