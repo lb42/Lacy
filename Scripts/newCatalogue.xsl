@@ -110,30 +110,30 @@ select="substring-before(@n,'.')"/>, No. <xsl:value-of select="substring-after(@
 <!-- @when is available on both nicoll and source -->
 <xsl:when test="$dateNic eq $dateSrc">
 <event type="{@type}"  when="{date[@source='nicoll']/@when}" source="textNic" where="{$where}">
-<desc>Premiered at <xsl:value-of select="name"/> <xsl:value-of select="$dateStr"/></desc>
+<desc>Premiered at <xsl:value-of select="name"/>, <xsl:value-of select="$dateStr"/></desc>
 </event></xsl:when>
 <xsl:when test="starts-with($dateNic,$dateSrc) and $dateSrc">
 <event type="{@type}" when="{date[@source='nicoll']/@when}" source="textNicStart" where="{$where}">
- <desc>Premiered at <xsl:value-of select="name"/>  <xsl:value-of select="$dateStr"/></desc>
+ <desc>Premiered at <xsl:value-of select="name"/>,  <xsl:value-of select="$dateStr"/></desc>
 </event>
 </xsl:when>
 <xsl:when test="starts-with($dateSrc,$dateNic)">
 <event type="{@type}"  when="{date[@source='text']/@when}" source="nicTextStart" where="{$where}">
- <desc>Premiered at <xsl:value-of select="name"/> <xsl:value-of select="$dateStr"/></desc>
+ <desc>Premiered at <xsl:value-of select="name"/>, <xsl:value-of select="$dateStr"/></desc>
 </event>
 </xsl:when>
 <xsl:when test="$dateNic ne $dateSrc">
 <event type="{@type}"  when="{$dateSrc}" source="text" where="{$where}">
- <desc>Premiered at <xsl:value-of select="name"/> <xsl:value-of select="$dateStr"/>; Nicoll date <xsl:value-of select="$dateNic"/></desc>
+ <desc>Premiered at <xsl:value-of select="name"/>, <xsl:value-of select="$dateStr"/>; Nicoll date <xsl:value-of select="$dateNic"/></desc>
 </event></xsl:when>
 <!-- @when is available on only one of nicoll and source -->
 <xsl:when test="not($dateSrc) and $dateNic">
 <event type="{@type}"  when="{date[@source='nicoll']/@when}" source="nicoll" where="{$where}">
- <desc>Premiered at <xsl:value-of select="name"/> <xsl:value-of select="$dateStr"/></desc>
+ <desc>Premiered at <xsl:value-of select="name"/>,  <xsl:value-of select="$dateStr"/></desc>
 </event></xsl:when>
 <xsl:when test="not($dateSrc)">
 <event type="{@type}" where="{$where}">
-<desc>Premiered at <xsl:value-of select="name"/>; date unknown</desc>
+<desc>Premiered at <xsl:value-of select="name"/>, date unknown</desc>
 </event>
 </xsl:when><xsl:when test="not($dateNic) and $dateSrc">
 <event type="{@type}" when="{date[@source='text']/@when}" source="text" where="{$where}">
@@ -148,7 +148,7 @@ select="substring-before(@n,'.')"/>, No. <xsl:value-of select="substring-after(@
 
 <xsl:if test="date[contains(.,'n.d.')]">
 <event type="{@type}" source="text">
-<desc>Premiered at <xsl:value-of select="name"/>; date unknown.</desc>
+<desc>Premiered at <xsl:value-of select="name"/>, date unknown.</desc>
 </event>
 </xsl:if>
 
@@ -161,7 +161,7 @@ select="substring-before(@n,'.')"/>, No. <xsl:value-of select="substring-after(@
 <!-- otherPerf events -->
 
 <xsl:for-each select="note[@type='otherPerfs']">
-<event type='otherPerf'><desc><xsl:copy-of select="node()|text()"/></desc></event>
+<event type='otherPerf'><desc><!--<xsl:copy-of select="node()|text()"/>--><xsl:apply-templates/></desc></event>
 </xsl:for-each>
 </listEvent></xsl:if>
 
