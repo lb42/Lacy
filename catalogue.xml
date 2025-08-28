@@ -11,7 +11,7 @@
     <!-- TODO
      div/@ana values should be proper urls
      @status : values nf and TEI and replaced ? 
-    --> 
+    -->
    </publicationStmt>
    <sourceDesc>
     <p>This is an enhanced and extended version of the catalogue of Lacy's Acting Edition originally
@@ -24,6 +24,11 @@
      particularly about available digitizations of the plays.</p>
     <p>
      <list type="gloss">
+      <label>Organisation</label>
+      <item>The catalogue is organized sequentially by volume and title within volume. A search
+       facility remains to be added. For each volume, the number and a date are given. The date
+       represents the latest possible date for the volume, on the basis of the first performance
+       dates cited.</item>
       <label>Identifiers</label>
       <item>Each entry in the catalogue has been given a unique identifier beginning with "L",
        followed by a four digit sequence number; these "Lacy numbers" correspond with the numbers
@@ -42,8 +47,8 @@
        or presence of the title in a "By the Author Of" title elsewhere. Quotation marks are used to
        distinguish pseudonyms. In a few rare cases where no author is given and none has been
        plausibly identified, the author is given as "[Anon.]". In several cases, multiple author
-       names are given. A personography of Lacy's Authors is <ref target="https://lb42.github.io/Lacy/lacyAuthors.html">
-        under construction.</ref>
+       names are given. A personography of Lacy's Authors is <ref
+        target="https://lb42.github.io/Lacy/lacyAuthors.html"> under construction.</ref>
       </item>
       <label>Title details</label>
       <item> The entry for each title begins with a main title, rendered in italics. This is
@@ -92,7 +97,8 @@
    </listPrefixDef>
    <classDecl>
     <taxonomy>
-     <desc>Status of this entry</desc><!-- not currently used -->
+     <desc>Status of this entry</desc>
+     <!-- not currently used -->
      <category xml:id="TEI_0">
       <catDesc>A preliminary TEI version is available</catDesc>
      </category>
@@ -3203,9 +3209,8 @@
        n="stagestruck">Stage Struck; or, The Loves of Augustus Portarlington and Celestina
        Beverley</title><title type="sub">A Farce in one act</title><title type="source" n="#EN"
        >Adapted from "Love in the East"</title><extent>21 pp (UM copy: 260 - 281)</extent>
-      
-      <title level="s"> Lacy's Acting Edition, volume 10, No. 0142</title><idno
-       type="nic">N01402</idno></bibl>
+      <title level="s"> Lacy's Acting Edition, volume 10, No. 0142</title><idno type="nic"
+       >N01402</idno></bibl>
      <bibl type="digitalSource" subtype="copy"><ref
        target="https://babel.hathitrust.org/cgi/pt?id=mdp.39015067453228&amp;seq=260 ">UM from
        HT</ref><ref target="local:Vol10/L0142/L0142-um.pdf"/></bibl>
@@ -12166,9 +12171,9 @@
      </listEvent>
     </div>
     <div type="work" xml:id="L0584" ana="L_5_Tragedy_T._TRAGEDY">
-     <bibl type="printSource" n="39.14" status="TEI_0"><author>Rowe, Nicholas</author><title type="main"
-       n="janeshore">Jane Shore</title><title type="sub">A Tragedy in five acts</title><extent>51 pp
-       (UM copy: 623 - 674)</extent>
+     <bibl type="printSource" n="39.14" status="TEI_0"><author>Rowe, Nicholas</author><title
+       type="main" n="janeshore">Jane Shore</title><title type="sub">A Tragedy in five
+       acts</title><extent>51 pp (UM copy: 623 - 674)</extent>
       <title level="s"> Lacy's Acting Edition, volume 39, No. 0584</title><idno type="nic"
        >N02021</idno></bibl>
      <bibl type="digitalSource"><ref

@@ -12,51 +12,48 @@
   <xsl:variable name="dataDir">/home/lou/Data/Lacy/</xsl:variable>
   <xsl:variable name="root" select="."/>
 
-  <xsl:variable name="totLAE" select="count($root//div/bibl)"/>
+  <xsl:variable name="totLAE" select="count($root//div[@type='work'])"/>
   <xsl:variable name="totTEI" select="count($root//div/bibl[contains(@status, 'TEI')])"/>
   <xsl:message>Data directory is <xsl:value-of select="$dataDir"/> </xsl:message>
-  <xsl:message>Today there are <xsl:value-of select="count($root//div/bibl)"/> items in the
+  <xsl:message>Today there are <xsl:value-of select="$totLAE"/> items in the
    catalogue, of which ....</xsl:message>
   <xsl:message> <xsl:value-of select="count(//div/bibl[contains(@status, 'nf')])"/> items have not
    (apparently) been digitized.</xsl:message>
-  <xsl:message><xsl:value-of select="count(//div/bibl[contains(@status, 'TEI')])"/> items are marked
+  <xsl:message><xsl:value-of select="count(//div[@type='work' and contains(@status, 'TEI')])"/> items are marked
    as available in TEI format: <xsl:value-of
    select="count(document('/home/lou/Public/Lacy/TEI/driver.tei')//TEI/TEI)"/> are included by
    driver.tei</xsl:message>
   <xsl:for-each select="document('/home/lou/Public/Lacy/TEI/driver.tei')//TEI/@xml:id">
    <xsl:variable name="myId" select="."/>
 
-   <xsl:if test="count($root//div/bibl[@xml:id eq $myId and contains(@status,'TEI')] ) eq 0">
+   <xsl:if test="count($root//div[@type='work' and @xml:id eq $myId and contains(@status,'TEI')] ) eq 0">
   <xsl:message>Update <xsl:value-of select="."/>!</xsl:message></xsl:if> 
   </xsl:for-each>
   
 
 
-  <xsl:message><xsl:value-of select="count(//div/bibl[contains(@status, 'nopi')])"/> items are
-   marked as lacking performance date information.</xsl:message>
-  <xsl:message><xsl:value-of select="count(//div/bibl[contains(@status, 'replaced')])"/> items are
-   marked as replaced.</xsl:message>
-  <xsl:message> <xsl:value-of select="count(//div/bibl[not(idno[@type = 'nic'])])"/> are not listed
+  <xsl:message><xsl:value-of select="count(//div[@type='work']/listEvent/event[@type='firstPerf'])"/> first perf notes</xsl:message>
+  <xsl:message><xsl:value-of select="count(//div[@type='work' and ends-with(@xml:id,'R')])"/> items are marked as replacements.</xsl:message>
+  <xsl:message> <xsl:value-of select="count(//bibl[@type='printSource' and not(idno[@type = 'nic'])])"/> are not listed
    by Nicoll </xsl:message>
 
-
-  <xsl:message><xsl:value-of select="count(//div/bibl[not(//extent)])"/> items lack extent
+  <xsl:message><xsl:value-of select="count(//bibl[@type='printSource' and not(extent)])"/> items lack extent
    data.</xsl:message>
 
 
-  <xsl:message>VPP: <xsl:value-of select="count(//div/bibl/idno[@type = 'vpp'])"/> idnos;
+  <xsl:message>VPP: <xsl:value-of select="count(//bibl[@type='printSource' and idno[@type = 'vpp']])"/> idnos;
    <xsl:value-of select="count(//ident[contains(., '-vpp')])"/> vpp source pdfs;
    <xsl:value-of select="count(//ident[contains(., 'pages')])"/> vpp source tifs;
    <xsl:value-of
    select="count(//div/bibl[note/ident[contains(., '-vpp')] and contains(@status, 'TEI')])"/> in
    TEI</xsl:message>
 
-<xsl:message>UM: <xsl:value-of select="count(//ident[contains(.,'-um.')])"/> UM sourced </xsl:message>
+<xsl:message>UM: <xsl:value-of select="count(//ref[contains(@target,'-um.')])"/> UM sourced </xsl:message>
   
-  <xsl:variable name="totVPP" select="count(//div/bibl[idno[@type = 'vpp']])"/>
-  <xsl:variable name="totLarge" select="count(//div/bibl[starts-with(@ana, 'L')])"/>
-  <xsl:variable name="totMed" select="count(//div/bibl[starts-with(@ana, 'M')])"/>
-  <xsl:variable name="totSmall" select="count(//div/bibl[starts-with(@ana, 'S')])"/>
+  <xsl:variable name="totVPP" select="count(//bibl[@type='printSource' and idno[@type = 'vpp']])"/>
+  <xsl:variable name="totLarge" select="count(//div[starts-with(@ana, 'L')])"/>
+  <xsl:variable name="totMed" select="count(//div[starts-with(@ana, 'M')])"/>
+  <xsl:variable name="totSmall" select="count(//div[starts-with(@ana, 'S')])"/>
 
 
   <!-- balance criterion : size -->
@@ -66,16 +63,16 @@
    /><xsl:text>, </xsl:text> <xsl:value-of select="$totMed"/><xsl:text>, </xsl:text> <xsl:value-of
    select="$totSmall"/><xsl:text>
   vpp, </xsl:text> <xsl:value-of select="$totVPP"/><xsl:text>, </xsl:text> <xsl:value-of
-   select="count(//bibl[starts-with(@ana, 'L') and idno[@type = 'vpp']])"/><xsl:text>, </xsl:text>
-   <xsl:value-of select="count(//bibl[starts-with(@ana, 'M') and idno[@type = 'vpp']])"
+   select="count(//div[starts-with(@ana, 'L') and idno[@type = 'vpp']])"/><xsl:text>, </xsl:text>
+   <xsl:value-of select="count(//div[starts-with(@ana, 'M') and idno[@type = 'vpp']])"
    /><xsl:text>, </xsl:text> <xsl:value-of
-   select="count(//bibl[starts-with(@ana, 'S') and idno[@type = 'vpp']])"/><xsl:text>
+   select="count(//div[starts-with(@ana, 'S') and idno[@type = 'vpp']])"/><xsl:text>
   tei,</xsl:text> <xsl:value-of select="$totTEI"/><xsl:text>, </xsl:text> <xsl:value-of
-   select="count(//bibl[starts-with(@ana, 'L') and contains(@status, 'TEI')])"
+   select="count(//div[starts-with(@ana, 'L') and contains(@status, 'TEI')])"
    /><xsl:text>, </xsl:text> <xsl:value-of
-   select="count(//bibl[starts-with(@ana, 'M') and contains(@status, 'TEI')])"
+   select="count(//div[starts-with(@ana, 'M') and contains(@status, 'TEI')])"
    /><xsl:text>, </xsl:text> <xsl:value-of
-   select="count(//bibl[starts-with(@ana, 'S') and contains(@status, 'TEI')])"/> </xsl:message>
+   select="count(//div[starts-with(@ana, 'S') and contains(@status, 'TEI')])"/> </xsl:message>
 
   <xsl:result-document href="digitizations.txt">
    <xsl:for-each select="TEI/text/body/div/bibl">
