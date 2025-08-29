@@ -46,7 +46,7 @@
   <xsl:variable name="id" select="ancestor::*:TEI/@xml:id"/>
   <xsl:message>Text id is <xsl:value-of select="$id"/></xsl:message>
   <xsl:variable name="digBib" select="t:p"/>
-  <xsl:for-each select="document('/home/lou/Public/Lacy/newCatalogue.xml')//*:div[@type='work' and @xml:id eq $id]">
+  <xsl:for-each select="document('/home/lou/Public/Lacy/catalogue.xml')//*:div[@type='work' and @xml:id eq $id]">
    <xsl:variable name="catBib" select="."/>
    <xsl:variable name="subjectStr" select="$catBib/@type"/>
    <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">

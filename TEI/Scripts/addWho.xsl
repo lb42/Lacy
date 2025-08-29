@@ -15,8 +15,8 @@ version="2.0">
 
 <xsl:copy>
 <xsl:attribute name="who">
-<xsl:value-of select="document($theFile)
-/t:particDesc/t:listPerson/t:person[t:persName[@type='spkr'] = $spkr]/@xml:id"/>
+<!--<xsl:value-of select="document($theFile)-->
+ <xsl:value-of select="concat('#',ancestor::TEI/teiHeader/profileDesc/t:particDesc/t:listPerson/t:person[t:persName[@type='spkr'] = $spkr]/@xml:id)"/>
 </xsl:attribute>
 <xsl:apply-templates/>
 </xsl:copy>
