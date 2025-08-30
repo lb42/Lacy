@@ -31,7 +31,6 @@
   </xsl:for-each>
   
 
-
   <xsl:message><xsl:value-of select="count(//div[@type='work']/listEvent/event[@type='firstPerf'])"/> first perf notes</xsl:message>
   <xsl:message><xsl:value-of select="count(//div[@type='work' and ends-with(@xml:id,'R')])"/> items are marked as replacements.</xsl:message>
   <xsl:message> <xsl:value-of select="count(//bibl[@type='printSource' and not(idno[@type = 'nic'])])"/> are not listed
