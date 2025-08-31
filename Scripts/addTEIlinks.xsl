@@ -3,7 +3,7 @@
  xmlns:xs="http://www.w3.org/2001/XMLSchema"
  xmlns:a="http://www.abbyy.com/FineReader_xml/FineReader10-schema-v1.xml"
  xmlns:f="http://expath.org/ns/file"
- xmlns:t="http://www.tei-c.org/ns/1.0" exclude-result-prefixes="xs a t" version="2.0">
+ xmlns:t="http://www.tei-c.org/ns/1.0" exclude-result-prefixes="xs a t f" version="2.0">
 
   <!-- adds bibl for TEI versions according to old catalogue -->
   

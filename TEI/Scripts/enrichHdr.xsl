@@ -69,11 +69,11 @@
 
  
  <xsl:template match="t:revisionDesc">
- <!--<xsl:if test="not(preceding-sibling::t:profileDesc)">
+ <xsl:if test="not(preceding-sibling::t:profileDesc)">
   <profileDesc xmlns="http://www.tei-c.org/ns/1.0">
    <xsl:variable name="id" select="ancestor::*:TEI/@xml:id"/>
    <xsl:variable name="catStr"
-    select="document('/home/lou/Public/Lacy/newCatalogue.xml')//*:div[@type='work' and @xml:id eq $id]/@ana"/>
+    select="document('/home/lou/Public/Lacy/catalogue.xml')//*:div[@type='work' and @xml:id eq $id]/@ana"/>
     <xsl:variable name="catStrs" select="tokenize($catStr, '_')"/>
    <xsl:comment>
     <xsl:value-of select="$catStr"/>
@@ -92,7 +92,7 @@
     <xsl:copy-of select="document(concat('/home/lou/Public/Lacy/TEI/Partix/',$id,'.xml'))//*:particDesc/*:listPerson"/>
    </particDesc>
   </profileDesc>
-  </xsl:if>-->
+  </xsl:if>
 
 <!-- and update revisionDesc -->
   

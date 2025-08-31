@@ -1,3 +1,2 @@
-# this uses new version of catalogue
-for f in L*.xml; do echo $f; saxon $f Scripts/enrichHdr.xsl > Plus/$f; \
-  saxon Plus/$f Scripts/addWho.xsl > Dracor/$f; done
+echo Enriching $1; saxon $1 Scripts/enrichHdr.xsl > Plus/$1; \
+  saxon Plus/$1 Scripts/addWho.xsl > Dracor/$1
