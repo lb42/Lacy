@@ -31,11 +31,14 @@
     <p> This section contains the full schema specification from which formal schemas may be 
      subsequently derived. It must be converted using (for example) teitorelaxng. </p>
 
-    <schemaSpec ident="lacy" start="TEI" prefix="tei_" targetLang="en" docLang="en">
+    <schemaSpec ident="lacy" start="teiCorpus TEI" prefix="tei_" targetLang="en" docLang="en"
+    source="tei:4.10.2">
+
+<!-- MODULES -->
      <moduleRef key="tei"/>
      <moduleRef key="core" include="ab add del desc p figure graphic foreign emph gap hi name date ptr ref list item
       label head measure note pb series author respStmt resp title publisher bibl l lg relatedItem sp speaker
-      stage sic  term     corr quote"/>
+      stage sic  teiCorpus term corr quote"/>
      <moduleRef key="textstructure" include="TEI text body div trailer byline titlePage docTitle
       titlePart docAuthor docImprint docDate epigraph signed front back"/>
      <moduleRef key="header" include="teiHeader fileDesc titleStmt publicationStmt distributor
@@ -44,8 +47,12 @@
       spGrp sound"/>
      <!-- <moduleRef key="linking" include="seg"/>-->
      <moduleRef key="transcr" include="subst addSpan delSpan"/>
-     <moduleRef key="namesdates" include="eventName event listEvent"/>
+     <moduleRef key="namesdates" include="event listEvent listPerson person persName"/>
      <moduleRef key="tagdocs" include="listRef ident"/>
+    <moduleRef key="corpus" include="particDesc"/>
+<moduleRef key="analysis"/><!-- need this to get @ana -->
+
+<!-- CLASSES -->
 
      <classSpec ident="att.anchoring" type="atts" mode="delete"/>
     <!-- <classSpec ident="att.ascribed.directed" type="atts" mode="delete"/>
@@ -348,7 +355,7 @@
        <l>And, therefore, sire, the point at once to go to, </l>
        <l>Excuse our saying we object <foreign>in toto </foreign></l>
        <l>To this alliance.</l>
-       </sp></egXML>,<!-- L0271 -->
+       </sp></egXML><!-- L0271 -->
       </exemplum>
      </elementSpec>
      <elementSpec ident="head" mode="change">
@@ -585,6 +592,9 @@
          <valItem ident="X">
           <desc>Mixed</desc>
          </valItem>
+        <valItem ident="U">
+        <desc>Unknown (Dracor requisite)</desc>
+        </valItem>
         </valList>
        </attDef>
       </attList>
