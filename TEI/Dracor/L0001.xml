@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L0001">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L0001">
 <teiHeader>
 <fileDesc>
 <titleStmt>
@@ -11,26 +12,43 @@
 </titleStmt>
 <publicationStmt>
 <distributor>Privately published on the Lacy Website</distributor>
-
-<idno type="lae">L0001</idno></publicationStmt>
-<sourceDesc><bibl type="printSource" n="1.1"><author>Courtney, John</author><title type="main" n="timetriesall">Time Tries All!</title><title type="sub">An
-Original Drama in two acts</title><extent>23 pp (UM copy: 8 - 31)<measure type="pp" quantity="23"/>
-  <measure type="spCount" quantity="471"/>
-  <measure type="spvCount" quantity="1"/>
-  <measure type="txWords" quantity="10037"/>
-  <measure type="spWords" quantity="8783"/>
-  <measure type="stWords" quantity="1254"/>
-  </extent>
-
-<title level="s"> Lacy's Acting Edition, volume 1, No. 0001</title><idno type="nic">N00793</idno><idno type="vpp">Vol1iTime</idno></bibl><bibl type="digitalSource" n="copytext"><ref target="https://lb42.github.io/Lacy/Source/VPP/L0001-vpp.pdf">LoB from
-VPP</ref><ref target="local:Vol01/L0001/L0001-vpp.pdf"/><ref target="local:Vol01/L0001/Vol1iTime.pdf"/></bibl><bibl type="digitalSource"><ref target="https://hdl.handle.net/2027/hvd.32044086859295">HVD from HT</ref><ref target="local:Vol01/L0001/L0001-hv.pdf"/></bibl><bibl type="digitalSource"><ref target="https://babel.hathitrust.org/cgi/pt?id=mdp.39015043286031&amp;seq=8 ">UM
-from HT</ref><ref target="local:Vol01/L0001/L0001-um.pdf"/></bibl><bibl type="digitalSource" n="copytext"><ref target="https://lb42.github.io/Lacy/L0001.html">TEI</ref></bibl><listEvent>
+<idno type="URI">LAE</idno>
+<idno type="lae">L0001</idno>
+</publicationStmt>
+<sourceDesc>
+<bibl type="printSource" n="1.1"><author>Courtney, John</author><title
+type="main" n="timetriesall">Time Tries All!</title><title type="sub">An
+Original Drama in two acts</title><extent>23 pp (UM copy: 8 - 31)<measure
+type="pp" quantity="23"/>
+<measure type="spCount" quantity="471"/>
+<measure type="spvCount" quantity="1"/>
+<measure type="txWords" quantity="10037"/>
+<measure type="spWords" quantity="8783"/>
+<measure type="stWords" quantity="1254"/>
+</extent>
+<title level="s"> Lacy's Acting Edition, volume 1, No. 0001</title><idno
+type="nic">N00793</idno><idno type="vpp">Vol1iTime</idno></bibl>
+<bibl type="digitalSource" n="copytext"><ref
+target="https://lb42.github.io/Lacy/Source/VPP/L0001-vpp.pdf">LoB from
+VPP</ref><ref target="local:Vol01/L0001/L0001-vpp.pdf"/><ref
+target="local:Vol01/L0001/Vol1iTime.pdf"/></bibl>
+<bibl type="digitalSource"><ref
+target="https://hdl.handle.net/2027/hvd.32044086859295">HVD from HT</ref><ref
+target="local:Vol01/L0001/L0001-hv.pdf"/></bibl>
+<bibl type="digitalSource"><ref
+target="https://babel.hathitrust.org/cgi/pt?id=mdp.39015043286031&amp;seq=8 ">UM
+from HT</ref><ref target="local:Vol01/L0001/L0001-um.pdf"/></bibl>
+<bibl type="digitalSource" n="copytext"><ref
+target="https://lb42.github.io/Lacy/L0001.html">TEI</ref></bibl>
+<listEvent>
 <event type="firstPerf" when="1848-09-04" source="textNic" where="Olympic">
 <desc>Premiered at Royal Olympic Theatre 4 Sept. 1848</desc>
 </event>
-</listEvent></sourceDesc>
+</listEvent>
+</sourceDesc>
 </fileDesc>
-<profileDesc><textClass>
+<profileDesc>
+<textClass>
 
 <catRef target="#sizeS"/>
 <catRef target="#act2"/>
@@ -38,7 +56,9 @@ from HT</ref><ref target="local:Vol01/L0001/L0001-um.pdf"/></bibl><bibl type="di
 <keywords>
 <term>DRAMA</term>
 </keywords>
-</textClass><particDesc><listPerson>
+</textClass>
+<particDesc>
+<listPerson>
 <person xml:id="L0001_M1">
 <persName type="role">Mr. Leeson </persName>
 <persName type="spkr" n="108">Lee.</persName>
@@ -73,8 +93,12 @@ from HT</ref><ref target="local:Vol01/L0001/L0001-um.pdf"/></bibl><bibl type="di
 <persName type="spkr" n="54">Fan.</persName>
 </person>
 
-</listPerson></particDesc></profileDesc>
-<revisionDesc><change when="2025-09-07">Metadata updated from new catalogue</change>
+</listPerson>
+</particDesc>
+</profileDesc>
+<revisionDesc>
+<change when="2025-09-11">Dracorize</change>
+<change when="2025-09-07">Metadata updated from new catalogue</change>
 <change when="2024-10-03">Header enriched</change>
 <change when="2023-10-06">Header confected</change>
 </revisionDesc>
@@ -99,10 +123,11 @@ from HT</ref><ref target="local:Vol01/L0001/L0001-um.pdf"/></bibl><bibl type="di
 <castItem><role gender="M">Mathew Bates </role><actor ana="#M">Mr. Leigh Murray
 </actor></castItem>
 
-<castItem><role gender="M">Hon. Augustus Collander Yawn </role><actor ana="#M">Mr. F. Vining </actor></castItem>
+<castItem><role gender="M">Hon. Augustus Collander Yawn </role><actor ana="#M"
+>Mr. F. Vining </actor></castItem>
 
-<castItem><role gender="M">Charles Clinton </role><actor ana="#M">Mr. H . Butler.
-</actor></castItem>
+<castItem><role gender="M">Charles Clinton </role><actor ana="#M">Mr. H .
+Butler. </actor></castItem>
 
 <castItem><role gender="M">Tom Tact </role><actor ana="#M">Mr. S. Cowell
 </actor></castItem>
@@ -1007,7 +1032,8 @@ a partner. Did you ever contemplate a bachelor, Fanny?</p>
 I'm-by-myself-I about him. He goes out for a day's enjoyment, and on arriving at
 the first corner, leans against his brother—the post—uncertain which way the
 wind may carry him. He has no guiding principle—as they say—or impulsive power.
-He wants to find out which way will lead him to his point, forgetting all <pb n="11"/> the while that he has no point. He starts off: the hours move
+He wants to find out which way will lead him to his point, forgetting all <pb
+n="11"/> the while that he has no point. He starts off: the hours move
 heavily—so does he—till he finds himself out of town and out of sorts;—enters a
 tavern—dines—drinks—smokes his cigar—looks out of the window—sees happy faces,
 lads and lasses, fond couples and rosy children, pass by,—sighs—puffs—gets the
