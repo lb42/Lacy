@@ -2,7 +2,7 @@
  <teiHeader>
   <fileDesc>
    <titleStmt>
-    <title n="plotandpassion">Plot and Passion</title>
+    <title n="plotandpassion" type="main">Plot and Passion</title>
     <author>[Taylor, Tom]</author>
     <respStmt>
      <resp>Curated by</resp>
@@ -11,15 +11,93 @@
    </titleStmt>
    <publicationStmt>
     <distributor>Privately published on the Lacy Website</distributor>
-   </publicationStmt>
-   <sourceDesc><bibl type="digital">Retagged from a DOCX version of the RTF file exported by ProQuest from a now lost TEI
-     original </bibl><bibl type="source" status="TEI_1" n="13.11" corresp="nic:N18941"><author resp="HT">[Taylor, Tom]</author><title n="plotandpassion">Plot and Passion</title><title type="sub">An Original Drama in three acts</title><extent>55 pp (UM copy: 346 - 401)<measure type="pp" quantity="54"/><measure type="txWords" quantity="17413"/><measure type="spWords" quantity="15066"/><measure type="stWords" quantity="2347"/></extent><eventName notAfter="1853" type="firstPerf">
-      <date resp="nicoll" when="1853-10-17"/>
-      <name>Royal Olympic Theatre</name>
-      <date resp="source" when="1853-10-17">17 Oct. 1853</date>
-     </eventName><listRef type="localCopies"><ref>Vol13/L0191/L0191-um.pdf</ref></listRef></bibl></sourceDesc>
+   <idno type="lae">L0191</idno></publicationStmt>
+   <sourceDesc><bibl type="printSource" n="13.11"><author source="#HT">[Taylor,
+Tom]</author><title type="main" n="plotandpassion">Plot and
+Passion</title><title type="sub">An Original Drama in three
+acts</title><extent>55 pp (UM copy: 346 - 401)<measure type="pp" quantity="54"/>
+  <measure type="spCount" quantity="727"/>
+  <measure type="spvCount" quantity="0"/>
+  <measure type="txWords" quantity="17413"/>
+  <measure type="spWords" quantity="15066"/>
+  <measure type="stWords" quantity="2347"/>
+  </extent>
+
+<title level="s"> Lacy's Acting Edition, volume 13, No. 0191</title><idno type="nic">N18941</idno></bibl><bibl type="digitalSource" n="copytext"><ref target="https://babel.hathitrust.org/cgi/pt?id=mdp.39015067453343&amp;seq=346 ">UM from HT</ref><ref target="local:Vol13/L0191/L0191-um.pdf"/></bibl><bibl type="digitalSource" n="copytext"><ref target="https://lb42.github.io/Lacy/L0191.html">TEI</ref></bibl><listEvent>
+<event type="LCP" when="1862-09-15" where="Olympic">
+<desc>Licence sent 15 September for performance at the Olympic 17 October 1853. </desc>
+<bibl type="msSource">BL ms LCP_52942.I</bibl>
+</event>
+<event type="firstPerf" when="1853-10-17" source="textNic" where="Olympic">
+<desc>Premiered at Royal Olympic Theatre 17 Oct. 1853</desc>
+</event>
+</listEvent></sourceDesc>
   </fileDesc>
-  <profileDesc><textClass><!--L_3_Drama_D._DRAMA--><catRef target="#sizeL"/><catRef target="#act3"/><catRef target="nic:D."/><keywords><term>DRAMA</term></keywords></textClass></profileDesc><revisionDesc><change when="2024-10-03">Header enriched</change>
+  <profileDesc><textClass><catRef target="#sizeL"/><catRef target="#act3"/><catRef target="nic:D."/><keywords><term>DRAMA</term></keywords></textClass><particDesc><listPerson>
+<person xml:id="L0191_M1">
+<persName type="role">Fouché </persName>
+<persName type="spkr" n="1">Fouché.</persName>
+<persName type="spkr" n="165">Fou.</persName>
+<persName type="spkr" n="2">Fouche.</persName>
+</person>
+<person xml:id="L0191_M2">
+<persName type="role">M. Desmarets </persName>
+<persName type="spkr" n="1">Desmarets.</persName>
+<persName type="spkr" n="164">Des.</persName>
+</person>
+<person xml:id="L0191_M3">
+<persName type="role">The Marquis De Cevennes </persName>
+<persName type="spkr" n="76">Cev.</persName>
+<persName type="spkr" n="2">Cevennes.</persName>
+</person>
+<person xml:id="L0191_M4">
+<persName type="role">Berthier </persName>
+<persName type="spkr" n="1">Berthier.</persName>
+<persName type="spkr" n="5">Ber.</persName>
+</person>
+<person xml:id="L0191_M5">
+<persName type="role">De Neuville </persName>
+<persName type="spkr" n="95">Neuv.</persName>
+</person>
+<person xml:id="L0191_M6">
+<persName type="role">Jabot </persName>
+<persName type="spkr" n="12">Jabot.</persName>
+<persName type="spkr" n="4">Jab.</persName>
+</person>
+<person xml:id="L0191_F7">
+<persName type="role">Grisboulle </persName>
+<persName type="spkr" n="2">Grisboulle.</persName>
+<persName type="spkr" n="13">Gris.</persName>
+<persName type="spkr" n="2">Karl.</persName>
+</person>
+<person xml:id="L0191_F8">
+<persName type="role">Madame De Fontanges </persName>
+<persName type="spkr" n="2">Madame de Fontanges.</persName>
+<persName type="spkr" n="162">Mad. de Fon.</persName>
+</person>
+<person xml:id="L0191_F9">
+<persName type="role">Cecile </persName>
+<persName type="spkr" n="18">Cecile.</persName>
+</person>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</listPerson></particDesc></profileDesc><revisionDesc><change when="2025-09-07">Metadata updated from new catalogue</change><change when="2024-10-03">Header enriched</change>
    <change when="2023-09-19">Hand edit; check structure; add pb</change>
    <change when="2023-09-13">Header confected</change>
   </revisionDesc>
@@ -37,23 +115,23 @@
    </performance>
    <castList>
     <head>Characters.</head>
-    <castItem><role gender="M">Fouché </role><roleDesc>(duke Of Otranto, Minister Of Police) </roleDesc><actor sex="M">Mr. Emery. </actor></castItem>
+    <castItem><role gender="M">Fouché </role><roleDesc>(duke Of Otranto, Minister Of Police) </roleDesc><actor ana="#M">Mr. Emery. </actor></castItem>
 
-    <castItem><role gender="M">M. Desmarets </role><roleDesc>(head Of The Secret Department Of Police) </roleDesc><actor sex="M">Mr. Robson. </actor></castItem>
+    <castItem><role gender="M">M. Desmarets </role><roleDesc>(head Of The Secret Department Of Police) </roleDesc><actor ana="#M">Mr. Robson. </actor></castItem>
 
-    <castItem><role gender="M">The Marquis De Cevennes </role><roleDesc>(a Legitimist) </roleDesc><actor sex="M">Mr. Leslie. </actor></castItem>
+    <castItem><role gender="M">The Marquis De Cevennes </role><roleDesc>(a Legitimist) </roleDesc><actor ana="#M">Mr. Leslie. </actor></castItem>
 
-    <castItem><role gender="M">Berthier </role><roleDesc>(prince Of Neufchatel, Grand Chamberlain) </roleDesc><actor sex="M">Mr. White. </actor></castItem>
+    <castItem><role gender="M">Berthier </role><roleDesc>(prince Of Neufchatel, Grand Chamberlain) </roleDesc><actor ana="#M">Mr. White. </actor></castItem>
 
-    <castItem><role gender="M">De Neuville </role><roleDesc>(secretary To De Cevennes) </roleDesc><actor sex="M">Mr. A. Wigan. </actor></castItem>
+    <castItem><role gender="M">De Neuville </role><roleDesc>(secretary To De Cevennes) </roleDesc><actor ana="#M">Mr. A. Wigan. </actor></castItem>
 
-    <castItem><role gender="M">Jabot </role><roleDesc>(house Steward To Madame De Fontanges) </roleDesc><actor sex="M">Mr. Lindon. </actor></castItem>
+    <castItem><role gender="M">Jabot </role><roleDesc>(house Steward To Madame De Fontanges) </roleDesc><actor ana="#M">Mr. Lindon. </actor></castItem>
 
-    <castItem><role gender="F">Grisboulle </role><roleDesc>(a Subordinate Of Desmarets) </roleDesc><actor sex="M">Mr. H. Cooper. </actor></castItem>
+    <castItem><role gender="F">Grisboulle </role><roleDesc>(a Subordinate Of Desmarets) </roleDesc><actor ana="#M">Mr. H. Cooper. </actor></castItem>
 
-    <castItem><role gender="F">Madame De Fontanges </role><actor sex="F">Mrs. Stirling. </actor></castItem>
+    <castItem><role gender="F">Madame De Fontanges </role><actor ana="#F">Mrs. Stirling. </actor></castItem>
 
-    <castItem><role gender="F">Cecile </role><roleDesc>(her Maid) </roleDesc><actor sex="F">Miss Turner. </actor></castItem>
+    <castItem><role gender="F">Cecile </role><roleDesc>(her Maid) </roleDesc><actor ana="#F">Miss Turner. </actor></castItem>
 
    </castList>
    <set>
@@ -98,57 +176,57 @@
      and a glass over it.</stage>
     <stage>Cecile at the fire-place. Jabot arranging the inkstand and a breviary on the
      table.</stage>
-    <sp>
+    <sp who="#L0191_F9">
      <speaker>Cecile.</speaker>
      <p>Seven o'clock, and Madame not returned! astonishing!</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M6">
      <speaker>Jabot.</speaker>
      <p>Cecile, how often must I repeat to you that servants in a good family ought never to be
       astonished? Madame is young, charming, a widow, and may choose her own hours.</p>
     </sp>
-    <sp>
+    <sp who="#L0191_F9">
      <speaker>Cecile.</speaker>
      <p>For her visitors—yes; but you forget this is her night for receiving her Confessor; she
       never would dare to keep the Abbé Lenoir waiting.</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M6">
      <speaker>Jab.</speaker>
      <p>Pooh! she must leave a few of her sins to stand over till next week—there's a running
       account between them. When the Abbé arrives shew him in here, and take care he is not
       disturbed in his pious exercises.</p>
     </sp>
     <pb n="4"/>
-    <sp>
+    <sp who="#L0191_F9">
      <speaker>Cecile.</speaker>
      <p>Hark! there's a fiacre in the court <stage>(she looks out)</stage> The Abbé! <stage>(she
       arranges her cap and hair at the glass. A ring is heard)</stage></p>
     </sp>
-    <sp>
+    <sp who="#L0191_M6">
      <speaker>Jabot.</speaker>
      <p>What! even for an Abbé!</p>
     </sp>
-    <sp>
+    <sp who="#L0191_F9">
      <speaker>Cecile.</speaker>
      <p>Why not? one must shew some respect for the church, Monsieur
       Jabot.<stage>                                        Exit Cecile, C.</stage></p>
     </sp>
-    <sp>
+    <sp who="#L0191_M6">
      <speaker>Jabot.</speaker>
      <p>Oh, woman! woman! As if that walking monument of mortification had eyes for a waiting
       maid!<stage>Re-enter Cecile shewing in Fouché in the dress of an Abbé. He walks with an air of
       pious abstraction; his hands folded, and his eyes cast down.</stage></p>
     </sp>
-    <sp>
+    <sp who="#L0191_M6">
      <speaker>Jab.</speaker>
      <p><stage> (R., wheeling an arm chair forward)</stage>Madame, unfortunately, has not yet
       returned—but she expected your Reverence's visit.</p>
     </sp>
-    <sp>
+    <sp who="#L0191_F9">
      <speaker>Cecile.</speaker>
      <p> (L)And directed that we should show every attention to your Reverence's wishes.</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M1">
      <speaker>Fouché.</speaker>
      <p>  Thank you, my children—I wish to be alone— see that no one enters this room, except your
       mistress, or my other penitent, M. de Cevennes, should he arrive.<stage>Jabot bows, Cecile
@@ -156,7 +234,7 @@
       window curtains, places the lights on the mantelpiece, and bolts the door by which they have
       gone, and also the folding-doors.</stage></p>
     </sp>
-    <sp>
+    <sp who="#L0191_M1">
      <speaker>Fou.</speaker>
      <p>Never trust an order while there's a bolt. Now for my ferret:—to all but me, M. le Bon, the
       respectable proprietor of the house next door—to me, Maximilian Desmarets, the most
@@ -167,352 +245,352 @@
       and papers. He takes a chair at the table, opens his box, unfolds his papers (R.), and sits
       looking at Fouche.</stage></p>
     </sp>
-    <sp>
+    <sp who="#L0191_M1">
      <speaker>Fou.</speaker>
      <p>At least, I am sure to find YOU at your post! <stage>(Desmarets chuckles and rubs his
       hands)</stage> These women think only of pleasure.</p>
     </sp>
     <pb n="5"/>
-    <sp>
+    <sp who="#L0191_M2">
      <speaker>Desmarets.</speaker>
      <p>So do I—my pleasure's here! <stage>(pointing to papers)</stage></p>
     </sp>
-    <sp>
+    <sp who="#L0191_M1">
      <speaker>Fou.</speaker>
      <p>I pay Madame de Fontanges enough to ensure diligence, too.</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M2">
      <speaker>Des.</speaker>
      <p>Madame receives exactly double what I do. Suppose you reversed the proportions?</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M1">
      <speaker>Fou.</speaker>
      <p>You would serve me no better, and she would not serve me at all; besides, she has the
       enormous recommendation of an unblemished character!</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M2">
      <speaker>Des.</speaker>
      <p>She!—so much for the world's judgment of a confirmed gambler!</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M1">
      <speaker>Fou.</speaker>
      <p>That is her only vice—a secret confined to us,   and her mask! It was a good thought to
       allow of masks at the public tables.</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M2">
      <speaker>Des.</speaker>
      <p>Do they hide many blushes?</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M1">
      <speaker>Fou.</speaker>
      <p>They save many reputations. No, my excellent Desmarets, I have not spent twenty years in
       guaging the price of consciences without arriving at a tolerably fair estimate of the money
       value of my species, from Kings downwards.</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M2">
      <speaker>Des.</speaker>
      <p>And you think my fidelity is worth just four thousand francs a month?</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M1">
      <speaker>Fou.</speaker>
      <p>With your character I think no one would pay half as much for your treachery.</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M2">
      <speaker>Des.</speaker>
      <p>You think so?</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M1">
      <speaker>Fou.</speaker>
      <p>If anybody should make the offer let me know, and we can enter into a fresh arrangement!</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M2">
      <speaker>Des.</speaker>
      <p>Ah! you know my heart is devoted to you!</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M1">
      <speaker>Fou.</speaker>
      <p>I know your <hi>head</hi> is, and, as times go, that is perhaps a better security. But to
       work:—first, your despatches from England!</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M2">
      <speaker>Des.</speaker>
      <p>Two.—<stage>(takes papers)</stage> One from Mons. Ouvrard, announcing that he has opened a
       negotiation for peace in <hi>your</hi> name, with the Foreign Secretary, but that he fears
       your other agent, Mons. Fagan, is not to be trusted.</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M1">
      <speaker>Fou.</speaker>
      <p>Ordered—that M. Ouvrard keep a strict watch over M. Fagan. <stage>(Desmarets makes a note on
       the despatch)</stage> And the other?</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M2">
      <speaker>Des.</speaker>
      <p>  From M. Fagan, stating that your overtures for peace have been most favourably received by
       the English Prime Minister, but that he has reason to believe M. Ouvrard is in the pay of the
       Emperor.</p>
     </sp>
     <pb n="6"/>
-    <sp>
+    <sp who="#L0191_M1">
      <speaker>Fou.</speaker>
      <p>Ordered—that M. Fagan establish a close espionage on M. Ouvrard. <stage>(Desmaret's makes a
       note on despatch as before)</stage> I have long found the advantage of running my agents in
       couples. Two rogues so employed are as good as one honest man!</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M2">
      <speaker>Des.</speaker>
      <p>And so much easier found.</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M1">
      <speaker>Fou.</speaker>
      <p>The envoy of the Emperor has not yet arrived in London?</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M2">
      <speaker>Des.</speaker>
      <p><stage> (referring to another paper)</stage>No; he reached Amsterdam on the 3rd, but he will
       not sail for three weeks. I have made the necessary arrangements.</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M1">
      <speaker>Fou.</speaker>
      <p>Good; by that time I shall have concluded my negociations, and the Emperor will have found
       himself once more anticipated by his Minister of Police. We must teach these people that they
       cannot do without us.</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M2">
      <speaker>Des.</speaker>
      <p>It is a dangerous lesson sometimes with such pupils as the Emperor.</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M1">
      <speaker>Fou.</speaker>
      <p>Hem! he has trusted me too far, Desmarets. Those letters, from his own hand, extending over
       the last ten years, are my security. While I have those, I stake his credit against my
       portfolio.</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M2">
      <speaker>Des.</speaker>
      <p>  And those letters, thanks to my skill in iron work, are safe in their secret deposit
       yonder <stage>(pointing off to secret door)</stage> How lucky the Revolution made a locksmith
       of me when it made a Member of the National Convention of you!</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M1">
      <speaker>Fou.</speaker>
      <p>Yes, we have both been able to serve the state and ourselves—go on.</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M2">
      <speaker>Des.</speaker>
      <p><stage> (takes a pamphlet up)</stage>From our London correspondent for printed
       papers—another of those pamphlets signed “Timon,” which have been already found so
       disagreeable in high quarters.</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M1">
      <speaker>Fou.</speaker>
      <p>Another? Is the Emperor never to be released from these attacks? Has this one reached
       France?</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M2">
      <speaker>Des.</speaker>
      <p>Thirty thousand copies have been distributed, but I am sorry to say I have not yet
       discovered by what channel, which is the more annoying as this one is not directed against the
       Emperor.</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M1">
      <speaker>Fou.</speaker>
      <p>Indeed! against whom, then?</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M2">
      <speaker>Des.</speaker>
      <p>Against yourself!</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M1">
      <speaker>Fou.</speaker>
      <p>Ah! <stage>(starts up)</stage></p>
     </sp>
-    <sp>
+    <sp who="#L0191_M2">
      <speaker>Des.</speaker>
      <p>It gives a very minute and apparently accurate account of your career.</p>
     </sp>
     <pb n="7"/>
-    <sp>
+    <sp who="#L0191_M1">
      <speaker>Fou.</speaker>
      <p>No matter. <stage>(uneasily)</stage></p>
     </sp>
-    <sp>
+    <sp who="#L0191_M2">
      <speaker>Des.</speaker>
      <p>From the date of your Professorship at Nantes all is recorded—your strong measures in the
       Convention—your speeches in the Jacobin Club—</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M1">
      <speaker>Fou.</speaker>
      <p>  Enough, enough!</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M2">
      <speaker>Des.</speaker>
      <p>What he calls your peculations in the Nièvre—your vote for the death of the King—your
       establishment of the Goddess of Reason in the Nivernais—</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M1">
      <speaker>Fou.</speaker>
      <p>Pshaw! A truce to those youthful indiscretions.</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M2">
      <speaker>Des.</speaker>
      <p>Your massacre at Lyons—your—</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M1">
      <speaker>Fou.</speaker>
      <p><stage> (striking sharply on the table)</stage>Desmarets, the mind of France must not be
       poisoned in this way!</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M2">
      <speaker>Des.</speaker>
      <p>Unfortunately the facts are supported by regular official documents.</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M1">
      <speaker>Fou.</speaker>
      <p>They are forgeries—I destroyed all those papers when I became Minister.</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M2">
      <speaker>Des.</speaker>
      <p>They may have been preserved, or copied.</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M1">
      <speaker>Fou.</speaker>
      <p>Impossible! you alone had access to them besides myself!—Desmarets, how comes it this man is
       not discovered before this?</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M2">
      <speaker>Des.</speaker>
      <p>Ha! ha! ha! What do you say to this. <stage>(Rises, and shows a written paper much frayed
       and dirtied)</stage> If we have not the man we have his handwriting.</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M1">
      <speaker>Fou.</speaker>
      <p>Give it me. How did you get this?</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M2">
      <speaker>Des.</speaker>
      <p>Through one of <hi>my</hi> agents—a compositor of the London printer, who puts into type
       these detestable calumnies.</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M1">
      <speaker>Fou.</speaker>
      <p>Your register of handwritings—quick! <stage>(Desmarets gives a small book which he takes
       from the box)</stage> Peltier, Fontaine, De Coigny, Talon. None of the known hands—Yet it is
       clearly not a feigned character. It is flowing,   bold, natural!</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M2">
      <speaker>Des.</speaker>
      <p>Like that of a man who believes what he writes, and glories in writing it—The wretch!
       <stage>(rubs his hands)</stage></p>
     </sp>
-    <sp>
+    <sp who="#L0191_M1">
      <speaker>Fou.</speaker>
      <p>I must have this scribbler, Desmarets, <stage>(stopping)</stage> do you hear? I must have
       him; the author of these miserable calumnies must be found—must disappear—a cell in Vincennes
       first, and then a file of Grenadiers. Find him for me, and I will not say what I will do for
       you, Desmarets. <stage>(He walks up and down, rapidly turning over the pamphlet)</stage></p>
     </sp>
-    <sp>
+    <sp who="#L0191_M2">
      <speaker>Des.</speaker>
      <p><stage> (aside)</stage>Ha, ha, ha!—I think I know—ha!—it stings, it stings! <stage>(he
       chuckles, and rubs his hands)</stage></p>
     </sp>
-    <sp>
+    <sp who="#L0191_M1">
      <speaker>Fou.</speaker>
      <p>Abominable! <stage>(to himself)</stage></p>
     </sp>
     <pb n="8"/>
-    <sp>
+    <sp who="#L0191_M2">
      <speaker>Des.</speaker>
      <p><stage> (aside)</stage>Excellent! <stage>(aloud)</stage> Oh! atrocious!</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M1">
      <speaker>Fou.</speaker>
      <p>Infamous!</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M2">
      <speaker>Des.</speaker>
      <p><stage> (aside)</stage>Beautiful! <stage>(aloud)</stage> Horrible!</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M1">
      <speaker>Fou.</speaker>
      <p><stage> (stopping short, and flinging down the pamphlet)</stage>Mons. Desmarets, I can
       dispense with a chorus. You have ordered De Cevennes to attend me here?</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M2">
      <speaker>Des.</speaker>
      <p>Yes—at half-past seven. 'Tis close on the time.</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M1">
      <speaker>Fou.</speaker>
      <p>And have you prepared his false dispatches?</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M2">
      <speaker>Des.</speaker>
      <p>They are here, expressing your great anxiety to conclude the Emperor's marriage with the
       Arch-Duchess Marie Louise!</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M1">
      <speaker>Fou.</speaker>
      <p>And the real ones, communicating my negotiations in favor of the match with Russia?</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M2">
      <speaker>Des.</speaker>
      <p>Here, as you directed, in the inside of the bonbons in this box. <stage>(shews box—noise of
       carriage)</stage> Hark!—   a carriage! <stage>(goes cautiously to window, and looks
       out)</stage> It is De Cevennes!</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M1">
      <speaker>Fou.</speaker>
      <p>Good!—another lesson for you, Desmarets. Fools make the best agents, provided they are
       skilfully hood-winked!</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M2">
      <speaker>Des.</speaker>
      <p><stage> (aside)</stage>I'll make a note of that for future use. Shall I retire?</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M1">
      <speaker>Fou.</speaker>
      <p>Yes.<stage>Fouche goes up, and unfastens door. Desmarets retires by secret passage, with box
       and papers. Fouche unlocks the door, C.</stage><stage>Enter the Marquis De Cevennes, ushered
       in by Jabot.</stage></p>
     </sp>
-    <sp>
+    <sp who="#L0191_M6">
      <speaker>Jabot.</speaker>
      <p>Monsieur le Marquis De Cevennes. <stage>(Fouche, who has taken up his breviary, and appears
       absorbed in it, lifts his head, rises and bows)</stage></p>
     </sp>
-    <sp>
+    <sp who="#L0191_M1">
      <speaker>Fou.</speaker>
      <p>Leave us, my son. <stage>(Exit Jabot R.)</stage><stage>(Fouche watches him out and locks the
       door)</stage> You were summoned here in the name of the Police. You did not expect to be
       received by one in this costume: You know the cowl does not always make the monk! I am
       Fouché.</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M3">
      <speaker>Cev.</speaker>
      <p><stage> (stammering)</stage>I am charmed to have the honor of making such an
       acquaintance.</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M1">
      <speaker>Fou.</speaker>
      <p>Monsieur De Cevennes, you are a man of the world <stage>(De Cevennes bows)</stage> so am I.
       You wish to know why you are summoned here! I will tell you. Your intrigues with the exiled
       family are discovered.</p>
     </sp>
     <pb n="9"/>
-    <sp>
+    <sp who="#L0191_M3">
      <speaker>Cev.</speaker>
      <p><stage> (confused)</stage>Sir!</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M1">
      <speaker>Fou.</speaker>
      <p>Do not interrupt me. A word from me would consign you to Vincennes for life.</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M3">
      <speaker>Cev.</speaker>
      <p>Sir, pardon me and I will confess all!</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M1">
      <speaker>Fou.</speaker>
      <p>Let me see first what there is to confess. <stage>(he reads from a paper very
       rapidly)</stage> On the 6th you obtained a   passport for Ostend on pretence of sea
@@ -524,54 +602,54 @@
       sickness—proceeded next morning to Hartwell—had an interview with the exiled Louis XVIII., at
       which you presented a statement of services, professed devotion, and asked for a Dukedom.</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M3">
      <speaker>Cev.</speaker>
      <p>Good gracious! All known! But I was alone with the King.</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M1">
      <speaker>Fou.</speaker>
      <p>Mons. de Blacas was in the room. When two persons are together I generally know what passes,
       when three invariably.</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M3">
      <speaker>Cev.</speaker>
      <p>Is it possible?</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M1">
      <speaker>Fou.</speaker>
      <p>You subsequently assured Mons. de Blacas that Napoleon Buonaparte was the man most detested
       by all classes in France—</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M3">
      <speaker>Cev.</speaker>
      <p>Oh, no! your grace—</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M1">
      <speaker>Fou.</speaker>
      <p>Except the wretch Fouché! Thank you, Mons. De Cevennes.</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M3">
      <speaker>Cev.</speaker>
      <p>  But I assure you—</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M1">
      <speaker>Fou.</speaker>
      <p>One moment—where was I? “Except the wretch Fouché!” Shall I go on, or can your confession
       add anything to this tolerably complete detail?</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M3">
      <speaker>Cev.</speaker>
      <p>Oh, Sir! as you are omniscient, be merciful. If the devotion of a life—</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M1">
      <speaker>Fou.</speaker>
      <p>That is a kind of devotion I have not, hitherto, found very available.</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M3">
      <speaker>Cev.</speaker>
      <p>If my gratitude—</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M1">
      <speaker>Fou.</speaker>
      <p>In my experience, fear is a more efficacious stimulus. Listen; I have need at the Austrian
       Court of a
@@ -579,11 +657,11 @@
       Cevennes bows again)</stage> and of polished manners. <stage>(De Cevennes bows still
       lower)</stage> I offer you the mission.</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M3">
      <speaker>Cev.</speaker>
      <p>I fly—</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M1">
      <speaker>Fou.</speaker>
      <p>You had better receive your instructions first. You are among Madame de Fontanges' guests
       to-night. <stage>(De Cevennes bows)</stage> In an hour a carriage will be waiting in that
@@ -593,156 +671,156 @@
       <stage>(giving them)</stage> and return at once, without pushing curiosity or gallantry
       further.</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M3">
      <speaker>Cev.</speaker>
      <p>  I will be as mute as a fish and as cold blooded.</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M1">
      <speaker>Fou.</speaker>
      <p>And—yes, I think I may trust you so far—you will also present to that lady a
       <hi>bonbonnière</hi> from Mons. Lenoir. Remember the name.</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M3">
      <speaker>Cev.</speaker>
      <p>Mons. Lenoir. It is engraved, Monsieur, here, <stage>(touching his forehead)</stage> as your
       clemency and confidence are here <stage>(touching his heart)</stage></p>
     </sp>
-    <sp>
+    <sp who="#L0191_M1">
      <speaker>Fou.</speaker>
      <p>And this is the suspicious and double-dealing Fouché! Confess, your friends of the Faubourg
       St. Germain do us injustice, marquis.</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M3">
      <speaker>Cev.</speaker>
      <p>I will undeceive them. Oh! your grace, I have been so ill requited for my services to the
       Royal Family. Here is my statement of them, I presented it six times without any effect to the
       King, I mean the exile. If you think it would serve me with the Emperor—<stage>(shews a paper,
       Fouche catches sight of it)</stage></p>
     </sp>
-    <sp>
+    <sp who="#L0191_M1">
      <speaker>Fou.</speaker>
      <p>Let me see your memorial.</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M3">
      <speaker>Cev.</speaker>
      <p><stage> (gives it)</stage>Modestly but firmly expressed—is it not?</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M1">
      <speaker>Fou.</speaker>
      <p><stage> (aside)</stage>The same hand. <stage>(to him)</stage> Perfect alike in style and
       calligraphy. Your own composition?</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M3">
      <speaker>Cev.</speaker>
      <p><stage> (simpering)</stage>Yes.</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M1">
      <speaker>Fou.</speaker>
      <p>And your own hand-writing?</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M3">
      <speaker>Cev.</speaker>
      <p>No—copied by my Secretary, a young man, a native of Guadaloupe, where his father was
       Governor, under Louis XV.</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M1">
      <speaker>Fou.</speaker>
      <p>What is his name?</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M3">
      <speaker>Cev.</speaker>
      <p><stage> (aside)</stage>He charged me to keep his name and arrival   a secret.
       <stage>(aloud)</stage> His name?</p>
     </sp>
     <pb n="11"/>
-    <sp>
+    <sp who="#L0191_M1">
      <speaker>Fou.</speaker>
      <p>Yes, I wish to make a note of it, for employment in my bureau. Such a writer ought to be at
       once laid hold of.</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M3">
      <speaker>Cev.</speaker>
      <p><stage> (aside)</stage>What a chance for him! <stage>(aloud)</stage> His name is Henry de
       Neuville.</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M1">
      <speaker>Fou.</speaker>
      <p>So!—de Neuville!—Guadaloupe!—<stage>(he reflects a moment)</stage> Like yourself, an
       adherent of the Bourbons, I presume?</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M3">
      <speaker>Cev.</speaker>
      <p>A rash young man; but one, I have no doubt, whose eyes may be soon opened to the error of
       his ways.</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M1">
      <speaker>Fou.</speaker>
      <p>As your's have been. I should like to see him. Bring him with you to-night; but remember
       that, in this house, I am not Fouché, the Duke of Otranto, but the Abbé Lenoir.</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M3">
      <speaker>Cev.</speaker>
      <p>I pledge you the honour of a De Cevennes; and when did a De Cevennes succumb to either fear
       or temptation?</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M1">
      <speaker>Fou.</speaker>
      <p><stage> (who has unlocked the door, goes up stage)</stage>Enough, enough—I know precisely
       what one De Cevennes is worth, and by him I estimate the value of the family!
       <stage>(bows)</stage></p>
     </sp>
-    <sp>
+    <sp who="#L0191_M3">
      <speaker>Cev.</speaker>
      <p>I will be punctual to a minute. <stage>(aside)</stage> Decidedly, one of the most agreeable
       persons I have ever met.<stage>                                        Exit de Cevennes,
       C.</stage></p>
     </sp>
-    <sp>
+    <sp who="#L0191_M1">
      <speaker>Fouche.</speaker>
      <p><stage> (eagerly comparing the paper given him by De Cevennes with the paper given him by
       Desmarets)</stage>Line for line, and letter for letter, the same!<stage>Desmarets enters
       noiselessly by secret door, and watches, R.</stage></p>
     </sp>
-    <sp>
+    <sp who="#L0191_M1">
      <speaker>Fou.</speaker>
      <p>I have this bravo of the pen—this stabber of reputations. To-night he shall sleep in
       Vincennes! <stage>(turns and sees Desmarets)</stage>   I did not call.</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M2">
      <speaker>Des.</speaker>
      <p> (R. C.)But I heard the door close, and I knew I was wanted! I have not yet got through my
       despatches.</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M1">
      <speaker>Fou.</speaker>
      <p>They will keep, Desmarets—they will keep! <stage>(exultingly)</stage> You look
       astonished!</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M2">
      <speaker>Des.</speaker>
      <p>I am not accustomed to see you indulge in the vulgar emotions of joy or sorrow.</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M1">
      <speaker>Fou.</speaker>
      <p>You are right. A Minister of Police, under the Emperor, cannot afford the luxury. Look here,
       my old friend—here! <stage>(holds up the two writings)</stage> There, Desmarets, what say you
       to that?</p>
     </sp>
     <pb n="12"/>
-    <sp>
+    <sp who="#L0191_M2">
      <speaker>Des.</speaker>
      <p>Eh!—I do not perceive—<stage>(with some confusion)</stage></p>
     </sp>
-    <sp>
+    <sp who="#L0191_M1">
      <speaker>Fou.</speaker>
      <p>Where are your eyes? The characters are identical to the turn of a hair stroke—and more, I
       know the writer,—and more than that, he will be here in half-an-hour!</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M2">
      <speaker>Des.</speaker>
      <p><stage> (agitated)</stage>Indeed!</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M1">
      <speaker>Fou.</speaker>
      <p>You do not seem to relish this discovery. <stage>(suspiciously)</stage> Ah! I see—you can't
       bear that I should have made it, instead of yourself; but enough, I feel I hold him fast.
@@ -753,17 +831,17 @@
       Prague, to the left. I will write a letter to the governor of the fortress, from your cabinet.
       You will wait here to receive Madame de Fontanges—why, Desmarets, you look confounded!</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M2">
      <speaker>Des.</speaker>
      <p>Your excitement stupifies me!</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M1">
      <speaker>Fou.</speaker>
      <p>It is unworthy of me, I admit it; but the Minister is but a man; he must be allowed his
       moments of weakness.<stage>                                        Exit Fouche by secret
       door.</stage></p>
     </sp>
-    <sp>
+    <sp who="#L0191_M2">
      <speaker>Des.</speaker>
      <p>De Neuville discovered—arrested! will he have mettle to resist and keep the secret? Should
       he turn coward and purchase pardon by discovering that it is from one of Fouché's confidential
@@ -782,317 +860,317 @@
     <pb n="13"/>
     <stage>Enter Madame de Fontanges (taking off a mask as she enters; agitated and parched.
      L.)</stage>
-    <sp>
+    <sp who="#L0191_F8">
      <speaker>Madame de Fontanges.</speaker>
      <p>The Duke?</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M2">
      <speaker>Des.</speaker>
      <p>He is busy in my cabinet; can I not supply his place?</p>
     </sp>
-    <sp>
+    <sp who="#L0191_F8">
      <speaker>Mad. de Fon.</speaker>
      <p>What money have you about you?</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M2">
      <speaker>Des.</speaker>
      <p>Money?</p>
     </sp>
-    <sp>
+    <sp who="#L0191_F8">
      <speaker>Mad. de Fon.</speaker>
      <p>Yes, you ought to understand the word, money!</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M2">
      <speaker>Des.</speaker>
      <p>My last month's salary was paid to-day; it is here —four thousand francs. <stage>(shews
       pocket-book)</stage></p>
     </sp>
-    <sp>
+    <sp who="#L0191_F8">
      <speaker>Mad. de Fon.</speaker>
      <p>Give it me—quick!</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M2">
      <speaker>Des.</speaker>
      <p>Eh! give it you?</p>
     </sp>
-    <sp>
+    <sp who="#L0191_F8">
      <speaker>Mad. de Fon.</speaker>
      <p>Your master—our master, Fouché, will repay it on my order. <stage>(writes hurriedly)</stage>
       Here! now the four thousand francs!</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M2">
      <speaker>Des.</speaker>
      <p>Madam, I have an infinite respect for you, and the most implicit confidence in your note of
       hand, but you will forgive my hesitating, at least, till I know—</p>
     </sp>
-    <sp>
+    <sp who="#L0191_F8">
      <speaker>Mad. de Fon.</speaker>
      <p>Till you know what I want this money for so urgently? 'Tis the old story, then, if you will
       have it; I have played again to-night; I have lost all, down to my bracelets—see!
       <stage>(holds out her arms)</stage> I want my revenge! <stage>(hoarsely)</stage> I shall win
       all back—I feel I shall! Quick, the money!</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M2">
      <speaker>Des.</speaker>
      <p>Madame—Madame de Fontanges, I would give   you anything—everything I possess in the
       world—but this money I will not give you!</p>
     </sp>
-    <sp>
+    <sp who="#L0191_F8">
      <speaker>Mad. de Fon.</speaker>
      <p>Insolent! you dare to refuse me?</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M2">
      <speaker>Des.</speaker>
      <p>I will not supply you with the means of ruining your beauty—your health—your happiness—your
       peace of mind—at the gaming-table.</p>
     </sp>
-    <sp>
+    <sp who="#L0191_F8">
      <speaker>Mad. de Fon.</speaker>
      <p>Youth—beauty—peace of mind! Ha! ha! ha! <stage>(bitterly)</stage> You forget to whom you are
       speaking.</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M2">
      <speaker>Des.</speaker>
      <p>To Marie de Fontanges—the daughter of a noble father, the widow of a brave gentleman, the
       ornament of the Faubourg St. Germain!</p>
     </sp>
-    <sp>
+    <sp who="#L0191_F8">
      <speaker>Mad. de Fon.</speaker>
      <p>No, no!—that is the world's Madame de Fontanges. You speak to Marie de Fontanges, the
       gambler, the spy, the creature of Joseph Fouché, and, lower still—if there be a lower—of
       Maximilian Desmarets!—No more words; but the money, man, the money!</p>
     </sp>
     <pb n="14"/>
-    <sp>
+    <sp who="#L0191_M2">
      <speaker>Des.</speaker>
      <p>You use a strange way to charm it out of my pocket.</p>
     </sp>
-    <sp>
+    <sp who="#L0191_F8">
      <speaker>Mad. de Fon.</speaker>
      <p>Pshaw! Do you want me to cringe for it—to wheedle and cajole? I am low enough even for that,
       but do not force me.</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M2">
      <speaker>Des.</speaker>
      <p>Why will you repay with scorn my respectful interest?</p>
     </sp>
-    <sp>
+    <sp who="#L0191_F8">
      <speaker>Mad. de Fon.</speaker>
      <p>Interest!—you forget to whom you are speaking.</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M2">
      <speaker>Des.</speaker>
      <p>  You have reminded me—to the gambler, the spy, the creature of Joseph Fouché.</p>
     </sp>
-    <sp>
+    <sp who="#L0191_F8">
      <speaker>Mad. de Fon.</speaker>
      <p>True, true—why will you awaken in me a pride I ought to forget?</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M2">
      <speaker>Des.</speaker>
      <p>Because I love you.</p>
     </sp>
-    <sp>
+    <sp who="#L0191_F8">
      <speaker>Mad. de Fon.</speaker>
      <p>You!</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M2">
      <speaker>Des.</speaker>
      <p>Why not? By your own showing, we are equal. But it is not that I would level you with me; I
       wish you to be a thing that I may look up to—that may teach me to be better myself, and to
       think better of others.</p>
     </sp>
-    <sp>
+    <sp who="#L0191_F8">
      <speaker>Mad. de Fon.</speaker>
      <p>No more of this, Desmarets. Desperate necessities, and an absorbing passion, may have driven
       me to Fouché's service; the chances of the table, and some love of secret power, may keep me
       there. I seldom look into myself; but you almost awaken me to reason, when you show me how
       near I am fallen to the level of a creature like you.</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M2">
      <speaker>Des.</speaker>
      <p>I am low—I know it; but love works such wonders! It will save me. It is the one spark of
       good left here—<stage>(touching his heart)</stage> do not trample it out—do not! <stage>(he
       kneels)</stage></p>
     </sp>
-    <sp>
+    <sp who="#L0191_F8">
      <speaker>Mad. de Fon.</speaker>
      <p>Miscreant! dog! slave of a slave!—stand up, or I will tread you under my feet!</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M2">
      <speaker>Des.</speaker>
      <p>Take care—I might hurt your heel. Marie, listen to me!</p>
     </sp>
-    <sp>
+    <sp who="#L0191_F8">
      <speaker>Mad. de Fon.</speaker>
      <p>Silence! Oh, I hear foul words enough about the green table, and try to shut my ears to
       them; but   I would like to remember them all, that I might pour them on your sordid head.
       Serpent! let go my hand! <stage>(she tears her hand away from his)</stage></p>
     </sp>
-    <sp>
+    <sp who="#L0191_M2">
      <speaker>Des.</speaker>
      <p><stage> (rising, and maliciously)</stage>Ha, ha, ha!—my hand pollutes you, but you will
       touch my money. Here it is— bought with lies, and treachery, and blood—buy with it misery, and
       madness, and despair. Here, here, here! <stage>(forcing it on her)</stage></p>
     </sp>
     <pb n="15"/>
-    <sp>
+    <sp who="#L0191_F8">
      <speaker>Mad. de Fon.</speaker>
      <p>How dare you? Keep your money—I will not take it. <stage>(to R.)</stage> Yet, no—give it me,
       quick—black came up eight times running—the colour must change—I will try a martingale on
       red—double or quits every throw— the luck must turn—it must—or there is laudanum at the
       worst.<stage>                                        Exit, furiously, L.</stage></p>
     </sp>
-    <sp>
+    <sp who="#L0191_M2">
      <speaker>Des.</speaker>
      <p>So, Marie de Fontanges! “Serpent,” she said; well, serpents are grovelling things, no doubt,
       and proud folks tread on them, but they sting, and so does Maximilian Desmarets.<stage>Enter
       Fouche at secret door R.</stage></p>
     </sp>
-    <sp>
+    <sp who="#L0191_M1">
      <speaker>Fou.</speaker>
      <p>Has Mademoiselle de Fontanges not yet returned?</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M2">
      <speaker>Des.</speaker>
      <p>Yes; from the gaming table—plucked to the last feather, as usual.</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M1">
      <speaker>Fou.</speaker>
      <p>Why don't she cheat?</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M2">
      <speaker>Des.</speaker>
      <p>She has still some scruples left; another twelve-month under your tuition may remove them.
       Not finding you, she has gone back for another cast of the dice.</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M1">
      <speaker>Fou.</speaker>
      <p>Her passion for play will be that woman's ruin.<stage>Enter Jabot, C.</stage></p>
     </sp>
-    <sp>
+    <sp who="#L0191_M6">
      <speaker>Jab.</speaker>
      <p>M. De Cevennes—M. De Neuville.<stage>Enter De Cevennes and De Neuville, C.</stage></p>
     </sp>
-    <sp>
+    <sp who="#L0191_M3">
      <speaker>Cev.</speaker>
      <p>  Abbé, let me present to you my secretary, M. De Neuville; M. De Neuville, the Abbé Lenoir.
       <stage>(they bow)</stage></p>
     </sp>
-    <sp>
+    <sp who="#L0191_M1">
      <speaker>Fou.</speaker>
      <p>The unworthy confessor of Madame De Fontanges.</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M5">
      <speaker>Neuv.</speaker>
      <p>Pardi, Abbé! your task should be a light one, for Madame De Fontanges, the Marquis assures
       me, is perfect.</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M1">
      <speaker>Fou.</speaker>
      <p>Perfection is not given to erring humanity; but Madame is unusually near it.—A model for her
       sex and a goddess for ours. <stage>(sighs and folds his hands)</stage></p>
     </sp>
-    <sp>
+    <sp who="#L0191_M5">
      <speaker>Neuv.</speaker>
      <p>She seems to want one virtue, however—punctuality—for here we are in the temple, but where
       is the divinity?</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M1">
      <speaker>Fou.</speaker>
      <p>Your language is profane.</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M5">
      <speaker>Neuv.</speaker>
      <p>I beg your pardon. <stage>(Desmarets goes to window)</stage></p>
     </sp>
-    <sp>
+    <sp who="#L0191_M1">
      <speaker>Fou.</speaker>
      <p>Nay, I know the warmth of a tropical temperament, and can excuse it.</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M5">
      <speaker>Neuv.</speaker>
      <p>I will try not to sin again; but our Creole tongues, Abbé, have a terrible trick of running
       away with their masters.</p>
     </sp>
     <pb n="16"/>
-    <sp>
+    <sp who="#L0191_M1">
      <speaker>Fou.</speaker>
      <p>You will find the need of a curb in Paris, my young friend.</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M5">
      <speaker>Neuv.</speaker>
      <p>I will put the unruly member under your training. Luckily, here, in the Faubourg St.
       Germain, we are safe.</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M1">
      <speaker>Fou.</speaker>
      <p>Alas! how little you know Paris! You may, even now, be surrounded by spies. May he not, M.
       De Cevennes?</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M3">
      <speaker>Cev.</speaker>
      <p>  Eh! so they say; but I don't believe it!—<stage>(aside)</stage> incredible
       self-command!</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M5">
      <speaker>Neuv.</speaker>
      <p>Well, I will promise to be rash only in the Marquis's hearing, and in yours, Abbé, and then,
       at least, I shall be secure!</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M1">
      <speaker>Fou.</speaker>
      <p>Let us hope so; but Madame de Fontanges does not appear! I suppose I must give up my game at
       picquet.</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M5">
      <speaker>Neuv.</speaker>
      <p>If you will allow the Marquis or myself to replace the lady for once, and then you can
       lecture me while we play—<stage>(he approaches a table; Jabot places card table)</stage> you
       will find me the most patient of penitents.</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M1">
      <speaker>Fou.</speaker>
      <p>With all my heart, my son. But you will find me a bad schoolmaster; I have too much sympathy
       with the openness and ardour of youth.</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M2">
      <speaker>Des.</speaker>
      <p><stage> (who has been at the window, aside to Fouche)</stage>De Cevennes' carriage for
       Prague has arrived, and the coach for Vincennes. <stage>(aside)</stage></p>
     </sp>
-    <sp>
+    <sp who="#L0191_M1">
      <speaker>Fou.</speaker>
      <p>Good! now for our game.</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M2">
      <speaker>Des.</speaker>
      <p>If you'll allow me, I will look on.</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M5">
      <speaker>Neuv.</speaker>
      <p><stage> (aside to Fouche)</stage>You can rely on him?</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M1">
      <speaker>Fou.</speaker>
      <p>As on a second self: he is one of us; come! <stage>(Fouche and De Neuville sit at the table;
       Desmarets and De Cevennes look on)</stage></p>
     </sp>
-    <sp>
+    <sp who="#L0191_M1">
      <speaker>Fou.</speaker>
      <p>I conclude from your high spirits, my son, that you have not been long in Paris?</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M5">
      <speaker>Neuv.</speaker>
      <p>Only a fortnight! and, to tell you the truth, I am disenchanted already; I had imagined it
       the home of   pleasure, gaiety, and wit; the theatre of noble arts, the arena of great
       deeds.</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M1">
      <speaker>Fouche.</speaker>
      <p>And you have found it—</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M5">
      <speaker>Neuv.</speaker>
      <p>The haunt of intrigue, servility, and treachery; a great prison, where every one is the
       gaoler of his own thoughts; a huge masquerade, but without the mirth, the music, and the
@@ -1100,99 +1178,99 @@
       <pb n="17"/> unclouded skies, its palms, and summer seas, where, though slavery surrounds us,
       we whites at least are free to move, and speak, and think like men.</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M2">
      <speaker>Des.</speaker>
      <p>You are primitive in your tastes, Sir!</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M5">
      <speaker>Neuv.</speaker>
      <p>Very! I hate laughter without joyousness; lovemaking without passion; society without
       confidence, and sanctimoniousness without piety. I fear I am very old-fashioned.</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M3">
      <speaker>Cev.</speaker>
      <p>Oh, savage! perfectly savage!<foreign>“Tytire du patulæ recubans sub tegmine
       fagi!”</foreign></p>
     </sp>
-    <sp>
+    <sp who="#L0191_M1">
      <speaker>Fou.</speaker>
      <p>Yes, Paris is sadly changed; but we must pay the price of imperial glory! <stage>(shrugging
       his shoulders)</stage></p>
     </sp>
-    <sp>
+    <sp who="#L0191_M5">
      <speaker>Neuv.</speaker>
      <p>The glory of one man bought by the misery of millions! There is no true glory so purchased,
       Abbé. Frenchman as I am, I feel dishonoured in this man's greatness. Blood tarnishes the gold
       of his crown; blood stains the purple of his Imperial robe! His acquisitions are a robber's
       booty; his triumphs, the brutal mastery of wrong.</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M3">
      <speaker>Cev.</speaker>
      <p>  Hush, De Neuville! <stage>(behind table, L. C.)</stage></p>
     </sp>
-    <sp>
+    <sp who="#L0191_M1">
      <speaker>Fou.</speaker>
      <p>Let him talk—he refreshes me!</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M2">
      <speaker>Des.</speaker>
      <p>It is most refreshing!—your card, M. de Neuville.</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M5">
      <speaker>Neuv.</speaker>
      <p>And is it to this, Abbé, that the horrors of the revolution are to conduct us? Must the
       drunken dream of the mob end in the heavy waking of the prison house, or the bloody delirium
       of the battle field? No, this cannot be the end. This is a purgatory we are passing
       through—the glory is beyond.</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M1">
      <speaker>Fou.</speaker>
      <p><stage> (aside)</stage>The very style! <stage>(aloud)</stage> Ah! could we but find pens to
       write these truths!</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M5">
      <speaker>Neuv.</speaker>
      <p>Why not, if there are swords to maintain them? but the swords will come, for when were such
       thoughts spoken but they found echoes in a thousand breasts?</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M1">
      <speaker>Fou.</speaker>
      <p>Yes, thank the spirit of old French chivalry, we have still some who dare utter all we feel.
       The author of those recent pamphlets, for example, signed Timon, those master-pieces of
       indignant eloquence—</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M5">
      <speaker>Neuv.</speaker>
      <p>What—you have read them?</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M1">
      <speaker>Fou.</speaker>
      <p>I know them by heart.</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M5">
      <speaker>Neuv.</speaker>
      <p><stage> (grasping his hand)</stage>If you knew the good these words do me—</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M2">
      <speaker>Des.</speaker>
      <p>I have read them too—that last, for example, against the monster Fouché.</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M1">
      <speaker>Fou.</speaker>
      <p>Ah! how the wretch must have writhed!</p>
     </sp>
     
-    <sp>
+    <sp who="#L0191_M5">
      <speaker>Neuv.</speaker>
      <p>  I thought he was invulnerable to shame, as he is inaccessible to pity. Depend upon it
       Fouché is one of that lowest stamp of rogue, who imagines shamelessness, heroism, and
       consistent rascality, statesmanship. Oh, I know him well, Abbé.</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M1">
      <speaker>Fou.</speaker>
      <p>I have heard him called inscrutable.</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M5">
      <speaker>Neuv.</speaker>
      <p>Only because few are base enough even to conceive the acts which he practices habitually.
       No, that pamphlet traces his career, step by step, through every doubling, from disguise to
@@ -1200,79 +1278,79 @@
       of the Imperial throne, the tricky head to guide the desperate hand. Does that pamphlet
       contain one word beyond the truth?</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M2">
      <speaker>Des.</speaker>
      <p>Not one.</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M5">
      <speaker>Neuv.</speaker>
      <p>Every document cited was authentic, for I had information—</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M2">
      <speaker>Des.</speaker>
      <p><stage> (breaking hastily)</stage>Monsieur, you've lost a fish—two fish—four, you'll be
       ruined if you don't attend to your cards.</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M5">
      <speaker>Neuv.</speaker>
      <p>Thank you for the warning, but the subject of these pamphlets has a peculiar interest for
       me.</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M1">
      <speaker>Fou.</speaker>
      <p>A nearer one, young man, than it would be safe to avow here. Nay, do not start—our friend de
       Cevennes has hinted.</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M3">
      <speaker>Cev.</speaker>
      <p><stage> (deprecatingly)</stage>Oh, Sir!</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M5">
      <speaker>Neuv.</speaker>
      <p>What, De Cevennes, you cannot have been so   imprudent?</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M1">
      <speaker>Fou.</speaker>
      <p>Oh! he knew his man. Do not blush. Great writer, scourge of tyranny, barer of the face of
       fraud, let me embrace you. <stage>(embraces him, then speaks aside over De Neuville's shoulder
       to Desmarets)</stage> Now!</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M2">
      <speaker>Des.</speaker>
      <p>M. De Cevennes, have you brought with you that list of your services which you promised
       us?</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M3">
      <speaker>Cev.</speaker>
      <p>No, I—I left it at home, I think, on my bureau.</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M2">
      <speaker>Des.</speaker>
      <p>Careless man that you are! It is most unfortunate, as the Abbé wanted to forward it.</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M5">
      <speaker>Neuv.</speaker>
      <p>I will go for it with pleasure. I know the paper— I copied it only yesterday! <stage>(rises.
       Desmarets writes on a card unseen)</stage></p>
     </sp>
-    <sp>
+    <sp who="#L0191_M1">
      <speaker>Fou.</speaker>
      <p>Nay, I cannot allow you to take this trouble.</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M5">
      <speaker>Neuv.</speaker>
      <p>Yes, yes! If only to hide my confusion at your praises.</p>
     </sp>
     <pb n="19"/>
-    <sp>
+    <sp who="#L0191_M1">
      <speaker>Fou.</speaker>
      <p>Stop, my coach is below; suppose you take it—the night is damp!</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M5">
      <speaker>Neuv.</speaker>
      <p>A thousand thanks!</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M2">
      <speaker>Des.</speaker>
      <p>I will show it you from the window, if the fog will permit. <stage>(takes him to
       window)</stage> There, the fiacre on right of the entrance <stage>(quick, and aside)</stage>
@@ -1282,208 +1360,208 @@
 
     
     <stage>Exit De Neuville (C.), Desmarets returns to Fouche and De Cevennes.</stage>
-    <sp>
+    <sp who="#L0191_M2">
      <speaker>Des.</speaker>
      <p><stage> (aside to Fouche)</stage>It's done!</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M1">
      <speaker>Fou.</speaker>
      <p><stage> (aside to Desmarets)</stage>Excellently managed!<stage>Enter Madame de Fontanges
       (L.)—her manner is entirely changed—she is radiant with joyous excitement.</stage></p>
     </sp>
-    <sp>
+    <sp who="#L0191_M1">
      <speaker>Fou.</speaker>
      <p>  At last, daughter!</p>
     </sp>
-    <sp>
+    <sp who="#L0191_F8">
      <speaker>Mad. de Fon.</speaker>
      <p>A thousand pardons, Abbé! Marquis, what penance should he impose? <stage>(aside)</stage> M.
       Desmarets, your money, doubled! <stage>(he takes it, and goes up L. H.)</stage></p>
     </sp>
-    <sp>
+    <sp who="#L0191_M3">
      <speaker>Cev.</speaker>
      <p><stage> (crosses L. to Madame)</stage>Ah, Madame! always charming—always radiant! How lovely
       you are to-night!</p>
     </sp>
-    <sp>
+    <sp who="#L0191_F8">
      <speaker>Mad. de Fon.</speaker>
      <p>Hush, hush, or the Abbé will scold you! I have to confess to him, and your delicate
       compliments will oblige me to add another to my list of sins. Item—to one indulgence in
       feminine vanity. No, not a word will I hear! <stage>(cross to R. H. to Fouche)</stage></p>
     </sp>
-    <sp>
+    <sp who="#L0191_M3">
      <speaker>Cev.</speaker>
      <p>Ah! cruel! <stage>(goes up L. H. to Desmarets)</stage></p>
     </sp>
-    <sp>
+    <sp who="#L0191_M1">
      <speaker>Fou.</speaker>
      <p><stage> (talking to Mad. de Fontanges, forward)</stage>What is the meaning of this?
       Desmarets tells me you have been playing again.</p>
     </sp>
-    <sp>
+    <sp who="#L0191_F8">
      <speaker>Mad. de Fon.</speaker>
      <p>Yes, increasing your revenue, M. Fouché. Nay, don't frown at me, what would become of your
       secret service money, without the contributions of the gaming houses? And what would become of
       their contributions without me, and those like me? You see I am logical for a woman.</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M1">
      <speaker>Fou.</speaker>
      <p>Woman never yet wanted logic to guide her to ruin.</p>
     </sp>
-    <sp>
+    <sp who="#L0191_F8">
      <speaker>Mad. de Fon.</speaker>
      <p>Ruin! Ha, ha, ha! Who first lured me to the table?</p>
     </sp>
     <pb n="20"/>
-    <sp>
+    <sp who="#L0191_M1">
      <speaker>Fou.</speaker>
      <p>My agents, but that was to drive you into my nets—   now you are there, I wish you to avoid
       those places.</p>
     </sp>
-    <sp>
+    <sp who="#L0191_F8">
      <speaker>Mad. de Fon.</speaker>
      <p>And our compact—do I not keep it? Do I not play your spy at those places.</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M1">
      <speaker>Fou.</speaker>
      <p>No, you get so excited by your cards that you lose your faculties of observation. Once for
       all, you must  and shall give up play. Do you
       hear me?</p>
     </sp>
-    <sp>
+    <sp who="#L0191_F8">
      <speaker>Mad. de Fon.</speaker>
      <p>And you tell me this—<hi>you</hi> and to-night when I have broken the bank at
       Petiot's—see—<stage>(thrusts her hand into her bosom, and brings it out filled with bank
       notes)</stage> why, man, I am independent of you for a week. <stage>(she goes up L.
       C.)</stage></p>
     </sp>
-    <sp>
+    <sp who="#L0191_M1">
      <speaker>Fou.</speaker>
      <p><stage> (aside)</stage>It is hopeless to speak to her now. I must get her away from
       Paris.</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M3">
      <speaker>Cev.</speaker>
      <p><stage> (L. C. looking at the pendule)</stage>It is nine o'clock, the hour fixed for my
       departure. <stage>(to Fouche)</stage> M. le Duc, my time is come.</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M1">
      <speaker>Fou.</speaker>
      <p>You are punctual; a good sign; your dispatches are in the carriage.</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M3">
      <speaker>Cev.</speaker>
      <p>And the <hi>bonbonnière</hi>?</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M1">
      <speaker>Fou.</speaker>
      <p>Ah I had forgotten that, in weightier matters. <stage>(takes it from his pocket)</stage>
       There.</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M2">
      <speaker>Des.</speaker>
      <p><stage> (taking him to the window)</stage>The carriage on the right of the entrance.</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M3">
      <speaker>Cev.</speaker>
      <p>Thank you. I am infinitely obliged.</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M2">
      <speaker>Des.</speaker>
      <p>Oh! do not mention it<stage>                                        Exit de
       Cevennes</stage></p>
     </sp>
-    <sp>
+    <sp who="#L0191_F8">
      <speaker>Mad. de Fon.</speaker>
      <p><stage> (throws herself into a chair L. H.)</stage>Thank Heaven that coxcomb is gone at
       last, I could not have borne   his chatter a minute longer. I feel faint—some of that water,
       Duke?</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M1">
      <speaker>Fou.</speaker>
      <p><stage> (giving it to her)</stage>Fool! you see what this excitement leads to.</p>
     </sp>
-    <sp>
+    <sp who="#L0191_F8">
      <speaker>Mad. de Fon.</speaker>
      <p>Do not scold me now. I cannot bear it; leave me to myself a little. I have a calculation to
       make <stage>(she takes a pack of cards to table and begins to combine them— marking their
       color with a pin on a card as they turn up.)</stage></p>
     </sp>
-    <sp>
+    <sp who="#L0191_M1">
      <speaker>Fou.</speaker>
      <p>I will stay, and stay you, Desmarets <stage>(a noise heard without)</stage> What is that?
       <stage>(two shots fired)</stage> The prisoner!</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M2">
      <speaker>Des.</speaker>
      <p>He leaps from the carriage. He runs this way.</p>
     </sp>
-    <sp>
+    <sp who="#L0191_F8">
      <speaker>Mad. de Fon.</speaker>
      <p>I thought my house safe—at least from this. <stage>(De Cevennes rushes in, followed by an
       Officer and Two Gendarmes, C.)</stage></p>
     </sp>
     <pb n="21"/>
-    <sp>
+    <sp who="#L0191_M1">
      <speaker>Fou.</speaker>
      <p>De Cevennes!</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M3">
      <speaker>Cev.</speaker>
      <p>Save me—M. le Duc—Abbé—I mean—say it is a mistake—say I'm not the man. <stage>(down R.
       Desmarets speaks aside to the Officer who orders the Gendarmes They fall back respectfully.
       Desmarets goes off after them, C.)</stage></p>
     </sp>
-    <sp>
+    <sp who="#L0191_M3">
      <speaker>Cev.</speaker>
      <p>There—I said I was not the man! But they would fire, though, thanks to the fog, they missed
       me.</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M1">
      <speaker>Fou.</speaker>
      <p> (R. C.)Now, Sir, what is the meaning of this?</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M3">
      <speaker>Cev.</speaker>
      <p> (R.)That is what I was about most respectfully to ask you.<stage>Re-Enter Desmarets. He and
       Fouche come forward. De Cevennes talks to Madame de F.</stage></p>
     </sp>
-    <sp>
+    <sp who="#L0191_M2">
      <speaker>Des.</speaker>
      <p> (R)A mistake of the carriages, owing, no doubt, to the fog. De Neuville is, by this time,
       beyond the barrier, on his way to Prague, in the carriage intended for M. de Cevennes!</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M1">
      <speaker>Fou.</speaker>
      <p>Quick, the telegraph!</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M2">
      <speaker>Des.</speaker>
      <p>I thought of that, but unfortunately the fog is too   thick for the telegraph to work.</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M1">
      <speaker>Fou.</speaker>
      <p>Baffled! Confusion!—Desmarets, this is your bungling.</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M2">
      <speaker>Des.</speaker>
      <p><stage> (shrugging his shoulders)</stage>I really cannot undertake to control the fog.</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M1">
      <speaker>Fou.</speaker>
      <p>By to-morrow morning pursuit will be in vain— nothing can stop him!</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M2">
      <speaker>Des.</speaker>
      <p>What a pity it is I had made such perfect arrangements that the Marquis's journey should be
       uninterrupted!</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M1">
      <speaker>Fou.</speaker>
      <p>Marquis De Cevennes, this will cause a day's delay in our plan; but be ready to start
       to-morrow. <stage>(he reflects)</stage></p>
     </sp>
-    <sp>
+    <sp who="#L0191_M3">
      <speaker>Cev.</speaker>
      <p>Certainly, M. le Duc; but I do hope you will give the gendarmes orders to be a little more
       particular about firing. Madame, I have the
@@ -1491,104 +1569,104 @@
       C.</stage><stage>(Madame de Fontanges has returned to her occupation with the
       cards.)</stage></p>
     </sp>
-    <sp>
+    <sp who="#L0191_M1">
      <speaker>Fou.</speaker>
      <p>Your plan, Desmarets?</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M2">
      <speaker>Des.</speaker>
      <p>He will be on friendly territory at Prague—it won't do to carry him off by force.</p>
     </sp>
     <pb n="22"/>
-    <sp>
+    <sp who="#L0191_M1">
      <speaker>Fou.</speaker>
      <p>I know an infinity of schemes that won't do—tell me one that will.</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M2">
      <speaker>Des.</speaker>
      <p>Suppose you sent her <stage>(pointing to Mad. de Fon.)</stage> to draw him back to Paris—she
       is a stranger to him and she has attractions, till you know her? <stage>(aside)</stage> Ho,
       ho, ho! my proud lady won't like that task, I think.</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M1">
      <speaker>Fou.</speaker>
      <p>A good thought! <stage>(he touches her on the shoulder)</stage> Madame, your health is
       evidently impaired by the excitement   of Paris—you require change of air! A young gentleman
       has just succeeded in escaping from Paris, whom it is essential I should have brought back
       again.</p>
     </sp>
-    <sp>
+    <sp who="#L0191_F8">
      <speaker>Mad. de Fon.</speaker>
      <p>Well, Sir, what is that to me?</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M1">
      <speaker>Fou.</speaker>
      <p>You must follow him to Prague, where he has taken refuge; and employ those charms which are
       so irresistible when you like to exert them, to attract him again to Paris.</p>
     </sp>
-    <sp>
+    <sp who="#L0191_F8">
      <speaker>Mad. de Fon.</speaker>
      <p>No! I have been your spy, but I will not be your decoy. <stage>(rises and crosses
       R.)</stage></p>
     </sp>
-    <sp>
+    <sp who="#L0191_M1">
      <speaker>Fou.</speaker>
      <p>As a request is insufficient, I regret to change it into an order.</p>
     </sp>
-    <sp>
+    <sp who="#L0191_F8">
      <speaker>Mad. de Fon.</speaker>
      <p>And I must meet that order by a refusal. Oh, I know you can imprison me—torture me—murder
       me, perhaps—I shall not be the first, I have not forgotten Pichegrue and Cadoudal!</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M1">
      <speaker>Fou.</speaker>
      <p>They were state criminals; but, my dear Madam, when did you ever know me rude to a lady? No,
       you are free to refuse—do so, and to-morrow I have you proclaimed in every drawing-room of
       Paris as the paid agent of the police —the salaried spy of Fouché.</p>
     </sp>
-    <sp>
+    <sp who="#L0191_F8">
      <speaker>Mad. de Fon.</speaker>
      <p>You will not. You cannot have the heart to put this choice upon me. You know me for what I
       am, but still I have a high place and fair fame in the world. I will be your slave—your
       unquestioning tool in all besides this—but do   not set me between such business and such
       dishonor.</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M1">
      <speaker>Fou.</speaker>
      <p>Choose!</p>
     </sp>
-    <sp>
+    <sp who="#L0191_F8">
      <speaker>Mad. de Fon.</speaker>
      <p>I know you cannot feel respect for me, but there may be some women in the world you
       reverence or love —a mother, a sister, or a wife. If there be, think of her, and spare me.
       Do—do—only in this—only in this!</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M1">
      <speaker>Fou.</speaker>
      <p>Choose!</p>
     </sp>
-    <sp>
+    <sp who="#L0191_F8">
      <speaker>Mad. de Fon.</speaker>
      <p>He is pitiless!</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M1">
      <speaker>Fou.</speaker>
      <p>I give you five minutes. <stage>(takes out his watch—a pause)</stage></p>
     </sp>
     <pb n="23"/>
-    <sp>
+    <sp who="#L0191_F8">
      <speaker>Mad. de Fon.</speaker>
      <p>Better face my own conscience than the world. I will go—<stage>(she faints)</stage></p>
     </sp>
-    <sp>
+    <sp who="#L0191_M1">
      <speaker>Fou.</speaker>
      <p>I thought she would!</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M2">
      <speaker>Des.</speaker>
      <p><stage> (aside)</stage>I hoped she would not. <stage>(Moves towards the bell)</stage></p>
     </sp>
-    <sp>
+    <sp who="#L0191_M1">
      <speaker>Fou.</speaker>
      <p>Do not alarm the servants—a glass of water!</p>
     </sp>
@@ -1604,7 +1682,7 @@
      to the cottage from without. Rustic, but elegant furniture, books, flowers. &amp;c., on
      embroidery frame. Cecile in a great chair, with work in her hand, stretching and yawning.
      Cloak, &amp;c., on couch.</stage>
-    <sp>
+    <sp who="#L0191_F9">
      <speaker>Cecile.</speaker>
      <p>Oh, dear! oh, dear! what a length these German days are, to be sure! I suppose it's because
       one measures time by laughs in Paris, and by yawns in Prague. Two months have we been here—two
@@ -1618,19 +1696,19 @@
       with the cottage. <stage>Enter Grisboulle, D. L.</stage> He's dreadful—doesn't even talk, only
       snorts! and he's always at your elbow when you're not thinking of him!</p>
     </sp>
-    <sp>
+    <sp who="#L0191_F7">
      <speaker>Grisboulle.</speaker>
      <p> (L.)Note! <stage>(holds out letters)</stage></p>
     </sp>
-    <sp>
+    <sp who="#L0191_F9">
      <speaker>Cecile.</speaker>
      <p> (R.)Oh, Lord! <stage>(starts)</stage> there he is! Good morning, Karl.</p>
     </sp>
-    <sp>
+    <sp who="#L0191_F7">
      <speaker>Gris.</speaker>
      <p>Note!</p>
     </sp>
-    <sp>
+    <sp who="#L0191_F9">
      <speaker>Cecile.</speaker>
      <p>Oh! for Madame, from M. de Neuville! I wondered we had been a whole day without seeing him!
       He hasn't spent much time in his own little cottage since he made Madame's acquaintance! I
@@ -1641,41 +1719,41 @@
       I'd anything to flirt with— Karl does not know how—and he won't learn. Karl—
       <stage>(tenderly)</stage> Karl.</p>
     </sp>
-    <sp>
+    <sp who="#L0191_F7">
      <speaker>Gris.</speaker>
      <p><stage> (gruffly)</stage>Eh?</p>
     </sp>
-    <sp>
+    <sp who="#L0191_F9">
      <speaker>Cecile.</speaker>
      <p>What are you about, Karl?</p>
     </sp>
-    <sp>
+    <sp who="#L0191_F7">
      <speaker>Gris.</speaker>
      <p>Flowers.</p>
     </sp>
-    <sp>
+    <sp who="#L0191_F9">
      <speaker>Cecile.</speaker>
      <p>Will you make me a bouquet, Karl? <stage>(insinuatingly)</stage></p>
     </sp>
-    <sp>
+    <sp who="#L0191_F7">
      <speaker>Gris.</speaker>
      <p>Can't.</p>
     </sp>
-    <sp>
+    <sp who="#L0191_F9">
      <speaker>Cecile.</speaker>
      <p>There! was there ever!—<stage>(shrugs her shoulders)</stage> Shall I teach you, Karl?</p>
     </sp>
-    <sp>
+    <sp who="#L0191_F7">
      <speaker>Gris.</speaker>
      <p>No.<stage>                                        Exit, D. L.</stage></p>
     </sp>
-    <sp>
+    <sp who="#L0191_F9">
      <speaker>Cecile.</speaker>
      <p>Dear, dear! one might as well try to amuse one's self with a German Primer. “Ach,” “Och,”
       “Ich!” all in grunts of one syllable. But here comes Madame. <stage>Enter Madame de Fontanges
       from the terrace</stage> A note, Madame, from M. de Neuville.</p>
     </sp>
-    <sp>
+    <sp who="#L0191_F8">
      <speaker>Mad. de Fon.</speaker>
      <p>So: you may go, Cecile. <stage>(Gives hat to Cecile: who puts it on couch, and exit,
       L.)</stage> He has been playing truant for the last twenty-four hours, and this explains his
@@ -1715,23 +1793,23 @@
       foul! The more noble it is, the more hideous is my treachery! What is to be done?<stage>Enter
       Henri de Neuville, by terrace, L. H.</stage></p>
     </sp>
-    <sp>
+    <sp who="#L0191_M5">
      <speaker>Neuv.</speaker>
      <p>Your pardon, Madame, if I have come without a   summons—You have read my letter?</p>
     </sp>
-    <sp>
+    <sp who="#L0191_F8">
      <speaker>Mad. de Fon.</speaker>
      <p>Yes, M. de Neuville, and shall I tell you the truth?</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M5">
      <speaker>Neuv.</speaker>
      <p>Tell me nothing but the truth always.</p>
     </sp>
-    <sp>
+    <sp who="#L0191_F8">
      <speaker>Mad. de Fon.</speaker>
      <p>The tone of it is new to me.</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M5">
      <speaker>Neuv.</speaker>
      <p>It may be, for it is the voice of a real, a devoted love—the love of a man who has never
       felt before what it was to hang with all his being upon the breath of another. Till now I have
@@ -1739,32 +1817,32 @@
       of our rightful King. But now ambition, projects, plots, hopes, fears, all are dead within
       me—my life, my soul are yours!</p>
     </sp>
-    <sp>
+    <sp who="#L0191_F8">
      <speaker>Mad. de Fon.</speaker>
      <p><stage> (restraining herself)</stage>I believe you feel all this now, but who can answer for
       himself a week hence? Love! Who that knows the changefulness of the weather and the fashions
       can believe in the eternity of anything, much less of love, which we change oftener than an
       April day, or a spring bonnet.</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M5">
      <speaker>Neuv.</speaker>
      <p>I cannot believe her frivolous who awakens in me what I feel.</p>
     </sp>
-    <sp>
+    <sp who="#L0191_F8">
      <speaker>Mad. de Fon.</speaker>
      <p>At least do not conclude too soon. I shall soon return to Paris, and absence will test your
       devotion.</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M5">
      <speaker>Neuv.</speaker>
      <p>Absence! You do not think I can leave you?</p>
     </sp>
-    <sp>
+    <sp who="#L0191_F8">
      <speaker>Mad. de Fon.</speaker>
      <p>  Nay, it is impossible you can return to Paris, where Fouché threatens your liberty—indeed
       your life!</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M5">
      <speaker>Neuv.</speaker>
      <p>Ha! so danger is to deter me! Go, go! that you may see if I will follow—aye, though Fouché's
       spies
@@ -1773,49 +1851,49 @@
       time! Oh, make me happy with yours, and we will live here in an exile that we shall bless,
       because in it we shall be all in all to each other!</p>
     </sp>
-    <sp>
+    <sp who="#L0191_F8">
      <speaker>Mad. de Fon.</speaker>
      <p><stage> (aside)</stage>This is real! And shall I be his destroyer? Forgive, me M. de
       Neuville, if I have appeared sometimes to trifle with you, but there are obstacles which even
       with love on both sides cannot be surmounted.</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M5">
      <speaker>Neuv.</speaker>
      <p>Obstacles! Name them, that I may prove to you they are none.</p>
     </sp>
-    <sp>
+    <sp who="#L0191_F8">
      <speaker>Mad. de Fon.</speaker>
      <p>Suppose I were to say I will never marry —that I find the liberty of widowhood too
       agreeable?</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M5">
      <speaker>Neuv.</speaker>
      <p>I would not believe you. Give me a better reason.</p>
     </sp>
-    <sp>
+    <sp who="#L0191_F8">
      <speaker>Mad. de Fon.</speaker>
      <p>You have grave duties to your party— duties which love distracts you from. Till your King is
       restored to France you have no right to chain your destinies to a woman.</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M5">
      <speaker>Neuv.</speaker>
      <p>The King was first in my heart till I knew you—   now he is second. A better reason still.
       Do you love another? De Cevennes has boasted—</p>
     </sp>
-    <sp>
+    <sp who="#L0191_F8">
      <speaker>Mad. de Fon.</speaker>
      <p>He! Oh, no; my heart is free! But why force me to say there are motives—I regard you too
       much to tell you them. Do not ask me, if you would still love me as you say you do.</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M5">
      <speaker>Neuv.</speaker>
      <p>Oh, why will you not lay bare your heart to me, as I do mine to you?</p>
     </sp>
-    <sp>
+    <sp who="#L0191_F8">
      <speaker>Mad. de Fon.</speaker>
      <p>How do you know that I have one?</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M5">
      <speaker>Neuv.</speaker>
      <p>By the colour that mounts to your cheek when I speak to you of love; by the languor that
       veils your eyes when we sit together and watch the sunset in a silence too passionate for
@@ -1825,42 +1903,42 @@
       no tongue can describe, so delicate are they—you have a heart, Marie de Fontanges, and that
       heart is mine! <stage>(he seizes her hand)</stage></p>
     </sp>
-    <sp>
+    <sp who="#L0191_F8">
      <speaker>Mad. de Fon.</speaker>
      <p><stage> (overcome)</stage>Henri, my own! <stage>(starts back
       <pb n="28"/>from his embrace)</stage> Sir, you forget yourself! you have no right to put my
       nervous susceptibility to the proof of such excellent acting.</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M5">
      <speaker>Neuv.</speaker>
      <p>Acting!</p>
     </sp>
-    <sp>
+    <sp who="#L0191_F8">
      <speaker>Mad. de Fon.</speaker>
      <p>Yes: do not talk to me, after that tirade   of your inexperience. Talma might take a lesson
       from you. I remember uttering just such a scream after his grand burst in “Orestes.”</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M5">
      <speaker>Neuv.</speaker>
      <p>Oh, you will drive me mad! <stage>(starting up)</stage></p>
     </sp>
-    <sp>
+    <sp who="#L0191_F8">
      <speaker>Mad. de Fon.</speaker>
      <p>No, no; but seriously, <stage>(sits)</stage> are you wise in yielding to this passion for
       one you scarcely know? Why, I may be an adventuress—who knows? an emissary of Fouché's,
       perhaps?</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M5">
      <speaker>Neuv.</speaker>
      <p>No; the instincts of such a love as mine are infallible;—it would shrink up at the contact
       of baseness as the sensitive plant at a touch! I know you as if I had watched your actions
       from a child;—I know you as your own conscience knows you!</p>
     </sp>
-    <sp>
+    <sp who="#L0191_F8">
      <speaker>Mad. de Fon.</speaker>
      <p>Hush—hush, Henri!</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M5">
      <speaker>Neuv.</speaker>
      <p>Oh! let me throw myself where the slave should be—at his tyrant's feet; where the worshipper
       should be —prostrate before his saint. <stage>(he throws himself at her feet)</stage> Let me
@@ -1868,73 +1946,73 @@
       duty, danger, all in the delirious happiness of my love! <stage>(he suits the action to the
       word)</stage></p>
     </sp>
-    <sp>
+    <sp who="#L0191_F8">
      <speaker>Mad. de Fon.</speaker>
      <p>Oh, Henri! check this passion—you must; it is not that my heart is cold to it. If I durst
       listen to its promptings!<stage>Enter Cecile, C., comes down R. Henri rises.</stage></p>
     </sp>
-    <sp>
+    <sp who="#L0191_F9">
      <speaker>Cecile.</speaker>
      <p>A gentleman, Madame—oh, I beg pardon!— who gave his card. <stage>(aside)</stage> Very
       pretty!</p>
     </sp>
-    <sp>
+    <sp who="#L0191_F8">
      <speaker>Mad. de Fon.</speaker>
      <p>  M. Lebon. <stage>(aside)</stage> Desmarets! <stage>(rises and goes to L.)</stage></p>
     </sp>
-    <sp>
+    <sp who="#L0191_M5">
      <speaker>Neuv.</speaker>
      <p>My preserver! Oh, shew him in here, Cecile, at once!
       <stage>                                        Exit Cecile, C. and L.</stage> I long to see
       and thank him. He saved me, Marie, on that night I was to have been arrested from your
       house.</p>
     </sp>
-    <sp>
+    <sp who="#L0191_F8">
      <speaker>Mad. de Fon.</speaker>
      <p><stage> (aside)</stage>Fouché distrusts me. The task-master is sent to overlook the slave.
       It is too late!</p>
     </sp>
     <pb n="29"/>
     <stage>Enter Cecile shewing in Desmarets, C. from L.</stage>
-    <sp>
+    <sp who="#L0191_F9">
      <speaker>Cecile.</speaker>
      <p>M. Lebon.<stage>                                        Exit Cecile, R.</stage></p>
     </sp>
-    <sp>
+    <sp who="#L0191_M2">
      <speaker>Des.</speaker>
      <p>Being on my way from Vienna, whither a little money affair took me, I ventured to pay my
       respects to Madame.</p>
     </sp>
-    <sp>
+    <sp who="#L0191_F8">
      <speaker>Mad. de Fon.</speaker>
      <p><stage> (bows)</stage>You are at home in my house, Sir, as you know.</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M2">
      <speaker>Des.</speaker>
      <p>You are too kind!</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M5">
      <speaker>Neuv.</speaker>
      <p>Failing Madame de Fontanges, you have a sacred right of asylum with me, M. Lebon; you
       remember me?</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M2">
      <speaker>Des.</speaker>
      <p>Ah, M. de Neuville!</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M5">
      <speaker>Neuv.</speaker>
      <p>Your timely warning saved me on the night Fouché was to have arrested me. I have bewildered
       myself in endeavouring to discover a clue to the treachery which betrayed me. Can you explain
       it?</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M2">
      <speaker>Des.</speaker>
      <p>We live in wretched times, my young friend. The son is not safe from the father, the husband
       from the wife, the lover from his beloved. <stage>(looks at Madame de Fontanges)</stage>
       Fouché buys up all affections and all dignities.</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M5">
      <speaker>Neuv.</speaker>
      <p>  Say, rather, all treacheries and all basenesses! But here I can defy him. Spies cannot
       breathe the air of purity and peace that bathes these blue hills, and scarce ripples that
@@ -1942,112 +2020,112 @@
       hisses I laugh at. <stage>(takes up a flower)</stage> But how came you to be warned of my
       danger?</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M2">
      <speaker>Des.</speaker>
      <p>Oh! one of his creatures, the wretched Desmarets, had a scruple of conscience, or rather
       some fear for his own safety, which led him to reveal the plot to me, that I might warn
       you.</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M5">
      <speaker>Neuv.</speaker>
      <p>So!</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M2">
      <speaker>Des.</speaker>
      <p>By the bye—what interesting documents that last pamphlet of yours brings to light. How did
       you procure them?</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M5">
      <speaker>Neuv.</speaker>
      <p>From an unknown correspondent, one evidently having access to the archives of the
       Police.</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M2">
      <speaker>Des.</speaker>
      <p>You have, of course, preserved the letters transmitting them?</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M5">
      <speaker>Neuv.</speaker>
      <p>No! fearing they might some day endanger my unknown informant, I burnt every scrap I ever
       received from him.</p>
     </sp>
     <pb n="30"/>
-    <sp>
+    <sp who="#L0191_M2">
      <speaker>Des.</speaker>
      <p><stage> (aside)</stage>I am safe! Ah, that's a pity; you might, in case of danger, have
       purchased safety by denouncing him.</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M5">
      <speaker>Neuv.</speaker>
      <p>  M. Lebon, that is a counsel no gentleman would take. I am surprised any gentleman should
       give it.</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M2">
      <speaker>Des.</speaker>
      <p>Ah! you have the chivalry of youth, I the caution of riper years;—but this conversation is
       not interesting to Madame.</p>
     </sp>
-    <sp>
+    <sp who="#L0191_F8">
      <speaker>Mad. de Fon.</speaker>
      <p>Pardon me! all that concerns Fouché has a strange fascination for me.</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M2">
      <speaker>Des.</speaker>
      <p>Oh! I could tell you stories of him that would horrify you! Conceive his employing a troop
       of wretched, degraded women, whom he calls his “Cohorte Cythérienne,” to attract his victims
       within his reach—and they do it, too</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M5">
      <speaker>Neuv.</speaker>
      <p>Can there be women so base?</p>
     </sp>
-    <sp>
+    <sp who="#L0191_F8">
      <speaker>Mad. de Fon.</speaker>
      <p><stage> (aside)</stage>Viper! <stage>(aloud)</stage> Before we condemn, we should know the
       arts by which he has enslaved them. Once enslaved, it may be they are powerless.</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M5">
      <speaker>Neuv.</speaker>
      <p>But surely death would be preferable to such baseness?</p>
     </sp>
-    <sp>
+    <sp who="#L0191_F8">
      <speaker>Mad. de Fon.</speaker>
      <p>Death!—Yes! But he can disgrace these women; reveal their shame to the world—nay, worse—to
       those they love, and who love them! What death is so sharp as that?</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M2">
      <speaker>Des.</speaker>
      <p>Poor creatures—poor creatures! They are much to be pitied. I pity them, especially when I
       think there may be haughty beauties among them, who have been used to despise others.</p>
     </sp>
-    <sp>
+    <sp who="#L0191_F8">
      <speaker>Mad. de Fon.</speaker>
      <p><stage> (aside)</stage>  He chafes me to distraction! <stage>(aloud to De Neuville)</stage>
       M. Lebon is a stranger to our valley, M. de Neuville; will you show him the lovely prospect
       from these hills?</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M5">
      <speaker>Neuv.</speaker>
      <p>With pleasure, if M. Lebon will accept me for a guide; but I warn you it is rough
       climbing.</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M2">
      <speaker>Des.</speaker>
      <p>Never fear, I've a strong sense of the picturesque.</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M5">
      <speaker>Neuv.</speaker>
      <p>But have you a strong pair of legs? You have— eh? Then come along; I'll show you every sight
       worth seeing within a league round <stage>(aside to Mad. de F.)</stage> and dream of you
       dearest, at each point where we have sat together.</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M2">
      <speaker>Des.</speaker>
      <p>Au revoir, Madame!<stage>                                        Exeunt Desmarets and de
       Neuville by the Terrace.</stage></p>
     </sp>
     <pb n="31"/>
-    <sp>
+    <sp who="#L0191_F8">
      <speaker>Mad. de Fon.</speaker>
      <p>Yes, the mask is off at last! I see my hideous self! And he thinks me pure! The sincerity of
       his own nature reflects itself on mine! What an awakening, should he learn the truth! And
@@ -2058,38 +2136,38 @@
       <hi>him</hi>. I will write at once! <stage>(as she turns for writing materials her eye falls
       on Desmarets—she stands staring at him, then sinks into a seat)</stage> You here again!</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M2">
      <speaker>Des.</speaker>
      <p>I have despatched M. de Neuville into Prague for   my calêche. Let me congratulate you,
       Madame, on the restorative effects of the Austrian air. You look so much better,—that is—you
       did until you saw <hi>me</hi>. You were going to write to Fouché—pray write—unless you think I
       can save you the trouble.</p>
     </sp>
-    <sp>
+    <sp who="#L0191_F8">
      <speaker>Mad. de Fon.</speaker>
      <p>He has sent you down here?</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M2">
      <speaker>Des.</speaker>
      <p>Yes; he was naturally anxious about your health, and he sent me to enquire—merely to
       enquire. He was also anxious to know how our little ruse was succeeding— when we might expect
       to see the Siren wing her flight back to Paris, with her captive in her clutch.</p>
     </sp>
-    <sp>
+    <sp who="#L0191_F8">
      <speaker>Mad. de Fon.</speaker>
      <p>M. Desmarets, I have lived a new life since that promise was made. I cannot keep it.</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M2">
      <speaker>Des.</speaker>
      <p>Ah—M. Fouché will be sorry to hear it. He is so particular about promises, so very
       particular—</p>
     </sp>
-    <sp>
+    <sp who="#L0191_F8">
      <speaker>Mad. de Fon.</speaker>
      <p>Sir, you have pofessed an interest in me; if you retain a spark of that interest still,
       release me from the degrading task to which M. Fouché has condemned me.</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M2">
      <speaker>Des.</speaker>
      <p>Listen to me, Marie de Fontanges. I am not young, not pleasant to look at; I have no graces
       of speech; I am what the world calls a spy, an informer—what you will that is more ignoble and
@@ -2099,80 +2177,80 @@
       angel, if you chose to be so!</p>
     </sp>
     <pb n="32"/>
-    <sp>
+    <sp who="#L0191_F8">
      <speaker>Mad. de Fon.</speaker>
      <p>Oh! no, no! we are our own good and evil angels.</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M2">
      <speaker>Des.</speaker>
      <p>Let me finish. You spurned me once in a fashion that few men of a less determined spirit
       would provoke or endure twice. Yet I provoke it again, for proud as you are I love you
       still!</p>
     </sp>
-    <sp>
+    <sp who="#L0191_F8">
      <speaker>Mad. de Fon.</speaker>
      <p>Oh! no, no!</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M2">
      <speaker>Des.</speaker>
      <p>I love you still! There is but one way to save you from Fouché—it is by sacrificing him!
       Give me but hopes that time will change your scorn of me to endurance—leave me to change
       endurance into pity, and pity into love. From the day which gives me that hope, Joseph
       Fouché's fall and your rescue are both begun!</p>
     </sp>
-    <sp>
+    <sp who="#L0191_F8">
      <speaker>Mad. de Fon.</speaker>
      <p>This from you! I thought you were devoted to him?</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M2">
      <speaker>Des.</speaker>
      <p>Oh, so I am—so I am!—ha, ha, ha! but my devotion never stands in the way of my
       will—never!</p>
     </sp>
-    <sp>
+    <sp who="#L0191_F8">
      <speaker>Mad. de Fon.</speaker>
      <p>But surely it is madness in you to dream of striking at one placed so high and seated so
       securely?</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M2">
      <speaker>Des.</speaker>
      <p>Ho, ho, ho! <stage>(chuckles)</stage> A small worm may sink a big ship! Listen!—</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M3">
      <speaker>Cevennes.</speaker>
      <p><stage> (without)</stage>At least you can announce me, my taciturn friend. The Marquis de
       Cevennes—de Cevennes!</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M2">
      <speaker>Des.</speaker>
      <p>  That fool! Will you see him?</p>
     </sp>
-    <sp>
+    <sp who="#L0191_F8">
      <speaker>Mad. de Fon.</speaker>
      <p>No, no; not now!</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M2">
      <speaker>Des.</speaker>
      <p>He is here—we will resume this conversation when he is gone.</p>
     </sp>
-    <sp>
+    <sp who="#L0191_F8">
      <speaker>Mad. de Fon.</speaker>
      <p><stage> (going to her room)</stage>Oh, Sir, have pity on
       me!<stage>                                        Exit into her room, R.</stage><stage>Enter
       De Cevennes C. from L., shown in by Grisboulle.</stage></p>
     </sp>
-    <sp>
+    <sp who="#L0191_M3">
      <speaker>Cev.</speaker>
      <p>He is certainly the man of the fewest words I ever— Ah! Madame not here, eh? The excellent
       M. Lebon, <stage>(De Cevennes carries in his hand a common stout walking-stick with a silver
       head)</stage> one of our party on that eventful night when I was so highly honoured and so
       nearly shot. You have not forgotten me?</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M2">
      <speaker>Des.</speaker>
      <p>Few that meet the Marquis de Cevennes can forget him.</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M3">
      <speaker>Cev.</speaker>
      <p>Ah, Monsieur, you are very polite! Yes, it was a delightful soirée—that is, all but the
       little mistake which
@@ -2183,90 +2261,90 @@
       to carry—the oddest things, sometimes. Now, on this occasion, what do you think the Duchess
       von Kaiserleben gave me to take to the Duke of Otranto? Only guess?</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M2">
      <speaker>Des.</speaker>
      <p>Oh, I give it up!</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M3">
      <speaker>Cev.</speaker>
      <p>A stick—this stick—<stage>(holding it up)</stage> neither more   nor less. Odd present from
       a Duchess to a Duke, is it not?</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M2">
      <speaker>Des.</speaker>
      <p><stage> (takes it and sways it in his hand)</stage>Very; Dukes have given such things to
       Duchesses now and then.</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M3">
      <speaker>Cev.</speaker>
      <p>You can examine it at your leisure while I wait for Madame.</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M2">
      <speaker>Des.</speaker>
      <p>Shall I order you some refreshment?</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M3">
      <speaker>Cev.</speaker>
      <p>Eh! well, really—if you can take the liberty—but shall I not see her first?</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M2">
      <speaker>Des.</speaker>
      <p>I am afraid not—she was denied to me—she is not well.</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M3">
      <speaker>Cev.</speaker>
      <p>Poor creature! excitable always! Well, if I cannot see her, I think a cutlet and a bottle of
       Geisenheimer—</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M2">
      <speaker>Des.</speaker>
      <p>Karl! <stage>Grisboulle appears on the terrace and comes down.</stage> Karl, luncheon for
       the Marquis. <stage>(aside to him)</stage> Not here!</p>
     </sp>
-    <sp>
+    <sp who="#L0191_F7">
      <speaker>Gris.</speaker>
      <p>Good! <stage>(Grisboule goes off. L,)</stage></p>
     </sp>
-    <sp>
+    <sp who="#L0191_M3">
      <speaker>Cev.</speaker>
      <p>A thousand apologies for the trouble. By the way, I have been so constantly on the move
       since the eventful evening, I have never been able to recover any trace of my secretary, M. de
       Neuville. You remember the young man the Duke took such a fancy to, who disappeared so
       mysteriously on the same eventful evening? What can have become of him?</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M2">
      <speaker>Des.</speaker>
      <p>Ah! from discretion, I've never inquired.</p>
     </sp>
-    <sp>
+    <sp who="#L0191_F7">
      <speaker>Grisboulle.</speaker>
      <p><stage> (appearing at door, L.)</stage>Lunch!</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M3">
      <speaker>Cev.</speaker>
      <p>Ah! my friend of the limited vocabulary! Have   you observed how very sparing he is of
       words?</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M2">
      <speaker>Des.</speaker>
      <p>Dis—cretion.</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M3">
      <speaker>Cev.</speaker>
      <p>Yes; I have remarked the Germans are discreet.</p>
     </sp>
-    <sp>
+    <sp who="#L0191_F7">
      <speaker>Gris.</speaker>
      <p>Lunch! <stage>(Desmarets makes him a signal)</stage></p>
     </sp>
     <pb n="34"/>
-    <sp>
+    <sp who="#L0191_M3">
      <speaker>Cev.</speaker>
      <p>I'm coming, my abrupt friend, I'm coming. <stage>(as he goes off looking at him)</stage> A
       most repulsive physiognomy!<stage>                                        Exit De Cevennes,
       L.</stage></p>
     </sp>
-    <sp>
+    <sp who="#L0191_M2">
      <speaker>Des.</speaker>
      <p>The chattering ape has left behind him the only thing worth a thought—this stick. Ah! he
       little knew I turned it! <stage>(he screws off the head of the stick, which is hollow, and
@@ -2278,67 +2356,67 @@
       heads, Joseph, and thine totters, Joseph, totters! totters!—Karl!<stage>Enter Grisboulle,
       L.</stage></p>
     </sp>
-    <sp>
+    <sp who="#L0191_F7">
      <speaker>Gris.</speaker>
      <p>What?</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M2">
      <speaker>Des.</speaker>
      <p>A fac-simile of this paper immediately.</p>
     </sp>
-    <sp>
+    <sp who="#L0191_F7">
      <speaker>Gris.</speaker>
      <p>Good!<stage>                                        Exit, L.</stage></p>
     </sp>
-    <sp>
+    <sp who="#L0191_M2">
      <speaker>Des.</speaker>
      <p>A very valuable man, Grisboulle. He can assume any disguise, copy any handwriting, drink any
       quantity of wine, and never goes beyond monosyllables.<stage>Enter Madame de Fontanges, D.
       R.</stage></p>
     </sp>
-    <sp>
+    <sp who="#L0191_F8">
      <speaker>Mad. de Fon.</speaker>
      <p>Has the Marquis gone?</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M2">
      <speaker>Des.</speaker>
      <p>  No; but he is at table, where, as I don't hear him chattering, I conclude his teeth are
       employed. Let me resume the conversation he interrupted.</p>
     </sp>
-    <sp>
+    <sp who="#L0191_F8">
      <speaker>Mad. de Fon.</speaker>
      <p>You ventured to threaten Fouché!</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M2">
      <speaker>Des.</speaker>
      <p>I never bark when I cannot bite! Papers of his are in my hands that would condemn him were
       he ten times Fouché!</p>
     </sp>
-    <sp>
+    <sp who="#L0191_F8">
      <speaker>Mad. de Fon.</speaker>
      <p>And he knows this?</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M2">
      <speaker>Des.</speaker>
      <p>A man must trust somebody! He has trusted me! Ho, ho, ho!—And I will trust you! I contrived
       the place of deposit for these very papers. You know the picture on the left of your
       drawing-room?</p>
     </sp>
-    <sp>
+    <sp who="#L0191_F8">
      <speaker>Mad. de Fon.</speaker>
      <p>Yes.</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M2">
      <speaker>Des.</speaker>
      <p>Press the third ornament on the right side of the
       <pb n="35"/>frame; the picture moves and discovers a passage. It leads from my house to
       yours.</p>
     </sp>
-    <sp>
+    <sp who="#L0191_F8">
      <speaker>Mad. de Fon.</speaker>
      <p>Ha!</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M2">
      <speaker>Des.</speaker>
      <p>Touch the rosette of the third panel in that passage—it slides away. In the recess stands
       the box containing Fouché's treasonable correspondence with Bernadotte, with Murat, with all
@@ -2347,13 +2425,13 @@
       trusts when all else fails him. Madame de Fontanges, I have given you my secret. I have   put
       into your hands the master-key to my life and fortunes; you know my secret!</p>
     </sp>
-    <sp>
+    <sp who="#L0191_F8">
      <speaker>Mad. de Fon.</speaker>
      <p><stage> (reflects)</stage>Your secret is safe with me!<stage>Grisboulle enters silently, C.,
       and unseen by Madame de Fontanges, lays paper on table and exit, with look at Desmarets,
       noiselessly.</stage></p>
     </sp>
-    <sp>
+    <sp who="#L0191_M2">
      <speaker>Des.</speaker>
      <p>I have surrounded Fouché himself with the meshes of my police. He is inquisitor over France.
       I am inquisitor over him. <stage>(takes papers Grisboulle has left)</stage> See here, this is
@@ -2362,27 +2440,27 @@
       I retain the original. <stage>(he places fac-simile in stick)</stage> You see I shew you my
       cards!</p>
     </sp>
-    <sp>
+    <sp who="#L0191_F8">
      <speaker>Mad. de Fon.</speaker>
      <p>And having overthrown Fouché, you would aspire to his post?</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M2">
      <speaker>Des.</speaker>
      <p>If alone, yes; if with you, no. I will go where you bid me—be what you will—if you will not
       refuse the endurance, which is all I ask, in return for restoring you to honour and
       happiness?</p>
     </sp>
-    <sp>
+    <sp who="#L0191_F8">
      <speaker>Mad. de Fon.</speaker>
      <p> (R. C.)Give me some time for reflection!</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M2">
      <speaker>Des.</speaker>
      <p>Oh, certainly! certainly! Weigh my offer well. I will wait for your answer before I return
       to Paris. Work with me if you will—betray me if you
       dare!<stage>                                        Exit by Terrace, L.</stage></p>
     </sp>
-    <sp>
+    <sp who="#L0191_F8">
      <speaker>Mad. de Fon.</speaker>
      <p>He dare attack Fouché to serve his ambition! Shall I fear him to save my love? These
       secrets! Without betraying him I might use them to extricate myself and to save Henri.
@@ -2391,47 +2469,47 @@
       of my route. There I will see Fouché, and, failing prayers, this secret must serve me against
       him. But how to leave this place undiscovered?—</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M3">
      <speaker>Cevennes.</speaker>
      <p><stage> (without)</stage>My carriage at once!</p>
     </sp>
-    <sp>
+    <sp who="#L0191_F8">
      <speaker>Mad. de Fon.</speaker>
      <p>Ha! his carriage!<stage>Enter De Cevennes, D. L.</stage></p>
     </sp>
-    <sp>
+    <sp who="#L0191_M3">
      <speaker>Cev.</speaker>
      <p>Ah! Madame, this is indeed happiness. I was going away a heart-broken prilgrim without a
       sight of the fair saint of my pilgrimage.</p>
     </sp>
-    <sp>
+    <sp who="#L0191_F8">
      <speaker>Mad. de Fon.</speaker>
      <p>A truce to compliments, Marquis; it is important I should return to Paris speedily and
       secretly.— Will you give me a seat in your calêche?</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M3">
      <speaker>Cev.</speaker>
      <p>Ah Madame! the felicity will be overpowering. <stage>(aside)</stage> Dis-cretion!</p>
     </sp>
-    <sp>
+    <sp who="#L0191_F8">
      <speaker>Mad. de Fon.</speaker>
      <p>I will meet you at the turn of the road. Not a word to any one!</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M3">
      <speaker>Cev.</speaker>
      <p>Not even to that dear M. Lebon?</p>
     </sp>
-    <sp>
+    <sp who="#L0191_F8">
      <speaker>Mad. de Fon.</speaker>
      <p>To him least of all.</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M3">
      <speaker>Cev.</speaker>
      <p>I fly, a happier man in every respect. <stage>(aside)</stage> A perpetual tête átête with a
       lovely creature all the way to Paris!<stage>                                        Exit De
       Cevennes, C. and L.</stage></p>
     </sp>
-    <sp>
+    <sp who="#L0191_F8">
      <speaker>Mad. de Fon.</speaker>
      <p>Yes, I will go—but Henri, what will he think of this departure? Oh! I cannot leave him:—and
       yet, with Desmarets here, I dare not risk a parting, or our love will be known, and with it,
@@ -2444,73 +2522,73 @@
       from one of the vases and exits hurriedly along terrace and R.)</stage><stage>Enter Desmarets,
       C.</stage></p>
     </sp>
-    <sp>
+    <sp who="#L0191_M2">
      <speaker>Des.</speaker>
      <p>Ah! not here.
       <pb n="37"/><stage>Enter Cecile door R.</stage> Where is your mistress?</p>
     </sp>
-    <sp>
+    <sp who="#L0191_F9">
      <speaker>Cecile.</speaker>
      <p>Out, I suppose, Sir.</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M2">
      <speaker>Des.</speaker>
      <p>She has not passed out by the Terrace.</p>
     </sp>
-    <sp>
+    <sp who="#L0191_F9">
      <speaker>Cecile.</speaker>
      <p>All I know is, she's not in her room.</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M2">
      <speaker>Des.</speaker>
      <p>Where can she be? <stage>Enter Grisboulle, C.</stage> I'm in a cold sweat till she
       pronounces her decision. Ah! here's one who will know something. Where is Madame?</p>
     </sp>
-    <sp>
+    <sp who="#L0191_F7">
      <speaker>Gris.</speaker>
      <p>Gone!</p>
     </sp>
-    <sp>
+    <sp who="#L0191_F9">
      <speaker>Cecile.</speaker>
      <p>Gone?</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M2">
      <speaker>Des.</speaker>
      <p>Gone! with no word for me?</p>
     </sp>
-    <sp>
+    <sp who="#L0191_F7">
      <speaker>Gris.</speaker>
      <p><stage> (seeing note on table)</stage>Note! <stage>(gives it R.)</stage></p>
     </sp>
-    <sp>
+    <sp who="#L0191_M2">
      <speaker>Des.</speaker>
      <p><stage> (looking at address)</stage>For me?</p>
     </sp>
-    <sp>
+    <sp who="#L0191_F7">
      <speaker>Gris.</speaker>
      <p>No!</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M2">
      <speaker>Des.</speaker>
      <p><stage> (reads address)</stage>M. de Neuville!! <stage>(reads)</stage> “Farewell! I leave
       this place—perhaps for ever. Ask not why or whither—I love you passionately. But I must leave
       you.—Marie.” Gone!—by what means?</p>
     </sp>
-    <sp>
+    <sp who="#L0191_F7">
      <speaker>Gris.</speaker>
      <p><stage> (at Terrace)</stage>  Look! <stage>(Desmarets turns up and looks
       out)</stage><stage>                                        Exit Grisboulle.</stage></p>
     </sp>
-    <sp>
+    <sp who="#L0191_M2">
      <speaker>Des.</speaker>
      <p>De Cevennes' carriage stops at the turn of the road —a woman gets in—it is she! The carriage
       starts again at full gallop!</p>
     </sp>
-    <sp>
+    <sp who="#L0191_F9">
      <speaker>Cecile.</speaker>
      <p>Gone! <stage>(she runs off, D. R.)</stage></p>
     </sp>
-    <sp>
+    <sp who="#L0191_M2">
      <speaker>Des.</speaker>
      <p>Oh! fool that I was to leave my calêche at Prague! She carries my secret with her! My
       fortune—my life may depend on my outstripping them to Paris. But this note to De Neuville!—“I
@@ -2525,120 +2603,120 @@
       ho! ho! 'Tis a revenge might satisfy Bëlzebub, or Fouché himself.<stage>Enter De Neuville C.
       from L. in joyous excitement, speaking as he enters.</stage></p>
     </sp>
-    <sp>
+    <sp who="#L0191_M5">
      <speaker>Neuv.</speaker>
      <p>M. Lebon, your calêche will be here in ten minutes; I saw it brought out, and the horses
       harnessed I am sorry you leave us so soon, and so will Madame D.   Fontanges be, I am sure;
       but at least you must not go without a stirrup cup. Here, Karl—wine! Cecile, tell Madame M.
       Lebon is going.</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M2">
      <speaker>Des.</speaker>
      <p>Madame is gone herself!</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M5">
      <speaker>Neuv.</speaker>
      <p>What do you mean? Gone!—Where?</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M2">
      <speaker>Des.</speaker>
      <p>Nobody knows.</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M5">
      <speaker>Neuv.</speaker>
      <p>Surely she has left some word—some letter—</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M2">
      <speaker>Des.</speaker>
      <p>Nothing!</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M5">
      <speaker>Neuv.</speaker>
      <p>But when—how did she go?</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M2">
      <speaker>Des.</speaker>
      <p>Just now—in the carriage with the Marquis De Cevennes.</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M5">
      <speaker>Neuv.</speaker>
      <p>The Marquis De Cevennes!—<stage>(he stands aghast)</stage> gone with De Cevennes! What can
       this mean? With De Cevennes, my friend?</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M2">
      <speaker>Des.</speaker>
      <p>'Tis the privilege of friends at Paris.</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M5">
      <speaker>Neuv.</speaker>
      <p>This accounts for her caprice—her hesitation— her trifling with my passion. She was only
       playing with me, to pass away the time, while that frivolous coxcomb was in her heart all the
       while! Gone! <stage>(crosses R.)</stage></p>
     </sp>
-    <sp>
+    <sp who="#L0191_M2">
      <speaker>Des.</speaker>
      <p>Forget her.</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M5">
      <speaker>Neuv.</speaker>
      <p>Forget her! Old man, she has grown a part of me—to tear out her image. I must tear out my
       heart-strings with it! Oh! to know what road they have taken!</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M2">
      <speaker>Des.</speaker>
      <p>We have no chance of overtaking them.</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M5">
      <speaker>Neuv.</speaker>
      <p>We have!—What speed can outstrip revenge?</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M2">
      <speaker>Des.</speaker>
      <p>  Revenge!</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M5">
      <speaker>Neuv.</speaker>
      <p>Do you think that when one of my blood is so wronged, he that wrongs him is allowed to live?
       <stage>(crosses to L. He is going)</stage></p>
     </sp>
-    <sp>
+    <sp who="#L0191_M2">
      <speaker>Des.</speaker>
      <p>My carriage will be here immediately. It is at your service. We will go together.</p>
     </sp>
     <pb n="39"/>
     <stage>Enter Grisboulle, C.</stage>
-    <sp>
+    <sp who="#L0191_M5">
      <speaker>Neuv.</speaker>
      <p>Thanks, my friend, thanks!—but, their route, their route? How to discover that? No matter,
       the instinct of revenge will guide me—come!</p>
     </sp>
-    <sp>
+    <sp who="#L0191_F7">
      <speaker>Karl.</speaker>
      <p>I know. <stage>(stop, C.)</stage></p>
     </sp>
-    <sp>
+    <sp who="#L0191_M5">
      <speaker>Neuv.</speaker>
      <p>Ah! their road!—speak! speak!</p>
     </sp>
-    <sp>
+    <sp who="#L0191_F7">
      <speaker>Karl.</speaker>
      <p>To Paris.</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M5">
      <speaker>Neuv.</speaker>
      <p>To Paris! to Paris!—Quick!</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M2">
      <speaker>Des.</speaker>
      <p>Think of the danger. Arrested by Fouché on French soil you are a dead man!</p>
     </sp>
     <stage>Re-enter Cecile, R. H.</stage>
-    <sp>
+    <sp who="#L0191_M5">
      <speaker>Neuv.</speaker>
      <p>Death may be there, but revenge is by its side. I want that first: then let death come! To
       Paris, to Paris!</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M2">
      <speaker>Des.</speaker>
      <p>He is mine! <stage>(following De Neuville L. U. E.)</stage></p>
     </sp>
@@ -2652,63 +2730,63 @@
     <stage>Enter Madame de Fontanges shown in by Jabot, C. D., who is in dressing gown and has a
      lantern in his hand.</stage>
 
-    <sp>
+    <sp who="#L0191_M6">
      <speaker>Jabot.</speaker>
      <p> (R. C.)A thousand excuses, Madame, for having kept you at the door.</p>
     </sp>
-    <sp>
+    <sp who="#L0191_F8">
      <speaker>Madame de Fontanges.</speaker>
      <p>Enough, my good Jabot, I accept them; I was not expected.</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M6">
      <speaker>Jabot.</speaker>
      <p>I had retired unusually early.</p>
     </sp>
-    <sp>
+    <sp who="#L0191_F8">
      <speaker>Mad. de Fon.</speaker>
      <p>No more apologies; light the candles and leave me.</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M6">
      <speaker>Jabot.</speaker>
      <p>Madame—<stage>(hesitating)</stage></p>
     </sp>
-    <sp>
+    <sp who="#L0191_F8">
      <speaker>Mad. de Fon.</speaker>
      <p>Well, why do you not light them?</p>
     </sp>
     <pb n="40"/>
-    <sp>
+    <sp who="#L0191_M6">
      <speaker>Jabot.</speaker>
      <p>A thousand pardons, Madame, but—</p>
     </sp>
-    <sp>
+    <sp who="#L0191_F8">
      <speaker>Mad. de Fon.</speaker>
      <p><stage> (feeling for and finding them)</stage>Here they are!</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M6">
      <speaker>Jabot.</speaker>
      <p>Yes; but Madame will understand—I am not in a fit state; I ask pardon—but my—my deshabille;
       I am not fit to appear—</p>
     </sp>
-    <sp>
+    <sp who="#L0191_F8">
      <speaker>Mad. de Fon.</speaker>
      <p><stage> (laughing)</stage>Oh, my poor Jabot!—I understand—leave your lantern—I will light
       the candles.</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M6">
      <speaker>Jabot.</speaker>
      <p>You are too good, Madame; you have relieved my mind. You require nothing more, Madame?</p>
     </sp>
-    <sp>
+    <sp who="#L0191_F8">
      <speaker>Mad. de Fon.</speaker>
      <p>Nothing, Jabot. Good night!</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M6">
      <speaker>Jabot.</speaker>
      <p>I have the honour—<stage>(bows)</stage>—In two minutes I will be prepared to appear before
       you, as propriety requires.</p>
     </sp>
-    <sp>
+    <sp who="#L0191_F8">
      <speaker>Mad. de Fon.</speaker>
      <p>Do not come unless I ring. <stage>                                        Exit Jabot,
       C.</stage><stage>(Madame de Fontanges lights the candles hastily.)</stage> By good fortune,
@@ -2722,7 +2800,7 @@
       in his hand)</stage> Fouché! <stage>(the candle she holds begins to tremble in her hand from
       the violence of her agitation—Fouche remains calm and unmoved)</stage></p>
     </sp>
-    <sp>
+    <sp who="#L0191_M1">
      <speaker>Fou.</speaker>
      <p>The candlestick is too heavy for your hand, Madame, allow me to relieve you of it.
       <stage>(he takes the candlestick from her, and puts it on the table—aside)</stage> A minute
@@ -2731,80 +2809,80 @@
       Can she know anything? <stage>(aloud)</stage> I was not aware you had the secret of that
       passage.</p>
     </sp>
-    <sp>
+    <sp who="#L0191_F8">
      <speaker>Mad. de Fon.</speaker>
      <p>I discovered it by an accident. <stage>(hesitatingly)</stage></p>
     </sp>
-    <sp>
+    <sp who="#L0191_M1">
      <speaker>Fou.</speaker>
      <p><stage> (aside)</stage>I told Desmarets it was unsafe. <stage>(aloud)</stage> I ought to
       apologize for making such a breach in your party
       <pb n="41"/>wall without notice, but I have such an objection to being announced, and I hate
       front doors.</p>
     </sp>
-    <sp>
+    <sp who="#L0191_F8">
      <speaker>Mad. de Fon.</speaker>
      <p>You have reason.</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M1">
      <speaker>Fou.</speaker>
      <p><stage> (sits R.)</stage>You seemed startled to see me?</p>
     </sp>
-    <sp>
+    <sp who="#L0191_F8">
      <speaker>Mad. de Fon.</speaker>
      <p>I did not know—<stage>(pause)</stage></p>
     </sp>
-    <sp>
+    <sp who="#L0191_M1">
      <speaker>Fou.</speaker>
      <p>Oh! my visit then is an unexpected pleasure—not   so yours! <stage>(aside)</stage> What can
       have brought her back?</p>
     </sp>
-    <sp>
+    <sp who="#L0191_F8">
      <speaker>Mad. de Fon.</speaker>
      <p>You knew I had left Prague?</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M1">
      <speaker>Fou.</speaker>
      <p>How else should I have been prepared to receive you?</p>
     </sp>
-    <sp>
+    <sp who="#L0191_F8">
      <speaker>Mad. de Fon.</speaker>
      <p>No news could have reached you! I left suddenly, and we travelled as fast as four horses
       could carry us.</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M1">
      <speaker>Fou.</speaker>
      <p><stage> (aside)</stage>We? A companion! <stage>(aloud)</stage> Four leagues an hour is good
       travelling, but the telegraph beats it.</p>
     </sp>
-    <sp>
+    <sp who="#L0191_F8">
      <speaker>Mad. de Fon.</speaker>
      <p>Inscrutable man! Then you know all?</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M1">
      <speaker>Fou.</speaker>
      <p>Not all, precisely, but most; your travelling companion, for example.</p>
     </sp>
-    <sp>
+    <sp who="#L0191_F8">
      <speaker>Mad. de Fon.</speaker>
      <p>De Cevennes has told you?</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M1">
      <speaker>Fou.</speaker>
      <p><stage> (aside)</stage>So, it was he! <stage>(aloud)</stage> My dear Madame, if I gave up my
       sources of information I should not long hold my portfolio of the Police. Enough, that I know
       of your leaving Prague in company with the Marquis.</p>
     </sp>
-    <sp>
+    <sp who="#L0191_F8">
      <speaker>Mad. de Fon.</speaker>
      <p>You had your spies even there! Perhaps you know my reasons for leaving?</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M1">
      <speaker>Fou.</speaker>
      <p>The reason you gave the Marquis, of course. But a lady's real reasons are beyond even my
       penetration. Perhaps you will favour me with them—I am all attention.</p>
     </sp>
-    <sp>
+    <sp who="#L0191_F8">
      <speaker>Mad. de Fon.</speaker>
      <p>You know how I struggled against the duty you imposed upon me. <stage>(he bows)</stage> But
       your hold over me was too strong—<stage>(he bows again)</stage> I yielded, and set about   my
@@ -2812,19 +2890,19 @@
       I laid siege to De Neuville's heart with all the arts that my experience of Parisian society
       had taught me. Impassioned and inexperienced in woman's wiles he was an easy conquest.</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M1">
      <speaker>Fou.</speaker>
      <p>You see I chose my emissary well.</p>
     </sp>
-    <sp>
+    <sp who="#L0191_F8">
      <speaker>Mad. de Fon.</speaker>
      <p>You did not!</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M1">
      <speaker>Fou.</speaker>
      <p>Ah?</p>
     </sp>
-    <sp>
+    <sp who="#L0191_F8">
      <speaker>Mad. de Fon.</speaker>
      <p>You thought the hot wind of play had dried up in me all that was good or akin to good.—I
       thought so too.—Neither of us knew how vital the roots of love are in
@@ -2832,34 +2910,34 @@
       dead affection wakened, till what we both thought a stone became a living, leaping, loving,
       woman's heart. I found him ready to follow me to the jaws of death—</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M1">
      <speaker>Fou.</speaker>
      <p>And you did not lead him to Paris? It was a blunder!</p>
     </sp>
-    <sp>
+    <sp who="#L0191_F8">
      <speaker>Mad. de Fon.</speaker>
      <p>I resolved to risk my life to save his. I knew all I exposed myself to in disobeying your
       orders. I knew that shame, imprisonment, perhaps death, lay in the path of duty. There they
       sit in you—and here <stage>(rising)</stage> stands love in me to meet and grapple with
       them!</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M1">
      <speaker>Fou.</speaker>
      <p><stage> (rises)</stage>You would have made a capital actress! But no heroics, pray—leave
       them to the theatre and Mademoiselle   Georges. You have told me what brought you back; and
       now oblige me by explaining how you mean to conduct this struggle between shame, &amp;c., or
       Joseph Fouché, and love, &amp;c., or Marie de Fontanges?</p>
     </sp>
-    <sp>
+    <sp who="#L0191_F8">
      <speaker>Mad. de Fon.</speaker>
      <p>I should not have said “struggle.” How can an unfriended woman struggle with the potent
       Minister of Police?</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M1">
      <speaker>Fou.</speaker>
      <p>Exactly the question I wished to ask, better expressed.</p>
     </sp>
-    <sp>
+    <sp who="#L0191_F8">
      <speaker>Mad. de Fon.</speaker>
      <p>I meant, after telling you the truth, to have appealed to the good I cannot believe utterly
       dead in you, now that it has revived in me. Ah, Fouché! think of all that virtuous love means
@@ -2872,26 +2950,26 @@
       intrigues, and passions. Spare him, Fouché! spare him! —and spare me! <stage>(she has risen
       while speaking, and now falls on her knees grasping Fouché's hand)</stage></p>
     </sp>
-    <sp>
+    <sp who="#L0191_M1">
      <speaker>Fou.</speaker>
      <p><stage> (who has betrayed once or twice slight signs of emotion)</stage>What eloquence
       earnestness gives! I never could
       <pb n="43"/>feel in earnest, or I should have been eloquent. Rise,   Madame! We will talk of
       this again when you are less excited.</p>
     </sp>
-    <sp>
+    <sp who="#L0191_F8">
      <speaker>Mad. de Fon.</speaker>
      <p>No—now—here. I will not leave this spot till you have answered me.</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M1">
      <speaker>Fou.</speaker>
      <p>I am sorry for it, as I must refuse.</p>
     </sp>
-    <sp>
+    <sp who="#L0191_F8">
      <speaker>Mad. de Fon.</speaker>
      <p>Refuse! Oh you cannot!</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M1">
      <speaker>Fou.</speaker>
      <p><stage> (shrugs his shoulders)</stage>You cannot understand state reasons, or you would see
       I must. What would the world, say of Fouché if they heard, that having the serpent under his
@@ -2899,57 +2977,57 @@
       Madame, I should have all the serpents hissing at once. No—once for all— it cannot be. I will
       listen to no more. <stage>(crossing C.)</stage></p>
     </sp>
-    <sp>
+    <sp who="#L0191_F8">
      <speaker>Mad. de Fon.</speaker>
      <p><stage> (rising, her figure dilated)</stage>Beware! Joseph Fouché!</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M1">
      <speaker>Fou.</speaker>
      <p><stage> (turning and smiling)</stage>Eh! you spoke?</p>
     </sp>
-    <sp>
+    <sp who="#L0191_F8">
      <speaker>Mad. de Fon.</speaker>
      <p>You have laughed at my love—fear my hate!</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M1">
      <speaker>Fou.</speaker>
      <p>Come, this is better; your grief pained me, your rage amuses me.</p>
     </sp>
-    <sp>
+    <sp who="#L0191_F8">
      <speaker>Mad. de Fon.</speaker>
      <p>Take care lest the time should come when you will sue to me.</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M1">
      <speaker>Fou.</speaker>
      <p>Eh! ha, ha! Excuse my laughing, but—when shall I sue to you? Ha! ha! ha!—though you are
       charming enough, especially when excited, to render it not improbable.</p>
     </sp>
-    <sp>
+    <sp who="#L0191_F8">
      <speaker>Mad. de Fon.</speaker>
      <p>Mocker! I tell you I have means of action   against you you little dream of—I will use
       them—I warn you of it—ruthlessly—remorselessly—if by them alone I can save the man I love!</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M1">
      <speaker>Fou.</speaker>
      <p><stage> (aside)</stage>Can she know anything? Pshaw! a woman's bravado. <stage>(he turns and
       bows)</stage> Madame, I have the honor—</p>
     </sp>
-    <sp>
+    <sp who="#L0191_F8">
      <speaker>Mad. de Fon.</speaker>
      <p><stage> (crosses L.)</stage>Then we separate on my terms.</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M1">
      <speaker>Fou.</speaker>
      <p>No—on mine.—Return to Prague. Fulfil your contract, and all shall be forgotten that has
       occurred to-night. Refuse—and to-morrow, your connection with the Police is the topic of
       conversation in every salon of Paris.</p>
     </sp>
-    <sp>
+    <sp who="#L0191_F8">
      <speaker>Mad. de Fon.</speaker>
      <p>Very well! Then it is war between us— war to the knife! Be it
       so!<stage>                                        Exit, L.</stage></p>
     </sp>
-    <sp>
+    <sp who="#L0191_M1">
      <speaker>Fou.</speaker>
      <p>She has a man's courage, at all events. I rather
       <pb n="44"/>like her. But these threats are childish. My papers are safe —I saw them a quarter
@@ -2960,11 +3038,11 @@
       me!<stage>                                        Exit by secret door, R.</stage><stage>Enter
       Jabot (dressed) shewing in De Cevennes, C.</stage></p>
     </sp>
-    <sp>
+    <sp who="#L0191_M6">
      <speaker>Jab.</speaker>
      <p>I will announce M. le Marquis to Madame!</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M3">
      <speaker>Cev.</speaker>
      <p>Do! Say I merely wish to assure myself she has not suffered by our rapid journey,
       <stage>(exit Jabot, C., closing doors)</stage> or been annoyed by my attentions on the road.—
@@ -2972,80 +3050,80 @@
       <stage>Enter Fouché by the secret door unseen by De Cevennes.</stage> I will see Madame first,
       and then for the dear Duke!</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M1">
      <speaker>Fou.</speaker>
      <p>No; the dear Duke first, and then Madame!</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M3">
      <speaker>Cev.</speaker>
      <p><stage> (turning)</stage>Ha! the Duke here! why, how did you enter?</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M1">
      <speaker>Fou.</speaker>
      <p>My movements, like my intelligence, are rather mysterious, Marquis! But here I am.—I
       congratulate you on your quick return, and on your fair <hi>compagnon de voyage!</hi></p>
     </sp>
-    <sp>
+    <sp who="#L0191_M3">
      <speaker>Cev.</speaker>
      <p>Oh! your Grace has heard! It's incredible!</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M1">
      <speaker>Fou.</speaker>
      <p> (R.)You delivered your despatches?</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M3">
      <speaker>Cev.</speaker>
      <p>Yes!</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M1">
      <speaker>Fou.</speaker>
      <p>They required no answer. I think I may dismiss you at once to Madame.</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M3">
      <speaker>Cev.</speaker>
      <p>Ah! I had almost forgotten! The Duchess Von Kaiserleben—really, 'tis too odd, too
       ridiculous—particularly requested me—you'll excuse the absurdity—to present the Abbé
       Lenoir—now don't be angry!—with this walking cane!</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M1">
      <speaker>Fou.</speaker>
      <p>Give it me! <stage>(coolly taking the cane from the Marquis)</stage></p>
     </sp>
-    <sp>
+    <sp who="#L0191_M3">
      <speaker>Cev.</speaker>
      <p>You are not surprised?</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M1">
      <speaker>Fou.</speaker>
      <p>Never! so—a pretty cane! The handle is a souvenir. <stage>(looking at the head)</stage> See!
       <stage>(shows it him)</stage></p>
     </sp>
-    <sp>
+    <sp who="#L0191_M3">
      <speaker>Cev.</speaker>
      <p>Why, I never observed before; 'tis a death's head and cross bones!</p>
     </sp>
     <pb n="45"/>
-    <sp>
+    <sp who="#L0191_M1">
      <speaker>Fou.</speaker>
      <p>  Yes; an appropriate present to me, in my spiritual capacity; very pretty and cheerful!</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M3">
      <speaker>Cev.</speaker>
      <p>Remarkably! <stage>(aside)</stage> How very lugubrious!</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M1">
      <speaker>Fou.</speaker>
      <p>You are impatient to see your travelling companion? You will find her in that room;
       <stage>(pointing to folding doors, L.)</stage> return here before you leave the house. I may
       have a fresh commission for you—a new mark of the imperial favor.</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M3">
      <speaker>Cev.</speaker>
      <p>Ah, your Grace! <stage>(aside)</stage> I wish, though, he'd give me a leetle time for repose
       between my journies; I am worn to a
       skeleton!<stage>                                        Exit De Cevennes, L.</stage></p>
     </sp>
-    <sp>
+    <sp who="#L0191_M1">
      <speaker>Fou.</speaker>
      <p>So—and now for Czernitcheff's despatch; it should announce the final stipulations for the
       Russian alliance. <stage>(begins to unscrew the head of the cane)</stage> The Emperor's heart
@@ -3057,55 +3135,55 @@
       the lion and his prey, and have no inclination to try the weight of his imperial paw.
       <stage>(reflects)</stage><stage>Re-enter De Cevennes, L.</stage></p>
     </sp>
-    <sp>
+    <sp who="#L0191_M3">
      <speaker>Cev.</speaker>
      <p>So now for this new mark of imperial favor, Monsieur le Duc. Madame having retired, I am at
       your Grace's   service.</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M1">
      <speaker>Fou.</speaker>
      <p><stage> (angrily)</stage>So! Sir—this is the way you discharge your commissions! The
       Duchess's present has been mutilated?</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M3">
      <speaker>Cev.</speaker>
      <p>Mutilated! The stick is as when I received it—upon the honor of a De Cevennes.</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M1">
      <speaker>Fou.</speaker>
      <p>The Duchess's letter, describing it, speaks of diamonds in the eyes of the skull. They have
       been abstracted.</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M3">
      <speaker>Cev.</speaker>
      <p>No—upon my honor!</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M1">
      <speaker>Fou.</speaker>
      <p>The stick must have quitted your hands!</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M3">
      <speaker>Cev.</speaker>
      <p>Never! I kept tight hold of it all the way from Prague to Paris.</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M1">
      <speaker>Fou.</speaker>
      <p>You slept in the carriage?</p>
     </sp>
     <pb n="46"/>
-    <sp>
+    <sp who="#L0191_M3">
      <speaker>Cev.</speaker>
      <p>Not a wink—on the honor of a De Cevennes.</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M1">
      <speaker>Fou.</speaker>
      <p>Then you extracted the diamonds yourself!</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M3">
      <speaker>Cev.</speaker>
      <p>Oh! M. le Duc—what a slur on the honor of a De Cevennes!</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M1">
      <speaker>Fou.</speaker>
      <p>That for the honor of the De Cevennes. <stage>(crosses L. snapping his fingers)</stage> I am
       dissatisfied with you, Sir! I know your intrigues with the exiled family—you may need to take
@@ -3116,7 +3194,7 @@
       no harm in setting a watch to see that she does not leave the house
       to-night.<stage>                                        Exit by secret door</stage></p>
     </sp>
-    <sp>
+    <sp who="#L0191_M3">
      <speaker>Cev.</speaker>
      <p><stage> (writing at L. of table, and not aware the Duke has left the room)</stage>You shall
       have every information, M. le Duc. <stage>(writes)</stage> “Left Prague on the 16th. at ten.
@@ -3128,110 +3206,110 @@
       folding doors open)</stage> Here he comes. <stage>(he runs to table and begins to write
       diligently)</stage><stage>Enter Madame de Fontanges, L.</stage></p>
     </sp>
-    <sp>
+    <sp who="#L0191_F8">
      <speaker>Mad. de Fon.</speaker>
      <p>The doors are guarded. The Officer has orders not to allow me to quit the house! What is to
       be done to get this paper carried? Ha! Fouché not here, and De Cevennes alone! May I trust
       him? I must, Monsieur. <stage>(she comes forward)</stage></p>
     </sp>
-    <sp>
+    <sp who="#L0191_M3">
      <speaker>Cev.</speaker>
      <p>Eh! not the Duke! Madame, you come to save me.</p>
     </sp>
-    <sp>
+    <sp who="#L0191_F8">
      <speaker>Mad. de Fon.</speaker>
      <p>How?</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M3">
      <speaker>Cev.</speaker>
      <p>Madame, for the love of mercy, how do you spell Schratzenellebogen?</p>
     </sp>
-    <sp>
+    <sp who="#L0191_F8">
      <speaker>Mad. de Fon.</speaker>
      <p>Pshaw! You have seen the Duke?</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M3">
      <speaker>Cev.</speaker>
      <p>I have. <stage>(dolefully)</stage></p>
     </sp>
-    <sp>
+    <sp who="#L0191_F8">
      <speaker>Mad. de Fon.</speaker>
      <p>And this new mark of imperial favor he   promised you?</p>
     </sp>
     <pb n="47"/>
-    <sp>
+    <sp who="#L0191_M3">
      <speaker>Cev.</speaker>
      <p>There's a hitch somewhere. In fact, I'm a disgraced—a ruined man, and it will be entirely
       owing to the Duke's good nature if I'm not denounced to-morrow, for my treasonable
       correspondence with the King. He says there are diamonds missing from the head of that
       cane.</p>
     </sp>
-    <sp>
+    <sp who="#L0191_F8">
      <speaker>Mad. de Fon.</speaker>
      <p>Hush! there is missing from that cane what is more precious to Fouché than all the diamonds
       of Golconda. There needs but one quarter of an hour's resolution to enable you to save
       yourself and to ruin him.</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M3">
      <speaker>Cev.</speaker>
      <p>Only a quarter of an hour's resolution? Madame, I am prepared for any danger—speak!</p>
     </sp>
-    <sp>
+    <sp who="#L0191_F8">
      <speaker>Mad. de Fon.</speaker>
      <p>The cane concealed a secret dispatch.</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M3">
      <speaker>Cev.</speaker>
      <p>A secret despatch!</p>
     </sp>
-    <sp>
+    <sp who="#L0191_F8">
      <speaker>Mad. de Fon.</speaker>
      <p>Which I abstracted in the carriage while you slept.</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M3">
      <speaker>Cev.</speaker>
      <p>Oh, Madame! How could you?</p>
     </sp>
-    <sp>
+    <sp who="#L0191_F8">
      <speaker>Mad. de Fon.</speaker>
      <p>Many lives depended on it. That paper involves Fouché in the guilt of high
       treason—<stage>(she produces despatch letter.)</stage> It is here. Take it instantly to the
       Grand Chamberlain—yes, there is a ball at the Tuïlleries to-night—he will no doubt conduct you
       to the Emperor. State you came from me—</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M3">
      <speaker>Cev.</speaker>
      <p>But this letter?</p>
     </sp>
-    <sp>
+    <sp who="#L0191_F8">
      <speaker>Mad. de Fon.</speaker>
      <p>Only stipulates for the safety of one who is   very dear to me as the price of this
       intelligence. Quick! Fouché may be back every moment,—and soon, no doubt, egress from my house
       may be as impossible for you as it is for me. Quick! do not hesitate.—For my sake!</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M3">
      <speaker>Cev.</speaker>
      <p>But the risk?</p>
     </sp>
-    <sp>
+    <sp who="#L0191_F8">
      <speaker>Mad. de Fon.</speaker>
      <p>For your own sake.</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M3">
      <speaker>Cev.</speaker>
      <p>I will go at once!<stage>                                        Exit De Cevennes, C. and
       L.</stage></p>
     </sp>
-    <sp>
+    <sp who="#L0191_F8">
      <speaker>Mad. de Fon.</speaker>
      <p>And now, Duke of Otranto, it is a race for life between you and me!<stage>Enter Jabot,
       C.</stage></p>
     </sp>
-    <sp>
+    <sp who="#L0191_M6">
      <speaker>Jabot.</speaker>
      <p>A gentleman to see Madame instantly. Here is his card. <stage>(giving it)</stage></p>
     </sp>
-    <sp>
+    <sp who="#L0191_F8">
      <speaker>Mad. de Fon.</speaker>
      <p>Desmarets! He here! I was just in time! And Henri—he will bring me news of Henri! Yes, admit
       him! <stage>(Exit Jabot, C.)</stage> Should he have betrayed to him what I am—with what
@@ -3240,238 +3318,238 @@
     <pb n="48"/>
     <stage>Enter Jabot, shews in Desmarets C,, and exit. Madame de Fontanges stands eagerly and
      keenly looking at him.</stage>
-    <sp>
+    <sp who="#L0191_M2">
      <speaker>Des.</speaker>
      <p>Delighted to see you once more, Madame; but you have given me a hard journey. <stage>(he
       takes a light from the table, goes rapidly to secret passage, and exit by it.)</stage></p>
     </sp>
-    <sp>
+    <sp who="#L0191_F8">
      <speaker>Mad. de Fon.</speaker>
      <p>I cannot read through the mask.<stage>Re-enter Desmarets.</stage></p>
     </sp>
-    <sp>
+    <sp who="#L0191_M2">
      <speaker>Des.</speaker>
      <p>So our deposit is safe! Your departure from Prague was so abrupt, I fancied you were in a
       hurry to transmit certain papers to the Emperor.</p>
     </sp>
-    <sp>
+    <sp who="#L0191_F8">
      <speaker>Mad. de Fon.</speaker>
      <p>You see I have respected your confidence.</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M2">
      <speaker>Des.</speaker>
      <p>Hm!—At least I see you have not had time to make use of it.</p>
     </sp>
-    <sp>
+    <sp who="#L0191_F8">
      <speaker>Mad. de Fon.</speaker>
      <p>  M. Desmarets, pardon my sudden flight. I had motives.</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M2">
      <speaker>Des.</speaker>
      <p>Oh, a lady is not bound to have any, you know, nor to tell them if she has!</p>
     </sp>
-    <sp>
+    <sp who="#L0191_F8">
      <speaker>Mad. de Fon.</speaker>
      <p>But tell me,—what did M. de Neuville think, say, of my disappearance?</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M2">
      <speaker>Des.</speaker>
      <p>Oh! you don't expect me to repeat a lover's incoherencies—for I find he is a very warm
       lover. I congratulate you on the success of that part of your mission. But the best of it is,
       he is under the impression, poor innocent, that you love him!</p>
     </sp>
-    <sp>
+    <sp who="#L0191_F8">
      <speaker>Mad. de Fon.</speaker>
      <p>That I love him! Ah, he is so inexperienced—and these Creoles are so passionate! And then I
       played my part so well! It was my part to appear to love him! Love him! <stage>(forcing a
       laugh)</stage> No! Ha, ha, ha! I was not there to love him! But what matter what <hi>he</hi>
       thinks? <hi>You</hi> know the truth!</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M2">
      <speaker>Des.</speaker>
      <p> (R. C.)I do. Shall I tell it you?</p>
     </sp>
-    <sp>
+    <sp who="#L0191_F8">
      <speaker>Mad. de Fon.</speaker>
      <p> (L. C.)Me, Desmarets?</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M2">
      <speaker>Des.</speaker>
      <p>Yes, you, Marie de Fontanges! you do love this man!</p>
     </sp>
-    <sp>
+    <sp who="#L0191_F8">
      <speaker>Mad. de Fon.</speaker>
      <p>Oh! no, no, no—you must not believe him!</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M2">
      <speaker>Des.</speaker>
      <p>It is not from him I know it, but from <hi>you</hi>!</p>
     </sp>
-    <sp>
+    <sp who="#L0191_F8">
      <speaker>Mad. de Fon.</speaker>
      <p>Me! I tell you it is not so—I do not   love him!</p>
     </sp>
     <pb n="49"/>
-    <sp>
+    <sp who="#L0191_M2">
      <speaker>Des.</speaker>
      <p>Will you tell <hi>him</hi> so?</p>
     </sp>
-    <sp>
+    <sp who="#L0191_F8">
      <speaker>Mad. de Fon.</speaker>
      <p>Oh, if that will satisfy you, I will write as much to him at once! <stage>(aside)</stage> I
       need not send the letter.</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M2">
      <speaker>Des.</speaker>
      <p>Why write, when he is here?</p>
     </sp>
-    <sp>
+    <sp who="#L0191_F8">
      <speaker>Mad. de Fon.</speaker>
      <p>Here! Here, in the very den of the wolf?</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M2">
      <speaker>Des.</speaker>
      <p>In <hi>your</hi> house, Madame!</p>
     </sp>
-    <sp>
+    <sp who="#L0191_F8">
      <speaker>Mad. de Fon.</speaker>
      <p>You have not told him what I am—with what intentions I came to Prague?</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M2">
      <speaker>Des.</speaker>
      <p>Eh! <stage>(looks at her maliciously)</stage></p>
     </sp>
-    <sp>
+    <sp who="#L0191_F8">
      <speaker>Mad. de Fon.</speaker>
      <p>Oh! for mercy's sake—You have not told him of my shame?</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M2">
      <speaker>Des.</speaker>
      <p>What matter if I have or not—you do not love him, you know; but it is time to undeceive him.
       I will send him to you that you may tell him you do not love
       him.<stage>                                        Exit Desmarets, C. and L.</stage></p>
     </sp>
-    <sp>
+    <sp who="#L0191_F8">
      <speaker>Mad. de Fon.</speaker>
      <p>One moment will decide all. <stage>(Enter Henri de Neuville appears, C.)</stage> Oh, Henri,
       Henri! my love!</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M5">
      <speaker>Neuv.</speaker>
      <p>Your love! that name was not meant for me. I am Henri de Neuville, Madame!</p>
     </sp>
-    <sp>
+    <sp who="#L0191_F8">
      <speaker>Mad. de Fon.</speaker>
      <p>For you—for whom else but you? Do not look at me so! Speak to me—the worst, if it must be—
       anything rather than this silence!</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M5">
      <speaker>Neuv.</speaker>
      <p>Better silence than the truth.</p>
     </sp>
-    <sp>
+    <sp who="#L0191_F8">
      <speaker>Mad. de Fon.</speaker>
      <p>The truth!</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M5">
      <speaker>Neuv.</speaker>
      <p>Your pardon! I forgot myself. The man whose   heart you have made the plaything of your
       summer leisure, when he wakes to the truth may suffer,—it is a compliment to your
       fascination,—but that he should complain—absurd! I do not come to complain, Madame!
       <stage>(sternly)</stage></p>
     </sp>
-    <sp>
+    <sp who="#L0191_F8">
      <speaker>Mad. de Fon.</speaker>
      <p><stage> (clasping her hands)</stage>Henri! why are you here?</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M5">
      <speaker>Neuv.</speaker>
      <p> (L. C.)To revenge!</p>
     </sp>
-    <sp>
+    <sp who="#L0191_F8">
      <speaker>Mad. de Fon.</speaker>
      <p> (R. C.)Has that man betrayed me?</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M5">
      <speaker>Neuv.</speaker>
      <p>Oh! you use the wrong word; he has opened my eyes—I know all!</p>
     </sp>
-    <sp>
+    <sp who="#L0191_F8">
      <speaker>Mad. de Fon.</speaker>
      <p>All!</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M5">
      <speaker>Neuv.</speaker>
      <p>The mode of your departure—it was admirably contrived;—your companion—he was well chosen,
       for he was my friend!</p>
     </sp>
     <pb n="50"/>
-    <sp>
+    <sp who="#L0191_F8">
      <speaker>Mad. de Fon.</speaker>
      <p>Ah! De Cevennes!</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M5">
      <speaker>Neuv.</speaker>
      <p>I expected to find him here. <stage>(puts his hat down, L. H.)</stage> It is from him and
       not you I am come to ask an explanation.</p>
     </sp>
-    <sp>
+    <sp who="#L0191_F8">
      <speaker>Mad. de Fon.</speaker>
      <p><stage> (aside)</stage>Ah! it is but jealousy, after all. Oh, Henri! be more just to me, if
       not to yourself, than to imagine <hi>that</hi> coxcomb could hold a place in my heart.</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M5">
      <speaker>Neuv.</speaker>
      <p>I did not imagine he held a place in your heart, Madame, but in that which does duty for
       your heart—your vanity. Besides, he had prior claims. How often has he not proclaimed himself
       your adorer—long—long before I had the misfortune to know you.</p>
     </sp>
-    <sp>
+    <sp who="#L0191_F8">
      <speaker>Mad. de Fon.</speaker>
      <p>  Henri De Neuville, look at me well. It was necessary, to save you, that I should leave
       Prague secretly and speedily. The Marquis De Cevennes's carriage offered me the only means. I
       took that means for you— and you doubt me.</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M5">
      <speaker>Neuv.</speaker>
      <p>Marie! Is this the truth?</p>
     </sp>
-    <sp>
+    <sp who="#L0191_F8">
      <speaker>Mad. de Fon.</speaker>
      <p>Look into my eyes, as I swear to you, this is the truth.</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M5">
      <speaker>Neuv.</speaker>
      <p>There is conviction in your look, Marie—I do believe you! Forgive me.</p>
     </sp>
-    <sp>
+    <sp who="#L0191_F8">
      <speaker>Mad. de Fon.</speaker>
      <p>No! no! It is I who must ask for forgiveness. Oh! if you knew all!</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M5">
      <speaker>Neuv.</speaker>
      <p>I know only this, that we are once more together, and that we will never part more.
       <stage>(they embrace; suddenly she starts away from his arms)</stage></p>
     </sp>
-    <sp>
+    <sp who="#L0191_F8">
      <speaker>Mad. de Fon.</speaker>
      <p>Hush, Henri! in my joy, I forget all!— to stay here is death.</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M5">
      <speaker>Neuv.</speaker>
      <p>Nay—nay. Fouché is the only enemy I have to fear, and here I am secure from him.</p>
     </sp>
-    <sp>
+    <sp who="#L0191_F8">
      <speaker>Mad. de Fon.</speaker>
      <p>Oh! no, no—what place is safe from that man?</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M5">
      <speaker>Neuv.</speaker>
      <p>Yes, this place is safe. <stage>(holding her in his arms and looking on her fondly)</stage>
       Falsehood never sat on that pure and open brow. Treason never lurked in the depth of that
       clear eye. Poison never seethed in the honey of these lips. <stage>(he kisses her)</stage></p>
     </sp>
-    <sp>
+    <sp who="#L0191_F8">
      <speaker>Mad. de Fon.</speaker>
      <p>His kisses scald like molten lead. Oh!   Fly! fly! Henri! Every minute it may be too
       late!</p>
@@ -3479,87 +3557,87 @@
     <pb n="51"/>
     <stage>Enter Desmarets, C. from L.</stage>
 
-    <sp>
+    <sp who="#L0191_M2">
      <speaker>Des.</speaker>
      <p><stage> (at the window)</stage>I begin to think it is too late already. <stage>(crosses to
       R. C. behind)</stage></p>
     </sp>
-    <sp>
+    <sp who="#L0191_F8">
      <speaker>Mad. de Fon.</speaker>
      <p>Ah! <stage>(going to window)</stage> Gendarmes in the court!</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M5">
      <speaker>Neuv.</speaker>
      <p>Has treason followed me so close! I will not die without a struggle!</p>
     </sp>
-    <sp>
+    <sp who="#L0191_F8">
      <speaker>Mad. de Fon.</speaker>
      <p><stage> (crosses in front to R.)</stage><stage>(aside to Desmarets)</stage> Stay.
       <stage>(pointing, R.)</stage> There is a passage here—<stage>(she rushes to picture—tries the
       spring)</stage> It will not work!</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M2">
      <speaker>Des.</speaker>
      <p>Oh! I forgot to explain to you the counter spring.</p>
     </sp>
-    <sp>
+    <sp who="#L0191_F8">
      <speaker>Mad. de Fon.</speaker>
      <p>Lost! lost! Oh! no—<stage>(crosses to L.)</stage> at least stay here, Henri. The Gendarmes
       may retire; we do not know they come for you.</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M5">
      <speaker>Neuv.</speaker>
      <p>Doubtless they do. I am betrayed. I may yet discover the traitor.</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M2">
      <speaker>Des.</speaker>
      <p> (R.)You may, easily—shall I reveal his name?</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M5">
      <speaker>Neuv.</speaker>
      <p> (C.)You? Where is he?</p>
     </sp>
-    <sp>
+    <sp who="#L0191_F8">
      <speaker>Mad. de Fon.</speaker>
      <p> (L.)No, no—for mercy's sake!</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M5">
      <speaker>Neuv.</speaker>
      <p> (C.)Where is he?</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M2">
      <speaker>Des.</speaker>
      <p><stage> (R., smiling coldly and pointing to Madame De Fontanges)</stage>There!</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M5">
      <speaker>Neuv.</speaker>
      <p><stage> (laughs scornfully)</stage>M. Lebon, our rapid journey has disordered your wits!
       This is Madame De Fontanges! a pure and stainless woman, and my love! Her honour is mine!</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M2">
      <speaker>Des.</speaker>
      <p>I am sorry for it. I tell you—</p>
     </sp>
-    <sp>
+    <sp who="#L0191_F8">
      <speaker>Mad. de Fon.</speaker>
      <p>Oh, mercy! mercy! Do not!</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M2">
      <speaker>Des.</speaker>
      <p>  There stands the woman who, when you escaped hence, followed you to Prague to win your
       affections and lure you back to death at Paris—your affections are hers— you are in Paris—she
       has obeyed her orders—<stage>(she sinks on her knees, L. C., hiding her face)</stage> as
       becomes the spy, the decoy of Fouché.</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M5">
      <speaker>Neuv.</speaker>
      <p>Liar!</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M2">
      <speaker>Des.</speaker>
      <p><stage> (shrugs his shoulders)</stage>Look there! <stage>(points to her)</stage></p>
     </sp>
-    <sp>
+    <sp who="#L0191_M5">
      <speaker>Neuv.</speaker>
      <p>Marie, you hear him? Tell him as I have told him—he lies! likes like a coward! How's this?
       No word? You hide your eyes when they should strike him dumb! Marie, speak to me, if not to
@@ -3567,36 +3645,36 @@
     </sp>
     <pb n="52"/>
     <stage>Enter Fouché, C., in Court dress.</stage>
-    <sp>
+    <sp who="#L0191_M1">
      <speaker>Fou.</speaker>
      <p> (C.)Let me answer that!</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M5">
      <speaker>Neuv.</speaker>
      <p>The Abbe Lenoir—in this dress!—but you know her, Abbé!</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M1">
      <speaker>Fou.</speaker>
      <p>First let me set you right about myself! I am Fouché, though, thanks to Madame's
       complaisance, I have been occasionally allowed to usurp the character of her confessor.</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M2">
      <speaker>Des.</speaker>
      <p>She needs one no longer now; I have confessed for her!</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M1">
      <speaker>Fou.</speaker>
      <p>Let her agony save her the pain of an avowal. Accept my assurance that what this gentleman
       has said is, oddly enough, the truth! <stage>(De Neuville sinks into a chair, R. C., and hides
       his head on his folded arms, which rest on the table)</stage></p>
     </sp>
-    <sp>
+    <sp who="#L0191_M2">
      <speaker>Des.</speaker>
      <p><stage> (to Madame de Fontanges, who has dragged herself up to a chair and sits on it,
       ghastly pale)</stage>I told you the serpent   could sting! <stage>(crosses to L.
       C.)</stage></p>
     </sp>
-    <sp>
+    <sp who="#L0191_M1">
      <speaker>Fou.</speaker>
      <p>This shock is naturally overpowering at first, but you will get over it,—particularly with
       the advantages for cool reflection which you will have in Vincennes, to which safe and retired
@@ -3607,17 +3685,17 @@
       Fontanges)</stage> Poor creature! she threatened me, Desmarets! <stage>(going off C. and
       L.)</stage></p>
     </sp>
-    <sp>
+    <sp who="#L0191_M2">
      <speaker>Des.</speaker>
      <p>Ah,—And she spurned <hi>me</hi>—but I bear no
       malice!<stage>                                        following Fouché by C.</stage></p>
     </sp>
-    <sp>
+    <sp who="#L0191_F8">
      <speaker>Mad. de Fon.</speaker>
      <p><stage> (struggles up and walks falteringly to where De Neuville sits. She stands before him
       with her head bent down.)</stage>Henri! M. de Neuville!</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M5">
      <speaker>Neuv.</speaker>
      <p>Still here!—I hoped I was alone! <stage>(he turns from her, throws his head down on the
       table, and sobs bitterly. She approaches him and tries to take his hand—he looks up
@@ -3626,17 +3704,17 @@
       my heart should be so fallen! A spy! worse— a decoy!</p>
     </sp>
     <pb n="53"/>
-    <sp>
+    <sp who="#L0191_F8">
      <speaker>Mad. de Fon.</speaker>
      <p>It is true; but let me not hear it from your lips. Spare me! spare me! I cannot bear it.</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M5">
      <speaker>Neuv.</speaker>
      <p><stage> (passionately)</stage>Why cross my path? What wrong have I done to you that you
       should wreck my happiness thus? Why do you stay?—Is it to look on the ruin you   have made?
       Why are you not with them for the wages of your work?—You have earned them well—too well!</p>
     </sp>
-    <sp>
+    <sp who="#L0191_F8">
      <speaker>Mad. de Fon.</speaker>
      <p>No, no, no!—do not look at me so— speak so! I was not vile enough to finish what I had the
       vileness to begin. I loved you, Henri, at last—truly, fondly loved you—with the love before
@@ -3646,27 +3724,27 @@
       of bitter tears—my days of hidden shame—fallen as I am, you would pity me, Henri— indeed you
       would! <stage>(still kneeling.)</stage></p>
     </sp>
-    <sp>
+    <sp who="#L0191_M5">
      <speaker>Neuv.</speaker>
      <p>How am I to know this tone does not mask some new treachery?</p>
     </sp>
-    <sp>
+    <sp who="#L0191_F8">
      <speaker>Mad. de Fon.</speaker>
      <p>No! my shame is revealed now—and that—that was all I ever concealed from you!</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M5">
      <speaker>Neuv.</speaker>
      <p>And your flight was not to draw me to my destruction?</p>
     </sp>
-    <sp>
+    <sp who="#L0191_F8">
      <speaker>Mad. de Fon.</speaker>
      <p>No!—as I live, no! It was to try one last appeal to Fouché for release from my infamy.</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M5">
      <speaker>Neuv.</speaker>
      <p>But what could she have been who could first lend herself to such ignominy?</p>
     </sp>
-    <sp>
+    <sp who="#L0191_F8">
      <speaker>Mad. de Fon.</speaker>
      <p>A gambler, Henri!—enticed to the table by Fouché's arts—beggared there by his agents—and
       then, when ruin and dishonour beset me, the tempter was ever at   my elbow with gold. I
@@ -3674,12 +3752,12 @@
       tempt you—and I did tempt you—wretched woman as I am —you, for whom if I had a thousand lives
       I would give them all!</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M5">
      <speaker>Neuv.</speaker>
      <p>Poor, poor Marie! My suffering dates but a few hours back, and yours has been the misery of
       years!</p>
     </sp>
-    <sp>
+    <sp who="#L0191_F8">
      <speaker>Mad. de Fon.</speaker>
      <p><stage> (rises and advances, C.)</stage>But is the agony I feel now no atonement for my
       past, Henri? I feel as if it might be—my suffering has been so bitter—so bitter!
@@ -3688,15 +3766,15 @@
       when you thought me worthy of your love! I feel that I have destroyed you. Henri—forgive me, I
       did not mean to use that word!—May I still call you so?</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M5">
      <speaker>Neuv.</speaker>
      <p><stage> (in a broken voice)</stage>Yes, yes!</p>
     </sp>
-    <sp>
+    <sp who="#L0191_F8">
      <speaker>Mad. de Fon.</speaker>
      <p>Ah! I am forgiven! Speak!</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M5">
      <speaker>Neuv.</speaker>
      <p>Yes! yes, my poor Marie! I forgive the past— such suffering and such repentance redeem all!
       <stage>(she falls into his arms; he presses her to his heart)</stage> And so we will meet fate
@@ -3704,127 +3782,127 @@
       imprisonment, death, now, if it must be, without a quiver! <stage>(they embrace and remain in
       each other's arms)</stage><stage>Enter Fouché and Desmarets with Soldiers, C.</stage></p>
     </sp>
-    <sp>
+    <sp who="#L0191_M1">
      <speaker>Fou.</speaker>
      <p><stage> (speaking at the entrance)</stage>We will try that! Madame,   I regret to disturb
       your tête àtête, but the carriage waits to conduct this gentleman to Vincennes.</p>
     </sp>
-    <sp>
+    <sp who="#L0191_F8">
      <speaker>Mad. de Fon.</speaker>
      <p>Kill me! kill me! How can I live with his blood upon my head? Henri! Henri! <stage>(the
       Soldiers advance)</stage> Where he goes I go! To prison with him—to death with him!</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M5">
      <speaker>Neuv.</speaker>
      <p> (L. C.)One moment, gentlemen. Joseph Fouché, so sure as there is an eternal justice above
       us, so surely shall this wickedness be atoned for! Aye, smile, and tremble while you smile—for
       you feel that truth speaks out of him, who on his way to the grave, pauses here to give you
       your true titles of knave and coward!</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M1">
      <speaker>Fou.</speaker>
      <p> (C.)Do your duty!</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M4">
      <speaker>Berthier.</speaker>
      <p><stage> (speaking without)</stage>Stay without, gentlemen, the carriage for Vincennes may
       wait.<stage>Enter De Cevennes accompanied by Berthier in a Court dress, C.</stage></p>
     </sp>
-    <sp>
+    <sp who="#L0191_F8">
      <speaker>Mad. de Fon.</speaker>
      <p>Ha! Berthier! Prince, my prayer?</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M4">
      <speaker>Ber.</speaker>
      <p> (R. C.)Is granted.</p>
     </sp>
-    <sp>
+    <sp who="#L0191_F8">
      <speaker>Mad. de Fon.</speaker>
      <p>He is free! Henri, you are free! free! Do you hear? I said so; I knew they could not part us
       now! You are safe—something here at my heart told me so—you are safe! God bless the mouth that
       tells me so!</p>
     </sp>
     <pb n="55"/>
-    <sp>
+    <sp who="#L0191_M4">
      <speaker>Ber.</speaker>
      <p>M. le Duc, my errand is to you. <stage>(beckons De Cevennes and takes paper)</stage> A
       glance at this paper may spare painful avowals. <stage>(hands despatch)</stage> You will wait
       the further directions of the Emperor on your estate of Pont Carré.</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M1">
      <speaker>Fou.</speaker>
      <p><stage> (looks at despatch then to Madame)</stage>  Admirably done, Madame; worthy of
       myself, upon my honour!</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M4">
      <speaker>Ber.</speaker>
      <p>Your Grace will not wonder, after this discovery, that I am charged to demand your
       portfolio: you will give up your cabinet and papers to the Duke of Rovigo!</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M1">
      <speaker>Fou.</speaker>
      <p> (R. C.)Savary—poor Savary! <stage>(takes snuff)</stage> Savary —after me!</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M4">
      <speaker>Ber.</speaker>
      <p> (C.)Among the papers to be given up the Emperor includes all his autograph letters and
       instructions.</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M1">
      <speaker>Fou.</speaker>
      <p><stage> (to Berthier)</stage>I regret extremely not to be able to oblige the Emperor; but,
       fearing so delicate a correspondence might fall into bad hands, I have burnt
       it.<stage>                                        Exit Desmarets by secret
       passage.</stage></p>
     </sp>
-    <sp>
+    <sp who="#L0191_M4">
      <speaker>Ber.</speaker>
      <p>Burnt it!—you will find it difficult to convince the Emperor of that.</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M1">
      <speaker>Fou.</speaker>
      <p>I have always found him difficult to convince. But it is nevertheless true. His autographs
       are burnt. <stage>(Desmarets returning with box, crosses behind Fouché, to C.)</stage></p>
     </sp>
-    <sp>
+    <sp who="#L0191_M2">
      <speaker>Des.</speaker>
      <p>Not all, I think, M. le Duc—not quite all.</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M1">
      <speaker>Fou.</speaker>
      <p>You, too, Desmarets! then I <hi>am</hi> down!</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M2">
      <speaker>Des.</speaker>
      <p>Your Highness will find His Majesty's revered autographs in this box, besides much
       interesting correspondence with Marshal Bernadotte and the King of Naples.
       <stage>(aside)</stage> I should not like Joseph to fall without my having a hand in it
       <stage>(crosses to R.)</stage></p>
     </sp>
-    <sp>
+    <sp who="#L0191_M1">
      <speaker>Fou.</speaker>
      <p>Prince, I am a victim to calumny. I resign my portfolio and myself, until His Majesty again
       requires my   services. Desmarets—no—I leave you to my successor <hi>ad interim</hi>. I have
       only to hope he will find you as trustworthy as I have done—</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M2">
      <speaker>Des.</speaker>
      <p> (R.)Adieu!</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M1">
      <speaker>Fou.</speaker>
      <p><stage> (R. C., looking at him fixedly)</stage>No, <hi>au revoir</hi>! Madame, permit me to
       compliment you on the skill of your play! M. de. Neuville, you have acquired a jewel. Treasure
       it, but don't forget you took it out of the mire.</p>
     </sp>
-    <sp>
+    <sp who="#L0191_M5">
      <speaker>Neuv.</speaker>
      <p> (L. C.)I will remember it, Duke of Otranto. Think
       <pb n="56"/> <hi> you </hi>how precious must be that jewel, which, for a moment soiled by
       contact with your hands, is yet worthy of being set here—in the heart of an honest man!
       <stage>(He takes her to his arms—she falls on his neck)</stage></p>
     </sp>
-    <sp>
+    <sp who="#L0191_F8">
      <speaker>Mad. de Fon.</speaker>
      <p><stage> (goes to C.)</stage>
       <l>If from the whirl of passion, plot, and play </l>

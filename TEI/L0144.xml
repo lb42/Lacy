@@ -2,7 +2,7 @@
  <teiHeader>
   <fileDesc>
    <titleStmt>
-    <title n="adesperategame">A Desperate Game</title>
+    <title n="adesperategame" type="main">A Desperate Game</title>
     <author>Morton, John Maddison</author>
     <respStmt>
      <resp>HTML Transcription</resp>
@@ -15,18 +15,49 @@
    </titleStmt>
    <publicationStmt>
     <distributor>Privately published on the Lacy Website</distributor>
-   </publicationStmt>
-   <sourceDesc><bibl type="digital">Converted from The Project Gutenberg EBook of A Desperate Game, by
-     John Maddison Morton (Release Date: May 11, 2014 [EBook #45628])</bibl><bibl type="source" status="TEI_1" n="10.9" corresp="nic:N16004"><author>Morton, John Maddison</author><title n="adesperategame">A Desperate Game</title><title type="sub">A Comic Drama in one act</title><extent>21 pp (UM copy: 334 - 355)<measure type="pp" quantity="22"/><measure type="txWords" quantity="9018"/><measure type="spWords" quantity="6966"/><measure type="stWords" quantity="2052"/></extent><eventName notAfter="1853" type="firstPerf">
-      <date resp="nicoll" when="1853-04-09"/>
-      <name>Theatre Royal Adelphi</name>
-      <date resp="source" when="1853-04-09">9 April 1853</date>
-     </eventName><listRef>
-      <ref target="https://www.gutenberg.org/files/45628/45628-h/45628-h.htm">Gutenberg
-       Transcript</ref>
-     </listRef><listRef type="localCopies"><ref>Vol10/L0144/L0144-um.pdf</ref></listRef></bibl></sourceDesc>
+   <idno type="lae">L0144</idno></publicationStmt>
+   <sourceDesc><bibl type="printSource" n="10.9"><author>Morton, John Maddison</author><title type="main" n="adesperategame">A Desperate Game</title><title type="sub">A Comic
+Drama in one act</title><extent>21 pp (UM copy: 334 - 355)<measure type="pp" quantity="22"/>
+  <measure type="spCount" quantity="358"/>
+  <measure type="spvCount" quantity="0"/>
+  <measure type="txWords" quantity="8959"/>
+  <measure type="spWords" quantity="6966"/>
+  <measure type="stWords" quantity="1993"/>
+  </extent>
+
+<title level="s"> Lacy's Acting Edition, volume 10, No. 0144</title><idno type="nic">N16004</idno></bibl><bibl type="digitalSource"><ref target="https://www.gutenberg.org/files/45628/45628-h/45628-h.htm">Gutenberg
+transcription</ref></bibl><bibl type="digitalSource" n="copytext"><ref target="https://babel.hathitrust.org/cgi/pt?id=mdp.39015067453228&amp;seq=334 ">UM from HT</ref><ref target="local:Vol10/L0144/L0144-um.pdf"/></bibl><bibl type="digitalSource" n="copytext"><ref target="https://lb42.github.io/Lacy/L0144.html">TEI</ref></bibl><listEvent>
+<event type="LCP" when="1862-04-04" where="Adelphi">
+<desc>Licence sent 4 April for performance at the Adelphi 7 April 1853. </desc>
+<bibl type="msSource">BL ms LCP_52939.B</bibl>
+</event>
+<event type="firstPerf" when="1853-04-09" source="textNic" where="Adelphi">
+<desc>Premiered at Theatre Royal, Adelphi 9 April 1853</desc>
+</event>
+</listEvent></sourceDesc>
   </fileDesc>
-  <profileDesc><textClass><!--S_1_ComicDrama_F._FARCE--><catRef target="#sizeS"/><catRef target="#act1"/><catRef target="nic:F."/><keywords><term>FARCE</term></keywords></textClass></profileDesc><revisionDesc><change when="2024-10-03">Header enriched</change>
+  <profileDesc><textClass><catRef target="#sizeS"/><catRef target="#act1"/><catRef target="nic:F."/><keywords><term>FARCE</term></keywords></textClass><particDesc><listPerson>
+<person xml:id="L0144_M1">
+<persName type="role">Captain Ratcliffe </persName>
+<persName type="spkr" n="116">Rat.</persName>
+</person>
+<person xml:id="L0144_M2">
+<persName type="role">Mr. Percy Postlethwaite </persName>
+<persName type="spkr" n="85">Pos.</persName>
+</person>
+<person xml:id="L0144_M3">
+<persName type="role">David </persName>
+<persName type="spkr" n="24">David.</persName>
+</person>
+<person xml:id="L0144_F4">
+<persName type="role">Mrs. Somerton </persName>
+<persName type="spkr" n="103">Mrs. S.</persName>
+</person>
+<person xml:id="L0144_F5">
+<persName type="role">Peggy </persName>
+<persName type="spkr" n="30">Peggy.</persName>
+</person>
+</listPerson></particDesc></profileDesc><revisionDesc><change when="2025-09-07">Metadata updated from new catalogue</change><change when="2024-10-03">Header enriched</change>
    <change when="2023-09-06">Header confected</change>
   </revisionDesc>
  </teiHeader>
@@ -70,17 +101,17 @@
    <castList>
     <head>Characters.</head>
 
-    <castItem><role gender="M">Captain Ratcliffe </role><actor sex="M">Mr. Leigh Murray.
+    <castItem><role gender="M">Captain Ratcliffe </role><actor ana="#M">Mr. Leigh Murray.
      </actor></castItem>
 
-    <castItem><role gender="M">Mr. Percy Postlethwaite </role><actor sex="M">Mr. Keeley.
+    <castItem><role gender="M">Mr. Percy Postlethwaite </role><actor ana="#M">Mr. Keeley.
      </actor></castItem>
 
-    <castItem><role gender="M">David </role><actor sex="M">Mr. Rogers. </actor></castItem>
+    <castItem><role gender="M">David </role><actor ana="#M">Mr. Rogers. </actor></castItem>
 
-    <castItem><role gender="F">Mrs. Somerton </role><actor sex="F">Miss Woolgar. </actor></castItem>
+    <castItem><role gender="F">Mrs. Somerton </role><actor ana="#F">Miss Woolgar. </actor></castItem>
 
-    <castItem><role gender="F">Peggy </role><actor sex="F">Mrs. Laws. </actor></castItem>
+    <castItem><role gender="F">Peggy </role><actor ana="#F">Mrs. Laws. </actor></castItem>
 
    </castList>
 
@@ -124,19 +155,19 @@
     in C. of the stage, with papers, books, &amp;c. strewed on it; chairs, &amp;c., &amp;c.; another
     door at R. 2 E. Stage dark. A loud ringing at door bell heard.</stage>
 
-   <sp>
+   <sp who="#L0144_M1">
     <speaker>Rat.</speaker>
     <p><stage>(outside)</stage> Now then, my good friend, a little quicker, if you please.
      <stage>(enters at door, L. C., in over coat, whiskers, and moustache; he is closely followed by
      David, who carries a lantern)</stage></p>
    </sp>
 
-   <sp>
+   <sp who="#L0144_M3">
     <speaker>David.</speaker>
     <p>But, zur, zur, don’t ye be in such a hurry.</p>
    </sp>
 
-   <sp>
+   <sp who="#L0144_M1">
     <speaker>Rat.</speaker>
     <p><stage>(throwing a hasty look round the room, then—aside)</stage> Come, I’ve effected an
      entrance, at all events! so far, so well, provided I’m not compelled to beat a retreat before
@@ -144,7 +175,7 @@
      &amp;c.)</stage></p>
    </sp>
 
-   <sp>
+   <sp who="#L0144_M3">
     <speaker>David.</speaker>
     <p><stage>(all this time examining Ratcliffe from head to foot with his lantern—aside)</stage>
      Well, this be about the free and easiest chap I ever cut in with; he almost pulls the gate bell
@@ -156,172 +187,172 @@
      <emph>particklers</emph>, I’ll be satisfied and ask no questions.</p>
    </sp>
 
-   <sp>
+   <sp who="#L0144_M1">
     <speaker>Rat.</speaker>
     <p><stage>(aside)</stage> I must get rid of this fellow.</p>
    </sp>
 
-   <sp>
+   <sp who="#L0144_M3">
     <speaker>David.</speaker>
     <p>If you want missus, she be gone from home. She be at a grand ball, and if she finds you here
      when she comes home, she’ll blow me up in fine style, as sure as my name’s——</p>
    </sp>
 
-   <sp>
+   <sp who="#L0144_M1">
     <speaker>Rat.</speaker>
     <p>David!</p>
    </sp>
 
-   <sp>
+   <sp who="#L0144_M3">
     <speaker>David.</speaker>
     <p><stage>(astonished)</stage> He knows my name!</p>
    </sp>
 
-   <sp>
+   <sp who="#L0144_M1">
     <speaker>Rat.</speaker>
     <p><stage>(turning towards David)</stage> Now hark ye, David. There’s nothing more offensive to
      me, David, than familiarity in a servant, David; but in consideration, David, of your having
      only recently entered Mrs. Somerton’s service——</p>
    </sp>
 
-   <sp>
+   <sp who="#L0144_M3">
     <speaker>David.</speaker>
     <p>He knows that, too.</p>
    </sp>
 
-   <sp>
+   <sp who="#L0144_M1">
     <speaker>Rat.</speaker>
     <p>And you’re being naturally a stupid thick-headed fellow.</p>
    </sp>
 
    <pb n="4"/>
 
-   <sp>
+   <sp who="#L0144_M3">
     <speaker>David.</speaker>
     <p>Dang it, he knows all about me.</p>
    </sp>
 
-   <sp>
+   <sp who="#L0144_M1">
     <speaker>Rat.</speaker>
     <p>I have no objection to look over it this once, but the next time it occurs, David, I shall
      discharge you, David!</p>
    </sp>
 
-   <sp>
+   <sp who="#L0144_M3">
     <speaker>David.</speaker>
     <p>Discharge me! You? <stage>(suddenly)</stage> Lud a mercy—in course, I know who ’ee be
      now!</p>
    </sp>
 
-   <sp>
+   <sp who="#L0144_M1">
     <speaker>Rat.</speaker>
     <p><stage>(alarmed)</stage> The devil you do.</p>
    </sp>
 
-   <sp>
+   <sp who="#L0144_M3">
     <speaker>David.</speaker>
     <p>Ees, you be he.</p>
    </sp>
 
-   <sp>
+   <sp who="#L0144_M1">
     <speaker>Rat.</speaker>
     <p>Oh! I’m he, am I?</p>
    </sp>
 
-   <sp>
+   <sp who="#L0144_M3">
     <speaker>David.</speaker>
     <p>Ees. I should have known ’ee again directly, only I never seed ’ee before.</p>
    </sp>
 
-   <sp>
+   <sp who="#L0144_M1">
     <speaker>Rat.</speaker>
     <p><stage>(aside)</stage> That’s lucky!</p>
    </sp>
 
-   <sp>
+   <sp who="#L0144_M3">
     <speaker>David.</speaker>
     <p>Why missus has been expecting of you the last three days. It was only just afore she went out
      she said to me, “David,” said she, “if my cousin should happen to arrive from London before I
      get home, show him every attention,” says she!</p>
    </sp>
 
-   <sp>
+   <sp who="#L0144_M1">
     <speaker>Rat.</speaker>
     <p><stage>(aside)</stage> Her cousin, egad! he takes me for that simpleton Percy Postlethwaite;
      not very complimentary, perhaps, but decidedly lucky! <stage>(aloud)</stage> Yes, David, here I
      am, at last; and how is Mrs. Somerton?</p>
    </sp>
 
-   <sp>
+   <sp who="#L0144_M3">
     <speaker>David.</speaker>
     <p>Mrs. Somerton! is that the way you speak of your cousin? go along, do. <stage>(poking
      Ratcliffe in the side)</stage> Ah! Mr. Percy Postlethwaite, you be a lucky young chap to get
      such a wife, I can tell ’ee.</p>
    </sp>
 
-   <sp>
+   <sp who="#L0144_M1">
     <speaker>Rat.</speaker>
     <p><stage>(aside)</stage> Wife! so, so, Mr. Percy Postlethwaite, matters are in a more forward
      state than you led me to believe.</p>
    </sp>
 
-   <sp>
+   <sp who="#L0144_M3">
     <speaker>David.</speaker>
     <p>You’ll find supper all ready for ’ee in the library, <stage>(pointing)</stage> so I’ll just
      light the candles.</p>
    </sp>
 
-   <sp>
+   <sp who="#L0144_M1">
     <speaker>Rat.</speaker>
     <p>By all means, David. <stage>(aside)</stage> He does’nt know me.</p>
    </sp>
 
-   <sp>
+   <sp who="#L0144_M3">
     <speaker>David.</speaker>
     <p><stage>(while lighting the candles)</stage> Missus ’ll be mortal glad to see ’ee, and as for
      Peggy, she won’t know whether she be standing on her head or her heels.</p>
    </sp>
 
-   <sp>
+   <sp who="#L0144_M1">
     <speaker>Rat.</speaker>
     <p>I’m sure I’m very much obliged to Peggy. <stage>(aside)</stage> Who’s Peggy?</p>
    </sp>
 
-   <sp>
+   <sp who="#L0144_M3">
     <speaker>David.</speaker>
     <p>And no wonder; she tells me many’s the time she’s dangled ’ee on her knee, afore ye were
      breeched; <stage>(imitating)</stage> but ye know all about that.</p>
    </sp>
 
-   <sp>
+   <sp who="#L0144_M1">
     <speaker>Rat.</speaker>
     <p>Of course. I’ve the most distinct recollection of everything that happened to me before I was
      breeched.</p>
    </sp>
 
-   <sp>
+   <sp who="#L0144_M3">
     <speaker>David.</speaker>
     <p><stage>(having lighted candles)</stage> There, and now I’ll go down stairs and wait for
      missus; and as soon as she comes in, I’ll say to her——</p>
    </sp>
 
-   <sp>
+   <sp who="#L0144_M1">
     <speaker>Rat.</speaker>
     <p>Not one word, either to her or to Peggy! I wish to give them both an agreeable surprise,
      David; you understand, eh?</p>
    </sp>
 
-   <sp>
+   <sp who="#L0144_M3">
     <speaker>David.</speaker>
     <p><stage>(hesitating)</stage> I think I do!</p>
    </sp>
 
-   <sp>
+   <sp who="#L0144_M1">
     <speaker>Rat.</speaker>
     <p><stage>(giving him money)</stage> There’s a crown for you—think again.</p>
    </sp>
 
-   <sp>
+   <sp who="#L0144_M3">
     <speaker>David.</speaker>
     <p><stage>(pocketing money)</stage> I’m sure I do! I’ll be as dumb as an oyster.
      <stage>(going—stops)</stage> As I said before, supper be all ready in t’other room,
@@ -334,7 +365,7 @@
 
    <pb n="5"/>
 
-   <sp>
+   <sp who="#L0144_M1">
     <speaker>Rat.</speaker>
     <p><stage>(watching David out, then goes quickly up and closes the door)</stage> Alone at
      last—now then to work. <stage>(takes a pair of pistols from his coat pocket, which he places on
@@ -364,7 +395,7 @@
      seen at the window, R. U. E.)</stage></p>
    </sp>
 
-   <sp>
+   <sp who="#L0144_M2">
     <speaker>Pos.</speaker>
     <p>I’ve done it! I’ve been ringing at the bell long enough, so I’ve been obliged to effect an
      entrance by the window; <stage>(putting one leg over the window sill)</stage> and let me
@@ -399,20 +430,20 @@
      moves across on tiptoe, and locks the door at R. C.)</stage></p>
    </sp>
 
-   <sp>
+   <sp who="#L0144_M1">
     <speaker>Rat.</speaker>
     <p>Come, I’ve got you safe under lock and key, my worthy friend, whoever you are, and now not
      another moment must be lost. <stage>(advances towards the writing desk quickly, L.
      table)</stage></p>
    </sp>
 
-   <sp>
+   <sp who="#L0144_F4">
     <speaker>Mrs. S.</speaker>
     <p> <stage>(without)</stage> Don’t be alarmed, David, I forgot to say I had taken the latch key
      with me.</p>
    </sp>
 
-   <sp>
+   <sp who="#L0144_M1">
     <speaker>Rat.</speaker>
     <p>Mrs. Somerton’s voice, and no means of escape! Then impudence befriend me! <stage>(hurries
      into room, R.)</stage></p>
@@ -420,19 +451,19 @@
 
    <stage type="entrance">Enter MRS. SOMERTON and PEGGY at door, L. U. E.</stage>
 
-   <sp>
+   <sp who="#L0144_F5">
     <speaker>Peggy.</speaker>
     <p><stage>(who carries a small lantern in her hand, which she places on table)</stage> Dear,
      dear, how my poor old bones do ache.</p>
    </sp>
 
-   <sp>
+   <sp who="#L0144_F4">
     <speaker>Mrs. S.</speaker>
     <p> <stage>(throws off her cloak and hood, and appears in a handsome ball costume)</stage> Now
      go to bed at once, my good Peggy, I don’t require you any more.</p>
    </sp>
 
-   <sp>
+   <sp who="#L0144_F5">
     <speaker>Peggy.</speaker>
     <p>Yes you do, so sit down there—<stage>(making Mrs. Somerton sit down on a chair)</stage>—and
      now, while I’m taking all these gimcracks and finery out of your hair, you shall tell me all
@@ -440,18 +471,18 @@
      quite true.</p>
    </sp>
 
-   <sp>
+   <sp who="#L0144_F4">
     <speaker>Mrs. S.</speaker>
     <p> And pray what did the colonel’s footmen say?</p>
    </sp>
 
-   <sp>
+   <sp who="#L0144_F5">
     <speaker>Peggy.</speaker>
     <p>They said—— Drat the pin! They said you were the most beautiful lady in the room—that you had
      handsomer partners than any lady in the room.</p>
    </sp>
 
-   <sp>
+   <sp who="#L0144_F4">
     <speaker>Mrs. S.</speaker>
     <p> Yes—to do them, justice, they fairly danced me off my feet, and yet I am neither grown
      better tempered, nor better looking, than I was three months ago, when at a previous party
@@ -459,46 +490,46 @@
      hand, I am fifteen thousand pounds richer.</p>
    </sp>
 
-   <sp>
+   <sp who="#L0144_F5">
     <speaker>Peggy.</speaker>
     <p><stage>(suddenly, and giving Mrs. Somerton’s hair another jerk)</stage> That’s it! Ah, ma’am,
      these lords of the creation, as they call themselves, are but a poor mean selfish set after
      all.</p>
    </sp>
 
-   <sp>
+   <sp who="#L0144_F4">
     <speaker>Mrs. S.</speaker>
     <p> Selfish! No, not all—<stage>(sighing)</stage>—there is one at least.</p>
    </sp>
 
-   <sp>
+   <sp who="#L0144_F5">
     <speaker>Peggy.</speaker>
     <p>No! Is there?—he must be quite a curiosity! Oh, ma’am, who is he?</p>
    </sp>
 
-   <sp>
+   <sp who="#L0144_F4">
     <speaker>Mrs. S.</speaker>
     <p> It’s a long story, Peggy, and it’s getting late.</p>
    </sp>
 
-   <sp>
+   <sp who="#L0144_F5">
     <speaker>Peggy.</speaker>
     <p>It’s never too late to hear good news.</p>
    </sp>
 
-   <sp>
+   <sp who="#L0144_F4">
     <speaker>Mrs. S.</speaker>
     <p> Then listen, Peggy. You remember that about ten months ago I was earnestly advised by my
      physicians to pay a short visit to the continent.</p>
    </sp>
 
-   <sp>
+   <sp who="#L0144_F5">
     <speaker>Peggy.</speaker>
     <p>Yes; and I remember too that you came home quite an altered woman—<emph>I</emph> never saw
      hair dressed in such an extraordinary style—never!</p>
    </sp>
 
-   <sp>
+   <sp who="#L0144_F4">
     <speaker>Mrs. S.</speaker>
     <p> Don’t interrupt me. I had been in Paris about three weeks, when one evening on my return
      from the opera, I found a note on my dressing table, containing these words—“I have seen you,
@@ -507,22 +538,22 @@
      you from time to time that I am near you.”</p>
    </sp>
 
-   <sp>
+   <sp who="#L0144_F5">
     <speaker>Peggy.</speaker>
     <p>Well I’m sure, Mr. Impudence; and what was the fellow’s name?</p>
    </sp>
 
-   <sp>
+   <sp who="#L0144_F4">
     <speaker>Mrs. S.</speaker>
     <p> There was no name, but merely the initials C. R.</p>
    </sp>
 
-   <sp>
+   <sp who="#L0144_F5">
     <speaker>Peggy.</speaker>
     <p>C. R. Samuel something or other I dare say—but he gave his address?</p>
    </sp>
 
-   <sp>
+   <sp who="#L0144_F4">
     <speaker>Mrs. S.</speaker>
     <p> No; simply the words “Post Office, to be left till called for.” Of course, I took no notice
      of it whatever, and had forgotten the circumstance altogether, when a month afterwards to the
@@ -530,12 +561,12 @@
      precisely the same words, and again subsequently at Venice, Naples, and Milan.</p>
    </sp>
 
-   <sp>
+   <sp who="#L0144_F5">
     <speaker>Peggy.</speaker>
     <p>Dear, dear, it’s as good as a play! Then you never took any notice of the fellow at all?</p>
    </sp>
 
-   <sp>
+   <sp who="#L0144_F4">
     <speaker>Mrs. S.</speaker>
     <p> Yes; a circumstance, the bare recollection of which makes me shudder even at this lapse of
      time, compelled me to break through the silence I had hitherto imposed upon myself: in
@@ -547,66 +578,66 @@
      promise, I am <emph>still near you.</emph>”</p>
    </sp>
 
-   <sp>
+   <sp who="#L0144_F5">
     <speaker>Peggy.</speaker>
     <p>Well, he was a fine brave gentleman, whoever he was; and what was he like—eh?</p>
    </sp>
 
-   <sp>
+   <sp who="#L0144_F4">
     <speaker>Mrs. S.</speaker>
     <p> He had disappeared before I could even thank him for his timely and generous assistance.</p>
    </sp>
 
    <pb n="8"/>
 
-   <sp>
+   <sp who="#L0144_F5">
     <speaker>Peggy.</speaker>
     <p>Well?</p>
    </sp>
 
-   <sp>
+   <sp who="#L0144_F4">
     <speaker>Mrs. S.</speaker>
     <p> Well? <stage>(hesitatingly)</stage> his next letter, which reached me shortly after my
      return to England, did <emph>not</emph> remain unanswered.</p>
    </sp>
 
-   <sp>
+   <sp who="#L0144_F5">
     <speaker>Peggy.</speaker>
     <p>I should think not, indeed! and what did you say to Mr. C. R.?</p>
    </sp>
 
-   <sp>
+   <sp who="#L0144_F4">
     <speaker>Mrs. S.</speaker>
     <p> The truth! that my hand was promised to my cousin, Percy Postlethwaite; that his father had
      once saved <emph>mine</emph> from ruin, who made me promise, as the only means of testifying
      <emph>his</emph> gratitude to the father, to marry the son.</p>
    </sp>
 
-   <sp>
+   <sp who="#L0144_F5">
     <speaker>Peggy.</speaker>
     <p>Ah! and that, of course, was a settler for Mr. C. R.</p>
    </sp>
 
-   <sp>
+   <sp who="#L0144_F4">
     <speaker>Mrs. S.</speaker>
     <p> On the contrary, his answer to my letter ran thus:—“Love like mine never despairs. I will
      still be near you, for I still hope”—and yet for the last <emph>two months</emph> he has ceased
      to write.</p>
    </sp>
 
-   <sp>
+   <sp who="#L0144_F5">
     <speaker>Peggy.</speaker>
     <p>Of course he has! and high time, too, considering you told him you were Mrs. Postlethwaite,
      as was to be.</p>
    </sp>
 
-   <sp>
+   <sp who="#L0144_F4">
     <speaker>Mrs. S.</speaker>
     <p> Very true; and yet <stage>(after a slight hesitation)</stage> no matter, go to bed, Peggy.
      Good night.</p>
    </sp>
 
-   <sp>
+   <sp who="#L0144_F5">
     <speaker>Peggy.</speaker>
     <p>Good night, ma’am. <stage>(taking the lantern—aside)</stage> Luckily when Master Percy
      arrives he’ll put all this romantic lackadaisical nonsense out of missus’s head.</p>
@@ -614,7 +645,7 @@
 
    <stage>Exit at door, L. C.</stage>
 
-   <sp>
+   <sp who="#L0144_F4">
     <speaker>Mrs. S.</speaker>
     <p> Yes, while the news of my recent accession to fortune has brought so many admirers to my
      feet, he, on the contrary, has ceased to think of me.</p>
@@ -624,25 +655,25 @@
     moment enters and cautiously goes to door, L. C., which he closes. The stage is only dimly
     lighted)</stage>
 
-   <sp>
+   <sp who="#L0144_F4">
     <speaker>Mrs. S.</speaker>
     <p> <stage>(hearing the noise of the door closing, and without turning round, as she unclasps
      her bracelets)</stage> Is that you again, Peggy? <stage>(not receiving an answer, she turns and
      sees Ratcliffe; starts violently, and checking a scream)</stage> A man!</p>
    </sp>
 
-   <sp>
+   <sp who="#L0144_M1">
     <speaker>Rat.</speaker>
     <p><stage>(L.)</stage> Do not be alarmed, madam, I beg. <stage>(advancing slowly)</stage></p>
    </sp>
 
-   <sp>
+   <sp who="#L0144_F4">
     <speaker>Mrs. S.</speaker>
     <p> <stage>(retreating, and in a tone of alarm which she endeavours to repress)</stage> Who are
      you, sir? and why this unseasonable intrusion? I insist on knowing.</p>
    </sp>
 
-   <sp>
+   <sp who="#L0144_M1">
     <speaker>Rat.</speaker>
     <p>A little patience, my dear madam, and you shall. <stage>(observing Mrs. Somerton, who
      endeavours to reach the door, L. C.)</stage> One moment, madam. Before you summon your
@@ -651,14 +682,14 @@
      pistols from his pocket, and depositing them on the table)</stage></p>
    </sp>
 
-   <sp>
+   <sp who="#L0144_F4">
     <speaker>Mrs. S.</speaker>
     <p> <stage>(terrified and aside)</stage> He’s armed. <stage>(suddenly)</stage> Ah! that writing
      desk—that large sum of money—<stage>(placing herself before the table on which the writing desk
      is, and supporting herself with difficulty)</stage></p>
    </sp>
 
-   <sp>
+   <sp who="#L0144_M1">
     <speaker>Rat.</speaker>
     <p>Now, madam, <stage>(crosses to R. with chair)</stage> the sooner I explain the object of this
      somewhat unceremonious visit, the better. Will you allow me to lead you to a chair?
@@ -671,14 +702,14 @@
      are directly pointed towards you. <stage>(goes up to the back for a chair)</stage></p>
    </sp>
 
-   <sp>
+   <sp who="#L0144_F4">
     <speaker>Mrs. S.</speaker>
     <p> <stage>(aside and suddenly)</stage> If I could but distinguish his features, so as to be
      able to recognise him. <stage>(hastily runs and brings candle from the small table at L., and
      places it on table before her)</stage></p>
    </sp>
 
-   <sp>
+   <sp who="#L0144_M1">
     <speaker>Rat.</speaker>
     <p><stage>(coming down with the chair, R.—stops)</stage> You’ll pardon me, madam, but having
      suffered lately from a severe cold in my eyes, this excess of light would be positively
@@ -687,35 +718,35 @@
      <stage>(seats himself)</stage></p>
    </sp>
 
-   <sp>
+   <sp who="#L0144_F4">
     <speaker>Mrs. S.</speaker>
     <p> <stage>(aside)</stage> Was there ever such unblushing effrontery?</p>
    </sp>
 
-   <sp>
+   <sp who="#L0144_M1">
     <speaker>Rat.</speaker>
     <p>Now, madam, I will come to the point at once. I am in the immediate want of <emph>fifteen
      thousand pounds.</emph> <stage>(with marked intention)</stage></p>
    </sp>
 
-   <sp>
+   <sp who="#L0144_F4">
     <speaker>Mrs. S.</speaker>
     <p> <stage>(aside)</stage> He knows all.</p>
    </sp>
 
-   <sp>
+   <sp who="#L0144_M1">
     <speaker>Rat.</speaker>
     <p>Which sum, madam, I intend to invest in a speculation, which promises the most advantageous
      results.</p>
    </sp>
 
-   <sp>
+   <sp who="#L0144_F4">
     <speaker>Mrs. S.</speaker>
     <p> <stage>(with affected unconcern)</stage> I cannot understand, sir, how the subject you
      allude to can possibly interest me.</p>
    </sp>
 
-   <sp>
+   <sp who="#L0144_M1">
     <speaker>Rat.</speaker>
     <p>More than you imagine, my dear madam, for I propose that you shall become my partner in this
      speculation; in other words, I will find the industry and energy requisite in carrying it into
@@ -723,85 +754,85 @@
      emphasis)</stage></p>
    </sp>
 
-   <sp>
+   <sp who="#L0144_F4">
     <speaker>Mrs. S.</speaker>
     <p> <stage>(indignantly)</stage> Sir!</p>
    </sp>
 
-   <sp>
+   <sp who="#L0144_M1">
     <speaker>Rat.</speaker>
     <p>That’s all! I’ll therefore make out a receipt for the amount at once. <stage>(taking a piece
      of paper, and beginning to write)</stage></p>
    </sp>
 
-   <sp>
+   <sp who="#L0144_F4">
     <speaker>Mrs. S.</speaker>
     <p> <stage>(aside, and looking towards the back of the stage)</stage> That bell communicates
      with David’s room; it is my only hope. <stage>(cautiously rises from her chair, and goes on
      tiptoe towards the chimney-piece)</stage></p>
    </sp>
 
-   <sp>
+   <sp who="#L0144_M2">
     <speaker>Pos.</speaker>
     <p><stage>(appearing at little window above door at R. C.)</stage> I should very much like to
      know who has taken the liberty of locking me in! I repeat, who has taken the liberty of locking
      me in? I pause for a reply.</p>
    </sp>
 
-   <sp>
+   <sp who="#L0144_F4">
     <speaker>Mrs. S.</speaker>
     <p> <stage>(looking at Ratcliffe, who pretends to be writing, but is watching her movements—then
      making a sudden grasp at the bell rope)</stage> Ah! the bell rope cut!</p>
    </sp>
 
-   <sp>
+   <sp who="#L0144_M1">
     <speaker>Rat.</speaker>
     <p><stage>(quietly looking up)</stage> Yes, true! I quite forgot to mention that I had taken
      that <emph>little precaution</emph> against interruption. <stage>(resumes his
      writing)</stage></p>
    </sp>
 
-   <sp>
+   <sp who="#L0144_M2">
     <speaker>Pos.</speaker>
     <p><stage>(listening)</stage> Holloa! Either cousin Somerton has got a very bad cold, or she’s
      not alone!</p>
    </sp>
 
-   <sp>
+   <sp who="#L0144_M1">
     <speaker>Rat.</speaker>
     <p>Here, madam, is the receipt. <stage>(rising)</stage></p>
    </sp>
 
-   <sp>
+   <sp who="#L0144_M2">
     <speaker>Pos.</speaker>
     <p>That’s a man’s voice!</p>
    </sp>
 
-   <sp>
+   <sp who="#L0144_M1">
     <speaker>Rat.</speaker>
     <p>And now, madam, the necessary forms being completed
      <pb n="10"/> on my part, all that remains is for you to find the funds; amounting, as I believe
      I mentioned before, to the sum of fifteen thousand pounds.</p>
    </sp>
 
-   <sp>
+   <sp who="#L0144_F4">
     <speaker>Mrs. S.</speaker>
     <p> <stage>(forcing a laugh)</stage> And do you imagine I could be imprudent enough to keep so
      large a sum of money——?</p>
    </sp>
 
-   <sp>
+   <sp who="#L0144_M1">
     <speaker>Rat.</speaker>
     <p>On your person? Oh, dear no; that would be an indiscretion for which, as your partner, I
      should certainly take the liberty of scolding you.</p>
    </sp>
 
-   <sp>
+   <sp who="#L0144_M2">
     <speaker>Pos.</speaker>
     <p>What’s that? he says he’s my wife’s partner! I never even knew she was in business.</p>
    </sp>
 
-   <sp>
+   <sp who="#L0144_M1">
     <speaker>Rat.</speaker>
     <p>Until you could deposit it with your banker’s, you have, doubtless, placed it somewhere under
      lock and key; but as you seem to have forgotten the exact locality, I shall be most happy to
@@ -809,70 +840,70 @@
      the desk)</stage> Will you oblige me with the key?</p>
    </sp>
 
-   <sp>
+   <sp who="#L0144_M2">
     <speaker>Pos.</speaker>
     <p>The fellow’s a housebreaker!</p>
    </sp>
 
-   <sp>
+   <sp who="#L0144_F4">
     <speaker>Mrs. S.</speaker>
     <p> I—I have mislaid or lost it, sir: at least, I think I have.</p>
    </sp>
 
-   <sp>
+   <sp who="#L0144_M1">
     <speaker>Rat.</speaker>
     <p>Pray <emph>think</emph> again, my dear madam, as it would be really a pity to damage so
      elegant a piece of furniture.</p>
    </sp>
 
-   <sp>
+   <sp who="#L0144_M2">
     <speaker>Pos.</speaker>
     <p>No—he’s a smasher! It’s lucky for him I can’t get at him.</p>
    </sp>
 
-   <sp>
+   <sp who="#L0144_F4">
     <speaker>Mrs. S.</speaker>
     <p> <stage>(suddenly, and with resolution)</stage> Sir, although alone, and in the power of a
      desperate man like you, I will not be plundered except by violence.</p>
    </sp>
 
-   <sp>
+   <sp who="#L0144_M2">
     <speaker>Pos.</speaker>
     <p>That’s right, cousin—stick to that! She’s a trump!</p>
    </sp>
 
-   <sp>
+   <sp who="#L0144_M1">
     <speaker>Rat.</speaker>
     <p><stage>(approaching her as she leans against table in C., and in a tone of reproach)</stage>
      Violence to a woman, and <emph>such a woman! </emph><stage>(bowing)</stage></p>
    </sp>
 
-   <sp>
+   <sp who="#L0144_M2">
     <speaker>Pos.</speaker>
     <p>Humbug!</p>
    </sp>
 
-   <sp>
+   <sp who="#L0144_M1">
     <speaker>Rat.</speaker>
     <p>I see you mistake me, madam, I came here to serve you—to propose to you a safe and profitable
      investment for your money, but the moment you object to that proposal—— <stage>(taking one of
      the pistols off the table and playing with it)</stage></p>
    </sp>
 
-   <sp>
+   <sp who="#L0144_M2">
     <speaker>Pos.</speaker>
     <p>What’s that he’s got in his hand? <stage>(Ratcliffe cocks the pistol, the noise of which is
      distinctly heard)</stage> It’s a blunderbuss! <stage>(disappears like lightning, then
      cautiously appears again)</stage></p>
    </sp>
 
-   <sp>
+   <sp who="#L0144_F4">
     <speaker>Mrs. S.</speaker>
     <p> <stage>(shuddering and sinking into a chair)</stage> You will find the key—in that vase—on
      the mantel-piece.</p>
    </sp>
 
-   <sp>
+   <sp who="#L0144_M1">
     <speaker>Rat.</speaker>
     <p>That vase, madam? <stage>(pointing with his pistol towards mantel-piece in the direction of
      Postlethwaite, who again disappears like a shot; Ratcliffe goes to the mantel-piece, upon which
@@ -886,7 +917,7 @@
      in desk)</stage></p>
    </sp>
 
-   <sp>
+   <sp who="#L0144_F4">
     <speaker>Mrs. S.</speaker>
     <p> <stage>(aside, and smiling)</stage> To do the wretch justice he has a certain mode of
      expressing himself——</p>
@@ -894,31 +925,31 @@
 
    <pb n="11"/>
 
-   <sp>
+   <sp who="#L0144_M2">
     <speaker>Pos.</speaker>
     <p>I hope he don’t mean to keep on fumbling that writing desk about much longer, because the
      bottom of the cane chair has just given way. Surely, Cousin Somerton never could have been such
      a simpleton as to lock all her money up there.</p>
    </sp>
 
-   <sp>
+   <sp who="#L0144_M1">
     <speaker>Rat.</speaker>
     <p>Ah, at last—<stage>(taking the pocket book out of the desk, and advancing to Mrs.
      Somerton)</stage>—the pocket book.</p>
    </sp>
 
-   <sp>
+   <sp who="#L0144_M2">
     <speaker>Pos.</speaker>
     <p>She’s a ruined woman and so am I! <stage>(dropping his head against the side of the
      window)</stage></p>
    </sp>
 
-   <sp>
+   <sp who="#L0144_F4">
     <speaker>Mrs. S.</speaker>
     <p> <stage>(suddenly, and with an expression of hope)</stage> Surely I heard a voice!</p>
    </sp>
 
-   <sp>
+   <sp who="#L0144_M1">
     <speaker>Rat.</speaker>
     <p>One of your servants probably. <stage>(going up towards mantel-piece, and taking his
      pistols)</stage> I hope he will not take it into his head to interrupt us, for I should
@@ -930,12 +961,12 @@
      Somerton)</stage> I promised you a receipt, madam, and here it is.</p>
    </sp>
 
-   <sp>
+   <sp who="#L0144_F4">
     <speaker>Mrs. S.</speaker>
     <p> <stage>(derisively)</stage> A very valuable document to me no doubt, sir.</p>
    </sp>
 
-   <sp>
+   <sp who="#L0144_M1">
     <speaker>Rat.</speaker>
     <p>A very necessary one, madam, in all commercial transactions. <stage>(Mrs. Somerton takes the
      receipt, and indignantly crumples it up in her hand)</stage> Once more, madam, farewell.
@@ -943,101 +974,101 @@
      with me——</p>
    </sp>
 
-   <sp>
+   <sp who="#L0144_F4">
     <speaker>Mrs. S.</speaker>
     <p> <stage>(sneeringly)</stage> I am perfectly aware, sir, what you carry away with you.</p>
    </sp>
 
-   <sp>
+   <sp who="#L0144_M1">
     <speaker>Rat.</speaker>
     <p>The hope, madam, which I trust you in some degree share with me, that our first interview
      will not be our last. <stage>(turns at door, L. C., makes a profound bow, and exits,
      L. U. E.)</stage></p>
    </sp>
 
-   <sp>
+   <sp who="#L0144_F4">
     <speaker>Mrs. S.</speaker>
     <p> He’s gone, and I have no longer strength even to call for help.</p>
    </sp>
 
-   <sp>
+   <sp who="#L0144_M2">
     <speaker>Pos.</speaker>
     <p><stage>(knocking violently at door)</stage> But I have! I’ll cry for help against any man in
      England! Help!</p>
    </sp>
 
-   <sp>
+   <sp who="#L0144_F4">
     <speaker>Mrs. S.</speaker>
     <p> <stage>(rising)</stage> Ah, is that you, David?</p>
    </sp>
 
-   <sp>
+   <sp who="#L0144_M2">
     <speaker>Pos.</speaker>
     <p>No—it’s me—Postlethwaite. Cousin Percy, open the door. <stage>(Mrs. Somerton hastily runs and
      unlocks door, R. C., Postlethwaite puts his head out)</stage> Is the ruffian gone?</p>
    </sp>
 
-   <sp>
+   <sp who="#L0144_F4">
     <speaker>Mrs. S.</speaker>
     <p> Yes—yes.</p>
    </sp>
 
-   <sp>
+   <sp who="#L0144_M2">
     <speaker>Pos.</speaker>
     <p>You’re sure of it?</p>
    </sp>
 
-   <sp>
+   <sp who="#L0144_F4">
     <speaker>Mrs. S.</speaker>
     <p> <stage>(L.)</stage> Quite sure.</p>
    </sp>
 
-   <sp>
+   <sp who="#L0144_M2">
     <speaker>Pos.</speaker>
     <p><stage>(R., rushing on)</stage> Then let me get at him! Come out wherever you are, and face
      me like a man—come on, I say. <stage>(squaring violently)</stage> Coward! <stage>(in a tone of
      supreme contempt)</stage></p>
    </sp>
 
-   <sp>
+   <sp who="#L0144_F4">
     <speaker>Mrs. S.</speaker>
     <p> Then you have heard——</p>
    </sp>
 
-   <sp>
+   <sp who="#L0144_M2">
     <speaker>Pos.</speaker>
     <p>Everything from that window, above that closet there, or whatever it is where I’ve been
      locked up for the last hour among the pickles.</p>
    </sp>
 
-   <sp>
+   <sp who="#L0144_F4">
     <speaker>Mrs. S.</speaker>
     <p> And yet you allowed me to be robbed.</p>
    </sp>
 
-   <sp>
+   <sp who="#L0144_M2">
     <speaker>Pos.</speaker>
     <p>Come I like that—you allowed yourself to be robbed.</p>
    </sp>
 
    <pb n="12"/>
 
-   <sp>
+   <sp who="#L0144_F4">
     <speaker>Mrs. S.</speaker>
     <p> <stage>(contemptuously)</stage> And you did <emph>nothing.</emph></p>
    </sp>
 
-   <sp>
+   <sp who="#L0144_M2">
     <speaker>Pos.</speaker>
     <p>I beg your pardon, I looked on in silent astonishment.</p>
    </sp>
 
-   <sp>
+   <sp who="#L0144_F4">
     <speaker>Mrs. S.</speaker>
     <p> But you ought to have made a noise.</p>
    </sp>
 
-   <sp>
+   <sp who="#L0144_M2">
     <speaker>Pos.</speaker>
     <p>So I did—I tumbled down backwards into a lot of grocery.</p>
    </sp>
@@ -1045,33 +1076,33 @@
    <stage>(from the beginning of this Scene between MRS. SOMERTON and POSTLETHWAITE it has
     gradually become daylight)</stage>
 
-   <sp>
+   <sp who="#L0144_F4">
     <speaker>Mrs. S.</speaker>
     <p> And to think that he should be allowed to effect his escape! What shall I do?</p>
    </sp>
 
-   <sp>
+   <sp who="#L0144_M2">
     <speaker>Pos.</speaker>
     <p>Do? Take example by me, show a proper spirit like me, and send for the police.</p>
    </sp>
 
-   <sp>
+   <sp who="#L0144_F4">
     <speaker>Mrs. S.</speaker>
     <p> We have none.</p>
    </sp>
 
-   <sp>
+   <sp who="#L0144_M2">
     <speaker>Pos.</speaker>
     <p>No police! <stage>(suddenly recollecting)</stage> but <emph>I</emph> have, of course, and a
      superintendent into the bargain—here—in my pocket.</p>
    </sp>
 
-   <sp>
+   <sp who="#L0144_F4">
     <speaker>Mrs. S.</speaker>
     <p> You’ve got a superintendent of police in your pocket?</p>
    </sp>
 
-   <sp>
+   <sp who="#L0144_M2">
     <speaker>Pos.</speaker>
     <p>Yes—no; but I’ve got his appointment—that’s the same thing, besides he’s a friend of mine;
      I’ll run for him this moment, and in less than ten minutes we’ll have him here dead or alive; I
@@ -1082,22 +1113,22 @@
      <stage>(rushing to window)</stage></p>
    </sp>
 
-   <sp>
+   <sp who="#L0144_F4">
     <speaker>Mrs. S.</speaker>
     <p> What are you about to do?</p>
    </sp>
 
-   <sp>
+   <sp who="#L0144_M2">
     <speaker>Pos.</speaker>
     <p>Do? send a bullet through his body.</p>
    </sp>
 
-   <sp>
+   <sp who="#L0144_F4">
     <speaker>Mrs. S.</speaker>
     <p> Pshaw! Why you can’t even see him.</p>
    </sp>
 
-   <sp>
+   <sp who="#L0144_M2">
     <speaker>Pos.</speaker>
     <p>Then I’m the more likely to hit him; besides, it will raise an alarm at all events.
      <stage>(pulling both triggers as he points the pistols out at window)</stage> Holloa they’re
@@ -1105,23 +1136,23 @@
      the window)</stage></p>
    </sp>
 
-   <sp>
+   <sp who="#L0144_F4">
     <speaker>Mrs. S.</speaker>
     <p> Cousin, what are you about?</p>
    </sp>
 
-   <sp>
+   <sp who="#L0144_M2">
     <speaker>Pos.</speaker>
     <p>Why, as I can’t get out by the door, I must have recourse to the window. <stage>(getting
      out)</stage></p>
    </sp>
 
-   <sp>
+   <sp who="#L0144_F4">
     <speaker>Mrs. S.</speaker>
     <p> And this for me! Oh, how kind of you, Cousin; but pray mind how you get down!</p>
    </sp>
 
-   <sp>
+   <sp who="#L0144_M2">
     <speaker>Pos.</speaker>
     <p>Don’t be alarmed; it’s a precious deal easier than getting up! besides I know every inch of
      the road; so good bye, cousin, and in my way to my friend the superintendent, I’ll knock up all
@@ -1131,24 +1162,24 @@
      heard)</stage></p>
    </sp>
 
-   <sp>
+   <sp who="#L0144_F4">
     <speaker>Mrs. S.</speaker>
     <p> He’s fallen! <stage>(calling out of window)</stage> Cousin! cousin!</p>
    </sp>
 
-   <sp>
+   <sp who="#L0144_M2">
     <speaker>Pos.</speaker>
     <p><stage>(from without)</stage> It’s all right. I’ve only tumbled into a cucumber frame or
      something of the sort. I can have the bits of glass taken out of me when I get back.</p>
    </sp>
 
-   <sp>
+   <sp who="#L0144_F4">
     <speaker>Mrs. S.</speaker>
     <p> <stage>(looking out)</stage> There he runs, but he’s without his hat! <stage>(calling
      aloud)</stage> Cousin! cousin! you’ve dropped your hat! he doesn’t hear me.</p>
    </sp>
 
-   <sp>
+   <sp who="#L0144_F5">
     <speaker>Peggy.</speaker>
     <p><stage>(without at door, L. C.)</stage> Missus—missus, the door’s locked. <stage>(unlocks
      door and runs in followed by David, both have their night-caps
@@ -1156,56 +1187,56 @@
      this noise about—what does it all mean?</p>
    </sp>
 
-   <sp>
+   <sp who="#L0144_M3">
     <speaker>David.</speaker>
     <p>Ees, what do it all mean?</p>
    </sp>
 
-   <sp>
+   <sp who="#L0144_F4">
     <speaker>Mrs. S.</speaker>
     <p> It means, my poor Peggy, that I have been robbed.</p>
    </sp>
 
-   <sp>
+   <sp who="#L0144_F5">
     <speaker>Peggy.</speaker>
     <p>Robbed, but not murdered, I hope.</p>
    </sp>
 
-   <sp>
+   <sp who="#L0144_F4">
     <speaker>Mrs. S.</speaker>
     <p> <stage>(smiling)</stage> No, not quite, though I am almost dead with alarm! David, have you
      seen no one?</p>
    </sp>
 
-   <sp>
+   <sp who="#L0144_M3">
     <speaker>David.</speaker>
     <p>No, ma’am—no one but your cousin, master Percy, who arrived about half an hour before you
      came home.</p>
    </sp>
 
-   <sp>
+   <sp who="#L0144_F4">
     <speaker>Mrs. S.</speaker>
     <p> Yes, yes, I know; but there was another.</p>
    </sp>
 
-   <sp>
+   <sp who="#L0144_M3">
     <speaker>David.</speaker>
     <p>Then I didn’t let <emph>him</emph> in, and I know he can’t have gone out again without my
      seeing him. <stage>(aside)</stage> To be sure I’ve been fast asleep all the time.</p>
    </sp>
 
-   <sp>
+   <sp who="#L0144_F4">
     <speaker>Mrs. S.</speaker>
     <p> Then perhaps he’s still in the house?</p>
    </sp>
 
-   <sp>
+   <sp who="#L0144_F5">
     <speaker>Peggy.</speaker>
     <p>Lud a mercy! <stage>(getting behind David, who in his turn tries to get behind
      Peggy)</stage></p>
    </sp>
 
-   <sp>
+   <sp who="#L0144_M3">
     <speaker>David.</speaker>
     <p><stage>(suddenly as he looks towards window, R. in flat)</stage> Look, ma’am, if there ben’t
      Sergeant Jones of the rural police riding along the lane at the bottom of the garden.
@@ -1213,7 +1244,7 @@
      ma’am.</p>
    </sp>
 
-   <sp>
+   <sp who="#L0144_F4">
     <speaker>Mrs. S.</speaker>
     <p> This is fortunate indeed; so run, David, and give him information of the robbery; tell him
      that he may rely on the most liberal reward. <stage>(David about to run off)</stage> and,
@@ -1223,25 +1254,25 @@
      room for a few minutes.</p>
    </sp>
 
-   <sp>
+   <sp who="#L0144_F5">
     <speaker>Peggy.</speaker>
     <p>Do, ma’am; it’ll do you good to lie down a bit; it’s broad day-light—just till Mr.
      Superintendent comes. <stage>(Mrs. Somerton enters her room, L.)</stage></p>
    </sp>
 
-   <sp>
+   <sp who="#L0144_F5">
     <speaker>Peggy.</speaker>
     <p><stage>(looking after her)</stage> Poor missus—she’s lost all her treasures except me.</p>
    </sp>
 
    <stage>Exit at door, L. C.</stage>
 
-   <sp>
+   <sp who="#L0144_M2">
     <speaker>Pos.</speaker>
     <p><stage>(without)</stage> I tell you it’s all right, so come along.</p>
    </sp>
 
-   <sp>
+   <sp who="#L0144_M1">
     <speaker>Rat.</speaker>
     <p><stage>(without)</stage> But, my dear fellow—</p>
    </sp>
@@ -1251,139 +1282,139 @@
 
    <p>I never applied for the appointment; there’s some mistake.</p>
 
-   <sp>
+   <sp who="#L0144_M2">
     <speaker>Pos.</speaker>
     <p>Mistake, nonsense! here it is in the newspaper, and you know as well as I do that newspapers
      never make mistakes. Captain Charles Ratcliffe appointed superintendent of the rural
      police.</p>
    </sp>
 
-   <sp>
+   <sp who="#L0144_M1">
     <speaker>Rat.</speaker>
     <p><stage>(aside)</stage> What the devil’s to be done?—luckily I’ve got rid of my disguise!</p>
    </sp>
 
-   <sp>
+   <sp who="#L0144_M2">
     <speaker>Pos.</speaker>
     <p>How very odd I should happen to run up against you. Eh! at five o’clock in the morning
      too.</p>
    </sp>
 
-   <sp>
+   <sp who="#L0144_M1">
     <speaker>Rat.</speaker>
     <p>Yes, I was going home from a bachelor’s party. <stage>(confused)</stage></p>
    </sp>
 
-   <sp>
+   <sp who="#L0144_M2">
     <speaker>Pos.</speaker>
     <p>Little dreaming that at that moment you held the distinguished position of commander-in-chief
      of the rural police force of this important district.</p>
    </sp>
 
-   <sp>
+   <sp who="#L0144_M1">
     <speaker>Rat.</speaker>
     <p>Pshaw! I shall resign at once. <stage>(going)</stage></p>
    </sp>
 
    <pb n="14"/>
 
-   <sp>
+   <sp who="#L0144_M2">
     <speaker>Pos.</speaker>
     <p><stage>(pulling him back)</stage> You can’t till your successor is appointed.</p>
    </sp>
 
-   <sp>
+   <sp who="#L0144_M1">
     <speaker>Rat.</speaker>
     <p><stage>(aside)</stage> There’s no escape, I must brazen it out: lucky I have got rid of my
      disguise, at any rate I shall see her once more! <stage>(aloud, and in an assumed tone of
      authority)</stage> ahem! <stage>(seats himself)</stage> now I am ready to listen to you.</p>
    </sp>
 
-   <sp>
+   <sp who="#L0144_M2">
     <speaker>Pos.</speaker>
     <p><stage>(L.)</stage> That’s right—you must know then. <stage>(seats himself)</stage></p>
    </sp>
 
-   <sp>
+   <sp who="#L0144_M1">
     <speaker>Rat.</speaker>
     <p><stage>(R.)</stage> One moment, are you about to address me in my official capacity?</p>
    </sp>
 
-   <sp>
+   <sp who="#L0144_M2">
     <speaker>Pos.</speaker>
     <p>Of course, I am.</p>
    </sp>
 
-   <sp>
+   <sp who="#L0144_M1">
     <speaker>Rat.</speaker>
     <p>Then don’t sit down.</p>
    </sp>
 
-   <sp>
+   <sp who="#L0144_M2">
     <speaker>Pos.</speaker>
     <p>But really my back aches to that degree—</p>
    </sp>
 
-   <sp>
+   <sp who="#L0144_M1">
     <speaker>Rat.</speaker>
     <p>Then I’ll receive your deposition to-morrow. <stage>(gets up and going)</stage></p>
    </sp>
 
-   <sp>
+   <sp who="#L0144_M2">
     <speaker>Pos.</speaker>
     <p>No, no! <stage>(pushing Ratcliffe in his chair again)</stage> I’ll stand up there! and now,
      my dear fellow—</p>
    </sp>
 
-   <sp>
+   <sp who="#L0144_M1">
     <speaker>Rat.</speaker>
     <p>A little less familiarity, if you please, young man.</p>
    </sp>
 
-   <sp>
+   <sp who="#L0144_M2">
     <speaker>Pos.</speaker>
     <p>Very well—you must know then, old chap—</p>
    </sp>
 
-   <sp>
+   <sp who="#L0144_M1">
     <speaker>Rat.</speaker>
     <p>Again—</p>
    </sp>
 
-   <sp>
+   <sp who="#L0144_M2">
     <speaker>Pos.</speaker>
     <p>Well, then, your worship! there, will that do? you must know then, your worship, that I’ve
      just been robbed of a very considerable sum of money.</p>
    </sp>
 
-   <sp>
+   <sp who="#L0144_M1">
     <speaker>Rat.</speaker>
     <p>You?</p>
    </sp>
 
-   <sp>
+   <sp who="#L0144_M2">
     <speaker>Pos.</speaker>
     <p>Well, my cousin, Mrs. Somerton has—and as I’m going to marry her, what’s her’s is mine, and
      what’s mine’s my own; but you know all about that, governor—I mean your worship.</p>
    </sp>
 
-   <sp>
+   <sp who="#L0144_M1">
     <speaker>Rat.</speaker>
     <p>Which property I suppose, you wish to recover?</p>
    </sp>
 
-   <sp>
+   <sp who="#L0144_M2">
     <speaker>Pos.</speaker>
     <p>Of course, I do; you’ll excuse me, my dear boy, Charley, I mean your worship, but that’s a
      remarkable stupid observation of your’s.</p>
    </sp>
 
-   <sp>
+   <sp who="#L0144_M1">
     <speaker>Rat.</speaker>
     <p>Silence—was the robbery you speak of accompanied by violence?</p>
    </sp>
 
-   <sp>
+   <sp who="#L0144_M2">
     <speaker>Pos.</speaker>
     <p>Of course, it was! would you allow a fellow to walk off with your property without making a
      fight of it, not you, my trojan—I mean your worship! but I’ll tell you all about it. I had just
@@ -1395,22 +1426,22 @@
      know my muscular power—I knocked the door clean off its hinges.</p>
    </sp>
 
-   <sp>
+   <sp who="#L0144_M1">
     <speaker>Rat.</speaker>
     <p><stage>(smiling)</stage> You don’t say so?</p>
    </sp>
 
-   <sp>
+   <sp who="#L0144_M2">
     <speaker>Pos.</speaker>
     <p>Well, in I rushed, and the first thing I saw was——</p>
    </sp>
 
-   <sp>
+   <sp who="#L0144_M1">
     <speaker>Rat.</speaker>
     <p>What?</p>
    </sp>
 
-   <sp>
+   <sp who="#L0144_M2">
     <speaker>Pos.</speaker>
     <p>Nothing; the room was in total darkness, and the next instant I found myself face to face
      with a gigantic housebreaker about seven foot high, with two pair of pistols in each hand, and
@@ -1420,46 +1451,46 @@
 
    <pb n="15"/>
 
-   <sp>
+   <sp who="#L0144_M1">
     <speaker>Rat.</speaker>
     <p><stage>(smiling)</stage> But how the deuce did you manage to see all this when the room was
      in total darkness?</p>
    </sp>
 
-   <sp>
+   <sp who="#L0144_M2">
     <speaker>Pos.</speaker>
     <p>What of that? everybody knows that housebreakers are always as pale as a sheet when they
      faint away; I mean women are always seven feet high—no, housebreakers—really you interrupt me
      so I don’t know what I’m talking about.</p>
    </sp>
 
-   <sp>
+   <sp who="#L0144_M1">
     <speaker>Rat.</speaker>
     <p><stage>(smiling)</stage> Well?</p>
    </sp>
 
-   <sp>
+   <sp who="#L0144_M2">
     <speaker>Pos.</speaker>
     <p>Well, though I was unarmed, I instantly rushed upon the two ruffians.</p>
    </sp>
 
-   <sp>
+   <sp who="#L0144_M1">
     <speaker>Rat.</speaker>
     <p>Two ruffians?</p>
    </sp>
 
-   <sp>
+   <sp who="#L0144_M2">
     <speaker>Pos.</speaker>
     <p>Yes. I said there were two, who instantly made for the door, which luckily I had taken the
      precaution of locking.</p>
    </sp>
 
-   <sp>
+   <sp who="#L0144_M1">
     <speaker>Rat.</speaker>
     <p>Locking! What the door you had just knocked clean off its hinges?</p>
    </sp>
 
-   <sp>
+   <sp who="#L0144_M2">
     <speaker>Pos.</speaker>
     <p>Yes. I forgot to mention that in the meantime I had picked the door up and hung it on again.
      Well, finding they couldn’t escape, they both sprang upon me at the same time! The fearful
@@ -1468,12 +1499,12 @@
      L.)</stage></p>
    </sp>
 
-   <sp>
+   <sp who="#L0144_M1">
     <speaker>Rat.</speaker>
     <p>Then, as I said before, impudence befriend me.</p>
    </sp>
 
-   <sp>
+   <sp who="#L0144_M2">
     <speaker>Pos.</speaker>
     <p><stage>(handing in Mrs. Somerton)</stage> Come along, cousin, I told you I’d soon have my
      friend the superintendent here. Captain Ratcliffe, my cousin. My cousin, Captain Ratcliffe.
@@ -1483,63 +1514,63 @@
      <stage>(observing how Mrs. Somerton is examining Ratcliffe)</stage></p>
    </sp>
 
-   <sp>
+   <sp who="#L0144_F4">
     <speaker>Mrs. S.</speaker>
     <p> Nothing. Doubtless I am mistaken. Yet, I am under the impression that this is not the first
      time——</p>
    </sp>
 
-   <sp>
+   <sp who="#L0144_M1">
     <speaker>Rat.</speaker>
     <p>That we have met? madam, if so, I am ashamed to say that I have forgotten the circumstance.
      <stage>(crosses to C.)</stage></p>
    </sp>
 
-   <sp>
+   <sp who="#L0144_F4">
     <speaker>Mrs. S.</speaker>
     <p> <stage>(aside)</stage> The voice too—pshaw—impossible!</p>
    </sp>
 
-   <sp>
+   <sp who="#L0144_M1">
     <speaker>Rat.</speaker>
     <p>Now, madam, as every moment is of the utmost importance you must be good enough to answer a
      few questions. In the first place how the entrance to the house was effected by the robbers.
      <stage>(taking out his pocket book and pencil.)</stage></p>
    </sp>
 
-   <sp>
+   <sp who="#L0144_F4">
     <speaker>Mrs. S.</speaker>
     <p> Robbers!—there was only one.</p>
    </sp>
 
-   <sp>
+   <sp who="#L0144_M1">
     <speaker>Rat.</speaker>
     <p>Only one! <stage>(to Postlethwaite)</stage> I understood you to say there were—</p>
    </sp>
 
-   <sp>
+   <sp who="#L0144_M2">
     <speaker>Pos.</speaker>
     <p><stage>(interrupting him)</stage> Yes, yes. <stage>(aside to him)</stage> Of course, she
      doesn’t know how many there were, because as soon as she saw <emph>one</emph> she fainted.</p>
    </sp>
 
-   <sp>
+   <sp who="#L0144_M1">
     <speaker>Rat.</speaker>
     <p>True! <stage>(smiling)</stage></p>
    </sp>
 
-   <sp>
+   <sp who="#L0144_F4">
     <speaker>Mrs. S.</speaker>
     <p> <stage>(aside)</stage> That voice again—I must be mistaken—yet, every word he
      utters—<stage>(looking again fixedly at Ratcliffe)</stage></p>
    </sp>
 
-   <sp>
+   <sp who="#L0144_M1">
     <speaker>Rat.</speaker>
     <p><stage>(C., to Mrs. S.)</stage> You have not answered my question, madam.</p>
    </sp>
 
-   <sp>
+   <sp who="#L0144_F4">
     <speaker>Mrs. S.</speaker>
     <p> I can only say, sir, that on being left alone, I was disturbed by a slight noise, and on
      turning round, he stood before me—as you do.</p>
@@ -1547,149 +1578,149 @@
 
    <pb n="16"/>
 
-   <sp>
+   <sp who="#L0144_M1">
     <speaker>Rat.</speaker>
     <p>A bold and impudent villain, evidently. I can easily conceive your alarm, madam, but luckily
      your cousin here on hearing your piercing shrieks, <stage>(Postlethwaite pulls his coat
      tail)</stage> rushes to your assistance, and with one blow of his masculine fist—</p>
    </sp>
 
-   <sp>
+   <sp who="#L0144_M2">
     <speaker>Pos.</speaker>
     <p><stage>(stopping him, and aside)</stage> That’ll do—don’t remind her of that terrific scene,
      it distresses her.</p>
    </sp>
 
-   <sp>
+   <sp who="#L0144_M1">
     <speaker>Rat.</speaker>
     <p><stage>(smiling again)</stage> True. <stage>(to Mrs. S.)</stage> Then, madam, you would
      probably be able to identify this audacious criminal?</p>
    </sp>
 
-   <sp>
+   <sp who="#L0144_F4">
     <speaker>Mrs. S.</speaker>
     <p> <stage>(with intention)</stage> Not with absolute certainty, sir.</p>
    </sp>
 
-   <sp>
+   <sp who="#L0144_M2">
     <speaker>Pos.</speaker>
     <p>No, more should I.</p>
    </sp>
 
-   <sp>
+   <sp who="#L0144_M1">
     <speaker>Rat.</speaker>
     <p>That’s strange too, considering the length of time you were struggling with him.</p>
    </sp>
 
-   <sp>
+   <sp who="#L0144_M2">
     <speaker>Pos.</speaker>
     <p>Yes, yes. <stage>(aside to him)</stage> That’ll do—she can’t bear it.</p>
    </sp>
 
-   <sp>
+   <sp who="#L0144_F4">
     <speaker>Mrs. S.</speaker>
     <p> <stage>(still with intention)</stage> And were I to act upon my present
      <emph>suspicions,</emph> however well grounded they may appear, I might be the means of
      compromising—</p>
    </sp>
 
-   <sp>
+   <sp who="#L0144_M1">
     <speaker>Rat.</speaker>
     <p>Who, madam?</p>
    </sp>
 
-   <sp>
+   <sp who="#L0144_F4">
     <speaker>Mrs. S.</speaker>
     <p> <stage>(looking at him)</stage> One perhaps, whose position in society——</p>
    </sp>
 
-   <sp>
+   <sp who="#L0144_M1">
     <speaker>Rat.</speaker>
     <p>Nay, madam—as the representative of the law, I tell you that it matters not what his social
      position may be, we must not mince matters.</p>
    </sp>
 
-   <sp>
+   <sp who="#L0144_M2">
     <speaker>Pos.</speaker>
     <p>Certainly not. I’d rather mince him. Fifteen thousand pounds is a lump of money.</p>
    </sp>
 
-   <sp>
+   <sp who="#L0144_M1">
     <speaker>Rat.</speaker>
     <p><stage>(with pretended astonishment)</stage> Fifteen thousand pounds—the unconscionable
      scoundrel!—one moment <stage>(writing in the pocket book)</stage>—amount stolen—fifteen
      thousand pounds; number of robbers——</p>
    </sp>
 
-   <sp>
+   <sp who="#L0144_M2">
     <speaker>Pos.</speaker>
     <p><stage>(aside to him)</stage> Uncertain! as there seems to be a little difference of opinion
      between cousin and me upon that point. You’d better say “uncertain.”</p>
    </sp>
 
-   <sp>
+   <sp who="#L0144_M1">
     <speaker>Rat.</speaker>
     <p><stage>(to Mrs. S.)</stage> Bank notes, I presume?</p>
    </sp>
 
-   <sp>
+   <sp who="#L0144_F4">
     <speaker>Mrs. S.</speaker>
     <p> Yes, sir—bank notes.</p>
    </sp>
 
-   <sp>
+   <sp who="#L0144_M1">
     <speaker>Rat.</speaker>
     <p>And contained in that writing desk.</p>
    </sp>
 
-   <sp>
+   <sp who="#L0144_F4">
     <speaker>Mrs. S.</speaker>
     <p> <stage>(aside)</stage> ’Tis he, I’m sure of it <stage>(hastily and aside to Postlethwaite,
      while Ratcliffe is examining the writing desk)</stage>—tell me, do you say you know him?</p>
    </sp>
 
-   <sp>
+   <sp who="#L0144_M2">
     <speaker>Pos.</speaker>
     <p>Who, the housebreaker?</p>
    </sp>
 
-   <sp>
+   <sp who="#L0144_F4">
     <speaker>Mrs. S.</speaker>
     <p> No, that person. <stage>(pointing to Ratcliffe)</stage></p>
    </sp>
 
-   <sp>
+   <sp who="#L0144_M2">
     <speaker>Pos.</speaker>
     <p>Know my friend Ratcliffe, of course I do.</p>
    </sp>
 
-   <sp>
+   <sp who="#L0144_M1">
     <speaker>Rat.</speaker>
     <p><stage>(observing them and coming down, between them.)</stage> I regret I cannot hold out to
      you any reasonable hope of recovering your property.</p>
    </sp>
 
-   <sp>
+   <sp who="#L0144_M2">
     <speaker>Pos.</speaker>
     <p>You don’t mean that?</p>
    </sp>
 
-   <sp>
+   <sp who="#L0144_M1">
     <speaker>Rat.</speaker>
     <p>Why, unfortunately Mrs. Somerton is unable to give me the slightest clue.</p>
    </sp>
 
-   <sp>
+   <sp who="#L0144_F4">
     <speaker>Mrs. S.</speaker>
     <p> But I do possess a clue—a certain infallible one.</p>
    </sp>
 
-   <sp>
+   <sp who="#L0144_M2">
     <speaker>Pos.</speaker>
     <p>Ah!—then where is your clue—produce your clue—what is your clue?</p>
    </sp>
 
-   <sp>
+   <sp who="#L0144_F4">
     <speaker>Mrs. S.</speaker>
     <p> <stage>(looking intently at Ratcliffe)</stage> A paper in the handwriting of this bold and
      impudent villain, <stage>(Ratcliffe slightly
@@ -1697,69 +1728,69 @@
      acknowledge as a voluntary loan from me the amount of which he plundered me.</p>
    </sp>
 
-   <sp>
+   <sp who="#L0144_M1">
     <speaker>Rat.</speaker>
     <p><stage>(quickly)</stage> A most important document indeed, and of the utmost consequence that
      I should obtain immediate possession of it.</p>
    </sp>
 
-   <sp>
+   <sp who="#L0144_F4">
     <speaker>Mrs. S.</speaker>
     <p> <stage>(sarcastically)</stage> I believe you, sir; shall I fetch it?</p>
    </sp>
 
-   <sp>
+   <sp who="#L0144_M1">
     <speaker>Rat.</speaker>
     <p>Certainly.</p>
    </sp>
 
-   <sp>
+   <sp who="#L0144_F4">
     <speaker>Mrs. S.</speaker>
     <p> And you <emph>will remain here till I return? </emph><stage>(significantly)</stage></p>
    </sp>
 
-   <sp>
+   <sp who="#L0144_M1">
     <speaker>Rat.</speaker>
     <p>Assuredly.</p>
    </sp>
 
-   <sp>
+   <sp who="#L0144_F4">
     <speaker>Mrs. S.</speaker>
     <p> <stage>(hastily—aside to Postlethwaite)</stage> See that he does.</p>
    </sp>
 
    <stage>Exit hastily, L. D.</stage>
 
-   <sp>
+   <sp who="#L0144_M1">
     <speaker>Rat.</speaker>
     <p><stage>(aside and agitated)</stage> That cursed paper may betray me, and this mad desperate
      game will have been played in vain.</p>
    </sp>
 
-   <sp>
+   <sp who="#L0144_M2">
     <speaker>Pos.</speaker>
     <p><stage>(taking his arm and in a confidential manner)</stage> Now between you and me and the
      post, if Cousin Somerton was to say to you, what will you give me for the chance of recovering
      my fifteen thousand pounds? what would you feel disposed to offer?</p>
    </sp>
 
-   <sp>
+   <sp who="#L0144_M1">
     <speaker>Rat.</speaker>
     <p>Not fifteen thousand farthings.</p>
    </sp>
 
-   <sp>
+   <sp who="#L0144_M2">
     <speaker>Pos.</speaker>
     <p><stage>(aside)</stage> The devil.</p>
    </sp>
 
-   <sp>
+   <sp who="#L0144_M1">
     <speaker>Rat.</speaker>
     <p>But what of that; the loss of a few paltry thousand can never lessen the intense affection
      you feel for your charming cousin.</p>
    </sp>
 
-   <sp>
+   <sp who="#L0144_M2">
     <speaker>Pos.</speaker>
     <p>What do you mean by “intense affection?” I respect her—I like her—so I did my grandmother,
      but it never would occur to me to fall down and worship the ground she treads upon! besides to
@@ -1767,32 +1798,32 @@
      about <emph>me.</emph></p>
    </sp>
 
-   <sp>
+   <sp who="#L0144_M1">
     <speaker>Rat.</speaker>
     <p>Indeed!</p>
    </sp>
 
-   <sp>
+   <sp who="#L0144_M2">
     <speaker>Pos.</speaker>
     <p>No; besides, I put it to you, would it not be most selfish, most unkind in me to take a mean
      advantage of her promise to marry me, and compel my young and lovely relative to spend the
      remainder of her existence with me in my second floor in Arabella Row, Pimlico.</p>
    </sp>
 
-   <sp>
+   <sp who="#L0144_M1">
     <speaker>Rat.</speaker>
     <p><stage>(grasping Postlethwaite’s hand)</stage> That sentiment does you honour! Then she’s at
      liberty to cancel her engagement to you? <stage>(eagerly)</stage></p>
    </sp>
 
-   <sp>
+   <sp who="#L0144_M2">
     <speaker>Pos.</speaker>
     <p>Yes, from this moment she’s at liberty.</p>
    </sp>
 
    <stage type="entrance">Enter PEGGY running, L. U. E.</stage>
 
-   <sp>
+   <sp who="#L0144_F5">
     <speaker>Peggy.</speaker>
     <p>Where is he? <stage>(comes down C.)</stage> Where’s Mr. Superintendent? <stage>(to
      Ratcliffe)</stage> Oh, sir, <stage>(seeing Postlethwaite)</stage> Lor, Master Percy, is that
@@ -1801,62 +1832,62 @@
      another buss. <stage>(flinging her arms round Postlethwaite)</stage></p>
    </sp>
 
-   <sp>
+   <sp who="#L0144_M2">
     <speaker>Pos.</speaker>
     <p>That’ll do, Peggy; I appreciate your affection, but it rumples one’s front. <stage>(arranging
      his shirt)</stage></p>
    </sp>
 
-   <sp>
+   <sp who="#L0144_F5">
     <speaker>Peggy.</speaker>
     <p><stage>(to Ratcliffe)</stage> Then, sir—well, and so you must know that. <stage>(turning to
      Postlethwaite again)</stage> Lor love’ee. <stage>(about to embrace him again. Postlethwaite
      turns away)</stage></p>
    </sp>
 
-   <sp>
+   <sp who="#L0144_F5">
     <speaker>Peggy.</speaker>
     <p><stage>(to Ratcliffe)</stage> Well, sir, Sergeant Jones has just been
      <pb n="18"/> here, and says he to me—says he—tell my Superintendent, Captain Ratcliffe, says
      he, that we’ve found the robber, says he.</p>
    </sp>
 
-   <sp>
+   <sp who="#L0144_M2">
     <speaker>Pos.</speaker>
     <p><stage>(triumphantly)</stage> And the money too, of course; not that my intense affection for
      my charming cousin could ever be influenced by a few paltry thousands more or less—no; I love
      her for herself alone.</p>
    </sp>
 
-   <sp>
+   <sp who="#L0144_F5">
     <speaker>Peggy.</speaker>
     <p>It does my old heart good to hear you say that, because they’ve neither found the robber nor
      the money yet.</p>
    </sp>
 
-   <sp>
+   <sp who="#L0144_M2">
     <speaker>Pos.</speaker>
     <p>Pooh, what a stupid old fool you are. What have they found then?</p>
    </sp>
 
-   <sp>
+   <sp who="#L0144_F5">
     <speaker>Peggy.</speaker>
     <p>A hat!</p>
    </sp>
 
-   <sp>
+   <sp who="#L0144_M2">
     <speaker>Pos.</speaker>
     <p>A hat! I never heard of anything so absurd in all my life.</p>
    </sp>
 
-   <sp>
+   <sp who="#L0144_F5">
     <speaker>Peggy.</speaker>
     <p>But it’s a very peculiar hat—what they call a wide-awake—a green one. <stage>(Postlethwaite
      here slowly raises his hand and feels his head, then looks about him. Ratcliffe notices his
      movements)</stage></p>
    </sp>
 
-   <sp>
+   <sp who="#L0144_F5">
     <speaker>Peggy.</speaker>
     <p>Sergeant Jones found it under the window; but that’s not all—he says that the robber in
      making his escape must have fallen into the green house, and that probably his clothes may have
@@ -1871,12 +1902,12 @@
      says he should know him again among a thousand.</p>
    </sp>
 
-   <sp>
+   <sp who="#L0144_M2">
     <speaker>Pos.</speaker>
     <p>Oh lud! <stage>(slightly staggering)</stage></p>
    </sp>
 
-   <sp>
+   <sp who="#L0144_M1">
     <speaker>Rat.</speaker>
     <p><stage>(trying to check a laugh)</stage> What’s the matter, my dear fellow? here sit down.
      <stage>(making Pos. sit down, who utters a cry of pain and jumps up again, then seeing Rat. and
@@ -1884,43 +1915,43 @@
      tail)</stage></p>
    </sp>
 
-   <sp>
+   <sp who="#L0144_M1">
     <speaker>Rat.</speaker>
     <p><stage>(to Peg.)</stage> Tell Sergeant Jones from me to act upon the information he has got
      without one moment’s loss of time; run, fly! <stage>(Peggy trots out at door,
      L. U. E.)</stage></p>
    </sp>
 
-   <sp>
+   <sp who="#L0144_M1">
     <speaker>Rat.</speaker>
     <p><stage>(to Pos. and slapping him on the shoulder)</stage> This is famous news indeed, eh?</p>
    </sp>
 
-   <sp>
+   <sp who="#L0144_M2">
     <speaker>Pos.</speaker>
     <p>Yes, glorious news, though for my part I can’t see that there’s anything at all in finding a
      wide-a-wake—any man might lose his wide-a-wake—I might lose mine, and it might be a green
      wide-a-wake.</p>
    </sp>
 
-   <sp>
+   <sp who="#L0144_M1">
     <speaker>Rat.</speaker>
     <p>Heaven forbid, for I should immediately arrest you, my dear friend, but what of that? your
      charming cousin is too well aware of your intense affection.</p>
    </sp>
 
-   <sp>
+   <sp who="#L0144_M2">
     <speaker>Pos.</speaker>
     <p>What d’ye mean by <emph>intense affection?</emph> As I said before, I respect her—I like her,
      but—</p>
    </sp>
 
-   <sp>
+   <sp who="#L0144_M1">
     <speaker>Rat.</speaker>
     <p>But what?</p>
    </sp>
 
-   <sp>
+   <sp who="#L0144_M2">
     <speaker>Pos.</speaker>
     <p><stage>(grasping Ratcliffe’s hand and assuming a desperate tone and manner)</stage> The
      dreadful truth must be spoken! I’m a rascal—I
@@ -1930,25 +1961,25 @@
      though my cousin <emph>will</emph> soon have her £15,000 again.</p>
    </sp>
 
-   <sp>
+   <sp who="#L0144_M1">
     <speaker>Rat.</speaker>
     <p>That’s very doubtful.</p>
    </sp>
 
-   <sp>
+   <sp who="#L0144_M2">
     <speaker>Pos.</speaker>
     <p>No such thing. I’m certain of it, and so are you; still, never, never shall it be said of
      Postlethwaite, that he was actuated by the love of filthy lucre—so you’ll wish her good bye for
      me, won’t you?</p>
    </sp>
 
-   <sp>
+   <sp who="#L0144_M1">
     <speaker>Rat.</speaker>
     <p>Stay. Suppose you write a few lines to her, stating your reasons for renouncing her hand, and
      I’ll deliver the letter to her.</p>
    </sp>
 
-   <sp>
+   <sp who="#L0144_M2">
     <speaker>Pos.</speaker>
     <p>I’ll do it at once, <stage>(aside)</stage> and considering that there’s very little chance of
      Cousin Somerton’s seeing a shilling of her money again, and a very considerable chance of my
@@ -1956,7 +1987,7 @@
      <stage>(goes into room, R. 2 E.)</stage></p>
    </sp>
 
-   <sp>
+   <sp who="#L0144_M1">
     <speaker>Rat.</speaker>
     <p><stage>(anxiously)</stage> <emph>Will</emph> he write to her? will he, indeed, renounce her
      hand?</p>
@@ -1964,106 +1995,106 @@
 
    <stage type="entrance">Enter MRS. SOMERTON, L.</stage>
 
-   <sp>
+   <sp who="#L0144_F4">
     <speaker>Mrs. S.</speaker>
     <p> <stage>(aside)</stage> Still here, ’tis well; and now, Captain Ratcliffe, it is my turn to
      frighten you.</p>
    </sp>
 
-   <sp>
+   <sp who="#L0144_M1">
     <speaker>Rat.</speaker>
     <p><stage>(resuming his official manner)</stage> Well, madam, have you found this important
      paper?</p>
    </sp>
 
-   <sp>
+   <sp who="#L0144_F4">
     <speaker>Mrs. S.</speaker>
     <p> Yes, sir, but conceive my annoyance, when instead of a receipt, as I anticipated, I found
      the paper consisted of a few wretched insipid verses; intended to be very complimentary, no
      doubt, but commonplace in the extreme.</p>
    </sp>
 
-   <sp>
+   <sp who="#L0144_M1">
     <speaker>Rat.</speaker>
     <p><stage>(aside)</stage> This is pleasant. I thought they were remarkably pretty verses.
      <stage>(aloud)</stage> Might I be favoured with a perusal of them?</p>
    </sp>
 
-   <sp>
+   <sp who="#L0144_F4">
     <speaker>Mrs. S.</speaker>
     <p> Unfortunately, a near neighbour of mine, a <emph>magistrate</emph> happened to look in, and
      thinking it would forward the ends of justice, I placed the paper in his hands.</p>
    </sp>
 
-   <sp>
+   <sp who="#L0144_M1">
     <speaker>Rat.</speaker>
     <p>A magistrate?</p>
    </sp>
 
-   <sp>
+   <sp who="#L0144_F4">
     <speaker>Mrs. S.</speaker>
     <p> Yes, who on looking at it, suddenly exclaimed, “I cannot be mistaken—no, I’ll swear to the
      handwriting.”</p>
    </sp>
 
-   <sp>
+   <sp who="#L0144_M1">
     <speaker>Rat.</speaker>
     <p>Indeed! <stage>(aside)</stage> The devil! <stage>(aloud)</stage> and his name is——</p>
    </sp>
 
-   <sp>
+   <sp who="#L0144_F4">
     <speaker>Mrs. S.</speaker>
     <p> Boldwig.</p>
    </sp>
 
-   <sp>
+   <sp who="#L0144_M1">
     <speaker>Rat.</speaker>
     <p>Boldwig! <stage>(aside)</stage> My old colonel, damn it, I’ve written a hundred letters to
      him.</p>
    </sp>
 
-   <sp>
+   <sp who="#L0144_F4">
     <speaker>Mrs. S.</speaker>
     <p> The colonel fancies the robber may be still concealed on the premises.</p>
    </sp>
 
-   <sp>
+   <sp who="#L0144_M1">
     <speaker>Rat.</speaker>
     <p><stage>(forcing a laugh)</stage> Ha, ha! Still on the premises, a very likely matter.</p>
    </sp>
 
-   <sp>
+   <sp who="#L0144_F4">
     <speaker>Mrs. S.</speaker>
     <p> Why not? So bold and impudent a villain, as you very properly designate him. How fortunate
      it was that I remembered the existence of that “important paper.”</p>
    </sp>
 
-   <sp>
+   <sp who="#L0144_M1">
     <speaker>Rat.</speaker>
     <p>Yes, it was a very brilliant idea of yours, indeed.</p>
    </sp>
 
-   <sp>
+   <sp who="#L0144_F4">
     <speaker>Mrs. S.</speaker>
     <p> And how still more fortunate that Colonel Boldwig at
      <pb n="20"/> once recognised the handwriting, for of course it will infallibly lead to the
      capture of the unconscionable scoundrel, as you very properly called him.</p>
    </sp>
 
-   <sp>
+   <sp who="#L0144_M1">
     <speaker>Rat.</speaker>
     <p><stage>(rather nettled)</stage> You seem remarkably anxious to punish this unhappy misguided
      being, ma’am.</p>
    </sp>
 
-   <sp>
+   <sp who="#L0144_F4">
     <speaker>Mrs. S.</speaker>
     <p> Heyday! did you not say to me, just now, “Madam, as the representative of the law, I tell
      you that it matters not what his social position may be; we must not mince matters.”
      <stage>(imitating Ratcliffe’s manner.)</stage></p>
    </sp>
 
-   <sp>
+   <sp who="#L0144_M1">
     <speaker>Rat.</speaker>
     <p><stage>(aside)</stage> She’s laughing at me, that’s quite clear. <stage>(aloud)</stage> Of
      course not; but—but—<stage>(drawing his chair closer to Mrs.
@@ -2072,116 +2103,116 @@
      robbery are so—so whimsical.</p>
    </sp>
 
-   <sp>
+   <sp who="#L0144_F4">
     <speaker>Mrs. S.</speaker>
     <p> Whimsical?</p>
    </sp>
 
-   <sp>
+   <sp who="#L0144_M1">
     <speaker>Rat.</speaker>
     <p>No, not whimsical, eccentric! that one is almost inclined to ascribe it to some other
      motive.</p>
    </sp>
 
-   <sp>
+   <sp who="#L0144_F4">
     <speaker>Mrs. S.</speaker>
     <p> <stage>(aside)</stage> We are coming to it by degrees; <stage>(aloud)</stage> and pray, sir,
      what other motive can your lively imagination suggest?</p>
    </sp>
 
-   <sp>
+   <sp who="#L0144_M1">
     <speaker>Rat.</speaker>
     <p><stage>(drawing still nearer, and after a short hesitation, then in a low and impassioned
      tone)</stage> Love!</p>
    </sp>
 
-   <sp>
+   <sp who="#L0144_F4">
     <speaker>Mrs. S.</speaker>
     <p> <stage>(aside and smiling)</stage> At last. <stage>(aloud)</stage> Love! ha, ha, ha! Love of
      bank notes!</p>
    </sp>
 
-   <sp>
+   <sp who="#L0144_M1">
     <speaker>Rat.</speaker>
     <p><stage>(earnestly)</stage> No. Love for you. Yes, madam, cannot you imagine an admiration so
      boundless—a passion so irresistible, that it might prompt a man?</p>
    </sp>
 
-   <sp>
+   <sp who="#L0144_F4">
     <speaker>Mrs. S.</speaker>
     <p> To rob me of £15,000, and frighten me out of senses into the bargain.</p>
    </sp>
 
-   <sp>
+   <sp who="#L0144_M1">
     <speaker>Rat.</speaker>
     <p><stage>(still more earnestly)</stage> Yes, madam, if by so doing, if by apparently reducing
      the woman to poverty, he hoped to obtain a voluntary resignation of her hand from a rival, who
      loves her for her fortune only.</p>
    </sp>
 
-   <sp>
+   <sp who="#L0144_F4">
     <speaker>Mrs. S.</speaker>
     <p> Really, Captain Ratcliffe, I must confess you have imagined a marvellous pleasant love
      story.</p>
    </sp>
 
-   <sp>
+   <sp who="#L0144_M1">
     <speaker>Rat.</speaker>
     <p>Not more marvellous than true. Here are the proofs, <stage>(gives pocket book to Mrs.
      Somerton)</stage> and now think, madam, what a love must that man’s be who could thus risk his
      name, character, and reputation, with the sole hope of preserving you your liberty.</p>
    </sp>
 
-   <sp>
+   <sp who="#L0144_F4">
     <speaker>Mrs. S.</speaker>
     <p> But unfortunately the denouement of this romance of real life is wanting; the rival does not
      resign the lady’s hand.</p>
    </sp>
 
-   <sp>
+   <sp who="#L0144_M1">
     <speaker>Rat.</speaker>
     <p><stage>(aside, and looking towards room, R. 2 E.)</stage> Why the devil doesn’t he make haste
      with the letters? <stage>(Postlethwaite looks in at the door)</stage></p>
    </sp>
 
-   <sp>
+   <sp who="#L0144_F4">
     <speaker>Mrs. S.</speaker>
     <p> <stage>(catching a glimpse of him)</stage> No, sir, I know my cousin too well—he loves me
      too dearly to care about my loss of fortune; <emph>he</emph> will be only too happy to work for
      me, toil for me, slave for me.</p>
    </sp>
 
-   <sp>
+   <sp who="#L0144_M2">
     <speaker>Pos.</speaker>
     <p><stage>(at door)</stage> Will he! <stage>(disappears)</stage></p>
    </sp>
 
-   <sp>
+   <sp who="#L0144_F4">
     <speaker>Mrs. S.</speaker>
     <p> He will never resign the hand of her he loves, beggared though she be. <stage>(here
      Postlethwaite comes out of room cautiously, slips the letter into Ratcliffe’s hand, and runs
      out at door, L. C.)</stage></p>
    </sp>
 
-   <sp>
+   <sp who="#L0144_M1">
     <speaker>Rat.</speaker>
     <p><stage>(presenting letter to Mrs. Somerton)</stage> From Mr. Percy
      <pb n="21"/> Postlethwaite, madam. <stage>(aside)</stage> If he has deceived me I’ll make
      Arabella Row, Pimlico, the scene of a terrific drama.</p>
    </sp>
 
-   <sp>
+   <sp who="#L0144_F4">
     <speaker>Mrs. S.</speaker>
     <p> <stage>(reading letter)</stage> “Ever beloved cousin, I need not say that the loss of your
      fortune is nothing to me——” <stage>(to Ratcliffe)</stage> You hear?</p>
    </sp>
 
-   <sp>
+   <sp who="#L0144_M1">
     <speaker>Rat.</speaker>
     <p><stage>(aside)</stage> The devil take him!</p>
    </sp>
 
-   <sp>
+   <sp who="#L0144_F4">
     <speaker>Mrs. S.</speaker>
     <p> <stage>(reading)</stage> “——But as the presence of a handsome, dashing young man like
      Captain Ratcliffe, under your roof in the middle of the night will necessarily afford materials
@@ -2189,12 +2220,12 @@
      and bid you farewell for ever."</p>
    </sp>
 
-   <sp>
+   <sp who="#L0144_M1">
     <speaker>Rat.</speaker>
     <p>Then you are free—free to bestow your heart, your hand!</p>
    </sp>
 
-   <sp>
+   <sp who="#L0144_F4">
     <speaker>Mrs. S.</speaker>
     <p> Nay, sir, what if my heart were no longer at my disposal? <stage>(Ratcliffe starts)</stage>
      What if it had long since been given to one who once preserved my life at the peril of his own,
@@ -2203,28 +2234,28 @@
      handwriting.</p>
    </sp>
 
-   <sp>
+   <sp who="#L0144_M1">
     <speaker>Rat.</speaker>
     <p>Can it be possible? <stage>(with rapture)</stage></p>
    </sp>
 
-   <sp>
+   <sp who="#L0144_F4">
     <speaker>Mrs. S.</speaker>
     <p> That I have been taking my revenge on you for the last half hour without your perceiving it!
      <stage>(holding out her hand)</stage></p>
    </sp>
 
-   <sp>
+   <sp who="#L0144_M1">
     <speaker>Rat.</speaker>
     <p>Oh, madam! <stage>(kissing her hand)</stage></p>
    </sp>
 
-   <sp>
+   <sp who="#L0144_F4">
     <speaker>Mrs. S.</speaker>
     <p> Hark! <stage>(noise without)</stage></p>
    </sp>
 
-   <sp>
+   <sp who="#L0144_M3">
     <speaker>David.</speaker>
     <p><stage>(without)</stage> Bring him along—if he won’t come agreeable, drag him in by the hair
      of his head.</p>
@@ -2233,40 +2264,40 @@
    <stage>Enter DAVID, running, L. C., and dragging in POSTLETHWAITE, his dress disordered, DAVID
     carries a green wide-awake in his hand—PEGGY following.</stage>
 
-   <sp>
+   <sp who="#L0144_M3">
     <speaker>David.</speaker>
     <p>Here, missus, we’ve got the robber.</p>
    </sp>
 
-   <sp>
+   <sp who="#L0144_F4">
     <speaker>Mrs. S.</speaker>
     <p> <stage>(holding Ratcliffe’s hand)</stage> So have I!</p>
    </sp>
 
-   <sp>
+   <sp who="#L0144_M3">
     <speaker>David.</speaker>
     <p>Here be the desperate villain, ma’am, and here be his desperate green wide-awake;
      <stage>(shewing hat)</stage> and what’s more, we won’t let him go.</p>
    </sp>
 
-   <sp>
+   <sp who="#L0144_F4">
     <speaker>Mrs. S.</speaker>
     <p> No more will I! <stage>(seeing Postle.)</stage> Cousin Postlethwaite!</p>
    </sp>
 
-   <sp>
+   <sp who="#L0144_F5">
     <speaker>Peggy.</speaker>
     <p><stage>(running forward)</stage> Lawks! yes—so it be. Oh, Master Percy! <stage>(throwing her
      arms round Postlethwaite)</stage></p>
    </sp>
 
-   <sp>
+   <sp who="#L0144_M2">
     <speaker>Pos.</speaker>
     <p><stage>(throwing her off)</stage> Don’t be a fool, Peggy. As I said before, it rumples one’s
      front.</p>
    </sp>
 
-   <sp>
+   <sp who="#L0144_F4">
     <speaker>Mrs. S.</speaker>
     <p> <stage>(making a sign, all come forward and surround her)</stage> My good friends, you need
      give yourselves no further trouble, I have recovered my property. My fifteen thousand pounds
@@ -2275,7 +2306,7 @@
 
    <stage>(shows pocket book)</stage>
 
-   <sp>
+   <sp who="#L0144_M2">
     <speaker>Pos.</speaker>
     <p>You don’t mean that! <stage>(very tenderly)</stage> Oh, my ever beloved cousin! <stage>(aside
      to Ratcliffe)</stage> Where’s my letter? <stage>(again to Mrs. Somerton, and still more
@@ -2283,17 +2314,17 @@
      Ratcliffe)</stage> Where’s my letter?</p>
    </sp>
 
-   <sp>
+   <sp who="#L0144_M1">
     <speaker>Rat.</speaker>
     <p><stage>(aside to him)</stage> I gave it to Mrs. Somerton—it’s all right.</p>
    </sp>
 
-   <sp>
+   <sp who="#L0144_M2">
     <speaker>Pos.</speaker>
     <p>All right! I’m horribly afraid it’s all wrong!</p>
    </sp>
 
-   <sp>
+   <sp who="#L0144_F4">
     <speaker>Mrs. S.</speaker>
     <p> Yes, cousin, I’ve read your cruel words, and as it seems you won’t have me—— <stage>(with
      affected grief)</stage></p>
@@ -2301,34 +2332,34 @@
 
    <pb n="22"/>
 
-   <sp>
+   <sp who="#L0144_M2">
     <speaker>Pos.</speaker>
     <p>But I will. <stage>(very tenderly)</stage> Dry your tears ever-beloved one—I
      <emph>will</emph> have you.</p>
    </sp>
 
-   <sp>
+   <sp who="#L0144_F4">
     <speaker>Mrs. S.</speaker>
     <p> What, in spite of the presence of a fine dashing young man under my roof in the middle of
      the night—eh, cousin?</p>
    </sp>
 
-   <sp>
+   <sp who="#L0144_M2">
     <speaker>Pos.</speaker>
     <p><stage>(still very tenderly)</stage> What of that? I’m not so very particular.</p>
    </sp>
 
-   <sp>
+   <sp who="#L0144_F4">
     <speaker>Mrs. S.</speaker>
     <p> But think of the scandal mongers of the neighbourhood—eh, cousin?</p>
    </sp>
 
-   <sp>
+   <sp who="#L0144_M2">
     <speaker>Pos.</speaker>
     <p>Never mind—I’m desperate!</p>
    </sp>
 
-   <sp>
+   <sp who="#L0144_F4">
     <speaker>Mrs. S.</speaker>
     <p> So am I—and, therefore, as the only means of preserving my reputation, I gave my hand to him
      who has compromised it.</p>
@@ -2336,49 +2367,49 @@
 
    <stage>(giving her hand to RATCLIFFE.)</stage>
 
-   <sp>
+   <sp who="#L0144_M2">
     <speaker>Pos.</speaker>
     <p>What, Charley Ratcliffe?</p>
    </sp>
 
-   <sp>
+   <sp who="#L0144_F5">
     <speaker>Peggy.</speaker>
     <p><stage>(aside)</stage> Then that’s Mr. C. R. after all.</p>
    </sp>
 
-   <sp>
+   <sp who="#L0144_M1">
     <speaker>Rat.</speaker>
     <p><stage>(to Postlethwaite)</stage> Yes, my dear friend, the gigantic housebreaker, seven feet
      high, with two pair of pistols in each of his brawny hands, stands before you.</p>
    </sp>
 
-   <sp>
+   <sp who="#L0144_M2">
     <speaker>Pos.</speaker>
     <p>You? Poo—poo! Where are your whiskers?—where’s your imperial?</p>
    </sp>
 
-   <sp>
+   <sp who="#L0144_M1">
     <speaker>Rat.</speaker>
     <p>In my pocket—ha, ha!</p>
    </sp>
 
-   <sp>
+   <sp who="#L0144_M2">
     <speaker>Pos.</speaker>
     <p><stage>(after a short pause)</stage> I say, Master Charley, what sort of a game have you been
      playing here?</p>
    </sp>
 
-   <sp>
+   <sp who="#L0144_F4">
     <speaker>Mrs. S.</speaker>
     <p> <stage>(smiling)</stage> A game of fright.</p>
    </sp>
 
-   <sp>
+   <sp who="#L0144_M2">
     <speaker>Pos.</speaker>
     <p>Ecod, it’s more like “Beat my neighbour out of doors!”</p>
    </sp>
 
-   <sp>
+   <sp who="#L0144_M1">
     <speaker>Rat.</speaker>
     <p>At any rate, I have secured this lady for my <emph>partner,</emph> and for such a prize who
      would not play “A Desperate Game.”</p>

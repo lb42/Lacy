@@ -3,7 +3,7 @@
 <teiHeader>
 <fileDesc>
 <titleStmt>
-<title n="sleepingbeautyinthewo...">Sleeping Beauty in the Wood</title>
+<title n="sleepingbeautyinthewo..." type="main">Sleeping Beauty in the Wood</title>
 <author>Planché, J.R.</author>
 <respStmt>
 <resp>Curated by</resp>
@@ -12,38 +12,43 @@
 </titleStmt>
 <publicationStmt>
 <distributor>Privately published on the Lacy Website</distributor>
-<idno>L0283</idno>
+
+<idno type="lae">L0283</idno>
 </publicationStmt>
 <sourceDesc>
-<bibl type="digital">Retagged from DOCX produced by Abby from a VPP PDF
-edition</bibl>
-<bibl type="source" status="TEI_1" n="19.13" corresp="nic:N03081"
-><author>Planché, J.R.</author><title n="thesleepingbeautyinth...">Sleeping
-Beauty in the Wood</title><title type="sub">An Original, Grand Comic, Romantic
-Operatic, Melo-Dramatic, Fairy Extravaganza in 3 Parts</title><title
-type="source" n="#FR">Founded on the Popular Nursery Tale of the Same
-Name</title><extent>33 pp (UM copy: 590 - 623)<measure type="pp" quantity="30"
-/><measure type="txWords" quantity="7456"/><measure type="spWords"
-quantity="6757"/><measure type="stWords" quantity="699"/></extent><eventName
-notAfter="1840" type="firstPerf">
-<date resp="nicoll" when="1840-04-20"/>
-<name>Theatre Royal Drury Lane</name>
-<date resp="source" when="1840-04-20">20 April 1840</date>
-</eventName><listRef>
-<ref
-target="http://victorian.nuigalway.ie/modx/assets/docs/pdf/Vol19xiiiSleeping.pdf"
->VPP_PDF</ref>
-</listRef><listRef type="localCopies">
-<ref>Vol19/L0283/L0283-um.pdf</ref>
-<ref>Vol19/L0283/L0283-vpp.pdf</ref>
-<ref>Vol19/L0283/pages</ref>
-<ref>Vol19/L0283/Vol19xiiiSleeping.pdf</ref>
-</listRef></bibl>
+<bibl type="printSource" n="19.13"><author>Planché, J.R.</author><title
+type="main" n="thesleepingbeautyinth...">Sleeping Beauty in the
+Wood</title><title type="sub">An Original, Grand Comic, Romantic Operatic,
+Melo-Dramatic, Fairy Extravaganza in 3 Parts</title><title type="source" n="#FR"
+>Founded on the Popular Nursery Tale of the Same Name</title><extent>33 pp (UM
+copy: 590 - 623)<measure type="pp" quantity="30"/>
+<measure type="spCount" quantity="385"/>
+<measure type="spvCount" quantity="385"/>
+<measure type="txWords" quantity="7456"/>
+<measure type="spWords" quantity="6757"/>
+<measure type="stWords" quantity="699"/>
+</extent>
+<title level="s"> Lacy's Acting Edition, volume 19, No. 0283</title><idno
+type="nic">N03081</idno><idno type="vpp">Vol19xiiiSleeping</idno></bibl>
+<bibl type="digitalSource" n="copytext"><ref
+target="https://lb42.github.io/Lacy/Source/VPP/L0283-vpp.pdf">LoB from
+VPP</ref><ref target="local:Vol19/L0283/L0283-vpp.pdf"/><ref
+target="local:Vol19/L0283/Vol19xiiiSleeping.pdf"/></bibl>
+<bibl type="digitalSource"><ref
+target="https://babel.hathitrust.org/cgi/pt?id=mdp.39015067453020&amp;seq=590 "
+>UM from HT</ref><ref target="local:Vol19/L0283/L0283-um.pdf"/></bibl>
+<bibl type="digitalSource" n="copytext"><ref
+target="https://lb42.github.io/Lacy/L0283.html">TEI</ref></bibl>
+<listEvent>
+<event type="firstPerf" when="1840-04-20" source="textNic" where="Drury">
+<desc>Premiered at Theatre Royal, Drury Lane 20 April 1840</desc>
+</event>
+</listEvent>
 </sourceDesc>
 </fileDesc>
 <profileDesc>
 <textClass>
-<!--M_0_ComicOperaDramaExtravagan_Ext._SPECTACLE-->
+
 <catRef target="#sizeM"/>
 <catRef target="#act0"/>
 <catRef target="nic:Ext."/>
@@ -51,8 +56,129 @@ target="http://victorian.nuigalway.ie/modx/assets/docs/pdf/Vol19xiiiSleeping.pdf
 <term>SPECTACLE</term>
 </keywords>
 </textClass>
+<particDesc>
+<listPerson>
+<person xml:id="L0283_F1">
+<persName type="role"> The Fairy Baneful</persName>
+<persName type="spkr" n="16">Fairy B.</persName>
+</person>
+<person xml:id="L0283_M2">
+<persName type="role">Newspaper Imp</persName>
+</person>
+<person xml:id="L0283_M3">
+<persName type="role">Thomas Surnamed "Noddy" </persName>
+<persName type="spkr" n="84">King.</persName>
+</person>
+<person xml:id="L0283_F4">
+<persName type="role"> Queen Serena </persName>
+<persName type="spkr" n="22">Queen.</persName>
+</person>
+<person xml:id="L0283_F5">
+<persName type="role"> The Princess Is-A-Belle </persName>
+<persName type="spkr" n="41">Princess.</persName>
+</person>
+<person xml:id="L0283_F6">
+<persName type="role"> Nurse </persName>
+</person>
+<person xml:id="L0283_M7">
+<persName type="role">Gentleman Usher</persName>
+</person>
+<person xml:id="L0283_M8">
+<persName type="role"> Baron Factotum </persName>
+<persName type="spkr" n="70">Lord F.</persName>
+</person>
+<person xml:id="L0283_F9">
+<persName type="role">The Fairy Antidota</persName>
+<persName type="spkr" n="6">Fairy Ant.</persName>
+<persName type="spkr" n="1">Fairy Ant.</persName>
+<persName type="spkr" n="2">Fairy A.</persName>
+</person>
+<person xml:id="L0283_F10">
+<persName type="role">The Fairy Elegantia</persName>
+<persName type="spkr" n="1">Fairy Eleg.</persName>
+</person>
+<person xml:id="L0283_F11">
+<persName type="role">The Fairy Dewdrop </persName>
+<persName type="spkr" n="1">Fairy Dew.</persName>
+</person>
+<person xml:id="L0283_F12">
+<persName type="role">The Fairy Rosebud</persName>
+<persName type="spkr" n="1">Fairy Rose.</persName>
+</person>
+<person xml:id="L0283_F13">
+<persName type="role">The Fairy Gossamer</persName>
+<persName type="spkr" n="1">Fairy Goss.</persName>
+</person>
+<person xml:id="L0283_F14">
+<persName type="role">The Fairy Philomel</persName>
+<persName type="spkr" n="1">Fairy Phil.</persName>
+</person>
+<person xml:id="L0283_F15">
+<persName type="role">The Fairy Choremusica </persName>
+<persName type="spkr" n="1">Fairy Chor.</persName>
+</person>
+<person xml:id="L0283_M16">
+<persName type="role">Lords, Ladies, Pages, Guards, Servants, &amp;c.</persName>
+<persName type="spkr" n="2">Servant.</persName>
+<persName type="spkr" n="1">Usher.</persName>
+<persName type="spkr" n="3">Page.</persName>
+</person>
+<person xml:id="L0283_F17">
+<persName type="role"> The Lady Aurora Abigail</persName>
+<persName type="spkr" n="31">Lady A.</persName>
+</person>
+<!--<person xml:id="L0283_F18"><persName type="role">The Princess Is-A-Belle </persName>
+</person>-->
+<person xml:id="L0283_F19">
+<persName type="role"> Old Woman</persName>
+<persName type="spkr" n="13">Old W.</persName>
+</person>
+<person xml:id="L0283_F20">
+<persName type="role"> Sylphides.</persName>
+</person>
+<person xml:id="L0283_M21">
+<persName type="role">Larry O'Log </persName>
+<persName type="spkr" n="27">Larry.</persName>
+</person>
+<person xml:id="L0283_M27">
+<persName type="role"> Colin Clump</persName>
+<persName type="spkr" n="2">Clump.</persName>
+</person>
+<person xml:id="L0283_M22">
+<persName type="role">Prince Perfect</persName>
+<persName type="spkr" n="35">Prince.</persName>
+</person>
+
+<!--<person xml:id="L0283_M23">
+<persName type="role">Ex-King Of Noland</persName>
+</person>
+<person xml:id="L0283_F24">
+<persName type="role">Ex-Queen Of Ditto </persName>
+</person>
+<person xml:id="L0283_M25">
+<persName type="role"> Lord Factotum</persName>
+</person>
+<person xml:id="L0283_F26">
+<persName type="role"> Lady Aurora Abigail</persName>
+</person>
+<person xml:id="L0283_F27">
+<persName type="role">The Princess Is-A-Belle (still)</persName>
+</person>-->
+
+
+<person xml:id="L0283_mult">
+<persName type="role">[Multiple speakers]</persName>
+<persName type="spkr" n="1">All the fairies.</persName>
+<persName type="spkr" n="1">Fairies.</persName>
+<persName type="spkr" n="3">All.</persName>
+<persName type="spkr" n="2">Chorus.</persName>
+</person>
+</listPerson>
+</particDesc>
 </profileDesc>
 <revisionDesc>
+<change when="2025-09-10">Hand edit multi @who</change>
+<change when="2025-09-07">Metadata updated from new catalogue</change>
 <change when="2024-10-03">Header enriched</change>
 <change when="2023-12-15">Hand edited</change>
 <change when="2023-10-15">Header confected</change>
@@ -104,65 +230,65 @@ Second Parts. <hi>One Hundred Years</hi> between the Second and Third Parts; and
 <head>Part First—Period, 1583. </head>
 <label>Boudoir of the Fairy Baneful, Nine Thousand Miles North of the Kingdom of
 Noland.</label>
-<castItem><role gender="F"> The Fairy Baneful</role><actor sex="F"> Mrs.
+<castItem><role gender="F"> The Fairy Baneful</role><actor ana="#F"> Mrs.
 Tayleure. </actor></castItem>
 <castItem>
 <role gender="M">Newspaper Imp</role><roleDesc> (not "Printer's
 Devil)</roleDesc>
-<actor sex="M">Master Flight </actor></castItem>
+<actor ana="#M">Master Flight </actor></castItem>
 <castItem>Fairy Lady's Maid, Elfin Pages, &amp;c. </castItem>
 </castList>
 <castList>
 <head> Banquet Hall In The Castle Of King Of Noland.</head>
 <castItem>
 <role gender="M">Thomas Surnamed "Noddy" </role><roleDesc>(King of
-Noland)</roleDesc><actor sex="M"> Mr. J. Bland. </actor></castItem>
+Noland)</roleDesc><actor ana="#M"> Mr. J. Bland. </actor></castItem>
 <castItem><role gender="F"> Queen Serena </role><roleDesc>(his Consort)
-</roleDesc><actor sex="F">Mrs. Macnamara. </actor></castItem>
+</roleDesc><actor ana="#F">Mrs. Macnamara. </actor></castItem>
 <castItem><role gender="F"> The Princess Is-A-Belle </role><roleDesc>(in Long
-Clothes) </roleDesc><actor sex="F">By a Young lady. (Being her First Appearance
+Clothes) </roleDesc><actor ana="#F">By a Young lady. (Being her First Appearance
 upon any Stage.)</actor>
 </castItem>
-<castItem><role gender="F"> Nurse </role><actor sex="F">Mrs.
+<castItem><role gender="F"> Nurse </role><actor ana="#F">Mrs.
 Emden</actor>.</castItem>
-<castItem><role gender="M">Gentleman Usher</role><actor sex="M"> Mr.
+<castItem><role gender="M">Gentleman Usher</role><actor ana="#M"> Mr.
 Ridgway.</actor></castItem>
 <castItem><role gender="M"> Baron Factotum
 </role><roleDesc>(Great-Grand-Lord-High Everything)</roleDesc>
-<actor sex="M">Mr. Harley. </actor></castItem>
+<actor ana="#M">Mr. Harley. </actor></castItem>
 </castList>
 <pb n="3"/>
 
 <castList>
 <head> Fairies Invited To The Banquet </head>
 <castItem>
-<role gender="F">The Fairy Antidota</role><actor sex="F"> Miss
+<role gender="F">The Fairy Antidota</role><actor ana="#F"> Miss
 Lee.</actor></castItem>
 <castItem>
 <role gender="F">The Fairy Elegantia</role>
-<actor sex="F">Miss E. Phillips.</actor>
+<actor ana="#F">Miss E. Phillips.</actor>
 </castItem>
 <castItem>
-<role gender="F">The Fairy Dewdrop </role><actor sex="F">Miss Baker</actor>
+<role gender="F">The Fairy Dewdrop </role><actor ana="#F">Miss Baker</actor>
 </castItem>
 <castItem><role gender="F">The Fairy Rosebud</role>
-<actor sex="F">Miss Fiztjames.</actor>
+<actor ana="#F">Miss Fiztjames.</actor>
 </castItem>
 <castItem>
 <role gender="F">The Fairy Gossamer</role>
-<actor sex="F">Miss Charlton.</actor>
+<actor ana="#F">Miss Charlton.</actor>
 </castItem>
 <castItem><role gender="F">The Fairy Philomel</role>
-<actor sex="F">Miss Lane.</actor>
+<actor ana="#F">Miss Lane.</actor>
 </castItem>
 <castItem>
-<role gender="F">The Fairy Choremusica </role><actor sex="F">Miss Jackson.
+<role gender="F">The Fairy Choremusica </role><actor ana="#F">Miss Jackson.
 </actor></castItem>
 <castItem>
 <role gender="M">Lords, Ladies, Pages, Guards, Servants, &amp;c.</role>
-<actor sex="M">Messrs. Gardner, Morelli, Hughes, Kerridge, Horton, Hodges,
+<actor ana="#M">Messrs. Gardner, Morelli, Hughes, Kerridge, Horton, Hodges,
 Collett, S. Smith, Benedict, Connel, Healy, Brace, Charles, Chant, T. Ireland,
-Santry, Davis, Butler, Roberts, Andrews, Russel, &amp;c.</actor><actor sex="F">
+Santry, Davis, Butler, Roberts, Andrews, Russel, &amp;c.</actor><actor ana="#F">
 Mesdames Hatton, Chester, Fenton, Platt, Schmidt, Bailey, Beresford, A. Jackson,
 Wood, Maynard, Davis, Gardner, Goward, Cummins, Collett, Butler, &amp;c.</actor>
 </castItem>
@@ -171,14 +297,14 @@ Wood, Maynard, Davis, Gardner, Goward, Cummins, Collett, Butler, &amp;c.</actor>
 <head>Part Second-Period, 1601. Vestibule In The Royal Castle.</head>
 
 <castItem><role gender="F"> The Lady Aurora Abigail</role><roleDesc>(First Lady
-of the Bed Chamber)</roleDesc><actor sex="F"> Miss. Rainforth.</actor>
+of the Bed Chamber)</roleDesc><actor ana="#F"> Miss. Rainforth.</actor>
 </castItem>
 </castList>
 <castList>
 <head> Apartment of the Princess in the Octagon Toyver, </head>
 <castItem>
 <role gender="F">The Princess Is-A-Belle </role><roleDesc>(aged 18, all but an
-hour or so)</roleDesc><actor sex="F">Madame Vestris. </actor></castItem>
+hour or so)</roleDesc><actor ana="#F">Madame Vestris. </actor></castItem>
 </castList>
 <p> Mademoiselle Maria Luigia Bettoni &amp; Monsieur Saxoni will dance a new Pas
 De Deux, (Being their Second Appearance at this Theatre.) </p>
@@ -186,13 +312,13 @@ De Deux, (Being their Second Appearance at this Theatre.) </p>
 <head>Lobby And Lumber Room At The Very Top Of The Castle.</head>
 <castItem><role gender="F"> Old Woman</role><roleDesc>(still a
 Spinster)</roleDesc>
-<actor sex="F">Madame Simon.</actor>
+<actor ana="#F">Madame Simon.</actor>
 </castItem>
 </castList>
 <castList>
 <head> State Bed Chamber. </head>
 <castItem><role gender="F"> Sylphides.</role>
-<actor sex="F">Miss Fairbrother, Mrs. Gibson. Miss Ryals, and Miss
+<actor ana="#F">Miss Fairbrother, Mrs. Gibson. Miss Ryals, and Miss
 Kendall.</actor>
 </castItem>
 </castList>
@@ -204,14 +330,14 @@ Kendall.</actor>
 <castGroup>
 <roleDesc> Wood Cutters </roleDesc>
 <castItem>
-<role gender="M">Larry O'Log </role><actor sex="M">Mr Brougham
+<role gender="M">Larry O'Log </role><actor ana="#M">Mr Brougham
 </actor></castItem>
-<castItem><role gender="M">Colin Clump</role><actor sex="M"> Mr
+<castItem><role gender="M">Colin Clump</role><actor ana="#M"> Mr
 Kerridge</actor></castItem>
 </castGroup>
 <castItem>
 <role gender="M">Prince Perfect</role>
-<actor sex="M">Mr. J. Vining. </actor></castItem>
+<actor ana="#M">Mr. J. Vining. </actor></castItem>
 </castList>
 <p>Castle Gates.Moat And Drawbridge. Old Palace Yard.</p>
 <p>And Re-view of a Company of the "Old Guards." </p>
@@ -222,19 +348,20 @@ Kerridge</actor></castItem>
 Quo"—though a Century older.</head>
 
 <castItem><role gender="M">Ex-King Of Noland</role>
-<roleDesc>(aged 160) </roleDesc><actor sex="M">Mr. J. Bland. </actor></castItem>
+<roleDesc>(aged 160) </roleDesc><actor ana="#M">Mr. J. Bland.
+</actor></castItem>
 <castItem>
 <role gender="F">Ex-Queen Of Ditto </role><roleDesc>(aged 150) </roleDesc><actor
-sex="F">Mrs. Macnamara. </actor></castItem>
+ana="#F">Mrs. Macnamara. </actor></castItem>
 <castItem><role gender="M"> Lord Factotum</role><roleDesc> (aged.
 140)</roleDesc>
-<actor sex="M">Mr. Harley </actor></castItem>
+<actor ana="#M">Mr. Harley </actor></castItem>
 <castItem><role gender="F"> Lady Aurora Abigail</role><roleDesc> (aged 120)
-</roleDesc><actor sex="F">Miss Rainforth.</actor>
+</roleDesc><actor ana="#F">Miss Rainforth.</actor>
 </castItem>
 <castItem>
 <role gender="F">The Princess Is-A-Belle (still)</role>
-<roleDesc>(aged 118) </roleDesc><actor sex="F">Madame Vestris.
+<roleDesc>(aged 118) </roleDesc><actor ana="#F">Madame Vestris.
 </actor></castItem>
 <castItem> Huntsmen and Suite of Prince Perfect. </castItem>
 </castList>
@@ -256,7 +383,7 @@ Maker.” </p>
 Elves in attendance. </stage>
 <spGrp>
 <head> Air, Fairy Baneful—" The Old Maid." </head>
-<sp>
+<sp who="#L0283_F1">
 <l>When I was a fairy, just turned of fifteen,</l>
 <l>As fair as a fairy could be,</l>
 <l>I whisk'd through the key-holes and danced on the green, </l>
@@ -276,7 +403,7 @@ Elves in attendance. </stage>
 </sp>
 <stage>(horn without)</stage>
 </spGrp>
-<sp>
+<sp who="#L0283_F1">
 <l>Ah ! there's the newsboy's horn.</l>
 <stage>(an Imp flies across L. to R., with a horn in one hand and a bundle of
 papers under his arm—he drops two which are caught and handed to Fairy Baneful
@@ -316,36 +443,36 @@ and we've an hour. <stage>Exit on Dragon.</stage>
 <stage>Scene Second.—Hall of the King's Palace. Royal Servants discovered
 setting out a grand banquet table. </stage>
 <stage>Music—Enter Lord Factotum, R.</stage>
-<sp>
+<sp who="#L0283_M8">
 <speaker>Lord F.</speaker>
 <l>Come bustle, bustle, furnish forth the board ! Where are the seven gold
 covers?</l>
 </sp>
-<sp>
+<sp who="#L0283_M16">
 <speaker>Servant.</speaker>
 <l>Here, my lord.</l>
 </sp>
-<sp>
+<sp who="#L0283_M8">
 <speaker>Lord F.</speaker>
 <l>Place them before these seven chairs—and where </l>
 <l>The seven golden forks and spoons?</l>
 </sp>
-<sp>
+<sp who="#L0283_M16">
 <speaker>Servant.</speaker>
 <l>Your lordship, there.</l>
 </sp>
-<sp>
+<sp who="#L0283_M8">
 <speaker>Lord F.</speaker>
 <l>Quick, quick, or we shall have them here by heavens!</l>
 <l>And find us all at sixes and at sevens.</l>
 <pb n="7"/>
 <stage> Enter Gentleman Usher, R.</stage>
 </sp>
-<sp>
+<sp who="#L0283_M16">
 <speaker>Usher.</speaker>
 <l>My Lord Factotum, is all ready, pray? </l>
 </sp>
-<sp>
+<sp who="#L0283_M8">
 <speaker>Lord F.</speaker>
 <l>Don't speak to me! I've ne'er had such a day</l>
 <l>Since I have been in office. Goodness gracious,</l>
@@ -369,7 +496,7 @@ covers?</l>
 </sp>
 <spGrp>
 <head>Song —Lord Factotum— Air, "Where the Bee Sucks." </head>
-<sp>
+<sp who="#L0283_M8">
 <l>Who would be Great Grand Lord High, </l>
 <l>All the blame on him must lie;</l>
 <l>Everywhere for him they cry;</l>
@@ -380,7 +507,7 @@ covers?</l>
 </l>
 </sp>
 </spGrp>
-<sp>
+<sp who="#L0283_F1">
 <l>Hark, to those guns, that flourish, and that shout! </l>
 <l>The royal baby's christened, there's no doubt;</l>
 <l>King, Queen, and Court are coming, I've a notion, </l>
@@ -388,7 +515,7 @@ covers?</l>
 </sp>
 <spGrp>
 <head>Air and Chorus, "Beggar's Opera." </head>
-<sp>
+<sp who="#L0283_mult">
 <l>They are on their road—</l>
 <l>Hark ! I hear the sound of coaches, </l>
 <l>The royal cortège approaches.</l>
@@ -401,213 +528,213 @@ covers?</l>
 </sp>
 </spGrp>
 <stage>Grand March—Enter King, Queen, and Court, a Nurse bearing the Baby, R. </stage>
-<sp>
+<sp who="#L0283_M3">
 <speaker>King.</speaker>
 <l>So that job's jobbed—our daughter has a name, </l>
 <l>Which shall, with ours, be handed down to fame.</l>
 <l>My Lord Factotum !</l>
 </sp>
-<sp>
+<sp who="#L0283_M8">
 <speaker>Lord F.</speaker>
 <l>Sire! </l>
 </sp>
-<sp>
+<sp who="#L0283_M3">
 <speaker>King.</speaker>
 <l>You'll please to see </l>
 <l>That it is handed down as we decree. </l>
 </sp>
-<sp>
+<sp who="#L0283_M8">
 <speaker>Lord F.</speaker>
 <l>Sire, while I live at least I'll see </l>
 </sp>
-<sp>
+<sp who="#L0283_M3">
 <speaker>King.</speaker>
 <l>How—what? </l>
 <l>See it, my Lord, whether you live or not. </l>
 <l>We're very hungry—are not you, sweet wife ? </l>
 </sp>
-<sp>
+<sp who="#L0283_F4">
 <speaker>Queen.</speaker>
 <l>I'm anything you please, my dearest life ! </l>
 </sp>
-<sp>
+<sp who="#L0283_M3">
 <speaker>King.</speaker>
 <l>Then we'll to dinner ! </l>
 </sp>
-<sp>
+<sp who="#L0283_F4">
 <speaker>Queen.</speaker>
 <l>But 'tis not yet noon, </l>
 </sp>
-<sp>
+<sp who="#L0283_M3">
 <speaker>King.</speaker>
 <l>Not—then it shall be so—and very soon. </l>
 <l>My Lord Factotum! </l>
 </sp>
-<sp>
+<sp who="#L0283_M8">
 <speaker>Lord F.</speaker>
 <l>My most gracious master! </l>
 </sp>
-<sp>
+<sp who="#L0283_M3">
 <speaker>King.</speaker>
 <l>Why don't you make those cursed clocks go faster? </l>
 <l>Let 'em strike twelve directly. </l>
 <stage>(all the clocks strike twelve)</stage>
 </sp>
-<sp>
+<sp who="#L0283_M8">
 <speaker>Lord F.</speaker>
 <l>Sire, 'tis done. </l>
 </sp>
-<sp>
+<sp who="#L0283_M3">
 <speaker>King.</speaker>
 <l>Confound that racket!—make 'em all strike one, </l>
 <l>And stop until we bid them strike again! </l>
 <stage>(they strike one)</stage>
 <l>Now then to dinner. </l>
 </sp>
-<sp>
+<sp who="#L0283_F4">
 <speaker>Queen.</speaker>
 <l>If my Liege would deign, </l>
 <l>To listen to his loving Queen. </l>
 </sp>
-<sp>
+<sp who="#L0283_M3">
 <speaker>King.</speaker>
 <l>We do. </l>
 <l>Say on—we always listen, love, to you. </l>
 </sp>
-<sp>
+<sp who="#L0283_F4">
 <speaker>Queen.</speaker>
 <l>Would not the Fairies then, whom we've invited, </l>
 <l>Feel—if we dined without them—rather slighted? </l>
 </sp>
-<sp>
+<sp who="#L0283_M3">
 <speaker>King.</speaker>
 <l>Eh!—how—my Lord Factotum ! </l>
 </sp>
-<sp>
+<sp who="#L0283_M8">
 <speaker>Lord F.</speaker>
 <l>Here, Great King ! </l>
 </sp>
-<sp>
+<sp who="#L0283_M3">
 <speaker>King.</speaker>
 <l>Great me no Greats— my Lord High Everything ! </l>
 <pb n="9"/>
 <l>You are responsible for such vagaries.</l>
 <l>How comes it that we had forgot the Fairies ?</l>
 </sp>
-<sp>
+<sp who="#L0283_M8">
 <speaker>Lord F.</speaker>
 <l>My Liege,<emph> I</emph> had not</l>
 </sp>
-<sp>
+<sp who="#L0283_M3">
 <speaker>King.</speaker>
 <l>You—who spoke of you ?</l>
 <l>I say that "<emph>we</emph> had"—answer, Is it true?</l>
 </sp>
-<sp>
+<sp who="#L0283_M8">
 <speaker>Lord F.</speaker>
 <l>All that your Majesty says must be true.</l>
 </sp>
-<sp>
+<sp who="#L0283_M3">
 <speaker>King.</speaker>
 <l>Then kneel and ask our pardon.</l>
 </sp>
-<sp>
+<sp who="#L0283_M8">
 <speaker>Lord F.</speaker>
 <l>Sire, I do.</l>
 </sp>
-<sp>
+<sp who="#L0283_M3">
 <speaker>King.</speaker>
 <l>We grant it: but remember—if you'd live,</l>
 <l>The next time we forget, we shan't forgive.</l>
 <l>That's rather antithetical—and droll.</l>
 </sp>
-<sp>
+<sp who="#L0283_M8">
 <speaker>Lord F.</speaker>
 <l><stage>(to court)</stage> Laugh !—the King laughs!</l>
 </sp>
-<sp>
+<sp who="#L0283_M3">
 <speaker>King.</speaker>
 <l>Not bad upon the whole.</l>
 <l>Silence! What keeps these Fairies ? Lord Factotum, </l>
 <l>The cards of invitation—sure you wrote 'em?</l>
 </sp>
-<sp>
+<sp who="#L0283_M8">
 <speaker>Lord F.</speaker>
 <l>I did, my liege.</l>
 </sp>
-<sp>
+<sp who="#L0283_M3">
 <speaker>King.</speaker>
 <l>And sent them ?</l>
 </sp>
-<sp>
+<sp who="#L0283_M8">
 <speaker>Lord F.</speaker>
 <l>Sent them all.</l>
 </sp>
-<sp>
+<sp who="#L0283_M3">
 <speaker>King.</speaker>
 <l>Have you the list ?</l>
 </sp>
-<sp>
+<sp who="#L0283_M8">
 <speaker>Lord F.</speaker>
 <l>'Tis here—</l>
 </sp>
-<sp>
+<sp who="#L0283_M3">
 <speaker>King.</speaker>
 <l>Be pleased to call</l>
 <l>Their names in order over—Come, begin.</l>
 </sp>
-<sp>
+<sp who="#L0283_M8">
 <speaker>Lord F.</speaker>
 <l><stage>(reading)</stage> " The Fairy Dewdrop, "</l>
 </sp>
-<sp>
+<sp who="#L0283_M3">
 <speaker>King.</speaker>
 <l>Why don't she drop in,</l>
 <l>She's over due ?—Ha, ha!—Upon my word</l>
 <l>We're getting quite jocose—Proceed, my Lord!</l>
 </sp>
-<sp>
+<sp who="#L0283_M8">
 <speaker>Lord F.</speaker>
 <l>" The Fairy Rosebud."</l>
 </sp>
-<sp>
+<sp who="#L0283_M3">
 <speaker>King.</speaker>
 <l>It may be a doubt</l>
 <l>Whether a bud will come to a blow-out.</l>
 </sp>
-<sp>
+<sp who="#L0283_M8">
 <speaker>Lord F.</speaker>
 <l>" The Fairy Elegantia. "</l>
 </sp>
-<sp>
+<sp who="#L0283_M3">
 <speaker>King.</speaker>
 <l>Without Grace</l>
 <l>It wouldn't do to dine in any case.</l>
 </sp>
-<sp>
+<sp who="#L0283_M8">
 <speaker>Lord F.</speaker>
 <l>" The Fairy Gossamer."</l>
 </sp>
-<sp>
+<sp who="#L0283_M3">
 <speaker>King.</speaker>
 <l>She lives on air;</l>
 <l>It's quite a joke to ask her, I declare.</l>
 </sp>
-<sp>
+<sp who="#L0283_M8">
 <speaker>Lord F.</speaker>
 <l>"The Fairy Philomel."</l>
 </sp>
-<sp>
+<sp who="#L0283_M3">
 <speaker>King.</speaker>
 <l>We've known her long—</l>
 <l>She likes a jug, and sings a tidy song.</l>
 </sp>
-<sp>
+<sp who="#L0283_M8">
 <speaker>Lord F.</speaker>
 <l>"The Fairy Chore " <stage>(hesitating)</stage>
 </l>
 </sp>
-<sp>
+<sp who="#L0283_M3">
 <speaker>King.</speaker>
 <l>" Musica,"—you dunce—</l>
 <l>She plays on twenty instruments at once—</l>
@@ -615,32 +742,32 @@ covers?</l>
 <l>Rattles them altogether in a case, </l>
 <l>From the Jew's harp down to the double bass. </l>
 </sp>
-<sp>
+<sp who="#L0283_M8">
 <speaker>Lord F.</speaker>
 <l>" The Fairy Antidota." </l>
 </sp>
-<sp>
+<sp who="#L0283_F4">
 <speaker>Queen.</speaker>
 <l>What a name! </l>
 </sp>
-<sp>
+<sp who="#L0283_M3">
 <speaker>King.</speaker>
 <l>I know the lady, but by common fame— </l>
 <l>She rules, I'm told, the Island of Contraries. </l>
 <stage> Enter Page, L. </stage>
 </sp>
-<sp>
+<sp who="#L0283_M16">
 <speaker>Page.</speaker>
 <l><stage>(announcing)</stage> My Liege! Their Highnesses, the Seven Fairies!
 </l>
 </sp>
-<sp>
+<sp who="#L0283_M3">
 <speaker>King.</speaker>
 <l>Throw the doors open, rascals—and stand back, </l>
 <l>Or they'll be through the keyholes in a crack! </l>
 <stage>(Music—The Seven Fairies appear in their chairs, L.)</stage>
 </sp>
-<sp>
+<sp who="#L0283_M3">
 <speaker>King.</speaker>
 <l>I told you so—why how the fellow stares! </l>
 <l>Don't Ladies often come to Court in chairs ? <stage> Exit Page, L.
@@ -648,90 +775,90 @@ covers?</l>
 <l>Welcome, fair Fairies, to our Court—our Queen, </l>
 <l>Our child—the finest baby ever seen. </l>
 </sp>
-<sp>
+<sp who="#L0283_mult">
 <speaker>All the fairies.</speaker>
 <l>The very image of its father. </l>
 </sp>
-<sp>
+<sp who="#L0283_M3">
 <speaker>King.</speaker>
 <l>Oh! </l>
 <l>You flatter me. </l>
 </sp>
-<sp>
+<sp who="#L0283_mult">
 <speaker>Fairies.</speaker>
 <l>Upon our honours, no. </l>
 </sp>
-<sp>
+<sp who="#L0283_F9">
 <speaker>Fairy Ant.</speaker>
 <l>We've each brought her a fairing. </l>
 </sp>
-<sp>
+<sp who="#L0283_F4">
 <speaker>Queen.</speaker>
 <l>You're too kind— </l>
 <l>We'll have her down, Nurse, after dinner, mind. </l>
 <stage> Exit Nurse wiih Baby, R.</stage>
 </sp>
-<sp>
+<sp who="#L0283_M8">
 <speaker>Lord F.</speaker>
 <l><stage>(announcing)</stage> Their Majesties are served. </l>
 </sp>
-<sp>
+<sp who="#L0283_M3">
 <speaker>King.</speaker>
 <l>The Banquet, see. </l>
 <stage> Enter Page, L. announcing. </stage>
 </sp>
-<sp>
+<sp who="#L0283_M16">
 <speaker>Page.</speaker>
 <l>" The Fairy Baneful."</l>
 </sp>
-<sp>
+<sp who="#L0283_M3">
 <speaker>King.</speaker>
 <l>Who the devil's she? </l>
 </sp>
-<sp>
+<sp who="#L0283_F4">
 <speaker>Queen.</speaker>
 <l>The Fairy Baneful—can I trust my ears ? </l>
 <l>Why she's been dead and gone these fifty years. </l>
 </sp>
-<sp>
+<sp who="#L0283_M3">
 <speaker>King.</speaker>
 <l>She's never been to Court since I've been King—</l>
 <l>Tell her she's dead, my Lord, High Everything. </l>
 </sp>
-<sp>
+<sp who="#L0283_F9">
 <speaker>Fairy Ant.</speaker>
 <l>Beware how you affront her—she's most spiteful, </l>
 <l>And may take vengeance on your daughter. </l>
 </sp>
-<sp>
+<sp who="#L0283_F4">
 <speaker>Queen.</speaker>
 <l>Frightful! </l>
 <pb n="11"/>
 </sp>
-<sp>
+<sp who="#L0283_M8">
 <speaker>Lord F.</speaker>
 <l>Distracting thought! I feel quite cold and flabby.</l>
 <l>At thought of mischief to that darling babby!</l>
 </sp>
-<sp>
+<sp who="#L0283_M3">
 <speaker>King.</speaker>
 <l>We own we never were in such a twitter,</l>
 <l>My Lord Factotum, why don't you admit her?</l>
 <stage> Enter Fairy Baneful, L.</stage>
 </sp>
-<sp>
+<sp who="#L0283_F1">
 <speaker>Fairy B.</speaker>
 <l>My service to you all, I'm rather late,</l>
 <l>I trust, however, I've not made you wait;</l>
 <l>I've stood upon no ceremony since</l>
 <l>You stood on none with me.</l>
 </sp>
-<sp>
+<sp who="#L0283_M3">
 <speaker>King.</speaker>
 <l>'Twas to evince</l>
 <l>Our great affection</l>
 </sp>
-<sp>
+<sp who="#L0283_F1">
 <speaker>Fairy B.</speaker>
 <l>That you did not send</l>
 <l>An invitation to so old a friend.</l>
@@ -739,49 +866,49 @@ covers?</l>
 <l>Pray don't say a word about it,</l>
 <l>I'm come, and trust I'm welcome.</l>
 </sp>
-<sp>
+<sp who="#L0283_M3 #L0283_F4">
 <speaker>King and Queen.</speaker>
 <l>Can you doubt it ?</l>
 </sp>
-<sp>
+<sp who="#L0283_M3">
 <speaker>King.</speaker>
 <l>A cover for the Fairy Baneful, quick.</l>
 </sp>
-<sp>
+<sp who="#L0283_F9">
 <speaker>Fairy Ant. </speaker>
 <l><stage>(aside)</stage> She'll play their Majesties some scurvy trick;</l>
 <l>I see it in her eye—but I'll be wary,</l>
 <l>And if I do not match her, I'm no Fairy. <stage>( they sit) </stage></l>
 </sp>
-<sp>
+<sp who="#L0283_F1">
 <speaker>Fairy B.</speaker>
 <l>How's this, a plate without a spoon or fork? </l>
 </sp>
-<sp>
+<sp who="#L0283_M3">
 <speaker>King.</speaker>
 <l>(aside) Confusion! here's a pretty piece of work !</l>
 <l>(aloud) A fork and spoon for Fairy Baneful, boobies! </l>
 </sp>
-<sp>
+<sp who="#L0283_F1">
 <speaker>Fairy B.</speaker>
 <l>And gold ones, set with diamonds and with rubies,</l>
 <l>Like those my young friends have. </l>
 </sp>
-<sp>
+<sp who="#L0283_M3">
 <speaker>King.</speaker>
 <l><stage>(aside)</stage> The truth she'll guess.</l>
 <l>My Lord Factotum !</l>
 </sp>
-<sp>
+<sp who="#L0283_M8">
 <speaker>Lord F.</speaker>
 <l>Sire.</l>
 </sp>
-<sp>
+<sp who="#L0283_M3">
 <speaker>King.</speaker>
 <l>We're in a mess.</l>
 <l>Quick ! get us out of it.</l>
 </sp>
-<sp>
+<sp who="#L0283_M8">
 <speaker>Lord F.</speaker>
 <l>Most potent Fay,</l>
 <l>I trust you'll pardon what I'm going to say;</l>
@@ -790,7 +917,7 @@ covers?</l>
 <note type="ed">Royal jewellers : see
 https://en.wikipedia.org/wiki/Rundell_and_Bridge </note>
 </sp>
-<sp>
+<sp who="#L0283_F1">
 <speaker>Fairy B.</speaker>
 <l>Better and better—say no more about it,</l>
 <l>I'm the last comer, and must go without it;</l>
@@ -800,7 +927,7 @@ https://en.wikipedia.org/wiki/Rundell_and_Bridge </note>
 <l>Fairy Ant. <stage>(aside)</stage> There's mischief brewing—she will work some
 ill.</l>
 </sp>
-<sp>
+<sp who="#L0283_M3">
 <speaker>King.</speaker>
 <l>Ladies, Champagne—my Lord Factotum—fill </l>
 <l>Bumpers all round—No daylights, I beseech— </l>
@@ -814,38 +941,38 @@ ill.</l>
 <l>On this occasion I shall only say, </l>
 <l>My daughter's health ! with three times three!</l>
 </sp>
-<sp>
+<sp who="#L0283_mult">
 <speaker>All.</speaker>
 <l>Hurrah!</l>
 </sp>
-<sp>
+<sp who="#L0283_F4">
 <speaker>Queen.</speaker>
 <l>Ladies, with gratitude, believe, I burn, </l>
 <l>And beg to drink all your healths in return.</l>
 </sp>
-<sp>
+<sp who="#L0283_mult">
 <speaker>All.</speaker>
 <l>Bravo ! bravo!</l>
 </sp>
-<sp>
+<sp who="#L0283_F1">
 <speaker>Fairy B.</speaker>
 <l>But am I not to see</l>
 <l>This wondrous child—this tiny prodigy ?</l>
 </sp>
-<sp>
+<sp who="#L0283_M3">
 <speaker>King.</speaker>
 <l>Of course. Dessert, ye knaves, as quick as may be, And, Lord Factotum—</l>
 </sp>
-<sp>
+<sp who="#L0283_M8">
 <speaker>Lord F.</speaker>
 <l>Sire.</l>
 </sp>
-<sp>
+<sp who="#L0283_M3">
 <speaker>King.</speaker>
 <l>Ring twice for baby.</l>
 <stage>(Lord F. pulls a rope and a large bell rings twice very loudly)</stage>
 </sp>
-<sp>
+<sp who="#L0283_F9">
 <speaker>Fairy Ant.</speaker>
 <l><stage>(aside)</stage> Now is my time; behind this screen I'll hide,</l>
 <l>And have the last word—every woman's pride !<stage>(hides behind
@@ -853,58 +980,58 @@ arras)</stage>
 </l>
 <stage>Re-enter Nurse with baby, R. </stage>
 </sp>
-<sp>
+<sp who="#L0283_F4">
 <speaker>Queen.</speaker>
 <l>See where she comes—fresh from her morning airing.</l>
 </sp>
-<sp>
+<sp who="#L0283_F11">
 <speaker>Fairy Dew.</speaker>
 <l>I first shall give the little dear my fairing. </l>
 <l>Receive with this small drop of mountain dew, </l>
 <l>The purest mind that ever mortal knew.</l>
 </sp>
-<sp>
+<sp who="#L0283_F12">
 <speaker>Fairy Rose.</speaker>
 <l>This rose-leaf on her pretty cheek I lay,</l>
 <l>She shall be lovely as the dawning day.</l>
 </sp>
-<sp>
+<sp who="#L0283_F10">
 <speaker>Fairy Eleg.</speaker>
 <l>By this enchanting touch and mystic bow, </l>
 <l>With graceful action I the maid endow.</l>
 <pb n="13"/>
 </sp>
-<sp>
+<sp who="#L0283_F13">
 <speaker>Fairy Goss.</speaker>
 <l>Light as a fairy shall her step entrance</l>
 <l>All who behold her in the mazy dance. </l>
 </sp>
-<sp>
+<sp who="#L0283_F14">
 <speaker>Fairy Phil.</speaker>
 <l>Sweet as the nightingale's her song shall be. </l>
 </sp>
-<sp>
+<sp who="#L0283_F15">
 <speaker>Fairy Chor.</speaker>
 <l>To which I add all powers of minstrelsy. </l>
 </sp>
-<sp>
+<sp who="#L0283_M3">
 <speaker>King.</speaker>
 <l>Oh, all ye gods and little fishes ! never</l>
 <l>Will there have been a girl so fair and clever !</l>
 <l>Excuse a father's feelings—words are weak— </l>
 <l>These tears of joy</l>
 </sp>
-<sp>
+<sp who="#L0283_F1">
 <speaker>Fairy B.</speaker>
 <l>Stop, I have yet to speak.</l>
 <l>I owe you some return for your attention,</l>
 <l>And fain would pay —</l>
 </sp>
-<sp>
+<sp who="#L0283_M3">
 <speaker>King.</speaker>
 <l>I beg you wouldn't mention</l>
 </sp>
-<sp>
+<sp who="#L0283_F1">
 <speaker>Fairy B.</speaker>
 <l>Nay, hear me out—And fain would pay in kind</l>
 <l>My obligations; but 'tis hard to find</l>
@@ -913,29 +1040,29 @@ arras)</stage>
 <l>Yet something pleasant to foretell I'll try.</l>
 <l>Thy daughter, ere she comes of age, shall <emph>Die </emph>! </l>
 </sp>
-<sp>
+<sp who="#L0283_mult">
 <speaker>All.</speaker>
 <l>Die!</l>
 </sp>
-<sp>
+<sp who="#L0283_F1">
 <speaker>Fairy B.</speaker>
 <l>Yes, a spindle shall her hand run through. </l>
 </sp>
-<sp>
+<sp who="#L0283_F4">
 <speaker>Queen.</speaker>
 <l>Catch me, I faint!</l>
 </sp>
-<sp>
+<sp who="#L0283_M3">
 <speaker>King.</speaker>
 <l>I can't, I'm fainting too !</l>
 <l>My Lord Factotum, catch us both !</l>
 </sp>
-<sp>
+<sp who="#L0283_M8">
 <speaker>Lord F.</speaker>
 <l>Oh, ne'er</l>
 <l>Had mortal such a weight of woe to bear. </l>
 </sp>
-<sp>
+<sp who="#L0283_F1">
 <speaker>Fairy B.</speaker>
 <l>Ha, ha! next time you'll send <emph>me</emph> an invite !</l>
 <l>And so, I wish your Majesties good night. </l>
@@ -949,52 +1076,52 @@ spoken yet,</l>
 <l>The maiden, undisturbed by pains or fears, </l>
 <l>Shall slumber sweetly for a hundred years.</l>
 </sp>
-<sp>
+<sp who="#L0283_M3">
 <speaker>King.</speaker>
 <l>A hundred years !—My gracious ! what a nap ! </l>
 </sp>
-<sp>
+<sp who="#L0283_F4">
 <speaker>Queen.</speaker>
 <l>And wake a poor old woman!—Sad mishap! </l>
 </sp>
-<sp>
+<sp who="#L0283_F9">
 <speaker>Fairy Ant.</speaker>
 <l>no, young and lovely still—a Prince shall wake her,</l>
 <l>And of his heart and hand a present make her.</l>
 <pb n="14"/>
 </sp>
-<sp>
+<sp who="#L0283_M3">
 <speaker>King.</speaker>
 <l>How very kind—for ever we're your debtor?</l>
 <l>How fares our queen ?</l>
 </sp>
-<sp>
+<sp who="#L0283_F4">
 <speaker>Queen.</speaker>
 <l>I feel a little better.</l>
 </sp>
-<sp>
+<sp who="#L0283_F9">
 <speaker>Fairy Ant.</speaker>
 <l>Come sisters—it is time " Good night" to say—</l>
 </sp>
-<sp>
+<sp who="#L0283_M8">
 <speaker>Lord F.</speaker>
 <l>The Fairy Baneful's Dragon stops the way! </l>
 </sp>
-<sp>
+<sp who="#L0283_M3">
 <speaker>King.</speaker>
 <l>She's coming down.</l>
 </sp>
-<sp>
+<sp who="#L0283_F1">
 <speaker>Fairy B.</speaker>
 <l>Don't triumph, monarch, yet.</l>
 <l>Depend upon't I won't die in your debt.</l>
 <stage> Exit Fairy Baneful, L.</stage>
 </sp>
-<sp>
+<sp who="#L0283_F4">
 <speaker>Queen.</speaker>
 <l>The spiteful creature </l>
 </sp>
-<sp>
+<sp who="#L0283_M3">
 <speaker>King.</speaker>
 <l>We will foil her rage.</l>
 <l>First, 'till our darling daughter comes of age, </l>
@@ -1006,20 +1133,20 @@ spoken yet,</l>
 <l>The law is made—and kept too—or we'll be </l>
 <l>The death of you.</l>
 </sp>
-<sp>
+<sp who="#L0283_M8">
 <speaker>Lord F.</speaker>
 <l>" Dulce et decorum est,</l>
 <l>Pro patria mori "</l>
 </sp>
-<sp>
+<sp who="#L0283_M3">
 <speaker>King.</speaker>
 <l>Peace—we know the rest</l>
 <l>Ladies, since you seem bent your flight to wing, </l>
 <l>We are your most obedient lord the King.</l>
 </sp>
 <spGrp>
-<head>Finale to First Act of " Guillaume Tell" </head>
-<sp>
+<head>Finale to First Act of "Guillaume Tell" </head>
+<sp who="#L0283_M3">
 <l>After next morning,</l>
 <l>Should any, scorning</l>
 <l>This legal warning,</l>
@@ -1042,7 +1169,7 @@ spoken yet,</l>
 <head>Duet,— "Fair Aurora"—Artaxerxes. </head>
 <note type="ed">Aria from Arne's celebrated opera; Mme Vestris frequently sang
 the title role en travestie. </note>
-<sp>
+<sp who="#L0283_M8">
 <speaker>Lord F.</speaker>
 <l>Fair Aurora, prithee stay, </l>
 <l>O regard what I've to say; </l>
@@ -1051,7 +1178,7 @@ the title role en travestie. </note>
 <l>Why, fair idol of my heart </l>
 <l>Thus at my approach depart ? </l>
 </sp>
-<sp>
+<sp who="#L0283_F17">
 <speaker>Lady A.</speaker>
 <l>Fond adorer! cease, I pray, </l>
 <l>Can't you call another day;</l>
@@ -1061,15 +1188,15 @@ the title role en travestie. </note>
 <l>Never shall approach my heart</l>
 </sp>
 </spGrp>
-<sp>
+<sp who="#L0283_M8">
 <speaker>Lord F.</speaker>
 <l>Yet, fatal beauty, but one moment stay, </l>
 </sp>
-<sp>
+<sp who="#L0283_F17">
 <speaker>Lady A.</speaker>
 <l>Be quick, and say then what you've got to say. </l>
 </sp>
-<sp>
+<sp who="#L0283_M8">
 <speaker>Lord F.</speaker>
 <l>"Full eighteen times hath Phoebus' cart gone round </l>
 <l>Neptune's salt wash, and Tellus' orbed ground," <note type="ed">Cf the Player
@@ -1077,43 +1204,43 @@ King's bombast in Hamlet "Full thirty times hath Phoebus cart gone round
 ..."</note> That is to say—full eighteen years have past Since the princess was
 christened.</l>
 </sp>
-<sp>
+<sp who="#L0283_F17">
 <speaker>Lady A.</speaker>
 <l>Well, and fast </l>
 <l>The time has flown—at least, it has with me, </l>
 <l>It scarcely seems as many hours to be; </l>
 <l>Only since then, I have a woman grown.</l>
 </sp>
-<sp>
+<sp who="#L0283_M8">
 <speaker>Lord F.</speaker>
 <l>Alack, to me the last five years alone</l>
 <l>Have seemed an age—look on these grizzling hairs, </l>
 <l>Turned by your cruel usage. </l>
 </sp>
-<sp>
+<sp who="#L0283_F17">
 <speaker>Lady A.</speaker>
 <l>Well, who cares ? </l>
 </sp>
-<sp>
+<sp who="#L0283_M8">
 <speaker>Lord F.</speaker>
 <l>Not you, I know—therefore, I'm daily sinking, </l>
 <l>And soon shall go to my long home, I'm thinking.</l>
 </sp>
-<sp>
+<sp who="#L0283_F17">
 <speaker>Lady A.</speaker>
 <l>I hope you've made your will ?</l>
 </sp>
-<sp>
+<sp who="#L0283_M8">
 <speaker>Lord F.</speaker>
 <l>Ay, you may laugh,</l>
 <l>But I've done more, I've made my epitaph! </l>
 </sp>
-<sp>
+<sp who="#L0283_F17">
 <speaker>Lady A.</speaker>
 <l>Oh, let me hear it. </l>
 <pb n="16"/>
 </sp>
-<sp>
+<sp who="#L0283_M8">
 <speaker>Lord F.</speaker>
 <l>'Twas for that I came ;</l>
 <l>If it's too touching, I am not to blame. </l>
@@ -1122,7 +1249,7 @@ christened.</l>
 </sp>
 <spGrp>
 <head>Air—Lord Factotum, " All around the May Pole"—Midas. </head>
-<sp>
+<sp who="#L0283_M8">
 <l>Here rests his head upon the lap of earth, </l>
 <l>A lord to fortune and to fame well known ; </l>
 <l>But fair Aurora couldn't see his worth, </l>
@@ -1130,28 +1257,28 @@ christened.</l>
 Gray's Elegy Written in a Country Churchyard (1750)</note></l>
 </sp>
 </spGrp>
-<sp>
+<sp who="#L0283_F17">
 <speaker>Lady A.</speaker>
 <l>Well, I confess, I cannot hear that strain </l>
 <l>Unmoved, so I move off. </l>
 </sp>
-<sp>
+<sp who="#L0283_M8">
 <speaker>Lord F.</speaker>
 <l>Oh, yet remain— </l>
 </sp>
-<sp>
+<sp who="#L0283_F17">
 <speaker>Lady A.</speaker>
 <l>Then change at any rate the conversation; </l>
 <l>Of dolefuls I've the greatest detestation. </l>
 </sp>
-<sp>
+<sp who="#L0283_M8">
 <speaker>Lord F.</speaker>
 <l>Well, well,—I will—I'll struggle to be gay. </l>
 <l>You know the Princess is of age to-day, </l>
 <l>And will come regularly out to-night,</l>
 <l>At the State Ball—'twill be a glorious sight. </l>
 </sp>
-<sp>
+<sp who="#L0283_F17">
 <speaker>Lady A.</speaker>
 <l>'Twill make a great sensation, I've a notion, </l>
 <l>Her dancing is the poetry of motion ; </l>
@@ -1160,23 +1287,23 @@ Gray's Elegy Written in a Country Churchyard (1750)</note></l>
 <l>And plays on anything, and any tune, </l>
 <l>I've heard her practising on the bassoon. </l>
 </sp>
-<sp>
+<sp who="#L0283_M8">
 <speaker>Lord F.</speaker>
 <l>Bassoon ! I'd bet the heaviest of wagers </l>
 <l>She'd make her <hi>dumb</hi> bells ring triple-bob-majors. <note type="ed">A
 Triple Bob Major is a way of ringing bells in (almost) every possible
 combination. </note></l>
 </sp>
-<sp>
+<sp who="#L0283_F17">
 <speaker>Lady A.</speaker>
 <l>Where is she now ? </l>
 </sp>
-<sp>
+<sp who="#L0283_M8">
 <speaker>Lord F.</speaker>
 <l>Still locked up in her tower, </l>
 <l>Until the clock has struck the fated hour. </l>
 </sp>
-<sp>
+<sp who="#L0283_F17">
 <speaker>Lady A.</speaker>
 <l>The fated fiddlestick ! Don't talk such folly, </l>
 <l>I wonder <emph>she's</emph> not marked by melancholy. </l>
@@ -1187,40 +1314,40 @@ combination. </note></l>
 <l>Now, if there are none left within the land, </l>
 <l>Pray how can she run one into her hand ? </l>
 </sp>
-<sp>
+<sp who="#L0283_M8">
 <speaker>Lord F.</speaker>
 <l>Unanswerable question ! You're quite right, </l>
 <l>I vow it never struck me in that light. </l>
 <pb n="17"/>
 </sp>
-<sp>
+<sp who="#L0283_F17">
 <speaker>Lady A.</speaker>
 <l>Well then, what say you to a bit of fun? </l>
 <l>Suppose we let her out to have a run </l>
 <l>Just up and down the Palace. </l>
 </sp>
-<sp>
+<sp who="#L0283_M8">
 <speaker>Lord F.</speaker>
 <l>Heaven and earth! </l>
 <l>It's more than every place I hold is worth. </l>
 </sp>
-<sp>
+<sp who="#L0283_F17">
 <speaker>Lady A.</speaker>
 <l>Well—If your places you prefer to me </l>
 </sp>
-<sp>
+<sp who="#L0283_M8">
 <speaker>Lord F.</speaker>
 <l>Eh—how—what's that ? </l>
 </sp>
-<sp>
+<sp who="#L0283_F17">
 <speaker>Lady A.</speaker>
 <l>Dear Chamberlain, the key. </l>
 </sp>
-<sp>
+<sp who="#L0283_M8">
 <speaker>Lord F.</speaker>
 <l>Don't tempt me—don't—for if you do I'm dished. </l>
 </sp>
-<sp>
+<sp who="#L0283_F17">
 <speaker>Lady A.</speaker>
 <l>How oft you've sworn to do whate'er I wished ; </l>
 <l>And when I condescend a wish to name, </l>
@@ -1228,7 +1355,7 @@ combination. </note></l>
 </sp>
 <spGrp>
 <head>Air —Lady Abigail—M Artaxerxes." </head>
-<sp>
+<sp who="#L0283_F17">
 <l>Monster, away, </l>
 <l>How dare you say, </l>
 <l>You a button care for me ! </l>
@@ -1243,29 +1370,29 @@ combination. </note></l>
 <l>Double locked shall ever be. </l>
 </sp>
 </spGrp>
-<sp>
+<sp who="#L0283_M8">
 <speaker>Lord F.</speaker>
 <l>Stay, stay, I yield ! I'm vanquished ! here's the key, </l>
 <l>But grant one boon, love, in return to me. </l>
 </sp>
-<sp>
+<sp who="#L0283_F17">
 <speaker>Lady A.</speaker>
 <l>Name it. </l>
 </sp>
-<sp>
+<sp who="#L0283_M8">
 <speaker>Lord F.</speaker>
 <l>I will—while joy my soul entrances — </l>
 <l>Your hand! </l>
 </sp>
-<sp>
+<sp who="#L0283_F17">
 <speaker>Lady A.</speaker>
 <l>Tis yours. </l>
 </sp>
-<sp>
+<sp who="#L0283_M8">
 <speaker>Lord F.</speaker>
 <l>Ah ! </l>
 </sp>
-<sp>
+<sp who="#L0283_F17">
 <speaker>Lady A.</speaker>
 <l>For the first two dances. </l>
 </sp>
@@ -1280,14 +1407,14 @@ adorned with vases full of beautiful flowers, cages of rare birds, musical
 instruments of every description, globes, maps, books, &amp;c. </stage>
 <stage>The Princess is discovered playing with her parrot. </stage>
 <spGrp>
-<head>Air, Princess—" Nix my Dolly." </head>
+<head>Air, Princess—"Nix my Dolly." </head>
 <note type="ed">A popular ballad originally by W. Harrison Ainsworth, sung by
 Jerry Juniper’s in "Rookwood" (1834). Some years after the song alluded to,
 better known under the title of ‘Nix my dolly, pals,—fake away!’ sprang into
 extra-ordinary popularity, being set to music by Rodwell, and chanted by
 glorious Paul Bedford and clever little Mrs. Keeley.
 (https://words.fromoldbooks.org/Farmer-MusaPedestris/nix-my-doll-pals-fake-away.html) </note>
-<sp>
+<sp who="#L0283_F5">
 <l>It is eighteen years since I was born, </l>
 <l>And here from my cradle I've lived forlorn,</l>
 <l>Wella-day!</l>
@@ -1308,7 +1435,7 @@ glorious Paul Bedford and clever little Mrs. Keeley.
 <l>What tricks my Polly and I will play!</l>
 </sp>
 </spGrp>
-<sp>
+<sp who="#L0283_F5">
 <speaker>Princess.</speaker>
 <l>Yes, I'm of age, and shall to day be free </l>
 <l>And introduced at Court! Good gracious me ! </l>
@@ -1332,7 +1459,7 @@ Human Understanding" is also referenced in Planche's Camp at the Olympic
 <l>I'm not to be at liberty till noon.</l>
 <stage> Enter Lady Abigail, L.</stage>
 </sp>
-<sp>
+<sp who="#L0283_F17">
 <speaker>Lady A.</speaker>
 <l>Your Royal Highness, I am come to pay</l>
 <l>My duty to you on this happy day;</l>
@@ -1341,11 +1468,11 @@ Human Understanding" is also referenced in Planche's Camp at the Olympic
 <l>Of taking a small peep beyond the bar, </l>
 <l>It won't appear in the Court Circular.</l>
 </sp>
-<sp>
+<sp who="#L0283_F5">
 <speaker>Princess.</speaker>
 <l>What riddle's this?</l>
 </sp>
-<sp>
+<sp who="#L0283_F17">
 <speaker>Lady A.</speaker>
 <l>"Riddle my riddle my re,"</l>
 <l>If 'tis a riddle, madam, here's the key;</l>
@@ -1353,15 +1480,15 @@ Human Understanding" is also referenced in Planche's Camp at the Olympic
 <l>And you should pick it up, and slyly pop it </l>
 <l>Into the door, when nobody is by ?</l>
 </sp>
-<sp>
+<sp who="#L0283_F5">
 <speaker>Princess.</speaker>
 <l>Oh dear, I couldn't think of it, not I.</l>
 </sp>
-<sp>
+<sp who="#L0283_F17">
 <speaker>Lady A.</speaker>
 <l>But you might do it, Madam, without thinking.</l>
 </sp>
-<sp>
+<sp who="#L0283_F5">
 <speaker>Princess.</speaker>
 <l><stage>(aside)</stage> I feel my heart within my bosom sinking.</l>
 <l>Deceive my pa and ma! oh no, " I never!" </l>
@@ -1369,15 +1496,15 @@ Human Understanding" is also referenced in Planche's Camp at the Olympic
 <l><stage>(aloud)</stage> I thank you for this dutiful address, </l>
 <l>But dare not profit by it, I confess.</l>
 </sp>
-<sp>
+<sp who="#L0283_F17">
 <speaker>Lady A.</speaker>
 <l>Permit me just to ask you, where's the harm? </l>
 </sp>
-<sp>
+<sp who="#L0283_F5">
 <speaker>Princess.</speaker>
 <l>'Twould give my parents just cause for alarm. </l>
 </sp>
-<sp>
+<sp who="#L0283_F17">
 <speaker>Lady A.</speaker>
 <l>They're gone out hunting and will never know !</l>
 <l>Besides you won't beyond the Palace go—</l>
@@ -1386,24 +1513,24 @@ Human Understanding" is also referenced in Planche's Camp at the Olympic
 <l>And, as by that time 'twill be twelve o'clock, </l>
 <l>You may hang up the key and shoot the lock.</l>
 </sp>
-<sp>
+<sp who="#L0283_F5">
 <speaker>Princess.</speaker>
 <l>No, no, my pa' I've promised o'er and o'er, </l>
 <l>I'd never try to pass that chamber door.</l>
 </sp>
-<sp>
+<sp who="#L0283_F17">
 <speaker>Lady A.</speaker>
 <l>Not pass that door?—but there's a time you know, </l>
 <l>When a door's not a door,</l>
 </sp>
-<sp>
+<sp who="#L0283_F5">
 <speaker>Princess.</speaker>
 <l>Go, tempter, go.</l>
 </sp>
 <spGrp>
 <head>Duet—Princess and Lady Abigail.—" Gazza Ladra." </head>
 <note type="ed">Song from Rossini's Thieving Magpie</note>
-<sp>
+<sp who="#L0283_F17">
 <speaker>Lady A.</speaker>
 <l>Nay, then, I'll press you no more, Ma'am, </l>
 <l>Since you prefer to stay so, </l>
@@ -1411,14 +1538,14 @@ Human Understanding" is also referenced in Planche's Camp at the Olympic
 <pb n="20"/>
 <l>I'll leave, a-jar, the door.</l>
 </sp>
-<sp>
+<sp who="#L0283_F5">
 <speaker>Princess.</speaker>
 <l><stage>(aside)</stage> Yon door a-jar too—I <emph>must</emph> take </l>
 <l>One peep—Oh, yes,.—what fear I ?</l>
 <l>Come what—come may—I'm weary</l>
 <l>Of this dull second floor.</l>
 </sp>
-<sp>
+<sp who="#L0283_F17 #L0283_F5">
 <speaker>Both.</speaker>
 <l>Your Pa|My Pa won't know you've|I've been astray</l>
 <l>Until the frolic's o'er;</l>
@@ -1429,22 +1556,22 @@ Human Understanding" is also referenced in Planche's Camp at the Olympic
 <l>Time, by the forelock,</l>
 <l>Catch him, and hold him presto.</l>
 </sp>
-<sp>
+<sp who="#L0283_F17">
 <speaker>Lady A.</speaker>
 <l>Pray do not dally,</l>
 <l>Or stand shilly-shally;</l>
 </sp>
-<sp>
+<sp who="#L0283_F5">
 <speaker>Princess.</speaker>
 <l>"Why do I dally,</l>
 <l>And stand shilly-shally.</l>
 </sp>
-<sp>
+<sp who="#L0283_F17">
 <speaker>Lady A.</speaker>
 <l>Why don't you say addio, </l>
 <l>To this dull second floor?</l>
 </sp>
-<sp>
+<sp who="#L0283_F5">
 <speaker>Princess.</speaker>
 <l>Yes, yes, I'll say addio</l>
 <l>To this dull second floor.<stage> Exeunt, R.</stage></l>
@@ -1455,7 +1582,7 @@ Human Understanding" is also referenced in Planche's Camp at the Olympic
 <stage>Scene Third.—Lobby and Lumber Room at the very top of the castle — a
 small door in flat. </stage>
 <stage>The Fairy Baneful enters, C. </stage>
-<sp>
+<sp who="#L0283_F1">
 <speaker>Fairy B.</speaker>
 <l>'Tis done ! so far I triumph. She shall know </l>
 <l>What dire effects from disobedience flow ;</l>
@@ -1471,7 +1598,7 @@ small door in flat. </stage>
 <pb n="21"/>
 <stage> Enter Princess, R.</stage>
 </sp>
-<sp>
+<sp who="#L0283_F5">
 <speaker>Princess.</speaker>
 <l>Bless me! I've surely come up the wrong staircase;</l>
 <l>Well, I suppose at court that's not a rare case. </l>
@@ -1493,7 +1620,7 @@ small door in flat. </stage>
 <spGrp>
 <head>Song. —Princess.— Air, American Melody, " Long Ago,"introducing the
 Sweep's Cry. </head>
-<sp>
+<sp who="#L0283_F5">
 <l>Newgate records and slang ditties</l>
 <l>Seem all the go;</l>
 <l>'Tis, I think, a thousand pities </l>
@@ -1517,7 +1644,7 @@ https://en.wikipedia.org/wiki/Thomas_Haynes_Bayly</note>
 <l>"heigho"&amp;c</l>
 </sp>
 </spGrp>
-<sp>
+<sp who="#L0283_F5">
 <l>Well, I must down again without delay;</l>
 <l>Perhaps there is a nearer cut this way.</l>
 <l><stage>(throws open door, and discovers a small Gothic Chamber, in which an
@@ -1531,73 +1658,73 @@ Old Woman is seated, spinning with a spindle)</stage>
 <l><stage>(the Old Woman rises and advances)</stage> Nay, don't rise, I
 pray.</l>
 </sp>
-<sp>
+<sp who="#L0283_F19">
 <speaker>Old W.</speaker>
 <l>I beg your pardon, miss, what do you say ? </l>
 </sp>
-<sp>
+<sp who="#L0283_F5">
 <speaker>Princess.</speaker>
 <l>I say don't stir. Sit down again, I beg. </l>
 </sp>
-<sp>
+<sp who="#L0283_F19">
 <speaker>Old W.</speaker>
 <l>"My leg;" no, child, there's nothing ails my leg!</l>
 <l>I'm rather hard of hearing.</l>
 </sp>
-<sp>
+<sp who="#L0283_F5">
 <speaker>Princess.</speaker>
 <l>So 'twould seem.</l>
 </sp>
-<sp>
+<sp who="#L0283_F19">
 <speaker>Old W.</speaker>
 <l>"Scream!" No, young lady, no—you needn't scream;</l>
 <l>I'm not so deaf as that.</l>
 </sp>
-<sp>
+<sp who="#L0283_F5">
 <speaker>Princess.</speaker>
 <l>Then tell me</l>
 </sp>
-<sp>
+<sp who="#L0283_F19">
 <speaker>Old W.</speaker>
 <l>Eh ?</l>
 <l>A little louder.</l>
 </sp>
-<sp>
+<sp who="#L0283_F5">
 <speaker>Princess.</speaker>
 <l>Please to tell me</l>
 </sp>
-<sp>
+<sp who="#L0283_F19">
 <speaker>Old W.</speaker>
 <l>Stay!</l>
 <l>Come on this side—I hear best with this ear. </l>
 </sp>
-<sp>
+<sp who="#L0283_F5">
 <speaker>Princess.</speaker>
 <l>What's this you hold ?</l>
 </sp>
-<sp>
+<sp who="#L0283_F19">
 <speaker>Old W.</speaker>
 <l>Yes, very old, my dear;</l>
 <l>Come Michaelmas I shall be ninety-four.</l>
 </sp>
-<sp>
+<sp who="#L0283_F5">
 <speaker>Princess.</speaker>
 <l>Oh, I shall play at bawl with her no more;</l>
 <l>I'll see if pantomime she'll understand. <stage>(makes signs)</stage></l>
 </sp>
-<sp>
+<sp who="#L0283_F19">
 <speaker>Old W.</speaker>
 <l>Oh ! you would know what this is in my hand ?</l>
 <l>Why, it's a spindle.</l>
 <stage>(Music — the Princess expresses by action, her ignorance of its
 use)</stage>
 </sp>
-<sp>
+<sp who="#L0283_F19">
 <speaker>Old W.</speaker>
 <l>Lauk ! Excuse my grinning—</l>
 <l>Have you lived all these years, and not seen spinning?</l>
 </sp>
-<sp>
+<sp who="#L0283_F5">
 <speaker>Princess.</speaker>
 <l>How very odd! — They ransacked every college</l>
 <l>To make me perfect—fill my brain with knowledge- </l>
@@ -1605,7 +1732,7 @@ use)</stage>
 <l>I'm quite provoked, it must seem so absurd.</l>
 <pb n="22"/>
 </sp>
-<sp>
+<sp who="#L0283_F19">
 <speaker>Old W.</speaker>
 <l>Why it's a mortal shame child, and a sin,</l>
 <l>That at your age you don't know how to spin.</l>
@@ -1614,48 +1741,48 @@ all my heart! But dear, I wonder </l>
 <l>Where thou hast been brought up. Here, take this.</l>
 <stage>(gives Princess the spindle — thunder.)</stage>
 </sp>
-<sp>
+<sp who="#L0283_F5">
 <speaker>Princess.</speaker>
 <l><stage>(alarmed)</stage> Thunder!</l>
 <l>I'm a sad coward in a storm.</l>
 </sp>
-<sp>
+<sp who="#L0283_F19">
 <speaker>Old W.</speaker>
 <l>Not so—</l>
 <l>That's not the way to hold a spindle.</l>
 </sp>
-<sp>
+<sp who="#L0283_F5">
 <speaker>Princess.</speaker>
 <l><stage>(in turning it wounds her hand)</stage> Oh !</l>
 <l><stage>(louder thunder.)</stage> I've hurt my hand.</l>
 </sp>
-<sp>
+<sp who="#L0283_F19">
 <speaker>Old W.</speaker>
 <l>Why, what's the matter, eh ?</l>
 </sp>
-<sp>
+<sp who="#L0283_F5">
 <speaker>Princess.</speaker>
 <l>I'm hurt. Quick, call for help.</l>
 </sp>
-<sp>
+<sp who="#L0283_F19">
 <speaker>Old W.</speaker>
 <l>What's that you say. <stage>(turns from her, and enters room.)</stage>
 </l>
 </sp>
-<sp>
+<sp who="#L0283_F5">
 <speaker>Princess.</speaker>
 <l>Alas, what shall I do? my senses fail—</l>
 <l>Help! Lord Factotum ! Lady Abigail .'</l>
 </sp>
-<sp>
+<sp who="#L0283_F4">
 <speaker>Queen.</speaker>
 <l><stage>(without)</stage> My daughter's voice !—without a doubt!</l>
 </sp>
-<sp>
+<sp who="#L0283_M3">
 <speaker>King.</speaker>
 <l>Speak, rascals! speak, who let her out?</l>
 </sp>
-<sp>
+<sp who="#L0283_F5">
 <speaker>Princess.</speaker>
 <l>My Pa ! come back—Alas !—where shall I fly?</l>
 <l>I have no power to—Ah!—I faint—I die !<stage>(enters room)</stage>
@@ -1667,111 +1794,111 @@ composed sometime in the early 1830's by Joe Blackburn for blackface
 performers."
 http://pancocojams.blogspot.com/2013/10/such-getting-upstairs-history-of-song.html</note>
 Chorus, King, Queen, Lord F., Lady A., entering. </head>
-<sp>
+<sp who="#L0283_mult">
 <l>Such a getting up stairs, and a playing Old Harry, </l>
 <l>Such a getting up stairs, I never did see.</l>
 </sp>
-<sp>
+<sp who="#L0283_M3">
 <speaker>King.</speaker>
 <l>I'm out of breath,</l>
 </sp>
-<sp>
+<sp who="#L0283_M8">
 <speaker>Lord F.</speaker>
 <l>And so am I;</l>
 </sp>
-<sp>
+<sp who="#L0283_F4">
 <speaker>Queen.</speaker>
 <l>I ne'er before was up so high.</l>
 </sp>
-<sp>
+<sp who="#L0283_F17">
 <speaker>Lady A.</speaker>
 <l>Look up that chimney,</l>
 </sp>
-<sp>
+<sp who="#L0283_M8">
 <speaker>Lord F.</speaker>
 <l>Scour the leads,</l>
 </sp>
-<sp>
+<sp who="#L0283_M3">
 <speaker>King.</speaker>
 <l>If she's not found,</l>
 <l>You lose your heads !</l>
 </sp>
-<sp>
+<sp who="#L0283_mult">
 <speaker>Chorus.</speaker>
 <l>Such a getting up stairs, and a playing Old Harry,&amp;c.</l>
 </sp>
 </spGrp>
-<sp>
+<sp who="#L0283_F4">
 <speaker>Queen.</speaker>
 <l>What place is this? <stage>(opening door and discovering Old Woman.)</stage>
 </l>
 <pb n="24"/>
 </sp>
-<sp>
+<sp who="#L0283_M8">
 <speaker>Lord F.</speaker>
 <l>The Lumber Room.</l>
 </sp>
-<sp>
+<sp who="#L0283_M3">
 <speaker>King.</speaker>
 <l>Who's there?</l>
 <l>One of the Troop !</l>
 </sp>
-<sp>
+<sp who="#L0283_M8">
 <speaker>Lord F.</speaker>
 <l>She's armed, I do declare.</l>
 </sp>
-<sp>
+<sp who="#L0283_F4">
 <speaker>Queen.</speaker>
 <l>And with a spindle !</l>
 </sp>
-<sp>
+<sp who="#L0283_M3">
 <speaker>King.</speaker>
 <l>Taken in the fact.</l>
 <l>My Lord Factotum, say, how runs the act?</l>
 </sp>
-<sp>
+<sp who="#L0283_M8">
 <speaker>Lord F.</speaker>
 <l>Hanged, drawn and quartered, is the mildest sentence;</l>
 <l>Without a moment left her for repentance. </l>
 </sp>
-<sp>
+<sp who="#L0283_F4">
 <speaker>Queen.</speaker>
 <l>Our daughter here and wounded !</l>
 <l><stage>(helping Princess forward.)</stage>
 </l>
 </sp>
-<sp>
+<sp who="#L0283_M3">
 <speaker>King.</speaker>
 <l>For a guinea !</l>
 <l>This is your work, you vile old spinning jenny. </l>
 </sp>
-<sp>
+<sp who="#L0283_F5">
 <speaker>Princess.</speaker>
-<l><stage>( faintly)</stage> Be merciful, dear sir, she's deaf, and ne'er</l>
+<l><stage>(faintly)</stage> Be merciful, dear sir, she's deaf, and ne'er</l>
 <l>Could hear the law you name.</l>
 </sp>
-<sp>
+<sp who="#L0283_M3">
 <speaker>King.</speaker>
 <l>That's her affair.</l>
 </sp>
-<sp>
+<sp who="#L0283_F19">
 <speaker>Old W.</speaker>
 <l>What's that you say, sir ?</l>
 </sp>
-<sp>
+<sp who="#L0283_M8">
 <speaker>Lord F.</speaker>
 <l>Seize her !</l>
 <stage> Enter Fairy Baneful— Exit Old Woman.</stage>
 </sp>
-<sp>
+<sp who="#L0283_F1">
 <speaker>Fairy B.</speaker>
 <l>Not so fast.</l>
 </sp>
-<sp>
+<sp who="#L0283_M3">
 <speaker>King.</speaker>
 <l>That hag again!</l>
 </sp>
-<sp>
+<sp who="#L0283_F1">
 <speaker>Fairy B.</speaker>
 <l>What, stand you all aghast!</l>
 <l>Don't you remember—eighteen years ago,</l>
@@ -1781,36 +1908,36 @@ Chorus, King, Queen, Lord F., Lady A., entering. </head>
 <l>Slumber is on your daughter stealing fast, </l>
 <l>And the same spell upon you all I cast.</l>
 </sp>
-<sp>
+<sp who="#L0283_M3">
 <speaker>King.</speaker>
 <l>My Lord Factotum, is it so-o-o! <stage>(yawning.)</stage>
 </l>
 </sp>
-<sp>
+<sp who="#L0283_M8">
 <speaker>Lord F.</speaker>
 <l>My gracious liege, indeed, I don't know-ow. </l>
 </sp>
-<sp>
+<sp who="#L0283_F4">
 <speaker>Queen.</speaker>
 <l>We're all a little sleepy—don't you think so? </l>
 </sp>
-<sp>
+<sp who="#L0283_F5">
 <speaker>Princess.</speaker>
 <l>I shouldn't mind it if I didn't wink so.</l>
 </sp>
-<sp>
+<sp who="#L0283_F17">
 <speaker>Lady A.</speaker>
 <l>I was up early.</l>
 </sp>
-<sp>
+<sp who="#L0283_M16">
 <speaker>Page.</speaker>
 <l>I to bed went late.</l>
 </sp>
-<sp>
+<sp who="#L0283_M3">
 <speaker>King.</speaker>
 <l>I couldn't slumber for the calls of state.</l>
 </sp>
-<sp>
+<sp who="#L0283_F1">
 <speaker>Fairy B.</speaker>
 <l>Well, you'll have time enough now all to doze— </l>
 <l>Nor shall you wake till a Prince pulls your nose.</l>
@@ -1822,12 +1949,12 @@ Chorus, King, Queen, Lord F., Lady A., entering. </head>
 <div type="scene">
 <stage>Scene Fourth.—State Bed Chamber. </stage>
 <stage>Fairy Antidota and Attendant Sprites.</stage>
-<sp>
+<sp who="#L0283_F1">
 <speaker>Fairy B.</speaker>
 <l>The Fairy Antidota—you're too late</l>
 <l>This time—the spell's complete.</l>
 </sp>
-<sp>
+<sp who="#L0283_F9">
 <speaker>Fairy A.</speaker>
 <l>I bow to Fate,</l>
 <l>Not you . <stage>( to her sprites)</stage> Haste Elfin Sprites, fulfil your
@@ -1841,14 +1968,14 @@ Abigail, &amp;C. fall asleep in various attitudes — Curtain descends to the Ai
 </div>
 </div>
 <div type="act">
-<head>Part Iii.</head>
+<head>Part III.</head>
 <div type="scene">
 <head>Scene first — Forest.</head>
 
 <stage>Colin Clump, Larry O'Log, and other Woodcutters, at work. </stage>
 <spGrp>
 <head>Round -- "When the Wind Blows." </head>
-<sp>
+<sp who="#L0283_M21 #L0283_M27">
 <l>Spite of our blows,</l>
 <l>There the wood grows,</l>
 <l>And makes of our labours merry ;</l>
@@ -1857,7 +1984,7 @@ Abigail, &amp;C. fall asleep in various attitudes — Curtain descends to the Ai
 <l>It's very hard work, boys—very—yes, very. </l>
 </sp>
 </spGrp>
-<sp>
+<sp who="#L0283_M21">
 <speaker>Larry.</speaker>
 <l>Well, it ain't aisy then, and that's the truth, </l>
 <l>I've worked in this same Wood, man, boy and youth, </l>
@@ -1868,75 +1995,75 @@ Abigail, &amp;C. fall asleep in various attitudes — Curtain descends to the Ai
 <l>But come, it's supper time, and so who cares, </l>
 <l>Let's cut our own sticks, as we can't cut theirs. <pb n="26"/></l>
 </sp>
-<sp>
+<sp who="#L0283_M27">
 <speaker>Clump.</speaker>
 <l>Aye, come, for my poor wife will be on thorns </l>
 <l>Until she sees me by her side with — <stage>Hunting music in the distance.
 </stage></l>
 </sp>
-<sp>
+<sp who="#L0283_M21">
 <speaker>Larry.</speaker>
 <l>Horns!</l>
 </sp>
-<sp>
+<sp who="#L0283_M27">
 <speaker>Clump.</speaker>
 <l>Aye—some chaps have been hunting all the day.</l>
 <stage> Exeunt Clump and Woodcutters, R.</stage>
 </sp>
-<sp>
+<sp who="#L0283_M21">
 <speaker>Larry.</speaker>
 <l>And here comes one, as if he'd lost his way.</l>
 <stage> Enter Prince Perfect, L.</stage>
 </sp>
-<sp>
+<sp who="#L0283_M22">
 <speaker>Prince.</speaker>
 <l>Pray can you tell me where I am, my lad ? </l>
 </sp>
-<sp>
+<sp who="#L0283_M21">
 <speaker>Larry.</speaker>
 <l>Yes, sir—You're there.</l>
 </sp>
-<sp>
+<sp who="#L0283_M22">
 <speaker>Prince.</speaker>
 <l>Well—come, that's not so bad.</l>
 <l>Are you a woodcutter, my friend, or what?</l>
 </sp>
-<sp>
+<sp who="#L0283_M21">
 <speaker>Larry.</speaker>
 <l>I am, sir, a woodcutter, and I'm not.</l>
 </sp>
-<sp>
+<sp who="#L0283_M22">
 <speaker>Prince.</speaker>
 <l>How very mystical—Expound—Explain.</l>
 </sp>
-<sp>
+<sp who="#L0283_M21">
 <speaker>Larry.</speaker>
 <l>Why, sir, you see, I hack these trees in vain— </l>
 <l>Not one will fall.</l>
 </sp>
-<sp>
+<sp who="#L0283_M22">
 <speaker>Prince.</speaker>
 <l>Ah!—Then if truth you utter,</l>
 <l>You are but a <hi>wood</hi>- if you-could-be cutter.</l>
 </sp>
-<sp>
+<sp who="#L0283_M21">
 <speaker>Larry.</speaker>
 <l>Faith, sir, you've hit it.</l>
 </sp>
-<sp>
+<sp who="#L0283_M22">
 <speaker>Prince.</speaker>
 <l>You must fare but badly,</l>
 <l>Or, I'm afraid you fling the hatchet sadly.</l>
 </sp>
-<sp>
+<sp who="#L0283_M21">
 <speaker>Larry.</speaker>
 <l>'Deed, no sir.</l>
 </sp>
-<sp>
+<sp who="#L0283_M22">
 <speaker>Prince.</speaker>
 <l>What's the cause ? for still I doubt it.</l>
 </sp>
-<sp>
+<sp who="#L0283_M21">
 <speaker>Larry.</speaker>
 <l>You're not the first, sir, that has axed about it— </l>
 <l>Folks say the wood's enchanted—O'er the trees </l>
@@ -1947,56 +2074,56 @@ Abigail, &amp;C. fall asleep in various attitudes — Curtain descends to the Ai
 <l>Of catching a fat baby like a rabbit, </l>
 <l>And smothering it with onions—</l>
 </sp>
-<sp>
+<sp who="#L0283_M22">
 <speaker>Prince.</speaker>
 <l>Nasty Dog?</l>
 <l>And eats it ?</l>
 </sp>
-<sp>
+<sp who="#L0283_M21">
 <speaker>Larry.</speaker>
 <l>As a Frenchman would a frog!</l>
 </sp>
-<sp>
+<sp who="#L0283_M22">
 <speaker>Prince.</speaker>
 <l>The filthy fellow—'Sdeath, you make me sick, </l>
 <l>I'd have him hanged for such a dirty trick.</l>
 </sp>
-<sp>
+<sp who="#L0283_M21">
 <speaker>Larry.</speaker>
 <l>But you must catch him first—and who's to do it?</l>
 </sp>
-<sp>
+<sp who="#L0283_M22">
 <speaker>Prince.</speaker>
 <l>I'd storm his castle—</l>
 </sp>
-<sp>
+<sp who="#L0283_M21">
 <speaker>Larry.</speaker>
 <l>But you can't get to it;</l>
 <pb n="27"/>
 <l>The trees will only let <hi>him</hi> pass between.</l>
 </sp>
-<sp>
+<sp who="#L0283_M22">
 <speaker>Prince.</speaker>
 <l>I'd burn 'em down!</l>
 </sp>
-<sp>
+<sp who="#L0283_M21">
 <speaker>Larry.</speaker>
 <l>They won't burn—they're too green.</l>
 </sp>
-<sp>
+<sp who="#L0283_M22">
 <speaker>Prince.</speaker>
 <l><emph>I</emph> should be much too green, did I believe you.</l>
 </sp>
-<sp>
+<sp who="#L0283_M21">
 <speaker>Larry.</speaker>
 <l>Upon my soul, sir, then I don't deceive you;</l>
 <l>The wood's as stiff to hunters as to hacks.</l>
 </sp>
-<sp>
+<sp who="#L0283_M22">
 <speaker>Prince.</speaker>
 <l>You'll swear it?</l>
 </sp>
-<sp>
+<sp who="#L0283_M21">
 <speaker>Larry.</speaker>
 <l>Yes, sir—By St. Mary Axe!</l>
 <l>But my ould dad was wont to say he'd heard</l>
@@ -2006,28 +2133,28 @@ Abigail, &amp;C. fall asleep in various attitudes — Curtain descends to the Ai
 <l>And that no mortal soul away could carry her</l>
 <l>Until a King's son came to wake and marry her!</l>
 </sp>
-<sp>
+<sp who="#L0283_M22">
 <speaker>Prince.</speaker>
 <l>A King's son said'st thou ?</l>
 </sp>
-<sp>
+<sp who="#L0283_M21">
 <speaker>Larry.</speaker>
 <l>Aye, sir—a King's son.</l>
 </sp>
-<sp>
+<sp who="#L0283_M22">
 <speaker>Prince.</speaker>
 <l>Hark! in thine ear—a secret— <emph>I</emph> am one.</l>
 </sp>
-<sp>
+<sp who="#L0283_M21">
 <speaker>Larry.</speaker>
 <l>Who flings the hatchet now ?</l>
 </sp>
-<sp>
+<sp who="#L0283_M22">
 <speaker>Prince.</speaker>
 <l>Nay, you may smile,</l>
 <l>But I'm Prince Perfect of the Emerald Isle.</l>
 </sp>
-<sp>
+<sp who="#L0283_M21">
 <speaker>Larry.</speaker>
 <l>Och, murder !—Of the Emerald Isle too!—what </l>
 <l>"My countryman—and yet I knew him not,"<note type="ed">Another much quoted
@@ -2035,7 +2162,7 @@ line from Macbeth Iv.3</note>
 </l>
 <l>I can't believe it.</l>
 </sp>
-<sp>
+<sp who="#L0283_M22">
 <speaker>Prince.</speaker>
 <l>Don't—I'm not offended;</l>
 <l>But I believe that I am the intended</l>
@@ -2044,12 +2171,12 @@ line from Macbeth Iv.3</note>
 <l>Because if not, I am not of the number</l>
 <l>Who would for worlds, disturb the lady's slumber.</l>
 </sp>
-<sp>
+<sp who="#L0283_M21">
 <speaker>Larry.</speaker>
 <l>I tell the story as 'twas told to me,</l>
 <l>And if you are a Prince</l>
 </sp>
-<sp>
+<sp who="#L0283_M22">
 <speaker>Prince.</speaker>
 <l>You soon will see.</l>
 <l>Here's half-a-crown until I get a whole one.</l>
@@ -2058,42 +2185,42 @@ line from Macbeth Iv.3</note>
 <l>The first step proves that I am right,</l>
 <l>The conscious trees change colour at my sight.</l>
 </sp>
-<sp>
+<sp who="#L0283_M21">
 <speaker>Larry.</speaker>
 <l>Well, sure enough, they're looking mighty blue, </l>
 <l>All of a sudden—</l>
 </sp>
-<sp>
+<sp who="#L0283_M22">
 <speaker>Prince.</speaker>
 <l><stage>(advancing)</stage> Now for passage through;</l>
 <l>Most venerable branches, by your leaves.</l>
 <stage>(the Forest opens gradually)</stage>
 <pb n="28"/>
 </sp>
-<sp>
+<sp who="#L0283_M21">
 <speaker>Larry.</speaker>
 <l>As I'm a living sowl—the forest cleaves!</l>
 <l>The brushwood brushes off—the thickets thin;</l>
 <l>And the trees bow him most politely in! </l>
 <l>Faith, he's the Prince of Woodcutters!</l>
 </sp>
-<sp>
+<sp who="#L0283_M22">
 <speaker>Prince.</speaker>
 <l>Behold!</l>
 <l>The castle gates, the moat, the drawbridge old, </l>
 <l>The ancient guards too, all as fast as churches!</l>
 </sp>
-<sp>
+<sp who="#L0283_M21">
 <speaker>Larry.</speaker>
 <l>Like the ould Charlies, roosting on their perches. </l>
 </sp>
-<sp>
+<sp who="#L0283_M22">
 <speaker>Prince.</speaker>
 <l>I will make bold to enter without rapping,</l>
 <l>And catch the young and lovely owner napping.</l>
 <stage>(Exit Prince into Castle.)</stage>
 </sp>
-<sp>
+<sp who="#L0283_M21">
 <speaker>Larry.</speaker>
 <l>And if it warn't for this half-crown—mayhap</l>
 <l>I could go in myself, without a rap.</l>
@@ -2134,7 +2261,7 @@ letters of fire upon the trees, appear the words, " Rash fool, desist!
 <div type="scene">
 <stage>Scene Second.—Anti-Chamber in Palace. Curtains closed. </stage>
 <stage> Enter Prince, L.</stage>
-<sp>
+<sp who="#L0283_M22">
 <speaker>Prince.</speaker>
 <l>The potent spell throughout the Palace reigns, </l>
 <l>A magic slumber all the Court enchains.</l>
@@ -2173,211 +2300,211 @@ jewels too; </l>
 <stage>(kisses her — she wakes)</stage>
 <pb n="30"/>
 </sp>
-<sp>
+<sp who="#L0283_F5">
 <speaker>Princess.</speaker>
 <l>Ah!—was that you, my Prince, my lips who prest!</l>
 </sp>
-<sp>
+<sp who="#L0283_M22">
 <speaker>Prince.</speaker>
 <l>She wakes, she speaks, and we shall still be blest!</l>
 <l>You're not offended?</l>
 </sp>
-<sp>
+<sp who="#L0283_F5">
 <speaker>Princess.</speaker>
 <l>Oh dear, not at all,</l>
 <l>Arn't you the gentleman who was to call?</l>
 </sp>
-<sp>
+<sp who="#L0283_M22">
 <speaker>Prince.</speaker>
 <l>I feel I am, and hope my bosom cheers.</l>
 <l>How have you slept, my love, these hundred years? </l>
 </sp>
-<sp>
+<sp who="#L0283_F5">
 <speaker>Princess.</speaker>
 <l>Charmingly, thank you, for I dreamed of you. </l>
 </sp>
-<sp>
+<sp who="#L0283_M22">
 <speaker>Prince.</speaker>
 <l>And do I realize your dream ?</l>
 </sp>
-<sp>
+<sp who="#L0283_F5">
 <speaker>Princess.</speaker>
 <l>You do!</l>
 </sp>
-<sp>
+<sp who="#L0283_M22">
 <speaker>Prince.</speaker>
 <l>Sweet, candid, barley-sugar answer !—Oh,</l>
 <l>How frankly maidens spoke an age ago.</l>
 <l>Say then you'll wed me—set my heart at ease. </l>
 </sp>
-<sp>
+<sp who="#L0283_F5">
 <speaker>Princess.</speaker>
 <l>Oh, you must ask my father, if you please. </l>
 </sp>
-<sp>
+<sp who="#L0283_M22">
 <speaker>Prince.</speaker>
 <l>Where is he ?</l>
 </sp>
-<sp>
+<sp who="#L0283_F5">
 <speaker>Princess.</speaker>
 <l>There—an attitude he stands in :</l>
 <l>You'd better wake them all, sir, now your hand's in. </l>
 </sp>
-<sp>
+<sp who="#L0283_M22">
 <speaker>Prince.</speaker>
 <l>With all my heart—but they so soundly doze. </l>
 </sp>
-<sp>
+<sp who="#L0283_F5">
 <speaker>Princess.</speaker>
 <l>Just wring him, very gently, by the nose. </l>
 </sp>
-<sp>
+<sp who="#L0283_M22">
 <speaker>Prince.</speaker>
 <l>With your permission—else I would not take</l>
 <l>So great a liberty for worlds—Pray wake.</l>
 <stage>(Pulls King's nose — they all sneeze loudly.)</stage>
 </sp>
-<sp>
+<sp who="#L0283_F4">
 <speaker>Queen.</speaker>
 <l>Bless me!—was that an earthquake!</l>
 </sp>
-<sp>
+<sp who="#L0283_F17">
 <speaker>Lady A.</speaker>
 <l>What a shock!</l>
 </sp>
-<sp>
+<sp who="#L0283_M3">
 <speaker>King.</speaker>
 <l>My Lord Factotum !</l>
 </sp>
-<sp>
+<sp who="#L0283_M8">
 <speaker>Lord F.</speaker>
 <l>Sire!</l>
 </sp>
-<sp>
+<sp who="#L0283_M3">
 <speaker>King.</speaker>
 <l>What's o'clock.</l>
 </sp>
-<sp>
+<sp who="#L0283_M8">
 <speaker>Lord F.</speaker>
 <l>My Liege! I cannot tell, but as I guess,</l>
 <l>By certain feelings, which I can't express,</l>
 <l>It should be breakfast time, or there about, </l>
 </sp>
-<sp>
+<sp who="#L0283_M3">
 <speaker>King.</speaker>
 <l>We've overslept ourself!</l>
 </sp>
-<sp>
+<sp who="#L0283_M8">
 <speaker>Lord F.</speaker>
 <l>Beyond a doubt.</l>
 </sp>
-<sp>
+<sp who="#L0283_M3">
 <speaker>King.</speaker>
 <l>Then see, my Lord, it don't occur again,</l>
 <l>Or you shall cease to be our Chamberlain. </l>
 </sp>
-<sp>
+<sp who="#L0283_F17">
 <speaker>Lady A.</speaker>
 <l>I feel I've slept too long—and yet but sadly. </l>
 </sp>
-<sp>
+<sp who="#L0283_M8">
 <speaker>Lord F.</speaker>
 <l>I know I've had the night-mare very badly. </l>
 </sp>
-<sp>
+<sp who="#L0283_M3">
 <speaker>King.</speaker>
 <l>Heyday!—A stranger!—In my daughter's room!</l>
 <l>Worse!—in her company !—Death be his doom! </l>
 <l>My Lord Factotum !</l>
 <pb n="31"/>
 </sp>
-<sp>
+<sp who="#L0283_M8">
 <speaker>Lord F.</speaker>
 <l>Sire!</l>
 </sp>
-<sp>
+<sp who="#L0283_M3">
 <speaker>King.</speaker>
 <l>Call out the Guard !</l>
 </sp>
-<sp>
+<sp who="#L0283_M8">
 <speaker>Lord F.</speaker>
 <l>They're fast asleep, sir, in the Castle Yard!</l>
 </sp>
-<sp>
+<sp who="#L0283_M3">
 <speaker>King.</speaker>
 <l>Then draw and run him through the body.</l>
 </sp>
-<sp>
+<sp who="#L0283_F5">
 <speaker>Princess.</speaker>
 <l>Stay! </l>
 <l>Papa!—you wouldn't sure my husband slay!</l>
 </sp>
-<sp>
+<sp who="#L0283_M3  #L0283_F4 #L0283_M8 #L0283_F17">
 <speaker>King, Queen, Lady A., Lord F. </speaker>
 <l>Her husband !</l>
 </sp>
-<sp>
+<sp who="#L0283_M3">
 <speaker>King.</speaker>
 <l>Zounds!</l>
 </sp>
-<sp>
+<sp who="#L0283_F5">
 <speaker>Princess.</speaker>
 <l>O smooth your angry brows—</l>
 <l>This is my dear and long predestined spouse!</l>
 <l>The heir apparent to a mighty King,</l>
 <l>Who wants your license but to buy the ring ?</l>
 </sp>
-<sp>
+<sp who="#L0283_M3">
 <speaker>King.</speaker>
 <l>My Lord Factotum !</l>
 </sp>
-<sp>
+<sp who="#L0283_M8">
 <speaker>Lord F.</speaker>
 <l>Sire!</l>
 </sp>
-<sp>
+<sp who="#L0283_M3">
 <speaker>King.</speaker>
 <l>Pray is this true.</l>
 </sp>
-<sp>
+<sp who="#L0283_M8">
 <speaker>Lord F.</speaker>
 <l>My Liege ! I'm quite as ignorant as you.</l>
 </sp>
-<sp>
+<sp who="#L0283_F4">
 <speaker>Queen.</speaker>
 <l>Then you know nothing?</l>
 </sp>
-<sp>
+<sp who="#L0283_M8">
 <speaker>Lord F.</speaker>
 <l>Nothing, Ma'am, at all.</l>
 </sp>
-<sp>
+<sp who="#L0283_M3">
 <speaker>King.</speaker>
 <l>Go wake the Guard, and bid 'em load with ball,</l>
 <stage> Exit, Lord F., C.</stage>
 <l>I'll have the fellow shot.</l>
 </sp>
-<sp>
+<sp who="#L0283_M22">
 <speaker>Prince.</speaker>
 <l>Nay, sir—hear reason.</l>
 </sp>
-<sp>
+<sp who="#L0283_M3">
 <speaker>King.</speaker>
 <l>I won't; it's but another name for treason!</l>
 <l>An Heir Apparent! Pshaw!—You mean to say</l>
 <l>An Heir Presumptive.</l>
 </sp>
-<sp>
+<sp who="#L0283_F5">
 <speaker>Princess.</speaker>
 <l>Father!</l>
 </sp>
-<sp>
+<sp who="#L0283_M3">
 <speaker>King.</speaker>
 <l>Hence, away!</l>
 </sp>
 <spGrp>
 <head>Air — King — "Tol de rol loi." </head>
-<sp>
+<sp who="#L0283_M3">
 <l>Thy Father! away! I renounce the fond name!</l>
 <l>Thou blot to my honour, thou blast to my fame;</l>
 <l>Let Justice the traitor to punishment bring!</l>
@@ -2390,80 +2517,80 @@ jewels too; </l>
 </sp>
 </spGrp>
 <stage>Re-enter Lord Factotum, C.</stage>
-<sp>
+<sp who="#L0283_M8">
 <speaker>Lord F.</speaker>
 <l>My Liege, they do refuse to come.</l>
 <pb n="32"/>
 </sp>
-<sp>
+<sp who="#L0283_M3">
 <speaker>King.</speaker>
 <l>Refuse!</l>
 </sp>
-<sp>
+<sp who="#L0283_M8">
 <speaker>Lord F.</speaker>
 <l>That is, they're all in the profoundest snooze.</l>
 <l>I beat one fellow very near to powder,</l>
 <l>But all in vain, he only snored the louder! </l>
 </sp>
-<sp>
+<sp who="#L0283_M3">
 <speaker>King.</speaker>
 <l>You should have beat the general!—deuce take'em, </l>
 </sp>
-<sp>
+<sp who="#L0283_M22">
 <speaker>Prince.</speaker>
 <l>It wouldn't do, sir, only <emph>I</emph> could wake 'em.</l>
 <stage> Enter Larry O'Log and Huntsmen, L.</stage>
 </sp>
-<sp>
+<sp who="#L0283_M8">
 <speaker>Lord F.</speaker>
 <l>Help, murder, treason !</l>
 </sp>
-<sp>
+<sp who="#L0283_M21">
 <speaker>Larry.</speaker>
 <l>Hold your gab, you rogue, or—</l>
 <l>Oh, murder !—Here's the ould thief of an ogre!</l>
 <l>Down with him, boys! we'll teach him to eat babies </l>
 <l>Smothered with onions!</l>
 </sp>
-<sp>
+<sp who="#L0283_M22">
 <speaker>Prince.</speaker>
 <l>Hold! you stupid gabies !</l>
 </sp>
-<sp>
+<sp who="#L0283_M21">
 <speaker>Larry.</speaker>
 <l>And is it there you are, sir! safe and sound ?</l>
 <l>Then that's the Sleeping Beauty, I'll be bound, </l>
 <l>That's wide awake beside you—Only think !</l>
 <l>Ma'am ! if I'd eyes like yours I'd never wink! </l>
 </sp>
-<sp>
+<sp who="#L0283_M3">
 <speaker>King.</speaker>
 <l>Why this is rank rebellion!—Traitors ! Slaves ! </l>
 </sp>
-<sp>
+<sp who="#L0283_M21">
 <speaker>Larry.</speaker>
 <l>Manners; ye devil, don't call names!</l>
 </sp>
-<sp>
+<sp who="#L0283_M3">
 <speaker>King.</speaker>
 <l>He braves</l>
 <l>My wrath!</l>
 </sp>
-<sp>
+<sp who="#L0283_M21">
 <speaker>Larry.</speaker>
 <l>I do!—If me you try to eat,</l>
 <l>You'll find me mighty tough to masticate!</l>
 </sp>
-<sp>
+<sp who="#L0283_M22">
 <speaker>Prince.</speaker>
 <l>Be quiet, friend. This person, you must know, </l>
 <l>Was a great King, a hundred years ago.</l>
 </sp>
-<sp>
+<sp who="#L0283_M3">
 <speaker>King.</speaker>
 <l>A hundred years ago !</l>
 </sp>
-<sp>
+<sp who="#L0283_F5">
 <speaker>Princess.</speaker>
 <l>Yes, Father dear;</l>
 <l>This is what I was wishing you to hear:</l>
@@ -2472,90 +2599,90 @@ jewels too; </l>
 <l>And might have still been wrapped in deep repose, </l>
 <l>If the Prince hadn't kindly pulled your nose! </l>
 </sp>
-<sp>
+<sp who="#L0283_M3">
 <speaker>King.</speaker>
 <l>Now by our crown!—a pretty explanation,</l>
 <l>Permit us to return the obligation!</l>
 </sp>
-<sp>
+<sp who="#L0283_F5">
 <speaker>Princess.</speaker>
 <l>Nay, pardon him; for 'twas at my suggestion, </l>
 <l>And for your good. He fairly put the question, </l>
 <l>And the <hi>nose</hi> had it.</l>
 </sp>
-<sp>
+<sp who="#L0283_M3">
 <speaker>King.</speaker>
 <l>Do we dream—or dote ?</l>
 </sp>
-<sp>
+<sp who="#L0283_M8">
 <speaker>Lord F.</speaker>
 <l>Upon my honor, sire,—I didn't vote,</l>
 <pb n="33"/>
 <l>I paired off long before with Lady A.</l>
 </sp>
-<sp>
+<sp who="#L0283_M3">
 <speaker>King.</speaker>
 <l><stage>(to Princess)</stage> And we have slept a hundred years, you say ?</l>
 </sp>
-<sp>
+<sp who="#L0283_F5">
 <speaker>Princess.</speaker>
 <l>You—I—My Royal Mother—All the Court, </l>
 </sp>
-<sp>
+<sp who="#L0283_M3">
 <speaker>King.</speaker>
 <l>We do begin to credit this report.</l>
 </sp>
 <spGrp>
 <head>Concerted Piece — Air, " I Remember " </head>
-<sp>
+<sp who="#L0283_F5">
 <speaker>Princess.</speaker>
 <l>You remember, you remember, how my childhood fleeted by,</l>
 <l>How one hour, from my tower, I ventured on the sly.</l>
 <l>How you came and found me out, sir, and gave yourself high airs,</l>
 <l>And made a precious rout, sir, up twenty pair of stairs. </l>
 </sp>
-<sp>
+<sp who="#L0283_M3">
 <speaker>King.</speaker>
 <l>We remember, we remember, now you tell us it was so;</l>
 <l>But 'tis hard, love, to remember things so very long ago.</l>
 </sp>
-<sp>
+<sp who="#L0283_F5">
 <speaker>Princess.</speaker>
 <l>You remember, you remember, now I tell you, &amp;c.</l>
 </sp>
-<sp>
+<sp who="#L0283_M8 #L0283_F17">
 <speaker>Lord F.|Lady A.</speaker>
 <l>We remember, we remember, &amp;c.</l>
 </sp>
 </spGrp>
-<sp>
+<sp who="#L0283_M3">
 <speaker>King.</speaker>
 <l>One agonizing question—only one!</l>
 <l>Say! what have my afflicted people done </l>
 <l>These hundred years ?</l>
 </sp>
-<sp>
+<sp who="#L0283_M22">
 <speaker>Prince.</speaker>
 <l>They've done, my liege, without you.</l>
 </sp>
-<sp>
+<sp who="#L0283_M3">
 <speaker>King.</speaker>
 <l>Impossible ! Again you make me doubt you.</l>
 </sp>
-<sp>
+<sp who="#L0283_M22">
 <speaker>Prince.</speaker>
 <l>Think you, because courts sleep, that nations do?</l>
 <l>Your country's had a dozen kings since you.</l>
 </sp>
-<sp>
+<sp who="#L0283_M3">
 <speaker>King.</speaker>
 <l>A dozen! Who reigns now then, quickly tell ? </l>
 </sp>
-<sp>
+<sp who="#L0283_M22">
 <speaker>Prince.</speaker>
 <l>Your cousin, nineteen times removed</l>
 </sp>
-<sp>
+<sp who="#L0283_M3">
 <speaker>King.</speaker>
 <l>'Tis well!</l>
 <l>We will remove him once again. </l>
@@ -2565,7 +2692,7 @@ jewels too; </l>
 <l>The nuptial feast——</l>
 <stage>Fairy Antidota appearing. </stage>
 </sp>
-<sp>
+<sp who="#L0283_F9">
 <speaker>Fairy A.</speaker>
 <l>Hold ! That is my affair!</l>
 <l>All is accomplished, by your free consent, </l>
@@ -2585,7 +2712,7 @@ Fairies.</stage>
 <l>Ballet — Finale. </l>
 <spGrp>
 <head>Air, "Cruiskeen Lawn." </head>
-<sp>
+<sp who="#L0283_F5">
 <speaker>Princess.</speaker>
 <l>Our Easter dues to pay,</l>
 <l>We have done our best to-day;</l>
@@ -2595,7 +2722,7 @@ Fairies.</stage>
 <l>And cheer our "Sleeping Beauty in the Wood, Wood! Wood!"</l>
 <l>And cheer our "Sleeping Beauty in the Wood. "</l>
 </sp>
-<sp>
+<sp who="#L0283_mult">
 <speaker>Chorus.</speaker>
 <l/>
 <l>Let your hands unite, &amp;c.</l>

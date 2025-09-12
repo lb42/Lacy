@@ -3,7 +3,7 @@
 <teiHeader>
 <fileDesc>
 <titleStmt>
-<title n="thecorsicanbrothers">The Corsican "Bothers"or, The Troublesome
+<title n="thecorsicanbrothers" type="main">The Corsican "Bothers"or, The Troublesome
 Twins</title>
 <author>Byron, Henry James</author>
 <respStmt>
@@ -13,40 +13,40 @@ Twins</title>
 </titleStmt>
 <publicationStmt>
 <distributor>Privately published on the Lacy Website</distributor>
-<idno>L1315</idno>
+
+<idno type="lae">L1315</idno>
 </publicationStmt>
 <sourceDesc>
-<bibl type="digital">Retagged from Docx produced by Abby from a Vpp Pdf
-edition</bibl>
-<bibl type="source" status="TEI_1" n="88.10" corresp="nic:N10406"><author>Byron,
-Henry James</author><title type="main" n="thecorsicanbothers">The Corsican
-“Bothers”; or, The Troublesome Twins</title><title type="sub">An Original
-Burlesque Extravangza</title><title type="source" n="#EN">Founded on a Famous
-Romantic Drama</title><extent>43 pp (UM copy: 438 - 481)<measure type="pp"
-quantity="34"/><measure type="spCount" quantity="520"/><measure type="spvCount"
-quantity="517"/><measure type="txWords" quantity="9589"/><measure type="spWords"
-quantity="7582"/><measure type="stWords" quantity="2007"/></extent><eventName
-notAfter="1869" type="firstPerf">
-<date resp="nicoll" when="1869-05-17"/>
-<name>New Globe Theatre</name>
-<date resp="source" when="1869-05-17">17 May 1869</date>
-</eventName><listRef>
-<ref
-target="http://victorian.nuigalway.ie/modx/assets/docs/pdf/Vol88xCorsican.pdf"
->VPP_PDF</ref>
-<ref
+<bibl type="printSource" n="88.10"><author>Byron, Henry James</author><title
+type="main" n="thecorsicanbothers">The Corsican “Bothers”; or, The Troublesome
+Twins</title><title type="sub">An Original Burlesque Extravangza</title><title
+type="source" n="#EN">Founded on a Famous Romantic Drama</title><extent>43 pp
+(UM copy: 438 - 481)<measure type="pp" quantity="34"/>
+<measure type="spCount" quantity="517"/>
+<measure type="spvCount" quantity="514"/>
+<measure type="txWords" quantity="9594"/>
+<measure type="spWords" quantity="7587"/>
+<measure type="stWords" quantity="2007"/>
+</extent>
+<title level="s"> Lacy's Acting Edition, volume 88, No. 1315</title><idno
+type="nic">N10406</idno><idno type="vpp">Vol88xCorsican</idno></bibl>
+<bibl type="digitalSource" n="copytext"><ref
+target="https://lb42.github.io/Lacy/Source/VPP/L1315-vpp.pdf">LoB from
+VPP</ref><ref target="local:Vol88/L1315/L1315-vpp.pdf"/><ref
+target="local:Vol88/L1315/Vol88xCorsican.pdf"/></bibl>
+<bibl type="digitalSource"><ref
 target="https://babel.hathitrust.org/cgi/pt?id=mdp.39015067453723&amp;seq=438 "
->L1315</ref>
-</listRef><listRef type="localCopies">
-<ref>Vol88/L1315/L1315-um.pdf</ref>
-<ref>Vol88/L1315/L1315-vpp.pdf</ref>
-<ref>Vol88/L1315/pages</ref>
-<ref>Vol88/L1315/Vol88xCorsican.pdf</ref>
-</listRef></bibl>
+>UM from HT</ref><ref target="local:Vol88/L1315/L1315-um.pdf"/></bibl>
+<bibl type="digitalSource" n="copytext"><ref
+target="https://lb42.github.io/Lacy/L1315.html">TEI</ref></bibl>
+<listEvent>
+<event type="firstPerf" when="1869-05-17" source="textNic" where="Globe">
+<desc>Premiered at New Globe Theatre 17 May 1869</desc>
+</event>
+</listEvent>
 </sourceDesc>
 </fileDesc>
 <profileDesc>
-<!--M_0_BurleDrama_Bsq._BURLESQUE-->
 <textClass>
 <catRef target="#sizeM"/>
 <catRef target="#act0"/>
@@ -55,8 +55,109 @@ target="https://babel.hathitrust.org/cgi/pt?id=mdp.39015067453723&amp;seq=438 "
 <term>BURLESQUE</term>
 </keywords>
 </textClass>
+<particDesc>
+<listPerson>
+<person xml:id="L1315_M1">
+<persName type="role">Louis Dei Flunk</persName>
+<persName type="spkr" n="32">Louis.</persName>
+</person>
+<person xml:id="L1315_M2">
+<persName type="role">Fabian Dei Flunki</persName>
+<persName type="spkr" n="95">Fabien.</persName>
+</person>
+<person xml:id="L1315_M3">
+<persName type="role"> M. DE CHATEAU RENAUD</persName>
+<persName type="spkr" n="70">Chateau.</persName>
+</person>
+<person xml:id="L1315_M4">
+<persName type="role"> THE BARON MONTGIRON </persName>
+<persName type="spkr" n="14">Mont.</persName>
+</person>
+<person xml:id="L1315_M5">
+<persName type="role">THE BARON MARTELLI</persName>
+<persName type="spkr" n="37">Martel.</persName>
+<persName type="spkr" n="2">Mart.</persName>
+</person>
+<person xml:id="L1315_M6">
+<persName type="role"> ORLANDO</persName>
+<persName type="spkr" n="28">Orlan.</persName>
+</person>
+<person xml:id="L1315_M7">
+<persName type="role"> COLONNA </persName>
+<persName type="spkr" n="22">Colon.</persName>
+</person>
+<person xml:id="L1315_M8">
+<persName type="role"> ANTONIO</persName>
+</person>
+<person xml:id="L1315_M9">
+<persName type="role"> M. DE MEYNARD</persName>
+<persName type="spkr" n="54">Meynard.</persName>
+</person>
+<person xml:id="L1315_M10">
+<persName type="role">GRIFFO</persName>
+<persName type="spkr" n="20">Griffo.</persName>
+</person>
+<person xml:id="L1315_M11">
+<persName type="role">A HEAD WAITER. </persName>
+</person>
+<person xml:id="L1315_M12">
+<persName type="role">A CORSICAN CABMAN.</persName>
+<persName type="spkr" n="4">Cabman.</persName>
+</person>
+<person xml:id="L1315_M13">
+<persName type="role">A NATIVE DOCTOR.</persName>
+</person>
+<person xml:id="L1315_F14">
+<persName type="role">MADAME DEI FLUNKI </persName>
+<persName type="spkr" n="47">Madame.</persName>
+</person>
+<person xml:id="L1315_F15">
+<persName type="role">MARIE</persName>
+<persName type="spkr" n="19">Marie.</persName>
+</person>
+<person xml:id="L1315_F16">
+<persName type="role">EMILIE DE LESPARRE </persName>
+<persName type="spkr" n="24">Emilie.</persName>
+</person>
+<person xml:id="L1315_F17">
+<persName type="role">CORALIE</persName>
+<persName type="spkr" n="6">Coral.</persName>
+</person>
+<person xml:id="L1315_F18">
+<persName type="role">CELESTINE</persName>
+<persName type="spkr" n="12">Celes.</persName>
+</person>
+<person xml:id="L1315_F19">
+<persName type="role">ESTELLE .</persName>
+<persName type="spkr" n="3">Estel.</persName>
+</person>
+<person xml:id="L1315_F20">
+<persName type="role">GIRLS OF THE PERIOD</persName>
+</person>
+<person xml:id="L1315_M21">
+<persName type="role">YOUNG GENTS OF THE PERIOD</persName>
+</person>
+
+<person xml:id="L1315_M22">
+<persName type="role">[Manager of the Gardens]</persName>
+<persName type="spkr" n="1">Manager.</persName>
+<persName type="spkr" n="4">Manag.</persName>
+</person>
+
+<person xml:id="L1315_Mult">
+<persName type="spkr" n="11">All.</persName>
+<persName type="spkr" n="13">All</persName>
+<persName type="spkr" n="1">Ladies.</persName>
+<persName type="spkr" n="7">Chorus.</persName>
+<persName type="spkr" n="1">All.Fabien.</persName>
+</person>
+
+</listPerson>
+</particDesc>
 </profileDesc>
 <revisionDesc>
+<change when="2025-09-11">Hand edit @who</change>
+<change when="2025-09-07">Metadata updated from new catalogue</change>
 <change when="2025-03-19">Header enriched</change>
 <change when="2025-02-01">Header confected</change>
 </revisionDesc>
@@ -118,63 +219,63 @@ Appointments by Mr. Bradwell. The Machinery by Mr. F. Stripling </p>
 <head>Characters.</head>
 <castItem><role gender="M">Louis Dei Flunk</role>
 <role gender="M">Fabian Dei Flunki</role><roleDesc> (the Brothers! very much
-alike, especially Louis)</roleDesc><actor sex="M"> Mr. J.
+alike, especially Louis)</roleDesc><actor ana="#M"> Mr. J.
 Clarke.</actor></castItem>
 <castItem><role gender="M"> M. DE CHATEAU RENAUD</role>
 <roleDesc>(a Roué, a Libertine, a Blackleg, an Adventurer, a Darling, a Lady
-Killer, and a Gentleman Killer) </roleDesc><actor sex="F">Miss Maggie.
+Killer, and a Gentleman Killer) </roleDesc><actor ana="#F">Miss Maggie.
 Brennan.</actor></castItem>
-<castItem><role gender="M"> THE BARON MONTGIRON </role><actor sex="F">Miss
+<castItem><role gender="M"> THE BARON MONTGIRON </role><actor ana="#F">Miss
 Sylvia Hodson.</actor>
 </castItem>
 <castItem><role gender="M">THE BARON MARTELLI</role><roleDesc> (two Awful
-Sills)</roleDesc><actor sex="F"> Miss Jessie Anstiss,</actor></castItem>
+Sills)</roleDesc><actor ana="#F"> Miss Jessie Anstiss,</actor></castItem>
 <castItem><role gender="M"> ORLANDO</role>
 <roleDesc>(the Raw Material)</roleDesc>
-<actor sex="M">Mr. H. Andrews</actor>.</castItem>
+<actor ana="#M">Mr. H. Andrews</actor>.</castItem>
 <castItem><role gender="M"> COLONNA </role><roleDesc>(the Staple
-Commodity)</roleDesc><actor sex="M"> Mr. Tindale,</actor></castItem>
+Commodity)</roleDesc><actor ana="#M"> Mr. Tindale,</actor></castItem>
 <castItem><role gender="M"> ANTONIO</role>
 <roleDesc>(an excellent Judge, who not making any observation, may be said to
-reserve his Sentence)</roleDesc><actor sex="M"> Mr. Beak.</actor></castItem>
+reserve his Sentence)</roleDesc><actor ana="#M"> Mr. Beak.</actor></castItem>
 <castItem><role gender="M"> M. DE MEYNARD</role>
 <roleDesc>(his Parents' first and Fabian’s second)</roleDesc>
-<actor sex="F">Miss Rose Behrend.</actor></castItem>
+<actor ana="#F">Miss Rose Behrend.</actor></castItem>
 <castItem>
 <role gender="M">GRIFFO</role><roleDesc> (anything but a dumb-estic)</roleDesc>
-<actor sex="M">Mr. W. J. Hurlstore</actor>.</castItem>
+<actor ana="#M">Mr. W. J. Hurlstore</actor>.</castItem>
 <castItem>
 <role gender="M">A HEAD WAITER. </role><role gender="M">A CORSICAN CABMAN.
 </role><role gender="M">A NATIVE DOCTOR.</role></castItem>
 <castItem>
 <role gender="F">MADAME DEI FLUNKI </role><roleDesc>(Maternal Parent of the
-Troublesome Twins—Pity and forgive her)</roleDesc><actor sex="M"> Mr. E.
+Troublesome Twins—Pity and forgive her)</roleDesc><actor ana="#M"> Mr. E.
 Marshall.</actor></castItem>
 <castItem>
 <role gender="F">MARIE</role>
 <roleDesc>(a Waiting Maid—and great shame she should wait too)</roleDesc>
-<actor sex="F">Miss Clara THORNE.</actor></castItem>
+<actor ana="#F">Miss Clara THORNE.</actor></castItem>
 <castItem>
 <role gender="F">EMILIE DE LESPARRE </role><roleDesc>(a Grass Widow, but by no
 means green)</roleDesc>
-<actor sex="F">Miss Hughes.</actor></castItem>
+<actor ana="#F">Miss Hughes.</actor></castItem>
 <castItem>
 <role gender="F">CORALIE</role>
-<actor sex="F">Miss Ashton.</actor>
+<actor ana="#F">Miss Ashton.</actor>
 </castItem>
 <castItem><role gender="F">CELESTINE</role>
 <roleDesc>(three Young, Girls of the Period, who make everybody else smart as
 well as themselves)</roleDesc>
-<actor sex="F">Miss Wilson.</actor>
+<actor ana="#F">Miss Wilson.</actor>
 </castItem>
 <castItem>
 <role gender="F">ESTELLE .</role>
-<actor sex="F">Miss J. Fountain.</actor>
+<actor ana="#F">Miss J. Fountain.</actor>
 </castItem>
 <castItem>
 <role gender="F">GIRLS OF THE PERIOD</role>
-<actor sex="F">Misses Varcoe, Ashton, Bennett, Wilson, Fountain, THorne, Knight,
-and Thorpe. </actor></castItem>
+<actor ana="#F">Misses Varcoe, Ashton, Bennett, Wilson, Fountain, THorne,
+Knight, and Thorpe. </actor></castItem>
 <castItem>
 <role gender="M">YOUNG GENTS OF THE PERIOD</role> Misses Pardon, Grosvenor,
 Westfield, Prentis, Braithwaite, Anstiss, Robinson, and Leclerq,</castItem>
@@ -236,24 +337,24 @@ C.; writing table, L.; chairs. </stage>
 <stage> Curtain rises to the tune of " The Twins" —Marie discovered spinning at
 a wheel, R ., and Griffo brushing boots, R . C.—Griffo half footman in his
 dress. </stage>
-<sp>
+<sp who="#L1315_M10">
 <speaker>Griffo.</speaker>
 <l>How are you getting on, my dear ?</l>
 </sp>
-<sp>
+<sp who="#L1315_F15">
 <speaker>Marie.</speaker>
 <l>Tol-lollish.</l>
 </sp>
-<sp>
+<sp who="#L1315_M10">
 <speaker>Griffo.</speaker>
 <l>That's what I call a most superior polish.</l>
 <l>Your face this boot reflects—there, look again.</l>
 </sp>
-<sp>
+<sp who="#L1315_F15">
 <speaker>Marie.</speaker>
 <l>It shews it lovely.</l>
 </sp>
-<sp>
+<sp who="#L1315_M10">
 <speaker>Griffo.</speaker>
 <l>Yes, it shews it plain.</l>
 <l>Beats all your rubbish sold as perfect leather.</l>
@@ -262,12 +363,12 @@ dress. </stage>
 <l>Come, cut the <hi>weal,</hi> remember who I <hi>ham !</hi>
 </l>
 </sp>
-<sp>
+<sp who="#L1315_F15">
 <speaker>Marie.</speaker>
 <l>You <hi>Ham</hi> indeed ! <hi>Ham common.</hi>
 </l>
 </sp>
-<sp>
+<sp who="#L1315_M10">
 <speaker>Griffo.</speaker>
 <l>Be my wife,</l>
 <l>Or else remain a spinster all your life.</l>
@@ -276,15 +377,15 @@ dress. </stage>
 <stage>(a loud knock, both frightened)</stage>
 <pb n="6"/>
 </sp>
-<sp>
+<sp who="#L1315_M10">
 <speaker>Griffo.</speaker>
 <l>What's that ? </l>
 </sp>
-<sp>
+<sp who="#L1315_F15">
 <speaker>Marie.</speaker>
 <l>Go, look! </l>
 </sp>
-<sp>
+<sp who="#L1315_M10">
 <speaker>Griffo.</speaker>
 <l>Indeed! I beg your pardon,</l>
 <l>Talking of Tennyson, don't <hi>he knock hard 'un !</hi>
@@ -294,17 +395,17 @@ dress. </stage>
 </l>
 <l>Come, let him in, he's footsore I've no doubt.</l>
 </sp>
-<sp>
+<sp who="#L1315_F15">
 <speaker>Marie.</speaker>
 <l>Suppose that he's a cab — </l>
 </sp>
-<sp>
+<sp who="#L1315_M10">
 <speaker>Griffo.</speaker>
 <l>Then <hi>let him out!</hi>
 </l>
 <l>I'm quite afraid of draught or else I'd go.</l>
 </sp>
-<sp>
+<sp who="#L1315_F15">
 <speaker>Marie.</speaker>
 <l>Yes, draughts have very often laid you low.</l>
 </sp>
@@ -312,44 +413,44 @@ dress. </stage>
 <stage>Music . — she opens door — enter Meynard followed by Cabman, half
 Corsican half Londoner —Meynard carries small valise, thin umbrella and light
 travelling rug. </stage>
-<sp>
+<sp who="#L1315_M12">
 <speaker>Cabman.</speaker>
 <l>Here, this won't do; we're far beyond the radius, sir.</l>
 </sp>
-<sp>
+<sp who="#L1315_M9">
 <speaker>Meynard.</speaker>
 <l>You won't get any more than what I've paid you, sir;</l>
 </sp>
-<sp>
+<sp who="#L1315_M12">
 <speaker>Cabman.</speaker>
 <l>Come now, be generous to a party, <hi>do.</hi>
 </l>
 </sp>
-<sp>
+<sp who="#L1315_M9">
 <speaker>Meynard.</speaker>
 <l>Shut up!</l>
 </sp>
-<sp>
+<sp who="#L1315_M12">
 <speaker>Cabman.</speaker>
 <l>Another Tizzy!</l>
 </sp>
-<sp>
+<sp who="#L1315_M9">
 <speaker>Meynard.</speaker>
 <l><hi>Tizzy vous.</hi>
 </l>
 <l>Vanish!</l>
 </sp>
-<sp>
+<sp who="#L1315_M12">
 <speaker>Cabman.</speaker>
 <l>
 <stage>(at door)</stage> You can't afford to ride about;</l>
 <l>May all the maledictions — <stage>(going to doorway, R.)</stage></l>
 </sp>
-<sp>
+<sp who="#L1315_M10">
 <speaker>Griffo.</speaker>
 <l> There, get out! <stage>Exit Cabman, R. U. E.</stage></l>
 </sp>
-<sp>
+<sp who="#L1315_M9">
 <speaker>Meynard.</speaker>
 <l>My rug! <stage>(hands it to Griffo)</stage> My — </l>
 <l>Bag—umbrella ! Where's your missis ?</l>
@@ -359,52 +460,52 @@ present.</l>
 <l>
 <stage>(kisses her)</stage> Excuse me.</l>
 </sp>
-<sp>
+<sp who="#L1315_F15">
 <speaker>Marie.</speaker>
 <l>
 <stage>(R.)</stage> Their French manners are so pleasant.</l>
 <l>Oh, Sir!</l>
 </sp>
-<sp>
+<sp who="#L1315_M10">
 <speaker>Griffo.</speaker>
 <l>
 <stage>(L., aside in a rage)</stage> Revenge !</l>
 </sp>
-<sp>
+<sp who="#L1315_M9">
 <speaker>Meynard.</speaker>
 <l>
 <stage>(C.)</stage> Just mention that I'm here.</l>
 <l>Take up my card at once to her, my dear.</l>
 </sp>
-<sp>
+<sp who="#L1315_M10">
 <speaker>Griffo.</speaker>
 <l>Missus is going p'rhaps to bed, sir.</l>
 </sp>
-<sp>
+<sp who="#L1315_M9">
 <speaker>Meynard.</speaker>
 <l>What ?</l>
 </sp>
-<sp>
+<sp who="#L1315_M10">
 <speaker>Griffo.</speaker>
 <l>Yes, Missus is <hi>retiring;</hi> you are <hi>not.</hi>
 </l>
 <l><stage>(aside)</stage> Ha! Ha! I had him there!</l>
 <pb n="7"/>
 </sp>
-<sp>
+<sp who="#L1315_M9">
 <speaker>Meynard.</speaker>
 <l>Don't try to quiz;</l>
 <l>Besides, if I mistake not, here she is.</l>
 <stage> Music — Enter Madame Dei Flunki , door, L. </stage>
 </sp>
-<sp>
+<sp who="#L1315_F14">
 <speaker>Madame.</speaker>
 <l>
 <stage>(L., to Marie)</stage> Why don't you mind your work, you idle hussy.</l>
 <l>I've a good mind — a stranger! Lawks a mussy!</l>
 <l>If you're the taxes we are not at home.</l>
 </sp>
-<sp>
+<sp who="#L1315_M9">
 <speaker>Meynard.</speaker>
 <l>
 <stage>(bowing, C.)</stage> I'm <hi>not</hi> the taxes, Madame, but have
@@ -413,61 +514,61 @@ come</l>
 </l>
 <l>The bosom friend of your son Louis see.</l>
 </sp>
-<sp>
+<sp who="#L1315_F14">
 <speaker>Madame.</speaker>
 <l>
 <stage>(staggering)</stage> My son—oh, no—</l>
 </sp>
-<sp>
+<sp who="#L1315_M9">
 <speaker>Meynard.</speaker>
 <l>A gentleman most rare.</l>
 </sp>
-<sp>
+<sp who="#L1315_F14">
 <speaker>Madame.</speaker>
 <l>You know my boy! Pray take a chair— <hi>mon chere.</hi>
 </l>
 </sp>
-<sp>
+<sp who="#L1315_M9">
 <speaker>Meynard.</speaker>
 <l>We are great pals—in fact we never differ.</l>
 </sp>
-<sp>
+<sp who="#L1315_F14">
 <speaker>Madame.</speaker>
 <l>I'm charm'd—prepare him the best bed room, Griffer.</l>
 </sp>
-<sp>
+<sp who="#L1315_M9">
 <speaker>Meynard.</speaker>
 <l>Really, I — </l>
 </sp>
-<sp>
+<sp who="#L1315_F14">
 <speaker>Madame.</speaker>
 <l>At his name the tear-drop trickles—</l>
 <l>You must be peckish. Here ! cold meat and pickles!</l>
 <stage> Exeunt Griffo and Marie — and return with tray, R .</stage>
 </sp>
-<sp>
+<sp who="#L1315_M9">
 <speaker>Meynard.</speaker>
 <l>
 <stage>(aside)</stage> With cold meat she her son's best friend is greeting.</l>
 <l>This ain't a <hi>warm reception</hi> —this <hi>cold meeting !</hi>
 </l>
 </sp>
-<sp>
+<sp who="#L1315_F14">
 <speaker>Madame.</speaker>
 <l>We're hospitable folks!</l>
 </sp>
-<sp>
+<sp who="#L1315_M9">
 <speaker>Meynard.</speaker>
 <l>You really touch one.</l>
 </sp>
-<sp>
+<sp who="#L1315_F14">
 <speaker>Madame.</speaker>
 <l>Also bring forth the family cheese—the Dutch one.</l>
 </sp>
 <spGrp>
 <head> Concerted Piece —<title>"Go a-head."</title>
 </head>
-<sp>
+<sp who="#L1315_F14">
 <speaker>Madame.</speaker>
 <l>I hope you'll make yourself at home, <hi>mon chere, </hi>
 </l>
@@ -475,17 +576,17 @@ come</l>
 <l>You're welcome to</l>
 <l>Our best home-brew.</l>
 </sp>
-<sp>
+<sp who="#L1315_M9">
 <speaker>Meynard.</speaker>
 <l>Your courtesy is rare!</l>
 </sp>
-<sp>
+<sp who="#L1315_M10">
 <speaker>Griffo.</speaker>
 <l>
 <stage>(aside)</stage> These foreigners are very seldom seen </l>
 <l>To tip a servant—they're so very mean!</l>
 </sp>
-<sp>
+<sp who="#L1315_F14">
 <speaker>Madame.</speaker>
 <l>Though humble folks,</l>
 <l>It us provokes,</l>
@@ -501,15 +602,15 @@ come</l>
 <l>Then if you've got an appetite,</l>
 <l>Why go a-head.</l>
 </sp>
-<sp>
+<sp who="#L1315_F14 #L1315_M10 #L1315_F15">
 <speaker>Madame.|Griffo.|Marie.</speaker>
 <l>Soon you will larn, &amp;c.</l>
 </sp>
-<sp>
+<sp who="#L1315_M9">
 <speaker>Meynard.</speaker>
 <l>Soon I shall larn, &amp;c.</l>
 </sp>
-<sp>
+<sp who="#L1315_M9">
 <speaker>Meynard.</speaker>
 <l>I haven't any appetite at all;</l>
 <l>But in the morning early me you'll call,</l>
@@ -517,30 +618,30 @@ come</l>
 <l>Madame, will try</l>
 <l>Your senses to appal.</l>
 </sp>
-<sp>
+<sp who="#L1315_F15">
 <speaker>Marie.</speaker>
 <l>He really is a pleasant little chap ;</l>
 <l>To-morrow I'll put on my Sunday cap.</l>
 </sp>
-<sp>
+<sp who="#L1315_M10">
 <speaker>Griffo.</speaker>
 <l>Now if I winks</l>
 <l>At her I thinks</l>
 <l>My claret he will tap.</l>
 </sp>
-<sp>
+<sp who="#L1315_F14">
 <speaker>Madame.</speaker>
 <l>
 <stage>(with great expression repeats)</stage> — Though it's a barn, &amp;c.</l>
 </sp>
-<sp>
+<sp who="#L1315_Mult">
 <speaker>All.</speaker>
 <stage>(repeat as in verse)</stage>
 <stage> Meynard and Madame dei Flunki dance up — Griffo and Marie dance off, R.
 U. E.</stage>
 </sp>
 </spGrp>
-<sp>
+<sp who="#L1315_M9">
 <speaker>Meynard.</speaker>
 <l>
 <stage>(coming down, R. C.)</stage> Will Fabien dei Flunki soon return?</l>
@@ -549,7 +650,7 @@ U. E.</stage>
 <l>You couldn't at a glance tell one from t'other.</l>
 <stage>(Music, "The Twins,"piano.)</stage>
 </sp>
-<sp>
+<sp who="#L1315_F14">
 <speaker>Madame.</speaker>
 <l>
 <stage>(l. C.)</stage> It's that confused me. I've at times gone mad</l>
@@ -568,12 +669,12 @@ U. E.</stage>
 <l>Would mutually punch each other's head,</l>
 <l>And always howled when they were sent to bed.</l>
 </sp>
-<sp>
+<sp who="#L1315_M9">
 <speaker>Meynard.</speaker>
 <l>
 <stage>(R. C.)</stage> Remarkable, indeed!</l>
 </sp>
-<sp>
+<sp who="#L1315_F14">
 <speaker>Madame.</speaker>
 <l>
 <stage>(C.)</stage> He comes—my Fabi-ang!</l>
@@ -582,12 +683,12 @@ U. E.</stage>
 </l>
 <stage> Music .— Enter Fabien , R . C . opening. </stage>
 </sp>
-<sp>
+<sp who="#L1315_F14">
 <speaker>Madame.</speaker>
 <l>
 <stage>(C.)</stage> Embrace your mother.</l>
 </sp>
-<sp>
+<sp who="#L1315_M2">
 <speaker>Fabien.</speaker>
 <l>
 <stage>( R .)</stage> Bother! I'm knocked up;</l>
@@ -595,11 +696,11 @@ U. E.</stage>
 <l>Halloa!<stage>(sees Meynard)</stage>
 </l>
 </sp>
-<sp>
+<sp who="#L1315_F14">
 <speaker>Madame.</speaker>
 <l>A friend of your dear brother Louis.</l>
 </sp>
-<sp>
+<sp who="#L1315_M2">
 <speaker>Fabien.</speaker>
 <l>
 <stage>(starting)</stage> A friend, you say, of Louis?<stage>(crosses to L .
@@ -607,74 +708,74 @@ C.)</stage> How de do-ee ?</l>
 <l><stage>(shakes his hand — aside to him)</stage> When did you see him last
 ?</l>
 </sp>
-<sp>
+<sp who="#L1315_M9">
 <speaker>Meynard.</speaker>
 <l>
 <stage>(L.)</stage> Three weeks ago.</l>
 </sp>
-<sp>
+<sp who="#L1315_M2">
 <speaker>Fabien.</speaker>
 <l>
 <stage>( C .)</stage> What were his spirits like?</l>
 </sp>
-<sp>
+<sp who="#L1315_M9">
 <speaker>Meynard.</speaker>
 <l>Extremely <hi>low.</hi>
 </l>
 </sp>
-<sp>
+<sp who="#L1315_M2">
 <speaker>Fabien.</speaker>
 <l>
 <stage>(aside)</stage> I knew it—I was sure of it—I said it.</l>
 </sp>
-<sp>
+<sp who="#L1315_M9">
 <speaker>Meynard.</speaker>
 <l>We'd drunk them all, and none of us had credit.</l>
 </sp>
-<sp>
+<sp who="#L1315_M2">
 <speaker>Fabien.</speaker>
 <l>I felt that there was something wrong —</l>
 </sp>
-<sp>
+<sp who="#L1315_M9">
 <speaker>Meynard.</speaker>
 <l>Explain!</l>
 </sp>
-<sp>
+<sp who="#L1315_M2">
 <speaker>Fabien.</speaker>
 <l>Wherever Louis is—in France, in Spain,</l>
 <l>In England, or America—wherever</l>
 <l>He may proceed—the distance doesn't sever</l>
 <l>The strange communication.</l>
 </sp>
-<sp>
+<sp who="#L1315_M9">
 <speaker>Meynard.</speaker>
 <l>My dear host,</l>
 <l>I s'pose you are alluding to the post.</l>
 <l>It is convenient —</l>
 </sp>
-<sp>
+<sp who="#L1315_M2">
 <speaker>Fabien.</speaker>
 <l>Young man, don't chaff—</l>
 <l>It's instantaneous.</l>
 </sp>
-<sp>
+<sp who="#L1315_M9">
 <speaker>Meynard.</speaker>
 <l>The telegraph ?</l>
 <pb n="10"/>
 <l>" Messages sent to all parts of the —" </l>
 </sp>
-<sp>
+<sp who="#L1315_M2">
 <speaker>Fabien.</speaker>
 <l>Bother!</l>
 <l>The telegraph between me and my brother</l>
 <l>Is magical and keeps us ever near.</l>
 <l>My darling brother Louis,</l>
 </sp>
-<sp>
+<sp who="#L1315_M9">
 <speaker>Meynard.</speaker>
 <l>Is it dear ?</l>
 </sp>
-<sp>
+<sp who="#L1315_M2">
 <speaker>Fabien.</speaker>
 <l>
 <stage>(comes down, C.)</stage> Listen, and you shall hear the wondrous
@@ -685,7 +786,7 @@ mystery</l>
 </l>
 <stage> Song—" The Twins." </stage>
 </sp>
-<sp>
+<sp who="#L1315_M2">
 <speaker>Fabien.</speaker>
 <l>You've heard a good song called <hi>the Twins</hi>, a strangeish case it
 be,</l>
@@ -709,60 +810,61 @@ allures.</l>
 <l>But if we settle down in France, we mean to live at <hi>Two-ers.</hi>
 </l>
 </sp>
-<sp>
+<sp who="#L1315_M9">
 <pb n="11"/>
 <speaker>Meynard.</speaker>
 <l>Mere fancy—change of air and change of scene</l>
 <l>Would set you and your brother all serene—</l>
 <l>Russia—France—Turkey—anywhere at all.</l>
 </sp>
-<sp>
+<sp who="#L1315_M2">
 <speaker>Fabien.</speaker>
 <l>
 <stage>(dreamily)</stage> We thought of trying the Egyptian Hall;</l>
 <l>The air they say is mild there.</l>
 </sp>
-<sp>
+<sp who="#L1315_M9">
 <speaker>Meynard.</speaker>
-<l>No, it's chilly.</l><l>It's high.</l>
+<l>No, it's chilly.</l>
+<l>It's high.</l>
 </sp>
-<sp>
+<sp who="#L1315_M2">
 <speaker>Fabien.</speaker>
 <l>What ?</l>
 </sp>
-<sp>
+<sp who="#L1315_M9">
 <speaker>Meynard.</speaker>
 <l>Mountainous.</l>
 </sp>
-<sp>
+<sp who="#L1315_M2">
 <speaker>Fabien.</speaker>
 <l>Why?</l>
 </sp>
-<sp>
+<sp who="#L1315_M9">
 <speaker>Meynard.</speaker>
 <l>Piccad <hi>-hilly.</hi>
 </l>
 <l>Still it agrees with twins,<stage>(shouts without)</stage> What means that
 shout ?</l>
 </sp>
-<sp>
+<sp who="#L1315_M2">
 <speaker>Fabien.</speaker>
 <l>A rabble rout,<stage>(crosses, L.)</stage>
 </l>
 </sp>
-<sp>
+<sp who="#L1315_M9">
 <speaker>Meynard.</speaker>
 <l>More of the <hi>bawl</hi> than <hi>rout</hi>, <stage>(crosses,
 L.)</stage></l>
 <stage> Music —Griffo enters, dragging in Orlando , a fearful-looking ruffian,
 covered with every kind of offensive weapon, L. U. E.</stage>
 </sp>
-<sp>
+<sp who="#L1315_M10">
 <speaker>Griffo.</speaker>
 <l>
 <stage>(l. C.)</stage> Please, sir, this here's Orlando.</l>
 </sp>
-<sp>
+<sp who="#L1315_M2">
 <speaker>Fabien.</speaker>
 <l>
 <stage>(c.)</stage> Here you see</l>
@@ -775,11 +877,11 @@ covered with every kind of offensive weapon, L. U. E.</stage>
 <stage>(Music—Marie lugs in Colonna, R. U. E.—another ruffian, armed with
 carbine and daggers, &amp;c. , down, R .)</stage>
 </sp>
-<sp>
+<sp who="#L1315_M2">
 <speaker>Fabien.</speaker>
 <l>Specimen Number Two. They're both indigenous</l>
 </sp>
-<sp>
+<sp who="#L1315_M6">
 <speaker>Orlan.</speaker>
 <l>Indigenous! That rascal robbed my <hi>pigeon-'us,</hi>
 </l>
@@ -787,50 +889,50 @@ carbine and daggers, &amp;c. , down, R .)</stage>
 <l>And now I want to see his <hi>little game.</hi>
 </l>
 </sp>
-<sp>
+<sp who="#L1315_M2">
 <speaker>Fabien.</speaker>
 <l>He means the pigeon.</l>
 </sp>
-<sp>
+<sp who="#L1315_M6">
 <speaker>Orlan.</speaker>
 <l>Mind you, no evasion,</l>
 <l>It must be white, and of the male persuasion.</l>
 <l>A male white pigeon—strictly to the letter,</l>
 <l>No hen, or there's <hi>no hen-d</hi> to our Vendetta.</l>
 </sp>
-<sp>
+<sp who="#L1315_M9">
 <speaker>Meynard.</speaker>
 <l>You hear—a really interesting sight—-</l>
 </sp>
-<sp>
+<sp who="#L1315_M7">
 <speaker>Colon.</speaker>
 <l>
 <stage>( R .)</stage> I've got the bird !</l>
 </sp>
-<sp>
+<sp who="#L1315_M6">
 <speaker>Orlan.</speaker>
 <l>A male ?</l>
 </sp>
-<sp>
+<sp who="#L1315_M7">
 <speaker>Colon.</speaker>
 <l>
 <stage>( L .)</stage> A male.</l>
 </sp>
-<sp>
+<sp who="#L1315_M6">
 <speaker>Orlan.</speaker>
 <l>And white ?</l>
 <pb n="12"/>
 </sp>
-<sp>
+<sp who="#L1315_M7">
 <speaker>Colon.</speaker>
 <l>I've got him in this bag.</l>
 </sp>
-<sp>
+<sp who="#L1315_M6">
 <speaker>Orlan.</speaker>
 <l>Half dead, no doubt;</l>
 <l>Open your <hi>male</hi> bag, then, and let him out.</l>
 </sp>
-<sp>
+<sp who="#L1315_F14">
 <speaker>Madame.</speaker>
 <l>
 <stage>(a little up, L. C.)</stage> How sweet it is to see two rival houses</l>
@@ -838,14 +940,14 @@ carbine and daggers, &amp;c. , down, R .)</stage>
 <l>Drowning their enmity in friendship's cup, Rough man's rude nature softened,
 and — </l>
 </sp>
-<sp>
+<sp who="#L1315_M6">
 <speaker>Orlan.</speaker>
 <l>
 <stage>(turning fiercely on her)</stage> Shut up !</l>
 <stage>(treads on her toe —Madame Dei Flunki retires up to Griffo ,
 alarmed)</stage>
 </sp>
-<sp>
+<sp who="#L1315_M2">
 <speaker>Fabien.</speaker>
 <l>Now, then, be friends—shake hands—stretch out your wrists,<stage>(he draws
 them towards each other, C.— both make fierce ejaculations, and move
@@ -853,52 +955,52 @@ threateningly towards each other)</stage>
 </l>
 <l>Look here! I said "shake hands," and not shake fists.</l>
 </sp>
-<sp>
+<sp who="#L1315_M6">
 <speaker>Orlan.</speaker>
 <l>His great grandfather's father's great grandfather</l>
 <l>Stole my an-cestors' white male pigeon.</l>
 </sp>
-<sp>
+<sp who="#L1315_M7">
 <speaker>Colon.</speaker>
 <l>
 <stage>(conceitedly)</stage> Rather!</l>
 </sp>
-<sp>
+<sp who="#L1315_M6">
 <speaker>Orlan.</speaker>
 <l>
 <stage>(rushing towards him with drawn dagger)</stage> Ha!</l>
 </sp>
-<sp>
+<sp who="#L1315_M7">
 <speaker>Colon.</speaker>
 <l>
 <stage>(repeating action with enormous carbine)</stage> Ha !</l>
 </sp>
 <stage>(as they do so, Madame dei Flunki interposes and gets crushed between
 them —Griffo leads her up to the back, limping)</stage>
-<sp>
+<sp who="#L1315_M6">
 <speaker>Orlan.</speaker>
 <l>Shall I shake hands with him ?</l>
 </sp>
-<sp>
+<sp who="#L1315_M7">
 <speaker>Colon.</speaker>
 <l>I shan't with <hi>you !</hi>
 </l>
 </sp>
-<sp>
+<sp who="#L1315_M6">
 <speaker>Orlan.</speaker>
 <l>There's one more killed of us than—-</l>
 </sp>
-<sp>
+<sp who="#L1315_M7">
 <speaker>Colon.</speaker>
 <l>Very true!</l>
 <l>There is, ha! ha !</l>
 </sp>
-<sp>
+<sp who="#L1315_M6">
 <speaker>Orlan.</speaker>
 <l>Ha! ha!<stage>(business of daggers, &amp;c, repeated)</stage>
 </l>
 </sp>
-<sp>
+<sp who="#L1315_M2">
 <speaker>Fabien.</speaker>
 <l>Come, let this cease,</l>
 </sp>
@@ -910,7 +1012,7 @@ olive branches — male and female peasants —All sing. </stage>
 <head>
 <hi>Chorus— <title>"Voici le Sabre."</title></hi>
 </head>
-<sp>
+<sp who="#L1315_Mult">
 <speaker>All.</speaker>
 <l>Here is the Justice—</l>
 <l>The Justice—</l>
@@ -925,7 +1027,7 @@ olive branches — male and female peasants —All sing. </stage>
 <stage>(this must be sung grandiloquently, and by all in unison — bang at
 conclusion — Justice goes to table and arranges papers)</stage>
 </spGrp>
-<sp>
+<sp who="#L1315_M2">
 <speaker>Fabien.</speaker>
 <l>Here, take that branch of olive in your fist, <stage>(to Orlando, who takes
 it, and crushes it in his grasp)</stage>
@@ -936,97 +1038,97 @@ it, and crushes it in his grasp)</stage>
 signing)</stage>
 </l>
 </sp>
-<sp>
+<sp who="#L1315_M6">
 <speaker>Orlan.</speaker>
 <l>You're sure the pigeon's white ?</l>
 <l>I feel that I do wrong.</l>
 </sp>
-<sp>
+<sp who="#L1315_M2">
 <speaker>Fabien.</speaker>
 <l>
 <stage>(L.)</stage> Do <hi>wrong?</hi> do <hi>write !</hi>
 </l>
 </sp>
-<sp>
+<sp who="#L1315_M6">
 <speaker>Orlan.</speaker>
 <l>There!<stage>(dashes a long stroke)</stage>
 </l>
 </sp>
-<sp>
+<sp who="#L1315_M2">
 <speaker>Fabien.</speaker>
 <l>Come, Colonna. <stage>(approaching him, R. C.)</stage>
 </l>
 </sp>
-<sp>
+<sp who="#L1315_M7">
 <speaker>Colon.</speaker>
 <l>If I do I'm shot!</l>
 </sp>
-<sp>
+<sp who="#L1315_M2">
 <speaker>Fabien.</speaker>
 <l>Well, that you p'raps <hi>call honour</hi> —I do not.</l>
 </sp>
-<sp>
+<sp who="#L1315_M7">
 <speaker>Colon.</speaker>
 <l>Can't write.</l>
 <stage>(Marie swings him round to Fabien, and Fabien swings him round to table,
 and pushes his nose on the table — bang on drum)</stage>
 </sp>
-<sp>
+<sp who="#L1315_M2">
 <speaker>Fabien.</speaker>
 <l>Then make your mark!</l>
 <stage>(Colonna slashes pen twice across paper, and goes, R. C.)</stage>
 </sp>
-<sp>
+<sp who="#L1315_M6">
 <speaker>Orlan.</speaker>
 <l>
 <stage>(L.)</stage> Now then—the bird.</l>
 </sp>
-<sp>
+<sp who="#L1315_M7">
 <speaker>Colon.</speaker>
 <l>
 <stage>(with grimace)</stage> I've sat upon him once or twice !</l>
 </sp>
-<sp>
+<sp who="#L1315_M2">
 <speaker>Fabien.</speaker>
 <l>Absurd!</l>
 </sp>
-<sp>
+<sp who="#L1315_M7">
 <speaker>Colon.</speaker>
 <l>
 <stage>(giving it from bag)</stage> Come out!</l>
 </sp>
-<sp>
+<sp who="#L1315_M6">
 <speaker>Orlan.</speaker>
 <l>You dog! The pigeon would you smother ?</l>
 <stage>(Colonna raises it to strike Orlando)</stage>
 </sp>
-<sp>
+<sp who="#L1315_M2">
 <speaker>Fabien.</speaker>
 <l>Come now you needn't <hi>pitch into</hi> each other. </l>
 </sp>
-<sp>
+<sp who="#L1315_M6">
 <speaker>Orlan.</speaker>
 <l>I never yet clapt eyes on a more skinny un.</l>
 <l>Its wings don't match.</l>
 </sp>
-<sp>
+<sp who="#L1315_M2">
 <speaker>Fabien.</speaker>
 <l>Mere difference of <hi>a pinion.</hi>
 </l>
 </sp>
-<sp>
+<sp who="#L1315_M6">
 <speaker>Orlan.</speaker>
 <l>And one leg's longer than the other.</l>
 </sp>
-<sp>
+<sp who="#L1315_M2">
 <speaker>Fabien.</speaker>
 <l>Grumbler!</l>
 </sp>
-<sp>
+<sp who="#L1315_M7">
 <speaker>Colon.</speaker>
 <l>He'll never walk </l>
 </sp>
-<sp>
+<sp who="#L1315_M2">
 <speaker>Fabien.</speaker>
 <l>Why should he ? he's a <hi>tumbler !*</hi>
 </l>
@@ -1035,76 +1137,76 @@ and pushes his nose on the table — bang on drum)</stage>
 <spGrp>
 <head><hi>Concerted Piece—<title>"Happy, gay and free, boys."</title></hi>
 </head>
-<sp>
+<sp who="#L1315_F14">
 <speaker>Madame.</speaker>
 <l>And now as you have made it up, you both are free to go,</l>
 <l>As each is satisfied, why, now no one has cause to crow.</l>
 </sp>
-<sp>
+<sp who="#L1315_M6">
 <speaker>Orlan.</speaker>
 <l>I'm not quite sure that I'm not done.</l>
 </sp>
-<sp>
+<sp who="#L1315_M9">
 <speaker>Meynard.</speaker>
 <l>Pooh, nonsense ! could it be ?</l>
 </sp>
-<sp>
+<sp who="#L1315_F15">
 <speaker>Marie.</speaker>
 <l>It's quite a sight to give delight.</l>
 </sp>
-<sp>
+<sp who="#L1315_M7">
 <speaker>Colon.</speaker>
 <l>Well, that I don't quite see.</l>
 </sp>
-<sp>
+<sp who="#L1315_M2">
 <speaker>Fabien.</speaker>
 <l>
 <stage>(with dancing action)</stage> Be always gay and free, boys,</l>
 <l>Take the time from me, boys—</l>
 <l>Happy, gay and free !</l>
 </sp>
-<sp>
+<sp who="#L1315_Mult">
 <speaker>All.</speaker>
 <l>
 <stage>(with action)</stage> Be always gay and free, boys, &amp;c.</l>
 </sp>
 </spGrp>
-<sp>
+<sp who="#L1315_M9">
 <speaker>Meynard.</speaker>
 <l>I'll send a neat description of this interesting scene.</l>
 </sp>
-<sp>
+<sp who="#L1315_M10">
 <speaker>Griffo.</speaker>
 <l>
 <stage>(aside)</stage> But he won't pay the postage—those French chaps are
 always mean.</l>
 </sp>
-<sp>
+<sp who="#L1315_F15">
 <speaker>Marie.</speaker>
 <l>That's jealousy, and nothing else.</l>
 </sp>
-<sp>
+<sp who="#L1315_F14">
 <speaker>Madame.</speaker>
 <l>My friends, you'll want your tea;</l>
 <l>So pray don't wait, it's getting late.</l>
 </sp>
-<sp>
+<sp who="#L1315_M6">
 <speaker>Orlan.</speaker>
 <l>
 <stage>(to Colonna)</stage> That is a hint for we.</l>
 </sp>
-<sp>
+<sp who="#L1315_M2">
 <speaker>Fabien.</speaker>
 <p>
 <stage>(speaking to Orlando and Colonna)</stage> My worthy friends, when you
 have left us, do not forget the lesson you have learnt, and under any
 circumstances — </p>
 </sp>
-<sp>
+<sp who=" #L1315_M7 #L1315_M6">
 <speaker>Colon. Orlan.</speaker>
 <l>Yes, yes!</l>
 </sp>
-<sp>
+<sp who="#L1315_M2">
 <speaker>Fabien.</speaker>
 
 <l>Under any circumstances<stage>(relapsing into tune again, wilh action of
@@ -1115,13 +1217,13 @@ dancing)</stage>
 together, very seriously, last, R . C . opening. Fabien and Madame Dei Flunki
 left on —Fabien stands perfectly still,wrapped in thought)</stage>
 </sp>
-<sp>
+<sp who="#L1315_F14">
 <speaker>Madame.</speaker>
 <l>What means this gloom upon your brow ? it seems</l>
 <l>As if your life was one long round of dreams !</l>
 <l>A good strong cup of tea your sense will shake up.</l>
 </sp>
-<sp>
+<sp who="#L1315_M2">
 <speaker>Fabien.</speaker>
 <l>Ah ! I must have a <hi>strong cup</hi> if I'd <hi>wake cup!</hi>
 <stage>(tremulous music)</stage>
@@ -1131,33 +1233,33 @@ left on —Fabien stands perfectly still,wrapped in thought)</stage>
 <l>On that <hi>big mountain</hi> felt a <hi>little hill.</hi>
 </l>
 </sp>
-<sp>
+<sp who="#L1315_F14">
 <speaker>Madame.</speaker>
 <l>
 <stage>(R. C. )</stage> That mountain is a breather; and the fact is </l>
 <l>In climbing mountains you are out of practice.</l>
 </sp>
-<sp>
+<sp who="#L1315_M2">
 <speaker>Fabien.</speaker>
 <l>
 <stage>(L. C.)</stage> A pain here did my further footsteps hinder. </l>
 </sp>
-<sp>
+<sp who="#L1315_F14">
 <speaker>Madame.</speaker>
 <l>Shortness of breath—that <hi>pain,</hi> boy, was a <hi>winder.</hi>
 </l>
 </sp>
-<sp>
+<sp who="#L1315_M2">
 <speaker>Fabien.</speaker>
 <l>I sought my watch ; ten minutes 'twas to nine. </l>
 <l>Behold ! our clock has stopped—a certain sign </l>
 <l>Louis' been hurt; infallible I've found it.</l>
 </sp>
-<sp>
+<sp who="#L1315_F14">
 <speaker>Madame.</speaker>
 <l>I wound it up myself.</l>
 </sp>
-<sp>
+<sp who="#L1315_M2">
 <speaker>Fabien.</speaker>
 <l>Poor Louis <hi>wounded!</hi>
 </l>
@@ -1173,11 +1275,11 @@ left on —Fabien stands perfectly still,wrapped in thought)</stage>
 <l>I'll write to him.</l>
 <stage>(Ghost Melody played in eccentric variation)</stage>
 </sp>
-<sp>
+<sp who="#L1315_F14">
 <speaker>Madame.</speaker>
 <l>You'd better go to bed.</l>
 </sp>
-<sp>
+<sp who="#L1315_M2">
 <speaker>Fabien.</speaker>
 <l>
 <stage>(at table, L., writing)</stage> " I feel that somebody has punch'd your
@@ -1190,40 +1292,40 @@ head;</l>
 <l>If you're alive and well, don't let us doubt it;</l>
 <l>If dead, you needn't bother p'raps about it."</l>
 </sp>
-<sp>
+<sp who="#L1315_F14">
 <speaker>Madame.</speaker>
 <l>
 <stage>(R.)</stage> What thought, and what consideration, too!</l>
 <stage>(figure of Louis, in his shirt sleeves, and with a very black eye rises,
 R ., and glides slowly towards Fabien )</stage>
 </sp>
-<sp>
+<sp who="#L1315_M2">
 <speaker>Fabien.</speaker>
 <l>And so no more at present, but adoo.</l>
 <l>Listen ! What's that ?</l>
 </sp>
-<sp>
+<sp who="#L1315_F14">
 <speaker>Madame.</speaker>
 <l>My dear, I wasn't speaking.</l>
 </sp>
-<sp>
+<sp who="#L1315_M2">
 <speaker>Fabien.</speaker>
 <l>What is the meaning of that hideous creaking ?</l>
 <pb n="16"/>
 </sp>
-<sp>
+<sp who="#L1315_F14">
 <speaker>Madame.</speaker>
 <l>Griffo's new boots, p'raps—I don't hear it, dear.</l>
 </sp>
-<sp>
+<sp who="#L1315_M2">
 <speaker>Fabien.</speaker>
 <l>I do, and now it's getting very near.</l>
 </sp>
-<sp>
+<sp who="#L1315_F14">
 <speaker>Madame.</speaker>
 <l>What are you talking of?</l>
 </sp>
-<sp>
+<sp who="#L1315_M2">
 <speaker>Fabien.</speaker>
 <l>That sound again!</l>
 <l>But let me seal the letter, and — </l>
@@ -1233,43 +1335,43 @@ punch on the head — drum —Fabien tumbles out of his chair)</stage>
 <l><stage>(turns)</stage> If you do that again!—My brother!<stage>(takes stage,
 L . C.)</stage></l>
 </sp>
-<sp>
+<sp who="#L1315_F14">
 <speaker>Madame.</speaker>
 <l>What ?</l>
 <stage>(figure sinking —Fabien takes stage, L.)</stage>
 </sp>
-<sp>
+<sp who="#L1315_M2">
 <speaker>Fabien.</speaker>
 <l>See there—his eye—he must have had it hot!</l>
 </sp>
-<sp>
+<sp who="#L1315_F14">
 <speaker>Madame.</speaker>
 <l>There's nothing there—you're wandering, my chick.</l>
 </sp>
-<sp>
+<sp who="#L1315_M2">
 <speaker>Fabien.</speaker>
 <l>Don't you see Louis?<stage>(figure sinks)</stage>
 </l>
 </sp>
-<sp>
+<sp who="#L1315_F14">
 <speaker>Madame.</speaker>
 <l>You're a <hi>loui-natic.</hi>
 </l>
 <stage>(the back of chamber sinks)</stage>
 </sp>
-<sp>
+<sp who="#L1315_M2">
 <speaker>Fabien.</speaker>
 <l>Look there! The whole side of the house is sinking !</l>
 </sp>
-<sp>
+<sp who="#L1315_F14">
 <speaker>Madame.</speaker>
 <l>It's evident my poor boy's took to drinking. </l>
 </sp>
-<sp>
+<sp who="#L1315_M2">
 <speaker>Fabien.</speaker>
 <l>The scene is moving, mother, don't you see! </l>
 </sp>
-<sp>
+<sp who="#L1315_F14">
 <speaker>Madame.</speaker>
 <l>This is a very <hi>moving scene</hi> to me.</l>
 <stage>(Fabien staggers back with a half shriek, as picture is revealed of Louis
@@ -1278,18 +1380,18 @@ cigarette — the others grouped in imitation of the famous tableau)</stage>
 <stage> Enter De Meynard and Griffo , Marie , Orlando and Colonna, R. U.
 E.</stage>
 </sp>
-<sp>
+<sp who="#L1315_M2">
 <speaker>Fabien.</speaker>
 <l>Look there! Some heavy blows have plainly passed,</l>
 <l>And brother Louis has been heavily grassed,</l>
 <l>Or rather mowed——</l>
 </sp>
-<sp>
+<sp who="#L1315_M9">
 <speaker>Meynard.</speaker>
 <l>
 <stage>(R.)</stage> What is the matter ?</l>
 </sp>
-<sp>
+<sp who="#L1315_M2">
 <speaker>Fabien.</speaker>
 <l>
 <stage>( C .)</stage> What!</l>
@@ -1298,22 +1400,22 @@ E.</stage>
 </l>
 <l>Griffo, my horse ! my bag! I'm off to Paris !</l>
 </sp>
-<sp>
+<sp who="#L1315_M9">
 <speaker>Meynard.</speaker>
 <l>Really! what means this mental Mr. Harris?</l>
 <pb n="17"/>
 </sp>
-<sp>
+<sp who="#L1315_M2">
 <speaker>Fabien.</speaker>
 <l>Brothers should stick together when they can, </l>
 <l>Although in thought and feeling we're one man, </l>
 <l>We've <hi>two fists each</hi> —that's four.</l>
 </sp>
-<sp>
+<sp who="#L1315_F14">
 <speaker>Madame.</speaker>
 <l>I'm quite alarmed!</l>
 </sp>
-<sp>
+<sp who="#L1315_M2">
 <speaker>Fabien.</speaker>
 <l>
 <stage>(with arms extended)</stage> They'll find our motto is
@@ -1323,36 +1425,36 @@ forewarned—<hi>four-armed</hi> !* </l>
 <head> Concerted Piece —<title>"Dusty Bob."</title>
 </head>
 <head>Marie. Meyn. Fabien. Madame. Griffo. Orlan.</head>
-<sp>
+<sp who="#L1315_F14">
 <speaker>Madame.</speaker>
 <l>He's off to Paris. What can the matter be with him ?</l>
 </sp>
-<sp>
+<sp who="#L1315_M2">
 <speaker>Fabien.</speaker>
 <l>I'm off to Paris before the break of day !</l>
 </sp>
-<sp>
+<sp who="#L1315_M9">
 <speaker>Meynard.</speaker>
 <l>What a strange chap! I'd sooner live two days than three with him.</l>
 <l>Really, he's got an extraordinary way.</l>
 </sp>
-<sp>
+<sp who="#L1315_M2">
 <speaker>Fabien.</speaker>
 <l>I'm off to Paris!</l>
 <l>He's off to Paris—</l>
 <l>He's off to Paris at once without delay !</l>
 <l>Ri fol de riddle ol,</l>
 </sp>
-<sp>
+<sp who="#L1315_M2">
 <speaker>Fabien.</speaker>
 <l>Whack fol de riddle ol,</l>
 </sp>
-<sp>
+<sp who="#L1315_M10">
 <speaker>Griffo.</speaker>
 <l>Ri fol de riddle ol, whack fol ol de day.</l>
 </sp>
 <stage> Air —" Drinking Song" — (Grand Duchess.) </stage>
-<sp>
+<sp who="#L1315_M9">
 <speaker>Meynard.</speaker>
 <l>He'll go away,</l>
 <l>He'll go, he'll go away;</l>
@@ -1360,11 +1462,11 @@ forewarned—<hi>four-armed</hi> !* </l>
 <l>To Paris he will speedilee,</l>
 <l>As he has let us know.</l>
 </sp>
-<sp>
+<sp who="#L1315_Mult">
 <speaker>All.</speaker>
 <l>To Paris he, &amp;c.</l>
 </sp>
-<sp>
+<sp who="#L1315_F15">
 <speaker>Marie.</speaker>
 <l>Away, away,</l>
 <l>Without delay,</l>
@@ -1372,7 +1474,7 @@ forewarned—<hi>four-armed</hi> !* </l>
 <l>To Paris, city of the gay, </l>
 <l>So famous for its shops.</l>
 </sp>
-<sp>
+<sp who="#L1315_M2">
 <speaker>Fabien.</speaker>
 <l>It is a pretty sort of place,</l>
 <l>Amusing quite in any case ;</l>
@@ -1380,7 +1482,7 @@ forewarned—<hi>four-armed</hi> !* </l>
 <l>And those who're fond of <hi>boulla baisse.</hi>
 </l>
 </sp>
-<sp>
+<sp who="#L1315_Mult">
 <speaker>All.</speaker>
 <l>It is a pretty sort of place,</l>
 <l>Amusing quite in any case; </l>
@@ -1388,7 +1490,7 @@ forewarned—<hi>four-armed</hi> !* </l>
 <l>The human race.</l>
 <pb n="18"/>
 </sp>
-<sp>
+<sp who="#L1315_M9">
 <speaker>Meynard.</speaker>
 <l>Oh, what can mean</l>
 <l>This dreadful scene ?</l>
@@ -1397,45 +1499,45 @@ forewarned—<hi>four-armed</hi> !* </l>
 <l>Out here a kind</l>
 <l>Of foreign Box and Cox !</l>
 </sp>
-<sp>
+<sp who="#L1315_Mult">
 <speaker>All.</speaker>
 <l>Who'd think to find</l>
 <l>Out here a kind, &amp;c, &amp;c.</l>
 </sp>
-<sp>
+<sp who="#L1315_F15">
 <speaker>Marie.</speaker>
 <l>Oh, master's quite</l>
 <l>Upset to night.</l>
 </sp>
-<sp>
+<sp who="#L1315_M9">
 <speaker>Meynard.</speaker>
 <l>Well, is he often so?</l>
 </sp>
-<sp>
+<sp who="#L1315_Mult">
 <speaker>All</speaker>
 <stage>(repeat)</stage>
 <l>At all events,</l>
 <l>This pair of gents</l>
 <l>To Paris bound to go.</l>
 </sp>
-<sp>
+<sp who="#L1315_M2">
 <speaker>Fabien.</speaker>
 <l>To Paris city, <hi>toujours gai.</hi>
 </l>
 </sp>
-<sp>
+<sp who="#L1315_F14">
 <speaker>Madame.</speaker>
 <l>Where life is no work—all is play.</l>
 </sp>
-<sp>
+<sp who="#L1315_F15">
 <speaker>Marie.</speaker>
 <l>Where dissipation's the 0 K.</l>
 </sp>
-<sp>
+<sp who="#L1315_M9">
 <speaker>Meynard.</speaker>
 <l>Right sort of thing both night and day.</l>
 </sp>
-<sp>
+<sp who="#L1315_Mult">
 <speaker>All</speaker>
 <l>To Paris city, <hi>toujours gai,</hi> &amp;c, &amp;c.</l>
 </sp>
@@ -1461,13 +1563,13 @@ secured six years in advance" —" Refreshments" — "Pale Dry Biscuits of<pb n=
 <stage> Lively music. — Two or three People enter and go into box ; Box - Keeper
 showing them in —Box - Keeper made up with exaggerated white tie, black suit and
 comic wig, &amp;c. —Montgiron and Martelli stroll on, R.</stage>
-<sp>
+<sp who="#L1315_M5">
 <speaker>Martel.</speaker>
 <l>I say, it's rather jolly, don't you know ;</l>
 <l>But, I say, Chateau Renaud doesn't show.</l>
 <l>How is it, eh ?</l>
 </sp>
-<sp>
+<sp who="#L1315_M4">
 <speaker>Mont.</speaker>
 <l>He is engaged in making</l>
 <l>Love to a lady—one who's rather taking.</l>
@@ -1475,7 +1577,7 @@ comic wig, &amp;c. —Montgiron and Martelli stroll on, R.</stage>
 <l>Only it's such a bore to have a wife.</l>
 <l>It ties a fella down so.</l>
 </sp>
-<sp>
+<sp who="#L1315_M5">
 <speaker>Martel.</speaker>
 <l>Well, but he</l>
 <l>Isn't a marrying man exactly. She</l>
@@ -1483,7 +1585,7 @@ comic wig, &amp;c. —Montgiron and Martelli stroll on, R.</stage>
 <l>Madame de Lesparre, p'raps we'd better drop. </l>
 <l>Here is our friend—a most conceited pup. </l>
 </sp>
-<sp>
+<sp who="#L1315_M4">
 <speaker>Mont.</speaker>
 <l>The subject drop, or he may take it up.</l>
 <l>De Renaud at all weapons is <hi>au fait.</hi>
@@ -1491,16 +1593,16 @@ comic wig, &amp;c. —Montgiron and Martelli stroll on, R.</stage>
 </sp>
 
 <stage>Music .—Enter Chateau Renaud, L. 1 E. </stage>
-<sp>
+<sp who="#L1315_M3">
 <speaker>Chateau.</speaker>
 <l>What about Chateau Renaud do you say— </l>
 <l>Abusing him ?</l>
 </sp>
-<sp>
+<sp who="#L1315_M5">
 <speaker>Mart.</speaker>
 <l>Oh, no!</l>
 </sp>
-<sp>
+<sp who="#L1315_M3">
 <speaker>Chateau.</speaker>
 <l>I'm glad; you see</l>
 <l>I've fought this week some—let's see—twenty- three.</l>
@@ -1513,11 +1615,11 @@ comic wig, &amp;c. —Montgiron and Martelli stroll on, R.</stage>
 <l>Those more impertinent—as you have heard—</l>
 <l>I made a point of winging, like a bird.</l>
 </sp>
-<sp>
+<sp who="#L1315_M5">
 <speaker>Martel.</speaker>
 <l>Did you kill any ?</l>
 </sp>
-<sp>
+<sp who="#L1315_M3">
 <speaker>Chateau.</speaker>
 <l>Y-a-a-s ; I think a pair.</l>
 <l>One fellow asked me if I curled my hair;</l>
@@ -1526,41 +1628,41 @@ comic wig, &amp;c. —Montgiron and Martelli stroll on, R.</stage>
 <l>I had to kill 'em both—it's rather sad;</l>
 <l>But I'd let off a lot.</l>
 </sp>
-<sp>
+<sp who="#L1315_M5">
 <speaker>Martel.</speaker>
 <l>Precisely so.</l>
 </sp>
-<sp>
+<sp who="#L1315_M3">
 <speaker>Chateau.</speaker>
 <l>And one must keep one's hand in, don't you know!</l>
 <l>But I am here to meet a lady.</l>
 </sp>
-<sp>
+<sp who="#L1315_M5">
 <speaker>Martel.</speaker>
 <l>Yes!</l>
 <l>Madame de Lesparre, come, my boy, confess.</l>
 </sp>
-<sp>
+<sp who="#L1315_M3">
 <speaker>Chateau.</speaker>
 <l>The same.</l>
 </sp>
-<sp>
+<sp who="#L1315_M4">
 <speaker>Mont.</speaker>
 <l>I don't believe it!</l>
 </sp>
-<sp>
+<sp who="#L1315_M3">
 <speaker>Chateau.</speaker>
 <l>
 <stage>(coolly)</stage> Don't you ?<stage>(goes up)</stage>
 </l>
 </sp>
-<sp>
+<sp who="#L1315_M5">
 <speaker>Martel.</speaker>
 <l>
 <stage>(aside to Montgiron)</stage> Stop ;</l>
 <l>He'll shoot you!</l>
 </sp>
-<sp>
+<sp who="#L1315_M4">
 <speaker>Mont.</speaker>
 <l>My dad kept a draper's shop,</l>
 <l>And Chateau Renaud looks on trade as low, </l>
@@ -1568,29 +1670,29 @@ comic wig, &amp;c. —Montgiron and Martelli stroll on, R.</stage>
 <l>
 <hi>I</hi> can insult him !</l>
 </sp>
-<sp>
+<sp who="#L1315_M5">
 <speaker>Martel.</speaker>
 <l>I'm a swell and can't.</l>
 </sp>
-<sp>
+<sp who="#L1315_M3">
 <speaker>Chateau.</speaker>
 <l>And so you don't believe me ?<stage>(down, C.)</stage></l>
 </sp>
-<sp>
+<sp who="#L1315_M4">
 <speaker>Mont.</speaker>
 <l>What's more—shan't!<stage>(conceitedly twists moustache)</stage>
 </l>
 </sp>
-<sp>
+<sp who="#L1315_M3">
 <speaker>Chateau.</speaker>
 <l>Ha, ha! Do you, Martelli?</l>
 </sp>
-<sp>
+<sp who="#L1315_M5">
 <speaker>Martel.</speaker>
 <l>Oh, I never</l>
 <l>Doubt any gentleman.</l>
 </sp>
-<sp>
+<sp who="#L1315_M3">
 <speaker>Chateau.</speaker>
 <l>My very clever</l>
 <l>And most amusing friend, let's have a bet:—</l>
@@ -1598,21 +1700,21 @@ comic wig, &amp;c. —Montgiron and Martelli stroll on, R.</stage>
 <l>The lady named to join us at Mabille</l>
 <l>To-night at supper, will you then ?</l>
 </sp>
-<sp>
+<sp who="#L1315_M4">
 <speaker>Mont.</speaker>
 <l>I <hi>weel</hi>. <stage>(crossing, R.)</stage>
 </l>
 </sp>
-<sp>
+<sp who="#L1315_M3">
 <speaker>Chateau.</speaker>
 <l>Fifty Napoleons ?<stage>(crossing, L.)</stage>
 </l>
 </sp>
-<sp>
+<sp who="#L1315_M4">
 <speaker>Mont.</speaker>
 <l>All right, my hearty !</l>
 </sp>
-<sp>
+<sp who="#L1315_M3">
 <speaker>Chateau.</speaker>
 <l>You'll find 'twill be a very <hi>bona party.</hi>
 </l>
@@ -1621,12 +1723,12 @@ comic wig, &amp;c. —Montgiron and Martelli stroll on, R.</stage>
 <stage> Enter Madame De Lesparre with mask in hand, L .</stage>
 <l>Most fascinating of your sex, how do?</l>
 </sp>
-<sp>
+<sp who="#L1315_F16">
 <speaker>Emilie.</speaker>
 <l>Oh dear, if any one my features knew, </l>
 <l>They might enquire — </l>
 </sp>
-<sp>
+<sp who="#L1315_M3">
 <speaker>Chateau.</speaker>
 <l>'Twould be a hopeless task !</l>
 <l>You they have let a mask—so <hi>let 'em ask.</hi>
@@ -1634,22 +1736,22 @@ comic wig, &amp;c. —Montgiron and Martelli stroll on, R.</stage>
 <l>Enchanting one — </l>
 <pb n="21"/>
 </sp>
-<sp>
+<sp who="#L1315_F16">
 <speaker>Emilie.</speaker>
 <l>I said I'd meet you here</l>
 <l>To give you back your <hi>billet doux.</hi>
 </l>
 </sp>
-<sp>
+<sp who="#L1315_M3">
 <speaker>Chateau.</speaker>
 <l>My dear,</l>
 <l>You did.</l>
 </sp>
-<sp>
+<sp who="#L1315_F16">
 <speaker>Emilie.</speaker>
 <l>And you'll return me mine ?</l>
 </sp>
-<sp>
+<sp who="#L1315_M3">
 <speaker>Chateau.</speaker>
 <l>Oh, stay!</l>
 <l>Why do you treat me in this shameful way ?</l>
@@ -1663,13 +1765,13 @@ comic wig, &amp;c. —Montgiron and Martelli stroll on, R.</stage>
 <l>My boots run big—in Yorkshire phrase, once "pratty;"</l>
 <l>My waist was <hi>wasp-like</hi> —now I'm scarcely <hi>gnatty</hi></l>
 </sp>
-<sp>
+<sp who="#L1315_F16">
 <speaker>Emilie.</speaker>
 <l>
 <stage>(l. C.)</stage> Give me my letters back, and let me go,</l>
 <l>Somebody will observe us.</l>
 </sp>
-<sp>
+<sp who="#L1315_M3">
 <speaker>Chateau.</speaker>
 <l>
 <stage>(R. C.)</stage> Oh, dear, no!</l>
@@ -1677,26 +1779,26 @@ comic wig, &amp;c. —Montgiron and Martelli stroll on, R.</stage>
 <l>If at the gardens of Mabille, my dear, </l>
 <l>You'll come with me, I'll give them to you there.</l>
 </sp>
-<sp>
+<sp who="#L1315_F16">
 <speaker>Emilie.</speaker>
 <l>Mabille, indeed ! I wonder how you dare — </l>
 </sp>
-<sp>
+<sp who="#L1315_M3">
 <speaker>Chateau.</speaker>
 <l>Oh, every one goes everywhere.</l>
 </sp>
-<sp>
+<sp who="#L1315_F16">
 <speaker>Emilie.</speaker>
 <l>Perhaps, but I'm not every one, you worst of chaps!</l>
 </sp>
-<sp>
+<sp who="#L1315_M3">
 <speaker>Chateau.</speaker>
 <l>That dull old-fashioned failing of propriety's </l>
 <l>Completely dying out in good society;</l>
 <l>For dissipation's drown'd decorum's voice—</l>
 <l>You pays your money and you takes your choice. </l>
 </sp>
-<sp>
+<sp who="#L1315_F16">
 <speaker>Emilie.</speaker>
 <l>Not very choice, I think, nor yet delectable.</l>
 <l>Give me the days when most folks were respectable, </l>
@@ -1716,7 +1818,7 @@ comic wig, &amp;c. —Montgiron and Martelli stroll on, R.</stage>
 </l>
 <l>And 'twasn't <hi>infra dig.</hi> to pay your way!</l>
 </sp>
-<sp>
+<sp who="#L1315_M3">
 <speaker>Chateau.</speaker>
 <l>Horribly slow and wretchedly unpleasant. </l>
 <l>For my part, I think no time's like the present, </l>
@@ -1731,7 +1833,7 @@ https://parisianfields.com/2013/02/03/the-jardin-mabille-and-the-origins-of-the-
 <stage>(they go up and cross)</stage>
 <spGrp>
 <head>Duet .—<title>"Ben e Ridicolo."</title></head>
-<sp>
+<sp who="#L1315_M3">
 <speaker>Chateau.</speaker>
 <l>Life at Mabille they say, </l>
 <l>Glides like a dream away, </l>
@@ -1742,7 +1844,7 @@ https://parisianfields.com/2013/02/03/the-jardin-mabille-and-the-origins-of-the-
 <l>I for the treat will pay ;</l>
 <l>Only too glad.</l>
 </sp>
-<sp>
+<sp who="#L1315_F16">
 <speaker>Emilie.</speaker>
 <l>Yes, I will meet you there, </l>
 <l>Though I don't think it fair,</l>
@@ -1757,7 +1859,7 @@ https://parisianfields.com/2013/02/03/the-jardin-mabille-and-the-origins-of-the-
 <l>And I think verily</l>
 <l>You are too base !</l>
 </sp>
-<sp>
+<sp who="#L1315_M3 #L1315_F16">
 <speaker>Both.</speaker>
 <l>Folks there are never sad. <stage>Exeunt, R.</stage>
 </l>
@@ -1774,7 +1876,7 @@ Characters retire up.</head>
 <stage> Enter Martelli and Louis Dei Flunki , L . U . E . who is made up
 something like the "Stranger," and has a burlesque air of solemnity and inward
 sorrow. </stage>
-<sp>
+<sp who="#L1315_M5">
 <speaker>Martel.</speaker>
 <l>
 <stage>(down, L. C.)</stage> Come wake up; you're a lively sort, friend
@@ -1782,7 +1884,7 @@ Louis;</l>
 <l>You look, to say the least, uncommon bluey.</l>
 <l>Do something:—</l>
 </sp>
-<sp>
+<sp who="#L1315_M1">
 <speaker>Louis.</speaker>
 <l><stage>(R. C.)</stage> I have tried, upon my word,</l>
 <l>The dissipation tea gardens afford ;</l>
@@ -1791,12 +1893,12 @@ Louis;</l>
 <l>Still these wild joys have failed to rouse me—she</l>
 <l>Is all I think about.</l>
 </sp>
-<sp>
+<sp who="#L1315_M5">
 <speaker>Martel.</speaker>
 <l>
 <stage>(R. C.)</stage> Confide in me.</l>
 </sp>
-<sp>
+<sp who="#L1315_M1">
 <speaker>Louis.</speaker>
 <l>I will. You've heard, no doubt, me and my brother </l>
 <l>Have both the same sensation as each other;</l>
@@ -1812,21 +1914,21 @@ Louis;</l>
 <l>My brother called out "Woman," and he got her. <stage>(crosses, L.
 C.)</stage></l>
 </sp>
-<sp>
+<sp who="#L1315_M5">
 <speaker>Martel.</speaker>
 <l>Extremely sad!</l>
 </sp>
-<sp>
+<sp who="#L1315_M1">
 <speaker>Louis.</speaker>
 <l>But short his triumph though ;</l>
 <l>She married some one else.</l>
 </sp>
-<sp>
+<sp who="#L1315_M5">
 <speaker>Martel.</speaker>
 <l>How very low !</l>
 <stage>(music, " Twins," pianissimo)</stage>
 </sp>
-<sp>
+<sp who="#L1315_M1">
 <speaker>Louis.</speaker>
 <l><stage>(with intensity)</stage> One day—"may that returning day be
 night,"</l>
@@ -1848,12 +1950,12 @@ succeeding year!) For something, or for nothing, in his pride He struck me.
 <l>A case of <hi>Friendship's hovering,</hi> if not Love's.<stage>(crossing,
 R.)</stage></l>
 </sp>
-<sp>
+<sp who="#L1315_M5">
 <speaker>Martel.</speaker>
 <l>He's first-rate at the small sword—dread the thrust of it,</l>
 <l>A crack shot also, Louis.</l>
 </sp>
-<sp>
+<sp who="#L1315_M1">
 <speaker>Louis.</speaker>
 <l>
 <stage>( collapsing)</stage> That's the wust of it.</l>
@@ -1866,196 +1968,196 @@ a profound air of settled misery —Martelli goes up)</stage>
 <stage> Enter Montgiron surrounded by Marie , Estelle , Celestine and Coralie ,
 all laughing, down R .</stage>
 </sp>
-<sp>
+<sp who="#L1315_M4">
 <speaker>Mont.</speaker>
 <l>It's no use teasing me, I've not a sous;</l>
 <l>I'm but a younger brother.</l>
 </sp>
-<sp>
+<sp who="#L1315_F18">
 <speaker>Celes.</speaker>
 <l>Very true;</l>
 <l>But still a pair of gloves, some scent, a fan, </l>
 <l>Some trifle.</l>
 </sp>
-<sp>
+<sp who="#L1315_F17">
 <speaker>Coral.</speaker>
 <l>Oh, Celestine, how you can!</l>
 </sp>
-<sp>
+<sp who="#L1315_F18">
 <speaker>Celes.</speaker>
 <l>Madame, don't talk to me — </l>
 </sp>
-<sp>
+<sp who="#L1315_F17">
 <speaker>Coral.</speaker>
 <l>To you indeed!</l>
 </sp>
-<sp>
+<sp who="#L1315_F19">
 <speaker>Estel.</speaker>
 <l>We are invited here to a grand feed— </l>
 <l>Champagne <hi>ad libitum</hi> —where is it set ?</l>
 </sp>
-<sp>
+<sp who="#L1315_F17 #L1315_F18">
 <speaker>Celes|Coral</speaker>
 <l>Hear, Hear,</l>
 </sp>
-<sp>
+<sp who="#L1315_M4">
 <speaker>Mont.</speaker>
 <l>Ladies, we can't have supper yet.</l>
 </sp>
-<sp>
+<sp who="#L1315_F19">
 <speaker>Estel.</speaker>
 <l>Why not ? I'm hungry!</l>
 </sp>
-<sp>
+<sp who="#L1315_F18">
 <speaker>Celes.</speaker>
 <l>Yes, and so am I.<stage>(Montgiron goes up)</stage>
 </l>
 </sp>
-<sp>
+<sp who="#L1315_F17">
 <speaker>Coral.</speaker>
 <l>How can you go on so, Celestine, fie!</l>
 <pb n="35"/>
 </sp>
-<sp>
+<sp who="#L1315_F18">
 <speaker>Celes.</speaker>
 <l>We've come here to enjoy ourselves—far be it </l>
 <l>From me to mention wine—but I don't <hi>see</hi> it!</l>
 <stage>(Montgiron who has been up, comes down with Martelli and Louis)</stage>
 </sp>
-<sp>
+<sp who="#L1315_M4">
 <speaker>Mont.</speaker>
 <l>
 <stage>( C .)</stage> You shall do, ladies. Let me introduce</l>
 <l>A friend</l>
 </sp>
-<sp>
+<sp who="#L1315_F18">
 <speaker>Celes.</speaker>
 <l>
 <stage>(R. C, curtseying low and laughing at Louis)</stage> Cheearmed.</l>
 </sp>
-<sp>
+<sp who="#L1315_F17">
 <speaker>Coral.</speaker>
 <l>Oh don't, you little goose! <stage>(Louis goes up)</stage>
 </l>
 <l>1 am quite surprised!<stage>(pulling her dress)</stage>
 </l>
 </sp>
-<sp>
+<sp who="#L1315_F18">
 <speaker>Celes.</speaker>
 <l>You dare to touch me !—there !</l>
 <stage>(the two Girls slap at each other — general row, all talking— Manager Of
 Gardens comes forward fussily, L. 1. E .)</stage>
 </sp>
-<sp>
+<sp who="#L1315_M22">
 <speaker>Manager.</speaker>
 <l>Here, I shall lose my license, I declare.</l>
 </sp>
-<sp>
+<sp who="#L1315_M4">
 <speaker>Mont.</speaker>
 <l>It's all right.</l>
 </sp>
-<sp>
+<sp who="#L1315_M22">
 <speaker>Manag.</speaker>
 <l>No it ain't. You must keep steady.</l>
 <l>You owe me, too, a tidy lump already.</l>
 <l>If this goes on you'll have to quit the place.</l>
 </sp>
-<sp>
+<sp who="#L1315_M1">
 <speaker>Louis.</speaker>
 <l><stage>(L. C, who has come down, with air of grandeur)</stage>Supper for
 twelve.</l>
 </sp>
-<sp>
+<sp who="#L1315_Mult">
 <speaker>Ladies.</speaker>
 <l>Oh! </l>
 </sp>
-<sp>
+<sp who="#L1315_M22">
 <speaker>Manag.</speaker>
 <l>
 <stage>(bowing)</stage> That's another case.</l>
 </sp>
-<sp>
+<sp who="#L1315_M1">
 <speaker>Louis.</speaker>
 <l>Champagne — <stage>(Ladies clap hands)</stage>
 </l>
 </sp>
-<sp>
+<sp who="#L1315_M22">
 <speaker>Manag.</speaker>
 <l>Whose manufacture ?</l>
 </sp>
-<sp>
+<sp who="#L1315_M5">
 <speaker>Martel.</speaker>
 <l>
 <stage>(aside to Louis)</stage> You don't know it.</l>
 <l>Take my advice and cut it.</l>
 </sp>
-<sp>
+<sp who="#L1315_M1">
 <speaker>Louis.</speaker>
 <l>
 <hi>Cut</hi> it !<stage>(to Manager )</stage>
 <hi>Mo-</hi> it!</l>
 </sp>
-<sp>
+<sp who="#L1315_M22">
 <speaker>Manag.</speaker>
 <l>Much honoured!</l>
 </sp>
-<sp>
+<sp who="#L1315_M1">
 <speaker>Louis.</speaker>
 <l>Every kind expensive drink of, <stage>(Ladies delighted)</stage> And
 everything to eat that you can think of.</l>
 <stage>(goes up — turns and walks up with the same melancholy air)</stage>
 </sp>
-<sp>
+<sp who="#L1315_F18">
 <speaker>Celes.</speaker>
 <l>
 <stage>(crosses, R . C . to Martelli )</stage> Who is he?</l>
 </sp>
-<sp>
+<sp who="#L1315_M5">
 <speaker>Martel.</speaker>
 <l>He's a twin—just like his brother!</l>
 </sp>
-<sp>
+<sp who="#L1315_F18">
 <speaker>Celes.</speaker>
 <l>I must say I should like to meet the other.</l>
 </sp>
-<sp>
+<sp who="#L1315_M1">
 <speaker>Louis.</speaker>
 <l><stage>(coming down)</stage> And whilst the supper is preparing,</l>
 <l>bring — </l>
 </sp>
-<sp>
+<sp who="#L1315_F18">
 <speaker>Celes.</speaker>
 <l>Excuse me, champagne is the only thing.</l>
 <l>I touch—yes, Perrier Jouet I love dearly, </l>
 <l>Or Cliquot.</l>
 </sp>
-<sp>
+<sp who="#L1315_F17">
 <speaker>Coral.</speaker>
 <l>Nothing could be <hi>Ruderer,</hi> really!</l>
 <pb n="26"/>
 </sp>
-<sp>
+<sp who="#L1315_M1">
 <speaker>Louis.</speaker>
 <l>You hear? <stage>Exit Manager, L.</stage>
 </l>
 </sp>
-<sp>
+<sp who="#L1315_M5">
 <speaker>Martel.</speaker>
 <l>
 <stage>(aside)</stage> I hope he's got enough to pay with him.</l>
 <stage>(Louis gives a deep sigh)</stage>
 </sp>
-<sp>
+<sp who="#L1315_F18">
 <speaker>Celes.</speaker>
 <l>
 <stage>(aside to Martelli)</stage> Say, has he always got this jolly way with
 him?</l>
 </sp>
-<sp>
+<sp who="#L1315_M5">
 <speaker>Martel.</speaker>
 <l>A blighted love has caused this melancholy.</l>
 </sp>
-<sp>
+<sp who="#L1315_M1">
 <speaker>Louis.</speaker>
 <l><stage>(with his hand in his breast, and in deep tunes)</stage>
 </l>
@@ -2068,11 +2170,11 @@ him?</l>
 <l>However much away the <hi>hocks-I-put.</hi>
 </l>
 </sp>
-<sp>
+<sp who="#L1315_F18">
 <speaker>Celes.</speaker>
 <l>Champagne for us!</l>
 </sp>
-<sp>
+<sp who="#L1315_M1">
 <speaker>Louis.</speaker>
 <l><stage>(crossing, L. — aside to Garcon)</stage> That pink stuff that you
 sell</l>
@@ -2084,7 +2186,7 @@ sell</l>
 <head>
 <hi>Medley — Concerted Piece —<title>"Cheer up, Sam."</title></hi>
 </head>
-<sp>
+<sp who="#L1315_F15">
 <speaker>Marie.</speaker>
 <l>Some folks may talk of claret,</l>
 <l>Its virtues they maintain;</l>
@@ -2100,14 +2202,14 @@ sell</l>
 <l>And beats all your sherry,</l>
 <l>The pale, and the dry, and the brown!</l>
 </sp>
-<sp>
+<sp who="#L1315_Mult">
 <speaker>Chorus.</speaker>
 <l>Cheer up, cham</l>
 <l>pagne will dispel every frown, &amp;c.</l>
 <stage> Air(no symphony) —" Her Mincemeat Knife it went chop,chop, chop."
 </stage>
 </sp>
-<sp>
+<sp who="#L1315_F17">
 <speaker>Coral.</speaker>
 <l>A drink divine,</l>
 <l>Is that sparkling wine !</l>
@@ -2125,7 +2227,7 @@ sell</l>
 <l>A di'mond in every drop, drop, drop— </l>
 <l>Drippety, droppety, drop!</l>
 </sp>
-<sp>
+<sp who="#L1315_Mult">
 <speaker>Chorus.</speaker>
 <l>As the champagne bottles go pop, pop, pop, </l>
 <l>Pop, pop, pop, pop, pop, pop!</l>
@@ -2134,7 +2236,7 @@ sell</l>
 <stage> Air —" The Glorious Vintage of Champagne" (no symphony — to be played in
 the same time as above.)</stage>
 </sp>
-<sp>
+<sp who="#L1315_F19">
 <speaker>Estel.</speaker>
 <l>The glorious vintage of champagne</l>
 <l>Is a decided boon ;</l>
@@ -2150,14 +2252,14 @@ the same time as above.)</stage>
 <l>Then let our song have this refrain— </l>
 <l>The great advantage of champagne !</l>
 </sp>
-<sp>
+<sp who="#L1315_Mult">
 <speaker>Chorus.</speaker>
 <l>Then let our song have this refrain— The great advantage of champagne,
 &amp;c.</l>
 <stage> Air, —" Susan, Susan, pity my confusion." — (no symphony,same
 time)</stage>
 </sp>
-<sp>
+<sp who="#L1315_M1">
 <speaker>Louis.</speaker>
 <l>It's well to have enough for one,</l>
 <l>But if there should be two, </l>
@@ -2173,7 +2275,7 @@ time)</stage>
 <l>Soozan, Soozan, I expect my coozan,</l>
 <l>Which he is in the Ar-til-ler-ree.</l>
 </sp>
-<sp>
+<sp who="#L1315_Mult">
 <speaker>Chorus.</speaker>
 <l>Soozan, Soozan, order half-a-doozen, </l>
 <l>Of the best champagne that you can see!</l>
@@ -2185,42 +2287,42 @@ waltz — at conclusion the Ladies go up with Montgiron —Louis, a little overc
 with the wine down with Martelli , just before conclusion of waltz gets hustled
 about — music very piano through dialogue. </stage>
 </spGrp>
-<sp>
+<sp who="#L1315_M1">
 <speaker>Louis.</speaker>
 <l>Don't leave us, ladies—<stage>(staggers)</stage>
 </l>
 </sp>
-<sp>
+<sp who="#L1315_M5">
 <speaker>Martel.</speaker>
 <l>Hold up! you're unsteady.</l>
 </sp>
-<sp>
+<sp who="#L1315_M1">
 <speaker>Louis.</speaker>
 <l><stage>(r.c.)</stage> What's that there ?<stage>(reads)</stage> " Sherry
 cobblers always ready."<stage>(Ladies laugh)</stage>
 </l>
 <l>Let's—let's have a cobbler!</l>
 </sp>
-<sp>
+<sp who="#L1315_M5">
 <speaker>Martel.</speaker>
 <l>
 <stage>(L. C.)</stage> No ; it's near the hour.</l>
 <l>I thought he bragged too much about his power— </l>
 </sp>
-<sp>
+<sp who="#L1315_M1">
 <speaker>Louis.</speaker>
 <l>
 <stage>(very drunk)</stage> His power?</l>
 </sp>
-<sp>
+<sp who="#L1315_M5">
 <speaker>Martel.</speaker>
 <l>Over Emilie Lesparre.</l>
 </sp>
-<sp>
+<sp who="#L1315_M1">
 <speaker>Louis.</speaker>
 <l><stage>(suddenly sober)</stage> What!<stage>(crossing, R .)</stage></l>
 </sp>
-<sp>
+<sp who="#L1315_M5">
 <speaker>Martel.</speaker>
 <l>Jove! He didn't, though, for here they are. <stage>(music)</stage></l>
 
@@ -2228,7 +2330,7 @@ cobblers always ready."<stage>(Ladies laugh)</stage>
 bows to Martelli — does not perceive Louis, who is panting in horror at side,
 R., a little up. </stage>
 </sp>
-<sp>
+<sp who="#L1315_M3">
 <speaker>Chateau.</speaker>
 <l>The wager's mine—the tin, please, ready get— </l>
 <l>I've <hi>found</hi> my <hi>Emilie</hi> —you have <hi>lost</hi> your <hi>Bet!
@@ -2236,7 +2338,7 @@ R., a little up. </stage>
 <l>You see I'm up to time.</l>
 <pb n="29"/>
 </sp>
-<sp>
+<sp who="#L1315_F16">
 <speaker>Emilie.</speaker>
 <l>
 <stage>(L. C.)</stage> Is this a dream ?</l>
@@ -2245,14 +2347,14 @@ R., a little up. </stage>
 <l>To—to —<stage>(overcome with rage)</stage>
 </l>
 </sp>
-<sp>
+<sp who="#L1315_M3">
 <speaker>Chateau.</speaker>
 <l>
 <stage>(L. C.)</stage> To have a little supper with us, dear.</l>
 <l>We thought you were <hi>ennuyée,</hi> and I laid</l>
 <l>A wager —</l>
 </sp>
-<sp>
+<sp who="#L1315_F16">
 <speaker>Emilie.</speaker>
 <l>
 <stage>(boiling with rage)</stage> May you never get it paid! </l>
@@ -2276,41 +2378,41 @@ R., a little up. </stage>
 <stage>( this has been worked up with great intensity — slight pause. — music
 ceases)</stage>
 </sp>
-<sp>
+<sp who="#L1315_M3">
 <speaker>Chateau.</speaker>
 <l>Cease these anathemas.</l>
 </sp>
-<sp>
+<sp who="#L1315_M1">
 <speaker>Louis.</speaker>
 <l><stage>(crosses L. C. to Chateau)</stage> Hem! This young <hi>pussin</hi>
 </l>
 <l>Is my relation.</l>
 </sp>
-<sp>
+<sp who="#L1315_M3">
 <speaker>Chateau.</speaker>
 <l>Is she ?</l>
 </sp>
-<sp>
+<sp who="#L1315_M1">
 <speaker>Louis.</speaker>
 <l>Yes, a <hi>cussin.</hi>
 </l>
 <l>She's had enough of your society, </l>
 <l>And will retire at once </l>
 </sp>
-<sp>
+<sp who="#L1315_M3">
 <speaker>Chateau.</speaker>
 <l>Halloa!</l>
 </sp>
-<sp>
+<sp who="#L1315_M1">
 <speaker>Louis.</speaker>
 <l>With me.</l>
 </sp>
-<sp>
+<sp who="#L1315_M3">
 <speaker>Chateau.</speaker>
 <l>Rubbish. Before we've had a glass of wine? She won't <hi>take any harm.</hi>
 </l>
 </sp>
-<sp>
+<sp who="#L1315_M1">
 <speaker>Louis.</speaker>
 <l><stage>(taking Madame de Lesparre's arm under his)</stage> No, none but
 <hi>mine.</hi>
@@ -2318,12 +2420,12 @@ ceases)</stage>
 <l>Come, Emily!</l>
 <pb n="30"/>
 </sp>
-<sp>
+<sp who="#L1315_M4">
 <speaker>Mont.</speaker>
 <l>
 <stage>(aside to Chateau)</stage> You won't allow this, surely? </l>
 </sp>
-<sp>
+<sp who="#L1315_M3">
 <speaker>Chateau.</speaker>
 <l>
 <stage>(chaffingly to Louis)</stage> Monsieur di Flunki, you look somewhat
@@ -2331,7 +2433,7 @@ poorly.</l>
 <l>A little change of scene—ahem !—you know! </l>
 <l>To-morrow morning—nine—at Fontain <hi>bleau</hi> .</l>
 </sp>
-<sp>
+<sp who="#L1315_M1">
 <speaker>Louis.</speaker>
 <l>
 <hi>Blow</hi> Fountain<hi>bleau</hi> ! shan't go! I say, look here ! <stage>(to
@@ -2339,65 +2441,65 @@ Madame de Lesparre)</stage>
 </l>
 <l>Look at the mess you've got me in, my dear ! </l>
 </sp>
-<sp>
+<sp who="#L1315_M3">
 <speaker>Chateau.</speaker>
 <l>Do you accept my challenge ?</l>
 </sp>
-<sp>
+<sp who="#L1315_M1">
 <speaker>Louis.</speaker>
 <l>No, I don't.</l>
 </sp>
-<sp>
+<sp who="#L1315_M3">
 <speaker>Chateau.</speaker>
 <l>I call you out!</l>
 </sp>
-<sp>
+<sp who="#L1315_M1">
 <speaker>Louis.</speaker>
 <l>Shan't come!</l>
 </sp>
-<sp>
+<sp who="#L1315_M3">
 <speaker>Chateau.</speaker>
 <l>You won't ?</l>
 </sp>
-<sp>
+<sp who="#L1315_M1">
 <speaker>Louis.</speaker>
 <l>I won't!</l>
 </sp>
-<sp>
+<sp who="#L1315_F16">
 <speaker>Emilie.</speaker>
 <l>You will be branded—have your name too stuck up.</l>
 </sp>
-<sp>
+<sp who="#L1315_M1">
 <speaker>Louis.</speaker>
 <l><stage>(aside)</stage> I must be <hi>brandy'd</hi> 'fore I get my pluck
 up.</l>
 </sp>
-<sp>
+<sp who="#L1315_F16">
 <speaker>Emilie.</speaker>
 <l>He'll post you!</l>
 </sp>
-<sp>
+<sp who="#L1315_M1">
 <speaker>Louis.</speaker>
 <l>
 <hi>Post</hi> me!</l>
 </sp>
-<sp>
+<sp who="#L1315_F16">
 <speaker>Emilie.</speaker>
 <l>As a cur—get out!</l>
 </sp>
-<sp>
+<sp who="#L1315_M1">
 <speaker>Louis.</speaker>
 <l>In the <hi>dead</hi> letter office, I've no doubt.</l>
 <l><stage>(crossing R . C , to Martelli )</stage> You'll stand my friend ?</l>
 <l>We are old pals </l>
 </sp>
-<sp>
+<sp who="#L1315_M5">
 <speaker>Martel.</speaker>
 <l>I will.</l>
 <l>Should Chateau Renaud my friend Louis kill.</l>
 <l><stage>(Louis collapses)</stage> Stand up ! I'll tell your mother.</l>
 </sp>
-<sp>
+<sp who="#L1315_M1">
 <speaker>Louis.</speaker>
 <l>Pooh, you flat,</l>
 <l>That isn't acting as a friend, not that.</l>
@@ -2409,7 +2511,7 @@ up.</l>
 <spGrp>
 <head> Air .—<title>"Come where the Moonbeams linger."</title>
 </head>
-<sp>
+<sp who="#L1315_F16">
 <speaker>Emilie.</speaker>
 <l>Go where the moonbeams linger,</l>
 <l>Off, it is early morn;</l>
@@ -2421,14 +2523,14 @@ up.</l>
 <l>He's such a fellow to fight!</l>
 <pb n="31"/>
 </sp>
-<sp>
+<sp who="#L1315_M3">
 <speaker>Chateau.</speaker>
 <l>At every kind of weapon</l>
 <l>I am a dab, you know;</l>
 <l>And I can use my fists as well, Sure as I'm Chateau Renaud.</l>
 
 </sp>
-<sp>
+<sp who="#L1315_F16">
 <speaker>Emilie.</speaker>
 <l>Go where the moonbeams linger,</l>
 <l>Get your back to the light, </l>
@@ -2437,30 +2539,30 @@ up.</l>
 </l>
 
 </sp>
-<sp>
+<sp who="#L1315_F15">
 <speaker>Marie.</speaker>
 <l>Oh ! what a dreadful party; </l>
 <l>Who could imagine such ? </l>
 </sp>
-<sp>
+<sp who="#L1315_M1">
 <speaker>Louis.</speaker>
 <l>Louis admits in heart he's </l>
 <l>Weak, and his courage Dutch.</l>
 
 </sp>
-<sp>
+<sp who="#L1315_M4">
 <speaker>Mont.</speaker>
 <l>Up in the early morning, </l>
 <l>He'll have to meet his foe; </l>
 </sp>
-<sp>
+<sp who="#L1315_F18">
 <speaker>Celes.</speaker>
 <l>Danger and rheumatics scorning—</l>
 <l>Terrible Chateau Renaud.</l>
 
 
 </sp>
-<sp>
+<sp who="#L1315_M3">
 <speaker>Chateau.</speaker>
 <l>It's his own fault, no other's,</l>
 <l>If he'll apologize, I shan't accept it—really—</l>
@@ -2468,7 +2570,7 @@ up.</l>
 <l>Then don't apologize.</l>
 
 </sp>
-<sp>
+<sp who="#L1315_F16">
 <speaker>Emilie.</speaker>
 <l>Go where the moonbeams, &amp;c.</l>
 </sp>
@@ -2482,7 +2584,7 @@ up.</l>
 <hi>Scene Fourth.— Corridor of an Hotel.</hi>
 </head>
 <stage> Enter Griffo and Marie (as if after a journey), L .</stage>
-<sp>
+<sp who="#L1315_M10">
 <speaker>Griffo.</speaker>
 <l>Was ever coachman so extremely dense ?</l>
 <l>And why on earth call it a diligence ?</l>
@@ -2492,7 +2594,7 @@ diligence—dare say </l>
 <l>Because it dilly-dallies on the way.</l>
 <l>None of your flirting with our two new flunkeys. </l>
 </sp>
-<sp>
+<sp who="#L1315_F15">
 <speaker>Marie.</speaker>
 <l>Flirting, indeed!—a hideous pair of monkeys, </l>
 <l>What missis was about to bring them Well, <hi>Griffo.</hi> Missis's family is
@@ -2504,16 +2606,16 @@ rather swell,</l>
 <stage> Enter Orlando and Colonna , R ., in exaggerated liveries, bouquets,
 white gloves and long sticks. </stage>
 </sp>
-<sp>
+<sp who="#L1315_M6">
 <speaker>Orlan.</speaker>
 <l>There's a disgraceful shame ; I feel so mean. </l>
 </sp>
-<sp>
+<sp who="#L1315_M7">
 <speaker>Colon.</speaker>
 <l>My calves are not accustomed to be seen, </l>
 <l>And they don't like it.</l>
 </sp>
-<sp>
+<sp who="#L1315_M6">
 <speaker>Orlan.</speaker>
 <l>In the mountains we</l>
 <l>Wore gartered bandages up to the knee;</l>
@@ -2521,11 +2623,11 @@ white gloves and long sticks. </stage>
 <l>Yes, covering a " multitude of <hi>shins." </hi></l>
 <l>Now as I walk along they cause remark.</l>
 </sp>
-<sp>
+<sp who="#L1315_M7">
 <speaker>Colon.</speaker>
 <l>I shan't go out at all till after dark.</l>
 </sp>
-<sp>
+<sp who="#L1315_M6">
 <speaker>Orlan.</speaker>
 <l>Up in the mountains we were happy—free.</l>
 <l>It's true we seldom dined; but then our tea, </l>
@@ -2542,27 +2644,27 @@ white gloves and long sticks. </stage>
 <l>Shall we be free again?<stage>(this with great intensity)</stage>
 </l>
 </sp>
-<sp>
+<sp who="#L1315_M7">
 <speaker>Colon.</speaker>
 <l>Hooray!</l>
 </sp>
-<sp>
+<sp who="#L1315_M10">
 <speaker>Griffo.</speaker>
 <l>Bosh this is.</l>
 </sp>
-<sp>
+<sp who="#L1315_M6">
 <speaker>Orlan.</speaker>
 <l>
 <stage>(crosses, R.)</stage> Away! away! to the mountain's brow !</l>
 </sp>
-<sp>
+<sp who="#L1315_M7">
 <speaker>Colon.</speaker>
 <l>
 <stage>(collapsing)</stage> Here's missis.</l>
 <stage> Enter Madame Dei Flunki , L ., enveloped in travelling clothes — furry
 and comic. </stage>
 </sp>
-<sp>
+<sp who="#L1315_F14">
 <speaker>Madame.</speaker>
 <l>
 <stage>(crossing, C.)</stage> Where is my boy, my boy! has no one heard of him
@@ -2586,7 +2688,7 @@ and comic. </stage>
 give you all your warning on the spot</l>
 <l>If you don't — </l>
 </sp>
-<sp>
+<sp who="#L1315_M10">
 <speaker>Griffo.</speaker>
 <l>
 <stage>(aside, crossing, L. C.)</stage> Hem! Well, p'raps we'd better tell
@@ -2595,29 +2697,29 @@ her.</l>
 feller.</l>
 <stage>(breaks down in tears —All howl)</stage>
 </sp>
-<sp>
+<sp who="#L1315_F14">
 <speaker>Madame.</speaker>
 <l>
 <stage>(alarmed, crossing, L. C.)</stage> What of him?</l>
 </sp>
-<sp>
+<sp who="#L1315_F15">
 <speaker>Marie.</speaker>
 <l>Oh, ma'am, it's so very sad!</l>
 </sp>
-<sp>
+<sp who="#L1315_F14">
 <speaker>Madame.</speaker>
 <l>
 <stage>( C .)</stage> The trouble that I've had about that lad.</l>
 <l>What's he done now ?</l>
 </sp>
-<sp>
+<sp who="#L1315_M6">
 <speaker>Orlan.</speaker>
 <l>
 <stage>(crossing, R. C.)</stage> You've heard of Chateau Renaud, A party to whom
 <hi>no</hi> girl could yet say " No !" </l>
 <l>He's such a winning dog—there's no one like him.</l>
 </sp>
-<sp>
+<sp who="#L1315_F14">
 <speaker>Madame.</speaker>
 <l>
 <stage>(arranging her dress — aside)</stage> I wonder very much if I shall
@@ -2628,11 +2730,11 @@ strike him?</l>
 <l>Which young things in their teens do not possess.</l>
 <l>Go on . Go on!</l>
 </sp>
-<sp>
+<sp who="#L1315_M6">
 <speaker>Orlan.</speaker>
 <l>Well, him and Monsieur Louis — </l>
 </sp>
-<sp>
+<sp who="#L1315_M7">
 <speaker>Colon.</speaker>
 <l>
 <stage>(crossing L. C.)</stage> Fought, and De Renaud, who's a reg'ler <hi>
@@ -2645,7 +2747,7 @@ roue,</hi>
 <l>For—no offence, mum ; what's he <hi>know of fence, mum?</hi>
 </l>
 </sp>
-<sp>
+<sp who="#L1315_M6">
 <speaker>Orlan.</speaker>
 <l>
 <stage>(crossing C Olonna )</stage> Well, hearing of this deed so very
@@ -2661,21 +2763,21 @@ black,</l>
 <stage>(suiting the action to the word)</stage>
 </l>
 </sp>
-<sp>
+<sp who="#L1315_M7">
 <speaker>Colon.</speaker>
 <l>Rubbish, De Renaud is a dab at all swords, </l>
 <l>From <hi>"sarbers de mong pare,"</hi> to pair o' small swords! </l>
 <l>With rapiers he is up to dreadful tricks,</l>
 <l>And the big broadsword blades of " <hi>Brayvo 'Icks.</hi>" ¬ </l>
 </sp>
-<sp>
+<sp who="#L1315_M10">
 <speaker>Griffo.</speaker>
 <l>De Renaud 'll run him through, I'll lay a penny,</l>
 <l>And treat his mountain buzzum like Mont <hi>Senny.</hi>
 </l>
 <stage>(All groan and with pocket handkerchiefs to eyes)</stage>
 </sp>
-<sp>
+<sp who="#L1315_F14">
 <speaker>Madame.</speaker>
 <l>What's to be done ? The wood of Fontainbleau</l>
 <l>Is where they always go and fight, you know.</l>
@@ -2688,7 +2790,7 @@ black,</l>
 </sp>
 <spGrp>
 <head><hi>Concerted Piece —<title>"I'm her Pa."</title></hi></head>
-<sp>
+<sp who="#L1315_F14">
 <speaker>Madame.</speaker>
 <l>Have you seen my son, mum ?</l>
 <l>Each is like the one, mum ;</l>
@@ -2699,14 +2801,14 @@ black,</l>
 <l>She'll have a bill, struck off she will,</l>
 <l>And offer a reward.</l>
 </sp>
-<sp>
+<sp who="#L1315_F15">
 <speaker>Marie.</speaker>
 <l>Don't agitate yourself, mum,</l>
 <l>Or throw away your pelf, mum, </l>
 <l>But take the matter quietly,</l>
 <l>Resigned and quite piano.</l>
 </sp>
-<sp>
+<sp who="#L1315_F14">
 <speaker>Madame.</speaker>
 <l>Oh, they both are teazers—reg'ler Julius Caesars!</l>
 <l>They've curly hair—the lovely pair—</l>
@@ -2716,21 +2818,21 @@ black,</l>
 <l>And I always feel so proud That I'm their ma !</l>
 <pb n="35"/>
 </sp>
-<sp>
+<sp who="#L1315_M7">
 <speaker>Colon.</speaker>
 <l>Take the matter easy,</l>
 <l>Don't go on so breezy ;</l>
 <l>Depend upon't, before you want,</l>
 <l>They'll both come back and squeeze ye !</l>
 </sp>
-<sp>
+<sp who="#L1315_F15">
 <speaker>Marie.</speaker>
 <l>Then pray keep up your pecker,</l>
 <l>Be manly, like Miss Becker;</l>
 <l>Remember they've some property—</l>
 <l>Some landed propertie.</l>
 </sp>
-<sp>
+<sp who="#L1315_F14">
 <speaker>Madame.</speaker>
 <l>They've had an education, </l>
 <l>Suited to their station ;</l>
@@ -2738,7 +2840,7 @@ black,</l>
 <l>And play on the pian-o.</l>
 <l>Oh, they both are teazers, &amp;c.</l>
 </sp>
-<sp>
+<sp who="#L1315_Mult">
 <speaker>All.</speaker>
 <l>They both are teazers, &amp;c.<stage>(breakdown, off, R.)</stage></l>
 </sp>
@@ -2750,21 +2852,21 @@ black,</l>
 </head>
 <stage>" The Twins" played as Scene opens; Chateau Renaud seated on a broken
 trunk, L . 2 E . ; Martelli looking off, R . 1 E .</stage>
-<sp>
+<sp who="#L1315_M5">
 <speaker>Martel.</speaker>
 <l>You want a pick-me-up—you're hipped.</l>
 </sp>
-<sp>
+<sp who="#L1315_M3">
 <speaker>Chateau.</speaker>
 <l>I am.</l>
 <l>Hock is delusive, and how <hi>false</hi> is " <hi>sham."</hi>
 </l>
 </sp>
-<sp>
+<sp who="#L1315_M5">
 <speaker>Martel.</speaker>
 <l>Here is my flask —come now, one little sip.</l>
 </sp>
-<sp>
+<sp who="#L1315_M3">
 <speaker>Chateau.</speaker>
 <l>Friend at a <hi>pinch,</hi> and also at a <hi>nip.</hi>
 <stage>(takes flask)</stage>
@@ -2774,18 +2876,18 @@ trunk, L . 2 E . ; Martelli looking off, R . 1 E .</stage>
 </l>
 <l>It cheers one—gives one courage </l>
 </sp>
-<sp>
+<sp who="#L1315_M5">
 <speaker>Martel.</speaker>
 <l>Which you're out of.</l>
 </sp>
-<sp>
+<sp who="#L1315_M3">
 <speaker>Chateau.</speaker>
 <l>That, my dear friend, there's very little doubt of.</l>
 <l>When I'm alone—when all alone—I vow—</l>
 <l>(And as you're nobody, I feel so now.)</l>
 <l>When I'm alone, remorseful visions rise.</l>
 </sp>
-<sp>
+<sp who="#L1315_M5">
 <speaker>Martel.</speaker>
 <l>Well, if you will go in for Strasbourg pies, </l>
 <l>And <hi>pate de foie gras</hi> in mammoth heaps !</l>
@@ -2797,46 +2899,46 @@ trunk, L . 2 E . ; Martelli looking off, R . 1 E .</stage>
 </l>
 <pb n="36"/>
 </sp>
-<sp>
+<sp who="#L1315_M3">
 <speaker>Chateau.</speaker>
 <l>I only <hi>tried</hi> it.</l>
 </sp>
-<sp>
+<sp who="#L1315_M5">
 <speaker>Martel.</speaker>
 <l>It with manners true,</l>
 <l>Returned the compliment by trying <hi>you</hi> !</l>
 </sp>
-<sp>
+<sp who="#L1315_M3">
 <speaker>Chateau.</speaker>
 <l>This is the very spot—the very spot</l>
 <l>On which poor Louis got it.</l>
 </sp>
-<sp>
+<sp who="#L1315_M5">
 <speaker>Martel.</speaker>
 <l>No, it's not;</l>
 <l>It's not exactly where he got it.</l>
 </sp>
-<sp>
+<sp who="#L1315_M3">
 <speaker>Chateau.</speaker>
 <l>Why ?</l>
 </sp>
-<sp>
+<sp who="#L1315_M5">
 <speaker>Martel.</speaker>
 <l>The spot on which he got it's on his <hi>eye.</hi>
 </l>
 </sp>
-<sp>
+<sp who="#L1315_M3">
 <speaker>Chateau.</speaker>
 <l>I feel for it remorse, likewise disgrace too;</l>
 <l><stage>(with great grief)</stage> And when he'd said no hittings in the face,
 too !</l>
 <stage>(buries his head in his hands, and takes R., corner)</stage>
 </sp>
-<sp>
+<sp who="#L1315_M5">
 <speaker>Mart.</speaker>
 <l>Cheer up! </l>
 </sp>
-<sp>
+<sp who="#L1315_M3">
 <speaker>Chateau.</speaker>
 <l>I can't—I'm overcome by fear!</l>
 <l>Our carriage didn't, mind you, break down here</l>
@@ -2849,16 +2951,16 @@ staggers back, and Meynard enters, R. 2 E.)</stage>
 </l>
 <l>Which of you is it ?<stage>(in horror to Fabien )</stage></l>
 </sp>
-<sp>
+<sp who="#L1315_M2">
 <speaker>Fabien.</speaker>
 <l>That you soon shall find.</l>
 </sp>
-<sp>
+<sp who="#L1315_M3">
 <speaker>Chateau.</speaker>
 <l>
 <stage>(aside)</stage> If it had been his ghost, I shouldn't mind,</l>
 </sp>
-<sp>
+<sp who="#L1315_M2">
 <speaker>Fabien.</speaker>
 <l>I'm Fabien dei Flunki—come away, </l>
 <l>As fast as possible from Corsi <hi>cay</hi> .</l>
@@ -2870,50 +2972,50 @@ clasped)</stage>
 <l>It was my brother Louis' eye— <hi>I nose.</hi>
 </l>
 </sp>
-<sp>
+<sp who="#L1315_M3">
 <speaker>Chateau.</speaker>
 <l>Your brother got what he deserved.</l>
 </sp>
-<sp>
+<sp who="#L1315_M2">
 <speaker>Fabien.</speaker>
 <l>No doubt,</l>
 <l>But now, sir, you and I must have it out!</l>
 </sp>
-<sp>
+<sp who="#L1315_M3">
 <speaker>Chateau.</speaker>
 <l>Fight you!<stage>(crossing, L., commences lighting cigarette)</stage>
 </l>
 <pb n="37"/>
 </sp>
-<sp>
+<sp who="#L1315_M2">
 <speaker>Fabien.</speaker>
 <l>I felt the blow on my proboscis, </l>
 <l>And instantly I ordered out <hi>post-hosses </hi>; </l>
 <l>Put on the steam, and travelled day and night </l>
 <l>I haven't slept for five days.</l>
 </sp>
-<sp>
+<sp who="#L1315_M5">
 <speaker>Martel.</speaker>
 <l>
 <stage>(slaps him on the back)</stage> That's all right.</l>
 <l>Five sleepless nights would knock up any fella!</l>
 </sp>
-<sp>
+<sp who="#L1315_M2">
 <speaker>Fabien.</speaker>
 <l>I'd no companion but my umberella !</l>
 <l>Nor have I tasted food.</l>
 </sp>
-<sp>
+<sp who="#L1315_M5">
 <speaker>Martel.</speaker>
 <l>
 <stage>(to Chateau)</stage> That's better still;</l>
 <l>He'll be so weak.</l>
 </sp>
-<sp>
+<sp who="#L1315_M2">
 <speaker>Fabien.</speaker>
 <l>You'll fight me ?</l>
 </sp>
-<sp>
+<sp who="#L1315_M3">
 <speaker>Chateau.</speaker>
 <l>Yes, I will!<stage>(crosses, C.)</stage></l>
 <l>But, understand, I don't fight any more.</l>
@@ -2922,7 +3024,7 @@ clasped)</stage>
 </l>
 <l>I shall decidedly object to fight 'em!<stage>(crosses, L.)</stage></l>
 </sp>
-<sp>
+<sp who="#L1315_M2">
 <speaker>Fabien.</speaker>
 <l><stage>(very pathetically)</stage> Don't be alarmed ! the feud will end with
 me:</l>
@@ -2933,20 +3035,20 @@ me:</l>
 gradually dropping off into a doze)</stage>
 </l>
 </sp>
-<sp>
+<sp who="#L1315_M3">
 <speaker>Chateau.</speaker>
 <l>
 <stage>(crossing, L. C.—aside to Martelli)</stage> I'll wait until he drops off
 in a doze,</l>
 <l>And then, sir, let him have it on his nose.</l>
 </sp>
-<sp>
+<sp who="#L1315_M9">
 <speaker>Meynard.</speaker>
 <l>
 <stage>(r., remonstratingly, to Fabien)</stage> I say, wake up! He's dozing, I
 declare.</l>
 </sp>
-<sp>
+<sp who="#L1315_M2">
 <speaker>Fabien.</speaker>
 <l>
 <stage>(snores, dreamily)</stage> If that's my shaving water, leave it
@@ -2954,25 +3056,25 @@ there.</l>
 <l>Bring me a cup of coffee when I ring.<stage>(subsides into slumber)</stage>
 </l>
 </sp>
-<sp>
+<sp who="#L1315_M9">
 <speaker>Meynard.</speaker>
 <l>I say—Revenge! and all that sort of thing.</l>
 <l><stage>(rouses Fabien )</stage> A dreadful blow De Renaud did allot him.</l>
 </sp>
-<sp>
+<sp who="#L1315_M2">
 <speaker>Fabien.</speaker>
 <l>
 <stage>(after slight yawn)</stage> I beg my brother's pardon— I forgot him !</l>
 <l>Really, I —</l>
 <pb n="38"/>
 </sp>
-<sp>
+<sp who="#L1315_M3">
 <speaker>Chateau.</speaker>
 <l>
 <stage>(aside)</stage> He's awake, and I confess,</l>
 <l>I feel——<stage>(aloud)</stage> But we've no weapons.</l>
 </sp>
-<sp>
+<sp who="#L1315_M2">
 <speaker>Fabien.</speaker>
 <l>
 <stage>(goes up, c, and pulls up sticks)</stage> Weapons?— yes.</l>
@@ -2981,45 +3083,45 @@ there.</l>
 <l>Behold!<stage>(chord)</stage>
 </l>
 </sp>
-<sp>
+<sp who="#L1315_M3">
 <speaker>Chateau.</speaker>
 <stage>(taking Martelli's hand — aside and with intensity)</stage>
 <l>His eye is hard upon me. Oh, why—why </l>
 <l>Was I so hard upon his brother's eye ?</l>
 <l>I feel that I shall get the worst.</l>
 </sp>
-<sp>
+<sp who="#L1315_M5">
 <speaker>Martel.</speaker>
 <l>The blues</l>
 <l>Are overcoming you.</l>
 </sp>
-<sp>
+<sp who="#L1315_M9">
 <speaker>Meynard.</speaker>
 <l>
 <stage>(crossing, R. c, handing weapons)</stage> The weapons choose.</l>
 </sp>
-<sp>
+<sp who="#L1315_M3">
 <speaker>Chateau.</speaker>
 <l>
 <stage>(comparing them)</stage> This one's the knottier; for me 'twill do.</l>
 <l>I'm certainly the <hi>nottier</hi> of the two.</l>
 <stage>(Meynard gives Fabien stick, and crosses, R., behind)</stage>
 </sp>
-<sp>
+<sp who="#L1315_M2">
 <speaker>Fabien.</speaker>
 <l>
 <stage>(with stick)</stage> Now are you ready ?<stage>(yawns heavily)</stage>
 </l>
 </sp>
-<sp>
+<sp who="#L1315_M9">
 <speaker>Meynard.</speaker>
 <l><stage>(pushing him)</stage> Here don't go to sleep so ! </l>
 </sp>
-<sp>
+<sp who="#L1315_M2">
 <speaker>Fabien.</speaker>
 <l>Excuse me, but you see I am on guard. </l>
 </sp>
-<sp>
+<sp who="#L1315_M3">
 <speaker>Chateau.</speaker>
 <l>Keep so. <stage>(Chateau and Fabien take off coats — aside to
 Martelli)</stage>
@@ -3032,12 +3134,12 @@ happier than it e'er made <hi>me. </hi>
 </l>
 <l>Nearly two pounds was on that ticker lent.</l>
 </sp>
-<sp>
+<sp who="#L1315_M5">
 <speaker>Martel.</speaker>
 <l>
 <stage>(overcome)</stage> It is too much !</l>
 </sp>
-<sp>
+<sp who="#L1315_M3">
 <speaker>Chateau.</speaker>
 <l>It <hi>is,</hi> it never <hi>went.</hi>
 </l>
@@ -3053,74 +3155,74 @@ happier than it e'er made <hi>me. </hi>
 <l>To all my money-lenders also go,</l>
 <l>They always took <hi>such interest,</hi> you know.</l>
 </sp>
-<sp>
+<sp who="#L1315_M2">
 <speaker>Fabien.</speaker>
 <l>
 <stage>(asleep —Meynard shakes him —Fabien shows muscle)</stage> Time!</l>
 </sp>
-<sp>
+<sp who="#L1315_M3">
 <speaker>Chateau.</speaker>
 <l>
 <stage>(takes Eau-de-Cologne from Martelli)</stage> I'm prepared!<stage>(they
 cross the sticks)</stage>
 </l>
 </sp>
-<sp>
+<sp who="#L1315_M2">
 <speaker>Fabien.</speaker>
 <l>Behold, we cross our <hi>two</hi> sticks !</l>
 </sp>
-<sp>
+<sp who="#L1315_M3">
 <speaker>Chateau.</speaker>
 <l>Just so.</l>
 <stage>(after a little business Renaud catches Fabien on the ear)</stage>
 </sp>
-<sp>
+<sp who="#L1315_M2">
 <speaker>Fabien.</speaker>
 <l>Hullo!</l>
 </sp>
-<sp>
+<sp who="#L1315_M3">
 <speaker>Chateau.</speaker>
 <l>A lesson in <hi>acoustics.</hi>
 </l>
 </sp>
-<sp>
+<sp who="#L1315_M5">
 <speaker>Martel.</speaker>
 <l>Ear! Ear! Ear!</l>
 </sp>
-<sp>
+<sp who="#L1315_M2">
 <speaker>Fabien.</speaker>
 <l>Ah! let him laugh who wins—I shall be winner !<stage>(business
 repeated)</stage>
 </l>
 </sp>
-<sp>
+<sp who="#L1315_M3">
 <speaker>Chateau.</speaker>
 <l>Don't brag— it's very rude,<stage>(catches Fabien on the shin ; he
 howls)</stage>
 </l>
 </sp>
-<sp>
+<sp who="#L1315_M2">
 <speaker>Fabien.</speaker>
 <l>What's that?<stage>(dancing with pain)</stage>
 </l>
 </sp>
-<sp>
+<sp who="#L1315_M3">
 <speaker>Chateau.</speaker>
 <l>A <hi>"shinner."</hi>
 </l>
 <l>How does it feel ?</l>
 </sp>
-<sp>
+<sp who="#L1315_M2">
 <speaker>Fabien.</speaker>
 <l>
 <stage>(hopping)</stage> It doesn't hurt a bit.</l>
 </sp>
-<sp>
+<sp who="#L1315_M3">
 <speaker>Chateau.</speaker>
 <l>I hit your <hi>shin.</hi>
 </l>
 </sp>
-<sp>
+<sp who="#L1315_M2">
 <speaker>Fabien.</speaker>
 <l>
 <stage>(rubbing it)</stage> Just so—don't <hi>men-shin hit.</hi>
@@ -3131,11 +3233,11 @@ howls)</stage>
 </head>
 <stage>(enough movement kept up not to interfere with the words of the
 song)</stage>
-<sp>
+<sp who="#L1315_M3">
 <speaker>Chateau.</speaker>
 <l>Oh, once I dearly loved to fight with swords.</l>
 </sp>
-<sp>
+<sp who="#L1315_M2">
 <speaker>Fabien.</speaker>
 <l>I hate their whizz</l>
 <l>Just past your ears, and I prefer</l>
@@ -3146,18 +3248,18 @@ song)</stage>
 <l>It's made of coarsish wood you know, </l>
 <l>And it's just about the age.</l>
 </sp>
-<sp>
+<sp who="#L1315_Mult">
 <speaker>Chorus.</speaker>
 <l>It's made of coarsish wood you know—</l>
 <l>The wood you know—the wood ;</l>
 <l>It's made of coarsish wood you know,</l>
 <l>And it's just about the age.</l>
 </sp>
-<sp>
+<sp who="#L1315_M3">
 <speaker>Chateau.</speaker>
 <l>Oh, if your mother only had a notion you were out,</l>
 </sp>
-<sp>
+<sp who="#L1315_M2">
 <speaker>Fabien.</speaker>
 <l>She'd go into hysterics, could she fancy what about .</l>
 <pb n="40"/>
@@ -3168,84 +3270,84 @@ song)</stage>
 <l>Pa said it did me good, you know,</l>
 <l>I was just about the age.</l>
 </sp>
-<sp>
+<sp who="#L1315_Mult">
 <speaker>Chorus.</speaker>
 <l>But then, you know, he would you know, </l>
 <l>He would, you know, he would.</l>
 <l>Pa said it did him good, you know, He was just about the age.</l>
 </sp>
-<sp>
+<sp who="#L1315_M3">
 <speaker>Chateau.</speaker>
 <l>Now, mind yourself, Dei Flunki.</l>
 </sp>
-<sp>
+<sp who="#L1315_M2">
 <speaker>Fabien.</speaker>
 <l>And mind yourself, Renaud. </l>
 </sp>
-<sp>
+<sp who="#L1315_M5">
 <speaker>Martel.</speaker>
 <l>Should Fabien fail, </l>
 <l>The dreadful tale</l>
 <l>His ma' you'd let her know.</l>
 </sp>
-<sp>
+<sp who="#L1315_M9">
 <speaker>Meynard.</speaker>
 <l>I'd rather you,</l>
 <l>I hear it's true, </l>
 <l>Her temper's — </l>
 </sp>
-<sp>
+<sp who="#L1315_M5">
 <speaker>Martel.</speaker>
 <l>Don't refuse.</l>
 </sp>
-<sp>
+<sp who="#L1315_M2">
 <speaker>Fabien.</speaker>
 <l>She'd punch the party's precious head </l>
 <l>Who carried her such news.</l>
 </sp>
-<sp>
+<sp who="#L1315_M3">
 <speaker>Chateau.</speaker>
 <l>I've really heard she would, you know,</l>
 <l>She would, you know, she would. </l>
 </sp>
-<sp>
+<sp who="#L1315_M2">
 <speaker>Fabien.</speaker>
 <l>What's more she really could, you know, </l>
 <l>She's just about the age.</l>
 </sp>
-<sp>
+<sp who="#L1315_Mult">
 <speaker>Chorus.</speaker>
 <l>We really heard she would, you know, </l>
 <l>She would, you know, she would;</l>
 <l>What's more she really could, you know, She's just about the age.</l>
 </sp>
-<sp>
+<sp who="#L1315_M3">
 <speaker>Chateau.</speaker>
 <l>
 <stage>(singing — recitative)</stage> Now mind your eye.</l>
 </sp>
-<sp>
+<sp who="#L1315_M9">
 <speaker>Meynard.</speaker>
 <l>You'd better mind your eye.</l>
 </sp>
-<sp>
+<sp who="#L1315_Mult">
 <speaker>All.</speaker>
 <l>He'd better mind his eye.</l>
 </sp>
-<sp>
+<sp who="#L1315_Mult">
 <speaker>All.Fabien.</speaker>
 <stage>(harmonized)</stage>
 <l>He'd better mind his eye.</l>
 <l>I'd better mind my eye.</l>
 <stage> Air — The Chorus to "Angelina was always fond of Soldiers. " </stage>
 </sp>
-<sp>
+<sp who="#L1315_M9">
 <speaker>Meynard.</speaker>
 <l>See, he lunges chiefly from the shoulder;</l>
 <l>The single-stick goes whizzing round your ears!</l>
 <l>To your fate pray be resigned —</l>
 </sp>
-<sp>
+<sp who="#L1315_M3">
 <speaker>Chateau.</speaker>
 <l>'Tis an awkward trick, you'll find,</l>
 <pb n="41"/>
@@ -3254,13 +3356,13 @@ song)</stage>
 <stage>(business through the above, finishing by two smart raps on Fabien's
 head)</stage>
 
-<sp>
+<sp who="#L1315_Mult">
 <speaker>All.</speaker>
 <l>See, he lunges chiefly from the shoulder, &amp;c.</l>
 <stage>(symphony played tremulously, throughout which they speak)</stage>
 </sp>
 </spGrp>
-<sp>
+<sp who="#L1315_M2">
 <speaker>Fabien.</speaker>
 <l>I don't see half a chance, but <hi>vicey versy;</hi>
 </l>
@@ -3273,33 +3375,33 @@ on!<stage>(lunging, and threatening Chateau Renaud)</stage>
 </l>
 <l>Come on, and meet your doom!</l>
 </sp>
-<sp>
+<sp who="#L1315_M9">
 <speaker>Meynard.</speaker>
 <l>Come, this won't do.</l>
 </sp>
-<sp>
+<sp who="#L1315_M2">
 <speaker>Fabien.</speaker>
 <l>Mind your own business—what is it to you?</l>
 </sp>
-<sp>
+<sp who="#L1315_M9">
 <speaker>Meynard.</speaker>
 <l>A duel must be equal.</l>
 </sp>
-<sp>
+<sp who="#L1315_M2">
 <speaker>Fabien.</speaker>
 <l>I don't see it.</l>
 </sp>
-<sp>
+<sp who="#L1315_M9">
 <speaker>Meynard.</speaker>
 <l>And so, of course, you'll break your stick.</l>
 </sp>
-<sp>
+<sp who="#L1315_M2">
 <speaker>Fabien.</speaker>
 <l>
 <stage>(sighing — breaks it)</stage> So be it.</l>
 <l><stage>(aside to Meynard )</stage> You're a nice friend, you are.</l>
 </sp>
-<sp>
+<sp who="#L1315_M3">
 <speaker>Chateau.</speaker>
 <l>
 <stage>(aside)</stage> He funks! He flinches!</l>
@@ -3308,35 +3410,35 @@ inches</l>
 <l>Are quite enough to <hi>incher</hi> as you'll see.<stage>(snow
 falls)</stage></l>
 </sp>
-<sp>
+<sp who="#L1315_M2">
 <speaker>Fabien.</speaker>
 <l>I'm in the forest and I'm up a tree.</l>
 <l>At it he really seems <hi>au fait — oh, fate !</hi>
 </l>
 </sp>
-<sp>
+<sp who="#L1315_M9">
 <speaker>Meynard.</speaker>
 <l>Quick! Recollect your brother.</l>
 </sp>
-<sp>
+<sp who="#L1315_M2">
 <speaker>Fabien.</speaker>
 <l>He can wait</l>
 <l>I say, look here, it's coming on to snow. </l>
 <l>Suppose we put it off a year or so?</l>
 </sp>
-<sp>
+<sp who="#L1315_M3">
 <speaker>Chateau.</speaker>
 <l/>
 </sp>
-<sp>
+<sp who=" #L1315_M3 #L1315_M9 #L1315_M5">
 <speaker>Chateau.Meynard.Martel.</speaker>
 <l>No—no—no—certainly not.</l>
 </sp>
-<sp>
+<sp who="#L1315_M9">
 <speaker>Meynard.</speaker>
 <l>Remember Louis!</l>
 </sp>
-<sp>
+<sp who="#L1315_M2">
 <speaker>Fabien.</speaker>
 <l>You said that before,</l>
 <l><stage>(aside)</stage> Louis' becoming somewhat of a bore.</l>
@@ -3345,11 +3447,11 @@ the other hand the broken short stump of a sword, a la combatants in " Huguenot
 Captain")</stage>
 <pb n="42"/>
 </sp>
-<sp>
+<sp who="#L1315_M3">
 <speaker>Chateau.</speaker>
 <l>Come, I'm prepared !</l>
 </sp>
-<sp>
+<sp who="#L1315_M2">
 <speaker>Fabien.</speaker>
 <l>I'm not.<stage>(backed up)</stage> Well, if you will,</l>
 <l>Here goes!</l>
@@ -3362,11 +3464,11 @@ in a state of collapse)</stage>
 <stage> Madame de Lesparre enters, R., with Orlando, Colonna, Marie and Griffo—
 Picture* </stage>
 </sp>
-<sp>
+<sp who="#L1315_F14">
 <speaker>Madame.</speaker>
 <l>Your loving mother would you kill ?</l>
 </sp>
-<sp>
+<sp who="#L1315_F16">
 <speaker>Emilie.</speaker>
 <l>
 <stage><stage>(coming down, R. C.)</stage></stage> Oh, Fabien! I've discovered
@@ -3375,34 +3477,34 @@ that my spouse,</l>
 <l>Already had a wife! and so you see, </l>
 <l>As he committed — </l>
 </sp>
-<sp>
+<sp who="#L1315_M3">
 <speaker>Chateau.</speaker>
 <l>Gracious!</l>
 </sp>
-<sp>
+<sp who="#L1315_F16">
 <speaker>Emilie.</speaker>
 <l>Bigamy,</l>
 <l>I'm free!</l>
 </sp>
-<sp>
+<sp who="#L1315_M2">
 <speaker>Fabien.</speaker>
 <l>More free than welcome.</l>
 </sp>
-<sp>
+<sp who="#L1315_M3">
 <speaker>Chateau.</speaker>
 <l>
 <stage>(aside)</stage> What's he say ?</l>
 </sp>
-<sp>
+<sp who="#L1315_M2">
 <speaker>Fabien.</speaker>
 <l>
 <stage>(leading her to Chateau Renaud)</stage> Take her— be happy! </l>
 </sp>
-<sp>
+<sp who="#L1315_F16">
 <speaker>Emilie.</speaker>
 <l>What is this ?</l>
 </sp>
-<sp>
+<sp who="#L1315_M2">
 <speaker>Fabien.</speaker>
 <l>And may</l>
 <l>Your future be a bright one, and a cheerful:</l>
@@ -3415,13 +3517,13 @@ that my spouse,</l>
 <stage> Enter Gnost of Louis, L . U . E ., with a comforter round his neck, and
 with a violent cold. </stage>
 </sp>
-<sp>
+<sp who="#L1315_M2">
 <speaker>Fabien.</speaker>
 <l>
 <stage>(staggers back)</stage> Halloa!</l>
 <l>My brother Louis!</l>
 </sp>
-<sp>
+<sp who="#L1315_M1">
 <speaker>Louis.</speaker>
 <stage>(L., this is spoken by Fabien with his back to the audience, Louis moving
 his lips and gesticulating)</stage>
@@ -3431,38 +3533,38 @@ his lips and gesticulating)</stage>
 <l>It's freezing ! Cease these mutual appealings :</l>
 <l>Even a wretched spectre has his feelings<stage>(sneezes)</stage></l>
 </sp>
-<sp>
+<sp who="#L1315_M2">
 <speaker>Fabien.</speaker>
 <l>Alas, poor ghost! Take that,<stage>(places his cloak over Louis', who sinks
 down trap after the manner of the disappearance under the extinguisher
 trick)</stage>
 </l>
 </sp>
-<sp>
+<sp who="#L1315_M3">
 <speaker>Chateau.</speaker>
 <l>Say, dearest Emilie, will you be mine ?</l>
 </sp>
-<sp>
+<sp who="#L1315_F16">
 <speaker>Emilie.</speaker>
 <l>Under the circumstances, can't decline.</l>
 <l>I'm'yours.</l>
 </sp>
-<sp>
+<sp who="#L1315_F14">
 <speaker>Madame.</speaker>
 <l>I say, it's very cold out here,</l>
 <l>Ain't you a going to come home, my dear?</l>
 </sp>
-<sp>
+<sp who="#L1315_M2">
 <speaker>Fabien.</speaker>
 <l>Yes.</l>
 </sp>
-<sp>
+<sp who="#L1315_M3">
 <speaker>Chateau.</speaker>
 <l>But before you go—before our scene</l>
 <l>Changes from winter to the all serene, </l>
 <l>Isn't there something, eh ?</l>
 </sp>
-<sp>
+<sp who="#L1315_F16">
 <speaker>Emilie.</speaker>
 <l>Of course. Don't frown</l>
 <l>Upon our efforts when the curtain's down.</l>
@@ -3472,26 +3574,26 @@ trick)</stage>
 <l>Beneath your bright and glowing influence.</l>
 <l>You won't be hard on those who've tried their best?</l>
 </sp>
-<sp>
+<sp who="#L1315_F14">
 <speaker>Madame.</speaker>
 <l>You'll make a wretched parent ever blest.</l>
 <l>Bless'd if you don't!</l>
 </sp>
-<sp>
+<sp who="#L1315_M9">
 <speaker>Meynard.</speaker>
 <l>Of course, they can't be hard on us.</l>
 <l>Any one can condemn ; but come, <hi>you'll</hi> pardon us.</l>
 </sp>
-<sp>
+<sp who="#L1315_M6">
 <speaker>Orlan.</speaker>
 <l>
 <stage>(L., fiercely)</stage> If they do not </l>
 </sp>
-<sp>
+<sp who="#L1315_M7">
 <speaker>Colon.</speaker>
 <l><stage>(R., fiercely)</stage> Ha ! ha!</l>
 </sp>
-<sp>
+<sp who="#L1315_M2">
 <speaker>Fabien.</speaker>
 <l>Shut up!<stage>(to audience)</stage> I say,</l>
 <l>Don't be severe upon our little play.</l>
@@ -3502,14 +3604,14 @@ trick)</stage>
 <head>Transformation. <hi>Finale—<title>"Pretty Little
 Flora."</title></hi></head>
 
-<sp>
+<sp who="#L1315_F16">
 <speaker>Emilie.</speaker>
 <l>When the curtain's fallen, </l>
 <l>Don't you go away, </l>
 <l>Don't you go away, </l>
 <l>And speak unkindly. </l>
 </sp>
-<sp>
+<sp who="#L1315_M3">
 <speaker>Chateau.</speaker>
 
 <l>Say a civil something </l>
@@ -3517,47 +3619,47 @@ Flora."</title></hi></head>
 <l>Treat our very many errors blindly.</l>
 
 </sp>
-<sp>
+<sp who="#L1315_M2">
 <speaker>Fabien.</speaker>
 <l>Louis asks for pardon;</l>
 </sp>
-<sp>
+<sp who="#L1315_F16">
 <speaker>Emilie.</speaker>
 <l>Emilie as well;</l>
 
 </sp>
-<sp>
+<sp who="#L1315_M9">
 <speaker>Meynard.</speaker>
 <l>And Chateau Renaud also, and each little swell. </l>
 </sp>
-<sp>
+<sp who="#L1315_M5">
 <speaker>Martel.</speaker>
 <l>Our acting don't be hard on, say a pleasant word</l>
 
 
 </sp>
-<sp>
+<sp who="#L1315_M4">
 <speaker>Mont.</speaker>
 <l>All our errors pardon—many have occurred.</l>
 </sp>
-<sp>
+<sp who="#L1315_M2">
 <speaker>Fabien.</speaker>
 <l>Pity little Fabien, </l>
 <l>And his wretched ma. </l>
 
 
 </sp>
-<sp>
+<sp who="#L1315_F14">
 <speaker>Madame.</speaker>
 <l>Which she will start home, first thing <hi>to-more-er.</hi></l>
 
 </sp>
-<sp>
+<sp who="#L1315_F16">
 <speaker>Emilie.</speaker>
 <l>And when she's returned again to Corsicah,</l>
 <l>There's sure to be some Pity little <hi>fore</hi> her.</l>
 </sp>
-<sp>
+<sp who="#L1315_Mult">
 <speaker>All.</speaker>
 <l>Pity little Fabien, &amp;c, &amp;c. </l>
 </sp>

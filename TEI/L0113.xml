@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L0113">
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L0113">
 <teiHeader>
 <fileDesc>
 <titleStmt>
@@ -13,13 +12,53 @@ Settled!</title>
 </titleStmt>
 <publicationStmt>
 <distributor>Privately published on the Lacy Website</distributor>
-<idno>L0113</idno>
-</publicationStmt>
-<sourceDesc>
-<p>Retagged from Docx produced by Abby from a Vpp Pdf edition</p>
-</sourceDesc>
+
+<idno type="lae">L0113</idno></publicationStmt>
+<sourceDesc><bibl type="printSource" n="8.8"><author>Coyne, Joseph Stirling</author><title type="main" n="boxandcoxmarriedandse...">Box and Cox Married and
+Settled!</title><title type="sub">An Original Farce in one act</title><extent>13
+pp (UM copy: 200 - 213)<measure type="pp" quantity="13"/>
+  <measure type="spCount" quantity="266"/>
+  <measure type="spvCount" quantity="0"/>
+  <measure type="txWords" quantity="5124"/>
+  <measure type="spWords" quantity="3938"/>
+  <measure type="stWords" quantity="1186"/>
+  </extent>
+
+<title level="s"> Lacy's Acting Edition, volume 8, No. 0113</title><idno type="nic">N11226</idno><idno type="vpp">Vol08viiiBox</idno></bibl><bibl type="digitalSource" n="copytext"><ref target="https://lb42.github.io/Lacy/Source/VPP/L0113-vpp.pdf">LoB from
+VPP</ref><ref target="local:Vol08/L0113/L0113-vpp.pdf"/><ref target="local:Vol08/L0113/Vol08viiiBox.pdf"/></bibl><bibl type="digitalSource"><ref target="https://archive.org/details/boxandcoxmarried00coynuoft">Internet
+Archive</ref></bibl><bibl type="digitalSource"><ref target="https://babel.hathitrust.org/cgi/pt?id=mdp.39015067453061&amp;seq=200 ">UM from HT</ref><ref target="local:Vol08/L0113/L0113-um.pdf"/></bibl><bibl type="digitalSource" n="copytext"><ref target="https://lb42.github.io/Lacy/L0113.html">TEI</ref></bibl><listEvent>
+<event type="LCP" when="1862-10-07" where="Haymarket">
+<desc>Licence sent 7 October for performance at the Theatre Royal, Haymarket 12
+October 1852. </desc>
+<bibl type="msSource">BL ms LCP_52935.F</bibl>
+</event>
+<event type="firstPerf" when="1852-10-15" source="text" where="Haymarket">
+<desc>Premiered at Theatre Royal, Haymarket 15 Oct. 1852; Nicoll date
+1852-10-14</desc>
+</event>
+</listEvent></sourceDesc>
 </fileDesc>
-<revisionDesc>
+<profileDesc><!--S 1 Farce F. FARCE--><textClass><catRef target="#sizeS"/><catRef target="#act1"/><catRef target="nic:F."/><keywords><term>FARCE</term></keywords></textClass><particDesc><listPerson><person xml:id="L0113_M1"><persName type="role">Mr. Box </persName><persName type="spkr" n="81">Box.</persName>
+</person>
+<person xml:id="L0113_M2"><persName type="role">Mr. Cox</persName><persName type="spkr" n="82">Cox.</persName>
+</person>
+<person xml:id="L0113_M3"><persName type="role">An Anonymous Gent </persName><persName type="spkr" n="4">Man .</persName>
+</person>
+<person xml:id="L0113_F4"><persName type="role">Mrs. Box</persName><persName type="spkr" n="43">Mrs. B.</persName>
+</person>
+<person xml:id="L0113_F5"><persName type="role">Mrs. Cox</persName><persName type="spkr" n="45">Mrs. C.</persName>
+</person>
+<person xml:id="L0113_F6"><persName type="role">Mrs. Bouncer</persName><persName type="spkr" n="9">Mrs. Boun.</persName>
+</person>
+
+
+<person xml:id="L0113_mul">
+<persName type="role">[Multiple speakers]</persName>
+<persName type="spkr" n="1">Ladies .</persName>
+<persName type="spkr" n="1">Mrs. C.|Mrs. B.</persName>
+<persName type="spkr" n="1">Mrs. C|Mrs.B.|Box.|Cox.</persName>
+</person>
+</listPerson></particDesc></profileDesc><revisionDesc><change when="2025-09-07">Metadata updated from new catalogue</change>
 <change when="2025-06-27">Header confected</change>
 </revisionDesc>
 </teiHeader>
@@ -43,23 +82,23 @@ Did you ever Send Your Wife to Camberwell?"</title><title> "Duel in the Dark
 <head>Characters .</head>
 <castItem><role gender="M">Mr. Box </role>
 <roleDesc>(a retired Printer)</roleDesc>
-<actor sex="M">Mr. Buckstone.</actor></castItem>
+<actor ana="#M">Mr. Buckstone.</actor></castItem>
 <castItem>
 <role gender="M">Mr. Cox</role><roleDesc>(a retired Hatter)</roleDesc>
-<actor sex="M">Mr. Keeley.</actor></castItem>
+<actor ana="#M">Mr. Keeley.</actor></castItem>
 <castItem>
 <role gender="M">An Anonymous Gent </role><roleDesc>(in the Street)</roleDesc>
-<actor sex="M">Mr. Coe.</actor></castItem>
+<actor ana="#M">Mr. Coe.</actor></castItem>
 <castItem>
 <role gender="F">Mrs. Box</role>
 <roleDesc>(late Sophy Dawes)</roleDesc>
-<actor sex="F"> Mrs. Caulfield.</actor></castItem>
+<actor ana="#F"> Mrs. Caulfield.</actor></castItem>
 <castItem><role gender="F">Mrs. Cox</role>
 <roleDesc>(late Fanny Hawes)</roleDesc>
-<actor sex="F">Mrs. Buckingham.</actor></castItem>
+<actor ana="#F">Mrs. Buckingham.</actor></castItem>
 <castItem>
 <role gender="F">Mrs. Bouncer</role><roleDesc>(always the same)</roleDesc>
-<actor sex="F">Mrs. Selby.</actor></castItem>
+<actor ana="#F">Mrs. Selby.</actor></castItem>
 </castList>
 </performance>
 <div type="costume">
@@ -99,55 +138,55 @@ laid for breakfast; a side table between the doors on L.  Cox is heard in R.
 chamber, calling loudly, "Mrs. Bouncer! Mrs. Bouncer !"</stage>
 <stage> Enter Cox, 3 E. L.— he is without his coat, and is partly shaved; he has
 a looking-glass in one hand, and razor in the other. </stage>
-<sp>
+<sp who="#L0113_M2">
 <speaker>Cox.</speaker>
 <p> No bell in the room, and nobody to answer my energetic vociferations!
 <stage>( calls)</stage> Mrs. Bouncer!— <stage><stage>(sees a bell on
 table)</stage></stage> Hah ! here's a bell, <stage><stage>(rings, and calls
 loudly)</stage></stage> Mrs. Bouncer ! <stage>(till Mrs. Bouncer enters, 3 E.
 L.)</stage></p>
-</sp><sp>
+</sp><sp who="#L0113_F6">
 <speaker>Mrs. Boun.</speaker>
 <p> Bless me, Mr. Cox, what <hi>is</hi> the matter ?</p>
-</sp><sp>
+</sp><sp who="#L0113_M2">
 <speaker>Cox.</speaker>
 <p> Matter, Mrs. Bouncer! Look here, ma'am, and tell me how you expect me to
 perform the delicate operation of shaving in a glass, whose reflective powers
 are distorted to such a degree, that I can't be certain whether I'm scraping my
 chin or cutting off my nose.</p>
-</sp><sp>
+</sp><sp who="#L0113_F6">
 <speaker>Mrs. Boun.</speaker>
 <p> Dear me! I'm really very sorry—I'll see if I can find you a better one,
 sir.</p>
 <stage> Takes glass and exit hastily, 3 E. L.</stage>
-</sp><sp>
+</sp><sp who="#L0113_M2">
 <speaker>Cox.</speaker>
 <p> Do so, Mrs. Bouncer— <stage>(retiring towards room, R .)</stage>— by the
 bye, Mrs. B.— <stage>(perceives that she is gone — rings the bell violently, and
 calls)</stage> Mrs. Bouncer, Mrs. Bouncer!</p>
-</sp><sp>
+</sp><sp who="#L0113_F6">
 <speaker>Mrs. Boun.</speaker>
 <p>
 <stage>(re-entering)</stage> What is it, sir?</p>
-</sp><sp>
+</sp><sp who="#L0113_M2">
 <speaker>Cox.</speaker>
 <p> I merely wished to ask you if the cabman has brought back my umbrella that I
 forgot in his cab last night—a brown gingham umbrella—with brass spike, and two
 broken ribs ?</p>
-</sp><sp>
+</sp><sp who="#L0113_F6">
 <speaker>Mrs. Boun.</speaker>
 <p> No, sir, I have heard nothing about it.</p>
 
 <stage>Exit,1 3 E.</stage>
 
-</sp><sp>
+</sp><sp who="#L0113_M2">
 <speaker>Cox.</speaker>
 <p> Well, that is rather extraordinary. Ah! By-the-bye, here's a glass here that
 I can finish my shaving by. <stage>(goes to chimney glass ,and is shaving when
 Box enters at door , 2 E. L.— he appears as if risen hastily from bed, and wears
 a dressing gown, slippers, and night cap.)</stage>
 </p>
-</sp><sp>
+</sp><sp who="#L0113_M1">
 <speaker>Box.</speaker>
 <p>
 <stage>(L.)</stage> What ringing and hollowing is this? Do you know, sir, that
@@ -155,468 +194,468 @@ you have disturbed me out of my first sleep? <stage>(Cox starts and appears as
 if he had cut himself with razor)</stage>
 </p><pb n="4"/>
 
-</sp><sp>
+</sp><sp who="#L0113_M2">
 <speaker>Cox.</speaker>
 <p> If it was your last sleep, sir, I should have done just the same—It's nine
 o'clock, and I've been out of bed these four hours.</p>
-</sp><sp>
+</sp><sp who="#L0113_M1">
 <speaker>Box.</speaker>
 <p> Sir, I believe you capable of any absurdity.</p>
-</sp><sp>
+</sp><sp who="#L0113_M2">
 <speaker>Cox.</speaker>
 <p> I can't, from habit, sleep in the morning, sir.</p>
-</sp><sp>
+</sp><sp who="#L0113_M1">
 <speaker>Box.</speaker>
 <p> Nor I, from custom, can't sleep at night, sir.</p>
-</sp><sp>
+</sp><sp who="#L0113_M2">
 <speaker>Cox.</speaker>
 <p> Then, sir, it's my unbiassed opinion——<stage>(turns and recognises
 Box)</stage> Good gracious, Box !</p>
-</sp><sp>
+</sp><sp who="#L0113_M1">
 <speaker>Box.</speaker>
 <p> Heavenly powers! Cox!</p>
-</sp><sp>
+</sp><sp who="#L0113_M2">
 <speaker>Cox.</speaker>
 <p> My valued friend! </p>
-</sp><sp>
+</sp><sp who="#L0113_M1">
 <speaker>Box.</speaker>
 <p> My worthy chum ! <stage>(together)</stage>
 </p>
-</sp><sp>
+</sp><sp who="#L0113_M2">
 <speaker>Cox.</speaker>
 <p> Don't it strike you, Box, as rather remarkable that we should meet here
 accidentally, as I may say, in our old lodgings after two years' Reparation.</p>
-</sp><sp>
+</sp><sp who="#L0113_M1">
 <speaker>Box.</speaker>
 <p> Well, so it does. Are you still implicated in the hat manufacture, Cox ?</p>
-</sp><sp>
+</sp><sp who="#L0113_M2">
 <speaker>Cox.</speaker>
 <p> Without meaning any disrespect to you, Box—I say, advisedly—damn the hat
 manufacture. I've retired from business.</p>
-</sp><sp>
+</sp><sp who="#L0113_M1">
 <speaker>Box.</speaker>
 <p> Indeed; how very odd that I should also have seceded from the printing
 profession.</p>
-</sp><sp>
+</sp><sp who="#L0113_M2">
 <speaker>Cox.</speaker>
 <p> Listen, Box. When, by a concatenation of small debts, duly recorded in the
 archives of the Islington County Court, I was compelled to emigrate
 surreptitiously from Mrs. Bouncer's apartments to the Old Kent Road, you can't
 imagine my distress.</p>
-</sp><sp>
+</sp><sp who="#L0113_M1">
 <speaker>Box.</speaker>
 <p>
 <stage>(l. c.)</stage> Yes, I can, by my own.</p>
-</sp><sp>
+</sp><sp who="#L0113_M2">
 <speaker>Cox.</speaker>
 <p>
 <stage>(R. C.)</stage> I tried to forget everything in the world.</p>
-</sp><sp>
+</sp><sp who="#L0113_M1">
 <speaker>Box.</speaker>
 <p> Especially your share of the rent, which I had to pay Mrs. Bouncer.</p>
-</sp><sp>
+</sp><sp who="#L0113_M2">
 <speaker>Cox.</speaker>
 <p> Generous Box! don't mention it. <stage>(shakes Box's hand)</stage> Well soon
 after, I was surprised, and I may add delighted, by the death of an old uncle,
 who left me a comfortable annuity.</p>
-</sp><sp>
+</sp><sp who="#L0113_M1">
 <speaker>Box.</speaker>
 <p> How singular that my aunt of venerable memory should have died about the
 same time, and left me a pretty little property.</p>
-</sp><sp>
+</sp><sp who="#L0113_M2">
 <speaker>Cox.</speaker>
 <p> I congratulate you my dear fellow.</p>
-</sp><sp>
+</sp><sp who="#L0113_M1">
 <speaker>Box.</speaker>
 <p> I wish you joy of your luck. <stage>(together)</stage>
 </p>
-</sp><sp>
+</sp><sp who="#L0113_M2">
 <speaker>Cox.</speaker>
 <p> Well my next step was to get married; </p>
-</sp><sp>
+</sp><sp who="#L0113_M1">
 <speaker>Box.</speaker>
 <p> Ha! ha! ha! ha! Do you know I've been guilty of the same indiscretion myself
 ?</p>
-</sp><sp>
+</sp><sp who="#L0113_M2">
 <speaker>Cox.</speaker>
 <p> I was connubialised this day, twelve months.</p>
-</sp><sp>
+</sp><sp who="#L0113_M1">
 <speaker>Box.</speaker>
 <p> The very day that witnessed the loss of my liberty.</p>
-</sp><sp>
+</sp><sp who="#L0113_M2">
 <speaker>Cox.</speaker>
 <p> But that's not all,—could you believe it, I have a child ?</p>
-</sp><sp>
+</sp><sp who="#L0113_M1">
 <speaker>Box.</speaker>
 <p> Give me your hand, Cox. <stage>(he grasps Cox's hand)</stage> I also am a
 man and a father!</p>
-</sp><sp>
+</sp><sp who="#L0113_M2">
 <speaker>Cox.</speaker>
 <p> How strangely things come about! Well, I've just returned to town from
 Margate, where I served my first year—we arrived last night by the steamer; </p>
-</sp><sp>
+</sp><sp who="#L0113_M1">
 <speaker>Box.</speaker>
 <p> And I've come by train from Southampton.</p>
-</sp><sp>
+</sp><sp who="#L0113_M2">
 <speaker>Cox.</speaker>
 <p> And finding that Mrs. Bouncer had apartments unoccupied, we popped into
 them.</p>
-</sp><sp>
+</sp><sp who="#L0113_M1">
 <speaker>Box.</speaker>
 <p> Precisely as <hi>`</hi> did.</p>
-</sp><sp>
+</sp><sp who="#L0113_M2">
 <speaker>Cox.</speaker>
 <p> Then your wife is here ?</p>
-</sp><sp>
+</sp><sp who="#L0113_M1">
 <speaker>Box.</speaker>
 <p> Yes,—she's in there— <stage>(points to door, L .)</stage> And yours?</p>
 <pb n="5"/>
-</sp><sp>
+</sp><sp who="#L0113_M2">
 <speaker>Cox.</speaker>
 <p>
 <stage>(points to door, R .)</stage> In there.</p>
-</sp><sp>
+</sp><sp who="#L0113_M1">
 <speaker>Box.</speaker>
 <p>
 <stage>(solemnly)</stage> Cox,—the wonderful sympathy that exists between us,
 convinces me that nature intended us for Siamese twins.</p>
-</sp><sp>
+</sp><sp who="#L0113_M2">
 <speaker>Cox.</speaker>
 <p> Or Corsican brothers at least. <stage>(embrace)</stage>
 </p>
-</sp><sp>
+</sp><sp who="#L0113_M1">
 <speaker>Box.</speaker>
 <p> A thought strikes me, Cox, we should consecrate this day to friendship—by
 breakfasting together.</p>
-</sp><sp>
+</sp><sp who="#L0113_M2">
 <speaker>Cox.</speaker>
 <p> With the ladies?</p>
-</sp><sp>
+</sp><sp who="#L0113_M1">
 <speaker>Box.</speaker>
 <p> With the ladies, of course. </p>
-</sp><sp>
+</sp><sp who="#L0113_M2">
 <speaker>Cox.</speaker>
 <p> Agreed. <stage>(rings table bell and calls)</stage> Mrs. Bouncer—Mrs
 Bounce-e-e-e-r.—Bouncer don't exhibit her usual alacrity this morning. <stage>
 Enter Mrs. Bouncer, 3.E. L., C arrying a tray with tea, Coffee, &amp; c.
 </stage> Ah! Mrs . Bouncer,—breakfast--for four!</p>
-</sp><sp>
+</sp><sp who="#L0113_F6">
 <speaker>Mrs. Boun.</speaker>
 <p> There it is sir,—I thought as old friends you'd have it together.
 <stage>(lays tray on side table, c.)</stage> There it is. Tea, coffee, shrimps,
 muffins, eggs, fried bacon, mutton-chops, and watercresses, <stage>(puts
 articles on table c. as she names them)</stage>
 </p>
-</sp><sp>
+</sp><sp who="#L0113_M1">
 <speaker>Box.</speaker>
 <p> That will do for the present, we'll ring when we require more .</p>
 
 <stage> Exit Mrs. Bouncer, 3 E.L.</stage>
-</sp><sp>
+</sp><sp who="#L0113_F5">
 <speaker>Mrs. C.</speaker>
 <p><stage>( calling from room, R. )</stage> Cox! Cox!</p>
-</sp><sp>
+</sp><sp who="#L0113_M2">
 <speaker>Cox.</speaker>
 <p> There's my wife calling me,—she wants me to hook her. Ah, Box, that's a
 woman any man might be proud to hook!</p>
 <stage> Exit Cox, R. 2 E.</stage>
-</sp><sp>
+</sp><sp who="#L0113_M1">
 <speaker>Box.</speaker>
 <p> I've no doubt of it.</p>
 
 <stage> Mrs. Box comes from 2 E. L., singing an opera air. </stage>
-</sp><sp>
+</sp><sp who="#L0113_F4">
 <speaker>Mrs. B.</speaker>
 <p>La, la, ra, la, la, &amp;c. Dear me, I'm frightfully out of voice this
 morning: Is breakfast ready, Box?</p>
-</sp><sp>
+</sp><sp who="#L0113_M1">
 <speaker>Box.</speaker>
 <p> Yes, my dear, we only wait for my old friend, Cox, whom I met accidentally
 here this moment—you've often heard me speak of him. We once lived together, and
 now we are going to breakfast together. I'll just go and finish dressing, and be
 back presently.</p>
 <stage> Exit, 2 E . L.</stage>
-</sp><sp>
+</sp><sp who="#L0113_F4">
 <speaker>Mrs. B.</speaker>
 <p> Dear me, I wonder how I look. I only dressed for Box, and here's Cox coming.
 <stage>(looks at herself in chimney glass)</stage>
 </p>
 <stage> Enter Mrs. Cox, 2 E. R.</stage>
-</sp><sp>
+</sp><sp who="#L0113_F5">
 <speaker>Mrs. C.</speaker>
 <p>
 <stage>(crosses to L. as she enters)</stage> I'm curious to see this friend of
 Cox's, <stage>(perceives Mrs. Box)</stage> Why surely it never can be——</p>
-</sp><sp>
+</sp><sp who="#L0113_F4">
 <speaker>Mrs. B.</speaker>
 <p>
 <stage>(turning)</stage> Hey—bless me—Miss Hawes !</p>
-</sp><sp>
+</sp><sp who="#L0113_F5">
 <speaker>Mrs. C.</speaker>
 <p> Sophy Dawes!</p>
-</sp><sp>
+</sp><sp who="#L0113_F4">
 <speaker>Mrs. B.</speaker>
 <p> Excuse me, Fanny, but I've changed my name. I've taken Dawes out of the
 corner of my pocket handkerchief, and put Box in.</p>
-</sp><sp>
+</sp><sp who="#L0113_F5">
 <speaker>Mrs. C.</speaker>
 <p> I really beg pardon, ma'am: I wasn't aware of the circumstance, as I've been
 abroad at Margate since <hi>`</hi> marriage.</p>
-</sp><sp>
+</sp><sp who="#L0113_F4">
 <speaker>Mrs. B.</speaker>
 <p>
 <stage>(R. C.)</stage> What, are you gone and got married too?</p>
-</sp><sp>
+</sp><sp who="#L0113_F5">
 <speaker>Mrs. C.</speaker>
 <p> Well, I hope I'm not infringing the rules of female propriety by saying,
 I've made Cox the happiest of his sex.</p>
 <pb n="6"/>
 
-</sp><sp>
+</sp><sp who="#L0113_F4">
 <speaker>Mrs. B.</speaker>
 <p> What a lark, to think we should have both got off the shelf at last!</p>
-</sp><sp>
+</sp><sp who="#L0113_F5">
 <speaker>Mrs. C.</speaker>
 <p> Off the shelf, mem—ha, ha, ha!</p>
-</sp><sp>
+</sp><sp who="#L0113_F4">
 <speaker>Mrs. B.</speaker>
 <p> Ha, ha, ha! <stage>(both laugh, and continue to laugh until Cox and Box
 re-enter dressed for breakfast)</stage>
 </p>
-</sp><sp>
+</sp><sp who="#L0113_M1">
 <speaker>Box.</speaker>
 <p>
 <stage>(to Cox)</stage> There's no need of introducing our wives, Cox— you see,
 they've affected an amalgamation already.</p>
-</sp><sp>
+</sp><sp who="#L0113_F4">
 <speaker>Mrs. B.</speaker>
 <p> Oh, we're old friends </p>
-</sp><sp>
+</sp><sp who="#L0113_F5">
 <speaker>Mrs. C.</speaker>
 <p> Fondly attached companions! <stage>(apart to Cox)</stage> A forward little
 chorus singer at the theatres, who, to my knowledge, has been laying traps for
 every man she met, for the last fifteen years.</p>
-</sp><sp>
+</sp><sp who="#L0113_F4">
 <speaker>Mrs. B.</speaker>
 <p>
 <stage>(apart to Box, L. C.)</stage> A paltry straw bonnet maker, who was on her
 last legs when she inveigled this poor stupid Cox.</p>
-</sp><sp>
+</sp><sp who="#L0113_M2">
 <speaker>Cox.</speaker>
 <p> Well, I vote we go to breakfast.</p>
-</sp><sp>
+</sp><sp who="#L0113_F5">
 <speaker>Mrs. C.</speaker>
 <p> Oh, bravo! I've got such an appetite. <stage>(she is going towards the head
 of the table, when Mrs. Box rushes before her)</stage>
 </p>
-</sp><sp>
+</sp><sp who="#L0113_F4">
 <speaker>Mrs. B.</speaker>
 <p> Beg pardon, mem, but if there be anything I sticks up for, it's my rank—the
 printer's lady before the hatter's wife, <stage>(sits at head of table, L . Box
 sits L. C, Cox sits R. C.)</stage></p>
-</sp><sp>
+</sp><sp who="#L0113_F5">
 <speaker>Mrs. C.</speaker>
 <p> Oh, mem, don't flurry yourself—I always give way to age. <stage>(sits at
 opposite end of table, R .)</stage></p>
-</sp><sp>
+</sp><sp who="#L0113_F4">
 <speaker>Mrs. B.</speaker>
 <p> Age! why, my dear, when you was a grown young person at the bonnet trade, I
 was playing with my doll.</p>
-</sp><sp>
+</sp><sp who="#L0113_F5">
 <speaker>Mrs. C.</speaker>
 <p> I remember the doll perfectly, Sophy; a remarkably large sized one it was,
 with red whiskers, and a strong Irish brogue </p>
-</sp><sp>
+</sp><sp who="#L0113_M2">
 <speaker>Cox.</speaker>
 <p>
 <stage>(rising)</stage> Ladies, ladies! Although an advocate in general for
 freedom of discussion, I'm afraid we're now touching on delicate ground.</p>
-</sp><sp>
+</sp><sp who="#L0113_M1">
 <speaker>Box.</speaker>
 <p> Bravo! bravo !</p>
-</sp><sp>
+</sp><sp who="#L0113_M2">
 <speaker>Cox.</speaker>
 <p> I therefore move the previous question, and request my friend Box to pass
 the muffins this way. <stage>(Mrs. Box and Mrs. Cox tap their tea spoons on the
 table, and cry "Bravo! bravo!" Box hands the plate of muffins to
 Cox)</stage></p>
-</sp><sp>
+</sp><sp who="#L0113_M1">
 <speaker>Box.</speaker>
 <p> Where are the eggs? oh! <stage>(takes an egg from a plate)</stage> Well now,
 I dare say Mrs. Bouncer calls that an egg! I call it a humbug—a contemptible
 humbug! and I maintain that the principles of Free Trade are not carried out
 unless we are to have a large egg with our big loaf. I dare say that egg has
 been laid to order by some distressed hen, at twenty to the dozen.</p>
-</sp><sp>
+</sp><sp who="#L0113_M2">
 <speaker>Cox.</speaker>
 <p> And here's a mutton chop <stage>(holding a chop on his fork)</stage> that
 has been curiously adapted to a stomach of the meanest capacity.</p>
-</sp><sp>
+</sp><sp who="#L0113_F4">
 <speaker>Mrs. B.</speaker>
 <p> Where's the porter?</p>
-</sp><sp>
+</sp><sp who="#L0113_M1">
 <speaker>Box.</speaker>
 <p>
 <stage>(rings bell and runs to door)</stage> Porter—porter! Mrs. Bouncer.</p>
-</sp><sp>
+</sp><sp who="#L0113_F5">
 <speaker>Mrs. C.</speaker>
 <p> Do you indulge in porter, Mrs. Box ?</p>
-</sp><sp>
+</sp><sp who="#L0113_F4">
 <speaker>Mrs. B.</speaker>
 <p> Yes, mem—I—hem!—hem!—I take it for my organ: the organ requires nourishment.
 Malibran took porter, mem, for her organ—didn't she, Box ?</p>
-<!--<p>* For situation of Characters here see last Page.</p>-->
-</sp><sp>
+
+</sp><sp who="#L0113_M1">
 <pb n="7"/>
 
 <speaker>Box.</speaker>
 <p>
 <stage>(reseating himself)</stage> Extensively, my dear, in the pewter.</p>
 <stage> Enter Mrs. Bouncer with a pot of porter, 3 E. L. </stage>
-</sp><sp>
+</sp><sp who="#L0113_F6">
 <speaker>Mrs. Boun.</speaker>
 <p> The porter, Mr. Box. <stage>( puts it down and is going off)</stage>
 </p>
-</sp><sp>
+</sp><sp who="#L0113_M1">
 <speaker>Box.</speaker>
 <p> By-the-bye, Mrs. Bouncer, has that cabman brought home my ambrella yet,—a
 brown gingham umbrella, with brass spike and two broken ribs?</p>
-</sp><sp>
+</sp><sp who="#L0113_F6">
 <speaker>Mrs. Boun.</speaker>
 <p> No, sir; I've heard nothing about it. <stage>(goes off L. 3. E.)</stage></p>
-</sp><sp>
+</sp><sp who="#L0113_M2">
 <speaker>Cox.</speaker>
 <p> Very extraordinary, indeed !</p>
-</sp><sp>
+</sp><sp who="#L0113_F4">
 <speaker>Mrs. B.</speaker>
 <p> Can't we have a few hiseters, Box?</p>
-</sp><sp>
+</sp><sp who="#L0113_F5">
 <speaker>Mrs. C.</speaker>
 <p> Hiseters ?</p>
-</sp><sp>
+</sp><sp who="#L0113_F4">
 <speaker>Mrs. B.</speaker>
 <p> I hope hiseters don't offend?</p>
-</sp><sp>
+</sp><sp who="#L0113_F5">
 <speaker>Mrs. C.</speaker>
 <p> You mean <hi>`</hi> my dear— <hi>`</hi> Walker.</p>
-</sp><sp>
+</sp><sp who="#L0113_F4">
 <speaker>Mrs. B.</speaker>
 <p> If he's of your acquaintance, Fanny, I mean to <hi>`</hi> him.</p>
-</sp><sp>
+</sp><sp who="#L0113_M1">
 <speaker>Box.</speaker>
 <p> <hi>`</hi> —let's have no temper on the matter.</p>
 <p>Allow me to propose an egg, Mrs. Cox.</p>
-</sp><sp>
+</sp><sp who="#L0113_F5">
 <speaker>Mrs. C.</speaker>
 <p> You're very kind. <stage>(Box hands her an egg)</stage>
 </p>
-</sp><sp>
+</sp><sp who="#L0113_M1">
 <speaker>Box.</speaker>
 <p> Salt, Mrs. Cox! <stage>(hands her the salt)</stage> And allow me to
 recommend you some of these watercresses. <stage>(puts water cresses on her
 plate)</stage>
 </p>
-</sp><sp>
+</sp><sp who="#L0113_F5">
 <speaker>Mrs. C.</speaker>
 <p> Oh, thank you.</p>
-</sp><sp>
+</sp><sp who="#L0113_M1">
 <speaker>Box.</speaker>
 <p> What is the next article, Mrs. Cox?</p>
-</sp><sp>
+</sp><sp who="#L0113_F5">
 <speaker>Mrs. C.</speaker>
 <p> Nothing more at present.</p>
-</sp><sp>
+</sp><sp who="#L0113_M2">
 <speaker>Cox.</speaker>
 <p> Well, this is downright jolly—just the thing I like—a comfortable little
 family party, where we can enjoy the society of our partners, without—without </p>
-</sp><sp>
+</sp><sp who="#L0113_M1">
 <speaker>Box.</speaker>
 <p> Mustard ! <stage>(reaches for it)</stage>
 </p>
-</sp><sp>
+</sp><sp who="#L0113_M2">
 <speaker>Cox.</speaker>
 <p> I didn't say without mustard, Box—far from it.</p>
-</sp><sp>
+</sp><sp who="#L0113_M1">
 <speaker>Box.</speaker>
 <p>
 <stage>(eating)</stage> How deuced hot it is !</p>
-</sp><sp>
+</sp><sp who="#L0113_M2">
 <speaker>Cox.</speaker>
 <p> But this I will say—that when we reflect upon our happiness as husbands </p>
-</sp><sp>
+</sp><sp who="#L0113_M1">
 <speaker>Box.</speaker>
 <p> It draws tears from my eyes.</p>
-</sp><sp>
+</sp><sp who="#L0113_F4">
 <speaker>Mrs. B.</speaker>
 <p> Box!</p>
-</sp><sp>
+</sp><sp who="#L0113_M1">
 <speaker>Box.</speaker>
 <p> The mustard, my love—nothing but the mustard.</p>
-</sp><sp>
+</sp><sp who="#L0113_F4">
 <speaker>Mrs. B.</speaker>
 <p> I should hope not, Box.</p>
-</sp><sp>
+</sp><sp who="#L0113_M2">
 <speaker>Cox.</speaker>
 <p> I have one observation to make: it is that we should devote this day to
 harmless conviviality, and as we have breakfasted, we should dine together.</p>
-</sp><sp>
+</sp><sp who="#L0113_mul">
 <speaker>Ladies .</speaker>
 <p>
 <stage>(tapping the table)</stage> Hear, hear ! Bravo! <hi>`</hi> </p>
-</sp><sp>
+</sp><sp who="#L0113_M1">
 <speaker>Box.</speaker>
 <p> I know a first-rate establishment in the Old Kent Road, where we can have a
 splendid dinner—all the delicacies of the season—beer included—for
 eighteen-pence a-head.</p>
-</sp><sp>
+</sp><sp who="#L0113_F4">
 <speaker>Mrs. B.</speaker>
 <p> No:—Greenwich is my weakness— shrimps and tea a shilling.</p>
-</sp><sp>
+</sp><sp who="#L0113_F5">
 <speaker>Mrs. C.</speaker>
 <p> I objects to Greenwich in <hi>`</hi> my feeling is for Rosherville.</p>
-</sp><sp>
+</sp><sp who="#L0113_F4">
 <speaker>Mrs. B.</speaker>
 <p> I hate Rosherville.</p>
-</sp><sp>
+</sp><sp who="#L0113_F5">
 <speaker>Mrs. C.</speaker>
 <p> And I abominate Greenwich ; so I shall stop at home.</p>
-</sp><sp>
+</sp><sp who="#L0113_F4">
 <speaker>Mrs. B.</speaker>
 <p> Your absence shall not spoil our appetite, I promise you.
 <stage>(rises)</stage>
 </p>
 </sp>
 <pb n="8"/>
-<sp>
+<sp who="#L0113_F5">
 <speaker>Mrs. C.</speaker>
 <p> But it may <hi>`</hi> temper. <stage>( rises )</stage></p>
-</sp><sp>
+</sp><sp who="#L0113_F4">
 <speaker>Mrs. B.</speaker>
 <p>
 <stage>( L .)</stage> My temper?—Ha, ha, ha! insignificant creature.</p>
-</sp><sp>
+</sp><sp who="#L0113_F5">
 <speaker>Mrs. C.</speaker>
 <p>
 <stage>(R.)</stage> You're angry, dear.</p>
-</sp><sp>
+</sp><sp who="#L0113_F4">
 <speaker>Mrs. B.</speaker>
 <p> No, mem, I'm not!</p>
-</sp><sp>
+</sp><sp who="#L0113_F5">
 <speaker>Mrs. C.</speaker>
 <p> Yes, you are, love.</p>
-</sp><sp>
+</sp><sp who="#L0113_F4">
 <speaker>Mrs. B.</speaker>
 <p> I tell you I ain't!</p>
-</sp><sp>
+</sp><sp who="#L0113_F5">
 <speaker>Mrs. C.</speaker>
 <p> Yes, darling, you are. <stage>(Box and Cox rise and come down)</stage>
 </p>
-</sp><sp>
+</sp><sp who="#L0113_F4">
 <speaker>Mrs. B.</speaker>
 <p> Box! pack up our trunks this moment and call a cab! I'll not remain another
 moment under this roof. <stage>(taking Box by the arm)</stage>
 </p>
-</sp><sp>
+</sp><sp who="#L0113_M2">
 <speaker>Cox.</speaker>
 <p>
 <stage>(interposing)</stage> Ladies, ladies, don't get warm. Come here !
@@ -626,39 +665,39 @@ you, my dear, <stage>(to Mrs. Cox)</stage> for Rosherville, there. Now, as we
 can't dine conveniently at both places, I propose an intermediate banquet at
 Blackwall, here, <stage>(touching his breast)</stage>
 </p>
-</sp><sp>
+</sp><sp who="#L0113_F4">
 <speaker>Mrs. B.</speaker>
 <p> Oh ! I don't presume to dictate—anywhere but Rosherville.</p>
-</sp><sp>
+</sp><sp who="#L0113_F5">
 <speaker>Mrs. C.</speaker>
 <p> I've no voice in the matter—I only object to Greenwich.</p>
-</sp><sp>
+</sp><sp who="#L0113_M1">
 <speaker>Box.</speaker>
 <p>
 <stage>(L. C.)</stage> Well, that matter's settled. How shall we go down ?</p>
-</sp><sp>
+</sp><sp who="#L0113_F4">
 <speaker>Mrs. B.</speaker>
 <p>
 <stage>( L .)</stage> What does Mrs. Cox say?</p>
-</sp><sp>
+</sp><sp who="#L0113_F5">
 <speaker>Mrs. C.</speaker>
 <p>
 <stage>(R. C.)</stage> I say nothing—I leave it to you, Sophy—you always oppose
 everybody.</p>
-</sp><sp>
+</sp><sp who="#L0113_F4">
 <speaker>Mrs. B.</speaker>
 <p> I deny that! It is <hi>`</hi> Fanny, that'will never give up a <hi>`</hi> But you
 can't help it, dear—you never could; and I've often said if ever there was ever
 a dear aggravating creature in the world, it was Fanny Hawes. <stage>(Mrs. Cox
 laughs contemptuously; both Ladies go up stage)</stage>
 </p>
-</sp><sp>
+</sp><sp who="#L0113_M1">
 <speaker>Box.</speaker>
 <p>
 <stage>( aside and agitated)</stage> Fanny Hawes !—good gracious !—that name !
 If it should be <stage>(aside to Cox)</stage> Cox! was your wife's name Hawes
 ?</p>
-</sp><sp>
+</sp><sp who="#L0113_M2">
 <speaker>Cox.</speaker>
 <p>
 <stage>(aside to him)</stage> Of course it was, till we were married, and Cox
@@ -666,7 +705,7 @@ obliterated Hawes. Come, ladies, let us finish our breakfast. <stage>(sits at
 table)</stage> Another cup of coffee, Mrs. B. ? <stage>(the two Ladies reseat
 themselves at table)</stage>
 </p>
-</sp><sp>
+</sp><sp who="#L0113_M1">
 <speaker>Box.</speaker>
 <p>
 <stage>(apart L.)</stage> Fanny Hawes? Hah! <stage>(takes a white kid glove out
@@ -677,10 +716,10 @@ Hah ! what delicious recollections it suggests of a small waist and a very large
 carpet bag ! She evidently don't recollect me—but that's not surprising, as in
 the dim twilight, and the obscurity of a second-class carriage, neither of us
 could distinguish the other's features.</p>
-</sp><sp>
+</sp><sp who="#L0113_F4">
 <speaker>Mrs. B.</speaker>
 <p> Box ! you havn't breakfasted.</p>
-</sp><sp>
+</sp><sp who="#L0113_M1">
 <speaker>Box.</speaker>
 <p> Oh, yes, I have—don't mind me. <stage>(apart)</stage> She can't however,
 forget the attentive stranger, who carried her little dog on his knees during
@@ -690,10 +729,10 @@ feelings written at the time. I wish I could speak a few words to her; I've some
 <pb n="9"/>
 mournful intelligence to communicate to her, that I'd rather Mrs. Box.
 shouldn't be aware of—but how to reveal myself ?</p>
-</sp><sp>
+</sp><sp who="#L0113_M2">
 <speaker>Cox.</speaker>
 <p> Muffins all gone?</p>
-</sp><sp>
+</sp><sp who="#L0113_M1">
 <speaker>Box.</speaker>
 <p>
 <stage>(Apart)</stage> Muffins ! happy idea—I'll place her glove under a muffin,
@@ -701,15 +740,15 @@ and give it to her with a mysterious wink. <stage>( he goes to side table, takes
 the last muffin on a plate, which he bring down. L. )</stage> This is certainly
 a most ingenious plan. <stage>(he places the glove under the muffin)</stage>
 There, she can't miss it.</p>
-</sp><sp>
+</sp><sp who="#L0113_F4">
 <speaker>Mrs. B.</speaker>
 <p> Box, dear, will you fetch me my shawl from the next room?</p>
-</sp><sp>
+</sp><sp who="#L0113_M1">
 <speaker>Box.</speaker>
 <p> Certainly my love. <stage>(aside)</stage> Confound the shawl ! <stage>(puts
 down plate with muffin on side table, and goes hastily into room , 2 R.
 L.)</stage></p>
-</sp><sp>
+</sp><sp who="#L0113_M2">
 <speaker>Cox.</speaker>
 <p> Are there no more muffins? <stage>(rises and sees the muffins Box has left
 on table, L.)</stage> Oh, here's one left. <stage>( takes the muffin and returns
@@ -721,112 +760,112 @@ rises and holds up the glove on his fork)</stage>  Well really now—Mrs.
 Bouncer—this is too bad—though I am partial to muffins,—I can't swallow gloves
 !</p></sp>
 <stage>Box appears at door, 2 E. L.</stage>
-<sp>
+<sp who="#L0113_mul">
 <speaker>Mrs. C.|Mrs. B.</speaker>
 <p> Gloves. <stage>( they rise and come forward)</stage>
 </p>
 </sp>
-<sp>
+<sp who="#L0113_M2">
 <speaker>Cox.</speaker>
 <p> Yes,—a lady's kid as I live,—and what is here -somethings written inside.
 <stage>(reads)</stage> "Fanny Hawes."</p>
-</sp><sp>
+</sp><sp who="#L0113_F5">
 <speaker>Mrs. C.</speaker>
 <p> <hi>`</hi> name?</p>
-</sp><sp>
+</sp><sp who="#L0113_M2">
 <speaker>Cox.</speaker>
 <p> And here on a slip of paper.—" April the 1st 1851,—the happiest day of my
 life! oh, Fanny Hawes when shall we meet again?—Signed, "John Box, Printer'-
 Hah! <stage>(Box rushes down, both ladies scream, Mrs. Box falling in a swoon
 into the arms of Cox, R., and Mrs. Cox into the arms of Box, L.)</stage></p>
-</sp><sp>
+</sp><sp who="#L0113_M2">
 <speaker>Cox.</speaker>
 <p> Hah!—Box you're a villain.</p>
-</sp><sp>
+</sp><sp who="#L0113_M1">
 <speaker>Box.</speaker>
 <p> Cox,—you're another.</p>
-</sp><sp>
+</sp><sp who="#L0113_M2">
 <speaker>Cox.</speaker>
 <p> Drop my wife this instant, sir ?</p>
-</sp><sp>
+</sp><sp who="#L0113_M1">
 <speaker>Box.</speaker>
 <p> I shan't, till you relinquish my better half.</p>
-</sp><sp>
+</sp><sp who="#L0113_M2">
 <speaker>Cox.</speaker>
 <p> Miserable subterfuge! As the husband of that lady, I demand your card,
 sir?</p>
-</sp><sp>
+</sp><sp who="#L0113_M1">
 <speaker>Box.</speaker>
 <p> You'll find it in my left-hand trowsors' pocket-come and take it ?</p>
-</sp><sp>
+</sp><sp who="#L0113_M2">
 <speaker>Cox.</speaker>
 <p> I regret that the affair I have on hand prevents my availing myself of your
 polite offer.</p>
-</sp><sp>
+</sp><sp who="#L0113_M1">
 <speaker>Box.</speaker>
 <p> Nothing but the pressing nature of my present engagement could make me think
 of putting you to so much trouble.</p>
-</sp><sp>
+</sp><sp who="#L0113_M2">
 <speaker>Cox.</speaker>
 <p> Don't mention it,—will you allow me to make one observation ?</p>
-</sp><sp>
+</sp><sp who="#L0113_M1">
 <speaker>Box.</speaker>
 <p> Certainly, Cox, with pleasure.</p>
-</sp><sp>
+</sp><sp who="#L0113_M2">
 <speaker>Cox.</speaker>
 <p> Well then; I had no idea that Mrs. Box was so ponderous.</p>
-</sp><sp>
+</sp><sp who="#L0113_M1">
 <speaker>Box.</speaker>
 <p> And I assure you, I am quite overpowered by the solidarity 
 <pb n="10"/>
 of Mrs. Cox.
 <stage>( a child is heard crying in room, R., another in room, L. )</stage> 
 What's that? an infantine cry.</p>
-</sp><sp>
+</sp><sp who="#L0113_F5">
 <speaker>Mrs. C.</speaker>
 <p>
 <stage>(starting to her feet)</stage> The blessed child!</p>
-</sp><sp>
+</sp><sp who="#L0113_F4">
 <speaker>Mrs. B.</speaker>
 <p>
 <stage>(starting to her feet)</stage> The dear baby ! <stage>( the Ladies rush
 into room, R. and L .)</stage>
 </p>
-</sp><sp>
+</sp><sp who="#L0113_M2">
 <speaker>Cox.</speaker>
 <p> Hem! The ladies having retired for the performance of their maternal duties,
 I presume we are alone.</p>
-</sp><sp>
+</sp><sp who="#L0113_M1">
 <speaker>Box.</speaker>
 <p> I believe I may venture to say we are.</p>
-</sp><sp>
+</sp><sp who="#L0113_M2">
 <speaker>Cox.</speaker>
 <p> Well, then, we must come to an understanding, sir. That glove <stage>(shows
 the glove)</stage> requires an explanation.</p>
-</sp><sp>
+</sp><sp who="#L0113_M1">
 <speaker>Box.</speaker>
 <p>
 <stage>(taking the glove)</stage> This glove—oh, yes! certainly, <stage>(puts
 the glove into his pocket)</stage> Ha ! of course, my dear fellow, sit down.</p>
-</sp><sp>
+</sp><sp who="#L0113_M2">
 <speaker>Cox.</speaker>
 <p> I'd rather not.</p>
-</sp><sp>
+</sp><sp who="#L0113_M1">
 <speaker>Box.</speaker>
 <p> Sit down, I insist— <stage>(pushes him into a chair, R. C.)</stage>—now, we
 can talk the matter ovor calmly and dispassionately, <stage>(places chair for
 himself, L. C. and sits)</stage>
 </p>
-</sp><sp>
+</sp><sp who="#L0113_M2">
 <speaker>Cox.</speaker>
 <p> Proceed, Mr. Box.</p>
-</sp><sp>
+</sp><sp who="#L0113_M1">
 <speaker>Box.</speaker>
 <p> It was a lovely evening towards the close of the fourteenth century</p>
-</sp><sp>
+</sp><sp who="#L0113_M2">
 <speaker>Cox.</speaker>
 <p> What the devil have I to do with the fourteenth century, air?</p>
-</sp><sp>
+</sp><sp who="#L0113_M1">
 <speaker>Box.</speaker>
 <p>
 <stage>(rises)</stage> If the honourable gentleman on the opposite side requires
@@ -835,34 +874,34 @@ evening towards the close of the fourteenth century, when two horsemen,
 enveloped in ample cloaks, might be seen slowly ascending the winding path that
 leads to the castle. "By my Holidam !" exclaimed the older swarthy stranger —— Do
 you follow me ?</p>
-</sp><sp>
+</sp><sp who="#L0113_M2">
 <speaker>Cox.</speaker>
 <p>
 <stage>(rising)</stage> I'll be d—d if I do.</p>
-</sp><sp>
+</sp><sp who="#L0113_F5">
 <speaker>Mrs. C.</speaker>
 <p>
 <stage>(calls in room, R.)</stage> Cox! Cox!</p>
-</sp><sp>
+</sp><sp who="#L0113_M1">
 <speaker>Box.</speaker>
 <p>
 <stage>(rises)</stage> Hah! there's your wife calling you.</p>
-</sp><sp>
+</sp><sp who="#L0113_M2">
 <speaker>Cox.</speaker>
 <p> Never mind my wife—the explanation, sir!</p>
-</sp><sp>
+</sp><sp who="#L0113_M1">
 <speaker>Box.</speaker>
 <p> There's your child, Box—your only child—the image of its father—do you hear?
 Now it screams—inhuman parent, why don't you fly ? <stage>(pushing him)</stage>
 </p>
-</sp><sp>
+</sp><sp who="#L0113_F5">
 <speaker>Mrs. C.</speaker>
 <p>
 <stage>(in room, R.)</stage> Cox ! Cox ! I want you.</p>
-</sp><sp>
+</sp><sp who="#L0113_M2">
 <speaker>Cox.</speaker>
 <p> But the explanation—the glove—the—the—</p>
-</sp><sp>
+</sp><sp who="#L0113_M1">
 <speaker>Box.</speaker>
 <p> There—your wife—your sweet babe—calls you—you can't resist that appeal.
 <stage>( pushes him into room, R.)</stage> Whew ! I thought I should never have
@@ -875,10 +914,10 @@ choked the following week—how Fanny Hawes and I never met until this hour.
 dear—dear Fanny—I beg pardon, Mrs. Cox—forgive the emotion—the confusion—that
 this unexpected discovery makes in my intellect. <stage>( in a confidential
 tone)</stage> Where's Cox?</p>
-</sp><sp>
+</sp><sp who="#L0113_F5">
 <speaker>Mrs. C.</speaker>
 <p> I left him singing the child to sleep.</p>
-</sp><sp>
+</sp><sp who="#L0113_M1">
 <speaker>Box.</speaker>
 <p> Happy Cox ! <stage>(places a chair, R.C.)</stage> Sit down, my dear Mrs.
 C.</p>
@@ -886,118 +925,118 @@ C.</p>
 <p>I have something particular to say to you. <stage>(sits L. C . beside her-
 Cox appears at door, R., and Mrs. Box at door, L., listening)</stage> You
 remember the circumstances under which we parted.</p>
-</sp><sp>
+</sp><sp who="#L0113_F5">
 <speaker>Mrs. C.</speaker>
 <p>Perfectly. And I have often thought since of the dear little creature that I
 left in your arms when we were rudely separated.</p>
-</sp><sp>
+</sp><sp who="#L0113_M1">
 <speaker>Box.</speaker>
 <p>
 <stage>(aside)</stage> Her lapdog!—she hasn't forgotten him then. A— you allude
 to —</p>
-</sp><sp>
+</sp><sp who="#L0113_F5">
 <speaker>Mrs. C.</speaker>
 <p> My little Charley!</p>
-</sp><sp>
+</sp><sp who="#L0113_M2">
 <speaker>Cox.</speaker>
 <p>
 <stage>(apart, at door)</stage> Her little Charley!</p>
-</sp><sp>
+</sp><sp who="#L0113_M1">
 <speaker>Box.</speaker>
 <p> Yes, I wish to speak to you privately about him ; you were greatly attached
 to the poor fellow ?</p>
-</sp><sp>
+</sp><sp who="#L0113_F5">
 <speaker>Mrs. C.</speaker>
 <p> I doted on him: he was such a beauty with his silken hair, like his mother,
 and his charming long ears</p>
-</sp><sp>
+</sp><sp who="#L0113_M2">
 <speaker>Cox.</speaker>
 <p>
 <stage>(apart)</stage> Like his father I suppose.</p>
-</sp><sp>
+</sp><sp who="#L0113_F5">
 <speaker>Mrs. C.</speaker>
 <p> Then he was <hi>`</hi> playful</p>
-</sp><sp>
+</sp><sp who="#L0113_M1">
 <speaker>Box.</speaker>
 <p> Wonderfully! The very day I took him home, he tore up Mrs. Bouncer's best
 cap, for which I had to pay.</p>
-</sp><sp>
+</sp><sp who="#L0113_F5">
 <speaker>Mrs. C.</speaker>
 <p> I can't tell you how I grieved for him—until I got another</p>
-</sp><sp>
+</sp><sp who="#L0113_M1">
 <speaker>Box.</speaker>
 <p> Then you have got another ?</p>
-</sp><sp>
+</sp><sp who="#L0113_F5">
 <speaker>Mrs. C.</speaker>
 <p> Oh, dear, yes. Cox has been very kind—such a little love—you can't think;
 but I never loved him as I did my pet Charley.</p>
-</sp><sp>
+</sp><sp who="#L0113_F4">
 <speaker>Mrs. B.</speaker>
 <p>
 <stage>(apart at door)</stage> Oh ! her pet Charley!</p>
-</sp><sp>
+</sp><sp who="#L0113_M2">
 <speaker>Cox.</speaker>
 <p>
 <stage>(apart at door)</stage> Hoh!</p>
-</sp><sp>
+</sp><sp who="#L0113_M1">
 <speaker>Box.</speaker>
 <p> Of course, first affection is always the strongest. Poor Charley! It quite
 affects me when I reflect upon his untimely end.</p>
-</sp><sp>
+</sp><sp who="#L0113_F5">
 <speaker>Mrs. C.</speaker>
 <p> What—is he dead ?</p>
-</sp><sp>
+</sp><sp who="#L0113_M1">
 <speaker>Box.</speaker>
 <p> That was what I wanted to tell you,—poor dear little Charley is no more.</p>
-</sp><sp>
+</sp><sp who="#L0113_F5">
 <speaker>Mrs. C.</speaker>
 <p> Oh ! Mr. Box, you do shock me !</p>
-</sp><sp>
+</sp><sp who="#L0113_M1">
 <speaker>Box.</speaker>
 <p> I knew you would be deeply affected; but I've done all I could to keep his
 dear remains for you.</p>
-</sp><sp>
+</sp><sp who="#L0113_F5">
 <speaker>Mrs. C.</speaker>
 <p> His remains ?—how ?</p>
-</sp><sp>
+</sp><sp who="#L0113_M1">
 <speaker>Box.</speaker>
 <p> I've had him beautifully preserved—he looks just as if he was alive. I
 thought it might be a melancholy consolation to you to drop a tear or so upon
 the dear departed. <stage>(Mrs. Box and Mr. Cox rush down suddenly on each side.
 It commences raining)</stage>
 </p>
-</sp><sp>
+</sp><sp who="#L0113_M2">
 <speaker>Cox.</speaker>
 <p><stage>(R.)</stage> Hah! so we've discovered you.</p>
 <stage>(Mr. Box and Mrs Cox start up in surprise)</stage>
-</sp><sp>
+</sp><sp who="#L0113_F4">
 <speaker>Mrs. B.</speaker>
 <p>
 <stage>(L.)</stage> Oh! we've heard all</p>
-</sp><sp>
+</sp><sp who="#L0113_M2">
 <speaker>Cox.</speaker>
 <p> About the dear little creature.</p>
-</sp><sp>
+</sp><sp who="#L0113_F4">
 <speaker>Mrs. B.</speaker>
 <p>
 <stage>(to Box)</stage> Your darling Charley !</p>
-</sp><sp>
+</sp><sp who="#L0113_M2">
 <speaker>Cox.</speaker>
 <p>
 <stage>(to Mrs. Cox)</stage> The playful little fellow, with his mother's silken
 hair!</p>
-</sp><sp>
+</sp><sp who="#L0113_F4">
 <speaker>Mrs. B.</speaker>
 <p>
 <stage>(to Box)</stage> And his father's long ears! <stage>(Box and Mrs. Cox
 laughing immoderately, throw themselves into chairs, R. and L.)</stage></p>
-</sp><sp>
+</sp><sp who="#L0113_M2">
 <speaker>Cox.</speaker>
 <p> Oh ! mighty fine, madam!</p>
-</sp><sp>
+</sp><sp who="#L0113_F4">
 <speaker>Mrs. B.</speaker>
 <p> It's just like you, Mr. Box!</p>
-</sp><sp>
+</sp><sp who="#L0113_M2">
 <speaker>Cox.</speaker>
 <p> My feelings as a husband have been trampled upon! I'll 
 <pb n="12"/>join the
@@ -1005,32 +1044,32 @@ Broken-hearted Club directly—I'll leave you for ever—I'll take the first omn
 to Australia, and bury my sorrows in the Diggings! <stage>(puts on his hat, Box
 and Mrs. Cox continue to laugh)</stage>
 </p>
-</sp><sp>
+</sp><sp who="#L0113_F5">
 <speaker>Mrs. C.</speaker>
 <p> Oh, go by all means—we can spare you !</p>
-</sp><sp>
+</sp><sp who="#L0113_M1">
 <speaker>Box.</speaker>
 <p> Don't stay a moment on our account!</p>
-</sp><sp>
+</sp><sp who="#L0113_M2">
 <speaker>Cox.</speaker>
 <p> But it rains tremendously! <stage>(calls at door, 3 E. L.)</stage> Mrs.
 Bouncer, has that cabman brought my umbrella yet ?</p>
-</sp><sp>
+</sp><sp who="#L0113_F6">
 <speaker>Mrs. Boun.</speaker>
 <p>
 <stage>(outside)</stage> No—not yet, sir.</p>
-</sp><sp>
+</sp><sp who="#L0113_M2">
 <speaker>Cox.</speaker>
 <p> Not yet—how very extraordinary, <stage>(goes to window, L., a Child cries in
 room R.; then another Child in room L .)</stage>
 </p>
-</sp><sp>
+</sp><sp who="#L0113_F5">
 <speaker>Mrs. C.</speaker>
 <p> The blessed child.</p>
-</sp><sp>
+</sp><sp who="#L0113_F4">
 <speaker>Mrs. B.</speaker>
 <p> My poppet ! <stage>(they run into rooms, R. and L.)</stage></p>
-</sp><sp>
+</sp><sp who="#L0113_M2">
 <speaker>Cox.</speaker>
 <p>
 <stage>(at window)</stage> Hah! why surely that's my umbrella a coming down the
@@ -1038,61 +1077,61 @@ street,—brown gingham—brass spike—two broken ribs: I can't be mistaken.
 <stage>(thrown up window and calls)</stage> Holloa, sir—hey! I beg your pardon,
 but that umbrella is mine. I say, sir, that umbrella you are carrying is my
 property.</p>
-</sp><sp>
+</sp><sp who="#L0113_M3">
 <speaker>Man .</speaker>
 <p>
 <stage>(in street)</stage> No it isn't, I gave a shilling for it this morning on
 Holborn Hill.</p>
-</sp><sp>
+</sp><sp who="#L0113_M2">
 <speaker>Cox.</speaker>
 <p> It's quite immaterial what you gave for it, sir, the umbrella is mine—and I
 expect you'll instantly give it up!</p>
-</sp><sp>
+</sp><sp who="#L0113_M3">
 <speaker>Man .</speaker>
 <p>
 <stage>(in street)</stage> Do you? then you'd better come and take it.</p>
-</sp><sp>
+</sp><sp who="#L0113_M2">
 <speaker>Cox.</speaker>
 <p> Oh, very well, only wait there till I come down, and see if I won't have it.
 <stage>(quitting the window)</stage> An impudent rascal, to refuse to give me up
 my umbrella, that I've had for twelve years.</p>
 <stage> Exit, 3 E. L.</stage>
-</sp><sp>
+</sp><sp who="#L0113_M1">
 <speaker>Box.</speaker>
 <p> Holloa! I shouldn't wonder if there was to be a row. Honour calls me to aid
 my friend, but prudence whispers that I never learnt the noble art of self
 defence—so I shall look on and see fair play. <stage>(goes to window and looks
 out)</stage>
 </p>
-</sp><sp>
+</sp><sp who="#L0113_M2">
 <speaker>Cox.</speaker>
 <p>
 <stage>( in the street)</stage> Now, sir, give up my umbrella !</p>
-</sp><sp>
+</sp><sp who="#L0113_M3">
 <speaker>Man .</speaker>
 <p>
 <stage>( in the street)</stage> I won't!</p>
-</sp><sp>
+</sp><sp who="#L0113_M2">
 <speaker>Cox.</speaker>
 <p>
 <stage>(in the street)</stage> You won't ?—but I'll have it!</p>
-</sp><sp>
+</sp><sp who="#L0113_M3">
 <speaker>Man .</speaker>
 <p>
 <stage>(in the street)</stage> Holloa! what do you mean ? Police! robbery!
 murder!</p>
-</sp><sp>
+</sp><sp who="#L0113_M1">
 <speaker>Box.</speaker>
 <p> Oh! there's Cox pitching into the stranger, and the stranger digging away at
 Cox ! <stage>(while they are fighting, Boys are heard cheering at intervals;
 scuffling and voices in the street, some cry, " A ring!" " Make a ring !" "
 Stand Back !" " Hurray!" " Go it little 'un !")</stage></p>
-</sp><sp>
+</sp><sp who="#L0113_M2">
 <speaker>Cox.</speaker>
 <p>
 <stage>(outside)</stage> Take that!—hah ! <stage>(cheer outside)</stage>
 </p>
-</sp><sp>
+</sp><sp who="#L0113_M1">
 <speaker>Box.</speaker>
 <p> Bravo ! Cox has given him a topper; hah ! there again, oh lord he's got
 Cox's head in Chancery and is hammering at it with persevering diligence,
@@ -1106,27 +1145,27 @@ cheers outside)</stage>
 baby)</stage>
 </p>
 </sp>
-<pb n="13"/><sp>
+<pb n="13"/><sp who="#L0113_F5">
 <speaker>Mrs. C.</speaker>
 <p> What's the matter, Mr. Box? <stage>( together )</stage></p>
-</sp><sp>
+</sp><sp who="#L0113_F4">
 <speaker>Mrs. B.</speaker>
 <p> For heaven's sake, what has happened? </p>
-</sp><sp>
+</sp><sp who="#L0113_M1">
 <speaker>Box.</speaker>
 <p> Oh—oh, poor Cox. He's engaged in a fearful pugilistic combat in the
 street.</p>
-</sp><sp>
+</sp><sp who="#L0113_F5">
 <speaker>Mrs. C.</speaker>
 <p> Oh! heavens—he'll be murdered—oh pray hold my Baby. <stage>( she places the
 baby in Box's arms)</stage></p>
-</sp><sp>
+</sp><sp who="#L0113_F4">
 <speaker>Mrs. B.</speaker>
 <p> Oh! we must protect him—here, Box, take the child— <stage>(she places her
 baby in his arms — both ladies rush out 3 E. L., crying " Police." Box stands at
 C. of stage, holding a baby on each arm)</stage>
 </p>
-</sp><sp>
+</sp><sp who="#L0113_M1">
 <speaker>Box.</speaker>
 <p> Holloa!—here—gracious goodness! here's a picture! I should like to ask any
 unprejudiced lady what I am to do with this double responsibility, which has
@@ -1140,7 +1179,7 @@ approaching door, L.)</stage> Hah! here they come !</p></sp>
 nose — his clothes are torn and covered with mud; his hat crushed over his eyes
 — he brandishes a broken umbrella — the ladies take the children off, R . and
 L., and re-enter immediately. </stage>
-<sp>
+<sp who="#L0113_M2">
 <speaker>Cox.</speaker>
 <p>
 <stage>(R. L.)</stage> Victory ! Hurray! that last round settled the rascal— and
@@ -1149,18 +1188,18 @@ conflict—here it is. I could have sworn to it at any distance—even though "J
 C." for James Cox, had not been engraved on the handle, <stage>(examines the
 handle of the umbrella)</stage> Eh! bless me ! these are not my initials—and now
 that I examine it closely, it's not a bit like my umbrella.</p>
-</sp><sp>
+</sp><sp who="#L0113_F4">
 <speaker>Mrs. B.</speaker>
 <p>
 <stage>(L)</stage> Not like yours ?</p>
-</sp><sp>
+</sp><sp who="#L0113_M2">
 <speaker>Cox.</speaker>
 <p> Quite an inferior article, Mrs. Box—but, good gracious, what have I done
 ?—committed highway robbery, with violence, upon the unoffending proprietor of
 the umbrella—lord! I shall be taken up, and very likely transported for the
 crime. Dear me, how could I have made such a mistake? Why, instead of the
 letters "J. C, " here arc the initials " J. B." on the handle.</p>
-</sp><sp>
+</sp><sp who="#L0113_M1">
 <speaker>Box.</speaker>
 <p>
 <stage>(C)</stage> "J. B. !" allow me to inspect them—<stage>(Cox holds the
@@ -1168,91 +1207,91 @@ umbrella to his nose)</stage> —let me see.— <stage>(looks at the handle of t
 umbrella)</stage>  Cox, my dear boy, let your mind recover its wonted
 tranquillity— it's all serene—the umbrella is mine. I lost it twelve mouths ago
 in a penny omnibus.</p>
-</sp><sp>
+</sp><sp who="#L0113_M2">
 <speaker>Cox.</speaker>
 <p> Hah ! then I've not committed a highway robbery. Embrace me, my
 preserver—yet—no—stand off—there's still a deadly feud between us.</p>
-</sp><sp>
+</sp><sp who="#L0113_M1">
 <speaker>Box.</speaker>
 <p> About "Little Charley "—eh? I'll explain all that directly. <stage>(Mrs. Box
 speaks apart, to Mr. Cox—Box goes to door, 3 E. L., and calls)</stage> Mrs.
 Bouncer, have the goodness to bring up little Charley's remains.</p>
-</sp><sp>
+</sp><sp who="#L0113_M2">
 <speaker>Cox.</speaker>
 <p> I must tell you, that after what I have heard I'm not to be satisfied with
 less than a full explanation.</p>
-</sp><sp>
+</sp><sp who="#L0113_M1">
 <speaker>Box.</speaker>
 <p> Don't make yourself ridiculous.</p></sp>
 <pb n="14"/>
 <stage> Enter Mrs. Bouncer 3 E. L., carrying a stuffed dog fixed to a board, a
 cloth thrown over it. (Mrs. Box and Mrs. Cox come down on either side) </stage>
-<sp>
+<sp who="#L0113_M1">
 <speaker>Box.</speaker>
 <p> There are the remains of "Little Charley."</p>
-</sp><sp>
+</sp><sp who="#L0113_M2">
 <speaker>Cox.</speaker>
 <p> A stuffed dog !</p>
-</sp><sp>
+</sp><sp who="#L0113_F5">
 <speaker>Mrs. C.</speaker>
 <p> My darling Charley; how beautiful he looks. <stage>(takes the dog and kisses
 him )</stage></p>
-</sp><sp>
+</sp><sp who="#L0113_F6">
 <speaker>Mrs. Boun.</speaker>
 <p> A nasty brute that I've had it on my shelf in the kitchen ever so long.</p>
-</sp><sp>
+</sp><sp who="#L0113_M2">
 <speaker>Cox.</speaker>
 <p> Hem! ha! I begin to doubt my own extraordinary sagacity —but how was it that
 you and my wife appeared not to know each other when you met ?</p>
-</sp><sp>
+</sp><sp who="#L0113_F4">
 <speaker>Mrs. B.</speaker>
 <p> Oh, my dear Cox, I know how that happened. Fanny has explained all to me,
 and I'm satisfied.</p>
-</sp><sp>
+</sp><sp who="#L0113_M2">
 <speaker>Cox.</speaker>
 <p> Oh, very well, if you're satisfied. I suppose its my duty to be content, so
 give me your hand, Box.</p>
-</sp><sp>
+</sp><sp who="#L0113_M1">
 <speaker>Box.</speaker>
 <p> Take it, Cox. <stage>(grasp each others hands, warmly)</stage> Hold ! I've
 an idea of something looming in the future.</p>
-</sp><sp>
+</sp><sp who="#L0113_M2">
 <speaker>Cox.</speaker>
 <p> Speak, what is it?</p>
-</sp><sp>
+</sp><sp who="#L0113_M1">
 <speaker>Box.</speaker>
 <p> Your child is a girl ?</p>
-</sp><sp>
+</sp><sp who="#L0113_M2">
 <speaker>Cox.</speaker>
 <p> Yes, of the female sex.</p>
-</sp><sp>
+</sp><sp who="#L0113_M1">
 <speaker>Box.</speaker>
 <p> Mine is a male boy—what if we should unite the houses of Box and Cox by a
 future marriage between our infant heirs ?</p>
-</sp><sp>
+</sp><sp who="#L0113_M2">
 <speaker>Cox.</speaker>
 <p> Hah! a family compact—good.</p>
-</sp><sp>
+</sp><sp who="#L0113_M1">
 <speaker>Box.</speaker>
 <p> A <hi>`</hi> !</p>
-</sp><sp>
+</sp><sp who="#L0113_F4">
 <speaker>Mrs. B.</speaker>
 <p> How delightful !</p>
-</sp><sp>
+</sp><sp who="#L0113_F5">
 <speaker>Mrs. C.</speaker>
 <p> How charming !</p>
-</sp><sp>
+</sp><sp who="#L0113_M2">
 <speaker>Cox.</speaker>
 <p> Box, my dear fellow, we'll drink the health of the young couple to day, in a
 glass of champagne.</p>
-</sp><sp>
+</sp><sp who="#L0113_M1">
 <speaker>Box.</speaker>
 <p> So we will, my boy, and let us hope that the popularity which Box and Cox
 enjoyed in their bachelor state——</p>
-</sp><sp>
+</sp><sp who="#L0113_F4">
 <speaker>Mrs. B.</speaker>
 <p>May not be withdrawn from them when they are ——
-</p></sp><sp><speaker>Mrs. C|Mrs.B.|Box.|Cox.</speaker><p>MARRIED AND SETTLED </p></sp>
+</p></sp><sp who="#L0113_mul"><speaker>Mrs. C|Mrs.B.|Box.|Cox.</speaker><p>MARRIED AND SETTLED </p></sp>
 
 
 <stage>Right. Mr.Cox/ Mrs.Cox. Mr Box. Mrs Box. Left.</stage>

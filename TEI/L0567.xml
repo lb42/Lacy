@@ -2,7 +2,7 @@
  <teiHeader>
   <fileDesc>
    <titleStmt>
-    <title n="thewomanoftheworld">The Woman of the World</title>
+    <title n="thewomanoftheworld" type="main">The Woman of the World</title>
     <author>"Cavendish, Lady Clara"</author>
     <respStmt>
      <resp>Curated by</resp>
@@ -11,18 +11,104 @@
    </titleStmt>
    <publicationStmt>
     <distributor>Privately published on the Lacy Website</distributor>
-    <idno>L0567</idno>
-   </publicationStmt>
-   <sourceDesc><bibl type="digital">Retagged from DOCX produced by Abby from a VPP PDF edition</bibl><bibl type="source" status="TEI_1" n="38.12" corresp="nic:N10679"><author>“Cavendish, Lady Clara“ [Rymer, James Malcolm]</author><title n="thewomanoftheworld">The Woman of the World</title><title type="sub">A Drama in two acts</title><extent>51 pp (UM copy: 462 - 513)<measure type="pp" quantity="50"/><measure type="txWords" quantity="17996"/><measure type="spWords" quantity="15636"/><measure type="stWords" quantity="2360"/></extent><eventName notAfter="1858" type="firstPerf">
-      <date resp="nicoll" when="1858-11-13"/>
-      <name>Queen's Theatre</name>
-      <date resp="source" when="1858-11-13">13 Nov. 1858</date>
-     </eventName><listRef>
-      <ref target="http://victorian.nuigalway.ie/modx/assets/docs/pdf/Vol38xiiWoman.pdf">VPP_PDF</ref>
-      <ref target="https://archive.org/details/womanofworlddram00cave">Internet Archive</ref>
-     </listRef><listRef type="localCopies"><ref>Vol38/L0567/L0567-ia.pdf</ref><ref>Vol38/L0567/L0567-um.pdf</ref><ref>Vol38/L0567/L0567-vpp.pdf</ref><ref>Vol38/L0567/pages</ref><ref>Vol38/L0567/Vol38xiiWoman.pdf</ref></listRef></bibl></sourceDesc>
+    
+   <idno type="lae">L0567</idno></publicationStmt>
+   <sourceDesc><bibl type="printSource" n="38.12"><author>“Cavendish, Lady Clara“ [Rymer, James
+Malcolm]</author><title type="main" n="thewomanoftheworld">The Woman of the
+World</title><title type="sub">A Drama in two acts</title><extent>51 pp (UM
+copy: 462 - 513)<measure type="pp" quantity="50"/>
+  <measure type="spCount" quantity="707"/>
+  <measure type="spvCount" quantity="0"/>
+  <measure type="txWords" quantity="17994"/>
+  <measure type="spWords" quantity="15636"/>
+  <measure type="stWords" quantity="2358"/>
+  </extent>
+
+<title level="s"> Lacy's Acting Edition, volume 38, No. 0567</title><idno type="nic">N10679</idno><idno type="vpp">Vol38xiiWoman</idno></bibl><bibl type="digitalSource" n="copytext"><ref target="https://lb42.github.io/Lacy/Source/VPP/L0567-vpp.pdf">LoB from
+VPP</ref><ref target="local:Vol38/L0567/L0567-vpp.pdf"/><ref target="local:Vol38/L0567/Vol38xiiWoman.pdf"/></bibl><bibl type="digitalSource"><ref target="https://archive.org/details/womanofworlddram00cave">Internet
+Archive</ref></bibl><bibl type="digitalSource"><ref target="https://babel.hathitrust.org/cgi/pt?id=mdp.39015067452972&amp;seq=462 ">UM from HT</ref><ref target="local:Vol38/L0567/L0567-um.pdf"/></bibl><bibl type="digitalSource" n="copytext"><ref target="https://lb42.github.io/Lacy/L0567.html">TEI</ref></bibl><listEvent>
+<event type="firstPerf" when="1858-11-13" source="textNic" where="Queen's">
+<desc>Premiered at Queen's Theatre 13 Nov. 1858</desc>
+</event>
+</listEvent></sourceDesc>
   </fileDesc>
-  <profileDesc><textClass><!--L_2_Drama_D._DRAMA--><catRef target="#sizeL"/><catRef target="#act2"/><catRef target="nic:D."/><keywords><term>DRAMA</term></keywords></textClass></profileDesc><revisionDesc><change when="2024-10-03">Header enriched</change>
+  <profileDesc><textClass><catRef target="#sizeL"/><catRef target="#act2"/><catRef target="nic:D."/><keywords><term>DRAMA</term></keywords></textClass><particDesc><listPerson>
+<person xml:id="L0567_M1">
+<persName type="role"> Duke of Endell</persName>
+<persName type="spkr" n="28">Duke.</persName>
+</person>
+<person xml:id="L0567_M2">
+<persName type="role"> Sir John Cleveland </persName>
+<persName type="spkr" n="41">Sir J.</persName>
+</person>
+<person xml:id="L0567_M3">
+<persName type="role"> Doctor Meadows </persName>
+<persName type="spkr" n="22">Dr. M.</persName>
+</person>
+<person xml:id="L0567_M4">
+<persName type="role"> Charles Stanmore </persName>
+<persName type="spkr" n="26">Charles.</persName>
+</person>
+<person xml:id="L0567_M5">
+<persName type="role"> Monti</persName>
+<persName type="spkr" n="102">Monti.</persName>
+</person>
+<person xml:id="L0567_M6">
+<persName type="role"> Mr. Croker </persName>
+<persName type="spkr" n="15">Croker.</persName>
+</person>
+<person xml:id="L0567_M7">
+<persName type="role"> Major Edmonds</persName>
+<persName type="spkr" n="49">Major.</persName>
+</person>
+<person xml:id="L0567_M8">
+<persName type="role"> Snubbins and Dubbins </persName>
+</person>
+<person xml:id="L0567_M9">
+<persName type="role"> John Butts </persName>
+<persName type="spkr" n="69">John.</persName>
+</person>
+<person xml:id="L0567_M10">
+<persName type="role"> Jemmy</persName>
+</person>
+<person xml:id="L0567_M11">
+<persName type="role"> Policemen, Servants, &amp;c.</persName>
+<persName type="spkr" n="3">Boy.</persName>
+<persName type="spkr" n="3">1st. Policeman.</persName>
+<persName type="spkr" n="1">2nd Policeman..</persName>
+<persName type="spkr" n="1">Voice.</persName>
+</person>
+<person xml:id="L0567_F12">
+<persName type="role"> Lady Bedale </persName>
+<persName type="spkr" n="32">Lady B.</persName>
+</person>
+<person xml:id="L0567_F13">
+<persName type="role">Lisa Selby</persName>
+<persName type="spkr" n="121">Lisa.</persName>
+</person>
+<person xml:id="L0567_F14">
+<persName type="role">Joanna Cleveland</persName>
+<persName type="spkr" n="74">Joanna.</persName>
+</person>
+<person xml:id="L0567_F15">
+<persName type="role"> Madame Arundelli</persName>
+<persName type="spkr" n="36">Madame A.</persName>
+</person>
+<person xml:id="L0567_F16">
+<persName type="role"> Miss Winch</persName>
+<persName type="spkr" n="20">Miss W.</persName>
+</person>
+<person xml:id="L0567_F17">
+<persName type="role"> Susan Jenkins </persName>
+<persName type="spkr" n="63">Susan.</persName>
+</person>
+<person xml:id="L0567_F18">
+<persName type="role"> Jane Smith</persName>
+<persName type="spkr" n="1">Jane.</persName>
+</person>
+
+
+</listPerson></particDesc></profileDesc><revisionDesc><change when="2025-09-07">Metadata updated from new catalogue</change><change when="2024-10-03">Header enriched</change>
    <change when="2023-11-18">Header confected</change>
   </revisionDesc>
  </teiHeader>
@@ -44,48 +130,48 @@
     <p> First performed at the Queen's Theatre,November 13th, 1858.</p>
    </performance>
    <castList><castItem><role gender="M"> Duke of Endell</role><roleDesc>(he was a man past, but only just
-    past the prime of life)</roleDesc> <actor sex="M">Mr. J. Green.</actor></castItem>
+    past the prime of life)</roleDesc> <actor ana="#M">Mr. J. Green.</actor></castItem>
    <castItem><role gender="M"> Sir John Cleveland </role> <roleDesc>(the good-natured proprietor of
-    Cleveland Hall, was a general favourite in the country)</roleDesc><actor sex="M"> Mr.
+    Cleveland Hall, was a general favourite in the country)</roleDesc><actor ana="#M"> Mr.
     Cowle.</actor></castItem>
    <castItem><role gender="M"> Doctor Meadows </role><roleDesc>(a fine, warm-hearted, good, kind
-    Man)</roleDesc><actor sex="M"> Mr. Randall.</actor></castItem>
+    Man)</roleDesc><actor ana="#M"> Mr. Randall.</actor></castItem>
    <castItem><role gender="M"> Charles Stanmore </role><roleDesc>(he was of a quiet, contemplative
-    character, with a heart capable of the profoundest feelings)</roleDesc><actor sex="M">Mr. C.
+    character, with a heart capable of the profoundest feelings)</roleDesc><actor ana="#M">Mr. C.
     Frazer.</actor></castItem>
    <castItem><role gender="M"> Monti</role><roleDesc>(he was an Italian, and was reputed to have
-    the power of foretelling the future.</roleDesc><actor sex="M"> Mr. Charles
+    the power of foretelling the future.</roleDesc><actor ana="#M"> Mr. Charles
     Sennet</actor></castItem>
    <castItem><role gender="M"> Mr.  Croker </role><roleDesc>(a shabby looking man, with ferret eyes,
-    and a head of hair that looked a Dandelion)</roleDesc><actor sex="M"> Mr.
+    and a head of hair that looked a Dandelion)</roleDesc><actor ana="#M"> Mr.
     Verner.</actor></castItem>
    <castItem><role gender="M"> Major Edmonds</role><roleDesc>(no one knew to what branch of her
-    Majesty's Service he belonged to entitle him to the prefix of Major)</roleDesc><actor sex="M">Mr. J. Russell.</actor></castItem>
+    Majesty's Service he belonged to entitle him to the prefix of Major)</roleDesc><actor ana="#M">Mr. J. Russell.</actor></castItem>
    <castItem><role gender="M"> Snubbins and Dubbins </role><roleDesc>(policemen.—They were never in
-    the way, except when they were not wanted)</roleDesc><actor sex="M"> Messrs. Crosby &amp;
+    the way, except when they were not wanted)</roleDesc><actor ana="#M"> Messrs. Crosby &amp;
     Mayson</actor></castItem>
    <castItem><role gender="M"> John Butts </role><roleDesc>("I farms the Holly Tree Farm, down agin
-    Dyke's Hollow")</roleDesc><actor sex="M"> Mr. G. Harding.</actor></castItem>
+    Dyke's Hollow")</roleDesc><actor ana="#M"> Mr. G. Harding.</actor></castItem>
    <castItem><role gender="M"> Jemmy</role><roleDesc>(he was sharp for his years,
-    very!)</roleDesc><actor sex="M">Master Clarke.</actor></castItem>
+    very!)</roleDesc><actor ana="#M">Master Clarke.</actor></castItem>
    <castItem><role gender="M"> Policemen, Servants, &amp;c.</role></castItem>
    <castItem><role gender="F"> Lady Bedale </role><roleDesc>(her Ladyship was a vicious looking
-    elderly woman, with a very red face)</roleDesc><actor sex="F"> Mrs. J. Parry.</actor></castItem>
+    elderly woman, with a very red face)</roleDesc><actor ana="#F"> Mrs. J. Parry.</actor></castItem>
    <castGroup><roleDesc>they were cousins,
    these two girls, Sir John tried to like Lisa, but he couldn't: Joanna was his
    favourite.</roleDesc>
-   <castItem><role gender="F">Lisa Selby</role><actor sex="F">Mrs. Cowle</actor></castItem>
-<castItem><role gender="F">Joanna Cleveland</role><actor sex="F">Miss Palmer. </actor></castItem></castGroup>
+   <castItem><role gender="F">Lisa Selby</role><actor ana="#F">Mrs. Cowle</actor></castItem>
+<castItem><role gender="F">Joanna Cleveland</role><actor ana="#F">Miss Palmer. </actor></castItem></castGroup>
    <castItem><role gender="F"> Madame Arundelli</role><roleDesc>(about the eyes there was a
-    sinister look, no one exactly liked)</roleDesc><actor sex="F">Miss Fanny
+    sinister look, no one exactly liked)</roleDesc><actor ana="#F">Miss Fanny
     Douglas</actor></castItem>
    <castItem><role gender="F"> Miss Winch</role><roleDesc>(a dose of the very strongest vinegar
-    would give but a feeble idea of this Lady's countenance)</roleDesc><actor sex="F">Miss Rose
+    would give but a feeble idea of this Lady's countenance)</roleDesc><actor ana="#F">Miss Rose
     Ellington.</actor></castItem>
    <castItem><role gender="F"> Susan Jenkins </role><roleDesc>(she said she would have John Butts,
-    and she did)</roleDesc><actor sex="F"> Miss Sennett.</actor></castItem>
+    and she did)</roleDesc><actor ana="#F"> Miss Sennett.</actor></castItem>
    <castItem><role gender="F"> Jane Smith</role><roleDesc>(would have liked an easier place and
-    better wages)</roleDesc><actor sex="F"> Miss Haslewood.</actor></castItem></castList>
+    better wages)</roleDesc><actor ana="#F"> Miss Haslewood.</actor></castItem></castList>
    <pb n="3"/>
    <div type="programme"> <head> PROGRAMME OF SCENERY AND INCIDENTS.</head>
     <p>Sir John Cleveland's MANSION,Near York. </p>
@@ -199,179 +285,179 @@
     <div type="scene">
      <stage type="setting">SCENE FIRST.— A Landscape, or Country Road.</stage>
      <stage> Enter Susan Jenkins and John Butts, L. </stage>
-     <sp>
+     <sp who="#L0567_M9">
       <speaker>John.</speaker>
       <p>Well, I never did in all my life—no, never! Zooka and taters! a wedding broke off at the
        werry halter.</p>
      </sp>
-     <sp>
+     <sp who="#L0567_F17">
       <speaker>Susan.</speaker>
       <p>Not <hi>halter</hi>, John, you ain't got no gentility.</p>
      </sp>
-     <sp>
+     <sp who="#L0567_M9">
       <speaker>John.</speaker>
       <p>No, nor I don't want to! That 'ere Mr. Charles Stanmore's a genteel young man, as I've
        <hi>heerd</hi> everybody say —and what's gentility made him been and gone and do? Gentility
        be—</p>
      </sp>
-     <sp>
+     <sp who="#L0567_F17">
       <speaker>Susan.</speaker>
       <p>John, recollect where you is—</p>
      </sp>
-     <sp>
+     <sp who="#L0567_M9">
       <speaker>John.</speaker>
       <p>So I does—for if I didn't—oh, zooks and taters!</p>
      </sp>
-     <sp>
+     <sp who="#L0567_F17">
       <speaker>Susan.</speaker>
       <p><hi>Sertintly</hi>, John, I never knew such conduct—he didn't arrive at the minster till a
        good deal after the time fixed for the ceremonious solemnity.</p>
      </sp>
-     <sp>
+     <sp who="#L0567_M9">
       <speaker>John.</speaker>
       <p>Solemn<hi>nentity</hi>! What's that ?</p>
      </sp>
-     <sp>
+     <sp who="#L0567_F17">
       <speaker>Susan.</speaker>
       <p>Hymeneral marriage, you gaby.</p>
      </sp>
-     <sp>
+     <sp who="#L0567_M9">
       <speaker>John.</speaker>
       <p>Oh, why don't you talk good English, as I does—but 1 forgot, you can't, 'cause you picked
        up fine notions when you was in service in Lunnun.</p>
      </sp>
-     <sp>
+     <sp who="#L0567_F17">
       <speaker>Susan.</speaker>
       <p>You are perfectly right, John. Well, as I was a saying—Mr. Charles Stanmore walks up to the
        altar, looking as pale as a parsnip; and when the reverend <hi>offishonsating</hi> minister
        says—</p>
      </sp>
-     <sp>
+     <sp who="#L0567_M9">
       <speaker>John.</speaker>
       <p>Zooks and taters! there you goes <hi>agin</hi>! Why don't 'ee speak proper, and say parson
        ?</p>
      </sp>
-     <sp>
+     <sp who="#L0567_F17">
       <speaker>Susan.</speaker>
       <p>Because it's a vulgarity. Well, and when the minister says—</p>
      </sp>
-     <sp>
+     <sp who="#L0567_M9">
       <speaker>John.</speaker>
       <p>'Ees, I know ! "Wilt thou ha' this young 'ooman for thy lawful husband—"</p>
      </sp>
-     <sp>
+     <sp who="#L0567_F17">
       <speaker>Susan.</speaker>
       <p>Wife, booby! Then Mr. Stanmore roars out like thunder—" No! " and rushes, like an insane
        maniac, out of the minster.</p>
       <pb n="8"/>
      </sp>
-     <sp>
+     <sp who="#L0567_M9">
       <speaker>John.</speaker>
       <p>If I'd a been there, I'd a larrupped 'unt wouldn't I just—I believe you! Worms and
        cauliflowers! -</p>
      </sp>
-     <sp>
+     <sp who="#L0567_F17">
       <speaker>Susan.</speaker>
       <p>And poor Miss Joanna was brought home more dead than alive—and as for her uncle, Sir John
        Cleveland—</p>
      </sp>
-     <sp>
+     <sp who="#L0567_M9">
       <speaker>John.</speaker>
       <p>Ah! I s'pose he's almost <hi>wuss</hi>, for everybody knows he <hi>doatses</hi> on Miss
        Joanna—and no wonder, for she is kindest, the prettiest, the most amiablest—</p>
      </sp>
-     <sp>
+     <sp who="#L0567_F17">
       <speaker>Susan.</speaker>
       <p>Present company, of course, excepted.</p>
      </sp>
-     <sp>
+     <sp who="#L0567_M9">
       <speaker>John.</speaker>
       <p>Eh! pitchforks and artichokes! present company prettier than Miss Joanna ? Which on us ?
        I'm sure it <hi>beant</hi> you, and—he, he, he! I don't think it be I.</p>
      </sp>
-     <sp>
+     <sp who="#L0567_F17">
       <speaker>Susan.</speaker>
       <p>John Butts, you are a brute.</p>
      </sp>
-     <sp>
+     <sp who="#L0567_M9">
       <speaker>John.</speaker>
       <p>No, I beant! I be's a respectable farmer, a tenant of Sir John Cleveland, what pays him
        <hi>reglarly</hi>—measter of the Holly Tree Farm, Dyke's Hollow; and. what's more, my own
        measter; seeing as how I ain't got no wife.</p>
      </sp>
-     <sp>
+     <sp who="#L0567_F17">
       <speaker>Susan.</speaker>
       <p>More shame for you, John. Do you know I have often thought that I should make a
        <hi>capital</hi> wife for a farmer.</p>
      </sp>
-     <sp>
+     <sp who="#L0567_M9">
       <speaker>John.</speaker>
       <p>Perhaps you might, if you brought a little <hi>capital</hi> into the <hi>consarn—</hi>he,
        he, he !</p>
      </sp>
-     <sp>
+     <sp who="#L0567_F17">
       <speaker>Susan.</speaker>
       <p>Oh ! I ain't without my little savings, bless you !</p>
      </sp>
-     <sp>
+     <sp who="#L0567_M9">
       <speaker>John.</speaker>
       <p>Well, and bless you, Susan, if that be the case. But</p>
       <p>I am afeard you ha' gotten too high notions for I, and that my grammar, as you calls it,
        won't suit yoU.</p>
      </sp>
-     <sp>
+     <sp who="#L0567_F17">
       <speaker>Susan.</speaker>
       <p>Oh, but I could <hi>elewate</hi> you up to my <hi>spear</hi> you know. But if we should
        ever go to church together, John Butts, you wont be like Mr. Stanmore, and shout "no" when
        you ought to say "yes."</p>
      </sp>
-     <sp>
+     <sp who="#L0567_M9">
       <speaker>John.</speaker>
       <p>No, I'll say yes, depend on't, if ever we come to that. Oh, zooks and taters! here I have
        left my farm, to come to Sir John Cleveland's to have a jollification, 'cause Miss Joanna was
        going to be married ; and now there ain't to be no wedding, and—oh, dear! oh, dear ! my eyes
        feels as if I'd been working in an ingun field.</p>
      </sp>
-     <sp>
+     <sp who="#L0567_F17">
       <speaker>Susan.</speaker>
       <p>John, I am a judge of the tender passion.</p>
      </sp>
-     <sp>
+     <sp who="#L0567_M9">
       <speaker>John.</speaker>
       <p>What sort of a passion is that ?</p>
      </sp>
-     <sp>
+     <sp who="#L0567_F17">
       <speaker>Susan.</speaker>
       <p>Love, John.</p>
      </sp>
-     <sp>
+     <sp who="#L0567_M9">
       <speaker>John.</speaker>
       <p>Love! John! Oh, yes, wench, you may love John, if you like—he, he, he!</p>
      </sp>
-     <sp>
+     <sp who="#L0567_F17">
       <speaker>Susan.</speaker>
       <p>Well, perhaps I will, John—but I was going to say, that I am certain Mr. Stanmore loves
        Miss Joanna, and I can't make out why he—and, do you know, John, I can t help thinking that
        Miss Joanna's cousin—</p>
      </sp>
-     <sp>
+     <sp who="#L0567_M9">
       <speaker>John.</speaker>
       <p>Miss Lisa Selby ? Ah ! I dont like her a morsel.</p>
      </sp>
-     <sp>
+     <sp who="#L0567_F17">
       <speaker>Susan.</speaker>
       <p>Nor I, John—there is something sinister—</p>
      </sp>
-     <sp>
+     <sp who="#L0567_M9">
       <speaker>John.</speaker>
       <p>What be a sinister?</p>
       <pb n="9"/>
      </sp>
-     <sp>
+     <sp who="#L0567_F17">
       <speaker>Susan.</speaker>
       <p>Something evil—something—</p>
      </sp>
-     <sp>
+     <sp who="#L0567_M9">
       <speaker>John.</speaker>
       <p>Oh! that be a sinister? What a fine thing it is to have larning! But— <stage>(crosses
        R.)</stage> wheelbarrows and vegetable marrows! I shan't get home to-night! Come along, girl,
@@ -382,7 +468,7 @@
     <div type="scene">
      <stage type="setting"> SCENE SECOND.—A Handsome Chamber. (2nd grooves)—half dark.</stage>
      <stage> Enter Lisa Selby, L. 2 E. </stage>
-     <sp>
+     <sp who="#L0567_F13">
       <speaker>Lisa.</speaker>
       <p>So, Joanna's hopes are wrecked, her happiness for ever blighted, and I am glad on't! I
        rejoice, for I have ever hated her. She has stood between me and the fortune for which I
@@ -398,52 +484,52 @@
        human. <stage>(Monti appears at back, L, and comes quietly forward—house clock strikes
        twelve)</stage> It is midnight —the hour at which he promised to be here.</p>
      </sp>
-     <sp>
+     <sp who="#L0567_M5">
       <speaker>Monti.</speaker>
       <p><stage>(by her side)</stage> And he <hi>is</hi> here, Lisa—he is here, <stage>(she turns
        and faces him—Music— tableau. </stage> <note>[See Reynolds's Miscellamy, No. 524. "Monti and
        Lisa's midnight conference."]</note></p>
      </sp>
-     <sp>
+     <sp who="#L0567_F13">
       <speaker>Lisa.</speaker>
       <p>Thanks! thanks! all has happened as you said it would; Charles Stanmore has <hi>not</hi>
        married Joanna! But by what means—</p>
      </sp>
-     <sp>
+     <sp who="#L0567_M5">
       <speaker>Monti.</speaker>
       <p>Simple, and, <stage>(smiling)</stage> human; have no doubt of that. I am no demon, no
        mephistopholes! but I am an astrologer, can read men's hearts, and divine somewhat of the
        future. I am a mesmerist, and when I meet a fitting subject, what I <hi>will</hi> must be
        obeyed.</p>
      </sp>
-     <sp>
+     <sp who="#L0567_F13">
       <speaker>Lisa.</speaker>
       <p>But can you not tell me of—</p>
      </sp>
-     <sp>
+     <sp who="#L0567_M5">
       <speaker>Monti.</speaker>
       <p>Oh, yes; you know that Joanna was formerly persecuted by the addresses of an adventurer who
        calls himself Major Edmonds, and that Charles Stanmore was, by your innuendoes, made greatly
        jealous of this Major—</p>
      </sp>
-     <sp>
+     <sp who="#L0567_F13">
       <speaker>Lisa.</speaker>
       <p>Yes, yes—well?</p>
       <pb n="10"/>
      </sp>
-     <sp>
+     <sp who="#L0567_M5">
       <speaker>Monti.</speaker>
       <p>An anonymous letter to the major told him that, last night, Joanna would be in the cloister
        of York Minster.</p>
      </sp>
-     <sp>
+     <sp who="#L0567_F13">
       <speaker>Lisa.</speaker>
       <p>I know that—'twas written by me, and it was at my urgent entreaty, plausibly urged—that
        Joanna went thither, that she might hear from your lips the fate that was in store for me,
        her dear cousin ; for she was made to believe that only to her could that fate be revealed;
        and so, reluctantly, she went.</p>
      </sp>
-     <sp>
+     <sp who="#L0567_M5">
       <speaker>Monti.</speaker>
       <p>And there found herself suddenly clasped within the arms of Major Edmunds—and that embrace
        was witnessed by Charles Stanmore; for another anonymous letter had warned him of that
@@ -451,95 +537,95 @@
        too! ha, ha, ha! what need of devilry, when so much can, by <hi>human</hi> means, so easily
        be accomplished, while human nature remains so blindly credulous?</p>
      </sp>
-     <sp>
+     <sp who="#L0567_F13">
       <speaker>Lisa.</speaker>
       <p>True ! true!</p>
      </sp>
-     <sp>
+     <sp who="#L0567_M5">
       <speaker>Monti.</speaker>
       <p>Listen! Lisa, you are ambitious, you pant for pleasure, wealth, adulation ! you must riot
        amidst the world's extravagance—would be envied for the luxury of your state—</p>
      </sp>
-     <sp>
+     <sp who="#L0567_F13">
       <speaker>Lisa.</speaker>
       <p>Oh ! do not look so closely into my heart.</p>
      </sp>
-     <sp>
+     <sp who="#L0567_M5">
       <speaker>Monti.</speaker>
       <p>Wherefore not, since I can promise all that for which you sigh ? It may be that the burning
        sun of India, under which you were born, has implanted in your mind those feelings. I can
        help you to your wishes, and hereafter you must help me.</p>
      </sp>
-     <sp>
+     <sp who="#L0567_F13">
       <speaker>Lisa.</speaker>
       <p>What, what is it that you require I should do for you ?</p>
      </sp>
-     <sp>
+     <sp who="#L0567_M5">
       <speaker>Monti.</speaker>
       <p>Mere trifles! I shall not ask your heart, rest assured of that. Your uncle, Sir John
        Cleveland, does not love you as he loves Joanna, your cousin.</p>
      </sp>
-     <sp>
+     <sp who="#L0567_F13">
       <speaker>Lisa.</speaker>
       <p>I know it.</p>
      </sp>
-     <sp>
+     <sp who="#L0567_M5">
       <speaker>Monti.</speaker>
       <p>Yet why should he not ? Sisters to him were both your mothers, and both of you are orphans
        who were in infancy confided to his care.</p>
      </sp>
-     <sp>
+     <sp who="#L0567_F13">
       <speaker>Lisa.</speaker>
       <p>Speak not of the past—'tis of the future that I would hear.</p>
      </sp>
-     <sp>
+     <sp who="#L0567_M5">
       <speaker>Monti.</speaker>
       <p>Well, Sir John has made his will.</p>
      </sp>
-     <sp>
+     <sp who="#L0567_F13">
       <speaker>Lisa.</speaker>
       <p>Ah!</p>
      </sp>
-     <sp>
+     <sp who="#L0567_M5">
       <speaker>Monti.</speaker>
       <p>I have seen it. He has left three hundred a-year to you, and to Joanna the whole of his
        fortune. That fortune is much larger than he is aware of, from circumstances with which I
        need not trouble you ; and fortune, you know, is power.</p>
      </sp>
-     <sp>
+     <sp who="#L0567_F13">
       <speaker>Lisa.</speaker>
       <p>It is!</p>
      </sp>
-     <sp>
+     <sp who="#L0567_M5">
       <speaker>Monti.</speaker>
       <p>Sir John will drive Joanna from his home and house with ignominy ! or rather, she will go,
        feeling that it would be ignominy to stay—a new will can then be made in your favour —and
        then—then Sir John will die.</p>
      </sp>
-     <sp>
+     <sp who="#L0567_F13">
       <speaker>Lisa.</speaker>
       <p>Drive Joanna hence! he idolizes her—doats upon her. It is impossible!</p>
       <pb n="11"/>
      </sp>
-     <sp>
+     <sp who="#L0567_M5">
       <speaker>Monti.</speaker>
       <p>I have said it! but ere we proceed further, speak! Have you any compunctions that may make
        you pause? Joanna is fair, gentle, virtuous, and single-minded! Can you see her consigned to
        poverty—to disgrace—perhaps to destitution and despair ?</p>
      </sp>
-     <sp>
+     <sp who="#L0567_F13">
       <speaker>Lisa.</speaker>
       <p>I hate her! and would sweep her from my path.</p>
      </sp>
-     <sp>
+     <sp who="#L0567_M5">
       <speaker>Monti.</speaker>
       <p>Enough ! call her hither.</p>
      </sp>
-     <sp>
+     <sp who="#L0567_F13">
       <speaker>Lisa.</speaker>
       <p>And you—</p>
      </sp>
-     <sp>
+     <sp who="#L0567_M5">
       <speaker>Monti.</speaker>
       <p>You will presently see! call her hither.</p>
 
@@ -548,47 +634,47 @@
       <p/>
       <stage> Re-enter Lisa, conducting Joanna, E.</stage>
      </sp>
-     <sp>
+     <sp who="#L0567_F14">
       <speaker>Joanna.</speaker>
       <p>Why, Lisa, have you brought me from my room ?</p>
      </sp>
-     <sp>
+     <sp who="#L0567_F13">
       <speaker>Lisa.</speaker>
       <p>My poor, dear Joanna! <stage>(kisses her on the cheek— aside)</stage> She did not return
        that kiss! she shuddered when I impressed it on her cheek! can she suspect?
        <stage>(aloud)</stage> Dear Joanna, say that you are better now; say that you feel
        stronger.</p>
      </sp>
-     <sp>
+     <sp who="#L0567_F14">
       <speaker>Joanna.</speaker>
       <p>I am better and stronger.</p>
      </sp>
-     <sp>
+     <sp who="#L0567_F13">
       <speaker>Lisa.</speaker>
       <p>And—and you know—that is, you recollect—</p>
      </sp>
-     <sp>
+     <sp who="#L0567_F14">
       <speaker>Joanna.</speaker>
       <p><stage>(burying her face in her hands)</stage> All! all!</p>
      </sp>
-     <sp>
+     <sp who="#L0567_F13">
       <speaker>Lisa.</speaker>
       <p>Oh, my darling Joanna, do not give way to grief!</p>
       <p>I know how you must suffer ! but, Sir John has sent for Dr. Meadows to see you—he will be
        here soon.</p>
      </sp>
-     <sp>
+     <sp who="#L0567_F14">
       <speaker>Joanna.</speaker>
       <p>No, no, it is over now; there is no occasion, and if there were, he cannot minister to the
        pangs of a stricken heart! it was a cruel pang—a deep anguish—I loved him so well and truly;
        but it is past—Heaven help me, and give me strength—I will strive to bear it.</p>
      </sp>
-     <sp>
+     <sp who="#L0567_F13">
       <speaker>Lisa.</speaker>
       <p>You are an angel! But are you not angry—do you not feel indignant to be treated in this way
        ? to be thus publicly scorned and repudiated on your wedding-day ?</p>
      </sp>
-     <sp>
+     <sp who="#L0567_F14">
       <speaker>Joanna.</speaker>
       <p>No; I am sorry for <hi>him</hi>—that is all—he will suffer perhaps, more than I shall, for
        I am injured—he, the injurer. I am innocent of all wrong, in thought or deed, except such sin
@@ -597,7 +683,7 @@
        strength—strength—for I fear my heart is breaking, <stage>(casts herself on Lisa'S
        shoulder—Monti appears at back, L. U. E.)</stage></p>
      </sp>
-     <sp>
+     <sp who="#L0567_M5">
       <speaker>Monti.</speaker>
       <p><stage>(aside)</stage> Time is fitting—the brain is weakened, and all the spirits of nature
        are at war—all will be well, <stage>(music, piano tremuloso)</stage> Joanna! Joanna!
@@ -606,122 +692,122 @@
        head.</stage>
       <pb n="12"/>
      </sp>
-     <sp>
+     <sp who="#L0567_F14">
       <speaker>Joanna.</speaker>
       <p>What is this ? I—I—mercy—mercy!</p>
       <stage> (her eyes close, and she stands as if fixed to the spot—music ceases.</stage>
      </sp>
-     <sp>
+     <sp who="#L0567_F13">
       <speaker>Lisa.</speaker>
       <p>Good Heaven! what does this mean ?</p>
      </sp>
-     <sp>
+     <sp who="#L0567_M5">
       <speaker>Monti.</speaker>
       <p>It is the mesmeric trance. She is a good and easy subject, that is all. On your life,
        silence!</p>
      </sp>
-     <sp>
+     <sp who="#L0567_F13">
       <speaker>Lisa.</speaker>
       <p>Is she, then, asleep !</p>
      </sp>
-     <sp>
+     <sp who="#L0567_M5">
       <speaker>Monti.</speaker>
       <p>Yes—it is a kind of sleep—but not the sleep of peace. Joanna!</p>
      </sp>
-     <sp>
+     <sp who="#L0567_F14">
       <speaker>Joanna.</speaker>
       <stage>(this is spoken heavily, as if in slumber)</stage>
       <p>Yes, yes! Charles, dear Charles, what have I done ? Oh, Heaven! I am innocent!</p>
      </sp>
-     <sp>
+     <sp who="#L0567_M5">
       <speaker>Monti.</speaker>
       <p><stage>(waving his hands again)</stage> Hush! be calm and still. Joanna, do you hear me
        plainly ?</p>
      </sp>
-     <sp>
+     <sp who="#L0567_F14">
       <speaker>Joanna.</speaker>
       <p>Yes.</p>
      </sp>
-     <sp>
+     <sp who="#L0567_M5">
       <speaker>Monti.</speaker>
       <p>Will you obey me ?</p>
      </sp>
-     <sp>
+     <sp who="#L0567_F14">
       <speaker>Joanna.</speaker>
       <p>I must!</p>
      </sp>
-     <sp>
+     <sp who="#L0567_M5">
       <speaker>Monti.</speaker>
       <p>Then go to your uncle's chamber, and open the old cabinet at the end of the bed ! take out
        the third drawer from the top, and you will see a parchment paper ; it is your uncle's
        will—open it and read it—then replace it,</p>
      </sp>
-     <sp>
+     <sp who="#L0567_F14">
       <speaker>Joanna.</speaker>
       <p>I must!</p>
      </sp>
-     <sp>
+     <sp who="#L0567_M5">
       <speaker>Monti.</speaker>
       <p>You must, of course!</p>
      </sp>
-     <sp>
+     <sp who="#L0567_F14">
       <speaker>Joanna.</speaker>
       <p>Can you not kill me ? I am so unhappy.</p>
      </sp>
-     <sp>
+     <sp who="#L0567_M5">
       <speaker>Monti.</speaker>
       <p><stage>(again waving his hands)</stage> Hush—hush—hush !</p>
       <p>Peace, spirit—peace! now, listen further.</p>
      </sp>
-     <sp>
+     <sp who="#L0567_F14">
       <speaker>Joanna.</speaker>
       <p>I listen.</p>
      </sp>
-     <sp>
+     <sp who="#L0567_M5">
       <speaker>Monti.</speaker>
       <p>Take this small phial—<stage>(gives her one)</stage> hold it upright, it has no stopper in
        it. After having read the will, pour the contents of this small bottle into the night drink
        which stands at your uncle's bedside—do it well, and carefully.</p>
      </sp>
-     <sp>
+     <sp who="#L0567_F14">
       <speaker>Joanna.</speaker>
       <p>I must—I must! I see many people now, and they all beg me not to go—but I must—I must.</p>
      </sp>
-     <sp>
+     <sp who="#L0567_M5">
       <speaker>Monti.</speaker>
       <p><stage>(sternly, again waving his hands)</stage> Obey me, Joanna! Go!</p>
       <stage>(Music pianos tremuloso till end of scene—Joanna, holding the phial upright in her
        outstretched right hand, walks slowly and steadily off, L. U. E.</stage>
      </sp>
-     <sp>
+     <sp who="#L0567_F13">
       <speaker>Lisa.</speaker>
       <p><stage>(clinging to Monti)</stage> No, no—you must not—I am not prepared for that.</p>
      </sp>
-     <sp>
+     <sp who="#L0567_M5">
       <speaker>Monti.</speaker>
       <p>For what?</p>
      </sp>
-     <sp>
+     <sp who="#L0567_F13">
       <speaker>Lisa.</speaker>
       <p>Poison!</p>
      </sp>
-     <sp>
+     <sp who="#L0567_M5">
       <speaker>Monti.</speaker>
       <p>He will not take it—his time has not yet come. Hush! do not cling to me thus—are you mad
        ?</p>
      </sp>
-     <sp>
+     <sp who="#L0567_F13">
       <speaker>Lisa.</speaker>
       <p>I shall be, I fear. See! she pauses at the door—and now— Ah! she passes in—I cannot—I dare
        not look.</p>
       <pb n="13"/>
      </sp>
-     <sp>
+     <sp who="#L0567_M5">
       <speaker>Monti.</speaker>
       <p><stage>( pushing her from him)</stage> Remain here!</p>
       <stage>Exit,L U. E.</stage>
      </sp>
-     <sp>
+     <sp who="#L0567_F13">
       <speaker>Lisa.</speaker>
       <p>Oh, Heaven! that I could recall the past, for this— oh, this is too terrible. Exit, R.</p>
      </sp>
@@ -731,7 +817,7 @@
       it—table, R., with night lamp, jug, and basin on it; invalid's chair, L., cabinet at back of
       bed.<note> [See Reynold's Miscellany, No. 525]</note></stage>
      <stage> Sir John Cleveland dicovered seated at table.</stage>
-     <sp>
+     <sp who="#L0567_M2">
       <speaker>Sir J.</speaker>
       <p>Oh, my poor, dear Joanna ! you cannot suffer more than your old uncle by the sorrow which
        has befallen us. I feel a broken man! At a blow, ten years are taken from my life. She, so
@@ -753,7 +839,7 @@
        behind screen, with a sardonic smile—Joanna pulls out third draw—Sir John suddenly awakes,
        looks up, and sees her.</stage>
      </sp>
-     <sp>
+     <sp who="#L0567_M2">
       <speaker>Sir J.</speaker>
       <p><stage>(in a whisper)</stage> Heavens! what is this ?</p>
       <stage>(Joanna brings out will, unfolds, looks over it, refolds it, puts it back, and closes
@@ -761,18 +847,18 @@
        <pb n="14"/> the jug—tableau.</stage>
       <note>[from No. 525—" Joanna Preparing the Poison."</note>
      </sp>
-     <sp>
+     <sp who="#L0567_F14">
       <speaker>Joanna.</speaker>
       <p><stage>(in a whisper)</stage> It is done! oh, master, what more?</p>
      </sp>
-     <sp>
+     <sp who="#L0567_M5">
       <speaker>Monti.</speaker>
       <p>Leave the bottle, and come away—to your chamber —quickly!</p>
       <stage>(retreats through door, C. waving his hands—Joanna glides off following him—music piano
        has continued through all the above—it now becomes forte, about four bar, as Sir John starts
        from the couch.</stage>
      </sp>
-     <sp>
+     <sp who="#L0567_M2">
       <speaker>Sir J.</speaker>
       <p>It was no dream—it was too surely her. <stage>(snatching phial from table)</stage> Here is
        the fatal proof. Joanna! Joanna! Oh, powers of mercy! <stage>(music)</stage> Help,
@@ -784,7 +870,7 @@
     <div type="scene">
      <stage> SCENE FOURTH.—Front Chamber—table puts on at side, R.</stage>
      <stage> Enter Charles Stanmore, R. </stage>
-     <sp>
+     <sp who="#L0567_M4">
       <speaker>Charles.</speaker>
       <p><stage>(as he enters)</stage> Tell Major Edmunds I will await him here. Oh ! fool that I
        was not to have thought of this Major Edmunds! not to have sought him ere casting from me my
@@ -796,7 +882,7 @@
       <stage> Major Edmonds enters, R., without coat or waistcoat—large heard, moustache, and
        whiskers—a hair brush in each hand.</stage>
      </sp>
-     <sp>
+     <sp who="#L0567_M7">
       <speaker>Major.</speaker>
       <p><stage>(as he enters)</stage> So, you scoundrel, you have come at last! <stage>(suddenly
        seeing Charles, and starting)</stage> Eh? I—I—beg pardon, Mr. Stanmore, I—I weally thought
@@ -807,22 +893,22 @@
        keep my eye on him. Hem! catch a weazel asleep! stwike me cautious.</p>
       <pb n="15"/>
      </sp>
-     <sp>
+     <sp who="#L0567_M4">
       <speaker>Charles.</speaker>
       <p>Major Edmunds, I must, and will have some few words with yoU.</p>
      </sp>
-     <sp>
+     <sp who="#L0567_M7">
       <speaker>Major.</speaker>
       <p><stage>(rather nervous)</stage> Eh? what? eh? eh? do—do you want to pick a quarwell with me
        ? It won't do, demme! this is not one of my fighting days. Catch a weazel asleep!</p>
      </sp>
-     <sp>
+     <sp who="#L0567_M4">
       <speaker>Charles.</speaker>
       <p>Major,—since Major you are pleased to term yourself—blustering with me will avail you
        nothing; and I command your to tell me honestly and truly, how and under what circumstances
        you met Miss Joanna Cleveland in the Aisle of York Minster ?</p>
      </sp>
-     <sp>
+     <sp who="#L0567_M7">
       <speaker>Major.</speaker>
       <p>Oh, ah, yes! I daresay! catch a weazel asleep ! stwike me confidential! Sir, I am not only
        a man of gallantwy, I am a man of honour! The women doat on Jack Edmunds, sir. I am
@@ -830,36 +916,36 @@
        charming gals waiting for my agweeable society, I must finish my toilet, and you weally must
        go. Demme!</p>
      </sp>
-     <sp>
+     <sp who="#L0567_M4">
       <speaker>Charles.</speaker>
       <p>Then, Major, since you leave me no other course, here are pistols, <stage>(producing
        them)</stage> and we will fight—here !</p>
      </sp>
-     <sp>
+     <sp who="#L0567_M7">
       <speaker>Major.</speaker>
       <p>In this woom ? in an hotel—without seconds ? it would be murder ?</p>
      </sp>
-     <sp>
+     <sp who="#L0567_M4">
       <speaker>Charles.</speaker>
       <p>Should you kill me. Major, I will excuse yoU.</p>
      </sp>
-     <sp>
+     <sp who="#L0567_M7">
       <speaker>Major.</speaker>
       <p>Pwobably—but if you kill me, I'm dem'd if I'll excuse you—I won't be killed—catch a
        weazel—<stage>(Charles places pistols on table)</stage> Murder !</p>
      </sp>
-     <sp>
+     <sp who="#L0567_M4">
       <speaker>Charles.</speaker>
       <p>Now, sir, one moment and—</p>
      </sp>
-     <sp>
+     <sp who="#L0567_M7">
       <speaker>Major.</speaker>
       <p>Exactly ! <stage>(suddenly snatching up one of the pistols)</stage> Now, stir a step and—I
        don't say that I'll blow your bwainsout, but, 'pon my soul, Til make a hole in your head!
        Don't attempt to touch the other pistol, or I fire! Thought to nibble Jack Edmunds, eh? ha,
        ha, catch a weazel asleep. Stwike me downy.</p>
      </sp>
-     <sp>
+     <sp who="#L0567_M4">
       <speaker>Charles.</speaker>
       <p>One moment! the form of duel I was about to fight with you was just this. I intended to
        throw a handkerchief over those pistols, that you might take your choice, for but one of them
@@ -867,7 +953,7 @@
        for you ; if otherwise —see! I secure this, <stage>(taking pistol from table)</stage> and the
        next instant you are a dead man.</p>
      </sp>
-     <sp>
+     <sp who="#L0567_M7">
       <speaker>Major.</speaker>
       <p><stage>(staggering)</stage> Bless me ! ah ! How faint I feel! oh, oh ! catch a weazel
        asleep and—wegularly done !—strike me uncomfortable ! Oh-, lord! do point your dem'd pistol
@@ -875,38 +961,38 @@
        so)</stage> Phew ! it has made me so hot! do'nt be dem'd absurd—I'll take you into
        confidence—I will tell you all, I will indeed. Stwike me communicative !</p>
      </sp>
-     <sp>
+     <sp who="#L0567_M4">
       <speaker>Charles.</speaker>
       <p>Quick, then!</p>
       <pb n="16"/>
      </sp>
-     <sp>
+     <sp who="#L0567_M7">
       <speaker>Major.</speaker>
       <p>I had no appointment at all with Miss Cleveland.</p>
      </sp>
-     <sp>
+     <sp who="#L0567_M4">
       <speaker>Charles.</speaker>
       <p>Wretch!</p>
      </sp>
-     <sp>
+     <sp who="#L0567_M7">
       <speaker>Major.</speaker>
       <p>I know I am, I am a wetch—the women <hi>all</hi> say so—but I can't help it -, I take after
        my father. It was a note I got, that—</p>
      </sp>
-     <sp>
+     <sp who="#L0567_M4">
       <speaker>Charles.</speaker>
       <p>Shew me that note, instantly! <stage>(pointing pistol)</stage></p>
      </sp>
-     <sp>
+     <sp who="#L0567_M7">
       <speaker>Major.</speaker>
       <p><stage>(hurriedly ransacking drawer of table)</stage> This is it— no it isn't. Now I've got
        it—no, I haven't.</p>
      </sp>
-     <sp>
+     <sp who="#L0567_M4">
       <speaker>Charles.</speaker>
       <p>Quick, sir!</p>
      </sp>
-     <sp>
+     <sp who="#L0567_M7">
       <speaker>Major.</speaker>
       <p><stage>(running to Charles, and offering paper)</stage> Here it is —no. I beg your
        pawdon—this is my tailor's account, <stage>(runs back and rummages drawer, then returns to
@@ -914,82 +1000,82 @@
        washing bill, <stage>(goes back to drawer, then runs with note to Charles)</stage> That,
        that's it! Must take care of my washing bill; only one and ninepence—but it isn't paid.</p>
      </sp>
-     <sp>
+     <sp who="#L0567_M4">
       <speaker>Charles.</speaker>
       <p>, <stage>(having glanced over note)</stage> Major Edmunds, I do not blame you so much as I
        did.</p>
      </sp>
-     <sp>
+     <sp who="#L0567_M7">
       <speaker>Major.</speaker>
       <p>Of couwse not; but I blame <hi>you</hi>, for coming here and twying to fwighten me !
        Luckily, I'm not easily intimidated— — strike me cowageous!</p>
      </sp>
-     <sp>
+     <sp who="#L0567_M4">
       <speaker>Charles.</speaker>
       <p>Do you know who wrote this note?</p>
      </sp>
-     <sp>
+     <sp who="#L0567_M7">
       <speaker>Major.</speaker>
       <p>Not Miss Joanna—certainly not; and that is all you must ask me to-day.</p>
      </sp>
-     <sp>
+     <sp who="#L0567_M4">
       <speaker>Charles.</speaker>
       <p>Oh, what infamy! It is a strange suspicion that flashes across my mind—but no, it would be
        too atrocious. Oh ! what an egregious ass I have shown myself! And dear— injured Joanna! oh !
        how she must loathe me now. <stage>(going, R.)</stage></p>
      </sp>
-     <sp>
+     <sp who="#L0567_M7">
       <speaker>Major.</speaker>
       <p>Good evening, Mr. Stanmore!</p>
      </sp>
-     <sp>
+     <sp who="#L0567_M4">
       <speaker>Charles.</speaker>
       <p>Good evening! I shall retain this note.</p>
      </sp>
-     <sp>
+     <sp who="#L0567_M7">
       <speaker>Major.</speaker>
       <p>Oh, certainly. Hem ! dear me, Mr. Stanmore, do you happen to have such a thing as a
        soveweign in your pocket ?</p>
      </sp>
-     <sp>
+     <sp who="#L0567_M4">
       <speaker>Charles.</speaker>
       <p>There are two. <stage>(throws them on table, and goes off, R.</stage></p>
      </sp>
-     <sp>
+     <sp who="#L0567_M7">
       <speaker>Major.</speaker>
       <p>Vewy good! <stage>(taking them up)</stage> His visit has ended more pleasantly than I
        expected. Never lose a chance of bowowing a twifle. Catch a weazel asleep, and—</p>
       <stage> Enter Boy, R. </stage>
       <p>Halloa ? have you brought my waistcoat ?</p>
      </sp>
-     <sp>
+     <sp who="#L0567_M11">
       <speaker>Boy.</speaker>
       <p>No ! master says you must pay your bill, or else he'll see you jolly well blowed, before
        you get it!</p>
      </sp>
-     <sp>
+     <sp who="#L0567_M7">
       <speaker>Major.</speaker>
       <p>Your master is a wuffian ! but here— <stage>(giving money)</stage> take him this soverweign
        on account, and instantly bwing me my waistcoat.</p>
      </sp>
-     <sp>
+     <sp who="#L0567_M11">
       <speaker>Boy.</speaker>
       <p>Yes, I'll take him the money, and he'll keep it; but you won't get no waistcoat, on no
        account whatever.</p>
      </sp>
-     <sp>
+     <sp who="#L0567_M7">
       <speaker>Major.</speaker>
       <p>Why, you eighteenth part of a man, I'll murder you!</p>
       <pb n="17"/>
      </sp>
-     <sp>
+     <sp who="#L0567_M11">
       <speaker>Boy.</speaker>
       <p>Oh, yes, catch a weazel asleep, you know.</p>
       <stage> Music—Major Edmunds chases Boy, who after a run, slips down, crawls between the
        Major'S legs, and upsets him— Boy bolts off— Major scrambles up and follows,
        shouting.</stage>
      </sp>
-     <sp>
+     <sp who="#L0567_M7">
       <speaker>Major.</speaker>
       <p>My waistcoat! I want my waistcoat! catch a weazel—</p>
      </sp>
@@ -998,50 +1084,50 @@
      <stage> SCENE FIFTH.—Library at Sir John Cleveland's.</stage>
      <stage> Sir John discovered, in large easy chair, c, he, is ill, and care-worn—Dr. Meadows
       standing near him, door L. U. E.</stage>
-     <sp>
+     <sp who="#L0567_M2">
       <speaker>Sir J.</speaker>
       <p>Oh, heaven help me! this is terrible! But are you sure, doctor, are you sure ?</p>
      </sp>
-     <sp>
+     <sp who="#L0567_M3">
       <speaker>Dr. M.</speaker>
       <p>Too certain, my friend. You remember that you asked me for some poison to give Carlos, your
        poor old spaniel, to put it out of the pain it has so long suffered ?</p>
      </sp>
-     <sp>
+     <sp who="#L0567_M2">
       <speaker>Sir J.</speaker>
       <p><stage>(faintly)</stage> Yes, yes—and—</p>
      </sp>
-     <sp>
+     <sp who="#L0567_M3">
       <speaker>Dr. M.</speaker>
       <p>I gave the dog a little of your night drink from the glass in which you saw her pour the
        poison—a very little! then a sharp convulsion passed through its body, and it was dead.</p>
      </sp>
-     <sp>
+     <sp who="#L0567_M2">
       <speaker>Sir J.</speaker>
       <p>Oh, Heaven help me! and she—Joanna, Joanna—my own dear one—she whom I loved so well—the
        child of my heart! Heaven have mercy upon me ! Oh, Joanna— Joanna!</p>
       <stage> Enter Lisa Selby, R. </stage>
      </sp>
-     <sp>
+     <sp who="#L0567_F13">
       <speaker>Lisa.</speaker>
       <p>Uncle, what is it? what has happened ! why do you mention dear Joanna's name with such
        grief? Is she ill? let me at once fly to her! poor Joanna!</p>
      </sp>
-     <sp>
+     <sp who="#L0567_M2">
       <speaker>Sir J.</speaker>
       <p>Lisa, I am very unhappy; and when I tell you—</p>
      </sp>
-     <sp>
+     <sp who="#L0567_M3">
       <speaker>Dr. M.</speaker>
       <p>Nothing, Sir John, <stage>(aside to him)</stage> What is to be done can be done by you and
        me! precious secrets keep best in the fewest hearts.</p>
      </sp>
-     <sp>
+     <sp who="#L0567_M2">
       <speaker>Sir J.</speaker>
       <p>I believe you are right, my dear doctor. Go to your room, Lisa, and think nothing more of
        it—go, go.</p>
      </sp>
-     <sp>
+     <sp who="#L0567_F13">
       <speaker>Lisa.</speaker>
       <p>Adieu, dear uncle ; but pray let me know if poor Joanna should be worse,
        <stage>(aside)</stage> Curse the officious meddler.</p>
@@ -1049,39 +1135,39 @@
       <stage>Exit, R.</stage>
 
      </sp>
-     <sp>
+     <sp who="#L0567_M2">
       <speaker>Sir J.</speaker>
       <p>Lisa has a good heart—I see it plainly now. Doctor, I have been unjust to her.</p>
      </sp>
-     <sp>
+     <sp who="#L0567_M3">
       <speaker>Dr. M.</speaker>
       <p>Umph! perhaps!</p>
      </sp>
-     <sp>
+     <sp who="#L0567_M2">
       <speaker>Sir J.</speaker>
       <p>I have liked her but little—</p>
      </sp>
-     <sp>
+     <sp who="#L0567_M3">
       <speaker>Dr. M.</speaker>
       <p>And I have liked her not at all; and yet I know not why ; but even now there is something
        that—</p>
       <pb n="18"/>
       <stage> Enter Joanna, R.—Sir John starts to his feet and gazes on her trembling. </stage>
      </sp>
-     <sp>
+     <sp who="#L0567_F14">
       <speaker>Joanna.</speaker>
       <p>Dear uncle, you are not well!</p>
      </sp>
-     <sp>
+     <sp who="#L0567_M3">
       <speaker>Dr. M.</speaker>
       <p>And you, Joanna—how pale you are!</p>
      </sp>
-     <sp>
+     <sp who="#L0567_F14">
       <speaker>Joanna.</speaker>
       <p>It may be, for I am weak and suffering; but I shall soon be better, dear uncle, if you will
        not grieve.</p>
      </sp>
-     <sp>
+     <sp who="#L0567_M2">
       <speaker>Sir J.</speaker>
       <p>Great Heaven! , Oh, it must have been a dream, or I am mad. It is not possible—my own
        darling Joanna, that I for so many years doated on—that I have ever kept next my heart! no,
@@ -1089,7 +1175,7 @@
        the world said— Oh, Heaven help me—I shall go quite mad.</p>
       <stage> sinks sobbing into chair.</stage>
      </sp>
-     <sp>
+     <sp who="#L0567_F14">
       <speaker>Joanna.</speaker>
       <p>Dear uncle, I see it but too plainly—you cannot rest for the thought of that dreadful
        moment at the Cathedral, when he, whom I was to wed and to love, scorned and rejected me; but
@@ -1097,44 +1183,44 @@
        you, and we will be happy in loving each other. I will be to you as a loving child, and you
        to me as a dear father, to whom I will owe all of joy the world can give me.</p>
      </sp>
-     <sp>
+     <sp who="#L0567_M2">
       <speaker>Sir J.</speaker>
       <p><stage>(choking with emotion) </stage>Take her away—oh, take her away.</p>
      </sp>
-     <sp>
+     <sp who="#L0567_F14">
       <speaker>Joanna.</speaker>
       <p>Uncle! you cast me from you!</p>
      </sp>
-     <sp>
+     <sp who="#L0567_M2">
       <speaker>Sir J.</speaker>
       <p>No, no—Heaven help me, no. To my arms—to my arms—to my heart, my dear child. I will
        mistrust my senses — I will believe my eyes have played me false—I love you still! kill me—do
        as you please—I cannot help loving you ever—</p>
      </sp>
-     <sp>
+     <sp who="#L0567_F14">
       <speaker>Joanna.</speaker>
       <p>Dear uncle! <stage>(about to embrace him—Dr. Meadows interposes.</stage></p>
      </sp>
-     <sp>
+     <sp who="#L0567_M3">
       <speaker>Dr. M.</speaker>
       <p>No, this must not be—it is exoneration—it is justification that is wanted—not weakness.
        <stage>(Sir John sinks into chair)</stage></p>
      </sp>
-     <sp>
+     <sp who="#L0567_F14">
       <speaker>Joanna.</speaker>
       <p>What, oh, what is it that you mean, dear sir ?</p>
      </sp>
-     <sp>
+     <sp who="#L0567_M3">
       <speaker>Dr. M.</speaker>
       <p>Old friend, you must be firm now, and act as doth become a man. Go, Joanna, go!</p>
      </sp>
-     <sp>
+     <sp who="#L0567_F14">
       <speaker>Joanna.</speaker>
       <p>Oh, no no; surely my place is here if my dear uncle is ill! I know not the meaning of all
        that I see and hear —you both speak in riddles to me; but that cannot change my affection for
        my dear uncle, and I will stay with him. <stage>(clinging to Sir John</stage>.</p>
      </sp>
-     <sp>
+     <sp who="#L0567_M2">
       <speaker>Sir J.</speaker>
       <p><stage>(rising and shaking her off)</stage> Fiend! viper! that I have nourished in my bosom
        ! Monster! that with the face of an angel conceals the heart of a murderess! I cast you from
@@ -1143,11 +1229,11 @@
        that I did love you—too much—oh, too much I loved yoU. Hence— hence! and carry with you the
        consciousness that you have lost all you would have grasped at by my murder.</p>
      </sp>
-     <sp>
+     <sp who="#L0567_F14">
       <speaker>Joanna.</speaker>
       <p><stage>(aghast)</stage> Uncle !</p>
      </sp>
-     <sp>
+     <sp who="#L0567_M2">
       <speaker>Sir J.</speaker>
       <p>Poisoner! go, go! I cast you for ever from me. Heaven will perhaps have mercy on me, and
        soon take me from a world I have lost all hope in. May He, too, forgive you! Why did you do
@@ -1155,43 +1241,43 @@
        with you your shame and your disgrace, <stage>(sinks into chair)</stage> A fiend has taken
        the likeness of my child. Go, go!</p>
      </sp>
-     <sp>
+     <sp who="#L0567_F14">
       <speaker>Joanna.</speaker>
       <p>Is it a dream, or is he mad? Yes, I will go—I will go! <stage>(casts a tender and sorrowful
        look on Sir John, and is slowly going, R.)</stage></p>
      </sp>
-     <sp>
+     <sp who="#L0567_M3">
       <speaker>Dr. M.</speaker>
       <p>Joanna, I can but pity you! Say—oh, say that you repent—that you are penitent.</p>
      </sp>
-     <sp>
+     <sp who="#L0567_F14">
       <speaker>Joanna.</speaker>
       <p><stage>(bewildered)</stage> Penitent! repent!</p>
      </sp>
-     <sp>
+     <sp who="#L0567_M3">
       <speaker>Dr. M.</speaker>
       <p>Yes; do not harden your heart. Own that you sought to poison your uncle—that so you might
        render quickly effective the will in which you saw he had left you nearly all! own that all
        this results from a criminal connection with Major Edmunds—own it all, and seek mercy an
        forgiveness—here and hereafter.</p>
      </sp>
-     <sp>
+     <sp who="#L0567_F14">
       <speaker>Joanna.</speaker>
       <p>Mercy—mercy! Oh, you are unmerciful—you seek to drive me mad. What have I to do with wills
        and poisonings ? Heaven help me, and attest my innocence, for as I live and breathe, I swear
        I know not what you mean.</p>
      </sp>
-     <sp>
+     <sp who="#L0567_M3">
       <speaker>Dr. M.</speaker>
       <p>This is too much!.</p>
      </sp>
-     <sp>
+     <sp who="#L0567_M2">
       <speaker>Sir J.</speaker>
       <p><stage>(wildly)</stage> I saw you, and had rather you had plucked out my poor old eyes than
        shown them such a sight. It kills me even to look upon you ! Go, wretch—go from me at once
        and for ever.</p>
      </sp>
-     <sp>
+     <sp who="#L0567_F14">
       <speaker>Joanna.</speaker>
       <p>I am innocent of all that is alleged against me— the time will probably come when you,
        uncle, will find that it is so! Heaven send that it may not be too late, <stage>(suddenly
@@ -1199,70 +1285,70 @@
        past goodness to me—farewell! <stage>Exit, R.</stage></p>
 
      </sp>
-     <sp>
+     <sp who="#L0567_M3">
       <speaker>Dr. M.</speaker>
       <p>Oh, surely innocence only could look like that; and yet—Sir John—Sir John! <stage>(going to
        him)</stage> On your soul—on all your hopes in Heaven, are you certain you saw her place the
        poison in your drink ?</p>
       <pb n="20"/>
      </sp>
-     <sp>
+     <sp who="#L0567_M2">
       <speaker>Sir J.</speaker>
       <p>On my soul—yes! as I hope for Heaven—yes! <stage>(thunder heard—wind and rain)</stage>
        Hark! Heaven itself is speaking now against her!</p>
      </sp>
-     <sp>
+     <sp who="#L0567_M3">
       <speaker>Dr. M.</speaker>
       <p>It is a fearful night!</p>
       <stage> Charles Stanmore hurries on, L. U. E.</stage>
       <p>Mr. Stanmore!</p>
      </sp>
-     <sp>
+     <sp who="#L0567_M2">
       <speaker>Sir J.</speaker>
       <p>Ha! 'tis he has been the cause of all. <stage>(rising)</stage> Come you to gloat upon the
        ruin you have made ?</p>
      </sp>
-     <sp>
+     <sp who="#L0567_M4">
       <speaker>Charles.</speaker>
       <p>No—oh, no—Joanna is innocent! it was on an errand of kindness that she went that night to
        the Cathedral. I have got the truth from that man, Edmunds. She is as true as light! my eyes
        played me false! for did I not see her in the Cathedral with that man ? and yet she is
        innocent.</p>
      </sp>
-     <sp>
+     <sp who="#L0567_M2">
       <speaker>Sir J.</speaker>
       <p>Ah! if—if it could be ! Doctor, tell him all—</p>
      </sp>
-     <sp>
+     <sp who="#L0567_M3">
       <speaker>Dr. M.</speaker>
       <p><stage>(to Charles)</stage> On a solemn promise of secrecy—</p>
      </sp>
-     <sp>
+     <sp who="#L0567_M4">
       <speaker>Charles.</speaker>
       <p>I swear ; but—</p>
      </sp>
-     <sp>
+     <sp who="#L0567_M3">
       <speaker>Dr. M.</speaker>
       <p>Listen ! <stage>(takes him a little up, and speaks to him)</stage></p>
      </sp>
-     <sp>
+     <sp who="#L0567_M2">
       <speaker>Sir J.</speaker>
       <p>Oh, good Heaven! If, after all, it were possible that she is innocent! the joy of it would
        more surely kill me than the agony I now endure. Oh, how gladly could I die if it were proved
        that she is still worthy of my love, <stage>(sits)</stage></p>
      </sp>
-     <sp>
+     <sp who="#L0567_M4">
       <speaker>Charles.</speaker>
       <p><stage>(coming forward)</stage> No, no, it is not—and it cannot—'tis most horrible ; but
        even this is susceptible of some explanation. What, if her brain disordered, her spirits
        sunk, she arose in her sleep, and did this, not knowing her own acts ?</p>
      </sp>
-     <sp>
+     <sp who="#L0567_M3">
       <speaker>Dr. M.</speaker>
       <p><stage>(exclaiming)</stage> Ah ! that is a new light—fool that I was not to think of
        that!</p>
      </sp>
-     <sp>
+     <sp who="#L0567_M2">
       <speaker>Sir J.</speaker>
       <p><stage>(starting to his feet)</stage> My child! my Joanna! my darling!
        <stage>(sobbing)</stage> I must—I will see her again—my innocent —my own dove—my beautiful!
@@ -1270,15 +1356,15 @@
        go! you shall not hold me! let me go! Joanna—Joanna—my love—my own dear Joanna!</p>
       <stage> Enter Lisa, R. </stage>
      </sp>
-     <sp>
+     <sp who="#L0567_F13">
       <speaker>Lisa.</speaker>
       <p>She has gone—has fled from the house. <stage>(Sir John is transfixed.</stage></p>
      </sp>
-     <sp>
+     <sp who="#L0567_M4">
       <speaker>Charles.</speaker>
       <p>Oh, Heaven! and on such a night as this! instant pursuit—</p>
      </sp>
-     <sp>
+     <sp who="#L0567_M2">
       <speaker>Sir J.</speaker>
       <p>She has gone to death, I know—I feel it—she could not survive the loss of her uncle's love.
        Joanna, my darling— my only hope on earth—I have destroyed thee!</p>
@@ -1296,204 +1382,204 @@
      <stage> SCENE FIRST.—London—an Apartment at Lady Bedale's. (2nd grooves.</stage>
 
      <stage> Enter Lisa and Monti, L. </stage>
-     <sp>
+     <sp who="#L0567_M5">
       <speaker>Monti.</speaker>
       <p>So, Lisa, you are now in London, at the house of Lady Bedale.</p>
      </sp>
-     <sp>
+     <sp who="#L0567_F13">
       <speaker>Lisa.</speaker>
       <p>Yes! By your advice, I persuaded my uncle to permit me to come to London, that I might
        search for poor Joanna.</p>
      </sp>
-     <sp>
+     <sp who="#L0567_M5">
       <speaker>Monti.</speaker>
       <p>That search shall be prosecuted by me, and I will find her, doubt not, for that she is in
        London, I am well convinced ; and 'tis necessary to our schemes that she should be within my
        power.</p>
      </sp>
-     <sp>
+     <sp who="#L0567_F13">
       <speaker>Lisa.</speaker>
       <p>Oh, yes—for she found, I could no longer remain here.</p>
      </sp>
-     <sp>
+     <sp who="#L0567_M5">
       <speaker>Monti.</speaker>
       <p>Could not live that gay—that joyous, aristocratic life for which you have dared so
        much.</p>
      </sp>
-     <sp>
+     <sp who="#L0567_F13">
       <speaker>Lisa.</speaker>
       <p>Ay, truly; and when revelling amidst luxury and splendour, I shall be well repaid for all
        that in my sin I have suffered—shall be happy, shall I not ?</p>
      </sp>
-     <sp>
+     <sp who="#L0567_M5">
       <speaker>Monti.</speaker>
       <p><stage>(smiling sarcastically)</stage> Oh, certainly !</p>
      </sp>
-     <sp>
+     <sp who="#L0567_F13">
       <speaker>Lisa.</speaker>
       <p>Oh, I will at once commence a life of wild and glorious excitement. You assure me I have
        the means!</p>
      </sp>
-     <sp>
+     <sp who="#L0567_M5">
       <speaker>Monti.</speaker>
       <p>Oh, yes, if you have not neglected the credentials with which I bade you furnish yourself
        ?</p>
      </sp>
-     <sp>
+     <sp who="#L0567_F13">
       <speaker>Lisa.</speaker>
       <p>I have them all. First a letter to this Lady Bedale, Sir John's sister-in-law, whom 'tis
        long since he saw, and whom he greatly dislikes—you have fully instructed me respecting
        her—and I shall well know how to act when we encounter.</p>
      </sp>
-     <sp>
+     <sp who="#L0567_M5">
       <speaker>Monti.</speaker>
       <p>Good! go on!</p>
      </sp>
-     <sp>
+     <sp who="#L0567_F13">
       <speaker>Lisa.</speaker>
       <p>Next a letter to one Mr. Croker, Sir John's town solicitor, who is to advise me and aid in
        the search for Joanna.</p>
       <pb n="22"/>
      </sp>
-     <sp>
+     <sp who="#L0567_M5">
       <speaker>Monti.</speaker>
       <p>That letter you will not deliver—that letter would ruin our every hope.</p>
      </sp>
-     <sp>
+     <sp who="#L0567_F13">
       <speaker>Lisa.</speaker>
       <p>I understand that; and lastly—</p>
      </sp>
-     <sp>
+     <sp who="#L0567_M5">
       <speaker>Monti.</speaker>
       <p>Lastly, I hope you prevailed on Sir John, as I directed, to afford you means of drawing on
        his banker for whatever sums you might need.</p>
      </sp>
-     <sp>
+     <sp who="#L0567_F13">
       <speaker>Lisa.</speaker>
       <p>Yes, I have here an authorisation to Messrs. Coutts to honour all drafts signed by Lisa
        Selby.</p>
      </sp>
-     <sp>
+     <sp who="#L0567_M5">
       <speaker>Monti.</speaker>
       <p>Good; and that paper places four hundred and twenty thousand pounds at your entire
        disposal.</p>
      </sp>
-     <sp>
+     <sp who="#L0567_F13">
       <speaker>Lisa.</speaker>
       <p><stage> (amazed and gasping) </stage>Four hundred and—</p>
      </sp>
-     <sp>
+     <sp who="#L0567_M5">
       <speaker>Monti.</speaker>
       <p>Your uncle, Sir John Cleveland, owing to having had two large West Indian Estates left to
        him, and a manor in Rutlandshire worth thirty thousand a-year, is one of the richest
        commoners in England.</p>
      </sp>
-     <sp>
+     <sp who="#L0567_F13">
       <speaker>Lisa.</speaker>
       <p>And that enormous sum then may be mine ?</p>
      </sp>
-     <sp>
+     <sp who="#L0567_M5">
       <speaker>Monti.</speaker>
       <p>Absolutely! You will be a princess—a queen— every pleasure that wealth can purchase will be
        yours—every enjoyment will you know that sense can find; if you will but be what you must be,
        in order thoroughly to enjoy what is offered to you—if, in short, you will be—</p>
      </sp>
-     <sp>
+     <sp who="#L0567_F13">
       <speaker>Lisa.</speaker>
       <p>What—what?</p>
      </sp>
-     <sp>
+     <sp who="#L0567_M5">
       <speaker>Monti.</speaker>
       <p>A Woman of the World!</p>
      </sp>
-     <sp>
+     <sp who="#L0567_F13">
       <speaker>Lisa.</speaker>
       <p>I will—I will! I feel that I was born for joy—for power—I—I—oh, my brain grows dizzy at the
        mere thought of such delight.</p>
      </sp>
-     <sp>
+     <sp who="#L0567_M5">
       <speaker>Monti.</speaker>
       <p>What I promised I have so far accomplished—your rival is swept from your path—now 'tis your
        turn to act. Prepare yourself for the glorious part you have to play.</p>
      </sp>
-     <sp>
+     <sp who="#L0567_F13">
       <speaker>Lisa.</speaker>
       <p>And—and you—what am I to repay you for all this aid—for all this brightening future ?</p>
      </sp>
-     <sp>
+     <sp who="#L0567_M5">
       <speaker>Monti.</speaker>
       <p>Oh, I shall want some money; and further, you must obtain, by any means, all the valuable
        jewels you can possibly become possessed of, and give them into my keeping for
        four-and-twenty hours only—at the end of which time they shall be returned to yoU.</p>
      </sp>
-     <sp>
+     <sp who="#L0567_F13">
       <speaker>Lisa.</speaker>
       <p>Really?</p>
      </sp>
-     <sp>
+     <sp who="#L0567_M5">
       <speaker>Monti.</speaker>
       <p>Really and intact, as I receive them.</p>
      </sp>
-     <sp>
+     <sp who="#L0567_F13">
       <speaker>Lisa.</speaker>
       <p>And your purpose with them! I cannot understand—</p>
      </sp>
-     <sp>
+     <sp who="#L0567_M5">
       <speaker>Monti.</speaker>
       <p>It is not necessary that you should—nor need you fear—I but want them that I may work
        certain spells.</p>
      </sp>
-     <sp>
+     <sp who="#L0567_F13">
       <speaker>Lisa.</speaker>
       <p>It is a disagreeable and a difficult command that you have given me.</p>
      </sp>
-     <sp>
+     <sp who="#L0567_M5">
       <speaker>Monti.</speaker>
       <p>But one which you must perforce obey. I have served you hitherto; but remember, if need be,
        I am your master.</p>
       <pb n="23"/>
      </sp>
-     <sp>
+     <sp who="#L0567_F13">
       <speaker>Lisa.</speaker>
       <p>Yes, yes, I know and tremble at the knowledge.</p>
      </sp>
-     <sp>
+     <sp who="#L0567_M5">
       <speaker>Monti.</speaker>
       <p>Conform to my wishes, and you have naught to fear. Jewellers will send their stores to be
        approved by so wealthy a lady—you will have, too, jewelled friends; borrow, or if no other
        way presents itself, steal—anything rather than dare to disobey my commands.</p>
      </sp>
-     <sp>
+     <sp who="#L0567_F13">
       <speaker>Lisa.</speaker>
       <p>What say you ?</p>
      </sp>
-     <sp>
+     <sp who="#L0567_M5">
       <speaker>Monti.</speaker>
       <p>It is not, surely, much that I ask in return for the wealth and splendour with which I have
        furnished yoU.</p>
      </sp>
-     <sp>
+     <sp who="#L0567_F13">
       <speaker>Lisa.</speaker>
       <p>I will do as you wish.</p>
      </sp>
-     <sp>
+     <sp who="#L0567_M5">
       <speaker>Monti.</speaker>
       <p>I am sure of it. You know where I may be found, should you desire to see, or send for me;
        and so, for awhile, adieu ! Lady Bedale will presently be with you, and so I leave yoU. Fear
        nothing—that which I undertake, I carry out. I can divine the future—can read it as in a
        glass—and I predict for you a bright and glorious career.</p>
      </sp>
-     <sp>
+     <sp who="#L0567_F13">
       <speaker>Lisa.</speaker>
       <p>But—but the end of all this enjoyment—the end—is there nothing to dread then ?</p>
      </sp>
-     <sp>
+     <sp who="#L0567_M5">
       <speaker>Monti.</speaker>
       <p>The end will be dust—that will be the end of you— of me—and of all that live and breathe in
        the great world; but until that end comes, let us enjoy the cup of happiness that fortune
        offers to our lips. Farewell! <stage>Music.—Exit, L.</stage></p>
      </sp>
-     <sp>
+     <sp who="#L0567_F13">
       <speaker>Lisa.</speaker>
       <p>A new career has commenced for me, and at every hazard, I will pursue it.</p>
       <stage> Enter Lady Bedale, R. </stage>
@@ -1501,7 +1587,7 @@
        slightly bows)</stage> This note from Sir John Cleveland will explain the cause of my
        presence here.</p>
      </sp>
-     <sp>
+     <sp who="#L0567_F12">
       <speaker>Lady B.</speaker>
       <p><stage>(taking note)</stage> Oh, indeed! pray sit down <stage>(holding note in right hand,
        and pointing to chair with left hand. Music —tableau.</stage> <note>[No. 521, " Lisa visits
@@ -1509,159 +1595,159 @@
        note)</stage> Ah, well—really—cool; but I have no further expectations from Sir John, and do
        not see why I should be burthened with his niece.</p>
      </sp>
-     <sp>
+     <sp who="#L0567_F13">
       <speaker>Lisa.</speaker>
       <p>Polite—very.</p>
      </sp>
-     <sp>
+     <sp who="#L0567_F12">
       <speaker>Lady B.</speaker>
       <p>Therefore, Miss—a—a—Miss—</p>
      </sp>
-     <sp>
+     <sp who="#L0567_F13">
       <speaker>Lisa.</speaker>
       <p>Selby!</p>
      </sp>
-     <sp>
+     <sp who="#L0567_F12">
       <speaker>Lady B.</speaker>
       <p>Miss Wigby—you see—</p>
      </sp>
-     <sp>
+     <sp who="#L0567_F13">
       <speaker>Lisa.</speaker>
       <p>Selby!</p>
      </sp>
-     <sp>
+     <sp who="#L0567_F12">
       <speaker>Lady B.</speaker>
       <p>Ah, exactly!</p>
      </sp>
-     <sp>
+     <sp who="#L0567_F13">
       <speaker>Lisa.</speaker>
       <p>I do not ask much of you, madam—<stage>(smiling)</stage> a home with you, and such
        introductions as may make a season in London
        <pb n="24"/> agreeable to me ; your Ladyship's rank, I presume, opens for you those circles
        in which I wish to move ?</p>
      </sp>
-     <sp>
+     <sp who="#L0567_F12">
       <speaker>Lady B.</speaker>
       <p>What?</p>
      </sp>
-     <sp>
+     <sp who="#L0567_F13">
       <speaker>Lisa.</speaker>
       <p>And so, madam, I throw myself entirely upon you, for your protection,
        advice—assistance—</p>
      </sp>
-     <sp>
+     <sp who="#L0567_F12">
       <speaker>Lady B.</speaker>
       <p>Well, upon my word, Miss Swilsby—</p>
      </sp>
-     <sp>
+     <sp who="#L0567_F13">
       <speaker>Lisa.</speaker>
       <p>Selby!</p>
      </sp>
-     <sp>
+     <sp who="#L0567_F12">
       <speaker>Lady B.</speaker>
       <p>Selby—precisely—it seems that I must be excessively plain—</p>
      </sp>
-     <sp>
+     <sp who="#L0567_F13">
       <speaker>Lisa.</speaker>
       <p>Oh, you are, indeed, madam—remarkably plain.</p>
      </sp>
-     <sp>
+     <sp who="#L0567_F12">
       <speaker>Lady B.</speaker>
       <p><stage>(staggering back)</stage> Ah! ah!</p>
      </sp>
-     <sp>
+     <sp who="#L0567_F13">
       <speaker>Lisa.</speaker>
       <p>You are ungrateful! for you have been under great obligations to Sir John; but no matter, I
        am resolved to stay here; I like you too well to part with you—you have no gratitude—no
        attachment. You are a countess, and you are poor.</p>
      </sp>
-     <sp>
+     <sp who="#L0567_F12">
       <speaker>Lady B.</speaker>
       <p>Well I never—no—in all my life I never did— hark'ye, Miss Jigby!</p>
      </sp>
-     <sp>
+     <sp who="#L0567_F13">
       <speaker>Lisa.</speaker>
       <p>Selby!</p>
      </sp>
-     <sp>
+     <sp who="#L0567_F12">
       <speaker>Lady B.</speaker>
       <p>Well, Wigby—you are the most audacious—but I'll soon settle this, <stage>(calling)</stage>
        Jane! run for a policeman.</p>
      </sp>
-     <sp>
+     <sp who="#L0567_F13">
       <speaker>Lisa.</speaker>
       <p>Do not be silly, madam, for I intend to stay, and pay yoU.</p>
      </sp>
-     <sp>
+     <sp who="#L0567_F12">
       <speaker>Lady B.</speaker>
       <p>Pay me, Miss Slugsby! I hate the very name of pay ! I never pay anybody.</p>
      </sp>
-     <sp>
+     <sp who="#L0567_F13">
       <speaker>Lisa.</speaker>
       <p><stage>(slowly)</stage> At my disposal I have four hundred thousand pounds!</p>
       <stage> Lady Bedale utters a scream of astonishment, staggers back, and falls on sofa.</stage>
       <stage> Enter Jane, R. </stage>
      </sp>
-     <sp>
+     <sp who="#L0567_F18">
       <speaker>Jane.</speaker>
       <p>Did you call, my lady?</p>
      </sp>
-     <sp>
+     <sp who="#L0567_F12">
       <speaker>Lady B.</speaker>
       <p>Get out! <stage>(starts suddenly to her feet, snatching up sofa pillow and throws it at
        Jane's head, who runs off screaming, R.</stage> and you have—really—</p>
      </sp>
-     <sp>
+     <sp who="#L0567_F13">
       <speaker>Lisa.</speaker>
       <p>Four hundred thousand pounds ; which I fondly hoped the Countess of Bedale would have
        helped a poor country girl to expend, by introducing her to the ranks of fashion and
        extravagance.</p>
      </sp>
-     <sp>
+     <sp who="#L0567_F12">
       <speaker>Lady B.</speaker>
       <p><stage>(rushing to Lisa, and embracing her)</stage> Oh! my dear, my beautiful niece! Four
        hundred thousand pounds! why I will make you the centre of fashion—your name shall be on
        every lip! Your beauty—my dear, you really are good looking—</p>
      </sp>
-     <sp>
+     <sp who="#L0567_F13">
       <speaker>Lisa.</speaker>
       <p><stage>(smiling)</stage> Yes, I have four hundred thousand charms. Aid me to attain my
        wishes, and you shall be no longer poor
        <pb n="25"/> Lady Bedale. To-morrow, to begin with, I will give you a cheque for five
        thousand pounds.</p>
      </sp>
-     <sp>
+     <sp who="#L0567_F12">
       <speaker>Lady B.</speaker>
       <p><stage>(embracing Lisa again) </stage>Oh, you blessed angel! Miss Selby, my love, I adore
        you ! I can, and will help you to all you desire; and if in London society, you wish to be
        considered the arbitress of fashion—as the—the star of society —I can shew you how to be
        so.</p>
      </sp>
-     <sp>
+     <sp who="#L0567_F13">
       <speaker>Lisa.</speaker>
       <p>Good! I would taste of every enjoyment.</p>
      </sp>
-     <sp>
+     <sp who="#L0567_F12">
       <speaker>Lady B.</speaker>
       <p>You seek pleasure?</p>
      </sp>
-     <sp>
+     <sp who="#L0567_F13">
       <speaker>Lisa.</speaker>
       <p>Ay, and power.</p>
      </sp>
-     <sp>
+     <sp who="#L0567_F12">
       <speaker>Lady B.</speaker>
       <p>But you must have no nonsensical scruples.</p>
      </sp>
-     <sp>
+     <sp who="#L0567_F13">
       <speaker>Lisa.</speaker>
       <p>Do not fear me.</p>
      </sp>
-     <sp>
+     <sp who="#L0567_F12">
       <speaker>Lady B.</speaker>
       <p>You must be, in short—</p>
      </sp>
-     <sp>
+     <sp who="#L0567_F13">
       <speaker>Lisa.</speaker>
       <p>A thorough Woman of the World—I will!<stage> Exeunt R.</stage></p>
      </sp>
@@ -1671,19 +1757,19 @@
       street—(3rd grooves)—table, chairs, &amp;c.</stage>
      <stage> Madame Arundelli discovered seated, and drinking from wine glass, a decanter of brandy
       beside her. Enter Miss Winch, R. </stage>
-     <sp>
+     <sp who="#L0567_F15">
       <speaker>Madame A.</speaker>
       <p><stage>(starts, and is nearly choked)</stage> Eh—what's that? how you made me jump—and the
        bran—hem ! the cordial has gone the wrong way. I felt so weak and faint, Winch, that I was
        obliged to take a little of my reviving cordial.</p>
      </sp>
-     <sp>
+     <sp who="#L0567_F16">
       <speaker>Miss W.</speaker>
       <p><stage>(aside)</stage> Brandy, I know, <stage>(aloud)</stage> Yes, mum, you is delicate—you
        looks so ; but I came to say, mum, that there is a great commotion in the work-room ; the
        girls say they are overworked and underpaid.</p>
      </sp>
-     <sp>
+     <sp who="#L0567_F15">
       <speaker>Madame A.</speaker>
       <p><stage>(rising)</stage> Ungrateful hussies! and we have a housefull of work! Oh, who would
        be a fashionable milliner ? Overworked, indeed! Why, in the very busiest season I never keep
@@ -1691,24 +1777,24 @@
        working eighteen hours— and underpaid, forsooth ! don't I allow them the liberal sum of a
        shilling a day? What would the ungrateful wretches have?</p>
      </sp>
-     <sp>
+     <sp who="#L0567_F16">
       <speaker>Miss W.</speaker>
       <p>Very true, mum. Ah, it's a wicked world! there's that girl, Simpson, who is continually
        presuming to say that she is very ill, has this morning, already, mum—had the outrageous
        impudence to faint away three times—actually went right off, over her work, mum.</p>
      </sp>
-     <sp>
+     <sp who="#L0567_F15">
       <speaker>Madame A.</speaker>
       <p>To faint away in working hours ! Never heard of such audacity in all my life ! her time
        belongs to me,
        <pb n="26"/>and it's a robbery ! Why couldn't the hussey wait till she got home ? This won't
        do, Winch!</p>
      </sp>
-     <sp>
+     <sp who="#L0567_F16">
       <speaker>Miss W.</speaker>
       <p>No, mum—it won't.</p>
      </sp>
-     <sp>
+     <sp who="#L0567_F15">
       <speaker>Madame A.</speaker>
       <p>Bundle her off—lead her down stairs, and place her in the street—no doubt she will get home
        somehow ; that is, if she has got a home to go to; if not, there is the workhouse, and other
@@ -1716,39 +1802,39 @@
        be worse, and I may be put to the expense of a cab ; and that wouldn't do, for I know she
        comes about four miles to work.</p>
      </sp>
-     <sp>
+     <sp who="#L0567_F16">
       <speaker>Miss W.</speaker>
       <p>And, of course, she ain't to have none of her day's wages—she ain't been here this morning
        above seven hours.</p>
      </sp>
-     <sp>
+     <sp who="#L0567_F15">
       <speaker>Madame A.</speaker>
       <p>Umph! not half a day! Well, never mind, let her have sixpence—I never can help being
        generous.</p>
      </sp>
-     <sp>
+     <sp who="#L0567_F16">
       <speaker>Miss W.</speaker>
       <p><stage>(going)</stage> No, that you can't, mum.</p>
      </sp>
-     <sp>
+     <sp who="#L0567_F15">
       <speaker>Madame A.</speaker>
       <p>Stay, Winch ; has my niece risen yet?</p>
      </sp>
-     <sp>
+     <sp who="#L0567_F16">
       <speaker>Miss W.</speaker>
       <p>Yes, mum. And there's another noble act of yours—to give a shelter to the poor, discarded,
        houseless thing—ah ! you are too good for this world !</p>
      </sp>
-     <sp>
+     <sp who="#L0567_F15">
       <speaker>Madame A.</speaker>
       <p>I hope not, Winch, for I am not tired of it yet, though mine is a harrassing life, and I
        often need a little comfort.</p>
      </sp>
-     <sp>
+     <sp who="#L0567_F16">
       <speaker>Miss W.</speaker>
       <p><stage>(aside)</stage> Brandy—hem! <stage>(aloud)</stage> but you are rich and— -</p>
      </sp>
-     <sp>
+     <sp who="#L0567_F15">
       <speaker>Madame A.</speaker>
       <p>Yes, a good and virtuous life ever meets with its reward. I should not, though, have been
        burthened with a niece I never saw before in all my life, but a glance shewed me that the
@@ -1756,65 +1842,65 @@
        her, and it is our duty, you know, to do our best for our relations—so if she should take his
        fancy—</p>
      </sp>
-     <sp>
+     <sp who="#L0567_F16">
       <speaker>Miss W.</speaker>
       <p>He will be certain, mum, to reward you well.</p>
      </sp>
-     <sp>
+     <sp who="#L0567_F15">
       <speaker>Madame A.</speaker>
       <p>I have never found him niggardly, and I shall not fail to reward you, Winch.</p>
      </sp>
-     <sp>
+     <sp who="#L0567_F16">
       <speaker>Miss W.</speaker>
       <p>Thank you, mum!</p>
      </sp>
-     <sp>
+     <sp who="#L0567_F15">
       <speaker>Madame A.</speaker>
       <p>It is a duty one owes to oneself to neglect no honest means of adding to one's little store
        ; but honestly, of course, always honestly and properly.</p>
      </sp>
-     <sp>
+     <sp who="#L0567_F16">
       <speaker>Miss W.</speaker>
       <p>Of course mum, not otherwise—certainly not, mum.</p>
      </sp>
-     <sp>
+     <sp who="#L0567_F15">
       <speaker>Madame A.</speaker>
       <p>And now send my niece to me, Winch.</p>
      </sp>
-     <sp>
+     <sp who="#L0567_F16">
       <speaker>Miss W.</speaker>
       <p><stage>(going)</stage> Yes, mum!</p>
      </sp>
-     <sp>
+     <sp who="#L0567_F15">
       <speaker>Madame A.</speaker>
       <p>And, Winch?</p>
      </sp>
-     <sp>
+     <sp who="#L0567_F16">
       <speaker>Miss W.</speaker>
       <p><stage>(returning)</stage> Mum?</p>
      </sp>
-     <sp>
+     <sp who="#L0567_F15">
       <speaker>Madame A.</speaker>
       <p>Recollect, that to my niece, the Duke of Endell will be my cousin—Cousin Thompson. The girl
        is fresh from the country, and might, perhaps, prove a little squeamish.</p>
       <pb n="27"/>
      </sp>
-     <sp>
+     <sp who="#L0567_F16">
       <speaker>Miss W.</speaker>
       <p>I shall remember, mum. <stage>Exit L.</stage></p>
      </sp>
-     <sp>
+     <sp who="#L0567_F15">
       <speaker>Madame A.</speaker>
       <p>Stop! let me put away this bran—hem! my cordial! <stage>(does so)</stage> The duke will
        presently be here, and—</p>
       <stage> Enter Joanna, L,.—she is handsomely dressed. </stage>
       <p>Well, Joanna—that, you tell me, is your name, you are looking charmingly this morning.</p>
      </sp>
-     <sp>
+     <sp who="#L0567_F14">
       <speaker>Joanna.</speaker>
       <p>I was fatigued in mind and body, and I slept well, and long.</p>
      </sp>
-     <sp>
+     <sp who="#L0567_F15">
       <speaker>Madame A.</speaker>
       <p>Ah! youth soon forgets its sorrows—and so your name is Arundel, although you have always
        been called Cleveland ; and you are, it seems, the daughter of my dead brother, Captain
@@ -1822,42 +1908,42 @@
        own I cannot exactly understand why you have left Sir John Cleveland's—but as I said before,
        never mind that.</p>
      </sp>
-     <sp>
+     <sp who="#L0567_F14">
       <speaker>Joanna.</speaker>
       <p>He is no longer kind to me—he no longer has faith in me ; and so I have left him and come
        up to London to you, as my only relative, to throw myself upon your kindness.</p>
      </sp>
-     <sp>
+     <sp who="#L0567_F15">
       <speaker>Madame A.</speaker>
       <p>Ah, exactly—and had some trouble to find me, no doubt ?</p>
      </sp>
-     <sp>
+     <sp who="#L0567_F14">
       <speaker>Joanna.</speaker>
       <p>Yes, I knew not your address ; and your change of name—</p>
      </sp>
-     <sp>
+     <sp who="#L0567_F15">
       <speaker>Madame A.</speaker>
       <p>Exactly—from Arundel to Arundelli, my dear 'Twas necessary—nothing that's native is
        fashionable—must be foreign to succeed in London—but really your arrival—</p>
      </sp>
-     <sp>
+     <sp who="#L0567_F14">
       <speaker>Joanna.</speaker>
       <p>I can labour! You employ other young girls— I can work ; I do not want to be a burden to
        you—I wish to work for you, that is all; and if you can give me kindness as well, I shall
        look upon it as a precious boon.</p>
      </sp>
-     <sp>
+     <sp who="#L0567_F15">
       <speaker>Madame A.</speaker>
       <p>Oh, we don't want any hands.</p>
      </sp>
-     <sp>
+     <sp who="#L0567_F14">
       <speaker>Joanna.</speaker>
       <p>But you will not cast me from you ? For his sake who sleeps in the grave now, and for the
        dear love that may yet be all our own, when we meet again after this world's trials and
        fitful frowns have passed away, oh, do not abandon me in this great and merciless city! Oh,
        do not, I implore you! for, without you, I am alone and friendless !</p>
      </sp>
-     <sp>
+     <sp who="#L0567_F15">
       <speaker>Madame A.</speaker>
       <p>Really, my dear, you are very pretty! Work would not suit you at all. We shall be able, I
        hope, to do better than that for yoU. As I said before, your story is so perplexing, that I
@@ -1865,128 +1951,128 @@
        shall see—we shall see. We must have the advice of my cousin Thompson, who will presently be
        here.</p>
      </sp>
-     <sp>
+     <sp who="#L0567_F14">
       <speaker>Joanna.</speaker>
       <p>Is she good—and kind—young?</p>
      </sp>
-     <sp>
+     <sp who="#L0567_F15">
       <speaker>Madame A.</speaker>
       <p>She ! My dear, it's a <hi>he</hi>—a gentleman !</p>
       <pb n="28"/>
      </sp>
-     <sp>
+     <sp who="#L0567_F14">
       <speaker>Joanna.</speaker>
       <p>Indeed!</p>
      </sp>
-     <sp>
+     <sp who="#L0567_F15">
       <speaker>Madame A.</speaker>
       <p>Yes—did you never hear of gentlemen cousins ?</p>
      </sp>
-     <sp>
+     <sp who="#L0567_F14">
       <speaker>Joanna.</speaker>
       <p>Oh, yes—yes—but—</p>
       <stage> Enter Miss Winch, L. </stage>
      </sp>
-     <sp>
+     <sp who="#L0567_F16">
       <speaker>Miss W.</speaker>
       <p>If you please, ma'am, here is your cousin, Mr. Thompson. Walk in, if you please, Mr.
        Thompson.</p>
       <stage> Enter the Duke OF ENDELL, L.—Miss Winch curtseys, and goes off, L. </stage>
      </sp>
-     <sp>
+     <sp who="#L0567_M1">
       <speaker>Duke.</speaker>
       <p><stage>(to Madame A.)</stage> How do?</p>
      </sp>
-     <sp>
+     <sp who="#L0567_F15">
       <speaker>Madame A.</speaker>
       <p><stage>(crosses, C, looking at Duke, significantly)</stage> <hi>Cousin </hi>Thompson, I am
        delighted to see yoU. <stage>(turning to Joanna)</stage> My dear—Cousin Thompson is a
        gentleman of great judgement and experience, on whose good-will you may rely.</p>
      </sp>
-     <sp>
+     <sp who="#L0567_F14">
       <speaker>Joanna.</speaker>
       <p><stage>(R.)</stage> It is no doubt kind of you, but—</p>
      </sp>
-     <sp>
+     <sp who="#L0567_F15">
       <speaker>Madame A.</speaker>
       <p>Hush! My niece, Cousin Thompson.</p>
      </sp>
-     <sp>
+     <sp who="#L0567_M1">
       <speaker>Duke.</speaker>
       <p><stage>(e.)</stage> Ah! <stage>(raising eyeglass, and taking a steady look at
        Joanna)</stage> Um! <stage>(MADAME A. looks anxiously at Duke, who nods)</stage> She'll do! I
        am delighted to see you, Miss—a—a—</p>
      </sp>
-     <sp>
+     <sp who="#L0567_F15">
       <speaker>Madame A.</speaker>
       <p><stage>(C.)</stage> Joanna Arundelli!</p>
      </sp>
-     <sp>
+     <sp who="#L0567_M1">
       <speaker>Duke.</speaker>
       <p>Ah, yes—I am quite delighted—perfectly charmed.</p>
       <stage> Enter Miss Winch, L. </stage>
      </sp>
-     <sp>
+     <sp who="#L0567_F16">
       <speaker>Miss W.</speaker>
       <p>Oh, if you please, ma'am, the hands don't know how to get on without yoU.</p>
      </sp>
-     <sp>
+     <sp who="#L0567_F15">
       <speaker>Madame A.</speaker>
       <p>How provoking! Cousin Thompson, will you excuse me a few moments?</p>
      </sp>
-     <sp>
+     <sp who="#L0567_M1">
       <speaker>Duke.</speaker>
       <p>Oh, certainly.</p>
      </sp>
-     <sp>
+     <sp who="#L0567_F14">
       <speaker>Joanna.</speaker>
       <p><stage>(taking Madame's arm)</stage> You will not leave me?</p>
      </sp>
-     <sp>
+     <sp who="#L0567_F15">
       <speaker>Madame A.</speaker>
       <p><stage>(removing Joanna's arm)</stage> Don't be a fool! Tell Cousin Thompson your story,
        and he will advise. I shall be back soon.</p>
      </sp>
-     <sp>
+     <sp who="#L0567_F14">
       <speaker>Joanna.</speaker>
       <p>But I have no story, and no need of advice.</p>
      </sp>
-     <sp>
+     <sp who="#L0567_F15">
       <speaker>Madame A.</speaker>
       <p><stage>(crossing L.)</stage> Pooh ! pooh!</p>
       <stage> Nods significantly to Duke, and goes off, L., followed by Winch.</stage>
      </sp>
-     <sp>
+     <sp who="#L0567_M1">
       <speaker>Duke.</speaker>
       <p><stage>(with a bland smile, and his glass to his eye)</stage> Well, my dear, and what are
        your expectations ?</p>
      </sp>
-     <sp>
+     <sp who="#L0567_F14">
       <speaker>Joanna.</speaker>
       <p><stage>(R.)</stage> Sir!</p>
      </sp>
-     <sp>
+     <sp who="#L0567_M1">
       <speaker>Duke.</speaker>
       <p>I want to know what are your expectations, my dear, that is all. You are a charming young
        creature, and I am only all amazement to know how on earth Arundelli found yoU. I think she
        said your friends were in the country ?</p>
      </sp>
-     <sp>
+     <sp who="#L0567_F14">
       <speaker>Joanna.</speaker>
       <p>I have no friend, sir, but Madame Arundelli.</p>
      </sp>
-     <sp>
+     <sp who="#L0567_M1">
       <speaker>Duke.</speaker>
       <p>Nay, pray include me, if you please ! Do not play the coy maiden, for I am the most liberal
        of men, as you will
        <pb n="29"/> find ; nor am I inconstant either, without good cause. Come, now, what do you
        say ?</p>
      </sp>
-     <sp>
+     <sp who="#L0567_F14">
       <speaker>Joanna.</speaker>
       <p>If you please I—I should like to see my aunt. I—</p>
      </sp>
-     <sp>
+     <sp who="#L0567_M1">
       <speaker>Duke.</speaker>
       <p>Oh! she shall have every reason to be satisfied. There is really no need for consultation,
        for you are a charming, exquisite, adorable girl! I really and truly love you! There is a
@@ -1996,24 +2082,24 @@
        I never loved till now! I hare been cold, indifferent, jaded, but now I love with all my
        heart !</p>
      </sp>
-     <sp>
+     <sp who="#L0567_F14">
       <speaker>Joanna.</speaker>
       <p>Oh! what can all this mean ? <stage>(calls)</stage> Aunt! Aunt! Oh! sir, let me pass, if
        you are a gentleman !</p>
      </sp>
-     <sp>
+     <sp who="#L0567_M1">
       <speaker>Duke.</speaker>
       <p>I am a nobleman !</p>
      </sp>
-     <sp>
+     <sp who="#L0567_F14">
       <speaker>Joanna.</speaker>
       <p>I care not! I ask you but to prove you are a gentleman!</p>
      </sp>
-     <sp>
+     <sp who="#L0567_M1">
       <speaker>Duke.</speaker>
       <p>My adorable girl—you shall be mine! and mine only!</p>
      </sp>
-     <sp>
+     <sp who="#L0567_F14">
       <speaker>Joanna.</speaker>
       <p>Help! Aunt! Help!</p>
       <p><stage>(Duke follows her round the table—Joanna, in her fright knocks over the table, she
@@ -2021,81 +2107,81 @@
        —tableau.</stage><note> [No. 532, " Joanna attempting to escape from Cousin Thompson."
        ]</note></p>
      </sp>
-     <sp>
+     <sp who="#L0567_M1">
       <speaker>Duke.</speaker>
       <p>This is carrying coquetry too far.</p>
      </sp>
-     <sp>
+     <sp who="#L0567_F14">
       <speaker>Joanna.</speaker>
       <p><stage>(looking through window'</stage> Save me ! save me!</p>
      </sp>
-     <sp>
+     <sp who="#L0567_M1">
       <speaker>Duke.</speaker>
       <p><stage>(dragging her forward)</stage> Hush! you will attract notice from the street!</p>
       <p><stage>Madame Arundelli enters hastily, L.—goes to and closes window.</stage></p>
      </sp>
-     <sp>
+     <sp who="#L0567_F15">
       <speaker>Madame A.</speaker>
       <p>Are you mad, girl—that you would draw observation to my house ? Are you mad, I say ?</p>
      </sp>
-     <sp>
+     <sp who="#L0567_F14">
       <speaker>Joanna.</speaker>
       <p><stage>(C.)</stage> Ah! thank Heaven, you are here! You do not know, you cannot know this
        man!</p>
      </sp>
-     <sp>
+     <sp who="#L0567_F15">
       <speaker>Madame A.</speaker>
       <p>Hush ! hush !</p>
      </sp>
-     <sp>
+     <sp who="#L0567_F14">
       <speaker>Joanna.</speaker>
       <p>I will not be silent! I am slow of suspicion, but I feel that it is infamy to listen to
        him, or to breathe the air of his presence. Aunt, if this is the sort of protection you offer
        me, welcome the streets of London, even if I have to beg my daily bread.</p>
      </sp>
-     <sp>
+     <sp who="#L0567_M1">
       <speaker>Duke.</speaker>
       <p><stage>(R.)</stage> I throw my fortune at your feet! </p>
      </sp>
-     <sp>
+     <sp who="#L0567_F14">
       <speaker>Joanna.</speaker>
       <p>And I despise it, sir, as I despise you!</p>
       <pb n="30"/>
       <stage> Miss Winch enters hurriedly, L.</stage>
      </sp>
-     <sp>
+     <sp who="#L0567_F16">
       <speaker>Miss W.</speaker>
       <p>A man rushing up stairs—a gentleman, I mean, ma'am, asking for Miss Cleveland. I couldn't
        stop him—he upset me on the stairs in a most indelicate manner—says he will see her.</p>
      </sp>
-     <sp>
+     <sp who="#L0567_F14">
       <speaker>Joanna.</speaker>
       <p>Ah! help!</p>
      </sp>
-     <sp>
+     <sp who="#L0567_F15">
       <speaker>Madame A.</speaker>
       <p>Quick! <stage>(seizing Joanna)</stage> assist me, Winch! Drag her to my private
        cabinet—come!</p>
       <stage> Music—MADAME ARUNDELLI places her hand over Joanna'S mouth, who is dragged off, R.—the
        instant she is off, CHARLES Stanmore hurries on L.</stage>
      </sp>
-     <sp>
+     <sp who="#L0567_M1">
       <speaker>Duke.</speaker>
       <p><stage>(C.)</stage> Now, sir, why this intrusion ?</p>
      </sp>
-     <sp>
+     <sp who="#L0567_M4">
       <speaker>Charles.</speaker>
       <p><stage>(l. c.)</stage> I must and will see her! It was her voice I heard—it was her form I
        beheld—I will swear it! give her to me—I am in London searching for her, on authority of her
        relations.</p>
       <stage> Re-enter MADAME ARUNDELLI and Miss Winch, R.</stage>
      </sp>
-     <sp>
+     <sp who="#L0567_F15">
       <speaker>Madame A.</speaker>
       <p>And pray, sir, who may you be, that you take upon yourself to rush into people's houses in
        this way, without the slightest knowledge of them, and without their leave ?</p>
      </sp>
-     <sp>
+     <sp who="#L0567_F16">
       <speaker>Miss W.</speaker>
       <p>Oh, ma'am, perhaps the gentleman is mistaken, after all, and when he owns it, he may
        apologise. I don't know you, sir, and no relations have any right to claim me ; and if I
@@ -2104,64 +2190,64 @@
        to you, sir? <stage>(sticking out her elbows—advancing to Stanmore. and shaking her head in
        his face)</stage> Eh? eh? eh?</p>
      </sp>
-     <sp>
+     <sp who="#L0567_M4">
       <speaker>Charles.</speaker>
       <p>You?</p>
      </sp>
-     <sp>
+     <sp who="#L0567_F16">
       <speaker>Miss W.</speaker>
       <p>Yes, me! What then, sir!</p>
      </sp>
-     <sp>
+     <sp who="#L0567_F15">
       <speaker>Madame A.</speaker>
       <p><stage>(shouting, L.)</stage> Minchin! take care of the spoons!</p>
      </sp>
-     <sp>
+     <sp who="#L0567_M4">
       <speaker>Charles.</speaker>
       <p>Well, well; in the excited state of my mind, it is possible that I may have been mistaken,
        and I must apologise to that elderly spinster for—</p>
      </sp>
-     <sp>
+     <sp who="#L0567_F16">
       <speaker>Miss W.</speaker>
       <p>Elderly spinster! Get out of the house you villain!</p>
      </sp>
-     <sp>
+     <sp who="#L0567_M4">
       <speaker>Charles.</speaker>
       <p><stage>(aside)</stage> I am not yet satisfied, and I will watch. Oh! Joanna, Joanna
        !<stage> Exit, L.</stage></p>
      </sp>
-     <sp>
+     <sp who="#L0567_F15">
       <speaker>Madame A.</speaker>
       <p><stage>(shouting off)</stage> Minchin! watch the umbrellas in the passage. <stage>(turning
        to Duke)</stage> I warned your grace—you have spoiled all by being so precipitate.</p>
       <pb n="31"/>
      </sp>
-     <sp>
+     <sp who="#L0567_M1">
       <speaker>Duke.</speaker>
       <p>Have your own price—make your own arrangements —but that girl must be mine, if she costs me
        half my fortune.</p>
      </sp>
-     <sp>
+     <sp who="#L0567_F15">
       <speaker>Madame A.</speaker>
       <p>So she shall—for you are so liberal, there is no resisting you ; and I have a plan. The
        girl is pining for fresh air—there is a small parcel of choice lace to go to Lady Bedale's
        —Joanna shall be the bearer of it, on her return you must contrive—in short, the rest is for
        you to do. <stage>(crosses, R.)</stage></p>
      </sp>
-     <sp>
+     <sp who="#L0567_M1">
       <speaker>Duke.</speaker>
       <p>Admirable ! You shall be well rewarded—doubt it not. Farewell! <stage>Exit, L.</stage></p>
      </sp>
-     <sp>
+     <sp who="#L0567_F15">
       <speaker>Madame A.</speaker>
       <p>Oh, dear, all this agitation is too much for my delicate system—nothing will recover me but
        some bran—a little cordial, I mean.</p>
      </sp>
-     <sp>
+     <sp who="#L0567_F16">
       <speaker>Miss W.</speaker>
       <p>Oh, ma'am, you are a poor dear angel.</p>
      </sp>
-     <sp>
+     <sp who="#L0567_F15">
       <speaker>Madame A.</speaker>
       <p>I am afraid I am, Winch—I am afraid I am.</p>
      </sp>
@@ -2172,7 +2258,7 @@
      <stage> Enter John Butts and Susan Jenkins, L., arm in arm, both with their Sunday clothes
       on—John has an old fashioned watch chain, and immense bunch of seals, a thick oaken stick in
       his hand. </stage>
-     <sp>
+     <sp who="#L0567_M9">
       <speaker>John.</speaker>
       <p>Well, zooks and taters! this here Lunnun be the biggest place as ever I did see, and what
        surprises me above all, that it be all over houses. And I never seed such shops— and there's
@@ -2180,178 +2266,178 @@
        Co., or Smith and Co., or something or other and Co. What a many people to be sure of the
        name of Co! I wonder if all them Mr. Co's are related to one another ?</p>
      </sp>
-     <sp>
+     <sp who="#L0567_F17">
       <speaker>Susan.</speaker>
       <p>Ha, ha, ha ! Law, John, what a stupid gaby you are! Co is only a make believe—it means a
        Company.</p>
      </sp>
-     <sp>
+     <sp who="#L0567_M9">
       <speaker>John.</speaker>
       <p>Likely—but better monners, Susan, or I shan't keep company wi' you any longer—you a' gotten
        good brass to call me a gaby afore we're married, I think.</p>
      </sp>
-     <sp>
+     <sp who="#L0567_F17">
       <speaker>Susan.</speaker>
       <p>La, John, it's only a playful expression.</p>
      </sp>
-     <sp>
+     <sp who="#L0567_M9">
       <speaker>John.</speaker>
       <p>Oh, zooks and taters ! you are playful is you—I don't fancy that, for playful women is like
        playful kittens—they scratches.</p>
      </sp>
-     <sp>
+     <sp who="#L0567_F17">
       <speaker>Susan.</speaker>
       <p>Well, don't be cross, John—give me a kiss.</p>
      </sp>
-     <sp>
+     <sp who="#L0567_M9">
       <speaker>John.</speaker>
       <p>What, out here in the street, wi' all the Lunnun chaps a looking at us ? No, dang it, I
        can't stand that neither.</p>
      </sp>
-     <sp>
+     <sp who="#L0567_F17">
       <speaker>Susan.</speaker>
       <p>You have promised, John, to make me your lawful wife, and so I persuaded you to treat me up
        to London, because
        <pb n="32"/>I am acquainted with the renowned city, and can induct you to its galaxy of
        sparkling pleasure.</p>
      </sp>
-     <sp>
+     <sp who="#L0567_M9">
       <speaker>John.</speaker>
       <p><stage>(whistling)</stage> Whew! Susan, is you a young woman, or is you a member of
        parlyment ? Hedgehogs and mangel wurzel! what is all them words about ?</p>
      </sp>
-     <sp>
+     <sp who="#L0567_F17">
       <speaker>Susan.</speaker>
       <p>I mean, John, that I can introduce you to its intoxicating delights.</p>
      </sp>
-     <sp>
+     <sp who="#L0567_M9">
       <speaker>John.</speaker>
       <p>Intoxicating ! yes, I shouldn't wonder, for there be a nation sight of public houses in
        Lunnon—but I bean't inclined for a fuddle just now, thank'ee.</p>
      </sp>
-     <sp>
+     <sp who="#L0567_F17">
       <speaker>Susan.</speaker>
       <p>Oh, dear, dear, John, you are remarkably obtruse.</p>
      </sp>
-     <sp>
+     <sp who="#L0567_M9">
       <speaker>John.</speaker>
       <p>Now, I say, Susan, doan't 'ee call names, I don't like it.</p>
      </sp>
-     <sp>
+     <sp who="#L0567_F17">
       <speaker>Susan.</speaker>
       <p>'Tisn't names, John, it's only the genteel words I picked up when I was in service in
        London.</p>
      </sp>
-     <sp>
+     <sp who="#L0567_M9">
       <speaker>John.</speaker>
       <p>Ah, well, if you picked 'em up, the sooner, I think, that you drop 'em agin, the
        better.</p>
      </sp>
-     <sp>
+     <sp who="#L0567_F17">
       <speaker>Susan.</speaker>
       <p>Well, John, to speak plain, as fashionable people say, I mean to show you the lions.</p>
      </sp>
-     <sp>
+     <sp who="#L0567_M9">
       <speaker>John.</speaker>
       <p>Why, zooks and taters! Do you think I've come up to Lunnon on'y just to see the wild
        beastes? I've seed 'em on'y t'other day—there was a menaggery down in our parts.</p>
      </sp>
-     <sp>
+     <sp who="#L0567_F17">
       <speaker>Susan.</speaker>
       <p>Menaggery! Oh, I give you up, John—you are incorrigible.</p>
      </sp>
-     <sp>
+     <sp who="#L0567_M9">
       <speaker>John.</speaker>
       <p><stage>(in a passion)</stage> No, I bean't! I's a respectable farmer, and you may give up
        as soon as you like, for I tell 'ee what Susan, I wunt put up wi' no more of your dommed
        imperence ! If a man had said as much to me <stage>(taking off his hat and punching
        it)</stage> I'd a punched his head as flat as a pancake !</p>
      </sp>
-     <sp>
+     <sp who="#L0567_F17">
       <speaker>Susan.</speaker>
       <p>Don't, John ! Don't spoil your new hat, or you'll have to buy another to be married in.</p>
      </sp>
-     <sp>
+     <sp who="#L0567_M9">
       <speaker>John.</speaker>
       <p>I won't be married at all! I'll have a divorce instead.</p>
      </sp>
-     <sp>
+     <sp who="#L0567_F17">
       <speaker>Susan.</speaker>
       <p>Perhaps that will come afterwards, <stage>(bursts into tears)</stage> How can you be so
        cruel? Oh, John Butts! John Bu-bu- bu—</p>
      </sp>
-     <sp>
+     <sp who="#L0567_M9">
       <speaker>John.</speaker>
       <p>Oh, dang it, Susan! if you begins to cry, I'm mollified directly.</p>
      </sp>
-     <sp>
+     <sp who="#L0567_F17">
       <speaker>Susan.</speaker>
       <p><stage>(aside)</stage> I know that, it's only make-believe, <stage>(cries again)</stage>
        Oh, oh, oh!</p>
      </sp>
-     <sp>
+     <sp who="#L0567_M9">
       <speaker>John.</speaker>
       <p><stage>(whimpering)</stage> Now do give over, Susan, else I shall begin to bellow directly,
        do 'ee leave off, Susan ! Oh, ploughs and parsnips, Susy! I'll gi'ee onything if thee'lt ony
        gi' over.</p>
      </sp>
-     <sp>
+     <sp who="#L0567_F17">
       <speaker>Susan.</speaker>
       <p><stage>(suddenly ceasing to cry)</stage> Will you, John ? will you let me buy that pretty
        dress I saw in the shop window yonder ?</p>
      </sp>
-     <sp>
+     <sp who="#L0567_M9">
       <speaker>John.</speaker>
       <p>Eh? Oh dang it, Susan! you knows how to do it.
        <pb n="33"/> Well, zooks and taters! women be the most artful animals as ever I seed.</p>
      </sp>
-     <sp>
+     <sp who="#L0567_F17">
       <speaker>Susan.</speaker>
       <p>You said it would be a waste of money to buy it, and as we are going to be married, we both
        ought to be saving.</p>
      </sp>
-     <sp>
+     <sp who="#L0567_M9">
       <speaker>John.</speaker>
       <p>Well, and I think so now.</p>
      </sp>
-     <sp>
+     <sp who="#L0567_F17">
       <speaker>Susan.</speaker>
       <p>You do, John, and musn't I buy it then, John? <stage>(begining to cry)</stage> you are
        the—the—</p>
      </sp>
-     <sp>
+     <sp who="#L0567_M9">
       <speaker>John.</speaker>
       <p>No, no, stop, Susan! stop! Go and buy it—go and buy all the shop if you like, so long as
        you wont turn on that ere main again.</p>
      </sp>
-     <sp>
+     <sp who="#L0567_F17">
       <speaker>Susan.</speaker>
       <p>Come you with me, John, you can amuse yourself looking in at the shop window, while I am
        buying the dress.</p>
      </sp>
-     <sp>
+     <sp who="#L0567_M9">
       <speaker>John.</speaker>
       <p>What! and have some chap amuse himsen by cleaning out my pockets, as they did t'other day
        while I was a staring at the wax work.</p>
      </sp>
-     <sp>
+     <sp who="#L0567_F17">
       <speaker>Susan.</speaker>
       <p>The thieves in London are dreadful.</p>
      </sp>
-     <sp>
+     <sp who="#L0567_M9">
       <speaker>John.</speaker>
       <p>Zooks and taters! that they is—they very nearly had my watch t'other day—that grandfeather
        gi' me—on'y it be so large that they couldn't lug it out o' my fob—it stuck by the way, and
        while the chap were a hauling at it, I let fly wi' my stick, and away he rolled into the
        gutter—and it's my opinion he'd ha' the headache for a week aterwards.</p>
      </sp>
-     <sp>
+     <sp who="#L0567_F17">
       <speaker>Susan.</speaker>
       <p>Well, wait here—I shan't be long, if the shop ain't full. You know I take a pleasure in
        obeying you, John, <stage>(aside)</stage> but only wait till we are married, and we'll soon
        see then who's master. <stage>Exit L.</stage></p>
      </sp>
-     <sp>
+     <sp who="#L0567_M9">
       <speaker>John.</speaker>
       <p><stage>(calling after her)</stage> Take care of your pockets, Susan ! I must look arter
        her, 'cause if she were robbed now, it would be so much loss when we are married. Zooks and
@@ -2359,114 +2445,114 @@
        can't be no room for 'em unless they sleep five or six in a bed.</p>
       <stage> Enter Major Edmonds, R., dressed shabbily. </stage>
      </sp>
-     <sp>
+     <sp who="#L0567_M7">
       <speaker>Major.</speaker>
       <p>I am sure I shall be too late—can't see a clock about here, and my ticker has long ago been
        in the possession of an esteemed welative. Oh! here is an indiwidual. <stage>(advancing and
        touching John on the shoulder)</stage> My dear sir, excuse me, but—</p>
      </sp>
-     <sp>
+     <sp who="#L0567_M9">
       <speaker>John.</speaker>
       <p><stage>(starting back)</stage> Keep off! or domme if I don't knock 'ee down.</p>
      </sp>
-     <sp>
+     <sp who="#L0567_M7">
       <speaker>Major.</speaker>
       <p>Knock me down, eh? Oh yes—catch a weazel asleep! My good fwiend, I merely wish to know
        what's o'clock.</p>
      </sp>
-     <sp>
+     <sp who="#L0567_M9">
       <speaker>John.</speaker>
       <p>Eh ? <stage>(alarmed—takes his hat off and claps it over his bunch of seals')</stage> No,
        no, that wont do—I's up to your rigs— you know what's o'clock, well enough.</p>
       <pb n="34"/>
      </sp>
-     <sp>
+     <sp who="#L0567_M7">
       <speaker>Major.</speaker>
       <p><stage>(aside)</stage> What a queer animal! <stage>(aloud)</stage> The fact is, my fwiend,
        I have an appointment with a lovely young lady—</p>
      </sp>
-     <sp>
+     <sp who="#L0567_M9">
       <speaker>John.</speaker>
       <p><stage>(aside)</stage> Somebody he is going to rob, I suppose.</p>
      </sp>
-     <sp>
+     <sp who="#L0567_M7">
       <speaker>Major.</speaker>
       <p>And I am afraid I shall be too late.</p>
      </sp>
-     <sp>
+     <sp who="#L0567_M9">
       <speaker>John.</speaker>
       <p>Well, you won't get there no sooner by stopping here, you know.</p>
      </sp>
-     <sp>
+     <sp who="#L0567_M7">
       <speaker>Major.</speaker>
       <p>Ha, ha! vewy good! catch a weazel asleep and—ha, ha ! I see—stwike me comical, you are a
        wag.</p>
      </sp>
-     <sp>
+     <sp who="#L0567_M9">
       <speaker>John.</speaker>
       <p>A wag! perhaps I am—but I tell'ee what, if you don't go, you'll find my stick a-wagging
        about your head presently.</p>
      </sp>
-     <sp>
+     <sp who="#L0567_M7">
       <speaker>Major.</speaker>
       <p>Oh! weally, I can't put up with this— <stage>(advancing towards John)</stage> and I must
        have—</p>
      </sp>
-     <sp>
+     <sp who="#L0567_M9">
       <speaker>John.</speaker>
       <p>No, you shan't, nobody shall have it—it were grandfathers <stage>(shouting)</stage> here,
        purlice ! purlice!</p>
      </sp>
-     <sp>
+     <sp who="#L0567_M7">
       <speaker>Major.</speaker>
       <p>Confound the fellow, it's lucky the police are never in the way when they are wanted. He is
        an innocent wustic I perceive, <stage>(to John)</stage> My good fwiend, I admiwr you
        exceedingly. <stage>(aside)</stage> here's a chance, catch a weazel—hem !
        <stage>(aloud)</stage> My dear fellow, I am pwoud of your acquaintance.</p>
      </sp>
-     <sp>
+     <sp who="#L0567_M9">
       <speaker>John.</speaker>
       <p>Be off! will'ee? I don't know'ee, and I don't want to.</p>
      </sp>
-     <sp>
+     <sp who="#L0567_M7">
       <speaker>Major.</speaker>
       <p>I was mewely about to say, that—that a tempowawy emergency—would—could you lend me half a
        cwown ?</p>
      </sp>
-     <sp>
+     <sp who="#L0567_M9">
       <speaker>John.</speaker>
       <p>Oh, yes, I could!</p>
      </sp>
-     <sp>
+     <sp who="#L0567_M7">
       <speaker>Major.</speaker>
       <p><stage>(holding out his hand)</stage> Ah! thank you!</p>
      </sp>
-     <sp>
+     <sp who="#L0567_M9">
       <speaker>John.</speaker>
       <p>I could I say!</p>
      </sp>
-     <sp>
+     <sp who="#L0567_M7">
       <speaker>Major.</speaker>
       <p>Thank you! I'm in lucks way, stwike me fortunate ! Thank you !</p>
      </sp>
-     <sp>
+     <sp who="#L0567_M9">
       <speaker>John.</speaker>
       <p>But I'm dommed if I do!</p>
      </sp>
-     <sp>
+     <sp who="#L0567_M7">
       <speaker>Major.</speaker>
       <p>Oh! <stage>(John buttons up his coat)</stage> I see, catch a weazel asleep! <stage>(looking
        off, R.)</stage> Eh! yonder goes a young woman I have said a few tender things to—I think
        she's good for about eighteen pence. Here, Miss Swab! Catch a weazel asleep not to be
        done—stwike me uncomfortable ! <stage>Runs off, R.</stage></p>
      </sp>
-     <sp>
+     <sp who="#L0567_M9">
       <speaker>John.</speaker>
       <p><stage>(looking after him)</stage> Danged if I ain't had a wonderful escape—never see such
        a cut throat looking rascal in all my days!</p>
       <stage> Enter Joanna, L.. rather shabbily dressed, and carrying a small parcel. </stage>
      </sp>
-     <sp>
+     <sp who="#L0567_F14">
       <speaker>Joanna.</speaker>
       <p>My aunt's designs are now but too plainly apparent, for the fine dress, having served it's
        turn, to wear in the presence of him she called her cousin, she has taken it from me, and
@@ -2475,17 +2561,17 @@
        <pb n="35"/> to take. I must inquire my way. <stage>(going to John)</stage> Would you be kind
        enough to tell me—</p>
      </sp>
-     <sp>
+     <sp who="#L0567_M9">
       <speaker>John.</speaker>
       <p><stage>(turning, seeing her, and retreating)</stage> Keep off! none of your Lunnon tricks,
        young 'ooman, they don't do wi'I; I've heerd of your games—you ain't a-going to hocuss I, I
        can tell' ee.</p>
      </sp>
-     <sp>
+     <sp who="#L0567_F14">
       <speaker>Joanna.</speaker>
       <p><stage>(hanging her head)</stage> Alas—alas!</p>
      </sp>
-     <sp>
+     <sp who="#L0567_M9">
       <speaker>John.</speaker>
       <p>There now—she's going to cry—somebody has told her how to come over me. <stage>(advancing
        rather fearfully)</stage> Young 'ooman, if you be's really honest, I—I—<stage>(Joanna raises
@@ -2493,29 +2579,29 @@
        face, for I never seed another like it; but it can't be—I ain't awake—it's a moral
        unposserbility.</p>
      </sp>
-     <sp>
+     <sp who="#L0567_F14">
       <speaker>Joanna.</speaker>
       <p><stage>(astonished)</stage> John Butts!</p>
      </sp>
-     <sp>
+     <sp who="#L0567_M9">
       <speaker>John.</speaker>
       <p>Miss Joanna ! Oh, oh, zooks and taters! <stage>(drops his stick and bursts out
        crying)</stage> Oh dear—oh dear! to see 'ee like this—you so good, so beautisome—it's enough
        to make anybody bad. Oh, dang it! how I should like to punch somebody's head.</p>
      </sp>
-     <sp>
+     <sp who="#L0567_F14">
       <speaker>Joanna.</speaker>
       <p>Oh, John, times are sadly changed with me.</p>
      </sp>
-     <sp>
+     <sp who="#L0567_M9">
       <speaker>John.</speaker>
       <p>I see they be, miss—and you that was such a lady —and that your uncle was so fond on.</p>
      </sp>
-     <sp>
+     <sp who="#L0567_F14">
       <speaker>Joanna.</speaker>
       <p>Oh, do not, John, in mercy do not.</p>
      </sp>
-     <sp>
+     <sp who="#L0567_M9">
       <speaker>John.</speaker>
       <p>Well, I won't; <stage>(wiping his eyes)</stage> but—<stage>(breaking out)</stage>
        Ploughshares and barley seed! <stage>(dashing his hat to the ground)</stage> It's enough to
@@ -2524,12 +2610,12 @@
        gotten some more at home ; and here—here—you shall ha' grandfeather's watch—I never thought
        to part wi it, but—<stage>(lugging at chain)</stage> Domn thee, come out, will 'ee!</p>
      </sp>
-     <sp>
+     <sp who="#L0567_F14">
       <speaker>Joanna.</speaker>
       <p><stage>(forcing him to take back his money)</stage> John, I knew you always for a
        noble-hearted fellow ; but pray take back your money—I cannot—at all events, not yet.</p>
      </sp>
-     <sp>
+     <sp who="#L0567_M9">
       <speaker>John.</speaker>
       <p>Oh, yes, I understand; but if you won't have my money, I tell'ee what, Miss Joanna—you sees
        Susan Jenkins, you know her, in course. Well, we is a going to be married— she wouldn't let
@@ -2539,64 +2625,64 @@
        off for nine or ten years or so, and you shall come and live wi' me, all alone— there
        now!</p>
      </sp>
-     <sp>
+     <sp who="#L0567_F14">
       <speaker>Joanna.</speaker>
       <p>Good John—we will talk of all that hereafter. I must not loiter longer here—evening draws
        on, and I have to deliver this parcel. Will you accompany me?</p>
       <pb n="36"/>
      </sp>
-     <sp>
+     <sp who="#L0567_M9">
       <speaker>John.</speaker>
       <p>'Company you! Dang me if I ever leave you ony more. But where be's it you be's a-going to
        ?</p>
      </sp>
-     <sp>
+     <sp who="#L0567_F14">
       <speaker>Joanna.</speaker>
       <p>To Park Lane—do you know it ?</p>
      </sp>
-     <sp>
+     <sp who="#L0567_M9">
       <speaker>John.</speaker>
       <p>Lor, bless 'ee, not I! I never seed sich lanes as they ha' gotten in Lunnon—they be's all
        full o' houses.</p>
      </sp>
-     <sp>
+     <sp who="#L0567_F14">
       <speaker>Joanna.</speaker>
       <p>It is to a Lady Bedale, that I am going.</p>
      </sp>
-     <sp>
+     <sp who="#L0567_M9">
       <speaker>John.</speaker>
       <p>What, to a real, live lady ? Lor, come along then! we'll find it, never fear—and while you
        goes into the house, I'll lie down on the step o' the door, and keep a sharp look out, like
        my dog Towser does, outside his kennel.</p>
      </sp>
-     <sp>
+     <sp who="#L0567_F14">
       <speaker>Joanna.</speaker>
       <p>Come, then, my kind friend.</p>
      </sp>
-     <sp>
+     <sp who="#L0567_M9">
       <speaker>John.</speaker>
       <p>Stop, let's get my hat, and my walking stick, <stage>(picks them up)</stage> and we'll talk
        over matters by the way—for dang me if you shall be without a good home while John Butts has
        got a pound in his old leather bag.</p>
      </sp>
-     <sp>
+     <sp who="#L0567_F14">
       <speaker>Joanna.</speaker>
       <p><stage>(taking John's arm)</stage> Heaven will one day reward you for this goodness.</p>
       <stage> As they are going, arm in arm, R., Susan enters, L., carrying a large parcel before
        her—she gives a furious start—John turns and sees her.</stage>
      </sp>
-     <sp>
+     <sp who="#L0567_F17">
       <speaker>Susan.</speaker>
       <p>Oh, gracious! John—John! what does this dreadful vision mean?</p>
      </sp>
-     <sp>
+     <sp who="#L0567_M9">
       <speaker>John.</speaker>
       <p>Don't bother me now, young 'ooman, Zooks and taters! don't you see I'm 'ticlarly
        engaged.</p>
       <stage>(walks off with Joanna, R., Susan stares after them amazed —then her arms drop, and the
        large parcel falls to the ground,</stage>
      </sp>
-     <sp>
+     <sp who="#L0567_F17">
       <speaker>Susan.</speaker>
       <p>Oh, oh ! I'm very ill—I want to faint, and I can't, for I don't see a blessed soul to catch
        me ! Oh, the monster ! and next Sunday would have been the last time of asking. It's all the
@@ -2607,119 +2693,119 @@
        me—I'll— I'll—oh, oh, oh ! <stage>(crying)</stage></p>
       <stage> Enter Major Edmonds, R. </stage>
      </sp>
-     <sp>
+     <sp who="#L0567_M7">
       <speaker>Major.</speaker>
       <p>Bless my soul! what's the matter? don't, young woman—you'll distuwb the whole
        neighbourhood. <stage>(Susan bellows)</stage> Don't, I tell you—you'll be shot! People will
        think there's an unlimited number of cats in the gutter—stwike me uneasy!</p>
      </sp>
-     <sp>
+     <sp who="#L0567_F17">
       <speaker>Susan.</speaker>
       <p><stage>(looking up, and ceasing to cry)</stage> Why, bless me, it's Major Edmonds!</p>
      </sp>
-     <sp>
+     <sp who="#L0567_M7">
       <speaker>Major.</speaker>
       <p>Eh ? you know me ? <stage>(aside)</stage> One of my victims, perwhaps.
        <stage>(aloud)</stage> I am glad to find you have left off cwying.</p>
      </sp>
-     <sp>
+     <sp who="#L0567_F17">
       <speaker>Susan.</speaker>
       <p>No, I haven't, <stage>(breaks out again)</stage></p>
      </sp>
-     <sp>
+     <sp who="#L0567_M7">
       <speaker>Major.</speaker>
       <p><stage>(stopping his ears)</stage> Oh—murder! Will you be quiet, just for one moment?</p>
      </sp>
-     <sp>
+     <sp who="#L0567_F17">
       <speaker>Susan.</speaker>
       <p>Certainly! <stage>(suddenly ceasing)</stage> How is it that you are in London, Major
        Edmonds ?</p>
      </sp>
-     <sp>
+     <sp who="#L0567_M7">
       <speaker>Major.</speaker>
       <p>Business! to see Miss Lisa Selby, if I can ; I want some money from her—she is under gweat
        obligations to me.</p>
      </sp>
-     <sp>
+     <sp who="#L0567_F17">
       <speaker>Susan.</speaker>
       <p><stage>(breaking out again)</stage> Oh ! John! John!</p>
      </sp>
-     <sp>
+     <sp who="#L0567_M7">
       <speaker>Major.</speaker>
       <p>John! John! one might as well be in a dun-jon, as to hear this wow ! Will you stop for
        another moment?</p>
      </sp>
-     <sp>
+     <sp who="#L0567_F17">
       <speaker>Susan.</speaker>
       <p><stage>(suddenly ceasing)</stage> By all means.</p>
      </sp>
-     <sp>
+     <sp who="#L0567_M7">
       <speaker>Major.</speaker>
       <p>How do you happen to know me ?</p>
      </sp>
-     <sp>
+     <sp who="#L0567_F17">
       <speaker>Susan.</speaker>
       <p>I was servant at Cleveland Hall, when you used to come there.</p>
      </sp>
-     <sp>
+     <sp who="#L0567_M7">
       <speaker>Major.</speaker>
       <p>Oh, indeed! You are a pwetty girl, will you take a small walk with me, my love ?</p>
      </sp>
-     <sp>
+     <sp who="#L0567_F17">
       <speaker>Susan.</speaker>
       <p><stage>(bursting out again)</stage> No, no, never, certainly not, no, no, no !
        <stage>(suddenly ceasing, and taking his arm)</stage> Yes, I will!</p>
      </sp>
-     <sp>
+     <sp who="#L0567_M7">
       <speaker>Major.</speaker>
       <p>That's wight, a—hem! 'pon my soul, I am ashamed to ask, but, pecuniawy disappointments—hem!
        could you lend me half a cwown?</p>
      </sp>
-     <sp>
+     <sp who="#L0567_F17">
       <speaker>Susan.</speaker>
       <p><stage>(producing her purse)</stage> With pleasure, Major.</p>
      </sp>
-     <sp>
+     <sp who="#L0567_M7">
       <speaker>Major.</speaker>
       <p><stage>(aside)</stage> All wight! catch a weazel asleep, and— <stage>(she gives him half a
        crown)</stage> Thank you my angel! <stage>(aside)</stage> I'll make a little love to her, and
        then borwow another.</p>
      </sp>
-     <sp>
+     <sp who="#L0567_F17">
       <speaker>Susan.</speaker>
       <p>Would you have the goodness, Major, to carry that small parcel for me ?</p>
      </sp>
-     <sp>
+     <sp who="#L0567_M7">
       <speaker>Major.</speaker>
       <p>Small parcel! hem! <stage>(lifts it from ground)</stage> Ah! well, one comfort it isn't
        heavy, <stage>(puts it under his arm)</stage></p>
      </sp>
-     <sp>
+     <sp who="#L0567_F17">
       <speaker>Susan.</speaker>
       <p>Oh! <stage>(with a half scream)</stage> don't do that, Major. By the bye, people say you
        are not a Major!</p>
      </sp>
-     <sp>
+     <sp who="#L0567_M7">
       <speaker>Major.</speaker>
       <p>Do they ? ha, ha! malice, my love, malice—catch a weazel asleep, you know.</p>
      </sp>
-     <sp>
+     <sp who="#L0567_F17">
       <speaker>Susan.</speaker>
       <p>Oh, dear, you have crushed it quite flat, you must carry it gently ; hold your arm up,
        there, <stage>(lying dress across his arms)</stage> There, <stage>(taking his arm)</stage>
        that's the way you must carry it—it is so nicely cut out.</p>
      </sp>
-     <sp>
+     <sp who="#L0567_M7">
       <speaker>Major.</speaker>
       <p><stage>(aside)</stage> And a pwetty figure I shall cut—never mind, there's another half
        cwown or two, on the woad.</p>
      </sp>
-     <sp>
+     <sp who="#L0567_F17">
       <speaker>Susan.</speaker>
       <p>It's a new dress—I bought it to—to—because, Jo— Jo—John— <stage>(roaring loudly)</stage>
        oh, oh !</p>
      </sp>
-     <sp>
+     <sp who="#L0567_M7">
       <speaker>Major.</speaker>
       <p>Oh! dem it! she's bweaking out in a fwesh place.</p>
      </sp>
@@ -2731,7 +2817,7 @@
       consoles, vases, &amp;c.</stage>
      <stage> Lisa, in elegant evening dress, discovered at table, her face buried in her
       hands—Music—after a pause, she looks up.</stage>
-     <sp>
+     <sp who="#L0567_F13">
       <speaker>Lisa.</speaker>
       <p>I have attained the wealth and splendour for which I pined, but am I happy ? No!
        Joanna—where'er thou art, whatever thy wretchedness—more tranquilly dost thou sleep than she
@@ -2746,56 +2832,56 @@
        take, 1 dread the avalanche that would overwhelm me.</p>
       <stage> Enter Lady Bedale, R., handsomely dressed. </stage>
      </sp>
-     <sp>
+     <sp who="#L0567_F12">
       <speaker>Lady B.</speaker>
       <p>My love, there is a shabby looking man—the servants can't get rid of him—he insists on
        seeing you—says his name is Croker.</p>
      </sp>
-     <sp>
+     <sp who="#L0567_F13">
       <speaker>Lisa.</speaker>
       <p><stage>(starting)</stage> Ah !</p>
      </sp>
-     <sp>
+     <sp who="#L0567_F12">
       <speaker>Lady B.</speaker>
       <p>Croker! what a horrid name! I shall make him go—for of course we don't want a croker
        here.</p>
      </sp>
-     <sp>
+     <sp who="#L0567_F13">
       <speaker>Lisa.</speaker>
       <p>No, no, Lady Bedale, I will see him—I—</p>
      </sp>
-     <sp>
+     <sp who="#L0567_F12">
       <speaker>Lady B.</speaker>
       <p>My dear, you are agitated! Who then, is this Croker?</p>
      </sp>
-     <sp>
+     <sp who="#L0567_F13">
       <speaker>Lisa.</speaker>
       <p>Lady Bedale, you have promised that you would not be curious—that you would not seek to pry
        into the mystery which I have freely confessed surrounds me.</p>
      </sp>
-     <sp>
+     <sp who="#L0567_F12">
       <speaker>Lady B.</speaker>
       <p>Very true, my love ; your wealth has restored me to the society from which I thought myself
        for ever banished— and, certainly, no scruples of mine—but this man — this Croker?</p>
       <stage> Enter Croker, R. </stage>
      </sp>
-     <sp>
+     <sp who="#L0567_M6">
       <speaker>Croker.</speaker>
       <p>That's me—I'm Croker—" Crowbar Croker," they call me. I'm an honest lawyer—ugh, ah—bow-wow,
        ugh ! what do you think of that? <stage>(crosses, c.)</stage> Miss Selby—ah, um! —must speak
        to you—old lady, go away !</p>
      </sp>
-     <sp>
+     <sp who="#L0567_F12">
       <speaker>Lady B.</speaker>
       <p>Old lady !</p>
       <pb n="39"/>
      </sp>
-     <sp>
+     <sp who="#L0567_M6">
       <speaker>Croker.</speaker>
       <p>Venerable, but not respectable—eugh, ah, bowwow—get out! eugh!</p>
       <stage> Lady Bedale flounces off, R.—Lisa sinks into chair, h.</stage>
      </sp>
-     <sp>
+     <sp who="#L0567_M6">
       <speaker>Croker.</speaker>
       <p>Ah, um! ain't you well? Look here! <stage>(holding letter)</stage> My client, Sir John
        Cleveland, has written to me—um —thinks that you are at my house—that I am helping you to
@@ -2805,48 +2891,48 @@
        about his lost lamb; but I know that Lady Bedale is an old cat—eugh! um! bow-wow! eugh !
        <stage>(wheezing)</stage></p>
      </sp>
-     <sp>
+     <sp who="#L0567_F13">
       <speaker>Lisa.</speaker>
       <p><stage>(rising, greatly agitated—aside)</stage> Oh! the ruin that I dreaded is
        approaching—how to avert it?</p>
      </sp>
-     <sp>
+     <sp who="#L0567_M6">
       <speaker>Croker.</speaker>
       <p>Well! um! ah ! don't talk to yourself, talk to me, eugh ! um ! bow-wow ! eugh !
        <stage>(coughing and wheezing)</stage></p>
      </sp>
-     <sp>
+     <sp who="#L0567_F13">
       <speaker>Lisa.</speaker>
       <p>Mr. Croker, to-morrow at two o'clock I will be at your office, and—and—will arrange this
        affair with you, and, if you—if you would condescend to be my solicitor, and—and to accept of
        a fee of a thousand guineas for—</p>
      </sp>
-     <sp>
+     <sp who="#L0567_M6">
       <speaker>Croker.</speaker>
       <p>Bribery! Ah! um! Was sure there was something wrong—won't do—</p>
      </sp>
-     <sp>
+     <sp who="#L0567_F13">
       <speaker>Lisa.</speaker>
       <p>Two thousand !</p>
      </sp>
-     <sp>
+     <sp who="#L0567_M6">
       <speaker>Croker.</speaker>
       <p>Oh! ee eugh !</p>
      </sp>
-     <sp>
+     <sp who="#L0567_F13">
       <speaker>Lisa.</speaker>
       <p>Four thousand!</p>
      </sp>
-     <sp>
+     <sp who="#L0567_M6">
       <speaker>Croker.</speaker>
       <p>You want to know my price ; for what sum I will betray, in some gross way, my old client,
        Sir John Cleveland ? Oh, um—go to the devil! Ah, eugh, bow-wow!</p>
      </sp>
-     <sp>
+     <sp who="#L0567_F13">
       <speaker>Lisa.</speaker>
       <p>But you will wait till two to-morrow ?</p>
      </sp>
-     <sp>
+     <sp who="#L0567_M6">
       <speaker>Croker.</speaker>
       <p>Yes; that won't make much difference—but I must know then, the game you are playing, or I
        shall be sure to find you out, and then so much the worse for you; you may wriggle and twist,
@@ -2857,48 +2943,48 @@
        <stage>(looking at Lady Bedale)</stage> Ah, eugh—pussy cat! Bow-wow, eugh! <stage>Exit, R.
        </stage></p>
      </sp>
-     <sp>
+     <sp who="#L0567_F12">
       <speaker>Lady B.</speaker>
       <p>The old hog! eugh! My dear, the visit of that savage has disturbed you—you look ill.</p>
      </sp>
-     <sp>
+     <sp who="#L0567_F13">
       <speaker>Lisa.</speaker>
       <p><stage>(with affected composure)</stage> Oh! no, he merely called on a little business
        that—</p>
      </sp>
-     <sp>
+     <sp who="#L0567_F12">
       <speaker>Lady B.</speaker>
       <p><stage>(aside)</stage> That's false, I know. But never mind, she has still about two
        hundred thousand pounds at her bankers.</p>
       <pb n="40"/>
      </sp>
-     <sp>
+     <sp who="#L0567_F13">
       <speaker>Lisa.</speaker>
       <p><stage>(severely)</stage> Why did you return, Lady Bedale, when you knew that I was not
        alone ?</p>
      </sp>
-     <sp>
+     <sp who="#L0567_F12">
       <speaker>Lady B.</speaker>
       <p>I really thought that horrid Croker was gone. <stage>(aside)</stage> That's a thumper!
        <stage>(aloud)</stage> I came to tell you that a young person is here from Madame Arundelli's
        with the patterns of the lace that— <stage>(pointedly)</stage> but perhaps you are too
        troubled now to bother about such trifles ?</p>
      </sp>
-     <sp>
+     <sp who="#L0567_F13">
       <speaker>Lisa.</speaker>
       <p><stage>(with an effort)</stage> Troubled? certainly not, wherefore? let her come in.</p>
       <stage>Music. —Joanna enters R., crosses to a, curtseys to Lisa, who, at that moment, turns
        towards Joanna, their eyes meet— Chord—Joanna drops parcel.</stage>
      </sp>
-     <sp>
+     <sp who="#L0567_F14">
       <speaker>Joanna.</speaker>
       <p><stage>(joyfully)</stage> Lisa!</p>
      </sp>
-     <sp>
+     <sp who="#L0567_F13">
       <speaker>Lisa.</speaker>
       <p><stage>(aside—greatly agitated)</stage> Joanna!</p>
      </sp>
-     <sp>
+     <sp who="#L0567_F14">
       <speaker>Joanna.</speaker>
       <p>Lisa ! dear Lisa! my cousin ! companion of my childhood—dear friend of my girlish days—oh !
        how is it that I see you here, surrounded with so much splendour? Oh ! tell me, is he well—my
@@ -2906,252 +2992,252 @@
        distress? Oh, Lisa ! Lisa ! in mercy speak to me.</p>
       <p><stage>(Lady Bedale is staring in astonishment, n.</stage></p>
      </sp>
-     <sp>
+     <sp who="#L0567_F13">
       <speaker>Lisa.</speaker>
       <p><stage>(coldly)</stage> Lady Bedale, is this young person a lunatic ?</p>
      </sp>
-     <sp>
+     <sp who="#L0567_F12">
       <speaker>Lady B.</speaker>
       <p>Eh! well—yes—I should'nt at all wonder !</p>
      </sp>
-     <sp>
+     <sp who="#L0567_F14">
       <speaker>Joanna.</speaker>
       <p>Lisa, can this be? Do you not know me?</p>
      </sp>
-     <sp>
+     <sp who="#L0567_F13">
       <speaker>Lisa.</speaker>
       <p>I never saw you in my life before.</p>
      </sp>
-     <sp>
+     <sp who="#L0567_F14">
       <speaker>Joanna.</speaker>
       <p><stage>(shrinking back)</stage> Oh! say not that! surely you are Lisa. The look—the tone!
        Oh, Lisa ! you are jesting with me. Say that you are—speak, dear Lisa, oh! speak to me.</p>
      </sp>
-     <sp>
+     <sp who="#L0567_F13">
       <speaker>Lisa.</speaker>
       <p>Begone ! I know you not!</p>
      </sp>
-     <sp>
+     <sp who="#L0567_F14">
       <speaker>Joanna.</speaker>
       <p>Good Heavens! <stage>(turning to Lady Bedale)</stage> Oh, tell me—is not the name of this
        young lady, Selby ?</p>
      </sp>
-     <sp>
+     <sp who="#L0567_F12">
       <speaker>Lady B.</speaker>
       <p>Ye—</p>
      </sp>
-     <sp>
+     <sp who="#L0567_F13">
       <speaker>Lisa.</speaker>
       <p><stage>(loudly, and with a stem glance at Lady Bedale.)</stage> No !</p>
      </sp>
-     <sp>
+     <sp who="#L0567_F14">
       <speaker>Joanna.</speaker>
       <p>Not! then sight and mind are surely failing me. Oh ! Heaven help and protect me.</p>
       <stage>Music —Joanna gazes searchingly into the face of Lisa, who returns the look with one of
        cold severity—Joanna shudders and staggers off, R., Lisa sinks into chair.</stage>
      </sp>
-     <sp>
+     <sp who="#L0567_F12">
       <speaker>Lady B.</speaker>
       <p><stage>(picking up parcel, and placing it on table)</stage> There is something very
        mysterious in all this, for that young woman was as sensible as I am, and of course your name
        is Selby—</p>
      </sp>
-     <sp>
+     <sp who="#L0567_F13">
       <speaker>Lisa.</speaker>
       <p><stage>(rising)</stage> Lady Bedale, I will soon make you my confidant—will tell you all;
        and now leave me, leave me, for I have need to reflect—ay, and to act.</p>
      </sp>
-     <sp>
+     <sp who="#L0567_F12">
       <speaker>Lady B.</speaker>
       <p>Very well, my love, <stage>(aside)</stage> There will be a smash and a crash, soon ; I am
        sure of that. I am sadly afraid her great heap of money was not honestly come by; and— But
        <pb n="41"/>never mind, I have saved something worth while, thank goodness! <stage>Exit,
        L.</stage></p>
      </sp>
-     <sp>
+     <sp who="#L0567_F13">
       <speaker>Lisa.</speaker>
       <p>Monti! he only can save me now. I must instantly seek him—</p>
       <stage> Enter Monti, R.—chord. </stage>
      </sp>
-     <sp>
+     <sp who="#L0567_M5">
       <speaker>Monti.</speaker>
       <p>You need not, Lisa, he is here. You are agitated— you tremble—wherefore? You have no cause
        for fear.</p>
      </sp>
-     <sp>
+     <sp who="#L0567_F13">
       <speaker>Lisa.</speaker>
       <p>Not ? ruin surrounds me every way, and only you can rescue me.</p>
      </sp>
-     <sp>
+     <sp who="#L0567_M5">
       <speaker>Monti.</speaker>
       <p>And I will do so. Joanna has been here.</p>
      </sp>
-     <sp>
+     <sp who="#L0567_F13">
       <speaker>Lisa.</speaker>
       <p>Ah! you know?</p>
      </sp>
-     <sp>
+     <sp who="#L0567_M5">
       <speaker>Monti.</speaker>
       <p>Yes; know too, that ere long she will be beyond the power of doing you harm—will cross your
        path no more.</p>
      </sp>
-     <sp>
+     <sp who="#L0567_F13">
       <speaker>Lisa.</speaker>
       <p>You will not slaughter— Oh ! I am not yet prepared for that.</p>
      </sp>
-     <sp>
+     <sp who="#L0567_M5">
       <speaker>Monti.</speaker>
       <p>Fear not, her life is safe.</p>
      </sp>
-     <sp>
+     <sp who="#L0567_F13">
       <speaker>Lisa.</speaker>
       <p>Thanks for that; but I have more to tell—</p>
      </sp>
-     <sp>
+     <sp who="#L0567_M5">
       <speaker>Monti.</speaker>
       <p>I know that you would say. Croker has been here—you have never delivered your letter of
        introduction; and Sir John has written to him, making inquiries, and announcing his intention
        of being in London within a few days.</p>
      </sp>
-     <sp>
+     <sp who="#L0567_F13">
       <speaker>Lisa.</speaker>
       <p>Yes, yes; how could you know all this ?</p>
      </sp>
-     <sp>
+     <sp who="#L0567_M5">
       <speaker>Monti.</speaker>
       <p>Nothing can escape me.</p>
      </sp>
-     <sp>
+     <sp who="#L0567_F13">
       <speaker>Lisa.</speaker>
       <p>Yes, yes ! you are powerful, and you will save me.</p>
      </sp>
-     <sp>
+     <sp who="#L0567_M5">
       <speaker>Monti.</speaker>
       <p>I will! <stage>(she clasps her hands joyfully)</stage> Desperate perils must be encountered
        by desperate means. Croker must be silenced.</p>
      </sp>
-     <sp>
+     <sp who="#L0567_F13">
       <speaker>Lisa.</speaker>
       <p>Ah, yes! offer him any sum. <stage>(he smiles)</stage> But Sir John—should he arrive in
        London!</p>
      </sp>
-     <sp>
+     <sp who="#L0567_M5">
       <speaker>Monti.</speaker>
       <p>He will not!</p>
      </sp>
-     <sp>
+     <sp who="#L0567_F13">
       <speaker>Lisa.</speaker>
       <p>How?</p>
      </sp>
-     <sp>
+     <sp who="#L0567_M5">
       <speaker>Monti.</speaker>
       <p>He must be stopped.</p>
      </sp>
-     <sp>
+     <sp who="#L0567_F13">
       <speaker>Lisa.</speaker>
       <p>Stopped ! you do not mean—</p>
      </sp>
-     <sp>
+     <sp who="#L0567_M5">
       <speaker>Monti.</speaker>
       <p>Murder him! Well, to save you, I may even commit a murder, since I have already plunged
        into forgery on your account.</p>
      </sp>
-     <sp>
+     <sp who="#L0567_F13">
       <speaker>Lisa.</speaker>
       <p>Ah!</p>
      </sp>
-     <sp>
+     <sp who="#L0567_M5">
       <speaker>Monti.</speaker>
       <p>Yes, the bankers wrote to inform Sir John of your heavy drafts on his account—I, no matter
        how, contrived to intercept that letter.</p>
      </sp>
-     <sp>
+     <sp who="#L0567_F13">
       <speaker>Lisa.</speaker>
       <p>You did!</p>
      </sp>
-     <sp>
+     <sp who="#L0567_M5">
       <speaker>Monti.</speaker>
       <p>Ay ; and returned one, seemingly written by Sir John, which assured the bankers that all
        was well, and bade them yield to you that you all should command.</p>
      </sp>
-     <sp>
+     <sp who="#L0567_F13">
       <speaker>Lisa.</speaker>
       <p>Already then, you have saved me from destruction ?</p>
       <pb n="42"/>
      </sp>
-     <sp>
+     <sp who="#L0567_M5">
       <speaker>Monti.</speaker>
       <p>And will again. Go on, and fear not. Your star has not yet culminated—you are, as yet, but
        entering on your glorious career!</p>
      </sp>
-     <sp>
+     <sp who="#L0567_F13">
       <speaker>Lisa.</speaker>
       <p>Oh, that I were but assured of that!</p>
      </sp>
-     <sp>
+     <sp who="#L0567_M5">
       <speaker>Monti.</speaker>
       <p>You may be. Confide in me—hitherto have I in aught failed you?</p>
      </sp>
-     <sp>
+     <sp who="#L0567_F13">
       <speaker>Lisa.</speaker>
       <p>No, oh, no ! but—but for all this, you will require something more of me ?</p>
      </sp>
-     <sp>
+     <sp who="#L0567_M5">
       <speaker>Monti.</speaker>
       <p>Yes, Lisa, yes—we serve, and are useful to each other.</p>
      </sp>
-     <sp>
+     <sp who="#L0567_F13">
       <speaker>Lisa.</speaker>
       <p>Is it more money? Be moderate, Monti, the sum at my disposal, were it ten times the amount,
        would soon vanish before such drafts as you make upon it. You have already had seventy
        thousand.</p>
      </sp>
-     <sp>
+     <sp who="#L0567_M5">
       <speaker>Monti.</speaker>
       <p>Not my fair proportion. But, at present I shall not ask you for more money, but jewels—for
        four and twenty hours, as was our compact. You do not procure them fast enough. You have
        opportunities for obtaining the most priceless in the land.</p>
      </sp>
-     <sp>
+     <sp who="#L0567_F13">
       <speaker>Lisa.</speaker>
       <p>I borrow, where'er 'tis possible—</p>
      </sp>
-     <sp>
+     <sp who="#L0567_M5">
       <speaker>Monti.</speaker>
       <p>But you neglect the chances where you might borrow without the consent of the owner, and
        replace again—and none be a whit the wiser.</p>
      </sp>
-     <sp>
+     <sp who="#L0567_F13">
       <speaker>Lisa.</speaker>
       <p>I cannot, and I will not do that—I will not, as I have told you, become a common thief.</p>
      </sp>
-     <sp>
+     <sp who="#L0567_M5">
       <speaker>Monti.</speaker>
       <p><stage>(with a sneering laugh) </stage>And yet you have robbed of a large sum, your loving,
        doting, foolish old uncle.</p>
      </sp>
-     <sp>
+     <sp who="#L0567_F13">
       <speaker>Lisa.</speaker>
       <p>Robbed!</p>
      </sp>
-     <sp>
+     <sp who="#L0567_M5">
       <speaker>Monti.</speaker>
       <p>Oh! I beg pardon—appropriated is a genteeler word! Do my bidding Lisa, or, in an instant,
        and in the height of your glory, stricken with disgrace—crushed with infamy—you will shriek
        and grovel at my feet.</p>
      </sp>
-     <sp>
+     <sp who="#L0567_F13">
       <speaker>Lisa.</speaker>
       <p>Mercy! do not—I shudder in every limb—I will obey you in everything.</p>
      </sp>
-     <sp>
+     <sp who="#L0567_M5">
       <speaker>Monti.</speaker>
       <p>Then you are safe; but, remember, that at every moment of your life, you stand upon the
        brink of an abyss; and that you will surely topple over, whenever it shall please me to
        withdraw my protecting arm. Forget not that, and so, farewell! <stage>Music—Exit,
        R.</stage></p>
      </sp>
-     <sp>
+     <sp who="#L0567_F13">
       <speaker>Lisa.</speaker>
       <p>Yes, I am in his power, and must obey his behests; and he, alone, can save me. Oh ! I hate
        him with an intensity that knows no bounds. But vainly do I groan—vainly do I writhe and
@@ -3164,7 +3250,7 @@
     <div type="scene">
      <stage> SCENE FIFTH.—Street—Night,(2nd grooves)</stage>
      <stage> Music— John Butts hurries on, R.—and looks every way.</stage>
-     <sp>
+     <sp who="#L0567_M9">
       <speaker>John.</speaker>
       <p>Oh! zooks and taters ! gone—gone—can't find her nowheres. What a marcy it would be if
        somebody would come and kill me—I desarves it. What will Miss Joanna think of me, arter all
@@ -3183,56 +3269,56 @@
        Joanna! Miss Joanua ! oh lud! oh lud !<stage> Runs off, L.</stage></p>
       <stage> Enter Duke Endell, R. </stage>
      </sp>
-     <sp>
+     <sp who="#L0567_M1">
       <speaker>Duke.</speaker>
       <p>'Tis clear she has escaped me—yet how? she has not passed this way on her return—of that
        I'm certain.</p>
       <stage>Monti has entered, R. 2 E., and advanced to the Duke's side.</stage>
      </sp>
-     <sp>
+     <sp who="#L0567_M5">
       <speaker>Monti.</speaker>
       <p>The girl for whom you wait will presently be here ; and I, and only I can place her
        securely in your power.</p>
      </sp>
-     <sp>
+     <sp who="#L0567_M1">
       <speaker>Duke.</speaker>
       <p>Ah! how know you—?</p>
      </sp>
-     <sp>
+     <sp who="#L0567_M5">
       <speaker>Monti.</speaker>
       <p>No matter! her friends would richly reward him who would bring her back to their arms.</p>
      </sp>
-     <sp>
+     <sp who="#L0567_M1">
       <speaker>Duke.</speaker>
       <p>That must not be. I, too, can reward.</p>
      </sp>
-     <sp>
+     <sp who="#L0567_M5">
       <speaker>Monti.</speaker>
       <p>I know it. I have an interest in keeping the girl from her home—I have an influence over
        her. Agree to my terms, and she is yours—refuse, and she is lost to you for ever.</p>
      </sp>
-     <sp>
+     <sp who="#L0567_M1">
       <speaker>Duke.</speaker>
       <p>And those terms—</p>
      </sp>
-     <sp>
+     <sp who="#L0567_M5">
       <speaker>Monti.</speaker>
       <p>A thousand pounds, and the immediate removal of the girl from this country.</p>
      </sp>
-     <sp>
+     <sp who="#L0567_M1">
       <speaker>Duke.</speaker>
       <p>Give her to me, and I will double the reward you ask.</p>
      </sp>
-     <sp>
+     <sp who="#L0567_M5">
       <speaker>Monti.</speaker>
       <p>And will take her, at once, from England?</p>
      </sp>
-     <sp>
+     <sp who="#L0567_M1">
       <speaker>Duke.</speaker>
       <p>Yes!</p>
       <pb n="44"/>
      </sp>
-     <sp>
+     <sp who="#L0567_M5">
       <speaker>Monti.</speaker>
       <p>You may safely trust me; I will, as I have before done, throw her into a mesmeric trance,
        and she will follow you, and will be powerless in your hands, <stage>(crosses c.)</stage> She
@@ -3241,67 +3327,67 @@
 
       <stage>Exit L. 2 E.</stage>
      </sp>
-     <sp>
+     <sp who="#L0567_M1">
       <speaker>Duke.</speaker>
       <p>Yes, I will take her abroad to sunny Italy, and she will be all my own—my own !</p>
       <stage> Enter Joanna, R. 1 E. </stage>
      </sp>
-     <sp>
+     <sp who="#L0567_F14">
       <speaker>Joanna.</speaker>
       <p>Vainly have I lingered and searched—he has not rejoined me. What can have happened?
        willingly, I am certain, John Butts would not desert me.</p>
      </sp>
-     <sp>
+     <sp who="#L0567_M1">
       <speaker>Duke.</speaker>
       <p><stage> (advancing, L.) </stage>My charming creature, do I meet you once again?</p>
      </sp>
-     <sp>
+     <sp who="#L0567_F14">
       <speaker>Joanna.</speaker>
       <p>Ah! I see it plainly now—poor John has been entrapped. Let me pass you, sir, or I will
        shriek for help.</p>
      </sp>
-     <sp>
+     <sp who="#L0567_M1">
       <speaker>Duke.</speaker>
       <p>Nay, why shrink from one who so passionately loves you?</p>
      </sp>
-     <sp>
+     <sp who="#L0567_F14">
       <speaker>Joanna.</speaker>
       <p>Villain! I will go my way. <stage>(crossing to L.)</stage></p>
      </sp>
-     <sp>
+     <sp who="#L0567_M1">
       <speaker>Duke.</speaker>
       <p><stage> (grasping her)</stage> No! by Heaven, you shall not again escape me.</p>
      </sp>
-     <sp>
+     <sp who="#L0567_F14">
       <speaker>Joanna.</speaker>
       <p>Help! help! <stage>(Music—they struggle)</stage> Will no friendly hand be raised to protect
        me ?</p>
       <p><stage>John Butts runs on, L.2.E., and knocks the Duke down with cudgel.</stage></p>
      </sp>
-     <sp>
+     <sp who="#L0567_M9">
       <speaker>John.</speaker>
       <p><stage>(looking down at him)</stage> There! now you'll keep your paws off another time,
        won't you ? Dang it! how his head has bruised my stick, surely. Lord, my dear, I be's so glad
        to see 'ee again, <stage>(hugs her, and then shrinks back abashed)</stage> I axes pardon!
        don't 'ee be afeared, miss—I be's an innocent chap, I assure 'ee.</p>
      </sp>
-     <sp>
+     <sp who="#L0567_M1">
       <speaker>Duke.</speaker>
       <p><stage>(rising)</stage> Villain! this attack upon my life shall not go unpunished,
        <stage>(seizing John)</stage> Police! police !</p>
      </sp>
-     <sp>
+     <sp who="#L0567_M9">
       <speaker>John.</speaker>
       <p>Don't 'ee stir a single step, miss, from where 'ee be— I'll soon get rid of this fellow!
        Let go, you' sir, do 'e hear ? Let go, or dommed if I don't gi' 'ee another topper.</p>
      </sp>
-     <sp>
+     <sp who="#L0567_M1">
       <speaker>Duke.</speaker>
       <p><stage>(shouting)</stage> Police! police!</p>
       <p><stage>(music—They struggle, and Duke drags John off, R. 1 E.</stage></p>
       <stage> Enter Monti, L. 2 E., and crosses at back to R. </stage>
      </sp>
-     <sp>
+     <sp who="#L0567_F14">
       <speaker>Joanna.</speaker>
       <p>Oh, Heaven! should he come to harm on my account—at any risk, I will not desert him.
        <stage> (Music—Going, R. —she encounters Monti, and shrinks back alarmed—he looks
@@ -3311,21 +3397,21 @@
        stage) after two or three passes, Joanno's head droops—he walks round her and remains,
        L.</stage>
      </sp>
-     <sp>
+     <sp who="#L0567_M5">
       <speaker>Monti.</speaker>
       <p>Joanna, I <hi> will</hi> that you should follow me!</p>
      </sp>
-     <sp>
+     <sp who="#L0567_F14">
       <speaker>Joanna.</speaker>
       <p><stage>(in a trance)</stage> I must—I must!</p>
      </sp>
-     <sp>
+     <sp who="#L0567_M5">
       <speaker>Monti.</speaker>
       <p>Come, then, come !</p>
       <stage> Monti backs off, L., waving his hands, and Joanna slowly follows him—Music
        agitato—John Butts runs on, R. U. E. </stage>
      </sp>
-     <sp>
+     <sp who="#L0567_M9">
       <speaker>John.</speaker>
       <p><stage>(looking about)</stage> Gone again ! Oh, zooks and taters! this be too much. I
        knocked that chap down again, and bolted from the purlice, and now—but she must be gone that
@@ -3333,16 +3419,16 @@
        'ee ?</p>
       <stage> Running off, L. 1 E.—Susan meets him,</stage>
      </sp>
-     <sp>
+     <sp who="#L0567_F17">
       <speaker>Susan.</speaker>
       <p>Oh, John! my dear John !</p>
      </sp>
-     <sp>
+     <sp who="#L0567_M9">
       <speaker>John.</speaker>
       <p>Dom thee ! stand out of the way!</p>
       <stage> Pushes her on one side and runs off, L. 1 E.</stage>
      </sp>
-     <sp>
+     <sp who="#L0567_F17">
       <speaker>Susan.</speaker>
       <p>Oh! oh! the villain! But I see it now—the sights of London have turned his brain. As sure
        as can be, he's got a fit of lunacy. Nice job I have done for myself in bringing him here—to
@@ -3352,87 +3438,87 @@
        of mind to call murder.</p>
       <stage> Enter Major Edmunds, L.,whistling—stops suddenly on seeing Susan. </stage>
      </sp>
-     <sp>
+     <sp who="#L0567_M7">
       <speaker>Major.</speaker>
       <p>Hem! Unpleasant meeting!—awkward—vewy ! Never mind—catch a weazel asleep and shave his
        eyebrows.</p>
      </sp>
-     <sp>
+     <sp who="#L0567_F17">
       <speaker>Susan.</speaker>
       <p><stage>(who has been gasping)</stage> I couldn't speak before, or else I would; you rascal!
        swindler ! Where is my dress?</p>
      </sp>
-     <sp>
+     <sp who="#L0567_M7">
       <speaker>Major.</speaker>
       <p>Don't be uneasy, my love, it is quite safe.</p>
      </sp>
-     <sp>
+     <sp who="#L0567_F17">
       <speaker>Susan.</speaker>
       <p>Oh, thank goodness for that! But where is it ?</p>
      </sp>
-     <sp>
+     <sp who="#L0567_M7">
       <speaker>Major.</speaker>
       <p>Where ? oh! hem ! Why—it's with my uncle.</p>
      </sp>
-     <sp>
+     <sp who="#L0567_F17">
       <speaker>Susan.</speaker>
       <p><stage>(starting)</stage> Your uncle ! You don't mean the—the—</p>
      </sp>
-     <sp>
+     <sp who="#L0567_M7">
       <speaker>Major.</speaker>
       <p>Yes I do ! My necessities dwove me to the deed. You refused to lend me another
        half-a-cwown, and so the new dwess went up for seven and six.</p>
      </sp>
-     <sp>
+     <sp who="#L0567_F17">
       <speaker>Susan.</speaker>
       <p>And it cost me one pound eleven ! Oh, you villain ! I'll lock you up!</p>
      </sp>
-     <sp>
+     <sp who="#L0567_M7">
       <speaker>Major.</speaker>
       <p>No you won't—for to pwove to you that I intend to behave handsomely in the matter—there's
        the ticket. Stwike me liberal! <stage>(giving it)</stage></p>
      </sp>
-     <sp>
+     <sp who="#L0567_F17">
       <speaker>Susan.</speaker>
       <p>Oh, you vagabond! you—</p>
       <pb n="46"/>
      </sp>
-     <sp>
+     <sp who="#L0567_M7">
       <speaker>Major.</speaker>
       <p><stage>(looking off, R.)</stage> Oh, Lord! here's the police! Catch a weazel asleep—and
        stwike me particularly scarce!</p>
       <stage> Runs off, L.</stage>
      </sp>
-     <sp>
+     <sp who="#L0567_F17">
       <speaker>Susan.</speaker>
       <p>Why, he's gone ! Ah! ah! ah! <stage>(screaming violently)</stage></p>
       <stage> Enter Two Policemen, R. </stage>
      </sp>
-     <sp>
+     <sp who="#L0567_M11">
       <speaker>1st. Policeman.</speaker>
       <p>Come, I say, you gal, don't make that row.</p>
      </sp>
-     <sp>
+     <sp who="#L0567_F17">
       <speaker>Susan.</speaker>
       <p>There he goes ! Ah ! <stage>(screams)</stage></p>
      </sp>
-     <sp>
+     <sp who="#L0567_M11">
       <speaker>1st. Policeman.</speaker>
       <p>Oh, I see, you're drunk again.</p>
      </sp>
-     <sp>
+     <sp who="#L0567_M11">
       <speaker>2nd Policeman..</speaker>
       <p>Lock her up once more.</p>
      </sp>
-     <sp>
+     <sp who="#L0567_F17">
       <speaker>Susan.</speaker>
       <p>There he goes ! <stage>(screams)</stage></p>
      </sp>
-     <sp>
+     <sp who="#L0567_M11">
       <speaker>1st. Policeman.</speaker>
       <p>Policeman. Yes, and here <hi>you</hi> go—to the station house.</p>
      </sp>
-     <sp>
+     <sp who="#L0567_F17">
       <speaker>Susan.</speaker>
       <p>I won't go—I won't—ah! John—John— ah ! ah!</p>
      </sp>
@@ -3442,7 +3528,7 @@
      <stage type="setting"> SCENE SIXTH.— Willesden Lane. </stage>
      <stage type="setting">Moonlight.  Music. Monti discovered, C, his arms folded a heavy riding
       whip in his hand.</stage>
-     <sp>
+     <sp who="#L0567_M5">
       <speaker>Monti.</speaker>
       <p>'Tis down this lane that every night Croker, after having left the omnibus, walks to his
        home. The friend who each evening leaves town with him, branches off to his own home at
@@ -3453,15 +3539,15 @@
        not do, where there is so much at stake. Lisa's fortune, and consequently mine, must not thus
        be blasted, <stage>(listening R.)</stage> Hark ! what was that ?</p>
      </sp>
-     <sp>
+     <sp who="#L0567_M11">
       <speaker>Voice.</speaker>
       <p><stage>(without, as if at some distance)</stage> Good night, my friend!</p>
      </sp>
-     <sp>
+     <sp who="#L0567_M6">
       <speaker>Croker.</speaker>
       <p><stage>(without)</stage> Ah, eugh, good night! Bow-wow, eugh!</p>
      </sp>
-     <sp>
+     <sp who="#L0567_M5">
       <speaker>Monti.</speaker>
       <p>Tis he! He comes—he comes—it may be, never to depart alive!</p>
       <stage>Music—Monti walks steadily up stage, and takes his stand, C, as before—after a
@@ -3470,58 +3556,58 @@
        and walks leisurely up stage, his head down, as if in thought, till he arrives at the spot
        where Monti is standing.</stage>
      </sp>
-     <sp>
+     <sp who="#L0567_M5">
       <speaker>Monti.</speaker>
       <p>Delighted to see you, Mr. Croker!</p>
       <pb n="47"/>
      </sp>
-     <sp>
+     <sp who="#L0567_M6">
       <speaker>Croker.</speaker>
       <p><stage>(looks up and starts)</stage> Eh? eugh, bow-wow ! I don't know yoU.</p>
      </sp>
-     <sp>
+     <sp who="#L0567_M5">
       <speaker>Monti.</speaker>
       <p>Mr. Croker, I wish to speak to you on some business of much importance to yourself and
        others. I am a neighbour of yours, and have walked down the lane in the hope of meeting
        yoU.</p>
      </sp>
-     <sp>
+     <sp who="#L0567_M6">
       <speaker>Croker.</speaker>
       <p>Then you may walk back again—I never speak of business out of office.</p>
      </sp>
-     <sp>
+     <sp who="#L0567_M5">
       <speaker>Monti.</speaker>
       <p>Consent to become the man of business to Miss Selby, and name you terms.</p>
      </sp>
-     <sp>
+     <sp who="#L0567_M6">
       <speaker>Croker.</speaker>
       <p>Oh! that's it, is it ? Hang me if I didn't think so. Ha, ha, heugh! Bow-wow! eugh You only
        waste your own time and mine too—get out of my way !</p>
      </sp>
-     <sp>
+     <sp who="#L0567_M5">
       <speaker>Monti.</speaker>
       <p>Not yet—you must listen to me.</p>
      </sp>
-     <sp>
+     <sp who="#L0567_M6">
       <speaker>Croker.</speaker>
       <p>Eh, what? Eugh, bow-wow! You don't mean to obstruct me, do you ? That is an assault, sir, I
        can tell you, if you don't know it, an assault in law, sir!</p>
      </sp>
-     <sp>
+     <sp who="#L0567_M5">
       <speaker>Monti.</speaker>
       <p>I do know it. I tell you, Mr Croker, that by fair means or foul, you shall be stopped from
        writing to Sir John Cleveland tomorrow. You may make your fortune by abstaining—as a
        reasonable man would do—you may lose your life by your obstinacy.</p>
      </sp>
-     <sp>
+     <sp who="#L0567_M6">
       <speaker>Croker.</speaker>
       <p>My life!</p>
      </sp>
-     <sp>
+     <sp who="#L0567_M5">
       <speaker>Monti.</speaker>
       <p>Yes, your pitiful life !</p>
      </sp>
-     <sp>
+     <sp who="#L0567_M6">
       <speaker>Croker.</speaker>
       <p>Help ! mur—</p>
      </sp>
@@ -3534,62 +3620,62 @@
     <div type="scene">
      <stage> SCENE SEVENTH.—Handsome Chamber. (1st grooves.)</stage>
      <stage> Enter Lady Bedale, Sir John Cleveland, and Dr. Meadows, L. </stage>
-     <sp>
+     <sp who="#L0567_M2">
       <speaker>Sir J.</speaker>
       <p><stage>(C.)</stage> You swear, then, to be silent?</p>
      </sp>
-     <sp>
+     <sp who="#L0567_F12">
       <speaker>Lady B.</speaker>
       <p><stage>(R.)</stage> I have sworn, Sir John, solemnly sworn. Oh! dear—who could have
        thought—</p>
      </sp>
-     <sp>
+     <sp who="#L0567_M2">
       <speaker>Sir J.</speaker>
       <p>Your ladyship must have known that she had no just right to such vast wealth. But, aid us
        in our present scheme, preserve the strictest silence, avoid the slightest hint by word or
        <pb n="48"/> look, of my presence in London, and you shall be suffered to retain the money
        given you by my unworthy niece.</p>
      </sp>
-     <sp>
+     <sp who="#L0567_F12">
       <speaker>Lady B.</speaker>
       <p>Oh, Sir John ! I am deeply grateful. I should have been more particular—but, you see, Lisa
        found me so very poor, and poverty—</p>
      </sp>
-     <sp>
+     <sp who="#L0567_M2">
       <speaker>Sir J.</speaker>
       <p>Is a great temptation to do evil. Well, well, be silent and discreet, and your share in
        this disreputable matter shall never be known to the fashionable world you hold in so much
        awe.</p>
      </sp>
-     <sp>
+     <sp who="#L0567_F12">
       <speaker>Lady B.</speaker>
       <p>Oh, thanks, Sir John! I am, I know, a blighted lily, and uncheered by the rays of
        fashionable life should soon wither and die. <stage>(aside)</stage> It hasn't been such a bad
        thing for me, after all—but the infamy of Lisa's conduct is most atrocious.<stage>Exit, R
       . </stage></p>
      </sp>
-     <sp>
+     <sp who="#L0567_M2">
       <speaker>Sir J.</speaker>
       <p>Lisa's puzzling silence is now too terribly accounted for. The ungrateful, heartless
        monster! In some way, I feel assured, she has been the prime mover of all, of which poor
        darling Joanna was accused.</p>
      </sp>
-     <sp>
+     <sp who="#L0567_M3">
       <speaker>Dr. M.</speaker>
       <p>There can be little doubt of that, Sir John.</p>
      </sp>
-     <sp>
+     <sp who="#L0567_M2">
       <speaker>Sir J.</speaker>
       <p>My blessed child ! I tremble to think of what she must have endured and suffered. Alas!
        alas! unable to bear the calamity that has befallen her, should she have perished by her own
        hands! Oh ! what horror is in the thought!</p>
      </sp>
-     <sp>
+     <sp who="#L0567_M3">
       <speaker>Dr. M.</speaker>
       <p>Do not fear that, Sir John. Joanna is a good, and religious girl. No, no, she would not do
        that.</p>
      </sp>
-     <sp>
+     <sp who="#L0567_M2">
       <speaker>Sir J.</speaker>
       <p>Thank you, doctor, for those comforting words. Thanks to you, also, that, under Heaven,
        restored me to somewhat of my former strength—and have given me renewed energy, that I may
@@ -3597,25 +3683,25 @@
        ungratefully, so vilely, repaid me for all the tender care that I for years have lavished on
        her.</p>
      </sp>
-     <sp>
+     <sp who="#L0567_M3">
       <speaker>Dr. M.</speaker>
       <p>Talk not so loudly, Sir John; walls have ears, and you know that you are dead,
        <stage>(smiling)</stage></p>
      </sp>
-     <sp>
+     <sp who="#L0567_M2">
       <speaker>Sir J.</speaker>
       <p>Yes, yes! When Charles Stanmore's letter informed us how Lisa was proceeding, you persuaded
        me to suffer you to write to Lisa, that unable to endure longer, the shock I had received
        from Joanna's loss, I had suddenly expired. But it seems to me a trifling with heaven, and I
        now regret having yielded to the mockery.</p>
      </sp>
-     <sp>
+     <sp who="#L0567_M3">
       <speaker>Dr. M.</speaker>
       <p>Nonsense, my friend—our motive is good. Supposed dead, you will now be enabled easily to
        unravel matters, that otherwise might have continued inextricable. But, come, let us to our
        hiding place</p>
      </sp>
-     <sp>
+     <sp who="#L0567_M2">
       <speaker>Sir J.</speaker>
       <p>I only want to find my poor Joanna! Large as is the sum of which that jade, Lisa, has
        despoiled me—I have still
@@ -3627,7 +3713,7 @@
      <stage type="setting"> SCENE EIGHTH.—Handsome Chambers., elegantly furnished —folding doors,
       C.—doors, R. 2 E. and L. 2 E.</stage>
      <stage> Enter Lisa, hastily, R., an open letter in her hand. </stage>
-     <sp>
+     <sp who="#L0567_F13">
       <speaker>Lisa.</speaker>
       <p>Dead, dead—he is dead! Sir John Cleveland is dead. and I am free from future danger—shall
        no longer live in fear, Who shall now call me to account for that which I have done ? Oh! I
@@ -3636,24 +3722,24 @@
        the slave may spurn her master!</p>
       <stage> Music—Monti hurries on, L. 2 E.</stage>
      </sp>
-     <sp>
+     <sp who="#L0567_M5">
       <speaker>Monti.</speaker>
       <p>Now, Lisa, speak ! Have I any more work to do? Speak ! am I not relieving your path for you
        ? Do I scruple or stop at anything ? Do I not wade through blood to serve you?</p>
      </sp>
-     <sp>
+     <sp who="#L0567_F13">
       <speaker>Lisa.</speaker>
       <p>Blood!</p>
      </sp>
-     <sp>
+     <sp who="#L0567_M5">
       <speaker>Monti.</speaker>
       <p>Ay, blood! The old lawyer is dead ! To save you, I have slain him!</p>
      </sp>
-     <sp>
+     <sp who="#L0567_F13">
       <speaker>Lisa.</speaker>
       <p>Horrible!</p>
      </sp>
-     <sp>
+     <sp who="#L0567_M5">
       <speaker>Monti.</speaker>
       <p>What say you ? And was it not for you that I— but never more—oh ! never more ! His glassy
        eyes, even now, are staring into mine — his throat seems even now within my hands—his death
@@ -3662,40 +3748,40 @@
        no heart—but brain-sick, almost to madness—and it's no wonder—for after all, I am but human!
        No more blood! no more! come what will, on Sir John Cleveland I will not lay a finger,</p>
      </sp>
-     <sp>
+     <sp who="#L0567_F13">
       <speaker>Lisa.</speaker>
       <p>Sir John is already beyond your reach—he is dead.</p>
      </sp>
-     <sp>
+     <sp who="#L0567_M5">
       <speaker>Monti.</speaker>
       <p><stage>(starting to his feet)</stage> Dead? how—when?</p>
      </sp>
-     <sp>
+     <sp who="#L0567_F13">
       <speaker>Lisa.</speaker>
       <p><stage>(giving him letter)</stage> Read, and learn how useless the murder you have
        committed.</p>
      </sp>
-     <sp>
+     <sp who="#L0567_M5">
       <speaker>Monti.</speaker>
       <p><stage>(having glanced over letter)</stage> Oh, curses, withering, and eternal curses on
        the madness that drove me to the deed.</p>
      </sp>
-     <sp>
+     <sp who="#L0567_F13">
       <speaker>Lisa.</speaker>
       <p>Ay! Now, Monti, you are in my power! 'Tis your turn, now, to be a slave—you are at my
        mercy, and when you fail sufficiently to cringe, and crawl before me, that instant I denounce
        you— I give you to the scaffold!</p>
       <pb n="50"/>
      </sp>
-     <sp>
+     <sp who="#L0567_M5">
       <speaker>Monti.</speaker>
       <p>Fiend! fiend!</p>
      </sp>
-     <sp>
+     <sp who="#L0567_F13">
       <speaker>Lisa.</speaker>
       <p>No, I am simply that which you have made me— a Woman of the World !</p>
      </sp>
-     <sp>
+     <sp who="#L0567_M5">
       <speaker>Monti.</speaker>
       <p>On the scaffold I shall never perish! I am at all times prepared 'gainst that. Revolt,
        endeavour to betray me, and it's yourself that would ascend the scaffold. Have you forgotten
@@ -3705,11 +3791,11 @@
        which makes her heiress, which gives her all—and how would you then escape the penalty of
        your robbery, if not, Sir John's, of <hi>her</hi> wealth ?</p>
      </sp>
-     <sp>
+     <sp who="#L0567_F13">
       <speaker>Lisa.</speaker>
       <p>I would die! It would but be a pang, and then peace !</p>
      </sp>
-     <sp>
+     <sp who="#L0567_M5">
       <speaker>Monti.</speaker>
       <p>Peace, for you! No, no, Lisa, you dare not die! And I hare not yet told you all. The jewels
        which you borrowed to <hi>lend</hi> to me, I have kept. You have given back to their owners
@@ -3717,38 +3803,38 @@
        originals—I have but to proclaim <hi>that</hi>, and then, Lisa, what think you would your
        fashionable friends say to their new found votary.</p>
      </sp>
-     <sp>
+     <sp who="#L0567_F13">
       <speaker>Lisa.</speaker>
       <p>Oh ! entrapped—entangled beyond all hope of extrication.</p>
      </sp>
-     <sp>
+     <sp who="#L0567_M5">
       <speaker>Monti.</speaker>
       <p>Even so! You see, you have not yet shaken off my yoke—I am still <hi>your</hi> master—you
        are still <hi>my</hi> slave.</p>
      </sp>
-     <sp>
+     <sp who="#L0567_F13">
       <speaker>Lisa.</speaker>
       <p>No, Monti, no; we will be equals—friends.</p>
      </sp>
-     <sp>
+     <sp who="#L0567_M5">
       <speaker>Monti.</speaker>
       <p>Friends! psha! I tell you, Lisa, I am, and will be your <hi>master</hi>. Ah ! you thought,
        did you, that Sir John's death had freed you from my power—you were, you see, mistaken.
        <stage>(grasping her arm)</stage> Down—down, then, to your knee, and crave of me mercy and
        forgiveness, <stage>(forcing her down)</stage></p>
      </sp>
-     <sp>
+     <sp who="#L0567_F13">
       <speaker>Lisa.</speaker>
       <p><stage>(breaking from him)</stage> No, I will not! I will no longer live in thrall and
        dread—I will be free, or nothing—will denounce you, though I die!</p>
      </sp>
-     <sp>
+     <sp who="#L0567_M5">
       <speaker>Monti.</speaker>
       <p>Ah! say you so? are you, indeed, so resolute? You shall die, but not denounce me. I did not
        think to shed more blood, but since you will have it so, why be it so. <stage>(drawing small
        dagger)</stage></p>
      </sp>
-     <sp>
+     <sp who="#L0567_F13">
       <speaker>Lisa.</speaker>
       <p>Ah, villain! you have sealed your doom.</p>
       <stage> Music—Lisa is hurrying off, L.—Monti pursues and brings her back—they struggle—he
@@ -3757,79 +3843,79 @@
        the dagger, and both stagger back, utterly appalled.</stage>
       <pb n="51"/>
      </sp>
-     <sp>
+     <sp who="#L0567_F13">
       <speaker>Lisa.</speaker>
       <p><stage>(L.)</stage> Living! he is living!</p>
      </sp>
-     <sp>
+     <sp who="#L0567_M5">
       <speaker>Monti.</speaker>
       <p><stage>(R.)</stage> He has heard all—I am lost.</p>
      </sp>
-     <sp>
+     <sp who="#L0567_M2">
       <speaker>Sir J.</speaker>
       <p>Yes, atrocious villain! yes, nought now remains for you, except to die; but, my Joanna—it
        can no further serve your hellish purpose now to keep her from me; then give her back to
        me—oh—give her once more to these doating arms.</p>
      </sp>
-     <sp>
+     <sp who="#L0567_M5">
       <speaker>Monti.</speaker>
       <p>Say, Lisa, shall it be so ?</p>
      </sp>
-     <sp>
+     <sp who="#L0567_F13">
       <speaker>Lisa.</speaker>
       <p>No ; let me not in every way be baffled—I have lost all else; but, leave me, at least,
        revenge!</p>
      </sp>
-     <sp>
+     <sp who="#L0567_M5">
       <speaker>Monti.</speaker>
       <p>As I expected. Sir John, I cannot, if I would; restore to you your niece—she has become the
        victim of the Duke of Endell.</p>
      </sp>
-     <sp>
+     <sp who="#L0567_M2">
       <speaker>Sir J.</speaker>
       <p>Oh, infamy! infamy and despair; and I have caused this ruin. But where is she ? tell me, do
        not keep from me the hope to rescue, and avenge her.</p>
      </sp>
-     <sp>
+     <sp who="#L0567_M5">
       <speaker>Monti.</speaker>
       <p>Vain hope ; ere this she has quitted England.</p>
      </sp>
-     <sp>
+     <sp who="#L0567_M2">
       <speaker>Sir J.</speaker>
       <p>Oh, misery—misery !</p>
       <stage> Enter Charles Stanmore, hastily, L. 2 E. </stage>
      </sp>
-     <sp>
+     <sp who="#L0567_M4">
       <speaker>Charles.</speaker>
       <p>Sir John—Sir John—take comfort—Joanna—</p>
      </sp>
-     <sp>
+     <sp who="#L0567_M2">
       <speaker>Sir J.</speaker>
       <p>Oh! what of her? speak! in mercy, speak!</p>
       <stage> Joanna rushes on, L. 2 E.</stage>
      </sp>
-     <sp>
+     <sp who="#L0567_F14">
       <speaker>Joanna.</speaker>
       <p>Here! she is here, dear uncle.</p>
      </sp>
-     <sp>
+     <sp who="#L0567_M2">
       <speaker>Sir J.</speaker>
       <p>My darling! she is mine again—again! <stage>(embrace)</stage></p>
      </sp>
-     <sp>
+     <sp who="#L0567_M4">
       <speaker>Charles.</speaker>
       <p>Conducted by John Butts, that noble-hearted fellow, I overtook the Duke of Endell, as he
        was about to bear Joanna on board his yacht, rescued her, and left the duke senseless on the
        ground ; and oh, sir, was it not a happy fate, that it should be mine to rescue her, for she
        has forgiven me all my former cruelty.</p>
      </sp>
-     <sp>
+     <sp who="#L0567_M2">
       <speaker>Sir J.</speaker>
       <p>Oh! yes, yes—all must be forgiven, now I have my child again. Take her, Charles, take her.
        <stage>(Joanna goes to Charles</stage> I am so happy that I can pardon even thee, Lisa ; but
        never let me see you more.</p>
      </sp>
-     <sp>
+     <sp who="#L0567_F13">
       <speaker>Lisa.</speaker>
       <p>I scorn your mercy. I am no longer the child you tolerated in your sight, and condescended
        to rear, while all your love was given to her. 'Twas your partiality which first dropped envy
@@ -3837,11 +3923,11 @@
        my soul—drove me to him, <stage>(pointing to Monti)</stage> who made me the wretch you now
        behold me.</p>
      </sp>
-     <sp>
+     <sp who="#L0567_F14">
       <speaker>Joanna.</speaker>
       <p><stage>(going to her)</stage> Lisa, I forgive you all—dear Lisa.</p>
      </sp>
-     <sp>
+     <sp who="#L0567_F13">
       <speaker>Lisa.</speaker>
       <p>Away! I hate you now, as I have ever hated you. From my childhood I have loathed you, for
        you ever stood between me and the love I coveted. Curse—oh, curse you all.
@@ -3851,12 +3937,12 @@
        now do with me as you will, for I—I—ah ! ah ! <stage>(suddenly places her hand upon her
        heart, and falls back into the arms of Dr. Meadows, who bears her off, L. 2 E.</stage></p>
      </sp>
-     <sp>
+     <sp who="#L0567_M2">
       <speaker>Sir J.</speaker>
       <p>Oh! how little did I think that I was nourishing such a viper in my bosom. For you,
        miscreant—</p>
      </sp>
-     <sp>
+     <sp who="#L0567_M5">
       <speaker>Monti.</speaker>
       <p>For me—death! but not upon the scaffold ! <stage>(throws phial to the ground)</stage> I
        carry now my doom within me. The stake I played for, I have lost, and so, farewell! and do
@@ -3864,60 +3950,60 @@
        officers of the law, I shall not seek to avoid them—a few minutes hence, and they can but
        secure my corse. <stage>Exit, L. 2 B.</stage></p>
      </sp>
-     <sp>
+     <sp who="#L0567_F14">
       <speaker>Joanna.</speaker>
       <p>Oh, uncle! what mean these horrors ?</p>
      </sp>
-     <sp>
+     <sp who="#L0567_M2">
       <speaker>Sir J.</speaker>
       <p>Hush, darling, hush !</p>
       <stage> Enter John Butts and Susan Jenkins, L. 2 E., arm in arm. </stage>
      </sp>
-     <sp>
+     <sp who="#L0567_M9">
       <speaker>John.</speaker>
       <p>Oh, zooks and taters! on'y let me get out of Lunnon —and if ever I shews my nose in it
        again, I'm dommed!</p>
      </sp>
-     <sp>
+     <sp who="#L0567_F17">
       <speaker>Susan.</speaker>
       <p>Hush, John, hush! you musn't swear before ladies!</p>
      </sp>
-     <sp>
+     <sp who="#L0567_M9">
       <speaker>John.</speaker>
       <p>I don't care ! Think o' poor Miss Joanna! There ia nout but villany in Lunnon. Susan's been
        in the Stationhouse, and I've lost grandfeyther'swatch.</p>
      </sp>
-     <sp>
+     <sp who="#L0567_M2">
       <speaker>Sir J.</speaker>
       <p>Well, my brave fellow, to make you amends, you shall have your farm rent free for the
        remainder of your existence.</p>
      </sp>
-     <sp>
+     <sp who="#L0567_M9">
       <speaker>John.</speaker>
       <p>Eh? Shall I ? Oh, lord, Susan! dost hear?</p>
      </sp>
-     <sp>
+     <sp who="#L0567_F17">
       <speaker>Susan.</speaker>
       <p>Yes, John, it penetrated to my olfactories.</p>
      </sp>
-     <sp>
+     <sp who="#L0567_M9">
       <speaker>John.</speaker>
       <p>Rent free! Oh, lord! rent free! he, he, he! Oh, zooks and taters!</p>
       <stage> Enter Doctor Meadows, R. </stage>
      </sp>
-     <sp>
+     <sp who="#L0567_M3">
       <speaker>Dr. M.</speaker>
       <p>Lisa!</p>
      </sp>
-     <sp>
+     <sp who="#L0567_M2">
       <speaker>Sir J.</speaker>
       <p>What of her? Speak!</p>
      </sp>
-     <sp>
+     <sp who="#L0567_M3">
       <speaker>Dr. M.</speaker>
       <p>She has burst a blood vessel—she is dead !</p>
      </sp>
-     <sp>
+     <sp who="#L0567_M2">
       <speaker>Sir J.</speaker>
       <p>Peace to her guilty soul! Joanna, my darling, be thankful that you are single minded,
        truthful, and loving, for that is the right wisdom ot heaven and of the heart—and she who

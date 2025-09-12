@@ -3,7 +3,7 @@
 <teiHeader>
 <fileDesc>
 <titleStmt>
-<title n="theirishpost">The Irish Post</title>
+<title n="theirishpost" type="main">The Irish Post</title>
 <author>Planché, J.R.</author>
 <respStmt>
 <resp>Curated by</resp>
@@ -12,40 +12,44 @@
 </titleStmt>
 <publicationStmt>
 <distributor>Privately published on the Lacy Website</distributor>
-<idno>L0296</idno>
+
+<idno type="lae">L0296</idno>
 </publicationStmt>
 <sourceDesc>
-<bibl type="digital">Retagged from DOCX produced by Abby from a VPP PDF
-edition</bibl>
-<bibl type="source" status="TEI_1" n="20.11" corresp="nic:N03100">
-<author>Planché, J.R.</author><title n="theirishpost">The Irish Post</title>
-<title type="sub">A Comic Drama in two acts</title>
-<extent>33 pp (UM copy: 340 - 373)<measure type="pp" quantity="33"/><measure
-type="txWords" quantity="9701"/><measure type="spWords" quantity="8795"
-/><measure type="stWords" quantity="906"/></extent><eventName notAfter="1846"
-type="firstPerf">
-<date resp="nicoll" when="1846-02-28"/>
-<name>Theatre Royal Haymarket</name>
-<date resp="source" when="1846-02-28">28 Feb. 1846</date>
-</eventName><listRef>
-<ref
-target="http://victorian.nuigalway.ie/modx/assets/docs/pdf/Vol20xiIrish.pdf"
->VPP_PDF</ref>
-<ref target="https://archive.org/details/irishpostcomicdr00planrich">Internet
-Archive</ref>
-</listRef><listRef type="localCopies">
-<ref>Vol20/L0296/L0296-uc.pdf</ref>
-<ref>Vol20/L0296/L0296-um.pdf</ref>
-<ref>Vol20/L0296/L0296-vpp.pdf</ref>
-<ref>Vol20/L0296/pages</ref>
-<ref>Vol20/L0296/Vol20xiIrish.pdf</ref>
-</listRef>
-</bibl>
+<bibl type="printSource" n="20.11"><author>Planché, J.R.</author><title
+type="main" n="theirishpost">The Irish Post</title><title type="sub">A Comic
+Drama in two acts</title><extent>33 pp (UM copy: 340 - 373)<measure type="pp"
+quantity="33"/>
+<measure type="spCount" quantity="562"/>
+<measure type="spvCount" quantity="0"/>
+<measure type="txWords" quantity="9699"/>
+<measure type="spWords" quantity="8787"/>
+<measure type="stWords" quantity="912"/>
+</extent>
+<title level="s"> Lacy's Acting Edition, volume 20, No. 0296</title><idno
+type="nic">N03100</idno><idno type="vpp">Vol20xiIrish</idno></bibl>
+<bibl type="digitalSource" n="copytext"><ref
+target="https://lb42.github.io/Lacy/Source/VPP/L0296-vpp.pdf">LoB from
+VPP</ref><ref target="local:Vol20/L0296/L0296-vpp.pdf"/><ref
+target="local:Vol20/L0296/Vol20xiIrish.pdf"/></bibl>
+<bibl type="digitalSource"><ref
+target="https://archive.org/details/irishpostcomicdr00planrich">Internet
+Archive</ref></bibl>
+<bibl type="digitalSource"><ref
+target="https://babel.hathitrust.org/cgi/pt?id=mdp.39015067453327&amp;seq=340 "
+>UM from HT</ref><ref target="local:Vol20/L0296/L0296-um.pdf"/></bibl>
+<bibl type="digitalSource" n="copytext"><ref
+target="https://lb42.github.io/Lacy/L0296.html">TEI</ref></bibl>
+<listEvent>
+<event type="firstPerf" when="1846-02-28" source="textNic" where="Haymarket">
+<desc>Premiered at Theatre Royal, Haymarket 28 Feb. 1846</desc>
+</event>
+</listEvent>
 </sourceDesc>
 </fileDesc>
 <profileDesc>
 <textClass>
-<!--M_2_ComicDrama_F._FARCE-->
+
 <catRef target="#sizeM"/>
 <catRef target="#act2"/>
 <catRef target="nic:F."/>
@@ -53,8 +57,84 @@ Archive</ref>
 <term>FARCE</term>
 </keywords>
 </textClass>
+<particDesc>
+<listPerson>
+<person xml:id="L0296_M1">
+<persName type="role">Mr. Sheriff Capsicomb</persName>
+<persName type="spkr" n="72">Caps.</persName>
+</person>
+<person xml:id="L0296_M2">
+<persName type="role">Mr. Bartholomew Lane</persName>
+<persName type="spkr" n="84">Lane.</persName>
+</person>
+<person xml:id="L0296_M3">
+<persName type="role">George Lane</persName>
+<persName type="spkr" n="72">George.</persName>
+</person>
+<person xml:id="L0296_M4">
+<persName type="role">Terence O'Grady</persName>
+<persName type="spkr" n="162">O'G.</persName>
+</person>
+<person xml:id="L0296_M5">
+<persName type="role">John</persName>
+<persName type="spkr" n="9">John.</persName>
+</person>
+<person xml:id="L0296_M6">
+<persName type="role">Richard</persName>
+<persName type="spkr" n="6">Richard.</persName>
+</person>
+<person xml:id="L0296_M7">
+<persName type="role">Policeman</persName>
+<persName type="spkr" n="1">Police.</persName>
+<persName type="spkr" n="2">Policeman.</persName>
+</person>
+<person xml:id="L0296_J8">
+<persName type="role">Grocer's Lad</persName>
+<persName type="spkr" n="6">Man.</persName>
+</person>
+<person xml:id="L0296_J9">
+<persName type="role">Boy</persName>
+<persName type="spkr" n="6">Boy.</persName>
+</person>
+<person xml:id="L0296_F10">
+<persName type="role">Mrs Capsicomb</persName>
+<persName type="spkr" n="70">Mrs. C.</persName>
+<persName type="spkr" n="2">Mrs. Caps.</persName>
+</person>
+<person xml:id="L0296_F11">
+<persName type="role">Mary Capsicomb</persName>
+<persName type="spkr" n="1">Mary.</persName>
+</person>
+<person xml:id="L0296_F12">
+<persName type="role">Mrs. Lump</persName>
+<persName type="spkr" n="65">Mrs. L.</persName>
+</person>
+
+
+
+
+
+
+<person xml:id="L0296_mult">
+<persName type="role">[Multiple speakers]</persName>
+<!--<persName type="spkr" n="1">George and Mary.</persName>
+<persName type="spkr" n="1">Lane. &amp; George.</persName>
+<persName type="spkr" n="1">Lane | George</persName>
+<persName type="spkr" n="1">Mrs. C. | Lane | George | Mrs. L</persName>
+<persName type="spkr" n="1">George | Mary</persName>
+-->
+<persName type="spkr" n="1">All.</persName>
+<!--<persName type="spkr" n="1">George. &amp; Mary</persName>
+<persName type="spkr" n="1">Mrs. C. | George | Mary</persName>
+-->
+</person>
+
+</listPerson>
+</particDesc>
 </profileDesc>
 <revisionDesc>
+<change when="2025-09-10">Multi @who hand edits</change>
+<change when="2025-09-07">Metadata updated from new catalogue</change>
 <change when="2024-10-03">Header enriched</change>
 <change when="2023-11-15">Hand edited</change>
 <change when="2023-10-15">Header confected</change>
@@ -81,29 +161,29 @@ Jenkinses</title>; <title> Knights of the Round Table</title>, &amp;c,
 28,1846.</p>
 </performance>
 <castList>
-<castItem><role gender="M">Mr. Sheriff Capsicomb</role><roleDesc/><actor sex="M"
->Mr. James Bland.</actor></castItem>
+<castItem><role gender="M">Mr. Sheriff Capsicomb</role><roleDesc/><actor
+ana="#M">Mr. James Bland.</actor></castItem>
 <castItem><role gender="M">Mr. Bartholomew Lane</role><roleDesc>(a stock
-broker)</roleDesc><actor sex="M">Mr.Tilbury</actor></castItem>
+broker)</roleDesc><actor ana="#M">Mr.Tilbury</actor></castItem>
 <castItem><role gender="M">George Lane</role><roleDesc>(his
-son)</roleDesc><actor sex="M">Mr. Carle</actor></castItem>
+son)</roleDesc><actor ana="#M">Mr. Carle</actor></castItem>
 <castItem><role gender="M">Terence O'Grady</role><roleDesc>(his
-nephew)</roleDesc><actor sex="M">Mr. Hudson</actor></castItem>
+nephew)</roleDesc><actor ana="#M">Mr. Hudson</actor></castItem>
 <castItem><role gender="M">John</role>
-<roleDesc>(a porter)</roleDesc><actor sex="M">M. Ennis</actor></castItem>
-<castItem><role gender="M">Richard</role><roleDesc/><actor sex="M">Mr
+<roleDesc>(a porter)</roleDesc><actor ana="#M">M. Ennis</actor></castItem>
+<castItem><role gender="M">Richard</role><roleDesc/><actor ana="#M">Mr
 Harcourt</actor></castItem>
-<castItem><role gender="M">Policeman</role><actor sex="M">Mr. W.
+<castItem><role gender="M">Policeman</role><actor ana="#M">Mr. W.
 Santer</actor></castItem>
-<castItem><role gender="J">Grocer's Lad</role><actor sex="M">Master
+<castItem><role gender="J">Grocer's Lad</role><actor ana="#M">Master
 Ellis</actor></castItem>
-<castItem><role gender="J">Boy</role><actor sex="M">Master
+<castItem><role gender="J">Boy</role><actor ana="#M">Master
 Ennis</actor></castItem>
-<castItem><role gender="F">Mrs Capsicomb</role><actor sex="F">Mrs. L.S.
+<castItem><role gender="F">Mrs Capsicomb</role><actor ana="#F">Mrs. L.S.
 Buckingham</actor></castItem>
-<castItem><role gender="F">Mary Capsicomb</role><actor sex="F">Miss
+<castItem><role gender="F">Mary Capsicomb</role><actor ana="#F">Miss
 Woulds</actor></castItem>
-<castItem><role gender="F">Mrs. Lump</role><actor sex="F">Mrs.
+<castItem><role gender="F">Mrs. Lump</role><actor ana="#F">Mrs.
 Humby</actor></castItem>
 </castList>
 <div type="costume">
@@ -120,12 +200,12 @@ Humby</actor></castItem>
 <stage type="setting">Scene .— Mr. Bartholomew Lane's Office, near the Royal
 Exchange. Door in flat, R.</stage>
 <stage> George and O'Grady discovered at their desks. </stage>
-<sp>
+<sp who="#L0296_M3">
 <speaker>George.</speaker>
 <p>109—18—137; carried up, 137—148—152 —158—64—no 69, no, stop; that's not
 right, confound it!</p>
 </sp>
-<sp>
+<sp who="#L0296_M4">
 <speaker>O'G.</speaker>
 <p>
 <stage>(reading what he has just written.)</stage>"Gentlemen, be pleased to
@@ -133,61 +213,61 @@ pay." That's a mighty odd expression— be pleased to pay! I wonder who the devi
 would be pleased to pay anything! None of my ancestors, I'm sure—if I take after
 them.</p>
 </sp>
-<sp>
+<sp who="#L0296_M3">
 <speaker>George.</speaker>
 <p>148, don't talk, Terence,—152—58-</p>
 </sp>
-<sp>
+<sp who="#L0296_M4">
 <speaker>O'G.</speaker>
 <p>Faith, I'd like to see the gentleman who would be pleased to pay! I'd show
 him for money, and make a fortune of him!</p>
 </sp>
-<sp>
+<sp who="#L0296_M3">
 <speaker>George.</speaker>
 <p>Hold your tongue, will you ?</p>
 </sp>
-<sp>
+<sp who="#L0296_M4">
 <speaker>O'G.</speaker>
 <p>Sure, you're not the gentleman who would be pleased to pay, or you'd refund
 the half-crown I lent you a month ago.</p>
 </sp>
-<sp>
+<sp who="#L0296_M3">
 <speaker>George.</speaker>
 <p>Hang your half-crown ! There, <stage>(flinging one to him.)</stage>take it,
 do, and stop your eternal chatter. I shall never get these accounts right. How
 on earth do you manage to write when you're talking to yourself all the time ?
 You can't be thinking of what you're about.</p>
 </sp>
-<sp>
+<sp who="#L0296_M4">
 <speaker>O'G.</speaker>
 <p>I am, and of a thousand things beside—I've a wonderful genius !</p>
 </sp>
-<sp>
+<sp who="#L0296_M3">
 <speaker>George.</speaker>
 <p>For making mistakes.</p>
 </sp>
-<sp>
+<sp who="#L0296_M4">
 <speaker>O'G.</speaker>
 <p>Sure, I've a right to make 'em; ain't I an Irishman ? I stand up for my
 national privileges !</p>
 </sp>
 <pb n="4"/>
-<sp>
+<sp who="#L0296_M3">
 <speaker>George.</speaker>
 <p>You abuse your privileges; no Irishman in the world ever made such blunders
 as you do. You're eternally getting yourself, or somebody else, into scrapes by
 them. What did you do yesterday ? I hear there was a crowd round you in
 Cornhill.</p>
 </sp>
-<sp>
+<sp who="#L0296_M4">
 <speaker>O'G.</speaker>
 <p>There was, but it was through you!</p>
 </sp>
-<sp>
+<sp who="#L0296_M3">
 <speaker>George.</speaker>
 <p>Through me !</p>
 </sp>
-<sp>
+<sp who="#L0296_M4">
 <speaker>O'G.</speaker>
 <p>Through you! every bit of it; I was standing at Birch's eating an oyster
 patty, when I saw you scuttling along on the other side of the way; I called
@@ -195,11 +275,11 @@ after you, and you wouldn't hear me, so I made but one hop, step and a jump,
 over the road, and coming slyly behind you, knocked your hat over your eyes
 !</p>
 </sp>
-<sp>
+<sp who="#L0296_M3">
 <speaker>George.</speaker>
 <p>What d'ye mean? I was at Islington all day, with the governor.</p>
 </sp>
-<sp>
+<sp who="#L0296_M4">
 <speaker>O'G.</speaker>
 <p>So you were, for it wasn't you after all, but a fellow I'd never seen before
 in all my life ! " Boh," says I; " Holloa," says he ; " what the devil do you
@@ -209,132 +289,130 @@ summer's day, sir." "The Lord forgive me for lying," says I to myself; but I
 couldn't say less to the gentleman, after breaking his hat, and the bridge of
 his nose into the bargain.</p>
 </sp>
-<sp>
+<sp who="#L0296_M3">
 <speaker>George.</speaker>
 <p>I should think not.</p>
 </sp>
-<sp>
+<sp who="#L0296_M4">
 <speaker>O'G.</speaker>
-<p>Sure, it was a mighty pretty compliment to pay such a Kangaroo as he was;
-but that didn't satisfy him. " None of your blarney," says he ; " I'll bet you a
+<p>Sure, it was a mighty pretty compliment to pay such a Kangaroo as he was; but
+that didn't satisfy him. " None of your blarney," says he ; " I'll bet you a
 pound you didn't think any such thing." " Done," says I, " I've lost, and
 there's the money." Faith, he took that easier than the compliment; so I had the
 pleasure of wishing him good morning, and seeing him buy a new water-proof best
 short nap, with my own sovereign.</p>
 </sp>
-<sp>
+<sp who="#L0296_M3">
 <speaker>George.</speaker>
 <p>Serve you right; I wonder he didn't have you up before the Lord Mayor.</p>
 </sp>
-<sp>
+<sp who="#L0296_M4">
 <speaker>O'G.</speaker>
-<p>Oh, faith, somebody began calling police in the first instance; but long
-life to the boys, they're never to be seen when they're wanted.</p>
+<p>Oh, faith, somebody began calling police in the first instance; but long life
+to the boys, they're never to be seen when they're wanted.</p>
 </sp>
-<sp>
+<sp who="#L0296_M3">
 <speaker>George.</speaker>
 <p>Why, you knew well enough I had gone with my father to Islington. Were you
 not left in care of the office, with all sorts of messages ?</p>
 </sp>
 <pb n="5"/>
-<sp>
+<sp who="#L0296_M4">
 <speaker>O'G.</speaker>
 <p>I was! but I just popped out for a lunch, and forgot all about it, at the
 moment. By the bye, I forgot something else, too,—bad manners to me! What did
 she say to you—you never told me ?</p>
 </sp>
-<sp>
+<sp who="#L0296_M3">
 <speaker>George.</speaker>
 <p>Say to me! who ?</p>
 </sp>
-<sp>
+<sp who="#L0296_M4">
 <speaker>O'G.</speaker>
 <p>Who ? why the girl you went to see at Islington, to be sure; Miss Mary
 Capsicomb. Don't I know you went with the governor on purpose to pop the
 question to her.</p>
 </sp>
-<sp>
+<sp who="#L0296_M3">
 <speaker>George.</speaker>
 <p>Pshaw! stuff!</p>
 </sp>
-<sp>
+<sp who="#L0296_M4">
 <speaker>O'G.</speaker>
 <p>Oh, as much stuff as you please—but you know it's true ; didn't you let me
 into your confidence ?</p>
 </sp>
-<sp>
+<sp who="#L0296_M3">
 <speaker>George.</speaker>
 <p>Let you in ? no—you broke into it!—opened my letter instead of your own.</p>
 </sp>
-<sp>
+<sp who="#L0296_M4">
 <speaker>O'G.</speaker>
 <p>By the merest accident; and I apologised as soon as I'd read it ?</p>
 </sp>
-<sp>
+<sp who="#L0296_M3">
 <speaker>George.</speaker>
 <p>Apologised—yes, before my father, and so let him into the secret.</p>
 </sp>
-<sp>
+<sp who="#L0296_M4">
 <speaker>O'G.</speaker>
 <p>And didn't he approve of your attachment ?</p>
 </sp>
-<sp>
+<sp who="#L0296_M3">
 <speaker>George.</speaker>
 <p>By great good luck; but suppose he hadn't ?</p>
 </sp>
-<sp>
+<sp who="#L0296_M4">
 <speaker>O'G.</speaker>
 <p>Oh, bother! what's the good of supposing disagreeable things that never
 happened.</p>
 </sp>
-<sp>
+<sp who="#L0296_M3">
 <speaker>George.</speaker>
 <p>Well, at all events, Master Terence, you're the last person I should choose
 for a confidant, and so you'll excuse me telling you anything about the
 matter.</p>
 </sp>
-<sp>
+<sp who="#L0296_M4">
 <speaker>O'G.</speaker>
 <p>You're wrong there, depend upon it—and you'll lose a great deal by it; for
 I'm in love myself, and I'll leave you in blissful ignorance of the whole
 beautiful story.</p>
 </sp>
-<sp>
+<sp who="#L0296_M3">
 <speaker>George.</speaker>
-<p>With all my heart; but you'll be sure to blunder it out somehow or
-other.</p>
+<p>With all my heart; but you'll be sure to blunder it out somehow or other.</p>
 </sp>
-<sp>
+<sp who="#L0296_M4">
 <speaker>O'G.</speaker>
 <p>Oh, catch me making a blunder in love matters; I'm discreet enough in my
 indiscretions.</p>
 </sp>
-<sp>
+<sp who="#L0296_M3">
 <speaker>George.</speaker>
-<p>Here's the governor coming, you'd better finish the letters for the
-post.</p>
+<p>Here's the governor coming, you'd better finish the letters for the post.</p>
 </sp>
 <stage> Enter Mr. Bartholomew Lane, D. R. f. </stage>
-<sp>
+<sp who="#L0296_M2">
 <speaker>Lane.</speaker>
 <p>So you're a pretty fellow, don't you think ?</p>
 </sp>
-<sp>
+<sp who="#L0296_M3">
 <speaker>George.</speaker>
 <p>Me, Sir ?</p>
 </sp>
-<sp>
+<sp who="#L0296_M2">
 <speaker>Lane.</speaker>
-<p>No, not you, your cousin there, Master Terence; my plague! But there shall
-be an end of it. I've looked <pb n="6"/>over a great deal on my sister's
-account; but, unless you pay a little more attention, sir, back to Ireland you
-go, I'm determined.</p>
+<p>No, not you, your cousin there, Master Terence; my plague! But there shall be
+an end of it. I've looked <pb n="6"/>over a great deal on my sister's account;
+but, unless you pay a little more attention, sir, back to Ireland you go, I'm
+determined.</p>
 </sp>
-<sp>
+<sp who="#L0296_M4">
 <speaker>O'G.</speaker>
 <p>What's the row, governor ?</p>
 </sp>
-<sp>
+<sp who="#L0296_M2">
 <speaker>Lane.</speaker>
 <p>Don't call me, governor, sir. I've told you forty times I don't choose to be
 called governor ! It's a familiarity I don't approve of. I'm your uncle, sir,
@@ -343,32 +421,32 @@ handsome Irishman, without a penny, and I have been saddled with you, sir, as
 the natural consequence. I have tried to make a man of business of you, but it's
 in vain; I must give it up, or you'll be the ruin of me?</p>
 </sp>
-<sp>
+<sp who="#L0296_M4">
 <speaker>O'G.</speaker>
 <p>The ruin of you? Sure, you are joking, my dear sir; what would I be the ruin
 of you for ?</p>
 </sp>
-<sp>
+<sp who="#L0296_M2">
 <speaker>Lane.</speaker>
 <p>Didn't I tell you yesterday, before I went out, to write to Mr. Hardup, and
 tell him, if he didn't pay me the money he owed me, before twelve o'clock
 to-day, I should instruct my attorney to commence proceedings ?</p>
 </sp>
-<sp>
+<sp who="#L0296_M4">
 <speaker>O'G.</speaker>
 <p>You did, and I did.</p>
 </sp>
-<sp>
+<sp who="#L0296_M2">
 <speaker>Lane.</speaker>
 <p>You did no such thing, sir! Didn't I tell you at the same time to write to
 Alderman Turtle, and acknowledge the receipt of £100 which he left here the day
 before ?</p>
 </sp>
-<sp>
+<sp who="#L0296_M4">
 <speaker>O'G.</speaker>
 <p>You did; and I did, I tell you.</p>
 </sp>
-<sp>
+<sp who="#L0296_M2">
 <speaker>Lane.</speaker>
 <p>I did, and you didn't, I tell you. You sent the receipt to Hardup, and the
 threat of proceedings to the Alderman, who is in such a rage, he will hear
@@ -378,56 +456,56 @@ nearly smothered with blessings by that vagabond Hardup, who is running about
 telling every body my noble and delicate conduct has saved him and his family
 from utter ruin.</p>
 </sp>
-<sp>
+<sp who="#L0296_M4">
 <speaker>O'G.</speaker>
 <p>And isn't that a proud consolation to you ? Sure, a poor man's blessing is
 worth an alderman's dinner any day.</p>
 </sp>
-<sp>
+<sp who="#L0296_M2">
 <speaker>Lane.</speaker>
 <p>Terence, do you wish me to knock you down, sir?</p>
 </sp>
-<sp>
+<sp who="#L0296_M4">
 <speaker>O'G.</speaker>
 <p>That depends upon what's bid for me, sir. I'd be <pb n="7"/> a mighty great
 bargain at the price you'd put me up at.</p>
 </sp>
-<sp>
+<sp who="#L0296_M2">
 <speaker>Lane.</speaker>
 <p>You impudent rascal! Don't compel me to kick you out of my house.</p>
 </sp>
-<sp>
+<sp who="#L0296_M4">
 <speaker>O'G.</speaker>
 <p>I will not, sir; I'll go as soon as you please, without the kick.</p>
 </sp>
-<sp>
+<sp who="#L0296_M2">
 <speaker>Lane.</speaker>
 <p>George, what am I to do with this fellow ?</p>
 </sp>
-<sp>
+<sp who="#L0296_M3">
 <speaker>George.</speaker>
 <p>Forgive him this time, sir; he'll be more careful in future—won't you,
 Terence ?</p>
 </sp>
-<sp>
+<sp who="#L0296_M4">
 <speaker>O'G.</speaker>
 <p>It's impossible to be more careful. I wrote the letters plain enough. It's
 the confounded covers you've got the fashion of putting 'em in, that makes all
 the mischief. They'd puzzle the Pope, they would!</p>
 </sp>
-<sp>
+<sp who="#L0296_M2">
 <speaker>Lane.</speaker>
-<p>Well, sir, I'll forgive you once more; but mind, it's the last time; the
-next blunder you make, back you go to Ireland; or, at least, you don't stay
-here. So now sit down, sir, and write to Sheriff Capsicomb, that the Clapham and
-Tooting Grand Junction are doing at three and a half, and that he had better
-sell whilst he can.</p>
+<p>Well, sir, I'll forgive you once more; but mind, it's the last time; the next
+blunder you make, back you go to Ireland; or, at least, you don't stay here. So
+now sit down, sir, and write to Sheriff Capsicomb, that the Clapham and Tooting
+Grand Junction are doing at three and a half, and that he had better sell whilst
+he can.</p>
 </sp>
-<sp>
+<sp who="#L0296_M4">
 <speaker>O'G.</speaker>
 <p>I will, sir.</p>
 </sp>
-<sp>
+<sp who="#L0296_M2">
 <speaker>Lane.</speaker>
 <p>When you have written it, post it directly. I promised to let him know this
 morning. George will give you his address, and see if you can manage not to
@@ -435,108 +513,108 @@ mistake this time. I must run back and try what's to be done with the alderman.
 To-morrow's a venison day at Fishmonger's Hall, and he's one of the wardens.</p>
 <stage>[ Exit D. R. F.</stage>
 </sp>
-<sp>
+<sp who="#L0296_M4">
 <speaker>O'G.</speaker>
 <p>I believe that my uncle would dine with the devil, provided he knew there'd
 be venison. What's the address, George, of your father-in-law that is to be, Mr.
 Sheriff Capsicomb ?</p>
 </sp>
-<sp>
+<sp who="#L0296_M3">
 <speaker>George.</speaker>
-<p>High Street, Islington ; but he's got a charming place at Norwood—gave
-£4,000 for it.</p>
+<p>High Street, Islington ; but he's got a charming place at Norwood—gave £4,000
+for it.</p>
 </sp>
-<sp>
+<sp who="#L0296_M4">
 <speaker>O'G.</speaker>
 <p>Pickles for ever ! But I'm told he's as hot and as sour as his own chilly
 vinegar.</p>
 </sp>
-<sp>
+<sp who="#L0296_M3">
 <speaker>George.</speaker>
 <p>Rather passionate; they say his first wife spoiled his temper.</p>
 </sp>
-<sp>
+<sp who="#L0296_M4">
 <speaker>O'G.</speaker>
-<p>Then I hope his second will mend it. Did you see her, George ? They say
-she's a beauty.</p>
+<p>Then I hope his second will mend it. Did you see her, George ? They say she's
+a beauty.</p>
 </sp>
-<sp>
+<sp who="#L0296_M3">
 <speaker>George.</speaker>
 <p>A very charming woman, and not much older than Mary.</p>
 </sp>
 <pb n="8"/>
-<sp>
+<sp who="#L0296_M4">
 <speaker>O'G.</speaker>
 <p>More shame for him; George, you devil, you'll be making love to your
 mother-in-law!</p>
 </sp>
-<sp>
+<sp who="#L0296_M3">
 <speaker>George.</speaker>
 <p>Write your letters, and don't talk nonsence. <stage rend="alignRight">(takes
 his hat.</stage>
 </p>
 </sp>
-<sp>
+<sp who="#L0296_M4">
 <speaker>O'G.</speaker>
 <p>Where are you going?</p>
 </sp>
-<sp>
+<sp who="#L0296_M3">
 <speaker>George.</speaker>
 <p>To the banker's.</p>
 </sp>
-<sp>
+<sp who="#L0296_M4">
 <speaker>O'G.</speaker>
 <p>Stop—ask 'em to honour my cheque for £10,000, and I'll pay'em when I come
 into my property.</p>
 </sp>
-<sp>
+<sp who="#L0296_M3">
 <speaker>George.</speaker>
 <p>Pooh, you fool! <stage rend="alignRight">[Exit D. R. F.</stage>
 </p>
 </sp>
-<sp>
+<sp who="#L0296_M4">
 <speaker>O'G.</speaker>
-<p>He's a good fellow, cousin Georgy, but a little soft in the upper story!
-Now, let me see if this is all right:—" Sir, I am desired by Mr. Bartholomew
-Lane, to inform you—um, um, um, Clapham and Tooting—two- and-a-half—sell while
-you can. Your obedient servant, Terence O'Grady." That's as clear as mud. Now
-for one of these devils of covers .—" To Mr. Sheriff Capsicomb, High Street,
-Islington." There you are my darling, with a queen's head upon you, and no
-mistake. <stage> [Just as he is going to put the note into the envelope, his
-attention is arrested by a lady passing the window.]</stage>Och, murder!
-<stage>drops the envelope.</stage> It can't be ! It isn't impossible!
-<stage>runs to window.</stage> I'll give £50, when I get it, if you'll only look
-this way, ma'am ! She does—and it is ! By all the cupids that ever Tommy Moore
-sung about—it's the identical she—my Bristol beauty! The Venus I came over with
-in the steamer from Cork! What'll I do ? Where's my hat ? Confusion, I can't
-find my hat; I'll run without it! I'll follow her to the world's end! Oh, the
-devil! There's nobody to mind the office ; and if the governor comes back and
-finds me out, I'll be ruined entirely! No matter, lucks all! Here goes!
-<stage>(going out to D. R. F., stops.)</stage> Hah ! by the powers, she's gone
-into Mrs. Lump's, the grocer's, at the corner. If she'll only stay there two or
-three minutes, I know what I'll do! <stage>calls.</stage> Here, you chap in the
-jacket, come here with you!</p>
+<p>He's a good fellow, cousin Georgy, but a little soft in the upper story! Now,
+let me see if this is all right:—" Sir, I am desired by Mr. Bartholomew Lane, to
+inform you—um, um, um, Clapham and Tooting—two- and-a-half—sell while you can.
+Your obedient servant, Terence O'Grady." That's as clear as mud. Now for one of
+these devils of covers .—" To Mr. Sheriff Capsicomb, High Street, Islington."
+There you are my darling, with a queen's head upon you, and no mistake. <stage>
+[Just as he is going to put the note into the envelope, his attention is
+arrested by a lady passing the window.]</stage>Och, murder! <stage>drops the
+envelope.</stage> It can't be ! It isn't impossible! <stage>runs to
+window.</stage> I'll give £50, when I get it, if you'll only look this way,
+ma'am ! She does—and it is ! By all the cupids that ever Tommy Moore sung
+about—it's the identical she—my Bristol beauty! The Venus I came over with in
+the steamer from Cork! What'll I do ? Where's my hat ? Confusion, I can't find
+my hat; I'll run without it! I'll follow her to the world's end! Oh, the devil!
+There's nobody to mind the office ; and if the governor comes back and finds me
+out, I'll be ruined entirely! No matter, lucks all! Here goes! <stage>(going out
+to D. R. F., stops.)</stage> Hah ! by the powers, she's gone into Mrs. Lump's,
+the grocer's, at the corner. If she'll only stay there two or three minutes, I
+know what I'll do! <stage>calls.</stage> Here, you chap in the jacket, come here
+with you!</p>
 </sp>
 <stage>A Boy runs in at D. R. F.</stage>
-<sp>
+<sp who="#L0296_M4">
 <speaker>O'G.</speaker>
 <p>Are you the boy that wants a sixpence ?</p>
 </sp>
-<sp>
+<sp who="#L0296_J9">
 <speaker>Boy.</speaker>
 <p>Oh, arn't I, that's all?</p>
 </sp>
-<sp>
+<sp who="#L0296_M4">
 <speaker>O'G.</speaker>
 <p>Then just you stand here, and keep an eye on that <pb n="9"/>grocer's shop,
 at the corner, whilst I write two lines to a lady, in a white bonnet, that's
 gone into it. If you see her come out, shout like a devil!</p>
 </sp>
-<sp>
+<sp who="#L0296_J9">
 <speaker>Boy.</speaker>
 <p>O, won't I, that's all!</p>
 </sp>
-<sp>
+<sp who="#L0296_M4">
 <speaker>O'G.</speaker>
 <p>
 <stage>writes hastily.</stage> "Most beautiful of created beings ; if you have
@@ -550,11 +628,11 @@ envelope, seals it and runs to the boy.</stage> Now run, and give that to the
 lady in the white bonnet, and say the gentleman waits for an answer. Quick, and
 I'll give you a shilling.</p>
 </sp>
-<sp>
+<sp who="#L0296_J9">
 <speaker>Boy.</speaker>
 <p>Oh, that's plummy ! <stage>[ Exit running, D. R. F.</stage></p>
 </sp>
-<sp>
+<sp who="#L0296_M4">
 <speaker>O'G.</speaker>
 <p>Faint heart never won a fair lady! If she don't answer, I can't help it. But
 the boy shall follow her, and find out where she goes to, and all about her.
@@ -569,252 +647,252 @@ gratitude! Oh, murder ! Here he comes back, the young varmint, ready to break
 his neck.</p>
 <stage> Enter Boy, D. R. F., out of breath. </stage>
 </sp>
-<sp>
+<sp who="#L0296_J9">
 <speaker>Boy.</speaker>
 <p>Sir! sir!</p>
 </sp>
-<sp>
+<sp who="#L0296_M4">
 <speaker>O'G.</speaker>
 <p>Well, what's your news ?</p>
 </sp>
-<sp>
+<sp who="#L0296_J9">
 <speaker>Boy.</speaker>
 <p>The lady's compliments, sir, and she'll come over to you directily.</p>
 </sp>
-<sp>
+<sp who="#L0296_M4">
 <speaker>O'G.</speaker>
 <p>The devil she will! Hurrah, Terence!—you've done it, you have, you
 fascinating villain! Here my young <pb n="10"/> Mercury—here's half-a-crown for
 you, and keep the change.</p>
 </sp>
-<sp>
+<sp who="#L0296_J9">
 <speaker>Boy.</speaker>
 <p>Oh, thank you, sir! Oh, half-a-crown! Oh, crikey!</p>
 </sp>
 <stage>runs out, D. R. F., and runs against George, who enters, D. R. F.</stage>
-<sp>
+<sp who="#L0296_M3">
 <speaker>George.</speaker>
 <p>Holloa! why don't you mind where you're running to. <stage>gives the boy a
 cuff, who runs off.</stage> A ragamuffin ! What was he doing in the office ?</p>
 </sp>
-<sp>
+<sp who="#L0296_M4">
 <speaker>O'G.</speaker>
 <p>
 <stage>putting the note into Capsicomb's envelope and sealing it.</stage> Never
 you mind—don't you want to go out again on particular business ?</p>
 </sp>
-<sp>
+<sp who="#L0296_M3">
 <speaker>George.</speaker>
 <p>I, no—what dy'e mean?</p>
 </sp>
-<sp>
+<sp who="#L0296_M4">
 <speaker>O'G.</speaker>
 <p>My dear fellow, you can't stop here. I'm expecting a lady.</p>
 </sp>
-<sp>
+<sp who="#L0296_M3">
 <speaker>George.</speaker>
 <p>A lady! what lady ?</p>
 </sp>
-<sp>
+<sp who="#L0296_M4">
 <speaker>O'G.</speaker>
 <p>I don't know; don't ask me any questions, for I'm not in a state to give you
 a rational answer.</p>
 <p>
 <stage>walks about flourishing note in an excited manner.</stage></p>
 </sp>
-<sp>
+<sp who="#L0296_M3">
 <speaker>George.</speaker>
 <p>So it seems. Have you written all your letters ?</p>
 </sp>
-<sp>
+<sp who="#L0296_M4">
 <speaker>O'G.</speaker>
 <p>I have; don't bother me.</p>
 </sp>
-<sp>
+<sp who="#L0296_M3">
 <speaker>George.</speaker>
 <p>Then post them, before you forget it.</p>
 </sp>
-<sp>
+<sp who="#L0296_M4">
 <speaker>O'G.</speaker>
 <p>How the devil can I post them till the porter comes in?</p>
 </sp>
-<sp>
+<sp who="#L0296_M3">
 <speaker>George.</speaker>
 <p>Well, here he is then.</p>
 </sp>
 <stage> Enter John, D. R. F., with a packet. </stage>
-<sp>
+<sp who="#L0296_M5">
 <speaker>John.</speaker>
 <p>
 <stage>gives packet.</stage> The parties warn't at home, sir, and I had to
 wait.</p>
 </sp>
-<sp>
+<sp who="#L0296_M3">
 <speaker>George.</speaker>
 <p>Well, make haste, and take Mr. O'Grady's letters to the post. <stage>opens
 packet.</stage></p>
 </sp>
-<sp>
+<sp who="#L0296_M5">
 <speaker>John.</speaker>
 <p>Yes, sir. <stage>goes to Terence's desk.</stage> These,sir;</p>
 </sp>
-<sp>
+<sp who="#L0296_M4">
 <speaker>O'G.</speaker>
-<p>These, sir; why, to be sure, sir ? Be off with you. <stage>[ Exit John, D.
-R. F.] </stage>And you, George, my dear boy, you wouldn't spoil sport ?
+<p>These, sir; why, to be sure, sir ? Be off with you. <stage>[ Exit John, D. R.
+F.] </stage>And you, George, my dear boy, you wouldn't spoil sport ?
 <stage>crams the note he has in his hand unconsciously into his pocket.
 </stage></p>
 </sp>
-<sp>
+<sp who="#L0296_M3">
 <speaker>George.</speaker>
 <p>Oh, this lady, then is—</p>
 </sp>
-<sp>
+<sp who="#L0296_M4">
 <speaker>O'G.</speaker>
 <p>To be sure she is. If you'll only just step up stairs for five minutes.</p>
 <pb n="11"/>
 <stage>Mrs . Capsicomb appears, at D.R.F. </stage>
 <p>Here she is!—George! If you wouldn't compel me to do something desperate—</p>
 </sp>
-<sp>
+<sp who="#L0296_M3">
 <speaker>George.</speaker>
 <p>Just let me have one peep.<stage>Mrs. Capsicomb advances.</stage>
 <stage>changes his tone.</stage> Poh—what a fool you are, Terence, it's Mrs.
 Capsicomb!</p>
 </sp>
-<sp>
+<sp who="#L0296_M4">
 <speaker>O'G.</speaker>
 <p>
 <stage>thunderstruck.</stage> Mrs. Capsicomb!</p>
 </sp>
-<sp>
+<sp who="#L0296_F10">
 <speaker>Mrs. C.</speaker>
 <p>How do you do, George. Is your father at home?</p>
 </sp>
-<sp>
+<sp who="#L0296_M3">
 <speaker>George.</speaker>
 <p>He is not, my dear madam, but I expect him directly.</p>
 </sp>
-<sp>
+<sp who="#L0296_F10">
 <speaker>Mrs. C.</speaker>
 <p>I'll wait, then, if you please, for I appointed to meet Mr. Capsicomb and
 Mary here.</p>
 </sp>
-<sp>
+<sp who="#L0296_M3">
 <speaker>George.</speaker>
 <p>Mary! Is Mary coming ?</p>
 </sp>
-<sp>
+<sp who="#L0296_F10">
 <speaker>Mrs. C.</speaker>
 <p>
 <stage>smiling.</stage> Yes, Mary is coming with her father; you have no
 particular objection to such an arrangement, I suppose ?</p>
 </sp>
-<sp>
+<sp who="#L0296_M3">
 <speaker>George.</speaker>
 <p>Oh, my dear Mrs. Capsicomb!</p>
 </sp>
-<sp>
+<sp who="#L0296_F10">
 <speaker>Mrs. C.</speaker>
 <p>We want your father and you to dine with us, to-day, at Norwood, if you are
 disengaged.</p>
 </sp>
-<sp>
+<sp who="#L0296_M3">
 <speaker>George.</speaker>
 <p>We shall be too happy.</p>
 </sp>
-<sp>
+<sp who="#L0296_F10">
 <speaker>Mrs. C.</speaker>
 <p>By the bye, who is Mr. Terence O'Grady ?</p>
 </sp>
-<sp>
+<sp who="#L0296_M4">
 <speaker>O'G.</speaker>
 <p>
 <stage>aside.</stage> Oh, murther!</p>
 </sp>
-<sp>
+<sp who="#L0296_M3">
 <speaker>George.</speaker>
 <p>Terence ? my cousin; he is in the office here.</p>
 <p>Terence, Mrs. Capsicomb. <stage>introduces them.</stage></p>
 </sp>
-<sp>
+<sp who="#L0296_M4">
 <speaker>O'G.</speaker>
 <p>
 <stage>bows awkwardly.</stage> Madam. <stage>aside.</stage> what'll she say to
 me ?</p>
 </sp>
-<sp>
+<sp who="#L0296_F10">
 <speaker>Mrs. C.</speaker>
 <p>
 <stage>smiling.</stage> You sent a note to me, just now, by mistake, I
 presume.</p>
 </sp>
-<sp>
+<sp who="#L0296_M4">
 <speaker>O'G.</speaker>
 <p>Entirely, madam, by mistake. If you'll just have the kindness to—
 <stage>making signs to return the letter.</stage></p>
 </sp>
-<sp>
+<sp who="#L0296_F10">
 <speaker>Mrs. C.</speaker>
 <p>To give it to my husband; certainly.</p>
 </sp>
-<sp>
+<sp who="#L0296_M4">
 <speaker>O'G.</speaker>
 <p>By no manner of means, madam. Sure, when you see it's a mistake you wouldn't
 be going to get me into trouble by—</p>
 </sp>
-<sp>
+<sp who="#L0296_F10">
 <speaker>Mrs. C.</speaker>
 <p>Trouble! Oh, certainly not, if—</p>
 </sp>
-<sp>
+<sp who="#L0296_M3">
 <speaker>George.</speaker>
 <p>What, another blunder, Terence ? Oh, then I must also request, my dear Mrs.
 Capsicomb, to take pity <pb n="12"/>on him, whatever it is, for he is in sad
 disgrace with my father already.</p>
 </sp>
-<sp>
+<sp who="#L0296_F10">
 <speaker>Mrs. C.</speaker>
 <p>Don't say another word, I beg. There is not the slightest necessity for my
 taking any notice of it. Mr. Capsicomb will be here in a few minutes, himself,
 and Mr. O'Grady can then speak to him on the subject.</p>
 </sp>
-<sp>
+<sp who="#L0296_M4">
 <speaker>O'G.</speaker>
 <p>
 <stage>aside.</stage> Speak to him on the subject! What the devil does she mean
 by that ? Oh, I see; bless the darling. She's doing it to blind Master
 Georgy.</p>
 </sp>
-<sp>
+<sp who="#L0296_F10">
 <speaker>Mrs. C.</speaker>
-<p>But, surely, I have had the pleasure of meeting you before, Mr. O'Grady.
-I've a faint recollection—</p>
+<p>But, surely, I have had the pleasure of meeting you before, Mr. O'Grady. I've
+a faint recollection—</p>
 </sp>
-<sp>
+<sp who="#L0296_M4">
 <speaker>O'G.</speaker>
 <p>I had the supreme felicity, madam, of crossing the water with you, from Cork
 to Bristol.</p>
 </sp>
-<sp>
+<sp who="#L0296_F10">
 <speaker>Mrs. C.</speaker>
 <p>Of course, I remember now, perfectly. I'm indebted to you for some very kind
 attentions; but really, I was so very unwell the whole of the passage, that I
 may be excused not immediately recognising—</p>
 </sp>
-<sp>
+<sp who="#L0296_M4">
 <speaker>O'G.</speaker>
 <p>
 <stage>aside.</stage> Long life to her; she's doing it beautifully.</p>
 </sp>
-<sp>
+<sp who="#L0296_F10">
 <speaker>Mrs. C.</speaker>
-<p>I shall be delighted to make you and Mr. Cap- sicomb acquainted. I have
-often spoken to him of the civility I had received from a stranger on board the
+<p>I shall be delighted to make you and Mr. Cap- sicomb acquainted. I have often
+spoken to him of the civility I had received from a stranger on board the
 packet, and regretted that in the confusion of landing I had not the opportunity
 of acknowledging my obligations to him.</p>
 </sp>
-<sp>
+<sp who="#L0296_M4">
 <speaker>O'G.</speaker>
 <p>Obligations! 'Pon my honour and conscience, madam, the boot's on the other
 leg. <stage>aside.</stage> Delighted to introduce me to her husband. Poor
@@ -822,60 +900,60 @@ Capsicomb! I'm sorry for him ; Terence, you're a murthering villain, there's no
 other name for you. But what's to be done if the women will fling themselves at
 your feet in this manner.</p>
 </sp>
-<sp>
+<sp who="#L0296_M3">
 <speaker>George.</speaker>
 <p>Here's Mr. Capsicomb, with Mary and my father.</p>
 <stage> Enter Mr. Lane, Sheriff Capsicomb, and Mary. D.R.F.</stage>
 </sp>
-<sp>
+<sp who="#L0296_M2">
 <speaker>Lane.</speaker>
 <p>Hah ! Mrs. Capsicomb; glad to see you. Here's the Sheriff—met him just at the
 corner of the street Wanted to see him. Terence, you needn't take that letter
 now.</p>
 </sp>
 <pb n="13"/>
-<sp>
+<sp who="#L0296_M4">
 <speaker>O'G.</speaker>
 <p>It's gone, sir.</p>
 </sp>
-<sp>
+<sp who="#L0296_M2">
 <speaker>Lane.</speaker>
 <p>Well, it don't signify.</p>
 </sp>
-<sp>
+<sp who="#L0296_F10">
 <speaker>Mrs. C.</speaker>
 <p>No, no, it's all perfectly right. <stage>to Capsicomb.</stage> My dear, you
 must let me introduce Mr. O'Grady to you. This is the young gentleman who was so
 civil to me on board the steamer.</p>
 </sp>
-<sp>
+<sp who="#L0296_M2">
 <speaker>Lane.</speaker>
 <p>What, Terence!</p>
 </sp>
-<sp>
+<sp who="#L0296_M1">
 <speaker>Caps.</speaker>
 <p>Hah, indeed. Oh, your most obedient, young man. Any civility shown to this
 lady, is a favour to me. In Mr. Lane's office, eh ?</p>
 </sp>
-<sp>
+<sp who="#L0296_F10">
 <speaker>Mrs. C.</speaker>
 <p>Mr. O'Grady is Mr. Lane's nephew.</p>
 </sp>
-<sp>
+<sp who="#L0296_M1">
 <speaker>Caps.</speaker>
 <p>Nephew! Oh, your nephew—eh ? <stage>to lane.</stage>
 </p>
 </sp>
-<sp>
+<sp who="#L0296_M2">
 <speaker>Lane.</speaker>
 <p>Yes; Terence is the son of my sister Martha; she married a captain of the
 Irish Dragoons, on half-pay, and—</p>
 </sp>
-<sp>
+<sp who="#L0296_M4">
 <speaker>O'G.</speaker>
 <p>And I'm what my uncle calls the natural consequence.</p>
 </sp>
-<sp>
+<sp who="#L0296_M1">
 <speaker>Caps.</speaker>
 <p>Ha, ha! Irish eh?—humph. Sad fellows, Irish. Play the devil with the women.
 Pretty story this morning about one of your countrymen. Ruined the domestic
@@ -884,34 +962,34 @@ miles from Thames-street! Never mention names.—Be all in the papers
 to-morrow!—Wife remarkably fine woman!—Only met the fellow at the Polish Ball,
 at the Mansion-house, last week.</p>
 </sp>
-<sp>
+<sp who="#L0296_M2">
 <speaker>Lane.</speaker>
 <p>Alarming rapidity.</p>
 </sp>
-<sp>
+<sp who="#L0296_M4">
 <speaker>O'G.</speaker>
 <p>Paddy's a mighty fine boy, and that's the truth of it.</p>
 </sp>
-<sp>
+<sp who="#L0296_M1">
 <speaker>Caps.</speaker>
 <p>Oh, if I was the husband, I'd have some awful vengeance. I don't know what;
 but something terrific.</p>
 </sp>
-<sp>
+<sp who="#L0296_M4">
 <speaker>O'G.</speaker>
 <p>You'd call him out.</p>
 </sp>
-<sp>
+<sp who="#L0296_M1">
 <speaker>Caps.</speaker>
 <p>Call him out! An Irishman! Not a bit of it. He'd be too happy to come. No,
 no; I wouldn't give him a chance. And as to the wife, I'd—I'd—oh, I'd—</p>
 </sp>
-<sp>
+<sp who="#L0296_F10">
 <speaker>Mrs. C.</speaker>
 <p>No doubt, and serve him right, I dare say. But you are not the husband, my
 dear, and so you needn't work yourself up into such a fury.</p>
 </sp>
-<sp>
+<sp who="#L0296_M1">
 <speaker>Caps.</speaker>
 <p>Very true, my love. No, I am not the husband, and I thank my stars, that with
 such a model of a wife, it is impossible I should be the husband! For I feel I
@@ -919,21 +997,21 @@ should forget my duty as a magistrate of this great city, and be <pb n="14"
 />guilty of some desperate act, which might bring me to the bar of the Old
 Bailey.</p>
 </sp>
-<sp>
+<sp who="#L0296_F10">
 <speaker>Mrs. C.</speaker>
 <p>Lord, my love, don't say such horrid things, I beg.</p>
 </sp>
-<sp>
+<sp who="#L0296_F11">
 <speaker>Mary.</speaker>
 <p>Dear papa, you quite make me shudder.</p>
 </sp>
-<sp>
+<sp who="#L0296_M4">
 <speaker>O'G.</speaker>
 <p>
 <stage>aside.</stage> Does the monster suspect, and mean that as a hint, I'd
 like to know ?</p>
 </sp>
-<sp>
+<sp who="#L0296_M2">
 <speaker>Lane.</speaker>
 <p>
 <stage>crosses to L.</stage> Come, come, let us change the conversation. I want
@@ -942,255 +1020,254 @@ Capsicomb and miss Mary will, perhaps, walk up into the drawing-room George,
 show the way. <stage>[Exit with Capsicomb, D. 2. E. L.</stage>
 </p>
 </sp>
-<sp>
+<sp who="#L0296_M3">
 <speaker>George.</speaker>
 <p>Yes, sir, certainly ! Mrs. Capsicomb, may I have the honour—</p>
 </sp>
-<sp>
+<sp who="#L0296_F10">
 <speaker>Mrs. C.</speaker>
 <p>Oh, take Mary, pray, I know you'd rather. I'll follow you.</p>
 <stage> [Exit George and Mary, D. 2 E. R. ; as Mrs Capsicomb is following,
 Terence stops her. </stage>
 </sp>
-<sp>
+<sp who="#L0296_M4">
 <speaker>O'G.</speaker>
 <p>Madam ! Mrs. Capsicomb! one moment!—only say that you forgive and pity poor
 Terence O'Grady.</p>
 </sp>
-<sp>
+<sp who="#L0296_F10">
 <speaker>Mrs. C.</speaker>
 <p>Forgive and pity you ! What for ?</p>
 </sp>
-<sp>
+<sp who="#L0296_M4">
 <speaker>O'G.</speaker>
 <p>What for ?—and is it with your own beautiful lips you can ask me that
 question, after reading the note I sent you, and concealing it, like an angel,
 as you are, from your brute of a husband.</p>
 </sp>
-<sp>
+<sp who="#L0296_F10">
 <speaker>Mrs. C.</speaker>
 <p>Sir?</p>
 </sp>
-<sp>
+<sp who="#L0296_M4">
 <speaker>O'G.</speaker>
 <p>The monster that has torn from me the woman I adore, and sundered two loving
 hearts that were made for one another.</p>
 </sp>
-<sp>
+<sp who="#L0296_F10">
 <speaker>Mrs. C.</speaker>
 <p>Mr. O'Grady, to whom can you possibly allude ? My husband tore you from the
 woman you adore!— had you unfortunately, then, fixed your affections upon Miss
 Capsicomb ?</p>
 </sp>
-<sp>
+<sp who="#L0296_M4">
 <speaker>O'G.</speaker>
-<p>Miss Capsicomb ! Devil a bit! it was upon Mrs. Capsicomb, bad luck to the
-man that made you so, when you might have been Mrs. Terence O'Grady, and the
-mother of a race of Irish gentlemen—instead of a shop full of dirty little
-pickles.</p>
+<p>Miss Capsicomb ! Devil a bit! it was upon Mrs. Capsicomb, bad luck to the man
+that made you so, when you might have been Mrs. Terence O'Grady, and the mother
+of a race of Irish gentlemen—instead of a shop full of dirty little pickles.</p>
 </sp>
-<sp>
+<sp who="#L0296_F10">
 <speaker>Mrs. C.</speaker>
 <p>Are you crazy, sir—or to what am I to attribute this extraordinary and
 offensive declaration ?</p>
 </sp>
-<sp>
+<sp who="#L0296_M4">
 <speaker>O'G.</speaker>
 <p>Offensive! When I tell you my intentions were <pb n="15"/>honourable. That
 when I sent you that note, full of passionate tenderness, I had no more idea of
 your being Mrs. Capsicomb, than I had of your being the Pope of Rome. </p>
 </sp>
-<sp>
+<sp who="#L0296_F10">
 <speaker>Mrs. C.</speaker>
-<p>Passionate tenderness! Mr. O'Grady you must have taken leave of your senses
-! What note did you ever send to me, except this one, without an address, but
+<p>Passionate tenderness! Mr. O'Grady you must have taken leave of your senses !
+What note did you ever send to me, except this one, without an address, but
 evidently intended for Mr. Capsicomb ? </p>
 </sp>
-<sp>
+<sp who="#L0296_M4">
 <speaker>O'G.</speaker>
 <p>Mr. Capsicomb? </p>
 </sp>
-<sp>
+<sp who="#L0296_F10">
 <speaker>Mrs. C.</speaker>
 <p>
 <stage>reads.</stage> " Sir, I am desired by Mr. Lane, to inform you that
 Clapham and Tooting are doing at two and a half—" </p>
 </sp>
-<sp>
+<sp who="#L0296_M4">
 <speaker>O'G.</speaker>
 <p>Stop! Stop! That's not the note at all. </p>
 </sp>
-<sp>
+<sp who="#L0296_F10">
 <speaker>Mrs. C.</speaker>
 <p>It is signed Terence O'Grady ; and some little boy brought it to me, at Mrs.
 Lump's, from a gentleman in this house. </p>
 </sp>
-<sp>
+<sp who="#L0296_M4">
 <speaker>O'G.</speaker>
 <p>It's a mistake, it's a mistake. </p>
 </sp>
-<sp>
+<sp who="#L0296_F10">
 <speaker>Mrs. C.</speaker>
-<p>Well, you told me so before, and at your own request I did not hand it to
-Mr. Capsicomb. </p>
+<p>Well, you told me so before, and at your own request I did not hand it to Mr.
+Capsicomb. </p>
 </sp>
-<sp>
+<sp who="#L0296_M4">
 <speaker>O'G.</speaker>
 <p>It was the other note. </p>
 </sp>
-<sp>
+<sp who="#L0296_F10">
 <speaker>Mrs. C.</speaker>
 <p>What other note ? </p>
 </sp>
-<sp>
+<sp who="#L0296_M4">
 <speaker>O'G.</speaker>
 <p>Why, the—oh! oh, murther! murther! </p>
 </sp>
-<sp>
+<sp who="#L0296_F10">
 <speaker>Mrs. C.</speaker>
 <p>Mercy upon me, what's the matter ? </p>
 </sp>
 <stage>Enter Mr. Lane and Capsicomb, D. 2 E. L. George and Mary, D. 2 E. E. </stage>
-<sp>
+<sp who="#L0296_M2">
 <speaker>Lane.</speaker>
 <p>What in the world's happened? </p>
 </sp>
-<sp>
+<sp who="#L0296_M3 #L0296_F11">
 <speaker>George and Mary.</speaker>
 <p>Somebody called murder!</p>
 </sp>
-<sp>
+<sp who="#L0296_M1">
 <speaker>Caps.</speaker>
 <p>Mrs. Capsicomb, you are agitated! Anything wrong? </p>
 </sp>
-<sp>
+<sp who="#L0296_M4">
 <speaker>O'G.</speaker>
 <p>
 <stage>aside to her.</stage> Silence, or you're a lost woman! </p>
 </sp>
-<sp>
+<sp who="#L0296_F10">
 <speaker>Mrs. C.</speaker>
 <p>
 <stage>aside.</stage> What can he mean? I'm frightened out of my life! </p>
 </sp>
-<sp>
+<sp who="#L0296_M1">
 <speaker>Caps.</speaker>
 <p><stage>crosses to her.</stage> Mrs. Capsicomb, my dear, I ask you, is there
 anything wrong ? </p>
 </sp>
-<sp>
+<sp who="#L0296_F10">
 <speaker>Mrs. C.</speaker>
 <p>I don't know, indeed? Ask Mr. O'Grady; I—</p>
 </sp>
-<sp>
+<sp who="#L0296_M1">
 <speaker>Caps.</speaker>
 <p>Mr. O'Grady? </p>
 </sp>
-<sp>
+<sp who="#L0296_M2">
 <speaker>Lane.</speaker>
 <p>Terence, you rascal, why don't you speak ? What made you howl out in that
 manner ? Is the Bank broke, or the Lord Mayor dead, or the house on fire ? </p>
 </sp>
-<sp>
+<sp who="#L0296_M4">
 <speaker>O'G.</speaker>
 <p>' Yes, sir ! No, sir! I'll go and enquire, sir! </p>
 </sp>
 <pb n="16"/>
-<sp>
+<sp who="#L0296_M1">
 <speaker>Caps.</speaker>
 <p><stage>perceiving the letter Mrs. Capsicomb has dropped in her
 fright.</stage> A letter: Perhaps this may explain ! <stage>looks suspiciously,
 first at Mrs. Capsicomb and then at O'Grady.</stage></p>
 </sp>
-<sp>
+<sp who="#L0296_M4">
 <speaker>O'G.</speaker>
 <p>
 <stage>aside.</stage> The green-eyed monster!</p>
 </sp>
-<sp>
+<sp who="#L0296_M1">
 <speaker>Caps.</speaker>
 <p>
 <stage>reads.</stage>" Sir, I am directed by Mr. Bartholomew Lane, to inform you
 that Clapham and Tooting—"</p>
 </sp>
-<sp>
+<sp who="#L0296_M2">
 <speaker>Lane.</speaker>
 <p>Why that's the letter I told him to write to you, sheriff; and that you told
 me you'd sent. <stage>to Terence.</stage>
 </p>
 </sp>
-<sp>
+<sp who="#L0296_M4">
 <speaker>O'G.</speaker>
 <p>And so I had, sir. That is to say, I thought</p>
 </sp>
-<sp>
+<sp who="#L0296_M3">
 <speaker>George.</speaker>
 <p>Oh, my dear father, I find I can explain this mystery; Terence, evidently,
 was under the impression that he had posted this letter, and finding he had
 not—</p>
 </sp>
-<sp>
+<sp who="#L0296_M4">
 <speaker>O'G.</speaker>
 <p>That's it exactly, sir. <stage>aside.</stage> For I've posted the other,
 directed to her husband, and we're ruined and undone, the both of us.</p>
 </sp>
-<sp>
+<sp who="#L0296_M2">
 <speaker>Lane.</speaker>
 <p>Is that all ? It's well it's no worse, you blundering booby. I thought
 Consols had dropped to sixty, at least.</p>
 </sp>
-<sp>
+<sp who="#L0296_M1">
 <speaker>Caps.</speaker>
 <p>Humph—very odd, call murder, because—</p>
 </sp>
-<sp>
+<sp who="#L0296_M3">
 <speaker>George.</speaker>
 <p>Oh, sir, it was only murder in Irish. But no doubt it frightened Mrs.
 Capsicomb.</p>
 </sp>
-<sp>
+<sp who="#L0296_M2">
 <speaker>Lane.</speaker>
 <p>The fact is, Mr. Terence knew that I had promised to send him packing the
 next blunder he made, and I've a great mind ; for although this luckily happens
 to be a matter of no consequence—</p>
 </sp>
-<sp>
+<sp who="#L0296_M4">
 <speaker>O'G.</speaker>
 <p>
 <stage>aside.</stage> No consequence !</p>
 </sp>
-<sp>
+<sp who="#L0296_M2">
 <speaker>Lane.</speaker>
 <p>It might have been of great importance—a question of life and death.</p>
 </sp>
-<sp>
+<sp who="#L0296_M4">
 <speaker>O'G.</speaker>
 <p>
 <stage>aside.</stage> It is a question of life and death.</p>
 </sp>
-<sp>
+<sp who="#L0296_M2">
 <speaker>Lane.</speaker>
 <p>It would have been just the same to that blockhead.</p>
 </sp>
-<sp>
+<sp who="#L0296_M1">
 <speaker>Caps.</speaker>
 <p>Well, well, we must be going. Come, my dear, come Mary. You'll dine with us,
 to-day, Mr. Lane, and you, George—-at five precisely; and then we'll fix the
 wedding-day, eh ? <stage>shakes hands.</stage>
 </p>
 </sp>
-<sp>
+<sp who="#L0296_M2">
 <speaker>Lane.</speaker>
 <p>Ay, ay, we'll be punctual, sheriff.—Good morning, Mrs. Capsicomb ; dear me,
 you look very pale still. I'm sorry my stupid nephew has frightened you so.</p>
 </sp>
 <pb n="17"/>
-<sp>
+<sp who="#L0296_F10">
 <speaker>Mrs. C.</speaker>
 <p>Oh, nonsense, it was only for a moment, I— <stage>aside.</stage> What has
 that foolish young man done ?</p>
 </sp>
-<sp>
+<sp who="#L0296_M1">
 <speaker>Caps.</speaker>
 <p>
 <stage>impatiently.</stage> Now, my dear! Good morning, Mr. Terence O'Grady!
@@ -1198,7 +1275,7 @@ that foolish young man done ?</p>
 </p>
 </sp>
 <stage> [Exit Capsicomb, Mrs. Capsicomb, and Mary, D. R. F. </stage>
-<sp>
+<sp who="#L0296_M4">
 <speaker>O'G.</speaker>
 <p>
 <stage>aside.</stage> The Hyæna! I could strangle him. And to think that he may
@@ -1207,124 +1284,124 @@ revenge himself upon that innocent darling. What will I do ? What will I do
 <p>
 <stage>throws himself despairingly on the chair.</stage></p>
 </sp>
-<sp>
+<sp who="#L0296_M3">
 <speaker>George.</speaker>
 <p>Terence.</p>
 </sp>
-<sp>
+<sp who="#L0296_M2">
 <speaker>Lane.</speaker>
 <p>What's the matter now ?</p>
 </sp>
-<sp>
+<sp who="#L0296_M3">
 <speaker>George.</speaker>
 <p>Poor fellow ! he's so sorry for what he's done.</p>
 </sp>
-<sp>
+<sp who="#L0296_M4">
 <speaker>O'G.</speaker>
 <p>You may say that. Ha ! I never thought of it. <stage>calls.</stage> John!
 John.! <stage>rings bell violently and breaks the handle.</stage>
 </p>
 </sp>
-<sp>
+<sp who="#L0296_M2">
 <speaker>Lane.</speaker>
 <p>The boy's mad. There, he's broken the bell, now.</p>
 </sp>
-<sp>
+<sp who="#L0296_M3">
 <speaker>George.</speaker>
 <p>Terence, Terence—are you frantic ?</p>
 </sp>
-<sp>
+<sp who="#L0296_M4">
 <speaker>O'G.</speaker>
 <p>I am—John! John!</p>
 </sp>
-<sp>
+<sp who="#L0296_M3">
 <speaker>George.</speaker>
 <p>What d'ye want with John ? He's out; gone to the post.</p>
 </sp>
-<sp>
+<sp who="#L0296_M4">
 <speaker>O'G.</speaker>
 <p>To the post.—Are you sure of it.—Did you see him go ?</p>
 </sp>
-<sp>
+<sp who="#L0296_M3">
 <speaker>George.</speaker>
 <p>Of course I did; didn't you give him the letters yourself.</p>
 </sp>
-<sp>
+<sp who="#L0296_M4">
 <speaker>O'G.</speaker>
 <p>I did, I did; and the villain took 'em! If there's murther, he's an
 accessory</p>
 </sp>
-<sp>
+<sp who="#L0296_M2">
 <speaker>Lane.</speaker>
 <p>Murder again, Terence, what have you done ?</p>
 </sp>
-<sp>
+<sp who="#L0296_M4">
 <speaker>O'G.</speaker>
 <p>Done ! I have compromised the honour of an innocent female, and there may be
 murder, I tell you. The old pickle merchant would poison the beautiful creature
 as soon as look at her. But he shan't live to do it. If any body's to be hanged,
 I'm the man.</p>
 </sp>
-<sp>
+<sp who="#L0296_M2">
 <speaker>Lane.</speaker>
 <p>Pickle merchant! Good gracious ! Compromised the honour—</p>
 </sp>
-<sp>
+<sp who="#L0296_M3">
 <speaker>George.</speaker>
 <p>Are you speaking of Mrs. Capsicomb ?</p>
 </sp>
 <stage> Enter John, D. R. F.</stage>
-<sp>
+<sp who="#L0296_M4">
 <speaker>O'G.</speaker>
 <p>
 <stage>rushing at him.</stage> Ha!—the letters, the letters,— you thief of the
 world!</p>
 </sp>
-<sp>
+<sp who="#L0296_M5">
 <speaker>John.</speaker>
 <p>Lord, sir, what letters, what d'ye mean?</p>
 </sp>
 <pb n="18"/>
-<sp>
+<sp who="#L0296_M4">
 <speaker>O'G.</speaker>
 <p>The letters you took to the post, what did you do with them ?</p>
 </sp>
-<sp>
+<sp who="#L0296_M5">
 <speaker>John.</speaker>
 <p>Why put 'em in the post, of course, sir.</p>
 </sp>
-<sp>
+<sp who="#L0296_M4">
 <speaker>O'G.</speaker>
 <p>Where? What post, speak. <stage>shakes him.</stage>
 </p>
 </sp>
-<sp>
+<sp who="#L0296_M5">
 <speaker>John.</speaker>
 <p>Oh, Lord, sir.—the grocer's, at the corner, Mrs. Lump's,sir .</p>
 </sp>
-<sp>
+<sp who="#L0296_M4">
 <speaker>O'G.</speaker>
 <p>Mrs. Lump's—<stage>flinging him off.</stage> Where's my hat.</p>
 </sp>
-<sp>
+<sp who="#L0296_M2 #L0296_M3">
 <speaker>Lane. &amp; George.</speaker>
 <p>Terence! Terence!</p>
 </sp>
-<sp>
+<sp who="#L0296_M4">
 <speaker>O'G.</speaker>
 <p>Where's my hat ? <stage>sees Mr Lane's, and snatches it up.</stage></p>
 </sp>
-<sp>
+<sp who="#L0296_M2">
 <speaker>Lane.</speaker>
 <p>That's mine, my best.</p>
 </sp>
-<sp>
+<sp who="#L0296_M4">
 <speaker>O'G.</speaker>
 <p>I'll have my letter again if I die for't.<stage>(cramming the hat on his
 head, and rushing out D. R. F., knocking over John.</stage>
 </p>
 </sp>
-<sp>
+<sp who="#L0296_M2">
 <speaker>Lane.</speaker>
 <p>Confound it; my best hat. Terence—John— George! I said it—I know it! that boy
 will be the death of me. <stage>sinks in chair.</stage>
@@ -1339,60 +1416,60 @@ will be the death of me. <stage>sinks in chair.</stage>
 <stage type="setting">Scene.— A Grocer's Shop. Counting-house door L. 2. E. Door
 in flat E. Door R. 2. E. Window, and street seen through. Mrs. Lump discovered
 at her books, L., a Man putting parcels into basket. </stage>
-<sp>
+<sp who="#L0296_F12">
 <speaker>Mrs. L.</speaker>
 <p><stage>entering the goods.</stage> Six black, Mrs. Brown.</p>
 </sp>
-<sp>
+<sp who="#L0296_J8">
 <speaker>Man.</speaker>
 <p>Right.</p>
 </sp>
-<sp>
+<sp who="#L0296_F12">
 <speaker>Mrs. L.</speaker>
 <p>Three green, Mrs. Brown.</p>
 </sp>
-<sp>
+<sp who="#L0296_J8">
 <speaker>Man.</speaker>
 <p>Right.</p>
 </sp>
-<sp>
+<sp who="#L0296_F12">
 <speaker>Mrs. L.</speaker>
-<p>Three sultanas, Mr. Turk; one loaf, Mr. Shortbread; six moist, Mrs.
-Sandlove; two Isinglass, Miss Vane.</p>
+<p>Three sultanas, Mr. Turk; one loaf, Mr. Shortbread; six moist, Mrs. Sandlove;
+two Isinglass, Miss Vane.</p>
 </sp>
-<sp>
+<sp who="#L0296_J8">
 <speaker>Man.</speaker>
 <p>Right.</p>
 </sp>
-<sp>
+<sp who="#L0296_F12">
 <speaker>Mrs. L.</speaker>
 <p>Very well, and you've got the pearl barley, and the arrow root, for No. 46 ;
 and the soojie for the new family over the way.</p>
 </sp>
-<sp>
+<sp who="#L0296_J8">
 <speaker>Man.</speaker>
 <p>Yes, missus.</p>
 </sp>
-<sp>
+<sp who="#L0296_F12">
 <speaker>Mrs. L.</speaker>
 <p>Very well; and the parcel for Mrs. Capsicomb is to go by the train, from
 London-bridge, remember.</p>
 <pb n="19"/>
 </sp>
-<sp>
+<sp who="#L0296_J8">
 <speaker>Man.</speaker>
 <p>Yes, missus; it's all right.</p>
 </sp>
-<sp>
+<sp who="#L0296_F12">
 <speaker>Mrs. L.</speaker>
 <p>Well, then, be off, and get back as soon as you can, for Thomas is out, too,
 and there's nobody to mind shop but myself.</p>
 </sp>
-<sp>
+<sp who="#L0296_J8">
 <speaker>Man.</speaker>
 <p>Yes, missus. <stage>[ Exit with basket, D. R. F.</stage></p>
 </sp>
-<sp>
+<sp who="#L0296_F12">
 <speaker>Mrs. L.</speaker>
 <p>Well, to be sure; only to think that my Bristol acquaintance, Julia Higgs,
 should become Mrs. Sheriff Capsicomb, and likely next year to be Lady Mayoress,
@@ -1402,341 +1479,341 @@ of seeing the man in the moon walk into the shop. Why, I declare, here she comes
 again.</p>
 <stage> Enter Mrs, Capsicomb, D. R. F. </stage>
 </sp>
-<sp>
+<sp who="#L0296_F10">
 <speaker>Mrs. C.</speaker>
 <p>My dear Mrs. Lump, you can do me a great service.</p>
 </sp>
-<sp>
+<sp who="#L0296_F12">
 <speaker>Mrs. L.</speaker>
 <p>Bless me, my dear Mrs. Capsicomb, you seem quite in a flustration. Anything,
 I'm sure, I can do—</p>
 </sp>
-<sp>
+<sp who="#L0296_F10">
 <speaker>Mrs. C.</speaker>
-<p>You're a good creature I know, and the only person in London I could speak
-to on the subject. The folly of a young man has placed me in a very awkward
+<p>You're a good creature I know, and the only person in London I could speak to
+on the subject. The folly of a young man has placed me in a very awkward
 position.</p>
 </sp>
-<sp>
+<sp who="#L0296_F12">
 <speaker>Mrs. L.</speaker>
 <p>Dear me! pray go on—this is very interesting.</p>
 </sp>
-<sp>
+<sp who="#L0296_F10">
 <speaker>Mrs. C.</speaker>
 <p>Just before my marriage, I went with my aunt to Ireland, on a visit to some
 friends ; we had a horrid passage back to Bristol, and a young gentleman, on
 board the steamer, was exceedingly attentive to me,</p>
 </sp>
-<sp>
+<sp who="#L0296_F12">
 <speaker>Mrs. L.</speaker>
 <p>Hah, a handsome young fellow, no doubt.</p>
 </sp>
-<sp>
+<sp who="#L0296_F10">
 <speaker>Mrs. C.</speaker>
-<p>My dear soul, I was too ill to notice a feature of his face. I only know
-that he lent me his cloak upon deck; forced me to drink some brandy and water,
-and carried me below when I couldn't sit up any longer. I couldn't speak to
-thank him, at the time, and I couldn't see him when I landed; Mr. Capsicomb was
+<p>My dear soul, I was too ill to notice a feature of his face. I only know that
+he lent me his cloak upon deck; forced me to drink some brandy and water, and
+carried me below when I couldn't sit up any longer. I couldn't speak to thank
+him, at the time, and I couldn't see him when I landed; Mr. Capsicomb was
 waiting for me, with a fly, and I never thought to have set eyes upon the man
 again.</p>
 </sp>
-<sp>
+<sp who="#L0296_F12">
 <speaker>Mrs. L.</speaker>
 <p>But you have—and he has declared himself.</p>
 </sp>
-<sp>
+<sp who="#L0296_F10">
 <speaker>Mrs. C.</speaker>
 <p>I dont know what he has done; but from his alarm, and a few hurried words he
 uttered, I fear he has been guilty of some folly which may seriously embroil me
 with my husband.</p>
 </sp>
 <pb n="20"/>
-<sp>
+<sp who="#L0296_F12">
 <speaker>Mrs. L.</speaker>
 <p>Good gracious ! but can't you explain ?</p>
 </sp>
-<sp>
+<sp who="#L0296_F10">
 <speaker>Mrs. C.</speaker>
 <p>Explain! oh, my dear friend, you don't know Mr. Capsicomb, with his jealousy
 and violent temper.</p>
 </sp>
-<sp>
+<sp who="#L0296_F12">
 <speaker>Mrs. L.</speaker>
 <p>Jealousy! violent temper! dear, dear, just like poor Lump; and I, who was
 only saying to myself, as you came in, what a lucky girl you were to get such a
 husband.</p>
 </sp>
-<sp>
+<sp who="#L0296_F10">
 <speaker>Mrs. C.</speaker>
 <p>Ah, well! it can't be helped now. He's very fond of me, and all that; but
 I've no time to loose, so let me tell you what I want you to do for me. This
 young man, is a neighbour of yours, and if you will see him, and ascertain what
 he has done that—</p>
 </sp>
-<sp>
+<sp who="#L0296_F12">
 <speaker>Mrs. L.</speaker>
 <p>Somebody's coming. Just step in here for a moment.</p>
 </sp>
-<sp>
+<sp who="#L0296_F10">
 <speaker>Mrs. C.</speaker>
 <p>Provoking. <stage>retires into counting-house, L. aside, as he goes
 in.</stage> Heavens! 'tis he !</p>
 <stage> Enter Terence O'Grady, hastily, D. R. F.</stage>
 </sp>
-<sp>
+<sp who="#L0296_M4">
 <speaker>O'G.</speaker>
 <p>Mrs. Lump!</p>
 </sp>
-<sp>
+<sp who="#L0296_F12">
 <speaker>Mrs. L.</speaker>
 <p>Sir.</p>
 </sp>
-<sp>
+<sp who="#L0296_M4">
 <speaker>O'G.</speaker>
 <p>You are Mrs. Lump, arn't you ?</p>
 </sp>
-<sp>
+<sp who="#L0296_F12">
 <speaker>Mrs. L.</speaker>
 <p>Certainly, sir; what may you please to want ?</p>
 </sp>
-<sp>
+<sp who="#L0296_M4">
 <speaker>O'G.</speaker>
-<p>My darling Mrs. Lump, you see an unfortunate young man before you, whose
-fate is in your hand.</p>
+<p>My darling Mrs. Lump, you see an unfortunate young man before you, whose fate
+is in your hand.</p>
 </sp>
-<sp>
+<sp who="#L0296_F12">
 <speaker>Mrs. L.</speaker>
 <p>Good gracious ! Lord, sir, what do you mean ?</p>
 </sp>
-<sp>
+<sp who="#L0296_M4">
 <speaker>O'G.</speaker>
 <p>I mean, that if you've got the least morsel of heart left in your beautiful
 bosom, you'll take pity on a young Irish gentleman,</p>
 </sp>
-<sp>
+<sp who="#L0296_F12">
 <speaker>Mrs. L.</speaker>
 <p>Me ! why I never saw you before in all my life.</p>
 </sp>
-<sp>
+<sp who="#L0296_M4">
 <speaker>O'G.</speaker>
 <p>What's that to do with it ? You see me now—in despair ! Are you a woman, and
 can you deny me ?</p>
 </sp>
-<sp>
+<sp who="#L0296_F12">
 <speaker>Mrs. L.</speaker>
-<p>Deny you? hang the fellow's impudence, I declare its enough to make Lump
-come out of his grave.</p>
+<p>Deny you? hang the fellow's impudence, I declare its enough to make Lump come
+out of his grave.</p>
 </sp>
-<sp>
+<sp who="#L0296_F10">
 <speaker>Mrs. C.</speaker>
 <p><stage>aside, looking out.</stage> What can he mean? What can he want ?</p>
 </sp>
-<sp>
+<sp who="#L0296_M4">
 <speaker>O'G.</speaker>
 <p>It's only to give it me, and say nothing about it.</p>
 </sp>
-<sp>
+<sp who="#L0296_F12">
 <speaker>Mrs. L.</speaker>
 <p>Give it you! give you what ? Stand off, or I'll call a policeman:</p>
 </sp>
-<sp>
+<sp who="#L0296_M4">
 <speaker>O'G.</speaker>
 <p>He'll be here presently, and then it's all over with me.</p>
 </sp>
-<sp>
+<sp who="#L0296_F12">
 <speaker>Mrs. L.</speaker>
 <p>A policeman ! Then you're a thief! oh, and Thomas is not at home.</p>
 </sp>
 <pb n="21"/>
-<sp>
+<sp who="#L0296_M4">
 <speaker>O'G.</speaker>
 <p>Bother the policeman ; I mean the postman.</p>
 </sp>
-<sp>
+<sp who="#L0296_F12">
 <speaker>Mrs. L.</speaker>
 <p>The postman !</p>
 </sp>
-<sp>
+<sp who="#L0296_M4">
 <speaker>O'G.</speaker>
 <p>He'll come for the letters.</p>
 </sp>
-<sp>
+<sp who="#L0296_F12">
 <speaker>Mrs. L.</speaker>
 <p>Of course he will—at two o'clock.</p>
 </sp>
-<sp>
+<sp who="#L0296_M4">
 <speaker>O'G.</speaker>
 <p>Then hand it over, my darling, and I'll bless you for ever.</p>
 </sp>
-<sp>
+<sp who="#L0296_F12">
 <speaker>Mrs. L.</speaker>
 <p>Hand what over ?</p>
 </sp>
-<sp>
+<sp who="#L0296_M4">
 <speaker>O'G.</speaker>
 <p>Don't I tell you—the letter! the letter!</p>
 </sp>
-<sp>
+<sp who="#L0296_F12">
 <speaker>Mrs. L.</speaker>
 <p>What letter? what are you talking about ?</p>
 </sp>
-<sp>
+<sp who="#L0296_M4">
 <speaker>O'G.</speaker>
 <p>The letter I sent to the post by mistake, I keep telling you.</p>
 </sp>
-<sp>
+<sp who="#L0296_F10">
 <speaker>Mrs. C.</speaker>
 <p>
 <stage>aside</stage> Ha!</p>
 </sp>
-<sp>
+<sp who="#L0296_F12">
 <speaker>Mrs. L.</speaker>
 <p>You keep telling me ?—you never told me any such thing, and I couldn't help
 it if you had. If the letter's in the box, it must go.</p>
 </sp>
-<sp>
+<sp who="#L0296_M4">
 <speaker>O'G.</speaker>
 <p>Go!—Mrs. Lump ! Where do you expect to go, if you behave in this way to a
 fellow creature in distress ?</p>
 </sp>
-<sp>
+<sp who="#L0296_F12">
 <speaker>Mrs. L.</speaker>
-<p>Go out of my shop, and don't talk nonsense to me you impudent fellow ? If
-Mr. Lump was alive—</p>
+<p>Go out of my shop, and don't talk nonsense to me you impudent fellow ? If Mr.
+Lump was alive—</p>
 </sp>
-<sp>
+<sp who="#L0296_M4">
 <speaker>O'G.</speaker>
 <p>If Mr. Lump was alive, he'd melt at the tale I could tell him ; and I won't
 leave the shop without my letter, if I die for it.</p>
 </sp>
-<sp>
+<sp who="#L0296_F12">
 <speaker>Mrs. L.</speaker>
-<p>Keep on that side the counter, or I'll take the chopper to you, I will.
-Arn't you ashamed of yourself to threaten a poor lone widow woman ? You, a
+<p>Keep on that side the counter, or I'll take the chopper to you, I will. Arn't
+you ashamed of yourself to threaten a poor lone widow woman ? You, a
 gentleman!</p>
 </sp>
-<sp>
+<sp who="#L0296_M4">
 <speaker>O'G.</speaker>
 <p>I don't threaten you—I beseech you, for the sake of your sex. I've
 compromised the honour of a beautiful creature ; written a letter entreating her
 to fly to my arms.</p>
 </sp>
-<sp>
+<sp who="#L0296_F10">
 <speaker>Mrs. C.</speaker>
 <p>How?</p>
 </sp>
-<sp>
+<sp who="#L0296_M4">
 <speaker>O'G.</speaker>
 <p>And directed it to her husband.</p>
 </sp>
-<sp>
+<sp who="#L0296_F10">
 <speaker>Mrs. Caps.</speaker>
 <p>
 <stage>(coming from L. D.)</stage> Hah! then I'm ruined!</p>
 </sp>
-<sp>
+<sp who="#L0296_M4">
 <speaker>O'G.</speaker>
 <p>Mrs. Capsicomb!</p>
 </sp>
-<sp>
+<sp who="#L0296_F12">
 <speaker>Mrs. L.</speaker>
 <p>My goodness, Mrs. C!—then that's the young gentleman.</p>
 </sp>
-<sp>
+<sp who="#L0296_F10">
 <speaker>Mrs. C.</speaker>
 <p>Yes, yes; and if he really has been so foolish, so mad, so wicked, as to
 write such a letter—</p>
 </sp>
-<sp>
+<sp who="#L0296_M4">
 <speaker>O'G.</speaker>
 <p>Wicked, I wicked ! if there ever was a lamb—</p>
 </sp>
-<sp>
+<sp who="#L0296_F10">
 <speaker>Mrs. C.</speaker>
 <p>Do give it him back, my dear friend, for my sake, and send him about his
 business.</p>
 </sp>
-<sp>
+<sp who="#L0296_F12">
 <speaker>Mrs. L.</speaker>
-<p>But my dear soul, I can't; I musn't! it's agin the law. I should be ruined
-if anybody was to know of it.</p>
+<p>But my dear soul, I can't; I musn't! it's agin the law. I should be ruined if
+anybody was to know of it.</p>
 </sp>
 <pb n="22"/>
-<sp>
+<sp who="#L0296_M4">
 <speaker>O'G.</speaker>
 <p>But nobody can know of it ; Lump's dead, and Thomas is out; I heard you say
 so. Give me the box.</p>
 </sp>
-<sp>
+<sp who="#L0296_F12">
 <speaker>Mrs. L.</speaker>
 <p>Go away—here's somebody coming now.</p>
 </sp>
 <stage>(Mr. Capsicomb appears at door E. F.</stage>
-<sp>
+<sp who="#L0296_F10">
 <speaker>Mrs. C.</speaker>
 <p>My husband ! <stage>(runs back into counting-house. )</stage>
 </p>
 </sp>
-<sp>
+<sp who="#L0296_F12">
 <speaker>Mrs. L.</speaker>
 <p>The Sheriff!</p>
 </sp>
-<sp>
+<sp who="#L0296_M4">
 <speaker>O'G.</speaker>
 <p>The devil! <stage>hides with Mrs. Capsicomb, D. L. she trying to prevent
 him.</stage></p>
 <stage> Enter Capsicomb, R. D. F.</stage>
 </sp>
-<sp>
+<sp who="#L0296_M1">
 <speaker>Caps.</speaker>
 <p>I beg your pardon, ma'am—Mrs. Lump, I believe ? </p>
 </sp>
-<sp>
+<sp who="#L0296_F12">
 <speaker>Mrs. L.</speaker>
 <p>Yes, Sir.</p>
 </sp>
-<sp>
+<sp who="#L0296_M1">
 <speaker>Caps.</speaker>
 <p>I am Sheriff Capsicomb, married an old friend of yours, I understand.</p>
 </sp>
-<sp>
+<sp who="#L0296_F12">
 <speaker>Mrs. L.</speaker>
 <p>Oh, yes, sir; Mr. Sheriff Capsicomb—to be sure, sir, Miss Julia Higgs.</p>
 </sp>
-<sp>
+<sp who="#L0296_M4">
 <speaker>O'G.</speaker>
 <p>
 <stage>aside to Mrs. Capsicomb,</stage> Julia—your name's Julia.</p>
 </sp>
-<sp>
+<sp who="#L0296_F10">
 <speaker>Mrs. C.</speaker>
 <p>
 <stage>aside.</stage> Hush, for mercy's sake.</p>
 </sp>
-<sp>
+<sp who="#L0296_M1">
 <speaker>Caps.</speaker>
 <p>Mrs. Capsicomb is here, I fancy ?</p>
 </sp>
-<sp>
+<sp who="#L0296_F12">
 <speaker>Mrs. L.</speaker>
 <p>Here, sir! She—she has been here, sir!</p>
 </sp>
-<sp>
+<sp who="#L0296_M1">
 <speaker>Caps.</speaker>
 <p>Oh, gone again, is she ?</p>
 </sp>
-<sp>
+<sp who="#L0296_F12">
 <speaker>Mrs. L.</speaker>
 <p>Oh a long time, sir.</p>
 </sp>
-<sp>
+<sp who="#L0296_M4">
 <speaker>O'G.</speaker>
 <p>
 <stage>half-aside and forgetting himself.</stage> Bravo, Mrs. Lump. <stage>Mrs.
 Capsicomb implores him to be silent.</stage>
 </p>
 </sp>
-<sp>
+<sp who="#L0296_M1">
 <speaker>Caps.</speaker>
 <p>Can't be a long time, for I left her myself not twenty minutes ago. She was
 to have gone by the train, to my house, at Norwood, with my daughter. Thought
@@ -1745,353 +1822,353 @@ herself, in a pastry cook's shop; told me Mrs. Capsicomb had left her there
 whilst she ran back for something she had forgotten; couldn't have missed her,
 surely; came straight down the street.</p>
 </sp>
-<sp>
+<sp who="#L0296_F12">
 <speaker>Mrs. L.</speaker>
 <p>I think she said she'd go a little further.</p>
 </sp>
-<sp>
+<sp who="#L0296_M4">
 <speaker>O'G.</speaker>
 <p>Bra—<stage>Mrs. Capsicombe stops him.</stage>
 </p>
 </sp>
-<sp>
+<sp who="#L0296_M1">
 <speaker>Caps.</speaker>
 <p>Where the deuce is she gone to ? So provoking; I've finished my business in
 town, and we might all go home together. She can't have gone to Mrs. Lane's,
 eh?</p>
 </sp>
-<sp>
+<sp who="#L0296_F12">
 <speaker>Mrs. L.</speaker>
 <p>Mr. Lane, the stock-broker, sir It's not impossible.</p>
 </sp>
-<sp>
+<sp who="#L0296_M1">
 <speaker>Caps.</speaker>
 <p>I'll just step there and—</p>
 <pb n="23"/>
 <stage>Enter Mr. Lane, R. D. F., with Terence's hat on.</stage>
 <p>Hollo ! here you are!</p>
 </sp>
-<sp>
+<sp who="#L0296_M2">
 <speaker>Lane.</speaker>
 <p>Sheriff, you here ?</p>
 </sp>
-<sp>
+<sp who="#L0296_M1">
 <speaker>Caps.</speaker>
 <p>My wife at your house ?</p>
 </sp>
-<sp>
+<sp who="#L0296_M2">
 <speaker>Lane.</speaker>
 <p>No ! she went away with you, didn't she ?</p>
 </sp>
-<sp>
+<sp who="#L0296_M1">
 <speaker>Caps.</speaker>
 <p>Yes, but—</p>
 </sp>
-<sp>
+<sp who="#L0296_M2">
 <speaker>Lane.</speaker>
 <p>Excuse me a moment, Sheriff. My good neighbour <stage>to Mrs. Lump.</stage>
 one word with you in private. May I step in here ? <stage>going to door,
 L</stage></p>
 </sp>
-<sp>
+<sp who="#L0296_F12">
 <speaker>Mrs. L.</speaker>
 <p>
 <stage>hastily,</stage> No, no, if you please, not there! <stage>preventing
 him.</stage>
 </p>
 </sp>
-<sp>
+<sp who="#L0296_M2">
 <speaker>Lane.</speaker>
 <p>Hah! <stage>(seeing Mrs. Capsicomb and Terence. </stage></p>
 </sp>
-<sp>
+<sp who="#L0296_M1">
 <speaker>Caps.</speaker>
 <p>
 <stage>(turning suddenly.)</stage> What's the matter ?</p>
 </sp>
-<sp>
+<sp who="#L0296_M2">
 <speaker>Lane.</speaker>
 <p>Nothing ! something in my eye, that's all!</p>
 </sp>
-<sp>
+<sp who="#L0296_F12">
 <speaker>Mrs. L.</speaker>
 <p>A fly, no doubt; let me see, sir. The nasty things, they're the plague of my
 life, sir.</p>
 </sp>
-<sp>
+<sp who="#L0296_M1">
 <speaker>Caps.</speaker>
 <p>Of course! a grocer's; is it out ?</p>
 </sp>
-<sp>
+<sp who="#L0296_M2">
 <speaker>Lane.</speaker>
 <p>Oh yes, it's out. <stage>aside.</stage> I'm horror-struck !</p>
 </sp>
-<sp>
+<sp who="#L0296_F12">
 <speaker>Mrs. L.</speaker>
 <p>Anything so sudden, sir, makes one jump so—doesn't it, sir ?</p>
 </sp>
-<sp>
+<sp who="#L0296_M1">
 <speaker>Caps.</speaker>
 <p>Jump! faith you made me jump; you're sure Mrs. Capsicomb's not at your house
 ?</p>
 </sp>
-<sp>
+<sp who="#L0296_M2">
 <speaker>Lane.</speaker>
 <p>Positive!</p>
 </sp>
-<sp>
+<sp who="#L0296_M1">
 <speaker>Caps.</speaker>
 <p>Then I'll go to the pastrycook's; she must come there for Mary. Good morning,
 Mrs. Lump ; don't forget five o'clock, Lane. <stage>[ Exit, D. R F.</stage></p>
 </sp>
-<sp>
+<sp who="#L0296_M4">
 <speaker>O'G.</speaker>
 <p>
 <stage>coming forward.</stage> He's gone!</p>
 </sp>
-<sp>
+<sp who="#L0296_M2">
 <speaker>Lane.</speaker>
 <p>Oh, Mrs. Lump !</p>
 </sp>
-<sp>
+<sp who="#L0296_F12">
 <speaker>Mrs. L.</speaker>
 <p>Mr. Lane, upon my word, sir—</p>
 </sp>
-<sp>
+<sp who="#L0296_F10">
 <speaker>Mrs. Caps.</speaker>
 <p><stage>advancing. </stage> What will become of me ?</p>
 </sp>
-<sp>
+<sp who="#L0296_M2">
 <speaker>Lane.</speaker>
 <p>Oh, Mrs. Capsicomb !</p>
 </sp>
-<sp>
+<sp who="#L0296_F10">
 <speaker>Mrs. C.</speaker>
 <p>Mr. Lane, notwithstanding appearances—</p>
 </sp>
-<sp>
+<sp who="#L0296_M4">
 <speaker>O'G.</speaker>
 <p>Yes, sir, notwithstanding appearances—</p>
 </sp>
-<sp>
+<sp who="#L0296_M2">
 <speaker>Lane.</speaker>
 <p>How dare you speak to me, you young villain.</p>
 </sp>
-<sp>
+<sp who="#L0296_M4">
 <speaker>O'G.</speaker>
 <p>I won't speak to you. Mrs. Lump, the letter— before it's too late.
 <stage>draws out the letter box.</stage>
 </p>
 </sp>
-<sp>
+<sp who="#L0296_F12">
 <speaker>Mrs. L.</speaker>
 <p>Oh, my goodness, you can't—I musn't—</p>
 </sp>
-<sp>
+<sp who="#L0296_F10">
 <speaker>Mrs. C.</speaker>
 <p>Yes, yes, for my sake; Mr. Lane will hold the shop door.</p>
 </sp>
-<sp>
+<sp who="#L0296_M2">
 <speaker>Lane.</speaker>
 <p>I!—what for ?—no such thing. <stage> (Terence empties box on counter.
 </stage></p>
 </sp>
 <pb n="24"/>
-<sp>
+<sp who="#L0296_F10">
 <speaker>Mrs. C.</speaker>
 <p>Yes, my dear sir, I'm sure you will, only for a moment.</p>
 </sp>
-<sp>
+<sp who="#L0296_M4">
 <speaker>O'G.</speaker>
 <p>There it is—I see it !</p>
 </sp>
-<sp>
+<sp who="#L0296_F12">
 <speaker>Mrs. L.</speaker>
 <p>You shan't.</p>
 </sp>
-<sp>
+<sp who="#L0296_M4">
 <speaker>O'G.</speaker>
-<p>But I will; sure it's my own letter, and I've a right— <stage>(snatches
-one.) </stage></p>
+<p>But I will; sure it's my own letter, and I've a right— <stage>(snatches one.)
+</stage></p>
 </sp>
-<sp>
+<sp who="#L0296_F12">
 <speaker>Mrs. L.</speaker>
 <p>You've no right.</p>
 </sp>
-<sp>
+<sp who="#L0296_M2">
 <speaker>Lane.</speaker>
 <p>No, you've no right.</p>
 </sp>
-<sp>
+<sp who="#L0296_M4">
 <speaker>O'G.</speaker>
 <p>Hold the door, governor. <stage>reading the address.</stage> " Miss
 Honeycomb, Milliner." Miss ! it's a Miss!</p>
 </sp>
-<sp>
+<sp who="#L0296_F12">
 <speaker>Mrs. L.</speaker>
 <p>There, I told you so! Give it me back, directly.</p>
 </sp>
-<sp>
+<sp who="#L0296_M4">
 <speaker>O'G.</speaker>
 <p>Honeycomb; I'd have sworn it was Capsicomb ; did anybody ever see such an H
 as that <stage>gives back the letter.</stage> There—there it is !
 <stage>matching at another.</stage>
 </p>
 </sp>
-<sp>
+<sp who="#L0296_F12">
 <speaker>Mrs. L.</speaker>
 <p>No, no. <stage>struggles with him.</stage>
 </p>
 </sp>
-<sp>
+<sp who="#L0296_M4">
 <speaker>O'G.</speaker>
 <p>It is, I tell you—" High Street, Islington." I read it as plain as life; in
 my own beautiful handwriting, and no mistake.</p>
 </sp>
-<sp>
+<sp who="#L0296_F10">
 <speaker>Mrs. C.</speaker>
 <p>Thank heaven !</p>
 </sp>
-<sp>
+<sp who="#L0296_M4">
 <speaker>O'G.</speaker>
 <p>Hurrah ! here madam, <stage>to Mrs. Capsicomb.</stage> now you shall see.
 <stage>opens letter hastily.</stage> Oh, murder—-what's this. " Sir, I enclose
 you a crossed cheque for £50, being the price of the mustard." It's not my
 handwriting after all.</p>
 </sp>
-<sp>
+<sp who="#L0296_F10">
 <speaker>Mrs. C.</speaker>
 <p>And the name's Lipscomb.</p>
 </sp>
-<sp>
+<sp who="#L0296_M2">
 <speaker>Lane.</speaker>
 <p>Opened a letter with money in it. That's felony.</p>
 </sp>
-<sp>
+<sp who="#L0296_F12">
 <speaker>Mrs. L.</speaker>
 <p>I'm a ruined woman ! Oh! oh !</p>
 </sp>
-<sp>
+<sp who="#L0296_F10">
 <speaker>Mrs. C.</speaker>
 <p>Oh, my dear sir—felony !</p>
 </sp>
-<sp>
+<sp who="#L0296_M2">
 <speaker>Lane.</speaker>
 <p>It's transportation; it was hanging; we're all accomplices.</p>
 </sp>
-<sp>
+<sp who="#L0296_M4">
 <speaker>O'G.</speaker>
 <p>£50 worth of mustard ! only to think—It's enough to blister the whole
 parish!</p>
 </sp>
-<sp>
+<sp who="#L0296_F12">
 <speaker>Mrs. L.</speaker>
 <p>What shall I do—what shall I do!</p>
 </sp>
-<sp>
+<sp who="#L0296_M4">
 <speaker>O'G.</speaker>
 <p>What'll you do ? Why, seal it up again, and say nothing about it. I don't
 want the man's money.</p>
 </sp>
-<sp>
+<sp who="#L0296_M2">
 <speaker>Lane.</speaker>
-<p>No, no, point it out to the postman, and let it go as it is; it will pass
-for an accident.</p>
+<p>No, no, point it out to the postman, and let it go as it is; it will pass for
+an accident.</p>
 </sp>
-<sp>
+<sp who="#L0296_M4">
 <speaker>O'G.</speaker>
 <p>Bravo, governor!—You're right, governor!—He's a cute boy, the governor.</p>
 </sp>
-<sp>
+<sp who="#L0296_M2">
 <speaker>Lane.</speaker>
-<p>You impudent rascal; oh, if I hadn't held the door, I'd have informed
-against you myself.</p>
+<p>You impudent rascal; oh, if I hadn't held the door, I'd have informed against
+you myself.</p>
 </sp>
 <pb n="25"/>
-<sp>
+<sp who="#L0296_M4">
 <speaker>O'G.</speaker>
-<p>Bless your stars that you have been spared the painful necessity. But
-where's <hi>my</hi> letter all the while ?</p>
+<p>Bless your stars that you have been spared the painful necessity. But where's
+<hi>my</hi> letter all the while ?</p>
 </sp>
-<sp>
+<sp who="#L0296_F10">
 <speaker>Mrs. C.</speaker>
 <p>It isn't here. It can't have been posted here.</p>
 </sp>
-<sp>
+<sp who="#L0296_M4">
 <speaker>O'G.</speaker>
 <p>That villain, John—I'll strangle him.</p>
 </sp>
-<sp>
+<sp who="#L0296_F12">
 <speaker>Mrs. L.</speaker>
 <p>Or it might have gone by the twelve o'clock.</p>
 </sp>
-<sp>
+<sp who="#L0296_M4">
 <speaker>O'G.</speaker>
 <p>Twelve o'clock! Was it before twelve, governor?</p>
 </sp>
-<sp>
+<sp who="#L0296_M2">
 <speaker>Lane.</speaker>
 <p>How should I know, sir ? How dare you ask me?</p>
 </sp>
-<sp>
+<sp who="#L0296_M4">
 <speaker>O'G.</speaker>
 <p>Wait 'till I find John. <stage>(rushing towards D. R. F.</stage></p>
 </sp>
-<sp>
+<sp who="#L0296_M2">
 <speaker>Lane.</speaker>
 <p>Give me my hat; you've got my hat; here's yours.</p>
 </sp>
 <stage> Enter George, R. D. F. Terence runs against him. </stage>
-<sp>
+<sp who="#L0296_M3">
 <speaker>George.</speaker>
 <p>Oh, confound you.</p>
 </sp>
-<sp>
+<sp who="#L0296_M4">
 <speaker>O'G.</speaker>
 <p>Don't mention it; I'm not hurt; never mind me. <stage>[exit R. D.
 F.</stage></p>
 </sp>
-<sp>
+<sp who="#L0296_M3">
 <speaker>George.</speaker>
 <p>Mrs. Capsicomb! you are here, then ?</p>
 </sp>
-<sp>
+<sp who="#L0296_M2">
 <speaker>Lane.</speaker>
 <p>Yes, she is here—and a pretty— <stage>(flings Terence's hat into the
 counting-house in a passion.</stage>
 </p>
 </sp>
-<sp>
+<sp who="#L0296_F10">
 <speaker>Mrs. C.</speaker>
 <p><stage> (crosses to C.) </stage>My dear sir, hear me, at least, before you
 condemn ; I can assure you I am as indignant as you can be, at Mr. O'Grady's
 conduct, and innocent of any clandestine correspondence with him.</p>
 </sp>
-<sp>
+<sp who="#L0296_M3">
 <speaker>George.</speaker>
 <p>I am sure of it, madam; but, unfortunately, your husband—</p>
 </sp>
-<sp>
+<sp who="#L0296_F10">
 <speaker>Mrs. C.</speaker>
 <p>My husband ! oh, sir, speak.</p>
 </sp>
-<sp>
+<sp who="#L0296_M3">
 <speaker>George.</speaker>
 <p>I have just left Mr. Capsicomb in a state of excitement—</p>
 </sp>
-<sp>
+<sp who="#L0296_F10">
 <speaker>Mrs. C.</speaker>
 <p>Ah! then he suspects, or perhaps has been (told—</p>
 </sp>
-<sp>
+<sp who="#L0296_M3">
 <speaker>George.</speaker>
 <p>I was coming here after my father, who feared some imprudence of Terence.</p>
 </sp>
-<sp>
+<sp who="#L0296_M2">
 <speaker>Lane.</speaker>
 <p>Imprudence! oh, if you only knew.</p>
 </sp>
-<sp>
+<sp who="#L0296_M3">
 <speaker>George.</speaker>
 <p>When I was hailed by Mr. Capsicomb, who was standing at the pastry-cook's
 door, with Mary, he was in a dreadful rage at being kept waiting. Mary insisted
@@ -2100,174 +2177,173 @@ gone sometime; and at last he seemed to be struck by the notion that Mrs. Lump
 had deceived him, and that you were hidden here.</p>
 </sp>
 <pb n="26"/>
-<sp>
+<sp who="#L0296_F10">
 <speaker>Mrs. C.</speaker>
 <p>Ah, there, I feared so, and nothing will convince—</p>
 </sp>
-<sp>
+<sp who="#L0296_F12">
 <speaker>Mrs. L.</speaker>
 <p>Oh, dear,—oh, dear! that a woman of my respectability should be placed in
 such a predicament.</p>
 </sp>
-<sp>
+<sp who="#L0296_M3">
 <speaker>George.</speaker>
 <p>I told him it was impossible, and volunteered to hunt for you one way, whilst
 he went another.</p>
 </sp>
-<sp>
+<sp who="#L0296_F10">
 <speaker>Mrs. C.</speaker>
 <p>Oh, let me run then, at once, and do you, dear Mr. Lane, prevent that mad
 young man molesting me any further.</p>
 </sp>
-<sp>
+<sp who="#L0296_F12">
 <speaker>Mrs. L.</speaker>
 <p>
 <stage>looking out at the door.</stage> There he is again!</p>
 </sp>
-<sp>
+<sp who="#L0296_M2">
 <speaker>Lane.</speaker>
 <p>Terence.</p>
 </sp>
-<sp>
+<sp who="#L0296_F12">
 <speaker>Mrs. L.</speaker>
-<p>No, the sheriff, looking into all the shops on the other side of the
-way.</p>
+<p>No, the sheriff, looking into all the shops on the other side of the way.</p>
 </sp>
-<sp>
+<sp who="#L0296_F10">
 <speaker>Mrs. C.</speaker>
 <p>Oh, mercy,—if he sees me coming out of this one now.</p>
 </sp>
-<sp>
+<sp who="#L0296_F12">
 <speaker>Mrs. L.</speaker>
 <p>Follow me; and I'll let out out at the private door, round the corner.</p>
 </sp>
-<sp>
+<sp who="#L0296_F10">
 <speaker>Mrs. C.</speaker>
 <p>Quick—quick!</p>
 <stage>[ Exeunt Mrs. Lump and Mrs. Capsicomb, R </stage>
 </sp>
-<sp>
+<sp who="#L0296_M3">
 <speaker>George.</speaker>
 <p>Just in time, he's crossing over, and coming here.</p>
 </sp>
-<sp>
+<sp who="#L0296_M2">
 <speaker>Lane.</speaker>
 <p>I'll tell him the whole truth, that rascal Terence is alone to blame,
 and—</p>
 </sp>
-<sp>
+<sp who="#L0296_M3">
 <speaker>George.</speaker>
 <p>Pray, don't, sir; he'll mix us up in the business somehow, and there'll be an
 end of my union with Mary.</p>
 </sp>
-<sp>
+<sp who="#L0296_M2">
 <speaker>Lane.</speaker>
 <p>That's true, that's true ; he might object to the connection, if he
 suspected; and he will suspect—he's so confoundedly suspicious.</p>
 </sp>
-<sp>
+<sp who="#L0296_M3">
 <speaker>George.</speaker>
 <p>Hush, here he is.</p>
 <stage> Enter Capsicomb, R. D. F., looks about the shop, coolly but
 suspiciously. </stage>
 <p>Have you found Mrs. Capsicomb, sir ?</p>
 </sp>
-<sp>
+<sp who="#L0296_M1">
 <speaker>Caps.</speaker>
 <p>No, have you ?</p>
 </sp>
-<sp>
+<sp who="#L0296_M3">
 <speaker>George.</speaker>
 <p>No, sir; I was just waiting to ask Mrs. Lump, sir, if—</p>
 </sp>
-<sp>
+<sp who="#L0296_M2">
 <speaker>Lane.</speaker>
 <p>Yes, we were just waiting to ask Mrs. Lump.</p>
 </sp>
-<sp>
+<sp who="#L0296_M1">
 <speaker>Caps.</speaker>
 <p>You ? Why you were here when I asked Mrs. Lump.</p>
 </sp>
-<sp>
+<sp who="#L0296_M2">
 <speaker>Lane.</speaker>
 <p>So I was; you're quite right, I was, and—</p>
 </sp>
 <pb n="27"/>
-<sp>
+<sp who="#L0296_M1">
 <speaker>Caps.</speaker>
 <p>And there was something in your eye, you remember.</p>
 </sp>
-<sp>
+<sp who="#L0296_M2">
 <speaker>Lane.</speaker>
 <p>To be sure there was; you're quite right, a fly, plague take it !</p>
 </sp>
-<sp>
+<sp who="#L0296_M1">
 <speaker>Caps.</speaker>
 <p>You're certain it was a fly ?</p>
 </sp>
-<sp>
+<sp who="#L0296_M2">
 <speaker>Lane.</speaker>
 <p>Oh, certain, Mrs. Lump took it out.</p>
 </sp>
-<sp>
+<sp who="#L0296_M1">
 <speaker>Caps.</speaker>
 <p>Mrs. Lump, oh, she's a kind person, that Mrs. Lump? I may say a useful
 person—a very useful person.</p>
 </sp>
-<sp>
+<sp who="#L0296_M2">
 <speaker>Lane.</speaker>
 <p>A very respectable person, too, I can assure you, Sheriff.—known her a long
 time; knew her husband; managed all their money matters. Poor Lump ! left her
 very well off.</p>
 </sp>
-<sp>
+<sp who="#L0296_M1">
 <speaker>Caps.</speaker>
 <p>I beg your pardon, but I think this is the way you were looking when the fly
 flew in your eye. <stage>(crosses and looks into D. R.)</stage> A hat, eh ?
 <stage>taking up the one Lane has flung into the counting-house.</stage></p>
 </sp>
-<sp>
+<sp who="#L0296_M2">
 <speaker>Lane.</speaker>
 <p>That's mine.</p>
 </sp>
-<sp>
+<sp who="#L0296_M1">
 <speaker>Caps.</speaker>
 <p>Yours! <stage>looking at the inside.</stage> Is your name Terence O'Grady
 ?</p>
 </sp>
-<sp>
+<sp who="#L0296_M2">
 <speaker>Lane.</speaker>
 <p>
 <stage>aside.</stage> Confound it; that is, when I say mine, it's the one I came
 in; Terence took mine, and I came after him with—</p>
 </sp>
-<sp>
+<sp who="#L0296_M1">
 <speaker>Caps.</speaker>
 <p>After him: oh, then Mr. O'Grady has been here, too?</p>
 </sp>
-<sp>
+<sp who="#L0296_M3">
 <speaker>George.</speaker>
 <p>Yes, sir, my cousin has been here; but he's been gone some time.</p>
 </sp>
-<sp>
+<sp who="#L0296_M1">
 <speaker>Caps.</speaker>
 <p>Oh, he's been gone some time, and Mrs. Capsicomb has been gone some
 time—perhaps they went together!</p>
 </sp>
-<sp>
+<sp who="#L0296_M3">
 <speaker>George.</speaker>
 <p>My dear sir, what an idea !</p>
 </sp>
-<sp>
+<sp who="#L0296_M1">
 <speaker>Caps.</speaker>
 <p>Where is Mrs. Lump ?</p>
 </sp>
-<sp>
+<sp who="#L0296_M2">
 <speaker>Lane.</speaker>
 <p>Just stepped up stairs; she'll be down in a minute.</p>
 <stage> Enter Terence O'Grady R. D. F.</stage>
 </sp>
-<sp>
+<sp who="#L0296_M4">
 <speaker>O'G.</speaker>
 <p>
 <stage>not seeing capsicomb.</stage> It was before twelve and the letter's at
@@ -2275,181 +2351,181 @@ Islington by this time; but I'll go and— <stage>George motions to him, and at
 last succeeds in making him aware of Capsicomb's presence.</stage> Oh, oh, it's
 there you are, Mr. Sheriff!</p>
 </sp>
-<sp>
+<sp who="#L0296_M1">
 <speaker>Caps.</speaker>
 <p>Yes, here I am, Mr. O'Grady. Is there anything particularly remarkable in my
 being here ?</p>
 </sp>
 <pb n="28"/>
-<sp>
+<sp who="#L0296_M4">
 <speaker>O'G.</speaker>
 <p>Nothing in life, sir; only I thought you were at Norwood, sir; but as you're
 not a bird, its a reason as we say.</p>
 </sp>
-<sp>
+<sp who="#L0296_M1">
 <speaker>Caps.</speaker>
 <p>What letter, pray, is at Islington by this time ? One for me ?</p>
 </sp>
-<sp>
+<sp who="#L0296_M4">
 <speaker>O'G.</speaker>
-<p>For you, sir! It's a mighty likely thing I should send a letter to
-Islington, for you, when I thought you were at Norwood.</p>
+<p>For you, sir! It's a mighty likely thing I should send a letter to Islington,
+for you, when I thought you were at Norwood.</p>
 </sp>
-<sp>
+<sp who="#L0296_M1">
 <speaker>Caps.</speaker>
 <p>But before twelve, you couldn't know I was going there.</p>
 </sp>
-<sp>
+<sp who="#L0296_M4">
 <speaker>O'G.</speaker>
 <p>
 <stage>aside.</stage> The Rhinoceros! <stage>aloud.</stage> Are you the only
 inhabitant of that suburban locality, called Islington, Mr. Sheriff, I'd like to
 know ?</p>
 </sp>
-<sp>
+<sp who="#L0296_M2">
 <speaker>Lane.</speaker>
 <p>Terence, don't you be impertinent, sir.</p>
 </sp>
-<sp>
+<sp who="#L0296_M4">
 <speaker>O'G.</speaker>
 <p>I'm not impertinent! It's a statistical question of considerable interest to
 the public in general, and to myself in particular.</p>
 </sp>
-<sp>
+<sp who="#L0296_M1">
 <speaker>Caps.</speaker>
 <p>Well, sir, if the letter was not to me, or does not concern me, of course
 I've no more to say on that subject. I shall, however, return to my house, at
 Islington, before I go to Norwood, and ascertain if there are <hi>any</hi>
 letters for me, or for <hi>any persons</hi> residing under my roof?</p>
 </sp>
-<sp>
+<sp who="#L0296_M4">
 <speaker>O'G.</speaker>
 <p>
 <stage>aside.</stage> The Hippopotamus ? If I don't get before him —— </p>
 </sp>
-<sp>
+<sp who="#L0296_M1">
 <speaker>Caps.</speaker>
 <p>Good morning, Mr. Lane !</p>
 </sp>
-<sp>
+<sp who="#L0296_M2">
 <speaker>Lane.</speaker>
 <p>But didn't you want to see Mrs. Lump ?</p>
 </sp>
-<sp>
+<sp who="#L0296_M4">
 <speaker>O'G.</speaker>
 <p>To be sure you wanted to see Mrs. Lump. Mrs. Lump, here's the Sheriff wants
 to speak with you.</p>
 </sp>
-<sp>
+<sp who="#L0296_M2">
 <speaker>Lane.</speaker>
 <p>She's not there—she's—</p>
 </sp>
-<sp>
+<sp who="#L0296_M4">
 <speaker>O'G.</speaker>
 <p>I say she is.</p>
 </sp>
-<sp>
+<sp who="#L0296_M3">
 <speaker>George.</speaker>
 <p>No ; she's in the house.</p>
 </sp>
-<sp>
+<sp who="#L0296_M1">
 <speaker>Caps.</speaker>
 <p>Ah ! then who is here— <stage>runs into counting-house.</stage></p>
 </sp>
-<sp>
+<sp who="#L0296_M4">
 <speaker>O'G.</speaker>
 <p>
 <stage>locking him in.</stage> You are, my darling, and I'll trouble you to stay
 there !</p>
 </sp>
-<sp>
+<sp who="#L0296_M3 #L0296_M2">
 <speaker>Lane | George</speaker>
 <p>Terence ? </p>
 </sp>
-<sp>
+<sp who="#L0296_M1">
 <speaker>Caps.</speaker>
 <p>
 <stage>within.</stage> Hollo ! hollo!</p>
 </sp>
-<sp>
+<sp who="#L0296_M4">
 <speaker>O'G.</speaker>
 <p>There's something in the keyhole, be easy while I go for the locksmith !
 <stage>runs out R. D. F . </stage></p>
 </sp>
-<sp>
+<sp who="#L0296_M2">
 <speaker>Lane.</speaker>
 <p>My hat.</p>
 </sp>
 <pb n="29"/>
 <stage>Enter Mrs. Lump , D. R. 2 E.</stage>
-<sp>
+<sp who="#L0296_M1">
 <speaker>Caps.</speaker>
 <p>
 <stage>within</stage> Let me out, Mrs. Lump!</p>
 </sp>
-<sp>
+<sp who="#L0296_F12">
 <speaker>Mrs. L.</speaker>
 <p>The Sheriff locked in! Where's the key ?</p>
 </sp>
-<sp>
+<sp who="#L0296_M3">
 <speaker>George.</speaker>
 <p>Terence has got it ?</p>
 </sp>
-<sp>
+<sp who="#L0296_M2">
 <speaker>Lane.</speaker>
 <p>And my hat!</p>
 </sp>
-<sp>
+<sp who="#L0296_M1">
 <speaker>Caps.</speaker>
 <p>
 <stage>bursts open door of country house.</stage> It's a conspiracy! You're all
 in it. I'll indict you all!</p>
 </sp>
-<sp>
+<sp who="#L0296_M3">
 <speaker>George.</speaker>
 <p>There's an end of my marriage.</p>
 </sp>
 <stage>Enter Mrs. Capsicomb and Mary, R. D. F.</stage>
-<sp>
+<sp who="#L0296_M1">
 <speaker>Caps.</speaker>
 <p>Mrs. Capsicomb.</p>
 </sp>
-<sp>
+<sp who="#L0296_F10">
 <speaker>Mrs. C.</speaker>
 <p>My dear, I'm afraid I've given you a great deal of trouble.</p>
 </sp>
-<sp>
+<sp who="#L0296_M1">
 <speaker>Caps.</speaker>
 <p>May I ask, madam, where you have been all this while?</p>
 </sp>
-<sp>
+<sp who="#L0296_F10">
 <speaker>Mrs. C.</speaker>
 <p>For this last quarter of an hour with Mary, waiting for you.</p>
 </sp>
-<sp>
+<sp who="#L0296_M1">
 <speaker>Caps.</speaker>
 <p>But before, madam—before ?</p>
 </sp>
-<sp>
+<sp who="#L0296_F10">
 <speaker>Mrs. C.</speaker>
 <p>First here, as Mary told you, and then to half a dozen other shops for
 something I couldn't find after all.</p>
 </sp>
-<sp>
+<sp who="#L0296_M1">
 <speaker>Caps.</speaker>
 <p>For what, madam—for what ?</p>
 </sp>
-<sp>
+<sp who="#L0296_F10">
 <speaker>Mrs. C.</speaker>
 <p>Mr. Capsicomb, I'm surprised at you; these questions—this tone ! Pray, sir,
 what portion of my conduct justifies this extraordinary outbreak, in the
 presence of Mrs. Lump, and these gentlemen.</p>
 </sp>
-<sp>
+<sp who="#L0296_M1">
 <speaker>Caps.</speaker>
 <p>Mrs. Lump! oh, I—I'm aware that your <hi>friend </hi> Mrs. Lump—</p>
 </sp>
-<sp>
+<sp who="#L0296_F12">
 <speaker>Mrs. L.</speaker>
 <p>What are you aware of sir ? Nothing to my disadvantage, sir;—I'm a
 respectable tradeswoman, sir; though I say it that should not say it, sir; and
@@ -2458,7 +2534,7 @@ in the Bank book, as Mr. Lane here can witness for me; and I don't care if you
 were the Lord Mayor, as well as the Sheriff, and the City Marshal, and the whole
 corporation into the bargain!</p>
 </sp>
-<sp>
+<sp who="#L0296_M2">
 <speaker>Lane.</speaker>
 <p>My good neighbour ; my dear Mrs. Lump—I'm sure the Sheriff didn't mean—</p>
 </sp>
@@ -2468,98 +2544,98 @@ matter now ?</stage>
 <stage> Enter Terence O'Grady D. E. F., in custody of a policeman ; his dress
 disordered; his hat crushed and muddy, followed by John and Richard. A Crowd is
 seen round the door and window — great uproar. </stage>
-<sp>
+<sp who="#L0296_M1">
 <speaker>Caps.</speaker>
 <p>Hollo, hollo, Richard, what brought you here?</p>
 </sp>
-<sp>
+<sp who="#L0296_M5">
 <speaker>John.</speaker>
 <p>I brought him, sir; he came after you, sir, to our house, with some
 letters—</p>
 </sp>
-<sp>
+<sp who="#L0296_M3 #L0296_M2 #L0296_F10 #L0296_F12">
 <speaker>Mrs. C. | Lane | George | Mrs. L</speaker>
 <p>Letters !</p>
 </sp>
-<sp>
+<sp who="#L0296_M1">
 <speaker>Caps.</speaker>
 <p>Where are they ?</p>
 </sp>
-<sp>
+<sp who="#L0296_M7">
 <speaker>Police.</speaker>
 <p>I've got them, sir.</p>
 <stage> (gives them to Capsicomb dirty. </stage>
 </sp>
-<sp>
+<sp who="#L0296_M6">
 <speaker>Richard.</speaker>
 <p>That young man, sir knocked 'em out of my hand, all in the mud, sir ;
 see.</p>
 </sp>
-<sp>
+<sp who="#L0296_M4">
 <speaker>O'G.</speaker>
 <p>I did no such a thing, sir; I merely offered politely to be the bearer of
 them.</p>
 </sp>
-<sp>
+<sp who="#L0296_M6">
 <speaker>Richard.</speaker>
 <p>No you didn't!</p>
 </sp>
-<sp>
+<sp who="#L0296_M4">
 <speaker>O'G.</speaker>
 <p>There, he owns I didn't.</p>
 </sp>
-<sp>
+<sp who="#L0296_M1">
 <speaker>Caps.</speaker>
 <p>Hold your tongue, sir. Let me hear what the man has to say; go on
 Richard.</p>
 </sp>
-<sp>
+<sp who="#L0296_M6">
 <speaker>Richard.</speaker>
 <p>Yes, sir ; if you please, sir; as me and John sir, were going along, sir, we
 met this young man, sir, and John says to him, says he—no, he says, to John,
 sir.</p>
 </sp>
-<sp>
+<sp who="#L0296_M4">
 <speaker>O'G.</speaker>
 <p>There! he's contradicting himself!</p>
 </sp>
-<sp>
+<sp who="#L0296_M1">
 <speaker>Caps.</speaker>
 <p>Silence.</p>
 </sp>
-<sp>
+<sp who="#L0296_M6">
 <speaker>Richard.</speaker>
 <p>He says to John, sir; no; it was John, said to him.</p>
 </sp>
-<sp>
+<sp who="#L0296_M4">
 <speaker>O'G.</speaker>
 <p>No prevarication, sir.</p>
 </sp>
-<sp>
+<sp who="#L0296_M1">
 <speaker>Caps.</speaker>
 <p>Silence ! John do you speak—</p>
 </sp>
-<sp>
+<sp who="#L0296_M5">
 <speaker>John.</speaker>
 <p>Yes, sir—you see I was coming along with your servant, sir, and I sees Mr.
 Terence a running like mad; and I says to this here young man, says I, here
 comes Mr. Terence; he's been ready to kill me almost for posting a letter to
 your master.</p>
 </sp>
-<sp>
+<sp who="#L0296_M1">
 <speaker>Caps.</speaker>
 <p>So—</p>
 </sp>
-<sp>
+<sp who="#L0296_M4">
 <speaker>O'G.</speaker>
 <p>It's no such a thing ; John, if you dare—</p>
 </sp>
-<sp>
+<sp who="#L0296_M1">
 <speaker>Caps.</speaker>
 <p>Silence! How dare you try to intimidate the witness, sir!</p>
 </sp>
 <pb n="31"/>
-<sp>
+<sp who="#L0296_M6">
 <speaker>Richard.</speaker>
 <p>Yes, sir; that was it, sir; and then, sir, John says to that gentleman,
 "Here's the Sheriff's servant has come from Islington with some letters"—upon
@@ -2567,49 +2643,49 @@ which he makes a grab at 'em, sir; and as I held 'em fast, we had a scuffle,
 sir, and down they goes in the mud, and we a scrambling after 'em, sir; and as
 he was stronger than me, sir, I called " Police," and—</p>
 </sp>
-<sp>
+<sp who="#L0296_M1">
 <speaker>Caps.</speaker>
 <p>An assault upon my servant, in order to possess himself of my letters. What
 can this mean ? <stage>(aside.)</stage> Mrs. Capsicomb, Mr. Lane, Mrs. Lump, all
 seem conscious and agitated. Bless my soul! There is certainly some horrible
 mystery. <stage>aloud.</stage> Policeman, you know me.</p>
 </sp>
-<sp>
+<sp who="#L0296_M7">
 <speaker>Policeman.</speaker>
 <p>Yes, your worship.</p>
 </sp>
-<sp>
+<sp who="#L0296_M1">
 <speaker>Caps.</speaker>
 <p>Send away those gaping people outside! I know this person, and will settle
 the business myself; but stay at the door in case I should want you.</p>
 </sp>
-<sp>
+<sp who="#L0296_M7">
 <speaker>Policeman.</speaker>
 <p>Yes, your worship. <stage>goes to the door in F.</stage> Come, move on there!
 <stage>(is seen outside dispersing the mob.</stage>
 </p>
 </sp>
-<sp>
+<sp who="#L0296_M1">
 <speaker>Caps.</speaker>
 <p>Now, then, three letters and a newspaper; these all came since I left
 home.</p>
 </sp>
-<sp>
+<sp who="#L0296_M6">
 <speaker>Richard.</speaker>
 <p>Yes, sir; as you have said I was to forward—</p>
 </sp>
-<sp>
+<sp who="#L0296_M1">
 <speaker>Caps.</speaker>
 <p>Quite right! now let me examine—</p>
 </sp>
-<sp>
+<sp who="#L0296_F12">
 <speaker>Mrs. L.</speaker>
 <p>I'll have nothing examined in my house, sir; nothing, sir—you've got no
 charge against me, and you've no right to bring a mob about my doors, and
 interrupt my business in this way ; I wouldn't put up with it if you were Gog
 and Magog!</p>
 </sp>
-<sp>
+<sp who="#L0296_M1">
 <speaker>Caps.</speaker>
 <p>Very well, ma'am, very well; by all means—I can read my letters elsewhere ;
 but depend upon it I will sift his matter to the bottom, madam. Richard, come
@@ -2617,237 +2693,237 @@ with me, I may want to ask you a few questions; and then, Mrs. Capsicomb, I may
 have to ask you a few questions.</p>
 <stage>[Exit with Richard, D. R. f.</stage>
 </sp>
-<sp>
+<sp who="#L0296_M4">
 <speaker>O'G.</speaker>
 <p>It's all over with me ! he's got it; I saw it in his hand.</p>
 </sp>
-<sp>
+<sp who="#L0296_F10">
 <speaker>Mrs. C.</speaker>
 <p>He must be told the whole truth, and Mr. O'Grady must take the
 consequences.</p>
 </sp>
-<sp>
+<sp who="#L0296_M2">
 <speaker>Lane.</speaker>
 <p>I said so; I said so at first.</p>
 </sp>
-<sp>
+<sp who=" #L0296_M3 #L0296_F11">
 <speaker>George | Mary</speaker>
 <p>But if he won't believe— </p>
 </sp>
 <pb n="32"/>
-<sp>
+<sp who="#L0296_M2">
 <speaker>Lane.</speaker>
 <p>It can't be helped.</p>
 </sp>
-<sp>
+<sp who="#L0296_F12">
 <speaker>Mrs. L.</speaker>
 <p>
 <stage>(looking off at D. R. F. )</stage> There, I see him at the coffee-house
 window over the way; he's opened one letter.</p>
 </sp>
-<sp>
+<sp who="#L0296_mult">
 <speaker>All.</speaker>
 <p>Ah !</p>
 </sp>
-<sp>
+<sp who="#L0296_F12">
 <speaker>Mrs. L.</speaker>
 <p>There's nothing in that, I can see by his manner !</p>
 </sp>
-<sp>
+<sp who="#L0296_M4">
 <speaker>O'G.</speaker>
 <p>John, you villian, you will have to answer for this ? <stage> shakes
 him.</stage>
 </p>
 </sp>
-<sp>
+<sp who="#L0296_M5">
 <speaker>John.</speaker>
 <p>Me, sir? lord, sir? how, sir? I, sir? why, sir?</p>
 </sp>
-<sp>
+<sp who="#L0296_F12">
 <speaker>Mrs. L.</speaker>
 <p>There's the second !</p>
 </sp>
-<sp>
+<sp who="#L0296_M3">
 <speaker>George.</speaker>
 <p>That can't be it, he has torn it up and thrown it away.</p>
 </sp>
-<sp>
+<sp who="#L0296_M4">
 <speaker>O'G.</speaker>
-<p>The third! the last! the fatal one! Fly dearest of women, while you are
-safe; I'll follow you to the world's end!</p>
+<p>The third! the last! the fatal one! Fly dearest of women, while you are safe;
+I'll follow you to the world's end!</p>
 </sp>
-<sp>
+<sp who="#L0296_F10">
 <speaker>Mrs. C.</speaker>
 <p>Mr. O'Grady!</p>
 </sp>
-<sp>
+<sp who="#L0296_F12">
 <speaker>Mrs. L.</speaker>
 <p>Oh, lord!—that must be it; why look at him now; what a state he's in ;
 jumping about like mad!</p>
 </sp>
-<sp>
+<sp who="#L0296_M4">
 <speaker>O'G.</speaker>
-<p>Fly, I conjure you! John, run for a cab ! I'll meet the tiger, and endure
-his wrath! George, take all I've got in the world, and be a father to your
+<p>Fly, I conjure you! John, run for a cab ! I'll meet the tiger, and endure his
+wrath! George, take all I've got in the world, and be a father to your
 mother-in-law. <stage> as he pulls out his pocket-book, a letter drops on the
 stage.</stage> What's this? eh! Oh, oh! Hurrah, hurrah! there's life in a
 muscle. <stage>(dances about and flourishes letter.</stage>
 </p>
 </sp>
-<sp>
+<sp who="#L0296_M3">
 <speaker>George.</speaker>
 <p>Terence!</p>
 </sp>
-<sp>
+<sp who="#L0296_F10">
 <speaker>Mrs. C.</speaker>
 <p>Mr. O'Grady !</p>
 </sp>
-<sp>
+<sp who="#L0296_M2">
 <speaker>Lane.</speaker>
 <p>He's out of his wits !</p>
 </sp>
-<sp>
+<sp who="#L0296_M4">
 <speaker>O'G.</speaker>
 <p>I am—I am, governer. Here's the letter ! here it is my darling, Mrs.
 Capsicomb ; look—look!</p>
 </sp>
-<sp>
+<sp who="#L0296_M3">
 <speaker>George.</speaker>
 <p>Never posted!</p>
 </sp>
-<sp>
+<sp who="#L0296_M2">
 <speaker>Lane.</speaker>
 <p>In his own pocket all the while.</p>
 </sp>
-<sp>
+<sp who="#L0296_F10">
 <speaker>Mrs. C.</speaker>
 <p>And he's almost killed me with fright!</p>
 </sp>
-<sp>
+<sp who="#L0296_F12">
 <speaker>Mrs. L.</speaker>
 <p>And turned me and my letters topsy turvy !</p>
 </sp>
-<sp>
+<sp who="#L0296_M5">
 <speaker>John.</speaker>
 <p>And shaken me nearly to pieces.</p>
 </sp>
-<sp>
+<sp who="#L0296_F11 #L0296_M3">
 <speaker>George. &amp; Mary</speaker>
 <p>And might have stopped our marriage! </p>
 </sp>
-<sp>
+<sp who="#L0296_F12">
 <speaker>Mrs. L.</speaker>
 <p>Write a letter and carry it himself—the Irish Post!</p>
 </sp>
-<sp>
+<sp who="#L0296_M2">
 <speaker>Lane.</speaker>
 <p>Oh, you stupid, blundering—</p>
 </sp>
-<sp>
+<sp who="#L0296_M4">
 <speaker>O'G.</speaker>
 <p>Say what you please ; I forgive you, governor ; I forgive you all!</p>
 </sp>
-<sp>
+<sp who="#L0296_F12">
 <speaker>Mrs. L.</speaker>
 <p>Forgive ! Here's the Sheriff!</p>
 </sp>
 <pb n="33"/>
-<sp>
+<sp who="#L0296_M4">
 <speaker>O'G.</speaker>
 <p>Let him come; who cares. Ha, ha ! Hurrah!</p>
 </sp>
 <stage> Enter Capsicomb, hastily, with a letter in his hand, D. R. F . </stage>
-<sp>
+<sp who="#L0296_M1">
 <speaker>Caps.</speaker>
 <p>Ha, ha ! I know all about it ! I've found you all out! Ha, ha! Hurrah!</p>
 </sp>
-<sp>
+<sp who="#L0296_F11 #L0296_M3 #L0296_F10">
 <speaker>Mrs. C. | George | Mary</speaker>
 <p>Mr Capsicomb! | Father|</p>
 </sp>
-<sp>
+<sp who="#L0296_M2">
 <speaker>Lane.</speaker>
 <p>He's gone mad, now ?</p>
 </sp>
-<sp>
+<sp who="#L0296_M4">
 <speaker>O'G.</speaker>
 <p><stage> (unthinkingly, flourishes his own letter before the eyes of
 Capsicomb, who is, however, too much occupied with the one in his hand.)</stage>
 </p>
 </sp>
-<sp>
+<sp who="#L0296_M1">
 <speaker>Caps.</speaker>
 <p>You all knew of this letter—Mrs. Lump and all. It was posted here, this
 morning. You wanted to get it first to give me an agreeable surprise.</p>
 </sp>
-<sp>
+<sp who="#L0296_F10">
 <speaker>Mrs. C.</speaker>
 <p>I'm sure I'm delighted, if—</p>
 </sp>
-<sp>
+<sp who="#L0296_M1">
 <speaker>Caps.</speaker>
 <p>Oh, ay, pretend you know nothing about it; and you, too, my old friend,
 confess you are the principal culprit!</p>
 </sp>
-<sp>
+<sp who="#L0296_M2">
 <speaker>Lane.</speaker>
 <p>I !</p>
 </sp>
-<sp>
+<sp who="#L0296_M4">
 <speaker>O'G.</speaker>
 <p>To be sure he is! The governor knew all about it ! Didn't you, governor !
 <stage>aside. </stage> Say yes, like a man. <stage> (pokes him in the
 ribs.</stage>
 </p>
 </sp>
-<sp>
+<sp who="#L0296_M2">
 <speaker>Lane.</speaker>
 <p>How dare you!</p>
 </sp>
-<sp>
+<sp who="#L0296_M1">
 <speaker>Caps.</speaker>
 <p>There—there, you hear your nephew acknowledge it. Mr. O'Grady, give me your
 hand; I've done you an injustice. I see you have only been guilty of a
 pardonable mistake, in posting this letter instead of leaving your uncle to hand
 it to me to-day after dinner, by way of a <hi>bonne bouche ! </hi></p>
 </sp>
-<sp>
+<sp who="#L0296_M4">
 <speaker>O'G.</speaker>
 <p>Exactly—that's it; you're a witch, Sheriff; (<stage>(aside.)</stage>) What's
 it about, I wonder ?</p>
 </sp>
-<sp>
+<sp who="#L0296_M1">
 <speaker>Caps.</speaker>
 <p>To think of old Peter Potter making a fortune in India, and paying twenty
 shillings in the pound, after all!</p>
 </sp>
-<sp>
+<sp who="#L0296_M2">
 <speaker>Lane.</speaker>
 <p>Why you don't say so ! Why he owed you three or four thousand pounds ?</p>
 </sp>
-<sp>
+<sp who="#L0296_M1">
 <speaker>Caps.</speaker>
 <p>£3,675 14s. 3d.; and you knew he was going to pay me, with fifteen years
 interest on the money. The letter came under cover to you; he says so.</p>
 </sp>
-<sp>
+<sp who="#L0296_M2">
 <speaker>Lane.</speaker>
 <p>There was an India letter, certainly, with an enclosure for you.</p>
 </sp>
 <pb n="34"/>
-<sp>
+<sp who="#L0296_M1">
 <speaker>Caps.</speaker>
 <p>Oh, there was ; and not a word, of course, to give you a hint; come, come, it
 won't do,</p>
 </sp>
-<sp>
+<sp who="#L0296_M4">
 <speaker>O'G.</speaker>
 <p>No, no, it won't do; the murder's all out the Sheriff knows all about it.
 It's spoilt the fun a little, but no matter, Sheriff, I wish you joy; Mrs.
 Capsicomb I wish you joy. <stage>shakes hands. </stage>
 </p>
 </sp>
-<sp>
+<sp who="#L0296_M1">
 <speaker>Caps.</speaker>
 <p>To be sure, to be sure; and wish George and Mary joy, for they shall come in
 for their share of the windfall.</p>
@@ -2856,60 +2932,60 @@ knocks away.</stage>
 <p>Mrs. Lump, I hope you'll forget my being a little hasty. As an old friend of
 my wife's, I shall be happy to see you at Prospect Lodge.</p>
 </sp>
-<sp>
+<sp who="#L0296_F12">
 <speaker>Mrs. L.</speaker>
 <p>Oh, Mr. Sheriff—I'm sure—</p>
 </sp>
-<sp>
+<sp who="#L0296_M1">
 <speaker>Caps.</speaker>
 <p>Mr. O'Grady, you'll dine with us to day ?</p>
 </sp>
-<sp>
+<sp who="#L0296_M4">
 <speaker>O'G.</speaker>
 <p>With the greatest—</p>
 </sp>
-<sp>
+<sp who="#L0296_M2">
 <speaker>Lane.</speaker>
 <p>No, no, he can't, he's going a long journey on particular business!</p>
 </sp>
-<sp>
+<sp who="#L0296_M4">
 <speaker>O'G.</speaker>
 <p>The devil I am! Where to ?</p>
 </sp>
-<sp>
+<sp who="#L0296_M2">
 <speaker>Lane.</speaker>
 <p>To Cork, <hi>via</hi> Bristol!</p>
 </sp>
-<sp>
+<sp who="#L0296_M4">
 <speaker>O'G.</speaker>
 <p>To Cork ?</p>
 </sp>
-<sp>
+<sp who="#L0296_M2">
 <speaker>Lane.</speaker>
 <p>
 <stage>aside.</stage> This very afternoon. So make hastepack up, and pack off,
 or I'll tell the Sheriff everything.</p>
 </sp>
-<sp>
+<sp who="#L0296_M4">
 <speaker>O'G.</speaker>
 <p>Oh, governor! Uncle, darling; sure—</p>
 </sp>
-<sp>
+<sp who="#L0296_M2">
 <speaker>Lane.</speaker>
 <p>Not a word; I've done with you; I'll pay your expenses back, and that's all;
 so come along !</p>
 </sp>
-<sp>
+<sp who="#L0296_M4">
 <speaker>O'G.</speaker>
 <p>I beg your pardon, that's my hat, here's yours. <stage>gives him the crushed
 hat. </stage> I'd change with you, but I've further to go than you have—if you
 won't take pity on poor Terence O'Grady and let him stop-—</p>
 </sp>
-<sp>
+<sp who="#L0296_M2">
 <speaker>Lane.</speaker>
 <p>No !</p>
 </sp>
-<sp>
+<sp who="#L0296_M4">
 <speaker>O'G.</speaker>
 <p>Ladies and gentlemen—speak a good word for me to the governor; mine has been
 the pursuit of letters, under difficulties; encourage me in it, and allow me to

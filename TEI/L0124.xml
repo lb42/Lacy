@@ -2,7 +2,7 @@
  <teiHeader>
   <fileDesc>
    <titleStmt>
-    <title n="theloanofalover">The Loan of a Lover</title>
+    <title n="theloanofalover" type="main">The Loan of a Lover</title>
     <author>Planché, J.R.</author>
     <respStmt>
      <resp>Curated by</resp>
@@ -11,18 +11,58 @@
    </titleStmt>
    <publicationStmt>
     <distributor>Privately published on the Lacy Website</distributor>
-    <idno>L0124</idno>
-   </publicationStmt>
-   <sourceDesc><bibl type="digital">Retagged from DOCX produced by Abby from a VPP PDF edition</bibl><bibl type="source" status="TEI_1" n="9.4" corresp="nic:N03055"><author>Planché, J.R.</author><title n="theloanofalover">The Loan of a Lover</title><title type="sub">A Vaudeville</title><extent>25 pp (UM copy: 76 - 101)<measure type="pp" quantity="25"/><measure type="txWords" quantity="7663"/><measure type="spWords" quantity="7268"/><measure type="stWords" quantity="395"/></extent><eventName notAfter="1834" type="firstPerf">
-      <date resp="nicoll" when="1834-09-29"/>
-      <name>Royal Olympic Theatre</name>
-      <date resp="source" when="1834-09-29">29 Sept. 1834</date>
-     </eventName><listRef>
-      <ref target="http://victorian.nuigalway.ie/modx/assets/docs/pdf/Vol09ivLoan.pdf">VPP_PDF</ref>
-      <ref target="https://archive.org/details/loanoflovervaude0000plan_m3j9">Internet Archive</ref>
-     </listRef><listRef type="localCopies"><ref>Vol09/L0124/L0124-um.pdf</ref><ref>Vol09/L0124/L0124-uw.pdf</ref><ref>Vol09/L0124/L0124-vpp.pdf</ref><ref>Vol09/L0124/pages</ref><ref>Vol09/L0124/Vol09ivLoan.pdf</ref></listRef></bibl></sourceDesc>
+    
+   <idno type="lae">L0124</idno></publicationStmt>
+   <sourceDesc><bibl type="printSource" n="9.4"><author>Planché, J.R.</author><title type="main" n="theloanofalover">The Loan of a Lover</title><title type="sub">A
+Vaudeville</title><extent>25 pp (UM copy: 76 - 101)<measure type="pp" quantity="25"/>
+  <measure type="spCount" quantity="377"/>
+  <measure type="spvCount" quantity="29"/>
+  <measure type="txWords" quantity="7663"/>
+  <measure type="spWords" quantity="7268"/>
+  <measure type="stWords" quantity="395"/>
+  </extent>
+
+<title level="s"> Lacy's Acting Edition, volume 9, No. 0124</title><idno type="nic">N03055</idno><idno type="vpp">Vol09ivLoan</idno></bibl><bibl type="digitalSource" n="copytext"><ref target="https://lb42.github.io/Lacy/Source/VPP/L0124-vpp.pdf">LoB from
+VPP</ref><ref target="local:Vol09/L0124/L0124-vpp.pdf"/><ref target="local:Vol09/L0124/Vol09ivLoan.pdf"/></bibl><bibl type="digitalSource"><ref target="https://archive.org/details/loanoflovervaude0000plan_m3j9">UW from
+IA</ref><ref target="local:Vol09/L0124/L0124-uw.pdf"/></bibl><bibl type="digitalSource"><ref target="https://babel.hathitrust.org/cgi/pt?id=mdp.39015067453376&amp;seq=76 ">UM from HT</ref><ref target="local:Vol09/L0124/L0124-um.pdf"/></bibl><bibl type="digitalSource" n="copytext"><ref target="https://lb42.github.io/Lacy/L0124.html">TEI</ref></bibl><listEvent>
+<event type="firstPerf" when="1834-09-29" source="textNic" where="Olympic">
+<desc>Premiered at Royal Olympic Theatre 29 Sept. 1834</desc>
+</event>
+</listEvent></sourceDesc>
   </fileDesc>
-  <profileDesc><textClass><!--S_1_Vaudeville_Vaud._SPECTACLE--><catRef target="#sizeS"/><catRef target="#act1"/><catRef target="nic:Vaud."/><keywords><term>SPECTACLE</term></keywords></textClass></profileDesc><revisionDesc><change when="2024-10-03">Header enriched</change>
+  <profileDesc><textClass><catRef target="#sizeS"/><catRef target="#act1"/><catRef target="nic:Vaud."/><keywords><term>SPECTACLE</term></keywords></textClass><particDesc><listPerson>
+<person xml:id="L0124_M1">
+<persName type="role">Captain Amersfort</persName>
+<persName type="spkr" n="51">Amer.</persName>
+</person>
+<person xml:id="L0124_M2">
+<persName type="role">Peter Spyk</persName>
+<persName type="spkr" n="107">Pet.</persName>
+</person>
+<person xml:id="L0124_M3">
+<persName type="role">Swyzel</persName>
+<persName type="spkr" n="40">Swy.</persName>
+</person>
+<person xml:id="L0124_M4">
+<persName type="role">Delve</persName>
+<persName type="spkr" n="16">Del.</persName>
+</person>
+<person xml:id="L0124_F5">
+<persName type="role">Gertrude</persName>
+<persName type="spkr" n="1">Gertrude,</persName>
+<persName type="spkr" n="109">Ger.</persName>
+</person>
+<person xml:id="L0124_F6">
+<persName type="role">Ernestine Rosendaal </persName>
+<persName type="spkr" n="49">Ern.</persName>
+</person>
+
+
+<person xml:id="L0124_mul">
+<persName type="role">[Multiple speakers]</persName>
+<persName type="spkr" n="1">All.</persName>
+</person>
+</listPerson></particDesc></profileDesc><revisionDesc><change when="2025-09-07">Metadata updated from new catalogue</change><change when="2024-10-03">Header enriched</change>
    <change when="2023-11-17">Hand edited</change>
    <change when="2023-10-26">Header confected</change>
   </revisionDesc>
@@ -46,12 +86,12 @@
    </performance>
    <castList>
     <head>Characters.</head>
-    <castItem> <role gender="M">Captain Amersfort</role> <actor sex="M">Mr. J. Vining.</actor> </castItem>
-    <castItem> <role gender="M">Peter Spyk</role> <actor sex="M">Mr. Keeley.</actor> </castItem>
-    <castItem> <role gender="M">Swyzel</role> <actor sex="M">Mr. William Vising.</actor> </castItem>
-    <castItem> <role gender="M">Delve</role> <actor sex="M">Mr. Wyman.</actor></castItem>
-    <castItem> <role gender="F">Gertrude</role> <actor sex="F">Madame Vestris.</actor></castItem>
-    <castItem> <role gender="F">Ernestine Rosendaal </role><actor sex="F"> Miss
+    <castItem> <role gender="M">Captain Amersfort</role> <actor ana="#M">Mr. J. Vining.</actor> </castItem>
+    <castItem> <role gender="M">Peter Spyk</role> <actor ana="#M">Mr. Keeley.</actor> </castItem>
+    <castItem> <role gender="M">Swyzel</role> <actor ana="#M">Mr. William Vising.</actor> </castItem>
+    <castItem> <role gender="M">Delve</role> <actor ana="#M">Mr. Wyman.</actor></castItem>
+    <castItem> <role gender="F">Gertrude</role> <actor ana="#F">Madame Vestris.</actor></castItem>
+    <castItem> <role gender="F">Ernestine Rosendaal </role><actor ana="#F"> Miss
      Fitzwalter</actor></castItem>
    </castList>
    <div type="costume">
@@ -77,45 +117,45 @@
     Cathedral is seen in the distance. In E. corner of the Garden, overlooking the Canal, is a
     Summer House, in the Dutch taste. </stage>
    <stage> Enter Swyzel and Delve, L. 2 E. </stage>
-   <sp>
+   <sp who="#L0124_M3">
     <speaker>Swy.</speaker>
     <p> Do as you're bid, and no reflections. Don't you know the mistress is the master ?</p>
    </sp>
-   <sp>
+   <sp who="#L0124_M4">
     <speaker>Del.</speaker>
     <p> Well, but now really, Mynheer Swyzel—to put out the orange-trees before the white frosts are
      over—is that common sense ?</p>
    </sp>
-   <sp>
+   <sp who="#L0124_M3">
     <speaker>Swy.</speaker>
     <p> What have you to do with common sense ? Nothing at all, or you would not pretend to have
      more than your mistress. It is Mamzelle Ernestine's pleasure to turn the orangery into a
      ball-room, and turned it must be.</p>
    </sp>
-   <sp>
+   <sp who="#L0124_M4">
     <speaker>Del.</speaker>
     <p> But the trees will die.</p>
    </sp>
-   <sp>
+   <sp who="#L0124_M3">
     <speaker>Swy.</speaker>
     <p> Let 'em die, then—that's their business; yours is to clear the place out, according to
      order. About it without more words! If she told me to fling all the Schiedam in the cellar into
      the canal, I should do so, without hesitation.</p>
    </sp>
-   <sp>
+   <sp who="#L0124_M4">
     <speaker>Del.</speaker>
     <p> You'd fling yourself after it, I'm sure.</p>
    </sp>
-   <sp>
+   <sp who="#L0124_M3">
     <speaker>Swy.</speaker>
     <p> Not when it was mixed with water, you rogue! or while the baron has money enough to buy
      more. Come —to work! to work ! or you'll not get the-room ready by midnight.</p>
    </sp>
-   <sp>
+   <sp who="#L0124_M4">
     <speaker>Del.</speaker>
     <p> O, my poor orange trees—they'll die, every one of them! <stage>Exit Delve, L.</stage></p>
    </sp>
-   <sp>
+   <sp who="#L0124_M3">
     <speaker>Swy.</speaker>
     <p> Silly fellow, to trouble his head about what does not concern him. If his employers take no
      care for their own interests, why should he fidget about them ? He hasn't the slightest notion
@@ -124,66 +164,66 @@
     <stage> Enter Peter, R.</stage>
     <p>Well, Peter.</p>
    </sp>
-   <sp>
+   <sp who="#L0124_M2">
     <speaker>Pet.</speaker>
     <p> Good morning, Master Steward.</p>
    </sp>
-   <sp>
+   <sp who="#L0124_M3">
     <speaker>Swy.</speaker>
     <p> So, you've been to Amsterdam, to buy cattle, I hear?</p>
    </sp>
-   <sp>
+   <sp who="#L0124_M2">
     <speaker>Pet.</speaker>
     <p> Ay, and fine beasts they are too, Master Steward: but, talking of beasts, how do you find
      yourself to-day ? You were rather poorly when I left.</p>
    </sp>
-   <sp>
+   <sp who="#L0124_M3">
     <speaker>Swy.</speaker>
     <p> Oh, I'm better, thank you; but I'm not so young as I was thirty years ago—I find that,
      Peter. Ah ! I envy you, you rogue ! Three-and-twenty—stout-timbered— light-hearted—and rich, I
      may say; for old Jan Spyk, your father, left you a pretty round sum, I take it ?' </p>
    </sp>
-   <sp>
+   <sp who="#L0124_M2">
     <speaker>Pet.</speaker>
     <p> Why, it might have been less, and yet worth having, Master Steward.</p>
    </sp>
-   <sp>
+   <sp who="#L0124_M3">
     <speaker>Swy.</speaker>
     <p> Well, and why don't you get a wife now ? All the girls in the neighbourhood are pulling caps
      for you !</p>
    </sp>
-   <sp>
+   <sp who="#L0124_M2">
     <speaker>Pet.</speaker>
     <p> Why, I don't know; they do look at me, somehow, but I'm not smitten with anybody in
      particular. However, I don't wish to prevent them—they may fall in love with me, then I can
      choose, you know.</p>
    </sp>
-   <sp>
+   <sp who="#L0124_M3">
     <speaker>Swy.</speaker>
     <p> Well, perhaps that's the best way.</p>
    </sp>
-   <sp>
+   <sp who="#L0124_M2">
     <speaker>Pet.</speaker>
     <p> Yes, I think so ; as Gertrude said to me, the other day, you don't love anybody in
      particular, Peter, so you can look about you.</p>
    </sp>
-   <sp>
+   <sp who="#L0124_M3">
     <speaker>Swy.</speaker>
     <p> Gertrude—what, our Gertrude ? The simpleton that has the run of the house and gardens, by
      permission of the baron, because she is the orphan daughter of his old bailiff, and who is
      always so mighty busy, doing nothing at all, by way of earning the living allowed her! Is she
      your counsellor ?</p>
    </sp>
-   <sp>
+   <sp who="#L0124_M2">
     <speaker>Pet.</speaker>
     <p> Oh, she and I gossip now and then, when we meet. She's a sort of relation of mine—my
      brother-inlaw's aunt stood godmother to her.</p>
    </sp>
-   <sp>
+   <sp who="#L0124_M3">
     <speaker>Swy.</speaker>
     <p> Well, that is a sort of relation, certainly.</p>
    </sp>
-   <sp>
+   <sp who="#L0124_M2">
     <speaker>Pet.</speaker>
     <p> And then, you see, simpleton as she is, she has now and then an idea, and that's the only
      thing I want—I never have an idea. It's very odd, but I never have what you can really call an
@@ -192,120 +232,120 @@
      <pb n="5"/>if she didn't give me a capital idea! and that's what has brought me here this
      morning. You've a captain Amersfort staying here, haven't you ?</p>
    </sp>
-   <sp>
+   <sp who="#L0124_M3">
     <speaker>Swy.</speaker>
     <p> Oh, yes ; one of our young lady's score of lovers and the best of 'em, too, to my mind; but
      she's too capricious to make up hers. He's a fine fellow—handsome, clever, gallant—</p>
    </sp>
-   <sp>
+   <sp who="#L0124_M2">
     <speaker>Pet.</speaker>
     <p> And landlord of the fine farm of Appledoorn— so Gertrude says.</p>
    </sp>
-   <sp>
+   <sp who="#L0124_M3">
     <speaker>Swy.</speaker>
     <p> Ah! and you want to be his tenant, no doubt ?</p>
    </sp>
-   <sp>
+   <sp who="#L0124_M2">
     <speaker>Pet.</speaker>
     <p> Why Gertrude thinks—</p>
    </sp>
-   <sp>
+   <sp who="#L0124_M3">
     <speaker>Swy.</speaker>
     <p> Well, she's right there—it's a pretty property; but there are several farmers offering.</p>
    </sp>
-   <sp>
+   <sp who="#L0124_M2">
     <speaker>Pet.</speaker>
     <p> So she tells me ; but she says that if you were to speak to the captain in my favour—</p>
    </sp>
-   <sp>
+   <sp who="#L0124_M3">
     <speaker>Swy.</speaker>
     <p> Well, she's right there, too. If I were to speak—</p>
    </sp>
-   <sp>
+   <sp who="#L0124_M2">
     <speaker>Pet.</speaker>
     <p> And will you ?—will you, Master Steward ? I've a keg at home of the finest flavour, which I
      should be too happy—</p>
    </sp>
-   <sp>
+   <sp who="#L0124_M3">
     <speaker>Swy.</speaker>
     <p> Pshaw ! pshaw ! you know if I do anything it's never with a view to benefit myself, Peter;
      so send me the keg, if it will serve you, and we'll see what can be done about it.</p>
    </sp>
-   <sp>
+  <sp who="#L0124_F5">
     <speaker>Gertrude, </speaker>
     <p><stage>(without)</stage> Mynheer Swyzel! Mynheer Swyzel!</p>
    </sp>
-   <sp>
+   <sp who="#L0124_M3">
     <speaker>Swy.</speaker>
     <p> Here comes Gertrude.</p>
     <stage> Enter Gertrude, running, R.</stage>
    </sp>
-   <sp>
+   <sp who="#L0124_F5">
     <speaker>Ger.</speaker>
     <p> Mynheer Swyzel! Mynheer Swyzel!</p>
    </sp>
-   <sp>
+   <sp who="#L0124_M3">
     <speaker>Swy.</speaker>
     <p> Well, don't bawl so—you young baggage! What do you want!</p>
    </sp>
-   <sp>
+   <sp who="#L0124_F5">
     <speaker>Ger.</speaker>
     <p> <stage>( out of breath)</stage> You're to go directly—I've been looking for you everywhere,
      to tell you—there's Peter Spyk!</p>
    </sp>
-   <sp>
+   <sp who="#L0124_M3">
     <speaker>Swy.</speaker>
     <p> To tell me that ?—why I know that ?</p>
    </sp>
-   <sp>
+   <sp who="#L0124_F5">
     <speaker>Ger.</speaker>
     <p> No; to tell you—to tell you—how d'ye do, Peter? Are you very well?</p>
    </sp>
-   <sp>
+   <sp who="#L0124_M2">
     <speaker>Pet.</speaker>
     <p> Ay, ay!</p>
    </sp>
-   <sp>
+   <sp who="#L0124_M3">
     <speaker>Swy.</speaker>
     <p> Will you tell me what you mean to tell me ?</p>
    </sp>
-   <sp>
+   <sp who="#L0124_F5">
     <speaker>Ger.</speaker>
     <p> Law! I'd almost forgotten—I'd run so fast. How well Peter looks this morning, don't he ?</p>
     <pb n="6"/>
    </sp>
-   <sp>
+   <sp who="#L0124_M3">
     <speaker>Swy.</speaker>
     <p> Do let Peter alone ! and tell me who wants me— and what for. Is it the wine for breakfast
      ?</p>
    </sp>
-   <sp>
+   <sp who="#L0124_F5">
     <speaker>Ger.</speaker>
     <p> Yes, that's it; you've got the keys of the cellar, and the baron wants some of the best
      Moselle, to give to Captain Amersfort.</p>
    </sp>
    <spGrp>
     <head>French Air. </head>
-    <sp>
+    <sp who="#L0124_F5">
      <speaker>Ger.</speaker>
      <l> Well, but make more haste about it,</l>
      <l>Master wants to treat his guest.</l>
     </sp>
-    <sp>
+    <sp who="#L0124_M3">
      <speaker>Swy.</speaker>
      <l> Oh, I'll please him! never doubt it;</l>
      <l>Of his wine you know the best.</l>
      <l>He shall own that down his throttle,</l>
      <l>Such has seldom found its way.</l>
     </sp>
-    <sp>
+    <sp who="#L0124_F5">
      <speaker>Ger.</speaker>
      <l> <stage>(aside)</stage> Then you'll get him up a bottle</l>
      <l>Of what you drink every day. "</l>
     </sp>
    </spGrp>
    <stage> Exit SWYZEL, R. </stage>
-   <sp>
+   <sp who="#L0124_F5">
     <speaker>Ger.</speaker>
     <p> <stage>(aside)</stage> An old rogue, I'm sure he is; and he always snubs me and scolds me.
      So does everybody, indeed, except Peter. Peter never snubs me, at any rate; but that's because
@@ -314,130 +354,130 @@
      is if he is thinking. Suppose it's about—<stage>( aloud, and taking hold of his arm)</stage>
      —Peter!</p>
    </sp>
-   <sp>
+   <sp who="#L0124_M2">
     <speaker>Pet.</speaker>
     <p> Eh !—Oh! you're here still, are you ?</p>
    </sp>
-   <sp>
+   <sp who="#L0124_F5">
     <speaker>Ger.</speaker>
     <p> <stage>(aside)</stage> How civil! <stage>(aloud)</stage> Yes, I am here still; and, if I had
      kept still, you'd never have known it seemingly. What are you thinking about so deeply ?</p>
    </sp>
-   <sp>
+   <sp who="#L0124_M2">
     <speaker>Pet.</speaker>
     <p> Thinking about ? Why, I was thinking about Mother Wynk's tavern, where I breakfasted this
      morning.</p>
    </sp>
-   <sp>
+   <sp who="#L0124_F5">
     <speaker>Ger.</speaker>
     <p> What an interesting subject!</p>
    </sp>
-   <sp>
+   <sp who="#L0124_M2">
     <speaker>Pet.</speaker>
     <p> Rather. The old vrow worried my life out with "Why don't you get married, farmer Spyk?"—"Why
      do you live alone in that old house, like an owl in an ivybush ?—"Why don't you take a wife ?
      You've got money enough to keep one, and you are your own master : you've only to please
      yourself."</p>
    </sp>
-   <sp>
+   <sp who="#L0124_F5">
     <speaker>Ger.</speaker>
     <p> Well, and haven't I told you so over and over again ?</p>
    </sp>
-   <sp>
+   <sp who="#L0124_M2">
     <speaker>Pet.</speaker>
     <p> Well, so you have; and I do think if I should get the Appeldoorn Farm, I'll sign a lease and
      a contract the same day.</p>
     <pb n="7"/>
    </sp>
-   <sp>
+   <sp who="#L0124_F5">
     <speaker>Ger.</speaker>
     <p> But, if you don't get the farm, what does it signify ?—you might marry all the same for
      that. You've enough without. You needn't wait—that is, if you like anybody well enough to marry
      them.</p>
    </sp>
-   <sp>
+   <sp who="#L0124_M2">
     <speaker>Pet.</speaker>
     <p> Ah, but then I don't know that I do. Now, who is there, in your opinion, that would suit
      me.</p>
    </sp>
-   <sp>
+   <sp who="#L0124_F5">
     <speaker>Ger.</speaker>
     <p> Oh, don't know. I dare say, if I were to choose, I could name somebody.</p>
    </sp>
-   <sp>
+   <sp who="#L0124_M2">
     <speaker>Pet.</speaker>
     <p> Well, but let's see now. To begin with the neighbourhood:—I know all the girls here, and I
      am sure I can't say— <stage>(suddenly)</stage> —What d'ye think of Mary Moerdyke, to begin
      with?</p>
    </sp>
-   <sp>
+   <sp who="#L0124_F5">
     <speaker>Ger.</speaker>
     <p> Very bad, to begin with, and much better to have done with as soon as possible. She is the
      worst tempered girl in all Utrecht, and as tall as the tower yonder—a great, gawky, sulky
      thing, just like it.</p>
    </sp>
-   <sp>
+   <sp who="#L0124_M2">
     <speaker>Pet.</speaker>
     <p> Ah, well, I don't think she would suit me.— But there's her cousin, Judith—she's very
      good-natured!</p>
    </sp>
-   <sp>
+   <sp who="#L0124_F5">
     <speaker>Ger.</speaker>
     <p> Ah, Judith's a pretty girl, if you please, and very good-natured, as you say,—perhaps a
      little too good- natured.</p>
    </sp>
-   <sp>
+   <sp who="#L0124_M2">
     <speaker>Pet.</speaker>
     <p> No, really—humph !—I shouldn't like that. What d'ye say to Anne Stein ?</p>
    </sp>
-   <sp>
+   <sp who="#L0124_F5">
     <speaker>Ger.</speaker>
     <p> Everybody says she's a great coquette. See her on a Sunday, that's all! or at a dance at the
      fair! She's always changing her partner.</p>
    </sp>
-   <sp>
+   <sp who="#L0124_M2">
     <speaker>Pet.</speaker>
     <p> Oh, if she's always changing her partner—well, they can't say that of little Barbara ?</p>
    </sp>
-   <sp>
+   <sp who="#L0124_F5">
     <speaker>Ger.</speaker>
     <p> No, because she is lame, and can't dance at all.</p>
    </sp>
-   <sp>
+   <sp who="#L0124_M2">
     <speaker>Pet.</speaker>
     <p> That's very true ; poor thing, she's lame, so she is. Well, I declare, then, Vrow Wynk
      herself?</p>
    </sp>
-   <sp>
+   <sp who="#L0124_F5">
     <speaker>Ger.</speaker>
     <p> Old enough to be your grandmother.</p>
    </sp>
-   <sp>
+   <sp who="#L0124_M2">
     <speaker>Pet.</speaker>
     <p> And Rachel, her daughter ?</p>
    </sp>
-   <sp>
+   <sp who="#L0124_F5">
     <speaker>Ger.</speaker>
     <p> She's engaged to young Maurice.</p>
    </sp>
-   <sp>
+   <sp who="#L0124_M2">
     <speaker>Pet.</speaker>
     <p> The devil! Then I must go farther a field, for there's nobody else that I know of in this
      place.</p>
    </sp>
-   <sp>
+   <sp who="#L0124_F5">
     <speaker>Ger.</speaker>
     <p> Oh dear! oh dear! how blind he is, to be sure.</p>
    </sp>
-   <sp>
+   <sp who="#L0124_M2">
     <speaker>Pet.</speaker>
     <p> Ah!—stop ! What a fool I am never to have remembered—</p>
    </sp>
-   <sp>
+   <sp who="#L0124_F5">
     <speaker>Ger.</speaker>
     <p> Well, who?—what?</p>
    </sp>
-   <sp>
+   <sp who="#L0124_M2">
     <speaker>Pet.</speaker>
     <p> Why, that to-morrow will be market-day here,
      <pb n="8"/> and that there'll be plenty of pretty girls, from all the villages round about—so I
@@ -445,7 +485,7 @@
    </sp>
    <spGrp>
     <head> Dutch Air. </head>
-    <sp>
+    <sp who="#L0124_M2">
      <speaker>Pet.</speaker>
      <l> To-morrow will be market-day,</l>
      <l>The streets all thronged with lasses gay, </l>
@@ -453,7 +493,7 @@
      <l>Sweethearts enough I may pick out.</l>
      <l>In verity, verity, &amp;c.</l>
     </sp>
-    <sp>
+    <sp who="#L0124_F5">
     <speaker>Ger.</speaker>
     <p> Be not too bold, for hearts fresh caught</p>
     <p>Are ne'er, I'm told to market brought;</p>
@@ -462,7 +502,7 @@
     <p>In verity, verity, &amp;c.</p>
     </sp> </spGrp>
    
-   <sp>
+   <sp who="#L0124_M2">
     <speaker>Pet.</speaker>
     <p> Well, at any rate, I'll take my chance of tomorrow. But yonder's mamzelle and some of the
      gentlefolks, so I'll go and hear what the steward has done for me. Good-bye, Gertrude. I say,
@@ -470,7 +510,7 @@
      married, and you shall dance at the wedding.</p>
     <stage> Exit Peter, R, singing "In verity, verity,"&amp;c.</stage>
    </sp>
-   <sp>
+   <sp who="#L0124_F5">
     <speaker>Ger.</speaker>
     <p> Now isn't it provoking? He can think of everybody but me ; and unless I were to say to him,
      plump, "Peter, will you marry me? "—and then, if he should say, "No !"oh, I should die with
@@ -481,7 +521,7 @@
    </sp>
    <spGrp>
     <head>"A Temple to Friendship."</head>
-    <sp>
+   <sp who="#L0124_F5">
      <l>I don't think I'm ugly !—I'm only just twenty—</l>
      <l>I know I should make a most excellent wife;</l>
      <l>The girls all around me have lovers in plenty, </l>
@@ -494,171 +534,171 @@
    </spGrp>
    <stage> Retires up the stage sobbing </stage>
    <stage> Enter Ernestine and Captain Amersfort, R. 1 E. </stage>
-   <sp>
+   <sp who="#L0124_M1">
     <speaker>Amer.</speaker>
     <p> Why, you proposed the ride yourself, Ernestine.</p>
     <pb n="9"/>
    </sp>
-   <sp>
+   <sp who="#L0124_F6">
     <speaker>Ern.</speaker>
     <p> Perhaps I did; but I've changed my mind.</p>
    </sp>
-   <sp>
+   <sp who="#L0124_M1">
     <speaker>Amer.</speaker>
     <p> Will you walk, then ?</p>
    </sp>
-   <sp>
+   <sp who="#L0124_F6">
     <speaker>Ern.</speaker>
     <p> It's too hot.</p>
    </sp>
-   <sp>
+   <sp who="#L0124_M1">
     <speaker>Amer.</speaker>
     <p> By the side of the canal—under the trees ?</p>
    </sp>
-   <sp>
+   <sp who="#L0124_F6">
     <speaker>Ern.</speaker>
     <p> By the side of the canal ? I wonder you don't propose that I should tow the
      passage-boat.</p>
    </sp>
-   <sp>
+   <sp who="#L0124_M1">
     <speaker>Amer.</speaker>
     <p> I shouldn't wonder if <hi>you</hi> proposed something equally extravagant. For myself, I
      have done—I shall suggest nothing else. Please yourself, if possible, and you will please
      me.</p>
    </sp>
-   <sp>
+   <sp who="#L0124_F6">
     <speaker>Ern.</speaker>
     <p> Now he's out of humour.</p>
    </sp>
-   <sp>
+   <sp who="#L0124_M1">
     <speaker>Amer.</speaker>
     <p> No, not out of humour—but you are the most capricious creature !</p>
    </sp>
-   <sp>
+   <sp who="#L0124_F6">
     <speaker>Ern.</speaker>
     <p> Well, well, sir, if you are tired of your allegiance, renounce it at once. I have plenty of
      slaves at my footstool who will serve me with oriental obedience !</p>
    </sp>
-   <sp>
+   <sp who="#L0124_M1">
     <speaker>Amer.</speaker>
     <p> If they really loved you, they would not encourage you in your follies.</p>
    </sp>
-   <sp>
+   <sp who="#L0124_F6">
     <speaker>Ern.</speaker>
     <p> My follies ! How dare you talk to me of my follies, sir ? Hold your tongue ! Hold your
      tongue, directly! There's Gertrude, and I want to speak to her. Gertrude!
      <stage>(calling.)</stage> </p>
    </sp>
-   <sp>
+   <sp who="#L0124_F5">
     <speaker>Ger.</speaker>
     <p> Yes, mamzelle. <stage>( drying her eyes, and advancing.)</stage> </p>
    </sp>
-   <sp>
+   <sp who="#L0124_F6">
     <speaker>Ern.</speaker>
     <p> What's the matter, Gertrude ? you've been crying.</p>
    </sp>
-   <sp>
+   <sp who="#L0124_F5">
     <speaker>Ger.</speaker>
     <p> Yes, mamzelle.</p>
    </sp>
-   <sp>
+   <sp who="#L0124_F6">
     <speaker>Ern.</speaker>
     <p> And what for ? Has any one vexed you ?—some faithless swain, perhaps?</p>
    </sp>
-   <sp>
+   <sp who="#L0124_F5">
     <speaker>Ger.</speaker>
     <p> Oh dear no, mamzelle ! I wish it was—but that's not possible ! <stage>(bursts out
      afresh.)</stage> </p>
    </sp>
-   <sp>
+   <sp who="#L0124_F6">
     <speaker>Ern.</speaker>
     <p> How d'ye mean—not possible, child?</p>
    </sp>
-   <sp>
+   <sp who="#L0124_F5">
     <speaker>Ger.</speaker>
     <p> Because I haven't got a swain of any sort.</p>
    </sp>
-   <sp>
+   <sp who="#L0124_F6">
     <speaker>Ern.</speaker>
     <p> Bless the girl! What! no sweetheart, at your age ?</p>
    </sp>
-   <sp>
+   <sp who="#L0124_F5">
     <speaker>Ger.</speaker>
     <p> No, mamzelle.</p>
    </sp>
-   <sp>
+   <sp who="#L0124_F6">
     <speaker>Ern.</speaker>
     <p> Then, perhaps that's what you are crying about ?</p>
    </sp>
-   <sp>
+   <sp who="#L0124_F5">
     <speaker>Ger.</speaker>
     <p> Yes, mamzelle.</p>
    </sp>
-   <sp>
+   <sp who="#L0124_F6">
     <speaker>Ern.</speaker>
     <p> Silly wench ! you ought to rejoice at it rather ; the men are nothing but plagues, Gertrude.
      Lovers, indeed ! there's not one worth having !</p>
    </sp>
-   <sp>
+   <sp who="#L0124_F5">
     <speaker>Ger.</speaker>
     <p> I—I wish I had one though, just to try. I was just saying to myself it was a shame that some
      young women should have a score, and others none at all!</p>
     <pb n="10"/>
    </sp>
-   <sp>
+   <sp who="#L0124_M1">
     <speaker>Amer.</speaker>
     <p> <stage>(R.)</stage> The girl is right enough there. It is a shame that some young women
      should have a score, and hold out equal hopes to all.</p>
    </sp>
-   <sp>
+   <sp who="#L0124_F6">
     <speaker>Ern.</speaker>
     <p> The sooner you lessen the number of mine the better, then. I could manage to spare even the
      gallant Captain Amersfort—and—a capital thought! as you seem so concerned at the unequal
      division, I'll transfer you to Gertrude.</p>
    </sp>
-   <sp>
+   <sp who="#L0124_F5">
     <speaker>Ger.</speaker>
     <p> Law, mamzelle, you don't say so ? Will you, really ?</p>
    </sp>
-   <sp>
+   <sp who="#L0124_M1">
     <speaker>Amer.</speaker>
     <p> Ernestine !—what folly !</p>
    </sp>
-   <sp>
+   <sp who="#L0124_F6">
     <speaker>Ern.</speaker>
     <p> I'm quite serious. As you have no admirer, Gertrude, and I have so many, I'll give you one
      of mine.</p>
    </sp>
-   <sp>
+   <sp who="#L0124_F5">
     <speaker>Ger.</speaker>
     <p> Oh, but I don't want you to give me one, mamzelle ! If you'll only lend me a beau—just to
      encourage the others.</p>
    </sp>
-   <sp>
+   <sp who="#L0124_F6">
     <speaker>Ern.</speaker>
     <p> Ha! ha! ha! delightful! That's better still!— you hear, sir, I am not to give you up
      altogether, though you deserve it; I shall only try your obedience! We command you, therefore,
      on pain of our sovereign displeasure, to pay all proper attentions to our handmaid, Gertrude ;
      you are her beau till further notice.</p>
    </sp>
-   <sp>
+   <sp who="#L0124_M1">
     <speaker>Amer.</speaker>
     <p> Ernestine, are you mad ? </p>
    </sp>
-   <sp>
+   <sp who="#L0124_F6">
     <speaker>Ern.</speaker>
     <p> Mad or not, you will obey me, or take the consequences ! I wont be charged with folly and
      extravagance for nothing! <stage>(aside)</stage> Remember, I have promised my father to decide
      this day in favour of somebody; if you hesitate only, you are excluded from all chance !
      <stage>(crosses, R.)</stage> Gertrude, I lend you a beau—on your personal security, mind !</p>
    </sp>
-   <sp>
+   <sp who="#L0124_F5">
     <speaker>Ger.</speaker>
     <p> Oh, you needn't be afraid, mamzelle—I'll take the greatest care of him—and, besides—</p>
    </sp>
    <spGrp>
     <head> Dutch Air. </head>
-    <sp>
+    <sp who="#L0124_F5">
      <speaker>Ger.</speaker>
      <l> Think not I the heart would keep</l>
      <l>I'm content to borrow !</l>
@@ -668,103 +708,103 @@
      <l>The job is to get any !</l>
      <l>And lovers grow like money may.</l>
     </sp>
-    <sp>
+    <sp who="#L0124_F6">
      <speaker>Ern.</speaker>
      <l> Oh, yes! one fool makes many!"</l>
     </sp>
    </spGrp>
    <pb n="11"/>
-   <sp>
+   <sp who="#L0124_F6">
     <speaker>Ern.</speaker>
     <p> <stage>(to Amersfort)</stage> One step, and you lose me for ever! <stage>Exit Ernestine, R.
      1 E.</stage></p>
    </sp>
-   <sp>
+   <sp who="#L0124_M1">
     <speaker>Amer.</speaker>
     <p> <stage>(to himself)</stage> This passes everything! I am a fool indeed, and love her like a
      fool, or I would never bear—</p>
    </sp>
-   <sp>
+   <sp who="#L0124_F5">
     <speaker>Ger.</speaker>
     <p> Only think! I've got a beau at last—and such a beau—an officer!—a fine, young, handsome
      officer !— What'll Peter say to that ?</p>
    </sp>
-   <sp>
+   <sp who="#L0124_M1">
     <speaker>Amer.</speaker>
     <p> And while I thus humour her caprices, she returns to the house to flirt with that puppy,
      Amstell, or that booby, Blankenberg !</p>
    </sp>
-   <sp>
+   <sp who="#L0124_F5">
     <speaker>Ger.</speaker>
     <p> But he takes no more notice of me than Peter himself!</p>
    </sp>
-   <sp>
+   <sp who="#L0124_M1">
     <speaker>Amer.</speaker>
     <p> I will not endure it ! I will follow her, and—</p>
    </sp>
-   <sp>
+   <sp who="#L0124_F5">
     <speaker>Ger.</speaker>
     <p> Stop! stop! you mustn't run away—you're only <hi>lent</hi> to me, you know—and if I should
      <hi>lose</hi> you, there'll be a pretty business ! <stage>(taking his arm.)</stage> </p>
    </sp>
-   <sp>
+   <sp who="#L0124_M1">
     <speaker>Amer.</speaker>
     <p> <stage>(laughing in despite of himself)</stage> Upon my word, this is too ridiculous ; So,
      you really look upon me as a loan, do you ?</p>
    </sp>
-   <sp>
+   <sp who="#L0124_F5">
     <speaker>Ger.</speaker>
     <p> Yes; and I don't choose to be left alone. My stars! Peter could do that.</p>
    </sp>
-   <sp>
+   <sp who="#L0124_M1">
     <speaker>Amer.</speaker>
     <p> Peter !—who's Peter ? I thought you said you hadn't a sweetheart in the world ?</p>
    </sp>
-   <sp>
+   <sp who="#L0124_F5">
     <speaker>Ger.</speaker>
     <p> Nor have I.</p>
    </sp>
-   <sp>
+   <sp who="#L0124_M1">
     <speaker>Amer.</speaker>
     <p> Come, come, no fibs ! You've betrayed yourself.</p>
     <p>This said Peter, isn't he a sweetheart?.</p>
    </sp>
-   <sp>
+   <sp who="#L0124_F5">
     <speaker>Ger.</speaker>
     <p> No, I don't think he is—at least, I don't know. What do you call a sweetheart—one whom you
      love, or one who loves you ?</p>
    </sp>
-   <sp>
+   <sp who="#L0124_M1">
     <speaker>Amer.</speaker>
     <p> One who loves you, of course.</p>
    </sp>
-   <sp>
+   <sp who="#L0124_F5">
     <speaker>Ger.</speaker>
     <p> Well, then, I'm right—he is not my sweetheart; but I am his, for I love him dearly !</p>
    </sp>
-   <sp>
+   <sp who="#L0124_M1">
     <speaker>Amer.</speaker>
     <p> What a candid little soul! And so you really love Peter dearly, though Peter doesn't love
      you ? But are you sure he doesn't love you ?</p>
    </sp>
-   <sp>
+   <sp who="#L0124_F5">
     <speaker>Ger.</speaker>
     <p> I don't believe he ever thought about it.</p>
    </sp>
-   <sp>
+   <sp who="#L0124_M1">
     <speaker>Amer.</speaker>
     <p> Is it possible! Why you are very pretty!— <stage>(aside)</stage> Upon my soul, she is
      uncommonly pretty—I wonder I never noticed her before!— <stage>(aloud)</stage> And so Peter has
      never thought about you ?</p>
    </sp>
-   <sp>
+   <sp who="#L0124_F5">
     <speaker>Ger.</speaker>
     <p> No -- </p>
    </sp>
    <pb n="12"/>
    <spGrp>
     <head> "Faut l'oublier."(Music published.)</head>
-    <sp>
+   <sp who="#L0124_F5">
      <l>I've no money; so, you see, Peter never thinks of me—</l>
      <l>I own it to my sorrow;</l>
      <l>Oh, could <hi>I</hi> grow rich, and he lie reduced to poverty,</l>
@@ -778,7 +818,7 @@
      <l>I'd marry <hi>him</hi> to-morrow!</l>
     </sp>
    </spGrp>
-   <sp>
+   <sp who="#L0124_M1">
     <speaker>Amer.</speaker>
     <p> There's love !—there's devotion ! What charming frankness !—what innocent enthusiasm ! By
      Jove, if she wasn't so fond of another, I should be almost tempted —if it were only to punish
@@ -787,99 +827,99 @@
      catches her round the waist; and is about to kiss her)</stage> </p>
     <stage> PETER SPYK enters with SWYZEL, R. 2 E. </stage>
    </sp>
-   <sp>
+   <sp who="#L0124_M3">
     <speaker>Swy.</speaker>
     <p> I beg your pardon, captain. <stage>(both stop short— Peter staring at Gertrude)</stage> </p>
    </sp>
-   <sp>
+   <sp who="#L0124_F5">
     <speaker>Ger.</speaker>
     <p> <stage>(aside)</stage> Oh, lud, there is Peter!</p>
    </sp>
-   <sp>
+   <sp who="#L0124_M1">
     <speaker>Amer.</speaker>
     <p> What the devil do you want ?</p>
    </sp>
-   <sp>
+   <sp who="#L0124_M3">
     <speaker>Swy.</speaker>
     <p> Only to introduce Peter Spyk—an honest young farmer—who desires to be your honour's
      tenant.</p>
    </sp>
-   <sp>
+   <sp who="#L0124_M1">
     <speaker>Amer.</speaker>
     <p> Peter Spyk.! What is this <hi>the</hi> Peter ?</p>
    </sp>
-   <sp>
+   <sp who="#L0124_F5">
     <speaker>Ger.</speaker>
     <p> Yes, that's Peter Spyk; and he wants to rent your farm of Appeldoorn; and I am sure you
      can't do better than let him have it, for he's as good a farmer, and as honest a young man—</p>
    </sp>
-   <sp>
+   <sp who="#L0124_M1">
     <speaker>Amer.</speaker>
     <p> If you interest yourself for him, my dear Gertrude, that is sufficient. Swyzel, come here.
      <stage>(aside to him)</stage> I am much interested about this girl!—I've taken a great fancy to
      her !</p>
    </sp>
-   <sp>
+   <sp who="#L0124_M3">
     <speaker>Swy.</speaker>
     <p> What, to our Gertrude ?—to that poor simple thing? Well, I thought just now you seemed
      rather— eh ? You're a terrible man, captain ! What will mamzelle say?</p>
     <pb n="13"/>
    </sp>
-   <sp>
+   <sp who="#L0124_M1">
     <speaker>Amer.</speaker>
     <p> Oh, it's all in pure friendship, I assure you ; but come this way, and tell me all you know
      about her. <stage>( aloud to Peter)</stage> I'll speak to you presently, young man.</p>
     <stage> Amersfort and SWYZEL enter the summerhouse, R. U. E. </stage>
    </sp>
-   <sp>
+   <sp who="#L0124_F5">
     <speaker>Ger.</speaker>
     <p> Peter, you'll have the farm !</p>
    </sp>
-   <sp>
+   <sp who="#L0124_M2">
     <speaker>Pet.</speaker>
     <p> No, shall I, though? Well I thought he said something like it; and because you asked him,
      too ! I say, you and he seem great friends—he'd got his arm round your waist!</p>
    </sp>
-   <sp>
+   <sp who="#L0124_F5">
     <speaker>Ger.</speaker>
     <p> Had he ? oh, yes, I believe he had.</p>
    </sp>
-   <sp>
+   <sp who="#L0124_M2">
     <speaker>Pet.</speaker>
     <p> Well, now I've known you ever since you were that high, and I'm sure <hi>I</hi> never put my
      arm round your waist.</p>
    </sp>
-   <sp>
+   <sp who="#L0124_F5">
     <speaker>Ger.</speaker>
     <p> No, that you never did! But, then, he's my sweetheart!</p>
    </sp>
-   <sp>
+   <sp who="#L0124_M2">
     <speaker>Pet.</speaker>
     <p> Your sweetheart?—yours? What, the captain? Pshaw! you're joking!</p>
    </sp>
-   <sp>
+   <sp who="#L0124_F5">
     <speaker>Ger.</speaker>
     <p> Joking!—indeed I'm not joking! What is there so strange in it, pray?</p>
    </sp>
-   <sp>
+   <sp who="#L0124_M2">
     <speaker>Pet.</speaker>
     <p> Why, in the first place, he's mamzelle's sweetheart!</p>
    </sp>
-   <sp>
+   <sp who="#L0124_F5">
     <speaker>Ger.</speaker>
     <p> Not now.</p>
    </sp>
-   <sp>
+   <sp who="#L0124_M2">
     <speaker>Pet.</speaker>
     <p> What, has he left her for you ? Why, what can a rich officer like that see in a poor servant
      girl ?</p>
    </sp>
-   <sp>
+   <sp who="#L0124_F5">
     <speaker>Ger.</speaker>
     <p> Don't be a brute, Peter! If you can't see anything to like in me, it's no reason that others
      should not.</p>
    </sp>
-   <sp>
+   <sp who="#L0124_M2">
     <speaker>Pet.</speaker>
     <p> Me !—oh, that's a different affair; because you and I, you know, there's not so much
      difference between us, and—oh, by-the-bye, talking of that—I've been thinking of what you said
@@ -888,84 +928,84 @@
      the Appeldoorn farm; and Swyzel says, she gave him a hint that her daughter, Anne, was very
      fond of me, and that decided me at once.</p>
    </sp>
-   <sp>
+   <sp who="#L0124_F5">
     <speaker>Ger.</speaker>
     <p> It did ?</p>
    </sp>
-   <sp>
+   <sp who="#L0124_M2">
     <speaker>Pet.</speaker>
     <p> Oh, yes; because, where a woman is really fond of one, you know—So directly I've settled
      with the captain about the farm, I'll post off to widow Stein's, and—
      <pb n="14"/>well, what's the matter with you, Gertrude ? Why, you are crying!</p>
    </sp>
-   <sp>
+   <sp who="#L0124_F5">
     <speaker>Ger.</speaker>
     <p> Nothing—nothing ! I wish you may be happy— that's all, Peter.</p>
    </sp>
-   <sp>
+   <sp who="#L0124_M2">
     <speaker>Pet.</speaker>
     <p> Thank ye—thank ye ! It's very kind of you to cry for joy about me, I'm sure—and I won't
      forget my promise.</p>
     <stage> Enter Amersfort and Swyzel, from the summerhouse. </stage>
    </sp>
-   <sp>
+   <sp who="#L0124_M3">
     <speaker>Swy.</speaker>
     <p> You can't be in earnest, captain?</p>
    </sp>
-   <sp>
+   <sp who="#L0124_M1">
     <speaker>Amer.</speaker>
     <p> I tell you there it is, in black and white ! Put a wafer in that <stage>(giving a
      note)</stage> and send it immediately to my lawyer's, as directed.</p>
    </sp>
-   <sp>
+   <sp who="#L0124_M3">
     <speaker>Swy.</speaker>
     <p> <stage>(aside)</stage> Two thousand crowns to portion off a wench like that. 'Gad ! she
      won't want a husband long.</p>
     <stage> Exit SWTZEL, L. </stage>
    </sp>
-   <sp>
+   <sp who="#L0124_M1">
     <speaker>Amer.</speaker>
     <p> <stage>(to Peter)</stage> Now for you, farmer. I find there are writing materials in the
      summerhouse, so we can—</p>
    </sp>
-   <sp>
+   <sp who="#L0124_F5">
     <speaker>Ger.</speaker>
     <p> Stop ! stop !—one word.</p>
    </sp>
-   <sp>
+   <sp who="#L0124_M1">
     <speaker>Amer.</speaker>
     <p> What is it? </p>
    </sp>
-   <sp>
+   <sp who="#L0124_F5">
     <speaker>Ger.</speaker>
     <p> <stage>(leading him apart from Peter)</stage> You are my beau, you know, and you're to do
      everything I bid you !</p>
    </sp>
-   <sp>
+   <sp who="#L0124_M1">
     <speaker>Amer.</speaker>
     <p> Of course. </p>
    </sp>
-   <sp>
+   <sp who="#L0124_F5">
     <speaker>Ger.</speaker>
     <p> Well, then, I bid you refuse the farm to Peter Spyk!</p>
    </sp>
-   <sp>
+   <sp who="#L0124_M1">
     <speaker>Amer.</speaker>
     <p> Refuse !—why I thought you said—</p>
    </sp>
-   <sp>
+   <sp who="#L0124_F5">
     <speaker>Ger.</speaker>
     <p> It doesn't signify what I said !—I've changed my mind ! I suppose I may do that as well as
      your fine ladies! You're to obey me!—Mamzelle Ernestine said so ; and I don't choose you should
      let Peter have the farm ! <stage>(speaking the last five words loud enough for Peter to
      hear)</stage> </p>
    </sp>
-   <sp>
+   <sp who="#L0124_M2">
     <speaker>Pet.</speaker>
     <p> <stage>(aside)</stage> "Let Peter have the farm !"'Gad ! she's giving me a famous lift with
      the captain !</p>
    </sp>
-   <sp>
+   <sp who="#L0124_M1">
     <speaker>Amer.</speaker>
     <p> Well, if you don't choose, he shan't have it, certainly: and I'm not sorry, for I don't
      think he deserves it. And now, listen to me. I mean to help you to a good husband, and, in
@@ -973,26 +1013,26 @@
      an hour's time at the sun-dial yonder. May I depend upon you ?</p>
     <pb n="15"/>
    </sp>
-   <sp>
+   <sp who="#L0124_F5">
     <speaker>Ger.</speaker>
     <p> That you may.</p>
    </sp>
-   <sp>
+   <sp who="#L0124_M1">
     <speaker>Amer.</speaker>
     <p> Enough! Now, master Peter Spyk, follow me. There's no occasion for writing: we can settle
      this business in two words.</p>
    </sp>
-   <sp>
+   <sp who="#L0124_M2">
     <speaker>Pet.</speaker>
     <p> <stage>(aside)</stage> The farm's mine! <stage>(to Gertrude)</stage> I owe you a good turn
      for this ! <stage>Exit, with Amersfort, R. U. E.</stage></p>
    </sp>
-   <sp>
+   <sp who="#L0124_F5">
     <speaker>Ger.</speaker>
     <p> Indeed you do. If Anne Stein marries him now, I'm mistaken in the family altogether.</p>
     <stage> Enter Swyzel, L. </stage>
    </sp>
-   <sp>
+   <sp who="#L0124_M3">
     <speaker>Swy.</speaker>
     <p> I've sent Delve with the note; but I've made up my mind. I'm not a young man, certainly; and
      I had no idea of changing my situation ; but two thousand crowns will suit me as well as
@@ -1000,30 +1040,30 @@
      aloud)</stage> Gertrude ! Gertrude !—come hither, Gertrude ; I want to say a word to you in
      private !</p>
    </sp>
-   <sp>
+   <sp who="#L0124_F5">
     <speaker>Ger.</speaker>
     <p> To me, master steward ? <stage>( aside)</stage> O dear, now he's going to scold me for
      something, I'm sure. A cross old patch!</p>
    </sp>
-   <sp>
+   <sp who="#L0124_M3">
     <speaker>Swy.</speaker>
     <p> Come here, I tell you! Nearer—don't be afraid —I'm going to propose something for your good,
      my dear!</p>
    </sp>
-   <sp>
+   <sp who="#L0124_F5">
     <speaker>Ger.</speaker>
     <p> <stage>(aside)</stage> "My dear!"Bless me, how kind he's grown all of a sudden.</p>
    </sp>
-   <sp>
+   <sp who="#L0124_M3">
     <speaker>Swy.</speaker>
     <p> I've known you a long while, Gertrude—from your cradle in fact. I knew your poor dear father
      and mother, and I always had a great affection for you!</p>
    </sp>
-   <sp>
+   <sp who="#L0124_F5">
     <speaker>Ger.</speaker>
     <p> You, Mynheer Swyzel?—I'm sure you never showed it, then.</p>
    </sp>
-   <sp>
+   <sp who="#L0124_M3">
     <speaker>Swy.</speaker>
     <p> May be not—may be not! I was afraid of spoiling you, as a child; but now, you know, you are
      grown up,: and very nicely you have grown up—I see it more and more every day—and in short,
@@ -1031,104 +1071,104 @@
      pretty girl like you, whose character and temper I have watched the growth of from an
      infant.</p>
    </sp>
-   <sp>
+   <sp who="#L0124_F5">
     <speaker>Ger.</speaker>
     <p> You—you, Mynheer Swyzel, marry me?</p>
    </sp>
-   <sp>
+   <sp who="#L0124_M3">
     <speaker>Swy.</speaker>
     <p> Why not—why not ?—if you have no objection. I'm only fifty-five, and a hale, hearty man for
      that age. I have saved some money in service, and—</p>
    </sp>
-   <sp>
+   <sp who="#L0124_F5">
     <speaker>Ger.</speaker>
     <p> But I haven't a doit in the world!</p>
     <pb n="16"/>
    </sp>
-   <sp>
+   <sp who="#L0124_M3">
     <speaker>Swy.</speaker>
     <p> Nay; nay! you are richer than you think for! </p>
    </sp>
-   <sp>
+   <sp who="#L0124_F5">
     <speaker>Ger.</speaker>
     <p>Eh ?</p>
    </sp>
-   <sp>
+   <sp who="#L0124_M3">
     <speaker>Swy.</speaker>
     <p> In charms—in youth and beauty!—</p>
    </sp>
-   <sp>
+   <sp who="#L0124_F5">
     <speaker>Ger.</speaker>
     <p> <stage>(aside)</stage> So—so! here's a real, downright sweetheart at last!—and old Swyzel,
      too, of all men in the world! I shall die of laughing!</p>
    </sp>
-   <sp>
+   <sp who="#L0124_M3">
     <speaker>Swy.</speaker>
     <p> <stage>(aside)</stage> She's silent!—-she hesitates ! The two thousand crowns are mine !</p>
    </sp>
    <spGrp>
     <head>"Dutch Air. </head>
-    <sp>
+    <sp who="#L0124_M3">
      <speaker>Swy.</speaker>
      <l> My ears with sweet consentment bless!</l>
     </sp>
-    <sp>
+    <sp who="#L0124_F5">
      <speaker>Ger.</speaker>
      <l> <stage>(aside)</stage> The moon must, surely, be about full!</l>
      <l> <stage>(aloud)</stage> I don't say <hi>no</hi> —I don't say <hi>yes</hi>. </l>
     </sp>
-    <sp>
+    <sp who="#L0124_M3">
      <speaker>Swy.</speaker>
      <l> Alack ! that's rather doubtful !</l>
     </sp>
-    <sp>
+    <sp who="#L0124_F5">
      <speaker>Ger.</speaker>
      <l> What proof have I you mean me fair ?</l>
      <l>Your sex is of deceit, throughout, full.</l>
     </sp>
-    <sp>
+    <sp who="#L0124_M3">
      <speaker>Swy.</speaker>
      <l> Upon my honour, I declare !</l>
     </sp>
-    <sp>
+    <sp who="#L0124_F5">
      <speaker>Ger.</speaker>
      <l> Alack! that's rather doubtful! "</l>
     </sp>
    </spGrp>
-   <sp>
+   <sp who="#L0124_F5">
     <speaker>Ger.</speaker>
     <p> <stage>(aside)</stage> Here's Peter a coming back. If I could manage— <stage>(aloud)</stage>
      Besides, that isn't the way to swear you love a body—you should go down on your knees!</p>
    </sp>
-   <sp>
+   <sp who="#L0124_M3">
     <speaker>Swy.</speaker>
     <p> There!—there, then ! Charming Gertrude, on my knees, I swear eternal love and constancy!</p>
     <stage> Enter Peter, R. U. E. </stage>
    </sp>
-   <sp>
+   <sp who="#L0124_M2">
     <speaker>Pet.</speaker>
     <p> Halloo!—why, Mynheer Swyzel, what are you doing there ?</p>
    </sp>
-   <sp>
+   <sp who="#L0124_M3">
     <speaker>Swy.</speaker>
     <p> <stage>(scrambling up)</stage> Confusion! <stage>(aloud)</stage> I— nothing—only kneeling
      to— <stage>(aside to Gertrude.)</stage> Don't say anything to that fool. Come to my room as
      soon as you've got rid of him. <stage>Exit Swyzel, L.</stage></p>
    </sp>
-   <sp>
+   <sp who="#L0124_F5">
     <speaker>Ger.</speaker>
     <p> You here again, Peter?</p>
    </sp>
-   <sp>
+   <sp who="#L0124_M2">
     <speaker>Pet.</speaker>
     <p> Here again !—I believe I am, too ; and just as I went away. Would you believe it ?—Captain
      Amersfort won't let me the farm, after all!</p>
    </sp>
-   <sp>
+   <sp who="#L0124_F5">
     <speaker>Ger.</speaker>
     <p> Dear me !—you don't say so ?</p>
    </sp>
-   <sp>
+   <sp who="#L0124_M2">
     <speaker>Pet.</speaker>
     <p> He wouldn't hear a word; and, to make matters worse, old widow Stein, who saw me talking to
      him, waited to hear the upshot; and, when I told her, she as good as gave me to understand that
@@ -1139,106 +1179,106 @@
      why there's the captain vows—and, talking of vowing, what was old Swyzel about on his knees? I
      do believe he was vowing, too !</p>
    </sp>
-   <sp>
+   <sp who="#L0124_F5">
     <speaker>Ger.</speaker>
     <p> Between you and me, he was vowing all sorts of love to me!—and he wants me to marry him!</p>
    </sp>
-   <sp>
+   <sp who="#L0124_M2">
     <speaker>Pet.</speaker>
     <p> Marry him !—marry old Swyzel!—and will you ?</p>
    </sp>
-   <sp>
+   <sp who="#L0124_F5">
     <speaker>Ger.</speaker>
     <p> I don't know!—what do you think ? Would you like me to marry him, Peter ?</p>
    </sp>
-   <sp>
+   <sp who="#L0124_M2">
     <speaker>Pet.</speaker>
     <p> Not at all! I don't know how it is, but I can't fancy your marrying anybody—that is, I never
      thought of <hi>your</hi> marrying anybody; and, now I do think of it, I think—</p>
    </sp>
-   <sp>
+   <sp who="#L0124_F5">
     <speaker>Ger.</speaker>
     <p> Well—what ?</p>
     <stage> Enter Delve, with a note, L. </stage>
    </sp>
-   <sp>
+   <sp who="#L0124_M4">
     <speaker>Del.</speaker>
     <p> Oh, Gertrude, here you are; here's a note for you. It's very particular—they gave me a
      florin to run all the way!</p>
    </sp>
-   <sp>
+   <sp who="#L0124_F5">
     <speaker>Ger.</speaker>
     <p> A note for me ?—who is it from ?</p>
    </sp>
-   <sp>
+   <sp who="#L0124_M4">
     <speaker>Del.</speaker>
     <p> The clerk at Van Nickem's, the lawyer. I took a letter there for the captain, and, as his
      master wasn't at home, the clerk opened it, and wrote this answer to the captain, and then
      scribbled that for you, and begged me to give you yours first—and so I have ; and now I must
      find the captain. <stage>Exit Delve, R.</stage></p>
    </sp>
-   <sp>
+   <sp who="#L0124_F5">
     <speaker>Ger.</speaker>
     <p> A note for me ? Nobody ever wrote to me before; and if they had, it would have been no use,
      for I can't read written hand. You can, Peter; so pray open it, and let's hear what it's all
      about.</p>
    </sp>
-   <sp>
+   <sp who="#L0124_M2">
     <speaker>Pet.</speaker>
     <p> <stage>(opening and reading)</stage> "Mamzelle."Mamzelle, to you!</p>
    </sp>
-   <sp>
+   <sp who="#L0124_F5">
     <speaker>Ger.</speaker>
     <p> Go on—go on.</p>
    </sp>
-   <sp>
+   <sp who="#L0124_M2">
     <speaker>Pet.</speaker>
     <p> "I have loved you above all earthly beings!"</p>
    </sp>
-   <sp>
+   <sp who="#L0124_F5">
     <speaker>Ger.</speaker>
     <p> Bless us, and save us !</p>
    </sp>
-   <sp>
+   <sp who="#L0124_M2">
     <speaker>Pet.</speaker>
     <p> "I dared not disclose my passion; but, believe me, my affection was equal to my
      silence."</p>
    </sp>
-   <sp>
+   <sp who="#L0124_F5">
     <speaker>Ger.</speaker>
     <p> Then it was great indeed!</p>
     <pb n="18"/>
    </sp>
-   <sp>
+   <sp who="#L0124_M2">
     <speaker>Pet.</speaker>
     <p> "I have at length summoned courage to address you, and if the offer of my hand and
      fortune"—another proposal!—-who is the fellow that writes this ?</p>
    </sp>
-   <sp>
+   <sp who="#L0124_F5">
     <speaker>Ger.</speaker>
     <p> Van Nickem's clerk, Delve told you.</p>
    </sp>
-   <sp>
+   <sp who="#L0124_M2">
     <speaker>Pet.</speaker>
     <p> Yes; here's his ugly name, sure enough, at the bottom of it—-Simon Sneek !</p>
    </sp>
-   <sp>
+   <sp who="#L0124_F5">
     <speaker>Ger.</speaker>
     <p> Ah! if I recollect, he's rather a good-looking young man!</p>
    </sp>
-   <sp>
+   <sp who="#L0124_M2">
     <speaker>Pet.</speaker>
     <p> Why, you don't mean to—</p>
    </sp>
-   <sp>
+   <sp who="#L0124_F5">
     <speaker>Ger.</speaker>
     <p> Surely he's better than old Swyzel!</p>
    </sp>
-   <sp>
+   <sp who="#L0124_M2">
     <speaker>Pet.</speaker>
     <p> Well! but what does it all mean ? Everybody wants to marry you.</p>
    </sp>
-   <sp>
+   <sp who="#L0124_F5">
     <speaker>Ger.</speaker>
     <p> I can't help that—can I ? But I shan't be in a hurry; I shall do as you do—look about me ;
      perhaps somebody may offer that I should like better. <stage>(clock strikes)</stage> Hark!
@@ -1248,7 +1288,7 @@
     <p> <stage>(goes out singing "In verity,"&amp;c, in imitation of Peter'S manner at his exit, R.
      1 E.)</stage></p>
    </sp>
-   <sp>
+   <sp who="#L0124_M2">
     <speaker>Pet.</speaker>
     <p> <stage>(stands staring after her, with the note open in his hand)</stage> Well, when she
      talks of Anne Stein always changing her partner—she's off to meet the captain now ; and yet she
@@ -1264,458 +1304,458 @@
     <pb n="19"/>
     <stage> Enter Delve, R. </stage>
    </sp>
-   <sp>
+   <sp who="#L0124_M4">
     <speaker>Del.</speaker>
     <p> What's the matter, Master Peter?—you don't look best pleased.</p>
    </sp>
-   <sp>
+   <sp who="#L0124_M2">
     <speaker>Pet.</speaker>
     <p> Well, I have been pleased better.</p>
    </sp>
-   <sp>
+   <sp who="#L0124_M4">
     <speaker>Del.</speaker>
     <p> Anything in that note ?</p>
    </sp>
-   <sp>
+   <sp who="#L0124_M2">
     <speaker>Pet.</speaker>
     <p> This note!—no. This is the note you brought from Van Nickem's. There's that young rogue,
      Sneek, wants to marry Gertrude.</p>
    </sp>
-   <sp>
+   <sp who="#L0124_M4">
     <speaker>Del.</speaker>
     <p> To marry Gertrude! Well, now, do you know, I think he might do worse.</p>
    </sp>
-   <sp>
+   <sp who="#L0124_M2">
     <speaker>Pet.</speaker>
     <p> Might do worse ?—I believe he might, too !</p>
    </sp>
-   <sp>
+   <sp who="#L0124_M4">
     <speaker>Del.</speaker>
     <p> Gertrude's by no means ill-looking.</p>
    </sp>
-   <sp>
+   <sp who="#L0124_M2">
     <speaker>Pet.</speaker>
     <p> Ill-looking ?—she's very pretty.</p>
    </sp>
-   <sp>
+   <sp who="#L0124_M4">
     <speaker>Del.</speaker>
     <p> Well—yes—I think she is,—and very good tempered.</p>
    </sp>
-   <sp>
+   <sp who="#L0124_M2">
     <speaker>Pet.</speaker>
     <p> The best humoured soul in the world !</p>
    </sp>
-   <sp>
+   <sp who="#L0124_M4">
     <speaker>Del.</speaker>
     <p> Do you know, Master Peter, if I thought there was any chance of our living comfortably
      together, I shouldn't mind making up to Gertrude myself.</p>
    </sp>
-   <sp>
+   <sp who="#L0124_M2">
     <speaker>Pet.</speaker>
     <p> You !—you be hanged!</p>
    </sp>
-   <sp>
+   <sp who="#L0124_M4">
     <speaker>Del.</speaker>
     <p> Hanged !—what for, I should like to know ? I question now if I couldn't afford to marry as
      well as young Sneek—he doesn't get much out of Nickem's pocket, I'll swear!</p>
    </sp>
-   <sp>
+   <sp who="#L0124_M2">
     <speaker>Pet.</speaker>
     <p> Well, you needn't trouble your head about it, because you shan't have her !</p>
    </sp>
-   <sp>
+   <sp who="#L0124_M4">
     <speaker>Del.</speaker>
     <p> Why, farmer Spyk, what have you to do with it?—suppose I choose, and she chooses, you're
      neither her father nor her mother. If you put my blood up, I'll go and ask her at once!</p>
    </sp>
-   <sp>
+   <sp who="#L0124_M2">
     <speaker>Pet.</speaker>
     <p> And if you do, you'll put my blood up—and then I shall knock you down !</p>
    </sp>
-   <sp>
+   <sp who="#L0124_M4">
     <speaker>Del.</speaker>
     <p> Knock me down ! Donner and blitzen!</p>
    </sp>
-   <sp>
+   <sp who="#L0124_M2">
     <speaker>Pet.</speaker>
     <p> Don't provoke me !—I'm getting desperate !—I mean to marry Gertrude myself, if she'll have
      me; and I'll fight anybody for her, with fists, knives, pistols— anything!</p>
     <stage> Enter Ernestine, R. </stage>
    </sp>
-   <sp>
+   <sp who="#L0124_F6">
     <speaker>Ern.</speaker>
     <p> Heyday ! heyday ! what is all this noise about— and threat of fighting ?</p>
     <pb n="20"/>
    </sp>
-   <sp>
+   <sp who="#L0124_M4">
     <speaker>Del.</speaker>
     <p> It's farmer Spyk, here, and please you, mamzelle; he threatens to knock me down if I go
      a-courting to Gertrude—and all in an honest way, too.</p>
    </sp>
-   <sp>
+   <sp who="#L0124_F6">
     <speaker>Ern.</speaker>
     <p> To Gertrude! Why how long have you taken this fancy into your head ?</p>
    </sp>
-   <sp>
+   <sp who="#L0124_M2">
     <speaker>Pet.</speaker>
     <p> Why, not five minutes, mamzelle; and he has the impudence to set himself up against me, who
      have been in love with her—more than half an hour!</p>
    </sp>
-   <sp>
+   <sp who="#L0124_F6">
     <speaker>Ern.</speaker>
     <p> And where is the fair object of your contention ? —what does she say to these sudden
      passions ?</p>
    </sp>
-   <sp>
+   <sp who="#L0124_M2">
     <speaker>Pet.</speaker>
     <p> I'm waiting to know what she'll say to mine—but she's a plaguy long time with the captain.
      He's the only rival I'm afraid of; she seems deuced fond of him—and he raves about her !</p>
    </sp>
-   <sp>
+   <sp who="#L0124_F6">
     <speaker>Ern.</speaker>
     <p> <stage>(alarmed)</stage> He does!— <stage>(recovering herself )</stage> But, of course—I
      desired him.</p>
    </sp>
-   <sp>
+   <sp who="#L0124_M2">
     <speaker>Pet.</speaker>
     <p> You desired him, mamzelle?</p>
    </sp>
-   <sp>
+   <sp who="#L0124_F6">
     <speaker>Ern.</speaker>
     <p> Yes; I commanded him to make love to her!</p>
    </sp>
-   <sp>
+   <sp who="#L0124_M2">
     <speaker>Pet.</speaker>
     <p> Well, he won't be broke for disobedience, then— that's all I can say—for he does make love
      to her most furiously ! I caught him myself with his arm round her waist, this morning, and I
      dare say its round it now, if the truth was known; but I can't see for that beastly
      hollybush.<stage> Delve steals out behind, R.</stage> </p>
    </sp>
-   <sp>
+   <sp who="#L0124_F6">
     <speaker>Ern.</speaker>
     <p> Why, where are they, then?</p>
    </sp>
-   <sp>
+   <sp who="#L0124_M2">
     <speaker>Pet.</speaker>
     <p> She was to meet him at the sun-dial, and I saw him slinking through the trees yonder; and
      just now I'm almost certain I caught a glimpse of them at the end of that walk.</p>
    </sp>
-   <sp>
+   <sp who="#L0124_F6">
     <speaker>Ern.</speaker>
     <p> <stage>(aside)</stage> I don't like this account; I'm afraid I've acted very sillily. I
      repented of the freak almost as soon as I left them ; but my pride would not suffer me to
      return. The girl's pretty—very pretty—and if Amersfort, enraged at my indifference, should, out
      of mere spite—such things have happened—Oh, dear! I do not like it at all!</p>
    </sp>
-   <sp>
+   <sp who="#L0124_M2">
     <speaker>Pet.</speaker>
     <p> There she goes !—there she goes!</p>
    </sp>
-   <sp>
+   <sp who="#L0124_F6">
     <speaker>Ern.</speaker>
     <p> With the captain?</p>
    </sp>
-   <sp>
+   <sp who="#L0124_M2">
     <speaker>Pet.</speaker>
     <p> No, by herself—and there's Delve after her as hard as he can scamper ! I'll follow—I'll—no,
      I can't—I can't move—I—I feel very ill—my head spins round like a top ! Here comes the
      captain.</p>
     <pb n="21"/>
    </sp>
-   <sp>
+   <sp who="#L0124_F6">
     <speaker>Ern.</speaker>
     <p> Amersfort! I am ready to sink—</p>
    </sp>
-   <sp>
+   <sp who="#L0124_M2">
     <speaker>Pet.</speaker>
     <p> Don't—don't, mamzelle—for I've no strength to catch you !</p>
     <stage> Enter Amersfort, R. U. E. </stage>
    </sp>
-   <sp>
+   <sp who="#L0124_M1">
     <speaker>Amer.</speaker>
     <p> <stage>(aside)</stage> She is here—now for the trial!— <stage>(aloud)</stage> Mademoiselle
      Ernestine, I came to seek you.</p>
    </sp>
-   <sp>
+   <sp who="#L0124_F6">
     <speaker>Ern.</speaker>
     <p> Indeed, sir; and for what purpose? I thought I had desired you to pay your attentions in
      another quarter for the present.</p>
    </sp>
-   <sp>
+   <sp who="#L0124_M1">
     <speaker>Amer.</speaker>
     <p> It is in perfect accordance with that desire that I have sought this interview. I am anxious
      to express my gratitude for the blessing which you have so unexpectedly bestowed upon me.</p>
    </sp>
-   <sp>
+   <sp who="#L0124_F6">
     <speaker>Ern.</speaker>
     <p> What do you mean, sir?</p>
    </sp>
-   <sp>
+   <sp who="#L0124_M1">
     <speaker>Amer.</speaker>
     <p> I mean, Mamzelle Rosendaal, that the heart you treated with so much indifference has been
      accepted by one of the most lovely and amiable of your sex; and that, in the affection of
      Gertrude, it has found a balm for all the wounds you had so wantonly inflicted on it!</p>
    </sp>
-   <sp>
+   <sp who="#L0124_M2">
     <speaker>Pet.</speaker>
     <p> There !—there ! I told you so !</p>
    </sp>
-   <sp>
+   <sp who="#L0124_F6">
     <speaker>Ern.</speaker>
     <p> Upon my word, sir !—and you have the assurance to make this confession to me ?</p>
    </sp>
-   <sp>
+   <sp who="#L0124_M1">
     <speaker>Amer.</speaker>
     <p> Why not, Mademoiselle ? We are not masters of our affections, and, therefore, I will not
      reproach you. But can you be surprised that I should be weary of loving one who did not love
      me? or that, stung to the quick by your contempt, I should be more sensible to the kindness and
      sympathy of another? Gertrude is lovely !</p>
    </sp>
-   <sp>
+   <sp who="#L0124_M2">
     <speaker>Pet.</speaker>
     <p> <stage>(L.)</stage> She is!—she is !</p>
    </sp>
-   <sp>
+   <sp who="#L0124_M1">
     <speaker>Amer.</speaker>
     <p> The sweetest tempered—the most frank and affectionate of beings!</p>
    </sp>
-   <sp>
+   <sp who="#L0124_M2">
     <speaker>Pet.</speaker>
     <p> Too true !—too true !</p>
    </sp>
-   <sp>
+   <sp who="#L0124_M1">
     <speaker>Amer.</speaker>
     <p> The possession of her heart is a blessing monarchs might envy me !</p>
    </sp>
-   <sp>
+   <sp who="#L0124_M2">
     <speaker>Pet.</speaker>
     <p> I shall go mad!</p>
    </sp>
-   <sp>
+   <sp who="#L0124_M1">
     <speaker>Amer.</speaker>
     <p> And monarchs have matched with maidens as lowly born, and far less deserving!</p>
    </sp>
-   <sp>
+   <sp who="#L0124_F6">
     <speaker>Ern.</speaker>
     <p> <stage>(C.)</stage> Enough!—enough, sir!</p>
    </sp>
-   <sp>
+   <sp who="#L0124_M2">
     <speaker>Pet.</speaker>
     <p> No, it's not enough ! He can't say too much about her !—she hasn't her equal upon earth!</p>
     <pb n="22"/>
    </sp>
-   <sp>
+   <sp who="#L0124_M1">
     <speaker>Amer.</speaker>
     <p> You are right, farmer; and I thank you for the honest warmth with which you justify my
      choice.<stage>(crosses and offers his hand)</stage></p>
    </sp>
-   <sp>
+   <sp who="#L0124_M2">
     <speaker>Pet.</speaker>
     <p> Your choice ! Don't touch me !</p>
    </sp>
-   <sp>
+   <sp who="#L0124_M1">
     <speaker>Amer.</speaker>
     <p> My sweet bride—my affianced wife—Madame Amersfort shall thank you in person !</p>
    </sp>
-   <sp>
+   <sp who="#L0124_M2">
     <speaker>Pet.</speaker>
     <p> His wife ! Madame Amersfort! Cruel, faithless Gertrude!</p>
    </sp>
-   <sp>
+   <sp who="#L0124_M1">
     <speaker>Amer.</speaker>
     <p> Faithless !—why, did you ever propose to her?</p>
    </sp>
-   <sp>
+   <sp who="#L0124_M2">
     <speaker>Pet.</speaker>
     <p> No ; but I meant to do so ! Oh, dear !</p>
    </sp>
-   <sp>
+   <sp who="#L0124_F6">
     <speaker>Ern.</speaker>
     <p> Your wife ?—your wife ?—and you really intend to marry this orphan girl ?</p>
    </sp>
-   <sp>
+   <sp who="#L0124_M1">
     <speaker>Amer.</speaker>
     <p> I have desired my lawyer to prepare her marriage contract, which shall be signed this
      evening!</p>
    </sp>
-   <sp>
+   <sp who="#L0124_M2">
     <speaker>Pet.</speaker>
     <p> Oh!</p>
    </sp>
-   <sp>
+   <sp who="#L0124_F6">
     <speaker>Ern.</speaker>
     <p> Not in this house, sir! I will not be insulted to that extent! I go this moment to inform my
      father.</p>
    </sp>
-   <sp>
+   <sp who="#L0124_M1">
     <speaker>Amer.</speaker>
     <p> The Baron Van Rosendaal is already informed, and approves of my intentions !</p>
    </sp>
-   <sp>
+   <sp who="#L0124_F6">
     <speaker>Ern.</speaker>
     <p> Approves !—we shall see, sir !—we shall see !</p>
    </sp>
    <spGrp>
     <head>Air—"The Challenge."</head>
-    <sp>
+    <sp who="#L0124_F6">
      <speaker>Ern.</speaker>
      <l> Such perfidy was never known—</l>
      <l>I joy in its unmasking.</l>
     </sp>
-    <sp>
+    <sp who="#L0124_M2">
      <speaker>Pet.</speaker>
      <l> O Gertrude ! you've a heart of stone,</l>
      <l>To break a heart so true !</l>
     </sp>
-    <sp>
+    <sp who="#L0124_M1">
      <speaker>Amer.</speaker>
      <l> Why, had she promised you ? </l>
     </sp>
-    <sp>
+    <sp who="#L0124_M2">
      <speaker>Pet.</speaker>
      <l> No, there her falsehood's shown !</l>
      <l>So bent was she on jilting me,</l>
      <l>&gt; She could not wait for asking.</l>
     </sp>
-    <sp>
+    <sp who="#L0124_M1">
      <speaker>Amer.</speaker>
      <l> Well, there with you I must agree.</l>
      <l>Such falsehood ne'er was known.</l>
     </sp>
-    <sp>
+    <sp who="#L0124_F6">
      <speaker>Ern.</speaker>
      <l> Tis well—'tis well, sir, we shall see, </l>
      <l>Such falsehood ne'er was known."</l>
     </sp>
    </spGrp>
    <stage> Exit Ernestine, R. </stage>
-   <sp>
+   <sp who="#L0124_M1">
     <speaker>Amer.</speaker>
     <p> <stage>(aside)</stage> Yes, yes, my fair tyrant, your father is in the plot! I think we
      have you now! <stage>( aloud)</stage> Well, my good friend, I must say I pity you extremely—you
      have lost a model of a wife !</p>
    </sp>
-   <sp>
+   <sp who="#L0124_M2">
     <speaker>Pet.</speaker>
     <p> Don't—don't!</p>
    </sp>
-   <sp>
+   <sp who="#L0124_M1">
     <speaker>Amer.</speaker>
     <p> But where is she?—where is my adored Gertrude ?</p>
     <pb n="23"/>
     <stage> Enter Gertrude, R., 3 E., dressed as a bride. </stage>
    </sp>
-   <sp>
+   <sp who="#L0124_M1">
     <speaker>Amer.</speaker>
     <p> <stage>( makes signs to her not to speak, and points at Peter. who stands in an attitude of
      comic despair, with his back towards them)</stage> I must hasten to find her—I cannot bear to
      be an instant from her sight! Oh, Peter !—Peter ! what a treasure has escaped you !</p>
     <stage> Exit Amersfort, R. 1 E., exchanging signs with Gertrude.</stage>
    </sp>
-   <sp>
+   <sp who="#L0124_M2">
     <speaker>Pet.</speaker>
     <p> <stage>(soliloquising)</stage> Escaped me, as if I was a mad dog ! —and it was an escape for
      Gertrude! An escape !—and I have let her escape! Well, well, she won't be Madame Swyzel, nor
      Madame Sneek ; and that rascal Delve hasn't got her—that's one comfort! Comfort!—I talk of
      comfort !—I shall never know comfort again ! Oh, Gertrude ! —Gertrude!</p>
    </sp>
-   <sp>
+   <sp who="#L0124_F5">
     <speaker>Ger.</speaker>
     <p> <stage>(advancing)</stage> Did you call me, Peter ?</p>
    </sp>
-   <sp>
+   <sp who="#L0124_M2">
     <speaker>Pet.</speaker>
     <p> Hah! what do I see? There's a dress—a wedding dress ! It is !—it is !</p>
    </sp>
-   <sp>
+   <sp who="#L0124_F5">
     <speaker>Ger.</speaker>
     <p> It is—it is a very beautiful dress, as you say, and I don't wonder you start to see me in
      such a dress ; but, as the bride of a captain, you know——</p>
    </sp>
-   <sp>
+   <sp who="#L0124_M2">
     <speaker>Pet.</speaker>
     <p> It is true, then, you are going—going to marry Captain Amersfort ?</p>
    </sp>
-   <sp>
+   <sp who="#L0124_F5">
     <speaker>Ger.</speaker>
     <p> Ah ! he has told you, then ? Well, I was in hopes of giving you an agreeable surprise !</p>
    </sp>
-   <sp>
+   <sp who="#L0124_M2">
     <speaker>Pet.</speaker>
     <p> An agreeable surprise !</p>
    </sp>
-   <sp>
+   <sp who="#L0124_F5">
     <speaker>Ger.</speaker>
     <p> Why, are you not delighted, Peter, at my good fortune ?</p>
    </sp>
-   <sp>
+   <sp who="#L0124_M2">
     <speaker>Pet.</speaker>
     <p> Delighted!</p>
    </sp>
-   <sp>
+   <sp who="#L0124_F5">
     <speaker>Ger.</speaker>
     <p> Only think—a poor orphan girl like me, whom nobody loved, and nobody cared about—</p>
    </sp>
-   <sp>
+   <sp who="#L0124_M2">
     <speaker>Pet.</speaker>
     <p> It isn't true! I cared about you—I loved you— doated on you!</p>
    </sp>
-   <sp>
+   <sp who="#L0124_F5">
     <speaker>Ger.</speaker>
     <p> You, Peter !—you ! Mercy on me ! And why didn't you tell me so then ?</p>
    </sp>
-   <sp>
+   <sp who="#L0124_M2">
     <speaker>Pet.</speaker>
     <p> Because I didn't know it myself then; but I do now, Gertrude—I do now !</p>
    </sp>
-   <sp>
+   <sp who="#L0124_F5">
     <speaker>Ger.</speaker>
     <p> Now !—now that it is too late!</p>
    </sp>
-   <sp>
+   <sp who="#L0124_M2">
     <speaker>Pet.</speaker>
     <p> But is it—is it too late ? You are not married yet,?</p>
    </sp>
-   <sp>
+   <sp who="#L0124_F5">
     <speaker>Ger.</speaker>
     <p> No ; but I have promised! The contract is
      <pb n="24"/> ordered, and this beautiful dress was bought by the captain on purpose. You would
      not have me behave so shamefully to one who loves me so dearly ?</p>
    </sp>
-   <sp>
+   <sp who="#L0124_M2">
     <speaker>Pet.</speaker>
     <p> But I—I love you dearly !</p>
    </sp>
-   <sp>
+   <sp who="#L0124_F5">
     <speaker>Ger.</speaker>
     <p> Ah! if you had but said so an hour ago! But you thought of everybody but me !</p>
    </sp>
-   <sp>
+   <sp who="#L0124_M2">
     <speaker>Pet.</speaker>
     <p> I know it—I know it! But then nobody thought of you, and now everybody does ; and it proves
      to me that you—you are the only girl in the world that I ought to marry; and if you wont have
      me, I—I know what I'll do.</p>
    </sp>
-   <sp>
+   <sp who="#L0124_F5">
     <speaker>Ger.</speaker>
     <p> Dear me, Peter, what ?</p>
    </sp>
-   <sp>
+   <sp who="#L0124_M2">
     <speaker>Pet.</speaker>
     <p> I'll fling myself into the canal!</p>
    </sp>
-   <sp>
+   <sp who="#L0124_F5">
     <speaker>Ger.</speaker>
     <p> Nonsense!</p>
    </sp>
-   <sp>
+   <sp who="#L0124_M2">
     <speaker>Pet.</speaker>
     <p> You see if I don't, then. I'm not desperate till I take anything in my head ; but then
      nothing can turn me!</p>
    </sp>
    <spGrp>
     <head> Air—"Take care of the corner"</head>
-    <sp>
+    <sp who="#L0124_M2">
      <speaker>Pet.</speaker>
      <l> I rush to my fate,</l>
      <l>And my funeral straight</l>
@@ -1727,214 +1767,214 @@
      <l>You will melt into tears,</l>
      <l>And your friends in your grief will be sharers.</l>
     </sp>
-    <sp>
+    <sp who="#L0124_F5">
      <speaker>Ger.</speaker>
      <l> O yes, not only I,</l>
      <l>But my husband will cry—</l>
      <l>"Stand out of the way,"to the bearers!</l>
     </sp>
    </spGrp>
-   <sp>
+   <sp who="#L0124_M2">
     <speaker>Pet.</speaker>
     <p> Laughed at! I'll jump over the wall, here, into the canal, before your face!</p>
    </sp>
-   <sp>
+   <sp who="#L0124_F5">
     <speaker>Ger.</speaker>
     <p> Indeed you shan't! Peter, don't be a fool! <stage>(trying to hold him)</stage> Oh dear, he
      will! Murder !—help !</p>
     <stage> Enter Ernestine, R. </stage>
    </sp>
-   <sp>
+   <sp who="#L0124_F6">
     <speaker>Ern.</speaker>
     <p> What's the matter now ?</p>
    </sp>
-   <sp>
+   <sp who="#L0124_F5">
     <speaker>Ger.</speaker>
     <p> O, mamzelle, help me to hold Peter—he wants to drown himself !</p>
    </sp>
-   <sp>
+   <sp who="#L0124_F6">
     <speaker>Ern.</speaker>
     <p> He is sillier than ever I supposed him, if he would drown himself for so worthless a person!
      I wonder you are not ashamed to look me in the face!</p>
    </sp>
-   <sp>
+   <sp who="#L0124_F5">
     <speaker>Ger.</speaker>
     <p> I'm very sorry, mamzelle. I know you only
      <pb n="25"/>lent me a lover ; but how can I give him you back if he won't go ?</p>
    </sp>
-   <sp>
+   <sp who="#L0124_F6">
     <speaker>Ern.</speaker>
     <p> Cease your impertinence ! Your simplicity is all affected !</p>
    </sp>
-   <sp>
+   <sp who="#L0124_F5">
     <speaker>Ger.</speaker>
     <p> I'm sure mamzelle, if the captain will only consent, I'll give him up with pleasure !</p>
    </sp>
-   <sp>
+   <sp who="#L0124_M2">
     <speaker>Pet.</speaker>
     <p> You will?</p>
    </sp>
-   <sp>
+   <sp who="#L0124_F6">
     <speaker>Ern.</speaker>
     <p> You will? Hark ye, Gertrude! Don't think that I care the least about Captain Amersfort—his
      behaviour has entirely destroyed any little affection I might have had for him ; but, only to
      vex him in my turn, if you will promise not to marry him—</p>
    </sp>
-   <sp>
+   <sp who="#L0124_M2">
     <speaker>Pet.</speaker>
     <p> Do, do!</p>
    </sp>
-   <sp>
+   <sp who="#L0124_F6">
     <speaker>Ern.</speaker>
     <p> I will settle a handsome income on you !</p>
    </sp>
-   <sp>
+   <sp who="#L0124_M2">
     <speaker>Pet.</speaker>
     <p> There, there !</p>
    </sp>
-   <sp>
+   <sp who="#L0124_F6">
     <speaker>Ern.</speaker>
     <p> Tell him you do not love him ?</p>
    </sp>
-   <sp>
+   <sp who="#L0124_M2">
     <speaker>Pet.</speaker>
     <p>Yes, yes!</p>
    </sp>
-   <sp>
+   <sp who="#L0124_F6">
     <speaker>Ern.</speaker>
     <p> That you love another—anybody !</p>
    </sp>
-   <sp>
+   <sp who="#L0124_M2">
     <speaker>Pet.</speaker>
     <p> Yes, me !—I'm ready to be loved!</p>
    </sp>
-   <sp>
+   <sp who="#L0124_F5">
     <speaker>Ger.</speaker>
     <p> <stage>(aside)</stage> I see him !—now's the time— <stage>(aloud)</stage> Well, mamzelle, I
      believe it would be only the truth—I have a great respect for Captain Amersfort, but I
      certainly do not love him—and perhaps I do love somebody else! <stage>(looking at
      Peter.)</stage></p>
    </sp>
-   <sp>
+   <sp who="#L0124_M2">
     <speaker>Pet.</speaker>
     <p> Oh, Gertrude!</p>
     <stage> Enter Amersfort, unseen by them, R. U. E.</stage>
    </sp>
-   <sp>
+   <sp who="#L0124_F5">
     <speaker>Ger.</speaker>
     <p> But how can I consent to make him wretched? If there was any chance of your making it up—if
      I thought you still loved the captain, and would make him happy in the avowal!</p>
    </sp>
-   <sp>
+   <sp who="#L0124_F6">
     <speaker>Ern.</speaker>
     <p> Would that decide you ?</p>
    </sp>
-   <sp>
+   <sp who="#L0124_M2">
     <speaker>Pet.</speaker>
     <p> Oh, do, then!—do. <stage>(to Ernestine)</stage> </p>
    </sp>
-   <sp>
+   <sp who="#L0124_F6">
     <speaker>Ern.</speaker>
     <p> What would you have me say ?</p>
    </sp>
-   <sp>
+   <sp who="#L0124_F5">
     <speaker>Ger.</speaker>
     <p> That you forgive him, and are willing to marry him, if I give him up !</p>
    </sp>
-   <sp>
+   <sp who="#L0124_F6">
     <speaker>Ern.</speaker>
     <p> Well, then, I am willing !</p>
    </sp>
-   <sp>
+   <sp who="#L0124_M1">
     <speaker>Amer.</speaker>
     <p> <stage>(advances, R., and takes her hand)</stage> And so am I! </p>
    </sp>
-   <sp>
+   <sp who="#L0124_F5">
     <speaker>Ger.</speaker>
     <p><stage>(l. c.)</stage> And so am I.</p>
    </sp>
-   <sp>
+   <sp who="#L0124_M2">
     <speaker>Pet.</speaker>
     <p> <stage>(L.)</stage> Hurrah!</p>
     <pb n="26"/>
    </sp>
-   <sp>
+   <sp who="#L0124_F6">
     <speaker>Ern.</speaker>
     <p> <stage>(R. C.)</stage> Captain Amersfort here! This was a plot, then!</p>
    </sp>
-   <sp>
+   <sp who="#L0124_M1">
     <speaker>Amer.</speaker>
     <p> Own that it was to secure your happiness, Ernestine, and you make mine for ever!</p>
    </sp>
-   <sp>
+   <sp who="#L0124_F6">
     <speaker>Ern.</speaker>
     <p> Well, I believe I deserved this lesson.</p>
    </sp>
-   <sp>
+   <sp who="#L0124_M2">
     <speaker>Pet.</speaker>
     <p> And I'm sure I did !</p>
    </sp>
-   <sp>
+   <sp who="#L0124_F5">
     <speaker>Ger.</speaker>
     <p> You've made your mind up, then, that I shall marry you now ?</p>
    </sp>
-   <sp>
+   <sp who="#L0124_M2">
     <speaker>Pet.</speaker>
     <p> To be sure I have !</p>
    </sp>
-   <sp>
+   <sp who="#L0124_F5">
     <speaker>Ger.</speaker>
     <p> Well, as you say, when you once do take a thing in your head, nothing can turn you, I
      suppose it's useless to say "No."There is my hand, dear Peter !</p>
    </sp>
-   <sp>
+   <sp who="#L0124_M1">
     <speaker>Amer.</speaker>
     <p> And I suppose I may let him the farm now ? </p>
    </sp>
-   <sp>
+   <sp who="#L0124_F5">
     <speaker>Ger.</speaker>
     <p> If you please, captain.</p>
    </sp>
-   <sp>
+   <sp who="#L0124_M1">
     <speaker>Amer.</speaker>
     <p> And give him the two thousand crowns that I desired Van Nickem to settle on you as a wedding
      portion ?</p>
    </sp>
-   <sp>
+   <sp who="#L0124_M2">
     <speaker>Pet.</speaker>
     <p> Ah! then that's why young Sneek—but no matter!</p>
    </sp>
    <spGrp>
     <head>Finale. (Trio from "The Challenge")</head>
-    <sp>
+   <sp who="#L0124_F5 #L0124_M2">
      <l> {She|He} is mine! {She|He} is mine ! Let the stars work their will ; </l>
      <l> If our patrons approve, nothing now can go ill;</l>
      <l> But the lover we lend must with them make his way, </l>
      <l>Or our dealings will end with the devil to pay. </l>
     </sp>
-    <sp>
+    <sp who="#L0124_F6">
      <speaker>Ern.</speaker>
      <l> Should they not befriend us ?</l>
     </sp>
-    <sp>
+    <sp who="#L0124_F5">
      <speaker>Ger.</speaker>
      <l> I will hope for the best, </l>
      <l> If one kind friend will lend us </l>
      <l>His hands to move the rest. Will you ask ? </l>
     </sp>
-    <sp>
+    <sp who="#L0124_M2">
      <speaker>Pet.</speaker>
      <l> No do you. </l>
     </sp>
-    <sp>
+    <sp who="#L0124_F5">
      <speaker>Ger.</speaker>
      <l> <stage>(to audience.)</stage> Do you like it ? </l>
     </sp>
-    <sp>
+    <sp who="#L0124_M2">
      <speaker>Pet.</speaker>
      <l> Say you do. </l>
     </sp>
-    <sp>
+    <sp who="#L0124_mul">
      <speaker>All.</speaker>
      <l> Oh happy hour ! O joyous night! </l>
      <l> Our patrons share in our delight. </l>
