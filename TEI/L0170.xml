@@ -12,9 +12,8 @@
 </titleStmt>
 <publicationStmt>
 <distributor>Privately published on the Lacy Website</distributor>
-
 <idno type="lae">L0170</idno>
-</publicationStmt>
+<idno type='URI' xml:base='https://dracor.org'>LAE</idno></publicationStmt>
 <sourceDesc>
 <bibl type="printSource" n="12.5"><author>Planché, J.R.</author><title
 type="main" n="thecampattheolympic">The Camp at the Olympic</title><title
@@ -179,6 +178,7 @@ target="https://lb42.github.io/Lacy/L0170.html">TEI</ref></bibl>
 </particDesc>
 </profileDesc>
 <revisionDesc>
+<change when="2025-09-13">Add scene divs</change>
 <change when="2025-09-11">hand edit @who</change>
 <change when="2025-09-07">Metadata updated from new catalogue</change>
 <change when="2024-10-03">Header enriched</change>
@@ -320,7 +320,8 @@ General Approbation. </p></item>
 </front>
 <body>
 <head>The Camp At The Olympic.</head>
-<stage>Scene 1 .- The Stage at the Olympic Theatre.</stage>
+<div type='scene'>
+<head>Scene 1 .- The Stage at the Olympic Theatre.</head>
 <stage>Enter Mr. and Mrs. Wigan, arm-in-arm.</stage>
 <sp who="#L0170_M1">
 <speaker>Mr. W.</speaker>
@@ -451,7 +452,7 @@ https://collection.nam.ac.uk/detail.php?acc=1999-09-39-1</note>
 <l>We were the biggest pair he'd seen to-day.</l>
 <stage>A Tent Scene is put on. </stage>
 <l>What's this?</l>
-</sp>
+</sp></div><div type="scene">
 <sp who="#L0170_M3">
 <speaker>Carpenter.</speaker>
 <l>King Richard's tent, Sir.</l>
@@ -666,6 +667,7 @@ Marshal's uniform, with baton. </stage>
 </lg>
 </sp>
 </spGrp>
+</div><div type="scene">
 <pb n="9"/>
 <stage type="setting">Scene changes to the Camp of the Combined British Dramatic
 Forces; on the R. H. are the characteristic tents of Tragedy, Melodrama, and
@@ -2011,6 +2013,7 @@ Addison,'Cato' (1713) act 5, sc. 1, l. 1 </note></l>
 <speaker>Mr. W.</speaker>
 <l>Make ready!—present!</l>
 <pb n="26"/>
+</sp><sp who="#L0170_M1">
 <stage>Scene changes to a splendid Fairy Temple. </stage>
 <l>Fire ! <stage>(coloured fires are lighted)</stage></l>
 </sp>
@@ -2050,7 +2053,7 @@ Addison,'Cato' (1713) act 5, sc. 1, l. 1 </note></l>
 <l>Command us by a parting cheer, </l>
 <l>Nightly to salute you here !</l>
 </sp>
-</spGrp>
+</spGrp></div>
 <trailer>Geo. Peirce Printer, 310, Strand. </trailer>
 </body>
 </text>

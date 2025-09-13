@@ -14,7 +14,7 @@
 <distributor>Privately published on the Lacy Website</distributor>
 
 <idno type="lae">L0399</idno>
-</publicationStmt>
+<idno type='URI' xml:base='https://dracor.org'>LAE</idno></publicationStmt>
 <sourceDesc>
 <bibl type="printSource" n="27.9"><author>Paul, Howard</author><title
 type="main" n="lockedout">Locked Out</title><title type="sub">A Comic Scene
@@ -101,7 +101,7 @@ target="https://lb42.github.io/Lacy/L0399.html">TEI</ref></bibl>
 </particDesc>
 </profileDesc>
 <revisionDesc>
-<change when="2025-09-10">Handedit @who multiples</change>
+<change when="2025-09-13">Add scene div</change><change when="2025-09-10">Handedit @who multiples</change>
 <change when="2025-09-07">Metadata updated from new catalogue</change>
 <change when="2024-10-03">Header enriched</change>
 <change when="2023-10-07">Header confected</change>
@@ -156,6 +156,7 @@ possible, the public ear</roleDesc>.</castItem>
 </front>
 <body>
 <head>LOCKED OUT.</head>
+<div type='scene'>
 <stage type="setting">SCENE. — The scene represents a moonlight street with
 houses on R. and L. H. sides, with practicable upstairs windows. A house on R.
 side, (1st groove) bears the number 24, and a sign —" baby linen warehouse ;"
@@ -985,7 +986,8 @@ presenting her with the flower in his coat.)</stage>Do me the favour.</p>
 </sp>
 <stage>(He escorts her to the door, L. H., under the umbrella, kisses her hand,
 and runs into house, R. H. </stage>
-<p> CURTAIN DESCENDS QUICKLY.</p>
+<stage> CURTAIN DESCENDS QUICKLY.</stage>
+</div>
 <trailer> Printed by T. Blower, 313, Strand.</trailer>
 </body>
 </text>

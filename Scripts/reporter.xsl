@@ -147,7 +147,10 @@ select="$thisOne//t:bibl[@type = 'printSource']/t:extent/t:measure[@type = 'spWo
 />
 </td>
 <td>
-<xsl:value-of select="$date"/>
+<xsl:choose>
+<xsl:when test="$date"><xsl:value-of select="$date"/></xsl:when>
+<xsl:otherwise> n.d. </xsl:otherwise></xsl:choose>
+
 </td>
 <td>
 <xsl:value-of select="$venu"/>
