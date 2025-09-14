@@ -14,7 +14,7 @@ webRepoName='/home/lou/Public/lb42.github.io/Lacy/'
 folderRoot='https://raw.githubusercontent.com/lb42/Lacy/main/TEI/'
 reporter='/home/lou/Public/Lacy/Scripts/reporter.xsl'
 #exposer='/home/lou/Public/ELTeC/Scripts/expose.xsl'
-reportBalance='/home/lou/Public/ELTeC/Scripts/mosaic.R'
+#reportBalance='/home/lou/Public/ELTeC/Scripts/mosaic.R'
 outputFile='report.html'
 string1='''<!DOCTYPE html>
 <html><head>
@@ -65,7 +65,7 @@ f=open("driver.tei","w")
 f2=open("fileNames.xml","w")
 FILES=sorted(glob.glob('L*.xml'))
 print(str(len(FILES))+' files found in repo')
-print("Rewriting driver files")
+print("Rewriting driver file")
 f.write('<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="LAE"><teiHeader><fileDesc> <titleStmt> <title>Lacy\'s Acting Edition - TEI version</title></titleStmt>\n<extent><measure unit="files">'+str(len(FILES))+'</measure></extent> <publicationStmt><p>Unpublished test file</p></publicationStmt><sourceDesc><p>Automatically generated source driver file</p> </sourceDesc> </fileDesc>  <xi:include href="encodingDesc.xml"/> <revisionDesc><change when="'+today+'">refreshRepo script run</change></revisionDesc></teiHeader>')
    
 f2.write('<fileNames>')
@@ -76,7 +76,7 @@ f.write("</TEI>")
 f2.write("</fileNames>")
 f.close()
 f2.close()
-print("Exposing repo "+repoName)
+print("Creating CETEICEAN files for repo "+repoName)
 for FILE in FILES: 
    bName=os.path.splitext(FILE)[0] 
    webFileName=webRepoName+"/"+bName+".html"
@@ -91,4 +91,3 @@ subprocess.check_output(command,shell=True)
 print("Report is in "+webRepoName+outputFile)
 #command="Rscript "+reportBalance+" --args "+webRoot+LANG
 #subprocess.check_output(command,shell=True)
-# could run summarize.py here

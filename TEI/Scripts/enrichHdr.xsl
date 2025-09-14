@@ -5,7 +5,7 @@
  
  <!-- copy info from catalogue to individual text headers -->
  <!-- and enrich header with text component counts -->
- <!-- make basic changes for dracor conformance -->
+
  
  <xsl:variable name="today">
   <xsl:value-of
@@ -33,7 +33,7 @@
   <xsl:message>
        <xsl:value-of 
        select="$currentFile"/> contains <xsl:value-of select="$ppCount"/> pages ; <xsl:value-of 
-        select="$spWords+$stWords"/> words ; <xsl:value-of 
+       select="$spWords+$stWords"/> words , of them  <xsl:value-of select="$spWords"/> spoken; <xsl:value-of 
          select="$spCount"/> speeches,   <xsl:value-of select="$spvCount"/> of them in verse. 
   </xsl:message>
   <xsl:apply-templates/>
