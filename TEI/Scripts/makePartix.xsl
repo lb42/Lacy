@@ -36,6 +36,13 @@ select="concat($theId, '_', @gender, position())"/>
 </xsl:text>
 </xsl:for-each>
 
+<person xml:id="{concat($theId,'_mult')}">
+<persName type="role">[Multiple speakers]</persName>
+</person><xsl:text>
+
+
+</xsl:text>
+
 <xsl:for-each select="distinct-values($context//t:speaker)">
 <xsl:variable name="pfx" select="."/>
 <persName type="spkr" n="{count($context//*:speaker[starts-with(.,$pfx)])}">
