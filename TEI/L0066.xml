@@ -2,7 +2,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title n="athumpinglegacy">A Thumping Legacy</title>
+                <title n="athumpinglegacy" type="main">A Thumping Legacy</title>
                 <author>Morton, John Maddison</author>
                 <respStmt>
                     <resp>Curated by</resp>
@@ -11,16 +11,68 @@
             </titleStmt>
             <publicationStmt>
                 <distributor>Privately published on the Lacy Website</distributor>
-            </publicationStmt>
-            <sourceDesc><bibl type="digital">Retagged from a DOCX version of the RTF file exported by ProQuest from a now lost
-                    TEI original
-                    https://www.proquest.com/books/thumping-legacy-n-d/docview/2138576459</bibl><bibl type="source" status="TEI_1" n="5.6" corresp="nic:N02635"><author>Morton, John Maddison</author><title n="athumpinglegacy">A Thumping Legacy</title><title type="sub">A farce in one act</title><extent>17 pp (UM copy: 150 - 167)<measure type="pp" quantity="16"/><measure type="txWords" quantity="5835"/><measure type="spWords" quantity="5049"/><measure type="stWords" quantity="786"/></extent><eventName notAfter="1843" type="firstPerf">
-      <date resp="nicoll" when="1843-02-11"/>
-      <name>Theatre Royal, Drury Lane</name>
-      <date resp="source" when="1843-02-11">11 February 1843</date>
-     </eventName><listRef type="localCopies"><ref>Vol05/L0066/L0066-um.pdf</ref></listRef></bibl></sourceDesc>
+            <idno type="lae">L0066</idno><idno type='URI' xml:base='https://dracor.org'>LAE</idno></publicationStmt>
+            <sourceDesc><bibl type="printSource" n="5.6"><author>Morton, John Maddison</author><title type="main" n="athumpinglegacy">A Thumping Legacy</title><title type="sub">A
+farce in one act</title><extent>17 pp (UM copy: 150 - 167)<measure type="pp" quantity="16"/>
+  <measure type="spCount" quantity="453"/>
+  <measure type="spvCount" quantity="0"/>
+  <measure type="txWords" quantity="5835"/>
+  <measure type="spWords" quantity="5049"/>
+  <measure type="stWords" quantity="786"/>
+  </extent>
+
+<title level="s"> Lacy's Acting Edition, volume 5, No. 0066</title><idno type="nic">N02635</idno></bibl><bibl type="digitalSource" n="copytext"><ref target="https://babel.hathitrust.org/cgi/pt?id=mdp.39015067453053&amp;seq=150 ">UM from HT</ref><ref target="local:Vol05/L0066/L0066-um.pdf"/></bibl><bibl type="digitalSource" n="copytext"><ref target="https://lb42.github.io/Lacy/L0066.html">TEI</ref></bibl><listEvent>
+<event type="firstPerf" when="1843-02-11" source="textNic" where="Drury">
+<desc>Premiered at Theatre Royal, Drury Lane 11 February 1843</desc>
+</event>
+</listEvent></sourceDesc>
         </fileDesc>
-        <profileDesc><textClass><!--S_1_farce_F._FARCE--><catRef target="#sizeS"/><catRef target="#act1"/><catRef target="nic:F."/><keywords><term>FARCE</term></keywords></textClass></profileDesc><revisionDesc><change when="2024-10-03">Header enriched</change>
+        <profileDesc><textClass><catRef target="#sizeS"/><catRef target="#act1"/><catRef target="nic:F."/><keywords><term>FARCE</term></keywords></textClass><particDesc><listPerson>
+<person xml:id="L0066_M1">
+<persName type="role">Filippo Geronimo </persName>
+<persName type="spkr" n="101">Fil.</persName>
+</person>
+<person xml:id="L0066_M2">
+<persName type="role">Jerry Ominous </persName>
+<persName type="spkr" n="1">Jerry Ominous</persName>
+<persName type="spkr" n="1">Jerry.</persName>
+<persName type="spkr" n="3">Jerry</persName>
+<persName type="spkr" n="193">Jer.</persName>
+</person>
+<person xml:id="L0066_M3">
+<persName type="role">Bambogetti </persName>
+<persName type="spkr" n="34">Bam.</persName>
+</person>
+<person xml:id="L0066_M4">
+<persName type="role">Leoni </persName>
+<persName type="spkr" n="55">Leo.</persName>
+<persName type="spkr" n="1">Leo., Bam.</persName>
+</person>
+<person xml:id="L0066_M5">
+<persName type="role">Brigadier Of Carbineers </persName>
+<persName type="spkr" n="39">Brig.</persName>
+</person>
+<person xml:id="L0066_M6">
+<persName type="role">First Carbineer </persName>
+</person>
+<person xml:id="L0066_M7">
+<persName type="role">Second Carbineer </persName>
+</person>
+<person xml:id="L0066_F8">
+<persName type="role">Rosetta </persName>
+<persName type="spkr" n="28">Ros.</persName>
+</person>
+
+
+
+
+
+
+
+
+
+
+</listPerson></particDesc></profileDesc><revisionDesc><change when="2025-09-07">Metadata updated from new catalogue</change><change when="2024-10-03">Header enriched</change>
             <change when="2023-05-19">Header confected</change>
         </revisionDesc>
     </teiHeader>
@@ -46,21 +98,21 @@
             </performance>
             <castList>
                 <head>Characters</head>
-                <castItem><role gender="M">Filippo Geronimo </role><roleDesc>(innkeeper) </roleDesc><actor sex="M">Mr. W. Bennett. </actor></castItem>
+                <castItem><role gender="M">Filippo Geronimo </role><roleDesc>(innkeeper) </roleDesc><actor ana="#M">Mr. W. Bennett. </actor></castItem>
 
-                <castItem><role gender="M">Jerry Ominous </role><roleDesc>(his Nephew) </roleDesc><actor sex="M">Mr. Keeley. </actor></castItem>
+                <castItem><role gender="M">Jerry Ominous </role><roleDesc>(his Nephew) </roleDesc><actor ana="#M">Mr. Keeley. </actor></castItem>
 
-                <castItem><role gender="M">Bambogetti </role><actor sex="M">Mr. Selby. </actor></castItem>
+                <castItem><role gender="M">Bambogetti </role><actor ana="#M">Mr. Selby. </actor></castItem>
 
-                <castItem><role gender="M">Leoni </role><actor sex="M">Mr. Hudson. </actor></castItem>
+                <castItem><role gender="M">Leoni </role><actor ana="#M">Mr. Hudson. </actor></castItem>
 
-                <castItem><role gender="M">Brigadier Of Carbineers </role><actor sex="M">Mr. G. Bennett. </actor></castItem>
+                <castItem><role gender="M">Brigadier Of Carbineers </role><actor ana="#M">Mr. G. Bennett. </actor></castItem>
 
-                <castItem><role gender="M">First Carbineer </role><actor sex="M">Mr. Brady. </actor></castItem>
+                <castItem><role gender="M">First Carbineer </role><actor ana="#M">Mr. Brady. </actor></castItem>
 
-                <castItem><role gender="M">Second Carbineer </role><actor sex="M">Mr. Paulo. </actor></castItem>
+                <castItem><role gender="M">Second Carbineer </role><actor ana="#M">Mr. Paulo. </actor></castItem>
 
-                <castItem><role gender="F">Rosetta </role><roleDesc>(daughter Of Filippo) </roleDesc><actor sex="F">Miss P. Horton. </actor></castItem>
+                <castItem><role gender="F">Rosetta </role><roleDesc>(daughter Of Filippo) </roleDesc><actor ana="#F">Miss P. Horton. </actor></castItem>
 
             </castList>
             <set><p>Scene.—Corsica.</p></set>
@@ -91,56 +143,56 @@
                 <stage>—Garden of Filippo's Inn. Entrance at back—The door of the Inn, R.—tables,
                     benches, &amp;c. Filippo, the Brigadier, and Bambogetti discovered. Bambogetti
                     by himself at a table with his back towards the others, R. H.</stage>
-                <sp>
+                <sp who="#L0066_M5">
                     <speaker>Brig.</speaker>
                     <p>Here's your health, father Filippo. <stage>(drinks)</stage>
                     </p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M1">
                     <speaker>Fil.</speaker>
                     <p>Thank ye, Brigadier.</p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M5">
                     <speaker>Brig.</speaker>
                     <p>The same to you, Signor Bambogetti.<stage>(Bambogetti takes no
                             notice)</stage></p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M1">
                     <speaker>Fil.</speaker>
                     <p>How do you like the wine, Brigadier?</p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M5">
                     <speaker>Brig.</speaker>
                     <p>Can't be better—in short, it quite reconciles me to Corsica, and that's
                         saying a good deal; for, I confess, when I was appointed Brigadier of
                         Carbineers, and left France for Corsica, I expected to find your Island as
                         bad as could be, and its inhabitants rather worse.</p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M1">
                     <speaker>Fil.</speaker>
                     <p>Indeed!</p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M5">
                     <speaker>Brig.</speaker>
                     <p>Yes! and took it for granted that every Corsican cut a throat before
                         breakfast as a matter of course.</p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M1">
                     <speaker>Fil.</speaker>
                     <p>Ha! ha! ha! <stage>(aside)</stage> Will he never arrive?
                             <stage>(aloud)</stage> But now, Brigadier, you find yourself agreeably
                         disappointed, eh? Come, another glass.</p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M5">
                     <speaker>Brig.</speaker>
                     <p>With all my heart!—do you know, Filippo, I once fancied you were no better
                         than you should be.</p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M1">
                     <speaker>Fil.</speaker>
                     <p>Me!—ha! ha! ha! <stage>(forces a laugh)</stage></p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M5">
                     <speaker>Brig.</speaker>
                     <p>I heard something about an old family feud existing between your house and
                         that of—I forget the name; and knowing that it's the fashion in Corsica to
@@ -148,21 +200,21 @@
                         back from a stiletto, or a bullet from a carbine through the head, why I
                         thought I'd keep my eye on you.</p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M1">
                     <speaker>Fil.</speaker>
                     <p>   On me! you needn't give yourself the trouble. Ha! ha! ha!
                             <stage>(aside)</stage> Something must have happened to detain
                             him.<stage>(looking out anxiously.</stage></p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M5">
                     <speaker>Brig.</speaker>
                     <p>Why what's the matter with the man?</p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M1">
                     <speaker>Fil.</speaker>
                     <p>Nothing—nothing.</p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M5">
                     <speaker>Brig.</speaker>
                     <p>You look anxious and fidgetty. Come, there's something amiss—peahaps you're
                         beginning to repent having selected such a sweet tempered, lively, sociable
@@ -170,124 +222,124 @@
                             <stage>(aside to Filippo)</stage> I suspect the fool is jealous.</p>
                     <pb n="4"/>
                 </sp>
-                <sp>
+                <sp who="#L0066_M1">
                     <speaker>Fil.</speaker>
                     <p>Jealous!</p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M5">
                     <speaker>Brig.</speaker>
                     <p>I'm sure of it; I've had the disorder myself—he's jealous of that young
                         fellow, Leoni.</p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M1">
                     <speaker>Fil.</speaker>
                     <p>Leoni!</p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M3">
                     <speaker>Bam.</speaker>
                     <stage>(starting up)</stage>
                     <p>Leoni!</p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M5">
                     <speaker>Brig.</speaker>
                     <stage> (to Filippo)</stage>
                     <p>I told you so. Ever since his return to Corsica, three weeks ago, he follows
                         your pretty daughter about like her shadow. Rosetta sees it—Bambogetti sees
                         it—everybody sees it but you, and you won't see it.</p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M1">
                     <speaker>Fil.</speaker>
                     <p>Nonsense, Brigadier; Bambogetti is only a little out of humour because
                         Rosetta is on a visit to her aunt at Bastia; but she'll be home again
                         to-day, and then you'll see he'll be all smiles, jollity, and good humour
                         again.</p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M2">
                     <speaker>Jerry Ominous</speaker>
                     <stage>, outside C. from L.</stage>
                     <p>Holloa! house! landlord! waiter! chambermaid! boots!</p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M5">
                     <speaker>Brig.</speaker>
                     <p>Holloa! who have we here?</p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M1">
                     <speaker>Fil.</speaker>
                     <p>A stranger!</p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M5">
                     <speaker>Brig.</speaker>
                     <p>   And a foreigner from his appearance.</p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M1">
                     <speaker>Fil.</speaker>
                     <p>A foreigner. <stage>(aside)</stage> Should it be he at last.
                     </p></sp>
                         <stage>Enter
                             Jerry Ominous C. from L., carrying a stick and a carpet bag</stage>
         
-                <sp>
+                <sp who="#L0066_M2">
                     <speaker>Jerry.</speaker>
                     <stage> (banging table with his stick)</stage>
                     <p>Waiter!</p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M1">
                     <speaker>Fil.</speaker>
                     <p>Here, sir.</p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M2">
                     <speaker>Jer.</speaker>
                     <p>A crust of bread and cheese, and a pint of stout.</p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M1">
                     <speaker>Fil.</speaker>
                     <p>Stout, sir—we don't—</p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M2">
                     <speaker>Jer.</speaker>
                     <p>Oh, you don't, don't you—very well—a bottle of wine, then. Now don't go and
                         make a mistake, and swear I said vinegar— wine, d'ye hear. I don't care what
                         it is as long as it's the best that can be got.</p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M1">
                     <speaker>Fil.</speaker>
                     <p>We've wine of all prices, sir.</p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M2">
                     <speaker>Jer.</speaker>
                     <p>I don't care about the price, because I'm not going to pay you —no, no, uncle
                         does that.</p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M1">
                     <speaker>Fil.</speaker>
                     <p>Uncle—did you say uncle? <stage>(looking intently at him)</stage></p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M2">
                     <speaker>Jer.</speaker>
                     <p>I did, sir. Do you see any just cause or impediment in me why I should not
                         have an uncle?</p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M5">
                     <speaker>Brig.</speaker>
                     <p>Ahem! Young man, have you got a passport?</p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M2">
                     <speaker>Jer.</speaker>
                     <p>Of course I have.</p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M5">
                     <speaker>Brig.</speaker>
                     <p>Well?</p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M2">
                     <speaker>Jer.</speaker>
                     <p>Well?</p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M5">
                     <speaker>Brig.</speaker>
                     <p>Why don't you give it me?</p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M2">
                     <speaker>Jer.</speaker>
                     <p>Worthy man, why don't you ask for it? <stage>(pulling papers out of his
                             pocket)</stage> There it is—no it isn't—this is it—no, it isn't— now
@@ -295,33 +347,33 @@
                         you'll find it correct. <stage>(turning to Filippo)</stage> Now, old fellow,
                         look   sharp.</p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M1">
                     <speaker>Fil.</speaker>
                     <p>Directly, sir.<stage>(goes into the Inn, keeping his eyes on Jerry all the
                             time)</stage></p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M5">
                     <speaker>Brig.</speaker>
                     <p>So, sir, I find you are an Englishman.</p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M2">
                     <speaker>Jer.</speaker>
                     <p>Yes, sir, I'm a freeborn Briton, and what's rather more important, <pb n="5"/> a liveryman of the City of London. I landed yesterday at—at—</p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M5">
                     <speaker>Brig.</speaker>
                     <p>Bastia.</p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M2">
                     <speaker>Jer.</speaker>
                     <p>Bastia—that's it—Bastia—then I got into a sort of omnibus —they don't call it
                         an omnibus—</p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M5">
                     <speaker>Brig.</speaker>
                     <p>No—you mean the Vetturino.</p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M2">
                     <speaker>Jer.</speaker>
                     <p>Exactly—and after a prodigious degree of jolting and a liberal supply of
                         dust, out I got at the entrance of your village, very sore, very thirsty,
@@ -329,12 +381,12 @@
                         certainly have taken the fellow's number, only he hadn't got
                             one.</p>
                 </sp><stage>Re-enter Filippo from Inn, with bottle.</stage>
-                <sp>
+                <sp who="#L0066_M1">
                     <speaker>Fil.</speaker>
                     <p>Here's the wine, sir. <stage>(putting wine on table)</stage> I hope you
                         enjoyed your ride?</p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M2">
                     <speaker>Jer.</speaker>
                     <p>That's a sore subject. I beg to refer you for further particulars to this
                         gentleman. <stage>(shewing the Brigadier)</stage> One thing I can't help
@@ -347,88 +399,88 @@
                         individual there. <stage>(aside)</stage> He's the landlord,   and won't mind
                         being insulted, because he can put it down in the bill.</p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M5">
                     <speaker>Brig.</speaker>
                     <p>And the women, sir?</p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M2">
                     <speaker>Jer.</speaker>
                     <p>Ah! the women are always charming! I don't wish to brag, but there was a
                         remarkably sweet young creature sitting opposite to me in the—in the—</p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M5">
                     <speaker>Brig.</speaker>
                     <p>Vetturino.</p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M2">
                     <speaker>Jer.</speaker>
                     <p>Thank ye—a blue-eyed damsel of seventeen.</p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M3">
                     <speaker>Bam.</speaker>
                     <p>Ah! <stage>(exclaiming)</stage></p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M2">
                     <speaker>Jer.</speaker>
                     <stage> (starting)</stage>
                     <p>I really wish you wouldn't indulge in such exclamations, sir—you might
                         prepare one for the explosion at least. When we arrived at this hole which
                         you call a village, I leaped out of the—of the—</p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M5">
                     <speaker>Brig.</speaker>
                     <p>Vetturino.</p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M2">
                     <speaker>Jer.</speaker>
                     <p>Thank ye; and offered my arm to my fair fellow traveller.</p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M3">
                     <speaker>Bam.</speaker>
                     <p>Ah! <stage>(shouting)</stage></p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M2">
                     <speaker>Jer.</speaker>
                     <p>Goodness gracious, don't.</p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M5">
                     <speaker>Brig.</speaker>
                     <p>Very polite of you, indeed; of course she took it kindly.</p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M2">
                     <speaker>Jer.</speaker>
                     <p>No, sir; she didn't take it at all, but walked off arm-in-arm with a young
                         fellow who appeared to be waiting for her.</p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M3">
                     <speaker>Bam.</speaker>
                     <p>Ah! <stage>(shouting fiercely)</stage></p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M2">
                     <speaker>Jer.</speaker>
                     <p>Damn it, sir.</p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M3">
                     <speaker>Bam.</speaker>
                     <stage> (paying no attention to him)</stage>
                     <p>It must have been Leoni. <stage>(aside)</stage></p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M5">
                     <speaker>Brig.</speaker>
                     <p>Well, what followed?</p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M2">
                     <speaker>Jer.</speaker>
                     <p>I'm sure I don't know—I didn't—for I set off the other way   in search of a
                         breakfast and a lawyer!</p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M1">
                     <speaker>Fil.</speaker>
                     <stage> (aside)</stage>
                     <p>A lawyer!—then it is he.</p>
                     <pb n="6"/>
                 </sp>
-                <sp>
+                <sp who="#L0066_M2">
                     <speaker>Jer.</speaker>
                     <p>I needn't tell you that a young man, and that man an Englishman and a
                         liveryman of the city of London, doesn't tear himself away from
@@ -436,11 +488,11 @@
                         of a sea voyage, and the inconvenience of—of a—<stage>(looking at
                             Brigadier)</stage></p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M5">
                     <speaker>Brig.</speaker>
                     <p>A Vetturino.</p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M2">
                     <speaker>Jer.</speaker>
                     <p>Thank ye—without a considerable object in view—and my object, gentlemen, in
                         coming to Corsica, is to take possession of a thumping legacy
@@ -451,11 +503,11 @@
                         never knew, never saw, never heard of.<stage>(Filippo repeats his
                             signals)</stage></p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M5">
                     <speaker>Brig.</speaker>
                     <p>But how did you hear of this good fortune?</p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M2">
                     <speaker>Jer.</speaker>
                     <p>By this letter, which I received ten days ago. <stage>(reading)</stage>
                         “Sir!” <stage>(Filippo repeats his signals)</stage> Confound it, what is the
@@ -464,136 +516,136 @@
                         &amp;c., require your immediate presence in Corsica, to take possession of
                         the vast property of your respected uncle, Filippo Geronimo.”</p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M5">
                     <speaker>Brig.</speaker>
                     <p>Eh?</p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M3">
                     <speaker>Bam.</speaker>
                     <p>Ah<stage>(Filippo repeats his signals to Jerry)</stage></p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M2">
                     <speaker>Jer.</speaker>
                     <p>Your respected uncle, Filippo Geronimo, deceased.</p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M5">
                     <speaker>Brig.</speaker>
                     <p>   My friend Filippo deceased—ha, ha, ha!</p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M2">
                     <speaker>Jer.</speaker>
                     <p>Sir, I don't see the joke; and if he was your friend, I don't think it very
                         civil!</p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M5">
                     <speaker>Brig.</speaker>
                     <p>Oh, he won't mind it.</p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M2">
                     <speaker>Jer.</speaker>
                     <p>I don't suppose he will, poor fellow!</p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M5">
                     <speaker>Brig.</speaker>
                     <p>Wouldn't you be delighted to see him?</p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M2">
                     <speaker>Jer.</speaker>
                     <p>'Pon my soul, I should not!</p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M5">
                     <speaker>Brig.</speaker>
                     <p>Why, there he is.</p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M2">
                     <speaker>Jer.</speaker>
                     <stage> (alarmed)</stage>
                     <p>Where?</p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M1">
                     <speaker>Fil.</speaker>
                     <p>Here!—come to my arms.</p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M2">
                     <speaker>Jer.</speaker>
                     <p>Pooh! pooh!</p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M1">
                     <speaker>Fil.</speaker>
                     <p>Embrace your uncle.</p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M2">
                     <speaker>Jer.</speaker>
                     <p>Wait a bit—let us understand each other. If you were my uncle, you'd be
                         dead—if you are not dead, you're not my uncle— and if you are not my uncle
                         you may go to the devil.</p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M5">
                     <speaker>Brig.</speaker>
                     <p>What the deuce does all this mean?</p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M1">
                     <speaker>Fil.</speaker>
                     <p>Nothing; it's a joke, Brigadier, that's all.</p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M2">
                     <speaker>Jer.</speaker>
                     <p>I thought so—of course it's a joke.</p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M1">
                     <speaker>Fil.</speaker>
                     <p>I'll explain the matter by-and-bye—in the mean time, be good enough to leave
                         us alone.</p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M2">
                     <speaker>Jer.</speaker>
                     <p>Yes, leave us alone.</p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M5">
                     <speaker>Brig.</speaker>
                     <stage> (aside)</stage>
                     <p>Hem! This is a very mysterious business. I see I must keep both eyes
                         open.</p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M3">
                     <speaker>Bam.</speaker>
                     <p>There's something wrong, but I'll find it out.<stage>  Exeunt Brigadier and
                             Bambogetti, L. C.</stage></p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M2">
                     <speaker>Jer.</speaker>
                     <p>Now then, old fellow—</p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M1">
                     <speaker>Fil.</speaker>
                     <p>   Old fellow! Is that the way you talk of your uncle?</p>
                     <pb n="7"/>
                 </sp>
-                <sp>
+                <sp who="#L0066_M2">
                     <speaker>Jer.</speaker>
                     <p>He sticks to that! Ahem! Innkeeper, allow me to ask by what right?</p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M1">
                     <speaker>Fil.</speaker>
                     <p>By the right of consanguinity!</p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M2">
                     <speaker>Jer.</speaker>
                     <p>That's a long word! What is it?</p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M1">
                     <speaker>Fil.</speaker>
                     <p>Blood.</p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M2">
                     <speaker>Jer.</speaker>
                     <p>You're not joking?—You're not dead?</p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M1">
                     <speaker>Fil.</speaker>
                     <p>Neither one nor the other.</p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M2">
                     <speaker>Jer.</speaker>
                     <p>Then, sir, what do you mean by such conduct? <stage>(putting his arms
                             akimbo)</stage> And what does that other old rascal of a lawyer mean by
@@ -601,316 +653,316 @@
                             letter)</stage> He won't get six-and-eightpence out of me, I can tell
                         him.</p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M1">
                     <speaker>Fil.</speaker>
                     <p>I wrote that letter.</p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M2">
                     <speaker>Jer.</speaker>
                     <p>You!</p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M1">
                     <speaker>Fil.</speaker>
                     <stage> (gravely)</stage>
                     <p>I reported myself dead, as the surest means of getting you here.</p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M2">
                     <speaker>Jer.</speaker>
                     <p>Ah, and now I am here, I think you are bound as a gentleman not to keep me
                         waiting long.</p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M1">
                     <speaker>Fil.</speaker>
                     <p>Waiting!—what for?</p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M2">
                     <speaker>Jer.</speaker>
                     <p>What for? Why the thumping legacy you mean to leave me when you die.</p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M1">
                     <speaker>Fil.</speaker>
                     <p>I leave you a thumping legacy! No, no, all my property goes to my
                         daughter.</p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M2">
                     <speaker>Jer.</speaker>
                     <p>Your daughter—what daughter?</p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M1">
                     <speaker>Fil.</speaker>
                     <p>   My daughter Rosetta—the bride elect of Bambogetti?</p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M2">
                     <speaker>Jer.</speaker>
                     <p>Who's Mr. Bambogetti?</p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M1">
                     <speaker>Fil.</speaker>
                     <p>He that just went out with the Brigadier.</p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M2">
                     <speaker>Jer.</speaker>
                     <p>Oh, the tall man that's got an absurd knack of shouting out “Ah,” in one's
                         ear. Well, uncle Filippo, upon a calm and dispassionate review of the state
                         of affairs, I should say you've rather taken me in!</p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M1">
                     <speaker>Fil.</speaker>
                     <p>I have—and what's more, you'll bless me for it—for after all, what is my
                         property, even if I were king of the island, compared to—</p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M2">
                     <speaker>Jer.</speaker>
                     <p>To what?</p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M1">
                     <speaker>Fil.</speaker>
                     <p>Listen! <stage>(looking round mysteriously, Jerry following his motions very
                             attentively)</stage> It is now about three hundred years ago—</p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M2">
                     <speaker>Jer.</speaker>
                     <p>Three hundred years—suppose we sit down.</p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M1">
                     <speaker>Fil.</speaker>
                     <stage> (very gravely)</stage>
                     <p>Silence! I say it is about three hundred years since one of our ancestors, a
                         Geronimo, engaged in a lawsuit—</p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M2">
                     <speaker>Jer.</speaker>
                     <p>Which I suppose isn't ended yet. Then you've got a Court of Chancery here,
                         eh?</p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M1">
                     <speaker>Fil.</speaker>
                     <p>Silence! I repeat—</p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M2">
                     <speaker>Jer.</speaker>
                     <p>No, don't repeat—you left one of our ancestors, a Geronimo, engaged in a
                         lawsuit—</p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M1">
                     <speaker>Fil.</speaker>
                     <p>With the family of Leoni. During an attempt to settle the affair amicably,
                         your ancestor killed Leoni.</p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M2">
                     <speaker>Jer.</speaker>
                     <p>Killed him—you mean he called him out and shot him.</p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M1">
                     <speaker>Fil.</speaker>
                     <p>Oh, no; he shot him without calling him out.</p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M2">
                     <speaker>Jer.</speaker>
                     <p>   Did he?—then my ancestor, peace to his ashes, was a blackguard.</p>
                     <pb n="8"/>
                 </sp>
-                <sp>
+                <sp who="#L0066_M1">
                     <speaker>Fil.</speaker>
                     <p>Silence! immediately, the family feud was declared between the Geronimos and
                         the Leonis, and in the next generation, a Leoni killed a Geronimo.</p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M2">
                     <speaker>Jer.</speaker>
                     <p>Serve him right—that's two. <stage>(counting with his fingers)</stage></p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M1">
                     <speaker>Fil.</speaker>
                     <p>Shortly after, a Geronimo killed a Leoni.</p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M2">
                     <speaker>Jer.</speaker>
                     <p>Three. <stage>(counting)</stage></p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M1">
                     <speaker>Fil.</speaker>
                     <p>Consequently, in the fourth generation—</p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M2">
                     <speaker>Jer.</speaker>
                     <p>A Leoni killed a Geronimo—four!</p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M1">
                     <speaker>Fil.</speaker>
                     <p>At length came the fifth generation.</p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M2">
                     <speaker>Jer.</speaker>
                     <p>And a Geronimo killed a Leoni—five!</p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M1">
                     <speaker>Fil.</speaker>
                     <p>No, he didn't—to his shame be it spoken, he did not—and that very
                         Geronimo—that base unworthy member of our house, was your father.</p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M2">
                     <speaker>Jer.</speaker>
                     <p>I see—he didn't kill a Leoni, because perhaps there wasn't a Leoni to
                         kill.</p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M1">
                     <speaker>Fil.</speaker>
                     <p>There was a Leoni—he and your father both went to sea as boys. Leoni entered
                         the service of France, and your father—</p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M2">
                     <speaker>Jer.</speaker>
                     <p>Like a sensible fellow, stuck to the union Jack of old England —at least so I
                         was told.</p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M1">
                     <speaker>Fil.</speaker>
                     <p>They told you true—they both were killed.</p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M2">
                     <speaker>Jer.</speaker>
                     <p>Killed!</p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M1">
                     <speaker>Fil.</speaker>
                     <p>At least, they both died.</p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M2">
                     <speaker>Jer.</speaker>
                     <p>   Oh no, my father was drowned—to be sure that's much the same thing in the
                         end—and I, Master Geronimo, or Jerry Ominous, as I was afterwards
                         translated, was put to the naval school of Greenwich, and afterwards bound
                         'prentice to a chemist and druggist in St. Mary Axe.</p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M1">
                     <speaker>Fil.</speaker>
                     <p>Exactly: it was through that channel I found you out.</p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M2">
                     <speaker>Jer.</speaker>
                     <p>Then I wish the channel had been frozen up—but, however, as you were saying,
                         they both died, and so, I presume, did the family feud.</p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M1">
                     <speaker>Fil.</speaker>
                     <stage> (gravely)</stage>
                     <p>In Corsica, a family feud never dies!</p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M2">
                     <speaker>Jer.</speaker>
                     <p>Never dies! Indeed! Well, I thought that peculiarity was confined to donkeys
                         and postboys.</p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M1">
                     <speaker>Fil.</speaker>
                     <p>Silence! Now comes the all-important and momentous communication —he's
                         here!</p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M2">
                     <speaker>Jer.</speaker>
                     <p>Is he—who?</p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M1">
                     <speaker>Fil.</speaker>
                     <p>The sixth and last—</p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M2">
                     <speaker>Jer.</speaker>
                     <p>What?</p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M1">
                     <speaker>Fil.</speaker>
                     <p>Generation—</p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M2">
                     <speaker>Jer.</speaker>
                     <p>Ah!</p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M1">
                     <speaker>Fil.</speaker>
                     <p>Of the Leonis.</p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M2">
                     <speaker>Jer.</speaker>
                     <p>Oh!</p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M1">
                     <speaker>Fil.</speaker>
                     <p>Since his return to the Island, I haven't had a moment's comfort—the men
                         scowl at me—the children point at me—my inn is deserted—and I'm a wretched
                         Geronimo.</p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M2">
                     <speaker>Jer.</speaker>
                     <p>Well, it is awkward—yet stay, uncle, it's all right—<stage>(counting his
                             fingers over and recollecting)</stage>   —it isn't our turn!</p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M1">
                     <speaker>Fil.</speaker>
                     <p>No!</p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M2">
                     <speaker>Jer.</speaker>
                     <p>To be sure not. Look here. <stage>(counting his fingers)</stage> Fourth <pb n="9"/> generation, a Leoni killed a Geronimo—the fifth was no go— consequently, the
                         sixth and present generation—</p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M1">
                     <speaker>Fil.</speaker>
                     <stage> (solemnly)</stage>
                     <p>A Geronimo must kill a Leoni!</p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M2">
                     <speaker>Jer.</speaker>
                     <p>Must! you mean, he may if he likes?</p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M1">
                     <speaker>Fil.</speaker>
                     <p>He must!</p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M2">
                     <speaker>Jer.</speaker>
                     <p>You don't mean to tell me that you contemplate such an atrocity?</p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M1">
                     <speaker>Fil.</speaker>
                     <p>Me! of course not, or I shouldn't have sent for you!</p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M2">
                     <speaker>Jer.</speaker>
                     <p>For me!</p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M1">
                     <speaker>Fil.</speaker>
                     <p>Yes, my gallant nephew—Leoni must fall by your hands.</p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M2">
                     <speaker>Jer.</speaker>
                     <stage> (after looking intently at him)</stage>
                     <p>What a remarkably fine afternoon —I'll go and take a stroll. <stage>(going
                             quickly)</stage></p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M1">
                     <speaker>Fil.</speaker>
                     <stage> (dragging him back)</stage>
                     <p>What! do you hesitate?</p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M2">
                     <speaker>Jer.</speaker>
                     <p>No!</p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M1">
                     <speaker>Fil.</speaker>
                     <p>Then you consent?</p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M2">
                     <speaker>Jer.</speaker>
                     <p>Guess again.</p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M1">
                     <speaker>Fil.</speaker>
                     <p>You refuse?</p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M2">
                     <speaker>Jer.</speaker>
                     <p>Of course I do! What a ridiculous question! Look at me, sir, look at me, I
                         say—I'm verging on the brink of unutterable indignation, and if you wasn't
@@ -918,163 +970,163 @@
                         say, if you wasn't my uncle, I'd shake you into fifty bits, I would.
                             <stage>(seizing Filippo and shaking him)</stage></p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M1">
                     <speaker>Fil.</speaker>
                     <p>   Nephew, you're a coward!</p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M2">
                     <speaker>Jer.</speaker>
                     <p>I deny it—but I've a horror of blood, especially my own.</p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M1">
                     <speaker>Fil.</speaker>
                     <stage> (aside)</stage>
                     <p>I must try and soothe him down. <stage>(aloud)</stage> Nephew, my dear
                         nephew, surely you feel for the honour of your house?</p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M2">
                     <speaker>Jer.</speaker>
                     <p>Not much!</p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M1">
                     <speaker>Fil.</speaker>
                     <p>Consent to do this trifle—</p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M2">
                     <speaker>Jer.</speaker>
                     <p>Trifle! ha, ha!</p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M1">
                     <speaker>Fil.</speaker>
                     <p>And I'll leave you all my wealth when I die.</p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M2">
                     <speaker>Jer.</speaker>
                     <p>Thank ye; but I've had a specimen of your style of dying already.</p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M1">
                     <speaker>Fil.</speaker>
                     <p>You shall marry my daughter, Rosetta; she's very lovely— takes after her
                         mother.</p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M2">
                     <speaker>Jer.</speaker>
                     <p>I should think she did of the two; but, I say, I thought you had promised her
                         hand to—</p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M1">
                     <speaker>Fil.</speaker>
                     <p>Bambogetti—I'll manage him; besides, the worst come to the worst, you won't
                         mind his calling you out.</p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M2">
                     <speaker>Jer.</speaker>
                     <p>Not in the least,—because I shan't go.</p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M1">
                     <speaker>Fil.</speaker>
                     <p>Is it a bargain?</p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M2">
                     <speaker>Jer.</speaker>
                     <p>Yes—I mean no—no—n—<stage>(sees Rosetta, who enters at L. C.)</stage> Ah, my
                         beautiful fellow traveller!</p>
                 </sp>
-                <sp>
+                <sp who="#L0066_F8">
                     <speaker>Ros.</speaker>
                     <stage> (running to Filippo)</stage>
                     <p>My dear father!</p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M2">
                     <speaker>Jer.</speaker>
                     <p>Father.</p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M1">
                     <speaker>Fil.</speaker>
                     <p>My dear child! this is—</p>
                 </sp>
-                <sp>
+                <sp who="#L0066_F8">
                     <speaker>Ros.</speaker>
                     <p>Oh, we're old acquaintances, aint we, sir?</p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M2">
                     <speaker>Jer.</speaker>
                     <p>To be sure; we met this morning in the—in the—<stage>(aside)</stage>  
                         where's the Brigadier?</p>
                 </sp>
-                <sp>
+                <sp who="#L0066_F8">
                     <speaker>Ros.</speaker>
                     <p>The Vetturino!</p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M2">
                     <speaker>Jer.</speaker>
                     <p>Thank ye; we little thought we were cousins eh?</p>
                     <pb n="10"/>
                 </sp>
-                <sp>
+                <sp who="#L0066_F8">
                     <speaker>Ros.</speaker>
                     <p>Cousins!</p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M2">
                     <speaker>Jer.</speaker>
                     <p>To be sure—how d'ye do, cousin? Here's to our better acquaintance, cousin.
                             <stage>(going to kiss her)</stage></p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M1">
                     <speaker>Fil.</speaker>
                     <p>Not before marriage—<stage>(pulling him back)</stage>—She's
                             yours—<stage>(aside to him)</stage></p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M2">
                     <speaker>Jer.</speaker>
                     <p>Is she?</p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M1">
                     <speaker>Fil.</speaker>
                     <p>On one condition.</p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M2">
                     <speaker>Jer.</speaker>
                     <p>What is it?</p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M1">
                     <speaker>Fil.</speaker>
                     <p>You know.</p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M2">
                     <speaker>Jer.</speaker>
                     <p>Eh, I think I do. <stage>(aside)</stage> My situation is getting very
                         dramatic.</p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M1">
                     <speaker>Fil.</speaker>
                     <p>Do you still hesitate?</p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M2">
                     <speaker>Jer.</speaker>
                     <p>Hesitate—no—I'm only doubting. <stage>(aside)</stage> Shall I? Yes—
                             no—yes—<stage>(tosses up a halfpenny, catches it, and looks at
                             it)</stage>—I will! <stage>(aloud)</stage></p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M1">
                     <speaker>Fil.</speaker>
                     <p>You're a sensible fellow.</p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M2">
                     <speaker>Jer.</speaker>
                     <p>I am! <stage>(aside)</stage> And I'll prove it. Uncle has taken me in, and
                         now I'll return the obligation. I'll marry his pretty daughter, pocket the
                         marriage portion, and then off we'll go together.</p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M1">
                     <speaker>Fil.</speaker>
                     <p>Rosetta, this is your husband.</p>
                 </sp>
-                <sp>
+                <sp who="#L0066_F8">
                     <speaker>Ros.</speaker>
                     <p>My husband!</p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M2">
                     <speaker>Jer.</speaker>
                     <p>Yes—it's all arranged. <stage>(crosses to her)</stage> To-morrow we go to
                         church—the parson ties us up, and that's settled—few friends to dinner,
@@ -1083,58 +1135,58 @@
                         meet Leoni, cut him in half, and that's settled—ha, ha! what a delightful
                         prospect.</p>
                 </sp>
-                <sp>
+                <sp who="#L0066_F8">
                     <speaker>Ros.</speaker>
                     <stage> (aside)</stage>
                     <p>Cut Leoni in half!—what can he mean?</p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M1">
                     <speaker>Fil.</speaker>
                     <p>Come along, nephew!—Now then to give orders for the wedding to-morrow.</p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M2">
                     <speaker>Jer.</speaker>
                     <stage> (aside)</stage>
                     <p>Now to secure places for two in the—in the—where's the Brigadier?<stage>
                              Exeunt C., Jerry kissing his hand to Rosetta.</stage></p>
                 </sp>
-                <sp>
+                <sp who="#L0066_F8">
                     <speaker>Ros.</speaker>
                     <p>That dolt, my husband!—cut Leoni in half!—ah, I see it all —it is as I
                         feared—the family feud is declared again—<stage>(seeing Leoni, who enters,
                             C.)</stage> Oh, Leoni—my poor dear Leoni—but what's the matter?—you seem
                         agitated.</p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M4">
                     <speaker>Leo.</speaker>
                     <p>No wonder—I've been insulted again, by that insolent fellow, Bambogetti—your
                         husband elect.</p>
                 </sp>
-                <sp>
+                <sp who="#L0066_F8">
                     <speaker>Ros.</speaker>
                     <p>He's no longer my husband elect.</p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M4">
                     <speaker>Leo.</speaker>
                     <p>No!—then I'm happy.</p>
                 </sp>
-                <sp>
+                <sp who="#L0066_F8">
                     <speaker>Ros.</speaker>
                     <p>And I'm miserable.</p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M4">
                     <speaker>Leo.</speaker>
                     <p>Why, haven't you got rid of a man you dislike?</p>
                 </sp>
-                <sp>
+                <sp who="#L0066_F8">
                     <speaker>Ros.</speaker>
                     <p>Yes—but I've got another I don't like a bit better in his stead.</p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M4">
                     <speaker>Leo.</speaker>
                     <p>Who?</p>
                 </sp>
-                <sp>
+                <sp who="#L0066_F8">
                     <speaker>Ros.</speaker>
                     <p>That silly-looking young man who wanted to hand me out of the Vetturino this
                         morning. But my situation is a trifle compared to yours. That horrible
@@ -1142,68 +1194,68 @@
                         prudent, or too much of a coward to take the quarrel up himself, has
                         persuaded my cousin—</p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M4">
                     <speaker>Leo.</speaker>
                     <p>   Your cousin?</p>
                     <pb n="11"/>
                 </sp>
-                <sp>
+                <sp who="#L0066_F8">
                     <speaker>Ros.</speaker>
                     <p>Yes, the silly-looking young man, to take the affair in hand— to assasinate
                         you, Leoni, to cut you in half.</p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M4">
                     <speaker>Leo.</speaker>
                     <p>Ha, ha! I'm sure I'm very much obliged to him. But leave the matter to me,
                         Rosetta; while you resist every effort of your father to marry you either to
                         Bambogetti or your terrible cousin, do this for my sake, and I'll take care
                         of myself for yours.</p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M1">
                     <speaker>Fil.</speaker>
                     <stage> (within, C.)</stage>
                     <p>Rosetta, Rosetta!</p>
                 </sp>
-                <sp>
+                <sp who="#L0066_F8">
                     <speaker>Ros.</speaker>
                     <p>My father's voice.</p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M4">
                     <speaker>Leo.</speaker>
                     <p>In, in—<stage>(Rosetta runs into house, R.)</stage> Now, then, for this
                         formidable cousin. As I live, here he comes.</p>
                 </sp><stage>Enter Jerry,
                     C.</stage>
-                <sp>
+                <sp who="#L0066_M2">
                     <speaker>Jer.</speaker>
                     <p>It's all right. I've secured two places in the—in the—</p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M4">
                     <speaker>Leo.</speaker>
                     <p>Ahem!</p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M2">
                     <speaker>Jer.</speaker>
                   <stage>(L.)</stage>
                     <p>Sir,—I,—<stage>(aside)</stage> The young fellow that walked off with my
                         cousin Rosetta.</p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M4">
                     <speaker>Leo.</speaker>
                   <stage>(R.)</stage>
                     <p>Sir, I've a question to ask you.</p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M2">
                     <speaker>Jer.</speaker>
                     <p>It's no sort of use asking me any questions, my good young man. I'm not a
                         native of these parts—I can't direct you.</p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M4">
                     <speaker>Leo.</speaker>
                     <p>That's the very reason I offer myself to conduct you to the person you are
                         seeking—one Leoni.</p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M2">
                     <speaker>Jer.</speaker>
                     <stage> (starting)</stage>
                     <p>Eh!—oh!—ah! <stage>(aside)</stage> I'll swagger a bit. <stage>(aloud)</stage>
@@ -1211,221 +1263,221 @@
                         he's heard what a desperate fellow I am.<stage>(cutting and slashing with
                             the stick)</stage></p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M4">
                     <speaker>Leo.</speaker>
                     <p>He stands before you!</p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M2">
                     <speaker>Jer.</speaker>
                     <p>The devil! <stage>(runs behind table)</stage> Sir,—I'm unarmed.</p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M4">
                     <speaker>Leo.</speaker>
                     <p>   So am I.</p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M2">
                     <speaker>Jer.</speaker>
                     <p>Quite sure?</p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M4">
                     <speaker>Leo.</speaker>
                     <p>On my honour.</p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M2">
                     <speaker>Jer.</speaker>
                     <stage> (buttoning up coat, and advancing)</stage>
                     <p>Then dash my buttons—<stage>(Leoni moves, Jerry runs back again)</stage></p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M4">
                     <speaker>Leo.</speaker>
                     <p>Harkye, sir! I've heard of your humane intentions towards me—but I beg to
                         tell you I'm not the man to sit quietly at an open window, and let
                             you—<stage>(imitates firing a gun)</stage></p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M2">
                     <speaker>Jer.</speaker>
                     <p>And I beg to tell you, sir, I'm not the man to see you sitting quietly at an
                         open window, and—<stage>(imitating the action)</stage></p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M4">
                     <speaker>Leo.</speaker>
                     <p>I'm glad to hear it, and I see we shall be able to settle the point to our
                         mutual satisfaction.</p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M2">
                     <speaker>Jer.</speaker>
                     <p>I'm delighted to hear it—give us your hand. <stage>(about to take his hand—he
                             draws it away)</stage></p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M4">
                     <speaker>Leo.</speaker>
                     <p>I think there is a way to settle this ancient feud between our families.</p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M2">
                     <speaker>Jer.</speaker>
                     <p>I'm sure there is—we'll consider it settled. <stage>(holding out his
                             hand)</stage></p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M4">
                     <speaker>Leo.</speaker>
                     <p>For, between ourselves, it's a very absurd thing.</p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M2">
                     <speaker>Jer.</speaker>
                     <p>Quite nonsensical. <stage>(holding out his hand)</stage></p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M4">
                     <speaker>Leo.</speaker>
                     <p>My idea is—</p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M2">
                     <speaker>Jer.</speaker>
                     <p>I quite agree with you. <stage>(holding out hand)</stage></p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M4">
                     <speaker>Leo.</speaker>
                     <p>Why you haven't heard it.</p>
                     <pb n="12"/>
                 </sp>
-                <sp>
+                <sp who="#L0066_M2">
                     <speaker>Jer.</speaker>
                     <p>Good gracious! what does that signify as long as I agree with it?—how
                         particular you are.</p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M4">
                     <speaker>Leo.</speaker>
                     <p>Well then, you consent—pistols?</p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M2">
                     <speaker>Jer.</speaker>
                     <p>Eh?</p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M4">
                     <speaker>Leo.</speaker>
                     <p>Perhaps you prefer swords.</p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M2">
                     <speaker>Jer.</speaker>
                     <p>   Swords!—what for?</p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M4">
                     <speaker>Leo.</speaker>
                     <p>What for!—why to fight with.</p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M2">
                     <speaker>Jer.</speaker>
                     <p>Fight—who?</p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M4">
                     <speaker>Leo.</speaker>
                     <p>Me!</p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M2">
                     <speaker>Jer.</speaker>
                     <p>You!</p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M4">
                     <speaker>Leo.</speaker>
                     <p>You!</p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M2">
                     <speaker>Jer.</speaker>
                     <p>Me!</p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M4">
                     <speaker>Leo.</speaker>
                     <p>We!</p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M2">
                     <speaker>Jer.</speaker>
                     <p>We!—you!—me!—we!—'pon my soul, sir, I don't understand.</p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M4">
                     <speaker>Leo.</speaker>
                     <p>The deuce you don't—surely you'd rather fight me face to face like a man,
                         than strike me behind my back.</p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M2">
                     <speaker>Jer.</speaker>
                     <p>I don't know that—<stage>(Roseeta appears at the door of the house, and
                             listens)</stage></p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M4">
                     <speaker>Leo.</speaker>
                     <p>But I'm sure of it—therefore, if you've no objection—</p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M2">
                     <speaker>Jer.</speaker>
                     <p>But I have an objection—a decided objection.</p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M4">
                     <speaker>Leo.</speaker>
                     <p>Nonsense—you'll find me in half an hour, behind the hill on the left—I shall
                         wait for you.</p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M2">
                     <speaker>Jer.</speaker>
                     <p>Stop—you'll wait for me till I come.</p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M4">
                     <speaker>Leo.</speaker>
                     <p>Yes.</p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M2">
                     <speaker>Jer.</speaker>
                     <stage> (aside)</stage>
                     <p>Then you'll wait a damned long time.</p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M4">
                     <speaker>Leo.</speaker>
                     <p>I leave to you the choice of weapons—farewell—be punctual.<stage>  Exit,
                             C.</stage></p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M2">
                     <speaker>Jer.</speaker>
                     <p>I suppose that's what they call a nice young man! I wish I was back in St.
                         Mary Axe.<stage>(Rosetta, who has watched Leoni out, advances and strikes
                             Jerry on the shoulder)</stage></p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M2">
                     <speaker>Jer.</speaker>
                     <p>Ah! <stage>(jumping round)</stage></p>
                 </sp>
-                <sp>
+                <sp who="#L0066_F8">
                     <speaker>Ros.</speaker>
                     <p>Hush!</p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M2">
                     <speaker>Jer.</speaker>
                     <stage> (rubbing his shoulder)</stage>
                     <p>It's very easy to say hush.</p>
                 </sp>
-                <sp>
+                <sp who="#L0066_F8">
                     <speaker>Ros.</speaker>
                     <p>   My father may come and interrupt us—one word—you are going to fight
                         Leoni.</p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M2">
                     <speaker>Jer.</speaker>
                     <p>That's not the worst of it—Leoni is going to fight me.</p>
                 </sp>
-                <sp>
+                <sp who="#L0066_F8">
                     <speaker>Ros.</speaker>
                     <p>Don't prevaricate—I know everything—take my advice—</p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M2">
                     <speaker>Jer.</speaker>
                     <p>And run away.</p>
                 </sp>
-                <sp>
+                <sp who="#L0066_F8">
                     <speaker>Ros.</speaker>
                     <p>No—I know that's the very last thing you would think of.</p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M2">
                     <speaker>Jer.</speaker>
                     <p>On the contrary, it was the very first thing I thought of.</p>
                 </sp>
-                <sp>
+                <sp who="#L0066_F8">
                     <speaker>Ros.</speaker>
                     <p>Silence! You can't deceive me—you came to Corsica on purpose to declare this
                         odious family feud, and take Leoni's life, and you're delighted that he has
@@ -1433,74 +1485,74 @@
                         sword; but, perhaps, sir, you'll find Leoni as good as swordsman as
                         yourself.</p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M2">
                     <speaker>Jer.</speaker>
                     <p>He must be a very bad one if he isn't.</p>
                 </sp>
-                <sp>
+                <sp who="#L0066_F8">
                     <speaker>Ros.</speaker>
                     <p>One of you will be wounded—perhaps killed—now let's suppose it's you.</p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M2">
                     <speaker>Jer.</speaker>
                     <p>No, let's suppose it's he.</p>
                 </sp>
-                <sp>
+                <sp who="#L0066_F8">
                     <speaker>Ros.</speaker>
                     <p>Now, mark me, I am a Corsican. <stage>(fiercely)</stage></p>
                 </sp>
                 <pb n="13"/>
 
-                <sp>
+                <sp who="#L0066_M2">
                     <speaker>Jer.</speaker>
                     <stage> (aside)</stage>
                     <p>They're all Corsicans in Corsica.</p>
                 </sp>
-                <sp>
+                <sp who="#L0066_F8">
                     <speaker>Ros.</speaker>
                     <p>I carry a dagger, and if Leoni receives the slightest scratch from your hand,
                         you're a dead man.</p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M2">
                     <speaker>Jer.</speaker>
                     <p>Stop a bit, let's see how we stand: if Leoni kills me, I'm a dead man—if I,
                         in trying to prevent him, give him a scratch with my hand, I'm another dead
                         man!</p>
                 </sp>
-                <sp>
+                <sp who="#L0066_F8">
                     <speaker>Ros.</speaker>
                     <p>Exactly—there is but one escape for you.</p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M2">
                     <speaker>Jer.</speaker>
                     <p>How?</p>
                 </sp>
-                <sp>
+                <sp who="#L0066_F8">
                     <speaker>Ros.</speaker>
                     <p>   Thus: Leoni and you draw your weapons—your swords meet —you purposely
                         stumble—Leoni seizes the opportunity and runs you through.</p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M2">
                     <speaker>Jer.</speaker>
                     <p>Through what? <stage>(in an agony)</stage></p>
                 </sp>
-                <sp>
+                <sp who="#L0066_F8">
                     <speaker>Ros.</speaker>
                     <p>Through the arm or the leg. I don't insist on his running you through the
                         body.</p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M2">
                     <speaker>Jer.</speaker>
                     <p>Thank ye.</p>
                 </sp>
-                <sp>
+                <sp who="#L0066_F8">
                     <speaker>Ros.</speaker>
                     <p>Do this and all will be well. Leoni will be saved—my father will be
                         satisfied—the family feud will cease, and you will be carried to the
                         hospital. Refuse to do it, and—<stage>(imitates the act of stabbing)</stage>
                         you understand.<stage>  Exit, C.</stage></p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M2">
                     <speaker>Jer.</speaker>
                     <p>Ah! and that I suppose is what they call a nice young woman, in Corsica. She
                         coolly asks me to allow myself to be run through the arm or the leg, and, if
@@ -1508,41 +1560,41 @@
                         enough of this, and so, Corsica, farewell.<stage>(Takes up his stick and is
                             going. Filippo meets him, entering at C.</stage></p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M1">
                     <speaker>Fil.</speaker>
                     <p>Corsica farewell!—what d'ye mean?</p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M2">
                     <speaker>Jer.</speaker>
                     <p>Nothing—Corsica don't agree with me, that's all. Good bye.</p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M1">
                     <speaker>Fil.</speaker>
                     <p>What, going to leave me?—when I've just given you my daughter!</p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M2">
                     <speaker>Jer.</speaker>
                     <p>Generous old man! I wouldn't deprive you of her for the world.</p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M1">
                     <speaker>Fil.</speaker>
                     <stage> (gravely)</stage>
                     <p>Very well, nephew—as you please—you know the road.</p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M2">
                     <speaker>Jer.</speaker>
                     <p>There is but one; so I can't well take the other.</p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M1">
                     <speaker>Fil.</speaker>
                     <p>Well, I wish you a pleasant journey; only, I'd advise you to   take care of
                         yourself as you pass the hill on the right— that's all.</p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M2">
                     <speaker>Jer.</speaker>
                     <p>What d'ye mean?</p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M1">
                     <speaker>Fil.</speaker>
                     <p>I mean this: that I suspected you were a coward, and have taken precautions
                         accordingly. The road to Bastia is lined with staunch friends of the house
@@ -1550,54 +1602,54 @@
                         you attempt to escape without accomplishing the vengeance you have sworn to
                         execute, you'll be riddled through and through like a cullender.</p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M2">
                     <speaker>Jer.</speaker>
                     <stage> (forcing a laugh)</stage>
                     <p>Ha! ha! <stage>(louder)</stage> Ha! ha!—the case is assuming another
                         agreeable feature.</p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M1">
                     <speaker>Fil.</speaker>
                     <p>Come, nephew, take the other alternative—<stage>(Bambogetti appears at the
                             back and listens)</stage> —be a man, and Rosetta is yours.</p>
                     <pb n="14"/>
                 </sp>
-                <sp>
+                <sp who="#L0066_M3">
                     <speaker>Bam.</speaker>
                     <stage> (shouting)</stage>
                     <p>Ah! <stage>(disappears)</stage></p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M2">
                     <speaker>Jerry</speaker>
                     <stage> (jumps round)</stage>
                 </sp>
-                <sp>
+                <sp who="#L0066_M1">
                     <speaker>Fil.</speaker>
                     <p>Leoni will be disposed of; and as for Bambogetti—<stage>(Bambogetti appears
                             again)</stage> By the bye, you needn't tell him you are going to marry
                         Rosetta, he must be kept in the dark, of course. I may as well go and put
                         Rosetta on her guard.<stage>  Exit into house, R.</stage></p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M2">
                     <speaker>Jer.</speaker>
                     <p>Well, but uncle—Goodness gracious, what'll become of me?<stage>  Bambogetti
                             advances and places his hand on Jerry's shoulder, who
                         starts.</stage></p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M3">
                     <speaker>Bam.</speaker>
                   <stage>(L.)</stage>
                     <p>Here I am!</p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M2">
                     <speaker>Jer.</speaker>
                     <p>I shall go into a fit presently, I'm sure I shall.</p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M3">
                     <speaker>Bam.</speaker>
                     <p>My name is Bambogetti.</p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M2">
                     <speaker>Jer.</speaker>
                     <stage> (very quickly)</stage>
                     <p>I know what you're going to say—you think I   am going to marry Rosetta—I
@@ -1605,200 +1657,200 @@
                         my consent—I give you my blessing, Ramsgatejetty! <stage>(trying to put his
                             hand on Bambogetti's head)</stage></p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M3">
                     <speaker>Bam.</speaker>
                     <p>Silence! I see you've got your lesson by heart. “He must be kept in the
                         dark,” eh?</p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M2">
                     <speaker>Jer.</speaker>
                     <p>Yes, of course—that is—no—in a word, my dear Mr. Margatejetty—</p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M3">
                     <speaker>Bam.</speaker>
                     <p>Silence! the world cannot contain us both—one of us must leave it.</p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M2">
                     <speaker>Jer.</speaker>
                     <p>I shall stop where I am!</p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M3">
                     <speaker>Bam.</speaker>
                     <p>Silence! This is what I propose: I've got two carbines at home—</p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M2">
                     <speaker>Jer.</speaker>
                     <p>Carbines are evidently the staple commodity of the island.</p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M3">
                     <speaker>Bam.</speaker>
                     <p>We'll load one of them—and only one of them—up to the muzzle—</p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M2">
                     <speaker>Jer.</speaker>
                     <p>With powder—</p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M3">
                     <speaker>Bam.</speaker>
                     <p>With ball!</p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M2">
                     <speaker>Jer.</speaker>
                     <p>Oh, no—powder!</p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M3">
                     <speaker>Bam.</speaker>
                     <p>Powder and ball! Fate will decide which of us is to have it.</p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M2">
                     <speaker>Jer.</speaker>
                     <p>Don't trouble Fate about the matter—I'll have it.</p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M3">
                     <speaker>Bam.</speaker>
                     <p>Silence! We'll then direct our steps towards the wood at the back, where we
                         shall find a pit fresh dug with these hands—you don't seem to enter into the
                         spirit of the thing!</p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M2">
                     <speaker>Jer.</speaker>
                     <p>I can't say I do: suppose we change the conversation?</p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M3">
                     <speaker>Bam.</speaker>
                     <p>Silence! Allow me to make myself perfectly understood. Perhaps you are not
                         aware that a person receiving the contents of   a carbine at three paces'
                         distance, instead of falling back, as you would naturally suppose, falls
                         forward!—it's a law in physics.</p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M2">
                     <speaker>Jer.</speaker>
                     <p>Is it?</p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M3">
                     <speaker>Bam.</speaker>
                     <p>For instance: here is the pit—<stage>(pointing down)</stage>—you stand at
                         that end, I at this—I've got the loaded carbine—</p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M2">
                     <speaker>Jer.</speaker>
                     <p>No, no: I've got the loaded carbine.</p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M3">
                     <speaker>Bam.</speaker>
                     <p>I fire—</p>
                     <pb n="15"/>
                 </sp>
-                <sp>
+                <sp who="#L0066_M2">
                     <speaker>Jer.</speaker>
                     <p><emph>I</emph> fire—</p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M3">
                     <speaker>Bam.</speaker>
                     <p>You fall into the hole—</p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M2">
                     <speaker>Jer.</speaker>
                     <p><emph>You</emph> fall into the hole—</p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M3">
                     <speaker>Bam.</speaker>
                     <p>And all's over!</p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M2">
                     <speaker>Jer.</speaker>
                     <p>And all's over!</p>
                 </sp>
                 <stage>Enter Leoni, C., with two long swords under his arm.</stage>
-                <sp>
+                <sp who="#L0066_M4">
                     <speaker>Leo.</speaker>
                     <stage> (to Jerry)</stage>
                     <p>The half-hour has elapsed—you haven't kept your word.</p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M2">
                     <speaker>Jer.</speaker>
                     <p>You haven't kept yours, you mean—didn't you say you'd wait till I came? What
                         have you got there?</p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M4">
                     <speaker>Leo.</speaker>
                     <p>Swords. Come, Sir, follow me!</p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M3">
                     <speaker>Bam.</speaker>
                     <stage> (interfering)</stage>
                     <p>No, Leoni, I have an affair also with this gentleman, and he must come with
                         me.</p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M4">
                     <speaker>Leo.</speaker>
                     <p>I was the first to demand satisfaction.</p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M2">
                     <speaker>Jer.</speaker>
                     <stage> (aside)</stage>
                     <p>Here's the chance of a row. <stage>(aloud to Leoni)</stage> So you were,
                         Sir.</p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M3">
                     <speaker>Bam.</speaker>
                     <p>I was the first here to receive satisfaction.</p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M2">
                     <speaker>Jer.</speaker>
                     <stage> (to Bambogetti)</stage>
                     <p>So you were.</p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M4">
                     <speaker>Leo.</speaker>
                     <p>I'll not give way.</p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M2">
                     <speaker>Jer.</speaker>
                     <stage> (aside to Leoni)</stage><p>I admire your spirit.</p></sp>
-                <sp>
+                <sp who="#L0066_M3">
                     <speaker>Bam.</speaker>
                     <p>I insist on my right.</p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M2">
                     <speaker>Jer.</speaker>
                     <stage> (aside to Bambogetti)</stage>
                     <p>Stick to that.</p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M4">
                     <speaker>Leo.</speaker>
                     <p>Then what's to be done?</p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M2">
                     <speaker>Jer.</speaker>
                     <p>That's the question—it's an intricate point, and requires a deal of mature
                         deliberation. I'll leave you to discuss it. <stage>(going)</stage></p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M3">
                     <speaker>Bam.</speaker>
                     <p>Holloa! <stage>(stopping him)</stage> You belong to me.</p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M4">
                     <speaker>Leo.</speaker>
                     <p>No—to me. <stage>(seizing Jerry)</stage></p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M3">
                     <speaker>Bam.</speaker>
                     <p>Come with me. <stage>(pulling Jerry the other way)</stage></p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M2">
                     <speaker>Jer.</speaker>
                     <p>Good Gracious—you'll have me in half—'pon my soul you will.</p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M3">
                     <speaker>Bam.</speaker>
                     <p>Choose, this instant.</p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M4">
                     <speaker>Leo.</speaker>
                     <p>Decide, this moment.</p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M2">
                     <speaker>Jer.</speaker>
                     <p>I have decided. <stage>(aside)</stage> If I only could set them by the ears,
                             <stage>(aloud to Leoni)</stage> Sir, I shall honour you with my company
@@ -1806,99 +1858,99 @@
                             Bambogetti)</stage> You needn't turn up your nose, as if you thought he
                         wasn't a gentleman.</p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M4">
                     <speaker>Leo.</speaker>
                     <stage> (angrily to Bambogetti)</stage>
                     <p>What's that?</p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M3">
                     <speaker>Bam.</speaker>
                     <p>
                         <emph>I</emph> turn up my nose!</p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M2">
                     <speaker>Jer.</speaker>
                     <stage> (to Bambogetti)</stage>
                     <p>You know you did. He did, Sir,—<stage>(to Leoni)</stage> —and that conduct
                         only confirms your contemptible opinion of him.</p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M3">
                     <speaker>Bam.</speaker>
                     <p>What's that? <stage>(fiercely to Leoni)</stage></p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M4">
                     <speaker>Leo.</speaker>
                     <p>My opinion!</p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M2">
                     <speaker>Jer.</speaker>
                     <stage> (to Leoni, very loud)</stage>
                     <p>Don't be afraid—I shan't repeat all
                         the horrible names you called him.</p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M3">
                     <speaker>Bam.</speaker>
                     <stage> (angrily to Leoni)</stage>
                     <p>It is not the first time that Leoni has insulted me behind my back.
                             <stage>(turning away)</stage></p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M2">
                     <speaker>Jer.</speaker>
                     <stage> (aside to Bambogetti)</stage>
                     <p>Bless you, he's always at it.</p>
                     <pb n="16"/>
                 </sp>
-                <sp>
+                <sp who="#L0066_M4">
                     <speaker>Leo.</speaker>
                     <p>Nor is it the first time that Bambogetti has avoided meeting me like a man,
                         face to face.</p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M2">
                     <speaker>Jer.</speaker>
                     <stage> (aside to Leoni)</stage>
                     <p>He's a regular sneak.</p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M3">
                     <speaker>Bam.</speaker>
                     <p>Insolent!</p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M4">
                     <speaker>Leo.</speaker>
                     <p>Coward!</p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M2">
                     <speaker>Jer.</speaker>
                     <stage> (rubbing his hands)</stage>
                     <p>Sharp on both sides—go it.</p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M3">
                     <speaker>Bam.</speaker>
                     <p>I'll have satisfaction, Sir.</p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M4">
                     <speaker>Leo.</speaker>
                     <p>Whenever you please.</p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M3">
                     <speaker>Bam.</speaker>
                     <p>This evening!</p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M4">
                     <speaker>Leo.</speaker>
                     <p>Now!</p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M2">
                     <speaker>Jer.</speaker>
                     <p>Yes—now—now—now—<stage>(taking one of the swords from Leoni and thrusting it
                             into Bambogetti's hand)</stage> There!</p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M4">
                     <speaker>Leo., Bam.</speaker>
                     <stage> (together)</stage>
                     <p>Now, Sir!</p>
                 </sp><stage>  They rush out, L. C., followed up the stage by Jerry,
                     urging them on.</stage>
-                <sp>
+                <sp who="#L0066_M2">
                     <speaker>Jer.</speaker>
                     <p>Ha, ha, ha! <stage>(capering about)</stage> Come, I flatter myself I managed
                         that rather cleverly. If Leoni's killed, there's a job off my hands —if
@@ -1906,73 +1958,73 @@
                         la! <stage>(dancing in and out between the chairs)</stage>
                        </p>
                 </sp> <stage>Enter Filippo from R. C., pale, and out of breath.</stage>
-                <sp>
+                <sp who="#L0066_M1">
                     <speaker>Fil.</speaker>
                     <p>Where is he?—where's my nephew?</p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M2">
                     <speaker>Jer.</speaker>
                     <p>Here I am! <stage>(skipping forward)</stage> but what's the matter?</p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M1">
                     <speaker>Fil.</speaker>
                     <p>If you only knew what I haven't breath to tell you—such an   event!—such a
                         change in the state of affairs!</p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M2">
                     <speaker>Jer.</speaker>
                     <p>Yes—I flatter myself there is. Ha, ha, ha!</p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M1">
                     <speaker>Fil.</speaker>
                     <p>Don't laugh, but listen—you recollect my telling you what happened in the
                         fourth generation?</p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M2">
                     <speaker>Jer.</speaker>
                     <p>Oh bother the generations. I know: a Leoni killed a Geronimo —the fifth was
                         no go, and—</p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M1">
                     <speaker>Fil.</speaker>
                     <p>There it appears I made a slight mistake.</p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M2">
                     <speaker>Jer.</speaker>
                     <p>Eh?</p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M1">
                     <speaker>Fil.</speaker>
                     <p>For the Brigadier has just informed me, on the most undoubted authority, that
                         your father and Leoni's father did actually meet abroad—declared the family
                         feud—drew—fought—and a Geronimo killed a Leoni.</p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M2">
                     <speaker>Jer.</speaker>
                     <p>Well?</p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M1">
                     <speaker>Fil.</speaker>
                     <p>Well—consequently, my poor boy, instead of your having to kill Leoni—</p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M2">
                     <speaker>Jer.</speaker>
                     <stage> (suddenly seeing the thing)</stage>
                     <p>Ah! <stage>(vociferating)</stage></p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M1">
                     <speaker>Fil.</speaker>
                     <p>Leoni, don't you see—</p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M2">
                     <speaker>Jer.</speaker>
                     <p>Ah!</p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M1">
                     <speaker>Fil.</speaker>
                     <p>Has to kill you! <stage>(Jerry drops in Filippo's arms)</stage></p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M2">
                     <speaker>Jer.</speaker>
                     <stage> (suddenly starting up and seizing Filippo)</stage>
                     <p>Oh, you atrocious, sanguinary old ruffian! was it for this you brought me
@@ -1980,12 +2032,12 @@
                         collect my scattered faculties—ah! <stage>(recollecting)</stage>
                         Huzzah!—there's life in a muscle!</p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M1">
                     <speaker>Fil.</speaker>
                     <p>What d'ye mean?</p>
                     <pb n="17"/>
                 </sp>
-                <sp>
+                <sp who="#L0066_M2">
                     <speaker>Jer.</speaker>
                     <p>   I mean that Leoni and Bambogetti are at this moment fighting like
                         bull-dogs. Oh, Bambogetti, if you ever loved me, cut him to pieces.
@@ -1994,167 +2046,167 @@
                         —dished—huzza! <stage>(throwing his hat up in the air)</stage>
                        </p>
                 </sp> <stage>Leoni enters C., and places himself by Jerry's side.</stage>
-                <sp>
+                <sp who="#L0066_M1">
                     <speaker>Fil.</speaker>
                     <p>Leoni!</p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M2">
                     <speaker>Jer.</speaker>
                     <stage> (jumping)</stage>
                     <p>Where? <stage>(sees Leoni)</stage> Eh?—oh!—How are you? <stage>(affecting
                             indifference)</stage></p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M1">
                     <speaker>Fil.</speaker>
                     <stage> (to Leoni)</stage>
                     <p>You're wounded.</p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M2">
                     <speaker>Jer.</speaker>
                     <stage> (delighted)</stage>
                     <p>Mortally?</p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M4">
                     <speaker>Leo.</speaker>
                     <p>A mere scratch. <stage>(shewing his hand bound up)</stage></p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M2">
                     <speaker>Jer.</speaker>
                     <p>What a pity!</p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M4">
                     <speaker>Leo.</speaker>
                     <p>Eh?</p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M2">
                     <speaker>Jer.</speaker>
                     <p>I say, what a pity you're wounded!</p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M1">
                     <speaker>Fil.</speaker>
                     <p>Where's Bambogetti?</p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M4">
                     <speaker>Leo.</speaker>
                     <p>Fled!—thinking me seriously wounded, he took to his heels— then the Brigadier
                         arrived—</p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M1">
                     <speaker>Fil.</speaker>
                     <p>Ah! <stage>(anxiously)</stage></p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M2">
                     <speaker>Jer.</speaker>
                     <p>Ah! <stage>(very faintly)</stage></p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M4">
                     <speaker>Leo.</speaker>
                     <p>And instantly followed in pursuit of Bambogetti.</p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M2">
                     <speaker>Jer.</speaker>
                     <stage> (aside)</stage>
                     <p>It's all right.</p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M4">
                     <speaker>Leo.</speaker>
                     <p>But not without communicating to me a little incident <stage>(looking
                             intently at Filippo and Jerry, who try to get behind each other)</stage>
                         which, if true—</p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M2">
                     <speaker>Jer.</speaker>
                     <stage> (very energetically)</stage>
                     <p>But it isn't true, I'll take my oath of it.</p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M4">
                     <speaker>Leo.</speaker>
                     <p>Silence!</p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M2">
                     <speaker>Jer.</speaker>
                     <p>I'm very ill! <stage>(leaning against Filippo)</stage></p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M4">
                     <speaker>Leo.</speaker>
                     <stage> (retreating a few paces, and, in a slow emphatic tone, addressing
                         Filippo)</stage>
                     <p>  Filippo Geronimo! <stage>(Jerry raises his head)</stage> brother of Matteo
                         Geronimo, the family feud is declared.</p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M1">
                     <speaker>Fil.</speaker>
                     <p>Me? <stage>(alarmed)</stage></p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M2">
                     <speaker>Jer.</speaker>
                     <p>Jack's alive again.</p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M1">
                     <speaker>Fil.</speaker>
                     <stage> (to Leoni)</stage>
                     <p>You don't mean me?</p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M2">
                     <speaker>Jer.</speaker>
                     <p>Yes you do, don't you? Of course he does.</p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M1">
                     <speaker>Fil.</speaker>
                     <p>What, Leoni? <stage>(very pathetically)</stage> I, the father of Rosetta?—
                         your beloved Rosetta—would you, could you slay your father-in-law?</p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M4">
                     <speaker>Leo.</speaker>
                     <p>Ah! <stage>(running to Filippo and shaking his hand warmly)</stage></p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M2">
                     <speaker>Jer.</speaker>
                     <p>Father-in-law? Holloa, holloa! I forbid the banns!</p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M4">
                     <speaker>Leo.</speaker>
                     <p>As you please. <stage>(retreating, again addressing Jerry)</stage> Then,
                         Geronimo the younger, son of Matteo Geronimo, the family fued is
                         declared.</p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M2">
                     <speaker>Jer.</speaker>
                     <stage> (in an agony)</stage>
                     <p>No, no! I didn't speak—I'll retract what I said —I'll apologize—I'll do
                         anything you like.</p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M4">
                     <speaker>Leo.</speaker>
                     <p>It's too late!</p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M2">
                     <speaker>Jer.</speaker>
                     <p>Mercy on us.
                     </p>
                 </sp><stage>Enter Rosetta, C. from R.</stage>
                 <pb n="18"/>
-                <sp>
+                <sp who="#L0066_F8">
                     <speaker>Ros.</speaker>
                     <p>Where's my cousin?</p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M2">
                     <speaker>Jer.</speaker>
                     <p>What's the matter now?</p>
                 </sp>
-                <sp>
+                <sp who="#L0066_F8">
                     <speaker>Ros.</speaker>
                     <p>There! <stage>(giving him a letter)</stage></p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M2">
                     <speaker>Jer.</speaker>
                     <p>What's this?</p>
                 </sp>
-                <sp>
+                <sp who="#L0066_F8">
                     <speaker>Ros.</speaker>
                     <p>A letter for you, which Bambogetti dropped in his flight.</p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M2">
                     <speaker>Jer.</speaker>
                     <stage> (reading)</stage>
                     <p>“Our little affair is postponed, I am waiting for you on the road to
@@ -2166,60 +2218,60 @@
                         Brigadier, take me in charge—conduct me to Bastia—I summon you to protect
                         me—it's in my passport.</p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M5">
                     <speaker>Brig.</speaker>
                     <p>Go along!</p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M2">
                     <speaker>Jer.</speaker>
                     <p>Yes, let's go along. <stage>(taking his arm)</stage></p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M5">
                     <speaker>Brig.</speaker>
                     <p>Leoni, your adversary has escaped; and, in order to secure his arrest you
                         must tell me his name.</p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M4">
                     <speaker>Leo.</speaker>
                     <p>Excuse me, that would be the act of a coward!</p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M2">
                     <speaker>Jer.</speaker>
                     <p>So it would. <stage>(aside)</stage> What an idea. <stage>(aloud)</stage>
                         Brigadier, what would you do with the man suppose you had him?</p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M5">
                     <speaker>Brig.</speaker>
                     <p>Conduct the ruffian to Bastia, instantly.</p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M2">
                     <speaker>Jer.</speaker>
                     <p>You wouldn't let him escape?</p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M5">
                     <speaker>Brig.</speaker>
                     <p>Of course not.</p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M2">
                     <speaker>Jer.</speaker>
                     <p>And you wouldn't let anybody come near him?</p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M5">
                     <speaker>Brig.</speaker>
                     <p>Not a soul.</p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M2">
                     <speaker>Jer.</speaker>
                     <stage> (aside)</stage>
                     <p>That'll do. <stage>(aloud)</stage> Brigadier, I'm the ruffian!<stage>  Leoni,
                             Rosetta, and Filippo, about to speak, but on an imploring look from
                             Jerry, stop.</stage></p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M5">
                     <speaker>Brig.</speaker>
                     <p>Seize him!</p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M2">
                     <speaker>Jer.</speaker>
                     <p>Of course; seize me and hold me tight. Brigadier, you'll march in front. You
                             <stage>(to Carbineer)</stage> on my right, take hold of me.
@@ -2227,11 +2279,11 @@
                             Carbineer)</stage> on my left, seize me! <stage>(Carbineer seizes his
                             left arm—to Brigadier)</stage> and if you love me, stick close! </p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M5">
                     <speaker>Brig.</speaker>
                     <p>March!</p>
                 </sp>
-                <sp>
+                <sp who="#L0066_M2">
                     <speaker>Jer.</speaker>
                     <p>Halt! Good bye, uncle—good bye, cousin Rosetta—good bye,   young Corsican.
                             <stage>(to Leoni)</stage> Now then, on we go again—stay! two words

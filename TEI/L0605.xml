@@ -2,7 +2,7 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title n="retainedfordefence">Retained for the Defence</title>
+        <title n="retainedfordefence" type="main">Retained for the Defence</title>
         <author>Oxenford, John</author>
         <respStmt>
           <resp>HTML transcription</resp>
@@ -15,18 +15,63 @@
       </titleStmt>
       <publicationStmt>
         <distributor>Privately published on the Lacy Website</distributor>
-      </publicationStmt>
-      <sourceDesc><bibl type="digital">Retagged from The Project Gutenberg EBook of Retained for the Defence, by John Oxenford
-          (Release Date: June 27, 2015 [EBook #49296])</bibl><bibl type="source" status="TEI_1" n="41.5" corresp="nic:N16449"><author>Oxenford, John</author><title n="retainedforthedefence">Retained for the Defence</title><title type="sub">A Farce in one act</title><extent>21 pp (UM copy: 114 - 135)<measure type="pp" quantity="20"/><measure type="txWords" quantity="6151"/><measure type="spWords" quantity="5704"/><measure type="stWords" quantity="447"/></extent><eventName notAfter="1859" type="firstPerf">
-      <date resp="nicoll" when="1859-05-23"/>
-      <name>Royal Olympic Theatre</name>
-      <date resp="source" when="1859-05-23">23 May 1859</date>
-     </eventName><listRef>
-      <ref target="https://www.gutenberg.org/files/49296/49296-h/49296-h.htm">Gutemnberg
-       transcription</ref>
-     </listRef><listRef type="localCopies"><ref>Vol41/L0605/L0605-um.pdf</ref></listRef></bibl></sourceDesc>
+      <idno type="lae">L0605</idno><idno type='URI' xml:base='https://dracor.org'>LAE</idno></publicationStmt>
+      <sourceDesc><bibl type="printSource" n="41.5"><author>Oxenford, John</author><title type="main" n="retainedforthedefence">Retained for the Defence</title><title type="sub">A Farce in one act</title><extent>21 pp (UM copy: 114 - 135)<measure type="pp" quantity="20"/>
+  <measure type="spCount" quantity="273"/>
+  <measure type="spvCount" quantity="0"/>
+  <measure type="txWords" quantity="6150"/>
+  <measure type="spWords" quantity="5703"/>
+  <measure type="stWords" quantity="447"/>
+  </extent>
+
+<note type="media"><ref target="https://www.npg.org.uk/collections/search/portrait/mw140830/Thomas-Frederick-Robson-n-Brownbill-as-Pawkins-in-Retained-for-the-Defence">(Thomas) Frederick Robson (né Brownbill) as Pawkins in 'Retained for the
+Defence' after Camille Silvy albumen carte-de-visite, May 1859 3 3/8 in. x 2 1/4
+in. (85 mm x 56 mm) image size Given by M. Hutchinson, 1965 Photographs
+Collection NPG x22083</ref></note><title level="s"> Lacy's Acting Edition,
+volume 41, No. 0605</title><idno type="nic">N16449</idno></bibl><bibl type="digitalSource"><ref target="https://www.gutenberg.org/files/49296/49296-h/49296-h.htm">Gutenberg
+transcription</ref></bibl><bibl type="digitalSource" n="copytext"><ref target="https://babel.hathitrust.org/cgi/pt?id=mdp.39015067452964&amp;seq=114 ">UM from HT</ref><ref target="local:Vol41/L0605/L0605-um.pdf"/></bibl><bibl type="digitalSource" n="copytext"><ref target="https://lb42.github.io/Lacy/L0605.html">TEI</ref></bibl><listEvent>
+<event type="LCP" when="1862-05-13" where="Olympic">
+<desc>Licence sent 13 May 1859 for performance at the Olympic. </desc>
+<bibl type="msSource">BL ms LCP_52982.S</bibl>
+</event>
+<event type="firstPerf" when="1859-05-23" source="textNic" where="Olympic">
+<desc>Premiered at Royal Olympic Theatre 23 May 1859</desc>
+</event>
+</listEvent></sourceDesc>
     </fileDesc>
-    <profileDesc><textClass><!--S_1_Farce_F._FARCE--><catRef target="#sizeS"/><catRef target="#act1"/><catRef target="nic:F."/><keywords><term>FARCE</term></keywords></textClass></profileDesc><revisionDesc><change when="2024-10-03">Header enriched</change>
+    <profileDesc><textClass><catRef target="#sizeS"/><catRef target="#act1"/><catRef target="nic:F."/><keywords><term>FARCE</term></keywords></textClass><particDesc><listPerson>
+<person xml:id="L0605_M1">
+<persName type="role">Mr. Mottley De Windsor </persName>
+<persName type="spkr" n="78">De W.</persName>
+</person>
+<person xml:id="L0605_M2">
+<persName type="role">Mr. Whitewash </persName>
+<persName type="spkr" n="78">White.</persName>
+</person>
+<person xml:id="L0605_M3">
+<persName type="role">Mr. Ferguson </persName>
+<persName type="spkr" n="8">Fergus.</persName>
+</person>
+<person xml:id="L0605_M4">
+<persName type="role">Thwaites </persName>
+<persName type="spkr" n="23">Thwaites.</persName>
+</person>
+<person xml:id="L0605_M5">
+<persName type="role">Pawkins </persName>
+<persName type="spkr" n="65">Pawkins.</persName>
+</person>
+<person xml:id="L0605_F6">
+<persName type="role">Agatha De Windsor </persName>
+<persName type="spkr" n="21">Agatha.</persName>
+</person>
+<person xml:id="L0605_U7">
+<persName type="role">Guests, &amp;c.</persName>
+</person>
+
+
+
+
+</listPerson></particDesc></profileDesc><revisionDesc><change when="2025-09-07">Metadata updated from new catalogue</change><change when="2024-10-03">Header enriched</change>
       <change when="2023-08-31">Hand edited</change>
       <change when="2023-08-31">Header confected</change>
     </revisionDesc>
@@ -67,17 +112,17 @@
 
       <castList>
         <head>Characters.</head>
-        <castItem><role gender="M">Mr. Mottley De Windsor </role><actor sex="M">Mr. G. Cooke. </actor></castItem>
+        <castItem><role gender="M">Mr. Mottley De Windsor </role><actor ana="#M">Mr. G. Cooke. </actor></castItem>
 
-        <castItem><role gender="M">Mr. Whitewash </role><actor sex="M">Mr. G. Vining. </actor></castItem>
+        <castItem><role gender="M">Mr. Whitewash </role><actor ana="#M">Mr. G. Vining. </actor></castItem>
 
-        <castItem><role gender="M">Mr. Ferguson </role><actor sex="M">Mr. H. Cooper. </actor></castItem>
+        <castItem><role gender="M">Mr. Ferguson </role><actor ana="#M">Mr. H. Cooper. </actor></castItem>
 
-        <castItem><role gender="M">Thwaites </role><actor sex="M">Mr. H. Wigan. </actor></castItem>
+        <castItem><role gender="M">Thwaites </role><actor ana="#M">Mr. H. Wigan. </actor></castItem>
 
-        <castItem><role gender="M">Pawkins </role><actor sex="M">Mr. F. Robson. </actor></castItem>
+        <castItem><role gender="M">Pawkins </role><actor ana="#M">Mr. F. Robson. </actor></castItem>
 
-        <castItem><role gender="F">Agatha De Windsor </role><actor sex="F">Miss Cottrell. </actor></castItem>
+        <castItem><role gender="F">Agatha De Windsor </role><actor ana="#F">Miss Cottrell. </actor></castItem>
 
 
         <castItem><role gender="U">Guests, &amp;c.</role></castItem>
@@ -120,7 +165,7 @@
       <stage>THWAITES, who has finished lighting candles in chandelier at back, C., steps back to
         survey the effect.</stage>
 
-      <sp>
+      <sp who="#L0605_M4">
         <speaker>Thwaites.</speaker>
         <p> Now, that’s what I call the real thing—the clean grit. The position of that bokey
             <foreign>(bouquet)</foreign> is such, that none but the purest taste could
@@ -133,36 +178,36 @@
 
       <stage type="entrance">Enter AGATHA, C.</stage>
 
-      <sp>
+      <sp who="#L0605_F6">
         <speaker>Agatha.</speaker>
         <p>
           <stage>(L.)</stage> So, Thwaites, the room appears quite ready?</p>
       </sp>
 
-      <sp>
+      <sp who="#L0605_M4">
         <speaker>Thwaites.</speaker>
         <p>
           <stage>(R.)</stage> Yes, Miss Agatha; without exaggeration I may venture to say, we are lit
           up.</p>
       </sp>
 
-      <sp>
+      <sp who="#L0605_F6">
         <speaker>Agatha.</speaker>
         <p> My father has not returned?</p>
       </sp>
 
-      <sp>
+      <sp who="#L0605_M4">
         <speaker>Thwaites.</speaker>
         <p> No, Miss Agatha, he has not—since he left the house at two in the afternoon—I haven’t
           the slightest notion where he is gone.</p>
       </sp>
 
-      <sp>
+      <sp who="#L0605_F6">
         <speaker>Agatha.</speaker>
         <p> Indeed! <stage>(laughing—sits, L. C.)</stage></p>
       </sp>
 
-      <sp>
+      <sp who="#L0605_M4">
         <speaker>Thwaites.</speaker>
         <p> No—though I did my best to ascertain;—“Are you going far, sir?” says I. He stares, and
           he makes me no answer. “Shall you be long, sir?” says I. He stares again, and again he
@@ -171,35 +216,35 @@
           him, Miss Agatha—ha, ha, ha!</p>
       </sp>
 
-      <sp>
+      <sp who="#L0605_F6">
         <speaker>Agatha.</speaker>
         <p>
           <stage>(aside—vexed)</stage> Really, ’pa must have a regular footman; these tradespeople
           whom he engages as occasional waiters don’t understand subordination a bit.</p>
       </sp>
 
-      <sp>
+      <sp who="#L0605_M4">
         <speaker>Thwaites.</speaker>
         <p> I hope you admire the bokies, Miss Agatha; them camellias are quite the thing, I flatter
           myself;—all my taste—ha! ha! You’ll be called to-morrow the Lady of the Camellias!</p>
       </sp>
 
-      <sp>
+      <sp who="#L0605_F6">
         <speaker>Agatha.</speaker>
         <p> Most offensive! <stage>(rises, and turns aside)</stage></p>
       </sp>
 
-      <sp>
+      <sp who="#L0605_M4">
         <speaker>Thwaites.</speaker>
         <p> Now, I thought I had said something very pretty—but she don’t look pleased.</p>
       </sp>
 
-      <sp>
+      <sp who="#L0605_F6">
         <speaker>Agatha.</speaker>
         <p> No one has arrived, of course?</p>
       </sp>
 
-      <sp>
+      <sp who="#L0605_M4">
         <speaker>Thwaites.</speaker>
         <p> On the contrary, Miss Agatha—I’m sorry to differ from you, but I rather think one has
           arrived, and is coffee-ing in the back parlor;—here he is, too!</p>
@@ -209,7 +254,7 @@
         <p>Mr. Whitewash, as I’m alive!—No occasion to announce you, sir.</p>
       </sp>
 
-      <sp>
+      <sp who="#L0605_M2">
         <speaker>White.</speaker>
         <p><stage>(C.)</stage> Ah, my dear Miss De Windsor, excuse me if I stopped a minute to
           refresh myself with a <hi>demitasse</hi> of your choice Mocha instead of flying up stairs; but you
@@ -217,25 +262,25 @@
           good deal—abnormally—if I may use the expression;—in short I was regularly knocked up.</p>
       </sp>
 
-      <sp>
+      <sp who="#L0605_F6">
         <speaker>Agatha.</speaker>
         <p> Don’t think of apologies—as it is you are the first in the room. So you have had another
           brief to-day—I hope you have been victorious.</p>
       </sp>
 
-      <sp>
+      <sp who="#L0605_M2">
         <speaker>White.</speaker>
         <p> One of my most brilliant triumphs! I actually outshone myself! <stage>(Thwaites
             listens)</stage> A rascal had stolen a watch from a gentleman’s pocket, and hid it!—ha,
           ha, ha!—in his umbrella.</p>
       </sp>
 
-      <sp>
+      <sp who="#L0605_M4">
         <speaker>Thwaites.</speaker>
         <p> Watch in an umbrella—come, that’s not bad!—ho, ho, ho!</p>
       </sp>
 
-      <sp>
+      <sp who="#L0605_M2">
         <speaker>White.</speaker>
         <p> Eh? <stage>(looks half offended—then continues without noticing Thwaites)</stage> There
           is not the slightest doubt that the scoundrel was guilty; indeed he had such a face that
@@ -243,47 +288,47 @@
           him off—I got him off!—a weeping jury declared that he was not guilty.</p>
       </sp>
 
-      <sp>
+      <sp who="#L0605_F6">
         <speaker>Agatha.</speaker>
         <p> Capital!</p>
       </sp>
 
-      <sp>
+      <sp who="#L0605_M4">
         <speaker>Thwaites.</speaker>
         <p> Which it is capital!—just like you, sir.</p>
       </sp>
 
-      <sp>
+      <sp who="#L0605_M2">
         <speaker>White.</speaker>
         <p>
           <stage>(draws Agatha aside)</stage> I say—this person—rather familiar.</p>
       </sp>
 
-      <sp>
+      <sp who="#L0605_F6">
         <speaker>Agatha.</speaker>
         <p> Yes, I know—I’m quite annoyed. He’s our greengrocer. ’Pa jokes with him in the morning
           when he buys the vegetables, and now he’s come to wait in the evening, he don’t understand
           his position at all.</p>
       </sp>
 
-      <sp>
+      <sp who="#L0605_M2">
         <speaker>White.</speaker>
         <p> I think I’ll take the liberty of dropping a hint. I say, Mr.——</p>
       </sp>
 
-      <sp>
+      <sp who="#L0605_M4">
         <speaker>Thwaites.</speaker>
         <p> Thwaites, at your service, sir. Cards ain’t common in our business; but my address
           is——</p>
       </sp>
 
-      <sp>
+      <sp who="#L0605_M2">
         <speaker>White.</speaker>
         <p> Of your address, Mr. Thwaites, I have not the slightest doubt. But I would speak a word
           with you.</p>
       </sp>
 
-      <sp>
+      <sp who="#L0605_M4">
         <speaker>Thwaites.</speaker>
         <p> And I’ll listen if you talk for an hour. If I take up the newspaper, is it to read about
           politics? No! About plays?—No, I should rather think not! About pictures? bother, no! I
@@ -291,7 +336,7 @@
           Criminal Court. That’s my intellectual treat!</p>
       </sp>
 
-      <sp>
+      <sp who="#L0605_M2">
         <speaker>White.</speaker>
         <p>
           <stage>(flattered)</stage> Indeed! ha! ha! Really, my dear Miss de Windsor we should do
@@ -300,7 +345,7 @@
 
       <stage type="entrance">Enter DE WINDSOR, C. from L. C.</stage>
 
-      <sp>
+      <sp who="#L0605_M1">
         <speaker>De W.</speaker>
         <p> He is here—is he—the dear boy. I must shake him by the hand. <stage>(rushes forward,
             r. c. and grasps Thwaites by the hand)</stage> Eh! ha! ha! You’re not Whitewash!
@@ -308,13 +353,13 @@
           mean, Whitewash. <stage>(shakes his hand violently)</stage> You feel what I mean.</p>
       </sp>
 
-      <sp>
+      <sp who="#L0605_M2">
         <speaker>White.</speaker>
         <p>
           <stage>(L. C.)</stage> Most acutely! <stage>(wringing his hand)</stage></p>
       </sp>
 
-      <sp>
+      <sp who="#L0605_M1">
         <speaker>De W.</speaker>
         <p> I’m so glad you are here before the others. Leave the room, Thwaites. <stage>(Thwaites
             lingers, moving at back to C.)</stage> I can now disburden my heart. As I said, I’m all
@@ -325,7 +370,7 @@
 
       <pb n="6"/>
 
-      <sp>
+      <sp who="#L0605_M4">
         <speaker>Thwaites.</speaker>
         <p>
           <stage>(aside, going up, C.)</stage> That’s the man of money. Give me the man of mind!</p>
@@ -333,7 +378,7 @@
 
       <stage>Exit, C., off, L.</stage>
 
-      <sp>
+      <sp who="#L0605_M1">
         <speaker>De W.</speaker>
         <p>
           <stage>(coming to C.)</stage> Now look, I hesitate no longer; I shilly-shally no longer; I
@@ -341,37 +386,37 @@
           Aggy. <stage>(joins their hands)</stage> Whitewash, consider yourself as my son-in-law.</p>
       </sp>
 
-      <sp>
+      <sp who="#L0605_F6">
         <speaker>Agatha.</speaker>
         <p> Really, this is very sudden, ’pa.</p>
       </sp>
 
-      <sp>
+      <sp who="#L0605_M1">
         <speaker>De W.</speaker>
         <p> Of course it is; I’m always sudden, I’m a creature of impulse. But do you dislike the
           arrangement?</p>
       </sp>
 
-      <sp>
+      <sp who="#L0605_F6">
         <speaker>Agatha.</speaker>
         <p> I did not say that, ’pa.</p>
       </sp>
 
-      <sp>
+      <sp who="#L0605_M1">
         <speaker>De W.</speaker>
         <p> Didn’t say that, ’pa! Then why don’t you speak out? Wear your mind in your face, as I
           do, or as my young friend here, with whom I want to speak a few words in private. So, go
           and see how they are getting on with the coffee.</p>
       </sp>
 
-      <sp>
+      <sp who="#L0605_M2">
         <speaker>White.</speaker>
         <p>
           <stage>(R.)</stage> And don’t forget, that you are engaged to me for the first set, and the
           Polka, and the Lancers.</p>
       </sp>
 
-      <sp>
+      <sp who="#L0605_M1">
         <speaker>De W.</speaker>
         <p> Of course, she won’t forget. Run along child.</p>
 
@@ -381,12 +426,12 @@
           mind, but now, you’ve done it. You are one of the men I like. <stage>(shakes his hand
             violently—they sit)</stage></p>
       </sp>
-      <sp>
+      <sp who="#L0605_M2">
         <speaker>White.</speaker>
         <p> My dear sir, I’m most happy. (wringing his hand)</p>
       </sp>
 
-      <sp>
+      <sp who="#L0605_M1">
         <speaker>De W.</speaker>
         <p> Of course you are. Look you, it’s only now that I like you; this very morning I weighed
           your merits with those of Tom Tango of the Stock Exchange, who you know has a sneaking
@@ -396,56 +441,56 @@
           are more enlarged—more expansive—I have been——</p>
       </sp>
 
-      <sp>
+      <sp who="#L0605_M2">
         <speaker>White.</speaker>
         <p> Dining out?</p>
       </sp>
 
-      <sp>
+      <sp who="#L0605_M1">
         <speaker>De W.</speaker>
         <p> No, I have been in the Central Criminal Court, during the cause, “The Queen
             <emph>v.</emph> Pawkins.”</p>
       </sp>
 
-      <sp>
+      <sp who="#L0605_M2">
         <speaker>White.</speaker>
         <p> Ah, I see! and you heard my speech for the defence. It was not bad, was it?</p>
       </sp>
 
-      <sp>
+      <sp who="#L0605_M1">
         <speaker>De W.</speaker>
         <p> It was noble—it was glorious. While I looked upon that poor man in the dock, and I heard
           you enunciate<pb n="7"/> his virtues and expatiate on the largeness of his small family,
           he assumed in my eyes the sanctity of a martyr.</p>
       </sp>
 
-      <sp>
+      <sp who="#L0605_M2">
         <speaker>White.</speaker>
         <p> You don’t say so?</p>
       </sp>
 
-      <sp>
+      <sp who="#L0605_M1">
         <speaker>De W.</speaker>
         <p> Perhaps you noticed that among the persons in the court one wept aloud—very loud?</p>
       </sp>
 
-      <sp>
+      <sp who="#L0605_M2">
         <speaker>White.</speaker>
         <p> I did. The policeman turned him out, I believe.</p>
       </sp>
 
-      <sp>
+      <sp who="#L0605_M1">
         <speaker>De W.</speaker>
         <p> True—ahem! Some such brutal occurrence did take place; I was the man that wept, sir, you
           were the man that made me weep; you touched my heart, sir, you touched my heart.</p>
       </sp>
 
-      <sp>
+      <sp who="#L0605_M2">
         <speaker>White.</speaker>
         <p> (aside) Really, a most sensible old gentleman!</p>
       </sp>
 
-      <sp>
+      <sp who="#L0605_M1">
         <speaker>De W.</speaker>
         <p> Lingering at the door, I learned that the prisoner was acquitted. So I walked home, and
           I said to myself—Whitewash is my destined son-in-law. I as a manufacturer of fancy soap
@@ -453,34 +498,34 @@
           cast upon innocence.</p>
       </sp>
 
-      <sp>
+      <sp who="#L0605_M2">
         <speaker>White.</speaker>
         <p> Innocence!</p>
       </sp>
 
-      <sp>
+      <sp who="#L0605_M1">
         <speaker>De W.</speaker>
         <p> Of course; no one knows better than you that that poor persecuted being was innocence
           itself.</p>
       </sp>
 
-      <sp>
+      <sp who="#L0605_M2">
         <speaker>White.</speaker>
         <p> (coolly) Oh, yes—yes.</p>
       </sp>
 
-      <sp>
+      <sp who="#L0605_M1">
         <speaker>De W.</speaker>
         <p> What delight you must have felt in restoring him to his weeping wife, and those five
           small children!</p>
       </sp>
 
-      <sp>
+      <sp who="#L0605_M2">
         <speaker>White.</speaker>
         <p> Wife! children! Oh! ah! I believe I did use the expression.</p>
       </sp>
 
-      <sp>
+      <sp who="#L0605_M1">
         <speaker>De W.</speaker>
         <p> But there’s a further pleasure in store for you. You know I always follow the dictates
           of my heart. Well—well, my heart told me that society owed that poor persecuted being a
@@ -488,47 +533,47 @@
           word, sir, I’ve invited him to my ball this evening.</p>
       </sp>
 
-      <sp>
+      <sp who="#L0605_M2">
         <speaker>White.</speaker>
         <p> (rises) Here? To your house? A fellow with the taint of the dock fresh upon him!</p>
       </sp>
 
-      <sp>
+      <sp who="#L0605_M1">
         <speaker>De W.</speaker>
         <p> A taint that he did not merit—a taint that you have so nobly removed. (rises)</p>
       </sp>
 
-      <sp>
+      <sp who="#L0605_M2">
         <speaker>White.</speaker>
         <p> (aside) Oh, this is an old fool!</p>
       </sp>
 
       <stage type="entrance">Enter AGATHA, C., and down, L.</stage>
 
-      <sp>
+      <sp who="#L0605_F6">
         <speaker>Agatha.</speaker>
         <p> (l.) Oh, papa, they are nearly all assembled in the other room.</p>
       </sp>
 
-      <sp>
+      <sp who="#L0605_M1">
         <speaker>De W.</speaker>
         <p> (c.) Come along then—come along, that I may <pb n="8"/>introduce you as my son-in-law.
           Come, defender of persecuted innocence!</p>
       </sp>
 
-      <sp>
+      <sp who="#L0605_M2">
         <speaker>White.</speaker>
         <p> (to Agatha) Mind the first set—the Lancers—the——</p>
       </sp>
 
-      <sp>
+      <sp who="#L0605_M1">
         <speaker>De W.</speaker>
         <p> Come along. (taking his arm)</p>
       </sp>
 
       <stage>Exeunt DE WINDSOR and WHITEWASH, C. off L.</stage>
 
-      <sp>
+      <sp who="#L0605_F6">
         <speaker>Agatha.</speaker>
         <p> (looking about) Very foolish of my aunt not to fasten her bracelet better. It can’t be
           here;—I don’t believe she has been in this room. Tut, tut! (goes up, r.)</p>
@@ -536,7 +581,7 @@
 
       <stage type="entrance">Enter THWAITES, L. D. 2 E.</stage>
 
-      <sp>
+      <sp who="#L0605_M4">
         <speaker>Thwaites.</speaker>
         <p> (announcing) Mr. Pawkins!</p>
       </sp>
@@ -544,48 +589,48 @@
       <stage type="entrance">Enter PAWKINS, L. D. 2 E., he bows on all sides as if the room were
         full of company. Exit THWAITES, L.</stage>
 
-      <sp>
+      <sp who="#L0605_M5">
         <speaker>Pawkins.</speaker>
         <p> Why, I’m blessed if there’s a soul here!—it’s werry inconsistent bowing to two strings
           of nobody. (suddenly sees Agatha, r.) Oh, I beg pardon, miss;—perhaps you may think it’s
           like my impedence, but is the gov’ner in?</p>
       </sp>
 
-      <sp>
+      <sp who="#L0605_F6">
         <speaker>Agatha.</speaker>
         <p> The—the—governor?</p>
       </sp>
 
-      <sp>
+      <sp who="#L0605_M5">
         <speaker>Pawkins.</speaker>
         <p> Yes, the gov’ner here; not my gov’ner—no, bless you, he’s been under hatches long ago. I
           want Mr.—I’ve got his letter somewhere—Mr.—he’s something in the fancy soap line.</p>
       </sp>
 
-      <sp>
+      <sp who="#L0605_F6">
         <speaker>Agatha.</speaker>
         <p> Oh, my papa—Mr. De Windsor.</p>
       </sp>
 
-      <sp>
+      <sp who="#L0605_M5">
         <speaker>Pawkins.</speaker>
         <p> Him’s it! So he’s your papa, is he? Well then, I say you do him credit: I say it afore
           your face, and I wouldn’t mind saying it behind your back.</p>
       </sp>
 
-      <sp>
+      <sp who="#L0605_F6">
         <speaker>Agatha.</speaker>
         <p> (aside) A singularly vulgar person! but ’pa does pick up such strange friends in the
           City.</p>
       </sp>
 
-      <sp>
+      <sp who="#L0605_M5">
         <speaker>Pawkins.</speaker>
         <p> Before we go any further I should like to settle one pint: I’ve picked up this here
           gimcrack thing on the staircase. (producing bracelet from his coat pocket)</p>
       </sp>
 
-      <sp>
+      <sp who="#L0605_F6">
         <speaker>Agatha.</speaker>
         <p> (r., catches it from his hand) My aunt’s bracelet! My dear sir, a thousand—thousand
           thanks!</p>
@@ -593,7 +638,7 @@
 
       <stage>Exit AGATHA, C.</stage>
 
-      <sp>
+      <sp who="#L0605_M5">
         <speaker>Pawkins.</speaker>
         <p> A thousand, thousand thanks!—my dear sir, too! Uncommon pretty behaved young person!—a
           child will take a deal of whipping afore it gets up to that pint of good manners. A
@@ -606,77 +651,77 @@
 
       <stage type="entrance">Re-enter DE WINDSOR, C., and down, L.</stage>
 
-      <sp>
+      <sp who="#L0605_M1">
         <speaker>De W.</speaker>
         <p> (l.) Really a charming scene! most exhilarating! (sees Pawkins, r.) Eh! why, he’s here
           at last! Pawkins, the persecuted! (shakes his hand violently) My dear sir, I’m delighted
           to see you.</p>
       </sp>
 
-      <sp>
+      <sp who="#L0605_M5">
         <speaker>Pawkins.</speaker>
         <p> (wringing his hand) Thank you; but draw it a little mild.</p>
       </sp>
 
-      <sp>
+      <sp who="#L0605_M1">
         <speaker>De W.</speaker>
         <p> (l.) Mr. Pawkins, you are one of the men I like.</p>
       </sp>
 
-      <sp>
+      <sp who="#L0605_M5">
         <speaker>Pawkins.</speaker>
         <p> Same to you, sir. You are Mr. De—de—fancy soap line, sir?</p>
       </sp>
 
-      <sp>
+      <sp who="#L0605_M1">
         <speaker>De W.</speaker>
         <p> De Windsor.</p>
       </sp>
 
-      <sp>
+      <sp who="#L0605_M5">
         <speaker>Pawkins.</speaker>
         <p> Well then, sir, two minutes ago I told the young ’oman she was a credit to you, and now
           I don’t mind telling you you’re a credit to the young ’oman.</p>
       </sp>
 
-      <sp>
+      <sp who="#L0605_M1">
         <speaker>De W.</speaker>
         <p> (aside) Somewhat coarse; but frank and genial.</p>
       </sp>
 
-      <sp>
+      <sp who="#L0605_M5">
         <speaker>Pawkins.</speaker>
         <p> You’ve sent me a sort o’ note, sir, as the saying is, asking me to come here; but it
           strikes me there’s some mistake.</p>
       </sp>
 
-      <sp>
+      <sp who="#L0605_M1">
         <speaker>De W.</speaker>
         <p> Not in the least, Mr. Pawkins, not in the least. Take a seat.</p>
       </sp>
 
-      <sp>
+      <sp who="#L0605_M5">
         <speaker>Pawkins.</speaker>
         <p> (sits, r. after putting down umbrella, r.) That’s all right then. At all events I’ve
           brought the tongs in my pocket.</p>
       </sp>
 
-      <sp>
+      <sp who="#L0605_M1">
         <speaker>De W.</speaker>
         <p> The tongs?—rather a singular proceeding!—and the shovel?</p>
       </sp>
 
-      <sp>
+      <sp who="#L0605_M5">
         <speaker>Pawkins.</speaker>
         <p> No; get out with you—I mean the curling irons.</p>
       </sp>
 
-      <sp>
+      <sp who="#L0605_M1">
         <speaker>De W.</speaker>
         <p> (coldly) I—I begin to comprehend; Mr. Pawkins, you are a hair-dresser.</p>
       </sp>
 
-      <sp>
+      <sp who="#L0605_M5">
         <speaker>Pawkins.</speaker>
         <p> No; that’s where you put your foot in it. I ain’t a regular hair-dresser for a nobby
           concern like this. I cuts a little in the common way, but I am chiefly in the easy shaving
@@ -685,76 +730,76 @@
 
       <pb n="10"/>
 
-      <sp>
+      <sp who="#L0605_M1">
         <speaker>De W.</speaker>
         <p> I understand, you keep a hair-cutting saloon frequented by gentlemen only.</p>
       </sp>
 
-      <sp>
+      <sp who="#L0605_M5">
         <speaker>Pawkins.</speaker>
         <p> I calls it a shop, sir, but if you calls it a s’loon it’s werry kind on you, and I’m
           much obliged, and if you calls my customers gen’leman, they ought to be werry much obliged
           to you too.</p>
       </sp>
 
-      <sp>
+      <sp who="#L0605_M1">
         <speaker>De W.</speaker>
         <p> (aside) Ha! I wish he had been a little higher in the social scale—but no matter. His
           wrongs have been extraordinary, society owes him an extraordinary reparation. Mr. Pawkins,
           I trust Mrs. Pawkins and the children are quite well?</p>
       </sp>
 
-      <sp>
+      <sp who="#L0605_M5">
         <speaker>Pawkins.</speaker>
         <p> Mrs. Pawkins and the children—ha, ha, ha! Them’s as well as can be expected.</p>
       </sp>
 
-      <sp>
+      <sp who="#L0605_M1">
         <speaker>De W.</speaker>
         <p> I see—a recent increase to the family.</p>
       </sp>
 
-      <sp>
+      <sp who="#L0605_M5">
         <speaker>Pawkins.</speaker>
         <p> Recent gammon! Why there ain’t no Mrs. Pawkins—there ain’t even a young un.</p>
       </sp>
 
-      <sp>
+      <sp who="#L0605_M1">
         <speaker>De W.</speaker>
         <p> Bless me! (aside) I’m sure Whitewash talked about small children.</p>
       </sp>
 
       <stage type="entrance">WHITEWASH runs in C. from L.</stage>
 
-      <sp>
+      <sp who="#L0605_M2">
         <speaker>White.</speaker>
         <p> Mr. De Windsor, sir—(aside) Egad! the rascal’s in full confab. Sir——(pushes himself
           between Pawkins and De Windsor, c.)</p>
       </sp>
 
-      <sp>
+      <sp who="#L0605_M5">
         <speaker>Pawkins.</speaker>
         <p> (r.) Why, I’m blest if here ain’t my professional gen’leman!</p>
       </sp>
 
-      <sp>
+      <sp who="#L0605_M1">
         <speaker>De W.</speaker>
         <p> (l.) Ah, sir, Mr. Whitewash is your true friend.</p>
       </sp>
 
-      <sp>
+      <sp who="#L0605_M5">
         <speaker>Pawkins.</speaker>
         <p> No mistake about that! No, Mr. Whitewash, I’m a poor man, but if there’s any way of
           shewing my gratitude——</p>
       </sp>
 
-      <sp>
+      <sp who="#L0605_M2">
         <speaker>White.</speaker>
         <p> (whispers) There’s an exceedingly cheap way. Make some excuse and take yourself off as
           fast as your legs can carry you.</p>
       </sp>
 
-      <sp>
+      <sp who="#L0605_M5">
         <speaker>Pawkins.</speaker>
         <p> Ah, he is indeed a friend! (crosses to c.) Look here, Mr. De——what’s your name? There I
           stud reading the bill of the Royal Victoria Theatre—something about Will Watch, the Bold
@@ -762,25 +807,25 @@
           umbrella!</p>
       </sp>
 
-      <sp>
+      <sp who="#L0605_M2">
         <speaker>White.</speaker>
         <p> Yes, yes, we know all about that, the story <pb n="11"/>is exceedingly plausible, and I
           have told it already, much better than you can, in the presence of this gentleman.</p>
       </sp>
 
-      <sp>
+      <sp who="#L0605_M5">
         <speaker>Pawkins.</speaker>
         <p> They lugs me about—they takes me off against my will.</p>
       </sp>
 
-      <sp>
+      <sp who="#L0605_M2">
         <speaker>White.</speaker>
         <p> Well, then, now indulge in the free exercise of your will, by taking yourself off.</p>
       </sp>
 
       <stage>(some of the COMPANY pass across at back of C. doors, from L. to R.)</stage>
 
-      <sp>
+      <sp who="#L0605_M5">
         <speaker>Pawkins.</speaker>
         <p> Stop a bit! though I mostly sticks to the easy shaving line, I’ve a mind as can soar to
           the higher branches. That ’ere head of hair is uncommon well got up, the one with the
@@ -789,12 +834,12 @@
 
       <stage>Exit, C., and off, R.</stage>
 
-      <sp>
+      <sp who="#L0605_M1">
         <speaker>De W.</speaker>
         <p> (l.) Exuberant—unsophisticated creature!</p>
       </sp>
 
-      <sp>
+      <sp who="#L0605_M2">
         <speaker>White.</speaker>
         <p> Oh, perfectly unsophisticated! I only wish he had not fixed on the only head dress in
           the room that gives a notion of positive value? No, no, I must not hesitate any longer.
@@ -806,17 +851,17 @@
           circumstances, what would you say?</p>
       </sp>
 
-      <sp>
+      <sp who="#L0605_M1">
         <speaker>De W.</speaker>
         <p> I should say that you were the most lying humbug I ever clapped eyes on.</p>
       </sp>
 
-      <sp>
+      <sp who="#L0605_M2">
         <speaker>White.</speaker>
         <p> Heyday! Why?</p>
       </sp>
 
-      <sp>
+      <sp who="#L0605_M1">
         <speaker>De W.</speaker>
         <p> Why, didn’t you stand up before the judge and jury, and bellow out your belief in that
           man’s immaculate virtue. Did you not clap your hand on your heart, and declare that our
@@ -829,52 +874,52 @@
 
       <pb n="12"/>
 
-      <sp>
+      <sp who="#L0605_M2">
         <speaker>White.</speaker>
         <p> But surely, you understand, my dear sir, that when one speaks professionally——</p>
       </sp>
 
-      <sp>
+      <sp who="#L0605_M1">
         <speaker>De W.</speaker>
         <p> Sir, no one has business to tell lies, professionally or not; a man should always speak
           what he thinks. I follow the dictates of my heart, and I always speak what I think; my
           heart is in my heart, and my heart is in my mouth.</p>
       </sp>
 
-      <sp>
+      <sp who="#L0605_M2">
         <speaker>White.</speaker>
         <p> What a complicated piece of anatomy you must be.</p>
       </sp>
 
-      <sp>
+      <sp who="#L0605_M1">
         <speaker>De W.</speaker>
         <p> I say, my heart is in my mouth.</p>
       </sp>
 
-      <sp>
+      <sp who="#L0605_M2">
         <speaker>White.</speaker>
         <p> Then I wish you would swallow it, and say no more about it.</p>
       </sp>
 
-      <sp>
+      <sp who="#L0605_M1">
         <speaker>De W.</speaker>
         <p> Yes, I dare say you think that a very good joke, but what I am going to tell you is no
           joke. If Pawkins is a thief, you shan’t have my daughter, and Tango shall.</p>
       </sp>
 
-      <sp>
+      <sp who="#L0605_M2">
         <speaker>White.</speaker>
         <p> Monstrous!</p>
       </sp>
 
-      <sp>
+      <sp who="#L0605_M1">
         <speaker>De W.</speaker>
         <p> Not at all, I give you my girl because I regard you as a noble defender of persecuted
           innocence; but if persecuted innocence turns out to be a low pilfering scoundrel, I
           naturally retract.</p>
       </sp>
 
-      <sp>
+      <sp who="#L0605_M2">
         <speaker>White.</speaker>
         <p> But, my dear, sir, the doctrine you so strangely maintain is diametrically opposed to
           the very principles of British jurisprudence. It is one of the high privileges of our
@@ -882,30 +927,30 @@
           allowed a professional defender in the courts of justice.</p>
       </sp>
 
-      <sp>
+      <sp who="#L0605_M1">
         <speaker>De W.</speaker>
         <p> Sir, it is one of the high privileges of our blessed country, and of several others,
           that a man need not give away his daughter where he don’t like.</p>
       </sp>
 
-      <sp>
+      <sp who="#L0605_M2">
         <speaker>White.</speaker>
         <p> But, sir, by virtue of my profession I am positively bound to——</p>
       </sp>
 
-      <sp>
+      <sp who="#L0605_M1">
         <speaker>De W.</speaker>
         <p> Well, I don’t say you’re not. But an honest man, sir, should have nothing to do with
           clients that don’t come into court with clean hands.</p>
       </sp>
 
-      <sp>
+      <sp who="#L0605_M2">
         <speaker>White.</speaker>
         <p> My dear Mr. De Windsor, borrow a little wisdom from your own business. If everybody had
           clean hands, what would become of the soap trade?</p>
       </sp>
 
-      <sp>
+      <sp who="#L0605_M1">
         <speaker>De W.</speaker>
         <p> Go, go, and defend every pickpocket, forger, coiner, housebreaker, in London. I don’t
           want to hinder you, I only say that I won’t give my daughter to a man<pb n="13"/> who
@@ -913,19 +958,19 @@
           the ends of justice.</p>
       </sp>
 
-      <sp>
+      <sp who="#L0605_M2">
         <speaker>White.</speaker>
         <p> Then, sir, I suppose, because he furthers the ends of justice, you would give your
           daughter to the hangman.</p>
       </sp>
 
-      <sp>
+      <sp who="#L0605_M1">
         <speaker>De W.</speaker>
         <p> (puzzled) Ahem! I shall not condescend to answer an argument so obviously sophistical. I
           only repeat what I said before. If Pawkins is a thief you sha’n’t have my daughter.</p>
       </sp>
 
-      <sp>
+      <sp who="#L0605_M2">
         <speaker>White.</speaker>
         <p> (aside) Reason is wasted on this old blockhead! I must try another tack. (aloud) Ah, you
           have passed nobly through the ordeal. Just to sound you I hinted at the remote possibility
@@ -936,7 +981,7 @@
 
       <stage>Exit, C., off L.</stage>
 
-      <sp>
+      <sp who="#L0605_M1">
         <speaker>De W.</speaker>
         <p> I’m sure he spoke of five small children! No; decidedly this legal morality won’t suit
           me. No, no—no barrister for me—decidedly a stockjobber!</p>
@@ -944,12 +989,12 @@
 
       <stage type="entrance">Enter THWAITES, C., from R.</stage>
 
-      <sp>
+      <sp who="#L0605_M4">
         <speaker>Thwaites.</speaker>
         <p> Please, sir, the parties which is in t’other room can’t get on without you.</p>
       </sp>
 
-      <sp>
+      <sp who="#L0605_M1">
         <speaker>De W.</speaker>
         <p> I’m coming! Bull and bears have the day!</p>
       </sp>
@@ -958,30 +1003,30 @@
 
       <stage type="entrance">Re-enter WHITEWASH, dragging PAWKINS by the collar, from L. C.</stage>
 
-      <sp>
+      <sp who="#L0605_M5">
         <speaker>Pawkins.</speaker>
         <p> (l.) Come now, I say, draw it mild! You’ll spile my best coat; I only took it out a
           purpose to come here.</p>
       </sp>
 
-      <sp>
+      <sp who="#L0605_M2">
         <speaker>White.</speaker>
         <p> (r.) Pawkins, we are alone—Pawkins, as your professional adviser, you are bound to tell
           me everything. Pawkins, when you came here, what was your intention?</p>
       </sp>
 
-      <sp>
+      <sp who="#L0605_M5">
         <speaker>Pawkins.</speaker>
         <p> Why, I com’d here in the hope of doing something in the way of business.</p>
       </sp>
 
-      <sp>
+      <sp who="#L0605_M2">
         <speaker>White.</speaker>
         <p> Business, indeed! Why, there were all the streets of London open to your ingenuity, and
           you must<pb n="14"/> pick out the residence of my father-in-law. (takes stage to r.)</p>
       </sp>
 
-      <sp>
+      <sp who="#L0605_M5">
         <speaker>Pawkins.</speaker>
         <p> (following him up) Well, I didn’t know it was your father-in-law—and if it is, what’s
           the hodds? This ’ere Mr.—summat in the fancy soap line, sends me a hinwite, and so I comes
@@ -990,58 +1035,58 @@
           (returns to c. of stage)</p>
       </sp>
 
-      <sp>
+      <sp who="#L0605_M2">
         <speaker>White.</speaker>
         <p> (aside) Perhaps the miserable wretch has commenced already. What have you been doing
           with yourself?</p>
       </sp>
 
-      <sp>
+      <sp who="#L0605_M5">
         <speaker>Pawkins.</speaker>
         <p> Why, I’ve been a looking at them silver gimcracks on the sideboard, and I says to
           myself—my eyes! if one of them five thingumbobs as don’t seem no use here belonged to
           me——</p>
       </sp>
 
-      <sp>
+      <sp who="#L0605_M2">
         <speaker>White.</speaker>
         <p> (aside) Unhappy train of thought! Allow me for a moment——(puts his hand in the tail
           pocket of Pawkins’s coat)</p>
       </sp>
 
-      <sp>
+      <sp who="#L0605_M5">
         <speaker>Pawkins.</speaker>
         <p> What are you about?</p>
       </sp>
 
-      <sp>
+      <sp who="#L0605_M2">
         <speaker>White.</speaker>
         <p> Professional! professional!</p>
       </sp>
 
-      <sp>
+      <sp who="#L0605_M5">
         <speaker>Pawkins.</speaker>
         <p> Well, I always heerd you lawyers was tidy uns for putting your hands in people’s
           pockets.</p>
       </sp>
 
-      <sp>
+      <sp who="#L0605_M2">
         <speaker>White.</speaker>
         <p> (pulls out tongs) What’s this? a spoon!</p>
       </sp>
 
-      <sp>
+      <sp who="#L0605_M5">
         <speaker>Pawkins.</speaker>
         <p> You’re a spoon yourself! It’s the tongs.</p>
       </sp>
 
-      <sp>
+      <sp who="#L0605_M2">
         <speaker>White.</speaker>
         <p> For a wonder he speaks the truth. Now mark, I’m your professional adviser, and I advise
           you to be off as soon as you can.</p>
       </sp>
 
-      <sp>
+      <sp who="#L0605_M5">
         <speaker>Pawkins.</speaker>
         <p> Well, I don’t mind; I’ve seen all there is to be seen, and it arn’t half so good as
           skittles. Between you and I, the gov’ner here seems to have laid out a precious sight of
@@ -1050,17 +1095,17 @@
 
       <stage type="entrance">Enter DE WINDSOR, R. C., and down, L.</stage>
 
-      <sp>
+      <sp who="#L0605_M2">
         <speaker>White.</speaker>
         <p> (r.) Go, cut short your moral reflections, and go! (pushing Pawkins towards c.)</p>
       </sp>
 
-      <sp>
+      <sp who="#L0605_M1">
         <speaker>De W.</speaker>
         <p> Why, Mr. Pawkins, what’s the cause of this singular hurry?</p>
       </sp>
 
-      <sp>
+      <sp who="#L0605_M5">
         <speaker>Pawkins.</speaker>
         <p> (returns to c.) Well, I don’t know; you see, I felt I was somehow in the way like.
           Nobody says nuffin to me, and I say nuffin to nobody.</p>
@@ -1068,50 +1113,50 @@
 
       <pb n="15"/>
 
-      <sp>
+      <sp who="#L0605_M2">
         <speaker>White.</speaker>
         <p> (r.) Besides, an affair of the most pressing importance.</p>
       </sp>
 
-      <sp>
+      <sp who="#L0605_M1">
         <speaker>De W.</speaker>
         <p> Very pressing, indeed! Humbug! You’ll stop supper, my dear Mr. Pawkins?</p>
       </sp>
 
-      <sp>
+      <sp who="#L0605_M5">
         <speaker>Pawkins.</speaker>
         <p> (c.) Oh, well, if there’s anything in the way o’ wittles a coming, that alters the view
           of the case.</p>
       </sp>
 
-      <sp>
+      <sp who="#L0605_M1">
         <speaker>De W.</speaker>
         <p> The supper will be served in silver plate,—in silver—in silver.</p>
       </sp>
 
-      <sp>
+      <sp who="#L0605_M5">
         <speaker>Pawkins.</speaker>
         <p> What, real silver? like that out there? Don’t bother yourself, gov’ner, I’ll stop.</p>
       </sp>
 
-      <sp>
+      <sp who="#L0605_M1">
         <speaker>De W.</speaker>
         <p> (aside) Ha! ha! I’ve tickled my trout!</p>
       </sp>
 
-      <sp>
+      <sp who="#L0605_M2">
         <speaker>White.</speaker>
         <p> (aside, r.) The old gent is playing against me, that’s certain.</p>
       </sp>
 
       <stage type="entrance">Re-enter THWAITES, C., with a tray of ices.</stage>
 
-      <sp>
+      <sp who="#L0605_M1">
         <speaker>De W.</speaker>
         <p> (l.) Thwaites!</p>
       </sp>
 
-      <sp>
+      <sp who="#L0605_M4">
         <speaker>Thwaites.</speaker>
         <p> (coming down l. c.) At your service, sir.</p>
       </sp>
@@ -1119,42 +1164,42 @@
       <stage>(THWAITES hands tray to PAWKINS, who first takes an ice, then a spoon, and eats during
         the following scene)</stage>
 
-      <sp>
+      <sp who="#L0605_M1">
         <speaker>De W.</speaker>
         <p> (drawing Thwaites aside, l.) You observe that person?</p>
       </sp>
 
-      <sp>
+      <sp who="#L0605_M4">
         <speaker>Thwaites.</speaker>
         <p> Yes, sir: I don’t think him much ’count, sir.</p>
       </sp>
 
-      <sp>
+      <sp who="#L0605_M1">
         <speaker>De W.</speaker>
         <p> If that man steals anything, you shall have a couple of sovereigns.</p>
       </sp>
 
-      <sp>
+      <sp who="#L0605_M4">
         <speaker>Thwaites.</speaker>
         <p> No!</p>
       </sp>
 
-      <sp>
+      <sp who="#L0605_M1">
         <speaker>De W.</speaker>
         <p> Spread out the plate as much as you can, give him every opportunity.</p>
       </sp>
 
-      <sp>
+      <sp who="#L0605_M2">
         <speaker>White.</speaker>
         <p> (r., beckons Thwaites to him, at back) Here, waiter!</p>
       </sp>
 
-      <sp>
+      <sp who="#L0605_M4">
         <speaker>Thwaites.</speaker>
         <p> (going to Whitewash at back, r. c.) Yes, sir!</p>
       </sp>
 
-      <sp>
+      <sp who="#L0605_M2">
         <speaker>White.</speaker>
         <p> If that fellow with the ice leaves the house without stealing anything, there’s a five
           pound note for you. (to Thwaites)</p>
@@ -1163,154 +1208,154 @@
       <stage>(DE WINDSOR walks round and round PAWKINS, with handkerchief dangling from his pocket,
         during dialogue)</stage>
 
-      <sp>
+      <sp who="#L0605_M4">
         <speaker>Thwaites.</speaker>
         <p> The deuce!</p>
       </sp>
 
-      <sp>
+      <sp who="#L0605_M2">
         <speaker>White.</speaker>
         <p> And do your best to keep the plate as much out of his reach as possible.</p>
       </sp>
 
       <pb n="16"/>
 
-      <sp>
+      <sp who="#L0605_M4">
         <speaker>Thwaites.</speaker>
         <p> Can’t be done, sir; can’t be done. Gov’ner orders the contrary.</p>
       </sp>
 
-      <sp>
+      <sp who="#L0605_M5">
         <speaker>Pawkins.</speaker>
         <p> I can’t make him out!</p>
       </sp>
 
-      <sp>
+      <sp who="#L0605_M2">
         <speaker>White.</speaker>
         <p> Here, Pawkins, my good fellow, how do you like your ice?</p>
       </sp>
 
-      <sp>
+      <sp who="#L0605_M5">
         <speaker>Pawkins.</speaker>
         <p> First rate! Beats the penny un’s all to shivers!</p>
       </sp>
 
-      <sp>
+      <sp who="#L0605_M2">
         <speaker>White.</speaker>
         <p> Ha! ha! But now you have finished it, you have no occasion for the spoon. (takes it)</p>
       </sp>
 
       <stage>(THWAITES on the other side takes empty glass from PAWKINS, and exit C.)</stage>
 
-      <sp>
+      <sp who="#L0605_M5">
         <speaker>Pawkins.</speaker>
         <p> I can’t make him out!</p>
       </sp>
 
-      <sp>
+      <sp who="#L0605_M2">
         <speaker>White.</speaker>
         <p> (aside) I’ll stick to him like a leech!</p>
       </sp>
 
       <stage type="entrance">Enter AGATHA, C. from L. and down R.</stage>
 
-      <sp>
+      <sp who="#L0605_F6">
         <speaker>Agatha.</speaker>
         <p> (r.) Mr. Whitewash, have you forgotten your engagement, the first quadrille? Oh, fie!
           fie! they are waiting!</p>
       </sp>
 
-      <sp>
+      <sp who="#L0605_M2">
         <speaker>White.</speaker>
         <p> (r. c.) I’m sure I beg a thousand pardons, but you see just at this moment——(pockets the
           spoon)</p>
       </sp>
 
-      <sp>
+      <sp who="#L0605_M5">
         <speaker>Pawkins.</speaker>
         <p> I can’t make any on ’em out!</p>
       </sp>
 
-      <sp>
+      <sp who="#L0605_M2">
         <speaker>White.</speaker>
         <p> (whispers Pawkins) If so much as a salt-spoon is missing you are a dead man!</p>
       </sp>
 
       <stage>Exeunt WHITEWASH and AGATHA, C., off L.</stage>
 
-      <sp>
+      <sp who="#L0605_M5">
         <speaker>Pawkins.</speaker>
         <p> (r. c.) I say, gov’ner, about our young friend here; when he’s on the spree like, as he
           is now, don’t you think he’s a bit cranky? Do you think all’s right here? (touching his
           head) If I behaved like that to my young woman, wouldn’t there be a row neither.</p>
       </sp>
 
-      <sp>
+      <sp who="#L0605_M1">
         <speaker>De W.</speaker>
         <p> (aside) Ha! the card table! A trap I didn’t think of! I say, Mr. Pawkins, have you any
           objection to a hand at cards?</p>
       </sp>
 
-      <sp>
+      <sp who="#L0605_M5">
         <speaker>Pawkins.</speaker>
         <p> Not a bit on it.</p>
       </sp>
 
-      <sp>
+      <sp who="#L0605_M1">
         <speaker>De W.</speaker>
         <p> Of course you play ecarté?</p>
       </sp>
 
-      <sp>
+      <sp who="#L0605_M5">
         <speaker>Pawkins.</speaker>
         <p> Of course I don’t; I never heerd on it.</p>
       </sp>
 
-      <sp>
+      <sp who="#L0605_M1">
         <speaker>De W.</speaker>
         <p> Well—cribbage?</p>
       </sp>
 
-      <sp>
+      <sp who="#L0605_M5">
         <speaker>Pawkins.</speaker>
         <p> I knows nuffin of cribbage.</p>
       </sp>
 
-      <sp>
+      <sp who="#L0605_M1">
         <speaker>De W.</speaker>
         <p> Picquet?</p>
       </sp>
 
-      <sp>
+      <sp who="#L0605_M5">
         <speaker>Pawkins.</speaker>
         <p> Eh?</p>
       </sp>
 
-      <sp>
+      <sp who="#L0605_M1">
         <speaker>De W.</speaker>
         <p> Picquet?</p>
       </sp>
 
       <pb n="17"/>
 
-      <sp>
+      <sp who="#L0605_M5">
         <speaker>Pawkins.</speaker>
         <p> Pick hay? I knows nuffin about pick hay; I was werry nigh being sent to pick oakum!</p>
       </sp>
 
-      <sp>
+      <sp who="#L0605_M1">
         <speaker>De W.</speaker>
         <p> Well, what shall we play? Suppose we cut for a shilling a game.</p>
       </sp>
 
-      <sp>
+      <sp who="#L0605_M5">
         <speaker>Pawkins.</speaker>
         <p> A shilling! Come! I was thinking of a fourpenny bit; but there’s nothing like pluck. I
           say, I hopes you keeps your temper when you loses, for I give you fair warning, I shan’t
           let you go till I’ve got something out of you.</p>
       </sp>
 
-      <sp>
+      <sp who="#L0605_M1">
         <speaker>De W.</speaker>
         <p> Affected candour! but it won’t do.</p>
       </sp>
@@ -1319,7 +1364,7 @@
         WINDSOR, L. and PAWKINS, R., and they begin cutting cards—staking money as they
         play.</stage>
 
-      <sp>
+      <sp who="#L0605_M5">
         <speaker>Pawkins.</speaker>
         <p> Well, you are a going it, you are—(plays again—aside) Gov’ner can’t be coming the old
           soldier! Oh, it’s a do and no mistake! I must have a eye on this old bird.</p>
@@ -1327,33 +1372,33 @@
 
       <stage type="entrance">Enter WHITEWASH, C. from L.</stage>
 
-      <sp>
+      <sp who="#L0605_M2">
         <speaker>White.</speaker>
         <p> Thank heaven I’m free again! What! cards! the devil! (steals up to table, and whispers
           to Pawkins) Lose!</p>
       </sp>
 
-      <sp>
+      <sp who="#L0605_M5">
         <speaker>Pawkins.</speaker>
         <p> Eh?</p>
       </sp>
 
-      <sp>
+      <sp who="#L0605_M2">
         <speaker>White.</speaker>
         <p> (r.) Lose, I say.</p>
       </sp>
 
-      <sp>
+      <sp who="#L0605_M5">
         <speaker>Pawkins.</speaker>
         <p> (c.) Hang it. I have!</p>
       </sp>
 
-      <sp>
+      <sp who="#L0605_M1">
         <speaker>De W.</speaker>
         <p> (sees Whitewash—aside) Oh! I see, the rascal’s had his cue.</p>
       </sp>
 
-      <sp>
+      <sp who="#L0605_M5">
         <speaker>Pawkins.</speaker>
         <p> There, I shan’t play any more; you’ve got your three bob, and if ever you catch me at it
           again, it’ll do you good. (rises and goes forward—aside to Whitewash) One good turn
@@ -1361,14 +1406,14 @@
           cards, he’s a downy ’un, he is!</p>
       </sp>
 
-      <sp>
+      <sp who="#L0605_M1">
         <speaker>De W.</speaker>
         <p> Let me see. (rings money on table) No! nothing wrong! I have not caught him yet!</p>
       </sp>
 
       <stage type="entrance">Enter THWAITES, C. from L., announcing.</stage>
 
-      <sp>
+      <sp who="#L0605_M4">
         <speaker>Thwaites.</speaker>
         <p> (c.) Mr. Ferguson.</p>
       </sp>
@@ -1376,111 +1421,111 @@
       <stage type="entrance">Enter FERGUSON, C. from L., DE WINDSOR goes up to C. door to meet
         him.</stage>
 
-      <sp>
+      <sp who="#L0605_M5">
         <speaker>Pawkins.</speaker>
         <p> It’s a gent as knows more about me than I want. (goes across to r. for umbrella)</p>
       </sp>
 
       <pb n="18"/>
 
-      <sp>
+      <sp who="#L0605_M2">
         <speaker>White.</speaker>
         <p> (r. c.) Ah! the owner of some stray pocket handkerchief! Make a rush at the door!</p>
       </sp>
 
-      <sp>
+      <sp who="#L0605_M5">
         <speaker>Pawkins.</speaker>
         <p> (crosses to l. d.) Bolted, by jingo!</p>
       </sp>
 
-      <sp>
+      <sp who="#L0605_M2">
         <speaker>White.</speaker>
         <p> This last stroke will finish me!</p>
       </sp>
 
-      <sp>
+      <sp who="#L0605_M1">
         <speaker>De W.</speaker>
         <p> (coming down, r. c.) Allow me, my dear, Mr. Ferguson, to introduce you to my intended
           son-in-law.</p>
       </sp>
 
-      <sp>
+      <sp who="#L0605_M3">
         <speaker>Fergus.</speaker>
         <p> (down r.) Sir, allow me to congwatulate you on your vewy interwesting position.</p>
       </sp>
 
-      <sp>
+      <sp who="#L0605_M1">
         <speaker>De W.</speaker>
         <p> Mr. Whitewash, sir, is one of the brightest ornaments of the legal profession, and this
           gentleman is one of his most ornamental clients.</p>
       </sp>
 
-      <sp>
+      <sp who="#L0605_M3">
         <speaker>Fergus.</speaker>
         <p> Vewy much delighted. (bowing to Pawkins) Heyday! Here is certainly a party who has taken
           me by surpwise.</p>
       </sp>
 
-      <sp>
+      <sp who="#L0605_M1">
         <speaker>De W.</speaker>
         <p> What do you mean?</p>
       </sp>
 
-      <sp>
+      <sp who="#L0605_M3">
         <speaker>Fergus.</speaker>
         <p> I mean that a certain party, a fwiend of mine, found that party (pointing to Pawkins) in
           his cupboard, at thwee o’clock in the morning.</p>
       </sp>
 
-      <sp>
+      <sp who="#L0605_M1">
         <speaker>De W.</speaker>
         <p> (r. c.) All right! You are quite sure of your man?</p>
       </sp>
 
-      <sp>
+      <sp who="#L0605_M3">
         <speaker>Fergus.</speaker>
         <p> (r.) Oh, perfectly! (aside) Seeing that the fwiend was myself. (goes up a little)</p>
       </sp>
 
-      <sp>
+      <sp who="#L0605_M1">
         <speaker>De W.</speaker>
         <p> (rubs his hands) Capital! capital! Tango wins the day!</p>
       </sp>
 
-      <sp>
+      <sp who="#L0605_M2">
         <speaker>White.</speaker>
         <p> (seated, l. c.) Father-in-law looks pleased—that’s unlucky. (rises)</p>
       </sp>
 
-      <sp>
+      <sp who="#L0605_M1">
         <speaker>De W.</speaker>
         <p> Come here, my orator! come here, my Cicero! I’ve a bit of news for you;—Tango will have
           my daughter—ha, ha, ha! (pokes Whitewash in the ribs)</p>
       </sp>
 
-      <sp>
+      <sp who="#L0605_M2">
         <speaker>White.</speaker>
         <p> (l. c.) What, sir! you, a man of heart, who have given your word to me——</p>
       </sp>
 
-      <sp>
+      <sp who="#L0605_M1">
         <speaker>De W.</speaker>
         <p> Yes, if Pawkins turned out all right; but he don’t—he don’t—he don’t—ha, ha, ha!</p>
       </sp>
 
-      <sp>
+      <sp who="#L0605_M2">
         <speaker>White.</speaker>
         <p> Mr. De Windsor, allow me to remark, that an innocent man’s character is not to be
           impugned without sufficient ground. Come here, Pawkins. (whispers to him, “Brazen it out”)
           Pawkins, a malignant slanderer says you are fishy, but you ain’t, are you?</p>
       </sp>
 
-      <sp>
+      <sp who="#L0605_M5">
         <speaker>Pawkins.</speaker>
         <p> (l.) Not as I am aware on.</p>
       </sp>
 
-      <sp>
+      <sp who="#L0605_M1">
         <speaker>De W.</speaker>
         <p> Then, most respectable Mr. Pawkins, what were you doing in a certain cupboard at three
           o’clock in the morning?</p>
@@ -1488,7 +1533,7 @@
 
       <pb n="19"/>
 
-      <sp>
+      <sp who="#L0605_M2">
         <speaker>White.</speaker>
         <p> Ha! the case is desperate, and a desperate effort must be made.</p>
 
@@ -1498,68 +1543,68 @@
         <p>Listen, all parties present.</p>
       </sp>
 
-      <sp>
+      <sp who="#L0605_M1">
         <speaker>De W.</speaker>
         <p> (r. c.) Well, talk away, and make the best of it.</p>
       </sp>
 
-      <sp>
+      <sp who="#L0605_M2">
         <speaker>White.</speaker>
         <p> Look at the face of this worthy man. Pawkins, get into the dock! (places him on chair,
           l., and turns another chair round to lean on, &amp;c.) Examine every lineament.</p>
       </sp>
 
-      <sp>
+      <sp who="#L0605_M5">
         <speaker>Pawkins.</speaker>
         <p> (on chair, l.) Come, come, you do make one look such a fool!</p>
       </sp>
 
-      <sp>
+      <sp who="#L0605_M2">
         <speaker>White.</speaker>
         <p> (l. c.) Believe me, this excellent man is one of those rare natures that are seldom to
           be found. Ask the independent electors of Marylebone, whom they would place in the
           van.</p>
       </sp>
 
-      <sp>
+      <sp who="#L0605_M5">
         <speaker>Pawkins.</speaker>
         <p> I’ve been in the wan!</p>
       </sp>
 
-      <sp>
+      <sp who="#L0605_M2">
         <speaker>White.</speaker>
         <p> Whom they would place in the van as the staunchest champion of their interests. They
           will answer Pawkins! Ask the poor——(takes tongs from his own pocket)</p>
       </sp>
 
-      <sp>
+      <sp who="#L0605_M5">
         <speaker>Pawkins.</speaker>
         <p> Them’s my tongs!</p>
       </sp>
 
-      <sp>
+      <sp who="#L0605_M2">
         <speaker>White.</speaker>
         <p> (throws them on table) Ask the poor—the suffering poor—whom they regard as their kindest
           benefactor. They will answer—Pawkins. (aside to him) Cry!</p>
       </sp>
 
-      <sp>
+      <sp who="#L0605_M5">
         <speaker>Pawkins.</speaker>
         <p> I can’t! I say, ain’t you pitching it raither too strong!</p>
       </sp>
 
-      <sp>
+      <sp who="#L0605_M2">
         <speaker>White.</speaker>
         <p> They say we were found in a cupboard at three o’clock in the morning. Well, we admit the
           trivial fact, we were in the cupboard.</p>
       </sp>
 
-      <sp>
+      <sp who="#L0605_M5">
         <speaker>Pawkins.</speaker>
         <p> No, no, no!</p>
       </sp>
 
-      <sp>
+      <sp who="#L0605_M2">
         <speaker>White.</speaker>
         <p> Though we have every high virtue, we are still but human; we have hearts not altogether
           unsusceptible to female beauty. (Ferguson comes forward, r., in great agitation) Do you
@@ -1567,17 +1612,17 @@
           of one of the fair sex.</p>
       </sp>
 
-      <sp>
+      <sp who="#L0605_M3">
         <speaker>Fergus.</speaker>
         <p> But, sir, there is a husband——</p>
       </sp>
 
-      <sp>
+      <sp who="#L0605_M5">
         <speaker>Pawkins.</speaker>
         <p> Now he’s done it!</p>
       </sp>
 
-      <sp>
+      <sp who="#L0605_M2">
         <speaker>White.</speaker>
         <p> A husband! Do you call that a husband? As Mr. Justice Blesswell remarked in the great
           divorce case of Martyr <emph>v.</emph> Bangwife—such a wretch is not worthy the name of a
@@ -1585,39 +1630,39 @@
           in his notions of crinoline! (bangs chair during speech, then turns it and sits)</p>
       </sp>
 
-      <sp>
+      <sp who="#L0605_M5">
         <speaker>Pawkins.</speaker>
         <p> He’ll smash that ere chair!</p>
       </sp>
 
-      <sp>
+      <sp who="#L0605_M3">
         <speaker>Fergus.</speaker>
         <p> But, sir, I’m the husband——</p>
       </sp>
 
-      <sp>
+      <sp who="#L0605_M2">
         <speaker>White.</speaker>
         <p> (rises and goes to Pawkins) That’s awkward!</p>
       </sp>
 
-      <sp>
+      <sp who="#L0605_M5">
         <speaker>Pawkins.</speaker>
         <p> Yes; it is awkward!</p>
       </sp>
 
-      <sp>
+      <sp who="#L0605_M2">
         <speaker>White.</speaker>
         <p> But we won’t flinch! Mr. De Windsor, I must say your society is not the most select.
           (pulls chair from under Pawkins)</p>
       </sp>
 
-      <sp>
+      <sp who="#L0605_M3">
         <speaker>Fergus.</speaker>
         <p> (crossing to l., and collaring Pawkins) And now, you villain—you destwoyer of my
           domestic peace—what have you to say for yourself?</p>
       </sp>
 
-      <sp>
+      <sp who="#L0605_M5">
         <speaker>Pawkins.</speaker>
         <p> Why, I cannot say nuffing, while you goes on choking me like that! (Ferguson lets go)
           That’s better! Well, then, I didn’t have no thoughts about Mrs. Ferguson—Mrs. Ferguson
@@ -1627,13 +1672,13 @@
           shame—Ferguson!</p>
       </sp>
 
-      <sp>
+      <sp who="#L0605_M4">
         <speaker>Thwaites.</speaker>
         <p> (comes forward, l.) So, Mr. Pawkins, it was Mrs. Ferguson’s Jemima, was it? Are you
           aware, sir, that I pay my attentions in that quarter? Are you aware that I’m Thwaites?</p>
       </sp>
 
-      <sp>
+      <sp who="#L0605_M5">
         <speaker>Pawkins.</speaker>
         <p> Are you, indeed?—who says you ain’t? There ain’t no advantage in being Thwaites, as I
           sees—I don’t want to be Thwaites. You’re one of them swells as takes out a young ’oman on
@@ -1645,53 +1690,53 @@
 
       <stage>(AGATHA and DE WINDSOR come forward, R.)</stage>
 
-      <sp>
+      <sp who="#L0605_F6">
         <speaker>Agatha.</speaker>
         <p> (r.) Really, papa, this is an extremely vulgar scene, at our party.</p>
       </sp>
 
       <pb n="21"/>
 
-      <sp>
+      <sp who="#L0605_M1">
         <speaker>De W.</speaker>
         <p> (r. c.) Disgustingly so, my dear—but join the guests, and make the best of it. (Agatha
           retires up)</p>
       </sp>
 
-      <sp>
+      <sp who="#L0605_M2">
         <speaker>White.</speaker>
         <p> (coming forward, c.) Well, father-in-law, I hope you are satisfied now!</p>
       </sp>
 
-      <sp>
+      <sp who="#L0605_M1">
         <speaker>De W.</speaker>
         <p> Mr. Pawkins, I have an apology to make to you—you’ll think it very absurd—but I—I—ha,
           ha!—I scarcely know how to express it—but I actually took you for a thief!</p>
       </sp>
 
-      <sp>
+      <sp who="#L0605_M5">
         <speaker>Pawkins.</speaker>
         <p> (l. c.) You ain’t the first, else I shouldn’t have been tried at the Hold Bailey this
           morning. Look ye—a fellow chucks a watch into my umbrella——</p>
       </sp>
 
-      <sp>
+      <sp who="#L0605_M2">
         <speaker>White.</speaker>
         <p> (c.) Yes, yes, we know all about that; besides, you are completely cleared.</p>
       </sp>
 
-      <sp>
+      <sp who="#L0605_M1">
         <speaker>De W.</speaker>
         <p> (r.) Perfectly; your character is as cloudless as a fine day in July, and I am about to
           give you the most convincing proof of my confidence.</p>
       </sp>
 
-      <sp>
+      <sp who="#L0605_M5">
         <speaker>Pawkins.</speaker>
         <p> (aside) He’s going to ask me to shave him!</p>
       </sp>
 
-      <sp>
+      <sp who="#L0605_M1">
         <speaker>De W.</speaker>
         <p> (crossing to c.) I have long been looking out for a man of indubitable integrity, to act
           as my cashier; I keep nearly the whole of my fortune locked up in a strong box, so I may
@@ -1699,76 +1744,76 @@
           them)</p>
       </sp>
 
-      <sp>
+      <sp who="#L0605_M2">
         <speaker>White.</speaker>
         <p> (c., intercepting) No! no! what are you about? A thief!—a common pickpocket!</p>
       </sp>
 
-      <sp>
+      <sp who="#L0605_M1">
         <speaker>De W.</speaker>
         <p> (r.) Ha, ha! victory!—you admit it, do you?</p>
       </sp>
 
       <stage>(retires to GUESTS, R.)</stage>
 
-      <sp>
+      <sp who="#L0605_M2">
         <speaker>White.</speaker>
         <p> (aside) Caught, by all that’s unlucky!</p>
       </sp>
 
-      <sp>
+      <sp who="#L0605_M5">
         <speaker>Pawkins.</speaker>
         <p> (l.) Come, I say, master, this ’ere won’t do: when I looks black, you makes me white;
           and when I’m whitened, you makes me black: I’ve a jolly good mind to——</p>
       </sp>
 
-      <sp>
+      <sp who="#L0605_M2">
         <speaker>White.</speaker>
         <p> Oh, go to the devil!</p>
       </sp>
 
       <stage type="entrance">Enter THWAITES, C. from L., with a letter.</stage>
 
-      <sp>
+      <sp who="#L0605_M4">
         <speaker>Thwaites.</speaker>
         <p> (to Whitewash) Please, sir, a knowin’ party, as calls himself your clerk, has brought
           this. (gives letter to Whitewash; Whitewash opens letter at first with indifference, but
           proceeds to read with eagerness; De Windsor, Agatha, and Ferguson come forward, r.)</p>
       </sp>
 
-      <sp>
+      <sp who="#L0605_M1">
         <speaker>De W.</speaker>
         <p> (r. c.) My dear, this matter is settled; you shall be the wife of Mr. Tango.</p>
       </sp>
 
       <pb n="22"/>
 
-      <sp>
+      <sp who="#L0605_F6">
         <speaker>Agatha.</speaker>
         <p> (r.) La, papa! how shocking!</p>
       </sp>
 
-      <sp>
+      <sp who="#L0605_M3">
         <speaker>Fergus.</speaker>
         <p> (coming down r.) I beg your pardon; you don’t mean Tom Tango, of the Stock Exchange?</p>
       </sp>
 
-      <sp>
+      <sp who="#L0605_M1">
         <speaker>De W.</speaker>
         <p> Yes, I do.</p>
       </sp>
 
-      <sp>
+      <sp who="#L0605_F6">
         <speaker>Agatha.</speaker>
         <p> Then you haven’t heard the news: he was declared a defaulter this vewy afternoon.</p>
       </sp>
 
-      <sp>
+      <sp who="#L0605_M1">
         <speaker>De W.</speaker>
         <p> The devil! One swindles—another tells lies: where can I find an honest man?</p>
       </sp>
 
-      <sp>
+      <sp who="#L0605_M2">
         <speaker>White.</speaker>
         <p> (rises, having been seated while reading letter) Here! (leading Pawkins forward) Look at
           that face—and read that letter? (gives it) The sum and substance of it is this: A
@@ -1776,18 +1821,18 @@
           that he threw the watch into Pawkins’ umbrella.</p>
       </sp>
 
-      <sp>
+      <sp who="#L0605_M5">
         <speaker>Pawkins.</speaker>
         <p> Does he? Then there’s some good in the waggerbone after all.</p>
       </sp>
 
-      <sp>
+      <sp who="#L0605_M1">
         <speaker>De W.</speaker>
         <p> Well,—as a barrister who twaddles, is better than a stock jobber who waddles—here’s my
           daughter. (joins the hands of Whitewash and Agatha)</p>
       </sp>
 
-      <sp>
+      <sp who="#L0605_M5">
         <speaker>Pawkins.</speaker>
         <p> Ah! werry good! Jines hands and gives the paternal blessing! All right and proper! But
           wot good comes to me on it all? It strikes me you are a rum lot—you are. There’s this ’ere
@@ -1800,12 +1845,12 @@
           He’s retained for the defence.</p>
       </sp>
 
-      <sp>
+      <sp who="#L0605_M2">
         <speaker>White.</speaker>
         <p> That won’t do! I haven’t had a refresher.</p>
       </sp>
 
-      <sp>
+      <sp who="#L0605_M5">
         <speaker>Pawkins.</speaker>
         <p> Haven’t you? Then take your refresher there—(pointing to Audience) that’s my refresher.
           Give me them ’ere parties on my side, and hang me if I’ll want any defence at all!</p>

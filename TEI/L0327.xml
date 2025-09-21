@@ -3,7 +3,7 @@
 <teiHeader>
 <fileDesc>
 <titleStmt>
-<title n="howstout">How stout you're getting!</title>
+<title n="howstout" type="main">How stout you're getting!</title>
 <author>Morton, John Maddison </author>
 <respStmt>
 <resp>Curated by</resp>
@@ -12,33 +12,45 @@
 </titleStmt>
 <publicationStmt>
 <distributor>Privately published on the Lacy Website</distributor>
-<idno>L0327</idno>
-</publicationStmt>
+
+<idno type="lae">L0327</idno>
+<idno type='URI' xml:base='https://dracor.org'>LAE</idno></publicationStmt>
 <sourceDesc>
-<bibl type="digital">Retagged from Docx produced by Abby from a Vpp Pdf
-edition</bibl>
-<bibl type="source" status="TEI_1" n="22.12" corresp="nic:N16013"
-><author>Morton, John Maddison</author><title n="howstoutyouregetting">How Stout
-You're Getting!</title><title type="sub">A Farce in one Act</title><extent>22 pp
-(UM copy: 460 - 482)<measure type="pp" quantity="8"/><measure type="txWords"
-quantity="6819"/><measure type="spWords" quantity="5310"/><measure
-type="stWords" quantity="1509"/></extent><eventName notAfter="1855"
-type="firstPerf"><date resp="nicoll" when="1855-07-16"/><name>Royal Princess's
-Theatre</name><date resp="source" when="1855-07-16">16 July 1855</date>.
-Licenced for performance (BL ms LCP_52954_BB) </eventName><listRef>
-<ref target="http://victorian.nuigalway.ie/modx/assets/docs/pdf/Vol22xiiHow.pdf"
->VPP_PDF</ref>
-</listRef><listRef type="localCopies">
-<ref>Vol22/L0327/L0327-um.pdf</ref>
-<ref>Vol22/L0327/L0327-vpp.pdf</ref>
-<ref>Vol22/L0327/pages</ref>
-<ref>Vol22/L0327/Vol22xiiHow.pdf</ref>
-</listRef></bibl>
+<bibl type="printSource" n="22.12"><author>Morton, John Maddison</author><title
+type="main" n="howstoutyouregetting">How Stout You're Getting!</title><title
+type="sub">A Farce in one Act</title><extent>22 pp (UM copy: 460 - 482)<measure
+type="pp" quantity="8"/>
+<measure type="spCount" quantity="277"/>
+<measure type="spvCount" quantity="0"/>
+<measure type="txWords" quantity="6806"/>
+<measure type="spWords" quantity="5310"/>
+<measure type="stWords" quantity="1496"/>
+</extent>
+<title level="s"> Lacy's Acting Edition, volume 22, No. 0327</title><idno
+type="nic">N16013</idno><idno type="vpp">Vol22xiiHow</idno></bibl>
+<bibl type="digitalSource" n="copytext"><ref
+target="https://lb42.github.io/Lacy/Source/VPP/L0327-vpp.pdf">LoB from
+VPP</ref><ref target="local:Vol22/L0327/L0327-vpp.pdf"/><ref
+target="local:Vol22/L0327/Vol22xiiHow.pdf"/></bibl>
+<bibl type="digitalSource"><ref
+target="https://babel.hathitrust.org/cgi/pt?id=mdp.39015053749829&amp;seq=460 "
+>UM from HT</ref><ref target="local:Vol22/L0327/L0327-um.pdf"/></bibl>
+<bibl type="digitalSource" n="copytext"><ref
+target="https://lb42.github.io/Lacy/L0327.html">TEI</ref></bibl>
+<listEvent>
+<event type="LCP" when="1862-07-03" where="Princess">
+<desc>Licence sent 3 July for performance at the Princess’s 16 July 1855. </desc>
+<bibl type="msSource">BL ms LCP_52954.BB</bibl>
+</event>
+<event type="firstPerf" when="1855-07-16" source="textNic" where="Princess's">
+<desc>Premiered at Royal Princess's Theatre 16 July 1855</desc>
+</event>
+</listEvent>
 </sourceDesc>
 </fileDesc>
 <profileDesc>
 <textClass>
-<!--S_1_Farce_F._FARCE-->
+
 <catRef target="#sizeS"/>
 <catRef target="#act1"/>
 <catRef target="nic:F."/>
@@ -46,8 +58,50 @@ Licenced for performance (BL ms LCP_52954_BB) </eventName><listRef>
 <term>FARCE</term>
 </keywords>
 </textClass>
+<particDesc>
+<listPerson>
+<person xml:id="L0327_M1">
+<persName type="role">Mr Plummy.</persName>
+<persName type="spkr" n="122">Plummy.</persName>
+</person>
+<person xml:id="L0327_M2">
+<persName type="role">Doctor Dulcet</persName>
+<persName type="spkr" n="1">Doctor Dulcet.</persName>
+<persName type="spkr" n="1">Doctor.</persName>
+<persName type="spkr" n="21">Doctor D.</persName>
+</person>
+<person xml:id="L0327_M3">
+<persName type="role">Cousin George</persName>
+<persName type="spkr" n="1">Cousin George.</persName>
+<persName type="spkr" n="25">George.</persName>
+</person>
+<person xml:id="L0327_M4">
+<persName type="role">Mr. Slide</persName>
+<persName type="spkr" n="28">Slide.</persName>
+</person>
+<person xml:id="L0327_M5">
+<persName type="role">Joe</persName>
+<persName type="spkr" n="11">Joe.</persName>
+</person>
+<person xml:id="L0327_F6">
+<persName type="role">Mrs Plummy</persName>
+<persName type="spkr" n="57">Mrs. P.</persName>
+<persName type="spkr" n="3">Mrs. P.</persName>
+</person>
+<person xml:id="L0327_F7">
+<persName type="role">Margery</persName>
+<persName type="spkr" n="9">Marg.</persName>
+</person>
+<person xml:id="L0327_M8">
+<persName type="role">[Men]</persName>
+<persName type="spkr" n="1">Men</persName></person>
+
+</listPerson>
+</particDesc>
 </profileDesc>
 <revisionDesc>
+<change when="2025-09-10">Hand edit multi @who : two men?</change>
+<change when="2025-09-07">Metadata updated from new catalogue</change>
 <change when="2024-10-10">Header enriched</change>
 <change when="2024-08-30">Header confected</change>
 </revisionDesc>
@@ -86,35 +140,35 @@ an        Omnibus,        </title><title>A        Game of Romps,</ti
 <head>CHARACTERS</head>
 <castItem>
 <role gender="M">Mr Plummy.</role>
-<actor sex="M">Mr. David Fisher.</actor>
+<actor ana="#M">Mr. David Fisher.</actor>
 <note>https://en.wikipedia.org/wiki/David_Nunn_Fisher</note>
 </castItem>
 <castItem>
 <role gender="M">Doctor Dulcet</role>
-<actor sex="M">Mr. Raymond</actor>
+<actor ana="#M">Mr. Raymond</actor>
 </castItem>
 <castItem>
 <role gender="M">Cousin George</role>
-<actor sex="M">Mr. G. Everett.</actor>
+<actor ana="#M">Mr. G. Everett.</actor>
 </castItem>
 <castItem>
 <role gender="M">Mr. Slide</role>
 <roleDesc>Professor of gymnastics, fencing, dancing, etc.</roleDesc>
-<actor sex="M">Mr. H. Saker.</actor>
+<actor ana="#M">Mr. H. Saker.</actor>
 </castItem>
 <castItem>
 <role gender="M">Joe</role>
 <roleDesc>Shop boy to Plummy</roleDesc>
-<actor sex="M">Mr. T. Collins.</actor>
+<actor ana="#M">Mr. T. Collins.</actor>
 </castItem>
 <castItem>
 <role gender="F">Mrs Plummy</role>
-<actor sex="F">Miss Murray.</actor>
+<actor ana="#F">Miss Murray.</actor>
 </castItem>
 <castItem>
 <role gender="F">Margery</role>
 <roleDesc>Maid of all work,</roleDesc>
-<actor sex="F">Miss Clifford</actor>
+<actor ana="#F">Miss Clifford</actor>
 </castItem>
 </castList>
 </performance>
@@ -145,22 +199,22 @@ through the door C. Chairs, tables, &amp;c. Doors R. and L ; packages of
 medicines, and medicine bottles piled about.</stage>
 <stage>MR. and Mrs. Plummy seated at breakfast. </stage>
 <stage>Bell heard.</stage>
-<sp>
+<sp who="#L0327_F6">
 <speaker>Mrs. P.</speaker>
 <p> There is the shop bell, my dear.</p>
 </sp>
-<sp>
+<sp who="#L0327_M1">
 <speaker>Plummy.</speaker>
 <p> I hear it. I never sat down to any meal in my life, breakfast, dinner, tea,
 or supper, that that bell didn't instantly begin to ring.</p>
 </sp>
 <stage>Enter Joe from C., with a pill box in his hand.</stage>
-<sp>
+<sp who="#L0327_M5">
 <speaker>Joe.</speaker>
 <p> Please, sir, here's Mrs. Jones, the laundress, says you sent her the wrong
 pills yesterday.</p>
 </sp>
-<sp>
+<sp who="#L0327_M1">
 <speaker>Plummy.</speaker>
 <p>
 <stage>(flinging down his knife and fork.)</stage> There ! Did you ever hear a
@@ -169,61 +223,61 @@ what sort of pills she takes! They're all the same price. Begone, sir, and
 interrupt me again at your peril! <stage>(Joe runs out.)</stage> Now my dear,
 another egg, eh ? Some more ham ? Humph!</p>
 </sp>
-<sp>
+<sp who="#L0327_F6">
 <speaker>Mrs. P.</speaker>
 <p> No more, thank you, Henry, I've done. <stage>(folds up her
 napkin.)</stage></p>
 </sp>
-<sp>
+<sp who="#L0327_M1">
 <speaker>Plummy.</speaker>
 <p> Done breakfast! Why you've hardly begun!</p>
 </sp>
-<sp>
+<sp who="#L0327_F6">
 <speaker>Mrs. P. </speaker>
 <p>I can't waste two hours over so insignificant a meal as you do.</p>
 </sp>
-<sp>
+<sp who="#L0327_M1">
 <speaker>Plummy.</speaker>
 <p> What do you mean by wasting two hours? I'm eating the whole time. The fact
 is, Mary Matilda, you <pb n="4"/> never do eat! You think you do, but you don't;
 you only nibble—I'll be bound you didn't notice that these eggs were boiled as
 hard as Derbyshire petrifactions!</p>
 </sp>
-<sp>
+<sp who="#L0327_F6">
 <speaker>Mrs. P.</speaker>
 <p> I confess I did not.</p>
 </sp>
-<sp>
+<sp who="#L0327_M1">
 <speaker>Plummy.</speaker>
 <p> I'll trouble you for the butter.</p>
 </sp>
-<sp>
+<sp who="#L0327_F6">
 <speaker>Mrs. P.</speaker>
 <p> You took the last bit just now.</p>
 </sp>
-<sp>
+<sp who="#L0327_M1">
 <speaker>Plummy.</speaker>
 <p> I suppose there's more in the house ?</p>
 </sp>
-<sp>
+<sp who="#L0327_F6">
 <speaker>Mrs. P.</speaker>
 <p> No, the man forgot to call yesterday.</p>
 </sp>
-<sp>
+<sp who="#L0327_M1">
 <speaker>Plummy.</speaker>
 <p> No butter ! I don't mean to butter myself, I mean flatter myself, but really
 do think that my little comforts deserve a little more attention.</p>
 </sp>
-<sp>
+<sp who="#L0327_F6">
 <speaker>Mrs. P.</speaker>
 <p> Here's a piece more ham, dear.</p>
 </sp>
-<sp>
+<sp who="#L0327_M1">
 <speaker>Plummy.</speaker>
 <p> Ham! You know I don't care much about ham. <stage>(sticking his fork into a
 large slice of ham, and beginning to eat it. )</stage></p>
 </sp>
-<sp>
+<sp who="#L0327_F6">
 <speaker>Mrs. P.</speaker>
 <p>
 <stage>(laying her hand on his arm just as he is raising a piece of ham to his
@@ -231,70 +285,70 @@ mouth.)</stage> Now, listen to me, Henry dear; if you indulge so much in the
 pleasures of the table, and take so little exercise, you'll very soon become so
 stout that you'll be quite an object !</p>
 </sp>
-<sp>
+<sp who="#L0327_M1">
 <speaker>Plummy.</speaker>
 <p> Stout! Me! Ha! ha! ha! I like that! <stage>(trying again to eat.
 )</stage></p>
 </sp>
-<sp>
+<sp who="#L0327_F6">
 <speaker>Mrs. P.</speaker>
 <p>
 <stage>(stops him.)</stage> And then, Henry dear, I shan't be able to endure the
 sight of you; for if there is one thing I have a greater horror of than another,
 its <hi>a little fat man !</hi></p>
 </sp>
-<sp>
+<sp who="#L0327_M1">
 <speaker>Plummy.</speaker>
 <p> My dearest Mary Matilda, you're wrong ! I happen to be getting thinner every
 day !</p>
 </sp>
-<sp>
+<sp who="#L0327_F6">
 <speaker>Mrs. P.</speaker>
 <p> How can you say so ? Haven't I been obliged to let out every one of your
 waistcoats ? But put on your hat, and we'll go out and take a walk.</p>
 </sp>
-<sp>
+<sp who="#L0327_M1">
 <speaker>Plummy.</speaker>
 <p> A walk! You forget the well-known proverb: " After breakfast walk a mile." I
 mean " Sit a mile," I should say " Sit awhile."</p>
 </sp>
-<sp>
+<sp who="#L0327_F6">
 <speaker>Mrs. P. </speaker>
 <p>But I particularly want you to go shopping with me.</p>
 </sp>
-<sp>
+<sp who="#L0327_M1">
 <speaker>Plummy.</speaker>
 <p> You really must excuse me ! Going shopping is a thing I detest! The girls
 look at me so ! 'Pon my life they do ; but there's cousin George, he'll go with
 you —he don't mind the girls looking at him—he rather likes it.</p>
 </sp>
 <pb n="5"/>
-<sp>
+<sp who="#L0327_F6">
 <speaker>Mrs. P.</speaker>
 <p> Henry, remember what I said just now! Without exercise you're sure to be
 ill! You <hi>never</hi> leave the house except to<hi> dine out.</hi></p>
 </sp>
-<sp>
+<sp who="#L0327_M1">
 <speaker>Plummy.</speaker>
 <p> Mary Matilda, there are certain sacred duties we owe to society, and dining
 out is one of 'em.</p>
 </sp>
-<sp>
+<sp who="#L0327_F6">
 <speaker>Mrs. P.</speaker>
 <p> Nay, Henry, you must come with me. I have seen such a love of a riding
 habit, and so cheap.</p>
 </sp>
-<sp>
+<sp who="#L0327_M1">
 <speaker>Plummy.</speaker>
 <p> Of course, of course! But considering that you're not in the habit of
 riding, I don't see how you can possibly want a riding habit.</p>
 </sp>
-<sp>
+<sp who="#L0327_F6">
 <speaker>Mrs. P.</speaker>
 <p> Why for our trip to Switzerland, of course; you've promised to take me for
 the last three years.</p>
 </sp>
-<sp>
+<sp who="#L0327_M1">
 <speaker>Plummy.</speaker>
 <p>
 <stage>(aside.)</stage> There's the old story beginning again
@@ -304,13 +358,13 @@ way to Switzer­land when you can see Mont Blanc without stirring out of
 Piccadilly, and have a comfortable chair to sit on into the bargain ! That's the
 sort of travelling <hi>I like.</hi></p>
 </sp>
-<sp>
+<sp who="#L0327_F6">
 <speaker>Mrs. P.</speaker>
 <p>
 <stage>(nettled.)</stage> In short, sir, you <hi>refuse</hi> to take me? Very
 well, Mr. P !</p>
 </sp>
-<sp>
+<sp who="#L0327_M1">
 <speaker>Plummy.</speaker>
 <p>
 <stage>(taking a lump of sugar out of basin, and putting it into his
@@ -319,182 +373,182 @@ Switzerland, did'nt I take you last week to the waxwork, and did'nt I show you
 William Tell, with the identical bow and arrow with which he shot his little
 boy's head off—-I mean something or other off his little boy's head ?</p>
 </sp>
-<sp>
+<sp who="#L0327_F6">
 <speaker>Mrs. P.</speaker>
 <p> Yes, yes! Come, Henry, when shall we start ? <stage>(taking his arm,
 coaxingly.)</stage> This day week ?</p>
 </sp>
-<sp>
+<sp who="#L0327_M1">
 <speaker>Plummy.</speaker>
 <p> This day week! I've business! Important business to attend to.</p>
 </sp>
-<sp>
+<sp who="#L0327_F6">
 <speaker>Mrs. P.</speaker>
 <p> What business ?</p>
 </sp>
-<sp>
+<sp who="#L0327_M1">
 <speaker>Plummy.</speaker>
 <p> Why I've got to collect my pills! I mean bills.</p>
 </sp>
-<sp>
+<sp who="#L0327_F6">
 <speaker>Mrs. P.</speaker>
 <p> That's very soon done. You've only got to ask for your money.</p>
 </sp>
-<sp>
+<sp who="#L0327_M1">
 <speaker>Plummy.</speaker>
 <p> I beg your pardon! I've got to <hi>get</hi> the money after I <hi>have</hi>
 asked for it. Besides, I must consult our friend, Doctor Dulcet, about you.</p>
 </sp>
-<sp>
+<sp who="#L0327_F6">
 <speaker>Mrs. P.</speaker>
 <p> About me! I'm perfectly well!</p>
 </sp>
 <pb n="6"/>
-<sp>
+<sp who="#L0327_M1">
 <speaker>Plummy.</speaker>
 <p> Exactly! Then as the pure air of Pentonville agrees with you, why leave it ?
 Common sense suggests the question, Why leave it ?</p>
 </sp>
-<sp>
+<sp who="#L0327_F6">
 <speaker>Mrs. P.</speaker>
 <p> Pshaw!</p>
 </sp>
-<sp>
+<sp who="#L0327_M3">
 <speaker>Cousin George.</speaker>
 <p>
 <stage>(without.)</stage> This way! This way! Gently with the crockery!</p>
 </sp>
-<sp>
+<sp who="#L0327_M1">
 <speaker>Plummy.</speaker>
 <p> Crockery! What's the meaning of "Crockery?" <stage>(smash heard.)</stage>
 Oh, that's what it means!</p>
 </sp>
 <stage>Enter Cousin George at door C., followed by Two Men, carrying a large
 hamper, which they put down.</stage>
-<sp>
+<sp who="#L0327_M3">
 <speaker>George.</speaker>
 <p>
 <stage>(to Plummy, and holding out his hand.)</stage> A shilling!</p>
 </sp>
-<sp>
+<sp who="#L0327_M1">
 <speaker>Plummy.</speaker>
 <p>
 <stage>(bewildered, mechanically puts his hand into his pocket, and gives George
 money, who gives it to men.)</stage>
 </p>
 </sp>
-<sp>
+<sp who="#L0327_M8">
 <speaker>Men.</speaker>
 <p>
 <stage>(to George.)</stage> Thank your honour ! <stage>(The Men go out at C. and
 R.</stage></p>
 </sp>
-<sp>
+<sp who="#L0327_M1">
 <speaker>Plummy.</speaker>
 <p>
 <stage>(to George.)</stage> Thank <hi>your</hi> honour! Considering the shilling
 came out of <hi>my</hi> pocket, I think he might have thanked my honour ! But
 what does all this mean ?</p>
 </sp>
-<sp>
+<sp who="#L0327_M3">
 <speaker>George.</speaker>
 <p> Why, it means that as Mrs. Brittle, round the corner, couldn't pay your
 little account for medicines, I took it out in crockery—such a bargain!
 Thirty-nine dozen soup-plates, seventeen tureens, and a salad-bowl— think of
 that!</p>
 </sp>
-<sp>
+<sp who="#L0327_M1">
 <speaker>Plummy.</speaker>
 <p> Well, 'pon my life, Mrs. Brittle is a cool sort of a person. She paid my
 last account with forty-seven dozen pie-plates, and a tea-pot. Never mind, I'll
 be even with her; I'll go this moment and order the handsomest dessert service
 she's got in her shop, and pay her out in pills.</p>
 </sp>
-<sp>
+<sp who="#L0327_F6">
 <speaker>Mrs. P.</speaker>
 <p> Dont! Poor woman, she's a large family. <stage>(puts on her bonnet and
 shawl.)</stage> By-the-bye, Cousin George, you havn't breakfasted ?</p>
 </sp>
-<sp>
+<sp who="#L0327_M3">
 <speaker>George.</speaker>
 <p> Never mind! Are you going out, Cousin ?</p>
 </sp>
-<sp>
+<sp who="#L0327_F6">
 <speaker>Mrs. P.</speaker>
 <p> Yes, when Mr. Plummy's ready; he's only been two hours over his breakfast,
 that's all!</p>
 </sp>
-<sp>
+<sp who="#L0327_M3">
 <speaker>George.</speaker>
 <p> For shame, Plummy—by-the-bye, how stout <pb n="7"/>you're getting!
 <stage>(to Mrs. Plummy.)</stage> I needn't say how delighted I should feel if
 you would accept my arm.</p>
 </sp>
-<sp>
+<sp who="#L0327_M1">
 <speaker>Plummy.</speaker>
 <p> Of course she will, and thank you into the bargain. <stage>(aside.)</stage>
 And so shall I. I wouldn't be with a cousin in the house for all the world;
 cousins are such easy, good-natured, useful creatures—poor devils !</p>
 </sp>
-<sp>
+<sp who="#L0327_F6">
 <speaker>Mrs. P.</speaker>
 <p> Perhaps you will condescend to oblige me by walking as far as Mr. Buffer's ?
 <stage>(to Plummy.)</stage></p>
 </sp>
-<sp>
+<sp who="#L0327_M1">
 <speaker>Plummy.</speaker>
 <p> Buffer ! Buffer ! What Buffer ? <stage>(crossing C.</stage></p>
 </sp>
-<sp>
+<sp who="#L0327_F6">
 <speaker>Mrs. P.</speaker>
 <p> Why the great Railway Director.</p>
 </sp>
-<sp>
+<sp who="#L0327_M1">
 <speaker>Plummy.</speaker>
 <p> Yes, of course. I know the Buffer you mean. And what am I to say to the
 great Buffer ?</p>
 </sp>
-<sp>
+<sp who="#L0327_F6">
 <speaker>Mrs. P.</speaker>
 <p> Why ask him for the situation you promised to obtain for Cousin George.</p>
 </sp>
-<sp>
+<sp who="#L0327_M3">
 <speaker>George.</speaker>
 <p> I'm in no hurry, cousin—on the contrary.</p>
 </sp>
-<sp>
+<sp who="#L0327_M1">
 <speaker>Plummy.</speaker>
 <p> You hear, he's in no hurry—on the contrary.</p>
 </sp>
-<sp>
+<sp who="#L0327_F6">
 <speaker>Mrs. P.</speaker>
 <p> But I am : the appointment has been promised for the last three months.</p>
 </sp>
-<sp>
+<sp who="#L0327_M1">
 <speaker>Plummy.</speaker>
 <p> Well, I'll go : I'll jump into an omnibus directly.</p>
 </sp>
-<sp>
+<sp who="#L0327_F6">
 <speaker>Mrs. P.</speaker>
 <p> You'd better walk—it'll do you good. You've no idea how stout you're
 getting!</p>
 </sp>
-<sp>
+<sp who="#L0327_M3">
 <speaker>George.</speaker>
 <p> You are, indeed; everybody says the same thing : go where I will, I've only
 to mention your name, and the universal remark is "how stout he's getting!"</p>
 </sp>
-<sp>
+<sp who="#L0327_F6">
 <speaker>Mrs. P.</speaker>
 <p> Ha ! ha ! Well, good bye, you idle fellow!</p>
 </sp>
-<sp>
+<sp who="#L0327_M3">
 <speaker>George.</speaker>
 <p> Ta-ta, Plummy!</p>
 </sp>
 <stage rend="alignRight">[Exeunt Mrs. Plummy and George, C. </stage>
 <stage>Enter Margery, L. H., and beginning to clearaway breakfast.</stage>
-<sp>
+<sp who="#L0327_M1">
 <speaker>Plummy.</speaker>
 <p> Capital fellow, George; if I get him this situation, I shall feel his loss
 acutely : he manages my business, writes my letters, collects my debts, takes my
@@ -502,34 +556,34 @@ wife out; in short, I shouldn't know what to do without him. Oh ! our new
 servant of all work : I'll give her a lesson in boiling eggs! Come here!
 <stage>(louder.)</stage> Come here!</p>
 </sp>
-<sp>
+<sp who="#L0327_F7">
 <speaker>Marg.</speaker>
 <p> Did you speak, sir ?</p>
 </sp>
 <pb n="8"/>
-<sp>
+<sp who="#L0327_M1">
 <speaker>Plummy.</speaker>
 <p> Speak! Yes, I rather think I did! Where did you come from ?</p>
 </sp>
-<sp>
+<sp who="#L0327_F7">
 <speaker>Marg.</speaker>
 <p>Eh ? I'm rather hard of hearing, sir.</p>
 </sp>
-<sp>
+<sp who="#L0327_M1">
 <speaker>Plummy.</speaker>
 <p>
 <stage>(shouting.)</stage> Where did you come from ?</p>
 </sp>
-<sp>
+<sp who="#L0327_F7">
 <speaker>Marg.</speaker>
 <p> Straight up from the kitchen, sir!</p>
 </sp>
-<sp>
+<sp who="#L0327_M1">
 <speaker>Plummy.</speaker>
 <p> She's a deafy! Fourteen guineas a year, with tea and sugar, to a deafy ! If
 I give her warning, she won't hear it.</p>
 </sp>
-<sp>
+<sp who="#L0327_M1">
 <speaker>Plummy.</speaker>
 <p>
 <stage>(shouting.)</stage> I shall want—oh, what's the use of speaking to her!
@@ -538,23 +592,23 @@ pigeon at two o'clock, with plenty of bread sauce." — There ! <stage>(giving
 Margery the paper.)</stage> Well, there—don't you see ?
 <stage>(shouting.)</stage></p>
 </sp>
-<sp>
+<sp who="#L0327_F7">
 <speaker>Marg.</speaker>
 <p> No ! 'Tain't a C—it's a Hay! <stage>(reading the paper.)</stage></p>
 </sp>
-<sp>
+<sp who="#L0327_M1">
 <speaker>Plummy.</speaker>
 <p> A Hay ! <stage>(pointing in dignified manner towards door L. H.)</stage>
 Quit my sight! <stage>(shouting.)</stage></p>
 </sp>
-<sp>
+<sp who="#L0327_F7">
 <speaker>Marg.</speaker>
 <p> Oh yes, sir, I'll be all right, 'cause I'll get the housemaid to read it to
 me. <stage>(as she goes out C. spelling the paper.)</stage> " A, r, o,—r, o, a,
 s, t,—roast, p, i, g,—pig"—oh ! a roast pig—very well, sir, very well. <stage
 rend="alignRight">[Exit door L. H.</stage></p>
 </sp>
-<sp>
+<sp who="#L0327_M1">
 <speaker>Plummy.</speaker>
 <p> Phew! how very sultry it is, to be sure. <stage>(sitting down in an easy
 chair.)</stage> The first inventor of easy chairs deserves to be immortalised:
@@ -564,7 +618,7 @@ to call on the great Buffer. <stage>(yawning again, and ensconcing himself in
 the chair.)</stage> Then, then I've got to—<stage>(very sleepy.)</stage>
 to—thirty-nine dozen soup plates—" p, i, g,—pig."</p>
 </sp>
-<sp>
+<sp who="#L0327_M2">
 <speaker>Doctor Dulcet.</speaker>
 <p>
 <stage>(without.)</stage> At home ! Of course he is. When does he ever stir out,
@@ -572,17 +626,17 @@ I should like to know ? <stage>(Enters door C.)</stage> I shall find him fast
 asleep in his easy chair, I'll be bound. <stage>(seeing Plummy.)</stage> I
 thought so!</p>
 </sp>
-<sp>
+<sp who="#L0327_M1">
 <speaker>Plummy.</speaker>
 <p>
 <stage>(asleep.)</stage> Seventeen tureens,
 "va-ri-ety."<stage>(singing.</stage></p>
 </sp>
-<sp>
+<sp who="#L0327_M2">
 <speaker>Doctor D.</speaker>
 <p> Plummy ! Plummy, I say !</p>
 </sp>
-<sp>
+<sp who="#L0327_M1">
 <speaker>Plummy.</speaker>
 <p> Eh ? What ? Ah, Doctor, glad to see you. <stage>(pretending to write
 hurriedly.)</stage> I was just making up my accounts—7 and 18, 25—25 and 14, 36
@@ -590,158 +644,158 @@ hurriedly.)</stage> I was just making up my accounts—7 and 18, 25—25 and 14,
 n="9"/>pooh! I defy any man to make up his accounts with such a pen as this
 !</p>
 </sp>
-<sp>
+<sp who="#L0327_M2">
 <speaker>Doctor D.</speaker>
 <p> now, what is it ? You sent for me. Ain't you well ? <stage>(feels his
 pulse.)</stage></p>
 </sp>
-<sp>
+<sp who="#L0327_M1">
 <speaker>Plummy.</speaker>
 <p> Perfectly.</p>
 </sp>
-<sp>
+<sp who="#L0327_M2">
 <speaker>Doctor D.</speaker>
 <p> And Mrs. Plummy ?</p>
 </sp>
-<sp>
+<sp who="#L0327_M1">
 <speaker>Plummy.</speaker>
 <p> Never was better.</p>
 </sp>
-<sp>
+<sp who="#L0327_M2">
 <speaker>Doctor D.</speaker>
 <p> Then what do you want ?</p>
 </sp>
-<sp>
+<sp who="#L0327_M1">
 <speaker>Plummy.</speaker>
 <p> A favour ! Listen : <stage>(looking about him.)</stage> Mrs. Plummy is
 slightly insane! <stage>(rising.)</stage></p>
 </sp>
-<sp>
+<sp who="#L0327_M2">
 <speaker>Doctor D.</speaker>
 <p> Insane!</p>
 </sp>
-<sp>
+<sp who="#L0327_M1">
 <speaker>Plummy.</speaker>
 <p> Don't be alarmed : only upon one point, and that one point is
 Switzerland!</p>
 </sp>
-<sp>
+<sp who="#L0327_M2">
 <speaker>Doctor D.</speaker>
 <p> I see. She wants to go there; well, it would do her a deal of good.</p>
 </sp>
-<sp>
+<sp who="#L0327_M1">
 <speaker>Plummy.</speaker>
 <p> I know it would; but I want you to persuade her it would do her a deal of
 harm.</p>
 </sp>
-<sp>
+<sp who="#L0327_M2">
 <speaker>Doctor D.</speaker>
 <p> I shall do no such thing. Besides, it would be a capital thing for you.
 You've no idea how stout you're getting ! Take my advice, put a knapsack on your
 back, walk through Switzerland, and you'll come home a different man.</p>
 </sp>
-<sp>
+<sp who="#L0327_M1">
 <speaker>Plummy.</speaker>
 <p> My dear doctor, I never should come back at all. Walk through Switzerland! I
 should just as soon think of jumping off the end of Hungerford pier, and
 swimming to Calcutta; besides, I've urgent and important business to detain me
 in town.</p>
 </sp>
-<sp>
+<sp who="#L0327_M2">
 <speaker>Doctor D.</speaker>
 <p> Laziness! Sheer idleness ! Hark ye, Plummy, what's your age ?</p>
 </sp>
-<sp>
+<sp who="#L0327_M1">
 <speaker>Plummy.</speaker>
 <p> Twenty-six.</p>
 </sp>
-<sp>
+<sp who="#L0327_M2">
 <speaker>Doctor D.</speaker>
 <p> What's your height ?</p>
 </sp>
-<sp>
+<sp who="#L0327_M1">
 <speaker>Plummy.</speaker>
 <p> Five feet seven.</p>
 </sp>
-<sp>
+<sp who="#L0327_M2">
 <speaker>Doctor D.</speaker>
 <p> And what's your weight ?</p>
 </sp>
-<sp>
+<sp who="#L0327_M1">
 <speaker>Plummy.</speaker>
 <p> Well, the last time I was weighed, it was about ten stone.</p>
 </sp>
-<sp>
+<sp who="#L0327_M2">
 <speaker>Doctor D.</speaker>
 <p> And now it's about thirteen.</p>
 </sp>
-<sp>
+<sp who="#L0327_M1">
 <speaker>Plummy.</speaker>
 <p> Thirteen! Pooh ! no such thing!</p>
 </sp>
-<sp>
+<sp who="#L0327_M2">
 <speaker>Doctor D.</speaker>
 <p> I hope not, for when a little man, like you, reaches that weight, there's no
 stopping him.</p>
 </sp>
-<sp>
+<sp who="#L0327_M1">
 <speaker>Plummy.</speaker>
 <p> Go along !</p>
 </sp>
-<sp>
+<sp who="#L0327_M2">
 <speaker>Doctor D.</speaker>
 <p> I'm serious! You've probably noticed a species of vegetable they call a
 pumpkin ?</p>
 </sp>
-<sp>
+<sp who="#L0327_M1">
 <speaker>Plummy.</speaker>
 <p> Yes; I saw a colossal specimen of it yesterday, in Covent Garden Market.</p>
 </sp>
-<sp>
+<sp who="#L0327_M2">
 <speaker>Doctor D.</speaker>
 <p> Ha! ha! Well, that's what you'll come to —you'll become a human pumpkin!</p>
 </sp>
-<sp>
+<sp who="#L0327_M1">
 <speaker>Plummy.</speaker>
 <p>
 <stage>(trying to laugh.)</stage> Ha ! ha ! what a funny fellow you are!</p>
 </sp>
-<sp>
+<sp who="#L0327_M2">
 <speaker>Doctor D.</speaker>
 <p> But that's not the worst of it. Tell me, do you value your domestic
 happiness ?</p>
 </sp>
-<sp>
+<sp who="#L0327_M1">
 <speaker>Plummy.</speaker>
 <p> Of course I do.</p>
 </sp>
-<sp>
+<sp who="#L0327_M2">
 <speaker>Doctor D.</speaker>
 <p> Then take more exercise. Is Mrs. Plummy attached to you ?</p>
 </sp>
-<sp>
+<sp who="#L0327_M1">
 <speaker>Plummy.</speaker>
 <p> Devotedly!</p>
 </sp>
-<sp>
+<sp who="#L0327_M2">
 <speaker>Doctor D.</speaker>
 <p> Then take more exercise. Walk out with your wife, instead of falling asleep
 at home, or she'll find one who will—some cousin, perhaps, <stage>(goes L. H.
 and up.</stage></p>
 </sp>
-<sp>
+<sp who="#L0327_M1">
 <speaker>Plummy.</speaker>
 <p> Cousin ! <stage>(aside.)</stage> He said cousin !</p>
 </sp>
-<sp>
+<sp who="#L0327_M2">
 <speaker>Doctor D.</speaker>
 <p> Now I've done, so good bye.</p>
 </sp>
-<sp>
+<sp who="#L0327_M1">
 <speaker>Plummy.</speaker>
 <p> Stop ! I want you to explain.</p>
 </sp>
-<sp>
+<sp who="#L0327_M2">
 <speaker>Doctor D.</speaker>
 <p> I've said quite enough ; if you won't take the hint, it's your fault, and
 not mine. So, as I said before, if you value your domestic happiness, take more
@@ -749,7 +803,7 @@ exercise—walk, run, ride, dance, I don't care what, only keep under thirteen
 stone, and, above all, remember the pumpkin !      <stage>  [Exit        door
 C.</stage></p>
 </sp>
-<sp>
+<sp who="#L0327_M1">
 <speaker>Plummy.</speaker>
 <p> Well, but—stop—oh, absurd! He's joking! and yet I don't like that allusion
 to the pumpkin at all. How people can say I'm getting stout, I can't imagine. I
@@ -777,12 +831,12 @@ pound more, and there'll be no stopping me ! <stage>(removes
 weights.)</stage></p>
 </sp>
 <stage>Enter Margery, R. H.</stage>
-<sp>
+<sp who="#L0327_F7">
 <speaker>Marg.</speaker>
 <p> Please, sir, here's Mr. Slide, the dancing-master, wants to see you.
 <stage>(goes out again, R. H.)</stage></p>
 </sp>
-<sp>
+<sp who="#L0327_M1">
 <speaker>Plummy.</speaker>
 <p> Slide! dancing-master! Thirteen stone all but a pound ! Then I am a little
 fat man, and Mary Matilda—bye-the-bye, even now she's gadding about the town
@@ -792,56 +846,56 @@ request, too—that's the delicious part of it—at my particular request—he! 
 </sp>
 <stage>Enter Slide from door R. ; he carries a small violin in a case; he is
 very stout; he also carries a large blue bag.</stage>
-<sp>
+<sp who="#L0327_M4">
 <speaker>Slide.</speaker>
 <p> Mr. Plummy, your most obedient.<stage>(Putting himself in a position, and
 bowing lowly.</stage></p>
 </sp>
-<sp>
+<sp who="#L0327_M1">
 <speaker>Plummy.</speaker>
 <p>
 <stage>(looks at him, goes to him, stands alongside of him, and measures their
 respective heights and figures.)</stage>
 </p>
 </sp>
-<sp>
+<sp who="#L0327_M4">
 <speaker>Slide.</speaker>
 <p>
 <stage>(very much astonished at the proceeding.)</stage> What a very peculiar
 proceeding!</p>
 </sp>
-<sp>
+<sp who="#L0327_M1">
 <speaker>Plummy.</speaker>
 <p>
 <stage>(aside.)</stage> We're about the same age and height; but he'd weigh two
 of me, if not three !</p>
 </sp>
-<sp>
+<sp who="#L0327_M4">
 <speaker>Slide.</speaker>
 <p> I repeat, my name is Slide, Professor of Gymnastics, Fencing, Dancing—</p>
 </sp>
-<sp>
+<sp who="#L0327_M1">
 <speaker>Plummy.</speaker>
 <p>
 <stage>(quickly.)</stage> Oh! then you can dance ? I am delighted to hear
 it.</p>
 </sp>
-<sp>
+<sp who="#L0327_M4">
 <speaker>Slide.</speaker>
 <p> Oh yes—at least I could before I unfortunately got so stout. <stage>(Plummy
 looks serious.)</stage> I rent a small cottage of yours at Islington, and I've
 looked in to pay my rent.</p>
 </sp>
-<sp>
+<sp who="#L0327_M1">
 <speaker>Plummy.</speaker>
 <p> You walked, of course ? <stage>(significantly.)</stage></p>
 </sp>
-<sp>
+<sp who="#L0327_M4">
 <speaker>Slide.</speaker>
 <p> Walk ! <stage>(sighing.)</stage> Look at me ! <stage>(crosses L.
 H.</stage></p>
 </sp>
-<sp>
+<sp who="#L0327_M1">
 <speaker>Plummy.</speaker>
 <p>
 <stage>(aside.)</stage> I wonder how much he does weigh ? Pray, take a seat, Mr.
@@ -858,32 +912,32 @@ happily with Mrs. Slide, it's very clear that I've nothing to fear.
 <stage>(aloud.)</stage> I beg to apologize for not asking after Mrs. Slide, the
 little Slides. I presume there is a Mrs. Slide and—</p>
 </sp>
-<sp>
+<sp who="#L0327_M4">
 <speaker>Slide.</speaker>
 <p>
 <stage>(with a deep sigh.)</stage> That's a tender point, sir- but, touching the
 re-papering the drawing-room.</p>
 </sp>
-<sp>
+<sp who="#L0327_M1">
 <speaker>Plummy.</speaker>
 <p>
 <stage>(aside.)</stage> He says Mrs. Slide is a tender point.
 —<stage>(aloud.)</stage> She's quite well, I hope ?</p>
 </sp>
-<sp>
+<sp who="#L0327_M4">
 <speaker>Slide.</speaker>
 <p>
 <stage>(solemnly.)</stage> So do I, sir! She was perfectly salubrious when she
 left me.</p>
 </sp>
-<sp>
+<sp who="#L0327_M1">
 <speaker>Plummy.</speaker>
 <p> Left you! <stage>(aside.)</stage> Oh, probably gone down to Gravesend with
 the little Slides, for a day or two, to catch shrimps !
 <stage>(aloud.)</stage>—Ah ! you must be a very happy couple: I should say
 you're just the sort of man for a wo­man to be devotedly attached to.</p>
 </sp>
-<sp>
+<sp who="#L0327_M4">
 <speaker>Slide.</speaker>
 <p> Yes, Sarah was very fond of me before I got so stout! <stage>(Plummy looks
 serious again.)</stage> Ah! it was all my own fault, for if I had listened to
@@ -891,52 +945,52 @@ what Doctor Dulcet said —" Slide," says he to me, six months ago, " What's you
 age?" "Twenty-eight," says I. " What's your height ?" " Five feet six and a
 half." " What's your weight ?"</p>
 </sp>
-<sp>
+<sp who="#L0327_M1">
 <speaker>Plummy.</speaker>
 <p> " Fourteen stone and a half!" says you.</p>
 </sp>
-<sp>
+<sp who="#L0327_M4">
 <speaker>Slide.</speaker>
 <p> Oh dear, no! I was comparatively thin, then! I was only within one pound of
 thirteen stone!</p>
 </sp>
-<sp>
+<sp who="#L0327_M1">
 <speaker>Plummy.</speaker>
 <p>
 <stage>(aside.)</stage> Only one pound ! Just like me ! What a remarkably
 disagreeable coincidence !—Well ? <stage>(In a state of great fidget and
 anxiety.)</stage></p>
 </sp>
-<sp>
+<sp who="#L0327_M4">
 <speaker>Slide.</speaker>
 <p> Well. "Take more exercise," says he ; "Keep within thirteen stone," says he,
 "or there'll be no stopping you," says he.</p>
 </sp>
-<sp>
+<sp who="#L0327_M1">
 <speaker>Plummy.</speaker>
 <p> Goodness gracious! Did he make any absurd allusion to a species of vegetable
 called a pumpkin ?</p>
 </sp>
-<sp>
+<sp who="#L0327_M4">
 <speaker>Slide.</speaker>
 <p> And his words came true. Only look at me ! <stage>(with a deep
 sigh.)</stage></p>
 </sp>
-<sp>
+<sp who="#L0327_M1">
 <speaker>Plummy.</speaker>
 <p> But Mrs. Slide! <stage>(anxiously.)</stage> I say, Mrs. Slide!</p>
 </sp>
-<sp>
+<sp who="#L0327_M4">
 <speaker>Slide.</speaker>
 <p> Left me ! Left me !</p>
 </sp>
-<sp>
+<sp who="#L0327_M1">
 <speaker>Plummy.</speaker>
 <p>
 <stage>(horrified.)</stage> Left you! But not for ever? The mother of the little
 Slides could never leave you for ever!</p>
 </sp>
-<sp>
+<sp who="#L0327_M4">
 <speaker>Slide.</speaker>
 <p> No ! She promised to return when I became a thinner man ! But, alas ! the
 Rubicon was passed. I had suffered myself to exceed thirteen stone, and then, as
@@ -944,7 +998,7 @@ the doctor very truly said, there was no stopping me ! Only look at me ! See
 what I have come to, and in six short months ! What shall I be this time twelve
 months ?</p>
 </sp>
-<sp>
+<sp who="#L0327_M1">
 <speaker>Plummy.</speaker>
 <p>
 <stage>(aside with desperation.)</stage> What, indeed! Sixteen ounces more, and
@@ -960,11 +1014,11 @@ bag.)</stage> Boxing­gloves ! the very thing ! Put 'em on—put 'em on, directl
 <stage>(rubs nose.)</stage> Come on again! <stage>(gets another crack on
 nose—rubs it.)</stage></p>
 </sp>
-<sp>
+<sp who="#L0327_M4">
 <speaker>Slide.</speaker>
 <p> Any more, sir ?</p>
 </sp>
-<sp>
+<sp who="#L0327_M1">
 <speaker>Plummy.</speaker>
 <p>
 <stage>(quietly taking off gloves.)</stage> No thank you. I've had enough for
@@ -974,19 +1028,19 @@ Still thirteen stone all but a pound! Suppose I try dancing—I will! <stage>(to
 Slide.)</stage> You teach dancing ? How much a lesson? How much a lesson?
 <stage>(dancing about in a high state of excitement)</stage></p>
 </sp>
-<sp>
+<sp who="#L0327_M4">
 <speaker>Slide.</speaker>
 <p> Twelve for a guinea !</p>
 </sp>
-<sp>
+<sp who="#L0327_M1">
 <speaker>Plummy.</speaker>
 <p> Give me a guinea's worth directly.</p>
 </sp>
-<sp>
+<sp who="#L0327_M4">
 <speaker>Slide.</speaker>
 <p> What, all at once !</p>
 </sp>
-<sp>
+<sp who="#L0327_M1">
 <speaker>Plummy.</speaker>
 <p> Where's your fiddle ! <stage>(taking fiddle out of case.)</stage> Where's
 your bow ? Where's your rosin ? <stage>(plunging his hand into Slide's pocket,
@@ -999,7 +1053,7 @@ to take his coat.)</stage> Ah! <stage>(seeing Margery, who enters with small
 tray, and letting Slide go suddenly r. h.)</stage> Strike up a polka ! why don't
 you strike up a polka!</p>
 </sp>
-<sp>
+<sp who="#L0327_M1">
 <speaker>Plummy.</speaker>
 <p> Now, Betsy Dorothy, come along ! Pooh ! don't be shy! <stage>(Slide strikes
 up; :Plummy seizes Margery round the waist, and twirls her rapidly round; the
@@ -1010,61 +1064,61 @@ shouting all the time "Quicker ! Quicker!"</stage>
 <stage>Enter Mrs. Plummy at C. door. (Margery sees her, screams, and runs out at
 door r. h. ; Plummy goes on dancing, and Slide continues to play the fiddle,
 neither of them seeing Mrs. Plummy.</stage>
-<sp>
+<sp who="#L0327_F6">
 <speaker>Mrs. P.</speaker>
 <p> Mr. Plummy ! <stage>(Plummy kisses his hand to his wife, and still goes on
 dancing ; Slide, in confusion, pockets his fiddle, goes towards door C, bowing
 repeatedly to Mrs. P.ummy, goes out C.,and falls into basket at back.)</stage>
 Mr. Plummy, I say, what does all this mean ?</p>
 </sp>
-<sp>
+<sp who="#L0327_M1">
 <speaker>Plummy.</speaker>
 <p>
 <stage>(stopping dancing, and walking rapidly to and fro.)</stage> It means I am
 following your advice, my dear; taking exercise, my love.</p>
 </sp>
-<sp>
+<sp who="#L0327_F6">
 <speaker>Mrs. P.</speaker>
 <p> A pretty sort of exercise, sir, dancing the polka with your
 servant!<stage>(Here Plummy takes up a pair of dumb-bells, and goes
 energetically to work.</stage></p>
 </sp>
-<sp>
+<sp who="#L0327_M1">
 <speaker>Plummy.</speaker>
 <p> Yes, my dear, I certainly was practising the polka, for the pleasure of
 dancing it with you, my love.<stage>(using the dumb-bells more.</stage></p>
 </sp>
-<sp>
+<sp who="#L0327_F6">
 <speaker>Mrs. P.</speaker>
 <p> You dance!—ha ! ha ! You're too stout by half!—Ha! ha !</p>
 </sp>
-<sp>
+<sp who="#L0327_M1">
 <speaker>Plummy.</speaker>
 <p>
 <stage>(aside.)</stage> She sticks to it! <stage>(using dumb-bells more
 energetically; sees Margery, who enters R. H., carrying two empty
 pails.)</stage> Where are you going to ?</p>
 </sp>
-<sp>
+<sp who="#L0327_F6">
 <speaker>Mrs. P.</speaker>
 <p> To fetch in the water, I suppose.</p>
 </sp>
-<sp>
+<sp who="#L0327_M1">
 <speaker>Plummy.</speaker>
 <p>
 <stage>(aside.)</stage> I should say "fetching water" was capital exercise —
 here goes !<stage>(Snatching the pails out of Margery's hands, and running out
 door C.</stage></p>
 </sp>
-<sp>
+<sp who="#L0327_F7">
 <speaker>Marg.</speaker>
 <p>Sir! sir! <stage>(runs after Plummy.)</stage></p>
 </sp>
-<sp>
+<sp who="#L0327_F6">
 <speaker>Mrs. P.</speaker>
 <p> Henry! Henry! What can be the matter with him ?</p>
 </sp>
-<sp>
+<sp who="#L0327_M3">
 <speaker>George.</speaker>
 <p>
 <stage>(without.)</stage> Holloa ! mind what you're about! <stage>Enters C.
@@ -1073,11 +1127,11 @@ are deluged with water.</stage> Confound it, I'm wet through! <stage>(shaking
 his legs.)</stage> I just met Plummy with a huge pail in each hand, one of which
 he upset over me. Look here! Here are your parcels, cousin.</p>
 </sp>
-<sp>
+<sp who="#L0327_F6">
 <speaker>Mrs. P.</speaker>
 <p> I am sorry to give you so much trouble.</p>
 </sp>
-<sp>
+<sp who="#L0327_M3">
 <speaker>George.</speaker>
 <p> Trouble! It's a pleasure—an unspeakable pleasure! <stage>(drops parcels,
 &amp;c, &amp;c.)</stage> I repeat, it's the greatest pleasure you could do me !
@@ -1086,39 +1140,39 @@ Ah ! <stage>(with a lack-a-daisical look at Mrs. Plummy.)</stage> happy, yet
 wretched Plummy!—Happy, to possess such a treasure ; wretched, not to appreciate
 it.</p>
 </sp>
-<sp>
+<sp who="#L0327_F6">
 <speaker>Mrs. P.</speaker>
 <p>
 <stage>(turning the conversation.)</stage> Where's the picture we just had
 framed ?</p>
 </sp>
-<sp>
+<sp who="#L0327_M3">
 <speaker>George.</speaker>
 <p> Here, under my arm. <stage>(Dropping more parcels, and presenting the
 picture to Mrs. Plummy ; then picking up parcels, and putting them on table,
 except two, which he lays on the arm chair.</stage></p>
 </sp>
-<sp>
+<sp who="#L0327_F6">
 <speaker>Mrs. P.</speaker>
 <p> A pretty subject, isn't it ? Who'd think it was only a coloured engraving
 ?</p>
 </sp>
-<sp>
+<sp who="#L0327_M3">
 <speaker>George.</speaker>
 <p> Interesting to a degree. A cottage on the margin of a murmuring stream, with
 two cows and a little boy in the foreground bathing. Ah, there's a spot for two
 loving hearts to dwell in!</p>
 </sp>
-<sp>
+<sp who="#L0327_F6">
 <speaker>Mrs. P.</speaker>
 <p> Instead of talking nonsense, Cousin George, suppose you hang the picture
 up.</p>
 </sp>
-<sp>
+<sp who="#L0327_M3">
 <speaker>George.</speaker>
 <p> Of course I will. Where ?</p>
 </sp>
-<sp>
+<sp who="#L0327_F6">
 <speaker>Mrs. P.</speaker>
 <p> I think it will look very well over that door. <stage>(points to door in
 C.)</stage> You'll find the hammer and nails in that room, <stage>(points L. H.
@@ -1128,14 +1182,14 @@ places close to door C.)</stage> Now then! <stage>(takes picture, and climbs up
 steps ; holds picture against wall.)</stage> Will that do?</p>
 </sp>
 <stage>Margery runs in at C.</stage>
-<sp>
+<sp who="#L0327_F7">
 <speaker>Marg.</speaker>
 <p>Oh, mistress, I do think master's cracked ! he'd no sooner fetched in the
 water—sixteen pails, ma'am— than he met me going into the cellar for coals, and
 he snatched the scuttle out of my hands, and rushed down, six steps at a
 time—here he comes !</p>
 </sp>
-<sp>
+<sp who="#L0327_M1">
 <speaker>Plummy.</speaker>
 <p>
 <stage>(running in against steps, and upsetting contents of coal-scuttle over
@@ -1143,28 +1197,28 @@ the stage.)</stage> Wheugh!—never mind ! <stage>(runs to door L. H., and retur
 with large broom, with which he begins sweeping up the coals. Margery takes up
 scuttle, and carries it out at door R. H.</stage></p>
 </sp>
-<sp>
+<sp who="#L0327_F6">
 <speaker>Mrs. P.</speaker>
 <p> Henry, you should not indulge in such sudden and violent exercise ; you're
 not used to it!</p>
 </sp>
-<sp>
+<sp who="#L0327_M3">
 <speaker>George.</speaker>
 <p>
 <stage>(on steps.)</stage> Of course you ain't; besides you forget how stout you
 are !</p>
 </sp>
-<sp>
+<sp who="#L0327_M1">
 <speaker>Plummy.</speaker>
 <p>
 <stage>(jumping up.)</stage> Stout again! I must go it again! <stage>(seeing
 george on steps.)</stage> Holloa! what are you doing up there ?</p>
 </sp>
-<sp>
+<sp who="#L0327_M3">
 <speaker>George.</speaker>
 <p> I'm going to hang up this picture.</p>
 </sp>
-<sp>
+<sp who="#L0327_M1">
 <speaker>Plummy.</speaker>
 <p>
 <stage>(aside.)</stage> More gymnastics for me! the more the better —I'll do it,
@@ -1176,71 +1230,71 @@ and then runs up steps again.)</stage> Now then, where are the nails ? Oh, there
 they are !<stage>(Runs down the steps, and is about to go up again—Mrs. Plummy
 stops him.</stage></p>
 </sp>
-<sp>
+<sp who="#L0327_F6">
 <speaker>Mrs. P.</speaker>
 <p> No, Henry, I won't allow it! Take away the steps! <stage>(to George, who
 removes the steps.)</stage> As George observed, just now, you forget how stout
 you are!</p>
 </sp>
-<sp>
+<sp who="#L0327_M1">
 <speaker>Plummy.</speaker>
 <p> Stout! No such thing! I'm as light as a feather—look here! <stage>(places
 chair where the steps were, gets on to it, the bottom gives way, and he comes
 through.)</stage> It was cracked before! I'll take my oath it was cracked before
 ! <stage>(falls exhausted in arm chair, on the parcels.)</stage></p>
 </sp>
-<sp>
+<sp who="#L0327_F6">
 <speaker>Mrs. P.</speaker>
 <p> Oh! Henry! <stage>(pulling him up.)</stage> You'll spoil my caps!</p>
 </sp>
 <stage>Enter Margery, R.</stage>
-<sp>
+<sp who="#L0327_F7">
 <speaker>Marg.</speaker>
 <p> Please, ma'am, Doctor Dulcet wants to speak to you.</p>
 </sp>
-<sp>
+<sp who="#L0327_F6">
 <speaker>Mrs. P.</speaker>
 <p> With me? Very well, I'll come to him.<stage>(Exit Margery, R.—Mrs. Plummy is
 about to follow.</stage></p>
 </sp>
-<sp>
+<sp who="#L0327_M3">
 <speaker>George.</speaker>
 <p>
 <stage>(aside to her.)</stage> Don't forget our visit to the National
 Gallery.<stage>(Mrs. Plummy nods to him, and follows Margery, R.</stage></p>
 </sp>
-<sp>
+<sp who="#L0327_M1">
 <speaker>Plummy.</speaker>
 <p>
 <stage>(observing them.)</stage> Ah, whispering! <stage>(coming down—to
 George.)</stage> You were observing to Mrs. Plummy that—</p>
 </sp>
-<sp>
+<sp who="#L0327_M3">
 <speaker>George.</speaker>
 <p> I was reminding my cousin that we had arranged to go together to the
 National Gallery, that's all.</p>
 </sp>
-<sp>
+<sp who="#L0327_M1">
 <speaker>Plummy.</speaker>
 <p>
 <stage>(smiling savagely.)</stage> Oh, that's all!</p>
 </sp>
-<sp>
+<sp who="#L0327_M3">
 <speaker>George.</speaker>
 <p>
 <stage>(aside.)</stage> How he's grinning !—<stage>(aloud.)</stage> Yes, more
 for the sake of the stroll than anything else.</p>
 </sp>
-<sp>
+<sp who="#L0327_M1">
 <speaker>Plummy.</speaker>
 <p> Of course! of course! <stage>(grinning again.)</stage></p>
 </sp>
-<sp>
+<sp who="#L0327_M3">
 <speaker>George.</speaker>
 <p>
 <stage>(aside.)</stage> I don't like that grin of his at all!</p>
 </sp>
-<sp>
+<sp who="#L0327_M1">
 <speaker>Plummy.</speaker>
 <p>
 <stage>(aside.)</stage> You shall have strolling enough before I've done with
@@ -1249,24 +1303,24 @@ you, my fine young fellow.—<stage>(aloud.)</stage> George, my boy,
 inquiries in the shop all the morning, after lucifer matches, and I find we
 havn't a single box left: will you order a fresh supply ?</p>
 </sp>
-<sp>
+<sp who="#L0327_M3">
 <speaker>George.</speaker>
 <p> Directly! there's a shop, round the corner, with thousands of 'em.</p>
 </sp>
-<sp>
+<sp who="#L0327_M1">
 <speaker>Plummy.</speaker>
 <p> Yes, but I prefer them direct from the manufactory at Battersea.</p>
 </sp>
-<sp>
+<sp who="#L0327_M3">
 <speaker>George.</speaker>
 <p> I'll go the first thing to-morrow morning.</p>
 </sp>
-<sp>
+<sp who="#L0327_M1">
 <speaker>Plummy.</speaker>
 <p> To-day, George, my boy—to-day; and, if they havn't any at Battersea, you're
 sure to find plenty in Shoreditch, it's only a little way round—so go !</p>
 </sp>
-<sp>
+<sp who="#L0327_M3">
 <speaker>George.</speaker>
 <p>
 <stage>(aside.)</stage> I'll get the infernal lucifer matches in the
@@ -1276,16 +1330,16 @@ the grocer, has just settled his little account—six pounds, seventeen shilling
 and six pence. He apologized for paying it all in silver, but—<stage>(offers
 bag.</stage></p>
 </sp>
-<sp>
+<sp who="#L0327_M1">
 <speaker>Plummy.</speaker>
 <p> Never mind ! Go for the lucifers!</p>
 </sp>
-<sp>
+<sp who="#L0327_M3">
 <speaker>George.</speaker>
 <p> Take the bag. <stage>(giving him the bag.)</stage> It weighs at least a
 pound—I'm not sorry to get rid of it. <stage>(runs out C.</stage></p>
 </sp>
-<sp>
+<sp who="#L0327_M1">
 <speaker>Plummy.</speaker>
 <p> Come, I've got Cousin George out of the way ! I shan't have any more
 whispering for an hour or two! <stage>(suddenly.)</stage> 'Pon my life I don't
@@ -1307,42 +1361,42 @@ heavier than I was before: I've reached the thirteen stone! Stop me! Give me
 something—I don't care what. I'll swallow a whole sea of vinegar! Only stop me,
 if you love me; don't let me go any farther !</p>
 </sp>
-<sp>
+<sp who="#L0327_M2">
 <speaker>Doctor D.</speaker>
 <p> Suppose you diet yourself.</p>
 </sp>
-<sp>
+<sp who="#L0327_M1">
 <speaker>Plummy.</speaker>
 <p> I will: I'll live entirely upon nothing for the next six months.</p>
 </sp>
-<sp>
+<sp who="#L0327_M2">
 <speaker>Doctor.</speaker>
 <p> I've known violent emotions, powerful excitements, do wonders in such cases
 as yours.</p>
 </sp>
-<sp>
+<sp who="#L0327_M1">
 <speaker>Plummy.</speaker>
 <p> Have you ? That's enough—I'll go and kill Joe!</p>
 </sp>
-<sp>
+<sp who="#L0327_M2">
 <speaker>Doctor D.</speaker>
 <p> Ha ! ha ! Egad ! as you're evidently becoming dangeous, the sooner I get out
 of your way the better. <stage>(runs out C.)</stage></p>
 </sp>
-<sp>
+<sp who="#L0327_M1">
 <speaker>Plummy.</speaker>
 <p> Here! Stop ! What shall I do for a violent emotion ? Where shall I find a
 powerful excitement ? <stage>(shouting.)</stage> Will anybody tell me where I
 can find a powerful excitement ? Ah! <stage> (seeing Slide, who enters
 C.</stage></p>
 </sp>
-<sp>
+<sp who="#L0327_M4">
 <speaker>Slide.</speaker>
 <p> You are alone, Mr. Plummy ? Shall we resume our lessons ? <stage>(taking out
 his fiddle.)</stage> Shall we, Mr. Plummy ? <stage>(Putting himself in a
 position.</stage></p>
 </sp>
-<sp>
+<sp who="#L0327_M1">
 <speaker>Plummy.</speaker>
 <p>
 <stage>(aside.)</stage> Here's an opportunity for getting up a powerful
@@ -1350,53 +1404,53 @@ excitement; I'll insult him, quietly but grossly ! <stage>(aloud, and in a
 dignified manner.)</stage> Do you know, sir, that you are a very familiar and
 impertinent sort of person, sir ?</p>
 </sp>
-<sp>
+<sp who="#L0327_M4">
 <speaker>Slide.</speaker>
 <p> Impertinent! Me! Oh, Mr. Plummy !</p>
 </sp>
-<sp>
+<sp who="#L0327_M1">
 <speaker>Plummy.</speaker>
 <p>
 <stage>(aside.)</stage> He don't mind it a bit. <stage>(aloud.)</stage> Don't
 "Plummy" me, sir! you little, overgrown, corpulent individual!</p>
 </sp>
-<sp>
+<sp who="#L0327_M4">
 <speaker>Slide.</speaker>
 <p> What's that, sir ?</p>
 </sp>
-<sp>
+<sp who="#L0327_M1">
 <speaker>Plummy.</speaker>
 <p>
 <stage>(aside.)</stage> All right — he's getting up his excitement!</p>
 </sp>
-<sp>
+<sp who="#L0327_M4">
 <speaker>Slide.</speaker>
 <p> Do you mean to insult me, sir ?</p>
 </sp>
-<sp>
+<sp who="#L0327_M1">
 <speaker>Plummy.</speaker>
 <p> Of course I do! In a word, sir, your visits to this house are suspicious,
 sir—in short, sir, you're not a dancing-master, you're a Russian nobleman in
 disguise, sir—yes, sir ! and you come here to make love to my wife, sir!</p>
 </sp>
-<sp>
+<sp who="#L0327_M4">
 <speaker>Slide.</speaker>
 <p> No, no!</p>
 </sp>
-<sp>
+<sp who="#L0327_M1">
 <speaker>Plummy.</speaker>
 <p> Oh, then I tell a falsehood, eh ?</p>
 </sp>
-<sp>
+<sp who="#L0327_M4">
 <speaker>Slide.</speaker>
 <p> No, no !</p>
 </sp>
-<sp>
+<sp who="#L0327_M1">
 <speaker>Plummy.</speaker>
 <p> Then you do come here to make love to my wife! You can't get out of that, so
 follow me.</p>
 </sp>
-<sp>
+<sp who="#L0327_M4">
 <speaker>Slide.</speaker>
 <p>
 <stage>(very quietly, and returning his violin to his pocket.)</stage> Very
@@ -1405,18 +1459,18 @@ find there's a considerable dash of the lion about me, Mr. Plummy. So as you
 prefer fighting, we will, if you please, adjourn to my shooting gallery, Mr.
 Plummy.</p>
 </sp>
-<sp>
+<sp who="#L0327_M1">
 <speaker>Plummy.</speaker>
 <p>
 <stage>(aside.)</stage> Holloa !—Your shooting gallery!</p>
 </sp>
-<sp>
+<sp who="#L0327_M4">
 <speaker>Slide.</speaker>
 <p> Yes, Mr. Plummy, where I will back myself to send a bullet through a
 shilling at forty yards, nineteen times out of twenty, Mr. Plummy—so come along,
 Mr. Plummy!</p>
 </sp>
-<sp>
+<sp who="#L0327_M1">
 <speaker>Plummy.</speaker>
 <p>
 <stage>(alarmed.)</stage> Don't be in such a confounded hurry! besides, business
@@ -1424,39 +1478,39 @@ before pleasure. I see your drift, sir ; you owe me a quarter's rent, and if I
 kill you, you'll make that a paltry excuse for not paying it ! Consequently, I
 don't fight till I am paid.</p>
 </sp>
-<sp>
+<sp who="#L0327_M4">
 <speaker>Slide.</speaker>
 <p> There's your money. <stage>(offers purse.)</stage></p>
 </sp>
-<sp>
+<sp who="#L0327_M1">
 <speaker>Plummy.</speaker>
 <p>
 <stage>(aside.)</stage> The devil! <stage>(taking purse.)</stage></p>
 </sp>
-<sp>
+<sp who="#L0327_M4">
 <speaker>Slide.</speaker>
 <p> I have to apologize for paying you in silver; but you'll find it right to a
 shilling, Mr. Plummy.</p>
 </sp>
-<sp>
+<sp who="#L0327_M1">
 <speaker>Plummy.</speaker>
 <p> I don't know that, sir; however, I'll count it sometime between this and the
 end of the week.</p>
 </sp>
-<sp>
+<sp who="#L0327_M4">
 <speaker>Slide.</speaker>
 <p> Pooh ! I'll give you ten minutes ! I'll walk up and down before your house,
 and if you don't come—</p>
 </sp>
-<sp>
+<sp who="#L0327_M1">
 <speaker>Plummy.</speaker>
 <p> You'll give me up, and go away.</p>
 </sp>
-<sp>
+<sp who="#L0327_M4">
 <speaker>Slide.</speaker>
 <p> No ! I'll come and fetch you.        <stage>(goes        out C.</stage></p>
 </sp>
-<sp>
+<sp who="#L0327_M1">
 <speaker>Plummy.</speaker>
 <p> Come, if this isn't a " powerful excitement," I don't know what is; and as
 for a violent emotion—all I can say is, I never was in such a fright in the
@@ -1470,77 +1524,77 @@ be bullet-proof in twenty- four hours: a ball may go into me, but I'll defy it
 to go through me !</p>
 <stage>Joe runs in C, down L. H.</stage>
 </sp>
-<sp>
+<sp who="#L0327_M5">
 <speaker>Joe.</speaker>
 <p> Please, sir, here's Mr. Slide, in a fuming rage, wants to know how much
 longer he's to wait for you.</p>
 </sp>
-<sp>
+<sp who="#L0327_M1">
 <speaker>Plummy.</speaker>
 <p> Go to him, Joe—tell him I apologize—that I'll re-paper him from top to
 bottom, and whitewash him into the bargain.</p>
 </sp>
-<sp>
+<sp who="#L0327_M5">
 <speaker>Joe.</speaker>
 <p> Please, sir, Missus wants to know what you're going to have for dinner
 to-day.</p>
 </sp>
-<sp>
+<sp who="#L0327_M1">
 <speaker>Plummy.</speaker>
 <p> Nothing ! And the same to-morrow and the day after, and—</p>
 </sp>
-<sp>
+<sp who="#L0327_M5">
 <speaker>Joe.</speaker>
 <p> You'd better eat something, sir, or you'll be ill.</p>
 </sp>
-<sp>
+<sp who="#L0327_M1">
 <speaker>Plummy.</speaker>
 <p> Then get me a crust of bread and a pickle.</p>
 <stage>(goes out C.</stage>
 </sp>
-<sp>
+<sp who="#L0327_M5">
 <speaker>Joe.</speaker>
 <p> What a dinner! <stage>(sweeping coals up. )</stage> Enter Mrs. Plummy, R.
 H.</p>
 </sp>
-<sp>
+<sp who="#L0327_F6">
 <speaker>Mrs. P.</speaker>
 <p> Well, Joe, has your master ordered dinner ?</p>
 </sp>
-<sp>
+<sp who="#L0327_M5">
 <speaker>Joe.</speaker>
 <p> Yes, ma'am, a crust of bread and a pickle.</p>
 </sp>
-<sp>
+<sp who="#L0327_F6">
 <speaker>Mrs. P.</speaker>
 <p> A crust of bread and a pickle ! I can't imagine what it means.</p>
 </sp>
-<sp>
+<sp who="#L0327_M5">
 <speaker>Joe.</speaker>
 <p> I can, mum. Master wants to get thin—I'm sure of it, 'cause I had my ear to
 the key-hole, quite by accident, the whole time the doctor was with him.</p>
 </sp>
-<sp>
+<sp who="#L0327_F6">
 <speaker>Mrs. P.</speaker>
 <p> Ah! Well?</p>
 </sp>
-<sp>
+<sp who="#L0327_M5">
 <speaker>Joe.</speaker>
 <p> And I heard the doctor tell him that if he once reached thirteen stone,
 there'd be no stopping of him— that he'd become a pumpkin, and that you would'nt
 care a button about him ; he's been a weighing himself all the morning.</p>
 </sp>
-<sp>
+<sp who="#L0327_F6">
 <speaker>Mrs. P.</speaker>
 <p> I see it all, poor dear Henry! Run to him, Joe, and tell him to come to me
 directly.</p>
 </sp>
-<sp>
+<sp who="#L0327_M5">
 <speaker>Joe.</speaker>
 <p> Yes, ma'am. <stage>(runs out door C.)</stage></p>
 <stage>Enter George, R. H.</stage>
 </sp>
-<sp>
+<sp who="#L0327_M3">
 <speaker>George.</speaker>
 <p> I've got the lucifers! <stage>(aside)</stage> I don't see Plummy.
 <stage>(aloud.)</stage> My dear cousin, beautiful cousin, you're a perfect
@@ -1550,73 +1604,73 @@ Lucifer—I mean angel! <stage>(falls on his knees.)</stage></p>
 of lucifer boxes fall on the stage, which he begins picking up. Plummy advances
 in a slow, stately manner, looking alternately at his wife and George.</stage>
 </sp>
-<sp>
+<sp who="#L0327_M1">
 <speaker>Plummy.</speaker>
 <p> Ah ! What are you doing on your knees, sir?</p>
 </sp>
-<sp>
+<sp who="#L0327_M3">
 <speaker>George.</speaker>
 <p> On my knees, am I ? Yes, I was picking up these lucifer boxes, that's
 all.</p>
 </sp>
-<sp>
+<sp who="#L0327_F6">
 <speaker>Mrs. P.</speaker>
 <p> He was thanking me for his appointment. Here it is. <stage>(gives paper to
 Plummy.)</stage></p>
 </sp>
-<sp>
+<sp who="#L0327_M1">
 <speaker>Plummy.</speaker>
 <p>
 <stage>(passing paper to George.)</stage> There it is. Oh, Mary
 Matilda—<stage>(about to embrace her.)</stage></p>
 </sp>
-<sp>
+<sp who="#L0327_F6">
 <speaker>Mrs. P.</speaker>
 <p> It's more than you deserve after requesting Doctor Dulcet to forbid my going
 to Switzerland! Fie ! Fie ! If you had honestly and frankly told me you
 preferred being stout, and that you feared the air of Switzer­land would make
 you thinner—</p>
 </sp>
-<sp>
+<sp who="#L0327_M1">
 <speaker>Plummy.</speaker>
 <p>
 <stage>(suddenly.)</stage> Do you think it would?</p>
 </sp>
-<sp>
+<sp who="#L0327_F6">
 <speaker>Mrs. P.</speaker>
 <p> Certainly!</p>
 </sp>
-<sp>
+<sp who="#L0327_M1">
 <speaker>Plummy.</speaker>
 <p> Then we'll start directly, this very moment! Come along! <stage>(turning up
 with Mrs. Plummy.)</stage></p>
 </sp>
-<sp>
+<sp who="#L0327_F6">
 <speaker>Mrs. P.</speaker>
 <p> The riding habit!</p>
 </sp>
-<sp>
+<sp who="#L0327_M1">
 <speaker>Plummy.</speaker>
 <p> We'll go and buy it. Come along. <stage>(turning up again.)</stage></p>
 </sp>
-<sp>
+<sp who="#L0327_F6">
 <speaker>Mrs. P.</speaker>
 <p> But where's the money to come from ? With one thing and another I shall want
 at least twelve pounds.</p>
 </sp>
-<sp>
+<sp who="#L0327_M1">
 <speaker>Plummy.</speaker>
 <p>
 <stage>(suddenly.)</stage> Twelve! Ah ! Of course! Here! <stage>(taking bag out
 of one of his pockets.)</stage> And here! <stage>(taking purse out of the other
 and giving it to Mrs. Plummy, who shows how heavy they are.)</stage></p>
 </sp>
-<sp>
+<sp who="#L0327_F6">
 <speaker>Mrs. P.</speaker>
 <p> Oh, thanks, Henry dear! Come, confess ! Don't you feel your heart all the
 lighter from having indulged your wife's request ?</p>
 </sp>
-<sp>
+<sp who="#L0327_M1">
 <speaker>Plummy.</speaker>
 <p>
 <stage>(sighing.)</stage> Ah, my heart's light enough! It isn't my heart that
@@ -1625,68 +1679,68 @@ Holloa! Can it be— Yes— Ha! ha! I'm a pound lighter! <stage>(taking up a
 pound.)</stage> Two pounds! Ha! ha ! Two pounds in ten minutes, my love! Think
 of that, my angel! Ha! ha !</p>
 </sp>
-<sp>
+<sp who="#L0327_F6">
 <speaker>Mrs. P.</speaker>
 <p>
 <stage>(smiling, aside, and showing purses.)</stage> No wonder!</p>
 </sp>
-<sp>
+<sp who="#L0327_M1">
 <speaker>Plummy.</speaker>
 <p> And now—</p>
 <stage>Enter Joe, carrying a loaf of bread on a small tray.</stage>
 </sp>
-<sp>
+<sp who="#L0327_M5">
 <speaker>Joe.</speaker>
 <p> Please, sir, what sort of a pickle would you like with your bread ?</p>
 </sp>
-<sp>
+<sp who="#L0327_M1">
 <speaker>Plummy.</speaker>
 <p> Ha! ha! <stage>(aside.)</stage> A brilliant idea! I'll destroy master
 George's beauty. <stage>(aloud.)</stage> Cousin George, I bear no malice, and to
 prove it, you'll make this house your home in our absence. You shall live here,
 and board here.</p>
 </sp>
-<sp>
+<sp who="#L0327_M3">
 <speaker>George.</speaker>
 <p> Plummy, you're a trump!</p>
 </sp>
-<sp>
+<sp who="#L0327_M1">
 <speaker>Plummy.</speaker>
 <p> I am. Joe, come here. <stage>(aside.)</stage> You see that young
 man!—nothing but skin and bone, poor fellow; I charge you with the agreeable
 duty of fattening him up —make a pumpkin of him ! in short, for every pound he
 gains in weight, I'll give you a guinea !</p>
 </sp>
-<sp>
+<sp who="#L0327_M5">
 <speaker>Joe.</speaker>
 <p> Thank'ee, sir, thank'ee !</p>
 <stage>(Following George about, and offering him the bread.</stage>
 </sp>
-<sp>
+<sp who="#L0327_M1">
 <speaker>Plummy.</speaker>
 <p> Now, my dear, hey for Switzerland!</p>
 </sp>
-<sp>
+<sp who="#L0327_F6">
 <speaker>Mrs. P.</speaker>
 <p> But I'm not packed up!</p>
 </sp>
-<sp>
+<sp who="#L0327_M1">
 <speaker>Plummy.</speaker>
 <p> Never mind packing up; we'll do that on the road.</p>
 </sp>
-<sp>
+<sp who="#L0327_F6">
 <speaker>Mrs. P.</speaker>
 <p> What o'clock does the train start ?</p>
 </sp>
-<sp>
+<sp who="#L0327_M1">
 <speaker>Plummy.</speaker>
 <p> Train! Pooh—pooh—we'll walk.</p>
 </sp>
-<sp>
+<sp who="#L0327_F6">
 <speaker>Mrs. P.</speaker>
 <p> Walk, my dear!</p>
 </sp>
-<sp>
+<sp who="#L0327_M1">
 <speaker>Plummy.</speaker>
 <p> Yes, every inch of the way, except between Dover and Calais, and that I mean
 to swim! Slide, my boy, you shall go with us, and what's more, I'll undertake to
@@ -1696,7 +1750,7 @@ times a day for a fortnight. So let's be off, and when I get back, if ever I do
 get back, I shall have this satisfaction, at least, that no one will be able to
 say of me, "How stout you're getting."</p>
 </sp>
-<sp>
+<sp who="#L0327_F6 #L0327_M3 #L0327_M4">
 <speaker>Mrs. P.| George.| Slide.</speaker>
 <p> Ha ! ha ! <stage><stage>(pointing to Plummy.)</stage></stage></p>
 </sp>

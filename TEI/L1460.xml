@@ -1,9 +1,8 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L1460">
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L1460">
  <teiHeader>
   <fileDesc>
    <titleStmt>
-    <title n="onguard">On Guard</title>
+    <title n="onguard" type="main">On Guard</title>
     <author>Gilbert, W.S.</author>
     <respStmt>
      <resp>Curated by</resp>
@@ -12,37 +11,74 @@
    </titleStmt>
    <publicationStmt>
     <distributor>Privately published on the Lacy Website</distributor>
-    <idno>L1459</idno>
-   </publicationStmt>
-   <sourceDesc>
-    <bibl type="digital"/>
-    <bibl type="source" status="TEI_1" n="98.5" corresp="nic:N12678"><author>Gilbert,
-      W.S.</author><title type="main" n="onguard">On Guard</title><title type="sub">An Entirely
-      Original Comedy in three acts</title><extent>47 pp;<measure type="pp" quantity="44"/><measure
-       type="spCount" quantity="857"/><measure type="spvCount" quantity="0"/><measure type="txWords"
-       quantity="16171"/><measure type="spWords" quantity="15063"/><measure type="stWords"
-       quantity="1108"/></extent><eventName notAfter="1871" type="firstPerf">
-      <date resp="nicoll" when="1871-10-28"/>
-      <name>Royal Court Theatre</name>
-      <date resp="source" when="1872-10-28">28 Oct. 1872</date>
-     </eventName><listRef type="localCopies">
-      <ref>Vol98/L1460/L1460-lb.pdf</ref>
-     </listRef></bibl>
-   </sourceDesc>
+    
+   <idno type="lae">L1460</idno><idno type='URI' xml:base='https://dracor.org'>LAE</idno></publicationStmt>
+   <sourceDesc><bibl type="printSource" n="98.5"><author>Gilbert, W.S.</author><title type="main" n="onguard">On Guard</title><title type="sub">An Entirely Original
+Comedy in three acts</title><extent>47 pp;<measure type="pp" quantity="44"/>
+  <measure type="spCount" quantity="857"/>
+  <measure type="spvCount" quantity="0"/>
+  <measure type="txWords" quantity="16171"/>
+  <measure type="spWords" quantity="15063"/>
+  <measure type="stWords" quantity="1108"/>
+  </extent>
+
+<title level="s"> Lacy's Acting Edition, volume 98, No. 1460</title><idno type="nic">N12678</idno></bibl><bibl type="digitalSource"><ref target="http://lb42.github.io/Lacy/Source/Vol98/L1460-lb.pdf">LB from
+LB</ref></bibl><bibl type="digitalSource" n="copytext"><ref target="https://lb42.github.io/Lacy/L1460.html">TEI</ref></bibl><listEvent>
+<event type="firstPerf" when="1872-10-28" source="text" where="Court">
+<desc>Premiered at Royal Court Theatre 28 Oct. 1872; Nicoll date
+1871-10-28</desc>
+</event>
+</listEvent></sourceDesc>
   </fileDesc>
 
-  <profileDesc>
-   <!--M_3_Comedy_C._COMEDY-->
-   <textClass>
+  <profileDesc><textClass>
     <catRef target="#sizeM"/>
     <catRef target="#act3"/>
     <catRef target="nic:C."/>
     <keywords>
      <term>COMEDY</term>
     </keywords>
-   </textClass>
-  </profileDesc>
-  <revisionDesc>
+   </textClass><particDesc><listPerson>
+<person xml:id="L1460_M1">
+<persName type="role">Denis Grant </persName>
+<persName type="spkr" n="136">Denis.</persName>
+</person>
+<person xml:id="L1460_M2">
+<persName type="role">Corny Kavanagh </persName>
+<persName type="spkr" n="160">Kavan.</persName>
+</person>
+<person xml:id="L1460_M3">
+<persName type="role">Guy Warrington </persName>
+<persName type="spkr" n="134">Guy.</persName>
+</person>
+<person xml:id="L1460_M4">
+<persName type="role">Grouse </persName>
+<persName type="spkr" n="102">Grouse.</persName>
+</person>
+<person xml:id="L1460_M5">
+<persName type="role">Baby Boodle </persName>
+<persName type="spkr" n="70">Boodle.</persName>
+</person>
+<person xml:id="L1460_M6">
+<persName type="role">Druce </persName>
+<persName type="spkr" n="20">Druce.</persName>
+</person>
+<person xml:id="L1460_F7">
+<persName type="role">Mrs. Fitzosborne </persName>
+<persName type="spkr" n="1">Mrs. Fitzosborne.</persName>
+<persName type="spkr" n="103">Mrs. F.</persName>
+</person>
+<person xml:id="L1460_F8">
+<persName type="role">Jessie Blake </persName>
+<persName type="spkr" n="125">Jessie.</persName>
+</person>
+
+<person xml:id="L1460_Misc">
+<persName type="spkr" n="2">Steward.</persName>
+<persName type="spkr" n="4">Voice.</persName>
+</person>
+</listPerson></particDesc></profileDesc>
+  <revisionDesc><change when="2025-09-07">Metadata updated from new catalogue</change>
    <change when="2025-03-19">Header enriched</change>
    <change when="2025-01-14">Renumbering</change>
    <change when="2024-10-03">Header enriched</change>
@@ -82,28 +118,24 @@
 
    <castList>
     <head>Characters.</head>
-    <castItem><role gender="M">Denis Grant </role><roleDesc>(an African Traveller) </roleDesc><actor
-      sex="M">Mr. Markby. </actor></castItem>
+    <castItem><role gender="M">Denis Grant </role><roleDesc>(an African Traveller) </roleDesc><actor ana="#M">Mr. Markby. </actor></castItem>
 
-    <castItem><role gender="M">Corny Kavanagh </role><roleDesc>(an Adventurer) </roleDesc><actor
-      sex="M">Mr. Bishop. </actor></castItem>
+    <castItem><role gender="M">Corny Kavanagh </role><roleDesc>(an Adventurer) </roleDesc><actor ana="#M">Mr. Bishop. </actor></castItem>
 
-    <castItem><role gender="M">Guy Warrington </role><actor sex="F">Miss M. Brennan.
+    <castItem><role gender="M">Guy Warrington </role><actor ana="#F">Miss M. Brennan.
      </actor></castItem>
 
-    <castItem><role gender="M">Grouse </role><roleDesc>(an Attorney) </roleDesc><actor sex="M">Mr.
+    <castItem><role gender="M">Grouse </role><roleDesc>(an Attorney) </roleDesc><actor ana="#M">Mr.
       Righton. </actor></castItem>
 
-    <castItem><role gender="M">Baby Boodle </role><actor sex="M">Mr. Clayton. </actor></castItem>
+    <castItem><role gender="M">Baby Boodle </role><actor ana="#M">Mr. Clayton. </actor></castItem>
 
-    <castItem><role gender="M">Druce </role><roleDesc>(a Soldier’s Servant) </roleDesc><actor
-      sex="M">Mr. Parry. </actor></castItem>
+    <castItem><role gender="M">Druce </role><roleDesc>(a Soldier’s Servant) </roleDesc><actor ana="#M">Mr. Parry. </actor></castItem>
 
-    <castItem><role gender="F">Mrs. Fitzosborne </role><roleDesc>(a Widow) </roleDesc><actor sex="F"
-      >Miss M. Oliver. </actor></castItem>
+    <castItem><role gender="F">Mrs. Fitzosborne </role><roleDesc>(a Widow) </roleDesc><actor ana="#F">Miss M. Oliver. </actor></castItem>
 
     <castItem><role gender="F">Jessie Blake </role><roleDesc>(Guy Warrington’s Cousin)
-      </roleDesc><actor sex="F">Miss K. Bishop. </actor></castItem>
+      </roleDesc><actor ana="#F">Miss K. Bishop. </actor></castItem>
 
    </castList>
    <div type="programme">
@@ -126,160 +158,160 @@
      Lake in the distance; the lower windows of the castle <stage>(L.)</stage> are lighted up; the
      voices of gentlemen dining are heard through half-opened windows.</stage>
     <stage>Mrs. Fitzosborne and Jessie discovered in dinner dress, with “gauze clouds.”</stage>
-    <sp>
+    <sp who="#L1460_F7">
      <speaker>Mrs. Fitzosborne.</speaker>
      <p>Dear me, what a while those men waste over their wine!</p>
     </sp>
-    <sp>
+    <sp who="#L1460_F8">
      <speaker>Jessie.</speaker>
      <p>Do you know, I often wonder what they talk about.</p>
     </sp>
-    <sp>
+    <sp who="#L1460_F7">
      <speaker>Mrs. F.</speaker>
      <p>Ah! my dear, we had better not attempt to penetrate <emph>that</emph> mystery. Depend upon
       it, their conversation is not half as instructive as ours.</p>
     </sp>
-    <sp>
+    <sp who="#L1460_F8">
      <speaker>Jessie.</speaker>
      <p><emph>We</emph> generally talk about dress.</p>
     </sp>
-    <sp>
+    <sp who="#L1460_F7">
      <speaker>Mrs. F.</speaker>
      <p>So do they – perhaps!</p>
     </sp>
-    <sp>
+    <sp who="#L1460_F8">
      <speaker>Jessie.</speaker>
      <p>And horses, I daresay.</p>
     </sp>
-    <sp>
+    <sp who="#L1460_F7">
      <speaker>Mrs. F.</speaker>
      <p>Yes; the women that wear the dresses, and the women that break the horses.</p>
     </sp>
-    <sp>
+    <sp who="#L1460_F8">
      <speaker>Jessie.</speaker>
      <p>I daresay they are pulling us to pieces at this moment. I wish it was lady-like to listen!
       Why do ladies always retire after dinner, and leave the gentlemen alone?</p>
     </sp>
-    <sp>
+    <sp who="#L1460_F7">
      <speaker>Mrs. F.</speaker>
      <p>My dear, during dinner many elevating and ennobling reflections occur to them, that we
       shouldn’t understand, so we mercifully leave them that they may give utterance to their
       magnificent conceptions, or their teeming brains would burst.</p>
     </sp>
-    <sp>
+    <sp who="#L1460_F8">
      <speaker>Jessie.</speaker>
      <p>Would Baby Boodle’s teeming brain burst?</p>
     </sp>
-    <sp>
+    <sp who="#L1460_F7">
      <speaker>Mrs. F.</speaker>
      <p>No, Baby Boodle’s brain has plenty of turning room. Whenever he shakes his head, I always
       expect to hear it rattle!</p>
     </sp>
-    <sp>
+    <sp who="#L1460_F8">
      <speaker>Jessie.</speaker>
      <p>How can you speak like that of a man you like?</p>
     </sp>
-    <sp>
+    <sp who="#L1460_F7">
      <speaker>Mrs. F.</speaker>
      <p>Do you remember how you snubbed Guy at dinner?</p>
     </sp>
-    <sp>
+    <sp who="#L1460_F8">
      <speaker>Jessie.</speaker>
      <p>Yes, I did it on purpose.</p>
     </sp>
     <pb n="4"/>
-    <sp>
+    <sp who="#L1460_F7">
      <speaker>Mrs. F.</speaker>
      <p>How can you speak like that <emph>to</emph> a man you like? And that man going abroad
       to-night!</p>
     </sp>
-    <sp>
+    <sp who="#L1460_F8">
      <speaker>Jessie.</speaker>
      <p>That’s a very different thing. I love Guy very much, but he must be kept in order. Besides,
       you snub Baby Boodle!</p>
     </sp>
-    <sp>
+    <sp who="#L1460_F7">
      <speaker>Mrs. F.</speaker>
      <p>Yes, but Baby Boodle don’t know it. That’s Baby Boodle’s principal charm.</p>
     </sp>
-    <sp>
+    <sp who="#L1460_F8">
      <speaker>Jessie.</speaker>
      <p>But Baby Boodle is in love with you.</p>
     </sp>
-    <sp>
+    <sp who="#L1460_F7">
      <speaker>Mrs. F.</speaker>
      <p><stage>(sighing).</stage> Yes, he would be. These heavy vacuous, good-natured, gentlemanly
       dragoons always are. I don’t think I ever completely captivated a really clever man in my
       life. They all seem afraid of me. Look at Mr. Kavanagh – he’s a clever, bright, shrewd fellow;
       I long to try conclusions with him, but he won’t cross swords with me.</p>
     </sp>
-    <sp>
+    <sp who="#L1460_F8">
      <speaker>Jessie.</speaker>
      <p>You’re too clever for him, dear. You pay him back in his own coin, and he don’t like it. He
       wants a rose from you, and you give him a thistle. Now that frightens clever men.</p>
     </sp>
-    <sp>
+    <sp who="#L1460_F7">
      <speaker>Mrs. F.</speaker>
      <p>And fascinates donkeys. Perhaps you’re right. At all events it points my moral – never snub
       a clever man, if you care two pins about him.</p>
     </sp>
-    <sp>
+    <sp who="#L1460_F8">
      <speaker>Jessie.</speaker>
      <p>Ah, Mrs. Fitzosborne, when will you practise what you preach?</p>
     </sp>
-    <sp>
+    <sp who="#L1460_F7">
      <speaker>Mrs. F.</speaker>
      <p><stage>(rises – crosses, L.)</stage> When bishops black their own boots on Sunday. No, no,
       if you want to worry poor Guy, there are other ways of doing it.</p>
     </sp>
-    <sp>
+    <sp who="#L1460_F8">
      <speaker>Jessie.</speaker>
      <p>By flirting, for instance.</p>
     </sp>
-    <sp>
+    <sp who="#L1460_F7">
      <speaker>Mrs. F.</speaker>
      <p><stage>(L. C.)</stage> Yes, by flirting, in moderation.</p>
     </sp>
-    <sp>
+    <sp who="#L1460_F8">
      <speaker>Jessie.</speaker>
      <p><stage>(sits on stool, R. C.).</stage> Do you know, between ourselves, I often think that
       with all my demureness, I have a hidden, secret, undeveloped tendency to flirt.</p>
     </sp>
-    <sp>
+    <sp who="#L1460_F7">
      <speaker>Mrs. F.</speaker>
      <p>
       <stage>(sits, C.).</stage> Do you, indeed? My dear Jessie, in a quiet demure self-contained
       way, you’re about the most irrepressible little flirt I know.</p>
     </sp>
-    <sp>
+    <sp who="#L1460_F8">
      <speaker>Jessie.</speaker>
      <p>Oh, Mrs. Fitzosborne!</p>
     </sp>
-    <sp>
+    <sp who="#L1460_F7">
      <speaker>Mrs. F.</speaker>
      <p>Look at Denis Grant, for instance.</p>
     </sp>
-    <sp>
+    <sp who="#L1460_F8">
      <speaker>Jessie.</speaker>
      <p>Oh, I never flirted with Mr. Grant! During the week that he has been in England I have seen
       a great deal of his society, and I like him immensely – he’s such a brave, rough, rugged,
       manly man – but flirt! why he was Guy’s schoolfellow, and his very dearest friend! Oh, Mrs.
       Fitzosborne! flirt with Mr. Grant!</p>
     </sp>
-    <sp>
+    <sp who="#L1460_F7">
      <speaker>Mrs. F.</speaker>
      <p>Ah, remember, Jessie, you are the first white woman he has seen for six years. Be merciful,
       dear. <stage>(rise.)</stage>
      </p>
     </sp>
-    <sp>
+    <sp who="#L1460_F8">
      <speaker>Jessie.</speaker>
      <p><stage>(rise).</stage> Merciful! How ridiculous! Why, I’ve only chatted and laughed with him
       as I’ve done with fifty <pb n="5"/>others, and you’ve thought nothing of it. The idea of your
       moralizing on the subject of flirtation! Is it because you’ve never done such a thing
       yourself? </p>
     </sp>
-    <sp>
+    <sp who="#L1460_F7">
      <speaker>Mrs. F.</speaker>
      <p>No, Jessie. it’s because I’ve done so much of it. I’m an old hand, and I can tell in
       half-an-hour how much a man can hear. When I embark on a flirtation I do so with my fingers on
@@ -289,41 +321,41 @@
       been expecting you very anxiously. What have you been talking about? Miss Blake says it’s
       dress.</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M2">
      <speaker>Kavan.</speaker>
      <p>Yes, it was dress. Baby Boodle and I have been discussing a very nice point. Having regard
       to the conformation of Baby Boodle’s face and figure, ought Baby Boodle to wear a tall hat
       with a narrow brim, and a long beard, or a low hat with a broad brim, and a short beard?
       That’s the question, and we have agreed to refer it to you.</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M5">
      <speaker>Boodle.</speaker>
      <p>Nothing of the kind, Mrs. Fitz. We were talking about –</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M2">
      <speaker>Kavan.</speaker>
      <p>
       <stage>(aside).</stage> Hush!</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M5">
      <speaker>Boodle.</speaker>
      <p>Well, perhaps you’re right. </p>
     </sp>
-    <sp>
+    <sp who="#L1460_F7">
      <speaker>Mrs. F.</speaker>
      <p>Captain Boodle has devoted about forty years’ study to the outside of his head. I think it
       would be only fair if he began to think about giving its inside a turn. </p>
     </sp>
-    <sp>
+    <sp who="#L1460_M2">
      <speaker>Kavan.</speaker>
      <p>Oh, no – I can assure you that – the inside of Baby Boodle’s head –</p>
     </sp>
-    <sp>
+    <sp who="#L1460_F7">
      <speaker>Mrs. F.</speaker>
      <p><stage>(sharply).</stage> I know what you are going to say – that the inside of Captain
       Boodle’s head has had a turn already. Wasn’t that it?</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M2">
      <speaker>Kavan.</speaker>
      <p>
       <stage>(annoyed).</stage> Yes – <stage>(Aside.)</stage> confound the woman! I wish she’d let
@@ -331,81 +363,81 @@
       appearance is a very good sign. He has an empty house to let, and he makes its exterior as
       attractive as possible in order that –</p>
     </sp>
-    <sp>
+    <sp who="#L1460_F7">
      <speaker>Mrs. F.</speaker>
      <p><stage>(sharply).</stage> In order that Reason may be tempted to come and take up her abode
       there. Wasn’t that it, Mr. Kavanagh? </p>
     </sp>
-    <sp>
+    <sp who="#L1460_M2">
      <speaker>Kavan.</speaker>
      <p>
       <stage>(annoyed).</stage> Yes – that is what I was going to say – I was going to add that
       –</p>
     </sp>
-    <sp>
+    <sp who="#L1460_F7">
      <speaker>Mrs. F.</speaker>
      <p>That at present Reason don’t see it; so he’s going to lay it on thicker than ever. Wasn’t
       that it, Mr. Kavanagh?</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M2">
      <speaker>Kavan.</speaker>
      <p>
       <stage>(aside).</stage> Oh! this woman is intolerable! <stage>(Crosses, L.)</stage>
      </p>
     </sp>
     <pb n="6"/>
-    <sp>
+    <sp who="#L1460_M5">
      <speaker>Boodle.</speaker>
      <p>I thay, Mrs. Fitz, I wish you’d let the inthide of my head alone. <emph>I</emph> do!</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M2">
      <speaker>Kavan.</speaker>
      <p>Bravo, Baby, so you do. <stage>(Slapping him on the shoulder.)</stage></p>
     </sp>
-    <sp>
+    <sp who="#L1460_M5">
      <speaker>Boodle.</speaker>
      <p>
       <stage>(taking him aside confidentially).</stage> I thay – look here – you won’t mind my
       thpeaking plainly!</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M2">
      <speaker>Kavan.</speaker>
      <p>Not a bit – if you can!</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M5">
      <speaker>Boodle.</speaker>
      <p>Just tho; I alwayth like to come to the point.</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M2">
      <speaker>Kavan.</speaker>
      <p>My dear Baby, make this a rule – if there is ever any point in any of your remarks, come to
       it as soon as possible.</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M5">
      <speaker>Boodle.</speaker>
      <p>Just tho. Well, then, I wish you wouldn’t call me Baby!</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M2">
      <speaker>Kavan.</speaker>
      <p>Why?</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M5">
      <speaker>Boodle.</speaker>
      <p>Becauthe I’ve only known you about three hourth, and ith a liberty. <stage>(Turning
        away.)</stage></p>
     </sp>
 
-    <sp>
+    <sp who="#L1460_F7">
      <speaker>Mrs. F.</speaker>
      <p>Come, Mr. Kavanagh, it’s cowardly to attack poor Baby. Attack <emph>me</emph>, if you like;
       I’m always ready for a passage at arms. <emph>I</emph> can turn upon you with your own
       weapons.</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M2">
      <speaker>Kavan.</speaker>
      <p>Poor Boodle! he hasn’t cultivated the art of <emph>repartee</emph>.</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M5">
      <speaker>Boodle.</speaker>
      <p>No, I haven’t; but then, you thee, I am a well-bred man. <stage>(Mrs. Fitzosborne goes up,
        L. C.)</stage> Whenever a person thays an impertinent thing, I conthole myself with the
@@ -413,340 +445,340 @@
        <stage>(Aside – crosses, L.)</stage> I think thath one to me!</p>
     </sp>
     <stage>Exit Boodle, L. – Kavanagh retires up.</stage>
-    <sp>
+    <sp who="#L1460_F7">
      <speaker>Mrs. F.</speaker>
      <p>Isn’t Mr. Kavanagh delightful? Do ask him to join the yachting party!</p>
     </sp>
-    <sp>
+    <sp who="#L1460_F8">
      <speaker>Jessie.</speaker>
      <p>Shall I? But Captain Boodle!</p>
     </sp>
-    <sp>
+    <sp who="#L1460_F7">
      <speaker>Mrs. F.</speaker>
      <p>Oh, Baby don’t care. He and I understand one another. Now, do.</p>
     </sp>
-    <sp>
+    <sp who="#L1460_F8">
      <speaker>Jessie.</speaker>
      <p>Mr. Kavanagh, I’ve a great favour to ask of you!</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M2">
      <speaker>Kavan.</speaker>
      <p>Indeed! Command me in anything.</p>
     </sp>
-    <sp>
+    <sp who="#L1460_F7">
      <speaker>Mrs. F.</speaker>
      <p>
       <stage>(R.)</stage> In anything?</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M2">
      <speaker>Kavan.</speaker>
      <p>In anything that is within my poor powers. <stage>(Crosses, C.)</stage></p>
     </sp>
-    <sp>
+    <sp who="#L1460_F7">
      <speaker>Mrs. F.</speaker>
      <p>Ah, that’s a terrible come-down!</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M2">
      <speaker>Kavan.</speaker>
      <p>I don’t pretend to universality, Mrs. Fitzosborne. Incomprehensible as it may appear to you,
       I am only mortal.</p>
     </sp>
-    <sp>
+    <sp who="#L1460_F7">
      <speaker>Mrs. F.</speaker>
      <p>And do you really believe that it is necessary to assure society that you are
        <emph>not</emph> immortal?</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M2">
      <speaker>Kavan.</speaker>
      <p><stage>(gallantly).</stage> I should if I were Mrs. Fitzosborne.</p>
     </sp>
-    <sp>
+    <sp who="#L1460_F7">
      <speaker>Mrs. F.</speaker>
      <p>Oh! I know I don’t look my age. Who does, now-a-days?</p>
     </sp>
     <pb n="7"/>
-    <sp>
+    <sp who="#L1460_F8">
      <speaker>Jessie.</speaker>
      <p>Mr. Kavanagh, what a rude thing to have said.</p>
     </sp>
-    <sp>
+    <sp who="#L1460_F7">
      <speaker>Mrs. F.</speaker>
      <p>Oh! Mr. Kavanagh didn’t mean it rudely; did you, Mr. Kavanagh? You thought in your innocence
       that you were paying me a compliment. Now didn’t you?</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M2">
      <speaker>Kavan.</speaker>
      <p>I had no intention to be severe. You deserve that I should be, Mrs. Fitzosborne – but when I
       fight with ladies, my weapon is the sword of mercy.</p>
     </sp>
-    <sp>
+    <sp who="#L1460_F7">
      <speaker>Mrs. F.</speaker>
      <p>Which has no point! <stage>(Aside.)</stage> Oh, this man is delightful! He gives one such
       chances. <stage>(Crosses to L.)</stage></p>
     </sp>
-    <sp>
+    <sp who="#L1460_F8">
      <speaker>Jessie.</speaker>
      <p><stage>(aside).</stage> Oh! don’t, you’ll only make him angry.</p>
     </sp>
-    <sp>
+    <sp who="#L1460_F7">
      <speaker>Mrs. F.</speaker>
      <p>Angry? Nonsense! he’s delicious.</p>
     </sp>
-    <sp>
+    <sp who="#L1460_F8">
      <speaker>Jessie.</speaker>
      <p>His temper is a very bad one, and he’ll soon lose it.</p>
     </sp>
-    <sp>
+    <sp who="#L1460_F7">
      <speaker>Mrs. F.</speaker>
      <p>My dear, if it’s a very bad one, the sooner he loses it the better.</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M2">
      <speaker>Kavan.</speaker>
      <p><stage>(aside).</stage> I can’t stand this woman. <stage>(Aloud.)</stage> Miss Blake, you
       said you had a favour to ask of me. If you’ll tell me what it is, I’ll execute it if
       possible.</p>
     </sp>
-    <sp>
+    <sp who="#L1460_F8">
      <speaker>Jessie.</speaker>
      <p>We sail for the Mediterranean in about six weeks. We shall have a spare berth on board, and
       we shall be so glad if you’ll join us.</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M2">
      <speaker>Kavan.</speaker>
      <p><stage>(aside).</stage> Whew! Poor Guy – poor little chap! Poor Jessie – poor little girl! I
       wonder if her uncle knows of this? <stage>(Aloud.)</stage> Really, you’re very kind. I wish
       your uncle had told me earlier.</p>
     </sp>
-    <sp>
+    <sp who="#L1460_F8">
      <speaker>Jessie.</speaker>
      <p>Oh! uncle doesn’t know that I – I mean I have not told him, but I am sure he will be
       delighted to see you on board.</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M2">
      <speaker>Kavan.</speaker>
      <p><stage>(aside).</stage> A spontaneous invitation of Jessie’s. Poor Guy! Poor little
       chap!</p>
     </sp>
-    <sp>
+    <sp who="#L1460_F7">
      <speaker>Mrs. F.</speaker>
      <p><stage>(crosses, C.)</stage> I’m a very poor sailor, Mr. Kavanagh, and you’ll only be
       troubled with me on very calm days, if that’s any inducement.</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M2">
      <speaker>Kavan.</speaker>
      <p>An inducement! It decides me! Miss Blake, I’ll go with pleasure. <stage>(Aside.)</stage>
       Boreas, blustering railer, do your worst! <stage>(Goes up.)</stage></p>
     </sp>
     <stage>Enter Guy.</stage>
-    <sp>
+    <sp who="#L1460_M3">
      <speaker>Guy.</speaker>
      <p>Druce!</p>
     </sp>
     <stage>Enter Druce.</stage>
-    <sp>
+    <sp who="#L1460_M6">
      <speaker>Druce.</speaker>
      <p><emph>. </emph>Sir?</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M3">
      <speaker>Guy.</speaker>
      <p>Is everything packed?</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M6">
      <speaker>Druce.</speaker>
      <p><emph>. </emph>Yes, sir. The dog-cart is being put to, and Mr. Warrington will drive you
       down to the station.</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M3">
      <speaker>Guy.</speaker>
      <p>All right. <stage>(Exit Druce.)</stage> Time is nearly up, Jessie!</p>
     </sp>
     <pb n="8"/>
-    <sp>
+    <sp who="#L1460_F8">
      <speaker>Jessie.</speaker>
      <p>
       <stage>(with indifference).</stage> Is it?</p>
     </sp>
-    <sp>
+    <sp who="#L1460_F7">
      <speaker>Mrs. F.</speaker>
      <p>When do you start, Mr. Guy?</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M3">
      <speaker>Guy.</speaker>
 
      <p>We leave Beauclere in half-an-hour! It’s awfully hard lines on a man. What’s the use of
       garrisoning a great barren worthless rock, like Gibraltar? There’s nothing whatever in it.</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M2">
      <speaker>Kavan.</speaker>
 
      <p>That is a defect that you are sent out to repair.</p>
     </sp>
-    <sp>
+    <sp who="#L1460_F7">
      <speaker>Mrs. F.</speaker>
      <p><stage>(aside).</stage> Come, Mr. Kavanagh, they’ve been quarrelling, and we must give them
       a chance of making it up before they part. <stage>(Takes his arm.)</stage></p>
     </sp>
-    <sp>
+    <sp who="#L1460_F8">
      <speaker>Jessie.</speaker>
      <p>Don’t go, Mrs. Fitzosborne.</p>
     </sp>
-    <sp>
+    <sp who="#L1460_F7">
      <speaker>Mrs. F.</speaker>
      <p>Yes, we must. We are going to rehearse a series of <emph>repartees</emph> that will astonish
       you when you hear them.</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M2">
      <speaker>Kavan.</speaker>
      <p>I don’t meditate <emph>my</emph> good things, Mrs. Fitzosborne.</p>
     </sp>
-    <sp>
+    <sp who="#L1460_F7">
      <speaker>Mrs. F.</speaker>
      <p>No, I’m sure you don’t; quite sure. <stage>(Kavanagh bows, very much gratified.)</stage> If
       you did you wouldn’t say them. Come along.</p>
     </sp>
     <stage>Exeunt Mrs. Fitzosborne and Kavanagh, R.</stage>
-    <sp>
+    <sp who="#L1460_M3">
      <speaker>Guy.</speaker>
      <p>
       <stage>(coming forward with some hesitation).</stage> Jessie!</p>
     </sp>
-    <sp>
+    <sp who="#L1460_F8">
      <speaker>Jessie.</speaker>
      <p>Well!</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M3">
      <speaker>Guy.</speaker>
      <p>In half-an-hour I must go. I shan’t see you again for –</p>
     </sp>
-    <sp>
+    <sp who="#L1460_F8">
      <speaker>Jessie.</speaker>
      <p>Two months.</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M3">
      <speaker>Guy.</speaker>
      <p>And then only for a week.</p>
     </sp>
-    <sp>
+    <sp who="#L1460_F8">
      <speaker>Jessie.</speaker>
      <p>That’s all? Dreadful, isn’t it? <stage>(Sits, R.)</stage></p>
     </sp>
-    <sp>
+    <sp who="#L1460_M3">
      <speaker>Guy.</speaker>
      <p>It <emph>is</emph> dreadful; but it’s still more dreadful to think how little you care about
       losing me.</p>
     </sp>
-    <sp>
+    <sp who="#L1460_F8">
      <speaker>Jessie.</speaker>
      <p>Oh, I’m sorry to lose you! You’re so – so – so useful.</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M3">
      <speaker>Guy.</speaker>
      <p>Useful! <stage>(Sits.)</stage></p>
     </sp>
-    <sp>
+    <sp who="#L1460_F8">
      <speaker>Jessie.</speaker>
      <p>Yes, it’s pleasant to have someone always at one’s beck and call, and now that you’re going,
       it may be weeks before I’m able to replace you.</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M3">
      <speaker>Guy.</speaker>
      <p>Replace me!</p>
     </sp>
-    <sp>
+    <sp who="#L1460_F8">
      <speaker>Jessie.</speaker>
      <p>Yes. I really don’t know what I shall do, unless Mr. Kavanagh –</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M3">
      <speaker>Guy.</speaker>
      <p>Jessie, dear old Jessie, you don’t mean that – you’re saying it to tease me – Kavanagh’s a
       snob, and you know it, dear; I’ve no fear of him.</p>
     </sp>
-    <sp>
+    <sp who="#L1460_F8">
      <speaker>Jessie.</speaker>
      <p>Mr. Kavanagh takes great pains to say pleasant things to me, and if he has a good memory and
       is quick at executing commissions, he’ll do very well. Besides, <emph>he’s</emph> never rude
       to me.</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M3">
      <speaker>Guy.</speaker>
      <p>Have I been rude?</p>
     </sp>
-    <sp>
+    <sp who="#L1460_F8">
      <speaker>Jessie.</speaker>
      <p>Very!</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M3">
      <speaker>Guy.</speaker>
      <p>What have I done?</p>
     </sp>
-    <sp>
+    <sp who="#L1460_F8">
      <speaker>Jessie.</speaker>
      <p>All sorts of things.</p>
     </sp>
     <pb n="9"/>
-    <sp>
+    <sp who="#L1460_M3">
      <speaker>Guy.</speaker>
      <p>Tell me one thing.</p>
     </sp>
-    <sp>
+    <sp who="#L1460_F8">
      <speaker>Jessie.</speaker>
      <p>I won’t, I’m too generous.</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M3">
      <speaker>Guy.</speaker>
      <p>Then you’ll forgive me!</p>
     </sp>
-    <sp>
+    <sp who="#L1460_F8">
      <speaker>Jessie.</speaker>
      <p>Oh, yes.</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M3">
      <speaker>Guy.</speaker>
      <p>And, as soon as I arrive at Gibraltar, I’ll – I’ll send you over the greatest curiosity I
       can buy as a <foreign>souvenir</foreign>.</p>
     </sp>
-    <sp>
+    <sp who="#L1460_F8">
      <speaker>Jessie.</speaker>
      <p>Oh, do!</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M3">
      <speaker>Guy.</speaker>
      <p>What shall I send you? A pretty little green monkey?</p>
     </sp>
-    <sp>
+    <sp who="#L1460_F8">
      <speaker>Jessie.</speaker>
      <p>A green monkey! Oh, that will be delightful. How kind of you; and whenever I look at it, I
       shall always think of you.</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M3">
      <speaker>Guy.</speaker>
      <p><stage>(delighted at first).</stage> You will! <stage>(Relapses.)</stage> Jessie, you’re
       very cruel to me, the time is so short and – and it will be so long –</p>
     </sp>
-    <sp>
+    <sp who="#L1460_F8">
      <speaker>Jessie.</speaker>
      <p>So short and so long.</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M3">
      <speaker>Guy.</speaker>
      <p>So long before we meet again. Dear Jessie, I don’t put it well, I know.</p>
     </sp>
-    <sp>
+    <sp who="#L1460_F8">
      <speaker>Jessie.</speaker>
      <p>No, you don’t.</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M3">
      <speaker>Guy.</speaker>
      <p>I’ve never loved anybody but you. If I had been a devil of a fellow and done this sort of
       thing very often, I should know what to say and how to say it, and I shouldn’t mean it; but I
       haven’t and I don’t – and I do – and – and –</p>
     </sp>
-    <sp>
+    <sp who="#L1460_F8">
      <speaker>Jessie.</speaker>
      <p>You must practise with the garrison ladies at Gibraltar, and when you come back, dear,
       you’ll know how to express yourself coherently.</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M3">
      <speaker>Guy.</speaker>
      <p>Jessie, you’re very angry with me for something, and I don’t know what it is; but don’t send
       me away without telling me that I am forgiven for what I’ve done – whatever it is. I love you
@@ -755,7 +787,7 @@
        emotion.)</stage> I shall begin to think that you’re doing this, in order that you may be
       able to say that you’ve seen a fellow make a fool of himself. <stage>(Rises.)</stage></p>
     </sp>
-    <sp>
+    <sp who="#L1460_F8">
      <speaker>Jessie.</speaker>
      <p><stage>(after a pause, suddenly bursts into tears, and throws her arms round his
        neck).</stage> My dear old Guy, I love you with all my heart and soul; I like to tease you; I
@@ -765,29 +797,29 @@
       cruel any more – and – and, oh, Guy, <emph>isn’t</emph> it worthwhile quarrelling when we make
       it up again like this?</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M3">
      <speaker>Guy.</speaker>
      <p>. My darling Jessie, I must tell the governor of this before I go.</p>
     </sp>
     <pb n="10"/>
-    <sp>
+    <sp who="#L1460_F8">
      <speaker>Jessie.</speaker>
      <p>He must have guessed it, dear.</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M3">
      <speaker>Guy.</speaker>
      <p>. Yes, but the thing must be done officially. <stage>(Crosses, R.)</stage> It’s an awkward
       thing to do; it puts a fellow in such a ridiculous light, but it must be done, I know! I’ll
       put it off to the very last minute, and then he can’t blow me up.</p>
     </sp>
     <stage>Enter Denis, crossing from L. U. E. down R.</stage>
-    <sp>
+    <sp who="#L1460_M1">
      <speaker>Denis.</speaker>
      <p>
       <stage>(C.)</stage> Miss Blake – Mr. Warrington has been looking for you. May I take you to
       him? He’s in the billiard room.</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M3">
      <speaker>Guy.</speaker>
      <p>
       <stage>(crosses, C.).</stage> No – no, let her go alone, she knows her way. Stop here with me,
@@ -795,62 +827,62 @@
       ground for me if you can. <stage>(Exit Jessie.)</stage> At last we are alone together, for the
       first time for six years.</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M1">
      <speaker>Denis.</speaker>
      <p>
       <stage>(R. C.)</stage> Yes; when I saw you last, you wore a blouse, and a belt with a buckle
       as big as a blue book.</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M3">
      <speaker>Guy.</speaker>
      <p>And you had just thrown out a pair of tails, and precious proud you were of
        <emph>them</emph>! and a pair of whiskers, and precious proud you were of <emph>them</emph>!
       I remember how I envied them, and wondered if I should ever have any like them. I don’t
       believe I ever shall! Why, I haven’t seen you since the day you left old Mortiboy’s!</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M1">
      <speaker>Denis.</speaker>
      <p>No. I’ve lived so long away from what people call the world. During the few years that
       intervened between my leaving school and sailing for Africa I only had one idea in my head –
       poor little Florence. Ah! well, never mind <emph>that</emph>; and when she threw me over I
       couldn’t stand it any longer, and I sailed for Africa the day she married.</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M3">
      <speaker>Guy.</speaker>
      <p>
       <stage>(rises).</stage> Poor old Den! But you’ve got over that.</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M1">
      <speaker>Denis.</speaker>
      <p>Yes. <stage>(Crosses, R.)</stage></p>
     </sp>
-    <sp>
+    <sp who="#L1460_M3">
      <speaker>Guy.</speaker>
      <p>Quite?</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M1">
      <speaker>Denis.</speaker>
      <p>Quite!</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M3">
      <speaker>Guy.</speaker>
      <p>True?</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M1">
      <speaker>Denis.</speaker>
      <p>Grip! <stage>(They shake hands – then burst out laughing.)</stage></p>
     </sp>
-    <sp>
+    <sp who="#L1460_M3">
      <speaker>Guy.</speaker>
      <p>By Jove! our old school words, when we pledged our honour – I had forgotten them; to think
       of that cropping up of itself as naturally as if we were still at old Mortiboy’s. They always
       said of Den Grant that he never went from his grip, and you never did, old boy.</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M1">
      <speaker>Denis.</speaker>
      <p>I hope not.</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M3">
      <speaker>Guy.</speaker>
      <p>Well, I was going to tell you something – a secret – but not now, I want it to be complete
       before I tell you – and – and – it isn’t quite complete; I’ll go and finish it up, it only
@@ -858,7 +890,7 @@
       there, I am screwed up now, but it’s a twister, Old Den, I can tell you. <stage>(Exit Guy, L.
        U. E.)</stage></p>
     </sp>
-    <sp>
+    <sp who="#L1460_M1">
      <speaker>Denis.</speaker>
      <p>Poor little Flo! Benson turned out a scoundrel, I hear, and she’s teaching music now. It’s
       strange how easily we get over these things. If any man had told me when she married Benson,
@@ -868,158 +900,158 @@
        R.)</stage></p>
     </sp>
     <stage>Enter Grouse, L. U. E., meeting Druce.</stage>
-    <sp>
+    <sp who="#L1460_M4">
      <speaker>Grouse.</speaker>
      <p>My friend, are you the butler?</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M6">
      <speaker>Druce.</speaker>
      <p>Butler! don’t you see my livery?</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M4">
      <speaker>Grouse.</speaker>
      <p>Well, what are you?</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M6">
      <speaker>Druce.</speaker>
      <p>I’m Mr. Guy Warrington’s regimental servant.</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M4">
      <speaker>Grouse.</speaker>
      <p>So you know Mr. Kavanagh?</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M6">
      <speaker>Druce.</speaker>
      <p>I’ve heard of such a party.</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M4">
      <speaker>Grouse.</speaker>
      <p>Is he dining here to-night by any accident?</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M6">
      <speaker>Druce.</speaker>
      <p>No, he appeared to be doing it on purpose.</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M4">
      <speaker>Grouse.</speaker>
      <p>Then he is here! Can I see him?</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M6">
      <speaker>Druce.</speaker>
      <p><stage>(looking round).</stage> No, I don’t think you can; but you know best.</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M4">
      <speaker>Grouse.</speaker>
      <p>Don’t prevaricate, sir.</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M6">
      <speaker>Druce.</speaker>
      <p>Prevaricate! I don’t know what that is; but it don’t sound like the sort of thing I’m likely
       to do. Seldom do anything over three syllables, sir!</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M4">
      <speaker>Grouse.</speaker>
      <p>Look here – I’m a lawyer, and I must see Mr. Kavanagh!</p>
     </sp>
     <stage>Enter Boodle, L.</stage>
-    <sp>
+    <sp who="#L1460_M5">
      <speaker>Boodle.</speaker>
      <p>What’s this?</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M4">
      <speaker>Grouse.</speaker>
      <p>I’m a lawyer, sir, and I wish to see Mr. Kavanagh on important business.</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M5">
      <speaker>Boodle.</speaker>
      <p>
       <stage>(to Druce).</stage> Bai Jove! Tell Mr. Kavanagh his solicitor wants him.</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M4">
      <speaker>Grouse.</speaker>
      <p><stage>(crosses, C.).</stage> Not his solicitor, sir, Mr. Kavanagh’s solicitor is a chancery
       – I’m a criminal!</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M5">
      <speaker>Boodle.</speaker>
      <p>A what? <stage>(Aghast.)</stage></p>
     </sp>
-    <sp>
+    <sp who="#L1460_M4">
      <speaker>Grouse.</speaker>
      <p>A criminal lawyer, sir. Mr. Kavanagh wouldn’t put his affairs into the hands of a
       criminal.</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M5">
      <speaker>Boodle.</speaker>
      <p>No; I should think not! But I say – a criminal?</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M4">
      <speaker>Grouse.</speaker>
      <p>Yes, sir, a criminal lawyer.</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M5">
      <speaker>Boodle.</speaker>
      <p>Bai Jove! But I thay, more criminal than other lawyerth.</p>
     </sp>
     <pb n="12"/>
-    <sp>
+    <sp who="#L1460_M4">
      <speaker>Grouse.</speaker>
      <p>My practice, sir, is almost exclusively confined to crime.</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M5">
      <speaker>Boodle.</speaker>
      <p>Bai Jove! But I thay, what have you done, and ain’t you ashamed of it?</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M4">
      <speaker>Grouse.</speaker>
      <p>Ashamed of it, sir? I glory in it! <stage>(Goes up – sits, C.)</stage></p>
     </sp>
-    <sp>
+    <sp who="#L1460_M5">
      <speaker>Boodle.</speaker>
      <p>Bai Jove! Here’s a hardened thcoundrel, Druth. <stage>(Crosses, R. C.)</stage></p>
     </sp>
-    <sp>
+    <sp who="#L1460_M6">
      <speaker>Druce.</speaker>
      <p>
       <stage>(R.)</stage> Sir?</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M5">
      <speaker>Boodle.</speaker>
      <p>Tell Mr. Kavanagh.</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M6">
      <speaker>Druce.</speaker>
      <p>Yes, sir – beg pardon – shall I send for a constable, sir?</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M5">
      <speaker>Boodle.</speaker>
      <p>No; I’ll look after him. It will amuthe me.</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M6">
      <speaker>Druce.</speaker>
      <p>Well! I have heard of honest lawyers, but here’s a lawyer honest enough to own that he’s a
       thief. He must be a beginner. <stage>(Exit Druce, R.)</stage></p>
     </sp>
-    <sp>
+    <sp who="#L1460_M5">
      <speaker>Boodle.</speaker>
 
      <p>Well, Mr. –</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M4">
      <speaker>Grouse.</speaker>
 
      <p>Grouse – well known at the Old Bailey and Middlesex Sessions.</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M5">
      <speaker>Boodle.</speaker>
      <p>Yes, I’ll be bound you are! Well, Mr. Grouse, you puzzle me.</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M4">
      <speaker>Grouse.</speaker>
      <p>I should say, sir, from the look of you, that you’re the sort of gentleman that is easily
       puzzled.</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M5">
      <speaker>Boodle.</speaker>
      <p>Bai Jove, you’re right. I am! you’re quite right. Thath doothid good. He thaw it at a
       glance. Now, hereth a fellow with a power of observation much above the average, and talenth
@@ -1028,111 +1060,111 @@
       everybody he comes acroth that he’th a criminal and glorieth in it.</p>
     </sp>
     <stage>Enter Kavanagh.</stage>
-    <sp>
+    <sp who="#L1460_M2">
      <speaker>Kavan.</speaker>
      <p>
       <stage>(C.)</stage> Druce says I’m wanted. Who’s this?</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M4">
      <speaker>Grouse.</speaker>
      <p>
       <stage>(rise).</stage> If you mean me, sir, I’m a lawyer, and I want to see you on very
       pressing business. If you mean him, sir, he’s a lunatic, and ought to be looked after!</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M2">
      <speaker>Kavan.</speaker>
      <p>Why, Boodle, he’s read you off like a book. <stage>(To Grouse.)</stage> If you’ll step into
       the dining room, I’ll hear what you have to say. <stage>(Grouse going to house.)</stage></p>
     </sp>
-    <sp>
+    <sp who="#L1460_M5">
      <speaker>Boodle.</speaker>
      <p>
       <stage>(aside to Kavanagh).</stage> Don’t let him into the houthe. He’s a criminal, he thays
       tho.</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M2">
      <speaker>Kavan.</speaker>
      <p>What?</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M5">
      <speaker>Boodle.</speaker>
      <p>Fact!</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M2">
      <speaker>Kavan.</speaker>
      <p>I’ll hear what you have to say here.</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M4">
      <speaker>Grouse.</speaker>
      <p>But not before him.</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M5">
      <speaker>Boodle.</speaker>
      <p>Oh, I’ll go – <stage>(Aside to Kavanagh.)</stage> and send for a constable.</p>
     </sp>
     <stage>Exit Boodle, R.</stage>
     <pb n="13"/>
-    <sp>
+    <sp who="#L1460_M2">
      <speaker>Kavan.</speaker>
      <p>Now then, what is it?</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M4">
      <speaker>Grouse.</speaker>
      <p>My name is Grouse, sir, of Grouse and Cookit, Thavie’s Inn. I’ve come, sir, on a very
       melancholy errand, sir! Poor Miss Blake, sir, orphan, sir!</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M2">
      <speaker>Kavan.</speaker>
      <p>Well, what of that?</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M4">
      <speaker>Grouse.</speaker>
      <p>I feel for an orphan, sir. <emph>I’m</emph> an orphan, sir.</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M2">
      <speaker>Kavan.</speaker>
      <p>Your parents are in luck.</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M4">
      <speaker>Grouse.</speaker>
      <p><stage>(piously).</stage> I trust so, sir, I trust so. Well, sir, I bring bad news about
       Miss Blake, very bad news. Bear up, sir, it’s a blow, but bear up.</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M2">
      <speaker>Kavan.</speaker>
      <p>Well, what is this about Miss Blake?</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M4">
      <speaker>Grouse.</speaker>
      <p>Well, sir, she inherited her fortune of twelve thousand pounds through her father dying
       intestate at Cadiz, where he was in practice as an English solicitor. <stage>(Crosses,
        C.)</stage></p>
     </sp>
-    <sp>
+    <sp who="#L1460_M2">
      <speaker>Kavan.</speaker>
      <p>Well?</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M4">
      <speaker>Grouse.</speaker>
      <p>Well, her father ain’t her father. He adopted her when she was twelve months old, and having
       brought her up as his daughter, never had the heart to undeceive the pretty little gal – and
       when he died, suddenly two years ago, she succeeded to his fortune as a matter of course. Bear
       up, sir, it’s a blow, and it’s coming, but bear up.</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M2">
      <speaker>Kavan.</speaker>
      <p>But if Jessie Blake is not Blake’s daughter, his estate should go to his next of kin, and
       that is –</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M4">
      <speaker>Grouse.</speaker>
      <p>You, sir! <stage>(Kavanagh sits, R.)</stage> Bear up, sir, it’s a blow, but bear up.</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M2">
      <speaker>Kavan.</speaker>
      <p>Why did you not mention this at the time of Mr. Blake’s death?</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M4">
      <speaker>Grouse.</speaker>
      <p>Why should I, sir. The pretty little girl was an orphan, and I didn’t know that Mr. Blake
       had any relations. I held my peace. Well, I learnt only last week that he had a nephew alive.
@@ -1140,98 +1172,98 @@
       when I learnt that that nephew was an orphan too, my heart yearned towards him, and I said,
       “Now,” says I, “it’s orphan against orphan, and let the best orphan win!”</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M2">
      <speaker>Kavan.</speaker>
      <p>You’ll want to be paid I suppose? Besides your costs out of pocket, what do you want?</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M4">
      <speaker>Grouse.</speaker>
      <p>The orphan, sir, has twelve thousand pounds. I don’t believe I could bring myself to
       disinherit her on any terms short of snacks.</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M2">
      <speaker>Kavan.</speaker>
      <p>Snacks?</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M4">
      <speaker>Grouse.</speaker>
      <p>Half-and-half.</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M2">
      <speaker>Kavan.</speaker>
      <p><stage>(rises).</stage> Why you inf –. If you have evidence of this it appears to me that I
       could compel you to produce it, and punish you for having concealed it.</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M4">
      <speaker>Grouse.</speaker>
      <p><emph>Could</emph> you, sir? You know more about these <pb n="14"/> things than I do, and
       I’m always glad to learn. How, sir?</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M2">
      <speaker>Kavan.</speaker>
      <p>By searching the registers throughout the country till I find out all about her.</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M4">
      <speaker>Grouse.</speaker>
      <p>That would be a capital plan if you knew the young lady’s name, sir; but you don’t.
        <stage>(Kavanagh crossing, L.)</stage> And if she was born in Great Britain or Ireland: but
       she wasn’t.</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M2">
      <speaker>Kavan.</speaker>
      <p>And if you fail to prove all this?</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M4">
      <speaker>Grouse.</speaker>
      <p>I shall be satisfied with the consciousness that the scattering of these here shiners, will
       be in the hands of an orphan whichever way it goes.</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M2">
      <speaker>Kavan.</speaker>
      <p>Well, I’ll agree, provided that my liability is contingent on the recovery of the property.
       But what shall I have to do?</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M4">
      <speaker>Grouse.</speaker>
      <p>I’m off to Cadiz, to-morrow. You must join me there in six weeks to establish your claim
       before the local courts. But in the first place, you must go to town and see my partner –
       there’s his card <stage>(Giving card.)</stage> – and enter into the necessary arrangements. He
       won’t be hard on you. He’s an orphan too.</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M2">
      <speaker>Kavan.</speaker>
      <p>All right. I’ll see to it.</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M4">
      <speaker>Grouse.</speaker>
      <p>Good evening, sir.</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M2">
      <speaker>Kavan.</speaker>
      <p>Mind, you take your chance!</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M4">
      <speaker>Grouse.</speaker>
      <p>Yes, sir, the satisfaction of feeling –</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M2">
      <speaker>Kavan.</speaker>
      <p>Exactly – of course. Virtue’s its own reward.</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M4">
      <speaker>Grouse.</speaker>
      <p>Indeed, sir! how do <emph>you</emph> know?</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M2">
      <speaker>Kavan.</speaker>
      <p>How do I know? Because, you scoundrel, vice requires to be so devilish well paid for its
       dirty work, that it swops up all the profit.</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M4">
      <speaker>Grouse.</speaker>
      <p>So it does, sir. We divide the profits. Good evening. <stage>(Exit, R.)</stage></p>
     </sp>
-    <sp>
+    <sp who="#L1460_M2">
      <speaker>Kavan.</speaker>
      <p>Jessie Blake not old Blake’s daughter. Oh, it’s a lie! But what object could that fellow
       have in coming all the way down here if his story is false? Twelve thousand pounds to share
@@ -1244,130 +1276,130 @@
       the oily daughter of the great <pb n="15"/> chief Rum Fusti Bang; or does that mighty body
       fret at having to pack itself into a tight dress suit? Which is it?</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M1">
      <speaker>Denis.</speaker>
      <p>I say Mr. –</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M2">
      <speaker>Kavan.</speaker>
      <p>Kavanagh!</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M1">
      <speaker>Denis.</speaker>
      <p>Kavanagh, why do you say such rude things to me?</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M2">
      <speaker>Kavan.</speaker>
      <p>Rude? That’s not rudeness, my boy, that’s chaff – <emph>repartee</emph>, and so on.</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M1">
      <speaker>Denis.</speaker>
      <p><emph>Repartee</emph>? What’s that?</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M2">
      <speaker>Kavan.</speaker>
      <p>The art of –</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M1">
      <speaker>Denis.</speaker>
      <p>The art of saying out loud what well-bred people only think!</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M2">
      <speaker>Kavan.</speaker>
      <p>Well, that’s <emph>repartee</emph> in its roughest state. If I call you a noble savage, and
       you say to me “Kavanagh” you’re a “snob,” that’s <emph>repartee</emph> in its simplest and
       most obvious form.</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M1">
      <speaker>Denis.</speaker>
      <p>And on that account particularly adapted to the use of a beginner, like myself.</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M2">
      <speaker>Kavan.</speaker>
      <p>Exactly. But if I say, when you approach me, “Lo! the poor Indian, whose untutored mind,”
       and you reply –</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M1">
      <speaker>Denis.</speaker>
      <p>That the person who calls a man an Indian, because he has travelled in Africa, is hardly an
       authority on the subject of tutorship?</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M2">
      <speaker>Kavan.</speaker>
      <p>
       <stage>(taken aback).</stage> Precisely – that’s repartee in its highest state of cultivation.
       That’s the sort of thing you’ll get to in time. In the meanwhile –</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M1">
      <speaker>Denis.</speaker>
      <p>In the meanwhile you won’t quarrel with me if I conduct myself in the simpler and more
       obvious form. <stage>(retires up, R.)</stage></p>
     </sp>
-    <sp>
+    <sp who="#L1460_M2">
      <speaker>Kavan.</speaker>
      <p>Damn the fellow! <stage>(Aloud)</stage> I tell you what it is, Mr. Denis Grant –</p>
     </sp>
     <stage>Enter Jessie, L. 1 E .</stage>
-    <sp>
+    <sp who="#L1460_F8">
      <speaker>Jessie.</speaker>
      <p>What is it, Mr. Kavanagh?</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M2">
      <speaker>Kavan.</speaker>
      <p>It is this, Miss Blake – I’ve been giving Mr. Grant a lesson in repartee – at present he’s a
       beginner, and handles his weapon clumsily. <stage>(Crosses, L.)</stage> I will give him
       another lesson at an early opportunity. <stage>(Exit Kavanagh, L. 1 E .)</stage></p>
     </sp>
-    <sp>
+    <sp who="#L1460_F8">
      <speaker>Jessie.</speaker>
      <p><stage>(delighted)</stage> Have you been snubbing Mr. Kavanagh?</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M1">
      <speaker>Denis.</speaker>
      <p>Well, yes, I couldn’t help it, he brought it on himself.</p>
     </sp>
-    <sp>
+    <sp who="#L1460_F8">
      <speaker>Jessie.</speaker>
      <p>Oh! I’m so glad. I like to see him taken down. I hope you were very rude to him!</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M1">
      <speaker>Denis.</speaker>
      <p>Well, I’m afraid I was. <stage>(Goes, R.)</stage> I’m rather a rough <pb n="16"/> customer,
       and I’m afraid I’ve lain by too long, and grown too rusty to take a polish now.</p>
     </sp>
-    <sp>
+    <sp who="#L1460_F8">
      <speaker>Jessie.</speaker>
      <p>Oh! I wouldn’t have you polished for worlds. <stage>(Sits, R.)</stage> We don’t French
       polish oak trees!</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M1">
      <speaker>Denis.</speaker>
      <p><stage>(foot on bench).</stage> But oak must be polished before it is entitled to take rank
       as drawing-room furniture.</p>
     </sp>
-    <sp>
+    <sp who="#L1460_F8">
      <speaker>Jessie.</speaker>
      <p>And do you aspire to take rank as furniture? Does the grand mighty massive living oak aspire
       to be chopped up into chairs and tables?</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M1">
      <speaker>Denis.</speaker>
      <p>If the living oak can serve you better in that form than any other –</p>
     </sp>
-    <sp>
+    <sp who="#L1460_F8">
      <speaker>Jessie.</speaker>
      <p>But it can’t. It can best serve me by spreading its great boughs over me, and by letting me
       sit at its foot, and wonder at the folly of those who would plane down its rugged bark, and
       cover its leaves with a double coat of green paint. Why, what a First Commissioner you’d
       make!</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M1">
      <speaker>Denis.</speaker>
      <p><stage>(door, R.).</stage> I’m not propounding my own views, but those of the society in
       which you move. I’m over-matched in England. It’s coarse barbaric power against culture and
       civilization.</p>
     </sp>
-    <sp>
+    <sp who="#L1460_F8">
      <speaker>Jessie.</speaker>
      <p>Nonsense! It’s a primeval forest against a furniture shop! Now, once for all, I won’t have
       you chopped up into chairs and tables – you’ll only suffer for it in the long run. Look at
@@ -1375,53 +1407,53 @@
       and see how Mrs. Fitzosborne sits on him. Well, have you nothing to say? <stage>(Takes his
        arm.)</stage></p>
     </sp>
-    <sp>
+    <sp who="#L1460_M1">
      <speaker>Denis.</speaker>
      <p>
       <stage>(R.).</stage>I’ve a great deal to say, but I don’t know how to begin.</p>
     </sp>
-    <sp>
+    <sp who="#L1460_F8">
      <speaker>Jessie.</speaker>
      <p>
       <stage>(walking, R. C.).</stage> Begin at the beginning.</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M1">
      <speaker>Denis.</speaker>
      <p> But if the beginning should prove to be the end?</p>
     </sp>
-    <sp>
+    <sp who="#L1460_F8">
      <speaker>Jessie.</speaker>
      <p>Begin again at the end, and try back to the beginning.</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M1">
      <speaker>Denis.</speaker>
      <p>You give me courage.</p>
     </sp>
-    <sp>
+    <sp who="#L1460_F8">
      <speaker>Jessie.</speaker>
      <p>Then you should be ashamed to take it from me, I have so little. Why I’m afraid of a frog!
       Are you afraid of a frog?</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M1">
      <speaker>Denis.</speaker>
      <p>No, but I am of a woman! Are you afraid of a woman?</p>
     </sp>
-    <sp>
+    <sp who="#L1460_F8">
      <speaker>Jessie.</speaker>
      <p>Not of any woman I ever saw. But you don’t mean to say you’re afraid of <emph>me</emph>?</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M1">
      <speaker>Denis.</speaker>
      <p>
       <stage>(after a pause).</stage> No, I am not afraid of you. I – I have no reason to fear so
       tender, and merciful a little lady!</p>
     </sp>
-    <sp>
+    <sp who="#L1460_F8">
      <speaker>Jessie.</speaker>
      <p>
       <stage>(alarmed – aside).</stage> Merciful! Mrs. Fitzosborne’s own word!</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M1">
      <speaker>Denis.</speaker>
      <p>
       <stage>(sits, C.).</stage> We men are strange contradictions. When <pb n="17"/>we risk a few
@@ -1429,11 +1461,11 @@
       the stakes are happiness against misery, hope against despair, life against death; we take our
       destiny, and place it in the hands of an inexperienced child!</p>
     </sp>
-    <sp>
+    <sp who="#L1460_F8">
      <speaker>Jessie.</speaker>
      <p>But at whose mercy have you placed such a stake?</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M1">
      <speaker>Denis.</speaker>
      <p>
       <stage>(passionately).</stage> At yours, Jessie! I have thought over five hundred ways of
@@ -1442,7 +1474,7 @@
       in its own rough untutored way. I am a plain, rugged, earnest man. I have loved but once
       before; if you send me away from you, I shall never love again.</p>
     </sp>
-    <sp>
+    <sp who="#L1460_F8">
      <speaker>Jessie.</speaker>
      <p>Oh! Mr. Grant, I am very sorry for this – very, very sorry. I had no idea of it; I have been
       warned that I should bring you to this, but I did not believe it – I am such a child! And this
@@ -1453,80 +1485,79 @@
        speak.)</stage> Mr. Grant, I – I – cannot tell you! <stage>(Bursts into tears.)</stage></p>
     </sp>
     <stage>Enter Guy, hurriedly, prepared for journey – Jessie attempts to go.</stage>
-    <sp>
+    <sp who="#L1460_M3">
      <speaker>Guy.</speaker>
      <p>Don’t go, Jessie; you must stop; I’ve seen the governor, and it’s all right. I want Den to
       see how thoroughly swamped with happiness I am; so he must look at you and hear of you at the
       same time, or he won’t appreciate the full beauty of my position.</p>
     </sp>
-    <sp>
+    <sp who="#L1460_F8">
      <speaker>Jessie.</speaker>
      <p> Let me go, Guy; you can tell him without me.</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M3">
      <speaker>Guy.</speaker>
      <p>Tell him? <emph>I’m</emph> not going to tell him. He shall hear it from you.</p>
     </sp>
-    <sp>
+    <sp who="#L1460_F8">
      <speaker>Jessie.</speaker>
      <p>I can’t, Guy – indeed, I can’t.</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M1">
      <speaker>Denis.</speaker>
      <p>
       <stage>(quietly).</stage> Tell me, Miss Blake.</p>
     </sp>
-    <sp>
+    <sp who="#L1460_F8">
      <speaker>Jessie.</speaker>
      <p>
       <stage>(reluctantly).</stage> I – I – am engaged to be married to Guy.</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M3">
      <speaker>Guy.</speaker>
      <p>There, my dear old Den! – What do you think of that? Haven’t I done well for a fellow of
       eighteen? <stage>(Crosses, C.)</stage>
       <emph>You</emph> couldn’t have done as much, she wouldn’t have had you, you great gruff, surly
-      bear! You’ve had her all to yourself for a week, and ought to have cut me out, but you <pb
-       n="18"/> haven’t! Not you. Triumph of the slight but civilized Briton over the massive but
+      bear! You’ve had her all to yourself for a week, and ought to have cut me out, but you <pb n="18"/> haven’t! Not you. Triumph of the slight but civilized Briton over the massive but
       untutored savage! Tableau! <stage>(Stands in an attitude of triumph, with Jessie in his
        arms.)</stage></p>
     </sp>
-    <sp>
+    <sp who="#L1460_M1">
      <speaker>Denis.</speaker>
      <p>Indeed, I wish you a happy life together, Jessie! <stage>(Jessie crosses, C.)</stage> I may
       call you Jessie? <stage>(Taking her hand.)</stage></p>
     </sp>
-    <sp>
+    <sp who="#L1460_F8">
      <speaker>Jessie.</speaker>
      <p> Oh, yes.</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M1">
      <speaker>Denis.</speaker>
      <p> Jessie, I am happy to think that you will live in the care of so good and true a fellow as
       my dear old friend, Guy Warrington. God bless you! <stage>(Kisses her.)</stage> I did – I did
       not know of this.</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M3">
      <speaker>Guy.</speaker>
      <p>
       <stage>(C.).</stage> Then you’re a blind old mole. Why, it’s been going on – how long has it
       been going on, Jess?</p>
     </sp>
-    <sp>
+    <sp who="#L1460_F8">
      <speaker>Jessie.</speaker>
      <p><stage>(C.)</stage> I don’t know.</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M3">
      <speaker>Guy.</speaker>
      <p> Well, strictly speaking, it’s been going on about sixteen years, but it only began to look
       like business about six months ago.</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M1">
      <speaker>Denis.</speaker>
      <p>
       <stage>(R.).</stage> Six months? As long as that? <stage>(Aside)</stage> Poor Guy!</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M3">
      <speaker>Guy.</speaker>
      <p> Jessie, dear, in five minutes I must be off; tell Mrs. Fitz I should like to say good-bye
       to her – I want to speak to Den for one moment. <stage>(Exit Jessie, R. 1 E .)</stage>
@@ -1536,12 +1567,12 @@
       has one fault – she – she is a little bit of a flirt. You wouldn’t think so, to look at her,
       would you?</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M1">
      <speaker>Denis.</speaker>
      <p>
       <stage>(bitterly).</stage> No, not to look at her!</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M3">
      <speaker>Guy.</speaker>
      <p>She means no harm, it’s high spirits and nothing more, but men misunderstand her; and I’m
       dreadfully absurdly jealous, I know, but I can’t help it. It would keep me awake all night, if
@@ -1551,20 +1582,20 @@
       you watch over her, and protect her from such dangers as if she were to be your own wife?
       Promise me this, by our old school friendship.</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M1">
      <speaker>Denis.</speaker>
      <p>By our old school friendship I promise it.</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M3">
      <speaker>Guy.</speaker>
      <p>Thank you, Den, I shall go away quite happy.</p>
     </sp>
     <stage>Enter Jessie, R., Kavanagh, L., Mrs. Fitzosborne and Boodle, R.</stage>
-    <sp>
+    <sp who="#L1460_M2">
      <speaker>Kavan.</speaker>
      <p>Well, Guy, off at last to fight the Paynim foe?</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M3">
      <speaker>Guy.</speaker>
      <p>No, I’m not going to fight any foe! I’m going to <pb n="19"/>garrison, a confounded dull old
       rock for five shillings and threepence a day. I’m only a sub, Mr. Kavanagh, and I can’t get up
@@ -1576,23 +1607,23 @@
       are parting for a long time, and you’d do so too. <stage>(Embraces her passionately.)</stage>
       Denis, you remember your promise?</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M1">
      <speaker>Denis.</speaker>
      <p>Yes!</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M3">
      <speaker>Guy.</speaker>
      <p>And you’ll keep it?</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M1">
      <speaker>Denis.</speaker>
      <p>Yes!</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M3">
      <speaker>Guy.</speaker>
      <p>True?</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M1">
      <speaker>Denis.</speaker>
      <p>Grip!</p>
     </sp>
@@ -1606,358 +1637,358 @@
      Morning.</stage>
     <stage>Mrs. Fitzosborne and Boodle discovered; Mrs. Fitzosborne reading – Boodle, lying on his
      back on some rugs, smoking.</stage>
-    <sp>
+    <sp who="#L1460_M5">
      <speaker>Boodle.</speaker>
      <p>This yacht-life is awfully jolly.</p>
     </sp>
-    <sp>
+    <sp who="#L1460_F7">
      <speaker>Mrs. F.</speaker>
      <p>It’s awfully slow.</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M5">
      <speaker>Boodle.</speaker>
      <p>Ith the same thing. On thore, the world’th fatht and gets a-head of me. At thea, the
       world’th thlow and keepth alongside of me. The world and I get on very well in a yacht. I
       thould be thorry to leave the world in a yacht. I’m afraid my remarkth fail to interetht
       you?</p>
     </sp>
-    <sp>
+    <sp who="#L1460_F7">
      <speaker>Mrs. F.</speaker>
      <p>Yes, they bore me.</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M5">
      <speaker>Boodle.</speaker>
      <p>You’re very good. They uthed to amuthe you.</p>
     </sp>
-    <sp>
+    <sp who="#L1460_F7">
      <speaker>Mrs. F.</speaker>
      <p>They amuse me still when you’re serious. I can laugh at your sentiment, but your jokes are
       too solemn.</p>
     </sp>
     <pb n="20"/>
-    <sp>
+    <sp who="#L1460_M5">
      <speaker>Boodle.</speaker>
      <p>Nothing could be fairer than that.</p>
     </sp>
-    <sp>
+    <sp who="#L1460_F7">
      <speaker>Mrs. F.</speaker>
      <p>Oh, Baby Boodle, what a donkey you are!</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M5">
      <speaker>Boodle.</speaker>
      <p>Yeth, I’ve heard the remark before.</p>
     </sp>
-    <sp>
+    <sp who="#L1460_F7">
      <speaker>Mrs. F.</speaker>
      <p>. They may well call you Baby!</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M5">
      <speaker>Boodle.</speaker>
      <p>Yeth, it’th a pretty name. There’th a very remarkable thircumthtance connected with that
       name. Curiouthly enough, I wath firtht called “Baby” when I was quite a little child. It’th
       wonderful how they hit off my character even then. It wath me all over. Hullo! what’th thith?
        <stage>(Kicking a portmanteau.)</stage></p>
     </sp>
-    <sp>
+    <sp who="#L1460_F7">
      <speaker>Mrs. F.</speaker>
      <p>Mr. Kavanagh’s luggage.</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M5">
      <speaker>Boodle.</speaker>
      <p>The doothe! Then he’th come on board.</p>
     </sp>
-    <sp>
+    <sp who="#L1460_F7">
      <speaker>Mrs. F.</speaker>
      <p> He joined last night from Cadiz.</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M5">
      <speaker>Boodle.</speaker>
      <p>Where ith he?</p>
     </sp>
-    <sp>
+    <sp who="#L1460_F7">
      <speaker>Mrs. F.</speaker>
      <p>Below. I wish he’d come on deck.</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M5">
      <speaker>Boodle.</speaker>
      <p>Tho’ do I. He’th a thnob and you thnub him and I like it. I thnub him too, but you thnub him
       better than I do.</p>
     </sp>
-    <sp>
+    <sp who="#L1460_F7">
      <speaker>Mrs. F.</speaker>
      <p>Thank you.</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M5">
      <speaker>Boodle.</speaker>
      <p>Not at all. It’th a great lark to thee you and Kavanagh together, and ath we must have him
       and can’t help ourselves; ith doothid lucky you’re on board to take him down. Here he ith. Now
       go in at him.</p>
     </sp>
     <stage>Enter Kavanagh, L.</stage>
-    <sp>
+    <sp who="#L1460_F7">
      <speaker>Mrs. F.</speaker>
      <p>
       <stage>(changing her manner).</stage> Oh, Mr. Kavanagh, I’m so delighted to see you.</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M2">
      <speaker>Kavan.</speaker>
      <p>Indeed!</p>
     </sp>
-    <sp>
+    <sp who="#L1460_F7">
      <speaker>Mrs. F.</speaker>
      <p>I am indeed. Now that you’ve joined we shall have such fun.</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M2">
      <speaker>Kavan.</speaker>
      <p>You’re very good to say so.</p>
     </sp>
-    <sp>
+    <sp who="#L1460_F7">
      <speaker>Mrs. F.</speaker>
      <p>Oh, no! Indeed I mean it.</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M5">
      <speaker>Boodle.</speaker>
      <p><stage>(aside).</stage> Wait a bit. He’ll catch it presently.</p>
     </sp>
-    <sp>
+    <sp who="#L1460_F7">
      <speaker>Mrs. F.</speaker>
      <p>Three weeks’ yachting have blunted my faculties. Everybody is so stupid on board, and I’m
       glad you’ve come, because I want you to sharpen them for me.</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M2">
      <speaker>Kavan.</speaker>
      <p>Really, Mrs. Fitzosborne, that sounds like a compliment!</p>
     </sp>
-    <sp>
+    <sp who="#L1460_F7">
      <speaker>Mrs. F.</speaker>
      <p>Does it? I like a man who’s easily pleased.</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M5">
      <speaker>Boodle.</speaker>
      <p>It’th coming, I don’t know what it is, but it’th coming!</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M2">
      <speaker>Kavan.</speaker>
      <p>Well, when you admit that it is in my power to sharpen your blunted faculties –</p>
     </sp>
-    <sp>
+    <sp who="#L1460_F7">
      <speaker>Mrs. F.</speaker>
      <p>I credit you with all the brilliant qualities of a knifeboard! There – I’m better after
       that! <stage>(Sits.)</stage></p>
     </sp>
-    <sp>
+    <sp who="#L1460_M5">
      <speaker>Boodle.</speaker>
      <p>Ith come! He’th got it! I didn’t know what it wath; but I knew it wath coming.</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M2">
      <speaker>Kavan.</speaker>
      <p>
       <stage>(hurt).</stage> I recognise the bluntness of which you complain. If it is in the power
       of a knifeboard to –</p>
     </sp>
-    <sp>
+    <sp who="#L1460_F7">
      <speaker>Mrs. F.</speaker>
      <p> To impart point and polish to my remarks, you will be only too happy to serve me in that
       capacity. Wasn’t that what you were going to say, Mr. Kavanagh?</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M2">
      <speaker>Kavan.</speaker>
      <p> Well – yes. <stage>(Aside.)</stage> Confound the woman, I wish she’d let me finish.</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M5">
      <speaker>Boodle.</speaker>
      <p> You’re too hard on him, Mrs. Fitz. Whenever Mr. Kavanagh hath a poor little thquib to
       dithcharge you alwayth take the bang out of it!</p>
     </sp>
-    <sp>
+    <sp who="#L1460_F7">
      <speaker>Mrs. F.</speaker>
      <p>Mr. Kavanagh handles his squibs so awkwardly that he would certainly burn his fingers with
       them if I didn’t take them out of his hands and finish them for him.</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M5">
      <speaker>Boodle.</speaker>
      <p>That’s another; nothing could be fairer than that!</p>
     </sp>
-    <sp>
+    <sp who="#L1460_F7">
      <speaker>Mrs. F.</speaker>
      <p> Oh, Baby Boodle, do go and get your breakfast while it’s calm.</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M5">
      <speaker>Boodle.</speaker>
      <p>I was only backing you up.</p>
     </sp>
-    <sp>
+    <sp who="#L1460_F7">
      <speaker>Mrs. F.</speaker>
      <p>Thank you, but I’m quite equal to meeting anything Mr. Kavanagh can say without
       assistance.</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M5">
      <speaker>Boodle.</speaker>
      <p>He’s getting it all over him. <stage>(Aside.)</stage> Don’t spare him; he’s bad form – he’s
       got no friends. <stage>(Exit.)</stage></p>
     </sp>
-    <sp>
+    <sp who="#L1460_F7">
      <speaker>Mrs. F.</speaker>
      <p>Now that foolish fellow has gone, let’s begin. Are you fond of yachting?</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M2">
      <speaker>Kavan.</speaker>
      <p>Sometimes.</p>
     </sp>
-    <sp>
+    <sp who="#L1460_F7">
      <speaker>Mrs. F.</speaker>
      <p>In fine weather?</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M2">
      <speaker>Kavan.</speaker>
      <p>No, in good company. In yachting, one’s enjoyment depends so much less on oneself than on
       one’s companions.</p>
     </sp>
-    <sp>
+    <sp who="#L1460_F7">
      <speaker>Mrs. F.</speaker>
      <p>You are quite right not to depend too much upon yourself.</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M2">
      <speaker>Kavan.</speaker>
      <p>Yes. I may be hypercritical, but I am tired of myself.</p>
     </sp>
-    <sp>
+    <sp who="#L1460_F7">
      <speaker>Mrs. F.</speaker>
      <p>You see you have had so much of yourself.</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M2">
      <speaker>Kavan.</speaker>
      <p>No doubt.</p>
     </sp>
-    <sp>
+    <sp who="#L1460_F7">
      <speaker>Mrs. F.</speaker>
      <p>But there, I won’t be rude any more, I’ll say a pretty thing to you. I’ll admit that if your
       epigrams and repartees amused you as much as they amuse others, you would never tire of your
       own society.</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M2">
      <speaker>Kavan.</speaker>
      <p>
       <stage>(with an elaborate bow).</stage> Thank you, Mr. Fitzosborne.</p>
     </sp>
-    <sp>
+    <sp who="#L1460_F7">
      <speaker>Mrs. F.</speaker>
      <p>But they don’t, do they!</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M2">
      <speaker>Kavan.</speaker>
      <p>No they don’t, indeed.</p>
     </sp>
-    <sp>
+    <sp who="#L1460_F7">
      <speaker>Mrs. F.</speaker>
      <p>You see you’ve heard them so often before! <stage>(Aside.)</stage> This man does give one
       such chances!</p>
     </sp>
     <pb n="22"/>
-    <sp>
+    <sp who="#L1460_M2">
      <speaker>Kavan.</speaker>
      <p>At all events I may conclude from your admission that they amuse <emph>you</emph>, that
        <emph>you</emph> have not heard them before.</p>
     </sp>
-    <sp>
+    <sp who="#L1460_F7">
      <speaker>Mrs. F.</speaker>
      <p>No, indeed! the society in which I move is so horribly well-bred. I can forgive almost any
       rudeness if it’s clever.</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M2">
      <speaker>Kavan.</speaker>
      <p>Then I may conclude that I am forgiven?</p>
     </sp>
-    <sp>
+    <sp who="#L1460_F7">
      <speaker>Mrs. F.</speaker>
      <p>
       <stage>(R. C.).</stage> I have nothing to forgive so far – you have been neither rude nor
       clever.</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M2">
      <speaker>Kavan.</speaker>
      <p>
       <stage>(L. C., annoyed).</stage> If you don’t take care I am afraid I shall certainly be one
       of those two things. <stage>(Crosses, R.)</stage></p>
     </sp>
-    <sp>
+    <sp who="#L1460_F7">
      <speaker>Mrs. F.</speaker>
      <p>Yes, I know which.</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M2">
      <speaker>Kavan.</speaker>
      <p>I am afraid I shall be rude.</p>
     </sp>
-    <sp>
+    <sp who="#L1460_F7">
      <speaker>Mrs. F.</speaker>
      <p>
       <stage>(R. and L.).</stage> Yes, that’s what I meant. It’s wonderful how you smart people
       wince under the operation of your own weapons when they are turned against you!</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M2">
      <speaker>Kavan.</speaker>
      <p>Why not! A surgeon would gladly cut off both of my arms if necessary, but –</p>
     </sp>
-    <sp>
+    <sp who="#L1460_F7">
      <speaker>Mrs. F.</speaker>
      <p>But he would expostulate if you were to retaliate, by cutting off both of <emph>his</emph>
       –? Wasn’t that what you are going to say?</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M2">
      <speaker>Kavan.</speaker>
      <p>Yes, if you had permitted me to finish my sentence.</p>
     </sp>
-    <sp>
+    <sp who="#L1460_F7">
      <speaker>Mrs. F.</speaker>
      <p>If you were to cut off both his arms?</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M2">
      <speaker>Kavan.</speaker>
      <p>Certainly.</p>
     </sp>
-    <sp>
+    <sp who="#L1460_F7">
      <speaker>Mrs. F.</speaker>
      <p>After he had cut off both of yours?</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M2">
      <speaker>Kavan.</speaker>
      <p>Yes, at least – that is –</p>
     </sp>
-    <sp>
+    <sp who="#L1460_F7">
      <speaker>Mrs. F.</speaker>
      <p>Don’t apologise for him. Under the circumstances his astonishment would be excusable!</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M2">
      <speaker>Kavan.</speaker>
      <p>Mrs. Fitzosborne – once for all I must protest –</p>
     </sp>
-    <sp>
+    <sp who="#L1460_F7">
      <speaker>Mrs. F.</speaker>
      <p>Why you don’t mean to say that you are getting angry?</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M2">
      <speaker>Kavan.</speaker>
      <p>I’m very much afraid I am. <stage>(Crossing, C.)</stage></p>
     </sp>
-    <sp>
+    <sp who="#L1460_F7">
      <speaker>Mrs. F.</speaker>
      <p>Oh, but that won’t do at all. Jessie expressly invited you to relieve the tedium of the
       voyage.</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M2">
      <speaker>Kavan.</speaker>
      <p>Did she? Are you quite sure?</p>
     </sp>
-    <sp>
+    <sp who="#L1460_F7">
      <speaker>Mrs. F.</speaker>
      <p>Quite sure.</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M2">
      <speaker>Kavan.</speaker>
      <p>Then I’m very sorry for our young military friend.<stage>(Shaking her hand.)</stage></p>
     </sp>
     <stage>Enter Boodle, from cabin.</stage>
-    <sp>
+    <sp who="#L1460_M5">
      <speaker>Boodle.</speaker>
      <p>They’ve had a row, and they’re making it up. Mrs. Fitz, the letter bag has arrived. Here are
       two letters for you, one for me – <stage>(Looks at it.)</stage> Tailor, eh? Good-bye.
@@ -1965,42 +1996,42 @@
        <stage>(To Kavanagh.)</stage> And now, Mrs. Fitz, breakfast is ready.</p>
     </sp>
     <pb n="23"/>
-    <sp>
+    <sp who="#L1460_F7">
      <speaker>Mrs. F.</speaker>
      <p>Oh, I don’t want any breakfast!</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M2">
      <speaker>Kavan.</speaker>
      <p>
       <stage>(aside).</stage> From Grouse, eh? Now, what the deuce can Grouse want? I only left him
       yesterday.</p>
     </sp>
-    <sp>
+    <sp who="#L1460_F7">
      <speaker>Mrs. F.</speaker>
      <p>
       <stage>(aside to Kavanagh).</stage> I shall keep a chair for you, next to mine. After
       breakfast we will renew the subject – but not a word yet.</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M5">
      <speaker>Boodle.</speaker>
      <p>The steward tells me there’s a first-rate devil waiting for us below.</p>
     </sp>
-    <sp>
+    <sp who="#L1460_F7">
      <speaker>Mrs. F.</speaker>
      <p>Captain Boodle, I’m quite sure of that. <stage>(In affected astonishment.)</stage></p>
     </sp>
-    <sp>
+    <sp who="#L1460_M5">
      <speaker>Boodle.</speaker>
      <p>No, no; when I thay a “devil,” of courth I mean a grill.</p>
     </sp>
-    <sp>
+    <sp who="#L1460_F7">
      <speaker>Mrs. F.</speaker>
      <p>
       <stage>(relieved).</stage> Oh, well, you’re not the first man who has mistaken cause for
       effect!</p>
     </sp>
     <stage>Exeunt Boodle and Mrs. Fitzosborne into cabin.</stage>
-    <sp>
+    <sp who="#L1460_M2">
      <speaker>Kavan.</speaker>
      <p>Now, here’s a letter from Grouse, eh? Very good! Now, before I open this, let me see how the
       coast lies. Jessie seems to have taken a violent fancy to me. She invites me of her own free
@@ -2012,38 +2043,38 @@
       in it. Steward!</p>
     </sp>
     <stage>Enter Steward, L.</stage>
-    <sp>
+    <sp who="#L1460_Misc">
      <speaker>Steward.</speaker>
      <p>Sir!</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M2">
      <speaker>Kavan.</speaker>
      <p>Place some boiling water in my cabin.</p>
     </sp>
-    <sp>
+    <sp who="#L1460_Misc">
      <speaker>Steward.</speaker>
      <p>Yes, sir! <stage>(Exit Steward.)</stage></p>
     </sp>
-    <sp>
+    <sp who="#L1460_M2">
      <speaker>Kavan.</speaker>
      <p>There are ways of returning a letter unopened after you have mastered its contents,
       especially when it’s enclosed in an adhesive envelope. <stage>(Exit, L.)</stage></p>
     </sp>
     <stage>Enter Jessie and Boodle, from cabin.</stage>
-    <sp>
+    <sp who="#L1460_F8">
      <speaker>Jessie.</speaker>
      <p>Oh! what a lovely morning, Captain Boodle!</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M5">
      <speaker>Boodle.</speaker>
      <p>Yeth, pretty well. It wath until you came on deck.</p>
     </sp>
-    <sp>
+    <sp who="#L1460_F8">
      <speaker>Jessie.</speaker>
      <p>
       <stage>(sits, L. C.).</stage> Indeed? I haven’t noticed any change.</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M5">
      <speaker>Boodle.</speaker>
      <p>Bai Jove! But no you wouldn’t, becauthe you are alwayth with yourthelf, you thee; you don’t
       think of it at the time, but you are. Now, with other fellowth, ith different. If a man wath
@@ -2052,23 +2083,23 @@
       yourthelf! <stage>(Aside.)</stage> That contains a very pretty thentiment, though ith moth
       awkwardly put.</p>
     </sp>
-    <sp>
+    <sp who="#L1460_F8">
      <speaker>Jessie.</speaker>
      <p>Then you really mean to say that my bright presence on deck makes everything else dull by
       contrast!</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M5">
      <speaker>Boodle.</speaker>
      <p>
       <stage>(rises).</stage> Thath it! Thath what I wanted to thay! Everything! Everything, Mith
       Blake, exthepting me, and it politheth me up into thuch a thtate of fireworkth that I hardly
       know myself. Now, I don’t go off like thith when I’m alone.</p>
     </sp>
-    <sp>
+    <sp who="#L1460_F8">
      <speaker>Jessie.</speaker>
      <p>But there’s Mrs. Fitzosborne – you say all sorts of good things to her, don’t you?</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M5">
      <speaker>Boodle.</speaker>
      <p>
       <stage>(sitting on deck – confidentially).</stage> No – thath the truth. No. She takth me
@@ -2076,93 +2107,93 @@
       Ith doothid thmart of her; but nothing makth me feel so like a donkey as telling me I am one.
       Don’t you feel that yourthelf?</p>
     </sp>
-    <sp>
+    <sp who="#L1460_F8">
      <speaker>Jessie.</speaker>
      <p>
       <stage>(laughing).</stage> Oh, invariably! <stage>(Rises.)</stage></p>
     </sp>
-    <sp>
+    <sp who="#L1460_M5">
      <speaker>Boodle.</speaker>
      <p>Now, I believe I could talk to you for ever!</p>
     </sp>
-    <sp>
+    <sp who="#L1460_F8">
      <speaker>Jessie.</speaker>
      <p>Oh! Captain Boodle!</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M5">
      <speaker>Boodle.</speaker>
      <p>I could – if you would let me.</p>
     </sp>
-    <sp>
+    <sp who="#L1460_F8">
      <speaker>Jessie.</speaker>
      <p>Oh! I should only be too happy! But what would Mrs. Fitzosborne think?</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M5">
      <speaker>Boodle.</speaker>
      <p>Oh, thee wouldn’t care; thee’s got Kavanagh to amuthe her. She hates Kavanagh, and she
       thnubs him; I thnub him too, but I don’t thnub him as well as thee does. Kavanagh acts upon
       her as a red rag acts upon a bull. I believe she’d toth him for a penny.</p>
     </sp>
-    <sp>
+    <sp who="#L1460_F8">
      <speaker>Jessie.</speaker>
      <p>Toss him for a penny?</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M5">
      <speaker>Boodle.</speaker>
      <p>Yeth. I mean she’d gore him. I don’t mean headth and tailth – and yet I <emph>do</emph> mean
       headth and tailth, when you come to think of it! Ha, ha! nothing could be fairer than that!
       Hallo! here ith the noble thavage.</p>
     </sp>
     <stage>Enter Denis from the cabin, R.</stage>
-    <sp>
+    <sp who="#L1460_M1">
      <speaker>Denis.</speaker>
      <p>Captain Boodle, Mrs. Fitzosborne wants you below. Don’t go, Jessie.</p>
     </sp>
-    <sp>
+    <sp who="#L1460_F8">
      <speaker>Jessie.</speaker>
      <p>But I wish to go.</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M1">
      <speaker>Denis.</speaker>
      <p>I want to speak to you seriously. Come, give me <emph>carte blanche</emph> to say what
       pleases me.</p>
     </sp>
-    <sp>
+    <sp who="#L1460_F8">
      <speaker>Jessie.</speaker>
      <p>I’ll give you <emph>carte blanche</emph> to say what pleases <emph>me</emph>. Our tastes are
       so different that I’m afraid we shall not agree on any other condition.</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M1">
      <speaker>Denis.</speaker>
      <p>Ah! But this is not a question of taste.</p>
     </sp>
     <pb n="25"/>
-    <sp>
+    <sp who="#L1460_F8">
      <speaker>Jessie.</speaker>
      <p><emph>Then</emph> I shall be happy to hear what you have to say on it. <stage>(Sits on
        skylight, C.)</stage></p>
     </sp>
-    <sp>
+    <sp who="#L1460_M1">
      <speaker>Denis.</speaker>
      <p>Well, then – it’s the old story. I don’t think you are treating Guy fairly.</p>
     </sp>
-    <sp>
+    <sp who="#L1460_F8">
      <speaker>Jessie.</speaker>
      <p>Yes; I knew it was that.</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M1">
      <speaker>Denis.</speaker>
      <p>Ah! conscience, Jessie!</p>
     </sp>
-    <sp>
+    <sp who="#L1460_F8">
      <speaker>Jessie.</speaker>
      <p>Conscience? Nonsense – experience!</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M1">
      <speaker>Denis.</speaker>
      <p>Experience?</p>
     </sp>
-    <sp>
+    <sp who="#L1460_F8">
      <speaker>Jessie.</speaker>
      <p>Yes, of you. You never speak to me on any other subject. It’s your invariable theme – my
       constant oblivion of Guy. <stage>(Rising and crossing, R.)</stage> I am going to him as
@@ -2170,67 +2201,67 @@
       don’t make more way. Oh! you <emph>are</emph> unreasonable to blame me because the Skylark
       don’t make more way!</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M1">
      <speaker>Denis.</speaker>
      <p>Nonsense, Jessie, I blame you because you flirt with Captain Boodle.</p>
     </sp>
-    <sp>
+    <sp who="#L1460_F8">
      <speaker>Jessie.</speaker>
      <p>But I can’t help it. He’s such a goose. Now you must admit that he’s a goose.</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M1">
      <speaker>Denis.</speaker>
      <p>By all means, but that doesn’t seem to meet my objection. Put it in this way: would you talk
       to Captain Boodle as you do if Guy were present?</p>
     </sp>
-    <sp>
+    <sp who="#L1460_F8">
      <speaker>Jessie.</speaker>
      <p>I don’t know. If Guy were present, I should talk to <emph>him</emph>.</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M1">
      <speaker>Denis.</speaker>
      <p>
       <stage>(C.).</stage> Well, Jessie, it’s impossible to talk rationally to you!</p>
     </sp>
-    <sp>
+    <sp who="#L1460_F8">
      <speaker>Jessie.</speaker>
      <p>
       <stage>(R.).</stage> You certainly have <emph>not</emph> been talking rationally to me!</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M1">
      <speaker>Denis.</speaker>
      <p>You must know that I am only asking you to do what is right.</p>
     </sp>
-    <sp>
+    <sp who="#L1460_F8">
      <speaker>Jessie.</speaker>
      <p>You must know that I am not likely to do what is wrong.</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M1">
      <speaker>Denis.</speaker>
      <p>I know you are likely to do what is thoughtless and giddy, and what is liable to be
       misrepresented by meddling ill-natured people.</p>
     </sp>
-    <sp>
+    <sp who="#L1460_F8">
      <speaker>Jessie.</speaker>
      <p>Evidently, Mr. Grant. <stage>(Curtseying.)</stage></p>
     </sp>
-    <sp>
+    <sp who="#L1460_M1">
      <speaker>Denis.</speaker>
      <p>
       <stage>(after a pause).</stage> Jessie, I think you will allow that if I had been actuated by
       the motives of a mere busybody, I should scarcely pursue my theme after that remark.</p>
     </sp>
-    <sp>
+    <sp who="#L1460_F8">
      <speaker>Jessie.</speaker>
      <p>It was with the view of discouraging you that I made it. <stage>(Crosses, L.)</stage></p>
     </sp>
-    <sp>
+    <sp who="#L1460_M1">
      <speaker>Denis.</speaker>
      <p>But I am not to be discouraged. I love that boy very dearly. I have sworn that I will keep
       watch and ward over his interests, and at the risk of forfeiting your regard, I will keep my
       word.</p>
     </sp>
-    <sp>
+    <sp who="#L1460_F8">
      <speaker>Jessie.</speaker>
      <p>Mr. Grant, your want of familiarity with the usages of society may hold you excused up to a
       certain point. Let <pb n="26"/> me tell you that you have reached that point, and if you
@@ -2247,189 +2278,189 @@
        <stage>(Wipes her eyes.)</stage></p>
     </sp>
     <stage>Enter Mrs. Fitz from fore-cabin.</stage>
-    <sp>
+    <sp who="#L1460_F7">
      <speaker>Mrs. F.</speaker>
      <p>Jessie, you’re crying!</p>
     </sp>
-    <sp>
+    <sp who="#L1460_F8">
      <speaker>Jessie.</speaker>
      <p>Am I? Mr. Grant has been lecturing me again.</p>
     </sp>
-    <sp>
+    <sp who="#L1460_F7">
      <speaker>Mrs. F.</speaker>
      <p>What a donkey that man is!</p>
     </sp>
-    <sp>
+    <sp who="#L1460_F8">
      <speaker>Jessie.</speaker>
      <p>No, no; he means well.</p>
     </sp>
-    <sp>
+    <sp who="#L1460_F7">
      <speaker>Mrs. F.</speaker>
      <p>Means well! Who doesn’t? <emph>I</emph> mean well, but I don’t dislocate society in
       consequence.</p>
     </sp>
-    <sp>
+    <sp who="#L1460_F8">
      <speaker>Jessie.</speaker>
      <p>But you mustn’t call him a donkey. He is actuated by the best intentions.</p>
     </sp>
-    <sp>
+    <sp who="#L1460_F7">
      <speaker>Mrs. F.</speaker>
      <p>My dear Jessie, the only difference between a donkey with good intentions and a donkey with
       bad intentions is that one is a good donkey and the other isn’t. What has he been saying to
       you now?</p>
     </sp>
-    <sp>
+    <sp who="#L1460_F8">
      <speaker>Jessie.</speaker>
      <p>He says I flirt with Captain Boodle.</p>
     </sp>
-    <sp>
+    <sp who="#L1460_F7">
      <speaker>Mrs. F.</speaker>
      <p>Well, so you do.</p>
     </sp>
-    <sp>
+    <sp who="#L1460_F8">
      <speaker>Jessie.</speaker>
      <p>But not much, and you don’t mind it?</p>
     </sp>
-    <sp>
+    <sp who="#L1460_F7">
      <speaker>Mrs. F.</speaker>
      <p>Not a bit, my dear.</p>
     </sp>
-    <sp>
+    <sp who="#L1460_F8">
      <speaker>Jessie.</speaker>
      <p>And he don’t mind it?</p>
     </sp>
-    <sp>
+    <sp who="#L1460_F7">
      <speaker>Mrs. F.</speaker>
      <p>No, he’s quite resigned.</p>
     </sp>
-    <sp>
+    <sp who="#L1460_F8">
      <speaker>Jessie.</speaker>
      <p>And I don’t mind it, and if you don’t mind it, and he don’t mind it, and I don’t mind it,
       what more can he want? What <emph>are</emph> you to do on board a yacht? I’m sure I wouldn’t
       flirt with Captain Boodle on shore.</p>
     </sp>
-    <sp>
+    <sp who="#L1460_F7">
      <speaker>Mrs. F.</speaker>
      <p>No; one must be very much at sea to flirt with Baby Boodle.</p>
     </sp>
-    <sp>
+    <sp who="#L1460_F8">
      <speaker>Jessie.</speaker>
      <p>It’s my duty to make myself agreeable to uncle’s guests.</p>
     </sp>
-    <sp>
+    <sp who="#L1460_F7">
      <speaker>Mrs. F.</speaker>
      <p>Of course.</p>
     </sp>
-    <sp>
+    <sp who="#L1460_F8">
      <speaker>Jessie.</speaker>
      <p>Then why does Mr. Grant interfere? I won’t stand it! <stage>(Rises.)</stage></p>
     </sp>
     <pb n="27"/>
-    <sp>
+    <sp who="#L1460_F7">
      <speaker>Mrs. F.</speaker>
      <p>Don’t stand it, Jessie. Let him think what he pleases. Flirt with Baby as much as you like.
       I won’t interfere, and when Mr. Grant remonstrates, admit it all and glory in it.</p>
     </sp>
-    <sp>
+    <sp who="#L1460_F8">
      <speaker>Jessie.</speaker>
      <p>I will! It’s only fun after all. The idea of supposing that any one who had seen Guy would
       think seriously for one moment of such a goose as Captain Boodle! Oh! I beg your pardon,
       dear!</p>
     </sp>
-    <sp>
+    <sp who="#L1460_F7">
      <speaker>Mrs. F.</speaker>
      <p>My dear Jessie, when I first saw Captain Boodle, Guy was about six months old. He was a fine
       boy, but a <emph>grande affaire</emph> was out of the question.</p>
     </sp>
-    <sp>
+    <sp who="#L1460_Misc">
      <speaker>Voice.</speaker>
      <p>
       <stage>(from a boat).</stage> Yacht ahoy!</p>
     </sp>
     <stage>Enter Boodle, R.</stage>
-    <sp>
+    <sp who="#L1460_M5">
      <speaker>Boodle.</speaker>
      <p>Yacht it is!</p>
     </sp>
-    <sp>
+    <sp who="#L1460_Misc">
      <speaker>Voice.</speaker>
      <p>What yacht’s that?</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M5">
      <speaker>Boodle.</speaker>
      <p>’Pon my life I forget! It’th a devilith pretty name I know – the Thky-something. Thky-thail?
       Here, Jenkins!</p>
     </sp>
     <stage>Enter Sailor, R.</stage>
-    <sp>
+    <sp who="#L1460_M5">
      <speaker>Boodle.</speaker>
      <p><stage>(looks at name embroidered on the man’s Jersey.)</stage> Thkylark!</p>
     </sp>
-    <sp>
+    <sp who="#L1460_Misc">
      <speaker>Voice.</speaker>
      <p>Is Mr. Kavanagh on board?</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M5">
      <speaker>Boodle.</speaker>
      <p>Oh yeth, he’th on board, bleth him! <stage>(Boat comes alongside.)</stage></p>
     </sp>
-    <sp>
+    <sp who="#L1460_Misc">
      <speaker>Voice.</speaker>
      <p>Then <emph>I’ll</emph> come on board!</p>
     </sp>
     <stage>Enter Grouse, on deck – he is very pale, as if sea-sick.</stage>
-    <sp>
+    <sp who="#L1460_M5">
      <speaker>Boodle.</speaker>
      <p>It’th the criminal!</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M4">
      <speaker>Grouse.</speaker>
      <p>It’s the lunatic!</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M5">
      <speaker>Boodle.</speaker>
      <p>How are you? Didn’t exthpect the pleathure of theeing you here!</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M4">
      <speaker>Grouse.</speaker>
      <p>I’m stopping in Cadiz.</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M5">
      <speaker>Boodle.</speaker>
      <p>I with you were! Buthineth?</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M4">
      <speaker>Grouse.</speaker>
      <p>No, I’m a gentleman at large!</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M5">
      <speaker>Boodle.</speaker>
      <p>I know you’re a gentleman, becauthe the Act of Parliament thays tho, and I thee you’re at
       large, becauthe Cadiz ithn’t a penal settlement. You don’t look well.</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M4">
      <speaker>Grouse.</speaker>
      <p>I’m not well. It’s the motion of the boat. I want Mr. Kavanagh directly.</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M5">
      <speaker>Boodle.</speaker>
      <p>
       <stage>(calling down cabin skylights).</stage> Kavanagh!</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M2">
      <speaker>Kavan.</speaker>
      <p>
       <stage>(below).</stage> Hullo!</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M5">
      <speaker>Boodle.</speaker>
      <p>Fellow to thee you.</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M2">
      <speaker>Kavan.</speaker>
      <p>All right. <stage>(Exit Boodle, L.)</stage></p>
     </sp>
-    <sp>
+    <sp who="#L1460_M4">
      <speaker>Grouse.</speaker>
      <p>
       <stage>(sitting on ottoman, R. C.).</stage> Here’s a pretty business! I’ve sent him the letter
@@ -2438,97 +2469,97 @@
       I’d sooner be drunk. It ain’t a bit more confusing, and it’s much pleasanter!</p>
     </sp>
     <stage>Enter Kavanagh from cabin.</stage>
-    <sp>
+    <sp who="#L1460_M2">
      <speaker>Kavan.</speaker>
      <p>
       <stage>(very coldly).</stage> Mr. Grouse, I believe you asked for me?</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M4">
      <speaker>Grouse.</speaker>
      <p>
       <stage>(aside).</stage> It’s all over – he’s read it!</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M2">
      <speaker>Kavan.</speaker>
      <p>What is your business with me?</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M4">
      <speaker>Grouse.</speaker>
      <p>Mr. Kavanagh, I ain’t well, and what I say must be taken without prejudice. I ain’t in a
       business frame of mind. A office floor is one thing and a lopping sea is another.</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M2">
      <speaker>Kavan.</speaker>
      <p>Be good enough to come to the point.</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M4">
      <speaker>Grouse.</speaker>
      <p>Mr. Kavanagh, sir, you got a letter from me?</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M2">
      <speaker>Kavan.</speaker>
      <p>I did – I received it ten minutes ago!</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M4">
      <speaker>Grouse.</speaker>
      <p>Sir! Mr. Kavanagh! Sir! Mercy! It was a joke, sir. Look over it, sir.</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M2">
      <speaker>Kavan.</speaker>
      <p>Look over what?</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M4">
      <speaker>Grouse.</speaker>
      <p>The letter, sir! It was my high spirits, sir! I wrote it at sea – in that boat – and when
       I’m at sea I’m in such spirits. It’s the fresh air, sir; the motion of the boat. It always
       excites me. You can’t suppose I meant it; I’m not such a scoundrel as that, notwithstanding
       looks which are against me.</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M2">
      <speaker>Kavan.</speaker>
      <p>Yes, you are an unprepossessing person.</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M4">
      <speaker>Grouse.</speaker>
      <p>Looks ain’t a man’s fault no more than his name is. My looks is bad, but I ain’t a
       scoundrel. My name’s Grouse, but I ain’t a bird. But look over it.</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M2">
      <speaker>Kavan.</speaker>
      <p>. Look over you’re not being a bird?</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M4">
      <speaker>Grouse.</speaker>
      <p>No, sir. Look over my having been tempted in a sprightly moment to write that letter. It was
       the motion of the boat, sir; it always makes me sprightly. And if you could oblige me with a
       drink of cold water, sir –</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M2">
      <speaker>Kavan.</speaker>
      <p>I wonder a knowing attorney like you should indulge in a joke, which, if taken seriously
       might involve –</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M4">
      <speaker>Grouse.</speaker>
      <p>Penal servitude, sir. You’re quite right, and perhaps struck off the rolls into the bargain.
       But it was all owing to feeling larky on a lopping sea, sir. <stage>(Aside.)</stage> I’m
       committing myself! I know I am! If I could only catch him on dry ground I’d come over him in
       no time. But at sea, he sails all round me!</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M2">
      <speaker>Kavan.</speaker>
      <p>Now, Mr. Grouse, attend to me. You ask me to look over something contained in this letter.
       What you refer to I don’t know –</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M4">
      <speaker>Grouse.</speaker>
      <p>You don’t know what I refer to?</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M2">
      <speaker>Kavan.</speaker>
      <p>I don’t know what you refer to, because the letter is still unopened.</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M4">
      <speaker>Grouse.</speaker>
      <p>
       <stage>(changing his manner).</stage> Ha, ha! Don’t you think I <pb n="29"/>knew that? Why, I
@@ -2536,135 +2567,135 @@
        to take it, Kavanagh withdraws it.)</stage> Allow me! <stage>(Kavanagh makes as though about
        to open it.)</stage> You’ve no call to read it, sir! <stage>(Much alarmed.)</stage></p>
     </sp>
-    <sp>
+    <sp who="#L1460_M2">
      <speaker>Kavan.</speaker>
      <p>Why not?</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M4">
      <speaker>Grouse.</speaker>
      <p>It ain’t necessary, sir. I’ll tell you what’s in it. Sir, I implore you to return it.
        <stage>(Aside.)</stage> Oh, lor! here’s a go, and I ain’t well!</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M2">
      <speaker>Kavan.</speaker>
      <p>Do you mean to say that you really wish me to return this letter unopened?</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M4">
      <speaker>Grouse.</speaker>
      <p>Upon my life and soul I do!</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M2">
      <speaker>Kavan.</speaker>
      <p>. Very good. Now, Mr. Grouse, I will return this letter unopened if you desire it; but if I
       do, I repudiate you and your schemes altogether.</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M4">
      <speaker>Grouse.</speaker>
      <p>
       <stage>(aside)</stage> He can’t! I’ve got him hard and fast! It’s down in black and white,
       stamped, and all reg’lar. <stage>(Aloud.)</stage> As you please sir – as you please.</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M2">
      <speaker>Kavan.</speaker>
      <p>As to the agreement between us, I require you to destroy it.</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M4">
      <speaker>Grouse.</speaker>
      <p>Oh, I ain’t got it here, it’s on shore!</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M2">
      <speaker>Kavan.</speaker>
      <p>Then I will retain the letter until you produce it.</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M4">
      <speaker>Grouse.</speaker>
      <p>
       <stage>(aside).</stage> Damn! <stage>(Aloud.)</stage> Is that your fixed determination?</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M2">
      <speaker>Kavan.</speaker>
      <p>That is my fixed determination! Shall I open the letter? <stage>(About to do
       so.)</stage></p>
     </sp>
-    <sp>
+    <sp who="#L1460_M4">
      <speaker>Grouse.</speaker>
      <p>No – no! <stage>(Producing agreement.)</stage> It’s too bad – and I’m ill-treated!
        <stage>(Gives him agreement.)</stage></p>
     </sp>
-    <sp>
+    <sp who="#L1460_M2">
      <speaker>Kavan.</speaker>
      <p>Good. <stage>(Tears it up, crosses, L.)</stage> There is your letter, and you will be good
       enough to go over the yacht’s side immediately, and not show your face in my presence again.
        <stage>(crosses, L.)</stage></p>
     </sp>
-    <sp>
+    <sp who="#L1460_M4">
      <speaker>Grouse.</speaker>
      <p>But dash it, I’ve gone in for your case to such an extent, that I’m a ruined man if I stop
       now! Think of my time – think of my clients.</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M2">
      <speaker>Kavan.</speaker>
      <p>The county has already provided for them.</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M4">
      <speaker>Grouse.</speaker>
      <p>But I shan’t know where to find ’em when I want ’em.</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M2">
      <speaker>Kavan.</speaker>
      <p>Try Holloway – I mean the prison, not the pills!</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M4">
      <speaker>Grouse.</speaker>
      <p>Think of my ’elth – broke down in your service.</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M2">
      <speaker>Kavan.</speaker>
      <p>Try Holloway – I mean the pills, not the prison!</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M4">
      <speaker>Grouse.</speaker>
      <p><stage>(door, R. C.).</stage> Take care, Mr. Kavanagh, I’m an ugly customer on shore!</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M2">
      <speaker>Kavan.</speaker>
      <p>You’re no beauty at sea.</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M4">
      <speaker>Grouse.</speaker>
      <p>So you’ll work this alone, eh? You’ve sucked my brains, and now you’re going to use my
       information, eh? Very good – now mind, Mr. K., you can’t do without me. If <pb n="30"/> you
       get at this here property, I’ve got that as ’ll smash you up, right and tight, whichever way
       you put it.</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M2">
      <speaker>Kavan.</speaker>
      <p>But I am not going to work this alone; I am not going to work this at all.</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M4">
      <speaker>Grouse.</speaker>
      <p>Not going to work it at all?</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M2">
      <speaker>Kavan.</speaker>
      <p>No, I propose to leave the orphan in undisputed possession of her property. Now, go.</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M4">
      <speaker>Grouse.</speaker>
      <p>
       <stage>(going over the side).</stage> Well!</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M2">
      <speaker>Kavan.</speaker>
      <p> Well?</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M4">
      <speaker>Grouse.</speaker>
      <p>Well, Mr. K., I was going to say one thing, you’re either a blazing liar or a blazing fool!
       And look here, Mr. K., my only doubt is whether you ain’t both. Good morning.
        <stage>(Disappears over gangway.)</stage></p>
     </sp>
-    <sp>
+    <sp who="#L1460_M2">
      <speaker>Kavan.</speaker>
      <p>So much for Mr. Grouse! Whew! I feel all the moral elevation of a man who’s done a good
       action with the additional satisfaction of knowing that virtue is in this case the most paying
@@ -2673,160 +2704,160 @@
       that –<stage>Jessie appears R., at cabin gangway.</stage>Miss Blake! I’m so glad, so very glad
       to see you!</p>
     </sp>
-    <sp>
+    <sp who="#L1460_F8">
      <speaker>Jessie.</speaker>
      <p>So you’ve joined at last. That’s capital! We’ve exhausted Captain Boodle, and we were
       looking for you rather anxiously.</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M2">
      <speaker>Kavan.</speaker>
      <p>It’s always pleasant to know that one’s arrival has been impatiently awaited.</p>
     </sp>
-    <sp>
+    <sp who="#L1460_F8">
      <speaker>Jessie.</speaker>
      <p>
       <stage>(rather surprised).</stage> Oh! I didn’t say impatiently.</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M2">
      <speaker>Kavan.</speaker>
      <p>You said –</p>
     </sp>
-    <sp>
+    <sp who="#L1460_F8">
      <speaker>Jessie.</speaker>
      <p>Rather anxiously.</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M2">
      <speaker>Kavan.</speaker>
      <p>Well then, it’s pleasant to think that one’s arrival has been looked for rather anxiously.
       But may I not say impatiently?</p>
     </sp>
-    <sp>
+    <sp who="#L1460_F8">
      <speaker>Jessie.</speaker>
      <p>Well – <stage>(Aside.)</stage> I’ll put in a word for Mrs. Fitzosborne,
        <stage>(Aloud.)</stage> Well, yes; I think you may say impatiently by one of us. As for the
       other –</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M2">
      <speaker>Kavan.</speaker>
      <p>Oh! never mind the other.</p>
     </sp>
-    <sp>
+    <sp who="#L1460_F8">
      <speaker>Jessie.</speaker>
      <p>Oh! thank you, Mr. Kavanagh.</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M2">
      <speaker>Kavan.</speaker>
      <p>
       <stage>(aside)</stage> Her friend! <stage>(Aloud.)</stage> Well, I retract. It was a rude
       thing to say, but I spoke on the impulse of the moment, and your words gave me such pleasure,
       that I was carried away by them. You forgive me?</p>
     </sp>
-    <sp>
+    <sp who="#L1460_F8">
      <speaker>Jessie.</speaker>
      <p>Well, I don’t know – it was very rude indeed – but there I forgive you. <stage>(He takes her
        hand.)</stage> I forgive you, Mr. Kavanagh! I tell you I forgive you! <stage>(She struggles
        to free her <pb n="31"/> hand.)</stage> Don’t, Mr. Kavanagh! <stage>(Very angrily.)</stage>
       I’m extremely angry with you, sir. I tell you I forgive you!</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M2">
      <speaker>Kavan.</speaker>
      <p>And won’t you give me your hand in token of forgiveness?</p>
     </sp>
-    <sp>
+    <sp who="#L1460_F8">
      <speaker>Jessie.</speaker>
      <p>No! Won’t my word do?</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M2">
      <speaker>Kavan.</speaker>
      <p>It would in England, but off Cadiz, we must conform to the custom of the country.</p>
     </sp>
-    <sp>
+    <sp who="#L1460_F8">
      <speaker>Jessie.</speaker>
      <p>And what are the customs of the country?</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M2">
      <speaker>Kavan.</speaker>
      <p>Well, among other things, recent acquaintance begins by calling one another by their
       Christian names.</p>
     </sp>
-    <sp>
+    <sp who="#L1460_F8">
      <speaker>Jessie.</speaker>
      <p>Indeed?</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M2">
      <speaker>Kavan.</speaker>
      <p>Yes; in these latitudes, I am Corny, and you are Jessie.</p>
     </sp>
-    <sp>
+    <sp who="#L1460_F8">
      <speaker>Jessie.</speaker>
      <p>
       <stage>(angrily).</stage> Mr. Kavanagh!</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M2">
      <speaker>Kavan.</speaker>
      <p>To call you Miss Blake in these latitudes would be an impertinence. It would be as monstrous
       as if I were to call you Jessie in Westmoreland.</p>
     </sp>
-    <sp>
+    <sp who="#L1460_F8">
      <speaker>Jessie.</speaker>
      <p>I don’t understand you.</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M2">
      <speaker>Kavan.</speaker>
      <p>In these latitudes, people begin with Christian names and get on to surnames when they are
       on very intimate terms indeed.</p>
     </sp>
-    <sp>
+    <sp who="#L1460_F8">
      <speaker>Jessie.</speaker>
      <p>Oh, you are joking!</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M2">
      <speaker>Kavan.</speaker>
      <p>Oh, no; it’s quite reasonable when you come to think of it.</p>
     </sp>
-    <sp>
+    <sp who="#L1460_F8">
      <speaker>Jessie.</speaker>
      <p>Reasonable?</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M2">
      <speaker>Kavan.</speaker>
      <p>Yes, Christian name comes before surname, and new acquaintances begin at the beginning. Its
       only taking things in their proper order. If we are becalmed here much longer, who knows but
       that we get on from one thing to another, until I know you well enough to call you Miss
       Blake.</p>
     </sp>
-    <sp>
+    <sp who="#L1460_F8">
      <speaker>Jessie.</speaker>
      <p>Never! – I mean always – that is –</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M2">
      <speaker>Kavan.</speaker>
      <p>Yes, that is?</p>
     </sp>
-    <sp>
+    <sp who="#L1460_F8">
      <speaker>Jessie.</speaker>
      <p>I hope we shall <emph>not</emph> be becalmed any longer. <stage>(Crosses, R.)</stage></p>
     </sp>
-    <sp>
+    <sp who="#L1460_M2">
      <speaker>Kavan.</speaker>
      <p>And I should be content to be becalmed here for ever – Jessie!</p>
     </sp>
-    <sp>
+    <sp who="#L1460_F8">
      <speaker>Jessie.</speaker>
      <p>
       <stage>(indignantly).</stage> Mr. Kavanagh! Why do you wish to be becalmed here for ever?</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M2">
      <speaker>Kavan.</speaker>
      <p>
       <stage>(affecting delight).</stage> Oh, how kind of you to call me Mr. Kavanagh! in these
       latitudes! and may I – <emph>may</emph> I call you Miss Blake?</p>
     </sp>
-    <sp>
+    <sp who="#L1460_F8">
      <speaker>Jessie.</speaker>
      <p>Of course – I mean no – I – Why do you wish to be becalmed here for ever?</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M2">
      <speaker>Kavan.</speaker>
      <p>Because every knot the yacht makes will bring me nearer and nearer to absolute desolation.
       Ah, Miss Blake, I know too well why you are going there, and who awaits your arrival.
@@ -2834,141 +2865,141 @@
     </sp>
     <pb n="32"/>
     <stage>Mrs. Fitzosborne has entered from cabin, and overheard these words.</stage>
-    <sp>
+    <sp who="#L1460_F7">
      <speaker>Mrs. F.</speaker>
      <p>Then why go to Gibraltar?</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M2">
      <speaker>Kavan.</speaker>
      <p>Eh? <stage>(Turning round.)</stage> I do not go of my own free will, Mrs. Fitzosborne!</p>
     </sp>
-    <sp>
+    <sp who="#L1460_F8">
      <speaker>Jessie.</speaker>
      <p>Is not that rather familiar?</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M2">
      <speaker>Kavan.</speaker>
      <p>Familiar?</p>
     </sp>
-    <sp>
+    <sp who="#L1460_F8">
      <speaker>Jessie.</speaker>
      <p>In these latitudes. Her name is Emily Fitzosborne. As a recent acquaintance, shouldn’t you
       begin at the beginning?</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M2">
      <speaker>Kavan.</speaker>
      <p>Certainly – of course! <stage>(Aside.)</stage> Confound it!</p>
     </sp>
-    <sp>
+    <sp who="#L1460_F7">
      <speaker>Mrs. F.</speaker>
      <p>I should not think you are the sort of man to do anything on compulsion.</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M2">
      <speaker>Kavan.</speaker>
      <p>Nor am I, Mrs. Fitz – Emily!</p>
     </sp>
-    <sp>
+    <sp who="#L1460_F8">
      <speaker>Jessie.</speaker>
      <p>You don’t mind his calling you Emily? He was just explaining that he couldn’t help it in
       these latitudes.</p>
     </sp>
-    <sp>
+    <sp who="#L1460_F7">
      <speaker>Mrs. F.</speaker>
      <p>Mind it! It’s the only sensible thing he’s said since he came on board.</p>
     </sp>
-    <sp>
+    <sp who="#L1460_F8">
      <speaker>Jessie.</speaker>
      <p>And he says that you must call him Corny!</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M2">
      <speaker>Kavan.</speaker>
      <p>Only in these latitudes.</p>
     </sp>
-    <sp>
+    <sp who="#L1460_F8">
      <speaker>Jessie.</speaker>
      <p>Yes, and he says he should be glad if the yacht were becalmed in these latitudes for
       ever!</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M2">
      <speaker>Kavan.</speaker>
      <p>
       <stage>(aside to Jessie).</stage> That I might call you “Jessie” for ever!</p>
     </sp>
     <stage>Enter Boodle and Denis.</stage>
-    <sp>
+    <sp who="#L1460_F8">
      <speaker>Jessie.</speaker>
      <p>
       <stage>(seeing Denis, hurries away, saying).</stage> Mr. Kavanagh, how dare you? <stage>(Exit
        Jessie, R.)</stage></p>
     </sp>
-    <sp>
+    <sp who="#L1460_F7">
      <speaker>Mrs. F.</speaker>
      <p>But a perpetual calm would be very monotonous, Corny!</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M2">
      <speaker>Kavan.</speaker>
      <p>No fear of perpetual calm when <emph>you</emph> are on board, Emily.</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M5">
      <speaker>Boodle.</speaker>
      <p>Emily, eh? Nothing could be fairer than that!</p>
     </sp>
-    <sp>
+    <sp who="#L1460_F7">
      <speaker>Mrs. F.</speaker>
      <p>Nonsense, Baby, think of the latitude.</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M5">
      <speaker>Boodle.</speaker>
      <p>Yeth, I <emph>am</emph> thinking of the latitude: and a pretty considerable latitude it ith!
       Mrs. Fitz, allow me to offer you my arm. Mr. Kavanagh, I thall have the pleathure of renewing
       the quethtion of latitude at an early opportunity.</p>
     </sp>
-    <sp>
+    <sp who="#L1460_F7">
      <speaker>Mrs. F.</speaker>
      <p>Oh! Baby Boodle, what a donkey you are! |<stage>(Exeunt Boodle and Mrs. Fitz.,
       L.)</stage></p>
     </sp>
-    <sp>
+    <sp who="#L1460_M2">
      <speaker>Kavan.</speaker>
      <p>Hang it! I hope I’m not going to get into a scrape on her account. Confound her!</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M1">
      <speaker>Denis.</speaker>
      <p>
       <stage>(coming forward).</stage> Mr. Kavanagh, I want a word with you. I heard you speak to
       Miss Blake, in a manner which seemed to me to require explanation.</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M2">
      <speaker>Kavan.</speaker>
      <p>Here’s another! The deuce you did! And may I ask who the devil are you?</p>
     </sp>
     <pb n="33"/>
-    <sp>
+    <sp who="#L1460_M1">
      <speaker>Denis.</speaker>
      <p>Don’t lose your temper – I mean to keep mine.</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M2">
      <speaker>Kavan.</speaker>
      <p>It is a matter of supreme indifference to me whether you lose it or keep it. What right have
       you to demand an explanation?</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M1">
      <speaker>Denis.</speaker>
      <p>None whatever. But I mean to have one, nevertheless.</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M2">
      <speaker>Kavan.</speaker>
      <p>The deuce you do!</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M1">
      <speaker>Denis.</speaker>
      <p>Look here, Mr. Kavanagh, I speak on the presumption, that I am addressing a gentleman.</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M2">
      <speaker>Kavan.</speaker>
      <p>Damn your presumption.</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M1">
      <speaker>Denis.</speaker>
      <p>By all means, if it is an erroneous one. But, if you please, we will assume for the sake of
       argument that you <emph>are</emph> a gentleman. You have a fertile imagination, and will have
@@ -2976,12 +3007,12 @@
       are here with the avowed object of winning Miss Blake’s affections. You have still to learn,
       Mr. Kavanagh, that she is already engaged to be married to your friend Guy Warrington.</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M2">
      <speaker>Kavan.</speaker>
      <p>
       <stage>(L.)</stage> I am fully aware of that fact.</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M1">
      <speaker>Denis.</speaker>
      <p>
       <stage>(R.)</stage> Ah, you forget; I am assuming for the sake of argument that you are a
@@ -2991,21 +3022,21 @@
       friend, and you immediately retire and leave him in undisturbed possession of the happiness he
       has secured for himself.</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M2">
      <speaker>Kavan.</speaker>
      <p>Do I? You don’t know me!</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M1">
      <speaker>Denis.</speaker>
      <p>Yes, I think, I do; but I am assuming – for the sake of argument – that you are a
       gentleman.</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M2">
      <speaker>Kavan.</speaker>
      <p>Assume what you please, but don’t credit me with a magnanimity which is wholly foreign to my
       nature.</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M1">
      <speaker>Denis.</speaker>
      <p>Very well; then I must proceed on a different tack, and I may tell you, that in laying siege
       to a young lady whom you know to be already engaged, you are behaving like a cad, and in not
@@ -3013,104 +3044,104 @@
       are in the position of a man who has been kicked and doesn’t mind it. <stage>(Goes,
        R.)</stage></p>
     </sp>
-    <sp>
+    <sp who="#L1460_M2">
      <speaker>Kavan.</speaker>
      <p>Why, man, you must be mad to talk to me in this way? Who the deuce <emph>are</emph> you? Are
       you aware that my presence on board this yacht is due to Miss Blake’s express and spontaneous
       invitation?</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M1">
      <speaker>Denis.</speaker>
      <p>
       <stage>(astonished).</stage> To Miss Blake’s invitation?</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M2">
      <speaker>Kavan.</speaker>
      <p>To her unsolicited and spontaneous invitation – that I am here in the capacity of her
       declared suitor, and with her full consent.</p>
     </sp>
     <pb n="34"/>
-    <sp>
+    <sp who="#L1460_M1">
      <speaker>Denis.</speaker>
      <p>
       <stage>(after a pause).</stage> Mr. Kavanagh, that’s not true!</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M2">
      <speaker>Kavan.</speaker>
      <p>What?</p>
     </sp>
     <stage>Enter Jessie and Mrs. Fitzosborne, L.</stage>
-    <sp>
+    <sp who="#L1460_F8">
      <speaker>Jessie.</speaker>
      <p>Mr. Kavanagh! what in the world is the matter?</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M2">
      <speaker>Kavan.</speaker>
      <p>Miss Blake, Mr. Grant has thought fit to take exception to my presence on board this yacht.
       I have explained to him that I am here at your express invitation. He tells me that I am
       telling a lie!</p>
     </sp>
-    <sp>
+    <sp who="#L1460_F7">
      <speaker>Mrs. F.</speaker>
      <p>
       <stage>(aside).</stage> Don’t stand it, Jessie! Go in at him!</p>
     </sp>
-    <sp>
+    <sp who="#L1460_F8">
      <speaker>Jessie.</speaker>
      <p>I will! <stage>(To Denis.)</stage> Is this so, Mr. Grant?</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M1">
      <speaker>Denis.</speaker>
      <p>It is so, Jessie!</p>
     </sp>
-    <sp>
+    <sp who="#L1460_F8">
      <speaker>Jessie.</speaker>
      <p>Mr. Grant, let me tell you once for all, that your interference has become
       unsupportable.</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M1">
      <speaker>Denis.</speaker>
      <p>Am I then to understand that in stating that he is here at your express and spontaneous
       invitation, that he is telling the truth?</p>
     </sp>
-    <sp>
+    <sp who="#L1460_F8">
      <speaker>Jessie.</speaker>
      <p>Most certainly!</p>
     </sp>
-    <sp>
+    <sp who="#L1460_F7">
      <speaker>Mrs. F.</speaker>
      <p>Most unmistakably; I was present when the invitation was given.</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M1">
      <speaker>Denis.</speaker>
      <p>But he tells me that he is here in the capacity of a declared and accepted suitor.</p>
     </sp>
-    <sp>
+    <sp who="#L1460_F7">
      <speaker>Mrs. F.</speaker>
      <p>
       <stage>(bashfully).</stage> So he is!</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M1">
      <speaker>Denis.</speaker>
      <p>You will surely contradict that?</p>
     </sp>
-    <sp>
+    <sp who="#L1460_F8">
      <speaker>Jessie.</speaker>
      <p>For the purpose I have in view, I will contradict Mr. Kavanagh in nothing.</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M1">
      <speaker>Denis.</speaker>
      <p>But, great heaven! have you forgotten Guy Warrington? And do you know this man’s
       character?</p>
     </sp>
-    <sp>
+    <sp who="#L1460_F8">
      <speaker>Jessie.</speaker>
      <p>
       <stage>(to Denis, who is boiling with indignation).</stage> I know, sir, that he is my uncle’s
       guest, and that in insulting him you have insulted your host, and have insulted me. I insist
       upon your apologising instantly to Mr. Kavanagh! Instantly, sir – and most amply!</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M1">
      <speaker>Denis.</speaker>
      <p>
       <stage>(after a pause).</stage> Mr. Kavanagh, it appears that I have been hasty and that I
@@ -3127,7 +3158,7 @@
 
     <stage>Scene – Guy’s Quarters at Gibraltar. Druce discovered laying out his master’s mess
      clothes.</stage>
-    <sp>
+    <sp who="#L1460_M6">
      <speaker>Druce.</speaker>
      <p>Well, in this world everything seems to go wrong; here’s my master being a-trotting of
       himself up and down, between his quarters and the harbour, back’ards and for’ard, any time
@@ -3140,7 +3171,7 @@
       would re-organize him!</p>
     </sp>
     <stage>Enter Guy, very excited, in patrol jacket.</stage>
-    <sp>
+    <sp who="#L1460_M3">
      <speaker>Guy.</speaker>
      <p>She’s here! She’s at anchor in Man-o’-War basin! She’s been at anchor this half-hour and I
       never knew it. Druce, double down to the harbour – as hard as you can go. Tell them I’m on
@@ -3152,71 +3183,71 @@
       for one fellow: I must share it with some one. <stage>(Calls.)</stage> Druce!</p>
     </sp>
     <stage>Enter Druce – livery hat and coat.</stage>
-    <sp>
+    <sp who="#L1460_M6">
      <speaker>Druce.</speaker>
      <p>Sir!</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M3">
      <speaker>Guy.</speaker>
      <p>Aren’t you off yet?</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M6">
      <speaker>Druce.</speaker>
      <p>Off directly, sir.</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M3">
      <speaker>Guy.</speaker>
      <p>Stop! With what description of feelings are you expecting the Skylark?</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M6">
      <speaker>Druce.</speaker>
      <p>Description of feelings, sir?</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M3">
      <speaker>Guy.</speaker>
      <p>Yes – yes – aren’t you impatient to see her?</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M6">
      <speaker>Druce.</speaker>
      <p>
       <stage>(very stolid).</stage> Desperate impatient, sir.</p>
     </sp>
     <pb n="36"/>
-    <sp>
+    <sp who="#L1460_M3">
      <speaker>Guy.</speaker>
      <p>Aren’t you going wild with joy now that’s she’s in harbour?</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M6">
      <speaker>Druce.</speaker>
      <p>Wild, sir?</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M3">
      <speaker>Guy.</speaker>
      <p>Yes, man; Yes – wild – wild – wild!</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M6">
      <speaker>Druce.</speaker>
      <p>
       <stage>(stolidly).</stage> Wild aren’t the word, sir.</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M3">
      <speaker>Guy.</speaker>
      <p>If I didn’t allow you to go down to the harbour directly, wouldn’t it drive you mad?</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M6">
      <speaker>Druce.</speaker>
      <p>Stark staring mad, sir!</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M3">
      <speaker>Guy.</speaker>
      <p>Then off you go, and run like blazes.</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M6">
      <speaker>Druce.</speaker>
      <p>Like blazes, eh? Blest if I could run like anything else in this here climate. I’m off, sir!
        <stage>(Exit Druce.)</stage></p>
     </sp>
-    <sp>
+    <sp who="#L1460_M3">
      <speaker>Guy.</speaker>
      <p>There, I’m better now. Druce is an ass, but it’s better to confide in an ass than in nobody.
       There she lays! <stage>(Looking out of window.)</stage> and a rare beauty she is.
@@ -3231,154 +3262,154 @@
       worn off. Oh, Jessie – Jessie, why don’t you come? Why don’t you come? Why don’t you come?</p>
     </sp>
     <stage>Enter Denis.</stage>
-    <sp>
+    <sp who="#L1460_M1">
      <speaker>Denis.</speaker>
      <p>
       <stage>(gravely).</stage> Guy!</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M3">
      <speaker>Guy.</speaker>
      <p>They’re here! Denis! My dear old Den, this is kind of you, to come up to my quarters so
       soon. Where’s Jessie? Why, what a solemn old phiz! <stage>(Alarmed.)</stage> There’s nothing
       the matter. Where is she? She’s quite well?</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M1">
      <speaker>Denis.</speaker>
      <p>There is nothing the matter. She was very well when I saw her last.</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M3">
      <speaker>Guy.</speaker>
      <p>When you saw her last? That can’t be very long since!</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M1">
      <speaker>Denis.</speaker>
      <p>Some days – about a week.</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M3">
      <speaker>Guy.</speaker>
      <p>A week!</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M1">
      <speaker>Denis.</speaker>
      <p>Yes, I left the yacht at Cadiz, and travelled here by steamer. I was delayed three days at
       Cadiz, or I should have been here sooner.</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M3">
      <speaker>Guy.</speaker>
      <p>But the yacht’s in harbour. She’s been anchored this half-hour.</p>
     </sp>
     <pb n="37"/>
-    <sp>
+    <sp who="#L1460_M1">
      <speaker>Denis.</speaker>
      <p>Indeed? That’s odd.</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M3">
      <speaker>Guy.</speaker>
      <p>But why did you leave her?</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M1">
      <speaker>Denis.</speaker>
      <p>Well, no great matter, perhaps – a question of taste – I didn’t get on very well with
       Kavanagh.</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M3">
      <speaker>Guy.</speaker>
      <p>No – I should think not <stage>(Sits.)</stage></p>
     </sp>
-    <sp>
+    <sp who="#L1460_M1">
      <speaker>Denis.</speaker>
      <p>
       <stage>(sits).</stage> In fact we quarrelled.</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M3">
      <speaker>Guy.</speaker>
      <p> Quarrelled? What about?</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M1">
      <speaker>Denis.</speaker>
      <p> Well, I’m afraid I was in the wrong, but I don’t like Kavanagh, and I can’t help showing
       it. I believe I did him an injustice. At all events I had to apologise to him.</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M3">
      <speaker>Guy.</speaker>
      <p>You apologised to that snob?</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M1">
      <speaker>Denis.</speaker>
      <p>Yes; don’t talk of it – change the subject – it’s not a pleasant one. I’m very glad to see
       you, old fellow.</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M3">
      <speaker>Guy.</speaker>
      <p>There’s something wrong, old man – something more than a row with a fellow like Kavanagh.
       You are sure Jessie was quite well when you left her?</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M1">
      <speaker>Denis.</speaker>
      <p>Yes, quite well.</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M3">
      <speaker>Guy.</speaker>
      <p>And happy?</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M1">
      <speaker>Denis.</speaker>
      <p>Yes, she seemed so.</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M3">
      <speaker>Guy.</speaker>
      <p>Did she know of your quarrel?</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M1">
      <speaker>Denis.</speaker>
      <p>Yes, she knew of it.</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M3">
      <speaker>Guy.</speaker>
      <p>And she sided with Kavanagh?</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M1">
      <speaker>Denis.</speaker>
      <p>Yes, she sided with Kavanagh.</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M3">
      <speaker>Guy.</speaker>
      <p>I’m very sorry for that, very sorry. But you <emph>were</emph> wrong?</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M1">
      <speaker>Denis.</speaker>
      <p>Yes, I was wrong. I made a mistake. Drop the subject.</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M3">
      <speaker>Guy.</speaker>
      <p>And you’ve taken care of her? You’ve watched over her? You haven’t let her flirt? She’s been
       quite true to me?</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M1">
      <speaker>Denis.</speaker>
      <p>My dear Guy, I was true to my trust until I left the yacht; and I should not have left the
       yacht, even after what had occurred, if I had not been quite sure that my presence on board
       was no longer necessary.</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M3">
      <speaker>Guy.</speaker>
      <p>True? <stage>(Holding out his hand.)</stage></p>
     </sp>
-    <sp>
+    <sp who="#L1460_M1">
      <speaker>Denis.</speaker>
      <p>Grip! <stage>(Taking it.)</stage></p>
     </sp>
-    <sp>
+    <sp who="#L1460_M3">
      <speaker>Guy.</speaker>
      <p>Thank you, Den. Thank you, and again. Do you know, I began to think at first that there was
       – that there was something wrong. I can’t tell you how I thank you for your kindness.</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M1">
      <speaker>Denis.</speaker>
      <p>
       <stage>(rises).</stage> There is little need.</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M3">
      <speaker>Guy.</speaker>
      <p>And, Denis, old man, I expect her here every minute! Think of that! She once said to me that
       it was worth quarrelling to make it up, as <emph>we</emph> used to make it up. I say now that
@@ -3388,245 +3419,245 @@
      <stage>Enter Grouse.</stage>
      <p>Why, who are you?</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M4">
      <speaker>Grouse.</speaker>
      <p>My name’s Grouse, of Grouse and Cookit, attorneys-at-law, of London. Your name’s
       Warrington?</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M3">
      <speaker>Guy.</speaker>
      <p>That is my name. What do you want?</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M4">
      <speaker>Grouse.</speaker>
      <p>It’s business!</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M3">
      <speaker>Guy.</speaker>
      <p>Well, go on!</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M4">
      <speaker>Grouse.</speaker>
      <p>Private and particular. <stage>(Nodding at Denis.)</stage></p>
     </sp>
-    <sp>
+    <sp who="#L1460_M3">
      <speaker>Guy.</speaker>
      <p>Nonsense! I’ve no secrets from this gentleman!</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M4">
      <speaker>Grouse.</speaker>
      <p>But I have, a good many! No offence to you, Mr. Grant.</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M1">
      <speaker>Denis.</speaker>
      <p>. Do you know me?</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M4">
      <speaker>Grouse.</speaker>
      <p>Oh, yes! I know you. I saw you at Beauclere – also on board the Skylark – just before that
       unpleasant shindy with Mr. Kavanagh.</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M1">
      <speaker>Denis.</speaker>
      <p>
       <stage>(aside to Grouse).</stage> Silence, man; not a word to Mr. Warrington about that.</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M4">
      <speaker>Grouse.</speaker>
      <p>Oh, in course not. Oh, certainly! Oh, to be sure! Mum is the expression. Dumb as an oyster.
       Oh, yes, not a word about that.</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M1">
      <speaker>Denis.</speaker>
      <p>I’ll take a turn in the barrack square, Guy; I shall be close at hand if you want me.
        <stage>(Exit Denis.)</stage></p>
     </sp>
-    <sp>
+    <sp who="#L1460_M3">
      <speaker>Guy.</speaker>
      <p>Now then, who are you?</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M4">
      <speaker>Grouse.</speaker>
      <p>I’m a lawyer, sir, of five-and-thirty years’ standing.</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M3">
      <speaker>Guy.</speaker>
      <p>Oh! Wouldn’t you like to sit down?</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M4">
      <speaker>Grouse.</speaker>
      <p>Thank you. <stage>(Sits.)</stage></p>
     </sp>
-    <sp>
+    <sp who="#L1460_M3">
      <speaker>Guy.</speaker>
      <p>Now then, what’s your business?</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M4">
      <speaker>Grouse.</speaker>
      <p>It refers to Miss Blake, sir.</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M3">
      <speaker>Guy.</speaker>
      <p>Well, go on! She’s quite well?</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M4">
      <speaker>Grouse.</speaker>
      <p>I humbly trust so, sir; but I didn’t come from her, sir: I come about her. I believe you
       consider yourself engaged to Miss Blake?</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M3">
      <speaker>Guy.</speaker>
      <p>Well, sir?</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M4">
      <speaker>Grouse.</speaker>
      <p>And a sweet young couple you’ll make – perhaps! You don’t happen to be an orphan, sir?</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M3">
      <speaker>Guy.</speaker>
      <p>No; I am not.</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M4">
      <speaker>Grouse.</speaker>
      <p>I’m sorry for that – it’s a pity; but never mind, you will be some day if you’re a good
       lad.</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M3">
      <speaker>Guy.</speaker>
      <p>What do you mean?</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M4">
      <speaker>Grouse.</speaker>
      <p>Nothing, sir; only I’ve come to do you a good turn, and I’d rather you was an orphan on
       principle. It’s always a pleasure to do a good turn to anybody; but as I used to say to my
       late missus, the luxuriousness of feeling is increased when one’s dealing with an orphan. She
       was an orphan, and I’m an orphan.</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M3">
      <speaker>Guy.</speaker>
      <p>
       <stage>(quietly).</stage> Have you a son?</p>
     </sp>
     <pb n="39"/>
-    <sp>
+    <sp who="#L1460_M4">
      <speaker>Grouse.</speaker>
      <p>
       <stage>(surprised).</stage> Yes, sir, I have a son!</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M3">
      <speaker>Guy.</speaker>
      <p>Then in about two minutes <emph>he’ll</emph> be an orphan if you don’t come to the point.
       Once for all, what is your business with me?</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M4">
      <speaker>Grouse.</speaker>
      <p>I’m coming to it. Miss Blake’s got a tidy lot of money.</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M3">
      <speaker>Guy.</speaker>
      <p>Well?</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M4">
      <speaker>Grouse.</speaker>
      <p>At least, you <emph>think</emph> Miss Blake’s got a tidy bit of money.</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M3">
      <speaker>Guy.</speaker>
      <p>I know she has property of some kind to which she succeeded on the death of her father.</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M4">
      <speaker>Grouse.</speaker>
      <p>That’s it. Miss Blake ain’t Miss Blake. Her father wasn’t her father. Her property ain’t her
       property. She was his adopted daughter, and he died without a will, so her property belongs to
       Mr. Kavanagh, the next of kin. At least, that is Mr. Kavanagh’s case, but I know better.</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M3">
      <speaker>Guy.</speaker>
      <p>If Mr. Kavanagh’s statement is true, you can’t suppose that I should counsel Miss Blake to
       resist his claim.</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M4">
      <speaker>Grouse.</speaker>
      <p>No, but it ain’t true. As a general rule, Mr. Kavanagh’s statements never <emph>are</emph>
       true. But he’s got two strings to his bow. He intends to prove his case if he can, but he
       can’t, and he intends to marry Miss Blake if he can’t, and he can. As you’re going to marry
       her too, I thought you might like to know –</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M3">
      <speaker>Guy.</speaker>
      <p>Mr. Kavanagh is at liberty to intend anything he pleases.</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M4">
      <speaker>Grouse.</speaker>
      <p>Oh, of course. Only some people object to their wives being married to anybody else but
       themselves! It’s an amiable weakness, and its amiable character is increased when there’s
       twelve thousand pounds at stake! Now this is what I propose –</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M3">
      <speaker>Guy.</speaker>
      <p>Why, you infernal scoundrel, Mr. Grant has just told me that –</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M4">
      <speaker>Grouse.</speaker>
      <p>I wouldn’t believe Mr. Grant if I was you. I wouldn’t believe anybody if I was you. Except
       me! Mr. Grant’s an interested party.</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M3">
      <speaker>Guy.</speaker>
      <p>What?</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M4">
      <speaker>Grouse.</speaker>
      <p>Mr. Grant and Mr. Kavanagh had a row at Cadiz.</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M3">
      <speaker>Guy.</speaker>
      <p>I know. He told me so.</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M4">
      <speaker>Grouse.</speaker>
      <p>Yes, but did he tell you what the row was about?</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M3">
      <speaker>Guy.</speaker>
      <p>No!</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M4">
      <speaker>Grouse.</speaker>
      <p>Did you ask him?</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M3">
      <speaker>Guy.</speaker>
      <p>Yes.</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M4">
      <speaker>Grouse.</speaker>
      <p>And he declined to tell you?</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M3">
      <speaker>Guy.</speaker>
      <p>He <emph>did</emph> decline to tell me.</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M4">
      <speaker>Grouse.</speaker>
      <p>I thought so. <emph>I’ll</emph> tell you. It was jealousy.</p>
     </sp>
     <pb n="40"/>
-    <sp>
+    <sp who="#L1460_M3">
      <speaker>Guy.</speaker>
      <p>Ridiculous! When I tell you, sir, that Mr. Grant is my oldest and dearest friend, I have
       told you enough to show –</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M4">
      <speaker>Grouse.</speaker>
      <p>You have said enough to show that you’re about nineteen years old. My good sir, Mr. Grant
       proposed to Miss Blake six weeks ago and was rejected by her!</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M3">
      <speaker>Guy.</speaker>
      <p>Do you mean to say that you know all this of your own knowledge?</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M4">
      <speaker>Grouse.</speaker>
      <p>Lord bless you, sir, the row, and the reason of it, was the talk of the whole place. Look
       here – local English paper – “The Cadiz British Sentinel.” <stage>(Reads from paper.)</stage>
@@ -3638,217 +3669,217 @@
       used by Mr. Gr-dash-nt were undoubtedly act-dash-onable.” Now, sir, allow me to go on with
       what I’ve come to propose.</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M3">
      <speaker>Guy.</speaker>
      <p>Stop! I’ll listen to you presently. This matter must be cleared up first. <stage>(Calls at
        window.)</stage> Grant!</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M4">
      <speaker>Grouse.</speaker>
      <p>But, sir, you mustn’t mention this or my plan will fail.</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M3">
      <speaker>Guy.</speaker>
      <p>Hold your tongue, man, and go in there. <stage>(Pointing to inner room.)</stage></p>
     </sp>
-    <sp>
+    <sp who="#L1460_M4">
      <speaker>Grouse.</speaker>
      <p>But if Mr. Grant knows of it?</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M3">
      <speaker>Guy.</speaker>
      <p>Do as I tell you or I’ll have you kicked out of barracks.</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M4">
      <speaker>Grouse.</speaker>
      <p>Well, if ever I do a good turn to any but an orphan again, I’m d-dash-mn-dash-d!
        <stage>(Exit Grouse.)</stage></p>
     </sp>
-    <sp>
+    <sp who="#L1460_M3">
      <speaker>Guy.</speaker>
      <p><stage>(with newspaper).</stage> Oh, it must be a lie! and yet his objection to tell me the
       cause of his quarrel, his leaving the yacht so suddenly, his constrained manner when speaking
       of Jessie – this newspaper paragraph, everything seems to endorse the scamp’s statement.</p>
     </sp>
     <stage>Enter Denis, Guy stands sternly apart without looking at him.</stage>
-    <sp>
+    <sp who="#L1460_M1">
      <speaker>Denis.</speaker>
      <p>Well, got rid of him?</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M3">
      <speaker>Guy.</speaker>
      <p>
       <stage>(with forced calmness).</stage> Yes.</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M1">
      <speaker>Denis.</speaker>
      <p>Not a creditor I hope?</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M3">
      <speaker>Guy.</speaker>
      <p>No.</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M1">
      <speaker>Denis.</speaker>
      <p>Glad of that, old boy.</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M3">
      <speaker>Guy.</speaker>
      <p>He has come to tell me of a creditor.</p>
     </sp>
     <pb n="41"/>
-    <sp>
+    <sp who="#L1460_M1">
      <speaker>Denis.</speaker>
      <p>Creditors are generally ready enough to announce themselves.</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M3">
      <speaker>Guy.</speaker>
      <p>There are creditors, Denis Grant, whose trade is so utterly contemptible that they are
       ashamed to declare it. My creditor is one of them. There are debts that it is pleasanter to
       pay than to receive; my debt is one of them.</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M1">
      <speaker>Denis.</speaker>
      <p>
       <stage>(after a pause).</stage> There is something wrong, Guy!</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M3">
      <speaker>Guy.</speaker>
      <p>There <emph>is</emph> something wrong, Denis! I’m the victim of a piece of infernal
       treachery. There is something so wrong that, if the news that fellow has brought me is true, I
       have placed the whole happiness of my life in the hands of a man who has most shamefully
       violated that trust.</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M1">
      <speaker>Denis.</speaker>
      <p>Yes, this is serious, indeed, my poor Guy! <stage>(Taking chair.)</stage> Come, old boy,
       tell me all about it.</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M3">
      <speaker>Guy.</speaker>
      <p>Is it necessary to tell you more?</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M1">
      <speaker>Denis.</speaker>
      <p>
       <stage>(aside).</stage> Poor fellow! he knows the worst!</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M3">
      <speaker>Guy.</speaker>
      <p>
       <stage>(bitterly).</stage> I see that it is not.</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M1">
      <speaker>Denis.</speaker>
      <p>Let us be sure that we understand one another, Guy. Tell me all about it. Who is the man has
       wronged you, and what was the trust you reposed in him?</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M3">
      <speaker>Guy.</speaker>
      <p>The trust – my love for Jessie Blake! <stage>(Denis shows that he expected this.)</stage>
       The man – Denis Grant!</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M1">
      <speaker>Denis.</speaker>
      <p>
       <stage>(starting up suddenly).</stage> Guy, what in the world do you mean? Are you
       serious?</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M3">
      <speaker>Guy.</speaker>
      <p>Look, and judge for yourself.</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M1">
      <speaker>Denis.</speaker>
      <p>But what do you refer to?</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M3">
      <speaker>Guy.</speaker>
      <p>I refer to this: When I left England I begged you to watch over Jessie Blake and protect
       her. You availed yourself of that trust to endeavour to win her from me. That is what I refer
       to.</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M1">
      <speaker>Denis.</speaker>
      <p>Guy, you are the victim of some monstrous lie!</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M3">
      <speaker>Guy.</speaker>
      <p>I am!</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M1">
      <speaker>Denis.</speaker>
      <p>Sir!</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M3">
      <speaker>Guy.</speaker>
      <p>Denis Grant, you quarrelled with Kavanagh on board that yacht.</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M1">
      <speaker>Denis.</speaker>
      <p>Yes!</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M3">
      <speaker>Guy.</speaker>
      <p>Your quarrel had reference to Miss Blake. <stage>(Denis is silent.)</stage> I say your
       quarrel had reference to Miss Blake. Answer me, man, in heaven’s name – and in heaven’s name,
       say no if you can!</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M1">
      <speaker>Denis.</speaker>
      <p>If you insist on an answer –</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M3">
      <speaker>Guy.</speaker>
      <p>I <emph>do</emph> insist on an answer.</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M1">
      <speaker>Denis.</speaker>
      <p>Then take this one, and be satisfied with it. It <emph>had</emph> reference to Miss Blake;
       be wise and ask no more.</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M3">
      <speaker>Guy.</speaker>
      <p>I demand a full account of the circumstances of that quarrel.</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M1">
      <speaker>Denis.</speaker>
      <p>
       <stage>(after a pause).</stage> I cannot give it.</p>
     </sp>
     <pb n="42"/>
-    <sp>
+    <sp who="#L1460_M3">
      <speaker>Guy.</speaker>
      <p>You refuse?</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M1">
      <speaker>Denis.</speaker>
      <p>I refuse.</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M3">
      <speaker>Guy.</speaker>
      <p>Then I will supply one. Read that. <stage>(Hands newspaper.)</stage></p>
     </sp>
-    <sp>
+    <sp who="#L1460_M1">
      <speaker>Denis.</speaker>
      <p>
       <stage>(reads).</stage> Great heaven! is it possible that you believe this miserable – this
       preposterous lie?</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M3">
      <speaker>Guy.</speaker>
      <p> That is false!</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M1">
      <speaker>Denis.</speaker>
      <p>It is infamously false, Guy Warrington. Do you know me so little that you have allowed this
       abominable paragraph to give you more than a moment’s irritation?</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M3">
      <speaker>Guy.</speaker>
      <p>If that is false will you tell me the true story?</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M1">
      <speaker>Denis.</speaker>
      <p>
       <stage>(after a pause).</stage> No, Guy! I will not! Had I known how little you know of the
@@ -3856,48 +3887,48 @@
       should be sufficient for you that I tell you that this paragraph, based on a certain
       substratum of truth, is in itself a monstrous and mischievous falsehood!</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M3">
      <speaker>Guy.</speaker>
      <p>It should not be sufficient, because, if you are capable of the villainy here charged
       against you, you are also capable of covering it with a lie!</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M1">
      <speaker>Denis.</speaker>
      <p>If you know me, you would not think me capable of this villainy.</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M3">
      <speaker>Guy.</speaker>
      <p>It is because I did <emph>not</emph> know you that I thought you incapable of it. Will you
       tell me the true story of your quarrel with Kavanagh?</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M1">
      <speaker>Denis.</speaker>
      <p>No!</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M3">
      <speaker>Guy.</speaker>
      <p>Remember what I have at stake, and in heaven’s name tell me the whole truth.</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M1">
      <speaker>Denis.</speaker>
      <p>No!</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M3">
      <speaker>Guy.</speaker>
      <p>I can bear it now, whatever it is; it cannot be more bitter than the belief that you have
       been false to me. Tell me, Denis Grant, for pity’s sake! Den, dear old Den, let me think
       anything rather than that you have done this fearful thing. Tell me! Tell me all!</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M1">
      <speaker>Denis.</speaker>
      <p>No!</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M3">
      <speaker>Guy.</speaker>
      <p>. Then I accept this paragraph as it stands, and so accepting, I tell you that you have
       behaved like a –</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M1">
      <speaker>Denis.</speaker>
      <p>Stop, you don’t know what you’re doing. Give yourself time to think before you utter another
       word. I do not ask it for myself. Have mercy on yourself, if you will have none on me!
@@ -3906,16 +3937,16 @@
       as that you think you have reason to do so. Trust me a little longer. I have borne much for
       you; bear this for me, until Jessie sets me right with you. Be a man!</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M3">
      <speaker>Guy.</speaker>
      <p>Will you tell me the story of your quarrel with Kavanagh?</p>
     </sp>
     <pb n="43"/>
-    <sp>
+    <sp who="#L1460_M1">
      <speaker>Denis.</speaker>
      <p>No! You shall never hear it from my lips.</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M3">
      <speaker>Guy.</speaker>
      <p>
       <stage>(in desperation).</stage> What would you have me think? Is my common sense to avail me
@@ -3924,50 +3955,50 @@
       life to hear you proved innocent.</p>
     </sp>
     <stage>Enter Kavanagh – he stands irresolutely at door.</stage>
-    <sp>
+    <sp who="#L1460_M1">
      <speaker>Denis.</speaker>
      <p>And here is the man who of all others can best place it beyond doubt.</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M2">
      <speaker>Kavan.</speaker>
      <p>Dear me, I’m afraid my visit is inopportune. Shall I go?</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M1">
      <speaker>Denis.</speaker>
      <p>
       <stage>(L.).</stage> No, sir; on the contrary, your visit is marvellously well timed. Mr.
       Kavanagh, this foolish boy has heard of our quarrel on the yacht and attributes it to rivalry
       for Miss Blake’s hand.</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M2">
      <speaker>Kavan.</speaker>
      <p>
       <stage>(C.)</stage> Well?</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M1">
      <speaker>Denis.</speaker>
      <p>I call upon you, sir, to endorse my assurance that I never appeared on board that yacht in
       the character of Miss Blake’s suitor!</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M2">
      <speaker>Kavan.</speaker>
      <p>Now, Mr. Grant, attend to me. We will assume, if you please for the sake of argument, that I
       am addressing a gentleman.</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M1">
      <speaker>Denis.</speaker>
      <p>For heaven’s sake, man, don’t trifle with this unhappy fellow!</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M2">
      <speaker>Kavan.</speaker>
      <p>Allow me to proceed. At an early stage in your acquaintance with Miss Blake, you propose to
       marry her. She rejects you.</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M1">
      <speaker>Denis.</speaker>
      <p>Stop, in heaven’s name!</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M2">
      <speaker>Kavan.</speaker>
      <p>She rejects you perhaps wisely – perhaps foolishly! <emph>I</emph> think wisely, but then I
       am no doubt prejudiced. Having a modest faith in the beauty of your own character, you
@@ -3978,81 +4009,81 @@
       having had time to reflect on your conduct, you offer him an ample and circumstantial apology
       – not from your lips merely, but from the very bottom of your heart.</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M1">
      <speaker>Denis.</speaker>
      <p>You miserable liar!</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M2">
      <speaker>Kavan.</speaker>
      <p>
       <stage>(haughtily).</stage> No, no, sir – you forget – I am assuming – for the sake of
       argument – that you are a gentleman! <stage>(Bows and exit, door in flat, R.)</stage></p>
     </sp>
     <pb n="44"/>
-    <sp>
+    <sp who="#L1460_M3">
      <speaker>Guy.</speaker>
      <p><emph>Now</emph>, sir, what have you to say? Do you deny that you proposed marriage to Miss
       Blake?</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M1">
      <speaker>Denis.</speaker>
      <p>No; I do not deny that.</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M3">
      <speaker>Guy.</speaker>
      <p>Ah!</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M1">
      <speaker>Denis.</speaker>
      <p>It is quite true? But it was before I knew that you loved her.</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M3">
      <speaker>Guy.</speaker>
      <p>Bah! and you never told me of this?</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M1">
      <speaker>Denis.</speaker>
      <p>Why should I have told you of it? It would have pained you to hear it – it would have pained
       me to tell it – it would have pained her to have it told! It would have done much harm and no
       good.</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M3">
      <speaker>Guy.</speaker>
      <p>It would have done this good, that I should not have entrusted the guardianship of the girl
       I loved to a rejected suitor. You were bound in honour to tell me.</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M1">
      <speaker>Denis.</speaker>
      <p>I was bound in honour to keep a secret which was as much hers as mine. I was further bound
       in honour never to renew my proposals directly or indirectly, and before heaven, I have kept
       to my bond.</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M3">
      <speaker>Guy.</speaker>
      <p>Before heaven, I don’t believe you.</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M1">
      <speaker>Denis.</speaker>
      <p>It is hard to hear such words from any man, harder from you than any other. When you know
       the truth, you will never forgive yourself.</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M3">
      <speaker>Guy.</speaker>
      <p>I tell you, sir, that I do not believe you. Do you hear me, Mr. Grant? I say that I do not
       believe you.</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M1">
      <speaker>Denis.</speaker>
      <p>I hear you!</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M3">
      <speaker>Guy.</speaker>
      <p>You have helped to rob me of my life, in robbing me of my life’s happiness. You have behaved
       like a scoundrel. Don’t speak, I will not believe one word you say. Do you hear me, sir? Do
       you hear me? Damn it, man, will nothing rouse you short of this? <stage>(Strikes
       him.)</stage></p>
     </sp>
-    <sp>
+    <sp who="#L1460_M1">
      <speaker>Denis.</speaker>
      <p><stage>(seizing him and forcing him into a chair).</stage> You fool! listen while I tell you
       what I have done for you. I have devoted myself to your interests, and in protecting them I
@@ -4063,23 +4094,23 @@
       taken. <stage>(Releases him, down, L.)</stage></p>
     </sp>
     <stage>Enter Jessie, Kavanagh, Mrs. Fitzosborne and Boodle, R.</stage>
-    <sp>
+    <sp who="#L1460_F8">
      <speaker>Jessie.</speaker>
      <p>Guy – dear, dear Guy! Why, won’t you speak to me? It is I – Jessie!</p>
     </sp>
     <p><stage>(He remains seated with his face covered by his hands.)</stage></p>
-    <sp>
+    <sp who="#L1460_M1">
      <speaker>Denis.</speaker>
      <p>Miss Blake, I will tell why he won’t speak to you. He believes that my quarrel with
       Kavanagh, sprung from <pb n="45"/>motives of jealousy. He refused to believe my denial – he
       struck me! That blow which nearly drove me out of my senses, seems to have restored him to
       his. He is sorry and ashamed!</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M3">
      <speaker>Guy.</speaker>
      <p>Jessie, what am I to do? What am I to believe?</p>
     </sp>
-    <sp>
+    <sp who="#L1460_F8">
      <speaker>Jessie.</speaker>
      <p>Believe? Believe that I have been wilful, petulant, wicked; believe that I behaved badly to
       him and to you. Believe anything rather than that Mr. Grant has wronged you. <stage>(Crosses,
@@ -4088,20 +4119,20 @@
       and noble nature, and I think you can forgive even me? After all I am only a child!
        <stage>(Denis takes her hand.)</stage></p>
     </sp>
-    <sp>
+    <sp who="#L1460_M3">
      <speaker>Guy.</speaker>
      <p>But Kavanagh told me –</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M2">
      <speaker>Kavan.</speaker>
      <p>What I believed to be true. I know nothing of the charge you confided to Mr. Grant. I sought
       Miss Blake’s hand, and I looked at him as a rival.</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M1">
      <speaker>Denis.</speaker>
      <p>Then you admit that your statement that you were invited by Miss Blake is –</p>
     </sp>
-    <sp>
+    <sp who="#L1460_F7">
      <speaker>Mrs. F.</speaker>
      <p>
       <stage>(R. C.)</stage> True, quite true. It’s a dreadful thing to have to say before this
@@ -4111,80 +4142,80 @@
       Kavanagh, was given at my request, and I’m ashamed to say in my behalf. <stage>(Crying – Denis
        goes up, L.)</stage></p>
     </sp>
-    <sp>
+    <sp who="#L1460_M2">
      <speaker>Kavan.</speaker>
      <p>Oh! Mrs. Fitzosborne, I had no idea of this. Why, will you believe me, I thought you
       disliked me, or I should have made myself much more agreeable. If I had known of this earlier!
       Why, you could have had no idea at the time that –</p>
     </sp>
-    <sp>
+    <sp who="#L1460_F7">
      <speaker>Mrs. F.</speaker>
      <p>
       <stage>(sobbing).</stage> I could have had no idea at the time that you were an unscrupulous,
       disreputable, lively, unconscientious, good-looking adventurer. Wasn’t that what you were
       going to say, Mr. Kavanagh?</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M2">
      <speaker>Kavan.</speaker>
      <p>Not at all. For once, Mrs. Fitzosborne, you are quite mistaken. <stage>(He retires up to
        Denis.)</stage></p>
     </sp>
-    <sp>
+    <sp who="#L1460_F7">
      <speaker>Mrs. F.</speaker>
      <p>Baby, I’ve behaved very badly –</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M5">
      <speaker>Boodle.</speaker>
      <p>Well, upon my word, Mrs. Fitz – I think you have!</p>
     </sp>
-    <sp>
+    <sp who="#L1460_F7">
      <speaker>Mrs. F.</speaker>
      <p>I’m very sorry, because I see I’ve pained you; but I’ve had a lesson, and I won’t pain you
       any more. Could <emph>anything</emph> be fairer than that? <stage>(Sobbing.)</stage></p>
     </sp>
-    <sp>
+    <sp who="#L1460_M5">
      <speaker>Boodle.</speaker>
      <p>Nothing could be – I mean no – nothing. <stage>(Aside.)</stage> Be hanged if she ain’t
       crying!</p>
     </sp>
-    <sp>
+    <sp who="#L1460_F7">
      <speaker>Mrs. F.</speaker>
      <p>And you forgive me?</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M5">
      <speaker>Boodle.</speaker>
      <p>Yeth, I forgive you. <stage>(Aside.)</stage> I’d no idea thee could cry!</p>
     </sp>
     <pb n="46"/>
-    <sp>
+    <sp who="#L1460_F7">
      <speaker>Mrs. F.</speaker>
      <p>I can never forgive myself.</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M5">
      <speaker>Boodle.</speaker>
      <p>
       <stage>(much affected).</stage> Yeth you could, Emily. If you could only thee yourthelf in
       tearth you’d forgive yourthelf directly!</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M2">
      <speaker>Kavan.</speaker>
      <p>Let me make a clean breast of it. Miss Blake, there is a consummate scoundrel who was once a
       clerk of your late father’s. His name is –</p>
     </sp>
     <stage>Enter Grouse, L.</stage>
-    <sp>
+    <sp who="#L1460_M4">
      <speaker>Grouse.</speaker>
      <p>Grouse – but he ain’t a scoundrel.</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M2">
      <speaker>Kavan.</speaker>
      <p>You here?</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M5">
      <speaker>Boodle.</speaker>
      <p>It’th the criminal!</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M4">
      <speaker>Grouse.</speaker>
      <p>It’s the lunatic. <stage>(Crosses to Boodle.)</stage> If ever they get a commission to
       enquire into the state of your mind, you’d better put your case in my hands, or the other side
@@ -4194,137 +4225,137 @@
       In reply, I sent him a letter, repudiating him altogether. That letter he returned to me
       unopened. Here it is! <stage>(Hands envelope to Denis.)</stage></p>
     </sp>
-    <sp>
+    <sp who="#L1460_M1">
      <speaker>Denis.</speaker>
      <p>
       <stage>(opens letter and reads).</stage> “Sir, I have discovered that Miss Blake is an orphan.
       I cannot consent to assist you in dispossessing an orphan. Apply to a more hardened attorney.
       There are many of them in the profession. Yours – Anthony Grouse.”</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M2">
      <speaker>Kavan.</speaker>
      <p>Do you mean to tell me that that is the identical letter you wrote to me?</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M4">
      <speaker>Grouse.</speaker>
      <p>And you returned unopened. The identical one. <stage>(Crosses, R.)</stage></p>
     </sp>
-    <sp>
+    <sp who="#L1460_M2">
      <speaker>Kavan.</speaker>
      <p>Not a copy?</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M4">
      <speaker>Grouse.</speaker>
      <p>The identical one. You hear me, sir – the identical one. <stage>(Crosses, R.)</stage></p>
     </sp>
-    <sp>
+    <sp who="#L1460_M2">
      <speaker>Kavan.</speaker>
      <p>Very good. Oblige me by reading this, Mr. Grant. <stage>(Gives copy of letter to
        Denis.)</stage></p>
     </sp>
-    <sp>
+    <sp who="#L1460_M1">
      <speaker>Denis.</speaker>
      <p>
       <stage>(reads).</stage> “Dear Tim.” Who’s dear Tim?</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M2">
      <speaker>Kavan.</speaker>
      <p>His partner. That letter was enclosed to me by mistake. Read on.</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M1">
      <speaker>Denis.</speaker>
      <p>“Dear Tim, – old Blake’s will has come to hand. When Kavanagh has touched the money, we’ll
       try its capacity for further bloodletting. Yours cock-a-doodly, Toney Grouse.”</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M4">
      <speaker>Grouse.</speaker>
      <p>Why, what’s that?</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M2">
      <speaker>Kavan.</speaker>
      <p>That’s a facsimile copy of your letter, taken in my hand press on board the Skylark.</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M4">
      <speaker>Grouse.</speaker>
      <p>But, I say, you couldn’t have got at my letter, I <pb n="47"/>tore it into fragments, and
       threw the pieces overboard It’s a forgery.</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M1">
      <speaker>Denis.</speaker>
      <p>And that <stage>(Pointing to Grouse’s alleged letter.)</stage> is the genuine document.</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M4">
      <speaker>Grouse.</speaker>
      <p>Quite genuine!</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M1">
      <speaker>Denis.</speaker>
      <p>The identical one?</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M4">
      <speaker>Grouse.</speaker>
      <p>The identical one!</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M1">
      <speaker>Denis.</speaker>
      <p>Which you tore into fragments and threw overboard? Mr. Grouse, this time you appear to have
       overreached yourself.</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M5">
      <speaker>Boodle.</speaker>
      <p>
       <stage>(to Grouse).</stage> I thay, when you get committed at the Old Bailey, you’d better get
       me out of the way, or the other side will thubpoena me as a witness, and it’ll be all up with
       you. <stage>(Aside.)</stage> Nothing could be fairer than that!</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M4">
      <speaker>Grouse.</speaker>
      <p>Why, what’ll you swear?</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M5">
      <speaker>Boodle.</speaker>
      <p>What’ll I thwear? Why, I’ll thwear Grouthe ith black game, and back my opinion at any oddth
       the prethent company like to name. No takerth! Nothing can be fairer than that!</p>
     </sp>
-    <sp>
+    <sp who="#L1460_F8">
      <speaker>Jessie.</speaker>
      <p>
       <stage>(to Guy, who is seated at table, with his head buried in his hands).</stage> Guy, dear
       Guy! I have not been as bad as you think! I <emph>am</emph> a flirt, and I can’t help it! Can
       you forgive me?</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M3">
      <speaker>Guy.</speaker>
      <p> What have <emph>I</emph> to forgive! <stage>(Turning to Denis.)</stage> Denis – my dear old
       Den – I – I’m a gentleman by position, and I’ve behaved like a snob! I can’t put it harder
       than that! – if I could I would. I – I – are you going to cut me for it?</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M1">
      <speaker>Denis.</speaker>
      <p>Cut you! My dear boy, a mere acquaintance could do no more.</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M3">
      <speaker>Guy.</speaker>
      <p>Then you forgive me?</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M1">
      <speaker>Denis.</speaker>
      <p>A mere friend could do no less!</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M3">
      <speaker>Guy.</speaker>
      <p>But really! –</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M1">
      <speaker>Denis.</speaker>
      <p>Yes, really!</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M3">
      <speaker>Guy.</speaker>
      <p>
       <stage>(offering hand).</stage> True?</p>
     </sp>
-    <sp>
+    <sp who="#L1460_M1">
      <speaker>Denis.</speaker>
      <p><stage>(taking it).</stage> Grip!</p>
     </sp>

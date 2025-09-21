@@ -5,7 +5,7 @@
  
  <!-- copy info from catalogue to individual text headers -->
  <!-- and enrich header with text component counts -->
- <!-- make basic changes for dracor conformance -->
+
  
  <xsl:variable name="today">
   <xsl:value-of
@@ -33,7 +33,7 @@
   <xsl:message>
        <xsl:value-of 
        select="$currentFile"/> contains <xsl:value-of select="$ppCount"/> pages ; <xsl:value-of 
-        select="$spWords+$stWords"/> words ; <xsl:value-of 
+       select="$spWords+$stWords"/> words , of them  <xsl:value-of select="$spWords"/> spoken; <xsl:value-of 
          select="$spCount"/> speeches,   <xsl:value-of select="$spvCount"/> of them in verse. 
   </xsl:message>
   <xsl:apply-templates/>
@@ -76,7 +76,7 @@
     select="document('/home/lou/Public/Lacy/catalogue.xml')//*:div[@type='work' and @xml:id eq $id]/@ana"/>
     <xsl:variable name="catStrs" select="tokenize($catStr, '_')"/>
    <xsl:comment>
-    <xsl:value-of select="$catStr"/>
+    <xsl:value-of select="$catStrs"/>
    </xsl:comment>
    <textClass xmlns="http://www.tei-c.org/ns/1.0">
     <catRef target="{concat('#size',$catStrs[1])}"/>
@@ -121,12 +121,18 @@
  <xsl:template match="t:extent">
   <extent xmlns="http://www.tei-c.org/ns/1.0">
    <xsl:value-of select="."/>
-   <measure type="pp" quantity="{$ppCount}"/>
-   <measure type="spCount" quantity="{$spCount}"/>
-   <measure type="spvCount" quantity="{$spvCount}"/>
-   <measure type="txWords" quantity="{$spWords+$stWords}"/>
-   <measure type="spWords" quantity="{$spWords}"/>
-   <measure type="stWords" quantity="{$stWords}"/>
+   <measure type="pp" quantity="{$ppCount}"/><xsl:text>
+  </xsl:text>
+  <measure type="spCount" quantity="{$spCount}"/><xsl:text>
+  </xsl:text>
+  <measure type="spvCount" quantity="{$spvCount}"/><xsl:text>
+  </xsl:text>
+  <measure type="txWords" quantity="{$spWords+$stWords}"/><xsl:text>
+  </xsl:text>
+  <measure type="spWords" quantity="{$spWords}"/><xsl:text>
+  </xsl:text>
+  <measure type="stWords" quantity="{$stWords}"/><xsl:text>
+  </xsl:text>
   </extent><xsl:text>
 </xsl:text>
  </xsl:template>
@@ -140,12 +146,16 @@
   <!--</listRef>-->
  </xsl:template>
  
- <xsl:template match="t:publicationStmt/t:idno">
-  <xsl:copy>
-   <xsl:attribute name="type">URL</xsl:attribute>
-    <xsl:value-of select="concat('lae:',.)"/>
-  </xsl:copy>
- </xsl:template>
+<xsl:template match="t:publicationStmt">
+<xsl:copy>
+<xsl:apply-templates/>
+<idno xmlns="http://www.tei-c.org/ns/1.0" type='lae'>
+<xsl:value-of select="ancestor::t:TEI/@xml:id"/>
+</idno>
+</xsl:copy>
+</xsl:template>
+
+ <xsl:template match="t:publicationStmt/t:idno"/>
  
  <!-- suppress superceded elements -->
  

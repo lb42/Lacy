@@ -2,7 +2,7 @@
  <teiHeader>
   <fileDesc>
    <titleStmt>
-    <title>Villikins and His Dinah</title>
+    <title type="main">Villikins and His Dinah</title>
     <author>Burnand, Francis C.</author>
     <respStmt>
      <resp>Curated by</resp>
@@ -11,15 +11,53 @@
    </titleStmt>
    <publicationStmt>
     <distributor>Privately published on the Lacy Website</distributor>
-    <idno>L0796</idno>
-   </publicationStmt>
-   <sourceDesc><bibl type="digital">Retagged from DOCX produced by Abby from PDF from UM pages; checked against same</bibl><bibl type="source" status="TEI_1" n="54.1" corresp="nic:N10119"><author>Burnand, Francis C.</author><title n="villikinsandhisdinah">Villikins and His Dinah</title><title type="sub">A Tragico-Comico Burlesque in one act</title><extent>20 pp (UM copy: 10 - 30)<measure type="pp" quantity="20"/><measure type="txWords" quantity="4830"/><measure type="spWords" quantity="4217"/><measure type="stWords" quantity="613"/></extent><eventName notAfter="1854" type="firstPerf">
-      <date resp="nicoll" when="1854-02-27"/>
-      <name>A.D.C. Rooms, Cambridge</name>
-      <date resp="source" when="1855-11-08">8 Nov. 1855</date>
-     </eventName><listRef type="localCopies"><ref>Vol54/L0796/L0796-um.pdf</ref></listRef></bibl></sourceDesc>
+    
+   <idno type="lae">L0796</idno><idno type='URI' xml:base='https://dracor.org'>LAE</idno></publicationStmt>
+   <sourceDesc><bibl type="printSource" n="54.1"><author>Burnand, Francis C.</author><title type="main" n="villikinsandhisdinah">Villikins and His Dinah</title><title type="sub">A Tragico-Comico Burlesque in one act</title><extent>20 pp (UM copy:
+10 - 30)<measure type="pp" quantity="20"/>
+  <measure type="spCount" quantity="173"/>
+  <measure type="spvCount" quantity="173"/>
+  <measure type="txWords" quantity="4830"/>
+  <measure type="spWords" quantity="4217"/>
+  <measure type="stWords" quantity="613"/>
+  </extent>
+
+<title level="s"> Lacy's Acting Edition, volume 54, No. 0796</title><idno type="nic">N10119</idno></bibl><bibl type="digitalSource" n="copytext"><ref target="https://babel.hathitrust.org/cgi/pt?id=mdp.39015067453822&amp;seq=10 ">UM from HT</ref><ref target="local:Vol54/L0796/L0796-um.pdf"/></bibl><bibl type="digitalSource" n="copytext"><ref target="https://lb42.github.io/Lacy/L0796.html">TEI</ref></bibl><listEvent>
+<event type="firstPerf" when="1855-11-08" source="text" where="Cambridge">
+<desc>Premiered at A.D.C. Rooms, Cambridge 8 Nov. 1855; Nicoll date
+1854-02-27</desc>
+</event>
+</listEvent></sourceDesc>
   </fileDesc>
-  <profileDesc><textClass><!--S_1_ComicBurle_F._FARCE--><catRef target="#sizeS"/><catRef target="#act1"/><catRef target="nic:F."/><keywords><term>FARCE</term></keywords></textClass></profileDesc><revisionDesc><change when="2024-10-03">Header enriched</change>
+  <profileDesc><textClass><catRef target="#sizeS"/><catRef target="#act1"/><catRef target="nic:F."/><keywords><term>FARCE</term></keywords></textClass><particDesc><listPerson>
+<person xml:id="L0796_M1">
+<persName type="role"> Master Grumbleton Gruffin, </persName>
+<persName type="spkr" n="1">Gruffin.</persName>
+<persName type="spkr" n="39">Gruff.</persName>
+</person>
+<person xml:id="L0796_M2">
+<persName type="role"> Baron Boski Bumble </persName>
+<persName type="spkr" n="6">Boski.</persName>
+<persName type="spkr" n="19">Baron.</persName>
+</person>
+<person xml:id="L0796_M3">
+<persName type="role">William Wilkins </persName>
+<persName type="spkr" n="1">Villikins.</persName>
+<persName type="spkr" n="49">Villi.</persName>
+<persName type="spkr" n="52">Villi</persName>
+<persName type="spkr" n="2">Ghost of VILLIKINS.</persName>
+</person>
+<person xml:id="L0796_F4">
+<persName type="role"> Dinah Gruffin</persName>
+<persName type="spkr" n="51">Dinah.</persName>
+</person>
+
+<person xml:id="L0796_Mult">
+<!--<persName type="spkr" n="1">Villi, Gruff.</persName>-->
+<persName type="spkr" n="2">Omnes</persName>
+<!--<persName type="spkr" n="1">Gruff Villi.</persName>-->
+</person>
+</listPerson></particDesc></profileDesc><revisionDesc><change when="2025-09-07">Metadata updated from new catalogue</change><change when="2024-10-03">Header enriched</change>
    <change when="2023-10-05">Hand edited; pagination checked; punctuation normalised</change>
    <change when="2023-10-03">Header confected</change>
   </revisionDesc>
@@ -73,7 +111,7 @@
      back. Arbour, L. U. E. Music piano as curtain rises, "Slumber, my darling."</stage>
     <stage>Dinah is discovered asleep—she yawns, rises, stretches herself awakes, and comes
      forward.</stage>
-    <sp>
+    <sp who="#L0796_F4">
      <speaker>Dinah.</speaker>
      <l>Oh, dear me! why what a dream I’ve had;</l>
      <l>To be awake at last I’m very glad.</l>
@@ -90,111 +128,111 @@
      <l>I know ’tis he—he blows his precious nose</l>
      <l>I will return the signal. <stage>(sneezes)</stage></l>
     </sp>
-    <sp>
+    <sp who="#L0796_M3">
      <speaker>Villikins.</speaker>
      <l><stage>(without )</stage> Dinah dear!</l>
     </sp>
-    <sp>
+    <sp who="#L0796_F4">
      <speaker>Dinah.</speaker>
      <l>Don’t stay outside, my William, come in here. </l>
     </sp>
-    <sp>
+    <sp who="#L0796_M3">
      <speaker>Villi.</speaker>
      <l>The gate is locked </l>
     </sp>
-    <sp>
+    <sp who="#L0796_F4">
      <speaker>Dinah.</speaker>
      <l>Out and alas! I knew it.</l>
      <l>Oh, bars and bolts !</l>
      <pb n="4"/>
     </sp>
-    <sp>
+    <sp who="#L0796_M3">
      <speaker>Villi.</speaker>
      <l>Barrin’ the bolts, I’d do it.</l>
      <l>Ne’er by a wall shall Villikins be floored— </l>
      <l>Hast got a <hi>key ?</hi></l>
     </sp>
-    <sp>
+    <sp who="#L0796_F4">
      <speaker>Dinah.</speaker>
      <l>No, but I’ve got a <hi>chord!</hi></l>
      <l>I’ll throw it over, then, on wings of hope, </l>
      <l>You’ll mount to meet me.</l>
     </sp>
-    <sp>
+    <sp who="#L0796_M3">
      <speaker>Villi.</speaker>
      <l>Just make fast the rope. <stage>(Villikins' head appears above the wall, c.)</stage></l>
      <l>My dearest Dinah, Now I’m on the top. <stage>(disappears.</stage></l>
     </sp>
-    <sp>
+    <sp who="#L0796_F4">
      <speaker>Dinah.</speaker>
      <l>I<stage>(screaming.)</stage> Art hurt my love ?</l>
     </sp>
-    <sp>
+    <sp who="#L0796_M3">
      <speaker>Villi.</speaker>
      <l><stage>(re-appears.)</stage> I did but take a drop.</l>
     </sp>
-    <sp>
+    <sp who="#L0796_F4">
      <speaker>Dinah.</speaker>
      <l>A <hi>drop</hi> too much ?</l>
     </sp>
-    <sp>
+    <sp who="#L0796_M3">
      <speaker>Villi.</speaker>
      <l><stage>(descends and comes forward, rubbing himself.)</stage><hi>Draining</hi> a
       <hi>drop's</hi> no pain;</l>
      <l>But there’s a slight difference <hi>dropping</hi> in <hi>a drain ! </hi>Well, now I’m
       here—</l>
     </sp>
-    <sp>
+    <sp who="#L0796_F4">
      <speaker>Dinah.</speaker>
      <l><stage>(l. c.)</stage> Oh, I so feared about you,</l>
      <l>Just now without.</l>
     </sp>
-    <sp>
+    <sp who="#L0796_M3 #L0796_M1">
      <speaker>Villi, Gruff.</speaker>
      <l><stage>(b. c.)</stage> Because I was without you.</l>
     </sp>
-    <sp>
+    <sp who="#L0796_F4">
      <speaker>Dinah.</speaker>
      <l>Oh, I’ve had such a dream, for plainly quite</l>
      <l>I saw—what think you?</l>
     </sp>
-    <sp>
+    <sp who="#L0796_M3">
      <speaker>Villi.</speaker>
      <l>Oh, I know—a sight !</l>
     </sp>
-    <sp>
+    <sp who="#L0796_F4">
      <speaker>Dinah.</speaker>
      <l>A ghost all <hi>wrapped—</hi></l>
     </sp>
-    <sp>
+    <sp who="#L0796_M3">
      <speaker>Villi.</speaker>
      <l>Don’t talk of spirit <hi>rapping </hi>, </l>
      <l>Or I shall think you have been <hi>spirit</hi> tapping.</l>
     </sp>
-    <sp>
+    <sp who="#L0796_F4">
      <speaker>Dinah.</speaker>
      <l>A ghost wrapped in a cloak— </l>
     </sp>
-    <sp>
+    <sp who="#L0796_M3">
      <speaker>Villi.</speaker>
      <l>What did he do ?</l>
     </sp>
-    <sp>
+    <sp who="#L0796_F4">
      <speaker>Dinah.</speaker>
      <l>Undid the cloak, and then I saw—’twas you!</l>
     </sp>
-    <sp>
+    <sp who="#L0796_M3">
      <speaker>Villi.</speaker>
      <l>My dearest Dinah, a joke's a joke—you shouldn't</l>
      <l>And, ‘twixt ourselves, I really wish you wouldn’t </l>
      <l>That I’ve a dislike to ghosts you can’t help knowing. </l>
      <l><hi>Owing</hi> to that Professor—</l>
     </sp>
-    <sp>
+    <sp who="#L0796_F4">
      <speaker>Dinah.</speaker>
      <l>Who ?</l>
     </sp>
-    <sp>
+    <sp who="#L0796_M3">
      <speaker>Villi.</speaker>
      <l>Professor <hi>Owen.</hi></l>
      <l>For I confess I fear the hats that walk, </l>
@@ -208,19 +246,19 @@
      <l>This <hi>gambolling</hi> table was kept up by <hi>legs</hi>!</l>
      <l>But of your dream, dear ?</l>
     </sp>
-    <sp>
+    <sp who="#L0796_F4">
      <speaker>Dinah.</speaker>
      <l>Worse remains behind.</l>
     </sp>
-    <sp>
+    <sp who="#L0796_M3">
      <speaker>Villi.</speaker>
      <l>Then give it me in <hi>werse</hi>, if you’re inclined. </l>
     </sp>
-    <sp>
+    <sp who="#L0796_F4">
      <speaker>Dinah.</speaker>
      <l>But I'm so hoarse—ahem!</l>
     </sp>
-    <sp>
+    <sp who="#L0796_M3">
      <speaker>Villi.</speaker>
      <l>What’s that you say ?</l>
      <l>Although you’re <hi>ho(a)rse, </hi>I beg you’ll not say nay (<hi>neigh</hi>)</l>
@@ -251,129 +289,129 @@
      <l>Doodle dee! doodle dum! dum di doodle da!</l>
      <stage>(VILLIKINS and Dinah execute a pas de doo— (deux) die.</stage>
     </sp>
-    <sp>
+    <sp who="#L0796_M3">
      <speaker>Villi.</speaker>
      <l>Dreams are but swindlers,, swindling futurity</l>
      <pb n="6"/>
      <l>Like certain banks,in which there’s no security .</l>
      <l>But now, my love—</l>
     </sp>
-    <sp>
+    <sp who="#L0796_M1">
      <speaker>Gruffin.</speaker>
      <l>r. <stage>(outside, R.)</stage> Ho daughter, ho!</l>
     </sp>
-    <sp>
+    <sp who="#L0796_F4">
      <speaker>Dinah.</speaker>
      <l>My father’s voice.</l>
     </sp>
-    <sp>
+    <sp who="#L0796_M3">
      <speaker>Villi.</speaker>
      <l><stage>(faintly.)</stage> I fear I am <hi>de trop.</hi></l>
      <l>Where can I hide for a short time my head ?</l>
     </sp>
-    <sp>
+    <sp who="#L0796_F4">
      <speaker>Dinah.</speaker>
      <l>Why turn down there, <stage>(pointing off, R.)</stage></l>
     </sp>
-    <sp>
+    <sp who="#L0796_M3">
      <speaker>Villi.</speaker>
      <l>What, in that <hi>turn-up</hi> bed ?</l>
      <l>I’d rather not—</l>
     </sp>
-    <sp>
+    <sp who="#L0796_F4">
      <speaker>Dinah.</speaker>
      <l>Stay ! here an arbour see.</l>
     </sp>
-    <sp>
+    <sp who="#L0796_M3">
      <speaker>Villi.</speaker>
      <l>An arbour ? Just the thing to <hi>harbour</hi> me-</l>
     </sp>
-    <sp>
+    <sp who="#L0796_F4">
      <speaker>Dinah.</speaker>
      <l>Pa’s coming down the walk. <stage>(looking off, R.H.)</stage></l>
     </sp>
-    <sp>
+    <sp who="#L0796_M3">
      <speaker>Villi.</speaker>
      <l><stage>(going towards arbour, L)</stage>‘Ecod, I'll do it </l>
     </sp>
-    <sp>
+    <sp who="#L0796_F4">
      <speaker>Dinah.</speaker>
      <l>Be off. <stage>(pushing him in.)</stage></l>
     </sp>
-    <sp>
+    <sp who="#L0796_M3">
      <speaker>Villi</speaker>
      <l><stage>(shutting door.)</stage> I’m gone! I wish you, love, well through it.</l>
      <stage>Enter Gruffin, r. h.</stage>
     </sp>
-    <sp>
+    <sp who="#L0796_M1">
      <speaker>Gruff.</speaker>
      <l>So, daughter : —so you are alone, I see.</l>
     </sp>
-    <sp>
+    <sp who="#L0796_F4">
      <speaker>Dinah.</speaker>
      <l>No, pa’ I’m not—</l>
     </sp>
-    <sp>
+    <sp who="#L0796_M1">
      <speaker>Gruff.</speaker>
      <l>Hey!</l>
     </sp>
-    <sp>
+    <sp who="#L0796_F4">
      <speaker>Dinah.</speaker>
      <l>Because <hi>you</hi> are with me•</l>
     </sp>
-    <sp>
+    <sp who="#L0796_M1">
      <speaker>Gruff.</speaker>
      <l>Pooh! daughter put this levity away,</l>
      <l>I’ve got a gent a-coming here to-day— &gt;</l>
      <l>In short, a "lovier, galliant, rich, and-gay."</l>
      <l>But how is this ? you seem quite melancholy .</l>
     </sp>
-    <sp>
+    <sp who="#L0796_F4">
      <speaker>Dinah.</speaker>
      <l>Quite a mistake—papa, I’m, in fact, jolly.</l>
      <l><stage>(aside.)</stage> If he finds Villiam here, what shall I do ?</l>
      <l><stage>(aloud)</stage> Who is this lovier for—for me ?</l>
     </sp>
-    <sp>
+    <sp who="#L0796_M1">
      <speaker>Gruff.</speaker>
      <l>For me ? for <hi>you.</hi></l>
      <l><stage>(aside.)</stage> Something’s gone wrong, I’m sure—I smell a rat,</l>
      <l>But I will be too <hi>sharp</hi> for her, that’s <hi>flat.</hi></l>
      <l><stage>(aloud.)</stage> Come, let me tell you, miss, he is a catch.</l>
     </sp>
-    <sp>
+    <sp who="#L0796_F4">
      <speaker>Dinah.</speaker>
      <l>Of <hi>Lucifer's</hi> own making, ‘tis a <hi>match</hi></l>
      <l>Marry the man, papa, I really can’t.</l>
     </sp>
-    <sp>
+    <sp who="#L0796_M1">
      <speaker>Gruff.</speaker>
      <l>You must.</l>
     </sp>
-    <sp>
+    <sp who="#L0796_F4">
      <speaker>Dinah.</speaker>
      <l>I mustn’t</l>
     </sp>
-    <sp>
+    <sp who="#L0796_M1">
      <speaker>Gruff.</speaker>
      <l>But you shall!</l>
     </sp>
-    <sp>
+    <sp who="#L0796_F4">
      <speaker>Dinah.</speaker>
      <l>I shan’t!</l>
     </sp>
-    <sp>
+    <sp who="#L0796_M1">
      <speaker>Gruff.</speaker>
      <l>What is the cause, miss, of this crazy whim ?</l>
      <pb n="7"/>
     </sp>
-    <sp>
+    <sp who="#L0796_F4">
      <speaker>Dinah.</speaker>
      <l>The cause is Wilkins, <hi>cause</hi> I love but him.</l>
      <l>On Villikins alone my heart is set—</l>
      <l>As Shakspeare says, "We may be happy yet."</l>
     </sp>
-    <sp>
+    <sp who="#L0796_M1">
      <speaker>Gruff.</speaker>
      <l>• Ho, ho ! ha, ha! Sits the wind in that quarter ?</l>
      <l>I though t I told you <hi>not</hi> to love him,darter.</l>
@@ -390,46 +428,46 @@
      <l>And as for Villikins—the base-born peasant— </l>
      <l>I’ll skin him like an eel!</l>
     </sp>
-    <sp>
+    <sp who="#L0796_M3">
      <speaker>Villi.</speaker>
      <l><stage>(listening at arbour door.)</stage> Dear me, how pleasant.</l>
     </sp>
-    <sp>
+    <sp who="#L0796_M1">
      <speaker>Gruff.</speaker>
      <l>What’s that you said ?</l>
     </sp>
-    <sp>
+    <sp who="#L0796_F4">
      <speaker>Dinah.</speaker>
      <l>I?</l>
     </sp>
-    <sp>
+    <sp who="#L0796_M1">
      <speaker>Gruff.</speaker>
      <l>You? </l>
     </sp>
-    <sp>
+    <sp who="#L0796_F4">
      <speaker>Dinah.</speaker>
      <l>Why I said naught </l>
     </sp>
-    <sp>
+    <sp who="#L0796_M1">
      <speaker>Gruff.</speaker>
      <l>You didn’t ?</l>
     </sp>
-    <sp>
+    <sp who="#L0796_F4">
      <speaker>Dinah.</speaker>
      <l>No, I didn‘t!</l>
     </sp>
-    <sp>
+    <sp who="#L0796_M1">
      <speaker>Gruff.</speaker>
      <l>Then you ought.</l>
     </sp>
-    <sp>
+    <sp who="#L0796_F4">
      <speaker>Dinah.</speaker>
      <l>Don’t force me to the altar, but <hi>alter</hi> your mind.</l>
      <l>To tell the truth, " I do not feel inclined</l>
      <l>Just yet to marry" and would fain keep clear of it— </l>
      <l>" Give me a year, I beg."</l>
     </sp>
-    <sp>
+    <sp who="#L0796_M1">
      <speaker>Gruff.</speaker>
      <l>Pooh! I’ll not <hi>hear of</hi> it.</l>
      <l>Daughter, you must dispense with thoughts like these,</l>
@@ -452,19 +490,19 @@
      <l>Wear your best dress, and use your best address. </l>
      <l>Why don't you go? why fidget so about ?</l>
     </sp>
-    <sp>
+    <sp who="#L0796_F4">
      <speaker>Dinah.</speaker>
      <l><stage>(aside.)</stage> Oh, if I could but let my William out.</l>
      <l><stage>(aloud.)</stage> Fidget ? Oh, no—I’m going. <stage>(crosses.)</stage></l>
      <l>Well, go now,</l>
      <l>And order supper.</l>
     </sp>
-    <sp>
+    <sp who="#L0796_F4">
      <speaker>Dinah.</speaker>
      <l><stage>(aside.)</stage> Won’t there be a row!</l>
      <stage> [Exit Dinah into house, R. U. E.</stage>
     </sp>
-    <sp>
+    <sp who="#L0796_M1">
      <speaker>Gruff.</speaker>
      <l>On your proceedings, ma’am. I’ll keep my eye</l>
      <l>Aha! she little thinks I played the spy </l>
@@ -477,17 +515,17 @@
      <l>Somewhere he hides,and such a castigation</l>
      <l>I’ll give his <hi>hide—</hi></l>
     </sp>
-    <sp>
+    <sp who="#L0796_M3">
      <speaker>Villi.</speaker>
      <l><stage>(looking from arbour.)</stage> Oh, here’s a situation! </l>
     </sp>
-    <sp>
+    <sp who="#L0796_M1">
      <speaker>Gruff.</speaker>
      <l>If I had but a penknife, sword or hatchet, </l>
      <l>I’d—but when I catch him, ’ecod, won’t he catch it.</l>
      <stage>Exit Gruffin, L. H.</stage>
     </sp>
-    <sp>
+    <sp who="#L0796_M3">
      <speaker>Villi.</speaker>
      <l><stage>(looks cautiously out, and then comes down.)</stage></l>
      <l>A rasher man with passion ne’er was shaken— </l>
@@ -497,23 +535,23 @@
      <stage>(Music, piano, Haydn's " Surprise. " VILLIKINs crosses from L. h. to k. h. cautiously ;
       enter Gruffin, L. h. ; crosses and collars Villikins at R. h. wing. —A Chord.</stage>
     </sp>
-    <sp>
+    <sp who="#L0796_M1">
      <speaker>Gruff.</speaker>
      <l>What have you got to say before I hide ye ? </l>
     </sp>
-    <sp>
+    <sp who="#L0796_M3">
      <speaker>Villi.</speaker>
      <l>That I’m a traveller—yes, bona fide.</l>
      <pb n="9"/>
     </sp>
-    <sp>
+    <sp who="#L0796_M1">
      <speaker>Gruff.</speaker>
      <l>Bon fide! Fie, you’ve boned my daughter— </l>
      <l>At least you would have, if you could ha‘ caught her,</l>
      <l>You thought to cut, but I’m too quick upon ye. </l>
      <l>Don’t bona fide me—</l>
     </sp>
-    <sp>
+    <sp who="#L0796_M3">
      <speaker>Villi.</speaker>
      <l>Well, <hi>Bono Johnny !</hi></l>
      <l>My gentle Gruffin—<stage>(aside.)</stage> now for a bit of gammon—<stage>(aloud)</stage></l>
@@ -522,7 +560,7 @@
      <l>I’ll clear my voice and—first I’ll blow my nose.</l>
      <stage>SONG.—VILLIKINS.—Air, " A Frog he would."</stage>
     </sp>
-    <sp>
+    <sp who="#L0796_M3">
      <speaker>Villi.</speaker>
      <l>A simple fact to you I’ll tell, </l>
      <l>So keep still, Gruffin</l>
@@ -548,7 +586,7 @@
      <l>Oh, kindest Gruffin! now my request you’ve heard. </l>
      <l>Answer, I pray you, but with one kind word.</l>
     </sp>
-    <sp>
+    <sp who="#L0796_M1">
      <speaker>Gruff.</speaker>
      <l>Poor stupid goose! answer you,yes I can, sir, </l>
      <l>For such a <hi>goose</hi>, there can but be one <hi>anser.</hi></l>
@@ -566,16 +604,16 @@
      <l>Go! go ! go! And never let me see you here again ! Go! go !</l>
      <stage>(Sound as of wheels . The gate bell rings violently. )</stage>
     </sp>
-    <sp>
+    <sp who="#L0796_M1">
      <speaker>Gruff.</speaker>
      <l>Now cut it quick .</l>
     </sp>
-    <sp>
+    <sp who="#L0796_M3">
      <speaker>Villi.</speaker>
      <l>Yes to the quick I’m cut,</l>
      <l>Hear me, I pray you—merely if I say but—</l>
     </sp>
-    <sp>
+    <sp who="#L0796_M1">
      <speaker>Gruff.</speaker>
      <l>"But me no buts" ! you must no longer stay. </l>
      <l>The Baron Boski Bumble comes this way !</l>
@@ -591,15 +629,15 @@
      <l>Your chickabiddy tender for to wed.</l><pb n="11"/>
      <l>Tiddy fol, etc.</l>
     </sp>
-    <sp>
+    <sp who="#L0796_M1">
      <speaker>Gruff.</speaker>
      <l>Tiddy fol, etc .</l>
     </sp>
-    <sp>
+    <sp who="#L0796_F4">
      <speaker>Dinah.</speaker>
      <l>Tiddy fol, etc.</l>
     </sp>
-    <sp>
+    <sp who="#L0796_Mult">
      <speaker>Omnes</speaker>
      <l>Tiddy fol, etc .</l>
      <l>I’ve mines of gold and silver too, sir,</l>
@@ -608,75 +646,75 @@
      <l>As Baroness Boski be my wife.</l>
      <l>Tiddy fol,etc .</l>
     </sp>
-    <sp>
+    <sp who="#L0796_M1">
      <speaker>Gruff.</speaker>
      <l>Tiddy fol, etc.</l>
     </sp>
-    <sp>
+    <sp who="#L0796_F4">
      <speaker>Dinah.</speaker>
      <l>Tiddy fol, etc.</l>
     </sp>
-    <sp>
+    <sp who="#L0796_Mult">
      <speaker>Omnes</speaker>
      <l>Tiddy fol, etc.</l>
     </sp>
-    <sp>
+    <sp who="#L0796_M2">
      <speaker>Boski.</speaker>
      <l><stage>(c.)</stage> Oh ! if my <hi>suit</hi> suits you, it will suit me, </l>
      <l>Here do I give my hand—</l>
     </sp>
-    <sp>
+    <sp who="#L0796_M3">
      <speaker>Villi.</speaker>
      <l><stage>(coming forward L. c. and snapping his fingers.)</stage>Fiddlededee !</l>
     </sp>
-    <sp>
+    <sp who="#L0796_M2">
      <speaker>Boski.</speaker>
      <l>Fiddlededee ! who are you, sir,to speak, </l><l>And to my <hi>face</hi> dare offer me this
       <hi>cheek ?</hi></l>
     </sp>
-    <sp>
+    <sp who="#L0796_M3">
      <speaker>Villi.</speaker>
      <l>One whom his disappointment hath made bold, </l>
      <l>Through your <hi>arrival</hi> by a <hi>rival</hi> sold.</l>
     </sp>
-    <sp>
+    <sp who="#L0796_M1">
      <speaker>Gruff.</speaker>
      <l><stage> (r.)</stage> Silence !</l>
     </sp>
-    <sp>
+    <sp who="#L0796_M3">
      <speaker>Villi.</speaker>
      <l>I won’t! but I'll speak up like bricks,</l>
      <l>"Them is the sentiments to which I sticks." </l>
      <l>Come to my arms, my Dinah, they shall bear you</l>
      <l>Safe through all danger—</l>
     </sp>
-    <sp>
+    <sp who="#L0796_M1">
      <speaker>Gruff.</speaker>
      <l>, <stage>(throwing her round to R.</stage>) Get back, Miss ! how dare you ?</l>
     </sp>
-    <sp>
+    <sp who="#L0796_F4">
      <speaker>Dinah.</speaker>
      <l>" I dare do all that man" —</l>
     </sp>
-    <sp>
+    <sp who="#L0796_M2">
      <speaker>Boski.</speaker>
      <l>"Dare do." I know </l>
      <l>But the quotation's not quite apropos.</l>
      <l><stage>(to Gruffin)</stage> Will she be mine ?</l>
     </sp>
-    <sp>
+    <sp who="#L0796_M1">
      <speaker>Gruff.</speaker>
      <l>Of course she will.</l>
     </sp>
-    <sp>
+    <sp who="#L0796_M3">
      <speaker>Villi.</speaker>
      <l>Pooh! pooh!</l>
     </sp>
-    <sp>
+    <sp who="#L0796_M2">
      <speaker>Boski.</speaker>
      <l>What can it matter, I would know, to you!</l>
     </sp>
-    <sp>
+    <sp who="#L0796_M3">
      <speaker>Villi.</speaker>
      <l>Matter ! <stage>(brings Boski: forward,then says tragically, )</stage></l>
      <l>Did you ere see a shipwreck, when a man </l>
@@ -684,14 +722,14 @@
      <l>A billow of the straw his hands would rid, </l>
      <l>Did you e’er see this ?</l>
     </sp>
-    <sp>
+    <sp who="#L0796_M2">
      <speaker>Boski.</speaker>
      <l>I can’t say I ever did.</l>
      <pb n="12"/>
      <l>Excuse me, but at present I don’t see </l>
      <l>What this exactly has to do with me.</l>
     </sp>
-    <sp>
+    <sp who="#L0796_M1">
      <speaker>Gruff.</speaker>
      <l>Pooh! pooh! don’t list to him, ‘tis getting late. </l>
      <l>And as for you, sir, mizzle! evacuate!</l>
@@ -699,7 +737,7 @@
      <l>The tocsin of the soul," the supper bell !</l>
      <stage>SONG and CHORUS.—AIR, "Suoni la Tromba'</stage>
     </sp>
-    <sp>
+    <sp who="#L0796_M1">
      <speaker>Gruff.</speaker>
      <l>For supper! for supper ho! </l>
      <l>Hot kidneys cannot wait,</l>
@@ -711,21 +749,21 @@
      <l>After what I’ve said—ah !</l>
      <l>For supper! for supper ho! etc.</l>
     </sp>
-    <sp>
+    <sp who="#L0796_M2">
      <speaker>Boski.</speaker>
      <l><stage>(r. c.)</stage> For supper! for supper ho!</l>
      <l>Hot kidneys cannot wait—</l>
      <l>I’m glad he has got to go </l>
      <l>Out by the garden gate.</l>
     </sp>
-    <sp>
+    <sp who="#L0796_F4">
      <speaker>Dinah.</speaker>
      <l>, <stage>(r.c. )</stage> No supper! no supper, no! </l>
      <l>Hot kidneys for me may wait, </l>
      <l>For my love has got to go </l>
      <l>Out by the garden gate!</l>
     </sp>
-    <sp>
+    <sp who="#L0796_M3">
      <speaker>Villi.</speaker>
      <l><stage>(l. h.)</stage> No supper! no supper,ho!</l>
      <l>Hot kidneys for them wait,</l>
@@ -737,7 +775,7 @@
    <div type="scene">
     <stage type="setting">SCENE II.—The Back Kitchen</stage>
     <stage>Enter Dinah, r. h.</stage>
-    <sp>
+    <sp who="#L0796_F4">
      <speaker>Dinah.</speaker>
      <l>Yes! they remain to sing and eat and swill. </l>
      <l><hi>Still</hi> sitting there,altho‘ not sitting <hi>still</hi></l>
@@ -772,7 +810,7 @@
      <stage rend="alignRight">[Exit Dinah l. h.</stage>
      <stage>Enter Villikins, R. H.</stage>
     </sp>
-    <sp>
+    <sp who="#L0796_M3">
      <speaker>Villi.</speaker>
      <l>Where is my love ?—still in these grounds I sneak, </l>
      <l>Playing the exciting game of hide-and-seek </l>
@@ -807,7 +845,7 @@
     <stage type="setting">SCENE III.—The kitchen garden with a romantic view of the vegetables,
      &amp;c. </stage>
     <stage>Enter Dinah, L., with bottle .</stage>
-    <sp>
+    <sp who="#L0796_F4">
      <speaker>Dinah.</speaker>
      <l>I’ve got the draught. I said the rats and mice </l>
      <l>It would destroy . Oh, my ! it don’t smell nice— </l>
@@ -815,36 +853,36 @@
      <stage> Enter Baron intoxicated R. </stage>
      <l>What noise is that ?—</l>
     </sp>
-    <sp>
+    <sp who="#L0796_M2">
      <speaker>Baron.</speaker>
      <l>For me I pray don’t stop—</l>
      <l>My dearest Dinah— </l>
     </sp>
-    <sp>
+    <sp who="#L0796_F4">
      <speaker>Dinah.</speaker>
      <l>Dinah ! yes I see.</l>
      <l>And rather worse for <hi>diner</hi>, it strikes me—</l>
      <l><stage>(aside.)</stage> Curse on the interruption—what a bore!</l>
     </sp>
-    <sp>
+    <sp who="#L0796_M2">
      <speaker>Baron.</speaker>
      <l>I left old Gruffin lying on the floor— </l>
      <l>He can’t stand wine, it gets into his head.</l>
     </sp>
-    <sp>
+    <sp who="#L0796_F4">
      <speaker>Dinah.</speaker>
      <l>Pray don’t you think you’d better go to bed ?</l>
     </sp>
-    <sp>
+    <sp who="#L0796_M2">
      <speaker>Baron.</speaker>
      <l>To bed! ha, ha!</l>
      <pb n="15"/>
     </sp>
-    <sp>
+    <sp who="#L0796_F4">
      <speaker>Dinah.</speaker>
      <l><stage>(aside)</stage>Yes! tis my only chance!</l>
     </sp>
-    <sp>
+    <sp who="#L0796_M2">
      <speaker>Baron.</speaker>
      <l>You don’t know what you now say—let’s have a dance.</l>
      <l>My dearest— <stage>(hiccups)</stage> does your mother know you’re out?</l>
@@ -853,69 +891,69 @@
      <l>My dearest Dinah—will you give us a kiss? </l>
      <stage>(attempts to catch her, and falls L.</stage>
     </sp>
-    <sp>
+    <sp who="#L0796_F4">
      <speaker>Dinah.</speaker>
      <l>Hands off! you wretch! and pause before you lay</l>
      <l>Your <hi>paws</hi> on me . Now just mind what I say.</l>
     </sp>
-    <sp>
+    <sp who="#L0796_M2">
      <speaker>Baron.</speaker>
      <l>Mind you're my wife—or that is, will be— </l>
     </sp>
-    <sp>
+    <sp who="#L0796_F4">
      <speaker>Dinah.</speaker>
      <l>Never!</l>
      <l>Now from your toils I'll free myself for ever! <stage>(drinks poison.)</stage></l>
     </sp>
-    <sp>
+    <sp who="#L0796_M2">
      <speaker>Baron.</speaker>
      <l><stage>(looking helplessly on.)</stage></l>
      <l>I say you’ve had enough—just stop! now there—</l>
      <l>As you’re a fair one drinking—pray <hi>drink fair. </hi></l>
     </sp>
-    <sp>
+    <sp who="#L0796_F4">
      <speaker>Dinah.</speaker>
      <l>A mist comes o’er my eyes —my sight grows dim.</l>
      <l>My father ! Villikins! could I see but him!</l>
      <l>My dream’s come true . Ah me! how faint I am, </l>
      <l>Tho 'tis a faint, I feel this <hi>faint</hi> no <hi>sham.</hi>I’m going—going—going!</l>
     </sp>
-    <sp>
+    <sp who="#L0796_M2">
      <speaker>Baron.</speaker>
      <l><stage>(rousing himself)</stage> Where ?</l>
     </sp>
-    <sp>
+    <sp who="#L0796_F4">
      <speaker>Dinah.</speaker>
      <l>To die!</l>
      <l>Baron —I’ve sold you— </l>
     </sp>
-    <sp>
+    <sp who="#L0796_M2">
      <speaker>Baron.</speaker>
      <l>What!</l>
     </sp>
-    <sp>
+    <sp who="#L0796_F4">
      <speaker>Dinah.</speaker>
      <l>Ta! ta! good bye! <stage>(she dies.</stage></l>
     </sp>
-    <sp>
+    <sp who="#L0796_M2">
      <speaker>Baron.</speaker>
      <l>Ta! ta! Good bye! why, what the deuce is this,</l>
      <l>This miss lying here proves something is <hi>a miss.</hi> <stage>(stoops over the
       body</stage></l>
      <stage>Enter Villikins L.</stage>
     </sp>
-    <sp>
+    <sp who="#L0796_M3">
      <speaker>Villi.</speaker>
      <l>I cannot find her—ha! what's that I see ?</l>
      <l>The object ; of my search—and also he</l>
      <l>Whom most of all men I do wish to meet- </l>
      <l>Baron—ahem!</l>
     </sp>
-    <sp>
+    <sp who="#L0796_M2">
      <speaker>Baron.</speaker>
      <l><stage>(seeing him)</stage> Villikins—here’s a treat!</l>
     </sp>
-    <sp>
+    <sp who="#L0796_M3">
      <speaker>Villi.</speaker>
      <l>What Dinah here! my love at last I’ve found</l>
      <l>My fear’s not groundless ! dead upon the <hi>ground.</hi></l>
@@ -925,12 +963,12 @@
      <l>No ! for thy death I will take vengeance sore, </l>
      <l>Though you’re no artist, I dare you to draw! </l>
     </sp>
-    <sp>
+    <sp who="#L0796_M2">
      <speaker>Baron.</speaker>
      <l>What, fight with you!—ha! ha, a low-born fellar!</l>
      <l>You have no sword—</l>
     </sp>
-    <sp>
+    <sp who="#L0796_M3">
      <speaker>Villi.</speaker>
      <l>But here’s an umbrella!</l>
      <l>Or stay, without your host I think you’ve reckoned, </l>
@@ -939,45 +977,45 @@
      <l>There is a neat one—now what shall it be— </l>
      <l>Over and under—or, a one, two, three ?</l>
     </sp>
-    <sp>
+    <sp who="#L0796_M2">
      <speaker>Baron.</speaker>
      <l>The first we’ll have, sir, if it pleases you.</l>
      <l><stage>(aside)</stage> About this <hi>broil</hi>, I feel in a great <hi>stew•</hi></l>
     </sp>
-    <sp>
+    <sp who="#L0796_M3">
      <speaker>Villi.</speaker>
      <l>Now then—to arms !</l>
     </sp>
-    <sp>
+    <sp who="#L0796_M2">
      <speaker>Baron.</speaker>
      <l><stage>(aside)</stage> Oh lor! to arms ? ‘ifegs;</l>
      <l>I’d infinite!y rather he had said, to legs.</l>
     </sp>
-    <sp>
+    <sp who="#L0796_M3">
      <speaker>Villi.</speaker>
      <l>Cut on!</l>
     </sp>
-    <sp>
+    <sp who="#L0796_M2">
      <speaker>Baron.</speaker>
      <l>Cut on ! to cut off would be hard!</l>
      <l>Oh if my ma’ could see me now—</l>
     </sp>
-    <sp>
+    <sp who="#L0796_M3">
      <speaker>Villi.</speaker>
      <l>On guard!</l>
      <l><stage>(melodramatic music—they fight .</stage> There, take your breath—</l>
     </sp>
-    <sp>
+    <sp who="#L0796_M2">
      <speaker>Baron.</speaker>
      <l>Thank ye, I don’t feel strong—</l>
      <l>Don’t you think this would do for to-day ?—</l>
     </sp>
-    <sp>
+    <sp who="#L0796_M3">
      <speaker>Villi.</speaker>
      <l>Come on!</l>
      <stage> (They fight. Baron is run through the body .</stage>
     </sp>
-    <sp>
+    <sp who="#L0796_M2">
      <speaker>Baron.</speaker>
      <l>O Villikins ! you’ve cooked my goose I know—</l>
      <l>I feel I’m going, where good niggers go;</l>
@@ -986,7 +1024,7 @@
      <l>If you think Dinah by my death to wed— </l>
      <l>You can’t—’cos why ?—ha! ha! because she’s dead! <stage>(dies, L. </stage></l>
     </sp>
-    <sp>
+    <sp who="#L0796_M3">
      <speaker>Villi.</speaker>
      <l>"Rest, rest perturbed spirit!"—‘tis too true—</l>
      <l>Dinah is dead—that’s one—and you are <hi>too.</hi></l>
@@ -1060,20 +1098,20 @@
       side, and of Dinah on the other side of Gruffin.</stage>
      <stage>SONG.— "Corsican Brothers. ”</stage>
     </sp>
-    <sp>
+    <sp who="#L0796_M3">
      <speaker>Villi.</speaker>
      <l>Gruffin, Gruffin,</l>
      <l>After stuffing</l>
      <l>Dinner, in a trance done up.</l>
     </sp>
-    <sp>
+    <sp who="#L0796_F4">
      <speaker>Dinah.</speaker>
      <l>Father, father,</l>
      <l>The cause rather</l>
      <l>Of my suicidal cup.</l>
      <pb n="19"/>
     </sp>
-    <sp>
+    <sp who="#L0796_M1">
      <speaker>Gruff.</speaker>
      <l>, <stage>(sitting up trembling and looking at Villikins.</stage></l>
      <l>Oh., please don’t, sir,</l>
@@ -1083,7 +1121,7 @@
      <l>Here' another,</l>
      <l>Whom I saw stretched on the floor. <stage> (turns to sleep and sees Dinah.</stage> </l>
     </sp>
-    <sp>
+    <sp who="#L0796_M3">
      <speaker>Villi.</speaker>
      <l>" Let me sit heavy on thy soul, oh, Gruffin, </l>
      <l>As income tax unpaid, or buttered muffin. </l>
@@ -1094,7 +1132,7 @@
      <l>My visits shall be neither far between nor few, </l>
      <l>The "haunted man’’ shall be a joke to you.</l>
     </sp>
-    <sp>
+    <sp who="#L0796_F4">
      <speaker>Dinah.</speaker>
      <l>Dream on thy daughter, pison'd in her bower । </l>
      <l>Alive and kicking kicked within this hour </l>
@@ -1106,7 +1144,7 @@
      <l>Poor Villikins ! The baron is now dead, so I </l>
      <l>Bid thee think on me, then "despair and die." <stage>(the Ghosts lie down again.</stage></l>
     </sp>
-    <sp>
+    <sp who="#L0796_M1">
      <speaker>Gruff.</speaker>
      <l><stage>(starting up )</stage>—Give me another pipe. Where are my fuzees—where?</l>
      <l>Why, goodness gracious! ’twas but the nightmare. </l>
@@ -1124,25 +1162,25 @@
      <l>Be thou a spirit of health or goblin damned,</l>
      <pb n="20"/>
     </sp>
-    <sp>
+    <sp who="#L0796_M3">
      <speaker>Ghost of VILLIKINS.</speaker>
      <l>Don’t swear.</l>
     </sp>
-    <sp>
+    <sp who="#L0796_M1">
      <speaker>Gruff.</speaker>
      <l>I didn’t! If I did I’m—</l>
     </sp>
-    <sp>
+    <sp who="#L0796_M3">
      <speaker>Ghost of VILLIKINS.</speaker>
      <l>Crammed !</l>
     </sp>
-    <sp>
+    <sp who="#L0796_M1">
      <speaker>Gruff.</speaker>
      <l>Oh lor., he heard me ! here’s a situation !</l>
      <l>To appease him I’ll try an incantation !</l>
      <stage>SONG— " Giles Scroggins Ghost."</stage>
     </sp>
-    <sp>
+    <sp who="#L0796_M1">
      <speaker>Gruff.</speaker>
      <l>Oh! Villikins, what can I do, </l>
      <l>Ri tiddy, etc.</l>
@@ -1152,59 +1190,59 @@
      <l>Ri tiddy, etc.</l>
      <l>You should my daughter Dinah wed, Ri tiddy fol, etc.</l>
     </sp>
-    <sp>
+    <sp who="#L0796_M3">
      <speaker>Villi.</speaker>
      <l>Your promise give that if alive now. </l>
      <l>Ri tiddy, etc.</l>
      <l>I should your daughter wed, I vow.</l>
      <l>Ri tiddy etc.</l>
     </sp>
-    <sp>
+    <sp who="#L0796_M1">
      <speaker>Gruff.</speaker>
      <l>So Mr. Ghost, you’ll quiet lie. </l>
      <l>Ri tiddy, etc. </l>
      <l>And not haunt me no more.</l>
     </sp>
-    <sp>
+    <sp who="#L0796_M3">
      <speaker>Villi.</speaker>
      <l><stage>(jumping up)</stage> Not I!</l>
     </sp>
-    <sp>
+    <sp who="#L0796_M1 #L0796_M3">
      <speaker>Gruff Villi.</speaker>
      <l>Ri tiddy fol,etc.</l>
     </sp>
-    <sp>
+    <sp who="#L0796_M1">
      <speaker>Gruff.</speaker>
      <l>But Dinah’ s dead, so that won't do,</l>
      <l>Ri tiddy fol,etc.</l>
     </sp>
-    <sp>
+    <sp who="#L0796_F4">
      <speaker>Dinah.</speaker>
      <l><stage>(rising.)</stage>) Papa, don’t you say what isn’t true,</l>
      <l>Ri tiddy fol, etc.</l>
      <l>And now a happy pair we’ll make, <stage>(giving her hand to Villikins.)</stage></l>
      <l>Ri tiddy, etc.</l>
     </sp>
-    <sp>
+    <sp who="#L0796_M1">
      <speaker>Gruff.</speaker>
      <l>Well my promise is gone—so my blessing take </l>
      <l>Ri tiddy fol, etc.</l>
     </sp>
-    <sp>
+    <sp who="#L0796_M2">
      <speaker>Baron.</speaker>
      <l><stage>(getting up.)</stage> But I forbid the banns!</l>
     </sp>
-    <sp>
+    <sp who="#L0796_M3">
      <speaker>Villi.</speaker>
      <l>You’d better not,</l>
      <l>Or a real ghost 1’11 make you like a shot.</l>
     </sp>
-    <sp>
+    <sp who="#L0796_M2">
      <speaker>Baron.</speaker>
      <l>Don’t mention it—if it’s all the same, </l>
      <l>To you I don’t mind giving up my claim.</l>
     </sp>
-    <sp>
+    <sp who="#L0796_M1">
      <speaker>Gruff.</speaker>
      <l>Ah! that is well—now that we all are friends, </l>
      <l>Happily Villikins and Dinah ends.</l>
@@ -1212,7 +1250,7 @@
      <l>So let's within the house—no bed to night— </l>
      <l>We won’t go home till morning —</l>
     </sp>
-    <sp>
+    <sp who="#L0796_M3">
      <speaker>Villi.</speaker>
      <l>That's not right—</l>
      <l>For there would be a damp on all our pleasure, </l>
@@ -1220,21 +1258,21 @@
      <l>You first shall take—</l>
      <stage>(Baron steps forward—Gruffin pushes him back.)</stage>
     </sp>
-    <sp>
+    <sp who="#L0796_M1">
      <speaker>Gruff.</speaker>
      <l>Seniores priore —means</l>
      <l>That I’m to address their <hi>aures</hi>j from these <hi>scenes.</hi></l>
      <l>Well, all I can say is—</l>
     </sp>
-    <sp>
+    <sp who="#L0796_M3">
      <speaker>Villi.</speaker>
      <l>Nothing! that’l1 do .</l>
     </sp>
-    <sp>
+    <sp who="#L0796_M1">
      <speaker>Gruff.</speaker>
      <l>My boy,you never said a word so true !</l>
     </sp>
-    <sp>
+    <sp who="#L0796_M3">
      <speaker>Villi.</speaker>
      <l>Kind friends in front—if not to quibbles blunted— </l>
      <l>(Although in front —pray do not be <hi>affronted</hi>) </l>
@@ -1246,28 +1284,28 @@
      <l>Best in this manner he’s accustomed to it— </l>
      <l>If in your hands we read the word "succeed," Villikins</l>
     </sp>
-    <sp>
+    <sp who="#L0796_F4">
      <speaker>Dinah.</speaker>
      <l>And his Dinah</l>
     </sp>
-    <sp>
+    <sp who="#L0796_M3">
      <speaker>Villi.</speaker>
      <l>Will be glad indeed.</l>
      <stage>Finale.— "Villikins" </stage>
     </sp>
-    <sp>
+    <sp who="#L0796_F4">
      <speaker>Dinah.</speaker>
      <l>All the world is a stage —a Shakespearian fact.</l>
     </sp>
-    <sp>
+    <sp who="#L0796_M2">
      <speaker>Baron.</speaker>
      <l>And every one in it does naught else but act.</l>
     </sp>
-    <sp>
+    <sp who="#L0796_M1">
      <speaker>Gruff.</speaker>
      <l>We’re players to night, you the audience part take.</l>
     </sp>
-    <sp>
+    <sp who="#L0796_M3">
      <speaker>Villi.</speaker>
      <l>And your slightest applause will us most happy make.</l>
      <l><stage>(affecting but concluding Chorus)</stage> Tu ral lal., etc .</l>

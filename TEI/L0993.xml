@@ -1,9 +1,8 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L0993">
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L0993">
  <teiHeader>
   <fileDesc>
    <titleStmt>
-    <title n="wartotheknife">War to the Knife</title>
+    <title n="wartotheknife" type="main">War to the Knife</title>
     <author>Byron, Henry James</author>
     <respStmt>
      <resp>Curated by</resp>
@@ -12,37 +11,90 @@
    </titleStmt>
    <publicationStmt>
     <distributor>Privately published on the Lacy Website</distributor>
-   </publicationStmt>
-   <sourceDesc>
-    <bibl type="digital">Retagged from a DOCX version of the RTF file exported by ProQuest from a
-     now lost TEI original</bibl>
-    <bibl type="source" status="TEI_1" n="67.3"><author>Byron, Henry James</author><title
-     type="main" n="wartotheknife">War to the Knife</title><title type="sub">An Original Comedy in
-     three acts</title><extent>30 pp (UM copy: 102 - 132)<measure type="pp" quantity="30"/><measure
-     type="spCount" quantity="499"/><measure type="spvCount" quantity="5"/><measure type="txWords"
-     quantity="10528"/><measure type="spWords" quantity="8763"/><measure type="stWords"
-     quantity="1765"/></extent> <eventName notAfter="1865" type="firstPerf"><date resp="nicoll"
-     when="1865-06-10"/><name>Prince of Wales's Theatre</name><date resp="source" when="1865-06-10"
-     >10 June 1865</date></eventName><listRef>
-     <ref target="https://babel.hathitrust.org/cgi/pt?id=mdp.39015067453483&amp;seq=102 "
-      >L0993</ref>
-     </listRef><listRef type="localCopies">
-     <ref>Vol67/L0993/L0993-um.pdf</ref>
-     </listRef><idno type="nic">N10389</idno></bibl>
-   </sourceDesc>
+   <idno type="lae">L0993</idno><idno type='URI' xml:base='https://dracor.org'>LAE</idno></publicationStmt>
+   <sourceDesc><bibl type="printSource" n="67.3"><author>Byron, Henry James</author><title type="main" n="wartotheknife">War to the Knife</title><title type="sub">An
+Original Comedy in three acts</title><extent>30 pp (UM copy: 102 - 132)<measure type="pp" quantity="30"/>
+  <measure type="spCount" quantity="499"/>
+  <measure type="spvCount" quantity="5"/>
+  <measure type="txWords" quantity="10528"/>
+  <measure type="spWords" quantity="8763"/>
+  <measure type="stWords" quantity="1765"/>
+  </extent>
+
+<title level="s"> Lacy's Acting Edition, volume 67, No. 0993</title><idno type="nic">N10389</idno></bibl><bibl type="digitalSource" n="copytext"><ref target="https://babel.hathitrust.org/cgi/pt?id=mdp.39015067453483&amp;seq=102 ">UM from HT</ref><ref target="local:Vol67/L0993/L0993-um.pdf"/></bibl><bibl type="digitalSource" n="copytext"><ref target="https://lb42.github.io/Lacy/L0993.html">TEI</ref></bibl><listEvent>
+<event type="firstPerf" when="1865-06-10" source="textNic" where="Prince">
+<desc>Premiered at Prince of Wales's Theatre 10 June 1865</desc>
+</event>
+</listEvent></sourceDesc>
   </fileDesc>
-  <profileDesc>
-   <!--M_3_Comedy_C._COMEDY-->
-   <textClass>
+  <profileDesc><textClass>
     <catRef target="#sizeM"/>
     <catRef target="#act3"/>
     <catRef target="nic:C."/>
     <keywords>
      <term>COMEDY</term>
     </keywords>
-   </textClass>
-  </profileDesc>
-  <revisionDesc>
+   </textClass><particDesc><listPerson>
+  <person xml:id="L0993_M1">
+   <persName type="role">Mr. Harcourt</persName>
+   <persName type="spkr" n="20">Harc.</persName>
+   <persName type="spkr" n="2">Harcourt.</persName>
+  </person>
+  <person xml:id="L0993_M2">
+   <persName type="role">John Blunt</persName>
+   <persName type="spkr" n="82">Blunt.</persName>
+  </person>
+  <person xml:id="L0993_M3">
+   <persName type="role">Mr. Nubbly</persName>
+   <persName type="spkr" n="80">Nubb.</persName>
+   <persName type="spkr" n="1">Nub.</persName>
+  </person>
+  <person xml:id="L0993_M4">
+   <persName type="role">Sharpus</persName>
+   <persName type="spkr" n="1">Sharpus.</persName>
+   <persName type="spkr" n="3">Sharp.</persName>
+  </person>
+  <person xml:id="L0993_M5">
+   <persName type="role">Captain Thistleton</persName>
+   <persName type="spkr" n="54">Thistle.</persName>
+  </person>
+  <person xml:id="L0993_F6">
+   <persName type="role">Mrs. Harcourt</persName>
+   <persName type="spkr" n="1">Mrs. Harcourt.</persName>
+   <persName type="spkr" n="70">Mrs. H.</persName>
+  </person>
+  <person xml:id="L0993_F7">
+   <persName type="role">Mrs. Delacour</persName>
+   <persName type="spkr" n="2">Mrs. Delacour.</persName>
+   <persName type="spkr" n="115">Mrs. D.</persName>
+  </person>
+  <person xml:id="L0993_F8">
+   <persName type="role">Mrs. Penson</persName>
+   <persName type="spkr" n="42">Penson.</persName>
+  </person>
+  <person xml:id="L0993_F9">
+   <persName type="role">Jane Trimmer</persName>
+   <persName type="spkr" n="24">Jane.</persName>
+  </person>
+
+
+  <person xml:id="L0993_M10">
+   <persName type="role">[Nabbs]</persName>
+   <persName type="spkr" n="1">Nabbs.</persName>
+  </person>
+
+
+
+
+
+
+
+
+
+
+
+ </listPerson></particDesc></profileDesc>
+  <revisionDesc><change when="2025-09-07">Metadata updated from new catalogue</change>
    <change when="2025-05-04">Header enriched</change>
    <change when="2023-05-22">Header confected</change>
   </revisionDesc>
@@ -121,72 +173,72 @@
     <head>BEFORE THE PARTY.</head>
     <stage>Scene.—An elegant Drawing Room, C., with open doors; doors, R. and L.</stage>
     <stage>Mrs. Harcourt discovered seated, reading, L.—Penson arranging furniture.</stage>
-    <sp>
+    <sp who="#L0993_F6">
      <speaker>Mrs. Harcourt.</speaker>
      <p>That'll do, Penson. If you go on altering and arranging for ever, you will never make the
       rooms larger.</p>
     </sp>
-    <sp>
+    <sp who="#L0993_F8">
      <speaker>Penson.</speaker>
      <p>Well, ma'am, as a villa is but a villa, howsomever you arrange it—</p>
     </sp>
-    <sp>
+    <sp who="#L0993_F6">
      <speaker>Mrs. H.</speaker>
      <p>Just so; then don't attempt impossibilities.</p>
     </sp>
-    <sp>
+    <sp who="#L0993_F8">
      <speaker>Penson.</speaker>
      <stage> (coming down)</stage>
      <p>No, ma'am. Master's rather late: he's coming home in time for the party, I suppose,
       ma'am.?</p>
     </sp>
-    <sp>
+    <sp who="#L0993_F6">
      <speaker>Mrs. H.</speaker>
      <p>What an absurd question, Penson! Why shouldn't your master come home?</p>
     </sp>
-    <sp>
+    <sp who="#L0993_F8">
      <speaker>Penson.</speaker>
      <p>Beg pardon, ma'am; didn't mean any offence, I'm sure. Only master's been out so much lately
       that—</p>
     </sp>
-    <sp>
+    <sp who="#L0993_F6">
      <speaker>Mrs. H.</speaker>
      <p>Penson, you forget yourself. Pray hold your tongue about matters that don't concern you: you
       should keep your place.</p>
     </sp>
-    <sp>
+    <sp who="#L0993_F8">
      <speaker>Penson.</speaker>
      <stage> (aside)</stage>
      <p>Yes, I mean to do that, spite of everything.</p>
     </sp>
-    <sp>
+    <sp who="#L0993_F6">
      <speaker>Mrs. H.</speaker>
      <p>Because I am more familiar with you than most mistresses, you should not presume. I
       certainly <emph>do</emph> talk a great deal to you, as I am—so much—so much—</p>
     </sp>
-    <sp>
+    <sp who="#L0993_F8">
      <speaker>Penson.</speaker>
      <p>So much <emph>alone</emph>, ma'am.</p>
     </sp>
-    <sp>
+    <sp who="#L0993_F6">
      <speaker>Mrs. H.</speaker>
      <p>Certainly not; I was not going to say that.</p>
     </sp>
-    <sp>
+    <sp who="#L0993_F8">
      <speaker>Penson.</speaker>
      <p>I thought you were going to say that master being out so much, you naturally—</p>
     </sp>
-    <sp>
+    <sp who="#L0993_F6">
      <speaker>Mrs. H.</speaker>
      <stage> (rises and comes down, R.)</stage>
      <p>Once for all, Penson, do<emph> not </emph>refer to that again.</p>
     </sp>
-    <sp>
+    <sp who="#L0993_F8">
      <speaker>Penson.</speaker>
      <p>Seeing it's a sore point, ma'am, I'll be careful. What's that? I'm sure I hear the sound of
       a silk dress—an expensive silk, too. There's ten and sixpence a yard in every rustle.</p>
     </sp>
-    <sp>
+    <sp who="#L0993_F6">
      <speaker>Mrs. H.</speaker>
      <p>Oh! it's Mrs. Delacour; she said she'd come early.</p>
     </sp>
@@ -194,216 +246,216 @@
     <stage>Enter Mrs. Delacour, C. door, dressed for the evening, with a light shawl thrown over her
      shoulders.</stage>
 
-    <sp>
+    <sp who="#L0993_F7">
      <speaker>Mrs. Delacour.</speaker>
      <p>Well, my dear, here I am you see, punctual as ever.</p>
     </sp>
-    <sp>
+    <sp who="#L0993_F6">
      <speaker>Mrs. H.</speaker>
      <stage> (meeting her)</stage>
      <p>And radiant as ever, dear Mrs. Delacour.</p>
     </sp>
-    <sp>
+    <sp who="#L0993_F7">
      <speaker>Mrs. D.</speaker>
      <p>Mrs. Delacour! Now, I declare if you call me by that odious name, I'll go away home this
       minute; you are perfectly well aware I was christened Emily, and why you should be continually
       reminding me of the great misfortune of my life, I can't divine.</p>
     </sp>
-    <sp>
+    <sp who="#L0993_F6">
      <speaker>Mrs. H.</speaker>
      <p>Well, Emily, then.</p>
     </sp>
-    <sp>
+    <sp who="#L0993_F8">
      <speaker>Penson.</speaker>
      <stage> (aside, looking at Mrs. Delacour's dress)</stage>
      <p>Oh! every bit ten and sixpence a yard.</p>
      <stage>                                        Exit, L. C.</stage>
     </sp>
-    <sp>
+    <sp who="#L0993_F7">
      <speaker>Mrs. D.</speaker>
      <p>How is it I find you all alone in your glory? </p>
      <stage>(sits, L.)</stage>
     </sp>
-    <sp>
+    <sp who="#L0993_F6">
      <speaker>Mrs. H.</speaker>
      <p>Oh! Mr. Harcourt is out,—on business no doubt.</p>
      <stage>                                        (sits, R.)</stage>
     </sp>
-    <sp>
+    <sp who="#L0993_F7">
      <speaker>Mrs. D.</speaker>
      <p>Oh! of course; they're always on business. Poor dear Delacour was <emph>always</emph> out,
       and <emph>always</emph> on business.</p>
     </sp>
-    <sp>
+    <sp who="#L0993_F6">
      <speaker>Mrs. H.</speaker>
      <p>He died a year after your marriage, did he not?</p>
     </sp>
-    <sp>
+    <sp who="#L0993_F7">
      <speaker>Mrs. D.</speaker>
      <p>Yes, dear; leaving me a widow,—nothing more. Luckily, my property being settled on myself,
       he couldn't touch it. Ah! my dear, Time having softened the resentment I once bore him, I can
       now content myself by saying he was a  sad brute!</p>
     </sp>
-    <sp>
+    <sp who="#L0993_F6">
      <speaker>Mrs. H.</speaker>
      <p>Oh, Mrs. Delacour!</p>
     </sp>
-    <sp>
+    <sp who="#L0993_F7">
      <speaker>Mrs. D.</speaker>
      <p>I can't play the hypocrite, dear. I was forced, a mere child, to marry him, and he tried his
       best to break my heart; but he didn't do it, dear—ha, ha, ha! Oh, dear no! It's wonderful what
       a deal hearts will endure—after marriage. It's rather odd your husband hasn't come in, isn't
       it?</p>
     </sp>
-    <sp>
+    <sp who="#L0993_F6">
      <speaker>Mrs. H.</speaker>
      <stage> (eagerly)</stage>
      <p>Oh, no! he was engaged to dine out at a club to-day, I know.</p>
     </sp>
-    <sp>
+    <sp who="#L0993_F7">
      <speaker>Mrs. D.</speaker>
      <p>Begun that already, eh?</p>
     </sp>
-    <sp>
+    <sp who="#L0993_F6">
      <speaker>Mrs. H.</speaker>
      <p>Charley's been always accustomed to live well, and our cook's not accomplished, and so
       he—</p>
     </sp>
-    <sp>
+    <sp who="#L0993_F7">
      <speaker>Mrs. D.</speaker>
      <p>Prefers splendid misery in Pall Mall to domestic bliss at Bayswater, eh? Oh, these
       husbands!</p>
     </sp>
-    <sp>
+    <sp who="#L0993_F6">
      <speaker>Mrs. H.</speaker>
      <p>Yes, and he's “put up,” as they call it, for one, and is sure to be elected.</p>
     </sp>
-    <sp>
+    <sp who="#L0993_F7">
      <speaker>Mrs. D.</speaker>
      <p>Ha! which club is that?</p>
     </sp>
-    <sp>
+    <sp who="#L0993_F6">
      <speaker>Mrs. H.</speaker>
      <p>I think they call it the “Clifford.”</p>
     </sp>
-    <sp>
+    <sp who="#L0993_F7">
      <speaker>Mrs. D.</speaker>
      <p>Oh, my dear, you don't say so! whose doing's that?</p>
     </sp>
-    <sp>
+    <sp who="#L0993_F6">
      <speaker>Mrs. H.</speaker>
      <p>A gentleman with whom he has become acquainted lately—Captain Thistleton.</p>
     </sp>
-    <sp>
+    <sp who="#L0993_F7">
      <speaker>Mrs. D.</speaker>
      <p>What, Dick Thistleton! <stage>(they rise)</stage> Oh, the monster, to lure a young married
       man from his home! I'll speak to him.</p>
      <pb n="5"/>
     </sp>
-    <sp>
+    <sp who="#L0993_F6">
      <speaker>Mrs. H.</speaker>
      <p> (R.)</p>
      <p>You know him then?</p>
     </sp>
-    <sp>
+    <sp who="#L0993_F7">
      <speaker>Mrs. D.</speaker>
      <stage> (L., coquettishly)</stage>
      <p>Well, yes, I do—I've met him.</p>
     </sp>
-    <sp>
+    <sp who="#L0993_F6">
      <speaker>Mrs. H.</speaker>
      <p>   Come, now, I can see you know him very well.</p>
     </sp>
-    <sp>
+    <sp who="#L0993_F7">
      <speaker>Mrs. D.</speaker>
      <p>Go along, my dear! But don't <emph>you</emph>?</p>
     </sp>
-    <sp>
+    <sp who="#L0993_F6">
      <speaker>Mrs. H.</speaker>
      <p>No, I've never seen him.</p>
     </sp>
-    <sp>
+    <sp who="#L0993_F7">
      <speaker>Mrs. D.</speaker>
      <p>I met him at Harrogate last year—met him a great deal. You know what watering places are.
       Society seems to fling aside its conventional reserve, and people revel for a short season in
       being natural. Folks get quite friendly and familiar until they come back to town with its
       gloom and its dismal propriety.</p>
     </sp>
-    <sp>
+    <sp who="#L0993_F6">
      <speaker>Mrs. H.</speaker>
      <p>What's he like? handsome, Charley says.</p>
     </sp>
-    <sp>
+    <sp who="#L0993_F7">
      <speaker>Mrs. D.</speaker>
      <p>Oh! he's well enough as men go.</p>
     </sp>
-    <sp>
+    <sp who="#L0993_F6">
      <speaker>Mrs. H.</speaker>
      <p>Come, now, Madam Quibble, from your manner I suspect—</p>
     </sp>
-    <sp>
+    <sp who="#L0993_F7">
      <speaker>Mrs. D.</speaker>
      <p>My dear, never suspect; always be certain, you'll find it'll save a world of trouble.</p>
     </sp>
-    <sp>
+    <sp who="#L0993_F6">
      <speaker>Mrs. H.</speaker>
      <p>Then I'm certain you take an interest in Captain Thisleton. He's coming to-night.</p>
     </sp>
-    <sp>
+    <sp who="#L0993_F7">
      <speaker>Mrs. D.</speaker>
      <stage><emph>I</emph> take an interest in him indeed! how utterly absurd! when do you think
       he'll come?</stage>
     </sp>
-    <sp>
+    <sp who="#L0993_F6">
      <speaker>Mrs. H.</speaker>
      <p>Oh, with Charley, no doubt.</p>
     </sp>
-    <sp>
+    <sp who="#L0993_F7">
      <speaker>Mrs. D.</speaker>
      <stage> (looking at her watch, impatiently)</stage>
      <p>How very inconsiderate it is of your husband being so late. All alike!</p>
     </sp>
-    <sp>
+    <sp who="#L0993_F6">
      <speaker>Mrs. H.</speaker>
      <p>Are they? was Mr. Delacour at all like—</p>
     </sp>
-    <sp>
+    <sp who="#L0993_F7">
      <speaker>Mrs. D.</speaker>
      <stage> (quickly)</stage>
      <p>Dick Thistleton? not a bit! Delacour wasn't handsome, nor young, nor agreeable, not a good
       dancer, nor—</p>
     </sp>
-    <sp>
+    <sp who="#L0993_F6">
      <speaker>Mrs. H.</speaker>
      <p>   Nor everything delightful, which it is evident Captain Thistleton <emph>is.</emph></p>
     </sp>
-    <sp>
+    <sp who="#L0993_F7">
      <speaker>Mrs. D.</speaker>
      <p>Who said so, pray?</p>
     </sp>
-    <sp>
+    <sp who="#L0993_F6">
      <speaker>Mrs. H.</speaker>
      <p>Nobody; only I don't suspect, you see, I make certain.</p>
     </sp>
-    <sp>
+    <sp who="#L0993_F7">
      <speaker>Mrs. D.</speaker>
      <p>Upon my word, an apt pupil. </p>
      <stage>(crosses, R.)</stage>
     </sp>
-    <sp>
+    <sp who="#L0993_F6">
      <speaker>Mrs. H.</speaker>
      <p>After all you've said I'm quite anxious to see this Admirable Crichton.</p>
     </sp>
-    <sp>
+    <sp who="#L0993_F7">
      <speaker>Mrs. D.</speaker>
      <stage> (R., a little offended)</stage>
      <p>Indeed, my dear! pray remember you are a married wife.</p>
     </sp>
-    <sp>
+    <sp who="#L0993_F6">
      <speaker>Mrs. H.</speaker>
      <p>Now you're jealous! I'm sure you're jealous.</p>
     </sp>
-    <sp>
+    <sp who="#L0993_F7">
      <speaker>Mrs. D.</speaker>
      <p>Am I? <stage>(laughing)</stage> Well, perhaps I am just the least bit in the world; but
       there it's over now: I've only to look in your eyes, dear, to see that you are as simple and
@@ -412,30 +464,30 @@
     </sp>
     <stage>Enter Penson, suddenly, door C.</stage>
 
-    <sp>
+    <sp who="#L0993_F8">
      <speaker>Penson.</speaker>
      <p>Them two are always kissing. How they will quarrel one of these days. Hem!—Please, ma'am,
       here's Mr. Nubbly; may he come in?</p>
      <pb n="6"/>
     </sp>
-    <sp>
+    <sp who="#L0993_F6">
      <speaker>Mrs. H.</speaker>
      <p>Oh, yes, Penson.</p>
     </sp>
-    <sp>
+    <sp who="#L0993_F7">
      <speaker>Mrs. D.</speaker>
      <p>Yes, but wait till we've gone; we're just a little flurried—ain't we, dear?</p>
     </sp>
-    <sp>
+    <sp who="#L0993_F6">
      <speaker>Mrs. H.</speaker>
      <p>No, <emph>you</emph> are; I declare I'm ashamed of you—ha, ha, ha!</p>
     </sp>
-    <sp>
+    <sp who="#L0993_F7">
      <speaker>Mrs. D.</speaker>
      <p>Well, he <emph>is </emph>better looking than Delacour, dear, I admit. </p>
      <stage>(the Ladies go off, laughing, door R.)</stage>
     </sp>
-    <sp>
+    <sp who="#L0993_F8">
      <speaker>Penson.</speaker>
      <p>   How missus can keep such a light heart with the messages we get every day from the
       tradespeople, is a mystery to me. One would think the butcher's bill alone would cut her up.
@@ -446,48 +498,48 @@
      countenance suggestive of imbibing tendencies, his coat cuffs are too long for him, and he has
      a draggled-ended white necktie.</stage>
 
-    <sp>
+    <sp who="#L0993_M3">
      <speaker>Nubb.</speaker>
      <stage> (C.)</stage>
      <p>I'm not a proud man, Mrs. Penson, but I do <emph>'ate</emph> bein' kept standing in
       passages.</p>
     </sp>
-    <sp>
+    <sp who="#L0993_F8">
      <speaker>Penson.</speaker>
      <stage> (R.)</stage>
      <p>You could have waited a moment in the hall.</p>
     </sp>
-    <sp>
+    <sp who="#L0993_M3">
      <speaker>Nubb.</speaker>
      <p>Pre-aps so, but I 'ate 'alls: why should I be kept standing in the 'all? I ain't a
       humbyreller. No, nor yet a golosh—no, nor yet a brommyter!</p>
     </sp>
-    <sp>
+    <sp who="#L0993_F8">
      <speaker>Penson.</speaker>
      <p>Well, it was only a moment.</p>
     </sp>
-    <sp>
+    <sp who="#L0993_M3">
      <speaker>Nubb.</speaker>
      <p>Oh, I'm aweer of that. But when parties has a manservant leave 'em sudden, and parties has
       to fall back as a body may say on other parties which goes out to oblige, the coal and
       greengrocery line being such parties' reg'ler business, such parties objects to being stood in
       'alls;—or passages.</p>
     </sp>
-    <sp>
+    <sp who="#L0993_F8">
      <speaker>Penson.</speaker>
      <p>Well, never mind this time.</p>
     </sp>
-    <sp>
+    <sp who="#L0993_M3">
      <speaker>Nubb.</speaker>
      <p>I go upon a reg'ler cistern of my own. When I comes out for too sooperintend on occasions
       like this, I make it a rule to be like the gentleman as was left on a deserted island, Mr.
       Alexander Simcox, “Monarch of all I surveys, from Chaney to Peru,” that's my cistern.</p>
     </sp>
-    <sp>
+    <sp who="#L0993_F8">
      <speaker>Penson.</speaker>
      <p>And quite right too.</p>
     </sp>
-    <sp>
+    <sp who="#L0993_M3">
      <speaker>Nubb.</speaker>
      <p>   Everybody knows me—I don't go a hiding of my beak in the sand like the wild Pelliking of
       the woods—catch me at it: my name's painted over my shop; Nubbly is <emph>my</emph> name,
@@ -495,13 +547,13 @@
       'undred—my motto is <hi>Nil Desprandrum</hi>, my politics is liberal, and my terms is cash.
       <hi>Hen B.</hi>; hevennin parties hattended.</p>
     </sp>
-    <sp>
+    <sp who="#L0993_F8">
      <speaker>Penson.</speaker>
      <p>Ah, Mr. Nubbly, you must have put by a snug little fortune by this time—you see you're
       always in request, let alone the shop which does a good stroke of business, I'll be bound.</p>
      <pb n="7"/>
     </sp>
-    <sp>
+    <sp who="#L0993_M3">
      <speaker>Nubb.</speaker>
      <p>Well, I don't complain, Mrs. P.—mine's a nervous business, though, what with the
       fluctuwations in coals, now hup and now down, and the “rumoured reappearance of disease in the
@@ -512,187 +564,187 @@
       fashion for fear of fat—my bed is not one of roses, Mrs. P.—I do assure you; it's a
       hoverflowing coal sack, and the sharpest hedged bits huppermost.</p>
     </sp>
-    <sp>
+    <sp who="#L0993_F8">
      <speaker>Penson.</speaker>
      <stage> (sighing)</stage>
      <p>Hah, Mr. Nubbly, I dare say you have your trials!</p>
     </sp>
-    <sp>
+    <sp who="#L0993_M3">
      <speaker>Nubb.</speaker>
      <p>Right you are, Mrs. P.; bad debts, now. Now, Mrs. P.—</p>
      <stage>(looking round)</stage>
     </sp>
-    <sp>
+    <sp who="#L0993_F8">
      <speaker>Penson.</speaker>
      <stage> (aside)</stage>
      <p>   There's a suspicious look in his eye. I've suspected it before; he admires me.</p>
     </sp>
-    <sp>
+    <sp who="#L0993_M3">
      <speaker>Nubb.</speaker>
      <p>Look here. <stage>(getting towards her)</stage> Nobody about, is there?</p>
     </sp>
-    <sp>
+    <sp who="#L0993_F8">
      <speaker>Penson.</speaker>
      <stage> (aside)</stage>
      <p>He do admire me!</p>
     </sp>
-    <sp>
+    <sp who="#L0993_M3">
      <speaker>Nubb.</speaker>
      <p>This is reyther what I call a flighty neighbourhood.</p>
     </sp>
-    <sp>
+    <sp who="#L0993_F8">
      <speaker>Penson.</speaker>
      <stage> (aside)</stage>
      <p>He's going to account for his abruptness. <stage>(rather coquettishly)</stage> I don't
       understand you, Mr. Nubbly.</p>
     </sp>
-    <sp>
+    <sp who="#L0993_M3">
      <speaker>Nubb.</speaker>
      <p>Well, parties come and go rather sudden. Here to-day and gone to-morrow. Can't trust 'em
       long.</p>
     </sp>
-    <sp>
+    <sp who="#L0993_F8">
      <speaker>Penson.</speaker>
      <stage> (aside)</stage>
      <p>He's afraid of my being off, and him not able to come to the point. <stage>(aloud)</stage>
       Some parties are not so fickle, Mr. Nubbly.</p>
     </sp>
-    <sp>
+    <sp who="#L0993_M3">
      <speaker>Nubb.</speaker>
      <p>Glad to hear it. Now, <hi>haunter noo</hi>, Mrs. P.,<hi> haunter noo</hi>, as our lively
       neighbours say.</p>
     </sp>
-    <sp>
+    <sp who="#L0993_F8">
      <speaker>Penson.</speaker>
      <stage> (aside)</stage>
      <p>Lively neighbours! he means those noisy city people at Camellia Lodge.</p>
     </sp>
-    <sp>
+    <sp who="#L0993_M3">
      <speaker>Nubb.</speaker>
      <p>I want you to answer me a partickler question.</p>
     </sp>
-    <sp>
+    <sp who="#L0993_F8">
      <speaker>Penson.</speaker>
      <stage> (aside)</stage>
      <p>It's coming.</p>
     </sp>
-    <sp>
+    <sp who="#L0993_M3">
      <speaker>Nubb.</speaker>
      <p>I don't want to press you, you know.</p>
     </sp>
-    <sp>
+    <sp who="#L0993_F8">
      <speaker>Penson.</speaker>
      <p>Oh! don't be so over diffident.</p>
     </sp>
-    <sp>
+    <sp who="#L0993_M3">
      <speaker>Nubb.</speaker>
      <stage> (close to her)</stage>
      <p>Do you think your master means to pay his greengrocer's bill?</p>
     </sp>
-    <sp>
+    <sp who="#L0993_F8">
      <speaker>Penson.</speaker>
      <stage> (after a pause, looking at him indignantly, then with contempt)</stage>
      <p>Is that all you wanted to say? <stage>(aside)</stage> I could choke with rage!</p>
     </sp>
-    <sp>
+    <sp who="#L0993_M3">
      <speaker>Nubb.</speaker>
      <stage> (aside)</stage>
      <p>She ain't a bit offended!</p>
     </sp>
-    <sp>
+    <sp who="#L0993_F8">
      <speaker>Penson.</speaker>
      <p>   I don't understand you, Mr. Nubbly.</p>
     </sp>
-    <sp>
+    <sp who="#L0993_M3">
      <speaker>Nubb.</speaker>
      <p>Ain't we innocent! Your master owes me a good deal. Hitems mounts hup, you know. Grass in
       the hearly spring is <emph>grass</emph>, I can tell you! Cucummuers comes 'eavy, and as for
       peas—no matter the price, you have 'em.</p>
      <pb n="8"/>
     </sp>
-    <sp>
+    <sp who="#L0993_F8">
      <speaker>Penson.</speaker>
      <p>Well, and what then?</p>
     </sp>
-    <sp>
+    <sp who="#L0993_M3">
      <speaker>Nubb.</speaker>
      <p>Well, you don't pay for them!</p>
     </sp>
-    <sp>
+    <sp who="#L0993_F8">
      <speaker>Penson.</speaker>
      <p>But you put 'em down, don't you?</p>
     </sp>
-    <sp>
+    <sp who="#L0993_M3">
      <speaker>Nubb.</speaker>
      <p>Rather! But it strikes me that to pass one's existence in one hendless hoccupation of
       putting things down, and never taking nothing hup, is hanything but a paying purshoot.</p>
     </sp>
-    <sp>
+    <sp who="#L0993_F8">
      <speaker>Penson.</speaker>
      <p>Well! master's a gentleman.</p>
     </sp>
-    <sp>
+    <sp who="#L0993_M3">
      <speaker>Nubb.</speaker>
      <p>Every hinch of him—from the sole of his boots to the crown of his 'ead!</p>
     </sp>
-    <sp>
+    <sp who="#L0993_F8">
      <speaker>Penson.</speaker>
      <p>And if he contracts a bill—</p>
     </sp>
-    <sp>
+    <sp who="#L0993_M3">
      <speaker>Nubb.</speaker>
      <p>Don't call it contracting; mine's gone on a spreadin out! Honly see it!</p>
     </sp>
-    <sp>
+    <sp who="#L0993_F8">
      <speaker>Penson.</speaker>
      <p>Oh! don't take a party up, Mr. Nubbly. </p>
      <stage>(crosses, L.)</stage>
     </sp>
-    <sp>
+    <sp who="#L0993_M3">
      <speaker>Nubb.</speaker>
      <p>No, I don't want to take him hup—I only want to jog his memory.</p>
     </sp>
-    <sp>
+    <sp who="#L0993_F8">
      <speaker>Penson.</speaker>
      <p>What! when you've come to attend at a party?</p>
     </sp>
-    <sp>
+    <sp who="#L0993_M3">
      <speaker>Nubb.</speaker>
      <p>Certingly! on the quiet, of course; not afore his friends. I'm not going to introduce the
       greengrocery at a hinopportune moment. But I may manage it; for hinstance, when I'm 'anding
       him a hice, I can whisper in his hear,   “Money's very scarce; don't you find it so?” As a
       City gent, he'll take the yint.</p>
     </sp>
-    <sp>
+    <sp who="#L0993_F8">
      <speaker>Penson.</speaker>
      <p>City gent! Master's not in the City indeed.</p>
     </sp>
-    <sp>
+    <sp who="#L0993_M3">
      <speaker>Nubb.</speaker>
      <p>Ain't he? Then what is he?</p>
     </sp>
-    <sp>
+    <sp who="#L0993_F8">
      <speaker>Penson.</speaker>
      <p>What is he? Why, look at him.</p>
     </sp>
-    <sp>
+    <sp who="#L0993_M3">
      <speaker>Nubb.</speaker>
      <p>So I have. I see a smart-looking party with noo coat and waistcoat, different trousers every
       other day, noo gloves, noo 'at, noo everythink; so I says “City.”</p>
     </sp>
-    <sp>
+    <sp who="#L0993_F8">
      <speaker>Penson.</speaker>
      <p>Then you're wrong.</p>
     </sp>
-    <sp>
+    <sp who="#L0993_M3">
      <speaker>Nubb.</speaker>
      <p>How does he get his living?</p>
     </sp>
-    <sp>
+    <sp who="#L0993_F8">
      <speaker>Penson.</speaker>
      <p>He don't get it; it comes natural. Nature's stamped him gentleman, as anybody might see.</p>
     </sp>
-    <sp>
+    <sp who="#L0993_M3">
      <speaker>Nubb.</speaker>
      <p>Ah, Natur's in the yabit of stamping about a good deal more than she's any right to; now for
       instance, you're only a servant, but, lor' bless your 'art, you might be— </p>
@@ -701,234 +753,234 @@
     <stage>Enter John Blunt, abruptly, at C. door—he is a homely looking man about forty, dressed in
      roughish clothes, and looks like a manufacturer not above his business.</stage>
 
-    <sp>
+    <sp who="#L0993_M2">
      <speaker>Blunt.</speaker>
      <stage> (L.)</stage>
      <p>Hem! </p>
      <stage>(looks from one to the other)</stage>
     </sp>
-    <sp>
+    <sp who="#L0993_F8">
      <speaker>Penson.</speaker>
      <stage> (R.)</stage>
      <p>Lawks! who's he I wonder.</p>
      <stage>                                        Exit L. C. door.</stage>
     </sp>
-    <sp>
+    <sp who="#L0993_M3">
      <speaker>Nubb.</speaker>
      <stage> (R.—aside)</stage>
      <p>Evidently the new footman as was expected.</p>
     </sp>
-    <sp>
+    <sp who="#L0993_M2">
      <speaker>Blunt.</speaker>
      <stage> (aside)</stage>
      <p>Queer looking chap—one of those gentlefolks that like to come early shouldn't wonder.
       Perhaps he can tell me where cousin Clarry is?</p>
      <pb n="9"/>
     </sp>
-    <sp>
+    <sp who="#L0993_M3">
      <speaker>Nubb.</speaker>
      <stage> (aside)</stage>
      <p>I'll impress this fellow; he's evidently from the country. <stage>(to him, loftily)</stage>
       'Ow harr you?</p>
     </sp>
-    <sp>
+    <sp who="#L0993_M2">
      <speaker>Blunt.</speaker>
      <stage> (aside)</stage>
      <p>   Lord, how these cockneys do knock the language about. <stage>(aloud)</stage> Tidy, thank
       you kindly, how's yourself?</p>
     </sp>
-    <sp>
+    <sp who="#L0993_M3">
      <speaker>Nubb.</speaker>
      <stage> (aside)</stage>
      <p>Familler—too familler. <stage>(aloud)</stage> So you've come, have you?</p>
     </sp>
-    <sp>
+    <sp who="#L0993_M2">
      <speaker>Blunt.</speaker>
      <p>Well, I believe there can be very little doubt as to that, ha, ha, ha!</p>
     </sp>
-    <sp>
+    <sp who="#L0993_M3">
      <speaker>Nubb.</speaker>
      <stage> (grimly)</stage>
      <p>Ha, ha! <stage>(aside)</stage> A doosid deal too familler. Hem! you seem provincial,
       John?</p>
     </sp>
-    <sp>
+    <sp who="#L0993_M2">
      <speaker>Blunt.</speaker>
      <stage> (aside)</stage>
      <p>Got my name pat, anyhow. Yes, I'm from Bristol.</p>
     </sp>
-    <sp>
+    <sp who="#L0993_M3">
      <speaker>Nubb.</speaker>
      <p>Ha, you'll feel strange at first I dare say.</p>
     </sp>
-    <sp>
+    <sp who="#L0993_M2">
      <speaker>Blunt.</speaker>
      <p>Yes, I always do in London. And I'm not expected either to-day.</p>
     </sp>
-    <sp>
+    <sp who="#L0993_M3">
      <speaker>Nubb.</speaker>
      <p>Oh, yes you har. Mrs. Harcourt 'll be here soon.</p>
     </sp>
-    <sp>
+    <sp who="#L0993_M2">
      <speaker>Blunt.</speaker>
      <p>Bless her dear heart, how is she?</p>
     </sp>
-    <sp>
+    <sp who="#L0993_M3">
      <speaker>Nubb.</speaker>
      <stage> (horrified)</stage>
      <p>I tell you what it is, my friend; if you talk of Mrs. H. in that free and easy way you'll
       get into trouble.</p>
     </sp>
-    <sp>
+    <sp who="#L0993_M2">
      <speaker>Blunt.</speaker>
      <p>What is Harcourt so uncommonly jealous, eh? <stage>(pokes Nubbly in the side)</stage></p>
     </sp>
-    <sp>
+    <sp who="#L0993_M3">
      <speaker>Nubb.</speaker>
      <p>Well, of all the himprance I ever—calls Mr. H. 'Arcourt!</p>
     </sp>
-    <sp>
+    <sp who="#L0993_M2">
      <speaker>Blunt.</speaker>
      <p>But I didn't know I should come down upon 'em on a party night. I shall have to change my
       clothes of course.</p>
     </sp>
-    <sp>
+    <sp who="#L0993_M3">
      <speaker>Nubb.</speaker>
      <stage> (looking at them in contempt)</stage>
      <p>Yes, I should say you would. I'm afraid they won't fit you. <stage>(aside)</stage> The last
       fellow   was a short 'un.</p>
     </sp>
-    <sp>
+    <sp who="#L0993_M2">
      <speaker>Blunt.</speaker>
      <p>Oh, they fit me well enough.</p>
     </sp>
-    <sp>
+    <sp who="#L0993_M3">
      <speaker>Nubb.</speaker>
      <p>Then you've seen 'em?</p>
     </sp>
-    <sp>
+    <sp who="#L0993_M2">
      <speaker>Blunt.</speaker>
      <p>Seen 'em? Yes. <stage>(aside)</stage> He's a strange chap, this!</p>
     </sp>
-    <sp>
+    <sp who="#L0993_M3">
      <speaker>Nubb.</speaker>
      <stage> (aside)</stage>
      <p>He hasn't lost much time in trying his livery on. Well you'd better go and put 'em on, as I
       shall want you to assist me. And look here, keep pretty quiet, hold your tongue, and you'll
       do.</p>
     </sp>
-    <sp>
+    <sp who="#L0993_M2">
      <speaker>Blunt.</speaker>
      <p>I can't hold my tongue. If I'm dancing with a lass I must talk to her.</p>
     </sp>
-    <sp>
+    <sp who="#L0993_M3">
      <speaker>Nubb.</speaker>
      <stage> (aside)</stage>
      <p>Thinks he's in the servant's 'all. He's the free and easiest—</p>
     </sp>
-    <sp>
+    <sp who="#L0993_M2">
      <speaker>Blunt.</speaker>
      <p>Ha, there she is, bless her! Get out of the way, man.</p>
      <stage>                                        Pushes Nubbly aside and rushes up to Mrs.
       Harcourt, who has entered, door R.. she seems delighted to see him, and kisses him
       affectionately,—Nubbly stands transfixed looking on in horror.</stage>
     </sp>
-    <sp>
+    <sp who="#L0993_M2">
      <speaker>Blunt.</speaker>
      <stage> (C.)</stage>
      <p>What! my little Clarry: younger, brighter, prettier than ever!</p>
      <pb n="10"/>
     </sp>
-    <sp>
+    <sp who="#L0993_F6">
      <speaker>Mrs. H.</speaker>
      <p> (R.)</p>
      <p>And you, dear John, the same hearty, honest, kind fellow as of old! </p>
      <stage>(Blunt holds her out at arm's length, then shakes her hands heartily—they go up a
       little)</stage>
     </sp>
-    <sp>
+    <sp who="#L0993_M3">
      <speaker>Nubb.</speaker>
      <p> (L.)</p>
      <p>My back's a hopening and a shutting simultanous. What did he go to say he was a footman
       for—he's a nippocrit!</p>
     </sp>
-    <sp>
+    <sp who="#L0993_M2">
      <speaker>Blunt.</speaker>
      <p>But introduce me to this gentleman, Clarry. I'd like to know his name: we've already had a
       chat.</p>
     </sp>
-    <sp>
+    <sp who="#L0993_F6">
      <speaker>Mrs. H.</speaker>
      <p>Why, bless your innocent heart, John, that's Mr. Nubbly, who comes to wait.</p>
     </sp>
-    <sp>
+    <sp who="#L0993_M2">
      <speaker>Blunt.</speaker>
      <p>What? ah! ha! ha! </p>
      <stage>(laughs loudly, and wipes his eyes with his handkerchief)</stage>
     </sp>
-    <sp>
+    <sp who="#L0993_M3">
      <speaker>Nubb.</speaker>
      <stage> (aside)</stage>
      <p>If I don't send my bill in to-morrow morning,   first thing, and give my boy horders not to
       move hoff the mat till it's liquiddiated, my name is not Nubbly!</p>
      <stage>                                        Exit, door C.</stage>
     </sp>
-    <sp>
+    <sp who="#L0993_F6">
      <speaker>Mrs. H.</speaker>
      <p>Dear John, it's like a touch of old times seeing you.</p>
     </sp>
-    <sp>
+    <sp who="#L0993_M2">
      <speaker>Blunt.</speaker>
      <stage> (sighing)</stage>
      <p>Ah, lass! don't talk of old times—well you were right to follow your own bent, my child, and
       Harcourt's a good fellow, a thorough good fellow—by the way, is he doing anything yet?</p>
     </sp>
-    <sp>
+    <sp who="#L0993_F6">
      <speaker>Mrs. H.</speaker>
      <p>No, poor Charley; it's very sad, people are always saying they'll remember him, and—</p>
     </sp>
-    <sp>
+    <sp who="#L0993_M2">
      <speaker>Blunt.</speaker>
      <p>And always forgetting him—ah, well, you've got a pretty place here!</p>
     </sp>
-    <sp>
+    <sp who="#L0993_F6">
      <speaker>Mrs. H.</speaker>
      <p>Yes; cheap at a hundred and thirty pounds a year, isn't it?</p>
     </sp>
-    <sp>
+    <sp who="#L0993_M2">
      <speaker>Blunt.</speaker>
      <p>Phew! a hundred and thirty pounds, why, Clarry girl, that's a long rent.</p>
     </sp>
-    <sp>
+    <sp who="#L0993_F6">
      <speaker>Mrs. H.</speaker>
      <p>Well, we might have a cheaper house if we lived in some parts; but Charley can't live in a
       vulgar neighbourhood. He says it wouldn't be living it would be only existing!</p>
     </sp>
-    <sp>
+    <sp who="#L0993_M2">
      <speaker>Blunt.</speaker>
      <p>Ah, well, it's something to <emph>exist</emph> in these days!</p>
     </sp>
-    <sp>
+    <sp who="#L0993_F6">
      <speaker>Mrs. H.</speaker>
      <p>But you must be dying of hunger; let me order you something—there's a paté, and some—</p>
     </sp>
-    <sp>
+    <sp who="#L0993_M2">
      <speaker>Blunt.</speaker>
      <p>Nay, lass, I'd half a fowl and a dozen sandwiches at Swindon, and I can hold on till supper.
       You've got a party?</p>
     </sp>
-    <sp>
+    <sp who="#L0993_F6">
      <speaker>Mrs. H.</speaker>
      <p>   Oh yes, and a charming supper; Charley ordered it from Gunter's. We're obliged to give a
       party now and then, in order to keep Charley's friends in a good temper, otherwise they
       wouldn't remember him.</p>
     </sp>
-    <sp>
+    <sp who="#L0993_M2">
      <speaker>Blunt.</speaker>
      <p>Oh, nobody'll forget him, so long as he gives 'em suppers from Gunter's. Isn't he at
       home?</p>
     </sp>
-    <sp>
+    <sp who="#L0993_F6">
      <speaker>Mrs. H.</speaker>
      <p>No, he's obliged to dine out a good deal just now. He's with Captain Thistleton, a gentleman
       who's been very kind to him—he's going to bring him here to-night, and do you </p>
@@ -937,16 +989,16 @@
       so—</p>
      <stage>(stops herself awkwardly, and looks down)</stage>
     </sp>
-    <sp>
+    <sp who="#L0993_M2">
      <speaker>Blunt.</speaker>
      <stage> (seriously)</stage>
      <p>Lent him money, lass; does your husband accept alms of strangers?</p>
     </sp>
-    <sp>
+    <sp who="#L0993_F6">
      <speaker>Mrs. H.</speaker>
      <p>Alms, cousin John!</p>
     </sp>
-    <sp>
+    <sp who="#L0993_M2">
      <speaker>Blunt.</speaker>
      <p>Ay, Clarry, call it what you like, it comes to that. When a man has no income and no
       prospects, and yet gives parties and borrows money, he's doing what I call in my rough country
@@ -955,148 +1007,148 @@
       comes in, I'm a victim to pecuniary pressure. It's a longer phrase; but it don't express much
       more.</p>
     </sp>
-    <sp>
+    <sp who="#L0993_F6">
      <speaker>Mrs. H.</speaker>
      <p>Oh, don't speak like that, John—I know Charley has expensive tastes; but—</p>
     </sp>
-    <sp>
+    <sp who="#L0993_M2">
      <speaker>Blunt.</speaker>
      <stage> (aside)</stage>
      <p>Yes, yes, what am I preaching away to a bit   of a girl for? I'll have a chat with Charles,
       and talk to his new friend, Captain Thistledon or Thistlewood, or whatever his name is.</p>
      <stage>Mrs. Delacour enters door, R. 2 E.</stage>
     </sp>
-    <sp>
+    <sp who="#L0993_F6">
      <speaker>Mrs. H.</speaker>
      <p>Thistleton, John.</p>
     </sp>
-    <sp>
+    <sp who="#L0993_F7">
      <speaker>Mrs. D.</speaker>
      <stage> (R.)</stage>
      <p>No scandal against Captain Thistleton I hope?</p>
     </sp>
-    <sp>
+    <sp who="#L0993_F6">
      <speaker>Mrs. H.</speaker>
      <stage> (C.)</stage>
      <p>Oh no! This is my cousin John. Mrs. Delacour, John, a dear friend of mine. </p>
      <stage>(they bow)</stage>
     </sp>
-    <sp>
+    <sp who="#L0993_M2">
      <speaker>Blunt.</speaker>
      <stage> (L.)</stage>
      <p>Delighted! <stage>(bowing awkwardly)</stage> Glad to see cousin Clarry has a dear friend.
       <stage>(aside)</stage> I like her face, and I believe in faces.</p>
     </sp>
-    <sp>
+    <sp who="#L0993_M1">
      <speaker>Harc.</speaker>
      <stage> (heard without)</stage>
      <p>Take them upstairs, will you?</p>
     </sp>
-    <sp>
+    <sp who="#L0993_F6">
      <speaker>Mrs. H.</speaker>
      <p>Ha! there's Charley. Come along, John, and I'll shew you to your room. We've kept a room for
       you, as you promised long ago to come and take us by surprise.</p>
     </sp>
-    <sp>
+    <sp who="#L0993_M2">
      <speaker>Blunt.</speaker>
      <p>Thankee, lass. You'll excuse me, ma'am, but I must go and clean myself—couldn't appear at a
       party in this trim. </p>
      <stage>(Mrs. Harcourt passes him, leading him)</stage>
     </sp>
-    <sp>
+    <sp who="#L0993_F6">
      <speaker>Mrs. H.</speaker>
      <p>Back again directly, dear!</p>
     </sp>
-    <sp>
+    <sp who="#L0993_M2">
      <speaker>Blunt.</speaker>
      <stage> (aside)</stage>
      <p>Nice little woman that. Married?</p>
     </sp>
-    <sp>
+    <sp who="#L0993_F6">
      <speaker>Mrs. H.</speaker>
      <p>Widow.</p>
     </sp>
-    <sp>
+    <sp who="#L0993_M2">
      <speaker>Blunt.</speaker>
      <p>O-oh!</p>
      <stage>                                        Exit with Mrs. Harcourt, R. 1 E.</stage>
     </sp>
-    <sp>
+    <sp who="#L0993_F7">
      <speaker>Mrs. D.</speaker>
      <p>I wonder if Captain Thistleton's come with Mr. Harcourt? Hah! <stage>(sighs)</stage> What's
       this? Palpitation? Why I haven't had palpitation since—since I last saw him.</p>
     </sp>
-    <sp>
+    <sp who="#L0993_M1">
      <speaker>Harc.</speaker>
      <stage> (without)</stage>
      <p>   Come along.</p>
     </sp>
-    <sp>
+    <sp who="#L0993_F7">
      <speaker>Mrs. D.</speaker>
      <p>He's come sure enough. </p>
      <stage>(turns up, R.)</stage>
      <pb n="12"/>
      <stage>Enter Harcourt and Thistleton, L. C.</stage>
     </sp>
-    <sp>
+    <sp who="#L0993_M1">
      <speaker>Harc.</speaker>
      <p> (R.)</p>
      <p>This is my den, Thistleton, a mere box as you see.</p>
     </sp>
-    <sp>
+    <sp who="#L0993_M5">
      <speaker>Thistle.</speaker>
      <p> (L.)</p>
      <p>Charming! <stage>(looking at the figure of Mrs. Delacour)</stage> Charming! Your wife,
       Harcourt?</p>
     </sp>
-    <sp>
+    <sp who="#L0993_F7">
      <speaker>Mrs. D.</speaker>
      <p>Oh dear no, Captain Thistleton! </p>
      <stage>(turning)</stage>
     </sp>
-    <sp>
+    <sp who="#L0993_M5">
      <speaker>Thistle.</speaker>
      <p>Gracious powers! Mrs. Delacour! </p>
      <stage>(shakes hands with her)</stage>
     </sp>
-    <sp>
+    <sp who="#L0993_M1">
      <speaker>Harc.</speaker>
      <p>Ha! you know each other? Capital! Then you can amuse yourselves whilst I go and find my
       wife.</p>
      <stage>                                        Crosses, R., and exits, door R. 2 E.</stage>
     </sp>
-    <sp>
+    <sp who="#L0993_M5">
      <speaker>Thistle.</speaker>
      <p>This is a surprise.</p>
     </sp>
-    <sp>
+    <sp who="#L0993_F7">
      <speaker>Mrs. D.</speaker>
      <p>Not an unpleasant one is it, most polite and constant of watering-place acquaintances?</p>
     </sp>
-    <sp>
+    <sp who="#L0993_M5">
      <speaker>Thistle.</speaker>
      <p>Constant? come, I never knew where you lived!</p>
     </sp>
-    <sp>
+    <sp who="#L0993_F7">
      <speaker>Mrs. D.</speaker>
      <p>And never cared to inquire—after all your fine speeches and promises.</p>
     </sp>
-    <sp>
+    <sp who="#L0993_M5">
      <speaker>Thistle.</speaker>
      <p>Nay, believe me, my dear Mrs. Delacour—</p>
     </sp>
-    <sp>
+    <sp who="#L0993_F7">
      <speaker>Mrs. D.</speaker>
      <p>Believe you? Yes, that's what I did, and you've shewn yourself worthy of belief, haven't
       you. <stage>(aside)</stage> Bother the man, how phlegmatic he is, and yet I know he cares for
       me. Why doesn't he speak out as he used to do?</p>
     </sp>
-    <sp>
+    <sp who="#L0993_M5">
      <speaker>Thistle.</speaker>
      <p>If I'd imagined you cared to see me I'd have come long since. </p>
      <stage>(they sit, R and L.)</stage>
     </sp>
-    <sp>
+    <sp who="#L0993_F7">
      <speaker>Mrs. D.</speaker>
      <stage> (R.)</stage>
      <p>Now you want me to say all sorts of nonsensical flattering things, but I won't. You've seen
@@ -1104,98 +1156,98 @@
       his horses and display, nobody saw much of you. I think it would have been much better for him
       to have been managing his bank in Somersetshire or wherever it was.</p>
     </sp>
-    <sp>
+    <sp who="#L0993_M5">
      <speaker>Thistle.</speaker>
      <stage> (L.—aside)</stage>
      <p>Yes, so will the depositors some day, I fancy. <stage>(aloud)</stage> I've seen nothing of
       Thorogood for an age.</p>
     </sp>
-    <sp>
+    <sp who="#L0993_F7">
      <speaker>Mrs. D.</speaker>
      <p>No, you like new faces, don't you?</p>
     </sp>
-    <sp>
+    <sp who="#L0993_M5">
      <speaker>Thistle.</speaker>
      <p>Well, I can't say I'm particularly partial to old ones. <stage>(aside)</stage> I always knew
       she was deuced fond of me, but it wouldn't do.</p>
     </sp>
-    <sp>
+    <sp who="#L0993_F7">
      <speaker>Mrs. D.</speaker>
      <p>Wasn't aware you knew the Harcourts!</p>
     </sp>
-    <sp>
+    <sp who="#L0993_M5">
      <speaker>Thistle.</speaker>
      <p>I've only known Harcourt a month or so. This is my first visit here.</p>
     </sp>
-    <sp>
+    <sp who="#L0993_F7">
      <speaker>Mrs. D.</speaker>
      <p>You've never seen his wife, then?</p>
     </sp>
-    <sp>
+    <sp who="#L0993_M5">
      <speaker>Thistle.</speaker>
      <p>Never.</p>
     </sp>
-    <sp>
+    <sp who="#L0993_F7">
      <speaker>Mrs. D.</speaker>
      <p>Of course not! She told me just now, she had never seen you.</p>
     </sp>
-    <sp>
+    <sp who="#L0993_M5">
      <speaker>Thistle.</speaker>
      <p>I was actually the subject of your conversation then, was I?</p>
     </sp>
-    <sp>
+    <sp who="#L0993_F7">
      <speaker>Mrs. D.</speaker>
      <p>Yes! When women are together they talk about such <emph>trifles </emph>you know.</p>
      <pb n="13"/>
     </sp>
-    <sp>
+    <sp who="#L0993_M5">
      <speaker>Thistle.</speaker>
      <p>Ha! ha! ha! Severe as ever, eh? </p>
      <stage>(they both rise and come down)</stage>
     </sp>
-    <sp>
+    <sp who="#L0993_F7">
      <speaker>Mrs. D.</speaker>
      <stage> (coquettishly)</stage>
      <p>Come; I don't think you ever found me so very severe. <stage>(aside)</stage> He's positively
       making me angry; he's so diffident, and I <emph>know</emph> he's over head and ears in love
       with me all the time!</p>
     </sp>
-    <sp>
+    <sp who="#L0993_M5">
      <speaker>Thistle.</speaker>
      <stage> (aside)</stage>
      <p>   'Pon my life, she's an attractive little creature! <stage>(coming closer to her)</stage>
       What mites of gloves you wear!</p>
     </sp>
-    <sp>
+    <sp who="#L0993_F7">
      <speaker>Mrs. D.</speaker>
      <stage> (holding out her hand)</stage>
      <p>Oh, I don't know.</p>
     </sp>
-    <sp>
+    <sp who="#L0993_M5">
      <speaker>Thistle.</speaker>
      <stage> (taking her hand)</stage>
      <p>Lilliputian to the last degree!</p>
     </sp>
-    <sp>
+    <sp who="#L0993_F7">
      <speaker>Mrs. D.</speaker>
      <stage> (aside)</stage>
      <p>He's awkward about it—but he means admiration. If you've quite done with my hand—</p>
     </sp>
-    <sp>
+    <sp who="#L0993_M5">
      <speaker>Thistle.</speaker>
      <p>Happy would be the man who could—happy would be the man who could—</p>
     </sp>
-    <sp>
+    <sp who="#L0993_M1">
      <speaker>Harcourt.</speaker>
      <stage> (off, R.)</stage>
      <p>It's all right; they know each other.</p>
     </sp>
-    <sp>
+    <sp who="#L0993_F7">
      <speaker>Mrs. D.</speaker>
      <stage> (aside, annoyed)</stage>
      <p>Bother these married people— they always pop upon one at the wrong time.</p>
     </sp>
-    <sp>
+    <sp who="#L0993_M5">
      <speaker>Thistle.</speaker>
      <stage> (aside)</stage>
      <p>Lucky interruption, for I didn't know how to finish the sentence.</p>
@@ -1203,42 +1255,42 @@
     <stage>Enter Harcourt and Mrs. Harcourt, R. 1 E., Mrs. D. up R., Harcourt, Mrs. H. and Capt. T.,
      L.</stage>
 
-    <sp>
+    <sp who="#L0993_M1">
      <speaker>Harcourt.</speaker>
      <p>Allow me to introduce my wife, Thistleton. This is Captain Thistleton, my dear.</p>
     </sp>
     <stage>Mrs. H. and Thistleton give a start, unperceived by Harcourt, who has turned up stage, to
      Mrs. D.</stage>
 
-    <sp>
+    <sp who="#L0993_M5">
      <speaker>Thistle.</speaker>
      <stage> (L., in an undertone, coldly, and severely)</stage>
      <p>This is a strange meeting. I thought you were abroad.</p>
     </sp>
-    <sp>
+    <sp who="#L0993_F6">
      <speaker>Mrs. H.</speaker>
      <stage> (R.) (agitated, and evidently alarmed)</stage>
      <p>I hoped— I thought—never to meet you again.</p>
      <stage>                                        Harcourt comes down with Mrs. D.</stage>
     </sp>
-    <sp>
+    <sp who="#L0993_M1">
      <speaker>Harc.</speaker>
      <stage> (R. C.)</stage>
      <p>Quite a pleasant little <hi>partie carré</hi>. I'm glad I've got you here at last,
       Thistleton. It's strange that we should have been fast friends for some months now, and that
       you and my wife should have never met before this.</p>
     </sp>
-    <sp>
+    <sp who="#L0993_M5">
      <speaker>Thistle.</speaker>
      <stage> (L. C.)</stage>
      <p>Certainly—we never have.</p>
     </sp>
-    <sp>
+    <sp who="#L0993_F6">
      <speaker>Mrs. H.</speaker>
      <stage> (R., in a cold voice)</stage>
      <p>   No—never.</p>
     </sp>
-    <sp>
+    <sp who="#L0993_F7">
      <speaker>Mrs. D.</speaker>
      <p> (L.)</p>
      <p>Why, here comes Mr. Blunt, a perfect Adonis! <stage>(aside)</stage> If I could only make
@@ -1246,7 +1298,7 @@
     </sp>
     <stage>Enter Blunt, door L. 2 E., in evening dress.</stage>
 
-    <sp>
+    <sp who="#L0993_M2">
      <speaker>Blunt.</speaker>
      <stage> (C.)</stage>
      <p>Yes, I'm ready for any amount of dancing now, and—What, <stage>(seeing Thistleton)</stage>
@@ -1256,17 +1308,17 @@
       and I always made you kiss and make it up again, in those jolly days at Fernleigh?—when you
       and Dick gave us all such trouble.</p>
     </sp>
-    <sp>
+    <sp who="#L0993_M1">
      <speaker>Harc.</speaker>
      <stage> (R.)</stage>
      <p>What's this? and they appeared strangers! Clarry, Clarry!</p>
     </sp>
-    <sp>
+    <sp who="#L0993_F7">
      <speaker>Mrs. D.</speaker>
      <stage> (L., with a pained look)</stage>
      <p>And he has deceived me, too. No, I have deceived myself!</p>
     </sp>
-    <sp>
+    <sp who="#L0993_M2">
      <speaker>Blunt.</speaker>
      <stage> (looking at each in confusion)</stage>
      <p>Why, what—how—wh —what on earth have I gone and done now?</p>
@@ -1288,51 +1340,51 @@
     <stage>Enter Jane Trimmer, followed by Nubbly, C.—Jane pauses an instant before entering, and
      Nubbly follows her a moment after.</stage>
 
-    <sp>
+    <sp who="#L0993_F9">
      <speaker>Jane.</speaker>
      <p>Mr. Nubbly, it's venturesome; that's all I can say about it—it's venturesome.</p>
     </sp>
-    <sp>
+    <sp who="#L0993_M3">
      <speaker>Nubb.</speaker>
      <p>Nothink ventur' nothin' win was always a motter of mine, Jane. You say yourself that the old
       woman's out, and Mrs. Delacour too, an' I've got a heap of things to tell you.</p>
     </sp>
-    <sp>
+    <sp who="#L0993_F9">
      <speaker>Jane.</speaker>
      <stage> (R.)</stage>
      <p>There's a time for all things, Mr. Nubbly. Ever since you drove me and Mrs. Penson, Mrs.
       Harcourt's maid, to Hepping Forest last Easter in your spring van—</p>
     </sp>
-    <sp>
+    <sp who="#L0993_M3">
      <speaker>Nubb.</speaker>
      <stage> (L.)</stage>
      <p>I haven't been able to get your himage out of my 'art.</p>
     </sp>
-    <sp>
+    <sp who="#L0993_F9">
      <speaker>Jane.</speaker>
      <p>No, nor Mrs. Penson's neither.</p>
      <pb n="15"/>
     </sp>
-    <sp>
+    <sp who="#L0993_M3">
      <speaker>Nubb.</speaker>
      <stage> (aside)</stage>
      <p>Oh, that's where the shoe pinches; <stage> (aloud)</stage> why I wouldn't have nothink to
       say to that stuck up party— not if she was actually a wallowin in 'ouse property.</p>
     </sp>
-    <sp>
+    <sp who="#L0993_F9">
      <speaker>Jane.</speaker>
      <p>Oh, you was a waiting there last night, and had many an opportunity of saying agreeable
       things, I've no doubt.</p>
     </sp>
-    <sp>
+    <sp who="#L0993_M3">
      <speaker>Nubb.</speaker>
      <p>I beg your pardon—Mrs. Penson was with her missus, who kept her room all the hevenink.</p>
     </sp>
-    <sp>
+    <sp who="#L0993_F9">
      <speaker>Jane.</speaker>
      <p>Law!</p>
     </sp>
-    <sp>
+    <sp who="#L0993_M3">
      <speaker>Nubb.</speaker>
      <p>Yes, and Mr. 'Arcourt, he wasn't hisself, and in fact heverythink was all nohow. There was
       periods during the hevenink, Jane, when I felt my account against the 'Arcourts, a hempty
@@ -1341,57 +1393,57 @@
       though the pianister was weakish, the party on the cornick was lovely, and has for the supper,
       well, I haven't been able to heat so much without feeling hill in the morning for a hage.</p>
     </sp>
-    <sp>
+    <sp who="#L0993_F9">
      <speaker>Jane.</speaker>
      <p>Oh, well, come, it wasn't so bad after all.</p>
     </sp>
-    <sp>
+    <sp who="#L0993_M3">
      <speaker>Nubb.</speaker>
      <p>But it was quite 'orrid to see Mr. 'Arcourt—you've seen the Poliar Bear at the Regency Park,
       Jane.</p>
     </sp>
-    <sp>
+    <sp who="#L0993_F9">
      <speaker>Jane.</speaker>
      <p>Often.</p>
     </sp>
-    <sp>
+    <sp who="#L0993_M3">
      <speaker>Nubb.</speaker>
      <p>He's tremenjous white, and tremenjous restless—so was 'Arcourt. It's a old belief of mine as
       there's a skillyton in hevery 'ouse.</p>
     </sp>
-    <sp>
+    <sp who="#L0993_F9">
      <speaker>Jane.</speaker>
      <stage> (with a slight shriek)</stage>
      <p>Don't say that, Mr. Nubbly. <stage>(looking round nervously).</stage></p>
     </sp>
-    <sp>
+    <sp who="#L0993_M3">
      <speaker>Nubb.</speaker>
      <p>I sees a good deal of serciety, Jane—and I've come to the conclusion that serciety's a
       <hi>smilin' 'umbug</hi>; it laughs 'oller when the canker's a gnawring at its 'art.</p>
     </sp>
-    <sp>
+    <sp who="#L0993_F9">
      <speaker>Jane.</speaker>
      <stage> (horrified)</stage>
      <stage>Does it though.</stage>
     </sp>
-    <sp>
+    <sp who="#L0993_M3">
      <speaker>Nubb.</speaker>
      <p>Quite correckt is the words, as Bob Smith says at 'ur club.</p>
     </sp>
-    <sp>
+    <sp who="#L0993_F9">
      <speaker>Jane.</speaker>
      <p>Do you belong to a club, Mr. Nubbly.</p>
     </sp>
-    <sp>
+    <sp who="#L0993_M3">
      <speaker>Nubb.</speaker>
      <p>Yes, Jane, the Hantediluvian Hantelopes; it's 'eld at the Naggs 'ead. Bob Smith's chairman,
       and I'm the vice.</p>
     </sp>
-    <sp>
+    <sp who="#L0993_F9">
      <speaker>Jane.</speaker>
      <p>So I should say.</p>
     </sp>
-    <sp>
+    <sp who="#L0993_M3">
      <speaker>Nubb.</speaker>
      <p>You should hear Bob talk; when he's had his third glass, Jane, his sentiments is lovely. It
       was only last Toosday,   a party as shall be nameless, come in with velvet hedging to his coat
@@ -1402,73 +1454,73 @@
       got a skillyton—what's more, your missus has one too! <stage>(seizing her arm)</stage></p>
      <pb n="16"/>
     </sp>
-    <sp>
+    <sp who="#L0993_F9">
      <speaker>Jane.</speaker>
      <p>Oh, don't! <emph>please</emph> don't.</p>
     </sp>
-    <sp>
+    <sp who="#L0993_M3">
      <speaker>Nubb.</speaker>
      <p>I watched 'em all. Mrs. Delacour ain't 'appy.</p>
     </sp>
-    <sp>
+    <sp who="#L0993_F9">
      <speaker>Jane.</speaker>
      <p>Then she ought to be. She's got a snug little income, passes most of her time at friend's
       houses, except in the season, when she always comes here to Mrs. Medlicott's. Though I do
       believe she's a little cut up at not seeing Captain Thistleton, who—</p>
     </sp>
-    <sp>
+    <sp who="#L0993_M3">
      <speaker>Nubb.</speaker>
      <stage> (starting)</stage>
      <p>Ha! ha! <stage>(crosses, R.)</stage> A long fellow with a hoverbearing haspect—the
       scoundrel!</p>
     </sp>
-    <sp>
+    <sp who="#L0993_F9">
      <speaker>Jane.</speaker>
      <p>Law, Mr. Nubbly; he's generally considered very imposing, and makes an impression on nearly
       everybody.</p>
     </sp>
-    <sp>
+    <sp who="#L0993_M3">
      <speaker>Nubb.</speaker>
      <p>He made an impression on me. I was handing him his coat—for he left almost directly he come,
       and he gave me a—I can't enter into particulars, but it 'urt.</p>
     </sp>
-    <sp>
+    <sp who="#L0993_F9">
      <speaker>Jane.</speaker>
      <p>Gracious! Mr. Nubbly!</p>
     </sp>
-    <sp>
+    <sp who="#L0993_M3">
      <speaker>Nubb.</speaker>
      <p>Then parties wondered I wasn't myself, attributing   it to sherry negus, when it was
       hindignation, boiling hindignation, Jane!</p>
     </sp>
-    <sp>
+    <sp who="#L0993_F7">
      <speaker>Mrs. Delacour.</speaker>
      <stage> (within)</stage>
      <p>This way, dear. There, you'll be better directly.</p>
     </sp>
-    <sp>
+    <sp who="#L0993_F9">
      <speaker>Jane.</speaker>
      <p>Missus! And she said she'd be out till late. Oh, Nubbly dear, you'll meet her on the
       stairs.</p>
     </sp>
-    <sp>
+    <sp who="#L0993_M3">
      <speaker>Nubb.</speaker>
      <p>Say, say I'm somebody else. No, but she knows me.</p>
     </sp>
-    <sp>
+    <sp who="#L0993_F9">
      <speaker>Jane.</speaker>
      <p>There, go in there for a minute. Then when she goes into her room, rush off like a
       comet.</p>
     </sp>
-    <sp>
+    <sp who="#L0993_M3">
      <speaker>Nubb.</speaker>
      <p>Well, but look 'ere, Jane. I don't like a hiding—</p>
     </sp>
-    <sp>
+    <sp who="#L0993_F9">
      <speaker>Jane.</speaker>
      <p>Like a hiding; no, who <emph>does.</emph></p>
     </sp>
-    <sp>
+    <sp who="#L0993_M3">
      <speaker>Nub.</speaker>
      <p>There's that boy, 'Gustus, left all alone to mind the shop, he'll go pitching into the
       coals; I know he will. <stage>(goes into room, L. 1 E.)</stage></p>
@@ -1476,7 +1528,7 @@
     <stage>Jane stands uneasily before the door as Mrs. Delacour enters C., leading Mrs. Harcourt,
      who is pale and agitated.</stage>
 
-    <sp>
+    <sp who="#L0993_F7">
      <speaker>Mrs. D.</speaker>
      <p>How lucky that I drove up to the door, just as you were coming. There, dear, sit down.
       <stage>(places her R. C.)</stage> There, now don't tell me anything until you've had a glass
@@ -1484,30 +1536,30 @@
       knew what wine was. No, you won't? <stage>(shrugging her shoulders)</stage> You can go,
       Jane.</p>
     </sp>
-    <sp>
+    <sp who="#L0993_F9">
      <speaker>Jane.</speaker>
      <p>Yes, ma'am. But—but—</p>
     </sp>
-    <sp>
+    <sp who="#L0993_F7">
      <speaker>Mrs. D.</speaker>
      <p>Don't stand there “butting”; do as I tell you—go.</p>
     </sp>
-    <sp>
+    <sp who="#L0993_F9">
      <speaker>Jane.</speaker>
      <stage> (aside, going)</stage>
      <p>Nubbly was right—there <emph>is</emph> a skillyton.</p>
      <stage>                                        Exit, L. C. door.</stage>
     </sp>
-    <sp>
+    <sp who="#L0993_F7">
      <speaker>Mrs. D.</speaker>
      <p>It was rather awkward last night,—but, surely you have explained.</p>
     </sp>
-    <sp>
+    <sp who="#L0993_F6">
      <speaker>Mrs. H.</speaker>
      <p>   Yes; but my husband is so terribly jealous—he
       <pb n="17"/> trusted me so implicitly; and now he'll listen to no explanation.</p>
     </sp>
-    <sp>
+    <sp who="#L0993_F7">
      <speaker>Mrs. D.</speaker>
      <p>Oh, these husbands! how unfair they are. The jealousy's to be all on one side; we're to be
       perfectly unmoved when we come across their old flames, but if they meet one of our little
@@ -1515,13 +1567,13 @@
       give in; it's always proper, and generally politic. Now, what is it, dear? <stage>(sits on
       stool)</stage></p>
     </sp>
-    <sp>
+    <sp who="#L0993_F6">
      <speaker>Mrs. H.</speaker>
      <stage> (R.)</stage>
      <p>Last night, after all had left, my husband spoke such bitter—bitter words to me; and this
       morning—I cannot repeat what he said.</p>
     </sp>
-    <sp>
+    <sp who="#L0993_F7">
      <speaker>Mrs. D.</speaker>
      <stage> (L.)</stage>
      <p>You can't expect unalloyed happiness, dear! Married life's like a grand dinner, which
@@ -1530,85 +1582,85 @@
       the emblems of<emph> peace</emph> in our case. <stage>(aloud)</stage> It will all blow
       over.</p>
     </sp>
-    <sp>
+    <sp who="#L0993_F6">
      <speaker>Mrs. H.</speaker>
      <stage> (proudly)</stage>
      <p>I beg your pardon; he insulted me cruelly! and—and we have parted.</p>
     </sp>
-    <sp>
+    <sp who="#L0993_F7">
      <speaker>Mrs. D.</speaker>
      <p>My dear! you don't mean to say you have left him? </p>
      <stage>(they rise)</stage>
     </sp>
-    <sp>
+    <sp who="#L0993_F6">
      <speaker>Mrs. H.</speaker>
      <p>How could I stay beneath a roof where I was no longer welcome; would you have me sue for
       pity to the man who spurned me from him in anger and contempt.</p>
     </sp>
-    <sp>
+    <sp who="#L0993_F7">
      <speaker>Mrs. D.</speaker>
      <stage> (uncomfortably)</stage>
      <p>Well, my dear—it's a—it's according   to—hem! what <emph>cause</emph> you've given him.
       <stage>(aside)</stage> I'm willing to advise her, but the counsel must know the whole truth
       from his client.</p>
     </sp>
-    <sp>
+    <sp who="#L0993_F6">
      <speaker>Mrs. H.</speaker>
      <p>I met this man some years ago, at Fernleigh—my uncle's house near Bristol—where Mr. Blunt
       too was a constant guest—I was a mere child, scarcely knew my own mind, and was foolish enough
       to enter into a correspondence with him, eventually I learnt his meanness—his utter
       worthlessness, and I demanded the return of my letters. He sent them all.</p>
     </sp>
-    <sp>
+    <sp who="#L0993_F7">
      <speaker>Mrs. D.</speaker>
      <stage> (pleased)</stage>
      <p>Yes.</p>
     </sp>
-    <sp>
+    <sp who="#L0993_F6">
      <speaker>Mrs. H.</speaker>
      <p>Except one.</p>
     </sp>
-    <sp>
+    <sp who="#L0993_F7">
      <speaker>Mrs. D.</speaker>
      <stage> (depressed)</stage>
      <p>Oh.</p>
     </sp>
-    <sp>
+    <sp who="#L0993_F6">
      <speaker>Mrs. H.</speaker>
      <p>I expostulated—threatened—implored, but to no purpose; he still retains that silly letter,
       full I am ashamed to say of girlish, romantic nonsense—full of—</p>
     </sp>
-    <sp>
+    <sp who="#L0993_F7">
      <speaker>Mrs. D.</speaker>
      <p>Yes, my dear, I know what they are; we see them quoted in the breach of promise cases, and
       marvellous comic capital the barristers make out of them.</p>
     </sp>
-    <sp>
+    <sp who="#L0993_F6">
      <speaker>Mrs. H.</speaker>
      <p>He declared he would never part with it until I married, and then that in revenge he
       would—</p>
     </sp>
-    <sp>
+    <sp who="#L0993_F7">
      <speaker>Mrs. D.</speaker>
      <p>I see; the coward!</p>
     </sp>
-    <sp>
+    <sp who="#L0993_F6">
      <speaker>Mrs. H.</speaker>
      <p>He said that I had used him cruelly, and that it
       <pb n="18"/> should be “War to the Knife” on his part. He's changed his name, having come into
       some property, so until he came last evening, I never suspected that my husband's newly-found
         friend was my bitterest foe, neither was he aware that I was married.</p>
     </sp>
-    <sp>
+    <sp who="#L0993_F7">
      <speaker>Mrs. D.</speaker>
      <p>Well, my dear, there's one thing quite certain— you must go back to your husband.
       <stage>(they rise)</stage></p>
     </sp>
-    <sp>
+    <sp who="#L0993_F6">
      <speaker>Mrs. H.</speaker>
      <p>No, Mrs. Delacour, I cannot—I cannot.</p>
     </sp>
-    <sp>
+    <sp who="#L0993_F7">
      <speaker>Mrs. D.</speaker>
      <p>Well, come in here and take your things off, and when you're a little calmer we'll see
       what's to be done. <stage>(passes her over to door, R.)</stage> There! there!
@@ -1618,51 +1670,51 @@
      <stage>                                        Exit into room, R. 1 E.</stage>
      <stage>Nubbly puts his head out from door L. 2 E.</stage>
     </sp>
-    <sp>
+    <sp who="#L0993_M3">
      <speaker>Nubb.</speaker>
      <p>If I wasn't naturally 'ard of 'earing and the wind hadn't whistled through that keyhole like
       a railway hengine, I might have caught something besides a cold in my yed. Howsomever, I did
       pick up a word 'ere and there: I heard Captain Thistledown's name, and it's very hevident to
       me, as Mrs. Arcourt and him—</p>
     </sp>
-    <sp>
+    <sp who="#L0993_F9">
      <speaker>Jane.</speaker>
      <stage> (without)</stage>
      <p>Yes, she's in here, sir.</p>
     </sp>
-    <sp>
+    <sp who="#L0993_M3">
      <speaker>Nubb.</speaker>
      <p>Oh, law! </p>
      <stage>(bobs down behind sofa, L., as Jane enters showing in Thistleton, C.)</stage>
     </sp>
-    <sp>
+    <sp who="#L0993_F9">
      <speaker>Jane.</speaker>
      <stage> (aside)</stage>
      <p>Poor Nubbly, he'll be on tender hooks.</p>
     </sp>
-    <sp>
+    <sp who="#L0993_M5">
      <speaker>Thistle.</speaker>
      <p>Ha, in her room, I suppose. Well, I'm in no hurry </p>
      <stage>(yawns)</stage>
     </sp>
-    <sp>
+    <sp who="#L0993_F9">
      <speaker>Jane.</speaker>
      <stage> (R.)</stage>
      <p>I'll just tell her you're—</p>
     </sp>
-    <sp>
+    <sp who="#L0993_M5">
      <speaker>Thistle.</speaker>
      <stage> (stopping her as she is going, R. 1 E.)</stage>
      <p>No, never mind, I like taking people by surprise. I say, I like taking   people by surprise—
       <stage>(suddenly kisses Jane)—Nubbly rises and shakes his fist at Thistleton, giving at the
       same time a gurgle of rage and horror)</stage></p>
     </sp>
-    <sp>
+    <sp who="#L0993_F9">
      <speaker>Jane.</speaker>
      <p>Upon my word, what insolence. <stage>(crosses, L.)</stage> Indeed! Hem! Well, I never—
       <stage>(flounces out, C.)</stage></p>
     </sp>
-    <sp>
+    <sp who="#L0993_M5">
      <speaker>Thistle.</speaker>
      <stage> (sits, R.)</stage>
      <p>These late hours are killing me. <stage>(takes out a pocket book from his side pocket and
@@ -1674,7 +1726,7 @@
       word.</p>
      <pb n="19"/>
     </sp>
-    <sp>
+    <sp who="#L0993_M3">
      <speaker>Nubb.</speaker>
      <stage> (sneaking towards door, C.)</stage>
      <p>With what I sees, and what I've 'eard, a putting this and that together, and a droring my
@@ -1684,86 +1736,86 @@
       of a British—”</p>
      <stage>(Thisleton turns at this moment and Nubbly exits very sharply)</stage>
     </sp>
-    <sp>
+    <sp who="#L0993_M5">
      <speaker>Thistle.</speaker>
      <p>Well, I wish the little widow would appear, for I'm confoundedly low-spirited and dull this
       morning. </p>
      <stage>(rising— his back is turned towards the R. door, through which Mrs. Delacour
       enters)</stage>
     </sp>
-    <sp>
+    <sp who="#L0993_F7">
      <speaker>Mrs. D.</speaker>
      <p>You'll be better soon, and—ah!— <stage>(sees Thistleton, and with a suddenness of action,
       shuts the door after her, turning the key)</stage> Gracious! then you've found your way here
       at last.</p>
     </sp>
-    <sp>
+    <sp who="#L0993_M5">
      <speaker>Thistle.</speaker>
      <stage> (L.)</stage>
      <p>You are not in one of your cordial moods this   morning.</p>
     </sp>
-    <sp>
+    <sp who="#L0993_F7">
      <speaker>Mrs. D.</speaker>
      <stage> (R., coldly)</stage>
      <p>I beg your pardon, Captain Thistleton; I am cordiality itself.</p>
     </sp>
-    <sp>
+    <sp who="#L0993_M5">
      <speaker>Thistle.</speaker>
      <p>Ha! you disguise it capitally.</p>
     </sp>
-    <sp>
+    <sp who="#L0993_F7">
      <speaker>Mrs. D.</speaker>
      <p>Women are allowed a little deception—it is one of the few unpleasant attributes permitted
       the weaker sex; with us it is simply a pardonable weakness—it is only in man that it appears
       mean, contemptible, and base!</p>
     </sp>
-    <sp>
+    <sp who="#L0993_M5">
      <speaker>Thistle.</speaker>
      <stage> (aside)</stage>
      <p>I knew the scene last night would annoy her. <stage>(aloud)</stage> Well, you're not
       inclined to be bored by visitors, this morning, are you? I'll be off, shall I?</p>
     </sp>
-    <sp>
+    <sp who="#L0993_F7">
      <speaker>Mrs. D.</speaker>
      <stage> (aside)</stage>
      <p>He mustn't go yet; and I don't see my way a bit. <stage>(aloud, much more cordially)</stage>
       There! you are at your old fiery ways; can't you see I've been annoyed. There, it's all over
       now.</p>
     </sp>
-    <sp>
+    <sp who="#L0993_M5">
      <speaker>Thistle.</speaker>
      <p>That's all right! I can't wake up and explain matters. I know you're dying to hear all about
       my old flirtation with Clarry Greville—I beg her pardon—Harcourt; but I've been turning night
       into day so much, lately, that I feel in a chronic state of knock up. <stage>(yawns)</stage>
       Excuse me being so stupid, won't you?</p>
     </sp>
-    <sp>
+    <sp who="#L0993_F7">
      <speaker>Mrs. D.</speaker>
      <p>Oh, I like to see you <emph>yourself</emph>. <stage>(they sit R. and L.)</stage> I, on the
       contrary, have not been able to sleep for some nights. I take sleeping draughts, and try all I
       can, but to no purpose. <stage>(Thistleton yawns)</stage> I'd give anything to be able to  
       indulge in one of those tremendous yawns.</p>
     </sp>
-    <sp>
+    <sp who="#L0993_M5">
      <speaker>Thistle.</speaker>
      <stage> (L.)</stage>
      <p>You and Clarry seem fast friends; I suppose she has painted me in fine Rembrandtish colours,
       eh? I'm a remorseless wretch, and all that sort of thing.</p>
     </sp>
-    <sp>
+    <sp who="#L0993_F7">
      <speaker>Mrs. D.</speaker>
      <stage> (R.)</stage>
      <p>Well, it's a pity you should harbour vengeance.</p>
      <pb n="20"/>
     </sp>
-    <sp>
+    <sp who="#L0993_M5">
      <speaker>Thistle.</speaker>
      <stage> (aside)</stage>
      <p>Ah, that's the letter—oh, all's fair in love and war, and this is <emph>war</emph>! Sweet is
       revenge, especially to— a-hem—jilted lovers; I've got an advantage, and I mean to keep it.
       <stage>(involuntarily touches inside breast pocket of his coat)</stage></p>
     </sp>
-    <sp>
+    <sp who="#L0993_F7">
      <speaker>Mrs. D.</speaker>
      <stage> (aside)</stage>
      <p>It's in that pocket. <stage>(to him)</stage> Why don't you put your feet up—here's a stool.
@@ -1771,75 +1823,75 @@
       <emph>did</emph> doze—rest, weary warrior. <stage>(as she passes behind him she gives an
       exlamation of hatred)</stage></p>
     </sp>
-    <sp>
+    <sp who="#L0993_M5">
      <speaker>Thistle.</speaker>
      <p>How fond she is of me. <stage>(aside)</stage> You'd make a capital soldier's wife; I can
       sleep at a couple of minutes' notice at any time, and if you don't amuse me I shall drop off
       to a certainty.</p>
     </sp>
-    <sp>
+    <sp who="#L0993_F7">
      <speaker>Mrs. D.</speaker>
      <stage> (at mantel piece, R. aside)</stage>
      <p>I wonder if Dr. Lennox has made this draught stronger, the last one didn't make me close my
       eyes.</p>
     </sp>
-    <sp>
+    <sp who="#L0993_M5">
      <speaker>Thistle.</speaker>
      <stage> (turning his head)</stage>
      <p>What are you doing? medicine! ah, Neuralgia, I suppose, late hours and nerves. Used to call
       it face-ache when I was a boy—I've taken a perfect forest of quinine in my day.</p>
     </sp>
-    <sp>
+    <sp who="#L0993_F7">
      <speaker>Mrs. D.</speaker>
      <p>But you never liked it—you always shrunk at the   uninviting potion—warrior that you
       were.</p>
     </sp>
-    <sp>
+    <sp who="#L0993_M5">
      <speaker>Thistle.</speaker>
      <p>Not a bit of it—I'd swallow the whole Pharmacopœia.</p>
     </sp>
-    <sp>
+    <sp who="#L0993_F7">
      <speaker>Mrs. D.</speaker>
      <stage> (R.)</stage>
      <p>Indeed, would you? You soldiers are wonderfully brave in battle, of course. Do you know I've
       a theory about fighting; I don't think there is such a thing as cowardice.</p>
     </sp>
-    <sp>
+    <sp who="#L0993_M5">
      <speaker>Thistle.</speaker>
      <p>I beg your pardon, there is.</p>
     </sp>
-    <sp>
+    <sp who="#L0993_F7">
      <speaker>Mrs. D.</speaker>
      <p>Ah! you speak from experience.</p>
     </sp>
-    <sp>
+    <sp who="#L0993_M5">
      <speaker>Thistle.</speaker>
      <p>Ah! smartness comes natural with you. Now, nothing in the world would make me smart.</p>
     </sp>
-    <sp>
+    <sp who="#L0993_F7">
      <speaker>Mrs. D.</speaker>
      <stage> (aside)</stage>
      <p>We'll try the truth of that some day. <stage>(aloud)</stage> You for instance—you'd think
       nothing of leading a forlorn hope I've very little doubt, but as for a bottle of medicine
       like—like that for instance.</p>
     </sp>
-    <sp>
+    <sp who="#L0993_M5">
      <speaker>Thistle.</speaker>
      <p>All I can say is put me to the test.</p>
     </sp>
-    <sp>
+    <sp who="#L0993_F7">
      <speaker>Mrs. D.</speaker>
      <p>Then as the Pet Lamb says, “Drink, pretty creature, drink.” </p>
      <stage>(holds the glass to him with a comical air of authority)</stage>
     </sp>
-    <sp>
+    <sp who="#L0993_M5">
      <speaker>Thistle.</speaker>
      <stage> (takes it)</stage>
      <p>Here's to the health of the entire college of physicians, coupling with the toast the name
       of that distinguished practitioner, Doctor Emily Delacour. <stage>(drinks and
       shudders)</stage> —Drunk with anything but enthusiasm.</p>
     </sp>
-    <sp>
+    <sp who="#L0993_F7">
      <speaker>Mrs. D.</speaker>
      <stage> (standing in the attitude of an after-dinner orator)</stage>
      <p>Mr. Chairman, my lords, and a—gentlemen—for the distinguished honor you have paid me, I a—
@@ -1849,26 +1901,26 @@
      <stage>(pushes the newspaper into his hands and sits at Davenport, R.)—Thistleton puts one foot
       on the stool, and languidly scans the paper—yawning occasionally.</stage>
     </sp>
-    <sp>
+    <sp who="#L0993_M5">
      <speaker>Thistle.</speaker>
      <p>   How I hate reading—wish I'd never been taught. What uninteresting stuff—“Mule twist is
       active”—is it. It's the first mule that ever <emph>was</emph>, I should say—“High water at
       London Bridge.” Now, who on earth <stage>(yawns)</stage> cares about high water at—hum!</p>
     </sp>
-    <sp>
+    <sp who="#L0993_F7">
      <speaker>Mrs. D.</speaker>
      <stage> (aside)</stage>
      <p>I wish he'd try the debates. <emph>They'd</emph> send him off. There's a column and a half
       of lively discussion upon turnpikes, that would soothe a dancing dervish to slumber.</p>
     </sp>
-    <sp>
+    <sp who="#L0993_M5">
      <speaker>Thistle.</speaker>
      <stage> (who has dozed off gently)</stage>
      <p>What a good creature you are not to be offended with me. I'm horribly rude. <stage>(a
       pause—yawns)</stage> She's gone. </p>
      <stage>(nods)</stage>
     </sp>
-    <sp>
+    <sp who="#L0993_F7">
      <speaker>Mrs. D.</speaker>
      <stage> (in a whisper)</stage>
      <p>And he's going. How still all is in this quiet old-fashioned square. Oh, it's at such
@@ -1878,33 +1930,33 @@
       Delacour shrinks back, goes on tip toe to her own room, R. and turning key, beckons on Mrs.
       Harcourt)</stage>
     </sp>
-    <sp>
+    <sp who="#L0993_F6">
      <speaker>Mrs. H.</speaker>
      <stage> (coming a little way out)</stage>
      <p>You've a visitor; I'd better—</p>
     </sp>
-    <sp>
+    <sp who="#L0993_F7">
      <speaker>Mrs. D.</speaker>
      <p>It's Thistleton; he's fast asleep, there— <stage>(Mrs. Harcourt shudders at seeing
       Thistleton, and makes a movement towards door, C.—Mrs. D. seriously, detaining her)</stage>
       —I'm going to commit a crime!</p>
     </sp>
-    <sp>
+    <sp who="#L0993_F6">
      <speaker>Mrs. H.</speaker>
      <stage> (alarmed)</stage>
      <p>What would you do?</p>
     </sp>
-    <sp>
+    <sp who="#L0993_F7">
      <speaker>Mrs. D.</speaker>
      <p>Don't be alarmed; t's only theft! <stage>(by this time she has advanced behind the easy
       chair on which he is reclining asleep, and after one or two ineffectual attemps takes a
       pocket-book from the side pocket of his coat)</stage> There's the   pocket-book.</p>
     </sp>
-    <sp>
+    <sp who="#L0993_F6">
      <speaker>Mrs. H.</speaker>
      <p>Oh!</p>
     </sp>
-    <sp>
+    <sp who="#L0993_F7">
      <speaker>Mrs. D.</speaker>
      <stage> (after drawing a long breath and passing her hand over her brow, suddenly nerves
       herself, and smiling bitterly)</stage>
@@ -1912,11 +1964,11 @@
       out of his book, and a letter at the same time. </p>
      <stage>(opens the book nervously)</stage>
     </sp>
-    <sp>
+    <sp who="#L0993_F6">
      <speaker>Mrs. H.</speaker>
      <p>I hardly know what to say—I—</p>
     </sp>
-    <sp>
+    <sp who="#L0993_F7">
      <speaker>Mrs. D.</speaker>
      <p>Then say <emph>nothing,</emph> and I promise you I never will. Ha! <stage>(takes out a pink
       envelope)</stage> That's it! I know your hand. Pink; as if the paper blushed at the part it
@@ -1927,29 +1979,29 @@
       Delacour returns pocket-book to Thistleton's pocket, having placed another letter in the pink
       envelope. Then almost sinks into Mrs. Harcourt's arms)</stage>
     </sp>
-    <sp>
+    <sp who="#L0993_F6">
      <speaker>Mrs. H.</speaker>
      <p>I scarcely know what to think of this, Emily! I—</p>
     </sp>
-    <sp>
+    <sp who="#L0993_F7">
      <speaker>Mrs. D.</speaker>
      <p>There's gratitude! That letter once seen by your husband's eyes, would be a perpetual
       blister to him. Fond, and faithful as you are—loving him with your whole heart— the
       recollection of those foolish lines, which he might read, would often cause him a bitter pang
       of wounded pride, when he remembered that you had once wasted words of love upon another.</p>
     </sp>
-    <sp>
+    <sp who="#L0993_F6">
      <speaker>Mrs. H.</speaker>
      <p>Yes! yes! Emily; but—</p>
     </sp>
-    <sp>
+    <sp who="#L0993_F7">
      <speaker>Mrs. D.</speaker>
      <p>Little as I cared for Delacour, when I one day found a mysterious letter in his dress-coat
       pocket, I went on as ferociously as if I had adored him. Take it, and leave me   to bear all
       blame! And now go—go back to the husband you should never have dreamt of leaving. Tell him
       <emph>all,</emph> but don't show him the letter.</p>
     </sp>
-    <sp>
+    <sp who="#L0993_F6">
      <speaker>Mrs. H.</speaker>
      <stage> (crossing)</stage>
      <p>I will go, dear Emily—I see my own blind folly now. It is not too late to repair the error—I
@@ -1957,38 +2009,38 @@
       doors, when Harcourt enters suddenly with Blunt—Mrs. Harcourt shrinks back
       surprised)</stage></p>
     </sp>
-    <sp>
+    <sp who="#L0993_M1">
      <speaker>Harc.</speaker>
      <p>The fellow was right—she is here.</p>
     </sp>
-    <sp>
+    <sp who="#L0993_M2">
      <speaker>Blunt.</speaker>
      <p>And with that man.</p>
     </sp>
-    <sp>
+    <sp who="#L0993_M1">
      <speaker>Harc.</speaker>
      <p>Hah! </p>
      <stage>(moving towards him)</stage>
     </sp>
-    <sp>
+    <sp who="#L0993_F6">
      <speaker>Mrs. H.</speaker>
      <stage> (interposing)</stage>
      <p>Stay, Charley—you mistake.</p>
     </sp>
-    <sp>
+    <sp who="#L0993_M1">
      <speaker>Harc.</speaker>
      <p>Mistake, madam! I can believe my eyes—you have come here to meet him.</p>
     </sp>
-    <sp>
+    <sp who="#L0993_M2">
      <speaker>Blunt.</speaker>
      <stage> (to Mrs. Delacour)</stage>
      <p>And at <emph>your</emph> house too!</p>
     </sp>
-    <sp>
+    <sp who="#L0993_F7">
      <speaker>Mrs. D.</speaker>
      <p>Mr. Blunt!</p>
     </sp>
-    <sp>
+    <sp who="#L0993_M2">
      <speaker>Blunt.</speaker>
      <p>Away—don't attempt any excuses—I have been deceived—Charley has been deceived—we've all been
       deceived &gt; <stage>(aside)</stage> Clarry, whom I loved like my own child; I'll go back to
@@ -2005,26 +2057,26 @@
     <stage>Blunt discovered at a table, R., with account books and files of tradesmen's bills on
      it—Mrs. Delacour seated at small table, L.</stage>
 
-    <sp>
+    <sp who="#L0993_M2">
      <speaker>Blunt.</speaker>
      <stage> (counting at a book)</stage>
      <p>Ninety-two, three, and eight's a hundred and one—a hundred and one—our friend has it a
       hundred and seven. Mr. Snape the butcher makes his bill come to six pounds more than I do,
       Mrs. D.</p>
     </sp>
-    <sp>
+    <sp who="#L0993_F7">
      <speaker>Mrs. D.</speaker>
      <p>A butcher is but mortal, and may make mistakes.</p>
     </sp>
-    <sp>
+    <sp who="#L0993_M2">
      <speaker>Blunt.</speaker>
      <p>Yes; takes care to make it in his own favour though.</p>
     </sp>
-    <sp>
+    <sp who="#L0993_F7">
      <speaker>Mrs. D.</speaker>
      <p>You've undertaken an Herculean task, Mr. Blunt.</p>
     </sp>
-    <sp>
+    <sp who="#L0993_M2">
      <speaker>Blunt.</speaker>
      <p>Well, it is better that I should look through Harcourt's affairs than the obliging
       gentlefolks in Basinghall-street. Having set his domestic matters square, we've only got to
@@ -2035,31 +2087,31 @@
       <stage>(crossing to Mrs. D.)</stage> You're a clever little woman, that's what you are. </p>
      <stage>(sits across a chair, looking at her)</stage>
     </sp>
-    <sp>
+    <sp who="#L0993_F7">
      <speaker>Mrs. D.</speaker>
      <p>Oh, indeed! praise from Sir Hubert Stanley! </p>
      <stage>(bowing)</stage>
     </sp>
-    <sp>
+    <sp who="#L0993_M2">
      <speaker>Blunt.</speaker>
      <p>Don't know the gentleman; one of your grand friends, I suppose. Now do you know before I saw
       you, I was always afraid of widows.</p>
     </sp>
-    <sp>
+    <sp who="#L0993_F7">
      <speaker>Mrs. D.</speaker>
      <p>Indeed! why so?</p>
     </sp>
-    <sp>
+    <sp who="#L0993_M2">
      <speaker>Blunt.</speaker>
      <p>   Well, you know, they always seem to me to walk about with a pedestal, and whenever
       they're about to speak to a man they put it down and stand upon it.</p>
     </sp>
-    <sp>
+    <sp who="#L0993_F7">
      <speaker>Mrs. D.</speaker>
      <p>Preparatory to putting <emph>him</emph> down and standing upon him, I suppose. Well, I
       assure you <emph>I</emph> haven't a pedestal. Ha, ha!</p>
     </sp>
-    <sp>
+    <sp who="#L0993_M2">
      <speaker>Blunt.</speaker>
      <p>No, that's what I say; you're different from the others; in fact, you're different from any
       woman I— <stage>(aside)</stage> What the deuce am I saying? <stage>(aloud)</stage> I mean, you
@@ -2067,11 +2119,11 @@
       wasn't it? <stage>(aside)</stage> I was obliged to fall back upon the butcher, for I'd come to
       a regular block.</p>
     </sp>
-    <sp>
+    <sp who="#L0993_F7">
      <speaker>Mrs. D.</speaker>
      <p>I don't think you're altogether fair to us, Mr. Blunt.</p>
     </sp>
-    <sp>
+    <sp who="#L0993_M2">
      <speaker>Blunt.</speaker>
      <stage> (aside)</stage>
      <p>I hope she's going to argue with me—shuts me up in a couple of seconds, and somehow it's
@@ -2080,63 +2132,63 @@
       who've had “brutes of husbands”—when they marry again balance matters by having their own way
       with number two.</p>
     </sp>
-    <sp>
+    <sp who="#L0993_F7">
      <speaker>Mrs. D.</speaker>
      <p>Oh, come! you're a regular confirmed old bachelor, with all a bachelor's prejudices; you
       ought to have been married years ago.</p>
     </sp>
-    <sp>
+    <sp who="#L0993_M2">
      <speaker>Blunt.</speaker>
      <stage> (sighs)</stage>
      <p>A man can never be fond of more than one woman.</p>
     </sp>
-    <sp>
+    <sp who="#L0993_F7">
      <speaker>Mrs. D.</speaker>
      <p>One at a time, of course.</p>
     </sp>
-    <sp>
+    <sp who="#L0993_M2">
      <speaker>Blunt.</speaker>
      <p>Eh!</p>
     </sp>
-    <sp>
+    <sp who="#L0993_F7">
      <speaker>Mrs. D.</speaker>
      <p>   But when that one woman prefers some one else, the rejected one should accept his
       destiny—and a—turn his eyes in another direction.</p>
     </sp>
-    <sp>
+    <sp who="#L0993_M2">
      <speaker>Blunt.</speaker>
      <stage> (looking half aside at her, slyly—aside)</stage>
      <p>She talks like a book. <stage>(aloud)</stage> But after all, you must exercise prudence.</p>
     </sp>
-    <sp>
+    <sp who="#L0993_F7">
      <speaker>Mrs. D.</speaker>
      <p>My dear Mr. Blunt! don't for goodness' sake attempt to mix up prudence with any matters of
       the heart— they're like green and yellow in a coloured dress; they don't harmonise. No! fall
       in love first, and try your best to be prudent afterwards!</p>
     </sp>
-    <sp>
+    <sp who="#L0993_M2">
      <speaker>Blunt.</speaker>
      <p>Now, from experience, do you think that a second love can be a success?</p>
     </sp>
-    <sp>
+    <sp who="#L0993_F7">
      <speaker>Mrs. D.</speaker>
      <p>And pray who told you that I'd ever had a first?</p>
     </sp>
-    <sp>
+    <sp who="#L0993_M2">
      <speaker>Blunt.</speaker>
      <p>Oh, come now!</p>
     </sp>
-    <sp>
+    <sp who="#L0993_F7">
      <speaker>Mrs. D.</speaker>
      <p>The man <emph>I</emph> would care to love must be a model.</p>
     </sp>
-    <sp>
+    <sp who="#L0993_M2">
      <speaker>Blunt.</speaker>
      <p>Hah! we know what “women's model men” are,— long whiskers, a drawl, small talk to any
       amount, a sneer for everything hearty, and contempt for everything and everybody but
       themselves; a fine tailor's figure, nd unlimited credit at the bank.</p>
     </sp>
-    <sp>
+    <sp who="#L0993_F7">
      <speaker>Mrs. D.</speaker>
      <stage> (with enthusiasm, and rising)</stage>
      <p>Not so; I would have him manly, honest, and true, with an open hand to help his friend; with
@@ -2145,34 +2197,34 @@
       not been soured by what he's seen; a man to whose guidance I could trust myself, well knowing
       that the path of life through which he'd lead me would be a safe and happy one.</p>
     </sp>
-    <sp>
+    <sp who="#L0993_M2">
      <speaker>Blunt.</speaker>
      <p> (R.)</p>
      <p>Yes; and you have only just said that love and prudence don't assimilate, and here you are
       settling the exact sort of person you intend to fix your affections on in the most methodical
       fashion. <stage>(sighs)</stage> Such a man as you have pictured doesn't exist.</p>
     </sp>
-    <sp>
+    <sp who="#L0993_F7">
      <speaker>Mrs. D.</speaker>
      <stage> (L., looking at him straight in the face)</stage>
      <p>Permit me to say, that I think he <emph>does</emph>. </p>
      <stage>(turns from him slowly, and up a little, looking at him)</stage>
      <pb n="25"/>
     </sp>
-    <sp>
+    <sp who="#L0993_M2">
      <speaker>Blunt.</speaker>
      <stage> (half to himself)</stage>
      <p>And if I had <emph>my</emph> choice, I'd marry a bright merry-hearted little woman with a
       sparkling eye, and a cheery laugh—a pleasant, blithesome little woman, that would light up my
       lonely home like a sunbeam. That's the wife for <emph>me</emph>.</p>
     </sp>
-    <sp>
+    <sp who="#L0993_F7">
      <speaker>Mrs. D.</speaker>
      <stage> (a little nettled, coming down)</stage>
      <stage><emph>Is</emph> it. Then I think you'd find it uncommonly difficult to discover such a
       <emph>perfect</emph> creature.</stage>
     </sp>
-    <sp>
+    <sp who="#L0993_M2">
      <speaker>Blunt.</speaker>
      <p>Ha! ha! Permit <emph>me</emph> to say that I think I<emph> shouldn't</emph>. —
       <stage>(aside)</stage> I'd forgotten all about Harcourt and his bills. </p>
@@ -2180,137 +2232,137 @@
     </sp>
     <stage>Enter Penson, C.</stage>
 
-    <sp>
+    <sp who="#L0993_F8">
      <speaker>Penson.</speaker>
      <p>Please Sir, here's Mrs. Nubbly a going on anyhow—says he <emph>will</emph> come in.</p>
     </sp>
     <stage>Enter Nubbly, C. pushing past Penson—he is slightly intoxicated.</stage>
 
-    <sp>
+    <sp who="#L0993_M3">
      <speaker>Nubb.</speaker>
      <p>Them's his words which he abides by. <stage>(aside)</stage> I   hear there's a screw loose,
       and I'll have my money. <stage>(stands, C., swaying unsteadily.)</stage></p>
     </sp>
-    <sp>
+    <sp who="#L0993_M2">
      <speaker>Blunt.</speaker>
      <p>My dear Mrs. D., hadn't you better—</p>
     </sp>
-    <sp>
+    <sp who="#L0993_F7">
      <speaker>Mrs. D.</speaker>
      <p>Oh, don't mind me. Delacour was generally <emph>much</emph> worse at this hour of the
       day.</p>
     </sp>
-    <sp>
+    <sp who="#L0993_M3">
      <speaker>Nubb.</speaker>
      <p>I am not aweer as to whom you're 'luding to, by the name of Delgore; I haven't the honor of
       his acquaintance, and I don't want to.</p>
     </sp>
-    <sp>
+    <sp who="#L0993_M2">
      <speaker>Blunt.</speaker>
      <p>What's your business?</p>
     </sp>
-    <sp>
+    <sp who="#L0993_M3">
      <speaker>Nubb.</speaker>
      <p>The greengrocery; and hevenink parties hattended.</p>
     </sp>
-    <sp>
+    <sp who="#L0993_M2">
      <speaker>Blunt.</speaker>
      <p>Well, this isn't an evening party.</p>
     </sp>
-    <sp>
+    <sp who="#L0993_M3">
      <speaker>Nubb.</speaker>
      <p>Ha! ha! Come, that ain't so bad. Wegetables is dull just now, and coals with me is slack;
       added to which, I'm remarkable short myself. My big brother William's a coming up to town
       to-morrow, and I've got to meet a heavy bill.</p>
     </sp>
-    <sp>
+    <sp who="#L0993_M2">
      <speaker>Blunt.</speaker>
      <stage> (looking through the books)</stage>
      <p>Nubbly's a character.</p>
     </sp>
-    <sp>
+    <sp who="#L0993_M3">
      <speaker>Nubb.</speaker>
      <p>Yes, he has. Have you got anything to say agin' it?</p>
     </sp>
-    <sp>
+    <sp who="#L0993_F7">
      <speaker>Mrs. D.</speaker>
      <p>I have, Mr. Nubbly. Considered in connection with figures it's defective.</p>
     </sp>
-    <sp>
+    <sp who="#L0993_M3">
      <speaker>Nubb.</speaker>
      <p>What is there agin' my figure? I ain't 'ulking, but I'm compac'.</p>
     </sp>
-    <sp>
+    <sp who="#L0993_F7">
      <speaker>Mrs. D.</speaker>
      <p>You don't add up well.</p>
     </sp>
-    <sp>
+    <sp who="#L0993_M3">
      <speaker>Nubb.</speaker>
      <stage><emph>Add up</emph>! I was never add up in my life. I've had 'undreds pass through my
       hands.</stage>
     </sp>
-    <sp>
+    <sp who="#L0993_F7">
      <speaker>Mrs. D.</speaker>
      <p>Indeed!</p>
     </sp>
-    <sp>
+    <sp who="#L0993_M2">
      <speaker>Blunt.</speaker>
      <p>Hundreds of coals. <stage>(Nubbly scowls)</stage> There, there,   Nubbly, don't look black,
       man!</p>
     </sp>
-    <sp>
+    <sp who="#L0993_M3">
      <speaker>Nubb.</speaker>
      <p>Can't help it, when you flings the coals in my face. <stage>(aside)</stage> He ain't so
       remarkable polished hisself.</p>
      <pb n="26"/>
     </sp>
-    <sp>
+    <sp who="#L0993_F7">
      <speaker>Mrs. D.</speaker>
      <p>According to your account here, one week when Mr. Harcourt dined out every day, Mrs.
       Harcourt had twenty-seven bundles of asparagus. That's not correct.</p>
     </sp>
-    <sp>
+    <sp who="#L0993_M3">
      <speaker>Nubb.</speaker>
      <p>Anything but; she ought to be spoke to.</p>
     </sp>
-    <sp>
+    <sp who="#L0993_F7">
      <speaker>Mrs. D.</speaker>
      <p>You mistake; the error lies with you.</p>
     </sp>
-    <sp>
+    <sp who="#L0993_M3">
      <speaker>Nubb.</speaker>
      <stage>I hain't 'ad 'em.</stage>
     </sp>
-    <sp>
+    <sp who="#L0993_F7">
      <speaker>Mrs. D.</speaker>
      <p>Nor any one else; and I've made a calculation that if the entire household had eaten new
       potatoes at every meal they never could have devoured half the quantity you have in your bill.
       Penson says they never came at all.</p>
     </sp>
-    <sp>
+    <sp who="#L0993_M3">
      <speaker>Nubb.</speaker>
      <stage> (aside)</stage>
      <p>Penson! a woman as I took to Hepping in a hopen van, and treated with sherry wine and pork
       pie, like a reg'lar lady! To see her over the creeses at tea, and a hordering of srimps quite
       reckless, she might have been born a Duchess. Oh, Frailty, thy name is Mrs. Penson!</p>
     </sp>
-    <sp>
+    <sp who="#L0993_M2">
      <speaker>Blunt.</speaker>
      <p>In fact, as the bill's all wrong, and we don't intend to pay what you've put down, why the
       question is, <emph>what'll you take</emph>?</p>
     </sp>
-    <sp>
+    <sp who="#L0993_M3">
      <speaker>Nubb.</speaker>
      <p>Since you are suppressing, I prefers bitters.</p>
     </sp>
-    <sp>
+    <sp who="#L0993_M2">
      <speaker>Blunt.</speaker>
      <stage> (rising)</stage>
      <p>Fellow, be off! Here, here's what I consider far more than you deserve. There's a
       stamp—receipt it, or go without your bill altogether. Here's the money—some of them country
       notes, but the Somersetshire Royal Bank's   safe enough.</p>
     </sp>
-    <sp>
+    <sp who="#L0993_M3">
      <speaker>Nubb.</speaker>
      <stage> (after receipting the bill with great difficulty, dropping hat and missing the ink,
       &amp;c.)</stage>
@@ -2322,48 +2374,48 @@
       'umble dooty to you, mum, and I'm sure if there's any hevenink parties hon the tappy, I should
       be—</p>
     </sp>
-    <sp>
+    <sp who="#L0993_M2">
      <speaker>Blunt.</speaker>
      <p>There, march—march!</p>
     </sp>
-    <sp>
+    <sp who="#L0993_M3">
      <speaker>Nubb.</speaker>
      <p>March! which I resembles that particler month, for I came hin like a lion, and I goes hout
       like a lamb. <stage>Slinks off, C.</stage></p>
     </sp>
-    <sp>
+    <sp who="#L0993_M2">
      <speaker>Blunt.</speaker>
      <p>We're getting on, my dear Mrs. D., getting on. Harcourt's seen the errors of his ways by
       this time, and his poor little wife too—a couple of thoughtless noodles!</p>
     </sp>
     <stage>Enter Harcourt, C. door.</stage>
 
-    <sp>
+    <sp who="#L0993_M1">
      <speaker>Harc.</speaker>
      <p>Mrs. Delacour, will you kindly go to my wife? she wants your advice, she says, on something
       important.</p>
     </sp>
-    <sp>
+    <sp who="#L0993_F7">
      <speaker>Mrs. D.</speaker>
      <p>I'll go to her at once.</p>
      <stage>                                        Exit, door, L. C.</stage>
     </sp>
-    <sp>
+    <sp who="#L0993_M1">
      <speaker>Harc.</speaker>
      <p>I've paid them, John—paid them all.</p>
     </sp>
-    <sp>
+    <sp who="#L0993_M2">
      <speaker>Blunt.</speaker>
      <stage> (R.)</stage>
      <p>Ah! now you breathe more freely.</p>
      <pb n="27"/>
     </sp>
-    <sp>
+    <sp who="#L0993_M1">
      <speaker>Harc.</speaker>
      <stage> (L.)</stage>
      <p>But how can I ever repay you?</p>
     </sp>
-    <sp>
+    <sp who="#L0993_M2">
      <speaker>Blunt.</speaker>
      <stage> (R.)</stage>
      <p>Well, I don't know. I'll give you your own time and remember, lad, that time's money, and
@@ -2371,86 +2423,86 @@
       man. When you earn your daily bread by sheer hard work, bless your heart, it'll taste sweeter
       and better than any plum cake that was ever manufactured.</p>
     </sp>
-    <sp>
+    <sp who="#L0993_M1">
      <speaker>Harc.</speaker>
      <p>I'll waste no words in idle promises. Try me. </p>
      <stage>(with his hand out)</stage>
     </sp>
-    <sp>
+    <sp who="#L0993_M2">
      <speaker>Blunt.</speaker>
      <stage> (shaking it)</stage>
      <p>I will, Charley!</p>
      <stage>Enter Penson, C. door.</stage>
     </sp>
-    <sp>
+    <sp who="#L0993_F8">
      <speaker>Penson.</speaker>
      <p>Captain Thistleton, sir, wishes to see you. </p>
      <stage>(Harcourt crosses, R.)</stage>
      <stage>Thistleton enters, C. door, pushing past Penson as he enters— Harcourt assumes a
       threatening expression, which Blunt deprecates.</stage>
     </sp>
-    <sp>
+    <sp who="#L0993_M5">
      <speaker>Thistle.</speaker>
      <stage> (L.)</stage>
      <p>Good morning, Harcourt. You'll excuse my unwelcome call, but I am about to go abroad
       somewhat suddenly, and a—I'm in want of money, and you remember our little transactions at the
       Clifford.</p>
     </sp>
-    <sp>
+    <sp who="#L0993_M1">
      <speaker>Harc.</speaker>
      <stage> (R., aside)</stage>
      <p>Oh, shame! shame!</p>
     </sp>
-    <sp>
+    <sp who="#L0993_M2">
      <speaker>Blunt.</speaker>
      <stage> (C., looking from one to the other)</stage>
      <p>What—what's this? </p>
      <stage>(down, C.)</stage>
     </sp>
-    <sp>
+    <sp who="#L0993_M5">
      <speaker>Thistle.</speaker>
      <p>Well, a—some I O U's—money lost at cards, you know.</p>
     </sp>
-    <sp>
+    <sp who="#L0993_M2">
      <speaker>Blunt.</speaker>
      <p>A gambler! Oh, Charles! <stage>(with his hands in his pockets determinedly—aside)</stage>
       But I won't pay that!</p>
     </sp>
-    <sp>
+    <sp who="#L0993_M1">
      <speaker>Harc.</speaker>
      <p>I am penniless, as you know; I will pay every farthing, but at present—</p>
     </sp>
-    <sp>
+    <sp who="#L0993_M5">
      <speaker>Thistle.</speaker>
      <p>Awkward that, for I leave England to-night.</p>
     </sp>
-    <sp>
+    <sp who="#L0993_M2">
      <speaker>Blunt.</speaker>
      <stage> (aside)</stage>
      <p>Happy England!</p>
     </sp>
-    <sp>
+    <sp who="#L0993_M1">
      <speaker>Harc.</speaker>
      <p>It is impossible.</p>
     </sp>
     <stage>Mrs. Delacour and Mrs. Harcourt enter at back.</stage>
 
-    <sp>
+    <sp who="#L0993_M5">
      <speaker>Thistle.</speaker>
      <p>But I must have it, sir.</p>
     </sp>
-    <sp>
+    <sp who="#L0993_M2">
      <speaker>Blunt.</speaker>
      <p>Pooh, sir! they're so much waste paper. Mr.   Harcourt's a ruined man. </p>
      <stage>(goes up, C.)</stage>
     </sp>
-    <sp>
+    <sp who="#L0993_M1">
      <speaker>Harc.</speaker>
      <p>Ay, sir, ruined, helped in my downward course by you—the false friend who first lured me
       from my home to the wretched club of which you are so fitting a member. I can pay you nothing
       now.</p>
     </sp>
-    <sp>
+    <sp who="#L0993_M5">
      <speaker>Thistle.</speaker>
      <stage> (L.)</stage>
      <p>Then you shall be posted as a swindler. </p>
@@ -2459,16 +2511,16 @@
       her)</stage>
      <pb n="28"/>
     </sp>
-    <sp>
+    <sp who="#L0993_F7">
      <speaker>Mrs. D.</speaker>
      <stage> (coldly)</stage>
      <p>What is the amount of this most honourable debt?</p>
     </sp>
-    <sp>
+    <sp who="#L0993_M5">
      <speaker>Thistle.</speaker>
      <p>Three hundred and twenty!</p>
     </sp>
-    <sp>
+    <sp who="#L0993_F7">
      <speaker>Mrs. D.</speaker>
      <stage> (C.)</stage>
      <p>You shall have it. <stage>(to Blunt, L. C.—aside)</stage> Clarry has just returned from
@@ -2476,7 +2528,7 @@
       least I can get it this afternoon from my lawyer, and— <stage>(crosses L. to
       Thistleton—aloud)</stage> You shall be paid!</p>
     </sp>
-    <sp>
+    <sp who="#L0993_M2">
      <speaker>Blunt.</speaker>
      <stage> (crossing, R. C., wiping his forehead with handkerchief)</stage>
      <p>I shall explode directly! <stage>(aside to Mrs. Delacour)</stage> You're a— never mind what
@@ -2485,27 +2537,27 @@
       and twenty—yes— there! <stage>(hands it to Thistleton, who has taken from out his pocket book
       the I. O. U.'s—Thistleton looks at the cheque which Blunt holds out, and starts)</stage></p>
     </sp>
-    <sp>
+    <sp who="#L0993_M2">
      <speaker>Blunt.</speaker>
      <p>There, don't keep me in this position, all day.</p>
     </sp>
-    <sp>
+    <sp who="#L0993_M5">
      <speaker>Thistle.</speaker>
      <stage> (aside)</stage>
      <p>The Somersetshire Royal Bank!</p>
     </sp>
-    <sp>
+    <sp who="#L0993_M2">
      <speaker>Blunt.</speaker>
      <p>Come, you don't doubt the concern, do you? when your fast friend—your rather
       <emph>too</emph> fast friend Thorogood's at the head of it.</p>
     </sp>
-    <sp>
+    <sp who="#L0993_M5">
      <speaker>Thistle.</speaker>
      <stage> (forcing a smile)</stage>
      <p>   Ha, ha! absurd. <stage>(aside)</stage> How strange this is. <stage>(aloud)</stage> There
       there are the I. O. U's.</p>
     </sp>
-    <sp>
+    <sp who="#L0993_M2">
      <speaker>Blunt.</speaker>
      <stage> (takes them, and looks at one)</stage>
      <p>Ah! and so that's an I. O. U. <emph>is</emph> it, and a most rascally looking piece of
@@ -2516,45 +2568,45 @@
     </sp>
     <stage>Penson rushes in, C.</stage>
 
-    <sp>
+    <sp who="#L0993_F8">
      <speaker>Penson.</speaker>
      <p>Oh, ma'am!</p>
     </sp>
-    <sp>
+    <sp who="#L0993_F6">
      <speaker>Mrs. H.</speaker>
      <stage> (R.)</stage>
      <p>Well!</p>
     </sp>
-    <sp>
+    <sp who="#L0993_F7">
      <speaker>Mrs. D.</speaker>
      <stage> (R.)</stage>
      <p>Well, Penson.</p>
     </sp>
-    <sp>
+    <sp who="#L0993_M2">
      <speaker>Blunt.</speaker>
      <stage> (C.)</stage>
      <p>More bills!</p>
     </sp>
-    <sp>
+    <sp who="#L0993_F8">
      <speaker>Penson.</speaker>
      <p>Oh, ma'am, there's Mr. Nubbly—</p>
     </sp>
-    <sp>
+    <sp who="#L0993_M2">
      <speaker>Blunt.</speaker>
      <p>What is it woman?</p>
     </sp>
-    <sp>
+    <sp who="#L0993_F8">
      <speaker>Penson.</speaker>
      <p>Well, sir, if I<emph> am</emph> a woman, it's not my fault. There's Mr. Nubbly in the hall,
       a standing on the mouth, foaming at the mat—I mean to say—</p>
     </sp>
     <stage>Enter Nubbly awfully excited, C. door.</stage>
 
-    <sp>
+    <sp who="#L0993_M2">
      <speaker>Blunt.</speaker>
      <p>Now, man, what is it? Is the Thames a fire, or what?</p>
     </sp>
-    <sp>
+    <sp who="#L0993_M3">
      <speaker>Nubb.</speaker>
      <stage> (C.)</stage>
      <p>Oh lor'! This is a pretty state of things, this is! After a lecturing me about a few hextry
@@ -2564,42 +2616,42 @@
       go and pay a respectable tradesman, as lives upon coal, in bank notes as ain't worth a  
       farden.</p>
     </sp>
-    <sp>
+    <sp who="#L0993_M2">
      <speaker>Blunt.</speaker>
      <stage> (R. C.)</stage>
      <p>What do you mean, fellow?</p>
     </sp>
-    <sp>
+    <sp who="#L0993_M3">
      <speaker>Nubb.</speaker>
      <p>Mean feller, indeed! I'm not the mean feller; I'm the hingured hinnocent, that's what I
       am?</p>
     </sp>
-    <sp>
+    <sp who="#L0993_F7">
      <speaker>Mrs. D.</speaker>
      <p>Explain, Mr. Nubbly, explain!</p>
     </sp>
-    <sp>
+    <sp who="#L0993_M3">
      <speaker>Nubb.</speaker>
      <p>Well, the bank's bust!</p>
     </sp>
-    <sp>
+    <sp who="#L0993_M2">
      <speaker>Blunt.</speaker>
      <p>What?</p>
     </sp>
-    <sp>
+    <sp who="#L0993_M3">
      <speaker>Nubb.</speaker>
      <p>Your precious Somersetshire Royal Bank. The manager's upset everything—collared all, and
       hewaporated. It's all over London.</p>
      <stage>                                        Exit, C.)</stage>
     </sp>
-    <sp>
+    <sp who="#L0993_M2">
      <speaker>Blunt.</speaker>
      <stage> (overcome)</stage>
      <p>It's impossible! and yet— <stage>(shaking his fist at Thistleton)</stage> Oh, your beautiful
       friend, Thorogood! It'll ruin hundreds. Oh, the scoundrel! </p>
      <stage>(sinks into a chair overcome)</stage>
     </sp>
-    <sp>
+    <sp who="#L0993_M5">
      <speaker>Thistle.</speaker>
      <stage> (L.—aside)</stage>
      <p>There's no time to be lost. <stage>(aloud— crossing to C.)</stage> Permit me under the
@@ -2610,32 +2662,32 @@
       object, the pleasure in reciprocating which however may be a little dashed by the reflection
       that after all they are second hand.</p>
     </sp>
-    <sp>
+    <sp who="#L0993_M1">
      <speaker>Harc.</speaker>
      <p>Stay! thus do I treat—</p>
      <stage>(about to tear letter)</stage>
     </sp>
-    <sp>
+    <sp who="#L0993_F7">
      <speaker>Mrs. D.</speaker>
      <stage> (interposing)</stage>
      <p>Oh, don't destroy it. I should so like   to see it.</p>
     </sp>
-    <sp>
+    <sp who="#L0993_M1">
      <speaker>Harc.</speaker>
      <stage> (offended)</stage>
      <p>Madam!</p>
     </sp>
-    <sp>
+    <sp who="#L0993_F7">
      <speaker>Mrs. D.</speaker>
      <stage> (taking it from him—retires up a little)</stage>
      <p>Just one little peep.</p>
     </sp>
-    <sp>
+    <sp who="#L0993_F6">
      <speaker>Mrs. H.</speaker>
      <stage> (who is with Blunt, up R.)</stage>
      <p>Dear John, this is sad news indeed.</p>
     </sp>
-    <sp>
+    <sp who="#L0993_M2">
      <speaker>Blunt.</speaker>
      <stage> (to Mrs. Harcourt)</stage>
      <p>There, dear, never mind, the money's gone—more too than I care to mention; but it won't ruin
@@ -2643,164 +2695,164 @@
       toiling lives—this villainous dark deed will cast a sorrowful shadow upon many a poor man's
       hearth.</p>
     </sp>
-    <sp>
+    <sp who="#L0993_M5">
      <speaker>Thistle.</speaker>
      <p>I'd better be off. </p>
      <stage>(going)</stage>
     </sp>
-    <sp>
+    <sp who="#L0993_F7">
      <speaker>Mrs. D.</speaker>
      <p>Stop, sir! </p>
      <stage>(coming down, R. C.—something in her voice and manner makes every one start)</stage>
     </sp>
-    <sp>
+    <sp who="#L0993_M5">
      <speaker>Thistle.</speaker>
      <stage> (L.)</stage>
      <p>By Jove! considering how unwelcome my presence is, it's remarkable how frequently I'm asked
       to remain.</p>
      <pb n="30"/>
     </sp>
-    <sp>
+    <sp who="#L0993_F7">
      <speaker>Mrs. D.</speaker>
      <stage> (R. C.)</stage>
      <p>Captain Thistleton, <emph>you</emph> are concerned in the wholesale robbery at the Bristol
       Bank.</p>
     </sp>
-    <sp>
+    <sp who="#L0993_M2">
      <speaker>Blunt.</speaker>
      <stage> (R.)</stage>
      <p>What!</p>
     </sp>
-    <sp>
+    <sp who="#L0993_M5">
      <speaker>Thistle.</speaker>
      <p>The woman's out of her senses.</p>
     </sp>
-    <sp>
+    <sp who="#L0993_M2">
      <speaker>Blunt.</speaker>
      <p>My good creature!</p>
     </sp>
-    <sp>
+    <sp who="#L0993_M5">
      <speaker>Thistle.</speaker>
      <p>What authority have you for this mad statement?</p>
     </sp>
-    <sp>
+    <sp who="#L0993_F7">
      <speaker>Mrs. D.</speaker>
      <p>The best in the world. The authority of this letter, written by <emph>Thorogood
       </emph>himself to you, and which by <hi>accident</hi>   has found its way into the wrong
       envelope.</p>
     </sp>
-    <sp>
+    <sp who="#L0993_M5">
      <speaker>Thistle.</speaker>
      <stage> (involuntarily clutching at his pocket book—aside)</stage>
      <p>Destruction! It can't be—I—a— <stage>(turning wildly to Mrs. Delacour)</stage> Give me that—
       <stage>(he is about to rush and seize the letter, when Blunt catches him in his strong
       grasp)</stage></p>
     </sp>
-    <sp>
+    <sp who="#L0993_M2">
      <speaker>Blunt.</speaker>
      <stage> (C.)</stage>
      <p>Hold back, man! Dare to advance one step and I'll bring the colour back to your cowardly
       white face in a way you'll little fancy. Give me the letter. </p>
      <stage>(takes it)</stage>
     </sp>
-    <sp>
+    <sp who="#L0993_M5">
      <speaker>Thistle.</speaker>
      <stage> (aside)</stage>
      <p>A moment's delay might be fatal. <stage>(aloud)</stage> This is an abominable plot; and I
       will no longer stay to listen to the insolent retaliation of spiteful women. </p>
      <stage>(turns to go off, and is met by Sharpus, C., followed by Nubbly)</stage>
     </sp>
-    <sp>
+    <sp who="#L0993_M4">
      <speaker>Sharpus.</speaker>
      <p>Mr. Thistleton, I'm a detective officer!</p>
     </sp>
-    <sp>
+    <sp who="#L0993_M5">
      <speaker>Thistle.</speaker>
      <p>Fellow!</p>
     </sp>
-    <sp>
+    <sp who="#L0993_M4">
      <speaker>Sharp.</speaker>
      <p>Don't resist, because I've assistance handy. Nabbs! <stage>Another Detective enters at back
       quickly.</stage> All right. You know the affair: Thorogood's voyage is unavoidably postponed.
       Now take matters like a gentleman, and we shan't want to make ourselves unpleasant.</p>
     </sp>
-    <sp>
+    <sp who="#L0993_M5">
      <speaker>Thistle.</speaker>
      <p>Has that villain—</p>
     </sp>
-    <sp>
+    <sp who="#L0993_M4">
      <speaker>Sharp.</speaker>
      <p>Yes, yes. Thorogood's blown upon you, so be cool. <stage>(Thistleton crosses into L.
       corner)</stage> Come, take everything quietly. <stage>(aside)</stage> That's what Thorogood's
       been doing. </p>
      <stage>(turns to Nabbs to give him directions—Nubbly comes down near Thistleton, L.)</stage>
     </sp>
-    <sp>
+    <sp who="#L0993_M3">
      <speaker>Nubb.</speaker>
      <p>There was once a certain <emph>small</emph> party, where a certain <emph>tall</emph> kicked
       a certain <emph>short</emph> party, but—</p>
     </sp>
-    <sp>
+    <sp who="#L0993_M4">
      <speaker>Sharp.</speaker>
      <stage> (turning)</stage>
      <p>Here, you—be off! </p>
      <stage>(swings Nubbly round to 2nd Detective)</stage>
     </sp>
-    <sp>
+    <sp who="#L0993_M10">
      <speaker>Nabbs.</speaker>
      <p>Get out. </p>
      <stage>(swings him up stage where he plumps against Penson)</stage>
     </sp>
-    <sp>
+    <sp who="#L0993_F8">
      <speaker>Penson.</speaker>
      <p>Where are <emph>you</emph> a-coming? </p>
      <stage>(pushes him off)</stage>
     </sp>
-    <sp>
+    <sp who="#L0993_M3">
      <speaker>Nubb.</speaker>
      <stage> (à la Julius Cæsar, looking at Penson)</stage>
      <p>As the gentleman   observes in the Roman 'istry—“Et tu, Beauty! O—oh!</p>
      <stage>                                        (crushes his hat over his eyes and exit)</stage>
     </sp>
-    <sp>
+    <sp who="#L0993_F7">
      <speaker>Mrs. D.</speaker>
      <stage> (to Mrs. Harcourt)</stage>
      <p>So the victory remains with us, dear, after all.</p>
      <pb n="31"/>
     </sp>
-    <sp>
+    <sp who="#L0993_M1">
      <speaker>Harc.</speaker>
      <p>To-day all doubts and differences end.</p>
     </sp>
-    <sp>
+    <sp who="#L0993_F6">
      <speaker>Mrs. H.</speaker>
      <p>Yes; thanks to you, and you, kind generous friend.</p>
     </sp>
-    <sp>
+    <sp who="#L0993_M2">
      <speaker>Blunt.</speaker>
      <p>To business and your wife you'll now attend; </p>
      <p>They'll both repay the trouble</p>
     </sp>
-    <sp>
+    <sp who="#L0993_F7">
      <speaker>Mrs. D.</speaker>
      <l>                                        Very true.</l>
      <l>There's one we can't repay.</l>
     </sp>
-    <sp>
+    <sp who="#L0993_M2">
      <speaker>Blunt.</speaker>
      <l>                                        And that is—</l>
     </sp>
-    <sp>
+    <sp who="#L0993_F7">
      <speaker>Mrs. D.</speaker>
      <stage> (takes his hand)</stage>
      <l>                                        <emph>You!</emph></l>
     </sp>
-    <sp>
+    <sp who="#L0993_M2">
      <speaker>Blunt.</speaker>
      <l>I! There <emph>is</emph> a way—a very simple way. </l>
      <l>It rests with you.</l>
     </sp>
-    <sp>
+    <sp who="#L0993_F7">
      <speaker>Mrs. D.</speaker>
      <l>                                        Hem! on some future day.</l>
      <l>We'll talk about it. <stage>(to audience)</stage> In the meantime, here </l>

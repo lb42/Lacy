@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--<?xml-model href="https://dracor.org/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
--->
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L0001">
 <teiHeader>
 <fileDesc>
 <titleStmt>
-<title n="timetriesall">Time Tries All!</title>
+<title n="timetriesall" type="main">Time Tries All!</title>
 <author>Courtney, John</author>
 <respStmt>
 <resp>Curated by</resp>
@@ -14,40 +12,44 @@
 </titleStmt>
 <publicationStmt>
 <distributor>Privately published on the Lacy Website</distributor>
-<idno>L0001</idno>
-</publicationStmt>
+<idno type="URI">LAE</idno>
+<idno type="lae">L0001</idno>
+<idno type='URI' xml:base='https://dracor.org'>LAE</idno></publicationStmt>
 <sourceDesc>
-<bibl type="digital">Retagged from DOCX produced by Abby from VPP PDF file
-Vol1iTime and checked against Brum page images.</bibl>
-<bibl type="source" n="1.1" corresp="nic:N00793"><author>Courtney,
-John</author><title n="timetriesall">Time Tries All!</title><title type="sub">An
+<bibl type="printSource" n="1.1"><author>Courtney, John</author><title
+type="main" n="timetriesall">Time Tries All!</title><title type="sub">An
 Original Drama in two acts</title><extent>23 pp (UM copy: 8 - 31)<measure
-type="pp" quantity="23"/><measure type="txWords" quantity="10037"/><measure
-type="spWords" quantity="8783"/><measure type="stWords" quantity="1254"
-/></extent><eventName notAfter="1848" type="firstPerf">
-<date resp="nicoll" when="1848-09-04"/>
-<name>Royal Olympic Theatre</name>
-<date resp="source" when="1848-09-04">4 Sept. 1848</date>
-</eventName>
-<listRef>
-<ref target="http://victorian.nuigalway.ie/modx/assets/docs/pdf/Vol1iTime.pdf"
->VPP_PDF</ref>
-<ref target="https://hdl.handle.net/2027/hvd.32044086859295">Hathi_Trust</ref>
-</listRef><listRef type="localCopies">
-<ref>Vol01/L0001/L0001-um.pdf</ref>
-<ref>Vol01/L0001/L0001-vpp.pdf</ref>
-<ref>Vol01/L0001/pages</ref>
-<ref>Vol01/L0001/Vol1iTime.pdf</ref>
-</listRef></bibl>
-<!--<listEvent><event type="premiere" notAfter="1848"><desc><date resp="nicoll" when="1848-09-04"/>
-     <name>Royal Olympic Theatre</name>
-     <date resp="source" when="1848-09-04">4 Sept. 1848</date>
-    </desc></event></listEvent>-->
+type="pp" quantity="23"/>
+<measure type="spCount" quantity="471"/>
+<measure type="spvCount" quantity="1"/>
+<measure type="txWords" quantity="10037"/>
+<measure type="spWords" quantity="8783"/>
+<measure type="stWords" quantity="1254"/>
+</extent>
+<title level="s"> Lacy's Acting Edition, volume 1, No. 0001</title><idno
+type="nic">N00793</idno><idno type="vpp">Vol1iTime</idno></bibl>
+<bibl type="digitalSource" n="copytext"><ref
+target="https://lb42.github.io/Lacy/Source/VPP/L0001-vpp.pdf">LoB from
+VPP</ref><ref target="local:Vol01/L0001/L0001-vpp.pdf"/><ref
+target="local:Vol01/L0001/Vol1iTime.pdf"/></bibl>
+<bibl type="digitalSource"><ref
+target="https://hdl.handle.net/2027/hvd.32044086859295">HVD from HT</ref><ref
+target="local:Vol01/L0001/L0001-hv.pdf"/></bibl>
+<bibl type="digitalSource"><ref
+target="https://babel.hathitrust.org/cgi/pt?id=mdp.39015043286031&amp;seq=8 ">UM
+from HT</ref><ref target="local:Vol01/L0001/L0001-um.pdf"/></bibl>
+<bibl type="digitalSource" n="copytext"><ref
+target="https://lb42.github.io/Lacy/L0001.html">TEI</ref></bibl>
+<listEvent>
+<event type="firstPerf" when="1848-09-04" source="textNic" where="Olympic">
+<desc>Premiered at Royal Olympic Theatre 4 Sept. 1848</desc>
+</event>
+</listEvent>
 </sourceDesc>
 </fileDesc>
 <profileDesc>
 <textClass>
-<!--S_2_Drama_D._DRAMA-->
+
 <catRef target="#sizeS"/>
 <catRef target="#act2"/>
 <catRef target="nic:D."/>
@@ -55,8 +57,48 @@ type="spWords" quantity="8783"/><measure type="stWords" quantity="1254"
 <term>DRAMA</term>
 </keywords>
 </textClass>
+<particDesc>
+<listPerson>
+<person xml:id="L0001_M1">
+<persName type="role">Mr. Leeson </persName>
+<persName type="spkr" n="108">Lee.</persName>
+<persName type="spkr" n="1">Leeson.</persName>
+</person>
+<person xml:id="L0001_M2">
+<persName type="role">Mathew Bates </persName>
+<persName type="spkr" n="73">Mat.</persName>
+</person>
+<person xml:id="L0001_M3">
+<persName type="role">Hon. Augustus Collander Yawn </persName>
+<persName type="spkr" n="29">Yawn.</persName>
+</person>
+<person xml:id="L0001_M4">
+<persName type="role">Charles Clinton </persName>
+<persName type="spkr" n="13">Clin.</persName>
+</person>
+<person xml:id="L0001_M5">
+<persName type="role">Tom Tact </persName>
+<persName type="spkr" n="36">Tact.</persName>
+</person>
+<person xml:id="L0001_M6">
+<persName type="role">John </persName>
+<persName type="spkr" n="8">John.</persName>
+</person>
+<person xml:id="L0001_F7">
+<persName type="role">Laura Leeson </persName>
+<persName type="spkr" n="149">Laura.</persName>
+</person>
+<person xml:id="L0001_F8">
+<persName type="role">Fanny Fact </persName>
+<persName type="spkr" n="54">Fan.</persName>
+</person>
+
+</listPerson>
+</particDesc>
 </profileDesc>
 <revisionDesc>
+<change when="2025-09-11">Dracorize</change>
+<change when="2025-09-07">Metadata updated from new catalogue</change>
 <change when="2024-10-03">Header enriched</change>
 <change when="2023-10-06">Header confected</change>
 </revisionDesc>
@@ -75,28 +117,28 @@ type="spWords" quantity="8783"/><measure type="stWords" quantity="1254"
 </performance>
 <castList>
 <head> Characters.</head>
-<castItem><role gender="M">Mr. Leeson </role><actor sex="M">Mr A. Younge.
+<castItem><role gender="M">Mr. Leeson </role><actor ana="#M">Mr A. Younge.
 </actor></castItem>
 
-<castItem><role gender="M">Mathew Bates </role><actor sex="M">Mr. Leigh Murray
+<castItem><role gender="M">Mathew Bates </role><actor ana="#M">Mr. Leigh Murray
 </actor></castItem>
 
-<castItem><role gender="M">Hon. Augustus Collander Yawn </role><actor sex="M"
+<castItem><role gender="M">Hon. Augustus Collander Yawn </role><actor ana="#M"
 >Mr. F. Vining </actor></castItem>
 
-<castItem><role gender="M">Charles Clinton </role><actor sex="M">Mr. H . Butler.
+<castItem><role gender="M">Charles Clinton </role><actor ana="#M">Mr. H .
+Butler. </actor></castItem>
+
+<castItem><role gender="M">Tom Tact </role><actor ana="#M">Mr. S. Cowell
 </actor></castItem>
 
-<castItem><role gender="M">Tom Tact </role><actor sex="M">Mr. S. Cowell
+<castItem><role gender="M">John </role><actor ana="#M">Mr. Sanger
 </actor></castItem>
 
-<castItem><role gender="M">John </role><actor sex="M">Mr. Sanger
+<castItem><role gender="F">Laura Leeson </role><actor ana="#F">Mrs. Stirling.
 </actor></castItem>
 
-<castItem><role gender="F">Laura Leeson </role><actor sex="F">Mrs. Stirling.
-</actor></castItem>
-
-<castItem><role gender="F">Fanny Fact </role><actor sex="F">Mrs. Tellet
+<castItem><role gender="F">Fanny Fact </role><actor ana="#F">Mrs. Tellet
 </actor></castItem>
 
 </castList>
@@ -137,7 +179,7 @@ Bates, Merchants — Door in C , with window on each side — Doors L.C. Flat an
 
 <stage>Mr. Leeson seated at table, R.H., over his private accounts. He puts his
 pen in inkstand, and closes book.</stage>
-<sp>
+<sp who="#L0001_M1">
 <speaker>Lee.</speaker>
 <p> That account's closed—a clear net profit to our house, Leeson and Bates, of
 nine thousand pounds for the last year. So that, notwithstanding my little
@@ -152,36 +194,36 @@ for joy when I think of it. Ha! here she comes.</p>
 <p>— Laura, my own pet, come to my arms! Oh! bless that face! how it reminds me
 of your dear mother, now in— But there, we won't be melancholy to-day.</p>
 </sp>
-<sp>
+<sp who="#L0001_F7">
 <speaker>Laura.</speaker>
 <p> Oh ! for mercy's sake, no, dear Sir; this house is not too lively at the
 best of times.</p>
 </sp>
-<sp>
+<sp who="#L0001_M1">
 <speaker>Lee.</speaker>
 <p> Well, well—we'll be merry to-day, of all days in the year. But, where's your
 cousin ? Where's my partner, Mathew Bates ?— what have you done with him ?—where
 is he ?</p>
 </sp>
-<sp>
+<sp who="#L0001_F7">
 <speaker>Laura.</speaker>
 <p> Now, my dear Sir, how should I know where he is? I never appear before you,
 but your first question is—" Where is Mathew ?—what have you done with Mathew
 Bates?" Is Mathew Bates to be ever at my side ? He loves his desk better than he
 loves society, I can tell you.</p>
 </sp>
-<sp>
+<sp who="#L0001_M1">
 <speaker>Lee.</speaker>
 <p> Well, I know he's fond of business; so am I—I always was.<stage>(
 playfully)</stage> If I had not been fond of business, you little rogue, I
 should not have had the pleasure of telling you, as I do now—that I have ten
 thousand pounds for you when you wed, and as much more at my death.</p>
 </sp>
-<sp>
+<sp who="#L0001_F7">
 <speaker>Laura.</speaker>
 <p> Which, my dear father, I trust may not occur for many— many years.</p>
 </sp>
-<sp>
+<sp who="#L0001_M1">
 <speaker>Lee.</speaker>
 <p> I hope not, upon my soul. I am very well as I am, and I don't want to change
 my condition.</p>
@@ -189,74 +231,74 @@ my condition.</p>
 appearance of a young man without the fashionable pretension of dress, and his
 style altogether unpretending — he has a pen in his hand. </stage>
 </sp>
-<sp>
+<sp who="#L0001_M2">
 <speaker>Mat.</speaker>
 <p> Mr. Leeson, good day. Cousin— <stage>(to Laura, with respect)</stage></p>
 </sp>
-<sp>
+<sp who="#L0001_M1">
 <speaker>Lee.</speaker>
 <p> Ah, Bates! Mathew, my, boy—my son—you are my son. Is he not, Laura?</p>
 </sp>
 <pb n="4"/>
-<sp>
+<sp who="#L0001_F7">
 <speaker>Laura.</speaker>
 <p> Oh, yes, Sir—certainly—your adopted son.</p>
 </sp>
-<sp>
+<sp who="#L0001_M1">
 <speaker>Lee.</speaker>
 <p> Yes, and will be more by-and-bye—eh, Mathew ? <stage>(jokingly, but with
 confidence)</stage> —eh, eh ?<stage>(Laura hems, and walks up)</stage>
 </p>
 </sp>
-<sp>
+<sp who="#L0001_M2">
 <speaker>Mat.</speaker>
 <p><stage>(L.H.)</stage>Your son, Mr. Leeson, I truly am; for my father and
 yourself were cousins, and, at his death, you became my protector. You were
 relatives in heart as well as kin—friends—fast friends; which, in kin, is often
 cast aside.</p>
 </sp>
-<sp>
+<sp who="#L0001_M1">
 <speaker>Lee.</speaker>
 <p> True, true, Mathew ! Ah, we were mere boys together, poor boys too, with
 nothing but our energy to raise us. But we were friends, as you say—fast
 friends, and we were so to his death. Poor Harry! We were odd fellows—
 <stage>(to Laura, who comes down R.)</stage>—we were, Laura.</p>
 </sp>
-<sp>
+<sp who="#L0001_F7">
 <speaker>Laura.</speaker>
 <p><stage>(L.C.)</stage>I don't doubt, Sir, at all. You are odd to this day, and
 so is Harry's son.<stage>( glancing at Mathew)</stage></p>
 </sp>
-<sp>
+<sp who="#L0001_M2">
 <speaker>Mat.</speaker>
 <p> In what particular, Laura ?</p>
 </sp>
-<sp>
+<sp who="#L0001_F7">
 <speaker>Laura.</speaker>
 <p> Oh, if you ask for <hi>particularities,</hi> we shall come to
 <hi>personalities,</hi> and then I shall be scolded—shall I not, pa ?</p>
 </sp>
-<sp>
+<sp who="#L0001_M1">
 <speaker>Lee.</speaker>
 <p> Aye, that you will. But, come, I find that we are both richer men;—a net
 profit this year of nine thousand pounds to our house.</p>
 </sp>
-<sp>
+<sp who="#L0001_M2">
 <speaker>Mat.</speaker>
 <p> Yes, Sir, to that amount.</p>
 </sp>
-<sp>
+<sp who="#L0001_M1">
 <speaker>Lee.</speaker>
 <p> Egad, when I think how I toiled to get my first start in the world ! So did
 your father ! Oh, yes! for there were two girls, poor as ourselves; we loved
 <hi>them,</hi> and <hi>they</hi> loved us. Tis something to be loved in this
 cold world, I can tell you.</p>
 </sp>
-<sp>
+<sp who="#L0001_M2">
 <speaker>Mat.</speaker>
 <p> It is, indeed, Sir!<stage>( with a sigh, glancing at Laura.)</stage></p>
 </sp>
-<sp>
+<sp who="#L0001_M1">
 <speaker>Lee.</speaker>
 <p> Well, we struggled and we succeeded, prospered, and, in prosperity, we both
 married the girls who had loved us in adversity. Heaven, after, gave him a son
@@ -270,30 +312,30 @@ scene before you, " <hi>your</hi> Mathew shall marry <hi>my</hi> Laura, and be
 indeed my son!" He raised his eyes to heaven, in reverence, then looked his last
 kind look upon us, and left us for a better inheritance!</p>
 </sp>
-<sp>
+<sp who="#L0001_M2">
 <speaker>Mat.</speaker>
 <p>
 <stage>(aside, and sighing)</stage> My poor father!</p>
 </sp>
-<sp>
+<sp who="#L0001_M1">
 <speaker>Lee.</speaker>
 <p>
 <stage>(kindly)</stage> Mathew, what's the matter ?</p>
 </sp>
-<sp>
+<sp who="#L0001_M2">
 <speaker>Mat.</speaker>
 <p> Nothing, Sir, nothing.</p>
 </sp>
-<sp>
+<sp who="#L0001_M1">
 <speaker>Lee.</speaker>
 <p> Come, come, don't be melancholy.</p>
 </sp>
-<sp>
+<sp who="#L0001_F7">
 <speaker>Laura.</speaker>
 <p> La! how can he be other at this melancholy tale? You know he is not gay at
 the best, and you will ever touch upon this subject.</p>
 </sp>
-<sp>
+<sp who="#L0001_M1">
 <speaker>Lee.</speaker>
 <p> Because I can't forget it. Never shall! But come, Mathew, give me your
 hand—I will not mention it any more. Come, Laura, cheer him up; talk to him,
@@ -304,72 +346,72 @@ merry— nothing shall make me otherwise.<stage>Exit D.L.U.E</stage></p>
 </sp>
 <pb n="5"/>
 <stage> Laura has taken up a book, and sits R.H. table. </stage>
-<sp>
+<sp who="#L0001_M2">
 <speaker>Mat.</speaker>
 <p><stage>(looks at her)</stage>She speaks not. What is this tremor I feel ever
 in her presence ? Why is she thus distant to me ? Is it woman's caution, pride,
 or real dislike? I cannot fathom it; it was not so once.<stage>(approaches with
 a timid but respectful feeling)</stage>You are reading, Laura, I suppose ?</p>
 </sp>
-<sp>
+<sp who="#L0001_F7">
 <speaker>Laura.</speaker>
 <p><stage>(looks carelessly)</stage>Now that is a very clever supposition
 certainly. You see me with a book in my hand; you suppose I'm reading. What else
 could you <hi>suppose</hi>, cousin ? </p>
 </sp>
-<sp>
+<sp who="#L0001_M2">
 <speaker>Mat.</speaker>
 <p> We sometimes hold the book unconscious of the page; as we sometimes sit,
 unconscious of the presence of those by whom we are surrounded. </p>
 </sp>
-<sp>
+<sp who="#L0001_F7">
 <speaker>Laura.</speaker>
 <p> True; what we take no <hi>interest</hi> in, we seldom think much of.</p>
 </sp>
-<sp>
+<sp who="#L0001_M2">
 <speaker>Mat.</speaker>
 <p> By such rule, I might be in your presence and you unconscious.</p>
 </sp>
-<sp>
+<sp who="#L0001_F7">
 <speaker>Laura.</speaker>
 <p> Aye, that you might.</p>
 </sp>
-<sp>
+<sp who="#L0001_M2">
 <speaker>Mat.</speaker>
 <p> Indeed!</p>
 </sp>
-<sp>
+<sp who="#L0001_F7">
 <speaker>Laura.</speaker>
 <p> Indeed! Ha, ha, ha! Why that strange look? do you think yourself so
 handsome, or so full of <hi> grace</hi>, that I must have you ever in my
 thoughts?<stage>(pettishly)</stage>What vanity !</p>
 </sp>
-<sp>
+<sp who="#L0001_M2">
 <speaker>Mat.</speaker>
 <p><stage>(with pride)</stage>Vanity, Laura, I am bound to say is my last foible
 ! I hold that vanity in man is not to be pardoned or excused.</p>
 </sp>
-<sp>
+<sp who="#L0001_F7">
 <speaker>Laura.</speaker>
 <p> How in woman ?</p>
 </sp>
-<sp>
+<sp who="#L0001_M2">
 <speaker>Mat.</speaker>
 <p> We test not woman so strictly—vanity in her is scarcely vanity.</p>
 </sp>
-<sp>
+<sp who="#L0001_F7">
 <speaker>Laura.</speaker>
 <p><stage>(sits)</stage>Ha, ha, ha!—what a paradox!</p>
 </sp>
-<sp>
+<sp who="#L0001_M2">
 <speaker>Mat.</speaker>
 <p><stage>(by her chair)</stage>Woman is a paradox.</p>
 </sp>
-<sp>
+<sp who="#L0001_F7">
 <speaker>Laura.</speaker>
 <p> Indeed!</p>
 </sp>
-<sp>
+<sp who="#L0001_M2">
 <speaker>Mat.</speaker>
 <p> Yes, indeed! by education taught to be so,—schooled in restraint, her
 thoughts, her feelings even as a girl, are pent up from the world: her own heart
@@ -378,83 +420,83 @@ dying but to know; but when known, he loves her more for the suffering she has
 caused—for he feels that she is master of herself—the greatest mastery achieved
 on earth.</p>
 </sp>
-<sp>
+<sp who="#L0001_F7">
 <speaker>Laura.</speaker>
 <p> Forgets that, master of herself—she may be his master too.</p>
 </sp>
-<sp>
+<sp who="#L0001_M2">
 <speaker>Mat.</speaker>
 <p> Woman, however she conceal her power, is ever so; for by submission, and by
 complacent kindness—that ever winning grace, by which woman rules instead of
 serves—she may win the roughest temper, and the rudest mind, to follow and to
 worship.</p>
 </sp>
-<sp>
+<sp who="#L0001_F7">
 <speaker>Laura.</speaker>
 <p> Oh, really, cousin—<stage>(acknowledges)</stage>but when I rule, it will be
 by right—I shall steal no march under false colours, upon the heart of lordly
 man, believe me.</p>
 </sp>
-<sp>
+<sp who="#L0001_M2">
 <speaker>Mat.</speaker>
 <p><stage>(quickly)</stage>Then you do not love ?</p>
 </sp>
-<sp>
+<sp who="#L0001_F7">
 <speaker>Laura.</speaker>
 <p> Whom should I love ?—you ?</p>
 </sp>
-<sp>
+<sp who="#L0001_M2">
 <speaker>Mat.</speaker>
 <p><stage>(confused)</stage>Me ?—I never said so.</p>
 </sp>
-<sp>
+<sp who="#L0001_F7">
 <speaker>Laura.</speaker>
 <p> There now—don't let us talk over such nonsense any more. You understand
 debtor and creditor better than Cupid and Hymen, depend upon it. Go to your
 desk.<stage>(goes to table, R.H.)</stage>
 </p>
 </sp>
-<sp>
+<sp who="#L0001_M2">
 <speaker>Mat.</speaker>
 <p> You wish my absence?</p>
 </sp>
 <pb n="6"/>
-<sp>
+<sp who="#L0001_F7">
 <speaker>Laura.</speaker>
 <p> I don't desire your presence.</p>
 </sp>
-<sp>
+<sp who="#L0001_M2">
 <speaker>Mat.</speaker>
 <p> Then, Laura, you shall be no longer troubled with it.<stage>(bows, and is
 going; turns and looks towards her, she turns and sees him)</stage>
 </p>
 </sp>
-<sp>
+<sp who="#L0001_F7">
 <speaker>Laura.</speaker>
 <p> Well?</p>
 </sp>
-<sp>
+<sp who="#L0001_M2">
 <speaker>Mat.</speaker>
 <p> I have not, I hope, offended ?</p>
 </sp>
-<sp>
+<sp who="#L0001_F7">
 <speaker>Laura.</speaker>
 <p> No—no, Mr. Sanctity.</p>
 </sp>
-<sp>
+<sp who="#L0001_M2">
 <speaker>Mat.</speaker>
 <p> Will you give me your hand in assurance ?</p>
 </sp>
-<sp>
+<sp who="#L0001_F7">
 <speaker>Laura.</speaker>
 <p><stage>(slaps his hand)</stage>Don't be foolish ! You are quite teazing, I
 declare.</p>
 </sp>
-<sp>
+<sp who="#L0001_M2">
 <speaker>Mat.</speaker>
 <p> I'll be so no longer. <stage> Bows and exit R.H.D.</stage></p>
 </sp>
-<sp>
+<sp who="#L0001_F7">
 <speaker>Laura.</speaker>
 <p><stage>(sits R.H. to work)</stage>Ha, ha, ha ! I have got rid of him at last.
 He talk of love, with his business face and his plain careless habit ?
@@ -475,11 +517,11 @@ style—oh, horrid !</p>
 </sp>
 <stage> Enter John, C.D. </stage>
 
-<sp>
+<sp who="#L0001_M6">
 <speaker>John.</speaker>
 <p> Young Mr. Clinton, Miss, requests to see you.<stage>(gives card)</stage></p>
 </sp>
-<sp>
+<sp who="#L0001_F7">
 <speaker>Laura.</speaker>
 <p> Clinton ? ha! now we shall have some life. This is delightful. Shew him
 here— <stage> Exit John</stage> —Dear me, how my heart palpitates, to be sure! I
@@ -488,7 +530,7 @@ haven't seen him since his return from Paris.</p>
 <stage> Enter Charles Clinton and the Honourable Augustus Collander Yawn,
 C.D.</stage>
 
-<sp>
+<sp who="#L0001_M4">
 <speaker>Clin.</speaker>
 <p><stage>(C.)</stage>Miss Leeson, permit me.<stage>(kisses her
 hand)</stage>Delighted to see you, really. 'Pon my honour, the daily development
@@ -496,12 +538,12 @@ of your beauty is most incomprehensible—it is really. I never saw improvement 
 improved in my existence as I find it in you. I must bow in admiration, 'pon my
 honour !</p>
 </sp>
-<sp>
+<sp who="#L0001_F7">
 <speaker>Laura.</speaker>
 <p><stage>(R.)</stage>Oh, Mr. Clinton!<stage>(curtsies)</stage>
 </p>
 </sp>
-<sp>
+<sp who="#L0001_M4">
 <speaker>Clin.</speaker>
 <p> By-the-bye, I plead pardon for the liberty, but I have ventured to bring a
 particular friend of mine; trust I shall be excused. Permit me to introduce to
@@ -511,20 +553,20 @@ wit and astonishing knowledge.<stage>(introduces Yawn)</stage>
 </p>
 </sp>
 <pb n="7"/>
-<sp>
+<sp who="#L0001_F7">
 <speaker>Laura.</speaker>
 <p> Sir, I am delighted at the introduction.</p>
 </sp>
-<sp>
+<sp who="#L0001_M3">
 <speaker>Yawn.</speaker>
 <p><stage>(R.)</stage>Madam, I really—too much honor—I really—
 <stage>(yawns)</stage></p>
 </sp>
-<sp>
+<sp who="#L0001_F7">
 <speaker>Laura.</speaker>
 <p> I hope you enjoyed your Paris trip, Mr. Clinton.</p>
 </sp>
-<sp>
+<sp who="#L0001_M4">
 <speaker>Clin.</speaker>
 <p> Oh, delighted ! Never was happier in my life—never! 'Pon my honor, do you
 know, when I arrived in town here, it had such an effect upon my nervous system.
@@ -533,162 +575,162 @@ heavy, that I fell fast asleep upon the sofa, as soon as I sat down, and they
 couldn't wake me for two days. I was in a perfect state of coma. Wasn't I,
 George ?</p>
 </sp>
-<sp>
+<sp who="#L0001_M3">
 <speaker>Yawn.</speaker>
 <p> Ye-es—dreadful place, England—I wonder the people keep their eyes open at
 all, really— <stage>(yawns)</stage>
 </p>
 </sp>
-<sp>
+<sp who="#L0001_M4">
 <speaker>Clin.</speaker>
 <p> And yet they continue to see as far as their neighbours, I believe, Sir.</p>
 </sp>
-<sp>
+<sp who="#L0001_M3">
 <speaker>Yawn.</speaker>
 <p> It's a mystery to me, I'm sure. I never could conceive anything—
 <stage>(yawns)</stage>
 </p>
 </sp>
-<sp>
+<sp who="#L0001_F7">
 <speaker>Laura.</speaker>
 <p> What did you see in Paris, Mr. Clinton? Come, give me some account of the
 wonders.</p>
 </sp>
-<sp>
+<sp who="#L0001_M4">
 <speaker>Clin.</speaker>
 <p> Oh, I saw the—George, what did we see ?</p>
 </sp>
-<sp>
+<sp who="#L0001_M3">
 <speaker>Yawn.</speaker>
 <p> Oh, we saw the—the—ah !—the— <stage>(yawns)</stage> we saw everything.</p>
 </sp>
 <stage> Enter Mr. Leeson and Mathew, L.D.F.—Mathew has his hat and cane. </stage>
 
-<sp>
+<sp who="#L0001_M1">
 <speaker>Lee.</speaker>
 <p> Come, Mathew, I insist upon it. Oh, here she is, with Mr. Clinton. I heard
 he was here. Ah! Mr. Charles, how do you do ?<stage>(to Clinton)</stage>Rejoiced
 to see you.</p>
 </sp>
-<sp>
+<sp who="#L0001_M4">
 <speaker>Clin.</speaker>
 <p> Thank you, Mr. Leeson. Ah, Mr. Bates! how do you do? <stage>(carelessly.
 Mathew L.H. bows)</stage>
 </p>
 </sp>
-<sp>
+<sp who="#L0001_M1">
 <speaker>Lee.</speaker>
 <p><stage>(C.)</stage>Well, Laura, has Mr. Clinton been amusing you with an
 account of the various wonders he has seen in the gay city ?</p>
 </sp>
-<sp>
+<sp who="#L0001_F7">
 <speaker>Laura.</speaker>
 <p> I was just enquiring, Pa, as you came in, and I find him somewhat mercantile
 in his answers. He gives them in a <hi>sum total </hi> —he says he saw
 <hi>everything.</hi>
 </p>
 </sp>
-<sp>
+<sp who="#L0001_M1">
 <speaker>Lee.</speaker>
 <p> Ha! ha! ha!<stage>(sees Yawn)</stage>A friend?<stage>(to Clinton)</stage>
 </p>
 </sp>
-<sp>
+<sp who="#L0001_M4">
 <speaker>Clin.</speaker>
 <p> My most intimate friend. I have taken the liberty of an introduction. Permit
 me, Mr. Leeson—the Hon. George Augustus Collander Yawn.</p>
 </sp>
-<sp>
+<sp who="#L0001_M1">
 <speaker>Lee.</speaker>
 <p> Proud to see you, Sir.</p>
 </sp>
-<sp>
+<sp who="#L0001_M3">
 <speaker>Yawn.</speaker>
 <p> Sir, I'm grateful—really I— <stage>(yawns)</stage>
 </p>
 </sp>
-<sp>
+<sp who="#L0001_M1">
 <speaker>Lee.</speaker>
 <p> I saw your horses at the door, and I proposed to my partner, Mr. Bates,
 <stage>(they bow)</stage> that he should take my daughter a ride before dinner.
 Perhaps you'd accompany them, and join us at table?</p>
 </sp>
-<sp>
+<sp who="#L0001_M4">
 <speaker>Clin.</speaker>
 <p> With great pleasure. <stage>(looks at Yawn)</stage></p>
 </sp>
-<sp>
+<sp who="#L0001_M3">
 <speaker>Yawn.</speaker>
 <p> Ye-es, certainly—anything for a little excitement. <stage>(yawns)</stage>
 Lee. Laura, what say you ?</p>
 </sp>
-<sp>
+<sp who="#L0001_F7">
 <speaker>Laura.</speaker>
 <p><stage>(R.H.)</stage>That you are inflicting a heavy task upon my cousin, for
 he owns he is but a poor horseman.</p>
 </sp>
-<sp>
+<sp who="#L0001_M2">
 <speaker>Mat.</speaker>
 <p><stage>(L.H.)</stage>Not a skilful one, certainly; but, you know, if I can
 contribute to your happiness——</p>
 </sp>
-<sp>
+<sp who="#L0001_F7">
 <speaker>Laura.</speaker>
 <p> You'll risk your neck in the attempt—how chivalrous !</p>
 </sp>
-<sp>
+<sp who="#L0001_M1">
 <speaker>Lee.</speaker>
 <p> Aye, that he would—would you not, Mathew ?</p>
 </sp>
-<sp>
+<sp who="#L0001_F7">
 <speaker>Laura.</speaker>
 <p> Not another word—I'll go and prepare. <stage>Exit D.R.</stage></p>
 </sp>
 <pb n="8"/>
-<sp>
+<sp who="#L0001_M1">
 <speaker>Lee.</speaker>
 <p> That's right—'Gad, I am delighted to see you, Clinton! and you, Sir.
 <stage>(to Augustus, who as he approaches yawns)</stage> I beg your pardon, the
 gentleman's name ?</p>
 </sp>
-<sp>
+<sp who="#L0001_M4">
 <speaker>Clin.</speaker>
 <p> Yawn.</p>
 </sp>
-<sp>
+<sp who="#L0001_M1">
 <speaker>Lee.</speaker>
 <p>
 <stage>(aside)</stage> Yawn ! Rather an à propos cognomen. But, come, gentlemen,
 will you take a glass of wine before you start on your canter ?</p>
 </sp>
-<sp>
+<sp who="#L0001_M4">
 <speaker>Clin.</speaker>
 <p> With pleasure—should be delighted—what say you?<stage>(to Yawn)</stage>
 </p>
 </sp>
-<sp>
+<sp who="#L0001_M3">
 <speaker>Yawn.</speaker>
 <p> Ye-es—anything—certainly. <stage>(yawns)</stage>
 </p>
 </sp>
-<sp>
+<sp who="#L0001_M1">
 <speaker>Lee.</speaker>
 <p> Will you walk into the drawing-room? Mathew, you can wait for your cousin,
 if you like.<stage>(Mathew bows in acknowledgment)</stage> This way, gentlemen.
 <stage> Exit, C.D.</stage></p>
 </sp>
-<sp>
+<sp who="#L0001_M4">
 <speaker>Clin.</speaker>
 <p>
 <stage>(to Augustus)</stage>Capital old fellow this, and beautiful daughter.
 <stage> Exit, D.C.</stage></p>
 </sp>
-<sp>
+<sp who="#L0001_M3">
 <speaker>Yawn.</speaker>
 <p> Splendid—very. <stage>(yawns.)</stage>
 <stage> Exit, D.C.</stage></p>
 </sp>
-<sp>
+<sp who="#L0001_M2">
 <speaker>Mat.</speaker>
 <p> Mr. Leeson has urged me to speak boldly to Laura this day, to entreat her
 hand; I have promised to do so for his happiness and my own. But there's
@@ -704,55 +746,55 @@ comes.</p>
 <stage> Enter Laura, R.H.D. She is attired in a riding habit, and has a whip in
 her hand. </stage>
 </sp>
-<sp>
+<sp who="#L0001_F7">
 <speaker>Laura.</speaker>
 <p> Now for our ride. <stage>(she looks round)</stage> Where are they all ?
 <stage>(sees Mathew)</stage>You are here, of course. Where is Mr. Clinton and
 his friend ?</p>
 </sp>
-<sp>
+<sp who="#L0001_M2">
 <speaker>Mat.</speaker>
 <p> They are with your father in the drawing-room.</p>
 </sp>
-<sp>
+<sp who="#L0001_F7">
 <speaker>Laura.</speaker>
 <p> And why are you not with them ?</p>
 </sp>
-<sp>
+<sp who="#L0001_M2">
 <speaker>Mat.</speaker>
 <p> I waited to attend you, Laura.</p>
 </sp>
-<sp>
+<sp who="#L0001_F7">
 <speaker>Laura.</speaker>
 <p> Waited to attend me! You are ever waiting to attend me—'tis the strangest
 thing to me, cousin; I never turn round to look for this or for that, but I see
 you ever at my side—ever <hi>waiting </hi> to attend me; 'tis really vexing.</p>
 </sp>
-<sp>
+<sp who="#L0001_M2">
 <speaker>Mat.</speaker>
 <p> Well, Laura, <stage>(much hurt)</stage> if I am not welcome——</p>
 </sp>
-<sp>
+<sp who="#L0001_F7">
 <speaker>Laura.</speaker>
 <p> How can any one be welcome, who, uninvited, comes at all times—allow
 this—permit that—suffer me to hand you here!—to lead you there! I have no
 patience ! <stage>(going up)</stage>
 </p>
 </sp>
-<sp>
+<sp who="#L0001_M2">
 <speaker>Mat.</speaker>
 <p> You go, then, alone ?</p>
 </sp>
-<sp>
+<sp who="#L0001_F7">
 <speaker>Laura.</speaker>
 <p>
 <stage>(turns round)</stage> Why not?</p>
 </sp>
-<sp>
+<sp who="#L0001_M2">
 <speaker>Mat.</speaker>
 <p> Your father desired——</p>
 </sp>
-<sp>
+<sp who="#L0001_F7">
 <speaker>Laura.</speaker>
 <p>
 <stage>(imitates him)</stage> Your father desired. Ha, ha, ha! Upon <pb n="9"/>
@@ -763,7 +805,7 @@ you'll break your heart.</p>
 </sp>
 <stage>Mathew quickly takes her hand, and leads her off, C.D.</stage>
 <stage> Enter Tom Tact, D.L.C.</stage>
-<sp>
+<sp who="#L0001_M5">
 <speaker>Tact.</speaker>
 <p> I want to see the governor. It's quite impossible I can carry on any longer
 at the rate I go, on seventy-five pounds a year : and I don't see why I should
@@ -777,85 +819,85 @@ can't—yes, he can do one thing—he can make love, which generally makes him
 poorer still. <stage> Enter FanNy Fact, R.H.D.</stage> —Ah, Miss Fact, good day
 !</p>
 </sp>
-<sp>
+<sp who="#L0001_F8">
 <speaker>Fan.</speaker>
 <p><stage>(R.C.)</stage>Good day, Mr. Tact; pleasant weather this.</p>
 </sp>
-<sp>
+<sp who="#L0001_M5">
 <speaker>Tact.</speaker>
 <p><stage>(L.C.)</stage>Yes, very, for those who can enjoy it.</p>
 </sp>
-<sp>
+<sp who="#L0001_F8">
 <speaker>Fan.</speaker>
 <p> Ah! enjoyment, Mr. Fact, is only for those who can pay for it.</p>
 </sp>
-<sp>
+<sp who="#L0001_M5">
 <speaker>Tact.</speaker>
 <p> The very thing I was saying to myself as you came in. Singular reciprocity
 of feeling, isn't it?</p>
 </sp>
-<sp>
+<sp who="#L0001_F8">
 <speaker>Fan.</speaker>
 <p>
 <stage>(glancing at him)</stage> Very singular. <stage>(aside)</stage> I always
 thought him a nice little fellow.</p>
 </sp>
-<sp>
+<sp who="#L0001_M5">
 <speaker>Tact.</speaker>
 <p> You have a snug situation here, I suppose, Miss Fact ?</p>
 </sp>
-<sp>
+<sp who="#L0001_F8">
 <speaker>Fan.</speaker>
 <p> Pretty well, Mr. Tact.</p>
 </sp>
-<sp>
+<sp who="#L0001_M5">
 <speaker>Tact.</speaker>
 <p> Fact and Tact—very odd—singular coincidence—though odd—perquisites, of
 course ?</p>
 </sp>
-<sp>
+<sp who="#L0001_F8">
 <speaker>Fan.</speaker>
 <p>Yes.</p>
 </sp>
-<sp>
+<sp who="#L0001_M5">
 <speaker>Tact.</speaker>
 <p> Tolerable wages?</p>
 </sp>
-<sp>
+<sp who="#L0001_F8">
 <speaker>Fan.</speaker>
 <p>Yes.</p>
 </sp>
-<sp>
+<sp who="#L0001_M5">
 <speaker>Tact.</speaker>
 <p> That's right!—give you joy, Miss Fact, of so comfortable a position in
 life.</p>
 </sp>
-<sp>
+<sp who="#L0001_F8">
 <speaker>Fan.</speaker>
 <p> I don't know about comfort, Mr. Tact; there are other things than those you
 have named, to make up comfort.</p>
 </sp>
-<sp>
+<sp who="#L0001_M5">
 <speaker>Tact.</speaker>
 <p> You are right, Miss Fact!—I know—home—your own home—fire-side—snug
 corner—Mr. Tact—Mrs. Tact—the little Tacts—one's own master!</p>
 </sp>
-<sp>
+<sp who="#L0001_F8">
 <speaker>Fan.</speaker>
 <p> Exactly, Mr. Tact—there's no knowing what we servants have to put up
 with.</p>
 </sp>
-<sp>
+<sp who="#L0001_M5">
 <speaker>Tact.</speaker>
 <p>
 <stage>(aside)</stage> Junior clerks particularly; I have to put up with
 seventy-five pounds a-year.</p>
 </sp>
-<sp>
+<sp who="#L0001_F8">
 <speaker>Fan.</speaker>
 <p> I have a great deal, I can assure you.</p>
 </sp>
-<sp>
+<sp who="#L0001_M5">
 <speaker>Tact.</speaker>
 <p>
 <stage>(aside)</stage> And I have very little. <stage>(looking at her)</stage> I
@@ -863,42 +905,42 @@ dare say you have. <stage>(aside)</stage> She's indubitably pretty.
 <stage>(aloud)</stage> You have a holiday, now and then, Miss Fact, I suppose
 ?</p>
 </sp>
-<sp>
+<sp who="#L0001_F8">
 <speaker>Fan.</speaker>
 <p> Oh yes! I have one on Monday next. <stage>(glancing at him)</stage>
 </p>
 </sp>
 <pb n="10"/>
-<sp>
+<sp who="#L0001_M5">
 <speaker>Tact.</speaker>
 <p> That's very odd ! I've one on Monday next. You'll take a trip, of course
 ?</p>
 </sp>
-<sp>
+<sp who="#L0001_F8">
 <speaker>Fan.</speaker>
 <p> Where am I trip to, and with whom ?<stage>(glancing)</stage>
 </p>
 </sp>
-<sp>
+<sp who="#L0001_M5">
 <speaker>Tact.</speaker>
 <p><stage>(aside)</stage>'Gad! I'll take her out. She has saved a little, I dare
 say. I'll sound her.<stage>(aloud)</stage>You'd like a trip, of course.</p>
 </sp>
-<sp>
+<sp who="#L0001_F8">
 <speaker>Fan.</speaker>
 <p> Ah, that I should ! Do you often take a trip, Mr. Tact ?</p>
 </sp>
-<sp>
+<sp who="#L0001_M5">
 <speaker>Tact.</speaker>
 <p> Oh yes, very often!<stage>(aside)</stage>Too often, on seventy-five pounds
 a-year.<stage>(aloud)</stage>What sort of trip would you like, Miss Fact?</p>
 </sp>
-<sp>
+<sp who="#L0001_F8">
 <speaker>Fan.</speaker>
 <p> Oh! suppose we say to Hampton Court by rail—dine—walk—then tea—back to
 Town—the theatre—home,—that's not much.</p>
 </sp>
-<sp>
+<sp who="#L0001_M5">
 <speaker>Tact.</speaker>
 <p><stage>(aside—takes out a long narrow entry-book)</stage>To Hampton per rail,
 5s.; dinner for two, 10s.; tea, 5s.—one pound; rail home, 5s.; theatre,
@@ -907,7 +949,7 @@ week's salary gone in one day. Accounts closed.<stage>(shuts book)</stage>Good
 morning, Miss Fact!</p>
 <stage> Exit suddenly, L.D.F. </stage>
 </sp>
-<sp>
+<sp who="#L0001_F8">
 <speaker>Fan.</speaker>
 <p> Well, I'm sure! Good day, Mr. Tact! A calculating gentleman,—nothing
 speculative about him but his eyes—has all the inclination for the enjoyments of
@@ -916,75 +958,75 @@ savings-bank.</p>
 
 </sp>
 <stage> Enter Leeson, L.D.F.</stage>
-<sp>
+<sp who="#L0001_M1">
 <speaker>Lee.</speaker>
 <p><stage>(aside)</stage>I'm quite impatient to know if Mathew will speak his
 mind to Laura.<stage>(aloud)</stage>Ha ! Miss Fact, what are you ruminating upon
 ?—a husband, or a new dress ?</p>
 </sp>
-<sp>
+<sp who="#L0001_F8">
 <speaker>Fan.</speaker>
 <p><stage>(R.)</stage>If I must confess the truth, Sir, within this last
 halfhour I've been thinking of both.</p>
 </sp>
-<sp>
+<sp who="#L0001_M1">
 <speaker>Lee.</speaker>
 <p><stage>(L.C.)</stage>Have you? Well, the dress I can manage—there
 !<stage>(gives money)</stage>
 </p>
 </sp>
-<sp>
+<sp who="#L0001_F8">
 <speaker>Fan.</speaker>
 <p> Thank you, Sir!</p>
 </sp>
-<sp>
+<sp who="#L0001_M1">
 <speaker>Lee.</speaker>
 <p> The husband, of course, you must manage yourself.</p>
 </sp>
-<sp>
+<sp who="#L0001_F8">
 <speaker>Fan.</speaker>
 <p> Ah, Sir!<stage>(sighs)</stage>husbands are scarce commodities; and I'm
 afraid, like many rarities, more in contemplation than possession.</p>
 </sp>
-<sp>
+<sp who="#L0001_M1">
 <speaker>Lee.</speaker>
 <p> Nonsense, girl; there's plenty of fish in the sea.</p>
 </sp>
-<sp>
+<sp who="#L0001_F8">
 <speaker>Fan.</speaker>
 <p> Yes, Sir, but husbands are not fish—you can't catch them half so easily.</p>
 </sp>
-<sp>
+<sp who="#L0001_M1">
 <speaker>Lee.</speaker>
 <p> Stuff!—you don't cast your net properly.</p>
 </sp>
-<sp>
+<sp who="#L0001_F8">
 <speaker>Fan.</speaker>
 <p><stage>(aside)</stage>I cast my eyes pretty well.<stage>(aloud)</stage>I
 think some, Sir, are doomed to fulfil the order of single blessedness.</p>
 </sp>
-<sp>
+<sp who="#L0001_M1">
 <speaker>Lee.</speaker>
 <p> Single blessedness ?—there never was such a thing!</p>
 </sp>
-<sp>
+<sp who="#L0001_F8">
 <speaker>Fan.</speaker>
 <p> Oh, yes! pardon me, Sir; I'm single.</p>
 </sp>
-<sp>
+<sp who="#L0001_M1">
 <speaker>Lee.</speaker>
 <p> And do you consider yourself blessed ?</p>
 </sp>
-<sp>
+<sp who="#L0001_F8">
 <speaker>Fan.</speaker>
 <p> I must be blessed—with a happy disposition to put up with it.</p>
 </sp>
-<sp>
+<sp who="#L0001_M1">
 <speaker>Lee.</speaker>
 <p> Egad ! that's an open confession—and it's true. No one can be happy without
 a partner. Did you ever contemplate a bachelor, Fanny?</p>
 </sp>
-<sp>
+<sp who="#L0001_F8">
 <speaker>Fan.</speaker>
 <p> A good many, Sir. I've contemplated them a long time. There's a sort of
 I'm-by-myself-I about him. He goes out for a day's enjoyment, and on arriving at
@@ -999,47 +1041,47 @@ fidgets—starts forth —returns towards home,—meets another lordly freeman, 
 blessed as himself—they join—they drink—get happy for the night, to wake more
 miserable in the morning.</p>
 </sp>
-<sp>
+<sp who="#L0001_M1">
 <speaker>Lee.</speaker>
 <p> Ha, ha, ha !—excellent! Now, tell me, have you ever heard my daughter talk
 of matrimony ?</p>
 </sp>
-<sp>
+<sp who="#L0001_F8">
 <speaker>Fan.</speaker>
 <p> Ah, Sir! She makes a jest of it. I often think she'll suffer for it in the
 end. </p>
 </sp>
-<sp>
+<sp who="#L0001_M1">
 <speaker>Lee.</speaker>
 <p> Does she ever speak of her cousin ?</p>
 </sp>
-<sp>
+<sp who="#L0001_F8">
 <speaker>Fan.</speaker>
 <p> I don't think she loves him, Sir.</p>
 </sp>
-<sp>
+<sp who="#L0001_M1">
 <speaker>Lee.</speaker>
 <p> Dear me! I was in hopes—in fact, I had made up my mind that she did.</p>
 </sp>
-<sp>
+<sp who="#L0001_F8">
 <speaker>Fan.</speaker>
 <p> That's it, Sir! Once let a young lady know that her father has a particular
 husband for her, she is sure to have a particular objection to him,—it's a sort
 of general rule amongst the fair.</p>
 </sp>
-<sp>
+<sp who="#L0001_M1">
 <speaker>Lee.</speaker>
 <p> Dear me !—you surprise me !—you astonish me !—you—— Hark!—they are at the
 door—I hear their horses.</p>
 </sp>
-<sp>
+<sp who="#L0001_F8">
 <speaker>Fan.</speaker>
 <p> I must go and attend her, Sir. Never you depend upon a woman's doing exactly
 what you want her,—it isn't natural to her, at all. <stage> Exit R. H.
 D.</stage></p>
 
 </sp>
-<sp>
+<sp who="#L0001_M1">
 <speaker>Lee.</speaker>
 <p> Bless my soul! Phooh ! I'm all in a twitter! Well, it will be a blow to poor
 Mathew; but we must let the matter work its own cure. I suppose time tries all.
@@ -1048,7 +1090,7 @@ Mathew; but we must let the matter work its own cure. I suppose time tries all.
 
 <stage> Enter Laura, C .from L., as in ill temper. </stage>
 
-<sp>
+<sp who="#L0001_F7">
 <speaker>Laura.</speaker>
 <p> I am vexed—annoyed—to be teazed thus ! I'll not bear it! I'll suffer it no
 longer ! My cousin never quitted my side,— Mr. Clinton, or his friend, could not
@@ -1059,93 +1101,93 @@ hinted at his promise that we should wed—seemed to expect it! But I'll not wed
 my cousin!—no, never—never !</p>
 <stage> Enter Mathew, C. from L.</stage>
 </sp>
-<sp>
+<sp who="#L0001_M2">
 <speaker>Mat.</speaker>
 <p> My dear Laura!</p>
 </sp>
-<sp>
+<sp who="#L0001_F7">
 <speaker>Laura.</speaker>
 <p><stage>(L.C.)</stage>Here again! Well, Mathew? <stage>(the point of her whip,
 or the chain, becomes entangled with one of the buttons of her riding-habit; she
 tries to disentangle it)</stage> Hang the whip!</p>
 </sp>
-<sp>
+<sp who="#L0001_M2">
 <speaker>Mat.</speaker>
 <p> Permit me.</p>
 </sp>
-<sp>
+<sp who="#L0001_F7">
 <speaker>Laura.</speaker>
 <p> No, I can do it myself, <stage>(tries)</stage> Deuce take the thing!</p>
 </sp>
-<sp>
+<sp who="#L0001_M2">
 <speaker>Mat.</speaker>
 <p> Allow me, cousin. <stage>(he disentangles it)</stage>
 </p>
 </sp>
-<sp>
+<sp who="#L0001_F7">
 <speaker>Laura.</speaker>
 <p>Thank you, Mathew. <stage>(he bows)</stage><stage>(aside)</stage> How he
 blushes!—silly fool!</p>
 </sp>
-<sp>
+<sp who="#L0001_M2">
 <speaker>Mat.</speaker>
 <p>
 <stage>(aside)</stage> I'll be this dolt no longer. I'll brave all—hem!— and
 know the worst, <stage>(aloud)</stage> Laura ?</p>
 </sp>
-<sp>
+<sp who="#L0001_F7">
 <speaker>Laura.</speaker>
 <p>
 <stage>(coldly, playing with whip)</stage> Well, what is it?</p>
 </sp>
 <pb n="12"/>
-<sp>
+<sp who="#L0001_M2">
 <speaker>Mat.</speaker>
 <p><stage>(aside)</stage>What is this fear—this trembling? Shame, Mathew! Are
 you a man ?</p>
 </sp>
-<sp>
+<sp who="#L0001_F7">
 <speaker>Laura.</speaker>
 <p><stage>(aside)</stage>I'll speak my thoughts at once, and end this—— that I
 will!<stage>(aloud)</stage>Cousin, you know that George Gordon the other day
 made me an offer of his hand, and that I refused him, through my father ?</p>
 </sp>
-<sp>
+<sp who="#L0001_M2">
 <speaker>Mat.</speaker>
 <p><stage>(trembling)</stage>I do, cousin.</p>
 </sp>
-<sp>
+<sp who="#L0001_F7">
 <speaker>Laura.</speaker>
 <p> Shall I tell you why?</p>
 </sp>
-<sp>
+<sp who="#L0001_M2">
 <speaker>Mat.</speaker>
 <p><stage>(aside)</stage>How I dread the word!<stage>(aloud)</stage>Yes, if you
 please.</p>
 </sp>
-<sp>
+<sp who="#L0001_F7">
 <speaker>Laura.</speaker>
 <p> Because I see no charm in marriage—because I do not feel that I can ever
 love sufficiently to confer happiness on any one.</p>
 </sp>
-<sp>
+<sp who="#L0001_M2">
 <speaker>Mat.</speaker>
 <p><stage>(affected, starts)</stage>Oh, Laura, say not so !</p>
 </sp>
-<sp>
+<sp who="#L0001_F7">
 <speaker>Laura.</speaker>
 <p> I say so—feel so, Mathew. My choice, if my heart would lead me to it, would
 be to fulfil my father's wish, and (you willing) to become your wife,—but that
 can never be !</p>
 </sp>
-<sp>
+<sp who="#L0001_M2">
 <speaker>Mat.</speaker>
 <p> Never, Laura?<stage>(scarcely able to utter the words)</stage>Then, had I,
 from infancy till now, looked on you with love—if, as time brought manhood, that
 love had fulled to adoration—that I had hoped to win you—to bind myself nearer
 to you—to your father: to become, indeed, his son,—that hope—that passion——</p>
 </sp>
-<sp>
+<sp who="#L0001_F7">
 <speaker>Laura.</speaker>
 <p> Would be hopeless—vain! If such <hi>has</hi> been your hope, dismiss it from
 your heart—your mind. I can look for no other happiness than in the affection I
@@ -1154,7 +1196,7 @@ treasured other thoughts, discard them, Mathew; and, as a sister only, take my
 hand.<stage>(with cold pride)</stage>
 </p>
 </sp>
-<sp>
+<sp who="#L0001_M2">
 <speaker>Mat.</speaker>
 <p><stage>(with a struggle, and much emotion)</stage>'Tis over!<stage>(placing
 his hand to his eyes—looks at her—takes her hand, kisses it respectfully, and
@@ -1162,7 +1204,7 @@ hurries up)</stage>
 </p>
 </sp>
 <stage> Exit L.H.D. </stage>
-<sp>
+<sp who="#L0001_F7">
 <speaker>Laura.</speaker>
 <p> He's gone ! The truth is told ! Will he to my father ?— and will he force
 this bargained match ? If he attempt it, I'll quit the house—wander penniless
@@ -1170,25 +1212,25 @@ rather than wed! I cannot, and I <hi>will</hi> not, marry him!</p>
 </sp>
 <stage> Enter Leeson, L.H.D.</stage>
 
-<sp>
+<sp who="#L0001_M1">
 <speaker>Lee.</speaker>
 <p> Well, Laura, have you enjoyed your ride, eh?</p>
 </sp>
-<sp>
+<sp who="#L0001_F7">
 <speaker>Laura.</speaker>
 <p><stage>(with contempt)</stage>Oh, yes—much!</p>
 </sp>
-<sp>
+<sp who="#L0001_M1">
 <speaker>Lee.</speaker>
 <p> And Mathew, your cousin, how did he behave?</p>
 </sp>
-<sp>
+<sp who="#L0001_F7">
 <speaker>Laura.</speaker>
 <p><stage>(with passion)</stage>Father! talk not to me of my cousin ! Tis ever
 thus—cousin ! cousin! cousin!<stage>(walks about)</stage>
 </p>
 </sp>
-<sp>
+<sp who="#L0001_M1">
 <speaker>Lee.</speaker>
 <p> Bless my soul! is the girl out of her senses ? Come, come, no more of this!
 Go and dress for dinner, for you know Charles Clinton and his friend join us.
@@ -1196,17 +1238,17 @@ Go and dress for dinner, for you know Charles Clinton and his friend join us.
 </sp>
 <stage> Enter Clinton and Yawn, C. from L. </stage>
 
-<sp>
+<sp who="#L0001_M4">
 <speaker>Clin.</speaker>
 <p> Here we are, you see—perfectly prepared for an evening's enjoyment,—are we
 not, Augustus?</p>
 </sp>
-<sp>
+<sp who="#L0001_M3">
 <speaker>Yawn.</speaker>
 <p> Ye-es, perfectly.<stage>(yawns)</stage>
 </p>
 </sp>
-<sp>
+<sp who="#L0001_M1">
 <speaker>Lee.</speaker>
 <p> And we'll have one, gentlemen.<stage>(to Laura)</stage>Come, go and
 prepare—that's a dear.<stage>(as she is going,)</stage>
@@ -1214,46 +1256,46 @@ prepare—that's a dear.<stage>(as she is going,)</stage>
 </sp>
 <stage> Enter John, L.H.D.</stage>
 
-<sp>
+<sp who="#L0001_M6">
 <speaker>John.</speaker>
 <p> A letter for Miss Laura.</p>
 </sp>
 <pb n="13"/>
-<sp>
+<sp who="#L0001_F7">
 <speaker>Laura.</speaker>
 <p>
 <stage>(starts)</stage> Ha!—from whom ?</p>
 </sp>
-<sp>
+<sp who="#L0001_M6">
 <speaker>John.</speaker>
 <p> Mr. Bates.</p>
 </sp>
-<sp>
+<sp who="#L0001_M1">
 <speaker>Lee.</speaker>
 <p><stage>( surprised)</stage> From Mathew?</p>
 </sp>
-<sp>
+<sp who="#L0001_M6">
 <speaker>John.</speaker>
 <p> Yes, Sir. <stage>Exit.</stage></p>
 </sp>
-<sp>
+<sp who="#L0001_M1">
 <speaker>Lee.</speaker>
 <p> Read, read, Laura! <stage>(to Clinton)</stage>Will you excuse ?</p>
 </sp>
-<sp>
+<sp who="#L0001_M4">
 <speaker>Clin.</speaker>
 <p> Oh, certainly ! <stage>(he and Yawn retire to table R.H.)</stage></p>
 </sp>
-<sp>
+<sp who="#L0001_F7">
 <speaker>Laura.</speaker>
 <p><stage>( aside, as she opens the letter, and very firmly)</stage> He shall
 not move me!</p>
 </sp>
-<sp>
+<sp who="#L0001_M1">
 <speaker>Lee.</speaker>
 <p> Read, girl, read!</p>
 </sp>
-<sp>
+<sp who="#L0001_F7">
 <speaker>Laura.</speaker>
 <p><stage>( reads)</stage> "I thank you, Laura, for sparing me the torture of
 open rejection ; yet, the suffering is still the same—the wound as fatal. I
@@ -1261,46 +1303,46 @@ madly—wildly worshipped you;—'tis over—my sentence by your lips pronounced
 wish shall be obeyed; and, until I can regard you as a sister, you shall never
 feel pain by your cousin —and now wretched—Mathew Bates."</p>
 </sp>
-<sp>
+<sp who="#L0001_M1">
 <speaker>Lee.</speaker>
 <p> You, then, have rejected him ?</p>
 </sp>
-<sp>
+<sp who="#L0001_F7">
 <speaker>Laura.</speaker>
 <p><stage>( with pride)</stage> I have!</p>
 </sp>
-<sp>
+<sp who="#L0001_M1">
 <speaker>Lee.</speaker>
 <p> And he! Where is he ?<stage>( rings bell)</stage> John, John!</p>
 </sp>
 <stage> Enter John, C. </stage>
 
-<sp>
+<sp who="#L0001_M1">
 <speaker>Lee.</speaker>
 <p> Mr. Bates—where is he ?</p>
 </sp>
-<sp>
+<sp who="#L0001_M6">
 <speaker>John.</speaker>
 <p> I know not, Sir. When he gave me that letter, a coach had been sent for; he
 stepped into it, and drove away.</p>
 </sp>
-<sp>
+<sp who="#L0001_M1">
 <speaker>Leeson.</speaker>
 <p>
 <stage>(looks at Laura)</stage></p>
 </sp>
-<sp>
+<sp who="#L0001_F7">
 <speaker>Laura.</speaker>
 <p>
 <stage>(looks at him firmly, and with pride; Leeson is checked by her
 look)</stage> Well!</p>
 </sp>
-<sp>
+<sp who="#L0001_M1">
 <speaker>Lee.</speaker>
 <p><stage>(L.H.)</stage>Daughter! <stage>(sinks into a chair)</stage> Mathew, my
 poor lost boy! Gone—gone !</p>
 </sp>
-<sp>
+<sp who="#L0001_F7">
 <speaker>Laura.</speaker>
 <p><stage>(C.)</stage>I have triumphed, and now—I am free!</p>
 </sp>
@@ -1312,60 +1354,60 @@ rapidly.</stage>
 <head>Act II</head>
 <stage type="setting">Scene. — Same as First Act.</stage>
 <stage> Laura is discovered reading, and Fanny Fact attending.</stage>
-<sp>
+<sp who="#L0001_F7">
 <speaker>Laura.</speaker>
 <p>
 <stage>(looking at books one after the other)</stage> I told you to bring books
 to amuse me, Fanny, not books like these.</p>
 </sp>
-<sp>
+<sp who="#L0001_F8">
 <speaker>Fan.</speaker>
 <p> La, Miss! I declare I don't know how to please you; I brought a catalogue
 with a list of every book the man had in his shop, and you couldn't choose
 yourself; how was I to know what you wished to read ?</p>
 </sp>
-<sp>
+<sp who="#L0001_F7">
 <speaker>Laura.</speaker>
 <p>
 <stage>(impatiently)</stage> I wished to read something that would interest
 me.</p>
 </sp>
 <pb n="14"/>
-<sp>
+<sp who="#L0001_F8">
 <speaker>Fan.</speaker>
 <p> Well, I asked for something interesting, something about love and trouble,
 ending with a happy marriage.</p>
 </sp>
-<sp>
+<sp who="#L0001_F7">
 <speaker>Laura.</speaker>
 <p> Love—marriage! What is there interesting in such trash ?</p>
 </sp>
-<sp>
+<sp who="#L0001_F8">
 <speaker>Fan.</speaker>
 <p><stage>(aside)</stage>Dear me, what profanation!<stage>(aloud)</stage>Really,
 Miss, I can't think how you can talk so. A love tale, to me, is the most
 delicious reading.</p>
 </sp>
-<sp>
+<sp who="#L0001_F7">
 <speaker>Laura.</speaker>
 <p> To you, perhaps; but to me 'tis folly—madness.</p>
 </sp>
-<sp>
+<sp who="#L0001_F8">
 <speaker>Fan.</speaker>
 <p> Ah, Miss Laura, you may depend upon it there's something wrong in your mind,
 something that you don't comprehend yourself, or you would never talk as you do.
 If love is madness, it is the most agreeable madness I know of; and as for
 matrimony, that always brings people to their senses, they say.</p>
 </sp>
-<sp>
+<sp who="#L0001_F7">
 <speaker>Laura.</speaker>
 <p><stage>(angrily)</stage>Go—leave me—go!</p>
 </sp>
-<sp>
+<sp who="#L0001_F8">
 <speaker>Fan.</speaker>
 <p> Certainly, Miss. <stage> Exit C.</stage></p>
 </sp>
-<sp>
+<sp who="#L0001_F7">
 <speaker>Laura.</speaker>
 <p> Three years since, Mathew left us, to superintend our foreign house at
 Lyons. Three years! I thought myself then free— free as the bird that skims the
@@ -1383,39 +1425,39 @@ pain I caused him strikes the chords of self-reproach, till I am unfit for
 converse or society.</p>
 </sp>
 <stage> Enter Mr. Leeson, with letter, L.H.D.</stage>
-<sp>
+<sp who="#L0001_M1">
 <speaker>Lee.</speaker>
 <p> Here she is. News, daughter, news—a letter from Mathew ! </p>
 </sp>
-<sp>
+<sp who="#L0001_F7">
 <speaker>Laura.</speaker>
 <p><stage>(R.C.)</stage>Ha!</p>
 </sp>
-<sp>
+<sp who="#L0001_M1">
 <speaker>Lee.</speaker>
 <p><stage>(L.C.)</stage>Capital returns from our Lyons house—more large
 profits—more——</p>
 </sp>
-<sp>
+<sp who="#L0001_F7">
 <speaker>Laura.</speaker>
 <p> Tell me, is Mathew well ?</p>
 </sp>
-<sp>
+<sp who="#L0001_M1">
 <speaker>Lee.</speaker>
 <p> Well? to be sure he is—in robust health, if we may judge by his letter—here,
 read—here's something about you.<stage>(gives it)</stage>
 </p>
 </sp>
-<sp>
+<sp who="#L0001_F7">
 <speaker>Laura.</speaker>
 <p><stage>(eagerly)</stage>Me?</p>
 </sp>
-<sp>
+<sp who="#L0001_M1">
 <speaker>Lee.</speaker>
 <p><stage>(points to the portion of Letter)</stage>Yes, there it is. 'Gad, I'm
 so happy to hear from the young dog.</p>
 </sp>
-<sp>
+<sp who="#L0001_F7">
 <speaker>Laura.</speaker>
 <p><stage>(reads)</stage>"To my cousin Laura, kindly remember me. I trust my
 absence has improved her temper and her spirits. You surprise me by the
@@ -1425,70 +1467,70 @@ to look upon her only as a sister."<stage>(she drops the letter and appears to
 be sinking)</stage>
 </p>
 </sp>
-<sp>
+<sp who="#L0001_M1">
 <speaker>Lee.</speaker>
 <p> What's the matter ? Dear me, you are fainting—where's your salts ?—here,
 Fanny!<stage>(about to ring)</stage>
 </p>
 </sp>
-<sp>
+<sp who="#L0001_F7">
 <speaker>Laura.</speaker>
 <p><stage>(recovering)</stage>'Tis nothing—nothing!</p>
 </sp>
 <pb n="15"/>
-<sp>
+<sp who="#L0001_M1">
 <speaker>Lee.</speaker>
 <p>
 <stage>(suspiciously)</stage> Nothing! It looked very like something; you are
 not sorry, I suppose, that Mathew has been wise enough to obey your commands—you
 wouldn't have him fool enough to love you still ?</p>
 </sp>
-<sp>
+<sp who="#L0001_F7">
 <speaker>Laura.</speaker>
 <p>
 <stage>(unable to restrain her emotion)</stage> Love me!—he never loved me.</p>
 </sp>
-<sp>
+<sp who="#L0001_M1">
 <speaker>Lee.</speaker>
 <p> Come, come, don't wrong him; you should have seen him before he left us, as
 I did—he loved you too well, my girl.</p>
 </sp>
-<sp>
+<sp who="#L0001_F7">
 <speaker>Laura.</speaker>
 <p> Well, I am grateful for his kindness in <hi>forgetting</hi> me. It was my
 gratitude for that, caused my tremor. <stage>(with a struggle)</stage> I'm sure
 I thank him for his heroism, and were he here I would thank him.
 <stage>(aside)</stage> He shall not see that I am suffering.</p>
 </sp>
-<sp>
+<sp who="#L0001_M1">
 <speaker>Lee.</speaker>
 <p> He will be here shortly.</p>
 </sp>
-<sp>
+<sp who="#L0001_F7">
 <speaker>Laura.</speaker>
 <p> Ha—here !</p>
 </sp>
-<sp>
+<sp who="#L0001_M1">
 <speaker>Lee.</speaker>
 <p> Yes, here. He tells me he shall shortly surprise us with a visit.</p>
 </sp>
-<sp>
+<sp who="#L0001_F7">
 <speaker>Laura.</speaker>
 <p> And to remain with us ?</p>
 </sp>
-<sp>
+<sp who="#L0001_M1">
 <speaker>Lee.</speaker>
 <p> Oh, no—he says he's too happy where he is; the country is so pleasant, the
 society so inviting, everything so gay, his friends so numerous, that he prefers
 Lyons to England.</p>
 </sp>
-<sp>
+<sp who="#L0001_F7">
 <speaker>Laura.</speaker>
 <p>
 <stage>(chafed)</stage> He does, indeed! <stage>(aside)</stage> Fool that I have
 been to think of him, to remember him !</p>
 </sp>
-<sp>
+<sp who="#L0001_M1">
 <speaker>Lee.</speaker>
 <p> I have more pleasant news than that for you, for in a letter I have from his
 confidential clerk, he tells me<stage>(though I was to keep it a
@@ -1496,38 +1538,38 @@ secret)</stage>that he—ha, ha, ha !—that Mathew was—— <stage>(smothers a
 laugh)</stage>
 </p>
 </sp>
-<sp>
+<sp who="#L0001_F7">
 <speaker>Laura.</speaker>
 <p>
 <stage>(eagerly, as if in apprehension)</stage> Well?</p>
 </sp>
-<sp>
+<sp who="#L0001_M1">
 <speaker>Lee.</speaker>
 <p> Was about to be married—ha, ha, ha!</p>
 </sp>
-<sp>
+<sp who="#L0001_F7">
 <speaker>Laura.</speaker>
 <p>
 <stage>(starts)</stage> Married?</p>
 </sp>
-<sp>
+<sp who="#L0001_M1">
 <speaker>Lee.</speaker>
 <p> Yes, to a beautiful English lady he met there, and who is now in England,
 and that that was the secret of his being about to visit us; ha, ha, ha! 'Gad !
 he's a sly dog—well, I hope he'll be happy.</p>
 </sp>
 <stage> Enter John, C. </stage>
-<sp>
+<sp who="#L0001_M6">
 <speaker>John.</speaker>
 <p> A card, Sir—the gentleman waits.</p>
 </sp>
-<sp>
+<sp who="#L0001_M1">
 <speaker>Lee.</speaker>
 <p> I'll come to him; don't go away, Laura, I'll not be long; I I want to talk
 to you—where is the gentleman ?</p>
 <stage> Exit with John, C.</stage>
 </sp>
-<sp>
+<sp who="#L0001_F7">
 <speaker>Laura.</speaker>
 <p>
 <stage>(sinks into chair)</stage> The blow has come—the blow I merit, courted,
@@ -1542,79 +1584,79 @@ I will—I will! <stage>(with determined pettishness)</stage> I'll wed the first
 man that offers. <stage>(crossing to L.H.)</stage></p>
 </sp>
 <stage> Enter John, C. </stage>
-<sp>
+<sp who="#L0001_M6">
 <speaker>John.</speaker>
 <p> The Honourable Mr. Yawn.</p>
 </sp>
 <pb n="16"/>
-<sp>
+<sp who="#L0001_F7">
 <speaker>Laura.</speaker>
 <p> Ha! 'tis well. Shew him in.</p>
 <stage> Exit John, C. </stage>
 <p>—Now will I show my father how much I care for Mathew.</p>
 </sp>
 <stage> {John shews in Yawn, C, and exits C.</stage>
-<sp>
+<sp who="#L0001_F7">
 <speaker>Laura.</speaker>
 <p> Mr. Yawn, I'm delighted to see you.</p>
 </sp>
-<sp>
+<sp who="#L0001_M3">
 <speaker>Yawn.</speaker>
 <p> I bow. <stage>(they sit, he in an easy stuffed chair, R. of table, Laura
 L.H.)</stage>Really you're too kind.</p>
 </sp>
-<sp>
+<sp who="#L0001_F7">
 <speaker>Laura.</speaker>
 <p> Dear me, what a stranger you have been to us ! Why, 'tis six month's since
 you were with us, Mr. Yawn.</p>
 </sp>
-<sp>
+<sp who="#L0001_M3">
 <speaker>Yawn.</speaker>
 <p> Ye-es—I dare say—Charles and I have been down to Melton for the excitement
 of the steeplechase, for some time; <stage>(yawns)</stage> for we got dreadfully
 stupid in town.</p>
 </sp>
-<sp>
+<sp who="#L0001_F7">
 <speaker>Laura.</speaker>
 <p> I have read of the sport, but never witnessed it.</p>
 </sp>
-<sp>
+<sp who="#L0001_M3">
 <speaker>Yawn.</speaker>
 <p> Then you have lost one of the greatest treats in existence, Miss
 Leeson—really.</p>
 </sp>
-<sp>
+<sp who="#L0001_F7">
 <speaker>Laura.</speaker>
 <p> 'Tis a most dangerous sport, is it not?</p>
 </sp>
-<sp>
+<sp who="#L0001_M3">
 <speaker>Yawn.</speaker>
 <p> That's the charm! Can you imagine a more gratifying and lively sensation
 than being in danger of breaking your neck, for a whole half-hour together ?</p>
 </sp>
-<sp>
+<sp who="#L0001_F7">
 <speaker>Laura.</speaker>
 <p> It must be very exciting indeed!</p>
 </sp>
-<sp>
+<sp who="#L0001_M3">
 <speaker>Yawn.</speaker>
 <p> You can't conceive—really— <stage>(yawns)</stage>
 </p>
 </sp>
-<sp>
+<sp who="#L0001_F7">
 <speaker>Laura.</speaker>
 <p>
 <hi>You</hi> rode, of course.</p>
 </sp>
-<sp>
+<sp who="#L0001_M3">
 <speaker>Yawn.</speaker>
 <p> Oh, ye-es; but I met with a very serious accident on the first day.</p>
 </sp>
-<sp>
+<sp who="#L0001_F7">
 <speaker>Laura.</speaker>
 <p> Indeed!</p>
 </sp>
-<sp>
+<sp who="#L0001_M3">
 <speaker>Yawn.</speaker>
 <p> Ye-es. Five of us were neck-and-neck, about a hundred yards from a rasper.
 Set to it, and went over it gloriously—that is, <hi>they</hi> did. I thought I
@@ -1622,29 +1664,29 @@ was following them. However, when the affair was over, I was nowhere to be seen,
 and, on going in seach of me, I was found in a perfect state of insensibility, a
 few yards from the rasper.</p>
 </sp>
-<sp>
+<sp who="#L0001_F7">
 <speaker>Laura.</speaker>
 <p> Were you hurt?</p>
 </sp>
-<sp>
+<sp who="#L0001_M3">
 <speaker>Yawn.</speaker>
 <p> No.<stage>(yawns)</stage>
 </p>
 </sp>
-<sp>
+<sp who="#L0001_F7">
 <speaker>Laura.</speaker>
 <p> Your horse ?</p>
 </sp>
-<sp>
+<sp who="#L0001_M3">
 <speaker>Yawn.</speaker>
 <p> No.<stage>(yawns)</stage>
 </p>
 </sp>
-<sp>
+<sp who="#L0001_F7">
 <speaker>Laura.</speaker>
 <p> Had he thrown you ?</p>
 </sp>
-<sp>
+<sp who="#L0001_M3">
 <speaker>Yawn.</speaker>
 <p>
 <stage>(yawning)</stage> Can't possibly say. It was a mystery to me, and
@@ -1652,160 +1694,160 @@ everybody else. The medical gentleman said, it must have been a <hi>sudden
 stoppage</hi> of the action of the brain; for I was fast asleep, and my horse
 browsing by my side.</p>
 </sp>
-<sp>
+<sp who="#L0001_F7">
 <speaker>Laura.</speaker>
 <p> Ha, ha, ha! unaccountable indeed.</p>
 </sp>
-<sp>
+<sp who="#L0001_M3">
 <speaker>Yawn.</speaker>
 <p> Caused a wonderful sensation in the neighbourhood. Strange instance of an
 overwrought imagination. <stage>(yawns)</stage> Mr. Leeson tells ine that you
 have not yet made any man happy by consenting to become his.</p>
 </sp>
-<sp>
+<sp who="#L0001_F7">
 <speaker>Laura.</speaker>
 <p> No, Sir, I am still free—still unchained.</p>
 </sp>
-<sp>
+<sp who="#L0001_M3">
 <speaker>Yawn.</speaker>
 <p> I—a— <stage>(yawns)</stage> have been induced to make this visit here, to
 assure you, that your beauty, temper, grace, naivete, have ever made a lively
 impression upon my— —<stage>(yawns)</stage>
 </p>
 </sp>
-<sp>
+<sp who="#L0001_F7">
 <speaker>Laura.</speaker>
 <p> Sir?</p>
 </sp>
-<sp>
+<sp who="#L0001_M3">
 <speaker>Yawn.</speaker>
 <p><stage>(looking at her)</stage>Eh ?</p>
 </sp>
 <pb n="17"/>
-<sp>
+<sp who="#L0001_F7">
 <speaker>Laura.</speaker>
 <p> What did you say ?</p>
 </sp>
-<sp>
+<sp who="#L0001_M3">
 <speaker>Yawn.</speaker>
 <p> Oh, I was saying that you had made a lively impression upon my heart.
 <stage>(yawns)</stage>
 </p>
 </sp>
-<sp>
+<sp who="#L0001_F7">
 <speaker>Laura.</speaker>
 <p> Well, Sir, proceed.</p>
 </sp>
-<sp>
+<sp who="#L0001_M3">
 <speaker>Yawn.</speaker>
 <p> I can assure you I should experience the greatest happiness if I could
 prevail upon you to—— <stage>(yawns)</stage>
 </p>
 </sp>
-<sp>
+<sp who="#L0001_F7">
 <speaker>Laura.</speaker>
 <p> To what, Sir ?</p>
 </sp>
-<sp>
+<sp who="#L0001_M3">
 <speaker>Yawn.</speaker>
 <p> To bless me with your consent to become the Honourable —Mrs.
 George—Gustus—Yaw-a-a-aw! <stage>(stretches his legs forward, drops his hat, and
 falls asleep)</stage>
 </p>
 </sp>
-<sp>
+<sp who="#L0001_F7">
 <speaker>Laura.</speaker>
 <p>
 <stage>(looks at him, and then exclaims)</stage> Oh, Mathew, Mathew!</p>
 </sp>
 <stage> Enter Mr. Leeson quickly, C.</stage>
-<sp>
+<sp who="#L0001_M1">
 <speaker>Lee.</speaker>
 <p> Where's Mr. Yawn ?—well, Laura, has Mr. Yawn waked you to a little reason,
 eh ?</p>
 </sp>
-<sp>
+<sp who="#L0001_F7">
 <speaker>Laura.</speaker>
 <p>
 <stage>(rising)</stage> Perhaps, Sir, you'll wake him, and he'll tell you.</p>
 </sp>
-<sp>
+<sp who="#L0001_M1">
 <speaker>Lee.</speaker>
 <p> Bless my soul!—why, Mr. Yawn—Mr. Yawn!</p>
 </sp>
-<sp>
+<sp who="#L0001_M3">
 <speaker>Yawn.</speaker>
 <p> Eh?—ye-es.</p>
 </sp>
-<sp>
+<sp who="#L0001_M1">
 <speaker>Lee.</speaker>
 <p>
 <stage>(aside)</stage> Have you proposed ?</p>
 </sp>
-<sp>
+<sp who="#L0001_M3">
 <speaker>Yawn.</speaker>
 <p> Ye-es.</p>
 </sp>
-<sp>
+<sp who="#L0001_M1">
 <speaker>Lee.</speaker>
 <p>
 <stage>(aside)</stage> What said she ?</p>
 </sp>
-<sp>
+<sp who="#L0001_M3">
 <speaker>Yawn.</speaker>
 <p> I don't think she said anything.</p>
 </sp>
-<sp>
+<sp who="#L0001_F7">
 <speaker>Laura.</speaker>
 <p> Father, I would be alone, <stage>(to Yawn)</stage>Sir, you will favour me by
 retiring.</p>
 </sp>
-<sp>
+<sp who="#L0001_M3">
 <speaker>Yawn.</speaker>
 <p> Certainly, with pleasure—I'm going to Brighton for a month—when I return
 I'll drop in—grateful for this reception, really —adieu! <stage>(yawns)</stage>
 </p>
 <stage> Exit, C.</stage>
 </sp>
-<sp>
+<sp who="#L0001_M1">
 <speaker>Lee.</speaker>
 <p>
 <stage>(laughing)</stage> You won't have him, I see.</p>
 </sp>
-<sp>
+<sp who="#L0001_F7">
 <speaker>Laura.</speaker>
 <p><stage>(quickly)</stage>No!</p>
 </sp>
-<sp>
+<sp who="#L0001_M1">
 <speaker>Lee.</speaker>
 <p> Well, I didn't expect you would, so that's soon settled. I want to talk to
 you very seriously; do you never intend to marry anybody ? for you have rejected
 every one as yet. 'Gad ! you seem to have an antidote against love.</p>
 </sp>
-<sp>
+<sp who="#L0001_F7">
 <speaker>Laura.</speaker>
 <p>
 <stage>(coaxingly, and laying her hand upon his shoulder, playfully)</stage>
 Now, papa, are you so eager to part with me? and are you tired of me?</p>
 </sp>
-<sp>
+<sp who="#L0001_M1">
 <speaker>Lee.</speaker>
 <p> No, no, you little gipsey, no; you are my only joy, now Mathew is gone from
 me.</p>
 </sp>
-<sp>
+<sp who="#L0001_F7">
 <speaker>Laura.</speaker>
 <p><stage>(R.)</stage>Then, why wish me to marry ?</p>
 </sp>
-<sp>
+<sp who="#L0001_M1">
 <speaker>Lee.</speaker>
 <p> Zounds! Don't all marry ?</p>
 </sp>
-<sp>
+<sp who="#L0001_F7">
 <speaker>Laura.</speaker>
 <p> Not all.</p>
 </sp>
-<sp>
+<sp who="#L0001_M1">
 <speaker>Lee.</speaker>
 <p> Yes ! All who have hearts to feel and eyes to admire. I was but seventeen
 when I was over head and ears in love with your mother; and truly I believe, if
@@ -1815,12 +1857,12 @@ to acheive reward for all; for I met a kind eye to look upon, a heart to feel
 for me—to guide me through every difficulty. And, more than that, I found that I
 toiled for other than myself.</p>
 </sp>
-<sp>
+<sp who="#L0001_F7">
 <speaker>Laura.</speaker>
 <p> Ha ! ha! ha! Romance, dear papa, romance !</p>
 </sp>
 <pb n="18"/>
-<sp>
+<sp who="#L0001_M1">
 <speaker>Lee.</speaker>
 <p> No, no! Sense—good sense—common sense, which, in spite of all schoolmen and
 philosophers may say, is the best of sense. Now, only think, when I die—and I
@@ -1829,96 +1871,96 @@ Only think of that. Isn't it chilling ? Wh-o-o—doesn't it make one freeze—sh
 ? Oh ! my dear Laura,<stage>( with fervour)</stage> do marry somebody—that's a
 good girl!</p>
 </sp>
-<sp>
+<sp who="#L0001_F7">
 <speaker>Laura.</speaker>
 <p> Don't be silly, father.</p>
 </sp>
-<sp>
+<sp who="#L0001_M1">
 <speaker>Lee.</speaker>
 <p> Well, fathers are fools, I suppose; at least, their children think them so.
 <stage>(sighs)</stage> Ah ! I did once hope to see you Mrs. Mathew Bates, but I
 have long given up that idea—and so must you now, even if you loved him;—he has
 got another.</p>
 </sp>
-<sp>
+<sp who="#L0001_F7">
 <speaker>Laura.</speaker>
 <p>
 <stage>(forgetting, and with force)</stage> Another?</p>
 </sp>
-<sp>
+<sp who="#L0001_M1">
 <speaker>Lee.</speaker>
 <p>
 <stage>(starts)</stage> Bless me! Don't look at me in that way—they say he
 has.</p>
 </sp>
-<sp>
+<sp who="#L0001_F7">
 <speaker>Laura.</speaker>
 <p> They say ? They say everything, when nothing is ever said. Men
 gossips—tattlers—prating fools—idiots!</p>
 </sp>
-<sp>
+<sp who="#L0001_M1">
 <speaker>Lee.</speaker>
 <p>
 <stage>(stares — she walks about)</stage> Well, my dear, I only spoke from
 report.</p>
 </sp>
-<sp>
+<sp who="#L0001_F7">
 <speaker>Laura.</speaker>
 <p> Report's a common liar, Sir. And if he <hi>has</hi> another, what is that to
 you, or me, or any one ?</p>
 </sp>
-<sp>
+<sp who="#L0001_M1">
 <speaker>Lee.</speaker>
 <p> Nothing to you, of course. You would not have him—that's no reason another
 should not.</p>
 </sp>
-<sp>
+<sp who="#L0001_F7">
 <speaker>Laura.</speaker>
 <p> Father!</p>
 </sp>
-<sp>
+<sp who="#L0001_M1">
 <speaker>Lee.</speaker>
 <p> Daughter!</p>
 </sp>
-<sp>
+<sp who="#L0001_F7">
 <speaker>Laura.</speaker>
 <p> Speak not to me of this—of him—or her—or——</p>
 </sp>
 <stage> Enter FanNy, C, breathless. </stage>
-<sp>
+<sp who="#L0001_F8">
 <speaker>Fan.</speaker>
 <p> Oh, Sir!—Oh, Miss!</p>
 </sp>
-<sp>
+<sp who="#L0001_M1">
 <speaker>Lee.</speaker>
 <p> What?</p>
 </sp>
-<sp>
+<sp who="#L0001_F8">
 <speaker>Fan.</speaker>
 <p>
 <stage>(up stage, C.)</stage>Mr. Mathew Bates!</p>
 </sp>
-<sp>
+<sp who="#L0001_M1">
 <speaker>Lee.</speaker>
 <p> Well; I have just received a letter from him.</p>
 </sp>
-<sp>
+<sp who="#L0001_F8">
 <speaker>Fan.</speaker>
 <p> Then he must have brought it himself, for he's at the door. </p>
 </sp>
-<sp>
+<sp who="#L0001_F7">
 <speaker>Laura.</speaker>
 <p> Ha!</p>
 </sp>
-<sp>
+<sp who="#L0001_M1">
 <speaker>Lee.</speaker>
 <p> At the door !—it must be his ghost.</p>
 </sp>
-<sp>
+<sp who="#L0001_F8">
 <speaker>Fan.</speaker>
 <p> Oh! no, Sir; he shook me by the hand—real flesh and blood.</p>
 </sp>
-<sp>
+<sp who="#L0001_M1">
 <speaker>Lee.</speaker>
 <p> Phooh! It has quite alarmed me— <stage>(to Laura, who is nearly
 sinking)</stage> There, now; don't look so—that's a dear. Don't be alarmed—he
@@ -1926,7 +1968,7 @@ has not come to ask your hand—you are quite safe. I'll run and welcome him.
 <stage>(as he is going)</stage>
 </p>
 </sp>
-<sp>
+<sp who="#L0001_F8">
 <speaker>Fan.</speaker>
 <p> He is here, Sir.</p>
 </sp>
@@ -1934,50 +1976,50 @@ has not come to ask your hand—you are quite safe. I'll run and welcome him.
 <stage>Mathew {bears an altogether different appearance than in the first act —
 his dress is fashionable and elegant — his hair in a different form — and whole
 manner distinguè.</stage>
-<sp>
+<sp who="#L0001_M1">
 <speaker>Lee.</speaker>
 <p> Ah! Mathew, my boy!—ten thousand welcomes. <stage>(shakes his hand
 warmly)</stage>
 </p>
 </sp>
-<sp>
+<sp who="#L0001_M2">
 <speaker>Mat.</speaker>
 <p><stage>(C.)</stage>I rejoice to see you, Sir. Ha! Laura! your hand.
 <stage>(as he extends his hand she runs eagerly, then stops, as
 recollecting)</stage>
 </p>
 </sp>
-<sp>
+<sp who="#L0001_F7">
 <speaker>Laura.</speaker>
 <p>
 <stage>(kindly, R.C.)</stage>Welcome, cousin.</p>
 </sp>
 <pb n="19"/>
-<sp>
+<sp who="#L0001_M2">
 <speaker>Mat.</speaker>
 <p> Nay, Laura, do not shrink from me—do not fear me now. You remember my
 promise on my departure—never to return till I could regard you as my sister; I
 can do so now—so, sister your hand.</p>
 </sp>
-<sp>
+<sp who="#L0001_F7">
 <speaker>Laura.</speaker>
 <p> 'Tis yours, Mathew.</p>
 </sp>
-<sp>
+<sp who="#L0001_M1">
 <speaker>Lee.</speaker>
 <p> Why, bless me, Mathew—you have grown!</p>
 </sp>
-<sp>
+<sp who="#L0001_M2">
 <speaker>Mat.</speaker>
 <p> Grown, Sir? <stage>(laughing)</stage>
 </p>
 </sp>
-<sp>
+<sp who="#L0001_M1">
 <speaker>Lee.</speaker>
 <p> No, I don't mean grown, I mean you have improved. You don't look the same
 man—your cheeks, your hair, and eyes, shine with their boyish lustre.</p>
 </sp>
-<sp>
+<sp who="#L0001_M2">
 <speaker>Mat.</speaker>
 <p> I am a boy <hi>again,</hi> Sir! I return a cured patient. Time, with its
 electric touch, has put new energy into my heart, and I believe, as you say, new
@@ -1989,132 +2031,132 @@ am out of danger, and so are <hi>you ;</hi> tell me, how have you fared ? I
 thought, ere this, though I was not smiled upon, another would have been
 blessed,</p>
 </sp>
-<sp>
+<sp who="#L0001_F7">
 <speaker>Laura.</speaker>
 <p> Cousin!</p>
 </sp>
-<sp>
+<sp who="#L0001_M1">
 <speaker>Lee.</speaker>
 <p> 'Gad, so did I; but there she stands, just as you left her.<stage>( they
 laugh)</stage>
 </p>
 </sp>
-<sp>
+<sp who="#L0001_F7">
 <speaker>Laura.</speaker>
 <p> Father! <stage>(going, R.D.)</stage></p>
 </sp>
-<sp>
+<sp who="#L0001_M2">
 <speaker>Mat.</speaker>
 <p>
 <stage>(runs to her)</stage> Nay, you must not leave us yet; never mind him, he
 shall say no more about it.</p>
 </sp>
-<sp>
+<sp who="#L0001_M1">
 <speaker>Lee.</speaker>
 <p><stage>(L.)</stage>Well, I won't, I won't. But Mathew—ha, ha, ha!—I can't
 help laughing, upon my word I can't, and egad it must out.
 <stage>(titters)</stage> A little bird has whispered that—now don't be angry—you
 won't, will you ?—promise not.</p>
 </sp>
-<sp>
+<sp who="#L0001_M2">
 <speaker>Mat.</speaker>
 <p><stage>(C.)</stage>Certainly!</p>
 </sp>
-<sp>
+<sp who="#L0001_M1">
 <speaker>Lee.</speaker>
 <p> Well, I have heard that— <stage>(laughs)</stage> —that there's—
 <stage>(laughs)</stage> — a certain lady, now in England, not unlikely to become
 Mrs. Mathew Bates. Ha, ha, ha! <stage>(plays with him)</stage> You wicked
 rascal!</p>
 </sp>
-<sp>
+<sp who="#L0001_F7">
 <speaker>Laura.</speaker>
 <p>
 <stage>(aside)</stage> Can I bear this ?</p>
 </sp>
-<sp>
+<sp who="#L0001_M2">
 <speaker>Mat.</speaker>
 <p>
 <stage>(smiles)</stage> Well, you'd treat her kindly, would you not, Sir ?</p>
 </sp>
-<sp>
+<sp who="#L0001_M1">
 <speaker>Lee.</speaker>
 <p>Wouldn't I—wouldn't I ? I'd treat her as my own child. </p>
 </sp>
-<sp>
+<sp who="#L0001_F7">
 <speaker>Laura.</speaker>
 <p>
 <stage>(in despair, aside, about to go off, R.D.)</stage>'Tis over!</p>
 </sp>
-<sp>
+<sp who="#L0001_M2">
 <speaker>Mat.</speaker>
 <p> Cousin, pray do not quit us yet.</p>
 </sp>
-<sp>
+<sp who="#L0001_F7">
 <speaker>Laura.</speaker>
 <p> I will return. I will not be long.</p>
 </sp>
 <stage> He leads her to door, R.H., bows, she exit.</stage>
-<sp>
+<sp who="#L0001_M2">
 <speaker>Mat.</speaker>
 <p>
 <stage>(observes her)</stage> What is the matter with my cousin ? Not offended
 with my presence. Surely not now.</p>
 </sp>
-<sp>
+<sp who="#L0001_M1">
 <speaker>Lee.</speaker>
 <p> No, no!—to tell you the truth, Mathew, I don't know what to make of her.
 After your departure, Clinton proposed—no use; Danvers—no use ; Young Morland
 (you know him) was sent packing yesterday.</p>
 </sp>
-<sp>
+<sp who="#L0001_M2">
 <speaker>Mat.</speaker>
 <p> I see—no mind to quit you.</p>
 </sp>
-<sp>
+<sp who="#L0001_M1">
 <speaker>Lee.</speaker>
 <p><stage>(L.C.)</stage>No mind for anything, I'm afraid. But come, we'll have
 some lunch and a chat. A thousand welcomes, again and again, my boy ! But, I
 say, is this report of the English lady true ?</p>
 </sp>
-<sp>
+<sp who="#L0001_M2">
 <speaker>Mat.</speaker>
 <p><stage>(R.C.)</stage>Do you doubt ? Frankly, yes!</p>
 </sp>
-<sp>
+<sp who="#L0001_M1">
 <speaker>Lee.</speaker>
 <p> I congratulate you. How I long to see your intended wife!</p>
 </sp>
 <pb n="20"/>
-<sp>
+<sp who="#L0001_M2">
 <speaker>Mat.</speaker>
 <p> You shall shortly do so, and embrace her too.</p>
 </sp>
-<sp>
+<sp who="#L0001_M1">
 <speaker>Lee.</speaker>
 <p> Embrace her! I'll hug her—kiss her! You won't be jealous ?</p>
 </sp>
-<sp>
+<sp who="#L0001_M2">
 <speaker>Mat.</speaker>
 <p>
 <stage>(laughs)</stage> Jealous! <stage>(laying his hand upon his
 shoulder)</stage> What, of my father ?</p>
 </sp>
-<sp>
+<sp who="#L0001_M1">
 <speaker>Lee.</speaker>
 <p> 'Gad, I <hi>am</hi> your father—will be your father! Shall I not? </p>
 </sp>
-<sp>
+<sp who="#L0001_M2">
 <speaker>Mat.</speaker>
 <p><stage>(holding forth his hand, which Leeson shakes)</stage> You shall! </p>
 </sp>
-<sp>
+<sp who="#L0001_M1">
 <speaker>Lee.</speaker>
 <p>Come along!</p>
 <stage> Exeunt, D.L.</stage>
 </sp>
 <stage> Enter Fanny Fact, quickly, from R. door. </stage>
-<sp>
+<sp who="#L0001_F8">
 <speaker>Fan.</speaker>
 <p> Well, upon my word ! To tell me to quit the room. Her temper is unbearable
 of late—it gets worse and worse. I merely told her she looked a little pale,
@@ -2124,92 +2166,92 @@ Here's Mr. Tact; how he and his master have improved, to be sure!</p>
 </sp>
 <stage> Enter Tom Tact, from C., attired à Ia française, beard, &amp;c.,
 singing. </stage>
-<sp>
+<sp who="#L0001_M5">
 <speaker>Tact.</speaker>
 <p>
 <stage>(in a foreign accent, assumed)</stage> Ah! Miss—really I forget your
 name—Fanny—Fact, I believe.</p>
 </sp>
-<sp>
+<sp who="#L0001_F8">
 <speaker>Fan.</speaker>
 <p> That's it, Sir.</p>
 </sp>
-<sp>
+<sp who="#L0001_M5">
 <speaker>Tact.</speaker>
 <p><stage>(L.)</stage>You still remains here, I find ?</p>
 </sp>
-<sp>
+<sp who="#L0001_F8">
 <speaker>Fan.</speaker>
 <p><stage>(R.C.)</stage>Yes, I have <hi>remained</hi> here; but how long I
 <hi>shall </hi> remain, I can't tell—I'm getting tired, I assure you.</p>
 </sp>
-<sp>
+<sp who="#L0001_M5">
 <speaker>Tact.</speaker>
 <p> I <hi>sup-pose</hi> so. It must have been very dull while we <hi>was </hi>
 away, eh ?</p>
 </sp>
-<sp>
+<sp who="#L0001_F8">
 <speaker>Fan.</speaker>
 <p>
 <hi>You</hi> have had a pleasant time, I suppose, Mr. Tact?</p>
 </sp>
-<sp>
+<sp who="#L0001_M5">
 <speaker>Tact.</speaker>
 <p> Oh, delightful! So much fun—so much beaucoup de plaisir—so much life—so much
 enjoy- <hi>mong</hi> .<stage>(with a twang)</stage>
 </p>
 </sp>
-<sp>
+<sp who="#L0001_F8">
 <speaker>Fan.</speaker>
 <p> And very cheap, I suppose ?</p>
 </sp>
-<sp>
+<sp who="#L0001_M5">
 <speaker>Tact.</speaker>
 <p>
 <stage>(aside)</stage> What does she mean by——Oh! the trip to Hampton Court,
 that we <hi>didn't</hi> take !</p>
 </sp>
-<sp>
+<sp who="#L0001_F8">
 <speaker>Fan.</speaker>
 <p> Was Mr. Bates very melancholy ?</p>
 </sp>
-<sp>
+<sp who="#L0001_M5">
 <speaker>Tact.</speaker>
 <p> Not very; a little dull at first; but recovered very soon.</p>
 </sp>
-<sp>
+<sp who="#L0001_F8">
 <speaker>Fan.</speaker>
 <p> Do you return with him ?</p>
 </sp>
-<sp>
+<sp who="#L0001_M5">
 <speaker>Tact.</speaker>
 <p> Oui!</p>
 </sp>
-<sp>
+<sp who="#L0001_F8">
 <speaker>Fan.</speaker>
 <p> We?</p>
 </sp>
-<sp>
+<sp who="#L0001_M5">
 <speaker>Tact.</speaker>
 <p> No, no—that is, yes, ye-es. Oui is translate French for yes. You must pardon
 my not speak very good English, I have been so long on the Conti-<hi>nong</hi> ,
 I have almost forget my tongue.</p>
 </sp>
-<sp>
+<sp who="#L0001_F8">
 <speaker>Fan.</speaker>
 <p> You are single still, I suppose, Mr. Tact ?</p>
 </sp>
-<sp>
+<sp who="#L0001_M5">
 <speaker>Tact.</speaker>
 <p> I am, I am very sorry to say.</p>
 </sp>
-<sp>
+<sp who="#L0001_F8">
 <speaker>Fan.</speaker>
 <p>
 <stage>(aside)</stage> Come, that's promising. <stage>(aloud)</stage> And why
 sorry?</p>
 </sp>
-<sp>
+<sp who="#L0001_M5">
 <speaker>Tact.</speaker>
 <p> Because I don't feel at home wiz myself. I have always got a sort of
 I-don't-know-what-to-do-wiz-myself sort of feeling. It has struck me, Miss
@@ -2217,138 +2259,138 @@ Fanny, very strongly of late, that having no fixed principle is just as bad as
 having no principle at all, and is the principal cause of our principal errors
 in life.</p>
 </sp>
-<sp>
+<sp who="#L0001_F8">
 <speaker>Fan.</speaker>
 <p> Not a doubt of it, Mr. Tact.</p>
 </sp>
-<sp>
+<sp who="#L0001_M5">
 <speaker>Tact.</speaker>
 <p> Well, then, my principles proving wrong, should I be ashamed of imitating my
 betters to change my principles ?</p>
 </sp>
 <pb n="21"/>
-<sp>
+<sp who="#L0001_F8">
 <speaker>Fan.</speaker>
 <p> By no means !</p>
 </sp>
-<sp>
+<sp who="#L0001_M5">
 <speaker>Tact.</speaker>
 <p> Miss Fanny, you inspire me wiz hope. Fanny Fact, I am a bachelor!
 <stage>(sighs)</stage>
 </p>
 </sp>
-<sp>
+<sp who="#L0001_F8">
 <speaker>Fan.</speaker>
 <p> Mr. Tact, I am a spinster! <stage>(sighs)</stage>
 </p>
 </sp>
-<sp>
+<sp who="#L0001_M5">
 <speaker>Tact.</speaker>
 <p><stage>(L.)</stage>Fanny Fact, I am a reformed bachelor, my heart is now an
 open borough, and only wants a liberal candidate. If you are open to conviction,
 my arms are open to receive you—my heart and my two arms are open to receive
 you, at the same time. Will you be mine?</p>
 </sp>
-<sp>
+<sp who="#L0001_F8">
 <speaker>Fan.</speaker>
 <p><stage>(R.)</stage>Oh ! Mr. Tact, I really——</p>
 </sp>
-<sp>
+<sp who="#L0001_M5">
 <speaker>Tact.</speaker>
 <p> So do I, really, upon my honour. <stage>(bows ridiculously)</stage>
 </p>
 </sp>
-<sp>
+<sp who="#L0001_F8">
 <speaker>Fan.</speaker>
 <p> I never said I loved you.</p>
 </sp>
-<sp>
+<sp who="#L0001_M5">
 <speaker>Tact.</speaker>
 <p> You never said you hated me. Will you <hi>pledge</hi> yourself ?</p>
 </sp>
-<sp>
+<sp who="#L0001_F8">
 <speaker>Fan.</speaker>
 <p> Let me see how you behave; you sha'n't despair.</p>
 </sp>
-<sp>
+<sp who="#L0001_M5">
 <speaker>Tact.</speaker>
 <p> Oh, happy Tommy Tact! <stage>(kisses her)</stage>
 </p>
 </sp>
 <stage> Enter Laura, R.D. </stage>
-<sp>
+<sp who="#L0001_F7">
 <speaker>Laura.</speaker>
 <p> Hem!</p>
 </sp>
-<sp>
+<sp who="#L0001_F8">
 <speaker>Fan.</speaker>
 <p><stage>(C, to Tact, who stands mumchance, L. 1 E.)</stage>There now! </p>
 </sp>
-<sp>
+<sp who="#L0001_F7">
 <speaker>Laura.</speaker>
 <p>Fanny, go to my father, tell him I must see him instantly. </p>
 </sp>
-<sp>
+<sp who="#L0001_F8">
 <speaker>Fan.</speaker>
 <p>Yes, Miss!</p>
 </sp>
 <stage> Exit D.L.F., kissing her hand to Tact.</stage>
-<sp>
+<sp who="#L0001_M5">
 <speaker>Tact.</speaker>
 <p>
 <stage>(aside, to her the same)</stage> Au re- <hi>ser</hi> -voir. <stage>(then
 seeing Laura)</stage>I beg your pardon, Miss. <stage>(about to go off
 C.)</stage></p>
 </sp>
-<sp>
+<sp who="#L0001_F7">
 <speaker>Laura.</speaker>
 <p> Stay, Mr. Tact. How long do you and your master remain here?</p>
 </sp>
-<sp>
+<sp who="#L0001_M5">
 <speaker>Tact.</speaker>
 <p>
 <stage>(very modestly)</stage> Upon my word, I can't say, Miss; 'till a certain
 marriage is settled, I believe.</p>
 </sp>
-<sp>
+<sp who="#L0001_F7">
 <speaker>Laura.</speaker>
 <p>
 <hi>That</hi> is the purpose of his visit, then ?</p>
 </sp>
-<sp>
+<sp who="#L0001_M5">
 <speaker>Tact.</speaker>
 <p> So it's reported, Miss.</p>
 </sp>
-<sp>
+<sp who="#L0001_F7">
 <speaker>Laura.</speaker>
 <p>
 <stage>(aside)</stage> Report again. <stage>(aloud, impatiently)</stage> Have
 you seen the lady, Sir ?</p>
 </sp>
-<sp>
+<sp who="#L0001_M5">
 <speaker>Tact.</speaker>
 <p> No, Miss, not I.</p>
 </sp>
-<sp>
+<sp who="#L0001_F7">
 <speaker>Laura.</speaker>
 <p> And her father—do you know him ?</p>
 </sp>
-<sp>
+<sp who="#L0001_M5">
 <speaker>Tact.</speaker>
 <p> Haven't the slightest knowledge of him.</p>
 </sp>
-<sp>
+<sp who="#L0001_F7">
 <speaker>Laura.</speaker>
 <p> You may go.</p>
 </sp>
-<sp>
+<sp who="#L0001_M5">
 <speaker>Tact.</speaker>
 <p>
 <stage>(bows)</stage> Je vous remercie—I beg pardon—Thank you.
 <stage>(bows)</stage><stage>(aside)</stage> I'm very glad of it.</p>
 <stage> Exit C.</stage>
 </sp>
-<sp>
+<sp who="#L0001_F7">
 <speaker>Laura.</speaker>
 <p> This is his triumph—his manly triumph! He is another's —and I—oh! how lone I
 feel. My father was right. I shall see him leave me in the world alone—lone in
@@ -2360,88 +2402,88 @@ nothing to him—his sister—oh, yes, <hi>sister!</hi> —fine term, truly!—a
 must see him marry—present his bride to me. Never, never!</p>
 </sp>
 <stage> Enter Leeson, L.D. </stage>
-<sp>
+<sp who="#L0001_M1">
 <speaker>Lee.</speaker>
 <p> Now, Laura, what is it ?—-for Mathew and I——</p>
 </sp>
-<sp>
+<sp who="#L0001_F7">
 <speaker>Laura.</speaker>
 <p> Father, mention not his name to me—I'll not hear it <stage>(in passionate
 remonstrance)</stage> —own it!</p>
 </sp>
 <pb n="22"/>
-<sp>
+<sp who="#L0001_M1">
 <speaker>Lee.</speaker>
 <p> Bless me, girl!—are you mad ?</p>
 </sp>
-<sp>
+<sp who="#L0001_F7">
 <speaker>Laura.</speaker>
 <p> And if I am, who has driven me to madness? You—him!</p>
 </sp>
-<sp>
+<sp who="#L0001_M1">
 <speaker>Lee.</speaker>
 <p> By what means ?</p>
 </sp>
-<sp>
+<sp who="#L0001_F7">
 <speaker>Laura.</speaker>
 <p> The most cruel! Was I not happy in his absence? Did I complain, enquire
 for—wish for his return ? Why came he, then ?</p>
 </sp>
-<sp>
+<sp who="#L0001_M1">
 <speaker>Lee.</speaker>
 <p> To see us. To take back a wife, to be sure!</p>
 </sp>
-<sp>
+<sp who="#L0001_F7">
 <speaker>Laura.</speaker>
 <p> Let him do so, but bring her not here—let me not see her! </p>
 </sp>
-<sp>
+<sp who="#L0001_M1">
 <speaker>Lee.</speaker>
 <p>Not see her! Why not ?</p>
 </sp>
-<sp>
+<sp who="#L0001_F7">
 <speaker>Laura.</speaker>
 <p> He shall not boast his lordly power in my presence—lead her here, that she
 may smile in cold disdain upon me! Me, the lone, despised, heart-broken Laura!
 <stage>(bursts into tears)</stage>
 </p>
 </sp>
-<sp>
+<sp who="#L0001_M1">
 <speaker>Lee.</speaker>
 <p>
 <stage>(kindly)</stage> My dear girl! Heart-broken? What, because the man you
 have refused is about to marry another?</p>
 </sp>
-<sp>
+<sp who="#L0001_F7">
 <speaker>Laura.</speaker>
 <p>
 <stage>(with despair)</stage> Father, I love Mathew too well to see him wed
 another ! <stage>(desperately)</stage>
 </p>
 </sp>
-<sp>
+<sp who="#L0001_M1">
 <speaker>Lee.</speaker>
 <p>
 <stage>(starts)</stage> Love him !</p>
 </sp>
-<sp>
+<sp who="#L0001_F7">
 <speaker>Laura.</speaker>
 <p>
 <stage>(in great grief)</stage> Aye, so deeply, that but to look upon the happy
 one that calls him hers, will kill me, father!</p>
 </sp>
-<sp>
+<sp who="#L0001_M1">
 <speaker>Lee.</speaker>
 <p>
 <stage>(aside)</stage> Zounds! Here's a turn in the state of affairs !</p>
 </sp>
-<sp>
+<sp who="#L0001_F7">
 <speaker>Laura.</speaker>
 <p>
 <stage>(in despair)</stage> Can nothing be done to save me? for Mathew only can
 I ever love!</p>
 </sp>
-<sp>
+<sp who="#L0001_M1">
 <speaker>Lee.</speaker>
 <p> What <hi>can</hi> be done? You first reject the man, who, for your sake,
 quits his early happiness. You ridicule him, his very name; and when, cured of
@@ -2453,39 +2495,39 @@ to gratify, as it now appears, a captious and unfeeling tyranny ?<stage>(Laura
 sinks into a chair, he takes her hand)</stage>
 </p>
 </sp>
-<sp>
+<sp who="#L0001_F7">
 <speaker>Laura.</speaker>
 <p> I have done wrong, and I now suffer—forgive me!</p>
 </sp>
-<sp>
+<sp who="#L0001_M1">
 <speaker>Lee.</speaker>
 <p> I do forgive you—I pity, but cannot aid you. No, I cannot ask the man, whose
 boyhood I have schooled in honour, to break his word—forget his plight to one
 who, doubtless, fondly loves him.</p>
 <stage> Enter Mathew, quickly, with hat and riding-whip, L.D.</stage>
 </sp>
-<sp>
+<sp who="#L0001_M2">
 <speaker>Mat.</speaker>
 <p> Now, my dear Sir, I must quit you for a short time,—my <hi>sister,</hi> I am
 sure, will excuse me.</p>
 </sp>
-<sp>
+<sp who="#L0001_F7">
 <speaker>Laura.</speaker>
 <p>
 <stage>(desperately)</stage><stage>(aside)</stage> It must be done! <stage>(to
 Leeson)</stage>Father, leave me with Mathew, but for a few moments ere he go—
 for they will be my last.</p>
 </sp>
-<sp>
+<sp who="#L0001_M1">
 <speaker>Lee.</speaker>
 <p> I will, <stage>(beckons Mathew)</stage>Mathew, Laura wishes a few words with
 you before you go—have you any objection ?</p>
 </sp>
-<sp>
+<sp who="#L0001_M2">
 <speaker>Mat.</speaker>
 <p> You know her will was ever my law.</p>
 </sp>
-<sp>
+<sp who="#L0001_M1">
 <speaker>Lee.</speaker>
 <p>
 <stage>(looks at her)</stage> Lord knows what she can say to him.— <stage>(to
@@ -2494,46 +2536,46 @@ me.—What a whirlabout world this is, and woman generally sets the turnabout
 going.</p>
 <stage> Exit, L.D.</stage>
 </sp>
-<sp>
+<sp who="#L0001_M2">
 <speaker>Mat.</speaker>
 <p><stage>(L.H., looks at her — places his hat and cane on table,
 L.H.)</stage>She seems in reverie, <stage>(approaches her)</stage> Cousin—
 <hi>sister.</hi>
 </p>
 </sp>
-<sp>
+<sp who="#L0001_F7">
 <speaker>Laura.</speaker>
 <p>
 <stage>(abstractedly, R.)</stage>Eh ?—Your pardon, Mathew!</p>
 </sp>
-<sp>
+<sp who="#L0001_M2">
 <speaker>Mat.</speaker>
 <p><stage>(C.)</stage>I am waiting, Laura. What have you to say to me ?</p>
 </sp>
 <pb n="23"/>
-<sp>
+<sp who="#L0001_F7">
 <speaker>Laura.</speaker>
 <p><stage>(with effort, and scarcely able to speak)</stage>You are about to—wed,
 and, for that purpose, visit here.</p>
 </sp>
-<sp>
+<sp who="#L0001_M2">
 <speaker>Mat.</speaker>
 <p> True ! Could I celebrate so happy an event on any other spot, Laura?—and
 without the presence of my earliest friends—my father—and my sister ?</p>
 </sp>
-<sp>
+<sp who="#L0001_F7">
 <speaker>Laura.</speaker>
 <p><stage>(shrinking)</stage>Is that your only purpose, Mathew?</p>
 </sp>
-<sp>
+<sp who="#L0001_M2">
 <speaker>Mat.</speaker>
 <p> Yes! my only purpose.</p>
 </sp>
-<sp>
+<sp who="#L0001_F7">
 <speaker>Laura.</speaker>
 <p> Strange—very strange !</p>
 </sp>
-<sp>
+<sp who="#L0001_M2">
 <speaker>Mat.</speaker>
 <p> Not so. My first remembrance is here. Your father, my protector; you, my
 playmate; and, as time shadowed forth all coming hope, you were the ministers,
@@ -2550,11 +2592,11 @@ and contempt from yours. At last came the day I was to hear from the being I had
 worshipped, that, if I had nurtured in my heart one hope that she could ever be
 mine, I was to cast that feeling from me.</p>
 </sp>
-<sp>
+<sp who="#L0001_F7">
 <speaker>Laura.</speaker>
 <p> And you did so, Mathew, without entreaty, or——</p>
 </sp>
-<sp>
+<sp who="#L0001_M2">
 <speaker>Mat.</speaker>
 <p> Oh, what entreaty could equal the devotion, that from boy to man I lavished
 upon you, Laura? I could not entreat; your words iced my heart, freezing my
@@ -2565,12 +2607,12 @@ or yours, I fled a home, which else to me was heaven,<stage>(with great
 fervour)</stage>
 </p>
 </sp>
-<sp>
+<sp who="#L0001_F7">
 <speaker>Laura.</speaker>
 <p><stage>(as if sunk in spirit)</stage>You did, upon the instant—without
 leave-taking—or word.</p>
 </sp>
-<sp>
+<sp who="#L0001_M2">
 <speaker>Mat.</speaker>
 <p> There are moments, Laura, when the bravest man is palled; but be he man, he
 calls his manhood to his aid, and looks again towards hope; and so with
@@ -2579,41 +2621,41 @@ wish I should discard you from my thoughts—regard you only as a sister.
 <hi>Sister</hi>, I have done so.<stage>(proudly, but not with vanity)</stage>
 </p>
 </sp>
-<sp>
+<sp who="#L0001_F7">
 <speaker>Laura.</speaker>
 <p> 'Tis well! 'Tis bravely done! Tis kind—very kind, and I must thank you.</p>
 </sp>
 <stage> Enter John, C. </stage>
-<sp>
+<sp who="#L0001_M6">
 <speaker>John.</speaker>
 <p> Your horse is ready, Sir.</p>
 </sp>
-<sp>
+<sp who="#L0001_M2">
 <speaker>Mat.</speaker>
 <p> Oh, very well. <stage>Exit John, C.</stage> —Have you anything further to
 say to me—<hi>sister</hi> ?</p>
 </sp>
-<sp>
+<sp who="#L0001_F7">
 <speaker>Laura.</speaker>
 <p><stage>(shudders, aside)</stage>Oh, that stinging
 reproach.<stage>(aloud)</stage>No, no! go to her you are about to wed. May you
 be happy ! May she love you——</p>
 </sp>
-<sp>
+<sp who="#L0001_M2">
 <speaker>Mat.</speaker>
 <p> How?</p>
 </sp>
-<sp>
+<sp who="#L0001_F7">
 <speaker>Laura.</speaker>
 <p><stage>(checks herself)</stage>As you expected me to do.</p>
 </sp>
-<sp>
+<sp who="#L0001_M2">
 <speaker>Mat.</speaker>
 <p> I shall then indeed be blessed. Adieu!<stage>(going up)</stage>You shall
 shortly see her, sister. <stage>Exit, C.</stage></p>
 </sp>
 <pb n="24"/>
-<sp>
+<sp who="#L0001_F7">
 <speaker>Laura.</speaker>
 <p>
 <stage>(sits down L.H. table)</stage> See her! <stage>(with a thrill)</stage>
@@ -2627,87 +2669,87 @@ heart yearns towards you—when I love—adore you—I am as nothing to you!
 </sp>
 <stage>Mathew, who has returned for his whip, and overheard the last lines,
 starts.</stage>
-<sp>
+<sp who="#L0001_M2">
 <speaker>Mat.</speaker>
 <p> Not so, Laura !</p>
 </sp>
-<sp>
+<sp who="#L0001_F7">
 <speaker>Laura.</speaker>
 <p>
 <stage>(starts up)</stage> Ha, he's here!</p>
 </sp>
-<sp>
+<sp who="#L0001_M2">
 <speaker>Mat.</speaker>
 <p> Here to bring you happiness, I trust, and, if so, joy tenfold to me. I have
 played the listener (pardon the act); but, can I speak my wild delight to hear
 your lips confess you love me ? Laura, will you be mine?</p>
 </sp>
-<sp>
+<sp who="#L0001_F7">
 <speaker>Laura.</speaker>
 <p> Yours! Can that be ?</p>
 </sp>
-<sp>
+<sp who="#L0001_M2">
 <speaker>Mat.</speaker>
 <p>It can.</p>
 </sp>
-<sp>
+<sp who="#L0001_F7">
 <speaker>Laura.</speaker>
 <p> Your wife?</p>
 </sp>
-<sp>
+<sp who="#L0001_M2">
 <speaker>Mat.</speaker>
 <p> Is here—you, Laura—the other but in fancy—the better to fortify me in my
 visit here ! I thought I had conquered. 'Twas but again to look upon you—again
 to love you. And, hearing others had been cast aside, I dared to hope, though
 late, a fond return. Say; am I blessed ?</p>
 </sp>
-<sp>
+<sp who="#L0001_F7">
 <speaker>Laura.</speaker>
 <p><stage>(with rapture)</stage>Oh, Mathew!<stage>(they embrace)</stage></p>
 </sp>
 <stage>Enter Leeson, L.R.</stage>
-<sp>
+<sp who="#L0001_M1">
 <speaker>Lee.</speaker>
 <p>
 <stage>(starts)</stage> Hallo, hallo! What's all this?</p>
 </sp>
-<sp>
+<sp who="#L0001_F7">
 <speaker>Laura.</speaker>
 <p>
 <stage>(rushes to him)</stage> Father, embrace your Laura, her folly is
 atoned—forgiven.</p>
 </sp>
-<sp>
+<sp who="#L0001_M2">
 <speaker>Mat.</speaker>
 <p> I told you, Sir, that you should shortly see my wife <stage>(presenting
 Laura)</stage>Behold her !</p>
 </sp>
-<sp>
+<sp who="#L0001_M1">
 <speaker>Lee.</speaker>
 <p> What ? no—it can't be! You told me you were going to visit your other
 wife.</p>
 </sp>
-<sp>
+<sp who="#L0001_M2">
 <speaker>Mat.</speaker>
 <p> I have no other, Sir, 'twas she I meant; you see her; and in yourself, her
 father.</p>
 </sp>
-<sp>
+<sp who="#L0001_M1">
 <speaker>Lee.</speaker>
 <p> True?</p>
 </sp>
-<sp>
+<sp who="#L0001_M2">
 <speaker>Mat.</speaker>
 <p> True, indeed!</p>
 </sp>
-<sp>
+<sp who="#L0001_M1">
 <speaker>Lee.</speaker>
 <p> Bless you both. <stage>(With great joy)</stage> Ha, ha, ha! Capital, upon my
 word! Mathew, you are a clever fellow. 'Gad ! I'm brimful of joy ! I always
 prayed for this. </p>
 </sp>
 <stage>(Mathew leads Laura to front)</stage>
-<sp>
+<sp who="#L0001_F7">
 <speaker>Laura.</speaker>
 <l> Be this our moral! Choose from mind and worth;</l>
 <l>Love dwelleth not in fashion, form, or birth.</l>

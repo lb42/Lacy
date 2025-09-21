@@ -4,7 +4,7 @@
  <teiHeader>
   <fileDesc>
    <titleStmt>
-    <title>Encoding Guidelines for the Lacy project</title>
+    <title type="main">Encoding Guidelines for the Lacy project</title>
     <author>Lou Burnard</author>
    </titleStmt>
    <publicationStmt>
@@ -31,11 +31,14 @@
     <p> This section contains the full schema specification from which formal schemas may be 
      subsequently derived. It must be converted using (for example) teitorelaxng. </p>
 
-    <schemaSpec ident="lacy" start="TEI" prefix="tei_" targetLang="en" docLang="en">
+    <schemaSpec ident="lacy" start="teiCorpus TEI" prefix="tei_" targetLang="en" docLang="en"
+    source="tei:4.10.2">
+
+<!-- MODULES -->
      <moduleRef key="tei"/>
      <moduleRef key="core" include="ab add del desc p figure graphic foreign emph gap hi name date ptr ref list item
       label head measure note pb series author respStmt resp title publisher bibl l lg relatedItem sp speaker
-      stage sic  term     corr quote"/>
+      stage sic  teiCorpus term corr quote"/>
      <moduleRef key="textstructure" include="TEI text body div trailer byline titlePage docTitle
       titlePart docAuthor docImprint docDate epigraph signed front back"/>
      <moduleRef key="header" include="teiHeader fileDesc titleStmt publicationStmt distributor
@@ -44,8 +47,12 @@
       spGrp sound"/>
      <!-- <moduleRef key="linking" include="seg"/>-->
      <moduleRef key="transcr" include="subst addSpan delSpan"/>
-     <moduleRef key="namesdates" include="eventName event listEvent"/>
+     <moduleRef key="namesdates" include="event listEvent listPerson person persName"/>
      <moduleRef key="tagdocs" include="listRef ident"/>
+    <moduleRef key="corpus" include="particDesc"/>
+<moduleRef key="analysis"/><!-- need this to get @ana -->
+
+<!-- CLASSES -->
 
      <classSpec ident="att.anchoring" type="atts" mode="delete"/>
     <!-- <classSpec ident="att.ascribed.directed" type="atts" mode="delete"/>
@@ -321,11 +328,15 @@
      </elementSpec>
      <elementSpec ident="emph" mode="change">
       <exemplum>
-       <!-- ENG19060 -->
+
        <p>The editor/transcriber wishes to show that the word "my" is linguistically emphasized in
         the original source:</p>
-       <egXML xmlns="http://www.tei-c.org/ns/Examples">Oh—don’t mind <emph>my</emph> feelings—call
-        me a mangy monkey—I’ve tried hard enough to look like one! </egXML>
+      <egXML xmlns="http://www.tei-c.org/ns/Examples">O <sp>
+      <speaker>Tip.</speaker>
+      <p>Lor! only to think—how stupid of me—I quite forgot it, but now you mention it, I
+      <emph>should</emph> like a bit of supper after my journey. What have you got in the house
+      ?</p>
+      </sp> </egXML><!-- L0048 -->
       </exemplum>
      </elementSpec>
      <!--<elementSpec ident="encodingDesc" mode="change">
@@ -338,8 +349,13 @@
        <p>The Latin phrase "Ab urbe condita" is not in the same language (Portuguese) as the rest of
         the paragraph </p>
        <egXML xmlns="http://www.tei-c.org/ns/Examples">
-        <p>E calcando a espada debaixo do pé esquerdo, curvou-a: <foreign>Ab urbe condita</foreign>,
-        da fundação de Roma, no ano seiscentos e três. </p></egXML>
+       <sp>
+       <speaker>Suivanta.</speaker>
+       <l>Alas! There's no commanding our affections ;</l>
+       <l>And, therefore, sire, the point at once to go to, </l>
+       <l>Excuse our saying we object <foreign>in toto </foreign></l>
+       <l>To this alliance.</l>
+       </sp></egXML><!-- L0271 -->
       </exemplum>
      </elementSpec>
      <elementSpec ident="head" mode="change">
@@ -370,7 +386,7 @@
       </exemplum>
       <remarks>
        <p>This element is used for any kind of typographic salience (usually italics) recorded by
-        the encoder.</p>
+        the encoder without any attempt at interpretation.</p>
       </remarks>
      </elementSpec>
      <elementSpec ident="idno" mode="change">
@@ -386,7 +402,8 @@
         <l>Thoughtful sir,</l>
         <l>How fare you? </l>
         <l>Thou'st been reading much of late </l>
-        <l>By the moon's light, I fear me ?</l> </sp> <sp> <speaker>Marl.</speaker>
+        <l>By the moon's light, I fear me ?</l> </sp> 
+<sp> <speaker>Marl.</speaker>
         <l>Why so, lady?</l> </sp> <sp> <speaker>Cecil.</speaker>
         <l>The reflex of the page is on thy face.</l> </sp> </egXML>
       </exemplum>
@@ -575,6 +592,9 @@
          <valItem ident="X">
           <desc>Mixed</desc>
          </valItem>
+        <valItem ident="U">
+        <desc>Unknown (Dracor requisite)</desc>
+        </valItem>
         </valList>
        </attDef>
       </attList>
@@ -643,7 +663,7 @@
      <elementSpec ident="titleStmt" mode="change">
       <exemplum>
        <egXML xmlns="http://www.tei-c.org/ns/Examples"> <titleStmt>
-        <title n="anythingforachange">Anything for a Change: TEI edition</title>
+        <title n="anythingforachange" type="main">Anything for a Change: TEI edition</title>
         <author>Brooks, Shirley</author>
         <respStmt>
          <resp>Curated by</resp>

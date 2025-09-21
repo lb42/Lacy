@@ -3,7 +3,7 @@
 <teiHeader>
 <fileDesc>
 <titleStmt>
-<title n="thegoldenbranch">The Golden Branch</title>
+<title n="thegoldenbranch" type="main">The Golden Branch</title>
 <author>Planché, J.R.</author>
 <respStmt>
 <resp>Curated by</resp>
@@ -12,36 +12,42 @@
 </titleStmt>
 <publicationStmt>
 <distributor>Privately published on the Lacy Website</distributor>
-<idno>L0271</idno>
-</publicationStmt>
+
+<idno type="lae">L0271</idno>
+<idno type='URI' xml:base='https://dracor.org'>LAE</idno></publicationStmt>
 <sourceDesc>
-<bibl type="digital">Retagged from DOCX produced by Abby from a VPP PDF
-edition</bibl>
-<bibl type="source" status="TEI_1" n="19.1" corresp="nic:N03109"
-><author>Planché, J.R.</author><title n="thegoldenbranch">The Golden
-Branch</title><title type="sub">An Original Fairy Extravaganza in two
-acts</title><extent>28 pp (UM copy: 10 - 38)<measure type="pp" quantity="29"
-/><measure type="txWords" quantity="8833"/><measure type="spWords"
-quantity="7784"/><measure type="stWords" quantity="1049"/></extent><eventName
-notAfter="1845" type="firstPerf">
-<date resp="nicoll" when="1847-12-27"/>
-<name>Royal Lyceum Theatre</name>
-<date resp="source" when="1845-12-27">27 Dec. 1845</date>
-</eventName><listRef>
-<ref
-target="http://victorian.nuigalway.ie/modx/assets/docs/pdf/Vol19iGolden.pdf"
->VPP_PDF</ref>
-</listRef><listRef type="localCopies">
-<ref>Vol19/L0271/L0271-um.pdf</ref>
-<ref>Vol19/L0271/L0271-vpp.pdf</ref>
-<ref>Vol19/L0271/pages</ref>
-<ref>Vol19/L0271/Vol19iGolden.pdf</ref>
-</listRef></bibl>
+<bibl type="printSource" n="19.1"><author>Planché, J.R.</author><title
+type="main" n="thegoldenbranch">The Golden Branch</title><title type="sub">An
+Original Fairy Extravaganza in two acts</title><extent>28 pp (UM copy: 10 -
+38)<measure type="pp" quantity="29"/>
+<measure type="spCount" quantity="441"/>
+<measure type="spvCount" quantity="441"/>
+<measure type="txWords" quantity="8833"/>
+<measure type="spWords" quantity="7784"/>
+<measure type="stWords" quantity="1049"/>
+</extent>
+<title level="s"> Lacy's Acting Edition, volume 19, No. 0271</title><idno
+type="nic">N03109</idno><idno type="vpp">Vol19iGolden</idno></bibl>
+<bibl type="digitalSource" n="copytext"><ref
+target="https://lb42.github.io/Lacy/Source/VPP/L0271-vpp.pdf">LoB from
+VPP</ref><ref target="local:Vol19/L0271/L0271-vpp.pdf"/><ref
+target="local:Vol19/L0271/Vol19iGolden.pdf"/></bibl>
+<bibl type="digitalSource"><ref
+target="https://babel.hathitrust.org/cgi/pt?id=mdp.39015067453020&amp;seq=10 "
+>UM from HT</ref><ref target="local:Vol19/L0271/L0271-um.pdf"/></bibl>
+<bibl type="digitalSource" n="copytext"><ref
+target="https://lb42.github.io/Lacy/L0271.html">TEI</ref></bibl>
+<listEvent>
+<event type="firstPerf" when="1845-12-27" source="text" where="Lyceum">
+<desc>Premiered at Royal Lyceum Theatre 27 Dec. 1845; Nicoll date
+1847-12-27</desc>
+</event>
+</listEvent>
 </sourceDesc>
 </fileDesc>
 <profileDesc>
 <textClass>
-<!--S_2_Extravagan_Ext._SPECTACLE-->
+
 <catRef target="#sizeS"/>
 <catRef target="#act2"/>
 <catRef target="nic:Ext."/>
@@ -49,8 +55,90 @@ target="http://victorian.nuigalway.ie/modx/assets/docs/pdf/Vol19iGolden.pdf"
 <term>SPECTACLE</term>
 </keywords>
 </textClass>
+<particDesc>
+<listPerson>
+<person xml:id="L0271_M1">
+<persName type="role">Humguffin </persName>
+<persName type="spkr" n="7">Hum.</persName>
+<persName type="spkr" n="25">Humguffin.</persName>
+</person>
+<person xml:id="L0271_M2">
+<persName type="role">Mandragora </persName>
+<persName type="spkr" n="5">Man.</persName>
+<persName type="spkr" n="21">Mandragora.</persName>
+</person>
+<person xml:id="L0271_M3">
+<persName type="role">Bluerino </persName>
+</person>
+<person xml:id="L0271_F4">
+<persName type="role">Pastorella </persName>
+<persName type="spkr" n="1">Fairy Pastorella.</persName>
+<persName type="spkr" n="6">Fairy.</persName>
+</person>
+<person xml:id="L0271_M5">
+<persName type="role">King Brown </persName>
+<persName type="spkr" n="30">King.</persName>
+</person>
+<person xml:id="L0271_M6">
+<persName type="role">Prince Humpy </persName>
+<persName type="spkr" n="93">Prince.</persName>
+</person>
+<person xml:id="L0271_M7">
+<persName type="role">Quake </persName>
+<persName type="spkr" n="7">Quake.</persName>
+</person>
+<person xml:id="L0271_M8">
+<persName type="role">Quiver </persName>
+<persName type="spkr" n="71">Quiver.</persName>
+</person>
+<person xml:id="L0271_M9">
+<persName type="role">Shake </persName>
+</person>
+<person xml:id="L0271_F10">
+<persName type="role">Princess Dumpy </persName>
+<persName type="spkr" n="55">Princess.</persName>
+<persName type="spkr" n="1">Figure of Princess.</persName>
+</person>
+<person xml:id="L0271_F11">
+<persName type="role">Suivanta </persName>
+<persName type="spkr" n="48">Suivanta.</persName>
+</person>
+<person xml:id="L0271_F12">
+<persName type="role">Benignanta </persName>
+<persName type="spkr" n="28">Queen.</persName>
+</person>
+<person xml:id="L0271_M13">
+<persName type="role">Transimenus </persName>
+<persName type="spkr" n="11">Transimenus.</persName>
+</person>
+<person xml:id="L0271_M14">
+<persName type="role">Corydon </persName>
+<persName type="spkr" n="2">Shepherd.</persName>
+</person>
+<person xml:id="L0271_M15">
+<persName type="role">Tityrus </persName>
+</person>
+<person xml:id="L0271_F16">
+<persName type="role">Phillis </persName>
+</person>
+<person xml:id="L0271_F17">
+<persName type="role">Amaryllis </persName>
+</person>
+
+<person xml:id="L0271_mult">
+<persName type="role">[Multiple speakers]</persName>
+<persName type="spkr" n="3">Chorus.</persName>
+<!--<persName type="spkr" n="1">Quiver | Prince.</persName>
+<persName type="spkr" n="2">Princess and Suivanta.</persName>
+<persName type="spkr" n="2">Prince and Quiver.</persName>
+<persName type="spkr" n="2">Both.</persName>-->
+</person>
+</listPerson>
+</particDesc>
 </profileDesc>
 <revisionDesc>
+<change when="2025-09-10">Hand edit multi @who </change>
+<change when="2025-09-07">Metadata updated from new catalogue</change>
 <change when="2024-10-03">Header enriched</change>
 <change when="2023-10-15">Header confected</change>
 </revisionDesc>
@@ -79,69 +167,69 @@ Parnassus; </title><title>The Drama at Home</title>, &amp;c. &amp;c. </byline>
 </performance>
 <castList>
 <head>Characters.</head>
-<castItem><role gender="M">Humguffin </role><actor sex="M">Mr. S. Smith.
+<castItem><role gender="M">Humguffin </role><actor ana="#M">Mr. S. Smith.
 </actor></castItem>
 
-<castItem><role gender="M">Mandragora </role><actor sex="F">Mrs. Macnamara.
+<castItem><role gender="M">Mandragora </role><actor ana="#F">Mrs. Macnamara.
 </actor></castItem>
 
-<castItem><role gender="M">Bluerino </role><actor sex="M">Mr . H. Marshall
+<castItem><role gender="M">Bluerino </role><actor ana="#M">Mr . H. Marshall
 </actor></castItem>
 
-<castItem><role gender="F">Pastorella </role><actor sex="F">Miss Marshall.
+<castItem><role gender="F">Pastorella </role><actor ana="#F">Miss Marshall.
 </actor></castItem>
 
 <note>N . B.—Only Two Hundred Years are supposed to elapse between this Scene
 and the one immediately following.</note>
-<castItem><role gender="M">King Brown </role><actor sex="M">Mr. H. Hall.
+<castItem><role gender="M">King Brown </role><actor ana="#M">Mr. H. Hall.
 </actor></castItem>
 
-<castItem><role gender="M">Prince Humpy </role><actor sex="F">Miss K.
+<castItem><role gender="M">Prince Humpy </role><actor ana="#F">Miss K.
 Fitzwilliam </actor></castItem>
 
-<castItem><role gender="M">Quake </role><actor sex="M">Mr Kerridge.
+<castItem><role gender="M">Quake </role><actor ana="#M">Mr Kerridge.
 </actor></castItem>
 
-<castItem><role gender="M">Quiver </role><actor sex="M">Mr. Harley.
+<castItem><role gender="M">Quiver </role><actor ana="#M">Mr. Harley.
 </actor></castItem>
 
-<castItem><role gender="M">Shake </role><actor sex="M">Mr. De Courcy.
+<castItem><role gender="M">Shake </role><actor ana="#M">Mr. De Courcy.
 </actor></castItem>
 
-<castItem><role gender="F">Princess Dumpy </role><actor sex="F">Miss Howard.
+<castItem><role gender="F">Princess Dumpy </role><actor ana="#F">Miss Howard.
 </actor></castItem>
 
-<castItem><role gender="F">Suivanta </role><actor sex="F">Madame Vestris.
+<castItem><role gender="F">Suivanta </role><actor ana="#F">Madame Vestris.
 </actor></castItem>
 
 </castList>
 <castList>
 <head>Arcadians</head>
-<castItem><role gender="F">Benignanta </role><actor sex="F">Miss Lee.
+<castItem><role gender="F">Benignanta </role><actor ana="#F">Miss Lee.
 </actor></castItem>
 
-<castItem><role gender="M">Transimenus </role><actor sex="F">Miss Fairbrother.
+<castItem><role gender="M">Transimenus </role><actor ana="#F">Miss Fairbrother.
 </actor></castItem>
 
 <castGroup>
 <roleDesc>Royal (Opera) Arcadians</roleDesc>
-<castItem type="list"><actor sex="M">Mr. Gilbert </actor><actor sex="F">Miss
-Ballin </actor><actor sex="M">Mr. Marshall. </actor></castItem>
+<castItem type="list"><actor ana="#M">Mr. Gilbert </actor><actor ana="#F">Miss
+Ballin </actor><actor ana="#M">Mr. Marshall. </actor></castItem>
 
 </castGroup>
 <castGroup>
 <roleDesc>"Arcades ambo"</roleDesc>
-<castItem><role gender="M">Corydon </role><actor sex="F">Miss K. Fitzwilliam
+<castItem><role gender="M">Corydon </role><actor ana="#F">Miss K. Fitzwilliam
 </actor></castItem>
 
-<castItem><role gender="M">Tityrus </role><actor sex="M">Mr. Harley.
+<castItem><role gender="M">Tityrus </role><actor ana="#M">Mr. Harley.
 </actor></castItem>
 
 </castGroup>
-<castItem><role gender="F">Phillis </role><actor sex="F">Miss Howard.
+<castItem><role gender="F">Phillis </role><actor ana="#F">Miss Howard.
 </actor></castItem>
 
-<castItem><role gender="F">Amaryllis </role><actor sex="F">Madame Vestris.
+<castItem><role gender="F">Amaryllis </role><actor ana="#F">Madame Vestris.
 </actor></castItem>
 
 </castList>
@@ -158,12 +246,12 @@ Ballin </actor><actor sex="M">Mr. Marshall. </actor></castItem>
 <stage type="setting">Gate in C, Vaults R. and L.—Mandragora, the Sorceress,
 discovered brewing mischief, assisted by Bluerino and other Illicit Spirits. </stage>
 <stage> Humguffin, the Enchanter, rises. </stage>
-<sp>
+<sp who="#L0271_M1">
 <speaker>Hum.</speaker>
 <l>Speak, sister, speak,</l>
 <l>Is the job jobbed ?</l>
 </sp>
-<sp>
+<sp who="#L0271_M2">
 <speaker>Man.</speaker>
 <l>Long ago—long ago!</l>
 <l>Twelve glasses since we have hob-nobbed.</l>
@@ -172,61 +260,61 @@ discovered brewing mischief, assisted by Bluerino and other Illicit Spirits. </s
 <l>But as we brew so must we bake,</l>
 <l>As we shall one day find, and no mistake.</l>
 </sp>
-<sp>
+<sp who="#L0271_M1">
 <speaker>Hum.</speaker>
 <l>Many more, many more</l>
 <l>Mischiefs may we brew, </l>
 <l>Before Old Nick shall come to claim his due.</l>
 </sp>
-<sp>
+<sp who="#L0271_mult">
 <speaker>Chorus.</speaker>
 <l>He must, he will—he must, he will, </l>
 <l>He will have us some day ;</l>
 <l>So on earth first we'll have the deuce to pay!</l>
 </sp>
-<sp>
+<sp who="#L0271_M2">
 <speaker>Man.</speaker>
 <l>Yes, brother, I have worked your wicked will.</l>
 <l>And am, you see, brewing more mischief still!</l>
 </sp>
-<sp>
+<sp who="#L0271_M1">
 <speaker>Hum.</speaker>
 <l>Well done! well done ! more fun we'll have between us, </l>
 <l>But where's that traitor—that vile Transimenus ?</l>
 </sp>
 <stage> (Mandragora waves her hand, the wall opens R., and discovers an eagle) </stage>
 
-<sp>
+<sp who="#L0271_M2">
 <speaker>Man.</speaker>
 <l>Beneath that form behold the Prince ungrateful, </l>
 <l>As false to me—as he to you was hateful.</l>
 <l>Fast to that perch with potent spell I tethered him,</l>
 <l>Whilst my ingenious spirits tarred and feathered him. </l>
 </sp>
-<sp>
+<sp who="#L0271_M1">
 <speaker>Hum.</speaker>
 <l>A bird! Why not a beast?</l>
 </sp>
 <pb n="4"/>
-<sp>
+<sp who="#L0271_M2">
 <speaker>Man.</speaker>
 <l>I thought the thing </l>
 <l>When you called out a rival, was to wing </l>
 <l>The gentleman! </l>
 </sp>
-<sp>
+<sp who="#L0271_M1">
 <speaker>Hum.</speaker>
 <l>Well—but then, why the deuce </l>
 <l>Didn't you make him look more like a goose ? </l>
 </sp>
-<sp>
+<sp who="#L0271_M2">
 <speaker>Man.</speaker>
 <l>Because his rank in fairy land was regal, </l>
 <l>I couldn't make him look less than an eagle! </l>
 <l>How have you punished the Arcadian Queen, </l>
 <l>Whose charms the plague of both of us have been ? </l>
 </sp>
-<sp>
+<sp who="#L0271_M1">
 <speaker>Hum.</speaker>
 <l>Behold where lies the <sic>the</sic> proudest of Princesses. </l>
 <stage> (waving his wand, the wall opens, L., and discovers Queen Benignanti,
@@ -243,7 +331,7 @@ asleep on a couch of state) </stage>
 <sound>Song, <label>Humguffin.</label>—<title>" It's no use knocking at the
 door."</title>
 </sound>
-<sp>
+<sp who="#L0271_M1">
 <l>So I'm off to town on a little bit of spree,</l>
 <l>And I hope to make acquaintance with a prettier girl than she. </l>
 <l>But somebody's trying to lift up the latch, </l>
@@ -251,11 +339,11 @@ door."</title>
 <l>Who is that knocking at the door? </l>
 <l>Is that you old fellow ? </l>
 </sp>
-<sp>
+<sp who="#L0271_F4">
 <speaker>Fairy Pastorella.</speaker>
 <l><stage>(without).</stage> No ! the Fairy Pastorella. </l>
 </sp>
-<sp>
+<sp who="#L0271_M1">
 <speaker>Hum.</speaker>
 <l>Then you're no friend of ours, so you can't come in, </l>
 <l>And it's no use knocking at the door </l>
@@ -265,7 +353,7 @@ door."</title>
 </spGrp>
 <stage> Enter the Fairy Pastorella through the key hole. </stage>
 
-<sp>
+<sp who="#L0271_F4">
 <speaker>Fairy.</speaker>
 <l>No use! you're no great conjurors I doubt, </l>
 <l>To think a door can keep a fairy out. </l>
@@ -283,11 +371,11 @@ door."</title>
 <l>Of the fair Queen you've dared to mesmerise! </l>
 </sp>
 <pb n="5"/>
-<sp>
+<sp who="#L0271_M1">
 <speaker>Humguffin.</speaker>
 <l>Not for two hundred years ——</l>
 </sp>
-<sp>
+<sp who="#L0271_F4">
 <speaker>Fairy.</speaker>
 <l>They'll soon be past.</l>
 <l>A fairy tale wiles time away so fast,</l>
@@ -297,7 +385,7 @@ door."</title>
 <spGrp>
 <sound>Air, PASTORELLA.—<title>"I'm the genius of the Spring."</title>
 </sound>
-<sp>
+<sp who="#L0271_F4">
 <l>With the genius of the spring</l>
 <l>I have had an interview, </l>
 <l>And a most ingenious thing </l>
@@ -323,7 +411,7 @@ the, Brown Rod, enter in rotation, and with great precaution. </stage>
 <spGrp>
 <sound>Round, Quake, Quiver, and Shake, L.—<title>"Perfida Clori."</title>
 </sound>
-<sp>
+<sp who="#L0271_M7 #L0271_M8 #L0271_M9">
 <l>Lo! where a scowling,</l>
 <l>To himself growling,</l>
 <l>Sits, without winking,</l>
@@ -332,53 +420,53 @@ the, Brown Rod, enter in rotation, and with great precaution. </stage>
 <l>Brown, surnamed "the Bear."</l>
 </sp>
 </spGrp>
-<sp>
+<sp who="#L0271_M8">
 <speaker>Quiver.</speaker>
 <l>Silence! his majesty's about to <stage>(King sneezes)</stage> sneeze. </l>
 </sp>
-<sp>
+<sp who="#L0271_M7">
 <speaker>Quake.</speaker>
 <l>Much good, sire, may it do you. </l>
 <l>If you please — </l>
 </sp>
-<sp>
+<sp who="#L0271_M5">
 <speaker>King.</speaker>
 <l>And if I don't please ?</l>
 </sp>
-<sp>
+<sp who="#L0271_M7">
 <speaker>Quake.</speaker>
 <l>I that wish recal.</l>
 <l><stage>(aside)</stage> And wish it may do you no good at all!</l>
 </sp>
-<sp>
+<sp who="#L0271_M5">
 <speaker>King.</speaker>
 <l>What's that you matter ?</l>
 </sp>
-<sp>
+<sp who="#L0271_M7">
 <speaker>Quake.</speaker>
 <l>N—nothing, sire.</l>
 </sp>
-<sp>
+<sp who="#L0271_M5">
 <speaker>King.</speaker>
 <l>Beware!</l>
 <l>'Tis not for nothing I am called "the Bear!" </l>
 </sp>
-<sp>
+<sp who="#L0271_M7">
 <speaker>Quake.</speaker>
 <l>Dread sovereign ——</l>
 </sp>
 <pb n="6"/>
-<sp>
+<sp who="#L0271_M5">
 <speaker>King.</speaker>
 <l>Peace ! and answer you, sir knave, <stage>(to Quiver)</stage>
 </l>
 <l>Have my ambassadors returned ?</l>
 </sp>
-<sp>
+<sp who="#L0271_M8">
 <speaker>Quiver.</speaker>
 <l>They have.</l>
 </sp>
-<sp>
+<sp who="#L0271_M5">
 <speaker>King.</speaker>
 <l>Admit them, with the portrait they import,</l>
 <l>And call our son Prince Humpy into court.</l>
@@ -389,7 +477,7 @@ Stage. </stage>
 
 <spGrp>
 <sound> Chorus . —<title>" Gustavus." </title></sound>
-<sp>
+<sp who="#L0271_mult">
 <l>Hail! all hail to the great King Brown! </l>
 <l>The world turns pale at his royal frown ! </l>
 <l>Hail! all hail to the great King Brown ! </l>
@@ -405,16 +493,16 @@ Stage. </stage>
 <l>Hail! all hail, &amp;c.</l>
 </sp>
 </spGrp>
-<sp>
+<sp who="#L0271_M5">
 <speaker>King.</speaker>
 <l>Where is Prince Humpy ?</l>
 <stage> Enter Prince Humpy, L. </stage>
 </sp>
-<sp>
+<sp who="#L0271_M6">
 <speaker>Prince.</speaker>
 <l>Sire, behold your son !</l>
 </sp>
-<sp>
+<sp who="#L0271_M5">
 <speaker>King.</speaker>
 <l><stage>(aside)</stage> I'd rather not—he's such an ugly one!</l>
 <l>Who could suppose him child of mine to be ?</l>
@@ -428,37 +516,37 @@ Stage. </stage>
 <l>Why stint the issue of my line, alas </l>
 <l>To one poor Brown I am ashamed to pass!</l>
 </sp>
-<sp>
+<sp who="#L0271_M6">
 <speaker>Prince.</speaker>
 <l>In a quandary seems our royal sire;</l>
 <l>May I presume the reason to enquire ?</l>
 </sp>
-<sp>
+<sp who="#L0271_M5">
 <speaker>King.</speaker>
 <l>Presume, indeed! Presumptuous boy, would you</l>
 <l>Be heir apparent and presumptive too ?</l>
 <l>Inquire the reason! Shall a subject dare </l>
 <l>Interrogate a King like Brown the Bear! </l>
 </sp>
-<sp>
+<sp who="#L0271_M6">
 <speaker>Prince.</speaker>
 <l>Pardon, great sire, I meant not to offend— </l>
 </sp>
-<sp>
+<sp who="#L0271_M5">
 <speaker>King.</speaker>
 <l>Peace! and obediently our will attend!</l>
 <l>You have arrived at years of indiscretion, </l>
 <l>And it is time to settle the succession.</l>
 <l>Therefore it is our pleasure you should marry. </l>
 </sp>
-<sp>
+<sp who="#L0271_M6">
 <speaker>Prince.</speaker>
 <l>You'll find that point, sir, difficult to carry.</l>
 <pb n="7"/>
 <l>E'en though a prince, few girls would care to catch me,</l>
 <l>I fear it is impossible to match me !</l>
 </sp>
-<sp>
+<sp who="#L0271_M5">
 <speaker>King.</speaker>
 <l>Nothing's impossible to Kings like us!</l>
 <l>The bride is found—so don't you make a fuss.</l>
@@ -466,25 +554,25 @@ Stage. </stage>
 <l>Where there is so much tin, hearts catch like tinder! </l>
 <l>We're flint and steel—and you the happy spark.</l>
 </sp>
-<sp>
+<sp who="#L0271_M6">
 <speaker>Prince.</speaker>
 <l>Then keep me, sire, no longer in the dark—</l>
 <l>But say who is"the inexpressive she,"</l>
 <l>Will condescend Prince Humpy's bride to be ?</l>
 </sp>
-<sp>
+<sp who="#L0271_M5">
 <speaker>King.</speaker>
 <l>No less a lady than the Princess Dumpy,</l>
 <l>The only daughter of the rich King Stumpy!</l>
 <l>Here is her portrait—painted from the life.</l>
 <stage>( opens case and discovers portrait of the Princess)</stage>
 </sp>
-<sp>
+<sp who="#L0271_M6">
 <speaker>Prince.</speaker>
 <l>Preserve and pickle me! that fright my wife!</l>
 <l>Why she's a cripple ! seated in a bowl!</l>
 </sp>
-<sp>
+<sp who="#L0271_M5">
 <speaker>King.</speaker>
 <l>Can't walk—but then in riches she can roll!</l>
 <l>When countless millions over to you handing, </l>
@@ -492,21 +580,21 @@ Stage. </stage>
 <l>Besides, with such legs as you have to boast of, </l>
 <l>'Twould be a lame excuse when made the most of.</l>
 </sp>
-<sp>
+<sp who="#L0271_M6">
 <speaker>Prince.</speaker>
 <l>But she is hideous!</l>
 </sp>
-<sp>
+<sp who="#L0271_M5">
 <speaker>King.</speaker>
 <l>You're a pretty fellow,</l>
 <l>To talk of ugliness—you Punchinello!</l>
 <l>In one word, will you wed her—yes, or no ?</l>
 </sp>
-<sp>
+<sp who="#L0271_M6">
 <speaker>Prince.</speaker>
 <l>In one word—No.</l>
 </sp>
-<sp>
+<sp who="#L0271_M5">
 <speaker>King.</speaker>
 <l>No! Oho ! Is it so? </l>
 <l>What ho ! The captain of our archer guard !</l>
@@ -524,7 +612,7 @@ Stage. </stage>
 <spGrp>
 <sound>Air and Chorus, King Brown and courtiers.—<title>" Statute Fair."
 </title></sound>
-<sp>
+<sp who="#L0271_mult">
 <l>Away with him to prison strait, </l>
 <l>His manners need improvement, </l>
 <l>In shopping him I advocate</l>
@@ -537,7 +625,7 @@ Stage. </stage>
 </spGrp>
 <stage> Exeunt Quiver and Guards, with Prince Humpy prisoner, L.</stage>
 <pb n="8"/>
-<sp>
+<sp who="#L0271_M5">
 <speaker>King.</speaker>
 <l>So much for one ! —But now, how much for t'other?</l>
 <l>The bride is on her road ! Ah, there's the bother!</l>
@@ -549,29 +637,29 @@ Stage. </stage>
 <l>Pshaw! It can't be a worse face than her own!</l>
 <stage> Re-enter Quake, R. </stage>
 </sp>
-<sp>
+<sp who="#L0271_M7">
 <speaker>Quake.</speaker>
 <l>The Princess Dumpy !</l>
 </sp>
-<sp>
+<sp who="#L0271_M5">
 <speaker>King.</speaker>
 <l>Bid her walk up stairs,</l>
 <l>We'll come to Hecuba at once—who cares?</l>
 </sp>
-<sp>
+<sp who="#L0271_M7">
 <speaker>Quake.</speaker>
 <l>Walk up. Alas ! Her highness, sire, is not</l>
 <l>Able to walk.</l>
 </sp>
-<sp>
+<sp who="#L0271_M5">
 <speaker>King.</speaker>
 <l>By Jupiter! Forgot!</l>
 </sp>
-<sp>
+<sp who="#L0271_M7">
 <speaker>Quake.</speaker>
 <l>Borne in a golden bowl by way of litter——</l>
 </sp>
-<sp>
+<sp who="#L0271_M5">
 <speaker>King.</speaker>
 <l>Tell 'em to pass the bowl, and quick admit her ! <stage>(march)</stage>
 </l>
@@ -579,90 +667,90 @@ Stage. </stage>
 <stage> Enter Princess DUMPY, carried by four BLACK SERVANTS, and attended by
 Suivanta, R. </stage>
 
-<sp>
+<sp who="#L0271_M5">
 <speaker>King.</speaker>
 <l>Welcome, fair Princess, to our royal court.</l>
 </sp>
-<sp>
+<sp who="#L0271_F10">
 <speaker>Princess.</speaker>
 <l><stage>(sobbing)</stage> Ah! Oh !</l>
 </sp>
-<sp>
+<sp who="#L0271_M5">
 <speaker>King.</speaker>
 <l>"Ah Oh !" What may such sounds import ? </l>
 </sp>
-<sp>
+<sp who="#L0271_F10">
 <speaker>Princess.</speaker>
 <l>Oh! Ah! </l>
 </sp>
-<sp>
+<sp who="#L0271_M5">
 <speaker>King.</speaker>
 <l>"Oh ! Ah!" We still desire to know</l>
 <l>What moves her royal highness so ?</l>
 </sp>
-<sp>
+<sp who="#L0271_F11">
 <speaker>Suivanta.</speaker>
 <l><stage>(sobbing)</stage> Ah ! Oh !</l>
 </sp>
-<sp>
+<sp who="#L0271_M5">
 <speaker>King.</speaker>
 <l>Can no one speak except in interjections ?</l>
 </sp>
-<sp>
+<sp who="#L0271_F11">
 <speaker>Suivanta.</speaker>
 <l>Alas! There's no commanding our affections ;</l>
 <l>And, therefore, sire, the point at once to go to, </l>
 <l>Excuse our saying we object <foreign>in toto </foreign></l>
 <l>To this alliance.</l>
 </sp>
-<sp>
+<sp who="#L0271_M5">
 <speaker>King.</speaker>
 <l>We! Zounds—who are you ?</l>
 </sp>
-<sp>
+<sp who="#L0271_F11">
 <speaker>Suivanta.</speaker>
 <l>My name's Suivanta, waiting woman to</l>
 <l>Her royal highness.</l>
 </sp>
-<sp>
+<sp who="#L0271_M5">
 <speaker>King.</speaker>
 <l>Waiting woman, wait</l>
 <l>Till you are spoken to ! How dare you prate ?</l>
 <l>Object! Sdeath, madam, do you mean to say</l>
 <l>That you object?</l>
 </sp>
-<sp>
+<sp who="#L0271_F10">
 <speaker>Princess.</speaker>
 <l>I do. </l>
 </sp>
-<sp>
+<sp who="#L0271_M5">
 <speaker>King.</speaker>
 <l>And wherefore, pray ?</l>
 </sp>
-<sp>
+<sp who="#L0271_F10">
 <speaker>Princess.</speaker>
 <l>Sir, to be plain with you</l>
 </sp>
-<sp>
+<sp who="#L0271_M5">
 <speaker>King.</speaker>
 <l>You may say plain.</l>
 </sp>
-<sp>
+<sp who="#L0271_F10">
 <speaker>Princess.</speaker>
 <l>Prince Humpy ne'er could my affection gain,</l>
 <l>If he be half as ugly as he's painted.</l>
 <l>When first I saw his picture, sir, I fainted.</l>
 </sp>
-<sp>
+<sp who="#L0271_M5">
 <speaker>King.</speaker>
 <l>You ! faint at ugliness! Well, come that passes.</l>
 <l>In your court pray are there no looking glasses ?</l>
 </sp>
-<sp>
+<sp who="#L0271_F10">
 <speaker>Princess.</speaker>
 <l>Oh! I'm aware, sir, of my own defects— </l>
 </sp>
-<sp>
+<sp who="#L0271_F11">
 <speaker>Suivanta.</speaker>
 <l>And that's a reason, sir, why she objects</l>
 <pb n="9"/>
@@ -671,22 +759,22 @@ Suivanta, R. </stage>
 <l>Could be the better half of any man. </l>
 <l>And I must say that I approve her plan. </l>
 </sp>
-<sp>
+<sp who="#L0271_M5">
 <speaker>King.</speaker>
 <l>Will no one stop that woman's tongue ? Odds life!</l>
 <l>Madam—Do you refuse to be the wife </l>
 <l>Of our sole heir, Prince Humpy ? </l>
 </sp>
-<sp>
+<sp who="#L0271_F10">
 <speaker>Princess.</speaker>
 <l>Most emphatically . </l>
 </sp>
-<sp>
+<sp who="#L0271_M5">
 <speaker>King.</speaker>
 <l>Hah! Indeed! We'll soon see that. </l>
 </sp>
 <sound> Air, Suivanta.—<title>" Rory O'More." </title></sound>
-<sp>
+<sp who="#L0271_F11">
 <l>Don't roar any more, for as sure as you're born, </l>
 <l>Your hope's of the sort, sir, they call the forlorn. </l>
 <l>His highness is not formed a lady to please, </l>
@@ -700,7 +788,7 @@ Suivanta, R. </stage>
 <l>But just please to order our coach to the door, </l>
 <l>And as I've got a head-ache don't roar any more! </l>
 </sp>
-<sp>
+<sp who="#L0271_M5">
 <speaker>King.</speaker>
 <l>A flourish trumpet, strike alarum drum, </l>
 <l>Let not this loud-tongued woman talk us dumb. </l>
@@ -708,18 +796,18 @@ Suivanta, R. </stage>
 <spGrp>
 <sound> Air and Chorus, King brown, &amp;c—<title>" Elisire D'Amore."
 </title></sound>
-<sp>
+<sp who="#L0271_mult">
 <l>A flourish, ye trumpets, my drums sound alarum, </l>
 <l>These termagant women, to prison quick bear 'em;</l>
 <l>I'll bring both the jades on their marrow-bones down,</l>
 <l>I'm in such a passion, I've turned whity-brown! </l>
 </sp>
-<sp>
+<sp who="#L0271_F11">
 <speaker>Suivanta.</speaker>
 <l>For a King such as you I'd not give half-a-crown,</l>
 <l>He's in such a passion, he's turned whity-brown. </l>
 </sp>
-<sp>
+<sp who="#L0271_mult">
 <speaker>Chorus.</speaker>
 <l>He's in such a passion, &amp;c. </l>
 </sp>
@@ -730,49 +818,49 @@ Suivanta, R. </stage>
 <div type="scene">
 <head>Scene III. --A room in the round tower. </head>
 <stage> Enter Prince Humpy and Quiver, L. </stage>
-<sp>
+<sp who="#L0271_M6">
 <speaker>Prince.</speaker>
 <l>Here must I linger to despair a prey ? </l>
 <l><stage>(to Quiver who is going)</stage> Stay! </l>
 </sp>
-<sp>
+<sp who="#L0271_M8">
 <speaker>Quiver.</speaker>
 <l>Eh? </l>
 </sp>
-<sp>
+<sp who="#L0271_M6">
 <speaker>Prince.</speaker>
 <l>O say— </l>
 </sp>
-<sp>
+<sp who="#L0271_M8">
 <speaker>Quiver.</speaker>
 <l>Nay— </l>
 </sp>
-<sp>
+<sp who="#L0271_M6">
 <speaker>Prince.</speaker>
 <l>Pray— </l>
 </sp>
-<sp>
+<sp who="#L0271_M8">
 <speaker>Quiver.</speaker>
 <l>Away! Good day! </l>
 </sp>
 <pb n="10"/>
-<sp>
+<sp who="#L0271_M6">
 <speaker>Prince.</speaker>
 <l>Leave me not in this dungeon dark and chill! </l>
 </sp>
-<sp>
+<sp who="#L0271_M8">
 <speaker>Quiver.</speaker>
 <l>Young boy I must— </l>
 </sp>
-<sp>
+<sp who="#L0271_M6">
 <speaker>Prince.</speaker>
 <l>And will you ? </l>
 </sp>
-<sp>
+<sp who="#L0271_M8">
 <speaker>Quiver.</speaker>
 <l>And I will! </l>
 </sp>
-<sp>
+<sp who="#L0271_M6">
 <speaker>Prince.</speaker>
 <l>Have you the heart ? When you were once in quod </l>
 <l>Didn't I pay for you thirteen pounds odd ? </l>
@@ -781,11 +869,11 @@ Suivanta, R. </stage>
 <l>And can you suffer me to pine and shiver,</l>
 <l>In darkness here ? </l>
 </sp>
-<sp>
+<sp who="#L0271_M8">
 <speaker>Quiver.</speaker>
 <l>I've sworn to do it— </l>
 </sp>
-<sp>
+<sp who="#L0271_M6">
 <speaker>Prince.</speaker>
 <l>Quiver! </l>
 <l>If any one alive had said you ever </l>
@@ -793,19 +881,19 @@ Suivanta, R. </stage>
 <l>Leave me, who in your need posted the coal, </l>
 <l>Without a shovel-full, in this black hole! </l>
 </sp>
-<sp>
+<sp who="#L0271_M8">
 <speaker>Quiver.</speaker>
 <l>Well, then, I won't; I'll brave the tyrant's ire, </l>
 <l>May I be burnt if you shan't have a fire! </l>
 <l>For you in turn I'll post the coal, in sacks: </l>
 <l>And candles too— </l>
 </sp>
-<sp>
+<sp who="#L0271_M6">
 <speaker>Prince.</speaker>
 <l>Now you're the lad of wax </l>
 <l>I thought you were. </l>
 </sp>
-<sp>
+<sp who="#L0271_M8">
 <speaker>Quiver.</speaker>
 <l>Behold—at once to light</l>
 <stage>(produces wax taper)</stage>
@@ -814,49 +902,49 @@ Suivanta, R. </stage>
 <l>You shall have all the ends, as I come by 'em ; </l>
 <l>And the cheese parings also, if you please. </l>
 </sp>
-<sp>
+<sp who="#L0271_M6">
 <speaker>Prince.</speaker>
 <l>No, no, the candles only—that's the cheese! </l>
 <l>For there are books I see within this tower, </l>
 <l>Which by my taper's light I shall devour. </l>
 </sp>
-<sp>
+<sp who="#L0271_M8">
 <speaker>Quiver.</speaker>
 <l>They're such old books, you cannot read 'em. </l>
 </sp>
-<sp>
+<sp who="#L0271_M6">
 <speaker>Prince.</speaker>
 <l>Pho! </l>
 <l>My friend, the hardship is to read the new. </l>
 <l>Lend me a hand to pull this huge one out! </l>
 </sp>
-<sp>
+<sp who="#L0271_M8">
 <speaker>Quiver.</speaker>
 <l>Heavens what a book, what can it be about? </l>
 </sp>
 <stage>(they lift with great difficulty an enormous folio from the shelf, and
 lean it against the wall at the back of the stage)</stage>
 
-<sp>
+<sp who="#L0271_M6">
 <speaker>Prince.</speaker>
 <l><stage>(opening it)</stage> Tis full of pictures. </l>
 <l>Quaint illuminations. </l>
 <l>Folks of all sorts in various occupations. </l>
 </sp>
-<sp>
+<sp who="#L0271_M8">
 <speaker>Quiver.</speaker>
 <l>A volume of some old <hi>Pictorial Times</hi>,</l>
 <l>Or <hi>Illustrated News</hi> of other climes. </l>
 </sp>
-<sp>
+<sp who="#L0271_M6">
 <speaker>Prince.</speaker>
 <l>Hunting and fishing, playing cards and dice, </l>
 </sp>
-<sp>
+<sp who="#L0271_M8">
 <speaker>Quiver.</speaker>
 <l>Eating and drinking everything that's nice. </l>
 </sp>
-<sp>
+<sp who="#L0271_M6">
 <speaker>Prince.</speaker>
 <l>Why, Quiver, sure as fate that must be me! </l>
 <l>And here again—in every picture see </l>
@@ -866,12 +954,12 @@ lean it against the wall at the back of the stage)</stage>
 <l>And in my clothes too— </l>
 </sp>
 <pb n="11"/>
-<sp>
+<sp who="#L0271_M8">
 <speaker>Quiver.</speaker>
 <l>Well, there's no denying— </l>
 <l>The portrait's much more like than gratifying ! </l>
 </sp>
-<sp>
+<sp who="#L0271_M6">
 <speaker>Prince.</speaker>
 <l>And by my side, whatever I am doing, </l>
 <l>A lovely Shepherdess my actions viewing, </l>
@@ -880,77 +968,77 @@ lean it against the wall at the back of the stage)</stage>
 <l>More like a sylvan Queen than rustic lass </l>
 <l>Keeping her sheep beneath a shade— </l>
 </sp>
-<sp>
+<sp who="#L0271_M8">
 <speaker>Quiver.</speaker>
 <l>Of glass. </l>
 </sp>
 <stage>(music pianissimo ; the volume expands, and a page becomes
 transparent)</stage>
 
-<sp>
+<sp who="#L0271_M6">
 <speaker>Prince.</speaker>
 <l>Mercy upon us ! see, the volume grows </l>
 <l>Brighter—its page with light unearthly glows. </l>
 </sp>
-<sp>
+<sp who="#L0271_M8">
 <speaker>Quiver.</speaker>
 <l>I feel remarkably intimidated ——</l>
 <l>By whom d'ye think it's now illuminated? </l>
 </sp>
-<sp>
+<sp who="#L0271_M6">
 <speaker>Prince.</speaker>
 <l>As I'm alive! so are the pictures too! </l>
 </sp>
-<sp>
+<sp who="#L0271_M8">
 <speaker>Quiver.</speaker>
 <l>Shut up the book—directly, sir, pray do. </l>
 <l>The devil's in it. </l>
 </sp>
 <stage>(a repetition of the Room on the Stage appears through the transparency,
 and the forms of the Shepherdess and Prince Humpy become visible)</stage>
-<sp>
+<sp who="#L0271_M6">
 <speaker>Prince.</speaker>
 <l>No—an angel rather, </l>
 <l>For there's my Shepherdess ! </l>
 </sp>
-<sp>
+<sp who="#L0271_M8">
 <speaker>Quiver.</speaker>
 <l>I'll tell your father! </l>
 </sp>
-<sp>
+<sp who="#L0271_M6">
 <speaker>Prince.</speaker>
 <l>The chamber is the one we stand in—see, </l>
 <l>She points to yonder wall, and lo! a key </l>
 <l>I find, with which I ope a secret door </l>
 <l>Behind those hangings. </l>
 </sp>
-<sp>
+<sp who="#L0271_M8">
 <speaker>Quiver.</speaker>
 <l>Don't see any more. </l>
 </sp>
 <stage>(a bower of roses is seen, and the same figure of the shepherdess
 surrounded by Shepherds and Shepherdesses)</stage>
 
-<sp>
+<sp who="#L0271_M6">
 <speaker>Prince.</speaker>
 <l>Another picture. There's my fair again, </l>
 <l>Leading of youths and maids a brilliant train. </l>
 </sp>
-<sp>
+<sp who="#L0271_M14">
 <speaker>Shepherd.</speaker>
 <l>Prince Humpy ! </l>
 </sp>
-<sp>
+<sp who="#L0271_M6">
 <speaker>Prince.</speaker>
 <l>Hah ! on me they call. </l>
 </sp>
-<sp>
+<sp who="#L0271_M8">
 <speaker>Quiver.</speaker>
 <l>No doubt. </l>
 <l>If they should call on me, say I'm gone out. </l>
 </sp>
 <spGrp>
-<sp>
+<sp who="#L0271_M8">
 <sound>Glee .—<title>" Hark, the Lark."</title>
 </sound>
 <l>Hark! a lark if you'd enjoy,</l>
@@ -963,54 +1051,54 @@ surrounded by Shepherds and Shepherdesses)</stage>
 <l>" My lady sweet arise." <stage>(the volume closes)</stage></l>
 </sp>
 </spGrp>
-<sp>
+<sp who="#L0271_M8">
 <speaker>Quiver.</speaker>
 <l>Riddle my riddle my riddle my ree. </l>
 <l>Who can tell what this riddle may be ? </l>
 <pb n="12"/>
 </sp>
-<sp>
+<sp who="#L0271_M6">
 <speaker>Prince.</speaker>
 <l><stage>(discovering key and secret door)</stage> Why, of the riddle here I've
 found the key! </l>
 <l>A Queen to wake. </l>
 </sp>
-<sp>
+<sp who="#L0271_M8">
 <speaker>Quiver.</speaker>
 <l>You wouldn't go to do it. </l>
 </sp>
-<sp>
+<sp who="#L0271_M6">
 <speaker>Prince.</speaker>
 <l>I will, and here's the door. </l>
 </sp>
-<sp>
+<sp who="#L0271_M8">
 <speaker>Quiver.</speaker>
 <l>I can't go through it. </l>
 </sp>
 <spGrp>
 <sound>Duo .—<title>" Come where the aspens Quiver." </title></sound>
-<sp>
+<sp who="#L0271_M6">
 <speaker>Prince.</speaker>
 <l>Come on my trusty Quiver. </l>
 </sp>
-<sp>
+<sp who="#L0271_M8">
 <speaker>Quiver.</speaker>
 <l>Oh, how I shake and shiver; </l>
 <l>Think of papa, </l>
 <l>Ruined we are. </l>
 </sp>
-<sp>
+<sp who="#L0271_M6">
 <speaker>Prince.</speaker>
 <l>Follow the Prince you love! </l>
 <l>Think of the fame and glory, </l>
 <l>Think how you'll live in story. </l>
 </sp>
-<sp>
+<sp who="#L0271_M8">
 <speaker>Quiver.</speaker>
 <l>Longer to live just now, sir, </l>
 <l>I should prefer by far ! </l>
 </sp>
-<sp>
+<sp who="#L0271_M6">
 <speaker>Prince.</speaker>
 <l>Come on my trusty Quiver, &amp;c. </l>
 </sp>
@@ -1021,108 +1109,108 @@ found the key! </l>
 <head>Scene IV.—The turquoise bed chamber. </head>
 <stage type="setting"> A large window, L., alcove in centre, closed by curtains. </stage>
 <stage> Enter Prince and Quiver, R. </stage>
-<sp>
+<sp who="#L0271_M6">
 <speaker>Prince.</speaker>
 <l>The door has slamm'd to, and the bolt has shot to. </l>
 </sp>
-<sp>
+<sp who="#L0271_M8">
 <speaker>Quiver.</speaker>
 <l>'Twas a fool's bolt soon shot. </l>
 </sp>
-<sp>
+<sp who="#L0271_M6">
 <speaker>Prince.</speaker>
 <l>Where have we got to ? </l>
 </sp>
-<sp>
+<sp who="#L0271_M8">
 <speaker>Quiver.</speaker>
 <l>Where we've no business—in such queer concerns </l>
 <l>One's only profit lies in quick returns. </l>
 </sp>
-<sp>
+<sp who="#L0271_M6">
 <speaker>Prince.</speaker>
 <l>Peace! Lo, perchance, the object of my search. </l>
 </sp>
 <stage>(Prince Humpy undraws the curtains of the alcove, and discovers Queen
 Benignanta on a couch of state, as in the first scene)</stage>
 
-<sp>
+<sp who="#L0271_F12">
 <speaker>Queen.</speaker>
 <l>I'll never marry you. </l>
 </sp>
-<sp>
+<sp who="#L0271_M8">
 <speaker>Quiver.</speaker>
 <l>A lady! </l>
 </sp>
-<sp>
+<sp who="#L0271_M6">
 <speaker>Prince.</speaker>
 <l>Fast asleep too! </l>
 </sp>
-<sp>
+<sp who="#L0271_M8">
 <speaker>Quiver.</speaker>
 <l>As a church ! </l>
 </sp>
-<sp>
+<sp who="#L0271_M6">
 <speaker>Prince.</speaker>
 <l>Madam ! Ahem ! She stirs not—gently shake her. </l>
 </sp>
-<sp>
+<sp who="#L0271_M8">
 <speaker>Quiver.</speaker>
 <l>Not I—I'm much too wide awake—to wake her. </l>
 </sp>
-<sp>
+<sp who="#L0271_F12">
 <speaker>Queen.</speaker>
 <l><stage>(in her sleep)</stage> My Transimenus. </l>
 </sp>
-<sp>
+<sp who="#L0271_M8">
 <speaker>Quiver.</speaker>
 <l>Hark, sir! </l>
 </sp>
-<sp>
+<sp who="#L0271_M6">
 <speaker>Prince.</speaker>
 <l>Silence, keep! </l>
 <l>And listen—she is talking in her sleep. </l>
 </sp>
-<sp>
+<sp who="#L0271_F12">
 <speaker>Queen.</speaker>
 <l>Monster, away! </l>
 </sp>
-<sp>
+<sp who="#L0271_M6">
 <speaker>Prince.</speaker>
 <l>Monster! </l>
 </sp>
-<sp>
+<sp who="#L0271_M8">
 <speaker>Quiver.</speaker>
 <l>That's not polite. </l>
 </sp>
-<sp>
+<sp who="#L0271_M6">
 <speaker>Prince.</speaker>
 <l>Though fast asleep, she sees that I'm a fright— </l>
 <pb n="13"/>
 </sp>
-<sp>
+<sp who="#L0271_M6">
 <speaker>Prince.</speaker>
 <l>Ne'er marry me !</l>
 <l>Stop till I ask you, ma'am ! <stage>(Queen rises and advances)</stage> She
 rises ! see ?</l>
 </sp>
-<sp>
+<sp who="#L0271_M8">
 <speaker>Quiver.</speaker>
 <l>What caper next is she about to cut—</l>
 <l>Her eyes are open—</l>
 </sp>
-<sp>
+<sp who="#L0271_M6">
 <speaker>Prince.</speaker>
 <l>But their sense is shut.</l>
 </sp>
-<sp>
+<sp who="#L0271_M8">
 <speaker>Quiver.</speaker>
 <l>Why rubbing of her hands so does she keep ?</l>
 </sp>
-<sp>
+<sp who="#L0271_M6">
 <speaker>Prince.</speaker>
 <l>Because her very fingers are asleep.</l>
 </sp>
-<sp>
+<sp who="#L0271_F12">
 <speaker>Queen.</speaker>
 <l>On the spot still—ruffian, my hand let go,</l>
 <l>'Tis pledged to Transimenus. Oh ! oh ! oh!</l>
@@ -1133,121 +1221,121 @@ rises ! see ?</l>
 and sits)</stage>
 </l>
 </sp>
-<sp>
+<sp who="#L0271_M6">
 <speaker>Prince.</speaker>
 <l>Did you mark that—she must be in a trance.</l>
 </sp>
-<sp>
+<sp who="#L0271_M8">
 <speaker>Quiver.</speaker>
 <l>Perhaps she's in a state of clairvoyance.</l>
 </sp>
-<sp>
+<sp who="#L0271_M6">
 <speaker>Prince.</speaker>
 <l>What's clairvoyance ?</l>
 </sp>
-<sp>
+<sp who="#L0271_M8">
 <speaker>Quiver.</speaker>
 <l>The art of seeing through</l>
 <l>Those who are not sharp enough to see through you! </l>
 </sp>
-<sp>
+<sp who="#L0271_M6">
 <speaker>Prince.</speaker>
 <l>But if they're fast asleep, what can they spy ?</l>
 </sp>
-<sp>
+<sp who="#L0271_M8">
 <speaker>Quiver.</speaker>
 <l>'Tis a magnetic sleep, that's all my eye !</l>
 <l>And if this lady's in that sort of trance, sir,</l>
 <l>To any question she'll give you an answer.</l>
 </sp>
-<sp>
+<sp who="#L0271_M6">
 <speaker>Prince.</speaker>
 <l>I'll put her to the question then, instanter.</l>
 <l>Who are you, ma'am ?</l>
 </sp>
-<sp>
+<sp who="#L0271_F12">
 <speaker>Queen.</speaker>
 <l>My name is Benignanta,</l>
 <l>And of Arcadia I was once the Queen.</l>
 </sp>
-<sp>
+<sp who="#L0271_M6">
 <speaker>Prince.</speaker>
 <l>Indeed! How long ago may that have been ?</l>
 </sp>
-<sp>
+<sp who="#L0271_F12">
 <speaker>Queen.</speaker>
 <l>Two hundred years.</l>
 </sp>
-<sp>
+<sp who="#L0271_M6">
 <speaker>Prince.</speaker>
 <l>Two hundred years!</l>
 </sp>
-<sp>
+<sp who="#L0271_M8">
 <speaker>Quiver.</speaker>
 <l>Oh, fie ! </l>
 <l>Asleep, how very fast some people lie!</l>
 </sp>
-<sp>
+<sp who="#L0271_M6">
 <speaker>Prince.</speaker>
 <l>Two hundred years, ma'am, do you mean to say</l>
 <l>You've been asleep here ?</l>
 </sp>
-<sp>
+<sp who="#L0271_F12">
 <speaker>Queen.</speaker>
 <l>Yes, sir, to a day. </l>
 </sp>
-<sp>
+<sp who="#L0271_M6">
 <speaker>Prince.</speaker>
 <l>Your bed, methinks, you've lain quite long enough in,</l>
 <l>Who tucked you up in it ?</l>
 </sp>
-<sp>
+<sp who="#L0271_F12">
 <speaker>Queen.</speaker>
 <l>The great Humguffin !</l>
 </sp>
-<sp>
+<sp who="#L0271_M8">
 <speaker>Quiver.</speaker>
 <l>Humguffin !—what a name to go to bed with! </l>
 </sp>
-<sp>
+<sp who="#L0271_M6">
 <speaker>Prince.</speaker>
 <l>And wherefore ?</l>
 </sp>
-<sp>
+<sp who="#L0271_F12">
 <speaker>Queen.</speaker>
 <l>For that him I would not wed with.</l>
 </sp>
-<sp>
+<sp who="#L0271_M6">
 <speaker>Prince.</speaker>
 <l>No doubt some other suitor you preferred?</l>
 </sp>
-<sp>
+<sp who="#L0271_F12">
 <speaker>Queen.</speaker>
 <l>Oh, yes! </l>
 </sp>
-<sp>
+<sp who="#L0271_M6">
 <speaker>Prince.</speaker>
 <l>He's dead, of course.</l>
 </sp>
-<sp>
+<sp who="#L0271_F12">
 <speaker>Queen.</speaker>
 <l>No—he's a bird.</l>
 </sp>
-<sp>
+<sp who="#L0271_M8 #L0271_M6">
 <speaker>Quiver | Prince.</speaker>
 <l>A bird! </l>
 </sp>
-<sp>
+<sp who="#L0271_M8">
 <speaker>Quiver.</speaker>
 <l>A precious old bird he must be !</l>
 <l>No chaff could catch him to a certainty! </l>
 </sp>
-<sp>
+<sp who="#L0271_F12">
 <speaker>Queen.</speaker>
 <l>Oh, no—he calls upon me every day.</l>
 </sp>
 <pb n="14"/>
-<sp>
+<sp who="#L0271_M8">
 <speaker>Quiver.</speaker>
 <l>A bird-call! <stage>(music)</stage>
 </l>
@@ -1257,38 +1345,38 @@ and sits)</stage>
 flies in, bearing the golden branch in his beak)</stage>
 <l>Zounds! an eagle, and a bouncer ! </l>
 </sp>
-<sp>
+<sp who="#L0271_M6">
 <speaker>Prince.</speaker>
 <l>At sight of him the Queen no word can utter! </l>
 </sp>
-<sp>
+<sp who="#L0271_M8">
 <speaker>Quiver.</speaker>
 <l>The eagle, too, is in a precious flutter. </l>
 </sp>
-<sp>
+<sp who="#L0271_M6">
 <speaker>Prince.</speaker>
 <l>What means that golden bough ? I wish to know. </l>
 </sp>
-<sp>
+<sp who="#L0271_M8">
 <speaker>Quiver.</speaker>
 <l>I wish he'd make another bow, and go. </l>
 </sp>
-<sp>
+<sp who="#L0271_M6">
 <speaker>Prince.</speaker>
 <l>I have it!</l>
 </sp>
-<sp>
+<sp who="#L0271_M8">
 <speaker>Quiver.</speaker>
 <l>What?</l>
 </sp>
-<sp>
+<sp who="#L0271_M6">
 <speaker>Prince.</speaker>
 <l>The branch —there's magic in it,</l>
 <l>And this, perhaps, may be the lucky minute;</l>
 <l>And I the lucky mortal fixed by fate</l>
 <l>To break the spell, and change this lady's state.</l>
 </sp>
-<sp>
+<sp who="#L0271_M6">
 <sound>Air .—"<title> O Fortune a tou caprice."</title>
 </sound>
 <l>O fortune, if in your caprice,</l>
@@ -1301,89 +1389,89 @@ flies in, bearing the golden branch in his beak)</stage>
 <l>Your heart I'll gently, gently touch.</l>
 <l>O fortune if, &amp;c.</l>
 </sp>
-<sp>
+<sp who="#L0271_F12">
 <speaker>Queen.</speaker>
 <l><stage>(starting up) </stage>My Transimenus, stay! <stage>(the eagle flies
 out of the window</stage>
 </l>
 <l>Again he's flown. </l>
 </sp>
-<sp>
+<sp who="#L0271_M6">
 <speaker>Prince.</speaker>
 <l>A very flighty lover you must own.</l>
 </sp>
-<sp>
+<sp who="#L0271_F12">
 <speaker>Queen.</speaker>
 <l>Forgive a passion not to be suppressed,</l>
 <l>My first words should have been to you addressed;</l>
 <l>I thank you for your aid, sir, most sincerely. </l>
 </sp>
-<sp>
+<sp who="#L0271_M6">
 <speaker>Prince.</speaker>
 <l>Don't mention it, I am too happy, really. </l>
 </sp>
-<sp>
+<sp who="#L0271_F12">
 <speaker>Queen.</speaker>
 <l>You for my benefit have played a part— </l>
 </sp>
-<sp>
+<sp who="#L0271_M6">
 <speaker>Prince.</speaker>
 <l>Which any gentleman must know by heart. </l>
 </sp>
-<sp>
+<sp who="#L0271_F12">
 <speaker>Queen.</speaker>
 <l>I am a Queen, who benefits can heap— </l>
 </sp>
-<sp>
+<sp who="#L0271_M6">
 <speaker>Prince.</speaker>
 <l>You told me all your story in your sleep. </l>
 </sp>
-<sp>
+<sp who="#L0271_F12">
 <speaker>Queen.</speaker>
 <l>How I was wooed by a vile necromancer,</l>
 <l>A wretch who would not take "no" for an answer ? </l>
 </sp>
-<sp>
+<sp who="#L0271_M6">
 <speaker>Prince.</speaker>
 <l>The great Humguffin.</l>
 </sp>
-<sp>
+<sp who="#L0271_F12">
 <speaker>Queen.</speaker>
 <l>Aye! Upon your word?</l>
 <l>And how Prince Transimenus to a bird</l>
 <l>Was changed, by a foul sorceress he hated ? </l>
 </sp>
-<sp>
+<sp who="#L0271_M8">
 <speaker>Quiver.</speaker>
 <l>The facts, in brief, your majesty has stated. </l>
 </sp>
-<sp>
+<sp who="#L0271_F12">
 <speaker>Queen.</speaker>
 <l>Then you shall hear the rest some other day,</l>
 <l>For I am now impatient to repay</l>
 <l>My obligations to you, which are heavy. </l>
 </sp>
-<sp>
+<sp who="#L0271_M6">
 <speaker>Prince.</speaker>
 <l>Madam, I but assisted at your "levee."</l>
 </sp>
 <pb n="15"/>
-<sp>
+<sp who="#L0271_F12">
 <speaker>Queen.</speaker>
 <l><stage>(takes the branch)</stage> You are too modest, pray some wish
 discover.</l>
 </sp>
-<sp>
+<sp who="#L0271_M6">
 <speaker>Prince.</speaker>
 <l>I wish you were united to your lover,</l>
 </sp>
-<sp>
+<sp who="#L0271_F12">
 <speaker>Queen.</speaker>
 <l>Nay, generous youth, you must not think of me</l>
 <l>Before yourself. Say would you wish to be</l>
 <l>As perfect in your person as your mind ?</l>
 </sp>
-<sp>
+<sp who="#L0271_M6">
 <speaker>Prince.</speaker>
 <l>Your majesty is really very kind.</l>
 <l>I can't admit my title to perfection, </l>
@@ -1391,35 +1479,35 @@ discover.</l>
 <l>To come more near the human form divine </l>
 <l>For other's sake, a great deal more than mine.</l>
 </sp>
-<sp>
+<sp who="#L0271_F12">
 <speaker>Queen.</speaker>
 <l>Be handsome then as you are good and fearless, </l>
 <l>No more Prince Humpy—you are now Prince Peerless.</l>
 <stage> (touches him with the golden branch—his deformities vanish) </stage>
 </sp>
-<sp>
+<sp who="#L0271_M8">
 <speaker>Quiver.</speaker>
 <l>Prodigious! sir, permit me to inspect you ?</l>
 <l>You're grown so handsome, none could recollect you.</l>
 <l>Oh, madam, pardon me, but ere you go, A</l>
 <l>A boon, perhaps, on me you would bestow. </l>
 </sp>
-<sp>
+<sp who="#L0271_F12">
 <speaker>Queen.</speaker>
 <l>For what am I indebted, pray, to you ? </l>
 </sp>
-<sp>
+<sp who="#L0271_M8">
 <speaker>Quiver.</speaker>
 <l>I did the looKing on part— </l>
 </sp>
-<sp>
+<sp who="#L0271_F12">
 <speaker>Queen.</speaker>
 <l>Very true ——</l>
 <l>And in most offices it stands confest, </l>
 <l>The lookers-on are often paid the best;</l>
 <l>So name your wish, my friend, for I'm in haste.</l>
 </sp>
-<sp>
+<sp who="#L0271_M8">
 <speaker>Quiver.</speaker>
 <l>I needn't tell a lady of your taste,</l>
 <l>That in the way of personal attraction, </l>
@@ -1429,7 +1517,7 @@ discover.</l>
 <l>Of yielding to the prince's supplication,</l>
 <l>Exposes to a sudden separation.</l>
 </sp>
-<sp>
+<sp who="#L0271_F12">
 <speaker>Queen.</speaker>
 <l>If of your whole request that is "the tottle"</l>
 <l>Upon my toilet table stands a bottle</l>
@@ -1438,7 +1526,7 @@ discover.</l>
 <l>Your head beneath the sword or axe may fall </l>
 <l>Without your feeling any pain at all!</l>
 </sp>
-<sp>
+<sp who="#L0271_M8">
 <speaker>Quiver.</speaker>
 <l>Pardon me once again, most gracious Queen, </l>
 <l>But that is not at all the thing I mean. </l>
@@ -1447,35 +1535,35 @@ discover.</l>
 <l>Is not my object—I should be quite loth</l>
 <l>To part with either—I would keep them both.</l>
 </sp>
-<sp>
+<sp who="#L0271_M6">
 <speaker>Prince.</speaker>
 <l>Poor Quiver knows the temper of my father. </l>
 </sp>
-<sp>
+<sp who="#L0271_F12">
 <speaker>Queen.</speaker>
 <l>Is King Brown so tyrannical then ?</l>
 </sp>
-<sp>
+<sp who="#L0271_M8">
 <speaker>Quiver.</speaker>
 <l>Rather — </l>
 <l>About the edges —</l>
 </sp>
-<sp>
+<sp who="#L0271_F12">
 <speaker>Queen.</speaker>
 <l>Come then both with me,</l>
 <l>My guests awhile in fair Arcadia be.</l>
 </sp>
 <pb n="16"/>
-<sp>
+<sp who="#L0271_M6">
 <speaker>Prince.</speaker>
 <l>With all my heart—but how are we to go ? </l>
 <l>Is there a railway ?</l>
 </sp>
-<sp>
+<sp who="#L0271_M8">
 <speaker>Quiver.</speaker>
 <l>There's a branch— </l>
 </sp>
-<sp>
+<sp who="#L0271_F12">
 <speaker>Queen.</speaker>
 <l>.Just so.</l>
 <l>With Fairy Pastorella's kind assistance</l>
@@ -1483,7 +1571,7 @@ discover.</l>
 </sp>
 <spGrp>
 <sound>Air, Queen.—<title>"Jenny Lind's Farewell."</title></sound>
-<sp>
+<sp who="#L0271_F12">
 <l>So away we go to a far off land,</l>
 <l>Where awhile your home shall be,</l>
 <l>And perhaps you may find in that bright new world </l>
@@ -1499,7 +1587,7 @@ discover.</l>
 <div type="scene">
 <head>Scene V. —The Bowers of Arcadia. </head>
 <stage> The Stage is filled with Shepherds and Shepherdesses. </stage>
-<sp>
+<sp who="#L0271_mult">
 <sound>Chorus . —<title>"Echo Quadrille."</title>
 </sound>
 <l>Hail! Hail! Hail to our Queen </l>
@@ -1534,7 +1622,7 @@ Mercer, Simmonds,Hunt, E. Hunt, Collier, E. Healey. </p>
 <stage>In C. a large window, the shutters of which are closed; Princess Dumpy
 discovered seated in a gothic chair, Guards in attendance; Suivanta brought on
 by Guards; as curtain rises, Guards exit, R. </stage>
-<sp>
+<sp who="#L0271_F11">
 <speaker>Suivanta.</speaker>
 <l>Madame, your patience is to me provoKing,</l>
 <l>I would put up with such affront from no King!</l>
@@ -1542,25 +1630,25 @@ by Guards; as curtain rises, Guards exit, R. </stage>
 <l>Except our own—to look no mortal phiz on !</l>
 <l>Write to your father—bid him make a racket. </l>
 </sp>
-<sp>
+<sp who="#L0271_F10">
 <speaker>Princess.</speaker>
 <l>I have, but they refused to post my packet. </l>
 </sp>
-<sp>
+<sp who="#L0271_F11">
 <speaker>Suivanta.</speaker>
 <l>Couldn't they get it through the office gate;</l>
 <l>Or did it much exceed a hundred weight ?</l>
 <l>For put but heads enough upon the elf, </l>
 <l>And you might post the post-master himself.</l>
 </sp>
-<sp>
+<sp who="#L0271_F10">
 <speaker>Princess.</speaker>
 <l>'Twas not its size—but should my sighs transpire, </l>
 <l>They feared the weight they might have with my sire. </l>
 <l>To bribe the guard I made a vain endeavour, </l>
 <l>They're bound to take no note of us whatever.</l>
 </sp>
-<sp>
+<sp who="#L0271_F11">
 <speaker>Suivanta.</speaker>
 <l>Oh, that old bear, King Brown! Look, ma'am, just see </l>
 <l>In what a prison polka he's put me.</l>
@@ -1568,7 +1656,7 @@ by Guards; as curtain rises, Guards exit, R. </stage>
 <spGrp>
 <sound>Song .Suivanta.—<title>"Old Joe, or Somebody in the house with
 Dinah."</title></sound>
-<sp>
+<sp who="#L0271_F11">
 <l>Old King Brown he kicked up a din, </l>
 <l>And this prison polka he put me in, </l>
 <l>I said 'twas too short: but he answered,"stuff!" </l>
@@ -1592,7 +1680,7 @@ Dinah."</title></sound>
 <l>How many are the wits that I know, &amp;c.</l>
 </sp>
 </spGrp>
-<sp>
+<sp who="#L0271_F11">
 <speaker>Suivanta.</speaker>
 <l>If one could hail somebody passing by ?</l>
 <l>But that old-fashioned window's up so high,</l>
@@ -1603,52 +1691,52 @@ Dinah."</title></sound>
 the Princess, on the other a Shepherd) </stage>
 <l>Oh, madam ! oh, your highness, only see ! </l>
 </sp>
-<sp>
+<sp who="#L0271_F10">
 <speaker>Princess.</speaker>
 <l>Why there's a little figure, just like me;</l>
 <l>And gazing on her from the other pane,</l>
 <l>A young and very handsome shepherd swain,</l>
 <l>Who looks as with her he would be acquainted. </l>
 </sp>
-<sp>
+<sp who="#L0271_F11">
 <speaker>Suivanta.</speaker>
 <l>O, what a pity that he's only painted !</l>
 <l>In his whole figure there is not one flaw,</l>
 <l>And finer eyes in glass I never saw.</l>
 </sp>
-<sp>
+<sp who="#L0271_F10">
 <speaker>Princess.</speaker>
 <l>I'll speak to him, as though alive he were.</l>
 </sp>
-<sp>
+<sp who="#L0271_F11">
 <speaker>Suivanta.</speaker>
 <l>You'd better then address him—" Glass, with care." </l>
 </sp>
-<sp>
+<sp who="#L0271_F10">
 <speaker>Princess.</speaker>
 <l>Say, gentle shepherd! <stage>( the figure moves)</stage> Ah, I'm all
 amazement,</l>
 <l>The figure sure is moving in the casement !</l>
 <stage>(the Figure of the Princess becomes also animated)</stage>
 </sp>
-<sp>
+<sp who="#L0271_F11">
 <speaker>Suivanta.</speaker>
 <l>And this moves too!—I don't know what's occurring,</l>
 <l>But certainly the incident is stirring. <stage>( symphony to glee)</stage>
 </l>
 </sp>
-<sp>
+<sp who="#L0271_F10">
 <speaker>Princess.</speaker>
 <l>Hark! Music, which Jullien's even surpasses. </l>
 </sp>
-<sp>
+<sp who="#L0271_F11">
 <speaker>Suivanta.</speaker>
 <l>The window is paned sure with musical glasses.</l>
 </sp>
 <spGrp>
 <sound>Glee . —<title>"The Wreath."</title>
 </sound>
-<sp>
+<sp who="#L0271_F10">
 <speaker>Figure of Princess.</speaker>
 <l>Shepherd, tell me, tell me, have you seen</l>
 <l>An eagle fly this way ?</l>
@@ -1656,14 +1744,14 @@ amazement,</l>
 <l>And Pastorella's princely <hi>protegé.</hi>
 </l>
 </sp>
-<sp>
+<sp who="#L0271_M14">
 <speaker>Shepherd.</speaker>
 <l>Yes, round and round this round tow'r, oft before </l>
 <l>He's flown at evening's stilly close ;</l>
 <l>And in his beak the branch he bore,</l>
 <l>With which you are to change him, I suppose.</l>
 </sp>
-<sp>
+<sp who="#L0271_F10 #L0271_F11">
 <speaker>Princess and Suivanta.</speaker>
 <l>Shepherd, tell us, tell us, pray what can you mean, </l>
 <l>What can you mean—by what you seem to say ?</l>
@@ -1672,7 +1760,7 @@ amazement,</l>
 </sp>
 </spGrp>
 
-<sp>
+<sp who="#L0271_F11">
 <speaker>Suivanta.</speaker>
 <l>Stay, you imperfect speakers, tell us more.</l>
 <stage>(Figures move slowly off)</stage>
@@ -1683,12 +1771,12 @@ amazement,</l>
 <l>The glass had bubbles in it when 'twas blown, </l>
 <l>And these are of them</l>
 </sp>
-<sp>
+<sp who="#L0271_F10">
 <speaker>Princess.</speaker>
 <l>Whither have they flown ? </l>
 </sp>
 <pb n="19"/>
-<sp>
+<sp who="#L0271_F11">
 <speaker>Suivanta.</speaker>
 <l>As with a diamond,—cut out of <hi>their</hi> pane,</l>
 <l>Left us in <hi>ours</hi> —and but the window, plain. <stage>( window
@@ -1697,79 +1785,79 @@ closes)</stage>
 <l>Like the old story of the bear and fiddle,</l>
 <l>Begun, but broke off in the very middle.</l>
 </sp>
-<sp>
+<sp who="#L0271_F10">
 <speaker>Princess.</speaker>
 <l>Would they had staid—a window should have thrown</l>
 <l>More light upon a subject of its own.</l>
 <l>I'll tax it with unkindness ——</l>
 </sp>
-<sp>
+<sp who="#L0271_F11">
 <speaker>Suivanta.</speaker>
 <l>Hold, ma'am, pray,</l>
 <l>Windows are taxed enough, another way.</l>
 <l>But certainly it wasn't very civil.</l>
 </sp>
-<sp>
+<sp who="#L0271_F10">
 <speaker>Princess.</speaker>
 <l>It opens!</l>
 <stage>(the Eagle appears at it with the golden branch)</stage>
 </sp>
-<sp>
+<sp who="#L0271_F11">
 <speaker>Suivanta.</speaker>
 <l><stage>(frightened, and dropping on her knees)</stage> Oh, the devil, ma'am,
 the devil!</l>
 </sp>
-<sp>
+<sp who="#L0271_F10">
 <speaker>Princess.</speaker>
 <l>Suivanta! silly girl, don't be absurd,</l>
 <l>"Tis but an eagle—such a noble bird!</l>
 <l>Perched in the gutter, why, what can it mean ?</l>
 </sp>
-<sp>
+<sp who="#L0271_F11">
 <speaker>Suivanta.</speaker>
 <l>The finest gutter percher ever seen. </l>
 </sp>
-<sp>
+<sp who="#L0271_F10">
 <speaker>Princess.</speaker>
 <l>And in its beak it bears a golden sprig.</l>
 </sp>
-<sp>
+<sp who="#L0271_F11">
 <speaker>Suivanta.</speaker>
 <l>An eagle with a branch—then, ma'am, I twig</l>
 </sp>
-<sp>
+<sp who="#L0271_F10">
 <speaker>Princess.</speaker>
 <l>You twig ?</l>
 </sp>
-<sp>
+<sp who="#L0271_F11">
 <speaker>Suivanta.</speaker>
 <l>Yes; with it give him a slight pat,</l>
 <l>And say—" There, take your change, sir, out of that." </l>
 </sp>
-<sp>
+<sp who="#L0271_F10">
 <speaker>Princess.</speaker>
 <l>Suivanta! Wouldn't that be very bold?</l>
 </sp>
-<sp>
+<sp who="#L0271_F11">
 <speaker>Suivanta.</speaker>
 <l>'Twas what the shepherd in the glass foretold</l>
 <l>Would happen—and what is to be you know</l>
 <l>Comes usually to pass.</l>
 </sp>
-<sp>
+<sp who="#L0271_F10">
 <speaker>Princess.</speaker>
 <l>It must be so—</l>
 <l>Hand me the talisman, and for a freak</l>
 <l>I will go boldly up before the beak!</l>
 </sp>
-<sp>
+<sp who="#L0271_F11">
 <speaker>Suivanta.</speaker>
 <l>This eagle may with safety fly a kite</l>
 <l>He's gold enough to cash a bill at sight.</l>
 <l>What a fine partner in a bank he'd make !</l>
 <l>A branch with so much gold would never break.</l>
 </sp>
-<sp>
+<sp who="#L0271_F10">
 <stage>(Music . Suivanta wheels the Princess up to the window, on the side of
 which the EAGLE is perching)</stage>
 <sound>Incantation, Princess.—" The Fine Old English Gentleman." </sound>
@@ -1780,45 +1868,45 @@ which the EAGLE is perching)</stage>
 <stage>(touches the Eagle with the branch; the bird disappears, and in its place
 is seen Prince Transimenus)</stage>
 </sp>
-<sp>
+<sp who="#L0271_F11">
 <speaker>Suivanta.</speaker>
 <l>Oh, Gemini! He's a fine young fairy gentleman.</l>
 <l>One of the modern time. </l>
 </sp>
-<sp>
+<sp who="#L0271_F10">
 <speaker>Princess.</speaker>
 <l>Who are you, sir?</l>
 
 </sp>
-<sp>
+<sp who="#L0271_M13">
 <speaker>Transimenus.</speaker>
 <l>With gratitude most fervent,</l>
 <l>Madam, I am your very humble servant!</l>
 </sp>
 <pb n="20"/>
-<sp>
+<sp who="#L0271_F11">
 <speaker>Suivanta.</speaker>
 <l><stage>(aside)</stage> Well, that is what I call a handsome chap, </l>
 <l>At him I certainly must set my cap!</l>
 </sp>
-<sp>
+<sp who="#L0271_M13">
 <speaker>Transimenus.</speaker>
 <l>How may I best my gratitude evince ?</l>
 <l>Speak, and upon my honor as a prince</l>
 <l>There's nothing in my power I will refuse.</l>
 </sp>
-<sp>
+<sp who="#L0271_F11">
 <speaker>Suivanta.</speaker>
 <l>If he asked me I know what I would choose, </l>
 <l>And that's himself! </l>
 </sp>
-<sp>
+<sp who="#L0271_F10">
 <speaker>Princess.</speaker>
 <l>Sir, I am more than paid</l>
 <l>In seeing what a charming change I've made, </l>
 <l>And only hope 'tis not too bright to last.</l>
 </sp>
-<sp>
+<sp who="#L0271_M13">
 <speaker>Transimenus.</speaker>
 <l>I've been expecting it for some time past.</l>
 <l>Two centuries have now elapsed since I</l>
@@ -1834,12 +1922,12 @@ is seen Prince Transimenus)</stage>
 <l>And but for being rather a high mounter</l>
 <l>My days had ended in the poultry counter. </l>
 </sp>
-<sp>
+<sp who="#L0271_F11">
 <speaker>Suivanta.</speaker>
 <l>Had ever bird so sad a tale to spread ? <stage>Exit,</stage>
 </l>
 </sp>
-<sp>
+<sp who="#L0271_M13">
 <speaker>Transimenus.</speaker>
 <l>My tale is told—so no more on that head.</l>
 <l>But ere I hop the twig—I mean depart—</l>
@@ -1855,11 +1943,11 @@ is seen Prince Transimenus)</stage>
 <l>I beg your pardon, it is too absurd, </l>
 <l>But when a man has been so long a bird — </l>
 </sp>
-<sp>
+<sp who="#L0271_F10">
 <speaker>Princess.</speaker>
 <l>Pray don't apologize—your meaning's clear. </l>
 </sp>
-<sp>
+<sp who="#L0271_M13">
 <speaker>Transimenus.</speaker>
 <l>You must no longer mope in sadness here, </l>
 <l>But beautiful as you are good and kind,.</l>
@@ -1869,7 +1957,7 @@ is seen Prince Transimenus)</stage>
 </sp>
 <stage>(touches Princess, who springs to her feet and appears as a beautiful
 SHEPHERDESS, the same as seen in the magic book)</stage>
-<sp>
+<sp who="#L0271_M13">
 <speaker>Transimenus.</speaker>
 <l>Arise! you're now as lovely as you're kind,</l>
 <stage>(leads Princess, to glass)</stage>
@@ -1877,12 +1965,12 @@ SHEPHERDESS, the same as seen in the magic book)</stage>
 </sp>
 <pb n="21"/>
 <stage> Re-enter Suivanta, R., her dress changed. </stage>
-<sp>
+<sp who="#L0271_F11">
 <speaker>Suivanta.</speaker>
 <l>Oh ! madam, what on earth has come to pass ?</l>
 <l>I too am changed into a rustic lass.</l>
 </sp>
-<sp>
+<sp who="#L0271_M13">
 <speaker>Transimenus.</speaker>
 <l>And now the fairest, as you are the best, </l>
 <l>Come—in Arcadia be by Cupid blest.</l>
@@ -1895,26 +1983,26 @@ SHEPHERDESS, the same as seen in the magic book)</stage>
 seated, playing on a pipe; Prince Peerless in the costume of the Shepherd seen
 in the painted window, is reclining on a bank on the opposite side, guarding his
 sheep. </stage>
-<sp>
+<sp who="#L0271_M13">
 <speaker>Transimenus.</speaker>
 <l>Beneath the shade yon beechen boughs diffuse,</l>
 <l>See Tityrus invokes his sylvan muse,</l>
 <l>While youthful Corydon recounts his love, </l>
 <l>And for his Phillis fills with sighs the grove.</l>
 </sp>
-<sp>
+<sp who="#L0271_F10">
 <speaker>Princess.</speaker>
 <l>O sir, in mercy tell me, who is Phillis ?</l>
 </sp>
-<sp>
+<sp who="#L0271_M13">
 <speaker>Transimenus.</speaker>
 <l>Yourself. </l>
 </sp>
-<sp>
+<sp who="#L0271_F10">
 <speaker>Princess.</speaker>
 <l>Oh ! joy. </l>
 </sp>
-<sp>
+<sp who="#L0271_M13">
 <speaker>Transimenus.</speaker>
 <l><stage>(to Suivanta)</stage> And you are Amaryllis </l>
 <l>Till further notice. Take good heed of that, </l>
@@ -1923,46 +2011,46 @@ sheep. </stage>
 <l>Love without prudence leads too oft to ruin.</l>
 <stage> Exit Transimenus, R. </stage>
 </sp>
-<sp>
+<sp who="#L0271_F10">
 <speaker>Princess.</speaker>
 <l>He goes. </l>
 </sp>
-<sp>
+<sp who="#L0271_F11">
 <speaker>Suivanta.</speaker>
 <l>And don't say when he'll come again.</l>
 </sp>
-<sp>
+<sp who="#L0271_F10">
 <speaker>Princess.</speaker>
 <l>And leaves us here alone — </l>
 </sp>
-<sp>
+<sp who="#L0271_F11">
 <speaker>Suivanta.</speaker>
 <l>With two young men !</l>
 </sp>
-<sp>
+<sp who="#L0271_F10">
 <speaker>Princess.</speaker>
 <l>Who won't leave us alone, perhaps—let's run — </l>
 </sp>
-<sp>
+<sp who="#L0271_F11">
 <speaker>Suivanta.</speaker>
 <l>It's too late. They have seen us. <stage>(aside)</stage> O what fun !</l>
 <l>And see where yonder stretched upon the grass</l>
 <l>The very shepherd we saw in the glass!</l>
 </sp>
-<sp>
+<sp who="#L0271_F10">
 <speaker>Princess.</speaker>
 <l>Where are we in the name of all the Magi ?</l>
 </sp>
-<sp>
+<sp who="#L0271_M6">
 <speaker>Prince.</speaker>
 <l><stage>(addressing Quiver)</stage><foreign>"Tityre tu patulœ recubans sub
 tegmine fagi" </foreign></l>
 </sp>
-<sp>
+<sp who="#L0271_F10">
 <speaker>Princess.</speaker>
 <l>Suivanta! Hark, what language does he speak ? </l>
 </sp>
-<sp>
+<sp who="#L0271_F11">
 <speaker>Suivanta.</speaker>
 <l>It may be Latin, but to me it's Greek.</l>
 </sp>
@@ -1970,31 +2058,31 @@ tegmine fagi" </foreign></l>
 salutes the Princess, and they return in conversation, L., whilst Suivanta
 addresses Quiver)</stage>
 
-<sp>
+<sp who="#L0271_F11">
 <speaker>Suivanta.</speaker>
 <l>Pray, shepherd, can you play upon this pipe !</l>
 </sp>
-<sp>
+<sp who="#L0271_M8">
 <speaker>Quiver.</speaker>
 <l>In course I can.</l>
 </sp>
-<sp>
+<sp who="#L0271_F11">
 <speaker>Suivanta.</speaker>
 <l>Then play me "Cherry ripe."</l>
 </sp>
-<sp>
+<sp who="#L0271_M8">
 <speaker>Quiver.</speaker>
 <l>What's "Cherry ripe ? "</l>
 </sp>
-<sp>
+<sp who="#L0271_F11">
 <speaker>Suivanta.</speaker>
 <l>A song I'm partial to.</l>
 </sp>
-<sp>
+<sp who="#L0271_M8">
 <speaker>Quiver.</speaker>
 <l>Then sing it me—as I can't play it you.</l>
 </sp>
-<sp>
+<sp who="#L0271_F11">
 <sound>Air, Suivanta.—<title>"Cherry Ripe."</title>
 </sound>
 <l>Cherry ripe, cherry ripe—ripe, I cry, </l>
@@ -2020,83 +2108,83 @@ addresses Quiver)</stage>
 offer garlands; the Prince to the Princess, and Quiver to Suivanta. </stage>
 <spGrp>
 <sound>Quartette . —"<title> Minuet de la Cour and Gavotte de Vestris.</title>" </sound>
-<sp>
+<sp who="#L0271_M6 #L0271_M8">
 <speaker>Prince and Quiver.</speaker>
 <l>Fairest nymph, all nymphs excelling, </l>
 <l>Take this wreath, my passion telling. </l>
 <l>Beauty such as thine compelling </l>
 <l>Every shepherd's heart to love.</l>
 </sp>
-<sp>
+<sp who="#L0271_F10 #L0271_F11">
 <speaker>Princess and Suivanta.</speaker>
 <l>Gentle swain, the wreath you're weaving, </l>
 <l>Pray excuse me from receiving.</l>
 <l>Men, alas, there's no believing, </l>
 <l>Faithless they too often prove !</l>
 </sp>
-<sp>
+<sp who="#L0271_M6 #L0271_M8">
 <speaker>Prince and Quiver.</speaker>
 <l>Say, by what name may I address you ?</l>
 </sp>
-<sp>
+<sp who="#L0271_F10">
 <speaker>Princess.</speaker>
 <l>Phillis ——</l>
 </sp>
-<sp>
+<sp who="#L0271_M6">
 <speaker>Prince.</speaker>
 <l>A goddess I should guess you.</l>
 </sp>
-<sp>
+<sp who="#L0271_F11">
 <speaker>Suivanta.</speaker>
 <l>Mine, sir, is Amaryllis.</l>
 </sp>
-<sp>
+<sp who="#L0271_M8">
 <speaker>Quiver.</speaker>
 <l>Bless you!</l>
 <l>I never saw your like before. <pb/></l>
 </sp>
-<sp>
+<sp who="#L0271_M6">
 <speaker>Prince.</speaker>
 <l>Corydon here the shepherds name me. </l>
 </sp>
-<sp>
+<sp who="#L0271_M8">
 <speaker>Quiver.</speaker>
 <l>"Tityrus dear" the nymphs proclaim me.</l>
 </sp>
-<sp>
+<sp who="#L0271_M6 #L0271_M8">
 <speaker>Both.</speaker>
 <l>But you alone could thus inflame me.</l>
 <l>[The lovely Phillis | Sweet Amarylis ] I adore!</l>
 </sp>
 </spGrp>
 <stage>Gavotte .</stage>
-<sp>
+<sp who="#L0271_F10">
 <speaker>Princess.</speaker>
 <l>Oh! Amaryllis, love has set my heart on fire !</l>
 </sp>
-<sp>
+<sp who="#L0271_F11">
 <speaker>Suivanta.</speaker>
 <l>Oh! Phillis, I as deep am in the mire!</l>
 </sp>
-<sp>
+<sp who="#L0271_F10">
 <speaker>Princess.</speaker>
 <l>In quite a fearful fashion for Corydon it burns!</l>
 </sp>
-<sp>
+<sp who="#L0271_F11">
 <speaker>Suivanta.</speaker>
 <l>And mine the tender passion of Tityrus returns.</l>
 </sp>
-<sp>
+<sp who="#L0271_F10">
 <speaker>Princess.</speaker>
 <l>Young Corydon without a rival reigns, reigns, reigns!</l>
 </sp>
-<sp>
+<sp who="#L0271_F11">
 <speaker>Suivanta.</speaker>
 <l>Sweet Tityrus the sweetest is of swains, swains, swains!</l>
 </sp>
 <stage> Enter Queen Benignanta, meeting Prince Thansimenus, each attended by
 Shepherds and Shepherdesses. </stage>
-<sp>
+<sp who="#L0271_mult">
 <sound>Chorus .—" Acis and Galatea." </sound>
 <l>O! the pleasures of the plains,</l>
 <l>Happy nymphs and happy swains. </l>
@@ -2109,19 +2197,19 @@ Princess. </p>
 <stage> Exeunt omnes. </stage>
 <stage> Re-enter Princess, followed by Prince PEERLESS. </stage>
 
-<sp>
+<sp who="#L0271_M6">
 <speaker>Prince.</speaker>
 <l>Too lovely maid, ah ! wherefore dost thou fly me ?</l>
 </sp>
-<sp>
+<sp who="#L0271_F10">
 <speaker>Princess.</speaker>
 <l>Sweet shepherd, if you please don't come a-nigh me. </l>
 </sp>
-<sp>
+<sp who="#L0271_M6">
 <speaker>Prince.</speaker>
 <l>What from her Corydon can Phillis fear ?</l>
 </sp>
-<sp>
+<sp who="#L0271_F10">
 <speaker>Princess.</speaker>
 <l>MaKing herself too cheap, and him too dear!</l>
 <l>Besides, no longer ought I here to stay.</l>
@@ -2129,75 +2217,75 @@ Princess. </p>
 <l>The lowing herds wind slowly o'er the lea," </l>
 <l>And there are yet no lodgings found for me. </l>
 </sp>
-<sp>
+<sp who="#L0271_M6">
 <speaker>Prince.</speaker>
 <l>I have a lodging in Lamb's Conduit Street, </l>
 <l>Genteelly furnished, small, but very neat.</l>
 <l>To occupy it, if you'll but consent,</l>
 <l>I'll never ask you for a farthing's rent.</l>
 </sp>
-<sp>
+<sp who="#L0271_F10">
 <speaker>Princess.</speaker>
 <l>Lodge at a bachelor's! You don't expect</l>
 <l>I should do anything so incorrect.</l>
 <l>If you were married—</l>
 </sp>
-<sp>
+<sp who="#L0271_M6">
 <speaker>Prince.</speaker>
 <l>'Tis my wish to be,</l>
 <l>If lovely Phillis will but marry me. <pb n="24"/></l>
 </sp>
-<sp>
+<sp who="#L0271_F10">
 <speaker>Princess.</speaker>
 <l>Alas ! fond shepherd, I am not of age, </l>
 <l>And a stern father did my hand engage </l>
 <l>To one of a much higher rank than you.</l>
 </sp>
-<sp>
+<sp who="#L0271_M6">
 <speaker>Prince.</speaker>
 <l>I question that, sweet maid, if all you knew. </l>
 </sp>
-<sp>
+<sp who="#L0271_F10">
 <speaker>Princess.</speaker>
 <l>What! are you not the shepherd that you look ?</l>
 </sp>
-<sp>
+<sp who="#L0271_M6">
 <speaker>Prince.</speaker>
 <l>o yes, I am a shepherd <stage>(aside)</stage> with a hook! </l>
 <l>But in Arcadia princes tend their sheep. </l>
 </sp>
-<sp>
+<sp who="#L0271_F10">
 <speaker>Princess.</speaker>
 <l>Are you a prince ? </l>
 </sp>
-<sp>
+<sp who="#L0271_M6">
 <speaker>Prince.</speaker>
 <l>Dear Phillis—can you keep </l>
 <l>A secret? </l>
 </sp>
-<sp>
+<sp who="#L0271_F10">
 <speaker>Princess.</speaker>
 <l><stage>(aside)</stage> O, how shall I keep my own?</l>
 </sp>
-<sp>
+<sp who="#L0271_M6">
 <speaker>Prince.</speaker>
 <l>I am a prince, and yet may claim a throne. </l>
 <l>Which with my Phillis I would gladly share. </l>
 </sp>
-<sp>
+<sp who="#L0271_F10">
 <speaker>Princess.</speaker>
 <l>Then shepherd know I also am— </l>
 </sp>
-<sp>
+<sp who="#L0271_M13">
 <speaker>Transimenus.</speaker>
 <stage>(appearing amongst the trees, L.)</stage>
 <l>Beware!</l>
 </sp>
-<sp>
+<sp who="#L0271_M6">
 <speaker>Prince.</speaker>
 <l>What voice was that? </l>
 </sp>
-<sp>
+<sp who="#L0271_F10">
 <speaker>Princess.</speaker>
 <l>A friendly warning to me. </l>
 <l>For breach of promise somebody might sue me. </l>
@@ -2207,7 +2295,7 @@ Princess. </p>
 <spGrp>
 <sound>Air,prince .—<title>"La Barcarole."</title>
 </sound>
-<sp>
+<sp who="#L0271_M6">
 <l>O stay my blushing beauty, </l>
 <l>Let love thy steps enchain, </l>
 <l>And beg of cruel duty </l>
@@ -2229,43 +2317,43 @@ Princess. </p>
 </spGrp>
 <stage> Enter Quiver and Suivanta, L. </stage>
 
-<sp>
+<sp who="#L0271_M8">
 <speaker>Quiver.</speaker>
 <l>To Amaryllis love compels my way, </l>
 <l>My grazing sheep up Gray's-Inn Lane may stray.</l>
 </sp>
-<sp>
+<sp who="#L0271_F11">
 <speaker>Suivanta.</speaker>
 <l>You'll lose a lamb while you are following me. </l>
 </sp>
-<sp>
+<sp who="#L0271_M8">
 <speaker>Quiver.</speaker>
 <l>I'm a lost mutton since I gazed on thee! </l>
 </sp>
-<sp>
+<sp who="#L0271_F11">
 <speaker>Suivanta.</speaker>
 <l>Am I a bell-wether to lead you so ? </l>
 </sp>
-<sp>
+<sp who="#L0271_M8">
 <speaker>Quiver.</speaker>
 <l>You are my belle, whether I will or no ! </l>
 </sp>
-<sp>
+<sp who="#L0271_F11">
 <speaker>Suivanta.</speaker>
 <l>Go, cast an eye upon your sheep, man, do! </l>
 </sp>
-<sp>
+<sp who="#L0271_M8">
 <speaker>Quiver.</speaker>
 <l>No, let me stay, and cast sheep's eyes at you— </l>
 <l>The fairest ewe—the lamb that I would fold </l>
 <l>In these fond arms. </l>
 </sp>
-<sp>
+<sp who="#L0271_F11">
 <speaker>Suivanta.</speaker>
 <l>Shepherd, you grow too bold. </l>
 </sp>
 <pb n="25"/>
-<sp>
+<sp who="#L0271_M8">
 <speaker>Quiver.</speaker>
 <l>My passion's growing every moment stronger.</l>
 <l>I can't and won't live single any longer.</l>
@@ -2274,7 +2362,7 @@ Princess. </p>
 <l>Regard your Tityrus without a titter.</l>
 <l>And say where would you find a husband fitter, </l>
 </sp>
-<sp>
+<sp who="#L0271_F11">
 <speaker>Suivanta.</speaker>
 <l><stage>(aside)</stage> A husband?—that deserves consideration.</l>
 <l>And yet, to wed a person of his station—</l>
@@ -2285,97 +2373,97 @@ Princess. </p>
 <sound>Duet .—<title>"The Swiss Girl."</title>
 </sound>
 
-<sp>
+<sp who="#L0271_M8">
 <speaker>Quiver.</speaker>
 <l>Oh! hear me pretty miss !</l>
 <l>Come tend the flocks with me,</l>
 <l>We'll cut a shine amongst </l>
 <l>These boors of Arcady!</l>
 </sp>
-<sp>
+<sp who="#L0271_F11">
 <speaker>Suivanta.</speaker>
 <l>No, no strange doubts my bosom fill—</l>
 <l>Though simple maid, I'm not so green</l>
 <l>To follow thee—at least, until </l>
 <l> The ring and license I have seen.</l>
 </sp>
-<sp>
+<sp who="#L0271_M8">
 <speaker>Quiver.</speaker>
 <l>Oh, come with me, I'll wed you there,</l>
 <l>'Pon honour, bright and fair.</l>
 </sp>
-<sp>
+<sp who="#L0271_F11">
 <speaker>Suivanta.</speaker>
 <l>No, no, no,—I'm very well here,</l>
 <l>Contented, sir, to stay.</l>
 <l>I never trust men's honours,</l>
 <l>So I wish you, sir, good day! La, la, la, &amp;C. </l>
 </sp>
-<sp>
+<sp who="#L0271_M8">
 <speaker>Quiver.</speaker>
 <l>Oh ! hear me, pretty miss!</l>
 </sp>
-<sp>
+<sp who="#L0271_M8 #L0271_F11">
 <speaker>Both.</speaker>
 <l>La, li, ut, li, ut! </l>
 </sp>
-<sp>
+<sp who="#L0271_M8">
 <speaker>Quiver.</speaker>
 <l>My cottage shall be thine,</l>
 <l>At Shepherd's Bush 'tis found</l>
 <l>With kitchen garden, paddock green,</l>
 <l>No end of pleasure ground !</l>
 </sp>
-<sp>
+<sp who="#L0271_F11">
 <speaker>Suivanta.</speaker>
 <l>No, no, I'd rather single live,</l>
 <l>Than wed a man almost unknown;</l>
 <l>And find, when I'd no more to give, </l>
 <l>I dared not call my soul my own !</l>
 </sp>
-<sp>
+<sp who="#L0271_M8">
 <speaker>Quiver.</speaker>
 <l>Say yes—your slave I'll be with pride,</l>
 <l>Oh, say thou'lt be my bride!</l>
 </sp>
-<sp>
+<sp who="#L0271_F11">
 <speaker>Suivanta.</speaker>
 <l>No, no, no, I'm very well so, </l>
 <l>Contented here I'll stay, </l>
 <l>And ever free and happy, </l>
 <l>Sing and drive old care away. La, la, la, &amp;C.</l>
 </sp>
-<sp>
+<sp who="#L0271_M8">
 <speaker>Quiver.</speaker>
 <l>Oh, say thou'lt be my bride !</l>
 <l>La, la, la, &amp;c. </l>
 <stage> Exit Suivanta, l. </stage>
 </sp>
 </spGrp>
-<sp>
+<sp who="#L0271_M8">
 <speaker>Quiver.</speaker>
 <l>I die, and death shall finish all my pain !</l>
 <stage> Enter Prince hastily, R. </stage>
 </sp>
-<sp>
+<sp who="#L0271_M6">
 <speaker>Prince.</speaker>
 <l>Where's Phillis ? I have sought for her in vain!</l>
 <pb n="26"/>
 <l>Speak, wretch, I'm sure thou knowest.</l>
 </sp>
-<sp>
+<sp who="#L0271_M8">
 <speaker>Quiver.</speaker>
 <l>Who, sir? I, sir?</l>
 <l>You might as well have asked me "Where's Eliza!" </l>
 </sp>
-<sp>
+<sp who="#L0271_M6">
 <speaker>Prince.</speaker>
 <l>Run ! Fly ! Haste, seek her, over hill, through grove.</l>
 <l>I've lost myself—if I have lost my love !</l>
 </sp>
 <spGrp>
-<sound>Air,prince .—<title>"Through the Wood "</title></sound>
-<sp>
+<sound>Air,Prince .—<title>"Through the Wood "</title></sound>
+<sp who="#L0271_M6">
 <l>Through the wood! through the wood follow, and mind you, </l>
 <l>Hunt, hoop, and holloa! dash forward pell-mell.</l>
 <l>Run as if Old Nick himself were behind you, </l>
@@ -2393,11 +2481,11 @@ Princess. </p>
 <head>Scene III. —A forest.</head>
 <stage> Enter Bluerino, L. who beckons on Humguffin, R. and Mandragora, L. then
 exit L.</stage>
-<sp>
+<sp who="#L0271_M2">
 <speaker>Mandragora.</speaker>
 <l>Why how now, brother? you look very grumpy. </l>
 </sp>
-<sp>
+<sp who="#L0271_M1">
 <speaker>Humguffin.</speaker>
 <l>Have I not reason, beldame? Young Prince Humpy </l>
 <l>Has roused Queen Benignanta from her nap, </l>
@@ -2405,11 +2493,11 @@ exit L.</stage>
 <l>To cast off the strong pinions that he wore;</l>
 <l>And take up arms against us as before.</l>
 </sp>
-<sp>
+<sp who="#L0271_M2">
 <speaker>Mandragora.</speaker>
 <l>Are you sure, brother, that this news is true? </l>
 </sp>
-<sp>
+<sp who="#L0271_M1">
 <speaker>Humguffin.</speaker>
 <l>Positive—it's in all the papers too—</l>
 <l>The <hi>Magic Times</hi> —the <hi>Fairy Morning Post</hi> —</l>
@@ -2421,21 +2509,21 @@ exit L.</stage>
 <l>Here's the <hi>Official Conjuror's Gazette.</hi>
 </l>
 </sp>
-<sp>
+<sp who="#L0271_M2">
 <speaker>Mandragora.</speaker>
 <l><stage>(reading)</stage> "Queen Benignanta at the Royal Bower,</l>
 <l>Arcadia, from a tour."</l>
 </sp>
-<sp>
+<sp who="#L0271_M1">
 <speaker>Humguffin.</speaker>
 <l>Misprint for"Tower."</l>
 </sp>
-<sp>
+<sp who="#L0271_M2">
 <speaker>Mandragora.</speaker>
 <l><stage>(continuing)</stage>"Prince Transimenus, in Transportman Square,</l>
 <l>After a lengthened sojourn in the air." </l>
 </sp>
-<sp>
+<sp who="#L0271_M1">
 <speaker>Humguffin.</speaker>
 <l>There's no mistake—Hemlock and Donnabella !</l>
 <l>This is the work of that vile Pastorella.</l>
@@ -2444,36 +2532,36 @@ exit L.</stage>
 <l>There'll not be left one superstitious fogie,</l>
 <l>And babes will laugh when threatened with Old Bogie! </l>
 </sp>
-<sp>
+<sp who="#L0271_M2">
 <speaker>Mandragora.</speaker>
 <l>What's to be done ?</l>
 </sp>
 <pb n="27"/>
-<sp>
+<sp who="#L0271_M1">
 <speaker>Humguffin.</speaker>
 <l>Why, all the harm we can</l>
 <l>Whilst power is left us o'er the mind of man ! </l>
 <l>To work with every fiend in darkness nurst!</l>
 <l>Let Knowledge do her best—we'll do our worst! </l>
 </sp>
-<sp>
+<sp who="#L0271_M2">
 <speaker>Mandragora.</speaker>
 <l>A mortal footstep! </l>
 <l>Who comes here so late ? </l>
 </sp>
-<sp>
+<sp who="#L0271_M1">
 <speaker>Humguffin.</speaker>
 <l>A female by the style and by the gate.</l>
 <l>Pretty and young. Sister—Ahem! Begone. </l>
 </sp>
-<sp>
+<sp who="#L0271_M2">
 <speaker>Mandragora.</speaker>
 <l>O brother! well, you are a wicked one!</l>
 <stage> Exit Mandragora, R.—Humguffin retires, U. E. R. </stage>
 </sp>
 <stage> Enter Princess L. </stage>
 
-<sp>
+<sp who="#L0271_F10">
 <speaker>Princess.</speaker>
 <l>In this bewildering wood I've lost my way, </l>
 <l>To shun temptation I have gone astray. </l>
@@ -2486,7 +2574,7 @@ exit L.</stage>
 <l>O yes! <stage>(to him)</stage> "Turn, gentle hermit of the dale, </l>
 <l>And guide my lonely way."</l>
 </sp>
-<sp>
+<sp who="#L0271_M1">
 <speaker>Humguffin.</speaker>
 <l>With pleasure, maid.</l>
 <l><stage>(aside)</stage> As I'm a conjuror the very jade </l>
@@ -2495,27 +2583,27 @@ exit L.</stage>
 </sp>
 <spGrp>
 <sound>Duo .—Humguffin and Princess.</sound>
-<sp>
+<sp who="#L0271_M1">
 <speaker>Humguffin.</speaker>
 <l>Where are you going to, my pretty maid ?</l>
 </sp>
-<sp>
+<sp who="#L0271_F10">
 <speaker>Princess.</speaker>
 <l>Going astray, sir, I'm afraid.</l>
 </sp>
-<sp>
+<sp who="#L0271_M1">
 <speaker>Humguffin.</speaker>
 <l>What came you into this wood to seek ?</l>
 </sp>
-<sp>
+<sp who="#L0271_F10">
 <speaker>Princess.</speaker>
 <l>Lodgings to let, sir, by the week.</l>
 </sp>
-<sp>
+<sp who="#L0271_M1">
 <speaker>Humguffin.</speaker>
 <l>My wife has an attic, if that will do ?</l>
 </sp>
-<sp>
+<sp who="#L0271_F10">
 <speaker>Princess.</speaker>
 <l>O yes if you please, sir, and thank you too.</l>
 </sp>
@@ -2524,14 +2612,14 @@ exit L.</stage>
 
 <stage> Enter Prince, L. </stage>
 
-<sp>
+<sp who="#L0271_M6">
 <speaker>Prince.</speaker>
 <l>O for a Falconer's voice! my own I'll strain, </l>
 <l>To lure my tassel—gentle, back again.</l>
 </sp>
 <spGrp>
 <sound>Air,prince .—" Fra poco a me recovero." </sound>
-<sp>
+<sp who="#L0271_M6">
 <l>I've poked in every cover, O !— </l>
 <l>But all without avail—O !—</l>
 <l>And now, poor wretched lover, O!</l>
@@ -2552,47 +2640,47 @@ exit L.</stage>
 <l>To the friends who'll use her well! </l>
 </sp>
 </spGrp>
-<sp>
+<sp who="#L0271_M6">
 <speaker>Prince.</speaker>
 <l>Nought can I see, the wood's as dark as pitch ! </l>
 </sp>
 <stage> Re-enter Mandragora, R. </stage>
 
-<sp>
+<sp who="#L0271_M2">
 <speaker>Mandragora.</speaker>
 <l>Whom seek you, shepherd ?</l>
 </sp>
-<sp>
+<sp who="#L0271_M6">
 <speaker>Prince.</speaker>
 <l>Not you, you old witch. </l>
 </sp>
-<sp>
+<sp who="#L0271_M2">
 <speaker>Mandragora.</speaker>
 <l>Old witch ! </l>
 </sp>
-<sp>
+<sp who="#L0271_M6">
 <speaker>Prince.</speaker>
 <l>But if you are a witch—be kind </l>
 <l>And tell me where I may my Phillis find! </l>
 </sp>
-<sp>
+<sp who="#L0271_M2">
 <speaker>Mandragora.</speaker>
 <l>A shepherdess ? </l>
 </sp>
-<sp>
+<sp who="#L0271_M6">
 <speaker>Prince.</speaker>
 <l>Oh, yes, whom I adore. </l>
 </sp>
-<sp>
+<sp who="#L0271_M2">
 <speaker>Mandragora.</speaker>
 <l>Then, silly swain, don't do so any more, </l>
 <l>For she's a false one— </l>
 </sp>
-<sp>
+<sp who="#L0271_M6">
 <speaker>Prince.</speaker>
 <l>False one ! You're another ! </l>
 </sp>
-<sp>
+<sp who="#L0271_M2">
 <speaker>Mandragora.</speaker>
 <l>I say your Phillis bolted with my brother. </l>
 <l>But if the chase you are inclined to follow, </l>
@@ -2603,12 +2691,12 @@ the Enchanter's Castle by moonlight; Humguffin is seen guiding Princess towards
 it)</stage>
 <l>Now, shepherd, am I worthy of belief? </l>
 </sp>
-<sp>
+<sp who="#L0271_M6">
 <speaker>Prince.</speaker>
 <l>It is my Phillis ! Ho, police! Stop thief! </l>
 <stage> Exit hastily, U. E. L. </stage>
 </sp>
-<sp>
+<sp who="#L0271_M2">
 <speaker>Mandragora.</speaker>
 <l>Old witch! I'll make you rue that word, young swaggerer, </l>
 <l>If I don't witch you, my name's not Mandragora ! </l>
@@ -2621,37 +2709,37 @@ it)</stage>
 
 <stage> In much the same state they were Two Hundred Years before. </stage>
 <stage> Enter Humguffin and Princess, L. </stage>
-<sp>
+<sp who="#L0271_M1">
 <speaker>Humguffin.</speaker>
 <l>Walk in and make yourself at home, my dear. </l>
 </sp>
-<sp>
+<sp who="#L0271_F10">
 <speaker>Princess.</speaker>
 <l>At home ! Alas, I'm all abroad I fear: </l>
 <l>Are you the master of this house ? </l>
 </sp>
-<sp>
+<sp who="#L0271_M1">
 <speaker>Humguffin.</speaker>
 <l>To show it </l>
 <l>I'll make you mistress. </l>
 </sp>
-<sp>
+<sp who="#L0271_F10">
 <speaker>Princess.</speaker>
 <l>Not, sir, if I know it. </l>
 <pb n="29"/>
 <l>Where is your wife ? </l>
 </sp>
-<sp>
+<sp who="#L0271_M1">
 <speaker>Humguffin.</speaker>
 <l>My love, I never had one. </l>
 </sp>
-<sp>
+<sp who="#L0271_F10">
 <speaker>Princess.</speaker>
 <l>I'm very much afraid that you're a bad one. </l>
 <l>Hence let me fly ——</l>
 <stage>(she attempts to go, but is prevented by Bluerino)</stage>
 </sp>
-<sp>
+<sp who="#L0271_M1">
 <speaker>Humguffin.</speaker>
 <l>Ha, ha! Fly, Princess, do— </l>
 <l>My web's too strong for such a fly as you. </l>
@@ -2659,29 +2747,29 @@ it)</stage>
 <l>In love with you I've tumbled rather deepish ! </l>
 <l>My name's Humguffin. </l>
 </sp>
-<sp>
+<sp who="#L0271_F10">
 <speaker>Princess.</speaker>
 <l>And you look the part.</l>
 </sp>
-<sp>
+<sp who="#L0271_M1">
 <speaker>Humguffin.</speaker>
 <l>I condescend to offer you my heart— </l>
 <l>Be Mrs. Humguffin, and share my pelf— </l>
 <l>My palace— </l>
 </sp>
-<sp>
+<sp who="#L0271_F10">
 <speaker>Princess.</speaker>
 <l>Me ! I think I see myself. </l>
 </sp>
-<sp>
+<sp who="#L0271_M1">
 <speaker>Humguffin.</speaker>
 <l>Pause ere you answer. </l>
 </sp>
-<sp>
+<sp who="#L0271_F10">
 <speaker>Princess.</speaker>
 <l>No, at once—paws off.</l>
 </sp>
-<sp>
+<sp who="#L0271_M1">
 <speaker>Humguffin.</speaker>
 <l>Sad is the fate of those at me who scoff. </l>
 <l>Observe those bottles, in due order set, </l>
@@ -2690,13 +2778,13 @@ it)</stage>
 <l>A beast, bird, insect, reptile, vile to see— </l>
 <l>Therefore, once more, beware how you decline.</l>
 </sp>
-<sp>
+<sp who="#L0271_F10">
 <speaker>Princess.</speaker>
 <l>Your ardent spirits cannot conquer mine— </l>
 <l>"I'd rather be a toad," as says Othello, </l>
 <l>Than wife of such a horrible old fellow! </l>
 </sp>
-<sp>
+<sp who="#L0271_M1">
 <speaker>Humguffin.</speaker>
 <l>You would!—then my bold belle I'll try your mettle, </l>
 <l>I have an old account with you to settle. </l>
@@ -2713,77 +2801,77 @@ contents upon her)</stage>
 <l>With one spring she has hopped out of my bounds. </l>
 <stage> Enter Mandragora, R. </stage>
 </sp>
-<sp>
+<sp who="#L0271_M2">
 <speaker>Mandragora.</speaker>
 <l>Oh, brother, I have caught a man. </l>
 </sp>
-<sp>
+<sp who="#L0271_M1">
 <speaker>Humguffin.</speaker>
 <l>At last! </l>
 </sp>
-<sp>
+<sp who="#L0271_M2">
 <speaker>Mandragora.</speaker>
 <l>Aye, you may sneer, but 'tis of value vast; </l>
 <l>I've lured Prince Humpy hither ! </l>
 </sp>
-<sp>
+<sp who="#L0271_M1">
 <speaker>Humguffin.</speaker>
 <l>What the chap </l>
 <l>Who roused Queen Benignanta from her nap ? </l>
 </sp>
 <pb n="30"/>
-<sp>
+<sp who="#L0271_M2">
 <speaker>Mandragora.</speaker>
 <l>The very same—see where he comes, in search </l>
 <l>Of your new flame, who left him in the lurch.</l>
 <l>The pretty Phillis.</l>
 </sp>
-<sp>
+<sp who="#L0271_M1">
 <speaker>Humguffin.</speaker>
 <l>Ho ! my rival too.</l>
 <l>Then his arrival he shall dearly rue. </l>
 </sp>
-<sp>
+<sp who="#L0271_M2">
 <speaker>Mandragora.</speaker>
 <l>Where is the wench ?</l>
 </sp>
-<sp>
+<sp who="#L0271_M1">
 <speaker>Humguffin.</speaker>
 <l>By some unlucky blunder</l>
 <l>Turned to a grasshopper—but, fire and thunder!</l>
 <l>This medler shan't escape with so much ease. </l>
 </sp>
-<sp>
+<sp who="#L0271_M2">
 <speaker>Mandragora.</speaker>
 <l>Nay I shall deal with him, sir, if you please.</l>
 </sp>
 <stage> Enter Prince, R. </stage>
 
-<sp>
+<sp who="#L0271_M6">
 <speaker>Prince.</speaker>
 <l>Where is my love ? Restore her to my arms. </l>
 </sp>
-<sp>
+<sp who="#L0271_M2">
 <speaker>Mandragora.</speaker>
 <l>Audacious prince, who has despised my charms, </l>
 <l>Your love's a grasshopper!</l>
 </sp>
-<sp>
+<sp who="#L0271_M6">
 <speaker>Prince.</speaker>
 <l>What have I heard?</l>
 </sp>
-<sp>
+<sp who="#L0271_M2">
 <speaker>Mandragora.</speaker>
 <l>And you shall be a little butcher bird</l>
 <l>That feeds on grasshoppers—so if you meet her</l>
 <l>The chances are you'll snap her up, and eat her.</l>
 </sp>
-<sp>
+<sp who="#L0271_M6">
 <speaker>Prince.</speaker>
 <l>I be the butcher of my own pet lamb,</l>
 <l>You cannot be in earnest, ma'am—</l>
 </sp>
-<sp>
+<sp who="#L0271_M2">
 <speaker>Mandragora.</speaker>
 <l>I am,</l>
 <l>And this shall prove.</l>
@@ -2793,7 +2881,7 @@ Cricket is seen in his place)</stage>
 <l><stage>(the Cricket vanishes)</stage> And run to earth before I had time to
 stick it.</l>
 </sp>
-<sp>
+<sp who="#L0271_M1">
 <speaker>Humguffin.</speaker>
 <l>Another blunder. Sister, we're betrayed!</l>
 <l>Some bottle imp on us a trick has played,</l>
@@ -2803,15 +2891,15 @@ stick it.</l>
 <l>And not a single mixture as before.</l>
 </sp>
 <stage> The Fairy Pastorella rises. </stage>
-<sp>
+<sp who="#L0271_F4">
 <speaker>Fairy.</speaker>
 <l>I rise , sir, to explain—that Imp am I. </l>
 </sp>
-<sp>
+<sp who="#L0271_M1">
 <speaker>Humguffin.</speaker>
 <l>I thought she had some finger in the pie. </l>
 </sp>
-<sp>
+<sp who="#L0271_F4">
 <speaker>Fairy.</speaker>
 <l>The time has come to stop your private still, </l>
 <l>With ignorance in darkness brewing ill!</l>
@@ -2829,21 +2917,21 @@ stick it.</l>
 ENTERTAINING KNOWLEDGE IN ALL ITS BRANCHES.</stage>
 <stage> In the hollow of the Trunk are seen the Grasshopper and the Cricket. </stage>
 <stage> Enter Prince Transimenus, Queen Benignanta, Suivanta. and Quiver,L. </stage>
-<sp>
+<sp who="#L0271_F11">
 <speaker>Suivanta.</speaker>
 <l>I hope we don't intrude, but 'twould appear </l>
 <l>To seek intelligence we should come here; </l>
 <l>To find our friends we're told this is the ticket. </l>
 </sp>
-<sp>
+<sp who="#L0271_F4">
 <speaker>Fairy.</speaker>
 <l>The Prince is here as merry as a cricket. </l>
 </sp>
-<sp>
+<sp who="#L0271_M8">
 <speaker>Quiver.</speaker>
 <l>To ask after the Princess it is proper? </l>
 </sp>
-<sp>
+<sp who="#L0271_F4">
 <speaker>Fairy.</speaker>
 <l>She's here, and she shall sing like a grasshopper. </l>
 </sp>
@@ -2852,7 +2940,7 @@ Grasshopper and Cricket disappear)</stage>
 <stage> Enter Prince Peerless and Princess, C ; Arcadians, R. and L. </stage>
 <spGrp>
 <sound> Finale, Prince.—<title>"Don Pasquale." </title></sound>
-<sp>
+<sp who="#L0271_M6">
 <l>The"Golden Branch"</l>
 <l>By friends so staunch, </l>
 <l>In this parterre now planted, </l>
@@ -2867,7 +2955,7 @@ Grasshopper and Cricket disappear)</stage>
 </sp>
 <sound> Solo, Suivanta.—<title>"La Truandaise."</title>
 </sound>
-<sp>
+<sp who="#L0271_F11">
 <l>Merrily, merrily, </l>
 <l>Ariel-like, beneath the bough here, </l>
 <l>Merrily, merrily, </l>
@@ -2877,7 +2965,7 @@ Grasshopper and Cricket disappear)</stage>
 <l>Be a branch to Fortune leading </l>
 <l>Mine and me? </l>
 </sp>
-<sp>
+<sp who="#L0271_mult">
 <speaker>Chorus.</speaker>
 <l>Merrily, merrily, &amp;c. </l>
 </sp>

@@ -1,9 +1,8 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L0142">
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L0142">
 <teiHeader>
 <fileDesc>
 <titleStmt>
-<title n="stagestruck">Stage Struck; or, The Loves of Augustus Portarlington and
+<title n="stagestruck" type="main">Stage Struck; or, The Loves of Augustus Portarlington and
 Celestina Beverley</title>
 <author>Dimond, William</author>
 <respStmt>
@@ -13,49 +12,81 @@ Celestina Beverley</title>
 </titleStmt>
 <publicationStmt>
 <distributor>Privately published on the Lacy Website</distributor>
-</publicationStmt>
-<sourceDesc>
-<bibl type="digital">Retagged from a DOCX version of the RTF file exported by
-ProQuest from a now lost TEI original Front matter restored from UM
-facsimile.</bibl>
-<bibl type="source" status="TEI_1" n="10.7" corresp="nic:N01402"><author>Dimond,
-William</author><title n="stagestruck">Stage Struck; or, The Loves of Augustus
+<idno type="lae">L0142</idno><idno type='URI' xml:base='https://dracor.org'>LAE</idno></publicationStmt>
+<sourceDesc><bibl type="printSource" n="10.7"><author>Dimond, William</author><title type="main" n="stagestruck">Stage Struck; or, The Loves of Augustus
 Portarlington and Celestina Beverley</title><title type="sub">A Farce in one
 act</title><title type="source" n="#EN">Adapted from "Love in the
-East"</title><extent>21 pp (UM copy: 260 - 281)<measure type="pp" quantity="20"
-/><measure type="txWords" quantity="7993"/><measure type="spWords"
-quantity="7188"/><measure type="stWords" quantity="805"/></extent><eventName
-notAfter="1835" type="firstPerf">
-<name>Theatre Royal, Drury Lane</name>
-<date resp="source"> &gt;n.d.</date>
-<date resp="nicoll" when="1835-11-12"/>
-<name>English Opera House</name>
-</eventName><listRef>
-<ptr target="proquest"/>
-</listRef><relatedItem type="source">
-<bibl>
-<author>Cobb, James</author>
-<title>Love in the East; or, adventures of twelve hours: a comic opera, in three
-acts. Written by the author of The strangers at home. As performed at the
-Theatre-Royal, Drury-Lane.</title>
-</bibl>
-</relatedItem><listRef type="localCopies">
-<ref>Vol10/L0142/L0142-um.pdf</ref>
-</listRef></bibl>
-</sourceDesc>
+East"</title><extent>21 pp (UM copy: 260 - 281)<measure type="pp" quantity="20"/>
+  <measure type="spCount" quantity="337"/>
+  <measure type="spvCount" quantity="11"/>
+  <measure type="txWords" quantity="7995"/>
+  <measure type="spWords" quantity="7188"/>
+  <measure type="stWords" quantity="807"/>
+  </extent>
+
+<title level="s"> Lacy's Acting Edition, volume 10, No. 0142</title><idno type="nic">N01402</idno></bibl><bibl type="digitalSource" n="copytext"><ref target="https://babel.hathitrust.org/cgi/pt?id=mdp.39015067453228&amp;seq=260 ">UM from HT</ref><ref target="local:Vol10/L0142/L0142-um.pdf"/></bibl><bibl type="digitalSource" n="copytext"><ref target="https://lb42.github.io/Lacy/L0142.html">TEI</ref></bibl><listEvent>
+<event type="firstPerf" source="text" where="Drury" >
+<desc>Premiered at Theatre Royal, Drury Lane; date unknown.</desc>
+</event>
+<event type="otherPerf">
+<desc><date when="1835-11-12" source="nicoll"/><name>English Opera
+House</name></desc>
+</event>
+</listEvent></sourceDesc>
 </fileDesc>
-<profileDesc>
-<textClass>
-<!--S_1_Farce_F._FARCE-->
+<profileDesc><textClass>
+
 <catRef target="#sizeS"/>
 <catRef target="#act1"/>
 <catRef target="nic:F."/>
 <keywords>
 <term>FARCE</term>
 </keywords>
-</textClass>
-</profileDesc>
-<revisionDesc>
+</textClass><particDesc><listPerson>
+<person xml:id="L0142_M1">
+<persName type="role">Sir Matthew Scraggs </persName>
+<persName type="spkr" n="71">Sir M.</persName>
+</person>
+<person xml:id="L0142_M2">
+<persName type="role">Count Glorieux </persName>
+<persName type="spkr" n="32">Count.</persName>
+</person>
+<person xml:id="L0142_M3">
+<persName type="role">Tom Tape </persName>
+<persName type="spkr" n="70">Tom.</persName>
+</person>
+<person xml:id="L0142_M4">
+<persName type="role">Milton </persName>
+<persName type="spkr" n="10">Mil.</persName>
+</person>
+<person xml:id="L0142_M5">
+<persName type="role">Captain Dorrington </persName>
+<persName type="spkr" n="16">Dor.</persName>
+</person>
+<person xml:id="L0142_F6">
+<persName type="role">Lady Scraggs </persName>
+<persName type="spkr" n="57">Lady S.</persName>
+</person>
+<person xml:id="L0142_F7">
+<persName type="role">Sally Scraggs </persName>
+<persName type="spkr" n="49">Sally.</persName>
+</person>
+<person xml:id="L0142_F8">
+<persName type="role">Poplin </persName>
+<persName type="spkr" n="27">Pop.</persName>
+</person>
+<person xml:id="L0142_U9">
+<persName type="role">[Servant]</persName>
+<persName type="spkr" n="2">Servant.</persName>
+</person>
+
+
+<person xml:id="L0142_mul">
+<persName type="role">[Multiple speakers]</persName>
+<persName type="spkr" n="1">Both.</persName>
+</person>
+</listPerson></particDesc></profileDesc>
+<revisionDesc><change when="2025-09-07">Metadata updated from new catalogue</change>
 <change when="2024-10-03">Header enriched</change>
 <change when="2023-08-26">Hand-edited</change>
 <change when="2023-05-19">Header confected</change>
@@ -81,28 +112,28 @@ Garden Market) London. </docImprint>
 <p>First performed at the Theatre Royal, Drury Lane.</p>
 </performance>
 <castList>
-<castItem><role gender="M">Sir Matthew Scraggs </role><actor sex="M">Mr. Dowton.
+<castItem><role gender="M">Sir Matthew Scraggs </role><actor ana="#M">Mr. Dowton.
 </actor></castItem>
 
-<castItem><role gender="M">Count Glorieux </role><actor sex="M">Mr. Gattie.
+<castItem><role gender="M">Count Glorieux </role><actor ana="#M">Mr. Gattie.
 </actor></castItem>
 
-<castItem><role gender="M">Tom Tape </role><actor sex="M">Mr. Harley.
+<castItem><role gender="M">Tom Tape </role><actor ana="#M">Mr. Harley.
 </actor></castItem>
 
-<castItem><role gender="M">Milton </role><actor sex="M">Mr. Hooper.
+<castItem><role gender="M">Milton </role><actor ana="#M">Mr. Hooper.
 </actor></castItem>
 
-<castItem><role gender="M">Captain Dorrington </role><actor sex="M">Mr. Bedford.
+<castItem><role gender="M">Captain Dorrington </role><actor ana="#M">Mr. Bedford.
 </actor></castItem>
 
-<castItem><role gender="F">Lady Scraggs </role><actor sex="F">Mrs. Davidson.
+<castItem><role gender="F">Lady Scraggs </role><actor ana="#F">Mrs. Davidson.
 </actor></castItem>
 
-<castItem><role gender="F">Sally Scraggs </role><actor sex="F">Miss F. Kelly.
+<castItem><role gender="F">Sally Scraggs </role><actor ana="#F">Miss F. Kelly.
 </actor></castItem>
 
-<castItem><role gender="F">Poplin </role><actor sex="F">Miss Graddon.
+<castItem><role gender="F">Poplin </role><actor ana="#F">Miss Graddon.
 </actor></castItem>
 
 </castList>
@@ -132,17 +163,17 @@ and feathers.</item>
 <stage type="setting">Scene I. —A Street in Calcutta.</stage>
 <stage>Enter Milton from R., meeting Dorrington, who enters from L. 1.
 E.</stage>
-<sp>
+<sp who="#L0142_M5">
 <speaker>Dor.</speaker>
 <p>Well, Dick, curiosity has run you out of breath. Gratified or punished for
 your daring—eh!</p>
 </sp>
-<sp>
+<sp who="#L0142_M4">
 <speaker>Mil.</speaker>
 <p>The most savage of hoaxes! instead of gallanting a goddess to our shores, I
 had the felicity to usher from the boat the ninth part of a man.</p>
 </sp>
-<sp>
+<sp who="#L0142_M5">
 <speaker>Dor.</speaker>
 <p>Ha, ha, ha! poor Tom Tape, the young cockney tailor, who, tired of sitting
 cross-legged at home, has e'en adventured over ocean to mend his own fortunes,
@@ -150,137 +181,137 @@ and the coats of his countrymen here in Bengal.</p>
 
 </sp>
 
-<sp>
+<sp who="#L0142_M3">
 <stage>(Tom. sings without, U. E. R.)</stage>
 <l>'Twas in the good ship “Rover,” </l>
 <l>We sailed the world around, &amp;c.</l>
 </sp>
 <stage>Enter Tom Tape with a bundle under each arm.</stage>
-<sp>
+<sp who="#L0142_M3">
 <speaker>Tom.</speaker>
 <stage>(C.)</stage>
 <p>Ah! Captain Dorrington, give you joy as well as myself. At last, Neptune's
 suit of dark green ditto is thrown aside, and earth's gay varieties slip on once
 more: what an agreeable change!</p>
 </sp>
-<sp>
+<sp who="#L0142_M5">
 <speaker>Dor.</speaker>
 <p>I congratulate you, Tape, upon your safe arrival in Bengal. 'Tis my intention
 to recommend you.</p>
 </sp>
-<sp>
+<sp who="#L0142_M3">
 <speaker>Tom.</speaker>
 <p>Do, Captain—I shan't disgrace your patronage, for though my own habits have
 been indifferently loose, I was always famous for making a tight fit with those
 of my customers.</p>
 </sp>
-<sp>
+<sp who="#L0142_M4">
 <speaker>Mil.</speaker>
 <stage>(R.)</stage>
 <p>A metropolitan artist, Mr. Tape.</p>
 </sp>
-<sp>
+<sp who="#L0142_M3">
 <speaker>Tom.</speaker>
 <p>Born, sir, within the romantic precincts of Candlewick Ward, but transplanted
 to the shopboard of Buckram &amp;Co. There, sir, I soon became acquainted with
 the measures of our greatest men, whether in army, church or state!</p>
 </sp>
-<sp>
+<sp who="#L0142_M4">
 <speaker>Mil.</speaker>
 <stage>(R.)</stage>
 <p>   A proud distinction faith!</p>
 </sp>
-<sp>
+<sp who="#L0142_M3">
 <speaker>Tom.</speaker>
 <stage>(C.)</stage>
 <p>Yes, sir—my master worked for none but people of the very first quality. Not
 a tradesman in all St. James's parish could boast of a greater number of book
 debts. Oh! an immense connexion! visited the most fashionable men upon town.</p>
 </sp>
-<sp>
+<sp who="#L0142_M4">
 <speaker>Mil.</speaker>
 <p>How! a tailor visit men of fashion?</p>
 </sp>
-<sp>
+<sp who="#L0142_M3">
 <speaker>Tom.</speaker>
 <p>Yes, sir, frequently two or three times a-day; but he seldom <pb n="4"/> was
 so fortunate as to find them at home—they were too much engaged in paying the
 debts of the nation to attend to their own.</p>
 </sp>
-<sp>
+<sp who="#L0142_M5">
 <speaker>Dor.</speaker>
 <p>An enviable circle of acquaintance, truly!</p>
 </sp>
-<sp>
+<sp who="#L0142_M3">
 <speaker>Tom.</speaker>
 <p>Superb! grand! tip top! But—ah! in a luckless hour— Shakspeare, gentleman,
 Shakspeare seduced me, and a private theatre in Berwick street, completed my
 undoing—'twas there I sustained the character of Brutus!</p>
 </sp>
-<sp>
+<sp who="#L0142_M4">
 <speaker>Mil.</speaker>
 <p>Assumed the Roman toga—eh?</p>
 </sp>
-<sp>
+<sp who="#L0142_M3">
 <speaker>Tom.</speaker>
 <p>Cabbaged the cloth for it out of the luxuriant capes then cutting out for my
 Lord Hunchington's upper Benjamin—cream colored superfine! I carried my drapery
 with the happiest effect.</p>
 </sp>
-<sp>
+<sp who="#L0142_M4">
 <speaker>Mil.</speaker>
 <p>But how did you support the character.</p>
 </sp>
-<sp>
+<sp who="#L0142_M3">
 <speaker>Tom.</speaker>
 <p>Ah! if you had only seen me murder Cæsar in the third act! To be sure, some
 would-be critics said I had done the same for Brutus from the beginning of the
 play—but that was spite ‘By the gods.’</p>
 </sp>
-<sp>
+<sp who="#L0142_M4">
 <speaker>Mil.</speaker>
 <p>Then your debut was successful?</p>
 </sp>
-<sp>
+<sp who="#L0142_M3">
 <speaker>Tom.</speaker>
 <p>‘A palpable hit!’ my dying scene encored. The triumph   of that night decided
 my fate, and I renounced the shopboard for the boards of Thespis. My next essay
 was at Margate on the regular stage.</p>
 </sp>
-<sp>
+<sp who="#L0142_M5">
 <speaker>Dor.</speaker>
 <p>Brutus repeated?</p>
 </sp>
-<sp>
+<sp who="#L0142_M3">
 <speaker>Tom.</speaker>
 <p>No. Romeo—the tender empassioned Romeo! A lovely fugitive from parental
 tyranny, made her virgin offering to Melpomene on the same night. Oh, Celestina
 Beverley! there was a Juliet!</p>
 </sp>
-<sp>
+<sp who="#L0142_M4">
 <speaker>Mil.</speaker>
 <p>Well, but tell us the event. Was the verdict of your partial friend's
 confirmed?—did the public—</p>
 </sp>
-<sp>
+<sp who="#L0142_M3">
 <speaker>Tom.</speaker>
 <p>Name it not. The fickle monster!—the perfidious beast!</p>
 </sp>
-<sp>
+<sp who="#L0142_M5">
 <speaker>Dor.</speaker>
 <p>Ha, ha, ha!</p>
 </sp>
-<sp>
+<sp who="#L0142_M3">
 <speaker>Tom.</speaker>
 <p>A brother snip from town, who towered among the gods, detected my
 face—published my trade. “Twig the tailor!” was instantly the watchword; and
 just when my soaring spirit would have emuluated the eagle—</p>
 </sp>
-<sp>
+<sp who="#L0142_M4">
 <speaker>Mil.</speaker>
 <p>You caught the goose.</p>
 </sp>
-<sp>
+<sp who="#L0142_M3">
 <speaker>Tom.</speaker>
 <p>Hissing hot, too. The curtain fell upon my disgrace but not upon my woe; for
 even while Celestina Beverley strained me in death's wild embrace, her ruthless
@@ -289,29 +320,29 @@ they tore us from each other's arms—“fathers have flinty hearts!” “The c
 true love never did run smooth!” Forgive me, gentlemen, if I produce my
 handkerchief at her recollection.</p>
 </sp>
-<sp>
+<sp who="#L0142_M4">
 <speaker>Mil.</speaker>
 <p>So, my poor fellow, forsaking England, and equally cut by   Cupid and the
 Muse—</p>
 </sp>
-<sp>
+<sp who="#L0142_M3">
 <speaker>Tom.</speaker>
 <p>I come to India, and hope to cut again. </p>
 <stage>(producing his shears, and snipping)</stage>
 </sp>
-<sp>
+<sp who="#L0142_M5">
 <speaker>Dor.</speaker>
 <stage> (crosses C.)</stage>
 <p>Well, I think I can promise you one capital customer. Only contrive to please
 Sir Matthew Scraggs, and your fortune is secured; but, didn't you tell me
 something about a relation who had married greatly in Calcutta?</p>
 </sp>
-<sp>
+<sp who="#L0142_M3">
 <speaker>Tom.</speaker>
 <p>My own annt by the mother's side—but how to find her <pb n="5"/> out will be
 a poser, for we never could learn the name of the great man she caught.</p>
 </sp>
-<sp>
+<sp who="#L0142_M5">
 <speaker>Dor.</speaker>
 <p>Well, her discovery must be an after search. Come, Dick —have with you, boy!
 <stage>(Milton crosses, L.)</stage> Now for Scraggs's house, and Hymen's
@@ -319,7 +350,7 @@ paradise! Cheer up, young Romeo!</p>
 <stage>                                        Exeunt Dorrington and Milton,
 L.</stage>
 </sp>
-<sp>
+<sp who="#L0142_M3">
 <speaker>Tom.</speaker>
 <p>“Cheer up, young Romeo!” Ah! “he jests at scars who never felt a wound!” but
 I will cheer up. One last vagrant sigh to London, and to Celestina
@@ -333,17 +364,17 @@ Beverley—then, “Great ambition, I am all thine own!”</p>
 <stage>Enter Sir Matthew and Lady Scraggs, wrangling before they appear,
 L.</stage>
 
-<sp>
+<sp who="#L0142_M1">
 <speaker>Sir M.</speaker>
 <p>My Lady Scraggs no more of your palaver—I'll not be made a Jerry Sneak.
 Zounds! my lady, I'm determined to wear the breeches.</p>
 </sp>
-<sp>
+<sp who="#L0142_F6">
 <speaker>Lady S.</speaker>
 <p>Delicacy forbid, Sir Matthew, you ever should be— hem! But positively, your
 manners in society are so alarmingly vulgar.</p>
 </sp>
-<sp>
+<sp who="#L0142_M1">
 <speaker>Sir M.</speaker>
 <p>I know it, and I glory in my vulgarity. I'm not one of your mushrooms, so
 overgrown as to deny the dunghill whence it sprung. It's my pride that all the
@@ -352,32 +383,32 @@ hadn't six-pence in my pocket when I landed in India; that my father kept a
 little tobacco shop in Cow Cross; that my mother got up small linen! that one of
 my uncles was a cobbler, and—</p>
 </sp>
-<sp>
+<sp who="#L0142_F6">
 <speaker>Lady S.</speaker>
 <p>A—h! forbear the barbarous detail, or I swoon without resource. But, sir,
 however sordid your own connexions, you ought to remember that when you
 intermarried with a daughter of the ancient house of Trewarren—</p>
 </sp>
-<sp>
+<sp who="#L0142_M1">
 <speaker>Sir M.</speaker>
 <p>Aye, now for it again—fire away with your Cornish pedigree! those cursed long
 guns of Tre—Pol and Pen!</p>
 </sp>
-<sp>
+<sp who="#L0142_F6">
 <speaker>Lady S.</speaker>
 <p>Mine was a family of such exceeding antiquity!</p>
 </sp>
-<sp>
+<sp who="#L0142_M1">
 <speaker>Sir M.</speaker>
 <p>That it tumbled into ruin long ago. Why, didn't I marry you without a second
 gown to your back, when you came over as nursery-maid to an Irish Countess?</p>
 </sp>
-<sp>
+<sp who="#L0142_F6">
 <speaker>Lady S.</speaker>
 <p>Horrible perversion of terms! Sir—the post I condescended   to accept in the
 Countess's family, was that of governess to her daughter.</p>
 </sp>
-<sp>
+<sp who="#L0142_M1">
 <speaker>Sir M.</speaker>
 <p>A baby in long coats want a governess! Haven't I seen you rock the cradle,
 and warm the pap when I came a courting to you? Where's the good of all your
@@ -385,73 +416,73 @@ great ancestors if they didn't leave you a penny? 'Twas I who made a woman of
 you—a rich woman—a bit of a woman of quality, too. Zounds; madam, 'twas I who
 made you my Lady Scraggs!</p>
 </sp>
-<sp>
+<sp who="#L0142_F6">
 <speaker>Lady S.</speaker>
 <p>Oh, down to the ground must I acknowledge the obligation!—yet, Sir Matthew,
 allow me to observe, that had you <pb n="6"/> never offered, Bengal is a land
 where a high-born girl, with personal attractions—</p>
 </sp>
-<sp>
+<sp who="#L0142_M1">
 <speaker>Sir M.</speaker>
 <p>Well, you may brag a little on that score. I admit you were once a devilish
 fine woman!</p>
 </sp>
-<sp>
+<sp who="#L0142_F6">
 <speaker>Lady S.</speaker>
 <p>Once! Sir Matthew—once!</p>
 </sp>
-<sp>
+<sp who="#L0142_M1">
 <speaker>Sir M.</speaker>
 <p>Aye—twenty years ago.</p>
 </sp>
-<sp>
+<sp who="#L0142_F6">
 <speaker>Lady S.</speaker>
 <p>There are men, I believe, who consider me a fine woman still. Had you
 attended the ball last night, and witnessed the devotion of the French Count,
 lately arrived from the Isle of Bourbon—</p>
 </sp>
-<sp>
+<sp who="#L0142_M1">
 <speaker>Sir M.</speaker>
 <p>Oh! the Count Glorieux. I've heard of the fellow—expect to see him soon. He
 brings a letter of credit upon our firm.</p>
 </sp>
-<sp>
+<sp who="#L0142_F6">
 <speaker>Lady S.</speaker>
 <p>Indeed! he distinguished me last night in a manner almost distressing—never
 ceased to follow me with his glass round the assembly. I was really quite
 annoyed.</p>
 </sp>
-<sp>
+<sp who="#L0142_M1">
 <speaker>Sir M.</speaker>
 <p>   No—you were tickled. A woman of your age must be pleased with admiration,
 if 'twere only for its rarity. The Mounseer was only quizzing you.</p>
 </sp>
-<sp>
+<sp who="#L0142_F6">
 <speaker>Lady S.</speaker>
 <p>Sir Matthew, you are always a brute! however, had you witnessed the quiz, I
 fancy 'twould have made you sufficiently jealous.</p>
 </sp>
-<sp>
+<sp who="#L0142_M1">
 <speaker>Sir M.</speaker>
 <p>Not I, truly. There are forty good reasons why I consider my wife, at this
 time of day, secure against any man's attempt.</p>
 </sp>
-<sp>
+<sp who="#L0142_F6">
 <speaker>Lady S.</speaker>
 <p>Highly flattering, indeed! but since you are so doubtful of my report,
 inquire of your niece—I made her observe the the Count's conduct.</p>
 </sp>
-<sp>
+<sp who="#L0142_M1">
 <speaker>Sir M.</speaker>
 <p>And, pray, did anybody distinguish Sally by some of the same quite
 distressing attentions?</p>
 </sp>
-<sp>
+<sp who="#L0142_F6">
 <speaker>Lady S.</speaker>
 <p>It grieves me to reply, Sir Matthew, that a peculiar something in the manner
 of Miss Scraggs—</p>
 </sp>
-<sp>
+<sp who="#L0142_M1">
 <speaker>Sir M.</speaker>
 <p>Aye, cursed queer! I know it. Frightens the men with her gibberish out of
 novels, and stage play books. How the wench picked up such trumpery is the
@@ -463,43 +494,43 @@ decent, steady tradesman's child, as I had expected, out comes a fantastical,
 nondescript miss, half   hoyden, half heroine—romping one minute, ranting the
 next. Between you and I, my lady, I think Sally a little cracked.</p>
 </sp>
-<sp>
+<sp who="#L0142_F6">
 <speaker>Lady S.</speaker>
 <p>No, no, Sir Matthew; Miss Scraggs's style at present is rather eccentric, but
 with my example constantly before her, let us hope—</p>
 </sp>
-<sp>
+<sp who="#L0142_F7">
 <speaker>Sally.</speaker>
 <stage> (calls without, R.)</stage>
 <p>Uncle! uncle! where's uncle.</p>
 </sp>
-<sp>
+<sp who="#L0142_M1">
 <speaker>Sir M.</speaker>
 <p>Mercy o' me! what a hilloa—cry! sure the wench thinks herself following the
 hounds at an Epping hunt.</p>
 <stage>Sally runs on with a small pamphlet, R.</stage>
 </sp>
-<sp>
+<sp who="#L0142_F7">
 <speaker>Sally.</speaker>
 <p>O ho! I've found you at last. Do you know, uncle—</p>
 <pb n="7"/>
 </sp>
-<sp>
+<sp who="#L0142_F6">
 <speaker>Lady S.</speaker>
 <p>Miss Scraggs, you forget yourself. Uncle is an interdicted phrase. Whenever
 you would address relations remember to distinguish them, not by consanguinity,
 but by the name.</p>
 </sp>
-<sp>
+<sp who="#L0142_F7">
 <speaker>Sally.</speaker>
 <stage> (spouting affectedly)</stage>
 <p>“What's in a name? A rose, by any other name would smell as sweet.”</p>
 </sp>
-<sp>
+<sp who="#L0142_M1">
 <speaker>Sir M.</speaker>
 <p>Hussey! don't talk to me of smelling. What's that in your hand?</p>
 </sp>
-<sp>
+<sp who="#L0142_F7">
 <speaker>Sally.</speaker>
 <p>Much the same with what's in my head—“The way to get Married!” Did you ever
 read it? Julia Faulkner is a sweet character.</p>
@@ -507,23 +538,23 @@ read it? Julia Faulkner is a sweet character.</p>
 https://upload.wikimedia.org/wikipedia/commons/d/d8/Bodleian_Libraries%2C_Playbill_of_Covent_Garden%2C_Wednesday%2C_Oct_19%2C_1796%2C_announcing_The_way_to_get_married_%26c..jpg.
 In EEBO http://name.umdl.umich.edu/004833902.0001.000</note>
 </sp>
-<sp>
+<sp who="#L0142_M1">
 <speaker>Sir M.</speaker>
 <p>One of those lunatic play books! Hussey!—hussey! such reading will unfit you
 for the business of real life.</p>
 </sp>
-<sp>
+<sp who="#L0142_F7">
 <speaker>Sally.</speaker>
 <p>Quite the contrary; reading the way to get married here suggested to me a
 question of real business, which I have now come expressly to ask.
 <stage>(crosses, C.)</stage> Pray how much longer am I   to wait for a
 husband?</p>
 </sp>
-<sp>
+<sp who="#L0142_F6">
 <speaker>Lady S.</speaker>
 <p>Miss Scraggs—fie! young ladies never talk upon such a subject.</p>
 </sp>
-<sp>
+<sp who="#L0142_F7">
 <speaker>Sally.</speaker>
 <p>Don't they? then it must be the same reason as with the parrot in the
 fable—because they think the more. I'm sure before I left England, we talked of
@@ -534,71 +565,71 @@ no such luck: here have I been in Calcutta six good weeks, and never an offer
 yet! to be sure the men have kept dangling and dangling after me, but not one of
 them has come to the point.</p>
 </sp>
-<sp>
+<sp who="#L0142_M1">
 <speaker>Sir M.</speaker>
 <p>All your own fault; you scare away the men with your confounded rant! There
 was my old friend, Major Turmeric, when he called upon us just after his
 recovery from the jaundice, didn't you exclaim before him—“Avaunt, thou yellow
 plague, I'll none of thee?”</p>
 </sp>
-<sp>
+<sp who="#L0142_F7">
 <speaker>Sally.</speaker>
 <p>That was from the “Merchant of Venice.”</p>
 </sp>
-<sp>
+<sp who="#L0142_F6">
 <speaker>Lady S.</speaker>
 <p>Yes, miss; and even last night at the ball, when the rich banker's son, young
 Dwarfly—who, by-the-bye—is undersized, and has a tinge of the half-blood in his
 veins, invited you to waltz with him, and asked your favourite tune, didn't you
 answer —“Turn about my little tawny tight one?”</p>
 </sp>
-<sp>
+<sp who="#L0142_F7">
 <speaker>Sally.</speaker>
 <p>Well, that's true—“I confess the cape;” but what stupid wretches your men in
 India must be! Why, if they had only understood   theatricals—</p>
 </sp>
-<sp>
+<sp who="#L0142_M1">
 <speaker>Sir M.</speaker>
 <p>Theatricals! what in the name of Bedlam has a niece of mine to do with
 theatricals? What have theatricals to do with the daughter of a tobacconist?</p>
 </sp>
-<sp>
+<sp who="#L0142_F6">
 <speaker>Lady S.</speaker>
 <p>Hush! hush, Sir Matthew—that horrid word—</p>
 </sp>
-<sp>
+<sp who="#L0142_M1">
 <speaker>Sir M.</speaker>
 <p>Gunpowder and lucifers, my lady! what horrid word? You with your pedigree
 pride are as crazy as the wench. What is there horrid in tobacco?</p>
 </sp>
-<sp>
+<sp who="#L0142_F6">
 <speaker>Lady S.</speaker>
 <p>Ah!</p>
 </sp>
-<sp>
+<sp who="#L0142_M1">
 <speaker>Sir M.</speaker>
 <p>Zounds! then my niece does come from tobacco—I, too, <pb n="8"/> come from
 tobacco. Fire and smother! My lady, the whole of your generation come out of
 smoke! </p>
 <stage>(crosses, L.)</stage>
 </sp>
-<sp>
+<sp who="#L0142_F7">
 <speaker>Sally.</speaker>
 <stage> (starting into an attitude)</stage>
 <p>“Pall thee in the dunnest smoke of hell!”</p>
 </sp>
-<sp>
+<sp who="#L0142_M1">
 <speaker>Sir M.</speaker>
 <p>Stand still, you profane jade, and don't swing your arms about like the sails
 of a windmill. Such a brace of petticoat plagues! between them I shall have a
 fit of the gout, I know I shall—I feel a twinge there!</p>
 <stage>Enter Servant, L.</stage>
 </sp>
-<sp>
+<sp who="#L0142_U9">
 <speaker>Servant.</speaker>
 <p>Captain Tancred, sir, has just returned with another gentleman.</p>
 </sp>
-<sp>
+<sp who="#L0142_M1">
 <speaker>Sir M.</speaker>
 <p>Odso! Dorrington, I suppose. Show them into my study. <stage>(Exit Servant,
 L.)</stage> These women have so discomposed me, that I must cool myself before I
@@ -608,7 +639,7 @@ to you, my lady, with your airs and your affectation, please to know that I will
 short cut, and pig-tail; so put that in your pipe and smoke it, my lady!</p>
 <stage>                                        Exit in a rage, L.</stage>
 </sp>
-<sp>
+<sp who="#L0142_F6">
 <speaker>Lady S.</speaker>
 <p>The irreclaimable savage! what a destiny is mine! but I deserve it, When a
 woman of my pretensions, forgetful of an elevated ancestry, stoops to the
@@ -617,7 +648,7 @@ knowing I never would have accepted the monster if any body else had
 offered.</p>
 <stage>                                        Exit, R.</stage>
 </sp>
-<sp>
+<sp who="#L0142_F7">
 <speaker>Sally.</speaker>
 <stage> (mimicking)</stage>
 <p>That was a good flourish with the right arm—'twould tell well for Hermione's
@@ -636,7 +667,7 @@ modification of the last few lines, introduce any other speech, or imitative
 song, more applicable to the occasion)</stage>
 <stage>Poplin runs in L., with a note.</stage>
 </sp>
-<sp>
+<sp who="#L0142_F8">
 <speaker>Pop.</speaker>
 <p>Miss! Miss Sally! there she scampers away, ranting and raving and won't hear
 me. Well, what this French Count can see in such a madcap, is to me amazing.
@@ -645,52 +676,52 @@ this billet-doux   privately into her hand—</p>
 <pb n="9"/>
 <stage>Enter Lady Scraggs, behind R.</stage>
 </sp>
-<sp>
+<sp who="#L0142_F6">
 <speaker>Lady S.</speaker>
 <p>I certainly must have left my reticule in this room.</p>
 </sp>
-<sp>
+<sp who="#L0142_F8">
 <speaker>Pop.</speaker>
 <stage> (spying at the note)</stage>
 <p>Directed, too, in English!—“To the most fair of the very fair.” Come, that's
 a good one of mounseer's.</p>
 </sp>
-<sp>
+<sp who="#L0142_F6">
 <speaker>Lady S.</speaker>
 <p>Poplin, what are you doing with that note?</p>
 </sp>
-<sp>
+<sp who="#L0142_F8">
 <speaker>Pop.</speaker>
 <stage> (screams)</stage>
 <p>Ah!</p>
 </sp>
-<sp>
+<sp who="#L0142_F6">
 <speaker>Lady S.</speaker>
 <p>What ails the girl?—is it a note for me?</p>
 </sp>
-<sp>
+<sp who="#L0142_F8">
 <speaker>Pop.</speaker>
 <p>Yes—that it is—no, I can't tell who it's for, my lady.</p>
 </sp>
-<sp>
+<sp who="#L0142_F6">
 <speaker>Lady S.</speaker>
 <p>Give it me directly.</p>
 </sp>
-<sp>
+<sp who="#L0142_F8">
 <speaker>Pop.</speaker>
 <stage> (aside)</stage>
 <p>I'm ruined if I tell the truth.</p>
 </sp>
-<sp>
+<sp who="#L0142_F6">
 <speaker>Lady S.</speaker>
 <p>What's this direction? “To the most fair of the very fair.”</p>
 </sp>
-<sp>
+<sp who="#L0142_F8">
 <speaker>Pop.</speaker>
 <p>Oh, dear! my lady, don't be angry. Indeed, I meant no harm; but a French
 nobleman—</p>
 </sp>
-<sp>
+<sp who="#L0142_F6">
 <speaker>Lady S.</speaker>
 <p>Hush! the direction is sufficiently explained. <stage>(reads eagerly)</stage>
 As I guessed—'tis from the Count. Um! um! “Last night—the ball—your charms”—I
@@ -698,31 +729,31 @@ knew it—“perceived your triumph, indeed I did.” Um—um! “rapture—agon
 glasses of Noyeau before I slept—private interview—declaration of passion!” Now,
 Sir Matthew, can you be jealous now?</p>
 </sp>
-<sp>
+<sp who="#L0142_F8">
 <speaker>Pop.</speaker>
 <p>Goodness forbid, my lady! Well what impudence, to talk of passion to a
 married lady!</p>
 </sp>
-<sp>
+<sp who="#L0142_F6">
 <speaker>Lady S.</speaker>
 <p>Poplin, you are a good child, and naturally must have feared my
 indignation—but you are pardoned. As for this Count— if I do grant this
 interview—</p>
 </sp>
-<sp>
+<sp who="#L0142_F8">
 <speaker>Pop.</speaker>
 <p>   Oh, the father! will your ladyship?</p>
 </sp>
-<sp>
+<sp who="#L0142_F6">
 <speaker>Lady S.</speaker>
 <p>Yes, but merely for his reformation—I shall receive him with a withering
 look. Poplin, I can look withering.</p>
 </sp>
-<sp>
+<sp who="#L0142_F8">
 <speaker>Pop.</speaker>
 <p>Is it possible, with so sweet a countenance?</p>
 </sp>
-<sp>
+<sp who="#L0142_F6">
 <speaker>Lady S.</speaker>
 <p>You are a deserving creature, Poplin. I shall indite a guarded reply to this
 billet, which you shall deliver presently. Now, Sir Matthew, brute as you are,
@@ -730,7 +761,7 @@ you shall be convinced that there are men who still think Lady Scraggs a fine
 woman!</p>
 <stage>                                        Exit, R.</stage>
 </sp>
-<sp>
+<sp who="#L0142_F8">
 <speaker>Pop.</speaker>
 <p>So—now I'm in a pretty scrape! my lady takes to herself the love-letter meant
 for Miss—Mounseer expects an appointment from the niece, and gets instead an
@@ -739,12 +770,12 @@ out the mistake between themselves.</p>
 <stage>Enter Count Glorieux, dressed in an embroidered frock coat and cap,
 L.</stage>
 </sp>
-<sp>
+<sp who="#L0142_M2">
 <speaker>Count.</speaker>
 <p>Eh, bien! ma fille charmante, you tell me dat old Monsieur Scraggs est
 sorti—he be out.</p>
 </sp>
-<sp>
+<sp who="#L0142_F8">
 <speaker>Pop.</speaker>
 <p>To be sure he is, or I never should have let you in. As this is to be a
 private interview, I have brought you through the garden quite unknown to any of
@@ -752,7 +783,7 @@ the family; but I hope, monsieur, you won't be any ways rumbustical with the
 “most fair of the very fair.”</p>
 <pb n="10"/>
 </sp>
-<sp>
+<sp who="#L0142_M2">
 <speaker>Count.</speaker>
 <p>Ha! you be von vicket little girl—I see de diable now look out of your black
 eye—mais soyez tranquille. Count Glorieux will make de young bien contente.
@@ -760,11 +791,11 @@ Galanterie—it be my trade. Cupid be mon general—I have been his soldier grea
 many year. </p>
 <stage>(takes snuff from a remarkably superb box)</stage>
 </sp>
-<sp>
+<sp who="#L0142_F8">
 <speaker>Pop.</speaker>
 <p>Gemini! what a beautiful snuff box—all over gold and   diamonds.</p>
 </sp>
-<sp>
+<sp who="#L0142_M2">
 <speaker>Count.</speaker>
 <p>Oui, ma'amselle, dis be von testimonie of my grand service. De city of
 Bordeaux present to me dis tabatière ven I vas commandant. Aha! c'est
@@ -781,7 +812,7 @@ R.; two closets facing each other, one on the R. the other on the L.; chairs,
 tables, &amp;c.; centre door.</stage>
 <stage>Lady Scraggs discovered rouging at her toilette.</stage>
 
-<sp>
+<sp who="#L0142_F6">
 <speaker>Lady S.</speaker>
 <p>Yes, that last touch makes me irresistible! now let the victim be conducted
 to my feet. <stage>(rises)</stage> What a momentous epoch —a passionate
@@ -796,38 +827,38 @@ me. Let me practise it directly. Ah! the man's at the door, and chance must now
 decide it.</p>
 <stage>Enter Poplin, introducing the Count, R.</stage>
 </sp>
-<sp>
+<sp who="#L0142_F6">
 <speaker>Lady S.</speaker>
 <stage> (with counterfeit confusion)</stage>
 <p>Heavens! Monsieur le Comte! Ah, Poplin! what have you done?</p>
 </sp>
-<sp>
+<sp who="#L0142_M2">
 <speaker>Count.</speaker>
 <stage> (with real distress)</stage>
 <p>Diable! the formidable Madame Scragg. Ah, Poplin! what have you done?</p>
 </sp>
-<sp>
+<sp who="#L0142_F8">
 <speaker>Pop.</speaker>
 <stage> (giggling)</stage>
 <p>Why, conducted you to the lady, who received your billet doux “to the most
 fair of the very fair!”</p>
 </sp>
-<sp>
+<sp who="#L0142_M2">
 <speaker>Count.</speaker>
 <p>C'est une vilaine méprise! mais n' importe. De tough hen to-day—de tender
 chicken to-morrow. <stage>(advances and bows with grimace)</stage> Madame—</p>
 </sp>
-<sp>
+<sp who="#L0142_F6">
 <speaker>Lady S.</speaker>
 <p>Monsigneur, before I permit you to remain in my presence, assure me that your
 intentions are strictly innocent.</p>
 </sp>
-<sp>
+<sp who="#L0142_M2">
 <speaker>Count.</speaker>
 <p>   Madame, dis moment 'tis my wish to be de most innocent man in all de
 vorld.</p>
 </sp>
-<sp>
+<sp who="#L0142_F6">
 <speaker>Lady S.</speaker>
 <p>That declaration from a man of honour is sufficient. <pb n="11"/> Poplin.
 <stage>(crosses to R.)</stage> withdraw into the corridor—but leave the door
@@ -835,74 +866,74 @@ ajar, and keep within call. <stage>(Poplin retires, R.—some ceremony
 ensues)</stage> Monsieur, be seated—nay, not quite so close. Positively I must
 have you further off!</p>
 </sp>
-<sp>
+<sp who="#L0142_M2">
 <speaker>Count.</speaker>
 <stage> (with alacrity)</stage>
 <p>Il comprehend, madame—de more far off de more plaisir pour vous et—</p>
 </sp>
-<sp>
+<sp who="#L0142_F6">
 <speaker>Lady S.</speaker>
 <p>Count, as an indispensable preliminary to our conversation I must observe
 that in me you behold a woman whose virtue is impregnable: he must be a bold man
 who would attack it.</p>
 </sp>
-<sp>
+<sp who="#L0142_M2">
 <speaker>Count.</speaker>
 <p>Oui, madame; he must have de courage of de diable!</p>
 <stage>                                        (aside)</stage>
 </sp>
-<sp>
+<sp who="#L0142_F6">
 <speaker>Lady S.</speaker>
 <p>My fidelity to Sir Matthew has long been proved.</p>
 </sp>
-<sp>
+<sp who="#L0142_M2">
 <speaker>Count.</speaker>
 <p>Oui, very great number of year, I dare believe.</p>
 </sp>
-<sp>
+<sp who="#L0142_F6">
 <speaker>Lady S.</speaker>
 <p>Therefore, in permitting your devoirs, I accept you— but no freedoms. I must
 always keep you at a certain distance.</p>
 </sp>
-<sp>
+<sp who="#L0142_M2">
 <speaker>Count.</speaker>
 <p>Madame! let de distance be so great possible. Je suis bien content.</p>
 <stage>Re-enter Poplin, hastily, R.</stage>
 </sp>
-<sp>
+<sp who="#L0142_F8">
 <speaker>Pop.</speaker>
 <p>Oh, my lady! the most unluckiest thing in all the world! Instead of my master
 not returning till the evening, he is now in the house.</p>
 </sp>
-<sp>
+<sp who="#L0142_F6">
 <speaker>Lady S.</speaker>
 <p>Oh! my sacred reputation. Count, you must be gone!</p>
 </sp>
-<sp>
+<sp who="#L0142_M2">
 <speaker>Count.</speaker>
 <p>Oui! Avec beaucoup de plaisir. </p>
 <stage>(going, R.)</stage>
 </sp>
-<sp>
+<sp who="#L0142_F8">
 <speaker>Pop.</speaker>
 <p>No, not that way—he'll meet my master upon the stairs!</p>
 </sp>
-<sp>
+<sp who="#L0142_F6">
 <speaker>Lady S.</speaker>
 <p>   Nay, then, into the verandah, from that you can jump into the
 garden—'tisn't above ten feet from the ground.</p>
 </sp>
-<sp>
+<sp who="#L0142_M2">
 <speaker>Count.</speaker>
 <p>Madame, I should be too much enchanté to jump anywhere from you; but I have
 von little malheur make it impossible. I am trouble vid de rheumatiz in my
 knee.</p>
 </sp>
-<sp>
+<sp who="#L0142_F6">
 <speaker>Lady S.</speaker>
 <p>Unfortunate! what a time for a man to have the rheumatism.</p>
 </sp>
-<sp>
+<sp who="#L0142_F8">
 <speaker>Pop.</speaker>
 <p>Courage, madam—I have it. There's a young man whom Captain Dorrington has
 recommended to my master as a tailor—he is waiting in the passage. The Count
@@ -910,64 +941,64 @@ shall slip on his coat, and then he may pass through the house unsuspected.
 <stage>(runs to the door)</stage> Harkye, young man; step in here.</p>
 <stage>Enter Tom Tape, R.</stage>
 </sp>
-<sp>
+<sp who="#L0142_M3">
 <speaker>Tom.</speaker>
 <p>Where you please, miss. <stage>(seeing Lady Scraggs)</stage> I beg
 pardon—(<stage>bowing</stage>)</p>
 </sp>
-<sp>
+<sp who="#L0142_F6">
 <speaker>Lady S.</speaker>
 <p>Young man, you have not the rheumatism, I hope?</p>
 </sp>
-<sp>
+<sp who="#L0142_M3">
 <speaker>Tom.</speaker>
 <p>Very kind of your ladyship to hope so. No, thank heaven! nor the gout
 neither.</p>
 </sp>
-<sp>
+<sp who="#L0142_F6">
 <speaker>Lady S.</speaker>
 <p>Then you are not afraid of jumps?</p>
 </sp>
-<sp>
+<sp who="#L0142_M3">
 <speaker>Tom.</speaker>
 <p>Jumps, my lady!—that's a staymaker's business. I'm a ailor.</p>
 </sp>
-<sp>
+<sp who="#L0142_F8">
 <speaker>Pop.</speaker>
 <p>Never mind—you must change coats.</p>
 </sp>
-<sp>
+<sp who="#L0142_M3">
 <speaker>Tom.</speaker>
 <p>No, miss, I make coats—don't change 'em.</p>
 <pb n="12"/>
 </sp>
-<sp>
+<sp who="#L0142_F8">
 <speaker>Pop.</speaker>
 <p>Pooh! step with me into this verandah, and I'll explain everything. Come,
 mounseer.</p>
 </sp>
-<sp>
+<sp who="#L0142_M2">
 <speaker>Count.</speaker>
 <p>Ah, madame, c'est une vilaine aventure.</p>
 </sp>
-<sp>
+<sp who="#L0142_M3">
 <speaker>Tom.</speaker>
 <p>   Strange family to work for—queer customers! </p>
 <stage>(Poplin hurries both into verandah in flat)</stage>
 <stage>Enter Sir Matthew and Servant, R.</stage>
 </sp>
-<sp>
+<sp who="#L0142_M1">
 <speaker>Sir M.</speaker>
 <p>Nobody has seen him! most extraordinary thing I ever knew. Oh, my lady! pray
 have you seen the French Count?</p>
 </sp>
-<sp>
+<sp who="#L0142_F6">
 <speaker>Lady S.</speaker>
 <stage> (confused)</stage>
 <p>I, Sir Matthew?—I! </p>
 <stage>(turns up stage)</stage>
 </sp>
-<sp>
+<sp who="#L0142_M1">
 <speaker>Sir M.</speaker>
 <p>Well, don't be huffy! one would think you had trod upon a nettle. Go down
 again, d'ye hear, and inquire of everybody.
@@ -980,28 +1011,28 @@ my lady, not a creature in the house has seen him, <stage>(Poplin and the Count,
 metamorphosed, come in sight)</stage> Heyday! what's that odd figure whisking
 about with Poplin, in yonder, among the flower pots?</p>
 </sp>
-<sp>
+<sp who="#L0142_F6">
 <speaker>Lady S.</speaker>
 <stage> (hesitating)</stage>
 <p>My dear, didn't you expect a person recommended by Dorrington?</p>
 </sp>
-<sp>
+<sp who="#L0142_M1">
 <speaker>Sir M.</speaker>
 <p>Odso! a tailor. So, that's he. <stage>(crosses to L.)</stage> Come here, my
 honest fellow. Lord! lord! what an ill-looking old baboon it is! </p>
 <stage>(Poplin pushes the Count forward)</stage>
 </sp>
-<sp>
+<sp who="#L0142_F8">
 <speaker>Pop.</speaker>
 <stage> (aside)</stage>
 <p>Support your character or we're undone.</p>
 </sp>
-<sp>
+<sp who="#L0142_M2">
 <speaker>Count.</speaker>
 <stage> (grimacing)</stage>
 <p>Monsieur, je suis votre cés humble serviteur.</p>
 </sp>
-<sp>
+<sp who="#L0142_M1">
 <speaker>Sir M.</speaker>
 <p>A Frenchman, too! Dorrington never told me that. Well, I thought he was too
 ugly for an Englishman. Why I say, my old boy, it's something late in the day
@@ -1011,152 +1042,152 @@ better than your own, you must be a plaguy bad workman! My lady, only look at
 the fellow—<stage>(turning him round)</stage>—did you ever see such a scarecrow?
 Ha, ha, ha!</p>
 </sp>
-<sp>
+<sp who="#L0142_M2">
 <speaker>Count.</speaker>
 <stage> (fiercely)</stage>
 <p>Sare! vat you mean?—vhy de scarecrow?</p>
 </sp>
-<sp>
+<sp who="#L0142_F6">
 <speaker>Lady S.</speaker>
 <stage> (aside)</stage>
 <p>Ah! for my sake—</p>
 </sp>
-<sp>
+<sp who="#L0142_M2">
 <speaker>Count.</speaker>
 <p>Oui, madame, I take de scarecrow for you.</p>
 <stage>Re-enter Servant, R.</stage>
 </sp>
-<sp>
+<sp who="#L0142_U9">
 <speaker>Servant.</speaker>
 <p>Sir, I've found a strange gentleman in the garden—he said he was waiting for
 you, so I brought him here.</p>
 <stage>Enter Tom, in the Count's coat and cap, R.</stage>
 </sp>
-<sp>
+<sp who="#L0142_M1">
 <speaker>Sir M.</speaker>
 <p>Aye, this is indeed the Count. <stage>(shakes hands boisterously)</stage>
 Your lordship is welcome to Calcutta! ten thousand pardons, my <pb n="13"/>
 lord, that I happened to have popped out just as your lordship popped me a call;
 but I was back in a twinkling. Welcome to Scraggs House, my lord!</p>
 </sp>
-<sp>
+<sp who="#L0142_M3">
 <speaker>Tom.</speaker>
 <stage> (bewildered by his reception only replies by continued bows)</stage>
 <p>My lord! I suppose that fellow's coat must have given a twist to one of my
 shoulders. </p>
 <stage>(aside)</stage>
 </sp>
-<sp>
+<sp who="#L0142_M1">
 <speaker>Sir M.</speaker>
 <stage> (to Lady S.)</stage>
 <p>My dear lady, I don't think the Count understands one single word of my talk.
 Brush up your French, and jabber for me a bit.</p>
 </sp>
-<sp>
+<sp who="#L0142_F6">
 <speaker>Lady S.</speaker>
 <stage> (affecting to obey, whispers to Tom)</stage>
 <p>Be cautious what you say. Remember you are a Count.</p>
 </sp>
-<sp>
+<sp who="#L0142_M3">
 <speaker>Tom.</speaker>
 <p>The devil I am.</p>
 </sp>
-<sp>
+<sp who="#L0142_F6">
 <speaker>Lady S.</speaker>
 <p>You shall be well rewarded. </p>
 <stage>(slips her purse into his hand)</stage>
 </sp>
-<sp>
+<sp who="#L0142_M3">
 <speaker>Tom.</speaker>
 <p>Oho! If there's a pension with the peerage, I've no objection   to the title.
 What am I to do?</p>
 </sp>
-<sp>
+<sp who="#L0142_F8">
 <speaker>Pop.</speaker>
 <stage> (aside)</stage>
 <p>Swagger—be free and easy—keep it up.</p>
 </sp>
-<sp>
+<sp who="#L0142_M3">
 <speaker>Tom.</speaker>
 <p>I will! <stage>(seizes Sir Matthew's hand)</stage> My friend, I am delighted
 to see you!</p>
 </sp>
-<sp>
+<sp who="#L0142_M1">
 <speaker>Sir M.</speaker>
 <p>Prodigious! Why the Count speaks English.</p>
 </sp>
-<sp>
+<sp who="#L0142_M3">
 <speaker>Tom.</speaker>
 <p>To be sure; and I flatter myself like a native.</p>
 </sp>
-<sp>
+<sp who="#L0142_M1">
 <speaker>Sir M.</speaker>
 <p>Well, that's charming! Why, to be sure, you must have lived some time in
 England—mayhap in Lunnun?</p>
 </sp>
-<sp>
+<sp who="#L0142_M3">
 <speaker>Tom.</speaker>
 <p>Served out my full time there; seven years in St. James's! </p>
 <stage>(Poplin pulls him)</stage>
 </sp>
-<sp>
+<sp who="#L0142_M1">
 <speaker>Sir M.</speaker>
 <p>Oho! resided at the British Court! that accounts for it. Well, then, now we
 can chat together quite friendly like. I believe your lordship brings with you a
 letter of credit?</p>
 </sp>
-<sp>
+<sp who="#L0142_M3">
 <speaker>Tom.</speaker>
 <p>No, do I? Let me see. </p>
 <stage>(begins to rummage)</stage>
 </sp>
-<sp>
+<sp who="#L0142_M1">
 <speaker>Sir M.</speaker>
 <p>Or, perhaps you mean to present a bill?</p>
 </sp>
-<sp>
+<sp who="#L0142_M3">
 <speaker>Tom.</speaker>
 <p>To be sure I do; and I hope to make it a devilish long one. No, there's no
 letter, only a snuff-box. </p>
 <stage>(aside as he searches his pocket)</stage>
 </sp>
-<sp>
+<sp who="#L0142_F8">
 <speaker>Pop.</speaker>
 <stage> (at his elbow)</stage>
 <p>Don't flinch—keep it up!</p>
 </sp>
-<sp>
+<sp who="#L0142_M3">
 <speaker>Tom.</speaker>
 <p>I will! My dear sir, do me the honour to taste my nose feeder! </p>
 <stage>(offers box)</stage>
 </sp>
-<sp>
+<sp who="#L0142_M1">
 <speaker>Sir M.</speaker>
 <p>Your lordship does me—Eh? gadso! the handsomest box I ever saw.</p>
 </sp>
-<sp>
+<sp who="#L0142_M3">
 <speaker>Tom.</speaker>
 <p>Do you really think so? Nay, then you must accept it.</p>
 </sp>
-<sp>
+<sp who="#L0142_M1">
 <speaker>Sir M.</speaker>
 <p>Oh, positively!—I'm quite shocked!</p>
 </sp>
-<sp>
+<sp who="#L0142_M3">
 <speaker>Tom.</speaker>
 <p>Oh, positively!—I quite insist.</p>
 </sp>
-<sp>
+<sp who="#L0142_M1">
 <speaker>Sir M.</speaker>
 <stage> (aside, as he pockets it)</stage>
 <p>He's a fine liberal fellow! I   like him monstrously!</p>
 </sp>
-<sp>
+<sp who="#L0142_M2">
 <speaker>Count.</speaker>
 <stage> (breaking out)</stage>
 <p>Sare! ma chère tabatière!—C'est un brigand—un grand voleur.</p>
 </sp>
-<sp>
+<sp who="#L0142_M1">
 <speaker>Sir M.</speaker>
 <stage> (turning about)</stage>
 <p>What's that hullababoo? Why, sirrah, how dare you make such a noise? Odso,
@@ -1164,94 +1195,94 @@ Count, I must ask pardon. This is a tailor whom I forgot to dismiss when you
 entered the room. Get down stairs, you rascal! and wait till you're sent for, in
 the kitchen.</p>
 </sp>
-<sp>
+<sp who="#L0142_M3">
 <speaker>Tom.</speaker>
 <stage> (aside)</stage>
 <p>'Sdeath! he has got my pattern book in one of the pockets. My dear sir, I
 make it my particular request this poor <pb n="14"/> man may remain. Bless you!
 I've not a bit of pride—I think a tailor very respectable company.</p>
 </sp>
-<sp>
+<sp who="#L0142_M1">
 <speaker>Sir M.</speaker>
 <p>Oh, if that's the case, mounseer, you may stay. And harkye! since you are a
 countryman of the Count's, out of respect to him, you shall make new liveries
 for all my servants. There's encouragement for you, my old boy! </p>
 <stage>(slaps him smartly over the shoulder)</stage>
 </sp>
-<sp>
+<sp who="#L0142_M3">
 <speaker>Tom.</speaker>
 <p>Yes, there's encouragement for you, my old boy! </p>
 <stage>(slaps him on the other side more violently)</stage>
 </sp>
-<sp>
+<sp who="#L0142_M2">
 <speaker>Count.</speaker>
 <stage> (furious)</stage>
 <p>Quel coup de tonnerre! mille bombes! Par tous les diables! </p>
 <stage>(crosses to L.)</stage>
 </sp>
-<sp>
+<sp who="#L0142_M1">
 <speaker>Sir M.</speaker>
 <p>Holloa! what's that he's jabbering?</p>
 </sp>
-<sp>
+<sp who="#L0142_M3">
 <speaker>Tom.</speaker>
 <p>Oh, that's French for gratitude.</p>
 </sp>
-<sp>
+<sp who="#L0142_M1">
 <speaker>Sir M.</speaker>
 <p>Well, now, really I took it for swearing. Gratitude makes that fellow grin
 most horribly. Pray, Count, to what order may those fine trinkumbobs belong that
 dangle about your coat?</p>
 </sp>
-<sp>
+<sp who="#L0142_M3">
 <speaker>Tom.</speaker>
 <stage> (puzzled)</stage>
 <p>To what order? Oh—why, to the order of—   But every body knows what
 order.</p>
 </sp>
-<sp>
+<sp who="#L0142_F6">
 <speaker>Lady S.</speaker>
 <stage> (aside)</stage>
 <p>I must help him through. My dear, don't you know the Count belongs to the
 Legion of Honour? I believe, also, to the Chamber of Deputies.</p>
 </sp>
-<sp>
+<sp who="#L0142_M1">
 <speaker>Sir M.</speaker>
 <p>Odso. Why, then, Count, as I take it, you must be something like one of our
 parliament men in England.</p>
 </sp>
-<sp>
+<sp who="#L0142_M3">
 <speaker>Tom.</speaker>
 <p>Yes, I'm very like—one of your knights of the shears!</p>
 <stage>Enter Dorrington, R.</stage>
 </sp>
-<sp>
+<sp who="#L0142_M5">
 <speaker>Dor.</speaker>
 <p>Sir Matthew, the colonel has arrived.</p>
 </sp>
-<sp>
+<sp who="#L0142_M1">
 <speaker>Sir M.</speaker>
 <p>Gadso! I'm taken at a nonplus. My lady, we must meet him below. Count, I beg
 pardon, but the most particular friend I have in the world—Let me first
 introduce Captain Dorrington to your notice.</p>
 </sp>
-<sp>
+<sp who="#L0142_M5">
 <speaker>Dor.</speaker>
 <p>Proud of an occasion to—Why, who the devil's here? </p>
 <stage>(Tom keeps bowing and butting with his cap against Dorrington's face to
 conceal himself, then hems aloud, and turns up the stage)</stage>
 </sp>
-<sp>
+<sp who="#L0142_M5">
 <speaker>Dor.</speaker>
 <stage> (in amazement)</stage>
 <p>Why, certainly it is—</p>
 </sp>
-<sp>
+<sp who="#L0142_F6">
 <speaker>Lady S.</speaker>
 <stage> (significantly)</stage>
 <p>To be sure it is—the Count Glorieux!</p>
 </sp>
-<sp>
+<sp who="#L0142_M1">
 <speaker>Sir M.</speaker>
 <stage> (bustling about)</stage>
 <p>Come—come, Count—you be pleased to take my lady's hand. <stage>(the Count
@@ -1260,7 +1291,7 @@ now, you impudent son of a thimble! Dorrington, this tailor of your's is a most
 audacious fellow!</p>
 <stage>                                        Exit R.</stage>
 </sp>
-<sp>
+<sp who="#L0142_M5">
 <speaker>Dor.</speaker>
 <p>What squall is blowing now? Tom Tape in masquerade.</p>
 </sp>
@@ -1273,7 +1304,7 @@ his rage with difficulty—Dorrington observing the group in astonishment)</stag
 Two chairs.</stage>
 <stage>Enter Tom, still in the Count's coat, R.</stage>
 
-<sp>
+<sp who="#L0142_M3">
 <speaker>Tom.</speaker>
 <p>That old quisby has certainly contrived to slink out of the <pb n="15"/>
 house; as to the matter of the two coats, I've certainly the best of the
@@ -1284,7 +1315,7 @@ do for my benefit. But this house is such a wilderness, I'm puzzled which
 passage to take next.</p>
 <stage>Enter Sally, reading, L. 2 E.</stage>
 </sp>
-<sp>
+<sp who="#L0142_F7">
 <speaker>Sally.</speaker>
 <p>I never read the “Mourning Bride” before, but really Almeria is a part worth
 studying, <stage>(spouting)</stage></p>
@@ -1292,130 +1323,130 @@ studying, <stage>(spouting)</stage></p>
 <l>To thee, to thee I call—to thee, Alphonso. </l>
 <l>Oh, Alphonso!”</l>
 </sp>
-<sp>
+<sp who="#L0142_M3">
 <speaker>Tom.</speaker>
 <stage> (replying)</stage>
 <p>Who calls that wretched thing that was Alphonso?</p>
 </sp>
-<sp>
+<sp who="#L0142_F7">
 <speaker>Sally.</speaker>
 <p>“Angels and ministers of grace defend us!”—<stage>(they both turn, and gaze
 at each other from opposite corners, then start into extravagant
 attitudes)</stage> Oh, all ye gods!</p>
 </sp>
-<sp>
+<sp who="#L0142_M3">
 <speaker>Tom.</speaker>
 <p>Ye goddesses!</p>
 </sp>
-<sp>
+<sp who="#L0142_F7">
 <speaker>Sally.</speaker>
 <p>Is't he?</p>
 </sp>
-<sp>
+<sp who="#L0142_M3">
 <speaker>Tom.</speaker>
 <p>Is't she? Celestina Beverley!</p>
 </sp>
-<sp>
+<sp who="#L0142_F7">
 <speaker>Sally.</speaker>
 <p>Augustus Portarlington!</p>
 </sp>
-<sp>
+<sp who="#L0142_mul">
 <speaker>Both.</speaker>
 <p>Ah,—oh! he lives—she speaks! My life! my soul! I swoon—I die!—</p>
 <stage>(they approach by sudden starts—embrace, then faint away alternately,
 each supporting and reviving the other by turns)</stage>
 </sp>
-<sp>
+<sp who="#L0142_M3">
 <speaker>Tom.</speaker>
 <p>And do I clasp you to my beating heart once more? Oh, rants and rhapsodies! I
 gaze on Celestina, and the sun's eclipsed!</p>
 </sp>
-<sp>
+<sp who="#L0142_F7">
 <speaker>Sally.</speaker>
 <p>   Augustus speaks, and nightingales are mute. And hast thou crossed the
 stormy seas to follow me?</p>
 </sp>
-<sp>
+<sp who="#L0142_M3">
 <speaker>Tom.</speaker>
 <p>Whether I followed or went before, it matters not; we are both together now,
 and that's enough.</p>
 </sp>
-<sp>
+<sp who="#L0142_F7">
 <speaker>Sally.</speaker>
 <p>How came you in this house?—was it to urge Sir Matthew on the ancient
 suit?</p>
 </sp>
-<sp>
+<sp who="#L0142_M3">
 <speaker>Tom.</speaker>
 <p>No, 'twas to measure him for a new one—but thou, my love. Speak! wherefore
 are you here?</p>
 </sp>
-<sp>
+<sp who="#L0142_F7">
 <speaker>Sally.</speaker>
 <p>How! know you not that I am Sir Matthew's niece? and, what's better still,
 his heiress!</p>
 </sp>
-<sp>
+<sp who="#L0142_M3">
 <speaker>Tom.</speaker>
 <p>The devil you are? Let us play Portia and Bassanio, love —you'll find me
 perfect in the casket scene.</p>
 </sp>
-<sp>
+<sp who="#L0142_F7">
 <speaker>Sally.</speaker>
 <p>What, you want me to run off with you again? Ecod, with all my heart; but
 what's the meaning of this dress? Has my Augustus become an officer?</p>
 </sp>
-<sp>
+<sp who="#L0142_M3">
 <speaker>Tom.</speaker>
 <p>Eh? perhaps I have; but really since I entered this <pb n="16"/> house, I
 have undergone such wonderful changes, that at this moment I can't precisely say
 what I am.</p>
 </sp>
-<sp>
+<sp who="#L0142_F7">
 <speaker>Sally.</speaker>
 <p>Ha! I perceive it is a disguise to carry on the plot—delightful! Then you
 haven't been discovered?</p>
 </sp>
-<sp>
+<sp who="#L0142_M3">
 <speaker>Tom.</speaker>
 <p>Not exactly yet, but no saying how soon I may; therefore as I have already
 left this house by the window once to-day, I should like, just for novelty's
 sake, to quit it this time by the staircase, and not with too much velocity
 neither. Couldn't you show me the way?</p>
 </sp>
-<sp>
+<sp who="#L0142_F7">
 <speaker>Sally.</speaker>
 <stage> (crosses to L.)</stage>
 <p>   Come on—I know a winding passage above. I'll lead thee suddenly.</p>
 </sp>
-<sp>
+<sp who="#L0142_M3">
 <speaker>Tom.</speaker>
 <p>Let me get my hat; but we must fix the measures of our future meeting.</p>
 </sp>
-<sp>
+<sp who="#L0142_F7">
 <speaker>Sally.</speaker>
 <p>To be sure we will; and ecod! if you've courage enough to carry me off again,
 I'm the lass to be carried.</p>
 </sp>
-<sp>
+<sp who="#L0142_M3">
 <speaker>Tom.</speaker>
 <p>Say you so? But Gretna Green is an infernal distance!</p>
 </sp>
-<sp>
+<sp who="#L0142_F7">
 <speaker>Sally.</speaker>
 <p>Pooh! we can't find a blacksmith in this country, but I dare say a Brahmin
 will do as well. Then when once we are married—</p>
 </sp>
-<sp>
+<sp who="#L0142_M3">
 <speaker>Tom.</speaker>
 <p>Aye. “The Honeymoon”—a delicious comedy.</p>
 </sp>
-<sp>
+<sp who="#L0142_F7">
 <speaker>Sally.</speaker>
 <p>“Three Weeks after Marriage!” not a bad entertainment; and as for “Man and
 Wife”—</p>
 </sp>
-<sp>
+<sp who="#L0142_M3">
 <speaker>Tom.</speaker>
 <p>Oh! that's a stock piece everywhere, which never fails at a benefit once in
 each season, with “Speed the Plough,” and the “Children in the Wood!”</p>
@@ -1429,84 +1460,84 @@ opposite sides of the stage.</stage>
 <stage>Enter Sally, Poplin, and Count Glorieux, C. D.—The latter now dressed as
 a private gentleman, but rather foppishly.</stage>
 
-<sp>
+<sp who="#L0142_F7">
 <speaker>Sally.</speaker>
 <p>Well, I vow, this is a capital incident. So, his countship was really in love
 with me all along, and had his coat stripped off his back this morning, for the
 sake of her who had already stripped him of his heart.</p>
 </sp>
-<sp>
+<sp who="#L0142_M2">
 <speaker>Count.</speaker>
 <p>Oui, ma'amselle. I strip off anything vid plaisir for de satisfaction of you.
 Miss Poplin has make von grand mistake, but now she tell you all de truth.</p>
 </sp>
-<sp>
+<sp who="#L0142_F8">
 <speaker>Pop.</speaker>
 <p>Yes, indeed, miss, monsieur adores you to distraction!</p>
 </sp>
-<sp>
+<sp who="#L0142_F7">
 <speaker>Sally.</speaker>
 <p>That's famous! I like anybody that's distracted. Well, what does this poor
 madman want me to do?</p>
 </sp>
-<sp>
+<sp who="#L0142_M2">
 <speaker>Count.</speaker>
 <p>Ah! vous êtes si drôle, si brusque, ma'amselle. I lay my hand down at your
 feet before Sir Matthew de Scragg.</p>
 </sp>
-<sp>
+<sp who="#L0142_F7">
 <speaker>Sally.</speaker>
 <p>No, that will never do. My uncle hates all Frenchmen mortally; so I'm sure
 you'll not get his consent.</p>
 </sp>
-<sp>
+<sp who="#L0142_M2">
 <speaker>Count.</speaker>
 <p>Aha! den by de god of love I carry you off vidout. Ma'amselle, I make you
 madame la comtesse dis very night; and de envie of all de ladies in de vorld
 to-morrow.</p>
 <pb n="17"/>
 </sp>
-<sp>
+<sp who="#L0142_F7">
 <speaker>Sally.</speaker>
 <p>Not quite so fast. We have a proverb in England— “Never halloo before you are
 out of the wood!”</p>
 </sp>
-<sp>
+<sp who="#L0142_M2">
 <speaker>Count.</speaker>
 <p>Comment! out of de vood! Ma'amselle, what do you mean in English by de
 vood?</p>
 </sp>
-<sp>
+<sp who="#L0142_F7">
 <speaker>Sally.</speaker>
 <p>Not know what wood is?—la! what a head you've got, Why wood? Why, it's
 everything about you—the floor, and the chairs, and the tables.</p>
 </sp>
-<sp>
+<sp who="#L0142_M2">
 <speaker>Count.</speaker>
 <p>   Aha! je comprends. De chair, and de tables be de vood. Bien obligé for de
 explanation. Allons, ma belle! you run away vid me dis night.</p>
 </sp>
-<sp>
+<sp who="#L0142_F7">
 <speaker>Sally.</speaker>
 <p>Suppose I was to consent, who is there to marry us?</p>
 </sp>
-<sp>
+<sp who="#L0142_M2">
 <speaker>Count.</speaker>
 <p>Dere be von Portugais priest—he live all day at my hotel—he make de bon
 mariage in five minute.</p>
 </sp>
-<sp>
+<sp who="#L0142_F7">
 <speaker>Sally.</speaker>
 <stage> (aside)</stage>
 <p>Ecod! a Portuguese priest would do better than a Brahmin. I've a rare
 thought. Harkye, Mr. Distracted! if I do elope I must manage everything my own
 way.</p>
 </sp>
-<sp>
+<sp who="#L0142_M2">
 <speaker>Count.</speaker>
 <p>Sans doute—speak your plaisir.</p>
 </sp>
-<sp>
+<sp who="#L0142_F7">
 <speaker>Sally.</speaker>
 <p>Well, then, do you hurry back to your hotel this moment —tell your old priest
 to be in readiness to receive a young lady, that he is to marry her to a
@@ -1515,15 +1546,15 @@ choose that to be quite a surprise! and above all, you must not be in the way
 when I arrive, nor think of showing yourself in my presence till I send the
 priest to summon you.</p>
 </sp>
-<sp>
+<sp who="#L0142_M2">
 <speaker>Count.</speaker>
 <p>Ah! ces conditions be trop difficiles.</p>
 </sp>
-<sp>
+<sp who="#L0142_F7">
 <speaker>Sally.</speaker>
 <p>Very well, then, the bargain's off.</p>
 </sp>
-<sp>
+<sp who="#L0142_M2">
 <speaker>Count.</speaker>
 <p>Ah! no, no—I give consent to all. I fly to my hotel— I order every thing as
 you desire tout suit. Et assurez vous, ma'amselle, dat I vill remember alvay dat
@@ -1531,31 +1562,31 @@ excellent proverbe Anglais you teach me; and never more make de halloo till I be
 out of your chairs and tables.</p>
 <stage>                                        Exit, C. D.</stage>
 </sp>
-<sp>
+<sp who="#L0142_F8">
 <speaker>Pop.</speaker>
 <p>There's a lover, miss. So you are to be a countess after all.</p>
 </sp>
-<sp>
+<sp who="#L0142_F7">
 <speaker>Sally.</speaker>
 <p>   Not I. I've only been making a fool of the man; he's to furnish a priest,
 but I shall provide the husband. This Portuguese dominie marries me to nobody
 but my own dear Augustus. There's a “Belle's Stratagem” for you Poplin.</p>
 </sp>
-<sp>
+<sp who="#L0142_F8">
 <speaker>Pop.</speaker>
 <p>Gemini! what a cheat! Why, surely, miss, such conduct isn't strictly
 moral.</p>
 </sp>
-<sp>
+<sp who="#L0142_F7">
 <speaker>Sally.</speaker>
 <p>Perhaps not, but it's perfectly dramatic!</p>
 <stage>Tom peeps in at C. D.</stage>
 </sp>
-<sp>
+<sp who="#L0142_M3">
 <speaker>Tom.</speaker>
 <p>Hist! Is the coast clear?</p>
 </sp>
-<sp>
+<sp who="#L0142_F7">
 <speaker>Sally.</speaker>
 <p>Approach, thou seductive Don Giovanni! Dear Poplin, keep watch for us at the
 stair head—the confidante always retires when the lover enters.
@@ -1564,19 +1595,19 @@ I've studied the first act of “The Fugitive” quite perfect; and now am ready
 join you in the Witch's Chorus—“We fly by night.”</p>
 <pb n="18"/>
 </sp>
-<sp>
+<sp who="#L0142_M3">
 <speaker>Tom.</speaker>
 <p>Oh, thou prodigy of precocious talent—and is the deed resolved?</p>
 </sp>
-<sp>
+<sp who="#L0142_F7">
 <speaker>Sally.</speaker>
 <p>To be sure it is, and half performed, too; for I've engaged the priest.</p>
 </sp>
-<sp>
+<sp who="#L0142_M3">
 <speaker>Tom.</speaker>
 <p>What a real canonical reverendissimo?</p>
 </sp>
-<sp>
+<sp who="#L0142_F7">
 <speaker>Sally.</speaker>
 <p>Such an equivoque—such a situation for stage effect; “but rest thou ignorant
 of my purpose, dearest chuck, 'till thou applaud the deed.” I've only a few
@@ -1585,73 +1616,73 @@ Clandestine Marriage;” after which (by particular desire), “Old Squaretoes
 Outwitted;” the whole to conclude with “The Devil to Pay!”</p>
 <stage>                                        Runs into closet, L.</stage>
 </sp>
-<sp>
+<sp who="#L0142_M3">
 <speaker>Tom.</speaker>
 <p>   That girl is a tip-top genius! she was born to be an ornament of the
 British stage: combined, too, with talent such as mine, what an effect might not
 our united energies produce upon the town. Ah! that's but a delusive fancy now. </p>
 <stage>(Sally opens closet door)</stage>
 </sp>
-<sp>
+<sp who="#L0142_F7">
 <speaker>Sally.</speaker>
 <p>Augustus, canst thou carry a leetle bundle?</p>
 </sp>
-<sp>
+<sp who="#L0142_M3">
 <speaker>Tom.</speaker>
 <p>Bless you! when I was a prentice—Hem! that is, I think I could contrive to do
 such a thing.</p>
 </sp>
-<sp>
+<sp who="#L0142_F7">
 <speaker>Sally.</speaker>
 <p>Here's something worth the catching.</p>
 </sp>
-<sp>
+<sp who="#L0142_M3">
 <speaker>Tom.</speaker>
 <p>Say you so? Then I'm the boy for a catch.</p>
 </sp>
-<sp>
+<sp who="#L0142_F7">
 <speaker>Sally.</speaker>
 <p>Now set we forth, and be the gods auspicious.</p>
 </sp>
-<sp>
+<sp who="#L0142_M3">
 <speaker>Tom.</speaker>
 <p>Come on, my queen! though Jove himself with all his thunder barred our
 course, despite of Fate itself young Ammon would go on!</p>
 </sp>
-<sp>
+<sp who="#L0142_M1">
 <speaker>Sir M.</speaker>
 <stage> (calls from below)</stage>
 <p>Hollo! who's making that riot in my niece's chamber? Sally, I'm coming
 up!</p>
 </sp>
-<sp>
+<sp who="#L0142_M3">
 <speaker>Tom.</speaker>
 <p>The devil you are then I shall be kicked down.</p>
 </sp>
-<sp>
+<sp who="#L0142_F7">
 <speaker>Sally.</speaker>
 <p>I have it. Here are a couple of closets—hide yourself in one of them, and
 leave the rest to me.</p>
 </sp>
-<sp>
+<sp who="#L0142_F8">
 <speaker>Pop.</speaker>
 <stage> (without, C. D.)</stage>
 <p>Yah! sir, would you tumble over me?</p>
 </sp>
-<sp>
+<sp who="#L0142_M1">
 <speaker>Sir M.</speaker>
 <p>Stand out of the way! I'll tumble where I please. <stage>(Sally has just time
 to push Tom into a closet, when Sir Matthew bursts in at the middle
 door)</stage> So, madam niece, are these your tricks? <stage>(looks round him in
 surprise)</stage> Why, where's your fellow?</p>
 </sp>
-<sp>
+<sp who="#L0142_F7">
 <speaker>Sally.</speaker>
 <p>Sir, in the opinion of many excellent judges, my fellow is not easily to be
 found. </p>
 <stage>(crosses to L.)</stage>
 </sp>
-<sp>
+<sp who="#L0142_M1">
 <speaker>Sir M.</speaker>
 <p>   None of your double tenders, miss. I'll swear I heard a man in this room,
 with a voice like a roaring dragon. The rascal bawled out his own name, too.
@@ -1660,28 +1691,28 @@ two closets. </p>
 <stage>(Sally runs to closet, L., and plants herself before it in affected
 terror)</stage>
 </sp>
-<sp>
+<sp who="#L0142_F7">
 <speaker>Sally.</speaker>
 <p>Search that closet, sir—the door's open—I request you to search that!</p>
 </sp>
-<sp>
+<sp who="#L0142_M1">
 <speaker>Sir M.</speaker>
 <p>No I won't, because you request it. I'll search this closet. Stand out of the
 way, Jezebel!</p>
 </sp>
-<sp>
+<sp who="#L0142_F7">
 <speaker>Sally.</speaker>
 <p>Upon my honor, sir, you'll find nobody.</p>
 <pb n="19"/>
 </sp>
-<sp>
+<sp who="#L0142_M1">
 <speaker>Sir M.</speaker>
 <p>Upon my honor, miss. Nobody and I must be better acquainted. </p>
 <stage>(he forcibly pulls Sally aside, and eagerly rushes in— the instant he has
 passed, Sally turns the key upon him—snatches it out of the lock—springs across
 to closet, R.—extricates Tom, then runs off with him by the door. C.)</stage>
 </sp>
-<sp>
+<sp who="#L0142_M1">
 <speaker>Sir M.</speaker>
 <stage> (within)</stage>
 <p>Hollo! open the door—let me out! Fire and fury, let me out! I'll kick the
@@ -1689,132 +1720,132 @@ door down—I'll break—I'll burst. I'll—</p>
 <stage>(the door gives way with a crash, Lady Scraggs enters at the moment with
 Dorrington. Sir Matthew tumbles forward from the closet)</stage>
 </sp>
-<sp>
+<sp who="#L0142_F6">
 <speaker>Lady S.</speaker>
 <p>Mercy on us! Why, Sir Matthew, are the Burmese in Calcutta? really my
 nerves—</p>
 </sp>
-<sp>
+<sp who="#L0142_M1">
 <speaker>Sir M.</speaker>
 <p>Confound your nerves! Where's that hussey—where's Sally?</p>
 </sp>
-<sp>
+<sp who="#L0142_F6">
 <speaker>Lady S.</speaker>
 <p>She very nearly overset me rushing down the staircase.</p>
 </sp>
-<sp>
+<sp who="#L0142_M1">
 <speaker>Sir M.</speaker>
 <p>Was there a fellow in her company?</p>
 </sp>
-<sp>
+<sp who="#L0142_F6">
 <speaker>Lady S.</speaker>
 <p>Yes, some man followed her, who held a bundle before his face.</p>
 </sp>
-<sp>
+<sp who="#L0142_M1">
 <speaker>Sir M.</speaker>
 <p>Then she's off! Young Ammon has got her.</p>
 <stage>                                        (crosses to R.)</stage>
 </sp>
-<sp>
+<sp who="#L0142_F6">
 <speaker>Lady S.</speaker>
 <p>Who's he, my dear? I hope a man of family?</p>
 </sp>
-<sp>
+<sp who="#L0142_M5">
 <speaker>Dor.</speaker>
 <p>Let me dispatch your servants in pursuit.</p>
 </sp>
-<sp>
+<sp who="#L0142_M1">
 <speaker>Sir M.</speaker>
 <p>   No, not a foot shall stir—I wash my hands of the baggage! let her go;—and
 have I no kind friend to complete the business, and carry off Lady Scraggs?</p>
 </sp>
-<sp>
+<sp who="#L0142_F6">
 <speaker>Lady S.</speaker>
 <p>Profligate man! yet how would you be agonised were I to take you at your
 word?</p>
 </sp>
-<sp>
+<sp who="#L0142_M1">
 <speaker>Sir M.</speaker>
 <p>Try me, my dear, only try me.</p>
 </sp>
-<sp>
+<sp who="#L0142_F6">
 <speaker>Lady S.</speaker>
 <p>Sir Matthew—one word more, and I quit the house!</p>
 </sp>
-<sp>
+<sp who="#L0142_M1">
 <speaker>Sir M.</speaker>
 <p>Only one, my duck? Bless you! I'd give a thousand, if words might produce so
 happy an event!</p>
 <stage>Lady Scraggs flounces up the stage; Sally returns through C. D., looking
 around the stage.</stage>
 </sp>
-<sp>
+<sp who="#L0142_F7">
 <speaker>Sally.</speaker>
 <p>Where could I have lost it?</p>
 </sp>
-<sp>
+<sp who="#L0142_M1">
 <speaker>Sir M.</speaker>
 <stage> (seizing her)</stage>
 <p>So I have caught you, and now I've got you, I'll keep you.</p>
 </sp>
-<sp>
+<sp who="#L0142_F7">
 <speaker>Sally.</speaker>
 <p>I'd have you to know I'm a respectable married woman, and not to be kept.</p>
 <stage>Enter Count Glorieux, followed by Tom and Poplin, C. D.</stage>
 </sp>
-<sp>
+<sp who="#L0142_M2">
 <speaker>Count.</speaker>
 <p>Sare, I have apprehend dis rascal what run away wis your niece.</p>
 </sp>
-<sp>
+<sp who="#L0142_M1">
 <speaker>Sir M.</speaker>
 <p>Oho! you apprehend them? Well, I've no objection to satisfy you for your
 trouble. Heydey why, if this isn't the old <pb n="20"/> French tailor bedizened
 out in a new coat—one of his customer's, I suppose. Bless me, now I look
 again,—why, yonder chap is the Count!</p>
 </sp>
-<sp>
+<sp who="#L0142_M2">
 <speaker>Count.</speaker>
 <p>No, monsieur—tout au contraire.—I am de Count, and dat be de tailleur. He
 great rogue! he run away vid your niece, dat I mean to run away vid myself.</p>
 </sp>
-<sp>
+<sp who="#L0142_M1">
 <speaker>Sir M.</speaker>
 <p>This is a conundrum of the devil's twisting. Dorrington,   will you expound
 it?</p>
 </sp>
-<sp>
+<sp who="#L0142_M5">
 <speaker>Dor.</speaker>
 <p>My dear sir, there has assuredly been some great mistake; however, this is
 certainly the person I recommended for your custom.</p>
 </sp>
-<sp>
+<sp who="#L0142_M1">
 <speaker>Sir M.</speaker>
 <stage> (to Sally)</stage>
 <p>Then, hussey, you have really married a tailor?</p>
 </sp>
-<sp>
+<sp who="#L0142_F6">
 <speaker>Lady S.</speaker>
 <p>Ah, <stage>(screams)</stage> Poplin, help me to a chair—I insist upon
 fainting this instant.</p>
 </sp>
-<sp>
+<sp who="#L0142_F7">
 <speaker>Sally.</speaker>
 <p>If I have there's no disgrace in the match. Ned Rapid was a tailor, yet Jessy
 Oatland and Miss Vortex were both in love with him at the same time.</p>
 </sp>
-<sp>
+<sp who="#L0142_M1">
 <speaker>Sir M.</speaker>
 <p>I never heard of those women before, but two rare vulgar trollops, I'll
 warrant 'em. Harkye, hang dog! haven't you a word to say for yourself, or is it
 your modesty that keeps you silent?</p>
 </sp>
-<sp>
+<sp who="#L0142_M5">
 <speaker>Dor.</speaker>
 <stage> (aside to him)</stage>
 <p>Speak, Tom, speak!</p>
 </sp>
-<sp>
+<sp who="#L0142_M3">
 <speaker>Tom.</speaker>
 <p>I will, Captain; and if he's made of penetrable stuff, I'll touch his
 feelings! <stage>(plants himself in an attitude)</stage></p>
@@ -1825,11 +1856,11 @@ feelings! <stage>(plants himself in an attitude)</stage></p>
 <l>The very head and front of my offending </l>
 <l>Hath this extent, no more.”</l>
 </sp>
-<sp>
+<sp who="#L0142_M1">
 <speaker>Sir M.</speaker>
 <p>No more! Why, you rascal, is not that enough?</p>
 </sp>
-<sp>
+<sp who="#L0142_M5">
 <speaker>Dor.</speaker>
 <p>   Hold! My good friends, since this affair is now irrevocable, allow me to
 offer a plain word by way of mediation, Sir Matthew. I sincerely believe this
@@ -1837,109 +1868,109 @@ young man to possess both honesty and good intentions, so that considering Miss
 Sally's peculiar habits, it is possible she might have fallen into worse
 hands.</p>
 </sp>
-<sp>
+<sp who="#L0142_M1">
 <speaker>Sir M.</speaker>
 <p>Umph! the wench is half a lunatic, that's certain, and if I were only assured
 of the fellow's principles—I've money enough for all; and as for family, I never
 regarded that a brass button.</p>
 </sp>
-<sp>
+<sp who="#L0142_F6">
 <speaker>Lady S.</speaker>
 <p>Speak for yourself, Sir Matthew; but never expect a woman of my blood to
 countenance so degrading an alliance.</p>
 </sp>
-<sp>
+<sp who="#L0142_M3">
 <speaker>Tom.</speaker>
 <p>Come, come, my lady, don't be too hard upon a young fellow who risked his
 neck by jumping out of window to oblige you.</p>
 </sp>
-<sp>
+<sp who="#L0142_M1">
 <speaker>Sir M.</speaker>
 <p>Eh! what's that?</p>
 </sp>
-<sp>
+<sp who="#L0142_F6">
 <speaker>Lady S.</speaker>
 <p>Ahem! </p>
 <stage>(winking and nodding at Tom)</stage>
 </sp>
-<sp>
+<sp who="#L0142_M3">
 <speaker>Tom.</speaker>
 <p>Oh, merely a figure of speech; but as to my family, <pb n="21"/> though 'tis
 low 'tis honest; besides, I've a rich relation in this very town, if I could
 only find her out, who, perhaps, might lend a helping hand.</p>
 </sp>
-<sp>
+<sp who="#L0142_M1">
 <speaker>Sir M.</speaker>
 <p>Indeed!</p>
 </sp>
-<sp>
+<sp who="#L0142_M3">
 <speaker>Tom.</speaker>
 <p>Aye, that I have—my mother's own sister, only we could never learn the name
 of her husband. Perhaps some of you gentlemen may have heard of her. She was
 formerly one Nancy Tredwarren, from Helston, in Cornwall.</p>
 </sp>
-<sp>
+<sp who="#L0142_F6">
 <speaker>Lady S.</speaker>
 <stage> (screaming)</stage>
 <p>   Ah!</p>
 </sp>
-<sp>
+<sp who="#L0142_M1">
 <speaker>Sir M.</speaker>
 <p>What's that?—speak it again. Nancy, that's right. She always called herself
 Annette.</p>
 </sp>
-<sp>
+<sp who="#L0142_M3">
 <speaker>Tom.</speaker>
 <p>She came out to India as nurserymaid, with the Countess of Doubledrag.</p>
 </sp>
-<sp>
+<sp who="#L0142_M1">
 <speaker>Sir M.</speaker>
 <p>Hurrah! hurrah! she's found—she's found—she's caught! To her, my fine
 fellow—there stands your aunt.</p>
 </sp>
-<sp>
+<sp who="#L0142_F6">
 <speaker>Lady S.</speaker>
 <p>It's all false.</p>
 </sp>
-<sp>
+<sp who="#L0142_M1">
 <speaker>Sir M.</speaker>
 <p>No, it's all true—I'd swear to every tittle. Only tell me—what was Nancy's
 father?</p>
 </sp>
-<sp>
+<sp who="#L0142_M3">
 <speaker>Tom.</speaker>
 <p>As honest a plumber and glazier as any in the borough of Helston.</p>
 </sp>
-<sp>
+<sp who="#L0142_M1">
 <speaker>Sir M.</speaker>
 <p>A plumber and glazier! Oho, my lady putty and lead! this was the man “Who
 ascended to one of the very loftiest stations in the church.”</p>
 </sp>
-<sp>
+<sp who="#L0142_M3">
 <speaker>Tom.</speaker>
 <p>So he did. He fixed with his own hand the weathercock upon Meragissey
 steeple, which was reckoned the highest job in the plumbing line ever known in
 Cornwall.</p>
 </sp>
-<sp>
+<sp who="#L0142_M1">
 <speaker>Sir M.</speaker>
 <p>Then her uncle—“One of the most popular orators of his time.”</p>
 </sp>
-<sp>
+<sp who="#L0142_M3">
 <speaker>Tom.</speaker>
 <p>Aye, that must have been uncle Kit.</p>
 </sp>
-<sp>
+<sp who="#L0142_M1">
 <speaker>Sir M.</speaker>
 <p>“Who never would accept a seat in parliament, but who made a prodigious noise
 in his own county.”</p>
 </sp>
-<sp>
+<sp who="#L0142_M3">
 <speaker>Tom.</speaker>
 <p>That's true again. He was town crier, and whenever he chaunted “Oh, yes!” his
 lungs were accounted as clear as his bell.</p>
 </sp>
-<sp>
+<sp who="#L0142_M1">
 <speaker>Sir M.</speaker>
 <stage> (in extacy)</stage>
 <p>   Take my niece—take my fortune, you've earned them fairly. Soho, my lady
@@ -1948,22 +1979,22 @@ Princess Caraboo, of the fasting woman at Tetbury. Ah, you may well hang down
 your head—you've crowed over me long enough! but now— wheugh! I'm cock of the
 walk.</p>
 </sp>
-<sp>
+<sp who="#L0142_M2">
 <speaker>Count.</speaker>
 <p>Eh bien? all dis be tres agreeable, but I do not perceive vere be de
 satisfaction pour moi?</p>
 </sp>
-<sp>
+<sp who="#L0142_M1">
 <speaker>Sir M.</speaker>
 <p>Satisfaction, mounseer? Why, you shall sit down with us to the wedding
 supper; or, if your appetite sets sharper after an English wife, here's Poplin
 at your elbow, disengaged. I've nothing better at present to offer.</p>
 </sp>
-<sp>
+<sp who="#L0142_M2">
 <speaker>Count.</speaker>
 <p>Poplin, that is all stuff.</p>
 </sp>
-<sp>
+<sp who="#L0142_M1">
 <speaker>Sir M.</speaker>
 <p>Odsbobs! I'm so galvanized all over with pleasant feelings, that—Lady
 Scraggs, come here—don't pout! since this seems to be a night of general
@@ -1975,7 +2006,7 @@ every day.</p>
 <spGrp>
 <head>Finale—“The lass I left behind me.”</head>
 
-<sp>
+<sp who="#L0142_M3">
 <stage>Solo.</stage>
 <l>—Come weave the dance, come blithely sing, </l>
 <l>   And raise the bridal chorus; </l>
@@ -1983,32 +2014,32 @@ every day.</p>
 <l>   We'll chase grim care before us.</l>
 <stage>Chorus repeat verse.</stage>
 </sp>
-<sp>
+<sp who="#L0142_M3">
 <speaker>Tom.</speaker>
 <l>No “Careless Husband’ will I prove,</l>
 </sp>
-<sp>
+<sp who="#L0142_F7">
 <speaker>Sally.</speaker>
 <l>Nor I “The Jealous Wife,” sir.</l>
 </sp>
-<sp>
+<sp who="#L0142_M3">
 <speaker>Tom.</speaker>
 <l>But Congreve's five-act “Love for Love,”</l>
 </sp>
-<sp>
+<sp who="#L0142_F7">
 <speaker>Sally.</speaker>
 <l>   Be still our play for life, sir.</l>
 </sp>
-<sp>
+<sp who="#L0142_F8">
 <speaker>Pop.</speaker>
 <l>Though spinster left, I'd frankly say, </l>
 <l>I'd smile should some one court me;</l>
 </sp>
-<sp>
+<sp who="#L0142_M2">
 <speaker>Count.</speaker>
 <l>Dat ogle meant for me, aha!</l>
 </sp>
-<sp>
+<sp who="#L0142_F8">
 <speaker>Pop.</speaker>
 <l>Oh! sir, you quite transport me!</l>
 </sp>

@@ -2,7 +2,7 @@
  <teiHeader>
   <fileDesc>
    <titleStmt>
-    <title n="ahardstruggle">A Hard Struggle</title>
+    <title n="ahardstruggle" type="main">A Hard Struggle</title>
     <author>Marston, Westland</author>
     <respStmt>
      <resp>Curated by</resp>
@@ -11,15 +11,54 @@
    </titleStmt>
    <publicationStmt>
     <distributor>Privately published on the Lacy Website</distributor>
-   </publicationStmt>
-   <sourceDesc><bibl type="digital">Retagged from a DOCX version of the RTF file exported by ProQuest from a now lost TEI
-     original </bibl><bibl type="source" status="TEI_1" n="48.2" corresp="nic:N15525"><author>Marston, Westland</author><title n="ahardstruggle">A Hard Struggle</title><title type="sub">A Domestic Drama in one act</title><extent>27 pp (UM copy: 56 - 83)<measure type="pp" quantity="26"/><measure type="txWords" quantity="8118"/><measure type="spWords" quantity="6740"/><measure type="stWords" quantity="1378"/></extent><eventName notAfter="1858" type="firstPerf">
-      <date resp="nicoll" when="1858-02-01"/>
-      <name>Royal Lyceum Theatre</name>
-      <date resp="source" when="1859-02-01">1 Feb. 1859</date>
-     </eventName><listRef type="localCopies"><ref>Vol48/L0707/L0707-um.pdf</ref></listRef></bibl></sourceDesc>
+   <idno type="lae">L0707</idno><idno type='URI' xml:base='https://dracor.org'>LAE</idno></publicationStmt>
+   <sourceDesc><bibl type="printSource" n="48.2"><author>Marston, Westland</author><title type="main" n="ahardstruggle">A Hard Struggle</title><title type="sub">A
+Domestic Drama in one act</title><extent>27 pp (UM copy: 56 - 83)<measure type="pp" quantity="26"/>
+  <measure type="spCount" quantity="321"/>
+  <measure type="spvCount" quantity="0"/>
+  <measure type="txWords" quantity="8118"/>
+  <measure type="spWords" quantity="6740"/>
+  <measure type="stWords" quantity="1378"/>
+  </extent>
+
+<title level="s"> Lacy's Acting Edition, volume 48, No. 0707</title><idno type="nic">N15525</idno></bibl><bibl type="digitalSource" n="copytext"><ref target="https://babel.hathitrust.org/cgi/pt?id=mdp.39015067453533&amp;seq=56 ">UM from HT</ref><ref target="local:Vol48/L0707/L0707-um.pdf"/></bibl><bibl type="digitalSource" n="copytext"><ref target="https://lb42.github.io/Lacy/L0707.html">TEI</ref></bibl><listEvent>
+<event type="firstPerf" when="1859-02-01" source="text" where="Lyceum">
+<desc>Premiered at Royal Lyceum Theatre 1 Feb. 1859; Nicoll date
+1858-02-01</desc>
+</event>
+</listEvent></sourceDesc>
   </fileDesc>
-  <profileDesc><textClass><!--S_1_Drama_D._DRAMA--><catRef target="#sizeS"/><catRef target="#act1"/><catRef target="nic:D."/><keywords><term>DRAMA</term></keywords></textClass></profileDesc><revisionDesc><change when="2024-10-03">Header enriched</change>
+  <profileDesc><textClass><catRef target="#sizeS"/><catRef target="#act1"/><catRef target="nic:D."/><keywords><term>DRAMA</term></keywords></textClass><particDesc><listPerson>
+<person xml:id="L0707_M1">
+<persName type="role">Mr. Trevor </persName>
+<persName type="spkr" n="49">Trevor.</persName>
+</person>
+<person xml:id="L0707_M2">
+<persName type="role">Reuben Holt </persName>
+<persName type="spkr" n="121">Reuben.</persName>
+</person>
+<person xml:id="L0707_M3">
+<persName type="role">Fergus Graham </persName>
+<persName type="spkr" n="47">Fergus.</persName>
+</person>
+<person xml:id="L0707_F4">
+<persName type="role">Lilian Trevor </persName>
+<persName type="spkr" n="48">Lilian.</persName>
+</person>
+<person xml:id="L0707_F5">
+<persName type="role">Amy </persName>
+<persName type="spkr" n="50">Amy.</persName>
+</person>
+<person xml:id="L0707_F6">
+<persName type="role">Landlady Of The Old Swan </persName>
+<persName type="spkr" n="3">Landlady.</persName>
+</person>
+<person xml:id="L0707_F7">
+<persName type="role">Susan </persName>
+<persName type="spkr" n="3">Susan.</persName>
+</person>
+
+</listPerson></particDesc></profileDesc><revisionDesc><change when="2025-09-07">Metadata updated from new catalogue</change><change when="2024-10-03">Header enriched</change>
    <change when="2023-09-21">Checked pagebreaks etc.</change>
    <change when="2023-09-20">Header confected</change>
   </revisionDesc>
@@ -37,19 +76,19 @@
      February 1, 1858.</p>
    
    <castList><head>Characters,</head>
-    <castItem><role gender="M">Mr. Trevor </role><roleDesc>(a Rich Farmer) </roleDesc><actor sex="M">Mr. Barrett. </actor></castItem>
+    <castItem><role gender="M">Mr. Trevor </role><roleDesc>(a Rich Farmer) </roleDesc><actor ana="#M">Mr. Barrett. </actor></castItem>
 
-    <castItem><role gender="M">Reuben Holt </role><roleDesc>(Mr. Trevor's Ward) </roleDesc><actor sex="M">Mr. Chas. Dillon. </actor></castItem>
+    <castItem><role gender="M">Reuben Holt </role><roleDesc>(Mr. Trevor's Ward) </roleDesc><actor ana="#M">Mr. Chas. Dillon. </actor></castItem>
 
-    <castItem><role gender="M">Fergus Graham </role><roleDesc>(surgeon) </roleDesc><actor sex="M">Mr. J. G. Shore. </actor></castItem>
+    <castItem><role gender="M">Fergus Graham </role><roleDesc>(surgeon) </roleDesc><actor ana="#M">Mr. J. G. Shore. </actor></castItem>
 
-    <castItem><role gender="F">Lilian Trevor </role><roleDesc>(betrothed To Reuben) </roleDesc><actor sex="F">Mrs. Chas. Dillon. </actor></castItem>
+    <castItem><role gender="F">Lilian Trevor </role><roleDesc>(betrothed To Reuben) </roleDesc><actor ana="#F">Mrs. Chas. Dillon. </actor></castItem>
 
-    <castItem><role gender="F">Amy </role><roleDesc>(Mr. Trevor's Orphan Grandchild, Aged 13) </roleDesc><actor sex="F">Miss Conquest. </actor></castItem>
+    <castItem><role gender="F">Amy </role><roleDesc>(Mr. Trevor's Orphan Grandchild, Aged 13) </roleDesc><actor ana="#F">Miss Conquest. </actor></castItem>
 
-    <castItem><role gender="F">Landlady Of The Old Swan </role><actor sex="F">Mrs. Melville. </actor></castItem>
+    <castItem><role gender="F">Landlady Of The Old Swan </role><actor ana="#F">Mrs. Melville. </actor></castItem>
 
-    <castItem><role gender="F">Susan </role><roleDesc>(Mr. Trevor's Maid-servant) </roleDesc><actor sex="F">Miss Turtle. </actor></castItem>
+    <castItem><role gender="F">Susan </role><roleDesc>(Mr. Trevor's Maid-servant) </roleDesc><actor ana="#F">Miss Turtle. </actor></castItem>
 
    </castList>
    <p>Time of Representation.—One hour and fifteen minutes.</p>
@@ -78,7 +117,7 @@
       E.</stage>
     <stage>Mr. Trevor, seated, R. C., reading a newspaper aloud, and pronouncing many of
       the words incorrectly, and with hesitation.</stage>
-    <sp>
+    <sp who="#L0707_M1">
      <speaker>Trevor.</speaker>
      <p>“In brief, the magnificence of the late flower show at Upingham was without par-are-lel
       (parallel), whether we regard the exquisite specimens of hor-ti-cul-tu-ral science themselves,
@@ -91,29 +130,29 @@
       herself! He's as much a boy as when his poor father died and left him to my care.</p></sp>
     <stage>Reuben
       bursts in through the window, C. from R.—Amy following and catches him.</stage>
-    <sp>
+    <sp who="#L0707_F5">
      <speaker>Amy.</speaker>
      <p><stage> (laughing)</stage>Caught! caught! I'm out of breath, Reuben, I'm out of breath! My
       side aches so!</p>
     </sp>
-    <sp>
+    <sp who="#L0707_M2">
      <speaker>Reuben.</speaker>
      <p>Yes, lassie, I think that will do for one turn.</p>
     </sp>
-    <sp>
+    <sp who="#L0707_F5">
      <speaker>Amy.</speaker>
      <p>Grandpapa, it wasn't fair; he let himself be caught just to please me.</p>
     </sp><pb n="4"/>
-    <sp>
+    <sp who="#L0707_M1">
      <speaker>Trevor.</speaker>
      <p>Reuben, I'm amazed! If any of the gentry in the <hi>vi-nis-i-ty</hi> had seen you!</p>
     </sp>
-    <sp>
+    <sp who="#L0707_M2">
      <speaker>Reuben.</speaker>
      <p>What then?—They would have seen me making fun for a dear little girl, who wanted a
       playmate.</p>
     </sp>
-    <sp>
+    <sp who="#L0707_M1">
      <speaker>Trevor.</speaker>
      <p>My good fellow, this will never do. I know   you've many good points. You've helped me to
       manage the farm, excellently. There's not an acre but what's made the most of, not a shed on
@@ -121,19 +160,19 @@
       Remember, that my daughter Lilian, whom I sent to Madeira for her health, comes back to us
       next month.</p>
     </sp>
-    <sp>
+    <sp who="#L0707_M2">
      <speaker>Reuben.</speaker>
      <p>Ay, and well, thank heaven!</p>
     </sp>
-    <sp>
+    <sp who="#L0707_M1">
      <speaker>Trevor.</speaker>
      <p>That you're engaged to her, and that you'll soon be married.</p>
     </sp>
-    <sp>
+    <sp who="#L0707_M2">
      <speaker>Reuben.</speaker>
      <p>Do you think I'm likely to forget that, sir?</p>
     </sp>
-    <sp>
+    <sp who="#L0707_M1">
      <speaker>Trevor.</speaker>
      <p>Why hardly; as you've been betrothed since you were boy and girl together. Consider that
       though I was at first a small farmer, we're now rising people, entitled to move in a
@@ -141,32 +180,32 @@
       converse, sir. Look at me! I never meet with a gentlemanly word in a newspaper or pamphlet,
       but I instantly make a note of it, and add it to my concatenation.</p>
     </sp>
-    <sp>
+    <sp who="#L0707_M2">
      <speaker>Reuben.</speaker>
      <p><stage> (cheerfully)</stage>Talk's not in my line, sir; I'm not glib at words.</p>
     </sp>
-    <sp>
+    <sp who="#L0707_M1">
      <speaker>Trevor.</speaker>
      <p>Don't say <hi>glib</hi>, there's a dear boy. You should follow gentlemanly sports—carry your
       rod and line, for instance.</p>
     </sp>
-    <sp>
+    <sp who="#L0707_M2">
      <speaker>Reuben.</speaker>
      <p>What! to cheat silly fishes out of their lives   with mock flies?</p>
     </sp>
-    <sp>
+    <sp who="#L0707_M1">
      <speaker>Trevor.</speaker>
      <p>Pooh! shoot, then!</p>
     </sp>
-    <sp>
+    <sp who="#L0707_M2">
      <speaker>Reuben.</speaker>
      <p>No; powder and shot have so much the best of a bird, there's no fair play in that.</p>
     </sp>
-    <sp>
+    <sp who="#L0707_M1">
      <speaker>Trevor.</speaker>
      <p>Well, you can hunt.</p>
     </sp>
-    <sp>
+    <sp who="#L0707_M2">
      <speaker>Reuben.</speaker>
      <p>Hunt! What, when poor Reynard hasn't a chance? for if he gets to cover one time, he's sure
       to be killed the next. Hunt! Why, if it was a tiger in a jungle, and I saw death in his
@@ -175,7 +214,7 @@
       helpless brute, doomed before he starts—no, thank you, sir, there's no sport for me where
       there's no danger! <stage>(Amy steals up to Reuben, and places her hand in his)</stage></p>
     </sp>
-    <sp>
+    <sp who="#L0707_M1">
      <speaker>Trevor.</speaker>
      <p>Well, you <hi>can</hi> talk when you've a mind; but it's very rough, very rough! You must
       really inform when you're married to Lilian. However, I must abscond now. Old Stocks wants me
@@ -183,55 +222,55 @@
       auditory.<stage> He takes his hat, and goes out by
       window, C.</stage></p>
     </sp>
-    <sp>
+    <sp who="#L0707_F5">
      <speaker>Amy.</speaker>
      <p><stage> (playfully imitating Trevor)</stage>Promised him an auditory.</p>
     </sp>
-    <sp>
+    <sp who="#L0707_M2">
      <speaker>Reuben.</speaker>
      <p>Stop, Amy! Never mimic your grandpapa, he was your mother's father.</p>
     </sp>
-    <sp>
+    <sp who="#L0707_F5">
      <speaker>Amy.</speaker>
      <p><stage> (earnestly)</stage>I'm very sorry; forgive me.</p>
     </sp>
-    <sp>
+    <sp who="#L0707_M2">
      <speaker>Reuben.</speaker>
      <p>Yes, pet; but don't do it again. <stage>(kisses her)</stage></p>
     </sp>
-    <sp>
+    <sp who="#L0707_F5">
      <speaker>Amy.</speaker>
      <p>  Indeed I won't.</p>
     </sp>
-    <sp>
+    <sp who="#L0707_M2">
      <speaker>Reuben.</speaker>
      <p>That creeper's loose, Amy. <stage>(takes up a hammer)</stage> Just give me the list and the
       nails; we must have all tidy for aunt Lily. <stage>(he nails up a creeper by the entrance of
       conservatory)</stage> There, it's come down. I've broken it off. Clumsy fellow! What have such
       hands as mine to do with flowers?</p>
     </sp>
-    <sp>
+    <sp who="#L0707_F5">
      <speaker>Amy.</speaker>
      <p>You're not clumsy, although, you choose to say so. Now, Reuben, shall I tell you what you
       always put me in mind of?</p>
     </sp>
-    <sp>
+    <sp who="#L0707_M2">
      <speaker>Reuben.</speaker>
      <p><stage> (laughing, and throwing himself into a chair)</stage>Why, a great furze-bush, that
       can touch nothing without tearing it.</p>
     </sp>
-    <sp>
+    <sp who="#L0707_F5">
      <speaker>Amy.</speaker>
      <p>You know better, sir. You're like the great elm-tree yonder; when I try to clasp its broad
       trunk, I say, “Elm-tree, how strong you are!—just like Reuben.” And when I look up at its
       green leaves, and see the sun come through them, not fierce, but soft and gentle, I say,
       “Elm-tree, how kind you are!”—that's like Reuben again.</p>
     </sp>
-    <sp>
+    <sp who="#L0707_M2">
      <speaker>Reuben.</speaker>
      <p>Nonsense, chatterbox! <stage>(she jumps on his knee)</stage></p>
     </sp>
-    <sp>
+    <sp who="#L0707_F5">
      <speaker>Amy.</speaker>
      <p>Hush! It's of no use playing at hide-and-seek with me. I know who's gentle and good. I know
       who took the poor poacher-lad for a servant, and made him honest by kindness. I know who rode
@@ -239,12 +278,12 @@
       has been brother and father to somebody who loves him as if he were
       both.<stage> (kisses him)</stage></p>
     </sp>
-    <sp>
+    <sp who="#L0707_M2">
      <speaker>Reuben.</speaker>
      <p>Silence, prater! All that's rough about me is my own. <stage>(in an undertone as to
       himself)</stage> If there's anything better, it's the work of another.</p>
     </sp>
-    <sp>
+    <sp who="#L0707_F5">
      <speaker>Amy.</speaker>
      <p><stage> (hearing him)</stage>And if she made you good, she ought to be pleased with her
       work. And so she will be. Oh, Reuben, to think of your being married! And yet, I can't tell
@@ -252,22 +291,22 @@
       Lilian's coming home—coming home well, though we thought she would die, like my own dear
       mother.</p>
     </sp>
-    <sp>
+    <sp who="#L0707_M2">
      <speaker>Reuben.</speaker>
      <p>Hush, hush, dear!</p>
     </sp>
-    <sp>
+    <sp who="#L0707_F5">
      <speaker>Amy.</speaker>
      <p>Oh, if there could be a little window before your heart, that she could see through! For
       although she loves you so, still I should like her to know how very good you've grown since
       she went. Oh, if you would only talk to people, that they might know what you really are!</p>
     </sp>
-    <sp>
+    <sp who="#L0707_M2">
      <speaker>Reuben.</speaker>
      <p>They won't know by my talking, then. I leave fine speeches to folks who write plays and
       stories, and such like trash.</p>
     </sp>
-    <sp>
+    <sp who="#L0707_F5">
      <speaker>Amy.</speaker>
      <p><stage> (drawing from his coat pocket a rather worn volume)</stage>And so, sir, you hide
       your trash there! How often have I caught you reading it? It's the very story aunt Lilian used
@@ -275,7 +314,7 @@
       though   they'd been little man and wife from children, just like you and aunt Lilian. O, see!
       here's the postman coming up the walk. Let me run and see what he's got.</p>
     </sp>
-    <sp>
+    <sp who="#L0707_M2">
      <speaker>Reuben.</speaker>
      <p>Off she goes, then. <stage>(he kisses her—Amy runs out, C. to, L.—he takes up book, and
       gazes on title page)</stage> “Lilian Trevor!”—Her own dear name, written by herself —so light,
@@ -283,17 +322,17 @@
       coarse, awkward fellow like me. I suppose it was being used to me. We lived in this house
       together when we wore pinafores. To think that next month she'll be here!</p>
     </sp>
-    <sp>
+    <sp who="#L0707_F5">
      <speaker>Amy.</speaker>
      <p><stage> (bursting into the room, L. C. door, with a letter)</stage>It's for you; guess from
       whom. It ought to have been <pb n="7"/>here before. See, it's marked “too late!” <stage>(Reuben takes the
       letter, and remains looking at the address)</stage></p>
     </sp>
-    <sp>
+    <sp who="#L0707_F5">
      <speaker>Amy.</speaker>
      <p><stage> (clapping her hands impatiently)</stage>Do open it, there's a dear!</p>
     </sp>
-    <sp>
+    <sp who="#L0707_M2">
      <speaker>Reuben.</speaker>
      <p>From <hi>her!</hi> why, she ought now to be at sea. If it should be to say that she's not
       coming—that she's again ill! <stage>(he compares the direction with the handwriting in the
@@ -309,38 +348,38 @@
       chance of leaving Madeira— the rail home—be with you by noon!” <stage>(he stands silent; then
       turns suddenly, and catches Amy's arm)</stage> This is you, Amy?</p>
     </sp>
-    <sp>
+    <sp who="#L0707_F5">
      <speaker>Amy.</speaker>
      <p>Of course it is, dear. How happy we shall be.</p>
     </sp>
-    <sp>
+    <sp who="#L0707_M2">
      <speaker>Reuben.</speaker>
      <p>That's right. I ask; you answer. There's the hammer on the floor, and the list I was nailing
       round the plants. It's all real! And so she's—<stage>(pausing)</stage></p>
     </sp>
-    <sp>
+    <sp who="#L0707_F5">
      <speaker>Amy.</speaker>
      <p>Coming home.</p>
     </sp>
-    <sp>
+    <sp who="#L0707_M2">
      <speaker>Reuben.</speaker>
      <p>When?</p>
     </sp>
-    <sp>
+    <sp who="#L0707_F5">
      <speaker>Amy.</speaker>
      <p>She wrote on Tuesday—yesterday. Why, it must be to-day!</p>
     </sp>
-    <sp>
+    <sp who="#L0707_M2">
      <speaker>Reuben.</speaker>
      <p>Coming home to-day! Bless you for saying it! I know it now; but till you said so I couldn't
       take it in. And by noon! <stage>(looks at the letter, then at his watch)</stage> Why, it's
       near noon already.</p>
     </sp><pb n="8"/>
-    <sp>
+    <sp who="#L0707_F5">
      <speaker>Amy.</speaker>
      <p>  Well, let's tell grandpapa, and go to the station to meet her.</p>
     </sp>
-    <sp>
+    <sp who="#L0707_M2">
      <speaker>Reuben.</speaker>
      <p>Yes, yes; let me tell him, though. Run and get your hat.
       <stage> Exit Amy, L. 2 E.</stage> At noon to-day! O,
@@ -348,75 +387,75 @@
       shan't have a word to say for myself.<stage>Enter Mr. Trevor, with a letter, door, C. from
       R.</stage></p>
     </sp>
-    <sp>
+    <sp who="#L0707_M1">
      <speaker>Trevor.</speaker>
      <p>Reuben, I must beg your attention. I've just received a most consequential letter.</p>
     </sp>
-    <sp>
+    <sp who="#L0707_M2">
      <speaker>Reuben.</speaker>
      <p>So have I, sir.</p>
     </sp>
-    <sp>
+    <sp who="#L0707_M1">
      <speaker>Trevor.</speaker>
      <p>We'll talk of yours, by and by. Mine is about the family pedagogue, and therefore the most
       important.</p>
     </sp>
-    <sp>
+    <sp who="#L0707_M2">
      <speaker>Reuben.</speaker>
      <p>Ha, ha! You think so?</p>
     </sp>
-    <sp>
+    <sp who="#L0707_M1">
      <speaker>Trevor.</speaker>
      <p>Yes; it's on matters connected with our family.</p>
     </sp>
-    <sp>
+    <sp who="#L0707_M2">
      <speaker>Reuben.</speaker>
      <p>So is mine.</p>
     </sp>
-    <sp>
+    <sp who="#L0707_M1">
      <speaker>Trevor.</speaker>
      <p>Reuben, I mean the old family tree.</p>
     </sp>
-    <sp>
+    <sp who="#L0707_M2">
      <speaker>Reuben.</speaker>
      <p>Well, I mean a branch of it.</p>
     </sp>
-    <sp>
+    <sp who="#L0707_M1">
      <speaker>Trevor.</speaker>
      <p>Indeed; I've distinct information as to two of my missing pro—pro—What's the word?
       <stage>(refers to the letter)</stage> Oh, about two of my missing progenitors.</p>
     </sp>
-    <sp>
+    <sp who="#L0707_M2">
      <speaker>Reuben.</speaker>
      <p>And I've distinct information as to one of your missing progeny.</p>
     </sp>
-    <sp>
+    <sp who="#L0707_M1">
      <speaker>Trevor.</speaker>
      <p>Progenitors, sir; they write it so at the Heralds' College.</p>
     </sp>
-    <sp>
+    <sp who="#L0707_M2">
      <speaker>Reuben.</speaker>
      <p>Confound the Heralds' College! Forgive me,   sir; I speak of the living, not of the
       dead.</p>
     </sp>
-    <sp>
+    <sp who="#L0707_M1">
      <speaker>Trevor.</speaker>
      <p>Calm yourself; a gentleman should never be incitable.</p>
     </sp>
-    <sp>
+    <sp who="#L0707_M2">
      <speaker>Reuben.</speaker>
      <p>A man may be, though. Mr. Trevor, father —ay, let me say, father,—she's coming! she's in
       England.</p>
     </sp>
-    <sp>
+    <sp who="#L0707_M1">
      <speaker>Trevor.</speaker>
      <p>She! Who?</p>
     </sp>
-    <sp>
+    <sp who="#L0707_M2">
      <speaker>Reuben.</speaker>
      <p>Read—read! <stage>(he thrusts Lilian's letter into Mr. Trevor's hand)</stage></p>
     </sp>
-    <sp>
+    <sp who="#L0707_M1">
      <speaker>Trevor.</speaker>
      <p><stage> (reading)</stage>What, from Lilian! Lilian back again—at noon! Why, that means noon,
       to-day. What, my own precious girl! Thou'rt right, lad; thy news was best; worth a bushel of
@@ -426,78 +465,78 @@
       tell thee; I shall go up to the ceiling like a champagne cork. <stage>(whirling Reuben to the
       window)</stage></p>
     </sp>
-    <sp>
+    <sp who="#L0707_M2">
      <speaker>Reuben.</speaker>
      <p><stage> (laughing)</stage>O, but you know a gentleman's never excited.</p>
     </sp>
-    <sp>
+    <sp who="#L0707_M1">
      <speaker>Trevor.</speaker>
      <p>Why, here's Amy ready. <stage>Enter Amy, attired for a drive, door L. 2 E.</stage> And what
       do I see? Why, Reuben, we're too late! Here comes a fly bowling up the drive—a fly with
       luggage on the roof.</p>
     </sp>
-    <sp>
+    <sp who="#L0707_M2">
      <speaker>Reuben.</speaker>
      <p><stage> (retreating a few steps)</stage>So soon!</p>
     </sp>
-    <sp>
+    <sp who="#L0707_M1">
      <speaker>Trevor.</speaker>
      <p>Why, man, what art thou skulking to the rear for in that way? Come out and welcome her.  
       Hark! the fly's stopped. Lily, my own Lily!<stage> He
       rushes out, C. to L.</stage></p>
     </sp>
-    <sp>
+    <sp who="#L0707_F5">
      <speaker>Amy.</speaker>
      <p>Come Reuben. <stage>(attempts to drag him out)</stage></p>
     </sp>
-    <sp>
+    <sp who="#L0707_M2">
      <speaker>Reuben.</speaker>
      <p>Leave me to myself a bit.</p>
     </sp>
-    <sp>
+    <sp who="#L0707_F5">
      <speaker>Amy.</speaker>
      <p>No, I shan't.<stage>Re-enter Mr. Trevor, with Lilian, C. from L.</stage></p>
     </sp>
-    <sp>
+    <sp who="#L0707_M1">
      <speaker>Trevor.</speaker>
      <p>Here she is, here she is—blessings on her! <stage>(embracing her)</stage></p>
     </sp>
-    <sp>
+    <sp who="#L0707_F4">
      <speaker>Lilian.</speaker>
      <p>Dear, dear father! Reuben! <stage>(Reuben takes her hand between both of his and kisses
       it)</stage></p>
     </sp>
-    <sp>
+    <sp who="#L0707_M1">
      <speaker>Trevor.</speaker>
      <p>Her lips, her lips, boy! Thou won't?</p>
     </sp>
-    <sp>
+    <sp who="#L0707_F4">
      <speaker>Lilian.</speaker>
      <p>Then Amy must give me a double one.</p>
     </sp>
-    <sp>
+    <sp who="#L0707_F5">
      <speaker>Amy.</speaker>
      <p>That she will, dear aunt Lily. Now I'm mistress; sit down. <stage>(she takes Lilian's shawl
       and bonnet)</stage></p>
     </sp>
-    <sp>
+    <sp who="#L0707_M2">
      <speaker>Reuben.</speaker>
      <p><stage> (placing a footstool)</stage>And thou'rt well—quite well, Lilian?</p>
     </sp>
-    <sp>
+    <sp who="#L0707_M1">
      <speaker>Trevor.</speaker>
      <p>Well! to be sure she is. Now, if we only had her brother back from America.</p>
     </sp>
-    <sp>
+    <sp who="#L0707_F4">
      <speaker>Lilian.</speaker>
      <p>What news of Fred?</p>
     </sp>
-    <sp>
+    <sp who="#L0707_M1">
      <speaker>Trevor.</speaker>
      <p>All right and hearty. Fred will be here by winter. But I did expect, lass, thou would have
       brought back a pair of rosier cheeks.</p>
     </sp>
-    <sp>
+    <sp who="#L0707_F4">
      <speaker>Lilian.</speaker>
      <p><stage> (after a short pause, and speaking with sudden animation)</stage>Rosy cheeks,
       indeed! What does my father take me for, Amy? What does he expect of a young <pb n="10"/>lady after a long
@@ -507,47 +546,47 @@
       and playfully swings them together; then turns to Reuben with a sort of impetuous
       gaiety)</stage>   And what do you think of me, Reuben?</p>
     </sp>
-    <sp>
+    <sp who="#L0707_M2">
      <speaker>Reuben.</speaker>
      <p>What do I think of you? Why, you must know pretty well by this time. No; perhaps you don't;
       <stage>(getting confused)</stage> that is, nobody knows—I mean—pshaw!</p>
     </sp>
-    <sp>
+    <sp who="#L0707_M1">
      <speaker>Trevor.</speaker>
      <p>Well, and our kind friends at Madeira, who took charge of thee—the Maxwells? Thou left 'em
       all tidy, eh? And the young surgeon, Fergus Graham, who attended thee on the passage out, when
       thou caught the fever with the rest? A brave fellow that; he seems to have cared neither for
       his sleep nor his life.</p>
     </sp>
-    <sp>
+    <sp who="#L0707_M2">
      <speaker>Reuben.</speaker>
      <p>Ay, tell us of Fergus Graham.<stage> (Lilian sinks
       into a chair)</stage></p>
     </sp>
-    <sp>
+    <sp who="#L0707_M1">
      <speaker>Trevor.</speaker>
      <p>Why, what ails thee?</p>
     </sp>
-    <sp>
+    <sp who="#L0707_M2">
      <speaker>Reuben.</speaker>
      <p><stage> (alarmed)</stage>Lilian!</p>
     </sp>
-    <sp>
+    <sp who="#L0707_F4">
      <speaker>Lilian.</speaker>
      <p><stage> (rallying, with a forced laugh)</stage>You make me quite ashamed. It was but a
       thought.</p>
     </sp>
-    <sp>
+    <sp who="#L0707_M1">
      <speaker>Trevor.</speaker>
      <p>Ay, of her past danger. What an old fool I was to put her in mind of it! Why, Amy, we're all
       forgetting that your aunty's nearly famished. Run and order
       luncheon.<stage> Exit Amy, door, L. 2 E.</stage></p>
     </sp>
-    <sp>
+    <sp who="#L0707_F4">
      <speaker>Lilian.</speaker>
      <p>No—indeed I'm not hungry; only a little tired.</p>
     </sp>
-    <sp>
+    <sp who="#L0707_M1">
      <speaker>Trevor.</speaker>
      <p>Come, then, Reuben; let's leave her to herself for half an hour: she'll have her little
       knick-knacks to settle, and such like. <stage>(with a return to his pompous nanner)</stage>
@@ -557,22 +596,22 @@
       love—by-bye, love.<stage> Kisses his hand to her, and
       exit, door, R. 2 E.</stage></p>
     </sp>
-    <sp>
+    <sp who="#L0707_M2">
      <speaker>Reuben.</speaker>
      <p>Don't tire yourself, Lilian—please don't. Don't come down to lunch if it's too much for
       you.</p>
     </sp><pb n="11"/>
-    <sp>
+    <sp who="#L0707_F4">
      <speaker>Lilian.</speaker>
      <p>Thoughtful for me as ever, dear Reuben. <stage>(she holds out her hand—Reuben again kisses
       it.</stage></p>
     </sp>
-    <sp>
+    <sp who="#L0707_M2">
      <speaker>Reuben.</speaker>
      <p><stage> (aside)</stage>I'm not good enough for her—I know I'm not. <stage>(he hastily
       follows Mr. Trevor out, door R. 2 E.)</stage></p>
     </sp>
-    <sp>
+    <sp who="#L0707_F4">
      <speaker>Lilian.</speaker>
      <p><stage> (who looks fixedly after them, then catches at a chair as if for
       support)</stage>They are gone—gone at last! O that I should ever feel it a relief, for my
@@ -584,71 +623,71 @@
       shores while there was yet time. Yes, heaven help me, and I shall conquer.<stage>Enter Susan,
       door L.</stage></p>
     </sp>
-    <sp>
+    <sp who="#L0707_F7">
      <speaker>Susan.</speaker>
      <p>A gentleman has called, ma'am. I think he be a stranger in these parts; but he's very
       pressing to see you.</p>
     </sp>
-    <sp>
+    <sp who="#L0707_F4">
      <speaker>Lilian.</speaker>
      <p>  Indeed.</p>
     </sp>
-    <sp>
+    <sp who="#L0707_F7">
      <speaker>Susan.</speaker>
      <p>It's most likely some one from the railway station; for all your luggage arn't up yet, and
       he asked particlar if you was come home.</p>
     </sp>
-    <sp>
+    <sp who="#L0707_F4">
      <speaker>Lilian.</speaker>
      <p>I dare say you're right. Let him come in.</p>
     </sp>
-    <sp>
+    <sp who="#L0707_F7">
      <speaker>Susan.</speaker>
      <p>Yes, ma'am. <stage>(Exit, door L., and immediately returns)</stage> The gentleman,
       ma'am.<stage> Exit, door L.</stage><stage>Enter Fergus
       Graham, door L.</stage></p>
     </sp>
-    <sp>
+    <sp who="#L0707_M3">
      <speaker>Fergus.</speaker>
      <p>An old friend.</p>
     </sp>
-    <sp>
+    <sp who="#L0707_F4">
      <speaker>Lilian.</speaker>
      <p>Fergus! Mr. Graham?</p>
     </sp>
-    <sp>
+    <sp who="#L0707_M3">
      <speaker>Fergus.</speaker>
      <p>My presence here is indeed sudden, perhaps abrupt, dear Miss Trevor, but, let me hope not
       quite unwelcome. <stage>(taking her hand)</stage></p>
     </sp>
-    <sp>
+    <sp who="#L0707_F4">
      <speaker>Lilian.</speaker>
      <p><stage> (commanding herself)</stage>A friend to whom I owe so much can never be unwelcome.
       <stage>(she motions him to a chair, and takes one herself)</stage> But I was, as you may
       judge, unprepared for this pleasure.</p>
     </sp>
-    <sp>
+    <sp who="#L0707_M3">
      <speaker>Fergus.</speaker>
      <p>It was only a few days since that I heard in <pb n="12"/>Paris of your sudden departure from Madeira. I
       had looked forward, as you know, to find you still there on my return. Thinking that you had
       by this time probably reached England, I could not resist the impulse to see you—to see you in
       your home.</p>
     </sp>
-    <sp>
+    <sp who="#L0707_F4">
      <speaker>Lilian.</speaker>
      <p>It was a kind and friendly impulse.</p>
     </sp>
-    <sp>
+    <sp who="#L0707_M3">
      <speaker>Fergus.</speaker>
      <p><stage>Friendly! Yes. And yet that word poorly describes it. Friendly applies to acts that
       consult the happiness of another; mine involved my own—all, all,   Lilian, that I have at
       stake in life.</stage></p>
     </sp>
-    <sp>
+    <sp who="#L0707_F4">
      <speaker>Lilian.</speaker>
      <p>Nay, life has so many stakes—at least for men.</p>
     </sp>
-    <sp>
+    <sp who="#L0707_M3">
      <speaker>Fergus.</speaker>
      <p><stage> (drawing his chair towards her)</stage>Can you misinterpret me? You know that in
       Madeira I was privileged to enter the house where you dwelt, as if I had been of the family.
@@ -657,12 +696,12 @@
       and sky; or the nights when you were my scholar, and we read together some poet of our dear
       England, or some lay of Italy?</p>
     </sp>
-    <sp>
+    <sp who="#L0707_F4">
      <speaker>Lilian.</speaker>
      <p>No, Fergus, I have not forgotten how kindly you taught me—how you enriched the life that you
       had first saved.</p>
     </sp>
-    <sp>
+    <sp who="#L0707_M3">
      <speaker>Fergus.</speaker>
      <p>Our tastes were one, our sympathies one. At times I dared to hope our hearts also. Yet I
       trembled to speak. Then business called me from Madeira to France. She shall know all, I
@@ -670,39 +709,39 @@
       already be in England, I left Paris at once. And now I am here—here to say—ah, do you not
       divine <hi>what?</hi> Lilian, I love you!</p>
     </sp>
-    <sp>
+    <sp who="#L0707_F4">
      <speaker>Lilian.</speaker>
      <p>Fergus, you have spoken! I have ever, must   ever, honour and value you; but those words
       part us.</p>
     </sp>
-    <sp>
+    <sp who="#L0707_M3">
      <speaker>Fergus.</speaker>
      <p>Part us? Has hope, then, so deceived me? May not a time come?</p>
     </sp>
-    <sp>
+    <sp who="#L0707_F4">
      <speaker>Lilian.</speaker>
      <p>Never! If, indeed, you care for me, leave— leave me at once.</p>
     </sp>
-    <sp>
+    <sp who="#L0707_M3">
      <speaker>Fergus.</speaker>
      <p>Pause, Lilian; those brief words of yours strike at a life's dream. Weigh them well. If it
       must <pb n="13"/>
       be, I accept my fate. You do not, then, cannot love me?</p>
     </sp>
-    <sp>
+    <sp who="#L0707_F4">
      <speaker>Lilian.</speaker>
      <p><stage> (rising)</stage>Go, go! I—can never—be yours.</p>
     </sp>
-    <sp>
+    <sp who="#L0707_M3">
      <speaker>Fergus.</speaker>
      <p>Because you do not love me? <stage>(a pause)</stage> Ah, you do not say that!</p>
     </sp>
-    <sp>
+    <sp who="#L0707_F4">
      <speaker>Lilian.</speaker>
      <p>Leave me, I say, at once; unless you would bring a curse upon the life that you
       preserved.</p>
     </sp>
-    <sp>
+    <sp who="#L0707_M3">
      <speaker>Fergus.</speaker>
      <p>One word first. You tremble; this vehemence is not indifference. Say either, that you cannot
       love me, or if there be any barrier that you may not yet speak of, —one that time, however
@@ -711,13 +750,13 @@
       <stage>(he throws himself at her feet, and seizes her hand—here Amy appears at the entrance of
       the conservatory, C.)</stage></p>
     </sp>
-    <sp>
+    <sp who="#L0707_F4">
      <speaker>Lilian.</speaker>
      <p><stage> (almost fiercely)</stage>Begone, sir! I am not at a confession. When a woman does
       not admit her love, I presume that she denies it. Release my hand! leave me, I command you!
       <stage>(breaking away from him. Amy retires, C.)</stage></p>
     </sp>
-    <sp>
+    <sp who="#L0707_M3">
      <speaker>Fergus.</speaker>
      <p><stage> (rising, and speaking with mournful dignity)</stage>  I obey you. <hi>You</hi> have
       spoken now. The friend, Lilian, may still think of you, though the lover dares not. Bless you!
@@ -725,7 +764,7 @@
       farewell! <stage>(he takes up a light travelling coat, and goes out slowly, door,
       L.)</stage></p>
     </sp>
-    <sp>
+    <sp who="#L0707_F4">
      <speaker>Lilian.</speaker>
      <p>He goes—goes without one kind word! Repulsed so fiercely, how heartless must he think me! He
       will return to the scenes where we were happy friends. We shall meet no more. That might be
@@ -735,109 +774,109 @@
       never—never—<stage>(she totters, and is on the point of falling)</stage></p></sp>
     <stage>Enter Reuben,
       by the window, C.—with a cry, she throws herself into his arms.</stage>
-    <sp>
+    <sp who="#L0707_M2">
      <speaker>Reuben.</speaker>
      <p>Lilian! dear Lilian! Why, what is this? <pb n="14"/>Speak to me, my own, my darling! She has fainted;
       she must have air. Help! help!<stage> (he bears her
       out, door C.)</stage></p></sp>
     <stage>Enter Mr. Trevor, door, R. 2 E., meeting Amy, who emerges from the
       conservatory, C.</stage>
-    <sp>
+    <sp who="#L0707_M1">
      <speaker>Trevor.</speaker>
      <p>What cry was that? It threw me into a state of positive conjuration.</p>
     </sp>
-    <sp>
+    <sp who="#L0707_F5">
      <speaker>Amy.</speaker>
      <p>Don't be frightened, grandpapa. I hope aunty will soon be better.</p>
     </sp>
-    <sp>
+    <sp who="#L0707_M1">
      <speaker>Trevor.</speaker>
      <p>Better?</p>
     </sp>
-    <sp>
+    <sp who="#L0707_F5">
      <speaker>Amy.</speaker>
      <p>Something happened to her. I saw it by chance, and—</p>
     </sp>
-    <sp>
+    <sp who="#L0707_M1">
      <speaker>Trevor.</speaker>
      <p>Where is she? Where is Reuben?</p>
     </sp>
-    <sp>
+    <sp who="#L0707_F5">
      <speaker>Amy.</speaker>
      <p>  With her; he took her into the garden. Oh, pray don't go, dear grandpapa; the sight of you
       might be too much for her.</p>
     </sp>
-    <sp>
+    <sp who="#L0707_M1">
      <speaker>Trevor.</speaker>
      <p>Why, how you cling to me, child—and you're shaking like a leaf. What has happened?</p>
     </sp>
-    <sp>
+    <sp who="#L0707_F5">
      <speaker>Amy.</speaker>
      <p>Oh, nothing very bad; nothing that I quite understand.</p>
     </sp>
-    <sp>
+    <sp who="#L0707_M1">
      <speaker>Trevor.</speaker>
      <p>What did you see?</p>
     </sp>
-    <sp>
+    <sp who="#L0707_F5">
      <speaker>Amy.</speaker>
      <p>Aunt Lilian will tell you; but not now, dear grandpapa; don't ask her now.</p>
     </sp>
-    <sp>
+    <sp who="#L0707_M1">
      <speaker>Trevor.</speaker>
      <p>You'll drive me out of my senses. Let me go!</p>
     </sp>
-    <sp>
+    <sp who="#L0707_F5">
      <speaker>Amy.</speaker>
      <p>Nay, look, here is Reuben!<stage>Re-enter Reuben, door C.</stage></p>
     </sp>
-    <sp>
+    <sp who="#L0707_M2">
      <speaker>Reuben.</speaker>
      <p>Lilian's better now, sir, the air did her good. I left her with Susan, who will take her to
       her room. She begged me to tell you that she was but over-tired, and should soon be
       herself.</p>
     </sp>
-    <sp>
+    <sp who="#L0707_M1">
      <speaker>Trevor.</speaker>
      <p>That's well. She's had enough to overset her. But Amy spoke of some accident. What did you
       see, Amy?</p>
     </sp>
-    <sp>
+    <sp who="#L0707_F5">
      <speaker>Amy.</speaker>
      <p>It was so strange. I'm afraid to say.</p>
     </sp>
-    <sp>
+    <sp who="#L0707_M2">
      <speaker>Reuben.</speaker>
      <p><stage> (patting her head encouragingly)</stage>Amy will tell me, if she ever loved
       Reuben.</p>
     </sp>
-    <sp>
+    <sp who="#L0707_F5">
      <speaker>Amy.</speaker>
      <p>Then, I think aunty has had a fright.</p>
     </sp>
-    <sp>
+    <sp who="#L0707_M2">
      <speaker>Reuben.</speaker>
      <p>A fright!</p>
     </sp><pb n="15"/>
-    <sp>
+    <sp who="#L0707_F5">
      <speaker>Amy.</speaker>
      <p>  I was in the conservatory, and had pulled a nosegay for her. I was just coming into the
       room, when—</p>
     </sp>
-    <sp>
+    <sp who="#L0707_M2">
      <speaker>Reuben.</speaker>
      <p>Yes; go on, love.</p>
     </sp>
-    <sp>
+    <sp who="#L0707_F5">
      <speaker>Amy.</speaker>
      <p>I saw a gentleman—a stranger. Aunt Lilian was ordering him to leave the house; so, I suppose
       he had done something wrong.</p>
     </sp>
-    <sp>
+    <sp who="#L0707_M2">
      <speaker>Reuben.</speaker>
      <p><stage> (repressing Mr. Trevor, who attempts to speak)</stage>So—well?</p>
     </sp>
-    <sp>
+    <sp who="#L0707_F5">
      <speaker>Amy.</speaker>
      <p>But he wouldn't go—not then. He threw himself on his knees, and grasped her hand—Oh, so
       tight! I suppose it was that, that hurt her. I went back again, for I didn't like her to see
@@ -846,86 +885,86 @@
       walk, and your voice, Reuben, and what you said when you came in; and that's all that I
       know.</p>
     </sp>
-    <sp>
+    <sp who="#L0707_M2">
      <speaker>Reuben.</speaker>
      <p>He dared to insult her?</p>
     </sp>
-    <sp>
+    <sp who="#L0707_F5">
      <speaker>Amy.</speaker>
      <p>I'm afraid so; else, why did she speak so loud?</p>
     </sp>
-    <sp>
+    <sp who="#L0707_M1">
      <speaker>Trevor.</speaker>
      <p>The pertinacious rascal!</p>
     </sp>
-    <sp>
+    <sp who="#L0707_M2">
      <speaker>Reuben.</speaker>
      <p>Leave him to me, sir. This man, Amy, what did he look like?</p>
     </sp>
-    <sp>
+    <sp who="#L0707_F5">
      <speaker>Amy.</speaker>
      <p>Why like a young man. He didn't <hi>look</hi> wicked, though I'm afraid he was.</p>
     </sp>
-    <sp>
+    <sp who="#L0707_M2">
      <speaker>Reuben.</speaker>
      <p>Young, you say?</p>
     </sp>
-    <sp>
+    <sp who="#L0707_F5">
      <speaker>Amy.</speaker>
      <p>  Yes.</p>
     </sp>
-    <sp>
+    <sp who="#L0707_M2">
      <speaker>Reuben.</speaker>
      <p>What height?</p>
     </sp>
-    <sp>
+    <sp who="#L0707_F5">
      <speaker>Amy.</speaker>
      <p>About yours, but slenderer.</p>
     </sp>
-    <sp>
+    <sp who="#L0707_M2">
      <speaker>Reuben.</speaker>
      <p>What did he wear?</p>
     </sp>
-    <sp>
+    <sp who="#L0707_F5">
      <speaker>Amy.</speaker>
      <p>Nothing particular. Oh, I saw his light overcoat on a chair.</p>
     </sp>
-    <sp>
+    <sp who="#L0707_M2">
      <speaker>Reuben.</speaker>
      <p>The very man I met in the avenue; he had such a coat on his arm. That's enough!
       <stage>(seizes his hat and riding whip)</stage></p>
     </sp>
-    <sp>
+    <sp who="#L0707_F5">
      <speaker>Amy.</speaker>
      <p>Stay, Reuben! You'll not hurt him?</p>
     </sp>
-    <sp>
+    <sp who="#L0707_M2">
      <speaker>Reuben.</speaker>
      <p>Let me but catch him.</p>
     </sp>
-    <sp>
+    <sp who="#L0707_F5">
      <speaker>Amy.</speaker>
      <p><stage> (intercepting him)</stage>You know how often, when I was naughty, you said “Treat
       her gently, and she'll mend.” Ah, treat him gently! Besides, Aunt Lilian's better.</p>
     </sp><pb n="16"/>
-    <sp>
+    <sp who="#L0707_M2">
      <speaker>Reuben.</speaker>
      <p><stage> (muttering to himself)</stage>He dared to insult her!</p>
     </sp>
-    <sp>
+    <sp who="#L0707_M1">
      <speaker>Trevor.</speaker>
      <p><stage> (seizing Reuben's arm)</stage>Yes; Lilian's better. Don't thrash him, Reuben: that's
       low. What if he should be one of those dashing young sparks from London, on a visit in the
       neighbourhood? If so, you might call him out, my boy. A duel would set the family on its legs.
       It's perfectly gentlemanly, quite illegitimate, and not at all dangerous.</p>
     </sp>
-    <sp>
+    <sp who="#L0707_M2">
      <speaker>Reuben.</speaker>
      <p><stage> (disregarding him)</stage>He turned to the right. He would get out through the copse
       by the oat-field into   the Uppingham road. Aye, that's the scent; now for the chase!
       <stage>(he breaks from Mr. Trevor, and darts out, full speed, door L.)</stage></p>
     </sp>
-    <sp>
+    <sp who="#L0707_M1">
      <speaker>Trevor.</speaker>
      <p><stage> (disconsolately)</stage>Come, Amy! Let's hear Susan's news of your aunt. <stage>(to
       himself)</stage> As for that boy, he has no grand sentiments; he suffers from a complete
@@ -938,35 +977,35 @@
       road.</head>
      <stage>Enter Fergus Graham and Landlady, door L. 1 E.</stage>
     
-    <sp>
+    <sp who="#L0707_M3">
      <speaker>Fergus.</speaker>
      <p>That will do, landlady; that will do. Have the goodness to order the fly at once.</p>
     </sp>
-    <sp>
+    <sp who="#L0707_F6">
      <speaker>Landlady.</speaker>
      <p><stage> (aside)</stage>Why, he don't ask for his change; and there's two shillings back out
       of his half-sovereign for the fly. I wonder whether it's good? <stage>(testing the
       half-sovereign)</stage> Yes, it is. Your change, sir.</p>
     </sp>
-    <sp>
+    <sp who="#L0707_M3">
      <speaker>Fergus.</speaker>
      <p>Give it to your servant, my good woman; but do order the fly.</p>
     </sp>
-    <sp>
+    <sp who="#L0707_F6">
      <speaker>Landlady.</speaker>
      <p>Why, you'll be at the station an hour before the train, sir.</p>
     </sp>
-    <sp>
+    <sp who="#L0707_M3">
      <speaker>Fergus.</speaker>
      <p>No matter; I wish to start at once.</p>
     </sp>
-    <sp>
+    <sp who="#L0707_F6">
      <speaker>Landlady.</speaker>
      <p><stage> (nettled)</stage>Oh, of course, sir, if you prefer the <pb n="17"/>station waiting-room to the
       parlour of the Swan. Every gentleman has a right to his
       taste.<stage> Exit, R. 1 E.</stage></p>
     </sp>
-    <sp>
+    <sp who="#L0707_M3">
      <speaker>Fergus.</speaker>
      <p><stage> (walking up and down)</stage>Motion! Action! I cannot bear to think. If it had only
       been that I mistook her feelings, and that she refused me, why, that would have been a shock;
@@ -984,231 +1023,231 @@
       silence—after a pause, with haughty calmness)</stage> You mistake a house of public
       entertainment for your private dwelling. Why have you locked that door?</p>
     </sp>
-    <sp>
+    <sp who="#L0707_M2">
      <speaker>Reuben.</speaker>
      <p><stage> (speaking in a deep whisper)</stage>That you may not go out without my leave.</p>
     </sp>
-    <sp>
+    <sp who="#L0707_M3">
      <speaker>Fergus.</speaker>
      <p><stage> (aside)</stage>The man must be insane. I'll deal with him firmly, but quietly. My
       friend, I must trouble you for that key.</p>
     </sp>
-    <sp>
+    <sp who="#L0707_M2">
      <speaker>Reuben.</speaker>
      <p>Not yet. You're the young man who left Mr. Trevor's house a while back?</p>
     </sp>
-    <sp>
+    <sp who="#L0707_M3">
      <speaker>Fergus.</speaker>
      <p>The same, sir.</p>
     </sp>
-    <sp>
+    <sp who="#L0707_M2">
      <speaker>Reuben.</speaker>
      <p>You own it—the coward, who broke into a lady's presence, insulted her, shocked her by his
       violence.</p>
     </sp>
-    <sp>
+    <sp who="#L0707_M3">
      <speaker>Fergus.</speaker>
      <p>Have a care. At first I thought you a madman, and you have been safe; but there is coherence
       even in your falsehood. Do you dare—</p>
     </sp>
-    <sp>
+    <sp who="#L0707_M2">
      <speaker>Reuben.</speaker>
      <p><stage> (breaking in)</stage>Do <hi>you</hi> dare—you who stole in upon a woman alone, who
       laid hands on her till her cries <pb n="18"/>of anger and fear were heard! Is it for <hi>you</hi> to say—
         dare?</p>
     </sp>
-    <sp>
+    <sp who="#L0707_M3">
      <speaker>Fergus.</speaker>
      <p>What do you mean?</p>
     </sp>
-    <sp>
+    <sp who="#L0707_M2">
      <speaker>Reuben.</speaker>
      <p><stage> (brandishing his whip)</stage>Mean! To give you a lesson.</p>
     </sp>
-    <sp>
+    <sp who="#L0707_M3">
      <speaker>Fergus.</speaker>
      <p>Stand back! stand back! or you shall rue to your last hour that you ever raised your hand to
       Fergus Graham.</p>
     </sp>
-    <sp>
+    <sp who="#L0707_M2">
      <speaker>Reuben.</speaker>
      <p><stage> (who drops the horsewhip, and stands arrested)</stage>Who? who? Fergus—Fergus
       Graham?</p>
     </sp>
-    <sp>
+    <sp who="#L0707_M3">
      <speaker>Fergus.</speaker>
      <p>Leave the room.</p>
     </sp>
-    <sp>
+    <sp who="#L0707_M2">
      <speaker>Reuben.</speaker>
      <p><stage> (going to the door, unlocking it, and returning)</stage>Stay! you're not—not the
       young doctor who saved Lilian's life at sea?</p>
     </sp>
-    <sp>
+    <sp who="#L0707_M3">
      <speaker>Fergus.</speaker>
      <p>My name is Fergus Graham; you should have asked it before.</p>
     </sp>
-    <sp>
+    <sp who="#L0707_M2">
      <speaker>Reuben.</speaker>
      <p>Sir, I humbly, humbly entreat your pardon. <hi>You</hi> could not have insulted her. Yet she
       fainted in my arms as you went. How came that?</p>
     </sp>
-    <sp>
+    <sp who="#L0707_M3">
      <speaker>Fergus.</speaker>
      <p>By what right do you ask?</p>
     </sp>
-    <sp>
+    <sp who="#L0707_M2">
      <speaker>Reuben.</speaker>
      <p>By the right of one, who has been bred up under the same roof with her; her playmate in
       childhood, her protector now—one who has the right of a brother.</p>
     </sp>
-    <sp>
+    <sp who="#L0707_M3">
      <speaker>Fergus.</speaker>
      <p>Her brother! She has often spoken of you; but I thought you were abroad.</p>
     </sp>
-    <sp>
+    <sp who="#L0707_M2">
      <speaker>Reuben.</speaker>
      <p>No, no; you mistake. I'm not Fred.</p>
     </sp>
-    <sp>
+    <sp who="#L0707_M3">
      <speaker>Fergus.</speaker>
      <p><stage> (courteously)</stage>Pardon me; I was not aware   that Miss Trevor had a second
       brother.</p>
     </sp>
-    <sp>
+    <sp who="#L0707_M2">
      <speaker>Reuben.</speaker>
      <p><stage> (aside, half-amused)</stage>Why, I can't blab my heart's secrets to a stranger, and
       say—I'm her <hi>lover</hi>. Let him call me what he likes.</p>
     </sp>
-    <sp>
+    <sp who="#L0707_M3">
      <speaker>Fergus.</speaker>
      <p>Be seated, sir. And so she complained to you of my intrusion?</p>
     </sp>
-    <sp>
+    <sp who="#L0707_M2">
      <speaker>Reuben.</speaker>
      <p><stage>She—Oh, never! But she was heard bidding you from the house. You were seen to force
       her hand.</stage></p>
     </sp>
-    <sp>
+    <sp who="#L0707_M3">
      <speaker>Fergus.</speaker>
      <p>To <hi>take</hi> it. I will be frank with you. I sought your sister's hand for my own.
       Heaven knows with what reverence.</p>
     </sp>
-    <sp>
+    <sp who="#L0707_M2">
      <speaker>Reuben.</speaker>
      <p><stage> (aside)</stage>He loved her, then—he loved her! Poor fellow, how could he help
       it?—Mr. Graham, I feel <pb n="19"/>for you. Take my hand—that is, if you can really forgive me.</p>
     </sp>
-    <sp>
+    <sp who="#L0707_M3">
      <speaker>Fergus.</speaker>
      <p><stage> (shaking his hand warmly)</stage>Freely.</p>
     </sp>
-    <sp>
+    <sp who="#L0707_M2">
      <speaker>Reuben.</speaker>
      <p>Yet I can't make it out. There could be no offence in an offer like yours. Yet why did she
       bid you begone? why sink fainting into my arms?</p>
     </sp>
-    <sp>
+    <sp who="#L0707_M3">
      <speaker>Fergus.</speaker>
      <p>Did it cost her so much, then? <stage>(moves his chair nearer to Reuben's, and continues in
       a low, earnest voice)</stage> Do not think me presumptuous; but I have dared to think—</p>
     </sp>
-    <sp>
+    <sp who="#L0707_M2">
      <speaker>Reuben.</speaker>
      <p><stage> (authoritatively)</stage>Stop! I'll hear no more. I've no right to—</p>
     </sp>
-    <sp>
+    <sp who="#L0707_M3">
      <speaker>Fergus.</speaker>
      <p><stage> (persisting)</stage>To think, that after all, Lilian   may still love me.</p>
     </sp>
-    <sp>
+    <sp who="#L0707_M2">
      <speaker>Reuben.</speaker>
      <p><stage> (compassionately)</stage>No, my dear fellow, you mustn't think that; you mustn't,
       indeed.</p>
     </sp>
-    <sp>
+    <sp who="#L0707_M3">
      <speaker>Fergus.</speaker>
      <p>I will never breathe that hope without warrant; but still—</p>
     </sp>
-    <sp>
+    <sp who="#L0707_M2">
      <speaker>Reuben.</speaker>
      <p>No more, I beg. Sure, Lilian refused you?</p>
     </sp>
-    <sp>
+    <sp who="#L0707_M3">
      <speaker>Fergus.</speaker>
      <p>Ay, but her agitation; her trembling form; her look of wretchedness, that I at first took
       for anger—</p>
     </sp>
-    <sp>
+    <sp who="#L0707_M2">
      <speaker>Reuben.</speaker>
      <p>Again, I say, I've no right to your secrets.</p>
     </sp>
-    <sp>
+    <sp who="#L0707_M3">
      <speaker>Fergus.</speaker>
      <p>Nay, you shall hear me. What if there should be some mystery?</p>
     </sp>
-    <sp>
+    <sp who="#L0707_M2">
      <speaker>Reuben.</speaker>
      <p><stage> (laying his hand soothingly on Graham's shoulder)</stage>You mustn't give way to
       this. What mystery can there be?</p>
     </sp>
-    <sp>
+    <sp who="#L0707_M3">
      <speaker>Fergus.</speaker>
      <p>Fathers, before now, have forced children to marry against their will.</p>
     </sp>
-    <sp>
+    <sp who="#L0707_M2">
      <speaker>Reuben.</speaker>
      <p>Ah, that's not her case.</p>
     </sp>
-    <sp>
+    <sp who="#L0707_M3">
      <speaker>Fergus.</speaker>
      <p>Or, there have been—forgive the hope that would clutch at a straw—there have been such
       things as childish engagements,—engagements made before the young heart knew what love meant;
       yet which a cruel, a false honour bound it to keep. Ah, that's a bitter wrong to both!</p>
     </sp>
-    <sp>
+    <sp who="#L0707_M2">
      <speaker>Reuben.</speaker>
      <p><stage> (sharply)</stage>What's that to do with Lilian?</p>
     </sp>
-    <sp>
+    <sp who="#L0707_M3">
      <speaker>Fergus.</speaker>
      <p>I can't say; very likely nothing. But she had lived long in retirement. It was only in
       Madeira—   she told me so—that she first seemed to live. It is not only for myself I care. Put
       me out of the question—but, <pb n="20"/>oh, if any chance should bind her to one who could not understand
       her refined, gentle nature,—to one with whom she would suffer, die, uncomplainingly!</p>
     </sp>
-    <sp>
+    <sp who="#L0707_M2">
      <speaker>Reuben.</speaker>
      <p>Silence, man! What d'ye take us for, us rough country folk? We mayn't know much of books; we
       may be out of place in drawing-rooms,—we wi' the sun's tan on our faces, and the ploughed land
       on our heels; but when joy comes,—when grief comes,—we've hearts that bound, or burst. We've
       that which makes man, man,—love to God and each other!</p>
     </sp>
-    <sp>
+    <sp who="#L0707_M3">
      <speaker>Fergus.</speaker>
      <p>Right, right. I was selfish and unjust. <hi>You</hi> must forgive now.</p>
     </sp>
-    <sp>
+    <sp who="#L0707_M2">
      <speaker>Reuben.</speaker>
      <p>Enough, enough! I don't care for soft phrases. <stage>(walks away, seizes his gloves, and
       confusedly attempts to draw the left one on his right hand; then speaks aside)</stage> What if
       I <hi>should</hi> seem a mere rude loon to her, now she's seen the world and fine people! Oh,
       no, no!</p>
     </sp>
-    <sp>
+    <sp who="#L0707_M3">
      <speaker>Fergus.</speaker>
      <p>I have one more request—</p>
     </sp>
-    <sp>
+    <sp who="#L0707_M2">
      <speaker>Reuben.</speaker>
      <p>Whist, whist; my head's too full for talk. <stage>(aside)</stage> I uttered his name this
       morning; she turned ashy pale. I thought she would have dropped. Why was that?</p>
     </sp>
-    <sp>
+    <sp who="#L0707_M3">
      <speaker>Fergus.</speaker>
      <p><stage> (looking at his watch)</stage>I've but a short time now.</p>
     </sp>
-    <sp>
+    <sp who="#L0707_M2">
      <speaker>Reuben.</speaker>
      <p><stage> (still aside)</stage>Dolt that I am! She was overdone   by seeing us. What more
       natural? <stage>(turning cheerfully to Fergus)</stage> I tell you what, Mr. Graham, you must
@@ -1217,11 +1256,11 @@
       you well, give you a morning gallop over hill and moor, find you a seat at night by the winter
       fire. We shall be as merry as the day's long. Come, come; you'll forget all else!</p>
     </sp>
-    <sp>
+    <sp who="#L0707_M3">
      <speaker>Fergus.</speaker>
      <p>If <hi>she</hi> forgets. Yet—</p>
     </sp>
-    <sp>
+    <sp who="#L0707_M2">
      <speaker>Reuben.</speaker>
      <p><stage> (again walking away, and aside)</stage><hi>If! </hi>He doubts it still. And I,—do I
       doubt too? How, if it should be true? What did she tell him?—That till she got to Madeira she
@@ -1230,57 +1269,57 @@
       or two, then resumes)</stage> Suppose she had gone in love with him, and felt bound by duty to
       me—ah, that would explain it!</p>
     </sp>
-    <sp>
+    <sp who="#L0707_M3">
      <speaker>Fergus.</speaker>
      <p><stage> (approaching him)</stage>One parting word.</p>
     </sp>
-    <sp>
+    <sp who="#L0707_M2">
      <speaker>Reuben.</speaker>
      <p><stage> (fiercely)</stage>You've said too much! You've put a thought into my heart that
       burns and rankles; and when I would tug it out, it goes deeper and deeper!</p>
     </sp>
-    <sp>
+    <sp who="#L0707_M3">
      <speaker>Fergus.</speaker>
      <p>I?</p>
     </sp>
-    <sp>
+    <sp who="#L0707_M2">
      <speaker>Reuben.</speaker>
      <p>You!</p>
     </sp>
-    <sp>
+    <sp who="#L0707_M3">
      <speaker>Fergus.</speaker>
      <p>  I'm sorry to part with you so. <stage>(Reuben waves him off—Fergus silently takes up his
       travelling coat)</stage></p>
     </sp>
-    <sp>
+    <sp who="#L0707_M2">
      <speaker>Reuben.</speaker>
      <p><stage> (suddenly seizing his arm)</stage>Stay! You said there was some mystery here. You
       shall not go till it's cleared up. I <hi>will</hi> know why Lilian bade you from the
       house.</p>
     </sp>
-    <sp>
+    <sp who="#L0707_M3">
      <speaker>Fergus.</speaker>
      <p><stage> (with quiet dignity)</stage>Remove your hand! I shall not shrink from inquiry. I
       will change my plans, and wait your return here.</p>
     </sp>
-    <sp>
+    <sp who="#L0707_M2">
      <speaker>Reuben.</speaker>
      <p>You will go back with me?</p>
     </sp>
-    <sp>
+    <sp who="#L0707_M3">
      <speaker>Fergus.</speaker>
      <p>If you wish it.</p>
     </sp>
-    <sp>
+    <sp who="#L0707_M2">
      <speaker>Reuben.</speaker>
      <p>I will speak to her first alone. If I find— your fly's at the door. You had better go and
       countermand it.</p>
     </sp>
-    <sp>
+    <sp who="#L0707_M3">
      <speaker>Fergus.</speaker>
      <p>I will do so.<stage> Exit, door L. 1 E.</stage></p>
     </sp>
-    <sp>
+    <sp who="#L0707_M2">
      <speaker>Reuben.</speaker>
      <p>He's deceived himself. Yes, yes; all will be well! But—but—<stage>(he stops short, greatly
       agitated)</stage> I won't be mastered! I will look it in the face! But if not—if not—why, then
@@ -1289,16 +1328,16 @@
       E.</stage><stage>—Drawing Room in Mr. Trevor's House. Same as First Scene.</stage><stage>Enter
       Mr. Trevor and Lilian, door R. 2 E.</stage></p>
     </sp>
-    <sp>
+    <sp who="#L0707_M1">
      <speaker>Trevor.</speaker>
      <p>But thou shouldn't have come down, Lily; thou really shouldn't.</p>
     </sp>
-    <sp>
+    <sp who="#L0707_F4">
      <speaker>Lilian.</speaker>
      <p>Indeed, dear father, I am better. <stage>(aside)</stage> Oh, for strength for one brave
       effort! <stage>(he places a chair for her)</stage></p>
     </sp>
-    <sp>
+    <sp who="#L0707_M1">
      <speaker>Trevor.</speaker>
      <p>Well, thou must get up thy good looks, dear; for thou'lt be queen of the neighbourhood, now
       thou'rt back again. <stage>(sitting by her)</stage> Thou knows thy promise that <pb n="22"/>thou'lt never
@@ -1309,152 +1348,152 @@
       trump, Trevor!” said he; and he positively slapped me on the back! <stage>(with great
       complacency)</stage></p>
     </sp>
-    <sp>
+    <sp who="#L0707_F4">
      <speaker>Lilian.</speaker>
      <p><stage> (forcing a show of interest)</stage>And did he ask you to Roxbury, dear father?</p>
     </sp>
-    <sp>
+    <sp who="#L0707_M1">
      <speaker>Trevor.</speaker>
      <p>Why, not in so many words. But the truth is, all was confusion. He had a great conflux of
       the aristocracy at his house that winter, and—hem—in fact—I believe there was no beds. But
       he's coming from London soon, and then—</p>
     </sp>
-    <sp>
+    <sp who="#L0707_F4">
      <speaker>Lilian.</speaker>
      <p>Indeed, dear father, I desire no grand acquaintances.   Your Lily's content with you and
       with dear, dear Reuben.</p>
     </sp>
-    <sp>
+    <sp who="#L0707_M1">
      <speaker>Trevor.</speaker>
      <p>Ay, ay! Reuben's a good lad, though he wants polishing up. Anyhow, he deserves well of Lily.
       You should have seen how he rushed off to punish the fellow whose impertinence alarmed
       you—</p>
     </sp>
-    <sp>
+    <sp who="#L0707_F4">
      <speaker>Lilian.</speaker>
      <p><stage> (starting up)</stage>Punish! Whom?</p>
     </sp>
-    <sp>
+    <sp who="#L0707_M1">
      <speaker>Trevor.</speaker>
      <p>Why, the person who obtruded on you this morning.</p>
     </sp>
-    <sp>
+    <sp who="#L0707_F4">
      <speaker>Lilian.</speaker>
      <p><stage> (excitedly)</stage>You are jesting!—oh, say that you are jesting! Send after them!
       part them—part them, as you value my peace—my life!</p>
     </sp>
-    <sp>
+    <sp who="#L0707_M1">
      <speaker>Trevor.</speaker>
      <p><stage> (soothingly)</stage>Nay, here comes Reuben to speak for himself.<stage>Reuben, his
       eyes fixed on the ground, is seen approaching the open window, C.</stage></p>
     </sp>
-    <sp>
+    <sp who="#L0707_F4">
      <speaker>Lilian.</speaker>
      <p><stage> (darting towards the window)</stage>Speak before you enter! Is he safe? You have
       not—</p>
     </sp>
-    <sp>
+    <sp who="#L0707_M2">
      <speaker>Reuben.</speaker>
      <p><stage> (coming in)</stage>Not hurt a hair of his head. <stage>(Lilian throws her arms round
       her father)</stage></p></sp>
       <stage>Enter Amy, R.</stage>
     
-    <sp>
+    <sp who="#L0707_M1">
      <speaker>Trevor.</speaker>
      <p><stage> (to her)</stage>There, I told thee all would be well. Sit down, love; sit down.
       <stage>(he leads her apart to a couch)</stage></p>
     </sp><pb n="23"/>
-    <sp>
+    <sp who="#L0707_M2">
      <speaker>Reuben.</speaker>
      <p><stage> (aside)</stage>Is <hi>he</hi> safe? She asked but for him. Well, she would see that
       <hi>I</hi> was safe. There was no need to ask about me.</p>
     </sp>
-    <sp>
+    <sp who="#L0707_F5">
      <speaker>Amy.</speaker>
      <p>Do speak to me, Reuben. If you could guess how glad I am to have you again—to know that
       you've not done wrong!</p>
     </sp>
-    <sp>
+    <sp who="#L0707_M2">
      <speaker>Reuben.</speaker>
      <p><stage> (takes a chair, places her on his knee, and gazes earnestly into her face)</stage> 
       Amy, I've a question for you. <stage>(she regards him with wondering attention)</stage>
       Suppose, Amy, some one was to steal your love from me?</p>
     </sp>
-    <sp>
+    <sp who="#L0707_F5">
      <speaker>Amy.</speaker>
      <p>Reuben!</p>
     </sp>
-    <sp>
+    <sp who="#L0707_M2">
      <speaker>Reuben.</speaker>
      <p>I say, <hi>suppose</hi> so?</p>
     </sp>
-    <sp>
+    <sp who="#L0707_F5">
      <speaker>Amy.</speaker>
      <p><stage> (trembling)</stage>Oh, what have I done? You know that could never be—never!</p>
     </sp>
-    <sp>
+    <sp who="#L0707_M2">
      <speaker>Reuben.</speaker>
      <p>Well, let's put it another way—Suppose any one was to steal my love from you?</p>
     </sp>
-    <sp>
+    <sp who="#L0707_F5">
      <speaker>Amy.</speaker>
      <p>Oh, don't! don't!</p>
     </sp>
-    <sp>
+    <sp who="#L0707_M2">
      <speaker>Reuben.</speaker>
      <p>Nay, it's not likely; but suppose I was to choose another pet—to find some other little face
       that would make me happier to look on than my Amy's?</p>
     </sp>
-    <sp>
+    <sp who="#L0707_F5">
      <speaker>Amy.</speaker>
      <p>That would make you happier?</p>
     </sp>
-    <sp>
+    <sp who="#L0707_M2">
      <speaker>Reuben.</speaker>
      <p>Suppose so.</p>
     </sp>
-    <sp>
+    <sp who="#L0707_F5">
      <speaker>Amy.</speaker>
      <p>If it <hi>did</hi> make you happier—</p>
     </sp>
-    <sp>
+    <sp who="#L0707_M2">
      <speaker>Reuben.</speaker>
      <p>Well, go on, darling.</p>
     </sp>
-    <sp>
+    <sp who="#L0707_F5">
      <speaker>Amy.</speaker>
      <p>Oh, that <hi>would</hi> hurt me!—but—but—</p>
     </sp>
-    <sp>
+    <sp who="#L0707_M2">
      <speaker>Reuben.</speaker>
      <p>Yes, yes!</p>
     </sp>
-    <sp>
+    <sp who="#L0707_F5">
      <speaker>Amy.</speaker>
      <p><stage> (stifling her sobs)</stage>I should pray to God; I should try to think how good you
       had been to me, how you ought to be happy. And if—if another pet made you so, I should give
       you up, and try—to love her for your sake. <stage>(she weeps silently, and covers her face
       with her hands.)</stage></p>
     </sp>
-    <sp>
+    <sp who="#L0707_M2">
      <speaker>Reuben.</speaker>
      <p><stage> (kissing her fervently)</stage>Bless you, darling! No fear! no fear! Now go, play; I
       must have some   talk with aunt Lily. <stage>(leads her to the door—Amy goes out, door
       L.—Reuben then approaches Lilian)</stage> Are you well enough, Lilian, to have a short talk
       with me alone?</p>
     </sp>
-    <sp>
+    <sp who="#L0707_M1">
      <speaker>Trevor.</speaker>
      <p><stage> (sharply)</stage>No, she's not. <stage>(comes up to Reuben, and speaks to him
       apart)</stage> Forgive me, Reuben; but she's really ill. For all she's so kind and does her
       best, it's plain she takes no interest in anything.</p>
     </sp><pb n="24"/>
-    <sp>
+    <sp who="#L0707_F4">
      <speaker>Lilian.</speaker>
      <p><stage> (rising, and coming to them)</stage>Father, I <hi>am</hi> well enough to talk with
       Reuben. I wish it; I must.</p>
     </sp>
-    <sp>
+    <sp who="#L0707_M1">
      <speaker>Trevor.</speaker>
      <p>Well, thou knows best, Lily; but I maun't have thee overset or flurried.
       <stage>(aside)</stage> She droops just as she did before she went abroad. And such grand
@@ -1463,122 +1502,122 @@
       all that reminds me of her mother!<stage> Exit, door
       L.</stage></p>
     </sp>
-    <sp>
+    <sp who="#L0707_F4">
      <speaker>Lilian.</speaker>
      <p>Now, Reuben, you must tell me all. There has been no quarrel?</p>
     </sp>
-    <sp>
+    <sp who="#L0707_M2">
      <speaker>Reuben.</speaker>
      <p>No, Lilian; rest content about that. But you mustn't stand <stage>(he places a chair and
       footstool for her)</stage>; there's a breeze getting up. <stage>(envelopes her in her shawl;
       then seats himself by her side)</stage> Lily. I've something to say to you.</p>
     </sp>
-    <sp>
+    <sp who="#L0707_F4">
      <speaker>Lilian.</speaker>
      <p>Yes, Reuben.</p>
     </sp>
-    <sp>
+    <sp who="#L0707_M2">
      <speaker>Reuben.</speaker>
      <p>  There have been a good many changes in this year or more, since you left us. You're
       changed a bit yourself. The girl's look is gone from you, Lily.</p>
     </sp>
-    <sp>
+    <sp who="#L0707_F4">
      <speaker>Lilian.</speaker>
      <p>Yes; I'm a woman.</p>
     </sp>
-    <sp>
+    <sp who="#L0707_M2">
      <speaker>Reuben.</speaker>
      <p>We're always changing, I suppose. The games we played at when children don't amuse us now.
       Our tastes change; our likings change—</p>
     </sp>
-    <sp>
+    <sp who="#L0707_F4">
      <speaker>Lilian.</speaker>
      <p>As we grow older.</p>
     </sp>
-    <sp>
+    <sp who="#L0707_M2">
      <speaker>Reuben.</speaker>
      <p>It's what we must look for. You wouldn't wonder, then, if I was changed too?</p>
     </sp>
-    <sp>
+    <sp who="#L0707_F4">
      <speaker>Lilian.</speaker>
      <p><stage> (after a pause)</stage>You would never change from being good. <stage>(gives him her
       hand)</stage></p>
     </sp>
-    <sp>
+    <sp who="#L0707_M2">
      <speaker>Reuben.</speaker>
      <p>Do you know I've often thought of that book you were so fond of! <stage>(draws forth the
       book produced in first scene, and shows it to her)</stage> I often think of those young folks
       in the story who were engaged to each other, like you and me. Don't tremble so, or I can't go
       on.</p>
     </sp>
-    <sp>
+    <sp who="#L0707_F4">
      <speaker>Lilian.</speaker>
      <p><stage> (in a whisper)</stage>What about them?</p>
     </sp>
-    <sp>
+    <sp who="#L0707_M2">
      <speaker>Reuben.</speaker>
      <p>Well, you see, they didn't know their own minds until they got separated. Then they both
       found that what they thought love, was—a mistake.</p>
     </sp>
-    <sp>
+    <sp who="#L0707_F4">
      <speaker>Lilian.</speaker>
      <p>Oh, Reuben! what do you mean? <stage>(he remains silent)</stage> Have pity on me—you don't
       know what hangs on it. You don't—you can't mean that you're changed to me?</p>
     </sp><pb n="25"/>
-    <sp>
+    <sp who="#L0707_M2">
      <speaker>Reuben.</speaker>
      <p><stage> (springing from the chair, throwing up his hands, and speaking aside)</stage>She's
       afraid of it! she's afraid   of it! She loves me still! <stage>(returning to her)</stage> And
       would Lilian find it hard if Reuben was changed to her?</p>
     </sp>
-    <sp>
+    <sp who="#L0707_F4">
      <speaker>Lilian.</speaker>
      <p><stage> (after a short pause, and turning away her face)</stage>Very hard, if he thought ill
       of her.</p>
     </sp>
-    <sp>
+    <sp who="#L0707_M2">
      <speaker>Reuben.</speaker>
      <p>That's no answer. Would it cost you much to think I was changed?</p>
     </sp>
-    <sp>
+    <sp who="#L0707_F4">
      <speaker>Lilian.</speaker>
      <p>I cannot bear this!</p>
     </sp>
-    <sp>
+    <sp who="#L0707_M2">
      <speaker>Reuben.</speaker>
      <p><stage> (smiling)</stage>You can't bear to think so, eh? Is that it? Silent? Nay, a word
       will do—a smile. <stage>(in an altered tone, and laying his hand on her shoulder)</stage>
       Lily, I've been honest with you all my life. You'll speak to me truly? What can't you
       bear?</p>
     </sp>
-    <sp>
+    <sp who="#L0707_F4">
      <speaker>Lilian.</speaker>
      <p>To give you pain. I would rather die.</p>
     </sp>
-    <sp>
+    <sp who="#L0707_M2">
      <speaker>Reuben.</speaker>
      <p>Do you know anything, then, that would give me pain if I knew it too?</p>
     </sp>
-    <sp>
+    <sp who="#L0707_F4">
      <speaker>Lilian.</speaker>
      <p>Reuben! Reuben! this is torture!</p>
     </sp>
-    <sp>
+    <sp who="#L0707_M2">
      <speaker>Reuben.</speaker>
      <p>Be calm. It's only a word, and it <hi>must</hi> come. When we two kneel together in the
       church—when you take the vow that can't be unsaid—the vow of heart's love till death and
       after—</p>
     </sp>
-    <sp>
+    <sp who="#L0707_F4">
      <speaker>Lilian.</speaker>
      <p><stage> (starting up)</stage>Spare me, spare me! I'm very wretched! <stage>(she is about to
       sink at his knees; but he prevents her)</stage></p>
     </sp>
-    <sp>
+    <sp who="#L0707_M2">
      <speaker>Reuben.</speaker>
      <p>My poor child!</p>
     </sp>
-    <sp>
+    <sp who="#L0707_F4">
      <speaker>Lilian.</speaker>
      <p>Reuben, I must speak now. I was so young —I had seen no one but you. I had not dreamed that
       there was another feeling—a master feeling, different   from a sister's love—one that is not
@@ -1587,11 +1626,11 @@
       steeping all life in brightness, before I knew its power, before I felt that when
       <hi>that</hi> light was blotted out the whole world would be darkness.</p>
     </sp>
-    <sp>
+    <sp who="#L0707_M2">
      <speaker>Reuben.</speaker>
      <p>Well, and then?</p>
     </sp>
-    <sp>
+    <sp who="#L0707_F4">
      <speaker>Lilian.</speaker>
      <p>Then came misery. I had not been willingly guilty; but the thought of your great goodness
       haunted me like remorse. I strove to break the spell, and fled. But I could not fly from
@@ -1600,36 +1639,36 @@
       from a sin yet darker! I cannot, dare not, take a false vow to heaven, and betray the trust of
       your noble heart. <stage>(she sinks at his feet)</stage></p>
     </sp>
-    <sp>
+    <sp who="#L0707_M2">
      <speaker>Reuben.</speaker>
      <p><stage> (raising her)</stage>Poor child! poor child!</p>
     </sp>
-    <sp>
+    <sp who="#L0707_F4">
      <speaker>Lilian.</speaker>
      <p>What! Can you forgive me?</p>
     </sp>
-    <sp>
+    <sp who="#L0707_M2">
      <speaker>Reuben.</speaker>
      <p>Forgive thee! forgive thee! <stage>(pressing his lips tenderly on her forehead)</stage> I
       partly guessed it. You see, by my calmness, I was prepared for it. <stage>(a pause)</stage>
       And <hi>you!</hi> can you bear a surprise?</p>
     </sp>
-    <sp>
+    <sp who="#L0707_F4">
      <speaker>Lilian.</speaker>
      <p>What can I <hi>not</hi> bear, after this?</p>
     </sp>
-    <sp>
+    <sp who="#L0707_M2">
      <speaker>Reuben.</speaker>
      <p>Then leave me a little while; take a turn in   the garden; take the left path, to the
       shrubbery. Don't ask why; I may, perhaps, join you soon. <stage>(folds shawl round her
       head)</stage> The path to the shrubbery, remember!</p>
     </sp>
-    <sp>
+    <sp who="#L0707_F4">
      <speaker>Lilian.</speaker>
      <p><stage> (kissing his hand reverently)</stage>Bless you! <stage>(he leads her to window, C.,
       and watches her in silence till she disappears in the walk towards R.)</stage></p>
     </sp>
-    <sp>
+    <sp who="#L0707_M2">
      <speaker>Reuben.</speaker>
      <p><stage> (advancing slowly to front)</stage>I know the worst! <stage>(sinks into a
       chair)</stage> This is no longer a home for me. Soon, as she passed just now from me down the
@@ -1643,32 +1682,32 @@
       that I shall not see Lilian. <stage>(he burst into tears; then leans back quietly in the
       chair)</stage></p></sp>
      <stage>Enter Amy bounding in, C.</stage>
-    <sp>
+    <sp who="#L0707_F5">
      <speaker>Amy.</speaker>
      <p>Oh, you're here, Reuben! You promised me a walk, sir. Not a word! Oh, some bad magician has
       put <pb n="27"/>him to sleep, and I shall be a good fairy to rouse him! Wake, sleeper, wake! <stage>(she
       playfully raises his arm, which falls listlessly to his side)</stage> Reuben, what's the  
       matter? It's Amy; your pet, Amy.</p>
     </sp>
-    <sp>
+    <sp who="#L0707_M2">
      <speaker>Reuben.</speaker>
      <p><stage> (holds her at arm's length, gazes on her wistfully, then strains her to
       him)</stage>Yes, Amy's still mine.</p>
     </sp>
-    <sp>
+    <sp who="#L0707_F5">
      <speaker>Amy.</speaker>
      <p>She'll never leave you; and Aunt Lilian—</p>
     </sp>
-    <sp>
+    <sp who="#L0707_M2">
      <speaker>Reuben.</speaker>
      <p>Aunt Lilian! <stage>(after a short struggle)</stage> I've learned Amy's lesson. Aunt Lilian
       goes away from us —goes, where she'll be happy.</p>
     </sp>
-    <sp>
+    <sp who="#L0707_F5">
      <speaker>Amy.</speaker>
      <p>What! And leaves you—</p>
     </sp>
-    <sp>
+    <sp who="#L0707_M2">
      <speaker>Reuben.</speaker>
      <p>Not wretched. Amy, I might have been a villain, and broken her heart. I've done right; I've
       saved her. <stage>(rises)</stage> No, not wretched!</p></sp>
@@ -1676,58 +1715,58 @@
       <stage>Enter Lilian and Fergus, C. from
       R.—Mr. Trevor, R.</stage>
 
-    <sp>
+    <sp who="#L0707_F4">
      <speaker>Lilian.</speaker>
      <p>Reuben, what does this mean?</p>
     </sp>
-    <sp>
+    <sp who="#L0707_M2">
      <speaker>Reuben.</speaker>
      <p><stage> (takes the hand of Fergus, places it in Lilian's, and addresses Mr.
       Trevor)</stage>This is Fergus Graham, Lilian's preserver. He loves her. Your blessing for
       them. That alone will cure her.</p>
     </sp>
-    <sp>
+    <sp who="#L0707_M1">
      <speaker>Trevor.</speaker>
      <p>Fergus Graham! He loves her! I see. Reuben, you're a noble fellow. <stage>(Fergus silently
       clasps Reuben's hand—Reuben walks apart—Lilian follows them)</stage></p>
     </sp>
-    <sp>
+    <sp who="#L0707_F4">
      <speaker>Lilian.</speaker>
      <p><stage> (laying her hand softly on his arm)</stage>My own brother! <stage>(Mr. Trevor,
       Fergus, and Amy approach them)</stage></p>
     </sp>
-    <sp>
+    <sp who="#L0707_M2">
      <speaker>Reuben.</speaker>
      <p>You're all very kind to me. I shall think of you often when I'm far away. For I go to a land
       that asks for a man's pith and sinew; where there are broad forests to be cleared, wide
       prairies to roam.</p>
     </sp>
-    <sp>
+    <sp who="#L0707_M1">
      <speaker>Trevor.</speaker>
      <p>No, my lad, I can't lose you.</p>
     </sp>
-    <sp>
+    <sp who="#L0707_M2">
      <speaker>Reuben.</speaker>
      <p>Thank you; but my mind's made up.</p>
     </sp>
-    <sp>
+    <sp who="#L0707_F4">
      <speaker>Lilian.</speaker>
      <p><stage> (imploringly)</stage>For my sake!</p>
     </sp>
-    <sp>
+    <sp who="#L0707_M3">
      <speaker>Fergus.</speaker>
      <p>  For <hi>our</hi> sake!</p>
     </sp>
-    <sp>
+    <sp who="#L0707_M2">
      <speaker>Reuben.</speaker>
      <p>I shall think always that you wished it; but—<stage>(shakes his head in dissent)</stage></p>
     </sp>
-    <sp>
+    <sp who="#L0707_F5">
      <speaker>Amy.</speaker>
      <p><stage> (rushing forward, and grasping the skirts of his coat)</stage>Reuben, Reuben! will
       you leave your own Amy?</p>
     </sp><pb n="28"/>
-    <sp>
+    <sp who="#L0707_M2">
      <speaker>Reuben.</speaker>
      <p><stage> (much moved, and regarding her fixedly)</stage>Amy, Amy! pet, darling, comfort! Oh!
       I didn't guess till now the hold she had on me. Leave her? Heaven, that denies me a wife's

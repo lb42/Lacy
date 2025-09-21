@@ -2,7 +2,7 @@
 <teiHeader>
 <fileDesc>
 <titleStmt>
-<title n="hislastvictory">His Last Victory</title>
+<title n="hislastvictory" type="main">His Last Victory</title>
 <author>Phillips, Watts</author>
 <respStmt>
 <resp>Curated by</resp>
@@ -11,17 +11,112 @@
 </titleStmt>
 <publicationStmt>
 <distributor>Privately published on the Lacy Website</distributor>
-</publicationStmt>
-<sourceDesc><bibl type="digital">Retagged from a DOCX version of the RTF file exported by ProQuest from a now
-lost TEI original</bibl><bibl type="source" status="TEI_1" n="59.11"><author>Phillips, Watts</author><title type="main" n="hislastvictory">His Last Victory</title><title type="sub">An Original Drama in
-     two acts</title><extent>35 pp (UM copy: 364 - 399)<measure type="pp" quantity="33"/><measure type="spCount" quantity="601"/><measure type="spvCount" quantity="0"/><measure type="txWords" quantity="12710"/><measure type="spWords" quantity="9220"/><measure type="stWords" quantity="3490"/></extent>
-<eventName notAfter="1862" type="firstPerf"><date resp="nicoll" when="1862-06-21"/><name>Theatre Royal St
-     James's</name><date resp="source" when="1862-06-21">21 June 1862</date>.</eventName><note type="LCP">Licenced for performance (BL ms LCP_53014_Q LCP_53022_AA)</note><listRef>
-     <ref target="https://hdl.handle.net/2027/uiug.30112073940444">Hathi_Trust</ref>
-     <ref target="https://babel.hathitrust.org/cgi/pt?id=mdp.39015067453657&amp;seq=364 ">L0881</ref>
-     </listRef><listRef type="localCopies"><ref>Vol59/L0881/L0881-um.pdf</ref></listRef><idno type="nic">N16853</idno></bibl></sourceDesc>
+<idno type="lae">L0881</idno><idno type='URI' xml:base='https://dracor.org'>LAE</idno></publicationStmt>
+<sourceDesc><bibl type="printSource" n="59.11"><author>Phillips, Watts</author><title type="main" n="hislastvictory">His Last Victory</title><title type="sub">An
+Original Drama in two acts</title><extent>35 pp (UM copy: 364 - 399)<measure type="pp" quantity="33"/>
+  <measure type="spCount" quantity="600"/>
+  <measure type="spvCount" quantity="0"/>
+  <measure type="txWords" quantity="12709"/>
+  <measure type="spWords" quantity="9219"/>
+  <measure type="stWords" quantity="3490"/>
+  </extent>
+
+<title level="s"> Lacy's Acting Edition, volume 59, No. 0881</title><idno type="nic">N16853</idno></bibl><bibl type="digitalSource"><ref target="https://hdl.handle.net/2027/uiug.30112073940444">UIU from
+HT</ref></bibl><bibl type="digitalSource" n="copytext"><ref target="https://babel.hathitrust.org/cgi/pt?id=mdp.39015067453657&amp;seq=364 ">UM from HT</ref><ref target="local:Vol59/L0881/L0881-um.pdf"/></bibl><bibl type="digitalSource" n="copytext"><ref target="https://lb42.github.io/Lacy/L0881.html">TEI</ref></bibl><listEvent>
+<event type="LCP" when="1862-06-09" where="St.James">
+<desc>Licence sent 9 June 1862 for performance at the St.James's. </desc>
+<bibl type="msSource">BL ms LCP_53014.Q</bibl>
+</event>
+<event type="firstPerf" when="1862-06-21" source="textNic" where="St.James's">
+<desc>Premiered at Theatre Royal, St.James's 21 June 1862</desc>
+</event>
+</listEvent></sourceDesc>
 </fileDesc>
-<profileDesc><!--M_2_Drama_D._DRAMA--><textClass><catRef target="#sizeM"/><catRef target="#act2"/><catRef target="nic:D."/><keywords><term>DRAMA</term></keywords></textClass></profileDesc><revisionDesc><change when="2025-05-04">Header enriched</change>
+<profileDesc><textClass><catRef target="#sizeM"/><catRef target="#act2"/><catRef target="nic:D."/><keywords><term>DRAMA</term></keywords></textClass><particDesc><listPerson>
+  <person xml:id="L0881_M1">
+   <persName type="role">GENERAL HERCULES LACROIX</persName>
+   <persName type="spkr" n="166">Lacroix.</persName>
+   <persName type="spkr" n="1">Voice.</persName>
+  </person>
+  <person xml:id="L0881_M2">
+   <persName type="role">BARON HORACE DE FAUCONVILLE </persName>
+   <persName type="spkr" n="51">Baron.</persName>
+  </person>
+  <person xml:id="L0881_M3">
+   <persName type="role">FELICIEN DOUCET </persName>
+   <persName type="spkr" n="59">Felicien.</persName>
+  </person>
+  <person xml:id="L0881_M4">
+   <persName type="role">COPERNICUS KOPP</persName>
+   <persName type="spkr" n="24">Kopp.</persName>
+  </person>
+  <person xml:id="L0881_M5">
+   <persName type="role">MOLASSE</persName>
+   <persName type="spkr" n="30">Molasse.</persName>
+  </person>
+  <person xml:id="L0881_M6">
+   <persName type="role">SERGEANT PONS</persName>
+   <persName type="spkr" n="42">Pons.</persName>
+   <persName type="spkr" n="43">Pons</persName>
+  </person>
+  <person xml:id="L0881_M7">
+   <persName type="role">PLUMEAU </persName>
+   <persName type="spkr" n="9">Plum.</persName>
+  </person>
+  <person xml:id="L0881_M8">
+   <persName type="role">MOUTON </persName>
+   <persName type="spkr" n="4">Mout.</persName>
+  </person>
+  <person xml:id="L0881_M9">
+   <persName type="role">OCTAVE DECOURCELLE </persName>
+  </person>
+  <person xml:id="L0881_M10">
+   <persName type="role">JULES DE FAYOLLES </persName>
+  </person>
+  <person xml:id="L0881_M11">
+   <persName type="role">VOLNAY </persName>
+   <persName type="spkr" n="4">Volnay.</persName>
+  </person>
+  <person xml:id="L0881_M12">
+   <persName type="role">LABORDE </persName>
+  </person>
+  <person xml:id="L0881_F13">
+   <persName type="role">COUNTESS BEAUREGARD </persName>
+   <persName type="spkr" n="132">Countess.</persName>
+  </person>
+  <person xml:id="L0881_F14">
+   <persName type="role">JULIE D'AUMONT</persName>
+   <persName type="spkr" n="32">Julie.</persName>
+  </person>
+  <person xml:id="L0881_F15">
+   <persName type="role">MADAME MOLASSE</persName>
+   <persName type="spkr" n="23">Madame M.</persName>
+  </person>
+  <person xml:id="L0881_F16">
+   <persName type="role">MADAME DU HELDER </persName>
+   <persName type="spkr" n="4">Madame du H.</persName>
+  </person>
+  <person xml:id="L0881_F17">
+   <persName type="role">MADAME ST. ROCH </persName>
+   <persName type="spkr" n="4">Madame St. R.</persName>
+  </person>
+  <person xml:id="L0881_F18">
+   <persName type="role">LA BARONNE D'ANTIN </persName>
+   <persName type="spkr" n="6">Baroness.</persName>
+  </person>
+  <person xml:id="L0881_F19">
+   <persName type="role">MDLLE. MELANIE </persName>
+   <persName type="spkr" n="2">Mad. M.</persName>
+  </person>
+  <person xml:id="L0881_F20">
+   <persName type="role">MDLLE. DESCHAMPS </persName>
+  </person>
+  <person xml:id="L0881_F21">
+   <persName type="role">FICHU </persName>
+   <persName type="spkr" n="6">Fichu.</persName>
+  </person>
+
+ </listPerson></particDesc></profileDesc><revisionDesc><change when="2025-09-07">Metadata updated from new catalogue</change><change when="2025-05-04">Header enriched</change>
 <change when="2023-05-19">Header confected</change>
 </revisionDesc>
 </teiHeader>
@@ -105,7 +200,7 @@ plants in flower, their brilliancy of colour relieved and softened by several
 statues on pedestals.</stage>
 <stage>Plumeau, in handsome livery, discovered dusting furniture with feather
 brush.</stage>
-<sp>
+<sp who="#L0881_M7">
 <speaker>Plum.</speaker>
 <stage> (dusting, lazily)</stage>
 <p>There! I think I've done enough for to day. I wasn't born to work; that's a
@@ -122,62 +217,62 @@ to nothing but change, and must be studied by the rules of contrairy.
 <stage>(throwing himself on couch, R.)</stage> Now, if I was a rich young
 widder, I'd—</p>
 </sp>
-<sp>
+<sp who="#L0881_F21">
 <speaker>Fichu.</speaker>
 <stage> (heard off stage, L.)</stage>
 <p>This way—this way!<stage>Fichu enters, L.</stage>Lor! Monsieur Plumeau, is
 that you?</p>
 </sp>
-<sp>
+<sp who="#L0881_M7">
 <speaker>Plum.</speaker>
 <p>Yes, Madame Fichu, it's as much as is left of me. I find the country air too
 exhausting. Early rising and regular habits are killing me. You were speaking to
 something when you entered—one of the natives, I presume?</p>
 </sp>
-<sp>
+<sp who="#L0881_F21">
 <speaker>Fichu.</speaker>
 <p>Monsieur Molasse's servant.</p>
 <pb n="4"/>
 </sp>
-<sp>
+<sp who="#L0881_M7">
 <speaker>Plum.</speaker>
 <p>The retired grocer! <stage>(rising languidly)</stage> Really, if   madame
 isn't a little more choice in her acquaintance, I must resign.</p>
 </sp>
-<sp>
+<sp who="#L0881_F21">
 <speaker>Fichu.</speaker>
 <p>Hush! <stage>(turning to door, L.)</stage> Come in, Monsieur Mouton.</p>
 <stage>Mouton, a peasant, long hair, sheepish face, high collared short waisted
 coat—comes stamping in, L.—he wears sabots.</stage>
 </sp>
-<sp>
+<sp who="#L0881_M8">
 <speaker>Mout.</speaker>
 <p>Here I am. <stage>(he comes a little down stage, then halts in wonderment at
 the gorgeous appearance of Plumeau)</stage> Well, I never!</p>
 </sp>
-<sp>
+<sp who="#L0881_M7">
 <speaker>Plum.</speaker>
 <p>I suppose not. <stage>(walking round and surveying him
 superciliously)</stage> How wonderful are the works of nature. <stage>(posing
 before Mouton)</stage> Don't often see a person like me in these parts?</p>
 </sp>
-<sp>
+<sp who="#L0881_M8">
 <speaker>Mout.</speaker>
 <p>No; I've only seen one before, an' he were jack-pudding to a travelling
 doctor.</p>
 </sp>
-<sp>
+<sp who="#L0881_M7">
 <speaker>Plum.</speaker>
 <stage> (going up stage)</stage>
 <p>Barbarian!</p>
 </sp>
-<sp>
+<sp who="#L0881_F21">
 <speaker>Fichu.</speaker>
 <stage> (pushing Mouton)</stage>
 <p>Don't stand there with your mouth like a round O in a copy book, and all your
 fingers pointing different ways like a sign post. What are you afraid of?</p>
 </sp>
-<sp>
+<sp who="#L0881_M8">
 <speaker>Mout.</speaker>
 <p>I a'n't afraid. I'm 'stonished, that's all. I'm always 'stonished.
 <stage>(laughing sheepishly)</stage> It's a way I've got. <stage>(pulling out
@@ -185,17 +280,17 @@ note)</stage> Here's the compliments of Monsieur and Madame Molasse, an' they'll
 be here in an hour, to wait upon the Countess Beauregard. </p>
 <stage>(giving Fichu letter)</stage>
 </sp>
-<sp>
+<sp who="#L0881_F21">
 <speaker>Fichu.</speaker>
 <stage> (sharply)</stage>
 <p>One would think you read it.</p>
 </sp>
-<sp>
+<sp who="#L0881_M8">
 <speaker>Mout.</speaker>
 <p>O' course I have; I'd nothing else to do on the road.</p>
 <stage>                                        Exit after Fichu, R.</stage>
 </sp>
-<sp>
+<sp who="#L0881_M7">
 <speaker>Plum.</speaker>
 <stage> (coming down stage)</stage>
 <p>Good—very good—the brute   has parts, if cultivated. <stage>(laughter in
@@ -206,20 +301,20 @@ as the Countess and Julie D'Aumont, enter from conservatory; the former,
 coquettishly attired in a semi-Arcadian (demi-Watteau costume)—the latter in
 rich travelling toilette—the Countess eating cherries.</stage>
 </sp>
-<sp>
+<sp who="#L0881_F13">
 <speaker>Countess.</speaker>
 <stage> (as they come down stage)</stage>
 <p>Laugh on, dear, I am always happy to contribute to the amusement of my
 friends.</p>
 </sp>
-<sp>
+<sp who="#L0881_F14">
 <speaker>Julie.</speaker>
 <p>Don't be angry, Clare; but I must laugh, to think that I should have met that
 pearl of fashion, and queen of ton the Countess Beauregard, perched upon the
 back of a shambling donkey, between two baskets of cherries, one on each side,
 to preserve her balance.</p>
 </sp>
-<sp>
+<sp who="#L0881_F13">
 <speaker>Countess.</speaker>
 <stage> (laughing)</stage>
 <p>I confess the donkey, but deny the <pb n="5"/> shamble. Fatigued with a long
@@ -228,72 +323,72 @@ home in true Arcadian fashion, when, to my joyful surprise, I met you.
 <stage>(taking both Julie's hands)</stage> Tell me to what lucky chance I am
 indebted for this visit, which I hope to make a long one?</p>
 </sp>
-<sp>
+<sp who="#L0881_F14">
 <speaker>Julie.</speaker>
 <p>A chance indeed. I was on my way to join our old friend, the Baroness
 d'Antin, who is holding quite a little court of her own at Eaudouce.</p>
 </sp>
-<sp>
+<sp who="#L0881_F13">
 <speaker>Countess.</speaker>
 <p>The bathing place a dozen miles from here?</p>
 </sp>
-<sp>
+<sp who="#L0881_F14">
 <speaker>Julie.</speaker>
 <p>Exactly. But halting to change horses at this village, I heard by accident,
 that you were the owner of this estate; and so, dear friend and schoolfellow, I
 renounced the Baroness for a time and—am here.</p>
 </sp>
-<sp>
+<sp who="#L0881_F13">
 <speaker>Countess.</speaker>
 <stage> (embracing her)</stage>
 <p>Nor shall you speedily depart.</p>
 </sp>
-<sp>
+<sp who="#L0881_F14">
 <speaker>Julie.</speaker>
 <p>  It is now my turn to put a question. May I ask the reason of your sudden
 disappearance from society and Paris?</p>
 </sp>
-<sp>
+<sp who="#L0881_F13">
 <speaker>Countess.</speaker>
 <stage> (eating cherries)</stage>
 <p>I have but a woman's reason to offer—caprice!</p>
 </sp>
-<sp>
+<sp who="#L0881_F14">
 <speaker>Julie.</speaker>
 <p>Which, of course, as a woman, I am slow to believe. I suspect an affair of
 the heart!</p>
 </sp>
-<sp>
+<sp who="#L0881_F13">
 <speaker>Countess.</speaker>
 <p>Heart. My dear Julie, you are talking of society and Paris, where such an
 adjunct to one's anatomy is found only in a fossil state, preserved in cabinets
 of curiosities.</p>
 </sp>
-<sp>
+<sp who="#L0881_F14">
 <speaker>Julie.</speaker>
 <p>Yet all the world said—</p>
 </sp>
-<sp>
+<sp who="#L0881_F13">
 <speaker>Countess.</speaker>
 <p>Nothing worth listening to, be assured. Ah, Julie, the little of belief still
 left to society is reserved for calumny alone.</p>
 </sp>
-<sp>
+<sp who="#L0881_F14">
 <speaker>Julie.</speaker>
 <p>But—</p>
 </sp>
-<sp>
+<sp who="#L0881_F13">
 <speaker>Countess.</speaker>
 <p>Seized with a sudden disgust for the artificial, I resolved upon studying the
 natural, so placing those two curious specimens of art, Fichu and Plumeau,
 outside my travelling carriage, I mounted inside, and somehow—I scarcely know
 how—found my way here.</p>
 </sp>
-<sp>
+<sp who="#L0881_F14">
 <speaker>Julie.</speaker>
 <p>A delightful place!—but the natives?</p>
 </sp>
-<sp>
+<sp who="#L0881_F13">
 <speaker>Countess.</speaker>
 <p>A most docile race, that from living in continual companionship with the
 cattle have caught much of their dumbness and placidity. When any of the
@@ -301,12 +396,12 @@ inhabitants do make a descent upon you—they either sit silent for hours like a
 circle of Druidical stones, or all open upon you at once like   a kennel of
 hounds at feeding time.</p>
 </sp>
-<sp>
+<sp who="#L0881_F14">
 <speaker>Julie.</speaker>
 <stage> (laughing)</stage>
 <p>You, at least, have not changed.</p>
 </sp>
-<sp>
+<sp who="#L0881_F13">
 <speaker>Countess.</speaker>
 <p>I'd a visit from one of the chiefs of the tribe only this morning, and he sat
 staring at me thus—with a face round and blank as a Dutch clock, and, to
@@ -314,126 +409,126 @@ complete the simile, he only sounded twice within the hour, once to tell me the
 time of day, and once to instruct me as to the probable state of the
 weather.</p>
 </sp>
-<sp>
+<sp who="#L0881_F14">
 <speaker>Julie.</speaker>
 <p>But you have another neighbour of whom you have <pb n="6"/> not yet told
 me—the proprietor of that white house which overlooks the river.</p>
 </sp>
-<sp>
+<sp who="#L0881_F13">
 <speaker>Countess.</speaker>
 <stage> (with assumed carelessness)</stage>
 <p>The General Lacroix.</p>
 </sp>
-<sp>
+<sp who="#L0881_F14">
 <speaker>Julie.</speaker>
 <p>Hercules Lacroix! I have heard my father speak of him—a brave old soldier;
 and also, if my memory serves me well <stage>(she places hand on Countess's arm
 and glances archly into her face)</stage> the uncle of Felicien Doucet.</p>
 </sp>
-<sp>
+<sp who="#L0881_F13">
 <speaker>Countess.</speaker>
 <p>Well?</p>
 </sp>
-<sp>
+<sp who="#L0881_F14">
 <speaker>Julie.</speaker>
 <p>Is he here?</p>
 </sp>
-<sp>
+<sp who="#L0881_F13">
 <speaker>Countess.</speaker>
 <p>The general—</p>
 </sp>
-<sp>
+<sp who="#L0881_F14">
 <speaker>Julie.</speaker>
 <p>No! Felicien.</p>
 </sp>
-<sp>
+<sp who="#L0881_F13">
 <speaker>Countess.</speaker>
 <stage> (half laughing)</stage>
 <p>What do you mean?</p>
 </sp>
-<sp>
+<sp who="#L0881_F14">
 <speaker>Julie.</speaker>
 <stage> (laughing)</stage>
 <p>Nothing—only the clouds are beginning. to disperse. <stage>(her manner
 changes into one of affectionate kindness)</stage> Clare! Clare! you must not
 attempt to deceive me. All Paris talked of Felicien's love for you.</p>
 </sp>
-<sp>
+<sp who="#L0881_F13">
 <speaker>Countess.</speaker>
 <stage> (coldly)</stage>
 <p>  All Paris was mistaken then.</p>
 </sp>
-<sp>
+<sp who="#L0881_F14">
 <speaker>Julie.</speaker>
 <stage> (seriously)</stage>
 <p>Of one thing I am sure. Pardon the frankness of a friend—almost of a
 sister—but—</p>
 <stage>(she hesitates)</stage>
 </sp>
-<sp>
+<sp who="#L0881_F13">
 <speaker>Countess.</speaker>
 <p>What?</p>
 </sp>
-<sp>
+<sp who="#L0881_F14">
 <speaker>Julie.</speaker>
 <p>You loved him.</p>
 </sp>
-<sp>
+<sp who="#L0881_F13">
 <speaker>Countess.</speaker>
 <p>I?</p>
 </sp>
-<sp>
+<sp who="#L0881_F14">
 <speaker>Julie.</speaker>
 <p>Nay—I will spare you the pain of an avowal—that blush is more eloquent than
 words.</p>
 </sp>
-<sp>
+<sp who="#L0881_F13">
 <speaker>Countess.</speaker>
 <p>Well then, I loved him—<stage>(she takes Julie's hands)</stage> and I love
 him still!</p>
 </sp>
-<sp>
+<sp who="#L0881_F14">
 <speaker>Julie.</speaker>
 <stage> (gaily)</stage>
 <p>And he?</p>
 </sp>
-<sp>
+<sp who="#L0881_F13">
 <speaker>Countess.</speaker>
 <stage> (letting her hands fall)</stage>
 <p>Loves me no longer.</p>
 </sp>
-<sp>
+<sp who="#L0881_F14">
 <speaker>Julie.</speaker>
 <p>Is it possible—has another usurped?</p>
 </sp>
-<sp>
+<sp who="#L0881_F13">
 <speaker>Countess.</speaker>
 <stage> (quickly)</stage>
 <p>Oh, no, no; I am sure of that! <stage>(with a growing agitation)</stage> yet
 I will be satisfied—and I have a means!</p>
 </sp>
-<sp>
+<sp who="#L0881_F14">
 <speaker>Julie.</speaker>
 <p>What means?</p>
 </sp>
-<sp>
+<sp who="#L0881_F13">
 <speaker>Countess.</speaker>
 <p>His uncle.</p>
 </sp>
-<sp>
+<sp who="#L0881_F14">
 <speaker>Julie.</speaker>
 <p>General Lacroix!—a confirmed woman-hater!</p>
 </sp>
-<sp>
+<sp who="#L0881_F13">
 <speaker>Countess.</speaker>
 <stage> (smiling)</stage>
 <p>But now a captive to my bow and spear.</p>
 </sp>
-<sp>
+<sp who="#L0881_F14">
 <speaker>Julie.</speaker>
 <p>The lion in love? impossible!</p>
 </sp>
-<sp>
+<sp who="#L0881_F13">
 <speaker>Countess.</speaker>
 <p>Hopelessly entangled. <stage>(they both laugh)</stage> In his noble
 simplicity of heart he sees nothing that is passing around him, and believes
@@ -441,63 +536,63 @@ that his nephew and I have met here for the first time—seeing this, and
 irritated—justly irritated—by Felicien's change of manner and strange
 indifference, I determined   to—</p>
 </sp>
-<sp>
+<sp who="#L0881_F14">
 <speaker>Julie.</speaker>
 <p>Play the uncle against the nephew?</p>
 </sp>
-<sp>
+<sp who="#L0881_F13">
 <speaker>Countess.</speaker>
 <p>A freak, and I almost fear a foolish one—yet it is the only test—for without
 <hi>jealousy</hi>
 <stage>(she sighs)</stage> there is no <hi>love</hi>.</p>
 </sp>
-<sp>
+<sp who="#L0881_F14">
 <speaker>Julie.</speaker>
 <p>A lover of sixty! Cupid repudiates the idea.</p>
 </sp>
-<sp>
+<sp who="#L0881_F13">
 <speaker>Countess.</speaker>
 <p>Don't be alarmed, neither Cupid nor Hymen are likely to involve themselves in
 this matter—on one side at least.</p>
 <pb n="7"/>
 </sp>
-<sp>
+<sp who="#L0881_F14">
 <speaker>Julie.</speaker>
 <p>You will fail, or General Lacroix is sadly belied by his reputation.</p>
 </sp>
-<sp>
+<sp who="#L0881_F13">
 <speaker>Countess.</speaker>
 <p>A word of mine, and this scorner of a woman is at my feet. You shake your
 head! Come, I will wager this bracelet, which you were admiring so much, against
 your tablets, or what you will—that in a week, nay, this very day, I will draw
 from our man-of-war a declaration, and that in due form.</p>
 </sp>
-<sp>
+<sp who="#L0881_F14">
 <speaker>Julie.</speaker>
 <p>The witness?</p>
 </sp>
-<sp>
+<sp who="#L0881_F13">
 <speaker>Countess.</speaker>
 <p>Yourself! It is for the credit of our sex I break a lance. Come, and while
 you make your toilette, we will organize the attack.</p>
 </sp>
-<sp>
+<sp who="#L0881_F14">
 <speaker>Julie.</speaker>
 <p>And the enemy?</p>
 </sp>
-<sp>
+<sp who="#L0881_M1">
 <speaker>Voice.</speaker>
 <stage> (off stage as from conservatory)</stage>
 <p>Announce, General Hercules Lacroix!</p>
 </sp>
-<sp>
+<sp who="#L0881_F13">
 <speaker>Countess.</speaker>
 <p>Hush! he is here!</p>
 <stage>                                        (they escape by door, R.
 laughing, as General Lacroix appears in conservatory preceded by Plumeau, to
 whom as he enters, he gives a vigorous push with his walking cane)</stage>
 </sp>
-<sp>
+<sp who="#L0881_M1">
 <speaker>Lacroix.</speaker>
 <p>General Lacroix! are you asleep? sleeping at your post is death by all the
 articles of war. <stage>(striking cane upon ground and coming down
@@ -506,126 +601,126 @@ more, and yet it's too much for this lazy rascal to carry conveniently for two
 minutes. <stage>(turning a little up stage)</stage> Pons! where's Sergeant
 Pons?</p>
 </sp>
-<sp>
+<sp who="#L0881_M6">
 <speaker>Pons.</speaker>
 <stage> (suddenly appearing from conservatory)</stage>
 <p>Here! </p>
 <stage>(draws himself stiffly up and salutes)</stage>
 </sp>
-<sp>
+<sp who="#L0881_M1">
 <speaker>Lacroix.</speaker>
 <p>Very good! <stage>(seeing Plumeau)</stage> What not gone yet?</p>
 </sp>
-<sp>
+<sp who="#L0881_M7">
 <speaker>Plum.</speaker>
 <stage> (quickly)</stage>
 <p>I'm going. <stage>(as he exits, R.)</stage> Here's manners!</p>
 </sp>
-<sp>
+<sp who="#L0881_M1">
 <speaker>Lacroix.</speaker>
 <p>The Countess is right. An army is nothing without a head, nor a house without
 a master—women are all very well, but there's no discipline—no drill—no
 subordination. <stage>(looking cautiously around)</stage> Sergeant!</p>
 </sp>
-<sp>
+<sp who="#L0881_M6">
 <speaker>Pons.</speaker>
 <p>General?</p>
 </sp>
-<sp>
+<sp who="#L0881_M1">
 <speaker>Lacroix.</speaker>
 <p>Give me a pinch of snuff.</p>
 </sp>
-<sp>
+<sp who="#L0881_M6">
 <speaker>Pons.</speaker>
 <stage> (coming a little down stage)</stage>
 <p>'Gainst orders.</p>
 </sp>
-<sp>
+<sp who="#L0881_M1">
 <speaker>Lacroix.</speaker>
 <stage> (angrily)</stage>
 <p>Whose orders?</p>
 </sp>
-<sp>
+<sp who="#L0881_M6">
 <speaker>Pons.</speaker>
 <p>The Commander-in-Chief's—she don't like snuff.</p>
 </sp>
-<sp>
+<sp who="#L0881_M1">
 <speaker>Lacroix.</speaker>
 <p>Give it me, rascal! <stage>(handling cane)</stage> Give me the box!
 <stage>(he takes box from Sergeant, and is about to open it, when a noise is
 heard at back—hastily)</stage> There's somebody coming! It's the countess! Take
 back the box, do you hear, sirrah?</p>
 </sp>
-<sp>
+<sp who="#L0881_M6">
 <speaker>Pons.</speaker>
 <stage> (glancing off at back)</stage>
 <p>It's only Master Felicien.</p>
 </sp>
-<sp>
+<sp who="#L0881_M1">
 <speaker>Lacroix.</speaker>
 <stage> (taking snuff)</stage>
 <p>De-licious! I promised not to carry a box myself—so you carry it for me. </p>
 <stage>(laughs, and again takes snuff)</stage>
 <pb n="8"/>
 </sp>
-<sp>
+<sp who="#L0881_M6">
 <speaker>Pons.</speaker>
 <stage> (gruffly)</stage>
 <p>To think that a man as I've seen face a whole park of artillery without a
 quiver of the eyelid should give up all his pleasant habits, because—</p>
 </sp>
-<sp>
+<sp who="#L0881_M1">
 <speaker>Lacroix.</speaker>
 <stage> (in his tone of command)</stage>
 <p>  Silence!</p>
 </sp>
-<sp>
+<sp who="#L0881_M6">
 <speaker>Pons.</speaker>
 <stage> (drawing himself up and saluting)</stage>
 <p>Yes! mon General!</p>
 </sp>
-<sp>
+<sp who="#L0881_M1">
 <speaker>Lacroix.</speaker>
 <stage> (giving back box)</stage>
 <p>Felicien, did you say?</p>
 </sp>
-<sp>
+<sp who="#L0881_M6">
 <speaker>Pons.</speaker>
 <stage> (jerking thumb backwards)</stage>
 <p>Looking at the flowers with Monsieur and Madame Molasse.</p>
 </sp>
-<sp>
+<sp who="#L0881_M1">
 <speaker>Lacroix.</speaker>
 <p>The grocer and his wife! Sap-r-r-ris-ti!</p>
 </sp>
-<sp>
+<sp who="#L0881_M6">
 <speaker>Pons.</speaker>
 <p>'Gainst orders.</p>
 </sp>
-<sp>
+<sp who="#L0881_M1">
 <speaker>Lacroix.</speaker>
 <stage> (impatiently)</stage>
 <p>What's 'gainst orders?</p>
 </sp>
-<sp>
+<sp who="#L0881_M6">
 <speaker>Pons.</speaker>
 <p>Swearing—You told me to remind you.</p>
 </sp>
-<sp>
+<sp who="#L0881_M1">
 <speaker>Lacroix.</speaker>
 <p>Bah! No snuff—no smoking—no swearing—what else is there in life worth living
 for?</p>
 </sp>
-<sp>
+<sp who="#L0881_M6">
 <speaker>Pons.</speaker>
 <p>Nothing!</p>
 </sp>
-<sp>
+<sp who="#L0881_M1">
 <speaker>Lacroix.</speaker>
 <stage> (tone of command)</stage>
 <p>Silence!</p>
 </sp>
-<sp>
+<sp who="#L0881_M6">
 <speaker>Pons.</speaker>
 <stage> (salutes)</stage>
 <p>Yes! mon General.</p>
@@ -634,73 +729,73 @@ heard in conservatory, then enter Felicien Doucet, Monsieur and Madame Molasse,
 and Copernicus Kopp—Molasse and his wife in exaggerated rural costume, the
 former carries in one hand a plant, in the other a broken flower pot)</stage>
 </sp>
-<sp>
+<sp who="#L0881_M5">
 <speaker>Molasse.</speaker>
 <p>'Twas your fault, Madame Molasse; if your confounded dog hadn't got between
 my legs—</p>
 </sp>
-<sp>
+<sp who="#L0881_F19">
 <speaker>Mad. M.</speaker>
 <stage> (who carries a King Charles's spaniel)</stage>
 <p>My dog? for shame, Molasse; there's not a person who hears his voice but
 says, “That's not a <hi>dog</hi> but a duck.”</p>
 </sp>
-<sp>
+<sp who="#L0881_M4">
 <speaker>Kopp.</speaker>
 <stage> (lugubriously)</stage>
 <p>I'd a dog once of just the same breed, he bit everybody—he was always
 mad.</p>
 </sp>
-<sp>
+<sp who="#L0881_F19">
 <speaker>Mad. M.</speaker>
 <p>Mad?</p>
 </sp>
-<sp>
+<sp who="#L0881_M3">
 <speaker>Felicien.</speaker>
 <stage> (to General)</stage>
 <p>General, allow me to introduce to you Monsieur Copernicus Kopp, an amateur
 astronomer, in correspondence with all the learned societies of Europe.</p>
 </sp>
-<sp>
+<sp who="#L0881_M5">
 <speaker>Molasse.</speaker>
 <p>  Only press of business has hitherto prevented any of those distinguished
 bodies from answering his letters.</p>
 </sp>
-<sp>
+<sp who="#L0881_M3">
 <speaker>Felicien.</speaker>
 <stage> (aside to General)</stage>
 <p>A would-be prophet, who searches among the stars for reasons why everybody
 should be miserable on earth.</p>
 </sp>
-<sp>
+<sp who="#L0881_M4">
 <speaker>Kopp.</speaker>
 <p>Good morning, General, if any morning can be good after such a night.</p>
 </sp>
-<sp>
+<sp who="#L0881_M1">
 <speaker>Lacroix.</speaker>
 <p>Night! it was a beautiful night.</p>
 </sp>
-<sp>
+<sp who="#L0881_M4">
 <speaker>Kopp.</speaker>
 <p>Beautiful! with the tail of the dragon crossing the house of Mars?
 <stage>(with sudden fervour)</stage> I hope you're well, General.</p>
 </sp>
-<sp>
+<sp who="#L0881_M1">
 <speaker>Lacroix.</speaker>
 <stage> (heartily)</stage>
 <p>Never better in my life.</p>
 </sp>
-<sp>
+<sp who="#L0881_M4">
 <speaker>Kopp.</speaker>
 <p>Ah! that's a bad sign. It's an awful thing to feel <pb n="9"/> well
 sometimes; now there's Molasse, I've no doubt he feels well too?</p>
 </sp>
-<sp>
+<sp who="#L0881_M5">
 <speaker>Molasse.</speaker>
 <stage> (quickly)</stage>
 <p>Very well!</p>
 </sp>
-<sp>
+<sp who="#L0881_M4">
 <speaker>Kopp.</speaker>
 <p>It's very sad, very—but such omens arn't sent us for nothing. <stage>(to
 Molasse)</stage> There was a friend of mine, about your build, only you're
@@ -709,68 +804,68 @@ can't tell what's come over me, I never felt better in my life. <stage>(glancing
 at General)</stage> I didn't say anything to discourage him at the time, but of
 course I expected the worst.</p>
 </sp>
-<sp>
+<sp who="#L0881_F15">
 <speaker>Madame M.</speaker>
 <p>Lor!</p>
 </sp>
-<sp>
+<sp who="#L0881_M4">
 <speaker>Kopp.</speaker>
 <p>And sure enough it came.</p>
 </sp>
-<sp>
+<sp who="#L0881_M5">
 <speaker>Molasse.</speaker>
 <p>  What came?</p>
 </sp>
-<sp>
+<sp who="#L0881_M4">
 <speaker>Kopp.</speaker>
 <p>Apoplexy, that very night—dreadful! </p>
 <stage>(goes up stage)</stage>
 </sp>
-<sp>
+<sp who="#L0881_M1">
 <speaker>Lacroix.</speaker>
 <stage> (laughing)</stage>
 <p>A cheerful person.</p>
 </sp>
-<sp>
+<sp who="#L0881_M5">
 <speaker>Molasse.</speaker>
 <p>Very. I don't know what we should do without him, he foretells all our
 misfortunes; not a morning passes but he's something new for us, as I say to
 Sophonisba, <stage>(indicating Madame Molasse)</stage> our Eden wouldn't be
 complete without Monsieur Kopp.</p>
 </sp>
-<sp>
+<sp who="#L0881_M1">
 <speaker>Lacroix.</speaker>
 <p>Eden?</p>
 </sp>
-<sp>
+<sp who="#L0881_M5">
 <speaker>Molasse.</speaker>
 <p>It's the name we've given to our estate; for as I say to Sophonisba, all
 depends upon how you christen the article one offers for inspection.</p>
 </sp>
-<sp>
+<sp who="#L0881_M1">
 <speaker>Lacroix.</speaker>
 <p>But an Eden should have trees.</p>
 </sp>
-<sp>
+<sp who="#L0881_M5">
 <speaker>Molasse.</speaker>
 <p>And we've a beauty, growing right in front of the house, shedding such a
 delicious gloom, that you can't see your hand in either of the rooms.</p>
 </sp>
-<sp>
+<sp who="#L0881_F15">
 <speaker>Madame M.</speaker>
 <p>While the noise of rooks makes conversation impossible.</p>
 </sp>
-<sp>
+<sp who="#L0881_M3">
 <speaker>Felicien.</speaker>
 <stage> (laughing)</stage>
 <p>But then the stillness of the night.</p>
 </sp>
-<sp>
+<sp who="#L0881_M4">
 <speaker>Kopp.</speaker>
 <stage> (coming down)</stage>
 <p>And the comfort of the stars.</p>
 </sp>
-<sp>
+<sp who="#L0881_M5">
 <speaker>Molasse.</speaker>
 <p>Certainly, our nights would be quiet enough if it weren't for two owls which
 have taken forcible possession of our pigeon house, and out of gratitude I
@@ -778,126 +873,126 @@ suppose, hoot all night under our windows. But, then as I say, what does it
 matter? it's rural, and if it wasn't for such things, we shouldn't know   we was
 in the country.</p>
 </sp>
-<sp>
+<sp who="#L0881_F15">
 <speaker>Madame M.</speaker>
 <p>Bother the country, it's all very well to talk about, over a bunch of flowers
 in a bough-pot, but as I says the bulk ain't up to the sample. Persons of our
 property, should move in our proper spear, which isn't stuck in the middle of a
 garden.</p>
 </sp>
-<sp>
+<sp who="#L0881_M3">
 <speaker>Felicien.</speaker>
 <p>But think of a delicious little hermitage all covered over with ivy.</p>
 </sp>
-<sp>
+<sp who="#L0881_F15">
 <speaker>Madame M.</speaker>
 <p>I'm none of your 'ermits; I don't approve of 'em.</p>
 <pb n="10"/>
 </sp>
-<sp>
+<sp who="#L0881_M3">
 <speaker>Felicien.</speaker>
 <p>White curtains that reflect the sunlight.</p>
 </sp>
-<sp>
+<sp who="#L0881_F15">
 <speaker>Madame M.</speaker>
 <p>With spiders crawling all over them.</p>
 </sp>
-<sp>
+<sp who="#L0881_M1">
 <speaker>Lacroix.</speaker>
 <p>Fresh flowers in the bedrooms.</p>
 </sp>
-<sp>
+<sp who="#L0881_M4">
 <speaker>Kopp.</speaker>
 <p>Poisoning the air.</p>
 </sp>
-<sp>
+<sp who="#L0881_M5">
 <speaker>Molasse.</speaker>
 <p>And a faithful dog in the outhouse.</p>
 </sp>
-<sp>
+<sp who="#L0881_F15">
 <speaker>Madame M.</speaker>
 <p>Who howls so all night that, you're disappointed if you wake without a sudden
 death in the morning.</p>
 </sp>
-<sp>
+<sp who="#L0881_M4">
 <speaker>Kopp.</speaker>
 <p>Dreadful! </p>
 <stage>(all laugh but Kopp)</stage>
 </sp>
-<sp>
+<sp who="#L0881_M1">
 <speaker>Lacroix.</speaker>
 <p>Thunder! Madame, since you'll have neither fruit nor flowers, what do you say
 to the vegetables?</p>
 </sp>
-<sp>
+<sp who="#L0881_F15">
 <speaker>Madame M.</speaker>
 <p>Vegetables! We haven't a potatoe in the garden, but which from the cost,
 mightn't have been a pine apple.</p>
 </sp>
-<sp>
+<sp who="#L0881_M5">
 <speaker>Molasse.</speaker>
 <stage> (enthusiastically)</stage>
 <p>My potatoes! you should see 'em, General; so round and plump—such olive
 complexions and languishing eyes; each one promising an increase of family.</p>
 </sp>
-<sp>
+<sp who="#L0881_F15">
 <speaker>Madame M.</speaker>
 <stage> (shocked)</stage>
 <p>  Molasse!</p>
 </sp>
-<sp>
+<sp who="#L0881_M5">
 <speaker>Molasse.</speaker>
 <p>Sophonisba, I am silent.</p>
 <stage>Enter Fichu, R.</stage>
 </sp>
-<sp>
+<sp who="#L0881_F21">
 <speaker>Fichu.</speaker>
 <stage> (to General)</stage>
 <p>Madame will be with you directly. <stage>(to Molasse)</stage> The gardener is
 in attendance to show the tropical plants monsieur desired to see.</p>
 </sp>
-<sp>
+<sp who="#L0881_M5">
 <speaker>Molasse.</speaker>
 <stage> (to Kopp)</stage>
 <p>Them creepers which go about hanging themselves everywhere.</p>
 </sp>
-<sp>
+<sp who="#L0881_F15">
 <speaker>Madame M.</speaker>
 <p>The owdacious ones, and justly named.</p>
 <stage>Madame Molasse, Molasse, and Kopp, follow Fichu up stage, and exeunt by
 conservatory.</stage>
 </sp>
-<sp>
+<sp who="#L0881_M1">
 <speaker>Lacroix.</speaker>
 <stage> (detaining Felicien as he is about to follow)</stage>
 <p>Stay! <stage>(to Pons, who has remained standing like a sentry in
 background)</stage> Sergeant!</p>
 </sp>
-<sp>
+<sp who="#L0881_M6">
 <speaker>Pons.</speaker>
 <stage> (advancing)</stage>
 <p>General!</p>
 </sp>
-<sp>
+<sp who="#L0881_M1">
 <speaker>Lacroix.</speaker>
 <p>Snuff box. <stage>(takes box—inhales a large pinch rapturously, then returns
 it to Pons)</stage> Now, right about face—march!</p>
 </sp>
-<sp>
+<sp who="#L0881_M6">
 <speaker>Pons.</speaker>
 <p>Yes, mon General.</p>
 <stage>                                        Exit, C.</stage>
 </sp>
-<sp>
+<sp who="#L0881_M1">
 <speaker>Lacroix.</speaker>
 <stage> (placing his hand on Felicien's shoulder)</stage>
 <p>Why are you so sad, Felicien—heart touched; eh?</p>
 </sp>
-<sp>
+<sp who="#L0881_M3">
 <speaker>Felicien.</speaker>
 <p>Grazed by a passing shot perhaps—nothing more, sir.</p>
 </sp>
-<sp>
+<sp who="#L0881_M1">
 <speaker>Lacroix.</speaker>
 <p>Umph! Womankind's a strange invention, but a necessary one. Without some such
 contrivance there'd soon be an end to recruiting—no men, no soldiers—and without
@@ -905,73 +1000,73 @@ soldiers—thunder!—there'd soon be no France. Take a wife— take a wife—ta
 wife! </p>
 <stage>(rapping cane on ground)</stage>
 </sp>
-<sp>
+<sp who="#L0881_M3">
 <speaker>Felicien.</speaker>
 <p>A wife? you're jesting.</p>
 </sp>
-<sp>
+<sp who="#L0881_M1">
 <speaker>Lacroix.</speaker>
 <stage> (laughing)</stage>
 <p>Morbleu! but the boy looks as scared   as I did when I heard the whiz of an
 enemy's bullet for the <pb n="11"/> first time; but, as I soon got accustomed to
 the one, you'll cease to turn pale at the idea of the other.</p>
 </sp>
-<sp>
+<sp who="#L0881_M3">
 <speaker>Felicien.</speaker>
 <stage> (drily)</stage>
 <p>Pardon me, sir; if I declare myself a convert to your opinions, so often
 expressed—I shall never marry!</p>
 </sp>
-<sp>
+<sp who="#L0881_M1">
 <speaker>Lacroix.</speaker>
 <p>My opinions—what opinions?</p>
 </sp>
-<sp>
+<sp who="#L0881_M3">
 <speaker>Felicien.</speaker>
 <p>Surely, sir, I have heard you declare marriage to be the worst description of
 gaming, and one in which it was impossible to get a glimpse of your opponent's
 cards.</p>
 </sp>
-<sp>
+<sp who="#L0881_M1">
 <speaker>Lacroix.</speaker>
 <p>Umph!</p>
 </sp>
-<sp>
+<sp who="#L0881_M3">
 <speaker>Felicien.</speaker>
 <p>That it was taking a life-lease of a house of which you've only seen the
 painted sign-board.</p>
 </sp>
-<sp>
+<sp who="#L0881_M1">
 <speaker>Lacroix.</speaker>
 <p>Bah!</p>
 </sp>
-<sp>
+<sp who="#L0881_M3">
 <speaker>Felicien.</speaker>
 <p>And voluntarily placing yourself in a pillory to be pitied or laughed at by
 your friends.</p>
 </sp>
-<sp>
+<sp who="#L0881_M1">
 <speaker>Lacroix.</speaker>
 <p>Thunder!</p>
 </sp>
-<sp>
+<sp who="#L0881_M3">
 <speaker>Felicien.</speaker>
 <stage> (rapidly)</stage>
 <p>It was a collar for the neck! It was a clog for the heels! and a man might
 deem himself fortunate if these were the only adornments.</p>
 </sp>
-<sp>
+<sp who="#L0881_M1">
 <speaker>Lacroix.</speaker>
 <stage> (exploding)</stage>
 <p>Sa-pr-r-r-ri-sti! the rule I grant you, but there are
 exceptions—exceptions.</p>
 </sp>
-<sp>
+<sp who="#L0881_M3">
 <speaker>Felicien.</speaker>
 <p>I would fain believe so; but must decline to try the experiment.
 <stage>(gravely)</stage> I shall never marry.</p>
 </sp>
-<sp>
+<sp who="#L0881_M1">
 <speaker>Lacroix.</speaker>
 <stage> (kindly)</stage>
 <p>Never's a long day, and I must own it   grieves me, Felicien, when I hear it
@@ -980,13 +1075,13 @@ your opinion. If report speaks true a pair of bright eyes had something to do
 with your long stay in Paris. <stage>(Felicien starts)</stage> Though you have
 kept their owner's name a secret—even from me.</p>
 </sp>
-<sp>
+<sp who="#L0881_M3">
 <speaker>Felicien.</speaker>
 <stage> (agitated)</stage>
 <p>I pray you, sir. </p>
 <stage>(his voice falters and he turns slightly round)</stage>
 </sp>
-<sp>
+<sp who="#L0881_M1">
 <speaker>Lacroix.</speaker>
 <stage> (with a tenderness in strong contrast to his usual brusque
 manner)</stage>
@@ -995,57 +1090,57 @@ do not despair but it will heal in time. Love is the rainbow that spans the
 horizon of youth and is made up of tears and smiles, as the other is of rain and
 sunshine—besides, a lover's quarrel—</p>
 </sp>
-<sp>
+<sp who="#L0881_M3">
 <speaker>Felicien.</speaker>
 <p>It was no quarrel, sir—mine was a foolish dream, from which I have
 awakened.</p>
 </sp>
-<sp>
+<sp who="#L0881_M1">
 <speaker>Lacroix.</speaker>
 <p>She was unworthy then of love.</p>
 </sp>
-<sp>
+<sp who="#L0881_M3">
 <speaker>Felicien.</speaker>
 <stage> (with emotion)</stage>
 <p>Of such a love as mine, yes.</p>
 </sp>
-<sp>
+<sp who="#L0881_M1">
 <speaker>Lacroix.</speaker>
 <stage> (gently, and placing his hand on Felicien's shoulder)</stage>
 <p>My poor Felicien! tell me, who was the lady?</p>
 <stage>                                        (as he asks the question, the
 Countess in elegant toilette, enters, R., unperceived)</stage>
 </sp>
-<sp>
+<sp who="#L0881_M3">
 <speaker>Felicien.</speaker>
 <p>I pray you, sir, let her name be as my love—a secret.</p>
 <pb n="12"/>
 <stage>                                        (the Countess who has only heard
 the last words, taps Felicien lightly on the arm with her fan)</stage>
 </sp>
-<sp>
+<sp who="#L0881_F13">
 <speaker>Countess.</speaker>
 <p>Love! and a secret! both matters that should have some interest for a lady.
 <stage>(with intention)</stage> Is it that Monsieur Doucet can have felt the
 passion?</p>
 </sp>
-<sp>
+<sp who="#L0881_M3">
 <speaker>Felicien.</speaker>
 <stage> (bowing coldly)</stage>
 <p>He has; but is happy to number it among the things of the past.</p>
 </sp>
-<sp>
+<sp who="#L0881_F13">
 <speaker>Countess.</speaker>
 <stage> (with change of manner)</stage>
 <p>A happiness possibly shared by the lady.</p>
 </sp>
-<sp>
+<sp who="#L0881_M3">
 <speaker>Felicien.</speaker>
 <stage> (glances at her quickly and with bitterness)</stage>
 <p>  A woman, madame, is only happy when she suffers or makes others suffer. To
 suffer, when she loves—to inflict suffering, when she is loved.</p>
 </sp>
-<sp>
+<sp who="#L0881_F13">
 <speaker>Countess.</speaker>
 <stage> (with hauteur)</stage>
 <p>You are severe.</p>
@@ -1053,45 +1148,45 @@ suffer, when she loves—to inflict suffering, when she is loved.</p>
 stage, she turns to the General, and with a bright coquettish smile, gives him
 her hand)</stage>
 </sp>
-<sp>
+<sp who="#L0881_F13">
 <speaker>Countess.</speaker>
 <p>Will you not break a lance, General, in defence of our sex?</p>
 </sp>
-<sp>
+<sp who="#L0881_M1">
 <speaker>Lacroix.</speaker>
 <stage> (confused)</stage>
 <p>I—I, madame. <stage>(recovering himself, and bowing over hand which he raises
 to his lips—she watching Felicien, who is turning over books on table)</stage>
 Against the world, if permitted to wear your colours.</p>
 </sp>
-<sp>
+<sp who="#L0881_F13">
 <speaker>Countess.</speaker>
 <p>Well, there, then <stage>(she plucks flower from stand of plants)</stage> a
 rose, <stage>(giving it)</stage> but beware it has thorns.</p>
 </sp>
-<sp>
+<sp who="#L0881_M1">
 <speaker>Lacroix.</speaker>
 <stage> (bowing)</stage>
 <p>I already feel them—in my heart, madame. </p>
 <stage>(places flower in buttonhole)</stage>
 </sp>
-<sp>
+<sp who="#L0881_F14">
 <speaker>Julie.</speaker>
 <stage> (appearing on threshold of conservatory)</stage>
 <p>Countess! come and help us to laugh; here's a Monsieur Copernicus Kopp
 prophecying the most dismal things. It seems all our stars are falling ones. </p>
 <stage>(the conservatory gradually fills with company)</stage>
 </sp>
-<sp>
+<sp who="#L0881_F13">
 <speaker>Countess.</speaker>
 <p>He shall cast my nativity. <stage>(to Lacroix, as they go up stage)</stage>
 For when I was born—</p>
 </sp>
-<sp>
+<sp who="#L0881_M1">
 <speaker>Lacroix.</speaker>
 <p>Venus must have been at her greatest brilliancy.</p>
 </sp>
-<sp>
+<sp who="#L0881_F13">
 <speaker>Countess.</speaker>
 <stage> (laughs and taps him with fan)</stage>
 <p>And Mars in the ascendant. <stage>(aside and glancing at Felicien)</stage> If
@@ -1099,25 +1194,25 @@ I could only make him jealous!—but, no! he is marble. </p>
 <stage>(they enter conservatory, then exeunt with company—sounds of merry
 laughter at back)</stage>
 </sp>
-<sp>
+<sp who="#L0881_M3">
 <speaker>Felicien.</speaker>
 <stage> (with anger)</stage>
 <p>Why do I stay!—this woman has   no heart.</p>
 <stage>Crosses to canopy, R., to take up hat, as Plumeau enters L., introducing
 De Fauconville.</stage>
 </sp>
-<sp>
+<sp who="#L0881_M7">
 <speaker>Plum.</speaker>
 <p>I will inform Madame—</p>
 <pb n="13"/>
 </sp>
-<sp>
+<sp who="#L0881_M2">
 <speaker>Baron.</speaker>
 <stage> (stopping him)</stage>
 <p>No occasion, <stage>(laughter at back)</stage> my friends have already joined
 her. I'll wait for them here.</p>
 </sp>
-<sp>
+<sp who="#L0881_M7">
 <speaker>Plum.</speaker>
 <p>As monsieur will. <stage>(aside as he moves back towards door, his admiring
 eyes rivetted upon De Fauconville, who is surveying apartment through a
@@ -1127,44 +1222,44 @@ lorgnon)</stage> There's style!—there's manner!—Paris in every gesture.
 <stage>                                        (same moment Felicien turns and
 sees De Fauconville.</stage>
 </sp>
-<sp>
+<sp who="#L0881_M3">
 <speaker>Felicien.</speaker>
 <stage> (in much surprise)</stage>
 <p>Baron de Fauconville!</p>
 </sp>
-<sp>
+<sp who="#L0881_M2">
 <speaker>Baron.</speaker>
 <stage> (in much surprise)</stage>
 <p>Monsieur Felicien Doucet! <stage>(sneeringly)</stage> Though where the body
 is we may expect the shadow.</p>
 </sp>
-<sp>
+<sp who="#L0881_M3">
 <speaker>Felicien.</speaker>
 <stage> (coming down stage)</stage>
 <p>Monsieur de Fauconville, when in Paris I warned you to jest no further upon
 this subject. I repeat that warning here.</p>
 </sp>
-<sp>
+<sp who="#L0881_M2">
 <speaker>Baron.</speaker>
 <stage> (with a laughing nonchalance)</stage>
 <p>I mean no jest; so bright a planet should have many satellites—has had many—
 so we need not be jealous of each other.</p>
 </sp>
-<sp>
+<sp who="#L0881_M3">
 <speaker>Felicien.</speaker>
 <stage> (haughtily)</stage>
 <p>Enough, sir. If I could not doubt the information you forced upon me—one
 privilege at least was left me.</p>
 </sp>
-<sp>
+<sp who="#L0881_M2">
 <speaker>Baron.</speaker>
 <p>What was that?</p>
 </sp>
-<sp>
+<sp who="#L0881_M3">
 <speaker>Felicien.</speaker>
 <p>To despise the informer.</p>
 </sp>
-<sp>
+<sp who="#L0881_M2">
 <speaker>Baron.</speaker>
 <stage> (laughing)</stage>
 <p>I ought to be angry; but that I can make allowance for the irritability of a
@@ -1172,11 +1267,11 @@ deceived and disappointed   lover. Painful as it was for me to dispel the soft
 mirage of love, yet, for once, I felt called upon to play the part of a Mentor,
 and point out the desert beneath.</p>
 </sp>
-<sp>
+<sp who="#L0881_M3">
 <speaker>Felicien.</speaker>
 <p>And your presence here?</p>
 </sp>
-<sp>
+<sp who="#L0881_M2">
 <speaker>Baron.</speaker>
 <stage> (dusting boots with riding whip)</stage>
 <p>As easily accounted for as your own. When half dead with ennui at the
@@ -1186,194 +1281,194 @@ Beauregard was our neighbour; and so a party of us, all Parisians, set out
 the most charming coquette of all Paris had been transformed into a
 shepherdess.</p>
 </sp>
-<sp>
+<sp who="#L0881_M3">
 <speaker>Felicien.</speaker>
 <stage> (impatiently)</stage>
 <p>And your search—</p>
 </sp>
-<sp>
+<sp who="#L0881_M2">
 <speaker>Baron.</speaker>
 <stage> (with meaning)</stage>
 <p>Is already rewarded. <stage>(bows)</stage> I too am an Arcadian!</p>
 </sp>
-<sp>
+<sp who="#L0881_M3">
 <speaker>Felicien.</speaker>
 <stage> (indignantly)</stage>
 <p>Sir! </p>
 <stage>(sound of voices from conservatory)</stage>
 </sp>
-<sp>
+<sp who="#L0881_M2">
 <speaker>Baron.</speaker>
 <stage> (laughing, and indicating by a gesture the approaching company)</stage>
 <p>Oh! in charity! let us not disturb this Paradise which seems complete in all
 things.</p>
 </sp>
-<sp>
+<sp who="#L0881_M3">
 <speaker>Felicien.</speaker>
 <p>Even to the serpent among the flowers.</p>
 <stage>                                        (he draws quickly back, so as to
 remain unobserved, as the Countess, the Baroness d' Antin, Mesdames d' Aumont, Du Helder, St. Roch, and Molasse come down stage, accompanied
 by M.M. Decourcelle, d'Fayolles, Volnay, Molasse, and Copernicus Kopp)</stage>
 </sp>
-<sp>
+<sp who="#L0881_F18">
 <speaker>Baroness.</speaker>
 <p>Only think, dear, of our disinterring you in this manner?</p>
 </sp>
-<sp>
+<sp who="#L0881_M11">
 <speaker>Volnay.</speaker>
 <p>Just at the time, too, that we were bored to death by that monotonous sea,
 and were praying for a new sensation.</p>
 </sp>
-<sp>
+<sp who="#L0881_F13">
 <speaker>Countess.</speaker>
 <stage> (with a constrained gaiety that covers a vexation)</stage>
 <p>How was it you discovered this humble retreat?</p>
 </sp>
-<sp>
+<sp who="#L0881_F18">
 <speaker>Baroness.</speaker>
 <p>It's a discovery we owe to Horace de Fauconville.</p>
 </sp>
-<sp>
+<sp who="#L0881_F13">
 <speaker>Countess.</speaker>
 <stage> (starting)</stage>
 <p>De Fauconville!</p>
 </sp>
-<sp>
+<sp who="#L0881_M11">
 <speaker>Volnay.</speaker>
 <p> Who, like another Columbus, lighted on a new world just as we were
 beginning to tire of the old one.</p>
 </sp>
-<sp>
+<sp who="#L0881_M2">
 <speaker>Baron.</speaker>
 <stage> (advancing)</stage>
 <p>Let us hope the invaders are welcome.</p>
 </sp>
-<sp>
+<sp who="#L0881_F13">
 <speaker>Countess.</speaker>
 <stage> (aside)</stage>
 <p>This man again! <stage>(aloud)</stage> In these primitive regions our doors
 are open to all.</p>
 </sp>
-<sp>
+<sp who="#L0881_M3">
 <speaker>Felicien.</speaker>
 <stage> (aside—up stage)</stage>
 <p>She receives him with a smile. Oh! woman! woman! </p>
 <stage>(he throws himself into fauteuil, L. 2 E., concealed from the company by
 stand of flowers, though visible to audience)</stage>
 </sp>
-<sp>
+<sp who="#L0881_F18">
 <speaker>Baroness.</speaker>
 <stage> (languidly)</stage>
 <p>Nothing so delicious as the country. I could live in it for ever—that is, for
 a week or two—to picnic among the ruins—there are always ruins—to walk by
 moonlight—it's always moonlight in the country.</p>
 </sp>
-<sp>
+<sp who="#L0881_F16">
 <speaker>Madame du H.</speaker>
 <p>Charming!</p>
 </sp>
-<sp>
+<sp who="#L0881_F17">
 <speaker>Madame St. R.</speaker>
 <p>Dee-lightful!</p>
 </sp>
-<sp>
+<sp who="#L0881_M2">
 <speaker>Baron.</speaker>
 <p>So retired—so quiet.</p>
 </sp>
-<sp>
+<sp who="#L0881_F15">
 <speaker>Madame M.</speaker>
 <p>Quiet!—ask Molasse! We came into the country in search of solitude; but
 unless we're always making a noise we get no peace.</p>
 </sp>
-<sp>
+<sp who="#L0881_M5">
 <speaker>Molasse.</speaker>
 <p>It's rural.</p>
 </sp>
-<sp>
+<sp who="#L0881_F15">
 <speaker>Madame M.</speaker>
 <p>But not comfortable: and as for privacy, we can't sit down to our tea,
 but—boo!—a cow comes and thrusts her head in at the window.</p>
 </sp>
-<sp>
+<sp who="#L0881_M2">
 <speaker>Baron.</speaker>
 <stage> (examining them through lorgnon)</stage>
 <p>Beautiful!—who can doubt the genuineness of the milk when the cow herself
 condescends to look after it.</p>
 </sp>
-<sp>
+<sp who="#L0881_F18">
 <speaker>Baroness.</speaker>
 <stage> (languidly)</stage>
 <p>New milk and eggs—delicious!</p>
 </sp>
-<sp>
+<sp who="#L0881_F16">
 <speaker>Madame du H.</speaker>
 <p>  Charming!</p>
 </sp>
-<sp>
+<sp who="#L0881_F17">
 <speaker>Madame St. R.</speaker>
 <p>Dee-lightful!</p>
 </sp>
-<sp>
+<sp who="#L0881_F15">
 <speaker>Madame M.</speaker>
 <p>Eggs!—that's another mistake. I bought a hen the other day, warranted a good
 layer; so naturally expected she would supply the family—we're only six. Well,
 she does nothing of the kind—quite the contrary.</p>
 </sp>
-<sp>
+<sp who="#L0881_M5">
 <speaker>Molasse.</speaker>
 <p>She gave us an egg pretty regularly at first, but since I engaged a boy to
 look after her she lays nothing but shells.</p>
 <pb n="15"/>
 </sp>
-<sp>
+<sp who="#L0881_M4">
 <speaker>Kopp.</speaker>
 <p>You'll find them all in your star—I've been casting your nativity—signs all
 bad—dreadful!</p>
 </sp>
-<sp>
+<sp who="#L0881_M5">
 <speaker>Molasse.</speaker>
 <stage> (alarmed)</stage>
 <p>Fiddlesticks!</p>
 </sp>
-<sp>
+<sp who="#L0881_M4">
 <speaker>Kopp.</speaker>
 <p>It's not your fault. You were born in a wrong house.</p>
 </sp>
-<sp>
+<sp who="#L0881_M5">
 <speaker>Molasse.</speaker>
 <stage> (indignantly)</stage>
 <p>I was born in the house of Molasse and Co., under a most respectable sign,
 and my father—</p>
 </sp>
-<sp>
+<sp who="#L0881_M4">
 <speaker>Kopp.</speaker>
 <p>Don't talk of fathers, they're only secondary causes —the planets are the
 primary.</p>
 </sp>
-<sp>
+<sp who="#L0881_M5">
 <speaker>Molasse.</speaker>
 <p>The deuce they are! If any such planets enter my house—</p>
 </sp>
-<sp>
+<sp who="#L0881_F15">
 <speaker>Madame M.</speaker>
 <stage> (shocked)</stage>
 <p>Molasse!</p>
 </sp>
-<sp>
+<sp who="#L0881_M5">
 <speaker>Molasse.</speaker>
 <p>Sophonisba, I am silent! </p>
 <stage>(as they move up stage, De Fauconville speaks aside to Countess)</stage>
 </sp>
-<sp>
+<sp who="#L0881_M2">
 <speaker>Baron.</speaker>
 <p>A word—I would speak with you.</p>
 </sp>
-<sp>
+<sp who="#L0881_F13">
 <speaker>Countess.</speaker>
 <stage> (with cold hauteur)</stage>
 <p>Sir!</p>
 </sp>
-<sp>
+<sp who="#L0881_M2">
 <speaker>Baron.</speaker>
 <stage> (with tone of menace)</stage>
 <p>I will speak with you.</p>
@@ -1383,22 +1478,22 @@ examining the decoration, &amp;c. of room—she faces De Fauconville with a high
 proud look, her hand resting upon the stand of flowers, L., behind which
 Felicien is seated)</stage>
 </sp>
-<sp>
+<sp who="#L0881_F13">
 <speaker>Countess.</speaker>
 <p>Speak on, sir.</p>
 </sp>
-<sp>
+<sp who="#L0881_M2">
 <speaker>Baron.</speaker>
 <p>  We parted in Paris to meet no more; accident has reversed that decision,
 and I am again at your side. <stage>(his voice softens)</stage> Clare, dear
 Clare!</p>
 </sp>
-<sp>
+<sp who="#L0881_F13">
 <speaker>Countess.</speaker>
 <stage> (with indignant surprise)</stage>
 <p>Have a care, or—</p>
 </sp>
-<sp>
+<sp who="#L0881_M2">
 <speaker>Baron.</speaker>
 <stage> (change of manner)</stage>
 <p>Do you have a care! <stage>(glancing quickly round, he leans towards the
@@ -1407,30 +1502,30 @@ to escape me. <stage>(he laughs)</stage> Folly! I am your shadow, Clare
 Beauregard. </p>
 <stage>(he crosses, R.)</stage>
 </sp>
-<sp>
+<sp who="#L0881_F13">
 <speaker>Countess.</speaker>
 <stage> (in a low voice, and leaning as for support against stand)</stage>
 <p>Will no one rid me of this man? </p>
 <stage>(Felicien, still unperceived, has risen as about to leave his place of
 involuntary concealment, when Julie d'Aumont crosses to Countess)</stage>
 </sp>
-<sp>
+<sp who="#L0881_F14">
 <speaker>Julie.</speaker>
 <stage> (laughing)</stage>
 <p>Do not forget your wager—<stage>(with alarm)</stage> but how pale you are—you
 are ill!</p>
 </sp>
-<sp>
+<sp who="#L0881_F13">
 <speaker>Countess.</speaker>
 <stage> (faintly)</stage>
 <p>It's nothing; nothing, I assure you.</p>
 </sp>
-<sp>
+<sp who="#L0881_M2">
 <speaker>Baron.</speaker>
 <stage> (lounging up)</stage>
 <p>Some sudden fear—a souvenir perhaps.</p>
 </sp>
-<sp>
+<sp who="#L0881_F13">
 <speaker>Countess.</speaker>
 <stage> (raises her head proudly—her flashing eyes fixed on his face)</stage>
 <p>You are mistaken. I have no fear. <stage>(she sweeps past him, and takes C.
@@ -1440,23 +1535,23 @@ bidding you all welcome, I did so on the understanding that ennui should be left
 at the door.</p>
 <pb n="16"/>
 </sp>
-<sp>
+<sp who="#L0881_M11">
 <speaker>Volnay.</speaker>
 <p>The reservation was superfluous: ennui died as we crossed your threshold.</p>
 </sp>
-<sp>
+<sp who="#L0881_F16">
 <speaker>Madame du H.</speaker>
 <p>Charming!</p>
 </sp>
-<sp>
+<sp who="#L0881_F17">
 <speaker>Madame St. R.</speaker>
 <p>Dee-lightful!</p>
 </sp>
-<sp>
+<sp who="#L0881_F18">
 <speaker>Baroness.</speaker>
 <p>You are queen regnant, dear.</p>
 </sp>
-<sp>
+<sp who="#L0881_F13">
 <speaker>Countess.</speaker>
 <p>And shall use the royal prerogative—a yawn, eternal banishment—a sigh, the
 crime of lése Majesté, at least.</p>
@@ -1464,7 +1559,7 @@ crime of lése Majesté, at least.</p>
 down stage—as the latter speaks, Felicien moves from behind the stand of
 flowers.</stage>
 </sp>
-<sp>
+<sp who="#L0881_M2">
 <speaker>Baron.</speaker>
 <stage> (looking after the retiring party)</stage>
 <p>No fear, she says! <stage>(his face darkens, and his voice changes)</stage>
@@ -1474,50 +1569,50 @@ world, her world, will not hesitate to condemn. Marriage is out of the question;
 for, though forgiveness is part of a lover's creed, Felicien Doucet has only to
 know that those papers still exist.</p>
 </sp>
-<sp>
+<sp who="#L0881_M3">
 <speaker>Felicien.</speaker>
 <stage> (who now stands close to Baron, touches him lightly on the arm)</stage>
 <p>For him to demand them again.</p>
 </sp>
-<sp>
+<sp who="#L0881_M2">
 <speaker>Baron.</speaker>
 <stage> (recoiling a step)</stage>
 <p>Monsieur Doucet still here! <stage>(recovering his sangfroid)</stage>
 Delighted to have again the pleasure.</p>
 </sp>
-<sp>
+<sp who="#L0881_M3">
 <speaker>Felicien.</speaker>
 <stage> (calmly but firmly)</stage>
 <p>I demand of you, Baron de Fauconville, those papers which you promised me to
 destroy.</p>
 </sp>
-<sp>
+<sp who="#L0881_M2">
 <speaker>Baron.</speaker>
 <stage> (smiling)</stage>
 <p>You demand them, and by what right?</p>
 </sp>
-<sp>
+<sp who="#L0881_M3">
 <speaker>Felicien.</speaker>
 <p>By the right which belongs to every man who believes a woman to be falsely
 calumniated, and knows her to be defenceless!</p>
 </sp>
-<sp>
+<sp who="#L0881_M2">
 <speaker>Baron.</speaker>
 <p>Falsely! you cannot doubt the proofs I offered?</p>
 </sp>
-<sp>
+<sp who="#L0881_M3">
 <speaker>Felicien.</speaker>
 <p>I do!</p>
 </sp>
-<sp>
+<sp who="#L0881_M2">
 <speaker>Baron.</speaker>
 <p>Your reason?</p>
 </sp>
-<sp>
+<sp who="#L0881_M3">
 <speaker>Felicien.</speaker>
 <p>Their being offered, and by you!</p>
 </sp>
-<sp>
+<sp who="#L0881_M2">
 <speaker>Baron.</speaker>
 <stage> (starts, then with a mocking calmness)</stage>
 <p>Young man, for a lesser insult I have exacted a life—yet I would fain make
@@ -1525,57 +1620,57 @@ some allowance for blighted hopes. You are not the first, nor will you be the
 last who has been the creator of his own angel and borrowed wings from heaven to
 bestow them on a creature of clay.</p>
 </sp>
-<sp>
+<sp who="#L0881_M3">
 <speaker>Felicien.</speaker>
 <p>Enough, sir! I have not now to learn the power   of a slanderous tongue, so
 deadly in its venom that a whole life of purity and truth cannot obliterate the
 momentary stain.</p>
 </sp>
-<sp>
+<sp who="#L0881_M2">
 <speaker>Baron.</speaker>
 <p>Ah! I see. The country air is dispelling the smoke of the town.
 <stage>(laughs)</stage> Birds, flowers, and sunshine all invite to love, no
 wonder we tune our guitars.</p>
 </sp>
-<sp>
+<sp who="#L0881_M3">
 <speaker>Felicien.</speaker>
 <stage> (fiercely and with gesture of menace)</stage>
 <p>No jesting, sir!</p>
 </sp>
-<sp>
+<sp who="#L0881_M2">
 <speaker>Baron.</speaker>
 <stage> (stepping back with imperturbable sang-froid)</stage>
 <p>Chut! the ladies. </p>
 <stage>(the Company enter and advance)</stage>
 <pb n="17"/>
 </sp>
-<sp>
+<sp who="#L0881_F18">
 <speaker>Baroness.</speaker>
 <p>A beautiful collection!</p>
 </sp>
-<sp>
+<sp who="#L0881_F16">
 <speaker>Madame du H.</speaker>
 <p>Charming!</p>
 </sp>
-<sp>
+<sp who="#L0881_F17">
 <speaker>Madame St. R.</speaker>
 <p>Dee-lightful!</p>
 </sp>
-<sp>
+<sp who="#L0881_M11">
 <speaker>Volnay.</speaker>
 <p>Really nature, you know, is not so bad after all, if 'tweren't for the
 exertion, the fatigue, and—and so forth.</p>
 </sp>
-<sp>
+<sp who="#L0881_F13">
 <speaker>Countess.</speaker>
 <p>For shame! to be wearied with everything is now so much the fashion, that to
 be satisfied with the world we live in, is to proclaim oneself out of it.</p>
 </sp>
-<sp>
+<sp who="#L0881_M2">
 <speaker>Baron.</speaker>
 <p>Volnay is right—our modern life is too exhausting.</p>
 </sp>
-<sp>
+<sp who="#L0881_F13">
 <speaker>Countess.</speaker>
 <p>We talk of exhausting life as the peasant accused the ass of drinking up the
 moon when its reflection disappeared with the water. Our dulness grows out of
@@ -1585,56 +1680,56 @@ properly opened their eyes upon it. For enthusiasm they have substituted
 indifference—for, eloquence a drawl—   for intelligence <stage>(laughing and
 throwing wide her arms)</stage> a blank!</p>
 </sp>
-<sp>
+<sp who="#L0881_M2">
 <speaker>Baron.</speaker>
 <stage> (with a sneer)</stage>
 <p>And the remedy—where is that to be found?</p>
 </sp>
-<sp>
+<sp who="#L0881_F13">
 <speaker>Countess.</speaker>
 <stage> (with great spirit)</stage>
 <p>In action! like Demosthenes I exclaim—action! action! action! till our
 Sybarites cease to complain of a crumpled rose leaf; and act the Stoic and the
 hero at home as well as they have done abroad.</p>
 </sp>
-<sp>
+<sp who="#L0881_M3">
 <speaker>Felicien.</speaker>
 <stage> (aside)</stage>
 <p>And she can speak thus—this man must lie, or—</p>
 </sp>
-<sp>
+<sp who="#L0881_F13">
 <speaker>Countess.</speaker>
 <stage> (as she passes Felicien, touches him lightly on the arm with
 fan)</stage>
 <p>You dine with us to day, Monsieur Doucet? You uncle has promised.</p>
 </sp>
-<sp>
+<sp who="#L0881_M3">
 <speaker>Felicien.</speaker>
 <stage> (coldly)</stage>
 <p>Impossible!</p>
 </sp>
-<sp>
+<sp who="#L0881_F13">
 <speaker>Countess.</speaker>
 <stage> (vexed)</stage>
 <p>A previous engagement?</p>
 </sp>
-<sp>
+<sp who="#L0881_M3">
 <speaker>Felicien.</speaker>
 <stage> (hesitating)</stage>
 <p>I <hi>have</hi> other engagements.</p>
 </sp>
-<sp>
+<sp who="#L0881_F13">
 <speaker>Countess.</speaker>
 <stage> (with hauteur and moving a little down stage)</stage>
 <p>As you will. <stage>(aside)</stage> I will punish him for this.</p>
 </sp>
-<sp>
+<sp who="#L0881_M3">
 <speaker>Felicien.</speaker>
 <stage> (as he moves up stage speaks aside to Baron who is leaning carelessly
 against statue)</stage>
 <p>We shall meet again, sir.</p>
 </sp>
-<sp>
+<sp who="#L0881_M2">
 <speaker>Baron.</speaker>
 <stage> (with nonchalance)</stage>
 <p>When and where you please.</p>
@@ -1644,12 +1739,12 @@ dress— he wears his cross and other decorations—his air that of a military
 Grandison of the old school—there is a general titter as the ancient beau comes
 down stage, and with a low bow presents the Countess with a bouquet)</stage>
 </sp>
-<sp>
+<sp who="#L0881_M1">
 <speaker>Lacroix.</speaker>
 <p>Madame! where nature has been so prodigal of loveliness, I dare scarcely hope
 a favourable reception for her meaner beauties.</p>
 </sp>
-<sp>
+<sp who="#L0881_F13">
 <speaker>Countess.</speaker>
 <stage> (taking bouquet)</stage>
 <p>I thank you, General. </p>
@@ -1658,7 +1753,7 @@ a favourable reception for her meaner beauties.</p>
 <stage> glancing anxiously round)</stage>
 <p> Felicien gone! <stage>(aloud)</stage> You flatter, General.</p>
 </sp>
-<sp>
+<sp who="#L0881_M1">
 <speaker>Lacroix.</speaker>
 <stage> (with another low bow)</stage>
 <p>I speak a truth that would   appear a flattery only to those who do not know
@@ -1666,32 +1761,32 @@ you. <stage>(he starts as his eyes rest accidentally upon De Fauconville, who is
 still leaning against statue)</stage> Pardon me, madame! <stage>(with
 agitation)</stage> but —the name of that gentleman?</p>
 </sp>
-<sp>
+<sp who="#L0881_F13">
 <speaker>Countess.</speaker>
 <stage> (surprised)</stage>
 <p>The Baron De Fauconville—shall I introduce you?</p>
 </sp>
-<sp>
+<sp who="#L0881_M1">
 <speaker>Lacroix.</speaker>
 <stage> (stiffly)</stage>
 <p>An introduction is unnecessary.</p>
 </sp>
-<sp>
+<sp who="#L0881_F13">
 <speaker>Countess.</speaker>
 <p>You know him?</p>
 </sp>
-<sp>
+<sp who="#L0881_M1">
 <speaker>Lacroix.</speaker>
 <stage> (very coldly)</stage>
 <p>We have met.</p>
 </sp>
-<sp>
+<sp who="#L0881_F14">
 <speaker>Julie.</speaker>
 <stage> (coming down from conservatory)</stage>
 <p>We shall lose the sunset. </p>
 <stage>(the Company move up stage)</stage>
 </sp>
-<sp>
+<sp who="#L0881_F14">
 <speaker>Julie.</speaker>
 <stage> (aside as she passes Countess)</stage>
 <p>Remember our wager. <stage>(to De Fauconville)</stage> your arm, Baron.</p>
@@ -1699,201 +1794,201 @@ agitation)</stage> but —the name of that gentleman?</p>
 conservatory, with the exception of the Countess and Lacroix—the latter stands
 rigid as a statue, his eyes following De Fauconville)</stage>
 </sp>
-<sp>
+<sp who="#L0881_F13">
 <speaker>Countess.</speaker>
 <stage> (placing hand on Lacroix' arm)</stage>
 <p>General, I have a question to ask you.</p>
 </sp>
-<sp>
+<sp who="#L0881_M1">
 <speaker>Lacroix.</speaker>
 <stage> (starts as one awakening from a reverie)</stage>
 <p>Madame! I—<stage>(bows)</stage> Ask me a hundred, I shall be but too happy to
 reply.</p>
 </sp>
-<sp>
+<sp who="#L0881_F13">
 <speaker>Countess.</speaker>
 <stage> (carelessly playing with fan)</stage>
 <p>Is it true that your nephew returns to Paris next week?</p>
 </sp>
-<sp>
+<sp who="#L0881_M1">
 <speaker>Lacroix.</speaker>
 <p>To-morrow, madame!</p>
 </sp>
-<sp>
+<sp who="#L0881_F13">
 <speaker>Countess.</speaker>
 <p>To-morrow? you surprise me.</p>
 </sp>
-<sp>
+<sp who="#L0881_M1">
 <speaker>Lacroix.</speaker>
 <p>Egad! he surprised <hi>me</hi>—sick of inaction I suppose, and I can't blame
 him, for when I was his age, I'd smelt powder, and knew what it was to give and
 take a sabre cut; though, for the matter of that, I think that my Felicien has
 been wounded.</p>
 </sp>
-<sp>
+<sp who="#L0881_F13">
 <speaker>Countess.</speaker>
 <p>  Wounded!</p>
 </sp>
-<sp>
+<sp who="#L0881_M1">
 <speaker>Lacroix.</speaker>
 <p>Shot through the heart, madame, by that scoundrelly young rifleman, Sergeant
 Cupid. Been jilted by one of those coquettes, who, cat-like, lacerate while they
 play.</p>
 </sp>
-<sp>
+<sp who="#L0881_F13">
 <speaker>Countess.</speaker>
 <p>I know our sex finds but little favour with General Lacroix.</p>
 </sp>
-<sp>
+<sp who="#L0881_M1">
 <speaker>Lacroix.</speaker>
 <stage> (confused)</stage>
 <p>Madame, I—I—<stage>(as she turns slightly away he wipes his forehead)</stage>
 Then—<stage>(aside)</stage> I'd sooner face a cavalry charge than her eyes—each
 glance is a bayonet thrust.</p>
 </sp>
-<sp>
+<sp who="#L0881_F13">
 <speaker>Countess.</speaker>
 <stage> (opening and shutting fan without looking up)</stage>
 <p>And Monsieur Felicien has never mentioned the name of this lady?</p>
 </sp>
-<sp>
+<sp who="#L0881_M1">
 <speaker>Lacroix.</speaker>
 <p>Not he—the rascal is as close as an oyster. The wound is but green as yet
 though, for whenever I attempt to use the probe, he winces, as <hi>I</hi> did
 when first—</p>
 </sp>
-<sp>
+<sp who="#L0881_F13">
 <speaker>Countess.</speaker>
 <stage> (interrupting)</stage>
 <p>Then you questioned him?</p>
 <pb n="19"/>
 </sp>
-<sp>
+<sp who="#L0881_M1">
 <speaker>Lacroix.</speaker>
 <p>I might as well have questioned Sergeant Pons, who answers only in
 monysyllables; but pouf! at the first rough shock in life these young fellows
 cry out that their hearts are broken. In such matters there's no cement like
 time.</p>
 </sp>
-<sp>
+<sp who="#L0881_F13">
 <speaker>Countess.</speaker>
 <stage> (nervously)</stage>
 <p>And your advice to him?</p>
 </sp>
-<sp>
+<sp who="#L0881_M1">
 <speaker>Lacroix.</speaker>
 <p>Is to marry—one nail drives out another—it's the only way to out-manœuvre the
 enemy.</p>
 </sp>
-<sp>
+<sp who="#L0881_F13">
 <speaker>Countess.</speaker>
 <p>You think he will adopt your counsel?</p>
 </sp>
-<sp>
+<sp who="#L0881_M1">
 <speaker>Lacroix.</speaker>
 <p>Sure of it. Meanwhile I shall order him off to Italy, nothing like change of
 scene to cure such a heart disease.</p>
 </sp>
-<sp>
+<sp who="#L0881_F13">
 <speaker>Countess.</speaker>
 <p>  Quit France?</p>
 </sp>
-<sp>
+<sp who="#L0881_M1">
 <speaker>Lacroix.</speaker>
 <p>Madame, I love Felicien—love him as a son; and I cannot bear to know his life
 embittered through the arts of some frivolous coquette.</p>
 </sp>
-<sp>
+<sp who="#L0881_F13">
 <speaker>Countess.</speaker>
 <stage> (with difficulty hiding her emotion)</stage>
 <p>Perhaps you judge too harshly; are you certain the fault lies with the
 lady?</p>
 </sp>
-<sp>
+<sp who="#L0881_M1">
 <speaker>Lacroix.</speaker>
 <stage> (stoutly)</stage>
 <p>I am certain there is no fault in Felicien.</p>
 </sp>
-<sp>
+<sp who="#L0881_F13">
 <speaker>Countess.</speaker>
 <p>Keep Felicien at home, General. Cease to live like a hermit—throw open your
 doors—invite your friends—give balls—fêtes—it's change of society that's wanted,
 not change of scene.</p>
 </sp>
-<sp>
+<sp who="#L0881_M1">
 <speaker>Lacroix.</speaker>
 <stage> (who has listened in a growing and ludicrous alarm)</stage>
 <p>Balls! Fêtes! Turn my house into a caravanserai? Impossible.
 <stage>(aside)</stage> Thunder! What would Pons say?</p>
 </sp>
-<sp>
+<sp who="#L0881_F13">
 <speaker>Countess.</speaker>
 <p>Why impossible?</p>
 </sp>
-<sp>
+<sp who="#L0881_M1">
 <speaker>Lacroix.</speaker>
 <p>At my age habits have become a second nature; our prejudices stiffen with our
 joints.</p>
 </sp>
-<sp>
+<sp who="#L0881_F13">
 <speaker>Countess.</speaker>
 <stage> (looking up with arch simplicity)</stage>
 <p>At your age, general? Are men at fifty then so very old?</p>
 </sp>
-<sp>
+<sp who="#L0881_M1">
 <speaker>Lacroix.</speaker>
 <p>No, madam; but old fellows of sixt—<stage>(he suddenly meets her eyes and
 stops abruptly)</stage> I am over fifty—a year or so.</p>
 </sp>
-<sp>
+<sp who="#L0881_F13">
 <speaker>Countess.</speaker>
 <stage> (in her caressing tone)</stage>
 <p>You'll induce Felicien to stay with us—<stage>(correcting
 herself)</stage>—with you?</p>
 </sp>
-<sp>
+<sp who="#L0881_M1">
 <speaker>Lacroix.</speaker>
 <stage> (taking her hand, but immediately releasing it)</stage>
 <p>How can I sufficiently thank you for the interest you take in him?</p>
 </sp>
-<sp>
+<sp who="#L0881_F13">
 <speaker>Countess.</speaker>
 <stage> (very quickly)</stage>
 <p>In him! in you! It is in you I   take an interest. <stage>(looking
 down)</stage> I would not see you left utterly alone.</p>
 </sp>
-<sp>
+<sp who="#L0881_M1">
 <speaker>Lacroix.</speaker>
 <p>There's always Pons.</p>
 </sp>
-<sp>
+<sp who="#L0881_F13">
 <speaker>Countess.</speaker>
 <stage> (change of manner to that of Pons and saluting)</stage>
 <p>Yes, mon General! <stage>(laughing, and with an air of great
 simplicity)</stage> But how is it you never married?</p>
 </sp>
-<sp>
+<sp who="#L0881_M1">
 <speaker>Lacroix.</speaker>
 <stage> (exploding)</stage>
 <p>Sap-r-r-ris—<stage>(a gesture on part of Countess stops the remainder of
 oath)</stage> I lacked the courage, madame.</p>
 </sp>
-<sp>
+<sp who="#L0881_F13">
 <speaker>Countess.</speaker>
 <p>What! beat a retreat before you have faced the enemy? <stage>(archly)</stage>
 The face must—needs be very terrible.</p>
 <pb n="20"/>
 </sp>
-<sp>
+<sp who="#L0881_M1">
 <speaker>Lacroix.</speaker>
 <p>I offered battle once, though; but just as the enemy was ready to
 capitulate—</p>
 </sp>
-<sp>
+<sp who="#L0881_F13">
 <speaker>Countess.</speaker>
 <p>She changed her mind.</p>
 </sp>
-<sp>
+<sp who="#L0881_M1">
 <speaker>Lacroix.</speaker>
 <p>No, madame, I changed mine. I met the lady at a ball, and fell in love with
 her beautiful hair. It was the most beautiful hair I ever saw—<stage>(glancing
@@ -1906,23 +2001,23 @@ ceremony, for her father and I had served together in Algiers. I crossed the
 lawn and entered—unannounced—the breakfast room. To my astonishment, Sophie—her
 name was   Sophie—was there and alone.</p>
 </sp>
-<sp>
+<sp who="#L0881_F13">
 <speaker>Countess.</speaker>
 <p>And you proposed in due form?</p>
 </sp>
-<sp>
+<sp who="#L0881_M1">
 <speaker>Lacroix.</speaker>
 <p>I did nothing of the kind—for, in place of my charmer of the previous night,
 I beheld a tame, expressionless girl, with a head like a gigantic firework; her
 beautiful hair had all disappeared, and in its place I saw only a forest of
 papers the very rustling of which haunted my dreams for months after.</p>
 </sp>
-<sp>
+<sp who="#L0881_F13">
 <speaker>Countess.</speaker>
 <stage> (laughing)</stage>
 <p>And that was the only cause?</p>
 </sp>
-<sp>
+<sp who="#L0881_M1">
 <speaker>Lacroix.</speaker>
 <p>Madame! the illusion was gone, and marriage stood before me in its blank
 reality. Her beauty was not for the domestic eye, but was only brought out from
@@ -1930,11 +2025,11 @@ its cases and papers with the robes and jewels and other adornments. I stammered
 something—an adieu of some kind, and fled. Thunder! having witnessed the
 cooking—I'd no longer an appetite for the dish.</p>
 </sp>
-<sp>
+<sp who="#L0881_F13">
 <speaker>Countess.</speaker>
 <p>A soldier! and lay down your arms after one defeat?</p>
 </sp>
-<sp>
+<sp who="#L0881_M1">
 <speaker>Lacroix.</speaker>
 <stage> (heartily)</stage>
 <p>I confess the enemy too strong for me. Why, the very shops—and I studied them
@@ -1946,39 +2041,39 @@ disturbed by attractions which were derived from the bone of the whale and the
 tail of the horse. Ah! madame, our modern beauties   defy Time, and with reason,
 for they have an inexhaustible arsenal in the toilette.</p>
 </sp>
-<sp>
+<sp who="#L0881_F13">
 <speaker>Countess.</speaker>
 <p>Then you've resolved never to marry?</p>
 </sp>
-<sp>
+<sp who="#L0881_M1">
 <speaker>Lacroix.</speaker>
 <p>Nev—<stage>(he stops abruptly)</stage> Who would marry an old fellow like
 me?</p>
 </sp>
-<sp>
+<sp who="#L0881_F13">
 <speaker>Countess.</speaker>
 <p>Very many, I'm sure. </p>
 <stage>(she averts her face and laughs—taking fan)</stage>
 <pb n="21"/>
 </sp>
-<sp>
+<sp who="#L0881_M1">
 <speaker>Lacroix.</speaker>
 <stage> (aside)</stage>
 <p>What a woman! If I dared! but no, I'd sooner attack Gibraltar.</p>
 </sp>
-<sp>
+<sp who="#L0881_F13">
 <speaker>Countess.</speaker>
 <stage> (aside)</stage>
 <p>I will gain my wager for the credit of my sex, and <stage>(with
 bitterness)</stage> to punish Felicien.</p>
 </sp>
-<sp>
+<sp who="#L0881_M1">
 <speaker>Lacroix.</speaker>
 <stage> (aside, as Countess moves towards small table, on which is some
 embroidery in work basket)</stage>
 <p>No coquetting there. Ah! if Felicien had only met such a woman.</p>
 </sp>
-<sp>
+<sp who="#L0881_F13">
 <speaker>Countess.</speaker>
 <stage> (carelessly taking up embroidery)</stage>
 <p>I'm afraid, General, you men speak against women, as servants abuse their
@@ -1986,29 +2081,29 @@ masters, and mistresses, trembling the while lest they should be overheard, and
 thereby lose their good opinion. </p>
 <stage>(embroidering mechanically)</stage>
 </sp>
-<sp>
+<sp who="#L0881_M1">
 <speaker>Lacroix.</speaker>
 <p>I would not lose yours, madame, not to be made a Marshal of France—this
 little hand—</p>
 <stage>(taking it)</stage>
 </sp>
-<sp>
+<sp who="#L0881_F13">
 <speaker>Countess.</speaker>
 <stage> (looking up quietly)</stage>
 <p>Well?—<stage>(Lacroix drops her hand in great confusion)</stage> What do you
 want with my hand?</p>
 </sp>
-<sp>
+<sp who="#L0881_M1">
 <speaker>Lacroix.</speaker>
 <p>Nothing, madame, but—<stage>(exploding)</stage> Sap-r-ris—!</p>
 </sp>
-<sp>
+<sp who="#L0881_F13">
 <speaker>Countess.</speaker>
 <stage> (stopping him by a gesture)</stage>
 <p>Fie! General; that makes the third great sounding oath I've heard in five
 minutes.</p>
 </sp>
-<sp>
+<sp who="#L0881_M1">
 <speaker>Lacroix.</speaker>
 <stage> (confusion)</stage>
 <p>True, madame, true. <stage>(desperately)</stage> It's all that rascal Pons.
@@ -2016,21 +2111,21 @@ If I don't swear at him, he will have it   that I'm ill, and immediately sends
 for a doctor—but—<stage>(he has taken her hand again—aside)</stage> My heart
 beats faster than a roll of drums, from a dozen regiments.</p>
 </sp>
-<sp>
+<sp who="#L0881_F13">
 <speaker>Countess.</speaker>
 <stage> (smiling coquettishly)</stage>
 <p>Have you any favor to ask me?</p>
 </sp>
-<sp>
+<sp who="#L0881_M1">
 <speaker>Lacroix.</speaker>
 <p>A myriad!—that is, one for myself—for Felicien.</p>
 </sp>
-<sp>
+<sp who="#L0881_F13">
 <speaker>Countess.</speaker>
 <stage> (slight change of manner)</stage>
 <p>For Felicien!</p>
 </sp>
-<sp>
+<sp who="#L0881_M1">
 <speaker>Lacroix.</speaker>
 <p>If he could only have such an adviser ever near him. <stage>(she starts
 slightly)</stage> as a friend; as—as—an aunt, say. <stage>(Countess bends over
@@ -2041,22 +2136,22 @@ impossible. <stage>(exploding)</stage> Sapr-r-r-ris-ti!! madame! I adore your
 sex—that is <stage>(catching the Countess's laughing gaze)</stage> I would, were
 all women—</p>
 </sp>
-<sp>
+<sp who="#L0881_F13">
 <speaker>Countess.</speaker>
 <stage> (pausing in her work with pretty astonishment)</stage>
 <p>Surely, General, you are rehearsing a part. I fear you too, have caught this
 heart disease; it must be in the air, it's so infectious.</p>
 </sp>
-<sp>
+<sp who="#L0881_M1">
 <speaker>Lacroix.</speaker>
 <p>Pardon me, if—</p>
 </sp>
-<sp>
+<sp who="#L0881_F13">
 <speaker>Countess.</speaker>
 <stage> (taking chair and still working)</stage>
 <p>Pray continue; but first tell me the happy fair one's name.</p>
 </sp>
-<sp>
+<sp who="#L0881_M1">
 <speaker>Lacroix.</speaker>
 <p>Her name? Morbleu!</p>
 <stage>                                        (he seizes her hand and drops
@@ -2064,16 +2159,16 @@ suddenly on his knees, as he does so the Countess with a little scream rises as
 quickly to her feet)</stage>
 <pb n="22"/>
 </sp>
-<sp>
+<sp who="#L0881_F13">
 <speaker>Countess.</speaker>
 <p>You've broken my silk.</p>
 </sp>
-<sp>
+<sp who="#L0881_M1">
 <speaker>Lacroix.</speaker>
 <stage> (greatly confused)</stage>
 <p>Madame, I—</p>
 </sp>
-<sp>
+<sp who="#L0881_F13">
 <speaker>Countess.</speaker>
 <stage> (aside, with rapid glance at back)</stage>
 <p>I see Julie peeping—I shall win! <stage>(she takes skein of silk from basket,
@@ -2082,12 +2177,12 @@ At least repair the damage you have done. <stage>(placing silk quickly over his
 hands)</stage> You can talk while I wind. <stage>(she commences to wind off
 silk)</stage> But not if you look in my eyes so.</p>
 </sp>
-<sp>
+<sp who="#L0881_M1">
 <speaker>Lacroix.</speaker>
 <p>Your eyes! Madame, do but look in mine, and read my heart—I love you, and
 am—</p>
 </sp>
-<sp>
+<sp who="#L0881_F13">
 <speaker>Countess.</speaker>
 <stage> (rising quickly and casting at the same time some of the loose silk
 about him)</stage>
@@ -2097,12 +2192,12 @@ slender threads which encompass her prisoner—at the same moment a peal of merr
 laughter resounds at back, and Julie D'Aumont, Fauconville, and the Guests
 appear on threshold of conservatory)</stage>
 </sp>
-<sp>
+<sp who="#L0881_F14">
 <speaker>Julie.</speaker>
 <stage> (clapping her hands)</stage>
 <p>A triumph of Cupid!</p>
 </sp>
-<sp>
+<sp who="#L0881_M2">
 <speaker>Baron.</speaker>
 <p>Hercules at the feet of Omphale!</p>
 <stage>                                        (Lacroix, who has risen slowly to
@@ -2110,7 +2205,7 @@ his feet, stands erect and silent, his brow contracted, and his look full of a
 stern menace as he gazes around—before this high proud glance the laughter
 ceases, and the intruders fall slightly back)</stage>
 </sp>
-<sp>
+<sp who="#L0881_M1">
 <speaker>Lacroix.</speaker>
 <stage> (with calm dignity and turning to Countess)</stage>
 <p>I am content to have been deceived, it is a just penalty for my blindness and
@@ -2126,7 +2221,7 @@ awed by his dignified bearing, fall back with involuntary respect, all but De
 Fauconville, who stands in his way still laughing —in a moment the hand of
 Lacroix rests upon his arm, which he compresses with a grip of iron)</stage>
 </sp>
-<sp>
+<sp who="#L0881_M1">
 <speaker>Lacroix.</speaker>
 <p>When we next meet, Baron de Fauconville, the mirth will not be all on your
 side; for the present, the jest's with you. <stage>(he hurls De Fauconville
@@ -2158,7 +2253,7 @@ appearance that of one lost in a deep and painful reverie; he is in undress, his
 whole aspect entirely changed from that in Act I. Sergeant Pons up stage, L.,
 brushing uniform.</stage>
 
-<sp>
+<sp who="#L0881_M6">
 <speaker>Pons.</speaker>
 <stage> (stops brushing and looks at Lacroix)</stage>
 <p>Here's nearly an hour he's been like that—the newspaper unread—the coffee
@@ -2172,61 +2267,61 @@ good for much, except Fanchette the Cantinière, and she was never sober but
 twice in the week. </p>
 <stage>(drops brush)</stage>
 </sp>
-<sp>
+<sp who="#L0881_M1">
 <speaker>Lacroix.</speaker>
 <stage> (starting)</stage>
 <p>Who goes there?</p>
 </sp>
-<sp>
+<sp who="#L0881_M6">
 <speaker>Pons.</speaker>
 <stage> (saluting)</stage>
 <p>Sergeant Pons.</p>
 </sp>
-<sp>
+<sp who="#L0881_M1">
 <speaker>Lacroix.</speaker>
 <p>Be off with you.</p>
 </sp>
-<sp>
+<sp who="#L0881_M6">
 <speaker>Pons.</speaker>
 <stage> (coming a little down stage)</stage>
 <p>Where to?</p>
 </sp>
-<sp>
+<sp who="#L0881_M1">
 <speaker>Lacroix.</speaker>
 <p>The devil!—anywhere—and don't come back again. <stage>(rising)</stage> Leave
 me.</p>
 </sp>
-<sp>
+<sp who="#L0881_M6">
 <speaker>Pons.</speaker>
 <stage> (aghast)</stage>
 <p>Leave you?</p>
 </sp>
-<sp>
+<sp who="#L0881_M1">
 <speaker>Lacroix.</speaker>
 <stage> (with increased irritability)</stage>
 <p>Find another master. Go.</p>
 </sp>
-<sp>
+<sp who="#L0881_M6">
 <speaker>Pons.</speaker>
 <stage> (with startling vehemence and striking fist on table)</stage>
 <p>I won't.</p>
 </sp>
-<sp>
+<sp who="#L0881_M1">
 <speaker>Lacroix.</speaker>
 <stage> (turning sharply)</stage>
 <p>Mutiny.</p>
 </sp>
-<sp>
+<sp who="#L0881_M6">
 <speaker>Pons</speaker>
 <stage> (doggedly)</stage>
 <p>I don't care what you call it, but I won't   go.</p>
 </sp>
-<sp>
+<sp who="#L0881_M1">
 <speaker>Lacroix.</speaker>
 <p>You won't?</p>
 <pb n="24"/>
 </sp>
-<sp>
+<sp who="#L0881_M6">
 <speaker>Pons.</speaker>
 <stage> (fist on table)</stage>
 <p>I won't! <stage>(with feeling)</stage> I didn't leave you when you were
@@ -2237,79 +2332,79 @@ because—because—<stage>(his voice falters—he wipes eyes with
 coat-sleeve)</stage> I should like to know what you'd do without me to take care
 of you?</p>
 </sp>
-<sp>
+<sp who="#L0881_M1">
 <speaker>Lacroix.</speaker>
 <stage> (drawing himself stiffly up, and in voice of command)</stage>
 <p>Pons!</p>
 </sp>
-<sp>
+<sp who="#L0881_M6">
 <speaker>Pons.</speaker>
 <stage> (with equal suddenness—saluting)</stage>
 <p>Yes, mon General.</p>
 </sp>
-<sp>
+<sp who="#L0881_M1">
 <speaker>Lacroix.</speaker>
 <p>Embrace me!</p>
 </sp>
-<sp>
+<sp who="#L0881_M6">
 <speaker>Pons.</speaker>
 <stage> (retreating a step or two)</stage>
 <p>Oh!</p>
 </sp>
-<sp>
+<sp who="#L0881_M1">
 <speaker>Lacroix.</speaker>
 <stage> (very sternly)</stage>
 <p>Embrace me!</p>
 </sp>
-<sp>
+<sp who="#L0881_M6">
 <speaker>Pons.</speaker>
 <p>Yes, mon General </p>
 <stage>(he embraces Lacroix, then, as he again draws back wipes his eyes—Lacroix
 taps him good-humouredly on the shoulder)</stage>
 </sp>
-<sp>
+<sp who="#L0881_M1">
 <speaker>Lacroix.</speaker>
 <p>Pons—I've been an old fool!</p>
 </sp>
-<sp>
+<sp who="#L0881_M6">
 <speaker>Pons.</speaker>
 <stage> (half crying, and instinctively saluting)</stage>
 <p>Yes, mon General.</p>
 </sp>
-<sp>
+<sp who="#L0881_M1">
 <speaker>Lacroix.</speaker>
 <stage> (throwing himself into chair and speaking as to himself)</stage>
 <p>Ah! each time an old man's heart beats too quickly he suffers for it, and
 it's right that he should suffer. <stage>(pushing aside coffee)</stage> Pons,
 bring me some water.</p>
 </sp>
-<sp>
+<sp who="#L0881_M6">
 <speaker>Pons.</speaker>
 <stage> (going—stops)</stage>
 <p>Water?</p>
 </sp>
-<sp>
+<sp who="#L0881_M1">
 <speaker>Lacroix.</speaker>
 <p>And cognac.</p>
 </sp>
-<sp>
+<sp who="#L0881_M6">
 <speaker>Pons.</speaker>
 <p>Good! </p>
 <stage>(goes up stage and returns with bottle and glasses which he places on
 table—then drawing snuff-box from pocket places it beside them)</stage>
 </sp>
-<sp>
+<sp who="#L0881_M1">
 <speaker>Lacroix.</speaker>
 <stage> (musing)</stage>
 <p>  Strange that I should meet De Fauconville under her roof, and that for the
 first time. <stage>(mechanically taking up snuff-box)</stage> Pons, how long is
 it since we were in the depôt at Rouen.</p>
 </sp>
-<sp>
+<sp who="#L0881_M6">
 <speaker>Pons.</speaker>
 <p>Ten years.</p>
 </sp>
-<sp>
+<sp who="#L0881_M1">
 <speaker>Lacroix.</speaker>
 <stage> (taking snuff)</stage>
 <p>Just ten years. With him conscience has not added a line nor deepened a
@@ -2317,88 +2412,88 @@ wrinkle. </p>
 <stage>(Pons approaches softly and places an Algerine pipe in Lacroix's hand as
 it hangs listlessly over arm of chair)</stage>
 </sp>
-<sp>
+<sp who="#L0881_M1">
 <speaker>Lacroix.</speaker>
 <p>Bah! he has no conscience—no heart. <stage>(he raises pipe to his lips and
 begins to smoke unconsciously, till raising his eyes he becomes aware of Pons
 who is giving way to every grotesque expression of satisfaction)</stage> What
 are you laughing at, you old gunstock?</p>
 </sp>
-<sp>
+<sp who="#L0881_M6">
 <speaker>Pons.</speaker>
 <stage> (pointing to pipe in triumph)</stage>
 <p><hi>That's</hi> better than a woman, anyhow.</p>
 </sp>
-<sp>
+<sp who="#L0881_M1">
 <speaker>Lacroix.</speaker>
 <stage> (grimly)</stage>
 <p>What do you know of woman?</p>
 </sp>
-<sp>
+<sp who="#L0881_M6">
 <speaker>Pons.</speaker>
 <p>I ought to know something, I married sixteen of 'em, <pb n="25"/> and
 <hi>all</hi> deceived me. They're alive and can't deny it. I took a new one in
 every country we passed through, and—<hi>ventre bleu! la grande armee</hi> went
 round the world.</p>
 </sp>
-<sp>
+<sp who="#L0881_M1">
 <speaker>Lacroix.</speaker>
 <stage> (good humouredly)</stage>
 <p>There, there—let me hear no more of it. <stage>(half aside)</stage> I was
 blind.</p>
 </sp>
-<sp>
+<sp who="#L0881_M6">
 <speaker>Pons.</speaker>
 <stage> (with emphasis)</stage>
 <p>Of course you were. Any one else would have seen with half an eye that poor
 Master Felicien was dying with love for her.</p>
 </sp>
-<sp>
+<sp who="#L0881_M1">
 <speaker>Lacroix.</speaker>
 <stage> (starting to his feet with a cry)</stage>
 <p>Felicien! My Felicien!—are you mad?</p>
 </sp>
-<sp>
+<sp who="#L0881_M6">
 <speaker>Pons.</speaker>
 <p>But being more modest than his uncle, hadn't, I   suppose, the courage to
 speak out. So she, being over head and ears in love with him—</p>
 <stage>(hesitates)</stage>
 </sp>
-<sp>
+<sp who="#L0881_M1">
 <speaker>Lacroix.</speaker>
 <stage> (with a suppressed emotion)</stage>
 <p>Speak out, man—what?</p>
 </sp>
-<sp>
+<sp who="#L0881_M6">
 <speaker>Pons.</speaker>
 <stage> (bluntly)</stage>
 <p>Plays the old fool against the young one. <stage>(smiting knees)</stage> Now
 the murder's out.</p>
 </sp>
-<sp>
+<sp who="#L0881_M1">
 <speaker>Lacroix.</speaker>
 <stage> (sinking into chair)</stage>
 <p>Go! </p>
 <stage>(he waves his hand to Pons, who startled by the effect of his words,
 stands irresolute)</stage>
 </sp>
-<sp>
+<sp who="#L0881_M6">
 <speaker>Pons.</speaker>
 <p>Pardon, mon General, if—</p>
 </sp>
-<sp>
+<sp who="#L0881_M1">
 <speaker>Lacroix.</speaker>
 <p>Go—go! I am not angry, but I would be alone.</p>
 <stage>                                        Exit Pons, R.</stage>
 </sp>
-<sp>
+<sp who="#L0881_M1">
 <speaker>Lacroix.</speaker>
 <p>It's all clear to me, now! My poor boy—my poor boy! I—I—</p>
 <stage>His voice fails him and he lets his head sink upon his hands which rest
 on table—at the same moment the Countess Beauregard appears, in morning walking
 dress, from shrubbery at back.</stage>
 </sp>
-<sp>
+<sp who="#L0881_F13">
 <speaker>Countess.</speaker>
 <stage> (as she comes down stage)</stage>
 <p>I've managed to escape from those tiresome people at last. I've not a moment
@@ -2412,37 +2507,37 @@ chair)</stage> The General! </p>
 manner—he bows with a haughty politeness—his bearing very calm and
 dignified)</stage>
 </sp>
-<sp>
+<sp who="#L0881_M1">
 <speaker>Lacroix.</speaker>
 <p>This visit, madame, is as unexpected as—</p>
 <stage>(he pauses)</stage>
 </sp>
-<sp>
+<sp who="#L0881_F13">
 <speaker>Countess.</speaker>
 <p>Undesired. I know what you would say. <stage>(aside and looking anxiously
 round)</stage> Where is Felicien?</p>
 </sp>
-<sp>
+<sp who="#L0881_M1">
 <speaker>Lacroix.</speaker>
 <p>Knowing so much, may I ask your errand here?</p>
 </sp>
-<sp>
+<sp who="#L0881_F13">
 <speaker>Countess.</speaker>
 <stage> (with sudden energy)</stage>
 <p>To solicit your forgiveness for an act of folly. </p>
 <stage>(she is again advancing, but he stays her by a gesture)</stage>
 <pb n="26"/>
 </sp>
-<sp>
+<sp who="#L0881_M1">
 <speaker>Lacroix.</speaker>
 <p>  I pray you, madame, jest no further in this matter. It is for me to demand
 pardon.</p>
 </sp>
-<sp>
+<sp who="#L0881_F13">
 <speaker>Countess.</speaker>
 <p>You?</p>
 </sp>
-<sp>
+<sp who="#L0881_M1">
 <speaker>Lacroix.</speaker>
 <stage> (bitterly)</stage>
 <p>An old owl that would fain venture out into the sunlight among the younger
@@ -2450,33 +2545,33 @@ birds, to blunder blindly in the unaccustomed glare, and then wend homewards
 with a broken wing. In all this there is matter for laughter, but none for
 pity.</p>
 </sp>
-<sp>
+<sp who="#L0881_F13">
 <speaker>Countess.</speaker>
 <p>Pity?</p>
 </sp>
-<sp>
+<sp who="#L0881_M1">
 <speaker>Lacroix.</speaker>
 <stage> (abruptly)</stage>
 <p>You had another purpose in coming here!</p>
 </sp>
-<sp>
+<sp who="#L0881_F13">
 <speaker>Countess.</speaker>
 <stage> (confused)</stage>
 <p>I—</p>
 </sp>
-<sp>
+<sp who="#L0881_M1">
 <speaker>Lacroix.</speaker>
 <p>Nay, we do not readily drop a jest so well conceived. Was it not to laugh
 once more at the foolish vanity that betrayed its owner into your silken net?
 Your friends! are they not in ambush out there? I pray you bid them enter—only,
 for some, there may still be danger in bearding an old lion in his den.</p>
 </sp>
-<sp>
+<sp who="#L0881_F13">
 <speaker>Countess.</speaker>
 <p>General Lacroix, I am here alone. I came to own a fault and to solicit its
 forgiveness.</p>
 </sp>
-<sp>
+<sp who="#L0881_M1">
 <speaker>Lacroix.</speaker>
 <stage> (coldly)</stage>
 <p>At my age, madame, a folly repented is a lesson gained. It is not, as in
@@ -2486,13 +2581,13 @@ victory is yours, only you must pardon me if I refuse to follow the car of the �
 conqueror. <stage>(seeing the Countess's hesitation)</stage> Our interview is at
 an end.</p>
 </sp>
-<sp>
+<sp who="#L0881_F13">
 <speaker>Countess.</speaker>
 <p>Farewell, sir, I am sorry—<stage>(her voice falters, she moves to go up
 stage, then turns and speaks with a sudden firmness and energy)</stage> You love
 Felicien Doucet?</p>
 </sp>
-<sp>
+<sp who="#L0881_M1">
 <speaker>Lacroix.</speaker>
 <stage> (startled)</stage>
 <p>Love him! <stage>(with feeling)</stage> It is now six and twenty years since
@@ -2501,81 +2596,81 @@ Doucet has been my son. <stage>(with much emotion)</stage> Ah! madame, who would
 not value the legacy of those who, dear to us in life, seem yet nearer and
 dearer as they sleep in the silent tomb?</p>
 </sp>
-<sp>
+<sp who="#L0881_F13">
 <speaker>Countess.</speaker>
 <stage> (with fervour)</stage>
 <p>And Felicien deserves your love! <stage>(checking herself)</stage>
 doubtless.</p>
 </sp>
-<sp>
+<sp who="#L0881_M1">
 <speaker>Lacroix.</speaker>
 <p>It is my pride to believe it. </p>
 <stage>(there is a pause—the Countess's manner betokens much hesitation of
 purpose)</stage>
 </sp>
-<sp>
+<sp who="#L0881_M1">
 <speaker>Lacroix.</speaker>
 <stage> (after regarding her attentively as she stands a little up stage, her
 eyes bent on the ground)</stage>
 <p>Yesterday, I learnt for the first time that you and Felicien were old
 friends.</p>
 </sp>
-<sp>
+<sp who="#L0881_F13">
 <speaker>Countess.</speaker>
 <stage> (without looking up)</stage>
 <p>We had met in Paris.</p>
 </sp>
-<sp>
+<sp who="#L0881_M1">
 <speaker>Lacroix.</speaker>
 <p>It was at your house, madame, if I am rightly informed, that he first met
 this lady whose evil influence has so embittered his life!</p>
 <pb n="27"/>
 </sp>
-<sp>
+<sp who="#L0881_F13">
 <speaker>Countess.</speaker>
 <p>Evil! </p>
 <stage>(she raises her head quickly and in her voice there is a return of the
 old hauteur)</stage>
 </sp>
-<sp>
+<sp who="#L0881_M1">
 <speaker>Lacroix.</speaker>
 <p>What other name for that whose sad effects I daily see and feel?</p>
 </sp>
-<sp>
+<sp who="#L0881_F13">
 <speaker>Countess.</speaker>
 <stage> (indignantly)</stage>
 <p>The fault then lies with her? <stage>(Lacroix is silent)</stage> Thus man
 ever decides; man who preaches the cant of chivalry, yet finds no echo to the
 ready words, in   the strong egotism of his heart.</p>
 </sp>
-<sp>
+<sp who="#L0881_M1">
 <speaker>Lacroix.</speaker>
 <p>Madame!</p>
 </sp>
-<sp>
+<sp who="#L0881_F13">
 <speaker>Countess.</speaker>
 <stage> (with increasing energy)</stage>
 <p>Think you a woman's life is always that piece of conventionality, which man
 would make it? you draw a circle round her—narrow her sphere of action, and then
 declare her brain is weak; her thought a feather, and her heart a void!</p>
 </sp>
-<sp>
+<sp who="#L0881_M1">
 <speaker>Lacroix.</speaker>
 <p>Madame!</p>
 </sp>
-<sp>
+<sp who="#L0881_F13">
 <speaker>Countess.</speaker>
 <p>This, and all this contained in that one word— coquette. Man claims all,
 usurps all but that narrow domain, in which we reign supreme. Society is woman's
 battle-field; and the coquetry that dazzles and confounds, is often but the
 glittering veil which woman's pride throws over a tortured heart.</p>
 </sp>
-<sp>
+<sp who="#L0881_M1">
 <speaker>Lacroix.</speaker>
 <stage> (in involuntary admiration)</stage>
 <p>If all women spoke thus—</p>
 </sp>
-<sp>
+<sp who="#L0881_F13">
 <speaker>Countess.</speaker>
 <stage> (bitterly)</stage>
 <p>What! Would you look for a woman's heart upon her lips? we feel acutely; more
@@ -2585,192 +2680,192 @@ first lesson—Nature is sent to school, to wear a backboard, and put a padlock 
 her tongue. Why wonder then with such a teaching, if we are hypocrites perforce,
 almost from the cradle to the grave.</p>
 </sp>
-<sp>
+<sp who="#L0881_M1">
 <speaker>Lacroix.</speaker>
 <stage> (much moved)</stage>
 <p>I pray you—</p>
 </sp>
-<sp>
+<sp who="#L0881_F13">
 <speaker>Countess.</speaker>
 <p>  Enough! enough! It was not for this I came. <stage>(her voice grows firmer,
 and she raises her head proudly)</stage> I love Felicien Doucet—yes—I love him!
 and it is to save him from an impending danger that I am here.</p>
 </sp>
-<sp>
+<sp who="#L0881_M1">
 <speaker>Lacroix.</speaker>
 <p>Danger to Felicien?</p>
 </sp>
-<sp>
+<sp who="#L0881_F13">
 <speaker>Countess.</speaker>
 <p>You know Horace de Fauconville? <stage>(Lacroix hesitates)</stage> You do
 know him!</p>
 </sp>
-<sp>
+<sp who="#L0881_M1">
 <speaker>Lacroix.</speaker>
 <p>I know him!</p>
 </sp>
-<sp>
+<sp who="#L0881_F13">
 <speaker>Countess.</speaker>
 <p>You know then that he is without honour, as he is without heart—a man that
 would recoil from no act, however base—no vengeance, however deadly!</p>
 </sp>
-<sp>
+<sp who="#L0881_M1">
 <speaker>Lacroix.</speaker>
 <p>All this I know!</p>
 </sp>
-<sp>
+<sp who="#L0881_F13">
 <speaker>Countess.</speaker>
 <stage> (lowering her voice as in a shuddering fear)</stage>
 <p>You know then the evil reputation that has protected him so long— that of a
 duellist, without rival; and as pitiless as skilful.</p>
 <pb n="28"/>
 </sp>
-<sp>
+<sp who="#L0881_M1">
 <speaker>Lacroix.</speaker>
 <stage> (with much agitation)</stage>
 <p>No more, I pray you—no more, madame, upon this subject! <stage>(the Countess
 pauses, surprised)</stage> Speak of Felicien, and say in what lurks a danger to
 him.</p>
 </sp>
-<sp>
+<sp who="#L0881_F13">
 <speaker>Countess.</speaker>
 <p>In his love for me!</p>
 </sp>
-<sp>
+<sp who="#L0881_M1">
 <speaker>Lacroix.</speaker>
 <p>How a danger?</p>
 </sp>
-<sp>
+<sp who="#L0881_F13">
 <speaker>Countess.</speaker>
 <p>De Fauconville has sworn never to spare a rival!</p>
 </sp>
-<sp>
+<sp who="#L0881_M1">
 <speaker>Lacroix.</speaker>
 <stage> (recoiling)</stage>
 <p>Rival? De Fauconville then is your lover—<stage>(with severity)</stage> a
 favoured one?</p>
 </sp>
-<sp>
+<sp who="#L0881_F13">
 <speaker>Countess.</speaker>
 <p>No! I have been wrong—foolish; but the bright light of day is not more pure
 than I am.</p>
 </sp>
-<sp>
+<sp who="#L0881_M1">
 <speaker>Lacroix.</speaker>
 <p>  Yet this man has a power over you!</p>
 </sp>
-<sp>
+<sp who="#L0881_F13">
 <speaker>Countess.</speaker>
 <p>A fatal one! <stage>(with much emotion)</stage> I am still young —my past is
 but of yesterday—yet the persecution of this bad man has made my life a
 lengthened bitterness.</p>
 </sp>
-<sp>
+<sp who="#L0881_M1">
 <speaker>Lacroix.</speaker>
 <stage> (in a tone of doubt)</stage>
 <p>And you so gay, so—</p>
 </sp>
-<sp>
+<sp who="#L0881_F13">
 <speaker>Countess.</speaker>
 <p>Have early learnt the great secret of my sex—to clothe a grief in smiles, and
 hide as only women can, the sorrows of the heart.</p>
 </sp>
-<sp>
+<sp who="#L0881_M1">
 <speaker>Lacroix.</speaker>
 <p>Still this mystery.</p>
 </sp>
-<sp>
+<sp who="#L0881_F13">
 <speaker>Countess.</speaker>
 <stage> (sinking into chair)</stage>
 <p>It is to explain that mystery I am here.</p>
 </sp>
-<sp>
+<sp who="#L0881_M1">
 <speaker>Lacroix.</speaker>
 <stage> (kindly)</stage>
 <p>You are pale, madame; <stage>(taking her hand)</stage> your hand trembles,
 if—</p>
 <stage>Enter Pons at back, salutes.</stage>
 </sp>
-<sp>
+<sp who="#L0881_M6">
 <speaker>Pons.</speaker>
 <p>Visitors.</p>
 </sp>
-<sp>
+<sp who="#L0881_M1">
 <speaker>Lacroix.</speaker>
 <stage> (sharply)</stage>
 <p>Not visible.</p>
 </sp>
-<sp>
+<sp who="#L0881_M6">
 <speaker>Pons.</speaker>
 <p>Too late. <stage>(points off)</stage> The enemy has passed the
 entrenchments.</p>
 </sp>
-<sp>
+<sp who="#L0881_M1">
 <speaker>Lacroix.</speaker>
 <stage> (to the Countess who has risen—his voice full of kindness)</stage>
 <p>You are agitated. <stage>(opening door, R.)</stage> I will join you in the
 library when I have got rid of these people.</p>
 </sp>
-<sp>
+<sp who="#L0881_F13">
 <speaker>Countess.</speaker>
 <p>I thank you—I—I must speak.</p>
 <stage>                                        (she passes out, and as Lacroix
 re-closes door Madame Molasse, Molasse, and Copernicus Kopp appear at back and
 come down stage—exit Pons, door L.)</stage>
 </sp>
-<sp>
+<sp who="#L0881_M4">
 <speaker>Kopp.</speaker>
 <stage> (coming down to Lacroix in his usual raven-like manner)</stage>
 <p>Poor Monsieur Felicien!</p>
 </sp>
-<sp>
+<sp who="#L0881_M5">
 <speaker>Molasse.</speaker>
 <stage> (same manner)</stage>
 <p>Poor creetur!</p>
 </sp>
-<sp>
+<sp who="#L0881_F15">
 <speaker>Madame M.</speaker>
 <p>Poor young man!</p>
 </sp>
-<sp>
+<sp who="#L0881_M1">
 <speaker>Lacroix.</speaker>
 <stage> (angrily turning from one to the other)</stage>
 <p>What<hi> do</hi> you mean?</p>
 </sp>
-<sp>
+<sp who="#L0881_M4">
 <speaker>Kopp.</speaker>
 <p>  Last night I cast his nativity.</p>
 </sp>
-<sp>
+<sp who="#L0881_M1">
 <speaker>Lacroix.</speaker>
 <stage> (impatiently)</stage>
 <p>For the hundredth time.</p>
 </sp>
-<sp>
+<sp who="#L0881_M4">
 <speaker>Kopp.</speaker>
 <p>True; but each time with a different result. <stage>(drawing large
 handkerchief slowly from pocket)</stage> It's very sad!<stage>Madame M. and
 Molasse.</stage>It's very sad.</p>
 <pb n="29"/>
 </sp>
-<sp>
+<sp who="#L0881_M1">
 <speaker>Lacroix.</speaker>
 <p>What's sad?</p>
 </sp>
-<sp>
+<sp who="#L0881_M4">
 <speaker>Kopp.</speaker>
 <p>Mars having entered the house of Venus, the young man is marked for a great
 misfortune—an early death—dreadful!</p>
 </sp>
-<sp>
+<sp who="#L0881_F15">
 <speaker>Madame M.</speaker>
 <p>But you prophecied the same of Molasse.</p>
 </sp>
-<sp>
+<sp who="#L0881_M4">
 <speaker>Kopp.</speaker>
 <p>And was disappointed—I confess it—the stars are ot infallible.</p>
 </sp>
-<sp>
+<sp who="#L0881_M1">
 <speaker>Lacroix.</speaker>
 <stage> (turning from one to the other)</stage>
 <p>Gentlemen—madame, surely, it's time enough for the ravens to croak when the
@@ -2778,84 +2873,84 @@ battle's fought. </p>
 <stage>(he goes a little up stage, they remaining down, gesticulating
 dolefully)</stage>
 </sp>
-<sp>
+<sp who="#L0881_M1">
 <speaker>Lacroix.</speaker>
 <stage> (to Pons who, entering, L., crosses towards back of stage)</stage>
 <p>Where are you going?</p>
 </sp>
-<sp>
+<sp who="#L0881_M6">
 <speaker>Pons.</speaker>
 <p>Message from Master Felicien!</p>
 </sp>
-<sp>
+<sp who="#L0881_M1">
 <speaker>Lacroix.</speaker>
 <p>Good! </p>
 <stage>(he is turning again down stage when Pons, as he turns to go up stage
 again, speaks)</stage>
 </sp>
-<sp>
+<sp who="#L0881_M6">
 <speaker>Pons.</speaker>
 <p>To Monsieur de Fauconville!</p>
 </sp>
-<sp>
+<sp who="#L0881_M1">
 <speaker>Lacroix.</speaker>
 <p>Ah! <stage>(seizing Pons by the arm)</stage> Give me the letter!</p>
 </sp>
-<sp>
+<sp who="#L0881_M6">
 <speaker>Pons.</speaker>
 <stage> (hesitating)</stage>
 <p>Mon general!</p>
 </sp>
-<sp>
+<sp who="#L0881_M1">
 <speaker>Lacroix.</speaker>
 <p>I will deliver it myself!</p>
 </sp>
-<sp>
+<sp who="#L0881_M4">
 <speaker>Kopp.</speaker>
 <stage> (addressing Lacroix as he comes down stage)</stage>
 <p>I'm always sorry to be the bearer of bad tidings—but when one takes to
 sweeping the heavens—</p>
 </sp>
-<sp>
+<sp who="#L0881_M1">
 <speaker>Lacroix.</speaker>
 <p>There's no end to the rubbish collected. Confine   your predictions in future
 to those who have time and inclination to listen to them—Monsieur Molasse for
 instance.</p>
 </sp>
-<sp>
+<sp who="#L0881_M5">
 <speaker>Molasse.</speaker>
 <stage> (hastily)</stage>
 <p>Thank'ee, general; but Monsieur Copernicus is too kind already—he's always
 bringing us something new in the way of a misfortune.</p>
 </sp>
-<sp>
+<sp who="#L0881_F15">
 <speaker>Madame M.</speaker>
 <p>We'd no idea what a miserable world it was till he brought it home to us.</p>
 </sp>
-<sp>
+<sp who="#L0881_M5">
 <speaker>Molasse.</speaker>
 <p>We shouldn't know half our mishaps if it wasn't for him.</p>
 </sp>
-<sp>
+<sp who="#L0881_F15">
 <speaker>Madame M.</speaker>
 <p>And he's so far to go to look for them.</p>
 </sp>
-<sp>
+<sp who="#L0881_M4">
 <speaker>Kopp.</speaker>
 <p>It's always best to expect the worst. </p>
 <stage>(Lacroix up stage talking to Pons)</stage>
 </sp>
-<sp>
+<sp who="#L0881_F15">
 <speaker>Madame M.</speaker>
 <p>But very distressing to one's nerves. We've all our proper spears, as I say
 to M., and I wish the planets would keep to theirs and leave us to ours.</p>
 </sp>
-<sp>
+<sp who="#L0881_M4">
 <speaker>Kopp.</speaker>
 <p>Madame, I wish to be of service to all, and am but too happy to be able to
 announce their miseries to my neighbours.</p>
 </sp>
-<sp>
+<sp who="#L0881_M5">
 <speaker>Molasse.</speaker>
 <p>And ours have more than answered expectation— nothing has gone well with us
 since the planets became partners in the same concern; our systems ain't the
@@ -2865,72 +2960,72 @@ are no sooner laid than they're poached; and as for our chickens, they seem born
 with as many pips as an orange.</p>
 <pb n="30"/>
 </sp>
-<sp>
+<sp who="#L0881_F15">
 <speaker>Madame M.</speaker>
 <p>And, I suppose as we have no children, the measles have settled down into the
 pigs.</p>
 </sp>
-<sp>
+<sp who="#L0881_M5">
 <speaker>Molasse.</speaker>
 <p>  But then if it wasn't for such things. we shouldn't know we were in the
 country; and, if we can only get a little grass to grow on the lawn, we shall
 soon be as green as our neighbours.</p>
 </sp>
-<sp>
+<sp who="#L0881_M1">
 <speaker>Lacroix.</speaker>
 <stage> (coming down stage with impatience)</stage>
 <p>You would see my garden, Monsieur Molasse. I have business, business of
 importance, but Pons will conduct you over it.</p>
 </sp>
-<sp>
+<sp who="#L0881_M5">
 <speaker>Molasse.</speaker>
 <p>Thankee, general! happy to return the accomodation. We haven't anything to
 show as yet, but the seeds take very kindly to the ground.</p>
 </sp>
-<sp>
+<sp who="#L0881_F15">
 <speaker>Madame M.</speaker>
 <p>So kindly that they seem determined never to come out of it.</p>
 </sp>
-<sp>
+<sp who="#L0881_M1">
 <speaker>Lacroix.</speaker>
 <stage> (with growing impatience)</stage>
 <p>I am sorry that business—</p>
 </sp>
-<sp>
+<sp who="#L0881_M4">
 <speaker>Kopp.</speaker>
 <stage> (turns as they go up stage)</stage>
 <p>Business on a Friday! it'll be a bad business for somebody.</p>
 </sp>
-<sp>
+<sp who="#L0881_M1">
 <speaker>Lacroix.</speaker>
 <stage> (same impatience)</stage>
 <p>You will find refreshments in the arbour.</p>
 </sp>
-<sp>
+<sp who="#L0881_F15">
 <speaker>Madame M.</speaker>
 <stage> (turns)</stage>
 <p>Arbour! we've a beauty, if it was only waterproof; but all last spring, we
 was obliged to sit in it with umbrellas.</p>
 </sp>
-<sp>
+<sp who="#L0881_M5">
 <speaker>Molasse.</speaker>
 <stage> (turns)</stage>
 <p>But general, what does it matter? it's rural, and rain's refreshing; and as I
 say to Sophonisba, if ever we are blessed with an increase of family—we've none
 as yet, but—</p>
 </sp>
-<sp>
+<sp who="#L0881_F15">
 <speaker>Madame M.</speaker>
 <stage> (shocked)</stage>
 <p>  Molasse!</p>
 </sp>
-<sp>
+<sp who="#L0881_M5">
 <speaker>Molasse.</speaker>
 <p>Sophonisba, I am silent.</p>
 <stage>                                        (they exeunt hurried out by Pons,
 C. to R.</stage>
 </sp>
-<sp>
+<sp who="#L0881_M1">
 <speaker>Lacroix.</speaker>
 <p>At last! <stage>(breaks seal of note)</stage> Pardon me, Felicien, my son!
 <stage>(glancing at note)</stage> A challenge, as I suspected—rash boy!
@@ -2941,7 +3036,7 @@ a villain! and if true, you are a coward.” Phew! <stage>(he whistles)</stage>
 It's well this fell into my hands. <stage>(going up stage)</stage> I must see
 this Monsieur De Fauconville, and—</p>
 </sp>
-<sp>
+<sp who="#L0881_M2">
 <speaker>Baron.</speaker>
 <stage> (off stage at back)</stage>
 <p>No one on the premises? general desertion of the garrison? <stage>(saunters
@@ -2951,12 +3046,12 @@ eye, and is smoking)</stage> Curious place—sort of bivouac, I suppose.
 leisurely down stage)</stage> Good morning, general! must apologise for
 intruding unannounced; but finding your gates open—</p>
 </sp>
-<sp>
+<sp who="#L0881_M1">
 <speaker>Lacroix.</speaker>
 <p>No apology is necessary. The Baron de Fauconville was never more welcome.</p>
 <pb n="31"/>
 </sp>
-<sp>
+<sp who="#L0881_M2">
 <speaker>Baron.</speaker>
 <stage> (aside)</stage>
 <p>What the deuce does he mean? <stage>(aloud)</stage> Having a little business
@@ -2964,52 +3059,52 @@ to transact with Monsieur Doucet, who, perhaps you know is an old acquaintance
 of mine— </p>
 <stage>(pausing and knocking ashes from cigar)</stage>
 </sp>
-<sp>
+<sp who="#L0881_M1">
 <speaker>Lacroix.</speaker>
 <p>I did not know it till this minute, but I think you and I may claim a still
 older acquaintance.</p>
 </sp>
-<sp>
+<sp who="#L0881_M2">
 <speaker>Baron.</speaker>
 <stage> (surprised)</stage>
 <p>Eh?</p>
 </sp>
-<sp>
+<sp who="#L0881_M1">
 <speaker>Lacroix.</speaker>
 <p>  You have no recollection of me?</p>
 </sp>
-<sp>
+<sp who="#L0881_M2">
 <speaker>Baron.</speaker>
 <stage> (replacing lorgnon in eye—leisurely surveying Lacroix)</stage>
 <p>Not the slightest. My visiting list is a large one, and therefore I may be
 pardoned if I forget a face or two.</p>
 </sp>
-<sp>
+<sp who="#L0881_M1">
 <speaker>Lacroix.</speaker>
 <stage><hi>I</hi> never do. Yours, for instance, has been ever present to my
 memory since I first saw it—some ten years ago, and then only for a few
 hours.</stage>
 </sp>
-<sp>
+<sp who="#L0881_M2">
 <speaker>Baron.</speaker>
 <stage> (bowing)</stage>
 <p>You flatter me.</p>
 </sp>
-<sp>
+<sp who="#L0881_M1">
 <speaker>Lacroix.</speaker>
 <stage> (quietly)</stage>
 <p>Not at all. It may surprise you, doubtless, but united with a distinct
 remembrance of your face—I also possess as clear a knowledge of your character
 and personal attainments—</p>
 </sp>
-<sp>
+<sp who="#L0881_M2">
 <speaker>Baron.</speaker>
 <stage> (superciliously)</stage>
 <p>I suppose, general, you've been taking lessons of the astronomer, Copernicus
 Kopp. <stage>(smoking)</stage> May I ask you for a sample of your
 intelligence?</p>
 </sp>
-<sp>
+<sp who="#L0881_M1">
 <speaker>Lacroix.</speaker>
 <stage> (gradually drawing nearer as he speaks)</stage>
 <p>You are one of those curious amalgamations unhappily but too often met with
@@ -3018,27 +3113,27 @@ bows)</stage> The delight of women, and the envy of men! <stage>(Baron bows
 again)</stage> The polished shell of gentleman without the heart! A rouè without
 conscience! A gambler without honesty!</p>
 </sp>
-<sp>
+<sp who="#L0881_M2">
 <speaker>Baron.</speaker>
 <stage> (fiercely)</stage>
 <p>How, sir!</p>
 </sp>
-<sp>
+<sp who="#L0881_M1">
 <speaker>Lacroix.</speaker>
 <stage> (calmly)</stage>
 <p>And a duellist almost without rival.</p>
 </sp>
-<sp>
+<sp who="#L0881_M2">
 <speaker>Baron.</speaker>
 <stage> (with short laugh of menace)</stage>
 <p>You know <hi>that</hi>!</p>
 </sp>
-<sp>
+<sp who="#L0881_M1">
 <speaker>Lacroix.</speaker>
 <p>I know you for one of those bravoes of society,   who have elevated
 assassination into an art, and made of murder a science.</p>
 </sp>
-<sp>
+<sp who="#L0881_M2">
 <speaker>Baron.</speaker>
 <stage> (casting away cigar)</stage>
 <p>And yet you dare!</p>
@@ -3046,33 +3141,33 @@ assassination into an art, and made of murder a science.</p>
 of menace, when Lacroix, drawing himself proudly up, stops him by a look, at the
 same time folding his arms upon his breast)</stage>
 </sp>
-<sp>
+<sp who="#L0881_M1">
 <speaker>Lacroix.</speaker>
 <p>Stop, sir! and let me remind you of our last place of meeting: it was in the
 wood of Couci, near Rouen.</p>
 </sp>
-<sp>
+<sp who="#L0881_M2">
 <speaker>Baron.</speaker>
 <stage> (as reflecting)</stage>
 <p>Couci—ah! </p>
 <stage>(he starts—same moment Pons, unperceived by either, appears at second
 door, R. up stage)</stage>
 </sp>
-<sp>
+<sp who="#L0881_M1">
 <speaker>Lacroix.</speaker>
 <p>I was second in a duel of which you were one of the principals. My friend was
 a young man, a mere boy. The quarrel was over a gaming table; he had accused
 you, Baron de Fauconville, and accused you with truth, of cheating.</p>
 <pb n="32"/>
 </sp>
-<sp>
+<sp who="#L0881_M2">
 <speaker>Baron.</speaker>
 <stage> (starting forward)</stage>
 <p>How! </p>
 <stage>(he raises his arm, but Lacroix seizes it as it descends, and puts him
 firmly back)</stage>
 </sp>
-<sp>
+<sp who="#L0881_M1">
 <speaker>Lacroix.</speaker>
 <stage> (very calm)</stage>
 <p>All in good time, Monsieur de Fauconville—at least hear out my story. The
@@ -3085,24 +3180,24 @@ fortunate; with deliberate cruelty you placed your hand on that child's heart.
 shot him through the heart; yes, like a coward and an assassin, you shot him,
 through the heart.</p>
 </sp>
-<sp>
+<sp who="#L0881_M2">
 <speaker>Baron.</speaker>
 <stage> (with rage)</stage>
 <p>You shall answer this!</p>
 </sp>
-<sp>
+<sp who="#L0881_M1">
 <speaker>Lacroix.</speaker>
 <p>All in good time, Monsieur de Fauconville. That   boy was the only son of a
 widow; her husband had been my earliest friend, and when I saw her last hope
 lying dead— murdered!—upon the ground, I swore to kill you, Monsieur de
 Fauconville.</p>
 </sp>
-<sp>
+<sp who="#L0881_M2">
 <speaker>Baron.</speaker>
 <stage> (with a sneer)</stage>
 <p>An oath easily taken.</p>
 </sp>
-<sp>
+<sp who="#L0881_M1">
 <speaker>Lacroix.</speaker>
 <p>And tardily kept. Your friends had hurried you away. Three hours after my
 regiment was under orders for Algiers. Ten years have elapsed since then, and
@@ -3111,98 +3206,98 @@ calm determined aspect of the old General, and stands confused and
 irresolute)</stage> I have also a demand to make upon the part of a lady—the
 Countess Beauregard.</p>
 </sp>
-<sp>
+<sp who="#L0881_M2">
 <speaker>Baron.</speaker>
 <p>Ah!</p>
 </sp>
-<sp>
+<sp who="#L0881_M1">
 <speaker>Lacroix.</speaker>
 <p>Whose name it has been your endeavour to compromise by means of some letters,
 which—</p>
 </sp>
-<sp>
+<sp who="#L0881_M2">
 <speaker>Baron.</speaker>
 <stage> (with a resumption of his usual sneering sang-froid)</stage>
 <p>Are here! <stage>(he taps breast pocket of coat)</stage> When I part with
 them it will be to my wife.</p>
 </sp>
-<sp>
+<sp who="#L0881_M1">
 <speaker>Lacroix.</speaker>
 <stage> (startled)</stage>
 <p>Your wife!</p>
 </sp>
-<sp>
+<sp who="#L0881_M2">
 <speaker>Baron.</speaker>
 <stage> (laughs)</stage>
 <p>I'm too poor to be generous; if the Countess marries again, it will be to but
 one person—myself.</p>
 </sp>
-<sp>
+<sp who="#L0881_M1">
 <speaker>Lacroix.</speaker>
 <p>Read, sir! <stage>(giving Felicien's letter)</stage> That note is addressed
 to you.</p>
 </sp>
-<sp>
+<sp who="#L0881_M2">
 <speaker>Baron.</speaker>
 <stage> (with his usual impertinent impassibility)</stage>
 <p>And has been opened by you—<stage>(smiling)</stage> Really, general!</p>
 </sp>
-<sp>
+<sp who="#L0881_M1">
 <speaker>Lacroix.</speaker>
 <p>Read, sir! time presses.</p>
 </sp>
-<sp>
+<sp who="#L0881_M2">
 <speaker>Baron.</speaker>
 <stage> (who has glanced at note)</stage>
 <p>A challenge! <stage>(quietly refolding note)</stage>   Is it the uncle or the
 nephew that is to open the ball?</p>
 </sp>
-<sp>
+<sp who="#L0881_M1">
 <speaker>Lacroix.</speaker>
 <stage> (moving a little up stage)</stage>
 <p>Follow me!</p>
 </sp>
-<sp>
+<sp who="#L0881_M2">
 <speaker>Baron.</speaker>
 <stage> (without moving)</stage>
 <p>No—Upon second thoughts I shall <pb n="33"/> give Felicien the preference.
 This challenge bears a prior date to yours.</p>
 </sp>
-<sp>
+<sp who="#L0881_M1">
 <speaker>Lacroix.</speaker>
 <stage> (aghast)</stage>
 <p>This is folly.</p>
 </sp>
-<sp>
+<sp who="#L0881_M2">
 <speaker>Baron.</speaker>
 <p>My dear general, it is quite the contrary. I have sworn that Madame
 Beauregard shall marry me or—no one— and I will destroy the possibility of her
 doing otherwise, that's all.</p>
 </sp>
-<sp>
+<sp who="#L0881_M1">
 <speaker>Lacroix.</speaker>
 <stage> (coming down stage much agitated)</stage>
 <p>Villain!</p>
 </sp>
-<sp>
+<sp who="#L0881_M2">
 <speaker>Baron.</speaker>
 <stage> (laughing)</stage>
 <p>Be just, general—be just. <stage>(re-opening note and holding it up)</stage>
 Felicien's is the prior right—and it is only at his request I will wave.</p>
 </sp>
-<sp>
+<sp who="#L0881_M1">
 <speaker>Lacroix.</speaker>
 <p>Assassin! </p>
 <stage>(he strikes Baron—the latter staggers back a few paces—recovers
 himself—dashes down note, and, with a startling change of manner turns to
 Lacroix)</stage>
 </sp>
-<sp>
+<sp who="#L0881_M2">
 <speaker>Baron.</speaker>
 <stage> (his voice choking with passion)</stage>
 <p>Your weapons?</p>
 </sp>
-<sp>
+<sp who="#L0881_M1">
 <speaker>Lacroix.</speaker>
 <p>Swords.</p>
 <stage>                                        (Pons who has listened to the
@@ -3210,53 +3305,53 @@ preceding scene with much excitement, and a gesticulation both humorous and
 pathetic disappears into room R. 3 E.—and immediately re-appears with two small
 swords)</stage>
 </sp>
-<sp>
+<sp who="#L0881_M6">
 <speaker>Pons.</speaker>
 <stage> (coming down stage)</stage>
 <p>They're here!</p>
 </sp>
-<sp>
+<sp who="#L0881_M1">
 <speaker>Lacroix.</speaker>
 <stage> (now very dignified and calm)</stage>
 <p>Sergeant Pons will act as my witness.</p>
 </sp>
-<sp>
+<sp who="#L0881_M2">
 <speaker>Baron.</speaker>
 <stage> (whose manner is in strong contrast)</stage>
 <p>Where is mine? </p>
 <stage>(Pons who has again gone up stage suddenly seizes upon Molasse and Kopp,
 who come on from behind, and brings them down)</stage>
 </sp>
-<sp>
+<sp who="#L0881_M6">
 <speaker>Pons.</speaker>
 <p>Here! I'll bring 'em after you. </p>
 <stage>(Lacroix and Baron exeunt, C. to R.)</stage>
 </sp>
-<sp>
+<sp who="#L0881_M4">
 <speaker>Kopp.</speaker>
 <stage> (seeing swords, starts back in great alarm)</stage>
 <p>A duel!—   not under the present aspects.</p>
 </sp>
-<sp>
+<sp who="#L0881_M5">
 <speaker>Molasse.</speaker>
 <stage> (same movement)</stage>
 <p>Under no aspects at all—think of Sophonisba. </p>
 <stage>(they are about to run off different ways when Pons catching them by the
 skirts detains them)</stage>
 </sp>
-<sp>
+<sp who="#L0881_M6">
 <speaker>Pons.</speaker>
 <p>Thousand bombshells! you've only to look on.</p>
 </sp>
-<sp>
+<sp who="#L0881_M5">
 <speaker>Molasse.</speaker>
 <p>Catch me coming into the country again for peace and quietness.</p>
 </sp>
-<sp>
+<sp who="#L0881_M4">
 <speaker>Kopp.</speaker>
 <p>Or visiting one's friends on a Friday.</p>
 </sp>
-<sp>
+<sp who="#L0881_M6">
 <speaker>Pons.</speaker>
 <stage> (pushing them off stage, C. to R.)</stage>
 <p>Right about face!— march!</p>
@@ -3264,7 +3359,7 @@ skirts detains them)</stage>
 door R. opens, and the Countess enters nervously—she looks around her as with
 surprise)</stage>
 </sp>
-<sp>
+<sp who="#L0881_F13">
 <speaker>Countess.</speaker>
 <p>I am sure I heard voices—and in dispute. <stage>(her foot touches note
 dropped by Baron—she picks it up mechanically, and is about to place it on table
@@ -3277,38 +3372,38 @@ the meeting. <stage>she springs to her feet—at same moment door L. opens and
 Felicien appears—with a cry she rushes towards him)</stage> Felicien! thank
 heaven! you are here!</p>
 </sp>
-<sp>
+<sp who="#L0881_M3">
 <speaker>Felicien.</speaker>
 <stage> (much startled and slightly drawing back)</stage>
 <p>Clare! madame, pardon me if I feel some surprise at seeing you here.</p>
 </sp>
-<sp>
+<sp who="#L0881_F13">
 <speaker>Countess.</speaker>
 <p>Felicien! I would explain.</p>
 </sp>
-<sp>
+<sp who="#L0881_M3">
 <speaker>Felicien.</speaker>
 <stage> (coldly)</stage>
 <p>I require no explanation. <stage>(glancing at clock)</stage> The time is
 passed for that. </p>
 <stage>(he moves to go up stage— the Countess throws herself before him)</stage>
 </sp>
-<sp>
+<sp who="#L0881_F13">
 <speaker>Countess.</speaker>
 <p>You must not leave me thus! You shall not! You go to meet De Fauconville!
 'Tis useless to deny it. See!   your letter is in my hands.</p>
 </sp>
-<sp>
+<sp who="#L0881_M3">
 <speaker>Felicien.</speaker>
 <p>My letter! <stage>(bitterly)</stage> You know then the cause of quarrel?</p>
 </sp>
-<sp>
+<sp who="#L0881_F13">
 <speaker>Countess.</speaker>
 <p>I have learnt, and for the first time the reason of your estrangement—of your
 sudden departure from Paris —your coldness here—your—</p>
 <stage>(her voice falters and she pauses, overcome by emotion)</stage>
 </sp>
-<sp>
+<sp who="#L0881_M3">
 <speaker>Felicien.</speaker>
 <stage> (regarding her with a sad tenderness)</stage>
 <p>Clare! Clare! It was on the very day, within an hour after you had listened
@@ -3316,16 +3411,16 @@ to my declaration of love—listened with eyes that beamed as I then thought, a
 tender approval through their veil of tears, that Horace de Fauconville placed
 in my hands the avowal of your love for another—for him.</p>
 </sp>
-<sp>
+<sp who="#L0881_F13">
 <speaker>Countess.</speaker>
 <p>You saw those letters?</p>
 </sp>
-<sp>
+<sp who="#L0881_M3">
 <speaker>Felicien.</speaker>
 <p>I did! and knew the handwriting to be yours. They all spoke of a woman's love
 for one who—</p>
 </sp>
-<sp>
+<sp who="#L0881_F13">
 <speaker>Countess.</speaker>
 <p>A woman's love! a child's—a silly romantic child's. <stage>(speaking rapidly
 and with indignation)</stage> I was in my fifteenth year, when I first met the
@@ -3337,40 +3432,40 @@ touched by the simulated passion of this man, and that with all the imprudence
 of youth, knowing no harm, and therefore dreaming of none, I wrote   some
 letters, undated, and bearing only the signature of Clare!</p>
 </sp>
-<sp>
+<sp who="#L0881_M3">
 <speaker>Felicien.</speaker>
 <p>Is it possible?</p>
 </sp>
-<sp>
+<sp who="#L0881_F13">
 <speaker>Countess.</speaker>
 <p>These letters he preserved, and, long after I had shrunk from his insidious
 approaches, as from the deadly fascination of a snake, he re-appeared to whisper
 in my ear a fearful menace!</p>
 <pb n="35"/>
 </sp>
-<sp>
+<sp who="#L0881_M3">
 <speaker>Felicien.</speaker>
 <p>A menace!</p>
 </sp>
-<sp>
+<sp who="#L0881_F13">
 <speaker>Countess.</speaker>
 <p>To place those letters, undated as they were, in my husband's hand.</p>
 </sp>
-<sp>
+<sp who="#L0881_M3">
 <speaker>Felicien.</speaker>
 <p>The villain!</p>
 </sp>
-<sp>
+<sp who="#L0881_F13">
 <speaker>Countess.</speaker>
 <p>My husband, advanced in years, violent in character, and jealous of even the
 suspicion of a stain upon his honour.</p>
 </sp>
-<sp>
+<sp who="#L0881_M3">
 <speaker>Felicien.</speaker>
 <p>Why not have trusted in that honour to have defended yours, and have crushed
 the hydra-headed calumny in its birth?</p>
 </sp>
-<sp>
+<sp who="#L0881_F13">
 <speaker>Countess.</speaker>
 <p>I dared not. Oh! think, Felicien, I was a woman and alone, placed by my
 husband's name and fortune in a position which made me a special mark for
@@ -3379,11 +3474,11 @@ that fiery ordeal which even innocence cannot pass through unscathed. It was
 then I stooped to purchase—yes, I purchased with money the silence he refused to
 give.</p>
 </sp>
-<sp>
+<sp who="#L0881_M3">
 <speaker>Felicien.</speaker>
 <p>A folly—worse, a madness!</p>
 </sp>
-<sp>
+<sp who="#L0881_F13">
 <speaker>Countess.</speaker>
 <p>I have said I was alone. My husband was rich   and generous, and it was long
 ere my purse was exhausted; but De Fauconville had also his demon—one as
@@ -3394,48 +3489,48 @@ emotion)</stage> Alas! who, among the many who pressed around my chair, saw,
 while they gazed upon the smiling coquette, the grim Medusa visage that was
 turning her heart to stone—the dark and threatening shadow ever at her side.</p>
 </sp>
-<sp>
+<sp who="#L0881_M3">
 <speaker>Felicien.</speaker>
 <p>But after the Count's death?</p>
 </sp>
-<sp>
+<sp who="#L0881_F13">
 <speaker>Countess.</speaker>
 <p>I turned with scorn and loathing upon the baffled fiend whose power was
 gone—gone, but only for a time; then you came, and—and—<stage>(she hesitates for
 a moment, then speaks with much firmness)</stage> In my love for you again he
 saw his triumph.</p>
 </sp>
-<sp>
+<sp who="#L0881_M3">
 <speaker>Felicien.</speaker>
 <stage> (with joy)</stage>
 <p>Your love!</p>
 </sp>
-<sp>
+<sp who="#L0881_F13">
 <speaker>Countess.</speaker>
 <stage> (raising her eyes to his)</stage>
 <p>My love.</p>
 </sp>
-<sp>
+<sp who="#L0881_M3">
 <speaker>Felicien.</speaker>
 <p>Clare! dear Clare! </p>
 <stage>(as he embraces her the clock strikes)</stage>
 </sp>
-<sp>
+<sp who="#L0881_M3">
 <speaker>Felicien.</speaker>
 <stage> (starting back with a cry)</stage>
 <p>The hour! </p>
 <stage>(he moves to go up stage when the Countess again throws herself before
 him)</stage>
 </sp>
-<sp>
+<sp who="#L0881_F13">
 <speaker>Countess.</speaker>
 <p>You shall not meet this man!</p>
 </sp>
-<sp>
+<sp who="#L0881_M3">
 <speaker>Felicien.</speaker>
 <p>Clare, Clare! would you stand between me and honour?</p>
 </sp>
-<sp>
+<sp who="#L0881_F13">
 <speaker>Countess.</speaker>
 <p>Between you and death! <stage>(she clings to him as he again attempts to
 pass)</stage> Felicien, in the name of all you hold sacred! in the name of our
@@ -3443,11 +3538,11 @@ love! </p>
 <stage>(she sinks on knees still clinging to him)</stage>
 <pb n="36"/>
 </sp>
-<sp>
+<sp who="#L0881_M3">
 <speaker>Felicien.</speaker>
 <p>  I were not worthy of that love did I consent to live without honour.</p>
 </sp>
-<sp>
+<sp who="#L0881_F13">
 <speaker>Countess.</speaker>
 <stage> (springing to her feet)</stage>
 <p>Speak not to me of honour! To risk your life with such an adversary is no
@@ -3455,24 +3550,24 @@ honour, but a shame. He will kill you, Felicien; he is without conscience as he
 is without heart. <stage>(she throws her arms round him)</stage> Felicien, you
 <hi>shall</hi> not go—your life belongs to me, your wife!</p>
 </sp>
-<sp>
+<sp who="#L0881_M3">
 <speaker>Felicien.</speaker>
 <stage> (kissing her forehead)</stage>
 <p>And against my wife the world shall hear no murmur of reproach. This viper
 must be rendered harmless. <stage>(he releases himself and goes quickly up
 stage)</stage> Have no fear but I will draw the sting.</p>
 </sp>
-<sp>
+<sp who="#L0881_F13">
 <speaker>Countess.</speaker>
 <stage> (with an imploring cry)</stage>
 <p>Felicien!</p>
 </sp>
-<sp>
+<sp who="#L0881_M3">
 <speaker>Felicien.</speaker>
 <stage> (up stage)</stage>
 <p>Those letters—</p>
 </sp>
-<sp>
+<sp who="#L0881_M1">
 <speaker>Lacroix.</speaker>
 <stage> (suddenly appearing at back, C. from R.)</stage>
 <p>Are here!!!</p>
@@ -3481,33 +3576,33 @@ time concealing two swords behind his back which Pons, who now enters with Kopp,
 takes quickly from him as he comes down stage and exits with, door R. 3
 E.)</stage>
 </sp>
-<sp>
+<sp who="#L0881_M3">
 <speaker>Felicien.</speaker>
 <stage> (in astonishment)</stage>
 <p>And De Fauconville?</p>
 </sp>
-<sp>
+<sp who="#L0881_M1">
 <speaker>Lacroix.</speaker>
 <stage> (C.)</stage>
 <p>Will trouble this lady no more. He has quitted Normandy—<stage>(with
 emphasis)</stage> never to return!</p>
 <stage>Enter Molasse, C. from R., with Madame M.</stage>
 </sp>
-<sp>
+<sp who="#L0881_M5">
 <speaker>Molasse.</speaker>
 <p>And I shall follow his example; for it may be rural—but I'll
 be—<stage>(striking fist smartly in hand)</stage> if it's comfortable!</p>
 </sp>
-<sp>
+<sp who="#L0881_F15">
 <speaker>Madame M.</speaker>
 <stage> (shocked)</stage>
 <p>Molasse!</p>
 </sp>
-<sp>
+<sp who="#L0881_M5">
 <speaker>Molasse.</speaker>
 <p>Sophonisba, I am silent!</p>
 </sp>
-<sp>
+<sp who="#L0881_M1">
 <speaker>Lacroix.</speaker>
 <stage> (who has approached the Countess, who stands half shrinking, yet her
 eyes bent eagerly on his face)</stage>
