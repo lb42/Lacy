@@ -10,7 +10,7 @@ version="2.0">
 <xsl:variable name="theFile" select="concat('/home/lou/Public/Lacy/TEI/Partix/',
   $theId, '.xml')"/>
 
-<xsl:template match="t:sp[not(@who)]">
+<xsl:template match="t:sp">
 <xsl:variable name='spkr' select="t:speaker"/>
 
 <xsl:copy>
