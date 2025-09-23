@@ -118,7 +118,7 @@ select="$thisOne/t:sourceDesc/t:listEvent/t:event[@type = 'firstPerf']/@when"/>
 select="$thisOne/t:sourceDesc/t:listEvent/t:event[@type = 'firstPerf']/@where"/>
 
 <td>
-<a id="$textID">
+<a id="{$textID}">
 <xsl:attribute name="href">
 <xsl:value-of select="concat($textID, '.html')"/>
 </xsl:attribute>
