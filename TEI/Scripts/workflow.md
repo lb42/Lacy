@@ -4,7 +4,7 @@
 3. Edit the partix file. Square brackets are used for speaking roles not listed in the castList.
 4. Within the Public/Lacy/TEI directory,  run sh enrich.sh Lxxxx.xml to create two new versions, one in Plus, one in Dracor. 
 5. Validate the one in Dracor using the Dracor schema (There will probably be a pile of schematron complaints about invalid @who="#" to fix)
-6. When valid, you can move this to Public/Lacy/TEI and update the driver.tei, either manually or by running python3 refreshRepo.py (caution: this will overwrite  local copies of existing files in lb42.github.io; you should check them before pushing the new versions)
+6. When valid, you can move it from Dracor (overwriting the one used at step 4). Then update the driver.tei, either manually or by running python3 refreshRepo.py (caution: this will overwrite  local copies of existing files in lb42.github.io; you should check them before pushing the new versions)
 
 ## active scripts
 
