@@ -12,11 +12,19 @@ version="2.0">
 
 <xsl:template match="t:sp">
 <xsl:variable name='spkr' select="t:speaker"/>
-
-<xsl:copy>
+ <xsl:variable name="pers" select="ancestor::TEI/teiHeader/profileDesc/t:particDesc/t:listPerson/t:person[t:persName[@type='spkr'] = $spkr]"/>
+ <xsl:copy>
 <xsl:attribute name="who">
-<!--<xsl:value-of select="document($theFile)-->
- <xsl:value-of select="concat('#',ancestor::TEI/teiHeader/profileDesc/t:particDesc/t:listPerson/t:person[t:persName[@type='spkr'] = $spkr]/@xml:id)"/>
+<!-- use @n if it's there -->
+<xsl:choose>
+ <xsl:when test="$pers/@n">
+  <xsl:value-of select="concat('#',$pers/@n)"/>
+ </xsl:when>
+ <xsl:otherwise>
+  <xsl:value-of select="concat('#',$pers/@xml:id)"/>
+ </xsl:otherwise>
+</xsl:choose>
+ 
 </xsl:attribute>
 <xsl:apply-templates/>
 </xsl:copy>
