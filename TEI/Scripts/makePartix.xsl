@@ -44,10 +44,14 @@ select="concat($theId, '_', @gender, position())"/>
 </xsl:text>
 
 <xsl:for-each select="distinct-values($context//t:speaker)">
+ <xsl:sort/>
 <xsl:variable name="pfx" select="."/>
-<persName type="spkr" n="{count($context//*:speaker[starts-with(.,$pfx)])}">
-<xsl:value-of select="$pfx"/>
-</persName>
+<!--<persName type="spkr" n="{count($context//*:speaker[starts-with(.,$pfx)])}">
+
+--><!--</persName>-->
+ <persName type="spkr" n="{count($context//*:speaker[. eq $pfx])}">
+  <xsl:value-of select="$pfx"/>
+ </persName>
 <xsl:text>
 </xsl:text>
 </xsl:for-each>
