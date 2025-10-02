@@ -36,7 +36,7 @@
 
 <!-- MODULES -->
      <moduleRef key="tei"/>
-     <moduleRef key="core" include="ab add del desc p figure graphic foreign emph gap hi name date ptr ref list item
+     <moduleRef key="core" include="ab add del desc p figure graphic foreign emph gap hi milestone name date ptr ref list item
       label head measure note pb series author respStmt resp title publisher bibl l lg relatedItem sp speaker
       stage sic  teiCorpus term corr quote"/>
      <moduleRef key="textstructure" include="TEI text body div trailer byline titlePage docTitle
@@ -46,8 +46,8 @@
      <moduleRef key="drama" include="set performance castGroup castList castItem role roleDesc actor
       spGrp sound"/>
      <!-- <moduleRef key="linking" include="seg"/>-->
-     <moduleRef key="transcr" include="subst addSpan delSpan"/>
-     <moduleRef key="namesdates" include="event listEvent listPerson person persName"/>
+  <!--   <moduleRef key="transcr" include="subst addSpan delSpan"/>
+  -->   <moduleRef key="namesdates" include="event listEvent listPerson person persName"/>
      <moduleRef key="tagdocs" include="listRef ident"/>
     <moduleRef key="corpus" include="particDesc"/>
 <moduleRef key="analysis"/><!-- need this to get @ana -->
