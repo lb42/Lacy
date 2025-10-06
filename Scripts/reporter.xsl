@@ -91,7 +91,8 @@ to read the text (may not work in older browsers).</p>
 
 <xsl:for-each select="t:teiCorpus/t:TEI/t:teiHeader/t:fileDesc">
 
-<xsl:variable name="textID" select="parent::t:teiHeader/parent::t:TEI/@xml:id"/>
+<!-- replace dracor id with old lacy one if nessa -->
+ <xsl:variable name="textID" select="replace(parent::t:teiHeader/parent::t:TEI/@xml:id, 'lacy00','L')"/>
 
 <xsl:variable name="thisOne" select="."/>
 

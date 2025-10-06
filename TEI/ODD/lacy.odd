@@ -36,16 +36,16 @@
 
 <!-- MODULES -->
      <moduleRef key="tei"/>
-     <moduleRef key="core" include="ab add del desc p figure graphic foreign emph gap hi milestone name date ptr ref list item
-      label head measure note pb series author respStmt resp title publisher bibl l lg relatedItem sp speaker
-      stage sic  teiCorpus term corr quote"/>
-     <moduleRef key="textstructure" include="TEI text body div trailer byline titlePage docTitle
-      titlePart docAuthor docImprint docDate epigraph signed front back"/>
+     <moduleRef key="core" include="add  author bibl corr date del desc  emph figure foreign gap graphic  head hi item l  label  lg list         
+      measure milestone name note p  pb  ptr publisher quote ref   relatedItem respStmt resp series  sic    sp speaker
+      stage teiCorpus term title "/>
+     <moduleRef key="textstructure" include="TEI  back body byline div docTitle
+      docAuthor docImprint docDate  epigraph  front signed text titlePage titlePart  trailer    "/>
      <moduleRef key="header" include="teiHeader fileDesc titleStmt publicationStmt distributor
       sourceDesc encodingDesc classDecl taxonomy category catDesc listPrefixDef prefixDef revisionDesc change idno extent profileDesc langUsage language textClass catRef keywords "/>
      <moduleRef key="drama" include="set performance castGroup castList castItem role roleDesc actor
       spGrp sound"/>
-     <!-- <moduleRef key="linking" include="seg"/>-->
+     <!-- <moduleRef key="linking" include="seg ab"/>-->
   <!--   <moduleRef key="transcr" include="subst addSpan delSpan"/>
   -->   <moduleRef key="namesdates" include="event listEvent listPerson person persName"/>
      <moduleRef key="tagdocs" include="listRef ident"/>
