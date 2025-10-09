@@ -15,7 +15,7 @@ xpath-default-namespace="http://www.tei-c.org/ns/1.0" version="2.0">
 
 <xsl:variable name="totLAE" select="count($root//div[@type = 'work'])"/>
 <xsl:variable name="totTEI"
-select="count($root//div/bibl[contains(@subtype, 'TEI')])"/>
+ select="count(//div[@type='work' and @subtype='TEI'] )"/>
 <xsl:message>Data directory is <xsl:value-of select="$dataDir"/>
 </xsl:message>
 <xsl:message>Today there are <xsl:value-of select="$totLAE"/> items in the
@@ -26,15 +26,14 @@ catalogue, of which ....</xsl:message>
 <xsl:message><xsl:value-of
 select="count(//div[@type = 'work']/bibl[@subtype eq 'TEI'])"/> items are marked
 as available in TEI format: <xsl:value-of
-select="count(document('/home/lou/Public/Lacy/TEI/driver.tei')//TEI/TEI)"/> are
+select="count(document('/home/lou/Public/Lacy/TEI/driver.tei')//TEI)"/> are
 included by driver.tei</xsl:message>
 <xsl:for-each
 select="document('/home/lou/Public/Lacy/TEI/driver.tei')//TEI/@xml:id">
 <xsl:variable name="myId" select="."/>
-
 <xsl:if
 test="count($root//div[@type = 'work' and @xml:id eq $myId and contains(@subtype, 'TEI')]) eq 0">
-<xsl:message>Update <xsl:value-of select="."/>!</xsl:message>
+<xsl:message>Update work <xsl:value-of select="."/> with @subtype='TEI'!</xsl:message>
 </xsl:if>
 </xsl:for-each>
 
@@ -95,19 +94,19 @@ select="count(//div[starts-with(@ana, 'S') and bibl/idno[@type = 'vpp']])"/><xsl
   tei,</xsl:text>
 <xsl:value-of select="$totTEI"/><xsl:text>, </xsl:text>
 <xsl:value-of
-select="count(//div[starts-with(@ana, 'L') and contains(@subtype ,'TEI')])"/><xsl:text>, </xsl:text>
+select="count(//div[starts-with(@ana, 'L') and @subtype eq'TEI'])"/><xsl:text>, </xsl:text>
 <xsl:value-of
-select="count(//div[starts-with(@ana, 'M') and contains(@subtype , 'TEI')])"/><xsl:text>, </xsl:text>
+select="count(//div[starts-with(@ana, 'M') and @subtype  eq 'TEI'])"/><xsl:text>, </xsl:text>
 <xsl:value-of
-select="count(//div[starts-with(@ana, 'S') and contains(@subtype , 'TEI')])"/>
+select="count(//div[starts-with(@ana, 'S') and @subtype eq 'TEI'])"/>
 </xsl:message>
 
-<xsl:result-document href="digitizations.txt">
+<!--<xsl:result-document href="digitizations.txt">
 <xsl:for-each select="TEI/text/body/div/bibl">
 <xsl:variable name="theId" select="@xml:id"/>
 
-<!-- -->
-<!-- links to lb42.github.io or to ECCO are not counted -->
+<!-\- -\->
+<!-\- links to lb42.github.io or to ECCO are not counted -\->
 <xsl:if test="
 count(listRef/ref[not(contains(., 'ECCO')) and not(contains(@target, 'gutenberg'))
 and not(contains(., 'copy'))])
@@ -142,7 +141,7 @@ lt count(note[@type = 'localCopies']/ident[matches(., 'L\d\d\d\dR?\-') and not(c
 <xsl:text>
 </xsl:text>
 </xsl:for-each>
-</xsl:result-document>
+</xsl:result-document>-->
 
 </xsl:template>
 </xsl:stylesheet>
