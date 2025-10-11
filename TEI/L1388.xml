@@ -1,8 +1,10 @@
-<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L1388">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L1388">
  <teiHeader>
   <fileDesc>
    <titleStmt>
     <title type="main">After the Party</title>
+    <author>[Anon.]</author>
     <respStmt>
      <resp>Curated by</resp>
      <name>Lou Burnard</name>
@@ -10,50 +12,65 @@
    </titleStmt>
    <publicationStmt>
     <distributor>Privately published on the Lacy Website</distributor>
-    
-   <idno type="lae">L1388</idno><idno type='URI' xml:base='https://dracor.org'>LAE</idno></publicationStmt>
-   <sourceDesc><bibl type="printSource" n="93.8"><author>[Anon.]</author><title type="main" n="aftertheparty">After the Party</title><title type="sub">A Comedy in one
-act</title><extent>18 pp<measure type="pp" quantity="17"/>
-  <measure type="spCount" quantity="297"/>
-  <measure type="spvCount" quantity="0"/>
-  <measure type="txWords" quantity="5495"/>
-  <measure type="spWords" quantity="4488"/>
-  <measure type="stWords" quantity="1007"/>
-  </extent>
-
-<note type="fees">T.H. Lacy's List</note><title level="s"> Lacy's Acting
-Edition, volume 93, No. 1388</title></bibl><bibl type="digitalSource" n="copytext"><ref target="https://babel.hathitrust.org/cgi/pt?id=mdp.39015067453400&amp;seq=225">UM from HT</ref><ref target="local:Vol93/L1388/L1388-gb.pdf"/></bibl><bibl type="digitalSource" n="copytext"><ref target="https://lb42.github.io/Lacy/L1388.html">TEI</ref></bibl><listEvent>
-<event type="firstPerf" source="text" where="Unknown">
-<desc>Premiered at Unknown; date unknown.</desc>
-</event>
-</listEvent></sourceDesc>
+    <idno type="lae">L1388</idno>
+    <idno type="URI" xml:base="https://dracor.org">LAE</idno>
+   </publicationStmt>
+   <sourceDesc>
+    <bibl type="printSource" n="93.8"><author>[Anon.]</author><title type="main" n="aftertheparty"
+      >After the Party</title><title type="sub">A Comedy in one act</title><extent>18 pp<measure
+       type="pp" quantity="17"/>
+      <measure type="spCount" quantity="297"/>
+      <measure type="spvCount" quantity="0"/>
+      <measure type="txWords" quantity="5495"/>
+      <measure type="spWords" quantity="4488"/>
+      <measure type="stWords" quantity="1007"/>
+     </extent>
+     <note type="fees">T.H. Lacy's List</note><title level="s"> Lacy's Acting Edition, volume 93,
+      No. 1388</title></bibl>
+    <bibl type="digitalSource" n="copytext"><ref
+      target="https://babel.hathitrust.org/cgi/pt?id=mdp.39015067453400&amp;seq=225">UM from
+      HT</ref><ref target="local:Vol93/L1388/L1388-gb.pdf"/></bibl>
+    <bibl type="digitalSource" n="copytext"><ref target="https://lb42.github.io/Lacy/L1388.html"
+      >TEI</ref></bibl>
+    <listEvent>
+     <event type="firstPerf" source="text" where="Unknown">
+      <desc>Premiered at Unknown; date unknown.</desc>
+     </event>
+    </listEvent>
+   </sourceDesc>
   </fileDesc>
-  <profileDesc><textClass>
+  <profileDesc>
+   <textClass>
     <catRef target="#sizeS"/>
     <catRef target="#act1"/>
     <catRef target="nic:F."/>
     <keywords>
      <term>FARCE</term>
     </keywords>
-   </textClass><particDesc><listPerson>
-<person xml:id="L1388_M1">
-<persName type="role">Mr FitzHoward</persName>
-<persName type="spkr" n="1">FITZHOWARD.</persName>
+   </textClass>
+   <particDesc>
+    <listPerson>
+     <person xml:id="L1388_M1">
+      <persName type="role">Mr FitzHoward</persName>
+      <persName type="spkr" n="1">FITZHOWARD.</persName>
 
-<persName type="spkr" n="149">Fitz.</persName>
-</person>
-<person xml:id="L1388_F2">
-<persName type="role">Mrs Montgomery</persName>
-<persName type="spkr" n="1">Mrs. Montgomery.</persName>
-<persName type="spkr" n="137">Mrs. M.</persName>
-</person>
+      <persName type="spkr" n="149">Fitz.</persName>
+     </person>
+     <person xml:id="L1388_F2">
+      <persName type="role">Mrs Montgomery</persName>
+      <persName type="spkr" n="1">Mrs. Montgomery.</persName>
+      <persName type="spkr" n="137">Mrs. M.</persName>
+     </person>
 
-<person xml:id="L1388_Misc">
-<persName type="spkr" n="9">Voice.</persName>
-</person>
+     <person xml:id="L1388_Misc">
+      <persName type="spkr" n="9">Voice.</persName>
+     </person>
 
-</listPerson></particDesc></profileDesc>
-  <revisionDesc><change when="2025-09-07">Metadata updated from new catalogue</change>
+    </listPerson>
+   </particDesc>
+  </profileDesc>
+  <revisionDesc>
+   <change when="2025-09-07">Metadata updated from new catalogue</change>
    <change when="2025-03-19">Header enriched</change>
    <change when="2025-02-14">Hand edit</change>
    <change when="2025-01-14">Renumbering</change>
@@ -72,8 +89,10 @@ Edition, volume 93, No. 1388</title></bibl><bibl type="digitalSource" n="copytex
    <pb n="2"/>
    <castList>
     <head>Characters</head>
-    <castItem><role gender="M">Mr FitzHoward</role><roleDesc>(a Merchant)</roleDesc><actor ana="#M">Mr. John Owen</actor></castItem>
-    <castItem><role gender="F">Mrs Montgomery</role><roleDesc>(a Young Widow)</roleDesc><actor ana="#F">Miss Clifford</actor></castItem>
+    <castItem><role gender="M">Mr FitzHoward</role><roleDesc>(a Merchant)</roleDesc><actor ana="#M"
+      >Mr. John Owen</actor></castItem>
+    <castItem><role gender="F">Mrs Montgomery</role><roleDesc>(a Young Widow)</roleDesc><actor
+      ana="#F">Miss Clifford</actor></castItem>
    </castList>
    <set>
     <p>Scene: Boudoir in Mrs. Montgomery's house</p>
@@ -141,9 +160,9 @@ Edition, volume 93, No. 1388</title></bibl><bibl type="digitalSource" n="copytex
      generally in a very loud voice; the second, that having been all night on the railway, I was
      tired. So, what did I do? I stole—no, slipped—pooh! I am alone. I stole into this boudoir; and
      here I have had a few minutes' sleep—-my chairman hadn’t arrived; and I hope now that i he
-     isn’t gone. Some chairmen can’t rest two minutes in the <pb n="5"/> same place. I must put on
-     my gloves again, and re-arrange my cravat, <stage>(places himself before looking glass,
-      R.)</stage>— </p>
+     isn’t gone. Some chairmen can’t rest two minutes in the
+     <pb n="5"/> same place. I must put on my gloves again, and re-arrange my cravat, <stage>(places
+      himself before looking glass, R.)</stage>— </p>
     <stage>Enter Mrs. Montgomery, door C. </stage>
    </sp>
    <sp who="#L1388_F2">
@@ -406,8 +425,9 @@ Edition, volume 93, No. 1388</title></bibl><bibl type="digitalSource" n="copytex
    </sp>
    <sp who="#L1388_F2">
     <speaker>Mrs. M.</speaker>
-    <p><stage>(getting a cushion from the couch and placing it <pb n="8"/> behind FitzHoward’s
-      back)</stage> See, sir—let me place this cushion so —  at your back.</p>
+    <p><stage>(getting a cushion from the couch and placing it
+      <pb n="8"/> behind FitzHoward’s back)</stage> See, sir—let me place this cushion so —  at your
+     back.</p>
    </sp>
    <sp who="#L1388_M1">
     <speaker>Fitz.</speaker>
@@ -516,9 +536,9 @@ Edition, volume 93, No. 1388</title></bibl><bibl type="digitalSource" n="copytex
     <speaker>Fitz.</speaker>
     <p>
      <stage>(rising, going to her, and looking for the pin)</stage>  Yes I know a parcel of women
-     with as many pins in their head as <pb n="9"/> they have got hairs on it. When I say a parcel
-     of women- you will understand I don't mean you. <stage>(taking off tho wreath)</stage>
-     There!</p>
+     with as many pins in their head as
+     <pb n="9"/> they have got hairs on it. When I say a parcel of women- you will understand I
+     don't mean you. <stage>(taking off tho wreath)</stage> There!</p>
    </sp>
    <sp who="#L1388_F2">
     <speaker>Mrs. M.</speaker>
@@ -583,11 +603,11 @@ Edition, volume 93, No. 1388</title></bibl><bibl type="digitalSource" n="copytex
      family?—never! <stage>(closing his eyes)</stage> He must marry a girl from the country!
       <stage>(closes his eyes, re-opens them after a moment and places his hands on his
       stomach)</stage> Oh! I’ve got the cramp in my stomach! <stage>(jumping up)</stage> I’m
-     seriously ill— I can’t help it—I’m very sorry, but Mrs. Montgomery must <pb n="10"/> run for a
-     doctor. Ah! I know now what it is, I’m hungry !— while the others were having supper, I was
-     asleep I <stage>(taking lamp from mantel-piece)</stage> I must go and see if I can't find
-     some­thing, if it’s only a turkey or so; a good strong application of that sort of would soon
-     cure my complaint I</p>
+     seriously ill— I can’t help it—I’m very sorry, but Mrs. Montgomery must
+     <pb n="10"/> run for a doctor. Ah! I know now what it is, I’m hungry !— while the others were
+     having supper, I was asleep I <stage>(taking lamp from mantel-piece)</stage> I must go and see
+     if I can't find some­thing, if it’s only a turkey or so; a good strong application of that sort
+     of would soon cure my complaint I</p>
    </sp>
    <stage>Goes off on tiptoe, door L.—as he is going out Mrs. MONTGOMERY half opens door, R., and
     watches him)</stage>
@@ -803,8 +823,9 @@ Edition, volume 93, No. 1388</title></bibl><bibl type="digitalSource" n="copytex
    </sp>
    <sp who="#L1388_F2">
     <speaker>Mrs. M.</speaker>
-    <p>Perhaps so. The hours sped on, night had arrived, <pb n="12"/> and my friend felt compelled
-     to ask this gentleman to stay dinner. Behold them, then, at table.</p>
+    <p>Perhaps so. The hours sped on, night had arrived,
+     <pb n="12"/> and my friend felt compelled to ask this gentleman to stay dinner. Behold them,
+     then, at table.</p>
    </sp>
    <sp who="#L1388_M1">
     <speaker>Fitz.</speaker>
@@ -1054,7 +1075,8 @@ Edition, volume 93, No. 1388</title></bibl><bibl type="digitalSource" n="copytex
    </sp>
    <sp who="#L1388_F2">
     <speaker>Mrs. M.</speaker>
-    <p><stage>(aside)</stage> He has mistaken him for his nephew. <pb n="14"/>
+    <p><stage>(aside)</stage> He has mistaken him for his nephew.
+     <pb n="14"/>
      <stage>(aloud)</stage> It is very simple—that gentleman was no doubt here this evening in the
      crowd—heard you named, and now would provoke you to—</p>
    </sp>
