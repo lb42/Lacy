@@ -1,0 +1,351 @@
+body {
+color: #000000;
+font-family: "Noto Sans", Verdana, Tahoma, Geneva, Arial, Helvetica, sans-serif;
+font-size: 1em;
+line-height: 1.3em;
+margin:1em;
+page-break-before:always;
+padding:0;
+}
+
+@page {
+  size: A4 portrait;
+  
+   @footnote {
+    content: leader(solid);
+ /*  border-top:5px solid #38a169; */
+    color:green;
+   }
+}
+
+
+note[type='ed'] {
+ float:footnote;
+ margin:0.5cm;
+ /*  font-size:small; */
+ display:block;
+ text-align:left;
+}
+
+note[type='ed']::footnote-call {
+  background-color:#fbb6ce;
+}
+
+
+note[type='ed']::footnote-marker {
+  background-color:lavenderblush;
+}
+
+
+/*  
+@page :right {
+  margin-left: 3.5cm;
+}
+ *  */
+
+@page:right{ 
+  @bottom-left {
+    margin: 10pt 0 30pt 0;
+    border-top: .25pt solid #666;
+    content: string(theWork) ;
+    font-size: 12pt;
+    color: #333;
+  }
+  @top-right {
+    content: string(doctitle);
+    margin: 30pt 0 10pt 0;
+    font-size: 12pt;
+  }
+}
+
+
+/*  @page:right{
+  @bottom-right {
+    content: counter(page);
+  }
+}
+*/
+
+@page:left{
+  
+  @bottom-left {
+  margin-left: 3cm;
+    content: "Page " counter(page) " of " counter(pages);
+  }
+}
+
+teiHeader {
+ display:none;
+ 
+}
+
+teiHeader>fileDesc>titleStmt>title {
+ string-set: theWork content()
+}
+
+/* front matter */
+
+
+
+titlePage {
+  page-break-after: always;
+}
+
+
+docTitle>titlePart {
+ display:block;
+ text-align:center; 
+ font-size: 48pt;
+ padding-top:2cm;
+ padding-bottom: 1cm;
+}
+
+titlePart {
+ display:block;
+ text-align:center; 
+ font-size: large;
+}
+
+titlePart[type='main'] {
+ display:block;
+ text-align:center; 
+ font-size: 3em;
+
+}
+
+byline {
+ padding-top: 1cm;
+ font-style:normal;
+}
+
+byline>docAuthor {
+ color:blue;
+font-weight:bold;
+}
+
+byline>title {
+ font-style:italic;
+}
+ 
+byline>title::before {
+ content:"“";
+
+}
+
+byline>title::after {
+ content:"”";
+
+}
+docImprint {
+ padding-top: 1cm;
+} 
+
+performance+p {
+ font-style:italic;
+ text-align:center;
+}
+
+role {
+font-variant:small-caps;
+font-size:larger;
+}
+
+roleDesc {
+ font-style:italic;
+}
+
+actor{
+font-variant:small-caps;
+font-weight:bold;
+}
+
+   
+/*    counter-reset:footnote;*/
+
+
+body>head {
+ font-size:larger;
+ text-align:center;
+ }
+ 
+castList>head {
+ padding-top:1em;
+}
+ 
+
+div>head {
+ display:block;
+ text-align:center; 
+ font-size: large;
+ font-variant: small-caps; 
+}
+
+div[type="act"]{
+  page-break-before: always;
+  }
+  
+  
+div[type='act']>head:first-child {  
+ padding-top: 4cm;
+}
+  
+  
+div[type='scene']>head {  
+  page-break-after: avoid;
+  string-set: doctitle content();
+  padding-top: 1cm ;
+  padding-bottom: 2mm;
+}
+
+
+p+p {
+ display:block;
+   margin: 0;
+   padding-top: 2em;
+   text-indent: 6mm;
+}
+
+
+list {
+ padding-bottom: 6mm;
+}
+
+item>label{
+   font-style:italic;
+   font-weight:bold;
+   font-variant:small-caps;
+  }   
+ 
+item {
+ display:block;
+}
+
+/*  styles from ceteican css */
+sp {
+display: block;
+margin-top: 1em;
+margin-left:auto;
+}
+
+l {
+display: block;
+margin-left:auto;
+}
+
+speaker {
+    font-variant:small-caps;
+    font-weight:bold;
+}
+
+stage {
+    font-style:italic;
+    padding-right:5px;
+    padding-left:5px;
+    }
+ 
+/* first stage following a div */
+div+stage {text-align:center;
+margin-bottom: 0.6em;} 
+
+/*  first stage following a sp */
+sp+stage {text-align:right;
+margin-bottom: 0.6em;} 
+
+div[type='act'] {
+        margin-top:1em;
+        }
+        
+div[type='scene'] {
+        margin-top:1em;
+        }
+    
+head {
+        display:block;
+        text-align:center;
+        font-weight:bold;
+  }
+  
+hi {
+     font-style:italic;    
+ } 
+emph {
+     font-style:italic;  
+     color:green;
+ } 
+ 
+titlePage{
+     text-align:center; display: block;
+  font-size: 16pt;
+  font-weight: bold;
+  color: #00487D;
+  background-color: #FFFFFF;
+  margin-bottom: .5em;
+     
+ }
+ 
+
+graphic[url]:before{
+display: block;
+text-align:center;
+content: attr(url, url);
+max-width: attr(width, length); 
+max-height: attr(height, length); 
+  page-break-after: avoid;
+}
+ 
+ figure {
+  display:block;
+  padding:2em;
+  margin-left:auto;
+  margin-right:auto;
+  width:80%;
+ /*  border: 2px solid gray; */
+ }
+
+spGrp>head {
+display:block;
+ text-align:center;
+ font-style:italic;
+ font-size:smaller;
+ padding:0.5em;
+ background-color:khaki;
+ page-break-after: avoid;
+  page-break-before: avoid;
+}
+
+
+ref {
+ color:lavender;
+}
+
+
+/*ref::after {
+float: footnote;
+content: "See further " attr(target);
+text-align:left;
+color:gray;
+}*/
+
+ref::footnote-call {
+ color:blue;
+}
+
+
+
+foreign{
+ font-style: italic;
+}
+
+title {
+ font-style: italic;
+}
+
+spGrp {
+ margin-left: 1cm;
+ text-align:left;
+}
+
+pb {
+  text-align:right;
+  
+}
