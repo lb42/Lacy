@@ -34,7 +34,7 @@
        <xsl:value-of 
        select="$currentFile"/> contains <xsl:value-of select="$ppCount"/> pages ; <xsl:value-of 
        select="$spWords+$stWords"/> words , of them  <xsl:value-of select="$spWords"/> spoken; <xsl:value-of 
-         select="$spCount"/> speeches,   <xsl:value-of select="$spvCount"/> of them in verse. 
+       select="$spCount"/> speeches,   <xsl:value-of select="$spvCount"/> of them in verse. 
   </xsl:message>
   <xsl:apply-templates/>
  </xsl:template>
@@ -44,7 +44,11 @@
  <!-- copy data for source desc from catalogue -->
   
   <xsl:variable name="id" select="ancestor::*:TEI/@xml:id"/>
-  <xsl:message>Text id is <xsl:value-of select="$id"/></xsl:message>
+ <xsl:message>Now adding metadata for text id  <xsl:value-of select="$id"/> </xsl:message>
+<xsl:if test="not(following::t:revisionDesc)">
+<xsl:message>!!! Revision Desc is missing: cannot add profileDesc !!! </xsl:message>
+</xsl:if>
+
   <xsl:variable name="digBib" select="t:p"/>
   <xsl:for-each select="document('/home/lou/Public/Lacy/catalogue.xml')//*:div[@type='work' and @xml:id eq $id]">
    <xsl:variable name="catBib" select="."/>

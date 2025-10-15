@@ -24,6 +24,6 @@
   <xsl:if test="t:listRef/t:ref[starts-with(@target,'vpp:')]">
    <xsl:text> </xsl:text><xsl:value-of select="@xml:id"/>
   </xsl:if>
-  <xsl:if test="@status eq 'TEI-0'"><xsl:text> [T]</xsl:text></xsl:if>
+  <xsl:if test="@status eq 'TEI'"><xsl:text> [T]</xsl:text></xsl:if>
  </xsl:template>
 </xsl:stylesheet>

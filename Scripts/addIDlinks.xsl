@@ -4,10 +4,9 @@
  xpath-default-namespace="http://www.tei-c.org/ns/1.0" exclude-result-prefixes="xs t" version="2.0">
 
  
- <!-- makes links to titles in authorList iff they are in TEI -->
- 
- <!-- 2025/10/12: doesnt work -->
+ <!-- adds links to formatted version of TEI titles in authorList  -->
 
+<xsl:param name="webRoot">'https://lb42.github.io/Lacy'</xsl:param>
  <xsl:template match="*:bibl/*:ref[starts-with(@target, 'lacy:')]">
   <xsl:variable name="theId" select="substring-after(@target, ':')"/>
   <xsl:choose>
@@ -15,7 +14,7 @@
     test="document('/home/lou/Public/Lacy/catalogue.xml')//t:div[@type = 'work' and @xml:id = $theId and @subtype = 'TEI']">
     <ref xmlns="http://www.tei-c.org/ns/1.0">
      <xsl:attribute name="target">
-      <xsl:value-of select="concat('report.html#', $theId)"/>
+      <xsl:value-of select="concat('$webRoot', $theId, '.html')"/>
      </xsl:attribute>
      <xsl:value-of select="."/>
     </ref>

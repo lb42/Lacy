@@ -3,7 +3,7 @@
  xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:lb="https://lb42.github.io"
  exclude-result-prefixes="xs lb" version="3.0">
  
- <!-- add key from authorList to catalogue -->
+ <!-- add key from authorList to catalogue entries -->
  
  <xsl:template match="/ | @* | node() | comment()">
   <xsl:copy>
@@ -15,13 +15,13 @@
   <xsl:variable name="auth" select="lb:sanitize(.)"/>
  <!-- <xsl:message>Looking for <xsl:value-of select="$auth"/></xsl:message>
 -->  <xsl:variable name="myAuth" select="."/>
-  <xsl:for-each select="doc('authorList.xml')//*:persName[@type='main']">
+  <xsl:for-each select="doc('/home/lou/Public/Lacy/authorList.xml')//*:persName[@type='main']">
    <xsl:variable name="try" select="lb:sanitize(.)"/>
    <xsl:variable name="key" select="ancestor::*:person/@xml:id"/>
    <xsl:if test="starts-with($try,$auth)">
  <!--   <xsl:message>Found!</xsl:message>
  -->   <xsl:copy select="$myAuth"> 
-     <xsl:attribute name="ref" select="$key"/>
+     <xsl:attribute name="ref" select="concat('lacyAuth:',$key)"/>
      <xsl:apply-templates />
     </xsl:copy> 
     
