@@ -5,6 +5,10 @@
  exclude-result-prefixes="xs"
  version="2.0">
 
+<!-- run this in Lacy/TEI
+  $saxon -xi driver.tei ../Scripts/listActors.xsl
+-->
+ 
  <xsl:output method="text"/>
   
  <xsl:template match="/">
