@@ -44,13 +44,13 @@
      <moduleRef key="header" include="teiHeader fileDesc titleStmt publicationStmt distributor
       sourceDesc encodingDesc classDecl taxonomy category catDesc listPrefixDef prefixDef revisionDesc change idno extent profileDesc langUsage language textClass catRef keywords "/>
      <moduleRef key="drama" include="set performance castGroup castList castItem role roleDesc actor
-      spGrp sound"/>
+      spGrp "/>
      <!-- <moduleRef key="linking" include="seg ab"/>-->
   <!--   <moduleRef key="transcr" include="subst addSpan delSpan"/>
   -->   <moduleRef key="namesdates" include="event listEvent listPerson person persName"/>
      <moduleRef key="tagdocs" include="listRef ident"/>
     <moduleRef key="corpus" include="particDesc"/>
-<moduleRef key="analysis"/><!-- need this to get @ana -->
+<moduleRef key="analysis" except="c cl interp interpGrp m pc phr s span spanGrp w"/><!-- need this to get @ana -->
 
 <!-- CLASSES -->
 
@@ -465,24 +465,24 @@
          <valItem ident="add">
           <desc>contemporary manuscript annotation in the original source</desc>
          </valItem>
-         <valItem ident="otherPerfs">
+        <!-- <valItem ident="otherPerfs">
           <desc>note summarizing performance history after the first</desc>
          </valItem>
          <valItem ident="LCP">
           <desc>note concerning Lord Chamberlain's licencing of this source</desc>
-         </valItem>
+         </valItem>-->
         <valItem ident="fees">
-        <desc>note concerning performance fees payable as given in the source text</desc>
+        <desc>note concerning performance or licencing as given in the source text</desc>
         </valItem>
-        <valItem ident="source">
+       <!-- <valItem ident="source">
         <desc>note concerning original source from which source text is derived</desc>
         </valItem>
-        <valItem ident="media">
+  -->      <valItem ident="media">
         <desc>note contains links to media associated with this item</desc>
         </valItem>       
-        <valItem ident="localCopies">
+       <!-- <valItem ident="localCopies">
         <desc>note concerns local copies (deprecated)</desc>
-        </valItem>
+        </valItem>-->
         </valList>
        </attDef>
       <!-- <attDef ident="anchored" mode="delete"/>
