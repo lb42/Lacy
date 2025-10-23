@@ -776,24 +776,72 @@ Desperate Game, by John Maddison Morton</ref> (Release Date: May 11, 2014 [EBook
 <p/>
 </remarks>
 </elementSpec>
-<!-- <elementSpec ident="title" mode="change">
-      <attList>
-       <attDef ident="calendar" mode="delete"/>
-      </attList>
-     </elementSpec>-->
+<elementSpec ident="titlePage" mode="change">
+<exemplum>
+<egXML xmlns="http://www.tei-c.org/ns/Examples">
+<titlePage>
+<titlePart type="main">Dred: A Tale of the Dismal Swamp</titlePart>
+<titlePart type="sub">A Drama, in two acts,</titlePart>
+<titlePart type="source">(From Mrs. Beecher Stowe's Popular Novel.) </titlePart>
+<byline>by <docAuthor>W. E. Suter, Esq.</docAuthor>, author of <title>"A Life's
+Revenge"</title>, <title>"Tiger Slayer of the Savannah</title>, <title>"A
+Quiet Family"</title><title>"The Life of an Actress</title>, <title>"Jupiter's Decree"</title>, &amp;c. &amp;c.</byline>
+<docImprint>THOMAS HAILES LACY, 89, STRAND, LONDON.</docImprint>
+</titlePage>
+</egXML></exemplum>
+
+     </elementSpec>
+<elementSpec ident="titlePart" mode="change">
+<attList>
+<attDef ident="type" mode="replace">
+<datatype><dataRef key="teidata.enumerated"/></datatype>
+<valList type="semi">
+<valItem ident="main"><desc>main title of work</desc></valItem>
+<valItem ident="sub"><desc>sub title of work</desc></valItem>
+<valItem ident="alt"><desc>alternate title of work</desc></valItem>
+<valItem ident="desc"><desc>general description of work</desc></valItem>
+<valItem ident="epigraph"><desc>epigraphic quotation attached to work</desc></valItem>
+<valItem ident="performance"><desc>note of first performances</desc></valItem>
+<valItem ident="source"><desc>indication of the source from which the work was derived</desc></valItem>
+</valList></attDef>
+</attList>
+<exemplum>
+<egXML xmlns="http://www.tei-c.org/ns/Examples">
+<titlePage>
+<titlePart type="main">"The Birds" of Aristophanes</titlePart>
+<titlePart type="sub">A dramatic experiment in one act</titlePart>
+<titlePart type="desc">Being an humble attempt to adapt the said "Birds"to this climate, by
+giving them new names, new feathers, new songs and new tales, </titlePart>
+<byline>By <docAuthor>J. R. Planché, Esq.</docAuthor>Author of
+<title>"Fortunio,</title><title>"The White Cat,"</title><title>"Beauty and the
+Beast,"</title><title>"The Sleeping Beauty,"</title><title>"The Drama at
+Home,"</title><title>"The Fair one with the Golden Locks,"</title>
+<title>"The Bee and the Orange Tree,</title> &amp;c. &amp;c. </byline>
+<titlePart type="epigraph"><quote>"A jest's prosperity lies in the ear Of him
+that hears it, never in the tongue Of him that makes
+it.</quote>Shakespere.</titlePart>
+<titlePart >Correctly Printed from the Prompt Book,with Exits,
+Entrances, &amp;c . </titlePart>
+<titlePart type="performance">First performed at the Theatre Royal Haymarket,
+Monday April 13th, 1846</titlePart>
+<docImprint> London: Published by S. G Fairbrother, Bow Street, And W. Strange,
+Paternoster Row, Sold Also By W. Barth, Brydges Street, C. Harris, Bow Street,And
+All Booksellers. Price Sixpence. </docImprint>
+</titlePage>
+</egXML></exemplum></elementSpec>
+
 <elementSpec ident="titleStmt" mode="change">
 <exemplum>
 <egXML xmlns="http://www.tei-c.org/ns/Examples">
 <titleStmt>
-<title n="anythingforachange" type="main">Anything for a Change: TEI
-edition</title>
+<title n="anythingforachange" type="main">Anything for a Change</title>
 <author>Brooks, Shirley</author>
 <respStmt>
 <resp>Curated by</resp>
 <name>Lou Burnard</name>
 </respStmt>
 </titleStmt>
-</egXML>
+</egXML><!-- L0053 -->
 </exemplum>
 </elementSpec>
 
