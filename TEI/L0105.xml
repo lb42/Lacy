@@ -12,7 +12,7 @@
    <publicationStmt>
     <distributor>Privately published on the Lacy Website</distributor>
     
-   <idno type="lae">L0105</idno><idno type='URI' xml:base='https://dracor.org'>LAE</idno></publicationStmt>
+   <idno type="lae">L0105</idno><idno type="URI" xml:base="https://dracor.org">LAE</idno></publicationStmt>
    <sourceDesc><bibl type="printSource" n="7.15"><author>Phillips, Mrs. Alfred</author><title type="main" n="themasterpassion">The Master Passion</title><title type="sub">A
 Comedy in two acts</title><extent>29 pp (UM copy: 386 - 415)<measure type="pp" quantity="29"/>
   <measure type="spCount" quantity="655"/>
@@ -87,33 +87,28 @@ HT</ref></bibl><bibl type="digitalSource"><ref target="https://babel.hathitrust.
  </teiHeader>
  <text>
   <front>
-   <titlePage>
-    <titlePart>The Master Passion</titlePart>
-    <titlePart>A comedy in two acts</titlePart>
-    <byline>By <docAuthor>Mrs. Alfred Phillips,</docAuthor>Author of <title>An Organic
+   <titlePage><titlePart type="main">The Master Passion</titlePart><titlePart type="sub">A comedy in two acts</titlePart><byline>By <docAuthor>Mrs. Alfred Phillips,</docAuthor>Author of <title>An Organic
      Affection</title>, <title>Caught in his own Trap</title>, <title>A Bachelor's Vow</title>
-     &amp;c.&amp;c.</byline>
-    <docImprint>Thomas Hailes Lacy, Wellington Street, Strand, London</docImprint>
-   </titlePage>
+     &amp;c.&amp;c.</byline><docImprint>Thomas Hailes Lacy, Wellington Street, Strand, London</docImprint></titlePage>
    <pb n="2"/>
    <performance>
     <p>First Performed at the Royal Olympic Theatre, on Wednesday, September 1st, 1852.</p>
    </performance>
    <castList>
     <head>Characters.</head>
-    <castItem><role gender="M">Mr. Buscoyne </role><actor ana="#M">Mr. G. Cooke.</actor></castItem>
-    <castItem><role gender="M">Randolph Buscoyne.</role><actor ana="#M">Mr. W. Farren, Jun.
-     </actor><actor ana="#M">Mr. Edgar. </actor></castItem>
-    <castItem><role gender="M">Jacob Anstead </role><actor ana="#M">Mr. W. Farren.
+    <castItem><role gender="M">Mr. Buscoyne </role><actor sex="M">Mr. G. Cooke.</actor></castItem>
+    <castItem><role gender="M">Randolph Buscoyne.</role><actor sex="M">Mr. W. Farren, Jun.
+     </actor><actor sex="M">Mr. Edgar. </actor></castItem>
+    <castItem><role gender="M">Jacob Anstead </role><actor sex="M">Mr. W. Farren.
      </actor></castItem>
-    <castItem><role gender="M">Caleb Thomas</role><actor ana="#M">Mr. Hoskins. </actor></castItem>
-    <castItem><role gender="M">Thomas Peg</role><actor ana="#M">Mr. Clifton. </actor></castItem>
-    <castItem><role gender="M">Tobias Dove</role><actor ana="#M">Mr. Shalders. </actor></castItem>
-    <castItem><role gender="M">Joseph</role><actor ana="#M">Mr. Tanner. </actor></castItem>
-    <castItem><role gender="F">Mrs. Buscoyne </role><actor ana="#F">Mrs. B. Bartlett. </actor></castItem>
-    <castItem><role gender="F">Julia Buscoyne </role><actor ana="#F">Miss Rafter. </actor></castItem>
-    <castItem><role gender="F">Mildred Anstead </role><actor ana="#F">Mrs. Walter Lacy. </actor></castItem>
-    <castItem><role gender="F">Polly Dodds...</role><actor ana="#F">Mrs. A. Phillips.
+    <castItem><role gender="M">Caleb Thomas</role><actor sex="M">Mr. Hoskins. </actor></castItem>
+    <castItem><role gender="M">Thomas Peg</role><actor sex="M">Mr. Clifton. </actor></castItem>
+    <castItem><role gender="M">Tobias Dove</role><actor sex="M">Mr. Shalders. </actor></castItem>
+    <castItem><role gender="M">Joseph</role><actor sex="M">Mr. Tanner. </actor></castItem>
+    <castItem><role gender="F">Mrs. Buscoyne </role><actor sex="F">Mrs. B. Bartlett. </actor></castItem>
+    <castItem><role gender="F">Julia Buscoyne </role><actor sex="F">Miss Rafter. </actor></castItem>
+    <castItem><role gender="F">Mildred Anstead </role><actor sex="F">Mrs. Walter Lacy. </actor></castItem>
+    <castItem><role gender="F">Polly Dodds...</role><actor sex="F">Mrs. A. Phillips.
      </actor></castItem>
    </castList>
    <set>

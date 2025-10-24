@@ -12,7 +12,7 @@
    <publicationStmt>
     <distributor>Privately published on the Lacy Website</distributor>
     
-   <idno type="lae">L0039</idno><idno type='URI' xml:base='https://dracor.org'>LAE</idno></publicationStmt>
+   <idno type="lae">L0039</idno><idno type="URI" xml:base="https://dracor.org">LAE</idno></publicationStmt>
    <sourceDesc><bibl type="printSource" n="3.9"><author>Courtney, John</author><title type="main" n="belphegortheitinerant">Belphegor; or, The Mountebank and his
 Wife</title><title type="sub">A Drama in four acts</title><title type="source" n="#FR">Adapted from the French</title><extent>55 pp (UM copy: 254 -
 309)<measure type="pp" quantity="48"/>
@@ -156,51 +156,43 @@ Books</ref></bibl><bibl type="digitalSource"><ref target="https://babel.hathitru
  <text>
   <pb n="1"/>
   <front>
-   <titlePage>
-    
-     <titlePart>Belphegor</titlePart>
-     <titlePart>Or, The Mountebank And His Wife.</titlePart>
-     <titlePart>A Drama, In Four Acts.</titlePart>
-    
-    <byline>Adapted From The French, By <docAuthor>J. Courtney,</docAuthor> Author of <title>"Time
+   <titlePage><titlePart type="main">Belphegor</titlePart><titlePart type="alt">Or, The Mountebank And His Wife.</titlePart><titlePart type="sub">A Drama, In Four Acts.</titlePart><byline>Adapted From The French, By <docAuthor>J. Courtney,</docAuthor> Author of <title>"Time
      Tries All,"</title><title> "Aged Forty,"</title><title> "Taken by Surprise," </title><title>"
      The Musician's Daughter,"</title><title> " Tricks and Trials,"</title><title> " Vanity, or the
      Will and the Word," </title><title>"The Two Polts,"</title><title> "Lizzie Leigh,"</title>
-     &amp;c</byline>
-    <docImprint>Hailes Lacy, Wellington Street, Strand, London.</docImprint>
-   </titlePage>
+     &amp;c</byline><docImprint>Hailes Lacy, Wellington Street, Strand, London.</docImprint></titlePage>
    <pb n="2"/>
    <performance>
     <p> First produced at the Royal Surrey Theatre, on Monday, January 20, 1851.</p>
    </performance>
    <castList>
     <head>Characters.</head>
-    <castItem> <role gender="M">The Duke De Montbazon </role> <actor ana="#M">Mr. Bruce Norton.
+    <castItem> <role gender="M">The Duke De Montbazon </role> <actor sex="M">Mr. Bruce Norton.
      </actor> </castItem>
-    <castItem> <role gender="M">The Grand Bailli De Courgement </role> <actor ana="#M">Mr. Raymond.
+    <castItem> <role gender="M">The Grand Bailli De Courgement </role> <actor sex="M">Mr. Raymond.
      </actor> </castItem>
-    <castItem> <role gender="M">The Count De Castel Blangy </role> <actor ana="#M">Mr. W. Montague.
+    <castItem> <role gender="M">The Count De Castel Blangy </role> <actor sex="M">Mr. W. Montague.
      </actor> </castItem>
-    <castItem> <role gender="M">The Vicomte Hercules </role> <actor ana="#M">Mr. H. Widdicomb.
+    <castItem> <role gender="M">The Vicomte Hercules </role> <actor sex="M">Mr. H. Widdicomb.
      </actor> </castItem>
-    <castItem> <role gender="M">The Judge D'arpignol </role> <actor ana="#M">Mr. Fenton. </actor> </castItem>
-    <castItem> <role gender="M">Commander Of The Pouffieres. </role> <actor ana="#M">Mr. J. Parry.
+    <castItem> <role gender="M">The Judge D'arpignol </role> <actor sex="M">Mr. Fenton. </actor> </castItem>
+    <castItem> <role gender="M">Commander Of The Pouffieres. </role> <actor sex="M">Mr. J. Parry.
      </actor> </castItem>
-    <castItem> <role gender="M">The Chevalier De Rollac </role> <actor ana="#M">Mr. T. Mead. </actor> </castItem>
-    <castItem> <role gender="M">Doctor </role> <actor ana="#M">Mr. Butler. </actor> </castItem>
-    <castItem> <role gender="M">Beaumesnil . </role> <actor ana="#M">Mr. </actor> </castItem>
-    <castItem> <role gender="M">Duperon . </role> <actor ana="#M">Mr. </actor> </castItem>
-    <castItem> <role gender="M">Grelu </role><roleDesc> (Proprietor And Deputy Prefet)</roleDesc>  <actor ana="#M">Mr. Fitzroy. </actor> </castItem>
+    <castItem> <role gender="M">The Chevalier De Rollac </role> <actor sex="M">Mr. T. Mead. </actor> </castItem>
+    <castItem> <role gender="M">Doctor </role> <actor sex="M">Mr. Butler. </actor> </castItem>
+    <castItem> <role gender="M">Beaumesnil . </role> <actor sex="M">Mr. </actor> </castItem>
+    <castItem> <role gender="M">Duperon . </role> <actor sex="M">Mr. </actor> </castItem>
+    <castItem> <role gender="M">Grelu </role><roleDesc> (Proprietor And Deputy Prefet)</roleDesc>  <actor sex="M">Mr. Fitzroy. </actor> </castItem>
     <castItem> <role gender="M">Jean Joson</role> <roleDesc>(the Deputy's Deputy) </roleDesc>
-     <actor ana="#M">Mr. J. W. Collier</actor> </castItem>
-    <castItem> <role gender="M">Guillaume, Surnamed Belphegor </role> <actor ana="#M">Mr. Creswick.
+     <actor sex="M">Mr. J. W. Collier</actor> </castItem>
+    <castItem> <role gender="M">Guillaume, Surnamed Belphegor </role> <actor sex="M">Mr. Creswick.
      </actor> </castItem>
-    <castItem> <role gender="M">Grain D'amour </role> <actor ana="#M">Mr. Rivers. </actor> </castItem>
-    <castItem> <role gender="M">Henri </role> <roleDesc>(son To Belphegor) </roleDesc> <actor ana="#F">Miss Mandlebert. </actor> </castItem>
-    <castItem> <role gender="F">Madeline </role> <roleDesc>(wife To Belphegor) </roleDesc> <actor ana="#F">Miss Cooper. </actor> </castItem>
+    <castItem> <role gender="M">Grain D'amour </role> <actor sex="M">Mr. Rivers. </actor> </castItem>
+    <castItem> <role gender="M">Henri </role> <roleDesc>(son To Belphegor) </roleDesc> <actor sex="F">Miss Mandlebert. </actor> </castItem>
+    <castItem> <role gender="F">Madeline </role> <roleDesc>(wife To Belphegor) </roleDesc> <actor sex="F">Miss Cooper. </actor> </castItem>
     <castItem> <role gender="F">Nini Flora </role> <roleDesc>(dancer At The Academie) </roleDesc>
-     <actor ana="#F">Miss J. Coveney. </actor> </castItem>
-    <castItem> <role gender="F">Catherine </role> <actor ana="#F">Miss H. Coveney. </actor> </castItem>
+     <actor sex="F">Miss J. Coveney. </actor> </castItem>
+    <castItem> <role gender="F">Catherine </role> <actor sex="F">Miss H. Coveney. </actor> </castItem>
     <castItem> <roleDesc>Masqueraders, Peasants, Soldiers, Servants, &amp;c. </roleDesc> </castItem>
    </castList>
 

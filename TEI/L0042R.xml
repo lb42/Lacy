@@ -9,7 +9,7 @@
    <publicationStmt>
     <distributor>Privately published on the Lacy Website</distributor>
     
-   <idno type="lae">L0042R</idno><idno type='URI' xml:base='https://dracor.org'>LAE</idno></publicationStmt>
+   <idno type="lae">L0042R</idno><idno type="URI" xml:base="https://dracor.org">LAE</idno></publicationStmt>
    <sourceDesc><bibl type="printSource" n="3.12"><author>Townley, James</author><title type="main" n="highlifebelowstairs">High life below stairs</title><title type="sub">A Farce in two acts</title><extent>32 pp (UM copy: 381 -
 413)<measure type="pp" quantity="30"/>
   <measure type="spCount" quantity="543"/>
@@ -102,12 +102,7 @@ HT</ref></bibl><bibl type="digitalSource"><ref target="http://hdl.handle.net/20.
  </teiHeader>
  <text xml:lang="eng">
   <front>
-   <titlePage>
-    <titlePart>High Life Below Stairs. </titlePart>
-    <titlePart>A farce, in two acts.</titlePart>
-    <byline>by the <docAuthor>Rev. James Townley.</docAuthor></byline>
-    <docImprint>Thomas Hailes Lacy, 89, Strand, London.</docImprint>
-   </titlePage>
+   <titlePage><titlePart type="main">High Life Below Stairs. </titlePart><titlePart type="sub">A farce, in two acts.</titlePart><byline>by the <docAuthor>Rev. James Townley.</docAuthor></byline><docImprint>Thomas Hailes Lacy, 89, Strand, London.</docImprint></titlePage>
    <pb n="2"/>
    <performance>
     <p>First performed at the Theatre Royal Drury Lane, October 31st, 1759.</p>
@@ -115,13 +110,13 @@ HT</ref></bibl><bibl type="digitalSource"><ref target="http://hdl.handle.net/20.
      <head>Characters</head>
      <head>Original Cast</head>
      <castItem><role gender="M">Lovel</role><roleDesc>(a young West-Indian of
-      fortune)</roleDesc><actor ana="#M">Mr. O'Bryan.</actor>.</castItem>
+      fortune)</roleDesc><actor sex="M">Mr. O'Bryan.</actor>.</castItem>
      <castItem><role gender="M">Freeman</role><roleDesc>(his Friend)</roleDesc> Mr.
       Packer.</castItem>
      <castGroup>
       <roleDesc>Servants to Lovel</roleDesc>
       <castItem><role gender="M">Philip</role>
-       <actor ana="#M">Mr. Yates.</actor></castItem>
+       <actor sex="M">Mr. Yates.</actor></castItem>
       <castItem>
        <role gender="M">Tom</role>
       </castItem>
@@ -131,15 +126,15 @@ HT</ref></bibl><bibl type="digitalSource"><ref target="http://hdl.handle.net/20.
       <castItem>
        <role gender="M">Kingston</role>
        <roleDesc>(a Black)</roleDesc>
-       <actor ana="#M">Mr. Moody.</actor>
+       <actor sex="M">Mr. Moody.</actor>
       </castItem>
       <castItem>
        <role gender="F">Kitty</role>
-       <actor ana="#F"> Mrs. Clive.</actor>
+       <actor sex="F"> Mrs. Clive.</actor>
       </castItem>
       <castItem>
        <role gender="F">Cook</role>
-       <actor ana="#F"> Mrs. Bradshaw.</actor>
+       <actor sex="F"> Mrs. Bradshaw.</actor>
       </castItem>
       <castItem>
        <role gender="F">Cloe</role>
@@ -148,19 +143,19 @@ HT</ref></bibl><bibl type="digitalSource"><ref target="http://hdl.handle.net/20.
      </castGroup>
      <castGroup>
       <roleDesc>Visitors</roleDesc>
-      <castItem><role gender="M">Duke's servant</role>,<actor ana="#M"> Mr.
+      <castItem><role gender="M">Duke's servant</role>,<actor sex="M"> Mr.
        Palmer.</actor></castItem>
-      <castItem><role gender="M">Sir Harry's servant</role>,<actor ana="#M"> Mr.
+      <castItem><role gender="M">Sir Harry's servant</role>,<actor sex="M"> Mr.
        King.</actor></castItem>
-      <castItem><role gender="F">Lady Bab's maid</role>, <actor ana="#F">Miss
+      <castItem><role gender="F">Lady Bab's maid</role>, <actor sex="F">Miss
        Abingdon.</actor></castItem>
-      <castItem><role gender="F">Lady Charlotte's maid</role>, <actor ana="#F">Mrs.
+      <castItem><role gender="F">Lady Charlotte's maid</role>, <actor sex="F">Mrs.
        Bennet.</actor>.</castItem>
      </castGroup>
      <castItem>
       <role gender="M">Robert</role>
       <roleDesc>(Servant to Freeman)</roleDesc>
-      <actor ana="#M">Mr. Mears</actor>
+      <actor sex="M">Mr. Mears</actor>
      </castItem>
     </castList>
    </performance>

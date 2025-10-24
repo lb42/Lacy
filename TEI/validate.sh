@@ -1,1 +1,1 @@
-for f in L*.xml; do jing /home/lou/Public/dracor-schema/dist/dracor.rng $f; done
+cd Plus; for f in L*.xml; do echo $f; jing /home/lou/Public/Lacy/TEI/ODD/out/lacy.rng $f; done
