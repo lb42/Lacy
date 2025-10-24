@@ -776,6 +776,34 @@ Desperate Game, by John Maddison Morton</ref> (Release Date: May 11, 2014 [EBook
 <p/>
 </remarks>
 </elementSpec>
+
+<elementSpec ident="stage" mode="change">
+<exemplum>
+<egXML xmlns="http://www.tei-c.org/ns/Examples"><stage> Enter Jessica, reading a letter (with bonnet and parasol) R. F followed
+by Launcelot dressed as a page and leading a toy spaniel on wheels. </stage></egXML>
+</exemplum><exemplum><egXML xmlns="http://www.tei-c.org/ns/Examples">
+<sp who="#L0013_U12">
+<speaker>1851.</speaker>
+<l><stage>(Confidentially to audience,)</stage> 
+If any one himself would like to see, </l>
+<l>Come back to-morrow and inquire for me.</l>
+</sp></egXML></exemplum></elementSpec>
+
+<elementSpec ident="title" mode="change">
+<exemplum>
+<p>Play titles referenced on a title page should be tagged:</p>
+<egXML xmlns="http://www.tei-c.org/ns/Examples">
+<byline> By <docAuthor>Shirley Brooks,</docAuthor> Member Of The Dramatic Authors' Society;
+Author Of <title>Our New Governess</title>, <title>Honours And Tricks</title>, <title>The
+Wigwam</title>, Etc., Etc.</byline>
+</egXML></exemplum>
+<exemplum>
+<p>Titles of songs or airs given at the start of a spGrp should also be tagged</p><egXML xmlns="http://www.tei-c.org/ns/Examples">
+<head> Duett and Dance : Air.—<title>"Pop goes the Weasel."</title>
+</head></egXML></exemplum>
+
+</elementSpec>
+
 <elementSpec ident="titlePage" mode="change">
 <exemplum>
 <egXML xmlns="http://www.tei-c.org/ns/Examples">
@@ -789,7 +817,6 @@ Quiet Family"</title><title>"The Life of an Actress</title>, <title>"Jupiter's D
 <docImprint>THOMAS HAILES LACY, 89, STRAND, LONDON.</docImprint>
 </titlePage>
 </egXML></exemplum>
-
      </elementSpec>
 <elementSpec ident="titlePart" mode="change">
 <attList>
