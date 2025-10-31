@@ -7,9 +7,10 @@ version="3.0">
 <xsl:template match="/">
 <xsl:for-each select="//*:TEI">
 <xsl:variable name='myId' select="@xml:id"/>
+ <xsl:variable name="myVol" select="substring-before(substring-after(*:teiHeader/*:fileDesc/*:sourceDesc/*:bibl/*:title[@level='s'],'volume '),',')"/>
 <xsl:variable name='myCount' select="count(*:text//*:pb)"/>
 <xsl:variable name='yourCount' select="document('listPages.xml')/*:pages/*:pCount[@text eq $myId]/@count"/>
-<xsl:message><xsl:value-of select="concat($myId, ' : ', $myCount, ' ', $yourCount)"/> </xsl:message>
+<xsl:message><xsl:value-of select="concat($myVol,' ', $myId, ' : ', $myCount, ' ', $yourCount)"/> </xsl:message>
 </xsl:for-each>
 </xsl:template>
 </xsl:stylesheet>
