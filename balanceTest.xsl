@@ -7,7 +7,7 @@
   <xsl:apply-templates select="//body"/>
  </xsl:template>
 
- <!--  -->
+ <!-- run against catalogue.xml to check balance for lacy, vpp, and tei  -->
 
  <xsl:template match="body">
   <xsl:variable name="lacyTot" select="count(//div[@type = 'work'])"/>
