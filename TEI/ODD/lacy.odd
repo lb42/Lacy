@@ -41,7 +41,7 @@ docLang="en" source="tei:4.10.2">
 <!-- MODULES -->
 <moduleRef key="tei"/>
 <moduleRef key="core"
-include="author bibl  date desc  emph figure foreign gap graphic  head hi item l  label  lg list         
+include="author bibl  date desc  emph foreign gap graphic  head hi item l  label  lg list         
       measure milestone name note p  pb  ptr publisher quote ref   relatedItem respStmt resp series     sp speaker
       stage teiCorpus term title "/>
 <moduleRef key="textstructure" include="TEI  back body byline div docTitle
@@ -52,6 +52,7 @@ include="teiHeader fileDesc titleStmt publicationStmt distributor
 <moduleRef key="drama"
 include="set performance castGroup castList castItem role roleDesc actor
       spGrp "/>
+ <moduleRef key="figures" include="figure figDesc"/>
 <!-- <moduleRef key="linking" include="seg ab"/>-->
 <!--   <moduleRef key="transcr" include="subst addSpan delSpan"/>
   -->
@@ -414,6 +415,18 @@ got in the house ?</p>
 <!-- L0048 -->
 </exemplum>
 </elementSpec>
+ 
+ <elementSpec ident="figure" mode="change">
+  <exemplum>
+   <egXML xmlns="http://www.tei-c.org/ns/Examples"><div type="liminal">
+<figure><graphic url="media/L1434-frontispiece.png"/>
+<head><hi>Mazeppa</hi>. Help! help! for heaven's sake release me! <hi>Act II. Scene
+III</hi>.</head></figure>
+</div>
+</egXML>
+   <!-- L1434 -->
+  </exemplum>
+ </elementSpec>
 <!--<elementSpec ident="encodingDesc" mode="change">
       <content>
        <elementRef key="p" minOccurs="1" maxOccurs="unbounded"/>
