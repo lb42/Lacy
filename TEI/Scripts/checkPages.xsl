@@ -11,10 +11,10 @@ version="3.0">
 <xsl:variable name='myCount' select="count(*:text//*:pb)+1"/>
 <xsl:variable name='yourCount' select="document('listPages.xml')/*:pages/*:pCount[@text eq $myId]/@count"/>
  <xsl:if test="$yourCount gt '1'">
-<xsl:message><xsl:value-of select="concat($myVol,' ', $myId, ' : ', $myCount, ' pp,', $yourCount), ' pb'"/> </xsl:message>
+<xsl:message><xsl:value-of select="concat($myVol,' ', $myId, ' : ', $myCount, ' pp, ', $yourCount), ' pb'"/> </xsl:message>
 </xsl:if>
  
- <xsl:apply-templates select="*:text//*:pb[preceding::*:pb]"/>
+ <xsl:apply-templates select="*:text//*:pb[preceding-sibling::*:pb]"/>
  
 </xsl:for-each>
 </xsl:template>
