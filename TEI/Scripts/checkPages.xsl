@@ -20,7 +20,8 @@ version="3.0">
 </xsl:template>
  
  <xsl:template match="*:pb">
-  <xsl:variable name="me" select="@n" as="xs:integer"/>
+ <!-- <xsl:message>pb <xsl:value-of select="@n"/> in <xsl:value-of select="ancestor::*:TEI/@xml:id"/></xsl:message>
+-->  <xsl:variable name="me" select="@n" as="xs:integer"/>
   <xsl:variable name="bro" select='preceding::*:pb[1]/@n' as='xs:integer'/>
 <!--  <xsl:message><xsl:value-of select="$me"/></xsl:message>
 -->  <xsl:if test="$bro+1 ne $me">

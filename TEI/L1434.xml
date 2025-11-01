@@ -138,14 +138,6 @@
 
      </person>
 
-
-
-
-
-
-
-
-
     </listPerson>
    </particDesc>
   </profileDesc>
@@ -155,7 +147,8 @@
    <change when="2025-06-03">Header confected</change>
   </revisionDesc>
  </teiHeader>
- <text>
+ <text><pb n='1'/>
+<!-- filenumbering is one behind page numbering in UIU copy -->
   <front>
    <pb n="3"/>
    <div type="liminal">
@@ -174,7 +167,6 @@
     <docImprint>Thomas Hailes Lacy, Theatrical publisher, London.</docImprint>
    </titlePage>
    <pb n="5"/>
-   <pb n="6"/>
    <div type="liminal">
     <head>Remarks</head>
     <head>Mazeppa.</head>
@@ -216,7 +208,6 @@
      <l> Bold, energetic language—thoughts sublime—</l>
      <l> And all the artful cadences of rhyme.”</l><note place="foot">"The Modern Dunciad"</note>
     </p>
-    <pb n="6"/>
     <p> The story of Mazeppa we learn from two sources— Voltaire’s History of Charles XII., and
      Lesur’s “<title>Histoire des Kosaques</title>.” Lord Byron has rendered it familiar to any
      reader of poetry—Mazeppa is introduced relating romantic adventures to the royal Swede, after
@@ -393,12 +384,11 @@
      <castItem><role gender="F">Agatha, her Nurse</role><actor>Mrs. Bradley</actor></castItem>
      <castItem><role gender="F">Zemila</role><actor>Mrs.Yates</actor></castItem>
      <castItem><role gender="M">Knights, Officers, Guards, Heralds, Domestics, Ladies, &amp;c.
-       <pb/></role>
+      </role>
      </castItem>
     </castList>
     <castList>
      <head>TARTARS.</head>
-
      <castItem><role gender="M">Abder Khan, King of Tartary</role>
       <actor>Mr. Gomersal</actor></castItem>
      <castItem><role gender="M">Mazeppa, his son, under the name of Cassimer</role>
@@ -426,9 +416,8 @@
      </castItem>
     </castList>
    </performance>
-
-
   </front>
+  <pb n="11"/>
   <body>
    <head>Mazeppa</head>
    <div type="act">
