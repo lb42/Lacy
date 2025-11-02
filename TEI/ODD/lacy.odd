@@ -41,7 +41,7 @@ docLang="en" source="tei:4.10.2">
 <!-- MODULES -->
 <moduleRef key="tei"/>
 <moduleRef key="core"
-include="author bibl  date desc  emph foreign gap graphic  head hi item l  label  lg list         
+include="author bibl corr date desc  emph foreign gap graphic  head hi item l  label  lg list         
       measure milestone name note p  pb  ptr publisher quote ref   relatedItem respStmt resp series     sp speaker
       stage teiCorpus term title "/>
 <moduleRef key="textstructure" include="TEI  back body byline div docTitle
@@ -254,19 +254,21 @@ there are multiple authors. Not permitted outside the header.</p>
 <attDef ident="subtype">
 <desc>Further defines the role of this bibliographic item </desc>
 <valList type="closed">
-<valItem ident="copy">
+<valItem ident="copytext">
 <desc>The digitized images of this item have been used as copytext</desc>
 </valItem>
+ <valItem ident="TEI">
+  <desc>This item references a TEI XML version of the work</desc>
+ </valItem>
 </valList>
 </attDef>
 <attDef ident="type" mode="replace">
-<desc>specifies the scope of the bibliographic description; in Dracor only two
-values are distinguished; we add a third</desc>
+<desc>specifies the scope of the bibliographic description </desc>
 <valList type="closed">
-<valItem ident="digitalSource">
+<valItem ident="surrogate">
 <desc>the description contains pointers to available digital versions of the work</desc>
 </valItem>
-<valItem ident="printSource">
+<valItem ident="origin">
 <desc>the description documents the printed source of the work</desc>
 </valItem>
 <valItem ident="msSource">
@@ -276,7 +278,7 @@ values are distinguished; we add a third</desc>
 </attDef>
 </attList>
 <exemplum>
-<egXML xmlns="http://www.tei-c.org/ns/Examples"> <bibl type="printSource" n="3.14"><author>Brooks, Shirley</author><title
+<egXML xmlns="http://www.tei-c.org/ns/Examples"> <bibl type="origin" n="3.14"><author>Brooks, Shirley</author><title
 type="main" n="theexposition">The Exposition: A Scandinavian
 Sketch</title><title type="sub">Containing as Much Irrelevant Matter as
 Possible, in one act</title><extent>21 pp (UM copy: 438 - 459)<measure type="pp"
@@ -360,7 +362,7 @@ the format YYYY-MM-DD. </p>
 </actor></castItem>
 </castList>
 </egXML>
-</exemplum></elementSpec><!--
+</exemplum></elementSpec>
 <elementSpec ident="corr" mode="change">
 <exemplum>
 <p>The printed source reads something other than "Perdita", which has been
@@ -370,7 +372,7 @@ corrected by the transcriber </p>
 d'ye do ? </l>
 </egXML>
 </exemplum>
-</elementSpec>-->
+</elementSpec>
 <elementSpec ident="div" mode="change">
 
 <constraintSpec mode="add" ident="frontDivTypes" scheme="schematron">

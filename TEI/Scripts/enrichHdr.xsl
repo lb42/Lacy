@@ -25,7 +25,7 @@
   <xsl:variable name="spString"
    select="normalize-space(replace(string-join(//t:sp/(t:p | t:l)/text(), ' '), '—', ' '))"/>
   <xsl:variable name="stString"
-   select="normalize-space(replace(string-join(//t:stage, ' '), '[\(\)\-\.—]', ' '))"/>
+   select="normalize-space(replace(string-join(//t:ge, ' '), '[\(\)\-\.—]', ' '))"/>
   <xsl:variable name="spWords" select="count(tokenize($spString))"/>
   <xsl:variable name="stWords" select="count(tokenize($stString))"/>
  
@@ -44,12 +44,11 @@
  <!-- copy data for source desc from catalogue -->
   
   <xsl:variable name="id" select="ancestor::*:TEI/@xml:id"/>
- <xsl:message>Now adding metadata for text id  <xsl:value-of select="$id"/> </xsl:message>
+<!-- <xsl:message>Now adding metadata for text id  <xsl:value-of select="$id"/> </xsl:message>-->
 <xsl:if test="not(following::t:revisionDesc)">
 <xsl:message>!!! Revision Desc is missing: cannot add profileDesc !!! </xsl:message>
 </xsl:if>
 
-  <xsl:variable name="digBib" select="t:p"/>
   <xsl:for-each select="document('/home/lou/Public/Lacy/catalogue.xml')//*:div[@type='work' and @xml:id eq $id]">
    <xsl:variable name="catBib" select="."/>
    <xsl:variable name="subjectStr" select="$catBib/@type"/>
@@ -59,7 +58,8 @@
   </xsl:for-each>
  </xsl:template>
  
-
+<!-- copy particDesc from Partix folder -->
+ 
  <xsl:template match="t:profileDesc">
   <profileDesc xmlns="http://www.tei-c.org/ns/1.0">
    <xsl:variable name="id" select="ancestor::*:TEI/@xml:id"/>
@@ -67,13 +67,13 @@
    <particDesc>
     <xsl:copy-of select="document(concat('/home/lou/Public/Lacy/TEI/Partix/',$id,'.xml'))//*:particDesc/*:listPerson"/>
    </particDesc>
-  </profileDesc>
-  
+  </profileDesc>  
  </xsl:template>
 
  
  <xsl:template match="t:revisionDesc">
- <xsl:if test="not(preceding-sibling::t:profileDesc)">
+ <!-- create a profileDesc if necessary -->
+  <xsl:if test="not(preceding-sibling::t:profileDesc)">
   <profileDesc xmlns="http://www.tei-c.org/ns/1.0">
    <xsl:variable name="id" select="ancestor::*:TEI/@xml:id"/>
    <xsl:variable name="catStr"
@@ -101,23 +101,12 @@
 <!-- and update revisionDesc -->
   
   <revisionDesc xmlns="http://www.tei-c.org/ns/1.0">
-  <change when="{$today}">Metadata updated from new catalogue</change>
+  <change when="{$today}">Metadata refreshed from catalogue and Partix folder</change>
    <xsl:apply-templates/>
   </revisionDesc>
  </xsl:template>
 
-<xsl:template match="@sex">
- <xsl:attribute name="ana" select="concat('#',.)"/>
-</xsl:template>
- 
- <xsl:template match="@subtype">
-  <xsl:attribute name="n">copytext</xsl:attribute>
- </xsl:template>
- 
- <!--<xsl:template match="@gender">
-  <xsl:attribute name="ana" select="concat('#',.)"/>
- </xsl:template>
---> 
+
  <xsl:template match="@resp">
 <xsl:if test=". ne 'source'">  <xsl:attribute name="source" select="concat('#',.)"/>
 </xsl:if> </xsl:template>
@@ -142,18 +131,15 @@
  </xsl:template>
  
  <xsl:template match="t:note[@type eq 'localCopies']">
-  <!--<listRef xmlns="http://www.tei-c.org/ns/1.0" type="localCopies">
- -->  
   <xsl:for-each select="t:ident">
    <ref xmlns="http://www.tei-c.org/ns/1.0"><xsl:value-of select="."/></ref>
    </xsl:for-each>
-  <!--</listRef>-->
  </xsl:template>
  
 <xsl:template match="t:publicationStmt">
 <xsl:copy>
 <xsl:apply-templates/>
-<idno xmlns="http://www.tei-c.org/ns/1.0" type='lae'>
+<idno xmlns="http://www.tei-c.org/ns/1.0" type='LAE'>
 <xsl:value-of select="ancestor::t:TEI/@xml:id"/>
 </idno>
 </xsl:copy>
