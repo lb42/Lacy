@@ -13,44 +13,32 @@ Makers of Finsbury</title>
 <publicationStmt>
 <distributor>Privately published on the Lacy Website</distributor>
 
-<idno type="lae">L1300</idno>
-<idno type="Uri" xml:base="https://dracor.org">Lae</idno></publicationStmt>
-<sourceDesc>
-<bibl type="printSource" n="87.10"><author>Hazlewood, Colin H.</author><title type="main" n="flowermakersandheartb...">Lizzie Lyle; or, The Flower Makers of
-Finsbury</title><title type="sub">A Tale of Trials and Temptations in three
-acts</title><extent>49 pp (Um copy: 346 - 395)<measure type="pp" quantity="46"/>
-<measure type="spCount" quantity="876"/>
-<measure type="spvCount" quantity="0"/>
-<measure type="txWords" quantity="15621"/>
-<measure type="spWords" quantity="14169"/>
-<measure type="stWords" quantity="1452"/>
-</extent>
-<title level="s"> Lacy's Acting Edition, volume 87, No. 1300</title><idno type="nic">N13707</idno><idno type="vpp">Vol87xLizzie</idno></bibl>
-<bibl type="digitalSource" n="copytext"><ref target="https://lb42.github.io/Lacy/Source/Vpp/L1300-vpp.pdf">LoB from
-Vpp</ref><ref target="local:Vol87/L1300/L1300-vpp.pdf"/><ref target="local:Vol87/L1300/Vol87xLizzie.pdf"/></bibl>
-<bibl type="digitalSource"><ref target="https://archive.org/details/lizzielyleorflow00hazlrich">Internet
-Archive</ref></bibl>
-<bibl type="digitalSource"><ref target="https://babel.hathitrust.org/cgi/pt?id=mdp.39015067453574&amp;seq=346 ">Um from Ht</ref><ref target="local:Vol87/L1300/L1300-um.pdf"/></bibl>
-<bibl type="digitalSource" n="copytext"><ref target="https://lb42.github.io/Lacy/L1300.html">TEI</ref></bibl>
-<listEvent>
-<event type="firstPerf" when="1869-10-07" source="textNic" where="Grecian">
-<desc>Premiered at Royal Grecian Theatre 7 Oct. 1869</desc>
-</event>
-</listEvent>
-</sourceDesc>
+
+<idno type="LAE">L1300</idno></publicationStmt>
+<sourceDesc><bibl type="origin" n="87.10"><author>Hazlewood, Colin H.</author><title type="main" n="flowermakersandheartb...">Lizzie Lyle; or, The Flower Makers of Finsbury</title><title type="sub">A Tale of Trials and Temptations in three acts</title><extent>49 pp (UM copy: 346
+       - 395)<measure type="pp" quantity="50"/>
+  <measure type="spCount" quantity="875"/>
+  <measure type="spvCount" quantity="0"/>
+  <measure type="txWords" quantity="14169"/>
+  <measure type="spWords" quantity="14169"/>
+  <measure type="stWords" quantity="0"/>
+  </extent>
+
+      <title level="s"> Lacy's Acting Edition, volume 87, No. 1300</title><idno type="nic">N13707</idno><idno type="vpp">Vol87xLizzie</idno></bibl><bibl type="surrogate" subtype="copytext"><ref target="https://lb42.github.io/Lacy/Source/VPP/L1300-vpp.pdf">LoB from VPP</ref><ref target="local:Vol87/L1300/L1300-vpp.pdf"/><ref target="local:Vol87/L1300/Vol87xLizzie.pdf"/></bibl><bibl type="surrogate"><ref target="https://archive.org/details/lizzielyleorflow00hazlrich">Internet Archive</ref></bibl><bibl type="surrogate"><ref target="https://babel.hathitrust.org/cgi/pt?id=mdp.39015067453574&amp;seq=346 ">UM from
+       HT</ref><ref target="local:Vol87/L1300/L1300-um.pdf"/></bibl><bibl type="surrogate" subtype="TEI"><ref target="https://lb42.github.io/Lacy/L1300.html">TEI</ref></bibl><listEvent>
+      <event type="firstPerf" when="1869-10-07" source="textNic" where="Grecian">
+       <desc>Premiered at Royal Grecian Theatre 7 Oct. 1869</desc>
+      </event>
+     </listEvent></sourceDesc>
 </fileDesc>
-<profileDesc>
-<!--M 3 X D. Drama-->
-<textClass>
+<profileDesc><textClass>
 <catRef target="#sizeM"/>
 <catRef target="#act3"/>
 <catRef target="nic:D."/>
 <keywords>
 <term>Drama</term>
 </keywords>
-</textClass>
-<particDesc>
-<listPerson>
+</textClass><particDesc><listPerson>
 <person xml:id="L1300_M1">
 <persName type="role">Nathaniel Dacre</persName>
 <persName type="spkr" n="1">Mr. Dacre.</persName>
@@ -130,30 +118,29 @@ Archive</ref></bibl>
 <persName type="spkr" n="7">Grace.</persName>
 </person>
 
-<person xml:id="L1300_F20">
-<persName type="role">[Girls]</persName>
-<persName type="spkr" n="15">Girls.</persName>
-<persName type="spkr" n="16">Girls</persName>
-<persName type="spkr" n="2">All the Girls.</persName>
-</person>
 
 
 <person xml:id="L1300_Mult">
+<persName type="spkr" n="15">Girls.</persName>
+<persName type="spkr" n="1">Bobbin and Lizzie.</persName>
 <persName type="spkr" n="1">Police.</persName>
+<persName type="spkr" n="1">Bobbin. and Girls.</persName>
+<persName type="spkr" n="16">Girls</persName>
+<persName type="spkr" n="1">Batter and Girls</persName>
+<persName type="spkr" n="1">Both.</persName>
 <persName type="spkr" n="2">Omnes.</persName>
+<persName type="spkr" n="2">All the Girls.</persName>
 <persName type="spkr" n="1">Men.</persName>
 </person>
 
-</listPerson>
-</particDesc>
-</profileDesc>
-<revisionDesc>
+</listPerson></particDesc></profileDesc>
+<revisionDesc><change when="2025-11-02">Metadata refreshed from catalogue and Partix folder</change>
 <change when="2025-09-11">Hand edit @who</change>
 <change when="2025-09-07">Metadata updated from new catalogue</change>
 <change when="2025-06-21">Header confected</change>
 </revisionDesc>
 </teiHeader>
-<text><pb n='1'/>
+<text><pb n="1"/>
 <front>
 <titlePage><titlePart type="main">Lizzie Lyle: Or The Flower Makers Of Finsbury. </titlePart><titlePart type="sub">In Three Acts,</titlePart><byline> By <docAuthor>C. H. Hazlewood. </docAuthor> Author Of
 <title>Hop-pickers aud Gipsies: or, The Lost Daughter; </title><title>The Return

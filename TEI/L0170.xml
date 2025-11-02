@@ -11,48 +11,38 @@
 </titleStmt>
 <publicationStmt>
 <distributor>Privately published on the Lacy Website</distributor>
-<idno type="lae">L0170</idno>
-<idno type="URI" xml:base="https://dracor.org">LAE</idno></publicationStmt>
-<sourceDesc>
-<bibl type="printSource" n="12.5"><author>Planché, J.R.</author><title type="main" n="thecampattheolympic">The Camp at the Olympic</title><title type="sub">A new and original Introductory Extravaganza and Dramatic
-Review</title><extent>25 pp (UM copy: 126 - 151)<measure type="pp" quantity="22"/>
-<measure type="spCount" quantity="249"/>
-<measure type="spvCount" quantity="247"/>
-<measure type="txWords" quantity="5691"/>
-<measure type="spWords" quantity="5120"/>
-<measure type="stWords" quantity="571"/>
-</extent>
-<title level="s"> Lacy's Acting Edition, volume 12, No. 0170</title><idno type="nic">N16989</idno><idno type="vpp">Vol12vCamp</idno></bibl>
-<bibl type="digitalSource" n="copytext"><ref target="https://lb42.github.io/Lacy/Source/VPP/L0170-vpp.pdf">LoB from
-VPP</ref><ref target="local:Vol12/L0170/L0170-vpp.pdf"/><ref target="local:Vol12/L0170/Vol12vCamp.pdf"/></bibl>
-<bibl type="digitalSource"><ref target="https://hdl.handle.net/2027/uc1.31175035135717">UC from HT</ref><ref target="local:Vol12/L0170/L0170-uc.pdf"/></bibl>
-<bibl type="digitalSource"><ref target="https://archive.org/details/theextravaganzasofj04plan">(in Testimonial
-edition, vol 4 pp 293-322)</ref></bibl>
-<bibl type="digitalSource"><ref target="https://babel.hathitrust.org/cgi/pt?id=mdp.39015067453350&amp;seq=126 ">UM from HT</ref><ref target="local:Vol12/L0170/L0170-um.pdf"/></bibl>
-<bibl type="digitalSource" n="copytext"><ref target="https://lb42.github.io/Lacy/L0170.html">TEI</ref></bibl>
-<listEvent>
-<event type="LCP" when="1862-10-03" where="Olympic">
-<desc>Licence sent 3 October for performance at the Olympic 17 October 1853. </desc>
-<bibl type="msSource">BL ms LCP_52942.M</bibl>
-</event>
-<event type="firstPerf" when="1853-10-17" source="textNic" where="Olympic">
-<desc>Premiered at Royal Olympic Theatre 17 Oct. 1853</desc>
-</event>
-</listEvent>
-</sourceDesc>
+
+<idno type="LAE">L0170</idno></publicationStmt>
+<sourceDesc><bibl type="origin" n="12.5"><author>Planché, J.R.</author><title type="main" n="thecampattheolympic">The Camp at the Olympic</title><title type="sub">A new and original
+       Introductory Extravaganza and Dramatic Review</title><extent>25 pp (UM copy: 126 -
+       151)<measure type="pp" quantity="23"/>
+  <measure type="spCount" quantity="250"/>
+  <measure type="spvCount" quantity="248"/>
+  <measure type="txWords" quantity="5120"/>
+  <measure type="spWords" quantity="5120"/>
+  <measure type="stWords" quantity="0"/>
+  </extent>
+
+      <title level="s"> Lacy's Acting Edition, volume 12, No. 0170</title><idno type="nic">N16989</idno><idno type="vpp">Vol12vCamp</idno></bibl><bibl type="surrogate" subtype="copytext"><ref target="https://lb42.github.io/Lacy/Source/VPP/L0170-vpp.pdf">LoB from VPP</ref><ref target="local:Vol12/L0170/L0170-vpp.pdf"/><ref target="local:Vol12/L0170/Vol12vCamp.pdf"/></bibl><bibl type="surrogate"><ref target="https://hdl.handle.net/2027/uc1.31175035135717">UC from
+       HT</ref><ref target="local:Vol12/L0170/L0170-uc.pdf"/></bibl><bibl type="surrogate"><ref target="https://archive.org/details/theextravaganzasofj04plan">(in Testimonial edition, vol 4 pp 293-322)</ref></bibl><bibl type="surrogate"><ref target="https://babel.hathitrust.org/cgi/pt?id=mdp.39015067453350&amp;seq=126 ">UM from
+       HT</ref><ref target="local:Vol12/L0170/L0170-um.pdf"/></bibl><bibl type="surrogate" subtype="TEI"><ref target="https://lb42.github.io/Lacy/L0170.html">TEI</ref></bibl><listEvent>
+      <event type="LCP" when="1862-10-03" where="Olympic">
+       <desc>Licence sent 3 October for performance at the Olympic 17 October 1853. </desc>
+       <bibl type="msSource">BL ms LCP_52942.M</bibl>
+      </event>
+      <event type="firstPerf" when="1853-10-17" source="textNic" where="Olympic">
+       <desc>Premiered at Royal Olympic Theatre 17 Oct. 1853</desc>
+      </event>
+     </listEvent></sourceDesc>
 </fileDesc>
-<profileDesc>
-<textClass>
+<profileDesc><textClass>
 <catRef target="#sizeS"/>
 <catRef target="#act0"/>
 <catRef target="nic:D.Rev."/>
 <keywords>
 <term>SPECTACLE</term>
 </keywords>
-</textClass>
-<particDesc>
-<listPerson>
-<person xml:id="L0170_M1">
+</textClass><particDesc><listPerson><person xml:id="L0170_M1">
 <persName type="role">The New Lessee </persName>
 <persName type="spkr" n="68">Mr. W.</persName>
 </person>
@@ -157,15 +147,17 @@ edition, vol 4 pp 293-322)</ref></bibl>
 <person xml:id="L0170_F29">
 <persName type="role">Myrrha </persName>
 </person>
-<person xml:id="L0170_mult">
-<persName type="role">[Multiple speakers]</persName>
-<persName type="spkr" n="2">All.</persName>
-<persName type="spkr" n="2">Chorus.</persName>
-</person>
-</listPerson>
-</particDesc>
-</profileDesc>
-<revisionDesc>
+<!-- this is a mess -->
+<!--
+<persName type="spkr" n="1">Trio— Mr. Wigan, Fancy, E. Opera..</persName>
+<persName type="spkr" n="1">Trio.</persName>
+<persName type="spkr" n="1">Solo .—Burlesque.</persName>
+<persName type="spkr" n="1">All.</persName>
+<persName type="spkr" n="1">Burles.|Opera.|Pant.|Melo|&amp;Hippo.</persName>
+<persName type="spkr" n="1">Solo—Mr. Wigan.</persName>
+<persName type="spkr" n="1">Solo—Fancy.</persName>
+<persName type="spkr" n="2">Chorus.</persName>--> </listPerson></particDesc></profileDesc>
+<revisionDesc><change when="2025-11-02">Metadata refreshed from catalogue and Partix folder</change>
 <change when="2025-09-13">Add scene divs</change>
 <change when="2025-09-11">hand edit @who</change>
 <change when="2025-09-07">Metadata updated from new catalogue</change>
@@ -173,7 +165,7 @@ edition, vol 4 pp 293-322)</ref></bibl>
 <change when="2023-10-26">Header confected</change>
 </revisionDesc>
 </teiHeader>
-<text><pb n='1'/>
+<text><pb n="1"/>
 <front>
 <titlePage><titlePart type="main">The Camp At The Olympic.</titlePart><titlePart type="sub">A New And Original Introductory Extravaganza And Dramatic
 Review</titlePart><byline>By <docAuthor>J. R. Planché.</docAuthor>Author of <title>Mr. Buckstone's

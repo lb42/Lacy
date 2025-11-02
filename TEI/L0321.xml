@@ -12,34 +12,28 @@
 <publicationStmt>
 <distributor>Privately published on the Lacy Website</distributor>
 
-<idno type="lae">L0321</idno>
-<idno type="URI" xml:base="https://dracor.org">LAE</idno></publicationStmt>
-<sourceDesc>
-<bibl type="printSource" n="22.6"><author>Planché, J.R.</author><title type="main" n="thegarrickfever">The Garrick Fever</title><title type="sub">A
-Farce in one act</title><extent>25 pp (UM copy: 228 - 253)<measure type="pp" quantity="24"/>
-<measure type="spCount" quantity="353"/>
-<measure type="spvCount" quantity="3"/>
-<measure type="txWords" quantity="6367"/>
-<measure type="spWords" quantity="5805"/>
-<measure type="stWords" quantity="562"/>
-</extent>
-<title level="s"> Lacy's Acting Edition, volume 22, No. 0321</title><idno type="nic">N03079</idno><idno type="vpp">Vol22viGarrick</idno></bibl>
-<bibl type="digitalSource" n="copytext"><ref target="https://lb42.github.io/Lacy/Source/VPP/L0321-vpp.pdf">LoB from
-VPP</ref><ref target="local:Vol22/L0321/L0321-vpp.pdf"/><ref target="local:Vol22/L0321/Vol22viGarrick.pdf"/></bibl>
-<bibl type="digitalSource"><ref target="https://babel.hathitrust.org/cgi/pt?id=mdp.39015053749829&amp;seq=228 ">UM from HT</ref><ref target="local:Vol22/L0321/L0321-um.pdf"/></bibl>
-<bibl type="digitalSource" n="copytext"><ref target="https://lb42.github.io/Lacy/L0321.html">TEI</ref></bibl>
-<listEvent>
-<event type="firstPerf" when="1839-04-01" source="textNic" where="Olympic">
-<desc>Premiered at Royal Olympic Theatre 1 April 1839</desc>
-</event>
-<event type="otherPerf">
-<desc>Royal Olympic Theatre, June 11th, 1855.</desc>
-</event>
-</listEvent>
-</sourceDesc>
+
+<idno type="LAE">L0321</idno></publicationStmt>
+<sourceDesc><bibl type="origin" n="22.6"><author>Planché, J.R.</author><title type="main" n="thegarrickfever">The Garrick Fever</title><title type="sub">A Farce in one
+       act</title><extent>25 pp (UM copy: 228 - 253)<measure type="pp" quantity="25"/>
+  <measure type="spCount" quantity="353"/>
+  <measure type="spvCount" quantity="3"/>
+  <measure type="txWords" quantity="5805"/>
+  <measure type="spWords" quantity="5805"/>
+  <measure type="stWords" quantity="0"/>
+  </extent>
+
+      <title level="s"> Lacy's Acting Edition, volume 22, No. 0321</title><idno type="nic">N03079</idno><idno type="vpp">Vol22viGarrick</idno></bibl><bibl type="surrogate" subtype="copytext"><ref target="https://lb42.github.io/Lacy/Source/VPP/L0321-vpp.pdf">LoB from VPP</ref><ref target="local:Vol22/L0321/L0321-vpp.pdf"/><ref target="local:Vol22/L0321/Vol22viGarrick.pdf"/></bibl><bibl type="surrogate"><ref target="https://babel.hathitrust.org/cgi/pt?id=mdp.39015053749829&amp;seq=228 ">UM from
+       HT</ref><ref target="local:Vol22/L0321/L0321-um.pdf"/></bibl><bibl type="surrogate" subtype="TEI"><ref target="https://lb42.github.io/Lacy/L0321.html">TEI</ref></bibl><listEvent>
+      <event type="firstPerf" when="1839-04-01" source="textNic" where="Olympic">
+       <desc>Premiered at Royal Olympic Theatre 1 April 1839</desc>
+      </event>
+      <event type="otherPerf">
+       <desc>Royal Olympic Theatre, June 11th, 1855.</desc>
+      </event>
+     </listEvent></sourceDesc>
 </fileDesc>
-<profileDesc>
-<textClass>
+<profileDesc><textClass>
 
 <catRef target="#sizeS"/>
 <catRef target="#act1"/>
@@ -47,9 +41,7 @@ VPP</ref><ref target="local:Vol22/L0321/L0321-vpp.pdf"/><ref target="local:Vol22
 <keywords>
 <term>FARCE</term>
 </keywords>
-</textClass>
-<particDesc>
-<listPerson>
+</textClass><particDesc><listPerson>
 <person xml:id="L0321_M1">
 <persName type="role">Major Derrydown </persName>
 <persName type="spkr" n="39">Major.</persName>
@@ -114,25 +106,21 @@ VPP</ref><ref target="local:Vol22/L0321/L0321-vpp.pdf"/><ref target="local:Vol22
 
 <person xml:id="L0321_Mult">
 <persName type="role">[Multiple Speakers]</persName>
-<!--<persName type="spkr" n="1">Hardup.|Lady O.</persName>
--->
+<persName type="spkr" n="1">Hardup.|Lady O.</persName>
 <persName type="spkr" n="1">Omnes.</persName>
-<!--
 <persName type="spkr" n="1">Major|Lady O.</persName>
-<persName type="spkr" n="1">Hardup.|Mrs.Hardup.</persName>-->
+<persName type="spkr" n="1">Hardup.|Mrs.Hardup.</persName>
 <persName type="spkr" n="1">All (but Lady O'Leary.).</persName>
 </person>
-</listPerson>
-</particDesc>
-</profileDesc>
-<revisionDesc>
+</listPerson></particDesc></profileDesc>
+<revisionDesc><change when="2025-11-02">Metadata refreshed from catalogue and Partix folder</change>
 <change when="2025-09-10">Hand edit multi @who</change>
 <change when="2025-09-07">Metadata updated from new catalogue</change>
 <change when="2024-10-03">Header enriched</change>
 <change when="2023-11-27">Header confected</change>
 </revisionDesc>
 </teiHeader>
-<text><pb n='1'/>
+<text><pb n="1"/>
 <front>
 <titlePage><titlePart type="main"> The Garrick Fever. </titlePart><titlePart type="sub">A Farce In One Act </titlePart><byline>By <docAuthor>J. R. Planche</docAuthor>, Esq. <title>Author Of A
 Romantic Idea </title>, <title>Reputation</title>, <title>Follies of a

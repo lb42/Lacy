@@ -12,33 +12,25 @@
 <publicationStmt>
 <distributor>Privately published on the Lacy Website</distributor>
 
-<idno type="lae">L0271</idno>
-<idno type="URI" xml:base="https://dracor.org">LAE</idno></publicationStmt>
-<sourceDesc>
-<bibl type="printSource" n="19.1"><author>Planché, J.R.</author><title type="main" n="thegoldenbranch">The Golden Branch</title><title type="sub">An
-Original Fairy Extravaganza in two acts</title><extent>28 pp (UM copy: 10 -
-38)<measure type="pp" quantity="29"/>
-<measure type="spCount" quantity="441"/>
-<measure type="spvCount" quantity="441"/>
-<measure type="txWords" quantity="8833"/>
-<measure type="spWords" quantity="7784"/>
-<measure type="stWords" quantity="1049"/>
-</extent>
-<title level="s"> Lacy's Acting Edition, volume 19, No. 0271</title><idno type="nic">N03109</idno><idno type="vpp">Vol19iGolden</idno></bibl>
-<bibl type="digitalSource" n="copytext"><ref target="https://lb42.github.io/Lacy/Source/VPP/L0271-vpp.pdf">LoB from
-VPP</ref><ref target="local:Vol19/L0271/L0271-vpp.pdf"/><ref target="local:Vol19/L0271/Vol19iGolden.pdf"/></bibl>
-<bibl type="digitalSource"><ref target="https://babel.hathitrust.org/cgi/pt?id=mdp.39015067453020&amp;seq=10 ">UM from HT</ref><ref target="local:Vol19/L0271/L0271-um.pdf"/></bibl>
-<bibl type="digitalSource" n="copytext"><ref target="https://lb42.github.io/Lacy/L0271.html">TEI</ref></bibl>
-<listEvent>
-<event type="firstPerf" when="1845-12-27" source="text" where="Lyceum">
-<desc>Premiered at Royal Lyceum Theatre 27 Dec. 1845; Nicoll date
-1847-12-27</desc>
-</event>
-</listEvent>
-</sourceDesc>
+
+<idno type="LAE">L0271</idno></publicationStmt>
+<sourceDesc><bibl type="origin" n="19.1"><author>Planché, J.R.</author><title type="main" n="thegoldenbranch">The Golden Branch</title><title type="sub">An Original Fairy Extravaganza
+       in two acts</title><extent>28 pp (UM copy: 10 - 38)<measure type="pp" quantity="30"/>
+  <measure type="spCount" quantity="441"/>
+  <measure type="spvCount" quantity="441"/>
+  <measure type="txWords" quantity="7783"/>
+  <measure type="spWords" quantity="7783"/>
+  <measure type="stWords" quantity="0"/>
+  </extent>
+
+      <title level="s"> Lacy's Acting Edition, volume 19, No. 0271</title><idno type="nic">N03109</idno><idno type="vpp">Vol19iGolden</idno></bibl><bibl type="surrogate" subtype="copytext"><ref target="https://lb42.github.io/Lacy/Source/VPP/L0271-vpp.pdf">LoB from VPP</ref><ref target="local:Vol19/L0271/L0271-vpp.pdf"/><ref target="local:Vol19/L0271/Vol19iGolden.pdf"/></bibl><bibl type="surrogate"><ref target="https://babel.hathitrust.org/cgi/pt?id=mdp.39015067453020&amp;seq=10 ">UM from
+       HT</ref><ref target="local:Vol19/L0271/L0271-um.pdf"/></bibl><bibl type="surrogate" subtype="TEI"><ref target="https://lb42.github.io/Lacy/L0271.html">TEI</ref></bibl><listEvent>
+      <event type="firstPerf" when="1845-12-27" source="text" where="Lyceum">
+       <desc>Premiered at Royal Lyceum Theatre 27 Dec. 1845; Nicoll date 1847-12-27</desc>
+      </event>
+     </listEvent></sourceDesc>
 </fileDesc>
-<profileDesc>
-<textClass>
+<profileDesc><textClass>
 
 <catRef target="#sizeS"/>
 <catRef target="#act2"/>
@@ -46,9 +38,7 @@ VPP</ref><ref target="local:Vol19/L0271/L0271-vpp.pdf"/><ref target="local:Vol19
 <keywords>
 <term>SPECTACLE</term>
 </keywords>
-</textClass>
-<particDesc>
-<listPerson>
+</textClass><particDesc><listPerson>
 <person xml:id="L0271_M1">
 <persName type="role">Humguffin </persName>
 <persName type="spkr" n="7">Hum.</persName>
@@ -120,22 +110,20 @@ VPP</ref><ref target="local:Vol19/L0271/L0271-vpp.pdf"/><ref target="local:Vol19
 <person xml:id="L0271_mult">
 <persName type="role">[Multiple speakers]</persName>
 <persName type="spkr" n="3">Chorus.</persName>
-<!--<persName type="spkr" n="1">Quiver | Prince.</persName>
+<persName type="spkr" n="1">Quiver | Prince.</persName>
 <persName type="spkr" n="2">Princess and Suivanta.</persName>
 <persName type="spkr" n="2">Prince and Quiver.</persName>
-<persName type="spkr" n="2">Both.</persName>-->
+<persName type="spkr" n="2">Both.</persName>
 </person>
-</listPerson>
-</particDesc>
-</profileDesc>
-<revisionDesc>
+</listPerson></particDesc></profileDesc>
+<revisionDesc><change when="2025-11-02">Metadata refreshed from catalogue and Partix folder</change>
 <change when="2025-09-10">Hand edit multi @who </change>
 <change when="2025-09-07">Metadata updated from new catalogue</change>
 <change when="2024-10-03">Header enriched</change>
 <change when="2023-10-15">Header confected</change>
 </revisionDesc>
 </teiHeader>
-<text><pb n='1'/>
+<text><pb n="1"/>
 <front>
 
 <titlePage><titlePart type="main">The Golden Branch</titlePart><titlePart type="sub">An Original Fairy Extravaganza, In two acts .</titlePart><titlePart type="source"> (Founded upon the Countess D'Anois' Story,"Le Rameau
@@ -302,7 +290,7 @@ discovered brewing mischief, assisted by Bluerino and other Illicit Spirits. </s
 </sp>
 <sp who="#L0271_M1">
 <speaker>Hum.</speaker>
-<l>Behold where lies the <!--<sic>the</sic>--> proudest of Princesses. </l>
+<l>Behold where lies the  proudest of Princesses. </l>
 <stage> (waving his wand, the wall opens, L., and discovers Queen Benignanti,
 asleep on a couch of state) </stage>
 <l>Who dared reject a Humguffin's addresses ! </l>

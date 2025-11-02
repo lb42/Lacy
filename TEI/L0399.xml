@@ -12,42 +12,32 @@
 <publicationStmt>
 <distributor>Privately published on the Lacy Website</distributor>
 
-<idno type="lae">L0399</idno>
-<idno type="URI" xml:base="https://dracor.org">LAE</idno></publicationStmt>
-<sourceDesc>
-<bibl type="printSource" n="27.9"><author>Paul, Howard</author><title type="main" n="lockedout">Locked Out</title><title type="sub">A Comic Scene
-Illustrative of What May Occur After Dark in a Great
-Metropolis</title><extent>12 pp (UM copy: 280 - 292)<measure type="pp" quantity="10"/>
-<measure type="spCount" quantity="131"/>
-<measure type="spvCount" quantity="9"/>
-<measure type="txWords" quantity="4293"/>
-<measure type="spWords" quantity="3545"/>
-<measure type="stWords" quantity="748"/>
-</extent>
-<title level="s"> Lacy's Acting Edition, volume 27, No. 0399</title><idno type="nic">N16636</idno><idno type="vpp">Vol27ixLocked</idno></bibl>
-<bibl type="digitalSource" n="copytext"><ref target="https://lb42.github.io/Lacy/Source/VPP/L0399-vpp.pdf">LoB from
-VPP</ref><ref target="local:Vol27/L0399/L0399-vpp.pdf"/><ref target="local:Vol27/L0399/Vol27ixLocked.pdf"/></bibl>
-<bibl type="digitalSource"><ref target="https://babel.hathitrust.org/cgi/pt?id=mdp.39015005887883&amp;seq=280 ">UM from HT</ref><ref target="local:Vol27/L0399/L0399-um.pdf"/></bibl>
-<bibl type="digitalSource" n="copytext"><ref target="https://lb42.github.io/Lacy/L0399.html">TEI</ref></bibl>
-<listEvent>
-<event type="firstPerf" when="1855-03-22" source="text" where="Drury">
-<desc>Premiered at Theatre Royal, Drury Lane 22 March 1855; Nicoll date
-1875-07-12</desc>
-</event>
-</listEvent>
-</sourceDesc>
+
+<idno type="LAE">L0399</idno></publicationStmt>
+<sourceDesc><bibl type="origin" n="27.9"><author>Paul, Howard</author><title type="main" n="lockedout">Locked Out</title><title type="sub">A Comic Scene Illustrative of What May Occur After Dark
+       in a Great Metropolis</title><extent>12 pp (UM copy: 280 - 292)<measure type="pp" quantity="11"/>
+  <measure type="spCount" quantity="131"/>
+  <measure type="spvCount" quantity="9"/>
+  <measure type="txWords" quantity="3544"/>
+  <measure type="spWords" quantity="3544"/>
+  <measure type="stWords" quantity="0"/>
+  </extent>
+
+      <title level="s"> Lacy's Acting Edition, volume 27, No. 0399</title><idno type="nic">N16636</idno><idno type="vpp">Vol27ixLocked</idno></bibl><bibl type="surrogate" subtype="copytext"><ref target="https://lb42.github.io/Lacy/Source/VPP/L0399-vpp.pdf">LoB from VPP</ref><ref target="local:Vol27/L0399/L0399-vpp.pdf"/><ref target="local:Vol27/L0399/Vol27ixLocked.pdf"/></bibl><bibl type="surrogate"><ref target="https://babel.hathitrust.org/cgi/pt?id=mdp.39015005887883&amp;seq=280 ">UM from
+       HT</ref><ref target="local:Vol27/L0399/L0399-um.pdf"/></bibl><bibl type="surrogate" subtype="TEI"><ref target="https://lb42.github.io/Lacy/L0399.html">TEI</ref></bibl><listEvent>
+      <event type="firstPerf" when="1855-03-22" source="text" where="Drury">
+       <desc>Premiered at Theatre Royal, Drury Lane 22 March 1855; Nicoll date 1875-07-12</desc>
+      </event>
+     </listEvent></sourceDesc>
 </fileDesc>
-<profileDesc>
-<textClass>
+<profileDesc><textClass>
 <catRef target="#sizeS"/>
 <catRef target="#act0"/>
 <catRef target="nic:F."/>
 <keywords>
 <term>FARCE</term>
 </keywords>
-</textClass>
-<particDesc>
-<listPerson>
+</textClass><particDesc><listPerson>
 <person xml:id="L0399_M1">
 <persName type="role">Oscar Maynard </persName>
 <persName type="spkr" n="61">Oscar.</persName>
@@ -74,31 +64,29 @@ VPP</ref><ref target="local:Vol27/L0399/L0399-vpp.pdf"/><ref target="local:Vol27
 </person>
 <person xml:id="L0399_M7">
 <persName type="role">MR. JONES, </persName>
+
 </person>
 <person xml:id="L0399_F8">
-<persName type="role">MRS. ROBINSON,</persName>
-<persName type="spkr" n="1">Disgusted Neighbour, No. 4.</persName>
+<persName type="role">MRS. ROBINSON,</persName><persName type="spkr" n="1">Disgusted Neighbour, No. 4.</persName>
 </person>
-<!--
+
 <person xml:id="L0399_Mult">
 <persName type="role">[Multiple Speakers]</persName>
 <persName type="spkr" n="1">both.</persName>
 <persName type="spkr" n="2">Lottie. Oscar</persName>
 </person>
--->
 
 
-</listPerson>
-</particDesc>
-</profileDesc>
-<revisionDesc>
+
+</listPerson></particDesc></profileDesc>
+<revisionDesc><change when="2025-11-02">Metadata refreshed from catalogue and Partix folder</change>
 <change when="2025-09-13">Add scene div</change><change when="2025-09-10">Handedit @who multiples</change>
 <change when="2025-09-07">Metadata updated from new catalogue</change>
 <change when="2024-10-03">Header enriched</change>
 <change when="2023-10-07">Header confected</change>
 </revisionDesc>
 </teiHeader>
-<text><pb n='1'/>
+<text><pb n="1"/>
 <front>
 <titlePage><titlePart type="main">Locked Out</titlePart><titlePart type="sub">Illustrative of what may occur after dark in a great
 Metropolis.</titlePart><byline>By <docAuthor>Howard Paul</docAuthor>, Author of <title> Opposite

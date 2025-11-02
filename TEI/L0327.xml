@@ -12,34 +12,29 @@
 <publicationStmt>
 <distributor>Privately published on the Lacy Website</distributor>
 
-<idno type="lae">L0327</idno>
-<idno type="URI" xml:base="https://dracor.org">LAE</idno></publicationStmt>
-<sourceDesc>
-<bibl type="printSource" n="22.12"><author>Morton, John Maddison</author><title type="main" n="howstoutyouregetting">How Stout You're Getting!</title><title type="sub">A Farce in one Act</title><extent>22 pp (UM copy: 460 - 482)<measure type="pp" quantity="8"/>
-<measure type="spCount" quantity="277"/>
-<measure type="spvCount" quantity="0"/>
-<measure type="txWords" quantity="6806"/>
-<measure type="spWords" quantity="5310"/>
-<measure type="stWords" quantity="1496"/>
-</extent>
-<title level="s"> Lacy's Acting Edition, volume 22, No. 0327</title><idno type="nic">N16013</idno><idno type="vpp">Vol22xiiHow</idno></bibl>
-<bibl type="digitalSource" n="copytext"><ref target="https://lb42.github.io/Lacy/Source/VPP/L0327-vpp.pdf">LoB from
-VPP</ref><ref target="local:Vol22/L0327/L0327-vpp.pdf"/><ref target="local:Vol22/L0327/Vol22xiiHow.pdf"/></bibl>
-<bibl type="digitalSource"><ref target="https://babel.hathitrust.org/cgi/pt?id=mdp.39015053749829&amp;seq=460 ">UM from HT</ref><ref target="local:Vol22/L0327/L0327-um.pdf"/></bibl>
-<bibl type="digitalSource" n="copytext"><ref target="https://lb42.github.io/Lacy/L0327.html">TEI</ref></bibl>
-<listEvent>
-<event type="LCP" when="1862-07-03" where="Princess">
-<desc>Licence sent 3 July for performance at the Princess’s 16 July 1855. </desc>
-<bibl type="msSource">BL ms LCP_52954.BB</bibl>
-</event>
-<event type="firstPerf" when="1855-07-16" source="textNic" where="Princess's">
-<desc>Premiered at Royal Princess's Theatre 16 July 1855</desc>
-</event>
-</listEvent>
-</sourceDesc>
+
+<idno type="LAE">L0327</idno></publicationStmt>
+<sourceDesc><bibl type="origin" n="22.12"><author>Morton, John Maddison</author><title type="main" n="howstoutyouregetting">How Stout You're Getting!</title><title type="sub">A Farce in one
+       Act</title><extent>22 pp (UM copy: 460 - 482)<measure type="pp" quantity="9"/>
+  <measure type="spCount" quantity="277"/>
+  <measure type="spvCount" quantity="0"/>
+  <measure type="txWords" quantity="5324"/>
+  <measure type="spWords" quantity="5324"/>
+  <measure type="stWords" quantity="0"/>
+  </extent>
+
+      <title level="s"> Lacy's Acting Edition, volume 22, No. 0327</title><idno type="nic">N16013</idno><idno type="vpp">Vol22xiiHow</idno></bibl><bibl type="surrogate" subtype="copytext"><ref target="https://lb42.github.io/Lacy/Source/VPP/L0327-vpp.pdf">LoB from VPP</ref><ref target="local:Vol22/L0327/L0327-vpp.pdf"/><ref target="local:Vol22/L0327/Vol22xiiHow.pdf"/></bibl><bibl type="surrogate"><ref target="https://babel.hathitrust.org/cgi/pt?id=mdp.39015053749829&amp;seq=460 ">UM from
+       HT</ref><ref target="local:Vol22/L0327/L0327-um.pdf"/></bibl><bibl type="surrogate" subtype="TEI"><ref target="https://lb42.github.io/Lacy/L0327.html">TEI</ref></bibl><listEvent>
+      <event type="LCP" when="1862-07-03" where="Princess">
+       <desc>Licence sent 3 July for performance at the Princess’s 16 July 1855. </desc>
+       <bibl type="msSource">BL ms LCP_52954.BB</bibl>
+      </event>
+      <event type="firstPerf" when="1855-07-16" source="textNic" where="Princess's">
+       <desc>Premiered at Royal Princess's Theatre 16 July 1855</desc>
+      </event>
+     </listEvent></sourceDesc>
 </fileDesc>
-<profileDesc>
-<textClass>
+<profileDesc><textClass>
 
 <catRef target="#sizeS"/>
 <catRef target="#act1"/>
@@ -47,9 +42,7 @@ VPP</ref><ref target="local:Vol22/L0327/L0327-vpp.pdf"/><ref target="local:Vol22
 <keywords>
 <term>FARCE</term>
 </keywords>
-</textClass>
-<particDesc>
-<listPerson>
+</textClass><particDesc><listPerson>
 <person xml:id="L0327_M1">
 <persName type="role">Mr Plummy.</persName>
 <persName type="spkr" n="122">Plummy.</persName>
@@ -82,21 +75,22 @@ VPP</ref><ref target="local:Vol22/L0327/L0327-vpp.pdf"/><ref target="local:Vol22
 <persName type="role">Margery</persName>
 <persName type="spkr" n="9">Marg.</persName>
 </person>
-<person xml:id="L0327_M8">
-<persName type="role">[Men]</persName>
-<persName type="spkr" n="1">Men</persName></person>
 
-</listPerson>
-</particDesc>
-</profileDesc>
-<revisionDesc>
+
+<person xml:id="L0327_Mult">
+<persName type="role">[Multiple Speakers]</persName>
+<persName type="spkr" n="1">Men.</persName>
+<persName type="spkr" n="1">Mrs. P.| George.| Slide.</persName>
+</person>
+</listPerson></particDesc></profileDesc>
+<revisionDesc><change when="2025-11-02">Metadata refreshed from catalogue and Partix folder</change>
 <change when="2025-09-10">Hand edit multi @who : two men?</change>
 <change when="2025-09-07">Metadata updated from new catalogue</change>
 <change when="2024-10-10">Header enriched</change>
 <change when="2024-08-30">Header confected</change>
 </revisionDesc>
 </teiHeader>
-<text><pb n='1'/>
+<text><pb n="1"/>
 <front>
 <titlePage><titlePart type="main">How stout you're getting! A farce,in one act</titlePart><byline>By <docAuthor>John Maddison Morton,</docAuthor> AUTHOR OF <title>The
 Muleteer of Toledo</title>, <title>Away with Melancholy</title>, <title>From

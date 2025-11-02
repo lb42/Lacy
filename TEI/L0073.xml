@@ -12,42 +12,33 @@
 <publicationStmt>
 <distributor>Privately published on the Lacy Website</distributor>
 
-<idno type="lae">L0073</idno>
-<idno type="URI" xml:base="https://dracor.org">LAE</idno></publicationStmt>
-<sourceDesc>
-<bibl type="printSource" n="5.13"><author>Morton, John Maddison</author><title type="main" n="boxandcox">Box and Cox</title><title type="sub">A Romance of Real
-Life in one act</title><extent>15 pp (UM copy: 328 - 343)<measure type="pp" quantity="17"/>
-<measure type="spCount" quantity="396"/>
-<measure type="spvCount" quantity="0"/>
-<measure type="txWords" quantity="6309"/>
-<measure type="spWords" quantity="5119"/>
-<measure type="stWords" quantity="1190"/>
-</extent>
-<title level="s"> Lacy's Acting Edition, volume 5, No. 0073</title><idno type="nic">N02653</idno><idno type="vpp">Vol05xiiiBox</idno><idno type="wikidata">Q4951573</idno></bibl>
-<bibl type="digitalSource" n="copytext"><ref target="https://lb42.github.io/Lacy/Source/VPP/L0073-vpp.pdf">LoB from
-VPP</ref><ref target="local:Vol05/L0073/L0073-vpp.pdf"/><ref target="local:Vol05/L0073/Vol05xiiiBox.pdf"/></bibl>
-<bibl type="digitalSource"><ref target="https://www.gutenberg.org/files//42523/42523-h/42523-h.htm">Gutenberg
-transcription</ref></bibl>
-<bibl type="digitalSource"><ref target="https://babel.hathitrust.org/cgi/pt?id=mdp.39015067453053&amp;seq=328 ">UM from HT</ref><ref target="local:Vol05/L0073/L0073-um.pdf"/></bibl>
-<bibl type="digitalSource" n="copytext"><ref target="https://lb42.github.io/Lacy/L0073.html">TEI</ref></bibl>
-<listEvent>
-<event type="firstPerf" when="1847-11-01" source="textNic" where="Lyceum">
-<desc>Premiered at Royal Lyceum Theatre 1 November 1847</desc>
-</event>
-</listEvent>
-</sourceDesc>
+
+<idno type="LAE">L0073</idno></publicationStmt>
+<sourceDesc><bibl type="origin" n="5.13"><author>Morton, John Maddison</author><title type="main" n="boxandcox">Box and Cox</title><title type="sub">A Romance of Real Life in one
+       act</title><extent>15 pp (UM copy: 328 - 343)<measure type="pp" quantity="18"/>
+  <measure type="spCount" quantity="396"/>
+  <measure type="spvCount" quantity="0"/>
+  <measure type="txWords" quantity="5119"/>
+  <measure type="spWords" quantity="5119"/>
+  <measure type="stWords" quantity="0"/>
+  </extent>
+
+      <title level="s"> Lacy's Acting Edition, volume 5, No. 0073</title><idno type="nic">N02653</idno><idno type="vpp">Vol05xiiiBox</idno><idno type="wikidata">Q4951573</idno></bibl><bibl type="surrogate" subtype="copytext"><ref target="https://lb42.github.io/Lacy/Source/VPP/L0073-vpp.pdf">LoB from VPP</ref><ref target="local:Vol05/L0073/L0073-vpp.pdf"/><ref target="local:Vol05/L0073/Vol05xiiiBox.pdf"/></bibl><bibl type="surrogate"><ref target="https://www.gutenberg.org/files//42523/42523-h/42523-h.htm">Gutenberg
+       transcription</ref></bibl><bibl type="surrogate"><ref target="https://babel.hathitrust.org/cgi/pt?id=mdp.39015067453053&amp;seq=328 ">UM from
+       HT</ref><ref target="local:Vol05/L0073/L0073-um.pdf"/></bibl><bibl type="surrogate" subtype="TEI"><ref target="https://lb42.github.io/Lacy/L0073.html">TEI</ref></bibl><listEvent>
+      <event type="firstPerf" when="1847-11-01" source="textNic" where="Lyceum">
+       <desc>Premiered at Royal Lyceum Theatre 1 November 1847</desc>
+      </event>
+     </listEvent></sourceDesc>
 </fileDesc>
-<profileDesc>
-<textClass>
+<profileDesc><textClass>
 <catRef target="#sizeS"/>
 <catRef target="#act1"/>
 <catRef target="nic:F."/>
 <keywords>
 <term>FARCE</term>
 </keywords>
-</textClass>
-<particDesc>
-<listPerson>
+</textClass><particDesc><listPerson>
 <person xml:id="L0073_M1">
 <persName type="role">John Box, </persName>
 <persName type="spkr" n="163">Box.</persName>
@@ -60,10 +51,17 @@ transcription</ref></bibl>
 <persName type="role">Mrs. Bouncer, </persName>
 <persName type="spkr" n="48">Mrs. B.</persName>
 </person>
-</listPerson>
-</particDesc>
-</profileDesc>
-<revisionDesc>
+
+<person xml:id="L0073_mult">
+<persName type="role">[Multiple speakers]</persName>
+<persName type="spkr" n="4">Both.</persName>
+<persName type="spkr" n="2">Cox. Box.</persName>
+<persName type="spkr" n="1">Cox and Box.</persName>
+<persName type="spkr" n="1">Box. Cox.</persName>
+<persName type="spkr" n="1">Together.</persName>
+</person>
+</listPerson></particDesc></profileDesc>
+<revisionDesc><change when="2025-11-02">Metadata refreshed from catalogue and Partix folder</change>
 <change when="2025-09-13">Add redundant div</change>
 <change when="2025-09-10">Hand edit multi @who</change>
 <change when="2025-09-07">Metadata updated from new catalogue</change>
@@ -71,7 +69,7 @@ transcription</ref></bibl>
 <change when="2023-10-12">Header confected</change>
 </revisionDesc>
 </teiHeader>
-<text><pb n='1'/>
+<text><pb n="1"/>
 
 <front>
 

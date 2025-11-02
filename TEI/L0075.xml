@@ -12,44 +12,36 @@
 <publicationStmt>
 <distributor>Privately published on the Lacy Website</distributor>
 
-<idno type="lae">L0075</idno>
-<idno type="URI" xml:base="https://dracor.org">LAE</idno></publicationStmt>
-<sourceDesc>
-<bibl type="printSource" n="5.15"><author>Phillips, Mrs. Alfred</author><title type="main" n="anorganicaffection">An Organic Affection</title><title type="sub">A Farce in one act</title><extent>19 pp (UM copy: 372 - 391)<measure type="pp" quantity="19"/>
-<measure type="spCount" quantity="426"/>
-<measure type="spvCount" quantity="1"/>
-<measure type="txWords" quantity="6975"/>
-<measure type="spWords" quantity="5905"/>
-<measure type="stWords" quantity="1070"/>
-</extent>
-<title level="s"> Lacy's Acting Edition, volume 5, No. 0075</title><idno type="nic">N16828</idno><idno type="vpp">Vol05xvOrganic</idno></bibl>
-<bibl type="digitalSource" n="copytext"><ref target="https://lb42.github.io/Lacy/Source/VPP/L0075-vpp.pdf">LoB from
-VPP</ref><ref target="local:Vol05/L0075/L0075-vpp.pdf"/><ref target="local:Vol05/L0075/Vol05xvOrganic.pdf"/></bibl>
-<bibl type="digitalSource"><ref target="https://babel.hathitrust.org/cgi/pt?id=mdp.39015067453053&amp;seq=372 ">UM from HT</ref><ref target="local:Vol05/L0075/L0075-um.pdf"/></bibl>
-<bibl type="digitalSource" n="copytext"><ref target="https://lb42.github.io/Lacy/L0075.html">TEI</ref></bibl>
-<listEvent>
-<event type="LCP" when="1862-01-09" where="Olympic">
-<desc>Licence sent 9 January for performance at the Royal Olympic 12 January
-1852. </desc>
-<bibl type="msSource">BL ms LCP_52929.B</bibl>
-</event>
-<event type="firstPerf" when="1852-01-15" source="textNic" where="Olympic">
-<desc>Premiered at Royal Olympic Theatre 15 January 1852</desc>
-</event>
-</listEvent>
-</sourceDesc>
+
+<idno type="LAE">L0075</idno></publicationStmt>
+<sourceDesc><bibl type="origin" n="5.15"><author>Phillips, Mrs. Alfred</author><title type="main" n="anorganicaffection">An Organic Affection</title><title type="sub">A Farce in one
+       act</title><extent>19 pp (UM copy: 372 - 391)<measure type="pp" quantity="20"/>
+  <measure type="spCount" quantity="426"/>
+  <measure type="spvCount" quantity="1"/>
+  <measure type="txWords" quantity="5905"/>
+  <measure type="spWords" quantity="5905"/>
+  <measure type="stWords" quantity="0"/>
+  </extent>
+
+      <title level="s"> Lacy's Acting Edition, volume 5, No. 0075</title><idno type="nic">N16828</idno><idno type="vpp">Vol05xvOrganic</idno></bibl><bibl type="surrogate" subtype="copytext"><ref target="https://lb42.github.io/Lacy/Source/VPP/L0075-vpp.pdf">LoB from VPP</ref><ref target="local:Vol05/L0075/L0075-vpp.pdf"/><ref target="local:Vol05/L0075/Vol05xvOrganic.pdf"/></bibl><bibl type="surrogate"><ref target="https://babel.hathitrust.org/cgi/pt?id=mdp.39015067453053&amp;seq=372 ">UM from
+       HT</ref><ref target="local:Vol05/L0075/L0075-um.pdf"/></bibl><bibl type="surrogate" subtype="TEI"><ref target="https://lb42.github.io/Lacy/L0075.html">TEI</ref></bibl><listEvent>
+      <event type="LCP" when="1862-01-09" where="Olympic">
+       <desc>Licence sent 9 January for performance at the Royal Olympic 12 January 1852. </desc>
+       <bibl type="msSource">BL ms LCP_52929.B</bibl>
+      </event>
+      <event type="firstPerf" when="1852-01-15" source="textNic" where="Olympic">
+       <desc>Premiered at Royal Olympic Theatre 15 January 1852</desc>
+      </event>
+     </listEvent></sourceDesc>
 </fileDesc>
-<profileDesc>
-<textClass>
+<profileDesc><textClass>
 <catRef target="#sizeS"/>
 <catRef target="#act1"/>
 <catRef target="nic:F."/>
 <keywords>
 <term>FARCE</term>
 </keywords>
-</textClass>
-<particDesc>
-<listPerson>
+</textClass><particDesc><listPerson>
 <person xml:id="L0075_M1">
 <persName type="role">Mr. Doublequill Bun. </persName>
 <persName type="spkr" n="150">Bun.</persName>
@@ -88,19 +80,18 @@ VPP</ref><ref target="local:Vol05/L0075/L0075-vpp.pdf"/><ref target="local:Vol05
 </person>
 
 <person xml:id="L0075_mult">
+<persName type="spkr" n="1">Long and Fleece</persName>
 <persName type="spkr" n="2">Omnes.</persName>
 </person>
-</listPerson>
-</particDesc>
-</profileDesc>
-<revisionDesc>
+</listPerson></particDesc></profileDesc>
+<revisionDesc><change when="2025-11-02">Metadata refreshed from catalogue and Partix folder</change>
 <change when="2025-09-10">Hand edit multi @who</change>
 <change when="2025-09-07">Metadata updated from new catalogue</change>
 <change when="2024-10-03">Header enriched</change>
 <change when="2023-10-26">Header confected</change>
 </revisionDesc>
 </teiHeader>
-<text><pb n='1'/>
+<text><pb n="1"/>
 <front>
 <titlePage><titlePart type="main">AN ORGANIC AFFECTION.</titlePart><titlePart type="sub">A farce in one act</titlePart><byline>By<docAuthor>Mrs. Alfred Phillips</docAuthor>Author of <title>Caught in
 his own Trap</title>,<title>The King's Choice</title>,<title>A Bachelor's

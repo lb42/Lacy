@@ -12,43 +12,34 @@
 <publicationStmt>
 <distributor>Privately published on the Lacy Website</distributor>
 
-<idno type="lae">L0044</idno>
-<idno type="URI" xml:base="https://dracor.org">LAE</idno></publicationStmt>
-<sourceDesc>
-<bibl type="printSource" n="3.14"><author>Brooks, Shirley</author><title type="main" n="theexposition">The Exposition: A Scandinavian
-Sketch</title><title type="sub">Containing as Much Irrelevant Matter as
-Possible, in one act</title><extent>21 pp (UM copy: 438 - 459)<measure type="pp" quantity="22"/>
-<measure type="spCount" quantity="298"/>
-<measure type="spvCount" quantity="298"/>
-<measure type="txWords" quantity="6626"/>
-<measure type="spWords" quantity="5818"/>
-<measure type="stWords" quantity="808"/>
-</extent>
-<title level="s"> Lacy's Acting Edition, volume 3, No. 0044</title><idno type="nic">N09809</idno><idno type="vpp">Vol3xivExposition</idno></bibl>
-<bibl type="digitalSource" n="copytext"><ref target="https://lb42.github.io/Lacy/Source/VPP/L0044-vpp.pdf">LoB from
-VPP</ref><ref target="local:Vol03/L0044/L0044-vpp.pdf"/><ref target="local:Vol03/L0044/Vol3xivExposition.pdf"/></bibl>
-<bibl type="digitalSource"><ref target="https://babel.hathitrust.org/cgi/pt?id=mdp.39015067453202&amp;seq=438 ">UM from HT</ref><ref target="local:Vol03/L0044/L0044-um.pdf"/></bibl>
-<bibl type="digitalSource" n="copytext"><ref target="https://lb42.github.io/Lacy/L0044.html">TEI</ref></bibl>
-<listEvent>
-<event type="firstPerf" when="1851-04-28" source="textNic" where="Punch's">
-<desc>Premiered at Punch's Playhouse, Strand Theatre 28 April 1851</desc>
-</event>
-</listEvent>
-</sourceDesc>
+
+<idno type="LAE">L0044</idno></publicationStmt>
+<sourceDesc><bibl type="origin" n="3.14"><author>Brooks, Shirley</author><title type="main" n="theexposition">The Exposition: A Scandinavian Sketch</title><title type="sub">Containing
+       as Much Irrelevant Matter as Possible, in one act</title><extent>21 pp (UM copy: 438 -
+       459)<measure type="pp" quantity="22"/>
+  <measure type="spCount" quantity="298"/>
+  <measure type="spvCount" quantity="298"/>
+  <measure type="txWords" quantity="5818"/>
+  <measure type="spWords" quantity="5818"/>
+  <measure type="stWords" quantity="0"/>
+  </extent>
+
+      <title level="s"> Lacy's Acting Edition, volume 3, No. 0044</title><idno type="nic">N09809</idno><idno type="vpp">Vol3xivExposition</idno></bibl><bibl type="surrogate" subtype="copytext"><ref target="https://lb42.github.io/Lacy/Source/VPP/L0044-vpp.pdf">LoB from VPP</ref><ref target="local:Vol03/L0044/L0044-vpp.pdf"/><ref target="local:Vol03/L0044/Vol3xivExposition.pdf"/></bibl><bibl type="surrogate"><ref target="https://babel.hathitrust.org/cgi/pt?id=mdp.39015067453202&amp;seq=438 ">UM from
+       HT</ref><ref target="local:Vol03/L0044/L0044-um.pdf"/></bibl><bibl type="surrogate" subtype="TEI"><ref target="https://lb42.github.io/Lacy/L0044.html">TEI</ref></bibl><listEvent>
+      <event type="firstPerf" when="1851-04-28" source="textNic" where="Punch's">
+       <desc>Premiered at Punch's Playhouse, Strand Theatre 28 April 1851</desc>
+      </event>
+     </listEvent></sourceDesc>
 </fileDesc>
 
-<profileDesc>
-<!--S 1 X Ext. SPECTACLE-->
-<textClass>
+<profileDesc><textClass>
 <catRef target="#sizeS"/>
 <catRef target="#act1"/>
 <catRef target="nic:Ext."/>
 <keywords>
 <term>SPECTACLE</term>
 </keywords>
-</textClass>
-<particDesc>
-<listPerson>
+</textClass><particDesc><listPerson>
 <person xml:id="L0044_M1">
 <persName type="role">Odin </persName>
 <persName type="spkr" n="38">Odin.</persName>
@@ -123,24 +114,22 @@ VPP</ref><ref target="local:Vol03/L0044/L0044-vpp.pdf"/><ref target="local:Vol03
 </person>
 <person xml:id="L0044_mult">
 <persName type="role">[Multiple speakers]</persName>
-<!--<persName type="spkr" n="1">All The Goddesses</persName>
-<persName type="spkr" n="1">Goddesses.</persName>-->
+<persName type="spkr" n="1">All The Goddesses</persName>
+<persName type="spkr" n="1">Goddesses.</persName>
 <persName type="spkr" n="3">All.</persName>
 <persName type="spkr" n="1">Everybody</persName>
 <persName type="spkr" n="2">Chorus</persName>
 
 </person>
-</listPerson>
-</particDesc>
-</profileDesc>
-<revisionDesc>
+</listPerson></particDesc></profileDesc>
+<revisionDesc><change when="2025-11-02">Metadata refreshed from catalogue and Partix folder</change>
 <change when="2025-09-10">Hand-edit multi-whos</change>
 <change when="2025-09-07">Metadata updated from new catalogue</change>
 <change when="2025-08-20">Header enriched</change>
 <change when="2024-10-12">Header confected</change>
 </revisionDesc>
 </teiHeader>
-<text><pb n='1'/>
+<text><pb n="1"/>
 <front>
 
 <titlePage><titlePart type="main">The Exposition</titlePart><titlePart type="sub"> A Scandinavian Sketch, Containing As Much Irrelevant Matter As
