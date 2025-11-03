@@ -133,18 +133,18 @@ select="$thisOne/t:sourceDesc/t:listEvent/t:event[@type = 'firstPerf']/@where"/>
 </a>
 </td>
 <td>
-<xsl:value-of select="$thisOne//t:bibl[@type = 'printSource']/@n"/>
+<xsl:value-of select="$thisOne//t:bibl[@type = 'origin']/@n"/>
 </td>
 <td>
 <xsl:value-of
-select="$thisOne//t:bibl[@type = 'printSource']/t:extent/t:measure[@type = 'pp']/@quantity"/>
+select="$thisOne//t:bibl[@type = 'origin']/t:extent/t:measure[@type = 'pp']/@quantity"/>
 </td>
 <td>
 <xsl:value-of select="$wc"/>
 </td>
 <td>
 <xsl:value-of
-select="$thisOne//t:bibl[@type = 'printSource']/t:extent/t:measure[@type = 'spWords']/@quantity"
+select="$thisOne//t:bibl[@type = 'origin']/t:extent/t:measure[@type = 'spWords']/@quantity"
 />
 </td>
 <td>
