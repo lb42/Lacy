@@ -1,0 +1,25 @@
+cd /home/lou/Data/Lacy/Vol01/L0001/pages; mkdir pp
+convert Vol1iTime001.tif pp/L0001-001.jpg
+convert Vol1iTime002.tif pp/L0001-002.jpg
+convert Vol1iTime003.tif pp/L0001-003.jpg
+convert Vol1iTime004.tif pp/L0001-004.jpg
+convert Vol1iTime005.tif pp/L0001-005.jpg
+convert Vol1iTime006.tif pp/L0001-006.jpg
+convert Vol1iTime007.tif pp/L0001-007.jpg
+convert Vol1iTime008.tif pp/L0001-008.jpg
+convert Vol1iTime009.tif pp/L0001-009.jpg
+convert Vol1iTime010.tif pp/L0001-010.jpg
+convert Vol1iTime011.tif pp/L0001-011.jpg
+convert Vol1iTime012.tif pp/L0001-012.jpg
+convert Vol1iTime013.tif pp/L0001-013.jpg
+convert Vol1iTime014.tif pp/L0001-014.jpg
+convert Vol1iTime015.tif pp/L0001-015.jpg
+convert Vol1iTime016.tif pp/L0001-016.jpg
+convert Vol1iTime017.tif pp/L0001-017.jpg
+convert Vol1iTime018.tif pp/L0001-018.jpg
+convert Vol1iTime019.tif pp/L0001-019.jpg
+convert Vol1iTime020.tif pp/L0001-020.jpg
+convert Vol1iTime021.tif pp/L0001-021.jpg
+convert Vol1iTime022.tif pp/L0001-022.jpg
+convert Vol1iTime023.tif pp/L0001-023.jpg
+convert Vol1iTime024.tif pp/L0001-024.jpg
