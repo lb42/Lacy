@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<body xmlns="http://www.tei-c.org/ns/1.0">
+<head>Encoding Manual for Digital Lacy</head>
+
+<p>The Digital Lacy project makes available in TEI-XML format a corpus of over
+100 plays transcribed from Lacy's Acting Edition of plays (1845-1878). This
+document provides details and explanation of the XML encoding and editorial
+practices followed. </p>
+
+<p>The corpus as a whole is represented by a single <gi>teiCorpus</gi> element,
+which embeds a sequence of <gi>TEI</gi> elements. Each play is represented by a
+single <gi>TEI</gi> element with an <att>xml:id</att> value used to identify it
+throughout the archive. This identifier consists of the letter L (for Lacy) and
+four digits, corresponding with the number originally allocated to this play in
+the published series. In the few cases where a second play exists using the same
+number, its identifier is suffixed with the letter R (for replaced). This Lacy
+identifier (such as "L0234") is also used to name the XML file containing the
+play. </p>
+
+<p>Each <gi>TEI</gi> element is organised in the same way, following standard
+TEI practice, and using standard TEI elements. It has two constituents: a
+<gi>teiHeader</gi> and a <gi>text</gi>. The <gi>teiHeader</gi> provides metadata
+identifying and documenting the play: see further <ref target="#hdr">section
+2</ref> below. The play itself is represented by a <gi>text</gi> element. </p>
+
+<div xml:id="hdr">
+<head>The teiHeader</head>
+<p>The function of the TEI Header is to provide metadata describing the
+resource. It has the usual TEI structure, a <gi>fileDescription</gi>....</p>
+</div>
+
+<div xml:id="txt">
+<head>The text</head>
+<p>The <gi>text</gi> element contains an accurate transcription of the textual
+content of the play, as printed in the edition used as source. The
+transcription excludes supporting matter such as covers or advertising pages,
+but is otherwise complete, including page breaks, title pages, prefatory
+remarks, appendixes, etc. The transcription aims to represent correctly all of
+the printed text and to indicate its intended function (as a title, speech,
+stage direction etc.); it does not however aim to represent directly its visual
+appearance, although each section of transcription may be linked to a page image
+by means of the <gi>pb</gi> element representing a page break in the document
+used as copy text. The typographic exuberance often found in title pages and
+programme notes is not encoded at all, and the particular form of visual
+salience used to signal (for example) a speech prefix or a character name in a
+stage direction is not recorded. </p>
+
+<p>The <gi>text</gi> element may have three components:  a <gi>front</gi>, a
+<gi>body</gi>,. and an optional <gi>back</gi></p>
+
+<div>
+<head>Front matter</head>
+
+<p>The front matter of a play consists of its title page (optionally preceded by
+a frontispiece), and whatever else precedes the heading of the first act or the
+start of the play. These structural components are represented using one or more
+of the following elements:<list>
+<item>titlePage</item>
+<item>performance and castList</item>
+<item>div</item>
+</list></p>
+
+<div>
+<head>Title Page</head>
+<p>The <gi>titlePage</gi> element contains a transcription of the words of the
+title page, disregarding its formatting. It typically contains one or more
+<gi>titlePart</gi> elements containing a title, subtitle, etc., followed by a
+<gi>byline</gi> element optionally containing the name of the author/s tagged
+with <gi>docAuthor</gi> and a list of other works by the same author, each
+tagged with <gi>title</gi>. At the end of the page, the words of the imprint are
+tagged with <gi>docImprint</gi>.</p>
+<p>Here is an example where no explicit author is given: <figure>
+<head>A simple title page</head>
+<graphic url="file://media/L0013-titlepage.png" width="40%"/>
+</figure>
+</p>
+<p>In Lacy XML we make no attempt to capture typographic features of the
+original: case is normalised, and font changes ignored. This example is encoded like this: <egXML
+xmlns="http://www.tei-c.org/ns/Examples">
+<titlePage>
+<titlePart>Novelty Fair; or, Hints for 1851.</titlePart>
+<titlePart>An Exceedingly Premature, And Thoroughly Apropos Revue.</titlePart>
+<byline>By the Authors of <title>Valentine and Orson</title>, <title>Whittington
+and his Cat</title>, <title>Cinderella</title>, &amp;c, &amp;c.,
+&amp;c.</byline>
+<docImprint>T. H. Lacy, 17, Wellington Street, Strand, London.</docImprint>
+</titlePage><!-- L0013 -->
+</egXML></p>
+<p>Here is a more elaborate titlepage, containing an epigraph, multiple
+subtitles, descriptions of the contents of the work, indications of its source,
+etc. <figure>
+<head>A more complex title page</head>
+<graphic url="file://media/media/L0287-titlepage.png" width="40%"/>
+</figure>
+</p>
+<p> The element <gi>epigraph</gi> may be used to encode the Shakespearian
+quotation here, but most such additional components should be marked up using
+the <gi>titlePart</gi> element, with an appropriate value for its
+<att>type</att> attribute:  <egXML
+xmlns="http://www.tei-c.org/ns/Examples">
+<titlePage>
+<titlePart type="main">"The Birds" of Aristophanes</titlePart>
+<titlePart type="sub">A dramatic experiment in one act</titlePart>
+<titlePart type="desc">Being an humble attempt to adapt the said "Birds"to this
+climate, by giving them new names, new feathers, new songs and new tales, </titlePart>
+<byline>By <docAuthor>J. R. Planché, Esq.</docAuthor>Author of
+<title>"Fortunio,</title><title>"The White Cat,"</title><title>"Beauty and the
+Beast,"</title><title>"The Sleeping Beauty,"</title><title>"The Drama at
+Home,"</title><title>"The Fair one with the Golden Locks,"</title>
+<title>"The Bee and the Orange Tree,</title> &amp;c. &amp;c. </byline>
+<epigraph><quote>"A jest's prosperity lies in the ear Of him that hears it,
+never in the tongue Of him that makes it.</quote>Shakespere.</epigraph>
+<titlePart type="desc">Correctly Printed from the Prompt Book,with Exits,
+Entrances, &amp;c . </titlePart>
+<titlePart type="performance">First performed at the Theatre Royal Haymarket,
+Monday April 13th, 1846</titlePart>
+<docImprint> London: Published by S. G Fairbrother, Bow Street, And W. Strange,
+Paternoster Row, Sold Also By W. Barth, Brydges Street, C. Harris, Bow Street,
+And All Booksellers. </docImprint>
+<titlePart type="price">Price Sixpence. </titlePart>
+</titlePage>
+</egXML><!-- L0287 --></p>
+</div>
+<div>
+<head>Performance and CastList</head>
+</div>
+<div>
+<head>Other kinds of front matter</head>
+</div>
+</div>
+<div>
+<head>The body of a play text</head>
+<p>The body of a play text is made up of the following components:<list>
+<item>Acts and Scenes</item>
+<item>Speeches</item>
+<item>Stage directions</item>
+<item>Musical numbers</item>
+</list>
+</p>
+
+<div>
+<head>Acts and scenes</head>
+<p/>
+</div>
+
+<div>
+<head>Speeches</head>
+<p/>
+</div>
+
+<div>
+<head>Stage directions</head>
+<p>Stage directions may appear in various contexts and have different functions.
+Most plays begin with a lengthy stage direction describing the scene, which is
+distinct from stage directions describing action on the stage. A stage
+direction may appear within the speech of a character, usually if it is short
+and indicates something about the way the actor is delivering their lines (e.g.
+'aside', 'laughing'), or relating to their movement only (e.g. 'crossing to
+U.R.', 'Exit'). Stage directions may also appear between speeches, usually
+describing the entrance or exit of multiple characters, or a large amount of
+stage business. In Lacy texts, it is customary to indicate an actor's position
+on stage by means of an abbreviation such as 'L.' (for stage left), or a
+sequence of abbreviations referencing not just the side of the stage but also
+the depth, sometimes expresed in terms of the "grooves" in which stage scenery
+is set, '1' being the groove nearest the audience,; sometimes less exactly using
+codes such as 'U' (for upstage, i.e. away from the audience). The code 'C'
+stands for 'centre'; the code D for 'door'; 'L. 1. E.' (stage left, first
+groove, entrance)</p>
+</div>
+</div>
+</div>
+</body>
