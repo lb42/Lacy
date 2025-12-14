@@ -25,7 +25,7 @@
   <xsl:variable name="spString"
    select="normalize-space(replace(string-join(//t:sp/(t:p | t:l)/text(), ' '), '—', ' '))"/>
   <xsl:variable name="stString"
-   select="normalize-space(replace(string-join(//t:ge, ' '), '[\(\)\-\.—]', ' '))"/>
+   select="normalize-space(replace(string-join(//t:stage, ' '), '[\(\)\-\.—]', ' '))"/>
   <xsl:variable name="spWords" select="count(tokenize($spString))"/>
   <xsl:variable name="stWords" select="count(tokenize($stString))"/>
  
