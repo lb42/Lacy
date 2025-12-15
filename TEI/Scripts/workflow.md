@@ -1,6 +1,6 @@
 
 # Workflow (sept 2025)
-1. First make a basic TEI file.
+1. First make a basic TEI file. Gemini3 may help here.
 1. (If starting from a VPP file, 
     - `cd ~/pCloudDrive/Lacywork/Abbyy`
     - `sh Scripts/convert.sh Lxxxx.xml)`
