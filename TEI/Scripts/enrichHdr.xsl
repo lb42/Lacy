@@ -26,6 +26,7 @@
    select="normalize-space(replace(string-join(//t:sp/(t:p | t:l)/text(), ' '), '—', ' '))"/>
   <xsl:variable name="stString"
    select="normalize-space(replace(string-join(//t:stage, ' '), '[\(\)\-\.—]', ' '))"/>
+
   <xsl:variable name="spWords" select="count(tokenize($spString))"/>
   <xsl:variable name="stWords" select="count(tokenize($stString))"/>
  
@@ -33,8 +34,7 @@
   <xsl:message>
        <xsl:value-of 
        select="$currentFile"/> contains <xsl:value-of select="$ppCount"/> pages ; <xsl:value-of 
-       select="$spWords+$stWords"/> words , of them  <xsl:value-of select="$spWords"/> spoken; <xsl:value-of 
-       select="$spCount"/> speeches,   <xsl:value-of select="$spvCount"/> of them in verse. 
+        select="$spWords+$stWords"/> words, of them  <xsl:value-of select="$spWords"/> spoken and <xsl:value-of select="$stWords"/> in stage directions; <xsl:value-of  select="$spCount"/> speeches, <xsl:value-of select="$spvCount"/> of them in verse. 
   </xsl:message>
   <xsl:apply-templates/>
  </xsl:template>
@@ -70,7 +70,6 @@
   </profileDesc>  
  </xsl:template>
 
- 
  <xsl:template match="t:revisionDesc">
  <!-- create a profileDesc if necessary -->
   <xsl:if test="not(preceding-sibling::t:profileDesc)">
@@ -130,25 +129,36 @@
 </xsl:text>
  </xsl:template>
  
- <xsl:template match="t:note[@type eq 'localCopies']">
-  <xsl:for-each select="t:ident">
-   <ref xmlns="http://www.tei-c.org/ns/1.0"><xsl:value-of select="."/></ref>
-   </xsl:for-each>
- </xsl:template>
+ <!-- make uniform some claims -->
  
 <xsl:template match="t:publicationStmt">
 <xsl:copy>
-<xsl:apply-templates/>
+ <distributor xmlns="http://www.tei-c.org/ns/1.0">Privately distributed by the Digital Lacy Project</distributor>
 <idno xmlns="http://www.tei-c.org/ns/1.0" type='LAE'>
 <xsl:value-of select="ancestor::t:TEI/@xml:id"/>
 </idno>
+ <availability xmlns="http://www.tei-c.org/ns/1.0"><licence xmlns="http://www.tei-c.org/ns/1.0" target="https://creativecommons.org/publicdomain/zero/1.0/">The Lacy Project waives all rights to the TEI encoding applied to this material, which is believed to be in the public domain. You may copy, modify, distribute and perform this work freely. </licence></availability>
 </xsl:copy>
 </xsl:template>
+ 
+<xsl:template match="t:fileDesc/t:titleStmt">
+ <xsl:copy>
+  <xsl:apply-templates select="*"/>
+  <respStmt xmlns="http://www.tei-c.org/ns/1.0">
+   <resp xmlns="http://www.tei-c.org/ns/1.0">TEI conversion</resp>
+   <name xmlns="http://www.tei-c.org/ns/1.0">Lou Burnard</name>
+  </respStmt>
+ </xsl:copy>
+</xsl:template> 
 
- <xsl:template match="t:publicationStmt/t:idno"/>
+<xsl:template match="t:respStmt"/>
+ 
+
+
  
  <!-- suppress superceded elements -->
  
+ <xsl:template match="t:publicationStmt/t:idno"/>
  <xsl:template match="t:listRef"/>
  <xsl:template match="t:eventName"/>
  

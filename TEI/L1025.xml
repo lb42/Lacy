@@ -1,96 +1,73 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L1025">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="ODD/out/lacy.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="ODD/out/lacy.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L1025">
  <teiHeader>
   <fileDesc>
-   <titleStmt>
-    <title>A Day in Paris: A Farce, in One Act</title>
-    <author>Charles Selby</author>
-   </titleStmt>
-   <publicationStmt>
-    <publisher>Digital Lacy Project</publisher>
+   <titleStmt><title>A Day in Paris: A Farce, in One Act</title><author>Charles Selby</author><respStmt><resp>TEI conversion</resp><name>Lou Burnard</name></respStmt></titleStmt>
+   <publicationStmt><distributor>Privately distributed by the Digital Lacy Project</distributor><idno type="LAE">L1025</idno><availability><licence target="https://creativecommons.org/publicdomain/zero/1.0/">The Lacy Project waives all rights to the TEI encoding applied to this material, which is believed to be in the public domain. You may copy, modify, distribute and perform this work freely. </licence></availability></publicationStmt>
+   <sourceDesc><bibl type="origin" n="69.5"><author>Selby, Charles</author><title type="main" n="adayinparis">A Day in Paris</title><title type="sub">A Farce in one act</title><extent>20
+       pp (UM copy: 154 - 174)<measure type="pp" quantity="23"/>
+  <measure type="spCount" quantity="267"/>
+  <measure type="spvCount" quantity="1"/>
+  <measure type="txWords" quantity="8291"/>
+  <measure type="spWords" quantity="7260"/>
+  <measure type="stWords" quantity="1031"/>
+  </extent>
 
-    <idno type="LAE">L1025</idno>
-   </publicationStmt>
-   <sourceDesc>
-    <bibl type="origin" n="69.5"><author>Selby, Charles</author><title type="main" n="adayinparis">A
-      Day in Paris</title><title type="sub">A Farce in one act</title><extent>20 pp (UM copy: 154 -
-       174)<measure type="pp" quantity="23"/>
-      <measure type="spCount" quantity="267"/>
-      <measure type="spvCount" quantity="1"/>
-      <measure type="txWords" quantity="8291"/>
-      <measure type="spWords" quantity="7260"/>
-      <measure type="stWords" quantity="1031"/>
-     </extent>
-     <title level="s"> Lacy's Acting Edition, volume 69, No. 1025</title><idno type="nic"
-      >N03438</idno></bibl>
-    <bibl type="surrogate"><ref target="https://archive.org/details/dayinparisinterl0000selb">UW
-      from IA</ref><ref target="local:Vol69/L1025/L1025-uw.pdf"/></bibl>
-    <bibl type="surrogate" subtype="copytext"><ref
-      target="https://babel.hathitrust.org/cgi/pt?id=mdp.39015005299659&amp;seq=154 ">UM from
-      HT</ref><ref target="local:Vol69/L1025/L1025-um.pdf"/></bibl>
-    <listEvent>
-     <event type="firstPerf" when="1832-07-18" source="textNic" where="Strand">
-      <desc>Premiered at Strand Theatre 18 July 1832</desc>
-     </event>
-    </listEvent>
-   </sourceDesc>
+      <title level="s"> Lacy's Acting Edition, volume 69, No. 1025</title><idno type="nic">N03438</idno></bibl><bibl type="surrogate"><ref target="https://archive.org/details/dayinparisinterl0000selb">UW from IA</ref><ref target="local:Vol69/L1025/L1025-uw.pdf"/></bibl><bibl type="surrogate" subtype="copytext"><ref target="https://babel.hathitrust.org/cgi/pt?id=mdp.39015005299659&amp;seq=154 ">UM from
+       HT</ref><ref target="local:Vol69/L1025/L1025-um.pdf"/></bibl><listEvent>
+      <event type="firstPerf" when="1832-07-18" source="textNic" where="Strand">
+       <desc>Premiered at Strand Theatre 18 July 1832</desc>
+      </event>
+     </listEvent></sourceDesc>
   </fileDesc>
-  <profileDesc>
-   <!--S 1 Farce O.F. OPERA-->
-   <textClass>
+  <profileDesc><textClass>
     <catRef target="#sizeS"/>
     <catRef target="#act1"/>
     <catRef target="nic:O.F."/>
     <keywords>
      <term>OPERA</term>
     </keywords>
-   </textClass>
-   <particDesc>
-    <listPerson>
-     <person xml:id="L1025_M1">
-      <persName type="role">CHARLES WYNDHAM</persName>
-      <persName type="spkr" n="109">Wynd.</persName>
-      <persName type="spkr" n="1">Wyndham</persName>
-     </person>
-     <person xml:id="L1025_M2">
-      <persName type="role">SAM</persName>
+   </textClass><particDesc><listPerson>
+  <person xml:id="L1025_M1">
+   <persName type="role">CHARLES WYNDHAM</persName>
+   <persName type="spkr" n="109">Wynd.</persName>
+   <persName type="spkr" n="1">Wyndham</persName>
+  </person>
+  <person xml:id="L1025_M2">
+   <persName type="role">SAM</persName>
 
-      <persName type="spkr" n="64">Sam.</persName>
-     </person>
-     <person xml:id="L1025_M3">
-      <persName type="role">WAITER</persName>
-      <persName type="spkr" n="2">Waiter.</persName>
-     </person>
-     <person xml:id="L1025_F4">
-      <persName type="role">EMILY GRENVILLE</persName>
-      <persName type="spkr" n="72">Emily.</persName>
-     </person>
-     <person xml:id="L1025_F5">
-      <persName type="role">MADAME JANETTE ST. GEORGE FREDERICK VICTOR NAPOLEON DE LA
-       BARBE</persName>
-     </person>
-     <person xml:id="L1025_M6">
-      <persName type="role">LE FLEUR</persName>
-     </person>
-     <person xml:id="L1025_F7">
-      <persName type="role">MISS SUSANNAH SOPHIA SOPHONISBA SNOWDROP</persName>
-     </person>
-     <person xml:id="L1025_M8">
-      <persName type="role">CAPTAIN GIROUETTE</persName>
-     </person>
-     <person xml:id="L1025_F9">
-      <persName type="role">JANE</persName>
-      <persName type="spkr" n="16">Jane.</persName>
-     </person>
-     <person xml:id="L1025_mult">
-      <persName type="role">[Multiple speakers]</persName>
-     </person>
+   <persName type="spkr" n="64">Sam.</persName>
+  </person>
+  <person xml:id="L1025_M3">
+   <persName type="role">WAITER</persName>
+   <persName type="spkr" n="2">Waiter.</persName>
+  </person>
+  <person xml:id="L1025_F4">
+   <persName type="role">EMILY GRENVILLE</persName>
+   <persName type="spkr" n="72">Emily.</persName>
+  </person>
+  <person xml:id="L1025_F5">
+   <persName type="role">MADAME JANETTE ST. GEORGE FREDERICK VICTOR NAPOLEON DE LA BARBE</persName>
+  </person>
+  <person xml:id="L1025_M6">
+   <persName type="role">LE FLEUR</persName>
+  </person>
+  <person xml:id="L1025_F7">
+   <persName type="role">MISS SUSANNAH SOPHIA SOPHONISBA SNOWDROP</persName>
+  </person>
+  <person xml:id="L1025_M8">
+   <persName type="role">CAPTAIN GIROUETTE</persName>
+  </person>
+  <person xml:id="L1025_F9">
+   <persName type="role">JANE</persName>
+   <persName type="spkr" n="16">Jane.</persName>
+  </person>
+  <person xml:id="L1025_mult">
+   <persName type="role">[Multiple speakers]</persName>
+  </person>
 
 
-    </listPerson>
-   </particDesc>
-  </profileDesc>
-  <revisionDesc>
+ </listPerson></particDesc></profileDesc>
+  <revisionDesc><change when="2026-01-10">Metadata refreshed from catalogue and Partix folder</change>
    <change when="2026-01-06">Metadata refreshed from catalogue and Partix folder</change>
    <change when="2026-01-05">Extracted and converted to TEI XML by Gemini Pro, with a lot of help
     from me</change>
@@ -410,8 +387,7 @@
      <sp who="#L1025_M2">
       <speaker>Sam.</speaker>
       <p>Yes, sir; beg pardon, sir, for being so late—couldn't help it, upon my word, sir. I'll go
-       for the barber directly, and order the cab to be at the door <hi rend="italic"
-        >tout-sweet</hi> as the French say. <stage>(going)</stage></p>
+       for the barber directly, and order the cab to be at the door <hi rend="italic">tout-sweet</hi> as the French say. <stage>(going)</stage></p>
      </sp>
      <sp who="#L1025_M1">
       <speaker>Wynd.</speaker>
