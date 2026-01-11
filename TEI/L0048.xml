@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L0048">
 <teiHeader>
 <fileDesc>
-<titleStmt><title n="apartments" type="main">Apartments, "Visitors to the Exhibition may be
-Accommodated", &amp;c. &amp;c.</title><author>Brough, William</author><respStmt><resp>TEI conversion</resp><name>Lou Burnard</name></respStmt></titleStmt>
+<titleStmt><title>Apartments, "Visitors to the Exhibition May Be Accomodated," &amp;c.
+&amp;c: TEI edition</title><author>Brough, William</author><respStmt><resp>TEI conversion</resp><name>Lou Burnard</name></respStmt></titleStmt>
 <publicationStmt><distributor>Privately distributed by the Digital Lacy Project</distributor><idno type="LAE">L0048</idno><availability><licence target="https://creativecommons.org/publicdomain/zero/1.0/">The Lacy Project waives all rights to the TEI encoding applied to this material, which is believed to be in the public domain. You may copy, modify, distribute and perform this work freely. </licence></availability></publicationStmt>
 <sourceDesc><bibl type="origin" n="4.3"><author>Brough, William</author><title type="main" n="apartmentsvisitorstot...">Apartments, “Visitors to the Exhibition may be Accommodated”,
        &amp;c. &amp;c.</title><title type="sub">A Piece of Extravagance to "Suit the Times", in one
@@ -13,7 +13,6 @@ Accommodated", &amp;c. &amp;c.</title><author>Brough, William</author><respStmt>
   <measure type="spWords" quantity="3674"/>
   <measure type="stWords" quantity="730"/>
   </extent>
-
       <title level="s"> Lacy's Acting Edition, volume 4, No. 0048</title><idno type="nic">N09837</idno><idno type="vpp">Vol04iiiApartments</idno></bibl><bibl type="surrogate" subtype="copytext"><ref target="https://lb42.github.io/Lacy/Source/VPP/L0048-vpp.pdf">LoB from VPP</ref><ref target="local:Vol04/L0048/L0048-vpp.pdf"/><ref target="local:Vol04/L0048/Vol04iiiApartments.pdf"/></bibl><bibl type="surrogate"><ref target="https://babel.hathitrust.org/cgi/pt?id=mdp.39015048540333&amp;seq=120 ">UM from
        HT</ref><ref target="local:Vol04/L0048/L0048-um.pdf"/></bibl><bibl type="surrogate" subtype="TEI"><ref target="https://lb42.github.io/Lacy/L0048.html">TEI</ref></bibl><listEvent>
       <event type="firstPerf" when="1851-05-14" source="textNic" where="Princess's">
@@ -21,14 +20,8 @@ Accommodated", &amp;c. &amp;c.</title><author>Brough, William</author><respStmt>
       </event>
      </listEvent></sourceDesc>
 </fileDesc>
-<profileDesc><textClass>
-<catRef target="#sizeS"/>
-<catRef target="#act1"/>
-<catRef target="nic:F."/>
-<keywords>
-<term>FARCE</term>
-</keywords>
-</textClass><particDesc><listPerson>
+
+<profileDesc><!--S 1 Extravagan F. FARCE--><textClass><catRef target="#sizeS"/><catRef target="#act1"/><catRef target="nic:F."/><keywords><term>FARCE</term></keywords></textClass><particDesc><listPerson>
 <person xml:id="L0048_M1">
 <persName type="role">Mr Tippity </persName>
 <persName type="spkr" n="122">Tip.</persName>
@@ -66,8 +59,7 @@ Accommodated", &amp;c. &amp;c.</title><author>Brough, William</author><respStmt>
 </person>
 
 
-</listPerson></particDesc></profileDesc>
-<revisionDesc><change when="2026-01-10">Metadata refreshed from catalogue and Partix folder</change><change when="2025-11-02">Metadata refreshed from catalogue and Partix folder</change>
+</listPerson></particDesc></profileDesc><revisionDesc><change when="2026-01-11">Standardize header components</change><change when="2026-01-10">Metadata refreshed from catalogue and Partix folder</change><change when="2025-11-02">Metadata refreshed from catalogue and Partix folder</change>
 <change when="2025-09-10">Hand edited multi @who</change>
 <change when="2025-09-07">&gt;Metadata updated from new catalogue</change>
 <change when="2024-10-03">Header enriched</change>

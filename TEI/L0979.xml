@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L0979">
  <teiHeader>
   <fileDesc>
-   <titleStmt><title n="wanted" type="main">"Wanted, A Young Lady"</title><author>Suter, William E.</author><respStmt><resp>TEI conversion</resp><name>Lou Burnard</name></respStmt></titleStmt>
+   <titleStmt><title>“Wanted, A Young Lady”—: TEI edition</title><author>Suter, William E.</author><respStmt><resp>TEI conversion</resp><name>Lou Burnard</name></respStmt></titleStmt>
    <publicationStmt><distributor>Privately distributed by the Digital Lacy Project</distributor><idno type="LAE">L0979</idno><availability><licence target="https://creativecommons.org/publicdomain/zero/1.0/">The Lacy Project waives all rights to the TEI encoding applied to this material, which is believed to be in the public domain. You may copy, modify, distribute and perform this work freely. </licence></availability></publicationStmt>
    <sourceDesc><bibl type="origin" n="66.4"><author>Suter, William E.</author><title type="main" n="wantedayounglady">“Wanted, A Young Lady”</title><title type="sub">A Farce in one
        act</title><extent>15 pp (UM copy: 107 - 122)<measure type="pp" quantity="17"/>
@@ -11,7 +11,6 @@
   <measure type="spWords" quantity="4032"/>
   <measure type="stWords" quantity="897"/>
   </extent>
-
       <title level="s"> Lacy's Acting Edition, volume 66, No. 0979</title><idno type="nic">N18830</idno><idno type="vpp">Vol66ivWanted</idno></bibl><bibl type="surrogate"><ref target="http://archive.org/details/SuterWantedYoungLady">Internet Archive</ref></bibl><bibl type="surrogate"><ref target="https://www.gutenberg.org/files/50153/50153-h/50153-h.htm">Gutenberg
        transcription</ref></bibl><bibl type="surrogate" subtype="copytext"><ref target="https://babel.hathitrust.org/cgi/pt?id=mdp.39015067453632&amp;seq=107 ">UM from
        HT</ref><ref target="local:Vol66/L0979/L0979-um.pdf"/></bibl><bibl type="surrogate" subtype="TEI"><ref target="https://lb42.github.io/Lacy/L0979.html">TEI</ref></bibl><listEvent>
@@ -20,15 +19,8 @@
       </event>
      </listEvent></sourceDesc>
   </fileDesc>
-  <profileDesc><textClass>
-    
-    <catRef target="#sizeS"/>
-    <catRef target="#act1"/>
-    <catRef target="nic:F."/>
-    <keywords>
-     <term>Farce</term>
-    </keywords>
-   </textClass><particDesc><listPerson>
+  
+  <profileDesc><!--S 1 Farce F. FARCE--><textClass><catRef target="#sizeS"/><catRef target="#act1"/><catRef target="nic:F."/><keywords><term>FARCE</term></keywords></textClass><particDesc><listPerson>
   <person xml:id="L0979_F1">
    <persName type="role">Adelaide Stirling</persName>
    <persName type="spkr" n="1">Adelaide.</persName>
@@ -45,8 +37,7 @@
 
 
 
- </listPerson></particDesc></profileDesc>
-  <revisionDesc><change when="2026-01-10">Metadata refreshed from catalogue and Partix folder</change><change when="2025-11-02">Metadata refreshed from catalogue and Partix folder</change><change when="2025-09-07">Metadata updated from new catalogue</change>
+ </listPerson></particDesc></profileDesc><revisionDesc><change when="2026-01-11">Standardize header components</change><change when="2026-01-10">Metadata refreshed from catalogue and Partix folder</change><change when="2025-11-02">Metadata refreshed from catalogue and Partix folder</change><change when="2025-09-07">Metadata updated from new catalogue</change>
    <change when="2024-10-03">Header enriched</change>
    <change when="2023-09-05">Header confected/hand edited</change>
   </revisionDesc>

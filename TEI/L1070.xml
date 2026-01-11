@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L1070">
  <teiHeader>
   <fileDesc>
-   <titleStmt><title>THE TWO GALLEY SLAVES: A Melo-Drama, IN TWO ACTS.</title><author>Payne, John Howard</author><respStmt><resp>TEI conversion</resp><name>Lou Burnard</name></respStmt></titleStmt>
+   <titleStmt><title>The Two Galley Slaves: TEI edition</title><author>Payne, John Howard</author><respStmt><resp>TEI conversion</resp><name>Lou Burnard</name></respStmt></titleStmt>
    <publicationStmt><distributor>Privately distributed by the Digital Lacy Project</distributor><idno type="LAE">L1070</idno><availability><licence target="https://creativecommons.org/publicdomain/zero/1.0/">The Lacy Project waives all rights to the TEI encoding applied to this material, which is believed to be in the public domain. You may copy, modify, distribute and perform this work freely. </licence></availability></publicationStmt>
    <sourceDesc><bibl type="origin" n="72.5"><author>Payne, John Howard</author><title type="main" n="thetwogalleyslaves">The Two Galley Slaves</title><title type="sub">A Melo-Drama in two
        acts</title><title type="source" n="#FR">Adapted from the French</title><extent>26 pp (UM
@@ -12,7 +12,6 @@
   <measure type="spWords" quantity="6722"/>
   <measure type="stWords" quantity="1098"/>
   </extent>
-
       <title level="s"> Lacy's Acting Edition, volume 72, No. 1070</title><idno type="nic">N02782</idno></bibl><bibl type="surrogate" subtype="copytext"><ref target="https://babel.hathitrust.org/cgi/pt?id=mdp.39015067453467&amp;seq=196 ">UM from
        HT</ref><ref target="local:Vol72/L1070/L1070-um.pdf"/></bibl><listEvent>
       <event type="firstPerf" when="1822-11-16" source="text" where="Covent">
@@ -20,12 +19,8 @@
       </event>
      </listEvent></sourceDesc>
   </fileDesc>
-  <profileDesc><textClass>
-    <keywords>
-     <term>Melo-Drama</term>
-     <term>Two-Acts</term>
-    </keywords>
-   </textClass><particDesc><listPerson>
+  
+  <profileDesc><!--S 2 Drama M.D. MELODRAMA--><textClass><catRef target="#sizeS"/><catRef target="#act2"/><catRef target="nic:M.D."/><keywords><term>MELODRAMA</term></keywords></textClass><particDesc><listPerson>
   <person xml:id="L1070_M1">
    <persName type="role">Henry</persName>
    <persName type="spkr" n="58">Henry.</persName>
@@ -74,8 +69,7 @@
    <persName type="spkr" n="7">1st Villager.</persName>
    <persName type="spkr" n="2">2nd Villager.</persName>
   </person>
- </listPerson></particDesc></profileDesc>
-  <revisionDesc><change when="2026-01-10">Metadata refreshed from catalogue and Partix folder</change>
+ </listPerson></particDesc></profileDesc><revisionDesc><change when="2026-01-11">Standardize header components</change><change when="2026-01-10">Metadata refreshed from catalogue and Partix folder</change>
    <change when="2025-12-17">Metadata refreshed from catalogue and Partix folder</change>
    <change when="2025-12-08">Auto-tagged by Gemini 3.0 (Flash 2.5)</change>
   </revisionDesc>
@@ -84,14 +78,13 @@
   <front>
    <pb n="1"/>
    <titlePage>
-
-    <titlePart type="main">THE TWO GALLEY SLAVES: A Melo-Drama, IN TWO ACTS.</titlePart>
-    <titlePart>ADAPTED FROM THE FRENCH</titlePart>
-
-    <byline>BY <docAuthor>JOHN HOWARD PAYNE.</docAuthor> AUTHOR OF <title>BRUTUS, </title><title>ALI
-      PACHA, </title><title>LOVE IN HUMBLE LIFE, </title><title>CHARLES THE SECOND</title>, ETC.,
-     ETC.</byline>
-    <byline>WITH AN ILLUSTRATION, AND REMARKS BY D-G.</byline>
+    <titlePart type="main" n="thetwogalleyslaves">The Two Galley Slaves</titlePart>
+    <titlePart type="sub">A Melo-Drama in two  acts</titlePart>
+    <titlePart type="source">Adapted from the French</titlePart>
+    <byline>by <docAuthor>John Howard Payne.</docAuthor> Author of
+     <title>Brutus, </title><title>Ali Pacha, </title><title>Love in Humble Life, </title><title>Charles the Second</title>, etc.,
+     etc.</byline>
+    <byline>With an Illustration, and Remarks by D-G.</byline>
     <docImprint>THOMAS HAILES LACY, THEATRICAL PUBLISHER, LONDON.</docImprint>
    </titlePage>
    <pb n="2"/>

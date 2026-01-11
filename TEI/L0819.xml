@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L0819">
  <teiHeader>
   <fileDesc>
-   <titleStmt><title>The Colleen Bawn Settled At Last.</title><author>Brough, William</author><author>Halliday, Andrew</author><respStmt><resp>TEI conversion</resp><name>Lou Burnard</name></respStmt></titleStmt>
+   <titleStmt><title>The Colleen Bawn Settled At Last.: TEI edition</title><author>Brough, William</author><author>Halliday, Andrew</author><respStmt><resp>TEI conversion</resp><name>Lou Burnard</name></respStmt></titleStmt>
    <publicationStmt><distributor>Privately distributed by the Digital Lacy Project</distributor><idno type="LAE">L0819</idno><availability><licence target="https://creativecommons.org/publicdomain/zero/1.0/">The Lacy Project waives all rights to the TEI encoding applied to this material, which is believed to be in the public domain. You may copy, modify, distribute and perform this work freely. </licence></availability></publicationStmt>
    <sourceDesc><bibl type="origin" n="55.9"><author>Brough, William</author>;<author>Halliday,
        Andrew</author><title n="thecolleenbawnsettled..." type="main">The Colleen Bawn Settled at
@@ -13,7 +13,6 @@
   <measure type="spWords" quantity="4444"/>
   <measure type="stWords" quantity="822"/>
   </extent>
-
       <title level="s"> Lacy's Acting Edition, volume 55, No. 0819</title><idno type="nic">N09865</idno><idno type="vpp">Vol55ixColleen</idno></bibl><bibl type="surrogate" subtype="copytext"><ref target="https://lb42.github.io/Lacy/Source/VPP/L0819-vpp.pdf">LoB from VPP</ref><ref target="local:Vol55/L0819/L0819-vpp.pdf"/><ref target="local:Vol55/L0819/Vol55ixColleen.pdf"/></bibl><bibl type="surrogate"><ref target="https://babel.hathitrust.org/cgi/pt?id=mdp.39015067453517&amp;seq=260 ">UM from
        HT</ref><ref target="local:Vol55/L0819/L0819-um.pdf"/></bibl><listEvent>
       <event type="LCP" when="1862-07-01" where="Lyceum">
@@ -25,14 +24,8 @@
       </event>
      </listEvent></sourceDesc>
   </fileDesc>
-  <profileDesc><textClass>
-    <catRef target="#sizeS"/>
-    <catRef target="#act1"/>
-    <catRef target="nic:F."/>
-    <keywords>
-     <term>FARCE</term>
-    </keywords>
-   </textClass><particDesc><listPerson>
+  
+  <profileDesc><!--S 1 Extravagan F. FARCE--><textClass><catRef target="#sizeS"/><catRef target="#act1"/><catRef target="nic:F."/><keywords><term>FARCE</term></keywords></textClass><particDesc><listPerson>
   <person xml:id="L0819_M1">
    <persName type="role">Hardress Cregan</persName>
    <persName type="spkr" n="45">Hard.</persName>
@@ -73,8 +66,7 @@
    <persName type="role">Thomas</persName>
    <persName type="spkr" n="22">Thomas.</persName>
   </person>
- </listPerson></particDesc></profileDesc>
-  <revisionDesc><change when="2026-01-10">Metadata refreshed from catalogue and Partix folder</change><change when="2025-11-02">Metadata refreshed from catalogue and Partix folder</change>
+ </listPerson></particDesc></profileDesc><revisionDesc><change when="2026-01-11">Standardize header components</change><change when="2026-01-10">Metadata refreshed from catalogue and Partix folder</change><change when="2025-11-02">Metadata refreshed from catalogue and Partix folder</change>
    <change when="2025-10-03">Metadata updated from new catalogue</change>
    <change when="2025-10-03">Header confected</change>
   </revisionDesc>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L1388">
  <teiHeader>
   <fileDesc>
-   <titleStmt><title type="main">After the Party</title><author>[Anon.]</author><respStmt><resp>TEI conversion</resp><name>Lou Burnard</name></respStmt></titleStmt>
+   <titleStmt><title>After the Party: TEI edition</title><author>[Anon.]</author><respStmt><resp>TEI conversion</resp><name>Lou Burnard</name></respStmt></titleStmt>
    <publicationStmt><distributor>Privately distributed by the Digital Lacy Project</distributor><idno type="LAE">L1388</idno><availability><licence target="https://creativecommons.org/publicdomain/zero/1.0/">The Lacy Project waives all rights to the TEI encoding applied to this material, which is believed to be in the public domain. You may copy, modify, distribute and perform this work freely. </licence></availability></publicationStmt>
    <sourceDesc><bibl type="origin" n="93.8"><author>[Anon.]</author><title type="main" n="aftertheparty">After the Party</title><title type="sub">A Comedy in one act</title><extent>18 pp<measure type="pp" quantity="18"/>
   <measure type="spCount" quantity="297"/>
@@ -10,7 +10,6 @@
   <measure type="spWords" quantity="4488"/>
   <measure type="stWords" quantity="1007"/>
   </extent>
-
       <note type="fees">T.H. Lacy's List</note><title level="s"> Lacy's Acting Edition, volume 93,
        No. 1388</title></bibl><bibl type="surrogate" subtype="copytext"><ref target="https://babel.hathitrust.org/cgi/pt?id=mdp.39015067453400&amp;seq=225">UM from
        HT</ref><ref target="local:Vol93/L1388/L1388-gb.pdf"/></bibl><bibl type="surrogate" subtype="TEI"><ref target="https://lb42.github.io/Lacy/L1388.html">TEI</ref></bibl><listEvent>
@@ -19,14 +18,8 @@
       </event>
      </listEvent></sourceDesc>
   </fileDesc>
-  <profileDesc><textClass>
-    <catRef target="#sizeS"/>
-    <catRef target="#act1"/>
-    <catRef target="nic:F."/>
-    <keywords>
-     <term>Farce</term>
-    </keywords>
-   </textClass><particDesc><listPerson>
+  
+  <profileDesc><!--S 1 Comedy F. FARCE--><textClass><catRef target="#sizeS"/><catRef target="#act1"/><catRef target="nic:F."/><keywords><term>FARCE</term></keywords></textClass><particDesc><listPerson>
 <person xml:id="L1388_M1">
 <persName type="role">Mr FitzHoward</persName>
 <persName type="spkr" n="1">FITZHOWARD.</persName>
@@ -43,8 +36,7 @@
 <persName type="spkr" n="9">Voice.</persName>
 </person>
 
-</listPerson></particDesc></profileDesc>
-  <revisionDesc><change when="2026-01-10">Metadata refreshed from catalogue and Partix folder</change><change when="2025-11-02">Metadata refreshed from catalogue and Partix folder</change>
+</listPerson></particDesc></profileDesc><revisionDesc><change when="2026-01-11">Standardize header components</change><change when="2026-01-10">Metadata refreshed from catalogue and Partix folder</change><change when="2025-11-02">Metadata refreshed from catalogue and Partix folder</change>
    <change when="2025-09-07">Metadata updated from new catalogue</change>
    <change when="2025-03-19">Header enriched</change>
    <change when="2025-02-14">Hand edit</change>

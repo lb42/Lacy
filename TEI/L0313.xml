@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L0313">
  <teiHeader>
   <fileDesc>
-   <titleStmt><title>Chain Of Events</title><author>"Slingsby Lawrence"</author><author>Mathews, Charles</author><respStmt><resp>TEI conversion</resp><name>Lou Burnard</name></respStmt></titleStmt>
+   <titleStmt><title>A Chain Of Events: TEI edition</title><author>"Slingsby Lawrence"</author><author>Mathews, Charles</author><respStmt><resp>TEI conversion</resp><name>Lou Burnard</name></respStmt></titleStmt>
    <publicationStmt><distributor>Privately distributed by the Digital Lacy Project</distributor><idno type="LAE">L0313</idno><availability><licence target="https://creativecommons.org/publicdomain/zero/1.0/">The Lacy Project waives all rights to the TEI encoding applied to this material, which is believed to be in the public domain. You may copy, modify, distribute and perform this work freely. </licence></availability></publicationStmt>
    <sourceDesc><bibl type="origin" n="21.13"><author>[Lewes, G.H.] “Slingsby
        Lawrence“</author><author>Mathews, Charles</author><title type="main" n="achainofevents">A
@@ -13,7 +13,6 @@
   <measure type="spWords" quantity="26228"/>
   <measure type="stWords" quantity="4491"/>
   </extent>
-
       <title level="s"> Lacy's Acting Edition, volume 21, No. 0313</title><idno type="nic">N14985</idno><idno type="vpp">Vol21xiiiChain</idno></bibl><bibl type="surrogate" subtype="copytext"><ref target="https://lb42.github.io/Lacy/Source/VPP/L0313-vpp.pdf">LoB from VPP</ref><ref target="local:Vol21/L0313/L0313-vpp.pdf"/><ref target="local:Vol21/L0313/Vol21xiiiChain.pdf"/></bibl><listEvent>
       <event type="LCP" when="1862-04-11" where="Lyceum">
        <desc>Licence sent 11 April for performance at the Lyceum 12 April 1852. </desc>
@@ -24,14 +23,8 @@
       </event>
      </listEvent></sourceDesc>
   </fileDesc>
-  <profileDesc><textClass>
-    <catRef target="#sizeS"/>
-    <catRef target="#act8"/>
-    <catRef target="nic:D."/>
-    <keywords>
-     <term>DRAMA</term>
-    </keywords>
-   </textClass><particDesc><listPerson>
+  
+  <profileDesc><!--S 8 Drama D. DRAMA--><textClass><catRef target="#sizeS"/><catRef target="#act8"/><catRef target="nic:D."/><keywords><term>DRAMA</term></keywords></textClass><particDesc><listPerson>
   <person xml:id="L0313_M1">
    <persName type="role">Gaspard L'Avisé,</persName>
    <persName type="spkr" n="203">Gaspard.</persName>
@@ -167,8 +160,7 @@
    <persName type="spkr" n="2">2nd verse.</persName>
    <persName type="spkr" n="2">Coachman.</persName>
   </person>
-</listPerson></particDesc></profileDesc>
-  <revisionDesc><change when="2026-01-10">Metadata refreshed from catalogue and Partix folder</change><change when="2025-11-02">Metadata refreshed from catalogue and Partix folder</change>
+</listPerson></particDesc></profileDesc><revisionDesc><change when="2026-01-11">Standardize header components</change><change when="2026-01-10">Metadata refreshed from catalogue and Partix folder</change><change when="2025-11-02">Metadata refreshed from catalogue and Partix folder</change>
    <change when="2025-10-06">Metadata updated from new catalogue</change>
    <change when="2025-10-03">Header confected</change>
   </revisionDesc>

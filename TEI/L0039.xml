@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L0039">
  <teiHeader>
   <fileDesc>
-   <titleStmt><title type="main">Belphegor, or the Mountebank and his Wife</title><author ref="https://en.wikipedia.org/wiki/John_Courtney_(playwright)">Courtney, John </author><respStmt><resp>TEI conversion</resp><name>Lou Burnard</name></respStmt></titleStmt>
+   <titleStmt><title>Belphegor: TEI edition</title><author ref="https://en.wikipedia.org/wiki/John_Courtney_(playwright)">Courtney, John </author><respStmt><resp>TEI conversion</resp><name>Lou Burnard</name></respStmt></titleStmt>
    <publicationStmt><distributor>Privately distributed by the Digital Lacy Project</distributor><idno type="LAE">L0039</idno><availability><licence target="https://creativecommons.org/publicdomain/zero/1.0/">The Lacy Project waives all rights to the TEI encoding applied to this material, which is believed to be in the public domain. You may copy, modify, distribute and perform this work freely. </licence></availability></publicationStmt>
    <sourceDesc><bibl type="origin" n="3.9"><author>Courtney, John</author><title type="main" n="belphegortheitinerant">Belphegor; or, The Mountebank and his Wife</title><title type="sub">A Drama in four acts</title><title type="source" n="#FR">Adapted from the
        French</title><extent>55 pp (UM copy: 254 - 309)<measure type="pp" quantity="48"/>
@@ -11,7 +11,6 @@
   <measure type="spWords" quantity="15735"/>
   <measure type="stWords" quantity="3012"/>
   </extent>
-
       <relatedItem type="source">
        <bibl><title>Paillasse, drame en cing actes / par Mm d'Ennery et Marc-Fournier</title></bibl>
       </relatedItem><title level="s"> Lacy's Acting Edition, volume 3, No. 0039</title><idno type="nic">N11183</idno><idno type="vpp">Vol3ixBelphegor</idno></bibl><bibl type="surrogate" subtype="copytext"><ref target="https://lb42.github.io/Lacy/Source/VPP/L0039-vpp.pdf">LoB from VPP</ref><ref target="local:Vol03/L0039/L0039-vpp.pdf"/><ref target="local:Vol03/L0039/Vol3ixBelphegor.pdf"/></bibl><bibl type="surrogate"><ref target="https://www.google.com/books/edition/Belphegor_Or/hT8WAAAAYAAJ">Google
@@ -22,15 +21,8 @@
       </event>
      </listEvent></sourceDesc>
   </fileDesc>
-  <profileDesc><textClass>
-    
-    <catRef target="#sizeL"/>
-    <catRef target="#act4"/>
-    <catRef target="nic:D."/>
-    <keywords>
-     <term>DRAMA</term>
-    </keywords>
-   </textClass><particDesc><listPerson>
+  
+  <profileDesc><!--L 4 Drama D. DRAMA--><textClass><catRef target="#sizeL"/><catRef target="#act4"/><catRef target="nic:D."/><keywords><term>DRAMA</term></keywords></textClass><particDesc><listPerson>
 <person xml:id="L0039_M1">
 <persName type="role">The Duke De Montbazon </persName>
 <persName type="spkr" n="92">Duke.</persName>
@@ -133,53 +125,114 @@
 
 
 
-</listPerson></particDesc></profileDesc>
-  <revisionDesc><change when="2026-01-10">Metadata refreshed from catalogue and Partix folder</change><change when="2025-11-02">Metadata refreshed from catalogue and Partix folder</change><change when="2025-09-07">Metadata updated from new catalogue</change>
+</listPerson></particDesc></profileDesc><revisionDesc><change when="2026-01-11">Standardize header components</change>
+   <change when="2026-01-10">Metadata refreshed from catalogue and Partix folder</change>
+   <change when="2025-11-02">Metadata refreshed from catalogue and Partix folder</change>
+   <change when="2025-09-07">Metadata updated from new catalogue</change>
    <change when="2024-10-03">Header enriched</change>
    <change when="2023-08-10">Hand edited</change>
   </revisionDesc>
  </teiHeader>
 
- <text><pb n="1"/>
+ <text>
+  <pb n="1"/>
   <front>
-   <titlePage><titlePart type="main">Belphegor</titlePart><titlePart type="alt">Or, The Mountebank And His Wife.</titlePart><titlePart type="sub">A Drama, In Four Acts.</titlePart><byline>Adapted From The French, By <docAuthor>J. Courtney,</docAuthor> Author of <title>"Time
-     Tries All,"</title><title> "Aged Forty,"</title><title> "Taken by Surprise," </title><title>"
-     The Musician's Daughter,"</title><title> " Tricks and Trials,"</title><title> " Vanity, or the
-     Will and the Word," </title><title>"The Two Polts,"</title><title> "Lizzie Leigh,"</title>
-     &amp;c</byline><docImprint>Hailes Lacy, Wellington Street, Strand, London.</docImprint></titlePage>
+   <titlePage>
+    <titlePart type="main">Belphegor</titlePart>
+    <titlePart type="alt">Or, The Mountebank And His Wife.</titlePart>
+    <titlePart type="sub">A Drama, In Four Acts.</titlePart>
+    <byline>Adapted From The French, By <docAuthor>J. Courtney,</docAuthor> Author of <title>"Time
+      Tries All,"</title><title> "Aged Forty,"</title><title> "Taken by Surprise," </title><title>"
+      The Musician's Daughter,"</title><title> " Tricks and Trials,"</title><title> " Vanity, or the
+      Will and the Word," </title><title>"The Two Polts,"</title><title> "Lizzie Leigh,"</title>
+     &amp;c</byline>
+    <docImprint>Hailes Lacy, Wellington Street, Strand, London.</docImprint>
+   </titlePage>
    <pb n="2"/>
    <performance>
     <p> First produced at the Royal Surrey Theatre, on Monday, January 20, 1851.</p>
    </performance>
    <castList>
     <head>Characters.</head>
-    <castItem> <role gender="M">The Duke De Montbazon </role> <actor sex="M">Mr. Bruce Norton.
-     </actor> </castItem>
-    <castItem> <role gender="M">The Grand Bailli De Courgement </role> <actor sex="M">Mr. Raymond.
-     </actor> </castItem>
-    <castItem> <role gender="M">The Count De Castel Blangy </role> <actor sex="M">Mr. W. Montague.
-     </actor> </castItem>
-    <castItem> <role gender="M">The Vicomte Hercules </role> <actor sex="M">Mr. H. Widdicomb.
-     </actor> </castItem>
-    <castItem> <role gender="M">The Judge D'arpignol </role> <actor sex="M">Mr. Fenton. </actor> </castItem>
-    <castItem> <role gender="M">Commander Of The Pouffieres. </role> <actor sex="M">Mr. J. Parry.
-     </actor> </castItem>
-    <castItem> <role gender="M">The Chevalier De Rollac </role> <actor sex="M">Mr. T. Mead. </actor> </castItem>
-    <castItem> <role gender="M">Doctor </role> <actor sex="M">Mr. Butler. </actor> </castItem>
-    <castItem> <role gender="M">Beaumesnil . </role> <actor sex="M">Mr. </actor> </castItem>
-    <castItem> <role gender="M">Duperon . </role> <actor sex="M">Mr. </actor> </castItem>
-    <castItem> <role gender="M">Grelu </role><roleDesc> (Proprietor And Deputy Prefet)</roleDesc>  <actor sex="M">Mr. Fitzroy. </actor> </castItem>
-    <castItem> <role gender="M">Jean Joson</role> <roleDesc>(the Deputy's Deputy) </roleDesc>
-     <actor sex="M">Mr. J. W. Collier</actor> </castItem>
-    <castItem> <role gender="M">Guillaume, Surnamed Belphegor </role> <actor sex="M">Mr. Creswick.
-     </actor> </castItem>
-    <castItem> <role gender="M">Grain D'amour </role> <actor sex="M">Mr. Rivers. </actor> </castItem>
-    <castItem> <role gender="M">Henri </role> <roleDesc>(son To Belphegor) </roleDesc> <actor sex="F">Miss Mandlebert. </actor> </castItem>
-    <castItem> <role gender="F">Madeline </role> <roleDesc>(wife To Belphegor) </roleDesc> <actor sex="F">Miss Cooper. </actor> </castItem>
-    <castItem> <role gender="F">Nini Flora </role> <roleDesc>(dancer At The Academie) </roleDesc>
-     <actor sex="F">Miss J. Coveney. </actor> </castItem>
-    <castItem> <role gender="F">Catherine </role> <actor sex="F">Miss H. Coveney. </actor> </castItem>
-    <castItem> <roleDesc>Masqueraders, Peasants, Soldiers, Servants, &amp;c. </roleDesc> </castItem>
+    <castItem>
+     <role gender="M">The Duke De Montbazon </role>
+     <actor sex="M">Mr. Bruce Norton. </actor>
+    </castItem>
+    <castItem>
+     <role gender="M">The Grand Bailli De Courgement </role>
+     <actor sex="M">Mr. Raymond. </actor>
+    </castItem>
+    <castItem>
+     <role gender="M">The Count De Castel Blangy </role>
+     <actor sex="M">Mr. W. Montague. </actor>
+    </castItem>
+    <castItem>
+     <role gender="M">The Vicomte Hercules </role>
+     <actor sex="M">Mr. H. Widdicomb. </actor>
+    </castItem>
+    <castItem>
+     <role gender="M">The Judge D'arpignol </role>
+     <actor sex="M">Mr. Fenton. </actor>
+    </castItem>
+    <castItem>
+     <role gender="M">Commander Of The Pouffieres. </role>
+     <actor sex="M">Mr. J. Parry. </actor>
+    </castItem>
+    <castItem>
+     <role gender="M">The Chevalier De Rollac </role>
+     <actor sex="M">Mr. T. Mead. </actor>
+    </castItem>
+    <castItem>
+     <role gender="M">Doctor </role>
+     <actor sex="M">Mr. Butler. </actor>
+    </castItem>
+    <castItem>
+     <role gender="M">Beaumesnil . </role>
+     <actor sex="M">Mr. </actor>
+    </castItem>
+    <castItem>
+     <role gender="M">Duperon . </role>
+     <actor sex="M">Mr. </actor>
+    </castItem>
+    <castItem>
+     <role gender="M">Grelu </role><roleDesc> (Proprietor And Deputy Prefet)</roleDesc>
+     <actor sex="M">Mr. Fitzroy. </actor>
+    </castItem>
+    <castItem>
+     <role gender="M">Jean Joson</role>
+     <roleDesc>(the Deputy's Deputy) </roleDesc>
+     <actor sex="M">Mr. J. W. Collier</actor>
+    </castItem>
+    <castItem>
+     <role gender="M">Guillaume, Surnamed Belphegor </role>
+     <actor sex="M">Mr. Creswick. </actor>
+    </castItem>
+    <castItem>
+     <role gender="M">Grain D'amour </role>
+     <actor sex="M">Mr. Rivers. </actor>
+    </castItem>
+    <castItem>
+     <role gender="M">Henri </role>
+     <roleDesc>(son To Belphegor) </roleDesc>
+     <actor sex="F">Miss Mandlebert. </actor>
+    </castItem>
+    <castItem>
+     <role gender="F">Madeline </role>
+     <roleDesc>(wife To Belphegor) </roleDesc>
+     <actor sex="F">Miss Cooper. </actor>
+    </castItem>
+    <castItem>
+     <role gender="F">Nini Flora </role>
+     <roleDesc>(dancer At The Academie) </roleDesc>
+     <actor sex="F">Miss J. Coveney. </actor>
+    </castItem>
+    <castItem>
+     <role gender="F">Catherine </role>
+     <actor sex="F">Miss H. Coveney. </actor>
+    </castItem>
+    <castItem>
+     <roleDesc>Masqueraders, Peasants, Soldiers, Servants, &amp;c. </roleDesc>
+    </castItem>
    </castList>
 
    <set>
@@ -239,7 +292,7 @@
       <speaker>Grelu.</speaker>
       <p> Countrymen, and inhabitants of the hamlet of Courgemont, I have summoned you all to
        communicate to you the order of the Under Prefect, date, June 2nd, 1814, which contains these
-       words—hem<stage>(very importantly)</stage>. " That they be joyous—very joyous —exceedingly
+        words—hem<stage>(very importantly)</stage>. " That they be joyous—very joyous —exceedingly
        joyous, in order to receive the Grand Bailli de Courgemont, who has returned to France after
        years passed out of the kingdom, for the purpose of meeting his vassals and servants— that
        they may have the honour and supreme delight of for an instant contemplating their legitimate
@@ -248,11 +301,13 @@
      <sp who="#L0039_M12">
       <speaker>Jean.</speaker>
       <p> I shall go and pick my knuckle of veal; and return when the bell rings for the
-       <hi>fête.</hi> </p>
+        <hi>fête.</hi>
+      </p>
      </sp>
      <sp who="#L0039_mult">
       <speaker>Omnes.</speaker>
-      <p> Aye, aye. <stage>Music—they are going different ways. </stage> </p>
+      <p> Aye, aye. <stage>Music—they are going different ways. </stage>
+      </p>
      </sp>
      <sp who="#L0039_M12">
       <speaker>Jean.</speaker>
@@ -260,15 +315,19 @@
      </sp>
      <sp who="#L0039_mult">
       <speaker>Omnes.</speaker>
-      <p> <stage> laugh.</stage> </p>
+      <p>
+       <stage> laugh.</stage>
+      </p>
      </sp>
      <sp who="#L0039_M11">
       <speaker>Grelu.</speaker>
-      <p> <stage>(anxiously.)</stage> Quick, all prepare to meet him. <stage>They go off at various
-       places. </stage> — Here, within! <stage>Enter Garcons. </stage> — Make haste—go and march
+      <p>
+       <stage>(anxiously.)</stage> Quick, all prepare to meet him. <stage>They go off at various
+        places. </stage> — Here, within! <stage>Enter Garcons. </stage> — Make haste—go and march
        before the travellers, while I run to the kitchen. <stage>Exit Garcons—he enters the house.
-       </stage><stage> Music.—Enter De Blangy and De Courgemont, the Judge D'Arpignal, Mademoiselle
-       Vermandois, and Hercules De Montbazon, R.H.U.E. </stage> </p>
+        </stage><stage> Music.—Enter De Blangy and De Courgemont, the Judge D'Arpignal, Mademoiselle
+        Vermandois, and Hercules De Montbazon, R.H.U.E. </stage>
+      </p>
      </sp>
      <sp who="#L0039_M2">
       <speaker>Cour.</speaker>
@@ -277,7 +336,8 @@
      <sp who="#L0039_F23">
       <speaker>Madlle. V.</speaker>
       <p> But I do not see any one of them,
-       <pb n="4"/> </p>
+       <pb n="4"/>
+      </p>
      </sp>
      <sp who="#L0039_M2">
       <speaker>Cour.</speaker>
@@ -295,7 +355,8 @@
      </sp>
      <sp who="#L0039_M4">
       <speaker>Her.</speaker>
-      <p> Yes, grand aunt.<stage> Returns, bowing each time. </stage> </p>
+      <p> Yes, grand aunt.<stage> Returns, bowing each time. </stage>
+      </p>
      </sp>
      <sp who="#L0039_F23">
       <speaker>Madlle. V.</speaker>
@@ -305,8 +366,9 @@
      </sp>
      <sp who="#L0039_M2">
       <speaker>Cour.</speaker>
-      <p> Within, there—landlord.<stage>(calls.)</stage> <stage>Enter Grelu, from Inn.</stage> Grelu
-       <stage>(takes off his hat)</stage>. You did me, gentlemen, the honour to call me. </p>
+      <p> Within, there—landlord.<stage>(calls.)</stage>
+       <stage>Enter Grelu, from Inn.</stage> Grelu <stage>(takes off his hat)</stage>. You did me,
+       gentlemen, the honour to call me. </p>
      </sp>
      <sp who="#L0039_M2">
       <speaker>Cour.</speaker>
@@ -314,19 +376,22 @@
      </sp>
      <sp who="#L0039_M11">
       <speaker>Grelu.</speaker>
-      <p> In one moment, Monsieur.<stage> Exit. </stage> </p>
+      <p> In one moment, Monsieur.<stage> Exit. </stage>
+      </p>
      </sp>
      <sp who="#L0039_M2">
       <speaker>Cour.</speaker>
       <p> You see, in him, <hi>one</hi> of my vassals, and how <hi>obedient</hi> he is. I am now on
        my own lands, and can offer you some fruit. <stage>about to gather some fruit from wall, when
-       Jean Joson appears upon the top, armed with a pitchfork. </stage> </p>
+        Jean Joson appears upon the top, armed with a pitchfork. </stage>
+      </p>
      </sp>
      <sp who="#L0039_M12">
       <speaker>Jean.</speaker>
       <p> Come, I say, stand off; I'm here to take care of this fruit, and the first who attempts to
        touch it, I'll fork him<stage>(flourishes his fork)</stage>. <stage>Enter Grelu with
-       lemonade.}</stage> </p>
+        lemonade.}</stage>
+      </p>
      </sp>
      <sp who="#L0039_M11">
       <speaker>Grelu.</speaker>
@@ -338,7 +403,8 @@
      </sp>
      <sp who="#L0039_M11">
       <speaker>Grelu.</speaker>
-      <p> Certainly, Mademoiselle. <stage>Bows—She takes the glass and drinks. </stage> </p>
+      <p> Certainly, Mademoiselle. <stage>Bows—She takes the glass and drinks. </stage>
+      </p>
      </sp>
      <sp who="#L0039_F23">
       <speaker>Madlle. V.</speaker>
@@ -346,7 +412,8 @@
      </sp>
      <sp who="#L0039_M11">
       <speaker>Grelu.</speaker>
-      <p> Tenpence, if you please, Mademoiselle.<stage> all stare. </stage> </p>
+      <p> Tenpence, if you please, Mademoiselle.<stage> all stare. </stage>
+      </p>
      </sp>
      <sp who="#L0039_M2">
       <speaker>Cour.</speaker>
@@ -354,7 +421,8 @@
      </sp>
      <sp who="#L0039_M11">
       <speaker>Grelu.</speaker>
-      <p> Your lands!<stage> stares again. </stage> </p>
+      <p> Your lands!<stage> stares again. </stage>
+      </p>
      </sp>
      <sp who="#L0039_M2">
       <speaker>Cour.</speaker>
@@ -396,7 +464,8 @@
      <sp who="#L0039_M11">
       <speaker>Grelu.</speaker>
       <p> Rooms! I have only three, and they are taken by a lady who arrived here this morning.
-       <pb n="5"/> </p>
+       <pb n="5"/>
+      </p>
      </sp>
      <sp who="#L0039_F23">
       <speaker>Madlle. V.</speaker>
@@ -473,13 +542,15 @@
      <sp who="#L0039_M11">
       <speaker>Grelu.</speaker>
       <p> Perhaps the lady will give up one of her rooms—I'll go and see.<stage> Exit into house.
-       </stage> </p>
+       </stage>
+      </p>
      </sp>
      <sp who="#L0039_M12">
       <speaker>Jean.</speaker>
       <p> And I'll go to dinner. I say, don't you touch the fruit while I am gone. I don't much like
        the looks of any of you. The old woman seems a regular queer one.<stage> Exit.</stage><stage>
-       Enter Nini Flora, followed by a Servant, with a basket,} R.H.U.E.</stage> </p>
+        Enter Nini Flora, followed by a Servant, with a basket,} R.H.U.E.</stage>
+      </p>
      </sp>
      <sp who="#L0039_F17">
       <speaker>Flora.</speaker>
@@ -500,11 +571,12 @@
      <sp who="#L0039_M4">
       <speaker>Her.</speaker>
       <p> Yes, grand aunt. Flora <stage>(aside R.H.)</stage> Some returned emigrants, I
-       suppose<stage> (to Mademoiselle).</stage> Madame! </p>
+        suppose<stage> (to Mademoiselle).</stage> Madame! </p>
      </sp>
      <sp who="#L0039_F23">
       <speaker>Madlle. V.</speaker>
-      <p> <stage>(R.C.)</stage> Mademoiselle, if you please <stage>(Flora curtsies).</stage> I hear,
+      <p>
+       <stage>(R.C.)</stage> Mademoiselle, if you please <stage>(Flora curtsies).</stage> I hear,
        Madame, that you have engaged all the rooms, and all the horses of the hotel. </p>
      </sp>
      <sp who="#L0039_F17">
@@ -518,7 +590,8 @@
      </sp>
      <sp who="#L0039_F17">
       <speaker>Flora.</speaker>
-      <p> Oh, Mademoiselle.<stage>(she curtsies, they bow.)</stage> </p>
+      <p> Oh, Mademoiselle.<stage>(she curtsies, they bow.)</stage>
+      </p>
      </sp>
      <sp who="#L0039_F23">
       <speaker>Madlle. V.</speaker>
@@ -555,7 +628,8 @@
      <sp who="#L0039_F23">
       <speaker>Madlle. V.</speaker>
       <p><stage>(with reverence)}</stage> Madame!
-       <pb n="6"/> </p>
+       <pb n="6"/>
+      </p>
      </sp>
      <sp who="#L0039_F17">
       <speaker>Flora.</speaker>
@@ -599,17 +673,20 @@
      </sp>
      <sp who="#L0039_M3">
       <speaker>Blangy.</speaker>
-      <p> <stage>( L . )</stage> Ha, ha, ha! </p>
+      <p>
+       <stage>( L . )</stage> Ha, ha, ha! </p>
      </sp>
      <sp who="#L0039_F23">
       <speaker>Madlle. V.</speaker>
       <p> Horror <stage>(hastens to the inn)</stage>. Follow me, Hercules.
-       Flora<stage>(laughs.)</stage> </p>
+        Flora<stage>(laughs.)</stage>
+      </p>
      </sp>
      <sp who="#L0039_M4">
       <speaker>Her.</speaker>
       <p> Yes, grand aunt<stage>(giggles)</stage>. She's uncommonly pretty for a dancer.
-       <stage>(approaching Flora.)</stage> </p>
+        <stage>(approaching Flora.)</stage>
+      </p>
      </sp>
      <sp who="#L0039_F23">
       <speaker>Madlle. V.</speaker>
@@ -622,12 +699,14 @@
      </sp>
      <sp who="#L0039_F17">
       <speaker>Flora.</speaker>
-      <p> <stage>(R.)</stage> Ha, ha, ha! An army in retreat—how is it that I have not frightened
-       you. Sir? </p>
+      <p>
+       <stage>(R.)</stage> Ha, ha, ha! An army in retreat—how is it that I have not frightened you.
+       Sir? </p>
      </sp>
      <sp who="#L0039_M3">
       <speaker>Blangy.</speaker>
-      <p> <stage>( L . )</stage> Me, Mademoiselle!—I never knew fear, much more of a pretty —— </p>
+      <p>
+       <stage>( L . )</stage> Me, Mademoiselle!—I never knew fear, much more of a pretty —— </p>
      </sp>
      <sp who="#L0039_F17">
       <speaker>Flora.</speaker>
@@ -636,8 +715,9 @@
      <sp who="#L0039_M3">
       <speaker>Blangy.</speaker>
       <p> I accept your offer with pleasure. <stage>Music—piano, Blangy takes her hand, and conducts
-       her to the Hotel— A noise heard, R.H.U.E., with cries of joy.</stage><stage> Enter Grelu,
-       from gateway.} </stage> </p>
+        her to the Hotel— A noise heard, R.H.U.E., with cries of joy.</stage><stage> Enter Grelu,
+        from gateway.} </stage>
+      </p>
      </sp>
      <sp who="#L0039_M11">
       <speaker>Grelu.</speaker>
@@ -650,21 +730,24 @@
      </sp>
      <sp who="#L0039_M11">
       <speaker>Grelu.</speaker>
-      <p> <stage>(R.H.C.)</stage> In my quality of deputy—do you not know, Monsieur, that many
+      <p>
+       <stage>(R.H.C.)</stage> In my quality of deputy—do you not know, Monsieur, that many
        suspected individuals have penetrated the frontier? I have the list—Lacour, Margrat,
        Lavarennes </p>
      </sp>
      <sp who="#L0039_M3">
       <speaker>Blangy.</speaker>
-      <p> <stage>(L.H.C.)</stage> Lavarennes! that traitor by turns to the Republican army, and that
-       of the Condé, condemned to death in 1794, for robbing and assassinating the pay-master of the
+      <p>
+       <stage>(L.H.C.)</stage> Lavarennes! that traitor by turns to the Republican army, and that of
+       the Condé, condemned to death in 1794, for robbing and assassinating the pay-master of the
        Royalist army, the most adroit and dangerous villain of the day. <stage>Noise and cries—Enter
-       a mock Drum-Major, with his stick, before two musicians with clarionets, then an old Berline
-       and horse, Grain D'Amour behind, with large drum—Henri on the horse's back, with
-       cymbals—Belphegor standing up in the Berline—Madeline and the little Jeanne are seated.
-       U.E.R.H.</stage>
-       <pb n="7"/> <stage>Belphegor bows to the country people, who have followed, and ranged
-       around. </stage> </p>
+        a mock Drum-Major, with his stick, before two musicians with clarionets, then an old Berline
+        and horse, Grain D'Amour behind, with large drum—Henri on the horse's back, with
+        cymbals—Belphegor standing up in the Berline—Madeline and the little Jeanne are seated.
+        U.E.R.H.</stage>
+       <pb n="7"/>
+       <stage>Belphegor bows to the country people, who have followed, and ranged around. </stage>
+      </p>
      </sp>
      <sp who="#L0039_M13">
       <speaker>Bel.</speaker>
@@ -673,7 +756,8 @@
      <sp who="#L0039_M15">
       <speaker>Hen.</speaker>
       <p> Yes, noble master. <stage>Hits a clash upon cymbals—Grain D'amour strikes drum and
-       flourishes stick comically. </stage> </p>
+        flourishes stick comically. </stage>
+      </p>
      </sp>
      <sp who="#L0039_M13">
       <speaker>Bel.</speaker>
@@ -681,7 +765,8 @@
      </sp>
      <sp who="#L0039_M15">
       <speaker>Hen.</speaker>
-      <p> Yes, noble master. <stage>He and Grain D'Amour sound one stroke each. </stage> </p>
+      <p> Yes, noble master. <stage>He and Grain D'Amour sound one stroke each. </stage>
+      </p>
      </sp>
      <sp who="#L0039_M13">
       <speaker>Bel.</speaker>
@@ -692,7 +777,8 @@
      </sp>
      <sp who="#L0039_M15">
       <speaker>Hen.</speaker>
-      <p> Yes, noble master.<stage>(they sound again.)</stage> </p>
+      <p> Yes, noble master.<stage>(they sound again.)</stage>
+      </p>
      </sp>
      <sp who="#L0039_M13">
       <speaker>Bel.</speaker>
@@ -700,7 +786,7 @@
        mancy you may fancy. We inform young maidens the year, the month, the week, the day, the
        hour, the minute of their approaching marriage—we give to young men the number they will draw
        in the conscription; and to married men, all their spouses have done, do do, and mean to do.
-       <stage>(Music sound again.)</stage> I am the great Paillegoe—My grandfather, Belphégor the
+        <stage>(Music sound again.)</stage> I am the great Paillegoe—My grandfather, Belphégor the
        First, swallowed pen-knives, carving knives, scissors, and razors —My father, Belphégor the
        Second, swallowed swords, sabres, and bayonets—I, Belphégor the Third, swallow pistols,
        carbines, and blunderbusses, and<stage>(lifting Jacquenet in the air)</stage> Jacquenet, my
@@ -716,9 +802,10 @@
        Indians—the labours of Hercules, by myself—and will conclude with the feats of this noble
        charger, who, after speaking Chinese, Arabic, French, Dutch, and thirty-six other languages,
        will swallow himself before this noble company. Sound your music. <stage>Music as before—he
-       raises his hat—they all applaud, salute him, and go off different ways, U.E.R.H. and L.H.
-       Belphegor descends, assists his wife and the little Jeanne down, then Henri, embracing
-       them as he places them on the ground. </stage> </p>
+        raises his hat—they all applaud, salute him, and go off different ways, U.E.R.H. and L.H.
+        Belphegor descends, assists his wife and the little Jeanne down, then Henri, embracing them
+        as he places them on the ground. </stage>
+      </p>
      </sp>
      <sp who="#L0039_M13">
       <speaker>Bel.</speaker>
@@ -735,13 +822,15 @@
      <sp who="#L0039_M14">
       <speaker>Grain.</speaker>
       <p> Yes, noble master. <stage>Grain D'Amour signs to a Garcon of the Inn, who assists him—the
-       horse is led off, gateway. </stage> </p>
+        horse is led off, gateway. </stage>
+      </p>
      </sp>
      <sp who="#L0039_M13">
       <speaker>Bel.</speaker>
       <p> My poor Mouton, after my wife and children, I love you better than anything else in the
        world.
-       <pb n="8"/> </p>
+       <pb n="8"/>
+      </p>
      </sp>
      <sp who="#L0039_M3">
       <speaker>Blangy.</speaker>
@@ -750,15 +839,17 @@
      <sp who="#L0039_M11">
       <speaker>Grelu.</speaker>
       <p> I don't know—my duty is to examine him.—<stage>(he goes towards Belphegor, and
-       rudely)</stage> Approach! </p>
+        rudely)</stage> Approach! </p>
      </sp>
      <sp who="#L0039_M13">
       <speaker>Bel.</speaker>
-      <p> <stage>(C.)</stage> Is it to Monsieur the Prefect, I have the honour of speaking? </p>
+      <p>
+       <stage>(C.)</stage> Is it to Monsieur the Prefect, I have the honour of speaking? </p>
      </sp>
      <sp who="#L0039_M11">
       <speaker>Grelu.</speaker>
-      <p> <stage>(R. rather reduced)</stage> Not quite—but I am the Prefect's Deputy. </p>
+      <p>
+       <stage>(R. rather reduced)</stage> Not quite—but I am the Prefect's Deputy. </p>
      </sp>
      <sp who="#L0039_M13">
       <speaker>Bel.</speaker>
@@ -767,7 +858,8 @@
      <sp who="#L0039_M15">
       <speaker>Henri.</speaker>
       <p> Yes, noble master. <stage>They bow, as he introduces each, with little Jeanne, who
-       curtsies, L.H. </stage> </p>
+        curtsies, L.H. </stage>
+      </p>
      </sp>
      <sp who="#L0039_M11">
       <speaker>Grelu.</speaker>
@@ -779,16 +871,19 @@
      </sp>
      <sp who="#L0039_M11">
       <speaker>Grelu.</speaker>
-      <p> <stage>(R.C.)</stage> You must go wth me to the Mayor's office. </p>
+      <p>
+       <stage>(R.C.)</stage> You must go wth me to the Mayor's office. </p>
      </sp>
      <sp who="#L0039_M13">
       <speaker>Bel.</speaker>
-      <p> <stage>(L.H.C.)</stage> I am ready, Monsieur. </p>
+      <p>
+       <stage>(L.H.C.)</stage> I am ready, Monsieur. </p>
      </sp>
      <sp who="#L0039_F16">
       <speaker>Mad.</speaker>
-      <p> <stage>(L.H.)</stage> While you are gone, William, I will enter the inn, and put the
-       children to rest. </p>
+      <p>
+       <stage>(L.H.)</stage> While you are gone, William, I will enter the inn, and put the children
+       to rest. </p>
      </sp>
      <sp who="#L0039_M13">
       <speaker>Bel.</speaker>
@@ -806,7 +901,8 @@
      </sp>
      <sp who="#L0039_F16">
       <speaker>Mad.</speaker>
-      <p> Come, children.<stage>(they exeunt to the Inn, through gateway.)</stage> </p>
+      <p> Come, children.<stage>(they exeunt to the Inn, through gateway.)</stage>
+      </p>
      </sp>
      <sp who="#L0039_M3">
       <speaker>Blangy.</speaker>
@@ -836,8 +932,9 @@
       <p> What's in it to make me unhappy? There are four of us so, you see, we have each three to
        love. When one sings, the others sing without asking why; and were it not for one thing—my
        little girl, who is sickly and very weak—we should never know a moment's
-       melancholy—<stage>(he embraces little Jeanne, who comes from the Inn with a cup of wine,
-       L.H.—he drinks it)</stage> Run to your mamma, my pet.<stage> She exits. </stage> </p>
+        melancholy—<stage>(he embraces little Jeanne, who comes from the Inn with a cup of wine,
+        L.H.—he drinks it)</stage> Run to your mamma, my pet.<stage> She exits. </stage>
+      </p>
      </sp>
      <sp who="#L0039_M3">
       <speaker>Blangy.</speaker>
@@ -858,8 +955,10 @@
      <sp who="#L0039_M13">
       <speaker>Bel.</speaker>
       <p> Me?—no—I am a poor mountebank.
-       <pb n="9"/> <stage>During this, Grain D'Amour and Garcon have been arranging the platform
-       under wall, L.H.U.E., taking out dresses, cups, &amp;c. </stage> </p>
+       <pb n="9"/>
+       <stage>During this, Grain D'Amour and Garcon have been arranging the platform under wall,
+        L.H.U.E., taking out dresses, cups, &amp;c. </stage>
+      </p>
      </sp>
      <sp who="#L0039_M11">
       <speaker>Grelu.</speaker>
@@ -868,7 +967,8 @@
      <sp who="#L0039_M13">
       <speaker>Bel.</speaker>
       <p><stage>(having been helped on with a cape coat)</stage> I am at your service. <stage>Exit
-       with Grelu, R.U.E. Hercules comes from gate of Hotel. </stage> </p>
+        with Grelu, R.U.E. Hercules comes from gate of Hotel. </stage>
+      </p>
      </sp>
      <sp who="#L0039_M4">
       <speaker>Her.</speaker>
@@ -891,16 +991,20 @@
      <sp who="#L0039_M4">
       <speaker>Her.</speaker>
       <p> Good bye, Count. <stage>Blangy exits, U.E.R.H. </stage><stage> Enter Flora from gateway.
-       </stage> </p>
+       </stage>
+      </p>
      </sp>
      <sp who="#L0039_F17">
       <speaker>Flora.</speaker>
-      <p> <stage>( L . )</stage> There he is. </p>
+      <p>
+       <stage>( L . )</stage> There he is. </p>
      </sp>
      <sp who="#L0039_M4">
       <speaker>Her.</speaker>
-      <p> <stage>(R.)</stage> There she is, there's the dancer.<stage> (bows, and is going in.)
-       </stage> </p>
+      <p>
+       <stage>(R.)</stage> There she is, there's the dancer.<stage> (bows, and is going in.)
+       </stage>
+      </p>
      </sp>
      <sp who="#L0039_F17">
       <speaker>Flora.</speaker>
@@ -909,7 +1013,8 @@
      <sp who="#L0039_M4">
       <speaker>Her.</speaker>
       <p> Frightened me!—no—yes—that is to say I—it was grand aunt who frightened me. I was afraid
-       that—<stage>(looks sheepish.)</stage> </p>
+        that—<stage>(looks sheepish.)</stage>
+      </p>
      </sp>
      <sp who="#L0039_F17">
       <speaker>Flora.</speaker>
@@ -953,11 +1058,13 @@
      </sp>
      <sp who="#L0039_F17">
       <speaker>Flora.</speaker>
-      <p> <stage>(R.)</stage> Will you run away with me? </p>
+      <p>
+       <stage>(R.)</stage> Will you run away with me? </p>
      </sp>
      <sp who="#L0039_M4">
       <speaker>Her.</speaker>
-      <p> <stage>(L.)</stage> Shouldn't I like, but I've got no horses. </p>
+      <p>
+       <stage>(L.)</stage> Shouldn't I like, but I've got no horses. </p>
      </sp>
      <sp who="#L0039_F17">
       <speaker>Flora.</speaker>
@@ -974,7 +1081,7 @@
      <sp who="#L0039_M4">
       <speaker>Her.</speaker>
       <p> Not quite, yet, but I think I shall be, before I get far on the road. <stage>Enter Jean
-       Joson, booted, and with whip, gateway. </stage></p>
+        Joson, booted, and with whip, gateway. </stage></p>
      </sp>
      <sp who="#L0039_M12">
       <speaker>Jean.</speaker>
@@ -986,17 +1093,20 @@
      </sp>
      <sp who="#L0039_F17">
       <speaker>Flora.</speaker>
-      <p> Come along.<stage> Exit, gateway</stage> </p>
+      <p> Come along.<stage> Exit, gateway</stage>
+      </p>
      </sp>
      <sp who="#L0039_F23">
       <speaker>Madlle. V.</speaker>
-      <p> <stage>(without)}</stage> Hercules—where is he?<stage> (appears at window over gateway of
-       Inn )</stage> Hercules! </p>
+      <p>
+       <stage>(without)}</stage> Hercules—where is he?<stage> (appears at window over gateway of Inn
+        )</stage> Hercules! </p>
      </sp>
      <sp who="#L0039_M4">
       <speaker>Her.</speaker>
       <p> I can't come, grand aunt, I'm going to travel with Mademoiselle.
-       <pb n="10"/> </p>
+       <pb n="10"/>
+      </p>
      </sp>
      <sp who="#L0039_F23">
       <speaker>Madlle. V.</speaker>
@@ -1005,8 +1115,9 @@
      <sp who="#L0039_M4">
       <speaker>Her.</speaker>
       <p> I'll dare Old Nick himself, for a pretty girl like her, so good bye, aunt. <stage>(runs
-       off, gateway, Mademoiselle screams, and disappears.)</stage> <stage> Music—A noise is heard
-       as of distant quarrelling, R.H.U.E. </stage><stage> Enter Madeline from gateway. </stage>
+        off, gateway, Mademoiselle screams, and disappears.)</stage>
+       <stage> Music—A noise is heard as of distant quarrelling, R.H.U.E. </stage><stage> Enter
+        Madeline from gateway. </stage>
       </p>
      </sp>
      <sp who="#L0039_F16">
@@ -1014,12 +1125,14 @@
       <p><stage>(looks off R.U.E.)</stage> Ah, heavens—what is this? a quarrel yonder, and my
        husband in the midst of those men—let me fly <stage>(about to go)</stage>; they come this
        way. <stage>Enter D E Blangy, the Chevalier Rollac, Belphegor, Grelu, and Peasants, U.E.R.H.
-       </stage> </p>
+       </stage>
+      </p>
      </sp>
      <sp who="#L0039_M11">
       <speaker>Grelu.</speaker>
       <p> Go, go all of you, and remain on your duty in the fields. <stage>Some of the Peasants
-       exit, R.H.U.E. </stage> </p>
+        exit, R.H.U.E. </stage>
+      </p>
      </sp>
      <sp who="#L0039_F16">
       <speaker>Mad.</speaker>
@@ -1031,11 +1144,13 @@
      </sp>
      <sp who="#L0039_M11">
       <speaker>Grelu.</speaker>
-      <p> <stage>(R.C.)</stage> You have borne yourself most bravely, Belphégor. </p>
+      <p>
+       <stage>(R.C.)</stage> You have borne yourself most bravely, Belphégor. </p>
      </sp>
      <sp who="#L0039_M7">
       <speaker>Rol.</speaker>
-      <p> Belphégor! it is the man I seek <stage>(aside.)</stage> </p>
+      <p> Belphégor! it is the man I seek <stage>(aside.)</stage>
+      </p>
      </sp>
      <sp who="#L0039_F16">
       <speaker>Mad.</speaker>
@@ -1098,12 +1213,14 @@
      </sp>
      <sp who="#L0039_M3">
       <speaker>Blangy.</speaker>
-      <p> <stage>(aside.)</stage> This is a brave fellow. </p>
+      <p>
+       <stage>(aside.)</stage> This is a brave fellow. </p>
      </sp>
      <sp who="#L0039_M13">
       <speaker>Bel.</speaker>
       <p> Well, well, here is my permit, let us prepare, Madeline. <stage>They go up as preparing
-       paraphernalia, and place them on a stand made by boards and tressels. </stage> </p>
+        paraphernalia, and place them on a stand made by boards and tressels. </stage>
+      </p>
      </sp>
      <sp who="#L0039_M7">
       <speaker>Rol.</speaker>
@@ -1116,11 +1233,13 @@
      </sp>
      <sp who="#L0039_M3">
       <speaker>Blangy.</speaker>
-      <p> <stage>(L.U.C.)</stage> Indeed! Lately, I believe, from America? </p>
+      <p>
+       <stage>(L.U.C.)</stage> Indeed! Lately, I believe, from America? </p>
      </sp>
      <sp who="#L0039_M7">
       <speaker>Rol.</speaker>
-      <p> <stage>( R.U.C. in embarrassment)</stage> Ye—yes. </p>
+      <p>
+       <stage>( R.U.C. in embarrassment)</stage> Ye—yes. </p>
      </sp>
      <sp who="#L0039_M3">
       <speaker>Blangy.</speaker>
@@ -1136,7 +1255,8 @@
      </sp>
      <sp who="#L0039_M7">
       <speaker>Rol.</speaker>
-      <p> <stage>(with hesitation)</stage> You—may </p>
+      <p>
+       <stage>(with hesitation)</stage> You—may </p>
      </sp>
      <sp who="#L0039_M3">
       <speaker>Blangy.</speaker>
@@ -1150,7 +1270,8 @@
       <speaker>Blangy.</speaker>
       <p> I am brother-in-law to the Marquis; and we have in this inn Mademoiselle de Vermandois,
        his aunt, with the young Vicomte his nephew—they will be happy to see you <stage>(going
-       up.)</stage> </p>
+        up.)</stage>
+      </p>
      </sp>
      <sp who="#L0039_M7">
       <speaker>Rol.</speaker>
@@ -1174,7 +1295,8 @@
      </sp>
      <sp who="#L0039_M3">
       <speaker>Blangy.</speaker>
-      <p> Ha! I will rejoin you on the instant.<stage> Exit gateway,R.H . </stage> </p>
+      <p> Ha! I will rejoin you on the instant.<stage> Exit gateway,R.H . </stage>
+      </p>
      </sp>
      <sp who="#L0039_M7">
       <speaker>Rol.</speaker>
@@ -1184,7 +1306,7 @@
        that must make my fortune, when I have rendered to the Montbazons this lost daughter; whom,
        by this writing, I have found. I shall then be rich; and, shielded by them, have nothing to
        fear from justice. My friend <stage>(to Belphegor, who is busy at his stand
-       preparing)</stage>—I would speak to you, my friend. </p>
+        preparing)</stage>—I would speak to you, my friend. </p>
      </sp>
      <sp who="#L0039_M13">
       <speaker>Bel.</speaker>
@@ -1212,7 +1334,8 @@
       <speaker>Rol.</speaker>
       <p> No matter which.—<stage>(looks on hand given)</stage> You were married about twelve years
        ago?
-       <pb n="12"/> </p>
+       <pb n="12"/>
+      </p>
      </sp>
      <sp who="#L0039_M13">
       <speaker>Bel.</speaker>
@@ -1251,15 +1374,17 @@
       <speaker>Rol.</speaker>
       <p> 'Tis true—in a moment I'll give you the proof. Here are some of the arrears of her
        fortune—a trifle—<stage>(gives the contents of a purse, which Belphegor turns quickly, and
-       counts)</stage>—await me here, and in an instant your doubts shall be
-       dissipated.—<stage>(going, and aside)</stage> Rollac, your fortune is secured.<stage> Exit
-       R.H.U.E. </stage> </p>
+        counts)</stage>—await me here, and in an instant your doubts shall be
+        dissipated.—<stage>(going, and aside)</stage> Rollac, your fortune is secured.<stage> Exit
+        R.H.U.E. </stage>
+      </p>
      </sp>
      <sp who="#L0039_M13">
       <speaker>Bel.</speaker>
       <p><stage>(stands as stupified)</stage> Madeline, Madeline! Henri—my children! Come here, come
        all— but come quickly. <stage>Enter Madeline and Children from Gateway, Belphegor, R.C.,
-       Madeline, L.H., with Jeanne and Henri each side. </stage> </p>
+        Madeline, L.H., with Jeanne and Henri each side. </stage>
+      </p>
      </sp>
      <sp who="#L0039_F16">
       <speaker>Mad.</speaker>
@@ -1267,9 +1392,8 @@
      </sp>
      <sp who="#L0039_M13">
       <speaker>Bel.</speaker>
-      <p> What have I <hi>got!</hi>—hold your hand<stage>(to Henri)</stage> . There! that's
-       what I've got<stage>(throws it in)</stage>—and that's nothing to what we are going to have.
-      </p>
+      <p> What have I <hi>got!</hi>—hold your hand<stage>(to Henri)</stage> . There! that's what
+       I've got<stage>(throws it in)</stage>—and that's nothing to what we are going to have. </p>
      </sp>
      <sp who="#L0039_M15">
       <speaker>Hen.</speaker>
@@ -1321,7 +1445,8 @@
      <sp who="#L0039_M13">
       <speaker>Bel.</speaker>
       <p> But—did you ever blush for me? Mad. No, no, William. But no more of suffering. We shall be
-       happy—oh, how happy! <stage>Re-enter Rollac, from gateway. </stage> </p>
+       happy—oh, how happy! <stage>Re-enter Rollac, from gateway. </stage>
+      </p>
      </sp>
      <sp who="#L0039_M7">
       <speaker>Rol.</speaker>
@@ -1333,14 +1458,17 @@
      </sp>
      <sp who="#L0039_M7">
       <speaker>Rol.</speaker>
-      <p> <stage>(C.)</stage> You are aware, Madame, that you were placed by an unknown hand in the
+      <p>
+       <stage>(C.)</stage> You are aware, Madame, that you were placed by an unknown hand in the
        care of your supposed father? That man was noble, but was compelled to join the army of the
        Condé without reclaiming you, as that of the Republic lay between you and him. In a few days
        they gave battle, and the Marquis, your father, was slain. </p>
      </sp>
      <sp who="#L0039_M13">
       <speaker>Bel.</speaker>
-      <p> <stage>(R.H.)</stage> There's a little Marquis.<stage> (swings Henri. ) </stage> </p>
+      <p>
+       <stage>(R.H.)</stage> There's a little Marquis.<stage> (swings Henri. ) </stage>
+      </p>
      </sp>
      <sp who="#L0039_M7">
       <speaker>Rol.</speaker>
@@ -1348,7 +1476,8 @@
      </sp>
      <sp who="#L0039_F16">
       <speaker>Mad.</speaker>
-      <p> <stage>(L.H.)</stage> You—my father's friend? </p>
+      <p>
+       <stage>(L.H.)</stage> You—my father's friend? </p>
      </sp>
      <sp who="#L0039_M7">
       <speaker>Rol.</speaker>
@@ -1368,7 +1497,8 @@
      <sp who="#L0039_M13">
       <speaker>Bel.</speaker>
       <p> As quick as you like, for we are rather anxious—but you are a Marquis, you little rogue.
-       <stage>(to Henri, and plays with him.)</stage> </p>
+        <stage>(to Henri, and plays with him.)</stage>
+      </p>
      </sp>
      <sp who="#L0039_F16">
       <speaker>Mad.</speaker>
@@ -1380,8 +1510,8 @@
      </sp>
      <sp who="#L0039_M13">
       <speaker>Bel.</speaker>
-      <p> Oh, no—we believe you. You are a Marquis, you little rogue. <stage>(to Henri.
-       )</stage> </p>
+      <p> Oh, no—we believe you. You are a Marquis, you little rogue. <stage>(to Henri. )</stage>
+      </p>
      </sp>
      <sp who="#L0039_M7">
       <speaker>Rol.</speaker>
@@ -1431,7 +1561,8 @@
      </sp>
      <sp who="#L0039_F16">
       <speaker>Mad.</speaker>
-      <p> Nay, William.<stage>(she removes them to a building, L.H. 2 E.)</stage> </p>
+      <p> Nay, William.<stage>(she removes them to a building, L.H. 2 E.)</stage>
+      </p>
      </sp>
      <sp who="#L0039_M13">
       <speaker>Bel.</speaker>
@@ -1442,7 +1573,8 @@
       <p> I think I can offer, on the part of the father of the late Marquis, this much:—She must no
        longer remain with you—she must be presented to the world as the widow of some foreign
        nobleman ———
-       <pb n="14"/> </p>
+       <pb n="14"/>
+      </p>
      </sp>
      <sp who="#L0039_F16">
       <speaker>Mad.</speaker>
@@ -1528,7 +1660,8 @@
      <sp who="#L0039_M7">
       <speaker>Rol.</speaker>
       <p> Will force you to deliver up one who belongs not to you— we shall see quickly.<stage> Exit
-       U.E.R.H. </stage> </p>
+        U.E.R.H. </stage>
+      </p>
      </sp>
      <sp who="#L0039_F16">
       <speaker>Mad.</speaker>
@@ -1547,7 +1680,8 @@
       <speaker>Bel.</speaker>
       <p> Be firm! tell me that ten men stand armed to slay me, and I'll be so, but they would bear
        you from me—all—you, Henri, my little Jeanne.
-       <pb n="15"/> </p>
+       <pb n="15"/>
+      </p>
      </sp>
      <sp who="#L0039_F16">
       <speaker>Mad.</speaker>
@@ -1571,7 +1705,8 @@
      </sp>
      <sp who="#L0039_M13">
       <speaker>Bel.</speaker>
-      <p> Grain D'Amour! <stage>Enter Grain D'Amour, from back. </stage> </p>
+      <p> Grain D'Amour! <stage>Enter Grain D'Amour, from back. </stage>
+      </p>
      </sp>
      <sp who="#L0039_M14">
       <speaker>Grain.</speaker>
@@ -1587,8 +1722,9 @@
      </sp>
      <sp who="#L0039_M13">
       <speaker>Bel.</speaker>
-      <p> Obey me—<stage>(D'Amour runs.)</stage> Henri! Jeanne! <stage>Enter Henriand Jeanne.
-       L. 2. E. </stage> </p>
+      <p> Obey me—<stage>(D'Amour runs.)</stage> Henri! Jeanne! <stage>Enter Henriand Jeanne. L. 2.
+        E. </stage>
+      </p>
      </sp>
      <sp who="#L0039_M15">
       <speaker>Hen.</speaker>
@@ -1597,8 +1733,9 @@
      <sp who="#L0039_M13">
       <speaker>Bel.</speaker>
       <p> Be speedy—prepare the things: we must fly the dresses, carpet—all in the chaise.
-       <stage>They throw the various things in, while Grain D'Amour, who has called Garcon, puts the
-       horse in chaise,—all aid. </stage> </p>
+        <stage>They throw the various things in, while Grain D'Amour, who has called Garcon, puts
+        the horse in chaise,—all aid. </stage>
+      </p>
      </sp>
      <sp who="#L0039_M13">
       <speaker>Bel.</speaker>
@@ -1623,7 +1760,8 @@
        these Louis; and, till he arrives here—it may not be for three days—retain all your horses,
        and those you can hire. Let them wait here in readiness. A heavy penalty falls on your
        master, if the Prince's orders be disobeyed. Serve him well. Here is for
-       yourself.<stage>(gives him money.)</stage> </p>
+        yourself.<stage>(gives him money.)</stage>
+      </p>
      </sp>
      <sp who="#L0039_M21">
       <speaker>Gar.</speaker>
@@ -1631,7 +1769,8 @@
      </sp>
      <sp who="#L0039_M13">
       <speaker>Bel.</speaker>
-      <p> Ready.<stage>(mounting.)</stage> </p>
+      <p> Ready.<stage>(mounting.)</stage>
+      </p>
      </sp>
      <sp who="#L0039_F16">
       <speaker>Mad.</speaker>
@@ -1673,8 +1812,10 @@
      </sp>
      <sp who="#L0039_M14">
       <speaker>Grain.</speaker>
-      <p> <stage>(L.H.)</stage> He was with me in the Square. He's coming up the back-stairs, I
-       think. <stage>Enter Henri, L.D. </stage> </p>
+      <p>
+       <stage>(L.H.)</stage> He was with me in the Square. He's coming up the back-stairs, I think.
+        <stage>Enter Henri, L.D. </stage>
+      </p>
      </sp>
      <sp who="#L0039_M15">
       <speaker>Hen.</speaker>
@@ -1701,30 +1842,35 @@
      <sp who="#L0039_M14">
       <speaker>Grain.</speaker>
       <p> Yes, master—I won't be two minutes. <stage>(begins to scrape a carrot with clumsiness, and
-       upside down.)</stage> </p>
+        upside down.)</stage>
+      </p>
      </sp>
      <sp who="#L0039_M13">
       <speaker>Bel.</speaker>
       <p> Ah, you stupid fool, do you think carrots will be scraped in that brutal manner—against
        the grain? How would you like it? Look here, Sir—take it thus<stage>(taking one from the
-       bundle)</stage>, between the thumb and fore-finger, and gently pass the knife over it in this
-       fashion, taking off its coat, but not wounding it. Go and lay the cloth—don't make a noise.
-      </p>
+        bundle)</stage>, between the thumb and fore-finger, and gently pass the knife over it in
+       this fashion, taking off its coat, but not wounding it. Go and lay the cloth—don't make a
+       noise. </p>
      </sp>
      <sp who="#L0039_M15">
       <speaker>Hen.</speaker>
-      <p> <stage>(R.H. by table.)</stage> Here it is.<stage> (covering table with cloth.) Grain
-       D'Amour takes the plates, from shelf, R. back, and lets one fall. </stage> </p>
+      <p>
+       <stage>(R.H. by table.)</stage> Here it is.<stage> (covering table with cloth.) Grain D'Amour
+        takes the plates, from shelf, R. back, and lets one fall. </stage>
+      </p>
      </sp>
      <sp who="#L0039_M13">
       <speaker>Bel.</speaker>
       <p> You stupid scoundrel, I told you not to make a noise, didnt I?<stage>(kicks him behind,
-       and Grain Damour lets the others fall.)</stage> </p>
+        and Grain Damour lets the others fall.)</stage>
+      </p>
      </sp>
      <sp who="#L0039_M15">
       <speaker>Hen.</speaker>
       <p> There goes the last.
-       <pb n="17"/> </p>
+       <pb n="17"/>
+      </p>
      </sp>
      <sp who="#L0039_M13">
       <speaker>Bel.</speaker>
@@ -1741,7 +1887,8 @@
      <sp who="#L0039_M13">
       <speaker>Bel.</speaker>
       <p> My poor boy, you have your mother's heart at sacrifice— embrace me. <stage>(as they
-       embrace,) Catherine enters, L.D. </stage> </p>
+        embrace,) Catherine enters, L.D. </stage>
+      </p>
      </sp>
      <sp who="#L0039_F18">
       <speaker>Cath.</speaker>
@@ -1754,7 +1901,8 @@
      </sp>
      <sp who="#L0039_F18">
       <speaker>Cath.</speaker>
-      <p> Oh you flatter me—but Madeline <stage>(looks about.)</stage> </p>
+      <p> Oh you flatter me—but Madeline <stage>(looks about.)</stage>
+      </p>
      </sp>
      <sp who="#L0039_M13">
       <speaker>Bel.</speaker>
@@ -1762,7 +1910,9 @@
      </sp>
      <sp who="#L0039_M15">
       <speaker>Henri.</speaker>
-      <p> <stage>(goes up, L.H., prepares dinner.)</stage> </p>
+      <p>
+       <stage>(goes up, L.H., prepares dinner.)</stage>
+      </p>
      </sp>
      <sp who="#L0039_F18">
       <speaker>Cath.</speaker>
@@ -1771,7 +1921,8 @@
      <sp who="#L0039_M13">
       <speaker>Bel.</speaker>
       <p> Her hands, you know, are so small and delicate. Have you ever observed what dear little
-       fingers my wife has?<stage>(sits by fire making soup and cutting bread.)</stage> </p>
+       fingers my wife has?<stage>(sits by fire making soup and cutting bread.)</stage>
+      </p>
      </sp>
      <sp who="#L0039_F18">
       <speaker>Cath.</speaker>
@@ -1796,11 +1947,11 @@
      <sp who="#L0039_M13">
       <speaker>Bel.</speaker>
       <p> I'll break your head some day<stage>(threatens, then gives him money)</stage>—go
-       along.<stage>(taking him by the ear, Grain D'Amour exits, L.D.)</stage> — Henri, I hear your
+        along.<stage>(taking him by the ear, Grain D'Amour exits, L.D.)</stage> — Henri, I hear your
        mother—go, step and see if she wants anything. <stage>( Henriruns into Madeline'S
-       room.)</stage> A fine boy that, though I say it—a heart of gold and muscles of steel. Well, I
-       hope my wife and little one are a little recovered from our long journey —right across France
-       to Angouléme, here, so quick to. </p>
+        room.)</stage> A fine boy that, though I say it—a heart of gold and muscles of steel. Well,
+       I hope my wife and little one are a little recovered from our long journey —right across
+       France to Angouléme, here, so quick to. </p>
      </sp>
      <sp who="#L0039_F18">
       <speaker>Cath.</speaker>
@@ -1809,9 +1960,9 @@
      <sp who="#L0039_M13">
       <speaker>Bel.</speaker>
       <p> Oh, it wasn't the haste to arrive—it was the haste to fly. <stage>(Catherine
-       starts.)</stage> Oh, don't be alarmed—I have not stolen anything. On the contrary, they
+        starts.)</stage> Oh, don't be alarmed—I have not stolen anything. On the contrary, they
        wanted to steal from me<stage>(tasting soup)</stage>—Oh, when I think, if I dared <stage>(in
-       a passion)</stage> but excuse me—these things don't interest you. </p>
+        a passion)</stage> but excuse me—these things don't interest you. </p>
      </sp>
      <sp who="#L0039_F18">
       <speaker>Cath.</speaker>
@@ -1826,13 +1977,14 @@
        in <hi>their</hi> love for him; in eating with a sweet relish the bread one has earned. You
        can say as much to my wife if you like<stage>(winks)</stage>, when you are alone you know.
        All women listen to what others tell them.
-       <pb n="18"/> </p>
+       <pb n="18"/>
+      </p>
      </sp>
      <sp who="#L0039_F18">
       <speaker>Cath.</speaker>
       <p> Oh fear not that, Madeline cares for your poverty, she must be ungrateful, indeed, to have
        one regret with so good a husband <stage>(Belphegor has gone up to the fireplace, and is
-       attending to the pot). </stage> What can she desire? </p>
+        attending to the pot). </stage> What can she desire? </p>
      </sp>
      <sp who="#L0039_M13">
       <speaker>Bel.</speaker>
@@ -1846,9 +1998,10 @@
       <speaker>Bel.</speaker>
       <p> Yes, but what sort of soup? Rich people, I'm afraid, make their soup very differently to
        mine, and they don't live upon soup. <stage>(pouring the soup on the bread.)</stage>
-       <stage>Enter Madeline and Henri, R.D.</stage> —They eat all sorts of things, all sorts
-       of ways—and at all times of the day. <stage>(whistles, having burnt his fingers, pouring the
-       soup.)</stage> </p>
+       <stage>Enter Madeline and Henri, R.D.</stage> —They eat all sorts of things, all sorts of
+       ways—and at all times of the day. <stage>(whistles, having burnt his fingers, pouring the
+        soup.)</stage>
+      </p>
      </sp>
      <sp who="#L0039_F18">
       <speaker>Cath.</speaker>
@@ -1860,8 +2013,9 @@
      </sp>
      <sp who="#L0039_M13">
       <speaker>Bel.</speaker>
-      <p> Arn't you any better, my pet?<stage>(kindly.)</stage> <stage>Enter Grain D'Amour, D. with
-       a bottle of wine. </stage> </p>
+      <p> Arn't you any better, my pet?<stage>(kindly.)</stage>
+       <stage>Enter Grain D'Amour, D. with a bottle of wine. </stage>
+      </p>
      </sp>
      <sp who="#L0039_F16">
       <speaker>Mad.</speaker>
@@ -1885,7 +2039,7 @@
      <sp who="#L0039_M13">
       <speaker>Bel.</speaker>
       <p><stage>(helps Grain to soup, winks at Catherine)</stage> Don't forget <stage>(having served
-       Madeline, and the rest)</stage>—I say, my dear, you don't eat? </p>
+        Madeline, and the rest)</stage>—I say, my dear, you don't eat? </p>
      </sp>
      <sp who="#L0039_F16">
       <speaker>Mad.</speaker>
@@ -1905,7 +2059,8 @@
      </sp>
      <sp who="#L0039_F16">
       <speaker>Mad.</speaker>
-      <p> I cannot.<stage>(having essayed to eat, but cannot.)</stage> </p>
+      <p> I cannot.<stage>(having essayed to eat, but cannot.)</stage>
+      </p>
      </sp>
      <sp who="#L0039_M13">
       <speaker>Bel.</speaker>
@@ -1923,11 +2078,13 @@
      </sp>
      <sp who="#L0039_F16">
       <speaker>Mad.</speaker>
-      <p> William, the soup was never better.<stage>(rises.)</stage> </p>
+      <p> William, the soup was never better.<stage>(rises.)</stage>
+      </p>
      </sp>
      <sp who="#L0039_M13">
       <speaker>Bel.</speaker>
-      <p> No, my dear, I don't think it was.<stage> (about to eat.) </stage> </p>
+      <p> No, my dear, I don't think it was.<stage> (about to eat.) </stage>
+      </p>
      </sp>
      <sp who="#L0039_F16">
       <speaker>Mad.</speaker>
@@ -1936,7 +2093,8 @@
      <sp who="#L0039_M13">
       <speaker>Bel.</speaker>
       <p> Nor I either. Well, we'll be off to work. Grain D'Amour? <stage>(rises C., puts on his
-       coat.)</stage> </p>
+        coat.)</stage>
+      </p>
      </sp>
      <sp who="#L0039_M14">
       <speaker>Grain.</speaker>
@@ -1945,17 +2103,19 @@
      <sp who="#L0039_M13">
       <speaker>Bel.</speaker>
       <p> I'm going to commence <stage>(Grain D'Amour gets up, looking at the table with
-       grief).</stage> Henri, get the trumpet. </p>
+        grief).</stage> Henri, get the trumpet. </p>
      </sp>
      <sp who="#L0039_M15">
       <speaker>Hen.</speaker>
-      <p> Yes, father.<stage>(gets it.)</stage> </p>
+      <p> Yes, father.<stage>(gets it.)</stage>
+      </p>
      </sp>
      <sp who="#L0039_M13">
       <speaker>Bel.</speaker>
       <p> The carpet, my balancing chair, sabres, my tow, my goblets <stage>( Henribrings
-       all)</stage>. Have you got the hoop, Grain D'Amour?
-       <pb n="19"/> </p>
+        all)</stage>. Have you got the hoop, Grain D'Amour?
+       <pb n="19"/>
+      </p>
      </sp>
      <sp who="#L0039_M14">
       <speaker>Grain.</speaker>
@@ -1986,7 +2146,8 @@
      </sp>
      <sp who="#L0039_F16">
       <speaker>Mad.</speaker>
-      <p> Dear boy. <stage>(embraces and kisses him.)</stage> </p>
+      <p> Dear boy. <stage>(embraces and kisses him.)</stage>
+      </p>
      </sp>
      <sp who="#L0039_M13">
       <speaker>Bel.</speaker>
@@ -2006,8 +2167,9 @@
      </sp>
      <sp who="#L0039_M13">
       <speaker>Bel.</speaker>
-      <p> Adieu—<stage>(as he turns back to say this, he hits Grain D'Amour with the chair at
-       his back, by accident). </stage> </p>
+      <p> Adieu—<stage>(as he turns back to say this, he hits Grain D'Amour with the chair at his
+        back, by accident). </stage>
+      </p>
      </sp>
      <sp who="#L0039_M14">
       <speaker>Grain.</speaker>
@@ -2016,7 +2178,8 @@
      <sp who="#L0039_M13">
       <speaker>Bel.</speaker>
       <p> You stupid rascal, why don't you look where you're going? <stage>They exit, R.D.U.E.
-       </stage> </p>
+       </stage>
+      </p>
      </sp>
      <sp who="#L0039_F16">
       <speaker>Mad.</speaker>
@@ -2041,7 +2204,8 @@
      </sp>
      <sp who="#L0039_F16">
       <speaker>Mad.</speaker>
-      <p> Ten francs! My poor girl.<stage>(weeps.)</stage> </p>
+      <p> Ten francs! My poor girl.<stage>(weeps.)</stage>
+      </p>
      </sp>
      <sp who="#L0039_F18">
       <speaker>Cath.</speaker>
@@ -2055,7 +2219,7 @@
      <sp who="#L0039_F18">
       <speaker>Cath.</speaker>
       <p> I know, I know.—<stage>(aside)</stage> She is right, but I must not neglect my
-       promise.—<stage>(aloud)</stage> But you'll not deny that the rich, in comparison with the
+        promise.—<stage>(aloud)</stage> But you'll not deny that the rich, in comparison with the
        poor, have got much to aid them—happy partners, healthy children: or, if sickly by chance,
        they have the means of restoration in their hands. When grown up, they can leave them
        fortunes—marry them to friends, wealthy gentlemen. Now, you are a kind mother—love your
@@ -2083,7 +2247,8 @@
      <sp who="#L0039_F16">
       <speaker>Mad.</speaker>
       <p> Discovered! Oh! did my husband know this. Cath. 'Tis he who has spoken to me about you.
-       <stage>Rollac appears at the door, L.H. </stage> </p>
+        <stage>Rollac appears at the door, L.H. </stage>
+      </p>
      </sp>
      <sp who="#L0039_F16">
       <speaker>Mad.</speaker>
@@ -2095,12 +2260,14 @@
      </sp>
      <sp who="#L0039_F16">
       <speaker>Mad.</speaker>
-      <p> Here! <stage>Chevalier de Rollac advances. </stage> </p>
+      <p> Here! <stage>Chevalier de Rollac advances. </stage>
+      </p>
      </sp>
      <sp who="#L0039_M7">
       <speaker>Rol.</speaker>
-      <p> <stage>(to Catherine, C.)</stage> Leave us. <stage>(Catherine exits, L.H.)</stage> Madame
-       you behold me here a second time to salute the heritress of one of the proudest names of
+      <p>
+       <stage>(to Catherine, C.)</stage> Leave us. <stage>(Catherine exits, L.H.)</stage> Madame you
+       behold me here a second time to salute the heritress of one of the proudest names of
        France—the daughter of the Marquis de Montbazon. </p>
      </sp>
      <sp who="#L0039_F16">
@@ -2172,30 +2339,33 @@
      <sp who="#L0039_F16">
       <speaker>Mad.</speaker>
       <p> It is too much! Heaven support me in this heavy trial— this sad heart test—<stage>(a loud
-       noise is heard of the drum and trumpet; clapping of hands and murmurs; she runs to the window
-       and looks out.)</stage> He is there—William! ah!<stage>(utters a cry)</stage> you will kill
-       the child! <stage>(noise of distant bravoes.)</stage> No, no—he laughs at his peril. William
-       receives him in his arms—he embraces him. Their eyes are raised to this window—to me—they
-       waft their kisses hither—again—still, for ever, <hi>my</hi> love.—<stage>(as she motions her
-       hand to them)</stage> You may retire, Sir. Your words made my heart waver for an instant—but
-       'tis again itself. I am Madeline, daughter of the workman. I am not the child of those great
-       ones you name—who rememeber me only because they want a name to their race, and a drop added
-       to their high blood.—Go!<stage>(with disgust and determination.)</stage> </p>
+        noise is heard of the drum and trumpet; clapping of hands and murmurs; she runs to the
+        window and looks out.)</stage> He is there—William! ah!<stage>(utters a cry)</stage> you
+       will kill the child! <stage>(noise of distant bravoes.)</stage> No, no—he laughs at his
+       peril. William receives him in his arms—he embraces him. Their eyes are raised to this
+       window—to me—they waft their kisses hither—again—still, for ever, <hi>my</hi>
+        love.—<stage>(as she motions her hand to them)</stage> You may retire, Sir. Your words made
+       my heart waver for an instant—but 'tis again itself. I am Madeline, daughter of the workman.
+       I am not the child of those great ones you name—who rememeber me only because they want a
+       name to their race, and a drop added to their high blood.—Go!<stage>(with disgust and
+        determination.)</stage>
+      </p>
      </sp>
      <sp who="#L0039_M7">
       <speaker>Rol.</speaker>
       <p><stage>(aside)</stage> I go, to return quickly, and not again to fail.—
-       <stage>(aloud.)</stage> Madame, adieu.<stage> Exits L.H. </stage> </p>
+        <stage>(aloud.)</stage> Madame, adieu.<stage> Exits L.H. </stage>
+      </p>
      </sp>
      <sp who="#L0039_F16">
       <speaker>Mad.</speaker>
       <p> Yes, heaven judges and approves my act—but my child —she sleeps—the doctor—but, ten
-       francs<stage>(counts money)</stage> five, six, and the sous—seven francs, it is all we have
+        francs<stage>(counts money)</stage> five, six, and the sous—seven francs, it is all we have
        for our rent. No, I must not dream of it. <stage>Enter Belphegor, does not see Madeline.
        </stage> A man passed me on the dark stairs, who turned his face away in agitation, I feel in
        a cold sweat all over. I fancied it was—but pshaw! my fears deceived me, I dare say—if it
-       were<stage>(his eye falling suddenly upon his sword he has in his hand)</stage> Ha, if it
-       <hi> was</hi> him! </p>
+        were<stage>(his eye falling suddenly upon his sword he has in his hand)</stage> Ha, if it
+        <hi> was</hi> him! </p>
      </sp>
      <sp who="#L0039_F16">
       <speaker>Mad.</speaker>
@@ -2227,7 +2397,8 @@
      </sp>
      <sp who="#L0039_M13">
       <speaker>Bel.</speaker>
-      <p> Henri!<stage>(musing.)</stage> </p>
+      <p> Henri!<stage>(musing.)</stage>
+      </p>
      </sp>
      <sp who="#L0039_F16">
       <speaker>Mad.</speaker>
@@ -2307,7 +2478,7 @@
        mad. A man but now passed me on the stairs—in the darkness I could not recognize him—he
        turned from me and fled. I feel enraged, but against myself—that I cannot make you happy as I
        would <stage>(Madeline sighs)</stage>.} Ah, that sigh—it is for me—your pardon<stage>(she
-       turns to him)</stage>. Not yet, not yet—till I am at your feet—your hands in mine. I am
+        turns to him)</stage>. Not yet, not yet—till I am at your feet—your hands in mine. I am
        forgiven? </p>
      </sp>
      <sp who="#L0039_F16">
@@ -2348,7 +2519,8 @@
      </sp>
      <sp who="#L0039_F16">
       <speaker>Mad.</speaker>
-      <p> No, no—thanks, William, thanks.<stage>(going quickly up the stage.)</stage> </p>
+      <p> No, no—thanks, William, thanks.<stage>(going quickly up the stage.)</stage>
+      </p>
      </sp>
      <sp who="#L0039_M13">
       <speaker>Bel.</speaker>
@@ -2357,7 +2529,8 @@
      <sp who="#L0039_F16">
       <speaker>Mad.</speaker>
       <p> In search of my bonnet<stage>(aside)</stage> for advice for my child. <stage>Exit R.H.
-       </stage> </p>
+       </stage>
+      </p>
      </sp>
      <sp who="#L0039_M13">
       <speaker>Bel.</speaker>
@@ -2365,12 +2538,14 @@
        little shawl. I've ten francs in the corner of my pocket-handkerchief, that I've saved up for
        a new hat and a new pair of boots—for my hat's not the best<stage>(looks at it)</stage>, and
        my books are a couple, but no longer a pair in size or quality. <stage>Enter Catherine.
-       </stage> </p>
+       </stage>
+      </p>
      </sp>
      <sp who="#L0039_F18">
       <speaker>Cath.</speaker>
       <p> What, returned already!
-       <pb n="23"/> </p>
+       <pb n="23"/>
+      </p>
      </sp>
      <sp who="#L0039_M13">
       <speaker>Bel.</speaker>
@@ -2404,8 +2579,10 @@
      </sp>
      <sp who="#L0039_F18">
       <speaker>Cath.</speaker>
-      <p> You can get a tolerably good one, if you go to about fifteen hundred francs. </p></sp>
-<sp who="#L0039_M13"><p><stage>(quite aghast)</stage> Fifteen hundred francs! </p>
+      <p> You can get a tolerably good one, if you go to about fifteen hundred francs. </p>
+     </sp>
+     <sp who="#L0039_M13">
+      <p><stage>(quite aghast)</stage> Fifteen hundred francs! </p>
      </sp>
      <sp who="#L0039_F18">
       <speaker>Cath.</speaker>
@@ -2425,14 +2602,16 @@
       <speaker>Bel.</speaker>
       <p> But is a woollen shawl very pretty, showy, and is it always in fashion? What a fool I am,
        I recollect my wife always prefers woollen shawls—good bye,
-       Catherine!<stage>(going—returns)</stage> As my wife knows nothing about shawls that cost
+        Catherine!<stage>(going—returns)</stage> As my wife knows nothing about shawls that cost
        fifteen hundred francs, you'd better not mention them, she might not like the joke, you know,
-       its all very well between ourselves.<stage> Exit. </stage> </p>
+       its all very well between ourselves.<stage> Exit. </stage>
+      </p>
      </sp>
      <sp who="#L0039_F18">
       <speaker>Cath.</speaker>
       <p> Very odd! I do not like giving this poor fellow pain; but 'tis for Madeline's
-       happiness—ah, she comes! <stage>Enter Madeline and Doctor. </stage> </p>
+       happiness—ah, she comes! <stage>Enter Madeline and Doctor. </stage>
+      </p>
      </sp>
      <sp who="#L0039_F16">
       <speaker>Mad.</speaker>
@@ -2453,7 +2632,8 @@
      </sp>
      <sp who="#L0039_F16">
       <speaker>Mad.</speaker>
-      <p> I am, Sir; but pardon me<stage>(offers money.)</stage> </p>
+      <p> I am, Sir; but pardon me<stage>(offers money.)</stage>
+      </p>
      </sp>
      <sp who="#L0039_M8">
       <speaker>Doc.</speaker>
@@ -2498,7 +2678,8 @@
      </sp>
      <sp who="#L0039_F16">
       <speaker>Mad.</speaker>
-      <p> <stage>(to her)</stage> No—no. </p>
+      <p>
+       <stage>(to her)</stage> No—no. </p>
      </sp>
      <sp who="#L0039_M8">
       <speaker>Doc.</speaker>
@@ -2506,7 +2687,8 @@
        <pb n="24"/> child, tend it night and day, indulge its weak frame in soothing rest, with her
        eye ever on the trembling balance of its little life— could consult <hi>the</hi> best skill
        of Paris—give it the air of the Pyrenees, the sun of Italy <stage>Rollac and De Blangy appear
-       at door. </stage> </p>
+        at door. </stage>
+      </p>
      </sp>
      <sp who="#L0039_F16">
       <speaker>Mad.</speaker>
@@ -2523,7 +2705,8 @@
      <sp who="#L0039_M8">
       <speaker>Doc.</speaker>
       <p> I fear she is lost to you; but did you say her family was rich? <stage>Rollac and De
-       Blangy advance. </stage> </p>
+        Blangy advance. </stage>
+      </p>
      </sp>
      <sp who="#L0039_M7">
       <speaker>Rol.</speaker>
@@ -2567,17 +2750,21 @@
      <sp who="#L0039_M8">
       <speaker>Doc.</speaker>
       <p> That I have spoken the truth alone.<stage>(she indicates the chamber, the Doctor and
-       Rollac Enter and returns with Jeanne.)</stage> </p>
+        Rollac Enter and returns with Jeanne.)</stage>
+      </p>
      </sp>
      <sp who="#L0039_F18">
       <speaker>Cath.</speaker>
       <p> Take it by the side door into the gallery and you will be soon in the street.<stage> Exit
-       Rollac, the Doctor, and Catherine. </stage> </p>
+        Rollac, the Doctor, and Catherine. </stage>
+      </p>
      </sp>
      <sp who="#L0039_F16">
       <speaker>Mad.</speaker>
-      <p> <stage>(to Blangy.)</stage> You read in my face the agony of my heart. <stage>(goes
-       up.)</stage> </p>
+      <p>
+       <stage>(to Blangy.)</stage> You read in my face the agony of my heart. <stage>(goes
+        up.)</stage>
+      </p>
      </sp>
      <sp who="#L0039_M3">
       <speaker>Blan.</speaker>
@@ -2598,34 +2785,41 @@
      </sp>
      <sp who="#L0039_F16">
       <speaker>Mad.</speaker>
-      <p> <stage>(to Catherine who Enters.)</stage> Catherine, explain to him, say I still love
+      <p>
+       <stage>(to Catherine who Enters.)</stage> Catherine, explain to him, say I still love
        him—that 'tis not for long—that he must pardon—but I could not bear to see my child sink day
        by day, dying before my eyes, for that aid, which one word from me would procure, tell my
        husband that, and say that it shall not be for long; I leave him but to save his child.
-       <stage>Blangy, Madeline, and Catherine Exit</stage> <stage>Pause—then Enter Belphegor, R.U.E.
-       and Henri, Belphegor has a red and blue shawl on his arm. </stage> </p>
+        <stage>Blangy, Madeline, and Catherine Exit</stage>
+       <stage>Pause—then Enter Belphegor, R.U.E. and Henri, Belphegor has a red and blue shawl on
+        his arm. </stage>
+      </p>
      </sp>
      <sp who="#L0039_M13">
       <speaker>Bel.</speaker>
       <p> Here we are!—no one here, I'm glad of that—as we shall have some fun in the surprise. I
-       think this is the thing to make your mother happy.<stage>(discovers the shawl.)</stage> </p>
+       think this is the thing to make your mother happy.<stage>(discovers the shawl.)</stage>
+      </p>
      </sp>
      <sp who="#L0039_M15">
       <speaker>Henri.</speaker>
       <p> And this will make sister happy, I bought this with the sous you gave me. <stage>(exhibits
-       a little trumpet—blows it.) </stage> </p>
+        a little trumpet—blows it.) </stage>
+      </p>
      </sp>
      <sp who="#L0039_M13">
       <speaker>Bel.</speaker>
       <p> Stand out of the way, boy, while I examine it and see how the colours catch the eye
-       <stage>(displays it on a chair, and walks round admiringly)</stage> splendid! magnificent!
-       <stage>(rubs his hands)</stage> I’m as happy as my wife will be when she sees it. Go, and
+        <stage>(displays it on a chair, and walks round admiringly)</stage> splendid! magnificent!
+        <stage>(rubs his hands)</stage> I’m as happy as my wife will be when she sees it. Go, and
        look after your mother. <stage>Henri runs into Madeline’s chamber, R.U.E. as Catherine
-       Enters.</stage> </p>
+        Enters.</stage>
+      </p>
      </sp>
      <sp who="#L0039_F18">
       <speaker>Cath.</speaker>
-      <p> <stage>(aside.)</stage> She is gone. </p>
+      <p>
+       <stage>(aside.)</stage> She is gone. </p>
      </sp>
      <sp who="#L0039_M13">
       <speaker>Bel.</speaker>
@@ -2665,23 +2859,28 @@
      </sp>
      <sp who="#L0039_M13">
       <speaker>Bel.</speaker>
-      <p> Gone—my child! <stage>(rushes into room.)</stage> </p>
+      <p> Gone—my child! <stage>(rushes into room.)</stage>
+      </p>
      </sp>
      <sp who="#L0039_F18">
       <speaker>Cath.</speaker>
-      <p> <stage>(puts a purse into Henri’s hand) </stage>Take this, boy, you will give it to your
+      <p>
+       <stage>(puts a purse into Henri’s hand) </stage>Take this, boy, you will give it to your
        father, say ’tis from your mother, who, weeping, bade . me embrace you for her.
-       <stage>(aside)</stage> I have not courage to stay— adieu !<stage> Exit. </stage> </p>
+        <stage>(aside)</stage> I have not courage to stay— adieu !<stage> Exit. </stage>
+      </p>
      </sp>
      <sp who="#L0039_M15">
       <speaker>Hen.</speaker>
-      <p> <stage>(with tears)</stage> But why has she left us? Father!—father! <stage>as he runs up,
-       he stops, fear-struck, before the looks of Belphegor, who re-enters wildly</stage> </p>
+      <p>
+       <stage>(with tears)</stage> But why has she left us? Father!—father! <stage>as he runs up, he
+        stops, fear-struck, before the looks of Belphegor, who re-enters wildly</stage>
+      </p>
      </sp>
      <sp who="#L0039_M13">
       <speaker>Bel.</speaker>
       <p><stage> (holding a scrap of paper.)</stage> Am I awake, or am I mad?
-       <stage>(reads.)</stage> “ William, adieu! pardon me!” </p>
+        <stage>(reads.)</stage> “ William, adieu! pardon me!” </p>
      </sp>
      <sp who="#L0039_M15">
       <speaker>Hen.</speaker>
@@ -2701,7 +2900,8 @@
       <p> Weep not, boy—she has gone to her family, we are not of it; but she might have left me
        mine—my little one!—ah, Henri! embrace me! come to my else desolate heart—I have no more than
        you in the world <stage>(with wildness)</stage> I suffocate, tell me, boy—you can tell me—do
-       I die? <stage>(sinks into chair.) </stage> </p>
+       I die? <stage>(sinks into chair.) </stage>
+      </p>
      </sp>
      <sp who="#L0039_M15">
       <speaker>Hen.</speaker>
@@ -2710,8 +2910,9 @@
      </sp>
      <sp who="#L0039_M13">
       <speaker>Bel.</speaker>
-      <p> <stage>(with desperate energy)</stage> Boy! Henri! curse no one!—on our knees, and pray
-       that we may bear this heavy blow—and pray, too, for her——for her. </p>
+      <p>
+       <stage>(with desperate energy)</stage> Boy! Henri! curse no one!—on our knees, and pray that
+       we may bear this heavy blow—and pray, too, for her——for her. </p>
      </sp>
      <trailer>Tableau — End Of Act Ii</trailer>
     </div>
@@ -2728,8 +2929,10 @@
 
     <sp who="#L0039_M1">
      <speaker>Duke.</speaker>
-     <p> <stage>(L.H.)</stage> Inform my nephew, that his uncle, would have some words with
-      him.<stage>(to Servant who precedes them—Servant bows and exits.)</stage> </p>
+     <p>
+      <stage>(L.H.)</stage> Inform my nephew, that his uncle, would have some words with
+       him.<stage>(to Servant who precedes them—Servant bows and exits.)</stage>
+     </p>
     </sp>
     <sp who="#L0039_M2">
      <speaker>Cour.</speaker>
@@ -2761,7 +2964,8 @@
     </sp>
     <sp who="#L0039_M4">
      <speaker>Her.</speaker>
-     <p> Of—of—I hope he does not suspect it was Flora. <stage>(aside.)</stage> </p>
+     <p> Of—of—I hope he does not suspect it was Flora. <stage>(aside.)</stage>
+     </p>
     </sp>
     <sp who="#L0039_M1">
      <speaker>Duke.</speaker>
@@ -2790,7 +2994,8 @@
     <sp who="#L0039_M1">
      <speaker>Duke.</speaker>
      <p> Go and request the professor to come to me, or any person you find in my nephew's
-      apartment.<stage>(to one of his attendants, who exits, R.H.)</stage> </p>
+       apartment.<stage>(to one of his attendants, who exits, R.H.)</stage>
+     </p>
     </sp>
     <sp who="#L0039_M4">
      <speaker>Her.</speaker>
@@ -2816,12 +3021,14 @@
     </sp>
     <sp who="#L0039_M4">
      <speaker>Her.</speaker>
-     <p> I'm done for.<stage>(aside.)</stage> </p>
+     <p> I'm done for.<stage>(aside.)</stage>
+     </p>
     </sp>
     <sp who="#L0039_F17">
      <speaker>Flora.</speaker>
      <p> Good gracious, who are these?
-      <pb n="27"/> </p>
+      <pb n="27"/>
+     </p>
     </sp>
     <sp who="#L0039_M1">
      <speaker>Duke.</speaker>
@@ -2834,11 +3041,13 @@
     </sp>
     <sp who="#L0039_M2">
      <speaker>Cour.</speaker>
-     <p> Why absolutely, 'tis the dancer.<stage>(stares.)</stage> </p>
+     <p> Why absolutely, 'tis the dancer.<stage>(stares.)</stage>
+     </p>
     </sp>
     <sp who="#L0039_F17">
      <speaker>Flora.</speaker>
-     <p> At your service.<stage>(curtsies.)</stage> </p>
+     <p> At your service.<stage>(curtsies.)</stage>
+     </p>
     </sp>
     <sp who="#L0039_M1">
      <speaker>Duke.</speaker>
@@ -2846,7 +3055,8 @@
     </sp>
     <sp who="#L0039_M4">
      <speaker>Her.</speaker>
-     <p> Of grace, uncle, of grace.<stage>(pirouettes.)</stage> </p>
+     <p> Of grace, uncle, of grace.<stage>(pirouettes.)</stage>
+     </p>
     </sp>
     <sp who="#L0039_M1">
      <speaker>Duke.</speaker>
@@ -2858,7 +3068,8 @@
     </sp>
     <sp who="#L0039_M1">
      <speaker>Duke.</speaker>
-     <p> And now tell me, what are your views towards my nephew.<stage>(aside to her.)</stage> </p>
+     <p> And now tell me, what are your views towards my nephew.<stage>(aside to her.)</stage>
+     </p>
     </sp>
     <sp who="#L0039_F17">
      <speaker>Flora.</speaker>
@@ -2874,7 +3085,8 @@
      <speaker>Flora.</speaker>
      <p> Oh, if you think so, you are very much deceived; for though but a dancer, as that gentleman
       observes, I have too much care for myself than to play the fool with such a fool as your
-      nephew, believe me. Good day, most noble Duke De Montbazon. <stage>Exit R. </stage> </p>
+      nephew, believe me. Good day, most noble Duke De Montbazon. <stage>Exit R. </stage>
+     </p>
     </sp>
     <sp who="#L0039_M1">
      <speaker>Duke.</speaker>
@@ -2882,7 +3094,8 @@
     </sp>
     <sp who="#L0039_M5">
      <speaker>Judge.</speaker>
-     <p> Sense—that's the word. <stage>Enter De Blangy, C. </stage> </p>
+     <p> Sense—that's the word. <stage>Enter De Blangy, C. </stage>
+     </p>
     </sp>
     <sp who="#L0039_M3">
      <speaker>Blan.</speaker>
@@ -2936,12 +3149,14 @@
       <pb n="28"/> Tomorrow, the Count d'Artois will be in Bordeaux, and I shall myself personally
       entreat his favour and power to quit us of this Belphegor. Hercules, adieu. Remember you are
       now without patrimony, and, if you wish continuance of my favour and protection, respect your
-      cousin Madeline. Now, gentlemen, to horse.<stage> They exit C. </stage> </p>
+      cousin Madeline. Now, gentlemen, to horse.<stage> They exit C. </stage>
+     </p>
     </sp>
     <sp who="#L0039_M4">
      <speaker>Her.</speaker>
      <p> Pleasant, to be robbed of one's rights by the wife of a mountebank, upon my word.
-      <stage>Re-enter Flora, R.</stage> </p>
+       <stage>Re-enter Flora, R.</stage>
+     </p>
     </sp>
     <sp who="#L0039_F17">
      <speaker>Flora.</speaker>
@@ -2984,7 +3199,8 @@
     <sp who="#L0039_M4">
      <speaker>Her.</speaker>
      <p> That's doubly personal. <stage>Enter Beaumesnil as Harlequin, very fat, Duperon as
-      Polichinello, Fanny, Anastasie, and masqueraders, C. </stage> </p>
+       Polichinello, Fanny, Anastasie, and masqueraders, C. </stage>
+     </p>
     </sp>
     <sp who="#L0039_M9">
      <speaker>Beau.</speaker>
@@ -3000,11 +3216,13 @@
     </sp>
     <sp who="#L0039_mult">
      <speaker>All.</speaker>
-     <p> Oh, Mademoiselle.<stage>(they bow.)</stage> </p>
+     <p> Oh, Mademoiselle.<stage>(they bow.)</stage>
+     </p>
     </sp>
     <sp who="#L0039_F17">
      <speaker>Flora.</speaker>
-     <p> Welcome—welcome all!<stage>(noise of laughter, U.E.L.H.)</stage> </p>
+     <p> Welcome—welcome all!<stage>(noise of laughter, U.E.L.H.)</stage>
+     </p>
     </sp>
     <sp who="#L0039_F19">
      <speaker>Anas.</speaker>
@@ -3030,7 +3248,8 @@
     <sp who="#L0039_M9">
      <speaker>Beau.</speaker>
      <p> Why, he's coming this way, I declare. <stage>Enter Hercules, attired as a Turk Belphegor
-      and Henri appear at back, L.H.C. </stage> </p>
+       and Henri appear at back, L.H.C. </stage>
+     </p>
     </sp>
     <sp who="#L0039_M4">
      <speaker>Her.</speaker>
@@ -3057,7 +3276,7 @@
     <sp who="#L0039_M13">
      <speaker>Bel.</speaker>
      <p>Your pardon, ladies and gentlemen. I fear I have come at an unlucky moment—in the midst of a
-      <hi>fete</hi>.</p>
+       <hi>fete</hi>.</p>
     </sp>
     <sp who="#L0039_M9">
      <speaker>Beau.</speaker>
@@ -3122,8 +3341,8 @@
       see, master, I can go no further; " but my boy was cold, and I was obliged to travel on—poor
       Mouton, his strength was gone—he trembled—fell—I ran to him, his limbs shivered, his eyes
       glazed, and then—and then—my poor horse was dead.<stage>(all laugh and clap their
-      hands)</stage>.} My boy and myself then took the road afoot, and now, alas! he is faint, tired
-      and heart-sick. </p>
+       hands)</stage>.} My boy and myself then took the road afoot, and now, alas! he is faint,
+      tired and heart-sick. </p>
     </sp>
     <sp who="#L0039_M15">
      <speaker>Hen.</speaker>
@@ -3214,7 +3433,8 @@
     </sp>
     <sp who="#L0039_M4">
      <speaker>Her.</speaker>
-     <p> Ah! he means a rose without a thorn—how very pretty! <stage>(aside to them.)</stage> </p>
+     <p> Ah! he means a rose without a thorn—how very pretty! <stage>(aside to them.)</stage>
+     </p>
     </sp>
     <sp who="#L0039_M13">
      <speaker>Bel.</speaker>
@@ -3240,7 +3460,8 @@
     <sp who="#L0039_M15">
      <speaker>Hen.</speaker>
      <p> Oh! this morning I was hungry—very hungry, and would you believe, great master, that I
-      eat—<stage>(stops—and fainting.)</stage> </p>
+       eat—<stage>(stops—and fainting.)</stage>
+     </p>
     </sp>
     <sp who="#L0039_M13">
      <speaker>Bel.</speaker>
@@ -3256,8 +3477,9 @@
     </sp>
     <sp who="#L0039_M15">
      <speaker>Hen.</speaker>
-     <p> <stage>(as recounting a lesson.)</stage> When I was born?—I was born at the age of six
-      years. </p>
+     <p>
+      <stage>(as recounting a lesson.)</stage> When I was born?—I was born at the age of six years.
+     </p>
     </sp>
     <sp who="#L0039_M13">
      <speaker>Bel.</speaker>
@@ -3270,7 +3492,8 @@
     <sp who="#L0039_M13">
      <speaker>Bel.</speaker>
      <p> You hear, Jacquinet, it's impossible you can have entered the world at six years old.
-      <pb n="31"/> </p>
+      <pb n="31"/>
+     </p>
     </sp>
     <sp who="#L0039_M15">
      <speaker>Hen.</speaker>
@@ -3278,15 +3501,18 @@
     </sp>
     <sp who="#L0039_M13">
      <speaker>Bel.</speaker>
-     <p> His mother.<stage>(with grief.)</stage> </p>
+     <p> His mother.<stage>(with grief.)</stage>
+     </p>
     </sp>
     <sp who="#L0039_M15">
      <speaker>Hen.</speaker>
-     <p> My mother—oh, mother—mother!<stage>(bursts into an agony of grief)</stage> </p>
+     <p> My mother—oh, mother—mother!<stage>(bursts into an agony of grief)</stage>
+     </p>
     </sp>
     <sp who="#L0039_M13">
      <speaker>Bel.</speaker>
-     <p> Henri, think not of her—Henri—I—thy mother<stage>(his voice fails.)</stage> </p>
+     <p> Henri, think not of her—Henri—I—thy mother<stage>(his voice fails.)</stage>
+     </p>
     </sp>
     <sp who="#L0039_F17">
      <speaker>Flora.</speaker>
@@ -3302,13 +3528,14 @@
     </sp>
     <sp who="#L0039_M13">
      <speaker>Bel.</speaker>
-     <p> He faints with hunger, Madame.<stage>(in great grief.)</stage> </p>
+     <p> He faints with hunger, Madame.<stage>(in great grief.)</stage>
+     </p>
     </sp>
     <sp who="#L0039_F17">
      <speaker>Flora.</speaker>
      <p> Ah, it is then true! poor creatures! Messieurs—yet no— no—one moment. If they know you are
       poor they will give you but a trifle; but if they think 'tis not reality—you shall see. Come,
-      Messieurs,<stage>(aloud)</stage> the mountebank has been at work, be generous, 'tis I who ask
+       Messieurs,<stage>(aloud)</stage> the mountebank has been at work, be generous, 'tis I who ask
       for him. </p>
     </sp>
     <sp who="#L0039_M9">
@@ -3349,8 +3576,9 @@
     </sp>
     <sp who="#L0039_M4">
      <speaker>Her.</speaker>
-     <p> It's rather dear for a laugh.<stage>(gives his money)</stage> <stage>Enter Servant.
-      </stage> </p>
+     <p> It's rather dear for a laugh.<stage>(gives his money)</stage>
+      <stage>Enter Servant. </stage>
+     </p>
     </sp>
     <sp who="#L0039_M22">
      <speaker>Ser.</speaker>
@@ -3362,15 +3590,18 @@
     </sp>
     <sp who="#L0039_M22">
      <speaker>Servant.</speaker>
-     <p> He is there Monsieur. <stage>Hercules Exits, L.U.E. </stage> </p>
+     <p> He is there Monsieur. <stage>Hercules Exits, L.U.E. </stage>
+     </p>
     </sp>
     <sp who="#L0039_M13">
      <speaker>Bel.</speaker>
-     <p> <stage>(towards back)}</stage> Ha! what do I see?—I—he—Rollac—the Chevalier! </p>
+     <p>
+      <stage>(towards back)}</stage> Ha! what do I see?—I—he—Rollac—the Chevalier! </p>
     </sp>
     <sp who="#L0039_F17">
      <speaker>Flora.</speaker>
-     <p> What is this?<stage>(to him.)</stage> </p>
+     <p> What is this?<stage>(to him.)</stage>
+     </p>
     </sp>
     <sp who="#L0039_M13">
      <speaker>Bel.</speaker>
@@ -3392,7 +3623,8 @@
     <sp who="#L0039_M13">
      <speaker>Bel.</speaker>
      <p> Thanks—thanks, Madame.<stage>(he takes the mask she offers, and disappears—Flora supports
-      Henri off, R.H.U.E.)</stage> <stage>Enter Rollac accompanied by Hercules, L.H.U.E. </stage>
+       Henri off, R.H.U.E.)</stage>
+      <stage>Enter Rollac accompanied by Hercules, L.H.U.E. </stage>
      </p>
     </sp>
     <sp who="#L0039_M4">
@@ -3403,7 +3635,8 @@
     <sp who="#L0039_M9">
      <speaker>Beau.</speaker>
      <p> If it's the Duke, the gentleman requires, I saw him and his suite enter the Prefect's.
-      <pb n="32"/> </p>
+      <pb n="32"/>
+     </p>
     </sp>
     <sp who="#L0039_M7">
      <speaker>Rol.</speaker>
@@ -3438,10 +3671,11 @@
     <sp who="#L0039_M7">
      <speaker>Rol.</speaker>
      <p> Ah!<stage>(aside)</stage> the devil!—I am lost<stage>. (all go up except Rollac and Exeunt
-      different ways.) </stage> Discovered, just as I had reached port, and thought, by getting rid
+       different ways.) </stage> Discovered, just as I had reached port, and thought, by getting rid
       of the husband, to sue for Madeline's hand as my reward; as one of the family I should have
       been free— quick, let me escape. <stage>(Belphegor seizes him by the arm, having Entered
-      R.H.U.E. he is masked and enveloped in a cloak.)</stage> </p>
+       R.H.U.E. he is masked and enveloped in a cloak.)</stage>
+     </p>
     </sp>
     <sp who="#L0039_M13">
      <speaker>Bel.</speaker>
@@ -3478,7 +3712,8 @@
     </sp>
     <sp who="#L0039_M13">
      <speaker>Bel.</speaker>
-     <p> The Mountebank Belphégor!<stage>(throws off his mask and cloak.)</stage> </p>
+     <p> The Mountebank Belphégor!<stage>(throws off his mask and cloak.)</stage>
+     </p>
     </sp>
     <sp who="#L0039_M7">
      <speaker>Rol.</speaker>
@@ -3531,17 +3766,20 @@
     </sp>
     <sp who="#L0039_M13">
      <speaker>Bel.</speaker>
-     <p> Wretch! would you deceive me?<stage>(throws him to his feet.)</stage> </p>
+     <p> Wretch! would you deceive me?<stage>(throws him to his feet.)</stage>
+     </p>
     </sp>
     <sp who="#L0039_M7">
      <speaker>Rol.</speaker>
-     <p> Help—help! <stage>Enter Hercules, Flora, and all the Masqueraders, C. </stage> </p>
+     <p> Help—help! <stage>Enter Hercules, Flora, and all the Masqueraders, C. </stage>
+     </p>
     </sp>
     <sp who="#L0039_M4">
      <speaker>Her.</speaker>
      <p> He will strangle him!
-      <pb n="33"/> <stage>Belphegor flourishes a stick or staff which he take from Hercules.
-      </stage> </p>
+      <pb n="33"/>
+      <stage>Belphegor flourishes a stick or staff which he take from Hercules. </stage>
+     </p>
     </sp>
     <sp who="#L0039_M13">
      <speaker>Bel.</speaker>
@@ -3585,7 +3823,8 @@
     <sp who="#L0039_M13">
      <speaker>Bel.</speaker>
      <p> Now, make way—I have done! Farewell, Messieurs! Way for the mountebank!<stage>(he bounds
-      through them, off C.)</stage> </p>
+       through them, off C.)</stage>
+     </p>
     </sp>
     <stage>Tableau.</stage>
    </div>
@@ -3598,9 +3837,10 @@
 
      <sp who="#L0039_M2">
       <speaker>Cour.</speaker>
-      <p> <stage>(C.)</stage> Very well; as the Duke is not here, I'll wait for him. <stage>(Servant
-       bows and exits, C.)</stage> The Duke is now in great favour, and I entreated his good
-       offices—<stage>(looks off.)</stage> The Count de Blangy! What the devil brings him here? An
+      <p>
+       <stage>(C.)</stage> Very well; as the Duke is not here, I'll wait for him. <stage>(Servant
+        bows and exits, C.)</stage> The Duke is now in great favour, and I entreated his good
+        offices—<stage>(looks off.)</stage> The Count de Blangy! What the devil brings him here? An
        intriguing—plotting—fawning <stage>(De Blangy, having entered, comes down, R.)</stage> Ah! my
        dear Count, this is a pleasure; I am delighted to see you. </p>
      </sp>
@@ -3616,7 +3856,8 @@
      </sp>
      <sp who="#L0039_M3">
       <speaker>Blan.</speaker>
-      <p> <stage>(aside.)</stage> The lying hypocrite! </p>
+      <p>
+       <stage>(aside.)</stage> The lying hypocrite! </p>
      </sp>
      <sp who="#L0039_M2">
       <speaker>Cour.</speaker>
@@ -3625,13 +3866,15 @@
      <sp who="#L0039_M3">
       <speaker>Blan.</speaker>
       <p> Me? Oh! I want nothing. <stage>Enter the Duke, the Judge D'Arpignol, the Commander of the
-       Pouffieres, C.— The Duke and the Commander have appeared at the back during these last words,
-       the Duke having despatches in his hand. </stage>
-       <pb n="34"/> </p>
+        Pouffieres, C.— The Duke and the Commander have appeared at the back during these last
+        words, the Duke having despatches in his hand. </stage>
+       <pb n="34"/>
+      </p>
      </sp>
      <sp who="#L0039_M1">
       <speaker>Duke.</speaker>
-      <p> <stage>(R. by table.)</stage> What rapid despatch to my request. Messieurs, here are two
+      <p>
+       <stage>(R. by table.)</stage> What rapid despatch to my request. Messieurs, here are two
        despatches, I fancy, concern you. </p>
      </sp>
      <sp who="#L0039_M3">
@@ -3641,17 +3884,20 @@
      <sp who="#L0039_M2">
       <speaker>Cour.</speaker>
       <p><stage>(the same.)</stage> My nomination !—allow me.<stage>(they both take their
-       letters.)</stage> </p>
+        letters.)</stage>
+      </p>
      </sp>
      <sp who="#L0039_M1">
       <speaker>Duke.</speaker>
       <p><stage>(to Commander and Judge.)</stage> Messieurs, the King has been so kind as to
        compliment me on the recovery of my son's child.<stage>(he sits at official table,
-       R.H.)</stage> </p>
+        R.H.)</stage>
+      </p>
      </sp>
      <sp who=" #L0039_M5 #L0039_M6">
       <speaker>Com. and Judge.</speaker>
-      <p><stage>R.H.</stage> Oh, really!<stage>(they are cringing before him.)</stage> </p>
+      <p><stage>R.H.</stage> Oh, really!<stage>(they are cringing before him.)</stage>
+      </p>
      </sp>
      <sp who="#L0039_M3">
       <speaker>Blan.</speaker>
@@ -3661,7 +3907,8 @@
       <speaker>Cour.</speaker>
       <p><stage>(with joy.)</stage> Commissaire extraordinary of the department of the Gironde! I am
        commissaire extraordinary!<stage>(struts across with great importance.)</stage> Gentlemen, I
-       receive your compliments<stage>(then to C.)</stage> </p>
+       receive your compliments<stage>(then to C.)</stage>
+      </p>
      </sp>
      <sp who="#L0039_M3">
       <speaker>Blan.</speaker>
@@ -3682,7 +3929,8 @@
      </sp>
      <sp who="#L0039_M3">
       <speaker>Blan.</speaker>
-      <p> But you have with your own;—this is to you.<stage>(gives it.)</stage> </p>
+      <p> But you have with your own;—this is to you.<stage>(gives it.)</stage>
+      </p>
      </sp>
      <sp who="#L0039_M2">
       <speaker>Cour.</speaker>
@@ -3709,16 +3957,19 @@
      </sp>
      <sp who="#L0039_M3">
       <speaker>Blan.</speaker>
-      <p> The King's never deceived, Sir—the King is <hi>infallible.</hi> </p>
+      <p> The King's never deceived, Sir—the King is <hi>infallible.</hi>
+      </p>
      </sp>
      <sp who="#L0039_M2">
       <speaker>Cour.</speaker>
       <p> Eh!<stage>(looks foolish—aside.)</stage> Insolent intriguer!<stage> (goes up in a
-       passion.)</stage> </p>
+        passion.)</stage>
+      </p>
      </sp>
      <sp who="#L0039_M3">
       <speaker>Blan.</speaker>
-      <p> <stage>(C.)</stage> Oh! here are my instructions.<stage> (reads.)</stage> Ah, Heavens!
+      <p>
+       <stage>(C.)</stage> Oh! here are my instructions.<stage> (reads.)</stage> Ah, Heavens!
        Lavarennes, under the name of Rollac! </p>
      </sp>
      <sp who="#L0039_M1">
@@ -3729,7 +3980,8 @@
       <speaker>Blangy.</speaker>
       <p> Nothing—duty calls me instantly to the Prefecture— excuse me, cousin, I must bid you adieu
        for the present. Monsieur the Substitute, I want you—follow me.<stage>(goes up to
-       C.D.)</stage> </p>
+        C.D.)</stage>
+      </p>
      </sp>
      <sp who="#L0039_M2">
       <speaker>Cour.</speaker>
@@ -3742,21 +3994,24 @@
      <sp who="#L0039_M2">
       <speaker>Cour.</speaker>
       <p><stage>(obsequiously)</stage> Oh, certainly, Monsieur<stage> (bowing—apart to the Duke
-       )</stage> You'll see this mistake set to rights. <stage>(to Blangy)</stage> I'll follow you,
-       Monsieur Commissary of the Gironde.<stage> They exit, C. and L. </stage> </p>
+        )</stage> You'll see this mistake set to rights. <stage>(to Blangy)</stage> I'll follow you,
+       Monsieur Commissary of the Gironde.<stage> They exit, C. and L. </stage>
+      </p>
      </sp>
      <sp who="#L0039_M1">
       <speaker>Duke.</speaker>
-      <p> <stage>(C.)</stage> Yes, my good friends, the King is in the best disposition as regards
-       our lost one—so miraculously recovered—he has
+      <p>
+       <stage>(C.)</stage> Yes, my good friends, the King is in the best disposition as regards our
+       lost one—so miraculously recovered—he has
        <pb n="35"/> restored to us all our rights:—my son's child will inherit title, wealth, and
        estates. </p>
      </sp>
      <sp who="#L0039_M6">
       <speaker>Com.</speaker>
-      <p> <stage>(R.)</stage> But in the midst of this, you will own, Duke, it is necessary to
-       conceal from the King's knowledge, the miserable sphere in which she was found, for the
-       reputation of our family—no one, I hope, knows </p>
+      <p>
+       <stage>(R.)</stage> But in the midst of this, you will own, Duke, it is necessary to conceal
+       from the King's knowledge, the miserable sphere in which she was found, for the reputation of
+       our family—no one, I hope, knows </p>
      </sp>
      <sp who="#L0039_M1">
       <speaker>Duke.</speaker>
@@ -3767,7 +4022,8 @@
      <sp who="#L0039_M6">
       <speaker>Com.</speaker>
       <p> You owe him much for his zeal and devotion in your cause. <stage>Enter Servant, C.
-       </stage> </p>
+       </stage>
+      </p>
      </sp>
      <sp who="#L0039_M22">
       <speaker>Servant.</speaker>
@@ -3776,16 +4032,19 @@
      <sp who="#L0039_M1">
       <speaker>Duke.</speaker>
       <p> Admit him—then the man has safely embarked. <stage>Enter Belphegor, C. in a Court suit,
-       powdered wig, white breeches sword, &amp;c. His bearing is rather outre, but not in
-       exaggeration. </stage> </p>
+        powdered wig, white breeches sword, &amp;c. His bearing is rather outre, but not in
+        exaggeration. </stage>
+      </p>
      </sp>
      <sp who="#L0039_M13">
       <speaker>Bel.</speaker>
-      <p> <stage>(R.C.)</stage> Messieurs, allow me to salute you. </p>
+      <p>
+       <stage>(R.C.)</stage> Messieurs, allow me to salute you. </p>
      </sp>
      <sp who="#L0039_M1">
       <speaker>Duke.</speaker>
-      <p> <stage>(R.)</stage> I am delighted to see you, Chevalier, you are here at last. </p>
+      <p>
+       <stage>(R.)</stage> I am delighted to see you, Chevalier, you are here at last. </p>
      </sp>
      <sp who="#L0039_M13">
       <speaker>Bel.</speaker>
@@ -3798,17 +4057,20 @@
      </sp>
      <sp who="#L0039_M13">
       <speaker>Bel.</speaker>
-      <p> <stage>(aside, in front)</stage> I know I am, by the letters of the villain Rollac, whom I
+      <p>
+       <stage>(aside, in front)</stage> I know I am, by the letters of the villain Rollac, whom I
        tracked on his way—I struck him down like a dog —secured his pocket book—and am here as
        himself, his letters have told me of all. </p>
      </sp>
      <sp who="#L0039_M5">
       <speaker>Judge.</speaker>
-      <p> <stage>(L.H.)</stage> He has a noble, manly figure. </p>
+      <p>
+       <stage>(L.H.)</stage> He has a noble, manly figure. </p>
      </sp>
      <sp who="#L0039_M6">
       <speaker>Com.</speaker>
-      <p> <stage>(L.C.)</stage> He looks the gentleman of a distinguished family. </p>
+      <p>
+       <stage>(L.C.)</stage> He looks the gentleman of a distinguished family. </p>
      </sp>
      <sp who="#L0039_M5">
       <speaker>Judge.</speaker>
@@ -3825,7 +4087,8 @@
      </sp>
      <sp who="#L0039_M1">
       <speaker>Duke.</speaker>
-      <p> <stage>(R.)</stage> Chevalier—Monsieur de Rollac. </p>
+      <p>
+       <stage>(R.)</stage> Chevalier—Monsieur de Rollac. </p>
      </sp>
      <sp who="#L0039_M13">
       <speaker>Bel.</speaker>
@@ -3856,7 +4119,8 @@
      <sp who="#L0039_M13">
       <speaker>Bel.</speaker>
       <p><stage>(crosses to him, L.C.)</stage> Oh, you are of the Tureen family, are you?—then, I
-       suppose, you are first-cousin to the Spoons<stage>(they stare.)</stage> </p>
+       suppose, you are first-cousin to the Spoons<stage>(they stare.)</stage>
+      </p>
      </sp>
      <sp who="#L0039_M1">
       <speaker>Duke.</speaker>
@@ -3865,11 +4129,14 @@
      <sp who="#L0039_M13">
       <speaker>Bel.</speaker>
       <p> Always—bless you! I'm a complete Merry Andrew—we shall have rare sport together.
-       <pb n="36"/> <stage>Enter Hercules, C </stage> </p>
+       <pb n="36"/>
+       <stage>Enter Hercules, C </stage>
+      </p>
      </sp>
      <sp who="#L0039_M4">
       <speaker>Her.</speaker>
-      <p> <stage>(R.)</stage> Ah, my dear uncle! </p>
+      <p>
+       <stage>(R.)</stage> Ah, my dear uncle! </p>
      </sp>
      <sp who="#L0039_M13">
       <speaker>Bel.</speaker>
@@ -3920,8 +4187,11 @@
      </sp>
      <sp who="#L0039_M13">
       <speaker>Bel.</speaker>
-     <p> There—where?<stage>(looks about—Hercules sits L. H. 1 E . )</stage></p></sp><sp who="#L0039_M1">    <speaker>Duke.</speaker><p>Where you,
-       yourself, instructed De Blangy to take her. </p>
+      <p> There—where?<stage>(looks about—Hercules sits L. H. 1 E . )</stage></p>
+     </sp>
+     <sp who="#L0039_M1">
+      <speaker>Duke.</speaker>
+      <p>Where you, yourself, instructed De Blangy to take her. </p>
      </sp>
      <sp who="#L0039_M13">
       <speaker>Bel.</speaker>
@@ -3994,11 +4264,13 @@
       <speaker>Bel.</speaker>
       <p><stage>(laughs with the Judge)</stage> Yes, Belphégor, ha, ha, ha! Yes, he is called
        Belphégor. Is it not funny, eh? Belphegor!—ha, ha, ha! <stage>(Judge and Hercules laugh
-       immoderately.)</stage> </p>
+        immoderately.)</stage>
+      </p>
      </sp>
      <sp who="#L0039_M1">
       <speaker>Duke.</speaker>
-      <p> <stage>(to Belphegor)</stage> But what is your opinion of this man? </p>
+      <p>
+       <stage>(to Belphegor)</stage> But what is your opinion of this man? </p>
      </sp>
      <sp who="#L0039_M13">
       <speaker>Bel.</speaker>
@@ -4016,23 +4288,26 @@
      </sp>
      <sp who="#L0039_M1">
       <speaker>Duke.</speaker>
-      <p> But we will trip him up.<stage>(goes up to table, R.H.)</stage> </p>
+      <p> But we will trip him up.<stage>(goes up to table, R.H.)</stage>
+      </p>
      </sp>
      <sp who="#L0039_M13">
       <speaker>Bel.</speaker>
       <p> But are we not as great rogues as he! Now if this conjuring rascal had introduced himself
        here, in borrowed plumes, or name, to seek his wife. If he had come as a gentleman, like you
        or me, with the perpendicular assurance of this gentleman <stage>(to Commander —who is
-       L.H.)</stage> taking snuff out of his mounted box, dirtying his nose, and soiling his
+        L.H.)</stage> taking snuff out of his mounted box, dirtying his nose, and soiling his
        frill—as this<stage>(takes snuff from the Judge'S box)</stage> or pirouetting on his heel,
        with his hat under his arm, in this fashion—and you had not discovered him to be a vile
        rascal, then we might have been surprised.<stage>(strikes the Judge on the belly)</stage> Ha,
        ha, ha! the idea is enough to make one burst with laughter—is it not? <stage>(crosses to
-       C.)</stage> </p>
+        C.)</stage>
+      </p>
      </sp>
      <sp who="#L0039_M5">
       <speaker>Judge.</speaker>
-      <p> <stage>(L. groans)</stage> Burst—yes—that's the word. </p>
+      <p>
+       <stage>(L. groans)</stage> Burst—yes—that's the word. </p>
      </sp>
      <sp who="#L0039_M1">
       <speaker>Duke.</speaker>
@@ -4045,7 +4320,8 @@
      </sp>
      <sp who="#L0039_M6">
       <speaker>Com.</speaker>
-      <p> <stage>(R.)</stage> If I am not mistaken, Chevalier, you were at Biberach? </p>
+      <p>
+       <stage>(R.)</stage> If I am not mistaken, Chevalier, you were at Biberach? </p>
      </sp>
      <sp who="#L0039_M13">
       <speaker>Bel.</speaker>
@@ -4090,15 +4366,18 @@
      </sp>
      <sp who="#L0039_M4">
       <speaker>Her.</speaker>
-      <p> <stage>(L.)</stage> Grain D'Amour ? Judge <stage>(L.C.)</stage> Performance? </p>
+      <p>
+       <stage>(L.)</stage> Grain D'Amour ? Judge <stage>(L.C.)</stage> Performance? </p>
      </sp>
      <sp who="#L0039_M6">
       <speaker>Com.</speaker>
-      <p> <stage>(R. of Bel. )</stage> A very odd expression for a military man! </p>
+      <p>
+       <stage>(R. of Bel. )</stage> A very odd expression for a military man! </p>
      </sp>
      <sp who="#L0039_M13">
       <speaker>Bel.</speaker>
-      <p> <stage>( C. , aside)</stage> Grain D'Amour, the head trumpeter of our legion; and it was a
+      <p>
+       <stage>( C. , aside)</stage> Grain D'Amour, the head trumpeter of our legion; and it was a
        wonderful performance, this Battle of Bib </p>
      </sp>
      <sp who="#L0039_M6">
@@ -4128,17 +4407,20 @@
      <sp who="#L0039_M6">
       <speaker>Com.</speaker>
       <p> Sixty thousand men fire at once, in two circles?
-       <pb n="38"/> </p>
+       <pb n="38"/>
+      </p>
      </sp>
      <sp who="#L0039_M13">
       <speaker>Bel.</speaker>
       <p> The inner circle fired over the others' heads—so, you see, the outer circle balls told
-       there—<stage>(hits Judge on the stomach, who gets away)</stage>—and the inner circle
-       there—<stage>(hits Commander on the head, whose hat goes over his eyes).</stage> The skirmish
-       then commenced; we marched on the enemy, and the enemy marched on us—they gave way, we gave
-       way—they fired, we fired—they charge, we charge—the cavalry on the infantry, the infantry on
-       the cavalry. The sixty thousand fired again—we were covered with smoke—and nothing else was
-       seen;—that's the way, gentlemen, we gained the victory!<stage>(struts about.)</stage> </p>
+        there—<stage>(hits Judge on the stomach, who gets away)</stage>—and the inner circle
+        there—<stage>(hits Commander on the head, whose hat goes over his eyes).</stage> The
+       skirmish then commenced; we marched on the enemy, and the enemy marched on us—they gave way,
+       we gave way—they fired, we fired—they charge, we charge—the cavalry on the infantry, the
+       infantry on the cavalry. The sixty thousand fired again—we were covered with smoke—and
+       nothing else was seen;—that's the way, gentlemen, we gained the victory!<stage>(struts
+        about.)</stage>
+      </p>
      </sp>
      <sp who="#L0039_M6">
       <speaker>Com.</speaker>
@@ -4167,7 +4449,8 @@
      <sp who="#L0039_M13">
       <speaker>Bel.</speaker>
       <p> I said it was a victory, while we couldn't see ourselves for smoke; but when that cleared
-       away, of course we saw it was a defeat.<stage>(goes up.)</stage> </p>
+       away, of course we saw it was a defeat.<stage>(goes up.)</stage>
+      </p>
      </sp>
      <sp who="#L0039_M6">
       <speaker>Com.</speaker>
@@ -4181,7 +4464,8 @@
      <sp who="#L0039_M13">
       <speaker>Bel.</speaker>
       <p><stage>(comes down)</stage> But come, I am anxious to see the lady. <stage>The Commander
-       and Judge at table. R.H., take a map and seem to explain the battle. </stage> </p>
+        and Judge at table. R.H., take a map and seem to explain the battle. </stage>
+      </p>
      </sp>
      <sp who="#L0039_M1">
       <speaker>Duke.</speaker>
@@ -4189,7 +4473,8 @@
      </sp>
      <sp who="#L0039_M13">
       <speaker>Bel.</speaker>
-      <p> That's right. <stage>Servant enters door, U.E.L. </stage> </p>
+      <p> That's right. <stage>Servant enters door, U.E.L. </stage>
+      </p>
      </sp>
      <sp who="#L0039_M1">
       <speaker>Duke.</speaker>
@@ -4199,8 +4484,8 @@
       <speaker>Bel.</speaker>
       <p><stage>(bowing)</stage> Your grace—gentlemen<stage> (bows to them)</stage> It was a
        glorious battle, was it not, though it was a defeat?<stage>(bows to Servant as offering him
-       precedence, Servant declines, Belphegor recollects himself, and goes off pompously)</stage>.}
-      </p>
+        precedence, Servant declines, Belphegor recollects himself, and goes off
+       pompously)</stage>.} </p>
      </sp>
      <sp who="#L0039_M1">
       <speaker>Duke.</speaker>
@@ -4210,16 +4495,19 @@
      <sp who="#L0039_M5">
       <speaker>Judge.</speaker>
       <p> I have travelled a very great deal, but it never changed my manners or
-       ideas.<stage>(taking snuff, goes up L.H.)</stage> </p>
+        ideas.<stage>(taking snuff, goes up L.H.)</stage>
+      </p>
      </sp>
      <sp who="#L0039_M6">
       <speaker>Com.</speaker>
-      <p> As great an ass as ever. <stage>Enter Servant, R.H. 3 E. </stage> </p>
+      <p> As great an ass as ever. <stage>Enter Servant, R.H. 3 E. </stage>
+      </p>
      </sp>
      <sp who="#L0039_M22">
       <speaker>Servant.</speaker>
       <p> Mademoiselle Vermandois, and Madame Madeline. <stage>Enter Mademoiselle Vermandois, R. 3
-       E. </stage> </p>
+        E. </stage>
+      </p>
      </sp>
      <sp who="#L0039_F23">
       <speaker>Madlle. V.</speaker>
@@ -4229,13 +4517,15 @@
      <sp who="#L0039_F16">
       <speaker>Mad.</speaker>
       <p> Oh, pray excuse me, but I know that I am unfit to meet such society—I tremble lest—
-       <pb n="39"/> </p>
+       <pb n="39"/>
+      </p>
      </sp>
      <sp who="#L0039_M1">
       <speaker>Duke.</speaker>
-      <p> <stage>(L.C.)</stage> Cast aside all fear, my child, you have here a father, with open
-       arms, to receive you—a family, loving and respecting you—nay, do not tremble, we forget all,
-       we love you. </p>
+      <p>
+       <stage>(L.C.)</stage> Cast aside all fear, my child, you have here a father, with open arms,
+       to receive you—a family, loving and respecting you—nay, do not tremble, we forget all, we
+       love you. </p>
      </sp>
      <sp who="#L0039_F16">
       <speaker>Mad.</speaker>
@@ -4284,19 +4574,18 @@
      </sp>
      <sp who="#L0039_F16">
       <speaker>Mad.</speaker>
-      <p> One moment, Madame, if you please.—<stage>(to Duke)</stage> A female, living in the
-       same house in which we dwelt at Angouleme, was, I fear, induced by him to act as his
-       accomplice. I was enabled on my arrival at Bordeaux, to communicate with her, and from her I
-       learnt that my husband had been subjected to the cruel persecutions of this man, and in the
-       lowest, most abject state of misery and distress, enforced to fly. Oh, Duke, had you
-       instructed him to separate us from each other, you would not, I am sure, cruelly and wantonly
-       have given orders that would inflict severest suffering on him—my husband—and my poor boy.
-      </p>
+      <p> One moment, Madame, if you please.—<stage>(to Duke)</stage> A female, living in the same
+       house in which we dwelt at Angouleme, was, I fear, induced by him to act as his accomplice. I
+       was enabled on my arrival at Bordeaux, to communicate with her, and from her I learnt that my
+       husband had been subjected to the cruel persecutions of this man, and in the lowest, most
+       abject state of misery and distress, enforced to fly. Oh, Duke, had you instructed him to
+       separate us from each other, you would not, I am sure, cruelly and wantonly have given orders
+       that would inflict severest suffering on him—my husband—and my poor boy. </p>
      </sp>
      <sp who="#L0039_M1">
       <speaker>Duke.</speaker>
-      <p> No, no, my child—they have deceived you<stage>(rings)</stage> <stage>Enter
-       Servant.</stage> — Tell the Chevalier Rollac I wait for him. </p>
+      <p> No, no, my child—they have deceived you<stage>(rings)</stage>
+       <stage>Enter Servant.</stage> — Tell the Chevalier Rollac I wait for him. </p>
      </sp>
      <sp who="#L0039_F16">
       <speaker>Mad.</speaker>
@@ -4304,7 +4593,8 @@
      </sp>
      <sp who="#L0039_M1">
       <speaker>Duke.</speaker>
-      <p> From himself you can learn the truth. <stage>Enter Belphegor, D.L.U.E.</stage> </p>
+      <p> From himself you can learn the truth. <stage>Enter Belphegor, D.L.U.E.</stage>
+      </p>
      </sp>
      <sp who="#L0039_M13">
       <speaker>Bel.</speaker>
@@ -4324,7 +4614,8 @@
      </sp>
      <sp who="#L0039_M1">
       <speaker>Duke.</speaker>
-      <p> Present your respects, Chevalier.<stage>(goes to table R.U.)</stage> </p>
+      <p> Present your respects, Chevalier.<stage>(goes to table R.U.)</stage>
+      </p>
      </sp>
      <sp who="#L0039_M13">
       <speaker>Bel.</speaker>
@@ -4333,7 +4624,8 @@
      <sp who="#L0039_F23">
       <speaker>Madlle. V.</speaker>
       <p> Yes, she looks better, of course, than in her mountebank rags.
-       <pb n="40"/> </p>
+       <pb n="40"/>
+      </p>
      </sp>
      <sp who="#L0039_M13">
       <speaker>Bel.</speaker>
@@ -4371,7 +4663,8 @@
       <speaker>Bel.</speaker>
       <p> From that day we have seen him but once, and he again asked where his wife was. There was
        a struggle between us, but that struggle was not for long.<stage>(with marked
-       accent.)</stage> </p>
+        accent.)</stage>
+      </p>
      </sp>
      <sp who="#L0039_M1">
       <speaker>Duke.</speaker>
@@ -4382,7 +4675,7 @@
      <sp who="#L0039_M13">
       <speaker>Bel.</speaker>
       <p> Ha, ha, I wrote that to you did I?<stage>(strikes his pocket, where he indicates Rollac'S
-       paper are)</stage> quite true.<stage>(aside)</stage> I have the villain's letter here—quite
+        paper are)</stage> quite true.<stage>(aside)</stage> I have the villain's letter here—quite
        true—you may suppose, Madame, his cheeks are pale, his eyes swollen, his existence misery,
        his heart broken by a cruel separation from a wife and child, on whom that heart doated, but
        you may be mistaken—the Chevalier de Rollac assures you that you are forgotten by Belphégor,
@@ -4405,11 +4698,13 @@
        dragged him to the Prefecture for robbery, attempting to steal the child. Singular, was it
        not, quite amusing was it not, Messieurs? Ha, ha,ha! But you don't laugh, you'll laugh,
        Madame, I am sure.<stage>(crosses to them, and then to her.)</stage>
-       <pb n="41"/> </p>
+       <pb n="41"/>
+      </p>
      </sp>
      <sp who="#L0039_F16">
       <speaker>Mad.</speaker>
-      <p> <stage>(L buries her face in her hands)</stage> Oh, fearful, horrible recital. </p>
+      <p>
+       <stage>(L buries her face in her hands)</stage> Oh, fearful, horrible recital. </p>
      </sp>
      <sp who="#L0039_M1">
       <speaker>Duke.</speaker>
@@ -4448,7 +4743,8 @@
      <sp who="#L0039_M13">
       <speaker>Bel.</speaker>
       <p> He is right; what pity should such vermin have from Heaven or man!<stage>(goes up towards
-       Duke.)</stage> </p>
+        Duke.)</stage>
+      </p>
      </sp>
      <sp who="#L0039_M1">
       <speaker>Duke.</speaker>
@@ -4458,7 +4754,8 @@
       <speaker>Bel.</speaker>
       <p> What? sign for the separation of two hearts knit in fond and fervent love—hands, too,
        joined in Heaven's name? No, proud Duke, I'll not!<stage>(tears or breaks up the pen and
-       casts it on the table before him.)</stage> </p>
+        casts it on the table before him.)</stage>
+      </p>
      </sp>
      <sp who="#L0039_M1">
       <speaker>Duke.</speaker>
@@ -4467,7 +4764,8 @@
      </sp>
      <sp who="#L0039_F16">
       <speaker>Mad.</speaker>
-      <p> <stage>(L., aside.)</stage> Oh, Heaven guard him! </p>
+      <p>
+       <stage>(L., aside.)</stage> Oh, Heaven guard him! </p>
      </sp>
      <sp who="#L0039_M13">
       <speaker>Bel.</speaker>
@@ -4481,17 +4779,19 @@
      </sp>
      <sp who="#L0039_M13">
       <speaker>Bel.</speaker>
-      <p> <stage>(throwing off his wig.)</stage> I am—I am Belphégor! </p>
+      <p>
+       <stage>(throwing off his wig.)</stage> I am—I am Belphégor! </p>
      </sp>
      <sp who="#L0039_mult">
       <speaker>All.</speaker>
-      <p> Belphégor!<stage>(Tableau.)</stage> </p>
+      <p> Belphégor!<stage>(Tableau.)</stage>
+      </p>
      </sp>
      <sp who="#L0039_M13">
       <speaker>Bel.</speaker>
       <p> Yes, the mountebank—the miserable, degraded wretch— the brute—but this brute has a
        wife—children—and comes here to redeem them all! Do you hear me, thieves?<stage>(all make a
-       movement of indignation towards him.)</stage> Ah! take care—the mountebank may make them
+        movement of indignation towards him.)</stage> Ah! take care—the mountebank may make them
        laugh upon the public square, but he can here bring tears. </p>
      </sp>
      <sp who="#L0039_M1">
@@ -4511,9 +4811,10 @@
       <speaker>Bel.</speaker>
       <p> I hear nothing—I am your husband, your master. The law! there is a law above yours,
        Messieurs, under that law's sacred power this is my wife; and I'll take her in spite of
-       you.<stage>(to Madeline)</stage> Madame, I go with you to Jeanne, my child, the child you
+        you.<stage>(to Madeline)</stage> Madame, I go with you to Jeanne, my child, the child you
        stole from me.
-       <pb n="42"/> </p>
+       <pb n="42"/>
+      </p>
      </sp>
      <sp who="#L0039_F16">
       <speaker>Mad.</speaker>
@@ -4543,12 +4844,15 @@
      </sp>
      <sp who="#L0039_F16">
       <speaker>Mad.</speaker>
-      <p> Come—come.<stage>(as they go up)</stage> <stage>A Servant enters.</stage> </p>
+      <p> Come—come.<stage>(as they go up)</stage>
+       <stage>A Servant enters.</stage>
+      </p>
      </sp>
      <sp who="#L0039_M22">
       <speaker>Servant.</speaker>
       <p> The substitute of the Procureur of the King. <stage>Enter De Courgemont, and Guards.
-       </stage> </p>
+       </stage>
+      </p>
      </sp>
      <sp who="#L0039_mult">
       <speaker>Omnes.</speaker>
@@ -4573,25 +4877,30 @@
      </sp>
      <sp who="#L0039_M1">
       <speaker>Duke.</speaker>
-      <p> Him—him, Lavarennes!<stage>(with satisfaction.)</stage> </p>
+      <p> Him—him, Lavarennes!<stage>(with satisfaction.)</stage>
+      </p>
      </sp>
      <sp who="#L0039_F16">
       <speaker>Mad.</speaker>
-      <p> <stage>(by} Duke. R.H.)</stage> No, no, 'tis false, 'tis malice, he —— </p>
+      <p>
+       <stage>(by} Duke. R.H.)</stage> No, no, 'tis false, 'tis malice, he —— </p>
      </sp>
      <sp who="#L0039_M2">
       <speaker>Cour.</speaker>
-      <p> I arrest you in the King's name!<stage>(they arrest him.)</stage> <stage>Guards cross
-       round in front of him, as he is dragged up.</stage> </p>
+      <p> I arrest you in the King's name!<stage>(they arrest him.)</stage>
+       <stage>Guards cross round in front of him, as he is dragged up.</stage>
+      </p>
      </sp>
      <sp who="#L0039_M13">
       <speaker>Bel.</speaker>
       <p> Madeline—my child—my child, let me but see and embrace my child.<stage>(as they drag him
-       away.)</stage> </p>
+        away.)</stage>
+      </p>
      </sp>
      <sp who="#L0039_F16">
       <speaker>Mad.</speaker>
-      <p> William!<stage>(flying after him.)</stage> </p>
+      <p> William!<stage>(flying after him.)</stage>
+      </p>
      </sp>
      <sp who="#L0039_M1">
       <speaker>Duke.</speaker>
@@ -4607,12 +4916,14 @@
 
      <sp who="#L0039_M15">
       <speaker>Henri.</speaker>
-      <p> <stage>(R.)</stage> Oh, pray, Madame, do take me to my father. </p>
+      <p>
+       <stage>(R.)</stage> Oh, pray, Madame, do take me to my father. </p>
      </sp>
      <sp who="#L0039_F17">
       <speaker>Flora.</speaker>
-      <p> <stage>(C.)</stage> I will, my dear; but you know, when your father and yourself arrived
-       here three days since, you were both in great distress. </p>
+      <p>
+       <stage>(C.)</stage> I will, my dear; but you know, when your father and yourself arrived here
+       three days since, you were both in great distress. </p>
      </sp>
      <sp who="#L0039_M15">
       <speaker>Henri.</speaker>
@@ -4632,29 +4943,35 @@
       <speaker>Flora.</speaker>
       <p> Your father feared he might be arrested, and fled—but first begged me to take care of his
        child for a few days, until he could return with safety, which I have done.
-       <pb n="43"/> </p>
+       <pb n="43"/>
+      </p>
      </sp>
      <sp who="#L0039_M15">
       <speaker>Henri.</speaker>
-      <p> Oh yes, and kindly; but you are not my mother<stage>(weeps.)</stage> </p>
+      <p> Oh yes, and kindly; but you are not my mother<stage>(weeps.)</stage>
+      </p>
      </sp>
      <sp who="#L0039_F17">
       <speaker>Flora.</speaker>
       <p> Dear boy, you shall see her shortly. I have heard of your father; go, get you ready, and
-       I'll take you to him.<stage>(puts him L . H . )</stage> </p>
+       I'll take you to him.<stage>(puts him L . H . )</stage>
+      </p>
      </sp>
      <sp who="#L0039_M15">
       <speaker>Henri.</speaker>
-      <p> Thanks—thanks! <stage>(she kisses him.)</stage> <stage>Enter Hercules, L.—sees Flora and
-       Henri—he starts, and Henri goes off, R.1 E. </stage> </p>
+      <p> Thanks—thanks! <stage>(she kisses him.)</stage>
+       <stage>Enter Hercules, L.—sees Flora and Henri—he starts, and Henri goes off, R.1 E. </stage>
+      </p>
      </sp>
      <sp who="#L0039_M4">
       <speaker>Her.</speaker>
-      <p> Ha! I've caught you, have I?<stage>(in great passion.)</stage> </p>
+      <p> Ha! I've caught you, have I?<stage>(in great passion.)</stage>
+      </p>
      </sp>
      <sp who="#L0039_F17">
       <speaker>Flora.</speaker>
-      <p> <stage>(R.C.)</stage> Caught me? </p>
+      <p>
+       <stage>(R.C.)</stage> Caught me? </p>
      </sp>
      <sp who="#L0039_M4">
       <speaker>Her.</speaker>
@@ -4700,7 +5017,8 @@
      </sp>
      <sp who="#L0039_F17">
       <speaker>Flora.</speaker>
-      <p> <stage>(in the same tone)</stage> What's that to you? </p>
+      <p>
+       <stage>(in the same tone)</stage> What's that to you? </p>
      </sp>
      <sp who="#L0039_M4">
       <speaker>Her.</speaker>
@@ -4753,7 +5071,7 @@
      <sp who="#L0039_M4">
       <speaker>Her.</speaker>
       <p> That's enough!—after the fiddlestick, I've done<stage>(buttons his coat, and slaps his hat
-       upon his head)</stage>.} Know, Madame, I did intend to honour you with my person, name, and
+        upon his head)</stage>.} Know, Madame, I did intend to honour you with my person, name, and
        fortune! </p>
      </sp>
      <sp who="#L0039_F17">
@@ -4768,14 +5086,15 @@
       <speaker>Flora.</speaker>
       <p> To teaze your stiff-starched old grand aunt, annoy your stupidly proud family, and amuse
        myself at their expense. Adieu, adieu, most noble and high-blooded Hercules. Ha, ha,
-       ha!<stage> Exit, R.</stage> </p>
+        ha!<stage> Exit, R.</stage>
+      </p>
      </sp>
      <sp who="#L0039_M4">
       <speaker>Her.</speaker>
       <p> Oh, oh, oh, my heart, it feels so weak, dear me, I'm quite
        <pb n="44"/> staggered; and this girl's behaviour, really, oh, bless me, I'm afraid I'm going
        to lose my senses. If my grand aunt did but know how I've been treated, oh<stage>(nearly
-       falls)</stage> my knees are as weak as my head.</p>
+        falls)</stage> my knees are as weak as my head.</p>
      </sp>
      <stage> Exit R. </stage>
     </div>
@@ -4788,11 +5107,12 @@
       <speaker>Cour.</speaker>
       <p> Tell the Provost Marshal that I am here. <stage>(then to himself)</stage> I have luckily
        had good guards placed over this shabby red-bearded fellow—he is here. <stage>Enter Rollac,
-       L. 3 E., he wears a disguise. </stage> —Approach. </p>
+        L. 3 E., he wears a disguise. </stage> —Approach. </p>
      </sp>
      <sp who="#L0039_M7">
       <speaker>Rol.</speaker>
-      <p> <stage>(aside)</stage> Now, for a high tone. </p>
+      <p>
+       <stage>(aside)</stage> Now, for a high tone. </p>
      </sp>
      <sp who="#L0039_M2">
       <speaker>Cour.</speaker>
@@ -4800,13 +5120,15 @@
      </sp>
      <sp who="#L0039_M7">
       <speaker>Rol.</speaker>
-      <p> <stage>(L.C.)</stage> This is fine treatment to a man who has been useful to you, and may
-       be so again. </p>
+      <p>
+       <stage>(L.C.)</stage> This is fine treatment to a man who has been useful to you, and may be
+       so again. </p>
      </sp>
      <sp who="#L0039_M2">
       <speaker>Cour.</speaker>
-      <p> <stage>(R.C.)</stage> You certainly <hi>pretend</hi> that you sent the letter which
-       enabled us to arrest Lavarennes this morning. </p>
+      <p>
+       <stage>(R.C.)</stage> You certainly <hi>pretend</hi> that you sent the letter which enabled
+       us to arrest Lavarennes this morning. </p>
      </sp>
      <sp who="#L0039_M7">
       <speaker>Rol.</speaker>
@@ -4827,7 +5149,8 @@
      <sp who="#L0039_M7">
       <speaker>Rol.</speaker>
       <p> I submit.<stage>(aside.)</stage> They'll not dream of seeking me in this place, that's one
-       comfort.<stage> Exit L. 3 E. </stage> <stage>Enter Belphegor, guarded, L. H. 2 E. </stage>
+        comfort.<stage> Exit L. 3 E. </stage>
+       <stage>Enter Belphegor, guarded, L. H. 2 E. </stage>
       </p>
      </sp>
      <sp who="#L0039_M2">
@@ -4865,7 +5188,8 @@
      <sp who="#L0039_M2">
       <speaker>Cour.</speaker>
       <p> Ah ! Belphégor—the mountebank!
-       <pb n="45"/> </p>
+       <pb n="45"/>
+      </p>
      </sp>
      <sp who="#L0039_M13">
       <speaker>Bel.</speaker>
@@ -4879,7 +5203,8 @@
      <sp who="#L0039_M13">
       <speaker>Bel.</speaker>
       <p> Oh! I see you are convinced; so are the ministers and judges—wise judges, you all are, to
-       know a man's name better than he does himself. <stage>Enter Flora Nina, L. 3 E. </stage> </p>
+       know a man's name better than he does himself. <stage>Enter Flora Nina, L. 3 E. </stage>
+      </p>
      </sp>
      <sp who="#L0039_F17">
       <speaker>Flora.</speaker>
@@ -4887,7 +5212,8 @@
      </sp>
      <sp who="#L0039_F17">
       <speaker>Flora.</speaker>
-      <p> <stage>(C. sees Belphegor)</stage> 'Tis he! </p>
+      <p>
+       <stage>(C. sees Belphegor)</stage> 'Tis he! </p>
      </sp>
      <sp who="#L0039_M2">
       <speaker>Cour.</speaker>
@@ -4895,7 +5221,8 @@
      </sp>
      <sp who="#L0039_M13">
       <speaker>Bel.</speaker>
-      <p> <stage>(L.)</stage> If I am not deceived—no—no! </p>
+      <p>
+       <stage>(L.)</stage> If I am not deceived—no—no! </p>
      </sp>
      <sp who="#L0039_M2">
       <speaker>Cour.</speaker>
@@ -4909,7 +5236,8 @@
      </sp>
      <sp who="#L0039_M2">
       <speaker>Cour.</speaker>
-      <p> Ah, I see! <stage>(takes the letter, about to read.)</stage> </p>
+      <p> Ah, I see! <stage>(takes the letter, about to read.)</stage>
+      </p>
      </sp>
      <sp who="#L0039_F17">
       <speaker>Flora.</speaker>
@@ -5004,9 +5332,10 @@
      </sp>
      <sp who="#L0039_M13">
       <speaker>Bel.</speaker>
-      <p> She—Madeline—will come, and I have nothing to fear. <stage>Exit, guarded, R.H. 3 E
-       </stage>
-       <pb n="46"/> <stage>Enter Duke and De Blangy, R.U.E. </stage> </p>
+      <p> She—Madeline—will come, and I have nothing to fear. <stage>Exit, guarded, R.H. 3 E </stage>
+       <pb n="46"/>
+       <stage>Enter Duke and De Blangy, R.U.E. </stage>
+      </p>
      </sp>
      <sp who="#L0039_M3">
       <speaker>Blan.</speaker>
@@ -5015,11 +5344,13 @@
      </sp>
      <sp who="#L0039_M1">
       <speaker>Duke.</speaker>
-      <p> <stage>(R.C.)</stage> I know it, cousin. </p>
+      <p>
+       <stage>(R.C.)</stage> I know it, cousin. </p>
      </sp>
      <sp who="#L0039_M3">
       <speaker>Blan.</speaker>
-      <p> <stage>(L.C.)</stage> I have seen this Lavarennes, under the name of Rollac. </p>
+      <p>
+       <stage>(L.C.)</stage> I have seen this Lavarennes, under the name of Rollac. </p>
      </sp>
      <sp who="#L0039_M1">
       <speaker>Duke.</speaker>
@@ -5035,11 +5366,13 @@
      <sp who="#L0039_M1">
       <speaker>Duke.</speaker>
       <p><stage>(after a moment)</stage> Tell the judges she is ready to appear. <stage>Exit Blangy,
-       R. 3 E. </stage> </p>
+        R. 3 E. </stage>
+      </p>
      </sp>
      <sp who="#L0039_F16">
       <speaker>Mad.</speaker>
-      <p> <stage>(advances)</stage> Duke. </p>
+      <p>
+       <stage>(advances)</stage> Duke. </p>
      </sp>
      <sp who="#L0039_M1">
       <speaker>Duke.</speaker>
@@ -5047,8 +5380,9 @@
      </sp>
      <sp who="#L0039_F16">
       <speaker>Mad.</speaker>
-      <p> <stage>(L.C.)</stage> A sacred duty, the accomplishment of which nothing shall prevent—I
-       have sworn it, Duke. </p>
+      <p>
+       <stage>(L.C.)</stage> A sacred duty, the accomplishment of which nothing shall prevent—I have
+       sworn it, Duke. </p>
      </sp>
      <sp who="#L0039_M1">
       <speaker>Duke.</speaker>
@@ -5064,7 +5398,8 @@
      <sp who="#L0039_M1">
       <speaker>Duke.</speaker>
       <p> It is in seeking to save, that you destroy him, for I have here his pardon.<stage>(shows
-       it.)</stage> </p>
+        it.)</stage>
+      </p>
      </sp>
      <sp who="#L0039_F16">
       <speaker>Mad.</speaker>
@@ -5093,8 +5428,9 @@
       <speaker>Duke.</speaker>
       <p> I am the guardian of my house's honour, I am the parent of your father, the preserver of
        your child, and tell you solemnly that on your lips depend his pardon or his death.
-       <stage>Enter Courgemont, Jailor, two Judges of the Court, Marshal, Guards, Soldiers,
-       Gendarmes, R. 3 E. </stage> </p>
+        <stage>Enter Courgemont, Jailor, two Judges of the Court, Marshal, Guards, Soldiers,
+        Gendarmes, R. 3 E. </stage>
+      </p>
      </sp>
      <sp who="#L0039_M1">
       <speaker>Duke.</speaker>
@@ -5102,21 +5438,25 @@
      </sp>
      <sp who="#L0039_F16">
       <speaker>Mad.</speaker>
-      <p> <stage>(R.C., aside)</stage> Oh, brain. <stage>Belphegor is brought on, R. 3 E. </stage>
+      <p>
+       <stage>(R.C., aside)</stage> Oh, brain. <stage>Belphegor is brought on, R. 3 E. </stage>
       </p>
      </sp>
      <sp who="#L0039_M1">
       <speaker>Duke.</speaker>
       <p> My daughter, Messieurs.
-       <pb n="47"/> </p>
+       <pb n="47"/>
+      </p>
      </sp>
      <sp who="#L0039_M2">
       <speaker>Cour.</speaker>
-      <p> <stage>(C.)</stage> Madame—approach, Lavarennes. </p>
+      <p>
+       <stage>(C.)</stage> Madame—approach, Lavarennes. </p>
      </sp>
      <sp who="#L0039_M13">
       <speaker>Bel.</speaker>
-      <p> <stage>(R.C., seeing her)</stage> 'Tis she, and I am safe. </p>
+      <p>
+       <stage>(R.C., seeing her)</stage> 'Tis she, and I am safe. </p>
      </sp>
      <sp who="#L0039_M2">
       <speaker>Cour.</speaker>
@@ -5128,7 +5468,8 @@
      </sp>
      <sp who="#L0039_M2">
       <speaker>Cour.</speaker>
-      <p> <stage>(C.)</stage> Madame, oblige me by casting your eyes around. </p>
+      <p>
+       <stage>(C.)</stage> Madame, oblige me by casting your eyes around. </p>
      </sp>
      <sp who="#L0039_F16">
       <speaker>Mad.</speaker>
@@ -5144,8 +5485,10 @@
      </sp>
      <sp who="#L0039_M1">
       <speaker>Duke.</speaker>
-      <p> <stage>(aside to her)</stage> Remember that his life is in your hands. <stage>(about to
-       tear pardon.)</stage> </p>
+      <p>
+       <stage>(aside to her)</stage> Remember that his life is in your hands. <stage>(about to tear
+        pardon.)</stage>
+      </p>
      </sp>
      <sp who="#L0039_F16">
       <speaker>Mad.</speaker>
@@ -5166,13 +5509,14 @@
      </sp>
      <sp who="#L0039_F16">
       <speaker>Mad.</speaker>
-      <p> <stage>(L.C.)</stage> Heaven have pity upon me and him. </p>
+      <p>
+       <stage>(L.C.)</stage> Heaven have pity upon me and him. </p>
      </sp>
      <sp who="#L0039_M2">
       <speaker>Cour.</speaker>
-      <p> <stage>(C.)</stage> And you hear, Messieurs, this man dares to pretend <stage>(turns
-       towards the Duke)</stage> that this lady is his wife, and the mother of his two children.
-      </p>
+      <p>
+       <stage>(C.)</stage> And you hear, Messieurs, this man dares to pretend <stage>(turns towards
+        the Duke)</stage> that this lady is his wife, and the mother of his two children. </p>
      </sp>
      <sp who="#L0039_M13">
       <speaker>Bel.</speaker>
@@ -5183,17 +5527,21 @@
      </sp>
      <sp who="#L0039_M1">
       <speaker>Duke.</speaker>
-      <p> <stage>( L . )</stage> Madeline!<stage> (about to tear the pardon.) </stage> </p>
+      <p>
+       <stage>( L . )</stage> Madeline!<stage> (about to tear the pardon.) </stage>
+      </p>
      </sp>
      <sp who="#L0039_F16">
       <speaker>Mad.</speaker>
-      <p> <stage>(L.C.) </stage> That man is not my husband. </p>
+      <p>
+       <stage>(L.C.) </stage> That man is not my husband. </p>
      </sp>
      <sp who="#L0039_M13">
       <speaker>Bel.</speaker>
       <p><stage> (aghast)</stage> I'll ask no more if you are my wife—but I demand of you, are you
        not the mother of our children? <stage>Enter Flora and Henri, U.E.R.H.</stage> — Answer,
-       Madame, do you know this child? <stage>(Henri, C.)</stage> </p>
+       Madame, do you know this child? <stage>(Henri, C.)</stage>
+      </p>
      </sp>
      <sp who="#L0039_M15">
       <speaker>Hen.</speaker>
@@ -5202,16 +5550,19 @@
      </sp>
      <sp who="#L0039_F16">
       <speaker>Mad.</speaker>
-      <p> <stage>(to Duke.)</stage> It is my son—my son! My heart will surely break. </p>
+      <p>
+       <stage>(to Duke.)</stage> It is my son—my son! My heart will surely break. </p>
      </sp>
      <sp who="#L0039_M13">
       <speaker>Bel.</speaker>
-      <p> <stage>(to Madeline)</stage> Look—behold that child—speak but a word to save you from
+      <p>
+       <stage>(to Madeline)</stage> Look—behold that child—speak but a word to save you from
        lasting, from eternal shame. </p>
      </sp>
      <sp who="#L0039_F16">
       <speaker>Mad.</speaker>
-      <p><stage>(sees the Duke with the paper)</stage> Ah! <stage>(trembling.) </stage> </p>
+      <p><stage>(sees the Duke with the paper)</stage> Ah! <stage>(trembling.) </stage>
+      </p>
      </sp>
      <sp who="#L0039_M15">
       <speaker>Hen.</speaker>
@@ -5223,11 +5574,14 @@
      </sp>
      <sp who="#L0039_M13">
       <speaker>Bel.</speaker>
-      <p> <stage>(C.)</stage> Oh!<stage> (clasps his hands, with an inward groan.) </stage> </p>
+      <p>
+       <stage>(C.)</stage> Oh!<stage> (clasps his hands, with an inward groan.) </stage>
+      </p>
      </sp>
      <sp who="#L0039_M15">
       <speaker>Hen.</speaker>
-      <p> Father, father—what says she ?<stage>(crosses to him, R.H.)</stage> </p>
+      <p> Father, father—what says she ?<stage>(crosses to him, R.H.)</stage>
+      </p>
      </sp>
      <sp who="#L0039_M13">
       <speaker>Bel.</speaker>
@@ -5242,7 +5596,7 @@
      <sp who="#L0039_F16">
       <speaker>Mad.</speaker>
       <p><stage>(the Duke looks upon her)</stage> Oh, pity!—mercy!—my strength is gone. <stage>(to
-       the Duke, he again offers to destroy the paper)</stage> No, no—I have spoken—you are not my
+        the Duke, he again offers to destroy the paper)</stage> No, no—I have spoken—you are not my
        child! </p>
      </sp>
      <sp who="#L0039_M13">
@@ -5250,15 +5604,17 @@
       <p> It is not in nature—and all nature must have flown from
        <pb n="48"/> out her heart and breast. <stage>(aside)</stage> Well, well, I'll not wait for
        their fire to reach my heart, No, you shall see me perish before your eyes!<stage>(he makes a
-       bound towards the parapet of the platform,)</stage> Madeline you have denied, abandoned me. I
-       have now neither happiness nor hope, there is no future for me, that I should live for; and
+        bound towards the parapet of the platform,)</stage> Madeline you have denied, abandoned me.
+       I have now neither happiness nor hope, there is no future for me, that I should live for; and
        from this rampart I pass to a world where poverty is not punished as the worst of
        crimes—farewell <stage>(is about to throw himself from the ramparts, when Madeline
-       screams.)</stage> </p>
+        screams.)</stage>
+      </p>
      </sp>
      <sp who="#L0039_M15">
       <speaker>Hen.</speaker>
-      <p> <stage>(runs up, C.)</stage> Father—father! </p>
+      <p>
+       <stage>(runs up, C.)</stage> Father—father! </p>
      </sp>
      <sp who="#L0039_F16">
       <speaker>Mad.</speaker>
@@ -5266,8 +5622,11 @@
      </sp>
      <sp who="#L0039_M13">
       <speaker>Bel.</speaker>
-      <p> Speak—say—are they mine and yours? </p></sp>
-<sp who="#L0039_M1"><speaker>Duke.</speaker><p> Madeline! </p>
+      <p> Speak—say—are they mine and yours? </p>
+     </sp>
+     <sp who="#L0039_M1">
+      <speaker>Duke.</speaker>
+      <p> Madeline! </p>
      </sp>
      <sp who="#L0039_F16">
       <speaker>Mad.</speaker>
@@ -5284,13 +5643,15 @@
      </sp>
      <sp who="#L0039_M13">
       <speaker>Bel.</speaker>
-      <p> <stage>(to Courgemont)</stage> You see now, most sapient magistrate, that the lady is my
+      <p>
+       <stage>(to Courgemont)</stage> You see now, most sapient magistrate, that the lady is my
        wife—the mother of my two children. </p>
      </sp>
      <sp who="#L0039_M2">
       <speaker>Cour.</speaker>
-      <p> <stage>(R.C.)</stage> But 'tis still for the Court to decide if you are to be shot, or
-       not. </p>
+      <p>
+       <stage>(R.C.)</stage> But 'tis still for the Court to decide if you are to be shot, or not.
+      </p>
      </sp>
      <sp who="#L0039_F16">
       <speaker>Mad.</speaker>
@@ -5300,20 +5661,24 @@
       <speaker>Duke.</speaker>
       <p><stage>(crosses to Courgemont)</stage> Stay, Sir, will you oblige me by retiring for a
        short time, I would speak in private with this man. <stage>(they bow and retire, R. And L. 3
-       E.)</stage> <stage>Belphegor takes Flora'S hand, who goes with Madeline, L. 3 E. </stage>
+        E.)</stage>
+       <stage>Belphegor takes Flora'S hand, who goes with Madeline, L. 3 E. </stage>
       </p>
      </sp>
      <sp who="#L0039_M1">
       <speaker>Duke.</speaker>
-      <p> <stage>(R.C.)</stage> Madeline has proclaimed you as her husband; but to the eyes of your
+      <p>
+       <stage>(R.C.)</stage> Madeline has proclaimed you as her husband; but to the eyes of your
        judges, you are still Lavarennes, the presumptive proofs are too strong. Your death would
        save the honour of my house; but, notwithstanding this, you shall live—here is your
-       pardon.<stage>(gives pardon.)</stage> </p>
+        pardon.<stage>(gives pardon.)</stage>
+      </p>
      </sp>
      <sp who="#L0039_M13">
       <speaker>Bel.</speaker>
-      <p> <stage>(L.C.)</stage> I thank your Grace, I thought you'd not allow them to assassinate
-       me, when you knew this to be my wife. </p>
+      <p>
+       <stage>(L.C.)</stage> I thank your Grace, I thought you'd not allow them to assassinate me,
+       when you knew this to be my wife. </p>
      </sp>
      <sp who="#L0039_M1">
       <speaker>Duke.</speaker>
@@ -5323,25 +5688,31 @@
      <sp who="#L0039_M13">
       <speaker>Bel.</speaker>
       <p> 'Tis of little import to me—you keep your pride; but I take my wife and children. <stage>
-       Enter Madeline, L. 3 E. coming between them quickly with Henri and Jeanne. </stage> </p>
+        Enter Madeline, L. 3 E. coming between them quickly with Henri and Jeanne. </stage>
+      </p>
      </sp>
      <sp who="#L0039_F16">
       <speaker>Mad.</speaker>
-      <p> <stage>(C.)</stage> William, here is your daughter, your little Jeanne. </p>
+      <p>
+       <stage>(C.)</stage> William, here is your daughter, your little Jeanne. </p>
      </sp>
      <sp who="#L0039_M13">
       <speaker>Bel.</speaker>
-      <p> <stage>(C.)</stage> My little lost one—my own dove—ah! that face, too, in bloom of
-       health—yes—yes, restored safe—for this my thankful tears.<stage>(on his knees.)</stage> </p>
+      <p>
+       <stage>(C.)</stage> My little lost one—my own dove—ah! that face, too, in bloom of
+       health—yes—yes, restored safe—for this my thankful tears.<stage>(on his knees.)</stage>
+      </p>
      </sp>
      <sp who="#L0039_M1">
       <speaker>Duke.</speaker>
-      <p> <stage>(R.)</stage> Look on your child—health beaming in her face, and in her eye. </p>
+      <p>
+       <stage>(R.)</stage> Look on your child—health beaming in her face, and in her eye. </p>
      </sp>
      <sp who="#L0039_M13">
       <speaker>Bel.</speaker>
       <p><stage>(caressing her)</stage> My beautiful.
-       <pb n="49"/> </p>
+       <pb n="49"/>
+      </p>
      </sp>
      <sp who="#L0039_M1">
       <speaker>Duke.</speaker>
@@ -5350,7 +5721,7 @@
      <sp who="#L0039_M13">
       <speaker>Bel.</speaker>
       <p> My eyes are open now—my poor children, I must not love you in selfishness, but as a
-       father<stage>(rises)</stage>; her now bright eyes and health-tinted cheeks, inform me so.
+        father<stage>(rises)</stage>; her now bright eyes and health-tinted cheeks, inform me so.
        Give me your oath, you will rear this boy also in honour and respect. </p>
      </sp>
      <sp who="#L0039_M1">
@@ -5372,7 +5743,7 @@
        me—to Cayenne, as this pardon insists. I will swear, in my turn, never to behold my wife or
        children again<stage>(struggling with his feelings)</stage>—pardon these tears; but I am
        still a man, though a despised one. Suffer me to embrace them <stage>(with choked
-       utterance)</stage> for the last time—adieu, Henri, adieu—when you are happy, sometimes think
+        utterance)</stage> for the last time—adieu, Henri, adieu—when you are happy, sometimes think
        of me, Jeanne<stage> (embraces her).</stage> Farewell, Madeline! pardon what you have
        suffered for me, it is my misery, not my sin, that I am poor—I loved you—shall love you
        ever—adieu! </p>
@@ -5380,7 +5751,8 @@
      <sp who="#L0039_F16">
       <speaker>Mad.</speaker>
       <p> No—no, I will not part with you, I will not suffer you to depart alone, where you go, so
-       do I.<stage>(goes up C. to him)</stage> </p>
+       do I.<stage>(goes up C. to him)</stage>
+      </p>
      </sp>
      <sp who="#L0039_M1">
       <speaker>Duke.</speaker>
@@ -5407,7 +5779,8 @@
      </sp>
      <sp who="#L0039_M1">
       <speaker>Duke.</speaker>
-      <p> <stage>(R.H., embraces Children)</stage> Oh, childhood! thy voice pleads strongly: and,
+      <p>
+       <stage>(R.H., embraces Children)</stage> Oh, childhood! thy voice pleads strongly: and,
        casting pride aside, I yield to its holy impulse. The trial has been severe, but your mutual
        love will be the dearer for its tested faith. Belphégor, it was to save thy life I forced
        denial of thee from her lips. I shall now be alone. I would have saved our house's honours in
@@ -5420,8 +5793,9 @@
      </sp>
      <sp who="#L0039_F16">
       <speaker>Mad.</speaker>
-      <p> Yes, in time—their loss, not yours.<stage>(embracing.)</stage> <stage>Courgement and the
-       rest re-enter. </stage> </p>
+      <p> Yes, in time—their loss, not yours.<stage>(embracing.)</stage>
+       <stage>Courgement and the rest re-enter. </stage>
+      </p>
      </sp>
      <sp who="#L0039_M2">
       <speaker>Cour.</speaker>
@@ -5433,13 +5807,15 @@
      </sp>
      <sp who="#L0039_M2">
       <speaker>Cour.</speaker>
-      <p> Lavarennes pardoned! <stage>Rollac enters, L. 3 E. </stage> </p>
+      <p> Lavarennes pardoned! <stage>Rollac enters, L. 3 E. </stage>
+      </p>
      </sp>
      <sp who="#L0039_M7">
       <speaker>Rol.</speaker>
       <p> Oh, oh! I am happy to hear it—Lavarennes pardoned! Monsieur, I'll thank you for my
        passport to Portugal.<stage>(taking off his wig and false whiskers.)</stage>
-       <pb n="50"/> </p>
+       <pb n="50"/>
+      </p>
      </sp>
      <sp who="#L0039_M13">
       <speaker>Bel.</speaker>
@@ -5455,8 +5831,8 @@
      </sp>
      <sp who="#L0039_M2">
       <speaker>Cour.</speaker>
-      <p> <stage>(R. reads)</stage> Saved from being shot, but not from transportation to Cayenne.
-      </p>
+      <p>
+       <stage>(R. reads)</stage> Saved from being shot, but not from transportation to Cayenne. </p>
      </sp>
      <sp who="#L0039_M7">
       <speaker>Rol.</speaker>
@@ -5464,13 +5840,15 @@
      </sp>
      <sp who="#L0039_M13">
       <speaker>Bel.</speaker>
-      <p> <stage>( L . H . )</stage> Don't be in a hurry for that gentleman—he'll wait on you quite
-       soon enough. <stage>Exit Rollac, guarded, L. 1 E. </stage> </p>
+      <p>
+       <stage>( L . H . )</stage> Don't be in a hurry for that gentleman—he'll wait on you quite
+       soon enough. <stage>Exit Rollac, guarded, L. 1 E. </stage>
+      </p>
      </sp>
      <sp who="#L0039_F16">
       <speaker>Mad.</speaker>
-      <p> <stage>( L . C . )</stage> Thus, William, pride ever sinks before truth's radiant eye !
-      </p>
+      <p>
+       <stage>( L . C . )</stage> Thus, William, pride ever sinks before truth's radiant eye ! </p>
      </sp>
      <sp who="#L0039_M13">
       <speaker>Bel.</speaker>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L0631">
  <teiHeader>
   <fileDesc>
-   <titleStmt><title>The Fool's Revenge</title><author>Taylor, Tom</author><respStmt><resp>TEI conversion</resp><name>Lou Burnard</name></respStmt></titleStmt>
+   <titleStmt><title>The Fool's Revenge: TEI edition</title><author>Taylor, Tom</author><respStmt><resp>TEI conversion</resp><name>Lou Burnard</name></respStmt></titleStmt>
    <publicationStmt><distributor>Privately distributed by the Digital Lacy Project</distributor><idno type="LAE">L0631</idno><availability><licence target="https://creativecommons.org/publicdomain/zero/1.0/">The Lacy Project waives all rights to the TEI encoding applied to this material, which is believed to be in the public domain. You may copy, modify, distribute and perform this work freely. </licence></availability></publicationStmt>
    <sourceDesc><bibl type="origin" n="43.1"><author>Taylor, Tom</author><title type="main" n="thefoolsrevenge">The Fool's Revenge</title><title type="sub">A Drama in three
        acts</title><extent>57 pp (UM copy: 8 - 65)<measure type="pp" quantity="59"/>
@@ -11,7 +11,6 @@
   <measure type="spWords" quantity="12857"/>
   <measure type="stWords" quantity="1651"/>
   </extent>
-
       <note type="media"><ref target="https://www.npg.org.uk/collections/search/portrait/mw269855/Caroline-Heath-as-Fiordelisa-in-The-Fools-Revenge">Caroline Heath as Fiordelisa in 'The Fool's Revenge' by Camille Silvy albumen print, Spring
         1860 3 3/4 in. x 2 1/2 in. (95 mm x 63 mm) overall Photographs Collection NPG
        x196206</ref></note><title level="s"> Lacy's Acting Edition, volume 43, No. 0631</title><idno type="nic">N18964</idno><idno type="vpp">Vol43iFools</idno></bibl><bibl type="surrogate" subtype="copytext"><ref target="https://lb42.github.io/Lacy/Source/VPP/L0631-vpp.pdf">LoB from VPP</ref><ref target="local:Vol43/L0631/L0631-vpp.pdf"/><ref target="local:Vol43/L0631/Vol43iFools.pdf"/></bibl><bibl type="surrogate"><ref target="https://babel.hathitrust.org/cgi/pt?id=mdp.39015067453111&amp;seq=8 ">UM from
@@ -25,14 +24,8 @@
       </event>
      </listEvent></sourceDesc>
   </fileDesc>
-  <profileDesc><textClass>
-    <catRef target="#sizeL"/>
-    <catRef target="#act3"/>
-    <catRef target="nic:D."/>
-    <keywords>
-     <term>DRAMA</term>
-    </keywords>
-   </textClass><particDesc><listPerson>
+  
+  <profileDesc><!--L 3 Drama D. DRAMA--><textClass><catRef target="#sizeL"/><catRef target="#act3"/><catRef target="nic:D."/><keywords><term>DRAMA</term></keywords></textClass><particDesc><listPerson>
   <person xml:id="L0631_M1">
    <persName type="role">GALEOTTO MANFREDI</persName>
    <persName type="spkr" n="113">Man.</persName>
@@ -87,8 +80,7 @@
    <persName type="spkr" n="1">All</persName>
   </person>
 
- </listPerson></particDesc></profileDesc>
-  <revisionDesc><change when="2026-01-10">Metadata refreshed from catalogue and Partix folder</change>
+ </listPerson></particDesc></profileDesc><revisionDesc><change when="2026-01-11">Standardize header components</change><change when="2026-01-10">Metadata refreshed from catalogue and Partix folder</change>
    <change when="2025-12-29">Metadata refreshed from catalogue and Partix folder</change>
    <change when="2025-12-12">Auto-tagged by Gemini 3.0 (Flash 2.5)</change>
   </revisionDesc>
@@ -98,8 +90,8 @@
    <pb n="1"/>
    <titlePage>
     <docTitle>
-     <titlePart type="main">THE FOOL'S REVENGE</titlePart>
-     <titlePart type="sub">A Drama, IN THREE ACTS</titlePart>
+     <titlePart type="main">The Fool's Revenge</titlePart>
+     <titlePart type="sub">A Drama, in three acts</titlePart>
     </docTitle>
     <byline>by <docAuthor>TOM TAYLOR, Esq.,</docAuthor> author of <title>The House or the Home?
       </title><title>The Contested Election, </title><title>An Unequal Match,

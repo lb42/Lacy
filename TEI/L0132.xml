@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L0132">
  <teiHeader>
   <fileDesc>
-   <titleStmt><title>Macbeth</title><author>Shakespeare, William</author><respStmt><resp>TEI conversion</resp><name>Lou Burnard</name></respStmt></titleStmt>
+   <titleStmt><title>Macbeth,: TEI edition</title><author>Shakespeare, William</author><respStmt><resp>TEI conversion</resp><name>Lou Burnard</name></respStmt></titleStmt>
    <publicationStmt><distributor>Privately distributed by the Digital Lacy Project</distributor><idno type="LAE">L0132</idno><availability><licence target="https://creativecommons.org/publicdomain/zero/1.0/">The Lacy Project waives all rights to the TEI encoding applied to this material, which is believed to be in the public domain. You may copy, modify, distribute and perform this work freely. </licence></availability></publicationStmt>
    <sourceDesc><bibl type="origin" n="9.12"><author>Shakespeare, William</author><title type="main" n="macbeth">Macbeth</title><title type="sub">A Tragedy</title><extent>63 pp (UM copy: 289 -
        352)<measure type="pp" quantity="61"/>
@@ -11,7 +11,6 @@
   <measure type="spWords" quantity="12975"/>
   <measure type="stWords" quantity="899"/>
   </extent>
-
       <title level="s"> Lacy's Acting Edition, volume 9, No. 0132</title><idno type="nic">N80428</idno></bibl><bibl type="surrogate"><ref target="https://babel.hathitrust.org/cgi/pt?id=hvd.hn3jbn">HVD
        from HT</ref></bibl><bibl type="surrogate" subtype="copytext"><ref target="https://babel.hathitrust.org/cgi/pt?id=mdp.39015067453376&amp;seq=289 ">UM from
        HT</ref><ref target="local:Vol09/L0132/L0132-um.pdf"/></bibl><bibl type="surrogate" subtype="TEI"><ref target="https://lb42.github.io/Lacy/L0132.html">TEI</ref></bibl><listEvent>
@@ -28,14 +27,8 @@
      </listEvent></sourceDesc>
   </fileDesc>
 
-  <profileDesc><textClass>
-    <catRef target="#sizeL"/>
-    <catRef target="#act5"/>
-    <catRef target="nic:T."/>
-    <keywords>
-     <term>TRAGEDY</term>
-    </keywords>
-   </textClass><particDesc><listPerson>
+  
+  <profileDesc><!--L 5 Tragedy T. TRAGEDY--><textClass><catRef target="#sizeL"/><catRef target="#act5"/><catRef target="nic:T."/><keywords><term>TRAGEDY</term></keywords></textClass><particDesc><listPerson>
   <person xml:id="L0132_M1">
    <persName type="role">DUNCAN</persName>
    <persName type="spkr" n="18">Duncan.</persName>
@@ -159,8 +152,7 @@
 
 
 
- </listPerson></particDesc></profileDesc>
-  <revisionDesc><change when="2026-01-10">Metadata refreshed from catalogue and Partix folder</change><change when="2025-11-02">Metadata refreshed from catalogue and Partix folder</change>
+ </listPerson></particDesc></profileDesc><revisionDesc><change when="2026-01-11">Standardize header components</change><change when="2026-01-10">Metadata refreshed from catalogue and Partix folder</change><change when="2025-11-02">Metadata refreshed from catalogue and Partix folder</change>
    <change when="2025-10-08">Metadata updated from new catalogue</change>
    <change when="2025-10-08"> Initial header added</change>
   </revisionDesc>

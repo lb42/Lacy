@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L1300">
 <teiHeader>
 <fileDesc>
-<titleStmt><title type="main" n="flowermakersandheartb...">Lizzie Lyle; or, The Flower
-Makers of Finsbury</title><author>Hazlewood, Colin H.</author><respStmt><resp>TEI conversion</resp><name>Lou Burnard</name></respStmt></titleStmt>
+<titleStmt><title>Lizzie Lyle: Or The Flower Makers Of Finsbury. : TEI edition</title><author>Hazlewood, Colin H.</author><respStmt><resp>TEI conversion</resp><name>Lou Burnard</name></respStmt></titleStmt>
 <publicationStmt><distributor>Privately distributed by the Digital Lacy Project</distributor><idno type="LAE">L1300</idno><availability><licence target="https://creativecommons.org/publicdomain/zero/1.0/">The Lacy Project waives all rights to the TEI encoding applied to this material, which is believed to be in the public domain. You may copy, modify, distribute and perform this work freely. </licence></availability></publicationStmt>
 <sourceDesc><bibl type="origin" n="87.10"><author>Hazlewood, Colin H.</author><title type="main" n="flowermakersandheartb...">Lizzie Lyle; or, The Flower Makers of Finsbury</title><title type="sub">A Tale of Trials and Temptations in three acts</title><extent>49 pp (UM copy: 346
        - 395)<measure type="pp" quantity="50"/>
@@ -12,7 +11,6 @@ Makers of Finsbury</title><author>Hazlewood, Colin H.</author><respStmt><resp>TE
   <measure type="spWords" quantity="14169"/>
   <measure type="stWords" quantity="1452"/>
   </extent>
-
       <title level="s"> Lacy's Acting Edition, volume 87, No. 1300</title><idno type="nic">N13707</idno><idno type="vpp">Vol87xLizzie</idno></bibl><bibl type="surrogate" subtype="copytext"><ref target="https://lb42.github.io/Lacy/Source/VPP/L1300-vpp.pdf">LoB from VPP</ref><ref target="local:Vol87/L1300/L1300-vpp.pdf"/><ref target="local:Vol87/L1300/Vol87xLizzie.pdf"/></bibl><bibl type="surrogate"><ref target="https://archive.org/details/lizzielyleorflow00hazlrich">Internet Archive</ref></bibl><bibl type="surrogate"><ref target="https://babel.hathitrust.org/cgi/pt?id=mdp.39015067453574&amp;seq=346 ">UM from
        HT</ref><ref target="local:Vol87/L1300/L1300-um.pdf"/></bibl><bibl type="surrogate" subtype="TEI"><ref target="https://lb42.github.io/Lacy/L1300.html">TEI</ref></bibl><listEvent>
       <event type="firstPerf" when="1869-10-07" source="textNic" where="Grecian">
@@ -20,14 +18,8 @@ Makers of Finsbury</title><author>Hazlewood, Colin H.</author><respStmt><resp>TE
       </event>
      </listEvent></sourceDesc>
 </fileDesc>
-<profileDesc><textClass>
-<catRef target="#sizeM"/>
-<catRef target="#act3"/>
-<catRef target="nic:D."/>
-<keywords>
-<term>Drama</term>
-</keywords>
-</textClass><particDesc><listPerson>
+
+<profileDesc><!--M 3 X D. DRAMA--><textClass><catRef target="#sizeM"/><catRef target="#act3"/><catRef target="nic:D."/><keywords><term>DRAMA</term></keywords></textClass><particDesc><listPerson>
 <person xml:id="L1300_M1">
 <persName type="role">Nathaniel Dacre</persName>
 <persName type="spkr" n="1">Mr. Dacre.</persName>
@@ -122,8 +114,7 @@ Makers of Finsbury</title><author>Hazlewood, Colin H.</author><respStmt><resp>TE
 <persName type="spkr" n="1">Men.</persName>
 </person>
 
-</listPerson></particDesc></profileDesc>
-<revisionDesc><change when="2026-01-10">Metadata refreshed from catalogue and Partix folder</change><change when="2025-11-02">Metadata refreshed from catalogue and Partix folder</change>
+</listPerson></particDesc></profileDesc><revisionDesc><change when="2026-01-11">Standardize header components</change><change when="2026-01-10">Metadata refreshed from catalogue and Partix folder</change><change when="2025-11-02">Metadata refreshed from catalogue and Partix folder</change>
 <change when="2025-09-11">Hand edit @who</change>
 <change when="2025-09-07">Metadata updated from new catalogue</change>
 <change when="2025-06-21">Header confected</change>

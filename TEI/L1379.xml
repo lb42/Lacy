@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L1379">
  <teiHeader>
   <fileDesc>
-   <titleStmt><title n="thewomaninred" type="main">The Woman in Red</title><author>Coyne, Joseph Stirling</author><respStmt><resp>TEI conversion</resp><name>Lou Burnard</name></respStmt></titleStmt>
+   <titleStmt><title>The woman in red. : TEI edition</title><author>Coyne, Joseph Stirling</author><respStmt><resp>TEI conversion</resp><name>Lou Burnard</name></respStmt></titleStmt>
    <publicationStmt><distributor>Privately distributed by the Digital Lacy Project</distributor><idno type="LAE">L1379</idno><availability><licence target="https://creativecommons.org/publicdomain/zero/1.0/">The Lacy Project waives all rights to the TEI encoding applied to this material, which is believed to be in the public domain. You may copy, modify, distribute and perform this work freely. </licence></availability></publicationStmt>
    <sourceDesc><bibl type="origin" n="92.14"><author>Coyne, Joseph Stirling</author><title type="main" n="thewomaninred">The Woman in Red</title><title type="sub">A Drama in a Prologue and three
        acts</title><title type="source" n="#FR">Adapted and Altered from the French Piece of “La
@@ -12,7 +12,6 @@
   <measure type="spWords" quantity="14957"/>
   <measure type="stWords" quantity="4508"/>
   </extent>
-
       <title level="s"> Lacy's Acting Edition, volume 92, No. 1379</title><idno type="nic">N11251</idno></bibl><bibl type="surrogate" subtype="copytext"><ref target="https://babel.hathitrust.org/cgi/pt?id=mdp.39015067453715&amp;seq=528 ">UM from
        HT</ref><ref target="local:Vol92/L1379/L1379-um.pdf"/></bibl><bibl type="surrogate" subtype="TEI"><ref target="https://lb42.github.io/Lacy/L1379.html">TEI</ref></bibl><listEvent>
       <event type="firstPerf" when="1868-04-13" source="text" where="St.James's">
@@ -20,14 +19,8 @@
       </event>
      </listEvent></sourceDesc>
   </fileDesc>
-  <profileDesc><textClass>
-    <catRef target="#sizeL"/>
-    <catRef target="#act3"/>
-    <catRef target="nic:C."/>
-    <keywords>
-     <term>COMEDY</term>
-    </keywords>
-   </textClass><particDesc><listPerson>
+  
+  <profileDesc><!--L 3 Drama C. COMEDY--><textClass><catRef target="#sizeL"/><catRef target="#act3"/><catRef target="nic:C."/><keywords><term>COMEDY</term></keywords></textClass><particDesc><listPerson>
 <person xml:id="L1379_M1">
 <persName type="role">Hubert Malisett </persName>
 <persName type="spkr" n="25">Malis.</persName>
@@ -123,8 +116,7 @@
 
 </person>
 
-</listPerson></particDesc></profileDesc>
-  <revisionDesc><change when="2026-01-10">Metadata refreshed from catalogue and Partix folder</change><change when="2025-11-02">Metadata refreshed from catalogue and Partix folder</change><change when="2025-09-07">Metadata updated from new catalogue</change>
+</listPerson></particDesc></profileDesc><revisionDesc><change when="2026-01-11">Standardize header components</change><change when="2026-01-10">Metadata refreshed from catalogue and Partix folder</change><change when="2025-11-02">Metadata refreshed from catalogue and Partix folder</change><change when="2025-09-07">Metadata updated from new catalogue</change>
    <change when="2025-03-19">Header enriched</change>
    <change when="2025-01-14">Renumbering</change>
    <change when="2024-10-03">Header enriched</change>

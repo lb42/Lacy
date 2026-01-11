@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L0013">
 <teiHeader>
 <fileDesc>
-<titleStmt><title n="noveltyfair" type="main">Novelty Fair; or, Hints for 1851</title><author>[Taylor, Tom]</author><author>[Smith, Albert]</author><respStmt><resp>TEI conversion</resp><name>Lou Burnard</name></respStmt></titleStmt>
+<titleStmt><title>Novelty Fair; or, Hints for 1851.: TEI edition</title><author>[Taylor, Tom]</author><author>[Smith, Albert]</author><respStmt><resp>TEI conversion</resp><name>Lou Burnard</name></respStmt></titleStmt>
 <publicationStmt><distributor>Privately distributed by the Digital Lacy Project</distributor><idno type="LAE">L0013</idno><availability><licence target="https://creativecommons.org/publicdomain/zero/1.0/">The Lacy Project waives all rights to the TEI encoding applied to this material, which is believed to be in the public domain. You may copy, modify, distribute and perform this work freely. </licence></availability></publicationStmt>
 <sourceDesc><bibl type="origin" n="1.13"><author>[Taylor, Tom]</author>;<author>[Smith,
        Albert]</author><title type="main" n="noveltyfair">Novelty Fair; or, Hints for
@@ -13,7 +13,6 @@
   <measure type="spWords" quantity="5161"/>
   <measure type="stWords" quantity="1670"/>
   </extent>
-
       <title level="s"> Lacy's Acting Edition, volume 1, No. 0013</title><idno type="nic">N18933</idno><idno type="vpp">Vol1xiiiNovelty</idno></bibl><bibl type="surrogate" subtype="copytext"><ref target="https://lb42.github.io/Lacy/Source/VPP/L0013-vpp.pdf">LoB from VPP</ref><ref target="local:Vol01/L0013/L0013-vpp.pdf"/><ref target="local:Vol01/L0013/Vol1xiiiNovelty.pdf"/></bibl><bibl type="surrogate"><ref target="http://purl.ox.ac.uk/uuid/458daf25fe36439ca0a90838e62e8c71" n="L0013-bod">Bodleian
        Library Shuttleworth 67 (10)</ref></bibl><bibl type="surrogate"><ref target="https://hdl.handle.net/2027/hvd.32044086868825" n="L0013-hv.pdf">HVD from HT</ref><ref target="local:Vol01/L0013/L0013-hv.pdf"/></bibl><bibl type="surrogate"><ref target="https://babel.hathitrust.org/cgi/pt?id=mdp.39015043286031&amp;seq=358 ">UM from
        HT</ref><ref target="local:Vol01/L0013/L0013-um.pdf"/></bibl><bibl type="surrogate" subtype="TEI"><ref target="https://lb42.github.io/Lacy/L0013.html">TEI</ref></bibl><listEvent>
@@ -22,15 +21,8 @@
       </event>
      </listEvent></sourceDesc>
 </fileDesc>
-<profileDesc><textClass>
 
-<catRef target="#sizeS"/>
-<catRef target="#act1"/>
-<catRef target="nic:Rev."/>
-<keywords>
-<term>SPECTACLE</term>
-</keywords>
-</textClass><particDesc><listPerson>
+<profileDesc><!--S 1 Revue Rev. UNC--><textClass><catRef target="#sizeS"/><catRef target="#act1"/><catRef target="nic:Rev."/><keywords><term>UNC</term></keywords></textClass><particDesc><listPerson>
 <person xml:id="L0013_U1">
 <persName type="role">Time</persName>
 <persName type="spkr" n="20">Time.</persName>
@@ -133,8 +125,7 @@
 &amp;c.</persName>
 </person>
 
-</listPerson></particDesc></profileDesc>
-<revisionDesc><change when="2026-01-10">Metadata refreshed from catalogue and Partix folder</change><change when="2025-11-02">Metadata refreshed from catalogue and Partix folder</change>
+</listPerson></particDesc></profileDesc><revisionDesc><change when="2026-01-11">Standardize header components</change><change when="2026-01-10">Metadata refreshed from catalogue and Partix folder</change><change when="2025-11-02">Metadata refreshed from catalogue and Partix folder</change>
 <change when="2025-09-07">Metadata updated from new catalogue</change>
 <change when="2024-10-03">Header enriched</change>
 <change when="2024-02-12">Header confected</change>

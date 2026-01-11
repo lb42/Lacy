@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L0262">
 <teiHeader>
 <fileDesc>
-<titleStmt><title n="cinderella">Cinderella, or the Fairy-Queen and the Glass
-Slipper</title><author>Lacy, Michael Rophino</author><respStmt><resp>TEI conversion</resp><name>Lou Burnard</name></respStmt></titleStmt>
+<titleStmt><title>Cinderella, or the Fairy-Queen and the Glass Slipper.: TEI edition</title><author>Lacy, Michael Rophino</author><respStmt><resp>TEI conversion</resp><name>Lou Burnard</name></respStmt></titleStmt>
 <publicationStmt><distributor>Privately distributed by the Digital Lacy Project</distributor><idno type="LAE">L0262</idno><availability><licence target="https://creativecommons.org/publicdomain/zero/1.0/">The Lacy Project waives all rights to the TEI encoding applied to this material, which is believed to be in the public domain. You may copy, modify, distribute and perform this work freely. </licence></availability></publicationStmt>
 <sourceDesc><bibl type="origin" n="18.7"><author>Lacy, Michael Rophino</author><title type="main" n="cinderella">Cinderella; or the Fairy-Queen and the Glass Slipper</title><title type="sub">A Comic Opera in three acts</title><title type="music">Written, and the Music Adapted and
        Arranged, by Rophino Lacy</title><extent>61 pp (UM copy: 208 - 269)<measure type="pp" quantity="60"/>
@@ -12,7 +11,6 @@ Slipper</title><author>Lacy, Michael Rophino</author><respStmt><resp>TEI convers
   <measure type="spWords" quantity="12667"/>
   <measure type="stWords" quantity="3771"/>
   </extent>
-
       <title level="s"> Lacy's Acting Edition, volume 18, No. 0262</title><idno type="nic">N02129</idno></bibl><bibl type="surrogate" subtype="copytext"><ref target="https://babel.hathitrust.org/cgi/pt?id=mdp.39015067453335&amp;seq=208 ">UM from
        HT</ref><ref target="local:Vol18/L0262/L0262-um.pdf"/></bibl><bibl type="surrogate" subtype="TEI"><ref target="https://lb42.github.io/Lacy/L0262.html">TEI</ref></bibl><listEvent>
       <event type="firstPerf" when="1830-04-13" source="textNic" where="Covent">
@@ -20,14 +18,8 @@ Slipper</title><author>Lacy, Michael Rophino</author><respStmt><resp>TEI convers
       </event>
      </listEvent></sourceDesc>
 </fileDesc>
-<profileDesc><textClass>
-<catRef target="#sizeL"/>
-<catRef target="#act3"/>
-<catRef target="nic:C.O."/>
-<keywords>
-<term>OPERA</term>
-</keywords>
-</textClass><particDesc><listPerson>
+
+<profileDesc><!--L 3 ComicOperaMusic C.O. OPERA--><textClass><catRef target="#sizeL"/><catRef target="#act3"/><catRef target="nic:C.O."/><keywords><term>OPERA</term></keywords></textClass><particDesc><listPerson>
 <person xml:id="L0262_M1">
 <persName type="role">Felix</persName>
 <persName type="spkr" n="87">Prince.</persName>
@@ -121,8 +113,7 @@ Slipper</title><author>Lacy, Michael Rophino</author><respStmt><resp>TEI convers
 </person>
 
 
-</listPerson></particDesc></profileDesc>
-<revisionDesc><change when="2026-01-10">Metadata refreshed from catalogue and Partix folder</change><change when="2025-11-02">Metadata refreshed from catalogue and Partix folder</change>
+</listPerson></particDesc></profileDesc><revisionDesc><change when="2026-01-11">Standardize header components</change><change when="2026-01-10">Metadata refreshed from catalogue and Partix folder</change><change when="2025-11-02">Metadata refreshed from catalogue and Partix folder</change>
 <change when="2025-09-11">Hand edit @who</change>
 <change when="2025-09-07">Metadata updated from new catalogue</change>
 <change when="2025-03-24">Header enriched</change>
@@ -133,7 +124,7 @@ Slipper</title><author>Lacy, Michael Rophino</author><respStmt><resp>TEI convers
 <text><pb n="1"/>
 
 <front>
-<titlePage><titlePart type="main">CINDERELLA, or the Fairy-Queen and the Glass Slipper.</titlePart><titlePart type="sub">A Comic Opera, In Three Acts. The Music By Rossini. </titlePart><byline>Written, and the Music Adapted and Arranged By <docAuthor>Rophino
+<titlePage><titlePart type="main">Cinderella, or the Fairy-Queen and the Glass Slipper.</titlePart><titlePart type="sub">A Comic Opera, In Three Acts. The Music By Rossini. </titlePart><byline>Written, and the Music Adapted and Arranged By <docAuthor>Rophino
 Lacy</docAuthor> Author of <title>The Maid of Judah, </title><title>The girl in
 Italy, </title><title>Fra Diavolo, </title><title>Robert the Devil,
 </title><title>Love and Reason, </title><title>Love in Wrinkles,

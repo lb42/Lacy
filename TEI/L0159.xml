@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="ODD/out/lacy.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="ODD/out/lacy.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L0159">
 <teiHeader>
 <fileDesc>
-<titleStmt><title type="main" n="shylock">Shylock; or, The Merchant of Venice
-Preserved</title><author>Talfourd, Francis</author><respStmt><resp>TEI conversion</resp><name>Lou Burnard</name></respStmt></titleStmt>
+<titleStmt><title>Shylock Or, The Merchant Of Venice Preserved.: TEI edition</title><author>Talfourd, Francis</author><respStmt><resp>TEI conversion</resp><name>Lou Burnard</name></respStmt></titleStmt>
 <publicationStmt><distributor>Privately distributed by the Digital Lacy Project</distributor><idno type="LAE">L0159</idno><availability><licence target="https://creativecommons.org/publicdomain/zero/1.0/">The Lacy Project waives all rights to the TEI encoding applied to this material, which is believed to be in the public domain. You may copy, modify, distribute and perform this work freely. </licence></availability></publicationStmt>
 <sourceDesc><bibl type="origin" n="11.9"><author>Talfourd, Francis</author><title type="main" n="shylock">Shylock; or, The Merchant of Venice Preserved</title><title type="sub">An
        Entirely new reading of Shakespeare, From an edition hitherto undiscovered by modern
@@ -14,7 +13,6 @@ Preserved</title><author>Talfourd, Francis</author><respStmt><resp>TEI conversio
   <measure type="spWords" quantity="6446"/>
   <measure type="stWords" quantity="625"/>
   </extent>
-
       <title level="s"> Lacy's Acting Edition, volume 11, No. 0159</title><idno type="nic">N18885</idno><idno type="vpp">Vol11ixShylock</idno></bibl><bibl type="surrogate" subtype="copytext"><ref target="https://lb42.github.io/Lacy/Source/VPP/L0159-vpp.pdf">LoB from VPP</ref><ref target="local:Vol11/L0159/L0159-vpp.pdf"/><ref target="local:Vol11/L0159/Vol11ixShylock.pdf"/></bibl><bibl type="surrogate"><ref target="https://archive.org/details/shylockormerchan00talf">Internet Archive</ref></bibl><bibl type="surrogate"><ref target="https://hdl.handle.net/2027/iau.31858008539631">Hathi_Trust</ref></bibl><bibl type="surrogate"><ref target="https://babel.hathitrust.org/cgi/pt?id=mdp.39015067453384&amp;seq=284 ">UM from
        HT</ref><ref target="local:Vol11/L0159/L0159-um.pdf"/></bibl><bibl type="surrogate" subtype="TEI"><ref target="https://lb42.github.io/Lacy/L0159.html">TEI</ref></bibl><listEvent>
       <event type="LCP" when="1862-07-01" where="Olympic">
@@ -26,7 +24,7 @@ Preserved</title><author>Talfourd, Francis</author><respStmt><resp>TEI conversio
       </event>
      </listEvent></sourceDesc>
 </fileDesc>
-<profileDesc><textClass><catRef target="#sizeS"/><catRef target="#act0"/><catRef target="nic:Bsq."/><keywords><term>BURLESQUE</term></keywords></textClass><particDesc><listPerson>
+<profileDesc><!--S 0 X Bsq. BURLESQUE--><textClass><catRef target="#sizeS"/><catRef target="#act0"/><catRef target="nic:Bsq."/><keywords><term>BURLESQUE</term></keywords></textClass><particDesc><listPerson>
 <person xml:id="L0159_M1">
 <persName type="role"> Duke Of Venice</persName>
 <persName type="spkr" n="8">Duke.</persName>
@@ -86,7 +84,7 @@ Preserved</title><author>Talfourd, Francis</author><respStmt><resp>TEI conversio
 <persName type="spkr" n="3">Both</persName>
 <persName type="spkr" n="1">Chorus.</persName>
 </person>
-</listPerson></particDesc></profileDesc><revisionDesc><change when="2026-01-10">Metadata refreshed from catalogue and Partix folder</change><change when="2025-11-02">Metadata refreshed from catalogue and Partix folder</change><change when="2025-09-07">Metadata updated from new catalogue</change>
+</listPerson></particDesc></profileDesc><revisionDesc><change when="2026-01-11">Standardize header components</change><change when="2026-01-10">Metadata refreshed from catalogue and Partix folder</change><change when="2025-11-02">Metadata refreshed from catalogue and Partix folder</change><change when="2025-09-07">Metadata updated from new catalogue</change>
 <change when="2025-03-11">Header confected</change>
 </revisionDesc>
 </teiHeader>

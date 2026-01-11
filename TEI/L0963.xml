@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L0963">
  <teiHeader>
   <fileDesc>
-   <titleStmt><title n="theoctoroon" type="main">The Octoroon; or, Life in Louisiana</title><author>Boucicault, Dion</author><respStmt><resp>TEI conversion</resp><name>Lou Burnard</name></respStmt></titleStmt>
+   <titleStmt><title>The Octoroon; or Life in Louisiana: TEI edition</title><author>Boucicault, Dion</author><respStmt><resp>TEI conversion</resp><name>Lou Burnard</name></respStmt></titleStmt>
    <publicationStmt><distributor>Privately distributed by the Digital Lacy Project</distributor><idno type="LAE">L0963</idno><availability><licence target="https://creativecommons.org/publicdomain/zero/1.0/">The Lacy Project waives all rights to the TEI encoding applied to this material, which is believed to be in the public domain. You may copy, modify, distribute and perform this work freely. </licence></availability></publicationStmt>
    <sourceDesc><bibl type="origin" n="65.3"><author>Boucicault, Dion</author><title type="main" n="theoctoroon">The Octoroon; or, Life in Louisiana</title><title type="sub">A Play in four
        acts</title><extent>42 pp (UM copy: 64 - 106)<measure type="pp" quantity="43"/>
@@ -11,7 +11,6 @@
   <measure type="spWords" quantity="12141"/>
   <measure type="stWords" quantity="1649"/>
   </extent>
-
       <title level="s"> Lacy's Acting Edition, volume 65, No. 0963</title><idno type="nic">N09547</idno><idno type="vpp">Vol65iiiOctoroon</idno></bibl><bibl type="surrogate"><ref target="https://www.gutenberg.org/files/46091/46091-h/46091-h.htm">Gutenberg
        transcription</ref></bibl><bibl type="surrogate" subtype="copytext"><ref target="https://babel.hathitrust.org/cgi/pt?id=mdp.39015005887974&amp;seq=64 ">UM from
        HT</ref><ref target="local:Vol65/L0963/L0963-um.pdf"/></bibl><listEvent>
@@ -24,14 +23,8 @@
       </event>
      </listEvent></sourceDesc>
   </fileDesc>
-  <profileDesc><textClass>
-    <catRef target="#sizeM"/>
-    <catRef target="#act4"/>
-    <catRef target="nic:D."/>
-    <keywords>
-     <term>DRAMA</term>
-    </keywords>
-   </textClass><particDesc><listPerson>
+  
+  <profileDesc><!--M 4 Play D. DRAMA--><textClass><catRef target="#sizeM"/><catRef target="#act4"/><catRef target="nic:D."/><keywords><term>DRAMA</term></keywords></textClass><particDesc><listPerson>
   <person xml:id="L0963_1">
    <persName type="role">George Peyton</persName>
    <persName type="spkr" n="75">George.</persName>
@@ -130,8 +123,7 @@
    <persName type="spkr" n="20">Omnes.</persName>
    <persName type="spkr" n="1">Voice.</persName>
   </person>
- </listPerson></particDesc></profileDesc>
-  <revisionDesc><change when="2026-01-10">Metadata refreshed from catalogue and Partix folder</change><change when="2025-11-02">Metadata refreshed from catalogue and Partix folder</change>
+ </listPerson></particDesc></profileDesc><revisionDesc><change when="2026-01-11">Standardize header components</change><change when="2026-01-10">Metadata refreshed from catalogue and Partix folder</change><change when="2025-11-02">Metadata refreshed from catalogue and Partix folder</change>
    <change when="2025-09-22">Metadata updated from new catalogue</change>
    <change when="2023-09-05">Header confected</change>
   </revisionDesc>

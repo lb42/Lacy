@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L0321">
 <teiHeader>
 <fileDesc>
-<titleStmt><title n="thegarrickfever" type="main">The Garrick Fever</title><author>Planché, J.R.</author><respStmt><resp>TEI conversion</resp><name>Lou Burnard</name></respStmt></titleStmt>
+<titleStmt><title> The Garrick Fever. : TEI edition</title><author>Planché, J.R.</author><respStmt><resp>TEI conversion</resp><name>Lou Burnard</name></respStmt></titleStmt>
 <publicationStmt><distributor>Privately distributed by the Digital Lacy Project</distributor><idno type="LAE">L0321</idno><availability><licence target="https://creativecommons.org/publicdomain/zero/1.0/">The Lacy Project waives all rights to the TEI encoding applied to this material, which is believed to be in the public domain. You may copy, modify, distribute and perform this work freely. </licence></availability></publicationStmt>
 <sourceDesc><bibl type="origin" n="22.6"><author>Planché, J.R.</author><title type="main" n="thegarrickfever">The Garrick Fever</title><title type="sub">A Farce in one
        act</title><extent>25 pp (UM copy: 228 - 253)<measure type="pp" quantity="25"/>
@@ -11,7 +11,6 @@
   <measure type="spWords" quantity="5805"/>
   <measure type="stWords" quantity="562"/>
   </extent>
-
       <title level="s"> Lacy's Acting Edition, volume 22, No. 0321</title><idno type="nic">N03079</idno><idno type="vpp">Vol22viGarrick</idno></bibl><bibl type="surrogate" subtype="copytext"><ref target="https://lb42.github.io/Lacy/Source/VPP/L0321-vpp.pdf">LoB from VPP</ref><ref target="local:Vol22/L0321/L0321-vpp.pdf"/><ref target="local:Vol22/L0321/Vol22viGarrick.pdf"/></bibl><bibl type="surrogate"><ref target="https://babel.hathitrust.org/cgi/pt?id=mdp.39015053749829&amp;seq=228 ">UM from
        HT</ref><ref target="local:Vol22/L0321/L0321-um.pdf"/></bibl><bibl type="surrogate" subtype="TEI"><ref target="https://lb42.github.io/Lacy/L0321.html">TEI</ref></bibl><listEvent>
       <event type="firstPerf" when="1839-04-01" source="textNic" where="Olympic">
@@ -22,15 +21,8 @@
       </event>
      </listEvent></sourceDesc>
 </fileDesc>
-<profileDesc><textClass>
 
-<catRef target="#sizeS"/>
-<catRef target="#act1"/>
-<catRef target="nic:F."/>
-<keywords>
-<term>FARCE</term>
-</keywords>
-</textClass><particDesc><listPerson>
+<profileDesc><!--S 1 Farce F. FARCE--><textClass><catRef target="#sizeS"/><catRef target="#act1"/><catRef target="nic:F."/><keywords><term>FARCE</term></keywords></textClass><particDesc><listPerson>
 <person xml:id="L0321_M1">
 <persName type="role">Major Derrydown </persName>
 <persName type="spkr" n="39">Major.</persName>
@@ -101,8 +93,7 @@
 <persName type="spkr" n="1">Hardup.|Mrs.Hardup.</persName>
 <persName type="spkr" n="1">All (but Lady O'Leary.).</persName>
 </person>
-</listPerson></particDesc></profileDesc>
-<revisionDesc><change when="2026-01-10">Metadata refreshed from catalogue and Partix folder</change><change when="2025-11-02">Metadata refreshed from catalogue and Partix folder</change>
+</listPerson></particDesc></profileDesc><revisionDesc><change when="2026-01-11">Standardize header components</change><change when="2026-01-10">Metadata refreshed from catalogue and Partix folder</change><change when="2025-11-02">Metadata refreshed from catalogue and Partix folder</change>
 <change when="2025-09-10">Hand edit multi @who</change>
 <change when="2025-09-07">Metadata updated from new catalogue</change>
 <change when="2024-10-03">Header enriched</change>

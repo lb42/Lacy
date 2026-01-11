@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L0053">
 <teiHeader>
 <fileDesc>
-<titleStmt><title n="anythingforachange" type="main">Anything for a Change</title><author>Brooks, Shirley</author><respStmt><resp>TEI conversion</resp><name>Lou Burnard</name></respStmt></titleStmt>
+<titleStmt><title>Anything for a change: TEI edition</title><author>Brooks, Shirley</author><respStmt><resp>TEI conversion</resp><name>Lou Burnard</name></respStmt></titleStmt>
 <publicationStmt><distributor>Privately distributed by the Digital Lacy Project</distributor><idno type="LAE">L0053</idno><availability><licence target="https://creativecommons.org/publicdomain/zero/1.0/">The Lacy Project waives all rights to the TEI encoding applied to this material, which is believed to be in the public domain. You may copy, modify, distribute and perform this work freely. </licence></availability></publicationStmt>
 <sourceDesc><bibl type="origin" n="4.8"><author>Brooks, Shirley</author><title type="main" n="anythingforachange">Anything for a Change</title><title type="sub">A Petite Comedy in one
        Act</title><extent>21 pp (UM copy: 234 - 255)<measure type="pp" quantity="37"/>
@@ -11,7 +11,6 @@
   <measure type="spWords" quantity="6462"/>
   <measure type="stWords" quantity="665"/>
   </extent>
-
       <title level="s"> Lacy's Acting Edition, volume 4, No. 0053</title><idno type="nic">N00527</idno></bibl><bibl type="surrogate" subtype="copytext"><ref target="https://babel.hathitrust.org/cgi/pt?id=mdp.39015048540333&amp;seq=234 ">UM from
        HT</ref><ref target="local:Vol04/L0053/L0053-um.pdf"/></bibl><bibl type="surrogate" subtype="TEI"><ref target="https://lb42.github.io/Lacy/L0053.html">TEI</ref></bibl><listEvent>
       <event type="firstPerf" when="1848-06-07" source="textNic" where="Lyceum">
@@ -19,14 +18,8 @@
       </event>
      </listEvent></sourceDesc>
 </fileDesc>
-<profileDesc><textClass>
-<catRef target="#sizeS"/>
-<catRef target="#act1"/>
-<catRef target="nic:F."/>
-<keywords>
-<term>FARCE</term>
-</keywords>
-</textClass><particDesc><listPerson>
+
+<profileDesc><!--S 1 Comedy F. FARCE--><textClass><catRef target="#sizeS"/><catRef target="#act1"/><catRef target="nic:F."/><keywords><term>FARCE</term></keywords></textClass><particDesc><listPerson>
 <person xml:id="L0053_M1">
 <persName type="role">Mr. Paul Honeyball </persName>
 <persName type="spkr" n="119">Honey.</persName>
@@ -53,8 +46,7 @@
 <persName type="spkr" n="27">Eliza.</persName>
 </person>
 
-</listPerson></particDesc></profileDesc>
-<revisionDesc><change when="2026-01-10">Metadata refreshed from catalogue and Partix folder</change><change when="2025-11-02">Metadata refreshed from catalogue and Partix folder</change>
+</listPerson></particDesc></profileDesc><revisionDesc><change when="2026-01-11">Standardize header components</change><change when="2026-01-10">Metadata refreshed from catalogue and Partix folder</change><change when="2025-11-02">Metadata refreshed from catalogue and Partix folder</change>
 <change when="2025-09-11">Hand edited @who</change>
 <change when="2025-09-07">Metadata updated from new catalogue</change>
 <change when="2024-10-03">Header enriched</change>

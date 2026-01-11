@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L0075">
 <teiHeader>
 <fileDesc>
-<titleStmt><title n="anorganicaffection" type="main">An Organic Affection</title><author>Phillips, Mrs. Alfred</author><respStmt><resp>TEI conversion</resp><name>Lou Burnard</name></respStmt></titleStmt>
+<titleStmt><title>An Organic Affection: TEI edition</title><author>Phillips, Mrs. Alfred</author><respStmt><resp>TEI conversion</resp><name>Lou Burnard</name></respStmt></titleStmt>
 <publicationStmt><distributor>Privately distributed by the Digital Lacy Project</distributor><idno type="LAE">L0075</idno><availability><licence target="https://creativecommons.org/publicdomain/zero/1.0/">The Lacy Project waives all rights to the TEI encoding applied to this material, which is believed to be in the public domain. You may copy, modify, distribute and perform this work freely. </licence></availability></publicationStmt>
 <sourceDesc><bibl type="origin" n="5.15"><author>Phillips, Mrs. Alfred</author><title type="main" n="anorganicaffection">An Organic Affection</title><title type="sub">A Farce in one
        act</title><extent>19 pp (UM copy: 372 - 391)<measure type="pp" quantity="20"/>
@@ -11,7 +11,6 @@
   <measure type="spWords" quantity="5905"/>
   <measure type="stWords" quantity="1070"/>
   </extent>
-
       <title level="s"> Lacy's Acting Edition, volume 5, No. 0075</title><idno type="nic">N16828</idno><idno type="vpp">Vol05xvOrganic</idno></bibl><bibl type="surrogate" subtype="copytext"><ref target="https://lb42.github.io/Lacy/Source/VPP/L0075-vpp.pdf">LoB from VPP</ref><ref target="local:Vol05/L0075/L0075-vpp.pdf"/><ref target="local:Vol05/L0075/Vol05xvOrganic.pdf"/></bibl><bibl type="surrogate"><ref target="https://babel.hathitrust.org/cgi/pt?id=mdp.39015067453053&amp;seq=372 ">UM from
        HT</ref><ref target="local:Vol05/L0075/L0075-um.pdf"/></bibl><bibl type="surrogate" subtype="TEI"><ref target="https://lb42.github.io/Lacy/L0075.html">TEI</ref></bibl><listEvent>
       <event type="LCP" when="1862-01-09" where="Olympic">
@@ -23,14 +22,8 @@
       </event>
      </listEvent></sourceDesc>
 </fileDesc>
-<profileDesc><textClass>
-<catRef target="#sizeS"/>
-<catRef target="#act1"/>
-<catRef target="nic:F."/>
-<keywords>
-<term>FARCE</term>
-</keywords>
-</textClass><particDesc><listPerson>
+
+<profileDesc><!--S 1 Farce F. FARCE--><textClass><catRef target="#sizeS"/><catRef target="#act1"/><catRef target="nic:F."/><keywords><term>FARCE</term></keywords></textClass><particDesc><listPerson>
 <person xml:id="L0075_M1">
 <persName type="role">Mr. Doublequill Bun. </persName>
 <persName type="spkr" n="150">Bun.</persName>
@@ -72,8 +65,7 @@
 <persName type="spkr" n="1">Long and Fleece</persName>
 <persName type="spkr" n="2">Omnes.</persName>
 </person>
-</listPerson></particDesc></profileDesc>
-<revisionDesc><change when="2026-01-10">Metadata refreshed from catalogue and Partix folder</change><change when="2025-11-02">Metadata refreshed from catalogue and Partix folder</change>
+</listPerson></particDesc></profileDesc><revisionDesc><change when="2026-01-11">Standardize header components</change><change when="2026-01-10">Metadata refreshed from catalogue and Partix folder</change><change when="2025-11-02">Metadata refreshed from catalogue and Partix folder</change>
 <change when="2025-09-10">Hand edit multi @who</change>
 <change when="2025-09-07">Metadata updated from new catalogue</change>
 <change when="2024-10-03">Header enriched</change>
@@ -82,7 +74,7 @@
 </teiHeader>
 <text><pb n="1"/>
 <front>
-<titlePage><titlePart type="main">AN ORGANIC AFFECTION.</titlePart><titlePart type="sub">A farce in one act</titlePart><byline>By<docAuthor>Mrs. Alfred Phillips</docAuthor>Author of <title>Caught in
+ <titlePage><titlePart type="main">An Organic Affection</titlePart><titlePart type="sub">A farce in one act</titlePart><byline>By<docAuthor>Mrs. Alfred Phillips</docAuthor>Author of <title>Caught in
 his own Trap</title>,<title>The King's Choice</title>,<title>A Bachelor's
 Vow</title>,<title>Katty from Connaught</title> &amp;c.</byline><docImprint>THOMAS HAILES LACY,WELLINGTON STREET, STRAND,LONDON.</docImprint></titlePage>
 <pb n="2"/>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L1460">
  <teiHeader>
   <fileDesc>
-   <titleStmt><title n="onguard" type="main">On Guard</title><author>Gilbert, W.S.</author><respStmt><resp>TEI conversion</resp><name>Lou Burnard</name></respStmt></titleStmt>
+   <titleStmt><title>On Guard.: TEI edition</title><author>Gilbert, W.S.</author><respStmt><resp>TEI conversion</resp><name>Lou Burnard</name></respStmt></titleStmt>
    <publicationStmt><distributor>Privately distributed by the Digital Lacy Project</distributor><idno type="LAE">L1460</idno><availability><licence target="https://creativecommons.org/publicdomain/zero/1.0/">The Lacy Project waives all rights to the TEI encoding applied to this material, which is believed to be in the public domain. You may copy, modify, distribute and perform this work freely. </licence></availability></publicationStmt>
    <sourceDesc><bibl type="origin" n="98.5"><author>Gilbert, W.S.</author><title type="main" n="onguard">On Guard</title><title type="sub">An Entirely Original Comedy in three
        acts</title><extent>47 pp;<measure type="pp" quantity="45"/>
@@ -11,7 +11,6 @@
   <measure type="spWords" quantity="15063"/>
   <measure type="stWords" quantity="1107"/>
   </extent>
-
       <title level="s"> Lacy's Acting Edition, volume 98, No. 1460</title><idno type="nic">N12678</idno></bibl><bibl type="surrogate" subtype="copytext"><ref target="http://lb42.github.io/Lacy/Source/Vol98/L1460-lb.pdf">LB from LB</ref></bibl><listEvent>
       <event type="firstPerf" when="1872-10-28" source="text" where="Court">
        <desc>Premiered at Royal Court Theatre 28 Oct. 1872; Nicoll date 1871-10-28</desc>
@@ -19,14 +18,8 @@
      </listEvent></sourceDesc>
   </fileDesc>
 
-  <profileDesc><textClass>
-    <catRef target="#sizeM"/>
-    <catRef target="#act3"/>
-    <catRef target="nic:C."/>
-    <keywords>
-     <term>COMEDY</term>
-    </keywords>
-   </textClass><particDesc><listPerson>
+  
+  <profileDesc><!--M 3 Comedy C. COMEDY--><textClass><catRef target="#sizeM"/><catRef target="#act3"/><catRef target="nic:C."/><keywords><term>COMEDY</term></keywords></textClass><particDesc><listPerson>
 <person xml:id="L1460_M1">
 <persName type="role">Denis Grant </persName>
 <persName type="spkr" n="136">Denis.</persName>
@@ -65,8 +58,7 @@
 <persName type="spkr" n="2">Steward.</persName>
 <persName type="spkr" n="4">Voice.</persName>
 </person>
-</listPerson></particDesc></profileDesc>
-  <revisionDesc><change when="2026-01-10">Metadata refreshed from catalogue and Partix folder</change><change when="2025-11-02">Metadata refreshed from catalogue and Partix folder</change><change when="2025-09-07">Metadata updated from new catalogue</change>
+</listPerson></particDesc></profileDesc><revisionDesc><change when="2026-01-11">Standardize header components</change><change when="2026-01-10">Metadata refreshed from catalogue and Partix folder</change><change when="2025-11-02">Metadata refreshed from catalogue and Partix folder</change><change when="2025-09-07">Metadata updated from new catalogue</change>
    <change when="2025-03-19">Header enriched</change>
    <change when="2025-01-14">Renumbering</change>
    <change when="2024-10-03">Header enriched</change>

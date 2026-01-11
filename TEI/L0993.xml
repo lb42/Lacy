@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L0993">
  <teiHeader>
   <fileDesc>
-   <titleStmt><title n="wartotheknife" type="main">War to the Knife</title><author>Byron, Henry James</author><respStmt><resp>TEI conversion</resp><name>Lou Burnard</name></respStmt></titleStmt>
+   <titleStmt><title>War to the Knife: TEI edition</title><author>Byron, Henry James</author><respStmt><resp>TEI conversion</resp><name>Lou Burnard</name></respStmt></titleStmt>
    <publicationStmt><distributor>Privately distributed by the Digital Lacy Project</distributor><idno type="LAE">L0993</idno><availability><licence target="https://creativecommons.org/publicdomain/zero/1.0/">The Lacy Project waives all rights to the TEI encoding applied to this material, which is believed to be in the public domain. You may copy, modify, distribute and perform this work freely. </licence></availability></publicationStmt>
    <sourceDesc><bibl type="origin" n="67.3"><author>Byron, Henry James</author><title type="main" n="wartotheknife">War to the Knife</title><title type="sub">An Original Comedy in three
        acts</title><extent>30 pp (UM copy: 102 - 132)<measure type="pp" quantity="31"/>
@@ -11,7 +11,6 @@
   <measure type="spWords" quantity="8779"/>
   <measure type="stWords" quantity="1748"/>
   </extent>
-
       <title level="s"> Lacy's Acting Edition, volume 67, No. 0993</title><idno type="nic">N10389</idno></bibl><bibl type="surrogate" subtype="copytext"><ref target="https://babel.hathitrust.org/cgi/pt?id=mdp.39015067453483&amp;seq=102 ">UM from
        HT</ref><ref target="local:Vol67/L0993/L0993-um.pdf"/></bibl><bibl type="surrogate" subtype="TEI"><ref target="https://lb42.github.io/Lacy/L0993.html">TEI</ref></bibl><listEvent>
       <event type="firstPerf" when="1865-06-10" source="textNic" where="Prince">
@@ -19,14 +18,8 @@
       </event>
      </listEvent></sourceDesc>
   </fileDesc>
-  <profileDesc><textClass>
-    <catRef target="#sizeM"/>
-    <catRef target="#act3"/>
-    <catRef target="nic:C."/>
-    <keywords>
-     <term>COMEDY</term>
-    </keywords>
-   </textClass><particDesc><listPerson>
+  
+  <profileDesc><!--M 3 Comedy C. COMEDY--><textClass><catRef target="#sizeM"/><catRef target="#act3"/><catRef target="nic:C."/><keywords><term>COMEDY</term></keywords></textClass><particDesc><listPerson>
   <person xml:id="L0993_M1">
    <persName type="role">Mr. Harcourt</persName>
    <persName type="spkr" n="20">Harc.</persName>
@@ -85,8 +78,7 @@
 
 
 
- </listPerson></particDesc></profileDesc>
-  <revisionDesc><change when="2026-01-10">Metadata refreshed from catalogue and Partix folder</change><change when="2025-11-02">Metadata refreshed from catalogue and Partix folder</change><change when="2025-09-07">Metadata updated from new catalogue</change>
+ </listPerson></particDesc></profileDesc><revisionDesc><change when="2026-01-11">Standardize header components</change><change when="2026-01-10">Metadata refreshed from catalogue and Partix folder</change><change when="2025-11-02">Metadata refreshed from catalogue and Partix folder</change><change when="2025-09-07">Metadata updated from new catalogue</change>
    <change when="2025-05-04">Header enriched</change>
    <change when="2023-05-22">Header confected</change>
   </revisionDesc>
@@ -95,7 +87,7 @@
  <text><pb n="1"/>
 
   <front>
-   <titlePage><titlePart type="main">WAR TO THE KNIFE.</titlePart><titlePart type="sub">An original Comedy, IN THREE ACTS.</titlePart><byline>By <docAuthor>Henry J. Byron</docAuthor>, (Member of the Dramatic Authors' Society.)
+   <titlePage><titlePart type="main">War to the Knife</titlePart><titlePart type="sub">An original Comedy, in three acts.</titlePart><byline>By <docAuthor>Henry J. Byron</docAuthor>, (Member of the Dramatic Authors' Society.)
      Author of <title>Orpheus and Eurydice, </title><title>Lady Belle Belle; </title><title>The Old
      Story, </title><title>Dundreary Married and Done For, </title><title>Cinderella,
      </title><title>Blue Beard from a New Point of Hue, </title><title>Robinson Crusoe,

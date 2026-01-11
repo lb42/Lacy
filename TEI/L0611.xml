@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L0611">
 <teiHeader>
 <fileDesc>
-<titleStmt><title>Ruthven: a drama</title><author>Harris, A.</author><respStmt><resp>TEI conversion</resp><name>Lou Burnard</name></respStmt></titleStmt>
+<titleStmt><title>Ruthven: TEI edition</title><author>Harris, A.</author><respStmt><resp>TEI conversion</resp><name>Lou Burnard</name></respStmt></titleStmt>
 <publicationStmt><distributor>Privately distributed by the Digital Lacy Project</distributor><idno type="LAE">L0611</idno><availability><licence target="https://creativecommons.org/publicdomain/zero/1.0/">The Lacy Project waives all rights to the TEI encoding applied to this material, which is believed to be in the public domain. You may copy, modify, distribute and perform this work freely. </licence></availability></publicationStmt>
 <sourceDesc><bibl type="origin" n="41.11"><author>Harris, A.</author><title type="main" n="ruthven">Ruthven</title><title type="sub">A Drama in four acts</title><extent>51 pp (UM copy: 294 -
        345)<measure type="pp" quantity="51"/>
@@ -11,7 +11,6 @@
   <measure type="spWords" quantity="14151"/>
   <measure type="stWords" quantity="3149"/>
   </extent>
-
       <title level="s"> Lacy's Acting Edition, volume 41, No. 0611</title><idno type="nic">N13437</idno><idno type="vpp">Vol41xiRuthven</idno></bibl><bibl type="surrogate"><ref target="https://archive.org/details/ruthvendramainfo00harr">Internet Archive</ref></bibl><bibl type="surrogate"><ref target="https://hdl.handle.net/2027/uiuo.ark:/13960/t98684g0s">Hathi_Trust</ref></bibl><bibl type="surrogate" subtype="copytext"><ref target="https://babel.hathitrust.org/cgi/pt?id=mdp.39015067452964&amp;seq=294 ">UM from
        HT</ref><ref target="local:Vol41/L0611/L0611-um.pdf"/></bibl><listEvent>
       <event type="LCP" when="1862-04-23" where="Grecian">
@@ -23,14 +22,8 @@
       </event>
      </listEvent></sourceDesc>
 </fileDesc>
-<profileDesc><textClass>
-<catRef target="#sizeL"/>
-<catRef target="#act4"/>
-<catRef target="nic:D."/>
-<keywords>
-<term>DRAMA</term>
-</keywords>
-</textClass><particDesc><listPerson>
+
+<profileDesc><!--L 4 Drama D. DRAMA--><textClass><catRef target="#sizeL"/><catRef target="#act4"/><catRef target="nic:D."/><keywords><term>DRAMA</term></keywords></textClass><particDesc><listPerson>
 <person xml:id="L0611_M1">
 <persName type="role">Gilbert Count De Tiffanges</persName>
 <persName type="spkr" n="203">Gilbert.</persName>
@@ -120,8 +113,7 @@
 <persName type="spkr" n="1">Travellers.</persName>
 <persName type="spkr" n="1">Voices.</persName>
 </person>
-</listPerson></particDesc></profileDesc>
-<revisionDesc><change when="2026-01-10">Metadata refreshed from catalogue and Partix folder</change>
+</listPerson></particDesc></profileDesc><revisionDesc><change when="2026-01-11">Standardize header components</change><change when="2026-01-10">Metadata refreshed from catalogue and Partix folder</change>
 <change when="2025-11-08">Metadata refreshed from catalogue and Partix
 folder</change>
 <change when="2025-10-30">Header confected</change>
@@ -130,8 +122,8 @@ folder</change>
 <text>
 <front>
 <titlePage>
-<titlePart>Ruthven</titlePart>
-<titlePart> A Drama In Four Acts</titlePart>
+<titlePart type="main">Ruthven</titlePart>
+<titlePart type="sub"> A Drama In Four Acts</titlePart>
 <titlePart/>
 <byline>By <docAuthor>A. Harris, Esq.</docAuthor> Author Of <title>Little
 Treasure — </title><title>Too Much of a Good Thing — </title><title>My Son Diana

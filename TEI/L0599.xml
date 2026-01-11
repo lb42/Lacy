@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L0599">
  <teiHeader>
   <fileDesc>
-   <titleStmt><title>The Rifle Volunteers; or, Riflemen! Riflemen! Riflemen Form!</title><author>Stirling, Edward</author><respStmt><resp>TEI conversion</resp><name>Lou Burnard</name></respStmt></titleStmt>
+   <titleStmt><title> The Rifle Volunteers "Riflemen! Riflemen! Riflemen Form!": TEI edition</title><author>Stirling, Edward</author><respStmt><resp>TEI conversion</resp><name>Lou Burnard</name></respStmt></titleStmt>
    <publicationStmt><distributor>Privately distributed by the Digital Lacy Project</distributor><idno type="LAE">L0599</idno><availability><licence target="https://creativecommons.org/publicdomain/zero/1.0/">The Lacy Project waives all rights to the TEI encoding applied to this material, which is believed to be in the public domain. You may copy, modify, distribute and perform this work freely. </licence></availability></publicationStmt>
    <sourceDesc><bibl type="origin" n="40.14"><author>Stirling, Edward</author><title type="main" n="theriflevolunteers">The Rifle Volunteers; or, Riflemen! Riflemen! Riflemen
        Form!</title><title type="sub">An Apropos Sketch</title><extent>11 pp (UM copy: 500 -
@@ -12,7 +12,6 @@
   <measure type="spWords" quantity="3255"/>
   <measure type="stWords" quantity="400"/>
   </extent>
-
       <title level="s"> Lacy's Acting Edition, volume 40, No. 0599</title><idno type="nic">N18707</idno><idno type="vpp">Vol40xivRifle</idno></bibl><bibl type="surrogate" subtype="copytext"><ref target="https://lb42.github.io/Lacy/Source/VPP/L0599-vpp.pdf">LoB from VPP</ref><ref target="local:Vol40/L0599/L0599-vpp.pdf"/><ref target="local:Vol40/L0599/Vol40xivRifle.pdf"/></bibl><bibl type="surrogate"><ref target="https://babel.hathitrust.org/cgi/pt?id=mdp.39015067453277&amp;seq=500 ">UM from
        HT</ref><ref target="local:Vol40/L0599/L0599-um.pdf"/></bibl><listEvent>
       <event type="LCP" when="1862-06-13" where="Adelphi">
@@ -24,14 +23,8 @@
       </event>
      </listEvent></sourceDesc>
   </fileDesc>
-  <profileDesc><textClass>
-    <catRef target="#sizeS"/>
-    <catRef target="#act0"/>
-    <catRef target="nic:F."/>
-    <keywords>
-     <term>FARCE</term>
-    </keywords>
-   </textClass><particDesc><listPerson>
+  
+  <profileDesc><!--S 0 Sketch F. FARCE--><textClass><catRef target="#sizeS"/><catRef target="#act0"/><catRef target="nic:F."/><keywords><term>FARCE</term></keywords></textClass><particDesc><listPerson>
   <person xml:id="john-0599-m">
    <persName type="role">Mr.John Lawrence,</persName>
    <persName type="spkr" n="75">John.</persName>
@@ -48,8 +41,7 @@
    <persName type="role">Jane Triffles</persName>
    <persName type="spkr" n="41">Jane.</persName>
   </person>
- </listPerson></particDesc></profileDesc>
-  <revisionDesc><change when="2026-01-10">Metadata refreshed from catalogue and Partix folder</change><change when="2025-11-02">Metadata refreshed from catalogue and Partix folder</change>
+ </listPerson></particDesc></profileDesc><revisionDesc><change when="2026-01-11">Standardize header components</change><change when="2026-01-10">Metadata refreshed from catalogue and Partix folder</change><change when="2025-11-02">Metadata refreshed from catalogue and Partix folder</change>
    <change when="2025-09-28">Metadata updated from new catalogue</change>
    <change when="2025-09-26">Header confected</change>
   </revisionDesc>

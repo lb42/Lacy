@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L0296">
 <teiHeader>
 <fileDesc>
-<titleStmt><title n="theirishpost" type="main">The Irish Post</title><author>Planché, J.R.</author><respStmt><resp>TEI conversion</resp><name>Lou Burnard</name></respStmt></titleStmt>
+<titleStmt><title>The Irish Post: TEI edition</title><author>Planché, J.R.</author><respStmt><resp>TEI conversion</resp><name>Lou Burnard</name></respStmt></titleStmt>
 <publicationStmt><distributor>Privately distributed by the Digital Lacy Project</distributor><idno type="LAE">L0296</idno><availability><licence target="https://creativecommons.org/publicdomain/zero/1.0/">The Lacy Project waives all rights to the TEI encoding applied to this material, which is believed to be in the public domain. You may copy, modify, distribute and perform this work freely. </licence></availability></publicationStmt>
 <sourceDesc><bibl type="origin" n="20.11"><author>Planché, J.R.</author><title type="main" n="theirishpost">The Irish Post</title><title type="sub">A Comic Drama in two
        acts</title><extent>33 pp (UM copy: 340 - 373)<measure type="pp" quantity="34"/>
@@ -11,7 +11,6 @@
   <measure type="spWords" quantity="8787"/>
   <measure type="stWords" quantity="912"/>
   </extent>
-
       <title level="s"> Lacy's Acting Edition, volume 20, No. 0296</title><idno type="nic">N03100</idno><idno type="vpp">Vol20xiIrish</idno></bibl><bibl type="surrogate" subtype="copytext"><ref target="https://lb42.github.io/Lacy/Source/VPP/L0296-vpp.pdf">LoB from VPP</ref><ref target="local:Vol20/L0296/L0296-vpp.pdf"/><ref target="local:Vol20/L0296/Vol20xiIrish.pdf"/></bibl><bibl type="surrogate"><ref target="https://archive.org/details/irishpostcomicdr00planrich">Internet Archive</ref></bibl><bibl type="surrogate"><ref target="https://babel.hathitrust.org/cgi/pt?id=mdp.39015067453327&amp;seq=340 ">UM from
        HT</ref><ref target="local:Vol20/L0296/L0296-um.pdf"/></bibl><bibl type="surrogate" subtype="TEI"><ref target="https://lb42.github.io/Lacy/L0296.html">TEI</ref></bibl><listEvent>
       <event type="firstPerf" when="1846-02-28" source="textNic" where="Haymarket">
@@ -19,15 +18,8 @@
       </event>
      </listEvent></sourceDesc>
 </fileDesc>
-<profileDesc><textClass>
 
-<catRef target="#sizeM"/>
-<catRef target="#act2"/>
-<catRef target="nic:F."/>
-<keywords>
-<term>FARCE</term>
-</keywords>
-</textClass><particDesc><listPerson>
+<profileDesc><!--M 2 ComicDrama F. FARCE--><textClass><catRef target="#sizeM"/><catRef target="#act2"/><catRef target="nic:F."/><keywords><term>FARCE</term></keywords></textClass><particDesc><listPerson>
 <person xml:id="L0296_M1">
 <persName type="role">Mr. Sheriff Capsicomb</persName>
 <persName type="spkr" n="72">Caps.</persName>
@@ -96,8 +88,7 @@
 <persName type="spkr" n="1">Mrs. C. | George | Mary</persName>
 </person>
 
-</listPerson></particDesc></profileDesc>
-<revisionDesc><change when="2026-01-10">Metadata refreshed from catalogue and Partix folder</change><change when="2025-11-02">Metadata refreshed from catalogue and Partix folder</change>
+</listPerson></particDesc></profileDesc><revisionDesc><change when="2026-01-11">Standardize header components</change><change when="2026-01-10">Metadata refreshed from catalogue and Partix folder</change><change when="2025-11-02">Metadata refreshed from catalogue and Partix folder</change>
 <change when="2025-09-10">Multi @who hand edits</change>
 <change when="2025-09-07">Metadata updated from new catalogue</change>
 <change when="2024-10-03">Header enriched</change>

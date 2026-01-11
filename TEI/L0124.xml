@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L0124">
  <teiHeader>
   <fileDesc>
-   <titleStmt><title n="theloanofalover" type="main">The Loan of a Lover</title><author>Planché, J.R.</author><respStmt><resp>TEI conversion</resp><name>Lou Burnard</name></respStmt></titleStmt>
+   <titleStmt><title> The Loan of a Lover: TEI edition</title><author>Planché, J.R.</author><respStmt><resp>TEI conversion</resp><name>Lou Burnard</name></respStmt></titleStmt>
    <publicationStmt><distributor>Privately distributed by the Digital Lacy Project</distributor><idno type="LAE">L0124</idno><availability><licence target="https://creativecommons.org/publicdomain/zero/1.0/">The Lacy Project waives all rights to the TEI encoding applied to this material, which is believed to be in the public domain. You may copy, modify, distribute and perform this work freely. </licence></availability></publicationStmt>
    <sourceDesc><bibl type="origin" n="9.4"><author>Planché, J.R.</author><title type="main" n="theloanofalover">The Loan of a Lover</title><title type="sub">A
        Vaudeville</title><extent>25 pp (UM copy: 76 - 101)<measure type="pp" quantity="26"/>
@@ -11,7 +11,6 @@
   <measure type="spWords" quantity="7268"/>
   <measure type="stWords" quantity="395"/>
   </extent>
-
       <title level="s"> Lacy's Acting Edition, volume 9, No. 0124</title><idno type="nic">N03055</idno><idno type="vpp">Vol09ivLoan</idno></bibl><bibl type="surrogate" subtype="copytext"><ref target="https://lb42.github.io/Lacy/Source/VPP/L0124-vpp.pdf">LoB from VPP</ref><ref target="local:Vol09/L0124/L0124-vpp.pdf"/><ref target="local:Vol09/L0124/Vol09ivLoan.pdf"/></bibl><bibl type="surrogate"><ref target="https://archive.org/details/loanoflovervaude0000plan_m3j9">UW from IA</ref><ref target="local:Vol09/L0124/L0124-uw.pdf"/></bibl><bibl type="surrogate"><ref target="https://babel.hathitrust.org/cgi/pt?id=mdp.39015067453376&amp;seq=76 ">UM from
        HT</ref><ref target="local:Vol09/L0124/L0124-um.pdf"/></bibl><bibl type="surrogate" subtype="TEI"><ref target="https://lb42.github.io/Lacy/L0124.html">TEI</ref></bibl><listEvent>
       <event type="firstPerf" when="1834-09-29" source="textNic" where="Olympic">
@@ -19,14 +18,8 @@
       </event>
      </listEvent></sourceDesc>
   </fileDesc>
-  <profileDesc><textClass>
-    <catRef target="#sizeS"/>
-    <catRef target="#act1"/>
-    <catRef target="nic:Vaud."/>
-    <keywords>
-     <term>SPECTACLE</term>
-    </keywords>
-   </textClass><particDesc><listPerson>
+  
+  <profileDesc><!--S 1 Vaudeville Vaud. SPECTACLE--><textClass><catRef target="#sizeS"/><catRef target="#act1"/><catRef target="nic:Vaud."/><keywords><term>SPECTACLE</term></keywords></textClass><particDesc><listPerson>
 <person xml:id="L0124_M1">
 <persName type="role">Captain Amersfort</persName>
 <persName type="spkr" n="51">Amer.</persName>
@@ -58,8 +51,7 @@
 <persName type="role">[Multiple speakers]</persName>
 <persName type="spkr" n="1">All.</persName>
 </person>
-</listPerson></particDesc></profileDesc>
-  <revisionDesc><change when="2026-01-10">Metadata refreshed from catalogue and Partix folder</change><change when="2025-11-02">Metadata refreshed from catalogue and Partix folder</change>
+</listPerson></particDesc></profileDesc><revisionDesc><change when="2026-01-11">Standardize header components</change><change when="2026-01-10">Metadata refreshed from catalogue and Partix folder</change><change when="2025-11-02">Metadata refreshed from catalogue and Partix folder</change>
    <change when="2025-09-07">Metadata updated from new catalogue</change>
    <change when="2024-10-03">Header enriched</change>
    <change when="2023-11-17">Hand edited</change>
@@ -70,7 +62,7 @@
   <pb n="1"/>
   <front>
    <titlePage>
-    <titlePart type="main"> THE LOAN OF A LOVER </titlePart>
+    <titlePart type="main"> The Loan of a Lover</titlePart>
     <titlePart type="sub"> A Vaudeville. </titlePart>
     <byline> By <docAuthor>J. R. Planche</docAuthor> AUTHOR OF <title>Reputation</title>,
       <title>Follies of a Night</title>, <title>Grist to the Mill</title>, <title>Captain of the

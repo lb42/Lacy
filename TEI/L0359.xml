@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L0359">
 <teiHeader>
 <fileDesc>
-<titleStmt><title n="twicekilled" type="main">Twice Killed</title><author>Oxenford, John</author><respStmt><resp>TEI conversion</resp><name>Lou Burnard</name></respStmt></titleStmt>
+<titleStmt><title>Twice Killed: TEI edition</title><author>Oxenford, John</author><respStmt><resp>TEI conversion</resp><name>Lou Burnard</name></respStmt></titleStmt>
 <publicationStmt><distributor>Privately distributed by the Digital Lacy Project</distributor><idno type="LAE">L0359</idno><availability><licence target="https://creativecommons.org/publicdomain/zero/1.0/">The Lacy Project waives all rights to the TEI encoding applied to this material, which is believed to be in the public domain. You may copy, modify, distribute and perform this work freely. </licence></availability></publicationStmt>
 <sourceDesc><bibl type="origin" n="24.14"><author>Oxenford, John</author><title type="main" n="twicekilled">Twice Killed</title><title type="sub">A Farce in one act</title><extent>23 pp
        (UM copy: 460 - 483)<measure type="pp" quantity="24"/>
@@ -11,7 +11,6 @@
   <measure type="spWords" quantity="5844"/>
   <measure type="stWords" quantity="587"/>
   </extent>
-
       <title level="s"> Lacy's Acting Edition, volume 24, No. 0359</title><idno type="nic">N02741</idno><idno type="vpp">Vol24xivTwice</idno></bibl><bibl type="surrogate" subtype="copytext"><ref target="https://lb42.github.io/Lacy/Source/VPP/L0359-vpp.pdf">LoB from VPP</ref><ref target="local:Vol24/L0359/L0359-vpp.pdf"/><ref target="local:Vol24/L0359/Vol24xivTwice.pdf"/></bibl><bibl type="surrogate"><ref target="https://www.gutenberg.org/files/49481/49481-h/49481-h.htm">Gutenberg
        transcription</ref></bibl><bibl type="surrogate"><ref target="https://archive.org/details/twicekilledfarce0000oxen">UW from IA</ref><ref target="local:Vol24/L0359/L0359-uw.pdf"/></bibl><bibl type="surrogate"><ref target="https://babel.hathitrust.org/cgi/pt?id=osu.32435054639315">Hathi_Trust</ref></bibl><bibl type="surrogate"><ref target="https://babel.hathitrust.org/cgi/pt?id=mdp.39015067453319&amp;seq=460 ">UM from
        HT</ref><ref target="local:Vol24/L0359/L0359-um.pdf"/></bibl><bibl type="surrogate" subtype="TEI"><ref target="https://lb42.github.io/Lacy/L0359.html">TEI</ref></bibl><listEvent>
@@ -20,14 +19,8 @@
       </event>
      </listEvent></sourceDesc>
 </fileDesc>
-<profileDesc><textClass>
-<catRef target="#sizeS"/>
-<catRef target="#act1"/>
-<catRef target="nic:Ba."/>
-<keywords>
-<term>Burletta</term>
-</keywords>
-</textClass><particDesc><listPerson>
+
+<profileDesc><!--S 1 Farce Ba. BURLETTA--><textClass><catRef target="#sizeS"/><catRef target="#act1"/><catRef target="nic:Ba."/><keywords><term>BURLETTA</term></keywords></textClass><particDesc><listPerson>
 <person xml:id="L0359_M1">
 <persName type="role">Mr. Euclid Facile </persName>
 <persName type="spkr" n="111">Euclid.</persName>
@@ -75,8 +68,7 @@
 <persName type="spkr" n="1">Hold.|Mrs. F.</persName>
 <persName type="spkr" n="1">Fanny.| Euclid.</persName>
 </person>
-</listPerson></particDesc></profileDesc>
-<revisionDesc><change when="2026-01-10">Metadata refreshed from catalogue and Partix folder</change><change when="2025-11-02">Metadata refreshed from catalogue and Partix folder</change>
+</listPerson></particDesc></profileDesc><revisionDesc><change when="2026-01-11">Standardize header components</change><change when="2026-01-10">Metadata refreshed from catalogue and Partix folder</change><change when="2025-11-02">Metadata refreshed from catalogue and Partix folder</change>
 <change when="2025-09-10">Handedit @who multiples</change>
 <change when="2025-09-07">Metadata updated from new catalogue</change>
 <change when="2024-10-03">Header enriched</change>

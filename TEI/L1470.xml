@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L1470">
 <teiHeader>
 <fileDesc>
-<titleStmt><title type="main" n="thebattleofwaterloo">The Battle of Waterloo</title><author>Amherst, J.H.</author><respStmt><resp>TEI conversion</resp><name>Lou Burnard</name></respStmt></titleStmt>
+<titleStmt><title>The Battle of Waterloo, : TEI edition</title><author>Amherst, J.H.</author><respStmt><resp>TEI conversion</resp><name>Lou Burnard</name></respStmt></titleStmt>
 <publicationStmt><distributor>Privately distributed by the Digital Lacy Project</distributor><idno type="LAE">L1470</idno><availability><licence target="https://creativecommons.org/publicdomain/zero/1.0/">The Lacy Project waives all rights to the TEI encoding applied to this material, which is believed to be in the public domain. You may copy, modify, distribute and perform this work freely. </licence></availability></publicationStmt>
 <sourceDesc><bibl type="origin" n="98.15"><author>Amherst, J.H.</author><title type="main" n="thebattleofwaterloo">The Battle of Waterloo</title><title type="sub">A Grand Military
        Melo-Drama in three acts</title><series>Duncombe's edition</series><extent>36 pp;<measure type="pp" quantity="36"/>
@@ -11,7 +11,6 @@
   <measure type="spWords" quantity="9134"/>
   <measure type="stWords" quantity="2889"/>
   </extent>
-
       <note type="ed">https://hdl.handle.net/2027/uiuc.5276192_001 is a toy theatre
        version</note><title level="s"> Lacy's Acting Edition, volume 98, No. 1470</title><idno type="nic">N00125</idno></bibl><bibl type="surrogate" subtype="copytext"><ref target="https://lb42.github.io/Lacy/Source/Vol98/L1470-lb.pdf">LB from LB</ref></bibl><bibl type="surrogate"><ref target="https://www.taylorfrancis.com/reader/download/22f621aa-a462-4e47-acdd-06c949a4ae2c/chapter/pdf?context=ubx" n="L1470-tandf">Poppiti ed.</ref></bibl><bibl type="surrogate" subtype="TEI"><ref target="https://lb42.github.io/Lacy/L1470.html">TEI</ref></bibl><listEvent>
       <event type="firstPerf" when="1824-04-19" source="nicoll" where="Astley's">
@@ -22,14 +21,8 @@
       </event>
      </listEvent></sourceDesc>
 </fileDesc>
-<profileDesc><textClass>
-<catRef target="#sizeM"/>
-<catRef target="#act3"/>
-<catRef target="nic:Spec."/>
-<keywords>
-<term>SPECTACLE</term>
-</keywords>
-</textClass><particDesc><listPerson>
+
+<profileDesc><!--M 3 Drama Spec. SPECTACLE--><textClass><catRef target="#sizeM"/><catRef target="#act3"/><catRef target="nic:Spec."/><keywords><term>SPECTACLE</term></keywords></textClass><particDesc><listPerson>
   <person xml:id="L1470_M1">
    <persName type="role">Duke of Wellington</persName>
    <persName type="spkr" n="1">Duke of Wellington</persName>
@@ -225,8 +218,7 @@
 
 
 
- </listPerson></particDesc></profileDesc>
-<revisionDesc><change when="2026-01-10">Metadata refreshed from catalogue and Partix folder</change><change when="2025-11-02">Metadata refreshed from catalogue and Partix folder</change>
+ </listPerson></particDesc></profileDesc><revisionDesc><change when="2026-01-11">Standardize header components</change><change when="2026-01-10">Metadata refreshed from catalogue and Partix folder</change><change when="2025-11-02">Metadata refreshed from catalogue and Partix folder</change>
 <change when="2025-09-07">hand edit @who</change>
 <change when="2025-09-07">Metadata updated from new catalogue</change>
 <change when="2025-05-28">Header enriched</change>

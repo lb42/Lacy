@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L0435">
  <teiHeader>
   <fileDesc>
-   <titleStmt><title>Gwynneth Vaughan</title><author>Lemon, Mark, Esq.</author><respStmt><resp>TEI conversion</resp><name>Lou Burnard</name></respStmt></titleStmt>
+   <titleStmt><title>Gwynneth Vaughan: TEI edition</title><author>Lemon, Mark, Esq.</author><respStmt><resp>TEI conversion</resp><name>Lou Burnard</name></respStmt></titleStmt>
    <publicationStmt><distributor>Privately distributed by the Digital Lacy Project</distributor><idno type="LAE">L0435</idno><availability><licence target="https://creativecommons.org/publicdomain/zero/1.0/">The Lacy Project waives all rights to the TEI encoding applied to this material, which is believed to be in the public domain. You may copy, modify, distribute and perform this work freely. </licence></availability></publicationStmt>
    <sourceDesc><bibl type="origin" n="29.15"><author>Lemon, Mark</author><title type="main" n="gwynethvaughan">Gwyneth Vaughan</title><title type="sub">A Drama in two
        acts</title><extent>31 pp (UM copy: 438 - 469)<measure type="pp" quantity="28"/>
@@ -11,7 +11,6 @@
   <measure type="spWords" quantity="9562"/>
   <measure type="stWords" quantity="725"/>
   </extent>
-
       <title level="s"> Lacy's Acting Edition, volume 29, No. 0435</title><idno type="nic">N02192</idno></bibl><bibl type="surrogate" subtype="copytext"><ref target="https://babel.hathitrust.org/cgi/pt?id=mdp.39015067453004&amp;seq=438 ">UM from
        HT</ref><ref target="local:Vol29/L0435/L0435-um.pdf"/></bibl><listEvent>
       <event type="firstPerf" when="1840-04-01" source="nicoll" where="Olympic">
@@ -19,14 +18,8 @@
       </event>
      </listEvent></sourceDesc>
   </fileDesc>
-  <profileDesc><textClass>
-    <catRef target="#sizeM"/>
-    <catRef target="#act2"/>
-    <catRef target="nic:D."/>
-    <keywords>
-     <term>DRAMA</term>
-    </keywords>
-   </textClass><particDesc><listPerson>
+  
+  <profileDesc><!--M 2 Drama D. DRAMA--><textClass><catRef target="#sizeM"/><catRef target="#act2"/><catRef target="nic:D."/><keywords><term>DRAMA</term></keywords></textClass><particDesc><listPerson>
   <person xml:id="L0435_M1">
    <persName type="role">Owen Williams</persName>
    <persName type="spkr" n="49">Owen.</persName>
@@ -84,8 +77,7 @@
    <persName type="role">[Multiple speakers]</persName>
    <persName type="spkr" n="7">Omnes.</persName>
   </person>
- </listPerson></particDesc></profileDesc>
-  <revisionDesc><change when="2026-01-10">Metadata refreshed from catalogue and Partix folder</change>
+ </listPerson></particDesc></profileDesc><revisionDesc><change when="2026-01-11">Standardize header components</change><change when="2026-01-10">Metadata refreshed from catalogue and Partix folder</change>
    <change when="2025-12-27">Metadata refreshed from catalogue and Partix folder</change>
    <change when="2025-12-03">XML transcription adhering strictly to TEI-P5 standards for dramatic
     text, including corrected castList and single paragraph per speech.</change>
@@ -94,9 +86,9 @@
  <text>
   <front>
    <titlePage>
-    <titlePart>GWYNNETH VAUGHAN</titlePart>
-    <titlePart> A DRAMA IN TWO ACTS</titlePart>
-    <byline> BY <docAuthor>MARK LEMON, Esq.</docAuthor> AUTHOR OF <title>Arnold of Winklereid,
+    <titlePart type="main">Gwynneth Vaughan</titlePart>
+    <titlePart type="sub"> a drama in two acts</titlePart>
+    <byline> BY <docAuthor>MARK LEMON, Esq.</docAuthor> author of  <title>Arnold of Winklereid,
       </title><title>Self Accusation, </title><title>M.P. for the Rotten Borough, </title><title>My
       Sister Kate, Love and </title><title>Charity, </title><title>Pupil of da Vinci,
       </title><title>Silver Thimble, </title><title>Deer Stalkers, </title><title>Little Gypsy.
@@ -109,10 +101,10 @@
       Doublet, </title><title>The Turf, </title><title>What will the World say?
       </title><title>Bashful Irishman, </title><title>Yellow Husband, </title><title>The Ancestress,
       </title><title>The Dumb Bedouin, </title><title>Robert Burns, </title><title>Railway Belle,
-      </title><title>The Slovo Man;</title> AND JOINTLY OF THE <title>Chimes, </title><title>Open
+      </title><title>The Slovo Man;</title> and jointly of the <title>Chimes, </title><title>Open
       Sesame, </title><title>Cold Water Cure, </title><title>World Underground, </title><title>Wax
       and Wonders, </title><title>Slave Life, </title><title>Don Cæsar de Bazan, &amp;c.
-      &amp;c.;</title> AND ADAPTER OF <title>Honesty the Best Policy, </title><title>The Three
+      &amp;c.;</title> and adapter of <title>Honesty the Best Policy, </title><title>The Three
       Secrets, </title><title>Grandfather Whitehead, </title><title>The Oldest Inhabitant,
       </title><title>Lady of the Lake, </title><title>Hopes and Fears, &amp;c.
      &amp;c.</title></byline>

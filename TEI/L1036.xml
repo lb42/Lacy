@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L1036">
  <teiHeader>
   <fileDesc>
-   <titleStmt><title>THE CHILD STEALER.</title><author>Suter, W. E. </author><respStmt><resp>TEI conversion</resp><name>Lou Burnard</name></respStmt></titleStmt>
+   <titleStmt><title>The Child Stealer: TEI edition</title><author>Suter, W. E. </author><respStmt><resp>TEI conversion</resp><name>Lou Burnard</name></respStmt></titleStmt>
    <publicationStmt><distributor>Privately distributed by the Digital Lacy Project</distributor><idno type="LAE">L1036</idno><availability><licence target="https://creativecommons.org/publicdomain/zero/1.0/">The Lacy Project waives all rights to the TEI encoding applied to this material, which is believed to be in the public domain. You may copy, modify, distribute and perform this work freely. </licence></availability></publicationStmt>
    <sourceDesc><bibl type="origin" n="70.1"><author>Suter, William E.</author><title type="main" n="thechildstealer">The Child Stealer</title><title type="sub">A Drama in four
        Parts</title><extent>46 pp (UM copy: 10 - 56)<measure type="pp" quantity="47"/>
@@ -11,7 +11,6 @@
   <measure type="spWords" quantity="12481"/>
   <measure type="stWords" quantity="2936"/>
   </extent>
-
       <title level="s"> Lacy's Acting Edition, volume 70, No. 1036</title><idno type="nic">N18820</idno><idno type="vpp">Vol70iChild</idno></bibl><bibl type="surrogate" subtype="copytext"><ref target="https://babel.hathitrust.org/cgi/pt?id=mdp.39015067453624&amp;seq=10 ">UM from
        HT</ref><ref target="local:Vol70/L1036/L1036-um.pdf"/></bibl><listEvent>
       <event type="firstPerf" when="1866-04-16" source="textNic" where="Birmingham">
@@ -19,14 +18,8 @@
       </event>
      </listEvent></sourceDesc>
   </fileDesc>
-  <profileDesc><textClass>
-    <catRef target="#sizeM"/>
-    <catRef target="#act4"/>
-    <catRef target="nic:D."/>
-    <keywords>
-     <term>DRAMA</term>
-    </keywords>
-   </textClass><particDesc><listPerson>
+  
+  <profileDesc><!--M 4 Drama D. DRAMA--><textClass><catRef target="#sizeM"/><catRef target="#act4"/><catRef target="nic:D."/><keywords><term>DRAMA</term></keywords></textClass><particDesc><listPerson>
   <person xml:id="L1036_M1">
    <persName type="role">LORD CHESTERTON</persName>
    <persName type="spkr" n="85">Lord C.</persName>
@@ -120,8 +113,7 @@
    <persName type="spkr" n="6">Omnes.</persName>
    <persName type="spkr" n="1">Sailors.</persName>
   </person>
- </listPerson></particDesc></profileDesc>
-  <revisionDesc><change when="2026-01-10">Metadata refreshed from catalogue and Partix folder</change>
+ </listPerson></particDesc></profileDesc><revisionDesc><change when="2026-01-11">Standardize header components</change><change when="2026-01-10">Metadata refreshed from catalogue and Partix folder</change>
    <change when="2025-12-17">Metadata refreshed from catalogue and Partix folder</change>
    <change when="2025-12-08">Auto-tagged by Gemini 3.0 (Flash 2.5)</change>
   </revisionDesc>
@@ -130,8 +122,8 @@
   <front>
    <pb n="1"/>
    <titlePage>
-    <titlePart type="main">THE CHILD STEALER. A Drama, IN FOUR PARTS.</titlePart>
-    <byline>ADAPTED FROM THE FRENCH BY <docAuthor>W. E. SUTER,</docAuthor> AUTHOR OF <title>The
+    <titlePart type="main">The Child Stealer</titlePart><titlePart type="sub"> A Drama, in four parts.</titlePart>
+    <byline>Adapted from the French by <docAuthor>W. E. SUTER,</docAuthor> AUTHOR OF <title>The
       Pirate of the Savannah, </title><title>Idiot of the Mountain, </title><title>Syren of
       Paris,</title>
      <title>Angel of Midnight, </title><title>Old House on the Bridge, </title><title>Outlaw of the

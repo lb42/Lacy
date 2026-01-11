@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L1326">
  <teiHeader>
   <fileDesc>
-   <titleStmt><title n="thedeathofmarlowe" type="main">The Death of Marlowe</title><author>Horne, R.H.</author><respStmt><resp>TEI conversion</resp><name>Lou Burnard</name></respStmt></titleStmt>
+   <titleStmt><title>The Death Of Marlowe.: TEI edition</title><author>Horne, R.H.</author><respStmt><resp>TEI conversion</resp><name>Lou Burnard</name></respStmt></titleStmt>
    <publicationStmt><distributor>Privately distributed by the Digital Lacy Project</distributor><idno type="LAE">L1326</idno><availability><licence target="https://creativecommons.org/publicdomain/zero/1.0/">The Lacy Project waives all rights to the TEI encoding applied to this material, which is believed to be in the public domain. You may copy, modify, distribute and perform this work freely. </licence></availability></publicationStmt>
    <sourceDesc><bibl type="origin" n="89.6"><author>Horne, R.H.</author><title type="main" n="thedeathofmarlowe">The Death of Marlowe</title><title type="sub">A Tragedy in one
        act</title><extent>22 pp (UM copy: 204 - 226)<measure type="pp" quantity="23"/>
@@ -11,7 +11,6 @@
   <measure type="spWords" quantity="5083"/>
   <measure type="stWords" quantity="310"/>
   </extent>
-
       <title level="s"> Lacy's Acting Edition, volume 89, No. 1326</title><idno type="nic">N01850</idno><idno type="vpp">Vol89viMarlowe</idno></bibl><bibl type="surrogate" subtype="copytext"><ref target="https://lb42.github.io/Lacy/Source/VPP/L1326-vpp.pdf">LoB from VPP</ref><ref target="local:Vol89/L1326/L1326-vpp.pdf"/><ref target="local:Vol89/L1326/Vol89viMarlowe.pdf"/></bibl><bibl type="surrogate"><ref target="https://archive.org/details/deathmarloweatr00horngoog">Internet Archive</ref></bibl><bibl type="surrogate"><ref target="https://babel.hathitrust.org/cgi/pt?id=mdp.39015067453418&amp;seq=204 ">UM from
        HT</ref><ref target="local:Vol89/L1326/L1326-um.pdf"/></bibl><bibl type="surrogate" subtype="TEI"><ref target="https://lb42.github.io/Lacy/L1326.html">TEI</ref></bibl><listEvent>
       <event type="firstPerf" when="1837" source="nicoll" where="Unknown">
@@ -20,14 +19,8 @@
      </listEvent></sourceDesc>
   </fileDesc>
 
-  <profileDesc><textClass>
-    <catRef target="#sizeS"/>
-    <catRef target="#act1"/>
-    <catRef target="nic:T."/>
-    <keywords>
-     <term>TRAGEDY</term>
-    </keywords>
-   </textClass><particDesc><listPerson>
+  
+  <profileDesc><!--S 1 Tragedy T. TRAGEDY--><textClass><catRef target="#sizeS"/><catRef target="#act1"/><catRef target="nic:T."/><keywords><term>TRAGEDY</term></keywords></textClass><particDesc><listPerson>
 <person xml:id="L1326_M1">
 <persName type="role">Christopher Marlowe</persName>
 <persName type="spkr" n="1">Marlowe.</persName>
@@ -65,8 +58,7 @@
 <persName type="spkr" n="1">Gentlemen.</persName>
 <persName type="spkr" n="1">Middle and Hey..</persName>
 </person>
-</listPerson></particDesc></profileDesc>
-  <revisionDesc><change when="2026-01-10">Metadata refreshed from catalogue and Partix folder</change><change when="2025-11-02">Metadata refreshed from catalogue and Partix folder</change><change when="2025-09-11">Hand edit @who</change><change when="2025-09-07">Metadata updated from new catalogue</change>
+</listPerson></particDesc></profileDesc><revisionDesc><change when="2026-01-11">Standardize header components</change><change when="2026-01-10">Metadata refreshed from catalogue and Partix folder</change><change when="2025-11-02">Metadata refreshed from catalogue and Partix folder</change><change when="2025-09-11">Hand edit @who</change><change when="2025-09-07">Metadata updated from new catalogue</change>
    <change when="2025-03-19">Header enriched</change>
    <change when="2025-01-14">Renumbering</change>
    <change when="2024-10-03">Header enriched</change>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L0016">
  <teiHeader>
   <fileDesc>
-   <titleStmt><title type="main">Esmerelda.</title><author>Smith, Albert</author><respStmt><resp>TEI conversion</resp><name>Lou Burnard</name></respStmt></titleStmt>
+   <titleStmt><title>Esmerelda: TEI edition</title><author>Smith, Albert</author><respStmt><resp>TEI conversion</resp><name>Lou Burnard</name></respStmt></titleStmt>
    <publicationStmt><distributor>Privately distributed by the Digital Lacy Project</distributor><idno type="LAE">L0016</idno><availability><licence target="https://creativecommons.org/publicdomain/zero/1.0/">The Lacy Project waives all rights to the TEI encoding applied to this material, which is believed to be in the public domain. You may copy, modify, distribute and perform this work freely. </licence></availability></publicationStmt>
    <sourceDesc><bibl type="origin" n="2.1"><author>Smith, Albert</author><title type="main" n="esmeralda">Esmeralda</title><title type="sub">An entirely new and original Operatico Terpsichorean
        Burlesque in two acts</title><extent>35 pp (UM copy: 10 - 45)<measure type="pp" quantity="37"/>
@@ -11,7 +11,6 @@
   <measure type="spWords" quantity="7810"/>
   <measure type="stWords" quantity="2247"/>
   </extent>
-
       <title level="s"> Lacy's Acting Edition, volume 2, No. 0016</title><idno type="nic">N18324</idno></bibl><bibl type="surrogate" subtype="copytext"><ref target="https://babel.hathitrust.org/cgi/pt?id=mdp.39015048540481&amp;seq=10 ">UM from
        HT</ref><ref target="local:Vol02/L0016/L0016-um.pdf"/></bibl><listEvent>
       <event type="firstPerf" when="1850-06-03" source="textNic" where="Adelphi">
@@ -19,7 +18,7 @@
       </event>
      </listEvent></sourceDesc>
   </fileDesc>
-  <profileDesc><textClass><catRef target="#sizeM"/><catRef target="#act2"/><catRef target="nic:Bsq."/><keywords><term>BURLESQUE</term></keywords></textClass><particDesc><listPerson>
+  <profileDesc><!--M 2 OperaBurle Bsq. BURLESQUE--><textClass><catRef target="#sizeM"/><catRef target="#act2"/><catRef target="nic:Bsq."/><keywords><term>BURLESQUE</term></keywords></textClass><particDesc><listPerson>
   <person xml:id="L0016_M1">
    <persName type="role">PHOEBUS DE CHATEAUPERS</persName>
    <persName type="spkr" n="90">Phœ.</persName>
@@ -94,7 +93,7 @@
    <persName type="spkr" n="3">Spec.</persName>
    <persName type="spkr" n="1">Spectator.</persName>
   </person>
- </listPerson></particDesc></profileDesc><revisionDesc><change when="2026-01-10">Metadata refreshed from catalogue and Partix folder</change><change when="2025-12-14">Metadata refreshed from catalogue and Partix folder</change>
+ </listPerson></particDesc></profileDesc><revisionDesc><change when="2026-01-11">Standardize header components</change><change when="2026-01-10">Metadata refreshed from catalogue and Partix folder</change><change when="2025-12-14">Metadata refreshed from catalogue and Partix folder</change>
    <change when="2025-12-12">Auto-tagged by Gemini 3.0 (Flash 2.5)</change>
   </revisionDesc>
  </teiHeader>
@@ -103,8 +102,8 @@
    <pb n="1"/>
    <titlePage>
     <docTitle>
-     <titlePart type="main">ESMERALDA.</titlePart>
-     <titlePart type="sub">AN ENTIRELY NEW AND ORIGINAL OPERATICO TERPSICHOREAN BURLESQUE. IN TWO
+     <titlePart type="main">Esmerelda</titlePart>
+     <titlePart type="sub">An entirely new and original operatico terpsichorean burlesque. In two acts.
       ACTS.</titlePart>
     </docTitle>
     <byline>BY <docAuthor>ALBERT SMITH.</docAuthor></byline>

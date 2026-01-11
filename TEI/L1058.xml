@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L1058">
 <teiHeader>
 <fileDesc>
-<titleStmt><title n="mypollandmypartnerjoe" type="main">My Poll and My Partner Joe</title><author>Haines, John Thomas</author><respStmt><resp>TEI conversion</resp><name>Lou Burnard</name></respStmt></titleStmt>
+<titleStmt><title>My Poll and my partner Joe: : TEI edition</title><author>Haines, John Thomas</author><respStmt><resp>TEI conversion</resp><name>Lou Burnard</name></respStmt></titleStmt>
 <publicationStmt><distributor>Privately distributed by the Digital Lacy Project</distributor><idno type="LAE">L1058</idno><availability><licence target="https://creativecommons.org/publicdomain/zero/1.0/">The Lacy Project waives all rights to the TEI encoding applied to this material, which is believed to be in the public domain. You may copy, modify, distribute and perform this work freely. </licence></availability></publicationStmt>
 <sourceDesc><bibl type="origin" n="71.8"><author>Haines, John Thomas</author><title type="main" n="mypollandmypartnerjoe">My Poll and My Partner Joe</title><title type="sub">A Nautical
        Drama in three acts</title><title type="music">The Music Selected and Arranged by Mr.
@@ -12,7 +12,6 @@
   <measure type="spWords" quantity="12864"/>
   <measure type="stWords" quantity="3367"/>
   </extent>
-
       <title level="s"> Lacy's Acting Edition, volume 71, No. 1058</title><idno type="nic">N01722</idno></bibl><bibl type="surrogate" subtype="copytext"><ref target="https://babel.hathitrust.org/cgi/pt?id=mdp.39015067453772&amp;seq=268 ">UM from
        HT</ref><ref target="local:Vol71/L1058/L1058-um.pdf"/></bibl><bibl type="surrogate" subtype="TEI"><ref target="https://lb42.github.io/Lacy/L1058.html">TEI</ref></bibl><listEvent>
       <event type="firstPerf" when="1835-09" source="text" where="Surrey">
@@ -20,14 +19,8 @@
       </event>
      </listEvent></sourceDesc>
 </fileDesc>
-<profileDesc><textClass>
-<catRef target="#sizeM"/>
-<catRef target="#act3"/>
-<catRef target="nic:M.D."/>
-<keywords>
-<term>MELODRAMA</term>
-</keywords>
-</textClass><particDesc><listPerson>
+
+<profileDesc><!--M 3 DramaMusic M.D. MELODRAMA--><textClass><catRef target="#sizeM"/><catRef target="#act3"/><catRef target="nic:M.D."/><keywords><term>MELODRAMA</term></keywords></textClass><particDesc><listPerson>
 <person xml:id="L1058_M1">
 <persName type="role">CAPTAIN OAKHEART</persName>
 <persName type="spkr" n="20">Oak.</persName>
@@ -119,8 +112,7 @@
 </person>
 
 
-</listPerson></particDesc></profileDesc>
-<revisionDesc><change when="2026-01-10">Metadata refreshed from catalogue and Partix folder</change><change when="2025-11-02">Metadata refreshed from catalogue and Partix folder</change>
+</listPerson></particDesc></profileDesc><revisionDesc><change when="2026-01-11">Standardize header components</change><change when="2026-01-10">Metadata refreshed from catalogue and Partix folder</change><change when="2025-11-02">Metadata refreshed from catalogue and Partix folder</change>
 <change when="2025-09-11">Some @who correction by hand</change>
 <change when="2025-09-07">Metadata updated from new catalogue</change>
 <change when="2025-04-29">Header enriched</change>

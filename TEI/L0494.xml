@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L0494">
 <teiHeader>
 <fileDesc>
-<titleStmt><title type="main" n="olivertwist">Oliver Twist; or, The Parish Boy's
-Progress</title><author source="#nicoll">[Almar, George]</author><respStmt><resp>TEI conversion</resp><name>Lou Burnard</name></respStmt></titleStmt>
+<titleStmt><title>Oliver Twist; Or, The Parish Boy's Progress.: TEI edition</title><author source="#nicoll">[Almar, George]</author><respStmt><resp>TEI conversion</resp><name>Lou Burnard</name></respStmt></titleStmt>
 <publicationStmt><distributor>Privately distributed by the Digital Lacy Project</distributor><idno type="LAE">L0494</idno><availability><licence target="https://creativecommons.org/publicdomain/zero/1.0/">The Lacy Project waives all rights to the TEI encoding applied to this material, which is believed to be in the public domain. You may copy, modify, distribute and perform this work freely. </licence></availability></publicationStmt>
 <sourceDesc><bibl type="origin" n="33.14"><author source="#nicoll">[Almar, George]</author><title type="main" n="olivertwist">Oliver Twist; or, The Parish Boy's Progress</title><title type="sub">A Drama in three acts</title><title type="source" n="#EN">Adapted from the
        Celebrated Novel, by Mr Charles Dickens</title><extent>44 pp (UM copy: 497 - 541)<measure type="pp" quantity="42"/>
@@ -12,7 +11,6 @@ Progress</title><author source="#nicoll">[Almar, George]</author><respStmt><resp
   <measure type="spWords" quantity="12124"/>
   <measure type="stWords" quantity="2016"/>
   </extent>
-
       <title level="s"> Lacy's Acting Edition, volume 33, No. 0494</title><idno type="nic">N00103</idno><idno type="vpp">Vol33xivOliver</idno></bibl><bibl type="surrogate" subtype="copytext"><ref target="https://lb42.github.io/Lacy/Source/VPP/L0494-vpp.pdf">LoB from VPP</ref><ref target="local:Vol33/L0494/L0494-vpp.pdf"/><ref target="local:Vol33/L0494/Vol33xivOliver.pdf"/></bibl><bibl type="surrogate"><ref target="http://archive.org/details/ldpd_8257009_000">Internet
        Archive</ref></bibl><bibl type="surrogate"><ref target="https://babel.hathitrust.org/cgi/pt?id=mdp.39015067453145&amp;seq=497 ">UM from
        HT</ref><ref target="local:Vol33/L0494/L0494-um.pdf"/></bibl><bibl type="surrogate" subtype="TEI"><ref target="https://lb42.github.io/Lacy/L0494.html">TEI</ref></bibl><listEvent>
@@ -24,14 +22,8 @@ Progress</title><author source="#nicoll">[Almar, George]</author><respStmt><resp
       </event>
      </listEvent></sourceDesc>
 </fileDesc>
-<profileDesc><textClass>
-<catRef target="#sizeM"/>
-<catRef target="#act3"/>
-<catRef target="nic:D."/>
-<keywords>
-<term>DRAMA</term>
-</keywords>
-</textClass><particDesc><listPerson>
+
+<profileDesc><!--M 3 Drama D. DRAMA--><textClass><catRef target="#sizeM"/><catRef target="#act3"/><catRef target="nic:D."/><keywords><term>DRAMA</term></keywords></textClass><particDesc><listPerson>
 <person xml:id="L0494_M1">
 <persName type="role">Oliver Twist</persName>
 <persName type="spkr" n="76">Oliver.</persName>
@@ -137,8 +129,7 @@ Progress</title><author source="#nicoll">[Almar, George]</author><respStmt><resp
 
 
 
-</listPerson></particDesc></profileDesc>
-<revisionDesc><change when="2026-01-10">Metadata refreshed from catalogue and Partix folder</change><change when="2025-11-02">Metadata refreshed from catalogue and Partix folder</change>
+</listPerson></particDesc></profileDesc><revisionDesc><change when="2026-01-11">Standardize header components</change><change when="2026-01-10">Metadata refreshed from catalogue and Partix folder</change><change when="2025-11-02">Metadata refreshed from catalogue and Partix folder</change>
 <change when="2025-09-10">Hand edits @who</change>
 <change when="2025-09-07">Metadata updated from new catalogue</change>
 <change when="2025-03-19">Header enriched</change>

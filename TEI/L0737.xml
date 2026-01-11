@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L0737">
 <teiHeader>
 <fileDesc>
-<titleStmt><title n="upatthehills" type="main">Up at the Hills</title><author>Taylor, Tom</author><respStmt><resp>TEI conversion</resp><name>Lou Burnard</name></respStmt></titleStmt>
+<titleStmt><title>Up At The Hills.: TEI edition</title><author>Taylor, Tom</author><respStmt><resp>TEI conversion</resp><name>Lou Burnard</name></respStmt></titleStmt>
 <publicationStmt><distributor>Privately distributed by the Digital Lacy Project</distributor><idno type="LAE">L0737</idno><availability><licence target="https://creativecommons.org/publicdomain/zero/1.0/">The Lacy Project waives all rights to the TEI encoding applied to this material, which is believed to be in the public domain. You may copy, modify, distribute and perform this work freely. </licence></availability></publicationStmt>
 <sourceDesc><bibl type="origin" n="50.2"><author>Taylor, Tom</author><title type="main" n="upatthehills">Up at the Hills</title><title type="sub">An Original Comedy of Indian Life
        in two acts</title><extent>59 pp (UM copy: 82 - 141)<measure type="pp" quantity="60"/>
@@ -11,7 +11,6 @@
   <measure type="spWords" quantity="16321"/>
   <measure type="stWords" quantity="1971"/>
   </extent>
-
       <title level="s"> Lacy's Acting Edition, volume 50, No. 0737</title><idno type="nic">N18972</idno><idno type="vpp">Vol50iiUp</idno></bibl><bibl type="surrogate" subtype="copytext"><ref target="https://lb42.github.io/Lacy/Source/VPP/L0737-vpp.pdf">LoB from VPP</ref><ref target="local:Vol50/L0737/L0737-vpp.pdf"/><ref target="local:Vol50/L0737/Vol50iiUp.pdf"/></bibl><bibl type="surrogate"><ref target="https://hdl.handle.net/2027/uiug.30112073440023">UIU
        from HT</ref></bibl><bibl type="surrogate"><ref target="https://babel.hathitrust.org/cgi/pt?id=mdp.39015005887925&amp;seq=82 ">UM from
        HT</ref><ref target="local:Vol50/L0737/L0737-um.pdf"/></bibl><bibl type="surrogate" subtype="TEI"><ref target="https://lb42.github.io/Lacy/L0737.html">TEI</ref></bibl><listEvent>
@@ -24,15 +23,8 @@
       </event>
      </listEvent></sourceDesc>
 </fileDesc>
-<profileDesc><textClass>
 
-<catRef target="#sizeL"/>
-<catRef target="#act2"/>
-<catRef target="nic:C."/>
-<keywords>
-<term>COMEDY</term>
-</keywords>
-</textClass><particDesc><listPerson>
+<profileDesc><!--L 2 Comedy C. COMEDY--><textClass><catRef target="#sizeL"/><catRef target="#act2"/><catRef target="nic:C."/><keywords><term>COMEDY</term></keywords></textClass><particDesc><listPerson>
 <person xml:id="L0737_M1">
 <persName type="role">Major Stonihurst </persName>
 <persName type="spkr" n="169">Stoni.</persName>
@@ -111,8 +103,7 @@
 </person>
 
 
-</listPerson></particDesc></profileDesc>
-<revisionDesc><change when="2026-01-10">Metadata refreshed from catalogue and Partix folder</change><change when="2025-11-02">Metadata refreshed from catalogue and Partix folder</change>
+</listPerson></particDesc></profileDesc><revisionDesc><change when="2026-01-11">Standardize header components</change><change when="2026-01-10">Metadata refreshed from catalogue and Partix folder</change><change when="2025-11-02">Metadata refreshed from catalogue and Partix folder</change>
 <change when="2025-09-11">@who fixed</change>
 <change when="2025-09-07">Metadata updated from new catalogue</change>
 <change when="2024-10-03">Header enriched</change>

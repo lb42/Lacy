@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L0592">
 <teiHeader>
 <fileDesc>
-<titleStmt><title n="içionparlefrançais" type="main">Içi On Parle Français</title><author>Williams, Thomas J.</author><respStmt><resp>TEI conversion</resp><name>Lou Burnard</name></respStmt></titleStmt>
+<titleStmt><title>"Ici On Parle Francais": TEI edition</title><author>Williams, Thomas J.</author><respStmt><resp>TEI conversion</resp><name>Lou Burnard</name></respStmt></titleStmt>
 <publicationStmt><distributor>Privately distributed by the Digital Lacy Project</distributor><idno type="LAE">L0592</idno><availability><licence target="https://creativecommons.org/publicdomain/zero/1.0/">The Lacy Project waives all rights to the TEI encoding applied to this material, which is believed to be in the public domain. You may copy, modify, distribute and perform this work freely. </licence></availability></publicationStmt>
 <sourceDesc><bibl type="origin" n="40.7"><author>Williams, Thomas J.</author><title type="main" n="icionparlefrançais">Ici On Parle Français</title><title type="sub">A Farce in one
        act</title><extent>21 pp (UM copy: 234 - 255)<measure type="pp" quantity="22"/>
@@ -11,7 +11,6 @@
   <measure type="spWords" quantity="5635"/>
   <measure type="stWords" quantity="1631"/>
   </extent>
-
       <title level="s"> Lacy's Acting Edition, volume 40, No. 0592</title><idno type="nic">N19859</idno><idno type="vpp">Vol40viiIci</idno></bibl><bibl type="surrogate" subtype="copytext"><ref target="https://lb42.github.io/Lacy/Source/VPP/L0592-vpp.pdf">LoB from VPP</ref><ref target="local:Vol40/L0592/L0592-vpp.pdf"/><ref target="local:Vol40/L0592/Vol40viiIci.pdf"/></bibl><bibl type="surrogate"><ref target="https://babel.hathitrust.org/cgi/pt?id=mdp.39015067453277&amp;seq=234 ">UM from
        HT</ref><ref target="local:Vol40/L0592/L0592-um.pdf"/></bibl><bibl type="surrogate" subtype="TEI"><ref target="https://lb42.github.io/Lacy/L0592.html">TEI</ref></bibl><listEvent>
       <event type="LCP" when="1862-05-09" where="Adelphi">
@@ -23,15 +22,8 @@
       </event>
      </listEvent></sourceDesc>
 </fileDesc>
-<profileDesc><textClass>
 
-<catRef target="#sizeS"/>
-<catRef target="#act1"/>
-<catRef target="nic:F."/>
-<keywords>
-<term>FARCE</term>
-</keywords>
-</textClass><particDesc><listPerson>
+<profileDesc><!--S 1 Farce F. FARCE--><textClass><catRef target="#sizeS"/><catRef target="#act1"/><catRef target="nic:F."/><keywords><term>FARCE</term></keywords></textClass><particDesc><listPerson>
 <person xml:id="L0592_M1">
 <persName type="role">Major Regulus Rattan </persName>
 <persName type="spkr" n="53">Major.</persName>
@@ -70,8 +62,7 @@
 <persName type="spkr" n="1">Sprig|Mrs. S.</persName>
 <persName type="spkr" n="1">Mrs. S.|Sprig. </persName>
 </person>
-</listPerson></particDesc></profileDesc>
-<revisionDesc><change when="2026-01-10">Metadata refreshed from catalogue and Partix folder</change><change when="2025-11-02">Metadata refreshed from catalogue and Partix folder</change><change when="2025-09-07">Metadata updated from new catalogue</change>
+</listPerson></particDesc></profileDesc><revisionDesc><change when="2026-01-11">Standardize header components</change><change when="2026-01-10">Metadata refreshed from catalogue and Partix folder</change><change when="2025-11-02">Metadata refreshed from catalogue and Partix folder</change><change when="2025-09-07">Metadata updated from new catalogue</change>
 <change when="2024-10-03">Header enriched</change>
 <change when="2023-12-21">Header confected</change>
 </revisionDesc>

@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L1315">
  <teiHeader>
   <fileDesc>
-   <titleStmt><title n="thecorsicanbrothers" type="main">The Corsican "Bothers"or, The Troublesome
-     Twins</title><author>Byron, Henry James</author><respStmt><resp>TEI conversion</resp><name>Lou Burnard</name></respStmt></titleStmt>
+   <titleStmt><title>The Corsican "Bothers;" Or, The Troublesome Twins.: TEI edition</title><author>Byron, Henry James</author><respStmt><resp>TEI conversion</resp><name>Lou Burnard</name></respStmt></titleStmt>
    <publicationStmt><distributor>Privately distributed by the Digital Lacy Project</distributor><idno type="LAE">L1315</idno><availability><licence target="https://creativecommons.org/publicdomain/zero/1.0/">The Lacy Project waives all rights to the TEI encoding applied to this material, which is believed to be in the public domain. You may copy, modify, distribute and perform this work freely. </licence></availability></publicationStmt>
    <sourceDesc><bibl type="origin" n="88.10"><author>Byron, Henry James</author><title type="main" n="thecorsicanbothers">The Corsican “Bothers”; or, The Troublesome Twins</title><title type="sub">An Original Burlesque Extravaganza</title><title type="source" n="#EN">Founded on a
        Famous Romantic Drama</title><extent>43 pp (UM copy: 438 - 481)<measure type="pp" quantity="44"/>
@@ -12,7 +11,6 @@
   <measure type="spWords" quantity="7587"/>
   <measure type="stWords" quantity="2002"/>
   </extent>
-
       <title level="s"> Lacy's Acting Edition, volume 88, No. 1315</title><idno type="nic">N10406</idno><idno type="vpp">Vol88xCorsican</idno></bibl><bibl type="surrogate" subtype="copytext"><ref target="https://lb42.github.io/Lacy/Source/VPP/L1315-vpp.pdf">LoB from VPP</ref><ref target="local:Vol88/L1315/L1315-vpp.pdf"/><ref target="local:Vol88/L1315/Vol88xCorsican.pdf"/></bibl><bibl type="surrogate"><ref target="https://babel.hathitrust.org/cgi/pt?id=mdp.39015067453723&amp;seq=438 ">UM from
        HT</ref><ref target="local:Vol88/L1315/L1315-um.pdf"/></bibl><bibl type="surrogate" subtype="TEI"><ref target="https://lb42.github.io/Lacy/L1315.html">TEI</ref></bibl><listEvent>
       <event type="firstPerf" when="1869-05-17" source="textNic" where="Globe">
@@ -20,14 +18,8 @@
       </event>
      </listEvent></sourceDesc>
   </fileDesc>
-  <profileDesc><textClass>
-    <catRef target="#sizeM"/>
-    <catRef target="#act0"/>
-    <catRef target="nic:Bsq."/>
-    <keywords>
-     <term>BURLESQUE</term>
-    </keywords>
-   </textClass><particDesc><listPerson>
+  
+  <profileDesc><!--M 0 BurleDrama Bsq. BURLESQUE--><textClass><catRef target="#sizeM"/><catRef target="#act0"/><catRef target="nic:Bsq."/><keywords><term>BURLESQUE</term></keywords></textClass><particDesc><listPerson>
 <person xml:id="L1315_M1">
 <persName type="role">Louis Dei Flunk</persName>
 <persName type="spkr" n="32">Louis.</persName>
@@ -128,8 +120,7 @@
 <persName type="spkr" n="1">Chateau.Meynard.Martel.</persName>
 </person>
 
-</listPerson></particDesc></profileDesc>
-  <revisionDesc><change when="2026-01-10">Metadata refreshed from catalogue and Partix folder</change>
+</listPerson></particDesc></profileDesc><revisionDesc><change when="2026-01-11">Standardize header components</change><change when="2026-01-10">Metadata refreshed from catalogue and Partix folder</change>
    <change when="2025-11-02">Metadata refreshed from catalogue and Partix folder</change>
    <change when="2025-09-11">Hand edit @who</change>
    <change when="2025-09-07">Metadata updated from new catalogue</change>

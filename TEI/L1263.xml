@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L1263">
  <teiHeader>
   <fileDesc>
-   <titleStmt><title n="anoldscore" type="main">An Old Score</title><author>Gilbert, W.S.</author><respStmt><resp>TEI conversion</resp><name>Lou Burnard</name></respStmt></titleStmt>
+   <titleStmt><title>An Old Score. : TEI edition</title><author>Gilbert, W.S.</author><respStmt><resp>TEI conversion</resp><name>Lou Burnard</name></respStmt></titleStmt>
    <publicationStmt><distributor>Privately distributed by the Digital Lacy Project</distributor><idno type="LAE">L1263</idno><availability><licence target="https://creativecommons.org/publicdomain/zero/1.0/">The Lacy Project waives all rights to the TEI encoding applied to this material, which is believed to be in the public domain. You may copy, modify, distribute and perform this work freely. </licence></availability></publicationStmt>
    <sourceDesc><bibl type="origin" n="85.3"><author>Gilbert, W.S.</author><title type="main" n="anoldscore">An Old Score</title><title type="sub">An Original Comedy-Drama in three
        acts</title><extent>41 pp (UM copy: 116 - 157)<measure type="pp" quantity="41"/>
@@ -11,7 +11,6 @@
   <measure type="spWords" quantity="14651"/>
   <measure type="stWords" quantity="854"/>
   </extent>
-
       <title level="s"> Lacy's Acting Edition, volume 85, No. 1263</title><idno type="nic">N12668</idno></bibl><bibl type="surrogate" subtype="copytext"><ref target="https://babel.hathitrust.org/cgi/pt?id=mdp.39015067453731&amp;seq=116 ">UM from
        HT</ref><ref target="local:Vol85/L1263/L1263-um.pdf"/></bibl><bibl type="surrogate" subtype="TEI"><ref target="https://lb42.github.io/Lacy/L1263.html">TEI</ref></bibl><listEvent>
       <event type="firstPerf" when="1869-07-19" source="textNic" where="Gaiety">
@@ -20,14 +19,8 @@
      </listEvent></sourceDesc>
   </fileDesc>
  
-  <profileDesc><textClass>
-    <catRef target="#sizeM"/>
-    <catRef target="#act3"/>
-    <catRef target="nic:C.D."/>
-    <keywords>
-     <term>COMEDY</term>
-    </keywords>
-   </textClass><particDesc><listPerson>
+  
+  <profileDesc><!--M 3 ComedyDrama C.D. COMEDY--><textClass><catRef target="#sizeM"/><catRef target="#act3"/><catRef target="nic:C.D."/><keywords><term>COMEDY</term></keywords></textClass><particDesc><listPerson>
 <person xml:id="L1263_M1">
 <persName type="role">Colonel Calthorpe </persName>
  <persName type="spkr" n="66">Col.</persName><persName type="spkr" n="19">Lord O.</persName>
@@ -79,8 +72,7 @@
 
 
 
-</listPerson></particDesc></profileDesc>
-  <revisionDesc><change when="2026-01-10">Metadata refreshed from catalogue and Partix folder</change><change when="2025-11-02">Metadata refreshed from catalogue and Partix folder</change><change when="2025-09-07">Metadata updated from new catalogue</change>
+</listPerson></particDesc></profileDesc><revisionDesc><change when="2026-01-11">Standardize header components</change><change when="2026-01-10">Metadata refreshed from catalogue and Partix folder</change><change when="2025-11-02">Metadata refreshed from catalogue and Partix folder</change><change when="2025-09-07">Metadata updated from new catalogue</change>
    <change when="2025-03-19">Header enriched</change>
    <change when="2025-01-14">Renumbering</change>
    <change when="2024-10-03">Header enriched</change>
@@ -90,7 +82,7 @@
  </teiHeader>
  <text><pb n="1"/>
   <front>
-   <titlePage><titlePart type="main">AN OLD SCORE,</titlePart><titlePart type="sub">AN ORIGINAL COMEDY-DRAMA. In Three Acts.</titlePart><byline>by <docAuthor>W. S. Gilbert</docAuthor>member of the dramatic authors society. Author of
+   <titlePage><titlePart type="main">An Old Score. </titlePart><titlePart type="sub">An original comedy-drama. In Three Acts.</titlePart><byline>by <docAuthor>W. S. Gilbert</docAuthor>member of the dramatic authors society. Author of
       <title>Dulcamara; or, the little Duck and the Great Quack</title>; <title>Allow me to
       Explain</title>; <title>Highly improbable</title>; <title>Harlequin Cock Robin and Jenny
       Wren</title>; <title>la Vivandiere; or. True to the Corps</title>; <title>The Merry Zingara;

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="ODD/out/lacy.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="ODD/out/lacy.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L1025">
  <teiHeader>
   <fileDesc>
-   <titleStmt><title>A Day in Paris: A Farce, in One Act</title><author>Charles Selby</author><respStmt><resp>TEI conversion</resp><name>Lou Burnard</name></respStmt></titleStmt>
+   <titleStmt><title>A Day in Paris.: TEI edition</title><author>Selby, Charles</author><respStmt><resp>TEI conversion</resp><name>Lou Burnard</name></respStmt></titleStmt>
    <publicationStmt><distributor>Privately distributed by the Digital Lacy Project</distributor><idno type="LAE">L1025</idno><availability><licence target="https://creativecommons.org/publicdomain/zero/1.0/">The Lacy Project waives all rights to the TEI encoding applied to this material, which is believed to be in the public domain. You may copy, modify, distribute and perform this work freely. </licence></availability></publicationStmt>
    <sourceDesc><bibl type="origin" n="69.5"><author>Selby, Charles</author><title type="main" n="adayinparis">A Day in Paris</title><title type="sub">A Farce in one act</title><extent>20
        pp (UM copy: 154 - 174)<measure type="pp" quantity="23"/>
@@ -11,7 +11,6 @@
   <measure type="spWords" quantity="7260"/>
   <measure type="stWords" quantity="1031"/>
   </extent>
-
       <title level="s"> Lacy's Acting Edition, volume 69, No. 1025</title><idno type="nic">N03438</idno></bibl><bibl type="surrogate"><ref target="https://archive.org/details/dayinparisinterl0000selb">UW from IA</ref><ref target="local:Vol69/L1025/L1025-uw.pdf"/></bibl><bibl type="surrogate" subtype="copytext"><ref target="https://babel.hathitrust.org/cgi/pt?id=mdp.39015005299659&amp;seq=154 ">UM from
        HT</ref><ref target="local:Vol69/L1025/L1025-um.pdf"/></bibl><listEvent>
       <event type="firstPerf" when="1832-07-18" source="textNic" where="Strand">
@@ -19,14 +18,8 @@
       </event>
      </listEvent></sourceDesc>
   </fileDesc>
-  <profileDesc><textClass>
-    <catRef target="#sizeS"/>
-    <catRef target="#act1"/>
-    <catRef target="nic:O.F."/>
-    <keywords>
-     <term>OPERA</term>
-    </keywords>
-   </textClass><particDesc><listPerson>
+  
+  <profileDesc><!--S 1 Farce O.F. OPERA--><textClass><catRef target="#sizeS"/><catRef target="#act1"/><catRef target="nic:O.F."/><keywords><term>OPERA</term></keywords></textClass><particDesc><listPerson>
   <person xml:id="L1025_M1">
    <persName type="role">CHARLES WYNDHAM</persName>
    <persName type="spkr" n="109">Wynd.</persName>
@@ -66,8 +59,7 @@
   </person>
 
 
- </listPerson></particDesc></profileDesc>
-  <revisionDesc><change when="2026-01-10">Metadata refreshed from catalogue and Partix folder</change>
+ </listPerson></particDesc></profileDesc><revisionDesc><change when="2026-01-11">Standardize header components</change><change when="2026-01-10">Metadata refreshed from catalogue and Partix folder</change>
    <change when="2026-01-06">Metadata refreshed from catalogue and Partix folder</change>
    <change when="2026-01-05">Extracted and converted to TEI XML by Gemini Pro, with a lot of help
     from me</change>
@@ -78,7 +70,7 @@
    <pb n="1"/>
    <titlePage>
     <docTitle>
-     <titlePart type="main">A DAY IN PARIS.</titlePart>
+     <titlePart type="main">A Day in Paris.</titlePart>
      <titlePart type="sub">A Farce, IN ONE ACT.</titlePart>
     </docTitle>
     <byline>BY <docAuthor>CHARLES SELBY, COMEDIAN,</docAuthor> AUTHOR OF <title>The Poor Nobleman,

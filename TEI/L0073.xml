@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L0073">
 <teiHeader>
 <fileDesc>
-<titleStmt><title n="boxandcox" type="main">Box and Cox</title><author>Morton, John Maddison</author><respStmt><resp>TEI conversion</resp><name>Lou Burnard</name></respStmt></titleStmt>
+<titleStmt><title>Box and Cox.: TEI edition</title><author>Morton, John Maddison</author><respStmt><resp>TEI conversion</resp><name>Lou Burnard</name></respStmt></titleStmt>
 <publicationStmt><distributor>Privately distributed by the Digital Lacy Project</distributor><idno type="LAE">L0073</idno><availability><licence target="https://creativecommons.org/publicdomain/zero/1.0/">The Lacy Project waives all rights to the TEI encoding applied to this material, which is believed to be in the public domain. You may copy, modify, distribute and perform this work freely. </licence></availability></publicationStmt>
 <sourceDesc><bibl type="origin" n="5.13"><author>Morton, John Maddison</author><title type="main" n="boxandcox">Box and Cox</title><title type="sub">A Romance of Real Life in one
        act</title><extent>15 pp (UM copy: 328 - 343)<measure type="pp" quantity="18"/>
@@ -11,7 +11,6 @@
   <measure type="spWords" quantity="5119"/>
   <measure type="stWords" quantity="1190"/>
   </extent>
-
       <title level="s"> Lacy's Acting Edition, volume 5, No. 0073</title><idno type="nic">N02653</idno><idno type="vpp">Vol05xiiiBox</idno><idno type="wikidata">Q4951573</idno></bibl><bibl type="surrogate" subtype="copytext"><ref target="https://lb42.github.io/Lacy/Source/VPP/L0073-vpp.pdf">LoB from VPP</ref><ref target="local:Vol05/L0073/L0073-vpp.pdf"/><ref target="local:Vol05/L0073/Vol05xiiiBox.pdf"/></bibl><bibl type="surrogate"><ref target="https://www.gutenberg.org/files//42523/42523-h/42523-h.htm">Gutenberg
        transcription</ref></bibl><bibl type="surrogate"><ref target="https://babel.hathitrust.org/cgi/pt?id=mdp.39015067453053&amp;seq=328 ">UM from
        HT</ref><ref target="local:Vol05/L0073/L0073-um.pdf"/></bibl><bibl type="surrogate" subtype="TEI"><ref target="https://lb42.github.io/Lacy/L0073.html">TEI</ref></bibl><listEvent>
@@ -20,14 +19,8 @@
       </event>
      </listEvent></sourceDesc>
 </fileDesc>
-<profileDesc><textClass>
-<catRef target="#sizeS"/>
-<catRef target="#act1"/>
-<catRef target="nic:F."/>
-<keywords>
-<term>FARCE</term>
-</keywords>
-</textClass><particDesc><listPerson>
+
+<profileDesc><!--S 1 X F. FARCE--><textClass><catRef target="#sizeS"/><catRef target="#act1"/><catRef target="nic:F."/><keywords><term>FARCE</term></keywords></textClass><particDesc><listPerson>
 <person xml:id="L0073_M1">
 <persName type="role">John Box, </persName>
 <persName type="spkr" n="163">Box.</persName>
@@ -49,8 +42,7 @@
 <persName type="spkr" n="1">Box. Cox.</persName>
 <persName type="spkr" n="1">Together.</persName>
 </person>
-</listPerson></particDesc></profileDesc>
-<revisionDesc><change when="2026-01-10">Metadata refreshed from catalogue and Partix folder</change><change when="2025-11-02">Metadata refreshed from catalogue and Partix folder</change>
+</listPerson></particDesc></profileDesc><revisionDesc><change when="2026-01-11">Standardize header components</change><change when="2026-01-10">Metadata refreshed from catalogue and Partix folder</change><change when="2025-11-02">Metadata refreshed from catalogue and Partix folder</change>
 <change when="2025-09-13">Add redundant div</change>
 <change when="2025-09-10">Hand edit multi @who</change>
 <change when="2025-09-07">Metadata updated from new catalogue</change>

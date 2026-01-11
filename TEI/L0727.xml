@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L0727">
 <teiHeader>
 <fileDesc>
-<titleStmt><title n="robinsoncrusoeByron" type="main">Robinson Crusoe; or, Harlequin Friday and The
-King of the Caribbee Islands!</title><author>Byron, Henry James</author><respStmt><resp>TEI conversion</resp><name>Lou Burnard</name></respStmt></titleStmt>
+<titleStmt><title>Robinson Crusoe; Or, Harlequin Friday And The King Of The Caribbee
+Islands!: TEI edition</title><author>Byron, Henry James</author><respStmt><resp>TEI conversion</resp><name>Lou Burnard</name></respStmt></titleStmt>
 <publicationStmt><distributor>Privately distributed by the Digital Lacy Project</distributor><idno type="LAE">L0727</idno><availability><licence target="https://creativecommons.org/publicdomain/zero/1.0/">The Lacy Project waives all rights to the TEI encoding applied to this material, which is believed to be in the public domain. You may copy, modify, distribute and perform this work freely. </licence></availability></publicationStmt>
 <sourceDesc><bibl type="origin" n="49.7"><author>Byron, Henry James</author><title type="main" n="robinsoncrusoe">Robinson Crusoe; or, Harlequin Friday and The King of the Caribbee
        Islands!</title><title type="sub">A Grotesque Pantomime Opening</title><extent>29 pp (UM
@@ -13,7 +13,6 @@ King of the Caribbee Islands!</title><author>Byron, Henry James</author><respStm
   <measure type="spWords" quantity="3690"/>
   <measure type="stWords" quantity="2667"/>
   </extent>
-
       <title level="s"> Lacy's Acting Edition, volume 49, No. 0727</title><idno type="nic">N10360</idno><idno type="vpp">Vol49viiRobinson</idno></bibl><bibl type="surrogate" subtype="copytext"><ref target="https://lb42.github.io/Lacy/Source/VPP/L0727-vpp.pdf">LoB from VPP</ref><ref target="local:Vol49/L0727/L0727-vpp.pdf"/><ref target="local:Vol49/L0727/Vol49viiRobinson.pdf"/></bibl><bibl type="surrogate"><ref target="https://babel.hathitrust.org/cgi/pt?id=mdp.39015067453681&amp;seq=218 ">UM from
        HT</ref><ref target="local:Vol49/L0727/L0727-um.pdf"/></bibl><listEvent>
       <event type="LCP" when="1862-12-26" where="Princess">
@@ -25,14 +24,8 @@ King of the Caribbee Islands!</title><author>Byron, Henry James</author><respStm
       </event>
      </listEvent></sourceDesc>
 </fileDesc>
-<profileDesc><textClass>
-<catRef target="#sizeS"/>
-<catRef target="#act0"/>
-<catRef target="nic:P."/>
-<keywords>
-<term>PANTO</term>
-</keywords>
-</textClass><particDesc><listPerson>
+
+<profileDesc><!--S 0 Pantomime P. PANTO--><textClass><catRef target="#sizeS"/><catRef target="#act0"/><catRef target="nic:P."/><keywords><term>PANTO</term></keywords></textClass><particDesc><listPerson>
 <person xml:id="L0727_M1"><persName type="role">Robinson Crusoe</persName>
 <persName type="spkr" n="26">Crusoe.</persName>
 <persName type="spkr" n="2">Rob.</persName>
@@ -117,8 +110,7 @@ King of the Caribbee Islands!</title><author>Byron, Henry James</author><respStm
 
 
 
-</listPerson></particDesc></profileDesc>
-<revisionDesc><change when="2026-01-10">Metadata refreshed from catalogue and Partix folder</change><change when="2025-11-02">Metadata refreshed from catalogue and Partix folder</change>
+</listPerson></particDesc></profileDesc><revisionDesc><change when="2026-01-11">Standardize header components</change><change when="2026-01-10">Metadata refreshed from catalogue and Partix folder</change><change when="2025-11-02">Metadata refreshed from catalogue and Partix folder</change>
 <change when="2025-09-17">Metadata updated from new catalogue</change>
 <change when="2023-12-01">Header confected</change>
 </revisionDesc>

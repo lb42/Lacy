@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L0057R">
 <teiHeader>
 <fileDesc>
-<titleStmt><title type="main">A new way to pay old debts.</title><author>Massinger, Philip</author><respStmt><resp>TEI conversion</resp><name>Lou Burnard</name></respStmt></titleStmt>
+<titleStmt><title>A new way to pay old debts.: TEI edition</title><author>Massinger, Philip</author><respStmt><resp>TEI conversion</resp><name>Lou Burnard</name></respStmt></titleStmt>
 <publicationStmt><distributor>Privately distributed by the Digital Lacy Project</distributor><idno type="LAE">L0057R</idno><availability><licence target="https://creativecommons.org/publicdomain/zero/1.0/">The Lacy Project waives all rights to the TEI encoding applied to this material, which is believed to be in the public domain. You may copy, modify, distribute and perform this work freely. </licence></availability></publicationStmt>
 <sourceDesc><bibl type="origin" n="4.12"><author>Massinger, Philip</author><title type="main" n="anewwaytopayolddebts">A new way to pay old debts</title><title type="sub">A Play in five
        acts</title><extent>72 pp (UM copy: 329 - 401)<measure type="pp" quantity="68"/>
@@ -11,7 +11,6 @@
   <measure type="spWords" quantity="16138"/>
   <measure type="stWords" quantity="1732"/>
   </extent>
-
       <title level="s"> Lacy's Acting Edition, volume 4, No. 0057R</title><idno type="nic">N02004</idno></bibl><bibl type="surrogate"><ref target="eebo:A07241.0001.001"/></bibl><bibl type="surrogate" subtype="copytext"><ref target="https://babel.hathitrust.org/cgi/pt?id=mdp.39015048540333&amp;seq=329 ">UM from
        HT</ref><ref target="local:Vol04/L0057/L0057R-um.pdf"/></bibl><bibl type="surrogate" subtype="TEI"><ref target="https://lb42.github.io/Lacy/L0057R.html">TEI</ref></bibl><listEvent>
       <event type="firstPerf" when="1816-01-12" source="text" where="Drury">
@@ -19,15 +18,8 @@
       </event>
      </listEvent></sourceDesc>
 </fileDesc>
-<profileDesc><textClass>
 
-<catRef target="#sizeL"/>
-<catRef target="#act5"/>
-<catRef target="nic:C."/>
-<keywords>
-<term>COMEDY</term>
-</keywords>
-</textClass><particDesc><listPerson>
+<profileDesc><!--L 5 Comedy C. COMEDY--><textClass><catRef target="#sizeL"/><catRef target="#act5"/><catRef target="nic:C."/><keywords><term>COMEDY</term></keywords></textClass><particDesc><listPerson>
 <person xml:id="L0057R_M1">
 <persName type="role">Lord Lovell,</persName>
 <persName type="spkr" n="62">Lov.</persName>
@@ -137,8 +129,7 @@
 <persName type="spkr" n="1">Tap. and Froth.</persName>
 </person>
 
-</listPerson></particDesc></profileDesc>
-<revisionDesc><change when="2026-01-10">Metadata refreshed from catalogue and Partix folder</change><change when="2025-11-02">Metadata refreshed from catalogue and Partix folder</change>
+</listPerson></particDesc></profileDesc><revisionDesc><change when="2026-01-11">Standardize header components</change><change when="2026-01-10">Metadata refreshed from catalogue and Partix folder</change><change when="2025-11-02">Metadata refreshed from catalogue and Partix folder</change>
 <change when="2025-09-10">Hand edit for multi @who</change>
 <change when="2025-09-07">Metadata updated from new catalogue</change>
 <change when="2024-10-03">Header enriched</change>

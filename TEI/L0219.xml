@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L0219">
  <teiHeader>
   <fileDesc>
-   <titleStmt><title n="waitingforanomnibusin..." type="main">Waiting for an Omnibus in the Lowther Arcade on
-     a rainy day</title><author>Morton, John Maddison</author><respStmt><resp>TEI conversion</resp><name>Lou Burnard</name></respStmt></titleStmt>
+   <titleStmt><title> Waiting For An Omnibus In The Lowther Arcade On A Rainy Day. : TEI edition</title><author>Morton, John Maddison</author><respStmt><resp>TEI conversion</resp><name>Lou Burnard</name></respStmt></titleStmt>
    <publicationStmt><distributor>Privately distributed by the Digital Lacy Project</distributor><idno type="LAE">L0219</idno><availability><licence target="https://creativecommons.org/publicdomain/zero/1.0/">The Lacy Project waives all rights to the TEI encoding applied to this material, which is believed to be in the public domain. You may copy, modify, distribute and perform this work freely. </licence></availability></publicationStmt>
    <sourceDesc><bibl type="origin" n="15.9"><author>Morton, John Maddison</author><title type="main" n="waitingforanomnibusin...">Waiting for an Omnibus in the Lowther Arcade on a rainy
        day</title><title type="sub">A Farce in one act</title><extent>17 pp (UM copy: 324 -
@@ -13,7 +12,6 @@
   <measure type="spWords" quantity="5707"/>
   <measure type="stWords" quantity="1323"/>
   </extent>
-
       <title level="s"> Lacy's Acting Edition, volume 15, No. 0219</title><idno type="nic">N16009</idno><idno type="vpp">Vol15ixWaiting</idno></bibl><bibl type="surrogate" subtype="copytext"><ref target="https://lb42.github.io/Lacy/Source/VPP/L0219-vpp.pdf">LoB from VPP</ref><ref target="local:Vol15/L0219/L0219-vpp.pdf"/><ref target="local:Vol15/L0219/Vol15ixWaiting.pdf"/></bibl><bibl type="surrogate"><ref target="https://www.gutenberg.org/files/65255/65255-h/65255-h.htm">Gutenberg
        transcription</ref></bibl><bibl type="surrogate"><ref target="https://hdl.handle.net/2027/iau.31858023944576">Hathi_Trust</ref></bibl><bibl type="surrogate"><ref target="https://babel.hathitrust.org/cgi/pt?id=mdp.39015067453046&amp;seq=324 ">UM from
        HT</ref><ref target="local:Vol15/L0219/L0219-um.pdf"/></bibl><bibl type="surrogate" subtype="TEI"><ref target="https://lb42.github.io/Lacy/L0219.html">TEI</ref></bibl><listEvent>
@@ -26,15 +24,8 @@
       </event>
      </listEvent></sourceDesc>
   </fileDesc>
-  <profileDesc><textClass>
-
-    <catRef target="#sizeS"/>
-    <catRef target="#act1"/>
-    <catRef target="nic:F."/>
-    <keywords>
-     <term>FARCE</term>
-    </keywords>
-   </textClass><particDesc><listPerson>
+  
+  <profileDesc><!--S 1 Farce F. FARCE--><textClass><catRef target="#sizeS"/><catRef target="#act1"/><catRef target="nic:F."/><keywords><term>FARCE</term></keywords></textClass><particDesc><listPerson>
 <person xml:id="L0219_M1">
 <persName type="role">John Horatio O’walker </persName>
 <persName type="spkr" n="102">O’Walker.</persName>
@@ -69,8 +60,7 @@
 <persName type="spkr" n="2">Voice.</persName>
 </person>
 
-</listPerson></particDesc></profileDesc>
-  <revisionDesc><change when="2026-01-10">Metadata refreshed from catalogue and Partix folder</change><change when="2025-11-02">Metadata refreshed from catalogue and Partix folder</change>
+</listPerson></particDesc></profileDesc><revisionDesc><change when="2026-01-11">Standardize header components</change><change when="2026-01-10">Metadata refreshed from catalogue and Partix folder</change><change when="2025-11-02">Metadata refreshed from catalogue and Partix folder</change>
    <change when="2025-09-07">Metadata updated from new catalogue</change>
    <change when="2024-10-03">Header enriched</change>
    <change when="2023-09-06">Header confected</change>

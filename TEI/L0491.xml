@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L0491">
 <teiHeader>
 <fileDesc>
-<titleStmt><title n="twogaydeceivers" type="main">Two Gay Deceivers, or Black, White and Grey</title><author>Robertson, T.W.</author><author>Lacy, Thomas Hailes</author><respStmt><resp>TEI conversion</resp><name>Lou Burnard</name></respStmt></titleStmt>
+<titleStmt><title>Two Gay Deceivers: TEI edition</title><author>Robertson, T.W.</author><author>Lacy, Thomas Hailes</author><respStmt><resp>TEI conversion</resp><name>Lou Burnard</name></respStmt></titleStmt>
 <publicationStmt><distributor>Privately distributed by the Digital Lacy Project</distributor><idno type="LAE">L0491</idno><availability><licence target="https://creativecommons.org/publicdomain/zero/1.0/">The Lacy Project waives all rights to the TEI encoding applied to this material, which is believed to be in the public domain. You may copy, modify, distribute and perform this work freely. </licence></availability></publicationStmt>
 <sourceDesc><bibl type="origin" n="33.11"><author>Robertson, T.W.</author>;<author>Lacy, Thomas
        Hailes</author><title type="main" n="twogaydeceivers">Two Gay Deceivers; or Black, White and
@@ -13,7 +13,6 @@
   <measure type="spWords" quantity="2863"/>
   <measure type="stWords" quantity="392"/>
   </extent>
-
       <title level="s"> Lacy's Acting Edition, volume 33, No. 0491</title><idno type="nic">N17603</idno><idno type="vpp">Vol33xiGay</idno></bibl><bibl type="surrogate" subtype="copytext"><ref target="https://lb42.github.io/Lacy/Source/VPP/L0491-vpp.pdf">LoB from VPP</ref><ref target="local:Vol33/L0491/L0491-vpp.pdf"/><ref target="local:Vol33/L0491/Vol33xiGay.pdf"/></bibl><bibl type="surrogate"><ref target="https://babel.hathitrust.org/cgi/pt?id=mdp.39015067453145&amp;seq=364 ">UM from
        HT</ref><ref target="local:Vol33/L0491/L0491-um.pdf"/></bibl><bibl type="surrogate"><ref target="https://hdl.handle.net/2027/uc1.31175035148439">UC from
        HT</ref></bibl><bibl type="surrogate" subtype="TEI"><ref target="https://lb42.github.io/Lacy/L0491.html">TEI</ref></bibl><listEvent>
@@ -22,14 +21,8 @@
       </event>
      </listEvent></sourceDesc>
 </fileDesc>
-<profileDesc><textClass>
-<catRef target="#sizeS"/>
-<catRef target="#act1"/>
-<catRef target="nic:F."/>
-<keywords>
-<term>FARCE</term>
-</keywords>
-</textClass><particDesc><listPerson>
+
+<profileDesc><!--S 1 Farce F. FARCE--><textClass><catRef target="#sizeS"/><catRef target="#act1"/><catRef target="nic:F."/><keywords><term>FARCE</term></keywords></textClass><particDesc><listPerson>
 <person xml:id="L0491_M1">
 <persName type="role">Apollo Black </persName>
 <persName type="spkr" n="119">Black.</persName>
@@ -50,8 +43,7 @@
 <persName type="spkr" n="3">Both.</persName>
 <persName type="spkr" n="1">Black &amp; White.</persName>
 </person>
-</listPerson></particDesc></profileDesc>
-<revisionDesc><change when="2026-01-10">Metadata refreshed from catalogue and Partix folder</change><change when="2025-11-02">Metadata refreshed from catalogue and Partix folder</change>
+</listPerson></particDesc></profileDesc><revisionDesc><change when="2026-01-11">Standardize header components</change><change when="2026-01-10">Metadata refreshed from catalogue and Partix folder</change><change when="2025-11-02">Metadata refreshed from catalogue and Partix folder</change>
 <change when="2025-09-10">Hand edit @who</change>
 <change when="2025-09-07">Metadata updated from new catalogue</change>
 <change when="2024-10-03">Header enriched</change>

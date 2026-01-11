@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L0001">
  <teiHeader>
   <fileDesc>
-   <titleStmt><title n="timetriesall" type="main">Time Tries All!</title><author>Courtney, John</author><respStmt><resp>TEI conversion</resp><name>Lou Burnard</name></respStmt></titleStmt>
+   <titleStmt><title>Time Tries All!: TEI edition</title><author>Courtney, John</author><respStmt><resp>TEI conversion</resp><name>Lou Burnard</name></respStmt></titleStmt>
    <publicationStmt><distributor>Privately distributed by the Digital Lacy Project</distributor><idno type="LAE">L0001</idno><availability><licence target="https://creativecommons.org/publicdomain/zero/1.0/">The Lacy Project waives all rights to the TEI encoding applied to this material, which is believed to be in the public domain. You may copy, modify, distribute and perform this work freely. </licence></availability></publicationStmt>
    <sourceDesc><bibl type="origin" n="1.1"><author>Courtney, John</author><title type="main" n="timetriesall">Time Tries All!</title><title type="sub">An Original Drama in two
        acts</title><extent>23 pp (UM copy: 8 - 31)<measure type="pp" quantity="24"/>
@@ -11,7 +11,6 @@
   <measure type="spWords" quantity="8782"/>
   <measure type="stWords" quantity="1254"/>
   </extent>
-
       <title level="s"> Lacy's Acting Edition, volume 1, No. 0001</title><idno type="nic">N00793</idno><idno type="vpp">Vol1iTime</idno></bibl><bibl type="surrogate" subtype="copytext"><ref target="https://lb42.github.io/Lacy/Source/VPP/L0001-vpp.pdf">LoB from VPP</ref><ref target="local:Vol01/L0001/L0001-vpp.pdf"/><ref target="local:Vol01/L0001/Vol1iTime.pdf"/></bibl><bibl type="surrogate"><ref target="https://hdl.handle.net/2027/hvd.32044086859295">HVD
        from HT</ref><ref target="local:Vol01/L0001/L0001-hv.pdf"/></bibl><bibl type="surrogate"><ref target="https://babel.hathitrust.org/cgi/pt?id=mdp.39015043286031&amp;seq=8 ">UM from
        HT</ref><ref target="local:Vol01/L0001/L0001-um.pdf"/></bibl><bibl type="surrogate" subtype="TEI"><ref target="https://lb42.github.io/Lacy/L0001.html">TEI</ref></bibl><listEvent>
@@ -20,15 +19,8 @@
       </event>
      </listEvent></sourceDesc>
   </fileDesc>
-  <profileDesc><textClass>
-
-    <catRef target="#sizeS"/>
-    <catRef target="#act2"/>
-    <catRef target="nic:D."/>
-    <keywords>
-     <term>DRAMA</term>
-    </keywords>
-   </textClass><particDesc><listPerson>
+  
+  <profileDesc><!--S 2 Drama D. DRAMA--><textClass><catRef target="#sizeS"/><catRef target="#act2"/><catRef target="nic:D."/><keywords><term>DRAMA</term></keywords></textClass><particDesc><listPerson>
 <person xml:id="L0001_M1">
 <persName type="role">Mr. Leeson </persName>
 <persName type="spkr" n="108">Lee.</persName>
@@ -63,8 +55,7 @@
 <persName type="spkr" n="54">Fan.</persName>
 </person>
 
-</listPerson></particDesc></profileDesc>
-  <revisionDesc><change when="2026-01-10">Metadata refreshed from catalogue and Partix folder</change>
+</listPerson></particDesc></profileDesc><revisionDesc><change when="2026-01-11">Standardize header components</change><change when="2026-01-10">Metadata refreshed from catalogue and Partix folder</change>
    <change when="2025-11-03">Add @facs links to page images</change>
    <change when="2025-11-02">Metadata refreshed from catalogue and Partix folder</change>
    <change when="2025-09-11">Dracorize</change>

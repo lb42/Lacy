@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L0743">
  <teiHeader>
   <fileDesc>
-   <titleStmt><title n="thecantab" type="main">The Cantab</title><author>Robertson, T.W.</author><respStmt><resp>TEI conversion</resp><name>Lou Burnard</name></respStmt></titleStmt>
+   <titleStmt><title>The Cantab: TEI edition</title><author>Robertson, T.W.</author><respStmt><resp>TEI conversion</resp><name>Lou Burnard</name></respStmt></titleStmt>
    <publicationStmt><distributor>Privately distributed by the Digital Lacy Project</distributor><idno type="LAE">L0743</idno><availability><licence target="https://creativecommons.org/publicdomain/zero/1.0/">The Lacy Project waives all rights to the TEI encoding applied to this material, which is believed to be in the public domain. You may copy, modify, distribute and perform this work freely. </licence></availability></publicationStmt>
    <sourceDesc><bibl type="origin" n="50.8"><author>Robertson, T.W.</author><title type="main" n="thecantab">The Cantab</title><title type="sub">An Original Farce</title><extent>26 pp (UM
        copy: 276 - 302)<measure type="pp" quantity="24"/>
@@ -11,7 +11,6 @@
   <measure type="spWords" quantity="5981"/>
   <measure type="stWords" quantity="1289"/>
   </extent>
-
       <title level="s"> Lacy's Acting Edition, volume 50, No. 0743</title><idno type="nic">N17565</idno></bibl><bibl type="surrogate" subtype="copytext"><ref target="https://babel.hathitrust.org/cgi/pt?id=mdp.39015005887925&amp;seq=276 ">UM from
        HT</ref><ref target="local:Vol50/L0743/L0743-um.pdf"/></bibl><bibl type="surrogate" subtype="TEI"><ref target="https://lb42.github.io/Lacy/L0743.html">TEI</ref></bibl><listEvent>
       <event type="LCP" when="1862-02-07" where="Strand">
@@ -23,7 +22,7 @@
       </event>
      </listEvent></sourceDesc>
   </fileDesc>
-  <profileDesc><textClass><catRef target="#sizeS"/><catRef target="#act0"/><catRef target="nic:F."/><keywords><term>FARCE</term></keywords></textClass><particDesc><listPerson>
+  <profileDesc><!--S 0 Farce F. FARCE--><textClass><catRef target="#sizeS"/><catRef target="#act0"/><catRef target="nic:F."/><keywords><term>FARCE</term></keywords></textClass><particDesc><listPerson>
 <person xml:id="L0743_M1">
  <persName type="role">Charles Cheddar </persName><persName type="spkr" n="100">Charles.</persName>
 </person>
@@ -48,7 +47,7 @@
 
 
 
-</listPerson></particDesc></profileDesc><revisionDesc><change when="2026-01-10">Metadata refreshed from catalogue and Partix folder</change><change when="2025-11-02">Metadata refreshed from catalogue and Partix folder</change><change when="2025-09-07">Metadata updated from new catalogue</change><change when="2024-10-03">Header enriched</change><change when="2023-09-21">Pagenumbers checked</change>
+</listPerson></particDesc></profileDesc><revisionDesc><change when="2026-01-11">Standardize header components</change><change when="2026-01-10">Metadata refreshed from catalogue and Partix folder</change><change when="2025-11-02">Metadata refreshed from catalogue and Partix folder</change><change when="2025-09-07">Metadata updated from new catalogue</change><change when="2024-10-03">Header enriched</change><change when="2023-09-21">Pagenumbers checked</change>
    <change when="2023-09-21">Header confected</change>
   </revisionDesc>
  </teiHeader>

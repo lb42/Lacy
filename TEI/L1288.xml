@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L1288">
  <teiHeader>
   <fileDesc>
-   <titleStmt><title>The Shadow Of A Crime.</title><author>Cheltnam, Charles Smith</author><respStmt><resp>TEI conversion</resp><name>Lou Burnard</name></respStmt></titleStmt>
+   <titleStmt><title>The Shadow Of A Crime.: TEI edition</title><author>Cheltnam, Charles Smith</author><respStmt><resp>TEI conversion</resp><name>Lou Burnard</name></respStmt></titleStmt>
    <publicationStmt><distributor>Privately distributed by the Digital Lacy Project</distributor><idno type="LAE">L1288</idno><availability><licence target="https://creativecommons.org/publicdomain/zero/1.0/">The Lacy Project waives all rights to the TEI encoding applied to this material, which is believed to be in the public domain. You may copy, modify, distribute and perform this work freely. </licence></availability></publicationStmt>
    <sourceDesc><bibl type="origin" n="86.13"><author>Cheltnam, Charles Smith</author><title type="main" n="graceholden">The Shadow of a Crime</title><title type="sub">A Drama in three
        acts</title><extent>55 pp (UM copy: 442 - 497)<measure type="pp" quantity="55"/>
@@ -11,7 +11,6 @@
   <measure type="spWords" quantity="16602"/>
   <measure type="stWords" quantity="2555"/>
   </extent>
-
       <title level="s"> Lacy's Acting Edition, volume 86, No. 1288</title><idno type="nic">N10746</idno><idno type="vpp">Vol86xiiShadow</idno></bibl><bibl type="surrogate" subtype="copytext"><ref target="https://lb42.github.io/Lacy/Source/VPP/L1288-vpp.pdf">LoB from VPP</ref><ref target="local:Vol86/L1288/L1288-vpp.pdf"/><ref target="local:Vol86/L1288/Vol86xiiShadow.pdf"/></bibl><bibl type="surrogate"><ref target="https://babel.hathitrust.org/cgi/pt?id=mdp.39015067453426&amp;seq=442 ">UM from
        HT</ref><ref target="local:Vol86/L1288/L1288-um.pdf"/></bibl><listEvent>
       <event type="firstPerf" when="1869-08-23" source="textNic" where="Belfast">
@@ -20,14 +19,8 @@
       </event>
      </listEvent></sourceDesc>
   </fileDesc>
-  <profileDesc><textClass>
-    <catRef target="#sizeL"/>
-    <catRef target="#act3"/>
-    <catRef target="nic:D."/>
-    <keywords>
-     <term>DRAMA</term>
-    </keywords>
-   </textClass><particDesc><listPerson>
+  
+  <profileDesc><!--L 3 Drama D. DRAMA--><textClass><catRef target="#sizeL"/><catRef target="#act3"/><catRef target="nic:D."/><keywords><term>DRAMA</term></keywords></textClass><particDesc><listPerson>
  <person xml:id="L1288_M1"><persName type="role">Cyril Edgeworth</persName><persName type="spkr" n="145">Edge.</persName>
 </person>
  <person xml:id="L1288_M2"><persName type="role">Philip Rashleigh </persName><persName type="spkr" n="91">Rash.</persName>
@@ -71,8 +64,7 @@
 
 
 
-</listPerson></particDesc></profileDesc>
-  <revisionDesc><change when="2026-01-10">Metadata refreshed from catalogue and Partix folder</change><change when="2025-11-02">Metadata refreshed from catalogue and Partix folder</change>
+</listPerson></particDesc></profileDesc><revisionDesc><change when="2026-01-11">Standardize header components</change><change when="2026-01-10">Metadata refreshed from catalogue and Partix folder</change><change when="2025-11-02">Metadata refreshed from catalogue and Partix folder</change>
    <change when="2025-10-01">Metadata updated from new catalogue</change>
    <change when="2025-09-28">Header confected</change>
   </revisionDesc>

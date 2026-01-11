@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L0849">
 <teiHeader>
 <fileDesc>
-<titleStmt><title n="ladyaudleyssecret" type="main">Lady Audley's Secret</title><author>Suter, William E.</author><respStmt><resp>TEI conversion</resp><name>Lou Burnard</name></respStmt></titleStmt>
+<titleStmt><title>Lady Audley's Secret.: TEI edition</title><author>Suter, William E.</author><respStmt><resp>TEI conversion</resp><name>Lou Burnard</name></respStmt></titleStmt>
 <publicationStmt><distributor>Privately distributed by the Digital Lacy Project</distributor><idno type="LAE">L0849</idno><availability><licence target="https://creativecommons.org/publicdomain/zero/1.0/">The Lacy Project waives all rights to the TEI encoding applied to this material, which is believed to be in the public domain. You may copy, modify, distribute and perform this work freely. </licence></availability></publicationStmt>
 <sourceDesc><bibl type="origin" n="57.9"><author>Suter, William E.</author><title type="main" n="ladyaudleyssecret">Lady Audley's Secret</title><title type="sub">A Drama in two
        acts</title><title type="source" n="#EN">Adapted From Miss Braddon's Popular Work of the Same
@@ -12,7 +12,6 @@
   <measure type="spWords" quantity="11915"/>
   <measure type="stWords" quantity="2150"/>
   </extent>
-
       <title level="s"> Lacy's Acting Edition, volume 57, No. 0849</title><idno type="nic">N18808</idno><idno type="vpp">Vol57ixLady</idno></bibl><bibl type="surrogate" subtype="copytext"><ref target="https://lb42.github.io/Lacy/Source/VPP/L0849-vpp.pdf">LoB from VPP</ref><ref target="local:Vol57/L0849/L0849-vpp.pdf"/><ref target="local:Vol57/L0849/Vol57ixLady.pdf"/></bibl><bibl type="surrogate"><ref target="https://hdl.handle.net/2027/hvd.32044018937516">HVD
        from HT</ref></bibl><bibl type="surrogate"><ref target="https://babel.hathitrust.org/cgi/pt?id=mdp.39015067453814&amp;seq=246 ">UM from
        HT</ref><ref target="local:Vol57/L0849/L0849-um.pdf"/></bibl><bibl type="surrogate" subtype="TEI"><ref target="https://lb42.github.io/Lacy/L0849.html">TEI</ref></bibl><listEvent>
@@ -25,15 +24,8 @@
       </event>
      </listEvent></sourceDesc>
 </fileDesc>
-<profileDesc><textClass>
 
-<catRef target="#sizeS"/>
-<catRef target="#act2"/>
-<catRef target="nic:D."/>
-<keywords>
-<term>DRAMA</term>
-</keywords>
-</textClass><particDesc><listPerson>
+<profileDesc><!--S 2 Drama D. DRAMA--><textClass><catRef target="#sizeS"/><catRef target="#act2"/><catRef target="nic:D."/><keywords><term>DRAMA</term></keywords></textClass><particDesc><listPerson>
   <person xml:id="L0849_M1">
    <persName type="role">Sir Michael Audley </persName>
    <persName type="spkr" n="13">Sir M.</persName>
@@ -82,8 +74,7 @@
    <persName type="spkr" n="1">Both.</persName>
   </person>
 
- </listPerson></particDesc></profileDesc>
-<revisionDesc><change when="2026-01-10">Metadata refreshed from catalogue and Partix folder</change><change when="2025-11-02">Metadata refreshed from catalogue and Partix folder</change><change when="2025-09-07">Metadata updated from new catalogue</change>
+ </listPerson></particDesc></profileDesc><revisionDesc><change when="2026-01-11">Standardize header components</change><change when="2026-01-10">Metadata refreshed from catalogue and Partix folder</change><change when="2025-11-02">Metadata refreshed from catalogue and Partix folder</change><change when="2025-09-07">Metadata updated from new catalogue</change>
 <change when="2024-10-03">Header enriched</change>
 <change when="2023-12-21">Header confected</change>
 </revisionDesc>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L0466">
 <teiHeader>
 <fileDesc>
-<titleStmt><title n="marieducange" type="main">Marie Ducange</title><author>Bernard, Bayle</author><respStmt><resp>TEI conversion</resp><name>Lou Burnard</name></respStmt></titleStmt>
+<titleStmt><title>Marie Ducange: TEI edition</title><author>Bernard, Bayle</author><respStmt><resp>TEI conversion</resp><name>Lou Burnard</name></respStmt></titleStmt>
 <publicationStmt><distributor>Privately distributed by the Digital Lacy Project</distributor><idno type="LAE">L0466</idno><availability><licence target="https://creativecommons.org/publicdomain/zero/1.0/">The Lacy Project waives all rights to the TEI encoding applied to this material, which is believed to be in the public domain. You may copy, modify, distribute and perform this work freely. </licence></availability></publicationStmt>
 <sourceDesc><bibl type="origin" n="32.1"><author>Bernard, Bayle</author><title type="main" n="marieducange">Marie Ducange</title><title type="sub">An Original Domestic Drama in three
        acts</title><extent>45 pp (UM copy: 10 - 55)<measure type="pp" quantity="48"/>
@@ -11,7 +11,6 @@
   <measure type="spWords" quantity="14790"/>
   <measure type="stWords" quantity="2460"/>
   </extent>
-
       <title level="s"> Lacy's Acting Edition, volume 32, No. 0466</title><idno type="nic">N00420</idno></bibl><bibl type="surrogate" subtype="copytext"><ref target="https://babel.hathitrust.org/cgi/pt?id=mdp.39015067452998&amp;seq=10 ">UM from
        HT</ref><ref target="local:Vol32/L0466/L0466-um.pdf"/></bibl><bibl type="surrogate" subtype="TEI"><ref target="https://lb42.github.io/Lacy/L0466.html">TEI</ref></bibl><listEvent>
       <event type="firstPerf" when="1841-05-29" source="textNic" where="Haymarket">
@@ -19,14 +18,8 @@
       </event>
      </listEvent></sourceDesc>
 </fileDesc>
-<profileDesc><textClass>
-<catRef target="#sizeM"/>
-<catRef target="#act3"/>
-<catRef target="nic:D."/>
-<keywords>
-<term>DRAMA</term>
-</keywords>
-</textClass><particDesc><listPerson>
+
+<profileDesc><!--M 3 Drama D. DRAMA--><textClass><catRef target="#sizeM"/><catRef target="#act3"/><catRef target="nic:D."/><keywords><term>DRAMA</term></keywords></textClass><particDesc><listPerson>
 <person xml:id="L0466_M1">
 <persName type="role">Bulkley</persName>
 <persName type="spkr" n="44">Bulk.</persName>
@@ -100,8 +93,7 @@
 <persName type="spkr" n="1">Voice.</persName>
 <persName type="spkr" n="1">Visitors.</persName>
 </person>
-</listPerson></particDesc></profileDesc>
-<revisionDesc><change when="2026-01-10">Metadata refreshed from catalogue and Partix folder</change><change when="2025-11-02">Metadata refreshed from catalogue and Partix folder</change>
+</listPerson></particDesc></profileDesc><revisionDesc><change when="2026-01-11">Standardize header components</change><change when="2026-01-10">Metadata refreshed from catalogue and Partix folder</change><change when="2025-11-02">Metadata refreshed from catalogue and Partix folder</change>
 <change when="2025-09-10">Handedited @who</change>
 <change when="2025-09-07">Metadata updated from new catalogue</change>
 <change when="2025-05-04">Header enriched</change>
@@ -110,7 +102,7 @@
 </teiHeader>
 <text><pb n="1"/>
 <front>
-<titlePage><titlePart type="main">MARIE DUCANGE.</titlePart><titlePart type="sub">An original Domestic Drama, IN THREE ACTS.</titlePart><byline>By <docAuthor>Bayle Bernard,</docAuthor> author of <title>A Life's
+ <titlePage><titlePart type="main">Marie Ducange</titlePart><titlePart type="sub">An original Domestic Drama, in three acts.</titlePart><byline>By <docAuthor>Bayle Bernard,</docAuthor> author of <title>A Life's
 Trial,</title><title>" "A Splendid Investment; </title><title>"St. Mary's
 Eve,</title><title>" Lucille," </title><title>" The Farmer's Story,"
 </title><title>" His Last Legs," </title><title>" The Irish Attorney,"
