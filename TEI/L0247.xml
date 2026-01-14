@@ -1,0 +1,1842 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L0247">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title>The Railway Belle.: TEI edition</title>
+    <author>Lemon, Mark</author>
+    <respStmt>
+     <resp>TEI conversion</resp>
+     <name>Lou Burnard</name>
+    </respStmt>
+   </titleStmt>
+   <publicationStmt>
+    <distributor>Privately distributed by the Digital Lacy Project</distributor>
+    <idno type="LAE">L0247</idno>
+    <availability>
+     <licence target="https://creativecommons.org/publicdomain/zero/1.0/">The Lacy Project waives
+      all rights to the TEI encoding applied to this material, which is believed to be in the public
+      domain. You may copy, modify, distribute and perform this work freely. </licence>
+    </availability>
+   </publicationStmt>
+   <sourceDesc>
+    <bibl type="origin" n="17.7"><author>Lemon, Mark</author><title type="main" n="therailwaybelle"
+      >The Railway Belle</title><title type="sub">A Farce in one act</title><extent>18 pp (UM copy:
+      194 - 212)<measure type="pp" quantity="19"/>
+      <measure type="spCount" quantity="342"/>
+      <measure type="spvCount" quantity="0"/>
+      <measure type="txWords" quantity="4538"/>
+      <measure type="spWords" quantity="3904"/>
+      <measure type="stWords" quantity="634"/>
+     </extent>
+     <title level="s"> Lacy's Acting Edition, volume 17, No. 0247</title><idno type="nic"
+      >N14885</idno><idno type="vpp">Vol17viiRailway</idno></bibl>
+    <bibl type="surrogate" subtype="copytext"><ref
+      target="https://lb42.github.io/Lacy/Source/VPP/L0247-vpp.pdf">LoB from VPP</ref><ref
+      target="local:Vol17/L0247/L0247-vpp.pdf"/><ref target="local:Vol17/L0247/Vol17viiRailway.pdf"
+     /></bibl>
+    <bibl type="surrogate"><ref
+      target="https://babel.hathitrust.org/cgi/pt?id=mdp.39015067453186&amp;seq=194 ">UM from
+      HT</ref><ref target="local:Vol17/L0247/L0247-um.pdf"/></bibl>
+    <listEvent>
+     <event type="LCP" when="1862-11-16" where="Adelphi">
+      <desc>Licence sent 16 November for performance at the Adelphi 20 November 1854. </desc>
+      <bibl type="msSource">BL ms LCP_52950.V</bibl>
+     </event>
+     <event type="firstPerf" when="1854-11-20" source="textNic" where="Adelphi">
+      <desc>Premiered at Royal Adelphi Theatre 20 Nov. 1854</desc>
+     </event>
+    </listEvent>
+   </sourceDesc>
+  </fileDesc>
+
+  <profileDesc>
+   <!--S 1 Farce F. FARCE-->
+   <textClass>
+    <catRef target="#sizeS"/>
+    <catRef target="#act1"/>
+    <catRef target="nic:F."/>
+    <keywords>
+     <term>FARCE</term>
+    </keywords>
+   </textClass>
+   <particDesc>
+    <listPerson>
+     <person xml:id="L0247_M1">
+      <persName type="role">MR. CRABSHAW</persName>
+      <persName type="spkr" n="35">Crab.</persName>
+     </person>
+     <person xml:id="L0247_M2">
+      <persName type="role">JOHN QUICK</persName>
+      <persName type="spkr" n="110">John.</persName>
+     </person>
+     <person xml:id="L0247_M3">
+      <persName type="role">MR. SAMUEL GREENHORNE</persName>
+      <persName type="spkr" n="81">Green.</persName>
+     </person>
+     <person xml:id="L0247_M4">
+      <persName type="role">MR. FALLOWS</persName>
+      <persName type="spkr" n="22">Fal.</persName>
+      <persName type="spkr" n="1">Fallows.</persName>
+     </person>
+     <person xml:id="L0247_M5">
+      <persName type="role">LUNGS</persName>
+      <persName type="spkr" n="4">Porter.</persName>
+     </person>
+     <person xml:id="L0247_F6">
+      <persName type="role">MRS. FALLOWS</persName>
+      <persName type="spkr" n="3">Mrs. F.</persName>
+      <persName type="spkr" n="1">Mrs. Fallows.</persName>
+     </person>
+     <person xml:id="L0247_F7">
+      <persName type="role">MARY FALLOWS</persName>
+      <persName type="spkr" n="1">Mary F.</persName>
+      <persName type="spkr" n="3">Mary.</persName>
+      <persName type="spkr" n="4">Miss F.</persName>
+     </person>
+     <person xml:id="L0247_F8">
+      <persName type="role">JULIA SPRUCE</persName>
+      <persName type="spkr" n="65">Miss S.</persName>
+      <persName type="spkr" n="1">Miss Spruce.</persName>
+      <persName type="spkr" n="1">Spruce.</persName>
+     </person>
+     <person xml:id="L0247_M9">
+      <persName type="role">[Passenger]</persName>
+      <persName type="spkr" n="1">1st Passenger.</persName>
+      <persName type="spkr" n="1">2nd Do.</persName>
+      <persName type="spkr" n="1">3rd Do.</persName>
+      <persName type="spkr" n="1">4th Do.</persName>
+      <persName type="spkr" n="1">5th Do.</persName>
+      <persName type="spkr" n="1">6th Do.</persName>
+     </person>
+     <person xml:id="L0247_mult">
+      <persName type="role">[Multiple speakers]</persName>
+      <persName type="spkr" n="2">All.</persName>
+      <persName type="spkr" n="1">Mr., Mrs., and Mary Fallows.</persName>
+      <persName type="spkr" n="1">Вoth.</persName>
+     </person>
+    </listPerson>
+   </particDesc>
+  </profileDesc>
+  <revisionDesc>
+   <change when="2026-01-11">Standardize header components</change>
+   <change when="2026-01-10">Metadata refreshed from catalogue and Partix folder</change>
+   <change when="2025-12-31">Metadata refreshed from catalogue and Partix folder</change>
+   <change when="2025-12-03">Transcribed from PDF by Gemini 3</change>
+   <change when="2025-12-03">Removed running headings and corrected speech tagging (using only p for
+    prose) and title page structure.</change>
+   <change when="2025-12-03">Updated text identifier (n attribute and LAE ID) to the first 5
+    characters of the filename: L0247.</change>
+   <change when="2025-12-03">Grouped front matter (title pages, cast list) into front element,
+    starting body at the first scene.</change>
+   <change when="2025-12-03">Reordered teiHeader to place revisionDesc last, and removed tags from
+    change descriptions.</change>
+  </revisionDesc>
+ </teiHeader>
+ <text>
+  <front>
+   <pb/>
+   <titlePage>
+    <docTitle>
+     <titlePart type="main">The Railway Belle.</titlePart>
+     <titlePart type="sub">A farce, in one act.</titlePart>
+    </docTitle>
+    <byline>BY <docAuthor>MARK LEMON,</docAuthor>
+     <title>Arnold of Winklereid , </title><title>Self Accusation , </title><title>Gwynneth Vaughan
+      , </title><title>M . P . for the Rotten Borough , </title><title>My Sister Kate ,
+      </title><title>Love and Charity , </title><title>Pupil of da Vinci , </title><title>Silver
+      Thimble , </title><title>Deer Stalkers , </title><title>Little Gypsy , </title><title>Lost and
+      Won , </title><title>Ladies ' Club , </title><title>House of Ladies , </title><title>Pacha's
+      Bridal </title><title>Rob of the Fen , </title><title>Hearts are Trumps , </title><title>The
+      Demon Gift , </title><title>Old Parr , </title><title>Mind your own Business ,
+      </title><title>Sea and Land , </title><title>Domestic Economy , </title><title>Jack in the
+      Green , </title><title>London Fog , </title><title>Camp at Chohham, </title><title>Bob Short ,
+      </title><title>Ins and Outs, </title><title>Paula Lazarro , </title><title>The Grey Doublet ,
+      </title><title>The Turf , </title><title>What will the World say ? </title><title>Bashful
+      Irishman , </title><title>Yellow Husband , </title><title>The Ancestress , </title><title>The
+      Dumb Bedouin , </title><title>The Slow Man ; </title> AND JOINTLY OF THE <title> Chimes,
+      </title><title>Open Sesame, </title><title>Cold Water Cure , </title><title>World Underground
+      , </title><title>Wax and Wonders , </title><title>Slave Life, </title><title>Don Cæsar de
+      Bazan ,</title> &amp;c ., &amp;c . ; AND ADAPTER OF <title> Honesty the Best Policy ,
+      </title><title>The Three Secrets , </title><title>Grandfather Whitehead , </title><title>The
+      Oldest Inhabitant , </title><title>Lady of the Lake , </title><title>Hopes and Fears ,</title>
+     &amp;c . </byline>
+    <docImprint>THOMAS HAILES LACY, WELLINGTON STREET, STRAND, LONDON.</docImprint>
+   </titlePage>
+   <pb n="2"/>
+   <performance>
+
+    <head>THE RAILWAY BELLE.</head>
+    <p>First Performed at the Royal Adelphi Theatre, on Monday, November 20th, 1854.</p>
+
+    <castList>
+     <head>CHARACTERS.</head>
+     <castItem><role gender="M">MR. CRABSHAW</role>
+      <roleDesc>(Station Master)</roleDesc>.... <actor sex="M">MR. GARDEN.</actor></castItem>
+     <castItem><role gender="M">JOHN QUICK</role><roleDesc> ( Waiter)</roleDesc>.... <actor sex="M"
+       >MR. JAMES ROGERS.</actor></castItem>
+     <castItem><role gender="M">MR. SAMUEL GREENHORNE</role>.... <actor sex="M">MR. CHARLES
+       SELBY.</actor></castItem>
+     <castItem><role gender="M">MR. FALLOWS</role>.... <actor sex="M">MR. R.
+      ROMER.</actor></castItem>
+     <castItem><role gender="M">LUNGS</role>
+      <roleDesc>(a Railway Porter)</roleDesc>.... <actor sex="M">MR. PAGE.</actor></castItem>
+     <castItem><role gender="F">MRS. FALLOWS</role>.... <actor sex="F">MRS.
+      STOKER.</actor></castItem>
+     <castItem><role gender="F">MARY FALLOWS</role>.... <actor sex="F">MISS
+      LELACHEUR.</actor></castItem>
+     <castItem><role gender="F">JULIA SPRUCE</role>
+      <roleDesc>(the Railway Belle)</roleDesc>.... <actor sex="F">MISS WYNDHAM.</actor></castItem>
+    </castList>
+   </performance>
+   <div type="costume">
+    <head>COSTUMES .</head>
+    <list>
+     <item><label> Crabshaw</label> — Military coat , buttoned up , black trousers, cloth cap
+      .</item>
+     <item>
+      <label> John Quick</label> - First dress . Black coat and trousers , white waistcoat and
+      cravat , pumps . Second dress .Extravagant plaid trousers , waistcoat , and dress coat. </item>
+     <item>
+      <label>Greenhorne</label> - First dress . Grey suit . Second dress . Short tailed black coat ,
+      nankeen trousers .</item>
+     <item>
+      <label>Fallows</label> - Brown great coat , grey trousers and gaiters . </item>
+     <item>
+      <label>Lungs</label> - Railway porter 's dress . </item>
+     <item><label>Mrs . Fallows</label> — Silk dress , black cape . </item>
+     <item><label>Mary Fallows</label> - Figured silk , light scarf , white bonnet . </item>
+     <item>
+      <label>Julia Spruce</label> - Blue plaid delaine dress .</item>
+    </list>
+   </div>
+  </front>
+  <body>
+   <pb n="3"/>
+   <div type="scene">
+    <stage>SCENE. Interior of a Railway Refreshment Room. A counter near L. side. Tables and chairs.
+     Doors at back leading to platform. </stage>
+    <stage>MISS SPRUCE discovered serving customers. Among them MR. GREENHORNE, L.H., who is taking
+     soup. JOHN QUICK very active serving bottled beer, R.</stage>
+    <stage>(speaking hurriedly and together)</stage>
+    <sp who="#L0247_M9">
+     <speaker>1st Passenger.</speaker>
+     <p>Meat pie!</p>
+    </sp>
+    <sp who="#L0247_M9">
+     <speaker>2nd Do.</speaker>
+     <p>Coffee, coffee !</p>
+    </sp>
+    <sp who="#L0247_M9">
+     <speaker>3rd Do.</speaker>
+     <p>Here, bitter ale!</p>
+    </sp>
+    <sp who="#L0247_M9">
+     <speaker>4th Do.</speaker>
+     <p>Here, tea and sandwich!</p>
+    </sp>
+    <sp who="#L0247_M9">
+     <speaker>5th Do.</speaker>
+     <p>Small glass of brandy!</p>
+    </sp>
+    <sp who="#L0247_M9">
+     <speaker>6th Do.</speaker>
+     <p>Now then, a Banbury!</p>
+    </sp>
+    <sp who="#L0247_F8">
+     <speaker>Miss Spruce.</speaker>
+     <stage>(serves and takes money)</stage>
+     <p>Meat, 4d.; six of brandy; coffee, sixpence; ale six; Banbury four. <stage>(bell heard
+       without)</stage> Two minutes only! Meat pie, three!</p>
+    </sp>
+    <sp who="#L0247_M5">
+     <speaker>Porter.</speaker>
+     <p>Passengers for down train a quarter of an hour; passengers for up train going on.</p>
+     <stage>(general rush, bell, whistle, and all passengers exeunt but GREENHORNE)</stage>
+    </sp>
+    <sp who="#L0247_M2">
+     <speaker>John.</speaker>
+     <p>After a storm comes a calm, eh, Miss Spruce?</p>
+    </sp>
+    <sp who="#L0247_F8">
+     <speaker>Miss S.</speaker>
+     <p>It is to be hoped so. I declare it's a wonder I can tell bottled stout from raspberry
+      vinegar. Now, clear up, John. As soon as the down train's off, master will be over here to
+      look after us.</p>
+    </sp>
+    <sp who="#L0247_M2">
+     <speaker>John.</speaker>
+     <p>To look after <emph>us</emph>, to look after <emph>you</emph>, you mean. His attention to
+      you is killing me. It's a shame that the station-master should be allowed to keep the
+      refreshment-room.</p>
+    </sp>
+    <sp who="#L0247_F8">
+     <speaker>Miss S.</speaker>
+     <stage>(comes forward)</stage>
+     <p>La, why?</p>
+    </sp>
+    <sp who="#L0247_M2">
+     <speaker>John.</speaker>
+     <stage>(L.H.)</stage>
+     <p>Because he must feel a divided duty.
+      <pb n="4"/> How can he, when he sees everybody stuffing and drinking, have the heart to ring
+      the bell and clear the premises. Hallo, here's a gent left behind <stage>(goes to
+       GREENHORNE)</stage> Down train on other side, Sir.</p>
+    </sp>
+    <sp who="#L0247_M3">
+     <speaker>Green.</speaker>
+     <p>I'm not going down, young man.</p>
+    </sp>
+    <sp who="#L0247_M2">
+     <speaker>John.</speaker>
+     <p>Up train's gone, Sir.</p>
+    </sp>
+    <sp who="#L0247_M3">
+     <speaker>Green.</speaker>
+     <p>I wasn't going up, young man.</p>
+    </sp>
+    <sp who="#L0247_M2">
+     <speaker>John.</speaker>
+     <p>Not down, not up—where then, Sir?</p>
+    </sp>
+    <sp who="#L0247_M3">
+     <speaker>Green.</speaker>
+     <p>For the present I'm stationary.</p>
+    </sp>
+    <sp who="#L0247_M2">
+     <speaker>John.</speaker>
+     <p>Yes, Sir, but Sir, unless we've somebody to wait on we generally close the rooms, Sir.</p>
+    </sp>
+    <sp who="#L0247_M3">
+     <speaker>Green.</speaker>
+     <p>I know it. Bring me another plate of soup.</p>
+    </sp>
+    <sp who="#L0247_M2">
+     <speaker>John.</speaker>
+     <p>Another, Sir! do you know how many you've had, Sir? You have had five already.</p>
+    </sp>
+    <sp who="#L0247_M3">
+     <speaker>Green.</speaker>
+     <p>Yes, this will make six <stage>(gives money)</stage> and all paid.</p>
+    </sp>
+    <sp who="#L0247_M2">
+     <speaker>John.</speaker>
+     <p>Yes, Sir, six plates of soup, and our soup, too! <stage>(aside)</stage> I hope if there's a
+      coroner's inquest I shan't be asked to give evidence.</p>
+    </sp>
+    <sp who="#L0247_M3">
+     <speaker>Green.</speaker>
+     <stage>(aside)</stage>
+     <p>What a wretch I am. What a scoundrel I may say, and do myself no injustice. Here have I won
+      the affections of a pure unsophisticated girl, Mary Fallows, and been asked twice in church;
+      yet I, knowing there are actions for breaches of promise, and what a fiery dragon old Fallows
+      is, I am deliberately about to fascinate yonder lovely creature. Regardless of the mess—</p>
+    </sp>
+    <sp who="#L0247_M2">
+     <speaker>John.</speaker>
+     <p>Soup, Sir.</p>
+    </sp>
+    <sp who="#L0247_M3">
+     <speaker>Green.</speaker>
+     <p>Yes, the mess I shall get into. I have travelled every day from this station for a week. I
+      have eaten all sorts of pastry, from hard biscuit to Bath-buns; drank all sorts of liquids,
+      malt and spirituous, to obtain a look, a word from that gentle angel.</p>
+    </sp>
+    <sp who="#L0247_F8">
+     <speaker>Miss S.</speaker>
+     <stage>(to JOHN, who has been whispering)</stage>
+     <p>'Pon my word, I'll smack your face if you talk such nonsense.</p>
+    </sp>
+    <sp who="#L0247_M3">
+     <speaker>Green.</speaker>
+     <p>To-day I have resolved to remain until I can get an opportunity of speaking with her. Five
+      basins of soup <stage>(emptying his basin)—</stage> have I got in this leather bag—the other
+      has gone the way of all flesh. <stage>(sees JOHN)</stage> Why the devil don't that fellow wash
+      up his glasses, and not stand talking to her. He's smiling at her. Waiter?</p>
+    </sp>
+    <sp who="#L0247_M2">
+     <speaker>John.</speaker>
+     <p>Sir.</p>
+    </sp>
+    <sp who="#L0247_M3">
+     <speaker>Green.</speaker>
+     <p>A bottle of brandy.</p>
+    </sp>
+    <pb n="5"/>
+    <sp who="#L0247_M2">
+     <speaker>John.</speaker>
+     <p>Bottle o' brandy, Sir? Yes, Sir.</p>
+    </sp>
+    <sp who="#L0247_M3">
+     <speaker>Green.</speaker>
+     <p>No, no; a bottle of ale, I mean—bitter, very bitter.</p>
+    </sp>
+    <sp who="#L0247_M2">
+     <speaker>John.</speaker>
+     <p>Yes, Sir; any more soup, Sir?</p>
+    </sp>
+    <sp who="#L0247_M3">
+     <speaker>Green.</speaker>
+     <p>No, Sir, but give me a toothpick.</p>
+    </sp>
+    <sp who="#L0247_M2">
+     <speaker>John.</speaker>
+     <p>Sorry, Sir, but don't keep 'em now. So many gents used to take 'em away with 'em, Sir</p>
+     <stage>(talks to MISS S. R.H.)</stage>
+    </sp>
+    <sp who="#L0247_M3">
+     <speaker>Green.</speaker>
+     <p>There he is again. What can he have to say to her? Can he love her? Dare he love her? the
+      thought's distraction</p>
+     <stage>(throws the ale bottle under the grate)</stage>
+    </sp>
+    <stage>(JOHN and MISS SPRUCE both start.)</stage>
+    <sp who="#L0247_F8">
+     <speaker>Miss S.</speaker>
+     <p>What was that?</p>
+    </sp>
+    <sp who="#L0247_M2">
+     <speaker>John.</speaker>
+     <p>Nothing particular; and if it was, never mind it. These moments are too precious, Julia. You
+      did love me once.</p>
+    </sp>
+    <sp who="#L0247_F8">
+     <speaker>Miss S.</speaker>
+     <p>Mr. Quick, I beg you won't. If, shut up on this desolate island, as I may call this railway
+      station, I did listen to expressions which I ought not to have done, I am now ashamed of
+      myself.</p>
+    </sp>
+    <sp who="#L0247_M3">
+     <speaker>Green.</speaker>
+     <p>What are they buzzing about ?</p>
+    </sp>
+    <sp who="#L0247_M2">
+     <speaker>John.</speaker>
+     <p>Julia.</p>
+    </sp>
+    <sp who="#L0247_M3">
+     <speaker>Green.</speaker>
+     <p>He's calling her Julia. Another plate of soup!</p>
+    </sp>
+    <sp who="#L0247_M2">
+     <speaker>John.</speaker>
+     <p>Yes, Sir, coming, Sir! I know what it is; Mr. Crabshaw was only station-master then, now
+      he's our master. He loves you.</p>
+    </sp>
+    <sp who="#L0247_F8">
+     <speaker>Miss S.</speaker>
+     <stage>(filling out soup)</stage>
+
+    </sp>
+    <sp who="#L0247_M3">
+     <speaker>Green.</speaker>
+     <p>What's he saying about love? Soup, waiter.</p>
+    </sp>
+    <sp who="#L0247_M2">
+     <speaker>John.</speaker>
+     <p>Yes, Sir. You have listened to his flummery, and now, blinded by the splendour which
+      surrounds you—</p>
+    </sp>
+    <sp who="#L0247_F8">
+     <speaker>Miss S.</speaker>
+     <p>I'm surprised at you; and if you dare say that again, I'll knock you down with the soup
+      ladle.</p>
+    </sp>
+    <sp who="#L0247_M2">
+     <speaker>John.</speaker>
+     <stage>(dabs down the plate)</stage>
+     <p>Soup, Sir—a shilling.</p>
+     <stage>(GREENHORN pays)</stage>
+    </sp>
+    <sp who="#L0247_F8">
+     <speaker>Miss S.</speaker>
+     <stage>(she walks about and JOHN follows her)</stage>
+     <p>Well, indeed, things are come to a pretty pass if I am to be talked to by you, Mr. Quick;
+      suppose he does love me</p>
+     <stage>(stopped by JOHN.)</stage>
+    </sp>
+    <sp who="#L0247_M3">
+     <speaker>Green.</speaker>
+     <p>Are they quarrelling about me ?</p>
+    </sp>
+    <sp who="#L0247_F8">
+     <speaker>Miss S.</speaker>
+     <p>Suppose I do think him a handsomer man than you—</p>
+    </sp>
+    <pb n="6"/>
+    <sp who="#L0247_M2">
+     <speaker>John.</speaker>
+     <stage>(stopping her)</stage>
+     <p>You can't.</p>
+    </sp>
+    <sp who="#L0247_M3">
+     <speaker>Green.</speaker>
+     <stage>(aside)</stage>
+     <p>It is me.</p>
+    </sp>
+    <sp who="#L0247_F8">
+     <speaker>Miss S.</speaker>
+     <p>Suppose I prefer riding in a shay to walking in goloshes</p>
+     <stage>(stopped by JOHN)</stage>
+    </sp>
+    <sp who="#L0247_M3">
+     <speaker>Green.</speaker>
+     <stage>(aside)</stage>
+     <p>She saw my gig at the door!</p>
+    </sp>
+    <sp who="#L0247_F8">
+     <speaker>Miss S.</speaker>
+     <p>Suppose I'm tired of service, and wish to be my own mistress. What can you do?</p>
+    </sp>
+    <sp who="#L0247_M2">
+     <speaker>John.</speaker>
+     <p>Nothing at present, but wait five years.</p>
+    </sp>
+    <sp who="#L0247_F8">
+     <speaker>Miss S.</speaker>
+     <p>Five years!</p>
+    </sp>
+    <sp who="#L0247_M2">
+     <speaker>John.</speaker>
+     <p>Four.</p>
+    </sp>
+    <sp who="#L0247_F8">
+     <speaker>Miss S.</speaker>
+     <p>Four!</p>
+    </sp>
+    <sp who="#L0247_M2">
+     <speaker>John.</speaker>
+     <p>Three, two, one, and I'll get enough to begin business, if I steal the plate basket.</p>
+    </sp>
+    <sp who="#L0247_F8">
+     <speaker>Miss S.</speaker>
+     <p>No, Sir, I shall not wait for any such prospect, I assure you; I've something better in
+      view.</p>
+    </sp>
+    <sp who="#L0247_M3">
+     <speaker>Green.</speaker>
+     <p>She looks at me. She returns my love.</p>
+    </sp>
+    <sp who="#L0247_F8">
+     <speaker>Miss S.</speaker>
+     <stage>(aside)</stage>
+     <p>I quite forgot that booby was sitting there; I wonder what he wants.</p>
+     <stage>(bell)</stage>
+    </sp>
+    <sp who="#L0247_M2">
+     <speaker>John.</speaker>
+     <stage>(starts up)</stage>
+     <p>Julia, there is the down train.</p>
+    </sp>
+    <sp who="#L0247_F8">
+     <speaker>Miss S.</speaker>
+     <p>Then go and attend to the passengers. Tell Mr. Crabshaw I am unwell and <emph>shan't</emph>
+      come!</p>
+    </sp>
+    <sp who="#L0247_M2">
+     <speaker>John.</speaker>
+     <p>That is a short message to send to a master, but to me it speaks volumes. Oh, Julia
+      Spruce!</p>
+     <stage>Exit c.</stage>
+    </sp>
+    <sp who="#L0247_M3">
+     <speaker>Green.</speaker>
+     <p>She wants to be alone with me. I wanted to be alone with her, but now I am so, either my
+      heart or the soup won't let me speak a word.</p>
+    </sp>
+    <sp who="#L0247_F8">
+     <speaker>Miss S.</speaker>
+     <stage>(coquettishly)</stage>
+     <p>I declare that fellow's eyes follow me wherever I go!</p>
+    </sp>
+    <sp who="#L0247_M3">
+     <speaker>Green.</speaker>
+     <p>Again she looked at me. Where's my courage? I wish I'd had brandy and not bottled ale!</p>
+    </sp>
+    <sp who="#L0247_F8">
+     <speaker>Miss S.</speaker>
+     <p>He seems very uneasy—I'll speak to him. What's your train, Sir?</p>
+    </sp>
+    <sp who="#L0247_M3">
+     <speaker>Green.</speaker>
+     <p>Miss.</p>
+    </sp>
+    <sp who="#L0247_F8">
+     <speaker>Miss S.</speaker>
+     <p>I asked what train you were going by ?</p>
+    </sp>
+    <sp who="#L0247_M3">
+     <speaker>Green.</speaker>
+     <p>Uptrain to Picklehurst, 3.40.</p>
+    </sp>
+    <sp who="#L0247_F8">
+     <speaker>Miss S.</speaker>
+     <p>Dear me! you've a long time to wait, Sir; it's now only 2.10.</p>
+    </sp>
+    <sp who="#L0247_M3">
+     <speaker>Green.</speaker>
+     <p>That was my intention, to have a long time to wait, that I might have the pleasure
+      of—of——</p>
+    </sp>
+    <sp who="#L0247_F8">
+     <speaker>Miss S.</speaker>
+     <p>Seeing the town; it's a pretty place, I believe, Sir.</p>
+    </sp>
+    <pb n="7"/>
+    <sp who="#L0247_M3">
+     <speaker>Green.</speaker>
+     <p>Then you've not seen it! Let us go together— let us—</p>
+    </sp>
+    <sp who="#L0247_F8">
+     <speaker>Miss S.</speaker>
+     <p>What! what do you mean, Sir?</p>
+    </sp>
+    <sp who="#L0247_M3">
+     <speaker>Green.</speaker>
+     <p>Have you not guessed why I am here? Why I have been here every day, making myself bilious
+      with pastry. Cannot you guess what I want?</p>
+    </sp>
+    <sp who="#L0247_F8">
+     <speaker>Miss S.</speaker>
+     <p>No, Sir, I cannot; speak plainly. <stage>(stamps)</stage> What do you want?</p>
+    </sp>
+    <sp who="#L0247_M3">
+     <speaker>Green.</speaker>
+     <stage>(alarmed)</stage>
+     <p>A—another plate of soup, if you please.</p>
+    </sp>
+    <sp who="#L0247_F8">
+     <speaker>Miss S.</speaker>
+     <p>Oh, impossible! The man thinks of nothing but soup.</p>
+     <stage>(goes up)</stage>
+    </sp>
+    <sp who="#L0247_M3">
+     <speaker>Green.</speaker>
+     <p>Now I have displeased her. She thinks I prefer that horrible compound to her society— that
+      I've come here to stuff myself and not to unburthen my bosom.</p>
+    </sp>
+    <stage>Enter CRABSHAW, C.</stage>
+    <sp who="#L0247_M1">
+     <speaker>Crab.</speaker>
+     <p>My dear Miss Spruce, what's this that John tells me? you're ill.</p>
+    </sp>
+    <sp who="#L0247_F8">
+     <speaker>Miss S.</speaker>
+     <p>Oh, it was nothing, really nothing; I am quite well now, and shall be ready to attend the
+      excursion train when it arrives.</p>
+    </sp>
+    <sp who="#L0247_M1">
+     <speaker>Crab.</speaker>
+     <p>You are quite sure—quite ?</p>
+    </sp>
+    <sp who="#L0247_F8">
+     <speaker>Miss S.</speaker>
+     <p>Quite.</p>
+    </sp>
+    <sp who="#L0247_M1">
+     <speaker>Crab.</speaker>
+     <stage>(looks at watch)</stage>
+     <p>Dear me, the next branch will be here in five minutes. Now, my dear Miss Spruce, listen to
+      me. I am certain, from John Quick's confused manner, that he is in love with you.</p>
+    </sp>
+    <sp who="#L0247_F8">
+     <speaker>Miss S.</speaker>
+     <p>With me, Sir?</p>
+    </sp>
+    <sp who="#L0247_M1">
+     <speaker>Crab.</speaker>
+     <p>What so likely?—those charming eyes, those pouting lips.</p>
+    </sp>
+    <sp who="#L0247_F8">
+     <speaker>Miss S.</speaker>
+     <p>For shame, Mr. Crabshaw.</p>
+    </sp>
+    <sp who="#L0247_M1">
+     <speaker>Crab.</speaker>
+     <p>I can't help it.</p>
+    </sp>
+    <sp who="#L0247_M3">
+     <speaker>Green.</speaker>
+     <stage>(aside)</stage>
+     <p>Then you ought.</p>
+    </sp>
+    <sp who="#L0247_M1">
+     <speaker>Crab.</speaker>
+     <p>The fellow's in love with you, and that's a thing I can't allow.</p>
+    </sp>
+    <sp who="#L0247_F8">
+     <speaker>Miss S.</speaker>
+     <p>La, Sir, why not?</p>
+    </sp>
+    <sp who="#L0247_M1">
+     <speaker>Crab.</speaker>
+     <p>Because I love—I adore you!</p>
+    </sp>
+    <sp who="#L0247_F8">
+     <speaker>Miss S.</speaker>
+     <p>Good gracious, Sir! How can you go on so? You've only been a widower six months!</p>
+    </sp>
+    <sp who="#L0247_M3">
+     <speaker>Green.</speaker>
+     <stage>(L. aside)</stage>
+     <p>What courage he has.</p>
+    </sp>
+    <pb n="8"/>
+    <sp who="#L0247_M1">
+     <speaker>Crab.</speaker>
+     <stage>(c.)</stage>
+     <p>Don't allude to the late Mrs. C.—most obstinate woman—cried herself to death to make her
+      friends believe she was ill-used. I never spoke to her for three years.</p>
+    </sp>
+    <sp who="#L0247_F8">
+     <speaker>Miss S.</speaker>
+     <stage>(R., aside)</stage>
+     <p>A pleasant husband!</p>
+    </sp>
+    <sp who="#L0247_M1">
+     <speaker>Crab.</speaker>
+     <p>But you—you are an angel, and I can't live without you. Say that you love me—say that you'll
+      have me. I'll telegraph up for a license, and to-morrow at 10.30. I'll lead you to the
+      hymeneal altar.</p>
+    </sp>
+    <sp who="#L0247_F8">
+     <speaker>Miss S.</speaker>
+     <p>Really, Mr. Crabshaw, this is so unexpected, so sudden—that— <stage>(aside)</stage> I
+      wouldn't have him for the world. <stage>(bell)</stage></p>
+    </sp>
+    <sp who="#L0247_M1">
+     <speaker>Crab.</speaker>
+     <p>There's the branch. I'll be back for an answer in ten minutes.</p>
+     <stage>Exit c.</stage>
+    </sp>
+    <sp who="#L0247_M3">
+     <speaker>Green.</speaker>
+     <p>Why couldn't I say that? Why couldn't I propose in that way? I see it all; John loves her,
+      Crab loves her, I love her—John's poor, and he won't do—Crab's cross and he won't do—I'm
+      neither, and I shall do. I'll propose to her at once, I'll— <stage>Enter JOHN, C.</stage> Damn
+      that waiter, he's always in the way!</p>
+    </sp>
+    <sp who="#L0247_M2">
+     <speaker>John.</speaker>
+     <stage>(to MISS SPRUCE)</stage>
+     <p>Julia!</p>
+    </sp>
+    <sp who="#L0247_F8">
+     <speaker>Miss S.</speaker>
+     <p>Miss Spruce, if you please.</p>
+    </sp>
+    <sp who="#L0247_M2">
+     <speaker>John.</speaker>
+     <p>Miss Spruce, then, I am going out of my mind— I'm losing my faculty of waiting—I've just
+      shot Mr. Crabshaw!</p>
+    </sp>
+    <sp who="#L0247_F8">
+     <speaker>Miss S.</speaker>
+     <p>What?</p>
+    </sp>
+    <sp who="#L0247_M2">
+     <speaker>John.</speaker>
+     <p>With a bottle of soda-water!</p>
+    </sp>
+    <sp who="#L0247_M3">
+     <speaker>Green.</speaker>
+     <stage>(aside)</stage>
+     <p>And that's not felony, confound it!</p>
+    </sp>
+    <sp who="#L0247_M2">
+     <speaker>John.</speaker>
+     <p>I've lost the corkscrew, and believe I've swallowed it, and all through you!</p>
+    </sp>
+    <sp who="#L0247_F8">
+     <speaker>Miss S.</speaker>
+     <p>What have I done?</p>
+    </sp>
+    <sp who="#L0247_M2">
+     <speaker>John.</speaker>
+     <stage>(beats his breast)</stage>
+     <p>Here, here!</p>
+    </sp>
+    <sp who="#L0247_F8">
+     <speaker>Miss S.</speaker>
+     <p>O, this persecution is cruel. Why is everybody in love with me?</p>
+    </sp>
+    <sp who="#L0247_M3">
+     <speaker>Green.</speaker>
+     <stage>(falls on his knees as she approaches him)</stage>
+     <p>Because they can't help it!</p>
+     <stage>(she turns and crosses to JOHN)</stage>
+    </sp>
+    <sp who="#L0247_M2">
+     <speaker>John.</speaker>
+     <p>It's natural—your beauty!</p>
+    </sp>
+    <sp who="#L0247_F8">
+     <speaker>Miss S.</speaker>
+     <p>My beauty! then I'll take a small-tooth comb and scarify my self.</p>
+    </sp>
+    <pb n="9"/>
+    <sp who="#L0247_M2">
+     <speaker>John.</speaker>
+     <stage>(seizing her hand)</stage>
+     <p>Do, do—tattoo yourself—make yourself into a Sandwich, I mean a Sandwich Islander—still I
+      shall love you.</p>
+     <stage>(kisses her hand violently, and falls on his knees and appears to faint)</stage>
+    </sp>
+    <sp who="#L0247_M3">
+     <speaker>Green.</speaker>
+     <p>The fellow's an ass.</p>
+    </sp>
+    <stage>Enter CRABSHAW, C., who stands aghast.</stage>
+    <sp who="#L0247_F8">
+     <speaker>Miss S.</speaker>
+     <p>John, John! Why don't you answer? He is insensible! John, John!</p>
+    </sp>
+    <sp who="#L0247_M3">
+     <speaker>Green.</speaker>
+     <p>Waiter!</p>
+    </sp>
+    <sp who="#L0247_M2">
+     <speaker>John.</speaker>
+     <stage>(raises his head rapidly and then subsides again)</stage>
+     <p>Yes, Sir.</p>
+    </sp>
+    <sp who="#L0247_M1">
+     <speaker>Crab.</speaker>
+     <stage>(all start)</stage>
+     <p>I'll bring him to his senses, I warrant me. John Quick!</p>
+    </sp>
+    <sp who="#L0247_M2">
+     <speaker>John.</speaker>
+     <p>Yes, Sir.</p>
+    </sp>
+    <sp who="#L0247_M1">
+     <speaker>Crab.</speaker>
+     <p>Leave this place directly.</p>
+    </sp>
+    <sp who="#L0247_M2">
+     <speaker>John.</speaker>
+     <p>Yes, Sir: I mean no, Sir. Excursion train coming down, and there'll be nobody to wait on the
+      passengers, but—</p>
+    </sp>
+    <sp who="#L0247_M1">
+     <speaker>Crab.</speaker>
+     <p>I don't care; the passengers must fancy it's Sunday, and do without. But here you do not
+      stop another hour.</p>
+    </sp>
+    <sp who="#L0247_M2">
+     <speaker>John.</speaker>
+     <p>Oh, Sir!</p>
+    </sp>
+    <sp who="#L0247_M1">
+     <speaker>Crab.</speaker>
+     <p>I'm resolved.</p>
+    </sp>
+    <sp who="#L0247_M2">
+     <speaker>John.</speaker>
+     <p>But, my month?</p>
+    </sp>
+    <sp who="#L0247_M1">
+     <speaker>Crab.</speaker>
+     <p>Shall be paid you—but go you shall!</p>
+    </sp>
+    <sp who="#L0247_F8">
+     <speaker>Miss S.</speaker>
+     <p>Poor fellow, I'm sure he loves me!</p>
+    </sp>
+    <sp who="#L0247_M2">
+     <speaker>John.</speaker>
+     <p>Very well, Sir. Where are my things, my hat?</p>
+     <stage>(is about to put on soup tureen; MISS SPRUCE takes it from him)</stage>
+    </sp>
+    <sp who="#L0247_F8">
+     <speaker>Miss S.</speaker>
+     <p>John, John, be a man!</p>
+    </sp>
+    <sp who="#L0247_M2">
+     <speaker>John.</speaker>
+     <p>Never more. Drag the water butt in the morning.</p>
+    </sp>
+    <sp who="#L0247_F8">
+     <speaker>Miss S.</speaker>
+     <p>Oh, John—dear John—</p>
+    </sp>
+    <sp who="#L0247_M2">
+     <speaker>John.</speaker>
+     <p>Eh—what did she say—dear John?</p>
+    </sp>
+    <sp who="#L0247_F8">
+     <speaker>Miss S.</speaker>
+     <p>Hush!</p>
+    </sp>
+    <sp who="#L0247_M2">
+     <speaker>John.</speaker>
+     <p>She did, and she meant it. <stage>(to CRABSHAW)</stage> Sir, you are using me very ill.</p>
+    </sp>
+    <sp who="#L0247_M1">
+     <speaker>Crab.</speaker>
+     <p>Go!</p>
+    </sp>
+    <sp who="#L0247_M2">
+     <speaker>John.</speaker>
+     <p>You are degrading me in the eyes of the waiters of Europe.</p>
+    </sp>
+    <sp who="#L0247_M1">
+     <speaker>Crab.</speaker>
+     <p>Go!</p>
+    </sp>
+    <sp who="#L0247_M2">
+     <speaker>John.</speaker>
+     <p>But I will have my revenge.</p>
+    </sp>
+    <pb n="10"/>
+    <sp who="#L0247_M1">
+     <speaker>Crab.</speaker>
+     <p>Go!</p>
+    </sp>
+    <sp who="#L0247_M2">
+     <speaker>John.</speaker>
+     <p>I'll let the world know how you make horse-beans do duty for coffee.</p>
+    </sp>
+    <sp who="#L0247_M1">
+     <speaker>Crab.</speaker>
+     <p>Do.</p>
+    </sp>
+    <sp who="#L0247_M2">
+     <speaker>John.</speaker>
+     <p>I'll disclose the mystery of your meat-pies, and when the world knows <emph>that</emph>,
+      what will they think of the soup?</p>
+    </sp>
+    <sp who="#L0247_M1">
+     <speaker>Crab.</speaker>
+     <p>Go, libeller, go!</p>
+     <stage>Exit JOHN, C.</stage>
+    </sp>
+    <sp who="#L0247_M3">
+     <speaker>Green.</speaker>
+     <stage>(R. H., aside)</stage>
+     <p>Yes, it's a capital idea. I never did wait at table, but it must be very easy. Egad, I'll
+      try my luck.</p>
+    </sp>
+    <sp who="#L0247_M1">
+     <speaker>Crab.</speaker>
+     <stage>(who has been speaking to MISS S.)</stage>
+     <p>Well, I'll promise to give him a character, but it's more than he deserves.</p>
+    </sp>
+    <sp who="#L0247_F8">
+     <speaker>Miss S.</speaker>
+     <p>What fools we women are! <stage>(goes into bar)</stage> If we do love a man, we are always
+      afraid to tell him so. Poor John!—I'm sure he'll do something very desperate— perhaps marry
+      me.</p>
+     <stage>Exit, door R. H.</stage>
+    </sp>
+    <sp who="#L0247_M1">
+     <speaker>Crab.</speaker>
+     <stage>(comes forward with GREENHORNE)</stage>
+     <p>Well, that is very odd to be sure that you should be a waiter wanting a place, and here
+      should be a place wanting a waiter. Have you a character ?</p>
+    </sp>
+    <sp who="#L0247_M3">
+     <speaker>Green.</speaker>
+     <p>Yes, Sir; Mr. Greenhorne, who lives at the Hall, knows me. I lived with him a good many
+      years before I took to this.</p>
+    </sp>
+    <sp who="#L0247_M1">
+     <speaker>Crab.</speaker>
+     <p>Well, we'll see what we can do. <stage>(calls)</stage> Miss Spruce.</p>
+    </sp>
+    <stage>Enter MISS SPRUCE, R. H.</stage>
+    <sp who="#L0247_M1">
+     <speaker>Crab.</speaker>
+     <p>Fortunately, here's a waiter to supply that fellow's place.</p>
+    </sp>
+    <sp who="#L0247_F8">
+     <speaker>Miss S.</speaker>
+     <p>He a waiter?</p>
+    </sp>
+    <sp who="#L0247_M3">
+     <speaker>Green.</speaker>
+     <p>Yes, miss.</p>
+     <stage>(makes signs)</stage>
+    </sp>
+    <sp who="#L0247_M1">
+     <speaker>Crab.</speaker>
+     <p>And I'm determined to give him a trial—he can't be a greater fool than his predecessor.</p>
+    </sp>
+    <sp who="#L0247_F8">
+     <speaker>Miss S.</speaker>
+     <stage>(aside)</stage>
+     <p>We shall see. <stage>(crosses to L.)</stage> Young man, you have undertaken a very difficult
+      position. Can you uncork fifty bottles of beer in ten minutes, discriminating between ale and
+      stout, serve twenty plates of sandwiches in the same time, and never confound beef with ham,
+      or ham with beef? Is your ear sufficiently good to say how many variety of liquids are
+      contained in three gings, four sodes and six lems, pine o' ale and a biskit ?</p>
+    </sp>
+    <pb n="11"/>
+    <sp who="#L0247_M3">
+     <speaker>Green.</speaker>
+     <p>Yes, miss.</p>
+     <stage>(aside) I've not the remotest notion what she means.</stage>
+    </sp>
+    <sp who="#L0247_F8">
+     <speaker>Miss S.</speaker>
+     <p>I thought I should puzzle him.</p>
+    </sp>
+    <sp who="#L0247_M1">
+     <speaker>Crab.</speaker>
+     <p>Very well. What's your name?</p>
+    </sp>
+    <sp who="#L0247_M3">
+     <speaker>Green.</speaker>
+     <p>Adolphus.</p>
+     <stage>(aside) It's Sam.</stage>
+    </sp>
+    <sp who="#L0247_M1">
+     <speaker>Crab.</speaker>
+     <p>Adolphus?—nonsense! James—we'll call you James. Now go into that room, <stage>(L.
+       H.)</stage> you'll find a jacket and apron, which you can wear until you can send for your
+      luggage.</p>
+    </sp>
+    <sp who="#L0247_M3">
+     <speaker>Green.</speaker>
+     <p>Yes, Sir.</p>
+     <stage>(aside) What a happy fellow I am! She knows I'm no waiter, and yet she won't betray
+      me.</stage>
+     <stage>Exit L. H.</stage>
+    </sp>
+    <stage>Enter JOHN, c. from R., very smart.</stage>
+    <sp who="#L0247_M2">
+     <speaker>John.</speaker>
+     <stage>(sits at L. table, with back to them)</stage>
+     <p>Waiter.</p>
+    </sp>
+    <sp who="#L0247_M1">
+     <speaker>Crab.</speaker>
+     <stage>(starting)</stage>
+     <p>I could have sworn that was John's voice.</p>
+    </sp>
+    <sp who="#L0247_F8">
+     <speaker>Miss S.</speaker>
+     <p>And so could I. Did you call, Sir?</p>
+    </sp>
+    <sp who="#L0247_M2">
+     <speaker>John.</speaker>
+     <stage>(turning round)</stage>
+     <p>Yes, my dear; I want a plate of mixed sandwiches.</p>
+    </sp>
+    <sp who="#L0247_M1">
+     <speaker>Crab.</speaker>
+     <p>Why, you impudent rascal, I told you to leave this place.</p>
+    </sp>
+    <sp who="#L0247_M2">
+     <speaker>John.</speaker>
+     <p>So I did, as waiter. I'm now here as a customer.</p>
+    </sp>
+    <sp who="#L0247_F8">
+     <speaker>Spruce.</speaker>
+     <p>Well, I never did—</p>
+    </sp>
+    <sp who="#L0247_M1">
+     <speaker>Crab.</speaker>
+     <p>But I'll not allow you to be served.</p>
+    </sp>
+    <sp who="#L0247_M2">
+     <speaker>John.</speaker>
+     <p>Then I shall write to the directors. This room is open for the accommodation of the public—I
+      am the public. You agree to supply the wants of the public—I am the public, and want a plate
+      of sandwiches mixed—two ham and two beef.</p>
+    </sp>
+    <sp who="#L0247_M1">
+     <speaker>Crab.</speaker>
+     <p>He's quite right. I dare not turn him out, and yet my boiler's bursting with indignation
+      that— <stage>(bell)</stage> There's a telegraph of some kind. Here, you, James.</p>
+    </sp>
+    <stage>Enter GREENHORNE, L. H., goes to c.</stage>
+    <sp who="#L0247_M1">
+     <speaker>Crab.</speaker>
+     <p>Do you see that fellow?</p>
+    </sp>
+    <sp who="#L0247_M2">
+     <speaker>John.</speaker>
+     <p>Hollo, hollo! "One of the public." "Pater-familias," anything you like but fellow.</p>
+    </sp>
+    <sp who="#L0247_M1">
+     <speaker>Crab.</speaker>
+     <p>There, that— <stage>(choking with anger)</stage> Keep your eye upon him.
+       <stage>(aside)</stage> Don't let him speak to that young person; <stage>(aloud)</stage> and
+      look after the spoons, Sir. <stage>Exit c.</stage></p>
+    </sp>
+    <sp who="#L0247_M3">
+     <speaker>Green.</speaker>
+     <p>Yes, Sir.</p>
+     <stage>(goes to counter) </stage>
+    </sp>
+    <pb n="12"/>
+    <sp who="#L0247_F8">
+     <speaker>Miss S.</speaker>
+     <stage>(R.)</stage>
+     <p>Oh, John, how could you run this risk of a collision ?</p>
+    </sp>
+    <sp who="#L0247_M2">
+     <speaker>John.</speaker>
+     <stage>(L.)</stage>
+     <p>Do you think I've lived so long on a railway, and care about a collision? —— No, Julia, to
+      see you once again, I'd ride on a buffer.</p>
+     <stage>(they embrace)</stage>
+    </sp>
+    <sp who="#L0247_M3">
+     <speaker>Green.</speaker>
+     <p>Hallo!</p>
+     <stage>(they separate)</stage>
+     <p>You musn't do that.</p>
+    </sp>
+    <sp who="#L0247_M2">
+     <speaker>John.</speaker>
+     <p>Why not?</p>
+    </sp>
+    <sp who="#L0247_F8">
+     <speaker>Miss S.</speaker>
+     <p>Ah, why not combine pleasure with business?</p>
+    </sp>
+    <sp who="#L0247_M2">
+     <speaker>John.</speaker>
+     <stage>(perceiving GREEN)</stage>
+     <p>Eh—what's this?</p>
+     <stage>(crossing to R. H.)</stage>
+     <p>Why, you're the great soup cormorant. You're not a waiter, I'm sure, or you'd never have
+      taken six basins of that mixture as before.</p>
+    </sp>
+    <sp who="#L0247_M3">
+     <speaker>Green.</speaker>
+     <p>But I am a waiter, Sir— <stage>(aside)</stage> I've been waiting here all day.</p>
+    </sp>
+    <sp who="#L0247_M2">
+     <speaker>John.</speaker>
+     <stage>(crossing to L.H.)</stage>
+     <p>If he's in the line I'd eat him, and that wouldn't he desirable even at the present high
+      price of provisions. Julia.</p>
+    </sp>
+    <sp who="#L0247_F8">
+     <speaker>Miss S.</speaker>
+     <stage>(up at counter)</stage>
+     <p>There, now, don't talk to me any more. The excursion train will be here directly, and
+      nothing ready.</p>
+    </sp>
+    <sp who="#L0247_M2">
+     <speaker>John.</speaker>
+     <p>Nothing ready.</p>
+     <stage>(busies himself with counter)</stage>
+    </sp>
+    <sp who="#L0247_F8">
+     <speaker>Miss S.</speaker>
+     <p>I'll thank you not to touch anything, Sir. James, be kind enough to come and wash up.</p>
+    </sp>
+    <sp who="#L0247_M3">
+     <speaker>Green.</speaker>
+     <p>Wash up! anything to please you Miss Spruce!</p>
+     <stage>(goes to work awkwardly)</stage>
+    </sp>
+    <sp who="#L0247_M2">
+     <speaker>John.</speaker>
+     <stage>(goes to table)</stage>
+     <p>A muff, a pump, a spoon—He a waiter! <stage>(aloud)</stage> Waiter. <stage>(pause)</stage>
+      Why the devil don't you answer, waiter ?</p>
+    </sp>
+    <sp who="#L0247_M3">
+     <speaker>Green.</speaker>
+     <stage>(drops a plate)</stage>
+     <p>Yes, Sir.</p>
+    </sp>
+    <sp who="#L0247_F8">
+     <speaker>Miss S.</speaker>
+     <p>How clumsy!</p>
+    </sp>
+    <sp who="#L0247_M2">
+     <speaker>John.</speaker>
+     <p>He pays for breakages—I used to do so— and he'll break enough to repair all the roads in the
+      parish. Waiter!</p>
+    </sp>
+    <sp who="#L0247_M3">
+     <speaker>Green.</speaker>
+     <p>Yes, Sir!</p>
+    </sp>
+    <sp who="#L0247_M2">
+     <speaker>John.</speaker>
+     <p>Nothing, and bring it directly.</p>
+    </sp>
+    <sp who="#L0247_M3">
+     <speaker>Green.</speaker>
+     <p>What do you mean by that, Sir?</p>
+    </sp>
+    <sp who="#L0247_M2">
+     <speaker>John.</speaker>
+     <p>Miss Spruce, am I to be insulted by one of your menials?</p>
+    </sp>
+    <sp who="#L0247_F8">
+     <speaker>Miss S.</speaker>
+     <p>James, you really must control your temper— impertinence can be charged for in the bill.</p>
+    </sp>
+    <sp who="#L0247_M3">
+     <speaker>Green.</speaker>
+     <p>But my dear Miss Spruce, he ordered nothing.</p>
+    </sp>
+    <sp who="#L0247_F8">
+     <speaker>Miss S.</speaker>
+     <p>The gentleman knows best what he can afford
+      <pb n="13"/>to pay for if he has ordered nothing, you will take him nothing.</p>
+    </sp>
+
+    <sp who="#L0247_M4">
+     <speaker>Fallows.</speaker>
+     <stage>(without C.D.)</stage>
+     <p>How many parcels be there, Susan?</p>
+    </sp>
+    <sp who="#L0247_F6">
+     <speaker>Mrs. Fallows.</speaker>
+     <stage>(without)</stage>
+     <p>Only nine.</p>
+    </sp>
+    <sp who="#L0247_M3">
+     <speaker>Green.</speaker>
+     <p>Good gracious! that's Mr. Fallows' voice. <stage>(goes to door)</stage> As I live, there
+      they are—Mary Fallows, and her parents; if they should come in here! <stage>(disorders his
+       hair)</stage></p>
+    </sp>
+    <sp who="#L0247_M2">
+     <speaker>John.</speaker>
+     <p>Hallo! here's something wrong. My friend has evidently recognised an acquaintance, and is
+      afraid of being discovered</p>
+     <stage>(goes to bar R.)</stage>
+    </sp>
+    <sp who="#L0247_M3">
+     <speaker>Green.</speaker>
+     <p>If they should find me out, I'm a martyr for life; or a victim at the Assizes. What a fool
+      I've been—this girl don't care a Banbury cake for me, and evidently prefers that waiter.</p>
+    </sp>
+    <sp who="#L0247_M2">
+     <speaker>John.</speaker>
+     <p>He's perplexed—he's in a mess—I'll get him deeper into it, and then help him out of it if he
+      can pay for it. Julia, dear Julia.</p>
+    </sp>
+    <sp who="#L0247_F8">
+     <speaker>Miss S.</speaker>
+     <p>Now, go along—Mr. Crabshaw will be here directly, and I shall be losing my place, and
+      perhaps my character.</p>
+    </sp>
+    <sp who="#L0247_M2">
+     <speaker>John.</speaker>
+     <p>Never mind—I'll take you without one. The John Quick's arms is open to receive you.</p>
+    </sp>
+    <sp who="#L0247_F8">
+     <speaker>Miss S.</speaker>
+     <p>Oh, John! if you only had a little ready money and plenty of credit, I think I could trust
+      you.</p>
+    </sp>
+    <sp who="#L0247_M2">
+     <speaker>John.</speaker>
+     <p>Bless you for your confidence.</p>
+    </sp>
+    <stage>Enter FALLOWS, MRS. FALLOWS, MARY FALLOWS, and PORTER with baskets, &amp;c., c. from
+     R.</stage>
+    <sp who="#L0247_M4">
+     <speaker>Fal.</speaker>
+     <p>So the Picklehurst train don't go till 40 minutes past three. Whoi time-table says three
+      o'clock?</p>
+     <stage>(pulls out Bradshaw)</stage>
+    </sp>
+    <sp who="#L0247_M5">
+     <speaker>Porter.</speaker>
+     <p>I don't know how that can be, Sir.</p>
+     <stage>(looks at book, which FALLOws shews him) O, I see, this is Bradshaw for June, and now
+      it's November—change of time since then.</stage>
+     <stage>Exit c.</stage>
+    </sp>
+    <sp who="#L0247_M4">
+     <speaker>Fal.</speaker>
+     <p>O, dang't, what shall we do to fill up the toime? Let's have summat to eat and drink,
+      Susan.</p>
+    </sp>
+    <sp who="#L0247_F6">
+     <speaker>Mrs. F.</speaker>
+     <p>Yes, Jacob.</p>
+    </sp>
+    <sp who="#L0247_F7">
+     <speaker>Mary.</speaker>
+     <p>Yes, father.</p>
+    </sp>
+    <pb n="14"/>
+    <sp who="#L0247_M2">
+     <speaker>John.</speaker>
+     <p>Capital plan, Sir, and I'll join you, if you've no objection.</p>
+    </sp>
+    <sp who="#L0247_M4">
+     <speaker>Fal.</speaker>
+     <p>Wi' all my heart, Sir. What shall we have?</p>
+    </sp>
+    <sp who="#L0247_M2">
+     <speaker>John.</speaker>
+     <p>If I might suggest, soup to begin with; a gent, morning, had six plates of it at a sitting,
+       <stage>(aside)</stage> and still survives.</p>
+    </sp>
+    <sp who="#L0247_M4">
+     <speaker>Fal.</speaker>
+     <p>Well, soup all round.</p>
+    </sp>
+    <sp who="#L0247_M2">
+     <speaker>John.</speaker>
+     <p>Four soups, waiter.</p>
+    </sp>
+    <sp who="#L0247_M3">
+     <speaker>Green.</speaker>
+     <p>Yes, Sir. <stage>(aside)</stage> What shall I do?</p>
+    </sp>
+    <sp who="#L0247_F8">
+     <speaker>Miss S.</speaker>
+     <p>Now, James—plates—spoons.</p>
+    </sp>
+    <sp who="#L0247_F7">
+     <speaker>Mary.</speaker>
+     <stage>(takes up bag)</stage>
+     <p>La, Father! if here isn't Sammy's bag! What can be in it?</p>
+    </sp>
+    <sp who="#L0247_M4">
+     <speaker>Fal.</speaker>
+     <p>What, Greenhorne's? Why, the careless fellow has left it behind him.</p>
+    </sp>
+    <sp who="#L0247_M2">
+     <speaker>John.</speaker>
+     <p>O ho! they know him, and he's a greenhorn!</p>
+    </sp>
+    <sp who="#L0247_M3">
+     <speaker>Green.</speaker>
+     <stage>(in his trepidation rattles the plates and is greatly confused)</stage>
+     <p>I shall betray myself, I'm sure I shall!</p>
+    </sp>
+    <sp who="#L0247_M2">
+     <speaker>John.</speaker>
+     <p>Now, waiter, come, look alive.</p>
+    </sp>
+    <stage>GREENHORNE brings plates, and, averting his head, appears to spill soup over MRS.
+     FALLOWS.</stage>
+    <sp who="#L0247_F6">
+     <speaker>Mrs. F.</speaker>
+     <p>Oh, what's the stupid fellow about?</p>
+    </sp>
+    <sp who="#L0247_M2">
+     <speaker>John.</speaker>
+     <p>That's not the way to hand soup, you sir. Here, look at me—soup, ma'am—soup, sir—soup,
+      miss—soup, sir!</p>
+     <stage>(hands plates rapidly, and then sits down next to MARY)</stage>
+    </sp>
+    <sp who="#L0247_F8">
+     <speaker>Miss S.</speaker>
+     <stage>(aside)</stage>
+     <p>How John does love his art!</p>
+    </sp>
+    <sp who="#L0247_M3">
+     <speaker>Green.</speaker>
+     <p>I shall swoon in a minute. <stage>(to Miss SPRUCE) A glass of brandy on my own
+       account.</stage>
+      <stage>(MISS SPRUCE gives him some)</stage></p>
+    </sp>
+    <sp who="#L0247_M4">
+     <speaker>Fal.</speaker>
+     <p>You see, mister, we be all pretty sharp set, for, to tell you the truth, we none on us made
+      a breakfast. Bread, waiter!</p>
+    </sp>
+    <sp who="#L0247_M2">
+     <speaker>John.</speaker>
+     <stage>(mechanically)</stage>
+     <p>Yes, Sir—that is, no, Sir. Bread!</p>
+     <stage>Exit MISS SPRUCE, C.</stage>
+    </sp>
+    <sp who="#L0247_M3">
+     <speaker>Green.</speaker>
+     <stage>(hands the bread, averting his face)</stage>
+
+    </sp>
+    <sp who="#L0247_M4">
+     <speaker>Fal.</speaker>
+     <p>We'd a letter this morning has took away all our appetites.</p>
+    </sp>
+    <sp who="#L0247_M2">
+     <speaker>John.</speaker>
+     <stage>(aside)</stage>
+     <p>Somebody's split upon Greenhorne.</p>
+    </sp>
+    <sp who="#L0247_M4">
+     <speaker>Fal.</speaker>
+     <p>It war good news, too—it war to say an old aunt o'mine were dead.</p>
+    </sp>
+    <sp who="#L0247_M2">
+     <speaker>John.</speaker>
+     <p>Do you call that good news? Then, I presume, Sir, you're an undertaker.</p>
+    </sp>
+    <pb n="15"/>
+    <sp who="#L0247_M4">
+     <speaker>Fal.</speaker>
+     <p>Not I, man! but she's left my daughter Mary here three thousand pounds in consols.</p>
+    </sp>
+    <sp who="#L0247_M3">
+     <speaker>Green.</speaker>
+     <stage>(drops a tray)</stage>
+     <p>Three thou—</p>
+    </sp>
+    <sp who="#L0247_M4">
+     <speaker>Fal.</speaker>
+     <p>Dang the fellow, how he made me jump. Well 3,000 pounds in consols ain't a thing to fret
+      over.</p>
+    </sp>
+    <sp who="#L0247_M2">
+     <speaker>John.</speaker>
+     <p>Certainly not—there's something very consoling in consols.</p>
+    </sp>
+    <sp who="#L0247_M4">
+     <speaker>Fal.</speaker>
+     <p>Now, my daughter Mary, there, is going to be married.</p>
+    </sp>
+    <sp who="#L0247_F7">
+     <speaker>Mary.</speaker>
+     <stage>(ashamed)</stage>
+     <p>La, Father!</p>
+    </sp>
+    <sp who="#L0247_M4">
+     <speaker>Fal.</speaker>
+     <p>Well, perhaps.</p>
+    </sp>
+    <sp who="#L0247_M3">
+     <speaker>Green.</speaker>
+     <stage>(aside)</stage>
+     <p>What's he mean by perhaps?</p>
+    </sp>
+    <sp who="#L0247_M4">
+     <speaker>Fal.</speaker>
+     <p>Married to a Mr. Samuel Greenhorne, who's gone this morning to Picklehurst, to the lawyer's,
+      as he were to settle £800 on Mary—but things is changed a bit—the grey mare's the better
+      horse,</p>
+    </sp>
+    <sp who="#L0247_M3">
+     <speaker>Green.</speaker>
+     <p>If I am discovered!</p>
+    </sp>
+    <sp who="#L0247_M2">
+     <speaker>John.</speaker>
+     <stage>(aside)</stage>
+     <p>O ho, here's a bit of luck—I'll make his situation agreeable.</p>
+    </sp>
+    <sp who="#L0247_M4">
+     <speaker>Fal.</speaker>
+     <p>Waiter, a bottle of sherry.</p>
+    </sp>
+    <sp who="#L0247_M2">
+     <speaker>John.</speaker>
+     <p>Yes, Sir—I mean, no, Sir. Here, waiter—bottle of sherry—black seal.</p>
+    </sp>
+    <sp who="#L0247_M3">
+     <speaker>Green.</speaker>
+     <p>Certainly. A bottle of black sherry, Miss Spruce</p>
+     <stage>(going off R., and returning with sherry)</stage>
+    </sp>
+    <sp who="#L0247_M2">
+     <speaker>John.</speaker>
+     <p>Did you say Greenhorn was this lady's intended?</p>
+    </sp>
+    <sp who="#L0247_M4">
+     <speaker>Fal.</speaker>
+     <p>Yes, Sir, of Badger Hall, about 8 mile from here.</p>
+    </sp>
+    <sp who="#L0247_M2">
+     <speaker>John.</speaker>
+     <p>Good gracious if it should be the same man.</p>
+    </sp>
+    <sp who="#L0247_M3">
+     <speaker>Green.</speaker>
+     <p>What's he mean?</p>
+     <stage>(puts sherry and glasses on table)</stage>
+    </sp>
+    <stage>Enter PORTER, C.D.</stage>
+    <sp who="#L0247_M5">
+     <speaker>Porter.</speaker>
+     <p>Here, James—You, Sir James, Your master wants you.</p>
+    </sp>
+    <sp who="#L0247_M3">
+     <speaker>Green.</speaker>
+     <p>Very well. I've a great mind to run away, but I dar'nt leave them.</p>
+    </sp>
+    <sp who="#L0247_M5">
+     <speaker>Porter.</speaker>
+     <p>Now, then—come along.</p>
+     <stage>Exeunt PORTER and GRRENHORNE, C,</stage>
+    </sp>
+    <sp who="#L0247_M2">
+     <speaker>John.</speaker>
+     <stage>(mechanically wipes glasses)</stage>
+     <p>Greenhorne—it must be that scou— No, no—I may be mistaken,</p>
+    </sp>
+    <pb n="16"/>
+    <sp who="#L0247_mult">
+     <speaker>Mr., Mrs., and Mary Fallows.</speaker>
+     <p>What do you know, Sir?</p>
+     <stage>(all crowd round JOHN, who walks about, polishing glasses)</stage>
+    </sp>
+    <sp who="#L0247_M2">
+     <speaker>John.</speaker>
+     <p>Don't ask me.</p>
+     <stage>(crossing to R.H.)</stage>
+    </sp>
+    <sp who="#L0247_mult">
+     <speaker>All.</speaker>
+     <stage>(as before)</stage>
+     <p>But we do ask you.</p>
+    </sp>
+    <sp who="#L0247_M2">
+     <speaker>John.</speaker>
+     <p>Have you all nerves—strong nerves?</p>
+     <stage>(crosses to L., all follow)</stage>
+    </sp>
+    <sp who="#L0247_M4">
+     <speaker>Fal.</speaker>
+     <p>Cart ropes.</p>
+    </sp>
+    <sp who="#L0247_M2">
+     <speaker>John.</speaker>
+     <p>If—mind, I say, if—but you won't believe me.</p>
+    </sp>
+    <sp who="#L0247_mult">
+     <speaker>All.</speaker>
+     <p>We will! we will!</p>
+    </sp>
+    <sp who="#L0247_M2">
+     <speaker>John.</speaker>
+     <p>If this very Mr. Greenhorne should be making love to somebody else—if he should not have
+      gone to Picklehurst this morning.</p>
+    </sp>
+    <sp who="#L0247_M4">
+     <speaker>Fal.</speaker>
+     <p>How to know that?</p>
+    </sp>
+    <sp who="#L0247_M2">
+     <speaker>John.</speaker>
+     <p>Ask the station master, he can tell you.</p>
+    </sp>
+    <sp who="#L0247_M4">
+     <speaker>Fal.</speaker>
+     <p>He can. Darn his buttons if he's deceivin' on us—I'll leather him first, and bring an action
+      for damages arterwards. Come along, Susan.</p>
+    </sp>
+    <sp who="#L0247_F6">
+     <speaker>Mrs. F.</speaker>
+     <p>Yes, Jacob, yes.</p>
+     <stage>(FALLOWS and MRS. FALLOWs, run out c. and L.</stage>
+    </sp>
+    <sp who="#L0247_F7">
+     <speaker>Miss F.</speaker>
+     <p>Oh, if—if he should be false!</p>
+     <stage>(crying)</stage>
+    </sp>
+    <sp who="#L0247_M2">
+     <speaker>John.</speaker>
+     <p>Now, if I'd thought you cared for the chap—</p>
+     <stage>(she cries)</stage>
+     <p>La, bless me! how odd I feel? I never had an heiress in my arms before.</p>
+    </sp>
+    <sp who="#L0247_F7">
+     <speaker>Miss F.</speaker>
+     <stage>(cries)</stage>
+     <p>Oh, Sam, Sam, Sammy!</p>
+    </sp>
+    <sp who="#L0247_M2">
+     <speaker>John.</speaker>
+     <p>Come, come—I may be mistaken—don't go on so. <stage>(kisses her)</stage> Innocent duck!
+       <stage>(kisses her again)</stage> Don't.</p>
+    </sp>
+    <sp who="#L0247_F7">
+     <speaker>Miss F.</speaker>
+     <p>That's what I say, Sir—don't if you please.</p>
+    </sp>
+    <stage>Enter MISS SPRUCE and GREENHORNE, C.</stage>
+    <sp who="#L0247_mult">
+     <speaker>Вoth.</speaker>
+     <p>What do I see?</p>
+    </sp>
+    <sp who="#L0247_F7">
+     <speaker>Miss F.</speaker>
+     <p>Ah, what a resemblance! His legs, eyes, nose, hair—O! it must be Sammy! Father! Mother!</p>
+     <stage>(runs out c. and L.)</stage>
+    </sp>
+    <sp who="#L0247_M3">
+     <speaker>Green.</speaker>
+     <stage>(again tries to disguise himself)</stage>
+     <p>There goes 3,000l. for ever.</p>
+    </sp>
+    <sp who="#L0247_F8">
+     <speaker>Miss S.</speaker>
+     <p>Oh, John, you most perfidious of waiters! Is this your love for me?—But I'll instantly find
+      Mr. Crabshaw, and accept the offer of his hand and refreshment rooms.</p>
+    </sp>
+    <sp who="#L0247_M2">
+     <speaker>John.</speaker>
+     <p>Julia, don't be a silly puss.</p>
+    </sp>
+    <sp who="#L0247_F8">
+     <speaker>Miss S.</speaker>
+     <p>A silly puss, Sir? I wish I were one, you should
+      <pb n="17"/> feel my claws—you should, Sir. But no matter—after all you're only a waiter out
+      of place, so now for Mr. Crabshaw.</p>
+     <stage>Exit, C. D.</stage>
+    </sp>
+
+    <sp who="#L0247_M2">
+     <speaker>John.</speaker>
+     <p>If she should go and marry Crabshaw—I've made a nice mess of it—it would serve me right.
+      Here, Mr. Greenhorne.</p>
+     <stage>(shakes GREENHORNE)</stage>
+    </sp>
+    <sp who="#L0247_M3">
+     <speaker>Green.</speaker>
+     <p>What! you know me, then?</p>
+    </sp>
+    <sp who="#L0247_M2">
+     <speaker>John.</speaker>
+     <p>Here, I've put my foot in it—I mean you've put your foot in it.</p>
+    </sp>
+    <sp who="#L0247_M3">
+     <speaker>Green.</speaker>
+     <p>I have, I have! To think that I should have been such a fool as to have lost Mary Fallows
+      and £3,000 to have become a waiter!</p>
+    </sp>
+    <sp who="#L0247_M2">
+     <speaker>John.</speaker>
+     <p>Wretched maniac! I'd have taught you the art and mystery for half the money.</p>
+    </sp>
+    <sp who="#L0247_M3">
+     <speaker>Green.</speaker>
+     <p>But what am I to do? you seem to have made matters worse.</p>
+    </sp>
+    <sp who="#L0247_M2">
+     <speaker>John.</speaker>
+     <p>Amputation before cure. They suspect your designs upon Miss Spruce.</p>
+    </sp>
+    <sp who="#L0247_M3">
+     <speaker>Green.</speaker>
+     <p>I thought as much.</p>
+    </sp>
+    <sp who="#L0247_M2">
+     <speaker>John.</speaker>
+     <p>The old buck declares that, "Darn his buttons, but he'll leather you first, and damage you
+      afterwards."</p>
+    </sp>
+    <sp who="#L0247_M3">
+     <speaker>Green.</speaker>
+     <p>I know he's a dragon—a regular dragon.</p>
+    </sp>
+    <sp who="#L0247_M2">
+     <speaker>John.</speaker>
+     <p>Unless you can undeceive him, you may hang yourself in your wedding favors before they'll
+      let you marry Miss Fallows.</p>
+    </sp>
+    <sp who="#L0247_M3">
+     <speaker>Green.</speaker>
+     <p>And become a deadly example to all backsliding bachelors ?</p>
+    </sp>
+    <sp who="#L0247_M2">
+     <speaker>John.</speaker>
+     <p>I can save you—I alone.</p>
+    </sp>
+    <sp who="#L0247_M3">
+     <speaker>Green.</speaker>
+     <p>Bless you, my deliverer!</p>
+    </sp>
+    <sp who="#L0247_M2">
+     <speaker>John.</speaker>
+     <p>Dare you trust me ?</p>
+    </sp>
+    <sp who="#L0247_M3">
+     <speaker>Green.</speaker>
+     <p>With my life.</p>
+    </sp>
+    <sp who="#L0247_M2">
+     <speaker>John.</speaker>
+     <p>Then trust me with £200—</p>
+    </sp>
+    <sp who="#L0247_M3">
+     <speaker>Green.</speaker>
+     <p>I said with my life.</p>
+    </sp>
+    <sp who="#L0247_M2">
+     <speaker>John.</speaker>
+     <p>What, will you lose £3,000 for—</p>
+    </sp>
+    <sp who="#L0247_M3">
+     <speaker>Green.</speaker>
+     <p>No, no! I'll lend you the money.</p>
+    </sp>
+    <sp who="#L0247_M2">
+     <speaker>John.</speaker>
+     <p>Honor?</p>
+    </sp>
+    <sp who="#L0247_M3">
+     <speaker>Green.</speaker>
+     <p>Honor!</p>
+    </sp>
+    <sp who="#L0247_M2">
+     <speaker>John.</speaker>
+     <p>Your hand.</p>
+    </sp>
+    <sp who="#L0247_M3">
+     <speaker>Green.</speaker>
+     <p>My hand.</p>
+     <stage>(they shake hands)</stage>
+    </sp>
+    <sp who="#L0247_M2">
+     <speaker>John.</speaker>
+     <p>A bargain.</p>
+    </sp>
+    <pb n="18"/>
+    <stage>Enter MISS SPRUCE, C.</stage>
+    <sp who="#L0247_M2">
+     <speaker>John.</speaker>
+     <p>Ah, Julia, you've not seen Crabshaw?</p>
+    </sp>
+    <sp who="#L0247_F8">
+     <speaker>Miss S.</speaker>
+     <p>Perhaps I have, perhaps I haven't.</p>
+    </sp>
+    <sp who="#L0247_M2">
+     <speaker>John.</speaker>
+     <p>Then you haven't. You know I love you, adore you! This gentleman has promised to give me
+      £200.</p>
+    </sp>
+    <sp who="#L0247_M3">
+     <speaker>Green.</speaker>
+     <p>No, no; only to lend.</p>
+    </sp>
+    <sp who="#L0247_M2">
+     <speaker>John.</speaker>
+     <p>Well, it's all the same thing—there's the ready money and the credit combined, Julia—what
+      say you?</p>
+    </sp>
+    <sp who="#L0247_F8">
+     <speaker>Miss S.</speaker>
+     <p>Oh, John, I always thought I loved you, and now I know it!</p>
+    </sp>
+    <stage>Enter MR., MRS., and MISS FALLOWS, c. from L.</stage>
+    <sp who="#L0247_M4">
+     <speaker>Fal.</speaker>
+     <p>Where's that waiter that's so like Sammy?</p>
+    </sp>
+    <sp who="#L0247_M2">
+     <speaker>John.</speaker>
+     <p>I'm the waiter, Sir, and there's Sammy.</p>
+    </sp>
+    <sp who="#L0247_M4">
+     <speaker>Fal.</speaker>
+     <p>It is—now what's all this mean?</p>
+    </sp>
+    <sp who="#L0247_M3">
+     <speaker>Green.</speaker>
+     <p>What's he going to say?</p>
+    </sp>
+    <sp who="#L0247_M2">
+     <speaker>John.</speaker>
+     <p>We've had a wager, Sir.</p>
+    </sp>
+    <sp who="#L0247_M3">
+     <speaker>Green.</speaker>
+     <p>Yes; a wager.</p>
+    </sp>
+    <sp who="#L0247_M2">
+     <speaker>John.</speaker>
+     <p>Mr. Greenhorne's blowed me up for being awkward; I offered to lay him £5 that he couldn't do
+      it better; I said that he couldn't make a waiter.</p>
+    </sp>
+    <sp who="#L0247_M3">
+     <speaker>Green.</speaker>
+     <p>And I said he couldn't make a gentleman.</p>
+    </sp>
+    <sp who="#L0247_M2">
+     <speaker>John.</speaker>
+     <p>And so we changed places.</p>
+    </sp>
+    <sp who="#L0247_M3">
+     <speaker>Green.</speaker>
+     <p>Ha, ha! changed places—I was so ashamed that you should see me here, that—that—ha, ha!—you
+      understand.</p>
+    </sp>
+    <sp who="#L0247_M2">
+     <speaker>John.</speaker>
+     <p>Of course you do—ha, ha!</p>
+    </sp>
+    <sp who="#L0247_M4">
+     <speaker>Fal.</speaker>
+     <p>No, I don't quite understand. Here be a young girl and rather a pretty one, too—who—</p>
+    </sp>
+    <sp who="#L0247_M2">
+     <speaker>John.</speaker>
+     <p>Is to become the partner of my bosom and business; a generous friend has kindly given me
+      £200 <stage>(to GREEN)</stage> I think he said he gave!</p>
+    </sp>
+    <sp who="#L0247_M3">
+     <speaker>Green.</speaker>
+     <p>Yes, yes; <stage>(aside)</stage> and I'd make it double to be out of this scrape.</p>
+    </sp>
+    <sp who="#L0247_F7">
+     <speaker>Mary F.</speaker>
+     <p>Oh, Sammy!</p>
+     <stage>(embraces him)</stage>
+     <p>Then you are true to your engagement?</p>
+    </sp>
+    <sp who="#L0247_M3">
+     <speaker>Green.</speaker>
+     <p>True as the Bank.</p>
+    </sp>
+    <sp who="#L0247_M4">
+     <speaker>Fal.</speaker>
+     <stage>(to JOHN)</stage>
+     <p>Well, young man—I wish you joy of your wife.</p>
+    </sp>
+    <stage>Enter CRABSHAW, C. from R.</stage>
+    <sp who="#L0247_M1">
+     <speaker>Crab.</speaker>
+     <p>Wife—no, she's not his wife—she's about to become mine..</p>
+    </sp>
+    <pb n="19"/>
+    <sp who="#L0247_F8">
+     <speaker>Miss S.</speaker>
+     <p>May I be allowed to correct that mistake. The pleasing account which you gave of your
+      domestic relations with the late Mrs. Crabshaw, quite settled me —as I've no doubt they did
+      that unhappy lady.</p>
+    </sp>
+    <sp who="#L0247_M1">
+     <speaker>Crab.</speaker>
+     <p>Then I'm done at last.</p>
+    </sp>
+    <sp who="#L0247_M2">
+     <speaker>John.</speaker>
+     <p>You, are. <stage>(bell)</stage> ———There's the excursion train— that bell invites you to
+      attend to your duties.</p>
+    </sp>
+    <stage>(CRABSHAW rushes out c.)</stage>
+    <sp who="#L0247_M2">
+     <speaker>John.</speaker>
+     <p>This Belle invites me to attend to mine.</p>
+     <stage>(kisses her)</stage>
+    </sp>
+    <sp who="#L0247_F8">
+     <speaker>Miss S.</speaker>
+     <p>La, John! before all these passengers.</p>
+    </sp>
+    <sp who="#L0247_M2">
+     <speaker>John.</speaker>
+     <p>Oh! they are our best friends, my dear, and constant patrons of this favourite little
+      station. Let us hope that they have had a pleasant trip to night, and will take return tickets
+      to come again, when summoned—</p>
+    </sp>
+    <sp who="#L0247_F8">
+     <speaker>Miss S.</speaker>
+     <p>By the Railway Belle.</p>
+    </sp>
+   </div>
+   <trailer>CURTAIN.</trailer>
+  </body>
+ </text>
+</TEI>
