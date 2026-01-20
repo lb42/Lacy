@@ -1,0 +1,2759 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L0770">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title>Mary Price; TEI edition</title>
+    <author>[Anonymous]</author>
+    <respStmt>
+     <resp>TEI conversion</resp>
+     <name>Lou Burnard</name>
+    </respStmt>
+   </titleStmt>
+   <publicationStmt>
+    <distributor>Privately distributed by the Digital Lacy Project</distributor>
+    <idno type="LAE">L0770</idno>
+    <availability>
+     <licence target="https://creativecommons.org/publicdomain/zero/1.0/">The Lacy Project waives
+      all rights to the TEI encoding applied to this material, which is believed to be in the public
+      domain. You may copy, modify, distribute and perform this work freely. </licence>
+    </availability>
+   </publicationStmt>
+   <sourceDesc>
+    <bibl type="origin" n="52.5"><author>[Anon.]</author><title type="main" n="maryprice">Mary
+      Price; or, The Adventures of a Servant Girl</title><title type="sub">A Domestic Drama in two
+      acts</title><title type="source" n="#EN">Founded on a Popular Work by G.W.M.
+      Reynolds</title><extent>31 pp (UM copy: 162 - 193)<measure type="pp" quantity="32"/>
+      <measure type="spCount" quantity="466"/>
+      <measure type="spvCount" quantity="2"/>
+      <measure type="txWords" quantity="10687"/>
+      <measure type="spWords" quantity="9057"/>
+      <measure type="stWords" quantity="1630"/>
+     </extent>
+     <title level="s"> Lacy's Acting Edition, volume 52, No. 0770</title><idno type="nic"
+      >N23727</idno><idno type="vpp">Vol52vMary</idno></bibl>
+    <bibl type="surrogate" subtype="copytext"><ref
+      target="https://lb42.github.io/Lacy/Source/VPP/L0770-vpp.pdf">LoB from VPP</ref><ref
+      target="local:Vol52/L0770/L0770-vpp.pdf"/><ref target="local:Vol52/L0770/Vol52vMary.pdf"
+     /></bibl>
+    <bibl type="surrogate"><ref target="https://archive.org/details/marypriceoradven00reyn">Internet
+      Archive</ref></bibl>
+    <bibl type="surrogate"><ref
+      target="https://babel.hathitrust.org/cgi/pt?id=mdp.39015067453525&amp;seq=162 ">UM from
+      HT</ref><ref target="local:Vol52/L0770/L0770-um.pdf"/></bibl>
+    <listEvent>
+     <event type="firstPerf" when="1853-08-26" source="nicoll" where="Queen's">
+      <desc>Premiered at Royal Queen's Theatre n.d.</desc>
+     </event>
+     <event type="firstPerf" source="text">
+      <desc>Premiered at Royal Queen's Theatre; date unknown.</desc>
+     </event>
+     <event type="otherPerf">
+      <desc><name>under the Management of Mr. C.J. James</name><date/></desc>
+     </event>
+    </listEvent>
+   </sourceDesc>
+  </fileDesc>
+  <profileDesc>
+   <!--M 2 Drama D. DRAMA-->
+   <textClass>
+    <catRef target="#sizeM"/>
+    <catRef target="#act2"/>
+    <catRef target="nic:D."/>
+    <keywords>
+     <term>DRAMA</term>
+    </keywords>
+   </textClass>
+   <particDesc>
+    <listPerson>
+     <person xml:id="L0770_M1">
+      <persName type="role">LORD HARLESDON</persName>
+      <persName type="spkr" n="22">Lord H.</persName>
+     </person>
+     <person xml:id="L0770_M2">
+      <persName type="role">LORD CLAVERING</persName>
+      <persName type="spkr" n="36">Lord C.</persName>
+     </person>
+     <person xml:id="L0770_M3">
+      <persName type="role">LIEUTENANT AUBREY</persName>
+      <persName type="spkr" n="19">Lieut. A.</persName>
+     </person>
+     <person xml:id="L0770_M4">
+      <persName type="role">ROBERT PRICE</persName>
+      <persName type="spkr" n="42">Robert.</persName>
+     </person>
+     <person xml:id="L0770_M5">
+      <persName type="role">TOMMY</persName>
+      <persName type="spkr" n="65">Tom.</persName>
+     </person>
+     <person xml:id="L0770_M6">
+      <persName type="role">NICK SAWBRIDGE</persName>
+      <persName type="spkr" n="45">Nick.</persName>
+     </person>
+     <person xml:id="L0770_M7">
+      <persName type="role">BILL BULLDOG</persName>
+      <persName type="spkr" n="77">Bill.</persName>
+     </person>
+     <person xml:id="L0770_M8">
+      <persName type="role">BOOSY</persName>
+      <persName type="spkr" n="4">Boosy.</persName>
+     </person>
+     <person xml:id="L0770_M9">
+      <persName type="role">DICK</persName>
+      <persName type="spkr" n="4">Tavern Boy.</persName>
+     </person>
+     <person xml:id="L0770_F10">
+      <persName type="role">LADY HARLESDON</persName>
+      <persName type="spkr" n="24">Lady H.</persName>
+     </person>
+     <person xml:id="L0770_F11">
+      <persName type="role">MARY PRICE</persName>
+      <persName type="spkr" n="72">Mary.</persName>
+     </person>
+     <person xml:id="L0770_F12">
+      <persName type="role">JEMIMA</persName>
+      <persName type="spkr" n="27">Jemima.</persName>
+     </person>
+     <person xml:id="L0770_F13">
+      <persName type="role">MOTHER LEE</persName>
+      <persName type="spkr" n="27">Mother L.</persName>
+     </person>
+     <person xml:id="L0770_M14">
+      <persName type="role">[Servant]</persName>
+      <persName type="spkr" n="2">Servant.</persName>
+     </person>
+
+    </listPerson>
+   </particDesc>
+  </profileDesc>
+  <revisionDesc>
+   <change when="2026-01-20">Standardize header components</change>
+   <change when="2026-01-03">Auto-tagged by Gemini 3.0 (Flash 2.5)</change>
+  </revisionDesc>
+ </teiHeader>
+ <text>
+  <front>
+   <pb n="1"/>
+   <titlePage>
+    <docTitle>
+     <titlePart type="main">MARY PRICE;</titlePart>
+     <titlePart type="sub">OR, THE ADVENTURES OF A SERVANT GIRL.</titlePart>
+     <titlePart type="sub">A Domestic Drama, IN TWO ACTS.</titlePart>
+    </docTitle>
+    <byline>FOUNDED ON THE POPULAR WORK BY</byline>
+    <docAuthor>MR. G. W. M. REYNOLDS.</docAuthor>
+    <docImprint>THOMAS HAILES LACY, 89, STRAND, (Opposite Southampton Street, Covent Garden Market,)
+     LONDON.</docImprint>
+   </titlePage>
+   <pb n="2"/>
+   <performance>
+    <p>First performed at the Royal Queen's Theatre, under the Management of Mr. C. J. James.</p>
+    <castList>
+     <head>Characters.</head>
+     <castItem>
+      <role gender="M">LORD HARLESDON</role>
+      <roleDesc>(an aged Nobleman)</roleDesc>
+      <actor>Mr. RANDALL.</actor>
+     </castItem>
+     <castItem>
+      <role gender="M">LORD CLAVERING</role>
+      <roleDesc>(a Roué and Libertine)</roleDesc>
+      <actor>Mr. MORETON.</actor>
+     </castItem>
+     <castItem>
+      <role gender="M">LIEUTENANT AUBREY</role>
+      <actor>Mr. FORTUNE.</actor>
+     </castItem>
+     <castItem>
+      <role gender="M">ROBERT PRICE</role>
+      <roleDesc>(a runaway Apprentice)</roleDesc>
+      <actor>Mr. GREEN.</actor>
+     </castItem>
+     <castItem>
+      <role gender="M">TOMMY</role>
+      <roleDesc>(the Idiot)</roleDesc>
+      <actor>Mr. SENNETT.</actor>
+     </castItem>
+     <castGroup>
+      <roleDesc>(two Burglars)</roleDesc>
+      <castItem>
+       <role gender="M">NICK SAWBRIDGE</role>
+       <actor>Mr. ANDERSON.</actor>
+      </castItem>
+      <castItem>
+       <role gender="M">BILL BULLDOG</role>
+       <actor>Mr. RUSSELL.</actor>
+      </castItem>
+     </castGroup>
+     <castItem>
+      <role gender="M">BOOSY</role>
+      <roleDesc>(Landlord of the "Dog and Duck")</roleDesc>
+      <actor>Mr. CROSBY.</actor>
+     </castItem>
+     <castItem>
+      <role gender="M">DICK</role>
+      <roleDesc>(Pot Boy at the "Trampers' Arms")</roleDesc>
+     </castItem>
+     <castItem>
+      <role gender="F">LADY HARLESDON</role>
+      <actor>Miss SLADE.</actor>
+     </castItem>
+     <castItem>
+      <role gender="F">MARY PRICE</role>
+      <roleDesc>(the Servant Girl)</roleDesc>
+      <actor>Miss FORDE.</actor>
+     </castItem>
+     <castItem>
+      <role gender="F">JEMIMA</role>
+      <roleDesc>(a Nursery Maid)</roleDesc>
+      <actor>Miss SENNETT.</actor>
+     </castItem>
+     <castItem>
+      <role gender="F">MOTHER LEE</role>
+      <roleDesc>(an old Gipsy)</roleDesc>
+      <actor>Mrs. PARRY.</actor>
+     </castItem>
+     <castItem>Guests, Villagers, &amp;c.</castItem>
+    </castList>
+   </performance>
+   <div type="costume">
+    <p>COSTUMES—PRESENT DAY.</p>
+   </div>
+  </front>
+  <body>
+   <pb n="3"/>
+   <note>[Mr Lacy's List.]</note>
+   <head>Mary Price; or, The Adventures of a Servant Girl.</head>
+   <div type="act" n="1">
+    <div type="scene" n="1">
+     <head>SCENE FIRST.—Tap Room of the "Dog and Duck." Door, L., window, L. C., open.</head>
+     <stage>Music.—NICK SAWBRIDGE discovered, R., seated and smoking.</stage>
+     <sp who="#L0770_M6">
+      <speaker>Nick.</speaker>
+      <p><stage>(hammering on table)</stage> Another pot of beer, Old Boosy. Look alive—d'ye
+       hear?</p>
+     </sp>
+     <sp who="#L0770_M8">
+      <speaker>Boosy.</speaker>
+      <p><stage>(without, R.)</stage> Coming, Mister Sawbridge.</p>
+     </sp>
+     <stage>Enter BOOSY, R., with pot of beer.</stage>
+     <sp who="#L0770_M8">
+      <speaker>Boosy.</speaker>
+      <p><stage>(holding out his hand)</stage> Tip!</p>
+     </sp>
+     <sp who="#L0770_M6">
+      <speaker>Nick.</speaker>
+      <p>My pal, Bill Bulldog, will pay as soon as he comes.</p>
+     </sp>
+     <sp who="#L0770_M8">
+      <speaker>Boosy.</speaker>
+      <stage>(behind table)</stage>
+      <p>You must excuse me; can't give no more credit. There's a long score against you chalked up
+       behind the door, and when that's wiped off—</p>
+     </sp>
+     <sp who="#L0770_M6">
+      <speaker>Nick.</speaker>
+      <p>Why, you old screw, do you mean to say as how you won't take my word for a pot o' beer?
+       What a insult! Why, you extortionating old wagabond, I'll—</p>
+     </sp>
+     <stage>Enter BILL BULLDOG, door, L.</stage>
+     <sp who="#L0770_M7">
+      <speaker>Bill.</speaker>
+      <stage>(entering door)</stage>
+      <p>Holloa, what's the row!</p>
+     </sp>
+     <sp who="#L0770_M6">
+      <speaker>Nick.</speaker>
+      <p>Old Boosy refuses to let me have another pot, and dares to insinivate something about a
+       score behind the door.</p>
+     </sp>
+     <sp who="#L0770_M7">
+      <speaker>Bill.</speaker>
+      <p>Shameful! Better mind what you're about or you'll lose our <hi>pateronage</hi>. The Cat and
+       Fiddle would be glad of our custom, for there's no more jolly fellows in all Ashford, nor
+       coves what spends more money when we've got it. So, here—here's a tanner. Leave the beer, and
+       the score shall be rubbed out next Saturday. <stage>(aside to Nick as he sits)</stage>
+       Walker!</p>
+     </sp>
+     <sp who="#L0770_M6">
+      <speaker>Nick.</speaker>
+      <p>It'll never be rubbed out, I guess, unless he does it himself.</p>
+     </sp>
+     <pb n="6"/>
+     <sp who="#L0770_M8">
+      <speaker>Boosy.</speaker>
+      <stage>(behind table)</stage>
+      <p>Well, I never likes to offend respectable customers. <stage>Replaces beer on table, takes
+        sixpence, gives change, and exit, R.</stage></p>
+     </sp>
+     <sp who="#L0770_M6">
+      <speaker>Nick.</speaker>
+      <stage>(seated R. of table)</stage>
+      <p>You're a good fellow, Bill. Here's towards your very good health.</p>
+     </sp>
+     <sp who="#L0770_M7">
+      <speaker>Bill.</speaker>
+      <stage>(seated L. of table)</stage>
+      <p>Thank you, Nick—arter you.</p>
+     </sp>
+     <sp who="#L0770_M6">
+      <speaker>Nick.</speaker>
+      <p>
+       <stage>(TOMMY sings without, L.)</stage>Holloa! who's this?</p>
+     </sp>
+     <sp who="#L0770_M7">
+      <speaker>Bill.</speaker>
+      <p>Why, the poor idiot, Tommy. Everybody knows him through the whole County of Kent.</p>
+     </sp>
+     <stage>Enter TOMMY, L., dancing and singing.</stage>
+     <sp who="#L0770_M5">
+      <speaker>Tom.</speaker>
+      <stage>Air, "Sprig of Shillelah."</stage>
+      <l>Kind gentleman, all, who sit here at your ease,</l>
+      <l>Enjoying your heer, lend an' ear, if you please</l>
+      <l>To poor Tommy the idiot, who ne'er went to school.</l>
+      <l>I'll dance and I'll sing for a brown all the day;</l>
+      <l>Or a tune on the bellows to please ye I'll play.</l>
+      <l>But my A, B, C, pray don't ax me to say,</l>
+      <l>For I'm but a poor idiot, and don't know the way;</l>
+      <l>Still it takes a wise man, sure, to make a good fool.</l>
+     </sp>
+     <sp who="#L0770_M7">
+      <speaker>Bill.</speaker>
+      <p>Right, Tommy; come, take a drink with us. See, here are two pots, one full and t'other
+       empty, which will you have?</p>
+     </sp>
+     <sp who="#L0770_M5">
+      <speaker>Tom.</speaker>
+      <p>The full one, to be sure—ha, ha, ha! Tommy's not quite such a fool as to drink out of an
+       empty pot—not likely, not likely. <stage>(drinks all the beer)</stage></p>
+     </sp>
+     <sp who="#L0770_M6">
+      <speaker>Nick.</speaker>
+      <stage>(rising)</stage>
+      <p>Why, curse the fellow, he has swallowed the lot at a draught. I don't believe he's half
+       such a fool as he pretends to be.</p>
+     </sp>
+     <sp who="#L0770_M7">
+      <speaker>Bill.</speaker>
+      <stage>(rising)</stage>
+      <p>Right you are, Nick. He's as deep as a well, though folks say he's watery-headed. But he'd
+       be just the chap for us. Whenever we cracked a crib, we could shove him forward, you know, to
+       face the danger. If he succeeded, all right; we collars the swag. If he got took, we cuts,
+       and leaves him in the lurch, and he would be all right, for no judge or jury would hang a
+       idiot, you know. <stage>(TOMMY has been catching flies, but listening all the
+       time)</stage></p>
+     </sp>
+     <sp who="#L0770_M6">
+      <speaker>Nick.</speaker>
+      <stage>(R.)</stage>
+      <p>Good! Tommy, will you join our party, and go to London with us?</p>
+     </sp>
+     <sp who="#L0770_M5">
+      <speaker>Tom.</speaker>
+      <stage>(L. C.)</stage>
+      <p>No, thank you; Tommy's neck is very tender—not fond of choking. <stage>(feeling his
+        throat)</stage> Shouldn't much like to be scragged—not likely, not likely. <stage>Sings and
+        dances off, L. door, appearing occasionally at window, overhearing what follows.</stage></p>
+     </sp>
+     <pb n="7"/>
+     <sp who="#L0770_M7">
+      <speaker>Bill.</speaker>
+      <stage>(C.)</stage>
+      <p>No go—mad Tommy ain't to be had. But what do you think; you know Mary Price, the
+       carpenter's daughter?</p>
+     </sp>
+     <sp who="#L0770_M6">
+      <speaker>Nick.</speaker>
+      <stage>(R. C.)</stage>
+      <p>Yes; what of her?</p>
+     </sp>
+     <sp who="#L0770_M7">
+      <speaker>Bill.</speaker>
+      <p>Why, I met her just now in the market-place—just come down to Ashford by the train from
+       London—and such a stunnin' swell; more like a duchess than a poor sarvant gal.</p>
+     </sp>
+     <sp who="#L0770_M6">
+      <speaker>Nick.</speaker>
+      <p>Lor! you don't say so!</p>
+     </sp>
+     <sp who="#L0770_M7">
+      <speaker>Bill.</speaker>
+      <p>I say, if we could only persuade her brother Bob to go to London with us.</p>
+     </sp>
+     <sp who="#L0770_M6">
+      <speaker>Nick.</speaker>
+      <p>Well, what then?</p>
+     </sp>
+     <sp who="#L0770_M7">
+      <speaker>Bill.</speaker>
+      <p>Why, don't you see—Mary lives in a great nobleman's family. Bob could visit her of course,
+       and contrive to hide in the house, and let us in at night, which would save us all the
+       trouble and danger of forcing locks and bolts.</p>
+     </sp>
+     <sp who="#L0770_M6">
+      <speaker>Nick.</speaker>
+      <p>Blest if you ain't a deep 'un, Bill.</p>
+     </sp>
+     <sp who="#L0770_M7">
+      <speaker>Bill.</speaker>
+      <p>Hush! here is Bob.</p>
+     </sp>
+     <stage>Enter ROBERT, L. door.</stage>
+     <sp who="#L0770_M7">
+      <speaker>Bill.</speaker>
+      <p>Well, old fellow, in course you've heard your sister is in Ashford?</p>
+     </sp>
+     <sp who="#L0770_M4">
+      <speaker>Robert.</speaker>
+      <p>Mary in Ashford—oh! how glad I shall be to see her!—yet, no; for when I reflect on what I
+       was while my dear parents lived, and then remember what now I am—</p>
+     </sp>
+     <sp who="#L0770_M7">
+      <speaker>Bill.</speaker>
+      <p>Yes, you're now a runaway 'prentice—every moment liable to be took afore the beaks and sent
+       to jail: that's the correct wersion, I believe, Mr. Bob?</p>
+     </sp>
+     <sp who="#L0770_M4">
+      <speaker>Robert.</speaker>
+      <p>Oh! yes, and when my sister knows, it will break her heart.</p>
+     </sp>
+     <sp who="#L0770_M7">
+      <speaker>Bill.</speaker>
+      <p>Then follow my advice; and you'll not only escape going to jail, but have the pleasure of
+       seeing your sister as often as you wish.</p>
+     </sp>
+     <sp who="#L0770_M4">
+      <speaker>Robert.</speaker>
+      <stage>(L. C.)</stage>
+      <p>Explain.</p>
+     </sp>
+     <sp who="#L0770_M7">
+      <speaker>Bill.</speaker>
+      <stage>(C.)</stage>
+      <p>Nick and me are going to London—<hi>on business</hi>, you understand—come with us?</p>
+     </sp>
+     <sp who="#L0770_M4">
+      <speaker>Robert.</speaker>
+      <p>When do you start?</p>
+     </sp>
+     <sp who="#L0770_M7">
+      <speaker>Bill.</speaker>
+      <p>This very day.</p>
+     </sp>
+     <sp who="#L0770_M4">
+      <speaker>Robert.</speaker>
+      <p>Well, I—I will go with you.</p>
+     </sp>
+     <sp who="#L0770_M6">
+      <speaker>Nick.</speaker>
+      <p>Bravo!</p>
+     </sp>
+     <stage>Enter MARY PRICE, conducted by TOMMY, L. door.</stage>
+     <sp who="#L0770_M5">
+      <speaker>Tom.</speaker>
+      <p>This wav, Mary. Not a very respectable place; won't find yourself at home here—not likely,
+       not likely.</p>
+     </sp>
+     <sp who="#L0770_F11">
+      <speaker>Mary.</speaker>
+      <p>Robert !—my brother!</p>
+     </sp>
+     <sp who="#L0770_M4">
+      <speaker>Robert.</speaker>
+      <p>Mary!</p>
+     </sp>
+     <sp who="#L0770_F11">
+      <speaker>Mary.</speaker>
+      <p>And after twelve months' absence from my native village, is it in such a low, disgraceful
+       place as this I find you,
+       <pb n="8"/> and in such society? I sought you first at your master's, Mr. Mathews, but
+       learned from him that you had left his house, and gone he knew not whither; and, but for this
+       poor idiot, I had not known where to find you.</p>
+     </sp>
+     <sp who="#L0770_M5">
+      <speaker>Tom.</speaker>
+      <p>Though Tommy's lost himself, he knows where to find everybody else; but he don't like bad
+       company—not likely, not likely.</p>
+     </sp>
+     <sp who="#L0770_F11">
+      <speaker>Mary.</speaker>
+      <p>Brother, are you mad, that you act thus? If you forsake the path of honesty, and associate
+       with characters such as these, what think you will become of you?</p>
+     </sp>
+     <sp who="#L0770_M6">
+      <speaker>Nick.</speaker>
+      <p>Well, I'm blowed!</p>
+     </sp>
+     <sp who="#L0770_M7">
+      <speaker>Bill.</speaker>
+      <p>I'd have you to know, miss, or marm, or whatever else you call yourself, that—</p>
+     </sp>
+     <stage>(MARY turns her back on him)</stage>
+     <sp who="#L0770_M5">
+      <speaker>Tom.</speaker>
+      <p>Don't be afraid, Mary; I'll muzzle the Bulldog. <stage>(puts his hand on BILL'S
+        mouth)</stage> Mary's not fond of Bulldogs—not likely, not likely.</p>
+     </sp>
+     <sp who="#L0770_F11">
+      <speaker>Mary.</speaker>
+      <p>If you will return with me to your master's, I will intercede for you; and, rely on it, all
+       will be forgiven, all forgotten.</p>
+     </sp>
+     <sp who="#L0770_M4">
+      <speaker>Robert.</speaker>
+      <p>Return! He struck me—disgraced, dishonoured me by a blow. Bid me not then return, for I
+       might kill him to avenge the insult.</p>
+     </sp>
+     <sp who="#L0770_F11">
+      <speaker>Mary.</speaker>
+      <p>Brother, such language freezes my very blood! Oh! reflect in time—pause on the precipice on
+       which you stand— beware! one false step hurls you to perdition!</p>
+     </sp>
+     <sp who="#L0770_M7">
+      <speaker>Bill.</speaker>
+      <p>Oh! I say now, Miss Price, no preaching; we don't come to the ale house to hear a
+       sermon.</p>
+     </sp>
+     <sp who="#L0770_M5">
+      <speaker>Tom.</speaker>
+      <p>And I'm sure you never go to church to hear one: the fox don't like to be told it's werry
+       wicked to prig the geese—not likely, not likely.</p>
+     </sp>
+     <sp who="#L0770_F11">
+      <speaker>Mary.</speaker>
+      <p>Brother, pray be warned! Let a sister's love prevail with you. Think of the happy days of
+       innocence we passed as children in our parents' cottage!—come to our mother's grave, kneel
+       with me, and over her dear remains renew the vows you made beside her dying bed, to lead a
+       life of honesty and virtue.</p>
+     </sp>
+     <sp who="#L0770_M5">
+      <speaker>Tom.</speaker>
+      <p>Good advice, Bob; but you won't follow it—not likely, not likely.</p>
+     </sp>
+     <sp who="#L0770_M4">
+      <speaker>Robert.</speaker>
+      <p>Mary, you are a dear good girl, and I do promise to—to think of what you say. In a few
+       days, no doubt, we shall meet in London: I intend to look after work there, and— and I'll try
+       and follow your advice.</p>
+     </sp>
+     <sp who="#L0770_F11">
+      <speaker>Mary.</speaker>
+      <p>Come with me now. I'll pay your fare to London, and find you a lodging till you do get
+       work, Pray remain not here another moment: to see you in this place, associating with these
+       men, fills my soul with terror indescribable. <stage>(BILL and NICK are a little up,
+        R.)</stage></p>
+     </sp>
+     <pb n="9"/>
+     <sp who="#L0770_M5">
+      <speaker>Tom.</speaker>
+      <p>Poor Mary's afraid the Bulldog will bite her; but not while I am here—not likely, not
+       likely.</p>
+     </sp>
+     <sp who="#L0770_F11">
+      <speaker>Mary.</speaker>
+      <p>Come, let us at once away.</p>
+     </sp>
+     <sp who="#L0770_M4">
+      <speaker>Robert.</speaker>
+      <p>No, Mary dear, I cannot leave Ashford yet; but soon I—</p>
+     </sp>
+     <sp who="#L0770_F11">
+      <speaker>Mary.</speaker>
+      <p>Well, you will find me at Lord Harlesdon's, in Grosvenor Square. For your own sake, dear
+       Robert, delay not to seek me there; and all that a fond sister can accomplish to promote a
+       brother's welfare, I will do with joy and gladness. <stage>(embracing him)</stage> Good-bye,
+       Robert—good-bye—and heaven bless you! <stage>Exit door, L.</stage></p>
+     </sp>
+     <sp who="#L0770_M5">
+      <speaker>Tom.</speaker>
+      <stage>(to ROBERT, singing)</stage>
+      <l>A mouse may get into a trap,</l>
+      <l>And sob and sigh in vain;</l>
+      <l>But the question is, after such a mishap,</l>
+      <l>Will he ever get out again?</l>
+      <p>Not likely, not likely. <stage>Exit door, L.</stage></p>
+     </sp>
+     <sp who="#L0770_M4">
+      <speaker>Robert.</speaker>
+      <p>Dear, good Mary, I <emph>will</emph> be warned by your wise counsels—will accompany you to
+       London—yes, I— <stage>(going— the TWO MEN stay him, grasping each an arm)</stage></p>
+     </sp>
+     <sp who="#L0770_M7">
+      <speaker>Bill.</speaker>
+      <p>Nonsense. Here, Boosey, bring some brandy. Go to-morrow, and we'll make a night of it.</p>
+     </sp>
+     <sp who="#L0770_M6">
+      <speaker>Nick.</speaker>
+      <p>That's it!</p>
+     </sp>
+     <sp who="#L0770_M7">
+      <speaker>Bill.</speaker>
+      <p><stage>(singing)</stage> "And we won't go home till morning," &amp;c. <stage>NICK joins,
+        and they drag ROBERT off, R.</stage></p>
+     </sp>
+    </div>
+    <div type="scene" n="2">
+     <head>SCENE SECOND.—Chamber in Lord Harlesdon's Mansion. (1st grooves.)</head>
+     <stage>Enter JEMIMA, R.</stage>
+     <sp who="#L0770_F12">
+      <speaker>Jemima.</speaker>
+      <p>Dear me, what a bustle everybody is in to be sure. The house is full of company. But his
+       old lordship is by no means pleased to see so many dashing gentlemen, bowing and smiling to
+       his beautiful wife. Now, what in the world could ever have induced her to marry a man old
+       enough to be her grandfather, I can't imagine. However, that's no business of mine. I wish,
+       though, Mary Price would come back; for while she is away, all the work in the nursery is on
+       my shoulders. Ah! here come two of our noble guests.</p>
+     </sp>
+     <stage>Enter LORD CLAVERING and LIEUTENANT AUBREY, L.</stage>
+     <sp who="#L0770_F12">
+      <speaker>Jemima.</speaker>
+      <stage>(R.)</stage>
+      <p>If you please, gentlemen, the dinner is nearly ready.</p>
+     </sp>
+     <sp who="#L0770_M2">
+      <speaker>Lord C.</speaker>
+      <stage>(C.)</stage>
+      <p>And we, my dear, are quite ready for our dinner. Upon my word, you're a pretty little girl!
+        <stage>(chucks JEMIMA under the chin)</stage> Her ladyship displays remarkable good taste in
+       the selection of her female servants.</p>
+     </sp>
+     <pb n="10"/>
+     <sp who="#L0770_F12">
+      <speaker>Jemima.</speaker>
+      <p>Thank you, my lord. <stage>(aside)</stage> What a very civil-spoken gentleman, and an
+       excellent judge of beauty. <stage>Exit, R.</stage></p>
+     </sp>
+     <sp who="#L0770_M2">
+      <speaker>Lord C.</speaker>
+      <stage>(R. C.)</stage>
+      <p>By-the-bye, Aubrey, there's another charming girl, a domestic here, named Mary Price, whom
+       you have not seen.</p>
+     </sp>
+     <sp who="#L0770_M3">
+      <speaker>Lieut. A.</speaker>
+      <stage>(L. C.)</stage>
+      <p>Your lordship is in error; I have seen her.</p>
+     </sp>
+     <sp who="#L0770_M2">
+      <speaker>Lord C.</speaker>
+      <p>Where? Not since we have arrived in London. The girl's gone on a visit to her friends at
+       Ashford.</p>
+     </sp>
+     <sp who="#L0770_M3">
+      <speaker>Lieut. A.</speaker>
+      <p>Still I have seen her. She was formerly in the service of a family at Dover, and I often
+       met her walking with a young infant on the beach. Indeed, we encountered each other so
+       frequently, that at length I accosted her, and her amiable manner, her enchanting modesty,
+       inspired me with a profound respect.</p>
+     </sp>
+     <sp who="#L0770_M2">
+      <speaker>Lord C.</speaker>
+      <p>A nursery maid's modesty!—ha, ha, ha! Did you try the test of gold—or even silks and
+       satins?</p>
+     </sp>
+     <sp who="#L0770_M3">
+      <speaker>Lieut. A.</speaker>
+      <stage>(L. C.)</stage>
+      <p>My lord! I should scorn myself, could I act the tempter, and betray a poor and virtuous
+       girl to infamy.</p>
+     </sp>
+     <sp who="#L0770_M2">
+      <speaker>Lord C.</speaker>
+      <p>How amiably romantic! 'Gad! I see you're smitten with the little nursery maid. But if you
+       are so prudish I am not; and when Mary Price returns, shall make love to her for pastime. I
+       am not going to yawn myself to death, to please all the sentimentalists in England.</p>
+     </sp>
+     <sp who="#L0770_M3">
+      <speaker>Lieut. A.</speaker>
+      <p>Beware, my lord! I will not suffer any man on earth to insult Mary Price with impunity. I
+       shall believe myself honoured if permitted to be her champion.</p>
+     </sp>
+     <sp who="#L0770_M2">
+      <speaker>Lord C.</speaker>
+      <p>Bravissimo! Mayhap 'tis your intent to elevate her to the dignity of <hi>Mrs. Lieutenant
+        Aubrey</hi>?—ha, ha, ha! My dear fellow, allow me to congratulate you! The champion of a
+       nursery maid! by Jove, a capital joke!—ha, ha, ha, ha!</p>
+     </sp>
+     <sp who="#L0770_M3">
+      <speaker>Lieut. A.</speaker>
+      <p>A joke that appears to give you so much pleasure, my lord, that I would not deprive you of
+       it on any consideration. Yet, amidst your mirth, be pleased to bear in mind however you may
+       jest, I am thoroughly in earnest.</p>
+     </sp>
+     <stage>Exeunt, LORD C. laughing, R.</stage>
+    </div>
+    <div type="scene" n="3">
+     <head>SCENE THIRD.—Hyde Park.</head>
+     <stage>Music. Enter BILL BULLDOG and NICK SAWBRIDGE, L. U. E.</stage>
+     <sp who="#L0770_M7">
+      <speaker>Bill.</speaker>
+      <p>Well, Nick, my covey, here we are in the famous Hyde Park, London; and who do you think I
+       met not a minute ago?</p>
+     </sp>
+     <sp who="#L0770_M6">
+      <speaker>Nick.</speaker>
+      <p>It's hard to say.</p>
+     </sp>
+     <sp who="#L0770_M7">
+      <speaker>Bill.</speaker>
+      <p>Why, old Mother Lee, the gipsy; and I have promised her a canary bird, as she calls a
+       sovereign, for her assistance in a first-rate dodge of mine. So she's gone to fetch her
+       disguise; for the park-keepers wouldn't let her into the park as a gipsy woman.</p>
+     </sp>
+     <pb n="11"/>
+     <sp who="#L0770_M6">
+      <speaker>Nick.</speaker>
+      <p>And what's this dodge you speak of?</p>
+     </sp>
+     <sp who="#L0770_M7">
+      <speaker>Bill.</speaker>
+      <p>Kidnapping. Old Mother Lee herself put me up to it. Every a'ternoon, one of Lord
+       Harlesdon's nursery maids comes here for a walk with his daughter, the Right Honourable Miss
+       Clementina. So while old Mother Lee tells the servant's fortune, we cuts away like vinking
+       with the Right Honourable Miss Clementina, for the sake of the reward that's sartain to be
+       offered.</p>
+     </sp>
+     <sp who="#L0770_M6">
+      <speaker>Nick.</speaker>
+      <p>And do you suppose as how the young lady will go away quietly with the likes of us?</p>
+     </sp>
+     <sp who="#L0770_M7">
+      <speaker>Bill.</speaker>
+      <p>Lord bless your soft head! why, she's quite a little kid—not able to speak a single word.
+       But see; here comes old Mother Lee.</p>
+     </sp>
+     <stage>Music. Enter OLD MOTHER LEE, with cloak over her gipsy's dress, L.</stage>
+     <sp who="#L0770_F13">
+      <speaker>Mother L.</speaker>
+      <p>Well, here I am you see, true as the clock to my appointment and just in time; for yonder
+       comes Lord Harlesdon's nursery maid, with the child, and by express appointment, for I
+       promised to tell her fortune—so now to appear in my true character. <stage>(throws off
+        cloak)</stage> You two will watch yonder behind the trees, and see how I manage. Away with
+       you!</p>
+     </sp>
+     <stage>Music.—MOTHER LEE, BILL, and NICK retire behind the trees, R. U. E.— Enter JEMIMA with
+      the CHILD, L.</stage>
+     <sp who="#L0770_F12">
+      <speaker>Jemima.</speaker>
+      <p>How very warm it is! I'll just sit down and have a rest. <stage>(sits on bench or
+        seat)</stage> It's very near the time when the old gipsy woman promised to meet me here, and
+       tell me my fortune. Luckily this is a very lonely spot, so we are not so likely to be
+       noticed. I hope she'll come.</p>
+     </sp>
+     <sp who="#L0770_F13">
+      <speaker>Mother L.</speaker>
+      <stage>(R., advancing)</stage>
+      <p>Good morrow, pretty maid. <stage>(JEMIMA starts)</stage> A charming day. You see I keep my
+       promise: and now at once to business. Cross my hand with silver, and I'll astonish you.</p>
+     </sp>
+     <sp who="#L0770_F12">
+      <speaker>Jemima.</speaker>
+      <p>You will! Oh, mother, I am very much obliged to you indeed.</p>
+     </sp>
+     <sp who="#L0770_F13">
+      <speaker>Mother L.</speaker>
+      <p>This sweet child, I can see with half an eye, is the little daughter of Lord Harlesdon.</p>
+     </sp>
+     <sp who="#L0770_F12">
+      <speaker>Jemima.</speaker>
+      <p>The only one. Dear me, you're as good as a witch. No offence, I hope—but pray don't bewitch
+       me.</p>
+     </sp>
+     <sp who="#L0770_F13">
+      <speaker>Mother L.</speaker>
+      <p>You have much to hope, but nothing to fear from me. But you must cross my hand with silver,
+       before I open to your view the book of fate.</p>
+     </sp>
+     <sp who="#L0770_F12">
+      <speaker>Jemima.</speaker>
+      <p>Well, now for it. There's half a crown for you.</p>
+     </sp>
+     <sp who="#L0770_F13">
+      <speaker>Mother L.</speaker>
+      <p>'Tis well. What a pity it's now broad daylight; were we surrounded by the shades of night,
+       I could
+       <pb n="12"/> raise up such a vision to thine eyes as should fill thee with wonder and
+       amazement! But I have it—lend me thy handkerchief. <stage>(JEMIMA gives it)</stage> Now,
+       while I bind your eyes, this little dear may run and have a gambol on the grass.
+        <stage>Music—MOTHER LEE binds the handkerchief over JEMIMA's eyes, and takes from her the
+        CHILD, which BILL BULLDOG and NICK SAWBRIDGE seize, and run off with her, R U. E.</stage>
+       <stage>(R. C.)</stage> Now, in a minute you will see the vision—your future husband, a young
+       nobleman, coming in his carriage to take you to be married, and all the neighbours gathered
+       round the church to wish you joy.</p>
+     </sp>
+     <sp who="#L0770_F12">
+      <speaker>Jemima.</speaker>
+      <stage>(L. C.)</stage>
+      <p>Oh! that would be a sight. A nobleman and a carriage too—but I see nothing yet.</p>
+     </sp>
+     <sp who="#L0770_F13">
+      <speaker>Mother L.</speaker>
+      <p>You must have patience. Stir not from that spot until the vision rises to your view. My
+       child, have patience—patience, patience!</p>
+     </sp>
+     <stage>Music. exit MOTHER LEE, cautiously, R. U. E.</stage>
+     <sp who="#L0770_F12">
+      <speaker>Jemima.</speaker>
+      <stage>(her eyes still bound)</stage>
+      <p>The vision's a long time making its appearance. I see nothing yet of the young nobleman,
+       coming to take me in his carriage to be married. Dear me, what a time he takes and where are
+       all the neighbours assembled round the church to wish me joy? I don't see one of them—no, nor
+       even the church. I say, old mother gipsy, 'I hope you're not deceiving me!</p>
+     </sp>
+     <stage>Enter TOMMY, the Idiot, as lucifer match vendor, L. U. E.</stage>
+     <sp who="#L0770_F12">
+      <speaker>Jemima.</speaker>
+      <p>Why, the old gipsy don't even answer me. She is certainly an infamous old cheat. But I'll
+       untie the handkerchief. To tell me I should see the young nobleman, my future husband, before
+       my very eyes. <stage>(JEMIMA has unbound her eyes, and perceives TOMMY staring her full in
+        the face)</stage> Oh dear! Oh lord! What apparition's that? You never can be the young
+       nobleman, I'm sure.</p>
+     </sp>
+     <sp who="#L0770_M5">
+      <speaker>Tom.</speaker>
+      <p>No; poor Tommy can't be a nobleman in such a dress as this—not likely, not likely.</p>
+     </sp>
+     <sp who="#L0770_F12">
+      <speaker>Jemima.</speaker>
+      <stage>(looking around)</stage>
+      <p>Mercy upon me!—where is the dear child? Oh! this is some wicked plot to ruin me. What will
+       his lordship and her ladyship say? Miss Clementina! Where are you! Come to me. Oh! I shall
+       cry my eyes out. The child is lost. <stage>(to TOMMY)</stage> Did you see anything of a
+       little girl? Quick! Answer me!</p>
+     </sp>
+     <sp who="#L0770_M5">
+      <speaker>Tom.</speaker>
+      <p>Yes; two wicked fellows ran away with the child. No use stopping in the park—won't find her
+       here—not likely— not likely.</p>
+     </sp>
+     <sp who="#L0770_F12">
+      <speaker>Jemima.</speaker>
+      <p>Help, there! Police! Park keepers! Everybody
+       <pb n="13"/> stop 'em! Hold fast the villains with the child! Oh! what a fool I have
+       been!</p>
+     </sp>
+     <sp who="#L0770_M5">
+      <speaker>Tom.</speaker>
+      <p>I ain't a going to contradict you—not likely, not likely.</p>
+     </sp>
+     <stage>JEMIMA runs off, L. U. E., followed by TOMMY.</stage>
+    </div>
+    <div type="scene" n="4">
+     <head>SCENE FOURTH.—Handsome Chamber. 2nd grooves.</head>
+     <stage>Enter LORD HARLESDON, R.</stage>
+     <sp who="#L0770_M1">
+      <speaker>Lord H.</speaker>
+      <p>Before my eyes, to flirt with all these puppies—I can bear it no longer. 'Tis evident I am
+       the laughing-stock of my own guests. Oh! why was I fool enough to marry a woman so many years
+       my junior—and that I so dearly love her but aggravates the cruel pangs of jealousy, and I
+       dare not remonstrate, for I should but add to the ridicule with which I am overwhelmed by
+       these coxcombs, who surround and pour into her willing ear the poison of insidious flattery.
+       She comes. Betray me not, my goaded feelings; I must affect composure, must wear a smiling
+       face, to hide the torture at my heart.</p>
+     </sp>
+     <stage>Music. Enter LADY HARLESDON, R., arm-in-arm with LORD CLAVERING, and followed by
+      LIEUTENANT AUBREY.</stage>
+     <sp who="#L0770_M2">
+      <speaker>Lord C.</speaker>
+      <stage>(L. C.)</stage>
+      <p>Ha, ha, ha! good—capital, 'pon my honour. Your ladyship, I protest, is quite a wit, pointed
+       and brilliant, you both cut and shine.</p>
+     </sp>
+     <sp who="#L0770_F10">
+      <speaker>Lady H.</speaker>
+      <stage>(c.)</stage>
+      <p>Flattery—rank flattery, my lord. What say you, Lieutenant Aubrey.</p>
+     </sp>
+     <sp who="#L0770_M3">
+      <speaker>Lieut. A.</speaker>
+      <stage>(R.)</stage>
+      <p>That words from lips so beautiful, can never fail to charm the listening ear.</p>
+     </sp>
+     <sp who="#L0770_F10">
+      <speaker>Lady H.</speaker>
+      <p>Such gallantry I little expected from a gentleman so seriously inclined as Lieutenant
+       Aubrey.</p>
+     </sp>
+     <sp who="#L0770_M2">
+      <speaker>Lord C.</speaker>
+      <p>Serious! Ha, ha, ha! Your Ladyship may well say serious. My worthy friend the Lieutenant,
+       is a young philosopher, a youthful sage—in fact, a military moralist; so rigid, that I verily
+       believe he'd as soon hang himself as carry off a pretty girl, though she requested him to do
+       her the favour. Ha, ha, ha!</p>
+     </sp>
+     <sp who="#L0770_M1">
+      <speaker>Lord H.</speaker>
+      <stage>(L., aside)</stage>
+      <p>The incorrigible coxcomb.</p>
+     </sp>
+     <sp who="#L0770_M3">
+      <speaker>Lieut. A.</speaker>
+      <p>It appears, my lord, you have a desire to be witty, and 'tis a pity your ability should be
+       so far behind your inclination. E'en have your jest, but not at my expense. I caution you, I
+       serve the Queen, and have the honour to wear a sword. You understand?</p>
+     </sp>
+     <sp who="#L0770_M2">
+      <speaker>Lord C.</speaker>
+      <p>Well, sir—</p>
+     </sp>
+     <sp who="#L0770_F10">
+      <speaker>Lady H.</speaker>
+      <p>No angry feelings all here are friends.</p>
+     </sp>
+     <sp who="#L0770_M2">
+      <speaker>Lord C.</speaker>
+      <p>Your ladyship's behest commands implicit obedience. <stage>(aside to her)</stage> But
+       really we are very negligent to your venerable grandpa—I mean your ladyship's most
+       patriarchal
+       <pb n="14"/> husband. Ha, ha, ha! <stage>(to LORD HARLESDON)</stage> My lord, I have the
+       honour to salute you.</p>
+     </sp>
+     <sp who="#L0770_M1">
+      <speaker>Lord H.</speaker>
+      <p>My lord, I—</p>
+     </sp>
+     <sp who="#L0770_F10">
+      <speaker>Lady H.</speaker>
+      <stage>(crosses to LORD HARLESDON)</stage>
+      <p>Apropos, what say you, my dear—will you sit down with us to a hand at whist? This rattling
+       cavalier proposed a quadrille, but that I am very sure would not afford you the least
+       amusement.</p>
+     </sp>
+     <sp who="#L0770_M1">
+      <speaker>Lord H.</speaker>
+      <p>My lady, you have exactly guessed my taste. To a game at whist I give the preference.
+        <stage>(aside)</stage> But well I know the import of these jeers. Come, gentlemen, with your
+       leave—</p>
+     </sp>
+     <stage>Enter SERVANT, L.</stage>
+     <sp who="#L0770_M14">
+      <speaker>Servant.</speaker>
+      <p>Mary Price, my lady, has just returned from Ashford.</p>
+     </sp>
+     <sp who="#L0770_F10">
+      <speaker>Lady H.</speaker>
+      <p>My favourite domestic—send her to me. <stage>Exit SERVANT, L.</stage></p>
+     </sp>
+     <sp who="#L0770_F10">
+      <speaker>Lady H.</speaker>
+      <stage>(crosses to L.)</stage>
+      <p>Gentlemen, I will follow you in a moment.</p>
+     </sp>
+     <sp who="#L0770_M1">
+      <speaker>Lord H.</speaker>
+      <stage>(C.)</stage>
+      <p>This way, my lord.</p>
+     </sp>
+     <stage>Exeunt LORD HARLESDON and LORD CLAVERING, R.</stage>
+     <sp who="#L0770_M3">
+      <speaker>Lieut. A.</speaker>
+      <stage>(aside)</stage>
+      <p>Mary returned! I'll seek the earliest opportunity to warn her of the base designs of
+       Clavering. <stage>(to LADY HARLESDON)</stage> Madam, I take my leave. <stage>Exit,
+       R.</stage></p>
+     </sp>
+     <stage>Enter MARY PRICE, L.</stage>
+     <sp who="#L0770_F11">
+      <speaker>Mary.</speaker>
+      <p>My lady, I have taken the liberty to bring these flowers for your sweet child—some of them
+       grew upon my mother's grave.</p>
+     </sp>
+     <sp who="#L0770_F10">
+      <speaker>Lady H.</speaker>
+      <p>Thank you, Mary, for this proof of affection for your little charge. <stage>(crosses to
+        L.)</stage> Who waits there?</p>
+     </sp>
+     <stage>Enter SERVANT, L.</stage>
+     <sp who="#L0770_F10">
+      <speaker>Lady H.</speaker>
+      <p>Tell Jemima to bring Miss Clementina hither.</p>
+     </sp>
+     <sp who="#L0770_M14">
+      <speaker>Servant.</speaker>
+      <stage>(L.)</stage>
+      <p>Jemima is out, your ladyship; she went to the park, and has not since returned.</p>
+     </sp>
+     <sp who="#L0770_F10">
+      <speaker>Lady H.</speaker>
+      <stage>(C.)</stage>
+      <p>That's very strange, for 'tis getting late.</p>
+     </sp>
+     <sp who="#L0770_F11">
+      <speaker>Mary.</speaker>
+      <stage>(R.)</stage>
+      <p>Permit me, my lady, to go in search of her.</p>
+     </sp>
+     <sp who="#L0770_F10">
+      <speaker>Lady H.</speaker>
+      <p>Do, Mary—pray do. Should any accident have befallen the dear child, 'twould drive me
+       distracted. <stage>(crosses to R.)</stage></p>
+     </sp>
+     <sp who="#L0770_F11">
+      <speaker>Mary.</speaker>
+      <p>I hope there is no cause for alarm. <stage>(going)</stage></p>
+     </sp>
+     <sp who="#L0770_F12">
+      <speaker>Jemima.</speaker>
+      <stage>(without, L.)</stage>
+      <p>Help! help! Thomas—William— everybody! help! help! <stage>(rushes in and kneels to LADY
+        HARLESDON)</stage></p>
+     </sp>
+     <sp who="#L0770_F10">
+      <speaker>Lady H.</speaker>
+      <p>What has happened — where is my child?</p>
+     </sp>
+     <pb n="15"/>
+     <stage>Re-enter LORD HARLESDON, R.</stage>
+     <sp who="#L0770_M1">
+      <speaker>Lord H.</speaker>
+      <p>What is this?</p>
+     </sp>
+
+     <sp who="#L0770_F12">
+      <speaker>Jemima.</speaker>
+      <stage>(crossing to LORD HARLESDON, and turning first to him and then to LADY
+       HARLESDON)</stage>
+      <p>Oh, my lord!—oh, my lady! please don't hang me! It was all my fault—I know it was—oh, oh!
+       but, please don't hang me—please don't—oh, oh!</p>
+     </sp>
+     <sp who="#L0770_M1">
+      <speaker>Lord H.</speaker>
+      <p>What has happened?</p>
+     </sp>
+     <sp who="#L0770_F10">
+      <speaker>Lady H.</speaker>
+      <p>I tremble to know she has returned without our dear Clementina! Speak, girl, unless you
+       would see me mad with apprehension !</p>
+     </sp>
+     <sp who="#L0770_M1">
+      <speaker>Lord H.</speaker>
+      <p>Quick, girl, or—</p>
+     </sp>
+     <sp who="#L0770_F12">
+      <speaker>Jemima.</speaker>
+      <p>Oh, my lord!—oh, my lady! an old gipsy woman—she tied a handkerchief over my eyes, till I
+       was quite blind, that I might see my future husband and the carriage— in the church—and then
+       she ran away with Miss Clementina! and I ran home, and—oh, my lord!—oh, my lady!—please don't
+       hang me—oh, oh, please don't—oh, oh!</p>
+     </sp>
+     <sp who="#L0770_M1">
+      <speaker>Lord H.</speaker>
+      <stage>(C.)</stage>
+      <p>Girl, girl—what have you done? <stage>(crossing to LADY HARLESDON)</stage> Go from my
+       sight—go! <stage>Exit, R.</stage></p>
+     </sp>
+     <sp who="#L0770_F12">
+      <speaker>Jemima.</speaker>
+      <stage>(aside)</stage>
+      <p>I know he means to hang me—I know he does—oh, oh! <stage>Exit, R.</stage></p>
+     </sp>
+     <sp who="#L0770_M1">
+      <speaker>Lord H.</speaker>
+      <p><stage>(C.)</stage>This blow will break my heart!</p>
+     </sp>
+     <sp who="#L0770_F11">
+      <speaker>Mary.</speaker>
+      <stage>(L. C.)</stage>
+      <p>Poor lady!</p>
+     </sp>
+     <sp who="#L0770_F10">
+      <speaker>Lady H.</speaker>
+      <p>Oh, Mary, had you not left us, our little darling had not thus been lost to her doating
+       mother!</p>
+     </sp>
+     <sp who="#L0770_F11">
+      <speaker>Mary.</speaker>
+      <p>And I will retrace and restore her to you—heaven assures me that I shall. Take comfort,
+       dear lady, for I will devote my life to the task of her recovery. Farewell! and pray for me
+       for I will know neither rest nor sleep till I have given little Clementina back to your
+       expectant arms, asking for my reward only the joy that I shall feel when I behold you once
+       more clasp her to your heart. <stage>Exit, L.</stage></p>
+     </sp>
+     <sp who="#L0770_F10">
+      <speaker>Lady H.</speaker>
+      <p>Heaven will go with you in your search, and bless you, Mary!</p>
+     </sp>
+     <sp who="#L0770_M1">
+      <speaker>Lord H.</speaker>
+      <p>All will be well — with the aid of the police and the offer of a large reward—</p>
+     </sp>
+     <sp who="#L0770_F10">
+      <speaker>Lady H.</speaker>
+      <p>Oh, my lord, forgive me for the past—for heavily now am I punished for my folly!</p>
+     </sp>
+     <sp who="#L0770_M1">
+      <speaker>Lord H.</speaker>
+      <p>Dear Emily! <stage>(embraces and leads her off, R.)</stage></p>
+     </sp>
+    </div>
+    <div type="scene" n="5">
+     <head>SCENE FIFTH—Street. Night. (1st grooves.)</head>
+     <stage>Enter MARY PRICE, R.</stage>
+     <sp who="#L0770_F11">
+      <speaker>Mary.</speaker>
+      <p>Where shall I enquire—which way turn my steps? for I have no clue. Oh, heaven! do thou
+       direct and guide me.</p>
+     </sp>
+     <pb n="16"/>
+     <stage>Enter TOMMY, L.</stage>
+     <sp who="#L0770_M5">
+      <speaker>Tom.</speaker>
+      <p>Mary Price, I declare! Couldn't make a mistake; couldn't take anybody else for you—not
+       likely, not likely.</p>
+     </sp>
+     <sp who="#L0770_F11">
+      <speaker>Mary.</speaker>
+      <p>You, Tommy, in London!</p>
+     </sp>
+     <sp who="#L0770_M5">
+      <speaker>Tom.</speaker>
+      <p>Yes; Bill Bulldog told poor Tommy that London streets were all paved with gold, and Tommy
+       would have nothing to do but stoop and pick it up; but 'twas all a lie— for there ain't no
+       gold, only mud; and I should have starved, only a gentleman gave me twopence, and I bought a
+       stock of lucifer matches—but I don't seem to make my fortune at it, and I don't think I ever
+       shall not likely, not likely.</p>
+     </sp>
+     <sp who="#L0770_F11">
+      <speaker>Mary.</speaker>
+      <p>Well, Tommy, you must come and see me. <stage>(crossing to L.)</stage> Now I cannot stop
+       longer with you, for—</p>
+     </sp>
+     <sp who="#L0770_M5">
+      <speaker>Tom.</speaker>
+      <p>Yes, I know—going to look for the little lost child. You won't find her; I can though.</p>
+     </sp>
+     <sp who="#L0770_F11">
+      <speaker>Mary.</speaker>
+      <p>You, Tommy.</p>
+     </sp>
+     <sp who="#L0770_M5">
+      <speaker>Tom.</speaker>
+      <p>Yes; only just found out though, for I followed and I hunted; they are very cunning, but
+       they are are not so deep as I am not likely, not likely.</p>
+     </sp>
+     <sp who="#L0770_F11">
+      <speaker>Mary.</speaker>
+      <p>Oh, Tommy! well shall you be rewarded if—</p>
+     </sp>
+     <sp who="#L0770_M5">
+      <speaker>Tom.</speaker>
+      <p>Will you buy a box of lucifers?</p>
+     </sp>
+     <sp who="#L0770_F11">
+      <speaker>Mary.</speaker>
+      <p>Your whole stock, and pay for it its weight in gold.</p>
+     </sp>
+     <sp who="#L0770_M5">
+      <speaker>Tom.</speaker>
+      <p>Shan't find such a customer as you every day—not likely, not likely.</p>
+     </sp>
+     <sp who="#L0770_F11">
+      <speaker>Mary.</speaker>
+      <p>But say—the child—little Clementina—where is she?</p>
+     </sp>
+     <sp who="#L0770_M5">
+      <speaker>Tom.</speaker>
+      <p>At the Trampers' Arms. 'Tain't a werry fashionable hotel—not likely, not likely.</p>
+     </sp>
+     <sp who="#L0770_F11">
+      <speaker>Mary.</speaker>
+      <p>Come, then; and with the aid of the police—</p>
+     </sp>
+     <sp who="#L0770_M5">
+      <speaker>Tom.</speaker>
+      <p>Police couldn't do nothing: the child would be safe out of reach before they could get into
+       the place, bless you.</p>
+     </sp>
+     <sp who="#L0770_F11">
+      <speaker>Mary.</speaker>
+      <p>What then can be done?</p>
+     </sp>
+     <sp who="#L0770_M5">
+      <speaker>Tom.</speaker>
+      <p>We'll dress ourselves up like trampers. I'll be an old gipsy and you shall be my pretty
+       daughter, and nobody couldn't have a prettier daughter—not likely, not likely.</p>
+     </sp>
+     <sp who="#L0770_F11">
+      <speaker>Mary.</speaker>
+      <p>But where procure disguises?</p>
+     </sp>
+     <sp who="#L0770_M5">
+      <speaker>Tom.</speaker>
+      <p>Tommy knows—all sorts of clothes, if I'd only got the money. I could buy such a beautiful
+       coat for sixpence.</p>
+     </sp>
+     <sp who="#L0770_F11">
+      <speaker>Mary.</speaker>
+      <p>Oh! if we recover the child, you shall have plenty of money, and be dressed like a
+       gentleman.</p>
+     </sp>
+     <sp who="#L0770_M5">
+      <speaker>Tom.</speaker>
+      <p>Then I should retire from business, and set fire to my lucifers 'cause it wouldn't look
+       well to see a gentleman of property selling lucifers—not likely, not likely.</p>
+     </sp>
+     <sp who="#L0770_F11">
+      <speaker>Mary.</speaker>
+      <p>Come, Tommy, let us hasten.</p>
+     </sp>
+     <sp who="#L0770_M5">
+      <speaker>Tom.</speaker>
+      <p>There's no hurry—I know what I am about: but you must mind and keep up your disguise, and
+       behave like a good
+       <pb n="17"/> daughter to your poor old father; for if the thieves found us out, they wouldn't
+       let us go away alive—not likely, not likely.</p>
+     </sp>
+     <sp who="#L0770_F11">
+      <speaker>Mary.</speaker>
+      <p>I will do my best, you may feel assured of that; but I should tremble, if asked by one of
+       them to tell their fortune.</p>
+     </sp>
+     <sp who="#L0770_M5">
+      <speaker>Tom.</speaker>
+      <p>La! that's easy enough. Tell the ugly old women they are young and handsome, and sure to
+       get good rich husbands. When you go to fish in the great river of life, only put a golden
+       bait upon your hook, and all the gudgeons are sure to nibble—ha, ha, ha! You've only got to
+       tell all the lies you can think of, and you'll do. Fortunes, now-a-days, are not made by
+       simple truth and honesty—not likely, not likely.</p>
+     </sp>
+     <stage>Exeunt, L.</stage>
+    </div>
+    <div type="scene" n="6">
+     <head>SCENE SIXTH.—Interior of the Tramper's Arms, St. Giles's. Door, L. 3 E., window, C.,
+      tables, chairs, jugs, &amp;c.</head>
+     <stage>BILL BULLDOG, NICK SAWBRIDGE, and ROBERT PRICE seated at a table, down L.—CADGERS,
+      &amp;c., seated, drinking and smoking, R. MOTHER LEE seated on a low stool at the back, R. C.,
+      nursing the child, a quart pot on the ground, at her feet—a blind FIDDLER is leaning against
+      the door, L. 3 E., scraping away. A dance of CADGERS.</stage>
+     <sp who="#L0770_M7">
+      <speaker>Bill.</speaker>
+      <p>Well, Bob, it's very lucky for you that we happened to pick you up.</p>
+     </sp>
+     <sp who="#L0770_M4">
+      <speaker>Robert.</speaker>
+      <p>Perhaps not.</p>
+     </sp>
+     <sp who="#L0770_M7">
+      <speaker>Bill.</speaker>
+      <p>Perhaps not! <stage>(turning to FIDDLER)</stage> Stop your row, will you, or I'll put that
+       fiddle of your'n behind the fire. <stage>(FIDDLER stops playing, and holds out his
+        hand)</stage></p>
+     </sp>
+     <sp who="#L0770_M6">
+      <speaker>Nick.</speaker>
+      <p>Be off, or you'll get more kicks than ha'pence here, I can tell you. <stage>Exit FIDDLER
+        and CADGERS, door, L. 3. E.</stage></p>
+     </sp>
+     <sp who="#L0770_M7">
+      <speaker>Bill.</speaker>
+      <p>Bob, I considers that just now you made a very ungrateful observation. Why, when we tumbled
+       over you, you were staring about the streets.</p>
+     </sp>
+     <sp who="#L0770_M4">
+      <speaker>Robert.</speaker>
+      <p>Yes; I had come to London to look after work, and had wandered about for days, seeking and
+       never finding it. Everybody asked me who was my last master, and where was my character.</p>
+     </sp>
+     <sp who="#L0770_M6">
+      <speaker>Nick.</speaker>
+      <p>People gets so werry partickler.</p>
+     </sp>
+     <sp who="#L0770_M4">
+      <speaker>Robert.</speaker>
+      <p>My sister was my only hope, and I have quite forgotten the name and address of the people
+       where she is in service.</p>
+     </sp>
+     <sp who="#L0770_M7">
+      <speaker>Bill.</speaker>
+      <stage>(looking significantly at NICK)</stage>
+      <p>That's a pity, <stage>(aside)</stage> for we don't mean to tell you just at present.</p>
+     </sp>
+     <sp who="#L0770_M4">
+      <speaker>Robert.</speaker>
+      <p>And when you met me, I had not tasted food for four-and-twenty hours; and last night I
+       slept upon a door step.</p>
+     </sp>
+     <pb n="16"/>
+     <sp who="#L0770_M7">
+      <speaker>Bill.</speaker>
+      <p>Serves you right for trying to be wirtuous: be a wagabond, and you'll live in clover as we
+       do. So just say you'll join us, and we'll soon find you plenty of work, and you shall be well
+       paid for doing on it.</p>
+     </sp>
+     <sp who="#L0770_M4">
+      <speaker>Robert.</speaker>
+      <p>I must give myself to you, for I cannot starve; though, heaven knows I would now, were
+       opportunity offered me, be a good and honest man.</p>
+     </sp>
+     <sp who="#L0770_M7">
+      <speaker>Bill.</speaker>
+      <p>Plenty of time to turn wirtuous, when you grow old and helpless.</p>
+     </sp>
+     <sp who="#L0770_M6">
+      <speaker>Nick.</speaker>
+      <stage>(turning and shouting to MOTHER LEE, who is dozing)</stage>
+      <p>Holloa! I say, you there, don't keep bobbing your head up and down like that, or presently
+       you'll smash the dear little creature's nose!</p>
+     </sp>
+     <sp who="#L0770_F13">
+      <speaker>Mother L.</speaker>
+      <p>I'm so tired.</p>
+     </sp>
+     <sp who="#L0770_M6">
+      <speaker>Nick.</speaker>
+      <p>Muzzy, you mean.</p>
+     </sp>
+     <sp who="#L0770_F13">
+      <speaker>Mother L.</speaker>
+      <p>Any reward offered yet for this here blessed little babby?</p>
+     </sp>
+     <sp who="#L0770_M7">
+      <speaker>Bill.</speaker>
+      <p>Only a paltry <hi>hundred</hi> pounds—so we'll wait a bit, and to-morrow it's safe to be
+       doubled. <stage>(knocking heard at an outer door—all start to their feet)</stage></p>
+     </sp>
+     <sp who="#L0770_M7">
+      <speaker>Bill.</speaker>
+      <p>Who knows but that may be the peelers come in search of the kid—you'd better mizzle into
+       yonder room until they're gone again. You, Mother Lee, d'ye hear?</p>
+     </sp>
+     <sp who="#L0770_M9">
+      <speaker>Tavern Boy.</speaker>
+      <stage>(at door)</stage>
+      <p>No danger, gemmen, it's only a gipsy girl and her old dad.</p>
+     </sp>
+     <stage>Music. Enter MARY PRICE and TOMMY disguised, door L. 3 E.</stage>
+     <sp who="#L0770_F13">
+      <speaker>Mother L.</speaker>
+      <stage>(again sitting)</stage>
+      <p>Ah, two of our tribe!—Do you come from Norwood?</p>
+     </sp>
+     <sp who="#L0770_F11">
+      <speaker>Mary.</speaker>
+      <stage>(C., disguising her voice)</stage>
+      <p>No; from near Canterbury. <stage>(aside)</stage> My brother still with those vile
+       associates? and there is the dear child—asleep, poor babe.</p>
+     </sp>
+     <sp who="#L0770_M5">
+      <speaker>Tom.</speaker>
+      <stage>(R. C.)</stage>
+      <p>Poor old gipsy Tom, is very tired and his daughter, too—but never mind beds, we can sleep
+       upon the benches or the floor.</p>
+     </sp>
+     <sp who="#L0770_M9">
+      <speaker>Tavern Boy.</speaker>
+      <stage>(at back)</stage>
+      <p>'Tis well you're so easily satisfied. Every crib occupied—six in a bed—no room for a mouse,
+       except here in the tap room. <stage>Exit.</stage></p>
+     </sp>
+     <sp who="#L0770_M7">
+      <speaker>Bill.</speaker>
+      <stage>(crossing to MARY)</stage>
+      <p>Come, I say, you're a nice young gipsy wench, suppose, for pastime, you tell us our
+       fortunes?</p>
+     </sp>
+     <sp who="#L0770_F11">
+      <speaker>Mary.</speaker>
+      <p>Willingly! and, with your leave, I'll begin with this young man. <stage>(crossing to
+        ROBERT)</stage> Show me your hand?</p>
+     </sp>
+     <sp who="#L0770_M4">
+      <speaker>Robert.</speaker>
+      <stage>(L. C.)</stage>
+      <p>There—and now let's hear all you know of the past concerning me—the future is a secret to
+       us both.</p>
+     </sp>
+     <sp who="#L0770_F11">
+      <speaker>Mary.</speaker>
+      <stage>(looking at his hand)</stage>
+      <p>You were left an orphan at an early age.</p>
+     </sp>
+     <sp who="#L0770_M4">
+      <speaker>Robert.</speaker>
+      <p>That's true, at all events.</p>
+     </sp>
+     <pb n="17"/>
+     <sp who="#L0770_F11">
+      <speaker>Mary.</speaker>
+      <stage>(C.)</stage>
+      <p>Were apprenticed to rather a severe master, and ran away from him.</p>
+     </sp>
+     <sp who="#L0770_M4">
+      <speaker>Robert.</speaker>
+      <p>This girl must be a witch.</p>
+     </sp>
+     <sp who="#L0770_F11">
+      <speaker>Mary.</speaker>
+      <p>At home, and ever since you have been in London, bad company has ever proved your ruin.</p>
+     </sp>
+     <sp who="#L0770_M4">
+      <speaker>Robert.</speaker>
+      <p>It has, I own, and—</p>
+     </sp>
+     <sp who="#L0770_M7">
+      <speaker>Bill.</speaker>
+      <stage>(R. C.)</stage>
+      <p>This will never do. <stage>(to MARY)</stage> If you can't tell fortunes better than that,
+       young woman, sit down and hold your tongue.</p>
+     </sp>
+     <sp who="#L0770_F11">
+      <speaker>Mary.</speaker>
+      <p>I am but young in the craft as yet.</p>
+     </sp>
+     <sp who="#L0770_M5">
+      <speaker>Tom.</speaker>
+      <p>That's the reason; but she'll read the stars much better when she's as old as her father.
+        <stage>(OLD MOTHER LEE nods, and is going to sleep)</stage></p>
+     </sp>
+     <sp who="#L0770_F11">
+      <speaker>Mary.</speaker>
+      <p>I'll hold the child. This poor old woman, overcome by sleep, has nearly let her fall.
+        <stage>(takes the CHILD, and kisses her, aside)</stage> Thank heavens! the dear child is in
+       my arms again. Oh, could we but escape! <stage>(coming down, R. C.)</stage></p>
+     </sp>
+     <sp who="#L0770_M5">
+      <speaker>Tom.</speaker>
+      <stage>(to her, R.)</stage>
+      <p>Hark! Hush! Have patience: if the worst comes to the worst, I have bought a pair of big
+       pistols—won't fire, but they won't know that—not likely—not likely!</p>
+     </sp>
+     <stage>Re-enter TAVERN BOY.</stage>
+     <sp who="#L0770_M9">
+      <speaker>Tavern Boy.</speaker>
+      <p>Master says it's twelve o'clock, and we shall have the peelers a popping in to pay us a
+       wisit—so all that has got beds is to go to roost—the others must make a shift as well as they
+       can.</p>
+     </sp>
+     <sp who="#L0770_M7">
+      <speaker>Bill.</speaker>
+      <stage>(rises)</stage>
+      <p>Come, lads. Old Mother Lee, look to the babby.</p>
+     </sp>
+     <sp who="#L0770_F13">
+      <speaker>Mother L.</speaker>
+      <stage>(starting up from sleep)</stage>
+      <p>Ay, to be sure I will. Why, where is she?</p>
+     </sp>
+     <sp who="#L0770_F11">
+      <speaker>Mary.</speaker>
+      <p>Here, mother, I have her safe; you nearly dropped her in your sleep.</p>
+     </sp>
+     <sp who="#L0770_F13">
+      <speaker>Mother L.</speaker>
+      <p>I'm so tired; but I'll take care, I'll take care. <stage>(takes the child
+       again)</stage></p>
+     </sp>
+     <sp who="#L0770_M7">
+      <speaker>Bill.</speaker>
+      <p>Mind you do, or you'll nap it. Come to bed!</p>
+     </sp>
+     <sp who="#L0770_M4">
+      <speaker>Robert.</speaker>
+      <stage>(aside)</stage>
+      <p>To bed—but not to rest. There was a time when I could sleep in peace, but that was long
+       ago—long ago. Good night, my little gipsy fortune-teller; unlike the rest of your tribe, you
+       tell the truth.</p>
+     </sp>
+     <stage>Music. All go off, different entrances, except MOTHER LEE, TOMMY and MARY PRICE.</stage>
+     <sp who="#L0770_M5">
+      <speaker>Tom.</speaker>
+      <stage>(C.)</stage>
+      <p>Poor old gipsy Tom, though he can't have no bed, would like a drop of gin to keep the cold
+       out. Hollo, here bring us half a pint. <stage>(it is brought and paid for)</stage></p>
+     </sp>
+     <sp who="#L0770_F13">
+      <speaker>Mother L.</speaker>
+      <stage>(rising)</stage>
+      <p>Yonder's my room—so I'll take the child and go to bed. <stage>(going, R.)</stage></p>
+     </sp>
+     <sp who="#L0770_M5">
+      <speaker>Tom.</speaker>
+      <stage>(C.)</stage>
+      <p>No—stop a bit with us, and have a drop—'tis
+       <pb n="20"/> capital gin. <stage>(pours out—MOTHER LEE drinks)</stage> Old Tom, they calls
+       it—ha, ha, ha!—here, take another glass.</p>
+     </sp>
+     <sp who="#L0770_F13">
+      <speaker>Mother L.</speaker>
+      <stage>(R.)</stage>
+      <p>Success to the gipsy tribe!—'Tis capital stuff.</p>
+     </sp>
+     <sp who="#L0770_M5">
+      <speaker>Tom.</speaker>
+      <p>I told you so. <stage>(to MARY, who is L.)</stage> Madge, do you mind the child, while my
+       dear sister here takes another glass.</p>
+     </sp>
+     <sp who="#L0770_F11">
+      <speaker>Mary.</speaker>
+      <stage>(crossing, C., to MOTHER LEE)</stage>
+      <p>Ay, that I will, with pleasure. Mother, give the child to me. <stage>(takes CHILD, goes up,
+        and sits)</stage></p>
+     </sp>
+     <sp who="#L0770_F13">
+      <speaker>Mother L.</speaker>
+      <p>Thanks, daughter; I am getting old, d'ye see, and a little drop of comfort does me
+       good.</p>
+     </sp>
+     <sp who="#L0770_M5">
+      <speaker>Tom.</speaker>
+      <p>Drink, then, and spare it not; here, take the measure and drink it all; we'll have more
+       when that's gone.</p>
+     </sp>
+     <sp who="#L0770_F13">
+      <speaker>Mother L.</speaker>
+      <stage>(sits at table, R.)</stage>
+      <p>My service to you, father. By-the-bye, you're old enough to be the king of the gipsies—and
+       I am called the gipsy queen—ha, ha, ha!—Suppose you and I were to make a match of it—ha, ha,
+       ha!</p>
+     </sp>
+     <sp who="#L0770_M5">
+      <speaker>Tom.</speaker>
+      <p>That would be capital. Ha, ha, ha! <stage>(nudges the old WOMAN)</stage></p>
+     </sp>
+     <sp who="#L0770_F13">
+      <speaker>Mother L.</speaker>
+      <p>We'd have a glorious wedding. Ha, ha, ha! A coach and six—</p>
+     </sp>
+     <sp who="#L0770_M5">
+      <speaker>Tom.</speaker>
+      <p>No—eight.</p>
+     </sp>
+     <sp who="#L0770_F13">
+      <speaker>Mother L.</speaker>
+      <p>And all the gipsies should dance at our wedding. Every one.</p>
+     </sp>
+     <sp who="#L0770_F13">
+      <speaker>Mother L.</speaker>
+      <p>And I'll have a new gown—yellow, trimmed with red. Ha, ha, ha!—a splendid, glorious
+       wedding.</p>
+     </sp>
+     <stage>Music. overcome by the liquor, MOTHER LEE falls asleep, her head on the table</stage>
+     <sp who="#L0770_F11">
+      <speaker>Mary.</speaker>
+      <stage>(coming cautiously forward)</stage>
+      <p>She sleeps; we must not lose a moment. <stage>(hurries over to the door)</stage> Ah! 'tis
+       locked!</p>
+     </sp>
+     <sp who="#L0770_M5">
+      <speaker>Tom.</speaker>
+      <stage>(opening the window)</stage>
+      <p>But the window isn't; and as we are on the ground floor, jumping out won't break your
+       neck—not likely, not likely!</p>
+     </sp>
+     <sp who="#L0770_F11">
+      <speaker>Mary.</speaker>
+      <p>Quick, then, dear faithful friend! Hold the child, for but a moment, while I—</p>
+     </sp>
+     <sp who="#L0770_M5">
+      <speaker>Tom.</speaker>
+      <p>Jump on this. <stage>(places a chair under the window, then takes the child from MARY, who
+        goes out)</stage></p>
+     </sp>
+     <sp who="#L0770_F11">
+      <speaker>Mary.</speaker>
+      <stage>(looking into room, and extending her arms)</stage>
+      <p>Now, the child, now—</p>
+     </sp>
+     <sp who="#L0770_M9">
+      <speaker>Tavern Boy.</speaker>
+      <stage>(without, R.)</stage>
+      <p>Master, there's some one bolting out o' window!</p>
+     </sp>
+     <sp who="#L0770_F11">
+      <speaker>Mary.</speaker>
+      <p>Oh, heaven!</p>
+     </sp>
+     <sp who="#L0770_F13">
+      <speaker>Mother L.</speaker>
+      <stage>(starting up)</stage>
+      <p>What's that? Ah! give me the babby.</p>
+     </sp>
+     <sp who="#L0770_M5">
+      <speaker>Tom.</speaker>
+      <p>Not likely, not likely. <stage>(giving CHILD to MARY)</stage> Off you go, and I'll be after
+       you.</p>
+     </sp>
+     <stage>(MARY disappears with the CHILD)</stage>
+     <sp who="#L0770_F13">
+      <speaker>Mother L.</speaker>
+      <stage>(clinging to TOMMY as he is about to escape
+       <pb n="21"/> through the window)</stage>
+      <p>No, you shan't—ah! <stage>(screaming)</stage> Bill, help!—the baby!</p>
+     </sp>
+     <stage>music—TOMMY thrusts the old GIPSY away, and again bolts towards the window—MOTHER LEE
+      continues screaming, "Bill! the child, the child!"—BILL runs on, R. 1 E., and seizes TOMMY'S
+      leg, when he is half out of window, and pulls him back—TOMMY draws a stout cudgel from under
+      his coat, and striking BILL on the head, floors him, then hits right and left at NICK and the
+      CADGERS, who enter every way—the cudgel is knocked from TOMMY's hand and he is seized—after a
+      struggle he slips out of his overcoat, leaving it in their hands, and running up, jumps on to
+      the chair, placing one leg out of window, drawing and presenting a brace of pistols, at the
+      CADGERS, who are following again to seize him—all stand back</stage>
+     <sp who="#L0770_M5">
+      <speaker>Tom.</speaker>
+      <p>You haven't got me yet, and you ain't a going to have me—not likely, not likely!—ha, ha,
+       ha!</p>
+     </sp>
+     <stage>(BILL is endeavouring to rise—tableau)</stage>
+     <trailer>END OF THE FIRST ACT.</trailer>
+    </div>
+   </div>
+   <div type="act" n="2">
+    <div type="scene" n="1">
+     <head>ACT II.</head>
+     <head>SCENE FIRST. Street. (1st Grooves)</head>
+     <stage>Enter BILL BULLDOG, his head bound up, NICK SAWBRIDGE and ROBERT PRICE, L.</stage>
+     <sp who="#L0770_M7">
+      <speaker>Bill.</speaker>
+      <stage>(R.)</stage>
+      <p>Clean gone, clean gone! not a trace that I should be so reg'larly took in, and have my head
+       smashed, and all by a idiot, and I'm such a sensible feller, too.</p>
+     </sp>
+     <sp who="#L0770_M6">
+      <speaker>Nick.</speaker>
+      <stage>(C.)</stage>
+      <p>Well, it are aggrawating.</p>
+     </sp>
+     <sp who="#L0770_M4">
+      <speaker>Robert.</speaker>
+      <stage>(L. C.)</stage>
+      <p>But what is all this? and what the cause of that uproar, which brought me from my bed?</p>
+     </sp>
+     <sp who="#L0770_M7">
+      <speaker>Bill.</speaker>
+      <p>I've lost a babby; that's what it is.</p>
+     </sp>
+     <sp who="#L0770_M6">
+      <speaker>Nick.</speaker>
+      <p>Yes; lost a babby that we had found.</p>
+     </sp>
+     <sp who="#L0770_M4">
+      <speaker>Robert.</speaker>
+      <p>I do not understand.</p>
+     </sp>
+     <sp who="#L0770_M7">
+      <speaker>Bill.</speaker>
+      <p>Don't understand what a babby is? well, a kid then— that's plain English, I believe.</p>
+     </sp>
+     <sp who="#L0770_M6">
+      <speaker>Nick.</speaker>
+      <p>A blessed infant, that was worth at least two hundred pounds to us.</p>
+     </sp>
+     <sp who="#L0770_M7">
+      <speaker>Bill.</speaker>
+      <p>And, to think that a idiot should have sense to commit such a heartless robbery on poor
+       industrious chaps. But never mind, bad luck now, wuss another time.</p>
+     </sp>
+     <sp who="#L0770_M6">
+      <speaker>Nick.</speaker>
+      <p>What's to be the next move, Bill?</p>
+     </sp>
+     <sp who="#L0770_M7">
+      <speaker>Bill.</speaker>
+      <p>Why, we shall move off to quod if we don't look out;
+       <pb n="22"/> so we must make a good haul at once, and then do for our— what the beaks would
+       like to do for us.</p>
+     </sp>
+     <sp who="#L0770_M6">
+      <speaker>Nick.</speaker>
+      <p>How do you mean, Bill?</p>
+     </sp>
+     <sp who="#L0770_M7">
+      <speaker>Bill.</speaker>
+      <p>Why transport ourselves out of the country for a while; so come here, Bob.</p>
+     </sp>
+     <sp who="#L0770_M4">
+      <speaker>Robert.</speaker>
+      <stage>(crossing to BILL)</stage>
+      <p>Well?</p>
+     </sp>
+     <sp who="#L0770_M7">
+      <speaker>Bill.</speaker>
+      <p>You've forgot, you say, where your sister lives?</p>
+     </sp>
+     <sp who="#L0770_M4">
+      <speaker>Robert.</speaker>
+      <p>Alas, yes!</p>
+     </sp>
+     <sp who="#L0770_M7">
+      <speaker>Bill.</speaker>
+      <p>Well, I ain't forgot; never forgets nothin' what's likely to be adwantageous to this here
+       individual's interest.</p>
+     </sp>
+     <sp who="#L0770_M4">
+      <speaker>Robert.</speaker>
+      <p>And you will tell me—</p>
+     </sp>
+     <sp who="#L0770_M7">
+      <speaker>Bill.</speaker>
+      <p>In course, and you shall go and see her.</p>
+     </sp>
+     <sp who="#L0770_M4">
+      <speaker>Robert.</speaker>
+      <p>Oh, yes, yes!</p>
+     </sp>
+     <sp who="#L0770_M7">
+      <speaker>Bill.</speaker>
+      <p>And then ask Mary to give you a night's lodging in the house; and, when all are snug
+       asleep, just let us quietly in, and we shall find heaps of money and plate, and—</p>
+     </sp>
+     <sp who="#L0770_M4">
+      <speaker>Robert.</speaker>
+      <p>Villain!</p>
+     </sp>
+     <sp who="#L0770_M7">
+      <speaker>Bill.</speaker>
+      <p>Holloa! there's languidge;—what do you mean?</p>
+     </sp>
+     <sp who="#L0770_M4">
+      <speaker>Robert.</speaker>
+      <p>You dare propose to me that I should ruin, and make the victim of a degrading suspicion,
+       the sister who would give her life to secure my happiness! Oh! I must indeed be fallen, when
+       wretches like to these can suppose me capable of such unparalleled treachery !</p>
+     </sp>
+     <sp who="#L0770_M6">
+      <speaker>Nick.</speaker>
+      <p>Ain't you our pal?</p>
+     </sp>
+     <sp who="#L0770_M7">
+      <speaker>Bill.</speaker>
+      <p>Didn't we pick you up?</p>
+     </sp>
+     <sp who="#L0770_M6">
+      <speaker>Nick.</speaker>
+      <stage>(L.)</stage>
+      <p>And take you in—</p>
+     </sp>
+     <sp who="#L0770_M7">
+      <speaker>Bill.</speaker>
+      <p>And grub you—and do for you! I've said it afore, there ain't a morsel of gratitude in the
+       whole univarsal world!</p>
+     </sp>
+     <sp who="#L0770_M4">
+      <speaker>Robert.</speaker>
+      <stage>(c.)</stage>
+      <p>And yet I thank you that you have proposed this to me.</p>
+     </sp>
+     <sp who="#L0770_M7">
+      <speaker>Bill.</speaker>
+      <p>Ah, he's coming round!</p>
+     </sp>
+     <sp who="#L0770_M6">
+      <speaker>Nick.</speaker>
+      <p>I thought he would.</p>
+     </sp>
+     <sp who="#L0770_M4">
+      <speaker>Robert.</speaker>
+      <p>You have opened my eyes fully to the peril in which I so long have stood; harkye, we part
+       now and for ever—proceed not with the design which you have just now mentioned, and, for me,
+       you are safe—pursue it, and I swear I will denounce you! <stage>(crosses to L.)</stage></p>
+     </sp>
+     <sp who="#L0770_M7">
+      <speaker>Bill.</speaker>
+      <p>Oh! but, Mister Bob, you are not going like that?</p>
+     </sp>
+     <sp who="#L0770_M6">
+      <speaker>Nick.</speaker>
+      <p>Not exactly.</p>
+     </sp>
+     <sp who="#L0770_M4">
+      <speaker>Robert.</speaker>
+      <p>You dare not attack me here, for you would seal your own ruin. Oh, thank heaven! that it is
+       not yet too late to draw back from the abyss which so long has yawned beneath my feet—for
+       honest industry henceforth all my thoughts, and I will yet be an honour to the memory of the
+       dear parents now mouldering in their grave. <stage>Exit, L.</stage></p>
+     </sp>
+     <sp who="#L0770_M7">
+      <speaker>Bill.</speaker>
+      <p>Well, I never met with sich shameful treatment in all
+       <pb n="23"/> my life! Catch me doing a good turn to a fellow-creetur in distress—that's
+       all!</p>
+     </sp>
+     <sp who="#L0770_M6">
+      <speaker>Nick.</speaker>
+      <p>But it won't do to let him go off like that—he'll tell Mary, and—</p>
+     </sp>
+     <sp who="#L0770_M7">
+      <speaker>Bill.</speaker>
+      <p>Yes, come along—we'll make him take a solemn oath to hold his tongue, or else—come along,
+       Nick.</p>
+     </sp>
+     <stage>Music—they run off, L.</stage>
+     <stage>Enter LORD CLAVERING, R.</stage>
+     <sp who="#L0770_M2">
+      <speaker>Lord C.</speaker>
+      <p>Yes; I am determined, at all hazards, she shall be mine. A few miles from town I have a
+       snug retreat, called the White Cottage, which has before served me on similar
+       occasions—thither Mary Price shall be conveyed; but there will be some peril in its
+       accomplishment, and I shall need a couple of sturdy, resolute fellows—</p>
+     </sp>
+     <stage>Re-enter BILL and NICK, L.</stage>
+     <sp who="#L0770_M7">
+      <speaker>Bill.</speaker>
+      <p>He's off—couldn't see nothing of him.</p>
+     </sp>
+     <sp who="#L0770_M6">
+      <speaker>Nick.</speaker>
+      <p>And are we to be balked of that job, when there's such a lot of plate and—</p>
+     </sp>
+     <sp who="#L0770_M2">
+      <speaker>Lord C.</speaker>
+      <p>Hem! hem! <stage>(they start)</stage></p>
+     </sp>
+     <sp who="#L0770_M7">
+      <speaker>Bill.</speaker>
+      <p>Oh, lord—who's that?</p>
+     </sp>
+     <sp who="#L0770_M6">
+      <speaker>Nick.</speaker>
+      <p>'Tain't a peeler, is it?</p>
+     </sp>
+     <sp who="#L0770_M2">
+      <speaker>Lord C.</speaker>
+      <p>I think I may say it will prove fortunate for all of us that we have met.</p>
+     </sp>
+     <sp who="#L0770_M7">
+      <speaker>Bill.</speaker>
+      <stage>(aside to NICK)</stage>
+      <p>I knows him—he's a lord. What's he up to ?</p>
+     </sp>
+     <sp who="#L0770_M2">
+      <speaker>Lord C.</speaker>
+      <p>Are you inclined to earn a few sovereigns?</p>
+     </sp>
+     <sp who="#L0770_M7">
+      <speaker>Bill.</speaker>
+      <p>Well, we're not partickler.</p>
+     </sp>
+     <sp who="#L0770_M6">
+      <speaker>Nick.</speaker>
+      <stage>(L.)</stage>
+      <p>In a honest way, in course?</p>
+     </sp>
+     <sp who="#L0770_M2">
+      <speaker>Lord C.</speaker>
+      <p>Precisely. Whose plate chest is it that you have a weakness for?</p>
+     </sp>
+     <sp who="#L0770_M6">
+      <speaker>Nick.</speaker>
+      <p>Oh!</p>
+     </sp>
+     <sp who="#L0770_M7">
+      <speaker>Bill.</speaker>
+      <p>When he says honest, he means what we calls honest.</p>
+     </sp>
+     <sp who="#L0770_M2">
+      <speaker>Lord C.</speaker>
+      <p>I understand. Many honest chaps of our sort gets a few years penal servitude, and so—</p>
+     </sp>
+     <sp who="#L0770_M2">
+      <speaker>Lord C.</speaker>
+      <p>And so I'll come to the purpose, for I see you are the very men I needed. Listen! very near
+       there dwells a young woman, named Mary Price?</p>
+     </sp>
+     <sp who="#L0770_M7">
+      <speaker>Bill.</speaker>
+      <p>Why, she's a townswoman of ours. She comes from Ashford. We knows her.</p>
+     </sp>
+     <sp who="#L0770_M2">
+      <speaker>Lord C.</speaker>
+      <stage>(C.)</stage>
+      <p>That is fortunate. Carry her off to this address <stage>(gives a card)</stage> by any
+       stratagem, and I'll handsomely reward you.</p>
+     </sp>
+     <sp who="#L0770_M6">
+      <speaker>Nick.</speaker>
+      <stage>(L.)</stage>
+      <p>No easy job, your honour. Howsomever, we'll try it on—eh, Bill?
+       <pb n="24"/></p>
+     </sp>
+     <sp who="#L0770_M7">
+      <speaker>Bill.</speaker>
+      <stage>(L. C.)</stage>
+      <p>In course we will. Leave all to me—I'll plan the dodge myself. But your honour won't object
+       to give us a trifle to bind the bargain?</p>
+     </sp>
+     <sp who="#L0770_M2">
+      <speaker>Lord C.</speaker>
+      <stage>(gives money)</stage>
+      <p>Take this as an earnest of a liberal reward, should you succeed. Whether you know me
+       personally or not, observe I am not to be named in the affair.</p>
+     </sp>
+     <sp who="#L0770_M7">
+      <speaker>Bill.</speaker>
+      <p>Certainly not, your honour—we're wide awake—a little bit of muslin on the sly—ha, ha, ha!
+       Come along, Nick. This chap, my lord,'s called Nick—old Nick, because as how he ain't a young
+       'un in roguery.</p>
+     </sp>
+     <sp who="#L0770_M6">
+      <speaker>Nick.</speaker>
+      <p>Right, Bill, my boy—I wasn't born yesterday. <stage>Exeunt NICK and BILL, L.</stage></p>
+     </sp>
+     <sp who="#L0770_M2">
+      <speaker>Lord C.</speaker>
+      <p>What should we do in these dull times, without a little occasional intrigue—and this
+       charming girl once in my power, I shall have pastime for six months at least, till some new
+       flame extinguishes the old one. Thus do we sportsmen in the field of love pursue the game of
+       beauty. Now I'll return to the afflicted parents of the lost infant, make a serious face—as
+       long as Lieutenant Aubrey's, if I can—and act the sentimentalist—a part for which I never was
+       designed by nature in the domestic drama of man's life. <stage>Exit, R.</stage></p>
+     </sp>
+     <stage>Enter LIEUTENANT AUBREY, L., during the above speech.</stage>
+     <sp who="#L0770_M3">
+      <speaker>Lieut. A.</speaker>
+      <p>1 scorn to act the listener and the spy; yet cannot shut my ears against the truth. Lord
+       Clavering spoke of a charming girl, whose ruin he now contemplates. Great heavens! can she be
+       Mary Price? He named her not, but my life on it, she is the intended victim. I will watch him
+       with a vigilant eye, and tear the innocent lamb from the tiger's fangs. Beware, most noble
+       libertine! Beware and tremble at an honest soldier's vengeance. <stage>Exit, R.</stage></p>
+     </sp>
+    </div>
+    <div type="scene" n="2">
+     <head>SCENE SECOND.—Chamber at Lord Harlesdon's.</head>
+     <stage>LADY HARLESDON discovered, c., on one knee, eagerly embracing her child—LORD HARLESDON
+      on her right hand—MARY, L. C. TOMMY, L., still in gipsy garb—JEMIMA, R.</stage>
+     <sp who="#L0770_F10">
+      <speaker>Lady H.</speaker>
+      <p>Oh, happiness! my darling treasure restored to me. This moment of overpowering joy more
+       than repays me for the anguish I endured whilst thou wert lost to me. <stage>(embracing the
+        child)</stage></p>
+     </sp>
+     <sp who="#L0770_M1">
+      <speaker>Lord H.</speaker>
+      <stage>(gently taking the child from her)</stage>
+      <p>Control your emotion, dearest, and let the past be as a dream, no more to be remembered.
+        <stage>(passes the child over to JEMIMA—LADY HARLESDON rises)</stage></p>
+     </sp>
+     <sp who="#L0770_F12">
+      <speaker>Jemima.</speaker>
+      <p>Oh! bless your pretty little heart! You won't hang me now, will you, my lord?</p>
+     </sp>
+     <pb n="25"/>
+     <sp who="#L0770_M1">
+      <speaker>Lord H.</speaker>
+      <p>Profit by the terrible lesson you have received.</p>
+     </sp>
+     <sp who="#L0770_F12">
+      <speaker>Jemima.</speaker>
+      <p>Ah! that I will.</p>
+     </sp>
+     <sp who="#L0770_M1">
+      <speaker>Lord H.</speaker>
+      <p>You are now forgiven.</p>
+     </sp>
+     <sp who="#L0770_F12">
+      <speaker>Jemima.</speaker>
+      <p>Thank you, my lord. Oh! I am so pleased; but I shan't be quite happy till I have had a good
+       cry—oh, oh! <stage>Exit, R., crying, and with the child.</stage></p>
+     </sp>
+     <sp who="#L0770_M1">
+      <speaker>Lord H.</speaker>
+      <p>And now for these gipsies.</p>
+     </sp>
+     <sp who="#L0770_F11">
+      <speaker>Mary.</speaker>
+      <p>We are no gipsies, my lord.</p>
+     </sp>
+     <sp who="#L0770_M1">
+      <speaker>Lord H.</speaker>
+      <p>Indeed! who and what then are you?</p>
+     </sp>
+     <sp who="#L0770_F11">
+      <speaker>Mary.</speaker>
+      <p>I am <stage>(throwing off hat and cloak)</stage> behold!</p>
+     </sp>
+     <sp who="#L0770_F10">
+      <speaker>Lady H.</speaker>
+      <p>Ah! <stage>(embracing her)</stage> Dear, faithful Mary!</p>
+     </sp>
+     <sp who="#L0770_M5">
+      <speaker>Tom.</speaker>
+      <stage>(also throwing off his disguise)</stage>
+      <p>And I am poor Tommy. Won't be gipsy no longer: the dear little babby's saved, and that's
+       enough. You won't lose her again, I hope—not likely, not likely.</p>
+     </sp>
+     <sp who="#L0770_F10">
+      <speaker>Lady H.</speaker>
+      <p>Mary, I cannot find words to express my admiration of your noble conduct.</p>
+     </sp>
+     <sp who="#L0770_F11">
+      <speaker>Mary.</speaker>
+      <stage>(pointing to TOMMY)</stage>
+      <p>To this poor fellow, who is termed an idiot, you owe the restoration of your child. He
+       traced the gipsy to her rendezvous, and laid the plan for the recovery of the dear innocent.
+       I accompanied him to the abode of wretchedness and vice, secured our prize, and brought her
+       home in safety to her fond mother's arms.</p>
+     </sp>
+     <sp who="#L0770_F10">
+      <speaker>Lady H.</speaker>
+      <p>For which heaven will bless you. <stage>(to Lord H.)</stage> And our eternal gratitude—</p>
+     </sp>
+     <sp who="#L0770_M1">
+      <speaker>Lord H.</speaker>
+      <stage>(crossing to MARY)</stage>
+      <p>And in the first place, a bank note, Mary, for one hundred pounds—the offered reward—</p>
+     </sp>
+     <sp who="#L0770_F11">
+      <speaker>Mary.</speaker>
+      <stage>(taking note)</stage>
+      <p>Is it mine, to dispose of as I think proper?</p>
+     </sp>
+     <sp who="#L0770_F10">
+      <speaker>Lady H.</speaker>
+      <p>Certainly.</p>
+     </sp>
+     <sp who="#L0770_F11">
+      <speaker>Mary.</speaker>
+      <stage>(to TOMMY)</stage>
+      <p>A word with you, poor Tommy. Suppose you had a hundred sovereigns, what would you do with
+       them?</p>
+     </sp>
+     <sp who="#L0770_M5">
+      <speaker>Tom.</speaker>
+      <p>Oh! Tommy buy a great big waggon full of lucifer matches, and make his fortune, and then
+       poor Tommy never come to the workhouse—not likely, not likely.</p>
+     </sp>
+     <sp who="#L0770_F11">
+      <speaker>Mary.</speaker>
+      <p>Then here is the money for you.</p>
+     </sp>
+     <sp who="#L0770_F10">
+      <speaker>Lady H.</speaker>
+      <p>Mary!</p>
+     </sp>
+     <sp who="#L0770_M1">
+      <speaker>Lord H.</speaker>
+      <p>Noble, generous girl!</p>
+     </sp>
+     <sp who="#L0770_M5">
+      <speaker>Tom.</speaker>
+      <p>A hundred sovereigns!—this bit of paper one hundred canary birds! Tommy got a good strong
+       cage to put 'em in. <stage>(puts the bank note into a tobacco box, which he deposits in his
+        pocket)</stage> Thank you, my lord, and my lady, and Mary too. Poor Tommy now be one day
+       Lord Mayor of London, with a hundred canary birds in his cage. If they offer to make him
+       Mayor of Ashford, he wouldn't accept the office—not likely, not likely.</p>
+     </sp>
+     <sp who="#L0770_F11">
+      <speaker>Mary.</speaker>
+      <p>I will now, if you will permit me, see this poor
+       <pb n="26"/> fellow to a place of safety for the night; for, with that bank note about
+       him—</p>
+     </sp>
+     <sp who="#L0770_M1">
+      <speaker>Lord H.</speaker>
+      <p>He must remain here.</p>
+     </sp>
+     <sp who="#L0770_F10">
+      <speaker>Lady H.</speaker>
+      <p>Certainly.</p>
+     </sp>
+     <sp who="#L0770_M5">
+      <speaker>Tom.</speaker>
+      <p>Certainly not, my lady—not till I have bought that beautiful new second-hand sixpenny coat,
+       to make me a swell. Couldn't think of sitting down to dinner and supper with your lordship
+       while I am in these rags, and my pockets full of lucifers—not likely, not likely.</p>
+     </sp>
+     <sp who="#L0770_F11">
+      <speaker>Mary.</speaker>
+      <stage>(to LORD HARLESDON)</stage>
+      <p>Pray do not press him, for Tommy is very obstinate.</p>
+     </sp>
+     <sp who="#L0770_M1">
+      <speaker>Lord H.</speaker>
+      <stage>(smiling)</stage>
+      <p>I should have felt honoured—but I have done.</p>
+     </sp>
+     <sp who="#L0770_F10">
+      <speaker>Lady H.</speaker>
+      <p>Mary, come with us but for a moment; there is something important we would say to you.</p>
+     </sp>
+     <sp who="#L0770_F11">
+      <speaker>Mary.</speaker>
+      <p>Yes, my lady. Remain here, Tommy—I shall presently return to you. <stage>Exeunt,
+       R.</stage></p>
+     </sp>
+     <sp who="#L0770_M5">
+      <speaker>Tom.</speaker>
+      <p>To be sure I'll remain. What a nice girl she is! She wouldn't have me for a husband I know,
+       so I shan't ask her—not likely, not likely. But a rich man can't do without a wife. I'll go
+       and look for a wife.</p>
+     </sp>
+     <stage>Enter JEMIMA, R.</stage>
+     <sp who="#L0770_F12">
+      <speaker>Jemima.</speaker>
+      <p>The dear child is fast asleep already.</p>
+     </sp>
+     <sp who="#L0770_M5">
+      <speaker>Tom.</speaker>
+      <p>You want a husband, don't you? <stage>(taking hold of her)</stage> Then come and marry me
+       directly; come along.</p>
+     </sp>
+     <sp who="#L0770_F12">
+      <speaker>Jemima.</speaker>
+      <p>Gracious! don't be violent! Do you want to murder me?</p>
+     </sp>
+     <sp who="#L0770_M5">
+      <speaker>Tom.</speaker>
+      <p>Murder you?—la, no! only marry you. Come along.</p>
+     </sp>
+     <sp who="#L0770_F12">
+      <speaker>Jemima.</speaker>
+      <p>If you touch me again, I'll screech.</p>
+     </sp>
+     <sp who="#L0770_M5">
+      <speaker>Tom.</speaker>
+      <p>Do you know who I am?</p>
+     </sp>
+     <sp who="#L0770_F12">
+      <speaker>Jemima.</speaker>
+      <p>Yes, Mary Price has told me you are a fool.</p>
+     </sp>
+     <sp who="#L0770_M5">
+      <speaker>Tom.</speaker>
+      <p>No, I ain't; I was yesterday, but I ain't to-day, 'cause I've got plenty of money. You
+       won't refuse a rich husband, I know—not likely, not likely.</p>
+     </sp>
+     <sp who="#L0770_F12">
+      <speaker>Jemima.</speaker>
+      <stage>(aside)</stage>
+      <p>If he wasn't an idiot, I should think he was the young nobleman in the carriage, that that
+       wicked old gipsy told me about.</p>
+     </sp>
+     <sp who="#L0770_M5">
+      <speaker>Tom.</speaker>
+      <p>Now, come to the pint at once—will you marry me and a hundred canary birds?</p>
+     </sp>
+     <sp who="#L0770_F12">
+      <speaker>Jemima.</speaker>
+      <p>Marry a hundred canary birds—what an extraordinary idea! But perhaps he's a bird fancier,
+       and that's what he means.</p>
+     </sp>
+     <sp who="#L0770_M5">
+      <speaker>Tom.</speaker>
+      <p>Many gals despises a man, but they falls in love with, and marries the canary birds;
+       although very often after marriage they soon gets tired of the music. Last time of asking,
+       will you marry—
+       <pb n="27"/></p>
+     </sp>
+     <sp who="#L0770_F12">
+      <speaker>Jemima.</speaker>
+      <p>What, you? a regular idiot—not exactly.</p>
+     </sp>
+     <sp who="#L0770_M5">
+      <speaker>Tom.</speaker>
+      <p>And I ain't a going to marry a gal with such a snub nose as you have got, not likely, not
+       likely. <stage>Runs off, L.</stage></p>
+     </sp>
+     <sp who="#L0770_F12">
+      <speaker>Jemima.</speaker>
+      <p>Ah! <stage>(screaming)</stage> a snub nose! Oh, the villain! why only this morning, our
+       baker told me it was a Roman, and when I told our cook, she said he meant a rum un, and
+       now—but I don't care, I knows I has a nose, and that's enough for me. <stage>Exit,
+       R.</stage></p>
+     </sp>
+    </div>
+    <div type="scene" n="3">
+     <head>SCENE THIRD.— Street, Night. (2nd grooves)</head>
+     <stage>Enter BILL and NICK with a cloak on his arm, L.</stage>
+     <sp who="#L0770_M6">
+      <speaker>Nick.</speaker>
+      <p>She don't stir out of doors.</p>
+     </sp>
+     <sp who="#L0770_M7">
+      <speaker>Bill.</speaker>
+      <p>Wait a bit; if she don't come out of her own accord, a message that her brother is waiting
+       here to see her, will bring her out like one o'clock.</p>
+     </sp>
+     <sp who="#L0770_M6">
+      <speaker>Nick.</speaker>
+      <p>Bill, you've a real genus for invention. I never knowed sich a clever chap, blest if ever I
+       did.</p>
+     </sp>
+     <stage>Enter LORD CLAVERING hastily, R.</stage>
+     <sp who="#L0770_M2">
+      <speaker>Lord C.</speaker>
+      <p>Fortune befriends us, my fine fellows; Mary Price is now coming this way.</p>
+     </sp>
+     <sp who="#L0770_M7">
+      <speaker>Bill.</speaker>
+      <p>Alone?</p>
+     </sp>
+     <sp who="#L0770_M2">
+      <speaker>Lord C.</speaker>
+      <p>No, that idiot fellow is with her; best first be rid of him, or he may prove an obstacle to
+       your purpose.</p>
+     </sp>
+     <sp who="#L0770_M6">
+      <speaker>Nick.</speaker>
+      <p>Right, for he is as cunning as a fox.</p>
+     </sp>
+     <sp who="#L0770_M7">
+      <speaker>Bill.</speaker>
+      <stage>(rubbing his head)</stage>
+      <p>And as strong as the devil.</p>
+     </sp>
+     <sp who="#L0770_M2">
+      <speaker>Lord C.</speaker>
+      <p>The post chaise is yonder. <stage>(pointing L.)</stage> I have clearly explained to you the
+       road to the White Cottage, and remember you will proceed in this as quietly as possible.</p>
+     </sp>
+     <sp who="#L0770_M7">
+      <speaker>Bill.</speaker>
+      <p>We'll manage it, never fear.</p>
+     </sp>
+     <sp who="#L0770_M6">
+      <speaker>Nick.</speaker>
+      <p>And give your lordship every satisfaction. If she should squall too loud, with this ere
+       cloak we'll clap an extinguisher on her cries.</p>
+     </sp>
+     <sp who="#L0770_M2">
+      <speaker>Lord C.</speaker>
+      <stage>(crosses, L.)</stage>
+      <p>Conceal yourselves. See, Mary comes. Secure your prize, and you may reckon on a noble
+       recompense. I'll on before and make preparation for the reception of my lovely victim—for the
+       girl, at every hazard, shall be mine. <stage>Exit, L. 1 E.</stage></p>
+     </sp>
+     <stage>(Music. BILL and NICK conceal themselves, L. 2 E.) Enter MARY and TOMMY, R. 1 E.</stage>
+     <sp who="#L0770_F11">
+      <speaker>Mary.</speaker>
+      <p>I am sorry you would not remain to-night at his lordship's mansion.</p>
+     </sp>
+     <sp who="#L0770_M5">
+      <speaker>Tom.</speaker>
+      <p>Too grand, bed's too soft for poor Tommy—shouldn't find it so comfortable as a cow shed—not
+       likely, not likely.</p>
+     </sp>
+     <sp who="#L0770_F11">
+      <speaker>Mary.</speaker>
+      <p>You have your money safe?
+       <pb n="28"/></p>
+     </sp>
+     <sp who="#L0770_M5">
+      <speaker>Tom.</speaker>
+      <p>Yes; in backey box.</p>
+     </sp>
+     <sp who="#L0770_F11">
+      <speaker>Mary.</speaker>
+      <p>Mind you take care of it. But, tell me, where do you mean to sleep to-night?</p>
+     </sp>
+     <sp who="#L0770_M5">
+      <speaker>Tom.</speaker>
+      <p>Easy to find a lodging. All doors fly open to poor Tommy, now he's got plenty o' money.
+       Now, ain't that very odd, Mary? When poor Tommy wanted a friend, he couldn't find one—and now
+       he don't want 'em, they're as plentiful as blackberries—and poor Tommy won't go without a
+       lodging, with a hundred canary birds in his pocket—not likely, not likely.</p>
+     </sp>
+     <sp who="#L0770_F11">
+      <speaker>Mary.</speaker>
+      <p>Still, it might not be safe to shew your money, so observe, Tommy, <stage>(taking him to R.
+        2 E.)</stage> at the corner of yonder street, <stage>(pointing)</stage> is a small coffee
+       house, kept by honest, respectable people, with whom I am well acquainted. Go there —say that
+       you come at my recommendation, and you will find great comfort for yourself, and perfect
+       safety for your treasure.</p>
+     </sp>
+     <sp who="#L0770_M5">
+      <speaker>Tom.</speaker>
+      <p>La, Mary, you are as good as a mother to me. Goodnight, Mary. I wish you were old enough to
+       be Tommy's mother, in right-down earnest, for poor Tommy can't remember his real mother—not
+       the least bit in the world he don't—and the boys used to tell Tommy that he never had a
+       mother; but he didn't believe 'em, he didn't—not likely, not likely. <stage>Exit, R. 2
+        E.</stage></p>
+     </sp>
+     <sp who="#L0770_F11">
+      <speaker>Mary.</speaker>
+      <stage>(looking after him)</stage>
+      <p>Poor fellow! If his mind were equal to his heart, what a noble creature he would be.
+        <stage>(BILL and NICK appear, L. 2 E.)</stage> Now I must return. <stage>(comes forward
+        —BILL slips behind her, and places himself R. 1 E.)</stage> I hope he will not forget his
+       lordship's request that he should be at the mansion early in the morning. It is, I know, my
+       master's intention to prove a benefactor to poor Tommy. <stage>(going, R., encounters
+        BILL—starting)</stage> Ah!</p>
+     </sp>
+     <sp who="#L0770_M7">
+      <speaker>Bill.</speaker>
+      <p>Good evening, Miss Mary Price. So you were the gipsy gal that helped to walk off with the
+       babby?—I shan't forget the hobligation I owes you.</p>
+     </sp>
+     <sp who="#L0770_F11">
+      <speaker>Mary.</speaker>
+      <p>Let me pass.</p>
+     </sp>
+     <sp who="#L0770_M7">
+      <speaker>Bill.</speaker>
+      <p>And that ere idiot, Tommy, has got the money what ought to ha' been the reward of my honest
+       industry.</p>
+     </sp>
+     <sp who="#L0770_F11">
+      <speaker>Mary.</speaker>
+      <p>If you do not instantly let me pass—</p>
+     </sp>
+     <sp who="#L0770_M7">
+      <speaker>Bill.</speaker>
+      <p>Lucky for Master Tommy that just now I haven't got time to attend to him, or—</p>
+     </sp>
+     <sp who="#L0770_F11">
+      <speaker>Mary.</speaker>
+      <p>Ruffian! Stand aside.</p>
+     </sp>
+     <sp who="#L0770_M7">
+      <speaker>Bill.</speaker>
+      <p>No; <stage>(grasping her arm)</stage> and you will wish soon you hadn't been quite so
+       saucy.</p>
+     </sp>
+     <sp who="#L0770_F11">
+      <speaker>Mary.</speaker>
+      <stage>(calling)</stage>
+      <p>Help! Help!</p>
+     </sp>
+     <sp who="#L0770_M7">
+      <speaker>Bill.</speaker>
+      <p>Now, Nick, now.</p>
+     </sp>
+     <stage>Music.—MARY screams—NICK, hurrying forward, throws cloak over her head, and they are
+      bearing her off, L. 2 E., when TOMMY runs on, R. 2 E.</stage>
+     <pb n="29"/>
+     <sp who="#L0770_M5">
+      <speaker>Tom.</speaker>
+      <p>That was Mary Price's voice. Ah! the Bulldog has got hold of her!</p>
+     </sp>
+     <stage>Flys at BILL—NICK forces MARY off, L. 2 E. BILL and TOMMY have a fight—TOMMY is hauled
+      to the ground, and BILL hurries off, L. 2 E.</stage>
+     <sp who="#L0770_M5">
+      <speaker>Tom.</speaker>
+      <stage>(on ground)</stage>
+      <p>Tommy ain't done for yet—not likely, not likely. <stage>(rises, runs, and looks off, L. 2
+        E.)</stage> Ah!—there's a po shay, and they're forcing Mary into it—and I'll have a ride
+       behind—and take her where they will, it shall go hard but I'll follow. Ah! they're off, so
+       here goes. I've got a couple of pistols that won't fire, so I ain't a bit afraid—not likely,
+       not likely. <stage>Scampers off, L. 2 E.</stage></p>
+     </sp>
+     <stage>Music. Enter ROBERT PRICE, L. 1 E.</stage>
+     <sp who="#L0770_M4">
+      <speaker>Robert.</speaker>
+      <p>At last I have remembered the name of Mary's master, and I will go at once and see her; now
+       I can face her boldly, for the courage of an honest man is at my heart.</p>
+     </sp>
+     <stage>Enter LIEUTENANT AUBREY hastily, R. 1 E.</stage>
+     <sp who="#L0770_M3">
+      <speaker>Lieut. A.</speaker>
+      <p>Oh, infamy! not a moment must be lost.</p>
+     </sp>
+     <sp who="#L0770_M4">
+      <speaker>Robert.</speaker>
+      <p>Beg your pardon, sir; but do you happen to know the residence of Lord Harlesdon?</p>
+     </sp>
+     <sp who="#L0770_M3">
+      <speaker>Lieut. A.</speaker>
+      <stage>(quickly)</stage>
+      <p>You are going thither?</p>
+     </sp>
+     <sp who="#L0770_M4">
+      <speaker>Robert.</speaker>
+      <p>Yes, sir.</p>
+     </sp>
+     <sp who="#L0770_M3">
+      <speaker>Lieut. A.</speaker>
+      <p>Then, will you be good enough to tell him that Mary Price has been forcibly carried away
+       by—</p>
+     </sp>
+     <sp who="#L0770_M4">
+      <speaker>Robert.</speaker>
+      <p>My sister!</p>
+     </sp>
+     <sp who="#L0770_M3">
+      <speaker>Lieut. A.</speaker>
+      <p>Your sister! Mary Price?</p>
+     </sp>
+     <sp who="#L0770_M4">
+      <speaker>Robert.</speaker>
+      <p>Yes; and give her back to me, or I'll tear your heart out.</p>
+     </sp>
+     <sp who="#L0770_M3">
+      <speaker>Lieut. A.</speaker>
+      <p>You know not what you say. I love your sister—would not do her wrong for all the
+       world—would give my life for her defence.</p>
+     </sp>
+     <sp who="#L0770_M4">
+      <speaker>Robert.</speaker>
+      <p>I—I beg your pardon, sir; but where is she—what does it all mean? Tell me, or I shall go
+       crazy.</p>
+     </sp>
+     <sp who="#L0770_M3">
+      <speaker>Lieut. A.</speaker>
+      <p>Ruffians, employed by a callous libertine, are even now bearing Mary Price to an abode
+       which, if not speedily rescued, she will never leave with honour !</p>
+     </sp>
+     <sp who="#L0770_M4">
+      <speaker>Robert.</speaker>
+      <p>Where is that place—do you not know?</p>
+     </sp>
+     <sp who="#L0770_M3">
+      <speaker>Lieut. A.</speaker>
+      <p>Yes; for a bribe, a valet, formerly in my service, has betrayed his master. A messenger to
+       acquaint Lord Harlesdon of poor Mary's capture; and then, fast as four horses can travel, you
+       and I, my brave fellow, will hasten to the rescue of your sister.</p>
+     </sp>
+     <sp who="#L0770_M4">
+      <speaker>Robert.</speaker>
+      <p>Heaven bless you, sir—heaven bless you. If I were worthy to shake your hand—</p>
+     </sp>
+     <pb n="30"/>
+     <sp who="#L0770_M3">
+      <speaker>Lieut. A.</speaker>
+      <stage>(giving his hand)</stage>
+      <p>You are Mary's brother—that is full and ample claim to my friendship.</p>
+     </sp>
+     <sp who="#L0770_M4">
+      <speaker>Robert.</speaker>
+      <p>And I won't disgrace it, sir—believe that. And now, sir, let us hasten to the rescue of
+       poor Mary; and woe betide the men who have dared to lay violent hands upon her. If I but get
+       a fair grasp of their throats, Jack Ketch will be robbed of some of his perquisites!
+        <stage>Exeunt, L. 2 E.</stage></p>
+     </sp>
+    </div>
+    <div type="scene" n="4">
+     <head>SCENE FOURTH.—Interior of White Cottage, door C.—window, R.</head>
+     <stage>MOTHER LEE discovered, seated.</stage>
+     <sp who="#L0770_F13">
+      <speaker>Mother L.</speaker>
+      <p>'Twas very kind of Bill Bulldog and his pal to get me the housekeeper's place here at the
+       White Cottage, after I lost the child, through going to sleep, and taking a drop too
+       much—that's a shocking habit, and I'll take very little for the future. <stage>(pulls a
+        bottle out of her pocket)</stage> very little, <stage>(drinks)</stage> only a drop in
+       moderation. <stage>(drinks)</stage> So Mary is coming. Ah, bless me! what it is to be young
+       and handsome; now it would be a long time before a noble gentleman would take the trouble to
+       run away with me. No matter, so I get well paid, and a little drop of comfort, I am
+       content.</p>
+     </sp>
+     <sp who="#L0770_M7">
+      <speaker>Bill.</speaker>
+      <stage>(without)</stage>
+      <p>Halloa! Mother Lee, Mother Lee!</p>
+     </sp>
+     <sp who="#L0770_F13">
+      <speaker>Mother L.</speaker>
+      <p>As I live, here they are. <stage>(throws open C. door)</stage></p>
+     </sp>
+     <stage>Music.—Enter BILL BULLDOG carrying MARY still covered with the cloak, C., NICK SAWBRIDGE
+      follows; they place her on a chair, and remove the cloak, she is insensible.</stage>
+     <sp who="#L0770_F13">
+      <speaker>Mother L.</speaker>
+      <p>Mercy upon me! why the girl is dead, she is suffocated.</p>
+     </sp>
+     <sp who="#L0770_M6">
+      <speaker>Nick.</speaker>
+      <p>Then we shall lose the reward—how cursed unlucky; first a hundred pounds for that ere
+       blessed babby, and now as much or more for the pretty Mary. Oh, Bill, you villain! how could
+       you have the heart to smother the poor gal?</p>
+     </sp>
+     <sp who="#L0770_M7">
+      <speaker>Bill.</speaker>
+      <p>Hold your tongue, will you, you're just as deep in the mud as I am in the mire. Don't stand
+       there gaping, Mother Lee, like a fool, but fan the gal, and give her air. <stage>(this is
+        done and MARY moves)</stage></p>
+     </sp>
+     <sp who="#L0770_M7">
+      <speaker>Bill.</speaker>
+      <p>There now, she is coming to, and we'll go off; Mother Lee will manage her best.</p>
+     </sp>
+     <sp who="#L0770_M6">
+      <speaker>Nick.</speaker>
+      <p>Besides, delicacy, you know, that's what I considers.</p>
+     </sp>
+     <sp who="#L0770_M7">
+      <speaker>Bill.</speaker>
+      <p>Yes, you always was a delicate chicken. <stage>Exeunt, C. D.</stage></p>
+     </sp>
+     <sp who="#L0770_F13">
+      <speaker>Mother L.</speaker>
+      <p>Dear me, I'm frightened! she glares so wildly, that I think she has lost her wits; she
+       certainly is mad, I'll run and call his lordship. <stage>Exit, C. D.</stage></p>
+     </sp>
+     <sp who="#L0770_F11">
+      <speaker>Mary.</speaker>
+      <p>My lord, my lady, why am I treated thus? Is this my reward for rescuing your child! And
+       you, my fellow servants, to stand by and see me nearly murdered—quick,
+       <pb n="31"/> Jemima, open the window—give me air—I choke—that's right, good girl, I thank
+       you—wider, wider! <stage>(slowly recovering)</stage></p>
+     </sp>
+     <stage>Re-enter MOTHER LEE with LORD CLAVERING, C. door.</stage>
+     <sp who="#L0770_F13">
+      <speaker>Mother L.</speaker>
+      <p>Yes, your lordship, she is quite deranged, see how wildly she glares.</p>
+     </sp>
+     <sp who="#L0770_M2">
+      <speaker>Lord C.</speaker>
+      <stage>(R.)</stage>
+      <p>She has been too roughly treated by those fellows, but will presently recover. Speak to
+       her.</p>
+     </sp>
+     <sp who="#L0770_F13">
+      <speaker>Mother L.</speaker>
+      <stage>(L.)</stage>
+      <p>You are quite safe, Mary; don't be frightened.</p>
+     </sp>
+     <sp who="#L0770_F11">
+      <speaker>Mary.</speaker>
+      <p>See, the clouds expand, and from heaven descends an angel form—it hovers o'er my head—joy!
+       it is my mother! She comes to guard her child! Oh! bliss unutterable!</p>
+     </sp>
+     <sp who="#L0770_M2">
+      <speaker>Lord C.</speaker>
+      <p>This is becoming wearisome.</p>
+     </sp>
+     <sp who="#L0770_F11">
+      <speaker>Mary.</speaker>
+      <stage>(turning towards LORD CLAVERING and shuddering)</stage>
+      <p>What demon form is that? Do not leave me, mother! stay— protect your child! Oh! she is
+       gone—gone; and I am alone— helpless, defenceless. Oh! mercy, heaven, mercy!</p>
+     </sp>
+     <sp who="#L0770_F13">
+      <speaker>Mother L.</speaker>
+      <p>Pray don't take on so: you are with friends.</p>
+     </sp>
+     <sp who="#L0770_F11">
+      <speaker>Mary.</speaker>
+      <p>Friends! Where are they—and what place is this? My wandering thoughts begin again to
+       rally—reason returns! Where are the murderers who dragged me hither?—who have so nearly slain
+       me, in the effort to stifle my cries for aid and succour.</p>
+     </sp>
+     <sp who="#L0770_M2">
+      <speaker>Lord C.</speaker>
+      <p>It shall be my task to punish them, charming girl. <stage>MOTHER LEE goes off, c.
+        door.</stage></p>
+     </sp>
+     <sp who="#L0770_F11">
+      <speaker>Mary.</speaker>
+      <stage>(sees him and recoils)</stage>
+      <p>Ah! Clavering! Oh! now and too well do I understand. This is thy den of infamy; but you
+       shall not hold me; I will shriek for aid. Help!—in heaven's name—help! help!</p>
+     </sp>
+     <sp who="#L0770_M2">
+      <speaker>Lord C.</speaker>
+      <p>You will but awake the forest echoes.</p>
+     </sp>
+     <sp who="#L0770_F11">
+      <speaker>Mary.</speaker>
+      <p>Cowardly libertine! I scorn and defy you now, as oft before. The innocent are ever under
+       heaven's protection; but for guilty wretches like to thee, sooner or later the thunder of its
+       wrath descends.</p>
+     </sp>
+     <sp who="#L0770_M2">
+      <speaker>Lord C.</speaker>
+      <p>More charming than ever in your heroics, Mary Price! I have long adored you; fairly you
+       would not be won; so thank yourself, if you dislike the means by which at last I have secured
+       you.</p>
+     </sp>
+     <sp who="#L0770_F11">
+      <speaker>Mary.</speaker>
+      <p>And you are a lord—by birth a ruler of us common people. Most fit and worthy are you to
+       govern others!—learn first to govern and control your own vile nature! O, my lord—born to
+       wealth and power—what a pity there was not also some hereditary virtue to which you might
+       succeed!</p>
+     </sp>
+     <sp who="#L0770_M2">
+      <speaker>Lord C.</speaker>
+      <p>Insolent girl! I will bend your haughty spirit, and, maybe, break your heart. Be wise, and
+       give yourself willingly to my arms; for having gone so far, I shall not stop till you are
+       wholly mine.</p>
+     </sp>
+     <pb n="32"/>
+     <sp who="#L0770_F11">
+      <speaker>Mary.</speaker>
+      <p>Be warned—there are laws.</p>
+     </sp>
+     <sp who="#L0770_M2">
+      <speaker>Lord C.</speaker>
+      <p>I defy them; and since persuasion will avail me nothing, thus I— <stage>(darting towards
+        her)</stage></p>
+     </sp>
+     <sp who="#L0770_F11">
+      <speaker>Mary.</speaker>
+      <p>Help! help! Will no one aid me?</p>
+     </sp>
+     <stage>Music. She flys past him, and towards door—as she reaches it, a loud noise of voices and
+      knocking without— LORD CLAVERING and MARY both are suddenly fixed—tableau</stage>
+     <sp who="#L0770_M2">
+      <speaker>Lord C.</speaker>
+      <p>Ah! what means—</p>
+     </sp>
+     <sp who="#L0770_F11">
+      <speaker>Mary.</speaker>
+
+      <p>It means, villain, <stage>(returning and confronting him)</stage> that heaven, as I said,
+       protects the innocent;—rescue is at hand, and the moment of your punishment arrived!</p>
+     </sp>
+     <sp who="#L0770_M2">
+      <speaker>Lord C.</speaker>
+      <stage>(hurrying up)</stage>
+      <p>It is impossible that—</p>
+     </sp>
+     <stage>The C. door is dashed open, and BILL and NICK hastily enter.</stage>
+     <sp who="#L0770_M7">
+      <speaker>Bill.</speaker>
+      <stage>(C.)</stage>
+      <p>My lord—my lord, the cottage is surrounded—</p>
+     </sp>
+     <sp who="#L0770_F11">
+      <speaker>Mary.</speaker>
+      <stage>(R.)</stage>
+      <p>Ah, villain—what think you now?</p>
+     </sp>
+     <sp who="#L0770_M2">
+      <speaker>Lord C.</speaker>
+      <stage>(L.)</stage>
+      <p>Search as they may, they shall not find you Mary Price; there are secure hiding places
+       here—raise yonder trap.</p>
+     </sp>
+     <stage>Music. BILL and NICK look, and perceiving ring, raise small trap, R. C., when TOMMY pops
+      his head up, presenting brace of pistols</stage>
+     <sp who="#L0770_M5">
+      <speaker>Tom.</speaker>
+      <p>Lie down, Bulldog!</p>
+     </sp>
+     <stage>LORD CLAVERING and MEN are fixed to the spot—MARY sinks on one knee, with hands
+      upraised—tableau</stage>
+     <sp who="#L0770_M5">
+      <speaker>Tom.</speaker>
+      <p>You didn't expect to see such a jack-in-the-box, did you—not likely, not likely!</p>
+     </sp>
+     <sp who="#L0770_M7">
+      <speaker>Bill.</speaker>
+      <p>How the devil did you get there?</p>
+     </sp>
+     <sp who="#L0770_M5">
+      <speaker>Tom.</speaker>
+      <p>Through a rat-hole! The cellar had got a little window, and Tommy can creep in
+       anywhere.</p>
+     </sp>
+     <sp who="#L0770_M2">
+      <speaker>Lord C.</speaker>
+      <stage>(L.)</stage>
+      <p>Kill him! kill him!</p>
+     </sp>
+     <sp who="#L0770_M5">
+      <speaker>Tom.</speaker>
+      <p>I ain't a going to let 'em—not likely, not likely !</p>
+     </sp>
+     <sp who="#L0770_F11">
+      <speaker>Mary.</speaker>
+      <stage>(going to TOMMY)</stage>
+      <p>Give me one of those pistols?</p>
+     </sp>
+     <sp who="#L0770_M5">
+      <speaker>Tom.</speaker>
+      <p>Bless you, they are no use to you—they ain't loaded.</p>
+     </sp>
+     <sp who="#L0770_M7">
+      <speaker>Bill.</speaker>
+      <p>Ah!</p>
+     </sp>
+     <stage>Music. The two MEN seize TOMMY, and drag him up trap—LORD CLAVERING makes over to R.,
+      and seizes MARY, who screams—at this moment a loud crash without—all start—TOMMY breaks away,
+      and running up throws open the c. door, when LIEUTENANT AUBREY and ROBERT rush on—LIEUTENANT
+      AUBREY seizes NICK, R. C.; ROBERT, BILL, L.; and TOMMY, strutting across, presents
+      <pb n="33"/> his pistols at LORD CLAVERING, R. all the characters enter—MARY flies to LADY
+      HARLESDON, who embraces her, C.—OFFICERS follow—tableau</stage>
+     <sp who="#L0770_M5">
+      <speaker>Tom.</speaker>
+      <p>I've got you—but I ain't a going to shoot you—not likely, not likely! <stage>(CONSTABLES
+        secure BILL and NICK)</stage></p>
+     </sp>
+     <sp who="#L0770_M4">
+      <speaker>Robert.</speaker>
+      <stage>(R. C.)</stage>
+      <p>Titled ruffian, dearly shall you rue this outrage.</p>
+     </sp>
+     <sp who="#L0770_M1">
+      <speaker>Lord H.</speaker>
+      <stage>(L. C., to OFFICERS)</stage>
+      <p>Arrest his lordship too; and I will answer for it, he shall not evade the power of the
+       law.</p>
+     </sp>
+     <sp who="#L0770_M5">
+      <speaker>Tom.</speaker>
+      <p>And mind you muzzle the Bulldog, else he'll bite you—very likely, very likely!</p>
+     </sp>
+     <sp who="#L0770_M2">
+      <speaker>Lord C.</speaker>
+      <p>Adieu, grandpapa—beware of your pretty wife when I am again at liberty.</p>
+     </sp>
+     <sp who="#L0770_F10">
+      <speaker>Lady H.</speaker>
+      <p>Wretch!</p>
+     </sp>
+     <stage>Music. LORD CLAVERING, BILL, and NICK are taken off, c.</stage>
+     <sp who="#L0770_M3">
+      <speaker>Lieut. A.</speaker>
+      <p>Mary, you well know that I love you—will you become my wife?</p>
+     </sp>
+     <sp who="#L0770_F11">
+      <speaker>Mary.</speaker>
+      <p>Oh! can I be indeed so blest—so honoured!</p>
+     </sp>
+     <sp who="#L0770_M3">
+      <speaker>Lieut. A.</speaker>
+      <p>Nay, I am but a lieutenant; and your virtues, Mary, would grace a coronet!</p>
+     </sp>
+     <sp who="#L0770_M4">
+      <speaker>Robert.</speaker>
+      <p>Dear sister !</p>
+     </sp>
+     <sp who="#L0770_M5">
+      <speaker>Tom.</speaker>
+      <p>You won't forget to ask me to the wedding—not likely, not likely!</p>
+     </sp>
+     <sp who="#L0770_F11">
+      <speaker>Mary.</speaker>
+      <p>Thus then end my trials. To the gentlemen I need not appeal, for I am certain of their
+       sympathy; and those of my own sex, who are, like myself, of lowly birth and state, will see
+       how honesty and integrity may be rewarded; and will derive hope and confidence from the
+       eventful career of MARY PRICE, THE SERVANT GIRL.</p>
+     </sp>
+     <stage>PEOPLE. PEOPLE. TOMMY. AUBREY. MARY. LADY H. LORD H. ROBERT. R. L.</stage>
+     <stage>Curtain.</stage>
+     <p>Printed by Thomas Scott 1, Warwick Court, Holborn.</p>
+    </div>
+   </div>
+  </body>
+  <back>
+   <pb n="34"/>
+   <head>MARY PRICE.</head>
+   <head>Scenery and Incidents.</head>
+   <div type="act" n="1">
+    <head>ACT I.</head>
+    <p>Scene 1.—THE DOG &amp; DUCK, ASHFORD. An interesting conversation, shewing how vice and
+     wickedness may be found in rural places. THE TEMPTATION AND THE WARNING! Mary Price steps out
+     of her way to do a good action—Brother and sister—A contrast—Tommy talks like a fool and acts
+     like a wise man.</p>
+    <p>Scene 2.—A NOBLEMAN'S MANSION. An uncongenial marriage—What results from Mary Price's return
+     to London.</p>
+    <p>Scene 3.—HYDE PARK. The fortune teller and the nursery maid—a case of kidnapping— Tommy sets
+     up in trade—Grief enters the lordly mansion—Noble devotion of Mary Price—An idiot's
+     cunning—Hope for the bereaved.</p>
+    <p>Scene 4.—The Tramper's Arms, St. Giles's. Robert Price having reached London is now on the
+     road to ruin— The old gipsy and the stolen child—Mary Price proves that she has a brave heart,
+     and Tommy gives ample evidence that he is not such a fool as he looks—The stratagem and the
+     escape—The most hazardous adventure that has yet befallen the servant girl—A fool's wit and an
+     idiot's courage—A desperate encounter—The Bulldog in a fix—Tommy a hero and a conqueror.</p>
+   </div>
+   <div type="act" n="2">
+    <head>ACT II.</head>
+    <p>Scene 1.—A STREET. Robert Price seeing danger before him wisely retraces his steps— Low
+     ruffians and a polished rascal—Danger once more threatens Mary Price.</p>
+    <p>Scene 2.—CHAMBER AT LORD HARLESDON'S. Happiness once more an inmate of the lordly mansion—A
+     great lady's gratitude and a poor servant girl's generosity—The lost child restored to its
+     mother's arms—Tommy a gentleman and a man of property—A rejected proposal of marriage—A hundred
+     canary birds!</p>
+    <p>Scene 3. STREET AT THE WEST-END. The thieves robbed of one job find another—Abduction of Mary
+     Price—Tommy to the rescue!</p>
+    <p>Scene 4. THE WHITE COTTAGE. Mary Price's worst adventure—Narrow escape from death—Courage to
+     the last—Hope on, hope ever—Tommy appears very strangely and very unexpectedly—Housebreaking by
+     honest people, and the rogues, high and low, entrapped at last—The virtues of the poor servant
+     girl receive their well-merited reward—Tommy in great luck —and termination of the sorrows and
+     adventures of Mary Price.</p>
+   </div>
+  </back>
+ </text>
+</TEI>
