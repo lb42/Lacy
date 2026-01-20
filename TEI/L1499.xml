@@ -1,33 +1,72 @@
-<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L1499">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L1499">
  <teiHeader>
   <fileDesc>
-   <titleStmt><title>: TEI edition</title><author>Merivale, H.C.</author><respStmt><resp>TEI conversion</resp><name>Lou Burnard</name></respStmt></titleStmt>
-   <publicationStmt><distributor>Privately distributed by the Digital Lacy Project</distributor><idno type="LAE">L1499</idno><availability><licence target="https://creativecommons.org/publicdomain/zero/1.0/">The Lacy Project waives all rights to the TEI encoding applied to this material, which is believed to be in the public domain. You may copy, modify, distribute and perform this work freely. </licence></availability></publicationStmt>
-   <sourceDesc><bibl type="origin" n="100.14"><author>Merivale, H.C.</author><title type="main" n="ahusbandinclover">A Husband in Clover</title><title type="sub">A Farce in one
-       act</title><extent>17 pp<measure type="pp" quantity="17"/>
-  <measure type="spCount" quantity="236"/>
-  <measure type="spvCount" quantity="4"/>
-  <measure type="txWords" quantity="5533"/>
-  <measure type="spWords" quantity="4124"/>
-  <measure type="stWords" quantity="1409"/>
-  </extent>
-      <title level="s"> Lacy's Acting Edition, volume 100, No. 1499</title><idno type="nic">N15765</idno></bibl><bibl type="surrogate" subtype="copytext"><ref target="https://hdl.handle.net/2027/uiug.30112067297652">UIU
-       from HT</ref></bibl><listEvent>
-      <event type="firstPerf" when="1873-12-26" source="textNic" where="Lyceum">
-       <desc>Premiered at Royal Lyceum Theatre 26 Dec. 1873</desc>
-      </event>
-     </listEvent></sourceDesc>
+   <titleStmt>
+    <title>A Husband in Clover: TEI edition</title>
+    <author>Merivale, H.C.</author>
+    <respStmt>
+     <resp>TEI conversion</resp>
+     <name>Lou Burnard</name>
+    </respStmt>
+   </titleStmt>
+   <publicationStmt>
+    <distributor>Privately distributed by the Digital Lacy Project</distributor>
+    <idno type="LAE">L1499</idno>
+    <availability>
+     <licence target="https://creativecommons.org/publicdomain/zero/1.0/">The Lacy Project waives
+      all rights to the TEI encoding applied to this material, which is believed to be in the public
+      domain. You may copy, modify, distribute and perform this work freely. </licence>
+    </availability>
+   </publicationStmt>
+   <sourceDesc>
+    <bibl type="origin" n="100.14"><author>Merivale, H.C.</author><title type="main"
+      n="ahusbandinclover">A Husband in Clover</title><title type="sub">A Farce in one
+      act</title><extent>17 pp<measure type="pp" quantity="17"/>
+      <measure type="spCount" quantity="236"/>
+      <measure type="spvCount" quantity="4"/>
+      <measure type="txWords" quantity="5533"/>
+      <measure type="spWords" quantity="4124"/>
+      <measure type="stWords" quantity="1409"/>
+     </extent>
+     <title level="s"> Lacy's Acting Edition, volume 100, No. 1499</title><idno type="nic"
+      >N15765</idno></bibl>
+    <bibl type="surrogate" subtype="copytext"><ref
+      target="https://hdl.handle.net/2027/uiug.30112067297652">UIU from HT</ref></bibl>
+    <listEvent>
+     <event type="firstPerf" when="1873-12-26" source="textNic" where="Lyceum">
+      <desc>Premiered at Royal Lyceum Theatre 26 Dec. 1873</desc>
+     </event>
+    </listEvent>
+   </sourceDesc>
   </fileDesc>
-  
-  <profileDesc><!--S 1 Farce Ca. COMEDIETTA--><textClass><catRef target="#sizeS"/><catRef target="#act1"/><catRef target="nic:Ca."/><keywords><term>COMEDIETTA</term></keywords></textClass><particDesc><listPerson>
-  <person xml:id="L1499_M1"><persName type="role">Horace</persName>
-   <persName type="spkr" n="118">Horace.</persName>
-</person>
-  <person xml:id="L1499_F2"><persName type="role">Lydia</persName>
-   <persName type="spkr" n="118">Lydia.</persName>
-</person>
 
-</listPerson></particDesc></profileDesc><revisionDesc><change when="2026-01-11">Standardize header components</change>
+  <profileDesc>
+   <!--S 1 Farce Ca. COMEDIETTA-->
+   <textClass>
+    <catRef target="#sizeS"/>
+    <catRef target="#act1"/>
+    <catRef target="nic:Ca."/>
+    <keywords>
+     <term>COMEDIETTA</term>
+    </keywords>
+   </textClass>
+   <particDesc>
+    <listPerson>
+     <person xml:id="L1499_M1">
+      <persName type="role">Horace</persName>
+      <persName type="spkr" n="118">Horace.</persName>
+     </person>
+     <person xml:id="L1499_F2">
+      <persName type="role">Lydia</persName>
+      <persName type="spkr" n="118">Lydia.</persName>
+     </person>
+
+    </listPerson>
+   </particDesc>
+  </profileDesc>
+  <revisionDesc>
+   <change when="2026-01-11">Standardize header components</change>
    <change when="2026-01-10">Metadata refreshed from catalogue and Partix folder</change>
    <change when="2025-12-31">Metadata refreshed from catalogue and Partix folder</change>
    <change when="2025-12-31">Corrected and proofed by hand</change>
