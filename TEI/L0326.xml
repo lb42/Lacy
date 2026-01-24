@@ -1,0 +1,4500 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L0326">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title>The Stranger TEI edition</title>
+    <author>Kotzebue, Augustus von</author>
+    <author>Thompson, Benjamin</author>
+    <respStmt>
+     <resp>TEI conversion</resp>
+     <name>Lou Burnard</name>
+    </respStmt>
+   </titleStmt>
+   <publicationStmt>
+    <distributor>Privately distributed by the Digital Lacy Project</distributor>
+    <idno type="LAE">L0326</idno>
+    <availability>
+     <licence target="https://creativecommons.org/publicdomain/zero/1.0/">The Lacy Project waives
+      all rights to the TEI encoding applied to this material, which is believed to be in the public
+      domain. You may copy, modify, distribute and perform this work freely. </licence>
+    </availability>
+   </publicationStmt>
+   <sourceDesc>
+    <bibl type="origin" n="22.11"><author>Kotzebue, Augustus von</author><title type="main"
+      n="thestranger">The Stranger</title><title type="sub">A Drama in five acts</title><title
+      type="source" n="#DE">Translated by Benjamin Thompson</title><extent>55 pp<measure type="pp"
+       quantity="56"/>
+      <measure type="spCount" quantity="827"/>
+      <measure type="spvCount" quantity="0"/>
+      <measure type="txWords" quantity="16759"/>
+      <measure type="spWords" quantity="15284"/>
+      <measure type="stWords" quantity="1475"/>
+     </extent>
+     <title level="s"> Lacy's Acting Edition, volume 22, No. 0326</title><idno type="nic"
+      >N80586</idno><idno type="vpp">Vol22xiStranger</idno></bibl>
+    <bibl type="surrogate" subtype="copytext"><ref
+      target="https://lb42.github.io/Lacy/Source/VPP/L0326-vpp.pdf">LoB from VPP</ref><ref
+      target="local:Vol22/L0326/L0326-vpp.pdf"/><ref target="local:Vol22/L0326/Vol22xiStranger.pdf"
+     /></bibl>
+    <bibl type="surrogate"><ref target="https://archive.org/details/strangerdramainf0000kotz">UW
+      from IA</ref><ref target="local:Vol22/L0326/L0326-uw.pdf"/></bibl>
+    <bibl type="surrogate"><ref target="https://www.gutenberg.org/ebooks/20217">Gutenberg
+      transcription</ref></bibl>
+    <bibl type="surrogate"><ref
+      target="https://babel.hathitrust.org/cgi/pt?id=mdp.39015053749829&amp;seq=401">UM from
+      HT</ref><ref target="local:Vol22/L0326/L0326-um.pdf"/></bibl>
+    <listEvent>
+     <event type="firstPerf" when="1798-03-24" source="nicTextStart" where="Drury">
+      <desc>Premiered at Theatre Royal, Drury Lane 24 March 1798</desc>
+     </event>
+    </listEvent>
+   </sourceDesc>
+  </fileDesc>
+  <profileDesc>
+   <!--L 5 Drama D. DRAMA-->
+   <textClass>
+    <catRef target="#sizeL"/>
+    <catRef target="#act5"/>
+    <catRef target="nic:D."/>
+    <keywords>
+     <term>DRAMA</term>
+    </keywords>
+   </textClass>
+   <particDesc>
+    <listPerson>
+     <person xml:id="L0326_M1">
+      <persName type="role">THE STRANGER</persName>
+      <persName type="spkr" n="152">Stran.</persName>
+      <persName type="spkr" n="1">Stranger.</persName>
+     </person>
+     <person xml:id="L0326_M2">
+      <persName type="role">BARON STEINFORT</persName>
+      <persName type="spkr" n="146">Baron.</persName>
+     </person>
+     <person xml:id="L0326_M3">
+      <persName type="role">COUNT WINTERSEN</persName>
+      <persName type="spkr" n="21">Count.</persName>
+     </person>
+     <person xml:id="L0326_M4">
+      <persName type="role">MR. SOLOMON</persName>
+      <persName type="spkr" n="57">Solom.</persName>
+      <persName type="spkr" n="1">Solomon.</persName>
+     </person>
+     <person xml:id="L0326_M5">
+      <persName type="role">PETER</persName>
+      <persName type="spkr" n="50">Peter.</persName>
+     </person>
+     <person xml:id="L0326_M6">
+      <persName type="role">FRANCIS</persName>
+      <persName type="spkr" n="147">Fran.</persName>
+      <persName type="spkr" n="1">Francis.</persName>
+     </person>
+     <person xml:id="L0326_M7">
+      <persName type="role">TOBIAS</persName>
+      <persName type="spkr" n="6">Tobi.</persName>
+      <persName type="spkr" n="13">Tobias.</persName>
+     </person>
+     <person xml:id="L0326_F8">
+      <persName type="role">MRS. HALLER</persName>
+      <persName type="spkr" n="121">Mrs. H.</persName>
+     </person>
+     <person xml:id="L0326_F9">
+      <persName type="role">COUNTESS WINTERSEN</persName>
+      <persName type="spkr" n="71">Countess.</persName>
+     </person>
+     <person xml:id="L0326_F10">
+      <persName type="role">CHARLOTTE</persName>
+      <persName type="spkr" n="33">Charl.</persName>
+     </person>
+     <person xml:id="L0326_F11">
+      <persName type="role">ANNETTE</persName>
+      <persName type="spkr" n="1">Ann.</persName>
+     </person>
+     <person xml:id="L0326_F12">
+      <persName type="role">SAVOYARD</persName>
+     </person>
+     <person xml:id="L0326_J13">
+      <persName type="role">COUNT'S CHILD</persName>
+     </person>
+     <person xml:id="L0326_J14">
+      <persName type="role">STRANGER'S SON</persName>
+     </person>
+     <person xml:id="L0326_J15">
+      <persName type="role">STRANGER'S DAUGHTER</persName>
+     </person>
+     <person xml:id="L0326_16">
+      <persName type="role">Servants, Peasants</persName>
+      <persName type="spkr" n="3">Wil.</persName>
+      <persName type="spkr" n="1">William.</persName>
+     </person>
+     <person xml:id="L0326_mult">
+      <persName type="role">[Multiple speakers]</persName>
+      <persName type="spkr" n="1">Children.</persName>
+     </person>
+
+    </listPerson>
+   </particDesc>
+  </profileDesc>
+  <revisionDesc>
+   <change when="2026-01-24">Standardize header components</change>
+   <change when="2026-01-23">Digital transcription via Gemini 2.5</change>
+  </revisionDesc>
+ </teiHeader>
+
+ <text>
+
+  <front>
+   <pb n="1"/>
+   <titlePage>
+
+    <titlePart type="main">THE STRANGER.</titlePart>
+    <titlePart type="sub">A Drama, in five acts.</titlePart>
+
+    <byline>By <docAuthor>AUGUSTUS VON KOTZEBUE</docAuthor></byline>
+    <byline>Translated by <docAuthor>BENJAMIN THOMPSON</docAuthor></byline>
+
+    <docImprint> THOMAS HAILES LACY WELLINGTON STREET, STRAND, LONDON. </docImprint>
+
+   </titlePage>
+   <pb n="2"/>
+   <performance>
+    <head>The Stranger.</head>
+    <p>First Performed at the Theatre Royal Drury Lane, on the 24th March, 1798.</p>
+    <castList>
+     <head>Characters.</head>
+     <castItem>
+      <role gender="M">THE STRANGER</role>
+      <actor>Mr. Kemble</actor>
+     </castItem>
+     <castItem>
+      <role gender="M">BARON STEINFORT</role>
+      <actor>Mr. Palmer</actor>
+     </castItem>
+     <castItem>
+      <role gender="M">COUNT WINTERSEN</role>
+      <actor>Mr. Barrymore</actor>
+     </castItem>
+     <castItem>
+      <role gender="M">MR. SOLOMON</role>
+      <actor>Mr. Wewitzer</actor>
+     </castItem>
+     <castItem>
+      <role gender="M">PETER</role>
+      <actor>Mr. Suett</actor>
+     </castItem>
+     <castItem>
+      <role gender="M">FRANCIS</role>
+      <actor>Mr. R. Palmer</actor>
+     </castItem>
+     <castItem>
+      <role gender="M">TOBIAS</role>
+      <actor>Mr. J. Aicken</actor>
+     </castItem>
+     <castItem>
+      <role gender="F">MRS. HALLER</role>
+      <actor>Mrs. Siddons</actor>
+     </castItem>
+     <castItem>
+      <role gender="F">COUNTESS WINTERSEN</role>
+      <actor>Mrs. Goodall</actor>
+     </castItem>
+     <castItem>
+      <role gender="F">CHARLOTTE</role>
+      <actor>Miss. Stuart</actor>
+     </castItem>
+     <castItem>
+      <role gender="F">ANNETTE</role>
+      <actor>Mrs. Bland</actor>
+     </castItem>
+     <castItem>
+      <role gender="F">SAVOYARD</role>
+      <actor>Miss Leake</actor>
+     </castItem>
+     <castItem>
+      <role gender="J">COUNT'S CHILD</role>
+      <roleDesc>(five years old)</roleDesc>
+      <actor>Master Webb</actor>
+     </castItem>
+     <castItem>
+      <role gender="J">STRANGER'S SON</role>
+      <roleDesc>(five years old)</roleDesc>
+      <actor>Master Stokeley</actor>
+     </castItem>
+     <castItem>
+      <role gender="J">STRANGER'S DAUGHTER</role>
+      <roleDesc>(four years old)</roleDesc>
+      <actor>Miss Beton</actor>
+     </castItem>
+     <castItem>
+      <role>Servants, Peasants</role>
+      <roleDesc>Male and Female</roleDesc>
+     </castItem>
+    </castList>
+   </performance>
+   <set>
+    <p>Time in Performance: 2 hours 15 minutes.</p>
+   </set>
+   <div type="costume">
+    <list>
+     <item>Stranger—Dark frock coat, black leather belt, dark pantaloons, black leather boots, small
+      plain collar, and black slouch bat. </item>
+     <item> Baron—Handsome military uniform, tights, and hessian boots. </item>
+     <item> Count —Blue frock coat, lined and trimmed with dark fur, tights, and hessian boots. </item>
+     <item> Solomon—First Dress: Dressing gown and cap. Second Dress: Square cut coat, long
+      waistcoat, breeches, silk stockings, shoes, and powdered wig. </item>
+     <item> Peter—Light frock coat, flowered waistcoat, breeches, and shoes. </item>
+     <item> Francis—Plain round frock, waistcoat, breeches, coloured stockings, gaiters, and shoes. </item>
+     <item> Tobias—Full brown coat, waistcoat, and breeches; grey stockings ad shoes, and grey hair. </item>
+     <item> Mrs. Haller—Plain grey silk dress. </item>
+     <item> Countess—First Dress: Velvet mantle trimmed with ermine Second Dress : Satin dres </item>
+     <item> Charlotte—-Showy silk, cap, and apron. </item>
+     <item> Savoyards—Short full stuff petticoats, velvet bodies, blue stockings, plaited hair,
+      round low crowned hats. </item>
+     <item> Count’s Child—Velvet tunic and cap </item>
+     <item> Stranger’s Children—Neat dark tunie and frock </item>
+     <item> Three Servants—Liveries.</item>
+    </list>
+   </div>
+  </front>
+
+  <body>
+
+   <div type="act">
+    <head>ACT I.</head>
+
+    <div type="scene">
+     <head>Scene I. The skirts of Count Wintersen's Park. </head>
+     <stage>The park gates in the centre, a lodge, R. 3. E., with window shutter to close; a bench
+      at door among the trees; a peasant's hut, L. U. E.</stage>
+     <stage>Enter Peter, C. from L.</stage>
+     <sp who="#L0326_M5">
+      <speaker>Peter.</speaker>
+      <p>Pooh! pooh! — never tell me: —I'm a clever lad, for all father's crying out every minute,
+       "Peter!" and "Stupid Peter." But I say, Peter is not stupid, though father will always be so
+       wise. First, "I talk too much;" then, "I talk too little;" and, if I talk a bit to myself, he
+       calls me a driveller. Now, I like best to talk to myself; for I never contradict myself; and
+       I don't laugh at myself, as other folks do. That laughing is often a plaguy teazing custom.
+       To be sure, when Mrs. Haller laughs, one can bear it well enough; there is a sweetness, even
+       in her reproof, that somehow but, lud! I had near forgot what I was sent about. —Yes, then
+       they would have laughed at me, indeed. <stage>draws a green purse from his pocket</stage>— I
+       am to carry this money to old Tobias; and Mrs. Haller said, I must be sure not to blab, or
+       say that she had sent it. Well, well, she may be easy for that matter; not a word shall drop
+       from my lips. Mrs. Haller is charming, but silly, if father is right; for father says, "He
+       that spends his money is not wise; but he that gives it away is stark mad."</p>
+     </sp>
+     <stage>Enter Stranger, from the lodge, R. 3 E., with his arms folded, his head hanging down,
+      followed by Francis.——At the sight of Peter, Stranger stops, and looks suspi
+      <pb n="4"/>ciously at him; Peter stands opposite to him, with his mouth wide open, at length
+      he takes off his hat, scrapes a bow, and goes into the hut, L. U. E.</stage>
+     <sp who="#L0326_M1">
+      <speaker>Stranger.</speaker>
+      <p><stage>R. C.</stage> Who is that?</p>
+     </sp>
+     <sp who="#L0326_M6">
+      <speaker>Francis.</speaker>
+      <p><stage>r.</stage> The steward's son.</p>
+     </sp>
+     <sp who="#L0326_M1">
+      <speaker>Stran.</speaker>
+      <p>Of the castle?</p>
+     </sp>
+     <sp who="#L0326_M6">
+      <speaker>Fran.</speaker>
+      <p>Yes.</p>
+     </sp>
+     <sp who="#L0326_M1">
+      <speaker>Stran.</speaker>
+      <p><stage>after a pause</stage> You were speaking last night</p>
+     </sp>
+     <sp who="#L0326_M6">
+      <speaker>Fran.</speaker>
+      <p>Of the old countryman?</p>
+     </sp>
+     <sp who="#L0326_M1">
+      <speaker>Stran.</speaker>
+      <p>Ay.</p>
+     </sp>
+     <sp who="#L0326_M6">
+      <speaker>Fran.</speaker>
+      <p>You would not hear me out.</p>
+     </sp>
+     <sp who="#L0326_M1">
+      <speaker>Stran.</speaker>
+      <p>Proceed.</p>
+     </sp>
+     <sp who="#L0326_M6">
+      <speaker>Fran.</speaker>
+      <p>He is poor.</p>
+     </sp>
+     <sp who="#L0326_M1">
+      <speaker>Stran.</speaker>
+      <p>Who told you so?</p>
+     </sp>
+     <sp who="#L0326_M6">
+      <speaker>Fran.</speaker>
+      <p>He, himself.</p>
+     </sp>
+     <sp who="#L0326_M1">
+      <speaker>Stran.</speaker>
+      <p><stage>with acrimony</stage> Ay, ay; he knows how to tell his story, no doubt.</p>
+     </sp>
+     <sp who="#L0326_M6">
+      <speaker>Fran.</speaker>
+      <p>And to impose you think?</p>
+     </sp>
+     <sp who="#L0326_M1">
+      <speaker>Stran.</speaker>
+      <p>Right.</p>
+     </sp>
+     <sp who="#L0326_M6">
+      <speaker>Fran.</speaker>
+      <p>This man does not.</p>
+     </sp>
+     <sp who="#L0326_M1">
+      <speaker>Stran.</speaker>
+      <p>Fool!</p>
+     </sp>
+     <sp who="#L0326_M6">
+      <speaker>Fran.</speaker>
+      <p>A feeling fool is better than a cold sceptic.</p>
+     </sp>
+     <sp who="#L0326_M1">
+      <speaker>Stran.</speaker>
+      <p>False!</p>
+     </sp>
+     <sp who="#L0326_M6">
+      <speaker>Fran.</speaker>
+      <p>Charity begets gratitude.</p>
+     </sp>
+     <sp who="#L0326_M1">
+      <speaker>Stran.</speaker>
+      <p>False!</p>
+     </sp>
+     <sp who="#L0326_M6">
+      <speaker>Fran.</speaker>
+      <p>And blesses the giver more than the receiver.</p>
+     </sp>
+     <sp who="#L0326_M1">
+      <speaker>Stran.</speaker>
+      <p>True.</p>
+     </sp>
+     <sp who="#L0326_M6">
+      <speaker>Fran.</speaker>
+      <p>Well, sir. This countryman———</p>
+     </sp>
+     <sp who="#L0326_M1">
+      <speaker>Stran.</speaker>
+      <p>Has he complained to you?</p>
+     </sp>
+     <sp who="#L0326_M6">
+      <speaker>Fran.</speaker>
+      <p>Yes.</p>
+     </sp>
+     <sp who="#L0326_M1">
+      <speaker>Stran.</speaker>
+      <p>He who is really unhappy never complains.— <stage>pauses</stage>— Francis, you have had
+       means of education beyond your lot in life, and hence you are encouraged to attempt imposing
+       on me:— But go on.</p>
+     </sp>
+     <sp who="#L0326_M6">
+      <speaker>Fran.</speaker>
+      <p>His only son has been taken from him.</p>
+     </sp>
+     <sp who="#L0326_M1">
+      <speaker>Stran.</speaker>
+      <p>Taken from him?</p>
+     </sp>
+     <sp who="#L0326_M6">
+      <speaker>Fran.</speaker>
+      <p>By the exigency of the times, for a soldier.</p>
+     </sp>
+     <sp who="#L0326_M1">
+      <speaker>Stran.</speaker>
+      <p>Ay!</p>
+     </sp>
+     <sp who="#L0326_M6">
+      <speaker>Fran.</speaker>
+      <p>The old man is poor:——-</p>
+     </sp>
+     <sp who="#L0326_M1">
+      <speaker>Stran.</speaker>
+      <p>'Tis likely.</p>
+     </sp>
+     <sp who="#L0326_M6">
+      <speaker>Fran.</speaker>
+      <p>Sick and forsaken.</p>
+     </sp>
+     <pb n="5"/>
+     <sp who="#L0326_M1">
+      <speaker>Stran.</speaker>
+      <p>I cannot help him.</p>
+     </sp>
+     <sp who="#L0326_M6">
+      <speaker>Fran.</speaker>
+      <p>Yes.</p>
+     </sp>
+     <sp who="#L0326_M1">
+      <speaker>Stran.</speaker>
+      <p>How?</p>
+     </sp>
+     <sp who="#L0326_M6">
+      <speaker>Fran.</speaker>
+      <p>By money. He may buy his son's release.</p>
+     </sp>
+     <sp who="#L0326_M1">
+      <speaker>Stran.</speaker>
+      <p>I'll see him myself.</p>
+     </sp>
+     <sp who="#L0326_M6">
+      <speaker>Fran.</speaker>
+      <p>Do so.</p>
+     </sp>
+     <sp who="#L0326_M1">
+      <speaker>Stran.</speaker>
+      <p>But if he prove an impostor?</p>
+     </sp>
+     <sp who="#L0326_M6">
+      <speaker>Fran.</speaker>
+      <p>He is not.</p>
+     </sp>
+     <sp who="#L0326_M1">
+      <speaker>Stran.</speaker>
+      <p>In that hut?</p>
+     </sp>
+     <sp who="#L0326_M6">
+      <speaker>Fran.</speaker>
+      <p>In that hut. <stage>Stranger goes into the hut, L.</stage> A good master, though one almost
+       loses the use of speech by living with him. A man kind and clear though I cannot understand
+       him. He rails against the whole world, and yet no beggar leaves his door unsatisfied. I have
+       now lived three years with him, and yet I know not who he is. A hater of society, no doubt;
+       but not by Providence intended to be so. Misanthropy in his head, not in his heart.</p>
+     </sp>
+     <stage>Enter Stranger and Peter from the hut, L.</stage>
+     <sp who="#L0326_M5">
+      <speaker>Peter.</speaker>
+      <p>Pray walk on. <stage>bowing him out</stage></p>
+     </sp>
+     <sp who="#L0326_M1">
+      <speaker>Stran.</speaker>
+      <p><stage>to Francis</stage> Fool!</p>
+     </sp>
+     <sp who="#L0326_M6">
+      <speaker>Fran.</speaker>
+      <p>So soon returned!</p>
+     </sp>
+     <sp who="#L0326_M1">
+      <speaker>Stran.</speaker>
+      <p>What should I do there?</p>
+     </sp>
+     <sp who="#L0326_M6">
+      <speaker>Fran.</speaker>
+      <p>Did you not find it as I said?</p>
+     </sp>
+     <sp who="#L0326_M1">
+      <speaker>Stran.</speaker>
+      <p>This lad I found.</p>
+     </sp>
+     <sp who="#L0326_M6">
+      <speaker>Fran.</speaker>
+      <p>What has he to do with your charity?</p>
+     </sp>
+     <sp who="#L0326_M1">
+      <speaker>Stran.</speaker>
+      <p>The old man and he understand each other perfectly well.</p>
+     </sp>
+     <sp who="#L0326_M6">
+      <speaker>Fran.</speaker>
+      <p>How?</p>
+     </sp>
+     <sp who="#L0326_M1">
+      <speaker>Stran.</speaker>
+      <p>What were this boy and the countryman doing?</p>
+     </sp>
+     <sp who="#L0326_M6">
+      <speaker>Fran.</speaker>
+      <p><stage>smiling and shaking his head</stage> Well, you shall hear. <stage>crosses to Peter,
+        Stranger sits and takes up a book which is on the seat, R.</stage> Young man, what were you
+       doing in that hut?</p>
+     </sp>
+     <sp who="#L0326_M5">
+      <speaker>Peter.</speaker>
+      <p>Doing? —Nothing.</p>
+     </sp>
+     <sp who="#L0326_M6">
+      <speaker>Fran.</speaker>
+      <p>Well, but you couldn't go there for nothing?</p>
+     </sp>
+     <sp who="#L0326_M5">
+      <speaker>Peter.</speaker>
+      <p>And why not, pray? —But I did go there for nothing, though.— Do you think one must be paid
+       for everything? —If Mrs. Haller were to give me but a smiling look, I'd jump up to my neck in
+       the great pond for nothing.</p>
+     </sp>
+     <pb n="6"/>
+     <sp who="#L0326_M6">
+      <speaker>Fran.</speaker>
+      <p>It seems, then, Mrs. Haller sent you?</p>
+     </sp>
+     <sp who="#L0326_M5">
+      <speaker>Peter.</speaker>
+      <p>Why, yes but I'm not to talk about it.</p>
+     </sp>
+     <sp who="#L0326_M6">
+      <speaker>Fran.</speaker>
+      <p>Why so?</p>
+     </sp>
+     <sp who="#L0326_M5">
+      <speaker>Peter.</speaker>
+      <p>How should I know? "Look you," says Mrs. Haller, "Master Peter, be so good as not to
+       mention it to anybody."— <stage>with much consequence</stage> —"Master Peter, be so good"
+       —Hi, hi, hi!— "Master Peter, be so"—Hi, hi, hi!—</p>
+     </sp>
+     <sp who="#L0326_M6">
+      <speaker>Fran.</speaker>
+      <p>Oh! that is quite a different thing. Of course you must be silent then.</p>
+     </sp>
+     <sp who="#L0326_M5">
+      <speaker>Peter.</speaker>
+      <p>I know that; and so I am, too. For I told old Tobias —says I, "Now you're not to think as
+       how Mrs. Haller sent the money; for I shall not say a word about that as long as I live,"
+       says I.</p>
+     </sp>
+     <sp who="#L0326_M6">
+      <speaker>Fran.</speaker>
+      <p>There you were very right. Did you carry him much money?</p>
+     </sp>
+     <sp who="#L0326_M5">
+      <speaker>Peter.</speaker>
+      <p>I don't know; I didn't count it. It was in a bit of a green purse. Mayhap it may be some
+       little matter that she has scraped together in the last fortnight.</p>
+     </sp>
+     <sp who="#L0326_M6">
+      <speaker>Fran.</speaker>
+      <p>And why just in the last fortnight?</p>
+     </sp>
+     <sp who="#L0326_M5">
+      <speaker>Peter.</speaker>
+      <p>Because, about a fortnight since, I carried him some money before.</p>
+     </sp>
+     <sp who="#L0326_M6">
+      <speaker>Fran.</speaker>
+      <p>From Mrs. Haller?</p>
+     </sp>
+     <sp who="#L0326_M5">
+      <speaker>Peter.</speaker>
+      <p>Ay, sure; who else, think you? father's not such a fool. He says it is our bounden duty, as
+       Christians, to take care of our money, and not to give anything away, especially in the
+       summer; for then, says he, there's herbs and roots enough in conscience to satisfy all the
+       reasonable hungry poor. But I say father's wrong, and Mrs. Haller's right.</p>
+     </sp>
+     <sp who="#L0326_M6">
+      <speaker>Fran.</speaker>
+      <p>Yes, yes — but this Mrs. Haller seems a strange woman, Peter.</p>
+     </sp>
+     <sp who="#L0326_M5">
+      <speaker>Peter.</speaker>
+      <p>Ay, at times she's plaguy odd. Why, she'll sit and cry you a whole day through, without any
+       one's knowing why. Ay, and yet somehow or other, whenever she cries, I always cry too
+       —without knowing why.</p>
+     </sp>
+     <sp who="#L0326_M6">
+      <speaker>Fran.</speaker>
+      <p><stage>aside to Stranger</stage> Are you satisfied?</p>
+     </sp>
+     <sp who="#L0326_M1">
+      <speaker>Stran.</speaker>
+      <p>Rid me of that babbler.</p>
+     </sp>
+     <sp who="#L0326_M6">
+      <speaker>Fran.</speaker>
+      <p>Good day, Master Peter.</p>
+     </sp>
+     <sp who="#L0326_M5">
+      <speaker>Peter.</speaker>
+      <p>You're not going yet, are you?</p>
+     </sp>
+     <sp who="#L0326_M6">
+      <speaker>Fran.</speaker>
+      <p>Mrs. Haller will be waiting for an answer.</p>
+     </sp>
+     <pb n="7"/>
+     <sp who="#L0326_M5">
+      <speaker>Peter.</speaker>
+      <p>So she will; and I have another place or two to call at. <stage>crosses to C. and takes off
+        his hat to Stranger</stage> Servant sir! <stage>Stranger nods —Peter turns to Francis in a
+        half whisper</stage> He's angry, I suppose, because he can get nothing out of me.</p>
+     </sp>
+     <sp who="#L0326_M6">
+      <speaker>Fran.</speaker>
+      <p>It almost seems so.</p>
+     </sp>
+     <sp who="#L0326_M5">
+      <speaker>Peter.</speaker>
+      <p>Ay, I'd have him to know I'm no blab.</p>
+     </sp>
+     <stage>Exit C. and L.</stage>
+     <sp who="#L0326_M6">
+      <speaker>Fran.</speaker>
+      <p>Now, sir.</p>
+     </sp>
+     <sp who="#L0326_M1">
+      <speaker>Stran.</speaker>
+      <p>What do you want?</p>
+     </sp>
+     <sp who="#L0326_M6">
+      <speaker>Fran.</speaker>
+      <p>Were you not wrong, sir?</p>
+     </sp>
+     <sp who="#L0326_M1">
+      <speaker>Stran.</speaker>
+      <p>Hem!</p>
+     </sp>
+     <sp who="#L0326_M6">
+      <speaker>Fran.</speaker>
+      <p>Can you still doubt?</p>
+     </sp>
+     <sp who="#L0326_M1">
+      <speaker>Stran.</speaker>
+      <p><stage>rising</stage> I'll hear no more. Who is this Mrs. Haller? Why do I always follow
+       her path? Go where I will, whenever I try to do good, she has always been before me.</p>
+     </sp>
+     <sp who="#L0326_M6">
+      <speaker>Fran.</speaker>
+      <p>You should rejoice at that.</p>
+     </sp>
+     <sp who="#L0326_M1">
+      <speaker>Stran.</speaker>
+      <p>Rejoice?</p>
+     </sp>
+     <sp who="#L0326_M6">
+      <speaker>Fran.</speaker>
+      <p>Surely! that there are other good and charitable people in the world beside yourself.</p>
+     </sp>
+     <sp who="#L0326_M1">
+      <speaker>Stran.</speaker>
+      <p>O, yes!</p>
+     </sp>
+     <sp who="#L0326_M6">
+      <speaker>Fran.</speaker>
+      <p>Why not seek to be acquainted with her? I saw her yesterday in the garden, up at the
+       castle. Mr. Solomon, the steward, says she has been unwell, and confined to her room, almost
+       ever since we have been here. But one would not think it to look at her; for a more beautiful
+       creature I never saw.</p>
+     </sp>
+     <sp who="#L0326_M1">
+      <speaker>Stran.</speaker>
+      <p>So much the worse! Beauty is a mask.</p>
+     </sp>
+     <sp who="#L0326_M6">
+      <speaker>Fran.</speaker>
+      <p>In her it seems a mirror of the soul. Her charities——</p>
+     </sp>
+     <sp who="#L0326_M1">
+      <speaker>Stran.</speaker>
+      <p>Pshaw! talk not to me of her charities. All women wish to be conspicuous:— in town by their
+       wit; in the country by their heart.</p>
+     </sp>
+     <sp who="#L0326_M6">
+      <speaker>Fran.</speaker>
+      <p>'Tis immaterial in what way good is done.</p>
+     </sp>
+     <sp who="#L0326_M1">
+      <speaker>Stran.</speaker>
+      <p>No; 'tis not immaterial.</p>
+     </sp>
+     <sp who="#L0326_M6">
+      <speaker>Fran.</speaker>
+      <p>To this poor man, at least.</p>
+     </sp>
+     <sp who="#L0326_M1">
+      <speaker>Stran.</speaker>
+      <p>He needs no assistance of mine.</p>
+     </sp>
+     <sp who="#L0326_M6">
+      <speaker>Fran.</speaker>
+      <p>His most urgent wants Mrs. Haller indeed relieved; but whether she has or could have given
+       as
+       <pb n="8"/> much as could purchase liberty for the son, the prop of his age——</p>
+     </sp>
+     <sp who="#L0326_M1">
+      <speaker>Stran.</speaker>
+      <p>Silence! I will not give him a doit, <stage>crosses to L. —in a peevish tone</stage> You
+       interest yourself very warmly in his behalf. Perhaps you are to be a sharer in the gift?</p>
+     </sp>
+     <sp who="#L0326_M6">
+      <speaker>Fran.</speaker>
+      <p>Sir, sir, that did not come from your heart.</p>
+     </sp>
+     <sp who="#L0326_M1">
+      <speaker>Stran.</speaker>
+      <p><stage>recollecting himself</stage> Forgive me!</p>
+     </sp>
+     <sp who="#L0326_M6">
+      <speaker>Fran.</speaker>
+      <p>Poor master! How must the world have used you, before it could have instilled this hatred
+       of mankind, this constant doubt of honesty and virtue.</p>
+     </sp>
+     <sp who="#L0326_M1">
+      <speaker>Stran.</speaker>
+      <p>Leave me to myself! <stage>crosses to R., throws himself on a seat, and reads</stage></p>
+     </sp>
+     <sp who="#L0326_M6">
+      <speaker>Fran.</speaker>
+      <p><stage>aside, surveying him</stage> Again reading! thus it is from morn to night. To him,
+       nature has no beauty life no charm. For three years I have never seen him smile. What will be
+       his fate at last? Nothing diverts him. Oh, if he would but attach himself to any living
+       thing! were it an animal for something man must love.</p>
+     </sp>
+     <stage>Enter Tobias from the hut, L. U. E.</stage>
+     <sp who="#L0326_M7">
+      <speaker>Tobi.</speaker>
+      <p>Oh! how refreshing, after seven long weeks, to feel these warm sunbeams once again! Thanks,
+       thanks, bounteous heaven, for the joy I taste! <stage>presses his cap between his hands,
+        looks up and prays —Stranger lets his book sink, and observes him attentively</stage></p>
+     </sp>
+     <sp who="#L0326_M6">
+      <speaker>Fran.</speaker>
+      <p><stage>to Stranger</stage> This eld man's share of earthly happiness can be but little;
+       yet, mark how grateful he is for his portion of it.</p>
+     </sp>
+     <sp who="#L0326_M1">
+      <speaker>Stran.</speaker>
+      <p>Because, though old, he is but a child in the leading strings of hope.</p>
+     </sp>
+     <sp who="#L0326_M6">
+      <speaker>Fran.</speaker>
+      <p>Hope is the nurse of life.</p>
+     </sp>
+     <sp who="#L0326_M1">
+      <speaker>Stran.</speaker>
+      <p>And her cradle is the grave.</p>
+     </sp>
+     <sp who="#L0326_M6">
+      <speaker>Fran.</speaker>
+      <p><stage>going to Tobias</stage> I wish you joy. I am glad to see you are so much
+       recovered.</p>
+     </sp>
+     <sp who="#L0326_M7">
+      <speaker>Tobias.</speaker>
+      <p>Thank you! Heaven and the assistance of a kind lady, has saved me for another year or
+       two.</p>
+     </sp>
+     <sp who="#L0326_M6">
+      <speaker>Fran.</speaker>
+      <p>How old are you, pray?</p>
+     </sp>
+     <sp who="#L0326_M7">
+      <speaker>Tobias.</speaker>
+      <p>Seventy-six. To be sure, I can expect but little joy before I die. Yet, there is another,
+       and a better world.</p>
+     </sp>
+     <pb n="9"/>
+     <sp who="#L0326_M6">
+      <speaker>Fran.</speaker>
+      <p>To the unfortunate, then, death is scarce an evil.</p>
+     </sp>
+     <sp who="#L0326_M7">
+      <speaker>Tobias.</speaker>
+      <p>Am I so unfortunate? Do I not enjoy this glorious morning? Am I not in health again?
+       Believe me, sir, he, who leaving the bed of sickness, for the first time breathes the fresh
+       pure air, is at that moment the happiest of his maker's creatures.</p>
+     </sp>
+     <sp who="#L0326_M6">
+      <speaker>Fran.</speaker>
+      <p>Yet 'tis a happiness that fails upon enjoyment.</p>
+     </sp>
+     <sp who="#L0326_M7">
+      <speaker>Tobias.</speaker>
+      <p>True; but less so in old age. Some fifty years ago my father left me this cottage. I was a
+       strong lad, and took an honest wife. Heaven blessed my farm with rich crops, and my marriage
+       with five children. This lasted nine or ten years. Two of my children died. I felt it sorely.
+       The land was afflicted with a famine. My wife assisted me in supporting our family: but, four
+       years after, she left our dwelling for a better place. And of my five children one only son
+       remained. This was blow on blow. It was long before I regained my fortitude; at length
+       resignation and religion had their effect. I again attached myself to life. My son grew, and
+       helped me in my work; now the State has called him away to bear a musket! This is to me a
+       loss indeed: I can work no more; I am old and weak: and true it is, but for Mrs. Haller, I
+       must have perished.</p>
+     </sp>
+     <sp who="#L0326_M6">
+      <speaker>Fran.</speaker>
+      <p>Still, then, life has its charms for you?</p>
+     </sp>
+     <sp who="#L0326_M7">
+      <speaker>Tobias.</speaker>
+      <p>Why not, while the world holds anything that's dear to me? Have not I a son?</p>
+     </sp>
+     <sp who="#L0326_M6">
+      <speaker>Fran.</speaker>
+      <p>Who knows that you will ever see him more? He may be dead.</p>
+     </sp>
+     <sp who="#L0326_M7">
+      <speaker>Tobias.</speaker>
+      <p>Alas! he may. But as long as I am not sure of it, he lives to me: and if he falls, 'tis in
+       his country's cause. Nay, should I lose him, still I should not wish to die. Here is the hut
+       in which I was born. Here is the tree that grew with me, and I am almost ashamed to confess
+       it I have a dog I love.</p>
+     </sp>
+     <sp who="#L0326_M6">
+      <speaker>Fran.</speaker>
+      <p>A dog?</p>
+     </sp>
+     <sp who="#L0326_M7">
+      <speaker>Tobias.</speaker>
+      <p>Yes! —Smile if you please: but hear. My benefactress once came to my hut herself, some time
+       before you settled here. The poor animal— unused to see the form of elegance and beauty enter
+       the door of penury— growled at her. "I wonder you keep that surly, ugly animal,
+       <pb n="10"/> Mr. Tobias," said she; "you who have hardly food enough for yourself." "Ah,
+       madam," I replied, "if I was to part with him, are you sure aught else will love me?" She was
+       pleased with my answer.</p>
+     </sp>
+     <sp who="#L0326_M6">
+      <speaker>Fran.</speaker>
+      <p><stage>to Stranger</stage> Excuse me, sir; but I wish you had listened.</p>
+     </sp>
+     <sp who="#L0326_M1">
+      <speaker>Stran.</speaker>
+      <p>I have listened.</p>
+     </sp>
+     <sp who="#L0326_M6">
+      <speaker>Fran.</speaker>
+      <p>Then, sir, I wish you would follow this poor old man's example.</p>
+     </sp>
+     <sp who="#L0326_M1">
+      <speaker>Stran.</speaker>
+      <p><stage>pauses</stage> Here; take this book, and lay it on my desk. <stage>Francis goes into
+        the lodge, R., with the book— Stranger goes to Tobias</stage> How much has Mrs. Haller given
+       you?</p>
+     </sp>
+     <sp who="#L0326_M7">
+      <speaker>Tobias.</speaker>
+      <p>Oh, sir, she has given me so much, that I can look towards winter without fear.</p>
+     </sp>
+     <sp who="#L0326_M1">
+      <speaker>Stran.</speaker>
+      <p>No more?</p>
+     </sp>
+     <sp who="#L0326_M7">
+      <speaker>Tobias.</speaker>
+      <p>What could I do with more? Ah! true; I might——</p>
+     </sp>
+     <sp who="#L0326_M1">
+      <speaker>Stran.</speaker>
+      <p>I know it: You might buy your son's release. There! <stage>presses a heavy purse into his
+        hand, and exit, R. 1 E.</stage></p>
+     </sp>
+     <sp who="#L0326_M7">
+      <speaker>Tobias.</speaker>
+      <p>What is all this? <stage>opens the purse, and finds it full of gold</stage> Merciful
+       heaven! <stage>Enter Francis, R. U. E.</stage> Now look, sir; is confidence in heaven
+       unrewarded?</p>
+     </sp>
+     <sp who="#L0326_M6">
+      <speaker>Fran.</speaker>
+      <p>I wish you joy? My master gave you this?</p>
+     </sp>
+     <sp who="#L0326_M7">
+      <speaker>Tobias.</speaker>
+      <p>Yes, your noble master. Heaven reward him!</p>
+     </sp>
+     <sp who="#L0326_M6">
+      <speaker>Fran.</speaker>
+      <p>Just like him. He sent me with his book, that no one might be witness to his bounty.</p>
+     </sp>
+     <sp who="#L0326_M7">
+      <speaker>Tobias.</speaker>
+      <p>He would not even take my thanks. He was gone before I could speak.</p>
+     </sp>
+     <sp who="#L0326_M6">
+      <speaker>Fran.</speaker>
+      <p>Just his way.</p>
+     </sp>
+     <sp who="#L0326_M7">
+      <speaker>Tobias.</speaker>
+      <p>Now, sir, I'll go as quick as these old legs will bear me. What a delightful errand! I go
+       to release my Robert! How the lad will rejoice! There is a girl too in the village, that will
+       rejoice with him. Oh, Providence, how good art thou! Years of distress can never efface the
+       recollection of former happiness; but one joyful moment drives from the memory an age of
+       misery.</p>
+     </sp>
+     <stage>Exit to hut, L.</stage>
+     <sp who="#L0326_M6">
+      <speaker>Fran.</speaker>
+      <p><stage>looks after him</stage> Why am I not wealthy?</p>
+     </sp>
+     <pb n="11"/>
+     <sp who="#L0326_M6">
+      <speaker>Fran.</speaker>
+      <p>'Sdeath! Why am I not a prince? I never thought myself envious; but I feel I am. Yes, I
+       must envy those who, with the will, have the power to do good.</p>
+     </sp>
+     <stage>Exit R. U. E.</stage>
+    </div>
+
+    <div type="scene">
+     <head>Scene II. An Ante-chamber in Wintersen Castle.</head>
+     <sp who="#L0326_F8">
+      <speaker>Mrs. H.</speaker>
+      <p><stage>speaks without</stage> Very well; if those things are done, let the drawing-room be
+       made ready immediately. And, George, run immediately into the park, and tell Mr. Solomon I
+       wish to speak with him.</p>
+     </sp>
+     <stage>Enter Mrs. Haller, with a letter, R.</stage>
+     <sp who="#L0326_F8">
+      <speaker>Mrs. H.</speaker>
+      <p>I cannot understand this. I do not learn whether their coming to this place be but the whim
+       of a moment, or a plan for a longer stay. If the latter, farewell solitude! farewell study!
+       farewell! Yes, I must make room for gaity and mere frivolity. Yet could I willingly submit to
+       all; but, should the Countess give me new proofs of her attachment, perhaps of her respect,
+       oh, how will my conscience upbraid me! or —I shudder at the thought! if this seat is to be
+       visited by company, and chance should conduct hither any of my former acquaintance! Alas!
+       alas! how wretched is the being who fears the sight of any one fellow-creature! But, oh,
+       superior misery! to dread still more the presence of a former friend, <stage>a knock</stage>
+       Who's there?</p>
+     </sp>
+     <stage>Enter Peter, L.</stage>
+     <sp who="#L0326_M5">
+      <speaker>Peter.</speaker>
+      <p>Nobody! —It's only me.</p>
+     </sp>
+     <sp who="#L0326_F8">
+      <speaker>Mrs. H.</speaker>
+      <p>So soon returned?</p>
+     </sp>
+     <sp who="#L0326_M5">
+      <speaker>Peter.</speaker>
+      <p>Sharp lad, a'n't I? On the road I've had a bit of talk too, and——</p>
+     </sp>
+     <sp who="#L0326_F8">
+      <speaker>Mrs. H.</speaker>
+      <p>But you have observed my directions!</p>
+     </sp>
+     <sp who="#L0326_M5">
+      <speaker>Peter.</speaker>
+      <p>O, yes, yes: I told old Tobias as how he would never know, as long as he lived, that the
+       money came from you.</p>
+     </sp>
+     <sp who="#L0326_F8">
+      <speaker>Mrs. H.</speaker>
+      <p>You found him quite recovered, I hope?</p>
+     </sp>
+     <sp who="#L0326_M5">
+      <speaker>Peter.</speaker>
+      <p>Ay, sure did I. He's coming out to-day, for the first time.</p>
+     </sp>
+     <sp who="#L0326_F8">
+      <speaker>Mrs. H.</speaker>
+      <p>I rejoice to hear it.</p>
+     </sp>
+     <pb n="12"/>
+     <sp who="#L0326_M5">
+      <speaker>Peter.</speaker>
+      <p>He said that he was obliged to you for all; and before dinner, would crawl up to thank
+       you.</p>
+     </sp>
+     <sp who="#L0326_F8">
+      <speaker>Mrs. H.</speaker>
+      <p>Good Peter, do me another service.</p>
+     </sp>
+     <sp who="#L0326_M5">
+      <speaker>Peter.</speaker>
+      <p>Ay, a hundred, if you will only let me have a good long stare at you.</p>
+     </sp>
+     <sp who="#L0326_F8">
+      <speaker>Mrs. H.</speaker>
+      <p>With all my heart. Observe when old Tobias comes, and send him away. Tell him I am busy, or
+       asleep, or unwell, or what you please.</p>
+     </sp>
+     <sp who="#L0326_M5">
+      <speaker>Peter.</speaker>
+      <p>I will, I will.</p>
+     </sp>
+     <sp who="#L0326_M4">
+      <speaker>Solomon.</speaker>
+      <p><stage>without</stage> There, there, go to the post-office.</p>
+     </sp>
+     <sp who="#L0326_F8">
+      <speaker>Mrs. H.</speaker>
+      <p>Oh! here comes Mr. Solomon.</p>
+     </sp>
+     <sp who="#L0326_M5">
+      <speaker>Peter.</speaker>
+      <p>What, father! Ay, so there is. Father's a main, clever man; he knows what's going on all
+       over the world.</p>
+     </sp>
+     <sp who="#L0326_F8">
+      <speaker>Mrs. H.</speaker>
+      <p>No wonder; for he receives as many letters as a prime minister and all his secretaries.</p>
+     </sp>
+     <stage>Enter Solomon, L.</stage>
+     <sp who="#L0326_M4">
+      <speaker>Solom.</speaker>
+      <p>Good morning, good morning to you, Mrs. Haller. It gives me infinite pleasure to see you
+       look so charmingly well. You have had the goodness to send for your humble servant. Any news
+       from the great city? There are very weighty matters in agitation. I have my letters too!</p>
+     </sp>
+     <sp who="#L0326_F8">
+      <speaker>Mrs. H.</speaker>
+      <p><stage>smiling</stage> I think, Mr. Solomon, you must correspond with the four quarters of
+       the globe I</p>
+     </sp>
+     <sp who="#L0326_M4">
+      <speaker>Solom.</speaker>
+      <p>Beg pardon, not with the whole world, Mrs. Haller. But <stage>consequentially</stage> to be
+       sure, I have correspondents on whom I can rely, in the chief cities of Europe, Asia, Africa,
+       and America.</p>
+     </sp>
+     <sp who="#L0326_F8">
+      <speaker>Mrs. H.</speaker>
+      <p>And yet I have my doubts whether you know what is to happen this very day at this very
+       place.</p>
+     </sp>
+     <sp who="#L0326_M4">
+      <speaker>Solom.</speaker>
+      <p>At this very place! nothing material. We meant to have sown a little barley to-day, but the
+       ground is too dry; and the sheep-shearing is not to be till to-morrow.</p>
+     </sp>
+     <sp who="#L0326_M5">
+      <speaker>Peter.</speaker>
+      <p>No, nor the bull baiting till——</p>
+     </sp>
+     <sp who="#L0326_M4">
+      <speaker>Solom.</speaker>
+      <p>Hold your tongue, blockhead! Get about your business.</p>
+     </sp>
+     <sp who="#L0326_M5">
+      <speaker>Peter.</speaker>
+      <p>Blockhead! There again! I suppose I'm not to open my mouth. <stage>to Mrs. Haller</stage>
+       Good bye! <stage>Exit, L.</stage></p>
+     </sp>
+     <pb n="13"/>
+     <sp who="#L0326_F8">
+      <speaker>Mrs. H.</speaker>
+      <p>The Count will be here to-day.</p>
+     </sp>
+     <sp who="#L0326_M4">
+      <speaker>Solom.</speaker>
+      <p>How? What?</p>
+     </sp>
+     <sp who="#L0326_F8">
+      <speaker>Mrs. H.</speaker>
+      <p>With his lady, and his brother-in-law, Baron Steinfort.</p>
+     </sp>
+     <sp who="#L0326_M4">
+      <speaker>Solom.</speaker>
+      <p>My letters say nothing of this. You are laughing at your humble servant.</p>
+     </sp>
+     <sp who="#L0326_F8">
+      <speaker>Mrs. H.</speaker>
+      <p>You know, sir, I'm not much given to jesting.</p>
+     </sp>
+     <sp who="#L0326_M4">
+      <speaker>Solom.</speaker>
+      <p>Peter! goodlack-a-day!— His Right Honourable Excellency Count Wintersen, and Her Right
+       Honourable Excellency the Countess Wintersen, and His Honourable Lordship Baron Steinfort
+       and,— lor' have mercy! nothing in proper order!— Here, Peter! Peter!</p>
+     </sp>
+     <stage>Enter Peter, L.</stage>
+     <sp who="#L0326_M5">
+      <speaker>Peter.</speaker>
+      <p>Well, now; what's the matter again?</p>
+     </sp>
+     <sp who="#L0326_M4">
+      <speaker>Solom.</speaker>
+      <p>Call all the house together directly! Send to the gamekeeper: tell him to bring some
+       venison. Tell Rebecca to uncase the furniture, and take the covering from the Venetian
+       looking-glasses; that her Right Honourable Ladyship, the Countess, may look at her gracious
+       countenance. And tell the cook to let me see him without loss of time. And tell John to catch
+       a brace or two of carp. And tell— and tell —and tell —tell Frederick to friz my Sunday wig.—
+       Mercy on us! —Tell —There— Go!</p>
+     </sp>
+     <stage>Exit Peter, L.</stage>
+     <sp who="#L0326_M4">
+      <speaker>Solom.</speaker>
+      <p>Heavens and earth! so little of the new furnishing of this old castle is completed! —Where
+       are we to put his Honourable Lordship the Baron!</p>
+     </sp>
+     <sp who="#L0326_F8">
+      <speaker>Mrs. H.</speaker>
+      <p>Let him have the little chamber at the head of the stairs: it is a neat room, and commands
+       a beautiful prospect.</p>
+     </sp>
+     <sp who="#L0326_M4">
+      <speaker>Solom.</speaker>
+      <p>Very right, very right. But that room has always been occupied by the Count's private
+       secretary. Suppose— Hold, I have it. —You know the little lodge at the end of the park: we
+       can thrust the secretary into that.</p>
+     </sp>
+     <sp who="#L0326_F8">
+      <speaker>Mrs. H.</speaker>
+      <p>You forgot, Mr. Solomon, you told me that the Stranger lived there.</p>
+     </sp>
+     <sp who="#L0326_M4">
+      <speaker>Solom.</speaker>
+      <p>Pshaw! what have we to do with the Stranger? Who told him to live there? He must turn
+       out.</p>
+     </sp>
+     <sp who="#L0326_F8">
+      <speaker>Mrs. H.</speaker>
+      <p>That would be unjust: for you said that you
+       <pb n="14"/> let the dwelling to him, and by your own account he pays well for it.</p>
+     </sp>
+     <sp who="#L0326_M4">
+      <speaker>Solom.</speaker>
+      <p>He does, he does! But nobody knows who he is. The devil himself can't make him out. To be
+       sure, I lately received a letter from Spain, which informed me that a spy had taken up his
+       abode in this country, and from the description——</p>
+     </sp>
+     <sp who="#L0326_F8">
+      <speaker>Mrs. H.</speaker>
+      <p>A spy! Ridiculous! Everything I have heard bespeaks him to be a man who may be allowed to
+       dwell anywhere. His life is solitude and silence.</p>
+     </sp>
+     <sp who="#L0326_M4">
+      <speaker>Solom.</speaker>
+      <p>So it is.</p>
+     </sp>
+     <sp who="#L0326_F8">
+      <speaker>Mrs. H.</speaker>
+      <p>You told me, too, he does much good, and in private.</p>
+     </sp>
+     <sp who="#L0326_M4">
+      <speaker>Solom.</speaker>
+      <p>That he does.</p>
+     </sp>
+     <sp who="#L0326_F8">
+      <speaker>Mrs. H.</speaker>
+      <p>He hurts nothing; not the worm in his way.</p>
+     </sp>
+     <sp who="#L0326_M4">
+      <speaker>Solom.</speaker>
+      <p>That he does not.</p>
+     </sp>
+     <sp who="#L0326_F8">
+      <speaker>Mrs. H.</speaker>
+      <p>He troubles no one.</p>
+     </sp>
+     <sp who="#L0326_M4">
+      <speaker>Solom.</speaker>
+      <p>True —true!</p>
+     </sp>
+     <sp who="#L0326_F8">
+      <speaker>Mrs. H.</speaker>
+      <p>Well, what do you want more?</p>
+     </sp>
+     <sp who="#L0326_M4">
+      <speaker>Solom.</speaker>
+      <p>I want to know who he is. If the man would only converse a little, one might have an
+       opportunity of pumping; but if one meets him in the lime-walk, or by the river, it is nothing
+       but "Good morrow," —and off he marches. Once or twice I have contrived to edge in a word
+       —"Fine day?" —"Yes." "Taking a little exercise, I perceive?" —"Yes,"— and off again like a
+       shot. The devil take such close fellows, say I. And, like master, like man —not a syllable do
+       I know of that mumps his servant, except that his name is Francis.</p>
+     </sp>
+     <sp who="#L0326_F8">
+      <speaker>Mrs. H.</speaker>
+      <p>You are putting yourself into a passion, and quite forget who are expected.</p>
+     </sp>
+     <sp who="#L0326_M4">
+      <speaker>Solom.</speaker>
+      <p>So I do— mercy on us! There now, you see what misfortunes arise from not knowing
+       people!</p>
+     </sp>
+     <sp who="#L0326_F8">
+      <speaker>Mrs. H.</speaker>
+      <p><stage>looking at her watch</stage> Twelve o'clock already! If his lordship has stolen an
+       hour from his usual sleep, the family must soon be here. I go to my duty; you will attend to
+       yours, Mr. Solomon.</p>
+     </sp>
+     <stage>Exit, R.</stage>
+     <sp who="#L0326_M4">
+      <speaker>Solom.</speaker>
+      <p>Yes, I'll look after my duty, never fear. There goes another of the same class! Nobody
+       knows who she is, again. However, thus much I do know of her, that
+       <pb n="15"/> her Right Honourable Ladyship the Countess all at once popped her into the
+       house, like a blot of ink upon a sheet of paper! But why, wherefore, or for what reason, not
+       a soul can tell. "She is to manage the family within doors!" She to manage! Fire and faggots!
+       Haven't I managed everything, within and without, most reputably, these twenty years? I must
+       own I grow a little old, and she does take a deal of pains; but all this she learnt of me.
+       When she first came here —mercy on us!— she didn't know that linen was made of flax! But what
+       was to be expected from one who has no foreign correspondence?</p>
+     </sp>
+     <stage>Exit, L.</stage>
+    </div>
+    <trailer>END OF ACT I.</trailer>
+   </div>
+
+
+   <div type="act" n="II">
+    <div type="scene" n="I">
+     <head>Scene I.</head>
+     <stage>A Drawing Room in the Castle; sofas, chairs, tables, &amp;c.</stage>
+     <stage>Enter Solomon, L.</stage>
+     <sp who="#L0326_M4">
+      <speaker>Solom.</speaker>
+      <p>Well, for once I think I have the advantage of Madam Haller. Such a dance have I provided
+       to welcome their Excellencies, and she quite out of the secret! And such a hornpipe by the
+       little Brunette! I'll have a rehearsal first though, and then surprise their Honours after
+       dinner.</p>
+      <stage>(flourish of rural music without)</stage>
+     </sp>
+     <sp who="#L0326_M5">
+      <speaker>Peter.</speaker>
+      <stage>(without)</stage>
+      <p>Stop —not yet, not yet; but make way there, make way, my good friends, tenants, and
+       villagers. John! George! Frederick! good friends, make way.</p>
+     </sp>
+     <sp who="#L0326_M4">
+      <speaker>Solom.</speaker>
+      <p>It is not the Count It's only Baron Steinfort. Stand back, I say, and stop the music.</p>
+     </sp>
+     <stage>Enter Baron Steinfort, L., ushered in by Peter and Footmen Peter mimics and apes his
+      father.</stage>
+     <sp who="#L0326_M4">
+      <speaker>Solom.</speaker>
+      <p>I have the honour to introduce to your lordship myself, Mr. Solomon; who blesses the hour
+       in which fortune allows him to become acquainted with the Honourable Baron Steinfort,
+       brother-in-law of his Right
+       <pb n="16"/> Honourable Excellency, Count Wintersen, my noble master.</p>
+     </sp>
+     <sp who="#L0326_M5">
+      <speaker>Peter.</speaker>
+      <p>My noble master!</p>
+     </sp>
+     <sp who="#L0326_M2">
+      <speaker>Baron.</speaker>
+      <p><stage>(aside)</stage> Old and young, I see they'll allow me no peace. Enough, enough, good
+       Mr. Solomon; I am a soldier. I pay but few compliments, and require as few from others.</p>
+     </sp>
+     <sp who="#L0326_M4">
+      <speaker>Solom.</speaker>
+      <stage>(C.)</stage>
+      <p>I beg, my lord —<stage>(offering a chair)</stage>— we do live in the country, to be sure,
+       but we are acquainted with the reverence due to exalted personages.</p>
+     </sp>
+     <sp who="#L0326_M5">
+      <speaker>Peter.</speaker>
+      <stage>(L.)</stage>
+      <p>Yes —we are acquainted with salted personages.</p>
+     </sp>
+     <sp who="#L0326_M2">
+      <speaker>Baron.</speaker>
+      <p>What is to become of me? —Well, well; I hope we shall be better acquainted. You must know,
+       Mr. Solomon, I intend to assist, for a couple of months, at least, in attacking the
+       well-stocked cellars of Wintersen.</p>
+     </sp>
+     <sp who="#L0326_M4">
+      <speaker>Solom.</speaker>
+      <p>Why not whole years, my lord ? Inexpressible would be the satisfaction of your humble
+       servant. And, though I say it, well-stocked indeed are our cellars. I have, in every respect
+       here, managed matters in so frugal and provident a way, that his Right Honourable Excellency
+       the Count will be astonished. <stage>(Baron, who sits R., yawns)</stage> Extremely sorry it
+       is not in my power to entertain your lordship.</p>
+     </sp>
+     <sp who="#L0326_M5">
+      <speaker>Peter.</speaker>
+      <p>Extremely sorry.</p>
+     </sp>
+     <sp who="#L0326_M4">
+      <speaker>Solom.</speaker>
+      <p>Where can Mrs. Haller have hid herself?</p>
+     </sp>
+     <sp who="#L0326_M2">
+      <speaker>Baron.</speaker>
+      <p>Mrs. Haller !— who is she ?</p>
+     </sp>
+     <sp who="#L0326_M4">
+      <speaker>Solom.</speaker>
+      <p>Why, who is she, I can't exactly tell your lordship.</p>
+     </sp>
+     <sp who="#L0326_M5">
+      <speaker>Peter.</speaker>
+      <p>No, nor I.</p>
+     </sp>
+     <sp who="#L0326_M4">
+      <speaker>Solom.</speaker>
+      <p>None of my correspondents give any account of her. She is here in the capacity of a kind of
+       superior housekeeper. Methinks I hear her silver voice upon the stairs. I will have the
+       honour of sending her to your lordship in an instant.</p>
+     </sp>
+     <sp who="#L0326_M2">
+      <speaker>Baron.</speaker>
+      <p>Oh ! don't trouble yourself.</p>
+     </sp>
+     <sp who="#L0326_M4">
+      <speaker>Solom.</speaker>
+      <p>No trouble, whatever ! I remain, at all times, your Honourable Lordship's most obedient,
+       humble, and devoted servant.</p>
+      <stage>Exit bowing, L.</stage>
+     </sp>
+     <sp who="#L0326_M5">
+      <speaker>Peter.</speaker>
+      <p>Devoted servant.</p>
+      <stage>Exit bowing, L.</stage>
+     </sp>
+     <sp who="#L0326_M2">
+      <speaker>Baron.</speaker>
+      <p>Now for a fresh plague. Now am I to be
+       <pb n="17"/>tormented by some chattering old ugly hag, till I am stunned with her noise and
+       officious hospitality. O, patience, what a virtue art thou ! <stage>Enter Mrs. Haller, L.,
+        with a becoming curtsey, rises, and returns a bow, in confusion, R.</stage>
+       <stage>(aside)</stage> No, old she is not. <stage>(casts another glance at her)</stage> No,
+       by Jove, nor ugly.</p>
+     </sp>
+     <sp who="#L0326_F8">
+      <speaker>Mrs. H.</speaker>
+      <p>I rejoice, my lord, in thus becoming acquainted with the brother of my benefactress.</p>
+     </sp>
+     <sp who="#L0326_M2">
+      <speaker>Baron.</speaker>
+      <p>Madam, that title shall be doubly valuable to me, since it gives me an introduction equally
+       to be rejoiced at.</p>
+     </sp>
+     <sp who="#L0326_F8">
+      <speaker>Mrs. H.</speaker>
+      <stage>(without attending to the compliment)</stage>
+      <p>This lovely weather, then, has enticed the Count from the city ?</p>
+     </sp>
+     <sp who="#L0326_M2">
+      <speaker>Baron.</speaker>
+      <p>Not exactly that. You know him. Sunshine or clouds are to him alike, as long as eternal
+       summer reigns in his own heart and family.</p>
+     </sp>
+     <sp who="#L0326_F8">
+      <speaker>Mrs. H.</speaker>
+      <p>The Count possesses a most cheerful and amiable philosophy. Ever in the same happy humour;
+       ever enjoying each minute of his life. But you must confess, my lord, that he is a favourite
+       child of fortune, and has much to be grateful to her for. Not merely because she has given
+       him birth and riches, but for a native sweetness of temper, never to be acquired; and a
+       graceful suavity of manners, whose school must be the mind. And need I enumerate among
+       fortune's favours, the hand and affections of your accomplished sister ?</p>
+     </sp>
+     <sp who="#L0326_M2">
+      <speaker>Baron.</speaker>
+      <stage>(more and more struck as her understanding opens upon him)</stage>
+      <p>True, madam. My good easy brother, too, seems fully sensible of his happiness, and is
+       resolved to retain it. He has quitted the service to live here. I am yet afraid he may soon
+       grow weary of Wintersen and retirement.</p>
+     </sp>
+     <sp who="#L0326_F8">
+      <speaker>Mrs. H.</speaker>
+      <p>I should trust not. They who bear a cheerful and unreproaching conscience into solitude,
+       surely must increase the measure of their own enjoyments : they quit the poor, precarious,
+       the dependent pleasures, which they borrowed from the world, to draw a real bliss from that
+       exhaustless source of true delight, the fountain of a pure unsullied heart.</p>
+     </sp>
+     <pb n="18"/>
+     <sp who="#L0326_M2">
+      <speaker>Baron.</speaker>
+      <p>Has retirement long possessed so lovely an advocate ?</p>
+     </sp>
+     <sp who="#L0326_F8">
+      <speaker>Mrs. H.</speaker>
+      <p>I have lived here three years.</p>
+     </sp>
+     <sp who="#L0326_M2">
+      <speaker>Baron.</speaker>
+      <p>And never felt a secret wish for the society you left, and must have adorned ?</p>
+     </sp>
+     <sp who="#L0326_F8">
+      <speaker>Mrs. H.</speaker>
+      <p>Never.</p>
+     </sp>
+     <sp who="#L0326_M2">
+      <speaker>Baron.</speaker>
+      <p>To feel thus belongs either to a very rough or a very polished soul. The first sight
+       convinced me in which class I am to place you.</p>
+     </sp>
+     <sp who="#L0326_F8">
+      <speaker>Mrs. H.</speaker>
+      <stage>(with a sigh)</stage>
+      <p>There may, perhaps, be a third case.</p>
+     </sp>
+     <sp who="#L0326_M2">
+      <speaker>Baron.</speaker>
+      <p>Indeed, madam, I wish not to be thought forward ; but women always seemed to me less
+       calculated for retirement than men. We have a thousand employments, a thousand amusements,
+       which you have not.</p>
+     </sp>
+     <sp who="#L0326_F8">
+      <speaker>Mrs. H.</speaker>
+      <p>Dare I ask what they are ?</p>
+     </sp>
+     <sp who="#L0326_M2">
+      <speaker>Baron.</speaker>
+      <p>We ride— we hunt —we play —read —write.</p>
+     </sp>
+     <sp who="#L0326_F8">
+      <speaker>Mrs. H.</speaker>
+      <p>The noble employments of the chase, and the still more noble employment of play, I grant
+       you.</p>
+     </sp>
+     <sp who="#L0326_M2">
+      <speaker>Baron.</speaker>
+      <p>Nay, but dare I ask what are your employments for a day ?</p>
+     </sp>
+     <sp who="#L0326_F8">
+      <speaker>Mrs. H.</speaker>
+      <p>Oh, my lord! you cannot imagine how quickly time passes, when a certain uniformity guides
+       the minutes of our life. How often do I ask, "Is Saturday come again so soon ?" On a bright
+       cheerful morning my books and breakfast are carried out upon the grass-plot. Then is the
+       sweet picture of reviving industry and eager innocence always new to me. The birds' notes, so
+       often heard, still waken new ideas : the herds are led into the fields : the peasant bends
+       his eye upon his plough. Everything lives and moves ; and, in every creature's mind, it seems
+       as it were morning. Towards evening, I begin to roam abroad: from the park into the meadows.
+       And sometimes returning, I pause to look at the village boys and girls as they play. Then do
+       I bless their innocence, and pray to heaven those laughing, thoughtless hours could be their
+       lot for ever.</p>
+     </sp>
+     <sp who="#L0326_M2">
+      <speaker>Baron.</speaker>
+      <p>This is excellent! But these are summer amusements. The winter —the winter?</p>
+     </sp>
+     <sp who="#L0326_F8">
+      <speaker>Mrs. H.</speaker>
+      <p>Why for ever picture winter like old age,— torpid, tedious, and uncheerful ? Winter has its
+       own delights : this is the time to instruct and mend the mind,
+       <pb n="19"/> by reading and reflection. At this season, too, I often take my harp, and amuse
+       myself by playing or singing the little favourite airs that remind me of the past, or solicit
+       hope for the future.</p>
+     </sp>
+     <sp who="#L0326_M2">
+      <speaker>Baron.</speaker>
+      <p>Happy indeed are they who can thus create and vary their own pleasures and employments
+       !</p>
+     </sp>
+     <stage>Enter Peter, L. speaking as he enters.</stage>
+     <sp who="#L0326_M5">
+      <speaker>Peter.</speaker>
+      <p>Well —well— pray now— I was ordered I can keep him back no longer. He will come in.</p>
+     </sp>
+     <sp who="#L0326_F8">
+      <speaker>Mrs. H.</speaker>
+      <p>Who is it you mean ?</p>
+     </sp>
+     <sp who="#L0326_M5">
+      <speaker>Peter.</speaker>
+      <p>Why, old Tobias.</p>
+     </sp>
+     <stage>Enter Tobias, forcing his way, L.</stage>
+     <sp who="#L0326_M7">
+      <speaker>Tobi.</speaker>
+      <p>I must, good heaven, I must!</p>
+     </sp>
+     <sp who="#L0326_F8">
+      <speaker>Mrs. H.</speaker>
+      <stage>(confused)</stage>
+      <p>I have no time, at present —I —I— you see I am not alone.</p>
+     </sp>
+     <sp who="#L0326_M7">
+      <speaker>Tobi.</speaker>
+      <p>Oh ! this good gentleman will forgive me.</p>
+     </sp>
+     <sp who="#L0326_M2">
+      <speaker>Baron.</speaker>
+      <p>What do you want.</p>
+     </sp>
+     <sp who="#L0326_M7">
+      <speaker>Tobi.</speaker>
+      <p>To return thanks. Even charity is a burthen, if one may not be grateful for it.</p>
+     </sp>
+     <sp who="#L0326_F8">
+      <speaker>Mrs. H.</speaker>
+      <p>To-morrow, good Tobias, to-morrow.</p>
+     </sp>
+     <sp who="#L0326_M2">
+      <speaker>Baron.</speaker>
+      <p>Nay, no false delicacy, madam. Allow him to vent the feelings of his heart; and permit me
+       to witness a scene which convinces me, even more powerfully than your conversation, how nobly
+       you employ your time. Speak, old man.</p>
+     </sp>
+     <sp who="#L0326_M7">
+      <speaker>Tobi.</speaker>
+      <p>Oh, lady, that each word which drops from my lips might call down a blessing on your head!
+       I lay forsaken and dying in my hut: not even bread nor hope remained. Oh ! then you came in
+       the form of an angel— brought medicines to me; and your sweet consoling voice did more than
+       those. I am recovered. To-day, for the first time, I have returned thanks in presence of the
+       sun : and now I come to you, noble lady; let me drop my tears upon your charitable hand. For
+       your sake, heaven has blessed my latter days. The Stranger, too, who lives near me, has given
+       me a purse of gold to buy my son's release. I am on my way to the city : I shall purchase my
+       Robert's release. Then I shall have an honest daughter-in-law ; and you, if ever after that
+       you pass our happy
+       <pb n="20"/>cottage, oh ! what must you feel, when you say to yourself, " This is my work
+       ?"</p>
+     </sp>
+     <sp who="#L0326_F8">
+      <speaker>Mrs. H.</speaker>
+      <stage>(in a tone of entreaty)</stage>
+      <p>Enough, Tobias, enough!</p>
+     </sp>
+     <sp who="#L0326_M7">
+      <speaker>Tobi.</speaker>
+      <p>I beg pardon! I cannot utter what is breathing in my breast. There is One who knows it. May
+       His blessing, and your own heart reward you !</p>
+      <stage>Exit, L., Peter following.</stage>
+     </sp>
+     <stage>Mrs. Haller casts her eyes upon the ground, and contends against the confusion of an
+      exalted soul, when surprised in a good action. Baron stands opposite to her, and from time to
+      time, casts a glance at her in which his heart is swimming</stage>
+     <sp who="#L0326_F8">
+      <speaker>Mrs. H.</speaker>
+      <stage>(endeavouring to bring about a conversation)</stage>
+      <p>I suppose, my lord, we may expect the Count and Countess every moment now ?</p>
+     </sp>
+     <sp who="#L0326_M2">
+      <speaker>Baron.</speaker>
+      <p>Not just yet, madam. He travels at his leisure. I am selfish, perhaps, in not being anxious
+       for his speed. The delay has procured me a delight which I shall never forget.</p>
+     </sp>
+     <sp who="#L0326_F8">
+      <speaker>Mrs. H.</speaker>
+      <stage>(smiling)</stage>
+      <p>You satirise mankind, my lord.</p>
+     </sp>
+     <sp who="#L0326_M2">
+      <speaker>Baron.</speaker>
+      <p>How so?</p>
+     </sp>
+     <sp who="#L0326_F8">
+      <speaker>Mrs. H.</speaker>
+      <p>In supposing such scenes to be uncommon.</p>
+     </sp>
+     <sp who="#L0326_M2">
+      <speaker>Baron.</speaker>
+      <p>I confess I was little prepared for such an acquaintance as yourself: I am extremely
+       surprised. When Solomon told me your name and situation, how could I suppose, that——</p>
+     </sp>
+     <sp who="#L0326_F8">
+      <speaker>Mrs. H.</speaker>
+      <p>My name ? Yes—I don't wish to make it of greater consequence than it is.</p>
+     </sp>
+     <sp who="#L0326_M2">
+      <speaker>Baron.</speaker>
+      <p>Pardon my curiosity :— You have been, or are married ?</p>
+     </sp>
+     <sp who="#L0326_F8">
+      <speaker>Mrs. H.</speaker>
+      <stage>(suddenly sinking from her cheerful raillery into mournful gloom)</stage>
+      <p>I have been married, my lord.</p>
+     </sp>
+     <sp who="#L0326_M2">
+      <speaker>Baron.</speaker>
+      <stage>(whose enquiries evince his curiosity, yet are restrained within the bounds of the
+       nicest respect)</stage>
+      <p>A widow, then?</p>
+     </sp>
+     <sp who="#L0326_F8">
+      <speaker>Mrs. H.</speaker>
+      <p>I beseech you. —There are strings in the human heart, which touched, will sometimes utter
+       dreadful discord —I beseech you——</p>
+     </sp>
+     <sp who="#L0326_M2">
+      <speaker>Baron.</speaker>
+      <p>I understand you. I see you know how to conceal everything, except your perfections.</p>
+     </sp>
+     <sp who="#L0326_F8">
+      <speaker>Mrs. H.</speaker>
+      <p>My perfections, alas ! <stage>(rural music without)</stage>
+       <pb n="21"/> But I hear the happy tenantry announce the Count's arrival. Your pardon, my
+       lord: I must attend them.</p>
+      <stage>Exit, L.</stage>
+     </sp>
+     <sp who="#L0326_M2">
+      <speaker>Baron.</speaker>
+      <p>Excellent creature! What is she, and what can be her history ? I must seek my sister
+       instantly. How strong and how sudden is the interest I feel for her! But it is a feeling I
+       ought to check. And yet, why so ? Whatever are the emotions she has inspired, I am sure they
+       arise from the perfections of her mind: and never shall they be met with unworthiness in mine
+       !</p>
+      <stage>Exit, L.</stage>
+     </sp>
+    </div>
+    <div type="scene" n="II">
+     <head>Scene II.</head>
+     <stage>The Lawn.</stage>
+     <stage>Solomon and Peter are discovered arranging the Tenantry Rural music.</stage>
+     <stage>Enter Count and Countess Wintersen (the latter leading her Child), the Baron, Mrs.
+      Haller, Charlotte, and Servants following, from C.</stage>
+     <sp who="#L0326_M4">
+      <speaker>Solom.</speaker>
+      <p>Welcome ! ten thousand welcomes, your Excellencies ! Some little preparation made for
+       welcome, too. But that will be seen anon.</p>
+     </sp>
+     <sp who="#L0326_M3">
+      <speaker>Count.</speaker>
+      <p>Well, here we are! Heaven bless our advance and retreat! Mrs. Haller, I bring you an
+       invalid, who, in future, will swear to no flag but yours.</p>
+     </sp>
+     <sp who="#L0326_F8">
+      <speaker>Mrs. H.</speaker>
+      <p>Mine flies for retreat and rural happiness !</p>
+     </sp>
+     <sp who="#L0326_M3">
+      <speaker>Count.</speaker>
+      <p>But not without retreating graces, and retiring Cupids, too !</p>
+     </sp>
+     <sp who="#L0326_F9">
+      <speaker>Countess.</speaker>
+      <stage>(who has in the meantime kindly embraced Mrs. Haller, and by her been welcomed to
+       Wintersen)</stage>
+      <p>My dear Count, you forget that I am present!</p>
+     </sp>
+     <sp who="#L0326_M3">
+      <speaker>Count.</speaker>
+      <p>Why, in the name of chivalry, how can I do less than your gallant brother, the Baron, who
+       has been so kind as nearly to kill my four greys, in order to be here five minutes before me
+       ?</p>
+     </sp>
+     <sp who="#L0326_M2">
+      <speaker>Baron.</speaker>
+      <p>Had I known all the charms of this place, you should have said so with justice.</p>
+     </sp>
+     <sp who="#L0326_F9">
+      <speaker>Countess.</speaker>
+      <p>Don't you think William much grown ?</p>
+     </sp>
+     <sp who="#L0326_F8">
+      <speaker>Mrs. H.</speaker>
+      <stage>(R.)</stage>
+      <p>The sweet boy! <stage>(stoops to kiss him, and deep melancholy overshadows her
+        countenance)</stage></p>
+     </sp>
+     <sp who="#L0326_M3">
+      <speaker>Count.</speaker>
+      <p>Well, Solomon, you've provided a good dinner?</p>
+     </sp>
+     <pb n="22"/>
+     <sp who="#L0326_M4">
+      <speaker>Solom.</speaker>
+      <p>As good as haste would allow, please your Right Honourable Excellency !</p>
+     </sp>
+     <sp who="#L0326_M5">
+      <speaker>Peter.</speaker>
+      <stage>(l.)</stage>
+      <p>Yes, as good as——-<stage>(Count goes up with Solomon —Peter closely following)</stage></p>
+     </sp>
+     <sp who="#L0326_M2">
+      <speaker>Baron.</speaker>
+      <stage>(taking Countess aside, L.)</stage>
+      <p>Tell me, I conjure you, sister, what jewel you have thus buried in the country ?</p>
+     </sp>
+     <sp who="#L0326_F9">
+      <speaker>Countess.</speaker>
+      <p>Ha, ha, ha! What, brother, you caught at last?</p>
+     </sp>
+     <sp who="#L0326_M2">
+      <speaker>Baron.</speaker>
+      <p>Answer me.</p>
+     </sp>
+     <sp who="#L0326_F9">
+      <speaker>Countess.</speaker>
+      <p>Well, her name is Mrs. Haller.</p>
+     </sp>
+     <sp who="#L0326_M2">
+      <speaker>Baron.</speaker>
+      <p>That I know ; but——</p>
+     </sp>
+     <sp who="#L0326_F9">
+      <speaker>Countess.</speaker>
+      <p>But! —but I know no more myself.</p>
+     </sp>
+     <sp who="#L0326_M2">
+      <speaker>Baron.</speaker>
+      <p>Jesting apart, I wish to know.</p>
+     </sp>
+     <sp who="#L0326_F9">
+      <speaker>Countess.</speaker>
+      <p>And, jesting apart, I wish you would not plague me. I have at least a hundred thousand
+       important things to do. Heavens ! the vicar may come to pay his respects to me before I have
+       been at my toilet: of course I must consult my looking-glass on the occasion. Come, William,
+       will you help to dress me, or stay with your father?</p>
+     </sp>
+     <sp who="#L0326_16">
+      <speaker>William.</speaker>
+      <p>I had rather stay here.</p>
+     </sp>
+     <sp who="#L0326_M3">
+      <speaker>Count.</speaker>
+      <p>We'll take care of him.</p>
+     </sp>
+     <sp who="#L0326_F9">
+      <speaker>Countess.</speaker>
+      <p>Come, Mrs. Haller.</p>
+      <stage>Exit with Mrs. Haller, Charlotte following, R. 1 E.</stage>
+     </sp>
+     <sp who="#L0326_M2">
+      <speaker>Baron.</speaker>
+      <stage>(aside, and going)</stage>
+      <p>I am in a very singular humour.</p>
+     </sp>
+     <sp who="#L0326_M3">
+      <speaker>Count.</speaker>
+      <p>Whither so fast, good brother ?</p>
+     </sp>
+     <sp who="#L0326_M2">
+      <speaker>Baron.</speaker>
+      <p>To my apartment: I have letters to— I——</p>
+     </sp>
+     <sp who="#L0326_M3">
+      <speaker>Count.</speaker>
+      <p>Pshaw! stay. Let us take a turn in the park together.</p>
+     </sp>
+     <sp who="#L0326_M2">
+      <speaker>Baron.</speaker>
+      <p>Excuse me —I am not perfectly well. I should be but bad company. I——</p>
+      <stage>Exit, R. the Tenantry retire, C.</stage>
+     </sp>
+     <sp who="#L0326_M3">
+      <speaker>Count.</speaker>
+      <p>Well, Solomon, you're as great a fool as ever, I see.</p>
+     </sp>
+     <sp who="#L0326_M4">
+      <speaker>Solom.</speaker>
+      <p>Ha, ha! At your Right Honourable Excellency's service.</p>
+     </sp>
+     <sp who="#L0326_M3">
+      <speaker>Count.</speaker>
+      <stage>(points to Peter, L.)</stage>
+      <p>Who is that ape in the corner ?</p>
+     </sp>
+     <sp who="#L0326_M4">
+      <speaker>Solom.</speaker>
+      <p>Ape ! Oh, that is— with respect to your
+       <pb n="23"/> Excellency be it spoken— the son of my body ; by name, Peter. <stage>(Peter
+        bows)</stage></p>
+     </sp>
+     <sp who="#L0326_M3">
+      <speaker>Count.</speaker>
+      <p>So, so ! Well, how goes all on ?</p>
+     </sp>
+     <sp who="#L0326_M4">
+      <speaker>Solom.</speaker>
+      <p>Well and good —well and good. Your Excellency will see how I've improved the park —you'll
+       not know it again. A hermitage here; serpentine walks there ; an obelisk ; a ruin; and all so
+       sparingly— all done with the most economical economy.</p>
+     </sp>
+     <sp who="#L0326_M3">
+      <speaker>Count.</speaker>
+      <p>Well, I'll have a peep at your obelisk and ruins while they prepare for dinner.</p>
+     </sp>
+     <sp who="#L0326_M4">
+      <speaker>Solom.</speaker>
+      <p>I have already ordered it, and will have the honour of attending your Right Honourable
+       Excellency.</p>
+     </sp>
+     <sp who="#L0326_M3">
+      <speaker>Count.</speaker>
+      <p>Come, lead the way. Peter, attend your young master to the house —we must not tire him.</p>
+      <stage>Exit, conducted by Solomon, R.</stage>
+     </sp>
+     <sp who="#L0326_M5">
+      <speaker>Peter.</speaker>
+      <p>This way, your little Excellency, and you shall see the turpentine walks —and the obstacle
+       and the bridge ; and the new boat, with all the fine ribands and streamers. This way, your
+       little Excellency.</p>
+      <stage>Running round with the Child, and exeunt, L.</stage>
+     </sp>
+    </div>
+    <div type="scene" n="III">
+     <head>Scene III.</head>
+     <stage>The Ante-chamber.</stage>
+     <stage>Enter Mrs. Haller, R.</stage>
+     <sp who="#L0326_F8">
+      <speaker>Mrs. H.</speaker>
+      <p>What has thus alarmed and subdued me ? My tears flow— my heart bleeds. Already had I
+       apparently overcome my chagrin ; already had I at least assumed that easy gaiety, once so
+       natural to me, when the sight of this child in an instant overpowered me. When the Countess
+       called him William— oh! she knew not that she plunged a poinard in my heart. I have a William
+       too, who must be as tall as this, if he be still alive, —ah ! yes, if he be still alive. His
+       little sister too. Why, fancy, dost thou rack me thus ? Why dost thou image my poor children,
+       fainting in sickness, and crying to their mother? —to the mother that has abandoned them?
+        <stage>(weeps)</stage> What a wretched outcast am I! and that just to-day I should be doomed
+       to feel these horrid emotions! just to-day, when disguise was so necessary.</p>
+     </sp>
+     <stage>Enter Charlotte, R.</stage>
+     <sp who="#L0326_F10">
+      <speaker>Charl.</speaker>
+      <stage>(speaking loudly)</stage>
+      <p>Your servant, Mrs. Haller.
+       <pb n="24"/>I beg, madam, I may have a room fit for a respectable person.</p>
+     </sp>
+     <sp who="#L0326_F8">
+      <speaker>Mrs. H.</speaker>
+      <p>The chamber into which you have been shown is, I think, a very neat one.</p>
+     </sp>
+     <sp who="#L0326_F10">
+      <speaker>Charl.</speaker>
+      <p>A very neat one, is it ? Up the back stairs, and over the laundry! I should never be able
+       to close my eyes.</p>
+     </sp>
+     <sp who="#L0326_F8">
+      <speaker>Mrs. H.</speaker>
+      <stage>(very mildly)</stage>
+      <p>I slept there a whole year.</p>
+     </sp>
+     <sp who="#L0326_F10">
+      <speaker>Charl.</speaker>
+      <p>Did you? Then I advise you to remove into it again, and the sooner the better. I'd have you
+       know, madam, there is a material difference between certain persons and certain persons. Much
+       depends upon the manner in which one has been edicated. I think, madam, it would only be
+       proper if you resigned your room to me.</p>
+     </sp>
+     <sp who="#L0326_F8">
+      <speaker>Mrs. H.</speaker>
+      <p>If the Countess desires it, certainly.</p>
+     </sp>
+     <sp who="#L0326_F10">
+      <speaker>Charl.</speaker>
+      <p>The Countess? Very pretty, indeed! Would you have me think of plaguing her ladyship with
+       such trifles? I shall order my trunk to be carried wherever I please.</p>
+     </sp>
+     <sp who="#L0326_F8">
+      <speaker>Mrs. H.</speaker>
+      <p>Certainly ; only not into my chamber.</p>
+     </sp>
+     <sp who="#L0326_F10">
+      <speaker>Charl.</speaker>
+      <p>Provoking creature ! But how could I expect to find breeding among creatures, born of they
+       know not whom, and coming they know not whence ?</p>
+     </sp>
+     <sp who="#L0326_F8">
+      <speaker>Mrs. H.</speaker>
+      <p>The remark is very just.</p>
+     </sp>
+     <stage>Enter Peter, in haste, crying, L.</stage>
+     <sp who="#L0326_M5">
+      <speaker>Peter.</speaker>
+      <p>Oh hud! Oh lud! Oh lud! Oh lud!</p>
+     </sp>
+     <sp who="#L0326_F8">
+      <speaker>Mrs. H.</speaker>
+      <p>What's the matter ?</p>
+     </sp>
+     <sp who="#L0326_M5">
+      <speaker>Peter.</speaker>
+      <p>The child has fallen into the river ! His little Excellency is drowned!</p>
+     </sp>
+     <sp who="#L0326_F8">
+      <speaker>Mrs. H.</speaker>
+      <p>Who? what?</p>
+     </sp>
+     <sp who="#L0326_M5">
+      <speaker>Peter.</speaker>
+      <p>His Honour— my young master.</p>
+     </sp>
+     <sp who="#L0326_F8">
+      <speaker>Mrs. H.</speaker>
+      <p>Drowned ?</p>
+     </sp>
+     <sp who="#L0326_M5">
+      <speaker>Peter.</speaker>
+      <p>Yes.</p>
+     </sp>
+     <sp who="#L0326_F8">
+      <speaker>Mrs. H.</speaker>
+      <p>Dead ?</p>
+     </sp>
+     <sp who="#L0326_M5">
+      <speaker>Peter.</speaker>
+      <p>No ; he's not dead.</p>
+     </sp>
+     <sp who="#L0326_F8">
+      <speaker>Mrs. H.</speaker>
+      <p>Well, well, then —softly; you will alarm the Countess.</p>
+     </sp>
+     <stage>Enter Baron, R.</stage>
+     <sp who="#L0326_M2">
+      <speaker>Baron.</speaker>
+      <p>What is the matter ? Why all this noise ?</p>
+     </sp>
+     <pb n="25"/>
+     <sp who="#L0326_M5">
+      <speaker>Peter.</speaker>
+      <p>Noise ? Why——</p>
+     </sp>
+
+
+     <sp who="#L0326_F8">
+      <speaker>Mrs. H.</speaker>
+      <p>Be not alarmed, my lord. Whatever may have happened, the dear child is now at least safe.
+       You said so, I think, Master Peter.</p>
+     </sp>
+     <sp who="#L0326_M5">
+      <speaker>Peter.</speaker>
+      <p>Why, to be sure, his little Excellency is not hurt; but he's very wet, though: and the
+       Count is taking him by the garden door to the house.</p>
+     </sp>
+     <sp who="#L0326_M2">
+      <speaker>Baron.</speaker>
+      <p>Right; that the Countess may not be alarmed. But tell us, young man, how could it happen
+       ?</p>
+     </sp>
+     <sp who="#L0326_M5">
+      <speaker>Peter.</speaker>
+      <p>From beginning to end ?</p>
+     </sp>
+     <sp who="#L0326_F8">
+      <speaker>Mrs. H.</speaker>
+      <p>Never mind particulars. You attended the dear child ?</p>
+     </sp>
+     <sp who="#L0326_M5">
+      <speaker>Peter.</speaker>
+      <p>True; and he would see the boat and streamers. I turned round only for a moment, and then
+       —oh, how I was scared, to see him borne down the river!</p>
+     </sp>
+     <sp who="#L0326_M2">
+      <speaker>Baron.</speaker>
+      <p>And you drew him out again directly ?</p>
+     </sp>
+     <sp who="#L0326_M5">
+      <speaker>Peter.</speaker>
+      <p>No, I didn't: 'twas the deepest part; and I never could swim in my life! But I called and
+       bawled as loud as I could: I believe you might have heard me down to the village!</p>
+     </sp>
+     <sp who="#L0326_F8">
+      <speaker>Mrs. H.</speaker>
+      <p>Ay —and so the people came immediately to his assistance ?</p>
+     </sp>
+     <sp who="#L0326_M5">
+      <speaker>Peter.</speaker>
+      <p>No, they didn't: but the Stranger came, that lives yonder, close to old Toby, and never
+       speaks a syllable. Odsbodlikins ! what a devil of a fellow it is ! With a single spring
+       bounces he slap into the torrent; sails and dives about and about like a duck; gets me hold
+       of the little angel's hair, and heaven bless him ! pulls him safe to dry land. Ha, ha, ha
+       !</p>
+     </sp>
+     <sp who="#L0326_M2">
+      <speaker>Baron.</speaker>
+      <p>I think I hear them.</p>
+     </sp>
+     <sp who="#L0326_F8">
+      <speaker>Mrs. H.</speaker>
+      <p>Is the Stranger with them ?</p>
+     </sp>
+     <sp who="#L0326_M5">
+      <speaker>Peter.</speaker>
+      <p>Oh, lud, no ! He ran away ! His Excellency wanted to thank him, and all that: but he was
+       off: vanished like a ghost! <stage>(sees his Father and runs over to R.)</stage></p>
+     </sp>
+     <stage>Enter Solomon, L.</stage>
+     <sp who="#L0326_M4">
+      <speaker>Solom.</speaker>
+      <p>Oh! thou careless varlet! I disown you! What an accident might have happened ! and how you
+       have terrified his Excellency! But I beg pardon —<stage>(bows)</stage> His Right Honourable
+       Excellency, the Count, requests your——</p>
+     </sp>
+     <pb n="26"/>
+     <sp who="#L0326_M2">
+      <speaker>Baron.</speaker>
+      <p>We come.</p>
+      <stage>Exit leading Mrs. Haller, L.</stage>
+     </sp>
+     <sp who="#L0326_F10">
+      <speaker>Charl.</speaker>
+      <p>Ha, ha, ha ! Why, Mr. Solomon, you seem to have a hopeful pupil!</p>
+     </sp>
+     <sp who="#L0326_M4">
+      <speaker>Solom.</speaker>
+      <p>Ah, sirrah!</p>
+     </sp>
+     <sp who="#L0326_F10">
+      <speaker>Charl.</speaker>
+      <p>But, Mr. Solomon, why where <emph>you</emph> not nimble enough to have saved his young
+       lordship ?</p>
+     </sp>
+     <sp who="#L0326_M4">
+      <speaker>Solom.</speaker>
+      <p>I was not in time, miss. Besides, mercy on us! I should have sunk like a lump of lead: and
+       I happened to have a letter of consequence in my pocket, which would have been made totally
+       illegible; a letter from Constantinople, written by Chevalier —what's his name ?
+        <stage>[draws a letter from his pocket, and, putting it up again directly, drops it —Peter
+        takes it up slyly, and un-observed)</stage> It contains momentous matter, I assure you. The
+       world will be astonished when it comes to light; and not a soul will suppose that old Solomon
+       had a finger in the pie.</p>
+     </sp>
+     <sp who="#L0326_F10">
+      <speaker>Charl.</speaker>
+      <p>No, that I believe.</p>
+     </sp>
+     <sp who="#L0326_M4">
+      <speaker>Solom.</speaker>
+      <p>But I must go and see to the cellar. Miss, your most obedient servant.</p>
+      <stage>Exit, L.</stage>
+     </sp>
+     <sp who="#L0326_F10">
+      <speaker>Charl.</speaker>
+      <stage>(with pride)</stage>
+      <p>Your servant, Mr. Solomon!</p>
+     </sp>
+     <sp who="#L0326_M5">
+      <speaker>Peter.</speaker>
+      <p>Here's the letter from Constantinople. I wonder what it can be about! Now for it.
+        <stage>(opens it)</stage></p>
+     </sp>
+     <sp who="#L0326_F10">
+      <speaker>Charl.</speaker>
+      <p>Ay, let us have it.</p>
+     </sp>
+     <sp who="#L0326_M5">
+      <speaker>Peter.</speaker>
+      <stage>(reads)</stage>
+      <p>" If so be you say so, I'll never work for you, never no more. Considering as how your
+       Sunday waistcoat has been turned three times, it doesn't look amiss, and I've charged as
+       little as any tailor of 'em all. You say I must pay for the buckram ; but I say, I'll be
+       damn'd if I do! So no more from your loving nephew, Timothy Twist." From Constantinople! Why,
+       cousin Tim writ it.</p>
+     </sp>
+     <sp who="#L0326_F10">
+      <speaker>Charl.</speaker>
+      <p>Cousin Tim ! who is he ?</p>
+     </sp>
+     <sp who="#L0326_M5">
+      <speaker>Peter.</speaker>
+      <p>Good lack! Don't you know cousin Tim? Why, he's one of the best tailors in all——</p>
+     </sp>
+     <sp who="#L0326_F10">
+      <speaker>Charl.</speaker>
+      <p>A tailor! No, sir, I do not know him. My father was state coachman, and wore his Highness's
+       livery.</p>
+      <stage>Exit, L.</stage>
+     </sp>
+     <sp who="#L0326_M5">
+      <speaker>Peter.</speaker>
+      <stage>(mimicking)</stage>
+      <p>" My father was state coachman, and wore his Highness's livery!" Well, and cousin Tim
+       <pb n="27"/> could have made his Highness's livery, if you go to that. Bless us ! What a tail
+       our cat's got!</p>
+      <stage>Peter follows mimicking.</stage>
+     </sp>
+     <trailer>End of Act II</trailer>
+    </div>
+   </div>
+   <div type="act">
+    <head>ACT III.</head>
+    <div type="scene">
+     <head>Scene I. The skirts of the Park and Lodge, &amp;c, as before.</head>
+     <stage>The Stranger is discovered on a seat reading.</stage>
+     <stage>Enter Francis from lodge, R.</stage>
+     <sp who="#L0326_M6">
+      <speaker>Fran.</speaker>
+      <p>Dinner is ready.</p>
+     </sp>
+     <sp who="#L0326_M1">
+      <speaker>Stran.</speaker>
+      <p>I want no dinner.</p>
+     </sp>
+     <sp who="#L0326_M6">
+      <speaker>Fran.</speaker>
+      <p>I've got something good.</p>
+     </sp>
+     <sp who="#L0326_M1">
+      <speaker>Stran.</speaker>
+      <p>Eat it yourself.</p>
+     </sp>
+     <sp who="#L0326_M6">
+      <speaker>Fran.</speaker>
+      <p>You are not hungry ?</p>
+     </sp>
+     <sp who="#L0326_M1">
+      <speaker>Stran.</speaker>
+      <p>No.</p>
+     </sp>
+     <sp who="#L0326_M6">
+      <speaker>Fran.</speaker>
+      <p>Nor I. The heat takes away all appetite.</p>
+     </sp>
+     <sp who="#L0326_M1">
+      <speaker>Stran.</speaker>
+      <p>Yes.</p>
+     </sp>
+     <sp who="#L0326_M6">
+      <speaker>Fran.</speaker>
+      <p>I'll put it by; perhaps at night——</p>
+     </sp>
+     <sp who="#L0326_M1">
+      <speaker>Stran.</speaker>
+      <p>Perhaps.</p>
+     </sp>
+     <sp who="#L0326_M6">
+      <speaker>Fran.</speaker>
+      <stage>(after a pause)</stage>
+      <p>Dear sir, dare I speak ?</p>
+     </sp>
+     <sp who="#L0326_M1">
+      <speaker>Stran.</speaker>
+      <p>Speak.</p>
+     </sp>
+     <sp who="#L0326_M6">
+      <speaker>Fran.</speaker>
+      <p>You have done a noble action.</p>
+     </sp>
+     <sp who="#L0326_M1">
+      <speaker>Stran.</speaker>
+      <p>What?</p>
+     </sp>
+     <sp who="#L0326_M6">
+      <speaker>Fran.</speaker>
+      <p>You have saved a fellow-creature's life.</p>
+     </sp>
+     <sp who="#L0326_M1">
+      <speaker>Stran.</speaker>
+      <p>Peace!</p>
+     </sp>
+     <sp who="#L0326_M6">
+      <speaker>Fran.</speaker>
+      <p>Do you know who he was?</p>
+     </sp>
+     <sp who="#L0326_M1">
+      <speaker>Stran.</speaker>
+      <p>No.</p>
+     </sp>
+     <sp who="#L0326_M6">
+      <speaker>Fran.</speaker>
+      <p>The only son of Count Wintersen.</p>
+     </sp>
+     <sp who="#L0326_M1">
+      <speaker>Stran.</speaker>
+      <p>Immaterial.</p>
+     </sp>
+     <sp who="#L0326_M6">
+      <speaker>Fran.</speaker>
+      <p>A gentleman, by report, worthy and benevolent as yourself.</p>
+     </sp>
+     <sp who="#L0326_M1">
+      <speaker>Stran.</speaker>
+      <stage>(angry)</stage>
+      <p>Silence! Dare you flatter me ?</p>
+     </sp>
+     <sp who="#L0326_M6">
+      <speaker>Fran.</speaker>
+      <p>As I look to heaven for mercy, I speak from my heart. When I observe how you are doing good
+       around you, how you are making every individual's wants your own, and are yet yourself
+       unhappy, alas! my heart bleeds for you.</p>
+     </sp>
+     <pb n="28"/>
+     <sp who="#L0326_M1">
+      <speaker>Stran.</speaker>
+      <p>I thank you, Francis. I can only thank you. Yet, share this consolation with me :— my
+       sufferings are unmerited.</p>
+     </sp>
+     <sp who="#L0326_M6">
+      <speaker>Fran.</speaker>
+      <p>My poor master!</p>
+     </sp>
+     <sp who="#L0326_M1">
+      <speaker>Stran.</speaker>
+      <p>Have you forgotten what the old man said this morning? " There is another and a better
+       world!" Oh, 'twas true. Then let us hope with fervency, and yet endure with patience! What's
+       here ?</p>
+     </sp>
+     <stage>Enter Charlotte from the park gate, C. from L.</stage>
+     <sp who="#L0326_F10">
+      <speaker>Charl.</speaker>
+      <p>I presume, sir, you are the strange gentleman that drew my young master out of the water?
+        <stage>(to Stranger, R.)</stage> Or—— <stage>(to Francis, L.)</stage> are you he ? Are the
+       creatures both dumb ? <stage>(looks at them by turns)</stage> Surely old Solomon has fixed
+       two statues here, by way of ornament; for of any use there is no sign. <stage>(approaches
+        Francis)</stage> No, this is alive, and breathes ; yes, and moves its eyes. <stage>(bawls in
+        his ear)</stage> Good friend!</p>
+     </sp>
+     <sp who="#L0326_M6">
+      <speaker>Fran.</speaker>
+      <p>I'm not deaf.</p>
+     </sp>
+     <sp who="#L0326_F10">
+      <speaker>Charl.</speaker>
+      <p>Nor dumb, I perceive at last. Is yon lifeless thing your master?</p>
+     </sp>
+     <sp who="#L0326_M6">
+      <speaker>Fran.</speaker>
+      <p>That honest, silent gentleman is my master.</p>
+     </sp>
+     <sp who="#L0326_F10">
+      <speaker>Charl.</speaker>
+      <p>The same that saved the young Count's life ?</p>
+     </sp>
+     <sp who="#L0326_M6">
+      <speaker>Fran.</speaker>
+      <p>The same.</p>
+     </sp>
+     <sp who="#L0326_F10">
+      <speaker>Charl.</speaker>
+      <stage>(to Stranger)</stage>
+      <p>Sir, my master and mistress, the Count and Countess, present their respectful compliments,
+       and request the honour of your company at a family supper this evening.</p>
+     </sp>
+     <sp who="#L0326_M1">
+      <speaker>Stran.</speaker>
+      <p>I shall not come.</p>
+     </sp>
+     <sp who="#L0326_F10">
+      <speaker>Charl.</speaker>
+      <p>But you'll scarce send such an uncivil answer as this. The Count is overpowered with
+       gratitude. You have saved his son's life !</p>
+     </sp>
+     <sp who="#L0326_M1">
+      <speaker>Stran.</speaker>
+      <p>I did it willingly.</p>
+     </sp>
+     <sp who="#L0326_F10">
+      <speaker>Charl.</speaker>
+      <p>And won't accept of "I thank you," in return?</p>
+     </sp>
+     <sp who="#L0326_M1">
+      <speaker>Stran.</speaker>
+      <p>No.</p>
+     </sp>
+     <sp who="#L0326_F10">
+      <speaker>Charl.</speaker>
+      <p>You really are cruel, sir, I must tell you. There are three of us ladies at the castle, and
+       we are all dying with curiosity to know who you are.</p>
+     </sp>
+     <stage>Exit Stranger to lodge, R.</stage>
+     <sp who="#L0326_F10">
+      <speaker>Charl.</speaker>
+      <p>The master is crabbed enough, however; let me try what I can make of the man. Pray, sir—
+        <stage>(Francis turns his
+        <pb n="29"/>back to her)</stage> The beginning promises little enough. Friend, why won't you
+       look at me ?</p>
+     </sp>
+     <sp who="#L0326_M6">
+      <speaker>Fran.</speaker>
+      <p>I like to look on green trees better than green eyes.</p>
+     </sp>
+     <sp who="#L0326_F10">
+      <speaker>Charl.</speaker>
+      <p>Green eyes, you monster ! Who told you that my eyes were green ? Let me tell you that there
+       have been sonnets made on my eyes before now.</p>
+     </sp>
+     <sp who="#L0326_M6">
+      <speaker>Fran.</speaker>
+      <p>Glad to hear it.</p>
+     </sp>
+     <sp who="#L0326_F10">
+      <speaker>Charl.</speaker>
+      <p>To the point then at once. What is your master?</p>
+     </sp>
+     <sp who="#L0326_M6">
+      <speaker>Fran.</speaker>
+      <p>A man.</p>
+     </sp>
+     <sp who="#L0326_F10">
+      <speaker>Charl.</speaker>
+      <p>I surmised as much. But what's his name ?</p>
+     </sp>
+     <sp who="#L0326_M6">
+      <speaker>Fran.</speaker>
+      <p>The same as his father's.</p>
+     </sp>
+     <sp who="#L0326_F10">
+      <speaker>Charl.</speaker>
+      <p>Not unlikely ;— and his father was——</p>
+     </sp>
+     <sp who="#L0326_M6">
+      <speaker>Fran.</speaker>
+      <p>Married.</p>
+     </sp>
+     <sp who="#L0326_F10">
+      <speaker>Charl.</speaker>
+      <p>To whom ?</p>
+     </sp>
+     <sp who="#L0326_M6">
+      <speaker>Fran.</speaker>
+      <p>To a woman.</p>
+     </sp>
+     <sp who="#L0326_F10">
+      <speaker>Charl.</speaker>
+      <stage>(enraged)</stage>
+      <p>I'll tell you what: who your master is, I see I shall not learn, and I don't care; but I
+       know what you are.</p>
+     </sp>
+     <sp who="#L0326_M6">
+      <speaker>Fran.</speaker>
+      <p>Well, what am I ?</p>
+     </sp>
+     <sp who="#L0326_F10">
+      <speaker>Charl.</speaker>
+      <stage>(slaps his face)</stage>
+      <p>A bear !</p>
+     </sp>
+     <stage>Exit, C. and L.</stage>
+     <sp who="#L0326_M6">
+      <speaker>Fran.</speaker>
+      <p>Thank you! Now to see how habit and example corrupt one's manners. I am naturally the
+       civilest-spoken fellow in the world to the pretty prattling rogues ; yet, following my
+       master's humour, I've rudely driven this wench away.</p>
+     </sp>
+     <stage>Enter Stranger from lodge, R.</stage>
+     <sp who="#L0326_M1">
+      <speaker>Stran.</speaker>
+      <p>Is that woman gone ?</p>
+     </sp>
+     <sp who="#L0326_M6">
+      <speaker>Fran.</speaker>
+      <p>Yes.</p>
+     </sp>
+     <sp who="#L0326_M1">
+      <speaker>Stran.</speaker>
+      <p>Francis!</p>
+     </sp>
+     <sp who="#L0326_M6">
+      <speaker>Fran.</speaker>
+      <p>Sir.</p>
+     </sp>
+     <sp who="#L0326_M1">
+      <speaker>Stran.</speaker>
+      <p>We must be gone, too.</p>
+     </sp>
+     <sp who="#L0326_M6">
+      <speaker>Fran.</speaker>
+      <p>But whither?</p>
+     </sp>
+     <sp who="#L0326_M1">
+      <speaker>Stran.</speaker>
+      <p>I don't care.</p>
+     </sp>
+     <sp who="#L0326_M6">
+      <speaker>Fran.</speaker>
+      <p>I'll attend you.</p>
+     </sp>
+     <sp who="#L0326_M1">
+      <speaker>Stran.</speaker>
+      <p>To any place ?</p>
+     </sp>
+     <sp who="#L0326_M6">
+      <speaker>Fran.</speaker>
+      <p>To death.</p>
+     </sp>
+     <sp who="#L0326_M1">
+      <speaker>Stran.</speaker>
+      <p>Heaven grant it! —to me, at least. There is peace!</p>
+     </sp>
+     <sp who="#L0326_M6">
+      <speaker>Fran.</speaker>
+      <p>Peace is everywhere. Let the storm rage without,
+       <pb n="30"/>if the heart be but at rest. Yet, I think we are very well where we are : the
+       situation is inviting ; and nature lavish of her beauties, and of her bounties too.</p>
+     </sp>
+     <sp who="#L0326_M1">
+      <speaker>Stran.</speaker>
+      <p>But I am not a wild beast to be stared at, and sent for as a show. Is it fit I should be
+       ?</p>
+     </sp>
+     <sp who="#L0326_M6">
+      <speaker>Fran.</speaker>
+      <p>Another of your interpretations! That a man, the life of whose only son you have saved,
+       should invite you to his house, seems to me not very unnatural.</p>
+     </sp>
+     <sp who="#L0326_M1">
+      <speaker>Stran.</speaker>
+      <p>I will not be invited to any house.</p>
+     </sp>
+     <sp who="#L0326_M6">
+      <speaker>Fran.</speaker>
+      <p>For once, methinks, you might submit. You will not be asked a second time.</p>
+     </sp>
+     <sp who="#L0326_M1">
+      <speaker>Stran.</speaker>
+      <p>Proud wretches !— they believe the most essential service is requited, if one may but have
+       the honour of sitting at their table. Let us be gone.</p>
+     </sp>
+     <sp who="#L0326_M6">
+      <speaker>Fran.</speaker>
+      <p>Yet hold, sir! This bustle will soon be over. Used to the town, the Count and his party
+       will soon be tired of simple nature, and you will again be freed from observation.</p>
+     </sp>
+     <sp who="#L0326_M1">
+      <speaker>Stran.</speaker>
+      <p>Not from yours.</p>
+     </sp>
+     <sp who="#L0326_M6">
+      <speaker>Fran.</speaker>
+      <p>This is too much ! Do I deserve your doubts ?</p>
+     </sp>
+     <sp who="#L0326_M1">
+      <speaker>Stran.</speaker>
+      <p>Am I in the wrong ?</p>
+     </sp>
+     <sp who="#L0326_M6">
+      <speaker>Fran.</speaker>
+      <p>You are indeed !</p>
+     </sp>
+     <sp who="#L0326_M1">
+      <speaker>Stran.</speaker>
+      <p>Francis, my servant, you are my only friend. <stage>(giving his hand)</stage>
+      </p>
+     </sp>
+     <sp who="#L0326_M6">
+      <speaker>Fran.</speaker>
+      <p>That title makes amends for all. <stage>(kisses it)</stage>
+      </p>
+     </sp>
+     <sp who="#L0326_M1">
+      <speaker>Stran.</speaker>
+      <p>But look, Francis! there are uniforms and gay dresses in the walk again. No, I must be
+       gone. Here I'll stay no longer.</p>
+     </sp>
+     <sp who="#L0326_M6">
+      <speaker>Fran.</speaker>
+      <p>Well, then, I'll tie up my bundle.</p>
+     </sp>
+     <sp who="#L0326_M1">
+      <speaker>Stran.</speaker>
+      <p>The sooner the better. They come this way. Now must I shut myself in my hovel, and lose
+       this fine breeze. Nay, if they be your high-bred class of all, they may have impudence enough
+       to walk into my chamber. Francis, I shall lock the door. <stage>(goes into the lodge, R.,
+        locks the door, and fastens the shutters)</stage>
+      </p>
+     </sp>
+     <sp who="#L0326_M6">
+      <speaker>Fran.</speaker>
+      <p>And I'll be your sentinel. Should these people be as inquisitive as their maid, I must
+       summon my whole stock of impertinence. But their questions and my answers need little study.
+       They can learn nothing of the Stranger from me ; for the best of all possible reasons— I know
+       nothing myself. <stage>(goes, R.)</stage>
+      </p>
+     </sp>
+     <pb n="31"/>
+     <stage>Enter Baron and Countess, at Park Gate, C. from L.</stage>
+     <sp who="#L0326_F9">
+      <speaker>Countess.</speaker>
+      <p>There is a strange face the servant, probably.</p>
+     </sp>
+     <sp who="#L0326_M2">
+      <speaker>Baron.</speaker>
+      <stage>(C.)</stage>
+      <p>Friend, can we speak to your master?</p>
+     </sp>
+     <sp who="#L0326_M6">
+      <speaker>Fran.</speaker>
+      <stage>(R.)</stage>
+      <p>No.</p>
+     </sp>
+     <sp who="#L0326_M2">
+      <speaker>Baron.</speaker>
+      <p>Only for a few minutes.</p>
+     </sp>
+     <sp who="#L0326_M6">
+      <speaker>Fran.</speaker>
+      <p>He has locked himself in his room.</p>
+     </sp>
+     <sp who="#L0326_F9">
+      <speaker>Countess.</speaker>
+      <stage>(L. C.)</stage>
+      <p>Tell him a lady waits for him.</p>
+     </sp>
+     <sp who="#L0326_M6">
+      <speaker>Fran.</speaker>
+      <p>Then he's sure not to come.</p>
+     </sp>
+     <sp who="#L0326_F9">
+      <speaker>Countess.</speaker>
+      <p>Does he hate our sex?</p>
+     </sp>
+     <sp who="#L0326_M6">
+      <speaker>Fran.</speaker>
+      <p>He hates the whole human race, but woman particularly.</p>
+     </sp>
+     <sp who="#L0326_F9">
+      <speaker>Countess.</speaker>
+      <p>And why ?</p>
+     </sp>
+     <sp who="#L0326_M6">
+      <speaker>Fran.</speaker>
+      <p>He may perhaps have been deceived.</p>
+     </sp>
+     <sp who="#L0326_F9">
+      <speaker>Countess.</speaker>
+      <p>This is not very courteous.</p>
+     </sp>
+     <sp who="#L0326_M6">
+      <speaker>Fran.</speaker>
+      <p>My master is not over courteous : but when he sees a chance of saving a fellow-creature's
+       life, he'll attempt it at the peril of his own.</p>
+     </sp>
+     <sp who="#L0326_M2">
+      <speaker>Baron.</speaker>
+      <p>You are right. Now hear the reason of our visit. The wife and brother-in-law of the man
+       whose child your master has saved, wish to acknowledge their obligations to him.</p>
+     </sp>
+     <sp who="#L0326_M6">
+      <speaker>Fran.</speaker>
+      <p>That he dislikes. He only wishes to live unnoticed.</p>
+     </sp>
+     <sp who="#L0326_F9">
+      <speaker>Countess.</speaker>
+      <p>He appears to be unfortunate.</p>
+     </sp>
+     <sp who="#L0326_M6">
+      <speaker>Fran.</speaker>
+      <p>Appears!</p>
+     </sp>
+     <sp who="#L0326_F9">
+      <speaker>Countess.</speaker>
+      <p>An affair of honour, perhaps, or some unhappy attachment may have-——</p>
+     </sp>
+     <sp who="#L0326_M6">
+      <speaker>Fran.</speaker>
+      <p>They may.</p>
+     </sp>
+     <sp who="#L0326_F9">
+      <speaker>Countess.</speaker>
+      <p>Be this as it may, I wish to know who he is.</p>
+     </sp>
+     <sp who="#L0326_M6">
+      <speaker>Fran.</speaker>
+      <p>So do I.</p>
+     </sp>
+     <sp who="#L0326_F9">
+      <speaker>Countess.</speaker>
+      <p>What! don't you know him yourself?</p>
+     </sp>
+     <sp who="#L0326_M6">
+      <speaker>Fran.</speaker>
+      <p>Oh ! I know him well enough —I mean his real self —his heart —his soul— his worth —his
+       honour ! Perhaps you think one knows a man, when one is acquainted with his name and person
+       ?</p>
+     </sp>
+     <sp who="#L0326_F9">
+      <speaker>Countess.</speaker>
+      <p>’Tis well said, friend ; you please me much. And now I should like to know you. Who are you
+       ?</p>
+     </sp>
+     <sp who="#L0326_M6">
+      <speaker>Fran.</speaker>
+      <p>Your humble servant. <stage>(bows)</stage>
+      </p>
+     </sp>
+     <stage>Exit, R.</stage>
+     <sp who="#L0326_F9">
+      <speaker>Countess.</speaker>
+      <p>Nay, now, this is affectation —a desire to
+       <pb n="32"/> appear singular! Every one wishes to make himself distinguished. One sails round
+       the world; another creeps into a hovel.</p>
+     </sp>
+     <sp who="#L0326_M2">
+      <speaker>Baron.</speaker>
+      <p>And the man apes his master !</p>
+     </sp>
+     <sp who="#L0326_F9">
+      <speaker>Countess.</speaker>
+      <p>Come, brother, let us seek the Count. He and Mrs. Haller turned into the lawn.</p>
+     </sp>
+     <sp who="#L0326_M2">
+      <speaker>Baron.</speaker>
+      <p>Stay. First, a word or two, sister; I am in love.</p>
+     </sp>
+     <sp who="#L0326_F9">
+      <speaker>Countess.</speaker>
+      <p>For the hundredth time.</p>
+     </sp>
+     <sp who="#L0326_M2">
+      <speaker>Baron.</speaker>
+      <p>For the first time in my life.</p>
+     </sp>
+     <sp who="#L0326_F9">
+      <speaker>Countess.</speaker>
+      <p>I wish you joy.</p>
+     </sp>
+     <sp who="#L0326_M2">
+      <speaker>Baron.</speaker>
+      <p>Till now you have evaded my inquiries. Who is she ? I beseech you, sister, be serious.
+       There is a time for all things.</p>
+     </sp>
+     <sp who="#L0326_F9">
+      <speaker>Countess.</speaker>
+      <p>Bless us! Why, you look as if you were going to raise a spirit. Don't fix your eyes so
+       earnestly. Well, if I am to be serious, I obey. I do not know who Mrs. Haller is, as I have
+       already told you; but what I do know of her shall not be concealed from you. It may now be
+       three years ago, when one evening, about twilight, a lady was announced who wished to speak
+       to me in private. Mrs. Haller appeared, with all that grace and modesty which have enchanted
+       you. Her features at that moment bore keener marks of the sorrow and confusion which have
+       since settled into gentle melancholy. She threw herself at my feet, and besought me to save a
+       wretch who was on the brink of despair. She told me she had heard much of my benevolence, and
+       offered herself as a servant to attend me. I endeavoured to dive into the cause of her
+       sufferings, but in vain. She concealed her secret, yet opened to me more and more each day a
+       heart, chosen by Virtue as her temple, and an understanding improved by the most refined
+       attainments. She no longer remained my servant, but became my friend and, by her own desire,
+       has ever since resided here. <stage>(curtseying)</stage> Brother, I have done.</p>
+     </sp>
+     <sp who="#L0326_M2">
+      <speaker>Baron.</speaker>
+      <p>Too little to satisfy my curiosity; yet enough to make me realise my project. Sister, lend
+       me your aid I would marry her.</p>
+     </sp>
+     <sp who="#L0326_F9">
+      <speaker>Countess.</speaker>
+      <p>You !</p>
+     </sp>
+     <sp who="#L0326_M2">
+      <speaker>Baron.</speaker>
+      <p>I.</p>
+     </sp>
+     <pb n="33"/>
+     <sp who="#L0326_F9">
+      <speaker>Countess.</speaker>
+      <p>Baron Steinfort!</p>
+     </sp>
+     <sp who="#L0326_M2">
+      <speaker>Baron.</speaker>
+      <p>For shame ! if I understand you.</p>
+     </sp>
+     <sp who="#L0326_F9">
+      <speaker>Countess.</speaker>
+      <p>Not so harsh, and not so hasty! Those great sentiments of contempt of inequality in rank
+       are very fine in a romance ; but we happen not to be inhabitants of an ideal world. How could
+       you introduce her to the circle we live in ? You surely would not attempt to present her
+       to——</p>
+     </sp>
+     <sp who="#L0326_M2">
+      <speaker>Baron.</speaker>
+      <p>Object as you will; my answer is— I love. Sister, you see a man before you who——</p>
+     </sp>
+     <sp who="#L0326_F9">
+      <speaker>Countess.</speaker>
+      <p>Who wants a wife.</p>
+     </sp>
+     <sp who="#L0326_M2">
+      <speaker>Baron.</speaker>
+      <p>No ; who has deliberately poised advantage against disadvantage —domestic ease and comfort
+       against the false gaieties of fashion. I can withdraw into the country. I need no honours to
+       make my tenants happy, and my heart will teach me to make their happiness my own. With such a
+       wife as this, children who resemble her, and fortune enough to spread comfort around me, what
+       would the soul of man have more ?</p>
+     </sp>
+     <sp who="#L0326_F9">
+      <speaker>Countess.</speaker>
+      <p>This is all vastly fine. I admire your plan; only you seem to have forgotten one trifling
+       circumstance.</p>
+     </sp>
+     <sp who="#L0326_M2">
+      <speaker>Baron.</speaker>
+      <p>And that is ?——</p>
+     </sp>
+     <sp who="#L0326_F9">
+      <speaker>Countess.</speaker>
+      <p>Whether Mrs. Haller will have you or not.</p>
+     </sp>
+     <sp who="#L0326_M2">
+      <speaker>Baron.</speaker>
+      <p>There, sister, I just want your assistance. <stage>(seizing her hand)</stage> Good
+       Henrietta !</p>
+     </sp>
+     <sp who="#L0326_F9">
+      <speaker>Countess.</speaker>
+      <p>Well, here's my hand : I'll do all I can for you. St! We had near been overheard. They are
+       coming, —be patient and obedient.</p>
+     </sp>
+     <stage>Enter Count, and Mrs. Haller leaning on his arm, C.from L.</stage>
+     <sp who="#L0326_M3">
+      <speaker>Count.</speaker>
+      <p>Upon my word, Mrs. Haller, you are a nimble walker —I should be sorry to run a race with
+       you.</p>
+     </sp>
+     <sp who="#L0326_F8">
+      <speaker>Mrs. H.</speaker>
+      <p>Custom, my lord: you need only take the same walk every day for a month.</p>
+     </sp>
+     <sp who="#L0326_M3">
+      <speaker>Count.</speaker>
+      <p>Yes, if I wanted to resemble my greyhounds ! But what said the Stranger ?</p>
+     </sp>
+     <sp who="#L0326_F9">
+      <speaker>Countess.</speaker>
+      <p>He gave Charlotte a flat refusal; and you see his door, and even his shutters, are closed
+       against us.</p>
+     </sp>
+     <sp who="#L0326_M3">
+      <speaker>Count.</speaker>
+      <p>What an unaccountable being ! But it won't do —I must show my gratitude one way or other.
+       Steinfort,
+       <pb n="34"/>we will take the ladies home, and then you shall try once again to see him : you
+       can talk to these oddities better than I can.</p>
+     </sp>
+     <sp who="#L0326_M2">
+      <speaker>Baron.</speaker>
+      <p>If you wish it, with all my heart.</p>
+     </sp>
+     <sp who="#L0326_M3">
+      <speaker>Count.</speaker>
+      <p>Thank you —thank you. Come, ladies come, —Mrs. Haller.</p>
+     </sp>
+     <stage>Exeunt, C. and L.</stage>
+    </div>
+    <div type="scene">
+     <head>Scene II. A close Walk in the Garden.</head>
+     <stage>Enter Countess and Mrs. Haller, R.</stage>
+     <sp who="#L0326_F9">
+      <speaker>Countess.</speaker>
+      <p>Well, Mrs. Haller, how do you like the man that just now left us ?</p>
+     </sp>
+     <sp who="#L0326_F8">
+      <speaker>Mrs. H.</speaker>
+      <p>Who ?</p>
+     </sp>
+     <sp who="#L0326_F9">
+      <speaker>Countess.</speaker>
+      <p>My brother.</p>
+     </sp>
+     <sp who="#L0326_F8">
+      <speaker>Mrs. H.</speaker>
+      <p>He deserves to be your brother.</p>
+     </sp>
+     <sp who="#L0326_F9">
+      <speaker>Countess.</speaker>
+      <stage>(curtseying)</stage>
+      <p>Your most obedient! that shall be written in my pocket-book.</p>
+     </sp>
+     <sp who="#L0326_F8">
+      <speaker>Mrs. H.</speaker>
+      <p>Without flattery, then, madam, he appears to me most amiable.</p>
+     </sp>
+     <sp who="#L0326_F9">
+      <speaker>Countess.</speaker>
+      <p>Good ! And a handsome man ?</p>
+     </sp>
+     <sp who="#L0326_F8">
+      <speaker>Mrs. H.</speaker>
+      <stage>(with indifference)</stage>
+      <p>Oh, yes !</p>
+     </sp>
+     <sp who="#L0326_F9">
+      <speaker>Countess.</speaker>
+      <p>"Oh, yes !" It sounded almost like "Oh, no!" But I must tell you, that he looks upon you to
+       be a handsome woman. <stage>(Mrs. Haller smiles)</stage> You make no reply to this ?</p>
+     </sp>
+     <sp who="#L0326_F8">
+      <speaker>Mrs. H.</speaker>
+      <p>What shall I reply ? Derision never fell from your lips ; and I am little calculated to
+       support it.</p>
+     </sp>
+     <sp who="#L0326_F9">
+      <speaker>Countess.</speaker>
+      <p>As little as you are calculated to be the cause it. No, I was in earnest. Now ?</p>
+     </sp>
+     <sp who="#L0326_F8">
+      <speaker>Mrs. H.</speaker>
+      <p>You confuse me! But why should I play the prude ? I will own there was a time when I
+       thought myself handsome, —'tis past. Alas ! the enchanting beauties of a female countenance
+       arise from peace of mind— the look which captivates an honourable man must be reflected from
+       a noble soul.</p>
+     </sp>
+     <sp who="#L0326_F9">
+      <speaker>Countess.</speaker>
+      <p>Then heaven grant my bosom may ever hold as pure a heart, as now those eyes bear witness,
+       lives in yours!</p>
+     </sp>
+     <sp who="#L0326_F8">
+      <speaker>Mrs. H.</speaker>
+      <stage>(with sudden wildness)</stage>
+      <p>Oh ! heaven forbid !</p>
+     </sp>
+     <sp who="#L0326_F9">
+      <speaker>Countess.</speaker>
+      <stage>(astonished)</stage>
+      <p>How ?</p>
+     </sp>
+     <sp who="#L0326_F8">
+      <speaker>Mrs. H.</speaker>
+      <stage>(checking her tears)</stage>
+      <p>Spare me! I am a wretch!
+       <pb n="35"/>The sufferings of three years can give me no claim to your friendship :— no, not
+       even to your compassion. Oh ! spare me! <stage>(going)</stage>
+      </p>
+     </sp>
+     <sp who="#L0326_F9">
+      <speaker>Countess.</speaker>
+      <p>Stay, Mrs. Haller. For the first time, I beg your confidence :— my brother loves you.</p>
+     </sp>
+     <sp who="#L0326_F8">
+      <speaker>Mrs. H.</speaker>
+      <stage>(starting and gazing full in the face of the Countess)</stage>
+      <p>For mirth, too much —for earnest, too mournful!</p>
+     </sp>
+     <sp who="#L0326_F9">
+      <speaker>Countess.</speaker>
+      <p>I revere that modest blush. Discover to me who you are. You risk nothing. Pour all your
+       griefs into a sister's bosom. Am I not kind? and can I not be silent ?</p>
+     </sp>
+     <sp who="#L0326_F8">
+      <speaker>Mrs. H.</speaker>
+      <p>Alas ! but a frank reliance upon a generous mind is the greatest sacrifice to be offered by
+       true repentance. This sacrifice I will offer, <stage>(hesitating)</stage> Did you never hear
+       —pardon me, did you never hear —Oh! how shocking is it to unmask a deception, which alone has
+       recommended me to your regard! But it must be so. Madam! —fie, Adelaide ! does pride become
+       you? Did you never hear of the Countess Waldbourg ?</p>
+     </sp>
+     <sp who="#L0326_F9">
+      <speaker>Countess.</speaker>
+      <p>I think I did hear, at the neighbouring court, of such a creature. She plunged an
+       honourable husband into misery. She ran away with a villain.</p>
+     </sp>
+     <sp who="#L0326_F8">
+      <speaker>Mrs. H.</speaker>
+      <p>She did indeed. <stage>(falls at the feet of the Countess)</stage> Do not cast me away from
+       you.</p>
+     </sp>
+     <sp who="#L0326_F9">
+      <speaker>Countess.</speaker>
+      <p>For heaven's sake ! you are——</p>
+     </sp>
+     <sp who="#L0326_F8">
+      <speaker>Mrs. H.</speaker>
+      <p>I am that wretch!</p>
+     </sp>
+     <sp who="#L0326_F9">
+      <speaker>Countess.</speaker>
+      <stage>(turning from her with horror)</stage>
+      <p>Ha!— be gone! <stage>(going, her heart draws her back)</stage> Yet, she is unfortunate ;
+       she is unfriended! Her image is repentance —her life the proof:— she has wept her fault in
+       three years' agony. Be still awhile, remorseless prejudice, and let the genuine feelings of
+       my soul avow: they do not truly honour Virtue, who can insult the erring heart that would
+       return to her sanctuary. <stage>(looking with sorrow on her)</stage> Rise, I beseech you
+       rise! My husband and my brother may surprise us. I promise to be silent. <stage>(raising
+        her)</stage>
+      </p>
+     </sp>
+     <sp who="#L0326_F8">
+      <speaker>Mrs. H.</speaker>
+      <p>Yes, you will be silent— but, oh, conscience! conscience! thou never wilt be silent.
+        <stage>(clasping her hand)</stage> Do not cast me from you.</p>
+     </sp>
+     <sp who="#L0326_F9">
+      <speaker>Countess.</speaker>
+      <p>Never! Your lonely life, your silent anguish,
+       <pb n="36"/>and contrition, may at length atone your crime; and never shall you want an
+       asylum, where your penitence may lament your loss.</p>
+     </sp>
+     <sp who="#L0326_F8">
+      <speaker>Mrs. H.</speaker>
+      <p>Yes, I have lost him ! But —I had children, too.</p>
+     </sp>
+     <sp who="#L0326_F9">
+      <speaker>Countess.</speaker>
+      <p>Enough, enough!</p>
+     </sp>
+     <sp who="#L0326_F8">
+      <speaker>Mrs. H.</speaker>
+      <p>Oh, madam! I would only know whether they are alive or dead! That, for a mother, is not
+       much.</p>
+     </sp>
+     <sp who="#L0326_F9">
+      <speaker>Countess.</speaker>
+      <p>Compose yourself.</p>
+     </sp>
+     <sp who="#L0326_F8">
+      <speaker>Mrs. H.</speaker>
+      <p>Oh! had you known my husband when I first beheld him ! I was then scarcely sixteen years of
+       age.</p>
+     </sp>
+     <sp who="#L0326_F9">
+      <speaker>Countess.</speaker>
+      <p>And your marriage?</p>
+     </sp>
+     <sp who="#L0326_F8">
+      <speaker>Mrs. H.</speaker>
+      <p>A few months after.</p>
+     </sp>
+     <sp who="#L0326_F9">
+      <speaker>Countess.</speaker>
+      <p>And your flight ?</p>
+     </sp>
+     <sp who="#L0326_F8">
+      <speaker>Mrs. H.</speaker>
+      <p>I lived three years with him.</p>
+     </sp>
+     <sp who="#L0326_F9">
+      <speaker>Countess.</speaker>
+      <p>Oh, my friend ! your crime was youth and inexperience : your heart never was, never could
+       be concerned in it.</p>
+     </sp>
+     <sp who="#L0326_F8">
+      <speaker>Mrs. H.</speaker>
+      <p>Oh! spare me ! My conscience never martyrs me so horribly, as when I catch my base thoughts
+       in search of an excuse. No, nothing can palliate my guilt; and the only just consolation left
+       me, is to acquit the man I wronged, and own I erred without a cause of fair complaint.</p>
+     </sp>
+     <sp who="#L0326_F9">
+      <speaker>Countess.</speaker>
+      <p>And this is the mark of true repentance. Alas! my friend, when superior sense,recommended
+       too by superior charms of person, assails a young, though wedded——</p>
+     </sp>
+     <sp who="#L0326_F8">
+      <speaker>Mrs. H.</speaker>
+      <p>Ah! not even that mean excuse is left me. In all that merits admiration, respect, and love,
+       he was far, far beneath my husband. But to attempt to account for my infatuation —I cannot
+       bear it! 'Tis true, I thought my husband's manner grew colder to me ; I knew that his
+       expenses, and his confidence in deceitful friends, had embarrassed his means, and clouded his
+       spirits; yet, I thought he denied me pleasures and amusements, still within our reach. My
+       vanity was mortified — my confidence not courted! The serpent tongue of my seducer promised
+       everything ! But never could such arguments avail, till assisted by forged letters, and the
+       treachery of a servant whom I most confided in; he fixed my belief that my lord
+       <pb n="37"/>was false, and that all the coldness I complained of, was disgust to me, and love
+       for another; all his home retrenchments, but the means of satisfying a rival's luxury.
+       Maddened with this conviction, (conviction it was, for artifice was most ingenious in its
+       proof) I left my children — father — husband to follow — a villain !</p>
+     </sp>
+     <sp who="#L0326_F9">
+      <speaker>Countess.</speaker>
+      <p>But, with such a heart, my friend could not remain long in her delusion ?</p>
+     </sp>
+     <sp who="#L0326_F8">
+      <speaker>Mrs. H.</speaker>
+      <p>Long enough to make sufficient penitence impossible. 'Tis true that in a few weeks the
+       delirium was at an end. Oh! what were my sensations when the mist dispersed before my eyes !
+       I called for my husband, but in vain ! I listened for the prattle of my children, but -in
+       vain!</p>
+     </sp>
+     <sp who="#L0326_F9">
+      <speaker>Countess.</speaker>
+      <p>Check the recollection. I guess the end — you left your seducer?</p>
+     </sp>
+     <sp who="#L0326_F8">
+      <speaker>Mrs. H.</speaker>
+      <p>I did — and fled to you. To you, who have given me a spot where I might weep, and who will
+       give me a spot where I may die.</p>
+     </sp>
+     <sp who="#L0326_F9">
+      <speaker>Countess.</speaker>
+      <stage>(embracing her)</stage>
+      <p>Here, here, on this bosom only, shall your future tears be shed; and may I, dear sufferer,
+       make you again familiar with hope.</p>
+     </sp>
+     <sp who="#L0326_F8">
+      <speaker>Mrs. H.</speaker>
+      <p>Oh ! impossible!</p>
+     </sp>
+     <sp who="#L0326_F9">
+      <speaker>Countess.</speaker>
+      <p>Have you never heard of your children ?</p>
+     </sp>
+     <sp who="#L0326_F8">
+      <speaker>Mrs. H.</speaker>
+      <p>Never!</p>
+     </sp>
+     <sp who="#L0326_F9">
+      <speaker>Countess.</speaker>
+      <p>We must endeavour to gain some account of them. We must——Hold! my husband and my brother.
+       Oh, my poor brother! I had quite forgotten him. Quick ! dear Mrs. Haller, wipe your eyes. Let
+       us meet them.</p>
+     </sp>
+     <sp who="#L0326_F8">
+      <speaker>Mrs. H.</speaker>
+      <p>Madam, I'll follow. Allow me a moment to compose myself.</p>
+     </sp>
+     <stage>Exit Countess, L.</stage>
+     <sp who="#L0326_F8">
+      <speaker>Mrs. H.</speaker>
+      <p>I pause ! Oh ! yes — to compose myself! <stage>(ironically)</stage> She little thinks it is
+       but to gain one solitary moment to vent my soul's remorse. Once the purpose of my unsettled
+       mind was self-destruction! Heaven knows how I have sued for hope and resignation. I did trust
+       my prayers were heard. Oh ! spare me further trial! I feel — I feel — my heart and brain can
+       bear no more.</p>
+     </sp>
+     <stage>Exit, R.</stage>
+    </div>
+    <trailer>End of Act III.</trailer>
+   </div>
+   <pb n="38"/>
+   <div type="act" n="4">
+    <div type="scene" n="1">
+     <head>Scene I. The skirts of the Park, Lodge, &amp;c, as before A table spread with fruits,
+      &amp;c.</head>
+     <stage>Francis discovered, R., placing the supper.</stage>
+     <sp who="#L0326_M6">
+      <speaker>Fran.</speaker>
+      <p>I know he loves to have his early supper in the fresh air ; and, while he sups, not that I
+       believe anything can amuse him, yet I will try my little Savoyards' pretty voices. I have
+       heard him speak as if he had loved music. <stage>(music without)</stage> Oh, here they
+       are!</p>
+     </sp>
+     <stage>Enter Annette and Savoyard, C. from L., singing—— Stranger looks from the window, and at
+      the conclusion comes, R.</stage>
+     <sp who="#L0326_M1">
+      <speaker>Stran.</speaker>
+      <p>What mummery is this ?</p>
+     </sp>
+     <sp who="#L0326_M6">
+      <speaker>Fran.</speaker>
+      <p>I hoped it might amuse you, sir.</p>
+     </sp>
+     <sp who="#L0326_M1">
+      <speaker>Stran.</speaker>
+      <p>Amuse me — fool!</p>
+     </sp>
+     <sp who="#L0326_M6">
+      <speaker>Fran.</speaker>
+      <p>Well, then, I wish to amuse myself a little. I don't think my recreations are so very
+       numerous.</p>
+     </sp>
+     <sp who="#L0326_M1">
+      <speaker>Stran.</speaker>
+      <p>That's true, my poor fellow, indeed they are not. Let them go on, <stage>(sits, R.)</stage>
+       I'll listen.</p>
+     </sp>
+     <sp who="#L0326_M6">
+      <speaker>Fran.</speaker>
+      <p>But to please you, poor master, I fear it must be a sadder strain. Annette, have you none
+       but these cheer- ful songs ?</p>
+     </sp>
+     <sp who="#L0326_F11">
+      <speaker>Ann.</speaker>
+      <p>O, plenty. If you are dolefully given, we can be as sad as night. I'll sing you an air Mrs.
+       Haller taught me, the first year she came to the castle.</p>
+      <stage>[Music may be had of the publisher.]</stage>
+      <lg>
+       <l>I have a silent sorrow here,</l>
+       <l>A grief I'll ne'er impart;</l>
+       <l>It breathes no sigh, it sheds no tear,</l>
+       <l>But it consumes my heart!</l>
+       <l>This cherish'd woe, this lov'd despair,</l>
+       <l>My lot for ever be;</l>
+       <l>So, my soul's lord, the pangs I bear,</l>
+       <l>Be never known by thee!</l>
+      </lg>
+      <lg>
+       <l>And when pale characters of death</l>
+       <l>Shall mark this altered cheek;</l>
+       <l>When my poor wasted trembling breath</l>
+       <l>My life's last hope would speak;</l>
+       <pb n="39"/>
+       <l>I shall not raise my eyes to heaven,</l>
+       <l>Nor mercy ask for me;</l>
+       <l>My soul despairs to be forgiven,</l>
+       <l>Unpardon'd, love, by thee.</l>
+      </lg>
+     </sp>
+     <sp who="#L0326_M1">
+      <speaker>Stran.</speaker>
+      <p><stage>(surprised and moved)</stage> Oh ! I have heard that air before, but 'twas with
+       other words. Francis, share our supper with your friends — I need none.</p>
+     </sp>
+     <stage>Enters the lodge, R. 3 E.</stage>
+     <sp who="#L0326_M6">
+      <speaker>Fran.</speaker>
+      <p>So I feared. Well, my pretty favourite, here are refreshments. <stage>(looks off)</stage>
+       So, disturbed again ! Now will this gentleman call for more music, and make my master mad.
+       Return when you observe this man is gone. <stage>Exeunt Savoyards, C. and R.</stage>
+       <stage>(Francis sits and eats)</stage> I was in hopes that I might at least eat my supper
+       peaceably in the open air ; but they follow at our heels like bloodhounds.</p>
+     </sp>
+     <stage>Enter Baron, C.from L.</stage>
+     <sp who="#L0326_M2">
+      <speaker>Baron.</speaker>
+      <p>My good friend, I must speak to your master.</p>
+     </sp>
+     <sp who="#L0326_M6">
+      <speaker>Fran.</speaker>
+      <p>Can't serve you.</p>
+     </sp>
+     <sp who="#L0326_M2">
+      <speaker>Baron.</speaker>
+      <p>Why not ?</p>
+     </sp>
+     <sp who="#L0326_M6">
+      <speaker>Fran.</speaker>
+      <p>It's forbidden.</p>
+     </sp>
+     <sp who="#L0326_M2">
+      <speaker>Baron.</speaker>
+      <p><stage>(offers money)</stage> There! announce me.</p>
+     </sp>
+     <sp who="#L0326_M6">
+      <speaker>Fran.</speaker>
+      <p>I want no money.</p>
+     </sp>
+     <sp who="#L0326_M2">
+      <speaker>Baron.</speaker>
+      <p>Well, only announce me, then.</p>
+     </sp>
+     <sp who="#L0326_M6">
+      <speaker>Fran.</speaker>
+      <p>I will announce you, sir ; but it won't avail: I shall be abused, and you rejected.
+       However, we can but try.</p>
+     </sp>
+     <sp who="#L0326_M2">
+      <speaker>Baron.</speaker>
+      <p>I only ask half a minute.</p>
+     </sp>
+     <stage>Francis goes into the lodge.</stage>
+     <sp who="#L0326_M2">
+      <speaker>Baron.</speaker>
+      <p>But when he comes, how am I to treat him? I have never encountered a misanthrope before. I
+       have heard of in- structions as to conduct in society; but how I am to behave towards a being
+       who loathes the whole world,and his own existence, I have never learned.</p>
+     </sp>
+     <stage>Enter Stranger, door R. 3 E.</stage>
+     <sp who="#L0326_M1">
+      <speaker>Stran.</speaker>
+      <p>Now ; what's your will?</p>
+     </sp>
+     <sp who="#L0326_M2">
+      <speaker>Baron.</speaker>
+      <p>I beg pardon, sir, for — <stage>(suddenly recognising him)</stage> Charles !</p>
+     </sp>
+     <pb n="40"/>
+     <sp who="#L0326_M1">
+      <speaker>Stran.</speaker>
+      <p>Steinfort! <stage>(they embrace)</stage></p>
+     </sp>
+     <sp who="#L0326_M2">
+      <speaker>Baron.</speaker>
+      <p>Is it really you, my dear friend ?</p>
+     </sp>
+     <sp who="#L0326_M1">
+      <speaker>Stran.</speaker>
+      <p>It is.</p>
+     </sp>
+     <sp who="#L0326_M2">
+      <speaker>Baron.</speaker>
+      <p>Merciful heavens ! How you are altered!</p>
+     </sp>
+     <sp who="#L0326_M1">
+      <speaker>Stran.</speaker>
+      <p>The hand of misery lies heavy on me. But how came you here ? What want you ?</p>
+     </sp>
+     <sp who="#L0326_M2">
+      <speaker>Baron.</speaker>
+      <p>Strange! Here was I ruminating how to address this mysterious recluse: he appears, and
+       proves to be, my old and dearest friend.</p>
+     </sp>
+     <sp who="#L0326_M1">
+      <speaker>Stran.</speaker>
+      <p>Then you were not sent in search of me, nor knew that I lived here ?</p>
+     </sp>
+     <sp who="#L0326_M2">
+      <speaker>Baron.</speaker>
+      <p>As little as I know who lives on the summit of Caucasus. You, this morning, saved the life
+       of my brother-in-law's son; a grateful family wishes to behold you in its circle. You refused
+       my sister's messenger ; therefore, to give more weight to the invitation, I was deputed to be
+       the bearer of it. And thus has fortune restored to me a friend, whom my heart has so long
+       missed, and whom my heart just now so much requires.</p>
+     </sp>
+     <sp who="#L0326_M1">
+      <speaker>Stran.</speaker>
+      <p>Yes, I am your friend;— your sincere friend. You are a true man ;— an uncommon man. Towards
+       you my heart is still the same. But if this assurance be of any value to you — go — leave me
+       — and return no more.</p>
+     </sp>
+     <sp who="#L0326_M2">
+      <speaker>Baron.</speaker>
+      <p>Stay ! all that I see and hear of you is inexplicable. 'Tis you — but these, alas! are not
+       the features which once enchanted every female bosom, beamed gaiety through all society, and
+       won you friends before your lips were opened! Why do you avert your face ? Is the sight of a
+       friend become hateful ? or, do you fear I should read in your eye what passes in your soul ?
+       Where is that open look of fire, which at once penetrated into every heart, and revealed your
+       own ?</p>
+     </sp>
+     <sp who="#L0326_M1">
+      <speaker>Stran.</speaker>
+      <p><stage>(with asperity)</stage> My look penetrate into every heart! Ha, ha, ha !</p>
+     </sp>
+     <sp who="#L0326_M2">
+      <speaker>Baron.</speaker>
+      <p>Oh, heavens! Rather may I never hear you laugh, than in such a tone ! Charles! what has
+       happened to you ?</p>
+     </sp>
+     <sp who="#L0326_M1">
+      <speaker>Stran.</speaker>
+      <p>Things that happen every day — occurrences heard of in every street. Steinfort, if I am not
+       to hate you, ask me not another question. If I am to love you, leave me !</p>
+     </sp>
+     <pb n="41"/>
+     <sp who="#L0326_M2">
+      <speaker>Baron.</speaker>
+      <p>Oh, Charles ! awake the faded ideas of past joys. Feel that a friend is near! Recollect the
+       days that we passed in Hungary ! when we wandered arm-in- arm upon the banks of the Danube,
+       while nature opened our hearts, and made us enamoured of benevolence and friendship. In those
+       blessed moments, you gave me this ring, as a pledge of your regard. Do you remember it ?</p>
+     </sp>
+     <sp who="#L0326_M1">
+      <speaker>Stran.</speaker>
+      <p>Yes.</p>
+     </sp>
+     <sp who="#L0326_M2">
+      <speaker>Baron.</speaker>
+      <p>Am I, since that time, become less worthy of your confidence !</p>
+     </sp>
+     <sp who="#L0326_M1">
+      <speaker>Stran.</speaker>
+      <p>No.</p>
+     </sp>
+     <sp who="#L0326_M2">
+      <speaker>Baron.</speaker>
+      <p>Charles, it grieves me that I am thus compelled to enforce my rights upon you. Do you know
+       this scar ?</p>
+     </sp>
+     <sp who="#L0326_M1">
+      <speaker>Stran.</speaker>
+      <p>Comrade! — friend ! It received and resisted the stroke aimed at my life — I have not
+       forgotten it. Alas! you knew not what a wretched present you then made me.</p>
+     </sp>
+     <sp who="#L0326_M2">
+      <speaker>Baron.</speaker>
+      <p>Speak then, I beseech you!</p>
+     </sp>
+     <sp who="#L0326_M1">
+      <speaker>Stran.</speaker>
+      <p>You cannot help me.</p>
+     </sp>
+     <sp who="#L0326_M2">
+      <speaker>Baron.</speaker>
+      <p>Then I can mourn with you.</p>
+     </sp>
+     <sp who="#L0326_M1">
+      <speaker>Stran.</speaker>
+      <p>That I hate. Besides, I cannot weep.</p>
+     </sp>
+     <sp who="#L0326_M2">
+      <speaker>Baron.</speaker>
+      <p>Then give me words instead of tears — both relieve the heart.</p>
+     </sp>
+     <sp who="#L0326_M1">
+      <speaker>Stran.</speaker>
+      <p>My heart is like a close-shut sepulchre. Let what is within it moulder and decay! Why open
+       the wretched charnel-house, to spread a pestilence around ?</p>
+     </sp>
+     <sp who="#L0326_M2">
+      <speaker>Baron.</speaker>
+      <p>How horrid are your looks! For shame! A man like you, thus to crouch beneath the chance of
+       fortune!</p>
+     </sp>
+     <sp who="#L0326_M1">
+      <speaker>Stran.</speaker>
+      <p>Steinfort, I did think the opinion of all mankind was alike indifferent to me ; but I feel
+       that it is not so. My friend, you shall not quit me, without learning how I have been robbed
+       of every joy which life afforded. Listen: much misery may be contained in few words.
+       Attracted by my native country, I quitted you and the service. What pleasing pictures did I
+       draw of a life employed in improving society and diffusing happiness ! I fixed on Cassel to
+       be my abode. All went on admirably ! I found friends at length too, I found a wife; a lovely,
+       innocent creature, scarce sixteen years of age. Oh, how I loved her! She bore me a son and a
+       daughter : both were endowed by
+       <pb n="42"/> nature with the beauty of their mother. Ask me how I loved my wife and children!
+       Yes, then I was really happy. <stage>(wiping his eyes)</stage> Ah! a tear! I could not have
+       believed it. Welcome, my friends — 'tis long since we have known each other. Well, my story
+       is nearly ended. One of my friends, for whom I became engaged, treacherously lost me more
+       than half my fortune. This hurt me! I was obliged to retrench my expenses. Contentment needs
+       but little ! — I forgave him. Another friend — a villain, to whom I was attached heart and
+       soul — whom I had assisted with my means, and promoted by my interest — this fiend seduced my
+       wife and bore her from me. Tell me, sir, is this enough to justify my hatred for mankind, and
+       palliate my seclusion from the world ? Kings, laws, tyranny, or guilt can but imprison me, or
+       kill me ; but, Oh, God! Oh, God ! Oh ! what are the chains of death, compared to the tortures
+       of a deceived, yet doating husband ?</p>
+     </sp>
+     <sp who="#L0326_M2">
+      <speaker>Baron.</speaker>
+      <p>To lament the loss of a faithless wife is madness.</p>
+     </sp>
+     <sp who="#L0326_M1">
+      <speaker>Stran.</speaker>
+      <p>Call it what you please — say what you please — I love her still.</p>
+     </sp>
+     <sp who="#L0326_M2">
+      <speaker>Baron.</speaker>
+      <p>And where is she ?</p>
+     </sp>
+     <sp who="#L0326_M1">
+      <speaker>Stran.</speaker>
+      <p>I know not, nor do I wish to know.</p>
+     </sp>
+     <sp who="#L0326_M2">
+      <speaker>Baron.</speaker>
+      <p>And your children ?</p>
+     </sp>
+     <sp who="#L0326_M1">
+      <speaker>Stran.</speaker>
+      <p>I left them at a small town hard by.</p>
+     </sp>
+     <sp who="#L0326_M2">
+      <speaker>Baron.</speaker>
+      <p>But why did you not keep your children with you ? They would have amused you in many a
+       dreary hour.</p>
+     </sp>
+     <sp who="#L0326_M1">
+      <speaker>Stran.</speaker>
+      <p>Amused! Oh, yes! while the likeness to their mother, would every hour remind me of my past
+       happiness. No. For three years I have not seen them. I hate that any human creature should be
+       near me, young or old! Had not ridiculous habits made a servant necessary, I should long
+       since have discharged him; though he is not the worst among the bad.</p>
+     </sp>
+     <sp who="#L0326_M2">
+      <speaker>Baron.</speaker>
+      <p>Such too often is the consequences of great alliances; therefore, Charles, I have resolved
+       to take a wife from a lower rank of life.</p>
+     </sp>
+     <sp who="#L0326_M1">
+      <speaker>Stran.</speaker>
+      <p>You marry ? — ha, ha, ha !</p>
+     </sp>
+     <sp who="#L0326_M2">
+      <speaker>Baron.</speaker>
+      <p>You shall see her. She is in the house where you are expected. Come with me.</p>
+     </sp>
+     <sp who="#L0326_M1">
+      <speaker>Stran.</speaker>
+      <p>What! I mix again with the world ?</p>
+     </sp>
+     <pb n="43"/>
+     <sp who="#L0326_M2">
+      <speaker>Baron.</speaker>
+      <p>To do a generons action, without requiring thanks, is noble and praiseworthy. But, so
+       obstinately to avoid those thanks, as to make the kindness a burthen, is affectation.</p>
+     </sp>
+     <sp who="#L0326_M1">
+      <speaker>Stran.</speaker>
+      <p>Leave me — leave me ! Every one tries to form a circle, of which he may be the centre. As
+       long as there remains a bird in these woods to greet the rising sun with its melody, I shall
+       court no other society.</p>
+     </sp>
+     <sp who="#L0326_M2">
+      <speaker>Baron.</speaker>
+      <p>Do as you please to-morrow ; but give me your company this evening.</p>
+     </sp>
+     <sp who="#L0326_M1">
+      <speaker>Stran.</speaker>
+      <p><stage>(resolutely)</stage> No.</p>
+     </sp>
+     <sp who="#L0326_M2">
+      <speaker>Baron.</speaker>
+      <p>Not though it were in your power, by this single visit, to secure the happiness of your
+       friend for life ?</p>
+     </sp>
+     <sp who="#L0326_M1">
+      <speaker>Stran.</speaker>
+      <p><stage>(starting)</stage> Ha! then I must — but how ?</p>
+     </sp>
+     <sp who="#L0326_M2">
+      <speaker>Baron.</speaker>
+      <p>You shall sue in my behalf to Mrs. Haller. You have the talent of persuasion.</p>
+     </sp>
+     <sp who="#L0326_M1">
+      <speaker>Stran.</speaker>
+      <p>I, my dear Steinfort ?</p>
+     </sp>
+     <sp who="#L0326_M2">
+      <speaker>Baron.</speaker>
+      <p>The happiness or misery of your friend depends upon it. I'll contrive that you shall speak
+       to her alone. Will you ?</p>
+     </sp>
+     <sp who="#L0326_M1">
+      <speaker>Stran.</speaker>
+      <p>These are pretences. But I'll come, however, on one condition.</p>
+     </sp>
+     <sp who="#L0326_M2">
+      <speaker>Baron.</speaker>
+      <p>Name it.</p>
+     </sp>
+     <sp who="#L0326_M1">
+      <speaker>Stran.</speaker>
+      <p>That you allow me to be gone to-morrow, without endeavouring to detain me.</p>
+     </sp>
+     <sp who="#L0326_M2">
+      <speaker>Baron.</speaker>
+      <p>Go! Whither?</p>
+     </sp>
+     <sp who="#L0326_M1">
+      <speaker>Stran.</speaker>
+      <p>No matter ! Promise this, or I will not come.</p>
+     </sp>
+     <sp who="#L0326_M2">
+      <speaker>Baron.</speaker>
+      <p>Well, I do promise.</p>
+     </sp>
+     <sp who="#L0326_M1">
+      <speaker>Stran.</speaker>
+      <p>I have directions to give my servant.</p>
+     </sp>
+     <sp who="#L0326_M2">
+      <speaker>Baron.</speaker>
+      <p>In half an hour, then, we shall expect you. Remember, you have given your word.</p>
+     </sp>
+     <sp who="#L0326_M1">
+      <speaker>Stran.</speaker>
+      <p>I have. <stage>Exit Baron, C. and L.</stage>
+       <stage>(walks up and down, thoughtful and melancholy) Francis ! Francis!</stage></p>
+     </sp>
+     <stage>Enter Francis, door r, 3 E.</stage>
+     <sp who="#L0326_M6">
+      <speaker>Fran.</speaker>
+      <p>Sir!</p>
+     </sp>
+     <sp who="#L0326_M1">
+      <speaker>Stran.</speaker>
+      <p>I shall leave this place to-morrow.</p>
+     </sp>
+     <sp who="#L0326_M6">
+      <speaker>Fran.</speaker>
+      <p>With all my heart.</p>
+     </sp>
+     <sp who="#L0326_M1">
+      <speaker>Stran.</speaker>
+      <p>Perhaps to go into another land.</p>
+     </sp>
+     <sp who="#L0326_M6">
+      <speaker>Fran.</speaker>
+      <p>With all my heart again !</p>
+     </sp>
+     <pb n="44"/>
+     <sp who="#L0326_M1">
+      <speaker>Stran.</speaker>
+      <p>Perhaps into another quarter of the globe.</p>
+     </sp>
+     <sp who="#L0326_M6">
+      <speaker>Fran.</speaker>
+      <p>With all my heart still. Into which quarter ?</p>
+     </sp>
+     <sp who="#L0326_M1">
+      <speaker>Stran.</speaker>
+      <p>Wherever heaven directs! Away! away ! from Europe — from this cultivated moral lazaret! Do
+       you hear, Francis ? To-morrow, early !</p>
+     </sp>
+     <sp who="#L0326_M6">
+      <speaker>Fran.</speaker>
+      <p>Very well.</p>
+     </sp>
+     <sp who="#L0326_M1">
+      <speaker>Stran.</speaker>
+      <p>But first I have an errand for you. Hire that carnage in the village ; drive to the town
+       hard by: you may be back by sunset. I shall give you a letter to a. widow who lives there.
+       With her you will find two children. They are mine.</p>
+     </sp>
+     <sp who="#L0326_M6">
+      <speaker>Fran.</speaker>
+      <p><stage>(astonished)</stage> Your children, sir!</p>
+     </sp>
+     <sp who="#L0326_M1">
+      <speaker>Stran.</speaker>
+      <p>Take them, and bring them hither.</p>
+     </sp>
+     <sp who="#L0326_M6">
+      <speaker>Fran.</speaker>
+      <p>Your children, sir!</p>
+     </sp>
+     <sp who="#L0326_M1">
+      <speaker>Stran.</speaker>
+      <p>Yes, mine ! Is it so very inconceivable ?</p>
+     </sp>
+     <sp who="#L0326_M6">
+      <speaker>Fran.</speaker>
+      <p>That I should have been three years in your service, and never have heard them mentioned,
+       is somewhat strange.</p>
+     </sp>
+     <sp who="#L0326_M1">
+      <speaker>Stran.</speaker>
+      <p>Pshaw!</p>
+     </sp>
+     <sp who="#L0326_M6">
+      <speaker>Fran.</speaker>
+      <p>You have been married, then ?</p>
+     </sp>
+     <sp who="#L0326_M1">
+      <speaker>Stran.</speaker>
+      <p>Go, and prepare for our journey.</p>
+     </sp>
+     <sp who="#L0326_M6">
+      <speaker>Fran.</speaker>
+      <p>That I can do in five minutes.</p>
+     </sp>
+     <stage>Exit, door R. 3 E.</stage>
+     <sp who="#L0326_M1">
+      <speaker>Stran.</speaker>
+      <p>I shall come and write the letter directly. Yes, I'll take them with me. I'll accustom
+       myself to the sight of them. The innocents! they shall not be poisoned by the refinements of
+       society. Rather let them hunt their daily sustenance upon some desert island, with their bow
+       and arrow; or creep like torpid Hottentots into a corner, and stare at each other. Better to
+       do nothing, than to do evil. Fool that I was, to be prevailed upon once more to exhibit
+       myself among these apes! What a ridiculous figure shall I be, and in the capacity of a
+       suitor, too! Pshaw, he cannot be serious! 'Tis but a friendly artifice, to draw me from my
+       solitude. Why did I promise him ? Well, my sufferings have been many; and, to oblige a
+       friend, why should I not add another painful hour to the wretched calendar of my life ? I'll
+       go ! I'll go !</p>
+     </sp>
+     <stage>Exit, R. 3 E.</stage>
+    </div>
+    <pb n="45"/>
+    <div type="scene" n="2">
+     <head>Scene II. The Ante-chamber.</head>
+     <stage>Enter Charlotte, R.</stage>
+     <sp who="#L0326_F10">
+      <speaker>Charl.</speaker>
+      <p>No, indeed, my lady ! If you choose to bury yourself in the country, I shall take my leave.
+       I am not calculated for country life. And, to sum up all, when I think of this Mrs.
+       Haller——</p>
+     </sp>
+     <stage>Enter Solomon, L.</stage>
+     <sp who="#L0326_M4">
+      <speaker>Solom.</speaker>
+      <p><stage>(overhearing her last words)</stage> What of Mrs. Haller, my sweet miss ?</p>
+     </sp>
+     <sp who="#L0326_F10">
+      <speaker>Charl.</speaker>
+      <p>Why, Mr. Solomon, who is Mrs. Haller ? You know everything; you hear everything.</p>
+     </sp>
+     <sp who="#L0326_M4">
+      <speaker>Solom.</speaker>
+      <p>I have received no letters from any part of Europe on the subject, miss.</p>
+     </sp>
+     <sp who="#L0326_F10">
+      <speaker>Charl.</speaker>
+      <p>But who is to blame? The Count and Countess. She dines with them, and, at this very moment,
+       is drinking tea with them. Is this proper ?</p>
+     </sp>
+     <sp who="#L0326_M4">
+      <speaker>Solom.</speaker>
+      <p>By no means.</p>
+     </sp>
+     <sp who="#L0326_F10">
+      <speaker>Charl.</speaker>
+      <p>Shouldn't a Count, in all his actions, show a certain degree of pride and pomposity?</p>
+     </sp>
+     <sp who="#L0326_M4">
+      <speaker>Solom.</speaker>
+      <p>To be sure ! To be sure he should!</p>
+     </sp>
+     <sp who="#L0326_F10">
+      <speaker>Charl.</speaker>
+      <p>No, I won't submit to it. I'll tell her ladyship, when I dress her to-morrow, that either
+       Mrs. Haller, or I must quit the house.</p>
+     </sp>
+     <sp who="#L0326_M4">
+      <speaker>Solom.</speaker>
+      <p><stage>(seeing the Baron)</stage> —St!</p>
+     </sp>
+     <stage>Enter Baron, R.</stage>
+     <sp who="#L0326_M2">
+      <speaker>Baron.</speaker>
+      <p>Didn't I hear Mrs. Haller's name here ?</p>
+     </sp>
+     <sp who="#L0326_M4">
+      <speaker>Solom.</speaker>
+      <p><stage>(confused)</stage> Why — yes — we — we ——</p>
+     </sp>
+     <sp who="#L0326_M2">
+      <speaker>Baron.</speaker>
+      <p>Charlotte, tell my sister I wish to see her as soon as the tea table is removed.
+        <stage>(goes up)</stage></p>
+     </sp>
+     <sp who="#L0326_F10">
+      <speaker>Charl.</speaker>
+      <p><stage>(aside to Solomon)</stage> Either she or I go, that I'm determined.</p>
+     </sp>
+     <stage>Exit, R.</stage>
+     <sp who="#L0326_M2">
+      <speaker>Baron.</speaker>
+      <p><stage>(L.C.)</stage> May I ask what it was you were saying ?</p>
+     </sp>
+     <sp who="#L0326_M4">
+      <speaker>Solom.</speaker>
+      <p>Why, please your Honourable Lordship, we were talking here and there — this and that ——</p>
+     </sp>
+     <sp who="#L0326_M2">
+      <speaker>Baron.</speaker>
+      <p>I almost begin to suspect some secret.</p>
+     </sp>
+     <sp who="#L0326_M4">
+      <speaker>Solom.</speaker>
+      <p>Secret! Heaven forbid! Mercy on us! No ! I should have had letters on the subject, if there
+       had been a secret.</p>
+     </sp>
+     <sp who="#L0326_M2">
+      <speaker>Baron.</speaker>
+      <p>Well then, since it was no secret, I presume I may know your conversation.</p>
+     </sp>
+     <pb n="46"/>
+     <sp who="#L0326_M4">
+      <speaker>Solom.</speaker>
+      <p>You do us great honor, my lord. Why, then, at first, we were making a few commonplace
+       observations. Miss Charlotte remarked that we all had our faults. I said " Yes." Soon after I
+       remarked that the best persons in the world were not without their weaknesses. She said
+       "Yes."</p>
+     </sp>
+     <sp who="#L0326_M2">
+      <speaker>Baron.</speaker>
+      <p>If you referred to Mrs. Haller's faults and weaknesses, I am desirous to hear more.</p>
+     </sp>
+     <sp who="#L0326_M4">
+      <speaker>Solom.</speaker>
+      <p>Sure enough, sir, Mrs. Haller is an excellent woman; but she is not an angel, for all that.
+       I am an old, faithful servant, to his Excellency, the Count, and therefore it is my duty to
+       speak, when anything is done disadvantageous to his interest.</p>
+     </sp>
+     <sp who="#L0326_M2">
+      <speaker>Baron.</speaker>
+      <p>Well!</p>
+     </sp>
+     <sp who="#L0326_M4">
+      <speaker>Solom.</speaker>
+      <p>For instance, now; his Excellency may think he has, at least, some score of dozens of the
+       old six-and- twenty hock. Mercy on us! there are not ten dozen bottles left; and not a drop
+       has gone down my throat, I'll swear.</p>
+     </sp>
+     <sp who="#L0326_M2">
+      <speaker>Baron.</speaker>
+      <p><stage>(smiling)</stage> Mrs. Haller has not drank it, I suppose?</p>
+     </sp>
+     <sp who="#L0326_M4">
+      <speaker>Solom.</speaker>
+      <p>Not she herself, for she never drinks wine. But if anybody be ill in the village — any poor
+       woman lying-in, that might think herself well off with common Rhenish, — away goes a bottle
+       of the six-and-twenty ! Innumerable are the times that I've reproved her; but she always
+       answers me snappishly, that she will be responsible for it.</p>
+     </sp>
+     <sp who="#L0326_M2">
+      <speaker>Baron.</speaker>
+      <p>So will I, Mr. Solomon.</p>
+     </sp>
+     <sp who="#L0326_M4">
+      <speaker>Solom.</speaker>
+      <p>Oh ! with all my heart, your Honourable Lordship. It makes no difference to me. I had the
+       care of the cellar twenty years, and can safely take my oath, that I never gave the poor a
+       single drop in the whole course of my trust.</p>
+     </sp>
+     <sp who="#L0326_M2">
+      <speaker>Baron.</speaker>
+      <p>How extraordinary is this woman !</p>
+     </sp>
+     <sp who="#L0326_M4">
+      <speaker>Solom.</speaker>
+      <p>Extraordinary! One can make nothing of her. To-day, the vicar's wife is not good enough for
+       her; — to-morrow, you may see her sitting with all the women of the village. To be sure, she
+       and I agree pretty well; for, between me and your Honourable Lordship, she has cast an eye
+       upon my son Peter.</p>
+     </sp>
+     <sp who="#L0326_M2">
+      <speaker>Baron.</speaker>
+      <p>Has she ?</p>
+     </sp>
+     <pb n="47"/>
+     <sp who="#L0326_M4">
+      <speaker>Solom.</speaker>
+      <p>Yes; Peter's no fool, I assure you. The schoolmaster is teaching him to write. Would your
+       Honourable Lordship please to see a specimen? I'll go for his copy-book. He makes his
+       pot-hooks capitally.</p>
+     </sp>
+     <sp who="#L0326_M2">
+      <speaker>Baron.</speaker>
+      <p>Another time — another time. Good-bye for the present, Mr. Solomon. <stage>(crosses to R.,
+        Solomon bows without attempting to go)</stage> Good day, Mr. Solomon !</p>
+     </sp>
+     <sp who="#L0326_M4">
+      <speaker>Solom.</speaker>
+      <p><stage>(not understanding the hint)</stage> Your Honourable Lordship's most obedient
+       servant.</p>
+     </sp>
+     <sp who="#L0326_M2">
+      <speaker>Baron.</speaker>
+      <p>This is too bad. Mr. Solomon, I wish to be alone.</p>
+     </sp>
+     <sp who="#L0326_M4">
+      <speaker>Solom.</speaker>
+      <p>As your lordship commands. If the time should seem long in my absence, and your lordship
+       wishes to hear the newest news from the seat of war, you need only send for old Solomon. I
+       have letters from Leghorn, Cape Horn, and every known part of the habitable globe.</p>
+     </sp>
+     <stage>Exit, L.</stage>
+     <sp who="#L0326_M2">
+      <speaker>Baron.</speaker>
+      <p>Tedious old fool! Yet hold. Did he not speak in praise of Mrs. Haller ? Pardoned be his
+       rage for news and politics.</p>
+     </sp>
+     <stage>Enter Countess, R.</stage>
+     <sp who="#L0326_M2">
+      <speaker>Baron.</speaker>
+      <p>Well sister, have you spoken to her?</p>
+     </sp>
+     <sp who="#L0326_F9">
+      <speaker>Countess.</speaker>
+      <p>I have : and if you do not steer for another haven, you will be doomed to drive upon the
+       ocean for ever.</p>
+     </sp>
+     <sp who="#L0326_M2">
+      <speaker>Baron.</speaker>
+      <p>Is she married ?</p>
+     </sp>
+     <sp who="#L0326_F9">
+      <speaker>Countess.</speaker>
+      <p>I don't know.</p>
+     </sp>
+     <sp who="#L0326_M2">
+      <speaker>Baron.</speaker>
+      <p>Is she of good family ?</p>
+     </sp>
+     <sp who="#L0326_F9">
+      <speaker>Countess.</speaker>
+      <p>I can't tell.</p>
+     </sp>
+     <sp who="#L0326_M2">
+      <speaker>Baron.</speaker>
+      <p>Does she dislike me ?</p>
+     </sp>
+     <sp who="#L0326_F9">
+      <speaker>Countess.</speaker>
+      <p>Excuse my making a reply.</p>
+     </sp>
+     <sp who="#L0326_M2">
+      <speaker>Baron.</speaker>
+      <p>I thank you for your sisterly affection, and the explicitness of your communications.
+       Luckily, I placed little reliance on either, and have found a friend who will save your
+       ladyship all further trouble.</p>
+     </sp>
+     <sp who="#L0326_F9">
+      <speaker>Countess.</speaker>
+      <p>A friend!</p>
+     </sp>
+     <sp who="#L0326_M2">
+      <speaker>Baron.</speaker>
+      <p>Yes. The Stranger, who saved your son's life this morning, proves to be my intimate
+       friend.</p>
+     </sp>
+     <sp who="#L0326_F9">
+      <speaker>Countess.</speaker>
+      <p>What's his name ?</p>
+     </sp>
+     <sp who="#L0326_M2">
+      <speaker>Baron.</speaker>
+      <p>I don't know.</p>
+     </sp>
+     <sp who="#L0326_F9">
+      <speaker>Countess.</speaker>
+      <p>Is he of good family ?</p>
+     </sp>
+     <pb n="48"/>
+     <sp who="#L0326_M2">
+      <speaker>Baron.</speaker>
+      <p>I can't tell.</p>
+     </sp>
+     <sp who="#L0326_F9">
+      <speaker>Countess.</speaker>
+      <p>Will he come hither?</p>
+     </sp>
+     <sp who="#L0326_M2">
+      <speaker>Baron.</speaker>
+      <p>Excuse my making a reply.</p>
+     </sp>
+     <sp who="#L0326_F9">
+      <speaker>Countess.</speaker>
+      <p>Well, the retort is fair, but insufferable.</p>
+     </sp>
+     <sp who="#L0326_M2">
+      <speaker>Baron.</speaker>
+      <p>You can't object to the <hi>da capo</hi> of your own composition.</p>
+     </sp>
+     <stage>Enter Count and Mrs. Haller, R.</stage>
+     <sp who="#L0326_M3">
+      <speaker>Count.</speaker>
+      <p>Zounds! do you think I am Xenocrates; or like the poor Sultan with marble legs ? There you
+       leave me tête-a-tête with Mrs. Haller, as if my heart were a mere flint. So you prevailed,
+       brother ? The Stranger will come then, it seems.</p>
+     </sp>
+     <sp who="#L0326_M2">
+      <speaker>Baron.</speaker>
+      <p>I expect him every minute.</p>
+     </sp>
+     <sp who="#L0326_M3">
+      <speaker>Count.</speaker>
+      <p>I'm glad to hear it: one companion more, how ever. In the country we never can have too
+       many.</p>
+     </sp>
+     <sp who="#L0326_M2">
+      <speaker>Baron.</speaker>
+      <p>This gentleman will not exactly be an addition to your circle, for he leaves this place
+       to-morrow.</p>
+     </sp>
+     <sp who="#L0326_M3">
+      <speaker>Count.</speaker>
+      <p>But he won't, I think. Now, Lady Wintersen, summon all your charms. There is no art in
+       conquering us poor devils ; but this strange man, who does not care a doit for you
+       altogether, is worth your efforts. Try your skill. I shan't be jealous.</p>
+     </sp>
+     <sp who="#L0326_F9">
+      <speaker>Countess.</speaker>
+      <p>I allow the conquest to be worth the trouble. But, what Mrs. Haller has not been able to
+       effect in three months, ought not to be attempted by me.</p>
+     </sp>
+     <sp who="#L0326_F8">
+      <speaker>Mrs. H.</speaker>
+      <p><stage>(jocosely)</stage> O yes, madam ; he has given me no opportunity of trying the force
+       of my charms, for I have never once happened to see him.</p>
+     </sp>
+     <sp who="#L0326_M3">
+      <speaker>Count.</speaker>
+      <p>Then he's a blockhead, and you an idler.</p>
+     </sp>
+     <sp who="#L0326_M4">
+      <speaker>Solom.</speaker>
+      <p><stage>(without)</stage> This way, sir ! this way !</p>
+     </sp>
+     <stage>Enter Solomon, L.</stage>
+     <sp who="#L0326_M4">
+      <speaker>Solom.</speaker>
+      <p>The Stranger begs leave to have the honor——</p>
+     </sp>
+     <sp who="#L0326_M3">
+      <speaker>Count.</speaker>
+      <p>Welcome ! welcome ! Show him the way.</p>
+     </sp>
+     <stage>Exit Solomon, l</stage>
+     <stage>(turns to meet the Stranger, whom he takes by the hand) My dear sir — Lady Wintersen —
+      Mrs. Haller. (introducing him)</stage>
+     <stage>Mrs. Haller as soon as she sees the Stranger, shrieks and swoons in the arms of the
+      Baron and Countess.</stage>
+     <stage>The Stranger casts a look at her, and struck with astonishment and horror, rushes out of
+      the room, L. The Baron and Countess supporting Mrs. Haller, Count standing motionless in great
+      surprise.</stage>
+    </div>
+    <trailer>End of Act IV</trailer>
+   </div>
+   <div type="act" n="5">
+    <head>ACT V.</head>
+    <div type="scene" n="1">
+     <head>Scene I.--The Ante-chamber.</head>
+     <stage>Enter Baron, L.</stage>
+     <sp who="#L0326_M2">
+      <speaker>Baron.</speaker>
+      <p>Oh, deceitful hope! Thou phantom of future happiness! To thee have I stretched out my arms,
+       and thou hast vanished into air! Wretched Steinfort! The mystery is solved—she is the wife of
+       my friend! I cannot myself be happy, but I may, perhaps, be able to re-unite two noble
+       hearts, whom cruel fate has severed. Ha! they are here; I must propose it instantly.</p>
+     </sp>
+     <stage>Enter Countess and Mrs. Haller, R.</stage>
+     <sp who="#L0326_F9">
+      <speaker>Countess.</speaker>
+      <p>Into the garden, my dear friend; into the air!</p>
+     </sp>
+     <sp who="#L0326_F8">
+      <speaker>Mrs. H.</speaker>
+      <p>I am quite well. Do not alarm yourselves on my account.</p>
+     </sp>
+     <sp who="#L0326_M2">
+      <speaker>Baron.</speaker>
+      <p>Madam, pardon my intrusion, but to lose a moment may be fatal: he means to quit the country
+       to- morrow. We must devise means to reconcile you to—the Stranger.</p>
+     </sp>
+     <sp who="#L0326_F8">
+      <speaker>Mrs. H.</speaker>
+      <p>How, my lord? You seem acquainted with my history!</p>
+     </sp>
+     <sp who="#L0326_M2">
+      <speaker>Baron.</speaker>
+      <p>I am. Waldbourg has been my friend ever since we were boys. We served together from the
+       rank of cadet. We have been separated seven years: chance brought us this day together, and
+       his heart was open to me.</p>
+     </sp>
+     <sp who="#L0326_F8">
+      <speaker>Mrs. H.</speaker>
+      <p>Now do I feel what it is to be in the presence of an honest man, when I dare not meet his
+       eye. <stage>(hides her face)</stage></p>
+     </sp>
+     <pb n="50"/>
+     <sp who="#L0326_M2">
+      <speaker>Baron.</speaker>
+      <p>If sincere repentance—if years without reproach do not give us a title to man's
+       forgiveness, what must we expect hereafter? No, lovely penitent! your contrition is complete.
+       Error, for a moment, wrested from slumbering virtue the dominion of your heart; but she
+       awoke, and, with a look, banished her enemy for ever. I know my friend: he has the firmness
+       of a man; but with it, the gentlest feelings of your sex. I hasten to him.
+        <stage>(going)</stage></p>
+     </sp>
+     <sp who="#L0326_F8">
+      <speaker>Mrs. H.</speaker>
+      <p>Oh, stay! What would you do? No, never! My husband's honor is sacred to me. I love him un-
+       utterably, but never, never can I be his wife again; even if he were generous enough to
+       pardon me.</p>
+     </sp>
+     <sp who="#L0326_M2">
+      <speaker>Baron.</speaker>
+      <p>Madam! Can you, Countess, be serious?</p>
+     </sp>
+     <sp who="#L0326_F8">
+      <speaker>Mrs. H.</speaker>
+      <p>Not that title, I beseech you! I am not a child, who wishes to avoid deserved punishment.
+       What were my penitence, if I hoped advantage from it, beyond the consciousness of atonement
+       for past offence?</p>
+     </sp>
+     <sp who="#L0326_F9">
+      <speaker>Countess.</speaker>
+      <p>But if your husband himself—</p>
+     </sp>
+     <sp who="#L0326_F8">
+      <speaker>Mrs. H.</speaker>
+      <p>Oh! he will not! he cannot! And let him rest assured, I never would replace my honor at the
+       expense of his.</p>
+     </sp>
+     <sp who="#L0326_M2">
+      <speaker>Baron.</speaker>
+      <p>He still loves you.</p>
+     </sp>
+     <sp who="#L0326_F8">
+      <speaker>Mrs. H.</speaker>
+      <p>Loves me! Then he must not—No! he must purify his heart from a weakness which would de-
+       grade him.</p>
+     </sp>
+     <sp who="#L0326_M2">
+      <speaker>Baron.</speaker>
+      <p>Incomparable woman! I go to my friend— perhaps for the last time. Have you not one word to
+       send him?</p>
+     </sp>
+     <sp who="#L0326_F8">
+      <speaker>Mrs. H.</speaker>
+      <p>Yes; I have two requests to make. Often, when, in excess of grief, I have despaired of
+       every con- solation, I have thought I should be easier if I might behold my husband once
+       again, acknowledge my injustice to him, and take a gentle leave of him for ever. This,
+       therefore, is my first request—a conversation for a few short minutes, if he does not quite
+       abhor the sight of me. My second request is—Oh!—not to see, but to hear some account of my
+       poor children.</p>
+     </sp>
+     <sp who="#L0326_M2">
+      <speaker>Baron.</speaker>
+      <p>If humanity and friendship can avail, he will not for a moment delay your wishes. With the
+       fire of pure disinterested friendship will I enter on this work; that when I look back upon
+       my past life, I may derive
+       <pb n="51"/> from this good action consolation in disappointment, and even resignation in
+       despair.</p>
+      <stage>Exit Baron, L.</stage>
+     </sp>
+     <sp who="#L0326_F9">
+      <speaker>Countess.</speaker>
+      <p>Heaven be with you!</p>
+     </sp>
+     <sp who="#L0326_F8">
+      <speaker>Mrs. H.</speaker>
+      <p>And my prayers.</p>
+     </sp>
+     <sp who="#L0326_F9">
+      <speaker>Countess.</speaker>
+      <p>Come, my friend, come into the air; till he returns with hope and consolation.</p>
+     </sp>
+     <sp who="#L0326_F8">
+      <speaker>Mrs. H.</speaker>
+      <p>Oh, my heart! how art thou afflicted! My husband! My little ones! Past joys and future
+       fears—Oh, dearest madam! there are moments in which we live years—moments which steal the
+       roses from the cheek of health, and plough deep furrows in the brow of youth.</p>
+     </sp>
+     <sp who="#L0326_F9">
+      <speaker>Countess.</speaker>
+      <p>Banish these sad reflections. Come, let us walk. The sun will set soon; lest nature's
+       beauties dissipate anxiety.</p>
+     </sp>
+     <sp who="#L0326_F8">
+      <speaker>Mrs. H.</speaker>
+      <p>Alas! Yes, the setting sun is a proper scene for me.</p>
+     </sp>
+     <sp who="#L0326_F9">
+      <speaker>Countess.</speaker>
+      <p>Never forget a morning will succeed.</p>
+     </sp>
+     <stage>Exeunt, L.</stage>
+    </div>
+    <div type="scene" n="2">
+     <head>Scene II. The skirts of the Park, Lodge, &amp;c, as before.</head>
+     <stage>Enter Baron, C.from L.</stage>
+     <sp who="#L0326_M2">
+      <speaker>Baron.</speaker>
+      <p>On earth there is but one such pair. They shall not be parted. Yet what I have undertaken
+       is not so easy as I at first hoped. What can I answer, when he asks me, whether I would
+       persuade him to renounce his character, and become the derision of society?—for he is right—a
+       faithless wife is a dishonor: to forgive her, is to share her shame. What, though Adelaide
+       may be an exception; a young deluded girl, who has so long, and so sincerely repented: yet,
+       what cares an unfeeling world for this? The world!—he has quitted it. 'Tis evident he loves
+       her still, and upon this assurance builds my sanguine heart and hope, of a happy termination
+       to an honest enterprise.</p>
+     </sp>
+     <stage>Enter Francis, C. from R., with two children, William and Amelia.</stage>
+     <sp who="#L0326_M6">
+      <speaker>Fran.</speaker>
+      <p>Come along, my pretty ones—come!</p>
+     </sp>
+     <sp who="#L0326_16">
+      <speaker>Wil.</speaker>
+      <p>Is it far to home?</p>
+     </sp>
+     <sp who="#L0326_M6">
+      <speaker>Fran.</speaker>
+      <p>No, we shall be there directly, now.</p>
+     </sp>
+     <sp who="#L0326_M2">
+      <speaker>Baron.</speaker>
+      <p>Hold! Whose children are these?</p>
+     </sp>
+     <pb n="52"/>
+     <sp who="#L0326_M6">
+      <speaker>Fran.</speaker>
+      <p>My master's.</p>
+     </sp>
+     <sp who="#L0326_16">
+      <speaker>Wil.</speaker>
+      <p>Is that my father?</p>
+     </sp>
+     <sp who="#L0326_M2">
+      <speaker>Baron.</speaker>
+      <p>It darts like lightning through my brain! A word with you. I know you love your master.
+       Strange things have happened here. Your master has found his wife again.</p>
+     </sp>
+     <sp who="#L0326_M6">
+      <speaker>Fran.</speaker>
+      <p>Indeed! Glad to hear it.</p>
+     </sp>
+     <sp who="#L0326_M2">
+      <speaker>Baron.</speaker>
+      <p>Mrs. Haller—</p>
+     </sp>
+     <sp who="#L0326_M6">
+      <speaker>Fran.</speaker>
+      <p>Is she his wife? Still more glad to hear it.</p>
+     </sp>
+     <sp who="#L0326_M2">
+      <speaker>Baron.</speaker>
+      <p>But he is determined to go from her.</p>
+     </sp>
+     <sp who="#L0326_M6">
+      <speaker>Fran.</speaker>
+      <p>Oh!</p>
+     </sp>
+     <sp who="#L0326_M2">
+      <speaker>Baron.</speaker>
+      <p>We must try to prevent it.</p>
+     </sp>
+     <sp who="#L0326_M6">
+      <speaker>Fran.</speaker>
+      <p>Surely.</p>
+     </sp>
+     <sp who="#L0326_M2">
+      <speaker>Baron.</speaker>
+      <p>The unexpected appearance of the children may perhaps assist us.</p>
+     </sp>
+     <sp who="#L0326_M6">
+      <speaker>Fran.</speaker>
+      <p>How so?</p>
+     </sp>
+     <sp who="#L0326_M2">
+      <speaker>Baron.</speaker>
+      <p>Hide yourself with them in that hut. Before a quarter of an hour is past you shall know
+       more.</p>
+     </sp>
+     <sp who="#L0326_M6">
+      <speaker>Fran.</speaker>
+      <p>But—</p>
+     </sp>
+     <sp who="#L0326_M2">
+      <speaker>Baron.</speaker>
+      <p>No more questions, I entreat you. Time is precious.</p>
+     </sp>
+     <sp who="#L0326_M6">
+      <speaker>Fran.</speaker>
+      <p>Well, well; questions are not much in my way. Come, children.</p>
+     </sp>
+     <sp who="#L0326_16">
+      <speaker>Wil.</speaker>
+      <p>Why, I thought you told me I should see my father?</p>
+     </sp>
+     <sp who="#L0326_M6">
+      <speaker>Fran.</speaker>
+      <p>So you shall, my dear. Come, moppets.</p>
+     </sp>
+     <stage>Goes into the hut, L. 3 E., with Children.</stage>
+     <sp who="#L0326_M2">
+      <speaker>Baron.</speaker>
+      <p>Excellent! I promise myself much from this little artifice. If the mild look of the mother
+       fails, the innocent smiles of these his own children will surely find the way to his heart.
+        <stage>(taps at the lodge door)</stage>
+       <stage>Stranger comes out, R.</stage> Charles, I wish you joy.</p>
+     </sp>
+     <sp who="#L0326_M1">
+      <speaker>Stran.</speaker>
+      <p>Of what?</p>
+     </sp>
+     <sp who="#L0326_M2">
+      <speaker>Baron.</speaker>
+      <p>You have found her again.</p>
+     </sp>
+     <sp who="#L0326_M1">
+      <speaker>Stran.</speaker>
+      <p>Show a bankrupt the treasure which he once possessed, and then congratulate him on the
+       amount!</p>
+     </sp>
+     <sp who="#L0326_M2">
+      <speaker>Baron.</speaker>
+      <p>Why not, if it be in your power to retrieve the whole?</p>
+     </sp>
+     <pb n="53"/>
+     <sp who="#L0326_M1">
+      <speaker>Stran.</speaker>
+      <p>I understand you; you are a negotiator from my wife. It won't avail.</p>
+     </sp>
+     <sp who="#L0326_M2">
+      <speaker>Baron.</speaker>
+      <p>Learn to know your wife better. Yes, I am a messenger from her, but without power to treat.
+       She, who loves you unutterably—who, without you, never can be happy—renounces your
+       forgiveness, because, as she thinks, your honor is incompatible with such a weakness.</p>
+     </sp>
+     <sp who="#L0326_M1">
+      <speaker>Stran.</speaker>
+      <p>Pshaw! I am not to be caught.</p>
+     </sp>
+     <sp who="#L0326_M2">
+      <speaker>Baron.</speaker>
+      <p>Charles! consider well—</p>
+     </sp>
+     <sp who="#L0326_M1">
+      <speaker>Stran.</speaker>
+      <p>Steinfort, let me explain all this. I have lived here four months. Adelaide knew it.</p>
+     </sp>
+     <sp who="#L0326_M2">
+      <speaker>Baron.</speaker>
+      <p>Knew it! She never saw you till to-day.</p>
+     </sp>
+     <sp who="#L0326_M1">
+      <speaker>Stran.</speaker>
+      <p>That she may make fools believe. Hear further: she knows too that I am not a common sort of
+       man—that my heart is not to be attacked in the usual way; she, therefore, framed a nice,
+       deep-concerted plan. She played a charitable part; but in such a way, that it always reached
+       my ears—she played a pious, modest, reserved part in order to excite my curiosity; and at
+       last to-day she plays the prude. She refuses my forgiveness in order, by this generous
+       device, to extort it from my compassion.</p>
+     </sp>
+     <sp who="#L0326_M2">
+      <speaker>Baron.</speaker>
+      <p>Charles! I have listened to you with astonishment: this is weakness only to be pardoned in
+       a man who has so often been deceived by the world. Your wife has expressly and steadfastly
+       declared that she will not accept your forgiveness, even if you yourself were weak enough to
+       offer it.</p>
+     </sp>
+     <sp who="#L0326_M1">
+      <speaker>Stran.</speaker>
+      <p>What, then, has brought you hither?</p>
+     </sp>
+     <sp who="#L0326_M2">
+      <speaker>Baron.</speaker>
+      <p>More than one reason. First, I am come in my own name, as your friend and comrade, to
+       conjure you solemnly not to spurn this creature from you—for, by my soul, you will not find
+       her equal.</p>
+     </sp>
+     <sp who="#L0326_M1">
+      <speaker>Stran.</speaker>
+      <p>Give yourself no further trouble.</p>
+     </sp>
+     <sp who="#L0326_M2">
+      <speaker>Baron.</speaker>
+      <p>Be candid, Charles—you love her still?</p>
+     </sp>
+     <sp who="#L0326_M1">
+      <speaker>Stran.</speaker>
+      <p>Alas! yes.</p>
+     </sp>
+     <sp who="#L0326_M2">
+      <speaker>Baron.</speaker>
+      <p>Her sincere repentance has long since obliterated her crime.</p>
+     </sp>
+     <sp who="#L0326_M1">
+      <speaker>Stran.</speaker>
+      <p>Sir! a wife, once induced to forfeit her honor, must be capable of a second crime.</p>
+     </sp>
+     <pb n="54"/>
+     <sp who="#L0326_M2">
+      <speaker>Baron.</speaker>
+      <p>Not so, Charles. Ask your own heart what portion of the blame may be your own.</p>
+     </sp>
+     <sp who="#L0326_M1">
+      <speaker>Stran.</speaker>
+      <p>Mine?</p>
+     </sp>
+     <sp who="#L0326_M2">
+      <speaker>Baron.</speaker>
+      <p>Yours. Who told you to marry a thoughtless, inexperienced girl? One scarce expects
+       established principles at five-and-twenty in a man, yet you require them in a girl of
+       sixteen! But of this no more. She has erred—she has repented; and, during three years, her
+       conduct has been so far above reproach, that even the piercing eye of Calumny has not
+       discovered a speck upon this radiant orb.</p>
+     </sp>
+     <sp who="#L0326_M1">
+      <speaker>Stran.</speaker>
+      <p>Now, were I to believe all this—for I confess I would willingly believe it—yet can she
+       never again be mine. <stage>(with extreme asperity)</stage> Oh! what a feast would it be for
+       the painted dolls, when I appeared among them, with my runaway wife upon my arm! What
+       mocking, whispering, and pointing! Never! never! never! <stage>(crosses, L.)</stage></p>
+     </sp>
+     <sp who="#L0326_M2">
+      <speaker>Baron.</speaker>
+      <p>Enough! As a friend I have done my duty— I now appear as Adelaide's ambassador. She
+       requests one moment's conversation; she wishes once again to see you, and never more! You
+       cannot deny her this only, this last request.</p>
+     </sp>
+     <sp who="#L0326_M1">
+      <speaker>Stran.</speaker>
+      <p>Oh! I understand this too. She thinks my firmness will be melted by her tears; she is
+       mistaken— she may come.</p>
+     </sp>
+     <sp who="#L0326_M2">
+      <speaker>Baron.</speaker>
+      <p>She will come, to make you feel how much you mistake her. I go for her.</p>
+     </sp>
+     <sp who="#L0326_M1">
+      <speaker>Stran.</speaker>
+      <p>Another word. Give her this paper and these jewels. They belong to her. <stage>(presenting
+        them)</stage></p>
+     </sp>
+     <sp who="#L0326_M2">
+      <speaker>Baron.</speaker>
+      <p>That you may do yourself.</p>
+      <stage>Exit C. and L.</stage>
+     </sp>
+     <sp who="#L0326_M1">
+      <speaker>Stran.</speaker>
+      <p>The last anxious moment of my life draws near. I shall see her once again; see her on whom
+       my soul doats. Is this the language of an injured husband? Alas! alas! What is the principle
+       which we call honor? Is it a feeling of the heart, or a mere quibble of the brain? I must be
+       resolute: it cannot now be otherwise. Let me speak solemnly, yet mildly; and beware that
+       nothing of reproach escape my lips. Yes, her penitence is real. She shall not be obliged to
+       live in mean dependence; she shall be mistress of herself, and have enough to—</p>
+      <stage>(looks round
+       <pb n="55"/> and shudders)</stage>
+      <p>Ha! they come. Awake, insulted pride! Protect me, injured honor!</p>
+     </sp>
+     <stage>Enter Mrs. Haller, Countess, and Baron, at the gate, C. from L.</stage>
+     <sp who="#L0326_F8">
+      <speaker>Mrs. H.</speaker>
+      <p><stage>(advances slowly, and with tremor; Countess attempts to support her)</stage> Leave
+       me now, I beseech you. <stage>Baron and Countess go off to hut, L. 3 E.</stage>
+       <stage>(approaches Stranger, who with averted countenance, and extreme agitation, awaits her
+        address)</stage> My lord!</p>
+     </sp>
+     <sp who="#L0326_M1">
+      <speaker>Stran.</speaker>
+      <p><stage>(R. C, with gentle tremulous utterance, and face still turned away)</stage> What
+       would you with me, Adelaide?</p>
+     </sp>
+     <sp who="#L0326_F8">
+      <speaker>Mrs. H.</speaker>
+      <p><stage>(L.C., much agitated)</stage> No—for heaven's sake! I was not prepared, for this.
+       Oh! that tone cuts to my heart, —Adelaide! No,—for heaven's sake! Harsh tones alone are
+       suited to a culprit's ear.</p>
+     </sp>
+     <sp who="#L0326_M1">
+      <speaker>Stran.</speaker>
+      <p><stage>(endeavouring to give his voice firmness)</stage> Well, madam!</p>
+     </sp>
+     <sp who="#L0326_F8">
+      <speaker>Mrs. H.</speaker>
+      <p>Oh! if you will ease my heart, if you will spare and pity me, use reproaches.</p>
+     </sp>
+     <sp who="#L0326_M1">
+      <speaker>Stran.</speaker>
+      <p>Reproaches! Here they are, upon my sallow cheek—here in my hollow eye—here in my faded
+       form. These reproaches I could not spare you.</p>
+     </sp>
+     <sp who="#L0326_F8">
+      <speaker>Mrs. H.</speaker>
+      <p>Were I a hardened sinner, this forbearance would be charity; but I am a suffering penitent,
+       and it overpowers me. Alas! then I must be the herald of my own shame: for, where shall I
+       find peace, till I have eased my soul by my confession?</p>
+     </sp>
+     <sp who="#L0326_M1">
+      <speaker>Stran.</speaker>
+      <p>No confession, madam! I release you from every humiliation. I perceive you feel that we
+       must part for ever.</p>
+     </sp>
+     <sp who="#L0326_F8">
+      <speaker>Mrs. H.</speaker>
+      <p>I know it. Nor come I here to supplicate your pardon; nor has my heart contained a ray of
+       hope that you would grant it. All I dare ask, is, that you will not curse my memory.</p>
+     </sp>
+     <sp who="#L0326_M1">
+      <speaker>Stran.</speaker>
+      <p><stage>(moved)</stage> No, Adelaide! I do not curse you. No! I shall never curse you.</p>
+     </sp>
+     <sp who="#L0326_F8">
+      <speaker>Mrs. H.</speaker>
+      <p><stage>(agitated)</stage> From the inward conviction that I am unworthy of your name, I
+       have, during three years, abandoned it. But that is not enough; you must have
+       <pb n="56"/> that redress which will enable you to choose another— another wife, in whose
+       untainted arms may heaven protect your hours in bliss! This paper will be necessary for the
+       purpose: it contains a written acknowledgment of my guilt. <stage>(offers it
+        trembling)</stage></p>
+     </sp>
+     <sp who="#L0326_M1">
+      <speaker>Stran.</speaker>
+      <p><stage>(tearing it)</stage> Perish the record, for ever! No, Adelaide, you only have
+       possessed my heart; and, without shame, I confess it, you alone will reign there for ever!
+       Your own sensations of virtue, your resolute honor, forbid you to profit by my weakness; and
+       even if—now, by heaven! this is beneath a man! but—never—never—will another fill Adelaide's
+       place here!</p>
+     </sp>
+     <sp who="#L0326_F8">
+      <speaker>Mrs. H.</speaker>
+      <p><stage>(trembling)</stage> Then nothing now remains but that one sad, hard, just
+       word—farewell!</p>
+     </sp>
+     <sp who="#L0326_M1">
+      <speaker>Stran.</speaker>
+      <p>A moment stay. For some months we have, without knowing it, lived near each other. I have
+       learnt much good of you. You have a heart open to the wants of your fellow-creatures: I am
+       happy that it is so. You shall not be without the power of gratifying your benevolence. I
+       know you have a spirit that must shrink from a state of obligation. This paper, to which the
+       whole remnant of my fortune is pledged, secures you independence, Adelaide; and let the only
+       recommendation of the gift be, that it will administer to you the means of indulging in
+       charity—the divine propensity of your nature.</p>
+     </sp>
+     <sp who="#L0326_F8">
+      <speaker>Mrs. H.</speaker>
+      <p>Never! By the labour of my hands must I earn my sustenance. A morsel of bread, moistened
+       with the tear of penitence, will suffice my wishes, and exceed my merits. It would be an
+       additional reproach to think that I served myself, or even others, from the bounty of him
+       whom I had so basely injured.</p>
+     </sp>
+     <sp who="#L0326_M1">
+      <speaker>Stran.</speaker>
+      <p><stage>(much affected)</stage> Take it, madam, take it.</p>
+     </sp>
+     <sp who="#L0326_F8">
+      <speaker>Mrs. H.</speaker>
+      <p>I have deserved this! but I throw myself upon your generosity—have compassion on me!</p>
+     </sp>
+     <sp who="#L0326_M1">
+      <speaker>Stran.</speaker>
+      <p><stage>(aside)</stage> Villain! of what a woman hast thou robbed me! <stage>(puts up the
+        paper)</stage> Well, madam! I respect your sentiments, and withdraw my request; but on this
+       one condition—that if you ever should be in want of any- thing, I shall be the first and only
+       person in the world to whom you will make application!</p>
+     </sp>
+     <sp who="#L0326_F8">
+      <speaker>Mrs. H.</speaker>
+      <p>I promise it, my lord!</p>
+     </sp>
+     <pb n="57"/>
+     <sp who="#L0326_M1">
+      <speaker>Stran.</speaker>
+      <p>And now I may at least desire you to take back what is your own—your jewels—<stage>(gives
+        her the casket)</stage></p>
+     </sp>
+     <sp who="#L0326_F8">
+      <speaker>Mrs. H.</speaker>
+      <p><stage>(opens it in violent agitation, her tears falling upon it)</stage> How well do I
+       recollect the sweet evening when you gave me these! That evening my father joined our hands;
+       and joyfully I pronounced the oath of eternal fidelity—It is broken! This locket you gave me
+       on my birth-day—'tis five years since. That was a happy day! We had a country feast—how
+       cheerful we all were! This bracelet I received after my William was born! No! I cannot keep
+       these, unless you wish that the sight of them should be an incessant reproach to my almost
+       broken heart. <stage>(gives them back)</stage></p>
+     </sp>
+     <sp who="#L0326_M1">
+      <speaker>Stran.</speaker>
+      <p><stage>(aside)</stage> I must go. My soul and pride will hold no longer. Farewell!</p>
+     </sp>
+     <sp who="#L0326_F8">
+      <speaker>Mrs. H.</speaker>
+      <p>Oh! but one minute more! An answer to but one more question! feel for a mother's heart! Are
+       my children still alive?</p>
+     </sp>
+     <sp who="#L0326_M1">
+      <speaker>Stran.</speaker>
+      <p>They are alive!</p>
+     </sp>
+     <sp who="#L0326_F8">
+      <speaker>Mrs. H.</speaker>
+      <p>And well?</p>
+     </sp>
+     <sp who="#L0326_M1">
+      <speaker>Stran.</speaker>
+      <p>They are well.</p>
+     </sp>
+     <sp who="#L0326_F8">
+      <speaker>Mrs. H.</speaker>
+      <p>Heaven be praised! William must be much grown?</p>
+     </sp>
+     <sp who="#L0326_M1">
+      <speaker>Stran.</speaker>
+      <p>I believe so.</p>
+     </sp>
+     <sp who="#L0326_F8">
+      <speaker>Mrs. H.</speaker>
+      <p>What! have you not seen them? And little Amelia, is she still your favourite? <stage>(the
+        Stranger, who is in violent agitation throughout this scene, remains in silent attention
+        between honor and affection)</stage> Oh! if you knew how my heart was hung upon them for
+       these three long dreadful years—how I have sat at evening twilight, first fancying William,
+       then Amelia on my lap—oh! allow me to behold them once again—let me once more kiss the
+       creatures of their father and his babes, and I will kneel to you, and part with them for
+       ever.</p>
+     </sp>
+     <sp who="#L0326_M1">
+      <speaker>Stran.</speaker>
+      <p>Willingly, Adelaide—this very night! I expect the children every minute. They have been
+       brought up near this spot. I have already sent my servant for them. He might before this time
+       have returned. I pledge my word to send them to the castle as soon as they arrive. Here, if
+       you please, they may remain till day-break to- morrow, then they must go with me. <stage>(a
+        pause)</stage></p>
+     </sp>
+     <pb n="58"/>
+     <stage>The Countess and Baron return with Francis and the Children. He gives the Boy to the
+      Countess— who places herself behind Mrs. Haller, he himself walks with the Girl behind the
+      Stranger.</stage>
+     <sp who="#L0326_F8">
+      <speaker>Mrs. H.</speaker>
+      <p>In this world, then, we have no more to say. <stage>(summoning all her resolution)</stage>
+       Farewell! <stage>(seizing his hand)</stage> Forget a wretch who never will forget you!
+        <stage>(kneels)</stage> Let me press this hand once more to my lips—this hand, which once
+       was mine.</p>
+     </sp>
+     <sp who="#L0326_M1">
+      <speaker>Stran.</speaker>
+      <p><stage>(raising her)</stage> No humiliation, Adelaide! <stage>(shakes her hand)</stage>
+       Farewell!</p>
+     </sp>
+     <sp who="#L0326_F8">
+      <speaker>Mrs. H.</speaker>
+      <p>A last farewell.</p>
+     </sp>
+     <sp who="#L0326_M1">
+      <speaker>Stran.</speaker>
+      <p>The last!</p>
+     </sp>
+     <sp who="#L0326_F8">
+      <speaker>Mrs. H.</speaker>
+      <p>And when my penance shall have broken my heart, when we again meet in a better world—</p>
+     </sp>
+     <sp who="#L0326_M1">
+      <speaker>Stran.</speaker>
+      <p>There, Adelaide, you may be mine again;</p>
+     </sp>
+     <stage>Their hands lie in each other—their eyes—mournfully meet each other—they stammer another
+      "Farewell!" and part. But as they are going she encounters the Boy, and he the Girl.</stage>
+     <sp who="#L0326_mult">
+      <speaker>Children.</speaker>
+      <p>Dear father! Dear mother!</p>
+     </sp>
+     <stage>They press the Children in their arms with speechless affection; then tear themselves
+      away—gaze at each other—spread their arms, and rush into an embrace. The Children run and
+      cling round their parents. The curtain falls.</stage>
+
+     <stage>Francis. Baron. Amelia. Stran. Mrs. H. William. Countess. R. L.</stage>
+     <stage> Curtain.</stage>
+    </div>
+   </div>
+  </body>
+  <back>
+   <div>
+    <head>Explanation of the Stage Directions</head>
+    <table>
+     <row>
+      <cell>R.</cell>
+      <cell>R.C.</cell>
+      <cell>C.</cell>
+      <cell>L.C.</cell>
+      <cell>L.</cell>
+     </row>
+     <row>
+      <cell>Right.</cell>
+      <cell>Right Centre.</cell>
+      <cell>Centre.</cell>
+      <cell>Left Centre.</cell>
+      <cell>Left.</cell>
+     </row>
+     <row>
+      <cell>Facing the Audience</cell>
+     </row>
+    </table>
+    <trailer>Printed by Thomas Scott, Warwick Court, Holborn.</trailer>
+   </div>
+  </back>
+ </text>
+</TEI>
