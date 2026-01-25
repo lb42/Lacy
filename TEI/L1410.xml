@@ -1,1258 +1,1826 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L1410">
-  <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>A Christmas Carol; or, The Miser's Warning!</title>
-        <author>C. Z. Barnett</author>
-      </titleStmt>
-      <publicationStmt>
-        <p>Archival transcription based on Project Gutenberg Ebook 41739.</p>
-      </publicationStmt>
-      <sourceDesc>
-        <p>Adapted from Charles Dickens' celebrated work.</p>
-      </sourceDesc>
-    </fileDesc>
-   <revisionDesc><change when="2026-01-23">Checked against UA pages; added pagination</change><change when="2026-01-22">TEI tagging added to Gutenberg transcription by Gemini Pro </change></revisionDesc>
-  </teiHeader>
-  <text>
-    <front>
-      <titlePage>
-        <docTitle>
-          <titlePart>A CHRISTMAS CAROL; OR, THE MISER'S WARNING!</titlePart>
-        </docTitle>
-        <titlePart type="source">(ADAPTED FROM CHARLES DICKENS'S CELEBRATED WORK.)</titlePart><byline>
-      by   
- 
-        <docAuthor>C. Z. BARNETT,</docAuthor>
-        Author of <title>Fair Rosamond, </title><title>Farinelli, </title><title>The Dream of Fate, </title><title>Oliver Twist, </title><title>Linda, </title><title>The Pearl of Savoy, </title><title>Victorine of Paris, </title><title>Dominique, </title><title>Bohemians of Paris,</title> &amp;c.</byline>
-        <docImprint>
-          NEW YORK
-          SAMUEL FRENCH
-          LONDON
-          SAMUEL FRENCH, LTD.
-        </docImprint>
-      </titlePage>
-  
-       <performance> <castList>   <head>DRAMATIS PERSONÆ.</head>
-         <castItem><role gender="M">Ebenezer Scrooge</role><roleDesc>, the Miser</roleDesc><actor>Mr. R. Honner</actor></castItem>
-         <castItem><role gender="M">Frank Freeheart</role><roleDesc>, his Nephew</roleDesc><actor>Mr. J. T. Johnson</actor></castItem>
-          <castItem><role gender="M">Mr. Cheerly</role><actor>Mr. Hawkins</actor></castItem>
-          <castItem><role gender="M">Mr. Heartly</role><actor>Mr. Green</actor></castItem>
-         <castItem><role gender="M">Bob Cratchit</role><roleDesc>, Scrooge's Clerk</roleDesc><actor>Mr. Vale</actor></castItem>
-          <castItem><role gender="M">Dark Sam</role><actor>Mr. Stilt</actor></castItem>
-        </castList>
-        <castList>   <head>CHARACTERS IN THE DREAM.</head>
-         
-          <castItem><role gender="M">Euston, a ruined Gentleman</role><actor>Mr. Lawler</actor></castItem>
-          <castItem><role gender="M">Mr. Fezziwig</role><actor>Mr. Dixie</actor></castItem>
-         <castItem><role gender="M">Old Joe</role><roleDesc>, a Fence</roleDesc><actor>Mr. Goldsmith</actor></castItem>
-          <castItem><role gender="M">Ghost of Jacob Marley</role><actor>Mr. Morrison</actor></castItem>
-          <castItem><role gender="M">Ghost of Christmas Past</role><actor>Mr. Lewis</actor></castItem>
-          <castItem><role gender="M">Ghost of Christmas Present</role><actor>Mr. Heslop</actor></castItem>
-          <castItem><role gender="M">Ghost of Christmas to Come</role><actor>* * *</actor></castItem>
-          <castItem><role gender="M">Dark Sam</role><actor>Mr. Stilt</actor></castItem>
-         <castItem><role gender="M">Peter</role><roleDesc>, Bob's Eldest Son</roleDesc><actor>Miss Daly</actor></castItem>
-          <castItem><role gender="M">Tiny Tim</role><actor>Master Brady</actor></castItem>
-          <castItem><role gender="F">Mrs. Freeheart</role><actor>Mrs. Hicks</actor></castItem>
-         <castItem><role gender="F">Ellen</role><roleDesc>, Scrooge's former love</roleDesc><actor>Mrs. H. Hughes</actor></castItem>
-          <castItem><role gender="F">Mrs. Cratchit</role><actor>Mrs. Daly</actor></castItem>
-        </castList>
-        <p>First produced at the Royal Surrey Theatre, Feb. 5th, 1844.</p>
- </performance>     
-      <div type="costume">
-        <head>COSTUME.</head>
-        <list>
-          <item><label>Scrooge</label>—Brown old-fashioned coat, tea colour breeches, double-breasted white waistcoat. 2nd.—Dressing gown and slippers.</item>
-          <item><label>Frank</label>—Private dress.</item>
-          <item><label>Mr. Cheerly</label>—Blue coat, cord breeches, and gaiters.</item>
-          <item><label>Mr. Heartly</label>—Green coat, black breeches, top boots.</item>
-          <item><label>Bob Cratchit</label>—Black old-fashioned coat, black trousers.</item>
-          <item><label>Dark Sam</label>—Dark green shooting coat and breeches, ragged. Second dress—Shabby black coat.</item>
-          <item><label>Euston</label>—Shabby private clothes.</item>
-          <item><label>Mr. Fezziwig</label>—Black coat, black breeches, double-breasted waistcoat, and striped stockings.</item>
-          <item><label>Marley's Ghost</label>—Slate coloured coat, waistcoat, and pantaloons, black boots, white frill, white band.</item>
-          <item><label>Christmas Past</label>—White dress trimmed with summer flowers, rich belt, fleshings and sandals.</item>
-          <item><label>Christmas Present</label>—Long green robe, trimmed with ermine, flesh body and legs, wreath round head.</item>
-          <item><label>Christmas to Come</label>—Very long black gown.</item>
-          <item><label>Tiny Tim</label>—Blue jacket and trousers.</item>
-          <item><label>All the Ladies</label>—Modern dresses.</item>
-        </list>
-      </div></front><body>
-      <head>A CHRISTAMAS CAROL.</head>
-      <div type="act" n="I">
-        <head>ACT I.</head>
-        <div type="scene" n="I">
-          <head>SCENE I.—Chambers of Scrooge, the Miser. One side of it is filled up with a desk and high stool, the other is a fireplace, fire lighted. Easy chair table, with candlestick upon it, etc., etc.</head>
-          <stage>Scrooge, the Miser, discovered near fire. Bob Cratchit, writing near desk, L. H. As the Curtain rises he descends from stool—approaches fire to stir it.</stage>
-          <sp>
-            <speaker>Scrooge.</speaker>
-            <p>Bob—Bob, we shall be obliged to part. You'll ruin me in coals!</p>
-          </sp>
-          <sp>
-            <speaker>Bob.</speaker>
-            <p>Ruin you—with such a fire in such weather! I've been trying to warm myself by the candle for the last half hour, but not being a man of strong imagination, failed.</p>
-          </sp>
-          <sp>
-            <speaker>Scr.</speaker>
-            <p>Hark! I think I hear some one in the office. Go—see who it is.</p>
-          </sp>
-          <sp>
-            <speaker>Bob.</speaker>
-            <p><stage>(Aside.)</stage> Marley's dead—his late partner is dead as a door nail! If he was to follow him, it wouldn't matter much.</p>
-          </sp>
-          <stage>(Exit 2 E. L. H.)</stage>
-          <sp>
-            <speaker>Scr.</speaker>
-           <p>Marley has been dead seven years, and has left me his sole executor—his sole administrator—his sole residuary legatee—his sole friend—his sole mourner! My poor old partner! I was sorely grieved at his death, and shall never forget his funeral. Coming from it, I made one of the best bargains I ever made. Ha, ha. Folks say I'm tight- <pb n="4"/>fisted—that I'm a squeezing, wrenching, grasping, clutching miser. What of that? It saves me from being annoyed by needy men and beggars. So, this is Christmas eve—and cold, bleak, biting weather it is, and folks are preparing to be merry. Bah! what's Christmas eve to me? what should it be to them?</p>
-          </sp>
-          <stage>Enter Frank and Bob, 2 E. L. H.</stage>
-          <sp>
-            <speaker>Bob.</speaker>
-            <p>There's your uncle, sir. <stage>(Aside.)</stage> Old covetous! He's worse than the rain and snow. They often come down, and handsomely too, but Scrooge never does!</p>
-          </sp>
-          <stage>(Exit 2 E. L. H.)</stage>
-          <sp>
-            <speaker>Scr.</speaker>
-            <p>Who's that?</p>
-          </sp>
-          <sp>
-            <speaker>Frank.</speaker>
-            <p>A merry Christmas, uncle!</p>
-          </sp>
-          <sp>
-            <speaker>Scr.</speaker>
-            <p>Bah! humbug!</p>
-          </sp>
-          <sp>
-            <speaker>Frank.</speaker>
-            <p>Uncle, you don't mean that, I'm sure.</p>
-          </sp>
-          <sp>
-            <speaker>Scr.</speaker>
-            <p>I do. Merry Christmas! What right have you to be merry? You're poor enough.</p>
-          </sp>
-          <sp>
-            <speaker>Frank.</speaker>
-            <p><stage>(Gaily.)</stage> Come, then, what right have you to be dismal! What reason have you to be morose? You're rich enough.</p>
-          </sp>
-          <sp>
-            <speaker>Scr.</speaker>
-            <p>Bah! humbug!</p>
-          </sp>
-          <sp>
-            <speaker>Frank.</speaker>
-            <p>Don't be cross, uncle.</p>
-          </sp>
-          <sp>
-            <speaker>Scr.</speaker>
-            <p>What else can I be, when I live in such a world of fools as this? Merry Christmas! Out upon Merry Christmas. What's Christmas time to you but a time for paying bills without money—a time for finding yourself a year older, and not an hour richer. If I could work my will, every idiot who goes about with merry Christmas on his lips should be boiled with his own pudding, and buried with a stake of holly through his heart—he should!</p>
-          </sp>
-          <sp>
-            <speaker>Frank.</speaker>
-            <p>Uncle!</p>
-          </sp>
-          <sp>
-            <speaker>Scr.</speaker>
-            <p>Nephew, keep Christmas in your own way, and let me keep it in mine.</p>
-          </sp>
-          <sp>
-            <speaker>Frank.</speaker>
-            <p>Keep it! But you don't keep it.</p>
-          </sp><pb n="5"/>
-          <sp>
-            <speaker>Scr.</speaker>
-            <p>Let me leave it alone, then. Much good may it do you. Much good it has ever done you.</p>
-          </sp>
-          <sp>
-            <speaker>Frank.</speaker>
-            <p>There are many things from which I might have derived good by which I have not profited, I dare say, Christmas among the rest, but I am sure I have always thought of Christmas time, when it has come round, as a good time—a kind, forgiving, charitable, pleasant time; the only time I know of, in the long calendar of the year, when men and women seem by one consent to open their shut up hearts freely, and to think of people below them as if they really were fellow passengers to the grave, and not another race of creatures bound on other journeys, and, therefore, uncle, though it has not put a scrap of gold or silver in my pocket, I believe that it has done me good, and will do me good, and I say, Heaven bless it!</p>
-          </sp>
-          <sp>
-            <speaker>Bob.</speaker>
-            <p><stage>(Looking in.)</stage> Beautiful—beautiful!</p>
-          </sp>
-          <sp>
-            <speaker>Scr.</speaker>
-            <p>Let me hear another sound from you—<stage>(To Bob.)</stage>—And you'll keep your Christmas by losing your situation.</p>
-          </sp>
-          <sp>
-            <speaker>Bob.</speaker>
-            <p><stage>(Aside.)</stage> He growls like a bear with a sore head! <stage>(Disappears.)</stage></p>
-          </sp>
-          <sp>
-            <speaker>Scr.</speaker>
-            <p>You're quite a powerful speaker. I wonder you don't go into Parliament.</p>
-          </sp>
-          <sp>
-            <speaker>Frank.</speaker>
-            <p>Don't be angry. Come—dine with me to-morrow.</p>
-          </sp>
-          <sp>
-            <speaker>Scr.</speaker>
-            <p>No, no——</p>
-          </sp>
-          <sp>
-            <speaker>Frank.</speaker>
-            <p>But why not?</p>
-          </sp>
-          <sp>
-            <speaker>Scr.</speaker>
-            <p>Why did you get married?</p>
-          </sp>
-          <sp>
-            <speaker>Frank.</speaker>
-            <p>Because I fell in love.</p>
-          </sp>
-          <sp>
-            <speaker>Scr.</speaker>
-            <p>Because you fell in love! Bah! good evening.</p>
-          </sp>
-          <sp>
-            <speaker>Frank.</speaker>
-            <p>I want nothing—I ask nothing of you. Well, I'm sorry to find you so resolute—we have never had any quarrel—I have made the trial in homage to Christmas, and I'll keep my Christmas humour to the last—so, a merry Christmas, uncle.</p>
-          </sp><pb n="6"/>
-          <sp>
-            <speaker>Scr.</speaker>
-            <p>Good evening!</p>
-          </sp>
-          <sp>
-            <speaker>Frank.</speaker>
-            <p>And a happy new year!</p>
-          </sp>
-          <sp>
-            <speaker>Scr.</speaker>
-            <p>Good evening!</p>
-          </sp>
-          <stage>Enter Bob, 2 E. L. H.</stage>
-          <sp>
-            <speaker>Frank.</speaker>
-            <p>And a happy Christmas, and a merry new year to you, Bob Cratchit. <stage>(Shaking him by the hand.)</stage></p>
-          </sp>
-          <sp>
-            <speaker>Bob.</speaker>
-            <p>The same to you, sir, and many of 'em, and to your wife, and to your darling children, and to all your friends, and to all you know, and to every one, to all the world. <stage>(Exit Frank, 2 E. L. H.)</stage></p>
-          </sp>
-          <sp>
-            <speaker>Scr.</speaker>
-            <p><stage>(Aside.)</stage> There's another fellow, my clerk, with fifteen shillings a week, and a wife and family, talking about a merry Christmas. I'll retire to Bedlam.</p>
-          </sp>
-          <sp>
-            <speaker>Bob.</speaker>
-            <p>Two gentlemen want you, sir, as fat as prize beef—shall I call 'em in? <stage>(Goes to side.)</stage> Walk this way if you please, gentlemen.</p>
-          </sp>
-          <stage>Enter Mr. Cheerly and Mr. Heartly, 2 E. L. H., with books and papers.</stage>
-          <sp>
-            <speaker>Cheer.</speaker>
-            <p>Scrooge and Marley's—I believe I have the pleasure of addressing Mr. Marley!</p>
-          </sp>
-          <sp>
-            <speaker>Scr.</speaker>
-            <p>Mr. Marley has been dead these seven years.</p>
-          </sp>
-          <sp>
-            <speaker>Cheer.</speaker>
-            <p>At this festive season of the year, it is more than usually desirable that we should make some slight provision for the poor and destitute—many thousands are in want of common necessaries—hundreds of thousands are in want of common comfort, sir.</p>
-          </sp>
-          <sp>
-            <speaker>Scr.</speaker>
-            <p>Are there no prisons? and the union workhouses, are they still in operation?</p>
-          </sp>
-          <sp>
-            <speaker>Cheer.</speaker>
-            <p>They are still—I wish I could say they were not.</p>
-          </sp>
-          <sp>
-            <speaker>Scr.</speaker>
-            <p>The treadmill and the poor law are in full vigour then?</p>
-          </sp>
-         <pb n="7"/>
-          <sp>
-            <speaker>Cheer.</speaker>
-            <p>Both very busy, sir.</p>
-          </sp>
-          <sp>
-            <speaker>Scr.</speaker>
-            <p>Oh! I was afraid from what you said at first, that something had occurred to stop them in their useful course. I'm very glad to hear it!</p>
-          </sp>
-          <sp>
-            <speaker>Cheer.</speaker>
-            <p>Under the impression that they scarcely furnish Christian cheer of mind or body to the multitude, a few of us are endeavouring to raise a fund to buy the poor some meat and drink, and means of warmth. We choose this time because it is a time of all others, when want is keenly felt and abundances rejoice. What shall we put you down for?</p>
-          </sp>
-          <sp>
-            <speaker>Scr.</speaker>
-            <p>Nothing!</p>
-          </sp>
-          <sp>
-            <speaker>Cheer.</speaker>
-            <p>You wish to be anonymous?</p>
-          </sp>
-          <sp>
-            <speaker>Scr.</speaker>
-            <p>I wish to be left alone. I don't make merry myself at Christmas, and I can't afford to make idle people merry—I help to support the establishments I have named—they cost enough—those who are badly off must go there.</p>
-          </sp>
-          <sp>
-            <speaker>Cheer.</speaker>
-            <p>Many can't go there—many would rather die!</p>
-          </sp>
-          <sp>
-            <speaker>Scr.</speaker>
-            <p>If they'd rather die, they'd better do it, and decrease the surplus population. However, it's not my business, so good evening, gentlemen.</p>
-          </sp>
-          <sp>
-            <speaker>Cheer.</speaker>
-            <p>I am sorry we disturbed you. <stage>(As they are about to exeunt, Bob approaches them—Scrooge retires up.)</stage></p>
-          </sp>
-          <sp>
-            <speaker>Bob.</speaker>
-            <p>Beg pardon, gentlemen, I've got an odd eighteen-pence here that I was going to buy a new pair of gloves with in honour of Christmas day, but my heart would feel warmer though my hands were colder, if it helped to put a dinner and a garment on a poor creature who might need. There take it.</p>
-          </sp>
-          <sp>
-            <speaker>Cheer.</speaker>
-            <p>Such acts as these from such men as you sooner or later, will be well rewarded.</p>
-          </sp>
-          <sp>
-            <speaker>Bob.</speaker>
-            <p>This way, gentlemen. I feel as light as my four-and-ninepenny gossamer! <stage>(Exeunt 2 E. L. H.)</stage></p>
-          </sp>
-          <sp>
-            <speaker>Scr.</speaker>
-            <p><stage>(Coming down.)</stage> Give money—humbug! Who'd give me anything, I should like to know?</p>
-          </sp>
-         <pb n="8"/>
-          <stage>Re-enter Bob, 2 E. L. H.</stage>
-          <sp>
-            <speaker>Bob.</speaker>
-            <p>A letter, sir. <stage>(Gives it and retires up.)</stage></p>
-          </sp>
-          <sp>
-            <speaker>Scr.</speaker>
-            <p><stage>(Opens it—reads.)</stage> Ah! what do I see? the Mary Jane lost off the coast of Africa. Then Frank is utterly ruined! his all was embarked on board that vessel. Frank knows not of this—he will apply to me doubtless—but no, no. Why should I part with my hard gained store to assist him, his wife and children—he chooses to make a fool of himself, and marry a smooth-faced chit, and get a family—he must bear the consequences—I will not avert his ruin, no, not by a single penny.</p>
-          </sp>
-          <sp>
-            <speaker>Bob.</speaker>
-            <p><stage>(Coming down.)</stage> Please, sir, it's nine o'clock.</p>
-          </sp>
-          <sp>
-            <speaker>Scr.</speaker>
-            <p>Already! You'll want all day to-morrow, I suppose.</p>
-          </sp>
-          <sp>
-            <speaker>Bob.</speaker>
-            <p>If quite convenient, sir.</p>
-          </sp>
-          <sp>
-            <speaker>Scr.</speaker>
-            <p>It's not convenient, and it's not fair. If I was to stop half-a-crown for it, you'd think yourself ill-used, I'll be bound, and yet you don't think me ill used when I pay a day's wages for no work.</p>
-          </sp>
-          <sp>
-            <speaker>Bob.</speaker>
-            <p>Christmas comes but once a year.</p>
-          </sp>
-          <sp>
-            <speaker>Scr.</speaker>
-            <p>A poor excuse for picking a man's pockets every twenty-fifth of December! Well, I suppose you must have the whole day. Be here all the earlier next morning. Here's your week's money, fifteen shillings—I ought to stop half-a-crown—never mind!</p>
-          </sp>
-          <sp>
-            <speaker>Bob.</speaker>
-            <p>Thank you, sir! I'll be here before daylight, sir, you may depend upon it. Good night, sir. Oh, what a glorious dinner Mrs. C. shall provide. Good night, sir. A merry Christmas and a happy new year, sir.</p>
-          </sp>
-          <sp>
-            <speaker>Scr.</speaker>
-            <p>Bah! humbug! <stage>(Exit Bob, 2 E. L. H.)</stage> So—alone once more. It's a rough night! I will go to bed soon—that will save supper. <stage>(Takes off his coat, boots, etc., and puts on morning gown and slippers, talking all the time.)</stage> 'Tis strange now the idea of Marley is haunting me to-night—everywhere<pb n="9"/> I turn his face seems before me. Delusion—humbug! I'll sit down by the fire and forget him. <stage>(Takes basin of gruel from hob.)</stage> Here's my gruel! <stage>(Sits in easy chair by fire—puts on night cap, and presently appears to dose. Suddenly a clanking of chains and ringing of bells is heard—he's aroused, and looks up terrified.)</stage> That noise! It's humbug! I won't believe it! <stage>(The door slowly opens, and the Ghost of Marley glides in. A chain is round his body, and cash boxes, ledgers, padlocks, purses, etc., are attached to it.)</stage> How now! What do you want with me?</p>
-          </sp>
-          <sp>
-            <speaker>Ghost.</speaker>
-            <p>Much.</p>
-          </sp>
-          <sp>
-            <speaker>Scr.</speaker>
-            <p>Who are you?</p>
-          </sp>
-          <sp>
-            <speaker>Ghost.</speaker>
-            <p>Ask me who I was.</p>
-          </sp>
-          <sp>
-            <speaker>Scr.</speaker>
-            <p>Who were you, then. You're particular for a shade—I mean to a shade.</p>
-          </sp>
-          <sp>
-            <speaker>Ghost.</speaker>
-            <p>In life I was your partner, Jacob Marley. You don't believe in me! Why do you doubt your senses?</p>
-          </sp>
-          <sp>
-            <speaker>Scr.</speaker>
-            <p>Because a little thing affects them. A slight disorder of the stomach makes them cheats. You may be an undigested bit of beef—a fragment of an underdone potato. There's more of gravy than of grave about you, whatever you are.</p>
-          </sp>
-          <sp>
-            <speaker>Ghost.</speaker>
-            <p><stage>(Unfastening the bandage round its head.)</stage> Man of the worldly mind, do you believe me or not?</p>
-          </sp>
-          <sp>
-            <speaker>Scr.</speaker>
-            <p>I do—I must! But why do spirits walk the earth? Why do they come to me?</p>
-          </sp>
-          <sp>
-            <speaker>Ghost.</speaker>
-            <p>It is required of every man that the spirit within him should walk abroad among his fellow men, and travel far and wide—if not in life, it is condemned to do so after death. It is doomed to wander through the world, oh, woe is me!—and witness what it cannot share, but might have shared on earth, and turned to happiness.</p>
-          </sp>
-          <sp>
-            <speaker>Scr.</speaker>
-            <p>You are fettered!</p>
-          </sp><pb n="10"/>
-          <sp>
-            <speaker>Ghost.</speaker>
-            <p>I wear the chain I forged in life—I made it link by link. Is its pattern strange to you? Oh, no space of regret can make amends for one life's opportunities misused.</p>
-          </sp>
-          <sp>
-            <speaker>Scr.</speaker>
-            <p>But you were always a man of business——</p>
-          </sp>
-          <sp>
-            <speaker>Ghost.</speaker>
-            <p>Business! Mankind was my business—charity, mercy, were all my business. At this time of the year I suffered most, for I neglected most. Hear me! I am here to-night to warn you that you have a chance and a hope of escaping my fate. You will be haunted by three spirits——</p>
-          </sp>
-          <sp>
-            <speaker>Scr.</speaker>
-            <p>I—I'd rather be excused!</p>
-          </sp>
-          <sp>
-            <speaker>Ghost.</speaker>
-            <p>Without their visits you cannot hope to shun the path I tread. Expect the first when the clock strikes one. Look to see me no more. For your own sake, remember what has passed between us. <stage>(Binds wrapper round its head once more—slowly approaches the door and disappears. Scrooge follows the phantom towards the door.)</stage></p>
-          </sp>
-          <sp>
-            <speaker>Scr.</speaker>
-            <p>It is gone. The air seems filled with phantoms—shades of many I knew when living—they all wear chains like Marley—they strive to assist the poor and stricken, but in vain—they seek to interfere for good in human nature, but have lost the power forever. <stage>(The clock strikes one—Scrooge staggers to a chair—the room is filled with a blaze of light—the Ghost of Christmas Past rises through trap—As described in WORK, page 43.)</stage> Are you the spirit whose coming was foretold to me?</p>
-          </sp>
-          <sp>
-            <speaker>1st Spirit.</speaker>
-            <p>I am!</p>
-          </sp>
-          <sp>
-            <speaker>Scr.</speaker>
-            <p>Who and what are you?</p>
-          </sp>
-          <sp>
-            <speaker>1st Spirit.</speaker>
-            <p>I am the Ghost of Christmas Past. Your welfare—your reclamation brings me here. Turn, and behold! <stage>(The Stage, becomes dark—a strong light is seen behind—the wall of the Miser's chamber fades away and discovers a school-room—a child is seated reading by a fire.)</stage> All have departed but this poor boy.</p>
-          </sp><pb n="11"/>
-          <sp>
-            <speaker>Scr.</speaker>
-            <p>My poor forgotten self—and as I used to be!</p>
-          </sp>
-          <sp>
-            <speaker>1st Spirit.</speaker>
-            <p>Look again! <stage>(A figure of Ali Baba is shown beyond the Child.)</stage></p>
-          </sp>
-          <sp>
-            <speaker>Scr.</speaker>
-            <p>Why it's dear old honest Ali Baba! Yes, one Christmas time, when yonder poor child was left alone, he <emph>did</emph> come just like that! <stage>(The figures of Valentine and Orson appear.)</stage> Ha! and Valentine and his wild brother Orson, too! <stage>(Robinson Crusoe and Friday appear.)</stage> Ha! and Robinson Crusoe, and his man Friday! Poor boy! he was left alone, while all the rest were making holiday. <stage>(The figures of Ali Baba, etc., disappear. As he speaks, a little Girl enters the school-room, and approaches the Boy.)</stage></p>
-          </sp>
-          <sp>
-            <speaker>Girl.</speaker>
-            <p>I am come to bring you home, dear brother—we are to be together this Christmas, and be so merry! <stage>(She leads him out. Scene fades away.)</stage></p>
-          </sp>
-          <sp>
-            <speaker>Scr.</speaker>
-            <p>My sister! poor little Fanny!</p>
-          </sp>
-          <sp>
-            <speaker>1st Spirit.</speaker>
-            <p>A delicate creature, whom a breath might have withered. She died a woman, and had, as I think, children.</p>
-          </sp>
-          <sp>
-            <speaker>Scr.</speaker>
-            <p>One child!</p>
-          </sp>
-          <sp>
-            <speaker>1st Spirit.</speaker>
-            <p>True—your nephew. Know you this place? <stage>(The Scene at back is again lighted up, and discovers Fezziwig's warehouse. Fezziwig and Characters grouped as in FRONTISPIECE of WORK. Scrooge, as a young man.)</stage></p>
-          </sp>
-          <sp>
-            <speaker>Scr.</speaker>
-            <p>Why, 'tis old Fezziwig, to whom I was apprenticed—he is alive again! My fellow-apprentice, Dick Wilkins, too—myself, as I was <emph>then</emph>. 'Tis Christmas eve there. The happiness he gave at so small a price was quite as much as though it cost a fortune. <stage>(The tableau fades away. The Stage becomes dark. Enter Ellen in mourning. During the fading of the tableau Scrooge puts a cloak around him, etc., and seems a younger man.)</stage> I feel as if my years of life were less. Ha! who is this beside me?</p>
-          </sp><pb n="12"/>
-          <sp>
-            <speaker>1st Spirit.</speaker>
-            <p>Have you forgotten your early love?</p>
-          </sp>
-          <sp>
-            <speaker>Scr.</speaker>
-            <p>Ellen!</p>
-          </sp>
-          <sp>
-            <speaker>Ellen.</speaker>
-            <p>Ebenezer, I come to say farewell forever! It matters little to you—very little—another idol has displaced me, and if I can cheer and comfort you in time to come, as I would have tried to do, I have no just cause to grieve.</p>
-          </sp>
-          <sp>
-            <speaker>Scr.</speaker>
-            <p>What idol has displaced you?</p>
-          </sp>
-          <sp>
-            <speaker>Ellen.</speaker>
-            <p>A golden one—the master passion. Gain alone engrosses you.</p>
-          </sp>
-          <sp>
-            <speaker>Scr.</speaker>
-            <p>I have not changed towards you.</p>
-          </sp>
-          <sp>
-            <speaker>Ellen.</speaker>
-            <p>Our contract is an old one—it was made when we were both poor. You are changed—I am not. That which promised happiness when we were one in heart, is fraught with misery now we are two. How often and how keenly I have thought of this I will not say. I <hi rend="italic">have</hi> thought of it, and can release you.</p>
-          </sp>
-          <sp>
-            <speaker>Scr.</speaker>
-            <p>Have I ever sought release?</p>
-          </sp>
-          <sp>
-            <speaker>Ellen.</speaker>
-            <p>In word—no, never!</p>
-          </sp>
-          <sp>
-            <speaker>Scr.</speaker>
-            <p>In what, then?</p>
-          </sp>
-          <sp>
-            <speaker>Ellen.</speaker>
-            <p>In a changed nature—in an altered spirit—in every thing that made my love of any worth or value in your sight. If this had never been between us, tell me, would you seek me out, and try to win me now? Ah, no!</p>
-          </sp>
-          <sp>
-            <speaker>Scr.</speaker>
-            <p>You think not——</p>
-          </sp>
-          <sp>
-            <speaker>Ellen.</speaker>
-            <p>I would think otherwise if I could—but if you were free to-day, can even I believe that you would choose a dowerless girl—you who weigh everything by gain? Or did you so, do I not know your repentance and regret would surely follow. I do—and I release you, with a full heart, for the love of him you once were. You will forget all this—may you be happy in the life you have chosen! <stage>(She slowly exits R. H. Scrooge throws aside his cloak, and appears as before.)</stage></p>
-          </sp>
-          <sp>
-            <speaker>Scr.</speaker>
-            <p>Spirit, show me no more! Why do you delight to torture me?</p>
-          </sp><pb n="13"/>
-          <sp>
-            <speaker>1st Spirit.</speaker>
-            <p>One shadow more. She whom you resigned for gold—for gain—for sordid ore—she you shall now behold as the tender wife of a good and upright man—as the happy mother of smiling children. You shall see them in their joyous home. Come, thou lonely man of gold—come!</p>
-          </sp>
-          <sp>
-            <speaker>Scr.</speaker>
-            <p>No, no!</p>
-          </sp>
-          <sp>
-            <speaker>1st Spirit.</speaker>
-            <p>I told you these were the shadows of the things that have been—that they are what they are do not blame me. Come——</p>
-          </sp>
-          <sp>
-            <speaker>Scr.</speaker>
-            <p>No, no—I've seen enough—haunt me no longer! <stage>(The Spirit seizes him—he seizes the cap presses it upon the Spirit's head, who sinks under it, and disappears in a flood of light while Scrooge sinks exhausted on the floor.)</stage></p>
-          </sp>
-        </div>
-        <div type="scene" n="II">
-          <head>SCENE II.—<hi rend="italic">A Street. Houses covered with snow.</hi></head>
-          <stage>Enter Dark Sam, L. H.</stage>
-          <sp>
-            <speaker>Sam.</speaker>
-            <p>It's very odd! I an't nimmed nothing to-night. Christmas eve, too—when people's got sich lots of tin! But they takes precious good care of it, 'cos I s'pose they thinks if they loses it, they shan't be able to get no Christmas dinner. If I can't prig nothin', I'm sure I shan't be able to get none. Unless this trade mends soon, I must turn undertaker's man again. There is a chance, in that honourable calling of a stray thing or two. Somebody comes! I wonder if I shall have any luck now.</p>
-          </sp>
-          <stage>Enter Bob, R. H.</stage>
-          <sp>
-            <speaker>Bob.</speaker>
-           <p>I shall soon be home! Won't my Martha be glad to see me—and what a pleasant happy Christmas Day we shall spend. What a dinner we shall have! I've got fifteen shillings—my week's wages—and I'm determined to spend every farthing of it. Won't we have a prime goose, and a magnificent pudding! And then the gin and water—and oranges<pb n="14"/>—and the—oh, how jolly we shall be! And Tiny Tim, too—he never tasted goose before—how he will lick his dear little chops at the sage and onions! And as for Martha—my dear Martha, who is a dress-maker, and can only come to see us once in about four months—she shall have the parson's nose. Let me see—a goose will cost seven shillings—pudding five—that's twelve. Oranges, sage and onions, potatoes, and gin, at least three shillings more. Oh, there will be quite enough money, and some to spare. <stage>(During this speech Sam advances cautiously and picks his pocket.)</stage></p>
-          </sp>
-          <sp>
-            <speaker>Sam.</speaker>
-            <p><stage>(Aside.)</stage> Some to spare! It can't fall into better hands than mine, then!</p>
-          </sp>
-          <stage>(Exit R. H.)</stage>
-          <sp>
-            <speaker>Bob.</speaker>
-            <p>I've a good mind to buy the goose going home; but then if it should turn out fusty—I think I had better leave it for Mrs. C. The moment I get home, I'll pop the money into her hands, and—<stage>(Feeling in his pockets.)</stage>—Eh?—what—what's this? Somebody has been having a joke at my expense. Eh? my week's salary—my fifteen shillings—it's gone! I'm ruined—lost——undone! My pocket has been picked! I've lost my Christmas dinner before I've got it! Oh, how can I face Mrs. C., and Bob, and Martha, and Tiny Tim! Oh, what can I do?</p>
-          </sp>
-          <stage>Enter Frank, L. H.</stage>
-          <sp>
-            <speaker>Frank.</speaker>
-            <p>What my worthy friend Bob Cratchit—how is this, man? you look sorrowful, and on Christmas eve, too!</p>
-          </sp>
-          <sp>
-            <speaker>Bob.</speaker>
-            <p>Some of those boys whom I was sliding with on the ice in Cornhill must have done it.</p>
-          </sp>
-          <sp>
-            <speaker>Frank.</speaker>
-            <p>Done it! Done what, man?</p>
-          </sp>
-          <sp>
-            <speaker>Bob.</speaker>
-            <p>Stole my Christmas dinner—my—salary—I mean my fifteen shillings, that your uncle paid me not an hour ago.</p>
-          </sp>
-          <sp>
-            <speaker>Frank.</speaker>
-            <p>That's unfortunate!</p>
-          </sp>
-          <sp>
-            <speaker>Bob.</speaker>
-            <p>Unfortunate! Think of Tiny Tim's disappointment—no goose—no pudding—no nothing!</p>
-          </sp><pb n="15"/>
-          <sp>
-            <speaker>Frank.</speaker>
-            <p>Tiny Tim shall not go without his Christmas dinner notwithstanding your loss—no, nor you either—nor any of your family, Bob Cratchit. At such a time as this, no one should be unhappy—not even my hard-hearted uncle, much less a worthy fellow like you. Here, Bob, here's a sovereign—you can return it when my uncle raises your wages—no thanks, but go and be as happy as you deserve to be—once more, a merry Christmas to you!</p>
-          </sp>
-          <stage>(Exit R. H.)</stage>
-          <sp>
-            <speaker>Bob.</speaker>
-            <p>He's a regular trump! I wanted to thank him, and couldn't find the words! I should like to laugh, and I feel as if I could cry. If Tiny Tim don't bless you for this my name's not Bob Cratchit! I've lost fifteen shillings, and I've found a sovereign! <stage>(Dances.)</stage> Tol lol li do! Oh, Mrs. Cratchit! Oh, my little Cratchit! what a happy Christmas Day we shall spend, surely! What a pity Christmas don't last all the year round! <stage>(Exit L. H.)</stage></p>
-          </sp>
-        </div>
-        <div type="scene" n="III">
-          <head>SCENE III.—Scrooge's chamber, as before.</head>
-          <stage>Scrooge discovered, sleeping in a chair. The Stage becomes suddenly quite light, and the Ghost of Christmas Present discovered, as in WORK, page 78, the wall at back covered with ivy, holly, and mistletoe—heaped upon the floor, almost to form a throne, are turkeys, geese, plum puddings, twelfth cake, etc. (See PAGE 78.)</stage>
-          <sp>
-            <speaker>2nd Spirit.</speaker>
-            <p>Know me, man? I am the ghost of Christmas Present. Look upon me. <stage>(Scrooge rises, approaches, and gazes at the figure.)</stage> You have never seen the like of me before?</p>
-          </sp>
-          <sp>
-            <speaker>Scr.</speaker>
-            <p>Never!</p>
-          </sp>
-          <sp>
-            <speaker>2nd Spirit.</speaker>
-            <p>Have never walked forth with the younger members of my family, meaning, for I am very young, my elder brothers born in these latter years.</p>
-          </sp>
-          <sp>
-            <speaker>Scr.</speaker>
-            <p>I'm afraid I have not. Have you had many brothers, Spirit?</p>
-          </sp>
-         <pb n="16"/>
-          <sp>
-            <speaker>2nd Spirit.</speaker>
-            <p>More than eighteen hundred!</p>
-          </sp>
-          <sp>
-            <speaker>Scr.</speaker>
-            <p>A tremendous family to provide for! <stage>(The Spirit rises.)</stage> Spirit, conduct me where you will—if you have ought to teach me, let me profit by it. Why do you carry that torch?</p>
-          </sp>
-          <sp>
-            <speaker>2nd Spirit.</speaker>
-            <p>To sprinkle the light and incense of happiness every where—to poor dwellings most.</p>
-          </sp>
-          <sp>
-            <speaker>Scr.</speaker>
-            <p>Why to poor ones most?</p>
-          </sp>
-          <sp>
-            <speaker>2nd Spirit.</speaker>
-            <p>Because they need it most. But come—touch my robe—we have much to see. <stage>(As Scrooge approaches nearer to him, the Scene changes.)</stage></p>
-          </sp>
-        </div>
-        <div type="scene" n="IV">
-          <head>SCENE IV.—A Bleak and Barren Moor. A poor mud cabin. (Painted in the flat.)</head>
-          <stage>The Second Spirit and Scrooge enter.</stage>
-          <sp>
-            <speaker>Scr.</speaker>
-            <p>What place is this?</p>
-          </sp>
-          <sp>
-            <speaker>2nd Spirit.</speaker>
-            <p>A place where miners live, who labour in the bowels of the earth—they know me. See! <stage>(As he speaks, the window is lighted from within. The Spirit draws Scrooge to window.)</stage> What seest thou?</p>
-          </sp>
-          <sp>
-            <speaker>Scr.</speaker>
-            <p>A cheerful company assembled round a glowing fire—an old man and woman, with their children, and children's children all decked gaily out in their holiday attire. I hear the old man's voice above the howling of the wind upon the barren waste; singing a Christmas song, while all swell out the chorus.</p>
-          </sp>
-          <sp>
-            <speaker>2nd Spirit.</speaker>
-            <p>Come, we must not tarry—we will to sea—your ear shall be deafened by the roaring waters.</p>
-          </sp>
-          <sp>
-            <speaker>Scr.</speaker>
-            <p>To sea? no, good Spirit!</p>
-          </sp>
-          <sp>
-            <speaker>2nd Spirit.</speaker>
-           <p>See yonder solitary lighthouse built on a dismal reef of sunken rocks. Here we men who watch the light, have made a fire that sheds a ray of brightness on the awful sea, joining their horny hands over the rough table where they sit, they wish each other a merry Christmas in can of grog and     <pb n="17"/>sing a rude lay in honour of the time. All men on this day have a kinder word for one another—on such a day—but come—on—on! <stage>(As he speaks the Scene changes.)</stage></p>
-          </sp>
-        </div>
-        <div type="scene" n="V">
-          <head>SCENE V.—Drawing-room in Frank Freeheart's house.</head>
-          <stage>Frank, Caroline his wife, Mr. Cheerly, and male and female Guests discovered—some are seated on a sofa on one side, others surround a table on the other side. Scrooge and the Spirit remain on one side. (At opening of Scene all laugh.)</stage>
-          <sp>
-            <speaker>Frank.</speaker>
-            <p>Yes, friends, my uncle said that Christmas was a humbug, as I live! He believed it, too!</p>
-          </sp>
-          <sp>
-            <speaker>Omnes.</speaker>
-            <p>More shame for him.</p>
-          </sp>
-          <sp>
-            <speaker>Frank.</speaker>
-            <p>He's a comical old fellow! However, his offences carry their own punishment.</p>
-          </sp>
-          <sp>
-            <speaker>Cheer.</speaker>
-            <p>He's very rich!</p>
-          </sp>
-          <sp>
-            <speaker>Frank.</speaker>
-            <p>But his wealth is of no use to him. He don't do any good with it. He don't make himself comfortable with it. He hasn't the satisfaction of thinking—ha, ha, ha!—that he is ever going to benefit us with it!</p>
-          </sp>
-          <sp>
-            <speaker>Ladies.</speaker>
-            <p>We have no patience with him!</p>
-          </sp>
-          <sp>
-            <speaker>Frank.</speaker>
-            <p>But I have! I'm sorry for him! I couldn't be angry with him if I tried. Who suffers by his ill whims? Himself! He loves a good dinner—pleasant moments, and pleasanter companions than he can find in his own thoughts, or in his mouldy chambers. He may rail at Christmas till he dies, but he can't help thinking better of it, I defy him! If he finds me going there, year after year and saying, Uncle Scrooge, how are you? If it only puts him in the vein to leave his poor clerk fifty pounds, that's something, and I think I shook him yesterday! <stage>(All laugh.)</stage> Well, he has given us plenty of merriment so here's his health. Uncle Scrooge!</p>
-          </sp>    <pb n="18"/>
-          <sp>
-            <speaker>Omnes.</speaker>
-            <p><stage>(Drinks.)</stage> Uncle Scrooge!</p>
-          </sp>
-          <sp>
-            <speaker>Frank.</speaker>
-            <p>A merry Christmas and a happy new year to him wherever he is!</p>
-          </sp>
-          <sp>
-            <speaker>Scr.</speaker>
-            <p>Spirit, their merriment has made me so bright and gay, that I could almost pledge them in return, and join in all their innocent mirth!</p>
-          </sp>
-          <stage>A servant enters, L. H. and gives a letter to Frank, then exits.</stage>
-          <sp>
-            <speaker>Frank.</speaker>
-            <p><stage>(Opens it and reads. Aside.)</stage> Ah! what do I see, the vessel lost at sea that bore my entire wealth within her! Then I'm a lost and ruined man! <stage>(His wife approaches him.)</stage></p>
-          </sp>
-          <sp>
-            <speaker>Cheer.</speaker>
-            <p>No ill news, I hope, Mr. Freeheart.</p>
-          </sp>
-          <sp>
-            <speaker>Frank.</speaker>
-            <p><stage>(Aside.)</stage> The stroke is sudden and severe but I will bear it like a man! Why should I damp the enjoyment of those around by such ill tiding? No, it is Christmas time—I will not broach such bad news now—no—at least to-night. All shall be happy—nor word of mine shall make any otherwise. <stage>(To his friends.)</stage> Come, friends, let's have a merry dance, shall we not?</p>
-          </sp>
-          <sp>
-            <speaker>Omnes.</speaker>
-            <p>A dance! a dance! <stage>(Short, Country Dance, in which Scrooge joins without being observed by the rest. Towards the conclusion of it the Spirit advances—draws Scrooge back from the group—a bright glow lights up the Scene, as the Spirit and Scrooge sink through the Stage unnoticed by the groups.)</stage></p>
-          </sp>
-        </div><trailer>End of Act I.</trailer>
-      </div>
-      <div type="act" n="II">
-        <head>ACT II.</head>
-        <div type="scene" n="I">
-          <head>SCENE I.—<hi rend="italic">Humble Apartment in Bob Cratchit's House. Table, chairs, etc., on.</hi></head>
-          <stage>Mrs. Cratchit and Belinda Cratchit discovered laying the cloth. Peter Cratchit is by fire. Scrooge and the Spirit of Christmas Present rise through the Stage, and stand aside and observe them.</stage>
-         <pb n="19"/> <sp>
-            <speaker>Scr.</speaker>
-            <p>So, this is my clerk's dwelling, Spirit—Bob Cratchit's. You blessed it with the sprinkling of your torch as we passed the threshold. Bob had but fifteen <hi rend="italic">Bob</hi> a week. He pockets on Saturdays but fifteen copies of his Christian name, and yet the Ghost of Christmas Present blessed his four-roomed house. <stage>(Two of Cratchit's younger children, Boy and Girl, run in.)</stage></p>
-          </sp>
-          <sp>
-            <speaker>Boy.</speaker>
-            <p>Oh, mother—outside the baker's we smell such a goose! It must have been ours—no one has got such a goose. Oh, gemini! <stage>(They dance round the table in childish glee.)</stage></p>
-          </sp>
-          <sp>
-            <speaker>Mrs. C.</speaker>
-            <p>Whatever has got your precious father, Bob, and Tiny Tim. And Martha warn't as late this Christmas Day by half an hour!</p>
-          </sp>
-          <stage>Enter Martha, L. H.</stage>
-          <sp>
-            <speaker>Mart.</speaker>
-            <p>Here's Martha, mother!</p>
-          </sp>
-          <sp>
-            <speaker>Children.</speaker>
-            <p>Here's Martha, mother—hurrah! There's such a goose, Martha!</p>
-          </sp>
-          <sp>
-            <speaker>Mrs. C.</speaker>
-            <p><stage>(Kissing Martha, and assisting her off with her bonnet, etc.)</stage> Why bless your heart alive, my dear, how late you are!</p>
-          </sp>
-          <sp>
-            <speaker>Mart.</speaker>
-            <p>We'd a deal of work to finish up last night, and had to clear away this morning, mother.</p>
-          </sp>
-          <sp>
-            <speaker>Mrs. C.</speaker>
-            <p>Well, never mind, so long as you are come. Sit ye down before the fire, my dear, and have a warm. Lord bless ye!</p>
-          </sp>
-          <sp>
-            <speaker>Children.</speaker>
-            <p><stage>(Looking off.)</stage> Father's coming! Hide, Martha, hide! <stage>(Martha runs behind closet door in F. Bob Cratchit enters with Tiny Tim upon his shoulder, L. H.)</stage></p>
-          </sp>
-          <sp>
-            <speaker>Bob.</speaker>
-            <p><stage>(Looking round.)</stage> Why, where's our Martha?</p>
-          </sp>
-          <sp>
-            <speaker>Mrs. C.</speaker>
-            <p>Not coming.</p>
-          </sp>    <pb n="20"/>
-          <sp>
-            <speaker>Bob.</speaker>
-            <p>Not coming upon Christmas Day!</p>
-          </sp>
-          <sp>
-            <speaker>Martha.</speaker>
-            <p><stage>(Running towards him.)</stage> Yes, dear father, yes. <stage>(They embrace.)</stage></p>
-          </sp>
-          <sp>
-            <speaker>Children.</speaker>
-            <p>Come, Tiny Tim, into the washhouse, to hear the pudding singing in the copper! <stage>(They carry Tim out—Peter exits L. H.)</stage></p>
-          </sp>
-          <sp>
-            <speaker>Mrs. C.</speaker>
-            <p>And how did little Tim behave?</p>
-          </sp>
-          <sp>
-            <speaker>Bob.</speaker>
-            <p>As good as gold. Somehow he gets thoughtful sitting by himself so much, and thinks the sweetest things you ever heard! <stage>(The Children re-enter with Tim.)</stage></p>
-          </sp>
-          <sp>
-            <speaker>Children.</speaker>
-            <p>The goose! the goose! <stage>(Peter re-enters carrying the goose—it is placed on the table, etc. All seat themselves at table.)</stage></p>
-          </sp>
-          <sp>
-            <speaker>Scr.</speaker>
-            <p>Bob's happier than his master! How his blessed urchins, mounting guard upon their posts, cram their spoons into their mouths, lest they should shriek for goose before their turn arrives to be helped! And now, as Mrs. Cratchit plunges her knife in its breast, a murmur of delight arises round the board, and even Tiny Tim beats the table with the handle of his knife, and feebly cries hurrah!</p>
-          </sp>
-          <sp>
-            <speaker>Bob.</speaker>
-            <p>Beautiful! There never was such a goose. It's tender as a lamb, and cheap as dirt. The apple sauce and mashed potatoes are delicious—and now, love, for the pudding. The thought of it makes you nervous.</p>
-          </sp>
-          <sp>
-            <speaker>Mrs. C.</speaker>
-            <p>Too nervous for witnesses. I must leave the room alone to take the pudding up and bring it in.</p>
-          </sp>
-          <stage>(Exit L. H.)</stage>
-          <sp>
-            <speaker>Bob.</speaker>
-           <p>Awful moment! Suppose it should not be done enough? Suppose it should break in turning out? Suppose somebody should have got over the wall of the back yard and stolen it? <stage>(Gets up, and walks about, disturbed.)</stage> I could suppose all sorts of horrors. Ah! there's a great deal of steam—the pudding's out of the copper! A smell like a washing day—that's the cloth! A smell like an eating-house and a pastry cook's door to each other, with a     <pb n="21"/> laundress's next door to that—that's the pudding. <stage>(Mrs. Cratchit re-enters with pudding, which she places on table. Bob sits.)</stage></p>
-          </sp>
-          <sp>
-            <speaker>Children.</speaker>
-            <p>Hurrah!</p>
-          </sp>
-          <sp>
-            <speaker>Scr.</speaker>
-            <p>Mrs. Cratchit looks flushed, but smiles proudly, like one who has achieved a triumph.</p>
-          </sp>
-          <sp>
-            <speaker>Bob.</speaker>
-            <p>Mrs. Cratchit, I regard this pudding as the greatest success you have achieved since our marriage.</p>
-          </sp>
-          <sp>
-            <speaker>Mrs. C.</speaker>
-            <p>Now that the weight's off my mind, I confess I had my doubts about it, and I don't think it at all a small pudding for so large a family.</p>
-          </sp>
-          <sp>
-            <speaker>Bob.</speaker>
-            <p>It would be flat heresy to say so. A Cratchit would blush to hint at such a thing!</p>
-          </sp>
-          <sp>
-            <speaker>Scr.</speaker>
-            <p>Their merry, cheerful dinner's ended, but not their sweet, enjoyment of the day. <stage>(Mrs. Cratchit, etc., clears the table. A jug and a glass or two are placed on it. Bob fills the glasses.)</stage></p>
-          </sp>
-          <sp>
-            <speaker>Bob.</speaker>
-            <p>A merry Christmas to us all, my dear—heaven bless us! <stage>(They drink and echo him—Tiny Tim is near his father, who presses his hand.)</stage></p>
-          </sp>
-          <sp>
-            <speaker>Scr.</speaker>
-            <p>Spirit tell me if Tiny Tim will live?</p>
-          </sp>
-          <sp>
-            <speaker>2nd Spirit.</speaker>
-            <p>If the shadows I see remain unaltered by the future, the child will die.</p>
-          </sp>
-          <sp>
-            <speaker>Scr.</speaker>
-            <p>No, no—say he will be spared.</p>
-          </sp>
-          <sp>
-            <speaker>2nd Spirit.</speaker>
-            <p>If he be like to die—what then? He had better do it, and decrease the surplus population.</p>
-          </sp>
-          <sp>
-            <speaker>Scr.</speaker>
-            <p>My own words!</p>
-          </sp>
-          <sp>
-            <speaker>2nd Spirit.</speaker>
-            <p>Man—if man you be in heart, and not adamant—forbear that wicked cant until you have discovered what the surplus is, and where it is. Will you decide what men shall live—what men shall die? To hear the insect on the leaf pronouncing on the too much life among his hungry brothers in the dust.</p>
-          </sp>
-          <sp>
-            <speaker>Bob.</speaker>
-            <p>My dear, I'll give you, "Mr. Scrooge, the founder of the feast!"</p>
-          </sp>
-          <sp>
-            <speaker>Mrs. C.</speaker>
-           <p>The founder of the feast indeed! I wish     <pb n="22"/> I had him here—I'd give him a piece of my mind to feast upon!</p>
-          </sp>
-          <sp>
-            <speaker>Bob.</speaker>
-            <p>My dear—the children—Christmas Day——</p>
-          </sp>
-          <sp>
-            <speaker>Mrs. C.</speaker>
-            <p>It should be Christmas Day, I'm sure, on which one drinks the health of such an odious, stingy, hard, unfeeling man as Mr. Scrooge. You know what he is, Robert—no one better.</p>
-          </sp>
-          <sp>
-            <speaker>Bob.</speaker>
-            <p>My dear—Christmas Day——</p>
-          </sp>
-          <sp>
-            <speaker>Mrs. C.</speaker>
-            <p>I'll drink his health for your sake not for his. Long life to him! A merry Christmas and a happy new year! He'll be very merry and very happy, no doubt! <stage>(All drink.)</stage></p>
-          </sp>
-          <sp>
-            <speaker>2nd Spirit.</speaker>
-            <p>Your name alone has cast a gloom upon them. But they are happy—grateful—pleased with one another.</p>
-          </sp>
-          <sp>
-            <speaker>Scr.</speaker>
-            <p>And they look happier yet in the bright sprinkling of thy torch, Spirit. <stage>(As he speaks the Stage becomes quite dark. A medium descends, which hides the group at table. Scrooge and the Spirit remaining in front.)</stage> We have seen much to-night, and visited many homes. Thou hast stood beside sick beds, and they were cheerful—by struggling men, and they were patient in their greater hope—by poverty, and it was rich. In almshouse, hospital and jail—in misery's every refuge, thou hast left thy blessing, and taught me thy precepts.</p>
-          </sp>
-          <sp>
-            <speaker>2nd Spirit.</speaker>
-            <p>My life upon this globe is very brief—it ends to-night—at midnight—the time draws near.</p>
-          </sp>
-          <sp>
-            <speaker>Scr.</speaker>
-            <p>Is that a claw protruding from your skirts?</p>
-          </sp>
-          <sp>
-            <speaker>2nd Spirit.</speaker>
-            <p>Behold! <stage>(Two Children, wretched in appearance, appear from the foldings of his robe—they kneel, and cling to him.)</stage> Oh, man—look here!</p>
-          </sp>
-          <sp>
-            <speaker>Scr.</speaker>
-            <p>Spirit, are they yours? <stage>(See PLATE in WORK, page 119.)</stage></p>
-          </sp>
-          <sp>
-            <speaker>2nd Spirit.</speaker>
-           <p>They are man's—and they cling to me, appealing from their fathers. This boy is Ignorance—this girl is Want. Beware all of their degree—but most of all beware this boy, for on his brow is     <pb n="23"/>written that which is doom, unless the writing be erased. Admit it for your factious purposes, and bide the end.</p>
-          </sp>
-          <sp>
-            <speaker>Scr.</speaker>
-            <p>Have they no regular refuge or resource? <stage>(Scrooge shrinks abashed.)</stage></p>
-          </sp>
-          <sp>
-            <speaker>2nd Spirit.</speaker>
-            <p>Are there no prisons—no workhouses? Hark, 'tis midnight! I am of the past! <stage>(The Children exeunt—the Spirit disappears through trap—at the same moment the Ghost of Christmas to Come, shrouded in a deep black garment rises behind medium, which is worked off, discovering——</stage></p>
-          </sp>
-        </div>
-        <div type="scene" n="II">
-          <head>SCENE II.—<hi rend="italic">A Street. Night.</hi></head>
-          <stage>The Spirit advances slowly. Scrooge kneels on beholding it.</stage>
-          <sp>
-            <speaker>Scr.</speaker>
-            <p>This Spirit's mysterious presence fills me with a solemn dread! I am in the presence of the Ghost of Christmas yet to come! <stage>(The Spirit points onward.)</stage> You are about to show me shadows of things that have not happened, but will happen in the time before us? <stage>(The Spirit slightly inclines its head.)</stage> Though well used to ghostly company by this time. I fear this silent shape more than I did all the rest. Ghost of the future, will you not speak to me? <stage>(The Spirit's hand is still pointing onward.)</stage> Lead on, Spirit! <stage>(The Spirit moves a few steps on, then pauses. Scrooge follows. The Stage becomes light.)</stage></p>
-          </sp>
-          <stage>Enter Cheerly and Heartly.</stage>
-          <sp>
-            <speaker>Heart.</speaker>
-            <p>He's dead, you say? When did he die?</p>
-          </sp>
-          <sp>
-            <speaker>Cheer.</speaker>
-            <p>Last night, I believe.</p>
-          </sp>
-          <sp>
-            <speaker>Heart.</speaker>
-            <p>What has he done with his money?</p>
-          </sp>
-          <sp>
-            <speaker>Cheer.</speaker>
-            <p>I haven't heard, he hasn't left it to me. It's likely to be a very cheap funeral, for I don't know of any one likely to go to it.</p>
-          </sp>
-          <sp>
-            <speaker>Heart.</speaker>
-            <p>Well, I don't mind going to it if lunch is provided. I'm not at all sure I was not one of his most particular friends.</p>
-          </sp>
-          <sp>
-            <speaker>Cheer.</speaker>
-            <p>Yes—you used to stop, and say "How d'ye do?" whenever you met. But, come—we must to 'Change.</p>
-          </sp>
-          <stage>(Exit R. H.)</stage>
-          <sp>
-            <speaker>Scr.</speaker>
-            <p>A moral in their words, too! Quiet and dark beside me stands yet the phantom, with its outstretched hand. It still points onward and I must follow it! <stage>(The Spirit exits slowly followed by Scrooge.)</stage></p>
-          </sp>
-        </div>
-        <div type="scene" n="III">
-          <head>SCENE III.—<hi rend="italic">Interior of a Marine Store Shop. Old iron, phials, etc., seen. A screen extends from R. H. to C. separating fireplace, etc., from shop. Chair and table near the fire.</hi></head>
-          <stage>Old Joe seated near the fire, smoking. A light burns on the table. The Spirit enters, followed by Scrooge.</stage>
-          <sp>
-            <speaker>Scr.</speaker>
-            <p>What foul and obscure place is this? What place of bad repute—of houses wretched—of people half naked—drunken and ill-favoured? The whole quarter reeks with crime—with filth and misery. <stage>(Shop door opens, and Mrs. Dibler enters. She has hardly time to close the door when it opens again, and Dark Sam enters closely followed by Mrs. Mildew. Upon perceiving each other they at first start, but presently burst into a laugh. Joe joins them.)</stage></p>
-          </sp>
-          <sp>
-            <speaker>Sam.</speaker>
-            <p>Let the charwoman alone to be the first—let the laundress alone to be second—and let the undertaker's man alone to be the third. Look here old Joe, here's a chance! If we all three haven't met here without meaning it.</p>
-          </sp>
-          <sp>
-            <speaker>Joe.</speaker>
-           <p>You couldn't have met in a better place. Come into the parlour—you're none of you strangers. Stop till I shut the door of the shop. Ah! how it shrieks! There an't such a rusty bit of metal here as its own hinges—and I'm sure there's no such old bones here as mine. Ha, ha! we're all suitable to our     <pb n="25"/>calling. We're well matched. Come into the parlour. <stage>(They come forward by screen.)</stage></p>
-          </sp>
-          <sp>
-            <speaker>Mrs. M.</speaker>
-            <p><stage>(Throwing down bundle.)</stage> What odds, then, Mrs. Dibler? Every person has a right to take care of themselves. He always did.</p>
-          </sp>
-          <sp>
-            <speaker>Sam.</speaker>
-            <p>No man more so, so don't stand staring as if you was afraid, woman—who's the wiser? We're not going to pick holes in each other's coats, I suppose?</p>
-          </sp>
-          <sp>
-            <speaker>Omnes.</speaker>
-            <p>No, indeed! we should hope not!</p>
-          </sp>
-          <sp>
-            <speaker>Mrs. M.</speaker>
-            <p>Who's the worse for the loss of a few things like these? Not a dead man, I suppose?</p>
-          </sp>
-          <sp>
-            <speaker>Omnes.</speaker>
-            <p><stage>(Laughing.)</stage> No, indeed!</p>
-          </sp>
-          <sp>
-            <speaker>Sam.</speaker>
-            <p>If he wanted to keep 'em after he was dead, a wicked old screw, why wasn't he natural in his life time?</p>
-          </sp>
-          <sp>
-            <speaker>Mrs. M.</speaker>
-            <p>If he had been, he'd have had somebody to look after him when he was struck with death, instead of lying, gasping out his last, alone there by himself—it's a judgment upon him! Open that bundle, old Joe, and let me know the value of it.</p>
-          </sp>
-          <sp>
-            <speaker>Sam.</speaker>
-            <p>Stop! I'll be served first, to spare your blushes, though we pretty well knew we were helping ourselves, and no sin neither! <stage>(Gives trinkets to Joe.)</stage></p>
-          </sp>
-          <sp>
-            <speaker>Joe.</speaker>
-            <p>Two seals, pencil case, brooch, sleeve buttons! <stage>(Chalking figures on wall.)</stage> Five bob! Wouldn't give more, if you was to boil me! Who's next? <stage>(Mrs. Dibler offers bundle which he examines.)</stage> There's your money! <stage>(Chalks on wall.)</stage> I always give too much to ladies—it's my weakness, and so I ruin myself. If you asked for another penny, and made it an open question, I'd repent of being so liberal, and knock off half a-crown! <stage>(Examines Mrs. Mildew's bundle upon his knees.)</stage> What do you call this? bed curtains? You don't mean to say you took 'em down, rings and all, with him lying there?</p>
-          </sp>
-          <sp>
-            <speaker>Mrs. M.</speaker>
-            <p>Yes. I do! Why not?</p>
-          </sp>    <pb n="26"/>
-          <sp>
-            <speaker>Joe.</speaker>
-            <p>You were born to make your fortune, and you'll certainly do it! Blankets! his blankets?</p>
-          </sp>
-          <sp>
-            <speaker>Mrs. M.</speaker>
-            <p>Whose else's? He won't take cold without 'em!</p>
-          </sp>
-          <sp>
-            <speaker>Joe.</speaker>
-            <p>I hope he didn't die of anything catching!</p>
-          </sp>
-          <sp>
-            <speaker>Mrs. M.</speaker>
-            <p>No, no! or I'd not have waited on such as he! There, Joe, that's the best shirt he had—they'd ha' wasted it, but for me!</p>
-          </sp>
-          <sp>
-            <speaker>Joe.</speaker>
-            <p>What do you call wasting it?</p>
-          </sp>
-          <sp>
-            <speaker>Mrs. M.</speaker>
-            <p>Putting it on him to be buried, to be sure! Somebody was fool enough to do it, but I took it off again! If calico ain't good enough for such a purpose, it ain't good enough for anybody! It's quite as becoming to the body! He can't look uglier than he did in that one!</p>
-          </sp>
-          <sp>
-            <speaker>Scr.</speaker>
-            <p>I listen to their words in horror!</p>
-          </sp>
-          <sp>
-            <speaker>Joe.</speaker>
-            <p>There is what I will give you! <stage>(Chalks on wall, then takes out a small bag, and tells them out their money.)</stage></p>
-          </sp>
-          <sp>
-            <speaker>Mrs. M.</speaker>
-            <p>Ha, ha! This is the end of it, you see—he frightened every one away from him when he was alive, to profit us when he was dead—ha, ha, ha! <stage>(All laugh.)</stage></p>
-          </sp>
-          <sp>
-            <speaker>Scr.</speaker>
-            <p><stage>(Shuddering.)</stage> Spirit, I see—I see! The case of this unhappy man might be my own—my life tends that way now. Let us be gone. <stage>(The Spirit points onward. The Scene changes.)</stage></p>
-          </sp>
-        </div>
-        <div type="scene" n="IV">
-          <head>SCENE IV.—<hi rend="italic">A chamber. Curtain drawn over recess. The Spirit points to it—then approaches it, followed by Scrooge trembling. The curtain is withdrawn—a bed is seen—a pale, light shows a figure, covered with a sheet upon it.</hi></head>
-          <sp>
-            <speaker>Scr.</speaker>
-           <p><stage>(Recoiling in terror.)</stage> Ah! a bare uncurtained bed, and something there, which, though dumb, announces itself in awful language! Yes, plundered and bereft, unwatched, unwept, uncared for, is the body of this man! <stage>(The Spirit points     <pb n="27"/>towards the bed.)</stage> It points towards the face—the slightest movement of my hand would instantly reveal it—I long yet dread to do it. Oh, could this man be raised up and see himself! Avarice, hard dealing, griping cares! They have brought him to a rich end, truly! He lays alone in a dark empty house, with not a man, woman, or a child, to say—"He was kind to me—I will be kind to him!" Spirit, this is a fearful place! in leaving it, I shall not leave its lesson. Let us hence. If there is any person in the town who feels emotion caused by this man's death, show that person to me, I beseech you. <stage>(As he speaks the Scene changes.)</stage></p>
-          </sp>
-        </div>
-        <div type="scene" n="V">
-          <head>SCENE V.—<hi rend="italic">A chamber. Scrooge and Spirit on L. H.</hi></head>
-          <stage>Enter Ellen, R. H., second dress, followed by Euston, L. H.</stage>
-          <sp>
-            <speaker>Ellen.</speaker>
-            <p>What news my love—is it good or bad?</p>
-          </sp>
-          <sp>
-            <speaker>Eus.</speaker>
-            <p>Bad!</p>
-          </sp>
-          <sp>
-            <speaker>Ellen.</speaker>
-            <p>We are quite ruined!</p>
-          </sp>
-          <sp>
-            <speaker>Eus.</speaker>
-            <p>No! there is hope yet, Ellen!</p>
-          </sp>
-          <sp>
-            <speaker>Ellen.</speaker>
-            <p>If he relents, there is—nothing is past hope if such a miracle has happened.</p>
-          </sp>
-          <sp>
-            <speaker>Eus.</speaker>
-            <p>He is past relenting! He is dead!</p>
-          </sp>
-          <sp>
-            <speaker>Ellen.</speaker>
-            <p>Dead! It is a crime but heaven forgive me, I almost feel thankful for it!</p>
-          </sp>
-          <sp>
-            <speaker>Eus.</speaker>
-            <p>What the half drunken-woman told me last night, when I tried to see him and obtain a week's delay, and which I thought a mere excuse to avoid me, was true,—he was not only ill, but dying then!</p>
-          </sp>
-          <sp>
-            <speaker>Ellen.</speaker>
-            <p>To whom will our debt be transferred!</p>
-          </sp>
-          <sp>
-            <speaker>Eus.</speaker>
-            <p>I don't know, but before that time we shall be ready with the money, and were we not, we can hardly find so merciless a creditor in his successor. We may sleep to-night with light hearts, Ellen. Come! <stage>(Exeunt R. H.)</stage></p>
-          </sp>
-          <sp>
-            <speaker>Scr.</speaker>
-           <p>This is terrible! Let me see some tenderness connected with a death in that dark chamber,     <pb n="28"/>which we left just now, Spirit—it will be for ever present to me. <stage>(Spirit points onward and slowly exits followed by Scrooge.)</stage></p>
-          </sp>
-        </div>
-        <div type="scene" n="VI">
-          <head>SCENE VI.—Apartment at Bob Cratchit's.</head>
-          <stage>(Mrs. Cratchit, Peter, and the two younger Cratchit's discovered. Candle lighted. The Spirit enters, followed by Scrooge.)</stage>
-          <sp>
-            <speaker>Scr.</speaker>
-            <p>As through the old familiar streets we passed, I looked in vain to find myself, but nowhere was I to be seen.</p>
-          </sp>
-          <sp>
-            <speaker>Mrs. C.</speaker>
-            <p><stage>(Laying down her work. Mourning.)</stage> The colour hurts my eyes, and I wouldn't show weak eyes to your father. It must be near his time—he walks slower than he used, and yet I've known him walk, with Tiny Tim upon his shoulder, very fast indeed—but he was very light to carry, and his father loved him, so that it was no trouble—no trouble——</p>
-          </sp>
-          <stage>Enter Bob, L. H. Mrs. C. advances to meet him—the Children crowd around him.</stage>
-          <sp>
-            <speaker>Bob.</speaker>
-            <p>There, wife, I've returned at last. Come, you have been industrious in my absence—the things will be ready before Sunday.</p>
-          </sp>
-          <sp>
-            <speaker>Mrs. C.</speaker>
-            <p>Sunday! You went to-day, then?</p>
-          </sp>
-          <sp>
-            <speaker>Bob.</speaker>
-            <p>Yes, my dear! I wish you could have gone—it would have done you good to see how green a place it is. But you'll see it often—I promised him I would walk there of a Sunday—my little—little child—<stage>(With much emotion.)</stage></p>
-          </sp>
-          <sp>
-            <speaker>Mrs. C.</speaker>
-            <p>Don't fret!</p>
-          </sp>
-          <sp>
-            <speaker>Bob.</speaker>
-            <p>Fret! I met Mr. Scrooge's nephew just now, who, seeing that I looked a little down, asked me what had happened. Ah, he's the pleasantest spoken gentleman you ever heard—he told me he was sorry for me and for my good wife—but how he knew <emph>that</emph> I don't know!</p>
-          </sp>
-          <sp>
-            <speaker>Mrs. C.</speaker>
-            <p>Knew what?</p>
-          </sp>    <pb n="29"/>
-          <sp>
-            <speaker>Bob.</speaker>
-            <p>Why, that you were a good wife! and he was so kind—it was quite delightful! He said he'd get Peter a better situation—and, mark me, whenever we part from one another, I am sure we shall none of us forget poor Tiny Tim, shall we, or this first parting that was among us?</p>
-          </sp>
-          <sp>
-            <speaker>Omnes.</speaker>
-            <p>Never! never! <stage>(The Children crowd around their Parents, who kiss them tenderly. A medium descends and hides the group.)</stage></p>
-          </sp>
-          <sp>
-            <speaker>Scr.</speaker>
-            <p>Spectre, something informs me that our parting moment is at hand—tell me, ere you quit me, what man that was whom we saw lying dead? <stage>(The Spirit points onward slowly traverses the stage.)</stage> Still he beckons me onward—there seems no order in these latter visions, save they are in the future. Through yonder gloom I can see my own dwelling—let me behold what I shall be in days to come—the house is yonder—why do you point away? Ah! that house is no longer mine—another occupies it. Ah! why is this? <stage>(The medium is worked off, and discovers.)</stage></p>
-          </sp>
-        </div>
-        <div type="scene" n="VII">
-          <head>SCENE VII.—<hi rend="italic">A Churchyard. On slab centre, is engraved "Ebenezer Scrooge."</hi></head>
-          <sp>
-            <speaker>Scr.</speaker>
-           <p>A churchyard! Here, then, the wretched man who's name I have now to learn, lays underneath the ground! <stage>(The Spirit points to centre slab. Scrooge advances, trembling, towards it.)</stage> Before I draw nearer to the stone to which you point, answer me one question. Are these the things of the shadows that will be, or are they the shadows of the things that may be only? <stage>(The Spirit still points downward to the grave.)</stage> Men's courses will foreshadow certain ends, to which, if persevered in they must lead—but if the courses be departed from the ends will change—say is it thus with what you show me? Still as immovable as ever! <stage>(Draws nearer to grave.)</stage> "Ebenezer Scrooge!" My own     <pb n="30"/>name! <stage>(Sinks on his knees.)</stage> Am I that man who lay upon the bed? <stage>(The Spirit points from the grave to him, and back again.)</stage> No, Spirit! Oh, no, no! <stage>(See PLATE, page 150. The Figure remains immovable.)</stage> Spirit! <stage>(Clutching its robe.)</stage> Hear me! I am not the man I was—I will not be the man I must have been but for this intercourse! why show me this if I am past all hope? <stage>(The hand trembles. Scrooge sinks on his knees.)</stage> Good Spirit, your nature intercedes for me—assure me that I yet may change these shadows you have shown me, by an altered life! <stage>(The hand trembles still.)</stage> I will honour Christmas in my heart, and try to keep it all the year—I will live the past, the present, and the future—the spirits of all three shall strive within me—I will not shut out the lessons that they teach—oh tell me I may sponge away the writing on this stone! <stage>(In his agony he catches the Spectre's hand—it seeks to free itself—his struggles become stronger in his despair—the Spirit repulses him—he sinks prostrate to the earth—the Spirit disappears, as the medium is worked on. Clouds roll over the stage—they are worked off, and discovers.)</stage></p>
-          </sp>
-        </div>
-        <div type="scene" n="VIII">
-          <head>SCENE VIII.—Scrooge's Chamber. </head><stage>Same as Scene I, Act I. It is broad day—the fire is nearly extinguished—the candle nearly burnt down to the socket. The stage arrangement in other respects, precisely the same as at end of Scene I, Act I.</stage>
-          <stage>Scrooge discovered, sleeping in his chair. He appears restless and uneasy, then starts up, exclaiming.</stage>
-          <sp>
-            <speaker>Scr.</speaker>
-           <p>Pity me! I will not be the man I have been! Oh, no, no! <stage>(Pauses, and looks around him.)</stage> Ah! here! Could it all have been a dream! A dream—ha, ha, ha! A dream! Yes! this table's my own—this chair's my own—this room's my own—and happier still, the time before me is my own to make amends in! I will live the past, the present, and the     <pb n="31"/>future! Heaven and the Christmas time be praised for this! I say it on my knees—on my knees! My cheek is wet with tears, but they are tears of penitence! <stage>(Busies himself in pulling on his coat, throwing off his cap, etc., and speaking all the time.)</stage> I don't know what to do—I'm as light as a feather—I'm as happy as an angel—I'm as merry as a school-boy—I'm as giddy as a drunken man! A merry Christmas to every body—a happy new year to all the world! Hallo, there! Whoop! Hallo! there's the jug that my gruel was in—there's the door where the ghost of Jacob Marley entered. It's all right—it's all true—it all happened—ha, ha, ha! I don't know what day of the month it is—I don't know how long I've been among the spirits—I don't know anything—I'm quite a baby—never mind, I don't care—I'd rather be a baby! Hallo! Whoop! Hallo, here! <stage>(Runs to window—opens it.)</stage> Here, you boy! what's to-day?</p>
-          </sp>
-          <sp>
-            <speaker>Boy.</speaker>
-            <p><stage>(Without.)</stage> Why, Christmas Day!</p>
-          </sp>
-          <sp>
-            <speaker>Scr.</speaker>
-            <p>Ah! I haven't missed it! Glorious! I say—go to the poulterer's round the corner, and buy the prize turkey for me!</p>
-          </sp>
-          <sp>
-            <speaker>Boy.</speaker>
-            <p><stage>(Without.)</stage> Wal-ker!</p>
-          </sp>
-          <sp>
-            <speaker>Scr.</speaker>
-            <p>Tell 'em to send it, and I'll give you half a crown. He's off like a shot! I'll send it to Bob Cratchit's. How astonished he'll be. <stage>(Coming down.)</stage> I'll write a cheque for that society that they called on me about yesterday. Oh, I'll make every one happy, and myself, too! <stage>(Knocks heard without.)</stage> That must be the turkey! <stage>(Opens door.)</stage> As I live, it's Bob Cratchit!</p>
-          </sp>
-          <stage>Enter Bob Cratchit, 2 E. L. H.</stage>
-          <sp>
-            <speaker>Bob.</speaker>
-            <p>Excuse my calling, sir, but the fact is, I couldn't help it. That worthy gentleman, your nephew, is ruined. I said, ruined, sir——</p>
-          </sp>
-          <sp>
-            <speaker>Scr.</speaker>
-            <p>I'm glad of it!</p>
-          </sp>
-          <sp>
-            <speaker>Bob.</speaker>
-            <p>Glad of it! There's an unnatural cannibal!</p>
-          </sp>
-         <stage>Enter Frank, 2 E. L. H.</stage>    <pb n="32"/>
-          <sp>
-            <speaker>Frank.</speaker>
-            <p>Oh uncle, you know all! I come not to ask your assistance—that would be madness—but I come to bid you farewell. In three days' time, with my unfortunate family, I shall quit England.</p>
-          </sp>
-          <sp>
-            <speaker>Scr.</speaker>
-            <p>No, you shan't. You shall stay where you are!</p>
-          </sp>
-          <sp>
-            <speaker>Frank.</speaker>
-            <p>You mock me!</p>
-          </sp>
-          <sp>
-            <speaker>Scr.</speaker>
-            <p>I say you shall stay where you are! <stage>(Writes at table.)</stage> There's a cheque for present use—to-morrow I will see how I can make up your losses, and at my death you shall inherit all my wealth—but I don't mean to die yet, you dog!</p>
-          </sp>
-          <sp>
-            <speaker>Frank.</speaker>
-            <p>This generosity——</p>
-          </sp>
-          <sp>
-            <speaker>Scr.</speaker>
-            <p>No thanks. I'll dine with you to-day, Frank—and as for you, Bob, Tiny Tim shall be my care, and your salary's trebled from this hour.</p>
-          </sp>
-          <sp>
-            <speaker>Bob.</speaker>
-            <p>Oh, this can't be my master! Oh, I'm quite sure it must be somebody else. Yes—it is him, too! He must have gone mad! I've a great mind to knock him down with the ruler, and get Mr. Frank to help me to fit him on a strait waistcoat! Well, I never!</p>
-          </sp>
-          <sp>
-            <speaker>Scr.</speaker>
-            <p>A merry Christmas, Frank—a merry Christmas, Bob—and it <emph>shall</emph> be a merry one. I have awoke a better man than I fell asleep. So may it be with all of us! Oh, may my day dreams prove as happy as my night ones? <stage>(As he speaks, the gauze medium is lit up behind, and the Ghost of Christmas Past, the Ghost of Christmas Present, and the Ghost of Christmas to Come, with the other characters in the Miser's dream, are seen in separate groups.)</stage> Their remembrance haunts me still. Oh, my friends—forgive but my past, you will make happy my present, and inspire me with hope for the future!</p>
-          </sp>
-        </div>
-      </div>
-    </body>
-  </text>
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title>A Christmas Carol; or, The Miser's Warning! TEI edition</title>
+    <author>C. Z. Barnett</author>
+    <respStmt>
+     <resp>TEI conversion</resp>
+     <name>Lou Burnard</name>
+    </respStmt>
+   </titleStmt>
+   <publicationStmt>
+    <distributor>Privately distributed by the Digital Lacy Project</distributor>
+    <idno type="LAE">L1410</idno>
+    <availability>
+     <licence target="https://creativecommons.org/publicdomain/zero/1.0/">The Lacy Project waives
+      all rights to the TEI encoding applied to this material, which is believed to be in the public
+      domain. You may copy, modify, distribute and perform this work freely. </licence>
+    </availability>
+   </publicationStmt>
+   <sourceDesc>
+    <bibl type="origin" n="94.15"><author>Barnett, C.Z.</author><title type="main"
+      n="achristmascarol">A Christmas Carol; or, The Miser's Warning!</title><title type="source"
+      n="#EN">Adapted from Charles Dickens's Celebrated Work</title><extent>32 pp<measure type="pp"
+       quantity="28"/>
+      <measure type="spCount" quantity="274"/>
+      <measure type="spvCount" quantity="0"/>
+      <measure type="txWords" quantity="8390"/>
+      <measure type="spWords" quantity="6858"/>
+      <measure type="stWords" quantity="1532"/>
+     </extent>
+     <title level="s"> Lacy's Acting Edition, volume 94, No. 1410</title><idno type="nic"
+      >N00278</idno></bibl>
+    <bibl type="surrogate" subtype="copytext"><ref
+      target="https://hdl.handle.net/2027/aeu.ark:/13960/t6zw27q05">UA from HT</ref></bibl>
+    <bibl type="surrogate"><ref target="https://www.gutenberg.org/ebooks/41739">Gutenberg
+      transcription</ref></bibl>
+    <listEvent>
+     <event type="firstPerf" when="1844-02-05" source="textNic" where="Surrey">
+      <desc>Premiered at Royal Surrey Theatre 5 Feb. 1844</desc>
+     </event>
+    </listEvent>
+   </sourceDesc>
+  </fileDesc>
+  <profileDesc>
+   <!--M 0 X D. DRAMA-->
+   <textClass>
+    <catRef target="#sizeM"/>
+    <catRef target="#act0"/>
+    <catRef target="nic:D."/>
+    <keywords>
+     <term>DRAMA</term>
+    </keywords>
+   </textClass>
+   <particDesc>
+    <listPerson>
+     <person xml:id="L1410_M1">
+      <persName type="role">Ebenezer Scrooge</persName>
+      <persName type="spkr" n="90">Scr.</persName>
+      <persName type="spkr" n="1">Scrooge.</persName>
+     </person>
+     <person xml:id="L1410_M2">
+      <persName type="role">Frank Freeheart</persName>
+      <persName type="spkr" n="27">Frank.</persName>
+     </person>
+     <person xml:id="L1410_M3">
+      <persName type="role">Mr. Cheerly</persName>
+      <persName type="spkr" n="14">Cheer.</persName>
+     </person>
+     <person xml:id="L1410_M4">
+      <persName type="role">Mr. Heartly</persName>
+      <persName type="spkr" n="3">Heart.</persName>
+     </person>
+     <person xml:id="L1410_M5">
+      <persName type="role">Bob Cratchit</persName>
+      <persName type="spkr" n="38">Bob.</persName>
+     </person>
+     <person xml:id="L1410_M6">
+      <persName type="role">Dark Sam</persName>
+     </person>
+     <person xml:id="L1410_M7">
+      <persName type="role">Euston, a ruined Gentleman</persName>
+      <persName type="spkr" n="5">Eus.</persName>
+     </person>
+     <person xml:id="L1410_M8">
+      <persName type="role">Mr. Fezziwig</persName>
+     </person>
+     <person xml:id="L1410_M9">
+      <persName type="role">Old Joe</persName>
+      <persName type="spkr" n="6">Joe.</persName>
+     </person>
+     <person xml:id="L1410_M10">
+      <persName type="role">Ghost of Jacob Marley</persName>
+      <persName type="spkr" n="8">Ghost.</persName>
+     </person>
+     <person xml:id="L1410_M11">
+      <persName type="role">Ghost of Christmas Past</persName>
+      <persName type="spkr" n="8">1st Spirit.</persName>
+     </person>
+     <person xml:id="L1410_M12">
+      <persName type="role">Ghost of Christmas Present</persName>
+      <persName type="spkr" n="16">2nd Spirit.</persName>
+     </person>
+     <person xml:id="L1410_M13">
+      <persName type="role">Ghost of Christmas to Come</persName>
+     </person>
+     <person xml:id="L1410_M14">
+      <persName type="role">Dark Sam</persName>
+      <persName type="spkr" n="6">Sam.</persName>
+     </person>
+     <person xml:id="L1410_M15">
+      <persName type="role">Peter</persName>
+     </person>
+     <person xml:id="L1410_M16">
+      <persName type="role">Tiny Tim</persName>
+     </person>
+     <person xml:id="L1410_F17">
+      <persName type="role">Mrs. Freeheart</persName>
+     </person>
+     <person xml:id="L1410_F18">
+      <persName type="role">Ellen</persName>
+      <persName type="spkr" n="11">Ellen.</persName>
+     </person>
+     <person xml:id="L1410_F19">
+      <persName type="role">Mrs. Cratchit</persName>
+      <persName type="spkr" n="14">Mrs. C.</persName>
+     </person>
+     <person xml:id="L1410_mult">
+      <persName type="role">[Multiple speakers]</persName>
+      <persName type="spkr" n="6">Omnes.</persName>
+      <persName type="spkr" n="1">Ladies.</persName>
+     </person>
+
+     <person xml:id="L1410_F20">
+      <persName type="role">[Martha]</persName>
+      <persName type="spkr" n="2">Mart.</persName>
+      <persName type="spkr" n="1">Martha.</persName>
+
+     </person>
+     <person xml:id="L1410_F21">
+      <persName type="role">[Mrs. Mildew]</persName>
+      <persName type="spkr" n="8">Mrs. M.</persName>
+     </person>
+     <person xml:id="L1410_J22">
+      <persName type="role">[Children]</persName>
+      <persName type="spkr" n="3">Boy.</persName>
+      <persName type="spkr" n="5">Children.</persName>
+      <persName type="spkr" n="1">Girl.</persName>
+     </person>
+    </listPerson>
+   </particDesc>
+  </profileDesc>
+  <revisionDesc>
+   <change when="2026-01-23">Standardize header components</change>
+   <change when="2026-01-23">Checked against UA pages; added pagination</change>
+   <change when="2026-01-22">TEI tagging added to Gutenberg transcription by Gemini Pro </change>
+  </revisionDesc>
+ </teiHeader>
+ <text>
+  <front>
+   <titlePage>
+    <docTitle>
+     <titlePart>A CHRISTMAS CAROL; OR, THE MISER'S WARNING!</titlePart>
+    </docTitle>
+    <titlePart type="source">(ADAPTED FROM CHARLES DICKENS'S CELEBRATED WORK.)</titlePart>
+    <byline> by <docAuthor>C. Z. BARNETT,</docAuthor> Author of <title>Fair Rosamond,
+      </title><title>Farinelli, </title><title>The Dream of Fate, </title><title>Oliver Twist,
+      </title><title>Linda, </title><title>The Pearl of Savoy, </title><title>Victorine of Paris,
+      </title><title>Dominique, </title><title>Bohemians of Paris,</title> &amp;c.</byline>
+    <docImprint> NEW YORK SAMUEL FRENCH LONDON SAMUEL FRENCH, LTD. </docImprint>
+   </titlePage>
+
+   <performance>
+    <castList>
+     <head>DRAMATIS PERSONÆ.</head>
+     <castItem><role gender="M">Ebenezer Scrooge</role><roleDesc>, the Miser</roleDesc><actor>Mr. R.
+       Honner</actor></castItem>
+     <castItem><role gender="M">Frank Freeheart</role><roleDesc>, his Nephew</roleDesc><actor>Mr. J.
+       T. Johnson</actor></castItem>
+     <castItem><role gender="M">Mr. Cheerly</role><actor>Mr. Hawkins</actor></castItem>
+     <castItem><role gender="M">Mr. Heartly</role><actor>Mr. Green</actor></castItem>
+     <castItem><role gender="M">Bob Cratchit</role><roleDesc>, Scrooge's Clerk</roleDesc><actor>Mr.
+       Vale</actor></castItem>
+     <castItem><role gender="M">Dark Sam</role><actor>Mr. Stilt</actor></castItem>
+    </castList>
+    <castList>
+     <head>CHARACTERS IN THE DREAM.</head>
+
+     <castItem><role gender="M">Euston, a ruined Gentleman</role><actor>Mr.
+      Lawler</actor></castItem>
+     <castItem><role gender="M">Mr. Fezziwig</role><actor>Mr. Dixie</actor></castItem>
+     <castItem><role gender="M">Old Joe</role><roleDesc>, a Fence</roleDesc><actor>Mr.
+       Goldsmith</actor></castItem>
+     <castItem><role gender="M">Ghost of Jacob Marley</role><actor>Mr. Morrison</actor></castItem>
+     <castItem><role gender="M">Ghost of Christmas Past</role><actor>Mr. Lewis</actor></castItem>
+     <castItem><role gender="M">Ghost of Christmas Present</role><actor>Mr.
+      Heslop</actor></castItem>
+     <castItem><role gender="M">Ghost of Christmas to Come</role><actor>* * *</actor></castItem>
+     <castItem><role gender="M">Dark Sam</role><actor>Mr. Stilt</actor></castItem>
+     <castItem><role gender="M">Peter</role><roleDesc>, Bob's Eldest Son</roleDesc><actor>Miss
+       Daly</actor></castItem>
+     <castItem><role gender="M">Tiny Tim</role><actor>Master Brady</actor></castItem>
+     <castItem><role gender="F">Mrs. Freeheart</role><actor>Mrs. Hicks</actor></castItem>
+     <castItem><role gender="F">Ellen</role><roleDesc>, Scrooge's former love</roleDesc><actor>Mrs.
+       H. Hughes</actor></castItem>
+     <castItem><role gender="F">Mrs. Cratchit</role><actor>Mrs. Daly</actor></castItem>
+    </castList>
+    <p>First produced at the Royal Surrey Theatre, Feb. 5th, 1844.</p>
+   </performance>
+   <div type="costume">
+    <head>COSTUME.</head>
+    <list>
+     <item><label>Scrooge</label>—Brown old-fashioned coat, tea colour breeches, double-breasted
+      white waistcoat. 2nd.—Dressing gown and slippers.</item>
+     <item><label>Frank</label>—Private dress.</item>
+     <item><label>Mr. Cheerly</label>—Blue coat, cord breeches, and gaiters.</item>
+     <item><label>Mr. Heartly</label>—Green coat, black breeches, top boots.</item>
+     <item><label>Bob Cratchit</label>—Black old-fashioned coat, black trousers.</item>
+     <item><label>Dark Sam</label>—Dark green shooting coat and breeches, ragged. Second
+      dress—Shabby black coat.</item>
+     <item><label>Euston</label>—Shabby private clothes.</item>
+     <item><label>Mr. Fezziwig</label>—Black coat, black breeches, double-breasted waistcoat, and
+      striped stockings.</item>
+     <item><label>Marley's Ghost</label>—Slate coloured coat, waistcoat, and pantaloons, black
+      boots, white frill, white band.</item>
+     <item><label>Christmas Past</label>—White dress trimmed with summer flowers, rich belt,
+      fleshings and sandals.</item>
+     <item><label>Christmas Present</label>—Long green robe, trimmed with ermine, flesh body and
+      legs, wreath round head.</item>
+     <item><label>Christmas to Come</label>—Very long black gown.</item>
+     <item><label>Tiny Tim</label>—Blue jacket and trousers.</item>
+     <item><label>All the Ladies</label>—Modern dresses.</item>
+    </list>
+   </div>
+  </front>
+  <body>
+   <head>A CHRISTAMAS CAROL.</head>
+   <div type="act" n="I">
+    <head>ACT I.</head>
+    <div type="scene" n="I">
+     <head>SCENE I.—Chambers of Scrooge, the Miser. One side of it is filled up with a desk and high
+      stool, the other is a fireplace, fire lighted. Easy chair table, with candlestick upon it,
+      etc., etc.</head>
+     <stage>Scrooge, the Miser, discovered near fire. Bob Cratchit, writing near desk, L. H. As the
+      Curtain rises he descends from stool—approaches fire to stir it.</stage>
+     <sp who="#L1410_M1">
+      <speaker>Scrooge.</speaker>
+      <p>Bob—Bob, we shall be obliged to part. You'll ruin me in coals!</p>
+     </sp>
+     <sp who="#L1410_M5">
+      <speaker>Bob.</speaker>
+      <p>Ruin you—with such a fire in such weather! I've been trying to warm myself by the candle
+       for the last half hour, but not being a man of strong imagination, failed.</p>
+     </sp>
+     <sp who="#L1410_M1">
+      <speaker>Scr.</speaker>
+      <p>Hark! I think I hear some one in the office. Go—see who it is.</p>
+     </sp>
+     <sp who="#L1410_M5">
+      <speaker>Bob.</speaker>
+      <p><stage>(Aside.)</stage> Marley's dead—his late partner is dead as a door nail! If he was to
+       follow him, it wouldn't matter much.</p>
+     </sp>
+     <stage>(Exit 2 E. L. H.)</stage>
+     <sp who="#L1410_M1">
+      <speaker>Scr.</speaker>
+      <p>Marley has been dead seven years, and has left me his sole executor—his sole
+       administrator—his sole residuary legatee—his sole friend—his sole mourner! My poor old
+       partner! I was sorely grieved at his death, and shall never forget his funeral. Coming from
+       it, I made one of the best bargains I ever made. Ha, ha. Folks say I'm tight-
+       <pb n="4"/>fisted—that I'm a squeezing, wrenching, grasping, clutching miser. What of that?
+       It saves me from being annoyed by needy men and beggars. So, this is Christmas eve—and cold,
+       bleak, biting weather it is, and folks are preparing to be merry. Bah! what's Christmas eve
+       to me? what should it be to them?</p>
+     </sp>
+     <stage>Enter Frank and Bob, 2 E. L. H.</stage>
+     <sp who="#L1410_M5">
+      <speaker>Bob.</speaker>
+      <p>There's your uncle, sir. <stage>(Aside.)</stage> Old covetous! He's worse than the rain and
+       snow. They often come down, and handsomely too, but Scrooge never does!</p>
+     </sp>
+     <stage>(Exit 2 E. L. H.)</stage>
+     <sp who="#L1410_M1">
+      <speaker>Scr.</speaker>
+      <p>Who's that?</p>
+     </sp>
+     <sp who="#L1410_M2">
+      <speaker>Frank.</speaker>
+      <p>A merry Christmas, uncle!</p>
+     </sp>
+     <sp who="#L1410_M1">
+      <speaker>Scr.</speaker>
+      <p>Bah! humbug!</p>
+     </sp>
+     <sp who="#L1410_M2">
+      <speaker>Frank.</speaker>
+      <p>Uncle, you don't mean that, I'm sure.</p>
+     </sp>
+     <sp who="#L1410_M1">
+      <speaker>Scr.</speaker>
+      <p>I do. Merry Christmas! What right have you to be merry? You're poor enough.</p>
+     </sp>
+     <sp who="#L1410_M2">
+      <speaker>Frank.</speaker>
+      <p><stage>(Gaily.)</stage> Come, then, what right have you to be dismal! What reason have you
+       to be morose? You're rich enough.</p>
+     </sp>
+     <sp who="#L1410_M1">
+      <speaker>Scr.</speaker>
+      <p>Bah! humbug!</p>
+     </sp>
+     <sp who="#L1410_M2">
+      <speaker>Frank.</speaker>
+      <p>Don't be cross, uncle.</p>
+     </sp>
+     <sp who="#L1410_M1">
+      <speaker>Scr.</speaker>
+      <p>What else can I be, when I live in such a world of fools as this? Merry Christmas! Out upon
+       Merry Christmas. What's Christmas time to you but a time for paying bills without money—a
+       time for finding yourself a year older, and not an hour richer. If I could work my will,
+       every idiot who goes about with merry Christmas on his lips should be boiled with his own
+       pudding, and buried with a stake of holly through his heart—he should!</p>
+     </sp>
+     <sp who="#L1410_M2">
+      <speaker>Frank.</speaker>
+      <p>Uncle!</p>
+     </sp>
+     <sp who="#L1410_M1">
+      <speaker>Scr.</speaker>
+      <p>Nephew, keep Christmas in your own way, and let me keep it in mine.</p>
+     </sp>
+     <sp who="#L1410_M2">
+      <speaker>Frank.</speaker>
+      <p>Keep it! But you don't keep it.</p>
+     </sp>
+     <pb n="5"/>
+     <sp who="#L1410_M1">
+      <speaker>Scr.</speaker>
+      <p>Let me leave it alone, then. Much good may it do you. Much good it has ever done you.</p>
+     </sp>
+     <sp who="#L1410_M2">
+      <speaker>Frank.</speaker>
+      <p>There are many things from which I might have derived good by which I have not profited, I
+       dare say, Christmas among the rest, but I am sure I have always thought of Christmas time,
+       when it has come round, as a good time—a kind, forgiving, charitable, pleasant time; the only
+       time I know of, in the long calendar of the year, when men and women seem by one consent to
+       open their shut up hearts freely, and to think of people below them as if they really were
+       fellow passengers to the grave, and not another race of creatures bound on other journeys,
+       and, therefore, uncle, though it has not put a scrap of gold or silver in my pocket, I
+       believe that it has done me good, and will do me good, and I say, Heaven bless it!</p>
+     </sp>
+     <sp who="#L1410_M5">
+      <speaker>Bob.</speaker>
+      <p><stage>(Looking in.)</stage> Beautiful—beautiful!</p>
+     </sp>
+     <sp who="#L1410_M1">
+      <speaker>Scr.</speaker>
+      <p>Let me hear another sound from you—<stage>(To Bob.)</stage>—And you'll keep your Christmas
+       by losing your situation.</p>
+     </sp>
+     <sp who="#L1410_M5">
+      <speaker>Bob.</speaker>
+      <p><stage>(Aside.)</stage> He growls like a bear with a sore head!
+        <stage>(Disappears.)</stage></p>
+     </sp>
+     <sp who="#L1410_M1">
+      <speaker>Scr.</speaker>
+      <p>You're quite a powerful speaker. I wonder you don't go into Parliament.</p>
+     </sp>
+     <sp who="#L1410_M2">
+      <speaker>Frank.</speaker>
+      <p>Don't be angry. Come—dine with me to-morrow.</p>
+     </sp>
+     <sp who="#L1410_M1">
+      <speaker>Scr.</speaker>
+      <p>No, no——</p>
+     </sp>
+     <sp who="#L1410_M2">
+      <speaker>Frank.</speaker>
+      <p>But why not?</p>
+     </sp>
+     <sp who="#L1410_M1">
+      <speaker>Scr.</speaker>
+      <p>Why did you get married?</p>
+     </sp>
+     <sp who="#L1410_M2">
+      <speaker>Frank.</speaker>
+      <p>Because I fell in love.</p>
+     </sp>
+     <sp who="#L1410_M1">
+      <speaker>Scr.</speaker>
+      <p>Because you fell in love! Bah! good evening.</p>
+     </sp>
+     <sp who="#L1410_M2">
+      <speaker>Frank.</speaker>
+      <p>I want nothing—I ask nothing of you. Well, I'm sorry to find you so resolute—we have never
+       had any quarrel—I have made the trial in homage to Christmas, and I'll keep my Christmas
+       humour to the last—so, a merry Christmas, uncle.</p>
+     </sp>
+     <pb n="6"/>
+     <sp who="#L1410_M1">
+      <speaker>Scr.</speaker>
+      <p>Good evening!</p>
+     </sp>
+     <sp who="#L1410_M2">
+      <speaker>Frank.</speaker>
+      <p>And a happy new year!</p>
+     </sp>
+     <sp who="#L1410_M1">
+      <speaker>Scr.</speaker>
+      <p>Good evening!</p>
+     </sp>
+     <stage>Enter Bob, 2 E. L. H.</stage>
+     <sp who="#L1410_M2">
+      <speaker>Frank.</speaker>
+      <p>And a happy Christmas, and a merry new year to you, Bob Cratchit. <stage>(Shaking him by
+        the hand.)</stage></p>
+     </sp>
+     <sp who="#L1410_M5">
+      <speaker>Bob.</speaker>
+      <p>The same to you, sir, and many of 'em, and to your wife, and to your darling children, and
+       to all your friends, and to all you know, and to every one, to all the world. <stage>(Exit
+        Frank, 2 E. L. H.)</stage></p>
+     </sp>
+     <sp who="#L1410_M1">
+      <speaker>Scr.</speaker>
+      <p><stage>(Aside.)</stage> There's another fellow, my clerk, with fifteen shillings a week,
+       and a wife and family, talking about a merry Christmas. I'll retire to Bedlam.</p>
+     </sp>
+     <sp who="#L1410_M5">
+      <speaker>Bob.</speaker>
+      <p>Two gentlemen want you, sir, as fat as prize beef—shall I call 'em in? <stage>(Goes to
+        side.)</stage> Walk this way if you please, gentlemen.</p>
+     </sp>
+     <stage>Enter Mr. Cheerly and Mr. Heartly, 2 E. L. H., with books and papers.</stage>
+     <sp who="#L1410_M3">
+      <speaker>Cheer.</speaker>
+      <p>Scrooge and Marley's—I believe I have the pleasure of addressing Mr. Marley!</p>
+     </sp>
+     <sp who="#L1410_M1">
+      <speaker>Scr.</speaker>
+      <p>Mr. Marley has been dead these seven years.</p>
+     </sp>
+     <sp who="#L1410_M3">
+      <speaker>Cheer.</speaker>
+      <p>At this festive season of the year, it is more than usually desirable that we should make
+       some slight provision for the poor and destitute—many thousands are in want of common
+       necessaries—hundreds of thousands are in want of common comfort, sir.</p>
+     </sp>
+     <sp who="#L1410_M1">
+      <speaker>Scr.</speaker>
+      <p>Are there no prisons? and the union workhouses, are they still in operation?</p>
+     </sp>
+     <sp who="#L1410_M3">
+      <speaker>Cheer.</speaker>
+      <p>They are still—I wish I could say they were not.</p>
+     </sp>
+     <sp who="#L1410_M1">
+      <speaker>Scr.</speaker>
+      <p>The treadmill and the poor law are in full vigour then?</p>
+     </sp>
+     <pb n="7"/>
+     <sp who="#L1410_M3">
+      <speaker>Cheer.</speaker>
+      <p>Both very busy, sir.</p>
+     </sp>
+     <sp who="#L1410_M1">
+      <speaker>Scr.</speaker>
+      <p>Oh! I was afraid from what you said at first, that something had occurred to stop them in
+       their useful course. I'm very glad to hear it!</p>
+     </sp>
+     <sp who="#L1410_M3">
+      <speaker>Cheer.</speaker>
+      <p>Under the impression that they scarcely furnish Christian cheer of mind or body to the
+       multitude, a few of us are endeavouring to raise a fund to buy the poor some meat and drink,
+       and means of warmth. We choose this time because it is a time of all others, when want is
+       keenly felt and abundances rejoice. What shall we put you down for?</p>
+     </sp>
+     <sp who="#L1410_M1">
+      <speaker>Scr.</speaker>
+      <p>Nothing!</p>
+     </sp>
+     <sp who="#L1410_M3">
+      <speaker>Cheer.</speaker>
+      <p>You wish to be anonymous?</p>
+     </sp>
+     <sp who="#L1410_M1">
+      <speaker>Scr.</speaker>
+      <p>I wish to be left alone. I don't make merry myself at Christmas, and I can't afford to make
+       idle people merry—I help to support the establishments I have named—they cost enough—those
+       who are badly off must go there.</p>
+     </sp>
+     <sp who="#L1410_M3">
+      <speaker>Cheer.</speaker>
+      <p>Many can't go there—many would rather die!</p>
+     </sp>
+     <sp who="#L1410_M1">
+      <speaker>Scr.</speaker>
+      <p>If they'd rather die, they'd better do it, and decrease the surplus population. However,
+       it's not my business, so good evening, gentlemen.</p>
+     </sp>
+     <sp who="#L1410_M3">
+      <speaker>Cheer.</speaker>
+      <p>I am sorry we disturbed you. <stage>(As they are about to exeunt, Bob approaches
+        them—Scrooge retires up.)</stage></p>
+     </sp>
+     <sp who="#L1410_M5">
+      <speaker>Bob.</speaker>
+      <p>Beg pardon, gentlemen, I've got an odd eighteen-pence here that I was going to buy a new
+       pair of gloves with in honour of Christmas day, but my heart would feel warmer though my
+       hands were colder, if it helped to put a dinner and a garment on a poor creature who might
+       need. There take it.</p>
+     </sp>
+     <sp who="#L1410_M3">
+      <speaker>Cheer.</speaker>
+      <p>Such acts as these from such men as you sooner or later, will be well rewarded.</p>
+     </sp>
+     <sp who="#L1410_M5">
+      <speaker>Bob.</speaker>
+      <p>This way, gentlemen. I feel as light as my four-and-ninepenny gossamer! <stage>(Exeunt 2 E.
+        L. H.)</stage></p>
+     </sp>
+     <sp who="#L1410_M1">
+      <speaker>Scr.</speaker>
+      <p><stage>(Coming down.)</stage> Give money—humbug! Who'd give me anything, I should like to
+       know?</p>
+     </sp>
+     <pb n="8"/>
+     <stage>Re-enter Bob, 2 E. L. H.</stage>
+     <sp who="#L1410_M5">
+      <speaker>Bob.</speaker>
+      <p>A letter, sir. <stage>(Gives it and retires up.)</stage></p>
+     </sp>
+     <sp who="#L1410_M1">
+      <speaker>Scr.</speaker>
+      <p><stage>(Opens it—reads.)</stage> Ah! what do I see? the Mary Jane lost off the coast of
+       Africa. Then Frank is utterly ruined! his all was embarked on board that vessel. Frank knows
+       not of this—he will apply to me doubtless—but no, no. Why should I part with my hard gained
+       store to assist him, his wife and children—he chooses to make a fool of himself, and marry a
+       smooth-faced chit, and get a family—he must bear the consequences—I will not avert his ruin,
+       no, not by a single penny.</p>
+     </sp>
+     <sp who="#L1410_M5">
+      <speaker>Bob.</speaker>
+      <p><stage>(Coming down.)</stage> Please, sir, it's nine o'clock.</p>
+     </sp>
+     <sp who="#L1410_M1">
+      <speaker>Scr.</speaker>
+      <p>Already! You'll want all day to-morrow, I suppose.</p>
+     </sp>
+     <sp who="#L1410_M5">
+      <speaker>Bob.</speaker>
+      <p>If quite convenient, sir.</p>
+     </sp>
+     <sp who="#L1410_M1">
+      <speaker>Scr.</speaker>
+      <p>It's not convenient, and it's not fair. If I was to stop half-a-crown for it, you'd think
+       yourself ill-used, I'll be bound, and yet you don't think me ill used when I pay a day's
+       wages for no work.</p>
+     </sp>
+     <sp who="#L1410_M5">
+      <speaker>Bob.</speaker>
+      <p>Christmas comes but once a year.</p>
+     </sp>
+     <sp who="#L1410_M1">
+      <speaker>Scr.</speaker>
+      <p>A poor excuse for picking a man's pockets every twenty-fifth of December! Well, I suppose
+       you must have the whole day. Be here all the earlier next morning. Here's your week's money,
+       fifteen shillings—I ought to stop half-a-crown—never mind!</p>
+     </sp>
+     <sp who="#L1410_M5">
+      <speaker>Bob.</speaker>
+      <p>Thank you, sir! I'll be here before daylight, sir, you may depend upon it. Good night, sir.
+       Oh, what a glorious dinner Mrs. C. shall provide. Good night, sir. A merry Christmas and a
+       happy new year, sir.</p>
+     </sp>
+     <sp who="#L1410_M1">
+      <speaker>Scr.</speaker>
+      <p>Bah! humbug! <stage>(Exit Bob, 2 E. L. H.)</stage> So—alone once more. It's a rough night!
+       I will go to bed soon—that will save supper. <stage>(Takes off his coat, boots, etc., and
+        puts on morning gown and slippers, talking all the time.)</stage> 'Tis strange now the idea
+       of Marley is haunting me to-night—everywhere
+       <pb n="9"/> I turn his face seems before me. Delusion—humbug! I'll sit down by the fire and
+       forget him. <stage>(Takes basin of gruel from hob.)</stage> Here's my gruel! <stage>(Sits in
+        easy chair by fire—puts on night cap, and presently appears to dose. Suddenly a clanking of
+        chains and ringing of bells is heard—he's aroused, and looks up terrified.)</stage> That
+       noise! It's humbug! I won't believe it! <stage>(The door slowly opens, and the Ghost of
+        Marley glides in. A chain is round his body, and cash boxes, ledgers, padlocks, purses,
+        etc., are attached to it.)</stage> How now! What do you want with me?</p>
+     </sp>
+     <sp who="#L1410_M10">
+      <speaker>Ghost.</speaker>
+      <p>Much.</p>
+     </sp>
+     <sp who="#L1410_M1">
+      <speaker>Scr.</speaker>
+      <p>Who are you?</p>
+     </sp>
+     <sp who="#L1410_M10">
+      <speaker>Ghost.</speaker>
+      <p>Ask me who I was.</p>
+     </sp>
+     <sp who="#L1410_M1">
+      <speaker>Scr.</speaker>
+      <p>Who were you, then. You're particular for a shade—I mean to a shade.</p>
+     </sp>
+     <sp who="#L1410_M10">
+      <speaker>Ghost.</speaker>
+      <p>In life I was your partner, Jacob Marley. You don't believe in me! Why do you doubt your
+       senses?</p>
+     </sp>
+     <sp who="#L1410_M1">
+      <speaker>Scr.</speaker>
+      <p>Because a little thing affects them. A slight disorder of the stomach makes them cheats.
+       You may be an undigested bit of beef—a fragment of an underdone potato. There's more of gravy
+       than of grave about you, whatever you are.</p>
+     </sp>
+     <sp who="#L1410_M10">
+      <speaker>Ghost.</speaker>
+      <p><stage>(Unfastening the bandage round its head.)</stage> Man of the worldly mind, do you
+       believe me or not?</p>
+     </sp>
+     <sp who="#L1410_M1">
+      <speaker>Scr.</speaker>
+      <p>I do—I must! But why do spirits walk the earth? Why do they come to me?</p>
+     </sp>
+     <sp who="#L1410_M10">
+      <speaker>Ghost.</speaker>
+      <p>It is required of every man that the spirit within him should walk abroad among his fellow
+       men, and travel far and wide—if not in life, it is condemned to do so after death. It is
+       doomed to wander through the world, oh, woe is me!—and witness what it cannot share, but
+       might have shared on earth, and turned to happiness.</p>
+     </sp>
+     <sp who="#L1410_M1">
+      <speaker>Scr.</speaker>
+      <p>You are fettered!</p>
+     </sp>
+     <pb n="10"/>
+     <sp who="#L1410_M10">
+      <speaker>Ghost.</speaker>
+      <p>I wear the chain I forged in life—I made it link by link. Is its pattern strange to you?
+       Oh, no space of regret can make amends for one life's opportunities misused.</p>
+     </sp>
+     <sp who="#L1410_M1">
+      <speaker>Scr.</speaker>
+      <p>But you were always a man of business——</p>
+     </sp>
+     <sp who="#L1410_M10">
+      <speaker>Ghost.</speaker>
+      <p>Business! Mankind was my business—charity, mercy, were all my business. At this time of the
+       year I suffered most, for I neglected most. Hear me! I am here to-night to warn you that you
+       have a chance and a hope of escaping my fate. You will be haunted by three spirits——</p>
+     </sp>
+     <sp who="#L1410_M1">
+      <speaker>Scr.</speaker>
+      <p>I—I'd rather be excused!</p>
+     </sp>
+     <sp who="#L1410_M10">
+      <speaker>Ghost.</speaker>
+      <p>Without their visits you cannot hope to shun the path I tread. Expect the first when the
+       clock strikes one. Look to see me no more. For your own sake, remember what has passed
+       between us. <stage>(Binds wrapper round its head once more—slowly approaches the door and
+        disappears. Scrooge follows the phantom towards the door.)</stage></p>
+     </sp>
+     <sp who="#L1410_M1">
+      <speaker>Scr.</speaker>
+      <p>It is gone. The air seems filled with phantoms—shades of many I knew when living—they all
+       wear chains like Marley—they strive to assist the poor and stricken, but in vain—they seek to
+       interfere for good in human nature, but have lost the power forever. <stage>(The clock
+        strikes one—Scrooge staggers to a chair—the room is filled with a blaze of light—the Ghost
+        of Christmas Past rises through trap—As described in WORK, page 43.)</stage> Are you the
+       spirit whose coming was foretold to me?</p>
+     </sp>
+     <sp who="#L1410_M11">
+      <speaker>1st Spirit.</speaker>
+      <p>I am!</p>
+     </sp>
+     <sp who="#L1410_M1">
+      <speaker>Scr.</speaker>
+      <p>Who and what are you?</p>
+     </sp>
+     <sp who="#L1410_M11">
+      <speaker>1st Spirit.</speaker>
+      <p>I am the Ghost of Christmas Past. Your welfare—your reclamation brings me here. Turn, and
+       behold! <stage>(The Stage, becomes dark—a strong light is seen behind—the wall of the Miser's
+        chamber fades away and discovers a school-room—a child is seated reading by a fire.)</stage>
+       All have departed but this poor boy.</p>
+     </sp>
+     <pb n="11"/>
+     <sp who="#L1410_M1">
+      <speaker>Scr.</speaker>
+      <p>My poor forgotten self—and as I used to be!</p>
+     </sp>
+     <sp who="#L1410_M11">
+      <speaker>1st Spirit.</speaker>
+      <p>Look again! <stage>(A figure of Ali Baba is shown beyond the Child.)</stage></p>
+     </sp>
+     <sp who="#L1410_M1">
+      <speaker>Scr.</speaker>
+      <p>Why it's dear old honest Ali Baba! Yes, one Christmas time, when yonder poor child was left
+       alone, he <emph>did</emph> come just like that! <stage>(The figures of Valentine and Orson
+        appear.)</stage> Ha! and Valentine and his wild brother Orson, too! <stage>(Robinson Crusoe
+        and Friday appear.)</stage> Ha! and Robinson Crusoe, and his man Friday! Poor boy! he was
+       left alone, while all the rest were making holiday. <stage>(The figures of Ali Baba, etc.,
+        disappear. As he speaks, a little Girl enters the school-room, and approaches the
+        Boy.)</stage></p>
+     </sp>
+     <sp who="#L1410_J22">
+      <speaker>Girl.</speaker>
+      <p>I am come to bring you home, dear brother—we are to be together this Christmas, and be so
+       merry! <stage>(She leads him out. Scene fades away.)</stage></p>
+     </sp>
+     <sp who="#L1410_M1">
+      <speaker>Scr.</speaker>
+      <p>My sister! poor little Fanny!</p>
+     </sp>
+     <sp who="#L1410_M11">
+      <speaker>1st Spirit.</speaker>
+      <p>A delicate creature, whom a breath might have withered. She died a woman, and had, as I
+       think, children.</p>
+     </sp>
+     <sp who="#L1410_M1">
+      <speaker>Scr.</speaker>
+      <p>One child!</p>
+     </sp>
+     <sp who="#L1410_M11">
+      <speaker>1st Spirit.</speaker>
+      <p>True—your nephew. Know you this place? <stage>(The Scene at back is again lighted up, and
+        discovers Fezziwig's warehouse. Fezziwig and Characters grouped as in FRONTISPIECE of WORK.
+        Scrooge, as a young man.)</stage></p>
+     </sp>
+     <sp who="#L1410_M1">
+      <speaker>Scr.</speaker>
+      <p>Why, 'tis old Fezziwig, to whom I was apprenticed—he is alive again! My fellow-apprentice,
+       Dick Wilkins, too—myself, as I was <emph>then</emph>. 'Tis Christmas eve there. The happiness
+       he gave at so small a price was quite as much as though it cost a fortune. <stage>(The
+        tableau fades away. The Stage becomes dark. Enter Ellen in mourning. During the fading of
+        the tableau Scrooge puts a cloak around him, etc., and seems a younger man.)</stage> I feel
+       as if my years of life were less. Ha! who is this beside me?</p>
+     </sp>
+     <pb n="12"/>
+     <sp who="#L1410_M11">
+      <speaker>1st Spirit.</speaker>
+      <p>Have you forgotten your early love?</p>
+     </sp>
+     <sp who="#L1410_M1">
+      <speaker>Scr.</speaker>
+      <p>Ellen!</p>
+     </sp>
+     <sp who="#L1410_F18">
+      <speaker>Ellen.</speaker>
+      <p>Ebenezer, I come to say farewell forever! It matters little to you—very little—another idol
+       has displaced me, and if I can cheer and comfort you in time to come, as I would have tried
+       to do, I have no just cause to grieve.</p>
+     </sp>
+     <sp who="#L1410_M1">
+      <speaker>Scr.</speaker>
+      <p>What idol has displaced you?</p>
+     </sp>
+     <sp who="#L1410_F18">
+      <speaker>Ellen.</speaker>
+      <p>A golden one—the master passion. Gain alone engrosses you.</p>
+     </sp>
+     <sp who="#L1410_M1">
+      <speaker>Scr.</speaker>
+      <p>I have not changed towards you.</p>
+     </sp>
+     <sp who="#L1410_F18">
+      <speaker>Ellen.</speaker>
+      <p>Our contract is an old one—it was made when we were both poor. You are changed—I am not.
+       That which promised happiness when we were one in heart, is fraught with misery now we are
+       two. How often and how keenly I have thought of this I will not say. I <hi rend="italic"
+        >have</hi> thought of it, and can release you.</p>
+     </sp>
+     <sp who="#L1410_M1">
+      <speaker>Scr.</speaker>
+      <p>Have I ever sought release?</p>
+     </sp>
+     <sp who="#L1410_F18">
+      <speaker>Ellen.</speaker>
+      <p>In word—no, never!</p>
+     </sp>
+     <sp who="#L1410_M1">
+      <speaker>Scr.</speaker>
+      <p>In what, then?</p>
+     </sp>
+     <sp who="#L1410_F18">
+      <speaker>Ellen.</speaker>
+      <p>In a changed nature—in an altered spirit—in every thing that made my love of any worth or
+       value in your sight. If this had never been between us, tell me, would you seek me out, and
+       try to win me now? Ah, no!</p>
+     </sp>
+     <sp who="#L1410_M1">
+      <speaker>Scr.</speaker>
+      <p>You think not——</p>
+     </sp>
+     <sp who="#L1410_F18">
+      <speaker>Ellen.</speaker>
+      <p>I would think otherwise if I could—but if you were free to-day, can even I believe that you
+       would choose a dowerless girl—you who weigh everything by gain? Or did you so, do I not know
+       your repentance and regret would surely follow. I do—and I release you, with a full heart,
+       for the love of him you once were. You will forget all this—may you be happy in the life you
+       have chosen! <stage>(She slowly exits R. H. Scrooge throws aside his cloak, and appears as
+        before.)</stage></p>
+     </sp>
+     <sp who="#L1410_M1">
+      <speaker>Scr.</speaker>
+      <p>Spirit, show me no more! Why do you delight to torture me?</p>
+     </sp>
+     <pb n="13"/>
+     <sp who="#L1410_M11">
+      <speaker>1st Spirit.</speaker>
+      <p>One shadow more. She whom you resigned for gold—for gain—for sordid ore—she you shall now
+       behold as the tender wife of a good and upright man—as the happy mother of smiling children.
+       You shall see them in their joyous home. Come, thou lonely man of gold—come!</p>
+     </sp>
+     <sp who="#L1410_M1">
+      <speaker>Scr.</speaker>
+      <p>No, no!</p>
+     </sp>
+     <sp who="#L1410_M11">
+      <speaker>1st Spirit.</speaker>
+      <p>I told you these were the shadows of the things that have been—that they are what they are
+       do not blame me. Come——</p>
+     </sp>
+     <sp who="#L1410_M1">
+      <speaker>Scr.</speaker>
+      <p>No, no—I've seen enough—haunt me no longer! <stage>(The Spirit seizes him—he seizes the cap
+        presses it upon the Spirit's head, who sinks under it, and disappears in a flood of light
+        while Scrooge sinks exhausted on the floor.)</stage></p>
+     </sp>
+    </div>
+    <div type="scene" n="II">
+     <head>SCENE II.—<hi rend="italic">A Street. Houses covered with snow.</hi></head>
+     <stage>Enter Dark Sam, L. H.</stage>
+     <sp who="#L1410_M14">
+      <speaker>Sam.</speaker>
+      <p>It's very odd! I an't nimmed nothing to-night. Christmas eve, too—when people's got sich
+       lots of tin! But they takes precious good care of it, 'cos I s'pose they thinks if they loses
+       it, they shan't be able to get no Christmas dinner. If I can't prig nothin', I'm sure I
+       shan't be able to get none. Unless this trade mends soon, I must turn undertaker's man again.
+       There is a chance, in that honourable calling of a stray thing or two. Somebody comes! I
+       wonder if I shall have any luck now.</p>
+     </sp>
+     <stage>Enter Bob, R. H.</stage>
+     <sp who="#L1410_M5">
+      <speaker>Bob.</speaker>
+      <p>I shall soon be home! Won't my Martha be glad to see me—and what a pleasant happy Christmas
+       Day we shall spend. What a dinner we shall have! I've got fifteen shillings—my week's
+       wages—and I'm determined to spend every farthing of it. Won't we have a prime goose, and a
+       magnificent pudding! And then the gin and water—and oranges
+       <pb n="14"/>—and the—oh, how jolly we shall be! And Tiny Tim, too—he never tasted goose
+       before—how he will lick his dear little chops at the sage and onions! And as for Martha—my
+       dear Martha, who is a dress-maker, and can only come to see us once in about four months—she
+       shall have the parson's nose. Let me see—a goose will cost seven shillings—pudding
+       five—that's twelve. Oranges, sage and onions, potatoes, and gin, at least three shillings
+       more. Oh, there will be quite enough money, and some to spare. <stage>(During this speech Sam
+        advances cautiously and picks his pocket.)</stage></p>
+     </sp>
+     <sp who="#L1410_M14">
+      <speaker>Sam.</speaker>
+      <p><stage>(Aside.)</stage> Some to spare! It can't fall into better hands than mine, then!</p>
+     </sp>
+     <stage>(Exit R. H.)</stage>
+     <sp who="#L1410_M5">
+      <speaker>Bob.</speaker>
+      <p>I've a good mind to buy the goose going home; but then if it should turn out fusty—I think
+       I had better leave it for Mrs. C. The moment I get home, I'll pop the money into her hands,
+        and—<stage>(Feeling in his pockets.)</stage>—Eh?—what—what's this? Somebody has been having
+       a joke at my expense. Eh? my week's salary—my fifteen shillings—it's gone! I'm
+       ruined—lost——undone! My pocket has been picked! I've lost my Christmas dinner before I've got
+       it! Oh, how can I face Mrs. C., and Bob, and Martha, and Tiny Tim! Oh, what can I do?</p>
+     </sp>
+     <stage>Enter Frank, L. H.</stage>
+     <sp who="#L1410_M2">
+      <speaker>Frank.</speaker>
+      <p>What my worthy friend Bob Cratchit—how is this, man? you look sorrowful, and on Christmas
+       eve, too!</p>
+     </sp>
+     <sp who="#L1410_M5">
+      <speaker>Bob.</speaker>
+      <p>Some of those boys whom I was sliding with on the ice in Cornhill must have done it.</p>
+     </sp>
+     <sp who="#L1410_M2">
+      <speaker>Frank.</speaker>
+      <p>Done it! Done what, man?</p>
+     </sp>
+     <sp who="#L1410_M5">
+      <speaker>Bob.</speaker>
+      <p>Stole my Christmas dinner—my—salary—I mean my fifteen shillings, that your uncle paid me
+       not an hour ago.</p>
+     </sp>
+     <sp who="#L1410_M2">
+      <speaker>Frank.</speaker>
+      <p>That's unfortunate!</p>
+     </sp>
+     <sp who="#L1410_M5">
+      <speaker>Bob.</speaker>
+      <p>Unfortunate! Think of Tiny Tim's disappointment—no goose—no pudding—no nothing!</p>
+     </sp>
+     <pb n="15"/>
+     <sp who="#L1410_M2">
+      <speaker>Frank.</speaker>
+      <p>Tiny Tim shall not go without his Christmas dinner notwithstanding your loss—no, nor you
+       either—nor any of your family, Bob Cratchit. At such a time as this, no one should be
+       unhappy—not even my hard-hearted uncle, much less a worthy fellow like you. Here, Bob, here's
+       a sovereign—you can return it when my uncle raises your wages—no thanks, but go and be as
+       happy as you deserve to be—once more, a merry Christmas to you!</p>
+     </sp>
+     <stage>(Exit R. H.)</stage>
+     <sp who="#L1410_M5">
+      <speaker>Bob.</speaker>
+      <p>He's a regular trump! I wanted to thank him, and couldn't find the words! I should like to
+       laugh, and I feel as if I could cry. If Tiny Tim don't bless you for this my name's not Bob
+       Cratchit! I've lost fifteen shillings, and I've found a sovereign! <stage>(Dances.)</stage>
+       Tol lol li do! Oh, Mrs. Cratchit! Oh, my little Cratchit! what a happy Christmas Day we shall
+       spend, surely! What a pity Christmas don't last all the year round! <stage>(Exit L.
+        H.)</stage></p>
+     </sp>
+    </div>
+    <div type="scene" n="III">
+     <head>SCENE III.—Scrooge's chamber, as before.</head>
+     <stage>Scrooge discovered, sleeping in a chair. The Stage becomes suddenly quite light, and the
+      Ghost of Christmas Present discovered, as in WORK, page 78, the wall at back covered with ivy,
+      holly, and mistletoe—heaped upon the floor, almost to form a throne, are turkeys, geese, plum
+      puddings, twelfth cake, etc. (See PAGE 78.)</stage>
+     <sp who="#L1410_M12">
+      <speaker>2nd Spirit.</speaker>
+      <p>Know me, man? I am the ghost of Christmas Present. Look upon me. <stage>(Scrooge rises,
+        approaches, and gazes at the figure.)</stage> You have never seen the like of me before?</p>
+     </sp>
+     <sp who="#L1410_M1">
+      <speaker>Scr.</speaker>
+      <p>Never!</p>
+     </sp>
+     <sp who="#L1410_M12">
+      <speaker>2nd Spirit.</speaker>
+      <p>Have never walked forth with the younger members of my family, meaning, for I am very
+       young, my elder brothers born in these latter years.</p>
+     </sp>
+     <sp who="#L1410_M1">
+      <speaker>Scr.</speaker>
+      <p>I'm afraid I have not. Have you had many brothers, Spirit?</p>
+     </sp>
+     <pb n="16"/>
+     <sp who="#L1410_M12">
+      <speaker>2nd Spirit.</speaker>
+      <p>More than eighteen hundred!</p>
+     </sp>
+     <sp who="#L1410_M1">
+      <speaker>Scr.</speaker>
+      <p>A tremendous family to provide for! <stage>(The Spirit rises.)</stage> Spirit, conduct me
+       where you will—if you have ought to teach me, let me profit by it. Why do you carry that
+       torch?</p>
+     </sp>
+     <sp who="#L1410_M12">
+      <speaker>2nd Spirit.</speaker>
+      <p>To sprinkle the light and incense of happiness every where—to poor dwellings most.</p>
+     </sp>
+     <sp who="#L1410_M1">
+      <speaker>Scr.</speaker>
+      <p>Why to poor ones most?</p>
+     </sp>
+     <sp who="#L1410_M12">
+      <speaker>2nd Spirit.</speaker>
+      <p>Because they need it most. But come—touch my robe—we have much to see. <stage>(As Scrooge
+        approaches nearer to him, the Scene changes.)</stage></p>
+     </sp>
+    </div>
+    <div type="scene" n="IV">
+     <head>SCENE IV.—A Bleak and Barren Moor. A poor mud cabin. (Painted in the flat.)</head>
+     <stage>The Second Spirit and Scrooge enter.</stage>
+     <sp who="#L1410_M1">
+      <speaker>Scr.</speaker>
+      <p>What place is this?</p>
+     </sp>
+     <sp who="#L1410_M12">
+      <speaker>2nd Spirit.</speaker>
+      <p>A place where miners live, who labour in the bowels of the earth—they know me. See!
+        <stage>(As he speaks, the window is lighted from within. The Spirit draws Scrooge to
+        window.)</stage> What seest thou?</p>
+     </sp>
+     <sp who="#L1410_M1">
+      <speaker>Scr.</speaker>
+      <p>A cheerful company assembled round a glowing fire—an old man and woman, with their
+       children, and children's children all decked gaily out in their holiday attire. I hear the
+       old man's voice above the howling of the wind upon the barren waste; singing a Christmas
+       song, while all swell out the chorus.</p>
+     </sp>
+     <sp who="#L1410_M12">
+      <speaker>2nd Spirit.</speaker>
+      <p>Come, we must not tarry—we will to sea—your ear shall be deafened by the roaring
+       waters.</p>
+     </sp>
+     <sp who="#L1410_M1">
+      <speaker>Scr.</speaker>
+      <p>To sea? no, good Spirit!</p>
+     </sp>
+     <sp who="#L1410_M12">
+      <speaker>2nd Spirit.</speaker>
+      <p>See yonder solitary lighthouse built on a dismal reef of sunken rocks. Here we men who
+       watch the light, have made a fire that sheds a ray of brightness on the awful sea, joining
+       their horny hands over the rough table where they sit, they wish each other a merry Christmas
+       in can of grog and
+       <pb n="17"/>sing a rude lay in honour of the time. All men on this day have a kinder word for
+       one another—on such a day—but come—on—on! <stage>(As he speaks the Scene
+       changes.)</stage></p>
+     </sp>
+    </div>
+    <div type="scene" n="V">
+     <head>SCENE V.—Drawing-room in Frank Freeheart's house.</head>
+     <stage>Frank, Caroline his wife, Mr. Cheerly, and male and female Guests discovered—some are
+      seated on a sofa on one side, others surround a table on the other side. Scrooge and the
+      Spirit remain on one side. (At opening of Scene all laugh.)</stage>
+     <sp who="#L1410_M2">
+      <speaker>Frank.</speaker>
+      <p>Yes, friends, my uncle said that Christmas was a humbug, as I live! He believed it,
+       too!</p>
+     </sp>
+     <sp who="#L1410_mult">
+      <speaker>Omnes.</speaker>
+      <p>More shame for him.</p>
+     </sp>
+     <sp who="#L1410_M2">
+      <speaker>Frank.</speaker>
+      <p>He's a comical old fellow! However, his offences carry their own punishment.</p>
+     </sp>
+     <sp who="#L1410_M3">
+      <speaker>Cheer.</speaker>
+      <p>He's very rich!</p>
+     </sp>
+     <sp who="#L1410_M2">
+      <speaker>Frank.</speaker>
+      <p>But his wealth is of no use to him. He don't do any good with it. He don't make himself
+       comfortable with it. He hasn't the satisfaction of thinking—ha, ha, ha!—that he is ever going
+       to benefit us with it!</p>
+     </sp>
+     <sp who="#L1410_mult">
+      <speaker>Ladies.</speaker>
+      <p>We have no patience with him!</p>
+     </sp>
+     <sp who="#L1410_M2">
+      <speaker>Frank.</speaker>
+      <p>But I have! I'm sorry for him! I couldn't be angry with him if I tried. Who suffers by his
+       ill whims? Himself! He loves a good dinner—pleasant moments, and pleasanter companions than
+       he can find in his own thoughts, or in his mouldy chambers. He may rail at Christmas till he
+       dies, but he can't help thinking better of it, I defy him! If he finds me going there, year
+       after year and saying, Uncle Scrooge, how are you? If it only puts him in the vein to leave
+       his poor clerk fifty pounds, that's something, and I think I shook him yesterday! <stage>(All
+        laugh.)</stage> Well, he has given us plenty of merriment so here's his health. Uncle
+       Scrooge!</p>
+     </sp>
+     <pb n="18"/>
+     <sp who="#L1410_mult">
+      <speaker>Omnes.</speaker>
+      <p><stage>(Drinks.)</stage> Uncle Scrooge!</p>
+     </sp>
+     <sp who="#L1410_M2">
+      <speaker>Frank.</speaker>
+      <p>A merry Christmas and a happy new year to him wherever he is!</p>
+     </sp>
+     <sp who="#L1410_M1">
+      <speaker>Scr.</speaker>
+      <p>Spirit, their merriment has made me so bright and gay, that I could almost pledge them in
+       return, and join in all their innocent mirth!</p>
+     </sp>
+     <stage>A servant enters, L. H. and gives a letter to Frank, then exits.</stage>
+     <sp who="#L1410_M2">
+      <speaker>Frank.</speaker>
+      <p><stage>(Opens it and reads. Aside.)</stage> Ah! what do I see, the vessel lost at sea that
+       bore my entire wealth within her! Then I'm a lost and ruined man! <stage>(His wife approaches
+        him.)</stage></p>
+     </sp>
+     <sp who="#L1410_M3">
+      <speaker>Cheer.</speaker>
+      <p>No ill news, I hope, Mr. Freeheart.</p>
+     </sp>
+     <sp who="#L1410_M2">
+      <speaker>Frank.</speaker>
+      <p><stage>(Aside.)</stage> The stroke is sudden and severe but I will bear it like a man! Why
+       should I damp the enjoyment of those around by such ill tiding? No, it is Christmas time—I
+       will not broach such bad news now—no—at least to-night. All shall be happy—nor word of mine
+       shall make any otherwise. <stage>(To his friends.)</stage> Come, friends, let's have a merry
+       dance, shall we not?</p>
+     </sp>
+     <sp who="#L1410_mult">
+      <speaker>Omnes.</speaker>
+      <p>A dance! a dance! <stage>(Short, Country Dance, in which Scrooge joins without being
+        observed by the rest. Towards the conclusion of it the Spirit advances—draws Scrooge back
+        from the group—a bright glow lights up the Scene, as the Spirit and Scrooge sink through the
+        Stage unnoticed by the groups.)</stage></p>
+     </sp>
+    </div>
+    <trailer>End of Act I.</trailer>
+   </div>
+   <div type="act" n="II">
+    <head>ACT II.</head>
+    <div type="scene" n="I">
+     <head>SCENE I.—<hi rend="italic">Humble Apartment in Bob Cratchit's House. Table, chairs, etc.,
+       on.</hi></head>
+     <stage>Mrs. Cratchit and Belinda Cratchit discovered laying the cloth. Peter Cratchit is by
+      fire. Scrooge and the Spirit of Christmas Present rise through the Stage, and stand aside and
+      observe them.</stage>
+     <pb n="19"/>
+     <sp who="#L1410_M1">
+      <speaker>Scr.</speaker>
+      <p>So, this is my clerk's dwelling, Spirit—Bob Cratchit's. You blessed it with the sprinkling
+       of your torch as we passed the threshold. Bob had but fifteen <hi rend="italic">Bob</hi> a
+       week. He pockets on Saturdays but fifteen copies of his Christian name, and yet the Ghost of
+       Christmas Present blessed his four-roomed house. <stage>(Two of Cratchit's younger children,
+        Boy and Girl, run in.)</stage></p>
+     </sp>
+     <sp who="#L1410_J22">
+      <speaker>Boy.</speaker>
+      <p>Oh, mother—outside the baker's we smell such a goose! It must have been ours—no one has got
+       such a goose. Oh, gemini! <stage>(They dance round the table in childish glee.)</stage></p>
+     </sp>
+     <sp who="#L1410_F19">
+      <speaker>Mrs. C.</speaker>
+      <p>Whatever has got your precious father, Bob, and Tiny Tim. And Martha warn't as late this
+       Christmas Day by half an hour!</p>
+     </sp>
+     <stage>Enter Martha, L. H.</stage>
+     <sp who="#L1410_F20">
+      <speaker>Mart.</speaker>
+      <p>Here's Martha, mother!</p>
+     </sp>
+     <sp who="#L1410_J22">
+      <speaker>Children.</speaker>
+      <p>Here's Martha, mother—hurrah! There's such a goose, Martha!</p>
+     </sp>
+     <sp who="#L1410_F19">
+      <speaker>Mrs. C.</speaker>
+      <p><stage>(Kissing Martha, and assisting her off with her bonnet, etc.)</stage> Why bless your
+       heart alive, my dear, how late you are!</p>
+     </sp>
+     <sp who="#L1410_F20">
+      <speaker>Mart.</speaker>
+      <p>We'd a deal of work to finish up last night, and had to clear away this morning,
+       mother.</p>
+     </sp>
+     <sp who="#L1410_F19">
+      <speaker>Mrs. C.</speaker>
+      <p>Well, never mind, so long as you are come. Sit ye down before the fire, my dear, and have a
+       warm. Lord bless ye!</p>
+     </sp>
+     <sp who="#L1410_J22">
+      <speaker>Children.</speaker>
+      <p><stage>(Looking off.)</stage> Father's coming! Hide, Martha, hide! <stage>(Martha runs
+        behind closet door in F. Bob Cratchit enters with Tiny Tim upon his shoulder, L.
+       H.)</stage></p>
+     </sp>
+     <sp who="#L1410_M5">
+      <speaker>Bob.</speaker>
+      <p><stage>(Looking round.)</stage> Why, where's our Martha?</p>
+     </sp>
+     <sp who="#L1410_F19">
+      <speaker>Mrs. C.</speaker>
+      <p>Not coming.</p>
+     </sp>
+     <pb n="20"/>
+     <sp who="#L1410_M5">
+      <speaker>Bob.</speaker>
+      <p>Not coming upon Christmas Day!</p>
+     </sp>
+     <sp who="#L1410_F20">
+      <speaker>Martha.</speaker>
+      <p><stage>(Running towards him.)</stage> Yes, dear father, yes. <stage>(They
+       embrace.)</stage></p>
+     </sp>
+     <sp who="#L1410_J22">
+      <speaker>Children.</speaker>
+      <p>Come, Tiny Tim, into the washhouse, to hear the pudding singing in the copper! <stage>(They
+        carry Tim out—Peter exits L. H.)</stage></p>
+     </sp>
+     <sp who="#L1410_F19">
+      <speaker>Mrs. C.</speaker>
+      <p>And how did little Tim behave?</p>
+     </sp>
+     <sp who="#L1410_M5">
+      <speaker>Bob.</speaker>
+      <p>As good as gold. Somehow he gets thoughtful sitting by himself so much, and thinks the
+       sweetest things you ever heard! <stage>(The Children re-enter with Tim.)</stage></p>
+     </sp>
+     <sp who="#L1410_J22">
+      <speaker>Children.</speaker>
+      <p>The goose! the goose! <stage>(Peter re-enters carrying the goose—it is placed on the table,
+        etc. All seat themselves at table.)</stage></p>
+     </sp>
+     <sp who="#L1410_M1">
+      <speaker>Scr.</speaker>
+      <p>Bob's happier than his master! How his blessed urchins, mounting guard upon their posts,
+       cram their spoons into their mouths, lest they should shriek for goose before their turn
+       arrives to be helped! And now, as Mrs. Cratchit plunges her knife in its breast, a murmur of
+       delight arises round the board, and even Tiny Tim beats the table with the handle of his
+       knife, and feebly cries hurrah!</p>
+     </sp>
+     <sp who="#L1410_M5">
+      <speaker>Bob.</speaker>
+      <p>Beautiful! There never was such a goose. It's tender as a lamb, and cheap as dirt. The
+       apple sauce and mashed potatoes are delicious—and now, love, for the pudding. The thought of
+       it makes you nervous.</p>
+     </sp>
+     <sp who="#L1410_F19">
+      <speaker>Mrs. C.</speaker>
+      <p>Too nervous for witnesses. I must leave the room alone to take the pudding up and bring it
+       in.</p>
+     </sp>
+     <stage>(Exit L. H.)</stage>
+     <sp who="#L1410_M5">
+      <speaker>Bob.</speaker>
+      <p>Awful moment! Suppose it should not be done enough? Suppose it should break in turning out?
+       Suppose somebody should have got over the wall of the back yard and stolen it? <stage>(Gets
+        up, and walks about, disturbed.)</stage> I could suppose all sorts of horrors. Ah! there's a
+       great deal of steam—the pudding's out of the copper! A smell like a washing day—that's the
+       cloth! A smell like an eating-house and a pastry cook's door to each other, with a
+       <pb n="21"/> laundress's next door to that—that's the pudding. <stage>(Mrs. Cratchit
+        re-enters with pudding, which she places on table. Bob sits.)</stage></p>
+     </sp>
+     <sp who="#L1410_J22">
+      <speaker>Children.</speaker>
+      <p>Hurrah!</p>
+     </sp>
+     <sp who="#L1410_M1">
+      <speaker>Scr.</speaker>
+      <p>Mrs. Cratchit looks flushed, but smiles proudly, like one who has achieved a triumph.</p>
+     </sp>
+     <sp who="#L1410_M5">
+      <speaker>Bob.</speaker>
+      <p>Mrs. Cratchit, I regard this pudding as the greatest success you have achieved since our
+       marriage.</p>
+     </sp>
+     <sp who="#L1410_F19">
+      <speaker>Mrs. C.</speaker>
+      <p>Now that the weight's off my mind, I confess I had my doubts about it, and I don't think it
+       at all a small pudding for so large a family.</p>
+     </sp>
+     <sp who="#L1410_M5">
+      <speaker>Bob.</speaker>
+      <p>It would be flat heresy to say so. A Cratchit would blush to hint at such a thing!</p>
+     </sp>
+     <sp who="#L1410_M1">
+      <speaker>Scr.</speaker>
+      <p>Their merry, cheerful dinner's ended, but not their sweet, enjoyment of the day.
+        <stage>(Mrs. Cratchit, etc., clears the table. A jug and a glass or two are placed on it.
+        Bob fills the glasses.)</stage></p>
+     </sp>
+     <sp who="#L1410_M5">
+      <speaker>Bob.</speaker>
+      <p>A merry Christmas to us all, my dear—heaven bless us! <stage>(They drink and echo him—Tiny
+        Tim is near his father, who presses his hand.)</stage></p>
+     </sp>
+     <sp who="#L1410_M1">
+      <speaker>Scr.</speaker>
+      <p>Spirit tell me if Tiny Tim will live?</p>
+     </sp>
+     <sp who="#L1410_M12">
+      <speaker>2nd Spirit.</speaker>
+      <p>If the shadows I see remain unaltered by the future, the child will die.</p>
+     </sp>
+     <sp who="#L1410_M1">
+      <speaker>Scr.</speaker>
+      <p>No, no—say he will be spared.</p>
+     </sp>
+     <sp who="#L1410_M12">
+      <speaker>2nd Spirit.</speaker>
+      <p>If he be like to die—what then? He had better do it, and decrease the surplus
+       population.</p>
+     </sp>
+     <sp who="#L1410_M1">
+      <speaker>Scr.</speaker>
+      <p>My own words!</p>
+     </sp>
+     <sp who="#L1410_M12">
+      <speaker>2nd Spirit.</speaker>
+      <p>Man—if man you be in heart, and not adamant—forbear that wicked cant until you have
+       discovered what the surplus is, and where it is. Will you decide what men shall live—what men
+       shall die? To hear the insect on the leaf pronouncing on the too much life among his hungry
+       brothers in the dust.</p>
+     </sp>
+     <sp who="#L1410_M5">
+      <speaker>Bob.</speaker>
+      <p>My dear, I'll give you, "Mr. Scrooge, the founder of the feast!"</p>
+     </sp>
+     <sp who="#L1410_F19">
+      <speaker>Mrs. C.</speaker>
+      <p>The founder of the feast indeed! I wish
+       <pb n="22"/> I had him here—I'd give him a piece of my mind to feast upon!</p>
+     </sp>
+     <sp who="#L1410_M5">
+      <speaker>Bob.</speaker>
+      <p>My dear—the children—Christmas Day——</p>
+     </sp>
+     <sp who="#L1410_F19">
+      <speaker>Mrs. C.</speaker>
+      <p>It should be Christmas Day, I'm sure, on which one drinks the health of such an odious,
+       stingy, hard, unfeeling man as Mr. Scrooge. You know what he is, Robert—no one better.</p>
+     </sp>
+     <sp who="#L1410_M5">
+      <speaker>Bob.</speaker>
+      <p>My dear—Christmas Day——</p>
+     </sp>
+     <sp who="#L1410_F19">
+      <speaker>Mrs. C.</speaker>
+      <p>I'll drink his health for your sake not for his. Long life to him! A merry Christmas and a
+       happy new year! He'll be very merry and very happy, no doubt! <stage>(All drink.)</stage></p>
+     </sp>
+     <sp who="#L1410_M12">
+      <speaker>2nd Spirit.</speaker>
+      <p>Your name alone has cast a gloom upon them. But they are happy—grateful—pleased with one
+       another.</p>
+     </sp>
+     <sp who="#L1410_M1">
+      <speaker>Scr.</speaker>
+      <p>And they look happier yet in the bright sprinkling of thy torch, Spirit. <stage>(As he
+        speaks the Stage becomes quite dark. A medium descends, which hides the group at table.
+        Scrooge and the Spirit remaining in front.)</stage> We have seen much to-night, and visited
+       many homes. Thou hast stood beside sick beds, and they were cheerful—by struggling men, and
+       they were patient in their greater hope—by poverty, and it was rich. In almshouse, hospital
+       and jail—in misery's every refuge, thou hast left thy blessing, and taught me thy
+       precepts.</p>
+     </sp>
+     <sp who="#L1410_M12">
+      <speaker>2nd Spirit.</speaker>
+      <p>My life upon this globe is very brief—it ends to-night—at midnight—the time draws near.</p>
+     </sp>
+     <sp who="#L1410_M1">
+      <speaker>Scr.</speaker>
+      <p>Is that a claw protruding from your skirts?</p>
+     </sp>
+     <sp who="#L1410_M12">
+      <speaker>2nd Spirit.</speaker>
+      <p>Behold! <stage>(Two Children, wretched in appearance, appear from the foldings of his
+        robe—they kneel, and cling to him.)</stage> Oh, man—look here!</p>
+     </sp>
+     <sp who="#L1410_M1">
+      <speaker>Scr.</speaker>
+      <p>Spirit, are they yours? <stage>(See PLATE in WORK, page 119.)</stage></p>
+     </sp>
+     <sp who="#L1410_M12">
+      <speaker>2nd Spirit.</speaker>
+      <p>They are man's—and they cling to me, appealing from their fathers. This boy is
+       Ignorance—this girl is Want. Beware all of their degree—but most of all beware this boy, for
+       on his brow is
+       <pb n="23"/>written that which is doom, unless the writing be erased. Admit it for your
+       factious purposes, and bide the end.</p>
+     </sp>
+     <sp who="#L1410_M1">
+      <speaker>Scr.</speaker>
+      <p>Have they no regular refuge or resource? <stage>(Scrooge shrinks abashed.)</stage></p>
+     </sp>
+     <sp who="#L1410_M12">
+      <speaker>2nd Spirit.</speaker>
+      <p>Are there no prisons—no workhouses? Hark, 'tis midnight! I am of the past! <stage>(The
+        Children exeunt—the Spirit disappears through trap—at the same moment the Ghost of Christmas
+        to Come, shrouded in a deep black garment rises behind medium, which is worked off,
+        discovering——</stage></p>
+     </sp>
+    </div>
+    <div type="scene" n="II">
+     <head>SCENE II.—<hi rend="italic">A Street. Night.</hi></head>
+     <stage>The Spirit advances slowly. Scrooge kneels on beholding it.</stage>
+     <sp who="#L1410_M1">
+      <speaker>Scr.</speaker>
+      <p>This Spirit's mysterious presence fills me with a solemn dread! I am in the presence of the
+       Ghost of Christmas yet to come! <stage>(The Spirit points onward.)</stage> You are about to
+       show me shadows of things that have not happened, but will happen in the time before us?
+        <stage>(The Spirit slightly inclines its head.)</stage> Though well used to ghostly company
+       by this time. I fear this silent shape more than I did all the rest. Ghost of the future,
+       will you not speak to me? <stage>(The Spirit's hand is still pointing onward.)</stage> Lead
+       on, Spirit! <stage>(The Spirit moves a few steps on, then pauses. Scrooge follows. The Stage
+        becomes light.)</stage></p>
+     </sp>
+     <stage>Enter Cheerly and Heartly.</stage>
+     <sp who="#L1410_M4">
+      <speaker>Heart.</speaker>
+      <p>He's dead, you say? When did he die?</p>
+     </sp>
+     <sp who="#L1410_M3">
+      <speaker>Cheer.</speaker>
+      <p>Last night, I believe.</p>
+     </sp>
+     <sp who="#L1410_M4">
+      <speaker>Heart.</speaker>
+      <p>What has he done with his money?</p>
+     </sp>
+     <sp who="#L1410_M3">
+      <speaker>Cheer.</speaker>
+      <p>I haven't heard, he hasn't left it to me. It's likely to be a very cheap funeral, for I
+       don't know of any one likely to go to it.</p>
+     </sp>
+     <sp who="#L1410_M4">
+      <speaker>Heart.</speaker>
+      <p>Well, I don't mind going to it if lunch is provided. I'm not at all sure I was not one of
+       his most particular friends.</p>
+     </sp>
+     <sp who="#L1410_M3">
+      <speaker>Cheer.</speaker>
+      <p>Yes—you used to stop, and say "How d'ye do?" whenever you met. But, come—we must to
+       'Change.</p>
+     </sp>
+     <stage>(Exit R. H.)</stage>
+     <sp who="#L1410_M1">
+      <speaker>Scr.</speaker>
+      <p>A moral in their words, too! Quiet and dark beside me stands yet the phantom, with its
+       outstretched hand. It still points onward and I must follow it! <stage>(The Spirit exits
+        slowly followed by Scrooge.)</stage></p>
+     </sp>
+    </div>
+    <div type="scene" n="III">
+     <head>SCENE III.—<hi rend="italic">Interior of a Marine Store Shop. Old iron, phials, etc.,
+       seen. A screen extends from R. H. to C. separating fireplace, etc., from shop. Chair and
+       table near the fire.</hi></head>
+     <stage>Old Joe seated near the fire, smoking. A light burns on the table. The Spirit enters,
+      followed by Scrooge.</stage>
+     <sp who="#L1410_M1">
+      <speaker>Scr.</speaker>
+      <p>What foul and obscure place is this? What place of bad repute—of houses wretched—of people
+       half naked—drunken and ill-favoured? The whole quarter reeks with crime—with filth and
+       misery. <stage>(Shop door opens, and Mrs. Dibler enters. She has hardly time to close the
+        door when it opens again, and Dark Sam enters closely followed by Mrs. Mildew. Upon
+        perceiving each other they at first start, but presently burst into a laugh. Joe joins
+        them.)</stage></p>
+     </sp>
+     <sp who="#L1410_M14">
+      <speaker>Sam.</speaker>
+      <p>Let the charwoman alone to be the first—let the laundress alone to be second—and let the
+       undertaker's man alone to be the third. Look here old Joe, here's a chance! If we all three
+       haven't met here without meaning it.</p>
+     </sp>
+     <sp who="#L1410_M9">
+      <speaker>Joe.</speaker>
+      <p>You couldn't have met in a better place. Come into the parlour—you're none of you
+       strangers. Stop till I shut the door of the shop. Ah! how it shrieks! There an't such a rusty
+       bit of metal here as its own hinges—and I'm sure there's no such old bones here as mine. Ha,
+       ha! we're all suitable to our
+       <pb n="25"/>calling. We're well matched. Come into the parlour. <stage>(They come forward by
+        screen.)</stage></p>
+     </sp>
+     <sp who="#L1410_F21">
+      <speaker>Mrs. M.</speaker>
+      <p><stage>(Throwing down bundle.)</stage> What odds, then, Mrs. Dibler? Every person has a
+       right to take care of themselves. He always did.</p>
+     </sp>
+     <sp who="#L1410_M14">
+      <speaker>Sam.</speaker>
+      <p>No man more so, so don't stand staring as if you was afraid, woman—who's the wiser? We're
+       not going to pick holes in each other's coats, I suppose?</p>
+     </sp>
+     <sp who="#L1410_mult">
+      <speaker>Omnes.</speaker>
+      <p>No, indeed! we should hope not!</p>
+     </sp>
+     <sp who="#L1410_F21">
+      <speaker>Mrs. M.</speaker>
+      <p>Who's the worse for the loss of a few things like these? Not a dead man, I suppose?</p>
+     </sp>
+     <sp who="#L1410_mult">
+      <speaker>Omnes.</speaker>
+      <p><stage>(Laughing.)</stage> No, indeed!</p>
+     </sp>
+     <sp who="#L1410_M14">
+      <speaker>Sam.</speaker>
+      <p>If he wanted to keep 'em after he was dead, a wicked old screw, why wasn't he natural in
+       his life time?</p>
+     </sp>
+     <sp who="#L1410_F21">
+      <speaker>Mrs. M.</speaker>
+      <p>If he had been, he'd have had somebody to look after him when he was struck with death,
+       instead of lying, gasping out his last, alone there by himself—it's a judgment upon him! Open
+       that bundle, old Joe, and let me know the value of it.</p>
+     </sp>
+     <sp who="#L1410_M14">
+      <speaker>Sam.</speaker>
+      <p>Stop! I'll be served first, to spare your blushes, though we pretty well knew we were
+       helping ourselves, and no sin neither! <stage>(Gives trinkets to Joe.)</stage></p>
+     </sp>
+     <sp who="#L1410_M9">
+      <speaker>Joe.</speaker>
+      <p>Two seals, pencil case, brooch, sleeve buttons! <stage>(Chalking figures on wall.)</stage>
+       Five bob! Wouldn't give more, if you was to boil me! Who's next? <stage>(Mrs. Dibler offers
+        bundle which he examines.)</stage> There's your money! <stage>(Chalks on wall.)</stage> I
+       always give too much to ladies—it's my weakness, and so I ruin myself. If you asked for
+       another penny, and made it an open question, I'd repent of being so liberal, and knock off
+       half a-crown! <stage>(Examines Mrs. Mildew's bundle upon his knees.)</stage> What do you call
+       this? bed curtains? You don't mean to say you took 'em down, rings and all, with him lying
+       there?</p>
+     </sp>
+     <sp who="#L1410_F21">
+      <speaker>Mrs. M.</speaker>
+      <p>Yes. I do! Why not?</p>
+     </sp>
+     <pb n="26"/>
+     <sp who="#L1410_M9">
+      <speaker>Joe.</speaker>
+      <p>You were born to make your fortune, and you'll certainly do it! Blankets! his blankets?</p>
+     </sp>
+     <sp who="#L1410_F21">
+      <speaker>Mrs. M.</speaker>
+      <p>Whose else's? He won't take cold without 'em!</p>
+     </sp>
+     <sp who="#L1410_M9">
+      <speaker>Joe.</speaker>
+      <p>I hope he didn't die of anything catching!</p>
+     </sp>
+     <sp who="#L1410_F21">
+      <speaker>Mrs. M.</speaker>
+      <p>No, no! or I'd not have waited on such as he! There, Joe, that's the best shirt he
+       had—they'd ha' wasted it, but for me!</p>
+     </sp>
+     <sp who="#L1410_M9">
+      <speaker>Joe.</speaker>
+      <p>What do you call wasting it?</p>
+     </sp>
+     <sp who="#L1410_F21">
+      <speaker>Mrs. M.</speaker>
+      <p>Putting it on him to be buried, to be sure! Somebody was fool enough to do it, but I took
+       it off again! If calico ain't good enough for such a purpose, it ain't good enough for
+       anybody! It's quite as becoming to the body! He can't look uglier than he did in that
+       one!</p>
+     </sp>
+     <sp who="#L1410_M1">
+      <speaker>Scr.</speaker>
+      <p>I listen to their words in horror!</p>
+     </sp>
+     <sp who="#L1410_M9">
+      <speaker>Joe.</speaker>
+      <p>There is what I will give you! <stage>(Chalks on wall, then takes out a small bag, and
+        tells them out their money.)</stage></p>
+     </sp>
+     <sp who="#L1410_F21">
+      <speaker>Mrs. M.</speaker>
+      <p>Ha, ha! This is the end of it, you see—he frightened every one away from him when he was
+       alive, to profit us when he was dead—ha, ha, ha! <stage>(All laugh.)</stage></p>
+     </sp>
+     <sp who="#L1410_M1">
+      <speaker>Scr.</speaker>
+      <p><stage>(Shuddering.)</stage> Spirit, I see—I see! The case of this unhappy man might be my
+       own—my life tends that way now. Let us be gone. <stage>(The Spirit points onward. The Scene
+        changes.)</stage></p>
+     </sp>
+    </div>
+    <div type="scene" n="IV">
+     <head>SCENE IV.—<hi rend="italic">A chamber. Curtain drawn over recess. The Spirit points to
+       it—then approaches it, followed by Scrooge trembling. The curtain is withdrawn—a bed is
+       seen—a pale, light shows a figure, covered with a sheet upon it.</hi></head>
+     <sp who="#L1410_M1">
+      <speaker>Scr.</speaker>
+      <p><stage>(Recoiling in terror.)</stage> Ah! a bare uncurtained bed, and something there,
+       which, though dumb, announces itself in awful language! Yes, plundered and bereft, unwatched,
+       unwept, uncared for, is the body of this man! <stage>(The Spirit points
+        <pb n="27"/>towards the bed.)</stage> It points towards the face—the slightest movement of
+       my hand would instantly reveal it—I long yet dread to do it. Oh, could this man be raised up
+       and see himself! Avarice, hard dealing, griping cares! They have brought him to a rich end,
+       truly! He lays alone in a dark empty house, with not a man, woman, or a child, to say—"He was
+       kind to me—I will be kind to him!" Spirit, this is a fearful place! in leaving it, I shall
+       not leave its lesson. Let us hence. If there is any person in the town who feels emotion
+       caused by this man's death, show that person to me, I beseech you. <stage>(As he speaks the
+        Scene changes.)</stage></p>
+     </sp>
+    </div>
+    <div type="scene" n="V">
+     <head>SCENE V.—<hi rend="italic">A chamber. Scrooge and Spirit on L. H.</hi></head>
+     <stage>Enter Ellen, R. H., second dress, followed by Euston, L. H.</stage>
+     <sp who="#L1410_F18">
+      <speaker>Ellen.</speaker>
+      <p>What news my love—is it good or bad?</p>
+     </sp>
+     <sp who="#L1410_M7">
+      <speaker>Eus.</speaker>
+      <p>Bad!</p>
+     </sp>
+     <sp who="#L1410_F18">
+      <speaker>Ellen.</speaker>
+      <p>We are quite ruined!</p>
+     </sp>
+     <sp who="#L1410_M7">
+      <speaker>Eus.</speaker>
+      <p>No! there is hope yet, Ellen!</p>
+     </sp>
+     <sp who="#L1410_F18">
+      <speaker>Ellen.</speaker>
+      <p>If he relents, there is—nothing is past hope if such a miracle has happened.</p>
+     </sp>
+     <sp who="#L1410_M7">
+      <speaker>Eus.</speaker>
+      <p>He is past relenting! He is dead!</p>
+     </sp>
+     <sp who="#L1410_F18">
+      <speaker>Ellen.</speaker>
+      <p>Dead! It is a crime but heaven forgive me, I almost feel thankful for it!</p>
+     </sp>
+     <sp who="#L1410_M7">
+      <speaker>Eus.</speaker>
+      <p>What the half drunken-woman told me last night, when I tried to see him and obtain a week's
+       delay, and which I thought a mere excuse to avoid me, was true,—he was not only ill, but
+       dying then!</p>
+     </sp>
+     <sp who="#L1410_F18">
+      <speaker>Ellen.</speaker>
+      <p>To whom will our debt be transferred!</p>
+     </sp>
+     <sp who="#L1410_M7">
+      <speaker>Eus.</speaker>
+      <p>I don't know, but before that time we shall be ready with the money, and were we not, we
+       can hardly find so merciless a creditor in his successor. We may sleep to-night with light
+       hearts, Ellen. Come! <stage>(Exeunt R. H.)</stage></p>
+     </sp>
+     <sp who="#L1410_M1">
+      <speaker>Scr.</speaker>
+      <p>This is terrible! Let me see some tenderness connected with a death in that dark chamber,
+       <pb n="28"/>which we left just now, Spirit—it will be for ever present to me. <stage>(Spirit
+        points onward and slowly exits followed by Scrooge.)</stage></p>
+     </sp>
+    </div>
+    <div type="scene" n="VI">
+     <head>SCENE VI.—Apartment at Bob Cratchit's.</head>
+     <stage>(Mrs. Cratchit, Peter, and the two younger Cratchit's discovered. Candle lighted. The
+      Spirit enters, followed by Scrooge.)</stage>
+     <sp who="#L1410_M1">
+      <speaker>Scr.</speaker>
+      <p>As through the old familiar streets we passed, I looked in vain to find myself, but nowhere
+       was I to be seen.</p>
+     </sp>
+     <sp who="#L1410_F19">
+      <speaker>Mrs. C.</speaker>
+      <p><stage>(Laying down her work. Mourning.)</stage> The colour hurts my eyes, and I wouldn't
+       show weak eyes to your father. It must be near his time—he walks slower than he used, and yet
+       I've known him walk, with Tiny Tim upon his shoulder, very fast indeed—but he was very light
+       to carry, and his father loved him, so that it was no trouble—no trouble——</p>
+     </sp>
+     <stage>Enter Bob, L. H. Mrs. C. advances to meet him—the Children crowd around him.</stage>
+     <sp who="#L1410_M5">
+      <speaker>Bob.</speaker>
+      <p>There, wife, I've returned at last. Come, you have been industrious in my absence—the
+       things will be ready before Sunday.</p>
+     </sp>
+     <sp who="#L1410_F19">
+      <speaker>Mrs. C.</speaker>
+      <p>Sunday! You went to-day, then?</p>
+     </sp>
+     <sp who="#L1410_M5">
+      <speaker>Bob.</speaker>
+      <p>Yes, my dear! I wish you could have gone—it would have done you good to see how green a
+       place it is. But you'll see it often—I promised him I would walk there of a Sunday—my
+       little—little child—<stage>(With much emotion.)</stage></p>
+     </sp>
+     <sp who="#L1410_F19">
+      <speaker>Mrs. C.</speaker>
+      <p>Don't fret!</p>
+     </sp>
+     <sp who="#L1410_M5">
+      <speaker>Bob.</speaker>
+      <p>Fret! I met Mr. Scrooge's nephew just now, who, seeing that I looked a little down, asked
+       me what had happened. Ah, he's the pleasantest spoken gentleman you ever heard—he told me he
+       was sorry for me and for my good wife—but how he knew <emph>that</emph> I don't know!</p>
+     </sp>
+     <sp who="#L1410_F19">
+      <speaker>Mrs. C.</speaker>
+      <p>Knew what?</p>
+     </sp>
+     <pb n="29"/>
+     <sp who="#L1410_M5">
+      <speaker>Bob.</speaker>
+      <p>Why, that you were a good wife! and he was so kind—it was quite delightful! He said he'd
+       get Peter a better situation—and, mark me, whenever we part from one another, I am sure we
+       shall none of us forget poor Tiny Tim, shall we, or this first parting that was among us?</p>
+     </sp>
+     <sp who="#L1410_mult">
+      <speaker>Omnes.</speaker>
+      <p>Never! never! <stage>(The Children crowd around their Parents, who kiss them tenderly. A
+        medium descends and hides the group.)</stage></p>
+     </sp>
+     <sp who="#L1410_M1">
+      <speaker>Scr.</speaker>
+      <p>Spectre, something informs me that our parting moment is at hand—tell me, ere you quit me,
+       what man that was whom we saw lying dead? <stage>(The Spirit points onward slowly traverses
+        the stage.)</stage> Still he beckons me onward—there seems no order in these latter visions,
+       save they are in the future. Through yonder gloom I can see my own dwelling—let me behold
+       what I shall be in days to come—the house is yonder—why do you point away? Ah! that house is
+       no longer mine—another occupies it. Ah! why is this? <stage>(The medium is worked off, and
+        discovers.)</stage></p>
+     </sp>
+    </div>
+    <div type="scene" n="VII">
+     <head>SCENE VII.—<hi rend="italic">A Churchyard. On slab centre, is engraved "Ebenezer
+       Scrooge."</hi></head>
+     <sp who="#L1410_M1">
+      <speaker>Scr.</speaker>
+      <p>A churchyard! Here, then, the wretched man who's name I have now to learn, lays underneath
+       the ground! <stage>(The Spirit points to centre slab. Scrooge advances, trembling, towards
+        it.)</stage> Before I draw nearer to the stone to which you point, answer me one question.
+       Are these the things of the shadows that will be, or are they the shadows of the things that
+       may be only? <stage>(The Spirit still points downward to the grave.)</stage> Men's courses
+       will foreshadow certain ends, to which, if persevered in they must lead—but if the courses be
+       departed from the ends will change—say is it thus with what you show me? Still as immovable
+       as ever! <stage>(Draws nearer to grave.)</stage> "Ebenezer Scrooge!" My own
+       <pb n="30"/>name! <stage>(Sinks on his knees.)</stage> Am I that man who lay upon the bed?
+        <stage>(The Spirit points from the grave to him, and back again.)</stage> No, Spirit! Oh,
+       no, no! <stage>(See PLATE, page 150. The Figure remains immovable.)</stage> Spirit!
+        <stage>(Clutching its robe.)</stage> Hear me! I am not the man I was—I will not be the man I
+       must have been but for this intercourse! why show me this if I am past all hope? <stage>(The
+        hand trembles. Scrooge sinks on his knees.)</stage> Good Spirit, your nature intercedes for
+       me—assure me that I yet may change these shadows you have shown me, by an altered life!
+        <stage>(The hand trembles still.)</stage> I will honour Christmas in my heart, and try to
+       keep it all the year—I will live the past, the present, and the future—the spirits of all
+       three shall strive within me—I will not shut out the lessons that they teach—oh tell me I may
+       sponge away the writing on this stone! <stage>(In his agony he catches the Spectre's hand—it
+        seeks to free itself—his struggles become stronger in his despair—the Spirit repulses him—he
+        sinks prostrate to the earth—the Spirit disappears, as the medium is worked on. Clouds roll
+        over the stage—they are worked off, and discovers.)</stage></p>
+     </sp>
+    </div>
+    <div type="scene" n="VIII">
+     <head>SCENE VIII.—Scrooge's Chamber. </head>
+     <stage>Same as Scene I, Act I. It is broad day—the fire is nearly extinguished—the candle
+      nearly burnt down to the socket. The stage arrangement in other respects, precisely the same
+      as at end of Scene I, Act I.</stage>
+     <stage>Scrooge discovered, sleeping in his chair. He appears restless and uneasy, then starts
+      up, exclaiming.</stage>
+     <sp who="#L1410_M1">
+      <speaker>Scr.</speaker>
+      <p>Pity me! I will not be the man I have been! Oh, no, no! <stage>(Pauses, and looks around
+        him.)</stage> Ah! here! Could it all have been a dream! A dream—ha, ha, ha! A dream! Yes!
+       this table's my own—this chair's my own—this room's my own—and happier still, the time before
+       me is my own to make amends in! I will live the past, the present, and the
+       <pb n="31"/>future! Heaven and the Christmas time be praised for this! I say it on my
+       knees—on my knees! My cheek is wet with tears, but they are tears of penitence!
+        <stage>(Busies himself in pulling on his coat, throwing off his cap, etc., and speaking all
+        the time.)</stage> I don't know what to do—I'm as light as a feather—I'm as happy as an
+       angel—I'm as merry as a school-boy—I'm as giddy as a drunken man! A merry Christmas to every
+       body—a happy new year to all the world! Hallo, there! Whoop! Hallo! there's the jug that my
+       gruel was in—there's the door where the ghost of Jacob Marley entered. It's all right—it's
+       all true—it all happened—ha, ha, ha! I don't know what day of the month it is—I don't know
+       how long I've been among the spirits—I don't know anything—I'm quite a baby—never mind, I
+       don't care—I'd rather be a baby! Hallo! Whoop! Hallo, here! <stage>(Runs to window—opens
+        it.)</stage> Here, you boy! what's to-day?</p>
+     </sp>
+     <sp who="#L1410_J22">
+      <speaker>Boy.</speaker>
+      <p><stage>(Without.)</stage> Why, Christmas Day!</p>
+     </sp>
+     <sp who="#L1410_M1">
+      <speaker>Scr.</speaker>
+      <p>Ah! I haven't missed it! Glorious! I say—go to the poulterer's round the corner, and buy
+       the prize turkey for me!</p>
+     </sp>
+     <sp who="#L1410_J22">
+      <speaker>Boy.</speaker>
+      <p><stage>(Without.)</stage> Wal-ker!</p>
+     </sp>
+     <sp who="#L1410_M1">
+      <speaker>Scr.</speaker>
+      <p>Tell 'em to send it, and I'll give you half a crown. He's off like a shot! I'll send it to
+       Bob Cratchit's. How astonished he'll be. <stage>(Coming down.)</stage> I'll write a cheque
+       for that society that they called on me about yesterday. Oh, I'll make every one happy, and
+       myself, too! <stage>(Knocks heard without.)</stage> That must be the turkey! <stage>(Opens
+        door.)</stage> As I live, it's Bob Cratchit!</p>
+     </sp>
+     <stage>Enter Bob Cratchit, 2 E. L. H.</stage>
+     <sp who="#L1410_M5">
+      <speaker>Bob.</speaker>
+      <p>Excuse my calling, sir, but the fact is, I couldn't help it. That worthy gentleman, your
+       nephew, is ruined. I said, ruined, sir——</p>
+     </sp>
+     <sp who="#L1410_M1">
+      <speaker>Scr.</speaker>
+      <p>I'm glad of it!</p>
+     </sp>
+     <sp who="#L1410_M5">
+      <speaker>Bob.</speaker>
+      <p>Glad of it! There's an unnatural cannibal!</p>
+     </sp>
+     <stage>Enter Frank, 2 E. L. H.</stage>
+     <pb n="32"/>
+     <sp who="#L1410_M2">
+      <speaker>Frank.</speaker>
+      <p>Oh uncle, you know all! I come not to ask your assistance—that would be madness—but I come
+       to bid you farewell. In three days' time, with my unfortunate family, I shall quit
+       England.</p>
+     </sp>
+     <sp who="#L1410_M1">
+      <speaker>Scr.</speaker>
+      <p>No, you shan't. You shall stay where you are!</p>
+     </sp>
+     <sp who="#L1410_M2">
+      <speaker>Frank.</speaker>
+      <p>You mock me!</p>
+     </sp>
+     <sp who="#L1410_M1">
+      <speaker>Scr.</speaker>
+      <p>I say you shall stay where you are! <stage>(Writes at table.)</stage> There's a cheque for
+       present use—to-morrow I will see how I can make up your losses, and at my death you shall
+       inherit all my wealth—but I don't mean to die yet, you dog!</p>
+     </sp>
+     <sp who="#L1410_M2">
+      <speaker>Frank.</speaker>
+      <p>This generosity——</p>
+     </sp>
+     <sp who="#L1410_M1">
+      <speaker>Scr.</speaker>
+      <p>No thanks. I'll dine with you to-day, Frank—and as for you, Bob, Tiny Tim shall be my care,
+       and your salary's trebled from this hour.</p>
+     </sp>
+     <sp who="#L1410_M5">
+      <speaker>Bob.</speaker>
+      <p>Oh, this can't be my master! Oh, I'm quite sure it must be somebody else. Yes—it is him,
+       too! He must have gone mad! I've a great mind to knock him down with the ruler, and get Mr.
+       Frank to help me to fit him on a strait waistcoat! Well, I never!</p>
+     </sp>
+     <sp who="#L1410_M1">
+      <speaker>Scr.</speaker>
+      <p>A merry Christmas, Frank—a merry Christmas, Bob—and it <emph>shall</emph> be a merry one. I
+       have awoke a better man than I fell asleep. So may it be with all of us! Oh, may my day
+       dreams prove as happy as my night ones? <stage>(As he speaks, the gauze medium is lit up
+        behind, and the Ghost of Christmas Past, the Ghost of Christmas Present, and the Ghost of
+        Christmas to Come, with the other characters in the Miser's dream, are seen in separate
+        groups.)</stage> Their remembrance haunts me still. Oh, my friends—forgive but my past, you
+       will make happy my present, and inspire me with hope for the future!</p>
+     </sp>
+    </div>
+   </div>
+  </body>
+ </text>
 </TEI>
