@@ -1,0 +1,4601 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="ODD/out/lacy.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="ODD/out/lacy.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L0459">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title>ROBERT THE DEVIL TEI edition</title>
+    <author>M. Rophino Lacy</author>
+    <respStmt>
+     <resp>TEI conversion</resp>
+     <name>Lou Burnard</name>
+    </respStmt>
+   </titleStmt>
+   <publicationStmt>
+    <distributor>Privately distributed by the Digital Lacy Project</distributor>
+    <idno type="LAE">L0459</idno>
+    <availability>
+     <licence target="https://creativecommons.org/publicdomain/zero/1.0/">The Lacy Project waives
+      all rights to the TEI encoding applied to this material, which is believed to be in the public
+      domain. You may copy, modify, distribute and perform this work freely. </licence>
+    </availability>
+   </publicationStmt>
+   <sourceDesc>
+    <bibl type="origin" n="31.9">
+     <author>Lacy, Michael Rophino</author>
+     <title type="main" n="robertthedevildukeofn...">Robert the Devil; or, The Fiend-Father</title>
+     <title type="sub">A Grand Romantic Opera in three acts</title>
+     <title type="music">The Music by Meyerbeer. Written and Adapted to the English stage</title>
+     <extent>64 pp (UM copy: 336 - 400)<measure type="pp" quantity="54"/>
+      <measure type="spCount" quantity="673"/>
+      <measure type="spvCount" quantity="224"/>
+      <measure type="txWords" quantity="15346"/>
+      <measure type="spWords" quantity="11395"/>
+      <measure type="stWords" quantity="3951"/>
+     </extent>
+     <title level="s"> Lacy's Acting Edition, volume 31, No. 0459</title>
+     <idno type="nic">N02128</idno>
+    </bibl>
+    <bibl type="surrogate" subtype="copytext">
+     <ref target="https://hdl.handle.net/2027/hvd.32044089038228">HVD from HT</ref>
+     <ref target="local:Vol31/L0459/L0459-hvd.pdf"/>
+    </bibl>
+    <bibl type="surrogate">
+     <ref target="https://babel.hathitrust.org/cgi/pt?id=mdp.39015067453301&amp;seq=336 ">UM from
+      HT</ref>
+     <ref target="local:Vol31/L0459/L0459-um.pdf"/>
+    </bibl>
+    <listEvent>
+     <event type="firstPerf" when="1832-02-21" source="text" where="Covent">
+      <desc>Premiered at Theatre Royal, Covent Garden 21 Feb. 1832; Nicoll date 1830-02-02</desc>
+     </event>
+    </listEvent>
+   </sourceDesc>
+  </fileDesc>
+  <profileDesc>
+   <!--L 3 OperaMusic M.D. MELODRAMA-->
+   <textClass>
+    <catRef target="#sizeL"/>
+    <catRef target="#act3"/>
+    <catRef target="nic:M.D."/>
+    <keywords>
+     <term>MELODRAMA</term>
+    </keywords>
+   </textClass>
+   <particDesc>
+    <listPerson>
+     <person xml:id="L0459_M1">
+      <persName type="role">Robert, Duke of Normandy</persName>
+      <persName type="spkr" n="150">Robert.</persName>
+     </person>
+     <person xml:id="L0459_M2">
+      <persName type="role">Bertram</persName>
+      <persName type="spkr" n="139">Bertram.</persName>
+     </person>
+     <person xml:id="L0459_M3">
+      <persName type="role">King of Sicily</persName>
+      <persName type="spkr" n="8">King.</persName>
+     </person>
+     <person xml:id="L0459_M4">
+      <persName type="role">Arnaud</persName>
+      <persName type="spkr" n="115">Arnaud.</persName>
+     </person>
+     <person xml:id="L0459_M5">
+      <persName type="role">Alberti</persName>
+      <persName type="spkr" n="5">Alberti.</persName>
+     </person>
+     <person xml:id="L0459_M6">
+      <persName type="role">Bruno</persName>
+      <persName type="spkr" n="6">Bruno.</persName>
+     </person>
+     <person xml:id="L0459_M7">
+      <persName type="role">Alan</persName>
+      <persName type="spkr" n="2">Alan.</persName>
+     </person>
+     <person xml:id="L0459_M8">
+      <persName type="role">Scribe</persName>
+     </person>
+     <person xml:id="L0459_M9">
+      <persName type="role">Astoroth</persName>
+      <persName type="spkr" n="13">Ast.</persName>
+     </person>
+     <person xml:id="L0459_M10">
+      <persName type="role">Demon Herald.</persName>
+      <persName type="spkr" n="4">Demon.</persName>
+     </person>
+     <person xml:id="L0459_M11">
+      <persName type="role">Royal Herald at Arms</persName>
+      <persName type="spkr" n="1">Herald.</persName>
+     </person>
+     <person xml:id="L0459_M12">
+      <persName type="role">Major Domo of the Palace</persName>
+      <persName type="spkr" n="1">Major-D.</persName>
+     </person>
+     <person xml:id="L0459_M13">
+      <persName type="role">High Priest</persName>
+     </person>
+     <person xml:id="L0459_M14">
+      <persName type="role">Knights, Squires, Pages, Cup bearers, Men at Arms, &amp;c.,
+       &amp;c.</persName>
+      <persName type="spkr" n="25">Knights.</persName>
+      <persName type="spkr" n="1">A Voice.</persName>
+     </person>
+     <person xml:id="L0459_F15">
+      <persName type="role">Isabel</persName>
+      <persName type="spkr" n="41">Isabel.</persName>
+     </person>
+     <person xml:id="L0459_F16">
+      <persName type="role">Alice</persName>
+      <persName type="spkr" n="115">Alice.</persName>
+     </person>
+     <person xml:id="L0459_F17">
+      <persName type="role">Helena</persName>
+     </person>
+     <person xml:id="L0459_F18">
+      <persName type="role">Phantom Nuns, Peasants, Ladies of the Court, Maids of Honour,
+       &amp;c.</persName>
+      <persName type="spkr" n="1">Peasant Girl.</persName>
+      <persName type="spkr" n="1">Peasant Girls.</persName>
+     </person>
+     <person xml:id="L0459_mult">
+      <persName type="role">[Multiple speakers]</persName>
+      <persName type="spkr" n="1">Alberti &amp; Knights.</persName>
+      <persName type="spkr" n="3">Demons.</persName>
+      <persName type="spkr" n="1">Alice, Bertram, Robert.</persName>
+      <persName type="spkr" n="4">All.</persName>
+      <persName type="spkr" n="1">Arnaud &amp; Bertram.</persName>
+      <persName type="spkr" n="1">CHORUS.</persName>
+      <persName type="spkr" n="3">Chorus of Knights.</persName>
+      <persName type="spkr" n="1">Chorus of People.</persName>
+      <persName type="spkr" n="1">Full Chorus.</persName>
+      <persName type="spkr" n="2">Isabel &amp; Alice.</persName>
+      <persName type="spkr" n="1">Isabel and Alice.</persName>
+      <persName type="spkr" n="3">King &amp; Knights.</persName>
+      <persName type="spkr" n="1">King and Knights.</persName>
+      <persName type="spkr" n="1">Robert &amp; Bertram.</persName>
+      <persName type="spkr" n="1">Robert and Knights.</persName>
+      <persName type="spkr" n="1">Together.</persName>
+      <persName type="spkr" n="2">Voices.</persName>
+     </person>
+    </listPerson>
+   </particDesc>
+  </profileDesc>
+  <revisionDesc>
+   <change when="2026-01-27">Standardize header components</change>
+   <change when="2026-01-25">TEI autotagging by Gemini Pro 2.5</change>
+  </revisionDesc>
+ </teiHeader>
+ <text>
+  <front>
+   <titlePage>
+    <docTitle>
+     <titlePart type="main">ROBERT THE DEVIL</titlePart>
+     <titlePart type="sub">OR THE FIEND-FATHER.</titlePart>
+     <titlePart type="sub">A GRAND ROMANTIC OPERA IN THREE ACTS.</titlePart>
+    </docTitle>
+    <byline>The Music By <docAuthor>Meyerbeer</docAuthor>.</byline>
+    <byline>Written and Adapted To the English Stage By <docAuthor>M. Rophino Lacy</docAuthor>,
+     author of <title>Cinderella - </title><title>The Maid of Judah - </title><title>Fra Diavolo
+      </title><title>The Turk in Italy Love and Reason- </title><title>Love in Wrinkles —
+      </title><title>The Two Friends -- </title><title>Napoleon — </title><title>The Israelites in
+      Egypt - </title><title>Jephtha's Vow </title><title>The Blind Girl </title>&amp;c.,
+     &amp;c.</byline>
+    <docImprint>Thomas Hailes Lacy, 89 Strand, (Opposite Southampton Street, Covent Garden Market.)
+     London.</docImprint>
+   </titlePage>
+   <pb n="2"/>
+   <performance>
+    <head>Robert the Devil or the Fiend-Father</head>
+    <p>First performed at the Theatre Royal, Covent Garden, On Tuesday, February 21st, 1832.</p>
+
+    <castList>
+     <head>Characters</head>
+     <castItem>
+      <role gender="M">Robert, Duke of Normandy</role>
+      <roleDesc>surnamed the Devil</roleDesc>
+      <actor>Mr. Braham.</actor>
+     </castItem>
+     <castItem>
+      <role gender="M">Bertram</role>
+      <roleDesc>the Fiend-Father</roleDesc>
+      <actor>Mr. Reynoldson.</actor>
+     </castItem>
+     <castItem>
+      <role gender="M">King of Sicily</role>
+      <actor>Mr. Diddear.</actor>
+     </castItem>
+     <castItem>
+      <role gender="M">Arnaud</role>
+      <roleDesc>a Norman Minstrel</roleDesc>
+      <actor>Mr. Keeley.</actor>
+     </castItem>
+     <castGroup>
+      <roleDesc>Sicilian Knights</roleDesc>
+      <castItem>
+       <role gender="M">Alberti</role>
+       <actor>Mr. Durnset.</actor>
+      </castItem>
+      <castItem>
+       <role gender="M">Bruno</role>
+       <actor>Mr. Henry.</actor>
+      </castItem>
+     </castGroup>
+     <castItem>
+      <role gender="M">Alan</role>
+      <roleDesc>Duke Robert's squire</roleDesc>
+      <actor>Mr. Holl.</actor>
+     </castItem>
+     <castItem>
+      <role gender="M">Scribe</role>
+      <roleDesc>to Duke Robert</roleDesc>
+      <actor>Mr. W. Payne.</actor>
+     </castItem>
+     <castItem>
+      <role gender="M">Astoroth</role>
+      <roleDesc>, Spirit of Fire and Prince of Grenada</roleDesc>
+      <actor>Mr. Irwin.</actor>
+     </castItem>
+     <castItem>
+      <role gender="M">Demon Herald.</role>
+     </castItem>
+     <castItem>
+      <role gender="M">Royal Herald at Arms</role>
+     </castItem>
+     <castItem>
+      <role gender="M">Major Domo of the Palace</role>
+     </castItem>
+     <castItem>
+      <role gender="M">High Priest</role>
+      <actor>Mr. Morley.</actor>
+     </castItem>
+     <castItem type="list">
+      <role>Knights, Squires, Pages, Cup bearers, Men at Arms, &amp;c., &amp;c.</role>
+     </castItem>
+     <castItem>
+      <role gender="F">Isabel</role>
+      <roleDesc>Princess of Sicily</roleDesc>
+      <actor>Miss Shirreff.</actor>
+     </castItem>
+     <castItem>
+      <role gender="F">Alice</role>
+      <roleDesc>affianced to Arnaud</roleDesc>
+      <actor>Miss Inverarity.</actor>
+     </castItem>
+     <castItem>
+      <role gender="F">Helena</role>
+      <roleDesc>the Phantom Abbess of St. Rosalie</roleDesc>
+      <actor>Mrs. Vedy.</actor>
+     </castItem>
+     <castItem type="list">
+      <role>Phantom Nuns, Peasants, Ladies of the Court, Maids of Honour, &amp;c.</role>
+     </castItem>
+    </castList>
+   </performance>
+   <set>
+    <p>SCENE.—Palermo and its Environs.</p>
+   </set>
+   <div type="costume">
+    <head>COSTUMES.</head>
+    <list type="costumes">
+     <item><label>Robert.</label> Crimson surcoat trimmed with silver, ring armour legs and arms,
+      cap and white feathers; spurs, gold chain, waist belt, and sword.</item>
+     <item><label>Bertram.</label> Black surcoat trimmed with gold, black ring armour, black cap and
+      feathers.</item>
+     <item><label>King.</label> Long embroidered yellow shirt, with purple robe and crown.</item>
+     <item><label>Arnaud.</label> Yellow shirt, dark tights, and ancle boots; cloak, and round
+      cap.</item>
+     <item><label>Knights.</label> Suits of mail and surcoats.</item>
+     <item><label>Scribe.</label> Grey shirt, dark tights, and buff shoes.</item>
+     <item><label>Alan.</label> Armour arms and legs, red surcoat, red cap.</item>
+     <item><label>Astoroth.</label> Red close fitting dress and robes; 2nd—Complete mail.</item>
+     <item><label>Heralds.</label> Tabards and truncheons.</item>
+     <item><label>High Priest.</label> White robes with scarlet stole.</item>
+     <item><label>Isabel.</label> Scarlet merino tunic over white skirt and sleeves, embroidered
+      with gold and silver; long hair, embroidered veil.</item>
+     <item><label>Alice.</label> Grey tunic over yellow body and skirt, mantle and hood.</item>
+     <item><label>Nuns.</label> Dark dresses and black veils; 2nd—Short ballet dresses and
+      wreaths.</item>
+    </list>
+   </div>
+  </front>
+  <pb n="3"/>
+  <note>The Vocal Pianoforte Score of the Music tallying with this version is expressly arranged for
+   it. (Enquire of the Publisher.)</note>
+  <note>Coloured Sketches of the Costumes and Scenery in this Opera may be had of the
+   Publisher.</note>
+
+  <body>
+   <div type="act">
+    <head>ACT I.</head>
+    <div type="scene">
+     <head>SCENE I.</head>
+     <stage>—The Bay of Palermo, with the City on the opposite shore. On the R. U. E. is a large
+      tent guarded by two Sentinels. On the L. 2 E. stands another tent. Numerous Knights, with
+      Pages and Attendants serving them, are discovered drinking at separate tables, and of the
+      roughest kind, placed R. Towards L., stands a table covered with a rich cloth, and by it are
+      two gilt arm chairs. After a few bars of the Introductory Chorus, Robert of Normandy, and the
+      Knight Bertram enter from the tent, L., with several Pages and Attendants, and take their
+      places at the table L.</stage>
+     <spGrp>
+      <head>INTRODUCTORY BACCHANALIAN CHORUS OF KNIGHTS.</head>
+      <sp who="#">
+
+       <l>With wine, and jest, and gladness,</l>
+       <l>We'll crown this happy day;</l>
+       <l>While ev'ry thought of sadness</l>
+       <l>We banish far away.</l>
+       <l>Fill up</l>
+       <l>The cup!</l>
+       <l>Fill high to overflowing!</l>
+       <l>The heart</l>
+       <l>To cheer,</l>
+       <l>Pour forth the juice divine!</l>
+       <l>The sword</l>
+       <l>And spear</l>
+       <l>Awhile aside now throwing,</l>
+       <pb n="4"/>
+       <l>We'll quaff,</l>
+       <l>And laugh,</l>
+       <l>And drain the sparkling wine.</l>
+      </sp>
+      <sp who="#L0459_mult">
+       <speaker>Robert &amp; Bertram.</speaker>
+       <lg>
+        <l>Yes, we'll drain the sparkling wine.</l>
+       </lg>
+      </sp>
+      <sp who="#L0459_M1">
+       <speaker>Robert.</speaker>
+       <stage>(rising.)</stage>
+       <lg>
+        <l>Illustrious knights of fame,</l>
+        <l>Your friendship thus I claim!</l>
+        <l>To your glory and praise</l>
+        <l>High this wine cup I raise.</l>
+       </lg>
+      </sp>
+      <sp who="#L0459_M14">
+       <speaker>Knights.</speaker>
+       <stage>(rising also.)</stage>
+       <l>Our heart, brave knight,</l>
+       <l>Your courtesy repays.</l>
+       <stage>(resuming Chorus.)</stage>
+       <l>Fill up</l>
+       <l>The cup! &amp;c.</l>
+       <l>To joy still e'er inclining,</l>
+       <l>We hail each new delight;</l>
+       <l>Our hearts still e'er resigning</l>
+       <l>To wine and beauty bright.</l>
+      </sp>
+     </spGrp>
+     <sp who="#L0459_M5">
+      <speaker>Alberti.</speaker>
+      <stage>(advancing L. with Bruno.)</stage>
+      <p>Hark thee, Bruno; a word in thine ear.</p>
+     </sp>
+     <sp who="#L0459_M6">
+      <speaker>Bruno.</speaker>
+      <p>What is't, Alberti?</p>
+     </sp>
+     <sp who="#L0459_M5">
+      <speaker>Alberti.</speaker>
+      <p>What think'st thou of this foreign knight who has pitched his tent right close to ours? By
+       my troth, his wealth must be enormous! Hast thou noticed his numerous train, his army of
+       squires, pages, and attendants?</p>
+     </sp>
+     <sp who="#L0459_M6">
+      <speaker>Bruno.</speaker>
+      <p>He has a noble presence, and his armour is magnificent.</p>
+     </sp>
+     <sp who="#L0459_M5">
+      <speaker>Alberti.</speaker>
+      <p>But can'st tell who he be? and what brings him here to Sicily?</p>
+     </sp>
+     <sp who="#L0459_M6">
+      <speaker>Bruno.</speaker>
+      <p>He comes, no doubt, like to ourselves, to break a lance at the tournament given by the king
+       of Sicily; and the rich prize of which is to be the fair Isabel, his daughter. There be
+       knights from all parts of Christendom.</p>
+     </sp>
+     <sp who="#L0459_M5">
+      <speaker>Alberti.</speaker>
+      <p>True! but they are known, whilst this stranger— have you even heard his name?</p>
+     </sp>
+     <sp who="#L0459_M6">
+      <speaker>Bruno.</speaker>
+      <p>No; he comes from Normandy—'tis all I've learnt.</p>
+     </sp>
+     <sp who="#L0459_M5">
+      <speaker>Alberti.</speaker>
+      <p>And his black-looking companion, there?</p>
+     </sp>
+     <sp who="#L0459_M6">
+      <speaker>Bruno.</speaker>
+      <p>Oh, he bears too ill a countenance for me to court his acquaintance.</p>
+      <stage>(they retire to the table.)</stage>
+     </sp>
+     <sp who="#L0459_M1">
+      <speaker>Robert.</speaker>
+      <stage>(to Bertram.)</stage>
+      <p>How now, Bertram—thy wine languishes in the cup. What ho! <stage>(to Cup-Bearers.)</stage>
+       Fill again! Illustrious cavaliers, what shall be our toast?</p>
+     </sp>
+     <sp who="#L0459_M6">
+      <speaker>Bruno.</speaker>
+      <stage>(raising high a cup.)</stage>
+      <p>“To the conqueror in this day's tourney!”</p>
+     </sp>
+     <sp who="#L0459_mult">
+      <speaker>All.</speaker>
+      <p>A pledge! Hurrah!</p>
+     </sp>
+     <pb n="5"/>
+     <spGrp>
+      <head>MARTIAL SONG.—Robert.</head>
+      <sp who="#L0459_M1">
+       <speaker>Robert.</speaker>
+       <l>The tourney begins! Behold the knight advancing!</l>
+       <l>Arm'd <hi>cap-à-pie</hi> he enters the field;</l>
+       <l>Proudly array'd his eager steed is prancing,</l>
+       <l>While firmly he grasps his lance and his shield.</l>
+       <l>The trumpet rings loud! The barriers wide-extending,</l>
+       <l>Onward he spurs with fierce and deadly aim;</l>
+       <l>His foe bites the dust; while, to the skies ascending,</l>
+       <l>Loud shouts around the victor proclaim.</l>
+      </sp>
+      <sp who="#L0459_mult">
+       <speaker>Chorus of Knights.</speaker>
+       <l>His foe, &amp;c.,</l>
+      </sp>
+      <sp who="#">
+       <l>What is the meed for knightly valour meetest,</l>
+       <l>When conquered foes in chains are bound?</l>
+       <l>What is the meed to warrior's heart the sweetest,</l>
+       <l>When with the wreath of victory he's crown'd?</l>
+       <l>Glory and love are fairest in his eyes!</l>
+       <l>Sordid desires his bosom ne'er defile;</l>
+       <l>And still he deems his proudest prize</l>
+       <l>The guerdon of fame, and beauty's smile!</l>
+      </sp>
+      <sp who="#L0459_mult">
+       <speaker>Chorus of Knights.</speaker>
+       <lg>
+        <l>And still, &amp;c.</l>
+       </lg>
+      </sp>
+     </spGrp>
+     <stage>Enter Alan down descent from R., preceding Arnaud.</stage>
+     <sp who="#L0459_M7">
+      <speaker>Alan.</speaker>
+      <stage>(respectfully to Robert, who has reseated himself at table, L.)</stage>
+      <p>Most gracious lord, I bring before you a joyous minstrel, whom we have just stopped,
+       thinking he might contribute to your entertainment. He says he has just arrived from
+       France.</p>
+     </sp>
+     <sp who="#L0459_M1">
+      <speaker>Robert.</speaker>
+      <p>Ay? From what part?</p>
+     </sp>
+     <sp who="#L0459_M7">
+      <speaker>Alan.</speaker>
+      <p>From Normandy.</p>
+     </sp>
+     <sp who="#L0459_M1">
+      <speaker>Robert.</speaker>
+      <stage>(with lively emotion.)</stage>
+      <p>From Normandy?</p>
+     </sp>
+     <sp who="#L0459_M2">
+      <speaker>Bertram.</speaker>
+      <stage>(in a low voice to Robert, across the table.)</stage>
+      <p>From your ungrateful country.</p>
+     </sp>
+     <sp who="#L0459_M1">
+      <speaker>Robert.</speaker>
+      <stage>(rising and addressing Arnaud.)</stage>
+      <p>Come forward, varlet! Thou hast the skill of minstrelsy? Is it so?</p>
+     </sp>
+     <sp who="#L0459_M4">
+      <speaker>Arnaud.</speaker>
+      <p>Why, truly, mighty sir, I can't deny my skill; and what's more, I care not to keep it to
+       myself.</p>
+     </sp>
+     <sp who="#L0459_M1">
+      <speaker>Robert.</speaker>
+      <stage>(throwing him a purse.)</stage>
+      <p>Take this, and requite my largess with thy choicest legend.</p>
+     </sp>
+     <sp who="#L0459_M4">
+      <speaker>Arnaud.</speaker>
+      <p>Shall it be gay or pitiful? For I have many tales very gay, and many exceedingly pitiful.
+       Or shall it be terrible? A tale likely to make everybody wretched that listens to me; or
+       miraculous, or—</p>
+     </sp>
+     <sp who="#L0459_M1">
+      <speaker>Robert.</speaker>
+      <p>Pshaw! Any thou wilt, so thou'lt begin.</p>
+     </sp>
+     <sp who="#L0459_M4">
+      <speaker>Arnaud.</speaker>
+      <p>In truth, gentle knight, all my tales are so very good, that it be no easy matter to know
+       which of them to begin
+       <pb n="6"/> with. It will depend upon taste, and the humour of the listeners. But I will sing
+       you a right merry ditty which is a general favourite.</p>
+     </sp>
+     <spGrp>
+      <head>LEGENDARY BALLAD.—Arnaud.</head>
+      <sp who="#L0459_M4">
+       <speaker>Arnaud.</speaker>
+       <l>Long ago, as they tell,</l>
+       <l>Within a forest dell,</l>
+       <l>There liv'd, down in a well,</l>
+       <l>A nymph of beauty rare!</l>
+       <l>Of all beneath the skies,</l>
+       <l>She most of all did prize</l>
+       <l>A cat, with diamond eyes</l>
+       <l>That frightfully did glare!</l>
+       <l>This cat—</l>
+      </sp>
+     </spGrp>
+     <sp who="#L0459_M1">
+      <speaker>Robert.</speaker>
+      <stage>(after many signs of impatience.)</stage>
+      <p>A plague of thy cat, thou mewling idiot! No trifling, fool! know'st thou where thou art?
+       Hast thou no <hi>true </hi>story?</p>
+     </sp>
+     <sp who="#L0459_M4">
+      <speaker>Arnaud.</speaker>
+      <p>True? That's a slur upon my budget! Noble knight, all my stories are true stories, “Sir
+       Palamede and the the Fiery Dragon,” “The bear and the Brazen Tower,” but stay! there is one
+       tale more especially famous throughout all France, and of awful interest; nor more nor less
+       than “The true History of our young Duke of Normandy, surnamed Robert the Devil.”</p>
+     </sp>
+     <sp who="#L0459_M14">
+      <speaker>Knights.</speaker>
+      <p>Robert the devil?</p>
+     </sp>
+     <sp who="#L0459_M4">
+      <speaker>Arnaud.</speaker>
+      <p>Ay! Robert the Devil—that profligate limb of Lucifer who, for his evil doings, has been
+       chased away from his native land, no one caring what has become of him.</p>
+      <stage>(Robert draws his dagger, Bertram hastily stops his hand.</stage>
+     </sp>
+     <sp who="#L0459_M2">
+      <speaker>Bertram.</speaker>
+      <p>Be more prudent!</p>
+     </sp>
+     <sp who="#L0459_M1">
+      <speaker>Robert.</speaker>
+      <stage>(turning to Arnaud, with ill assumed indifference.)</stage>
+      <p>Let it be that; begin.</p>
+     </sp>
+     <sp who="#L0459_M4">
+      <speaker>Arnaud.</speaker>
+      <p>Ahem! be silent and pay attention; if ye be knights of taste, it be worth the hearing.</p>
+     </sp>
+     <spGrp>
+      <head>LEGENDARY BALLAD.—Arnaud.</head>
+      <sp who="#L0459_M4">
+       <speaker>Arnaud.</speaker>
+       <l>In Normandy there once did reign</l>
+       <l>A prince most noble and renown'd;</l>
+       <l>His daughter, Rosalie, proud and vain,</l>
+       <l>Upon all her suitors still frown'd;</l>
+       <l>When one day on a coal-black steed,</l>
+       <l>Came a knight from a far-distant land;</l>
+       <l>And she, so proud, with hapless speed,</l>
+       <l>On him bestow'd her heart and hand.</l>
+       <stage>(with a mysterious air.</stage>
+       <pb n="7"/>
+       <l>Fatal event! story of woe!</l>
+       <l>This stranger knight was, as they tell,—</l>
+      </sp>
+      <sp who="#L0459_M14">
+       <speaker>Knights.</speaker>
+       <stage>(with curiosity.)</stage>
+       <p>Well? as they tell—</p>
+      </sp>
+      <sp who="#L0459_M4">
+       <speaker>Arnaud.</speaker>
+       <l>One of the fall'n! of man the foe!</l>
+       <l>He was a fiend! a fiend from hell!</l>
+      </sp>
+      <sp who="#L0459_M14">
+       <speaker>Knights.</speaker>
+       <p>Bless us! a fiend?</p>
+      </sp>
+      <sp who="#L0459_M4">
+       <speaker>Arnaud.</speaker>
+       <p>A fiend from hell.</p>
+      </sp>
+      <sp who="#L0459_M14">
+       <speaker>Knights.</speaker>
+       <stage>(laughing among themselves.)</stage>
+       <p>He tells it well.</p>
+      </sp>
+      <sp who="#L0459_M4">
+       <speaker>Arnaud.</speaker>
+       <p>A fiend from hell!</p>
+       <l>From this foul bond there sprang a son,</l>
+       <l>The dread of all both far and near;</l>
+       <stage>(shuddering.</stage>
+       <l>'Tis Robert—Robert, whom all men shun—</l>
+       <l>The Demon's child! a name of fear!</l>
+       <l>He spreads all around him dismay—</l>
+       <l>He conquers in each listed fight—</l>
+       <l>The loveliest fair he bears away!</l>
+       <l>Ah! should this land his steps invite,</l>
+       <l>Innocent maids, fly from his snares!</l>
+       <l>Robert is nigh! beware his spell!</l>
+      </sp>
+      <sp who="#L0459_M14">
+       <speaker>Knights.</speaker>
+       <stage>(smiling to each other.)</stage>
+       <p>Beware his spell!</p>
+      </sp>
+      <sp who="#L0459_M4">
+       <speaker>Arnaud.</speaker>
+       <l>His father's look and heart he bears,</l>
+       <l>And is, like him, a fiend from hell.</l>
+      </sp>
+      <sp who="#L0459_M14">
+       <speaker>Knights.</speaker>
+       <stage>(bantering as before.)</stage>
+       <l>He, too, is a fiend!</l>
+      </sp>
+      <sp who="#L0459_M4">
+       <speaker>Arnaud.</speaker>
+       <l>A fiend from hell.</l>
+      </sp>
+      <sp who="#L0459_M14">
+       <speaker>Knights.</speaker>
+       <l>Robert's a fiend!</l>
+      </sp>
+      <sp who="#L0459_M4">
+       <speaker>Arnaud.</speaker>
+       <l>A fiend from hell!</l>
+      </sp>
+     </spGrp>
+     <sp who="#L0459_M1">
+      <speaker>Robert.</speaker>
+      <stage>(who has with difficulty curbed his anger.)</stage>
+      <p>I can control my rage no longer. Ho! men-at-arms. Seize this insolent vassal;
+        <emph>I</emph> am his liege and master; I am Robert of Normandy.</p>
+     </sp>
+     <sp who="#L0459_mult">
+      <speaker>All.</speaker>
+      <stage>(startled.)</stage>
+      <p>How!</p>
+     </sp>
+     <sp who="#L0459_M4">
+      <speaker>Arnaud.</speaker>
+      <stage>(falling on his knees.)</stage>
+      <p>Mercy! mercy! Sweet <emph>angelic</emph> master, forgive me!</p>
+     </sp>
+     <sp who="#L0459_M1">
+      <speaker>Robert.</speaker>
+      <p>I have power of thy life as my serf and vassal.</p>
+     </sp>
+     <sp who="#L0459_M4">
+      <speaker>Arnaud.</speaker>
+      <p>I don't dispute it.</p>
+     </sp>
+     <sp who="#L0459_M1">
+      <speaker>Robert.</speaker>
+      <p>I grant thee one short hour. Make thy speediest prayer, and then— <stage>(turning coolly to
+        his Followers.)</stage> let him be hanged on the nearest tree.</p>
+     </sp>
+     <sp who="#L0459_M4">
+      <speaker>Arnaud.</speaker>
+      <p>Oh la! oh la! Take pity on me, noble knight and infernal master! I'm come all the way from
+       Normandy with my bride that <emph>is</emph> to be, and it will break her heart if I should be
+       hanged before we're married.</p>
+      <pb n="8"/>
+     </sp>
+     <sp who="#L0459_M1">
+      <speaker>Robert.</speaker>
+      <p>Thy intended bride, say'st thou? Hold a while! <stage>(the Guards release Arnaud.)</stage>
+       She is doubtless pretty?</p>
+     </sp>
+     <sp who="#L0459_M4">
+      <speaker>Arnaud.</speaker>
+      <p>They call us in Normandy the beautiful couple. It would be a pity to spoil the pair.</p>
+     </sp>
+     <sp who="#L0459_M1">
+      <speaker>Robert.</speaker>
+      <p>Thy words soften me.</p>
+     </sp>
+     <sp who="#L0459_M4">
+      <speaker>Arnaud.</speaker>
+      <p>Bless your soft heart.</p>
+     </sp>
+     <sp who="#L0459_M1">
+      <speaker>Robert.</speaker>
+      <p>On account of thy sweetheart's charms, I grant thee thy life.</p>
+     </sp>
+     <sp who="#L0459_M4">
+      <speaker>Arnaud.</speaker>
+      <stage>(with a sigh of relief.)</stage>
+      <p>You grant me what I most value.</p>
+     </sp>
+     <sp who="#L0459_M1">
+      <speaker>Robert.</speaker>
+      <stage>(emphatically.)</stage>
+      <p>But—</p>
+     </sp>
+     <sp who="#L0459_M4">
+      <speaker>Arnaud.</speaker>
+      <p>Eh! wha—what means your terrible but?</p>
+     </sp>
+     <sp who="#L0459_M1">
+      <speaker>Robert.</speaker>
+      <p>I claim her as <emph>my</emph> property. Go, some of ye, and lead her here. <stage>(Alan
+        and a party go off up the slope, R. H.)</stage> Sir Knights, ye are gallant, and I commit
+       her to your hands.</p>
+     </sp>
+     <sp who="#L0459_M4">
+      <speaker>Arnaud.</speaker>
+      <p>My Alice to their hands! A lamb to the wolves! Oh, most gracious Duke Robert, Robert the
+       Dev—</p>
+     </sp>
+     <sp who="#L0459_M1">
+      <speaker>Robert.</speaker>
+      <p>Be silent! Dar'st thou still to murmur when I have had the goodness to pardon thee?</p>
+     </sp>
+     <sp who="#L0459_M4">
+      <speaker>Arnaud.</speaker>
+      <stage>(aside.)</stage>
+      <p>Oh, confound your goodness! miserable devil that I am! I lose my wife before marriage! If
+       it had been after, indeed—</p>
+     </sp>
+     <sp who="#L0459_M1">
+      <speaker>Robert.</speaker>
+      <stage>(returning to the table, L. H.)</stage>
+      <p>Fill the cups again!</p>
+     </sp>
+     <stage>Enter Alice, down slope, R. H., forcibly conducted by Alan, and the Duke's
+      Pages.</stage>
+     <spGrp>
+      <head>Alice and Knights.</head>
+      <sp who="#L0459_F16">
+       <speaker>Alice.</speaker>
+       <l>Why this rudeness? Ah, for mercy, let me go!</l>
+       <l>Why is't ye seek to fright me?</l>
+      </sp>
+      <sp who="#L0459_M14">
+       <speaker>Knights.</speaker>
+       <lg>
+        <l>A glorious prize! both young and fair.</l>
+       </lg>
+      </sp>
+      <sp who="#L0459_F16">
+       <speaker>Alice.</speaker>
+       <lg>
+        <l>Spare me! your mercy shew!</l>
+       </lg>
+      </sp>
+      <sp who="#L0459_M14">
+       <speaker>Knights.</speaker>
+       <lg>
+        <l>No, no! the gift is all too rare;</l>
+        <l>In faith, it were pity to slight thee.</l>
+        <l>A kiss to each thou'lt not deny?</l>
+        <l>The forfeit due thou may'st not fly;</l>
+        <l>Come, then, be kind; do not say no!</l>
+        <l>Such slight reward quickly bestow.</l>
+       </lg>
+      </sp>
+      <sp who="#L0459_F16">
+       <speaker>Alice.</speaker>
+       <stage>(breaking from them.)</stage>
+       <lg>
+        <l>Away! discourteous knights, your sport forego.</l>
+       </lg>
+      </sp>
+     </spGrp>
+     <sp who="#L0459_M1">
+      <speaker>Robert.</speaker>
+      <stage>(turning round.)</stage>
+      <p>Ha! what do I see? Alice!</p>
+     </sp>
+     <sp who="#L0459_F16">
+      <speaker>Alice.</speaker>
+      <stage>(casting herself at his feet.)</stage>
+      <p>Ha! Duke Robert, protect me from their violence!</p>
+     </sp>
+     <sp who="#L0459_M1">
+      <speaker>Robert.</speaker>
+      <stage>(sternly to the Knights, who have followed her.)</stage>
+      <p>Stand back! I am her protector. The same breast hath
+       <pb n="9"/> nourished us, and that is a sacred claim. I pray ye, sirs, to retire hence, and
+       leave us to ourselves.</p>
+     </sp>
+     <sp who="#L0459_M2">
+      <speaker>Bertram.</speaker>
+      <p>Follow <emph>me</emph>, Sir Knights, and I can lead where a livelier sport shall entertain
+       us, and be a welcome change.</p>
+      <stage>Exeunt Bertram and Knights, R. H.</stage>
+     </sp>
+     <sp who="#L0459_M4">
+      <speaker>Arnaud.</speaker>
+      <stage>(humbly to Robert.)</stage>
+      <p>Mayn't I remain too, noble knight?</p>
+     </sp>
+     <sp who="#L0459_M1">
+      <speaker>Robert.</speaker>
+      <p>No—begone!</p>
+     </sp>
+     <sp who="#L0459_M4">
+      <speaker>Arnaud.</speaker>
+      <p>What, and leave you all alone with—</p>
+     </sp>
+     <sp who="#L0459_F16">
+      <speaker>Alice.</speaker>
+      <stage>(aside to Arnaud.)</stage>
+      <p>Wait for me on yonder hill, and I will rejoin thee speedily.</p>
+     </sp>
+     <sp who="#L0459_M4">
+      <speaker>Arnaud.</speaker>
+      <p>The sooner the better, for I don't like your present company; he's as great a devil as ever
+       he was.</p>
+      <stage>Exit up the slope, R. H.</stage>
+     </sp>
+     <sp who="#L0459_F16">
+      <speaker>Alice.</speaker>
+      <stage>(kneeling to Robert.)</stage>
+      <p>Oh, my prince, my master!</p>
+     </sp>
+     <sp who="#L0459_M1">
+      <speaker>Robert.</speaker>
+      <stage>(raising her kindly.)</stage>
+      <p>Call me thy brother. Banished by my rebellious subjects, I wander an exile in a foreign
+       land; but my heart is still the same. And now, Alice, wherefore is it that I see thee in
+       Sicily? what comest thou to do at Palermo?</p>
+     </sp>
+     <sp who="#L0459_F16">
+      <speaker>Alice.</speaker>
+      <p>I have quitted my humble cottage in our own dear Normandy on a mission to seek
+        <emph>you</emph>, and fulfil the command of your lady-mother.</p>
+     </sp>
+     <sp who="#L0459_M1">
+      <speaker>Robert.</speaker>
+      <p>My mother! speak! whatever be her desire I will instantly obey it.</p>
+     </sp>
+     <sp who="#L0459_F16">
+      <speaker>Alice.</speaker>
+      <p>Alas, my lord, her sorrows have ceased; she is— dead!</p>
+     </sp>
+     <sp who="#L0459_M1">
+      <speaker>Robert.</speaker>
+      <p>Dead! adored parent! dead! oh, anguish!</p>
+     </sp>
+     <sp who="#L0459_F16">
+      <speaker>Alice.</speaker>
+      <p>Her last thoughts were for <emph>you</emph>, Lord Robert. I attended her throughout her
+       fatal illness, and her sole consolation was her dear son's remembrance.</p>
+      <stage>(Robert sinks on the chair, L. H. and drops his head on the table, overcome with
+       grief.</stage>
+     </sp>
+     <spGrp>
+      <head>AIR.—Alice.</head>
+      <sp who="#L0459_F16">
+       <speaker>Alice.</speaker>
+       <lg>
+        <l>“Alas, my son!” she oft would cry,</l>
+        <l>“Tho' far from me thou'rt fled away,</l>
+        <l>“For thee will heave life's latest sigh,</l>
+        <l>“As death's awful call I obey!</l>
+        <l>“From the snares of the bad may'st thou fly!</l>
+        <l>“There is one will e'er be thy stay:</l>
+        <l>“As upon earth, so in the sky,</l>
+        <l>“Thy mother still for thee will pray!”</l>
+       </lg>
+      </sp>
+     </spGrp>
+     <pb n="10"/>
+     <sp who="#L0459_M1">
+      <speaker>Robert.</speaker>
+      <p>And the son she so loved received not even her dying blessing!</p>
+     </sp>
+     <sp who="#L0459_F16">
+      <speaker>Alice.</speaker>
+      <p>Her last wishes she confided to me alone. “When I have ceased to live,” she said, “seek out
+       my son. Tell him, for his soul's welfare, to beware! There is a dark and evil power hovers
+       round him that would drag him to perdition! Be thou his good angel, Alice, and save him; and
+       bid him, some day when he shall be worthy of it, to read this writing traced by an expiring
+       mother's hand!”</p>
+      <stage>(Alice offers a sealed paper to Robert, who shrinks from receiving it.</stage>
+     </sp>
+     <sp who="#L0459_M1">
+      <speaker>Robert.</speaker>
+      <p>No, no; I am <emph>not</emph> worthy of it; let the precious trust still remain in thy
+       keeping. Alas! every grief assails me at once. To thy friendly bosom I will confide that
+       (added to my other woes) I am doomed to the torments of a fruitless passion.</p>
+     </sp>
+     <sp who="#L0459_F16">
+      <speaker>Alice.</speaker>
+      <p>You love?</p>
+     </sp>
+     <sp who="#L0459_M1">
+      <speaker>Robert.</speaker>
+      <p>Without hope. Know all my misery; when I first beheld the Princess of Sicily, the beautiful
+       and far-famed Isabel, her charms won my soul! she smiled with favour on my suit, and I
+       fancied I had touched her heart, when, one day, maddened with love and jealousy, (for I had
+       heard her hand was promised to the Prince of Grenada) I boldly endeavoured to bear her off. I
+       withstood her father, and the united attack of all his cavaliers.</p>
+     </sp>
+     <sp who="#L0459_F16">
+      <speaker>Alice.</speaker>
+      <p>Rashness!</p>
+     </sp>
+     <sp who="#L0459_M1">
+      <speaker>Robert.</speaker>
+      <p>I was on the point of falling beneath their swords, when suddenly there stood at my side a
+       powerful knight, in ebon armour, and mounted on a black steed. With lightning speed he felled
+       my antagonists to the ground, and bore me off unhurt. To him, to Sir Bertram, my preserver,
+       and ever since my friend, I owe the victory and my life; but, alas! I lost Isabel and
+       happiness for ever.</p>
+     </sp>
+     <sp who="#L0459_F16">
+      <speaker>Alice.</speaker>
+      <p>And the princess?</p>
+     </sp>
+     <sp who="#L0459_M1">
+      <speaker>Robert.</speaker>
+      <p>From that day I have never beheld her. I am now returned hither only in the fond hope thst,
+       contesting the prize of arms at the tournament, I may see her once more, and perhaps yet win
+       her.</p>
+     </sp>
+     <sp who="#L0459_F16">
+      <speaker>Alice.</speaker>
+      <p>If her heart ever preferred you, she will still be faithful to you.</p>
+     </sp>
+     <sp who="#L0459_M1">
+      <speaker>Robert.</speaker>
+      <p>Yet how be sure of that?</p>
+     </sp>
+     <sp who="#L0459_F16">
+      <speaker>Alice.</speaker>
+      <stage>(smiling.)</stage>
+      <p>It is a question easily asked. Write, my lord.</p>
+     </sp>
+     <sp who="#L0459_M1">
+      <speaker>Robert.</speaker>
+      <p>Thou counsel'st me to my liking.</p>
+      <stage>(going to his tent and calling.)</stage>
+      <p>What ho! my scribe. I will sue for pardon, and plead my passion's violence.</p>
+     </sp>
+     <pb n="11"/>
+     <stage>Enter the Duke's Secretary with writing gear, and Robert signs to him to sit at the
+      table, which he does, and prepares to write.</stage>
+     <sp who="#L0459_M1">
+      <speaker>Robert.</speaker>
+      <p>Yet, Alice, now I bethink me, the letter written—who may deliver it?</p>
+     </sp>
+     <sp who="#L0459_F16">
+      <speaker>Alice.</speaker>
+      <p>I, my lord; the wit is keen that serves whom it doth love.</p>
+     </sp>
+     <sp who="#L0459_M1">
+      <speaker>Robert.</speaker>
+      <p>'Tis well.</p>
+      <stage>(he dictates to the Scribe in dumb show.</stage>
+     </sp>
+     <sp who="#L0459_F16">
+      <speaker>Alice.</speaker>
+      <p>Be you not far from me, my lord; for I have hope of bringing a speedy and a welcome
+       answer.</p>
+     </sp>
+     <sp who="#L0459_M1">
+      <speaker>Robert.</speaker>
+      <p>Thou art my guardian angel. Here! good speed attend thee!</p>
+      <stage>(imprinting the pummel of his sword upon the letter, he gives it to Alice, who is
+       running off towards R., when suddenly encountering Bertram, who has just entered, she
+       retreats with an exclamation of fear to L. C.)</stage>
+     </sp>
+     <spGrp>
+      <head>SONG.—Alice and Robert.</head>
+      <sp who="#L0459_F16">
+       <speaker>Alice.</speaker>
+       <p>Ha!</p>
+       <stage>(in a low voice to Robert, pointing to Bertram.)</stage>
+       <l>Who's yon? that man of louring brow?</l>
+      </sp>
+      <sp who="#L0459_M1">
+       <speaker>Robert.</speaker>
+       <l>The knight I nam'd just now;</l>
+       <l>My friend, my more than brother.</l>
+       <l>Such look of wild dimay</l>
+       <l>Why doth thy face display?</l>
+      </sp>
+      <sp who="#L0459_F16">
+       <speaker>Alice.</speaker>
+       <stage>(trembling.)</stage>
+       <l>'Tis because, in the house of my mother</l>
+       <l>There hangs an ancient picture, showing</l>
+       <l>Th' Archangel Michael, Satan overthrowing;</l>
+       <l>And I find—</l>
+      </sp>
+      <sp who="#L0459_M1">
+       <speaker>Robert.</speaker>
+       <l>Go on! what makes thee thus tremble?</l>
+      </sp>
+      <sp who="#L0459_F16">
+       <speaker>Alice.</speaker>
+       <l>—He much doth resemble—</l>
+      </sp>
+      <sp who="#L0459_M1">
+       <speaker>Robert.</speaker>
+       <stage>(eagerly.)</stage>
+       <l>The Archangel?</l>
+      </sp>
+      <sp who="#L0459_F16">
+       <speaker>Alice.</speaker>
+       <stage>(with trepidation.)</stage>
+       <l>Not at all. The other!</l>
+       <stage>(pointing downwards.</stage>
+      </sp>
+      <sp who="#L0459_M1">
+       <speaker>Robert.</speaker>
+       <l>What childish folly! There, haste away.</l>
+      </sp>
+      <sp who="#L0459_F16">
+       <speaker>Alice.</speaker>
+       <l>You shall not reproach me with delay.</l>
+
+      </sp>
+     </spGrp>
+     <stage>(she kisses Robert's hand, and keeping aloof from Bertram, runs up the ascent, R., where
+      Arnaud is seen to meet her joyfully, and both disappear.</stage>
+     <sp who="#L0459_M2">
+      <speaker>Bertram.</speaker>
+      <p>Thy new conquest, Robert, seems wholly devoted to thee.</p>
+     </sp>
+     <sp who="#L0459_M1">
+      <speaker>Robert.</speaker>
+      <p>Her gentle breast is moved by gratitude.</p>
+     </sp>
+     <sp who="#L0459_M2">
+      <speaker>Bertram.</speaker>
+      <stage>(with sarcastic bitterness.)</stage>
+      <p>Gratitude! And thou believest in gratitude? It is ever the foremost word in the mouth of
+       the ungrateful. Tell me, what was thy conference with Alice?</p>
+     </sp>
+     <pb n="12"/>
+     <sp who="#L0459_M1">
+      <speaker>Robert.</speaker>
+      <p>I'll tell thee all. She is my messenger to Isabel, to apprise her of my arrival, and to
+       obtain my pardon.</p>
+     </sp>
+     <sp who="#L0459_M2">
+      <speaker>Bertram.</speaker>
+      <stage>(gloomily.)</stage>
+      <p>Thou still wilt go, in this, 'gainst all my counselling.</p>
+     </sp>
+     <sp who="#L0459_M1">
+      <speaker>Robert.</speaker>
+      <p>I cannot, will not live without Isabel. In spite of every opposer, I will win her in the
+       tournament.</p>
+     </sp>
+     <sp who="#L0459_M2">
+      <speaker>Bertram.</speaker>
+      <stage>(aside.)</stage>
+      <p>Thou never shalt!</p>
+     </sp>
+     <sp who="#L0459_M1">
+      <speaker>Robert.</speaker>
+      <p>My coursers are strong, and my armour hath been tried against the bravest in the world.</p>
+     </sp>
+     <sp who="#L0459_M2">
+      <speaker>Bertram.</speaker>
+      <stage>(aside,)</stage>
+      <p>I will strip thee of it this very hour!</p>
+     </sp>
+     <sp who="#L0459_M1">
+      <speaker>Robert.</speaker>
+      <p>My wealth, too, gives me level with the proudest suitor.</p>
+     </sp>
+     <sp who="#L0459_M2">
+      <speaker>Bertram.</speaker>
+      <stage>(aside.)</stage>
+      <p>Thou shalt not long possess it. <stage>(turning with a smile to Robert.)</stage> Thou
+       say'st truly in all, Robert; but I am dull with thy love musing, and till the trumpet ring us
+       to the lists, let us seek for pastime. And, lo! 'tis at hand; for, in happy hour, the knights
+       are assembling, and seem prepared to try a few casts of the dice. What say'st thou? Shall we
+       join, and play also?</p>
+     </sp>
+     <sp who="#L0459_M1">
+      <speaker>Robert.</speaker>
+      <stage>(moodily.)</stage>
+      <p>I have forsworn play for ever.</p>
+     </sp>
+     <sp who="#L0459_M2">
+      <speaker>Bertram.</speaker>
+      <p>More of thy folly! Fortune, in smiling mood, may add to thy riches, and make thee surer of
+       thy Isabel. Come, we'll make them our bankers, and draw largely on their purses.</p>
+     </sp>
+     <sp who="#L0459_M1">
+      <speaker>Robert.</speaker>
+      <p>Well, with all my heart; I yield to thee in everything.</p>
+     </sp>
+     <stage>During the foregoing, the Knights re-enter; their Pages bearing caskets filled with
+      money. The table is covered with a rich tapestry by four Pages, and dice-boxes are placed upon
+      it.</stage>
+     <spGrp>
+      <head>CONCERTED PIECE.</head>
+      <sp who="#L0459_M2">
+       <speaker>Bertram.</speaker>
+       <stage>(advancing courteously towards the Knights.)</stage>
+       <l>Brave knights, the Duke of Normandy</l>
+       <l>To join your game you'll not deny?</l>
+      </sp>
+      <sp who="#L0459_M1">
+       <speaker>Robert.</speaker>
+       <l>In the Lists, lance to lance,</l>
+       <l>A rougher game we'll try;</l>
+       <l>But to-day at the game of chance</l>
+       <l>Our strength we'll measure.</l>
+      </sp>
+      <sp who="#L0459_M14">
+       <speaker>Knights.</speaker>
+       <l>Your challenge, brave knight of France,</l>
+       <l>We all accept with pleasure.</l>
+       <l>Let fortune's hand declare</l>
+       <l>Who shall, at play, the trophy bear.</l>
+      </sp>
+      <sp who="#L0459_M1">
+       <speaker>Robert.</speaker>
+       <l>Make a friendly ring;</l>
+       <l>And while roll the dice along,</l>
+       <l>In chorus let us sing</l>
+       <l>Your old Sicilian song—</l>
+       <pb n="13"/>
+       <l>How never “golden treasure”</l>
+       <l>Could yet “compare with pleasure,”—</l>
+       <l>We'll sing it as we play.</l>
+      </sp>
+      <sp who="#L0459_M14">
+       <speaker>Knights.</speaker>
+       <l>That old Sicilian lay,</l>
+       <l>Familiar as the day,</l>
+       <l>We'll sing it as we play.</l>
+       <l>To our game, to our game!</l>
+       <l>And Fortune, the purblind dame,</l>
+       <l>Shall rule the day.</l>
+      </sp>
+     </spGrp>
+     <spGrp>
+      <head>SICILIAN BALLAD, WITH CHORUS.</head>
+      <sp who="#L0459_mult">
+       <speaker>Robert and Knights.</speaker>
+       <l>Fortune! in thy smiles confiding,</l>
+       <l>Thy protection I demand.</l>
+       <l>Come! and o'er me now presiding,</l>
+       <l>Guide aright my daring hand.</l>
+       <l>Gold's a vanishing treasure;</l>
+       <l>The wise still make it fly;</l>
+       <l>While gold brings hours of pleasure,</l>
+       <l>To lose it never sigh!</l>
+      </sp>
+      <sp who="#L0459_M2">
+       <speaker>Bertram.</speaker>
+       <l>Let Fortune smile or Fortune frown,</l>
+       <l>To me life's all a jest;</l>
+       <l>With wine, sorrow I drown,</l>
+       <l>Whilst I win, I laugh at the rest.</l>
+      </sp>
+      <sp who="#L0459_M1">
+       <speaker>Robert.</speaker>
+       <l>Of all the gifts that life can crown,</l>
+       <l>Pleasure is the best.</l>
+      </sp>
+     </spGrp>
+
+     <spGrp>
+      <stage>(Scene of the Dice.—Beginning the game of hazard, a purse being staked on each
+       side—Alberti rattles the dice, and makes the first throw, while the Knights anxiously crowd
+       round, and look on—Robert throws in return, by which time Bertrand has advanced to his
+       side.</stage>
+      <sp who="#L0459_M1">
+       <speaker>Robert.</speaker>
+       <stage>(with careless indifference.)</stage>
+       <l>Ay, I've lost. My revenge now;</l>
+       <l>Come on—three purses of gold.</l>
+       <stage>(taking the purses from a casket held by a Page, he stakes them on the table.</stage>
+      </sp>
+      <sp who="#L0459_M14">
+       <speaker>Knights.</speaker>
+       <l>Your turn to throw.</l>
+      </sp>
+      <sp who="#L0459_M1">
+       <speaker>Robert.</speaker>
+       <stage>(throws.)</stage>
+       <l>Fourteen!—that's a fair cast, ye see;</l>
+       <l>Fortune, capricious, may now favour <emph>me</emph>.</l>
+       <stage>(one of the Knights throws a higher number.</stage>
+       <l>Ha! deuce take the dice; I've lost my luck of old.</l>
+      </sp>
+      <sp who="#L0459_M2">
+       <speaker>Bertram.</speaker>
+       <l>Tut, tut! Double your lay.</l>
+      </sp>
+      <sp who="#L0459_M1">
+       <speaker>Robert.</speaker>
+       <stage>(becoming gradually excited.)</stage>
+       <l>I stake down <hi>two thousand</hi> piastres.</l>
+      </sp>
+      <pb n="14"/>
+      <sp who="#L0459_M2">
+       <speaker>Bertram.</speaker>
+       <l>Not half enough, <emph>I </emph>say—</l>
+       <l><emph>Five</emph> thousand.</l>
+      </sp>
+      <sp who="#L0459_M14">
+       <speaker>Knights.</speaker>
+       <l>Five thousand!</l>
+       <stage>(aside to each other.)</stage>
+       <l>Their play is bold.</l>
+      </sp>
+      <sp who="#L0459_M2">
+       <speaker>Bertram.</speaker>
+       <l>That's the way,</l>
+       <l>When you play,</l>
+       <l>To retrieve all disasters;</l>
+       <l>The best plan, in the main.</l>
+      </sp>
+      <sp who="#L0459_M1">
+       <speaker>Robert.</speaker>
+       <l>Think you so?</l>
+      </sp>
+      <sp who="#L0459_M2">
+       <speaker>Bertram.</speaker>
+       <l>It's quite plain.</l>
+       <stage>(the throws are renewed on both sides, but still to the advantage of the Knights, who
+        shew their gratification.</stage>
+      </sp>
+      <sp who="#L0459_M1">
+       <speaker>Robert.</speaker>
+       <stage>(chafed.)</stage>
+       <l>Ha! 'sdeath and hell—lost again!</l>
+      </sp>
+      <sp who="#L0459_M2">
+       <speaker>Bertram.</speaker>
+       <stage>(soothingly.)</stage>
+       <l>Nay, but keep cool;</l>
+       <l>That's the best rule.</l>
+       <l>Anger is wrong,</l>
+       <l>What says the song?</l>
+       <l>“What's gold? A vanishing treasure;</l>
+       <l>“The wise still make it fly!</l>
+       <l>“If gold buy hours of pleasure,</l>
+       <l>“To lose it wherefore sigh?”</l>
+      </sp>
+      <sp who="#L0459_M14">
+       <speaker>Knights.</speaker>
+       <stage>(laughing.)</stage>
+       <l>Right!—“What's gold?” &amp;c.</l>
+      </sp>
+      <sp who="#L0459_M1">
+       <speaker>Robert.</speaker>
+       <stage>(now much excited.)</stage>
+       <l>In spite of the frowns of Fate,</l>
+       <l>I'll not yet the game forsake.</l>
+       <l>'Gainst ye all round, see here—I stake</l>
+       <l>My case of diamonds—</l>
+      </sp>
+      <sp who="#L0459_M14">
+       <speaker>Knights.</speaker>
+       <stage>(eagerly.)</stage>
+       <l>Diamonds, d'ye say?</l>
+      </sp>
+      <sp who="#L0459_M1">
+       <speaker>Robert.</speaker>
+       <l>And my service of plate.</l>
+      </sp>
+      <sp who="#L0459_M14">
+       <speaker>Knights.</speaker>
+       <l>And a service of plate?</l>
+       <l>'Tis just the thing! your bet we take.</l>
+       <stage>(aside.)</stage>
+       <l>We'll win his diamonds and his plate.</l>
+      </sp>
+      <sp who="#L0459_M2">
+       <speaker>Bertram.</speaker>
+       <l>Wisely done; a mere troublesome weight</l>
+       <l>To carry about, are diamonds and plate.</l>
+       <stage>(Alberti throws for the Knights, Robert after him.</stage>
+      </sp>
+      <sp who="#L0459_M1">
+       <speaker>Robert.</speaker>
+       <stage>(striking the table violently.)</stage>
+       <l>By hell!—no more I'll play! Curst Fate!</l>
+      </sp>
+      <sp who="#L0459_M2">
+       <speaker>Bertram.</speaker>
+       <stage>(as before.)</stage>
+       <l>Nay, nay, dear friend, be cool!</l>
+       <l>Your passion rule!</l>
+       <l>Anger is wrong,</l>
+       <l>Saith not the song—</l>
+       <l>“What's gold?” &amp;c.</l>
+      </sp>
+      <sp who="#L0459_M1">
+       <speaker>Robert.</speaker>
+       <stage>(desperate.)</stage>
+       <l>My <emph>horses</emph> I lay; my <emph>arms</emph>, and <emph>mail</emph> also;</l>
+       <pb n="15"/>
+       <stage>(he unbuckles his sword and lays it on the table.</stage>
+       <l>'Tis all that's left me now,</l>
+       <l>Like the rest let 'em go;</l>
+       <l>I'll play in Fate's despite!</l>
+      </sp>
+      <sp who="#L0459_M2">
+       <speaker>Bertram.</speaker>
+       <l>Perfectly right—very right!</l>
+       <l>P'rhaps Fortune asham'd may grow,</l>
+       <l>And send us a lucky throw</l>
+       <l>Shall all we've lost repay.</l>
+      </sp>
+      <sp who="#L0459_M14">
+       <speaker>Knights.</speaker>
+       <stage>(with joy, aside.)</stage>
+       <l>He's fast our prey!</l>
+      </sp>
+      <sp who="#L0459_M1">
+       <speaker>Robert.</speaker>
+       <stage>(having thrown with the utmost excitement.)</stage>
+       <l>Fifteen!</l>
+      </sp>
+      <sp who="#L0459_M14">
+       <speaker>Knights.</speaker>
+       <stage>(after their throw.)</stage>
+       <l>Just the same!</l>
+      </sp>
+      <sp who="#L0459_M1">
+       <speaker>Robert.</speaker>
+       <stage>(throwing again.)</stage>
+       <l>Sixteen!</l>
+      </sp>
+      <sp who="#L0459_M2">
+       <speaker>Bertram.</speaker>
+       <l>Said I not? Bravely done!</l>
+      </sp>
+      <sp who="#L0459_M14">
+       <speaker>Knights.</speaker>
+       <stage>(throwing again.)</stage>
+       <l>Eighteen! Hurrah!</l>
+      </sp>
+      <sp who="#L0459_M1">
+       <speaker>Robert.</speaker>
+       <stage>(with dismay.)</stage>
+       <l>Oh, despair! My all is gone!</l>
+      </sp>
+      <sp who="#L0459_M14">
+       <speaker>Knights.</speaker>
+       <stage>(aside, with exultation.)</stage>
+       <l>His all we've won.</l>
+       <stage>(the Knights take up the purses, diamonds, sword, &amp;c., and the Pages bear away the
+        table.)</stage>
+      </sp>
+      <sp who="#L0459_M1">
+       <speaker>Robert.</speaker>
+       <stage>(with depression.)</stage>
+       <l>Yet, (worse than all to me,)</l>
+       <l>My friend, my blind folly ruins thee.</l>
+       <l>My arms, too—and my steeds! 'Tis childish to repine;</l>
+       <l>Go, give them up the wealth no longer mine.</l>
+       <stage>(Bertram goes into the tent, L., accompanied by two or three of the Knights; and the
+        armour and the chests of plate are seen conveyed across to the opposite tent by Robert's
+        soldiers.</stage>
+       <l>Oh, rage and despair!</l>
+       <l>This shame must I bear?</l>
+       <stage>(turning furiously on the Knights.</stage>
+       <l>By some hellish snare</l>
+       <l>My destruction ye've plann'd!</l>
+       <l>My passion beware!</l>
+       <l>To mock me but dare,</l>
+       <l>By Heaven, I swear</l>
+       <l>Ye shall die by this hand.</l>
+      </sp>
+      <sp who="#L0459_M14">
+       <speaker>Knights.</speaker>
+       <stage>(to each other, deriding Robert's agitation.)</stage>
+       <l>Behold! his loss he can't bear;</l>
+       <l>With spite hear him swear!</l>
+       <l>His rage and despair</l>
+       <l>He cannot command.</l>
+       <l>Ah, Sir Knight, pray forbear,</l>
+       <l>Your angry words spare,</l>
+       <l>Or our wrath yet beware;</l>
+       <l>Our swords are at hand.</l>
+       <stage>(Robert, finding himself unarmed, in his transport of rage, snatches up a seat, while
+        the Knights stand on the defensive.</stage>
+      </sp>
+      <pb n="16"/>
+      <stage>Bertram, at this moment, re-enters from the tent.</stage>
+      <sp who="#L0459_M2">
+       <speaker>Bertram.</speaker>
+       <l>Wherefore this noise?</l>
+       <l>What mean these cries?</l>
+       <stage>(advancing to Robert.</stage>
+       <l>Come, come, be cool,</l>
+       <l>Your passion rule;</l>
+       <l>Anger is wrong,</l>
+       <l>Goes not the song—</l>
+       <l>“What's gold?” &amp;c.</l>
+      </sp>
+      <sp who="#L0459_M14">
+       <speaker>Knights.</speaker>
+       <stage>(resheathing their swords and laughing.)</stage>
+       <l>Well said; yes “What's gold?” &amp;c.</l>
+       <stage>(chinking the purses they've won.)</stage>
+      </sp>
+      <sp who="#L0459_M1">
+       <speaker>Robert.</speaker>
+       <stage>(as before.)</stage>
+       <l>Oh, rage and despair! &amp;c.</l>
+      </sp>
+      <sp who="#L0459_M14">
+       <speaker>Knights.</speaker>
+       <stage>(as before.)</stage>
+       <l>He's wild with despair! &amp;c.</l>
+       <stage>(the Knights retire joyously into tent, R.</stage>
+      </sp>
+     </spGrp>
+     <sp who="#L0459_M1">
+      <speaker>Robert.</speaker>
+      <stage>(impetuously.)</stage>
+      <p>Bertram, 'tis thy evil counsel has led me to this.</p>
+     </sp>
+     <sp who="#L0459_M2">
+      <speaker>Bertram.</speaker>
+      <p>Do I not share in thy ill fortune?</p>
+     </sp>
+     <sp who="#L0459_M1">
+      <speaker>Robert.</speaker>
+      <p>Oh, Isabel! thou art now lost to me, indeed. But ere I seek my death, I will once more, and
+       for the last time, behold thee.</p>
+      <stage>Exit Robert, L.</stage>
+     </sp>
+     <sp who="#L0459_M2">
+      <speaker>Bertram.</speaker>
+      <p>This eventful day will unite or part us for ever. Should he gain Isabel, he is torn from
+       me. The art of hell must be employed to thwart him. His despair will do much, and Isabel may
+       furnish him with arms. Their possession must be rendered useless. The renowned Prince of
+       Grenada, though certain to overcome all others, is no equal match against Robert's power and
+       skill; a more potent adversary must be found, and I will summon him straight. Ye Spirits of
+       the middle Air, that are linked with us in evil, darken around me the light of day that,
+       invisible to all, I may pursue my purpose. <stage>(the light is obscured, and a peal of
+        thunder is heard, accompanied by a flash of lightning.)</stage> Well have ye obeyed. Lend me
+       thy fire, thou electric fluid! <stage>(he holds up the point of his sword, and as a lightning
+        flash strikes it, a portion of fire adheres to it.</stage> Astoroth! spirit of the undying
+       flame! quit thy regions of everlasting fire, and attend my call. By the triple spell that
+       commands thee, obey me!—appear! appear!—thrice I bid thee—appear! <stage>The earth opens, and
+        Astoroth, the Spirit of Fire, rises, his head surrounded by a circlet of blue flame, his
+        wings extended, and in his hand a blazing spear.</stage></p>
+     </sp>
+     <pb n="17"/>
+     <sp who="#L0459_M9">
+      <speaker>Ast.</speaker>
+      <p>Thy spell I obey, and thy commands will execute.</p>
+     </sp>
+     <sp who="#L0459_M2">
+      <speaker>Bertram.</speaker>
+      <p>Fold thy wings, and come forth from thy circle of flame.</p>
+     </sp>
+     <sp who="#L0459_M9">
+      <speaker>Ast.</speaker>
+      <p>Thy bidding is done.</p>
+     </sp>
+     <sp who="#L0459_M2">
+      <speaker>Bertram.</speaker>
+      <p>From this, till midnight strikes, I claim thy services.</p>
+     </sp>
+     <sp who="#L0459_M9">
+      <speaker>Ast.</speaker>
+      <stage>(bowing submissively.)</stage>
+      <p>Thou art my master.</p>
+     </sp>
+     <sp who="#L0459_M2">
+      <speaker>Bertram.</speaker>
+      <p>Thou must assume the mortal shape and title of Granada's Prince; and forthwith, with full
+       retinue, present thyself at the King of Sicily's court. Conquer in the tournament all
+       opposers, and claim for thy prize the Princess Isabel.</p>
+     </sp>
+     <sp who="#L0459_M9">
+      <speaker>Ast.</speaker>
+      <p>The Prince of Grenada hath arrived within two leagues.</p>
+     </sp>
+     <sp who="#L0459_M2">
+      <speaker>Bertram.</speaker>
+      <p>This shall prevent his further advance until tomorrow.</p>
+      <stage>(plucking a lock of hair, and dropping it into the fiery circle.</stage>
+      <l>Fall his steed!</l>
+      <l>Its rider bleed,</l>
+      <l>And, till dawn of day,</l>
+      <l>From Palermo stay!</l>
+      <p>'Tis done; haste, and meet me at the palace.</p>
+      <stage>Exit Bertram—while Astoroth re-enters the circle of fire in which he rose, and
+       disappears.</stage>
+     </sp>
+    </div>
+    <div type="scene">
+     <head>SCENE II.</head>
+     <stage>—The Exterior of the King of Sicily's Palace. A spacious terrace with steps, leading
+      into an extensive garden.</stage>
+     <stage> Pages of the Princess Isabel, Sentinels, and Attendants, are discovered; as also
+      several young Peasant Girls, with petitions in their hands, waiting the approach of the
+      Princess.</stage>
+     <stage>Enter Isabel, R., followed by two Maids of Honour.</stage>
+     <spGrp>
+      <head>RECITATIVE.—</head>
+      <sp who="#L0459_F15">
+       <speaker>Isabel.</speaker>
+       <l>Midst all this grandeur, with pain</l>
+       <l>And regret, Fortune tries me;</l>
+       <l>Midst pleasures and empty joys,</l>
+       <l>Sad in heart I remain.</l>
+       <l>A father's will denies me</l>
+       <l>In choice of love my right—</l>
+       <l>And sighs and tears are vain;</l>
+       <l>Whilst my own Norman knight,</l>
+       <l>Forsakes and flies me!</l>
+       <pb n="18"/>
+       <stage>AIR.</stage>
+       <l>Fortune, 'tis vain</l>
+       <l>Thy smiles to gain;</l>
+       <l>Nought soothes my pain!</l>
+       <l>Fond dreams of love,</l>
+       <l>All false ye prove!</l>
+       <l>In one short day,</l>
+       <l>Hopes, bright and fair,</l>
+       <l>Have pass'd away</l>
+       <l>Like breath of air!</l>
+      </sp>
+     </spGrp>
+     <sp who="#L0459_F15">
+      <speaker>Isabel.</speaker>
+      <p>Heartless grandeur, how I disdain thy mockery! Pageantry and feasts surround me, but
+       happiness flies me. Wretched Isabel! thy ungrateful Robert slights and resigns thee without a
+       sigh. Oh, that I but knew whither he has fled!</p>
+     </sp>
+     <sp who="#L0459_F18">
+      <speaker>Peasant Girl.</speaker>
+      <stage>(aside to her companions.)</stage>
+      <p>We may approach her without fear; the petitions of the wretched she has never yet slighted.
+        <stage>(advancing to Isabel.)</stage> Revered Princess, assist the unfortunate, who claim
+       thy protection.</p>
+      <stage>(the Princess graciously receives her petitions, which she commits to the care of her
+       Maids of Honour.</stage>
+     </sp>
+     <stage>Enter Alice, L. U. E., with Robert's letter.</stage>
+     <sp who="#L0459_F16">
+      <speaker>Alice.</speaker>
+      <stage>(aside.)</stage>
+      <p>The opportunity seems favourable—why should I hesitate? Goodness speaks in her features.
+        <stage>(advancing, and presenting the letter.)</stage> Revered Princess, assist the
+       unfortunate who claim thy protection.</p>
+     </sp>
+     <sp who="#L0459_F15">
+      <speaker>Isabel.</speaker>
+      <p>Thou seemest a stranger?</p>
+     </sp>
+     <sp who="#L0459_F16">
+      <speaker>Alice.</speaker>
+      <p>I am but newly come to this land; but the person—</p>
+      <stage>(markedly.)</stage>
+      <p>from whom I come, and who is waiting nigh, is no stranger to your highness.</p>
+     </sp>
+     <sp who="#L0459_F15">
+      <speaker>Isabel.</speaker>
+      <stage>(opening the letter, and with sudden joy, aside.)</stage>
+      <p>Ha! may I believe the welcome tidings? Robert so near me! Fate, thou dost relent at last!
+       Come hither, stranger; return, and lead hither the person who sent thee. Use thy best speed,
+       and I will give thee cause to rejoice.</p>
+     </sp>
+     <sp who="#L0459_F16">
+      <speaker>Alice.</speaker>
+      <stage>(aside, exultingly.)</stage>
+      <p>I knew my counsel was good.</p>
+      <stage>Exit, L.</stage>
+     </sp>
+     <sp who="#L0459_F15">
+      <speaker>Isabel.</speaker>
+      <stage>(gazing fondly on the letter.)</stage>
+      <p>Ah, Robert! thou hast nought to fear from me.</p>
+     </sp>
+     <pb n="19"/>
+     <spGrp>
+      <head>AIR WITH CHORUS.</head>
+      <sp who="#">
+
+       <l>Dear idol I adore,</l>
+       <l>Oh, haste and glad mine eyes;</l>
+       <l>The boon thou dost implore,</l>
+       <l>To grant my bosom sighs!</l>
+      </sp>
+      <sp who="#L0459_F18">
+       <speaker>Peasant Girls.</speaker>
+       <l>Princess whom all adore,</l>
+       <l>May Joy e'er light thine eyes!</l>
+       <l>To aid all who implore,</l>
+       <l>Thy breast still sighs.</l>
+       <stage>(Isabel, with marks of kindness, dismisses the petitioners, who retire R. U.
+        E.</stage>
+      </sp>
+     </spGrp>
+     <stage>Enter Alice with Robert, L. U. E.</stage>
+     <sp who="#L0459_F16">
+      <speaker>Alice.</speaker>
+      <p>Take heart, my lord, and cast yourself at her feet. She has consented to hear you, which is
+       very nearly a full pardon.</p>
+      <stage>Exit Alice, L.</stage>
+     </sp>
+     <sp who="#L0459_M1">
+      <speaker>Robert.</speaker>
+      <stage>(advancing to Isabel, and sinking on his knee.)</stage>
+      <p>Fair Isabel, let my penitence disarm your anger! The love that caused my guilt should plead
+       my pardon.</p>
+     </sp>
+     <sp who="#L0459_F15">
+      <speaker>Isabel.</speaker>
+      <p>Arise, Sir Knight.</p>
+     </sp>
+     <sp who="#L0459_M1">
+      <speaker>Robert.</speaker>
+      <p>Do you, then, generously forgive my offence?</p>
+     </sp>
+     <sp who="#L0459_F15">
+      <speaker>Isabel.</speaker>
+      <p>I ought to have fled your presence, or been deaf to your words; but my heart is too weak
+       towards all it loves.</p>
+     </sp>
+     <sp who="#L0459_M1">
+      <speaker>Robert.</speaker>
+      <p>Words of rapture!</p>
+     </sp>
+     <sp who="#L0459_F15">
+      <speaker>Isabel.</speaker>
+      <p>If <emph>your</emph> heart be not changed, Lord Robert, you may, in the approaching trial
+       of arms, prove it, and I will pray for your victory!</p>
+     </sp>
+     <sp who="#L0459_M1">
+      <speaker>Robert.</speaker>
+      <p>Alas, Isabel, I am robbed of hope!</p>
+     </sp>
+     <sp who="#L0459_F15">
+      <speaker>Isabel.</speaker>
+      <p>How!</p>
+     </sp>
+     <sp who="#L0459_M1">
+      <speaker>Robert.</speaker>
+      <p>My folly maddens me. Oppressed by Fortune's spite, I have lost my armour and my trusty
+       sword.</p>
+     </sp>
+     <sp who="#L0459_F15">
+      <speaker>Isabel.</speaker>
+      <p>'Tis not yet too late; the loss shall be repaired.</p>
+     </sp>
+     <sp who="#L0459_M1">
+      <speaker>Robert.</speaker>
+      <p>Ha!</p>
+     </sp>
+     <sp who="#L0459_F15">
+      <speaker>Isabel.</speaker>
+      <p>Pages—haste and bring hither to this knight the best and richest suit within the palace
+       armoury.</p>
+      <stage>Exeunt Pages, R.</stage>
+     </sp>
+     <sp who="#L0459_M1">
+      <speaker>Robert.</speaker>
+      <p>Then I may defy the worst!</p>
+     </sp>
+     <sp who="#L0459_F15">
+      <speaker>Isabel.</speaker>
+      <p>Thou knowest, perhaps, that my father has proclaimed my hand the prize of the tournay?</p>
+     </sp>
+     <sp who="#L0459_M1">
+      <speaker>Robert.</speaker>
+      <p>I know it, and am blest.</p>
+     </sp>
+     <sp who="#L0459_F15">
+      <speaker>Isabel.</speaker>
+      <p>But he did so because he deems his choice, the Prince of Grenada, invincible.</p>
+     </sp>
+     <pb n="20"/>
+     <sp who="#L0459_M1">
+      <speaker>Robert.</speaker>
+      <p>Invincible! He hath borne that title for the last time.</p>
+     </sp>
+     <sp who="#L0459_F15">
+      <speaker>Isabel.</speaker>
+      <p>He is looked for every moment, and, by my father's command, I must in this very place
+       receive and welcome him. Leave it not, I beseech you, that my eyes may dwell, with
+       anticipating joy, upon my deliverer. <stage>Robert kneels and kisses her hand—the Pages
+        re-enter bearing a rich suit of polished armour.</stage> Behold!</p>
+     </sp>
+     <sp who="#L0459_M1">
+      <speaker>Robert.</speaker>
+      <stage>(enthusiastically.)</stage>
+      <p>Armed by <emph>you</emph>, victory cannot fail to crown me.</p>
+     </sp>
+     <spGrp>
+      <head>DUET.—Isabel and Robert</head>
+      <sp who="#">
+       <l>Base fears, away now depart!</l>
+       <l>This/Thine arm shall win the fight.</l>
+       <l>High beats my bounding heart,</l>
+       <l>With hope and soft delight!</l>
+      </sp>
+     </spGrp>
+     <stage>Exit Isabel, followed by two of the Pages, R.—the other two remaining with the
+      armour.</stage>
+     <stage>Enter, from the terrace, Bertram, with Demon-Herald.</stage>
+     <sp who="#L0459_M2">
+      <speaker>Bertram.</speaker>
+      <stage>(apart to the Demon-Herald.)</stage>
+      <p>Astoroth hath placed thee under my orders, and I have fully instructed thee: Now, look thou
+       do my bidding well, or tremble!</p>
+     </sp>
+     <sp who="#L0459_M10">
+      <speaker>Demon.</speaker>
+      <p>Dread master, I will.</p>
+     </sp>
+     <sp who="#L0459_M2">
+      <speaker>Bertram.</speaker>
+      <p>Under thy guise of Herald, lead him hence, and lose his steps in the neighbouring
+       forest.</p>
+     </sp>
+     <sp who="#L0459_M10">
+      <speaker>Demon.</speaker>
+      <p>He shall not fail to follow me.</p>
+     </sp>
+     <sp who="#L0459_M1">
+      <speaker>Robert.</speaker>
+      <stage>(who has been gazing after Isabel.)</stage>
+      <p>Oh! would that instead of meeting my rival in harmless tilting, I had him before me in
+       single and deadly fight! <stage>(turning and seeing the false Herald.)</stage> What wouldst
+       thou?</p>
+     </sp>
+     <sp who="#L0459_M10">
+      <speaker>Demon.</speaker>
+      <p>To thee, Robert of Normandy, the Prince of Greneda, my master, sends formal challenge; and
+       by my voice defies thee, not to a pageant tournay, but to deadly combat.</p>
+     </sp>
+     <sp who="#L0459_M1">
+      <speaker>Robert.</speaker>
+      <stage>(with joy.)</stage>
+      <p>Ha! my dearest wish is granted! Where is he? Guide me to him.</p>
+     </sp>
+     <sp who="#L0459_M10">
+      <speaker>Demon.</speaker>
+      <p>Follow me; he waits thee in the neighbouring forest.</p>
+     </sp>
+     <sp who="#L0459_M1">
+      <speaker>Robert.</speaker>
+      <p>One of us shall never quit it more.</p>
+      <stage>Exit Robert, following the Demon Herald, and attended by the Two Pages, bearing his
+       armour.</stage>
+     </sp>
+     <pb n="21"/>
+     <sp who="#L0459_M2">
+      <speaker>Bertram.</speaker>
+      <stage>(advancing.)</stage>
+      <p>Ha, ha, ha!—go, and seek an empty shadow. Thou can'st not escape me, Robert; thou must be
+       mine alone. The King of Sicily and his daughter approach, and the Knights are preparing for
+       the tournament. Haste thee, Astoroth, the hour is come.</p>
+     </sp>
+     <stage>A confused crowd of Dancers, Singers, and Inhabitants of the city hasten down the
+      terrace steps, and group themselves in various parties.</stage>
+     <spGrp>
+      <head>CHORUS AND DANCE.</head>
+      <sp who="#">
+       <l>Whilst around music is sounding,</l>
+       <l>In the dance, joyously bounding,</l>
+       <l>Come and join this festive day!</l>
+       <l>Isabel, may fortune bless thee;</l>
+       <l>Fondly may its smiles caress thee,</l>
+       <l>And keep grief from thee ever away!</l>
+      </sp>
+     </spGrp>
+     <stage>During the above, enter, down the terrace steps, numerous Guards, Pages and Squires,
+      carrying the arms and distinguishing pennons of the different Knights from all nations. They
+      precede the King and Isabel, who are closely followed by the Nobles and Ladies of the court,
+      Alice and Arnaud, Robert's Followers, Town-People, Populace, &amp;c. The King and his Daughter
+      ascend a raised throne, R. U. E.</stage>
+     <sp who="#L0459_M3">
+      <speaker>King.</speaker>
+      <p>Warriors, and honoured signiors, ye are welcome to our court. The appointed hour is nigh
+       that will secure to the chosen of victory the sweetest prize that valour ever yet conquered
+       or received; and we now but wait the appearance of one justly dear to us, and by renown known
+       to ye all, even the Prince of Grenada, ere we bid the trumpet call ye to the lists.</p>
+     </sp>
+     <sp who="#L0459_M2">
+      <speaker>Bertram.</speaker>
+      <stage>(aside.)</stage>
+      <p>Haste thee, sluggish Astoroth!</p>
+     </sp>
+     <stage>Enter a Royal Herald-at-Arms.</stage>
+     <sp who="#L0459_M11">
+      <speaker>Herald.</speaker>
+      <p>Sire, the Prince of Grenada has entered the palace, and claims the honour of being armed
+       for the combat by the hands of the Princess Isabel.</p>
+     </sp>
+     <sp who="#L0459_M2">
+      <speaker>Bertram.</speaker>
+      <stage>(aside.)</stage>
+      <p>I triumph! The phantom duke is come, while Robert wanders in the mazes of the wood.</p>
+     </sp>
+     <sp who="#L0459_M3">
+      <speaker>King.</speaker>
+      <p>How now, daughter, hast thou no reply? Go, herald, tell the prince his boon is granted, and
+       our daughter awaits his coming.</p>
+      <stage>(Isabel mutely inclines her head to the Herald, who departs.</stage>
+     </sp>
+     <sp who="#L0459_F16">
+      <speaker>Alice.</speaker>
+      <stage>(aside.)</stage>
+      <p>Alas! where is Duke Robert? Honour calls him, yet he appears not.</p>
+     </sp>
+     <pb n="22"/>
+     <stage>The trumpets sound, and the Banner, two Pages, and two Squires of the pretended Prince
+      of Grenada precede Astoroth as he enters bareheaded in the armour of the Prince. He advances
+      to the King and Isabel, and receives from the latter, (who has taken them from his Pages,) his
+      casque and sword, while eight of his Attendant Knights sing the following chorus.</stage>
+     <spGrp>
+      <head>CHORUS.</head>
+      <sp who="#">
+       <l>Sound, trumpets, sound! your martial accents blending,</l>
+       <l>His praise proclaim whose banner we serve.</l>
+       <l>Sound, trumpets, sound! upon his shield descending,</l>
+       <l>Cupid and Mars his arm will nerve.</l>
+      </sp>
+     </spGrp>
+     <stage>(the Pages of the various Knights present them their arms at the same time.)</stage>
+     <sp who="#L0459_M2">
+      <speaker>Bertram.</speaker>
+      <stage>(approaching Astoroth, aside.)</stage>
+      <p>Remember, Astoroth, to claim the princess for thy bride.</p>
+     </sp>
+     <sp who="#L0459_M9">
+      <speaker>Ast.</speaker>
+      <p>I will not fail.</p>
+     </sp>
+     <sp who="#L0459_M3">
+      <speaker>King.</speaker>
+      <stage>(descending from the throne with Isabel.)</stage>
+      <p>Prince, and valourous knights, to horse! The tournament ended, I claim ye for my guests at
+       the royal banquet.</p>
+     </sp>
+     <sp who="#L0459_F15">
+      <speaker>Isabel.</speaker>
+      <stage>(aside.)</stage>
+      <p>Alas, in vain I strain my eyes; I behold him not. Doth he mock my love? Cruel thought! My
+       hand is the prize, and Robert's banner is absent!</p>
+     </sp>
+     <sp who="#L0459_M3">
+      <speaker>King.</speaker>
+      <p>Isabel, let thy voice proclaim the lists are open, and make the true hearts of chivalry
+       beat high at thy accents.</p>
+     </sp>
+     <spGrp>
+      <head>FINALE TO ACT I.</head>
+      <stage>(a loud call of trumpets is heard without.)</stage>
+      <sp who="#L0459_mult">
+       <speaker>Chorus of Knights.</speaker>
+       <l>The signal we hear and obey!</l>
+       <l>Its sound calls aloud—“Haste away.”</l>
+      </sp>
+      <sp who="#L0459_mult">
+       <speaker>Chorus of People.</speaker>
+       <l>Away!</l>
+      </sp>
+      <sp who="#L0459_F15">
+       <speaker>Isabel.</speaker>
+       <l>Its voice calls aloud—“Haste away.”</l>
+      </sp>
+     </spGrp>
+     <spGrp>
+      <head>AIR.—Isabel.</head>
+      <sp who="#">
+       <l>Hark! the trumpet afar</l>
+       <l>Rings its piercing call!</l>
+       <l>In the gay mimic war</l>
+       <l>Fly to conquer or fall.</l>
+      </sp>
+      <sp who="#L0459_mult">
+       <speaker>Alberti &amp; Knights.</speaker>
+       <l>Hark! hark, loud sounding,</l>
+       <l>The trumpets call!</l>
+       <l>Our hearts, high bounding,</l>
+       <l>In the gay mimic war</l>
+       <l>Fly to conquer or fall.</l>
+      </sp>
+      <pb n="23"/>
+      <sp who="#L0459_F15">
+       <speaker>Isabel.</speaker>
+       <l>Where fame invites, the warrior flies</l>
+       <l>With swelling heart his might to prove;</l>
+       <l>He bravely fights, and nobly dies</l>
+       <l>For glory and his lady-love!</l>
+      </sp>
+      <sp who="#L0459_mult">
+       <speaker>Full Chorus.</speaker>
+       <l>Hark! The trumpet afar</l>
+       <l>Rings its piercing call.</l>
+       <l>In the gay mimic war</l>
+       <l>Fly to conquer or fall.</l>
+      </sp>
+     </spGrp>
+     <stage>(at the conclusion of Isabel's strain, the King leads her away, ascending the stairs,
+      followed by Astoroth and Bertram; the Knights and Guards fall into order, and march singing
+      the concluding bars of the chorus; while the rest, crowding after them, close the Procession
+      as the curtain descends.</stage>
+     <trailer>End of Act I.</trailer>
+    </div>
+   </div>
+   <div type="act">
+    <head>ACT II.</head>
+    <div type="scene">
+     <head>SCENE I.</head>
+     <stage>The Rocks of Irene. A Wild and Desolate Spot. On L. are the ruins of an ancient
+      temple—the descent to its vaults perceptible. Somewhat towards R. stands, on a raised
+      pedestal, a lofty wooden cross, with circular steps of ascent.</stage>
+     <stage>On the rising of the curtain, at the end of the Entr'acte Music, Bertram and Astoroth,
+      the latter still as the Prince of Grenada, are discovered close to the temple ruins.</stage>
+     <sp who="#L0459_M2">
+      <speaker>Bertram.</speaker>
+      <p>Thus far, Ashtoroth, thou perfect semblance of Grenada's Prince, thou hast most well obeyed
+       my behests. Thou hast conquered in the tournament.</p>
+     </sp>
+     <sp who="#L0459_M9">
+      <speaker>Ast.</speaker>
+      <p>All who opposed me.</p>
+     </sp>
+     <sp who="#L0459_M2">
+      <speaker>Bertram.</speaker>
+      <p>Thou hast won the prize.</p>
+     </sp>
+     <sp who="#L0459_M9">
+      <speaker>Ast.</speaker>
+      <p>The Princess Isabel. She is to be my bride, and I receive her hand at midnight.</p>
+     </sp>
+     <sp who="#L0459_M2">
+      <speaker>Bertram.</speaker>
+      <p>Another conquest for our gloomy realm!</p>
+     </sp>
+     <sp who="#L0459_M9">
+      <speaker>Ast.</speaker>
+      <p>When wilt thou disclose thyself to thy mortal son?</p>
+     </sp>
+     <sp who="#L0459_M2">
+      <speaker>Bertram.</speaker>
+      <p>When I have bound his soul so fast in the meshes of crime that we can never be parted in
+       the next world. His career has long been a promising one; but this very night I will allure
+       him to a sacrilegious deed of fatal temptation.</p>
+     </sp>
+     <sp who="#L0459_M9">
+      <speaker>Ast.</speaker>
+      <p>And that is—</p>
+     </sp>
+     <pb n="24"/>
+     <sp who="#L0459_M2">
+      <speaker>Bertram.</speaker>
+      <p>To pluck the Magic Branch from the holy tomb of St. Rosalie. That done, he is surely ours;
+       for, possession of unchecked power will lead his heart to sin, and sin—leads unto
+        <emph>us</emph>.</p>
+     </sp>
+     <sp who="#L0459_M9">
+      <speaker>Ast.</speaker>
+      <p>I must now attend our sovereign within these ruin vaults. Thou knowest we are all summoned
+       at this hour.</p>
+     </sp>
+     <stage>Enter Arnaud up one of the rocky passes at the back.</stage>
+     <sp who="#L0459_M4">
+      <speaker>Arnaud.</speaker>
+      <p>I fancy I'm the first at the appointment, for I don't see Al—Eh! company here? I'll ask
+       them civilly if they've seen my Alice.</p>
+     </sp>
+     <sp who="#L0459_M2">
+      <speaker>Bertram.</speaker>
+      <stage>to Astoroth.</stage>
+      <p>I'll shortly follow thee.</p>
+     </sp>
+     <sp who="#L0459_M9">
+      <speaker>Ast.</speaker>
+      <p> 'Tis well.</p>
+      <stage>He enters the ruins, and a flash of fire attends his steps.</stage>
+     </sp>
+     <sp who="#L0459_M4">
+      <speaker>Arnaud.</speaker>
+      <stage>who was advancing, runs back in extreme terror with a loud cry.</stage>
+      <p>Ah! Mercy upon me! I'm singed!</p>
+     </sp>
+     <sp who="#L0459_M2">
+      <speaker>Bertram.</speaker>
+      <stage>turning hastily round.</stage>
+      <p>That fool here?</p>
+     </sp>
+     <sp who="#L0459_M4">
+      <speaker>Arnaud.</speaker>
+      <stage>with his hands over his eyes.</stage>
+      <p>Fire! Murder! Oh!</p>
+     </sp>
+     <sp who="#L0459_M2">
+      <speaker>Bertram.</speaker>
+      <p>What now, idiot minstrel?</p>
+     </sp>
+     <sp who="#L0459_M4">
+      <speaker>Arnaud.</speaker>
+      <stage>falling on his knees.</stage>
+      <p>Don't roast me alive! spare me for my wife's sake.</p>
+     </sp>
+     <sp who="#L0459_M2">
+      <speaker>Bertram.</speaker>
+      <p>Has a passing lightning-flash scared away thy wits?</p>
+     </sp>
+     <sp who="#L0459_M4">
+      <speaker>Arnaud.</speaker>
+      <p>Lightning out of the earth?</p>
+     </sp>
+     <sp who="#L0459_M2">
+      <speaker>Bertram.</speaker>
+      <p>So it seemed to thee. Chase away thy foolish terror. Thou art the Norman peasant I saw this
+       morning?</p>
+     </sp>
+     <sp who="#L0459_M4">
+      <speaker>Arnaud.</speaker>
+      <p>Ay, when Duke Robert purposed to hang me on the nearest tree; but he didn't though.</p>
+     </sp>
+     <sp who="#L0459_M2">
+      <speaker>Bertram.</speaker>
+      <p>Just like him; he never carries through his good intentions.</p>
+     </sp>
+     <sp who="#L0459_M4">
+      <speaker>Arnaud.</speaker>
+      <p>Good intentions!</p>
+     </sp>
+     <sp who="#L0459_M2">
+      <speaker>Bertram.</speaker>
+      <p>What brings thee to this unfrequented spot?</p>
+     </sp>
+     <sp who="#L0459_M4">
+      <speaker>Arnaud.</speaker>
+      <p>My future wife, who appointed me to meet her here; we are to be married to-day. Sweet
+       Alice! To be sure, as far as <emph>fortune</emph> goes, she's worth nothing—and I'm worth
+       just as much—but it can't be helped. If it weren't for that we should be the most enviable
+       couple ever yet coupled.</p>
+     </sp>
+     <sp who="#L0459_M2">
+      <speaker>Bertram.</speaker>
+      <p>Is it so? Well then, there—take that dross.</p>
+      <stage>tossing him a purse.</stage>
+     </sp>
+     <sp who="#L0459_M4">
+      <speaker>Arnaud.</speaker>
+      <stage>with wonder and rapture.</stage>
+      <p>Eh! dross? <stage>opening the purse.</stage> By the faith of a Norman, it's true, pure,
+       sensible gold! <stage>rubbing his eyes.</stage> Am I asleep, or am I awake? No matter; I'm
+       perfectly satisfied either way.</p>
+     </sp>
+     <sp who="#L0459_M2">
+      <speaker>Bertram.</speaker>
+      <stage>aside, eying him with contempt.</stage>
+      <p>And that's what creature man calls happiness! why then, I too, can make man happy at my
+       will.</p>
+     </sp>
+     <pb n="25"/>
+     <sp who="#L0459_M4">
+      <speaker>Arnaud.</speaker>
+      <stage>aside.</stage>
+      <p>What a good soul! How wrong it is to take people by their outside.</p>
+     </sp>
+     <sp who="#L0459_M2">
+      <speaker>Bertram.</speaker>
+      <stage>aside.</stage>
+      <p>Weak humanity! Easily won, and scarce worth the winning. <stage>to Arnaud.</stage> And so,
+       boy, thou art going to marry?</p>
+     </sp>
+     <sp who="#L0459_M4">
+      <speaker>Arnaud.</speaker>
+      <p>Yes, please your super-excellent excellence.</p>
+     </sp>
+     <sp who="#L0459_M2">
+      <speaker>Bertram.</speaker>
+      <p>What folly!</p>
+     </sp>
+     <sp who="#L0459_M4">
+      <speaker>Arnaud.</speaker>
+      <p>What folly? Come, I don't think it's any folly at all. My Alice is a rare tit-bit for
+       anybody; and she's not only fair, but she's right sensible—witness her choosing <emph>me
+       </emph>for a husband in preference to all Normandy. That shews her no fool.</p>
+     </sp>
+     <sp who="#L0459_M2">
+      <speaker>Bertram.</speaker>
+      <p>But it shews <emph>thee</emph> a fool to <emph>let</emph> thyself be chosen. Thou art an
+       exceedingly proper, wellshaped and attractive youth; and were I in thy place, I would choose
+       wheresoever I listed.</p>
+     </sp>
+     <sp who="#L0459_M4">
+      <speaker>Arnaud.</speaker>
+      <p>You would choose?</p>
+     </sp>
+     <sp who="#L0459_M2">
+      <speaker>Bertram.</speaker>
+      <p>I tell thee I would choose.</p>
+     </sp>
+     <sp who="#L0459_M4">
+      <speaker>Arnaud.</speaker>
+      <p>But<emph> what</emph> would you choose?</p>
+     </sp>
+     <sp who="#L0459_M2">
+      <speaker>Bertram.</speaker>
+      <stage> What pleased me most</stage>
+     </sp>
+     <sp who="#L0459_M4">
+      <speaker>Arnaud.</speaker>
+      <p>Well, I've done so exactly.</p>
+     </sp>
+     <sp who="#L0459_M2">
+      <speaker>Bertram.</speaker>
+      <p>Tush! I would fly at higher game than thy buzzard-eye has fastened on. Thou art now
+        <emph>rich</emph>, and I would lay my signiory to a beggar's wallet that the fairest of
+       Palermo's dames would wrangle for thy love.</p>
+     </sp>
+     <sp who="#L0459_M4">
+      <speaker>Arnaud.</speaker>
+      <p>Now do you really think so?</p>
+     </sp>
+     <sp who="#L0459_M2">
+      <speaker>Bertram.</speaker>
+      <p>I feel assured of it.</p>
+     </sp>
+     <sp who="#L0459_M4">
+      <speaker>Arnaud.</speaker>
+      <p>Well, now, to be sure—such a great man as you ought to know better than a little man like
+       me. <stage>aside.</stage> I like him more and more every minute.</p>
+     </sp>
+     <sp who="#L0459_M2">
+      <speaker>Bertram.</speaker>
+      <p>Take my word for it, happiness consists in variety.</p>
+     </sp>
+     <sp who="#L0459_M4">
+      <speaker>Arnaud.</speaker>
+      <p>And to be happy is just what I want.</p>
+     </sp>
+     <sp who="#L0459_M2">
+      <speaker>Bertram.</speaker>
+      <p>Then be bold and ape thy betters. Be reckless, capricious, heartless, and fashionable!
+       Follow my advice, and— <stage>pointedly.</stage> we may become better acquainted.</p>
+     </sp>
+     <sp who="#L0459_M4">
+      <speaker>Arnaud.</speaker>
+      <stage>bowing very deferentially.</stage>
+      <p>I desire the honour with all my heart. Then it seems, according to your agreeable advice, I
+       may just indulge myself as I please?</p>
+     </sp>
+     <sp who="#L0459_M2">
+      <speaker>Bertram.</speaker>
+      <p>Surely thou may'st. What men foolishly call <emph>sin</emph>—<stage>contemptuously
+        shrugging up his shoulders.</stage> is <emph>pleasure</emph>; and when we are no longer
+        <emph>able</emph> to sin, then comes the proper time for repentance.</p>
+     </sp>
+     <sp who="#L0459_M4">
+      <speaker>Arnaud.</speaker>
+      <p>I like your doctrine of all things! The devil fetch me if I don't! I'll go and preach it to
+       all my companions, and, as a first step, <stage>chinking the purse.</stage> I'll treat 'em
+       all to drink.</p>
+     </sp>
+     <pb n="26"/>
+     <sp who="#L0459_M2">
+      <speaker>Bertram.</speaker>
+      <stage>laughing.</stage>
+      <p>To drink! capital! 'Tis the best first step I could counsel thee! it leads to all else. Ha,
+       ha, ha! excellent.</p>
+      <stage>he retires up towards the ruins, and seems to listen down the vaults.</stage>
+     </sp>
+     <sp who="#L0459_M4">
+      <speaker>Arnaud.</speaker>
+      <p>I never met with a more delightful gentleman in all my life. And what a musical laugh he
+       has! I sincerely hope we shall become better acquainted; for I like his <emph>sayings</emph>,
+       and <stage>ringing the purse.</stage> I like his <emph>doings</emph> most particularly.
+        <stage>approaching Bertram with great respect.</stage> With grateful thanks for your kind
+       interest, I take my leave.</p>
+     </sp>
+     <sp who="#L0459_M2">
+      <speaker>Bertram.</speaker>
+      <p>I <emph>do</emph> take an interest in thee, and thou shalt find so.</p>
+     </sp>
+     <spGrp>
+      <head>DUET.—Bertram and Arnaud.</head>
+      <sp who="#L0459_M2">
+       <speaker>Bertram.</speaker>
+       <l>Remember well what I have told thee!</l>
+      </sp>
+      <sp who="#L0459_M4">
+       <speaker>Arnaud.</speaker>
+       <l>You may depend I'll not forget.</l>
+      </sp>
+      <sp who="#L0459_M2">
+       <speaker>Bertram.</speaker>
+       <l>Sin is but pleasure.</l>
+      </sp>
+      <sp who="#L0459_M4">
+       <speaker>Arnaud.</speaker>
+       <l>“Sin is but pleasure;”</l>
+       <l>All you have told me</l>
+       <l>In mind I'll treasure.</l>
+      </sp>
+      <sp who="#L0459_M2">
+       <speaker>Bertram.</speaker>
+       <l>Never think; but drive care away;</l>
+       <l>Gamble and drink; love and be gay;</l>
+       <l>Dream but of joy; heed not to pray.</l>
+      </sp>
+      <sp who="#L0459_M4">
+       <speaker>Arnaud.</speaker>
+       <l>You'd have me then—</l>
+      </sp>
+      <sp who="#L0459_M2">
+       <speaker>Bertram.</speaker>
+       <l>Do as I say.</l>
+       <l>Be with the world as gay as they;</l>
+       <l>Run thee in debt; nor care to pay;</l>
+       <l>If money run short, then run away.</l>
+      </sp>
+      <sp who="#L0459_M4">
+       <speaker>Arnaud.</speaker>
+       <l>That's the best way?</l>
+      </sp>
+      <sp who="#L0459_M2">
+       <speaker>Bertram.</speaker>
+       <l>That's the best way.</l>
+      </sp>
+      <sp who="#L0459_M4">
+       <speaker>Arnaud.</speaker>
+       <stage>pondering.</stage>
+       <l>Well now, I protest,</l>
+       <l>It must be confest,</l>
+       <l>There's nothing, I'm sure,</l>
+       <l>Half so pleasant in life</l>
+       <l>As to do just the thing you like best.</l>
+      </sp>
+      <sp who="#L0459_M2">
+       <speaker>Bertram.</speaker>
+       <l>The doctrine is pure.</l>
+      </sp>
+      <sp who="#L0459_M4">
+       <speaker>Arnaud.</speaker>
+       <l>Pleasure complete!</l>
+      </sp>
+      <sp who="#L0459_M2">
+       <speaker>Bertram.</speaker>
+       <l>Nothing so sweet.</l>
+      </sp>
+      <sp who="#L0459_M4">
+       <speaker>Arnaud.</speaker>
+       <l>To laugh and play,</l>
+       <l>Secure from strife,</l>
+       <l>Enjoying one's life</l>
+       <l>Both night and day!</l>
+      </sp>
+      <sp who="#L0459_M2">
+       <speaker>Bertram.</speaker>
+       <stage>aside.</stage>
+       <l>Poor simple fool,</l>
+       <l>He's easily caught;</l>
+       <l>He'll honour the school</l>
+       <l>At which he's been taught.</l>
+      </sp>
+      <pb n="27"/>
+      <sp who="#L0459_M4">
+       <speaker>Arnaud.</speaker>
+       <stage>as before.</stage>
+       <l>There's nothing, I'm sure</l>
+       <l>Half so pleasant in life, &amp;c.</l>
+      </sp>
+      <sp who="#L0459_mult">
+       <speaker>Arnaud &amp; Bertram.</speaker>
+       <l>To laugh and play, &amp;c.</l>
+       <stage>Exit Arnaud, joyfully, R.</stage>
+      </sp>
+     </spGrp>
+     <sp who="#L0459_M2">
+      <speaker>Bertram.</speaker>
+      <p>Another soul gained! Ha, ha, ha! a mighty conquest truly! But I laugh at his coming misery,
+       forgetful of my own approaching trial. Hell's mighty conclave, presided by its sovereign, is
+       within these caverns met, and I must haste to join it. This moment will determine all, and
+       turn uncertainty to sureness. Yes!</p>
+     </sp>
+     <spGrp>
+      <stage>RECITATIVE.—Bertram.</stage>
+      <sp who="#">
+       <l>Now the hour is arriv'd! Robert's fate is decided!</l>
+       <l>He must be mine and mine alone.</l>
+       <l>Yes, the truth to his own ear must this day be confided,</l>
+       <l>And, even now, like his, my own fate must be known.</l>
+       <stage>approaching the ruins.</stage>
+       <l>Ruler of the fallen host! Thy will's obey'd. I tremble!</l>
+       <l>He is there, and I'm call'd! Yes, the loud bursts I hear</l>
+       <l>Of their wild hellish rapture! Often thus they assemble</l>
+       <l>Upon this earthy ball, shaking mortals with fear!</l>
+      </sp>
+     </spGrp>
+     <spGrp>
+      <head>INFERNAL WALTZ.</head>
+      <stage>chorus and dance of <hi rend="italic">Invisible Demons</hi> within the vaults.</stage>
+      <sp who="#">
+       <l>Black Demons attending,</l>
+       <l>In circle dance round;</l>
+       <l>Beneath us earth bending,</l>
+       <l>As joyful, we bound.</l>
+      </sp>
+     </spGrp>
+     <spGrp>
+      <head>AIR.—Bertram.</head>
+      <sp who="#L0459_M2">
+       <speaker>Bertram.</speaker>
+       <l>Oh, my son—now's the hour!</l>
+       <l>For thee, long lov'd so well,</l>
+       <l>I've defy'd holy pow'r,</l>
+       <l>And would defy e'en hell!</l>
+      </sp>
+      <sp who="#L0459_mult">
+       <speaker>Demons.</speaker>
+       <stage>within.</stage>
+       <l>Prince of darkness, we adore thee!</l>
+       <l>All of evil bends before thee.</l>
+       <stage>Exit Bertram into the ruins, L. U. E. and three flashes of fire ascend from the
+        entrance.</stage>
+      </sp>
+     </spGrp>
+     <stage>The previous darkness gradually clears away, and Alice is seen slowly and carefully
+      coming down the slope of a hill at the back, during the soft symphony following Bertram's
+      disappearance.</stage>
+     <pb n="28"/>
+     <spGrp>
+      <head>RECITATIVE.—Alice.</head>
+      <stage>calling once or twice as she descends.</stage>
+      <sp who="#L0459_F16">
+       <speaker>Alice.</speaker>
+       <l>Arnaud! Arnaud! In this wild lonely desert,</l>
+       <l>Only echo replies, and my heart throbs with fear.</l>
+       <l>There's no one near;</l>
+       <l>Where can the man have tarried?</l>
+       <l>To keep me waiting here!</l>
+       <l>What a shame! 'Twere bad enough</l>
+       <l>E'en if we were already married.</l>
+       <stage>AIR.</stage>
+       <l>When from dear Normandy I came,</l>
+       <l>Thus did an aged hermit say:—</l>
+       <l>“Thou shalt be married, pretty dame,</l>
+       <l>“To one whose love will ne'er decay!”</l>
+       <l>Ah me! I still wait the day.</l>
+       <stage>joining her hands in supplication.</stage>
+       <l>Thou o'er poor maids distrest presiding,</l>
+       <l>Who still help'st all in thee confiding,</l>
+       <l>My protection now deign to be,</l>
+       <l>Thy kindly aid extend to me!</l>
+       <stage>looking round.</stage>
+       <l>Where stays he yet?</l>
+       <l>Oft, with a sigh would he exclaim,</l>
+       <l>“Absent from thee, I know no joy!”</l>
+       <l>Yet, p'rhaps now, to some other flame,</l>
+       <l>Faithless man! he says just the same;</l>
+       <l>Whilst I still wait and sigh.</l>
+       <l>Oh, patron-saint of virgins all!</l>
+       <l>Protecting pow'r, my guardian prove!</l>
+       <l>On thy name now hear me call;</l>
+       <l>Deign thou to smile upon my love!</l>
+      </sp>
+     </spGrp>
+     <sp who="#">
+      <p>Dear, dear! where can the man<emph> be</emph>? To find myself<emph> by</emph> myself, in
+       such a wild place is more than I bargained for; I've been all of a tremble for the last half
+       hour! But near this symbol of peace, <stage>kneeling reverently on the step of the
+        cross.</stage> my heart feels quieter; I feel very weary though—<stage>sitting on the
+        circular stone.</stage> ay, and very vexed. A lover, and treat me so? What am I to expect
+       when he becomes my husband? Heigho! I wonder when that happy moment is to arive.</p>
+     </sp>
+     <stage>the daylight becomes suddenly obscured, and the fiendish strain is heard as before.
+      Alice starts up, and looks with extreme terror towards the ruins.</stage>
+     <pb rend="pagebreak" n="29"/>
+     <spGrp>
+      <head>RECITATIVE.—Alice.</head>
+      <sp who="#">
+       <l>Preserve me, Heav'n! Those sounds my heart appal!</l>
+       <l>No help, no protector is near;</l>
+       <l>Let me fly!</l>
+      </sp>
+      <sp who="#L0459_mult">
+       <speaker>Demons.</speaker>
+       <stage>within the ruins.</stage>
+       <l>Robert, Robert, bring here!</l>
+      </sp>
+      <sp who="#L0459_F16">
+       <speaker>Alice.</speaker>
+       <l>Some name they fiercely call.</l>
+      </sp>
+      <sp who="#L0459_mult">
+       <speaker>Demons.</speaker>
+       <l>Robert, thy son, bring here!</l>
+      </sp>
+      <sp who="#L0459_F16">
+       <speaker>Alice.</speaker>
+       <l>Ha! Robert's name loud they sound!</l>
+       <l>Some fearful danger his steps may surround!</l>
+       <l>The darkness that pervades the vault</l>
+       <l>My approach perhaps may hide.</l>
+       <stage>she advances towards the cavern-mouth, when a flame of fire flashes up before her. She
+        flies back, hiding her face in terror.</stage>
+       <l>Horrid spot! Red fire flashes from the ground!</l>
+       <l>Yet I'll on.</l>
+       <stage>dropping on her knees.</stage>
+       <l>To Thee I pray! Be thou my guide!</l>
+       <l>Thou who a feeble child—yea, e'en a timid maid</l>
+       <l>Ere now hast call'd, 'tis said,</l>
+       <l>To do thy high command,</l>
+       <l>Stretch forth thy guardian hand!</l>
+       <stage>rising, she advances to the subterranean entrance, L. U. E. and, looking down the
+        steps of the vaults, appears anxiously to listen. Suddenly she utters a loud shriek, and
+        staggering faintly towards the cross, sinks upon the steps around it.</stage>
+      </sp>
+     </spGrp>
+     <stage>Re-enter Bertram, L., with a haggard and agitated look.</stage>
+     <sp who="#L0459_M2">
+      <speaker>Bertram.</speaker>
+      <p>The decree is pronounced! fatal and irrevocable! Fearful sentence! Robert must be lost to
+       me for ever, unless, <emph> of his own free will,</emph> he yield himself mine this very
+       night, before midnight!</p>
+     </sp>
+     <sp who="#L0459_F16">
+      <speaker>Alice.</speaker>
+      <stage>recovering herself with effort.</stage>
+      <p>To-night! Before midnight! Horrible!</p>
+     </sp>
+     <sp who="#L0459_M2">
+      <speaker>Bertram.</speaker>
+      <p>Ha! some one spoke. What daring mortal— <stage>'Tis the peasant's bride! What has she
+        heard? What does she know?</stage>
+       <stage>shrinkingly.</stage> The sign of safety shields her— but her agitation tells me
+       all.</p>
+     </sp>
+     <sp who="#L0459_F16">
+      <speaker>Alice.</speaker>
+      <stage>rising feebly to her feet.</stage>
+      <p>My strength fails me; I cannot fly.</p>
+     </sp>
+     <sp who="#L0459_M2">
+      <speaker>Bertram.</speaker>
+      <stage>with winning softness.</stage>
+      <p>What aileth thee, sweet Alice?</p>
+     </sp>
+     <sp who="#L0459_F16">
+      <speaker>Alice.</speaker>
+      <stage>aside.</stage>
+      <p>Horror! 'Tis the fiend!</p>
+     </sp>
+     <sp who="#L0459_M2">
+      <speaker>Bertram.</speaker>
+      <p>Come hither, gentle maid! come nigh me.</p>
+     </sp>
+     <pb rend="pagebreak" n="30"/>
+     <sp who="#L0459_F16">
+      <speaker>Alice.</speaker>
+      <stage>recoiling.</stage>
+      <p>I cannot.</p>
+     </sp>
+     <sp who="#L0459_M2">
+      <speaker>Bertram.</speaker>
+      <p>Tell me—what hast thou heard?</p>
+     </sp>
+     <sp who="#L0459_F16">
+      <speaker>Alice.</speaker>
+      <stage>trembling.</stage>
+      <p>Heard? nothing—nothing.</p>
+     </sp>
+     <sp who="#L0459_M2">
+      <speaker>Bertram.</speaker>
+      <p>Nay, then, what hast thou seen, child?</p>
+     </sp>
+     <sp who="#L0459_F16">
+      <speaker>Alice.</speaker>
+      <p>Nothing.</p>
+     </sp>
+     <sp who="#L0459_M2">
+      <speaker>Bertram.</speaker>
+      <stage>exulting, aside.</stage>
+      <p>Her excessive fear will engender lies, and make her my prey.</p>
+     </sp>
+     <sp who="#L0459_F16">
+      <speaker>Alice.</speaker>
+      <stage>aside.</stage>
+      <p>His voice thrills me with horror! I faint!</p>
+     </sp>
+     <sp who="#L0459_M2">
+      <speaker>Bertram.</speaker>
+      <stage>making a step towards her.</stage>
+      <p>Approach, and let thy charms—</p>
+     </sp>
+     <sp who="#L0459_F16">
+      <speaker>Alice.</speaker>
+      <stage>with sudden energy, flying up the steps to the wooden cross, and clinging to
+       it.</stage>
+      <p>Avaunt! Begone, foul fiend!</p>
+     </sp>
+     <spGrp>
+      <head>RECITATIVE DIALOGUE</head>
+      <sp who="#L0459_M2">
+       <speaker>Bertram.</speaker>
+       <stage>with a fierce burst of rage.</stage>
+       <l>Ha! thou know'st me, 'tis clear!</l>
+       <l>With bold and fearless eye,</l>
+       <l>Into that which may destroy thee</l>
+       <l>Thou hast ventured to pry.</l>
+       <l>But, (e'en when none are nigh thee)</l>
+       <l>Should'st <emph>name</emph> what thou'st seen here,</l>
+       <l>Thou shalt die that same hour.</l>
+      </sp>
+      <sp who="#L0459_F16">
+       <speaker>Alice.</speaker>
+       <stage>(boldly.)</stage>
+       <l>Thy darkest evil do,</l>
+       <l>O'er me thou hast no pow'r;</l>
+       <stage>(unconsciously advancing towards him, and with great force)</stage>
+       <l>I hate, and I defy thee!</l>
+      </sp>
+      <sp who="#L0459_M2">
+       <speaker>Bertram.</speaker>
+       <stage>suddenly getting between her and the cross.</stage>
+       <l>Thou shalt die—thou, thy lover too.</l>
+      </sp>
+      <sp who="#L0459_F16">
+       <speaker>Alice.</speaker>
+       <stage>struck with fear.</stage>
+       <l>Alas!</l>
+       <l>Next, thy aged father! thy friends! thy all of kin!</l>
+       <stage>(with a triumphant and ferocious smile.</stage>
+       <l>Thou'st sought it all—the deed is thine;</l>
+       <l>We are now, both, partners joined in sin,</l>
+       <l>And from this time thou'rt wholly mine!</l>
+       <stage>(Alice, who, breathless and crouching to the earth, has remained shrinking beneath the
+        Fiend's denunciation, now screams in horror, and hiding her face in her hands, flies from
+        him to the L. C.—Bertram looks off, R. H., and continues.</stage>
+       <l>'Tis Robert! Remember, not a breath;</l>
+       <l>Be dumb, or else—thy doom is death.</l>
+      </sp>
+     </spGrp>
+     <stage>Enter Robert, R. H., sad and pensive, and without noticing Bertram or Alice.</stage>
+     <pb rend="pagebreak" n="31"/>
+     <spGrp>
+      <head>TRIO.</head>
+      <sp who="#L0459_M2">
+       <speaker>Bertram.</speaker>
+       <stage>aside.</stage>
+       <l>By heavy grief he seems opprest;</l>
+       <l>The snares I've laid he cannot fly;</l>
+       <l>But I must hide from every eye</l>
+       <l>The doubts and fears that fill my breast.</l>
+      </sp>
+      <sp who="#L0459_M1">
+       <speaker>Robert.</speaker>
+       <stage>aside.</stage>
+       <l>By heavy grief my soul's opprest;</l>
+       <l>To find relief I fain would try;</l>
+       <l>But I must hide from ev'ry eye</l>
+       <l>The doubts and fears that fill my breast.</l>
+      </sp>
+      <sp who="#L0459_F16">
+       <speaker>Alice.</speaker>
+       <stage>aside.</stage>
+       <l>By heavy grief he seems opprest;</l>
+       <l>To save him yet I fain would try;</l>
+       <l>But I must hide from ev'ry eye</l>
+       <l>The doubts and fears that fill my breast.</l>
+       <stage>Exit Alice, L.</stage>
+      </sp>
+     </spGrp>
+     <sp who="#L0459_M1">
+      <speaker>Robert.</speaker>
+      <p>Bertram, we are alone; give me counsel to quiet my despair! I am lost—dishonoured!—Baffled
+       and overreached by a detested rival—my steps lured after a vain phantom—I have be wandering
+       in a wilderness while the accursed Prince of Grenada, conqueror at the tournay, has won my
+       Isabel, and this very midnight, in Palermo's Cathedral, receives her hand. My only hope is in
+       thee! Thou has sworn never to forsake me.</p>
+     </sp>
+     <sp who="#L0459_M2">
+      <speaker>Bertram.</speaker>
+      <p>And nought but hell's strongest power shall make me forsworn. Hark to me, Robert—thou hast
+       fallen into a dark snare, and hast been the victim of foul magic arts.</p>
+     </sp>
+     <sp who="#L0459_M1">
+      <speaker>Robert.</speaker>
+      <p>Ha!</p>
+     </sp>
+     <sp who="#L0459_M2">
+      <speaker>Bertram.</speaker>
+      <p>By unholy means hath thy rival detroyed thy projects. He thereunto employed the resistless
+       charms and potent spells of infernal spirits.</p>
+     </sp>
+     <sp who="#L0459_M1">
+      <speaker>Robert.</speaker>
+      <p>What then, is to be done?</p>
+     </sp>
+     <sp who="#L0459_M2">
+      <speaker>Bertram.</speaker>
+      <p>Foil him with his own evil weapons. Imitate, and crush him.</p>
+     </sp>
+     <sp who="#L0459_M1">
+      <speaker>Robert.</speaker>
+      <p>But the means? Be there secrets of power to conjure up invisible spirits?</p>
+     </sp>
+     <sp who="#L0459_M2">
+      <speaker>Bertram.</speaker>
+      <p>Ay! from the viewless air—from the fathomless sea—from the bowels of the earth—and from the
+       regions of everlasting fire.</p>
+     </sp>
+     <sp who="#L0459_M1">
+      <speaker>Robert.</speaker>
+      <p>Dost know those secrets? answer.</p>
+     </sp>
+     <sp who="#L0459_M2">
+      <speaker>Bertram.</speaker>
+      <p>I <emph>do</emph> know them.</p>
+     </sp>
+     <pb rend="pagebreak" n="32"/>
+     <sp who="#L0459_M1">
+      <speaker>Robert.</speaker>
+      <p>Ha! how comest thou by the unhallowed knowledge? Speak! who art thou, Bertram? Silent!</p>
+     </sp>
+     <sp who="#L0459_M2">
+      <speaker>Bertram.</speaker>
+      <p>Thou shalt know me in good time. Till then, look on me as thy best friend, and trust me.
+       These mysteries, all-terrible as they are, yet are nothing to the man who has a daring and
+       determined heart. Hast thou such a one?</p>
+     </sp>
+     <sp who="#L0459_M1">
+      <speaker>Robert.</speaker>
+      <stage>indignantly.</stage>
+      <p>Bertram!</p>
+     </sp>
+     <sp who="#L0459_M2">
+      <speaker>Bertram.</speaker>
+      <p>Frown not—I believe in thy valour. Now, answer me! What wouldst thou peril to possess a
+       talisman of such miraculous power that it bestows on its owner—wealth and immortality, and
+       the instant gratification of his every wish.</p>
+     </sp>
+     <sp who="#L0459_M1">
+      <speaker>Robert.</speaker>
+      <p>I would risk my life to obtain it. <emph>Be</emph> there such a charm?</p>
+     </sp>
+     <sp who="#L0459_M2">
+      <speaker>Bertram.</speaker>
+      <p>Ay! a simple branch of cypress is the awful and all-powerful spell.</p>
+     </sp>
+     <sp who="#L0459_M1">
+      <speaker>Robert.</speaker>
+      <p>Where is it to be sought—and when?</p>
+     </sp>
+     <sp who="#L0459_M2">
+      <speaker>Bertram.</speaker>
+      <p>The most propitious moment is close at hand; for the day is fading rapidly, and the full
+       moon will soon gain mastery of light.</p>
+     </sp>
+     <sp who="#L0459_M1">
+      <speaker>Robert.</speaker>
+      <p>But where lies it?</p>
+     </sp>
+     <sp who="#L0459_M2">
+      <speaker>Bertram.</speaker>
+      <p>On an ancient tomb.</p>
+     </sp>
+     <sp who="#L0459_M1">
+      <speaker>Robert.</speaker>
+      <stage>impatiently.</stage>
+      <p>But where? in what secret spot?</p>
+     </sp>
+     <sp who="#L0459_M2">
+      <speaker>Bertram.</speaker>
+      <p>Mark me, and heed well my words!</p>
+     </sp>
+     <spGrp>
+      <head>RECITATIVE DIALOGUE.</head>
+      <sp who="#L0459_M2">
+       <speaker>Bertram.</speaker>
+       <stage>mysteriously.</stage>
+       <l>Thou'st heard, no doubt, of the old abbey ruins,</l>
+       <l>Abandon'd long ago to the dark pow'rs of gloom?</l>
+      </sp>
+      <sp who="#L0459_M1">
+       <speaker>Robert.</speaker>
+       <l>I have.</l>
+      </sp>
+      <sp who="#L0459_M2">
+       <speaker>Bertram.</speaker>
+       <l>In the centre aisle</l>
+       <l>Of the pile</l>
+       <l>All lonely stands the tomb</l>
+       <l>Of Rosalie the blest.</l>
+      </sp>
+      <sp who="#L0459_M1">
+       <speaker>Robert.</speaker>
+       <l>Alas, with pain thou wring'st my breast!</l>
+       <l>As her's, the same</l>
+       <l>Was my lov'd mother's name.</l>
+      </sp>
+      <sp who="#L0459_M2">
+       <speaker>Bertram.</speaker>
+       <l>O'er that tomb waves the spell,</l>
+       <l>Distinct in darkest night</l>
+       <l>With green and paley light,</l>
+       <l>The branch of magic might,</l>
+       <l>Whose power awes the fiends of hell.</l>
+      </sp>
+      <sp who="#L0459_M1">
+       <speaker>Robert.</speaker>
+       <stage>anxiously.</stage>
+       <l>Proceed!</l>
+      </sp>
+      <sp who="#L0459_M2">
+       <speaker>Bertram.</speaker>
+       <stage>with solemn and emphatic earnestness.</stage>
+       <l>When midnight strikes,</l>
+       <l>Just then, at that silent dark hour of dread,</l>
+       <l>With hushed and cautious tread</l>
+       <pb rend="pagebreak" n="33"/>
+       <l>Must the mortal approach where are lying the dead.</l>
+      </sp>
+      <sp who="#L0459_M1">
+       <speaker>Robert.</speaker>
+       <stage>excitedly.</stage>
+       <l>What more? say on, say on!</l>
+      </sp>
+      <sp who="#L0459_M2">
+       <speaker>Bertram.</speaker>
+       <stage>impressively.</stage>
+       <l>Nor word, nor sound</l>
+       <l>Must breathe around,</l>
+       <l>Or the charm is gone!</l>
+       <l>The phantom shapes seen nigh,</l>
+       <l>As they glide, or flit by,</l>
+       <l>Must, unquestion'd, pass on.</l>
+       <l>With doleful wail</l>
+       <l>Dark pow'rs guard the prize;</l>
+       <l>Should the mortal's courage fail,</l>
+       <l>That very instant he dies!</l>
+       <l>Now, Robert, from off the tomb to bear</l>
+       <l>That branch of magic might,</l>
+       <l>Wilt thou dare, boldly dare</l>
+       <l>Enter alone—alone at dead of night?</l>
+      </sp>
+      <sp who="#L0459_M1">
+       <speaker>Robert.</speaker>
+       <l>Dare?</l>
+       <stage>DUET.—Robert and Bertram.</stage>
+       <l>Dost ask if I dare?</l>
+       <l>
+        <stage>proudly.</stage>The warriors of my native land,</l>
+       <l>Still brave and bold, no fear appals.</l>
+       <l>Guided on by valour's hand</l>
+       <l>I go where danger calls.</l>
+      </sp>
+      <sp who="#L0459_M2">
+       <speaker>Bertram.</speaker>
+       <l>The warriors of thy native land,</l>
+       <l>By all 'tis known, no fear appals;</l>
+       <l>Guided on by valour's hand</l>
+       <l>Then go where danger calls.</l>
+      </sp>
+      <sp who="#L0459_M1">
+       <speaker>Robert.</speaker>
+       <l>From off the sacred tomb the holy branch I'll tear,</l>
+       <l>And it shall be for me a proud triumphant palm.</l>
+      </sp>
+      <sp who="#L0459_M2">
+       <speaker>Bertram.</speaker>
+       <l>But horrors all unearthly thy boldness yet may calm?</l>
+      </sp>
+      <sp who="#L0459_M1">
+       <speaker>Robert.</speaker>
+       <l>No! no horrors my steps shall scare;</l>
+       <l>Tho' hell oppos'd I still would dare!</l>
+      </sp>
+      <sp who="#L0459_M2">
+       <speaker>Bertram.</speaker>
+       <stage>aside, darkly.</stage>
+       <l>Before thyself will I be there.</l>
+      </sp>
+      <sp who="#L0459_mult">
+       <speaker>Together.</speaker>
+       <l>The warriors of my/thy native land, &amp;c., &amp;c.</l>
+       <stage>Exit Robert, R. and Bertram into the ruins.</stage>
+      </sp>
+     </spGrp>
+    </div>
+    <div type="scene">
+     <head>SCENE II.</head>
+     <stage>The Outward Court of the Palace.</stage>
+     <sp who="#L0459_M4">
+      <speaker>Arnaud.</speaker>
+      <stage>outside, singing the burthen of his duet with Bertram.</stage>
+      <l>La-lal la-ra-la!-la-dal-diddle-dee!</l>
+     </sp>
+     <pb rend="pagebreak" n="34"/>
+     <stage>Enter Arnaud, jovially drunk, L.</stage>
+     <sp who="#L0459_M4">
+      <speaker>Arnaud.</speaker>
+      <p>I declare I feel—ha! ha! ha!—I feel, for all the world as if I was somebody else ever since
+       I met with that merry, agreeable, ill-looking, handsome gentleman, who gave me this handsome
+       purse. He was an excellent fellow; and my companions at the tavern—whom I've made very
+       completely drunk—are all excellent fellows; and I—who was almost in danger of getting pretty
+       completely drunk, too—I'm an excellent fellow myself. And then there's Alice, she's an
+       excellent fellow, too; and—and—Well, now, I never thought of that! I wonder what's
+        <emph>become</emph> of Alice? Though I'm so greatly superior to her, and worthy—as the
+       worthy gentleman said— of being pulled to pieces by the finest ladies of Palermo, I'm not so
+       hard-hearted, neither, as to wish to part with little Alice altogether. Why didn't she come
+       to the appointment? <stage>stopping short, and seeming to cogitate.</stage> Well, now, it's
+       very odd, but I can't get that stranger, and his words, and his lively ha, ha, ha! out of my
+       head, do what I will. How taken he seemed with me!—and how sensibly he spoke! Every word he
+       uttered is fixed here in my head.</p>
+     </sp>
+     <stage>Enter Alice at the back, L. D.</stage>
+     <sp who="#L0459_F16">
+      <speaker>Alice.</speaker>
+      <p>How can I save Duke Robert? There is but one hope; I must seek the princess, instantly.
+        <stage>seeing Arnaud.</stage> Can it be?—is not that Arnaud? He seems deep in thought.</p>
+     </sp>
+     <sp who="#L0459_M4">
+      <speaker>Arnaud.</speaker>
+      <p>“Thou art an exceeding proper, well-shaped, and attractive youth, and were I in thy place,
+       I'd marry every one I liked.” That's the first thing he said that particularly struck me.</p>
+     </sp>
+     <sp who="#L0459_F16">
+      <speaker>Alice.</speaker>
+      <stage>aside.</stage>
+      <p>'Tis he, indeed.</p>
+     </sp>
+     <sp who="#L0459_M4">
+      <speaker>Arnaud.</speaker>
+      <p>“Thou art a fool—”</p>
+     </sp>
+     <sp who="#L0459_F16">
+      <speaker>Alice.</speaker>
+      <stage>aside.</stage>
+      <p>He is muttering to himself.</p>
+     </sp>
+     <sp who="#L0459_M4">
+      <speaker>Arnaud.</speaker>
+      <p>“To let thyself be chosen.” That, to be sure, wasn't very civil in a stranger, especially
+       at a first introduction; but, however—</p>
+     </sp>
+     <sp who="#L0459_F16">
+      <speaker>Alice.</speaker>
+      <stage>advancing to him.</stage>
+      <p>Arnaud!</p>
+     </sp>
+     <sp who="#L0459_M4">
+      <speaker>Arnaud.</speaker>
+      <p>Eh—what, Alice? Dear me, art thou there, Alice? Bless my heart, how d'ye do, Alice?</p>
+     </sp>
+     <sp who="#L0459_F16">
+      <speaker>Alice.</speaker>
+      <p>Art not ashamed of thy conduct? Didst not promise to meet me an hour ago? Thou art a
+       scandal to the name of lover.</p>
+     </sp>
+     <sp who="#L0459_M4">
+      <speaker>Arnaud.</speaker>
+      <p>Hoity-toity! here's a loving beginning!</p>
+     </sp>
+     <sp who="#L0459_F16">
+      <speaker>Alice.</speaker>
+      <p>Dost thou not blush I, say?</p>
+     </sp>
+     <sp who="#L0459_M4">
+      <speaker>Arnaud.</speaker>
+      <p>Blush!—no one ever saw me blush yet. Blush, indeed!—why should I blush? <stage>assuming a
+        consequential air.</stage>
+       <pb rend="pagebreak" n="35"/> “I'm an exceeding proper, well-shaped, and attractive youth!
+       and the best of Palermo's dames would pull caps for my love.”</p>
+     </sp>
+     <sp who="#L0459_F16">
+      <speaker>Alice.</speaker>
+      <p>Goodness protect me! what nonsense is he uttering? Why, Arnaud, thou hast been
+       drinking?</p>
+     </sp>
+     <sp who="#L0459_M4">
+      <speaker>Arnaud.</speaker>
+      <p>Drinking? To be sure I've been drinking. “It's the first step I counsel thee—it leads to
+       all else—ha, ha, ha!”</p>
+      <stage>imitating the Demon's laugh.</stage>
+     </sp>
+     <sp who="#L0459_F16">
+      <speaker>Alice.</speaker>
+      <p>Wilt thou deny thou art a vile wretch?</p>
+     </sp>
+     <sp who="#L0459_M4">
+      <speaker>Arnaud.</speaker>
+      <stage>not attending to her.</stage>
+      <p>I'm to deny myself nothing I can obtain.</p>
+     </sp>
+     <sp who="#L0459_F16">
+      <speaker>Alice.</speaker>
+      <stage>angrily.</stage>
+      <p>Thou art a false, ungrateful brute.</p>
+     </sp>
+     <sp who="#L0459_M4">
+      <speaker>Arnaud.</speaker>
+      <p>Just so; I'm to “ape my betters and be fashionable.”</p>
+     </sp>
+     <sp who="#L0459_F16">
+      <speaker>Alice.</speaker>
+      <p>'Tis well; but thou shalt yet pay for this.</p>
+     </sp>
+     <sp who="#L0459_M4">
+      <speaker>Arnaud.</speaker>
+      <p>“Care not to pay; and if money runs short, then —run away.”</p>
+     </sp>
+     <sp who="#L0459_F16">
+      <speaker>Alice.</speaker>
+      <stage>bursting into tears.</stage>
+      <p>Alas! every sorrow besets me at once.</p>
+     </sp>
+     <sp who="#L0459_M4">
+      <speaker>Arnaud.</speaker>
+      <p>Why, Alice! <stage>aside.</stage> How I've improved already in my power over her! I never
+       made her cry before. Come, never mind, Alice; I know you've got a lucky bargain in me, but I
+       won't desert you. Come, give me a kiss.</p>
+     </sp>
+     <sp who="#L0459_F16">
+      <speaker>Alice.</speaker>
+      <p>Away from me! <stage>crossing to R.</stage> Thou art suddenly and sadly changed. It were a
+       sin to have more to do with thee.</p>
+     </sp>
+     <sp who="#L0459_M4">
+      <speaker>Arnaud.</speaker>
+      <p>A sin? Pooh! <stage>snapping his fingers.</stage> I know better. <stage>imitating
+        Bertram.</stage> “What man foolishly calls <emph>sin</emph>— <stage>shrugging up his
+        shoulders.</stage> is <emph>pleasure</emph>; and when we're no longer <emph>able</emph> to
+       sin, then comes the proper time for repentance.”</p>
+     </sp>
+     <sp who="#L0459_F16">
+      <speaker>Alice.</speaker>
+      <stage>shocked.</stage>
+      <p>What horrible words are those? Arnaud, where hast thou imbibed such fearful doctrine?</p>
+     </sp>
+     <sp who="#L0459_M4">
+      <speaker>Arnaud.</speaker>
+      <p>I've imbibed nothing but two bottles of wine; and, as to the rest, he said—“Thou art an
+       exceeding <emph>attractive</emph> youth.”</p>
+     </sp>
+     <sp who="#L0459_F16">
+      <speaker>Alice.</speaker>
+      <p>Of whom dost thou speak?</p>
+     </sp>
+     <sp who="#L0459_M4">
+      <speaker>Arnaud.</speaker>
+      <p>Why, of myself, to be sure, those were his iden— titi—tickle words; “and then,” says
+       he—</p>
+     </sp>
+     <sp who="#L0459_F16">
+      <speaker>Alice.</speaker>
+      <stage>with impatience.</stage>
+      <p>Who?—who said?</p>
+     </sp>
+     <sp who="#L0459_M4">
+      <speaker>Arnaud.</speaker>
+      <p>Who? A most fascinating, though rather strange kind of a personage whom I met at the Rocks
+       of St Irene.</p>
+     </sp>
+     <sp who="#L0459_F16">
+      <speaker>Alice.</speaker>
+      <stage>hastily, and with alarm.</stage>
+      <p>At the Rocks of St. Irene? Can it be? Speak!—what was his look?</p>
+     </sp>
+     <sp who="#L0459_M4">
+      <speaker>Arnaud.</speaker>
+      <p>His look? Nay his look was at first anything but charming; but he improved amazingly on
+       acquaintance; and when he gave me this purse, I thought him a most fascinating gentleman.</p>
+     </sp>
+     <sp who="#L0459_F16">
+      <speaker>Alice.</speaker>
+      <stage>drawing back.</stage>
+      <p>That purse! Oh, my fears!</p>
+     </sp>
+     <pb rend="pagebreak" n="36"/>
+     <sp who="#L0459_M4">
+      <speaker>Arnaud.</speaker>
+      <p>This full purse; that's to say, it <emph>was</emph> full <emph>then</emph>, but twelve
+       bottles have jumped out of it since, so it's no wonder it looks rather thin. It rings sweetly
+       yet, though.</p>
+     </sp>
+     <sp who="#L0459_F16">
+      <speaker>Alice.</speaker>
+      <stage>with continued agitation.</stage>
+      <p>Describe him to me, if thou hop'st for happiness!</p>
+     </sp>
+     <sp who="#L0459_M4">
+      <speaker>Arnaud.</speaker>
+      <p>Bless me, Alice, what's the matter with you? You quite disturb my equanini—nimity.</p>
+     </sp>
+     <sp who="#L0459_F16">
+      <speaker>Alice.</speaker>
+      <p>Delay not, I charge thee, but tell me instantly what I dread to find true. Speak—was not
+       his look hideous, and his voice unearthly?</p>
+     </sp>
+     <sp who="#L0459_M4">
+      <speaker>Arnaud.</speaker>
+      <p>Well, rather so, I confess; but he said—“Thou art an exceedingly attractive—”</p>
+     </sp>
+     <sp who="#L0459_F16">
+      <speaker>Alice.</speaker>
+      <stage>with vexation, interrupting him.</stage>
+      <p>He wore a scarlet mantle, and his matted locks uncovered?</p>
+     </sp>
+     <sp who="#L0459_M4">
+      <speaker>Arnaud.</speaker>
+      <p>The same; did you meet him, too?</p>
+     </sp>
+     <sp who="#L0459_F16">
+      <speaker>Alice.</speaker>
+      <stage>clasping her hands.</stage>
+      <p>'Tis he—'tis he! Terrible being!</p>
+     </sp>
+     <sp who="#L0459_M4">
+      <speaker>Arnaud.</speaker>
+      <stage>becoming alarmed.</stage>
+      <p>Hey!—terrible! What's that you say?</p>
+     </sp>
+     <sp who="#L0459_F16">
+      <speaker>Alice.</speaker>
+      <p>Thou took'st that dreadful purse from his hands?</p>
+     </sp>
+     <sp who="#L0459_M4">
+      <speaker>Arnaud.</speaker>
+      <p>I did; why is it a dreadful purse?</p>
+     </sp>
+     <sp who="#L0459_F16">
+      <speaker>Alice.</speaker>
+      <p>Miserable Arnaud!—thou art lost!</p>
+     </sp>
+     <sp who="#L0459_M4">
+      <speaker>Arnaud.</speaker>
+      <stage>trembling.</stage>
+      <p>Am I? Who has lost me?</p>
+     </sp>
+     <sp who="#L0459_F16">
+      <speaker>Alice.</speaker>
+      <p>Well may'st thou look alarmed; for, hear that he who sought to seduce thee to thy ruin—</p>
+     </sp>
+     <sp who="#L0459_M4">
+      <speaker>Arnaud.</speaker>
+      <p>My what!</p>
+     </sp>
+     <sp who="#L0459_F16">
+      <speaker>Alice.</speaker>
+      <p>That fearful being was—</p>
+     </sp>
+     <sp who="#L0459_M4">
+      <speaker>Arnaud.</speaker>
+      <stage>in an agony of fear.</stage>
+      <p>Who?—what?</p>
+     </sp>
+     <sp who="#L0459_F16">
+      <speaker>Alice.</speaker>
+      <p>I fear to name him.</p>
+     </sp>
+     <sp who="#L0459_M4">
+      <speaker>Arnaud.</speaker>
+      <p>Oh, la!—what was he?</p>
+     </sp>
+     <sp who="#L0459_F16">
+      <speaker>Alice.</speaker>
+      <p>A fiend!—a demon!</p>
+     </sp>
+     <sp who="#L0459_M4">
+      <speaker>Arnaud.</speaker>
+      <p>Ah!</p>
+     </sp>
+     <sp who="#L0459_F16">
+      <speaker>Alice.</speaker>
+      <p>That purse holds the wages of hell.</p>
+     </sp>
+     <sp who="#L0459_M4">
+      <speaker>Arnaud.</speaker>
+      <stage>hastily dropping the purse in extreme terror.</stage>
+      <p>Hah!</p>
+     </sp>
+     <sp who="#L0459_F16">
+      <speaker>Alice.</speaker>
+      <p>Pray to thy good angel, and repent!</p>
+     </sp>
+     <sp who="#L0459_M4">
+      <speaker>Arnaud.</speaker>
+      <stage>falling on his knees.</stage>
+      <p>I <emph>do</emph> repent. Unfortunate wretch that I am!—why should the Devil take a fancy
+       to me? Do you pray for me, too, Alice! Make haste, make haste, and pray for me as fast as
+       ever you can!</p>
+     </sp>
+     <sp who="#L0459_F16">
+      <speaker>Alice.</speaker>
+      <p>I see thy fear is real, for it hath sobered thee.</p>
+     </sp>
+     <sp who="#L0459_M4">
+      <speaker>Arnaud.</speaker>
+      <p>The Devil has gone out of me, and taken his wine along with him. <stage>rising.</stage>
+      </p>
+     </sp>
+     <sp who="#L0459_F16">
+      <speaker>Alice.</speaker>
+      <p>His power, I trust, is over.</p>
+     </sp>
+     <sp who="#L0459_M4">
+      <speaker>Arnaud.</speaker>
+      <p>Oh! how much lighter I feel since I've thrown away my purse!—just as if I had got rid of
+       something that didn't agree with me.</p>
+     </sp>
+     <pb rend="pagebreak" n="37"/>
+     <sp who="#L0459_F16">
+      <speaker>Alice.</speaker>
+      <p>How fortunate this timely explanation!</p>
+     </sp>
+     <sp who="#L0459_M4">
+      <speaker>Arnaud.</speaker>
+      <p>I <emph>thought</emph> he was a devilish queer-looking chap, as well as his companion, who
+       kicked up fire with his heels. “Oh, it's only lightning,” says the fiend; infernal cheat!</p>
+     </sp>
+     <sp who="#L0459_F16">
+      <speaker>Alice.</speaker>
+      <p>Be grateful for thy escape; and now let us hence, for I must seek the Princess.</p>
+     </sp>
+     <sp who="#L0459_M4">
+      <speaker>Arnaud.</speaker>
+      <p>Ay, and I'll stick close to you. From this minute I'll speak to nobody else—I'll accept no
+       more purses—I'll— <stage>stopping.</stage> Alice, don't you think it would be a pity for any
+       one coming-by to run the danger of picking up that hellish purse? Were it not better, as I'm
+       already used to it, to keep it till the priest says an “<hi>exorciso te</hi>” over it?</p>
+     </sp>
+     <sp who="#L0459_F16">
+      <speaker>Alice.</speaker>
+      <p>I charge thee, as thou dost care for me, Arnaud, possess not thyself again of that
+       unhallowed purse!</p>
+     </sp>
+     <sp who="#L0459_M4">
+      <speaker>Arnaud.</speaker>
+      <p>I won't, I won't. Suppose I <emph>leave</emph> the purse, Alice, is there any harm in
+       taking the <emph>money</emph>? It seems very honest and virtuous money, and I assure you it
+       passed quite current at the vintner's.</p>
+     </sp>
+     <sp who="#L0459_F16">
+      <speaker>Alice.</speaker>
+      <p>Thou must not think of it. Take it up and throw it into the moat as we cross the
+       draw-bridge.</p>
+     </sp>
+     <sp who="#L0459_M4">
+      <speaker>Arnaud.</speaker>
+      <p>So I will; and if the devil likes to jump after it, I hope he'll stick in the muddy bottom
+       till I help him out. Come along, Alice.</p>
+     </sp>
+     <stage>Exeunt, R.</stage>
+     <stage>the clouds of night darken the scene; the light totally disappears; and when the clouds
+      disperse, they discover—</stage>
+    </div>
+    <div type="scene">
+     <head>SCENE III</head>
+     <stage>The Abbey-Ruins, shewing the principal aisle of the Cloister. Through the openings of
+      the arches is perceived a court filled with tombstones, some of them covered with moss and
+      ivy; and beyond, are other galleries in lengthened perspective. On L. stands a row of
+      monumental statues, raised on high pedestals. Upon the ground-tombs are discerned, the
+      recumbent stone figures of the deceased Nuns; and in the centre, embedded in one of the middle
+      arches, is prominently seen the tomb of St. Rosalie, the Foundress of the Abbey. Her statue
+      cut in white marble, and covered with a religious habit, holds a branch of cypress. At the
+      back is seen a large gate, with a staircase leading to the convent vaults. Lamps of rusted
+      iron still hang from the vaulted roof, and everything betokens that the spot has long been
+      deserted. The stars are seen in the sky, and the ruins receive no other light than what is
+      thrown by the rays of the moon, which fall so brightly on the pavement as to show the moving
+      shadow of any figure that passes.</stage>
+     <pb rend="pagebreak" n="38"/>
+     <stage>Enter Bertram by the gate, C.; he advances slowly, gazing on the objects around him. The
+      birds of night, disturbed in their solitary haunt by the unusual noise, take wing.</stage>
+     <spGrp>
+      <head>RECITATIVE.—Bertram.</head>
+      <sp who="#">
+       <l>Hail, ye dark dreary ruins</l>
+       <l>Condemn'd for evermore,</l>
+       <l>The calm abode, of yore,</l>
+       <l>Of holiness and peace!</l>
+       <l>Ye daughters of despair,</l>
+       <l>One hour on earth appear,—</l>
+       <l>Then back, with demon wing,</l>
+       <l>To the realms where ye dwell;</l>
+       <l>There to feel, with sharper sting,</l>
+       <l>The renew'd pangs of hell!</l>
+       <stage>EVOCATION.</stage>
+       <l>Nuns! who around repose in deep and silent gloom—</l>
+       <l>Hear ye my call?</l>
+       <l>Wake from the sleep of death, and quit the dismal tomb:</l>
+       <l>Rise one and all!</l>
+       <l>Daylight hath fled, and the moon's paley beam</l>
+       <l>Now thro' the cloisters begins to gleam.</l>
+       <l>Dwellers of hell, 'tis I your presence command,—</l>
+       <l>'Tis I, like you for ever bann'd.—</l>
+       <l>I, like you, for crime of yore,</l>
+       <l>Doom'd to woe evermore!</l>
+       <l>Nuns! hear ye not my call?</l>
+       <l>Nuns! rise ye one and all!</l>
+      </sp>
+     </spGrp>
+     <stage>(flitting wild fires, of a bluish hue, appear quivering along the galleries, play over
+      the different tombs, and finally extinguish their light over the Nuns' figures as well as over
+      the gravestones in the court, when the statues, forming the row, L., noiselessly slide down to
+      the ground, and the monumental figures on the flat tombstones slowly arise till they stand
+      erect, and then descend without any effort of volition. A group of Nuns in white shrouds
+      appear upon the gateway staircase, and seem to glide along. Another group advance in
+      procession, with the same gliding motion, from the court; and finally they appear gathering
+      and approaching on every side. No movement of the body yet betrays their revival. They all
+      silently gather around Bertram. Presently, their eyes
+      <pb n="39"/> open, and they begin to move by degrees; and the restoration of life seems
+      complete, but still attended by the pallidness of death. The iron lamps light of themselves,
+      and darkness ceases.</stage>
+     <sp who="#L0459_M2">
+      <speaker>Bertram.</speaker>
+      <p>Daughters once of heaven, now of hell—workers of evil, my voice hath for one hour recalled
+       you to your former selves, to do my bidding. Listen to my command! The steps of a valiant
+       knight, whom I protect and love, now approach these ruins; he comes to pluck yonder green
+       branch; but, if his hand should falter, be it your task to win him to the deed! Tempt him,
+       force him to accomplish his promised daring, nor let him suspect the fate that awaits his
+       rashness. Ye have heard; tremble to disobey!</p>
+      <stage>Exit, C.</stage>
+      <stage>the Nuns give token of implicit obedience. Soon the instinct of their former passions
+       glows in their reanimated forms. They recognize each other and express their joy; Helena,
+       their superior, incites them by her example; they throw off their shrouds, and join in
+       frenzied dance. Some of them draw forth from the tombs the former objects of their profane
+       predilection, amphorœ, cups, diceboxes, &amp;c. Others present offerings to a hideous idol.
+       In the midst of their impious orgies, they hear the approaching steps of Robert; they
+       suddenly suspend their pursuits, and hide themselves behind the pillars and tombs. The lamps
+       go out, and the scene resumes its previous appearance.</stage>
+     </sp>
+     <stage>Enter Robert through the Abbey-gate, C., with awe and hesitation.</stage>
+     <spGrp>
+      <head>RECITATIVE.—Robert.</head>
+      <sp who="#">
+       <l>I've reach'd at last</l>
+       <l>The spot where the Dead, silent, sleep.</l>
+       <l>Let me on; Thro' my veins, fast,</l>
+       <l>Chilling horrors creep!</l>
+       <l>These cloisters—dismal tombs,</l>
+       <l>That tell of crime and woe,</l>
+       <l>My courage nigh o'erthrow!</l>
+       <l>'Neath the moon's silvery ray,</l>
+       <l>Shines the branch—(with its green paley light,</l>
+       <l>Its leaves o'er the tomb brightly bending—)</l>
+       <l>Which, gain'd, shall my daring repay</l>
+       <l>With wealth unending,</l>
+       <l>And ever-new delight.</l>
+       <l>Why feel I fear so base?</l>
+       <stage>he advances to the statue of St. Rosalie, and instantly starts back, struck with
+        sudden terror.</stage>
+       <pb rend="pagebreak" n="40"/>
+       <l>Ah me! Yon marble statue,</l>
+       <l>Like my dead mother's face,</l>
+       <l>Frowns with reproachful eye;</l>
+       <l>My heart recoils!</l>
+       <l>With fear and shame I fly!</l>
+       <stage>as he seeks to retreat, the scene lights up again, and he finds himself surrounded by
+        all the phantom Nuns. They eagerly allure him by divers temptations—they present him with
+        wine, drinking it themselves with avidity; lead him to the implements of play, scattered
+        o'er a tombstone, displaying to him gold and caskets of jewels. After a momentary yielding,
+        he breaks away in disgust. But he at last succumbs to the fascinating wiles of Helena, who
+        leads him captive towards the magic cypress branch. While she indicates it to him with her
+        finger, he snatches a kiss from her lips, and in the intoxication of his passion, seizes on
+        the talisman. All at once, the discordant laughter of Invisible Fiends, rings loudly through
+        the vaults, accompanied by the rattling of chains, and unearthly noises. The Spirit-Nuns
+        form a frantic Bacchanalian chain round Robert, who forces his way through them with the
+        power of the magic branch. Demons with blazing torches now join in the dance, while others
+        traverse the air. By degrees, the temporary life that animated the revived Nuns expires;
+        and, becoming more and more languid, they fall lifeless near their respective tombs; when a
+        Demon, appearing from the inside of each sepulchure, seizes anew upon his victim, while the
+        following chorus is yelled around—</stage>
+      </sp>
+      <sp who="#">
+       <l>The prey is ours!</l>
+       <l>Infernal pow'rs,</l>
+       <l>Spirits of ill,</l>
+       <l>We triumph still!</l>
+      </sp>
+     </spGrp>
+     <trailer>End of Act II</trailer>
+    </div>
+   </div>
+   <div type="act" n="III">
+    <div type="scene" n="I">
+     <stage>—The Apartment of the Princess Isabel, with three wide folding doors, opening on a vista
+      of extensive galleries and corridors.</stage>
+     <pb n="41"/>
+     <stage>At the rising of the curtain, the Princess is discovered seated near a table, L.,
+      surrounded by her tyring Maids, who are assisting her to prepare for the marriage ceremony;
+      giving her her veil, virginal crown of orange-flowers, &amp;c. Towards the R., numerous
+      Nobles, Knights and Ladies, with Attendants, are standing. The Major-Domo of the palace is at
+      the principal entrance with his wand of office as Chamberlain. Alice is near the Princess, in
+      her best dress, and Arnaud among the Attendants.</stage>
+     <sp who="#L0459_mult">
+      <speaker>CHORUS.</speaker>
+      <l>Let strains of joy, from all around ascending,</l>
+      <l>Loudly proclaim the happy pair!</l>
+      <l>Hymen and love, with ev'ry bliss attending,</l>
+      <l>Haste and unite the brave and the fair!</l>
+     </sp>
+     <sp who="#L0459_F15">
+      <speaker>Isabel.</speaker>
+      <stage>(rising.)</stage>
+      <p>Lords and noble dames, for your kind wishes, accept my feeble thanks.</p>
+      <stage>(aside—coming forward.)</stage>
+      <p>Alas! how different were my hopes even this very day! But a few hours ago they sweetly
+       bloomed like summer flowers, nor looked for such early blighting! Alice, come hither. Thou
+       art an humble friend, but I do esteem thee for a true one; and all thou hast told me of
+       thyself has won me thy protectress for life. <stage>(looking cautiously round, and seeing all
+        present in conversation with each other, and unobservant, she seizes Alice's arm.)</stage>
+       Tell me, hast thou seen nought since of Duke Robert?</p>
+     </sp>
+     <sp who="#L0459_F16">
+      <speaker>Alice.</speaker>
+      <p>Alas, no, noble lady; but I directed Arnaud, whom I mentioned to your highness, to obtain
+       some intelligence.</p>
+     </sp>
+     <sp who="#L0459_F15">
+      <speaker>Isabel.</speaker>
+      <p>Is he here?</p>
+     </sp>
+     <sp who="#L0459_F16">
+      <speaker>Alice.</speaker>
+      <p>He is yonder among your highness's attendants.</p>
+     </sp>
+     <sp who="#L0459_F15">
+      <speaker>Isabel.</speaker>
+      <p>Call him to me.</p>
+     </sp>
+     <sp who="#L0459_F16">
+      <speaker>Alice.</speaker>
+      <p>Arnaud!</p>
+     </sp>
+     <sp who="#L0459_M4">
+      <speaker>Arnaud.</speaker>
+      <p>Eh?</p>
+     </sp>
+     <sp who="#L0459_F16">
+      <speaker>Alice.</speaker>
+      <stage>(signing to him to approach.)</stage>
+      <p>Come hither.</p>
+     </sp>
+     <sp who="#L0459_M4">
+      <speaker>Arnaud.</speaker>
+      <stage>(timidly advancing to Alice, and looking round with wonder.)</stage>
+      <p>Well now, who would have thought it!</p>
+     </sp>
+     <sp who="#L0459_F16">
+      <speaker>Alice.</speaker>
+      <stage>(in a low voice to him.)</stage>
+      <p>The princess commands thy presence.</p>
+     </sp>
+     <sp who="#L0459_M4">
+      <speaker>Arnaud.</speaker>
+      <stage>(with flurried embarrassment.)</stage>
+      <p>The princess? Dear me! <stage>(aside.)</stage> Here are honours all in one day! Not long
+       ago, I was in company with the devil, now I'm with a princess!</p>
+     </sp>
+     <sp who="#L0459_F16">
+      <speaker>Alice.</speaker>
+      <stage>(making way for Arnaud to pass her.)</stage>
+      <p>The princess, I tell thee, would have speech of thee.</p>
+     </sp>
+     <sp who="#L0459_M4">
+      <speaker>Arnaud.</speaker>
+      <stage>(approaching, with awkwardness.)</stage>
+      <p>She is—very welcome.</p>
+     </sp>
+     <pb n="42"/>
+     <sp who="#L0459_F15">
+      <speaker>Isabel.</speaker>
+      <p>Tell me quickly, good friend, hast thou followed Alice's direction?</p>
+     </sp>
+     <sp who="#L0459_M4">
+      <speaker>Arnaud.</speaker>
+      <p>Please your ladyship—</p>
+     </sp>
+     <sp who="#L0459_F16">
+      <speaker>Alice.</speaker>
+      <stage>(in a whisper.)</stage>
+      <p>Highness.</p>
+     </sp>
+     <sp who="#L0459_M4">
+      <speaker>Arnaud.</speaker>
+      <stage>(confused.)</stage>
+      <p>Please, your ladyship's highness, I've not been able to set eyes on him ever since he did
+       me the high honour this morning of ordering me to be hanged; but I should prefer a more
+       gradual rising under your royal protection.</p>
+      <stage>(he bows very low to Isabel, who turns away much disappointed.)</stage>
+     </sp>
+     <sp who="#L0459_F16">
+      <speaker>Alice.</speaker>
+      <stage>(aside to him, with vexation.)</stage>
+      <p>Shame on thee—hast thou the meanness to beg?</p>
+     </sp>
+     <sp who="#L0459_M4">
+      <speaker>Arnaud.</speaker>
+      <p>Do you think I'm come to court for nothing? I'll do like the rest; get all I can, and ask
+       for more.</p>
+     </sp>
+     <sp who="#L0459_F15">
+      <speaker>Isabel.</speaker>
+      <stage>(with despondency to Arnaud.)</stage>
+      <p>Thou art at liberty to go.</p>
+      <stage>(retires to her seat.)</stage>
+     </sp>
+     <sp who="#L0459_M4">
+      <speaker>Arnaud.</speaker>
+      <stage>(to Alice.)</stage>
+      <p>Where am I to go?</p>
+     </sp>
+     <sp who="#L0459_F16">
+      <speaker>Alice.</speaker>
+      <p>Dolt! Thou art dismissed.</p>
+     </sp>
+     <sp who="#L0459_M4">
+      <speaker>Arnaud.</speaker>
+      <p>I'm dismissed! What for? What have I done to be dismissed?</p>
+     </sp>
+     <sp who="#L0459_F16">
+      <speaker>Alice.</speaker>
+      <p>Thou must retire when bidden.</p>
+     </sp>
+     <sp who="#L0459_M4">
+      <speaker>Arnaud.</speaker>
+      <p>Well, I suppose you understand the matter best, but it wasn't worth while to introduce the
+       princess to me for such a little; but never mind—I think I've given her a favourable
+       impression of me, and she may do something for us yet.</p>
+      <stage>(he retires to his place.)</stage>
+     </sp>
+     <sp who="#L0459_F15">
+      <speaker>Isabel.</speaker>
+      <p>Alas, Robert! thou art lost to me for ever.</p>
+     </sp>
+     <sp who="#L0459_M14">
+      <speaker>A Voice.</speaker>
+      <stage>(without.)</stage>
+      <p>The king!</p>
+     </sp>
+     <sp who="#L0459_M12">
+      <speaker>Major-D.</speaker>
+      <stage>(repeating it.)</stage>
+      <p>The king!</p>
+      <stage>(the Princess rises, and all resume their stations.)</stage>
+     </sp>
+     <stage>Enter the King, R. holding the hand of Astoroth, as the Prince of Grenada.</stage>
+     <sp who="#L0459_M3">
+      <speaker>King.</speaker>
+      <p>Now, daughter, how speed you? The night wears fast. Thy bridegroom here hath won thee
+       bravely; and beyond the appointed hour of midnight, the union must not be delayed.</p>
+     </sp>
+     <sp who="#L0459_M9">
+      <speaker>Ast.</speaker>
+      <stage>(aside.)</stage>
+      <p>Happily my task will soon be over. <stage>(approaching the Princess.)</stage> Beauteous
+       Isabel, deign to accept from a lover's hand these proffered tokens of his tenderness; they
+       are such as he has deemed most precious, and most worthy of your acceptance. <stage>(his four
+        Pages advance with golden caskets containing presents. They kneel, and lay them at her
+        feet.)</stage></p>
+     </sp>
+     <sp who="#L0459_M3">
+      <speaker>King.</speaker>
+      <p>Prince of Grenada, one half hour before midnight, follow us to the cathedral. Seek
+       admittance with your train at the <emph>southern</emph> doors, so shall we avoid all
+       hindrance and delay.</p>
+     </sp>
+     <pb n="43"/>
+     <sp who="#L0459_M9">
+      <speaker>Ast.</speaker>
+      <p>I will prepare to execute your bidding. <stage>(aside.)</stage> Rejoice, powers of
+       darkness, another victim is ours! <stage>(bowing low to Isabel.)</stage> Within an hour's
+       time, princess, I will appear, and claim you mine for <emph>ever</emph>.</p>
+     </sp>
+     <stage>Exit with his Attendants, R.</stage>
+     <sp who="#L0459_M3">
+      <speaker>King.</speaker>
+      <p>Let those presents be borne to the inner chamber of the Princess. <stage>(the caskets are
+        taken away by the Attendant Maidens, L.)</stage> Follow, fair dames, and let your care take
+       order of their disposal. <stage>Exeunt Ladies, L.</stage> Noble knights, we will retire till
+       the appointed time of—Hark! I hear a footstep in the private gallery! See who thus intrudes
+       without our permission <stage>(the Knights hasten outside into the central gallery, which is
+        distinctly displayed—when Robert is seen approaching from the furthest end, holding aloft in
+        his hand the magic branch. The Knights, who have approached to stop his advance, are struck
+        motionless by the spell, and remain rigid in the attitude of the moment.)</stage> Daughter,
+       be thou ready by our return. Ha! what do I behold? The vile Duke of Normandy within my
+       palace! Villain!</p>
+      <stage>(drawing his sword, he rushes to strike Robert before he enters, when, coming within
+       the influence of the charm, he is rooted to the spot, like the rest.)</stage>
+     </sp>
+     <sp who="#L0459_F15">
+      <speaker>Isabel.</speaker>
+      <p>What heavy langour weighs upon my eyelids!</p>
+      <stage>(she sinks upon a couch. Robert enters the apartment, and the folding doors close of
+       themselves, shutting out the King and all who left the chamber.)</stage>
+     </sp>
+     <spGrp>
+      <head>RECITATIVE.</head>
+      <sp who="#L0459_M1">
+       <speaker>Robert.</speaker>
+       <l>Charmed branch—thou work'st well!</l>
+       <l>Fast their senses are bound;</l>
+       <l>Ev'ry eye, by thy spell,</l>
+       <l>Seal'd up in sleep profound.</l>
+       <stage>(he lays the branch on the table.)</stage>
+       <l>Thy voice now, Isabel,</l>
+       <l>To thy aid none may call!</l>
+       <l>From this place, where now lies</l>
+       <l>The treasure most I prize,</l>
+       <l>I'll bear thee, 'spite of all.</l>
+       <l>Vain will be thy pleading sighs,</l>
+       <l>Vain all thy tears,</l>
+       <l>Thou shalt not bless a rival's arms.</l>
+       <stage>(approaching, and gazing upon her.)</stage>
+       <l>How fair she thus appears!</l>
+       <l>Let me gaze on those charms!</l>
+
+       <pb n="44"/>
+       <stage>AIR.</stage>
+
+       <l>Ah, Isabel! Lov'd Isabel!</l>
+       <l>Whilst in magic repose</l>
+       <l>I see thine eyelids close,</l>
+       <l>My heart, by thy beauty's spell,</l>
+       <l>With fonder rapture glows—</l>
+       <l>Isabel! Lov'd Isabel!</l>
+       <l>Isabel—lov'd Isabel!</l>
+       <l>If, by fate's harsh decree,</l>
+       <l>Mine own thou may'st not be,</l>
+       <l>To hope and life farewell!</l>
+       <l>What's life depriv'd of thee,</l>
+       <l>Isabel? Lov'd Isabel!</l>
+       <l>But time swift flies—she must wake.</l>
+       <stage>(taking up the branch, and extending it towards her.)</stage>
+       <lg>
+        <l>Isabel! Isabel!</l>
+        <l>For thee alone I change the spell—</l>
+        <l>The bonds of slumber break!</l>
+       </lg>
+       <stage>(he again lays down the branch on table.)</stage>
+      </sp>
+     </spGrp>
+     <sp who="#L0459_F15">
+      <speaker>Isabel.</speaker>
+      <stage>(gradually regaining perception.)</stage>
+      <l>Where am I? what voice calls out arise?</l>
+      <l>'Twas a horrible sleep fell at once on mine eyes.</l>
+      <stage>(seeing Robert and starting up with sudden terror.)</stage>
+      <l>Amazement! Robert within these walls?</l>
+      <l>His presence at this hour my heart appals!</l>
+     </sp>
+     <sp who="#L0459_M1">
+      <speaker>Robert.</speaker>
+      <stage>(exultingly, aside.)</stage>
+      <l>She is mine; from all aid apart;</l>
+      <l>And I now my rival defy.</l>
+      <l>Fiendish rapture my breast swells high,</l>
+      <l>To see the emotion of her heart.</l>
+     </sp>
+     <sp who="#L0459_F15">
+      <speaker>Isabel.</speaker>
+      <stage>(aside.)</stage>
+      <lg>
+       <l>From his looks my heart shrinks with fear.</l>
+      </lg>
+      <stage>(turning with assumed firmness to Robert.)</stage>
+      <lg>
+       <l>By what foul sorcery, what magic art,</l>
+       <l>Say, Duke of Normandy! hast thou gain'd admittance here?</l>
+      </lg>
+     </sp>
+     <sp who="#L0459_M1">
+      <speaker>Robert.</speaker>
+
+      <l>I'm here a rival to defeat whom I abhor.</l>
+     </sp>
+     <sp who="#L0459_F15">
+      <speaker>Isabel.</speaker>
+      <stage>(with indignant scorn.)</stage>
+      <l>Nobler had been thy vengeance, by far,</l>
+      <l>Hadst thou this day that rival fac'd,</l>
+      <l>Nor basely shrunk from manly war.</l>
+      <l>Go, go! In knighthood's page thou'rt now disgrac'd!</l>
+     </sp>
+     <sp who="#L0459_M1">
+      <speaker>Robert.</speaker>
+      <stage>(with violent agitation.)</stage>
+      <l>Chafe me no more! Silence were best.</l>
+     </sp>
+     <sp who="#L0459_F15">
+      <speaker>Isabel.</speaker>
+      <stage>(aside.)</stage>
+      <l>Wild alarm shakes my breast!</l>
+     </sp>
+     <pb n="45"/>
+     <sp who="#L0459_M1">
+      <speaker>Robert.</speaker>
+      <l>Cease to reproach me, else my madness dread;</l>
+      <l>Tremble to goad me on to wild despair!</l>
+      <l>All here around now resemble the dead;</l>
+      <l>For earthly pow'r no more need I care.</l>
+     </sp>
+     <sp who="#L0459_F15">
+      <speaker>Isabel.</speaker>
+      <l>O'er me, oh Heav'n, thy kind protection spread,</l>
+      <l>Oh shield me from his madness this fell hour!</l>
+      <l>All here around must now bend to his pow'r;</l>
+      <l>'Twere vain to call! <stage>(imploringly.)</stage> For mercy, fly.</l>
+     </sp>
+     <sp who="#L0459_M1">
+      <speaker>Robert.</speaker>
+      <l>No!</l>
+     </sp>
+     <sp who="#L0459_F15">
+      <speaker>Isabel.</speaker>
+      <l>Go hence away!</l>
+     </sp>
+     <sp who="#L0459_M1">
+      <speaker>Robert.</speaker>
+      <l>No!</l>
+     </sp>
+     <sp who="#L0459_F15">
+      <speaker>Isabel.</speaker>
+      <stage>(despairingly.)</stage>
+      <l>For aid in vain I pray!</l>
+     </sp>
+     <sp who="#L0459_M1">
+      <speaker>Robert.</speaker>
+      <stage>(seizing her in his grasp.)</stage>
+      <l>Thou must be mine own for ever!</l>
+     </sp>
+     <sp who="#L0459_F15">
+      <speaker>Isabel.</speaker>
+      <stage>(with excessive terror.)</stage>
+      <l>Oh fear!</l>
+     </sp>
+     <sp who="#L0459_M1">
+      <speaker>Robert.</speaker>
+      <l>Isabel, fly hence with me!</l>
+     </sp>
+     <sp who="#L0459_F15">
+      <speaker>Isabel.</speaker>
+      <l>Come not near!</l>
+     </sp>
+     <sp who="#L0459_M1">
+      <speaker>Robert.</speaker>
+      <l>No power of man my will can now restrain.</l>
+     </sp>
+     <sp who="#L0459_F15">
+      <speaker>Isabel.</speaker>
+      <l>Protect me, Heaven!</l>
+     </sp>
+     <sp who="#L0459_M1">
+      <speaker>Robert.</speaker>
+      <l>I dare no more delay.</l>
+     </sp>
+     <sp who="#L0459_F15">
+      <speaker>Isabel.</speaker>
+      <l>For mercy's sake!</l>
+     </sp>
+     <sp who="#L0459_M1">
+      <speaker>Robert.</speaker>
+      <l>Come!—thy cries are vain.</l>
+     </sp>
+     <sp who="#L0459_F15">
+      <speaker>Isabel.</speaker>
+      <l>Begone!—let me go!—false knight, away!</l>
+      <stage>(with a desperate effort she breaks from his grasp—while he, in anguish and agitation,
+       buries his face in his hands.)</stage>
+     </sp>
+     <spGrp>
+      <head>AIR.—Isabel.</head>
+      <sp who="#">
+       <stage>(approaching Robert, timidly and beseechingly.)</stage>
+
+       <l>Thou once didst adore me,</l>
+       <l>I love bestow'd on thee;</l>
+       <l>My wild terror see!</l>
+       <l>Mercy, I implore thee—</l>
+       <l>Shew mercy to me!</l>
+       <l>Mercy for thee,</l>
+       <l>Mercy for me!</l>
+       <l>Doth thy heart with such scorn treat</l>
+       <l>All that sacred should be?</l>
+       <l>Thou oft hast knelt at my feet,</l>
+       <l>See! now <emph>I</emph> kneel to <emph>thee!</emph></l>
+       <l>Mercy! I implore thee—</l>
+       <l>Shew mercy to me!</l>
+       <l>Mercy for thee—</l>
+       <l>Mercy, for me!</l>
+       <pb n="46"/>
+       <l>Still—thy heart no pity swaying—</l>
+       <l>Wilt thou hear me vainly praying?</l>
+       <l>My fears dost thou see?</l>
+       <l>Mercy! I implore thee</l>
+       <l>Shew mercy to me!</l>
+       <l>Mercy, for me!</l>
+       <l>Mercy, for thee!</l>
+      </sp>
+     </spGrp>
+     <sp who="#L0459_M1">
+      <speaker>Robert.</speaker>
+      <stage>(who has been violently struggling with his feelings.)</stage>
+      <p>Her touching accents melt and disarm me! <stage>(turning tenderly towards her.)</stage> Oh,
+       Isabel! in a few moments more thou wilt be torn from me for ever; and to lose thee is to lose
+       my life.</p>
+     </sp>
+     <sp who="#L0459_F15">
+      <speaker>Isabel.</speaker>
+      <p>Fly, while yet 'tis time!</p>
+     </sp>
+     <sp who="#L0459_M1">
+      <speaker>Robert.</speaker>
+      <p>Not without thee! My heart is firm again. In vain dost thou shrink from me—mine thou shalt
+       be. Hopest thou for aid?—behold! <stage>(he flings open the doors, and discovers the
+        motionless group as before.)</stage> All that stirred with life within thy father's palace
+       is now even as these are. My power hath compassed it!—think'st thou to defy it? Follow me
+       with willing step, or I will bear thee off by force.</p>
+     </sp>
+     <sp who="#L0459_F15">
+      <speaker>Isabel.</speaker>
+      <stage>(in the extremity of terror.)</stage>
+      <p>Come not near me!</p>
+     </sp>
+     <sp who="#L0459_M1">
+      <speaker>Robert.</speaker>
+      <p>Thou art my prey—and thus, thus I seize thee.</p>
+     </sp>
+     <sp who="#L0459_F15">
+      <speaker>Isabel.</speaker>
+      <p>Approach not! stir not! <stage>(sinking on her knee near the table, she has unconsciously
+        grasped and extended towards him the cypress branch, and he is, like the rest, rivetted to
+        the spot by its power.)</stage> Ha! fearful sight!—my heart is chilled with horror!
+        <stage>(rising.)</stage> What potent and unholy spell is this which my unconscious hand hath
+       grasped? His frame is motionless!—his eyes are fixed!—a marble statue stands before me!
+       Talisman accursed, whatever be thy evil power, let it cease, as thus I break thee!</p>
+      <stage>(she snaps the branch in twain, when Robert and all the rest begin again to move, and
+       by degrees regain their senses.)</stage>
+     </sp>
+     <stage>The Ladies, with Alice, at the same time re-enter from Isabel's chamber, and join the
+      rest.</stage>
+     <spGrp>
+      <head>CHORUS with Principals.</head>
+      <sp who="#L0459_mult">
+       <speaker>All.</speaker>
+       <stage>(with bewilderment.)</stage>
+       <l>What pow'r unholy</l>
+       <l>So long hath bound us?</l>
+       <l>What spell hath cast</l>
+       <l>Its magic chain?</l>
+       <l>Doth still around us</l>
+       <l>Some evil reign?</l>
+       <pb n="47"/>
+       <stage>(seeing Robert.)</stage>
+       <l>Amazement!</l>
+       <l>What new surprise</l>
+       <l>Assails our eyes?</l>
+       <l>The Duke of Normandy!</l>
+       <l>Can it be?</l>
+       <l>'Tis he!</l>
+      </sp>
+      <spGrp org="parallel">
+       <sp who="#L0459_mult">
+        <speaker>King &amp; Knights.</speaker>
+        <l>Thou art come as a foe,</l>
+        <l>To deceive basely trying;</l>
+        <l>Thy attempt, craven Knight,</l>
+        <l>With thy life thou shalt pay!</l>
+       </sp>
+       <sp who="#L0459_M1">
+        <speaker>Robert.</speaker>
+        <lg>
+         <l>If I've dar'd hither come</l>
+         <l>Ev'ry danger defying,</l>
+         <l>'Twas to bear Isabel</l>
+         <l>From my rival away.</l>
+        </lg>
+       </sp>
+      </spGrp>
+      <sp who="#L0459_F15">
+       <speaker>Isabel.</speaker>
+       <stage>(to her father.)</stage>
+       <l>Your wrath, oh stay!</l>
+      </sp>
+      <sp who="#L0459_F16">
+       <speaker>Alice.</speaker>
+       <stage>(aside.)</stage>
+       <l>His life must pay!</l>
+      </sp>
+      <sp who="#L0459_F15">
+       <speaker>Isabel.</speaker>
+       <stage>(casting herself on her knees between the Knights and Robert.)</stage>
+       <lg>
+        <l>Mercy shew!</l>
+        <l>Be not bent on destroying!</l>
+        <l>Father!—Knights!—</l>
+        <l>Let me not vainly pray!</l>
+       </lg>
+      </sp>
+      <spGrp org="parallel">
+       <sp who="#L0459_mult">
+        <speaker>King and Knights.</speaker>
+        <lg>
+         <l>Do not hope to escape,</l>
+         <l>Tho' thy falsehood denying!</l>
+         <l>Thou hast dar'd, to thy shame,</l>
+         <l>Honour's law to betray.</l>
+        </lg>
+       </sp>
+       <sp who="#L0459_mult">
+        <speaker>Isabel and Alice.</speaker>
+        <stage>(aside.)</stage>
+        <lg>
+         <l>Vain's the chance</l>
+         <l>From his foes of his flying!</l>
+         <l>For his love</l>
+         <l>With his life he must pay!</l>
+        </lg>
+       </sp>
+      </spGrp>
+      <sp who="#L0459_M1">
+       <speaker>Robert.</speaker>
+       <stage>(drawing his sword.)</stage>
+       <lg>
+        <l>On my sword and this arm</l>
+        <l>To defend me relying,</l>
+        <l>I defy your revenge!</l>
+        <l>No fear can <emph>my</emph> bosom sway.</l>
+       </lg>
+      </sp>
+      <sp who="#L0459_mult">
+       <speaker>All.</speaker>
+       <lg>
+        <l>On his sword and his arm</l>
+        <l>To defend him relying,</l>
+        <l>He defies our revenge;</l>
+        <l>No fear can <emph>his</emph> bosom sway!</l>
+       </lg>
+      </sp>
+      <sp who="#L0459_M14">
+       <speaker>Knights.</speaker>
+       <stage>(unsheathing their swords.)</stage>
+       <l>Thus for defying us</l>
+       <l>Dearly thou'lt pay!</l>
+       <l>Death to the traitor!</l>
+       <l>Thy sentence obey!</l>
+       <stage>(they rush upon Robert, when suddenly</stage>
+      </sp>
+      <stage>Bertram enters C., and beats down their swords. The Knights recede from him.</stage>
+      <sp who="#L0459_M2">
+       <speaker>Bertram.</speaker>
+       <l>Stay!—false Knights, stand back!—away!</l>
+       <l>The first who comes nigh, that instant I slay.</l>
+      </sp>
+      <pb n="48"/>
+      <sp who="#L0459_mult">
+       <speaker>King &amp; Knights.</speaker>
+       <l>Ha! rescue at hand! But escape still is vain;</l>
+       <l>From death he shall not fly.</l>
+      </sp>
+      <sp who="#L0459_mult">
+       <speaker>Isabel &amp; Alice.</speaker>
+       <stage>(aside.)</stage>
+       <l>Ha! rescue at hand? Oh, blest day!</l>
+       <l>Then hope once more is nigh.</l>
+      </sp>
+      <sp who="#L0459_M2">
+       <speaker>Bertram.</speaker>
+       <stage>(seizing Robert's hand.)</stage>
+       <l>Haste thee, Robert, with me;</l>
+       <l>None shall make thee their prey.</l>
+      </sp>
+      <sp who="#L0459_M1">
+       <speaker>Robert.</speaker>
+       <l>Ha! thou here, brave ally?</l>
+       <stage>(to the Knights.)</stage>
+
+       <l>Then your rage I defy—</l>
+       <l>Ye are baulk'd of your prey.</l>
+      </sp>
+      <sp who="#L0459_mult">
+       <speaker>King &amp; Knights.</speaker>
+       <l>Their escape still is vain;</l>
+       <l>Even now both shall die!</l>
+      </sp>
+      <sp who="#L0459_mult">
+       <speaker>Isabel &amp; Alice.</speaker>
+       <stage>(aside.)</stage>
+       <l>The protection of Heaven attend on his way!</l>
+       <l>Oh, grant from his enemies yet he may fly!</l>
+      </sp>
+     </spGrp>
+     <stage>(Robert has been drawn away by Bertram, and a party of the Knights follow in
+      pursuit.)</stage>
+     <sp who="#L0459_M3">
+      <speaker>King.</speaker>
+      <p>Bid hither the attendants of the princess, and inform the court of our setting forth.
+        <stage>Two Pages exeunt R.</stage> The hour is fully come; Grenada's Prince will reach the
+       church before us. Lead on, signiors—daughter, your hand.</p>
+     </sp>
+     <stage>Exeunt King and Isabel, R., followed by the rest. Alice is going among the last.</stage>
+     <stage>Arnaud appears from behind a pillar, and stops Alice by twitching her gown.</stage>
+     <sp who="#L0459_M4">
+      <speaker>Arnaud.</speaker>
+      <p>Alice, here has been a pretty business! If this be court-living, I refuse to accept office.
+       Our little cottage in dear Normandy, pretty Alice for my wife, with a score of children, will
+       be much more agreeable.</p>
+     </sp>
+     <sp who="#L0459_F16">
+      <speaker>Alice.</speaker>
+      <p>What has happened, Arnaud?</p>
+     </sp>
+     <sp who="#L0459_M4">
+      <speaker>Arnaud.</speaker>
+      <p>What, don't you know?</p>
+     </sp>
+     <sp who="#L0459_F16">
+      <speaker>Alice.</speaker>
+      <p>All I know is, that in yonder room a sudden and mysterious lethargy fell upon me, and when
+       I recovered, I found that my companions had been, like myself, deprived of all sense.</p>
+     </sp>
+     <sp who="#L0459_M4">
+      <speaker>Arnaud.</speaker>
+      <p>Well, and so was I. Left without any common sense at all—and all by some magical, mystical,
+       diabolical operation; I can tell you all from the beginning. I was gaping about, when who
+       should I see coming along the gallery yonder, but Duke Robert, carrying a little tree in his
+       hand—which I supposed he might be bringing to the Princess as a wedding present—when all of a
+       sudden “Seize him!” cries the King; “seize him!” cries I; and I had no sooner cried it
+       than—slap! I was seized myself all of a heap!</p>
+     </sp>
+     <pb n="49"/>
+     <sp who="#L0459_F16">
+      <speaker>Alice.</speaker>
+      <p>Wonderful!</p>
+     </sp>
+     <sp who="#L0459_M4">
+      <speaker>Arnaud.</speaker>
+      <p>Wasn't it? Well, I felt, first particularly strange, then I felt—I felt that I hadn't a bit
+       of feeling!—and when I woke, after a sort of a queer kind of a nap, I found I had been
+       sleeping upon my legs, with my neighbour's fingers stuck in my mouth, and a large spur
+       half-an-inch up my calf!</p>
+     </sp>
+     <sp who="#L0459_F16">
+      <speaker>Alice.</speaker>
+      <stage>(anxiously.)</stage>
+      <p>And what of Duke Robert?</p>
+     </sp>
+     <sp who="#L0459_M4">
+      <speaker>Arnaud.</speaker>
+      <p>Stop a bit. When the king, having ended his little nap, like myself, saw our devil of a
+       duke—</p>
+     </sp>
+     <sp who="#L0459_F16">
+      <speaker>Alice.</speaker>
+      <p>Fie, Arnaud!</p>
+     </sp>
+     <sp who="#L0459_M4">
+      <speaker>Arnaud.</speaker>
+      <p>Well, our duke, Robert the Devil, he ordered him to be killed!</p>
+     </sp>
+     <sp who="#L0459_F16">
+      <speaker>Alice.</speaker>
+      <p>Oh, Heaven!</p>
+     </sp>
+     <sp who="#L0459_M4">
+      <speaker>Arnaud.</speaker>
+      <p>I got a little out of the way, behind a pillar, that I mightn't be killed by mistake, when,
+       bounce! something flew by me, and in a moment, bounce! it flew back again with Duke Robert;
+       and, oh, Alice, only guess who that something was.</p>
+     </sp>
+     <sp who="#L0459_F16">
+      <speaker>Alice.</speaker>
+      <stage>(eagerly.)</stage>
+      <p>Speak!</p>
+     </sp>
+     <sp who="#L0459_M4">
+      <speaker>Arnaud.</speaker>
+      <p>That something that whisked away Duke Robert as if he had been a little spaniel dog, was no
+       other than my infernal friend of the Rocks of St. Irene; and as he passed me, he smelt—augh!
+       as if he had just come out of Etna!</p>
+     </sp>
+     <sp who="#L0459_F16">
+      <speaker>Alice.</speaker>
+      <p>Which way did they go?</p>
+     </sp>
+     <sp who="#L0459_M4">
+      <speaker>Arnaud.</speaker>
+      <p>I didn't exactly look. I thought it best to shut my eyes, for fear I should see something I
+       shouldn't like—some horn or tail; but when I ventured to open them again, the first thing I
+       saw was the tail of your gown. But I say, isn't the princess going to be married
+       to-night?</p>
+     </sp>
+     <sp who="#L0459_F16">
+      <speaker>Alice.</speaker>
+      <p>Yes, at midnight.</p>
+     </sp>
+     <sp who="#L0459_M4">
+      <speaker>Arnaud.</speaker>
+      <p>And are you to follow her?</p>
+     </sp>
+     <sp who="#L0459_F16">
+      <speaker>Alice.</speaker>
+      <p>Certainly.</p>
+     </sp>
+     <sp who="#L0459_M4">
+      <speaker>Arnaud.</speaker>
+      <p>Well then, Alice, if you follow the princess, and I follow <emph>you</emph>, why shouldn't
+       it follow that <emph>we</emph> be married at the same time?</p>
+     </sp>
+     <sp who="#L0459_F16">
+      <speaker>Alice.</speaker>
+      <p>How silly thou art, Arnaud.</p>
+     </sp>
+     <sp who="#L0459_M4">
+      <speaker>Arnaud.</speaker>
+      <p>What, to be married?</p>
+     </sp>
+     <sp who="#L0459_F16">
+      <speaker>Alice.</speaker>
+      <p>Not to know that humble folks like us must wait our time.</p>
+     </sp>
+     <sp who="#L0459_M4">
+      <speaker>Arnaud.</speaker>
+      <p>But I've waited a devilish long time already. Let the princess be served first with all my
+       heart; but your turn, if I can manage it, shall be next; and though your dish may be the more
+       homely of the two, I warrant me it shall be quite as substantial. So, come along, and take no
+       more care about Duke Robert, for it's very plain he likes to go to the devil his own way.
+       Come along.</p>
+     </sp>
+     <stage>Exeunt Arnaud and Alice, R.</stage>
+    </div>
+    <pb n="50"/>
+    <div type="scene" n="2">
+     <head>Scene II—The Exterior of the Cathedral of Palermo.</head>
+     <stage>The Church is seen illuminated, and the organ is heard while tthe King and Isabel are
+      seen entering the Church doors, accompanied by the Court, Knights, Ladies, Alice, Arnaud, and
+      the Attendants, in orderly procession.</stage>
+     <stage>As the organ ceases, and the music changes, Robert enters R. H.; he looks around him,
+      and perceiving that none are near, he returns, and, seizing Bertram's arm, makes him enter the
+      sacred precincts.</stage>
+     <sp who="#L0459_M1">
+      <speaker>Robert.</speaker>
+      <p>We are alone and safe.</p>
+     </sp>
+     <sp who="#L0459_M2">
+      <speaker>Bertram.</speaker>
+      <stage>(who has entered with manifest reluctance.)</stage>
+      <p>Confusion! what shall I do? within the boundaries of this sainted spot my evil power fails,
+       and nought but wily art can obtain me my prize. Robert, wherefore hast thou forced me to
+       enter here?</p>
+     </sp>
+     <sp who="#L0459_M1">
+      <speaker>Robert.</speaker>
+      <p>This spot is sacred; it is a place of refuge where none dare pursue. Yet, 'tis not safety
+       that I care for. Alas! all I trusted in has this day betrayed me.</p>
+     </sp>
+     <sp who="#L0459_M2">
+      <speaker>Bertram.</speaker>
+      <stage>(insinuatingly.)</stage>
+      <p>Except thy friend that loves thee, and wishes but thy happiness. Know'st thou not the
+       reason of thy ill-success? the breaking of the magic branch has delivered Isabel to thy
+       rival's power.</p>
+     </sp>
+     <sp who="#L0459_M1">
+      <speaker>Robert.</speaker>
+      <p>Can nothing snatch her from his arms? tell me!</p>
+     </sp>
+     <sp who="#L0459_M2">
+      <speaker>Bertram.</speaker>
+      <p>There is still one way left to glut thy vengeance.</p>
+     </sp>
+     <sp who="#L0459_M1">
+      <speaker>Robert.</speaker>
+      <stage>(furiously.)</stage>
+      <p>I'll have it; be it what it may, I'll have it.</p>
+     </sp>
+     <sp who="#L0459_M2">
+      <speaker>Bertram.</speaker>
+      <p>Hear me. The spirits of darkness—with whom thou hast already somewhat dealt—will be at thy
+       command if thou wilt sign a compact pledging thyself theirs.</p>
+     </sp>
+     <sp who="#L0459_M1">
+      <speaker>Robert.</speaker>
+      <p>Give me revenge at any price!</p>
+     </sp>
+     <sp who="#L0459_M2">
+      <speaker>Bertram.</speaker>
+      <stage>(with eagerness.)</stage>
+      <p>Wilt thou consent to sign?</p>
+     </sp>
+     <sp who="#L0459_M1">
+      <speaker>Robert.</speaker>
+      <p>I will.</p>
+     </sp>
+     <sp who="#L0459_M2">
+      <speaker>Bertram.</speaker>
+      <p>Come, then, out of this sacred ground, and full power and revenge are thine. Thou shalt
+       exult over thy baffled rival, and hold thine Isabel within thine arms. Haste! away, away!</p>
+     </sp>
+     <stage>(as they are departing, the organ is heard within the cathedral. Suddenly struck by it,
+      Robert stops, rivetted in attention.)</stage>
+     <pb n="51"/>
+     <spGrp>
+      <head>CONCERTED PIECE.</head>
+      <sp who="#L0459_M2">
+       <speaker>Bertram.</speaker>
+       <stage>(endeavouring to draw Robert away.)</stage>
+       <l>How now? why dost thou still delay?</l>
+      </sp>
+      <sp who="#L0459_M1">
+       <speaker>Robert.</speaker>
+       <stage>(listening as if spellbound.)</stage>
+       <l>Those sounds—dost thou not hear?</l>
+      </sp>
+      <sp who="#L0459_M2">
+       <speaker>Bertram.</speaker>
+       <stage>(aside, gloomily.)</stage>
+       <l>I hear them with dismay.</l>
+      </sp>
+      <sp who="#L0459_M1">
+       <speaker>Robert.</speaker>
+       <stage>(with tender emotion.)</stage>
+       <l>Sweetly oft on my ear</l>
+       <l>They struck in childhood's day,</l>
+       <l>When for her son so dear</l>
+       <l>My mother used to pray.</l>
+       <stage>(melting into tears at the recollection.)</stage>
+       <l>Lov'd parent! alas!</l>
+      </sp>
+      <sp who="#L0459_mult">
+       <speaker>Voices.</speaker>
+       <stage>(in the cathedral.)</stage>
+       <l>Glory be to the Highest!</l>
+       <l>Joy and peace to the blest!</l>
+       <l>Sinner, from guilt who fliest,</l>
+       <l>From evil here is rest.</l>
+      </sp>
+      <sp who="#L0459_M1">
+       <speaker>Robert.</speaker>
+       <l>The voice of Heav'n methinks is nigh,</l>
+       <l>And calls me back to virtue's way!</l>
+      </sp>
+      <sp who="#L0459_M2">
+       <speaker>Bertram.</speaker>
+       <stage>(aside.)</stage>
+       <l>From this spot with me he must fly.</l>
+       <stage>(to Robert.)</stage>
+       <l>Wherefore here any longer stay?</l>
+      </sp>
+      <sp who="#L0459_M1">
+       <speaker>Robert.</speaker>
+       <stage>(wrapt in the sounds.)</stage>
+       <l>Dost thou hear?</l>
+      </sp>
+      <sp who="#L0459_M2">
+       <speaker>Bertram.</speaker>
+       <stage>(entreatingly.)</stage>
+       <l>Hence with me! away!</l>
+      </sp>
+      <sp who="#L0459_M1">
+       <speaker>Robert.</speaker>
+       <l>If I could only pray!</l>
+      </sp>
+      <sp who="#L0459_M2">
+       <speaker>Bertram.</speaker>
+       <stage>(aside.)</stage>
+       <l>I every power must try</l>
+       <l>His melting heart to sway.</l>
+      </sp>
+      <sp who="#L0459_M1">
+       <speaker>Robert.</speaker>
+       <l>Heavenly harmony—how divine</l>
+       <l>Are thy soft and tuneful sounds!</l>
+       <l>Erring hearts, tho' wild as mine,</l>
+       <l>They recal to reason's bounds.</l>
+      </sp>
+      <sp who="#L0459_M2">
+       <speaker>Bertram.</speaker>
+       <stage>(aside.)</stage>
+       <l>Whilst he tarries near this holy shrine</l>
+       <l>He my purpose confounds!</l>
+       <stage>(to Robert.)</stage>
+       <l>No longer stay!</l>
+      </sp>
+      <sp who="#L0459_mult">
+       <speaker>Voices.</speaker>
+       <stage>(in the cathedral.)</stage>
+       <l>Joy and peace to the blest!</l>
+      </sp>
+      <sp who="#L0459_M1">
+       <speaker>Robert.</speaker>
+       <l>Hope and peace fill my breast!</l>
+      </sp>
+      <sp who="#L0459_M2">
+       <speaker>Bertram.</speaker>
+       <stage>(aside.)</stage>
+       <l>Torture wrings <emph>my</emph> breast!</l>
+       <stage>(the organ and Voices cease, and Bertram approaches Robert.)</stage>
+      </sp>
+     </spGrp>
+     <pb n="52"/>
+     <sp who="#L0459_M2">
+      <speaker>Bertram.</speaker>
+      <stage>(malignantly.)</stage>
+      <p>I wonder not at thy soul's emotion. The sounds thou hearest now bless the union of thy
+       rival with Isabel.</p>
+     </sp>
+     <sp who="#L0459_M1">
+      <speaker>Robert.</speaker>
+      <stage>(with re-lighted rage.)</stage>
+      <p>Ha! that single word tears my heart, and revives my fury.</p>
+      <stage>(stamping at Bertram.)</stage>
+      <p>Begone—leave me! thou art my bitterest foe.</p>
+     </sp>
+     <sp who="#L0459_M2">
+      <speaker>Bertram.</speaker>
+      <stage>(clasping his hands together.)</stage>
+      <p>I! I, Robert, thy foe? I—who, out of the whole human race, love but thee? I, who would wish
+       for all the treasures of the earth but to bestow them on thee alone?</p>
+     </sp>
+     <sp who="#L0459_M1">
+      <speaker>Robert.</speaker>
+      <stage>(struck by his manner.)</stage>
+      <p>Mysterious being! Who, then, art thou?</p>
+     </sp>
+     <sp who="#L0459_M2">
+      <speaker>Bertram.</speaker>
+      <p>Doth not the emotion that now shakes my heart and thine own, yet betray me to thee? Robert,
+       rememberest thou not this morning? Didst thou not hear and mark the Norman minstrel's fearful
+       recital—the fatal story of thy mother's woes? They were but too true.</p>
+     </sp>
+     <sp who="#L0459_M1">
+      <speaker>Robert.</speaker>
+      <p>Oh, my trembling soul!</p>
+     </sp>
+     <sp who="#L0459_M2">
+      <speaker>Bertram.</speaker>
+      <p>Yes, a fallen Spirit was her lover and her husband. I—I was that lover, I was that
+       husband.</p>
+     </sp>
+     <sp who="#L0459_M1">
+      <speaker>Robert.</speaker>
+      <p>Horror!</p>
+     </sp>
+     <sp who="#L0459_M2">
+      <speaker>Bertram.</speaker>
+      <p>And now, Robert, my <emph>son</emph>, thou knowest me.</p>
+     </sp>
+     <sp who="#L0459_M1">
+      <speaker>Robert.</speaker>
+      <p>Thou—thou my <emph>father</emph>? Horror and hopeless misery!</p>
+     </sp>
+     <sp who="#L0459_M2">
+      <speaker>Bertram.</speaker>
+      <p>I have deceived thee, but 'twas to gain thee ever mine. Now mark me well! If before the
+       midnight hour thou dost not sign a bond which shall for evermore conjoin us, I must lose thee
+       for ever; and the midnight hour is already nigh!</p>
+     </sp>
+     <sp who="#L0459_M1">
+      <speaker>Robert.</speaker>
+      <stage>(wildly.)</stage>
+      <p>Midnight! midnight! Isabel!</p>
+      <stage>(the chimes of the cathedral strike the three quarters.)</stage>
+     </sp>
+     <sp who="#L0459_M2">
+      <speaker>Bertram.</speaker>
+      <p>Hark! there is but a quarter of an hour of hope left us. <stage>(with pressing anguish, and
+        speaking rapidly.)</stage> Robert, my son! Oh! let not thy wretched father be for ever
+       parted from thee! Sign! sign, and Isabel shall be thine—and honours and riches, and the joys
+       of an eternal youth shall charm thy life!</p>
+     </sp>
+     <sp who="#L0459_M1">
+      <speaker>Robert.</speaker>
+      <p>It is decreed, and Hell bears the victory! Father, I'll not forsake thee; I am thine.</p>
+     </sp>
+     <sp who="#L0459_M2">
+      <speaker>Bertram.</speaker>
+      <stage>(clasping Robert's hand with triumph.)</stage>
+      <p>Oh joy!</p>
+     </sp>
+     <stage>Enter Alice from the cathedral.</stage>
+     <sp who="#L0459_F16">
+      <speaker>Alice.</speaker>
+      <stage>(percieving Robert.)</stage>
+      <p>'Tis he; fortunate meeting.</p>
+     </sp>
+     <sp who="#L0459_M2">
+      <speaker>Bertram.</speaker>
+      <p>Thou art resolved?</p>
+     </sp>
+     <sp who="#L0459_M1">
+      <speaker>Robert.</speaker>
+      <p>Yes; be what thou wilt, I henceforth share thy fate.</p>
+     </sp>
+     <sp who="#L0459_F16">
+      <speaker>Alice.</speaker>
+      <p>Ha! what do I hear?</p>
+      <stage>(approaching and recognizing Bertram.)</stage>
+      <p>Save me, Heaven! it is the Fiend.</p>
+     </sp>
+     <pb n="53"/>
+     <sp who="#L0459_M2">
+      <speaker>Bertram.</speaker>
+      <stage>(angrily to Alice.)</stage>
+      <p>What brings thee here?</p>
+     </sp>
+     <sp who="#L0459_F16">
+      <speaker>Alice.</speaker>
+      <stage>(falling on her knees before Robert.)</stage>
+      <p>Oh, Duke Robert, I have blessed, joyful tidings, which you will gladly hear. The false
+       Prince of Grenada and his phantom train, approaching the southern gate, in vain attempted to
+       cross the holy threshold, and, howling fearfully, vanished from sight!</p>
+     </sp>
+     <sp who="#L0459_M2">
+      <speaker>Bertram.</speaker>
+      <stage>(aside.)</stage>
+      <p>I tremble.</p>
+     </sp>
+     <sp who="#L0459_F16">
+      <speaker>Alice.</speaker>
+      <p>The horror-struck father, shuddering at his daughter's escape, consents to bless her, and
+       messengers are seeking you to receive her hand. Follow me to the altar.</p>
+     </sp>
+     <sp who="#L0459_M2">
+      <speaker>Bertram.</speaker>
+      <stage>(in agony.)</stage>
+      <p>My son, go not; but follow<emph> me</emph>! Thou hast sworn to be mine.</p>
+     </sp>
+     <sp who="#L0459_F16">
+      <speaker>Alice.</speaker>
+      <stage>(aside.)</stage>
+      <p>What do I hear? Horror!</p>
+     </sp>
+     <sp who="#L0459_M2">
+      <speaker>Bertram.</speaker>
+      <p>Let us quickly away! Time flies, and midnight is about to strike.</p>
+     </sp>
+     <spGrp>
+      <head>TRIO FINALE.</head>
+      <sp who="#L0459_M1">
+       <speaker>Robert.</speaker>
+       <stage>(with a burst of anguish.)</stage>
+       <l>My brain is distracted! <stage>(to Bertram.)</stage> Speak thy will, and I'll obey.</l>
+      </sp>
+      <sp who="#L0459_F16">
+       <speaker>Alice.</speaker>
+       <stage>(aside.)</stage>
+       <l>Oh, heav'ns, he's abus'd by the Demon's spell!</l>
+       <stage>(to Robert.)</stage>
+       <l>Forget'st thou, then, thy vow?</l>
+      </sp>
+      <sp who="#L0459_M1">
+       <speaker>Robert.</speaker>
+       <l>Away!</l>
+       <l>A superior claim must all o'ersway.</l>
+      </sp>
+      <sp who="#L0459_F16">
+       <speaker>Alice.</speaker>
+       <stage>(indignantly.)</stage>
+       <l>What can <emph>honour's</emph> claim excel?</l>
+       <l>Let no more thy heart rebel!</l>
+       <stage>(with fervent aspiration.)</stage>
+       <l>Guardian angels—deign, oh deign</l>
+       <l>His protection to be!</l>
+       <l>Let his heart peace regain,</l>
+       <l>And from ill set him free!</l>
+      </sp>
+      <sp who="#L0459_M2">
+       <speaker>Bertram.</speaker>
+       <lg>
+        <l>Oh despair! Hour of pain!</l>
+        <l>Ah, my son, my anguish see!</l>
+        <l>With thy father remain!</l>
+        <l>Let thy heart plead for me!</l>
+       </lg>
+      </sp>
+      <sp who="#L0459_M1">
+       <speaker>Robert.</speaker>
+       <stage>(distractedly.)</stage>
+       <l>Bitter pangs—racking pain,</l>
+       <l>From my bosom now flee!</l>
+       <l>If all hope must be vain,</l>
+       <l>Let my death set me free!</l>
+      </sp>
+      <sp who="#L0459_M2">
+       <speaker>Bertram.</speaker>
+       <stage>(drawing from his breast a black parchment, with hieroglyphic characters of blood
+        traced on it.)</stage>
+       <l>See—see this parchment I now unfold,</l>
+       <l>The words there written thy hand must sign.</l>
+      </sp>
+      <sp who="#L0459_F16">
+       <speaker>Alice.</speaker>
+       <stage>(to Robert.)</stage>
+       <l>By your hopes of mercy, hold!</l>
+      </sp>
+      <sp who="#L0459_M1">
+       <speaker>Robert.</speaker>
+       <stage>(eyeing the scroll with horror, and shrinking from it.)</stage>
+       <l>Wherefore there must my name be enrol'd?</l>
+      </sp>
+      <sp who="#L0459_F16">
+       <speaker>Alice.</speaker>
+       <l>Fear perdition! 'Twill be thine!</l>
+      </sp>
+      <pb n="54"/>
+      <sp who="#L0459_M1">
+       <speaker>Robert.</speaker>
+       <stage>(desperately, to Bertram.)</stage>
+       <l>To thy wish I incline.</l>
+      </sp>
+      <sp who="#L0459_M2">
+       <speaker>Bertram.</speaker>
+       <l>Let us haste!</l>
+      </sp>
+      <sp who="#L0459_F16">
+       <speaker>Alice.</speaker>
+       <l>Stay, oh stay!</l>
+       <l>Remember Isabel and thy vows!</l>
+      </sp>
+      <sp who="#L0459_M1">
+       <speaker>Robert.</speaker>
+       <l>Away!</l>
+       <l>Begone! Begone!</l>
+      </sp>
+      <sp who="#L0459_M2">
+       <speaker>Bertram.</speaker>
+       <l>No more delay!</l>
+      </sp>
+      <sp who="#L0459_F16">
+       <speaker>Alice.</speaker>
+       <stage>(aside.)</stage>
+       <l>Inspire me now, kind Heav'n, I pray!</l>
+      </sp>
+      <sp who="#L0459_M1">
+       <speaker>Robert.</speaker>
+       <stage>(extending his hand towards Bertram.)</stage>
+       <l>Give me the scroll!</l>
+       <stage>(Alice, at this moment, draws from her bosom the will of Robert's mother—a parchment
+        with a large seal appended to it by a ribbon—and rushing between Bertram and Robert, places
+        it in the latter's hand.)</stage>
+      </sp>
+      <sp who="#L0459_F16">
+       <speaker>Alice.</speaker>
+
+       <l>'Tis here!</l>
+       <l>Cruel son—read this sacred command!</l>
+      </sp>
+      <sp who="#L0459_M1">
+       <speaker>Robert.</speaker>
+       <l>Oh, Heav'n! 'Tis my lov'd mother's hand!</l>
+       <stage>(burying his face in the paper with anguish.)</stage>
+       <l>Oh, grief!</l>
+      </sp>
+      <sp who="#L0459_M2">
+       <speaker>Bertram.</speaker>
+       <stage>(aside.)</stage>
+       <l>Oh rage and fear!</l>
+      </sp>
+      <sp who="#L0459_M1">
+       <speaker>Robert.</speaker>
+       <stage>(reading with a trembling voice.)</stage>
+       <l>“My son, thy mother's anxious eye</l>
+       <l>“O'er thee will watch from yonder sky!</l>
+       <l>“Fly from the snares, shun the dark spell,</l>
+       <l>“Of him by whom thy mother fell.”</l>
+       <stage>(he lets fall the paper, which Alice hastily snatches up.)</stage>
+      </sp>
+      <sp who="#L0459_M2">
+       <speaker>Bertram.</speaker>
+       <l>Does then thy heart waver between us two?</l>
+      </sp>
+      <sp who="#L0459_M1">
+       <speaker>Robert.</speaker>
+       <stage>(shrinking from him with involuntary horror.)</stage>
+       <l>I tremble! Horrid hour! Which way decide? What do?</l>
+      </sp>
+      <sp who="#L0459_F16">
+       <speaker>Alice.</speaker>
+       <stage>(without looking at Robert or Bertram, but reading aloud, impressively.)</stage>
+       <l>“My son, thy mother's anxious eye</l>
+       <l>“O'er thee will watch from yonder sky!</l>
+       <l>“Fly from the snares, shun the dark spell,</l>
+       <l>“Of him—</l>
+       <stage>(pointing to Bertram, without lifting her eyes from the paper.)</stage>
+       <l>by whom thy mother fell.”</l>
+      </sp>
+      <sp who="#L0459_M2">
+       <speaker>Bertram.</speaker>
+       <stage>(imploringly.)</stage>
+       <l>My son! Ah, turn thine eyes on me!</l>
+       <l>My pangs behold, my anguish see!</l>
+       <l>Fly not from him to whom thou'rt so dear!</l>
+       <l>Sign—and thou may'st defy all fear.</l>
+      </sp>
+      <sp who="#L0459_M1">
+       <speaker>Robert.</speaker>
+       <stage>(frantically.)</stage>
+       <l>Ah! pity my despair!</l>
+      </sp>
+      <sp who="#L0459_M2">
+       <speaker>Bertram.</speaker>
+       <stage>(seizing his hand on one side.)</stage>
+       <l>Oh, my son, let's away!</l>
+      </sp>
+      <sp who="#L0459_F16">
+       <speaker>Alice.</speaker>
+       <stage>(seizing his hand on the other side.)</stage>
+       <l>Heaven's call now obey!</l>
+      </sp>
+      <pb n="55"/>
+      <sp who="#L0459_M1">
+       <speaker>Robert.</speaker>
+       <l>Fierce pangs that tear my heart and brain,</l>
+       <l>To 'scape your fury all hope is vain!</l>
+      </sp>
+      <sp who="#L0459_mult">
+       <speaker>Alice, Bertram, Robert.</speaker>
+       <stage>(together.)</stage>
+       <l>Guardian angels, &amp;c.</l>
+       <l>With thy father remain! &amp;c.</l>
+       <l>If all hope now be vain, &amp;c.</l>
+      </sp>
+      <spGrp org="parallel">
+       <sp who="#L0459_F16">
+        <speaker>Alice.</speaker>
+        <stage>(to Robert.)</stage>
+        <l>Heaven's call now obey!</l>
+        <l>Hence, foul fiend! hence away!</l>
+       </sp>
+       <sp who="#L0459_M2">
+        <speaker>Bertram.</speaker>
+        <stage>(kneeling to Robert)</stage>
+        <l>Oh, my son! no more delay,</l>
+        <l>With thy father haste away!</l>
+       </sp>
+      </spGrp>
+      <sp who="#L0459_M1">
+       <speaker>Robert.</speaker>
+       <l>Gracious heav'n, be my stay!</l>
+       <l>Mercy shew, and guide my way!</l>
+       <stage>(the clock of the cathedral strikes MIDNIGHT.)</stage>
+      </sp>
+      <sp who="#L0459_F16">
+       <speaker>Alice.</speaker>
+       <l>Ha! 'tis midnight! He's sav'd for e'er!</l>
+      </sp>
+      <sp who="#L0459_M2">
+       <speaker>Bertram.</speaker>
+       <stage>(with a terrific cry.)</stage>
+       <l>Ha! farewell for e'er!</l>
+      </sp>
+      <sp who="#L0459_M1">
+       <speaker>Robert.</speaker>
+       <l>Save me from despair!</l>
+       <stage>(the earth opens beneath Bertram's feet, and he sinks enveloped in flames. Robert
+        falls on the ground overcome with terror, while Alice has sunk on her knee in
+        gratitude.)</stage>
+      </sp>
+     </spGrp>
+     <stage>Dark clouds, accompanied by lightnings and thunder, for a while envelope all around;
+      but, soon dispersing, the scene changes, and displays the whole interior of the cathedral
+      brilliantly illuminated, with the entire Court, Knights, Ladies, &amp;c., kneeling. The High
+      Priest advances towards Robert— who has been partly raised from the ground by Alice still
+      clinging to him—and taking his hand, joins it at the altar, with that of the Princess Isabel.
+      The soft and increasing pea of the organ swells through the edifice, and the voices of all
+      within the cathedral join in the—</stage>
+     <label>FINALE CHORUS.</label>
+     <l>Glory be to the Highest!</l>
+     <l>Joy and Peace to the Blest!</l>
+     <stage>CURTAIN.</stage>
+    </div>
+   </div>
+   <trailer>Printed by T. Blower, 313, Strand.</trailer>
+  </body>
+ </text>
+</TEI>
