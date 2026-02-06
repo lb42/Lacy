@@ -9,13 +9,13 @@ document provides details and explanation of the XML encoding and editorial
 practices followed. </p>
 
 <p>The corpus as a whole is represented by a single <gi>teiCorpus</gi> element,
-which embeds a sequence of <gi>TEI</gi> elements. Each play is represented by a
-single <gi>TEI</gi> element with an <att>xml:id</att> value used to identify it
+which embeds a sequence of <gi>TEI</gi> elements, one for each play contained. Each  <gi>TEI</gi> element has an <att>xml:id</att> value used to identify it
 throughout the archive. This identifier consists of the letter L (for Lacy) and
 four digits, corresponding with the number originally allocated to this play in
-the published series. In the few cases where a second play exists using the same
+the published series, for example "L0234". 
+In the few cases where a second play exists using the same
 number, its identifier is suffixed with the letter R (for replaced). This Lacy
-identifier (such as "L0234") is also used to name the XML file containing the
+identifier  is also used to name the XML file containing the
 play. </p>
 
 <p>Each <gi>TEI</gi> element is organised in the same way, following standard
@@ -167,7 +167,8 @@ is set, '1' being the groove nearest the audience,; sometimes less exactly using
 codes such as 'U' (for upstage, i.e. away from the audience). The code 'C'
 stands for 'centre'; the code D for 'door'; 'L. 1. E.' (stage left, first
 groove, entrance)</p>
-</div>
+</div><div><head>Musical Numbers</head>
+<p>Many Plays contain musical numbers such as songs, ballets, etc., usually prefixed by a heading and set off from the rest of the text, which they interrupt.  Such items often contain parts for individual performers, to be sung in sequence or in parallel, as well as stage directions describing the action. </p><p>The element <gi>spGrp</gi> is used to group together all the speeches and stage directions pertaining to a particular musical number. </p></div>
 </div>
 </div>
 </body>
