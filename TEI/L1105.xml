@@ -1,0 +1,2213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L1105">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title>An Atrocious Criminal: TEI edition</title>
+    <author>Simpson, J. Palgrave </author>
+    <respStmt>
+     <resp>TEI conversion</resp>
+     <name>Lou Burnard</name>
+    </respStmt>
+   </titleStmt>
+   <publicationStmt>
+    <distributor>Privately distributed by the Digital Lacy Project</distributor>
+    <idno type="LAE">L1105</idno>
+    <availability>
+     <licence target="https://creativecommons.org/publicdomain/zero/1.0/">The Lacy Project waives
+      all rights to the TEI encoding applied to this material, which is believed to be in the public
+      domain. You may copy, modify, distribute and perform this work freely. </licence>
+    </availability>
+   </publicationStmt>
+   <sourceDesc>
+    <bibl type="origin" n="74.10"><author>Simpson, John Palgrave</author><title type="main"
+      n="anatrociouscriminal">An Atrocious Criminal</title><title type="sub">A Farce in one
+      Act</title><extent>21 pp (UM copy: 354 - 375)<measure type="pp" quantity="21"/>
+      <measure type="spCount" quantity="431"/>
+      <measure type="spvCount" quantity="0"/>
+      <measure type="txWords" quantity="7082"/>
+      <measure type="spWords" quantity="6131"/>
+      <measure type="stWords" quantity="951"/>
+     </extent>
+     <title level="s"> Lacy's Acting Edition, volume 74, No. 1105</title><idno type="nic"
+      >N18207</idno><idno type="vpp">Vol74xAtrocious</idno></bibl>
+    <bibl type="surrogate" subtype="copytext"><ref
+      target="https://babel.hathitrust.org/cgi/pt?id=mdp.39015067453764&amp;seq=354 ">UM from
+      HT</ref><ref target="local:Vol74/L1105/L1105-um.pdf"/></bibl>
+    <listEvent>
+     <event type="firstPerf" when="1867-02-18" source="textNic" where="Olympic">
+      <desc>Premiered at Royal Olympic Theatre 18 Feb. 1867</desc>
+     </event>
+    </listEvent>
+   </sourceDesc>
+  </fileDesc>
+  <profileDesc>
+   <!--S 1 Farce F. FARCE-->
+   <textClass>
+    <catRef target="#sizeS"/>
+    <catRef target="#act1"/>
+    <catRef target="nic:F."/>
+    <keywords>
+     <term>FARCE</term>
+    </keywords>
+   </textClass>
+   <particDesc>
+    <listPerson>
+     <person xml:id="L1105_M1">
+      <persName type="role">HANS FLICKER VON FLICKERDORF</persName>
+      <persName type="spkr" n="139">Hans.</persName>
+     </person>
+     <person xml:id="L1105_M2">
+      <persName type="role">FLORIAN HAHNENKAMM</persName>
+      <persName type="spkr" n="44">Flor.</persName>
+      <persName type="spkr" n="1">Florian Hahnenkamm.</persName>
+     </person>
+     <person xml:id="L1105_M3">
+      <persName type="role">BOCK</persName>
+      <persName type="spkr" n="36">Bock.</persName>
+     </person>
+     <person xml:id="L1105_F4">
+      <persName type="role">CUNIGUNDA LIPPMAN</persName>
+      <persName type="spkr" n="77">Cuni.</persName>
+     </person>
+     <person xml:id="L1105_F5">
+      <persName type="role">MINNA VON ROSEN</persName>
+      <persName type="spkr" n="63">Minna.</persName>
+     </person>
+     <person xml:id="L1105_F6">
+      <persName type="role">LISA</persName>
+      <persName type="spkr" n="1">Lisa</persName>
+      <persName type="spkr" n="68">Lisa.</persName>
+     </person>
+     <person xml:id="L1105_mult">
+      <persName type="role">[Multiple speakers]</persName>
+      <persName type="spkr" n="2">Minna and Cuni.</persName>
+     </person>
+    </listPerson>
+   </particDesc>
+  </profileDesc>
+  <revisionDesc>
+   <change when="2026-02-08">Standardize header components</change>
+   <change when="2026-02-01">TEI autotagging by Gemini Pro 2.5</change>
+  </revisionDesc>
+ </teiHeader>
+ <text>
+  <front>
+   <titlePage>
+
+    <titlePart type="main">AN ATROCIOUS CRIMINAL.</titlePart>
+    <titlePart type="sub">A Farce in one act.</titlePart>
+    <byline>BY <docAuthor>J. PALGRAVE SIMPSON,</docAuthor> (Member of the Dramatic Authors'
+     Society), AUTHOR OF <title>" Poor Cousin Walter,"</title>
+     <title>" The World and the Stage,"</title>
+     <title>" Sybilla; or, Step by Step,"</title>
+     <title>" Second Love,"</title>
+     <title>" A Fair Pretender,"</title>
+     <title>" Very Suspicious,"</title>
+     <title>" Appearances,"</title>
+     <title>"That Odious Captain Cutter,"</title>
+     <title>" Court Cards,"</title>
+     <title>" A Scrap of Paper,"</title>
+     <title>" A School for Coquettes,"</title>
+     <title>" Heads or Tails ?"</title>
+     <title>" Daddy Hardacre,"</title>
+     <title>" Dreams of Delusion, "</title>
+     <title>" Prison and Palace,"</title>
+     <title>" Family Pride,"</title>
+     <title>" Marco Spada,"</title>
+     <title>" Ranelagh,"</title>
+     <title>" Only a Clod,"</title>
+     <title>" Matrimonial Prospectuses,"</title>
+     <title>" Without Incumbrances,"</title>
+     <title>" Deadly Reports,"</title>
+     <title>" A Smack for a Smack,"</title>
+     <title>" First Affections,"</title>
+     <title>" King of the Merrows,"</title>
+     <title>" The Watch-Cry,"</title>
+     <title>" The Master of Ravenswood,"</title>
+     <title>" Broken Ties,"</title>
+     <title>" Jack in a Box,"</title> &amp;c. And <title>" Bianca, the Bravo's Bride,"</title>
+     <title>" Romance,"</title>
+     <title>" Caught and Caged,"</title>
+     <title>" Ida; or the Guardian Storks,"</title> &amp;c. &amp;c.. (Operas). </byline>
+    <docImprint> THOMAS HAILES LACY, THEATRICAL PLUBLISHER, LONDON. </docImprint>
+   </titlePage>
+   <pb n="2"/>
+   <performance>
+    <head>AN ATROCIOUS CRIMINAL.</head>
+    <p>First performed at the Royal Olympic Theatre (Sole Lessee, Mr. Benjamin Webster; Manager, Mr.
+     Horace Wigan), on <date when="1867-02-18">Monday, 18th February, 1867</date>.</p>
+
+    <castList>
+     <head>Dramatis Personae</head>
+     <castItem>
+      <role gender="M">HANS FLICKER VON FLICKERDORF</role>
+      <actor>Mr. John Clayton.</actor>
+     </castItem>
+     <castItem>
+      <role gender="M">FLORIAN HAHNENKAMM</role>
+      <actor>Mr. H. Cooper.</actor>
+     </castItem>
+     <castItem>
+      <role gender="M">BOCK</role>
+      <actor>Mr. Jerrold Reeves.</actor>
+     </castItem>
+     <castItem>
+      <role gender="F">CUNIGUNDA LIPPMAN</role>
+      <actor>Mrs. Stephens.</actor>
+     </castItem>
+     <castItem>
+      <role gender="F">MINNA VON ROSEN</role>
+      <actor>Miss Amy Sheridan.</actor>
+     </castItem>
+     <castItem>
+      <role gender="F">LISA</role>
+      <actor>Miss E. FARREN.</actor>
+     </castItem>
+    </castList>
+   </performance>
+   <set>
+    <p>Scene.—COBLENTZ ON THE RHINE.</p>
+   </set>
+   <div type="costume">
+    <list>
+     <item><label>HANS FLICKER VON FLICKERDORF</label> Black coat, white waistcoat, tight black
+      trousers, German student's cap, riband of the same colours crossing the chest, railway shawl
+      on shoulders, long hair, double eye-glass on nose.</item>
+     <item><label>FLORIAN HAHNENKAMM</label>Black official suit, white cravat, frill.</item>
+     <item><label>BOCK</label>Military long coat with plain brass buttons, white trousers, belt
+      round waist, Prussian cap.</item>
+     <item><label>CUNIGUNDA LIPPMAN</label>Extravagantly fashionable morning attire.</item>
+     <item><label>MINNA VON ROSEN</label>Elegant travelling dress.</item>
+     <item><label>LISA</label>German peasant's dress and cap.</item>
+    </list>
+   </div>
+  </front>
+  <pb n="3"/>
+  <body>
+   <div type="act">
+    <head>ACT THE FIRST</head>
+    <div type="scene">
+     <head>Scene.—A Plain Drawing Room Interior.—Entrance door, C; in the angle, L. a door opening
+      in a passage, R.; an ottoman, C.; a standing desk, practicable, to lock, R.; books on the desk
+      ; chairs about the stage.</head>
+     <stage>Enter Lisa, R.</stage>
+     <sp who="#L1105_F6">
+      <speaker>Lisa.</speaker>
+      <p>(speaking off) All right, ma'amselle ; I'll take care and let master know at once,
+        <stage>(crosses to L., and endeavours to enter—she is stopped by Bock, who stands on
+        threshold, with an official staff, which he carries as a gun)</stage></p>
+     </sp>
+     <sp who="#L1105_M3">
+      <speaker>Bock.</speaker>
+      <p>Can't pass !</p>
+     </sp>
+     <sp who="#L1105_F6">
+      <speaker>Lisa.</speaker>
+      <p>Nonsense, Bock! Can't pass, indeed! I want to see Mr. Lippman our chief magistrate.</p>
+     </sp>
+     <sp who="#L1105_M3">
+      <speaker>Bock.</speaker>
+      <p>No go!</p>
+     </sp>
+     <sp who="#L1105_F6">
+      <speaker>Lisa.</speaker>
+      <p>Very well! I'm nobody: and I will go. <stage>(tries to force her way)</stage></p>
+     </sp>
+     <sp who="#L1105_M3">
+      <speaker>Bock.</speaker>
+      <p>Won't do!</p>
+     </sp>
+     <sp who="#L1105_F6">
+      <speaker>Lisa.</speaker>
+      <p>You tiresome man; I tell you, I've an urgent message to master.</p>
+     </sp>
+     <sp who="#L1105_M3">
+      <speaker>Bock.</speaker>
+      <p>Don't care! Got my orders to let no one pass— neither man nor woman, whatever their sex,
+       unless a criminal. Now, are <emph>you—</emph> a criminal ? If you are a criminal tell me
+       so.</p>
+     </sp>
+     <sp who="#L1105_F6">
+      <speaker>Lisa.</speaker>
+      <p>I can tell you what you are—an arrant fool!</p>
+     </sp>
+     <sp who="#L1105_M3">
+      <speaker>Bock.</speaker>
+      <p><stage>(pathetically)</stage> Oh, Lisa!</p>
+     </sp>
+     <sp who="#L1105_F6">
+      <speaker>Lisa.</speaker>
+      <p>Of course you are ! I want to fetch Mr. Lippman to take his sister, Ma'amselle Cunigunda,
+       to a morning concert at the Casino—at the Casino—don't you hear ?</p>
+     </sp>
+     <sp who="#L1105_M3">
+      <speaker>Bock.</speaker>
+      <p>I hear.</p>
+     </sp>
+     <sp who="#L1105_F6">
+      <speaker>Lisa.</speaker>
+      <p>Well!</p>
+     </sp>
+     <sp who="#L1105_M3">
+      <speaker>Bock.</speaker>
+      <p>Well!</p>
+     </sp>
+     <sp who="#L1105_F6">
+      <speaker>Lisa.</speaker>
+      <p>Oh, you dullard! Then, when the house is clear, you might—<stage>(affecting
+        modesty)</stage></p>
+     </sp>
+     <sp who="#L1105_M3">
+      <speaker>Bock.</speaker>
+      <p>What!</p>
+     </sp>
+     <sp who="#L1105_F6">
+      <speaker>Lisa.</speaker>
+      <p>Make love to me—dolt!</p>
+     </sp>
+     <pb n="4"/>
+     <sp who="#L1105_M3">
+      <speaker>Bock.</speaker>
+      <p><stage>(with a big sigh)</stage> Oh !</p>
+     </sp>
+     <sp who="#L1105_F6">
+      <speaker>Lisa.</speaker>
+      <p>So let me go in, and fetch master. <stage>(tries to past)</stage></p>
+     </sp>
+     <sp who="#L1105_M3">
+      <speaker>Bock.</speaker>
+      <p>No!</p>
+     </sp>
+     <sp who="#L1105_F6">
+      <speaker>Lisa.</speaker>
+      <p>But don't I tell you—</p>
+     </sp>
+     <sp who="#L1105_M3">
+      <speaker>Bock.</speaker>
+      <p>Duty!</p>
+     </sp>
+     <sp who="#L1105_F6">
+      <speaker>Lisa.</speaker>
+      <p>Oh, very well! <stage>(leaving him)</stage> You're a rude, ill-tempered fellow!</p>
+     </sp>
+     <sp who="#L1105_M3">
+      <speaker>Bock.</speaker>
+      <p><stage>(plaintively)</stage> Lisa !</p>
+     </sp>
+     <sp who="#L1105_F6">
+      <speaker>Lisa.</speaker>
+      <p>And I've done with you, for ever!</p>
+     </sp>
+     <sp who="#L1105_M3">
+      <speaker>Bock.</speaker>
+      <p><stage>(half crying)</stage> Lisa!</p>
+     </sp>
+     <sp who="#L1105_F6">
+      <speaker>Lisa.</speaker>
+      <p>I never mean to look at you again!</p>
+     </sp>
+     <sp who="#L1105_M3">
+      <speaker>Bock.</speaker>
+      <p><stage>(sobbing)</stage> Lisa!</p>
+     </sp>
+     <sp who="#L1105_F6">
+      <speaker>Lisa.</speaker>
+      <p>Very well, then ! Let me go in to master—Come, my sweet, good-looking dear little Bock ? Do
+       now—do !</p>
+     </sp>
+     <sp who="#L1105_M3">
+      <speaker>Bock.</speaker>
+      <p><stage>(recovering himself)</stage> Can't !</p>
+     </sp>
+     <sp who="#L1105_F6">
+      <speaker>Lisa.</speaker>
+      <p>Bock!</p>
+     </sp>
+     <sp who="#L1105_M3">
+      <speaker>Bock.</speaker>
+      <p>Duty ! <stage>(shoulders his staff like a gun, and exit, L.)</stage></p>
+     </sp>
+     <sp who="#L1105_F6">
+      <speaker>Lisa.</speaker>
+      <p>Brute! There's no getting him out of his <stage>(mimicking)</stage> " Can't! Duty !" The
+       creature isn't a man—he's a stone wall!</p>
+     </sp>
+     <stage>Enter Minna Von Rosen, C.</stage>
+     <sp who="#L1105_F5">
+      <speaker>Minna.</speaker>
+      <p>Ah ! there you are, Lisa!</p>
+     </sp>
+     <sp who="#L1105_F6">
+      <speaker>Lisa.</speaker>
+      <p>Why, if it isn't Madame von Resen !</p>
+     </sp>
+     <stage>Enter Cunigunda Lippman, R.</stage>
+     <sp who="#L1105_F4">
+      <speaker>Cuni.</speaker>
+      <p>Well, is my brother ready to go with me?</p>
+     </sp>
+     <sp who="#L1105_F5">
+      <speaker>Minna.</speaker>
+      <p><stage>(advancing)</stage> Aunt Cunigunda !</p>
+     </sp>
+     <sp who="#L1105_F4">
+      <speaker>Cuni.</speaker>
+      <p>My dear Minna! This is an unexpected pleasure. <stage>(they embrace)</stage></p>
+     </sp>
+     <sp who="#L1105_F5">
+      <speaker>Minna.</speaker>
+      <p>Delighted to see you after so long an absence ! But where is my father ?</p>
+     </sp>
+     <sp who="#L1105_F6">
+      <speaker>Lisa.</speaker>
+      <p>In his office.</p>
+     </sp>
+     <sp who="#L1105_F5">
+      <speaker>Minna.</speaker>
+      <p>Then I'll go to him.</p>
+     </sp>
+     <sp who="#L1105_F6">
+      <speaker>Lisa.</speaker>
+      <p><stage>(mimicking Bock)</stage> Can't!</p>
+     </sp>
+     <sp who="#L1105_F5">
+      <speaker>Minna.</speaker>
+      <p>Why not ?</p>
+     </sp>
+     <sp who="#L1105_F6">
+      <speaker>Lisa.</speaker>
+      <p><stage>(as before)</stage> Duty !</p>
+     </sp>
+     <sp who="#L1105_F5">
+      <speaker>Minna.</speaker>
+      <p>What does all this mean ?</p>
+     </sp>
+     <sp who="#L1105_F6">
+      <speaker>Lisa.</speaker>
+      <p>Ask that fool Bock, the doorkeeper, ma'am. That's all I could get out of
+       <emph>him—</emph>.</p>
+     </sp>
+     <sp who="#L1105_F5">
+      <speaker>Minna.</speaker>
+      <p>Oh, nonsense! Of course my father will see me. <stage>(goes to door, L.)</stage></p>
+     </sp>
+     <sp who="#L1105_M3">
+      <speaker>Bock.</speaker>
+      <p><stage>(appearing at door l., and presenting staff)</stage> Can't pass!</p>
+     </sp>
+     <sp who="#L1105_F5">
+      <speaker>Minna.</speaker>
+      <p>But, to speak to my own father, surely.</p>
+     </sp>
+     <sp who="#L1105_M3">
+      <speaker>Bock.</speaker>
+      <p>Won't do!</p>
+     </sp>
+     <sp who="#L1105_F5">
+      <speaker>Minna.</speaker>
+      <p>But why? Why?</p>
+     </sp>
+     <sp who="#L1105_M3">
+      <speaker>Bock.</speaker>
+      <p>Orders!</p>
+     </sp>
+     <pb n="5"/>
+     <sp who="#L1105_F6">
+      <speaker>Lisa.</speaker>
+      <p><stage>(laughing)</stage> What did I tell you, madam ? Bock's ablock!</p>
+     </sp>
+     <sp who="#L1105_M3">
+      <speaker>Bock.</speaker>
+      <p><stage>(pathetically)</stage> Oh, Lisa !</p>
+     </sp>
+     <sp who="#L1105_M2">
+      <speaker>Florian Hahnenkamm.</speaker>
+      <p><stage>(without, L.)</stage> Bock ! Bock ! Where are you ?</p>
+     </sp>
+     <sp who="#L1105_F4">
+      <speaker>Cuni.</speaker>
+      <p>Ah ! Here comes Florian Hahnenkaram, the head clerk. He is always polite with the fair sex.
+        <stage>(simpers)</stage></p>
+     </sp>
+     <sp who="#L1105_F6">
+      <speaker>Lisa.</speaker>
+      <p><stage>(aside)</stage> She calls herself " the fair sex," does she?</p>
+     </sp>
+     <sp who="#L1105_F5">
+      <speaker>Minna.</speaker>
+      <p>He will give the necessary orders, doubtless.</p>
+     </sp>
+     <stage>Enter Florian Hahnenkamm, from passage, L.</stage>
+     <sp who="#L1105_M2">
+      <speaker>Flor.</speaker>
+      <p><stage>(calling)</stage> Bock!</p>
+     </sp>
+     <sp who="#L1105_M3">
+      <speaker>Bock.</speaker>
+      <p><stage>(shouldering staff)</stage> Here !</p>
+     </sp>
+     <sp who="#L1105_M2">
+      <speaker>Flor.</speaker>
+      <p>Ah, ladies ! I have the honour to present you my most respectful <stage>(pause for a
+        word)</stage> respects. Allow me one moment. Bock, you were placed in the passage. Why have
+       you left the passage ?</p>
+     </sp>
+     <sp who="#L1105_M3">
+      <speaker>Bock.</speaker>
+      <p>I——</p>
+     </sp>
+     <sp who="#L1105_M2">
+      <speaker>Flor.</speaker>
+      <p>Silence! Not a soul is to pass. You know your orders!</p>
+     </sp>
+     <sp who="#L1105_M3">
+      <speaker>Bock.</speaker>
+      <p>I know.</p>
+     </sp>
+     <sp who="#L1105_M2">
+      <speaker>Flor.</speaker>
+      <p>Then march off to your post!</p>
+     </sp>
+     <sp who="#L1105_M3">
+      <speaker>Bock.</speaker>
+      <p>I march ! <stage>Exit into passage, L.</stage></p>
+     </sp>
+     <sp who="#L1105_M2">
+      <speaker>Flor.</speaker>
+      <p>Now, ladies, I await your fair commands.</p>
+     </sp>
+     <sp who="#L1105_F5">
+      <speaker>Minna.</speaker>
+      <p>I want to see my father !</p>
+     </sp>
+     <sp who="#L1105_M2">
+      <speaker>Flor.</speaker>
+      <p>You overwhelm me with despair, madam. Impossible!</p>
+     </sp>
+     <sp who="#L1105_F5">
+      <speaker>Minna.</speaker>
+      <p>But after more than three months' separation, when I have come all the way from Berlin here
+       to Coblentz, to fly to his arms—</p>
+     </sp>
+     <sp who="#L1105_M2">
+      <speaker>Flor.</speaker>
+      <p>I am infinitely grieved to check your flight, madam. And his arms will doubtless regret the
+       delay. But it can't be helped.</p>
+     </sp>
+     <sp who="#L1105_F4">
+      <speaker>Cuni.</speaker>
+      <p>But I must have my brother to chaperon me to the concert. It would be too compromising, for
+       a young woman, like me, to go alone. The male sex is so enterprising now o'days.</p>
+     </sp>
+     <sp who="#L1105_F6">
+      <speaker>Lisa.</speaker>
+      <p><stage>(aside)</stage> Not enough to <emph>her—</emph> liking, I fancy.</p>
+     </sp>
+     <sp who="#L1105_M2">
+      <speaker>Flor.</speaker>
+      <p>Ladies, I can only express my most regretful— <stage>(seeks for a word)</stage> regrets!
+       Mr. Lippman, at this hour, has no daughter—no sister—</p>
+     </sp>
+     <sp who="#L1105_mult">
+      <speaker>Minna and Cuni.</speaker>
+      <p><stage>(together)</stage> What!</p>
+     </sp>
+     <sp who="#L1105_M2">
+      <speaker>Flor.</speaker>
+      <p>I mean, he is no longer a father—no longer a brother. He is just now the
+        incarnated—<stage>(seeks for a word)</stage> incarnation of justice—as chief magistrate.</p>
+     </sp>
+     <sp who="#L1105_F5">
+      <speaker>Minna.</speaker>
+      <p>But how is this?</p>
+     </sp>
+     <sp who="#L1105_F4">
+      <speaker>Cuni.</speaker>
+      <p>Good heavens ! What has happened?</p>
+     </sp>
+     <sp who="#L1105_M2">
+      <speaker>Flor.</speaker>
+      <p>Happened ! Why, a burglary—a beautiful burglary ! One of the most magnificent and
+       palpitating cases imaginable.</p>
+     </sp>
+     <pb n="6"/>
+     <sp who="#L1105_F4">
+      <speaker>Cuni.</speaker>
+      <p>It makes me palpitate to think of it.</p>
+     </sp>
+     <sp who="#L1105_F5">
+      <speaker>Minna.</speaker>
+      <p>And have you caught the midnight aggressor ?</p>
+     </sp>
+     <sp who="#L1105_M2">
+      <speaker>Flor.</speaker>
+      <p>Well, not yet! not yet! But, thanks to my perspicuity, we are on his track already.</p>
+     </sp>
+     <sp who="#L1105_F4">
+      <speaker>Cuni.</speaker>
+      <p>Poor fellow! These malefactors are always so engaging.</p>
+     </sp>
+     <sp who="#L1105_M2">
+      <speaker>Flor.</speaker>
+      <p>The chief magistrate is receiving depositions, reading, examining, protocoling, et cetera.
+       An earthquake would not move him, even though his magisterial chair broke down beneath
+       him.</p>
+     </sp>
+     <sp who="#L1105_F5">
+      <speaker>Minna.</speaker>
+      <p>But, my dear sir—</p>
+     </sp>
+     <sp who="#L1105_F4">
+      <speaker>Cuni.</speaker>
+      <p>My good Mr. Florian Hahnenkamm—</p>
+     </sp>
+     <sp who="#L1105_M2">
+      <speaker>Flor.</speaker>
+      <p>Ladies, you cause my heart to bleed—you do, indeed! But here, I am no longer the gallant
+       and amiable Florian Hahnenkamm—I am only head clerk ; and as such I am inflexible in
+        my—<stage>(pauses for a word)</stage> inflexibility, <stage>(looking at his watch)</stage>
+       Bless my soul! Ten o'clock ! I must be off to the house where the offence was committed ; and
+       I have no doubt all will be clear as soon as I put my nose into it. For I <emph>have</emph> a
+       nose!</p>
+     </sp>
+     <sp who="#L1105_F6">
+      <speaker>Lisa.</speaker>
+      <p>You have, indeed ! <stage>(aside)</stage> A precious ugly one!</p>
+     </sp>
+     <sp who="#L1105_M2">
+      <speaker>Flor.</speaker>
+      <p><stage>(going to door, L.)</stage> Bock! Not a soul is to enter, unless it he a criminal,
+       brought before the magistrate—you hear ? a criminal! Ladies, sorry—not to oblige you! I leave
+       you, a man agonized with—<stage>(seeks word)</stage> agony. <stage>Bows, exit door,
+        C.</stage></p>
+     </sp>
+     <sp who="#L1105_F4">
+      <speaker>Cuni.</speaker>
+      <p>Now, isn't it aggravating ? To have arrayed myself in my most becoming and captivating
+       attire—and all for nothing, <stage>(with a sudden thought)</stage> Oh, Minna, you might
+       chaperon me to the concert !</p>
+     </sp>
+     <sp who="#L1105_F5">
+      <speaker>Minna.</speaker>
+      <p>My dear aunt, you forget I have passed the night on the railway. Just now, the best music
+       would have but little charms for me.</p>
+     </sp>
+     <sp who="#L1105_F4">
+      <speaker>Cuni.</speaker>
+      <p>As if I cared for the music!</p>
+     </sp>
+     <sp who="#L1105_F5">
+      <speaker>Minna.</speaker>
+      <p><stage>(laughing)</stage> And yet you are so eager for its strains.</p>
+     </sp>
+     <sp who="#L1105_F4">
+      <speaker>Cuni.</speaker>
+      <p>It's all very well for you to laugh; you are a married woman.</p>
+     </sp>
+     <sp who="#L1105_F5">
+      <speaker>Minna.</speaker>
+      <p>A widow ! you mean.</p>
+     </sp>
+     <sp who="#L1105_F4">
+      <speaker>Cuni.</speaker>
+      <p><stage>(sighing)</stage> At all events, you <emph>have</emph> had the happiness of being
+       married ; whilst I am yet to be wooed and won. And at a concert, you know, one has the chance
+       of meeting some engaging young fellow, who is looking out for a solid settlement in life.</p>
+     </sp>
+     <sp who="#L1105_F6">
+      <speaker>Lisa.</speaker>
+      <p><stage>(aside)</stage> Solid enough, if he takes her !</p>
+     </sp>
+     <sp who="#L1105_F4">
+      <speaker>Cuni.</speaker>
+      <p>And when a young woman is still on the sunny side of existence—</p>
+     </sp>
+     <sp who="#L1105_F6">
+      <speaker>Lisa.</speaker>
+      <p><stage>(aside)</stage> Like an over ripe plum on a wall!</p>
+     </sp>
+     <sp who="#L1105_F4">
+      <speaker>Cuni.</speaker>
+      <p>She is loath to miss any propitious chance.</p>
+     </sp>
+     <pb n="7"/>
+     <sp who="#L1105_F5">
+      <speaker>Minna.</speaker>
+      <p>Run and see after my luggage, Lisa.</p>
+     </sp>
+     <sp who="#L1105_F6">
+      <speaker>Lisa.</speaker>
+      <p>I fly ! <stage>(runs up door, C, and is nearly knocked over by Hans Flicker Von
+        Flickerdorf, who enters hurriedly)</stage></p>
+     </sp>
+     <sp who="#L1105_M1">
+      <speaker>Hans.</speaker>
+      <p>All right! Never mind me ! How are you, my pretty one ? <stage>(chucks her under the
+        chin)</stage></p>
+     </sp>
+     <sp who="#L1105_F6">
+      <speaker>Lisa.</speaker>
+      <p>Well, I'm sure!</p>
+     </sp>
+     <sp who="#L1105_M1">
+      <speaker>Hans.</speaker>
+      <p>All right! Never mind me! Mr. Lippman, the Chief Magistrate, if you please. Announce me
+       immediately! I must see him directly. I'm in a deuce of a hurry !</p>
+     </sp>
+     <sp who="#L1105_F6">
+      <speaker>Lisa.</speaker>
+      <p><stage>(laughing)</stage> Come, that's a good'un ! <stage>Exit, C. door.</stage></p>
+     </sp>
+     <sp who="#L1105_M1">
+      <speaker>Hans.</speaker>
+      <p>What's a <stage>(mimicking)</stage> " good'un?" Who's a " good- 'un ?" Where's a "good'un?'
+        <stage>(seeing Cunigunda)</stage> A female of the archœological order! Is she the "good'un?"
+        <stage>(bowing)</stage> Mr. Lippman, the Chief Magistrate, if you please.</p>
+     </sp>
+     <sp who="#L1105_F4">
+      <speaker>Cuni.</speaker>
+      <p><stage>(angrily)</stage> I am not Mr. Lippman, sir!</p>
+     </sp>
+     <sp who="#L1105_M1">
+      <speaker>Hans.</speaker>
+      <p>Upon my honour, I never took you for that respectable individual of the male sex.</p>
+     </sp>
+     <sp who="#L1105_F4">
+      <speaker>Cuni.</speaker>
+      <p>Speak to Bock, sir, <stage>(aside, going)</stage> Impertinent fellow! <stage>Exit, R.
+        door—</stage></p>
+     </sp>
+     <sp who="#L1105_M1">
+      <speaker>Hans.</speaker>
+      <p>All right! I'll speak to Bock, <stage>(looking round)</stage> Hollo, Bock! Where's Bock ?
+        <stage>(seeing Minna)</stage> Ah! Have I the honour of addressing Mademoiselle Bock? Mr.
+       Lippman, the Chief Magistrate, if you please.</p>
+     </sp>
+     <sp who="#L1105_F5">
+      <speaker>Minna.</speaker>
+      <p><stage>(smiling)</stage> Bock is the doorkeeper of Mr. Lippmann's office.</p>
+     </sp>
+     <sp who="#L1105_M1">
+      <speaker>Hans.</speaker>
+      <p>Is he ? All right! But if you are not Bock, perhaps you won't mind being Bock, " for this
+       occasion only." Mr. Lippman, the Chief Magistrate, if you please.</p>
+     </sp>
+     <sp who="#L1105_F5">
+      <speaker>Minna.</speaker>
+      <p>Really, sir—</p>
+     </sp>
+     <sp who="#L1105_M1">
+      <speaker>Hans.</speaker>
+      <p><stage>(bowing)</stage> I am convinced, that you won't refuse to be Bock—you, the most
+       amiable, as you are the most charming of your sex.</p>
+     </sp>
+     <sp who="#L1105_F5">
+      <speaker>Minna.</speaker>
+      <p><stage>(smiling)</stage> You have a strange way of jumping at conclusions, sir.</p>
+     </sp>
+     <sp who="#L1105_M1">
+      <speaker>Hans.</speaker>
+      <p>Not at all! You are charming—you know you are ! And I can see at once you are amiable, by
+       that air of—of pleasant <stage>(gesticulating)</stage> alloverishness, so unlike the other
+       specimens of the feminine gender, which have just given me such curt answers.</p>
+     </sp>
+     <sp who="#L1105_F5">
+      <speaker>Minna.</speaker>
+      <p>Mr. Lippman is my father, sir.</p>
+     </sp>
+     <sp who="#L1105_M1">
+      <speaker>Hans.</speaker>
+      <p>You don't say so! Is it possible? <stage>(with rapture)</stage> Happy father !
+        <stage>(seeing Minna looking at him with surprise)</stage> Oh, all right ! Never mind me
+       !</p>
+     </sp>
+     <sp who="#L1105_F5">
+      <speaker>Minna.</speaker>
+      <p>Just now, he is inaccessible. Even I, his daughter, am refused his presence.</p>
+     </sp>
+     <sp who="#L1105_M1">
+      <speaker>Hans.</speaker>
+      <p>Is it possible that a father can be so devoid of all the bowels of paternity
+        <stage>(bowing)</stage> and gallantry ? To be sure, I
+       <pb n="8"/>always heard justice was blind ! But she mustn't be deaf— hang it! she mustn't be
+       deaf! And so <stage>(loudly)</stage> Mr. Lippman, the Chief Magistrate, if you please.</p>
+     </sp>
+     <sp who="#L1105_F5">
+      <speaker>Minna.</speaker>
+      <p><stage>(playfully stopping her ears)</stage> She must be deaf indeed to resist such an
+       appeal,</p>
+     </sp>
+     <sp who="#L1105_M1">
+      <speaker>Hans.</speaker>
+      <p>Pardon the vociferation in favour of the urgency of the case. You shall judge its urgency,
+       I, Hans Flicker Von Flickerdorf, as you have the honour of seeing me here before you—no, I
+       mean, as I have the honour of seeing myself here before you, madam, <stage>(suddenly checking
+        himself, and changing tone)</stage> By the bye, ought I to say " madam," or " mademoiselle
+       ?"</p>
+     </sp>
+     <sp who="#L1105_F5">
+      <speaker>Minna.</speaker>
+      <p><stage>(smiling)</stage> Say, " madam," by all means.</p>
+     </sp>
+     <sp who="#L1105_M1">
+      <speaker>Hans.</speaker>
+      <p>All right! Well, madam, I, Hans Flicker Von Flickerdorf, as I have the honour of seeing
+        myself—<stage>(checking himself again)</stage> A wife, or a widow!</p>
+     </sp>
+     <sp who="#L1105_F5">
+      <speaker>Minna.</speaker>
+      <p><stage>(as before)</stage> A widow, sir!</p>
+     </sp>
+     <sp who="#L1105_M1">
+      <speaker>Hans.</speaker>
+      <p>Bravo ! an advancement in rank. Shall we say " advancement?" Well, never mind ! All right!
+       As I said before, I, Hans Flicker Von Flickerdorf— <stage>(checking himself as
+        before)</stage> Any children ?</p>
+     </sp>
+     <sp who="#L1105_F5">
+      <speaker>Minna.</speaker>
+      <p>Really, sir, this is a regular inquisition.</p>
+     </sp>
+     <sp who="#L1105_M1">
+      <speaker>Hans.</speaker>
+      <p>Oh, you're not bound to answer, you know.</p>
+     </sp>
+     <sp who="#L1105_F5">
+      <speaker>Minna.</speaker>
+      <p>I have no reason to be silent—one little boy, three years of age —<stage>(aside)</stage>
+       What an original!</p>
+     </sp>
+     <sp who="#L1105_M1">
+      <speaker>Hans.</speaker>
+      <p>One little boy ! Happy offspring of such a mother ! <stage>(catching her look as
+        before)</stage> Oh, all right! Never mind me! To resume. I, Hans Flicker Von Flickerdorf, as
+       I have the honour—and all the rest—I am, at this very moment, one of a wedding party. The
+       wedding is my own.</p>
+     </sp>
+     <sp who="#L1105_F5">
+      <speaker>Minna.</speaker>
+      <p><stage>(laughing)</stage> Indeed!</p>
+     </sp>
+     <sp who="#L1105_M1">
+      <speaker>Hans.</speaker>
+      <p>And what's more—as the wedding is my own, I am waited for to play a very considerable part
+       in the ceremony— My intended bride is—</p>
+     </sp>
+     <sp who="#L1105_F5">
+      <speaker>Minna.</speaker>
+      <p><stage>(as before)</stage> Fair or dark ?</p>
+     </sp>
+     <sp who="#L1105_M1">
+      <speaker>Hans.</speaker>
+      <p>Neither ! If I were not the politest of men, I fancy I might say " carrotty."</p>
+     </sp>
+     <sp who="#L1105_F5">
+      <speaker>Minna.</speaker>
+      <p>You don't appear very sure.</p>
+     </sp>
+     <sp who="#L1105_M1">
+      <speaker>Hans.</speaker>
+      <p>I have a very strong notion on the subject. But, my courtship having been very brief, I
+       have not exactly had time to study the particular shades of—</p>
+     </sp>
+     <sp who="#L1105_F5">
+      <speaker>Minna.</speaker>
+      <p>Of the lady's character ?</p>
+     </sp>
+     <sp who="#L1105_M1">
+      <speaker>Hans.</speaker>
+      <p>Of her hair. It was doubtful. I mean the hair again—not the character.</p>
+     </sp>
+     <sp who="#L1105_F5">
+      <speaker>Minna.</speaker>
+      <p>But I don't see—</p>
+     </sp>
+     <sp who="#L1105_M1">
+      <speaker>Hans.</speaker>
+      <p>You don't! And with such lovely eyes too. <stage>(catching a look and gesture of
+        Minna)</stage> Oh, all right! Never mind me !
+       <pb n="9"/>Well, the facts are these. I met the young lady in question, one warm evening.
+       Mark that fact! Mark it well! A <emph>warm</emph> evening. I was warm, and an animated
+       conversation ensued. The young lady warmed up, and responded with fervour. After about three
+       quarters of an hour, the father stepped in between us and with very considerable warmth asked
+       what were my intentions. I had not any—so we <emph>all</emph> got warm—uncommonly warm.</p>
+     </sp>
+     <sp who="#L1105_F5">
+      <speaker>Minna.</speaker>
+      <p>Your story grows exciting, sir.</p>
+     </sp>
+     <sp who="#L1105_M1">
+      <speaker>Hans.</speaker>
+      <p>Exciting! I should think so ! Well, this warm old gentleman was a savage Captain of
+       Dragoons. To get out of the range of the fire of this human breech-loader who threatened to
+       pop me off, I decided on popping the question; and the question was popped.</p>
+     </sp>
+     <sp who="#L1105_F5">
+      <speaker>Minna.</speaker>
+      <p><stage>(gaily)</stage> It was rather sudden.</p>
+     </sp>
+     <sp who="#L1105_M1">
+      <speaker>Hans.</speaker>
+      <p>You have said it! It was! But I had another reason for this unusual precipitancy. A rich
+       old uncle, endowed with a considerable fortune, and the gout, desires to see his race
+       perpetuated before he dies. At present, I am the only race to inherit his endowments—I mean
+       the fortune not the gout. If I don't marry at once he disinherits me : and to achieve his
+       desire, he has liberally given me—one month. So, you see, the lady of the doubtful hair came
+       at the very nick of time.</p>
+     </sp>
+     <sp who="#L1105_F5">
+      <speaker>Minna.</speaker>
+      <p>Shall I offer you my congratulations ? <stage>(Hans shrugs his shoulders)</stage> or my
+       condolences, sir ?</p>
+     </sp>
+     <sp who="#L1105_M1">
+      <speaker>Hans.</speaker>
+      <p><stage>(politely)</stage> Whichever you please, madam.</p>
+     </sp>
+     <sp who="#L1105_F5">
+      <speaker>Minna.</speaker>
+      <p>My condolences let it be !</p>
+     </sp>
+     <sp who="#L1105_M1">
+      <speaker>Hans.</speaker>
+      <p>Thanks for that tear of sympathy! I don't see it. But I am sure you have dropped a tear of
+       sympathy—somewhere ! And in return allow me to offer you a little piece of practical advice.
+       Never engage in warm conversations on warm evenings.</p>
+     </sp>
+     <sp who="#L1105_F5">
+      <speaker>Minna.</speaker>
+      <p>Sir!</p>
+     </sp>
+     <sp who="#L1105_M1">
+      <speaker>Hans.</speaker>
+      <p>Oh, all right! Never mind me !</p>
+     </sp>
+     <sp who="#L1105_F5">
+      <speaker>Minna.</speaker>
+      <p>But I don't see what all this has to do with my father, the Chief Magistrate.</p>
+     </sp>
+     <sp who="#L1105_M1">
+      <speaker>Hans.</speaker>
+      <p>Permit me the full development of my tale. The wedding day was fixed—this very day. Early
+       this morning I arrive from Bonn. I find the nuptial habitation surrounded by armed police. I
+       seek to enter—I am told, in rough tones, to " Move on !" Move on! that's the very thing I
+       wanted to do, but they wouldn't let me ! I explain the urgent necessity of a bridegroom's
+       presence to make a marriage ceremony in some degree valid. I am only told, in still rougher
+       tones, to move still onner. </p>
+     </sp>
+     <sp who="#L1105_F5">
+      <speaker>Minna.</speaker>
+      <p>But what did this mean?</p>
+     </sp>
+     <sp who="#L1105_M1">
+      <speaker>Hans.</speaker>
+      <p>I have still more to develope. A burglary, it would
+       <pb n="10"/> seem, had been committed in the very habitation of my intended father-in-law.
+       The culprit had not been arrested; and, meanwhile, father-in-law, guests, wedding breakfast,
+       favours, fiddles, blushing bride, orange flowers, and all, had been put under lock and key.
+       Not a soul was allowed to leave the house or enter it. The law was inexorable !</p>
+     </sp>
+     <sp who="#L1105_F5">
+      <speaker>Minna.</speaker>
+      <p>Well then! The wedding is simply deferred until to-morrow.</p>
+     </sp>
+     <sp who="#L1105_M1">
+      <speaker>Hans.</speaker>
+      <p>But didn't I tell you, madame, that my intended father-in-law was a Captain of Dragoons
+       ?</p>
+     </sp>
+     <sp who="#L1105_F5">
+      <speaker>Minna.</speaker>
+      <p>I have not forgotten it.</p>
+     </sp>
+     <sp who="#L1105_M1">
+      <speaker>Hans.</speaker>
+      <p>His leave of absence ends to morrow. He is obliged to take the train for Berlin this very
+       evening. And if you had only seen him at his window, in full uniform, with his sabre in his
+       hand—a sabre as long as that, madame—fully as long as that ! " Son-in-law!" he shouted, in a
+       voice of thunder, " You are free! You are able to relieve the blockade. Fly to the Chief
+       Magistrate! He alone can give the necessary order for our release ! I give you half an hour.
+       If all is not done by that time, you know what to expect." What to expect—
+        <stage>(shudders)</stage> Burr!</p>
+     </sp>
+     <sp who="#L1105_F5">
+      <speaker>Minna.</speaker>
+      <p>And what were you to " expect ?"</p>
+     </sp>
+     <sp who="#L1105_M1">
+      <speaker>Hans.</speaker>
+      <p>Well, I have no strictly definite idea; but I have a pretty strong notion.</p>
+     </sp>
+     <sp who="#L1105_F5">
+      <speaker>Minna.</speaker>
+      <p>Poor fellow!</p>
+     </sp>
+     <sp who="#L1105_M1">
+      <speaker>Hans.</speaker>
+      <p>You have dropped another tear of sympathy. I am sure you have, though, as before, I don't
+       exactly see it. Complete this invisible trait of feeling by procuring an interview, with your
+       equally invisible father ! <stage>(pulling out his watch)</stage> The half hour will soon
+       expire, <stage>(aside)</stage> and I have no mind to do like the half hour.</p>
+     </sp>
+     <sp who="#L1105_F5">
+      <speaker>Minna.</speaker>
+      <p>I can but be grieved at your deplorable position, my dear sir!</p>
+     </sp>
+     <sp who="#L1105_M1">
+      <speaker>Hans.</speaker>
+      <p>That's it! Drop more tears of sympathy ! But consent !</p>
+     </sp>
+     <sp who="#L1105_F5">
+      <speaker>Minna.</speaker>
+      <p>I consent to show you how utterly fruitless is your persistance. <stage>Goes to door, L.,
+        and opens it—Bock appears.</stage></p>
+     </sp>
+     <sp who="#L1105_M3">
+      <speaker>Bock.</speaker>
+      <p><stage>(presenting staff)</stage> Can't pass !</p>
+     </sp>
+     <sp who="#L1105_F5">
+      <speaker>Minna.</speaker>
+      <p>It is not I who want to pass, Bock—but this gentleman, who has urgent business with my
+       father.</p>
+     </sp>
+     <sp who="#L1105_M3">
+      <speaker>Bock.</speaker>
+      <p>A criminal ?</p>
+     </sp>
+     <sp who="#L1105_M1">
+      <speaker>Hans.</speaker>
+      <p>A criminal! I! Good heavens, no !</p>
+     </sp>
+     <sp who="#L1105_M3">
+      <speaker>Bock.</speaker>
+      <p>Then can't pass.</p>
+     </sp>
+     <sp who="#L1105_M1">
+      <speaker>Hans.</speaker>
+      <p>But I——</p>
+     </sp>
+     <sp who="#L1105_M3">
+      <speaker>Bock.</speaker>
+      <p>Won't do. <stage>(shuts door)</stage></p>
+     </sp>
+     <pb n="11"/>
+     <sp who="#L1105_F5">
+      <speaker>Minna.</speaker>
+      <p>You see, sir! I told you the strict truth. Now permit me to retire. I have been here only
+       too long. <stage>Curtseys and exit, door, R.</stage></p>
+     </sp>
+     <sp who="#L1105_M1">
+      <speaker>Hans.</speaker>
+      <p><stage>(bowing to Minna as she goes)</stage> Don't think of apologizing ! All right!
+        <stage>(walking about and pulling out his watch)</stage> Five minutes gone ! five minutes!
+       and before my eyes I still see the horrible vision of my ferocious father-in-law telegraphing
+       with his sabre—as long as that.— I must see this wretched chief magistrate—I must ! Were I to
+       scratch down the wall, brick by brick, with my own nails—only that process would probably
+       last a little longer than half-an-hour—and when I say half-an-hour, <stage>(pulling out his
+        watch)</stage> I mean five- and-twenty minutes.</p>
+     </sp>
+     <stage>Enter Florian Hahnenkamm, door C, with a pair of long pistols.</stage>
+     <sp who="#L1105_M2">
+      <speaker>Flor.</speaker>
+      <p>Bravo, bravissimo! If I haven't been able to put my clutches on the burglar, I have on
+       these pistols suspiciously hidden in a carriage, under the seat. This is evidence,
+       overwhelming evidence!</p>
+     </sp>
+     <sp who="#L1105_M1">
+      <speaker>Hans.</speaker>
+      <p>Hollo ! the dragoon's cavalry pistols, <stage>(tries to take them)</stage></p>
+     </sp>
+     <sp who="#L1105_M2">
+      <speaker>Flor.</speaker>
+      <p><stage>(drawing them back)</stage> Hey ! You know these pistols ?</p>
+     </sp>
+     <sp who="#L1105_M1">
+      <speaker>Hans.</speaker>
+      <p>I should think so! I have often looked at them <stage>(aside)</stage> with a prophetic
+       shudder.</p>
+     </sp>
+     <sp who="#L1105_M2">
+      <speaker>Flor.</speaker>
+      <p>You know them. Then you are a witness in this case of important—<stage>(seeking the
+        word)</stage> importance. Witness—name unknown—I summon you to appear before the chief
+       magistrate.</p>
+     </sp>
+     <sp who="#L1105_M1">
+      <speaker>Hans.</speaker>
+      <p>Bravo! All right! The very thing I came for. <stage>(to himself)</stage> I have done it at
+       last! <stage>(exclaiming)</stage> March on ! I'll follow thee—Mr. similarly, name
+       unknown—even to death I'll follow thee. <stage>(marches to door, L.)</stage></p>
+     </sp>
+     <sp who="#L1105_M2">
+      <speaker>Flor.</speaker>
+      <p>Stop, stop! You must take your turn, <stage>(pulling a card out of his pocket)</stage>
+       There's your number! <stage>(gives it)</stage></p>
+     </sp>
+     <sp who="#L1105_M1">
+      <speaker>Hans.</speaker>
+      <p>All right! <stage>(reading)</stage> One hundred and thirty-seven. The devil ! And when may
+       your wonderful " One hundred and thirty-seven " turn up ?</p>
+     </sp>
+     <sp who="#L1105_M2">
+      <speaker>Flor.</speaker>
+      <p>Well, late this evening—about midnight I should say—or to-morrow morning at the latest.</p>
+     </sp>
+     <sp who="#L1105_M1">
+      <speaker>Hans.</speaker>
+      <p>Infinitely obliged to you! I should be sorry to put you or your chief magistrate to any
+       such inconvenience. <stage>(gives back the number)</stage></p>
+     </sp>
+     <sp who="#L1105_M2">
+      <speaker>Flor.</speaker>
+      <p>What does this mean, witness—name unknown ?</p>
+     </sp>
+     <sp who="#L1105_M1">
+      <speaker>Hans.</speaker>
+      <p>It means that I don't mean to be a witness ! I retire from the service, ticket
+       distributor—name equally unknown.</p>
+     </sp>
+     <sp who="#L1105_M2">
+      <speaker>Flor.</speaker>
+      <p>What!</p>
+     </sp>
+     <sp who="#L1105_M1">
+      <speaker>Hans.</speaker>
+      <p>It means that the pistols belong to my father-in-law, a captain of dragoons, who put them
+       in his carriage.</p>
+     </sp>
+     <pb n="12"/>
+     <sp who="#L1105_M2">
+      <speaker>Flor.</speaker>
+      <p>Then what do you want—you ——?</p>
+     </sp>
+     <sp who="#L1105_M1">
+      <speaker>Hans.</speaker>
+      <p>I want to see the chief magistrate.</p>
+     </sp>
+     <sp who="#L1105_M2">
+      <speaker>Flor.</speaker>
+      <p>What for?</p>
+     </sp>
+     <sp who="#L1105_M1">
+      <speaker>Hans.</speaker>
+      <p>I am one of his most dearly cherished bosom friends ; and I want—I want—to ask him to
+       dinner.</p>
+     </sp>
+     <sp who="#L1105_M2">
+      <speaker>Flor.</speaker>
+      <p><stage>(pompously)</stage> Learn then, Mr.——</p>
+     </sp>
+     <sp who="#L1105_M1">
+      <speaker>Hans.</speaker>
+      <p>"Name unknown!" All right ! Bowl on!</p>
+     </sp>
+     <sp who="#L1105_M2">
+      <speaker>Flor.</speaker>
+      <p>Learn then that a magistrate, in the exercise of his functions, never dines.</p>
+     </sp>
+     <sp who="#L1105_M1">
+      <speaker>Hans.</speaker>
+      <p>Doesn't he? I am devilish sorry for him ! But— confound it! This is enough to make one blow
+       one's brains out. Give those pistols to me ! and you shall see what you shall see!</p>
+     </sp>
+     <sp who="#L1105_M2">
+      <speaker>Flor.</speaker>
+      <p><stage>(majestically)</stage> They shall only be rendered up to the individual who can
+       prove his claim, in all its legal—<stage>(seeking the word)</stage> legality ! <stage>(puts
+        the pistols into the standing desk, which he closes)</stage></p>
+     </sp>
+     <sp who="#L1105_M1">
+      <speaker>Hans.</speaker>
+      <p>But, my good friend—</p>
+     </sp>
+     <sp who="#L1105_M2">
+      <speaker>Flor.</speaker>
+      <p>I am not your good friend, Mr. <stage>(occupied in locking the desk)</stage></p>
+     </sp>
+     <sp who="#L1105_M1">
+      <speaker>Hans.</speaker>
+      <p>" Name unknown." All right! <stage>(bell rings violently outside, L.)</stage></p>
+     </sp>
+     <sp who="#L1105_M2">
+      <speaker>Flor.</speaker>
+      <p>There! you have been keeping me here with your confounded nonsense !</p>
+     </sp>
+     <sp who="#L1105_M1">
+      <speaker>Hans.</speaker>
+      <p>Manners, ticket distributor ! Manners !</p>
+     </sp>
+     <sp who="#L1105_M2">
+      <speaker>Flor.</speaker>
+      <p>And the chief magistrate is getting impatient, <stage>(goes L., leaving the key in standing
+        desk)</stage></p>
+     </sp>
+     <sp who="#L1105_M1">
+      <speaker>Hans.</speaker>
+      <p><stage>(seizing hold of the skirts of Florian's coat)</stage> Ticket distributor, I summon
+       you, by the majesty of the functions with which you are invested to take me with you—in your
+       pocket!</p>
+     </sp>
+     <sp who="#L1105_M2">
+      <speaker>Flor.</speaker>
+      <p>Let me be, sir! Don't you see, that I am already aggravated, with all this—<stage>(seeking
+        a word)</stage> aggravation ? You can't appear before the bench. You are neither a witness,
+       nor a criminal. If you had only been the criminal of whom we are in search—or any other
+       criminal, why-—<stage>(bell rings again violently, L.)</stage> I come ! I come ! <stage>Exit
+        hastily, door, L.</stage></p>
+     </sp>
+     <sp who="#L1105_M1">
+      <speaker>Hans.</speaker>
+      <p><stage>(walking up and down impatiently)</stage> A criminal! a criminal! If I were but a
+       criminal! Why, have I not committed some horrid crime ? It would be all right then ! But
+       unfortunately I haven't; and that confounded half hour is slipping by ! What's to be done ?
+        <stage>(sits down by desk)</stage> A brilliant idea! Why the deuce shouldn't I become a
+       criminal—an atrocious criminal ? It is the only means left in my power, <stage>(reflects—his
+        hand falls on a book)</stage> What's this ? The Code--the Prussian Code. I might find in it
+       some charming little crime of the due atrocity, which would drag me before the august
+       tribunal of this a
+       <pb n="13"/>ugust, but invisible magistrate. Let's see! let's see ! <stage>(turns over the
+        pages at random)</stage> " Forging false coin of the realm." That won't do! I haven't the
+       time, and the instruments are multifarious. " Conspiring to defraud." No ! I haven't got any
+       fellow conspirators. " Abduction of a married woman." Hm ! hm ! That's by no means so
+       unpleasant a notion. And, if the fates would but be propitious.—<stage>(reflects)</stage></p>
+     </sp>
+     <stage>Enter Cunigunda Lippman, door R.</stage>
+     <sp who="#L1105_F4">
+      <speaker>Cuni.</speaker>
+      <p>Upon my word, it is too bad ! To keep me waiting— me—Cunigunda Lippman!</p>
+     </sp>
+     <sp who="#L1105_M1">
+      <speaker>Hans.</speaker>
+      <p><stage>(starting)</stage> What do I hear ? Lippman ! The wife of the very magistrate
+       himself! The fates are uncommonly propitious ! <stage>(rises)</stage></p>
+     </sp>
+     <sp who="#L1105_F4">
+      <speaker>Cuni.</speaker>
+      <p>Who's there ? <stage>(aside)</stage> The young gentleman, who was here just now. He really
+       is by no means so bad-looking. I didn't sufficiently investigate his personality before.</p>
+     </sp>
+     <sp who="#L1105_M1">
+      <speaker>Hans.</speaker>
+      <p><stage>(who has been giving a last look at the Code, aside, throwing down the book)</stage>
+       All right! Now for it! <stage>(starting forward explosively)</stage> Madame!</p>
+     </sp>
+     <sp who="#L1105_F4">
+      <speaker>Cuni.</speaker>
+      <p>Sir ! <stage>(aside)</stage> He made me jump !</p>
+     </sp>
+     <sp who="#L1105_M1">
+      <speaker>Hans.</speaker>
+      <p>Moments are precious! I have only half an hour. <stage>(pulling out his watch)</stage> I
+       mean only twenty minutes—to tell you that I love you!</p>
+     </sp>
+     <sp who="#L1105_F4">
+      <speaker>Cuni.</speaker>
+      <p>You love me? You!</p>
+     </sp>
+     <sp who="#L1105_M1">
+      <speaker>Hans.</speaker>
+      <p>I don't wonder at your astonishment. It is the most improbable thing in nature, I admit—but
+       never mind that! It's all right! I love you! I adore you!</p>
+     </sp>
+     <sp who="#L1105_F4">
+      <speaker>Cuni.</speaker>
+      <p>Lower, my dear sir, lower!</p>
+     </sp>
+     <sp who="#L1105_M1">
+      <speaker>Hans.</speaker>
+      <p>Lower ! Ah, I see ! You wish to have me at your feet. All right! You <emph>shall</emph>
+       have me at your feet! <stage>(kneels)</stage> There! What do you say to that ? I repeat—I
+       love you—I adore you!</p>
+     </sp>
+     <sp who="#L1105_F4">
+      <speaker>Cuni.</speaker>
+      <p>Lower ! Lower still!</p>
+     </sp>
+     <sp who="#L1105_M1">
+      <speaker>Hans.</speaker>
+      <p>Lower still ? Well, I don't see how I can conveniently go much lower, unless, like a puppy
+       dog, I were to—</p>
+     </sp>
+     <sp who="#L1105_F4">
+      <speaker>Cuni.</speaker>
+      <p>Not so loud! For heaven's sake not so loud!</p>
+     </sp>
+     <sp who="#L1105_M1">
+      <speaker>Hans.</speaker>
+      <p>Oh, I understand ! I am to <emph>speak</emph> lower, <stage>(rising— aside)</stage> That
+       wouldn't suit my book, though, <stage>(aloud)</stage> No, madam, no! I am proud of my
+       feelings. I would proclaim them aloud—on the house-tops—like the tom and tabby cats ! Why
+       should they alone have the privilege of amatory vociferation ?</p>
+     </sp>
+     <sp who="#L1105_F4">
+      <speaker>Cuni.</speaker>
+      <p>Oh, sir! These words—</p>
+     </sp>
+     <sp who="#L1105_M1">
+      <speaker>Hans.</speaker>
+      <p>Don't suit you—I am very sorry—but I have no time to pick and choose, <stage>(pulling out
+        his watch)</stage> Only a quarter!</p>
+     </sp>
+     <sp who="#L1105_F4">
+      <speaker>Cuni.</speaker>
+      <p>But, sir, I don't know you—I never saw you before!</p>
+     </sp>
+     <pb n="14"/>
+     <sp who="#L1105_M1">
+      <speaker>Hans.</speaker>
+      <p>Nor I you. <stage>(correcting himself)</stage> Yes! of course I did—of course! Seven years
+       ago when you may have been young.</p>
+     </sp>
+     <sp who="#L1105_F4">
+      <speaker>Cuni.</speaker>
+      <p><stage>(indignant)</stage> Sir!</p>
+     </sp>
+     <sp who="#L1105_M1">
+      <speaker>Hans.</speaker>
+      <p>Younger! I mean younger—seven years younger— All right!</p>
+     </sp>
+     <sp who="#L1105_F4">
+      <speaker>Cuni.</speaker>
+      <p>But why wait thus long, unhappy youth ?</p>
+     </sp>
+     <sp who="#L1105_M1">
+      <speaker>Hans.</speaker>
+      <p>Well, you see, I—I— never found an opportunity.</p>
+     </sp>
+     <sp who="#L1105_F4">
+      <speaker>Cuni.</speaker>
+      <p>During seven whole years ?</p>
+     </sp>
+     <sp who="#L1105_M1">
+      <speaker>Hans.</speaker>
+      <p><stage>(with pathos)</stage> During seven whole years! But I have found one now!
+        <stage>(gesticulating violently)</stage> I seize it by the scruff of the neck!</p>
+     </sp>
+     <sp who="#L1105_F4">
+      <speaker>Cuni.</speaker>
+      <p><stage>(drawing back, alarmed)</stage> Sir!</p>
+     </sp>
+     <sp who="#L1105_M1">
+      <speaker>Hans.</speaker>
+      <p>Oh, all right! Never mind me.</p>
+     </sp>
+     <sp who="#L1105_F4">
+      <speaker>Cuni.</speaker>
+      <p>But, just now, you asked for the chief magistrate.</p>
+     </sp>
+     <sp who="#L1105_M1">
+      <speaker>Hans.</speaker>
+      <p>Only to make sure he wasn't here. His presence you will admit, might have been
+       inconvenient, during a declaration of love to you.</p>
+     </sp>
+     <sp who="#L1105_F4">
+      <speaker>Cuni.</speaker>
+      <p>I have no need to ask if your intentions are strictly honorable ?</p>
+     </sp>
+     <sp who="#L1105_M1">
+      <speaker>Hans.</speaker>
+      <p>Of course, you haven't—because they can't be!</p>
+     </sp>
+     <sp who="#L1105_F4">
+      <speaker>Cuni.</speaker>
+      <p>Oh, sir, would you abuse your position?</p>
+     </sp>
+     <sp who="#L1105_M1">
+      <speaker>Hans.</speaker>
+      <p>Of course I would ! All right! <stage>(takes her round the waist)</stage></p>
+     </sp>
+     <sp who="#L1105_F4">
+      <speaker>Cuni.</speaker>
+      <p>Leave off! Or I shall have to scream.</p>
+     </sp>
+     <sp who="#L1105_M1">
+      <speaker>Hans.</speaker>
+      <p><stage>(aside)</stage> The very thing, <stage>(aloud)</stage> Scream away.</p>
+     </sp>
+     <sp who="#L1105_F4">
+      <speaker>Cuni.</speaker>
+      <p>I will!</p>
+     </sp>
+     <sp who="#L1105_M1">
+      <speaker>Hans.</speaker>
+      <p>Scream away ! <stage>(aside)</stage> Now it's coming !</p>
+     </sp>
+     <sp who="#L1105_F4">
+      <speaker>Cuni.</speaker>
+      <p>Well, no, I won't scream! Are you satisfied, you naughty man ?</p>
+     </sp>
+     <sp who="#L1105_M1">
+      <speaker>Hans.</speaker>
+      <p><stage>(aside)</stage> Satisfied! Quite the reverse, <stage>(aloud)</stage> But were I to
+       press your lovely hand, as I now press your beauteous waist—what would you say?</p>
+     </sp>
+     <sp who="#L1105_F4">
+      <speaker>Cuni.</speaker>
+      <p><stage>(coquettishly)</stage> Press!</p>
+     </sp>
+     <sp who="#L1105_M1">
+      <speaker>Hans.</speaker>
+      <p><stage>(aside)</stage> Hollo! hollo! <stage>(aloud)</stage> But were I to snatch a
+       kiss—what would you say ?</p>
+     </sp>
+     <sp who="#L1105_F4">
+      <speaker>Cuni.</speaker>
+      <p>Snatch!</p>
+     </sp>
+     <sp who="#L1105_M1">
+      <speaker>Hans.</speaker>
+      <p><stage>(aside)</stage> The devil you would!</p>
+     </sp>
+     <sp who="#L1105_F4">
+      <speaker>Cuni.</speaker>
+      <p><stage>(looking at him archly)</stage> Snatch !</p>
+     </sp>
+     <sp who="#L1105_M1">
+      <speaker>Hans.</speaker>
+      <p><stage>(kissing her with reluctance—then with a wry face)</stage> Pah !</p>
+     </sp>
+     <sp who="#L1105_F4">
+      <speaker>Cuni.</speaker>
+      <p><stage>(leaning on the shoulder of Hans)</stage> I feel I am very weak. But it's your
+       fault, wicked one !</p>
+     </sp>
+     <sp who="#L1105_M1">
+      <speaker>Hans.</speaker>
+      <p><stage>(aside)</stage> Weak! weak ! She's as heavy as lead, <stage>(aloud —letting her
+        go)</stage> But what is a kiss to a man, who loves like me? A drop of water to the wretch
+       who dies of thirst! No ! no! You must be mine—mine! I mean to carry you off- carry you to the
+       ends of the earth—carry you much further still!</p>
+     </sp>
+     <pb n="15"/>
+     <sp who="#L1105_F4">
+      <speaker>Cuni.</speaker>
+      <p>But think, wretched youth ! What you propose is a crime.</p>
+     </sp>
+     <sp who="#L1105_M1">
+      <speaker>Hans.</speaker>
+      <p>All right! the very thing ! <stage>(opening his arms)</stage> Come! jump up, and let me
+       carry you off!</p>
+     </sp>
+     <sp who="#L1105_F4">
+      <speaker>Cuni.</speaker>
+      <p><stage>(flying from him)</stage> Oh ! whither would you lead me ?</p>
+     </sp>
+     <sp who="#L1105_M1">
+      <speaker>Hans.</speaker>
+      <p>All right! To my great grandmother's ! We'll seek that sheltering asylum of love and
+       innocence.</p>
+     </sp>
+     <sp who="#L1105_F4">
+      <speaker>Cuni.</speaker>
+      <p>Never!</p>
+     </sp>
+     <sp who="#L1105_M1">
+      <speaker>Hans.</speaker>
+      <p><stage>(seizing her)</stage> Tis in vain you would resist.</p>
+     </sp>
+     <sp who="#L1105_F4">
+      <speaker>Cuni.</speaker>
+      <p>Is it? Then bear me away, <stage>(falls into his arms)</stage></p>
+     </sp>
+     <sp who="#L1105_M1">
+      <speaker>Hans.</speaker>
+      <p><stage>(aside)</stage> I hear some one coming. I may win the trick yet. <stage>(hoisting up
+        Cunigunda in his arms, with the cry of seafaring men, heaving weights)</stage> Hee houp! he
+       houp !</p>
+     </sp>
+     <stage>Enter Lisa, R. door.</stage>
+     <sp who="#L1105_F6">
+      <speaker>Lisa.</speaker>
+      <p><stage>(seeing them, screams)</stage> Ah! <stage>(she continues to scream)</stage></p>
+     </sp>
+     <sp who="#L1105_M1">
+      <speaker>Hans.</speaker>
+      <p><stage>(carrying Cunigunda in his arms round the stage)</stage> Lost! discovered! Whither
+       shall we fly ? Where conceal ourselves ?</p>
+     </sp>
+     <stage>Enter Minna Von Rosa, hastily R. door.</stage>
+     <sp who="#L1105_F5">
+      <speaker>Minna.</speaker>
+      <p>Good heavens! What does all this mean ?</p>
+     </sp>
+     <sp who="#L1105_M1">
+      <speaker>Hans.</speaker>
+      <p><stage>(putting down Cunigunda in a chair, and wiping his forehead—aside)</stage> Pouf! I
+       couldn't have stood it half a minute longer, <stage>(aloud)</stage> It means, madam, that I
+       ought to carry off this lovely female in distress—it means, that I am a criminal—an atrocious
+       criminal!</p>
+     </sp>
+     <sp who="#L1105_F6">
+      <speaker>Lisa.</speaker>
+      <p>Come! That's a good 'un !</p>
+     </sp>
+     <sp who="#L1105_M1">
+      <speaker>Hans.</speaker>
+      <p>She says again, it's a "good 'un."</p>
+     </sp>
+     <sp who="#L1105_F6">
+      <speaker>Lisa.</speaker>
+      <p>Pretty strong, I must say.</p>
+     </sp>
+     <sp who="#L1105_M1">
+      <speaker>Hans.</speaker>
+      <p>Pretty strong! I should say so! I must have been pretty strong to have—<stage>(rubs his
+        arms)</stage></p>
+     </sp>
+     <sp who="#L1105_F4">
+      <speaker>Cuni.</speaker>
+      <p><stage>(to Minna)</stage> Oh! do not believe me guilty!</p>
+     </sp>
+     <sp who="#L1105_M1">
+      <speaker>Hans.</speaker>
+      <p>Guilty! No! She was virtuous, and I, alone, was criminal! Go ! Summon your myrmidons of the
+       law!</p>
+     </sp>
+     <sp who="#L1105_F4">
+      <speaker>Cuni.</speaker>
+      <p>No—no! Summon no one ! He loves me—he adores me!</p>
+     </sp>
+     <sp who="#L1105_F5">
+      <speaker>Minna.</speaker>
+      <p>You, sir—you! On the point of marriage, too !</p>
+     </sp>
+     <sp who="#L1105_M1">
+      <speaker>Hans.</speaker>
+      <p>Yes, I! I am an atrocious criminal! <stage>(to Minna)</stage> You consider me sufficiently
+       atrocious in my criminality—don't you ? All right ! I thought you would ! So, as I said
+       before, summon your myrmidons of the law ! Let them load me with chains, and drag me before
+       the tribunal of my judge!</p>
+     </sp>
+     <sp who="#L1105_F5">
+      <speaker>Minna.</speaker>
+      <p>But there is no reason for any such extremities.</p>
+     </sp>
+     <sp who="#L1105_M1">
+      <speaker>Hans.</speaker>
+      <p>No reason ! No reason! Why, you have never read your Code, madam—article—never mind what—
+       it's all right —about the abduction of a married woman.</p>
+     </sp>
+     <pb n="16"/>
+     <sp who="#L1105_F5">
+      <speaker>Minna.</speaker>
+      <p>But my aunt is not married, sir!</p>
+     </sp>
+     <sp who="#L1105_F4">
+      <speaker>Cuni.</speaker>
+      <p><stage>(Looking down with modesty)</stage> No! I am still to be wooed and won!</p>
+     </sp>
+     <sp who="#L1105_M1">
+      <speaker>Hans.</speaker>
+      <p><stage>(to Minna)</stage> Your aunt! I'll take my oath, I thought she was your mother!
+        <stage>(Cunigunda screams violently—aside)</stage> An old maid! <stage>(shudders)</stage>
+       Burr! A pretty business I have made of my criminality!</p>
+     </sp>
+     <sp who="#L1105_F5">
+      <speaker>Minna.</speaker>
+      <p>You hear, sir. My aunt is still to be wooed and won.</p>
+     </sp>
+     <sp who="#L1105_M1">
+      <speaker>Hans.</speaker>
+      <p>Is she ? All right! Then let some one else woo and win her. I am not going in for the
+       stakes. I'm scratched !</p>
+     </sp>
+     <sp who="#L1105_F6">
+      <speaker>Lisa.</speaker>
+      <p><stage>(aside)</stage> Scratched! Then the old lady used her nails.</p>
+     </sp>
+     <sp who="#L1105_F4">
+      <speaker>Cuni.</speaker>
+      <p>But you said you loved me—you adored me!</p>
+     </sp>
+     <sp who="#L1105_M1">
+      <speaker>Hans.</speaker>
+      <p>All right! Of course I did ! I thought you were a married woman !</p>
+     </sp>
+     <sp who="#L1105_F4">
+      <speaker>Cuni.</speaker>
+      <p>Horror ! Support me, niece! I faint! I die! Bear me to my room, that I may hide my shame!
+        <stage>(falls into the arms of Minna)</stage></p>
+     </sp>
+     <sp who="#L1105_F5">
+      <speaker>Minna.</speaker>
+      <p><stage>(leading out Cunigunda—gaily)</stage> Wicked Don Juan! Atrocious criminal!
+        <stage>Exit, door, R., with Cunigunda.</stage></p>
+     </sp>
+     <sp who="#L1105_M1">
+      <speaker>Hans.</speaker>
+      <p>Atrocious criminal! All right—No, it's all wrong! That crime was a mere flash in the pan. I
+       must find something more explosive now. Let me see! Where is my Code ?</p>
+     </sp>
+     <sp who="#L1105_F6">
+      <speaker>Lisa.</speaker>
+      <p><stage>(laughing violently)</stage> Make love to Ma'mselle Cunigunda! Well, I must say,
+       that is a good 'un !</p>
+     </sp>
+     <sp who="#L1105_M1">
+      <speaker>Hans.</speaker>
+      <p>The absurd female is at her "good 'uns," again! <stage>(walking up to Lisa)</stage> What is
+       a " good 'un," absurd female? <stage>(Lisa laughs heartily)</stage> And what do you mean by
+       laughing in that absurd way?—You grinning young hyena, you ! <stage>(mimics her
+        angrily)</stage> Ha, ha, ha! <stage>(goes to table and takes up Code, again)</stage></p>
+     </sp>
+     <sp who="#L1105_F6">
+      <speaker>Lisa.</speaker>
+      <p><stage>(laughing)</stage> I can't help it! It's so droll! Make love to old Ma'mselle
+       Cunigunda ! Ha, ha, ha!</p>
+     </sp>
+     <sp who="#L1105_M1">
+      <speaker>Hans.</speaker>
+      <p>Oh, droll, is it? We'll just see if it's droll! <stage>(pulls out his watch)</stage> Just
+       five minutes left! They shall be employed as agreeably as profitably! <stage>(goes to the
+        standing desk)</stage></p>
+     </sp>
+     <sp who="#L1105_F6">
+      <speaker>Lisa.</speaker>
+      <p><stage>(laughing)</stage> Been reading in the book, how to make love to old women, sir?</p>
+     </sp>
+     <sp who="#L1105_M1">
+      <speaker>Hans.</speaker>
+      <p>Yes. Laugh—laugh away ! I'm going to make you laugh with a vengeance, <stage>(opens the
+        desk, and takes out the pistols, which he presents at Lisa)</stage></p>
+     </sp>
+     <sp who="#L1105_F6">
+      <speaker>Lisa.</speaker>
+      <p>Hollo, sir! Take care what you are about!</p>
+     </sp>
+     <sp who="#L1105_M1">
+      <speaker>Hans.</speaker>
+      <p>I thought I should stop your laughing, absurd female!</p>
+     </sp>
+     <sp who="#L1105_F6">
+      <speaker>Lisa.</speaker>
+      <p>Good gracious ! They may be loaded!</p>
+     </sp>
+     <sp who="#L1105_M1">
+      <speaker>Hans.</speaker>
+      <p>They are—up to the muzzle! Sit down.</p>
+     </sp>
+     <pb n="17"/>
+     <sp who="#L1105_F6">
+      <speaker>Lisa.</speaker>
+      <p>Sit down?</p>
+     </sp>
+     <sp who="#L1105_M1">
+      <speaker>Hans.</speaker>
+      <p>Sit down ! <stage>(threatening with the pistols)</stage> At once ! Sit down !</p>
+     </sp>
+     <sp who="#L1105_F6">
+      <speaker>Lisa.</speaker>
+      <p><stage>(falling into a chair)</stage> Preserve us ! He must be a lunatic maniac, out of his
+       senses !</p>
+     </sp>
+     <sp who="#L1105_M1">
+      <speaker>Hans.</speaker>
+      <p>Unhappy specimen of the feeble female sex! Do you scream when you are hurt ?</p>
+     </sp>
+     <sp who="#L1105_F6">
+      <speaker>Lisa.</speaker>
+      <p>Don't I, just!</p>
+     </sp>
+     <sp who="#L1105_M1">
+      <speaker>Hans.</speaker>
+      <p>Loud?</p>
+     </sp>
+     <sp who="#L1105_F6">
+      <speaker>Lisa.</speaker>
+      <p>I bellow like a bull!</p>
+     </sp>
+     <sp who="#L1105_M1">
+      <speaker>Hans.</speaker>
+      <p>All right! The very thing! The old one wouldn't. <stage>(presenting a pistol)</stage> Now,
+       look out! I'm going to shoot off your left ear!</p>
+     </sp>
+     <sp who="#L1105_F6">
+      <speaker>Lisa.</speaker>
+      <p>Come, no nonsense!</p>
+     </sp>
+     <sp who="#L1105_M1">
+      <speaker>Hans.</speaker>
+      <p>All right! I am a crack shot!</p>
+     </sp>
+     <sp who="#L1105_F6">
+      <speaker>Lisa.</speaker>
+      <p>But it is a crime to shoot a poor body like me !</p>
+     </sp>
+     <sp who="#L1105_M1">
+      <speaker>Hans.</speaker>
+      <p>Of course it is! The absurd female is replete with intelligence! It is a crime ! See the
+       Code—article—never mind what! It's all right! So now lookout! <stage>(presenting his
+        pistol)</stage></p>
+     </sp>
+     <sp who="#L1105_F6">
+      <speaker>Lisa.</speaker>
+      <p>Help! murder! Help ! murder! <stage>(Hans fires off pistol in the air—Lisa falls back in
+        her chair)</stage></p>
+     </sp>
+     <stage>Enter Bock from passage, L., and Minna and Cunigunda, R. door.</stage>
+     <sp who="#L1105_M3">
+      <speaker>Bock.</speaker>
+      <p>A shot!</p>
+     </sp>
+     <sp who="#L1105_mult">
+      <speaker>Minna and Cuni.</speaker>
+      <p><stage>(together)</stage> Lisa! Lisa!</p>
+     </sp>
+     <sp who="#L1105_F6">
+      <speaker>Lisa.</speaker>
+      <p>I'm a dead woman ! Dead as a door nail! That man has murdered me !</p>
+     </sp>
+     <sp who="#L1105_F5">
+      <speaker>Minna.</speaker>
+      <p>He ! <stage>(smiling with incredulity)</stage> He, a murderer !</p>
+     </sp>
+     <sp who="#L1105_F4">
+      <speaker>Cuni.</speaker>
+      <p><stage>(screaming)</stage> A murderer!</p>
+     </sp>
+     <stage>Enter Florian Hahnenkamm, L. door, hastily.</stage>
+     <sp who="#L1105_M2">
+      <speaker>Flor.</speaker>
+      <p>A murderer ! Let him be arrested on the spot! <stage>(Bock and Florian seize Hans, and take
+        the pistols from him)</stage></p>
+     </sp>
+     <sp who="#L1105_M1">
+      <speaker>Hans.</speaker>
+      <p><stage>(delighted)</stage> All right! I've done it at last! I am an atrocious criminal!
+       I've had devilish hard work, though ! <stage>(Bock and Florian proceed to tie his hands with
+        a handkerchief)</stage></p>
+     </sp>
+     <sp who="#L1105_F6">
+      <speaker>Lisa.</speaker>
+      <p><stage>(looking up)</stage> I don't think I am quite dead. But I feel such a sinking.</p>
+     </sp>
+     <sp who="#L1105_F4">
+      <speaker>Cuni.</speaker>
+      <p>Come, poor innocent! A drop of sal volatile will do you good.</p>
+     </sp>
+     <sp who="#L1105_F6">
+      <speaker>Lisa.</speaker>
+      <p>Don't you think a drop of brandy would do me better ? <stage>Exit R., led by
+        Cunigunda.</stage></p>
+     </sp>
+     <sp who="#L1105_F5">
+      <speaker>Minna.</speaker>
+      <p><stage>(looking back at Hans)</stage> Our atrocious criminal is an original, certainly. But
+       there is a charm about his very eccentricities. Come, come, Minna! No nonsense about the man;
+       or I shall have to read you a pretty sharp lesson! <stage>Exit, R. door.</stage></p>
+     </sp>
+     <sp who="#L1105_M1">
+      <speaker>Hans.</speaker>
+      <p><stage>(who has been bound, to Florian and Bock)</stage> Now then, myrmidons of the law,
+       drag me before the tribunal of your chief magistrate!</p>
+     </sp>
+     <pb n="18"/>
+     <sp who="#L1105_M2">
+      <speaker>Flor.</speaker>
+      <p>Silence! Time enough for that! Another criminal has been arrested, and has the right of
+        prior—<stage>(seeking the word)</stage> priority !</p>
+     </sp>
+     <sp who="#L1105_M1">
+      <speaker>Hans.</speaker>
+      <p>Before me ?</p>
+     </sp>
+     <sp who="#L1105_M2">
+      <speaker>Flor.</speaker>
+      <p>Before you!</p>
+     </sp>
+     <sp who="#L1105_M1">
+      <speaker>Hans.</speaker>
+      <p>Come, none of your nonsense ! Who is this vile intruder ? He has no right to go first ! Is
+       his atrocity so atrocious as mine ? No ! it can't be !</p>
+     </sp>
+     <sp who="#L1105_M2">
+      <speaker>Flor.</speaker>
+      <p>The offender is the burglar we have sought all the morning.</p>
+     </sp>
+     <sp who="#L1105_M1">
+      <speaker>Hans.</speaker>
+      <p>So you have pinned him at last, ticket distributor— name unknown?</p>
+     </sp>
+     <sp who="#L1105_M2">
+      <speaker>Flor.</speaker>
+      <p>Concealed in a clothes press in the young lady's room.</p>
+     </sp>
+     <sp who="#L1105_M1">
+      <speaker>Hans.</speaker>
+      <p>In my intended's room ! Hollo ! "hollo ! hollo!</p>
+     </sp>
+     <sp who="#L1105_M2">
+      <speaker>Flor.</speaker>
+      <p>Behind a quantity of—</p>
+     </sp>
+     <sp who="#L1105_M1">
+      <speaker>Hans.</speaker>
+      <p>Decency, ticket distributor—decency! But, then the house is no longer in a state of siege
+       ?</p>
+     </sp>
+     <sp who="#L1105_M2">
+      <speaker>Flor.</speaker>
+      <p>The armed police has been withdrawn.</p>
+     </sp>
+     <sp who="#L1105_M1">
+      <speaker>Hans.</speaker>
+      <p>And the dragon—I mean the dragoon—is as liberty ?</p>
+     </sp>
+     <sp who="#L1105_M2">
+      <speaker>Flor.</speaker>
+      <p>Certainly!</p>
+     </sp>
+     <sp who="#L1105_M1">
+      <speaker>Hans.</speaker>
+      <p>And the guests, and the fiddles, and the orange flowers, and the bride ?</p>
+     </sp>
+     <sp who="#L1105_M2">
+      <speaker>Flor.</speaker>
+      <p>Certainly!</p>
+     </sp>
+     <sp who="#L1105_M1">
+      <speaker>Hans.</speaker>
+      <p>All right! Then I have nothing more to do here. <stage>(runs up)</stage></p>
+     </sp>
+     <sp who="#L1105_M2">
+      <speaker>Flor.</speaker>
+      <p>The prisoner is attempting to escape ! Seize him, Bock—seize him! Let him be immediately
+       put under lock and key, in solitary <stage>(seeking the word)</stage> solitude ! <stage>(Hans
+        is seized by Bock and Florian)</stage> until he can appear before the chief magistrate !</p>
+     </sp>
+     <sp who="#L1105_M1">
+      <speaker>Hans.</speaker>
+      <p><stage>(struggling)</stage> But I don't want your chief magistrate now ! Confound your
+       chief magistrate !</p>
+     </sp>
+     <sp who="#L1105_M2">
+      <speaker>Flor.</speaker>
+      <p>He confounds the chief magistrate ! He blasphemes, the atrocious criminal!</p>
+     </sp>
+     <sp who="#L1105_M1">
+      <speaker>Hans.</speaker>
+      <p>But I am not an atrocious criminal any longer! I don't want to be an atrocious criminal! I
+       won't be an atrocious criminal!</p>
+     </sp>
+     <sp who="#L1105_M2">
+      <speaker>Flor.</speaker>
+      <p>Forwards ! March! The dark room in the passage, Bock, without any window ! Come!</p>
+     </sp>
+     <sp who="#L1105_M1">
+      <speaker>Hans.</speaker>
+      <p><stage>(pulled along by Bock, and pushed by Florian)</stage> A dark room without a window ?
+       How am I ever to see clearly ?</p>
+     </sp>
+     <sp who="#L1105_M2">
+      <speaker>Flor.</speaker>
+      <p>The atrocity of your offence ?</p>
+     </sp>
+     <sp who="#L1105_M1">
+      <speaker>Hans.</speaker>
+      <p>No, the enormity of your stupidity—ticket distributor—name unknown. <stage>Exit, L. door,
+        dragged out by Florian and Bock.</stage></p>
+     </sp>
+     <pb n="19"/>
+     <stage>Cunigunda Lippman looks in R. door, watching the men as they exeunt.</stage>
+     <sp who="#L1105_F4">
+      <speaker>Cuni.</speaker>
+      <p>Unhappy victim of a too ardent temperament! <stage>(calling, R.)</stage> Lisa ! Lisa!</p>
+     </sp>
+     <stage>Enter Lisa, R. door.</stage>
+     <sp who="#L1105_F6">
+      <speaker>Lisa.</speaker>
+      <p><stage>(looking in cautiously)</stage> Yes, ma'amselle ! Is the maniac gone?</p>
+     </sp>
+     <sp who="#L1105_F4">
+      <speaker>Cuni.</speaker>
+      <p>The too fascinating youth. He is ! Come near, Lisa, but don't look at me—I cannot bear your
+       scrutinising gaze ! This young man is an assassin—a bravo—a bandit—which you will.
+       But—but—don't look at me, Lisa! I love him still!</p>
+     </sp>
+     <sp who="#L1105_F6">
+      <speaker>Lisa.</speaker>
+      <p>Well, ma'amselle! I never could take up with a fellow, who, when I said " take me," only
+       answered " pooh."</p>
+     </sp>
+     <sp who="#L1105_F4">
+      <speaker>Cuni.</speaker>
+      <p>Lisa, he said nothing about " pooh!"</p>
+     </sp>
+     <sp who="#L1105_F6">
+      <speaker>Lisa.</speaker>
+      <p>But something very like it.</p>
+     </sp>
+     <sp who="#L1105_F4">
+      <speaker>Cuni.</speaker>
+      <p>If he did, the expression came not from his heart. And all is forgotten now—now that he
+       pines within a dungeon's wall—and all owing to you, Lisa !</p>
+     </sp>
+     <sp who="#L1105_F6">
+      <speaker>Lisa.</speaker>
+      <p>To me, ma'amselle ?</p>
+     </sp>
+     <sp who="#L1105_F4">
+      <speaker>Cuni.</speaker>
+      <p>Yes—to you ! Why did you scream ?</p>
+     </sp>
+     <sp who="#L1105_F6">
+      <speaker>Lisa.</speaker>
+      <p>That's all very well to say. You, have never been assassinated!</p>
+     </sp>
+     <sp who="#L1105_F4">
+      <speaker>Cuni.</speaker>
+      <p>I have been carried off, Lisa—carried off by force ! Was not that enough? and you did not
+       hear me scream. But on one thing I am resolved. He must be saved—saved at any price !
+        <emph>You</emph> shall aid me in his escape.</p>
+     </sp>
+     <sp who="#L1105_F6">
+      <speaker>Lisa.</speaker>
+      <p>I ? <stage>(aside)</stage> She's a more <emph>lunaticker</emph> maniac, than he is!</p>
+     </sp>
+     <sp who="#L1105_F4">
+      <speaker>Cuni.</speaker>
+      <p>Listen to my plan. You know that I possess a passkey to every room in the house and office.
+       So, there is nothing to be done but to lure away Bock from his post. This shall be your task.
+       He loves you, Lisa—the obtuse Bock loves you! Encourage that love, Lisa—only for a few
+       minutes, and he will bow before your will.</p>
+     </sp>
+     <sp who="#L1105_F6">
+      <speaker>Lisa.</speaker>
+      <p><stage>(aside)</stage> The old girl is sharp enough in such matters.</p>
+     </sp>
+     <sp who="#L1105_F4">
+      <speaker>Cuni.</speaker>
+      <p>Lisa, I burn with impatience—burn like Etna and Vesuvius, both in one.</p>
+     </sp>
+     <sp who="#L1105_F6">
+      <speaker>Lisa.</speaker>
+      <p>Well, ma'amselle, I'll do what I can.</p>
+     </sp>
+     <sp who="#L1105_F4">
+      <speaker>Cuni.</speaker>
+      <p>And then I will break the chains of the too interesting criminal !
+       <stage>(retires)</stage></p>
+     </sp>
+     <sp who="#L1105_F6">
+      <speaker>Lisa.</speaker>
+      <p><stage>(calling, L. door)</stage> Hist—hist—Bock !</p>
+     </sp>
+     <stage>Enter Bock, L. door.</stage>
+     <sp who="#L1105_M3">
+      <speaker>Bock.</speaker>
+      <p>Lisa!</p>
+     </sp>
+     <sp who="#L1105_F6">
+      <speaker>Lisa.</speaker>
+      <p><stage>(cajoling)</stage> Listen, my dear, good, little Bock.</p>
+     </sp>
+     <sp who="#L1105_M3">
+      <speaker>Bock.</speaker>
+      <p><stage>(simpering)</stage> He—he—he!</p>
+     </sp>
+     <pb n="20"/>
+     <sp who="#L1105_F6">
+      <speaker>Lisa.</speaker>
+      <p>The prisoner is safely locked up—not a soul is by —and no one will want to pass contrary to
+       orders. So now is our time. Come with me into the kitchen—you shall have some beautiful sour
+       krout.</p>
+     </sp>
+     <sp who="#L1105_M3">
+      <speaker>Bock.</speaker>
+      <p>Sour krout! <stage>(on reflection)</stage> Can't!</p>
+     </sp>
+     <sp who="#L1105_F6">
+      <speaker>Lisa.</speaker>
+      <p>And a glass of schnaps, Bock.</p>
+     </sp>
+     <sp who="#L1105_M3">
+      <speaker>Bock.</speaker>
+      <p><stage>(delighted)</stage> Schnaps ! <stage>(as before)</stage> Can't!</p>
+     </sp>
+     <sp who="#L1105_F6">
+      <speaker>Lisa.</speaker>
+      <p>And a kiss from me, Bock—Think of that—A kiss from me.</p>
+     </sp>
+     <sp who="#L1105_M3">
+      <speaker>Bock.</speaker>
+      <p><stage>(hesitating)</stage> A kiss?</p>
+     </sp>
+     <sp who="#L1105_F6">
+      <speaker>Lisa</speaker>
+      <p>A kiss, <stage>(aside)</stage> And if that isn't sacrificing oneself for missus,
+        <stage>(aside)</stage> Come.</p>
+     </sp>
+     <sp who="#L1105_M3">
+      <speaker>Bock.</speaker>
+      <p>I come. <stage>(Lisa leads Bock out stealthily, door, C, Cunigunda advances)</stage></p>
+     </sp>
+     <sp who="#L1105_F4">
+      <speaker>Cuni.</speaker>
+      <p>The little breechless god has triumphed. Oh, force of love ! Now, to release the
+       prisoner—The propitious moment has arrived, <stage>(she enters the passage, L., and returns
+        immediately)</stage> Follow me !</p>
+     </sp>
+     <stage>Enter Hans Flicker Von Flickerdorf, door, L.</stage>
+     <sp who="#L1105_M1">
+      <speaker>Hans.</speaker>
+      <p>Thanks, moustachioed gaoler! Thanks !</p>
+     </sp>
+     <sp who="#L1105_F4">
+      <speaker>Cuni.</speaker>
+      <p>Moustachioed gaoler ?</p>
+     </sp>
+     <sp who="#L1105_M1">
+      <speaker>Hans.</speaker>
+      <p>Good gracious ! It is you! I retract the moustaches!</p>
+     </sp>
+     <sp who="#L1105_F4">
+      <speaker>Cuni.</speaker>
+      <p>Interesting criminal, you are free !</p>
+     </sp>
+     <sp who="#L1105_M1">
+      <speaker>Hans.</speaker>
+      <p>Free—free to bolt!</p>
+     </sp>
+     <sp who="#L1105_F4">
+      <speaker>Cuni.</speaker>
+      <p><stage>(casting down her eyes, with pathos)</stage> To bolt ?</p>
+     </sp>
+     <sp who="#L1105_M1">
+      <speaker>Hans.</speaker>
+      <p>Well, you are a jolly old girl after all !</p>
+     </sp>
+     <sp who="#L1105_F4">
+      <speaker>Cuni.</speaker>
+      <p>Sir!</p>
+     </sp>
+     <sp who="#L1105_M1">
+      <speaker>Hans.</speaker>
+      <p>No. I mean you are not a jolly old girl.</p>
+     </sp>
+     <sp who="#L1105_F4">
+      <speaker>Cuni.</speaker>
+      <p>Sir!</p>
+     </sp>
+     <sp who="#L1105_M1">
+      <speaker>Hans.</speaker>
+      <p>No, I mean—All right—Never mind what I mean. My brain is turned with joy : and if I didn't
+       restrain myself, I should embrace you on the spot.</p>
+     </sp>
+     <sp who="#L1105_F4">
+      <speaker>Cuni.</speaker>
+      <p>But, why restrain yourself—interesting criminal ?</p>
+     </sp>
+     <sp who="#L1105_M1">
+      <speaker>Hans.</speaker>
+      <p>Well—I don't exactly know why—but I do.</p>
+     </sp>
+     <sp who="#L1105_F4">
+      <speaker>Cuni.</speaker>
+      <p>Foolish youth ! Do you not read — there in my eyes—that if you are free, it is my heart,
+       that has guided my hand?</p>
+     </sp>
+     <sp who="#L1105_M1">
+      <speaker>Hans.</speaker>
+      <p><stage>(retreating, alarmed)</stage> It couldn't be done ! It's out of nature—and
+       anatomy.</p>
+     </sp>
+     <sp who="#L1105_F4">
+      <speaker>Cuni.</speaker>
+      <p><stage>(advancing on him)</stage> Do you not feel that I love you— interesting
+       criminal?</p>
+     </sp>
+     <sp who="#L1105_M1">
+      <speaker>Hans.</speaker>
+      <p><stage>(as before)</stage> No, no—On my honour—I don't feel anything at all.</p>
+     </sp>
+     <sp who="#L1105_F4">
+      <speaker>Cuni.</speaker>
+      <p><stage>(as before)</stage> That, if I have set you at liberty, it is that you may partake
+       that liberty with me.</p>
+     </sp>
+     <pb n="21"/>
+     <sp who="#L1105_M1">
+      <speaker>Hans.</speaker>
+      <p><stage>(as before)</stage> I shouldn't think of taking such a liberty !</p>
+     </sp>
+     <sp who="#L1105_F4">
+      <speaker>Cuni.</speaker>
+      <p>Would you force me, in my turn, to carry you off?</p>
+     </sp>
+     <sp who="#L1105_M1">
+      <speaker>Hans.</speaker>
+      <p>Carry me off?</p>
+     </sp>
+     <sp who="#L1105_F4">
+      <speaker>Cuni.</speaker>
+      <p><stage>(clinging to him)</stage> Carry you off?</p>
+     </sp>
+     <sp who="#L1105_M1">
+      <speaker>Hans.</speaker>
+      <p>Hollo! Here's another atrocious criminal. Murder! Abduction!</p>
+     </sp>
+     <sp who="#L1105_F4">
+      <speaker>Cuni.</speaker>
+      <p><stage>(letting him go)</stage> Oh, he terrifies me !</p>
+     </sp>
+     <sp who="#L1105_M1">
+      <speaker>Hans.</speaker>
+      <p><stage>(raving)</stage> I am to be carried off, am I ? Help, help !</p>
+     </sp>
+     <sp who="#L1105_F4">
+      <speaker>Cuni.</speaker>
+      <p><stage>(screaming with, terror)</stage> Help, help !</p>
+     </sp>
+     <stage>Enter Lisa, C. door, with a letter.</stage>
+     <sp who="#L1105_F6">
+      <speaker>Lisa.</speaker>
+      <p>Are they both lunatic maniacs ?</p>
+     </sp>
+     <sp who="#L1105_F4">
+      <speaker>Cuni.</speaker>
+      <p>Lisa—She will protect me. <stage>(clings to Lisa)</stage></p>
+     </sp>
+     <sp who="#L1105_M1">
+      <speaker>Hans.</speaker>
+      <p>Heavens be praised! Succour has arrived—I am saved! <stage>(embraces Lisa)</stage></p>
+     </sp>
+     <sp who="#L1105_F6">
+      <speaker>Lisa.</speaker>
+      <p>Go along with you!</p>
+     </sp>
+     <sp who="#L1105_M1">
+      <speaker>Hans.</speaker>
+      <p><stage>(very quietly putting his hands in his pockets)</stage> That is just what I am
+       doing—I am going along. <stage>(going, C. door)</stage></p>
+     </sp>
+     <sp who="#L1105_F6">
+      <speaker>Lisa.</speaker>
+      <p>But I have a letter for you, sir.</p>
+     </sp>
+     <sp who="#L1105_M1">
+      <speaker>Hans.</speaker>
+      <p><stage>(returning)</stage> Give here, <stage>(looking at it)</stage> It's from the dragon—I
+       mean the dragoon—No doubt, my death warrant.</p>
+     </sp>
+     <sp who="#L1105_F4">
+      <speaker>Cuni.</speaker>
+      <p>Take me away, Lisa—take me away ! Men are ungrateful wretches!</p>
+     </sp>
+     <sp who="#L1105_F6">
+      <speaker>Lisa.</speaker>
+      <p>That's as you may happen to pick them, ma'amselle. It isn't all the apples as are sour. You
+       had better look out for a riper one. <stage>Exit with Cunigunda, R. door.</stage></p>
+     </sp>
+     <sp who="#L1105_M1">
+      <speaker>Hans.</speaker>
+      <p><stage>(who has opened the letter after some hesitation— reading)</stage> " Son-in-law."
+       Now it's coming. " I am obliged to renounce the honour of your alliance." Can I believe my
+       eyes? " A young man has been found concealed in the chamber of your intended. " By Jove! it's
+       the supposed burglar. " He had long loved her, and resolved on this scheme to prevent her
+       marrying another. The young villain must espouse her at once, or he knows what to expect."
+       Well if he doesn't, I do. May they be happy, the amateur burglar and his lady-love of the
+       doubtful hair ! Bless you, my children !</p>
+     </sp>
+     <stage>Enter Minna Von Rosen, R. door.</stage>
+     <sp who="#L1105_F5">
+      <speaker>Minna.</speaker>
+      <p>What does this mean ?</p>
+     </sp>
+     <sp who="#L1105_M1">
+      <speaker>Hans.</speaker>
+      <p>It means, that I am the happiest man alive ! Such a lucky chance! I have lost my wife—that
+       was to be—you know —her of the doubtful hair! I'm the luckiest dog—hollo ! No ! If I don't
+       marry, my uncle will disinherit me. I'm the unluckiest poor devil! I want a wife—bring me a
+       wife.</p>
+     </sp>
+     <sp who="#L1105_F5">
+      <speaker>Minna.</speaker>
+      <p>My aunt Cunigunda.</p>
+     </sp>
+     <sp who="#L1105_M1">
+      <speaker>Hans.</speaker>
+      <p>Horror! Rather renounce my fortune— <stage>(with a sudden resolution)</stage> Stop a bit!
+       stop a bit! an idea ! You are a widow I am an unmarried bachelor—totally unmarried.</p>
+     </sp>
+     <pb n="22"/>
+     <sp who="#L1105_F5">
+      <speaker>Minna.</speaker>
+      <p><stage>(aside)</stage> What is he driving at?</p>
+     </sp>
+     <sp who="#L1105_M1">
+      <speaker>Hans.</speaker>
+      <p><stage>(with great formality)</stage> Madame Von Rosen, I have the honor of demanding your
+       hand in marriage.</p>
+     </sp>
+     <sp who="#L1105_F5">
+      <speaker>Minna.</speaker>
+      <p><stage>(laughing, with agitation)</stage> Mine? you are mad!</p>
+     </sp>
+     <sp who="#L1105_M1">
+      <speaker>Hans.</speaker>
+      <p>Not at all, I'm all right!</p>
+     </sp>
+     <sp who="#L1105_F5">
+      <speaker>Minna.</speaker>
+      <p>How can you think of such a thing ?</p>
+     </sp>
+     <sp who="#L1105_M1">
+      <speaker>Hans.</speaker>
+      <p>I haven't the slightest idea how I can, but I do. It's all settled ! eh ? The settlement is
+       written—in your eyes.</p>
+     </sp>
+     <sp who="#L1105_F5">
+      <speaker>Minna.</speaker>
+      <p>Eyes may be deceptive.</p>
+     </sp>
+     <sp who="#L1105_M1">
+      <speaker>Hans.</speaker>
+      <p>I will never believe yours could be so treacherous.</p>
+     </sp>
+     <stage>Enter Bock, C. door.</stage>
+     <sp who="#L1105_M3">
+      <speaker>Bock.</speaker>
+      <p>The prisoner! Escaped ! Help, help !</p>
+     </sp>
+     <stage>Enter Cunigunda Lippman, R. door, followed by Lisa.</stage>
+     <sp who="#L1105_F4">
+      <speaker>Cuni.</speaker>
+      <p>Merciful powers ! Has he murdered anyone else ?</p>
+     </sp>
+     <sp who="#L1105_F6">
+      <speaker>Lisa.</speaker>
+      <p>Help, help!</p>
+     </sp>
+     <stage>Enter Florian Hahnenkamm, L. door.</stage>
+     <sp who="#L1105_M2">
+      <speaker>Flor.</speaker>
+      <p>What do I see? the incriminated— <stage>(seeking the word)</stage> —criminal out of his
+       cell!</p>
+     </sp>
+     <sp who="#L1105_M1">
+      <speaker>Hans.</speaker>
+      <p>All right, never mind me! I am not going to run away! very much the contrary; I am very
+       comfortable here. I politely request the intelligent Bock to lay hold on me, on one side, and
+       you, amiable ticket distributor—name unknown, on the other, <stage>(they seize him)</stage>
+       All right! that's it. <stage>(bell rings without, L.)</stage> And take me now, at last,
+       before the illustrious Chief Magistrate, to whom I shall develope my tale—no I mean my name,
+       Christian name, position, and advantages, and formally demand of him the hand of his—</p>
+     </sp>
+     <sp who="#L1105_F4">
+      <speaker>Cuni.</speaker>
+      <p>Of his sister! oh, happiness !</p>
+     </sp>
+     <sp who="#L1105_M1">
+      <speaker>Hans.</speaker>
+      <p>No, of his daughter. <stage>(Cunigunda collapses)</stage> Come, drag me before my judge !
+       Stop! I have first to appear, a trembling culprit, before other judges. They alone can give
+       that real verdict which is to acquit, or to condemn, " An Atrocious Criminal."</p>
+     </sp>
+     <stage>Curtain</stage>
+    </div>
+   </div>
+  </body>
+ </text>
+</TEI>

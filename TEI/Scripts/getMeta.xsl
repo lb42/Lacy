@@ -11,7 +11,7 @@
  <!-- run with doRole.sh -->
  
  <xsl:template match="/">
-   <!-- field names are set in the doMeta shell script -->
+   <!-- field names are set in the doCounts shell script -->
    <!-- <xsl:text>id,title,pp,txWords,spCount,spFcount,spMount,roles,rolesM,rolesF,genre,class
 </xsl:text>-->
   <xsl:for-each select="TEI">

@@ -8,26 +8,23 @@ xpath-default-namespace="http://www.tei-c.org/ns/1.0" version="2.0">
 <!-- this must be run from within Oxygen, because it uses the xpath "exists" function which is not available from saxon HE -->
 
 
-
 <xsl:template match="/">
 <xsl:variable name="dataDir">/home/lou/Data/Lacy/</xsl:variable>
+ <xsl:message>Data directory is <xsl:value-of select="$dataDir"/> </xsl:message>
 <xsl:variable name="root" select="."/>
 
 <xsl:variable name="totLAE" select="count($root//div[@type = 'work'])"/>
 <xsl:variable name="totTEI"
- select="count(//div[@type='work' and @subtype='TEI'] )"/>
-<xsl:message>Data directory is <xsl:value-of select="$dataDir"/>
-</xsl:message>
-<xsl:message>Today there are <xsl:value-of select="$totLAE"/> items in the
-catalogue, of which ....</xsl:message>
+ select="count($root//div[@type='work' and @subtype='TEI'] )"/>
+
+<xsl:message>Today there are <xsl:value-of select="$totLAE"/> items in the catalogue, of which ....</xsl:message>
 <xsl:message>
-<xsl:value-of select="count(//div[@type = 'work' and contains(@subtype, 'nf')])"
+<xsl:value-of select="count($root//div[@type = 'work' and contains(@subtype, 'nf')])"
 /> items have not (apparently) been digitized.</xsl:message>
 <xsl:message><xsl:value-of
-select="count(//div[@type = 'work']/bibl[@subtype eq 'TEI'])"/> items are marked
+select="$totTEI"/> items are marked
 as available in TEI format: <xsl:value-of
-select="count(document('/home/lou/Public/Lacy/TEI/driver.tei')//TEI)"/> are
-included by driver.tei</xsl:message>
+select="count(document('/home/lou/Public/Lacy/TEI/driver.tei')//*:TEI)"/> are included by driver.tei</xsl:message>
 <xsl:for-each
 select="document('/home/lou/Public/Lacy/TEI/driver.tei')//TEI/@xml:id">
 <xsl:variable name="myId" select="."/>
@@ -39,38 +36,34 @@ test="count($root//div[@type = 'work' and @xml:id eq $myId and contains(@subtype
 
 
 <xsl:message><xsl:value-of
-select="count(//div[@type = 'work']/listEvent/event[@type = 'firstPerf'])"/>
-first perf notes</xsl:message>
+select="count(//div[@type = 'work']/listEvent/event[@type = 'firstPerf'])"/> first perf notes</xsl:message>
 <xsl:message><xsl:value-of
-select="count(//div[@type = 'work' and ends-with(@xml:id, 'R')])"/> items are
-marked as replacements.</xsl:message>
+select="count(//div[@type = 'work' and ends-with(@xml:id, 'R')])"/> items are marked as replacements.</xsl:message>
 <xsl:message>
 <xsl:value-of
-select="count(//bibl[@type = 'printSource' and not(idno[@type = 'nic'])])"/> are
-not listed by Nicoll </xsl:message>
-
+select="count(//bibl[@type = 'printSource' and not(idno[@type = 'nic'])])"/> are not listed by Nicoll </xsl:message>
 <xsl:message><xsl:value-of
-select="count(//bibl[@type = 'printSource' and not(extent)])"/> items lack
-extent data.</xsl:message>
+select="count(//bibl[@type = 'printSource' and not(extent)])"/> items lack extent data.</xsl:message>
 
 
 <xsl:message>VPP: <xsl:value-of
-select="count(//bibl[@type = 'printSource' and idno[@type = 'vpp']])"/> idnos;
+select="count(//bibl[@type = 'origin' and idno[@type = 'vpp']])"/> idnos;
 <xsl:value-of select="count(//ref[contains(@target, '-vpp') 
 and starts-with(@target,'https')])"/> vpp source pdfs from tiffs online ; 
 <xsl:value-of select="count(//ref[contains(@target, '-vpp') 
 and starts-with(@target,'local')])"/> local copies  ; 
-
-<xsl:value-of
+</xsl:message>
+ 
+<!--<xsl:value-of
 select="count(//div[@type='work'] 
 [ bibl/ref[contains(@target, '-vpp')] and bibl[@subtype eq 'TEI'] ])"
 /> in TEI</xsl:message>
-
+-->
 <xsl:message>UM: <xsl:value-of select="count(//ref[contains(@target, '-um.')])"
 /> UM sourced </xsl:message>
 
 <xsl:variable name="totVPP"
-select="count(//bibl[@type = 'printSource' and idno[@type = 'vpp']])"/>
+select="count(//bibl[@type = 'origin' and idno[@type = 'vpp']])"/>
 <xsl:variable name="totLarge" select="count(//div[starts-with(@ana, 'L')])"/>
 <xsl:variable name="totMed" select="count(//div[starts-with(@ana, 'M')])"/>
 <xsl:variable name="totSmall" select="count(//div[starts-with(@ana, 'S')])"/>
@@ -78,8 +71,8 @@ select="count(//bibl[@type = 'printSource' and idno[@type = 'vpp']])"/>
 
 <!-- balance criterion : size -->
 
-<xsl:message>Size distribution... pop, total, Large, Medium, Small all,
-<xsl:value-of select="$totLAE"/><xsl:text>, </xsl:text>
+<xsl:message>Size distribution... pop, total, Large, Medium, Small 
+ lae,  <xsl:value-of select="$totLAE"/><xsl:text>, </xsl:text>
 <xsl:value-of select="$totLarge"/><xsl:text>, </xsl:text>
 <xsl:value-of select="$totMed"/><xsl:text>, </xsl:text>
 <xsl:value-of select="$totSmall"/><xsl:text>
