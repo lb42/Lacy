@@ -1,0 +1,2188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L0411">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title>I'll write to the "Times.": TEI edition</title>
+    <author>Wooler, J. P.</author>
+    <respStmt>
+     <resp>TEI conversion</resp>
+     <name>Lou Burnard</name>
+    </respStmt>
+   </titleStmt>
+   <publicationStmt>
+    <distributor>Privately distributed by the Digital Lacy Project</distributor>
+    <idno type="LAE">L0411</idno>
+    <availability>
+     <licence target="https://creativecommons.org/publicdomain/zero/1.0/">The Lacy Project waives
+      all rights to the TEI encoding applied to this material, which is believed to be in the public
+      domain. You may copy, modify, distribute and perform this work freely. </licence>
+    </availability>
+   </publicationStmt>
+   <sourceDesc>
+    <bibl type="origin" n="28.6"><author>Wooler, J.P.</author><title type="main"
+      n="illwritetothetimes">I'll Write to the “Times”</title><title type="sub">A Farce in one
+      Act</title><extent>21 pp (UM copy: 268 - 289)<measure type="pp" quantity="21"/>
+      <measure type="spCount" quantity="413"/>
+      <measure type="spvCount" quantity="0"/>
+      <measure type="txWords" quantity="8393"/>
+      <measure type="spWords" quantity="7896"/>
+      <measure type="stWords" quantity="497"/>
+     </extent>
+     <title level="s"> Lacy's Acting Edition, volume 28, No. 0411</title><idno type="nic"
+      >N20073</idno><idno type="vpp">Vol28viWrite</idno></bibl>
+    <bibl type="surrogate" subtype="copytext"><ref
+      target="https://lb42.github.io/Lacy/Source/VPP/L0411-vpp.pdf">LoB from VPP</ref><ref
+      target="local:Vol28/L0411/L0411-vpp.pdf"/><ref target="local:Vol28/L0411/Vol28viWrite.pdf"
+     /></bibl>
+    <bibl type="surrogate"><ref
+      target="https://babel.hathitrust.org/cgi/pt?id=mdp.39015067453012&amp;seq=268 ">UM from
+      HT</ref><ref target="local:Vol28/L0411/L0411-um.pdf"/></bibl>
+    <listEvent>
+     <event type="LCP" when="1862-10-16" where="Sadlers">
+      <desc>Licence sent 16 October 1856 for performance at Sadlers Wells 16 October 1856. </desc>
+      <bibl type="msSource">BL ms LCP_52961.S</bibl>
+     </event>
+     <event type="firstPerf" when="1856-10-16" source="text" where="Sadler's">
+      <desc>Premiered at Theatre Royal, Sadler's Wells 16 Oct. 1856; Nicoll date 1856-10-17</desc>
+     </event>
+    </listEvent>
+   </sourceDesc>
+  </fileDesc>
+  <profileDesc>
+   <!--S 1 Farce F. FARCE-->
+   <textClass>
+    <catRef target="#sizeS"/>
+    <catRef target="#act1"/>
+    <catRef target="nic:F."/>
+    <keywords>
+     <term>FARCE</term>
+    </keywords>
+   </textClass>
+   <particDesc>
+    <listPerson>
+     <person xml:id="L0411_M1">
+      <persName type="role">THE HON. HENRY HUNTLEY</persName>
+      <persName type="spkr" n="85">Hunt.</persName>
+      <persName type="spkr" n="2">Huntley.</persName>
+     </person>
+     <person xml:id="L0411_M2">
+      <persName type="role">SIR HARRY HARFORD, BART.</persName>
+      <persName type="spkr" n="47">Sir H.</persName>
+      <persName type="spkr" n="1">Sir R.</persName>
+     </person>
+     <person xml:id="L0411_M3">
+      <persName type="role">MR. PUNCTILIO BLOCK</persName>
+      <persName type="spkr" n="117">Block.</persName>
+     </person>
+     <person xml:id="L0411_M4">
+      <persName type="role">SERVANT</persName>
+      <persName type="spkr" n="6">Servant.</persName>
+     </person>
+     <person xml:id="L0411_M5">
+      <persName type="role">CABMAN</persName>
+      <persName type="spkr" n="2">Cabman.</persName>
+     </person>
+     <person xml:id="L0411_F6">
+      <persName type="role">THE HON. MRS. HUNTLEY</persName>
+      <persName type="spkr" n="59">Mrs. H.</persName>
+     </person>
+     <person xml:id="L0411_F7">
+      <persName type="role">MARIA BLAND</persName>
+      <persName type="spkr" n="91">Maria.</persName>
+     </person>
+    </listPerson>
+   </particDesc>
+  </profileDesc>
+  <revisionDesc>
+   <change when="2026-02-11">Standardize header components</change>
+   <change when="2026-02-11">Copy edited by LB</change>
+   <change when="2026-02-11">TEI autotagging by Gemini Pro 2.5</change>
+  </revisionDesc>
+ </teiHeader>
+ <text>
+  <front>
+   <titlePage>
+    <titlePart type="main">I'LL WRITE TO THE "TIMES."</titlePart>
+    <titlePart type="sub">A Farce, in one act.</titlePart>
+    <byline>BY <docAuthor>J. P WOOLER, ESQ.</docAuthor> AUTHOR OF <title>"Founded on Facts,"
+      </title><title>"A Man without a Head," </title><title>"Allow me to Apologize,"
+      </title><title>“Love in Livery,"</title> &amp;c. </byline>
+    <docImprint> THOMAS HAILES LACY WELLINGTON STREET, STRAND, LONDON. </docImprint>
+   </titlePage>
+   <pb n="2"/>
+   <performance>
+
+    <p>First Performed at the Theatre Royal Sadler's Wells, on Thursday, October 16th, 1856.</p>
+
+    <castList>
+     <head>Characters</head>
+     <castItem>
+      <role gender="M">THE HON. HENRY HUNTLEY</role>
+      <actor>MR. BELFORD</actor>
+     </castItem>
+     <castItem>
+      <role gender="M">SIR HARRY HARFORD, BART.</role>
+      <actor>MR. HAYWELL</actor>
+     </castItem>
+     <castItem>
+      <role gender="M">MR. PUNCTILIO BLOCK</role>
+      <actor>MR. J. W. RAY</actor>
+     </castItem>
+     <castItem>
+      <role gender="M">SERVANT</role>
+      <actor>MR. MORRIS</actor>
+     </castItem>
+     <castItem>
+      <role gender="M">CABMAN</role>
+      <actor>MR. MOORE</actor>
+     </castItem>
+     <castItem>
+      <role gender="F">THE HON. MRS. HUNTLEY</role>
+      <actor>MISS CAROLINE PARKE</actor>
+     </castItem>
+     <castItem>
+      <role gender="F">MARIA BLAND</role>
+      <actor>MISS JENNY MARSTON</actor>
+     </castItem>
+    </castList>
+   </performance>
+   <div type="costume">
+    <head>Costumes</head>
+    <p>Fashionable dresses of the day.</p>
+   </div>
+  </front>
+  <pb n="3"/>
+  <body>
+   <div type="act">
+    <head>ACT I.</head>
+    <div type="scene">
+     <head>SCENE. I.—Near the York and Albany.</head>
+     <stage>Enter the Hon. Henry Huntley, and Sir Harry Harford, arm in arm, R.</stage>
+     <sp who="#L0411_M1">
+      <speaker>Hunt.</speaker>
+      <p>Pshaw, man, give the girl up.</p>
+     </sp>
+     <sp who="#L0411_M2">
+      <speaker>Sir H.</speaker>
+      <p>It's very well for you married men to preach philosophy and self denial, but there's a
+       monstrous difference of opinion with those who are not so.</p>
+     </sp>
+     <sp who="#L0411_M1">
+      <speaker>Hunt.</speaker>
+      <p>Quite true, my dear fellow, but I don't see why I should suffer my dearest friend to fall
+       into a melancholy—perhaps into a consumption without an effort to save him.</p>
+     </sp>
+     <sp who="#L0411_M2">
+      <speaker>Sir H.</speaker>
+      <p>That cursed ball at Lady Carr's was my ruin, would to heaven I had never seen her.</p>
+     </sp>
+     <sp who="#L0411_M1">
+      <speaker>Hunt.</speaker>
+      <p>Amen to that sweet prayer, but why have you allowed yourself to see her so often since
+       ?</p>
+     </sp>
+     <sp who="#L0411_M2">
+      <speaker>Sir H.</speaker>
+      <p>Simply, my dear Huntley, to save myself the inconvenience of cutting my throat.</p>
+     </sp>
+     <sp who="#L0411_M1">
+      <speaker>Hunt.</speaker>
+      <p>Hem, I don't think the lady exhibits an over due amount of propriety, in meeting you so
+       often and clandestinely in the park.</p>
+     </sp>
+     <sp who="#L0411_M2">
+      <speaker>Sir H.</speaker>
+      <p>For virtue's sake, Huntley, don't breathe a word against her, my entreaties long and vainly
+       urged, alone won her to the step, she has told me who and what she is, an orphan and a
+       gentlewoman, but has positively refused to give me her address or let me be introduced to her
+       house, in consequence of the extraordinary eccentricities and vulgarity of her uncle, she
+       will be of age soon, and then of course, her own mistress and my wife.</p>
+     </sp>
+     <sp who="#L0411_M1">
+      <speaker>Hunt.</speaker>
+      <p>Well, it's rather an extraordinary proceeding on her part.</p>
+     </sp>
+     <sp who="#L0411_M2">
+      <speaker>Sir H.</speaker>
+      <p>Huntley, you and I shall certainly quarrel if you break one slight upon her. I tell you she
+       is perfect, such beauty, such grace, sir, the stoutest Mahometan would forswear all the
+       houris in paradise for her sake.</p>
+     </sp>
+     <sp who="#L0411_M1">
+      <speaker>Hunt.</speaker>
+      <p>Upon my word, you are very warm.</p>
+     </sp>
+     <sp who="#L0411_M2">
+      <speaker>Sir H.</speaker>
+      <p>Cold, sir, cold as an icicle to what a man should be who speaks of her, she is all that eye
+       or heart could desire, she is——</p>
+     </sp>
+     <sp who="#L0411_M1">
+      <speaker>Hunt.</speaker>
+      <p>Pray break off these raptures, and tell me of what breed is the extraordinary animal who is
+       sailing this way.</p>
+     </sp>
+     <sp who="#L0411_M2">
+      <speaker>Sir H.</speaker>
+      <p>Some escaped lunatic by his appearance and excitement.</p>
+     </sp>
+     <sp who="#L0411_M1">
+      <speaker>Hunt.</speaker>
+      <p>Take care then, for he is upon us.</p>
+     </sp>
+     <pb n="4"/>
+     <stage>Enter Mr. Punctilio Block, L. 2 E. watch in hand and in a high state of
+      irritation.</stage>
+     <sp who="#L0411_M3">
+      <speaker>Block.</speaker>
+      <p>To the time to a second, and that omnibus not in sight, this won't do, these omnibus
+       people, mustn't be allowed to trifle with the public in this reckless manner, I certainly
+       shall have to write to the "Times" about it—what are those two fellows staring at? They look
+       as if they'd got watches, or I should suspect they had an eye to mine. Good morning, gents,
+       both, how d'ye do? can you tell me what o'clock it is ?</p>
+     </sp>
+     <sp who="#L0411_M1">
+      <speaker>Hunt.</speaker>
+      <p>Sir, it's just eleven by mine.</p>
+     </sp>
+     <sp who="#L0411_M3">
+      <speaker>Block.</speaker>
+      <p><stage>(crosses to C.)</stage> Then allow me to tell you your watch isn't worth a rap, it
+       is now two minutes and seventeen seconds after eleven—and what that ruffian who drives the
+       Camberwell 'bus means—I should like to know—but I have the satisfaction of knowing that such
+       a scoundrel must be eventually transported.</p>
+      <stage>(crosses R.)</stage>
+     </sp>
+     <sp who="#L0411_M1">
+      <speaker>Hunt.</speaker>
+      <p>Pray, may I enquire his offence, sir.</p>
+     </sp>
+     <sp who="#L0411_M3">
+      <speaker>Block.</speaker>
+      <p>Offence, sir, it should be made felony, I expect a lady by a ‘bus which should have been
+       here by eleven—and now it's <stage>(looking at watch)</stage> hilloa ! it's five minutes
+       past. I'll write to the " Times" a miscreant—a.——</p>
+     </sp>
+     <sp who="#L0411_M1">
+      <speaker>Hunt.</speaker>
+      <p>Indeed, sir, so trifling an irregularity hardly deserves so severe a handling.</p>
+     </sp>
+     <sp who="#L0411_M3">
+      <speaker>Block.</speaker>
+      <p>Trifling, sir, to be—damn it—six minutes after his time, any man who could do it would pick
+       a pocket, sir, very likely cut a throat, the man who does it is a social outlaw, and ought to
+       be hanged, sir, and those who call such conduct trifling ought to be hanged with him; but
+       I'll write to the ———; ha! here it comes, seven minutes, six seconds and a half after his
+       time. I darn't trust myself with that man, <stage>(shouting)</stage> Maria, Maria !</p>
+     </sp>
+     <sp who="#L0411_M2">
+      <speaker>Sir H.</speaker>
+      <p><stage>(to Huntley, savagely)</stage> I could sweep this fellow from the face of the earth
+       for polluting that name with his vile lips.</p>
+     </sp>
+     <sp who="#L0411_M3">
+      <speaker>Block.</speaker>
+      <p>Maria!</p>
+     </sp>
+     <stage>Enter Maria, R.</stage>
+     <sp who="#L0411_F7">
+      <speaker>Maria.</speaker>
+      <p>My dear, sir. pray do not call so loudly.</p>
+     </sp>
+     <sp who="#L0411_M3">
+      <speaker>Block.</speaker>
+      <p>Look here, Miss, eight minutes and a half I have waited — I who was never half a minute
+       after time, and wouldn't wait as long for the Grand Turk.</p>
+     </sp>
+     <sp who="#L0411_M1">
+      <speaker>Hunt.</speaker>
+      <p>I say, Harford, that's a devilish pretty girl.</p>
+     </sp>
+     <sp who="#L0411_M2">
+      <speaker>Sir H.</speaker>
+      <p><stage>(carelessly)</stage> Is she; what do I care? ha! by all that's good, it is my Maria.
+        <stage>(Maria makes signs to him not to notice her)</stage></p>
+     </sp>
+     <sp who="#L0411_M3">
+      <speaker>Block.</speaker>
+      <p><stage>(turning sharply round to Huntley)</stage> Who's a devilish pretty girl, sir, and
+       whoever is—what is it to you ?</p>
+     </sp>
+     <sp who="#L0411_M1">
+      <speaker>Hunt.</speaker>
+      <p>Surely, sir, there is no offence in expressing ones admiration of a pretty woman</p>
+     </sp>
+     <sp who="#L0411_M3">
+      <speaker>Block.</speaker>
+      <p>Isn't there, sir, but if a pack of people parade the streets for the purpose of telling
+       women they are pretty, perhaps there's no offence in my expressing my opinion of it, which I
+       shall certainly do in a letter to the Times; as for you Miss, I've wasted too much time about
+       you already; ah ! it's lucky, there's a cab!—here, cab.</p>
+     </sp>
+     <pb n="5"/>
+     <sp who="#L0411_F7">
+      <speaker>Maria.</speaker>
+      <p>Pray, sir, remember, we are in the public streets; <stage>(aside)</stage> what can Harford
+       think—I am ready to die with shame and vexation.</p>
+     </sp>
+     <sp who="#L0411_M2">
+      <speaker>Sir H.</speaker>
+      <p><stage>(aside to Huntley)</stage> This must be her old fool of an uncle.</p>
+     </sp>
+     <sp who="#L0411_M3">
+      <speaker>Block.</speaker>
+      <p>Cab!</p>
+     </sp>
+     <stage>Enter Cabman.</stage>
+     <sp who="#L0411_M3">
+      <speaker>Block.</speaker>
+      <p>Now, Mr. Cab, I want you to take this young lady to Park Cottages.</p>
+     </sp>
+     <sp who="#L0411_M2">
+      <speaker>Sir H.</speaker>
+      <p><stage>(aside)</stage> Ha!</p>
+     </sp>
+     <sp who="#L0411_M3">
+      <speaker>Block.</speaker>
+      <p>That is exactly a mile and a quarter, what time will you undertake to do it in?</p>
+     </sp>
+     <sp who="#L0411_M5">
+      <speaker>Cabman.</speaker>
+      <p>In about twenty minutes, sir.</p>
+     </sp>
+     <sp who="#L0411_M3">
+      <speaker>Block.</speaker>
+      <p>About twenty minutes, you rascal, what do you mean by about twenty minutes, will you
+       undertake to do it in twenty minutes ?</p>
+     </sp>
+     <sp who="#L0411_M5">
+      <speaker>Cabman.</speaker>
+      <p>Well, yes, sir.</p>
+     </sp>
+     <sp who="#L0411_M3">
+      <speaker>Block.</speaker>
+      <p>Very good, Maria, if this man takes you in twenty minutes, give him a shilling, if not,
+       nothing; now it's no use your talking, my fine fellow, if I have any of your impertinence, I
+       shall write to the "Times."</p>
+     </sp>
+     <sp who="#L0411_F7">
+      <speaker>Maria.</speaker>
+      <p>Will you not accompany me, sir?</p>
+     </sp>
+     <sp who="#L0411_M3">
+      <speaker>Block.</speaker>
+      <p>No, Miss, I shall not, I have sacrificed time enough as it is. Go. I shall be home
+       punctually at five minutes to two.</p>
+     </sp>
+     <stage>Maria bids Sir Harry Harford good bye in dumb show, and Exit, R. 2 E. with
+      Cabman.</stage>
+     <sp who="#L0411_M2">
+      <speaker>Sir H.</speaker>
+      <p><stage>(to Huntley)</stage> I shall follow, and endeavour to get an interview before the
+       old chap returns, do something to detain him if you can, and wait here for me.</p>
+     </sp>
+     <stage>Exit, R. 2 E.</stage>
+     <sp who="#L0411_M1">
+      <speaker>Hunt.</speaker>
+      <p>You seem to have an excellent watch there, sir.</p>
+     </sp>
+     <sp who="#L0411_M3">
+      <speaker>Block.</speaker>
+      <p><stage>(thrusting it into pocket)</stage> I dare say it is ; <stage>(aside)</stage> there's
+       a suspicious look about this fellow, and I don't see a policeman about —nobody ever does—I
+       shall certainly write to the "Times" about it.</p>
+     </sp>
+     <sp who="#L0411_M1">
+      <speaker>Huntley.</speaker>
+      <p>You will excuse my familiarity, sir, in addressing you, but you seem to be a man of no
+       ordinary capacity and penetration.</p>
+     </sp>
+     <sp who="#L0411_M3">
+      <speaker>Block.</speaker>
+      <p>I, sir, am a man of punctuality and decision, and a corrector of abuses, sir, as I think my
+       correspondence with the leading journal will sufficiently prove.</p>
+     </sp>
+     <sp who="#L0411_M1">
+      <speaker>Hunt.</speaker>
+      <p><stage>(aside)</stage> It's Paterfamilias himself, I shouldn't wonder.
+        <stage>(aloud)</stage> May I ask what topics you have touched upon in that journal, sir?</p>
+     </sp>
+     <sp who="#L0411_M3">
+      <speaker>Block.</speaker>
+      <p>I have devoted a large portion of my time, sir, to organ grinders, who though they are the
+       victims of a few scoundrels are themselves merciless tormentors of the public at large;—I
+       have also directed my attention to perambulators, double and single— in fact, sir, I have
+       written to the "Times" on every subject of annoyance ; they have not hitherto published my
+       letters, but I have the best authority for stating that they very shortly intend devoting the
+       whole of one impression to my letters alone, and that reminds me,
+       <pb n="6"/>I'll write and ask them when they're going to do it. <stage>(takes out note book
+        and writes)</stage></p>
+     </sp>
+     <sp who="#L0411_M1">
+      <speaker>Hunt.</speaker>
+      <p><stage>(aside)</stage> The man's an imbecile, if not quite insane; at all hazards Harford
+       shall not connect himself with such a family—the disease may be hereditary: Miss Maria may be
+       mad herself, that would account for her meeting him in the park so often.</p>
+     </sp>
+     <sp who="#L0411_M3">
+      <speaker>Block.</speaker>
+      <p>Well, I suppose you're as tired of my company as I am of yours ; so as I have somewhat
+       longish letter to write the——</p>
+     </sp>
+     <sp who="#L0411_M1">
+      <speaker>Hunt.</speaker>
+      <p>Your pardon, sir, for five minutes, I feel it my duty to unburthen myself of a matter which
+       closely affects yourself and family.</p>
+     </sp>
+     <sp who="#L0411_M3">
+      <speaker>Block.</speaker>
+      <p>Family, sir? I wasn't aware that I had one.</p>
+     </sp>
+     <sp who="#L0411_M1">
+      <speaker>Hunt.</speaker>
+      <p>At all events you have a niece.</p>
+     </sp>
+     <sp who="#L0411_M3">
+      <speaker>Block.</speaker>
+      <p>I have, sir, who torments me to death: she has no idea of punctuality, she never had, sir,
+       she didn't even come into the world for a day and a half after she was expected.</p>
+     </sp>
+     <sp who="#L0411_M1">
+      <speaker>Hunt.</speaker>
+      <p>Well, sir, I have reason to believe, to know that she is the object of attention to a
+       certain gentleman, whom it would be perdition to encourage.</p>
+     </sp>
+     <sp who="#L0411_M3">
+      <speaker>Block.</speaker>
+      <p>Maria! pooh, sir, Why I only bought her a doll the other day.</p>
+     </sp>
+     <sp who="#L0411_M1">
+      <speaker>Hunt.</speaker>
+      <p>Possibly so, sir, she is tired of that plaything, and has contrived to get another.</p>
+     </sp>
+     <sp who="#L0411_M3">
+      <speaker>Block.</speaker>
+      <p>Who is the scoundrel, tell me, I'll publish his name in the "Times," and who are you, sir,
+       and what's your authority for this assertion ?</p>
+     </sp>
+     <sp who="#L0411_M1">
+      <speaker>Hunt.</speaker>
+      <p>You must pardon my replying to either of these questions, sir, I have warned you, if you
+       neglect my warning, blame yourself, the only good I know of him is, that he is not a
+       ticket-of-leave convict.</p>
+     </sp>
+     <sp who="#L0411_M3">
+      <speaker>Block.</speaker>
+      <p>I've written about them.</p>
+     </sp>
+     <sp who="#L0411_M1">
+      <speaker>Hunt.</speaker>
+      <p>He is a spendthrift.</p>
+     </sp>
+     <sp who="#L0411_M3">
+      <speaker>Block.</speaker>
+      <p>He is a booby.</p>
+     </sp>
+     <sp who="#L0411_M1">
+      <speaker>Hunt.</speaker>
+      <p>A sharper.</p>
+     </sp>
+     <sp who="#L0411_M3">
+      <speaker>Block.</speaker>
+      <p>I'll expose him in the "Times."</p>
+     </sp>
+     <sp who="#L0411_M1">
+      <speaker>Hunt.</speaker>
+      <p>A card player.</p>
+     </sp>
+     <sp who="#L0411_M3">
+      <speaker>Block.</speaker>
+      <p>You can't say anything worse than that of him.</p>
+     </sp>
+     <sp who="#L0411_M1">
+      <speaker>Hunt.</speaker>
+      <p>I can, sir, <stage>(aside) I'll clinch it now,</stage>
+       <stage>(aloud)</stage> and he's a married man.</p>
+     </sp>
+     <sp who="#L0411_M3">
+      <speaker>Block.</speaker>
+      <p>Good gracious ! but what a splendid letter—a long letter.</p>
+     </sp>
+     <sp who="#L0411_M1">
+      <speaker>Hunt.</speaker>
+      <p>So, sir, be on your guard. <stage>(aside)</stage> The devil! if that isn't my wife's bonnet
+       yonder, I'm an Egyptian ! Servant, sir, look after your niece, and curse the "Times."</p>
+     </sp>
+     <stage>Exit, L. 1 E.</stage>
+     <sp who="#L0411_M3">
+      <speaker>Block.</speaker>
+      <p>Hilloa! I say young man—curse the " Times" I havn't much opinion of him—all questionable
+       characters say the same thing—but Maria—and the married gambler!</p>
+     </sp>
+     <stage>Enter the Honourable Mrs. Huntley, L. 2 E.</stage>
+     <sp who="#L0411_F6">
+      <speaker>Mrs. H.</speaker>
+      <p><stage>(aside)</stage> perfidious man! I have watched him to some purpose this time—this
+       old man was with the girl—at all risks I'll question him—<stage>(aloud)</stage> Sir—I —</p>
+     </sp>
+     <pb n="7"/>
+     <sp who="#L0411_M3">
+      <speaker>Block.</speaker>
+      <p>Upon my word—my good lady—I'm pressed for time just now and—</p>
+     </sp>
+     <sp who="#L0411_F6">
+      <speaker>Mrs. H.</speaker>
+      <p>Mr. Block.</p>
+     </sp>
+     <sp who="#L0411_M3">
+      <speaker>Block.</speaker>
+      <p>Miss Martindale.</p>
+     </sp>
+     <sp who="#L0411_F6">
+      <speaker>Mrs. H.</speaker>
+      <p>Alas! no, sir—I wish I were—I am married—</p>
+     </sp>
+     <sp who="#L0411_M3">
+      <speaker>Block.</speaker>
+      <p>Ah! I never saw the marriage in the "Times." Who is he pray ?</p>
+     </sp>
+     <sp who="#L0411_F6">
+      <speaker>Mrs. H.</speaker>
+      <p>To the basest—most ungrateful and perfidious monster on earth.</p>
+     </sp>
+     <sp who="#L0411_M3">
+      <speaker>Block.</speaker>
+      <p>You made rather a queer selection, ma'am.</p>
+     </sp>
+     <sp who="#L0411_F6">
+      <speaker>Mrs. H.</speaker>
+      <p>He was very different when I married him, sir—am I frightfully ugly ?</p>
+     </sp>
+     <sp who="#L0411_M3">
+      <speaker>Block.</speaker>
+      <p>'Pon my word—I am no judge of ladies’ faces—so I—cant pretend to say. But I tell you what,
+       my dear! you know best. No other woman has had the impertinence to speak to me this morning
+       but Maria, except yourself.</p>
+     </sp>
+     <sp who="#L0411_F6">
+      <speaker>Mrs. H.</speaker>
+      <p>Well, sir—then I'm <emph>not</emph>—and you know it—but would you believe it! he abandons
+       me to run after other women—I know it—I never detected him—never tried to—'till this
+       morning—when I was determined to confirm my too just suspicious—I followed him and a wretch
+       he calls his friend—they stopped here—they waited evidently for some one—an omnibus
+       arrived—</p>
+     </sp>
+     <sp who="#L0411_M3">
+      <speaker>Block.</speaker>
+      <p>After its time I'll be bound.</p>
+     </sp>
+     <sp who="#L0411_F6">
+      <speaker>Mrs. H.</speaker>
+      <p>A lady alighted —</p>
+     </sp>
+     <sp who="#L0411_M3">
+      <speaker>Block.</speaker>
+      <p>An inevitable occurrence whenever an omnibus stops.</p>
+     </sp>
+     <sp who="#L0411_F6">
+      <speaker>Mrs. H.</speaker>
+      <p>She came up and spoke to you.</p>
+     </sp>
+     <sp who="#L0411_M3">
+      <speaker>Block.</speaker>
+      <p>Hilloa!</p>
+     </sp>
+     <sp who="#L0411_F6">
+      <speaker>Mrs. H.</speaker>
+      <p>And on her quitting you, my perfidious traitor dispatched his jackal—oh, that man—to track
+       her—I have no doubt to find out where they lived—I saw it all—now, sit—for old friendship's
+       sake, sit—for the memory of the time, when you knew me as a child—tell me—who that woman is !
+       why—my dear Miss—Mrs. that was my precious niece Maria.</p>
+     </sp>
+     <sp who="#L0411_F6">
+      <speaker>Mrs. H.</speaker>
+      <p>Why ! my little school-fellow Maria Bland ! <stage>(aside)</stage> To be slighted for a
+       little puss like that. Oh, Patience but I will be revenged <stage>(aloud)</stage> Dear, dear
+       Maria ! but surely there must be a mistake here.</p>
+     </sp>
+     <sp who="#L0411_M3">
+      <speaker>Block.</speaker>
+      <p>Well I don't know ma'am, but I'm inclined to think <emph>not</emph>. I know there
+        <emph>is</emph> a fellow after her—and he <emph>is</emph> a married man.</p>
+     </sp>
+     <sp who="#L0411_F6">
+      <speaker>Mrs. H.</speaker>
+      <p>Oh!</p>
+     </sp>
+     <sp who="#L0411_M3">
+      <speaker>Block.</speaker>
+      <p>A spendthrift!—</p>
+     </sp>
+     <sp who="#L0411_F6">
+      <speaker>Mrs. H.</speaker>
+      <p>Of his wife's affections only—</p>
+     </sp>
+     <sp who="#L0411_M3">
+      <speaker>Block.</speaker>
+      <p>A sharper!</p>
+     </sp>
+     <sp who="#L0411_F6">
+      <speaker>Mrs. H.</speaker>
+      <p>That is false sir!</p>
+     </sp>
+     <sp who="#L0411_M3">
+      <speaker>Block.</speaker>
+      <p>And I think I heard, a ticket-of-leave convict.</p>
+     </sp>
+     <sp who="#L0411_F6">
+      <speaker>Mrs. H.</speaker>
+      <p>Sir, you are insulting me in my distress—that is too monstrous.</p>
+     </sp>
+     <sp who="#L0411_M3">
+      <speaker>Block.</speaker>
+      <p>Well—TI only heard so—I tell you.</p>
+     </sp>
+     <stage>Huntley (peeping in from behind R. U. E.)</stage>
+     <sp who="#L0411_M1">
+      <speaker>Hunt.</speaker>
+      <p>What the devil can they be talking about so long.</p>
+     </sp>
+     <pb n="8"/>
+     <sp who="#L0411_M1">
+      <speaker>Hunt.</speaker>
+      <p><stage>(aside)</stage> "My dear"—well upon my soul—<stage>(retires)</stage></p>
+     </sp>
+     <sp who="#L0411_M3">
+      <speaker>Block.</speaker>
+      <p>Leave it all to me—I'll prepare a detailed statement of the facts and send it to the
+       "Times."</p>
+     </sp>
+     <sp who="#L0411_F6">
+      <speaker>Mrs. H.</speaker>
+      <p>Sir, I must go—and see my darling Maria—do give me your address.</p>
+     </sp>
+     <sp who="#L0411_M3">
+      <speaker>Block.</speaker>
+      <p>Hem! she's not much worth seeing—but however you can do as you please—there <stage>(gives
+        card)</stage>—but never mind the other nonsense leave it to me—I must say good bye now, my
+       dear.</p>
+     </sp>
+     <stage>Huntley (peeps in).</stage>
+     <sp who="#L0411_F6">
+      <speaker>Mrs. H.</speaker>
+      <p>I am equally pressed—good bye—dear—dear Mr. Block.</p>
+     </sp>
+     <stage>Exit, R. 2 E.</stage>
+     <sp who="#L0411_M3">
+      <speaker>Block.</speaker>
+      <p>Well this seems a pretty little misunderstanding at present—Maria and a married man, Mr.
+       Block and a married woman—married man wants the address of Mr. Blo—no—Maria wants the address
+       of married—no that's not it—never mind. I'll go to the club and there clearly and lucidly
+       arrange the entire affair —for hang me if I don't send a full, true, and particular account
+       of the whole transaction to the "Times." <stage>(looks at watch)</stage> Bless my heart 'its
+       twelve o'clock, as I'm a special correspondent.</p>
+     </sp>
+     <stage>Exit R.</stage>
+     <sp who="#L0411_M1">
+      <speaker>Hunt.</speaker>
+      <p><stage>(coming forward)</stage> "Dear, dear Mr. Block !"—that's what my wife said—"Dear Mr.
+       Block !" Damn Mr. Block! Block— Block! I've heard the ugly rascal's name somewhere. So, Mrs.
+       Huntley, with your modest looks and gentle manners, you can carry on an intrigue with an old
+       ruffian of the name of Block, can you? Meet him in the sunlight—in the open streets !—upon my
+       word I would not have believed that women were such shameful hypocrites! I'm very glad I've
+       spoilt Harford's game, for, at all events, I shall save him from the trap I have been ass
+       enough to fall into myself. <stage>Re-enter Sir Harry, R. 2 E.</stage> Well, Harry, back
+       again ?</p>
+     </sp>
+     <sp who="#L0411_M2">
+      <speaker>Sir H.</speaker>
+      <p>I found the house, and followed her in: she was mightily offended at my want of attention
+       to her requests—her entreaties; begged me to leave, if I loved her—at last commanded me to
+       leave, if I ever hoped to see her again. In vain I said, "My dear Miss Bland, hear me one
+       word. "</p>
+     </sp>
+     <sp who="#L0411_M1">
+      <speaker>Hunt.</speaker>
+      <p>Stop—Bland, Bland—what a fool I have been ! her father was an officer—married this Block's
+       sister.</p>
+     </sp>
+     <sp who="#L0411_M2">
+      <speaker>Sir H.</speaker>
+      <p>Well?</p>
+     </sp>
+     <sp who="#L0411_M1">
+      <speaker>Hunt.</speaker>
+      <p>I knew him well, and your Maria too when a little girl of ten years old. I've had her on my
+       knee</p>
+     </sp>
+     <sp who="#L0411_M2">
+      <speaker>Sir H.</speaker>
+      <p>What, sir? Oh, as a child. But, my dear Huntley, this is famous news !—you are a privileged
+       visitor; if you ever valued my friendship, go at once and plead my cause.</p>
+     </sp>
+     <sp who="#L0411_M1">
+      <speaker>Hunt.</speaker>
+      <p><stage>(aside)</stage> I'm just the man to do it, I fancy. Ah! an idea! entrance to the
+       house will enable me to detect my wife—I saw him give her his card. But how to dispose of
+       Harford, after slandering him as I have done ?</p>
+     </sp>
+     <pb n="9"/>
+     <sp who="#L0411_M2">
+      <speaker>Sir H.</speaker>
+      <p>Do you hesitate, Huntley ?</p>
+     </sp>
+     <sp who="#L0411_M1">
+      <speaker>Hunt.</speaker>
+      <p>My dear fellow, I was only considering how far I should be justified in assisting your
+       views in such a business; it might lead to matrimony.</p>
+     </sp>
+     <sp who="#L0411_M2">
+      <speaker>Sir H.</speaker>
+      <p>What in the name of heaven else should it lead to? and surely you cannot complain of the
+       state, you have so lovely, accomplished, and virtuous a wife.</p>
+     </sp>
+     <sp who="#L0411_M1">
+      <speaker>Hunt.</speaker>
+      <p><stage>(aside)</stage> Oh, the devil! <stage>(aloud)</stage> Come along, my dear fellow,
+       I'll get you a wife if I can, and avoid hating me for it for the rest of your life, if you
+       can.</p>
+     </sp>
+     <stage>Exeunt, R. 2 E.</stage>
+    </div>
+    <div type="scene">
+     <head>SCENE II.—Drawing Room of Mr. Block's Cottage open door at back leading into a
+      garden.</head>
+     <stage>Enter Maria from garden.</stage>
+     <sp who="#L0411_F7">
+      <speaker>Maria.</speaker>
+      <p>I never felt so humiliated in my life: to be a party to such a scene of vulgarity with my
+       uncle, and worse than all for Harford to have witnessed it. I shall not dare to go out again
+       for a month— and then for him to follow me home—he'll come again— I know it—and all my care
+       to prevent his knowing my uncle be frustrated for ever—ha! <stage>(retires up)</stage></p>
+     </sp>
+     <stage>Enter Block with a sheet of paper and watch in hand.</stage>
+     <sp who="#L0411_M3">
+      <speaker>Block.</speaker>
+      <p>Five minutes to two to a second— I've got it here all pat <stage>(reads)</stage> To the
+       editor of the "Times"—" sir, taking advantage of your known readiness to assist in the
+       exposure of abuse and suppression of vice in every shape, I herewith send you a detailed
+       account of a piece of the most infamous and elaborate profligacy— a scandalous outrage,
+       perhaps unparalleled in the annals of crime." That's very strongly put I think—"I was this
+       morning—Mr. Editor—" <stage>(sees Maria)</stage> Hilloa Miss are you here ?</p>
+     </sp>
+     <sp who="#L0411_F7">
+      <speaker>Maria.</speaker>
+      <p>Is there anything so very singular in this?</p>
+     </sp>
+     <sp who="#L0411_M3">
+      <speaker>Block.</speaker>
+      <p>I should have thought you would have locked yourself in your bed-room for a month at
+       least.</p>
+     </sp>
+     <sp who="#L0411_F7">
+      <speaker>Maria.</speaker>
+      <p>For what offence, sir?</p>
+     </sp>
+     <sp who="#L0411_M3">
+      <speaker>Block.</speaker>
+      <p>Are you aware, Miss, that you stand in the presence of an outraged uncle ?</p>
+     </sp>
+     <sp who="#L0411_F7">
+      <speaker>Maria.</speaker>
+      <p>I am not indeed, sir!</p>
+     </sp>
+     <sp who="#L0411_M3">
+      <speaker>Block.</speaker>
+      <p>Oh, you're not, now the acuteness I have necessarily acquired by my continued and laborious
+       correspondence with Printing House Square, has enabled me to discover-——</p>
+     </sp>
+     <sp who="#L0411_F7">
+      <speaker>Maria.</speaker>
+      <p>What?</p>
+     </sp>
+     <sp who="#L0411_M3">
+      <speaker>Block.</speaker>
+      <p>A piece of frightful depravity on one side—but that's not yours; and a piece of diabolical
+       deception on the other—and that is ours.</p>
+     </sp>
+     <sp who="#L0411_F7">
+      <speaker>Maria.</speaker>
+      <p><stage>(aside)</stage> Gracious ! can he have heard of Harford's visit ?</p>
+     </sp>
+     <sp who="#L0411_M3">
+      <speaker>Block.</speaker>
+      <p>You've taken it into that curled and corrupt head of yours, miss, to fall in love —now it's
+       no use denying it.</p>
+     </sp>
+     <sp who="#L0411_F7">
+      <speaker>Maria.</speaker>
+      <p>I have no intention of denying it, uncle, it is true that I
+       <pb n="10"/>have listened to the overtures of a gentleman, in every way worthy to be heard,
+       perhaps wrongfully in concealing it from you, but as you have never in any way encouraged my
+       confidence, I feel myself less blameworthy in having withheld it.</p>
+     </sp>
+     <sp who="#L0411_M3">
+      <speaker>Block.</speaker>
+      <p><stage>(aside)</stage> Very neatly expressed indeed. She must have been overhauling my
+       letters to the "Times." </p>
+     </sp>
+     <sp who="#">
+      <p>I now, sir, however ask your forgiveness, and——</p>
+     </sp>
+     <sp who="#L0411_M3">
+      <speaker>Block.</speaker>
+      <p>Stop a minute, young person, are you aware of the character of this gentleman who's so
+       worthy to be listened to ?</p>
+     </sp>
+     <sp who="#L0411_F7">
+      <speaker>Maria.</speaker>
+      <p>I believe it to be irreproachable, sir—</p>
+     </sp>
+     <sp who="#L0411_M3">
+      <speaker>Block.</speaker>
+      <p>Oh—he has never mentioned to you in any of his confidential interviews that he's a
+       blackleg.</p>
+     </sp>
+     <sp who="#L0411_F7">
+      <speaker>Maria.</speaker>
+      <p>Uncle!</p>
+     </sp>
+     <sp who="#L0411_M3">
+      <speaker>Block.</speaker>
+      <p>And a swindler and has been transported, I think, for horse-stealing.</p>
+     </sp>
+     <sp who="#L0411_F7">
+      <speaker>Maria.</speaker>
+      <p>Sir, you are uttering the most atrocious calumines.</p>
+     </sp>
+     <sp who="#L0411_M3">
+      <speaker>Block.</speaker>
+      <p>and I dare be sworn he has never confided to you the fact of his being a married man.</p>
+     </sp>
+     <sp who="#L0411_F7">
+      <speaker>Maria.</speaker>
+      <p>Good heaven what horrid mockery is this !</p>
+     </sp>
+     <sp who="#L0411_M3">
+      <speaker>Block.</speaker>
+      <p>It's all true, Miss, every word, as I have demonstrated in my letter to the—</p>
+     </sp>
+     <sp who="#L0411_F7">
+      <speaker>Maria.</speaker>
+      <p>But, uncle, for mercy's sake,—tell me when and from whom you learnt this terrible news; for
+       the first part of your story — it is too ridiculous—but married! oh no, no; from whom did you
+       hear it.</p>
+     </sp>
+     <sp who="#L0411_M3">
+      <speaker>Block.</speaker>
+      <p>From a very intimate friend of his whom I met this morning. <stage>(Maria sinks into a
+        chair)</stage> But mind me, no more of this, or I'll read you a lesson, Miss, I warrant you,
+       if your own little amount of sense does'nt teach you how to proceed; as for me, I must go and
+       shut myself up for a time to arrange some correspondence, for I met this morning a very
+       intelligent young man. who had heard how actively I was employed in communicating with the
+       leading journal, and who offered himself as my secretary, I engaged him, he'll be here to
+       day, and when I have him to write as I dictate, I'll save the "Times" all expense, by
+       furnishing the entire matter myself</p>
+     </sp>
+     <stage>Exit R.</stage>
+     <sp who="#L0411_F7">
+      <speaker>Maria.</speaker>
+      <p>If this should be true! Harford married, I will not, must not believe it.</p>
+     </sp>
+     <stage>Enter Servant, L.</stage>
+     <sp who="#L0411_M4">
+      <speaker>Servant.</speaker>
+      <p>The Honourable Mr. Huntley, Miss.</p>
+     </sp>
+     <sp who="#L0411_F7">
+      <speaker>Maria.</speaker>
+      <p>You had better inform your master.</p>
+     </sp>
+     <sp who="#L0411_M4">
+      <speaker>Servant.</speaker>
+      <p>He desired me to say he wished to see you Miss.</p>
+     </sp>
+     <sp who="#L0411_F7">
+      <speaker>Maria.</speaker>
+      <p>I know of no one of the name, but admit him.</p>
+     </sp>
+     <stage>Exit Servant, L.</stage>
+     <sp who="#L0411_F7">
+      <speaker>Maria.</speaker>
+      <p>Who can this be, I wonder ?</p>
+     </sp>
+     <stage>Enter Huntley, L.</stage>
+     <sp who="#L0411_M1">
+      <speaker>Hunt.</speaker>
+      <p>A thousand pardons, Miss Bland, for this intrusion, but when I announce myself as an old
+       friend of your fathers, and of
+       <pb n="11"/>your own, when not quite so much of a woman as now, I trust you will forgive
+       me.</p>
+     </sp>
+     <sp who="#L0411_F7">
+      <speaker>Maria.</speaker>
+      <p>Forgive you, sir, I am but too happy to see you; I think I do remember something of you
+       now, but it is long ago.</p>
+     </sp>
+     <sp who="#L0411_M1">
+      <speaker>Hunt.</speaker>
+      <p>Only the time necessary to transform a pretty child into a beautiful woman.</p>
+     </sp>
+     <sp who="#L0411_F7">
+      <speaker>Maria.</speaker>
+      <p>You have more need to ask my forgivenesst now, Mr. Huntley; I am quite unused to such
+       compliments, and neither deserve nor desire them.</p>
+     </sp>
+     <sp who="#L0411_M1">
+      <speaker>Hunt.</speaker>
+      <p><stage>(aside)</stage> Sensible girl; but my wife was just the same once —it's all a sham,
+       a snare, and a delusion.</p>
+     </sp>
+     <sp who="#L0411_F7">
+      <speaker>Maria.</speaker>
+      <p>But, sir, presuming on the familiarity of an old acquaintance, and remembering to have
+       heard your name recently from an acquaintance, may I ask if you have met in society, with a
+       gentleman of the name of Harford.</p>
+     </sp>
+     <sp who="#L0411_M1">
+      <speaker>Hunt.</speaker>
+      <p><stage>(aside)</stage> Here's diffidence wi,h a vengeance; all women are alike
+        <stage>(aloud)</stage> Well, Miss Bland, I have, certainly, that is occasionally, he's a man
+       whom I'm not anxious to be on intimate terms with ; he's a little flighty, inconstant, and
+       has several such minor failings.</p>
+     </sp>
+     <sp who="#L0411_F7">
+      <speaker>Maria.</speaker>
+      <p>But what can his wife think of these failings ?</p>
+     </sp>
+     <sp who="#L0411_M1">
+      <speaker>Hunt.</speaker>
+      <p><stage>(aside)</stage> Wife—Old Block's been here. <stage>(aloud)</stage> Wife, Miss Bland,
+       pardon me, that is a subject he himself never alludes to, and which, therefore, I am not
+       justified in enlarging upon.</p>
+     </sp>
+     <sp who="#L0411_F7">
+      <speaker>Maria.</speaker>
+      <p><stage>(aside)</stage> Alas! it is all true! Perfidious man! I can hate him now as much as
+       ever I could have loved him.</p>
+     </sp>
+     <sp who="#L0411_M1">
+      <speaker>Hunt.</speaker>
+      <p><stage>(aside)</stage> I think I have saved the poor devil of a fellow now;
+        <stage>(aloud)</stage> my time is short, Miss Bland, therefore, allow me to pass at once to
+       my object, and though I fear I may shock the delicate feelings,I am sure my old friend's
+       daughter possesses, still my duty both to him and yourself compels me to speak.</p>
+     </sp>
+     <sp who="#L0411_F7">
+      <speaker>Maria.</speaker>
+      <p>I attend, sir.</p>
+     </sp>
+     <sp who="#L0411_M1">
+      <speaker>Hunt.</speaker>
+      <p>You live here, Miss Bland, under the protection of an uncle.</p>
+     </sp>
+     <sp who="#L0411_F7">
+      <speaker>Maria.</speaker>
+      <p>I do, sir.</p>
+     </sp>
+     <sp who="#L0411_M1">
+      <speaker>Hunt.</speaker>
+      <p>Who bears the reputation of a moral and respectable man.</p>
+     </sp>
+     <sp who="#L0411_F7">
+      <speaker>Maria.</speaker>
+      <p>Assuredly, sir, passing a few eccentricities, a worthier man does not live.</p>
+     </sp>
+     <sp who="#L0411_M1">
+      <speaker>Hunt.</speaker>
+      <p>Alas! Miss, you are very credulous, and he is very cunning.</p>
+     </sp>
+     <sp who="#L0411_F7">
+      <speaker>Maria.</speaker>
+      <p>Will you please to speak plainly, sir ?</p>
+     </sp>
+     <sp who="#L0411_M1">
+      <speaker>Hunt.</speaker>
+      <p>Undoubtedly, this very worthy, moral, and respectable uncle of yours, is at this moment
+       carrying on an abominable intrigue with a lady of my acquaintance.</p>
+     </sp>
+     <sp who="#L0411_F7">
+      <speaker>Maria.</speaker>
+      <p>Impossible!</p>
+     </sp>
+     <sp who="#L0411_M1">
+      <speaker>Hunt.</speaker>
+      <p>Fact; I myself saw them this morning in close conversation, in rather a retired spot near
+       the Regent's Park.</p>
+     </sp>
+     <sp who="#L0411_F7">
+      <speaker>Maria.</speaker>
+      <p>This is most astounding !</p>
+     </sp>
+     <sp who="#L0411_M1">
+      <speaker>Hunt.</speaker>
+      <p>I have now discharged my duty. Miss Bland, of course you own good sense, and feeling of
+       propriety, will suggest to you what use you should make of my information. I shall take the
+       liberty of waiting upon you again.</p>
+     </sp>
+     <pb n="12"/>
+     <sp who="#L0411_F7">
+      <speaker>Maria.</speaker>
+      <p>At any time, I shall be most happy.</p>
+     </sp>
+     <sp who="#L0411_M1">
+      <speaker>Hunt.</speaker>
+      <p>Good morning, Miss Bland.</p>
+     </sp>
+     <sp who="#L0411_F7">
+      <speaker>Maria.</speaker>
+      <p>Good morning, sir.</p>
+     </sp>
+     <sp who="#L0411_M1">
+      <speaker>Hunt.</speaker>
+      <p>By-the-bye, if you'll allow me, I'll step through the garden, and out by the gate.</p>
+     </sp>
+     <sp who="#L0411_F7">
+      <speaker>Maria.</speaker>
+      <p>Certainly, sir. Good morning.</p>
+     </sp>
+     <sp who="#L0411_M1">
+      <speaker>Hunt.</speaker>
+      <p><stage>(aside)</stage> I noticed a snug little shrubbery there, where I can lie perdu, and
+       watch the gate to see if my precious wife should make her appearance.</p>
+     </sp>
+     <stage>Exit, C.</stage>
+     <sp who="#L0411_F7">
+      <speaker>Maria.</speaker>
+      <p>My uncle contracting an intimacy with a lady! it is barely within the bounds of belief, and
+       very far beyond its bounds to imagine that any lady would contract an intimacy with him.</p>
+     </sp>
+     <stage>Re-enter Block, R., with an immense basket of papers.</stage>
+     <sp who="#L0411_M3">
+      <speaker>Block.</speaker>
+      <p>There, I think that'll be enough for him to copy out to-day. What! you here still, Miss—in
+       this open room? Confound it; I tell you I won't have it, that married blackleg ‘ll be walking
+       in through the garden. Go away, Miss; shut yourself up, and be ashamed of yourself, as far as
+       you can.</p>
+     </sp>
+     <sp who="#L0411_F7">
+      <speaker>Maria.</speaker>
+      <p>What have I to be ashamed of, uncle.</p>
+     </sp>
+     <sp who="#L0411_M3">
+      <speaker>Block.</speaker>
+      <p>Having more important business off my mind, I have a good mind to give you a severe
+       lecture, but the crushing eloquence which I have acquired would perhaps be too much for you;
+       so leave the room.</p>
+     </sp>
+     <sp who="#L0411_F7">
+      <speaker>Maria.</speaker>
+      <p>Which you possibly want to receive another lady in; oh! uncle, uncle ! I'm shocked at
+       you!</p>
+     </sp>
+     <sp who="#L0411_M3">
+      <speaker>Block.</speaker>
+      <p>What are you talking about now, Miss.</p>
+     </sp>
+     <sp who="#L0411_F7">
+      <speaker>Maria.</speaker>
+      <p>Oh, uncle ! I could not have believed it of you, I've heard all about it.</p>
+     </sp>
+     <sp who="#L0411_M3">
+      <speaker>Block.</speaker>
+      <p>That's lucky, as I haven't, perhaps you'll tell me what it is?</p>
+     </sp>
+     <sp who="#L0411_F7">
+      <speaker>Maria.</speaker>
+      <p>At your time of life too !</p>
+     </sp>
+     <sp who="#L0411_M3">
+      <speaker>Block.</speaker>
+      <p>For the last time, you young hussey, will you tell me what you're driving at ?</p>
+     </sp>
+     <sp who="#L0411_F7">
+      <speaker>Maria.</speaker>
+      <p>You censure me, uncle, for falling honourably in love, whilst you, at the same time are
+       carrying on a clandestine correspondence with a lady yourself.</p>
+     </sp>
+     <sp who="#L0411_M3">
+      <speaker>Block.</speaker>
+      <p>Why you impudent young ——</p>
+     </sp>
+     <sp who="#L0411_F7">
+      <speaker>Maria.</speaker>
+      <p>Now don't pretend to deny it, uncle, I have heard it all, and that you met her near the
+       park this morning.</p>
+     </sp>
+     <sp who="#L0411_M3">
+      <speaker>Block.</speaker>
+      <p>If I did I'm — Stop, yes, I did meet a lady, or rather a lady met me; dear me, my arduous
+       work on that paper drives everything out of my head; I did meet a Mrs.— Mrs.—</p>
+     </sp>
+     <sp who="#L0411_F7">
+      <speaker>Maria.</speaker>
+      <p>What uncle! a married woman, too, oh, for shame, for shame! this shocking outrage upon
+       decency is beyond belief, sir. I say, sir, is beyond belief as it is beyond endurance.</p>
+     </sp>
+     <sp who="#L0411_M3">
+      <speaker>Block.</speaker>
+      <p><stage>(astonished)</stage> Mem for the "Times," violent assault by a niece upon her uncle.
+       Leave the room, Miss, and don't dare sully the purity of ——</p>
+     </sp>
+     <sp who="#L0411_F7">
+      <speaker>Maria.</speaker>
+      <p>Purity, oh, shocking! oh! you naughty old man.</p>
+     </sp>
+     <sp who="#L0411_M3">
+      <speaker>Block.</speaker>
+      <p><stage>Get out, Miss, this moment or—(drives her off R)</stage> an
+       <pb n="13"/>impudent young slut. I the unflinching champion of morality, I seduce a married
+       woman! or any woman! but I must be calm; affairs of deeper moment are on hand, the muffin
+       bells and the Ethiopian Serenaders, must receive immediate attention.</p>
+     </sp>
+     <stage>Enter Huntley, C, from Garden.</stage>
+     <sp who="#L0411_M1">
+      <speaker>Hunt.</speaker>
+      <p><stage>(aside)</stage> It's no use watching, and that infernal gate's locked, so I must go
+       through this way.</p>
+     </sp>
+     <sp who="#L0411_M3">
+      <speaker>Block.</speaker>
+      <p>Hilloa, sir, what business have you in my pleasure grounds; I shall take the liberty of
+       reporting this unwarrantable conduct to the "Times," sir—</p>
+     </sp>
+     <sp who="#L0411_M1">
+      <speaker>Hunt.</speaker>
+      <p>I came merely to make a call upon Miss Bland, sir.</p>
+     </sp>
+     <sp who="#L0411_M3">
+      <speaker>Block.</speaker>
+      <p>Oh, you did, did you ? Then, pray, sir, is there any other person who visits her, or are
+       you the swindler convict, and married man, who is after her ?</p>
+     </sp>
+     <sp who="#L0411_M1">
+      <speaker>Hunt.</speaker>
+      <p>I confess, Mr. Block, that I am a married man.</p>
+     </sp>
+     <sp who="#L0411_M3">
+      <speaker>Block.</speaker>
+      <p>That'll do, sir; I can imagine all the rest, sir; do me the favour, sir, to get out.</p>
+     </sp>
+     <sp who="#L0411_M1">
+      <speaker>Hunt.</speaker>
+      <p>Not until I have received ample satisfaction, or inflicted summary chastisement upon you,
+       sir.</p>
+     </sp>
+     <sp who="#L0411_M3">
+      <speaker>Block.</speaker>
+      <p>Satisfaction, sir; chastisement—what for, sir—confound you?</p>
+     </sp>
+     <sp who="#L0411_M1">
+      <speaker>Hunt.</speaker>
+      <p>For a diabolical attempt to rob me of my wife, sir; confound you!</p>
+     </sp>
+     <sp who="#L0411_M3">
+      <speaker>Block.</speaker>
+      <p>Sir, do you want to be shown up in the "Times," because you're going the right way to work
+       if you do?</p>
+     </sp>
+     <sp who="#L0411_M1">
+      <speaker>Hunt.</speaker>
+      <p>You were seen in private conversation with her this morning.</p>
+     </sp>
+     <sp who="#L0411_M3">
+      <speaker>Block.</speaker>
+      <p>What, are you that injured lady's husband, sir ?</p>
+     </sp>
+     <sp who="#L0411_M1">
+      <speaker>Hunt.</speaker>
+      <p>I am the injured husband of that perfidious woman!</p>
+     </sp>
+     <sp who="#L0411_M3">
+      <speaker>Block.</speaker>
+      <p>Then how dare you come here, sir, after my niece ?</p>
+     </sp>
+     <sp who="#L0411_M1">
+      <speaker>Hunt.</speaker>
+      <p>What do I want with your niece ?</p>
+     </sp>
+     <sp who="#L0411_M3">
+      <speaker>Block.</speaker>
+      <p>That's what I want to know; and how dare you come to me—to me—who have been on terms of
+       intimacy with your wife for——</p>
+     </sp>
+     <sp who="#L0411_M1">
+      <speaker>Hunt.</speaker>
+      <p>Oh! you confess it at last do you ; but you shall dearly repent this; pray how long have
+       you been her "dear Mr. Block."</p>
+     </sp>
+     <sp who="#L0411_M3">
+      <speaker>Block.</speaker>
+      <p>Not so long, as according to her statement, you have been the basest, vilest, meanest,
+       crudest, worst of husbands.</p>
+     </sp>
+     <sp who="#L0411_M1">
+      <speaker>Hunt.</speaker>
+      <p>It is false, sir; she never so called me ?</p>
+     </sp>
+     <sp who="#L0411_M3">
+      <speaker>Block.</speaker>
+      <p>She was right. What right have you to come here to rob me of my niece ?</p>
+     </sp>
+     <sp who="#L0411_M1">
+      <speaker>Hunt.</speaker>
+      <p>What do I want with your niece ? What right have you to attempt to rob me of my wife ?</p>
+     </sp>
+     <sp who="#L0411_M3">
+      <speaker>Block.</speaker>
+      <p>What do I want with your wife? I never asked tor her. I dont want anybody's wife ; go and
+       fetch her, and we'll soon clear all this up.</p>
+     </sp>
+     <sp who="#L0411_M1">
+      <speaker>Hunt.</speaker>
+      <p>will, sir, depend upon it, you shall not escape me.</p>
+      <stage>(Going L.)</stage>
+     </sp>
+     <sp who="#L0411_M3">
+      <speaker>Block.</speaker>
+      <p>And stop, sir, perhaps you'll be good enough to leave
+       <pb n="14"/>your name, in case I should consider it necessary to trouble the "Times" with a
+       note in this matter.</p>
+     </sp>
+     <sp who="#L0411_M1">
+      <speaker>Hunt.</speaker>
+      <p><stage>(aside)</stage> In order to prevent any mistake about my really being after his
+       niece, for a few minutes, I'll take Harford's name. <stage>(aloud)</stage> My name, sir, is
+       Harford, sir—Harford.</p>
+     </sp>
+     <sp who="#L0411_M3">
+      <speaker>Block.</speaker>
+      <p>Very well, Mr. Harford, then go and produce this much-injured lady.</p>
+     </sp>
+     <sp who="#L0411_M1">
+      <speaker>Hunt.</speaker>
+      <p>Don't insult me, sir, with her injuries; I only hope, for your own sake, you're a good
+       shot, that's all.</p>
+     </sp>
+     <stage>xit, L.</stage>
+     <sp who="#L0411_M3">
+      <speaker>Block.</speaker>
+      <p>Shot!—what an incitement to a breach of the peace ! The "Times" shall hear of that. I never
+       was so bullied or bothered in my life. Here ! Maria!—I believe that slut's at the bottom of
+       it all.</p>
+     </sp>
+     <stage>Enter Maria, R.</stage>
+     <sp who="#L0411_M3">
+      <speaker>Block.</speaker>
+      <p>Come here, Miss. Do you know any one of the name of Harford?</p>
+     </sp>
+     <sp who="#L0411_F7">
+      <speaker>Maria.</speaker>
+      <p>I do, sir; he is the gentleman —</p>
+     </sp>
+     <sp who="#L0411_M3">
+      <speaker>Block.</speaker>
+      <p>Who's fallen in love with that impudent face of yours, eh ?—he's a pretty fellow !—why the
+       scamp has been here, and dared to insinuate that I have been tampering with his wife,</p>
+     </sp>
+     <sp who="#L0411_F7">
+      <speaker>Maria.</speaker>
+      <p><stage>(aside)</stage> Mercy!—Harford's wife ! <stage>(aloud)</stage> then you ought to be
+       horsewhipped, sir, there.</p>
+     </sp>
+     <sp who="#L0411_M3">
+      <speaker>Block.</speaker>
+      <p>Horsewhipped !—oh, damn it! But do you pretend to believe this, Miss ?</p>
+     </sp>
+     <sp who="#L0411_F7">
+      <speaker>Maria.</speaker>
+      <p>Of course I do, sir; I knew you had—didn't I tell you so?</p>
+     </sp>
+     <sp who="#L0411_M3">
+      <speaker>Block.</speaker>
+      <p>Patience, patience!—but this is a conspiracy brought home to a man's home and hearthstone.
+       I shall take the opinion of the "Times" upon the subject; I shall ask for a special leader on
+       the subject. Not another word, miss— I shall now go and order twenty reams of paper. Oh, if
+       my secretary would only come— we shall have to sit up all night.</p>
+     </sp>
+     <stage>Exit, L.</stage>
+     <sp who="#L0411_F7">
+      <speaker>Maria.</speaker>
+      <p>So, Harford is really married ! false—base—heartless— I could—oh! there's no faith left in
+       mankind. He married, and my uncle intriguing with his wife of all women in the world! I think
+       I'll go into a nunnery.</p>
+     </sp>
+     <stage>Enter Servant, L.</stage>
+     <sp who="#L0411_M4">
+      <speaker>Servant.</speaker>
+      <p>A lady, Miss</p>
+     </sp>
+     <sp who="#L0411_F7">
+      <speaker>Maria.</speaker>
+      <p>Has she no name?</p>
+     </sp>
+     <sp who="#L0411_M4">
+      <speaker>Servant.</speaker>
+      <p>She gave none, Miss</p>
+     </sp>
+     <sp who="#L0411_F7">
+      <speaker>Maria.</speaker>
+      <p>Let her come in <stage>Exit, SERVANT, L.</stage> Who can this be, I should like to know ?
+        <stage>(aside)</stage>
+       <stage>Enter Mrs. Huntley, L.</stage> What! Kate—my dear Kate ?</p>
+     </sp>
+     <sp who="#L0411_F6">
+      <speaker>Mrs. H.</speaker>
+      <p>Dear Maria, <stage>(aside) I should like to box your ears well.</stage></p>
+     </sp>
+     <sp who="#L0411_F7">
+      <speaker>Maria.</speaker>
+      <p>Why, I havn't seen you since you left school: I am so glad you're come, for I am so
+       wretched, dear, you can't think.</p>
+     </sp>
+     <pb n="15"/>
+     <sp who="#L0411_F6">
+      <speaker>Mrs. H.</speaker>
+      <p>Are you, dear? <stage>(aside) Serve you right, you little flirt.</stage></p>
+     </sp>
+     <sp who="#L0411_F7">
+      <speaker>Maria.</speaker>
+      <p>Only think, love, a dear, noble—no, a nasty, good-for-nothing fellow made me believe he was
+       over head and ears in love with me, and offered to marry me; pressed me ever so many times to
+       run away with me.</p>
+     </sp>
+     <sp who="#L0411_F6">
+      <speaker>Mrs. H.</speaker>
+      <p><stage>(aside)</stage> the wretch.</p>
+     </sp>
+     <sp who="#L0411_F7">
+      <speaker>Maria.</speaker>
+      <p>And, after all, he turned out to be <stage>(sobbing)</stage> to be—a married man !
+       shameful, wicked Harry.</p>
+     </sp>
+     <sp who="#L0411_F6">
+      <speaker>Mrs. H.</speaker>
+      <p><stage>(aside)</stage> she calls him Harry too, oh ! I cant stand this, any longer;
+        <stage>(aloud)</stage> you are aware, I am married, Miss Bland.</p>
+     </sp>
+     <sp who="#L0411_F7">
+      <speaker>Maria.</speaker>
+      <p>I heard so, but did not know to whom ; but, why this altered tone?</p>
+     </sp>
+     <sp who="#L0411_F6">
+      <speaker>Mrs. H.</speaker>
+      <p>Oh! I dare say, and you, mean to tell me ; you horrid wicked creature, that you didn't know
+       Harry, as you call him—was my husband.</p>
+     </sp>
+     <sp who="#L0411_F7">
+      <speaker>Maria.</speaker>
+      <p>Gracious? your husband! my Harry.</p>
+     </sp>
+     <sp who="#L0411_F6">
+      <speaker>Mrs. H.</speaker>
+      <p>No, Miss—not your Harry, my Harry; perhaps you can oblige me with his other name ?</p>
+     </sp>
+     <sp who="#L0411_F7">
+      <speaker>Maria.</speaker>
+      <p>I will never mention it again, all I can say is, it begins <stage>(sobbing)</stage> with,
+       with, an H.</p>
+     </sp>
+     <sp who="#L0411_F6">
+      <speaker>Mrs. H.</speaker>
+      <p>Of course, you know it well enough; it was all your own fault, I know, you led him on with
+       your little—stupid, demure, artful ways ; you know you did.</p>
+     </sp>
+     <sp who="#L0411_F7">
+      <speaker>Maria.</speaker>
+      <p>Oh, don't be angry with me, indeed, I did not know it; we are both very wretched.</p>
+     </sp>
+     <sp who="#L0411_F6">
+      <speaker>Mrs. H.</speaker>
+      <p>We are both very wretched? I admire that. You compare your wretchedness with mine ? you a
+       little foolish puss, who has taken a passing fancy to a handsome man, and I a miserable wife;
+       disgraced, and abandoned. Ugh, you deceitful little minx.</p>
+     </sp>
+     <sp who="#L0411_F7">
+      <speaker>Maria.</speaker>
+      <p>Madam ! I have told you my fault was involuntary, but I cannot submit to this language in
+       my own house.</p>
+     </sp>
+     <sp who="#L0411_F6">
+      <speaker>Mrs. H.</speaker>
+      <p>Oh! you will order me out, I suppose; perhaps you expect "your Harry." Oh! you little
+       viper!</p>
+     </sp>
+     <sp who="#L0411_F7">
+      <speaker>Maria.</speaker>
+      <p>Do not think, madam, that I shall endure this insolence any longer without a retaliation,
+       which I would have spared you; it certainly well becomes you, to taunt me with an unconscious
+       error, when you yourself, a married woman, are carrying on a shameful intrigue with another
+       man !</p>
+     </sp>
+     <sp who="#L0411_F6">
+      <speaker>Mrs. H.</speaker>
+      <p>I, you saucy little story teller, and with whom pray? if you have invented the person as
+       well as the fib——</p>
+     </sp>
+     <sp who="#L0411_F7">
+      <speaker>Maria.</speaker>
+      <p>I am ashamed to say, with my own uncle.</p>
+     </sp>
+     <sp who="#L0411_F6">
+      <speaker>Mrs. H.</speaker>
+      <p>Ha, ha, ha!—why you good-for-nothing—how dare you insinuate such an absurdity?</p>
+     </sp>
+     <sp who="#L0411_F7">
+      <speaker>Maria.</speaker>
+      <p>Insinuate it you wicked woman—on the authority of your husband himself.</p>
+     </sp>
+     <sp who="#L0411_F6">
+      <speaker>Mrs. H.</speaker>
+      <p>He did not dare to——</p>
+     </sp>
+     <sp who="#L0411_F7">
+      <speaker>Maria.</speaker>
+      <p>He did, he did, he did, and you're a base woman, I blush for you.</p>
+     </sp>
+     <sp who="#L0411_F6">
+      <speaker>Mrs. H.</speaker>
+      <p>You'd much better blush for yourself Miss —— you've most cause.</p>
+     </sp>
+     <sp who="#L0411_F7">
+      <speaker>Maria.</speaker>
+      <p>You were seen whispering together to-day, in the street.</p>
+     </sp>
+     <pb n="16"/>
+     <sp who="#L0411_F6">
+      <speaker>Mrs. H.</speaker>
+      <p>I was telling him, that a foolish little girl, had seduced my husband.</p>
+     </sp>
+     <sp who="#L0411_F7">
+      <speaker>Maria.</speaker>
+      <p>And offering a foolish old man, his revenge I suppose.</p>
+     </sp>
+     <sp who="#L0411_F6">
+      <speaker>Mrs. H.</speaker>
+      <p>How, dare you insult me in this manner, Miss ?</p>
+     </sp>
+     <sp who="#L0411_F7">
+      <speaker>Maria.</speaker>
+      <p>I was only following your polite example, madam.</p>
+     </sp>
+     <sp who="#L0411_F6">
+      <speaker>Mrs. H.</speaker>
+      <p>You're an artful, mischievious, shocking little girl.</p>
+     </sp>
+     <sp who="#L0411_F7">
+      <speaker>Maria.</speaker>
+      <p>And you're a rude, spiteful, malicious, married woman.</p>
+     </sp>
+     <sp who="#L0411_F6">
+      <speaker>Mrs. H.</speaker>
+      <p>I've a good mind to pull your hair, about your ears.</p>
+     </sp>
+     <sp who="#L0411_F7">
+      <speaker>Maria.</speaker>
+      <p>Do not, lest I should retaliate, and yours should come off in my hand, but, perhaps you
+       will allow me to retire, madam; I have received sufficient entertainment from your agreeable
+       conversation.</p>
+     </sp>
+     <sp who="#L0411_F6">
+      <speaker>Mrs. H.</speaker>
+      <p>I am going, Miss.</p>
+     </sp>
+     <sp who="#L0411_F7">
+      <speaker>Maria.</speaker>
+      <p>Thank you, madam.</p>
+     </sp>
+     <sp who="#L0411_F6">
+      <speaker>Mrs. H.</speaker>
+      <p>But depend upon it, I return very shortly; <stage>(aside) a little brazen-faced minx. I'll
+        return and see that old man, and— hut I dont know what I'll do yet.</stage></p>
+     </sp>
+     <stage>Exit, L.</stage>
+     <sp who="#L0411_F7">
+      <speaker>Maria.</speaker>
+      <p>Oh, dear! my spirits kept me up while that vulgar creature was here, but now, I could set
+       down and cry my eyes out.</p>
+     </sp>
+     <stage>Enter Servant, L.</stage>
+     <sp who="#L0411_M4">
+      <speaker>Servant.</speaker>
+      <p>Please Miss, a gentleman has been waiting for some time, he says he's master's secretary,
+       and he asked to see you, but I told him you had a lady with you ; shall he come in now, Miss
+       ?</p>
+     </sp>
+     <sp who="#L0411_F7">
+      <speaker>Maria.</speaker>
+      <p>Oh, if he pleases —yes. <stage>Exit, Servant, L.</stage> But I know nothing about the
+       "Times" correspondence; I only know I'm very wretched, and I'm sure the "Times" can't help me
+       there.</p>
+     </sp>
+     <stage>Enter Sir Harry, L.</stage>
+     <sp who="#L0411_M2">
+      <speaker>Sir H.</speaker>
+      <p>My dear Miss B — </p>
+     </sp>
+     <sp who="#L0411_F7">
+      <speaker>Maria.</speaker>
+      <p><stage>(haughtily)</stage> Sir, be kind enough to keep your distance.</p>
+     </sp>
+     <sp who="#L0411_M2">
+      <speaker>Sir H.</speaker>
+      <p>Pardon my having evaded your orders by an innocent ruse; knowing your uncle's peculiarity I
+       took advantage of it, to engage as his secretary, and to be near you.</p>
+     </sp>
+     <sp who="#L0411_F7">
+      <speaker>Maria.</speaker>
+      <p><stage>(scornfully)</stage> Near me—your business is with, Mr. Block, I believe, sir, not
+       with me. You can take a seat and await his return. <stage>(going)</stage></p>
+     </sp>
+     <sp who="#L0411_M2">
+      <speaker>Sir H.</speaker>
+      <p>One moment, Miss Bland; Maria, will you listen to me.</p>
+     </sp>
+     <sp who="#L0411_F7">
+      <speaker>Maria.</speaker>
+      <p>If you dare to address me in that style, sir, again—I will ring for the servants, and have
+       you turned out of the house.</p>
+     </sp>
+     <sp who="#L0411_M2">
+      <speaker>Sir H.</speaker>
+      <p>What, can you mean by this language ?</p>
+     </sp>
+     <sp who="#L0411_F7">
+      <speaker>Maria.</speaker>
+      <p>Mean, sir, what I say; you who are so practised in deception may possibly be astonished at
+       hearing plain speaking.</p>
+     </sp>
+     <sp who="#L0411_M2">
+      <speaker>Sir H.</speaker>
+      <p>Will you honour me, so far as to explain this strange meaning ?</p>
+     </sp>
+     <sp who="#L0411_F7">
+      <speaker>Maria.</speaker>
+      <p>I will, sir, and so doing, you hear my voice for the last time. You met me a young,
+       inexperienced girl—spoke to me of love—I was weak enough to listen—with vows and
+       protestations all spoken in the guise of honest truth. I do not blush now, to say you won
+       affections—hitherto unawakened—how could I then guess
+       <pb n="17"/>or dream, that he who thus perfidiously made himself master of my heart—had a
+       lawful home, in the heart of another.</p>
+     </sp>
+     <sp who="#L0411_M2">
+      <speaker>Sir H.</speaker>
+      <p>Another ?</p>
+     </sp>
+     <sp who="#L0411_F7">
+      <speaker>Maria.</speaker>
+      <p>Shame on you, sir to present that look of false amazement. Tell me what he deserves who
+       thrives to compass the ruin of a trusting girl, and is at the time—a married man ?</p>
+     </sp>
+     <sp who="#L0411_M2">
+      <speaker>Sir H.</speaker>
+      <p>A married man ? Good heavens! what miserable delusion is this?</p>
+     </sp>
+     <sp who="#L0411_F7">
+      <speaker>Maria.</speaker>
+      <p>You deny it?</p>
+     </sp>
+     <sp who="#L0411_M2">
+      <speaker>Sir H.</speaker>
+      <p>Can you ask me ?</p>
+     </sp>
+     <sp who="#L0411_F7">
+      <speaker>Maria.</speaker>
+      <p>No, I need not; your wife has been here, and told me all.</p>
+     </sp>
+     <sp who="#L0411_M2">
+      <speaker>Sir H.</speaker>
+      <p>My wife! I am dreaming, surely.</p>
+     </sp>
+     <sp who="#L0411_F7">
+      <speaker>Maria.</speaker>
+      <p>No, sir; and, luckily, I have awoke in time. I leave you to your conscience, if, indeed,
+       you have one; but never hope— base, perjured, and cruel as you are—ever to look upon my face
+       again.</p>
+     </sp>
+     <sp who="#L0411_M2">
+      <speaker>Sir H.</speaker>
+      <p>But, for mercy's sake! let me explain——</p>
+     </sp>
+     <sp who="#L0411_F7">
+      <speaker>Maria.</speaker>
+      <p>Not a word. If I desired any confirmation of your poor wife's story, I heard sufficient of
+       your character, from one who knows you well enough, to avoid you.</p>
+     </sp>
+     <sp who="#L0411_M2">
+      <speaker>Sir H.</speaker>
+      <p>What villain is he ? who has dared——</p>
+     </sp>
+     <sp who="#L0411_F7">
+      <speaker>Maria.</speaker>
+      <p>I refer you, sir, to the Honourable Mr. Huntley.</p>
+     </sp>
+     <stage>Exit, R.</stage>
+     <sp who="#L0411_M2">
+      <speaker>Sir H.</speaker>
+      <p>Stop ! Oh! what base machinery has been set in motion here! Huntley slander me? Impossible!
+       I shall go mad if I do not get at some explanation. <stage>(walks about
+       excitedly)</stage></p>
+     </sp>
+     <stage>Enter Block, L. with "Times" newspaper.</stage>
+     <sp who="#L0411_M3">
+      <speaker>Block.</speaker>
+      <p>Ha! glad you're come ! here's an article in the "Times."</p>
+     </sp>
+     <sp who="#">
+      <speaker>Sir H..</speaker>
+      <p><stage>(still walking peevishly)</stage> Oh! damn the "Times."</p>
+     </sp>
+     <sp who="#L0411_M3">
+      <speaker>Block.</speaker>
+      <p><stage>(aghast)</stage> What doI hear? have you taken leave of your senses, Mr. Secretary
+       ?</p>
+     </sp>
+     <sp who="#L0411_M2">
+      <speaker>Sir H.</speaker>
+      <p>I believe I have, sir, or everybody else has; I cannot endure this. I must confess, sir,
+       that I have gained admission to your house under false pretences.</p>
+     </sp>
+     <sp who="#L0411_M3">
+      <speaker>Block.</speaker>
+      <p>Eh? here's another subject for the columns of the-—— What do you mean, sir?</p>
+     </sp>
+     <sp who="#L0411_M2">
+      <speaker>Sir H.</speaker>
+      <p>My name, sir, is Harford.</p>
+     </sp>
+     <sp who="#L0411_M3">
+      <speaker>Block.</speaker>
+      <p>Halt there! hold hard! Are you the man that accused me of running after your wife ?</p>
+     </sp>
+     <sp who="#L0411_M2">
+      <speaker>Sir H.</speaker>
+      <p>Wife again? Sir, I have no wife.</p>
+     </sp>
+     <sp who="#L0411_M3">
+      <speaker>Block.</speaker>
+      <p>ButI tell you that you were here just now, and said you had ; that is, if your name's
+       Harford. I can't recollect faces; but I <emph>know </emph>it, Harford was here, and——</p>
+     </sp>
+     <sp who="#L0411_M2">
+      <speaker>Sir H.</speaker>
+      <p>What diabolical agency can be at work? I, sir, ama gentleman, and my name is Harford. I
+       dearly love your niece——</p>
+     </sp>
+     <sp who="#L0411_M3">
+      <speaker>Block.</speaker>
+      <p>My niece again? Then, of course, you are a married man ; your wife told me that distinctly,
+       and she ought to know.</p>
+     </sp>
+     <sp who="#L0411_M2">
+      <speaker>Sir H.</speaker>
+      <p>Oh! the world's in league to drive me mad! Sir, I
+       <pb n="18"/>again tell you I have no wife. I am Sir Harry Harford, and I simply demand your
+       permission to address Miss Bland.</p>
+     </sp>
+     <sp who="#L0411_M3">
+      <speaker>Block.</speaker>
+      <p>I wish to goodness somebody would take my niece away. The "Times"‘Il go to rack and ruin if
+       I'm distracted in this manner. I neither know nor care anything about you; settle it among
+       yourselves. I'll send Maria to you, and if you'll divorce your other wife, and marry her, why
+       I shall be heartily obliged to you.</p>
+     </sp>
+     <stage>Exit, R.</stage>
+     <sp who="#L0411_M2">
+      <speaker>Sir H.</speaker>
+      <p>What am I to do? How clear myself? The heaviest blow of all is the one dealt by Huntley; he
+       must have traduced me. False friend, he shall repent it. I! shall go mad presently, if
+       someone doesn't unravel this infernal mystery.</p>
+     </sp>
+     <stage>Re-enter Huntley, L. with a case of pistols.</stage>
+     <sp who="#L0411_M1">
+      <speaker>Hunt.</speaker>
+      <p><stage>(excited)</stage> My wife's not at home; of course not; but lie you there, my
+       friends. After I've blown Block's brains out, I'll ——Ha! Harry !</p>
+     </sp>
+     <sp who="#L0411_M2">
+      <speaker>Sir H.</speaker>
+      <p><stage>(L.)</stage> A word, sir. Before we recommence our intercourse on such familiar
+       terms, you are either belied, or you have played me a most ungenerous and unmanly trick.</p>
+     </sp>
+     <sp who="#L0411_M1">
+      <speaker>Hunt.</speaker>
+      <p><stage>(aside)</stage> All's out.</p>
+     </sp>
+     <sp who="#L0411_M2">
+      <speaker>Sir H.</speaker>
+      <p>You are silent. It is true, then, that you have represented me to Miss Bland in such a
+       light as to induce her to forbid me her presence for ever?</p>
+     </sp>
+     <sp who="#L0411_M1">
+      <speaker>Hunt.</speaker>
+      <p>My dear Harford, you'll thank me for it, by and bye. I don't deny it; but it was done
+       purely and solely for your benefit.</p>
+     </sp>
+     <sp who="#L0411_M2">
+      <speaker>Sir H.</speaker>
+      <p>Allow me inform you, Mr. Huntley, that I consider myself perfectly capable of managing my
+       own affairs, and that I take it as an affront for any man to interfere in the least of them,
+       but in this case—to be slandered with her, upon whom depends my future happiness—is an
+       outrage for which, I shall demand the fullest satisfaction.</p>
+     </sp>
+     <sp who="#L0411_M1">
+      <speaker>Hunt.</speaker>
+      <p>You're not serious?—why confound it, man,do you know what a wife is—here's mine a young,
+       and pretty woman, and deuce take me if she hasn't got up an intrigue, with old Block here—a
+       man old enough to be to be her father.</p>
+     </sp>
+     <sp who="#L0411_M2">
+      <speaker>Sir H.</speaker>
+      <p>That is your affair—do you withhold the satisfaction, I demand ?</p>
+     </sp>
+     <sp who="#L0411_M1">
+      <speaker>Hunt.</speaker>
+      <p>Pooh, nonsense!</p>
+     </sp>
+     <sp who="#L0411_M2">
+      <speaker>Sir H.</speaker>
+      <p>Am I to consider yon a coward as well as a slanderer?</p>
+     </sp>
+     <sp who="#L0411_M1">
+      <speaker>Hunt.</speaker>
+      <p>Sir Harry!</p>
+     </sp>
+     <sp who="#L0411_M2">
+      <speaker>Sir H.</speaker>
+      <p>Be assured, I will publish you as one throughout town.</p>
+     </sp>
+     <sp who="#L0411_M1">
+      <speaker>Hunt.</speaker>
+      <p>I will spare you that trouble, sir,—step into the garden <stage>(producing pistols)</stage>
+       choose!</p>
+     </sp>
+     <sp who="#L0411_M2">
+      <speaker>Sir H.</speaker>
+      <p><stage>(taking one)</stage> The sooner the better.</p>
+     </sp>
+     <stage>Enter Maria, R. —seeing pistols she screams.</stage>
+     <sp who="#L0411_F7">
+      <speaker>Maria.</speaker>
+      <p>Good heaven ! what means all this ?</p>
+     </sp>
+     <sp who="#L0411_M2">
+      <speaker>Sir H.</speaker>
+      <p>It means, madam that through this man's slander, I have lost your love, and therefore my
+       life is of little use, and his belongs to me in recompence for my loss.</p>
+     </sp>
+     <pb n="19"/>
+     <sp who="#L0411_F7">
+      <speaker>Maria.</speaker>
+      <p>For mercy's sake put down those horrid things; Mr. Huntley, speak to him—to me I would
+       say.</p>
+     </sp>
+     <sp who="#L0411_M1">
+      <speaker>Hunt.</speaker>
+      <p>I will, Miss Bland; I confess that I thought I was doing my friend a service in saving him
+       from matrimony, but now that I have seen you twice, I begin to doubt my propriety in the
+       matter, all that I said of him was pure invention, and if you have heard elsewhere ought in
+       his dispraise, it was calumny and invention too; but when I find my wife carrying on a
+       flirtation with such a man as Block, what can I think of the sex.</p>
+     </sp>
+     <sp who="#L0411_F7">
+      <speaker>Maria.</speaker>
+      <p>Your wife ? but her name is</p>
+     </sp>
+     <sp who="#L0411_M1">
+      <speaker>Hunt.</speaker>
+      <p>Mrs. Henry Huntley.</p>
+     </sp>
+     <sp who="#L0411_F7">
+      <speaker>Maria.</speaker>
+      <p>Oh ! I see it all—cruel error ?</p>
+     </sp>
+     <sp who="#L0411_M2">
+      <speaker>Sir R.</speaker>
+      <p>Huntley, forgive me; your hand.</p>
+     </sp>
+     <sp who="#L0411_M1">
+      <speaker>Hunt.</speaker>
+      <p><stage>My dear fellow (replaces pistols)</stage></p>
+     </sp>
+     <sp who="#L0411_M2">
+      <speaker>Sir H.</speaker>
+      <p>You see, Miss Bland, how you wronged me—but that is past—will you listen to me now ?</p>
+     </sp>
+     <sp who="#L0411_M1">
+      <speaker>Hunt.</speaker>
+      <p>Pshaw, man, leave Miss Bland to me, I want a little private conversation with her—in the
+       garden, if she will grant it.</p>
+     </sp>
+     <sp who="#L0411_F7">
+      <speaker>Maria.</speaker>
+      <p>With me, sir ? I cannot——</p>
+     </sp>
+     <sp who="#L0411_M1">
+      <speaker>Hunt.</speaker>
+      <p>Refuse me, I know that. Harford leave yourself in my hands.</p>
+     </sp>
+     <sp who="#L0411_M2">
+      <speaker>Sir H.</speaker>
+      <p>A second time ?</p>
+     </sp>
+     <sp who="#L0411_F7">
+      <speaker>Maria.</speaker>
+      <p>Mr. Harford, my uncle desired me to send you to his library, it is yonder room, to the
+       right.</p>
+     </sp>
+     <sp who="#L0411_M1">
+      <speaker>Hunt.</speaker>
+      <p>There be a good boy and do as you're told <stage>(pushes him off R. 1 E.)</stage> now, Miss
+       Bland, will you oblige me with your arm.</p>
+     </sp>
+     <sp who="#L0411_F7">
+      <speaker>Maria.</speaker>
+      <p>But what are you going to say, sir?</p>
+     </sp>
+     <sp who="#L0411_M1">
+      <speaker>Hunt.</speaker>
+      <p>Something that I hope will give cause for an announcement in your uncle's everlasting
+       "Times"</p>
+     </sp>
+     <stage>Exeunt by door at back.</stage>
+     <stage>Enter Servant and Mrs. Huntley, L.</stage>
+     <sp who="#L0411_M4">
+      <speaker>Servant.</speaker>
+      <p>I willlet Mr. Block know ma'am .</p>
+     </sp>
+     <stage>Exit R.</stage>
+     <sp who="#L0411_F6">
+      <speaker>Mrs. H.</speaker>
+      <p>Yes, this is my course, this Mr. Block is a simpleton, I can wheedle him out of all he
+       knows of Huntley and his visits here, so convict him, and possibly teach him a lesson in
+       future</p>
+     </sp>
+     <stage>Re-enter Block.</stage>
+     <sp who="#L0411_M3">
+      <speaker>Block.</speaker>
+      <p>I've calmed him down wonderfully and left him hard at work; a lady want me, oh, Miss, Mrs.
+        ——<stage>(aside)</stage> bless me, this the married woman again ?</p>
+     </sp>
+     <sp who="#L0411_F6">
+      <speaker>Mrs. H.</speaker>
+      <p>Mr. Block will you answer me one question. ?</p>
+     </sp>
+     <sp who="#L0411_M3">
+      <speaker>Block.</speaker>
+      <p>One dozen, ma'am, when you have answered me one— will you be kind enough to tell me whether
+       you are married or not, and if so, how many husbands you have got.</p>
+     </sp>
+     <sp who="#L0411_F6">
+      <speaker>Mrs. H.</speaker>
+      <p>Sir, that is a very impertinent question.</p>
+     </sp>
+     <sp who="#L0411_M3">
+      <speaker>Block.</speaker>
+      <p>On the contrary, madam, it's a very pertinent one, because in the first place, I, whose
+       whole time is devoted to a literary correspondence with a certain journal, am accused of
+       having attempted to deprive some gentleman of his wife.</p>
+     </sp>
+     <sp who="#L0411_F6">
+      <speaker>Mrs. H.</speaker>
+      <p>Ridiculous !</p>
+     </sp>
+     <sp who="#L0411_M3">
+      <speaker>Block.</speaker>
+      <p>Very,—but the gentleman came and told me so himself
+       <pb n="20"/>and then presently he comes and tells me he hasn't got a wife, and that he wants
+       my niece.</p>
+     </sp>
+     <sp who="#L0411_F6">
+      <speaker>Mrs. H.</speaker>
+      <p>That's my wretch.</p>
+     </sp>
+     <sp who="#L0411_M3">
+      <speaker>Block.</speaker>
+      <p>Oh, that's your wretch, is it? I must make minutes of these proceedings — I'm really quite
+       a fortune to that paper. Then, I suppose, we may take it for granted that he has got a wife;
+       then it follows, as a matter of course, that you're the lady who's so so desperately fond of
+       me.</p>
+     </sp>
+     <sp who="#L0411_F6">
+      <speaker>Mrs. H.</speaker>
+      <p>Surely, sir, you cannot mean to offend me.</p>
+     </sp>
+     <sp who="#L0411_M3">
+      <speaker>Block.</speaker>
+      <p>Certainly not; but taste is all ;— if you have an amiable weakness, by all means indulge
+       it.</p>
+     </sp>
+     <sp who="#L0411_F6">
+      <speaker>Mrs. H.</speaker>
+      <p>But, sir, you cannot seriously believe— ;</p>
+     </sp>
+     <sp who="#L0411_M3">
+      <speaker>Block.</speaker>
+      <p>. ow can I possibly tell what to believe?—my niece tells me you're in love with me.</p>
+     </sp>
+     <sp who="#L0411_F6">
+      <speaker>Mrs. H.</speaker>
+      <p>Your niece? don't allude to her, pray.</p>
+     </sp>
+     <sp who="#L0411_M3">
+      <speaker>Block.</speaker>
+      <p>Your husband says your in love with me.</p>
+     </sp>
+     <sp who="#L0411_F6">
+      <speaker>Mrs. H.</speaker>
+      <p>It was to shield his own vile purposes.</p>
+     </sp>
+     <sp who="#L0411_M3">
+      <speaker>Block.</speaker>
+      <p>But, my dear Mrs. ——Dear me, I always forget your name.</p>
+     </sp>
+     <sp who="#L0411_F6">
+      <speaker>Mrs. H.</speaker>
+      <p>Huntley, sir.</p>
+     </sp>
+     <sp who="#L0411_M3">
+      <speaker>Block.</speaker>
+      <p>Huntley! Huntley! <stage>(aside)</stage> Damn it! this is some other man's wife, after
+       all.</p>
+     </sp>
+     <sp who="#L0411_F6">
+      <speaker>Mrs. H.</speaker>
+      <p>But, sir, will you tell me what you know of the shocking business between your niece and my
+       husband ?</p>
+     </sp>
+     <sp who="#L0411_M3">
+      <speaker>Block.</speaker>
+      <p>What! is your husband after my niece too? Hang me, it I don't think there are a dozen
+       married men after my niece, besides the gentleman who says he isn't married.</p>
+     </sp>
+     <sp who="#L0411_F6">
+      <speaker>Mrs. H.</speaker>
+      <p>Sir, you torture me; but, be assured it is <emph>my</emph> husband who is the real
+       culprit.</p>
+     </sp>
+     <sp who="#L0411_M3">
+      <speaker>Block.</speaker>
+      <p>Well, he may be of the number, and perhaps the worst of em; but it's quite clear
+        <emph>you're</emph> not my married woman, because her name's something else; when ‘ll
+        <emph>she</emph> be produced,I wonder ? However, the husband 'll soon be here, and he said
+       he'd go and fetch her.</p>
+     </sp>
+     <sp who="#L0411_F6">
+      <speaker>Mrs. H.</speaker>
+      <p>My husband gone to fetch me ?</p>
+     </sp>
+     <sp who="#L0411_M3">
+      <speaker>Block.</speaker>
+      <p>No, no; gone to fetch his wife.</p>
+     </sp>
+     <sp who="#L0411_F6">
+      <speaker>Mrs. H.</speaker>
+      <p>Well, I am his wife.</p>
+     </sp>
+     <sp who="#L0411_M3">
+      <speaker>Block.</speaker>
+      <p>How the deuce can you be two men's wife ? you say you're Mrs. Huntley, how can you be
+       Harford's wife, too ’</p>
+     </sp>
+     <sp who="#L0411_F6">
+      <speaker>Mrs. H.</speaker>
+      <p>Harford ! Oh! you're in error he has no wife.</p>
+     </sp>
+     <sp who="#L0411_M3">
+      <speaker>Block.</speaker>
+      <p>So he says—he will have it, I've got her.</p>
+     </sp>
+     <sp who="#L0411_F6">
+      <speaker>Mrs. H.</speaker>
+      <p>Here is some mistake—what is his name who asked for your niece ?</p>
+     </sp>
+     <sp who="#L0411_M3">
+      <speaker>Block.</speaker>
+      <p>Don't I tell you, Harford.</p>
+     </sp>
+     <sp who="#L0411_F6">
+      <speaker>Mrs. H.</speaker>
+      <p><stage>(eagerly)</stage> And he who charged you with addressing his wife—does not he love
+       your niece ?</p>
+     </sp>
+     <sp who="#L0411_M3">
+      <speaker>Block.</speaker>
+      <p>I should say not, since he distinctly asked me what he could want with her?</p>
+     </sp>
+     <sp who="#L0411_F6">
+      <speaker>Mrs. H.</speaker>
+      <p>Oh! I see my error now, both names commence with H ; Harford is Maria's lover, and my Harry
+       is innocent. Oh! my dear, dear Mr. Block, I do indeed love you now !</p>
+     </sp>
+     <pb n="21"/>
+     <stage>Throws her arms round his neck as Huntley and Maria appear at back.</stage>
+     <sp who="#L0411_M1">
+      <speaker>Hunt.</speaker>
+      <p><stage>One kiss I claim for my pains. (kisses her—this action is simultaneous with the
+        embrace of Mrs. H—each couple discovers the other—Huntley to his wife)</stage>
+       Traitress!</p>
+     </sp>
+     <sp who="#L0411_M3">
+      <speaker>Block.</speaker>
+      <p><stage>(to Maria)</stage> Hussey!</p>
+     </sp>
+     <sp who="#L0411_F6">
+      <speaker>Mrs. H.</speaker>
+      <p><stage>(to Huntley)</stage> Monster!</p>
+     </sp>
+     <sp who="#L0411_F7">
+      <speaker>Maria.</speaker>
+      <p><stage>(L., to Block)</stage> Wicked old man ?</p>
+     </sp>
+     <sp who="#L0411_M1">
+      <speaker>Hunt.</speaker>
+      <p><stage>(to Mrs. H.)</stage> Perfidious woman ! have I caught you at last; in his arms
+       too.</p>
+     </sp>
+     <sp who="#L0411_F6">
+      <speaker>Mrs. H.</speaker>
+      <p><stage>(to Huntley)</stage> Doubly perfidious! have I detected you kissing that child
+       before my face.</p>
+     </sp>
+     <sp who="#L0411_M1">
+      <speaker>Huntley.</speaker>
+      <p>Pshaw ! as for you, miscreant!</p>
+     </sp>
+     <sp who="#L0411_M3">
+      <speaker>Block.</speaker>
+      <p>Miscreant, sir! what the devil do you mean by miscreant; didn't I see you kissing my niece
+       ?</p>
+     </sp>
+     <sp who="#L0411_M1">
+      <speaker>Hunt.</speaker>
+      <p>Didn't I catch you embracing my wife ?</p>
+     </sp>
+     <sp who="#L0411_M3">
+      <speaker>Block.</speaker>
+      <p>She isn't your wife, sir; you're an impostor!</p>
+     </sp>
+     <sp who="#L0411_F7">
+      <speaker>Maria.</speaker>
+      <p>Oh, uncle, uncle! I am ashamed of you !</p>
+     </sp>
+     <sp who="#L0411_M3">
+      <speaker>Block.</speaker>
+      <p>Be quiet, Miss! if you women will throw your arms round men's necks——</p>
+     </sp>
+     <sp who="#L0411_F7">
+      <speaker>Maria.</speaker>
+      <p>Oh! fie, fie! I think it's my turn to write to the 'Times" now!</p>
+     </sp>
+     <sp who="#L0411_F6">
+      <speaker>Mrs. H.</speaker>
+      <p><stage>(to Maria)</stage> You little wretch! didn't I see my husband kiss you before my
+       face ?</p>
+     </sp>
+     <sp who="#L0411_F7">
+      <speaker>Maria.</speaker>
+      <p>You might have seen it, my dear, if you hadn't been otherwise engaged.</p>
+     </sp>
+     <sp who="#L0411_M1">
+      <speaker>Hunt.</speaker>
+      <p>Come, no more words. Kate, I renounce you. Mr. Block, <stage>(producing pistols)</stage>
+       take your choice. <stage>(Women shriek in alarm)</stage></p>
+     </sp>
+     <sp who="#L0411_M3">
+      <speaker>Block.</speaker>
+      <p><stage>(going to the wing, R.)</stage> Secretary, write as I dictate:—"To the Editor of the
+       Times,—Sir, I have just been invited to a breach of the Queen's peace"</p>
+     </sp>
+     <stage>Enter Sir Harry Harford, R.</stage>
+     <sp who="#L0411_M2">
+      <speaker>Sir H.</speaker>
+      <p>What is all this uproar about ?</p>
+     </sp>
+     <sp who="#L0411_M1">
+      <speaker>Hunt.</speaker>
+      <p>Before I punish this man's profligacy, Harford, and add the crowning consequence to my
+       wife's perlidy, take this lady, she loves you now, may she do so always, and not, like my
+       wife, fall off from her allegiance!</p>
+     </sp>
+     <sp who="#L0411_F6">
+      <speaker>Mrs. H.</speaker>
+      <p>Never, Henry, never!</p>
+     </sp>
+     <sp who="#L0411_M1">
+      <speaker>Hunt.</speaker>
+      <p>What, did I not see you in his arms ?</p>
+     </sp>
+     <sp who="#L0411_F6">
+      <speaker>Mrs. H.</speaker>
+      <p>For joy that you were guiltless of what I suspected you; Mr. Block undeceived me, and my
+       gladness outran my discretion.</p>
+     </sp>
+     <sp who="#L0411_M1">
+      <speaker>Hunt.</speaker>
+      <p>May I believe this, Mr. Block?</p>
+     </sp>
+     <sp who="#L0411_M3">
+      <speaker>Block.</speaker>
+      <p>That and anything else; I'm in a fog; I know nobody and nothing, and that's my state, Mr.
+       Harford.</p>
+     </sp>
+     <sp who="#L0411_M1">
+      <speaker>Hunt.</speaker>
+      <p>Harford? pshaw! I remember now I have myself to blame for most of this. Kate, forgive
+       me,</p>
+     </sp>
+     <sp who="#L0411_F7">
+      <speaker>Maria.</speaker>
+      <p>And me too, Kate, will you ?</p>
+     </sp>
+     <sp who="#L0411_F6">
+      <speaker>Mrs. H.</speaker>
+      <p>Oh! how readily,</p>
+     </sp>
+     <pb n="22"/>
+     <sp who="#L0411_M3">
+      <speaker>Block.</speaker>
+      <p>I think I can perceive that I'm losing a secretary in the confusion.</p>
+     </sp>
+     <sp who="#L0411_M2">
+      <speaker>Sir H.</speaker>
+      <p>On the contrary, sir, I have received your consent to my wooing this lady, and trust me, I
+       will be an unwearied secretary.</p>
+     </sp>
+     <sp who="#L0411_M3">
+      <speaker>Block.</speaker>
+      <p>Come along then. I've got a wonderful communication to make to the ——</p>
+     </sp>
+     <sp who="#L0411_M2">
+      <speaker>Sir H.</speaker>
+      <p>Not to day—let us be quiet—and together let us laugh over the mistakes which have caused us
+       this short discomfort.</p>
+     </sp>
+     <sp who="#L0411_M3">
+      <speaker>Block.</speaker>
+      <p><stage>(coming forward)</stage> And now, a word with you. You most of you take in the
+       journal I am connected with. Stick to it! If you hear of unprincipled might knocking down
+       modest right, and kicking it when it is down, write to the "Times." If you see quackery
+       devouring sumptuous dinners, and merit cleaning the trenchers, write to the "Times." If you
+       hear of impostors and hypocrites trading on the credulity of their neighbours, write to the
+       "Times." And, lastly, if you are decoyed into a theatre by an unprincipled manager who
+       doesn't set before you a satisfactory entertainment, why, all I can say to you is, just you
+       "Write to the Times."</p>
+     </sp>
+     <stage>SIR H. MARIA. BLOCK. MRS. H. HUNTLEY. R. L.</stage>
+     <stage>Curtain</stage>
+     <note>Time in representation — 50 minutes</note>
+     <stage>R. Right R.C. Right Centre. C. Centre. L.C. Left Centre. L. Left. Facing the
+      audience</stage>
+    </div>
+    <trailer>Thomas Scott, Printer, 1, Warwick Court, Holborn</trailer>
+   </div>
+
+  </body>
+ </text>
+</TEI>
