@@ -116,7 +116,7 @@
 <idno xmlns="http://www.tei-c.org/ns/1.0" type='LAE'>
 <xsl:value-of select="ancestor::t:TEI/@xml:id"/>
 </idno>
- <availability xmlns="http://www.tei-c.org/ns/1.0"><licence xmlns="http://www.tei-c.org/ns/1.0" target="https://creativecommons.org/publicdomain/zero/1.0/">The Lacy Project waives all rights to the TEI encoding applied to this material, which is believed to be in the public domain. You may copy, modify, distribute and perform this work freely. </licence></availability>
+ <availability xmlns="http://www.tei-c.org/ns/1.0"><licence xmlns="http://www.tei-c.org/ns/1.0" target="https://creativecommons.org/publicdomain/zero/1.0/">The Lacy Project waives all rights to the TEI encoding applied to this material, which is believed to be in the public domain. You may copy, modify, distribute, or perform this work freely. </licence></availability>
 </xsl:copy>
 </xsl:template>
  

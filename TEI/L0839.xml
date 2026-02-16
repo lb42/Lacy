@@ -1,0 +1,2700 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L0839">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title>My Son's a daughter: TEI edition</title>
+    <author>Parselle, J.</author>
+    <respStmt>
+     <resp>TEI conversion</resp>
+     <name>Lou Burnard</name>
+    </respStmt>
+   </titleStmt>
+   <publicationStmt>
+    <distributor>Privately distributed by the Digital Lacy Project</distributor>
+    <idno type="LAE">L0839</idno>
+    <availability>
+     <licence target="https://creativecommons.org/publicdomain/zero/1.0/">The Lacy Project waives
+      all rights to the TEI encoding applied to this material, which is believed to be in the public
+      domain. You may copy, modify, distribute, or perform this work freely. </licence>
+    </availability>
+   </publicationStmt>
+   <sourceDesc>
+    <bibl type="origin" n="56.14"><author>Parselle, J.</author><title type="main"
+      n="mysonsadaughter">My Son's a Daughter</title><title type="sub">A Comic Drama in two
+      acts</title><extent>25 pp (UM copy: 412 - 437)<measure type="pp" quantity="25"/>
+      <measure type="spCount" quantity="514"/>
+      <measure type="spvCount" quantity="0"/>
+      <measure type="txWords" quantity="8094"/>
+      <measure type="spWords" quantity="7016"/>
+      <measure type="stWords" quantity="1078"/>
+     </extent>
+     <title level="s"> Lacy's Acting Edition, volume 56, No. 0839</title><idno type="nic"
+      >N16609</idno><idno type="vpp">Vol56xivSon</idno></bibl>
+    <bibl type="surrogate" subtype="copytext"><ref
+      target="https://lb42.github.io/Lacy/Source/VPP/L0839-vpp.pdf">LoB from VPP</ref><ref
+      target="local:Vol56/L0839/L0839-vpp.pdf"/><ref target="local:Vol56/L0839/Vol56xivSon.pdf"
+     /></bibl>
+    <bibl type="surrogate"><ref
+      target="https://babel.hathitrust.org/cgi/pt?id=mdp.39015067453665&amp;seq=412 ">UM from
+      HT</ref><ref target="local:Vol56/L0839/L0839-um.pdf"/></bibl>
+    <listEvent>
+     <event type="LCP" when="1862-09-11" where="Strand">
+      <desc>Licence sent 11 September 1862 for performance at the Strand. </desc>
+      <bibl type="msSource">BL ms LCP_53016.F</bibl>
+     </event>
+     <event type="firstPerf" when="1862-09-15" source="textNic" where="Olympic">
+      <desc>Premiered at Royal Olympic Theatre 15 Sept. 1862</desc>
+     </event>
+    </listEvent>
+   </sourceDesc>
+  </fileDesc>
+  <profileDesc>
+   <!--S 2 ComicDrama Ca. COMEDIETTA-->
+   <textClass>
+    <catRef target="#sizeS"/>
+    <catRef target="#act2"/>
+    <catRef target="nic:Ca."/>
+    <keywords>
+     <term>COMEDIETTA</term>
+    </keywords>
+   </textClass>
+   <particDesc>
+    <listPerson>
+     <person xml:id="L0839_M1">
+      <persName type="role">HECTOR BLOWHARD</persName>
+      <persName type="spkr" n="119">Hect.</persName>
+      <persName type="spkr" n="1">Hector.</persName>
+     </person>
+     <person xml:id="L0839_M2">
+      <persName type="role">SERGEANT O'BLARNEY</persName>
+      <persName type="spkr" n="1">O'Blar.</persName>
+      <persName type="spkr" n="39">O'Blarn.</persName>
+     </person>
+     <person xml:id="L0839_M3">
+      <persName type="role">MR. MOULDYWORT</persName>
+      <persName type="spkr" n="127">Mouldy.</persName>
+     </person>
+     <person xml:id="L0839_M4">
+      <persName type="role">TIMMINS</persName>
+      <persName type="spkr" n="3">Tim.</persName>
+     </person>
+     <person xml:id="L0839_F5">
+      <persName type="role">MRS. BRIDGET GOOSEQUILL</persName>
+      <persName type="spkr" n="95">Bridget.</persName>
+     </person>
+     <person xml:id="L0839_F6">
+      <persName type="role">FAN</persName>
+      <persName type="spkr" n="84">Fan.</persName>
+     </person>
+     <person xml:id="L0839_F7">
+      <persName type="role">POLLY SWEETBREAD</persName>
+      <persName type="spkr" n="24">Polly.</persName>
+     </person>
+     <person xml:id="L0839_8">
+      <persName type="role">Soldiers, Male and Female Peasants.</persName>
+      <persName type="spkr" n="1">Voice.</persName>
+     </person>
+     <person xml:id="L0839_mult">
+      <persName type="role">[Multiple speakers]</persName>
+      <persName type="spkr" n="6">All.</persName>
+      <persName type="spkr" n="1">Ladies.</persName>
+      <persName type="spkr" n="13">Omnes.</persName>
+     </person>
+    </listPerson>
+   </particDesc>
+  </profileDesc>
+  <revisionDesc>
+   <change when="2026-02-16">Standardize header components</change>
+   <change when="2026-02-15">Hand checked and edited </change>
+   <change when="2026-02-08">when="2026-02-08"&gt;TEI autotagging by Gemini Pro 2.5</change>
+  </revisionDesc>
+ </teiHeader>
+ <text>
+  <front>
+   <titlePage>
+
+    <titlePart type="main">MY SON'S A DAUGHTER.</titlePart>
+    <titlePart type="sub">A Comic Drama in two acts.</titlePart>
+
+    <byline>By <docAuthor>J. Parselle, Esq.,</docAuthor> author of <title>The Changed Heart,
+      </title><title>The Orphan of Glencoe, </title><title>The Kettledrum of the Surrey</title>,
+     &amp;c. </byline>
+    <docImprint>THOMAS HAILES LACY, 89, STRAND, LONDON.</docImprint>
+   </titlePage>
+   <pb n="2"/>
+   <performance>
+    <p>First Performed at the Royal Strand Theatre, Under the Management of Mr. Swanborough, Sen.,
+     On Monday, the 15th of September, 1862.</p>
+
+    <castList>
+     <head>Characters</head>
+     <castItem>
+      <role gender="M">HECTOR BLOWHARD</role>
+      <roleDesc>(Trumpeter in a Regiment of Dragoons)</roleDesc>
+      <actor>Mr. PARSELLE.</actor>
+     </castItem>
+     <castItem>
+      <role gender="M">SERGEANT O'BLARNEY</role>
+      <roleDesc>(of the Carbineers)</roleDesc>
+      <actor>Mr. POYNTER.</actor>
+     </castItem>
+     <castItem>
+      <role gender="M">MR. MOULDYWORT</role>
+      <roleDesc>(a Village Fiddler)</roleDesc>
+      <actor>Mr. TURNER.</actor>
+     </castItem>
+     <castItem>
+      <role gender="M">TIMMINS</role>
+      <actor>Mr. Edge.</actor>
+     </castItem>
+     <castItem>
+      <role gender="F">MRS. BRIDGET GOOSEQUILL</role>
+      <roleDesc>(a Widow)</roleDesc>
+      <actor>Mrs. POYNTER.</actor>
+     </castItem>
+     <castItem>
+      <role gender="F">FAN</role>
+      <roleDesc>(an Orphan)</roleDesc>
+      <actor>Miss Josephs.</actor>
+     </castItem>
+     <castItem>
+      <role gender="F">POLLY SWEETBREAD</role>
+      <roleDesc>(a Bride)</roleDesc>
+      <actor>Miss TURTLE.</actor>
+     </castItem>
+     <castItem>
+      <role>Soldiers, Male and Female Peasants.</role>
+     </castItem>
+    </castList>
+   </performance>
+   <set>
+    <p>Time—During the Reign of Queen Anne.</p>
+   </set>
+   <div type="costume">
+    <list>
+     <item><label>Serjeant o'Blarney</label>.—Scarlet square-cut coat; white pantaloons; jackboots;
+      three-cornered hat.</item>
+     <item><label>Hector</label>.—Ditto.</item>
+     <item><label>Mr. Mouldywort</label>.—A grey square-cut coat; waistcoat; and breeches.</item>
+     <item><label>Timmins</label>.—A brown ditto.</item>
+     <item><label>Soldiers</label>.—Same as O'Blarney.</item>
+     <item><label>Villagers</label>.—Same cut as Timmins.</item>
+     <item><label>Mrs. Goosequill</label>.—A village tuck-up, and quilted petticoat.</item>
+     <item><label>Fan</label>.—Merino ditto ; cap; and handkerchief. 2nd Act: scarlet cloak.</item>
+     <item><label>Polly</label>.—White silk tuck up; pink petticoats.</item>
+     <item><label>Villagers</label>.—Chintz tuckups.</item>
+    </list>
+   </div>
+  </front>
+  <pb n="3"/>
+  <body>
+   <head>My Son's a Daughter</head>
+   <div type="act" n="1">
+    <head>ACT I.</head>
+    <div type="scene">
+     <stage>Scene.—The Extremity of a Village—Mouldywort's house, L. A cage hanging on wall, with
+      starling—Mrs. Goosequill's house, R.—tree, R. c. </stage>
+     <stage>Enter Bridget and O'Blarney from house, R.</stage>
+     <sp who="#L0839_F5">
+      <speaker>Bridget.</speaker>
+      <p>No, no; I tell you it's too bad, after all you have said.</p>
+     </sp>
+     <sp who="#L0839_M2">
+      <speaker>O'Blarn.</speaker>
+      <p>Now, now, calm yourself, my too susceptible friend.</p>
+     </sp>
+     <sp who="#L0839_F5">
+      <speaker>Bridget.</speaker>
+      <p>That's very easy for you to say, you monster of a man, at the end of three months' ardent
+       and secret courtship ! Ah, Sergeant O'Blarney, you are unworthy of my tenderness!</p>
+     </sp>
+     <sp who="#L0839_M2">
+      <speaker>O'Blarn.</speaker>
+      <stage>(soothingly)</stage>
+      <p>I own my unworthiness, most beautiful of Bridgets.</p>
+     </sp>
+     <sp who="#L0839_F5">
+      <speaker>Bridget.</speaker>
+      <stage>(fiercely)</stage>
+      <p>Call me Mrs. Goosequill, sir, the name of my first, whom I should have lamented longer.
+       Poor Goosequill ! he was a man of the pen—Registrar of the village— what has made me
+       unfaithful to his memory is a weakness I have for the gentlemen of the sword.</p>
+     </sp>
+     <sp who="#L0839_M2">
+      <speaker>O'Blarn.</speaker>
+      <stage>(caressing his moustache)</stage>
+      <p>Venus had always a mighty hankering for Captain Mars.</p>
+     </sp>
+     <sp who="#L0839_F5">
+      <speaker>Bridget.</speaker>
+      <p>And now, after stealing a heart long coveted by all the bachelors of the village</p>
+     </sp>
+     <sp who="#L0839_M2">
+      <speaker>O'Blarn.</speaker>
+      <p>And don't I offer to restore the stolen property as sound as ever ?</p>
+     </sp>
+     <sp who="#L0839_F5">
+      <speaker>Bridget.</speaker>
+      <p>And for what reason, you military savage?</p>
+     </sp>
+     <sp who="#L0839_M2">
+      <speaker>O'Blarn.</speaker>
+      <stage>(aside)</stage>
+      <p>I can't tell her I'm going to marry another to-morrow; it would be unbecoming an Irishman
+       and a soldier. <stage>(aloud)</stage> I'll explain to you, my angelic widow. The adventurous
+       life of us children of Bellona is subject to so many dangers, and as our General Marlborough
+       is about to make another campaign, I cannot frustrate his chances of victory, by depriving
+       him of my small amount of valour, nor expose you to a second widowhood, for such a small
+       amount of the blessings of matrimony.</p>
+     </sp>
+     <pb n="4"/>
+     <sp who="#L0839_F5">
+      <speaker>Bridget.</speaker>
+      <p>That is no reason.</p>
+     </sp>
+     <sp who="#L0839_M2">
+      <speaker>O'Blarn.</speaker>
+      <p>Pardon me, I have too much delicacy and sentiment ; however, we shall talk of this matter
+       by-and-bye ; my time's up—my men await me at the foot of the hill, for the evening's
+       round.</p>
+      <stage>(going)</stage>
+     </sp>
+     <sp who="#L0839_F5">
+      <speaker>Bridget.</speaker>
+      <stage>(stopping him)</stage>
+      <p>But cruel sergeant, you'll come and sup with me this evening, as you promised.</p>
+     </sp>
+     <sp who="#L0839_M2">
+      <speaker>O'Blarn.</speaker>
+      <stage>(hesitating)</stage>
+      <p>Hum ! why, I'm on duty to-morrow.</p>
+     </sp>
+     <sp who="#L0839_F5">
+      <speaker>Bridget.</speaker>
+      <p>I won't let you go, till you say yes.</p>
+     </sp>
+     <sp who="#L0839_M2">
+      <speaker>O'Blarn.</speaker>
+      <stage>(pretending to yield)</stage>
+      <p>Superb despot, let it be so.</p>
+     </sp>
+     <sp who="#L0839_F5">
+      <speaker>Bridget.</speaker>
+      <stage>(aside)</stage>
+      <p>I shall succeed, perhaps, in making him change his mind.</p>
+     </sp>
+     <sp who="#L0839_M2">
+      <speaker>O'Blarn.</speaker>
+      <p>Well, expect me under the elm, <stage>(aside)</stage> I'm an honest man, and will not be
+       there.</p>
+     </sp>
+     <sp who="#L0839_F5">
+      <speaker>Bridget.</speaker>
+      <p>Don't let any of the neighbours see you.</p>
+     </sp>
+     <sp who="#L0839_M2">
+      <speaker>O'Blarn.</speaker>
+      <p>You may depend upon that—not a soul, shall set eye upon me—adieu!</p>
+      <stage>Exit, L. u. E.</stage>
+     </sp>
+     <sp who="#L0839_F5">
+      <speaker>Bridget.</speaker>
+      <p>I'm very unlucky in my attachments ; what consoles me, in this, is, that the sergeant quits
+       me only for glory. —Well, if he won't marry me, I must look out for another. <stage>(looking
+        at Mouldywort's house)</stage> I don't think I did quite right, in turning up my nose at Mr.
+       Mouldywort, when he used to make love to me—he's not a bad match, with his well lined purse.
+       I must change my treatment of him. I must endeavour to light up the old flame again. Why, I
+       declare, here he comes.</p>
+     </sp>
+     <stage>Enter Mouldywort from house, L.</stage>
+     <sp who="#L0839_M3">
+      <speaker>Mouldy.</speaker>
+      <stage>(speaking as he enters)</stage>
+      <p>Come Fan, look sharp, take my donkey round to the garden gate, my violin, my cloak, and the
+       bag of oats.</p>
+     </sp>
+     <sp who="#L0839_F5">
+      <speaker>Bridget.</speaker>
+      <p>Is that you, neighbour Mouldywort ?</p>
+     </sp>
+     <sp who="#L0839_M3">
+      <speaker>Mouldy.</speaker>
+      <p>Good evening, neighbour Goosequill.</p>
+     </sp>
+     <sp who="#L0839_F5">
+      <speaker>Bridget.</speaker>
+      <stage>(sighs)</stage>
+      <p>Dear me, what a time it is since I saw you, you quite neglect your friends, now.</p>
+     </sp>
+     <sp who="#L0839_M3">
+      <speaker>Mouldy.</speaker>
+      <stage>(aside)</stage>
+      <p>What's she up to now? that woman's a regular man trap ! <stage>(aloud)</stage> Why you see,
+       neighbour, my time's my money, and can't be spent foolishly—matrimony is quite an epidemic
+       this year, and as the best and only fiddler within twenty miles, my violin, my donkey, and
+       myself, are kept in a perpetual motion. I'm off to a wedding party this evening, at
+       Greenhill.</p>
+     </sp>
+     <sp who="#L0839_F5">
+      <speaker>Bridget.</speaker>
+      <p>What an active man ! Do you know I was just thinking of you.</p>
+     </sp>
+     <sp who="#L0839_M3">
+      <speaker>Mouldy.</speaker>
+      <p>I hope your thoughts will always be as agreeably employed.</p>
+     </sp>
+     <sp who="#L0839_F5">
+      <speaker>Bridget.</speaker>
+      <p>I was saying to myself, what a pity that Mr.
+       <pb n="5"/>Mouldywort, so amiable, so respected, so comely—especially on shaving days</p>
+     </sp>
+     <sp who="#L0839_M3">
+      <speaker>Mouldy.</speaker>
+      <stage>(feeling his chin)</stage>
+      <p>And this is one ; I've just been giving myself a scrape.</p>
+     </sp>
+     <sp who="#L0839_F5">
+      <speaker>Bridget.</speaker>
+      <stage>(simpering)</stage>
+      <p>Should be such a general lover.</p>
+     </sp>
+     <sp who="#L0839_M3">
+      <speaker>Mouldy.</speaker>
+      <p>Because I like to laugh; as a fiddler, it is not forbidden. I like to spy into all the
+       tricks of women, and the accidents that happen to their ninnies of husbands. Oh, I make my
+       profit of them. <stage>(rubs his hands)</stage> Besides, it is such fun.</p>
+     </sp>
+     <sp who="#L0839_F5">
+      <speaker>Bridget.</speaker>
+      <stage>(looking slily at him)</stage>
+      <p>Oh, you wicked man! That was what frightened me when you offered me your hand; for in
+       truth, I was very much inclined to accept it.</p>
+     </sp>
+     <sp who="#L0839_M3">
+      <speaker>Mouldy.</speaker>
+      <p>Ah!</p>
+     </sp>
+     <sp who="#L0839_F5">
+      <speaker>Bridget.</speaker>
+      <stage>(coaxingly)</stage>
+      <p>That distinguished air.</p>
+     </sp>
+     <sp who="#L0839_M3">
+      <speaker>Mouldy.</speaker>
+      <p>Ah!</p>
+     </sp>
+     <sp who="#L0839_F5">
+      <speaker>Bridget.</speaker>
+      <p>That intelligent eye.</p>
+     </sp>
+     <sp who="#L0839_M3">
+      <speaker>Mouldy.</speaker>
+      <p>Ah!</p>
+     </sp>
+     <sp who="#L0839_F5">
+      <speaker>Bridget.</speaker>
+      <p>And your talent; I have a weakness for music.</p>
+     </sp>
+     <sp who="#L0839_M3">
+      <speaker>Mouldy.</speaker>
+      <stage>(aside)</stage>
+      <p>She's strong in weaknesses.</p>
+     </sp>
+     <sp who="#L0839_F5">
+      <speaker>Bridget.</speaker>
+      <stage>(languishingly)</stage>
+      <p>Our two houses, looking on each other so tenderly. Why not follow their example, and by a
+       good marriage—</p>
+     </sp>
+     <sp who="#L0839_M3">
+      <speaker>Mouldy.</speaker>
+      <stage>(quickly)</stage>
+      <p>Ah, neighbour, why didn't you say that sooner.</p>
+     </sp>
+     <sp who="#L0839_F5">
+      <speaker>Bridget.</speaker>
+      <stage>(joyfully)</stage>
+      <p>You accept ?</p>
+     </sp>
+     <sp who="#L0839_M3">
+      <speaker>Mouldy.</speaker>
+      <stage>(derisively)</stage>
+      <p>On the contrary, deeply afflicted; I am going to be married the day after to morrow.</p>
+     </sp>
+     <sp who="#L0839_F5">
+      <speaker>Bridget.</speaker>
+      <stage>(surprised)</stage>
+      <p>You going to be married ! And pray, who would have you ?</p>
+     </sp>
+     <sp who="#L0839_M3">
+      <speaker>Mouldy.</speaker>
+      <p>You, if you could get me. But I'm going to marry little Fan.</p>
+     </sp>
+     <sp who="#L0839_F5">
+      <speaker>Bridget.</speaker>
+      <stage>(contemptuously)</stage>
+      <p>Your servant!</p>
+     </sp>
+     <sp who="#L0839_M3">
+      <speaker>Mouldy.</speaker>
+      <p>My servant; not at all. She cleans my house, brushes my coats, grooms my donkey—but she's
+       not a servant: and the proof is, I give her no wages. I thought it would humiliate her, poor
+       girl; she was confided to me by an old cousin of mine, who brought her up, and recommended me
+       to find her a good husband. The first time I shaved afterwards I had one in my intelligent
+       eye, as you call it. I popped the question, and the pledge was accepted.</p>
+     </sp>
+     <sp who="#L0839_F5">
+      <speaker>Bridget.</speaker>
+      <stage>(piqued)</stage>
+      <p>Marry a simpleton like that, without dignity, without experience!</p>
+     </sp>
+     <sp who="#L0839_M3">
+      <speaker>Mouldy.</speaker>
+      <stage>(ironically)</stage>
+      <p>That's what pleases me. I don't like your too experienced women—I know how their husbands
+       suffer, and I am not envious—I have laughed too much at them to give them a chance of
+       returning the compliment; with Fan I've nothing to fear—she never goes out—sees nobody—
+       <pb n="6"/>hasn't one idea to put on the top of another—she's a little treasure, who scarcely
+       knows her right hand from her left.</p>
+     </sp>
+     <sp who="#L0839_F5">
+      <speaker>Bridget.</speaker>
+      <p>But she will perhaps know a smart, handsome young fellow from an old and ugly one.
+        <stage>(coaxingly)</stage> Now, I shouldn't like to see you make such a noodle of yourself,
+       so come and breakfast with me to-morrow, and I'll prove to you—</p>
+     </sp>
+     <sp who="#L0839_M3">
+      <speaker>Mouldy.</speaker>
+      <stage>(in a tone of raillery)</stage>
+      <p>Breakfast with you, neighbour—the devil no, no, it's too dangerous ! what would my future
+       wife say ?</p>
+     </sp>
+     <stage>Enter Fan from house, L.</stage>
+     <sp who="#L0839_F6">
+      <speaker>Fan.</speaker>
+      <p>Mr. Mouldywort, everything's ready, the portmanteau is bridled, the donkey is tied on its
+       back.</p>
+     </sp>
+     <sp who="#L0839_F5">
+      <speaker>Bridget.</speaker>
+      <p>Ha, ha, ha !</p>
+     </sp>
+     <sp who="#L0839_F6">
+      <speaker>Fan.</speaker>
+      <stage>(laughing foolishly)</stage>
+      <p>Hi, hi, hi!</p>
+     </sp>
+     <sp who="#L0839_M3">
+      <speaker>Mouldy.</speaker>
+      <stage>(laughing)</stage>
+      <p>Ho, ho, ho! <stage>(to Bridget)</stage> Do you hear her? Well, Fan, what makes you
+       laugh?</p>
+     </sp>
+     <sp who="#L0839_F6">
+      <speaker>Fan.</speaker>
+      <p>I don't know, I always laugh when I see——</p>
+     </sp>
+     <sp who="#L0839_F5">
+      <speaker>Bridget.</speaker>
+      <stage>(maliciously)</stage>
+      <p>Perhaps when she sees you depart.</p>
+     </sp>
+     <sp who="#L0839_M3">
+      <speaker>Mouldy.</speaker>
+      <p>Oh, you're jealous ! She is only happy when I am near her—eh, Fan?</p>
+     </sp>
+     <sp who="#L0839_F6">
+      <speaker>Fan.</speaker>
+      <p>Yes, Mr. Mouldywort.</p>
+     </sp>
+     <sp who="#L0839_M3">
+      <speaker>Mouldy.</speaker>
+      <p>She's over head and ears in love with me—eh, Fan?</p>
+     </sp>
+     <sp who="#L0839_F6">
+      <speaker>Fan.</speaker>
+      <p>Yes, Mr. Mouldywort.</p>
+     </sp>
+     <sp who="#L0839_M3">
+      <speaker>Mouldy.</speaker>
+      <p>Isn't that beautiful simplicity ? <stage>(to Bridget)</stage> Do you think she could prefer
+       another ?</p>
+     </sp>
+     <sp who="#L0839_F6">
+      <speaker>Fan.</speaker>
+      <p>Yes, Mr. Mouldywort.</p>
+     </sp>
+     <sp who="#L0839_M3">
+      <speaker>Mouldy.</speaker>
+      <p>What ?</p>
+      <stage>stage gradually darkens</stage>
+     </sp>
+     <sp who="#L0839_F5">
+      <speaker>Bridget.</speaker>
+      <p>Do you hear that ?</p>
+     </sp>
+     <sp who="#L0839_M3">
+      <speaker>Mouldy.</speaker>
+      <stage>(annoyed)</stage>
+      <p>What a devil of a habit you have of saying yes to everything.</p>
+     </sp>
+     <sp who="#L0839_F6">
+      <speaker>Fan.</speaker>
+      <p>I don't know what to say—I always answer yes, because I wish to be obliging to
+       everybody.</p>
+     </sp>
+     <sp who="#L0839_F5">
+      <speaker>Bridget.</speaker>
+      <stage>(to Mouldywort)</stage>
+      <p>That's a promising disposition —but the girl's a fool.</p>
+     </sp>
+     <sp who="#L0839_M3">
+      <speaker>Mouldy.</speaker>
+      <p>I like her the better for it; one Solomon in a family's enough.</p>
+     </sp>
+     <sp who="#L0839_F5">
+      <speaker>Bridget.</speaker>
+      <p>And you will marry her ?</p>
+     </sp>
+     <sp who="#L0839_M3">
+      <speaker>Mouldy.</speaker>
+      <p>I swear it by my Cremona!</p>
+     </sp>
+     <sp who="#L0839_F5">
+      <speaker>Bridget.</speaker>
+      <p>Then, neighbour, I wish you, what you deserve so well—all sorts of good luck ; and it can't
+       fail with a wife, the most amiable, the most obliging, and <stage>(half aside)</stage> the
+       greatest fool in the country!</p>
+     </sp>
+     <sp who="#L0839_F6">
+      <speaker>Fan.</speaker>
+      <stage>(curtesying as if to thank her)</stage>
+      <p>After you, Mrs.Goosequill.</p>
+     </sp>
+     <sp who="#L0839_F5">
+      <speaker>Bridget.</speaker>
+      <p>What!</p>
+     </sp>
+     <sp who="#L0839_M3">
+      <speaker>Mouldy.</speaker>
+      <stage>(laughing)</stage>
+      <p>Do you hear that ?</p>
+     </sp>
+     <pb n="7"/>
+     <sp who="#L0839_F5">
+      <speaker>Bridget.</speaker>
+      <stage>(angrily, aside)</stage>
+      <p>Ah! I must make O'Blarney marry me within twenty-four hours.</p>
+      <stage>Exit into house, R., slamming door.</stage>
+     </sp>
+     <sp who="#L0839_M3">
+      <speaker>Mouldy.</speaker>
+      <stage>(looking after her)</stage>
+      <p>What a sweet temper ! I her husband! not if I know it. I see his fate distinctly, whoever
+       he is ; no, there's my wife <stage>(points to Fan, who is catching flies)</stage> who thinks
+       of nothing but catching flies. Here, Fan ! my little wife—for I look on you as my wife,
+       already; in two days all will be concluded.</p>
+     </sp>
+     <sp who="#L0839_F6">
+      <speaker>Fan.</speaker>
+      <p>Heigho!</p>
+     </sp>
+     <sp who="#L0839_M3">
+      <speaker>Mouldy.</speaker>
+      <p>Ha ! Are you impatient, you little rogue, so am I — so am I, but now I must away to the
+       wedding party. I shall not be back till to-morrow.</p>
+      <stage>(going)</stage>
+     </sp>
+     <sp who="#L0839_F6">
+      <speaker>Fan.</speaker>
+      <p>Yes, Mr. Mouldywort.</p>
+     </sp>
+     <sp who="#L0839_M3">
+      <speaker>Mouldy.</speaker>
+      <p>You will be careful. You'll shut up the house.</p>
+     </sp>
+     <sp who="#L0839_F6">
+      <speaker>Fan.</speaker>
+      <p>Yes, Mr. Mouldywort.</p>
+     </sp>
+     <sp who="#L0839_M3">
+      <speaker>Mouldy.</speaker>
+      <p>And if any one should come—</p>
+     </sp>
+     <sp who="#L0839_F6">
+      <speaker>Fan.</speaker>
+      <p>Yes, Mr. Mouldywort.</p>
+     </sp>
+     <sp who="#L0839_M3">
+      <speaker>Mouldy.</speaker>
+      <stage>(impatient)</stage>
+      <p>Still that infernal yes—it's sauce for every dish with you. <stage>(to himself)</stage>
+       It's an infirmity by no means tranquillizing to a frequently absent husband, this facility of
+       being of everybody's mind. Hark ye, Fan, to vary the charms of your conversation a little,
+       henceforth be kind enough to answer no, to what is said to you.</p>
+     </sp>
+     <sp who="#L0839_F6">
+      <speaker>Fan.</speaker>
+      <stage>(astonished)</stage>
+      <p>No!</p>
+     </sp>
+     <sp who="#L0839_M3">
+      <speaker>Mouldy.</speaker>
+      <p>To all comers, to all questions—no, no, and stick to it.</p>
+     </sp>
+     <sp who="#L0839_F6">
+      <speaker>Fan.</speaker>
+      <p>Yes, Mr. Mouldywort.</p>
+     </sp>
+     <sp who="#L0839_M3">
+      <speaker>Mouldy.</speaker>
+      <stage>(shouting)</stage>
+      <p>Not at all—no—</p>
+     </sp>
+     <sp who="#L0839_F6">
+      <speaker>Fan.</speaker>
+      <stage>(shouting)</stage>
+      <p>I say yes, I will say no, Mr. Mouldywort.</p>
+     </sp>
+     <sp who="#L0839_M3">
+      <speaker>Mouldy.</speaker>
+      <p>Take care then, for if you don't, you know my little finger tells me all that passes, when
+       I am not here.</p>
+     </sp>
+     <sp who="#L0839_F6">
+      <speaker>Fan.</speaker>
+      <stage>(aside)</stage>
+      <p>Oh, the horrid wizard !</p>
+     </sp>
+     <sp who="#L0839_M3">
+      <speaker>Mouldy.</speaker>
+      <stage>(threateningly)</stage>
+      <p>And if you disobey me, as soon as we're married, I'll—no, I won't—but mind what you are
+       about, it will soon be dark, and I'll make myself scarce, so bolt the door, see no one—think
+       of nothing, and amuse yourself—go in, and perhaps I'll bring you home something nice from the
+       party. Where's my donkey, damme, if he isn't nibbling the fiddle case!</p>
+     </sp>
+     <stage>Fan exit into house, L, Mouldywort, L. u. e.</stage>
+     <stage>Re-enter Fan from house; looks after him.</stage>
+     <sp who="#L0839_F6">
+      <speaker>Fan.</speaker>
+      <p>There's a suspicious old wretch for you! although I respect him like a father and mother,
+       when he comes to talk of being a husband, I hate the very sight of him ! I suppose his little
+       finger will tell him that too. Here am I always shut up by myself, it's very tiresome! If I
+       had a dog or a cat, the
+       <pb n="8"/>one would bark, and the other would mew, that would be some company at least. I
+       declare I don't know what I should do, if it were not for my bird here. Dick! Dickey ! I am
+       teaching him the song of the King's Officer and the Milkmaid. How much do you know, Dickey ?
+       Let us hear.</p>
+     </sp>
+     <stage>Hector is heard without, R.</stage>
+     <sp who="#L0839_M1">
+      <speaker>Hect.</speaker>
+      <stage>(without)</stage>
+      <p>Hallo, friend! can you oblige me, by telling me where I am ?</p>
+     </sp>
+     <sp who="#L0839_F6">
+      <speaker>Fan.</speaker>
+      <p>I hear somebody's voice, perhaps Mr. Mouldywort come back to spy me; if he finds me outside
+       there would be a pretty tune! Come along, Dickey, we must lock ourselves in.</p>
+      <stage>takes bird, and exit into house, L.—stage quite dark</stage>
+     </sp>
+     <sp who="#L0839_M1">
+      <speaker>Hect.</speaker>
+      <stage>(without)</stage>
+      <p>Which is the shortest way to——</p>
+     </sp>
+     <sp who="#L0839_8">
+      <speaker>Voice.</speaker>
+      <stage>(without)</stage>
+      <p>Go to the devil!</p>
+     </sp>
+     <stage>Enter Hector, half-tipsy, R. u. E.</stage>
+     <sp who="#L0839_M1">
+      <speaker>Hect.</speaker>
+      <p>This is a most inhospitable village, whose name I never heard, and can't, for the life of
+       me remember. In consequence of asking my way at every public-house; I've lost my way,
+       completely. I have a strong suspicion it's either getting dark, or I'm getting blind drunk;
+       objects are so indistinct. <stage>(stumbles against tree, R. C.)</stage> Come, friend, none
+       of your tricks or I'll— <stage>(draws sword)</stage> perforate you! <stage>(feeling
+        tree)</stage> Why, damme, it's a vegetable ! I beg your pardon. <stage>(sheaths
+        sword)</stage> Here's a pilgrimage, for a trumpeter of dragoons—to say that I, Hector
+       Blowhard, in the flower of my youth, have already a son eighteen years old—whom I have never
+       seen, and whom I seek like a needle in a bottle of hay—but, understand me, a son by adoption,
+       whom I have sworn to love and protect as my own; <stage>(increasing in loudness every
+        phrase)</stage> and I will keep my oath—I'll give him the education of a duke—I'll teach him
+       to smoke—to swear—to run after the girls ! <stage>(softening)</stage> Yes, my brave Ironfist,
+       it's the least you can expect that I should do for your son, what you did for me. Poor
+       Ironfist! there was a soldier for you ! at the battle of Blenheim, poor fellow, he received
+       more sugarplums than a man can well digest. <stage>(softening more and more)</stage> " Hector
+       my lad," says he, " that last shot has doubled me up." Well," says I, " you don't fear to die
+       ?" " Fear, be damned," says he, " that would be something new for a British soldier! but
+       there's a little brat I left in England, and when I think I shall die without embracing the
+       poor little thing, it weighs me down like a forty-eight-pounder! " Well, well, don't cry like
+       that—a dragoon! am I not here ?—haven't you been like a father to me ? I swear to adopt your
+       child— never to marry, that the orphan may have all my fortune—if
+       <pb n="9"/> ever I make one—so be tranquil, my old cock!" He pressed my hand, scrawled on a
+       scrap of paper the name and whereabouts of the child, and then he—he— <stage>(sobs)</stage>
+       What the devil do I blubber now for ? I believe it is the fog, or something; I am soaked like
+       a sponge; I can't bivouac here under the stars—catch the rheumatism, and ruin my
+       constitution—besides, I am starving of hunger and thirst. <stage>(comes against door of
+        house, L.)</stage> Oh! here's another house, an inn, perhaps—I'll see if I can't billet
+       myself here. <stage>(knocks)</stage> House ! girl! Susan! where are you all ?</p>
+     </sp>
+     <sp who="#L0839_F6">
+      <speaker>Fan.</speaker>
+      <stage>(opens window above)</stage>
+      <p>Who can be calling like that ?</p>
+     </sp>
+     <sp who="#L0839_M1">
+      <speaker>Hect.</speaker>
+      <stage>(to himself)</stage>
+      <p>Somebody has opened a window! <stage>(aloud)</stage> Invisible and benevolent being!</p>
+     </sp>
+     <sp who="#L0839_F6">
+      <speaker>Fan.</speaker>
+      <stage>(aside)</stage>
+      <p>A stranger! I mustn't forget Mr. Mouldywort's instructions.</p>
+     </sp>
+     <sp who="#L0839_M1">
+      <speaker>Hect.</speaker>
+      <p>May I politely ask if this is an inn?</p>
+     </sp>
+     <sp who="#L0839_F6">
+      <speaker>Fan.</speaker>
+      <p>No.</p>
+     </sp>
+     <sp who="#L0839_M1">
+      <speaker>Hect.</speaker>
+      <p>Can I speak to the master of the house ?</p>
+     </sp>
+     <sp who="#L0839_F6">
+      <speaker>Fan.</speaker>
+      <p>No.</p>
+      <stage>(closes window loudly)</stage>
+     </sp>
+     <sp who="#L0839_M1">
+      <speaker>Hect.</speaker>
+      <p>A woman's voice ; its all right. Amiable and handsome unknown ! your sweet accents betoken
+       a generous heart. <stage>(Fan opens window again)</stage> I am a poor blind soldier; I've
+       lost both my eyes, and can't see my way—open your door. What will become of me if it should
+       snow ?—it freezes like the devil already.</p>
+     </sp>
+     <sp who="#L0839_F6">
+      <speaker>Fan.</speaker>
+      <stage>(aside)</stage>
+      <p>A soldier, and blind; what a pity!</p>
+     </sp>
+     <sp who="#L0839_M1">
+      <speaker>Hect.</speaker>
+      <p>Charming creature, such as you see me—or rather such as you don't see me—I am looking for a
+       young man, but that's not the question at present; will you accord me hospitality ?</p>
+     </sp>
+     <sp who="#L0839_F6">
+      <speaker>Fan.</speaker>
+      <p>No.</p>
+     </sp>
+     <sp who="#L0839_M1">
+      <speaker>Hect.</speaker>
+      <p>No ! I'm dying of sheer emptiness—I expect to collapse every minute ! You will at least
+       give me a crust of bread and a mouthful of beer ?</p>
+     </sp>
+     <sp who="#L0839_F6">
+      <speaker>Fan.</speaker>
+      <p>No .</p>
+     </sp>
+     <sp who="#L0839_M1">
+      <speaker>Hect.</speaker>
+      <p>The inhabitants here are well supplied with noes— it's a strong feature in their character.
+       Not even a crust of bread !—that's very hard. Well, I must continue my journey at the risk of
+       falling into a quagmire, and breaking my neck ; my death then will lie at your door.</p>
+     </sp>
+     <sp who="#L0839_F6">
+      <speaker>Fan.</speaker>
+      <p>Poor man! It breaks my heart to turn him away; but the little finger!</p>
+     </sp>
+     <sp who="#L0839_M1">
+      <speaker>Hect.</speaker>
+      <p>Beautiful specimen of inhumanity, must I then depart ?</p>
+     </sp>
+     <sp who="#L0839_F6">
+      <speaker>Fan.</speaker>
+      <p>No .</p>
+     </sp>
+     <sp who="#L0839_M1">
+      <speaker>Hect.</speaker>
+      <stage>(surprised)</stage>
+      <p>Eh! you don't wish that I should go ?</p>
+     </sp>
+     <sp who="#L0839_F6">
+      <speaker>Fan.</speaker>
+      <p>No .</p>
+     </sp>
+     <sp who="#L0839_M1">
+      <speaker>Hect.</speaker>
+      <stage>(aside)</stage>
+      <p>What do I hear? here's a change in the
+       <pb n="10"/>weather! <stage>(aloud)</stage> I thought so soft a voice couldn't be joined to a
+       marble heart.</p>
+     </sp>
+     <sp who="#L0839_F6">
+      <speaker>Fan.</speaker>
+      <p>Oh no!</p>
+     </sp>
+     <sp who="#L0839_M1">
+      <speaker>Hect.</speaker>
+      <stage>(aside, imitating)</stage>
+      <p>Oh no ! Is your husband in ?</p>
+     </sp>
+     <sp who="#L0839_F6">
+      <speaker>Fan.</speaker>
+      <p>Oh no!</p>
+     </sp>
+     <sp who="#L0839_M1">
+      <speaker>Hect.</speaker>
+      <stage>(aside imitating)</stage>
+      <p>Oh no ! And if I entreated you to open this cruel door, would you refuse ?</p>
+     </sp>
+     <sp who="#L0839_F6">
+      <speaker>Fan.</speaker>
+      <p>No.</p>
+      <stage>(aside)</stage>
+      <p>It's a kind action, besides, he is blind and won't steal anything.</p>
+      <stage>(closes window)</stage>
+     </sp>
+     <sp who="#L0839_M1">
+      <speaker>Hect.</speaker>
+      <p>She comes ! may the devil fly away with me but she comes ! she isn't much of a babbler—she
+       doesn't resemble the sex in general—her conversation's not remarkable for variety.</p>
+     </sp>
+     <stage>Enter Fan, from house, L.</stage>
+     <sp who="#L0839_M1">
+      <speaker>Hect.</speaker>
+      <p>Oh, here she is—oh, you angel! <stage>(takes her hand)</stage> You are not afraid of me
+       then ?</p>
+     </sp>
+     <sp who="#L0839_F6">
+      <speaker>Fan.</speaker>
+      <stage>(trembling)</stage>
+      <p>No; but in spite of your blindness, you found my hand very soon.</p>
+     </sp>
+     <sp who="#L0839_M1">
+      <speaker>Hect.</speaker>
+      <p>Charitable soul, it was by instinct! <stage>(aside)</stage> What a plump little hand!
+        <stage>(aloud)</stage> but, if in my gratitude, I dared to press these pretty little
+       fingers, you would be angry, perhaps ?</p>
+     </sp>
+     <sp who="#L0839_F6">
+      <speaker>Fan.</speaker>
+      <p>No.</p>
+     </sp>
+     <sp who="#L0839_M1">
+      <speaker>Hect.</speaker>
+      <p>No !</p>
+      <stage>(presses her hand against his heart)</stage>
+      <p>If I had the audacity to kiss them, you would drive me away.</p>
+     </sp>
+     <sp who="#L0839_F6">
+      <speaker>Fan.</speaker>
+      <p>Oh, no.</p>
+     </sp>
+     <sp who="#L0839_M1">
+      <speaker>Hect.</speaker>
+      <p>No !</p>
+      <stage>(kisses her hand)</stage>
+     </sp>
+     <sp who="#L0839_F6">
+      <speaker>Fan.</speaker>
+      <stage>(aside)</stage>
+      <p>It's droll! if he could see, I don't believe he could do it any better.</p>
+     </sp>
+     <sp who="#L0839_M1">
+      <speaker>Hect.</speaker>
+      <stage>(aside)</stage>
+      <p>Now, that I have the key to her vocabulary I think we'll get on. <stage>(aloud)</stage> I
+       think it begins to rain ; hadn't you better go in doors ? You won't prevent my following you
+       ?</p>
+     </sp>
+     <sp who="#L0839_F6">
+      <speaker>Fan.</speaker>
+      <p>No.</p>
+     </sp>
+     <sp who="#L0839_M1">
+      <speaker>Hect.</speaker>
+      <p>What a windfall!</p>
+     </sp>
+     <sp who="#L0839_F6">
+      <speaker>Fan.</speaker>
+      <p>If the little finger denounces me, Mr. Mouldywort will see that I have only followed his
+       directions.</p>
+     </sp>
+     <sp who="#L0839_M1">
+      <speaker>Hect.</speaker>
+      <p>Then, darling, take my hand ; I can't see. <stage>(aside)</stage> If I drop into a trap
+       here, I can flatter myself I didn't do it with my eyes open.</p>
+      <stage>Exeunt into house, L.</stage>
+     </sp>
+     <stage>Enter Mouldywort, L. U. E. ; he wears a cloak.</stage>
+     <sp who="#L0839_M3">
+      <speaker>Mouldy.</speaker>
+      <p>May the devil exterminate all marriages, dances, and all that concerns them! That brute of
+       a Sergeant O'Blarney, why couldn't he tell me sooner that the party was not to take place
+       till to-morrow. I met him when I got half way ; it put me in such a rage. I began to wollop
+       my donkey homewards, but the confounded beast threw me into a ditch, and has gone
+       <pb n="11"/>I don't know where. Let him find his way home, that's his business. I hurried
+       back. Fan can't be in bed yet, and——</p>
+      <stage>(he is going towards his house, when Bridget opens window above in her house)</stage>
+     </sp>
+     <sp who="#L0839_F5">
+      <speaker>Bridget.</speaker>
+      <stage>(aside, at window)</stage>
+      <p>There's some one below— O'Blarney, I dare say. <stage>(aloud)</stage> Ahem! ahem! are you
+       there ?</p>
+     </sp>
+     <sp who="#L0839_M3">
+      <speaker>Mouldy.</speaker>
+      <p>Eh ? <stage>(aside)</stage> Mrs. Goosequill at her window!</p>
+     </sp>
+     <sp who="#L0839_F5">
+      <speaker>Bridget.</speaker>
+      <stage>(in a low tone)</stage>
+      <p>Is that you, dear ?</p>
+     </sp>
+     <sp who="#L0839_M3">
+      <speaker>Mouldy.</speaker>
+      <stage>(aside)</stage>
+      <p>Dear—an intrigue—a nocturnal assignation ! oh! here's a discovery!</p>
+     </sp>
+     <sp who="#L0839_F5">
+      <speaker>Bridget.</speaker>
+      <stage>(low)</stage>
+      <p>Why don't you reply ?</p>
+     </sp>
+     <sp who="#L0839_M3">
+      <speaker>Mouldy.</speaker>
+      <stage>(in a loud whisper)</stage>
+      <p>Yes—yes—it's I.</p>
+     </sp>
+     <sp who="#L0839_F5">
+      <speaker>Bridget.</speaker>
+      <p>Nobody has seen you ?</p>
+     </sp>
+     <sp who="#L0839_M3">
+      <speaker>Mouldy.</speaker>
+      <p>No.</p>
+     </sp>
+     <sp who="#L0839_F5">
+      <speaker>Bridget.</speaker>
+      <p>Supper is ready. I didn't wish to light the lamp, because if anyone saw the light at this
+       hour, he might suspect.</p>
+     </sp>
+     <sp who="#L0839_M3">
+      <speaker>Mouldy.</speaker>
+      <stage>(aside)</stage>
+      <p>And that would be very unjust.</p>
+     </sp>
+     <sp who="#L0839_F5">
+      <speaker>Bridget.</speaker>
+      <p>Above all, it might be seen by that prying, ugly old baboon, Mouldywort.</p>
+     </sp>
+     <sp who="#L0839_M3">
+      <speaker>Mouldy.</speaker>
+      <stage>(aside)</stage>
+      <p>The prying, ugly old baboon is very much obliged to you.</p>
+     </sp>
+     <sp who="#L0839_F5">
+      <speaker>Bridget.</speaker>
+      <p>Wait a moment—I must see if the neighbours on the other side of the garden are asleep;
+        <stage>(tenderly)</stage> don't be impatient, my dear, and take care you don't catch
+       cold.</p>
+      <stage>(closes window)</stage>
+     </sp>
+     <sp who="#L0839_M3">
+      <speaker>Mouldy.</speaker>
+      <p>My dear, take care you don't catch cold! And she wanted to marry me—marry the prying, ugly
+       old baboon! now I'll show her in her true colours, since she has put my monkey up; but let me
+       enter—I can watch from my window the arrival of this expected gallant, and to-morrow I will
+       regale the whole village with the adventure. What a horror ! see a man at this time of night!
+       Well, things are coming to a pretty crisis ! Fan wouldn't permit herself such——
+        <stage>(knocks at door, L., gently)</stage> Can she be asleep ?</p>
+      <stage>(knocks louder)</stage>
+
+      <stage>Fan and Hector appear at window above.</stage>
+
+      <p>Open—It's I!</p>
+     </sp>
+     <sp who="#L0839_F6">
+      <speaker>Fan.</speaker>
+      <stage>(aside to Hector)</stage>
+      <p>Oh, my gracious, it's himself.</p>
+     </sp>
+     <sp who="#L0839_M1">
+      <speaker>Hect.</speaker>
+      <stage>(to Fan)</stage>
+      <p>Don't say a word.</p>
+     </sp>
+     <sp who="#L0839_M3">
+      <speaker>Mouldy.</speaker>
+      <stage>(to himself)</stage>
+      <p>It's very odd; she must sleep furiously sound. <stage>(Fan coughs)</stage> Hallo! are you
+       there? you didn't hear me, then ?</p>
+     </sp>
+     <sp who="#L0839_F6">
+      <speaker>Fan.</speaker>
+      <stage>(confused)</stage>
+      <p>No.</p>
+     </sp>
+     <sp who="#L0839_M3">
+      <speaker>Mouldy.</speaker>
+      <p>I've knocked the skin off my knuckles, thumping here. Come down, quick, and open.</p>
+     </sp>
+     <sp who="#L0839_F6">
+      <speaker>Fan.</speaker>
+      <p>No.</p>
+     </sp>
+     <sp who="#L0839_M3">
+      <speaker>Mouldy.</speaker>
+      <p>How—no!</p>
+     </sp>
+     <pb n="12"/>
+     <sp who="#L0839_M1">
+      <speaker>Hect.</speaker>
+      <stage>(aside)</stage>
+      <p>Here's the old tune again.</p>
+     </sp>
+     <sp who="#L0839_M3">
+      <speaker>Mouldy.</speaker>
+      <p>Don't you know me ?</p>
+     </sp>
+     <sp who="#L0839_F6">
+      <speaker>Fan.</speaker>
+      <p>No.</p>
+     </sp>
+     <sp who="#L0839_M3">
+      <speaker>Mouldy.</speaker>
+      <p>It's me, myself—your beloved husband; come and embrace me!</p>
+     </sp>
+     <sp who="#L0839_F6">
+      <speaker>Fan.</speaker>
+      <stage>(forcibly)</stage>
+      <p>No.</p>
+     </sp>
+     <sp who="#L0839_M3">
+      <speaker>Mouldy.</speaker>
+      <stage>(angry)</stage>
+      <p>Oh, you unhappy infant! I'll break open the door and astonish her; let me get this cloak
+       off.</p>
+      <stage>(takes cloak off and drops it in centre of stage)</stage>
+     </sp>
+     <sp who="#L0839_M1">
+      <speaker>Hect.</speaker>
+      <stage>(to Fan)</stage>
+      <p>Don't be alarmed, I'm here to protect you.</p>
+     </sp>
+     <sp who="#L0839_F6">
+      <speaker>Fan.</speaker>
+      <p>Oh, I entreat you, whoever you are, get out by the window, for if he finds you here, he
+       will kill me.</p>
+     </sp>
+     <sp who="#L0839_M3">
+      <speaker>Mouldy.</speaker>
+      <stage>(at door)</stage>
+      <p>Yes, I'll astonish her ! <stage>(aside)</stage> It's as well to begin early, to teach her
+       what she has to expect. <stage>(with his back to door)</stage> Once—twice—will you open ?</p>
+     </sp>
+     <sp who="#L0839_F6">
+      <speaker>Fan.</speaker>
+      <p>No, no, no ! and I'll stick to it.</p>
+     </sp>
+     <sp who="#L0839_M3">
+      <speaker>Mouldy.</speaker>
+      <p>Oh, oh! now I remember.</p>
+     </sp>
+     <sp who="#L0839_F6">
+      <speaker>Fan.</speaker>
+      <p>I answer as you told me.</p>
+     </sp>
+     <sp who="#L0839_M3">
+      <speaker>Mouldy.</speaker>
+      <p>Oh, you little dolt! I meant to others, not to me. <stage>(aside)</stage> Now, there's true
+       innocence ! Come down, then, and open the door.</p>
+     </sp>
+     <sp who="#L0839_F6">
+      <speaker>Fan.</speaker>
+      <stage>(aside)</stage>
+      <p>And my blind soldier, if he should break his neck. You must go, sir, the window's not
+       high.</p>
+     </sp>
+     <sp who="#L0839_M1">
+      <speaker>Hect.</speaker>
+      <p>Adieu, then, my charmer !</p>
+      <stage>(Fan disappears)</stage>
+     </sp>
+     <sp who="#L0839_M3">
+      <speaker>Mouldy.</speaker>
+      <p>Now, then, I shall watch from my window the arrival of the gentleman my loving widow
+       expects</p>
+      <stage>door opens, L., and he enters—Hector descends from window, as Mouldywort goes
+       in</stage>
+     </sp>
+     <sp who="#L0839_M1">
+      <speaker>Hect.</speaker>
+      <p>Obliged to beat a retreat without blast of trumpet. These confounded husbands always drop
+       in like a bombshell in a country dance! What a delicious little wife he has ! as well as one
+       can judge in the dark, when one hasn't the eyes of a cat. It's very odd!—her candour—her
+       simple answers— had such an effect on me, that I only dared to risk the smallest kiss by way
+       of a skirmish, when the enemy forced me to decamp. I had just time to slip my silver ring on
+       her finger, that I may know her, if we should ever chance to meet again, for may I never blow
+       trumpet more, if her soft voice hasn't scratched my heart, for I feel—
+        <stage>(feeling)</stage> No, that's my stomach. I've had no supper. I'm as hollow as my own
+       bugle ! where the devil am I to go ? I can't pass the whole night playing blindman's buff;
+       besides it freezes enough to— <stage>(stumbles over Mouldywort's cloak)</stage> What's this?
+       Somebody asleep—hollo! here let me help you up. <stage>(lays hold of cloak)</stage> Why, it's
+       a cloak! Welcome my friend! <stage>(puts it on)</stage> When things are at the worst they
+       generally mend. Who knows but some kind soul will send me a supper too.</p>
+     </sp>
+     <pb n="13"/>
+     <stage>Enter Bridget, cautiously, from house, R.</stage>
+     <sp who="#L0839_F5">
+      <speaker>Bridget.</speaker>
+      <p>'St ! 'st! 'st!</p>
+     </sp>
+     <sp who="#L0839_M1">
+      <speaker>Hect.</speaker>
+      <p>Who's that chirping there ?</p>
+     </sp>
+     <sp who="#L0839_F5">
+      <speaker>Bridget.</speaker>
+      <p>Here I am, my dear.</p>
+     </sp>
+     <sp who="#L0839_M1">
+      <speaker>Hect.</speaker>
+      <stage>(aside)</stage>
+      <p>Another woman! it rains women here.</p>
+     </sp>
+     <sp who="#L0839_F5">
+      <speaker>Bridget.</speaker>
+      <stage>(low)</stage>
+      <p>Everybody's asleep, no one will see you, and supper is ready.</p>
+     </sp>
+     <sp who="#L0839_M1">
+      <speaker>Hect.</speaker>
+      <stage>(aside)</stage>
+      <p>Supper! I said so. <stage>(strikes his stomach)</stage> Do you hear that, you famishing
+       gulf ?</p>
+     </sp>
+     <sp who="#L0839_F5">
+      <speaker>Bridget.</speaker>
+      <p>But where are you ?</p>
+      <stage>(puts out her hand)</stage>
+     </sp>
+     <sp who="#L0839_M1">
+      <speaker>Hect.</speaker>
+      <stage>(in a whisper)</stage>
+      <p>Here.</p>
+      <stage>(gives hand)</stage>
+     </sp>
+     <sp who="#L0839_F5">
+      <speaker>Bridget.</speaker>
+      <p>Poor fellow, how cold your hand is !</p>
+     </sp>
+     <sp who="#L0839_M1">
+      <speaker>Hect.</speaker>
+      <stage>(aside)</stage>
+      <p>And this warm and soft.</p>
+     </sp>
+     <sp who="#L0839_F5">
+      <speaker>Bridget.</speaker>
+      <p>Follow me.</p>
+     </sp>
+     <sp who="#L0839_M1">
+      <speaker>Hect.</speaker>
+      <p>Follow you?</p>
+     </sp>
+     <sp who="#L0839_F5">
+      <speaker>Bridget.</speaker>
+      <p>Yes.</p>
+     </sp>
+     <sp who="#L0839_M1">
+      <speaker>Hect.</speaker>
+      <p>We shall sup together ?</p>
+     </sp>
+     <sp who="#L0839_F5">
+      <speaker>Bridget.</speaker>
+      <p>Yes.</p>
+     </sp>
+     <sp who="#L0839_M1">
+      <speaker>Hect.</speaker>
+      <p>I mean, alone together ?</p>
+     </sp>
+     <sp who="#L0839_F5">
+      <speaker>Bridget.</speaker>
+      <p>Yes?</p>
+     </sp>
+     <sp who="#L0839_M1">
+      <speaker>Hect.</speaker>
+      <stage>(kisses her hand)</stage>
+      <p>And you'll permit me to tell you that I love you.</p>
+     </sp>
+     <sp who="#L0839_F5">
+      <speaker>Bridget.</speaker>
+      <p>Oh yes.</p>
+     </sp>
+     <sp who="#L0839_M3">
+      <speaker>Mouldy.</speaker>
+      <stage>(appears at his window)</stage>
+      <p>I hear voices.</p>
+     </sp>
+     <sp who="#L0839_M1">
+      <speaker>Hect.</speaker>
+      <stage>(aside)</stage>
+      <p>Oh yes—this is the drollest village—some always say," No," and some always say, " Yes;" but
+       it appears that it all comes to the same thing.</p>
+      <stage>Exeunt into house, R.</stage>
+     </sp>
+     <sp who="#L0839_M3">
+      <speaker>Mouldy.</speaker>
+      <stage>(at window)</stage>
+      <p>Yes, I can see their shadows—there they go—there they go. <stage>(sings)</stage> " Will you
+       walk into my parlour said the spider to the fly——</p>
+      <stage>(drop descends quickly)</stage>
+     </sp>
+     <trailer>End of Act First</trailer>
+    </div>
+   </div>
+
+   <div type="act" n="II">
+    <div type="scene" n="1">
+     <head>Scene First.— Village Green—Inn, R.—Table and forms, C.— chairs, drinking materials on
+      table, a large cask, L., with a board across for Mouldywort, the bunghole towards the R. of
+      stage—two carbines standing against tree, R. C.</head>
+     <stage>As the curtain rises, a country dance; Mouldywort standing on the cask playing the
+      violin; Hector and O'Blarney discovered seated at table drinking, and two Carbineers, Village
+      Lads and Lasses, at end of dance, exit into house, R.</stage>
+     <sp who="#L0839_M2">
+      <speaker>O'Blarn.</speaker>
+      <p><stage>(after dance, laughing)</stage> And do you think I'm going to swallow all you have
+       been saying, now ?</p>
+     </sp>
+     <sp who="#L0839_M1">
+      <speaker>Hect.</speaker>
+      <p>You may, on the faith of a trumpeter.</p>
+     </sp>
+     <pb n="14"/>
+     <sp who="#L0839_M2">
+      <speaker>O'Blarn.</speaker>
+      <p>And this was last night ?</p>
+     </sp>
+     <sp who="#L0839_M1">
+      <speaker>Hect.</speaker>
+      <p>In a village whose name I don't know any more than the damsel's. The fact is, I was a
+       little how-come-you- so ; but when the princess opened her window</p>
+     </sp>
+     <sp who="#L0839_M3">
+      <speaker>Mouldy.</speaker>
+      <p><stage>(aside)</stage> Eh ! what's that ? Why this is Mrs. Goosequill's gallant.</p>
+     </sp>
+     <sp who="#L0839_M2">
+      <speaker>O'Blarn.</speaker>
+      <p>And she always answered—no ?</p>
+     </sp>
+     <sp who="#L0839_M1">
+      <speaker>Hect.</speaker>
+      <p>And stuck to it, till</p>
+     </sp>
+     <sp who="#L0839_M3">
+      <speaker>Mouldy.</speaker>
+      <p><stage>(aside)</stage> No—did he say no ? <stage>(struck with a sudden
+        recollection)</stage> Oh! lord.</p>
+     </sp>
+     <sp who="#L0839_M2">
+      <speaker>O'Blarn.</speaker>
+      <p>Oh, you deluding devil! And the disturber—</p>
+     </sp>
+     <sp who="#L0839_M1">
+      <speaker>Hect.</speaker>
+      <p><stage>(laughing)</stage> Entered by the door, whilst I retreated by the window.</p>
+     </sp>
+     <sp who="#L0839_M3">
+      <speaker>Mouldy.</speaker>
+      <p><stage>(involuntarily)</stage> Oh, murder! <stage>(falls against cask)</stage></p>
+     </sp>
+     <stage>Enter Villagers from inn, r., followed by Polly Sweetbread.</stage>
+     <sp who="#L0839_mult">
+      <speaker>All.</speaker>
+      <p>What's the matter ?</p>
+     </sp>
+     <sp who="#L0839_M3">
+      <speaker>Mouldy.</speaker>
+      <p>Nothing! nothing! A sudden giddiness in the head.</p>
+     </sp>
+     <sp who="#L0839_F7">
+      <speaker>Polly.</speaker>
+      <p>Take a drop of something, Mrs. Mouldywort.</p>
+     </sp>
+     <sp who="#L0839_M2">
+      <speaker>O'Blarn.</speaker>
+      <p>Now then, Polly, we must be off to church. Hector, allow me to present to you my bride, and
+       in a few minutes my spouse in perpetuity.</p>
+     </sp>
+     <sp who="#L0839_M1">
+      <speaker>Hect.</speaker>
+      <p><stage>(to Polly gallantly)</stage> If you had a sister as beautiful as yourself, I should
+       be inclined to follow my friend O'Blarney's example.</p>
+     </sp>
+     <sp who="#L0839_F7">
+      <speaker>Polly.</speaker>
+      <p>Oh! sir.</p>
+     </sp>
+     <sp who="#L0839_M2">
+      <speaker>O'Blarn.</speaker>
+      <p><stage>(to Hector)</stage> A pastrycook's daughter—a desirable match—made me break off with
+       a fine woman who was dying for me. I'll tell you by-and-bye. <stage>(aloud)</stage> But give
+       Polly your arm, and let us march—left foot first.</p>
+     </sp>
+     <sp who="#L0839_M1">
+      <speaker>Hect.</speaker>
+      <p><stage>(stops him)</stage> It's impossible, my old friend—duty before pleasure. I have a
+       sacred mission, I am in search of my son, who is now eighteen years of age.</p>
+     </sp>
+     <sp who="#L0839_mult">
+      <speaker>All.</speaker>
+      <p>Ha, ha, ha!</p>
+     </sp>
+     <sp who="#L0839_M3">
+      <speaker>Mouldy.</speaker>
+      <p><stage>(aside)</stage> A son eighteen years old—what perverse precocity, he can't be thirty
+       yet.</p>
+     </sp>
+     <sp who="#L0839_M2">
+      <speaker>O'Blarn.</speaker>
+      <p>Search for him to-morrow—I can't part with an old comrade met so unexpectedly, and on my
+       wedding-day too; remain and——</p>
+     </sp>
+     <sp who="#L0839_F7">
+      <speaker>Polly.</speaker>
+      <p>You will remain when a lady asks you ?</p>
+     </sp>
+     <sp who="#L0839_M3">
+      <speaker>Mouldy.</speaker>
+      <p>You'll remain when a brother musician asks you ? <stage>(aside)</stage> I want to know all
+       about the—— <stage>(aloud)</stage> Do you know I begin to like you very much, Trumpeter.</p>
+     </sp>
+     <sp who="#L0839_M1">
+      <speaker>Hect.</speaker>
+      <p>You are very good, Fiddler—how's your head?</p>
+     </sp>
+     <sp who="#L0839_M2">
+      <speaker>O'Blarn.</speaker>
+      <p>We are going to dine here. Then for fun and frolic—hunt the slipper—we shall dance—we shall
+       get drunk.</p>
+     </sp>
+     <pb n="15"/>
+     <sp who="#L0839_M1">
+      <speaker>Hect.</speaker>
+      <p>Get drunk ! <stage>(takes his hand)</stage> You know the way to my heart. I remain.
+        <stage>(gives Polly his arm)</stage></p>
+     </sp>
+     <sp who="#L0839_M2">
+      <speaker>O'Blarn.</speaker>
+      <p>Bravo !</p>
+     </sp>
+     <sp who="#L0839_F7">
+      <speaker>Polly.</speaker>
+      <p><stage>(to Mouldywort)</stage> Mr. Mouldywort, why didn't you bring Fan with you, she would
+       have made a dancer the more, and——-</p>
+     </sp>
+     <sp who="#L0839_M3">
+      <speaker>Mouldy.</speaker>
+      <p><stage>(angrily)</stage> Oh, she's such a goose—can't put one foot before the other. I
+       can't take her anywhere.</p>
+     </sp>
+     <sp who="#L0839_M1">
+      <speaker>Hect.</speaker>
+      <p><stage>(to Polly)</stage> Who is Fan?</p>
+     </sp>
+     <sp who="#L0839_F7">
+      <speaker>Polly.</speaker>
+      <p>We don't know much about her. He's as jealous of her as a Turk; but he little knows the
+       trick I've played him. <stage>(laughs)</stage> I've sent for her as if from him, and she is
+       going to come.</p>
+     </sp>
+     <sp who="#L0839_M1">
+      <speaker>Hect.</speaker>
+      <p>Oh, you wicked little devil! <stage>(aside)</stage> My friend, the sergeant, must mind his
+       eye with you.</p>
+     </sp>
+     <sp who="#L0839_M2">
+      <speaker>O'Blarn.</speaker>
+      <p>Now then, fall in—left foot first!</p>
+     </sp>
+     <stage>Music. Villagers form two and two, headed by Hector and Polly, and O'Blarney, and exeunt
+      L. 2 E.</stage>
+     <sp who="#L0839_M3">
+      <speaker>Mouldy.</speaker>
+      <p>This must be cleared up. Now I recollect, that cursed bird, who never spoke a traitorous
+       word in his life, never ceased the whole night screaming something about
+        <stage>(imitating)</stage> " An officer of the king's; " and now this trumpeter ; but I'm an
+       idiot—it's not possible! At first she wouldn't open to me—a plain proof she wouldn't open to
+       anyone—and when I entered she was calm, that is to say, she had that natural fluttering
+       caused by the joy of my return. <stage>(loudly)</stage> It's stupid ! absurd ! she has
+       replied " No ! " to him, and banged the door in his face, and he in return is bragging —doing
+       a little trumpeting on his own private account; but here is Mrs. Goosequill—what brings her
+       here? <stage>(hides behind cask, L.)</stage></p>
+     </sp>
+     <stage>Enter Bridget, R. U. E.</stage>
+     <sp who="#L0839_F5">
+      <speaker>Bridget.</speaker>
+      <p>Mr. O'Blarney is at Greenhill, they say; I must have an explanation with him. <stage>(fans
+        herself with pocket handkerchief)</stage></p>
+     </sp>
+     <sp who="#L0839_M3">
+      <speaker>Mouldy.</speaker>
+      <p><stage>(aside)</stage> What's the matter now ?</p>
+     </sp>
+     <sp who="#L0839_F5">
+      <speaker>Bridget.</speaker>
+      <p><stage>(to herself)</stage> It's horrible to think of. I'm morally sure it wasn't he—he
+       wouldn't answer my questions, and when at last he did speak out his voice betrayed him. I
+       screamed, and he darted out of the window.</p>
+     </sp>
+     <sp who="#L0839_M3">
+      <speaker>Mouldy.</speaker>
+      <p><stage>(aside and approaching)</stage> What the deuce is she muttering about ? Some inward
+       difficulty that she can't arrange to her own satisfaction.</p>
+     </sp>
+     <sp who="#L0839_F5">
+      <speaker>Bridget.</speaker>
+      <p><stage>(aside)</stage> If he should have been seen I am compromised ; but I have a proof,
+        <stage>(louder)</stage> and if I discover the audacious fellow he shall marry me.</p>
+     </sp>
+     <pb n="16"/>
+     <sp who="#L0839_M3">
+      <speaker>Mouldy.</speaker>
+      <p><stage>(hearing the last words)</stage> That's a fixed idea of hers.</p>
+     </sp>
+     <sp who="#L0839_F5">
+      <speaker>Bridget.</speaker>
+      <p><stage>(perceiving him)</stage> Eh ! Ah, that dear Mr. Mouldywort.</p>
+     </sp>
+     <sp who="#L0839_M3">
+      <speaker>Mouldy.</speaker>
+      <p><stage>(aside)</stage> The old baboon! <stage>(aloud)</stage> What has brought you here?
+       Oh, the wedding of your cousin, Polly Sweetbread!</p>
+     </sp>
+     <sp who="#L0839_F5">
+      <speaker>Bridget.</speaker>
+      <p><stage>(astonished)</stage> Polly! Is she married?</p>
+     </sp>
+     <sp who="#L0839_M3">
+      <speaker>Mouldy.</speaker>
+      <p>Married to-day. You didn't know, then ?</p>
+     </sp>
+     <sp who="#L0839_F5">
+      <speaker>Bridget.</speaker>
+      <p>She never invited me.</p>
+     </sp>
+     <sp who="#L0839_M3">
+      <speaker>Mouldy.</speaker>
+      <p>That was too bad! Perhaps there was some motive.</p>
+     </sp>
+     <sp who="#L0839_F5">
+      <speaker>Bridget.</speaker>
+      <p>Oh, no! we were always on good terms—loved each other dearly—never saw one another.</p>
+     </sp>
+     <sp who="#L0839_M3">
+      <speaker>Mouldy.</speaker>
+      <p>Oh, then it's an oversight! They are at church. I'll go and tell them.
+        <stage>(aside)</stage> We shall have discord here, O'Blarney's been seen hanging about her
+       house.</p>
+     </sp>
+     <sp who="#L0839_F5">
+      <speaker>Bridget.</speaker>
+      <p>I can't understand it.</p>
+     </sp>
+     <sp who="#L0839_M3">
+      <speaker>Mouldy.</speaker>
+      <p>Nor I neither! <stage>(aside)</stage> There will be a row here! —there'll be a row!—what a
+       jubilee! I'll be back in a moment.<stage>Exit, L. 2 E.</stage></p>
+     </sp>
+     <sp who="#L0839_F5">
+      <speaker>Bridget.</speaker>
+      <p>What does the old scraper mean? <stage>(a sigh)</stage> When one has a gnawing worm one
+       thinks all the world guesses it.</p>
+     </sp>
+     <stage>Enter Fan, R. U. E.</stage>
+     <sp who="#L0839_F6">
+      <speaker>Fan.</speaker>
+      <p>It is odd that Mr. Mouldywort should send for me— can it be anything about the blind
+       soldier ? <stage>(sees Bridget)</stage> Ah, Mrs. Goosequill, hope you're well!</p>
+     </sp>
+     <sp who="#L0839_F5">
+      <speaker>Bridget.</speaker>
+      <p><stage>(aside)</stage> Even to that little wretch—it appears the whole country is invited
+       but me. <stage>(aloud)</stage> Good-day, my dear.</p>
+     </sp>
+     <sp who="#L0839_F6">
+      <speaker>Fan.</speaker>
+      <p>Have you come to the marriage too ?</p>
+     </sp>
+     <sp who="#L0839_F5">
+      <speaker>Bridget.</speaker>
+      <p>I don't think I shall stay, all the riff-raff of the country is here, and a woman who has
+       any respect for herself ——<stage>(crosses, r.)</stage></p>
+     </sp>
+     <sp who="#L0839_F6">
+      <speaker>Fan.</speaker>
+      <p><stage>(aside)</stage> Riff-raff! that's me she means—she must have perceived the soldier
+       last night from her window. <stage>(aloud, sighing)</stage> Yes, there are persons who would
+       have done better to stay at home.</p>
+     </sp>
+     <sp who="#L0839_F5">
+      <speaker>Bridget.</speaker>
+      <p><stage>(aside, looking at Fan)</stage> What does she mean by that ? she must have seen my
+       unknown escape by the window. If she were to disclose——</p>
+     </sp>
+     <sp who="#L0839_F6">
+      <speaker>Fan.</speaker>
+      <p><stage>(as if trying to excuse herself)</stage> But one cannot always prevent——</p>
+     </sp>
+     <sp who="#L0839_F5">
+      <speaker>Bridget.</speaker>
+      <p><stage>(the same)</stage> Men are so bold.</p>
+     </sp>
+     <sp who="#L0839_F6">
+      <speaker>Fan.</speaker>
+      <p><stage>(aside)</stage> She has seen him. <stage>(aloud)</stage> Who follow you in spite of
+       yourself.</p>
+     </sp>
+     <pb n="17"/>
+     <sp who="#L0839_F5">
+      <speaker>Bridget.</speaker>
+      <p><stage>(aside)</stage> She has seen him. <stage>(aloud)</stage> Yes, and at night, when one
+       is alone</p>
+     </sp>
+     <sp who="#L0839_F6">
+      <speaker>Fan.</speaker>
+      <p>And afraid. <stage>(approaching)</stage></p>
+     </sp>
+     <sp who="#L0839_F5">
+      <speaker>Bridget.</speaker>
+      <p><stage>(approaching)</stage> It is so easy to be deceived.</p>
+     </sp>
+     <sp who="#L0839_F6">
+      <speaker>Fan.</speaker>
+      <p>It is better not to mention it.</p>
+     </sp>
+     <sp who="#L0839_F5">
+      <speaker>Bridget.</speaker>
+      <p>Much better. <stage>(aside)</stage> She's not such a fool as I thought.
+        <stage>(aloud)</stage> So, my dear Fan, you will be dumb.</p>
+     </sp>
+     <sp who="#L0839_F6">
+      <speaker>Fan.</speaker>
+      <p>Perfectly.</p>
+     </sp>
+     <sp who="#L0839_F5">
+      <speaker>Bridget.</speaker>
+      <p>She won't mention it. <stage>(aside)</stage></p>
+     </sp>
+     <sp who="#L0839_F6">
+      <speaker>Fan.</speaker>
+      <p><stage>(aside)</stage> She'll say nothing.</p>
+     </sp>
+     <sp who="#L0839_F5">
+      <speaker>Bridget.</speaker>
+      <p><stage>(aside)</stage> After all, Fan improves every day.</p>
+     </sp>
+     <sp who="#L0839_F6">
+      <speaker>Fan.</speaker>
+      <p><stage>(aside)</stage> Mrs. Goosequill isn't a bad woman at bottom! <stage>(aloud)</stage>
+       Let us shake hands on it.</p>
+     </sp>
+     <sp who="#L0839_F5">
+      <speaker>Bridget.</speaker>
+      <p>There!</p>
+     </sp>
+     <stage>Re-enter Hector, Polly, Soldiers, Peasants, L. U. E.</stage>
+     <sp who="#L0839_M1">
+      <speaker>Hect.</speaker>
+      <p>Now, Mrs. O'Blarney, for ever and ever !</p>
+     </sp>
+     <sp who="#L0839_F7">
+      <speaker>Polly.</speaker>
+      <p><stage>(sees Fan)</stage> What do I see, Fan ? Welcome Fan! welcome !</p>
+     </sp>
+     <sp who="#L0839_F6">
+      <speaker>Fan.</speaker>
+      <p>Wish you joy ! wish you joy!</p>
+     </sp>
+     <sp who="#L0839_M1">
+      <speaker>Hect.</speaker>
+      <p>Is this Fan? <stage>(Fan retires up)</stage></p>
+     </sp>
+     <sp who="#L0839_F7">
+      <speaker>Polly.</speaker>
+      <p><stage>(crossing to Bridget)</stage> And cousin Bridget, too!</p>
+     </sp>
+     <sp who="#L0839_F5">
+      <speaker>Bridget.</speaker>
+      <p><stage>(dignified)</stage> Wish you joy!</p>
+     </sp>
+     <sp who="#L0839_F7">
+      <speaker>Polly.</speaker>
+      <p>You are angry, cousin. It's not my fault, it was done so quick—my husband only wanted a
+       few—</p>
+     </sp>
+     <sp who="#L0839_F5">
+      <speaker>Bridget.</speaker>
+      <p>Yes, yes, I understand—this is he, I suppose. <stage>(points to Hector)</stage> Wish you
+       joy, cousin !</p>
+     </sp>
+     <sp who="#L0839_M1">
+      <speaker>Hect.</speaker>
+      <p>Excuse me, cousin, but this is not he. <stage>(goes up)</stage></p>
+     </sp>
+     <sp who="#L0839_F7">
+      <speaker>Polly.</speaker>
+      <p><stage>(looking about)</stage> Where is my husband ? have I lost him already ?</p>
+     </sp>
+     <stage>Enter O'Blarney, L. 2 E.</stage>
+     <sp who="#L0839_M2">
+      <speaker>O'Blarn.</speaker>
+      <p>Now then, dinner, boys, dinner!</p>
+     </sp>
+     <sp who="#L0839_F7">
+      <speaker>Polly.</speaker>
+      <p>Come here, my love, and receive the congratulations of—</p>
+     </sp>
+     <sp who="#L0839_M2">
+      <speaker>O'Blarn.</speaker>
+      <p>You are all ——<stage>(comes face to face with Bridget)</stage> Oh!</p>
+     </sp>
+     <sp who="#L0839_F5">
+      <speaker>Bridget.</speaker>
+      <p><stage>(thunderstruck—aside)</stage> My sergeant!</p>
+     </sp>
+     <sp who="#L0839_M2">
+      <speaker>O'Blarn.</speaker>
+      <p><stage>(aside)</stage> My victim !</p>
+     </sp>
+     <sp who="#L0839_F5">
+      <speaker>Bridget.</speaker>
+      <p><stage>(aside)</stage> I'm going to faint!</p>
+     </sp>
+     <sp who="#L0839_M2">
+      <speaker>O'Blarn.</speaker>
+      <p><stage>(aside)</stage> I feel my legs going away !</p>
+     </sp>
+     <sp who="#L0839_F7">
+      <speaker>Polly.</speaker>
+      <p>You know each other ?</p>
+     </sp>
+     <sp who="#L0839_M2">
+      <speaker>O'Blarn.</speaker>
+      <p>No—that is to say —<stage>(confused)</stage></p>
+     </sp>
+     <sp who="#L0839_F5">
+      <speaker>Bridget.</speaker>
+      <p><stage>(in a softer tone)</stage> I see the gentleman for the first time. <stage>(crosses
+        to him and shakes hands)</stage> Oh, you monster !</p>
+     </sp>
+     <sp who="#L0839_M2">
+      <speaker>O'Blarn.</speaker>
+      <p>My susceptible friend, I'll explain to you.</p>
+     </sp>
+     <sp who="#L0839_F5">
+      <speaker>Bridget.</speaker>
+      <p>And when I expected you last night.</p>
+     </sp>
+     <sp who="#L0839_F7">
+      <speaker>Polly.</speaker>
+      <p><stage>(to Bridget)</stage> How do you like him ?</p>
+     </sp>
+     <pb n="18"/>
+     <sp who="#L0839_F5">
+      <speaker>Bridget.</speaker>
+      <p>Oh, he is charming! <stage>(aside—looking severely at O'Blarney)</stage> Don Juan in jack
+       boots! <stage>(stamps on his toes, crossing, L.)</stage></p>
+     </sp>
+     <sp who="#L0839_M2">
+      <speaker>O'Blarn.</speaker>
+      <p>Oh!</p>
+     </sp>
+     <sp who="#L0839_M1">
+      <speaker>Hect.</speaker>
+      <p><stage>(coming forward)</stage> Hollo! what's the matter?</p>
+     </sp>
+     <sp who="#L0839_M2">
+      <speaker>O'Blarn.</speaker>
+      <p>The woman I told you of, who was dying for me.</p>
+     </sp>
+     <sp who="#L0839_M1">
+      <speaker>Hect.</speaker>
+      <p><stage>(looks at her)</stage> She doesn't much look like as if she were dying. Upon my life
+       she's a very fine woman !</p>
+     </sp>
+     <sp who="#L0839_M2">
+      <speaker>O'Blarn.</speaker>
+      <p>Make love to her then.</p>
+     </sp>
+     <sp who="#L0839_M1">
+      <speaker>Hect.</speaker>
+      <p>Well, I may amuse myself as long as I'm here. Majestic cousin, <stage>(crosses to
+        Bridget)</stage> perhaps there may be a little incoherence here, at which you must be
+       shocked, on the part of my friend, the sergeant; but permit me to say, the Duke of
+       Marlborough had set his heart on this marriage—a political arrangement with France. It was I
+       who brought the order. There was no slight intended towards you—banish then the clouds which
+       obscure the brilliancy of those eyes, and take your place at the banquet of the Graces, of
+       whom you are the lieutenant-colonel.</p>
+     </sp>
+     <sp who="#L0839_F5">
+      <speaker>Bridget.</speaker>
+      <p><stage>(flattered—aside)</stage> He's a very fine man !</p>
+     </sp>
+     <sp who="#L0839_M2">
+      <speaker>O'Blarn.</speaker>
+      <p><stage>(aside to Hector)</stage> Thanks! thanks!</p>
+     </sp>
+     <sp who="#L0839_M1">
+      <speaker>Hect.</speaker>
+      <p><stage>(aloud, as if to himself)</stage> A magnificent woman, upon my honor!</p>
+     </sp>
+     <sp who="#L0839_F5">
+      <speaker>Bridget.</speaker>
+      <p><stage>(to herself)</stage> He expresses himself with a delicacy.</p>
+     </sp>
+     <sp who="#L0839_F6">
+      <speaker>Fan.</speaker>
+      <p><stage>(coming down to Hector)</stage> What does the Duke of Marlborough concern himself
+       with the marriages of us poor peasants ?</p>
+     </sp>
+     <sp who="#L0839_M1">
+      <speaker>Hect.</speaker>
+      <p>When they are pretty, like you.</p>
+     </sp>
+     <sp who="#L0839_F7">
+      <speaker>Polly.</speaker>
+      <p><stage>(comes down to Bridget)</stage> So, cousin, you are no longer angry ?</p>
+     </sp>
+     <sp who="#L0839_F5">
+      <speaker>Bridget.</speaker>
+      <p><stage>(embracing her)</stage> No; when people love each other as we do!
+        <stage>(aside)</stage> I detest her !</p>
+     </sp>
+     <stage>Enter Mouldywort, L. 1 E.</stage>
+     <sp who="#L0839_M3">
+      <speaker>Mouldy.</speaker>
+      <p>Now, I suppose, they are tearing each other's eyes out. <stage>(seeing them
+        embrace)</stage> Eh! why they embrace ! <stage>(turns and sees Fan, R.)</stage> What do I
+       see ?— Fan ! <stage>(going to her)</stage> I should like to know</p>
+     </sp>
+     <sp who="#L0839_M1">
+      <speaker>Hect.</speaker>
+      <p><stage>(pushing him off)</stage> Pardon me, fragment of Orpheus —she is engaged to me for
+       the first dance.</p>
+     </sp>
+     <sp who="#L0839_M3">
+      <speaker>Mouldy.</speaker>
+      <p><stage>(enraged)</stage> Dance! I'll dance her!</p>
+     </sp>
+     <sp who="#L0839_F6">
+      <speaker>Fan.</speaker>
+      <p>Oh, oh, oh !</p>
+     </sp>
+     <sp who="#L0839_mult">
+      <speaker>All.</speaker>
+      <p>Oh, Mr. Mouldywort!</p>
+     </sp>
+     <sp who="#L0839_M1">
+      <speaker>Hect.</speaker>
+      <p>Mr. Uglywort, respect the sex, or I'll break you and your fiddle into small pieces !</p>
+     </sp>
+     <sp who="#L0839_M3">
+      <speaker>Mouldy.</speaker>
+      <p>Mind your own business, Mr. Trumpeter! <stage>(to Fan)</stage> Who told you to come here
+       ?</p>
+     </sp>
+     <pb n="19"/>
+     <sp who="#L0839_F7">
+      <speaker>Polly.</speaker>
+      <p>Well, Mr. Mouldywort, it was I.</p>
+     </sp>
+     <sp who="#L0839_M3">
+      <speaker>Mouldy.</speaker>
+      <p>You!</p>
+     </sp>
+     <sp who="#L0839_F7">
+      <speaker>Polly.</speaker>
+      <p>Yes, I wanted her to dance at my wedding.</p>
+     </sp>
+     <sp who="#L0839_M1">
+      <speaker>Hect.</speaker>
+      <p>Come! <stage>(strikes Mouldywort on the stomach)</stage> You old miserly fiddler—be
+       content!</p>
+     </sp>
+     <sp who="#L0839_M3">
+      <speaker>Mouldy.</speaker>
+      <p><stage>(aside)</stage> There's some frightful business going on here.
+        <stage>(aloud)</stage> Well, she may remain, since it is agreeable to the company.
+        <stage>(aside)</stage> I'll make her pay for this! <stage>(crosses to L.)</stage></p>
+     </sp>
+     <sp who="#L0839_M2">
+      <speaker>O'Blarn.</speaker>
+      <p>Dinner will be ready directly! In the meantime, Hector, suppose you tell us the history of
+       your son of eighteen years.</p>
+     </sp>
+     <sp who="#L0839_M3">
+      <speaker>Mouldy.</speaker>
+      <p>Do, Mr. Trumpeter, and I have one of an inconsolable widow, that'll keep for the dessert;
+       but wouldn't you rather give us the other ?</p>
+     </sp>
+     <sp who="#L0839_M1">
+      <speaker>Hect.</speaker>
+      <p>What other ?</p>
+     </sp>
+     <sp who="#L0839_M3">
+      <speaker>Mouldy.</speaker>
+      <p>The one you were telling O'Blarney, and of which I heard a few words.</p>
+     </sp>
+     <sp who="#L0839_M2">
+      <speaker>O'Blarn.</speaker>
+      <p>Yes, famous, it will amuse the ladies.</p>
+     </sp>
+     <sp who="#L0839_mult">
+      <speaker>Ladies.</speaker>
+      <p>Yes, yes!</p>
+     </sp>
+     <sp who="#L0839_M1">
+      <speaker>Hect.</speaker>
+      <p>I am at the orders of Beauty.</p>
+     </sp>
+     <sp who="#L0839_mult">
+      <speaker>All.</speaker>
+      <p>We listen.</p>
+     </sp>
+     <sp who="#L0839_M3">
+      <speaker>Mouldy.</speaker>
+      <p>Yes, we listen—Beauty listens.</p>
+     </sp>
+     <sp who="#L0839_M1">
+      <speaker>Hect.</speaker>
+      <p>Hem! it's no older than last night, in a village, a few miles from here</p>
+     </sp>
+     <sp who="#L0839_mult">
+      <speaker>All.</speaker>
+      <p>Which? Which?</p>
+     </sp>
+     <sp who="#L0839_M1">
+      <speaker>Hect.</speaker>
+      <p>I'll mention no names, because I'm discreet, <stage>(aside)</stage> and because I don't
+       know it.</p>
+     </sp>
+     <sp who="#L0839_M3">
+      <speaker>Mouldy.</speaker>
+      <p>Go on!</p>
+     </sp>
+     <sp who="#L0839_M1">
+      <speaker>Hect.</speaker>
+      <p>I was wandering in the dark, seeking some shelter. I caught a glimpse of a woman taking the
+       air at her window—</p>
+     </sp>
+     <sp who="#L0839_M3">
+      <speaker>Mouldy.</speaker>
+      <p>A woman!</p>
+     </sp>
+     <sp who="#L0839_F7">
+      <speaker>Polly.</speaker>
+      <p>At her window!</p>
+     </sp>
+     <sp who="#L0839_M2">
+      <speaker>O'Blarn.</speaker>
+      <p>At night! She was expecting somebody.</p>
+     </sp>
+     <sp who="#L0839_M1">
+      <speaker>Hect.</speaker>
+      <p>Possibly!</p>
+     </sp>
+     <sp who="#L0839_F5">
+      <speaker>Bridget.</speaker>
+      <p><stage>(aside)</stage> Good heavens!</p>
+     </sp>
+     <sp who="#L0839_F6">
+      <speaker>Fan.</speaker>
+      <p><stage>(aside)</stage> What did he say ?</p>
+     </sp>
+     <sp who="#L0839_M3">
+      <speaker>Mouldy.</speaker>
+      <p><stage>(looking at Fan)</stage> She seems troubled. <stage>(aside)</stage> This becomes
+       very interesting.</p>
+     </sp>
+     <sp who="#L0839_M1">
+      <speaker>Hect.</speaker>
+      <p>You will laugh when I tell you that to every question I asked, this female phantom
+       answered, " No ! "</p>
+     </sp>
+     <sp who="#L0839_mult">
+      <speaker>All.</speaker>
+      <p>No!</p>
+     </sp>
+     <sp who="#L0839_M1">
+      <speaker>Hect.</speaker>
+      <p>Always no.</p>
+     </sp>
+     <sp who="#L0839_F6">
+      <speaker>Fan.</speaker>
+      <p><stage>(aside)</stage> What will become of me ?</p>
+     </sp>
+     <pb n="20"/>
+     <sp who="#L0839_F5">
+      <speaker>Bridget.</speaker>
+      <p><stage>(aside)</stage> He mistakes, I always said yes to everything.</p>
+     </sp>
+     <sp who="#L0839_M1">
+      <speaker>Hect.</speaker>
+      <p>I soon understood the allegory, and I arranged all my demands, so that all her " Noes"
+       meant yes.</p>
+     </sp>
+     <sp who="#L0839_F6">
+      <speaker>Fan.</speaker>
+      <p><stage>(How my heart beats ; It was he ! (aside)</stage></p>
+     </sp>
+     <sp who="#L0839_F5">
+      <speaker>Bridget.</speaker>
+      <p><stage>(aside)</stage> I'm afraid I shall be ill; it was he!</p>
+     </sp>
+     <sp who="#L0839_M2">
+      <speaker>O'Blarn.</speaker>
+      <p><stage>(laughing)</stage> You are the devil's own boy, Hector.</p>
+     </sp>
+     <sp who="#L0839_F7">
+      <speaker>Polly.</speaker>
+      <p>He tells a story like an angel.</p>
+     </sp>
+     <sp who="#L0839_M3">
+      <speaker>Mouldy.</speaker>
+      <p>Oh, he is a devil of a story-teller !</p>
+     </sp>
+     <sp who="#L0839_F7">
+      <speaker>Polly.</speaker>
+      <p>And so amusing.</p>
+     </sp>
+     <sp who="#L0839_M3">
+      <speaker>Mouldy.</speaker>
+      <p><stage>(writhing)</stage> Very! very !</p>
+     </sp>
+     <sp who="#L0839_M1">
+      <speaker>Hect.</speaker>
+      <p>In a word we entered the house, it was darker than the outside; I pressed her hand—now
+       seeing that I am a trumpeter, and as timid as a cannon ball, I</p>
+     </sp>
+     <sp who="#L0839_F5">
+      <speaker>Bridget.</speaker>
+      <p><stage>(aside)</stage> He won't look this way.</p>
+     </sp>
+     <sp who="#L0839_F6">
+      <speaker>Fan.</speaker>
+      <p><stage>(aside)</stage> How can I stop him ? Ah! <stage>(struck with an idea—goes to
+        table—returns with a drinking horn, and puts silver ring into it)</stage></p>
+     </sp>
+     <sp who="#L0839_mult">
+      <speaker>Omnes.</speaker>
+      <p>Well! well you!</p>
+     </sp>
+     <sp who="#L0839_M1">
+      <speaker>Hect.</speaker>
+      <p>Well I——</p>
+     </sp>
+     <sp who="#L0839_F6">
+      <speaker>Fan.</speaker>
+      <p><stage>(to Hector)</stage> You must be thirsty, sir, you had better take a mouthful of
+       beer.</p>
+     </sp>
+     <sp who="#L0839_M1">
+      <speaker>Hect.</speaker>
+      <p>I never refuse a woman anything. <stage>(drinks)</stage></p>
+     </sp>
+     <sp who="#L0839_M3">
+      <speaker>Mouldy.</speaker>
+      <p>How dare you interrupt ?</p>
+     </sp>
+     <sp who="#L0839_M1">
+      <speaker>Hect.</speaker>
+      <p><stage>(coughs)</stage> Ugh ! ugh! I've nearly choked myself.</p>
+     </sp>
+     <sp who="#L0839_mult">
+      <speaker>Omnes.</speaker>
+      <p>What's the matter ?</p>
+     </sp>
+     <sp who="#L0839_M1">
+      <speaker>Hect.</speaker>
+      <p><stage>(aside)</stage> What do I see? <stage>(takes out ring unperceived, aloud)</stage>
+       Nothing, the beer went the wrong way! <stage>(aside)</stage> My silver ring ? <stage>(meets
+        Fan's eye)</stage> It was she—Oh !</p>
+     </sp>
+     <sp who="#L0839_mult">
+      <speaker>Omnes.</speaker>
+      <p>Well! The end, the end.</p>
+     </sp>
+     <sp who="#L0839_M3">
+      <speaker>Mouldy.</speaker>
+      <p>You are not going to leave off at the best of it ?</p>
+     </sp>
+     <sp who="#L0839_M1">
+      <speaker>Hect.</speaker>
+      <p><stage>(with a forced laugh)</stage> Yes, yes; the end! <stage>(aside, striking his
+        forehead)</stage> Oh, you thick headed trumpeter, you will always be getting yourself or
+       somebody else into a scrape. <stage>(aloud)</stage> Where, where was I ?</p>
+     </sp>
+     <sp who="#L0839_M3">
+      <speaker>Mouldy.</speaker>
+      <p>You were squeezing her hand!</p>
+     </sp>
+     <sp who="#L0839_F7">
+      <speaker>Polly.</speaker>
+      <p>In her chamber ?</p>
+     </sp>
+     <sp who="#L0839_M2">
+      <speaker>O'Blarn.</speaker>
+      <p>Without a candle ?</p>
+     </sp>
+     <sp who="#L0839_mult">
+      <speaker>Omnes.</speaker>
+      <p>Yes, yes.</p>
+     </sp>
+     <sp who="#L0839_M1">
+      <speaker>Hector.</speaker>
+      <p><stage>(confused, laughing)</stage> Exactly, in her chamber; without a candle; since I
+       did'nt see, for if I had seen, I would'nt have permitted myself—</p>
+     </sp>
+     <sp who="#L0839_mult">
+      <speaker>Omnes.</speaker>
+      <p>At last?</p>
+     </sp>
+     <sp who="#L0839_M1">
+      <speaker>Hect.</speaker>
+      <p>At last—she repulsed me.</p>
+     </sp>
+     <sp who="#L0839_M2">
+      <speaker>O'Blarn.</speaker>
+      <p>Hector, that won't do, you told me she did'nt repulse you.</p>
+     </sp>
+     <sp who="#L0839_M1">
+      <speaker>Hect.</speaker>
+      <p><stage>(stammering)</stage> At first, but afterwards—its always
+       <pb n="21"/> like that, the first moment modesty—or some ——<stage>(aside)</stage> My tongue
+       twists like an eel in my mouth !</p>
+     </sp>
+     <sp who="#L0839_M3">
+      <speaker>Mouldy.</speaker>
+      <p>How long will it be, before we hear the end ?</p>
+     </sp>
+     <sp who="#L0839_M1">
+      <speaker>Hect.</speaker>
+      <p>Emboldened by her silence, I gently pressed her lips, put my hands round her waist—I
+       resolved to be more bold, when all at once, I——</p>
+     </sp>
+     <sp who="#L0839_mult">
+      <speaker>Omnes.</speaker>
+      <p>Oh !</p>
+     </sp>
+     <sp who="#L0839_M1">
+      <speaker>Hect.</speaker>
+      <p>I awoke.</p>
+     </sp>
+     <sp who="#L0839_mult">
+      <speaker>Omnes.</speaker>
+      <p>How?</p>
+     </sp>
+     <sp who="#L0839_M3">
+      <speaker>Mouldy.</speaker>
+      <p><stage>(disappointed)</stage> You awoke ?</p>
+     </sp>
+     <sp who="#L0839_M1">
+      <speaker>Hect.</speaker>
+      <p><stage>(laughs)</stage> Yes, it was only a dream—ha ! ha !</p>
+     </sp>
+     <sp who="#L0839_mult">
+      <speaker>Omnes.</speaker>
+      <p>A dream ! <stage>(murmuring)</stage> Oh!</p>
+     </sp>
+     <sp who="#L0839_F7">
+      <speaker>Polly.</speaker>
+      <p>What a pity.</p>
+     </sp>
+     <sp who="#L0839_F6">
+      <speaker>Fan.</speaker>
+      <p><stage>(aside)</stage> I breathe !</p>
+     </sp>
+     <sp who="#L0839_F5">
+      <speaker>Bridget.</speaker>
+      <p><stage>(aside)</stage> Such presence of mind.</p>
+     </sp>
+     <sp who="#L0839_M3">
+      <speaker>Mouldy.</speaker>
+      <p><stage>(aside)</stage> He lies like a travelling pedlar.</p>
+     </sp>
+     <stage>Enter Timmins, from house, R.</stage>
+     <sp who="#L0839_M4">
+      <speaker>Tim.</speaker>
+      <p>Dinner's ready.</p>
+     </sp>
+     <sp who="#L0839_M2">
+      <speaker>O'Blarn.</speaker>
+      <p>That's right, now for dinner—hands to the ladies.</p>
+     </sp>
+     <sp who="#L0839_M1">
+      <speaker>Hect.</speaker>
+      <p><stage>(to Fan aside)</stage> I must speak with you here in two minutes.</p>
+     </sp>
+     <stage>Exeunt all but Mouldywort into house, R.</stage>
+     <sp who="#L0839_M3">
+      <speaker>Mouldy.</speaker>
+      <p><stage>(watching)</stage> An assignation—I'll be there ! I have a scheme in my head, to
+       ensnare the enemy—they understand each other. He mustn't think I'm the dupe of his dreams,
+       the scarlet-coated libertine! No, you were awake, wide awake, and so am I. <stage>(with
+        sudden passion)</stage> Oh, women are—women; but I won't swallow this pill without avenging
+       myself, and before all the village. Here she comes already—what impatience ; the other won't
+       be long! Where can I hide myself ? Ah, in this cask—a musician has a right to go into his own
+       orchestra! <stage>(conceals himself in cask)</stage></p>
+     </sp>
+     <stage>Enter Fan, from house, R.</stage>
+     <sp who="#L0839_F6">
+      <speaker>Fan.</speaker>
+      <p>No one here; he told me to wait—how frightened I am ! Oh, here he comes !</p>
+     </sp>
+     <stage>Enter Hector from house, R.</stage>
+     <sp who="#L0839_M1">
+      <speaker>Hect.</speaker>
+      <p>Ah, you're come, then.</p>
+     </sp>
+     <sp who="#L0839_M3">
+      <speaker>Mouldy.</speaker>
+      <p><stage>(pops up his head)</stage> I was sure of it, there they are.</p>
+     </sp>
+     <sp who="#L0839_M1">
+      <speaker>Hect.</speaker>
+      <p>Fan</p>
+     </sp>
+     <sp who="#L0839_F6">
+      <speaker>Fan.</speaker>
+      <p>Beware, Mr. Mouldywort</p>
+     </sp>
+     <sp who="#L0839_M1">
+      <speaker>Hect.</speaker>
+      <p>Fear nothing, he is not here.</p>
+     </sp>
+     <sp who="#L0839_M3">
+      <speaker>Mouldy.</speaker>
+      <p>Don't you be too sure.</p>
+     </sp>
+     <pb n="22"/>
+     <sp who="#L0839_M1">
+      <speaker>Hect.</speaker>
+      <p>It was you, then!</p>
+     </sp>
+     <sp who="#L0839_F6">
+      <speaker>Fan.</speaker>
+      <p><stage>(timidly)</stage> And you are not blind ? How wrong it is to deceive.</p>
+     </sp>
+     <sp who="#L0839_M1">
+      <speaker>Hect.</speaker>
+      <p>Speak not of it ; I am a scoundrel! To think I was on the point of compromising you,
+       innocence itself; but self-esteem—the desire of raising a laugh, when in truth, I would give
+       my life—when I think of it, I could tear off my moustache, and blow my brains out!</p>
+     </sp>
+     <sp who="#L0839_F6">
+      <speaker>Fan.</speaker>
+      <p>Oh, no, no, I should be so sorry.</p>
+     </sp>
+     <sp who="#L0839_M3">
+      <speaker>Mouldy.</speaker>
+      <p>You're not of my opinion !</p>
+     </sp>
+     <sp who="#L0839_M1">
+      <speaker>Hect.</speaker>
+      <p>You are not angry with me, then?</p>
+     </sp>
+     <sp who="#L0839_F6">
+      <speaker>Fan.</speaker>
+      <p>No.</p>
+     </sp>
+     <sp who="#L0839_M1">
+      <speaker>Hect.</speaker>
+      <p>You don't bear any malice ?</p>
+     </sp>
+     <sp who="#L0839_F6">
+      <speaker>Fan.</speaker>
+      <p>No.</p>
+     </sp>
+     <sp who="#L0839_M3">
+      <speaker>Mouldy.</speaker>
+      <p>Still thrusting her " Noes" upon everybody.</p>
+     </sp>
+     <sp who="#L0839_F6">
+      <speaker>Fan.</speaker>
+      <p>I've always been so unhappy—nobody has never addressed a word of real kindness to me, and
+       when I heard your voice, it appeared from the first the voice of a friend, and I came to you
+       without fear.</p>
+     </sp>
+     <sp who="#L0839_M3">
+      <speaker>Mouldy.</speaker>
+      <p>I never heard her say as much before—a regular sermon.</p>
+     </sp>
+     <sp who="#L0839_M1">
+      <speaker>Hect.</speaker>
+      <p>Yes, Fan, I will be your friend, and will never quit you more.</p>
+     </sp>
+     <sp who="#L0839_M3">
+      <speaker>Mouldy.</speaker>
+      <p>You don't say so!</p>
+     </sp>
+     <sp who="#L0839_M1">
+      <speaker>Hect.</speaker>
+      <p>But what the devil am I saying ? I must be off this very night.</p>
+     </sp>
+     <sp who="#L0839_F6">
+      <speaker>Fan.</speaker>
+      <p>Ah, you depart—then perhaps you will leave with me, the silver ring you put on my finger
+       last night, and which I returned to you.</p>
+     </sp>
+     <sp who="#L0839_M1">
+      <speaker>Hect.</speaker>
+      <p>There it is. <stage>(gives it)</stage> But if your tyrant sees it ?</p>
+     </sp>
+     <sp who="#L0839_M3">
+      <speaker>Mouldy.</speaker>
+      <p>And he will see it.</p>
+     </sp>
+     <sp who="#L0839_M1">
+      <speaker>Hect.</speaker>
+      <p>But no! I will kill him before I go.</p>
+     </sp>
+     <sp who="#L0839_M3">
+      <speaker>Mouldy.</speaker>
+      <p><stage>(aloud)</stage> Oh ! <stage>(sinks into cask)</stage></p>
+     </sp>
+     <sp who="#L0839_F6">
+      <speaker>Fan.</speaker>
+      <p>Kill him!</p>
+     </sp>
+     <sp who="#L0839_M1">
+      <speaker>Hect.</speaker>
+      <p><stage>(having heard Mouldywort)</stage> Where is he ? I'll send a bullet through his head,
+       just as I'm going to send this through the bunghole of that cask ! <stage>(seizing one of the
+        carbines, against tree).</stage></p>
+     </sp>
+     <sp who="#L0839_M3">
+      <speaker>Mouldy.</speaker>
+      <p><stage>(pops up his head)</stage> Stop! Stop! Don't be a fool; no folly!</p>
+     </sp>
+     <sp who="#L0839_M1">
+      <speaker>Hect.</speaker>
+      <p>Hallo! Here's Diogenes, in his tub! <stage>(pops down).</stage></p>
+     </sp>
+     <sp who="#L0839_M3">
+      <speaker>Mouldy.</speaker>
+      <p><stage>(not showing himself; but thrusts his hand thro ' bunghole)</stage> No, no; it's not
+       Diogenes—its I, Mouldywort; I have heard all! <stage>(his hand through bunghole)</stage> Put
+       down that carbine !</p>
+     </sp>
+     <sp who="#L0839_M1">
+      <speaker>Hect.</speaker>
+      <p><stage>(near the cask levelling carbine)</stage> I am prepared to give you
+       satisfaction.</p>
+     </sp>
+     <sp who="#L0839_M3">
+      <speaker>Mouldy.</speaker>
+      <p><stage>(pops up; finds the muzzle of carbine close to his
+        <pb n="23"/>mouth—pops down)</stage> I am satisfied! <stage>(thrusts hand through
+        bunghole)</stage> Put down that carbine !</p>
+     </sp>
+     <sp who="#L0839_M1">
+      <speaker>Hect.</speaker>
+      <p><stage>(putting down carbine)</stage> There, the carbine's down— excuse me; but I thought
+       that a husband——</p>
+     </sp>
+     <sp who="#L0839_M3">
+      <speaker>Mouldy.</speaker>
+      <p><stage>(getting out of cask)</stage> Her husband ? Not such a fool!</p>
+     </sp>
+     <sp who="#L0839_M1">
+      <speaker>Hect.</speaker>
+      <p>You are not her husband ?</p>
+     </sp>
+     <sp who="#L0839_M3">
+      <speaker>Mouldy.</speaker>
+      <p>I was to be; but after what I've just heard, I've no wish to profane the name of
+       Mouldywort.</p>
+     </sp>
+     <sp who="#L0839_M1">
+      <speaker>Hect.</speaker>
+      <p><stage>(taking fiddle from table)</stage> I'll break your fiddle over your occiput, if
+       you—</p>
+     </sp>
+     <sp who="#L0839_M3">
+      <speaker>Mouldy.</speaker>
+      <p>Don't put yourself in a passion, Mr. Trumpeter ! Don't give yourself the trouble! You love
+       Fan, Fan loves you—marry her; I wash my hands of her!</p>
+     </sp>
+     <sp who="#L0839_M1">
+      <speaker>Hect.</speaker>
+      <p>Certainly, I shall marry her.</p>
+     </sp>
+     <sp who="#L0839_F6">
+      <speaker>Fan.</speaker>
+      <p>Is it possible ?</p>
+     </sp>
+     <sp who="#L0839_M1">
+      <speaker>Hect.</speaker>
+      <p><stage>(recollecting)</stage> But wooden-headed idiot, that I am— I can't.</p>
+     </sp>
+     <sp who="#L0839_M3">
+      <speaker>Mouldy.</speaker>
+      <p>He can't—he's married already ! <stage>(joyously)</stage></p>
+     </sp>
+     <sp who="#L0839_M1">
+      <speaker>Hect.</speaker>
+      <p>If it was only that; but it's worse—an oath I swore to a dying friend, I would never enlist
+       in the corps of Hymen, in order to consecrate myself to his son whom I adopted.</p>
+     </sp>
+     <sp who="#L0839_F6">
+      <speaker>Fan.</speaker>
+      <p>Ah!</p>
+     </sp>
+     <sp who="#L0839_M3">
+      <speaker>Mouldy.</speaker>
+      <p><stage>(derisively)</stage> Humbug! Humbug! More trumpeting!</p>
+     </sp>
+     <sp who="#L0839_M1">
+      <speaker>Hect.</speaker>
+      <p><stage>(seizing him)</stage> You dog of a catgut scraper; I'll tear your viperous tongue
+       out!</p>
+     </sp>
+     <sp who="#L0839_M3">
+      <speaker>Mouldy.</speaker>
+      <p>Murder! Murder! Help!</p>
+     </sp>
+     <stage>Enter O'Blarney, Polly, Timmins, Villagers, and Soldiers, from house, R. —O'Blarney and
+      Polly get between Hector and Mouldywort.</stage>
+     <sp who="#L0839_M3">
+      <speaker>Mouldy.</speaker>
+      <p>Hold him fast, O'Blarney! Hold him fast! I've interpreted the trumpeter's dream—Miss Fan is
+       the heroine! I give her up to him, and he refuses to marry her !</p>
+     </sp>
+     <sp who="#L0839_M1">
+      <speaker>Hect.</speaker>
+      <p>You infernal box of resin ! <stage>(threatening)</stage></p>
+     </sp>
+     <sp who="#L0839_M3">
+      <speaker>Mouldy.</speaker>
+      <p>Hold him fast, O'Blarney! Hold him fast!</p>
+     </sp>
+     <sp who="#L0839_F7">
+      <speaker>Polly.</speaker>
+      <p><stage>(to Hector)</stage> You refuse to marry her ?</p>
+     </sp>
+     <sp who="#L0839_M3">
+      <speaker>Mouldy.</speaker>
+      <p>Serve her right! Serve her right!</p>
+     </sp>
+     <sp who="#L0839_M1">
+      <speaker>Hect.</speaker>
+      <p><stage>(restrained by O'Blarney)</stage> Just let me strangle him ; the smallest bit!</p>
+     </sp>
+     <sp who="#L0839_M3">
+      <speaker>Mouldy.</speaker>
+      <p>O'Blarney, don't let him strangle me the smallest bit! She must go to the workhouse—nobody
+       will have anything to do with her; I was only going to marry her out of charity—a little
+       wretch, with neither a father nor a mother— who has not even a name ; for who would own such
+       a name as Ironfist ?</p>
+     </sp>
+     <sp who="#L0839_M1">
+      <speaker>Hect.</speaker>
+      <p>What? What's that? Guns and mortars; who dares speak ill of my poor friend Ironfist ? I'll
+       cut him in two.</p>
+     </sp>
+     <pb n="24"/>
+     <sp who="#L0839_M3">
+      <speaker>Mouldy.</speaker>
+      <p>A friend of yours? I thought so—I wish you joy of him! a finished brigand! <stage>(Hector
+        threatens him)</stage> Hold him fast, Mr. O'Blarney ! Who deserted his infant child ?</p>
+     </sp>
+     <sp who="#L0839_M1">
+      <speaker>Hect.</speaker>
+      <p>Yes, yes, his son, who</p>
+     </sp>
+     <sp who="#L0839_M3">
+      <speaker>Mouldy.</speaker>
+      <p>No, no, his daughter.</p>
+     </sp>
+     <sp who="#L0839_M1">
+      <speaker>Hect.</speaker>
+      <p>Daughter, no, son! Look here <stage>(pulls paper from his pocket)</stage> It's a boy,
+       Francis Ironfist.</p>
+     </sp>
+     <sp who="#L0839_M3">
+      <speaker>Mouldy.</speaker>
+      <p>Exactly ! Frances Ironfist—I called her Fan, for shortness.</p>
+     </sp>
+     <sp who="#L0839_M1">
+      <speaker>Hect.</speaker>
+      <p><stage>(spelling)</stage> F-r-a-n-c-i-s.</p>
+     </sp>
+     <sp who="#L0839_F7">
+      <speaker>Polly.</speaker>
+      <p><stage>(looking at it)</stage> That is'nt an <hi>i</hi>, it's an <hi>e</hi>, only not
+       looped, there's no dot.</p>
+     </sp>
+     <sp who="#L0839_M1">
+      <speaker>Hect.</speaker>
+      <p>Drums and trumpets! You are right. I took it for granted the child was a boy, and thought
+       that it was an <hi>i</hi> !</p>
+     </sp>
+     <sp who="#L0839_M3">
+      <speaker>Mouldy.</speaker>
+      <p>Well, what with your <hi>i's</hi>, and her " Noes," you've made a good thing of it!</p>
+     </sp>
+     <sp who="#L0839_M1">
+      <speaker>Hect.</speaker>
+      <p>It is she! <stage>(rapturously)</stage></p>
+     </sp>
+     <sp who="#L0839_mult">
+      <speaker>Omnes.</speaker>
+      <p>She !</p>
+     </sp>
+     <sp who="#L0839_F6">
+      <speaker>Fan.</speaker>
+      <p>What's the matter with him ?</p>
+     </sp>
+     <sp who="#L0839_M3">
+      <speaker>Mouldy.</speaker>
+      <p>He is going mad! He'll bite somebody.</p>
+     </sp>
+     <sp who="#L0839_M1">
+      <speaker>Hect.</speaker>
+      <p>I believe I shall go mad—this boy, whom I've been seeking everywhere, is a girl! I'm not
+       sorry for the transformation—embrace me, Fan—and so my son's a daughter.</p>
+     </sp>
+     <sp who="#L0839_F6">
+      <speaker>Fan.</speaker>
+      <p>But tell me—</p>
+     </sp>
+     <sp who="#L0839_M1">
+      <speaker>Hect.</speaker>
+      <p>I havn't time now—embrace me, everybody! <stage>(Village Girls rush round and embrace
+        him—Mouldywort advances)</stage> Not you Mr. Mouldywort! Oh, my brave old Ironfist. I
+       promised him to love you, to be your father; I'll be more—I'll be your husband, and love you
+       enough for both.</p>
+     </sp>
+     <sp who="#L0839_mult">
+      <speaker>Omnes.</speaker>
+      <p>Her husband ?</p>
+     </sp>
+     <sp who="#L0839_F6">
+      <speaker>Fan.</speaker>
+      <p>Oh, dear Hector! <stage>(to Mouldywort, retorting)</stage> Serve her right, serve her
+       right! he does'nt marry me for charity—I will not be your wife, and he will be my
+       husband.</p>
+     </sp>
+     <stage>Enter Bridget, from house, R.</stage>
+     <sp who="#L0839_F5">
+      <speaker>Bridget.</speaker>
+      <p>After me, if he lives long enough!</p>
+     </sp>
+     <sp who="#L0839_F6">
+      <speaker>Fan.</speaker>
+      <p>Eh!</p>
+     </sp>
+     <sp who="#L0839_M1">
+      <speaker>Hect.</speaker>
+      <p>Hallo!</p>
+     </sp>
+     <sp who="#L0839_F5">
+      <speaker>Bridget.</speaker>
+      <p><stage>(to Hector)</stage> Don't be alarmed—thanks to your recital, all is known, sir. An
+       individual had the boldness to penetrate into my house, last night.</p>
+     </sp>
+     <sp who="#L0839_M2">
+      <speaker>O'Blar.</speaker>
+      <p><stage>(aside)</stage> In my place, I'll swear!</p>
+     </sp>
+     <sp who="#L0839_M3">
+      <speaker>Mouldy.</speaker>
+      <p><stage>(aside)</stage> He's Mrs. Goosequill's gallant, too; this is beautiful!</p>
+     </sp>
+     <sp who="#L0839_F5">
+      <speaker>Bridget.</speaker>
+      <p>Although my honour is unsullied by that nocturnal invasion, my reputation is not the less
+       compromised, for the invader escaped by the window.</p>
+     </sp>
+     <pb n="25"/>
+     <sp who="#L0839_F6">
+      <speaker>Fan.</speaker>
+      <p><stage>(aside)</stage> Just as he did with me.</p>
+     </sp>
+     <sp who="#L0839_M1">
+      <speaker>Hect.</speaker>
+      <p>I'm in for it this time—an inevitable bigamist.</p>
+     </sp>
+     <sp who="#L0839_F5">
+      <speaker>Bridget.</speaker>
+      <p>You owe me reparation, and must marry me at once.</p>
+     </sp>
+     <sp who="#L0839_F6">
+      <speaker>Fan.</speaker>
+      <p>No, no; he is to marry me.</p>
+     </sp>
+     <sp who="#L0839_M2">
+      <speaker>O'Blarn.</speaker>
+      <p>The man can't have two wives.</p>
+     </sp>
+     <sp who="#L0839_F7">
+      <speaker>Polly.</speaker>
+      <p>Such a thing has never been seen, or heard of.</p>
+     </sp>
+     <sp who="#L0839_M3">
+      <speaker>Mouldy.</speaker>
+      <p>Sometimes, sometimes!</p>
+     </sp>
+     <sp who="#L0839_M1">
+      <speaker>Hect.</speaker>
+      <p>Permit me to say, majestic widow, you must be mistaken.</p>
+     </sp>
+     <sp who="#L0839_F5">
+      <speaker>Bridget.</speaker>
+      <p>No, trumpeter; I have a proof. <stage>(whispers one of the Soldiers who exits into house,
+        r., and returns with Mouldywort's cloak)</stage></p>
+     </sp>
+     <sp who="#L0839_M3">
+      <speaker>Mouldy.</speaker>
+      <p>I raise my hand!</p>
+     </sp>
+     <sp who="#L0839_M1">
+      <speaker>Hect.</speaker>
+      <p>And I my foot! <stage>(kicks Mouldy behind Fan)</stage></p>
+     </sp>
+     <sp who="#L0839_M3">
+      <speaker>Mouldy.</speaker>
+      <p>Oh, confound him! What hard <hi>boots</hi> the fellow wears!</p>
+     </sp>
+     <sp who="#L0839_M1">
+      <speaker>Hect.</speaker>
+      <p>What proof?</p>
+     </sp>
+     <sp who="#L0839_F5">
+      <speaker>Bridget.</speaker>
+      <p>You shall know presently! <stage>(takes cloak, and holds it open)</stage> Behold, it's your
+       cloak !</p>
+     </sp>
+     <sp who="#L0839_M1">
+      <speaker>Hect.</speaker>
+      <p><stage>(aside)</stage> The one I found! <stage>(aloud)</stage> What does that prove ? It is
+       not mine.</p>
+     </sp>
+     <sp who="#L0839_mult">
+      <speaker>Omnes.</speaker>
+      <p>Not yours!</p>
+     </sp>
+     <sp who="#L0839_M3">
+      <speaker>Mouldy.</speaker>
+      <p><stage>(astonished)</stage> Not yours! Oh, it's not yours. Ha! ha!</p>
+     </sp>
+     <sp who="#L0839_F6">
+      <speaker>Fan.</speaker>
+      <p><stage>(looking)</stage> Eh! Yes ! Why, it's Mr. Mouldywort's !</p>
+     </sp>
+     <sp who="#L0839_mult">
+      <speaker>Omnes.</speaker>
+      <p>Ha ! Ha! Ha !</p>
+     </sp>
+     <sp who="#L0839_M3">
+      <speaker>Mouldy.</speaker>
+      <p><stage>(astonished.)</stage> What, my cloak! <stage>(Hector thrusts it to his
+       face)</stage></p>
+     </sp>
+     <sp who="#L0839_F5">
+      <speaker>Bridget.</speaker>
+      <p>It must have been he, then. <stage>(with a grimace of disgust)</stage> Ugh!</p>
+     </sp>
+     <sp who="#L0839_F7">
+      <speaker>Polly.</speaker>
+      <p><stage>(crossing to Mouldy.)</stage> Oh, you old poacher.</p>
+     </sp>
+     <sp who="#L0839_M2">
+      <speaker>O'Blarn.</speaker>
+      <p><stage>(crossing to Mouldy.)</stage> You wicked old fiddler!</p>
+     </sp>
+     <sp who="#L0839_F5">
+      <speaker>Bridget.</speaker>
+      <p>After such an exposure, I must have a husband.</p>
+     </sp>
+     <sp who="#L0839_M3">
+      <speaker>Mouldy.</speaker>
+      <p>It won't be me.</p>
+     </sp>
+     <sp who="#L0839_M4">
+      <speaker>Tim.</speaker>
+      <p><stage>(aside to him)</stage> Don't be a fool—marry her, man. <stage>(whispers)</stage></p>
+     </sp>
+     <sp who="#L0839_M3">
+      <speaker>Mouldy.</speaker>
+      <p><stage>(low)</stage> Her uncle, the grocer</p>
+     </sp>
+     <sp who="#L0839_M4">
+      <speaker>Tim.</speaker>
+      <p><stage>(low)</stage> Died yesterday. <stage>(they whisper to each other)</stage></p>
+     </sp>
+     <sp who="#L0839_M3">
+      <speaker>Mouldy.</speaker>
+      <p><stage>(low)</stage> £700, and she does'nt know it. <stage>(aloud to Bridget)</stage> Too
+       cruel Bridget; I struggle in vain—repentance overwhelms me—pardon an unhappy fiddler, whose
+       rage blinded his judgment.</p>
+     </sp>
+     <sp who="#L0839_F5">
+      <speaker>Bridget.</speaker>
+      <p>It was you then, decidedly. <stage>(disconcerted)</stage></p>
+     </sp>
+     <sp who="#L0839_M3">
+      <speaker>Mouldy.</speaker>
+      <p>Since they all say so.</p>
+     </sp>
+     <sp who="#L0839_mult">
+      <speaker>Omnes.</speaker>
+      <p>He confesses.</p>
+     </sp>
+     <sp who="#L0839_M1">
+      <speaker>Hect.</speaker>
+      <p>I'm astounded!</p>
+     </sp>
+     <sp who="#L0839_F5">
+      <speaker>Bridget.</speaker>
+      <p>I would rather have had the other; but he is a husband—Mr. Mouldywort, take my hand!</p>
+     </sp>
+     <pb n="26"/>
+     <sp who="#L0839_M3">
+      <speaker>Mouldy.</speaker>
+      <p>My dear Bridget. <stage>(embrace, then aside over her shoulder)</stage> How the devil did
+       my cloak get there ?</p>
+     </sp>
+     <sp who="#L0839_F6">
+      <speaker>Fan.</speaker>
+      <p>Well, but I—</p>
+     </sp>
+     <sp who="#L0839_M1">
+      <speaker>Hect.</speaker>
+      <p>You are Mrs. Blowhard-in-chief, and without a partner; and I hope our friends are no less
+       happy than I, in being witnesses to the circumstances that have led me to discover that—My
+       Son's a Daughter.</p>
+     </sp>
+     <stage>Villagers. Soldiers. Villagers</stage>
+     <stage>Timmins. Bridget. Mouldywort.</stage>
+     <stage>Fanny. Hector. Polly. O'Blarney.</stage>
+     <stage>Curtain.</stage>
+    </div>
+    <trailer>Printed by Thomas Scott, Warwick Court, Holborn.</trailer>
+   </div>
+  </body>
+ </text>
+</TEI>
