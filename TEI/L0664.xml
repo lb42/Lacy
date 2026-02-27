@@ -1,928 +1,960 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L0664">
-<teiHeader>
-<fileDesc>
-<titleStmt>
-<title n="porkchops">Pork Chops, or A Dream at Home</title>
-<author>Blanchard, E.L.</author>
-<respStmt>
-<resp>Curated by</resp>
-<name>Lou Burnard</name>
-</respStmt>
-</titleStmt>
-<publicationStmt>
-<distributor>Privately published on the Lacy Website</distributor>
-</publicationStmt>
-<sourceDesc>
-<p>Retagged from a DOCX version of the RTF file exported by ProQuest from a now
-lost TEI original</p>
-</sourceDesc>
-</fileDesc>
-<revisionDesc>
-<change when="2023-05-19">Header confected</change>
-</revisionDesc>
-</teiHeader>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L0664" xml:lang="en">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title>PORK CHOPS, or A DREAM AT HOME : TEI edition</title>
+    <author ref="lacyp:W0035"><persName>Blanchard, E.L.</persName><idno type="wikidata"
+      >Q5344152</idno></author>
+    <respStmt>
+     <resp>TEI conversion</resp>
+     <name>Lou Burnard</name>
+    </respStmt>
+   </titleStmt>
+   <publicationStmt>
+    <distributor>Privately distributed by the Digital Lacy Project</distributor>
+    <idno type="LAE">L0664</idno>
+    <availability>
+     <licence target="https://creativecommons.org/publicdomain/zero/1.0/">The Lacy Project waives
+      all rights to the TEI encoding applied to this material, which it believes to be in the public
+      domain. You may copy, modify, distribute, or perform this work freely. </licence>
+    </availability>
+   </publicationStmt>
+   <sourceDesc>
+    <bibl type="originalSource" n="45.4"><author>Blanchard, E.L.</author>
+     <title type="main" n="porkchopsoradreamatho...">Pork Chops; or, A Dream at Home</title>
+     <title type="sub">A Farcical Extravaganza furnished with a Dramatic Scene by Mr. W.R. Beverley
+      and a Musical Sauce by Mr. Caulcott in one act</title>
+     <extent>11 pp (UM copy: 106 - 117)<measure type="pp" quantity="10"/>
+      <measure type="spCount" quantity="142"/>
+      <measure type="spvCount" quantity="0"/>
+      <measure type="txWords" quantity="3388"/>
+      <measure type="spWords" quantity="2810"/>
+      <measure type="stWords" quantity="578"/>
+     </extent>
+     <title level="s"> Lacy's Acting Edition, volume 45, No. 0664</title><idno type="nic"
+      >N00465</idno></bibl>
+    <bibl type="surrogate"><ref target="https://hdl.handle.net/2027/iau.31858024123287"
+      >Hathi_Trust</ref></bibl>
+    <bibl type="surrogate" subtype="copytext"><ref
+      target="https://babel.hathitrust.org/cgi/pt?id=mdp.39015067453541&amp;seq=106 ">UM from
+      HT</ref><ref target="local:Vol45/L0664/L0664-um.pdf"/></bibl>
+    <listEvent>
+     <event type="firstPerf" when="1843-02-13" source="textNic" where="Olympic">
+      <desc>Premiered at Royal Olympic Theatre 13 Feb. 1843</desc>
+     </event>
+    </listEvent>
+   </sourceDesc>
+  </fileDesc>
+  <profileDesc>
+   <!--S 1 ExtravaganDramaMusic Ext. SPECTACLE-->
+   <textClass>
+    <catRef target="#sizeS"/>
+    <catRef target="#act1"/>
+    <catRef target="nic:Ext."/>
+    <keywords>
+     <term>SPECTACLE</term>
+    </keywords>
+   </textClass>
+   <particDesc>
+    <listPerson>
+     <person xml:id="L0664_M1">
+      <persName type="role">SEPTIMUS SNOOKS, a Gentleman connected with the
+       Press—vulgo—Penny-a-liner—with the “Life of a Vagabond.”</persName>
+      <persName type="spkr" n="64">Snooks.</persName>
+     </person>
+     <person xml:id="L0664_M2">
+      <persName type="role">DARKEYE DABBS, a returned Convict, and Professor of
+       Housebreaking</persName>
+      <persName type="spkr" n="39">Dabbs.</persName>
+     </person>
+     <person xml:id="L0664_M3">
+      <persName type="role">PHIL PILFER, (alias Paddington Phil) once a Conductor to a Paddington
+       Omnibus and now a follower of Darkeye Dabbs</persName>
+      <persName type="spkr" n="8">Phil.</persName>
+     </person>
+     <person xml:id="L0664_F4">
+      <persName type="role">MISS CHIPPINGTON CHUBB, daughter to her mother, and heiress apparent to
+       the house of her parent</persName>
+      <persName type="spkr" n="26">Miss C.</persName>
+      <persName type="spkr" n="2">Miss Chubb.</persName>
+     </person>
+     <person xml:id="L0664_mult">
+      <persName type="role">[Multiple speakers]</persName>
+      <persName type="spkr" n="1">All.</persName>
+     </person>
+    </listPerson>
+   </particDesc>
+  </profileDesc>
+  <revisionDesc>
+   <change when="2026-02-27">Add wikidata link to titleStmt where possible</change>
+   <change when="2023-05-19">Header confected</change>
+  </revisionDesc>
+ </teiHeader>
 
-<text>
+ <text>
 
-<!---->
-<front>
-<titlePage>
-<titlePart type="main">PORK CHOPS, or A DREAM AT HOME </titlePart>
-<titlePart>A Farcical Extravaganza </titlePart>
-<titlePart> furnished with a Dramatic Scene by Mr. W.R. Beverley and a Musical
-Sauce by Mr. Caulcott </titlePart>
-<titlePart>in one act</titlePart>
-<byline>by <docAuthor>E. L. Blanchard</docAuthor> Esq. author of <title>The
-Roads of Life —</title><title>The Artful Dodger—</title><title>Angels and
-Lucifers</title> &amp;c. &amp;c. &amp;c.</byline>
-<docImprint>London, Thomas Hailes Lacy, 89 Strand, W.C., (Opposite Southamlpton
-Street, Covent Gardeb Market)</docImprint>
-</titlePage>
-<pb n="2"/>
-<performance>
-<head>Pork Chops</head>
-<p>First performed at the Royal Olympic Theatre, February 13, 1843.</p>
-<castList>
-<head>Characters</head>
-<castItem><role gender="M">SEPTIMUS SNOOKS, a Gentleman connected with the
-Press—vulgo—Penny-a-liner—with the “Life of a Vagabond.”</role><actor>Mr. G.
-Wild.</actor></castItem>
-<castItem><role gender="M">DARKEYE DABBS, a returned Convict, and Professor of
-Housebreaking</role><actor>Mr. Searle.</actor></castItem>
-<castItem><role gender="M">PHIL PILFER, (alias Paddington Phil) once a Conductor
-to a Paddington Omnibus and now a follower of Darkeye Dabbs</role><actor>Mr.
-Rogers.</actor></castItem>
-<castItem><role gender="F">MISS CHIPPINGTON CHUBB, daughter to her mother, and
-heiress apparent to the house of her parent</role><actor>Miss
-Hamilton.</actor></castItem>
-</castList>
-</performance>
-<div type="programme">
-<head>Startling incidents</head>
-<p>The Garret—The Supper—The Passage—The Staircase—The Murder— The
-Poisoning—the————The Denouement.</p>
-</div>
-<div type="costume">
-<list>
-<item>
-<label>Snooks.</label>—Shabby genteel modern dress—check trousers—white hat.
-<label>Dabbs</label>.—Picturesque melodramatic ruffian's dress of modern style.
-<label>Pilfer</label>.—Fancy sporting suit—very shabby. <label>Miss
-Chubb</label>.—Ordinary chambermaid's dress.</item>
-</list>
-</div>
 
-<pb n="3"/>
-<div type="liminal">
-<p>The Author of this little quiz upon the extravagances of the transpontine
-melodrama, is well aware how much he was indebted for its favourable reception
-to the talent displayed by the original performers who figured in the cast. The
-piece was one of his earliest contributions to the stage, and enjoyed the
-advantages of the scenic illusions provided by Mr. William Beverly, the genial
-humour of Mr. George Wild, the excellent acting of Mr. William Searle, and the
-admirable artistic, performance of Mr. James Rogers, who ingeniously expanded a
-small part into a very important one. It is with pleasure that he thus
-gratefully acknowledges their valuable assistance, and thanks them for the
-success which the farce attained on the boards of the Old Olympic Theatre.</p>
-</div>
-</front>
-<body>
+  <front>
+   <titlePage>
+    <titlePart type="main">PORK CHOPS, or A DREAM AT HOME </titlePart>
+    <titlePart>A Farcical Extravaganza </titlePart>
+    <titlePart> furnished with a Dramatic Scene by Mr. W.R. Beverley and a Musical Sauce by Mr.
+     Caulcott </titlePart>
+    <titlePart>in one act</titlePart>
+    <byline>by <docAuthor>E. L. Blanchard</docAuthor> Esq. author of <title>The Roads of Life
+      —</title><title>The Artful Dodger—</title><title>Angels and Lucifers</title> &amp;c. &amp;c.
+     &amp;c.</byline>
+    <docImprint>London, Thomas Hailes Lacy, 89 Strand, W.C., (Opposite Southamlpton Street, Covent
+     Gardeb Market)</docImprint>
+   </titlePage>
+   <pb n="2"/>
+   <performance>
+    <head>Pork Chops</head>
+    <p>First performed at the Royal Olympic Theatre, February 13, 1843.</p>
+    <castList>
+     <head>Characters</head>
+     <castItem><role gender="M">SEPTIMUS SNOOKS, a Gentleman connected with the
+       Press—vulgo—Penny-a-liner—with the “Life of a Vagabond.”</role><actor>Mr. G.
+      Wild.</actor></castItem>
+     <castItem><role gender="M">DARKEYE DABBS, a returned Convict, and Professor of
+       Housebreaking</role><actor>Mr. Searle.</actor></castItem>
+     <castItem><role gender="M">PHIL PILFER, (alias Paddington Phil) once a Conductor to a
+       Paddington Omnibus and now a follower of Darkeye Dabbs</role><actor>Mr.
+      Rogers.</actor></castItem>
+     <castItem><role gender="F">MISS CHIPPINGTON CHUBB, daughter to her mother, and heiress apparent
+       to the house of her parent</role><actor>Miss Hamilton.</actor></castItem>
+    </castList>
+   </performance>
+   <div type="programme">
+    <head>Startling incidents</head>
+    <p>The Garret—The Supper—The Passage—The Staircase—The Murder— The Poisoning—the————The
+     Denouement.</p>
+   </div>
+   <div type="costume">
+    <list>
+     <item>
+      <label>Snooks.</label>—Shabby genteel modern dress—check trousers—white hat.
+       <label>Dabbs</label>.—Picturesque melodramatic ruffian's dress of modern style.
+       <label>Pilfer</label>.—Fancy sporting suit—very shabby. <label>Miss Chubb</label>.—Ordinary
+      chambermaid's dress.</item>
+    </list>
+   </div>
 
-<div type="scene">
-<head>SCENE FIRST. </head>
-<stage>—A Garret. Practicable window in flat, backed by tiles, with curtain
-drawn—bed, table, two chairs— carpet, fender—fireplace, L.—door, R.—wash stand,
-jug, basin —small cupboard in flat, with plate, knife and fork, mustard pot,
-bottle, and teacup in—two pork chops at the fire—coat over chair, white hat on
-nail—pipes and screw of tobacco on shelf—broken bit of looking glass—old
-candlestick and candle lighted—pen, ink, and newspapers, with letters manifold,
-&amp;c.</stage>
-<stage>Septimus Snooks discovered at table writing by the light of a small
-candle.</stage>
-<sp>
-<speaker>Snooks.</speaker>
-<p>Fourteen lines, one and ninepence. Come, there's a breakfast for some day
-next week, at all events! Let me see how it reads. “Singular and Remarkable
-Accident. Yesterday afternoon, between the hours of one and six, as a gentleman,
-named Brown.” Brown! Thank goodness there are plenty of Browns! “was proceeding
-in his chaise along Oxford Street—” Capital street that—there's no knowing at
-which end things <hi>do</hi> occur! “the off wheel came, horrible to relate,
-against the birch broom of the street sweeper opposite, and such was the
-violence of the concussion, that the broom was immediately snapped in two, and
-the handle flying upwards, knocked the unfortunate gentleman off his seat into
-the window of a china shop next door—at the same instant, the horse and chaise
-took fright, in consequence of a little boy mischievously making faces, and
-dashed off at a rapid speed into the kitchen of—Smith, Esq., to the astonishment
-of the cook, who was frying pancakes at the time, and whose alarm may be much
-better conceived than described. The horse and chaise were <pb n="4"/>
-extricated with great difficulty, and Mr. Brown resumed him journey with only
-the loss of his temper. The making-face nuisance we strongly recommend the
-police to look after.” So there's the result of my penny-a-lining for to-night,
-and now to send this romantic novel, in one paragraph, to the morning
-newspapers—I can't go myself for certain very peculiar reasons, and—
-<stage>(knock at door, R. 3 E.)</stage> That's somebody at the door. Now I
-shouldn't wonder if it is that persevering landlady of mine, who has the
-audacity to want some money! Come in!</p>
-<stage>Enter Miss Chubb, cautiously, L. D.</stage>
-</sp>
-<sp>
-<speaker>Miss C.</speaker>
-<p>Are you there, Mr. Snooks?</p>
-</sp>
-<sp>
-<speaker>Snooks.</speaker>
-<p>Oh, it's you, my dear. Yes, I am here, and I wish I wasn't—you come, I
-believe, for your little account?</p>
-</sp>
-<sp>
-<speaker>Miss C.</speaker>
-<p>Why, my mother—</p>
-</sp>
-<sp>
-<speaker>Snooks.</speaker>
-<p>Ah, I know. Dutiful daughter—and couldn't refuse—wished to avoid the
-disagreeable task—obliged to undertake it! You look more pretty to-night than
-ever, Miss Chubb.</p>
-</sp>
-<sp>
-<speaker>Miss C.</speaker>
-<p>Thankye, sir—but if you'd be pleased to settle—</p>
-</sp>
-<sp>
-<speaker>Snooks.</speaker>
-<p>So I do settle. I settle my affections upon you, and isn't that
-sufficient?</p>
-</sp>
-<sp>
-<speaker>Miss C.</speaker>
-<p>Why, sir, the bill has been so long standing—</p>
-</sp>
-<sp>
-<speaker>Snooks.</speaker>
-<p>That you want it <hi>re-seated</hi>, eh? But if you will wait until
-to-morrow—</p>
-</sp>
-<sp>
-<speaker>Miss C.</speaker>
-<p>My mother, Mr. Snooks, said I was not to go till a was properly balanced, and
-therefore, I can't wait.</p>
-</sp>
-<sp>
-<speaker>Snooks.</speaker>
-<p>Then tell your mother Mr. Snooks says it can't be properly <hi>balanced
-without waits</hi>.</p>
-</sp>
-<sp>
-<speaker>Miss C.</speaker>
-<p>But this week's rent is also due, Mr. Snooks.</p>
-</sp>
-<sp>
-<speaker>Snooks.</speaker>
-<p>I know it is—and being due it becomes nothing for <hi>dew</hi> is vapour, and
-vapour in air, and air is nothing—at least <hi>that air</hi>. However, here is
-that which will produce money. <stage>(takes paper from table)</stage> Send
-these round to the newspapers as directed, for me, and a grateful heart—</p>
-</sp>
-<sp>
-<speaker>Miss C.</speaker>
-<p>Oh, Mr. Snooks, I can refuse you nothing—you will pay us to-morrow?</p>
-</sp>
-<sp>
-<speaker>Snooks.</speaker>
-<p>To be sure I will. Good night, Miss Chubb.</p>
-</sp>
-<sp>
-<speaker>Miss C.</speaker>
-<p>Good night, Mr. Snooks!</p>
-</sp>
-<sp>
-<speaker>Snooks.</speaker>
-<p>Fare thee well, and if for ever—</p>
-<stage>(kisses her hand)</stage>
-</sp>
-<sp>
-<speaker>Miss C.</speaker>
-<p>Oh, what a nice young man he is to be sure!</p>
-<stage>                                        Exit at door, L.</stage>
-</sp>
-<sp>
-<speaker>Snooks.</speaker>
-<p>Making love's the cheapest thing, after all! Now for supper! Two pork chops,
-the remainder of to-day's dinner. Indigestible, very—but tempting exceedingly.
-If there is one <pb n="5"/> thing I have a partiality for more than another, it
-is a pork chop. One good turn deserves another. </p>
-<stage>(turns them)</stage>
-<p> Talking of turns, what turns, I've had to be sure! what a life I've led!
-</p>
-</sp>
-<spGrp>
-<head>SONG.—(Introduced)—“Life of a Vagabond.”</head>
-<sp>
-<p/>
-</sp>
-</spGrp>
-<sp>
-<p> Now, then, to see about supper, and to lay the cloth. <stage>(lays newspaper
-on table)</stage> There, that's what I call blending the ornamental with the
-useful! I can read and inwardly digest together. <stage>(goes to cupboard,
-fetches plate, knife, fork, teacup, and bottle—gets chops)</stage> I have an
-appetite for two, but only a knife and fork for one, though no friend will pop
-into supper I expect, and as the old joke says, “If these chops are not ready, I
-know those that are.” <stage>(eating)</stage> Done to a nicety! rather fat, but
-if they were fat, fair, and <hi>forty</hi>, my “great revenge has stomach for
-them all.” What shifts we literary men are obliged   to put up with sometimes!
-There am I—generalissimo of inquests, and purveyor-general of accidents in
-ordinary to the whole of the newspaper press, compelled to reside in this
-classical abode, where they do say, one Dabbs, a burglar, was taken—capital
-chops these! By the way, my last robbery turned out very productive! fourteen
-shillings is no bad week! I must have a try at a murder next. Poor Dabbs! I
-wonder what became of him? I dare say the account of his capture made two
-columns at the least. I'll drink his health. <stage>(pours from bottle into
-teacup)</stage> Small beer two days old. <stage>(drinks)</stage> I suppose they
-call this <hi>small</hi> beer because you can't drink a <hi>large</hi> quantity
-of it. Well, I must do the honours of the table, at all events. Mr. Snooks,
-permit me to have the honour of drinking your good health. Thank you, sir—the
-same to you. There—I wonder what sort of night it is? <stage>(draws aside
-curtain, discovering tiles by moonlight)</stage> Poor Dabbs! I should like to
-know whether his ghost walks on the housetops! <stage>(a guitar and voice heard
-outside)</stage> Hark! there's a ballad singer in the court! Well, I'm amazingly
-fond of music, so I shall patronise native talent. There, old girl, it's the
-last. <stage>(throws penny)</stage> And, now then to enjoy my pipe, and listen
-to hers at the same time. <stage>(fetches pipe and screw off
-mantelpiece)</stage> Not much of the weed left, I declare. Well, it certainly
-can't be an ill weed, for it don't grow apace. <stage>(Female sings a verse of
-“Lovely Night”)</stage> How sleepy that small beer makes one! Poor Dabbs! I
-certainly   must get up a murder—they pay best! Miss Chubb—those pork
-chops—robbery—Dabbs, the housebreaker—oh! </p>
-<stage>(Music— gradually dozes off to sleep—knocks candle down)</stage>
-</sp>
-</div>
-<div type="scene">
-<head>SCENE SECOND. </head>
-<stage>—Another Apartment in the same House.</stage>
-<stage>Enter Miss Chubbs, with bed candle.</stage>
+   <pb n="3"/>
+   <div type="liminal">
+    <p>The Author of this little quiz upon the extravagances of the transpontine melodrama, is well
+     aware how much he was indebted for its favourable reception to the talent displayed by the
+     original performers who figured in the cast. The piece was one of his earliest contributions to
+     the stage, and enjoyed the advantages of the scenic illusions provided by Mr. William Beverly,
+     the genial humour of Mr. George Wild, the excellent acting of Mr. William Searle, and the
+     admirable artistic, performance of Mr. James Rogers, who ingeniously expanded a small part into
+     a very important one. It is with pleasure that he thus gratefully acknowledges their valuable
+     assistance, and thanks them for the success which the farce attained on the boards of the Old
+     Olympic Theatre.</p>
+   </div>
+  </front>
+  <body>
 
-<sp>
-<speaker>Miss C.</speaker>
-<p>Bless my heart, how late it is getting to be sure! <pb n="6"/> I must go to
-the arms of Morpheus, as Mr. Snooks says. By the way, that Mr. Snooks is a very
-nice young man. I don't see why mother should be so cross with him, though he
-does owe five weeks' rent—four-and-sixpence a week, and find his own blacking
-brushes. When a single young man lodger occupies a place in your heart, though,
-it's high time to give him notice to quit! Well, I suppose I must get to bed,
-though I dare say I shall not close my eyes for dreaming about Mr. Septimus
-Snooks. Oh, dear! love is something like the pork chops Mr. Snooks talked
-about—very nice at the time, but very apt to keep you awake o' nights.</p>
-<stage>                                        Music—Exit.</stage>
-</sp>
-</div>
-<div type="scene">
-<head>SCENE THIRD. </head>
-<stage>—Garret, as before. Fire out—moon gone down—rain—thunder.</stage>
-<stage>Snooks discovered, sleeping—lights down.</stage>
-<stage>Dabbs appears at back, making his way along the tiles—enters through
-window with bag, dark lantern, &amp;c.—Music at the opening of scene.</stage>
+   <div type="scene">
+    <head>SCENE FIRST. </head>
+    <stage>—A Garret. Practicable window in flat, backed by tiles, with curtain drawn—bed, table,
+     two chairs— carpet, fender—fireplace, L.—door, R.—wash stand, jug, basin —small cupboard in
+     flat, with plate, knife and fork, mustard pot, bottle, and teacup in—two pork chops at the
+     fire—coat over chair, white hat on nail—pipes and screw of tobacco on shelf—broken bit of
+     looking glass—old candlestick and candle lighted—pen, ink, and newspapers, with letters
+     manifold, &amp;c.</stage>
+    <stage>Septimus Snooks discovered at table writing by the light of a small candle.</stage>
+    <sp who="#L0664_M1">
+     <speaker>Snooks.</speaker>
+     <p>Fourteen lines, one and ninepence. Come, there's a breakfast for some day next week, at all
+      events! Let me see how it reads. “Singular and Remarkable Accident. Yesterday afternoon,
+      between the hours of one and six, as a gentleman, named Brown.” Brown! Thank goodness there
+      are plenty of Browns! “was proceeding in his chaise along Oxford Street—” Capital street
+      that—there's no knowing at which end things <hi>do</hi> occur! “the off wheel came, horrible
+      to relate, against the birch broom of the street sweeper opposite, and such was the violence
+      of the concussion, that the broom was immediately snapped in two, and the handle flying
+      upwards, knocked the unfortunate gentleman off his seat into the window of a china shop next
+      door—at the same instant, the horse and chaise took fright, in consequence of a little boy
+      mischievously making faces, and dashed off at a rapid speed into the kitchen of—Smith, Esq.,
+      to the astonishment of the cook, who was frying pancakes at the time, and whose alarm may be
+      much better conceived than described. The horse and chaise were
+      <pb n="4"/> extricated with great difficulty, and Mr. Brown resumed him journey with only the
+      loss of his temper. The making-face nuisance we strongly recommend the police to look after.”
+      So there's the result of my penny-a-lining for to-night, and now to send this romantic novel,
+      in one paragraph, to the morning newspapers—I can't go myself for certain very peculiar
+      reasons, and— <stage>(knock at door, R. 3 E.)</stage> That's somebody at the door. Now I
+      shouldn't wonder if it is that persevering landlady of mine, who has the audacity to want some
+      money! Come in!</p>
+     <stage>Enter Miss Chubb, cautiously, L. D.</stage>
+    </sp>
+    <sp who="#L0664_F4">
+     <speaker>Miss C.</speaker>
+     <p>Are you there, Mr. Snooks?</p>
+    </sp>
+    <sp who="#L0664_M1">
+     <speaker>Snooks.</speaker>
+     <p>Oh, it's you, my dear. Yes, I am here, and I wish I wasn't—you come, I believe, for your
+      little account?</p>
+    </sp>
+    <sp who="#L0664_F4">
+     <speaker>Miss C.</speaker>
+     <p>Why, my mother—</p>
+    </sp>
+    <sp who="#L0664_M1">
+     <speaker>Snooks.</speaker>
+     <p>Ah, I know. Dutiful daughter—and couldn't refuse—wished to avoid the disagreeable
+      task—obliged to undertake it! You look more pretty to-night than ever, Miss Chubb.</p>
+    </sp>
+    <sp who="#L0664_F4">
+     <speaker>Miss C.</speaker>
+     <p>Thankye, sir—but if you'd be pleased to settle—</p>
+    </sp>
+    <sp who="#L0664_M1">
+     <speaker>Snooks.</speaker>
+     <p>So I do settle. I settle my affections upon you, and isn't that sufficient?</p>
+    </sp>
+    <sp who="#L0664_F4">
+     <speaker>Miss C.</speaker>
+     <p>Why, sir, the bill has been so long standing—</p>
+    </sp>
+    <sp who="#L0664_M1">
+     <speaker>Snooks.</speaker>
+     <p>That you want it <hi>re-seated</hi>, eh? But if you will wait until to-morrow—</p>
+    </sp>
+    <sp who="#L0664_F4">
+     <speaker>Miss C.</speaker>
+     <p>My mother, Mr. Snooks, said I was not to go till a was properly balanced, and therefore, I
+      can't wait.</p>
+    </sp>
+    <sp who="#L0664_M1">
+     <speaker>Snooks.</speaker>
+     <p>Then tell your mother Mr. Snooks says it can't be properly <hi>balanced without
+      waits</hi>.</p>
+    </sp>
+    <sp who="#L0664_F4">
+     <speaker>Miss C.</speaker>
+     <p>But this week's rent is also due, Mr. Snooks.</p>
+    </sp>
+    <sp who="#L0664_M1">
+     <speaker>Snooks.</speaker>
+     <p>I know it is—and being due it becomes nothing for <hi>dew</hi> is vapour, and vapour in air,
+      and air is nothing—at least <hi>that air</hi>. However, here is that which will produce money.
+       <stage>(takes paper from table)</stage> Send these round to the newspapers as directed, for
+      me, and a grateful heart—</p>
+    </sp>
+    <sp who="#L0664_F4">
+     <speaker>Miss C.</speaker>
+     <p>Oh, Mr. Snooks, I can refuse you nothing—you will pay us to-morrow?</p>
+    </sp>
+    <sp who="#L0664_M1">
+     <speaker>Snooks.</speaker>
+     <p>To be sure I will. Good night, Miss Chubb.</p>
+    </sp>
+    <sp who="#L0664_F4">
+     <speaker>Miss C.</speaker>
+     <p>Good night, Mr. Snooks!</p>
+    </sp>
+    <sp who="#L0664_M1">
+     <speaker>Snooks.</speaker>
+     <p>Fare thee well, and if for ever—</p>
+     <stage>(kisses her hand)</stage>
+    </sp>
+    <sp who="#L0664_F4">
+     <speaker>Miss C.</speaker>
+     <p>Oh, what a nice young man he is to be sure!</p>
+     <stage>                                        Exit at door, L.</stage>
+    </sp>
+    <sp who="#L0664_M1">
+     <speaker>Snooks.</speaker>
+     <p>Making love's the cheapest thing, after all! Now for supper! Two pork chops, the remainder
+      of to-day's dinner. Indigestible, very—but tempting exceedingly. If there is one
+      <pb n="5"/> thing I have a partiality for more than another, it is a pork chop. One good turn
+      deserves another. </p>
+     <stage>(turns them)</stage>
+     <p> Talking of turns, what turns, I've had to be sure! what a life I've led! </p>
+    </sp>
+    <spGrp>
+     <head>SONG.—(Introduced)—“Life of a Vagabond.”</head>
+     <sp who="#L0664_M1">
+      <p><!-- song lyrics and associated patter missing from original --></p>
+     </sp>
+    </spGrp>
+    <sp who="#L0664_M1">
+     <p> Now, then, to see about supper, and to lay the cloth. <stage>(lays newspaper on
+       table)</stage> There, that's what I call blending the ornamental with the useful! I can read
+      and inwardly digest together. <stage>(goes to cupboard, fetches plate, knife, fork, teacup,
+       and bottle—gets chops)</stage> I have an appetite for two, but only a knife and fork for one,
+      though no friend will pop into supper I expect, and as the old joke says, “If these chops are
+      not ready, I know those that are.” <stage>(eating)</stage> Done to a nicety! rather fat, but
+      if they were fat, fair, and <hi>forty</hi>, my “great revenge has stomach for them all.” What
+      shifts we literary men are obliged   to put up with sometimes! There am I—generalissimo of
+      inquests, and purveyor-general of accidents in ordinary to the whole of the newspaper press,
+      compelled to reside in this classical abode, where they do say, one Dabbs, a burglar, was
+      taken—capital chops these! By the way, my last robbery turned out very productive! fourteen
+      shillings is no bad week! I must have a try at a murder next. Poor Dabbs! I wonder what became
+      of him? I dare say the account of his capture made two columns at the least. I'll drink his
+      health. <stage>(pours from bottle into teacup)</stage> Small beer two days old.
+       <stage>(drinks)</stage> I suppose they call this <hi>small</hi> beer because you can't drink
+      a <hi>large</hi> quantity of it. Well, I must do the honours of the table, at all events. Mr.
+      Snooks, permit me to have the honour of drinking your good health. Thank you, sir—the same to
+      you. There—I wonder what sort of night it is? <stage>(draws aside curtain, discovering tiles
+       by moonlight)</stage> Poor Dabbs! I should like to know whether his ghost walks on the
+      housetops! <stage>(a guitar and voice heard outside)</stage> Hark! there's a ballad singer in
+      the court! Well, I'm amazingly fond of music, so I shall patronise native talent. There, old
+      girl, it's the last. <stage>(throws penny)</stage> And, now then to enjoy my pipe, and listen
+      to hers at the same time. <stage>(fetches pipe and screw off mantelpiece)</stage> Not much of
+      the weed left, I declare. Well, it certainly can't be an ill weed, for it don't grow apace.
+       <stage>(Female sings a verse of “Lovely Night”)</stage> How sleepy that small beer makes one!
+      Poor Dabbs! I certainly   must get up a murder—they pay best! Miss Chubb—those pork
+      chops—robbery—Dabbs, the housebreaker—oh! </p>
+     <stage>(Music— gradually dozes off to sleep—knocks candle down)</stage>
+    </sp>
+   </div>
+   <div type="scene">
+    <head>SCENE SECOND. </head>
+    <stage>—Another Apartment in the same House.</stage>
+    <stage>Enter Miss Chubbs, with bed candle.</stage>
 
-<sp>
-<speaker>Dabbs.</speaker>
-<p>So far 'tis fortunate. The thirsty gang of peelers, who would fain my carcass
-have, are baulked in their career, and I am in safety. This my swag, for which
-I've robbed a shopkeeper, who robbed the world in turn, will make me rich, and
-bear me to a land far from the taxed and taxing soil of Britain. <stage>(Snooks
-snores)</stage> Ah, an intruder! Let me reconnoitre. <stage>(Music —He surveys,
-with his lantern, the apartment, and at last discovers Snooks)</stage> Ah, a
-stranger! <stage>(pulls Snooks to the front of the stage)</stage> How came you
-here?</p>
-</sp>
-<sp>
-<speaker>Snooks.</speaker>
-<p>You pulled me!</p>
-</sp>
-<sp>
-<speaker>Dabbs.</speaker>
-<p>You are a traitor!</p>
-</sp>
-<sp>
-<speaker>Snooks.</speaker>
-<p>No, I'm a penny-a-liner!</p>
-</sp>
-<sp>
-<speaker>Dabbs.</speaker>
-<p>Ah, you know then—</p>
-</sp>
-<sp>
-<speaker>Snooks.</speaker>
-<p>I do!</p>
-</sp>
-<sp>
-<speaker>Dabbs.</speaker>
-<p>And you are—</p>
-</sp>
-<sp>
-<speaker>Snooks.</speaker>
-<p>I am.</p>
-</sp>
-<sp>
-<speaker>Dabbs.</speaker>
-<p>Whilst your name is—</p>
-</sp>
-<sp>
-<speaker>Snooks.</speaker>
-<p>Snooks.</p>
-</sp>
-<sp>
-<speaker>Dabbs.</speaker>
-<p>Enough—rise!</p>
-</sp>
-<sp>
-<speaker>Snooks.</speaker>
-<p>Thank you.</p>
-</sp>
-<sp>
-<speaker>Dabbs.</speaker>
-<p>You deal in robberies?</p>
-</sp>
-<sp>
-<speaker>Snooks.</speaker>
-<p>Yes—I make them.</p>
-</sp>
-<sp>
-<speaker>Dabbs.</speaker>
-<p>Did you ever commit a murder?</p>
-</sp>
-<sp>
-<speaker>Snooks.</speaker>
-<p>No, but I mean to.</p>
-</sp>
-<sp>
-<speaker>Dabbs.</speaker>
-<p>On what?</p>
-<pb n="7"/>
-</sp>
-<sp>
-<speaker>Snooks.</speaker>
-<p>  Paper.</p>
-</sp>
-<sp>
-<speaker>Dabbs.</speaker>
-<p>Psha! you behold this bag?</p>
-</sp>
-<sp>
-<speaker>Snooks.</speaker>
-<p>I do.</p>
-</sp>
-<sp>
-<speaker>Dabbs.</speaker>
-<p>Take it!</p>
-</sp>
-<sp>
-<speaker>Snooks.</speaker>
-<p>I will.</p>
-</sp>
-<sp>
-<speaker>Dabbs.</speaker>
-<p>You have received stolen goods. My name is Dabbs —Darkeye Dabbs—Dabbs the
-Housebreaker. Ha, ha! do you tremble at the sound?</p>
-</sp>
-<sp>
-<speaker>Snooks.</speaker>
-<p>Not a bit of it!</p>
-</sp>
-<sp>
-<speaker>Dabbs.</speaker>
-<p>You have good spirits!</p>
-</sp>
-<sp>
-<speaker>Snooks.</speaker>
-<p>It has dwindled to small beer lately.</p>
-</sp>
-<sp>
-<speaker>Dabbs.</speaker>
-<p>Will you join me?</p>
-</sp>
-<sp>
-<speaker>Snooks.</speaker>
-<p>Yes, as your historian. You shall commit robberies, and I'll write them. I
-will give you a last dying speech and confession with pleasure.</p>
-</sp>
-<sp>
-<speaker>Dabbs.</speaker>
-<p>You may stand yourself in need. Suppose I <hi>split</hi>!</p>
-</sp>
-<sp>
-<speaker>Snooks.</speaker>
-<p>Then you might keep your half.</p>
-</sp>
-<sp>
-<speaker>Dabbs.</speaker>
-<p>True; but you must be fatigued, and I have a tale to tell. Let us be seated. </p>
-<stage>(they sit)</stage>
-</sp>
-<sp>
-<speaker>Snooks.</speaker>
-<p>You'll excuse my furniture. I'm not accustomed to receive company.</p>
-</sp>
-<sp>
-<speaker>Dabbs.</speaker>
-<p>Listen—</p>
-</sp>
-<sp>
-<speaker>Snooks.</speaker>
-<p>I will!</p>
-</sp>
-<sp>
-<speaker>Dabbs.</speaker>
-<p>Fourteen years ago I was a housebreaker.</p>
-</sp>
-<sp>
-<speaker>Snooks.</speaker>
-<p>That <hi>was </hi>a go!</p>
-</sp>
-<sp>
-<speaker>Dabbs.</speaker>
-<p>  A regular housebreaker—a professor of the science of crib cracking, on the
-same plan as that pursued by the late Mr. John Sheppard! </p>
-<stage>(takes off his hat)</stage>
-</sp>
-<sp>
-<speaker>Snooks.</speaker>
-<p>You don't say so!</p>
-</sp>
-<sp>
-<speaker>Dabbs.</speaker>
-<p>Whilst following my professional avocations, I was a tenant occupying this
-very room. I at last left for the army!</p>
-</sp>
-<sp>
-<speaker>Snooks.</speaker>
-<p>I see—you were a <hi>left</hi>-tenant.</p>
-</sp>
-<sp>
-<speaker>Dabbs.</speaker>
-<p>I picked pockets at the Horse Guards!</p>
-</sp>
-<sp>
-<speaker>Snooks.</speaker>
-<p>And became yourself one of the blackguards; but proceed!</p>
-</sp>
-<sp>
-<speaker>Dabbs.</speaker>
-<p>One night, whilst here, I was asked for my rent.</p>
-</sp>
-<sp>
-<speaker>Snooks.</speaker>
-<p>Insolent audacity!</p>
-</sp>
-<sp>
-<speaker>Dabbs.</speaker>
-<p>It was an insult that I never forgave—day and night I brooded over it, and
-swore to be revenged. Time flew past, and I was invited one morning to visit the
-Old Bailey, on account of a little legal affair at which my presence was
-desired. As I was about to leave, a gentleman begged me to go abroad at the
-expense of the Government, to aid in the colonisation of Botany Bay.</p>
-</sp>
-<sp>
-<speaker>Snooks.</speaker>
-<p>And you—</p>
-<pb n="8"/>
-</sp>
-<sp>
-<speaker>Dabbs.</speaker>
-<p>Consented. I was always patriotic, even in my prejudices. So I remained
-fourteen long years engaged in advancing the mercantile interest of that
-country. Still I forgot not the insult, and here I am, returned for the purpose
-of   accomplishing the long cherished object of my thoughts— revenge! </p>
-<stage>(gets up)</stage>
-</sp>
-<sp>
-<speaker>Snooks.</speaker>
-<p>Wonderful being! and the purport of your visit this night?</p>
-</sp>
-<sp>
-<speaker>Dabbs.</speaker>
-<p>Is to fulfil my vow, and gratify my revenge! <hi>She</hi> sleeps in the
-second floor. From that slumber she must never— <stage>(three taps on the
-tiles)</stage> Hark!</p>
-</sp>
-<sp>
-<speaker>Snooks.</speaker>
-<p>Did you hear anything knock? </p>
-<stage>(rain)</stage>
-</sp>
-<sp>
-<speaker>Dabbs.</speaker>
-<p>It is the signal—my comrade has arrived.</p>
-<stage>Music.—Phil slides down the tiles and enters through window.</stage>
-</sp>
-<sp>
-<speaker>Snooks.</speaker>
-<p>Well, this gentleman seems to be making himself quite at home.</p>
-</sp>
-<sp>
-<speaker>Dabbs.</speaker>
-<p>Allow me the pleasure of introducing a friend—this is Mr.—</p>
-</sp>
-<sp>
-<speaker>Snooks.</speaker>
-<p>Snooks!</p>
-</sp>
-<sp>
-<speaker>Dabbs.</speaker>
-<p>Mr. Snooks! and this my comrade, Phil Pilfer, better known to the world as
-Paddington Phil. Hope you may be better acquainted.</p>
-</sp>
-<sp>
-<speaker>Phil.</speaker>
-<p>Your servant, sir—and the public's to command.</p>
-</sp>
-<sp>
-<speaker>Snooks.</speaker>
-<stage> (aside to Dabbs)</stage>
-<p>Is this one of the profession? <stage>(Dabbs nods mysteriously)</stage> I see
-how it is! this will be quite a house of call for them before long. What a
-situation for a gentleman connected with the press.</p>
-</sp>
-<sp>
-<speaker>Dabbs.</speaker>
-<p>Now, then, to business. Is all prepared?</p>
-</sp>
-<sp>
-<speaker>Phil.</speaker>
-<p>All!</p>
-</sp>
-<sp>
-<speaker>Snooks.</speaker>
-<p>One would imagine they were going to sit down to   supper, instead of its
-being the committal of—</p>
-</sp>
-<sp>
-<speaker>Dabbs.</speaker>
-<stage> (hurriedly turning round)</stage>
-<p>Who talks of a committal?</p>
-</sp>
-<sp>
-<speaker>Snooks.</speaker>
-<p>Why, you surely wouldn't—</p>
-</sp>
-<sp>
-<speaker>Phil.</speaker>
-<p>But we have sworn—</p>
-</sp>
-<sp>
-<speaker>Dabbs.</speaker>
-<p>Several times!</p>
-</sp>
-<sp>
-<speaker>Snooks.</speaker>
-<p>Don't doubt it! </p>
-<stage>(clock strikes three)</stage>
-</sp>
-<sp>
-<speaker>Dabbs.</speaker>
-<p>The hour has arrived. To the second floor! Lead on—my victim waits me.
-Follow!</p>
-</sp>
-<sp>
-<speaker>Snooks.</speaker>
-<p>I will—to watch the result. It may end in—</p>
-</sp>
-<sp>
-<speaker>Phil.</speaker>
-<p>Murder!</p>
-<stage>Puts lantern up to Snooks's face. Music.—Exeunt at door —tableau
-formed.</stage>
-</sp>
-</div>
-<div type="scene">
-<pb n="9"/>
-<head>SCENE FOURTH. </head>
-<stage>—A Lobby.</stage>
-<stage>Music continued—stage dark. Snooks, Phil, and Dabbs cross the stage L.
-and exit, R. Enter Miss Chubb, L.</stage>
+    <sp who="#L0664_F4">
+     <speaker>Miss C.</speaker>
+     <p>Bless my heart, how late it is getting to be sure!
+      <pb n="6"/> I must go to the arms of Morpheus, as Mr. Snooks says. By the way, that Mr. Snooks
+      is a very nice young man. I don't see why mother should be so cross with him, though he does
+      owe five weeks' rent—four-and-sixpence a week, and find his own blacking brushes. When a
+      single young man lodger occupies a place in your heart, though, it's high time to give him
+      notice to quit! Well, I suppose I must get to bed, though I dare say I shall not close my eyes
+      for dreaming about Mr. Septimus Snooks. Oh, dear! love is something like the pork chops Mr.
+      Snooks talked about—very nice at the time, but very apt to keep you awake o' nights.</p>
+     <stage>                                        Music—Exit.</stage>
+    </sp>
+   </div>
+   <div type="scene">
+    <head>SCENE THIRD. </head>
+    <stage>—Garret, as before. Fire out—moon gone down—rain—thunder.</stage>
+    <stage>Snooks discovered, sleeping—lights down.</stage>
+    <stage>Dabbs appears at back, making his way along the tiles—enters through window with bag,
+     dark lantern, &amp;c.—Music at the opening of scene.</stage>
 
-<sp>
-<speaker>Miss C.</speaker>
-<p>Disturbed by the sound of footsteps, I have hastened hither, and if that
-light misled me not, saw three strangers cross the landing. What can this mean?
-Surely some vile plot is being carried on—the house entered by thieves, perhaps.
-Should Snooks be one—but oh no! the thought is unworthy of him. Ah, the light
-proceeds—stops—goes on —no—it pauses at the staircase; and now the extinguisher
-is popped upon it—a few more paces, and I can discern their object—gently,
-gently—let me observe.</p>
-</sp>
-<stage>                                        Music.—Exit cautiously,
-R.</stage>
-</div>
-<div type="scene">
-<head>SCENE FIFTH. </head>
-<stage>—The Staircase to lower apartment. Windows over the stairs practicable,
-R.</stage>
-<stage>Dabbs, Snooks, and Phil discovered on stairs—they descend.
-Picture.</stage>
+    <sp who="#L0664_M2">
+     <speaker>Dabbs.</speaker>
+     <p>So far 'tis fortunate. The thirsty gang of peelers, who would fain my carcass have, are
+      baulked in their career, and I am in safety. This my swag, for which I've robbed a shopkeeper,
+      who robbed the world in turn, will make me rich, and bear me to a land far from the taxed and
+      taxing soil of Britain. <stage>(Snooks snores)</stage> Ah, an intruder! Let me reconnoitre.
+       <stage>(Music —He surveys, with his lantern, the apartment, and at last discovers
+       Snooks)</stage> Ah, a stranger! <stage>(pulls Snooks to the front of the stage)</stage> How
+      came you here?</p>
+    </sp>
+    <sp who="#L0664_M1">
+     <speaker>Snooks.</speaker>
+     <p>You pulled me!</p>
+    </sp>
+    <sp who="#L0664_M2">
+     <speaker>Dabbs.</speaker>
+     <p>You are a traitor!</p>
+    </sp>
+    <sp who="#L0664_M1">
+     <speaker>Snooks.</speaker>
+     <p>No, I'm a penny-a-liner!</p>
+    </sp>
+    <sp who="#L0664_M2">
+     <speaker>Dabbs.</speaker>
+     <p>Ah, you know then—</p>
+    </sp>
+    <sp who="#L0664_M1">
+     <speaker>Snooks.</speaker>
+     <p>I do!</p>
+    </sp>
+    <sp who="#L0664_M2">
+     <speaker>Dabbs.</speaker>
+     <p>And you are—</p>
+    </sp>
+    <sp who="#L0664_M1">
+     <speaker>Snooks.</speaker>
+     <p>I am.</p>
+    </sp>
+    <sp who="#L0664_M2">
+     <speaker>Dabbs.</speaker>
+     <p>Whilst your name is—</p>
+    </sp>
+    <sp who="#L0664_M1">
+     <speaker>Snooks.</speaker>
+     <p>Snooks.</p>
+    </sp>
+    <sp who="#L0664_M2">
+     <speaker>Dabbs.</speaker>
+     <p>Enough—rise!</p>
+    </sp>
+    <sp who="#L0664_M1">
+     <speaker>Snooks.</speaker>
+     <p>Thank you.</p>
+    </sp>
+    <sp who="#L0664_M2">
+     <speaker>Dabbs.</speaker>
+     <p>You deal in robberies?</p>
+    </sp>
+    <sp who="#L0664_M1">
+     <speaker>Snooks.</speaker>
+     <p>Yes—I make them.</p>
+    </sp>
+    <sp who="#L0664_M2">
+     <speaker>Dabbs.</speaker>
+     <p>Did you ever commit a murder?</p>
+    </sp>
+    <sp who="#L0664_M1">
+     <speaker>Snooks.</speaker>
+     <p>No, but I mean to.</p>
+    </sp>
+    <sp who="#L0664_M2">
+     <speaker>Dabbs.</speaker>
+     <p>On what?</p>
+     <pb n="7"/>
+    </sp>
+    <sp who="#L0664_M1">
+     <speaker>Snooks.</speaker>
+     <p>  Paper.</p>
+    </sp>
+    <sp who="#L0664_M2">
+     <speaker>Dabbs.</speaker>
+     <p>Psha! you behold this bag?</p>
+    </sp>
+    <sp who="#L0664_M1">
+     <speaker>Snooks.</speaker>
+     <p>I do.</p>
+    </sp>
+    <sp who="#L0664_M2">
+     <speaker>Dabbs.</speaker>
+     <p>Take it!</p>
+    </sp>
+    <sp who="#L0664_M1">
+     <speaker>Snooks.</speaker>
+     <p>I will.</p>
+    </sp>
+    <sp who="#L0664_M2">
+     <speaker>Dabbs.</speaker>
+     <p>You have received stolen goods. My name is Dabbs —Darkeye Dabbs—Dabbs the Housebreaker. Ha,
+      ha! do you tremble at the sound?</p>
+    </sp>
+    <sp who="#L0664_M1">
+     <speaker>Snooks.</speaker>
+     <p>Not a bit of it!</p>
+    </sp>
+    <sp who="#L0664_M2">
+     <speaker>Dabbs.</speaker>
+     <p>You have good spirits!</p>
+    </sp>
+    <sp who="#L0664_M1">
+     <speaker>Snooks.</speaker>
+     <p>It has dwindled to small beer lately.</p>
+    </sp>
+    <sp who="#L0664_M2">
+     <speaker>Dabbs.</speaker>
+     <p>Will you join me?</p>
+    </sp>
+    <sp who="#L0664_M1">
+     <speaker>Snooks.</speaker>
+     <p>Yes, as your historian. You shall commit robberies, and I'll write them. I will give you a
+      last dying speech and confession with pleasure.</p>
+    </sp>
+    <sp who="#L0664_M2">
+     <speaker>Dabbs.</speaker>
+     <p>You may stand yourself in need. Suppose I <hi>split</hi>!</p>
+    </sp>
+    <sp who="#L0664_M1">
+     <speaker>Snooks.</speaker>
+     <p>Then you might keep your half.</p>
+    </sp>
+    <sp who="#L0664_M2">
+     <speaker>Dabbs.</speaker>
+     <p>True; but you must be fatigued, and I have a tale to tell. Let us be seated. </p>
+     <stage>(they sit)</stage>
+    </sp>
+    <sp who="#L0664_M1">
+     <speaker>Snooks.</speaker>
+     <p>You'll excuse my furniture. I'm not accustomed to receive company.</p>
+    </sp>
+    <sp who="#L0664_M2">
+     <speaker>Dabbs.</speaker>
+     <p>Listen—</p>
+    </sp>
+    <sp who="#L0664_M1">
+     <speaker>Snooks.</speaker>
+     <p>I will!</p>
+    </sp>
+    <sp who="#L0664_M2">
+     <speaker>Dabbs.</speaker>
+     <p>Fourteen years ago I was a housebreaker.</p>
+    </sp>
+    <sp who="#L0664_M1">
+     <speaker>Snooks.</speaker>
+     <p>That <hi>was </hi>a go!</p>
+    </sp>
+    <sp who="#L0664_M2">
+     <speaker>Dabbs.</speaker>
+     <p>  A regular housebreaker—a professor of the science of crib cracking, on the same plan as
+      that pursued by the late Mr. John Sheppard! </p>
+     <stage>(takes off his hat)</stage>
+    </sp>
+    <sp who="#L0664_M1">
+     <speaker>Snooks.</speaker>
+     <p>You don't say so!</p>
+    </sp>
+    <sp who="#L0664_M2">
+     <speaker>Dabbs.</speaker>
+     <p>Whilst following my professional avocations, I was a tenant occupying this very room. I at
+      last left for the army!</p>
+    </sp>
+    <sp who="#L0664_M1">
+     <speaker>Snooks.</speaker>
+     <p>I see—you were a <hi>left</hi>-tenant.</p>
+    </sp>
+    <sp who="#L0664_M2">
+     <speaker>Dabbs.</speaker>
+     <p>I picked pockets at the Horse Guards!</p>
+    </sp>
+    <sp who="#L0664_M1">
+     <speaker>Snooks.</speaker>
+     <p>And became yourself one of the blackguards; but proceed!</p>
+    </sp>
+    <sp who="#L0664_M2">
+     <speaker>Dabbs.</speaker>
+     <p>One night, whilst here, I was asked for my rent.</p>
+    </sp>
+    <sp who="#L0664_M1">
+     <speaker>Snooks.</speaker>
+     <p>Insolent audacity!</p>
+    </sp>
+    <sp who="#L0664_M2">
+     <speaker>Dabbs.</speaker>
+     <p>It was an insult that I never forgave—day and night I brooded over it, and swore to be
+      revenged. Time flew past, and I was invited one morning to visit the Old Bailey, on account of
+      a little legal affair at which my presence was desired. As I was about to leave, a gentleman
+      begged me to go abroad at the expense of the Government, to aid in the colonisation of Botany
+      Bay.</p>
+    </sp>
+    <sp who="#L0664_M1">
+     <speaker>Snooks.</speaker>
+     <p>And you—</p>
+     <pb n="8"/>
+    </sp>
+    <sp who="#L0664_M2">
+     <speaker>Dabbs.</speaker>
+     <p>Consented. I was always patriotic, even in my prejudices. So I remained fourteen long years
+      engaged in advancing the mercantile interest of that country. Still I forgot not the insult,
+      and here I am, returned for the purpose of   accomplishing the long cherished object of my
+      thoughts— revenge! </p>
+     <stage>(gets up)</stage>
+    </sp>
+    <sp who="#L0664_M1">
+     <speaker>Snooks.</speaker>
+     <p>Wonderful being! and the purport of your visit this night?</p>
+    </sp>
+    <sp who="#L0664_M2">
+     <speaker>Dabbs.</speaker>
+     <p>Is to fulfil my vow, and gratify my revenge! <hi>She</hi> sleeps in the second floor. From
+      that slumber she must never— <stage>(three taps on the tiles)</stage> Hark!</p>
+    </sp>
+    <sp who="#L0664_M1">
+     <speaker>Snooks.</speaker>
+     <p>Did you hear anything knock? </p>
+     <stage>(rain)</stage>
+    </sp>
+    <sp who="#L0664_M2">
+     <speaker>Dabbs.</speaker>
+     <p>It is the signal—my comrade has arrived.</p>
+     <stage>Music.—Phil slides down the tiles and enters through window.</stage>
+    </sp>
+    <sp who="#L0664_M1">
+     <speaker>Snooks.</speaker>
+     <p>Well, this gentleman seems to be making himself quite at home.</p>
+    </sp>
+    <sp who="#L0664_M2">
+     <speaker>Dabbs.</speaker>
+     <p>Allow me the pleasure of introducing a friend—this is Mr.—</p>
+    </sp>
+    <sp who="#L0664_M1">
+     <speaker>Snooks.</speaker>
+     <p>Snooks!</p>
+    </sp>
+    <sp who="#L0664_M2">
+     <speaker>Dabbs.</speaker>
+     <p>Mr. Snooks! and this my comrade, Phil Pilfer, better known to the world as Paddington Phil.
+      Hope you may be better acquainted.</p>
+    </sp>
+    <sp who="#L0664_M3">
+     <speaker>Phil.</speaker>
+     <p>Your servant, sir—and the public's to command.</p>
+    </sp>
+    <sp who="#L0664_M1">
+     <speaker>Snooks.</speaker>
+     <stage> (aside to Dabbs)</stage>
+     <p>Is this one of the profession? <stage>(Dabbs nods mysteriously)</stage> I see how it is!
+      this will be quite a house of call for them before long. What a situation for a gentleman
+      connected with the press.</p>
+    </sp>
+    <sp who="#L0664_M2">
+     <speaker>Dabbs.</speaker>
+     <p>Now, then, to business. Is all prepared?</p>
+    </sp>
+    <sp who="#L0664_M3">
+     <speaker>Phil.</speaker>
+     <p>All!</p>
+    </sp>
+    <sp who="#L0664_M1">
+     <speaker>Snooks.</speaker>
+     <p>One would imagine they were going to sit down to   supper, instead of its being the
+      committal of—</p>
+    </sp>
+    <sp who="#L0664_M2">
+     <speaker>Dabbs.</speaker>
+     <stage> (hurriedly turning round)</stage>
+     <p>Who talks of a committal?</p>
+    </sp>
+    <sp who="#L0664_M1">
+     <speaker>Snooks.</speaker>
+     <p>Why, you surely wouldn't—</p>
+    </sp>
+    <sp who="#L0664_M3">
+     <speaker>Phil.</speaker>
+     <p>But we have sworn—</p>
+    </sp>
+    <sp who="#L0664_M2">
+     <speaker>Dabbs.</speaker>
+     <p>Several times!</p>
+    </sp>
+    <sp who="#L0664_M1">
+     <speaker>Snooks.</speaker>
+     <p>Don't doubt it! </p>
+     <stage>(clock strikes three)</stage>
+    </sp>
+    <sp who="#L0664_M2">
+     <speaker>Dabbs.</speaker>
+     <p>The hour has arrived. To the second floor! Lead on—my victim waits me. Follow!</p>
+    </sp>
+    <sp who="#L0664_M1">
+     <speaker>Snooks.</speaker>
+     <p>I will—to watch the result. It may end in—</p>
+    </sp>
+    <sp who="#L0664_M3">
+     <speaker>Phil.</speaker>
+     <p>Murder!</p>
+     <stage>Puts lantern up to Snooks's face. Music.—Exeunt at door —tableau formed.</stage>
+    </sp>
+   </div>
+   <div type="scene">
+    <pb n="9"/>
+    <head>SCENE FOURTH. </head>
+    <stage>—A Lobby.</stage>
+    <stage>Music continued—stage dark. Snooks, Phil, and Dabbs cross the stage L. and exit, R. Enter
+     Miss Chubb, L.</stage>
 
-<sp>
-<speaker>Snooks.</speaker>
-<p>So! we are on the second landing. This is the most singular affair in which I
-was ever engaged. Can't you put it off, to oblige me?</p>
-</sp>
-<sp>
-<speaker>Dabbs.</speaker>
-<p>Psha! you grow chicken-hearted. Drink! <stage>(producing bottle)</stage> It's
-brandy! hark! </p>
-<stage>(starts and drops his hat)</stage>
-</sp>
-<sp>
-<speaker>Phil.</speaker>
-<p>Phoo! it's only the cats!</p>
-</sp>
-<sp>
-<speaker>Snooks.</speaker>
-<p>I heard mysterious sounds—the very tiles seem to start from the roof!</p>
-<stage>Miss Chubb appears on staircase.</stage>
-</sp>
-<sp>
-<speaker>Miss C.</speaker>
-<p>That is the voice of Snooks! can he be a robber?</p>
-</sp>
-<sp>
-<speaker>Dabbs.</speaker>
-<p>Come, I'm in no hurry. <stage>(takes cups from bag)</stage> I'll give you a
-toast, and you give us a song.</p>
-</sp>
-<sp>
-<speaker>Snooks.</speaker>
-<p>Consider the neighbours!</p>
-</sp>
-<sp>
-<speaker>Phil.</speaker>
-<p>Phoo! what have we to do with them. Let's enjoy ourselves!</p>
-</sp>
-<sp>
-<speaker>Miss C.</speaker>
-<p>Some dreadful deed is about to be committed. Could I but gain yonder
-cupboard—there is laudanum in it, and perhaps—</p>
-<stage>                                        (she descends, goes to cupboard,
-and gets the phial—Dabbs has poured out the brandy into cup, and holds it up, R.
-looking at Snooks—Miss Chubb pours the contents of phial into the cup.</stage>
-</sp>
-<sp>
-<speaker>Dabbs.</speaker>
-<p>Now, then, here's to Jerry—</p>
-<pb n="10"/>
-</sp>
-<sp>
-<speaker>Snooks.</speaker>
-<p>Psha!</p>
-</sp>
-<sp>
-<speaker>Dabbs.</speaker>
-<p>No, not Shaw, but Jerry Abershaw!</p>
-</sp>
-<sp>
-<speaker>Miss C.</speaker>
-<p>That will frustrate their murderous design, at least. </p>
-<stage>(Dabbs gives Snooks the cup, who drinks)</stage>
-</sp>
-<sp>
-<speaker>Snooks.</speaker>
-<p>Here's to Jerry Abershaw! </p>
-<stage>(gives same cup to Phil)</stage>
-</sp>
-<sp>
-<speaker>Miss C.</speaker>
-<p>He has taken the poisoned goblet by mistake. All   is lost!</p>
-</sp>
-<sp>
-<speaker>Phil.</speaker>
-<stage> (drinks)</stage>
-<p>Here's to Jerry Abershaw, and our enterprise!</p>
-</sp>
-<sp>
-<speaker>All.</speaker>
-<p>To our enterprise! </p>
-<stage>(Dabbs drinks out of another cup)</stage>
-</sp>
-<sp>
-<speaker>Dabbs.</speaker>
-<p>Now then, to complete my design! As you <stage>(crosses to Phil)</stage> were
-once an omnibus conductor behind, before, go in front. Here, take this lantern,
-and remember to strike home!</p>
-</sp>
-<sp>
-<speaker>Snooks.</speaker>
-<p>This seems a striking situation altogether.</p>
-<stage>                                        Music.—Dabbs and Phil, in
-melodramatic action, signify that they are about to commit murder, telling
-Snooks to follow, and exeunt.</stage>
-</sp>
-<sp>
-<speaker>Miss C.</speaker>
-<stage> (runs and stops Snooks)</stage>
-<p>Not a moment is to be lost. Fly, dear Snooks, if you value my love or your
-own life. You are poisoned, and by me! The shaft which I aimed at another, has
-recoiled upon your own head.</p>
-</sp>
-<sp>
-<speaker>Snooks.</speaker>
-<p>Poisoned! nonsense! yet now I think again, my brain is in a whirling
-world—the floor is walking up to the ceiling, and the walls are playing at
-leapfrog. Oh, fatal hour of ours, to be poisoned, and by you, Miss Chubb. Hark!
-know you that in yonder chamber a dreadful deed is being performed.</p>
-</sp>
-<sp>
-<speaker>Miss C.</speaker>
-<p>Think not of me—the room is empty—we have removed down stairs.</p>
-</sp>
-<sp>
-<speaker>Snooks.</speaker>
-<p>Down stairs! parlours be praised! but those dreadful men—</p>
-</sp>
-<sp>
-<speaker>Miss C.</speaker>
-<p>One of them is poisoned, too. But run to the doctor's.</p>
-</sp>
-<sp>
-<speaker>Snooks.</speaker>
-<p>And leave you here! never! </p>
-<stage>(noise without, L.)</stage>
-</sp>
-<sp>
-<speaker>Miss C.</speaker>
-<p>  Hark! they return! behind this staircase we may observe their
-movements.</p>
-</sp>
-<sp>
-<speaker>Snooks.</speaker>
-<p>True, we must take steps to conceal ourselves.</p>
-<stage>                                        (they retire, R.)</stage>
-<stage>Music.—Dabbs enters L.</stage>
-</sp>
-<sp>
-<speaker>Dabbs.</speaker>
-<p>Confusion! our prey has escaped. Follow to the garret—to the garret!</p>
-<stage>                                        Exit up staircase.</stage>
-<stage>Enter Phil Pilfer, l.</stage>
-</sp>
-<sp>
-<speaker>Phil.</speaker>
-<p>I can go no further—thoughts of the time when I was <pb n="11"/> a happy cad
-to a Paddington 'bus comes rushing o'er my mind! My brain wanders! “Bank! city!
-bank!” I'm poisoned! I feel upon my temples an—“Elephant and Castle!” Look! see
-that shadowy form in the pepper and salt unmentionables! I know you well—it's a
-bad sixpence. Ah! ha, ha, ha! </p>
-<stage>(falls)</stage>
-<p> “Going down, sir?” “Is that an umbrella that I see before me! with its hook
-turned towards this way?” It is—ah! I see thee and yet I have thee not! Come,
-let me clutch thee! “Hold hard, Bill!” “This way, sir—Baker Street! Yorkshire
-Sting— oh! Full inside! Drive on! <stage>(Music—Dies)</stage></p>
-</sp>
-<stage>Enter Dabbs, and carries Phil off, L.—Miss Chubb and Snooks appear,
-R.</stage>
+    <sp who="#L0664_F4">
+     <speaker>Miss C.</speaker>
+     <p>Disturbed by the sound of footsteps, I have hastened hither, and if that light misled me
+      not, saw three strangers cross the landing. What can this mean? Surely some vile plot is being
+      carried on—the house entered by thieves, perhaps. Should Snooks be one—but oh no! the thought
+      is unworthy of him. Ah, the light proceeds—stops—goes on —no—it pauses at the staircase; and
+      now the extinguisher is popped upon it—a few more paces, and I can discern their
+      object—gently, gently—let me observe.</p>
+    </sp>
+    <stage>                                        Music.—Exit cautiously, R.</stage>
+   </div>
+   <div type="scene">
+    <head>SCENE FIFTH. </head>
+    <stage>—The Staircase to lower apartment. Windows over the stairs practicable, R.</stage>
+    <stage>Dabbs, Snooks, and Phil discovered on stairs—they descend. Picture.</stage>
 
-<sp>
-<speaker>Snooks.</speaker>
-<p>It will be my turn next—I feel I'm on the same road—for— <stage>Re-enter
-Dabbs, l.</stage> Hold! you and I have yet accounts to reckon—so pay me now, for
-I will count blows upon that head till one of our two bodies prove it's
-settled!</p>
-</sp>
-<sp>
-<speaker>Dabbs.</speaker>
-<p>Agreed! one dead, another shall be so. </p>
-<p>I've had one breeze, and do not fear your blow.</p>
-</sp>
-<sp>
-<speaker>Snooks.</speaker>
-<p>Then, traitor, turn, and Snooks will bravely fight, </p>
-<p>Till Darkeye Dabbs despairing dies downright.</p>
-</sp>
-<stage>                                        (Music—they struggle—Dabbs throws
-Snooks off, who falls —Dabbs falls over him, and leaves the dagger stuck in the
-stage—Miss Chubb rushes down stage, obtains it—Dabbs retreats up stairs—Snooks
-follows—they struggle—Snooks throws Dabbs out of window—Miss Chubb kneels at
-bottom of stairs.—Tableau.</stage>
-</div>
-<div type="scene">
-<head>SCENE SIXTH. </head>
-<stage>Lobby as before.</stage>
-<stage>Music—Snooks rushing on L.</stage>
+    <sp who="#L0664_M1">
+     <speaker>Snooks.</speaker>
+     <p>So! we are on the second landing. This is the most singular affair in which I was ever
+      engaged. Can't you put it off, to oblige me?</p>
+    </sp>
+    <sp who="#L0664_M2">
+     <speaker>Dabbs.</speaker>
+     <p>Psha! you grow chicken-hearted. Drink! <stage>(producing bottle)</stage> It's brandy! hark! </p>
+     <stage>(starts and drops his hat)</stage>
+    </sp>
+    <sp who="#L0664_M3">
+     <speaker>Phil.</speaker>
+     <p>Phoo! it's only the cats!</p>
+    </sp>
+    <sp who="#L0664_M1">
+     <speaker>Snooks.</speaker>
+     <p>I heard mysterious sounds—the very tiles seem to start from the roof!</p>
+     <stage>Miss Chubb appears on staircase.</stage>
+    </sp>
+    <sp who="#L0664_F4">
+     <speaker>Miss C.</speaker>
+     <p>That is the voice of Snooks! can he be a robber?</p>
+    </sp>
+    <sp who="#L0664_M2">
+     <speaker>Dabbs.</speaker>
+     <p>Come, I'm in no hurry. <stage>(takes cups from bag)</stage> I'll give you a toast, and you
+      give us a song.</p>
+    </sp>
+    <sp who="#L0664_M1">
+     <speaker>Snooks.</speaker>
+     <p>Consider the neighbours!</p>
+    </sp>
+    <sp who="#L0664_M3">
+     <speaker>Phil.</speaker>
+     <p>Phoo! what have we to do with them. Let's enjoy ourselves!</p>
+    </sp>
+    <sp who="#L0664_F4">
+     <speaker>Miss C.</speaker>
+     <p>Some dreadful deed is about to be committed. Could I but gain yonder cupboard—there is
+      laudanum in it, and perhaps—</p>
+     <stage>                                        (she descends, goes to cupboard, and gets the
+      phial—Dabbs has poured out the brandy into cup, and holds it up, R. looking at Snooks—Miss
+      Chubb pours the contents of phial into the cup.</stage>
+    </sp>
+    <sp who="#L0664_M2">
+     <speaker>Dabbs.</speaker>
+     <p>Now, then, here's to Jerry—</p>
+     <pb n="10"/>
+    </sp>
+    <sp who="#L0664_M1">
+     <speaker>Snooks.</speaker>
+     <p>Psha!</p>
+    </sp>
+    <sp who="#L0664_M2">
+     <speaker>Dabbs.</speaker>
+     <p>No, not Shaw, but Jerry Abershaw!</p>
+    </sp>
+    <sp who="#L0664_F4">
+     <speaker>Miss C.</speaker>
+     <p>That will frustrate their murderous design, at least. </p>
+     <stage>(Dabbs gives Snooks the cup, who drinks)</stage>
+    </sp>
+    <sp who="#L0664_M1">
+     <speaker>Snooks.</speaker>
+     <p>Here's to Jerry Abershaw! </p>
+     <stage>(gives same cup to Phil)</stage>
+    </sp>
+    <sp who="#L0664_F4">
+     <speaker>Miss C.</speaker>
+     <p>He has taken the poisoned goblet by mistake. All   is lost!</p>
+    </sp>
+    <sp who="#L0664_M3">
+     <speaker>Phil.</speaker>
+     <stage> (drinks)</stage>
+     <p>Here's to Jerry Abershaw, and our enterprise!</p>
+    </sp>
+    <sp who="#L0664_mult">
+     <speaker>All.</speaker>
+     <p>To our enterprise! </p>
+     <stage>(Dabbs drinks out of another cup)</stage>
+    </sp>
+    <sp who="#L0664_M2">
+     <speaker>Dabbs.</speaker>
+     <p>Now then, to complete my design! As you <stage>(crosses to Phil)</stage> were once an
+      omnibus conductor behind, before, go in front. Here, take this lantern, and remember to strike
+      home!</p>
+    </sp>
+    <sp who="#L0664_M1">
+     <speaker>Snooks.</speaker>
+     <p>This seems a striking situation altogether.</p>
+     <stage>                                        Music.—Dabbs and Phil, in melodramatic action,
+      signify that they are about to commit murder, telling Snooks to follow, and exeunt.</stage>
+    </sp>
+    <sp who="#L0664_F4">
+     <speaker>Miss C.</speaker>
+     <stage> (runs and stops Snooks)</stage>
+     <p>Not a moment is to be lost. Fly, dear Snooks, if you value my love or your own life. You are
+      poisoned, and by me! The shaft which I aimed at another, has recoiled upon your own head.</p>
+    </sp>
+    <sp who="#L0664_M1">
+     <speaker>Snooks.</speaker>
+     <p>Poisoned! nonsense! yet now I think again, my brain is in a whirling world—the floor is
+      walking up to the ceiling, and the walls are playing at leapfrog. Oh, fatal hour of ours, to
+      be poisoned, and by you, Miss Chubb. Hark! know you that in yonder chamber a dreadful deed is
+      being performed.</p>
+    </sp>
+    <sp who="#L0664_F4">
+     <speaker>Miss C.</speaker>
+     <p>Think not of me—the room is empty—we have removed down stairs.</p>
+    </sp>
+    <sp who="#L0664_M1">
+     <speaker>Snooks.</speaker>
+     <p>Down stairs! parlours be praised! but those dreadful men—</p>
+    </sp>
+    <sp who="#L0664_F4">
+     <speaker>Miss C.</speaker>
+     <p>One of them is poisoned, too. But run to the doctor's.</p>
+    </sp>
+    <sp who="#L0664_M1">
+     <speaker>Snooks.</speaker>
+     <p>And leave you here! never! </p>
+     <stage>(noise without, L.)</stage>
+    </sp>
+    <sp who="#L0664_F4">
+     <speaker>Miss C.</speaker>
+     <p>  Hark! they return! behind this staircase we may observe their movements.</p>
+    </sp>
+    <sp who="#L0664_M1">
+     <speaker>Snooks.</speaker>
+     <p>True, we must take steps to conceal ourselves.</p>
+     <stage>                                        (they retire, R.)</stage>
+     <stage>Music.—Dabbs enters L.</stage>
+    </sp>
+    <sp who="#L0664_M2">
+     <speaker>Dabbs.</speaker>
+     <p>Confusion! our prey has escaped. Follow to the garret—to the garret!</p>
+     <stage>                                        Exit up staircase.</stage>
+     <stage>Enter Phil Pilfer, l.</stage>
+    </sp>
+    <sp who="#L0664_M3">
+     <speaker>Phil.</speaker>
+     <p>I can go no further—thoughts of the time when I was
+      <pb n="11"/> a happy cad to a Paddington 'bus comes rushing o'er my mind! My brain wanders!
+      “Bank! city! bank!” I'm poisoned! I feel upon my temples an—“Elephant and Castle!” Look! see
+      that shadowy form in the pepper and salt unmentionables! I know you well—it's a bad sixpence.
+      Ah! ha, ha, ha! </p>
+     <stage>(falls)</stage>
+     <p> “Going down, sir?” “Is that an umbrella that I see before me! with its hook turned towards
+      this way?” It is—ah! I see thee and yet I have thee not! Come, let me clutch thee! “Hold hard,
+      Bill!” “This way, sir—Baker Street! Yorkshire Sting— oh! Full inside! Drive on!
+       <stage>(Music—Dies)</stage></p>
+    </sp>
+    <stage>Enter Dabbs, and carries Phil off, L.—Miss Chubb and Snooks appear, R.</stage>
 
-<sp>
-<speaker>Snooks.</speaker>
-<p>All is over—the poison works! the murders are done! the housebreaker is
-thrown over, and I'm overthrown! Oh, Chubb! Chubb! heroic girl! I have long had
-my eye upon you, and now you'll be in time to see me hook <hi>it!</hi> Farewell!
-a long farewell to all my greatness. I shall have an <hi>inquest</hi> held upon
-me—on me, who have gone <hi>in quest</hi> of so many myself! In half-an-hour the
-laudanum will have done its work—the remaining time I will employ to my own
-profit. I'll go to my garret and write the account of my own death for the
-morning papers—I go, and it is done—there will be a good report of my tragical
-ending, at all events. The pen—the ink—the paper! What ho! oh!</p>
-</sp>
-<stage>                                        Music—Exit, melo-dramatically,
-R.</stage>
-</div>
-<div type="scene">
-<head>SCENE SEVENTH. </head>
-<stage>—The Garret. Sunrise.</stage>
-<stage>Snooks discovered, asleep.</stage>
+    <sp who="#L0664_M1">
+     <speaker>Snooks.</speaker>
+     <p>It will be my turn next—I feel I'm on the same road—for— <stage>Re-enter Dabbs, l.</stage>
+      Hold! you and I have yet accounts to reckon—so pay me now, for I will count blows upon that
+      head till one of our two bodies prove it's settled!</p>
+    </sp>
+    <sp who="#L0664_M2">
+     <speaker>Dabbs.</speaker>
+     <p>Agreed! one dead, another shall be so. </p>
+     <p>I've had one breeze, and do not fear your blow.</p>
+    </sp>
+    <sp who="#L0664_M1">
+     <speaker>Snooks.</speaker>
+     <p>Then, traitor, turn, and Snooks will bravely fight, </p>
+     <p>Till Darkeye Dabbs despairing dies downright.</p>
+    </sp>
+    <stage>                                        (Music—they struggle—Dabbs throws Snooks off, who
+     falls —Dabbs falls over him, and leaves the dagger stuck in the stage—Miss Chubb rushes down
+     stage, obtains it—Dabbs retreats up stairs—Snooks follows—they struggle—Snooks throws Dabbs out
+     of window—Miss Chubb kneels at bottom of stairs.—Tableau.</stage>
+   </div>
+   <div type="scene">
+    <head>SCENE SIXTH. </head>
+    <stage>Lobby as before.</stage>
+    <stage>Music—Snooks rushing on L.</stage>
 
-<sp>
-<speaker>Miss Chubb.</speaker>
-<stage> (knocking at door without)</stage>
-<p>Mr. Snooks! Mr. Snooks! What can have possibly happened to him?</p>
-</sp>
-<sp>
-<speaker>Snooks.</speaker>
-<stage> (awaking)</stage>
-<p>Who calls on Snooks?</p>
-</sp>
-<sp>
-<speaker>Miss Chubb.</speaker>
-<p>Why, do you know what time it is? It's past ten! and here's a letter been
-waiting for you this hour and more!</p>
-</sp>
-<sp>
-<speaker>Snooks.</speaker>
-<p>A letter! Why, surely—where am I? can I have been dreaming all this while? It
-must be so. I'll see if she knows anything about it! <stage>(opens door)</stage>
-<stage>Enter Miss Chubb, with letter.</stage> Why, bless my heart, Miss Chubb,
-you don't look as if you'd been up all night!</p>
-</sp>
-<sp>
-<speaker>Miss C.</speaker>
-<p>La! why should I? You've been dreaming I am afraid, Mr. Snooks.</p>
-</sp>
-<sp>
-<speaker>Snooks.</speaker>
-<p>Dreaming! Oh, I see how it is! those cursed pork chops—fit of indigestion,
-caused the nightmare, and having my brain bewildered with murders and robberies
-during the day, I've been dreaming about robbers all night!</p>
-</sp>
-<sp>
-<speaker>Miss C.</speaker>
-<p>And so you've really had the nightmare through eating pork chops!</p>
-</sp>
-<sp>
-<speaker>Snooks.</speaker>
-<p>Yes; rather <hi>porkuliar</hi>, isn't it? But this letter! <stage>(takes
-it)</stage> Who can it be from? I haven't had a letter this twelvemonth.
-<stage>(reads)</stage> “Dear Septimus,—Uncle Bob has remembered you in his will,
-and left you an annuity of fifty pounds a-year, with his pork shop in the
-Borough. Can't write more, as the post is just leaving. Your affectionate  
-cousin, Angelica Snooks.” Fifty pounds a year and a pork shop in the Borough!
-I'm a made man! Your mother's rent shall be paid, and you shall be Mrs.
-Snooks!</p>
-</sp>
-<sp>
-<speaker>Miss C.</speaker>
-<p>La, Septimus, you don't say so!</p>
-</sp>
-<sp>
-<speaker>Snooks.</speaker>
-<p>It's a bargain! I'm so overjoyed that even the nightmare is forgotten, so
-we'll invite our friends, here, to come another night.</p>
-</sp>
-<sp>
-<speaker>Miss C.</speaker>
-<p>At nine o'clock, to supper.</p>
-</sp>
-<sp>
-<speaker>Snooks.</speaker>
-<p>But how to serve this novel dish of fun? </p>
-<p>Perhaps some may think our Pork Chops <hi>over done!</hi></p>
-</sp>
-<sp>
-<speaker>Miss C.</speaker>
-<p>To these kind friends you should refer the questions, </p>
-<p>And hope our jest—</p>
-</sp>
-<sp>
-<speaker>Snooks.</speaker>
-<stage>                                        Will not cause
-indigestion!</stage>
-<p>Agreed; and though our dish is only plain—</p>
-</sp>
-<sp>
-<speaker>Miss C.</speaker>
-<p>We trust you'll cut—</p>
-</sp>
-<sp>
-<speaker>Snooks.</speaker>
-<stage>                                        To often come again.</stage>
-<p>As for your sanction here, the actor stops,</p>
-</sp>
-<sp>
-<speaker>Miss C.</speaker>
-<p>And stakes his happiness—</p>
-</sp>
-<sp>
-<speaker>Snooks.</speaker>
-<p>                    On these Pork Chops.</p>
-<stage>CURTAIN.</stage>
-</sp>
-</div>
-</body>
-</text>
+    <sp who="#L0664_M1">
+     <speaker>Snooks.</speaker>
+     <p>All is over—the poison works! the murders are done! the housebreaker is thrown over, and I'm
+      overthrown! Oh, Chubb! Chubb! heroic girl! I have long had my eye upon you, and now you'll be
+      in time to see me hook <hi>it!</hi> Farewell! a long farewell to all my greatness. I shall
+      have an <hi>inquest</hi> held upon me—on me, who have gone <hi>in quest</hi> of so many
+      myself! In half-an-hour the laudanum will have done its work—the remaining time I will employ
+      to my own profit. I'll go to my garret and write the account of my own death for the morning
+      papers—I go, and it is done—there will be a good report of my tragical ending, at all events.
+      The pen—the ink—the paper! What ho! oh!</p>
+    </sp>
+    <stage>                                        Music—Exit, melo-dramatically, R.</stage>
+   </div>
+   <div type="scene">
+    <head>SCENE SEVENTH. </head>
+    <stage>—The Garret. Sunrise.</stage>
+    <stage>Snooks discovered, asleep.</stage>
+
+    <sp who="#L0664_F4">
+     <speaker>Miss Chubb.</speaker>
+     <stage> (knocking at door without)</stage>
+     <p>Mr. Snooks! Mr. Snooks! What can have possibly happened to him?</p>
+    </sp>
+    <sp who="#L0664_M1">
+     <speaker>Snooks.</speaker>
+     <stage> (awaking)</stage>
+     <p>Who calls on Snooks?</p>
+    </sp>
+    <sp who="#L0664_F4">
+     <speaker>Miss Chubb.</speaker>
+     <p>Why, do you know what time it is? It's past ten! and here's a letter been waiting for you
+      this hour and more!</p>
+    </sp>
+    <sp who="#L0664_M1">
+     <speaker>Snooks.</speaker>
+     <p>A letter! Why, surely—where am I? can I have been dreaming all this while? It must be so.
+      I'll see if she knows anything about it! <stage>(opens door)</stage>
+      <stage>Enter Miss Chubb, with letter.</stage> Why, bless my heart, Miss Chubb, you don't look
+      as if you'd been up all night!</p>
+    </sp>
+    <sp who="#L0664_F4">
+     <speaker>Miss C.</speaker>
+     <p>La! why should I? You've been dreaming I am afraid, Mr. Snooks.</p>
+    </sp>
+    <sp who="#L0664_M1">
+     <speaker>Snooks.</speaker>
+     <p>Dreaming! Oh, I see how it is! those cursed pork chops—fit of indigestion, caused the
+      nightmare, and having my brain bewildered with murders and robberies during the day, I've been
+      dreaming about robbers all night!</p>
+    </sp>
+    <sp who="#L0664_F4">
+     <speaker>Miss C.</speaker>
+     <p>And so you've really had the nightmare through eating pork chops!</p>
+    </sp>
+    <sp who="#L0664_M1">
+     <speaker>Snooks.</speaker>
+     <p>Yes; rather <hi>porkuliar</hi>, isn't it? But this letter! <stage>(takes it)</stage> Who can
+      it be from? I haven't had a letter this twelvemonth. <stage>(reads)</stage> “Dear
+      Septimus,—Uncle Bob has remembered you in his will, and left you an annuity of fifty pounds
+      a-year, with his pork shop in the Borough. Can't write more, as the post is just leaving. Your
+      affectionate   cousin, Angelica Snooks.” Fifty pounds a year and a pork shop in the Borough!
+      I'm a made man! Your mother's rent shall be paid, and you shall be Mrs. Snooks!</p>
+    </sp>
+    <sp who="#L0664_F4">
+     <speaker>Miss C.</speaker>
+     <p>La, Septimus, you don't say so!</p>
+    </sp>
+    <sp who="#L0664_M1">
+     <speaker>Snooks.</speaker>
+     <p>It's a bargain! I'm so overjoyed that even the nightmare is forgotten, so we'll invite our
+      friends, here, to come another night.</p>
+    </sp>
+    <sp who="#L0664_F4">
+     <speaker>Miss C.</speaker>
+     <p>At nine o'clock, to supper.</p>
+    </sp>
+    <sp who="#L0664_M1">
+     <speaker>Snooks.</speaker>
+     <p>But how to serve this novel dish of fun? </p>
+     <p>Perhaps some may think our Pork Chops <hi>over done!</hi></p>
+    </sp>
+    <sp who="#L0664_F4">
+     <speaker>Miss C.</speaker>
+     <p>To these kind friends you should refer the questions, </p>
+     <p>And hope our jest—</p>
+    </sp>
+    <sp who="#L0664_M1">
+     <speaker>Snooks.</speaker>
+     <stage>                                        Will not cause indigestion!</stage>
+     <p>Agreed; and though our dish is only plain—</p>
+    </sp>
+    <sp who="#L0664_F4">
+     <speaker>Miss C.</speaker>
+     <p>We trust you'll cut—</p>
+    </sp>
+    <sp who="#L0664_M1">
+     <speaker>Snooks.</speaker>
+     <stage>                                        To often come again.</stage>
+     <p>As for your sanction here, the actor stops,</p>
+    </sp>
+    <sp who="#L0664_F4">
+     <speaker>Miss C.</speaker>
+     <p>And stakes his happiness—</p>
+    </sp>
+    <sp who="#L0664_M1">
+     <speaker>Snooks.</speaker>
+     <p>                    On these Pork Chops.</p>
+     <stage>CURTAIN.</stage>
+    </sp>
+   </div>
+  </body>
+ </text>
 </TEI>

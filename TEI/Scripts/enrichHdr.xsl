@@ -15,7 +15,7 @@
   />
  </xsl:variable>
  
- <!-- set globals -->
+ <!-- set global counts -->
  <xsl:variable name="ppCount" select="count(//t:pb)"/>
  <xsl:variable name="spCount" select="count(//t:sp)"/>
  <xsl:variable name="spvCount" select="count(//t:sp[t:l])"/> 
@@ -25,27 +25,38 @@
    select="normalize-space(replace(string-join(//t:stage, ' '), '[\(\)\-\.—]', ' '))"/>
  <xsl:variable name="spWords" select="count(tokenize($spString))"/>
  <xsl:variable name="stWords" select="count(tokenize($stString))"/>
- <xsl:variable name="fileTitle" select="concat(//t:titlePage//t:titlePart[@type='main'],' TEI edition')"/>
- <xsl:variable name="currentFile" select="tokenize(base-uri(.), '/')[last()]"/> 
+ 
+ <!-- set default title -->
+
+ <xsl:variable name="fileTitle" select="concat(//t:titlePage//t:titlePart[@type='main'],': TEI edition')"/>
+  <xsl:variable name="currentFile" select="tokenize(base-uri(.), '/')[last()]"/> 
+ 
+ <xsl:variable name="id" select="*:TEI/@xml:id"/>
  
  <xsl:template match="/">
-  <xsl:message>  <xsl:value-of 
+  <xsl:message> 
+Processing <xsl:value-of 
        select="concat($currentFile, ' ',   $fileTitle)"/></xsl:message>
     <xsl:message><xsl:value-of select="$ppCount"/> pages ; <xsl:value-of 
-        select="$spWords+$stWords"/> words, of them  <xsl:value-of select="$spWords"/> spoken and <xsl:value-of select="$stWords"/> in stage directions; <xsl:value-of  select="$spCount"/> speeches, <xsl:value-of select="$spvCount"/> of them in verse. 
-  </xsl:message>
+        select="$spWords+$stWords"/> words, of them  <xsl:value-of select="$spWords"/> spoken and <xsl:value-of select="$stWords"/> in stage directions; <xsl:value-of  select="$spCount"/> speeches, <xsl:value-of select="$spvCount"/> of them in verse. </xsl:message>
   <xsl:apply-templates/>
  </xsl:template>
 
+ <!-- add required xml:lang -->
+ <xsl:template match="t:TEI">
+  <xsl:copy><xsl:apply-templates select="@*"/>
+   <xsl:attribute name="xml:lang">en</xsl:attribute>
+   <xsl:apply-templates/></xsl:copy>
+ </xsl:template>
+ 
  
  <xsl:template match="t:sourceDesc"> 
- <!-- replace with source info as given in catalogue -->
- <xsl:variable name="id" select="ancestor::*:TEI/@xml:id"/>
-<!-- <xsl:message>Now adding metadata for text id  <xsl:value-of select="$id"/> </xsl:message>-->
-<xsl:if test="not(following::t:revisionDesc)">
-<xsl:message>!!! Revision Desc is missing: cannot add profileDesc !!! </xsl:message>
-</xsl:if>
-
+  <xsl:if test="not(following::t:revisionDesc)">
+   <xsl:message>!!! Revision Desc is missing: cannot add profileDesc !!! </xsl:message>
+  </xsl:if> 
+  
+ <!-- replace any sourceDesc info with data given in catalogue -->
+ 
 <xsl:for-each select="document('/home/lou/Public/Lacy/catalogue.xml')//*:div[@type='work' and @xml:id eq $id]">
    <xsl:variable name="catBib" select="."/>
    <xsl:variable name="subjectStr" select="$catBib/@type"/>
@@ -55,10 +66,8 @@
   </xsl:for-each>
  </xsl:template>
  
-
  <xsl:template match="t:revisionDesc">
   <profileDesc xmlns="http://www.tei-c.org/ns/1.0">
-   <xsl:variable name="id" select="ancestor::*:TEI/@xml:id"/>
    <xsl:variable name="catStr"
     select="document('/home/lou/Public/Lacy/catalogue.xml')//*:div[@type='work' and @xml:id eq $id]/@ana"/>
    <xsl:variable name="catStrs" select="tokenize($catStr, '_')"/>
@@ -80,17 +89,18 @@
    </particDesc>
   </profileDesc>  
   <xsl:copy>
-   <change when="{$today}"  xmlns="http://www.tei-c.org/ns/1.0">Standardize header components</change>
+   <change when="{$today}"  xmlns="http://www.tei-c.org/ns/1.0">Add wikidata link to titleStmt where possible</change>
    <xsl:apply-templates/>
   </xsl:copy>
  </xsl:template>
 
 
- <xsl:template match="@resp">
+<!-- <xsl:template match="@resp">
 <xsl:if test=". ne 'source'">  <xsl:attribute name="source" select="concat('#',.)"/>
-</xsl:if> </xsl:template>
+</xsl:if> </xsl:template>-->
  
- <xsl:template match="t:extent">
+ <xsl:template match="t:extent"><xsl:text>
+ </xsl:text>
    <xsl:copy>
    <xsl:value-of select="."/>
     <measure  xmlns="http://www.tei-c.org/ns/1.0" type="pp" quantity="{$ppCount}"/><xsl:text>
@@ -112,36 +122,70 @@
  
 <xsl:template match="t:publicationStmt">
 <xsl:copy>
- <distributor xmlns="http://www.tei-c.org/ns/1.0">Privately distributed by the Digital Lacy Project</distributor>
+<distributor xmlns="http://www.tei-c.org/ns/1.0">Privately distributed by the Digital Lacy Project</distributor>
 <idno xmlns="http://www.tei-c.org/ns/1.0" type='LAE'>
 <xsl:value-of select="ancestor::t:TEI/@xml:id"/>
 </idno>
- <availability xmlns="http://www.tei-c.org/ns/1.0"><licence xmlns="http://www.tei-c.org/ns/1.0" target="https://creativecommons.org/publicdomain/zero/1.0/">The Lacy Project waives all rights to the TEI encoding applied to this material, which is believed to be in the public domain. You may copy, modify, distribute, or perform this work freely. </licence></availability>
+ <availability xmlns="http://www.tei-c.org/ns/1.0"><licence xmlns="http://www.tei-c.org/ns/1.0" target="https://creativecommons.org/publicdomain/zero/1.0/">The Lacy Project waives all rights to the TEI encoding applied to this material, which it believes to be in the public domain. You may copy, modify, distribute, or perform this work freely. </licence></availability>
 </xsl:copy>
 </xsl:template>
  
+<!-- add data to titleStmt -->
+ 
 <xsl:template match="t:fileDesc/t:titleStmt">
+ 
+<xsl:variable name="fileAuth" select="author[1]"/>
+<xsl:variable name="authLink" select="t:tidy($fileAuth)"/>
+ 
+ <!-- set "special" if author/@n --> 
+ <xsl:variable name="special" select="document('/home/lou/Public/Lacy/catalogue.xml')//*:div[@type='work' and @xml:id eq $id]//*:author/@n"/>
+ 
+ <xsl:variable name="persNum"> 
+  <xsl:choose><xsl:when test="$special">
+   <xsl:value-of select="$special"/>
+    <xsl:message>Using special value <xsl:value-of select="$special"/></xsl:message>
+  </xsl:when>
+  <xsl:otherwise>
+   <xsl:value-of select="document('/home/lou/Public/Lacy/authorListPlus.xml')//person[@n = $authLink]/@xml:id"/>
+  </xsl:otherwise></xsl:choose>
+</xsl:variable>
+ <xsl:variable name="wikiNum" select="document('/home/lou/Public/Lacy/authorListPlus.xml')//person[@xml:id eq $persNum]/listBibl/bibl/idno[@type='wikidata']"/>
+ <xsl:message>Author: <xsl:value-of select="$fileAuth"/> -  <xsl:value-of select="$authLink"/> -  <xsl:value-of select="$persNum"/>   -  <xsl:value-of select="$wikiNum"/>  </xsl:message>
+ <xsl:if test="not(starts-with($wikiNum,'Q'))">
+  <xsl:message>No wikidata entry for <xsl:value-of select="$fileAuth"/></xsl:message>
+ </xsl:if>
+ 
  <xsl:copy>
-  <title xmlns="http://www.tei-c.org/ns/1.0"><xsl:value-of select="$fileTitle"/></title>
-  <xsl:copy-of select="author"/>
- <!-- <xsl:apply-templates select="*"/>
--->  <respStmt xmlns="http://www.tei-c.org/ns/1.0">
+  <title xmlns="http://www.tei-c.org/ns/1.0">
+   <xsl:value-of select="$fileTitle"/>
+  </title>
+  <author xmlns="http://www.tei-c.org/ns/1.0">
+   <xsl:attribute name="ref" select="concat('lacyp:',$persNum)"/>
+  <persName><xsl:value-of select="$fileAuth"/></persName>
+   <idno type="wikidata"><xsl:value-of select="$wikiNum"/></idno>
+  </author>
+
+  <respStmt xmlns="http://www.tei-c.org/ns/1.0">
    <resp xmlns="http://www.tei-c.org/ns/1.0">TEI conversion</resp>
    <name xmlns="http://www.tei-c.org/ns/1.0">Lou Burnard</name>
   </respStmt>
  </xsl:copy>
 </xsl:template> 
 
-<!-- suppress replaced elements -->
+<!-- suppress replaced and superceded elements -->
  
 <xsl:template match="t:respStmt"/>
- <xsl:template match="t:profileDesc"/>
-
- <!-- suppress superceded elements -->
+<xsl:template match="t:profileDesc"/>
+<xsl:template match="t:publicationStmt/t:idno"/>
+<xsl:template match="t:listRef"/>
+<xsl:template match="t:eventName"/>
  
- <xsl:template match="t:publicationStmt/t:idno"/>
- <xsl:template match="t:listRef"/>
- <xsl:template match="t:eventName"/>
+ <xsl:function name="t:tidy">
+  <xsl:param name="str"/>  
+  <xsl:variable name="q">&quot;“</xsl:variable>
+  <xsl:variable name="tidyN" select='normalize-space(replace(replace($str, "[\[\]]",""),$q,""))'/>
+  <xsl:value-of select="concat(substring-before($tidyN,', '),substring(substring-after($tidyN,', '),1,1))"/>
+ </xsl:function>
 
  
  <!-- default template: copy everything -->
