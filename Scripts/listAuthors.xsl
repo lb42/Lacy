@@ -19,14 +19,14 @@
     <xsl:if test="string-length(.) gt 1">
     <xsl:variable name="a" as="xs:string" select="."/>
     <xsl:variable name="f" select="count($authorsNormalized[. eq $a])"/> 
-     <xsl:variable name="occurrences"><xsl:value-of select="$context//t:author[contains(normalize-space(replace(.,$chars2zap,'')),$a)]/parent::t:bibl/@xml:id"/></xsl:variable>
+     <xsl:variable name="occurrences"><xsl:value-of select="$context//t:author[contains(normalize-space(replace(.,$chars2zap,'')),$a)]/ancestor::t:div/@xml:id"/></xsl:variable>
    
- <!--  <xsl:comment> <xsl:value-of select="$a"/> occurs <xsl:value-of select="$f"/> times</xsl:comment>
- -->    <xsl:variable name="nicNums" select="$context//t:div/t:bibl[contains($occurrences,@xml:id)]/@corresp"/>
+ <!--<xsl:message> <xsl:value-of select="$a"/> occurs <xsl:value-of select="$f"/> times</xsl:message>
+-->  <xsl:variable name="nicNums" select="$context//t:div[@type='work'][contains($occurrences,@xml:id)]/t:bibl/t:idno[@type='nic']"/>
        <xsl:variable name="nicNo" select="substring-after($nicNums[position() eq 1],':')"/>
 <!--     <xsl:comment>Nicno <xsl:value-of select="$nicNo"/></xsl:comment>
 -->     <xsl:variable name="nicName"><xsl:value-of 
-      select="document('/home/lou/Public/Lacy/Nicoll/allEntries.xml')//(*:entry|*:entryFrag)[@xml:id=$nicNo]/*:author"></xsl:value-of>
+      select="document('/home/lou/Public/Lacy/Nicoll/allEntries.xml')//(*:entry|*:entryFrag)[@xml:id=$nicNums[1]]/*:author"></xsl:value-of>
      </xsl:variable>
      <xsl:variable name="id">
      <xsl:number value="position()" format="0001"/>
@@ -56,7 +56,14 @@
     <xsl:message>Couldn't find <xsl:value-of select="$a"/> in <xsl:value-of select="$nicNums"/></xsl:message>   
    </xsl:otherwise></xsl:choose>
     
-  <writerOf><xsl:value-of select="$occurrences"/></writerOf> 
+  <listBibl>
+   <xsl:for-each select="$occurrences">
+    <xsl:variable name="thePlay" select="."/>
+    <bibl n="{$thePlay}">
+     <xsl:value-of select="$context//t:div[@type='work' and @xml:id eq $thePlay]/t:bibl/t:title[@type='main']"/>
+    </bibl>
+   </xsl:for-each>
+   <xsl:value-of select="$occurrences"/></listBibl> 
    </person><xsl:text>
 </xsl:text></xsl:if>
    </xsl:for-each>
