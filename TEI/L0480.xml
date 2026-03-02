@@ -1,82 +1,48 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L0480">
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L0480" xml:lang="en">
  <teiHeader>
   <fileDesc>
-   <titleStmt>
-    <title>Was I to Blame? TEI edition</title>
-    <author>Rodwell, G. Herbert </author>
-    <respStmt>
-     <resp>TEI conversion</resp>
-     <name>Lou Burnard</name>
-    </respStmt>
-   </titleStmt>
-   <publicationStmt>
-    <distributor>Privately distributed by the Digital Lacy Project</distributor>
-    <idno type="LAE">L0480</idno>
-    <availability>
-     <licence target="https://creativecommons.org/publicdomain/zero/1.0/">The Lacy Project waives
-      all rights to the TEI encoding applied to this material, which is believed to be in the public
-      domain. You may copy, modify, distribute and perform this work freely. </licence>
-    </availability>
-   </publicationStmt>
-   <sourceDesc>
-    <bibl type="origin" n="32.15"><author>Rodwell, G. Herbert</author><title type="main"
-      n="wasitoblame">Was I to Blame ?</title><title type="sub">A Farce in one act</title><extent>18
-      pp (UM copy: 532 - 550)<measure type="pp" quantity="18"/>
-      <measure type="spCount" quantity="341"/>
-      <measure type="spvCount" quantity="0"/>
-      <measure type="txWords" quantity="5987"/>
-      <measure type="spWords" quantity="5393"/>
-      <measure type="stWords" quantity="594"/>
-     </extent>
-     <title level="s"> Lacy's Acting Edition, volume 32, No. 0480</title><idno type="nic"
-      >N03395</idno></bibl>
-    <bibl type="surrogate" subtype="copytext"><ref
-      target="https://babel.hathitrust.org/cgi/pt?id=mdp.39015067452998&amp;seq=532 ">UM from
-      HT</ref><ref target="local:Vol32/L0480/L0480-um.pdf"/></bibl>
-    <listEvent>
-     <event type="firstPerf" when="1830-12-13" source="nicoll" where="Adelphi">
-      <desc>Premiered at Royal Adelphi Theatre</desc>
-     </event>
-    </listEvent>
-   </sourceDesc>
+   <titleStmt><title>Was I to Blame?: TEI edition</title><author ref="lacyp:W0270"><persName>Rodwell, G. Herbert </persName><idno type="wikidata">Q17015846</idno></author><respStmt><resp>TEI conversion</resp><name>Lou Burnard</name></respStmt></titleStmt>
+   <publicationStmt><distributor>Privately distributed by the Digital Lacy Project</distributor><idno type="LAE">L0480</idno><availability><licence target="https://creativecommons.org/publicdomain/zero/1.0/">The Lacy Project waives all rights to the TEI encoding applied to this material, which it believes to be in the public domain. You may copy, modify, distribute, or perform this work freely. </licence></availability></publicationStmt>
+   <sourceDesc><bibl type="originalSource" n="32.15"><author n="W0270">Rodwell, G. Herbert</author>
+      <title type="main">Was I to Blame ?</title>
+      <title type="sub">A Farce in one act</title>
+ <extent>18 pp (UM copy: 532 - 550)<measure type="pp" quantity="18"/>
+  <measure type="spCount" quantity="341"/>
+  <measure type="spvCount" quantity="0"/>
+  <measure type="txWords" quantity="5987"/>
+  <measure type="spWords" quantity="5393"/>
+  <measure type="stWords" quantity="594"/>
+  </extent>
+      <title level="s"> Lacy's Acting Edition, volume 32, No. 0480</title><idno type="nic">N03395</idno></bibl><bibl type="surrogate" subtype="copytext"><ref target="https://babel.hathitrust.org/cgi/pt?id=mdp.39015067452998&amp;seq=532 ">UM from
+       HT</ref><ref target="local:Vol32/L0480/L0480-um.pdf"/></bibl><listEvent>
+      <event type="firstPerf" when="1830-12-13" source="nicoll" where="Adelphi">
+       <desc>Premiered at Royal Adelphi Theatre</desc>
+      </event>
+     </listEvent></sourceDesc>
   </fileDesc>
-  <profileDesc>
-   <!--S 1 Farce Ba. BURLETTA-->
-   <textClass>
-    <catRef target="#sizeS"/>
-    <catRef target="#act1"/>
-    <catRef target="nic:Ba."/>
-    <keywords>
-     <term>BURLETTA</term>
-    </keywords>
-   </textClass>
-   <particDesc>
-    <listPerson>
-     <person xml:id="L0480_M1">
-      <persName type="role">Edmund Melville</persName>
-      <persName type="spkr" n="136">Mel.</persName>
-     </person>
-     <person xml:id="L0480_M2">
-      <persName type="role">Lord Charles Evered</persName>
-      <persName type="spkr" n="92">Lord C.</persName>
-     </person>
-     <person xml:id="L0480_M3">
-      <persName type="role">Mathew Multiply</persName>
-      <persName type="spkr" n="26">Mathew.</persName>
-     </person>
-     <person xml:id="L0480_M4">
-      <persName type="role">Servant</persName>
-      <persName type="spkr" n="2">Servant.</persName>
-     </person>
-     <person xml:id="L0480_F5">
-      <persName type="role">Julia</persName>
-      <persName type="spkr" n="85">Julia.</persName>
-     </person>
-    </listPerson>
-   </particDesc>
-  </profileDesc>
-  <revisionDesc>
+  
+  <profileDesc><!--S 1 Farce Ba. BURLETTA--><textClass><catRef target="#sizeS"/><catRef target="#act1"/><catRef target="nic:Ba."/><keywords><term>BURLETTA</term></keywords></textClass><particDesc><listPerson>
+  <person xml:id="L0480_M1">
+   <persName type="role">Edmund Melville</persName>
+   <persName type="spkr" n="136">Mel.</persName>
+  </person>
+  <person xml:id="L0480_M2">
+   <persName type="role">Lord Charles Evered</persName>
+   <persName type="spkr" n="92">Lord C.</persName>
+  </person>
+  <person xml:id="L0480_M3">
+   <persName type="role">Mathew Multiply</persName>
+   <persName type="spkr" n="26">Mathew.</persName>
+  </person>
+  <person xml:id="L0480_M4">
+   <persName type="role">Servant</persName>
+   <persName type="spkr" n="2">Servant.</persName>
+  </person>
+  <person xml:id="L0480_F5">
+   <persName type="role">Julia</persName>
+   <persName type="spkr" n="85">Julia.</persName>
+  </person>
+ </listPerson></particDesc></profileDesc><revisionDesc><change when="2026-03-02">Add wikidata link to titleStmt where possible</change>
    <change when="2026-02-02">Standardize header components</change>
    <change when="2026-01-26">TEI autotagging by Gemini Pro 2.5</change>
   </revisionDesc>

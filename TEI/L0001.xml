@@ -1,18 +1,19 @@
-<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L0001">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://dracor.org/schema.rng" schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L0001" xml:lang="en">
  <teiHeader>
   <fileDesc>
-   <titleStmt><title>Time Tries All!: TEI edition</title><author>Courtney, John</author><respStmt><resp>TEI conversion</resp><name>Lou Burnard</name></respStmt></titleStmt>
-   <publicationStmt><distributor>Privately distributed by the Digital Lacy Project</distributor><idno type="LAE">L0001</idno><availability><licence target="https://creativecommons.org/publicdomain/zero/1.0/">The Lacy Project waives all rights to the TEI encoding applied to this material, which is believed to be in the public domain. You may copy, modify, distribute and perform this work freely. </licence></availability></publicationStmt>
-   <sourceDesc><bibl type="origin" n="1.1"><author>Courtney, John</author><title type="main" n="timetriesall">Time Tries All!</title><title type="sub">An Original Drama in two
-       acts</title><extent>23 pp (UM copy: 8 - 31)<measure type="pp" quantity="24"/>
+   <titleStmt><title>Time Tries All!: TEI edition</title><author ref="lacyp:W0069"><persName>Courtney, John</persName><idno type="wikidata">Q16065870</idno></author><respStmt><resp>TEI conversion</resp><name>Lou Burnard</name></respStmt></titleStmt>
+   <publicationStmt><distributor>Privately distributed by the Digital Lacy Project</distributor><idno type="LAE">L0001</idno><availability><licence target="https://creativecommons.org/publicdomain/zero/1.0/">The Lacy Project waives all rights to the TEI encoding applied to this material, which it believes to be in the public domain. You may copy, modify, distribute, or perform this work freely. </licence></availability></publicationStmt>
+   <sourceDesc><bibl type="originalSource" n="1.1"><author>Courtney, John</author> <title type="main" n="timetriesall">Time Tries All!</title> <title type="sub">An Original Drama in two acts</title>
+ <extent>23 pp
+       (UM copy: 8 - 31)<measure type="pp" quantity="24"/>
   <measure type="spCount" quantity="472"/>
   <measure type="spvCount" quantity="1"/>
   <measure type="txWords" quantity="10036"/>
   <measure type="spWords" quantity="8782"/>
   <measure type="stWords" quantity="1254"/>
   </extent>
-      <title level="s"> Lacy's Acting Edition, volume 1, No. 0001</title><idno type="nic">N00793</idno><idno type="vpp">Vol1iTime</idno></bibl><bibl type="surrogate" subtype="copytext"><ref target="https://lb42.github.io/Lacy/Source/VPP/L0001-vpp.pdf">LoB from VPP</ref><ref target="local:Vol01/L0001/L0001-vpp.pdf"/><ref target="local:Vol01/L0001/Vol1iTime.pdf"/></bibl><bibl type="surrogate"><ref target="https://hdl.handle.net/2027/hvd.32044086859295">HVD
-       from HT</ref><ref target="local:Vol01/L0001/L0001-hv.pdf"/></bibl><bibl type="surrogate"><ref target="https://babel.hathitrust.org/cgi/pt?id=mdp.39015043286031&amp;seq=8 ">UM from
+       <title level="s"> Lacy's Acting Edition, volume 1, No. 0001</title><idno type="nic">N00793</idno><idno type="vpp">Vol1iTime</idno></bibl><bibl type="surrogate" subtype="copytext"><ref target="https://lb42.github.io/Lacy/Source/VPP/L0001-vpp.pdf">LoB from VPP</ref><ref target="local:Vol01/L0001/L0001-vpp.pdf"/><ref target="local:Vol01/L0001/Vol1iTime.pdf"/></bibl><bibl type="surrogate"><ref target="https://hdl.handle.net/2027/hvd.32044086859295">HVD from
+       HT</ref><ref target="local:Vol01/L0001/L0001-hv.pdf"/></bibl><bibl type="surrogate"><ref target="https://babel.hathitrust.org/cgi/pt?id=mdp.39015043286031&amp;seq=8 ">UM from
        HT</ref><ref target="local:Vol01/L0001/L0001-um.pdf"/></bibl><bibl type="surrogate" subtype="TEI"><ref target="https://lb42.github.io/Lacy/L0001.html">TEI</ref></bibl><listEvent>
       <event type="firstPerf" when="1848-09-04" source="textNic" where="Olympic">
        <desc>Premiered at Royal Olympic Theatre 4 Sept. 1848</desc>
@@ -55,7 +56,7 @@
 <persName type="spkr" n="54">Fan.</persName>
 </person>
 
-</listPerson></particDesc></profileDesc><revisionDesc><change when="2026-01-11">Standardize header components</change><change when="2026-01-10">Metadata refreshed from catalogue and Partix folder</change>
+</listPerson></particDesc></profileDesc><revisionDesc><change when="2026-02-23">Add wikidata link to titleStmt where possible</change><change when="2026-01-11">Standardize header components</change><change when="2026-01-10">Metadata refreshed from catalogue and Partix folder</change>
    <change when="2025-11-03">Add @facs links to page images</change>
    <change when="2025-11-02">Metadata refreshed from catalogue and Partix folder</change>
    <change when="2025-09-11">Dracorize</change>

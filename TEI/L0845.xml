@@ -1,112 +1,71 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L0845">
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L0845" xml:lang="en">
  <teiHeader>
   <fileDesc>
-   <titleStmt>
-    <title>Carte De Visite : TEI edition</title>
-    <author>Williams, Montagu</author>
-    <author>Burnand, Francis C.</author>
-    <respStmt>
-     <resp>TEI conversion</resp>
-     <name>Lou Burnard</name>
-    </respStmt>
-   </titleStmt>
-   <publicationStmt>
-    <distributor>Privately distributed by the Digital Lacy Project</distributor>
-    <idno type="LAE">L0845</idno>
-    <availability>
-     <licence target="https://creativecommons.org/publicdomain/zero/1.0/">The Lacy Project waives
-      all rights to the TEI encoding applied to this material, which is believed to be in the public
-      domain. You may copy, modify, distribute and perform this work freely. </licence>
-    </availability>
-   </publicationStmt>
-   <sourceDesc>
-    <bibl type="origin" n="57.5"><author>Williams, Montagu</author>;<author>Burnand, Francis
-      C.</author><title n="cartedevisite" type="main">Carte de Visite</title><title type="sub">An
-      Original Farce or a Piece of Light Photographical Writing in one act. Not from the
-      French</title><extent>17 pp (UM copy: 136 - 153)<measure type="pp" quantity="18"/>
-      <measure type="spCount" quantity="306"/>
-      <measure type="spvCount" quantity="2"/>
-      <measure type="txWords" quantity="5956"/>
-      <measure type="spWords" quantity="5144"/>
-      <measure type="stWords" quantity="812"/>
-     </extent>
-     <title level="s"> Lacy's Acting Edition, volume 57, No. 0845</title><idno type="nic"
-      >N19847</idno><idno type="vpp">Vol57vCarte</idno></bibl>
-    <bibl type="surrogate" subtype="copytext"><ref
-      target="https://lb42.github.io/Lacy/Source/VPP/L0845-vpp.pdf">LoB from VPP</ref><ref
-      target="local:Vol57/L0845/L0845-vpp.pdf"/><ref target="local:Vol57/L0845/Vol57vCarte.pdf"
-     /></bibl>
-    <bibl type="surrogate"><ref
-      target="https://babel.hathitrust.org/cgi/pt?id=mdp.39015067453814&amp;seq=136&#xA;     ">UM
-      from HT</ref><ref target="local:Vol57/L0845/L0845-um.pdf"/></bibl>
-    <bibl type="surrogate" subtype="TEI"><ref target="https://lb42.github.io/Lacy/L0845.html"
-      >TEI</ref></bibl>
-    <listEvent>
-     <event type="LCP" when="1862-12-22">
-      <desc>Licence sent 22 December 1862, no theatre indicated. </desc>
-      <bibl type="msSource">BL ms LCP_53018.P</bibl>
-     </event>
-     <event type="firstPerf" when="1862-12-26" source="textNic" where="St.James's">
-      <desc>Premiered at Theatre Royal, St.James's 26 Dec. 1862</desc>
-     </event>
-    </listEvent>
-   </sourceDesc>
+   <titleStmt><title>Carte De Visite.: TEI edition</title><author ref="lacyp:W0332"><persName>Williams, Montagu</persName><idno type="wikidata">Q6904082</idno></author><respStmt><resp>TEI conversion</resp><name>Lou Burnard</name></respStmt></titleStmt>
+   <publicationStmt><distributor>Privately distributed by the Digital Lacy Project</distributor><idno type="LAE">L0845</idno><availability><licence target="https://creativecommons.org/publicdomain/zero/1.0/">The Lacy Project waives all rights to the TEI encoding applied to this material, which it believes to be in the public domain. You may copy, modify, distribute, or perform this work freely. </licence></availability></publicationStmt>
+   <sourceDesc><bibl type="originalSource" n="57.5"><author>Williams, Montagu</author>; 
+      <author>Burnand, Francis C.</author> <title n="cartedevisite" type="main">Carte de Visite</title> <title type="sub">An
+       Original Farce or a Piece of Light Photographical Writing in one act. Not from the
+       French</title>
+ <extent>17 pp (UM copy: 136 - 153)<measure type="pp" quantity="18"/>
+  <measure type="spCount" quantity="306"/>
+  <measure type="spvCount" quantity="2"/>
+  <measure type="txWords" quantity="5956"/>
+  <measure type="spWords" quantity="5144"/>
+  <measure type="stWords" quantity="812"/>
+  </extent>
+       <title level="s"> Lacy's Acting Edition, volume 57, No. 0845</title><idno type="nic">N19847</idno><idno type="vpp">Vol57vCarte</idno></bibl><bibl type="surrogate" subtype="copytext"><ref target="https://lb42.github.io/Lacy/Source/VPP/L0845-vpp.pdf">LoB from VPP</ref><ref target="local:Vol57/L0845/L0845-vpp.pdf"/><ref target="local:Vol57/L0845/Vol57vCarte.pdf"/></bibl><bibl type="surrogate"><ref target="https://babel.hathitrust.org/cgi/pt?id=mdp.39015067453814&amp;seq=136&#xA;     ">UM
+       from HT</ref><ref target="local:Vol57/L0845/L0845-um.pdf"/></bibl><bibl type="surrogate" subtype="TEI"><ref target="https://lb42.github.io/Lacy/L0845.html">TEI</ref></bibl><listEvent>
+      <event type="LCP" when="1862-12-22">
+       <desc>Licence sent 22 December 1862, no theatre indicated. </desc>
+       <bibl type="msSource">BL ms LCP_53018.P</bibl>
+      </event>
+      <event type="firstPerf" when="1862-12-26" source="textNic" where="St.James's">
+       <desc>Premiered at Theatre Royal, St.James's 26 Dec. 1862</desc>
+      </event>
+     </listEvent></sourceDesc>
   </fileDesc>
 
-  <profileDesc>
-   <!--S 1 Farce Ca. COMEDIETTA-->
-   <textClass>
-    <catRef target="#sizeS"/>
-    <catRef target="#act1"/>
-    <catRef target="nic:Ca."/>
-    <keywords>
-     <term>COMEDIETTA</term>
-    </keywords>
-   </textClass>
-   <particDesc>
-    <listPerson>
-     <person xml:id="L0845_M1">
-      <persName type="role">Mr. William Winkin </persName>
-      <persName type="spkr" n="1">Winkin.</persName>
-      <persName type="spkr" n="96">Wink.</persName>
-      <persName type="spkr" n="99">Wink.</persName>
-      <persName type="spkr" n="101">Wink</persName>
-     </person>
-     <person xml:id="L0845_M2">
-      <persName type="role">Robert Ranger</persName>
-      <persName type="spkr" n="51">Ranger.</persName>
-     </person>
-     <person xml:id="L0845_M3">
-      <persName type="role">Mons. Rayon Desoleil</persName>
+  
+  <profileDesc><!--S 1 Farce Ca. COMEDIETTA--><textClass><catRef target="#sizeS"/><catRef target="#act1"/><catRef target="nic:Ca."/><keywords><term>COMEDIETTA</term></keywords></textClass><particDesc><listPerson>
+<person xml:id="L0845_M1">
+<persName type="role">Mr. William Winkin </persName>
+<persName type="spkr" n="1">Winkin.</persName>
+<persName type="spkr" n="96">Wink.</persName>
+<persName type="spkr" n="99">Wink.</persName>
+<persName type="spkr" n="101">Wink</persName>
+</person>
+<person xml:id="L0845_M2">
+<persName type="role">Robert Ranger</persName>
+<persName type="spkr" n="51">Ranger.</persName>
+</person>
+<person xml:id="L0845_M3">
+<persName type="role">Mons. Rayon Desoleil</persName>
 
-      <persName type="spkr" n="13">Mons. R.</persName>
-      <persName type="spkr" n="1">Mons. R.</persName>
-     </person>
-     <person xml:id="L0845_F4">
-      <persName type="role"> Mrs. Winkin</persName>
-      <persName type="spkr" n="50">Mrs. W.</persName>
-     </person>
-     <person xml:id="L0845_F5">
-      <persName type="role">Mrs. Montgomery</persName>
-      <persName type="spkr" n="67">Mrs. M.</persName>
-      <persName type="spkr" n="1">Mrs. M.</persName>
-      <persName type="spkr" n="1">Mrs. M.</persName>
-     </person>
-     <person xml:id="L0845_F6">
-      <persName type="role">Betsy </persName>
-      <persName type="spkr" n="22">Betsy.</persName>
-     </person>
+<persName type="spkr" n="13">Mons. R.</persName>
+<persName type="spkr" n="1">Mons. R.</persName>
+</person>
+<person xml:id="L0845_F4">
+<persName type="role"> Mrs. Winkin</persName>
+<persName type="spkr" n="50">Mrs. W.</persName>
+</person>
+<person xml:id="L0845_F5">
+<persName type="role">Mrs. Montgomery</persName>
+<persName type="spkr" n="67">Mrs. M.</persName>
+<persName type="spkr" n="1">Mrs. M.</persName>
+<persName type="spkr" n="1">Mrs. M.</persName>
+</person>
+<person xml:id="L0845_F6">
+<persName type="role">Betsy </persName>
+<persName type="spkr" n="22">Betsy.</persName>
+</person>
 
 
 
-     <person xml:id="L0845_Mul">
-      <persName type="spkr" n="1">Both.</persName>
-     </person>
-    </listPerson>
-   </particDesc>
-  </profileDesc>
-  <revisionDesc>
+<person xml:id="L0845_Mul">
+<persName type="spkr" n="1">Both.</persName>
+</person>
+</listPerson></particDesc></profileDesc><revisionDesc><change when="2026-02-23">Add wikidata link to titleStmt where possible</change>
    <change when="2026-01-11">Standardize header components</change>
    <change when="2026-01-10">Metadata refreshed from catalogue and Partix folder</change>
    <change when="2025-11-02">Metadata refreshed from catalogue and Partix folder</change>

@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L0770">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L0770" xml:lang="en">
  <teiHeader>
   <fileDesc>
    <titleStmt>
-    <title>Mary Price: TEI edition</title>
-    <author>[Anon.]</author>
+    <title>MARY PRICE: TEI edition</title>
+    <author ref="lacyp:W0011"><persName>[Anon.]</persName><idno type="wikidata"
+     >Q4233718</idno></author>
     <respStmt>
      <resp>TEI conversion</resp>
      <name>Lou Burnard</name>
@@ -15,15 +16,16 @@
     <idno type="LAE">L0770</idno>
     <availability>
      <licence target="https://creativecommons.org/publicdomain/zero/1.0/">The Lacy Project waives
-      all rights to the TEI encoding applied to this material, which is believed to be in the public
-      domain. You may copy, modify, distribute and perform this work freely. </licence>
+      all rights to the TEI encoding applied to this material, which it believes to be in the public
+      domain. You may copy, modify, distribute, or perform this work freely. </licence>
     </availability>
    </publicationStmt>
    <sourceDesc>
-    <bibl type="origin" n="52.5"><author>[Anon.]</author><title type="main" n="maryprice">Mary
-      Price; or, The Adventures of a Servant Girl</title><title type="sub">A Domestic Drama in two
-      acts</title><title type="source" n="#EN">Founded on a Popular Work by G.W.M.
-      Reynolds</title><extent>31 pp (UM copy: 162 - 193)<measure type="pp" quantity="32"/>
+    <bibl type="originalSource" n="52.5"><author ref="Lacyp:W0011">[Anon.]</author>
+     <title type="main" n="maryprice">Mary Price; or, The Adventures of a Servant Girl</title>
+     <title type="sub">A Domestic Drama in two acts</title>
+     <title type="source" n="#EN">Founded on a Popular Work by G.W.M. Reynolds</title>
+     <extent>31 pp (UM copy: 162 - 193)<measure type="pp" quantity="32"/>
       <measure type="spCount" quantity="466"/>
       <measure type="spvCount" quantity="2"/>
       <measure type="txWords" quantity="10687"/>
@@ -54,6 +56,7 @@
     </listEvent>
    </sourceDesc>
   </fileDesc>
+
   <profileDesc>
    <!--M 2 Drama D. DRAMA-->
    <textClass>
@@ -127,6 +130,7 @@
    </particDesc>
   </profileDesc>
   <revisionDesc>
+   <change when="2026-02-24">Add wikidata link to titleStmt where possible</change>
    <change when="2026-01-20">Standardize header components</change>
    <change when="2026-01-03">Auto-tagged by Gemini 3.0 (Flash 2.5)</change>
   </revisionDesc>

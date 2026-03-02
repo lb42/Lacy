@@ -1,100 +1,62 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L0411">
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L0411" xml:lang="en">
  <teiHeader>
   <fileDesc>
-   <titleStmt>
-    <title>I'll write to the "Times.": TEI edition</title>
-    <author>Wooler, J. P.</author>
-    <respStmt>
-     <resp>TEI conversion</resp>
-     <name>Lou Burnard</name>
-    </respStmt>
-   </titleStmt>
-   <publicationStmt>
-    <distributor>Privately distributed by the Digital Lacy Project</distributor>
-    <idno type="LAE">L0411</idno>
-    <availability>
-     <licence target="https://creativecommons.org/publicdomain/zero/1.0/">The Lacy Project waives
-      all rights to the TEI encoding applied to this material, which is believed to be in the public
-      domain. You may copy, modify, distribute and perform this work freely. </licence>
-    </availability>
-   </publicationStmt>
-   <sourceDesc>
-    <bibl type="origin" n="28.6"><author>Wooler, J.P.</author><title type="main"
-      n="illwritetothetimes">I'll Write to the “Times”</title><title type="sub">A Farce in one
-      Act</title><extent>21 pp (UM copy: 268 - 289)<measure type="pp" quantity="21"/>
-      <measure type="spCount" quantity="413"/>
-      <measure type="spvCount" quantity="0"/>
-      <measure type="txWords" quantity="8393"/>
-      <measure type="spWords" quantity="7896"/>
-      <measure type="stWords" quantity="497"/>
-     </extent>
-     <title level="s"> Lacy's Acting Edition, volume 28, No. 0411</title><idno type="nic"
-      >N20073</idno><idno type="vpp">Vol28viWrite</idno></bibl>
-    <bibl type="surrogate" subtype="copytext"><ref
-      target="https://lb42.github.io/Lacy/Source/VPP/L0411-vpp.pdf">LoB from VPP</ref><ref
-      target="local:Vol28/L0411/L0411-vpp.pdf"/><ref target="local:Vol28/L0411/Vol28viWrite.pdf"
-     /></bibl>
-    <bibl type="surrogate"><ref
-      target="https://babel.hathitrust.org/cgi/pt?id=mdp.39015067453012&amp;seq=268 ">UM from
-      HT</ref><ref target="local:Vol28/L0411/L0411-um.pdf"/></bibl>
-    <listEvent>
-     <event type="LCP" when="1862-10-16" where="Sadlers">
-      <desc>Licence sent 16 October 1856 for performance at Sadlers Wells 16 October 1856. </desc>
-      <bibl type="msSource">BL ms LCP_52961.S</bibl>
-     </event>
-     <event type="firstPerf" when="1856-10-16" source="text" where="Sadler's">
-      <desc>Premiered at Theatre Royal, Sadler's Wells 16 Oct. 1856; Nicoll date 1856-10-17</desc>
-     </event>
-    </listEvent>
-   </sourceDesc>
+   <titleStmt><title>I'LL WRITE TO THE "TIMES.": TEI edition</title><author ref="lacyp:W0337"><persName>Wooler, J. P.</persName><idno type="wikidata"/></author><respStmt><resp>TEI conversion</resp><name>Lou Burnard</name></respStmt></titleStmt>
+   <publicationStmt><distributor>Privately distributed by the Digital Lacy Project</distributor><idno type="LAE">L0411</idno><availability><licence target="https://creativecommons.org/publicdomain/zero/1.0/">The Lacy Project waives all rights to the TEI encoding applied to this material, which it believes to be in the public domain. You may copy, modify, distribute, or perform this work freely. </licence></availability></publicationStmt>
+   <sourceDesc><bibl type="originalSource" n="28.6"><author n="W0337">Wooler, J.P.</author>
+      <title type="main">I'll Write to the "Times”</title>
+      <title type="sub">A Farce in one Act</title>
+ <extent>21 pp (UM copy: 268 - 289)<measure type="pp" quantity="21"/>
+  <measure type="spCount" quantity="413"/>
+  <measure type="spvCount" quantity="0"/>
+  <measure type="txWords" quantity="8393"/>
+  <measure type="spWords" quantity="7896"/>
+  <measure type="stWords" quantity="497"/>
+  </extent>
+      <title level="s"> Lacy's Acting Edition, volume 28, No. 0411</title><idno type="nic">N20073</idno><idno type="vpp">Vol28viWrite</idno></bibl><bibl type="surrogate" subtype="copytext"><ref target="https://lb42.github.io/Lacy/Source/VPP/L0411-vpp.pdf">LoB from VPP</ref><ref target="local:Vol28/L0411/L0411-vpp.pdf"/><ref target="local:Vol28/L0411/Vol28viWrite.pdf"/></bibl><bibl type="surrogate"><ref target="https://babel.hathitrust.org/cgi/pt?id=mdp.39015067453012&amp;seq=268 ">UM from
+       HT</ref><ref target="local:Vol28/L0411/L0411-um.pdf"/></bibl><listEvent>
+      <event type="LCP" when="1862-10-16" where="Sadlers">
+       <desc>Licence sent 16 October 1856 for performance at Sadlers Wells 16 October 1856. </desc>
+       <bibl type="msSource">BL ms LCP_52961.S</bibl>
+      </event>
+      <event type="firstPerf" when="1856-10-16" source="text" where="Sadler's">
+       <desc>Premiered at Theatre Royal, Sadler's Wells 16 Oct. 1856; Nicoll date 1856-10-17</desc>
+      </event>
+     </listEvent></sourceDesc>
   </fileDesc>
-  <profileDesc>
-   <!--S 1 Farce F. FARCE-->
-   <textClass>
-    <catRef target="#sizeS"/>
-    <catRef target="#act1"/>
-    <catRef target="nic:F."/>
-    <keywords>
-     <term>FARCE</term>
-    </keywords>
-   </textClass>
-   <particDesc>
-    <listPerson>
-     <person xml:id="L0411_M1">
-      <persName type="role">THE HON. HENRY HUNTLEY</persName>
-      <persName type="spkr" n="85">Hunt.</persName>
-      <persName type="spkr" n="2">Huntley.</persName>
-     </person>
-     <person xml:id="L0411_M2">
-      <persName type="role">SIR HARRY HARFORD, BART.</persName>
-      <persName type="spkr" n="47">Sir H.</persName>
-      <persName type="spkr" n="1">Sir R.</persName>
-     </person>
-     <person xml:id="L0411_M3">
-      <persName type="role">MR. PUNCTILIO BLOCK</persName>
-      <persName type="spkr" n="117">Block.</persName>
-     </person>
-     <person xml:id="L0411_M4">
-      <persName type="role">SERVANT</persName>
-      <persName type="spkr" n="6">Servant.</persName>
-     </person>
-     <person xml:id="L0411_M5">
-      <persName type="role">CABMAN</persName>
-      <persName type="spkr" n="2">Cabman.</persName>
-     </person>
-     <person xml:id="L0411_F6">
-      <persName type="role">THE HON. MRS. HUNTLEY</persName>
-      <persName type="spkr" n="59">Mrs. H.</persName>
-     </person>
-     <person xml:id="L0411_F7">
-      <persName type="role">MARIA BLAND</persName>
-      <persName type="spkr" n="91">Maria.</persName>
-     </person>
-    </listPerson>
-   </particDesc>
-  </profileDesc>
-  <revisionDesc>
+  
+  <profileDesc><!--S 1 Farce F. FARCE--><textClass><catRef target="#sizeS"/><catRef target="#act1"/><catRef target="nic:F."/><keywords><term>FARCE</term></keywords></textClass><particDesc><listPerson>
+  <person xml:id="L0411_M1">
+   <persName type="role">THE HON. HENRY HUNTLEY</persName>
+   <persName type="spkr" n="85">Hunt.</persName>
+   <persName type="spkr" n="2">Huntley.</persName>
+  </person>
+  <person xml:id="L0411_M2">
+   <persName type="role">SIR HARRY HARFORD, BART.</persName>
+   <persName type="spkr" n="47">Sir H.</persName>
+   <persName type="spkr" n="1">Sir R.</persName>
+  </person>
+  <person xml:id="L0411_M3">
+   <persName type="role">MR. PUNCTILIO BLOCK</persName>
+   <persName type="spkr" n="117">Block.</persName>
+  </person>
+  <person xml:id="L0411_M4">
+   <persName type="role">SERVANT</persName>
+   <persName type="spkr" n="6">Servant.</persName>
+  </person>
+  <person xml:id="L0411_M5">
+   <persName type="role">CABMAN</persName>
+   <persName type="spkr" n="2">Cabman.</persName>
+  </person>
+  <person xml:id="L0411_F6">
+   <persName type="role">THE HON. MRS. HUNTLEY</persName>
+   <persName type="spkr" n="59">Mrs. H.</persName>
+  </person>
+  <person xml:id="L0411_F7">
+   <persName type="role">MARIA BLAND</persName>
+   <persName type="spkr" n="91">Maria.</persName>
+  </person>
+ </listPerson></particDesc></profileDesc><revisionDesc><change when="2026-03-02">Add wikidata link to titleStmt where possible</change>
    <change when="2026-02-11">Standardize header components</change>
    <change when="2026-02-11">Copy edited by LB</change>
    <change when="2026-02-11">TEI autotagging by Gemini Pro 2.5</change>
@@ -827,7 +789,7 @@
       <p><stage>(aside)</stage> Very neatly expressed indeed. She must have been overhauling my
        letters to the "Times." </p>
      </sp>
-     <sp who="#L0411_F7">
+     <sp who="#">
       <p>I now, sir, however ask your forgiveness, and——</p>
      </sp>
      <sp who="#L0411_M3">
@@ -1634,7 +1596,7 @@
       <speaker>Block.</speaker>
       <p>Ha! glad you're come ! here's an article in the "Times."</p>
      </sp>
-     <sp who="#L0411_M2">
+     <sp who="#">
       <speaker>Sir H..</speaker>
       <p><stage>(still walking peevishly)</stage> Oh! damn the "Times."</p>
      </sp>

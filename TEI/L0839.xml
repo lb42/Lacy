@@ -1,113 +1,72 @@
-<?xml version="1.0" encoding="UTF-8"?>
-
-<?xml-model href="https://dracor.org/schema/dracor.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://dracor.org/schema/dracor.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L0839">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://dracor.org/schema/dracor.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://dracor.org/schema/dracor.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L0839" xml:lang="en">
  <teiHeader>
   <fileDesc>
-   <titleStmt>
-    <title>My Son's a daughter: TEI edition</title>
-    <author>Parselle, J.</author>
-    <respStmt>
-     <resp>TEI conversion</resp>
-     <name>Lou Burnard</name>
-    </respStmt>
-   </titleStmt>
-   <publicationStmt>
-    <distributor>Privately distributed by the Digital Lacy Project</distributor>
-    <idno type="LAE">L0839</idno>
-    <availability>
-     <licence target="https://creativecommons.org/publicdomain/zero/1.0/">The Lacy Project waives
-      all rights to the TEI encoding applied to this material, which is believed to be in the public
-      domain. You may copy, modify, distribute, or perform this work freely. </licence>
-    </availability>
-   </publicationStmt>
-   <sourceDesc>
-    <bibl type="originalSource" n="56.14"><author>Parselle, J.</author><title type="main"
-      n="mysonsadaughter">My Son's a Daughter</title><title type="sub">A Comic Drama in two
-      acts</title><extent>25 pp (UM copy: 412 - 437)<measure type="pp" quantity="25"/>
-      <measure type="spCount" quantity="514"/>
-      <measure type="spvCount" quantity="0"/>
-      <measure type="txWords" quantity="8094"/>
-      <measure type="spWords" quantity="7016"/>
-      <measure type="stWords" quantity="1078"/>
-     </extent>
-     <title level="s"> Lacy's Acting Edition, volume 56, No. 0839</title><idno type="nic"
-      >N16609</idno><idno type="vpp">Vol56xivSon</idno></bibl>
-    <bibl type="surrogate" subtype="copytext"><ref
-      target="https://lb42.github.io/Lacy/Source/VPP/L0839-vpp.pdf">LoB from VPP</ref><ref
-      target="local:Vol56/L0839/L0839-vpp.pdf"/><ref target="local:Vol56/L0839/Vol56xivSon.pdf"
-     /></bibl>
-    <bibl type="surrogate"><ref
-      target="https://babel.hathitrust.org/cgi/pt?id=mdp.39015067453665&amp;seq=412 ">UM from
-      HT</ref><ref target="local:Vol56/L0839/L0839-um.pdf"/></bibl>
-    <listEvent>
-     <event type="LCP" when="1862-09-11" where="Strand">
-      <desc>Licence sent 11 September 1862 for performance at the Strand. </desc>
-      <bibl type="msSource">BL ms LCP_53016.F</bibl>
-     </event>
-     <event type="firstPerf" when="1862-09-15" source="textNic" where="Olympic">
-      <desc>Premiered at Royal Olympic Theatre 15 Sept. 1862</desc>
-     </event>
-    </listEvent>
-   </sourceDesc>
+   <titleStmt><title>MY SON'S A DAUGHTER.: TEI edition</title><author ref="lacyp:W0230"><persName>Parselle, J.</persName><idno type="wikidata"/></author><respStmt><resp>TEI conversion</resp><name>Lou Burnard</name></respStmt></titleStmt>
+   <publicationStmt><distributor>Privately distributed by the Digital Lacy Project</distributor><idno type="LAE">L0839</idno><availability><licence target="https://creativecommons.org/publicdomain/zero/1.0/">The Lacy Project waives all rights to the TEI encoding applied to this material, which it believes to be in the public domain. You may copy, modify, distribute, or perform this work freely. </licence></availability></publicationStmt>
+   <sourceDesc><bibl type="originalSource" n="56.14"><author n="W0230">Parselle, J.</author>
+      <title type="main">My Son's a Daughter</title>
+      <title type="sub">A Comic Drama in two acts</title>
+ <extent>25 pp (UM copy: 412 - 437)<measure type="pp" quantity="25"/>
+  <measure type="spCount" quantity="514"/>
+  <measure type="spvCount" quantity="0"/>
+  <measure type="txWords" quantity="8094"/>
+  <measure type="spWords" quantity="7016"/>
+  <measure type="stWords" quantity="1078"/>
+  </extent>
+      <title level="s"> Lacy's Acting Edition, volume 56, No. 0839</title><idno type="nic">N16609</idno><idno type="vpp">Vol56xivSon</idno></bibl><bibl type="surrogate" subtype="copytext"><ref target="https://lb42.github.io/Lacy/Source/VPP/L0839-vpp.pdf">LoB from VPP</ref><ref target="local:Vol56/L0839/L0839-vpp.pdf"/><ref target="local:Vol56/L0839/Vol56xivSon.pdf"/></bibl><bibl type="surrogate"><ref target="https://babel.hathitrust.org/cgi/pt?id=mdp.39015067453665&amp;seq=412 ">UM from
+       HT</ref><ref target="local:Vol56/L0839/L0839-um.pdf"/></bibl><listEvent>
+      <event type="LCP" when="1862-09-11" where="Strand">
+       <desc>Licence sent 11 September 1862 for performance at the Strand. </desc>
+       <bibl type="msSource">BL ms LCP_53016.F</bibl>
+      </event>
+      <event type="firstPerf" when="1862-09-15" source="textNic" where="Olympic">
+       <desc>Premiered at Royal Olympic Theatre 15 Sept. 1862</desc>
+      </event>
+     </listEvent></sourceDesc>
   </fileDesc>
-  <profileDesc>
-   <!--S 2 ComicDrama Ca. COMEDIETTA-->
-   <textClass>
-    <catRef target="#sizeS"/>
-    <catRef target="#act2"/>
-    <catRef target="nic:Ca."/>
-    <keywords>
-     <term>COMEDIETTA</term>
-    </keywords>
-   </textClass>
-   <particDesc>
-    <listPerson>
-     <person xml:id="L0839_M1">
-      <persName type="role">HECTOR BLOWHARD</persName>
-      <persName type="spkr" n="119">Hect.</persName>
-      <persName type="spkr" n="1">Hector.</persName>
-     </person>
-     <person xml:id="L0839_M2">
-      <persName type="role">SERGEANT O'BLARNEY</persName>
-      <persName type="spkr" n="1">O'Blar.</persName>
-      <persName type="spkr" n="39">O'Blarn.</persName>
-     </person>
-     <person xml:id="L0839_M3">
-      <persName type="role">MR. MOULDYWORT</persName>
-      <persName type="spkr" n="127">Mouldy.</persName>
-     </person>
-     <person xml:id="L0839_M4">
-      <persName type="role">TIMMINS</persName>
-      <persName type="spkr" n="3">Tim.</persName>
-     </person>
-     <person xml:id="L0839_F5">
-      <persName type="role">MRS. BRIDGET GOOSEQUILL</persName>
-      <persName type="spkr" n="95">Bridget.</persName>
-     </person>
-     <person xml:id="L0839_F6">
-      <persName type="role">FAN</persName>
-      <persName type="spkr" n="84">Fan.</persName>
-     </person>
-     <person xml:id="L0839_F7">
-      <persName type="role">POLLY SWEETBREAD</persName>
-      <persName type="spkr" n="24">Polly.</persName>
-     </person>
-     <person xml:id="L0839_8">
-      <persName type="role">Soldiers, Male and Female Peasants.</persName>
-      <persName type="spkr" n="1">Voice.</persName>
-     </person>
-     <person xml:id="L0839_mult">
-      <persName type="role">[Multiple speakers]</persName>
-      <persName type="spkr" n="6">All.</persName>
-      <persName type="spkr" n="1">Ladies.</persName>
-      <persName type="spkr" n="13">Omnes.</persName>
-     </person>
-    </listPerson>
-   </particDesc>
-  </profileDesc>
-  <revisionDesc>
+  
+  <profileDesc><!--S 2 ComicDrama Ca. COMEDIETTA--><textClass><catRef target="#sizeS"/><catRef target="#act2"/><catRef target="nic:Ca."/><keywords><term>COMEDIETTA</term></keywords></textClass><particDesc><listPerson>
+  <person xml:id="L0839_M1">
+   <persName type="role">HECTOR BLOWHARD</persName>
+   <persName type="spkr" n="119">Hect.</persName>
+   <persName type="spkr" n="1">Hector.</persName>
+  </person>
+  <person xml:id="L0839_M2">
+   <persName type="role">SERGEANT O'BLARNEY</persName>
+   <persName type="spkr" n="1">O'Blar.</persName>
+   <persName type="spkr" n="39">O'Blarn.</persName>
+  </person>
+  <person xml:id="L0839_M3">
+   <persName type="role">MR. MOULDYWORT</persName>
+   <persName type="spkr" n="127">Mouldy.</persName>
+  </person>
+  <person xml:id="L0839_M4">
+   <persName type="role">TIMMINS</persName>
+   <persName type="spkr" n="3">Tim.</persName>
+  </person>
+  <person xml:id="L0839_F5">
+   <persName type="role">MRS. BRIDGET GOOSEQUILL</persName>
+   <persName type="spkr" n="95">Bridget.</persName>
+  </person>
+  <person xml:id="L0839_F6">
+   <persName type="role">FAN</persName>
+   <persName type="spkr" n="84">Fan.</persName>
+  </person>
+  <person xml:id="L0839_F7">
+   <persName type="role">POLLY SWEETBREAD</persName>
+   <persName type="spkr" n="24">Polly.</persName>
+  </person>
+  <person xml:id="L0839_8">
+   <persName type="role">Soldiers, Male and Female Peasants.</persName>
+   <persName type="spkr" n="1">Voice.</persName>
+  </person>
+  <person xml:id="L0839_mult">
+   <persName type="role">[Multiple speakers]</persName>
+   <persName type="spkr" n="6">All.</persName>
+   <persName type="spkr" n="1">Ladies.</persName>
+   <persName type="spkr" n="13">Omnes.</persName>
+  </person>
+ </listPerson></particDesc></profileDesc><revisionDesc><change when="2026-03-02">Add wikidata link to titleStmt where possible</change>
    <change when="2026-02-16">Standardize header components</change>
    <change when="2026-02-15">Hand checked and edited </change>
    <change when="2026-02-08">when="2026-02-08"&gt;TEI autotagging by Gemini Pro 2.5</change>

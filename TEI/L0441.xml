@@ -1,134 +1,95 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L0441">
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L0441" xml:lang="en">
  <teiHeader>
   <fileDesc>
-   <titleStmt>
-    <title>The Castle Spectre: TEI edition</title>
-    <author>Lewis, Matthew Gregory </author>
-    <respStmt>
-     <resp>TEI conversion</resp>
-     <name>Lou Burnard</name>
-    </respStmt>
-   </titleStmt>
-   <publicationStmt>
-    <distributor>Privately distributed by the Digital Lacy Project</distributor>
-    <idno type="LAE">L0441</idno>
-    <availability>
-     <licence target="https://creativecommons.org/publicdomain/zero/1.0/">The Lacy Project waives
-      all rights to the TEI encoding applied to this material, which is believed to be in the public
-      domain. You may copy, modify, distribute and perform this work freely. </licence>
-    </availability>
-   </publicationStmt>
-   <sourceDesc>
-    <bibl type="origin" n="30.6"><author>Lewis, Matthew Gregory</author><title type="main"
-      n="thecastlespectre">The Castle Spectre</title><title type="sub">A Romantic Drama in three
-      acts</title><extent>55 pp (UM copy: 144 - 199)<measure type="pp" quantity="50"/>
-      <measure type="spCount" quantity="534"/>
-      <measure type="spvCount" quantity="6"/>
-      <measure type="txWords" quantity="16431"/>
-      <measure type="spWords" quantity="14571"/>
-      <measure type="stWords" quantity="1860"/>
-     </extent>
-     <title level="s"> Lacy's Acting Edition, volume 30, No. 0441</title><idno type="nic"
-      >N80452</idno><idno type="vpp">Vol30viCastle</idno></bibl>
-    <bibl type="surrogate" subtype="copytext"><ref
-      target="https://lb42.github.io/Lacy/Source/VPP/L0441-vpp.pdf">LoB from VPP</ref><ref
-      target="local:Vol30/L0441/L0441-vpp.pdf"/><ref target="local:Vol30/L0441/Vol30viCastle.pdf"
-     /></bibl>
-    <bibl type="surrogate"><ref target="http://hdl.handle.net/20.500.14106/K101052.000"
-     >ECCO</ref></bibl>
-    <bibl type="surrogate"><ref
-      target="https://babel.hathitrust.org/cgi/pt?id=mdp.39015067453152&amp;seq=144 ">UM from
-      HT</ref><ref target="local:Vol30/L0441/L0441-um.pdf"/></bibl>
-    <listEvent>
-     <event type="LCP" when="1862-08-30" where="Surrey">
-      <desc>Licence sent 30 August 1856 for performance at the Surrey 8 September 1856. </desc>
-      <bibl type="msSource">BL ms LCP_52961.D</bibl>
-     </event>
-     <event type="firstPerf" when="1797-12-14" source="textNic" where="Drury">
-      <desc>Premiered at Theatre Royal, Drury Lane 14 Dec. 1797</desc>
-     </event>
-    </listEvent>
-   </sourceDesc>
+   <titleStmt><title>The Castle Spectre: TEI edition</title><author ref="lacyp:W0176"><persName>Lewis, Matthew Gregory </persName><idno type="wikidata">Q121060</idno></author><respStmt><resp>TEI conversion</resp><name>Lou Burnard</name></respStmt></titleStmt>
+   <publicationStmt><distributor>Privately distributed by the Digital Lacy Project</distributor><idno type="LAE">L0441</idno><availability><licence target="https://creativecommons.org/publicdomain/zero/1.0/">The Lacy Project waives all rights to the TEI encoding applied to this material, which it believes to be in the public domain. You may copy, modify, distribute, or perform this work freely. </licence></availability></publicationStmt>
+   <sourceDesc><bibl type="originalSource" n="30.6"><author n="W0176">Lewis, Matthew Gregory</author>
+      <title type="main">The Castle Spectre</title>
+      <title type="sub">A Romantic Drama in three acts</title>
+ <extent>55 pp (UM copy: 144 -
+       199)<measure type="pp" quantity="50"/>
+  <measure type="spCount" quantity="534"/>
+  <measure type="spvCount" quantity="6"/>
+  <measure type="txWords" quantity="16431"/>
+  <measure type="spWords" quantity="14571"/>
+  <measure type="stWords" quantity="1860"/>
+  </extent>
+      <title level="s"> Lacy's Acting Edition, volume 30, No. 0441</title><idno type="nic">N80452</idno><idno type="vpp">Vol30viCastle</idno></bibl><bibl type="surrogate" subtype="copytext"><ref target="https://lb42.github.io/Lacy/Source/VPP/L0441-vpp.pdf">LoB from VPP</ref><ref target="local:Vol30/L0441/L0441-vpp.pdf"/><ref target="local:Vol30/L0441/Vol30viCastle.pdf"/></bibl><bibl type="surrogate"><ref target="http://hdl.handle.net/20.500.14106/K101052.000">ECCO</ref></bibl><bibl type="surrogate"><ref target="https://babel.hathitrust.org/cgi/pt?id=mdp.39015067453152&amp;seq=144 ">UM from
+       HT</ref><ref target="local:Vol30/L0441/L0441-um.pdf"/></bibl><listEvent>
+      <event type="LCP" when="1862-08-30" where="Surrey">
+       <desc>Licence sent 30 August 1856 for performance at the Surrey 8 September 1856. </desc>
+       <bibl type="msSource">BL ms LCP_52961.D</bibl>
+      </event>
+      <event type="firstPerf" when="1797-12-14" source="textNic" where="Drury">
+       <desc>Premiered at Theatre Royal, Drury Lane 14 Dec. 1797</desc>
+      </event>
+     </listEvent></sourceDesc>
   </fileDesc>
-  <profileDesc>
-   <!--L 3 Drama M.D. MELODRAMA-->
-   <textClass>
-    <catRef target="#sizeL"/>
-    <catRef target="#act3"/>
-    <catRef target="nic:M.D."/>
-    <keywords>
-     <term>MELODRAMA</term>
-    </keywords>
-   </textClass>
-   <particDesc>
-    <listPerson>
-     <person xml:id="L0441_1">
-      <persName type="role">Earl Osmond</persName>
-      <persName type="spkr" n="80">Osmond.</persName>
-     </person>
-     <person xml:id="L0441_2">
-      <persName type="role">Earl Reginald</persName>
-      <persName type="spkr" n="23">Regin.</persName>
-     </person>
-     <person xml:id="L0441_3">
-      <persName type="role">Percy</persName>
-      <persName type="spkr" n="50">Percy.</persName>
-     </person>
-     <person xml:id="L0441_4">
-      <persName type="role">Father Philip</persName>
-      <persName type="spkr" n="47">Philip.</persName>
-     </person>
-     <person xml:id="L0441_5">
-      <persName type="role">Motley</persName>
-      <persName type="spkr" n="49">Motley.</persName>
-     </person>
-     <person xml:id="L0441_6">
-      <persName type="role">Kenric</persName>
-      <persName type="spkr" n="32">Kenric.</persName>
-     </person>
-     <person xml:id="L0441_7">
-      <persName type="role">Saib</persName>
-      <persName type="spkr" n="53">Saib.</persName>
-     </person>
-     <person xml:id="L0441_8">
-      <persName type="role">Hassan</persName>
-      <persName type="spkr" n="24">Hassan.</persName>
-     </person>
-     <person xml:id="L0441_9">
-      <persName type="role">Muley</persName>
-      <persName type="spkr" n="27">Muley.</persName>
-     </person>
-     <person xml:id="L0441_10">
-      <persName type="role">Alaric</persName>
-      <persName type="spkr" n="1">Alaric.</persName>
-     </person>
-     <person xml:id="L0441_11">
-      <persName type="role">Angela</persName>
-      <persName type="spkr" n="94">Angela.</persName>
-     </person>
-     <person xml:id="L0441_12">
-      <persName type="role">Alice</persName>
-      <persName type="spkr" n="43">Alice.</persName>
-     </person>
-     <person xml:id="L0441_13">
-      <persName type="role">The Spectre of Evalina</persName>
-     </person>
-     <person xml:id="L0441_mult">
-      <persName type="role">[Multiple speakers]</persName>
-      <persName type="spkr" n="1">Both.</persName>
-      <persName type="spkr" n="4">Chorus.</persName>
-      <persName type="spkr" n="1">Muley and Saib.</persName>
-      <persName type="spkr" n="1">Percy, Motley, &amp;c.</persName>
-      <persName type="spkr" n="1">Saib and Hassan.</persName>
-      <persName type="spkr" n="1">Saib and Muley.</persName>
+  
+  <profileDesc><!--L 3 Drama M.D. MELODRAMA--><textClass><catRef target="#sizeL"/><catRef target="#act3"/><catRef target="nic:M.D."/><keywords><term>MELODRAMA</term></keywords></textClass><particDesc><listPerson>
+  <person xml:id="L0441_1">
+   <persName type="role">Earl Osmond</persName>
+   <persName type="spkr" n="80">Osmond.</persName>
+  </person>
+  <person xml:id="L0441_2">
+   <persName type="role">Earl Reginald</persName>
+   <persName type="spkr" n="23">Regin.</persName>
+  </person>
+  <person xml:id="L0441_3">
+   <persName type="role">Percy</persName>
+   <persName type="spkr" n="50">Percy.</persName>
+  </person>
+  <person xml:id="L0441_4">
+   <persName type="role">Father Philip</persName>
+   <persName type="spkr" n="47">Philip.</persName>
+  </person>
+  <person xml:id="L0441_5">
+   <persName type="role">Motley</persName>
+   <persName type="spkr" n="49">Motley.</persName>
+  </person>
+  <person xml:id="L0441_6">
+   <persName type="role">Kenric</persName>
+   <persName type="spkr" n="32">Kenric.</persName>
+  </person>
+  <person xml:id="L0441_7">
+   <persName type="role">Saib</persName>
+   <persName type="spkr" n="53">Saib.</persName>
+  </person>
+  <person xml:id="L0441_8">
+   <persName type="role">Hassan</persName>
+   <persName type="spkr" n="24">Hassan.</persName>
+  </person>
+  <person xml:id="L0441_9">
+   <persName type="role">Muley</persName>
+   <persName type="spkr" n="27">Muley.</persName>
+  </person>
+  <person xml:id="L0441_10">
+   <persName type="role">Alaric</persName>
+   <persName type="spkr" n="1">Alaric.</persName>
+  </person>
+  <person xml:id="L0441_11">
+   <persName type="role">Angela</persName>
+   <persName type="spkr" n="94">Angela.</persName>
+  </person>
+  <person xml:id="L0441_12">
+   <persName type="role">Alice</persName>
+   <persName type="spkr" n="43">Alice.</persName>
+  </person>
+  <person xml:id="L0441_13">
+   <persName type="role">The Spectre of Evalina</persName>
+  </person>
+  <person xml:id="L0441_mult">
+   <persName type="role">[Multiple speakers]</persName>
+   <persName type="spkr" n="1">Both.</persName>
+   <persName type="spkr" n="4">Chorus.</persName>
+   <persName type="spkr" n="1">Muley and Saib.</persName>
+   <persName type="spkr" n="1">Percy, Motley, &amp;c.</persName>
+   <persName type="spkr" n="1">Saib and Hassan.</persName>
+   <persName type="spkr" n="1">Saib and Muley.</persName>
 
-      <persName type="spkr" n="1">The Africans.</persName>
-     </person>
-    </listPerson>
-   </particDesc>
-  </profileDesc>
-  <revisionDesc>
+   <persName type="spkr" n="1">The Africans.</persName>
+  </person>
+ </listPerson></particDesc></profileDesc><revisionDesc><change when="2026-03-02">Add wikidata link to titleStmt where possible</change>
    <change when="2026-02-03">Standardize header components</change>
    <change when="2026-02-01">TEI autotagging by Gemini Pro 2.5</change>
   </revisionDesc>

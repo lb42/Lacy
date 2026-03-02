@@ -1,99 +1,62 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L0526">
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L0526" xml:lang="en">
  <teiHeader>
   <fileDesc>
-   <titleStmt>
-    <title>Marriage a lottery: TEI edition</title>
-    <author>Dance, Charles</author>
-    <respStmt>
-     <resp>TEI conversion</resp>
-     <name>Lou Burnard</name>
-    </respStmt>
-   </titleStmt>
-   <publicationStmt>
-    <distributor>Privately distributed by the Digital Lacy Project</distributor>
-    <idno type="LAE">L0526</idno>
-    <availability>
-     <licence target="https://creativecommons.org/publicdomain/zero/1.0/">The Lacy Project waives
-      all rights to the TEI encoding applied to this material, which is believed to be in the public
-      domain. You may copy, modify, distribute and perform this work freely. </licence>
-    </availability>
-   </publicationStmt>
-   <sourceDesc>
-    <bibl type="origin" n="36.1"><author>Dance, Charles</author><title type="main"
-      n="marriagealottery">Marriage a Lottery</title><title type="sub">A Comedy in two
-      acts</title><extent>25 pp (UM copy: 14 - 39)<measure type="pp" quantity="38"/>
-      <measure type="spCount" quantity="675"/>
-      <measure type="spvCount" quantity="0"/>
-      <measure type="txWords" quantity="10545"/>
-      <measure type="spWords" quantity="9054"/>
-      <measure type="stWords" quantity="1491"/>
-     </extent>
-     <title level="s"> Lacy's Acting Edition, volume 36, No. 0526</title><idno type="nic"
-      >N11442</idno></bibl>
-    <bibl type="surrogate" subtype="copytext"><ref
-      target="https://babel.hathitrust.org/cgi/pt?id=mdp.39015067453137&amp;seq=14 ">UM from
-      HT</ref><ref target="local:Vol36/L0526/L0526-um.pdf"/></bibl>
-    <bibl type="surrogate" subtype="TEI"><ref target="https://lb42.github.io/Lacy/L0526.html"
-      >TEI</ref></bibl>
-    <listEvent>
-     <event type="firstPerf" when="1858-05-20" source="textNic" where="Strand">
-      <desc>Premiered at Royal Strand Theatre 20 May 1858</desc>
-     </event>
-    </listEvent>
-   </sourceDesc>
+   <titleStmt><title>Marriage a lottery:: TEI edition</title><author ref="lacyp:W0077"><persName>Dance, Charles</persName><idno type="wikidata">Q5076701</idno></author><respStmt><resp>TEI conversion</resp><name>Lou Burnard</name></respStmt></titleStmt>
+   <publicationStmt><distributor>Privately distributed by the Digital Lacy Project</distributor><idno type="LAE">L0526</idno><availability><licence target="https://creativecommons.org/publicdomain/zero/1.0/">The Lacy Project waives all rights to the TEI encoding applied to this material, which it believes to be in the public domain. You may copy, modify, distribute, or perform this work freely. </licence></availability></publicationStmt>
+   <sourceDesc><bibl type="originalSource" n="36.1"><author>Dance, Charles</author> <title type="main" n="marriagealottery">Marriage a Lottery</title> <title type="sub">A Comedy in two
+       acts</title>
+ <extent>25 pp (UM copy: 14 - 39)<measure type="pp" quantity="38"/>
+  <measure type="spCount" quantity="675"/>
+  <measure type="spvCount" quantity="0"/>
+  <measure type="txWords" quantity="10545"/>
+  <measure type="spWords" quantity="9054"/>
+  <measure type="stWords" quantity="1491"/>
+  </extent>
+       <title level="s"> Lacy's Acting Edition, volume 36, No. 0526</title><idno type="nic">N11442</idno></bibl><bibl type="surrogate" subtype="copytext"><ref target="https://babel.hathitrust.org/cgi/pt?id=mdp.39015067453137&amp;seq=14 ">UM from
+       HT</ref><ref target="local:Vol36/L0526/L0526-um.pdf"/></bibl><bibl type="surrogate" subtype="TEI"><ref target="https://lb42.github.io/Lacy/L0526.html">TEI</ref></bibl><listEvent>
+      <event type="firstPerf" when="1858-05-20" source="textNic" where="Strand">
+       <desc>Premiered at Royal Strand Theatre 20 May 1858</desc>
+      </event>
+     </listEvent></sourceDesc>
   </fileDesc>
 
-  <profileDesc>
-   <!--S 2 Comedy F. FARCE-->
-   <textClass>
-    <catRef target="#sizeS"/>
-    <catRef target="#act2"/>
-    <catRef target="nic:F."/>
-    <keywords>
-     <term>FARCE</term>
-    </keywords>
-   </textClass>
-   <particDesc>
-    <listPerson>
-     <person xml:id="L0526_M1">
-      <persName type="role">Jacob Omnium </persName>
-      <persName type="spkr" n="248">Omnium.</persName>
-     </person>
-     <person xml:id="L0526_M2">
-      <persName type="role">Herbert Manifest </persName>
-      <persName type="spkr" n="117">Herb.</persName>
-     </person>
-     <person xml:id="L0526_M3">
-      <persName type="role">Grimbsby </persName>
-      <persName type="spkr" n="92">Grim.</persName>
-     </person>
-     <person xml:id="L0526_F4">
-      <persName type="role">Mrs. Pointer </persName>
-      <persName type="spkr" n="1">Mrs. Pointer.</persName>
-      <persName type="spkr" n="90">Mrs. P.</persName>
-     </person>
-     <person xml:id="L0526_F5">
-      <persName type="role">Harriet Pointer </persName>
-      <persName type="spkr" n="27">Harriet.</persName>
-     </person>
-     <person xml:id="L0526_F6">
-      <persName type="role">Charlotte Manifest </persName>
-      <persName type="spkr" n="76">Char.</persName>
-     </person>
-     <person xml:id="L0526_F7">
-      <persName type="role">Warner </persName>
-      <persName type="spkr" n="7">Warner.</persName>
-      <persName type="spkr" n="17">Warn.</persName>
-     </person>
+  
+  <profileDesc><!--S 2 Comedy F. FARCE--><textClass><catRef target="#sizeS"/><catRef target="#act2"/><catRef target="nic:F."/><keywords><term>FARCE</term></keywords></textClass><particDesc><listPerson>
+<person xml:id="L0526_M1">
+<persName type="role">Jacob Omnium </persName>
+<persName type="spkr" n="248">Omnium.</persName>
+</person>
+<person xml:id="L0526_M2">
+<persName type="role">Herbert Manifest </persName>
+<persName type="spkr" n="117">Herb.</persName>
+</person>
+<person xml:id="L0526_M3">
+<persName type="role">Grimbsby </persName>
+<persName type="spkr" n="92">Grim.</persName>
+</person>
+<person xml:id="L0526_F4">
+<persName type="role">Mrs. Pointer </persName>
+<persName type="spkr" n="1">Mrs. Pointer.</persName>
+<persName type="spkr" n="90">Mrs. P.</persName>
+</person>
+<person xml:id="L0526_F5">
+<persName type="role">Harriet Pointer </persName>
+<persName type="spkr" n="27">Harriet.</persName>
+</person>
+<person xml:id="L0526_F6">
+<persName type="role">Charlotte Manifest </persName>
+<persName type="spkr" n="76">Char.</persName>
+</person>
+<person xml:id="L0526_F7">
+<persName type="role">Warner </persName>
+<persName type="spkr" n="7">Warner.</persName>
+<persName type="spkr" n="17">Warn.</persName>
+</person>
 
-     <person xml:id="L0526_mult">
-      <persName type="spkr" n="1">Herb., Char.</persName>
-     </person>
-    </listPerson>
-   </particDesc>
-  </profileDesc>
-  <revisionDesc>
+<person xml:id="L0526_mult">
+<persName type="spkr" n="1">Herb., Char.</persName>
+</person>
+</listPerson></particDesc></profileDesc><revisionDesc><change when="2026-02-23">Add wikidata link to titleStmt where possible</change>
    <change when="2026-01-11">Standardize header components</change>
    <change when="2026-01-10">Metadata refreshed from catalogue and Partix folder</change>
    <change when="2025-11-02">Metadata refreshed from catalogue and Partix folder</change>
@@ -131,19 +94,16 @@
     <castItem><role gender="M">Herbert Manifest </role><roleDesc>(a Merchant's Clerk)
       </roleDesc><actor sex="M">Mr. Belford. </actor></castItem>
 
-    <castItem><role gender="M">Grimbsby </role><roleDesc>(omnium's Servant) </roleDesc><actor
-      sex="M">Mr. J. W. Ray. </actor></castItem>
+    <castItem><role gender="M">Grimbsby </role><roleDesc>(omnium's Servant) </roleDesc><actor sex="M">Mr. J. W. Ray. </actor></castItem>
 
     <castItem><role gender="F">Mrs. Pointer </role><actor sex="F">Mrs. Selby. </actor></castItem>
 
-    <castItem><role gender="F">Harriet Pointer </role><roleDesc>(her Stepdaughter) </roleDesc><actor
-      sex="F">Miss Portman. </actor></castItem>
+    <castItem><role gender="F">Harriet Pointer </role><roleDesc>(her Stepdaughter) </roleDesc><actor sex="F">Miss Portman. </actor></castItem>
 
     <castItem><role gender="F">Charlotte Manifest </role><roleDesc>(sister To Herbert)
       </roleDesc><actor sex="F">Miss M. Oliver. </actor></castItem>
 
-    <castItem><role gender="F">Warner </role><roleDesc>(Mrs. Pointer's Servant) </roleDesc><actor
-      sex="F">Miss M. A. Victor. </actor></castItem>
+    <castItem><role gender="F">Warner </role><roleDesc>(Mrs. Pointer's Servant) </roleDesc><actor sex="F">Miss M. A. Victor. </actor></castItem>
 
    </castList>
    <div type="costume">
@@ -718,8 +678,7 @@
      </sp>
      <sp who="#L0526_M3">
       <speaker>Grim.</speaker>
-      <p>Mrs. Warner, them's master's orders. <stage>(Warner crosses to L.)</stage><stage
-        rend="right">Exit Warner, followed by Grimsby, L. 1 E.</stage></p>
+      <p>Mrs. Warner, them's master's orders. <stage>(Warner crosses to L.)</stage><stage rend="right">Exit Warner, followed by Grimsby, L. 1 E.</stage></p>
      </sp>
      <sp who="#L0526_M1">
       <speaker>Omnium.</speaker>
@@ -904,8 +863,7 @@
      </sp>
      <sp who="#L0526_M3">
       <speaker>Grim.</speaker>
-      <p><stage> (aside)</stage>Master won't speak, so I suppose I must do it.<stage rend="right"
-        >Exit, R. 1 E.</stage></p>
+      <p><stage> (aside)</stage>Master won't speak, so I suppose I must do it.<stage rend="right">Exit, R. 1 E.</stage></p>
      </sp>
      <sp who="#L0526_F4">
       <speaker>Mrs. P.</speaker>
@@ -2180,8 +2138,7 @@
      </sp>
      <sp who="#L0526_M2">
       <speaker>Herb.</speaker>
-      <p>What is he going to do? I'll follow him, I must know what he means.<stage rend="right"
-        >Rushes after him.</stage></p>
+      <p>What is he going to do? I'll follow him, I must know what he means.<stage rend="right">Rushes after him.</stage></p>
      </sp>
      <sp who="#L0526_F6">
       <speaker>Char.</speaker>
@@ -2319,8 +2276,7 @@
      </sp>
      <sp who="#L0526_M2">
       <speaker>Herb.</speaker>
-      <p>You'll know quite time enough, but not one word of this shall you see.<stage rend="right"
-        >Exit, R. 1 E.</stage></p>
+      <p>You'll know quite time enough, but not one word of this shall you see.<stage rend="right">Exit, R. 1 E.</stage></p>
      </sp>
      <sp who="#L0526_M1">
       <speaker>Omnium.</speaker>

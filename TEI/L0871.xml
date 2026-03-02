@@ -1,147 +1,112 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L0871">
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L0871" xml:lang="en">
  <teiHeader>
   <fileDesc>
-   <titleStmt>
-    <title>The Ticket-of-Leave Man: TEI edition</title>
-    <author>Taylor, Tom</author>
-    <respStmt>
-     <resp>TEI conversion</resp>
-     <name>Lou Burnard</name>
-    </respStmt>
-   </titleStmt>
-   <publicationStmt>
-    <distributor>Privately distributed by the Digital Lacy Project</distributor>
-    <idno type="LAE">L0871</idno>
-    <availability>
-     <licence target="https://creativecommons.org/publicdomain/zero/1.0/">The Lacy Project waives
-      all rights to the TEI encoding applied to this material, which is believed to be in the public
-      domain. You may copy, modify, distribute and perform this work freely. </licence>
-    </availability>
-   </publicationStmt>
-   <sourceDesc>
-    <bibl type="origin" n="59.1"><author>Taylor, Tom</author><title type="main"
-      n="theticketofleaveman">The Ticket-of-Leave Man</title><title type="sub">A Drama in four
-      acts</title><title type="source" n="#FR">Founded on a French Dramatic Tale, “Le Retour de
-      Melun”, included in “Les Drames de la Vie”, by MM. Brisebarre and Nuz</title><extent>85 pp (UM
-      copy: 10 - 95)<measure type="pp" quantity="86"/>
-      <measure type="spCount" quantity="1057"/>
-      <measure type="spvCount" quantity="0"/>
-      <measure type="txWords" quantity="25168"/>
-      <measure type="spWords" quantity="20322"/>
-      <measure type="stWords" quantity="4846"/>
-     </extent>
-     <title level="s"> Lacy's Acting Edition, volume 59, No. 0871</title><idno type="nic"
-      >N18977</idno><idno type="vpp">Vol59iTicket</idno></bibl>
-    <bibl type="surrogate" subtype="copytext"><ref
-      target="https://babel.hathitrust.org/cgi/pt?id=mdp.39015067453657&amp;seq=10 ">UM from
-      HT</ref><ref target="local:Vol59/L0871/L0871-um.pdf"/></bibl>
-    <listEvent>
-     <event type="LCP">
-      <desc>No date of licence sent for May 1863 performance at the Olympic.</desc>
-      <bibl type="msSource">BL ms LCP_53022.AA</bibl>
-     </event>
-     <event type="firstPerf" when="1863-05-27" source="textNic" where="Olympic">
-      <desc>Premiered at Olympic Theatre 27 May 1863</desc>
-     </event>
-    </listEvent>
-   </sourceDesc>
+   <titleStmt><title>The Ticket-of-Leave Man: TEI edition</title><author ref="lacyp:W0302"><persName>Taylor, Tom</persName><idno type="wikidata">Q2329794</idno></author><respStmt><resp>TEI conversion</resp><name>Lou Burnard</name></respStmt></titleStmt>
+   <publicationStmt><distributor>Privately distributed by the Digital Lacy Project</distributor><idno type="LAE">L0871</idno><availability><licence target="https://creativecommons.org/publicdomain/zero/1.0/">The Lacy Project waives all rights to the TEI encoding applied to this material, which it believes to be in the public domain. You may copy, modify, distribute, or perform this work freely. </licence></availability></publicationStmt>
+   <sourceDesc><bibl type="originalSource" n="59.1"><author n="W0302">Taylor, Tom</author>
+      <title type="main">The Ticket-of-Leave Man</title>
+      <title type="sub">A Drama in four acts</title>
+      <title type="source" n="#FR">Founded on a French Dramatic Tale, "Le Retour de Melun”, included
+       in "Les Drames de la Vie”, by MM. Brisebarre and Nuz</title>
+ <extent>85 pp (UM copy: 10 -
+       95)<measure type="pp" quantity="86"/>
+  <measure type="spCount" quantity="1052"/>
+  <measure type="spvCount" quantity="0"/>
+  <measure type="txWords" quantity="25168"/>
+  <measure type="spWords" quantity="20322"/>
+  <measure type="stWords" quantity="4846"/>
+  </extent>
+      <title level="s"> Lacy's Acting Edition, volume 59, No. 0871</title><idno type="nic">N18977</idno><idno type="vpp">Vol59iTicket</idno></bibl><bibl type="surrogate" subtype="copytext"><ref target="https://babel.hathitrust.org/cgi/pt?id=mdp.39015067453657&amp;seq=10 ">UM from
+       HT</ref><ref target="local:Vol59/L0871/L0871-um.pdf"/></bibl><listEvent>
+      <event type="LCP">
+       <desc>No date of licence sent for May 1863 performance at the Olympic.</desc>
+       <bibl type="msSource">BL ms LCP_53022.AA</bibl>
+      </event>
+      <event type="firstPerf" when="1863-05-27" source="textNic" where="Olympic">
+       <desc>Premiered at Olympic Theatre 27 May 1863</desc>
+      </event>
+     </listEvent></sourceDesc>
   </fileDesc>
-  <profileDesc>
-   <!--L 4 DramaDrama D. DRAMA-->
-   <textClass>
-    <catRef target="#sizeL"/>
-    <catRef target="#act4"/>
-    <catRef target="nic:D."/>
-    <keywords>
-     <term>DRAMA</term>
-    </keywords>
-   </textClass>
-   <particDesc>
-    <listPerson>
-     <person xml:id="L0871_M1">
-      <persName type="role">ROBERT BRIERLY</persName>
-      <persName type="spkr" n="1">Briar.</persName>
-      <persName type="spkr" n="223">Brier.</persName>
-      <persName type="spkr" n="5">Brierly.</persName>
-      <persName type="spkr" n="1">Crier.</persName>
-     </person>
-     <person xml:id="L0871_M2">
-      <persName type="role">JAMES DALTON</persName>
-      <persName type="spkr" n="149">Dalton.</persName>
-     </person>
-     <person xml:id="L0871_M3">
-      <persName type="role">HAWKSHAW</persName>
-      <persName type="spkr" n="1">Hawk</persName>
-      <persName type="spkr" n="79">Hawk.</persName>
-      <persName type="spkr" n="1">Hawkshaw.</persName>
-     </person>
-     <person xml:id="L0871_M4">
-      <persName type="role">MELTER MOSS</persName>
-      <persName type="spkr" n="86">Moss.</persName>
-     </person>
-     <person xml:id="L0871_M5">
-      <persName type="role">GREEN JONES</persName>
-      <persName type="spkr" n="40">Green.</persName>
-     </person>
-     <person xml:id="L0871_M6">
-      <persName type="role">MR. GIBSON</persName>
-      <persName type="spkr" n="4">Gibson.</persName>
-      <persName type="spkr" n="60">Mr. G.</persName>
-      <persName type="spkr" n="6">Mr. Gib.</persName>
-     </person>
-     <person xml:id="L0871_M7">
-      <persName type="role">SAM WILLOUGHBY</persName>
-      <persName type="spkr" n="71">Sam.</persName>
-     </person>
-     <person xml:id="L0871_M8">
-      <persName type="role">MALTBY</persName>
-      <persName type="spkr" n="2">Malt.</persName>
-      <persName type="spkr" n="38">Maltby.</persName>
-     </person>
-     <person xml:id="L0871_M9">
-      <persName type="role">BRUNTON</persName>
-      <persName type="spkr" n="1">Burton,</persName>
-      <persName type="spkr" n="1">Sharpe</persName>
-      <persName type="spkr" n="1">Sharpe.</persName>
-     </person>
-     <person xml:id="L0871_F10">
-      <persName type="role">MAY EDWARDS</persName>
-      <persName type="spkr" n="1">May</persName>
-      <persName type="spkr" n="129">May.</persName>
-     </person>
-     <person xml:id="L0871_F11">
-      <persName type="role">EMILY ST. EVREMOND</persName>
-      <persName type="spkr" n="62">Emily.</persName>
-     </person>
-     <person xml:id="L0871_F12">
-      <persName type="role">MRS. WILLOUGHBY</persName>
-      <persName type="spkr" n="1">Mr. W.</persName>
-      <persName type="spkr" n="57">Mrs. W.</persName>
-     </person>
-     <person xml:id="L0871_mult">
-      <persName type="role">[Multiple speakers]</persName>
-      <persName type="spkr" n="8">All.</persName>
-      <persName type="spkr" n="1">May | Mr. G.</persName>
-      <persName type="spkr" n="3">Navvies.</persName>
-     </person>
-     <person xml:id="L0871_M13">
-      <persName type="role">[Partys etc.]</persName>
-      <persName type="spkr" n="1">1st Detective.</persName>
-      <persName type="spkr" n="3">1st Navvy.</persName>
-      <persName type="spkr" n="5">1st Party.</persName>
-      <persName type="spkr" n="3">2nd Party.</persName>
-      <persName type="spkr" n="2">3rd Party.</persName>
-      <persName type="spkr" n="1">4th Party.</persName>
-     </person>
-     <person xml:id="L0871_M14">
-      <persName type="role">[Waiter]</persName>
-      <persName type="spkr" n="3">Waiter.</persName>
-     </person>
-    </listPerson>
-   </particDesc>
-  </profileDesc>
-  <revisionDesc>
+  
+  <profileDesc><!--L 4 DramaDrama D. DRAMA--><textClass><catRef target="#sizeL"/><catRef target="#act4"/><catRef target="nic:D."/><keywords><term>DRAMA</term></keywords></textClass><particDesc><listPerson>
+  <person xml:id="L0871_M1">
+   <persName type="role">ROBERT BRIERLY</persName>
+   <persName type="spkr" n="1">Briar.</persName>
+   <persName type="spkr" n="223">Brier.</persName>
+   <persName type="spkr" n="5">Brierly.</persName>
+   <persName type="spkr" n="1">Crier.</persName>
+  </person>
+  <person xml:id="L0871_M2">
+   <persName type="role">JAMES DALTON</persName>
+   <persName type="spkr" n="149">Dalton.</persName>
+  </person>
+  <person xml:id="L0871_M3">
+   <persName type="role">HAWKSHAW</persName>
+   <persName type="spkr" n="1">Hawk</persName>
+   <persName type="spkr" n="79">Hawk.</persName>
+   <persName type="spkr" n="1">Hawkshaw.</persName>
+  </person>
+  <person xml:id="L0871_M4">
+   <persName type="role">MELTER MOSS</persName>
+   <persName type="spkr" n="86">Moss.</persName>
+  </person>
+  <person xml:id="L0871_M5">
+   <persName type="role">GREEN JONES</persName>
+   <persName type="spkr" n="40">Green.</persName>
+  </person>
+  <person xml:id="L0871_M6">
+   <persName type="role">MR. GIBSON</persName>
+   <persName type="spkr" n="4">Gibson.</persName>
+   <persName type="spkr" n="60">Mr. G.</persName>
+   <persName type="spkr" n="6">Mr. Gib.</persName>
+  </person>
+  <person xml:id="L0871_M7">
+   <persName type="role">SAM WILLOUGHBY</persName>
+   <persName type="spkr" n="71">Sam.</persName>
+  </person>
+  <person xml:id="L0871_M8">
+   <persName type="role">MALTBY</persName>
+   <persName type="spkr" n="2">Malt.</persName>
+   <persName type="spkr" n="38">Maltby.</persName>
+  </person>
+  <person xml:id="L0871_M9">
+   <persName type="role">BRUNTON</persName>
+   <persName type="spkr" n="1">Burton,</persName>  <persName type="spkr" n="1">Sharpe</persName>
+   <persName type="spkr" n="1">Sharpe.</persName>
+  </person>
+  <person xml:id="L0871_F10">
+   <persName type="role">MAY EDWARDS</persName>
+   <persName type="spkr" n="1">May</persName>
+   <persName type="spkr" n="129">May.</persName>
+  </person>
+  <person xml:id="L0871_F11">
+   <persName type="role">EMILY ST. EVREMOND</persName>
+   <persName type="spkr" n="62">Emily.</persName>
+  </person>
+  <person xml:id="L0871_F12">
+   <persName type="role">MRS. WILLOUGHBY</persName>
+   <persName type="spkr" n="1">Mr. W.</persName>
+   <persName type="spkr" n="57">Mrs. W.</persName>
+  </person>
+  <person xml:id="L0871_mult">
+   <persName type="role">[Multiple speakers]</persName>
+   <persName type="spkr" n="8">All.</persName>
+   <persName type="spkr" n="1">May | Mr. G.</persName>
+   <persName type="spkr" n="3">Navvies.</persName>
+  </person>
+  <person xml:id="L0871_M13">
+   <persName type="role">[Partys etc.]</persName>
+   <persName type="spkr" n="1">1st Detective.</persName>
+   <persName type="spkr" n="3">1st Navvy.</persName>
+   <persName type="spkr" n="5">1st Party.</persName>
+   <persName type="spkr" n="3">2nd Party.</persName>
+   <persName type="spkr" n="2">3rd Party.</persName>
+   <persName type="spkr" n="1">4th Party.</persName>
+  </person>
+  <person xml:id="L0871_M14"><persName type="role">[Waiter]</persName>
+  <persName type="spkr" n="3">Waiter.</persName>
+</person>
+ </listPerson></particDesc></profileDesc><revisionDesc><change when="2026-03-02">Add wikidata link to titleStmt where possible</change>
    <change when="2026-01-14">Standardize header components</change>
    <change when="2025-12-07">Auto-tagged by Gemini 3.0 (Flash 2.5)</change>
   </revisionDesc>
@@ -238,13 +203,11 @@
     <p>The Ticket-of-Leave Man.</p>
     <castList>
      <head>Characters.</head>
-     <castItem><role gender="M">ROBERT BRIERLY</role> (<roleDesc>a Lancashire Lad</roleDesc>) <actor
-       sex="M">MR. H. NEVILLE.</actor></castItem>
+     <castItem><role gender="M">ROBERT BRIERLY</role> (<roleDesc>a Lancashire Lad</roleDesc>) <actor sex="M">MR. H. NEVILLE.</actor></castItem>
      <castItem><role gender="M">JAMES DALTON</role> (<roleDesc>alias Downey, alias The
        Tiger)</roleDesc>
       <actor sex="M">MR. ATKINS.</actor></castItem>
-     <castItem><role gender="M">HAWKSHAW</role> (<roleDesc>a Detective</roleDesc>) <actor sex="M"
-       >MR. HORACE WIGAN.</actor></castItem>
+     <castItem><role gender="M">HAWKSHAW</role> (<roleDesc>a Detective</roleDesc>) <actor sex="M">MR. HORACE WIGAN.</actor></castItem>
      <castItem>
       <role gender="M">MELTER MOSS</role>
       <actor sex="M">MR. G. VINCENT.</actor>
@@ -253,8 +216,7 @@
       <role gender="M">GREEN JONES</role>
       <actor sex="M">MR. R. SOUTAR.</actor>
      </castItem>
-     <castItem><role gender="M">MR. GIBSON</role> (<roleDesc>a Bill Broker</roleDesc>). <actor
-       sex="M">MR. MACLEAN.</actor></castItem>
+     <castItem><role gender="M">MR. GIBSON</role> (<roleDesc>a Bill Broker</roleDesc>). <actor sex="M">MR. MACLEAN.</actor></castItem>
      <castItem>
       <role gender="M">SAM WILLOUGHBY</role>
       <actor sex="F">MISS RAYNHAM.</actor>
@@ -3379,7 +3341,7 @@
        for morning's clearance.</p>
      </sp>
      <pb n="51"/>
-     <sp who="#L0871_M9">
+     <sp who="#">
       <speaker>Burton.</speaker>
       <p><stage>(getting his hat—aside)</stage> By Jove, the governor wants to make a morning's
        clearance of us, I think. I'm half an hour too soon for the clearing house. —Time for a
@@ -5731,7 +5693,7 @@
      </sp>
      <stage>Exit L.</stage>
      <stage>Enter MAY, breathless, R.</stage>
-     <sp who="#L0871_F10">
+     <sp who="#">
       <p>I've followed the cab as far as I could. I saw them get out, and lost them at the last
        turning. If I could only keep them in sight—if he could but hear my voice— Robert!
        Robert!</p>
@@ -5780,7 +5742,7 @@
      </sp>
      <stage>(HAWKSHAW during the above has dropped over wall at the back, seizes MOSS from behind,
       stops his mouth with one hand, and handcuffs him, R.)</stage>
-     <sp who="#L0871_M3">
+     <sp who="#">
       <p>Stir or speak, and you're a dead man!</p>
      </sp>
      <sp who="#L0871_M2">

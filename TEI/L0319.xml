@@ -1,124 +1,84 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L0319">
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L0319" xml:lang="en">
  <teiHeader>
   <fileDesc>
-   <titleStmt>
-    <title>"Still Waters Run Deep" TEI edition</title>
-    <author>Taylor, Tom</author>
-    <respStmt>
-     <resp>TEI conversion</resp>
-     <name>Lou Burnard</name>
-    </respStmt>
-   </titleStmt>
-   <publicationStmt>
-    <distributor>Privately distributed by the Digital Lacy Project</distributor>
-    <idno type="LAE">L0319</idno>
-    <availability>
-     <licence target="https://creativecommons.org/publicdomain/zero/1.0/">The Lacy Project waives
-      all rights to the TEI encoding applied to this material, which is believed to be in the public
-      domain. You may copy, modify, distribute and perform this work freely. </licence>
-    </availability>
-   </publicationStmt>
-   <sourceDesc>
-    <bibl type="origin" n="22.4"><author>Taylor, Tom</author><title type="main"
-      n="stillwatersrundeep">“Still Waters Run Deep”</title><title type="sub">An Original Comedy in
-      three acts</title><title type="source" n="#FR">This Comedy is Founded on Charles de Bernard's
-      Novel of "Le Gendre"</title><extent>57 pp (UM copy: 78 - 135)<measure type="pp" quantity="54"/>
-      <measure type="spCount" quantity="662"/>
-      <measure type="spvCount" quantity="1"/>
-      <measure type="txWords" quantity="17178"/>
-      <measure type="spWords" quantity="14610"/>
-      <measure type="stWords" quantity="2568"/>
-     </extent>
-     <title level="s"> Lacy's Acting Edition, volume 22, No. 0319</title><idno type="nic"
-      >N18950</idno><idno type="vpp">Vol22ivStill</idno></bibl>
-    <bibl type="surrogate" subtype="copytext"><ref
-      target="https://lb42.github.io/Lacy/Source/VPP/L0319-vpp.pdf">LoB from VPP</ref><ref
-      target="local:Vol22/L0319/L0319-vpp.pdf"/><ref target="local:Vol22/L0319/Vol22ivStill.pdf"
-     /></bibl>
-    <bibl type="surrogate"><ref target="http://purl.ox.ac.uk/uuid/6a301f0cd33d49f9bba2f189d2395c2a"
-      >Bodleian Library Shuttleworth 67 (7)</ref></bibl>
-    <bibl type="surrogate"><ref target="https://hdl.handle.net/2027/uc1.31175035142903">UC from
-      HT</ref></bibl>
-    <bibl type="surrogate"><ref
-      target="https://babel.hathitrust.org/cgi/pt?id=mdp.39015053749829&amp;seq=78 ">UM from
-      HT</ref><ref target="local:Vol22/L0319/L0319-um.pdf"/></bibl>
-    <listEvent>
-     <event type="LCP" when="1862-04-25" where="Olympic">
-      <desc>Licence sent 25 April for performance at the Olympic 14 May 1855. </desc>
-      <bibl type="msSource">BL ms LCP_52954.C</bibl>
-     </event>
-     <event type="firstPerf" when="1855-05-14" source="textNic" where="Olympic">
-      <desc>Premiered at Royal Olympic Theatre 14 May 1855</desc>
-     </event>
-    </listEvent>
-   </sourceDesc>
+   <titleStmt><title>"Still Waters Run Deep": TEI edition</title><author ref="lacyp:W0302"><persName>Taylor, Tom</persName><idno type="wikidata">Q2329794</idno></author><respStmt><resp>TEI conversion</resp><name>Lou Burnard</name></respStmt></titleStmt>
+   <publicationStmt><distributor>Privately distributed by the Digital Lacy Project</distributor><idno type="LAE">L0319</idno><availability><licence target="https://creativecommons.org/publicdomain/zero/1.0/">The Lacy Project waives all rights to the TEI encoding applied to this material, which it believes to be in the public domain. You may copy, modify, distribute, or perform this work freely. </licence></availability></publicationStmt>
+   <sourceDesc><bibl type="originalSource" n="22.4"><author n="W0302">Taylor, Tom</author>
+      <title type="main">"Still Waters Run Deep”</title>
+      <title type="sub">An Original Comedy in three acts</title>
+      <title type="source" n="#FR">This Comedy is Founded on Charles de Bernard's Novel of "Le
+       Gendre"</title>
+ <extent>57 pp (UM copy: 78 - 135)<measure type="pp" quantity="54"/>
+  <measure type="spCount" quantity="662"/>
+  <measure type="spvCount" quantity="1"/>
+  <measure type="txWords" quantity="17165"/>
+  <measure type="spWords" quantity="14544"/>
+  <measure type="stWords" quantity="2621"/>
+  </extent>
+      <title level="s"> Lacy's Acting Edition, volume 22, No. 0319</title><idno type="nic">N18950</idno><idno type="vpp">Vol22ivStill</idno></bibl><bibl type="surrogate" subtype="copytext"><ref target="https://lb42.github.io/Lacy/Source/VPP/L0319-vpp.pdf">LoB from VPP</ref><ref target="local:Vol22/L0319/L0319-vpp.pdf"/><ref target="local:Vol22/L0319/Vol22ivStill.pdf"/></bibl><bibl type="surrogate"><ref target="http://purl.ox.ac.uk/uuid/6a301f0cd33d49f9bba2f189d2395c2a">Bodleian Library Shuttleworth 67 (7)</ref></bibl><bibl type="surrogate"><ref target="https://hdl.handle.net/2027/uc1.31175035142903">UC from
+       HT</ref></bibl><bibl type="surrogate"><ref target="https://babel.hathitrust.org/cgi/pt?id=mdp.39015053749829&amp;seq=78 ">UM from
+       HT</ref><ref target="local:Vol22/L0319/L0319-um.pdf"/></bibl><listEvent>
+      <event type="LCP" when="1862-04-25" where="Olympic">
+       <desc>Licence sent 25 April for performance at the Olympic 14 May 1855. </desc>
+       <bibl type="msSource">BL ms LCP_52954.C</bibl>
+      </event>
+      <event type="firstPerf" when="1855-05-14" source="textNic" where="Olympic">
+       <desc>Premiered at Royal Olympic Theatre 14 May 1855</desc>
+      </event>
+     </listEvent></sourceDesc>
   </fileDesc>
-  <profileDesc>
-   <!--L 3 Comedy C. COMEDY-->
-   <textClass>
-    <catRef target="#sizeL"/>
-    <catRef target="#act3"/>
-    <catRef target="nic:C."/>
-    <keywords>
-     <term>COMEDY</term>
-    </keywords>
-   </textClass>
-   <particDesc>
-    <listPerson>
-     <person xml:id="L0319_M1">
-      <persName type="role"> Mr. Potter</persName>
-      <persName type="spkr" n="101">Potter.</persName>
-     </person>
-     <person xml:id="L0319_M2">
-      <persName type="role">Captain Hawksley .</persName>
-      <persName type="spkr" n="137">Hawks.</persName>
-     </person>
-     <person xml:id="L0319_M3">
-      <persName type="role">John Mildmay</persName>
-      <persName type="spkr" n="171">Mildmay.</persName>
-     </person>
-     <person xml:id="L0319_M4">
-      <persName type="role">Dunbilk </persName>
-      <persName type="spkr" n="15">Dun.</persName>
-     </person>
-     <person xml:id="L0319_M5">
-      <persName type="role">Langford </persName>
-      <persName type="spkr" n="2">Lang.</persName>
-     </person>
-     <person xml:id="L0319_M6">
-      <persName type="role">Markham </persName>
-      <persName type="spkr" n="1">Mark.</persName>
-      <persName type="spkr" n="1">Markham.</persName>
-     </person>
-     <person xml:id="L0319_M7">
-      <persName type="role">Gimlet </persName>
-      <persName type="spkr" n="7">Gimlet.</persName>
-     </person>
-     <person xml:id="L0319_M8">
-      <persName type="role">Jessop </persName>
-      <persName type="spkr" n="8">Jessop.</persName>
-     </person>
-     <person xml:id="L0319_M9">
-      <persName type="role">Servant</persName>
-      <persName type="spkr" n="1">Servant.</persName>
-     </person>
-     <person xml:id="L0319_F10">
-      <persName type="role">Mrs. Mildmay</persName>
-      <persName type="spkr" n="77">Mrs. M.</persName>
-     </person>
-     <person xml:id="L0319_F11">
-      <persName type="role">Mrs Hector Sternhold</persName>
-      <persName type="spkr" n="139">Mrs. S.</persName>
-     </person>
-     <person xml:id="L0319_mult">
-      <persName type="role">[Multiple speakers]</persName>
-      <persName type="spkr" n="1">All.</persName>
-     </person>
-    </listPerson>
-   </particDesc>
-  </profileDesc>
-  <revisionDesc>
+  
+  <profileDesc><!--L 3 Comedy C. COMEDY--><textClass><catRef target="#sizeL"/><catRef target="#act3"/><catRef target="nic:C."/><keywords><term>COMEDY</term></keywords></textClass><particDesc><listPerson>
+  <person xml:id="L0319_M1">
+   <persName type="role"> Mr. Potter</persName>
+   <persName type="spkr" n="101">Potter.</persName>
+  </person>
+  <person xml:id="L0319_M2">
+   <persName type="role">Captain Hawksley .</persName>
+   <persName type="spkr" n="137">Hawks.</persName>
+  </person>
+  <person xml:id="L0319_M3">
+   <persName type="role">John Mildmay</persName>
+   <persName type="spkr" n="171">Mildmay.</persName>
+  </person>
+  <person xml:id="L0319_M4">
+   <persName type="role">Dunbilk </persName>
+   <persName type="spkr" n="15">Dun.</persName>
+  </person>
+  <person xml:id="L0319_M5">
+   <persName type="role">Langford </persName>
+   <persName type="spkr" n="2">Lang.</persName>
+  </person>
+  <person xml:id="L0319_M6">
+   <persName type="role">Markham </persName>
+   <persName type="spkr" n="1">Mark.</persName>
+   <persName type="spkr" n="1">Markham.</persName>
+  </person>
+  <person xml:id="L0319_M7">
+   <persName type="role">Gimlet </persName>
+   <persName type="spkr" n="7">Gimlet.</persName>
+  </person>
+  <person xml:id="L0319_M8">
+   <persName type="role">Jessop </persName>
+   <persName type="spkr" n="8">Jessop.</persName>
+  </person>
+  <person xml:id="L0319_M9">
+   <persName type="role">Servant</persName>
+   <persName type="spkr" n="1">Servant.</persName>
+  </person>
+  <person xml:id="L0319_F10">
+   <persName type="role">Mrs. Mildmay</persName>
+   <persName type="spkr" n="77">Mrs. M.</persName>
+  </person>
+  <person xml:id="L0319_F11">
+   <persName type="role">Mrs Hector Sternhold</persName>
+   <persName type="spkr" n="139">Mrs. S.</persName>
+  </person>
+  <person xml:id="L0319_mult">
+   <persName type="role">[Multiple speakers]</persName>
+   <persName type="spkr" n="1">All.</persName>
+  </person>
+ </listPerson></particDesc></profileDesc><revisionDesc><change when="2026-03-02">Add wikidata link to titleStmt where possible</change>
    <change when="2026-01-19">Standardize header components</change>
    <change when="2026-01-15">Header confected</change>
   </revisionDesc>

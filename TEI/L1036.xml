@@ -1,10 +1,12 @@
-<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L1036">
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L1036" xml:lang="en">
  <teiHeader>
   <fileDesc>
-   <titleStmt><title>The Child Stealer: TEI edition</title><author>Suter, William E. </author><respStmt><resp>TEI conversion</resp><name>Lou Burnard</name></respStmt></titleStmt>
-   <publicationStmt><distributor>Privately distributed by the Digital Lacy Project</distributor><idno type="LAE">L1036</idno><availability><licence target="https://creativecommons.org/publicdomain/zero/1.0/">The Lacy Project waives all rights to the TEI encoding applied to this material, which is believed to be in the public domain. You may copy, modify, distribute and perform this work freely. </licence></availability></publicationStmt>
-   <sourceDesc><bibl type="origin" n="70.1"><author>Suter, William E.</author><title type="main" n="thechildstealer">The Child Stealer</title><title type="sub">A Drama in four
-       Parts</title><extent>46 pp (UM copy: 10 - 56)<measure type="pp" quantity="47"/>
+   <titleStmt><title>The Child Stealer: TEI edition</title><author ref="lacyp:W0300"><persName>Suter, William E. </persName><idno type="wikidata"/></author><respStmt><resp>TEI conversion</resp><name>Lou Burnard</name></respStmt></titleStmt>
+   <publicationStmt><distributor>Privately distributed by the Digital Lacy Project</distributor><idno type="LAE">L1036</idno><availability><licence target="https://creativecommons.org/publicdomain/zero/1.0/">The Lacy Project waives all rights to the TEI encoding applied to this material, which it believes to be in the public domain. You may copy, modify, distribute, or perform this work freely. </licence></availability></publicationStmt>
+   <sourceDesc><bibl type="originalSource" n="70.1"><author n="W0300">Suter, William E.</author>
+      <title type="main">The Child Stealer</title>
+      <title type="sub">A Drama in four Parts</title>
+ <extent>46 pp (UM copy: 10 - 56)<measure type="pp" quantity="47"/>
   <measure type="spCount" quantity="806"/>
   <measure type="spvCount" quantity="9"/>
   <measure type="txWords" quantity="15417"/>
@@ -113,7 +115,7 @@
    <persName type="spkr" n="6">Omnes.</persName>
    <persName type="spkr" n="1">Sailors.</persName>
   </person>
- </listPerson></particDesc></profileDesc><revisionDesc><change when="2026-01-11">Standardize header components</change><change when="2026-01-10">Metadata refreshed from catalogue and Partix folder</change>
+ </listPerson></particDesc></profileDesc><revisionDesc><change when="2026-03-02">Add wikidata link to titleStmt where possible</change><change when="2026-01-11">Standardize header components</change><change when="2026-01-10">Metadata refreshed from catalogue and Partix folder</change>
    <change when="2025-12-17">Metadata refreshed from catalogue and Partix folder</change>
    <change when="2025-12-08">Auto-tagged by Gemini 3.0 (Flash 2.5)</change>
   </revisionDesc>
@@ -3707,7 +3709,7 @@
       of the women are smoking short pipes.—Music.</stage>
      <spGrp>
       <head>CHORUS—noisily.</head>
-      <sp who="#L1036_mult">
+      <sp who="#">
        <l>With gin, and with baccy, and beer,</l>
        <l>In this cellar so jolly are we!</l>
        <l>No peelers are here!</l>
@@ -3791,7 +3793,7 @@
      <pb n="42"/>
      <spGrp>
       <head>Song—NOBBY.</head>
-      <sp who="#L1036_M12">
+      <sp who="#">
        <l>With night there comes our turn to sing,</l>
        <l>The flats they then succumbs;</l>
        <l>Pickpockets then are on the wing,</l>

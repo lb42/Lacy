@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L1143">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L1143" xml:lang="en">
  <teiHeader>
   <fileDesc>
    <titleStmt>
-    <title>Clarissa Harlowe TEI edition</title>
-    <author>Courtney, John</author>
-    <author>Lacy, T. H. </author>
+    <title>Clarissa Harlowe: TEI edition</title>
+    <author ref="W0069"><persName>Courtney, John</persName><idno type="wikidata"
+      >Q16065870</idno></author>
     <respStmt>
      <resp>TEI conversion</resp>
      <name>Lou Burnard</name>
@@ -16,26 +16,29 @@
     <idno type="LAE">L1143</idno>
     <availability>
      <licence target="https://creativecommons.org/publicdomain/zero/1.0/">The Lacy Project waives
-      all rights to the TEI encoding applied to this material, which is believed to be in the public
-      domain. You may copy, modify, distribute and perform this work freely. </licence>
+      all rights to the TEI encoding applied to this material, which it believes to be in the public
+      domain. You may copy, modify, distribute, or perform this work freely. </licence>
     </availability>
    </publicationStmt>
    <sourceDesc>
-    <bibl type="origin" n="77.3"><author>Lacy, Thomas Hailes</author>;<author>Courtney,
-      John</author><title type="main" n="clarissaharlowe">Clarissa Harlow</title><title type="sub">A
-      Tragic Drama, in three acts.</title><title type="source">Adapted from the
-      French</title><extent>45 pp (UM copy: 89 - 134)<measure type="pp" quantity="43"/>
+    <bibl type="originalSource" n="77.3"><author n="W0165">Lacy, Thomas Hailes</author>;<author
+      n="W0069">Courtney, John</author>
+     <title type="main">Clarissa Harlow</title>
+     <title type="sub">A Tragic Drama, in three acts.</title>
+     <title type="source">Adapted from the French</title>
+     <extent>45 pp (UM copy: 89 - 134)<measure type="pp" quantity="43"/>
       <measure type="spCount" quantity="594"/>
       <measure type="spvCount" quantity="0"/>
-      <measure type="txWords" quantity="14663"/>
+      <measure type="txWords" quantity="14660"/>
       <measure type="spWords" quantity="11911"/>
-      <measure type="stWords" quantity="2752"/>
+      <measure type="stWords" quantity="2749"/>
      </extent>
      <title level="s"> Lacy's Acting Edition, volume 77, No. 1143</title><idno type="nic"
       >N02135</idno><idno type="vpp">Vol77iiiClarissa</idno>
      <relatedItem type="source">
-      <bibl n="BW_7755"><title>Clarisse Harlowe, drame en trois actes, mélé de chant </title> par
-        <author>MM. Dumanoir, Clairville et Guillard</author>
+      <bibl n="BW_7755">
+       <title>Clarisse Harlowe, drame en trois actes, mélé de chant </title> par <author>MM.
+        Dumanoir, Clairville et Guillard</author>
        <note type="perf">Représenté, pour la première fois, à Paris, sur le théâtre du
         Gymnase-Dramatique, le 5 Août 1846.</note><ref
         target="https://hdl.handle.net/2027/osu.32435030372528">HT from OSU</ref>; <ref
@@ -56,6 +59,7 @@
     </listEvent>
    </sourceDesc>
   </fileDesc>
+
   <profileDesc>
    <!--M 3 Drama D. DRAMA-->
    <textClass>
@@ -178,6 +182,7 @@
    </particDesc>
   </profileDesc>
   <revisionDesc>
+   <change when="2026-03-02">Add wikidata link to titleStmt where possible</change>
    <change when="2026-02-06">Standardize header components</change>
    <change when="2026-02-01">TEI autotagging by Gemini Pro 2.5</change>
   </revisionDesc>
@@ -384,9 +389,9 @@
         guineas)</stage> Four, eight, twelve, fifteen guineas, received by the right hand, and
        deposited in my right hand exchequer; so stands the credit side of the Account of Devotion,
        opened by Robert Lovelace, Esq. Now let's pass over to the other side, <stage>(takes money
-        out of L.pocket, and counts it)</stage> Received by the left hand, and deposited in the
-       left pocket. Three, six, nine, twelve guineas ! 'Pon my life, Captain Harlowe, I'm very sorry
-       for you, but you are three guineas behind-hand, and consequently, I'm obliged to moderate my
+        out of L.pocket, and counts it)</stage> Received by the left hand, and deposited in the left
+       pocket. Three, six, nine, twelve guineas ! 'Pon my life, Captain Harlowe, I'm very sorry for
+       you, but you are three guineas behind-hand, and consequently, I'm obliged to moderate my
        devotion to the
        <pb n="6"/> left, and like better men than myself, transfer my interest to the more
         <hi>interesting</hi> side of the question, <stage>(noise of a key heard in the lock of door

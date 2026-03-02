@@ -1,124 +1,86 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L0247">
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L0247" xml:lang="en">
  <teiHeader>
   <fileDesc>
-   <titleStmt>
-    <title>The Railway Belle.: TEI edition</title>
-    <author>Lemon, Mark</author>
-    <respStmt>
-     <resp>TEI conversion</resp>
-     <name>Lou Burnard</name>
-    </respStmt>
-   </titleStmt>
-   <publicationStmt>
-    <distributor>Privately distributed by the Digital Lacy Project</distributor>
-    <idno type="LAE">L0247</idno>
-    <availability>
-     <licence target="https://creativecommons.org/publicdomain/zero/1.0/">The Lacy Project waives
-      all rights to the TEI encoding applied to this material, which is believed to be in the public
-      domain. You may copy, modify, distribute and perform this work freely. </licence>
-    </availability>
-   </publicationStmt>
-   <sourceDesc>
-    <bibl type="origin" n="17.7"><author>Lemon, Mark</author><title type="main" n="therailwaybelle"
-      >The Railway Belle</title><title type="sub">A Farce in one act</title><extent>18 pp (UM copy:
-      194 - 212)<measure type="pp" quantity="19"/>
-      <measure type="spCount" quantity="342"/>
-      <measure type="spvCount" quantity="0"/>
-      <measure type="txWords" quantity="4538"/>
-      <measure type="spWords" quantity="3904"/>
-      <measure type="stWords" quantity="634"/>
-     </extent>
-     <title level="s"> Lacy's Acting Edition, volume 17, No. 0247</title><idno type="nic"
-      >N14885</idno><idno type="vpp">Vol17viiRailway</idno></bibl>
-    <bibl type="surrogate" subtype="copytext"><ref
-      target="https://lb42.github.io/Lacy/Source/VPP/L0247-vpp.pdf">LoB from VPP</ref><ref
-      target="local:Vol17/L0247/L0247-vpp.pdf"/><ref target="local:Vol17/L0247/Vol17viiRailway.pdf"
-     /></bibl>
-    <bibl type="surrogate"><ref
-      target="https://babel.hathitrust.org/cgi/pt?id=mdp.39015067453186&amp;seq=194 ">UM from
-      HT</ref><ref target="local:Vol17/L0247/L0247-um.pdf"/></bibl>
-    <listEvent>
-     <event type="LCP" when="1862-11-16" where="Adelphi">
-      <desc>Licence sent 16 November for performance at the Adelphi 20 November 1854. </desc>
-      <bibl type="msSource">BL ms LCP_52950.V</bibl>
-     </event>
-     <event type="firstPerf" when="1854-11-20" source="textNic" where="Adelphi">
-      <desc>Premiered at Royal Adelphi Theatre 20 Nov. 1854</desc>
-     </event>
-    </listEvent>
-   </sourceDesc>
+   <titleStmt><title>The Railway Belle.: TEI edition</title><author ref="lacyp:W0171"><persName>Lemon, Mark</persName><idno type="wikidata">Q680327</idno></author><respStmt><resp>TEI conversion</resp><name>Lou Burnard</name></respStmt></titleStmt>
+   <publicationStmt><distributor>Privately distributed by the Digital Lacy Project</distributor><idno type="LAE">L0247</idno><availability><licence target="https://creativecommons.org/publicdomain/zero/1.0/">The Lacy Project waives all rights to the TEI encoding applied to this material, which it believes to be in the public domain. You may copy, modify, distribute, or perform this work freely. </licence></availability></publicationStmt>
+   <sourceDesc><bibl type="originalSource" n="17.7"><author n="W0171">Lemon, Mark</author>
+      <title type="main">The Railway Belle</title>
+      <title type="sub">A Farce in one act</title>
+ <extent>18 pp (UM copy: 194 - 212)<measure type="pp" quantity="19"/>
+  <measure type="spCount" quantity="342"/>
+  <measure type="spvCount" quantity="0"/>
+  <measure type="txWords" quantity="4538"/>
+  <measure type="spWords" quantity="3904"/>
+  <measure type="stWords" quantity="634"/>
+  </extent>
+      <title level="s"> Lacy's Acting Edition, volume 17, No. 0247</title><idno type="nic">N14885</idno><idno type="vpp">Vol17viiRailway</idno></bibl><bibl type="surrogate" subtype="copytext"><ref target="https://lb42.github.io/Lacy/Source/VPP/L0247-vpp.pdf">LoB from VPP</ref><ref target="local:Vol17/L0247/L0247-vpp.pdf"/><ref target="local:Vol17/L0247/Vol17viiRailway.pdf"/></bibl><bibl type="surrogate"><ref target="https://babel.hathitrust.org/cgi/pt?id=mdp.39015067453186&amp;seq=194 ">UM from
+       HT</ref><ref target="local:Vol17/L0247/L0247-um.pdf"/></bibl><listEvent>
+      <event type="LCP" when="1862-11-16" where="Adelphi">
+       <desc>Licence sent 16 November for performance at the Adelphi 20 November 1854. </desc>
+       <bibl type="msSource">BL ms LCP_52950.V</bibl>
+      </event>
+      <event type="firstPerf" when="1854-11-20" source="textNic" where="Adelphi">
+       <desc>Premiered at Royal Adelphi Theatre 20 Nov. 1854</desc>
+      </event>
+     </listEvent></sourceDesc>
   </fileDesc>
 
-  <profileDesc>
-   <!--S 1 Farce F. FARCE-->
-   <textClass>
-    <catRef target="#sizeS"/>
-    <catRef target="#act1"/>
-    <catRef target="nic:F."/>
-    <keywords>
-     <term>FARCE</term>
-    </keywords>
-   </textClass>
-   <particDesc>
-    <listPerson>
-     <person xml:id="L0247_M1">
-      <persName type="role">MR. CRABSHAW</persName>
-      <persName type="spkr" n="35">Crab.</persName>
-     </person>
-     <person xml:id="L0247_M2">
-      <persName type="role">JOHN QUICK</persName>
-      <persName type="spkr" n="110">John.</persName>
-     </person>
-     <person xml:id="L0247_M3">
-      <persName type="role">MR. SAMUEL GREENHORNE</persName>
-      <persName type="spkr" n="81">Green.</persName>
-     </person>
-     <person xml:id="L0247_M4">
-      <persName type="role">MR. FALLOWS</persName>
-      <persName type="spkr" n="22">Fal.</persName>
-      <persName type="spkr" n="1">Fallows.</persName>
-     </person>
-     <person xml:id="L0247_M5">
-      <persName type="role">LUNGS</persName>
-      <persName type="spkr" n="4">Porter.</persName>
-     </person>
-     <person xml:id="L0247_F6">
-      <persName type="role">MRS. FALLOWS</persName>
-      <persName type="spkr" n="3">Mrs. F.</persName>
-      <persName type="spkr" n="1">Mrs. Fallows.</persName>
-     </person>
-     <person xml:id="L0247_F7">
-      <persName type="role">MARY FALLOWS</persName>
-      <persName type="spkr" n="1">Mary F.</persName>
-      <persName type="spkr" n="3">Mary.</persName>
-      <persName type="spkr" n="4">Miss F.</persName>
-     </person>
-     <person xml:id="L0247_F8">
-      <persName type="role">JULIA SPRUCE</persName>
-      <persName type="spkr" n="65">Miss S.</persName>
-      <persName type="spkr" n="1">Miss Spruce.</persName>
-      <persName type="spkr" n="1">Spruce.</persName>
-     </person>
-     <person xml:id="L0247_M9">
-      <persName type="role">[Passenger]</persName>
-      <persName type="spkr" n="1">1st Passenger.</persName>
-      <persName type="spkr" n="1">2nd Do.</persName>
-      <persName type="spkr" n="1">3rd Do.</persName>
-      <persName type="spkr" n="1">4th Do.</persName>
-      <persName type="spkr" n="1">5th Do.</persName>
-      <persName type="spkr" n="1">6th Do.</persName>
-     </person>
-     <person xml:id="L0247_mult">
-      <persName type="role">[Multiple speakers]</persName>
-      <persName type="spkr" n="2">All.</persName>
-      <persName type="spkr" n="1">Mr., Mrs., and Mary Fallows.</persName>
-      <persName type="spkr" n="1">Вoth.</persName>
-     </person>
-    </listPerson>
-   </particDesc>
-  </profileDesc>
-  <revisionDesc>
+  
+  <profileDesc><!--S 1 Farce F. FARCE--><textClass><catRef target="#sizeS"/><catRef target="#act1"/><catRef target="nic:F."/><keywords><term>FARCE</term></keywords></textClass><particDesc><listPerson>
+  <person xml:id="L0247_M1">
+   <persName type="role">MR. CRABSHAW</persName>
+   <persName type="spkr" n="35">Crab.</persName>
+  </person>
+  <person xml:id="L0247_M2">
+   <persName type="role">JOHN QUICK</persName>
+   <persName type="spkr" n="110">John.</persName>
+  </person>
+  <person xml:id="L0247_M3">
+   <persName type="role">MR. SAMUEL GREENHORNE</persName>
+   <persName type="spkr" n="81">Green.</persName>
+  </person>
+  <person xml:id="L0247_M4">
+   <persName type="role">MR. FALLOWS</persName>
+   <persName type="spkr" n="22">Fal.</persName>
+   <persName type="spkr" n="1">Fallows.</persName>
+  </person>
+  <person xml:id="L0247_M5">
+   <persName type="role">LUNGS</persName>
+   <persName type="spkr" n="4">Porter.</persName>
+  </person>
+  <person xml:id="L0247_F6">
+   <persName type="role">MRS. FALLOWS</persName>
+   <persName type="spkr" n="3">Mrs. F.</persName>
+   <persName type="spkr" n="1">Mrs. Fallows.</persName>
+  </person>
+  <person xml:id="L0247_F7">
+   <persName type="role">MARY FALLOWS</persName>
+   <persName type="spkr" n="1">Mary F.</persName>
+   <persName type="spkr" n="3">Mary.</persName>
+   <persName type="spkr" n="4">Miss F.</persName>
+  </person>
+  <person xml:id="L0247_F8">
+   <persName type="role">JULIA SPRUCE</persName>
+   <persName type="spkr" n="65">Miss S.</persName>
+   <persName type="spkr" n="1">Miss Spruce.</persName>
+   <persName type="spkr" n="1">Spruce.</persName>
+  </person>
+  <person xml:id="L0247_M9">
+   <persName type="role">[Passenger]</persName>
+   <persName type="spkr" n="1">1st Passenger.</persName>
+   <persName type="spkr" n="1">2nd Do.</persName>
+   <persName type="spkr" n="1">3rd Do.</persName>
+   <persName type="spkr" n="1">4th Do.</persName>
+   <persName type="spkr" n="1">5th Do.</persName>
+   <persName type="spkr" n="1">6th Do.</persName>
+  </person>
+  <person xml:id="L0247_mult">
+   <persName type="role">[Multiple speakers]</persName>
+   <persName type="spkr" n="2">All.</persName>
+   <persName type="spkr" n="1">Mr., Mrs., and Mary Fallows.</persName>
+   <persName type="spkr" n="1">Вoth.</persName>
+  </person>
+ </listPerson></particDesc></profileDesc><revisionDesc><change when="2026-03-02">Add wikidata link to titleStmt where possible</change>
    <change when="2026-01-11">Standardize header components</change>
    <change when="2026-01-10">Metadata refreshed from catalogue and Partix folder</change>
    <change when="2025-12-31">Metadata refreshed from catalogue and Partix folder</change>
@@ -173,8 +135,7 @@
      <head>CHARACTERS.</head>
      <castItem><role gender="M">MR. CRABSHAW</role>
       <roleDesc>(Station Master)</roleDesc>.... <actor sex="M">MR. GARDEN.</actor></castItem>
-     <castItem><role gender="M">JOHN QUICK</role><roleDesc> ( Waiter)</roleDesc>.... <actor sex="M"
-       >MR. JAMES ROGERS.</actor></castItem>
+     <castItem><role gender="M">JOHN QUICK</role><roleDesc> ( Waiter)</roleDesc>.... <actor sex="M">MR. JAMES ROGERS.</actor></castItem>
      <castItem><role gender="M">MR. SAMUEL GREENHORNE</role>.... <actor sex="M">MR. CHARLES
        SELBY.</actor></castItem>
      <castItem><role gender="M">MR. FALLOWS</role>.... <actor sex="M">MR. R.

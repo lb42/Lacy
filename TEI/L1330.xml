@@ -1,108 +1,66 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L1330">
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L1330" xml:lang="en">
  <teiHeader>
   <fileDesc>
-   <titleStmt>
-    <title>Captain Smith.: TEI edition</title>
-    <author>Berrie, Ernie</author>
-    <respStmt>
-     <resp>TEI conversion</resp>
-     <name>Lou Burnard</name>
-    </respStmt>
-   </titleStmt>
-   <publicationStmt>
-    <distributor>Privately distributed by the Digital Lacy Project</distributor>
-    <idno type="LAE">L1330</idno>
-    <availability>
-     <licence target="https://creativecommons.org/publicdomain/zero/1.0/">The Lacy Project waives
-      all rights to the TEI encoding applied to this material, which is believed to be in the public
-      domain. You may copy, modify, distribute and perform this work freely. </licence>
-    </availability>
-   </publicationStmt>
-   <sourceDesc>
-    <bibl type="origin" n="89.10"><author>Berrie, E.</author><title type="main" n="captainsmith"
-      >Captain Smith</title><title type="sub">A Farce in one act</title><extent>18 pp (UM copy: 280
-      - 298)<measure type="pp" quantity="19"/>
-      <measure type="spCount" quantity="349"/>
-      <measure type="spvCount" quantity="0"/>
-      <measure type="txWords" quantity="5896"/>
-      <measure type="spWords" quantity="5075"/>
-      <measure type="stWords" quantity="821"/>
-     </extent>
-     <title level="s"> Lacy's Acting Edition, volume 89, No. 1330</title><idno type="nic"
-      >N09321</idno><idno type="vpp">Vol89xSmith</idno></bibl>
-    <bibl type="surrogate" subtype="copytext"><ref
-      target="https://lb42.github.io/Lacy/Source/VPP/L1330-vpp.pdf">LoB from VPP</ref><ref
-      target="local:Vol89/L1330/L1330-vpp.pdf"/><ref target="local:Vol89/L1330/Vol89xSmith.pdf"
-     /></bibl>
-    <bibl type="surrogate"><ref target="https://hdl.handle.net/2027/uiug.30112069425335">UIU from
-      HT</ref></bibl>
-    <bibl type="surrogate"><ref
-      target="https://babel.hathitrust.org/cgi/pt?id=mdp.39015067453418&amp;seq=280 ">UM from
-      HT</ref><ref target="local:Vol89/L1330/L1330-um.pdf"/></bibl>
-    <bibl type="surrogate" subtype="TEI"><ref target="https://lb42.github.io/Lacy/L1330.html"
-      >TEI</ref></bibl>
-    <listEvent>
-     <event type="firstPerf" when="1870-04-04" source="textNic" where="Charing">
-      <desc>Premiered at Charing Cross Theatre 4 April 1870</desc>
-     </event>
-    </listEvent>
-   </sourceDesc>
+   <titleStmt><title>Captain Smith.: TEI edition</title><author ref="lacyp:W0030"><persName>Berrie, E.</persName><idno type="wikidata"/></author><respStmt><resp>TEI conversion</resp><name>Lou Burnard</name></respStmt></titleStmt>
+   <publicationStmt><distributor>Privately distributed by the Digital Lacy Project</distributor><idno type="LAE">L1330</idno><availability><licence target="https://creativecommons.org/publicdomain/zero/1.0/">The Lacy Project waives all rights to the TEI encoding applied to this material, which it believes to be in the public domain. You may copy, modify, distribute, or perform this work freely. </licence></availability></publicationStmt>
+   <sourceDesc><bibl type="originalSource" n="89.10"><author>Berrie, E.</author> <title type="main" n="captainsmith">Captain Smith</title> <title type="sub">A Farce in one act</title>
+ <extent>18 pp (UM copy: 280
+       - 298)<measure type="pp" quantity="19"/>
+  <measure type="spCount" quantity="349"/>
+  <measure type="spvCount" quantity="0"/>
+  <measure type="txWords" quantity="5896"/>
+  <measure type="spWords" quantity="5075"/>
+  <measure type="stWords" quantity="821"/>
+  </extent>
+       <title level="s"> Lacy's Acting Edition, volume 89, No. 1330</title><idno type="nic">N09321</idno><idno type="vpp">Vol89xSmith</idno></bibl><bibl type="surrogate" subtype="copytext"><ref target="https://lb42.github.io/Lacy/Source/VPP/L1330-vpp.pdf">LoB from VPP</ref><ref target="local:Vol89/L1330/L1330-vpp.pdf"/><ref target="local:Vol89/L1330/Vol89xSmith.pdf"/></bibl><bibl type="surrogate"><ref target="https://hdl.handle.net/2027/uiug.30112069425335">UIU from
+       HT</ref></bibl><bibl type="surrogate"><ref target="https://babel.hathitrust.org/cgi/pt?id=mdp.39015067453418&amp;seq=280 ">UM from
+       HT</ref><ref target="local:Vol89/L1330/L1330-um.pdf"/></bibl><bibl type="surrogate" subtype="TEI"><ref target="https://lb42.github.io/Lacy/L1330.html">TEI</ref></bibl><listEvent>
+      <event type="firstPerf" when="1870-04-04" source="textNic" where="Charing">
+       <desc>Premiered at Charing Cross Theatre 4 April 1870</desc>
+      </event>
+     </listEvent></sourceDesc>
   </fileDesc>
 
 
-  <profileDesc>
-   <!--S 1 Farce F. FARCE-->
-   <textClass>
-    <catRef target="#sizeS"/>
-    <catRef target="#act1"/>
-    <catRef target="nic:F."/>
-    <keywords>
-     <term>FARCE</term>
-    </keywords>
-   </textClass>
-   <particDesc>
-    <listPerson>
-     <person xml:id="L1330_M1">
-      <persName type="role">Sir Charles Chatterton </persName>
-      <persName type="spkr" n="1">Sir Charles Chatterton.</persName>
-      <persName type="spkr" n="1">Sir Charles.</persName>
-      <persName type="spkr" n="90">Sir C.</persName>
-     </person>
-     <person xml:id="L1330_M2">
-      <persName type="role">Captain Smith </persName>
-      <persName type="spkr" n="26">Captain S.</persName>
-     </person>
-     <person xml:id="L1330_M3">
-      <persName type="role">Fido </persName>
-      <persName type="spkr" n="65">Fido</persName>
-     </person>
-     <person xml:id="L1330_F4">
-      <persName type="role">Mrs. Clapperclaw </persName>
-      <persName type="spkr" n="4">Mrs. C.</persName>
-      <persName type="spkr" n="1">Mrs. Clapperclaw.</persName>
-      <persName type="spkr" n="54">Mrs. Clap.</persName>
-     </person>
-     <person xml:id="L1330_F5">
-      <persName type="role">Miss Stella Smith </persName>
-      <persName type="spkr" n="52">Stella</persName>
-     </person>
-     <person xml:id="L1330_F6">
-      <persName type="role">Arabella </persName>
-      <persName type="spkr" n="5">Arab</persName>
-     </person>
-     <person xml:id="L1330_F7">
-      <persName type="role">Dolly </persName>
-      <persName type="spkr" n="50">Dolly</persName>
-     </person>
+  
+  <profileDesc><!--S 1 Farce F. FARCE--><textClass><catRef target="#sizeS"/><catRef target="#act1"/><catRef target="nic:F."/><keywords><term>FARCE</term></keywords></textClass><particDesc><listPerson>
+<person xml:id="L1330_M1">
+<persName type="role">Sir Charles Chatterton </persName>
+<persName type="spkr" n="1">Sir Charles Chatterton.</persName>
+<persName type="spkr" n="1">Sir Charles.</persName>
+<persName type="spkr" n="90">Sir C.</persName>
+</person>
+<person xml:id="L1330_M2">
+<persName type="role">Captain Smith </persName>
+<persName type="spkr" n="26">Captain S.</persName>
+</person>
+<person xml:id="L1330_M3">
+<persName type="role">Fido </persName>
+<persName type="spkr" n="65">Fido</persName>
+</person>
+<person xml:id="L1330_F4">
+<persName type="role">Mrs. Clapperclaw </persName>
+<persName type="spkr" n="4">Mrs. C.</persName>
+<persName type="spkr" n="1">Mrs. Clapperclaw.</persName>
+<persName type="spkr" n="54">Mrs. Clap.</persName>
+</person>
+<person xml:id="L1330_F5">
+<persName type="role">Miss Stella Smith </persName>
+<persName type="spkr" n="52">Stella</persName>
+</person>
+<person xml:id="L1330_F6">
+<persName type="role">Arabella </persName>
+<persName type="spkr" n="5">Arab</persName>
+</person>
+<person xml:id="L1330_F7">
+<persName type="role">Dolly </persName>
+<persName type="spkr" n="50">Dolly</persName>
+</person>
 
 
 
 
-    </listPerson>
-   </particDesc>
-  </profileDesc>
-  <revisionDesc>
+</listPerson></particDesc></profileDesc><revisionDesc><change when="2026-02-24">Add wikidata link to titleStmt where possible</change>
    <change when="2026-01-11">Standardize header components</change>
    <change when="2026-01-10">Metadata refreshed from catalogue and Partix folder</change>
    <change when="2025-11-02">Metadata refreshed from catalogue and Partix folder</change>

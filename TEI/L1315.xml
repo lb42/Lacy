@@ -1,17 +1,18 @@
-<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L1315">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://dracor.org/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://dracor.org/schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L1315" xml:lang="en">
  <teiHeader>
   <fileDesc>
-   <titleStmt><title>The Corsican "Bothers;" Or, The Troublesome Twins.: TEI edition</title><author>Byron, Henry James</author><respStmt><resp>TEI conversion</resp><name>Lou Burnard</name></respStmt></titleStmt>
-   <publicationStmt><distributor>Privately distributed by the Digital Lacy Project</distributor><idno type="LAE">L1315</idno><availability><licence target="https://creativecommons.org/publicdomain/zero/1.0/">The Lacy Project waives all rights to the TEI encoding applied to this material, which is believed to be in the public domain. You may copy, modify, distribute and perform this work freely. </licence></availability></publicationStmt>
-   <sourceDesc><bibl type="origin" n="88.10"><author>Byron, Henry James</author><title type="main" n="thecorsicanbothers">The Corsican “Bothers”; or, The Troublesome Twins</title><title type="sub">An Original Burlesque Extravaganza</title><title type="source" n="#EN">Founded on a
-       Famous Romantic Drama</title><extent>43 pp (UM copy: 438 - 481)<measure type="pp" quantity="44"/>
+   <titleStmt><title>The Corsican "Bothers;" Or, The Troublesome Twins.: TEI edition</title><author ref="lacyp:W0053"><persName>Byron, Henry James</persName><idno type="wikidata">Q5723837</idno></author><respStmt><resp>TEI conversion</resp><name>Lou Burnard</name></respStmt></titleStmt>
+   <publicationStmt><distributor>Privately distributed by the Digital Lacy Project</distributor><idno type="LAE">L1315</idno><availability><licence target="https://creativecommons.org/publicdomain/zero/1.0/">The Lacy Project waives all rights to the TEI encoding applied to this material, which it believes to be in the public domain. You may copy, modify, distribute, or perform this work freely. </licence></availability></publicationStmt>
+   <sourceDesc><bibl type="originalSource" n="88.10"><author>Byron, Henry James</author> <title type="main" n="thecorsicanbothers">The Corsican "Bothers”; or, The Troublesome Twins</title> <title type="sub">An Original Burlesque Extravaganza</title> <title type="source" n="#EN">Founded on
+       a Famous Romantic Drama</title>
+ <extent>43 pp (UM copy: 438 - 481)<measure type="pp" quantity="44"/>
   <measure type="spCount" quantity="516"/>
   <measure type="spvCount" quantity="514"/>
   <measure type="txWords" quantity="9589"/>
   <measure type="spWords" quantity="7587"/>
   <measure type="stWords" quantity="2002"/>
   </extent>
-      <title level="s"> Lacy's Acting Edition, volume 88, No. 1315</title><idno type="nic">N10406</idno><idno type="vpp">Vol88xCorsican</idno></bibl><bibl type="surrogate" subtype="copytext"><ref target="https://lb42.github.io/Lacy/Source/VPP/L1315-vpp.pdf">LoB from VPP</ref><ref target="local:Vol88/L1315/L1315-vpp.pdf"/><ref target="local:Vol88/L1315/Vol88xCorsican.pdf"/></bibl><bibl type="surrogate"><ref target="https://babel.hathitrust.org/cgi/pt?id=mdp.39015067453723&amp;seq=438 ">UM from
+       <title level="s"> Lacy's Acting Edition, volume 88, No. 1315</title><idno type="nic">N10406</idno><idno type="vpp">Vol88xCorsican</idno></bibl><bibl type="surrogate" subtype="copytext"><ref target="https://lb42.github.io/Lacy/Source/VPP/L1315-vpp.pdf">LoB from VPP</ref><ref target="local:Vol88/L1315/L1315-vpp.pdf"/><ref target="local:Vol88/L1315/Vol88xCorsican.pdf"/></bibl><bibl type="surrogate"><ref target="https://babel.hathitrust.org/cgi/pt?id=mdp.39015067453723&amp;seq=438 ">UM from
        HT</ref><ref target="local:Vol88/L1315/L1315-um.pdf"/></bibl><bibl type="surrogate" subtype="TEI"><ref target="https://lb42.github.io/Lacy/L1315.html">TEI</ref></bibl><listEvent>
       <event type="firstPerf" when="1869-05-17" source="textNic" where="Globe">
        <desc>Premiered at New Globe Theatre 17 May 1869</desc>
@@ -120,7 +121,7 @@
 <persName type="spkr" n="1">Chateau.Meynard.Martel.</persName>
 </person>
 
-</listPerson></particDesc></profileDesc><revisionDesc><change when="2026-01-11">Standardize header components</change><change when="2026-01-10">Metadata refreshed from catalogue and Partix folder</change>
+</listPerson></particDesc></profileDesc><revisionDesc><change when="2026-02-24">Add wikidata link to titleStmt where possible</change><change when="2026-01-11">Standardize header components</change><change when="2026-01-10">Metadata refreshed from catalogue and Partix folder</change>
    <change when="2025-11-02">Metadata refreshed from catalogue and Partix folder</change>
    <change when="2025-09-11">Hand edit @who</change>
    <change when="2025-09-07">Metadata updated from new catalogue</change>
@@ -138,7 +139,7 @@
       <title>Cyril's Success</title>; <title>The Old Story</title>; <title>Dundreary Married and
       Done For</title>; <title>Cinderella</title>; <title>Blue Beard from a New Point of
      Hue</title>; <title>Robinson Crusoe-</title>; <title>Little Von Giovanni</title>;
-      <title>Mazeppa: </title><title>The Maid and the Magpie, or the Fatal Spoon</title>; <title>The Babes in the
+      <title>Mazeppa: The Maid and the Magpie, or the Fatal Spoon</title>; <title>The Babes in the
       Wood</title>; <title>Bride of Abydos</title>; <title>Fra Diavolo</title>; <title>Jack the
       Giant Killer</title>; <title>Very Latest Edition of the Lady of Lyons</title>; <title>The
       Nymph of the Lurleyberg</title>; <title>Pilgrim of Love</title>; <title>The Garibaldi
@@ -146,7 +147,7 @@
       the Sensation Goat</title>; <title>Goldenhair the Good</title>; <title>Ivanhoe in Accordance,
       etc.</title>; <title>Beauty and the Beast</title>; <title>Rival Othellos</title>;
       <title>Whittington and his Cat</title>; <title>Puss in a New Pair of Boots</title>;
-      <title>Miss Eily O'Connor</title><title>George de Barnwell</title>; <title>Our Sea-side Lodgings</title>;
+      <title>Miss Eily O'ConnorGeorge de Barnwell</title>; <title>Our Sea-side Lodgings</title>;
       <title>The Rosebud of Stinging-nettle Farm</title>; <title>The Sensation Fork</title>;
       <title>My Wife and I</title>; <title>Beautiful Haider, or the Sea Nymph and the Sallee
       Rovers</title>; <title>Ill Treated Il Trovatore</title>; <title>The Motto: "l am all there!'
@@ -158,12 +159,12 @@
       Envoy that Stole the King's Daughter</title>; <title>La Sonnambula! or the Supper, the
       Sleeper, and the Merry Swiss Boy</title>; <title>Pan</title>; <title>Lucia di
       Lammermoor</title>; <title>Pandora's Box</title>; <title>A Hundred Thousand Pounds</title>;
-      <title>William Tell with a Vengeance or, the Pet, the Patriot, and the Pippin</title>;
+      <title>William Tell with a Vengeanceor, the Pet, the Patriot, and the Pippin</title>;
       <title>Lucretia Borgia, M.D.</title>; <title>The Lancashire Lass</title>; <title>Blow for
       Blow</title>; <title>Not such a Fool as he Looks</title>; <title>Lord Bateman; or, the Proud
       Young Porter and the Fair Sophia, &amp;c., &amp;c.</title>; </byline>
     <docImprint>
-     Thomas Hailes Lacy,Theatrical Publisher,London.</docImprint>
+     <hi>Thomas Hailes Lacy,Theatrical Publisher,London.</hi></docImprint>
    </titlePage>
    <pb n="2"/>
    <performance>

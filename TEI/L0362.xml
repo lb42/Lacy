@@ -1,124 +1,87 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L0362">
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L0362" xml:lang="en">
  <teiHeader>
   <fileDesc>
-   <titleStmt>
-    <title>Our old house at home: TEI edition</title>
-    <author>Blake, Thomas G.</author>
-    <respStmt>
-     <resp>TEI conversion</resp>
-     <name>Lou Burnard</name>
-    </respStmt>
-   </titleStmt>
-   <publicationStmt>
-    <distributor>Privately distributed by the Digital Lacy Project</distributor>
-    <idno type="LAE">L0362</idno>
-    <availability>
-     <licence target="https://creativecommons.org/publicdomain/zero/1.0/">The Lacy Project waives
-      all rights to the TEI encoding applied to this material, which is believed to be in the public
-      domain. You may copy, modify, distribute and perform this work freely. </licence>
-    </availability>
-   </publicationStmt>
-   <sourceDesc>
-    <bibl type="origin" n="25.2"><author>Blake, Thomas G.</author><title type="main"
-      n="ouroldhouseathome">Our Old House at Home</title><title type="sub">A Domestic Drama in two
-      acts</title><extent>30 pp (UM copy: 46 - 76)<measure type="pp" quantity="30"/>
-      <measure type="spCount" quantity="405"/>
-      <measure type="spvCount" quantity="2"/>
-      <measure type="txWords" quantity="13842"/>
-      <measure type="spWords" quantity="12671"/>
-      <measure type="stWords" quantity="1171"/>
-     </extent>
-     <title level="s"> Lacy's Acting Edition, volume 25, No. 0362</title><idno type="nic"
-      >N00449</idno><idno type="vpp">Vol25iiOur</idno></bibl>
-    <bibl type="surrogate" subtype="copytext"><ref
-      target="https://lb42.github.io/Lacy/Source/VPP/L0362-vpp.pdf">LoB from VPP</ref><ref
-      target="local:Vol25/L0362/L0362-vpp.pdf"/><ref target="local:Vol25/L0362/Vol25iiOur.pdf"
-     /></bibl>
-    <bibl type="surrogate"><ref
-      target="https://babel.hathitrust.org/cgi/pt?id=mdp.39015005887917&amp;seq=46 ">UM from
-      HT</ref><ref target="local:Vol25/L0362/L0362-um.pdf"/></bibl>
-    <listEvent>
-     <event type="firstPerf" when="1841-07-26" source="nicoll" where="Sadler's">
-      <desc>Premiered at Sadler's Wells Theatre</desc>
-     </event>
-    </listEvent>
-   </sourceDesc>
+   <titleStmt><title>OUR OLD HOUSE AT HOME.: TEI edition</title><author ref="lacyp:W0034"><persName>Blake, Thomas G.</persName><idno type="wikidata"/></author><respStmt><resp>TEI conversion</resp><name>Lou Burnard</name></respStmt></titleStmt>
+   <publicationStmt><distributor>Privately distributed by the Digital Lacy Project</distributor><idno type="LAE">L0362</idno><availability><licence target="https://creativecommons.org/publicdomain/zero/1.0/">The Lacy Project waives all rights to the TEI encoding applied to this material, which it believes to be in the public domain. You may copy, modify, distribute, or perform this work freely. </licence></availability></publicationStmt>
+   <sourceDesc><bibl type="originalSource" n="25.2"><author n="W0034">Blake, Thomas G.</author>
+      <title type="main">Our Old House at Home</title>
+      <title type="sub">A Domestic Drama in two acts</title>
+ <extent>30 pp (UM copy: 46 -
+       76)<measure type="pp" quantity="30"/>
+  <measure type="spCount" quantity="405"/>
+  <measure type="spvCount" quantity="2"/>
+  <measure type="txWords" quantity="13842"/>
+  <measure type="spWords" quantity="12671"/>
+  <measure type="stWords" quantity="1171"/>
+  </extent>
+      <title level="s"> Lacy's Acting Edition, volume 25, No. 0362</title><idno type="nic">N00449</idno><idno type="vpp">Vol25iiOur</idno></bibl><bibl type="surrogate" subtype="copytext"><ref target="https://lb42.github.io/Lacy/Source/VPP/L0362-vpp.pdf">LoB from VPP</ref><ref target="local:Vol25/L0362/L0362-vpp.pdf"/><ref target="local:Vol25/L0362/Vol25iiOur.pdf"/></bibl><bibl type="surrogate"><ref target="https://babel.hathitrust.org/cgi/pt?id=mdp.39015005887917&amp;seq=46 ">UM from
+       HT</ref><ref target="local:Vol25/L0362/L0362-um.pdf"/></bibl><listEvent>
+      <event type="firstPerf" when="1841-07-26" source="nicoll" where="Sadler's">
+       <desc>Premiered at Sadler's Wells Theatre</desc>
+      </event>
+     </listEvent></sourceDesc>
   </fileDesc>
-  <profileDesc>
-   <!--M 2 Drama M.D. MELODRAMA-->
-   <textClass>
-    <catRef target="#sizeM"/>
-    <catRef target="#act2"/>
-    <catRef target="nic:M.D."/>
-    <keywords>
-     <term>MELODRAMA</term>
-    </keywords>
-   </textClass>
-   <particDesc>
-    <listPerson>
-     <person xml:id="L0362_M1">
-      <persName type="role">VINCENT MIDDLETON </persName>
-      <persName type="spkr" n="2">Middleton.</persName>
-      <persName type="spkr" n="37">Squire.</persName>
-     </person>
-     <person xml:id="L0362_M2">
-      <persName type="role">GREENLAND </persName>
-      <persName type="spkr" n="35">Green.</persName>
-      <persName type="spkr" n="1">Greenland.</persName>
-     </person>
-     <person xml:id="L0362_M3">
-      <persName type="role">MICHAEL WRIGHT </persName>
-      <persName type="spkr" n="8">Mich.</persName>
-      <persName type="spkr" n="25">Michael.</persName>
-     </person>
-     <person xml:id="L0362_M4">
-      <persName type="role">MAT MAYBUSH </persName>
-      <persName type="spkr" n="77">Mat.</persName>
-     </person>
-     <person xml:id="L0362_M5">
-      <persName type="role">GEORGE RUTLEY</persName>
-      <persName type="spkr" n="11">George.</persName>
-     </person>
-     <person xml:id="L0362_M6">
-      <persName type="role">JEMMY JENKINS</persName>
-      <persName type="spkr" n="17">Jemmy.</persName>
-     </person>
-     <person xml:id="L0362_M7">
-      <persName type="role">DARK DAVY</persName>
-      <persName type="spkr" n="1">Dark Davy.</persName>
-      <persName type="spkr" n="13">Davy.</persName>
-     </person>
-     <person xml:id="L0362_F8">
-      <persName type="role">FANNY GREENLAND </persName>
-      <persName type="spkr" n="79">Fanny.</persName>
-     </person>
-     <person xml:id="L0362_F9">
-      <persName type="role">SOPHIA GREENLAND</persName>
-      <persName type="spkr" n="39">Sophy.</persName>
-     </person>
-     <person xml:id="L0362_F10">
-      <persName type="role">BECKY WIGGLES</persName>
-      <persName type="spkr" n="32">Becky.</persName>
-     </person>
-     <person xml:id="L0362_F11">
-      <persName type="role">MABEL</persName>
-      <persName type="spkr" n="17">Mabel.</persName>
-     </person>
-     <person xml:id="L0362_mult">
-      <persName type="role">[Multiple speakers]</persName>
-      <persName type="spkr" n="2">Omnes.</persName>
-     </person>
-     <person xml:id="L0362_misc">
-      <persName type="role">[Misc]</persName>
-      <persName type="spkr" n="1">1st Peasant.</persName>
-      <persName type="spkr" n="5">1st officer.</persName>
-      <persName type="spkr" n="3">Vincent.</persName>
-     </person>
-    </listPerson>
-   </particDesc>
-  </profileDesc>
-  <revisionDesc>
+  
+  <profileDesc><!--M 2 Drama M.D. MELODRAMA--><textClass><catRef target="#sizeM"/><catRef target="#act2"/><catRef target="nic:M.D."/><keywords><term>MELODRAMA</term></keywords></textClass><particDesc><listPerson>
+  <person xml:id="L0362_M1">
+   <persName type="role">VINCENT MIDDLETON </persName>
+   <persName type="spkr" n="2">Middleton.</persName>
+   <persName type="spkr" n="37">Squire.</persName>
+  </person>
+  <person xml:id="L0362_M2">
+   <persName type="role">GREENLAND </persName>
+   <persName type="spkr" n="35">Green.</persName>
+   <persName type="spkr" n="1">Greenland.</persName>
+  </person>
+  <person xml:id="L0362_M3">
+   <persName type="role">MICHAEL WRIGHT </persName>
+   <persName type="spkr" n="8">Mich.</persName>
+   <persName type="spkr" n="25">Michael.</persName>
+  </person>
+  <person xml:id="L0362_M4">
+   <persName type="role">MAT MAYBUSH </persName>
+   <persName type="spkr" n="77">Mat.</persName>
+  </person>
+  <person xml:id="L0362_M5">
+   <persName type="role">GEORGE RUTLEY</persName>
+   <persName type="spkr" n="11">George.</persName>
+  </person>
+  <person xml:id="L0362_M6">
+   <persName type="role">JEMMY JENKINS</persName>
+   <persName type="spkr" n="17">Jemmy.</persName>
+  </person>
+  <person xml:id="L0362_M7">
+   <persName type="role">DARK DAVY</persName>
+   <persName type="spkr" n="1">Dark Davy.</persName>
+   <persName type="spkr" n="13">Davy.</persName>
+  </person>
+  <person xml:id="L0362_F8">
+   <persName type="role">FANNY GREENLAND </persName>
+   <persName type="spkr" n="79">Fanny.</persName>
+  </person>
+  <person xml:id="L0362_F9">
+   <persName type="role">SOPHIA GREENLAND</persName>
+   <persName type="spkr" n="39">Sophy.</persName>
+  </person>
+  <person xml:id="L0362_F10">
+   <persName type="role">BECKY WIGGLES</persName>
+   <persName type="spkr" n="32">Becky.</persName>
+  </person>
+  <person xml:id="L0362_F11">
+   <persName type="role">MABEL</persName>
+   <persName type="spkr" n="17">Mabel.</persName>
+  </person>
+  <person xml:id="L0362_mult">
+   <persName type="role">[Multiple speakers]</persName>
+   <persName type="spkr" n="2">Omnes.</persName>
+  </person>
+  <person xml:id="L0362_misc">
+   <persName type="role">[Misc]</persName>
+   <persName type="spkr" n="1">1st Peasant.</persName>
+   <persName type="spkr" n="5">1st officer.</persName>
+   <persName type="spkr" n="3">Vincent.</persName>
+  </person>
+ </listPerson></particDesc></profileDesc><revisionDesc><change when="2026-03-02">Add wikidata link to titleStmt where possible</change>
    <change when="2026-02-02">Standardize header components</change>
    <change when="2026-02-02">Hand edits completed</change>
    <change when="2026-02-01">TEI autotagging by Gemini Pro 2.5</change>

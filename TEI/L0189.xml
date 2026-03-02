@@ -1,10 +1,12 @@
-<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L0189">
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L0189" xml:lang="en">
  <teiHeader>
   <fileDesc>
-   <titleStmt><title>The Ladies' Club: TEI edition</title><author>Lemon, Mark</author><respStmt><resp>TEI conversion</resp><name>Lou Burnard</name></respStmt></titleStmt>
-   <publicationStmt><distributor>Privately distributed by the Digital Lacy Project</distributor><idno type="LAE">L0189</idno><availability><licence target="https://creativecommons.org/publicdomain/zero/1.0/">The Lacy Project waives all rights to the TEI encoding applied to this material, which is believed to be in the public domain. You may copy, modify, distribute and perform this work freely. </licence></availability></publicationStmt>
-   <sourceDesc><bibl type="origin" n="13.9"><author>Lemon, Mark</author><title type="main" n="theladiesclub">The Ladies' Club</title><title type="sub">A Comic Drama in two
-       acts</title><extent>31 pp (UM copy: 288 - 319)<measure type="pp" quantity="30"/>
+   <titleStmt><title>The Ladies' Club: TEI edition</title><author ref="lacyp:W0171"><persName>Lemon, Mark</persName><idno type="wikidata">Q680327</idno></author><respStmt><resp>TEI conversion</resp><name>Lou Burnard</name></respStmt></titleStmt>
+   <publicationStmt><distributor>Privately distributed by the Digital Lacy Project</distributor><idno type="LAE">L0189</idno><availability><licence target="https://creativecommons.org/publicdomain/zero/1.0/">The Lacy Project waives all rights to the TEI encoding applied to this material, which it believes to be in the public domain. You may copy, modify, distribute, or perform this work freely. </licence></availability></publicationStmt>
+   <sourceDesc><bibl type="originalSource" n="13.9"><author n="W0171">Lemon, Mark</author>
+      <title type="main">The Ladies' Club</title>
+      <title type="sub">A Comic Drama in two acts</title>
+ <extent>31 pp (UM copy: 288 - 319)<measure type="pp" quantity="30"/>
   <measure type="spCount" quantity="613"/>
   <measure type="spvCount" quantity="11"/>
   <measure type="txWords" quantity="8107"/>
@@ -112,7 +114,7 @@
   </person>
 
 
- </listPerson></particDesc></profileDesc><revisionDesc><change when="2026-01-11">Standardize header components</change><change when="2026-01-10">Metadata refreshed from catalogue and Partix folder</change><change when="2025-12-15">Metadata refreshed from catalogue and Partix folder</change>
+ </listPerson></particDesc></profileDesc><revisionDesc><change when="2026-03-02">Add wikidata link to titleStmt where possible</change><change when="2026-01-11">Standardize header components</change><change when="2026-01-10">Metadata refreshed from catalogue and Partix folder</change><change when="2025-12-15">Metadata refreshed from catalogue and Partix folder</change>
    <change when="2025-12-03">XML transcription adhering strictly to TEI-P5 standards for dramatic
     text (dixit gemini3).</change>
   </revisionDesc>
@@ -1407,7 +1409,7 @@
       <speaker>Frican.</speaker>
       <p>What?</p>
      </sp>
-     <sp who="#L0189_M7">
+     <sp who="#">
       <p> Monsieur Fricandeau, I have lived in the first families—lying became habit—and you know
        how difficult it is to get rid of an old habit. </p>
      </sp>
@@ -1785,7 +1787,7 @@
      </sp>
      <spGrp>
       <head>Chorus.</head>
-      <sp who="#L0189_mult">
+      <sp who="#">
        <l>Now, false Sir, your spell is broken! </l>
        <l>For I've heard each word you've spoken! </l>
        <l> Oh, you wretch, you're false to me! </l>
@@ -2153,7 +2155,7 @@
      <stage> Enter all the GENTLEMEN, L. 1 E., they each bow to the LADIES and take their situation
       on the right of their wives. The LADIES express surprise as they appear, and Mrs. F. exclaims
       when she sees the CAPTAIN, with a burst of laughter </stage>
-     <sp who="#L0189_F11">
+     <sp who="#">
       <p> Ha, ha, ha, here's Fitz! To what do we owe this unexpected gratification?</p>
      </sp>
 
@@ -2566,7 +2568,7 @@
       <p>Well, your ingenuity deserves a recompense. <stage>(the GENTLEMEN give money, BOOKLY
         last)</stage></p>
      </sp>
-     <sp who="#L0189_M4">
+     <sp who="#">
       <speaker>Вooк.</speaker>
       <p>A vewy pwetty incident! I want one joke for my new work, "The Attenuated Antiquary," and
        that will do!</p>

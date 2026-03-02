@@ -1,105 +1,71 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L0945">
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L0945" xml:lang="en">
  <teiHeader>
   <fileDesc>
-   <titleStmt>
-    <title>Woodcock’s Little Game: TEI edition</title>
-    <author>Morton, John Maddison</author>
-    <respStmt>
-     <resp>TEI conversion</resp>
-     <name>Lou Burnard</name>
-    </respStmt>
-   </titleStmt>
-   <publicationStmt>
-    <distributor>Privately distributed by the Digital Lacy Project</distributor>
-    <idno type="LAE">L0945</idno>
-    <availability>
-     <licence target="https://creativecommons.org/publicdomain/zero/1.0/">The Lacy Project waives
-      all rights to the TEI encoding applied to this material, which is believed to be in the public
-      domain. You may copy, modify, distribute and perform this work freely. </licence>
-    </availability>
-   </publicationStmt>
-   <sourceDesc>
-    <bibl type="origin" n="63.15"><author>Morton, John Maddison</author><title type="main"
-      n="woodcockslittlegame">Woodcock's Little Game</title><title type="sub">A Comedy-Farce in two
-      acts</title><extent>39 pp (UM copy: 476 - 515)<measure type="pp" quantity="40"/>
-      <measure type="spCount" quantity="517"/>
-      <measure type="spvCount" quantity="0"/>
-      <measure type="txWords" quantity="10930"/>
-      <measure type="spWords" quantity="8107"/>
-      <measure type="stWords" quantity="2823"/>
-     </extent>
-     <title level="s"> Lacy's Acting Edition, volume 63, No. 0945</title><idno type="nic"
-      >N16044</idno></bibl>
-    <bibl type="surrogate"><ref target="https://gutenberg.org/ebooks/57451">Gutenberg
-      transcription</ref></bibl>
-    <bibl type="surrogate" subtype="copytext"><ref
-      target="https://babel.hathitrust.org/cgi/pt?id=mdp.39015067453798&amp;seq=476 ">UM from
-      HT</ref><ref target="local:Vol63/L0945/L0945-um.pdf"/></bibl>
-    <bibl type="surrogate" subtype="TEI"><ref target="https://lb42.github.io/Lacy/L0945.html"
-      >TEI</ref></bibl>
-    <listEvent>
-     <event type="firstPerf" when="1864-10-06" source="textNic" where="St.James's">
-      <desc>Premiered at Royal St.James's Theatre 6 Oct. 1864</desc>
-     </event>
-    </listEvent>
-   </sourceDesc>
+   <titleStmt><title>Woodcock’S Little Game:: TEI edition</title><author ref="lacyp:W0217"><persName>Morton, John Maddison</persName><idno type="wikidata">Q6246357</idno></author><respStmt><resp>TEI conversion</resp><name>Lou Burnard</name></respStmt></titleStmt>
+   <publicationStmt><distributor>Privately distributed by the Digital Lacy Project</distributor><idno type="LAE">L0945</idno><availability><licence target="https://creativecommons.org/publicdomain/zero/1.0/">The Lacy Project waives all rights to the TEI encoding applied to this material, which it believes to be in the public domain. You may copy, modify, distribute, or perform this work freely. </licence></availability></publicationStmt>
+   <sourceDesc><bibl type="originalSource" n="63.15"><author>Morton, John Maddison</author> <title type="main" n="woodcockslittlegame">Woodcock's Little Game</title> <title type="sub">A Comedy-Farce in two
+       acts</title>
+ <extent>39 pp (UM copy: 476 - 515)<measure type="pp" quantity="40"/>
+  <measure type="spCount" quantity="517"/>
+  <measure type="spvCount" quantity="0"/>
+  <measure type="txWords" quantity="10930"/>
+  <measure type="spWords" quantity="8107"/>
+  <measure type="stWords" quantity="2823"/>
+  </extent>
+       <title level="s"> Lacy's Acting Edition, volume 63, No. 0945</title><idno type="nic">N16044</idno></bibl><bibl type="surrogate"><ref target="https://gutenberg.org/ebooks/57451">Gutenberg
+       transcription</ref></bibl><bibl type="surrogate" subtype="copytext"><ref target="https://babel.hathitrust.org/cgi/pt?id=mdp.39015067453798&amp;seq=476 ">UM from
+       HT</ref><ref target="local:Vol63/L0945/L0945-um.pdf"/></bibl><bibl type="surrogate" subtype="TEI"><ref target="https://lb42.github.io/Lacy/L0945.html">TEI</ref></bibl><listEvent>
+      <event type="firstPerf" when="1864-10-06" source="textNic" where="St.James's">
+       <desc>Premiered at Royal St.James's Theatre 6 Oct. 1864</desc>
+      </event>
+     </listEvent></sourceDesc>
   </fileDesc>
-  <profileDesc>
-   <!--M 2 ComedyFarce C.F. COMEDY-->
-   <textClass>
-    <catRef target="#sizeM"/>
-    <catRef target="#act2"/>
-    <catRef target="nic:C.F."/>
-    <keywords>
-     <term>COMEDY</term>
-    </keywords>
-   </textClass>
-   <particDesc>
-    <listPerson>
-     <person xml:id="L0945_M1">
-      <persName type="role">Mr. Woodcock </persName>
-      <persName type="spkr" n="184">Wood.</persName>
-     </person>
-     <person xml:id="L0945_M2">
-      <persName type="role">Mr. Christopher Larkings </persName>
-      <persName type="spkr" n="49">Lark.</persName>
-     </person>
-     <person xml:id="L0945_M3">
-      <persName type="role">Mr. Adolphus Swansdown </persName>
-      <persName type="spkr" n="41">Swans.</persName>
-     </person>
-     <person xml:id="L0945_M4">
-      <persName type="role">David </persName>
-      <persName type="spkr" n="22">David.</persName>
-     </person>
-     <person xml:id="L0945_F5">
-      <persName type="role">Mrs. Colonel Carver </persName>
-      <persName type="spkr" n="106">Mrs. C.</persName>
-     </person>
-     <person xml:id="L0945_F6">
-      <persName type="role">Mrs. Woodcock </persName>
-      <persName type="spkr" n="17">Mrs. W.</persName>
-     </person>
-     <person xml:id="L0945_F7">
-      <persName type="role">Mrs. Larkings </persName>
-      <persName type="spkr" n="1">Mrs. Larkings.</persName>
-      <persName type="spkr" n="90">Mrs. L.</persName>
-     </person>
-     <person xml:id="L0945_F8">
-      <persName type="role">[Maid]</persName>
-      <persName type="spkr" n="5">Maid.</persName>
-     </person>
+  
+  <profileDesc><!--M 2 ComedyFarce C.F. COMEDY--><textClass><catRef target="#sizeM"/><catRef target="#act2"/><catRef target="nic:C.F."/><keywords><term>COMEDY</term></keywords></textClass><particDesc><listPerson>
+  <person xml:id="L0945_M1">
+   <persName type="role">Mr. Woodcock </persName>
+   <persName type="spkr" n="184">Wood.</persName>
+  </person>
+  <person xml:id="L0945_M2">
+   <persName type="role">Mr. Christopher Larkings </persName>
+   <persName type="spkr" n="49">Lark.</persName>
+  </person>
+  <person xml:id="L0945_M3">
+   <persName type="role">Mr. Adolphus Swansdown </persName>
+   <persName type="spkr" n="41">Swans.</persName>
+  </person>
+  <person xml:id="L0945_M4">
+   <persName type="role">David </persName>
+   <persName type="spkr" n="22">David.</persName>
+  </person>
+  <person xml:id="L0945_F5">
+   <persName type="role">Mrs. Colonel Carver </persName>
+   <persName type="spkr" n="106">Mrs. C.</persName>
+  </person>
+  <person xml:id="L0945_F6">
+   <persName type="role">Mrs. Woodcock </persName>
+   <persName type="spkr" n="17">Mrs. W.</persName>
+  </person>
+  <person xml:id="L0945_F7">
+   <persName type="role">Mrs. Larkings </persName>
+   <persName type="spkr" n="1">Mrs. Larkings.</persName>
+   <persName type="spkr" n="90">Mrs. L.</persName>
+  </person>
+  <person xml:id="L0945_F8">
+   <persName type="role">[Maid]</persName>
+   <persName type="spkr" n="5">Maid.</persName>
+  </person>
 
-     <person xml:id="L0945_Mul">
-      <persName type="spkr" n="1">Bridesmaids.</persName>
-      <persName type="spkr" n="1">Friends.</persName>
-      <persName type="spkr" n="1">Mrs. C. | Mrs. W.</persName>
-     </person>
-    </listPerson>
-   </particDesc>
-  </profileDesc>
-  <revisionDesc>
+  <person xml:id="L0945_Mul">
+   <persName type="spkr" n="1">Bridesmaids.</persName>
+   <persName type="spkr" n="1">Friends.</persName>
+   <persName type="spkr" n="1">Mrs. C. | Mrs. W.</persName>
+  </person>
+
+
+
+
+ </listPerson></particDesc></profileDesc><revisionDesc><change when="2026-02-23">Add wikidata link to titleStmt where possible</change>
    <change when="2026-01-11">Standardize header components</change>
    <change when="2026-01-10">Metadata refreshed from catalogue and Partix folder</change>
    <change when="2025-11-02">Metadata refreshed from catalogue and Partix folder</change>
@@ -133,7 +99,7 @@
       </title><title>Grimshaw</title>, <title>Bagshaw, and Bradshaw</title>, <title>Rights and
       Wrongs of Women</title>, <title>Sent to the Tower</title>, <title>Our Wife</title>,
       <title>Brother Ben</title>, <title>Take Care of Dowb—</title>, <title>Wooing One’s
-      Wife</title>, <title>Margery Daw</title>, <title>The Double-Bedded Room</title>, <title>The
+      Wife</title>, <title>Margery Daw</title>, <title>The Double-Bedded Room</title>, <title>the
       “Alabama,” </title><title>Drawing Rooms, Second Floors, and Attics,</title> &amp;c. &amp;c. </byline>
     <docImprint>Thomas Hailes Lacy 89, Strand, London. </docImprint>
    </titlePage>

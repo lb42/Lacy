@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L1410">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L1410" xml:lang="en">
  <teiHeader>
   <fileDesc>
    <titleStmt>
-    <title>A Christmas Carol; or, The Miser's Warning! TEI edition</title>
-    <author>Barnett, C.Z.</author>
+    <title>: TEI edition</title>
+    <author ref="lacyp:W0020"><persName>Barnett, C.Z.</persName><idno type="wikidata"
+      >Q16003974</idno></author>
     <respStmt>
      <resp>TEI conversion</resp>
      <name>Lou Burnard</name>
@@ -15,15 +16,15 @@
     <idno type="LAE">L1410</idno>
     <availability>
      <licence target="https://creativecommons.org/publicdomain/zero/1.0/">The Lacy Project waives
-      all rights to the TEI encoding applied to this material, which is believed to be in the public
-      domain. You may copy, modify, distribute and perform this work freely. </licence>
+      all rights to the TEI encoding applied to this material, which it believes to be in the public
+      domain. You may copy, modify, distribute, or perform this work freely. </licence>
     </availability>
    </publicationStmt>
    <sourceDesc>
-    <bibl type="origin" n="94.15"><author>Barnett, C.Z.</author><title type="main"
-      n="achristmascarol">A Christmas Carol; or, The Miser's Warning!</title><title type="source"
-      n="#EN">Adapted from Charles Dickens's Celebrated Work</title><extent>32 pp<measure type="pp"
-       quantity="28"/>
+    <bibl type="originalSource" n="94.15"><author n="W0020">Barnett, C.Z.</author>
+     <title type="main">A Christmas Carol; or, The Miser's Warning!</title>
+     <title type="source" n="#EN">Adapted from Charles Dickens's Celebrated Work</title>
+     <extent>32 pp<measure type="pp" quantity="28"/>
       <measure type="spCount" quantity="274"/>
       <measure type="spvCount" quantity="0"/>
       <measure type="txWords" quantity="8390"/>
@@ -43,6 +44,7 @@
     </listEvent>
    </sourceDesc>
   </fileDesc>
+
   <profileDesc>
    <!--M 0 X D. DRAMA-->
    <textClass>
@@ -152,6 +154,7 @@
    </particDesc>
   </profileDesc>
   <revisionDesc>
+   <change when="2026-03-02">Add wikidata link to titleStmt where possible</change>
    <change when="2026-01-23">Standardize header components</change>
    <change when="2026-01-23">Checked against UA pages; added pagination</change>
    <change when="2026-01-22">TEI tagging added to Gutenberg transcription by Gemini Pro </change>
