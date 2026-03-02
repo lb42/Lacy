@@ -133,18 +133,18 @@ select="$thisOne/t:sourceDesc/t:listEvent/t:event[@type = 'firstPerf']/@where"/>
 </a>
 </td>
 <td>
-<xsl:value-of select="$thisOne//t:bibl[@type = 'origin']/@n"/>
+<xsl:value-of select="$thisOne//t:bibl[@type = 'originalSource']/@n"/>
 </td>
 <td>
 <xsl:value-of
-select="$thisOne//t:bibl[@type = 'origin']/t:extent/t:measure[@type = 'pp']/@quantity"/>
+select="$thisOne//t:bibl[@type = 'originalSource']/t:extent/t:measure[@type = 'pp']/@quantity"/>
 </td>
 <td>
 <xsl:value-of select="$wc"/>
 </td>
 <td>
 <xsl:value-of
-select="$thisOne//t:bibl[@type = 'origin']/t:extent/t:measure[@type = 'spWords']/@quantity"
+select="$thisOne//t:bibl[@type = 'originalSource']/t:extent/t:measure[@type = 'spWords']/@quantity"
 />
 </td>
 <td>
@@ -162,7 +162,7 @@ select="$thisOne//t:bibl[@type = 'origin']/t:extent/t:measure[@type = 'spWords']
 </td>
 <td>
 <xsl:for-each select="$thisOne/t:titleStmt/t:author">
-<xsl:value-of select="concat(normalize-space(.), ' ')"/>
+<xsl:value-of select="concat(normalize-space(t:persName), ' (', t:idno, ') ')"/>
 </xsl:for-each>
 </td>
 <td>
