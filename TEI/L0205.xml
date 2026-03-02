@@ -1,0 +1,1940 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L0205" xml:lang="en">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title>THE MOUSTACHE MOVEMENT: TEI edition</title>
+    <author ref="lacyp:W0042"><persName>Brough, Robert B.</persName><idno type="wikidata"
+      >Q7341877</idno></author>
+    <respStmt>
+     <resp>TEI conversion</resp>
+     <name>Lou Burnard</name>
+    </respStmt>
+   </titleStmt>
+   <publicationStmt>
+    <distributor>Privately distributed by the Digital Lacy Project</distributor>
+    <idno type="LAE">L0205</idno>
+    <availability>
+     <licence target="https://creativecommons.org/publicdomain/zero/1.0/">The Lacy Project waives
+      all rights to the TEI encoding applied to this material, which it believes to be in the public
+      domain. You may copy, modify, distribute, or perform this work freely. </licence>
+    </availability>
+   </publicationStmt>
+   <sourceDesc>
+    <bibl type="originalSource" n="14.10"><author n="W0042">Brough, Robert B.</author>
+     <title type="main">The Moustache Movement</title>
+     <title type="sub">An Original Farce in one act</title>
+     <extent>17 pp (UM copy: 234 - 251)<measure type="pp" quantity="15"/>
+      <measure type="spCount" quantity="335"/>
+      <measure type="spvCount" quantity="0"/>
+      <measure type="txWords" quantity="5823"/>
+      <measure type="spWords" quantity="4519"/>
+      <measure type="stWords" quantity="1304"/>
+     </extent>
+     <title level="s"> Lacy's Acting Edition, volume 14, No. 0205</title><idno type="nic"
+      >N09823</idno><idno type="vpp">Vol14xMoustache</idno></bibl>
+    <bibl type="surrogate" subtype="copytext"><ref
+      target="https://lb42.github.io/Lacy/Source/VPP/L0205-vpp.pdf">LoB from VPP</ref><ref
+      target="local:Vol14/L0205/L0205-vpp.pdf"/><ref target="local:Vol14/L0205/Vol14xMoustache.pdf"
+     /></bibl>
+    <bibl type="surrogate"><ref
+      target="https://babel.hathitrust.org/cgi/pt?id=mdp.39015067453194&amp;seq=234 ">UM from
+      HT</ref><ref target="local:Vol14/L0205/L0205-um.pdf"/></bibl>
+    <listEvent>
+     <event type="LCP" when="1862-03-28" where="Adelphi">
+      <desc>Licence sent 28 March for performance at the Adelphi 30 March 1854. </desc>
+      <bibl type="msSource">BL ms LCP_52946.V</bibl>
+     </event>
+     <event type="firstPerf" when="1854-03-30" source="textNic" where="Adelphi">
+      <desc>Premiered at Royal Adelphi Theatre 30 March 1854</desc>
+     </event>
+    </listEvent>
+   </sourceDesc>
+  </fileDesc>
+  <profileDesc>
+   <!--S 1 Farce F. FARCE-->
+   <textClass>
+    <catRef target="#sizeS"/>
+    <catRef target="#act1"/>
+    <catRef target="nic:F."/>
+    <keywords>
+     <term>FARCE</term>
+    </keywords>
+   </textClass>
+   <particDesc>
+    <listPerson>
+     <person xml:id="L0205_M1">
+      <persName type="role">MR. SIMON SWOSSER</persName>
+      <persName type="spkr" n="34">SWOSSER.</persName>
+     </person>
+     <person xml:id="L0205_M2">
+      <persName type="role">CAPTAIN ALTAMONT KIDD</persName>
+      <persName type="spkr" n="33">KIDD.</persName>
+     </person>
+     <person xml:id="L0205_M3">
+      <persName type="role">LIEUTENANT CORNELIUS O'PAKE</persName>
+      <persName type="spkr" n="29">O'PAKE.</persName>
+     </person>
+     <person xml:id="L0205_M4">
+      <persName type="role">ANTHONY SOSKINS</persName>
+      <persName type="spkr" n="58">SOSKINS.</persName>
+     </person>
+     <person xml:id="L0205_M5">
+      <persName type="role">JOHN</persName>
+      <persName type="spkr" n="14">JOHN.</persName>
+     </person>
+     <person xml:id="L0205_M6">
+      <persName type="role">BUTCHER</persName>
+      <persName type="spkr" n="3">BUTCHER.</persName>
+     </person>
+     <person xml:id="L0205_M7">
+      <persName type="role">BAKER</persName>
+      <persName type="spkr" n="1">BAKER.</persName>
+     </person>
+     <person xml:id="L0205_M8">
+      <persName type="role">TWO INDIVIDUALS</persName>
+     </person>
+     <person xml:id="L0205_F9">
+      <persName type="role">LOUISA FITZ-JOHNSON</persName>
+      <persName type="spkr" n="99">LOUISA.</persName>
+     </person>
+     <person xml:id="L0205_F10">
+      <persName type="role">ELIZA SWOSSER</persName>
+      <persName type="spkr" n="61">ELIZA.</persName>
+     </person>
+     <person xml:id="L0205_F11">
+      <persName type="role">SALLY</persName>
+      <persName type="spkr" n="4">SALLY.</persName>
+     </person>
+     <person xml:id="L0205_mult">
+      <persName type="role">[Multiple speakers]</persName>
+      <persName type="spkr">KIDD|SOSKINS</persName>
+     </person>
+    </listPerson>
+   </particDesc>
+  </profileDesc>
+  <revisionDesc>
+   <change when="2026-03-01">Add wikidata link to titleStmt where possible</change>
+   <change when="2026-02-12">TEI autotagging by Gemini Pro 2.5</change>
+  </revisionDesc>
+ </teiHeader>
+ <text>
+  <front>
+   <titlePage>
+
+    <titlePart type="main">THE MOUSTACHE MOVEMENT.</titlePart>
+    <titlePart type="sub">An Original Farce. IN ONE ACT.</titlePart>
+
+    <byline>By <docAuthor> ROBERT B. BROUGH,</docAuthor> AUTHOR OF <title> "Lord Bateman's Overland
+      Journey to Constantinople," </title><title>"Kensington Gardens,'' </title><title>"Twelve
+      Labours of Hercules,"</title> and (jointly) <title> "The Enchanted Isle," </title><title>"The
+      Sphinx," </title><title>"Ivanhoe,'' "</title><title>Princess Radiant,"
+      "</title><title>Mephistopheles,"</title> &amp;c. </byline>
+    <docImprint> THOMAS HAILES LACY, WELLINGTON STREET, STRAND, LONDON. </docImprint>
+   </titlePage>
+   <pb n="2"/>
+   <div type="liminal">
+    <head>DEDICATION.</head>
+    <head>To MRS. KEELEY.</head>
+
+    <salute>DEAR MRS. KEELEY,</salute>
+
+    <p>The existence of a woman in any way comparable with yourself may well be disputed, still, for
+     the sake of illustration, I may be allowed to compare you to one—like yourself, a great artist
+     and public benefactress. I allude to the philanthropic lady who is constantly asking us—through
+     the medium of <hi>The Times</hi>, if we "want luxuriant hair, whiskers, moustaches, &amp;c."
+     and urging us, in case of our being so necessitated, to "use Criniline."</p>
+    <p>For the beauty you have imparted to my unobtrusive and originally "scrubby" Moustache—by a
+     secret charm which is entirely your own, and which (to the regret of—let us hope, at the
+     earliest—our great grandchildren) will die with you—I cannot sufficiently express my delighted
+     gratitude.</p>
+    <p>To drop metaphor—which is troublesome—and joking—which smacks too much of "the shop," let me
+     beg of you to accept the dedication of what was originally the merest trifle—but which you have
+     elevated to something more than a trifle—as a slight acknowledgement of the pleasure and profit
+     I have derived from your valuable and zealous co-operation, on this, and various former
+     occasions, in the course of a (to me at least) truly delightful professional acquaintance—now
+     of some years' standing.</p>
+    <p>The sincerity of people, following our artificial callings, has been frequently questioned.
+     We undoubtedly say many things to each other that we do not mean. When, however, I say that,
+     with such little successes as I have had the good fortune to obtain—no name is more intimately
+     or gratefully associated in my recollection than your own—and that the possibility of my having
+     been occasionally the means of bringing that name—not unfavourably before the public, is not
+     the least among the consolations that have occurred to reconcile me to an arduous and
+     harrassing career; I trust I may be believed—as I <hi>do</hi> mean it—in the same sincerity
+     with which I subscribe myself</p>
+    <closer>
+     <salute>Your friend and admirer,</salute>
+     <signed>ROBERT B. BROUGH.</signed>
+    </closer>
+   </div>
+
+   <div type="liminal">
+    <head>N.B.</head>
+    <p>At the risk of incurring a charge of eccentricity, ignorance of the French language, or
+     inability to purchase a <title>Spier's Dictionary</title>—the author begs to state, that this
+     piece (such as it is) is purely original, and translated or "adapted" from no foreign source
+     whatever.</p>
+   </div>
+
+   <pb n="3"/>
+   <performance>
+    <p>First Performed at the Royal Adelphi Theatre, on Thursday, March 30th, 1854.</p>
+
+    <castList>
+     <head>Characters.</head>
+     <castItem>
+      <role gender="M">MR. SIMON SWOSSER</role>
+      <roleDesc>(in the Law)</roleDesc>
+      <actor>Mr. O. SMITH.</actor>
+     </castItem>
+     <castItem>
+      <role gender="M">CAPTAIN ALTAMONT KIDD</role>
+      <roleDesc>(in the Army)</roleDesc>
+      <actor>Mr. PARSELLE.</actor>
+     </castItem>
+     <castItem>
+      <role gender="M">LIEUTENANT CORNELIUS O'PAKE</role>
+      <roleDesc>(formerly in the same—Swosser's Nephew)</roleDesc>
+      <actor>Mr. GARDEN.</actor>
+     </castItem>
+     <castItem>
+      <role gender="M">ANTHONY SOSKINS</role>
+      <roleDesc>(a Lawyer's Clerk)</roleDesc>
+      <actor>Mr. KEELEY.</actor>
+     </castItem>
+     <castItem>
+      <role gender="M">JOHN</role>
+      <roleDesc>(a Waiter, as may be anticipated)</roleDesc>
+      <actor>Mr. LE BARR.</actor>
+     </castItem>
+     <castItem>
+      <role gender="M">BUTCHER</role>
+      <roleDesc>(with a Moustache)</roleDesc>
+      <actor>Mr. SANDERS.</actor>
+     </castItem>
+     <castItem>
+      <role gender="M">BAKER</role>
+      <roleDesc>(with ditto)</roleDesc>
+      <actor>Mr. BRAITHWAITE.</actor>
+     </castItem>
+     <castItem>
+      <role gender="M">TWO INDIVIDUALS</role>
+      <roleDesc>(in the Police)</roleDesc>
+      <actor>Mr THOMAS.</actor>
+      <actor>Mr KELLY.</actor>
+     </castItem>
+     <castItem>
+      <role gender="F">LOUISA FITZ-JOHNSON</role>
+      <roleDesc>(a Milliner)</roleDesc>
+      <actor>Mrs. KEELEY.</actor>
+     </castItem>
+     <castItem>
+      <role gender="F">ELIZA SWOSSER</role>
+      <roleDesc>(Swosser's Daughter)</roleDesc>
+      <actor>Miss MARY KEELEY.</actor>
+     </castItem>
+     <castItem>
+      <role gender="F">SALLY</role>
+      <roleDesc>(a Housemaid, as will be naturally expected)</roleDesc>
+      <actor>MISS LAIDLAW.</actor>
+     </castItem>
+    </castList>
+   </performance>
+   <div type="costume">
+    <head>Costumes</head>
+    <p>MODERN AND DESCRIBED IN THE PIECE.</p>
+   </div>
+
+   <div type="liminal">
+    <p>*** This piece as regards the right of performing it, in and within ten miles of London,
+     belongs to MR. BENJAMIN WEBSTER. The provincial right (beyond the circle alluded to) remains
+     with the author, who may be applied to through the agency of the London Dramatic Authors'
+     Society.</p>
+   </div>
+  </front>
+  <pb n="4"/>
+  <body>
+   <head>The Moustache Movement</head>
+
+   <div type="scene">
+    <stage>SCENE.—Exterior of a Country Inn near a Railway Station. The house R. with portico, door,
+     and lawn windows on each side. Garden wall enclosing the stage, L. Railing right across back,
+     with gate in C.; arbours, R. and L. with table and seats; garden table and chairs L. towards
+     the front with writing materials. Signpost, R. back inscribed, "Railway Hotel and Refreshment
+     Rooms."</stage>
+    <stage>As the curtain rises the Butcher, in a conspicuous moustache, which he caresses, using
+     the suet on his tray as cosmetique, is discovered ringing the gate bell, C.</stage>
+    <sp who="#L0205_M6">
+     <speaker>BUTCHER.</speaker>
+     <p>Butcher!</p>
+    </sp>
+    <stage>Enter Sally from house; she takes meat from him.</stage>
+    <sp who="#L0205_F11">
+     <speaker>SALLY.</speaker>
+     <stage>(looking admiringly at his moustache)</stage>
+     <p>Lor, butcher, how beautifully they are coming on.</p>
+    </sp>
+    <sp who="#L0205_M6">
+     <speaker>BUTCHER.</speaker>
+     <p>Yes'm, civilians has a chance with the military now. Don't know as I shall be able to keep
+      'em though.</p>
+    </sp>
+    <sp who="#L0205_F11">
+     <speaker>SALLY.</speaker>
+     <p>Lor, butcher, surely your master can't be such a brute as to–</p>
+    </sp>
+    <sp who="#L0205_M6">
+     <speaker>BUTCHER.</speaker>
+     <p>Like to catch him at it; 'taint that, mem, but they're a getting low—the tripeshops wearing
+      of 'em already, let 'em come down to the cat's-meat and I shave.</p>
+    </sp>
+    <stage>Exit, L. crying " Butcher" and ringing bell of next house; when off the Baker has
+     entered, R. and handed loaves, &amp;c. across the gate to Sally. He also wears a moustache and
+     beard.</stage>
+    <sp who="#L0205_F11">
+     <speaker>SALLY.</speaker>
+     <p>Why I declare if <hi>you</hi> aint a wearing 'em, too, Baker.</p>
+    </sp>
+    <sp who="#L0205_M7">
+     <speaker>BAKER.</speaker>
+     <p>Only as nateral respirator on account o' my health, mem. The milkman's started a tip, and
+      that's too revolting. <stage>(railway whistle and bell heard R. at back)</stage></p>
+    </sp>
+    <sp who="#L0205_F11">
+     <speaker>SALLY.</speaker>
+     <stage>(laden with the provisions, calling)</stage>
+     <p>John! John! here's the express in.</p>
+    </sp>
+    <sp who="#L0205_M5">
+     <speaker>JOHN.</speaker>
+     <stage>(from the home)</stage>
+     <p>Coming.</p>
+    </sp>
+    <stage>Exit, Baker. L., calling "Baker," and ringing next door bell; when off, Sally exits, R.,
+     behind, the house staggering under the bread, meat, &amp;c. Noise of steam heard R. at
+     back.</stage>
+    <pb n="6"/>
+    <stage>Enter John the Waiter from house, in a hurry and wiping his mouth with a napkin (he wears
+     a moustache). He runs towards gate, when he is met by Lieutenant O'Pake, who rushes in from R.
+     with a case of duelling pistols under his arm. He knocks against, looks at, and collars John,
+     dragging him forward angrily (the Lieutenant is dressed in a half-military costume and wears a
+     moustache).</stage>
+    <sp who="#L0205_M3">
+     <speaker>O'PAKE.</speaker>
+     <stage>(shaking John fiercely)</stage>
+     <p>So ye'd escape me, would ye! But ye don't. Where's the lady, ye
+      pace-of-fairilies-desthroyin-spalpeen? Restore the orphan that you've inveigled away from her
+      home—to her broken-hearted father and mother. <stage>(shaking him incessantly).</stage></p>
+    </sp>
+    <sp who="#L0205_M5">
+     <speaker>JOHN.</speaker>
+     <p>If you please I'm the—</p>
+    </sp>
+    <sp who="#L0205_M3">
+     <speaker>O'PAKE.</speaker>
+     <p>I know ye are—you're the man with the moustache, between twenty and thirty—of gentlemanly
+      appearance. Do ye think I didn't take care to get your description ?</p>
+    </sp>
+    <sp who="#L0205_M5">
+     <speaker>JOHN.</speaker>
+     <stage>(gasping with an effort)</stage>
+     <p>If you please sir, I'm the waiter.</p>
+    </sp>
+    <sp who="#L0205_M3">
+     <speaker>O'PAKE.</speaker>
+     <stage>(still holding)</stage>
+     <p>The what!</p>
+    </sp>
+    <sp who="#L0205_M5">
+     <speaker>JOHN.</speaker>
+     <p>The waiter.</p>
+    </sp>
+    <sp who="#L0205_M3">
+     <speaker>O'PAKE.</speaker>
+     <p>Eh!</p>
+    </sp>
+    <sp who="#L0205_M5">
+     <speaker>JOHN.</speaker>
+     <p>And if you'd please to give your orders––</p>
+    </sp>
+    <sp who="#L0205_M3">
+     <speaker>O'PAKE.</speaker>
+     <stage>(releasing him)</stage>
+     <p>Sure and why didn't ye say so ? <stage>(sits down coolly at table, L.)</stage> Whisky !</p>
+    </sp>
+    <sp who="#L0205_M5">
+     <speaker>JOHN.</speaker>
+     <p>Hot or cold, sir ?</p>
+    </sp>
+    <sp who="#L0205_M3">
+     <speaker>O'PAKE.</speaker>
+     <p>Hot.</p>
+    </sp>
+    <sp who="#L0205_M5">
+     <speaker>JOHN.</speaker>
+     <p>Yes, sir.</p>
+    </sp>
+    <stage>Exit into house, R.</stage>
+    <sp who="#L0205_M3">
+     <speaker>O'PAKE.</speaker>
+     <stage>(seated solus)</stage>
+     <p>Faith now and a man less cool than myself would have made a blunder. I'm before 'um. Its the
+      quick train I came by, and I've passed 'um. <stage>(takes out a letter and reads
+       "Cornelius—Your cousin Eliza has eloped with a man of the highest respectability, but without
+       a shilling. Punish the scoundrel—they have taken first-class tickets to Mudford. I have no
+       time to add more, but that the honour of the family is in your hands, and that if he escape
+       you it will be impossible for me to negotiate that little matter for you in the present
+       depressed state of the money market. Your affectionate uncle, Simon Swosser."</stage></p>
+    </sp>
+    <stage>Enter Captain Kidd at back from L., (he wears a moustache).</stage>
+    <sp who="#L0205_M2">
+     <speaker>KIDD.</speaker>
+     <p>Those confounded postboys are so seldom wanted now that there is no finding them when——
+       <stage>(railway bell and whistle)</stage></p>
+    </sp>
+    <sp who="#L0205_M3">
+     <speaker>O'PAKE.</speaker>
+     <stage>(starting up)</stage>
+     <p>There's the other train in and the blackguard of a waiter—<stage>(turning round fiercely and
+       seeing Kidd)</stage> you thundering thief of the world, where's the whisky?</p>
+    </sp>
+    <sp who="#L0205_M2">
+     <speaker>KIDD.</speaker>
+     <stage>(down R. indignantly)</stage>
+     <p>What the devil do you mean, sir?</p>
+    </sp>
+    <stage>Enter John briskly from house with grog on tray.</stage>
+    <sp who="#L0205_M5">
+     <speaker>JOHN.</speaker>
+     <stage>(crossing to table, L.)</stage>
+     <p>Whisky, sir, hot. <stage>(puts it on table).</stage></p>
+    </sp>
+    <sp who="#L0205_M3">
+     <speaker>O'PAKE.</speaker>
+     <p>Eh! <stage>(bowing to Kidd)</stage> Sir, I humbly ask your pardon for mistaking a gentleman
+      for a waiter.</p>
+    </sp>
+    <sp who="#L0205_M2">
+     <speaker>KIDD.</speaker>
+     <stage>(turns away, R. impatiently)</stage>
+     <p>Pray don't mention it.</p>
+    </sp>
+    <pb n="7"/>
+    <sp who="#L0205_M3">
+     <speaker>O'PAKE.</speaker>
+     <p>But as I had just mistaken the waiter for a gentleman—</p>
+    </sp>
+    <sp who="#L0205_M2">
+     <speaker>KIDD.</speaker>
+     <stage>(impatiently)</stage>
+     <p>Indeed, sir.</p>
+    </sp>
+    <sp who="#L0205_M3">
+     <speaker>O'PAKE.</speaker>
+     <p>A gentleman I am in active pursuit of–</p>
+    </sp>
+    <sp who="#L0205_M2">
+     <speaker>KIDD.</speaker>
+     <p>Ha ! <stage>(turns his back and pulls hat over his eyes)</stage></p>
+    </sp>
+    <sp who="#L0205_M3">
+     <speaker>O'PAKE.</speaker>
+     <p>And do you hear, waiter? if a gentleman comes here and a lady with a moustache, you'll let
+      me know.</p>
+    </sp>
+    <sp who="#L0205_M5">
+     <speaker>JOHN.</speaker>
+     <p>Yes, sir.</p>
+    </sp>
+    <sp who="#L0205_M3">
+     <speaker>O'PAKE.</speaker>
+     <p>It's likely her trunks will be marked Swosser. <stage>(Kidd slips money into John's
+       hand)</stage></p>
+    </sp>
+    <sp who="#L0205_M5">
+     <speaker>JOHN.</speaker>
+     <p>The lady with the moustache, sir.</p>
+    </sp>
+    <sp who="#L0205_M3">
+     <speaker>O'PAKE.</speaker>
+     <p>No, the gentleman, you bogthrotter! I'm after him, and he mustn't escape me. <stage>(drinks
+       grog hastily and rushes out at back through gate and R.)</stage></p>
+    </sp>
+    <sp who="#L0205_M5">
+     <speaker>JOHN.</speaker>
+     <stage>(running after him)</stage>
+     <p>One whisky, please sir, hot.</p>
+    </sp>
+    <stage>Exit in pursuit.</stage>
+    <sp who="#L0205_M2">
+     <speaker>KIDD.</speaker>
+     <p>So! commend me to an Irish bailiff; I should never have suspected him, but now all classes
+      have left off shaving there's no telling a duke from a dustman. I was warned that they were on
+      my track. However, I mustn't risk a second meeting with the blundering blockhead. How to warn
+      Eliza? I mustn't disturb the poor girl's nap after the fatigues of the journey—a few hours'
+      hiding somewhere or other—<stage>(seeing writing materials on table L.)</stage> Ha, pen, ink,
+      and paper. <stage>(sits down to write)</stage></p>
+    </sp>
+    <stage>Enter Soskins and Louisa Fitzjohnson at back from L. and through gate. Soskins wears a
+     preposterously large moustache, but his appearance is otherwise of a vulgar holiday shopboy
+     description. Louisa sits down in arbour at back and begins unpacking provisions from her
+     basket. Soskins comes forward to c. whistling.</stage>
+    <sp who="#L0205_M2">
+     <speaker>KIDD.</speaker>
+     <stage>(writes "My own Eliza. The officers are in pursuit of me." <stage>(looking up
+       impatiently at Soskins whom he mistakes for the waiter and whose whistling annoys
+       him)</stage></stage>
+     <p>Don't whistle, sir.</p>
+    </sp>
+    <sp who="#L0205_M4">
+     <speaker>SOSKINS.</speaker>
+     <stage>(R.) (indignant and astonished—aside)</stage>
+     <p>He be blowed. I will if I like. <stage>(whistles)</stage></p>
+    </sp>
+    <sp who="#L0205_M2">
+     <speaker>KIDD.</speaker>
+     <stage>(L.)</stage>
+     <p>Don't you see I'm writing.</p>
+    </sp>
+    <sp who="#L0205_M4">
+     <speaker>SOSKINS.</speaker>
+     <stage>(defiantly)</stage>
+     <p>What do I care ? <stage>(aside)</stage> Who's he I should like to know.</p>
+    </sp>
+    <sp who="#L0205_M2">
+     <speaker>KIDD.</speaker>
+     <stage>(writing)</stage>
+     <p>"Are in pursuit." Don't be impertinent, sir.</p>
+    </sp>
+    <sp who="#L0205_M4">
+     <speaker>SOSKINS.</speaker>
+     <stage>(aside)</stage>
+     <p>Well I like that ?</p>
+    </sp>
+    <sp who="#L0205_M2">
+     <speaker>KIDD.</speaker>
+     <stage>(not looking up)</stage>
+     <p>Go about your business—or, stay I shall want you to take a note.</p>
+    </sp>
+    <sp who="#L0205_M4">
+     <speaker>SOSKINS.</speaker>
+     <p>I'll see you blowed first.</p>
+    </sp>
+    <sp who="#L0205_M2">
+     <speaker>KIDD.</speaker>
+     <stage>(intent upon his writing)</stage>
+     <p>"The officers are in pursuit of me. The repulsive looking ruffian in the moustache who at
+      the first glance might be mistaken for a gentleman—is one"—<stage>(Soskins is whistling very
+       loudly)</stage> Will you be quiet, waiter ?</p>
+    </sp>
+    <sp who="#L0205_M4">
+     <speaker>SOSKINS.</speaker>
+     <p>Who do you call waiter?</p>
+    </sp>
+    <sp who="#L0205_F9">
+     <speaker>LOUISA.</speaker>
+     <stage>(coming forward and indignant)</stage>
+     <p>Waiter, sir,—have the kindness to look at his mustarchurs.</p>
+    </sp>
+    <sp who="#L0205_M2">
+     <speaker>KIDD.</speaker>
+     <p>Eh,— I beg ten thousand pardons, but as I myself, an officer in the army, as you probably
+      are, <stage>(aside)</stage> that will appease
+      <pb n="8"/>him, he looks a snob—have just been subjected to a similar misapprehension,
+       <stage>(during the above he has scarcely looked up from his letter)</stage></p>
+    </sp>
+    <sp who="#L0205_M4">
+     <speaker>SOSKINS.</speaker>
+     <p>You mistake, sir,—I am not precisely in the army.</p>
+    </sp>
+    <sp who="#L0205_M2">
+     <speaker>KIDD.</speaker>
+     <stage>(intent on writing)</stage>
+     <p>You surprise me! <stage>(writing)</stage> "If you can get him off the scent—do!"
+       <stage>(looking round at back)</stage> Where the deuce is that waiter ?</p>
+    </sp>
+    <sp who="#L0205_F9">
+     <speaker>LOUISA.</speaker>
+     <p>And if he's not in the army, what then, sir?—I suppose he isn't obliged to shave. I'd have
+      you to know that the time is past for the privileged classes to brand the people by the
+      degrading imposition of presumptuary laws.</p>
+    </sp>
+    <stage>Kidd without attending to her has folded his letter and gone out at back, R., with it in
+     his hand, as if in search of the Waiter.</stage>
+    <sp who="#L0205_F9">
+     <speaker>LOUISA.</speaker>
+     <stage>(aside to Soskins)</stage>
+     <p>Isn't that what the lecturer said at the Institution ?</p>
+    </sp>
+    <stage>Re-enter John with Kidd's note in his hand: he has come down and stands R. of
+     Soskins.</stage>
+    <sp who="#L0205_M4">
+     <speaker>SOSKINS.</speaker>
+     <stage>(aside, in reply to Louisa)</stage>
+     <p>Yes—but I don't want to get into a row with a soldier. <stage>(crosses to R., seeing
+       John)</stage> You will excuse her enthusiasm, Captain–</p>
+    </sp>
+    <sp who="#L0205_M5">
+     <speaker>JOHN.</speaker>
+     <p>I aint a captain, sir.</p>
+    </sp>
+    <sp who="#L0205_M4">
+     <speaker>SOSKINS.</speaker>
+     <p>General, then–</p>
+    </sp>
+    <sp who="#L0205_M5">
+     <speaker>JOHN.</speaker>
+     <p>Waiter, if you please, sir. <stage>(bowing)</stage></p>
+    </sp>
+    <sp who="#L0205_M4">
+     <speaker>SOSKINS.</speaker>
+     <stage>(staggering backin astonishment)</stage>
+     <p>Oh! <stage>(bell rings in house)</stage></p>
+    </sp>
+    <sp who="#L0205_M5">
+     <speaker>JOHN.</speaker>
+     <p>And if there's anything you'd like to take ––<stage>(bell rings more violently)</stage>
+      Coming—coming!</p>
+    </sp>
+    <stage>Exit, running into house, R.</stage>
+    <sp who="#L0205_F9">
+     <speaker>LOUISA.</speaker>
+     <stage>(looking after John indignantly)</stage>
+     <p>Well! I'm sure!—a waiter with moustache—of all things in the world !</p>
+    </sp>
+    <sp who="#L0205_M4">
+     <speaker>SOSKINS.</speaker>
+     <p>Well, and why not a waiter, Louisa ?—Don't be illiberal. I ask you, as a milliner and with
+      your knowledge of public life, are the perquisites of a man in his humble sphere sufficient to
+      purchase for him exemption from those little weaknesses to which we are all more or less
+      liable ?—I except you, for you are a pattern of your sex, and the thing is out of the
+      question—but myself for instance ?</p>
+    </sp>
+    <sp who="#L0205_F9">
+     <speaker>LOUISA.</speaker>
+     <stage>(dignified)</stage>
+     <p>Anthony, don't forget yourself!—You are a lawyer's clerk, and your rank in life entitles you
+      to wear them.</p>
+    </sp>
+    <sp who="#L0205_M4">
+     <speaker>SOSKINS.</speaker>
+     <p>Ahem.—ahem—true—true! <stage>(uneasily)</stage></p>
+    </sp>
+    <sp who="#L0205_F9">
+     <speaker>LOUISA.</speaker>
+     <stage>(looking at his moustache rapturously)</stage>
+     <p>And yours are such loves! <stage>(caressing them)</stage></p>
+    </sp>
+    <sp who="#L0205_M4">
+     <speaker>SOSKINS.</speaker>
+     <stage>(putting his hand up nervously)</stage>
+     <p>D—don't pull 'em about.</p>
+    </sp>
+    <sp who="#L0205_F9">
+     <speaker>LOUISA.</speaker>
+     <stage>(passionately)</stage>
+     <p>I wouldn't injure a hair of them for worlds!—For they are the load-star of my existence
+      !</p>
+    </sp>
+    <sp who="#L0205_M4">
+     <speaker>SOSKINS.</speaker>
+     <stage>(aside)</stage>
+     <p>Ahem ! <stage>(seriously, taking her hand, walking her up and down)</stage> Louisa, I fear
+      it is the moustache and not the man you love.</p>
+    </sp>
+    <sp who="#L0205_F9">
+     <speaker>LOUISA.</speaker>
+     <p>Oh! don't say that, Anthony—though I own it was they first won me, two months ago, when we
+      met at the Eagle, and perhaps if you hadn't had 'em–</p>
+    </sp>
+    <sp who="#L0205_M4">
+     <speaker>SOSKINS.</speaker>
+     <stage>(agonized sides)</stage>
+     <p>Oh! heavens ! Louisa! ask your heart, if supposing circumstances over which we have no
+      control— <stage>(tragically)</stage> for we have no control over circumstances, Louisa––</p>
+    </sp>
+    <sp who="#L0205_F9">
+     <speaker>LOUISA.</speaker>
+     <p>No, Anthony, but go on.</p>
+    </sp>
+    <sp who="#L0205_M4">
+     <speaker>SOSKINS.</speaker>
+     <p>If circumstances, I say, were some day to place me before your eyes, shorn of those manly
+      attributes—do you think— <stage>(in a broken voice)</stage> you could—still love me ?</p>
+    </sp>
+    <sp who="#L0205_F9">
+     <speaker>LOUISA.</speaker>
+     <stage>(overcome)</stage>
+     <p>Oh, Anthony, don't ask me.</p>
+    </sp>
+    <sp who="#L0205_M4">
+     <speaker>SOSKINS.</speaker>
+     <stage>(aside)</stage>
+     <p>She couldn't— I daren't break it to her.</p>
+    </sp>
+    <sp who="#L0205_F9">
+     <speaker>LOUISA.</speaker>
+     <p>But why need you think of such a thing—your master allows you to wear 'em, doesn't he?</p>
+    </sp>
+    <sp who="#L0205_M4">
+     <speaker>SOSKINS.</speaker>
+     <stage>(aside)</stage>
+     <p>Old Swosser! Yes—oh yes—he wishes it rather than otherwise.</p>
+    </sp>
+    <sp who="#L0205_F9">
+     <speaker>LOUISA.</speaker>
+     <p>You've often told me that all the clerks in the office wear 'em.</p>
+    </sp>
+    <sp who="#L0205_M4">
+     <speaker>SOSKINS.</speaker>
+     <stage>(aside)</stage>
+     <p>Fancy old Jenkins the conveyancer, under his blue specs and red nose.</p>
+    </sp>
+    <sp who="#L0205_F9">
+     <speaker>LOUISA.</speaker>
+     <p>And don't they ?</p>
+    </sp>
+    <sp who="#L0205_M4">
+     <speaker>SOSKINS.</speaker>
+     <p>Oh yes—all, and the errand boy a tip.</p>
+    </sp>
+    <sp who="#L0205_F9">
+     <speaker>LOUISA.</speaker>
+     <p>And there's no fear of your losing such a comfortable situation, is there ?</p>
+    </sp>
+    <sp who="#L0205_M4">
+     <speaker>SOSKINS.</speaker>
+     <p>No, Louisa, I think not—I hope not. <stage>(aside)</stage> And yet if old Swosser was to get
+      to know–</p>
+    </sp>
+    <sp who="#L0205_M1">
+     <speaker>SWOSSER.</speaker>
+     <stage>(voice heard outside, R.)</stage>
+     <p>Secure them,I say!—secure them!</p>
+    </sp>
+    <sp who="#L0205_M4">
+     <speaker>SOSKINS.</speaker>
+     <stage>(struck with abject terror)</stage>
+     <p>Oh, lord!</p>
+    </sp>
+    <sp who="#L0205_F9">
+     <speaker>LOUISA.</speaker>
+     <p>Anthony, what ails you ?</p>
+    </sp>
+    <sp who="#L0205_M4">
+     <speaker>SOSKINS.</speaker>
+     <p>That voice!</p>
+    </sp>
+    <sp who="#L0205_F9">
+     <speaker>LOUISA.</speaker>
+     <p>Whose?</p>
+    </sp>
+    <sp who="#L0205_M4">
+     <speaker>SOSKINS.</speaker>
+     <p>Old Swosser's.</p>
+    </sp>
+    <sp who="#L0205_F9">
+     <speaker>LOUISA.</speaker>
+     <p>Your master's ?</p>
+    </sp>
+    <sp who="#L0205_M4">
+     <speaker>SOSKINS.</speaker>
+     <p>Yes—what the devil shall I do? Louisa—I ––<stage>(as if about to confess)</stage></p>
+    </sp>
+    <sp who="#L0205_M1">
+     <speaker>SWOSSER.</speaker>
+     <stage>(outside)</stage>
+     <p>I say, secure every man with a moustache, and a young woman !—bind 'em hand and foot!</p>
+    </sp>
+    <sp who="#L0205_F9">
+     <speaker>LOUISA.</speaker>
+     <stage>(wildly)</stage>
+     <p>Anthony, speak—have you robbed the office ?</p>
+    </sp>
+    <sp who="#L0205_M4">
+     <speaker>SOSKINS.</speaker>
+     <p>No—yes—that is, Louisa, this is no time for explanation—but I mustn't let him see me—I have
+      deceived you—wronged you grossly—but give us a leg over this wall and all may yet be well, and
+      years of penitence shall atone for months of falsehood and villainy.</p>
+    </sp>
+    <sp who="#L0205_F9">
+     <speaker>LOUISA.</speaker>
+     <p>Quick—he's here! <stage>(bundles him over the wall, L.—he disappears)</stage> And I am calm
+      under it—but I was meant for a heroine. If despair can save him—it shall.</p>
+    </sp>
+    <stage>Enter Swosser at back, R.</stage>
+    <sp who="#L0205_M1">
+     <speaker>SWOSSER.</speaker>
+     <p>Waiter—here—landlord—boots—somebody ! <stage>(seeing Louisa)</stage> Young woman, have you
+      seen anything of a––</p>
+    </sp>
+    <sp who="#L0205_F9">
+     <speaker>LOUISA.</speaker>
+     <p>No—nothing of the kind—I'll swear it!</p>
+    </sp>
+    <stage>Enter Eliza from house, unseen, R.</stage>
+    <sp who="#L0205_F10">
+     <speaker>ELIZA.</speaker>
+     <stage>(aside)</stage>
+     <p>Good heavens! my father! <stage>(listens in arbour at back, R.)</stage></p>
+    </sp>
+    <pb n="10"/>
+    <sp who="#L0205_M1">
+     <speaker>SWOSSER.</speaker>
+     <p>A gentleman with a moustache, who came here with a young lady by the last train but one?</p>
+    </sp>
+    <sp who="#L0205_F9">
+     <speaker>LOUISA.</speaker>
+     <p>Went away last night—saw 'em go myself.</p>
+    </sp>
+    <sp who="#L0205_F10">
+     <speaker>ELIZA.</speaker>
+     <stage>(aside)</stage>
+     <p>We are lost!</p>
+    </sp>
+    <sp who="#L0205_M1">
+     <speaker>SWOSSER.</speaker>
+     <stage>(R.)</stage>
+     <p>Don't trifle with me, young woman—it's a question of breaking the laws of the country—a
+      question of crime.</p>
+    </sp>
+    <sp who="#L0205_F9">
+     <speaker>LOUISA.</speaker>
+     <stage>(L., aside)</stage>
+     <p>I thought so.</p>
+    </sp>
+    <sp who="#L0205_M1">
+     <speaker>SWOSSER.</speaker>
+     <p>A question perhaps of life and death—and certainly of what's of much more importance—of
+      money—money, young woman. <stage>(aside)</stage> The captain's come into ten thousand a year
+      since this morning, and that blood-thirsty scoundrel, Cornelius—</p>
+    </sp>
+    <sp who="#L0205_F9">
+     <speaker>LOUISA.</speaker>
+     <stage>(aside)</stage>
+     <p>It's embezzlement—but they can't hang him.</p>
+    </sp>
+    <sp who="#L0205_M1">
+     <speaker>SWOSSER.</speaker>
+     <p>I must find out where the nearest magistrate lives. <stage>(going, R.)</stage></p>
+    </sp>
+    <sp who="#L0205_F9">
+     <speaker>LOUISA.</speaker>
+     <p>Hold, sir! <stage>(he stops)</stage> What is the amount ?</p>
+    </sp>
+    <sp who="#L0205_M1">
+     <speaker>SWOSSER.</speaker>
+     <p>The amount ?</p>
+    </sp>
+    <sp who="#L0205_F9">
+     <speaker>LOUISA.</speaker>
+     <p>Yes—you said the money was of the most importance—name the figure.</p>
+    </sp>
+    <sp who="#L0205_F10">
+     <speaker>ELIZA.</speaker>
+     <stage>(aside)</stage>
+     <p>What are they talking about ?</p>
+    </sp>
+    <sp who="#L0205_M1">
+     <speaker>SWOSSER.</speaker>
+     <p>Pray, young woman, what the devil is it to you ?</p>
+    </sp>
+    <sp who="#L0205_F9">
+     <speaker>LOUISA.</speaker>
+     <p>Everything, sir—life and death—I'm Louisa Fitzjohnson —you don't know me—but I know you—you
+      are Mr. Swosser—I know all—I know the person you are looking after—it's very kind of you to
+      call him a gentleman, and I used to think him one myself. He's a wretch and a villain, he has
+      deceived me, he confessed as much—but I love him.</p>
+    </sp>
+    <sp who="#L0205_F10">
+     <speaker>ELIZA.</speaker>
+     <stage>(aside)</stage>
+     <p>What do I hear ?</p>
+    </sp>
+    <sp who="#L0205_M1">
+     <speaker>SWOSSER.</speaker>
+     <stage>(aside)</stage>
+     <p>Whew ! this is a pleasant discovery.</p>
+    </sp>
+    <sp who="#L0205_F9">
+     <speaker>LOUISA.</speaker>
+     <p>And you won't tear him from me, for the sake of a little money—for it can't be much ?</p>
+    </sp>
+    <sp who="#L0205_M1">
+     <speaker>SWOSSER.</speaker>
+     <stage>(aside)</stage>
+     <p>She's heard of the captain's fortune, but doesn't know the extent of it.</p>
+    </sp>
+    <sp who="#L0205_F9">
+     <speaker>LOUISA.</speaker>
+     <stage>(passionately)</stage>
+     <p>It isn't much, is it, sir ? but whatever it is I'll make it up to you—I'm only a milliner,
+      but I've put by a little money, and I'll work the skin off my bones. Consider, sir, we were to
+      have been married, and you wouldn't break a poor girl's heart when a word from you can prevent
+      it.</p>
+    </sp>
+    <sp who="#L0205_F10">
+     <speaker>ELIZA.</speaker>
+     <stage>(aside)</stage>
+     <p>My head swims.</p>
+    </sp>
+    <sp who="#L0205_M1">
+     <speaker>SWOSSER.</speaker>
+     <p>What you tell me is really very extraordinary! Your's, I presume, is an old attachment ?</p>
+    </sp>
+    <sp who="#L0205_F9">
+     <speaker>LOUISA.</speaker>
+     <p>Not so very—two months.</p>
+    </sp>
+    <sp who="#L0205_F10">
+     <speaker>ELIZA.</speaker>
+     <stage>(aside)</stage>
+     <p>And he's been engaged to me for six! <stage>(falls into a seat overcome)</stage></p>
+    </sp>
+    <sp who="#L0205_F9">
+     <speaker>LOUISA.</speaker>
+     <p>But if you knew the amount of love that has been made in the time!</p>
+    </sp>
+    <sp who="#L0205_M1">
+     <speaker>SWOSSER.</speaker>
+     <stage>(aside)</stage>
+     <p>The captain's evidently a Lothario, but I can't afford to lose a rich son-in-law!</p>
+    </sp>
+    <sp who="#L0205_F9">
+     <speaker>LOUISA.</speaker>
+     <p>But do tell me the amount, sir! I'll pay you at so much a week!</p>
+    </sp>
+    <sp who="#L0205_M1">
+     <speaker>SWOSSER.</speaker>
+     <stage>(aside)</stage>
+     <p>The girl's crazed! <stage>(aloud)</stage> My poor girl, I am deeply sorry for you; you have
+      been the victim of a heartless
+      <pb n="11"/>deceiver! <stage>(aside)</stage> Hope he doesn't hear me? <stage>(aloud)</stage>
+      As to any compensation you could make my family out of your little earnings, the idea is
+      simply ridiculous !</p>
+    </sp>
+    <sp who="#L0205_F9">
+     <speaker>LOUISA.</speaker>
+     <stage>(aside)</stage>
+     <p>It was for a heavy amount then ! What can the villain have done with it ? I never had a
+      penny of it!</p>
+    </sp>
+    <sp who="#L0205_M1">
+     <speaker>SWOSSER.</speaker>
+     <p>And as a rightly disposed young person, after what has occurred, you ought to see the
+      propriety of allowing things to take their course, and give up all thoughts of
+       the—<stage>(looking about cautiously aside)</stage> He isn't within hearing—the scoundrel!
+       <stage>(Eliza recovers a little and listens again)</stage></p>
+    </sp>
+    <sp who="#L0205_F9">
+     <speaker>LOUISA.</speaker>
+     <p>I know I ought, but I can't when I think of his youth and beauty!</p>
+    </sp>
+    <sp who="#L0205_F10">
+     <speaker>ELIZA.</speaker>
+     <stage>(aside)</stage>
+     <p>True, true !</p>
+    </sp>
+    <sp who="#L0205_F9">
+     <speaker>LOUISA.</speaker>
+     <p>Of his talents !</p>
+    </sp>
+    <sp who="#L0205_F10">
+     <speaker>ELIZA.</speaker>
+     <stage>(aside)</stage>
+     <p>Yes.</p>
+    </sp>
+    <sp who="#L0205_F9">
+     <speaker>LOUISA.</speaker>
+     <p>Of his gentlemanly tastes, though they have been the ruin of him!</p>
+    </sp>
+    <sp who="#L0205_F10">
+     <speaker>ELIZA.</speaker>
+     <stage>(aside)</stage>
+     <p>Alas!</p>
+    </sp>
+    <sp who="#L0205_F9">
+     <speaker>LOUISA.</speaker>
+     <p>And above all, when I think of his heavenly moustache !</p>
+    </sp>
+    <sp who="#L0205_F10">
+     <speaker>ELIZA.</speaker>
+     <stage>(aside)</stage>
+     <p>I can hear no more. <stage>(falls again overcome)</stage></p>
+    </sp>
+    <sp who="#L0205_F9">
+     <speaker>LOUISA.</speaker>
+     <p>And besides, when I reflect, that he is in danger!</p>
+    </sp>
+    <sp who="#L0205_M1">
+     <speaker>SWOSSER.</speaker>
+     <stage>(recollecting with alarm)</stage>
+     <p>Ah, true ! You are aware of his danger ?</p>
+    </sp>
+    <sp who="#L0205_F9">
+     <speaker>LOUISA.</speaker>
+     <p>Oh, yes!</p>
+    </sp>
+    <sp who="#L0205_M1">
+     <speaker>SWOSSER.</speaker>
+     <p>But he still lives ?</p>
+    </sp>
+    <sp who="#L0205_F9">
+     <speaker>LOUISA.</speaker>
+     <stage>(horror struck)</stage>
+     <p>Lives! Are his days then threatened?</p>
+    </sp>
+    <sp who="#L0205_M1">
+     <speaker>SWOSSER.</speaker>
+     <p>Why, there is reason to fear that the effects—<stage>(aside)</stage> that murderous
+      scoundrel, Cornelius!</p>
+    </sp>
+    <sp who="#L0205_F9">
+     <speaker>LOUISA.</speaker>
+     <p>I see it all—they have hunted him to death! his noble spirit won't survive it!
+       <stage>(looking at wall, L.)</stage> And to think that I have perhaps given him a leg into
+      his grave. Anthony ! I will save you yet or perish in the attempt! <stage>Rushes out wildly at
+       back, L.</stage></p>
+    </sp>
+    <sp who="#L0205_M1">
+     <speaker>SWOSSER.</speaker>
+     <stage>(looking after her)</stage>
+     <p>I thought the captain's name was Altamont: but I dare say he has a name for every lady love.
+      But while I am standing here, the duel may take place ! If that firebrand, Cornelius, has done
+      him any injury, I'll never discount another bill for the villain as long as I live !
+       <stage>Exit, excited, at back, L,.</stage></p>
+    </sp>
+    <sp who="#L0205_F10">
+     <speaker>ELIZA.</speaker>
+     <stage>(comes forward, staggering)</stage>
+     <p>They are gone—it must have- been a terrible dream! - but no, my father stood here, and I
+      remember too well that horrid creature with her tears and passionate entreaties that he might
+      not be torn from her—Ugh! <stage>(shuddering)</stage> It was too real! The abandoned hussey to
+      follow him here, when in an hour I should have married him, and had him all to myself! And to
+      allude to his moustache: the moustache that I have loved so, and little thought to live to see
+      twiddled by other fingers, and fingers that I am sure must be coarser than mine! Oh, it's too
+      dreadful! And that note he sent me, saying that the officers were in pursuit of him—the
+      wretch, he meant the milliners. But I hope 1 shall live to see him shaved! But she shall have
+      him !— oh, yes ; I won't dispute the precious prize. <stage>(proudly)</stage> No ! Eliza
+      <pb n="12"/>Swosser, you were born for something higher than to be the rival of milliners !
+       <stage>(bursting into tears)</stage> though I'm sure if he'd said he liked milliners, I'd
+      have put myself to the business with pleasure, if papa would have allowed me.
+       <stage>(sobs)</stage></p>
+    </sp>
+    <stage>Enter Louisa, at back, L.</stage>
+    <sp who="#L0205_F9">
+     <speaker>LOUISA.</speaker>
+     <p>He isn't in sight, and I haven't the heart to tell him to drag the river ! <stage>(sits at
+       table, L., exhausted)</stage></p>
+    </sp>
+    <sp who="#L0205_F10">
+     <speaker>ELIZA.</speaker>
+     <p>She is there again—<stage>(looking at her)</stage> and he could desert me for such a
+      creature—in eighteen-penny gloves that have been cleaned ! but she shall not triumph to my
+      weakness. Eliza! Be firm, you have a duty to perform!</p>
+    </sp>
+    <sp who="#L0205_F9">
+     <speaker>LOUISA.</speaker>
+     <p>Oh, lord! What will become of me!</p>
+    </sp>
+    <sp who="#L0205_F10">
+     <speaker>ELIZA.</speaker>
+     <stage>(aside)</stage>
+     <p>I will make the effort. <stage>(approaching Louisa)</stage> madame, you are unhappy ?</p>
+    </sp>
+    <sp who="#L0205_F9">
+     <speaker>LOUISA.</speaker>
+     <stage>(groaning)</stage>
+     <p>Oh, I should just think I was—oh, rather!</p>
+    </sp>
+    <sp who="#L0205_F10">
+     <speaker>ELIZA.</speaker>
+     <p>What expressions ! <stage>(aloud)</stage> But believe me, you have no longer cause to be
+      so!</p>
+    </sp>
+    <sp who="#L0205_F9">
+     <speaker>LOUISA.</speaker>
+     <p>Much you know about it.</p>
+    </sp>
+    <sp who="#L0205_F10">
+     <speaker>ELIZA.</speaker>
+     <p>You will not say so when you know who I am ! I am Eliza Swosser !</p>
+    </sp>
+    <sp who="#L0205_F9">
+     <speaker>LOUISA.</speaker>
+     <p>Oh! Old Swosser's daughter?</p>
+    </sp>
+    <sp who="#L0205_F10">
+     <speaker>ELIZA.</speaker>
+     <p>The same.</p>
+    </sp>
+    <sp who="#L0205_F9">
+     <speaker>LOUISA.</speaker>
+     <p>What is the whole biling of you here after him ?</p>
+    </sp>
+    <sp who="#L0205_F10">
+     <speaker>ELIZA.</speaker>
+     <stage>(aside)</stage>
+     <p>Vulgar wretch ! What does she mean ?</p>
+    </sp>
+    <sp who="#L0205_F9">
+     <speaker>LOUISA.</speaker>
+     <p>It don't matter, you'll be clever if you can catch him now ! <stage>(groans)</stage></p>
+    </sp>
+    <sp who="#L0205_F10">
+     <speaker>ELIZA.</speaker>
+     <stage>(aside)</stage>
+     <p>The creature dares to exult! <stage>(with dignity)</stage> Believe me, if he is never caught
+      till I wish to catch him, as you call it, he need never fear of his liberty.</p>
+    </sp>
+    <sp who="#L0205_F9">
+     <speaker>LOUISA.</speaker>
+     <p>Well, that's very kind of you though it wasn't said in the kindest way. But it won't do me
+      no good—it won't give him back to me as I once knew him—oh dear, oh dear !</p>
+    </sp>
+    <sp who="#L0205_F10">
+     <speaker>ELIZA.</speaker>
+     <stage>(aside)</stage>
+     <p>She seems to take the discovery of his perfidy very much to heart! I could almost forget my
+      own sufferings in hers ! <stage>(with feeling)</stage> And did you love him very much !</p>
+    </sp>
+    <sp who="#L0205_F9">
+     <speaker>LOUISA.</speaker>
+     <p>Who could see him and not?</p>
+    </sp>
+    <sp who="#L0205_F10">
+     <speaker>ELIZA.</speaker>
+     <p>True, true!</p>
+    </sp>
+    <sp who="#L0205_F9">
+     <speaker>LOUISA.</speaker>
+     <p>Who could listen to his downright gentlemanly conversation–</p>
+    </sp>
+    <sp who="#L0205_F10">
+     <speaker>ELIZA.</speaker>
+     <p>It was.</p>
+    </sp>
+    <sp who="#L0205_F9">
+     <speaker>LOUISA.</speaker>
+     <p>Who could feel the soft pressure of his hand, that wasn't much too red for a nobleman.</p>
+    </sp>
+    <sp who="#L0205_F10">
+     <speaker>ELIZA.</speaker>
+     <p>It was perfectly white.</p>
+    </sp>
+    <sp who="#L0205_F9">
+     <speaker>LOUISA.</speaker>
+     <stage>(astonished)</stage>
+     <p>You've noticed it then ?</p>
+    </sp>
+    <sp who="#L0205_F10">
+     <speaker>ELIZA.</speaker>
+     <p>Pressed it often.</p>
+    </sp>
+    <sp who="#L0205_F9">
+     <speaker>LOUISA.</speaker>
+     <p>Well, that's odd; but, above all, who could gaze on the glossy twist of his heavenly
+      moustaches ?</p>
+    </sp>
+    <sp who="#L0205_F10">
+     <speaker>ELIZA.</speaker>
+     <stage>(casting down her eyes)</stage>
+     <p>It was that first won me.</p>
+    </sp>
+    <sp who="#L0205_F9">
+     <speaker>LOUISA.</speaker>
+     <stage>(starting up aghast)</stage>
+     <p>What! Say that again, or ––No don't, not yet.</p>
+    </sp>
+    <sp who="#L0205_F10">
+     <speaker>ELIZA.</speaker>
+     <p>Is it possible that you do not know ? <stage>(rises)</stage></p>
+    </sp>
+    <pb n="13"/>
+    <sp who="#L0205_F9">
+     <speaker>LOUISA.</speaker>
+     <p>What? Speak! But I am prepared for anything.</p>
+    </sp>
+    <sp who="#L0205_F10">
+     <speaker>ELIZA.</speaker>
+     <p>That we were to have been married ?</p>
+    </sp>
+    <sp who="#L0205_F9">
+     <speaker>LOUISA.</speaker>
+     <stage>(falls into a chair overcome)</stage>
+     <p>I didn't know he was so much the gentleman as that. I thought I was dead—but it's over now.
+       <stage>(starting up)</stage> I'll tear him from my heart like a bit of old lining; and to
+      think of his having borrowed of me.</p>
+    </sp>
+    <sp who="#L0205_F10">
+     <speaker>ELIZA.</speaker>
+     <p>Is it possible ? when he has lavished the most costly presents upon me.</p>
+    </sp>
+    <sp who="#L0205_F9">
+     <speaker>LOUISA.</speaker>
+     <p>That accounts for the largeness of the amount; then I wouldn't be you for something.</p>
+    </sp>
+    <sp who="#L0205_F10">
+     <speaker>ELIZA.</speaker>
+     <p>What do you mean ?</p>
+    </sp>
+    <sp who="#L0205_F9">
+     <speaker>LOUISA.</speaker>
+     <p>I shall think of him till my dying day; but it won't be with his head shaved, a log of wood
+      chained to one of his legs, and his dear moustachers cut off. But, I'll beg that least––</p>
+    </sp>
+    <sp who="#L0205_F10">
+     <speaker>ELIZA.</speaker>
+     <p>Woman, explain yourself.</p>
+    </sp>
+    <sp who="#L0205_F9">
+     <speaker>LOUISA.</speaker>
+     <p>And when he does get his ticket of leave for good behaviour, and begins murdering and
+      robbing the gold diggers in the bush, as is usual in such cases, he won't have me to thank for
+      bringing him to it.</p>
+    </sp>
+    <sp who="#L0205_F10">
+     <speaker>ELIZA.</speaker>
+     <p>Would you drive me mad ?</p>
+    </sp>
+    <sp who="#L0205_F9">
+     <speaker>LOUISA.</speaker>
+     <p><hi>I</hi> shan't hear myself cried about in the streets as the young woman, to satisfy
+      whose frivolous vanity, the young man was induced to commit the robbery.</p>
+    </sp>
+    <sp who="#L0205_F10">
+     <speaker>ELIZA.</speaker>
+     <stage>(agonized)</stage>
+     <p>The what ? Oh no, it cannot be, unsay that horrible word. I knew he had been extravagant,
+      reckless, but not criminal—not criminal.</p>
+    </sp>
+    <sp who="#L0205_F9">
+     <speaker>LOUISA.</speaker>
+     <p>My dear, the extent of his crimes I fear we shall never know.</p>
+    </sp>
+    <sp who="#L0205_F10">
+     <speaker>ELIZA.</speaker>
+     <p>Then the officers that are in pursuit of him–</p>
+    </sp>
+    <sp who="#L0205_F9">
+     <speaker>LOUISA.</speaker>
+     <p>Who told you that the officers were in pursuit of him ?</p>
+    </sp>
+    <sp who="#L0205_F10">
+     <speaker>ELIZA.</speaker>
+     <p>Himself?</p>
+    </sp>
+    <sp who="#L0205_F9">
+     <speaker>LOUISA.</speaker>
+     <p>Where?</p>
+    </sp>
+    <sp who="#L0205_F10">
+     <speaker>ELIZA.</speaker>
+     <p>Here—this morning.</p>
+    </sp>
+    <sp who="#L0205_F9">
+     <speaker>LOUISA.</speaker>
+     <p>What, you have seen him ?</p>
+    </sp>
+    <sp who="#L0205_F10">
+     <speaker>ELIZA.</speaker>
+     <p>We were to have left in a postchaise together in half an hour. <stage>(Louisa
+       faints)</stage> She has fainted. Look up—let us save him —he may not yet be wholly lost.
+      Think that he is perhaps by this time out of their reach. <stage>(Captain Kidd runs
+       precipitately across the back from R. to L., Eliza sees him and screams)</stage> A—a—a—ah!
+       <stage>(falls into chair R. of Louisa)</stage></p>
+    </sp>
+    <sp who="#L0205_F9">
+     <speaker>LOUISA.</speaker>
+     <stage>(starting up)</stage>
+     <p>What is it ?</p>
+    </sp>
+    <sp who="#L0205_F10">
+     <speaker>ELIZA.</speaker>
+     <p>I saw him.</p>
+    </sp>
+    <sp who="#L0205_F9">
+     <speaker>LOUISA.</speaker>
+     <p>Where ?</p>
+    </sp>
+    <sp who="#L0205_F10">
+     <speaker>ELIZA.</speaker>
+     <p>There! <stage>(points without looking round to L. where Kidd has disappeared—Louisa looks
+       round frightened, and sees Soskins run across from L. to R.)</stage></p>
+    </sp>
+    <sp who="#L0205_F9">
+     <speaker>LOUISA.</speaker>
+     <p>A—a—ah! <stage>(falls into chair)</stage></p>
+    </sp>
+    <sp who="#L0205_F10">
+     <speaker>ELIZA.</speaker>
+     <stage>(hiding her eyes)</stage>
+     <p>Did you see him ?</p>
+    </sp>
+    <sp who="#L0205_F9">
+     <speaker>LOUISA.</speaker>
+     <p>Yes.</p>
+    </sp>
+    <sp who="#L0205_F10">
+     <speaker>ELIZA.</speaker>
+     <p>Is he pursued? <stage>(Louisa looks timidly round, and sees Kidd run from L. to R., she
+       screams)</stage></p>
+    </sp>
+    <pb n="14"/>
+    <sp who="#L0205_F9">
+     <speaker>LOUISA.</speaker>
+     <p>Yes.</p>
+    </sp>
+    <sp who="#L0205_F10">
+     <speaker>ELIZA.</speaker>
+     <stage>(still hiding her face)</stage>
+     <p>By a repulsive-looking ruffian ?</p>
+    </sp>
+    <sp who="#L0205_F9">
+     <speaker>LOUISA.</speaker>
+     <p>Very.</p>
+    </sp>
+    <sp who="#L0205_F10">
+     <speaker>ELIZA.</speaker>
+     <p>In a moustache ?</p>
+    </sp>
+    <sp who="#L0205_F9">
+     <speaker>LOUISA.</speaker>
+     <p>Yes.</p>
+    </sp>
+    <sp who="#L0205_F10">
+     <speaker>ELIZA.</speaker>
+     <p>It is the officer, as you described him to me.</p>
+    </sp>
+    <sp who="#L0205_F9">
+     <speaker>LOUISA.</speaker>
+     <stage>(hiding her face)</stage>
+     <p>See if he's after him still.</p>
+    </sp>
+    <sp who="#L0205_F10">
+     <speaker>ELIZA.</speaker>
+     <p>I scarcely dare. <stage>(looks round—Soskins. runs from R. to L., she screams)</stage>
+      Repulsive indeed! <stage>(both sit down groaning)</stage> Dare we look again ?</p>
+    </sp>
+    <sp who="#L0205_F9">
+     <speaker>LOUISA.</speaker>
+     <p>To see him taken before our eyes ?</p>
+    </sp>
+    <sp who="#L0205_F10">
+     <speaker>ELIZA.</speaker>
+     <p>And yet there is a terrible fascination that I cannot resist.</p>
+    </sp>
+    <sp who="#L0205_F9">
+     <speaker>LOUISA.</speaker>
+     <p>Nor I—and he may escape. Shall we venture. <stage>(they turn round as if afraid to look—Kidd
+       runs from R. and Soskins from L., they rush into each other's arms, nearly upsetting one
+       another at gate; the two Women scream)</stage></p>
+    </sp>
+    <sp who="#L0205_F10">
+     <speaker>ELIZA.</speaker>
+     <p>Captured!</p>
+    </sp>
+    <sp who="#L0205_M4">
+     <speaker>SOSKINS.</speaker>
+     <p>Took! <stage>(they both faint)</stage></p>
+    </sp>
+    <sp who="#L0205_M2 #L0205_M4">
+     <speaker>KIDD.|SOSKINS.</speaker>
+     <p><stage>(bowing)</stage> I beg your pardon, sir.</p>
+    </sp>
+    <spGrp>
+     <sp who="#L0205_M2">
+      <speaker>KIDD.</speaker>
+      <p>I have not the pleasure of knowing you, sir.</p>
+     </sp>
+     <sp who="#L0205_M2">
+      <speaker>KIDD.</speaker>
+      <p>You are a total stranger to me, sir.</p>
+     </sp>
+    </spGrp>
+    <spGrp>
+     <sp who="#L0205_M4">
+      <speaker>SOSKINS.</speaker>
+      <p>But as there is an individual I am anxious to avoid.</p>
+     </sp>
+     <sp who="#L0205_M2">
+      <speaker>KIDD.</speaker>
+      <p>But as there is a party I can't meet without getting into a precious mess, <stage>(they
+        come down hastily)</stage></p>
+     </sp>
+    </spGrp>
+    <sp who="#L0205_M2">
+     <speaker>KIDD.</speaker>
+     <stage>(R. )</stage>
+     <p>Good heavens—Eliza insensible!</p>
+    </sp>
+    <sp who="#L0205_M4">
+     <speaker>SOSKINS.</speaker>
+     <stage>(L.)</stage>
+     <p>Merciful powers—Louisa inanimate!</p>
+    </sp>
+    <sp who="#L0205_M2">
+     <speaker>KIDD.</speaker>
+     <stage>(looking out at back, R., uneasily)</stage>
+     <p>This is most unfortunate.</p>
+    </sp>
+    <sp who="#L0205_M4">
+     <speaker>SOSKINS.</speaker>
+     <stage>(looking L.)</stage>
+     <p>This is d—d annoying !</p>
+    </sp>
+    <sp who="#L0205_M2">
+     <speaker>KIDD.</speaker>
+     <p>I was about to ask you if you would oblige me by taking charge of this young lady who has
+      fainted, for a few minutes.</p>
+    </sp>
+    <sp who="#L0205_M4">
+     <speaker>SOSKINS.</speaker>
+     <p>I was about to trespass on your good nature to lend a hand for a minute or two to this
+      utterly senseless young person.</p>
+    </sp>
+    <sp who="#L0205_M3">
+     <speaker>O'PAKE.</speaker>
+     <stage>(outside, R.)</stage>
+     <p>I say the gentleman has arrived, sir, he has been seen.</p>
+    </sp>
+    <sp who="#L0205_M2">
+     <speaker>KIDD.</speaker>
+     <stage>(throwing Eliza into Soskins's arms)</stage>
+     <p>I must really trouble you. <stage>(runs to door of hotel, which he tries to
+      open)</stage></p>
+    </sp>
+    <sp who="#L0205_M4">
+     <speaker>SOSKINS.</speaker>
+     <stage>(shaking Louisa)</stage>
+     <p>Then I say, Loo, don't be a d—d fool!</p>
+    </sp>
+    <sp who="#L0205_F9">
+     <speaker>LOUISA.</speaker>
+     <stage>(rousing and seeing him—with rapture)</stage>
+     <p>They have not torn him from me—he still lives for his Louisa alone, and with all his
+      falsehood, <stage>(seeing that Eliza is also in his arms—screams)</stage> Ah, villain, take
+      her away in your postchaise. <stage>(faints)</stage></p>
+    </sp>
+    <sp who="#L0205_M4">
+     <speaker>SOSKINS.</speaker>
+     <p>I say, Loo—if you took anything at the station that's got into your head you ought to be
+      ashamed of yourself.</p>
+    </sp>
+    <sp who="#L0205_M2">
+     <speaker>KIDD.</speaker>
+     <stage>(coming down furiously)</stage>
+     <p>The idiots have fastened the glass door. For heaven's sake, Eliza––</p>
+    </sp>
+    <sp who="#L0205_M1">
+     <speaker>SWOSSER.</speaker>
+     <stage>(outside, L.)</stage>
+     <p>All I have to say is scour the country.</p>
+    </sp>
+    <sp who="#L0205_M4">
+     <speaker>SOSKINS.</speaker>
+     <stage>(throwing Louisa into Kidd's arms)</stage>
+     <p>I must really avail myself of your kind offer. <stage>(runs towards wall, L.,where he had
+       previously climbed over, and tries to do so again)</stage></p>
+    </sp>
+    <pb n="15"/>
+    <sp who="#L0205_M2">
+     <speaker>KIDD.</speaker>
+     <p>Inhuman wretch—Eliza look up !</p>
+    </sp>
+    <sp who="#L0205_F10">
+     <speaker>ELIZA.</speaker>
+     <stage>(looking up)</stage>
+     <p>In the hour of danger, he thinks of me, me only ! <stage>(seeing that he also is embracing
+       Louisa—screams)</stage> Monster, go to your milliner! <stage>(faints again)</stage></p>
+    </sp>
+    <sp who="#L0205_M2">
+     <speaker>KIDD.</speaker>
+     <p>Eliza, if your breakfast has disagreed with you to such an extent as to make you talk
+      nonsense, you ought to have gone to bed.</p>
+    </sp>
+    <sp who="#L0205_M4">
+     <speaker>SOSKINS.</speaker>
+     <stage>(dropping from wall and staggering back towards, C.)</stage>
+     <p>There's old Swosser on the other side.</p>
+    </sp>
+    <sp who="#L0205_M2">
+     <speaker>KIDD.</speaker>
+     <stage>(resigning the ladies)</stage>
+     <p>Thank you, sir ! <stage>(runs into house by lawn window which he forces open)</stage></p>
+    </sp>
+    <sp who="#L0205_M4">
+     <speaker>SOSKINS.</speaker>
+     <stage>(calling after him)</stage>
+     <p>Pitiful dastard !</p>
+    </sp>
+    <stage>Enter O'Pake at back, R., he unlocks his pistol case at table, R.</stage>
+    <sp who="#L0205_M3">
+     <speaker>O'PAKE.</speaker>
+     <stage>(aside)</stage>
+     <p>I have 'em.</p>
+    </sp>
+    <sp who="#L0205_M4">
+     <speaker>SOSKINS.</speaker>
+     <stage>(bawling, and shaking the girls)</stage>
+     <p>Here, I say, you couple of fools, come to your senses do. <stage>(the girls start up—-Eliza,
+       seeing Soskins. recoils with horror)</stage></p>
+    </sp>
+    <sp who="#L0205_F10">
+     <speaker>ELIZA.</speaker>
+     <p>Ah !</p>
+    </sp>
+    <sp who="#L0205_M3">
+     <speaker>O'PAKE.</speaker>
+     <stage>(down R., aside)</stage>
+     <p>They've had a row—fear nothing, Eliza—I am here to protect you.</p>
+    </sp>
+    <sp who="#L0205_F9">
+     <speaker>LOUISA.</speaker>
+     <stage>(aside)</stage>
+     <p>Who's this I wonder ?</p>
+    </sp>
+    <sp who="#L0205_F10">
+     <speaker>ELIZA.</speaker>
+     <p>Cornelius !</p>
+    </sp>
+    <sp who="#L0205_M3">
+     <speaker>O'PAKE.</speaker>
+     <p>Yes, your cousin Cornelius, come to restore you to the arms of your aged parent, that you'd
+      send to an early grave in the prime of his life, and to punish the perfidious partner of your
+      flight, <stage>(to Soskins)</stage> You and I sir will arrange our business privately.</p>
+    </sp>
+    <sp who="#L0205_F9">
+     <speaker>LOUISA.</speaker>
+     <p>They're going to shoot him now—what next I wonder.</p>
+    </sp>
+    <sp who="#L0205_M4">
+     <speaker>SOSKINS.</speaker>
+     <p>And may I ask what is your business ?</p>
+    </sp>
+    <sp who="#L0205_F10">
+     <speaker>ELIZA.</speaker>
+     <stage>(aside)</stage>
+     <p>He mistakes the horrid constable for Altamont— if I could keep up the deception.</p>
+    </sp>
+    <sp who="#L0205_M3">
+     <speaker>O'PAKE.</speaker>
+     <p>I am this lady's nearest living relative, and the intimate friend of her father.</p>
+    </sp>
+    <sp who="#L0205_M4">
+     <speaker>SOSKINS.</speaker>
+     <p>And what the devil do I care if you are.</p>
+    </sp>
+    <sp who="#L0205_F9">
+     <speaker>LOUISA.</speaker>
+     <stage>(aside)</stage>
+     <p>He'll fight, he's capable of it—but he shan't have blood on his head, if I can prevent
+      it.</p>
+    </sp>
+    <sp who="#L0205_M3">
+     <speaker>O'PAKE.</speaker>
+     <p>Faith, I can't have made a mistake, <stage>(to Eliza)</stage> Sure he's the perfidious
+      partner of your flight.</p>
+    </sp>
+    <sp who="#L0205_M4">
+     <speaker>SOSKINS.</speaker>
+     <p>I !</p>
+    </sp>
+    <sp who="#L0205_F9">
+     <speaker>LOUISA.</speaker>
+     <stage>(aside to him)</stage>
+     <p>It's no use brazening it out, Anthony, I know all.</p>
+    </sp>
+    <sp who="#L0205_M4">
+     <speaker>SOSKINS.</speaker>
+     <stage>(aside to her)</stage>
+     <p>Louisa, I'm willing to hope it's only the weather has affected you.</p>
+    </sp>
+    <sp who="#L0205_F10">
+     <speaker>ELIZA.</speaker>
+     <stage>(aside)</stage>
+     <p>Every moment is of importance. Yes, Cornelius, that is the gentleman.</p>
+    </sp>
+    <sp who="#L0205_M4">
+     <speaker>SOSKINS.</speaker>
+     <p>I—why I never saw her before in my life.</p>
+    </sp>
+    <sp who="#L0205_F10">
+     <speaker>ELIZA.</speaker>
+     <p>Oh ! Altamont, can you be so heartless.</p>
+    </sp>
+    <sp who="#L0205_F9">
+     <speaker>LOUISA.</speaker>
+     <stage>(aside to him)</stage>
+     <p>So you can be Altamont to her, and plain Anthony was good enough for me.</p>
+    </sp>
+    <sp who="#L0205_M4">
+     <speaker>SOSKINS.</speaker>
+     <stage>(aside)</stage>
+     <p>As soon as I get Louisa back to town, I shall
+      <pb n="16"/>take her to an eminent practitioner to consult him about the state of her brains.
+      Here, what stuff, my name isn't Altamont.</p>
+    </sp>
+    <sp who="#L0205_F9">
+     <speaker>LOUISA.</speaker>
+     <p>There's no knowing what his name is, he's one entire alias.</p>
+    </sp>
+    <sp who="#L0205_F10">
+     <speaker>ELIZA.</speaker>
+     <p>This cruelty is more than I can bear. <stage>(clings to him)</stage></p>
+    </sp>
+    <sp who="#L0205_M2">
+     <speaker>KIDD.</speaker>
+     <stage>(has partially come out)</stage>
+     <p>What do I see—good heavens ! <stage>(seeing O'Pake)</stage> the Irish bailiff! <stage>(runs
+       back)</stage></p>
+    </sp>
+    <sp who="#L0205_M4">
+     <speaker>SOSKINS.</speaker>
+     <p>Now, have you done ?</p>
+    </sp>
+    <sp who="#L0205_F10">
+     <speaker>ELIZA.</speaker>
+     <p>You shall not leave me ; no, false—cruel as he has been, they shall not injure him while I
+      am near. <stage>(clings to him)</stage></p>
+    </sp>
+    <sp who="#L0205_F9">
+     <speaker>LOUISA.</speaker>
+     <stage>(pulling her away)</stage>
+     <p>You'll excuse me, miss—but this is a little too strong in my presence.</p>
+    </sp>
+    <sp who="#L0205_F10">
+     <speaker>ELIZA.</speaker>
+     <stage>(aside to her)</stage>
+     <p>Excellent, keep it up.</p>
+    </sp>
+    <sp who="#L0205_F9">
+     <speaker>LOUISA.</speaker>
+     <stage>(aside)</stage>
+     <p>Keep it up, what does she mean ?</p>
+    </sp>
+    <sp who="#L0205_M3">
+     <speaker>O'PAKE.</speaker>
+     <stage>(to Soskins)</stage>
+     <p>Enough, sir. I parsave that to the moral terpitude of the dhirty blackguard, ye add the
+      pusillanimity of the cowardly spalpeen.</p>
+    </sp>
+    <sp who="#L0205_M4">
+     <speaker>SOSKINS.</speaker>
+     <p>You're driving me mad amongst you. I'm not going to stand any bullying.</p>
+    </sp>
+    <sp who="#L0205_M3">
+     <speaker>O'PAKE.</speaker>
+     <p>Then, you will understand, there is but one way in which our difference can be arranged. I
+      have weapons here.</p>
+    </sp>
+    <sp who="#L0205_F9">
+     <speaker>LOUISA.</speaker>
+     <p>Anthony, you shan't do it.</p>
+    </sp>
+    <sp who="#L0205_M4">
+     <speaker>SOSKINS.</speaker>
+     <p>Shan't do what ? Louisa, your eccentricities are becoming unbearable.</p>
+    </sp>
+    <sp who="#L0205_F9">
+     <speaker>LOUISA.</speaker>
+     <p>You shan't add manslaughter to your numerous crimes. Police !</p>
+    </sp>
+    <sp who="#L0205_M4">
+     <speaker>SOSKINS.</speaker>
+     <p>Will you be quiet, Louisa ?</p>
+    </sp>
+    <sp who="#L0205_F9">
+     <speaker>LOUISA.</speaker>
+     <p>No—police! murder! duels! thieves! <stage>(runs out at back)</stage></p>
+    </sp>
+    <sp who="#L0205_M4">
+     <speaker>SOSKINS.</speaker>
+     <p>Stop that madwoman, or she'll do mischief.</p>
+    </sp>
+    <sp who="#L0205_F10">
+     <speaker>ELIZA.</speaker>
+     <stage>(aside)</stage>
+     <p>I begin to think there's some mistake.</p>
+    </sp>
+    <sp who="#L0205_M3">
+     <speaker>O'PAKE.</speaker>
+     <p>You parsave, sir, that we are liable to interruption at any moment—so, <stage>(presenting
+       pistols)</stage> here, on this very spot, behind the wall outside––</p>
+    </sp>
+    <stage>Re-enter Louisa, followed by two Policemen.</stage>
+    <sp who="#L0205_F9">
+     <speaker>LOUISA.</speaker>
+     <p>There they are—there's one, and there's the other—bind 'em hand and foot.</p>
+    </sp>
+    <stage>Enter Swosser.</stage>
+    <sp who="#L0205_M1">
+     <speaker>SWOSSER.</speaker>
+     <p>Cornelius, if you hurt a hair of his head, it will be impossible for me to arrange that
+      little money affair for you.</p>
+    </sp>
+    <sp who="#L0205_M4">
+     <speaker>SOSKINS.</speaker>
+     <stage>(aside)</stage>
+     <p>Old Swosser ! <stage>(turns back)</stage></p>
+    </sp>
+    <sp who="#L0205_F9">
+     <speaker>LOUISA.</speaker>
+     <p>And now I've saved his life, you may transport him for it as soon as you like.</p>
+    </sp>
+    <sp who="#L0205_M1">
+     <speaker>SWOSSER.</speaker>
+     <p>Transport—who ?</p>
+    </sp>
+    <sp who="#L0205_F9">
+     <speaker>LOUISA.</speaker>
+     <p>Who? why——<stage>(Soskins stops her mouth)</stage></p>
+    </sp>
+    <sp who="#L0205_M1">
+     <speaker>SWOSSER.</speaker>
+     <p>This is Captain Kidd, isn't it ? the young man whose acquaintance I've so long wished to
+      make—whom I've burned to call my son-in-law <stage>(aside)</stage> ever since he came into the
+      fortune.</p>
+    </sp>
+    <sp who="#L0205_F10">
+     <speaker>ELIZA.</speaker>
+     <stage>(aside)</stage>
+     <p>What can this change mean ? Papa, that is not Captain Kidd.</p>
+    </sp>
+    <pb n="17"/>
+    <sp who="#L0205_M1">
+     <speaker>SWOSSER.</speaker>
+     <p>No; then where is the dear Captain ? Let me press him to my heart.</p>
+    </sp>
+    <sp who="#L0205_M3">
+     <speaker>O'PAKE.</speaker>
+     <p>Faith, there's no Captain in the case—that's the man she was running away with.</p>
+    </sp>
+    <sp who="#L0205_F10">
+     <speaker>ELIZA.</speaker>
+     <p>No, it isn't.</p>
+    </sp>
+    <sp who="#L0205_F9">
+     <speaker>LOUISA.</speaker>
+     <p>Well, of all the young brazen-faced <stage>(Soskins stops her)</stage></p>
+    </sp>
+    <sp who="#L0205_F10">
+     <speaker>ELIZA.</speaker>
+     <p>There is some mistake, papa, I never saw that person before in the whole course of my
+      life.</p>
+    </sp>
+    <sp who="#L0205_M3">
+     <speaker>O'PAKE.</speaker>
+     <p>Then, bedad, ye'd got mighty intimate on a short acquaintance.</p>
+    </sp>
+    <sp who="#L0205_M1">
+     <speaker>SWOSSER.</speaker>
+     <p>What do I hear ?</p>
+    </sp>
+    <sp who="#L0205_M3">
+     <speaker>O'PAKE.</speaker>
+     <p>Sure, I saw her kiss him.</p>
+    </sp>
+    <sp who="#L0205_M1">
+     <speaker>SWOSSER.</speaker>
+     <p>What ?</p>
+    </sp>
+    <sp who="#L0205_M3">
+     <speaker>O'PAKE.</speaker>
+     <p>And fall on his bosom, and spake of the sacrifices she'd made for 'un.</p>
+    </sp>
+    <sp who="#L0205_F9">
+     <speaker>LOUISA.</speaker>
+     <p>She did; and it's all true.</p>
+    </sp>
+    <sp who="#L0205_M1">
+     <speaker>SWOSSER.</speaker>
+     <p>The abandoned hussey, to run away with another man, and Captain Kidd's uncle just dead, and
+      left him ten thousand a year. Who are you, sir ? <stage>(Soskins silent)</stage> Why don't you
+      speak ?</p>
+    </sp>
+    <sp who="#L0205_M4">
+     <speaker>SOSKINS.</speaker>
+     <stage>(aside)</stage>
+     <p>If I do it's all up.</p>
+    </sp>
+    <sp who="#L0205_M1">
+     <speaker>SWOSSER.</speaker>
+     <p>Why don't you show your face ? <stage>(turning him round— Soskins shows his face very much
+       distorted)</stage> And she could throw herself away on such an object ?</p>
+    </sp>
+    <sp who="#L0205_F9">
+     <speaker>LOUISA.</speaker>
+     <p>What, don't you know him ?</p>
+    </sp>
+    <sp who="#L0205_M1">
+     <speaker>SWOSSER.</speaker>
+     <p>Well, the face seems familiar; but I can't positively say I ever saw him before.</p>
+    </sp>
+    <sp who="#L0205_M2">
+     <speaker>KIDD.</speaker>
+     <stage>(coming forward)</stage>
+     <p>Excuse the interruption of a stranger, sir, but was the uncle of the Captain Kidd you
+      alluded to named Higgins ?</p>
+    </sp>
+    <sp who="#L0205_M1">
+     <speaker>SWOSSER.</speaker>
+     <p>It was—he was my client.</p>
+    </sp>
+    <sp who="#L0205_M2">
+     <speaker>KIDD.</speaker>
+     <p>And there was no will?</p>
+    </sp>
+    <sp who="#L0205_M1">
+     <speaker>SWOSSER.</speaker>
+     <p>There was one executed an hour before his death in the Captain's favour.</p>
+    </sp>
+    <sp who="#L0205_M2">
+     <speaker>KIDD.</speaker>
+     <stage>(to O'Pake)</stage>
+     <p>Then, sir, do your worst—I am Captain Kidd.</p>
+    </sp>
+    <sp who="#L0205_M3">
+     <speaker>O'PAKE.</speaker>
+     <p>What the devil is that to me ?</p>
+    </sp>
+    <sp who="#L0205_M2">
+     <speaker>KIDD.</speaker>
+     <p>Why, sir, as by your own stupidity, you let out this morning that you were a bailiff in
+      pursuit of me.</p>
+    </sp>
+    <sp who="#L0205_M3">
+     <speaker>O'PAKE.</speaker>
+     <stage>(breaking from Policeman, and seizing pistol from Soskins)</stage>
+     <p>Stupidity—bailiff, choose your weapon !</p>
+    </sp>
+    <sp who="#L0205_M1">
+     <speaker>SWOSSER.</speaker>
+     <stage>(stopping him)</stage>
+     <p>Cornelius, if ever you expect me to help you through the Insolvent Court <stage>(O'Pake
+       stops)</stage> My dear Captain I'm delighted to see you, my daughter is yours.</p>
+    </sp>
+    <sp who="#L0205_M2">
+     <speaker>KIDD.</speaker>
+     <p>Pardon me, after the discovery that has just been made.</p>
+    </sp>
+    <sp who="#L0205_F10">
+     <speaker>ELIZA.</speaker>
+     <stage>(aside)</stage>
+     <p>And pardon me, as I happened to have heard something this morning of the Captain's moral
+      character.</p>
+    </sp>
+    <sp who="#L0205_M2">
+     <speaker>KIDD.</speaker>
+     <p>Madam.</p>
+    </sp>
+    <sp who="#L0205_F10">
+     <speaker>ELIZA.</speaker>
+     <p>I resign the Captain to one who has superior claims upon him, and who has expressed her
+      willingness to beg for his moustache even in the hour of trial. <stage>(drawing Louisa very
+       much astonished towards him)</stage></p>
+    </sp>
+    <pb n="18"/>
+    <sp who="#L0205_M4">
+     <speaker>SOSKINS.</speaker>
+     <stage>(wildly—losing all self-possession—following her)</stage>
+     <p>It can't be ! No, Louisa, your passion for moustachers cannot have led you to such an
+      excess!—say that it is false ! <stage>(all look astonished)</stage></p>
+    </sp>
+    <sp who="#L0205_F9">
+     <speaker>LOUISA.</speaker>
+     <p>Anthony—can you believe it ? As if I would beg for anybody's moustache but yours!</p>
+    </sp>
+    <sp who="#L0205_M4">
+     <speaker>SOSKINS.</speaker>
+     <p>Then fate, and old Swosser! I defy you both! <stage>(to Kidd)</stage> Sir, I shall be able
+      to give you legal and satisfactory proofs that I never saw Miss Swosser in my life till to-day
+      !</p>
+    </sp>
+    <sp who="#L0205_M1">
+     <speaker>SWOSSER.</speaker>
+     <p>Where have I heard that voice ?</p>
+    </sp>
+    <sp who="#L0205_M4">
+     <speaker>SOSKINS.</speaker>
+     <p>Louisa, my love, come here! <stage>(Louisa approaches)</stage> I am about to make a clean
+      bosom.</p>
+    </sp>
+    <sp who="#L0205_F9">
+     <speaker>LOUISA.</speaker>
+     <stage>(tenderly)</stage>
+     <p>Don't crimimate yourself in the eyes of the law, Anthony!</p>
+    </sp>
+    <sp who="#L0205_M4">
+     <speaker>SOSKINS.</speaker>
+     <p>In the eyes of the law <stage>(looking at Swosser)</stage> I am all right —but I wish to be
+      equally so in yours, which are much nicer eyes. Louisa, you love me ?</p>
+    </sp>
+    <sp who="#L0205_F9">
+     <speaker>LOUISA.</speaker>
+     <p>Oh, Anthony, can you doubt it!</p>
+    </sp>
+    <sp who="#L0205_M4">
+     <speaker>SOSKINS.</speaker>
+     <p>No—no, you have stood by me through danger and suspicion, you have said you would beg for my
+      moustache in the hour of trial.</p>
+    </sp>
+    <sp who="#L0205_F9">
+     <speaker>LOUISA.</speaker>
+     <p>Yes, Anthony, if you were in trouble and obliged to part with it!</p>
+    </sp>
+    <sp who="#L0205_M4">
+     <speaker>SOSKINS.</speaker>
+     <p>Such devotion should not go unrewarded ! I am not in any serious trouble, Louisa, but if you
+      would like it—<stage>(takes it off and gives it)</stage> there it is, <stage>(to
+       Swosser)</stage> and if you have any commands for the office, sir—</p>
+    </sp>
+    <sp who="#L0205_M1">
+     <speaker>SWOSSER.</speaker>
+     <p>My clerk, Soskins, in moustache !</p>
+    </sp>
+    <sp who="#L0205_F9">
+     <speaker>LOUISA.</speaker>
+     <p>And was this the extent of your falsehood, Anthony ?</p>
+    </sp>
+    <sp who="#L0205_M4">
+     <speaker>SOSKINS.</speaker>
+     <p>All that was false about me!</p>
+    </sp>
+    <sp who="#L0205_F9">
+     <speaker>LOUISA.</speaker>
+     <p>I will never part with it.</p>
+    </sp>
+    <sp who="#L0205_M2">
+     <speaker>KIDD.</speaker>
+     <p>Eliza!</p>
+    </sp>
+    <sp who="#L0205_F10">
+     <speaker>ELIZA.</speaker>
+     <p>Altamont!</p>
+    </sp>
+    <sp who="#L0205_M4">
+     <speaker>SOSKINS.</speaker>
+     <p>Louisa!</p>
+    </sp>
+    <sp who="#L0205_F9">
+     <speaker>LOUISA.</speaker>
+     <stage>(comes forward)</stage>
+     <p>If it be true, that a good face needs no whiskers, 'tis true that a good farce needs no tag—
+      yet to good faces they do use good bushes, and good farces prove the better by the help of
+      good tags. What a fix am I in then— that cannot offer you a good tag, which is the very tip
+      and imperial of a piece; to insinuate with you in behalf of a barefaced farce. My way is to
+      conjure you, and I'll begin with the women—I charge you, O women, for the love you bear to
+      moustaches, to like this play as an advocate for their growing—and I charge you, O men, for
+      the anxiety you have to grow moustaches, and I perceive by your simpering none of you have any
+      objection, that on the hundredth night I would kiss as many of you as had beards that pleased
+      me, moustaches that liked me, and whiskers that were dyed not; and I am sure as many as can
+      grow beards, or good whiskers, or sweet moustache, will, for my kind offer, when I make
+      curtsey, bid me farewell!</p>
+    </sp>
+    <stage>Curtain.</stage>
+   </div>
+   <trailer>Thomas Scott, Printer, 1, Warwick Court, Holborn.</trailer>
+  </body>
+ </text>
+</TEI>

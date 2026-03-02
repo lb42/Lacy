@@ -149,7 +149,7 @@ Processing <xsl:value-of
    <xsl:value-of select="document('/home/lou/Public/Lacy/authorListPlus.xml')//person[@n = $authLink]/@xml:id"/>
   </xsl:otherwise></xsl:choose>
 </xsl:variable>
- <xsl:variable name="wikiNum" select="document('/home/lou/Public/Lacy/authorListPlus.xml')//person[@xml:id eq $persNum]/listBibl/bibl/idno[@type='wikidata']"/>
+ <xsl:variable name="wikiNum" select="document('/home/lou/Public/Lacy/authorList.xml')//person[@xml:id eq $persNum]/listBibl/bibl/idno[@type='wikidata']"/>
  <xsl:message>Author: <xsl:value-of select="$fileAuth"/> -  <xsl:value-of select="$authLink"/> -  <xsl:value-of select="$persNum"/>   -  <xsl:value-of select="$wikiNum"/>  </xsl:message>
  <xsl:if test="not(starts-with($wikiNum,'Q'))">
   <xsl:message>No wikidata entry for <xsl:value-of select="$fileAuth"/></xsl:message>
