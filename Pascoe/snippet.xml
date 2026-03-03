@@ -1,0 +1,881 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng"
+  type="application/xml" schematypens="http://relaxng.org/ns/structure/grammar"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>The Dramatic List: A Record of the Performances of Living Actors and Actresses of the British Stage</title>
+        <editor>
+          <persName>
+            <forename>Charles</forename>
+            <forename>E.</forename>
+            <surname>Pascoe</surname>
+          </persName>
+        </editor>
+        <respStmt>
+          <resp>TEI encoding</resp>
+          <name>Encoded with TEI tagging for persons, plays, and theatres</name>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>Revised and Enlarged Edition</edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>The Temple Publishing Company</publisher>
+        <pubPlace>London</pubPlace>
+        <date when="1880"/>
+        <idno type="URL">http://www.archive.org/details/cu31924027117898</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>The Dramatic List</title>
+          <editor>Charles E. Pascoe</editor>
+          <publisher>The Temple Publishing Company</publisher>
+          <pubPlace>London, 6 Bookseller's Row</pubPlace>
+          <date when="1880"/>
+          <idno type="Cornell">PN 2597.P28 1880</idno>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>This TEI encoding marks up personal names (persName), play titles (title type="play"),
+           and theatre names (placeName type="theatre") occurring in the text. The encoding follows
+           TEI P5 guidelines. Play titles are tagged with @type="play"; theatre names with
+           @type="theatre". Personal names are tagged with persName and, where possible, subdivided
+           into forename and surname elements.</p>
+      </projectDesc>
+      <editorialDecl>
+        <p>Original spelling and punctuation have been preserved. Obvious OCR errors in the source
+           text (e.g. garbled passages) are retained as found. Line numbers from the source file
+           are not reproduced.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="en">English</language>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+
+  <text>
+    <front>
+      <titlePage>
+        <docTitle>
+          <titlePart type="main">OUR ACTORS AND ACTRESSES.</titlePart>
+          <titlePart type="sub">THE DRAMATIC LIST</titlePart>
+          <titlePart type="desc">A RECORD OF THE PERFORMANCES OF LIVING ACTORS AND ACTRESSES OF THE BRITISH STAGE</titlePart>
+        </docTitle>
+        <byline>EDITED BY <persName><forename>CHARLES</forename> <forename>E.</forename> <surname>PASCOE</surname></persName></byline>
+        <docEdition>REVISED AND ENLARGED EDITION</docEdition>
+        <docImprint>
+          <publisher>THE TEMPLE PUBLISHING COMPANY</publisher>
+          <pubPlace>London, 6 Bookseller's Row</pubPlace>
+        </docImprint>
+      </titlePage>
+    </front>
+
+    <body>
+      <div type="entries">
+
+        <!-- ============================================================ -->
+        <div type="entry" xml:id="addison_carlotta">
+          <head><persName xml:id="CarlottaAddison"><surname>ADDISON</surname>, <forename>CARLOTTA</forename></persName>
+            (<persName><roleName>Mrs.</roleName> <forename>Charles</forename> <forename>A.</forename> <surname>La Trobe</surname></persName>),</head>
+          <p>younger daughter of the late <persName xml:id="EdwardPhillipsAddison"><forename>Edward</forename> <forename>Phillips</forename> <surname>Addison</surname></persName>, comedian,
+            was born in Liverpool, July 1849. She was educated by her father
+            for the dramatic profession, and as a child played in many juvenile
+            parts in the <placeName type="theatre" xml:id="LiverpoolAmphitheatre">Liverpool Amphitheatre</placeName>.
+            <persName ref="#CarlottaAddison">Miss Carlotta Addison</persName> made
+            her début on the London stage Saturday, October 5, 1866, at the
+            <placeName type="theatre" xml:id="StJamesTheatre">St. James's Theatre</placeName>, under
+            <persName xml:id="MissHerbert">Miss Herbert</persName>'s management, as Lady
+            F. Touchwood, in a revival of <title type="play" xml:id="BellesStratagem">'The Belle's Stratagem'</title>. Subsequently
+            having joined the company of the <placeName type="theatre" xml:id="NewRoyaltyTheatre">New Royalty Theatre</placeName>, in
+            February 1868, <persName ref="#CarlottaAddison">Miss Addison</persName> played there the part of Jessie Bell
+            in a three-act drama by <persName xml:id="Halliday"><surname>Halliday</surname></persName>, entitled <title type="play" xml:id="DaddyGrey">'Daddy Grey'</title>. This
+            was the first part of decided importance that this actress had
+            sustained in London, and indeed more responsible than any of
+            the others, inasmuch as Jessie happens to be the central figure of
+            every situation, and the object of universal sympathy throughout
+            the play. <persName ref="#CarlottaAddison">Miss Addison</persName> showed herself fully equal to the occasion:
+            good speaking, graceful action, pathos, almost tragic but
+            unexaggerated, were noticeable in her impersonation, while she
+            never passed the limits proper to a simple country girl of Jessie's
+            rank in life.</p>
+
+          <p>In 1868 <persName ref="#CarlottaAddison">Miss Carlotta Addison</persName> joined
+            <persName xml:id="MrBancroft">Mr.</persName> and <persName xml:id="MrsBancroft">Mrs. Bancroft</persName>'s
+            company at the <placeName type="theatre" xml:id="PrinceOfWalesTheatre">Prince of Wales's Theatre</placeName>, and in that year, in a
+            revival of <persName xml:id="TWRobertson"><forename>T.</forename> <forename>W.</forename> <surname>Robertson</surname></persName>'s play
+            <title type="play" xml:id="Society">'Society'</title>, sustained the part of Maud Hetherington. At the same theatre, Saturday, January 16,
+            1869, first performance of <persName ref="#TWRobertson">T. W. Robertson</persName>'s comedy entitled
+            <title type="play" xml:id="School">'School'</title>, the part of Bella was sustained by <persName ref="#CarlottaAddison">Miss Carlotta Addison</persName>,
+            "who in showing the good qualities of the pupil-teacher revealed
+            some rare excellencies of the actress. There was not the slightest
+            exaggeration in the display of her emotion, and the exquisite love
+            scene in the third act, so full of purity and tenderness, owed much
+            of its effect to the discreetly subdued style in which it was acted
+            by <persName ref="#CarlottaAddison">Miss Addison</persName> and <persName xml:id="HJMontague"><roleName>Mr.</roleName> <forename>H.</forename> <forename>J.</forename> <surname>Montague</surname></persName>."
+            (<hi rend="italic">Daily Telegraph</hi>, January 25, 1869.)
+            On Saturday, April 23 of the following year,
+            she sustained the part of Ruth Daybrooke in the same author's
+            comedy entitled <title type="play" xml:id="MP">'M.P.'</title>, then first performed at the
+            <placeName type="theatre" ref="#PrinceOfWalesTheatre">Prince of Wales's Theatre</placeName>. After fulfilling an engagement at the
+            <placeName type="theatre" xml:id="GaietyTheatre">Gaiety Theatre</placeName>, on Saturday, October 7, 1871,
+            <persName ref="#CarlottaAddison">Miss Carlotta Addison</persName>
+            appeared at the <placeName type="theatre" xml:id="GlobeTheatre">Globe Theatre</placeName> in a leading role (Fanny Smith),
+            first performance of <persName xml:id="HJByron"><forename>H.</forename> <forename>J.</forename> <surname>Byron</surname></persName>'s comedy
+            <title type="play" xml:id="PartnersForLife">'Partners for Life'</title>. On
+            the 9th of March, 1872, first performance at the same theatre of
+            <persName xml:id="Albery"><surname>Albery</surname></persName>'s play
+            <title type="play" xml:id="Forgiven">'Forgiven'</title>, she sustained the part of Mrs. Redruth;
+            and in the same year, at the same theatre, Mrs. Cuthbert, in a
+            revival of <persName ref="#HJByron">H. J. Byron</persName>'s comedy
+            <title type="play" xml:id="CyrilsSuccess">'Cyril's Success'</title>. In February
+            1873, first performance at the same theatre of <persName ref="#Albery">Mr. Albery</persName>'s comedy
+            <title type="play" xml:id="Oriana">'Oriana'</title>, <persName ref="#CarlottaAddison">Miss C. Addison</persName> acted the part of Peep with great success.
+            The play itself proved unattractive, but <persName ref="#CarlottaAddison">Miss Addison</persName>'s
+            acting in it received unqualified praise. In April 1875, in a revival
+            of <title type="play" xml:id="MerchantOfVenice">'The Merchant of Venice'</title> at the
+            <placeName type="theatre" ref="#PrinceOfWalesTheatre">Prince of Wales's Theatre</placeName>,
+            which proved unsuccessful, though for the most part carefully acted
+            and well put on the stage, she sustained the part of Nerissa; and
+            in October of the same year played the heroine, Ethel Grainger, in
+            <persName ref="#HJByron">Byron</persName>'s comedy
+            <title type="play" xml:id="MarriedInHaste">'Married in Haste'</title>, produced on Saturday, the
+            2nd of that month, at the <placeName type="theatre" xml:id="HaymarketTheatre">Haymarket Theatre</placeName>. A contemporary
+            journal (<hi rend="italic">Athenæum</hi>, October 9, 1875) remarked of this performance
+            that <persName ref="#CarlottaAddison">Miss Carlotta Addison</persName>, as the heroine, had made a distinct
+            stride in her profession. So concentrated and intense was the
+            manner in which she displayed feeling, without going outside the
+            bounds of social custom, that a high position might reasonably be
+            predicted for her as an exponent of realistic drama.</p>
+
+          <p>Since her marriage, in September 1876, <persName ref="#CarlottaAddison">Miss Carlotta Addison</persName>
+            has rarely appeared on the stage. At the
+            <placeName type="theatre" ref="#PrinceOfWalesTheatre">Prince of Wales's Theatre</placeName>,
+            in 1877, she played Grace Harkaway, in a revival of
+            <title type="play" xml:id="LondonAssurance">'London Assurance'</title>; and at the
+            <placeName type="theatre" ref="#HaymarketTheatre">Haymarket Theatre</placeName> on Thursday,
+            October 3, 1878, appeared as Julia in a revival of
+            <title type="play" xml:id="TheRivals">'The Rivals'</title>.</p>
+        </div>
+
+        <!-- ============================================================ -->
+        <div type="entry" xml:id="addison_fanny">
+          <head><persName xml:id="FannyAddison"><surname>ADDISON</surname>, <forename>FANNY</forename></persName>
+            (<persName><roleName>Mrs.</roleName> <forename>H.</forename> <forename>M.</forename> <surname>Pitt</surname></persName>),
+            elder daughter of the late <persName ref="#EdwardPhillipsAddison">Edward Phillips Addison</persName>, comedian,
+            and sister of the above-named <persName ref="#CarlottaAddison">Carlotta Addison</persName></head>
+          <p>, was born in Birmingham December 1847. She was educated by her father for the stage in
+            childhood, and acted frequently at the <placeName type="theatre" xml:id="DoncasterTheatre">Doncaster Theatre</placeName> in
+            children's parts in the intervals between school vacations. At
+            the age of fifteen <persName ref="#FannyAddison">Miss Addison</persName> commenced work in earnest at the
+            <placeName type="theatre" xml:id="TheatreRoyalLiverpool">Theatre Royal</placeName> and
+            <placeName type="theatre" ref="#LiverpoolAmphitheatre">Amphitheatre</placeName> in Liverpool. She subsequently
+            accepted an engagement as "leading lady," first at the
+            <placeName type="theatre" xml:id="NewcastleTheatreRoyal">Newcastle-on-Tyne Theatre Royal</placeName>, and subsequently at the
+            <placeName type="theatre" xml:id="BathTheatre">Bath</placeName> and
+            <placeName type="theatre" xml:id="BristolTheatres">Bristol Theatres</placeName>. She made her first appearance in London, Monday
+            November 19, 1866, at <placeName type="theatre" xml:id="HerMajestysTheatre">Her Majesty's Theatre</placeName> in
+            <persName xml:id="Falconer"><surname>Falconer</surname></persName>'s drama
+            entitled <title type="play" xml:id="Oonagh">'Oonagh'</title>. The part which
+            <persName ref="#FannyAddison">Miss Fanny Addison</persName> sustained
+            in the play was carefully acted, and received very favourable
+            notice from the press. (See, especially, the <hi rend="italic">Morning Star</hi>,
+            November 22, 1866.) The play itself was withdrawn after but
+            few representations. On Thursday, October 24, 1867, on the
+            occasion of the opening of the <placeName type="theatre" xml:id="NewQueensTheatre">New Queen's Theatre, Long Acre</placeName>,
+            London (now relegated to other uses), <persName ref="#FannyAddison">Miss Addison</persName> played the
+            part of Joséphine de Beaurepaire, in the first performance of
+            <title type="play" xml:id="DoubleMarriage">'The Double Marriage'</title>
+            (<persName xml:id="CharlesReade"><forename>Charles</forename> <surname>Reade</surname></persName>), founded on that author's
+            story of <title type="play" xml:id="WhiteLies">'White Lies'</title>. In this play
+            <persName ref="#FannyAddison">Miss Fanny Addison</persName> gave a
+            fine and passionate representation of the heroine. Some portions of
+            her acting were intensely tragic, and all of it was excellent.</p>
+
+          <p>In October 1868 <persName ref="#FannyAddison">Miss Addison</persName> appeared at
+            <placeName type="theatre" xml:id="DruryLaneTheatre">Drury Lane Theatre</placeName>
+            in <persName ref="#Halliday">Halliday</persName>'s drama
+            <title type="play" xml:id="KingOScots">'King o' Scots'</title>, performing the part of
+            Martha Trapbois with considerable effect. This actress's most
+            important and successful London engagements have been as follows,
+            viz.: (1) La Partie in <persName ref="#Halliday">Halliday</persName>'s
+            <title type="play" xml:id="LittleEmly">'Little Em'ly'</title>, produced at the
+            <placeName type="theatre" xml:id="OlympicTheatre">Olympic Theatre</placeName> October 9, 1869, a part which she sustained
+            with great force and earnestness. Her acting was thus commented
+            upon in a London journal: "The highest compliment that could
+            be paid to an artist was certainly paid to <persName ref="#FannyAddison">Miss Addison</persName>. So completely
+            did she identify herself with the terrible Rosa Dartle, and
+            so vile and powerful was her invective, that the audience, forgetting
+            the actress, so oblivious of all canons of conduct,
+            actually hissed her because she acted so supremely well — 
+            was such a paradox heard of. But it was not only in the fierce
+            and unbridled passion that <persName ref="#FannyAddison">Miss Addison</persName> showed herself such
+            a consummate artist. The heart-broken accents in which she
+            tells the frightened girl of her own love for Steerforth were exquisitely
+            touching." (<hi rend="italic">Weekly Dispatch</hi>, October 17, 1869.)
+            (2) Queen Elizabeth in the same author's play of
+            <title type="play" xml:id="AmyRobsart">'Amy Robsart'</title>, produced at
+            <placeName type="theatre" ref="#DruryLaneTheatre">Drury Lane</placeName> September 24, 1870; and
+            (3) the Countess Danischeff in
+            <title type="play" xml:id="TheDanischeffs">'The Danischeffs'</title>, produced at
+            <placeName type="theatre" ref="#StJamesTheatre">St. James's Theatre</placeName>,
+            January 6, 1877. At intervals between her London engagements
+            <persName ref="#FannyAddison">Miss Addison</persName> has played in the provinces as "star leading lady"
+            of the so-called 'Two Roses,' the 'Caste,' and the Pitt-and-Hamilton
+            Comedy Companies, of the latter of which her husband is joint
+            manager.</p>
+        </div>
+
+        <!-- ============================================================ -->
+        <div type="entry" xml:id="amalia_miss">
+          <head><persName xml:id="MissAmalia"><surname>AMALIA</surname>, <roleName>MISS</roleName></persName></head>
+          <p>, burlesque actress, made her début on the
+            London stage at the <placeName type="theatre" xml:id="SurreyTheatre">Surrey Theatre</placeName>, December 26, 1869, in the
+            pantomime of <title type="play" xml:id="StGeorgeAndTheDragon">'St. George and the Dragon'</title>. She subsequently
+            played in other pantomimes, securing, conjointly with
+            <persName xml:id="VioletCameron"><forename>Miss</forename> <forename>Violet</forename> <surname>Cameron</surname></persName>,
+            the full honours of the evening on December 27, 1873, at
+            <placeName type="theatre" ref="#DruryLaneTheatre">Drury Lane Theatre</placeName>, "for her acting and singing in a ballad called
+            'Buttercup Green,'" introduced into the burlesque opening. More
+            recently <persName ref="#MissAmalia">Miss Amalia</persName> has been engaged at the
+            <placeName type="theatre" ref="#GaietyTheatre">Gaiety</placeName>, and has
+            played in many of the extravaganzas of
+            <persName ref="#HJByron">Mr. Byron</persName> on which that
+            theatre mainly, and for the most part profitably, relies as its principal
+            attraction.</p>
+        </div>
+
+        <!-- ============================================================ -->
+        <div type="entry" xml:id="anderson_james_r">
+          <head><persName xml:id="JamesAnderson"><surname>ANDERSON</surname>, <forename>JAMES</forename> <forename>R.</forename></persName></head>
+          <p> was born in Glasgow, May 8, 1811.
+            In the early part of his professional career he "strolled" as a
+            member of the company of the <placeName type="theatre" xml:id="TheatreRoyalEdinburgh">Theatre Royal, Edinburgh</placeName>, under
+            <persName xml:id="WilliamMurray"><roleName>Mr.</roleName> <forename>William</forename> <surname>Murray</surname></persName>;
+            on the Nottingham Circuit with
+            <persName xml:id="TomManly"><roleName>Mr.</roleName> <forename>Tom</forename> <surname>Manly</surname></persName>;
+            and as a member of the
+            <placeName type="theatre" xml:id="TheatreRoyalNewcastle">Theatre Royal, Newcastle-on-Tyne</placeName>,
+            Company with <persName xml:id="SamPenley"><roleName>Mr.</roleName> <forename>Sam</forename> <surname>Penley</surname></persName>.
+            <persName ref="#JamesAnderson">Mr. Anderson</persName> was
+            manager of the
+            <placeName type="theatre" xml:id="LeicesterTheatre">Leicester</placeName>,
+            <placeName type="theatre" xml:id="GloucesterTheatre">Glo'ster</placeName>, and
+            <placeName type="theatre" xml:id="CheltenhamTheatre">Cheltenham Theatres</placeName>
+            in 1834–5–6, and at the latter theatre first met
+            <persName xml:id="WilliamMacready"><roleName>Mr.</roleName> <forename>William</forename> <surname>Macready</surname></persName>,
+            who offered him an engagement.
+            <persName ref="#JamesAnderson">Mr. Anderson</persName> made
+            his début in London 30th September, 1837, at the
+            <placeName type="theatre" xml:id="CoventGardenTheatre">Theatre Royal, Covent Garden</placeName>, under
+            <persName ref="#WilliamMacready">Mr. Macready</persName>'s management, in the part
+            of Florizel (<title type="play" xml:id="WintersTale">'A Winter's Tale'</title>), winning golden opinions for the
+            ease and propriety of his demeanour and delivery.</p>
+
+          <p>His next appearance was in
+            <title type="play" xml:id="TheNovice">'The Novice'</title>, a dramatic piece,
+            which did not prove successful. The following year, May 23, 1838,
+            <persName ref="#JamesAnderson">Mr. Anderson</persName> played the part of Sir Valentine de Grey in an
+            original drama by
+            <persName xml:id="SheridanKnowles"><forename>Sheridan</forename> <surname>Knowles</surname></persName>, then for the first time performed
+            at <placeName type="theatre" ref="#CoventGardenTheatre">Covent Garden Theatre</placeName>, entitled
+            <title type="play" xml:id="WomansWit">'Woman's Wit; or, Love's Disguises'</title>.
+            Thursday, March 7, 1839, at the same theatre,
+            he personated Chevalier de Mauprat, on the occasion of the first
+            performance of <persName xml:id="LordLytton">Lord Lytton</persName>'s play of
+            <title type="play" xml:id="Richelieu">'Richelieu'</title> with
+            <persName ref="#WilliamMacready">Macready</persName>,
+            <persName xml:id="Warde"><surname>Warde</surname></persName>,
+            <persName xml:id="Phelps"><surname>Phelps</surname></persName>,
+            <persName xml:id="Howe"><surname>Howe</surname></persName>, and
+            <persName xml:id="HelenFaucit"><forename>Helen</forename> <surname>Faucit</surname></persName>
+            in the principal characters. The performers exerted themselves so as to render selection
+            for praise impossible. "Each seemed in possession of, and
+            able to realize, the character that was professedly personated. …
+            The irritability, the extremes of feeling, the vivacity and the
+            earnestness of De Mauprat, were effectively presented by
+            <persName ref="#JamesAnderson">Mr. Anderson</persName>." (<hi rend="italic">Morning Chronicle</hi>, March 8, 1839.)
+            At the opening of <placeName type="theatre" ref="#CoventGardenTheatre">Covent Garden Theatre</placeName> under the
+            <persName xml:id="Vestris">Vestris</persName>–<persName xml:id="CMathews">Mathews</persName> management,
+            September 30, 1839, he played the part of Biron
+            (<title type="play" xml:id="LovesLabourLost">'Love's Labour Lost'</title>);
+            and on March 16, 1840, for the first time, the
+            character of Romeo at the same theatre. In September of the same
+            year <persName ref="#JamesAnderson">Mr. Anderson</persName> acted Fernando, in the first performance of
+            <persName ref="#SheridanKnowles">Sheridan Knowles</persName>'s play
+            <title type="play" xml:id="JohnOfProcida">'John of Procida'</title>. He was also the
+            "original" Charles Courtly of
+            <title type="play" ref="#LondonAssurance">'London Assurance'</title>, by
+            <persName xml:id="DionBoucicault"><forename>Dion</forename> <surname>Boucicault</surname></persName>,
+            first performed at <placeName type="theatre" ref="#CoventGardenTheatre">Covent Garden Theatre</placeName> May 4, 1841.
+            Notwithstanding the not too favourable criticisms of the London
+            press, this play was one of the most signal successes of the Vestris–Mathews
+            management of that theatre. The <hi rend="italic">Examiner</hi>, March 7,
+            1841, thus remarked upon the individual merits of the players
+            in the original cast: "The degree of merit that appeared in the
+            acting of the piece was a test of the incapacity of the actors
+            for anything higher or better; a melancholy exhibition of the state
+            of the stage. We would except from this remark
+            <persName ref="#JamesAnderson">Mr. Anderson</persName>,
+            whose part was unsuited to him;
+            <persName xml:id="Keeley"><roleName>Mr.</roleName> <surname>Keeley</surname></persName>,
+            who is always an admirable comedian; and we are surprised to find ourselves add
+            <persName ref="#CMathews">Mr. Mathews</persName>."</p>
+
+          <p>In January 1842 <persName ref="#JamesAnderson">Mr. Anderson</persName> took part at
+            <placeName type="theatre" ref="#DruryLaneTheatre">Drury Lane Theatre</placeName>
+            in the opening performance which inaugurated
+            <persName ref="#WilliamMacready">Mr. Macready</persName>'s management,
+            sustaining the part of Bassanio (<title type="play" ref="#MerchantOfVenice">'Merchant of Venice'</title>).
+            During the month of February 1842 his name appeared in the
+            original cast of
+            <persName xml:id="DouglasJerrold"><forename>Douglas</forename> <surname>Jerrold</surname></persName>'s comedy
+            <title type="play" xml:id="PrisonersOfWar">'The Prisoners of War'</title>;
+            and on the 23rd of the same month he played Titus Quintus
+            Fulvius, in the drama of
+            <title type="play" xml:id="Gisippus">'Gisippus'</title>
+            (<persName xml:id="GeraldGriffin"><forename>Gerald</forename> <surname>Griffin</surname></persName>),
+            at its first performance at the same theatre,
+            <persName ref="#WilliamMacready">Mr. Macready</persName> being in the title role.
+            <persName ref="#JamesAnderson">Mr. Anderson</persName> earned special praise for his performance
+            in the last act. It was stated that his choking voice when he
+            recognized the sword of Gisippus, and the horror that spread over
+            his features and shuddered through his frame, as he staggered wildly
+            off to rescue his friend, suggested much greater powers in
+            <persName ref="#JamesAnderson">Mr. Anderson</persName> than he had ever given any indication of before. He
+            obtained repeated plaudits.</p>
+
+          <p>Monday, May 23, 1842, was the closing night of
+            <persName ref="#WilliamMacready">Macready</persName>'s first
+            season at <placeName type="theatre" ref="#DruryLaneTheatre">Drury Lane</placeName>,
+            and <persName ref="#JamesAnderson">Mr. Anderson</persName> played Othello then for
+            the first time. He had been a rising star ever since he made his
+            first appearance at <placeName type="theatre" ref="#CoventGardenTheatre">Covent Garden</placeName> under
+            <persName ref="#WilliamMacready">Mr. Macready</persName>'s management.
+            Said the <hi rend="italic">Times</hi>, May 24, 1842: "<persName ref="#JamesAnderson">Mr. Anderson</persName>'s Othello
+            last night was what might have been expected from him …."</p>
+
+          <p>During the season 1842–3, at
+            <placeName type="theatre" ref="#DruryLaneTheatre">Drury Lane</placeName>
+            (the second of <persName ref="#WilliamMacready">Mr. Macready</persName>'s management),
+            <persName ref="#JamesAnderson">Mr. Anderson</persName> played the following leading
+            parts, viz. Orlando in
+            <title type="play" xml:id="AsYouLikeIt">'As You Like It'</title>;
+            Captain Absolute in
+            <title type="play" ref="#TheRivals">'The Rivals'</title>;
+            Harry Dornton in
+            <title type="play" xml:id="RoadToRuin">'The Road to Ruin'</title>;
+            Faulconbridge in
+            <title type="play" xml:id="KingJohn">'King John'</title>;
+            Posthumus in
+            <title type="play" xml:id="Cymbeline">'Cymbeline'</title>.
+            On February 11, 1843,
+            <persName xml:id="MrBrowning"><roleName>Mr.</roleName> <surname>Browning</surname></persName>'s
+            poetic melodrama
+            <title type="play" xml:id="ABlotOnTheScutcheon">'A Blot on the Scutcheon'</title>
+            was first performed at <placeName type="theatre" ref="#DruryLaneTheatre">Drury Lane</placeName>,
+            and <persName ref="#JamesAnderson">Mr. Anderson</persName>
+            sustained the character of Earl Mertoun; and on the 24th of April
+            following, being the night of the first performance of
+            <persName ref="#SheridanKnowles">Sheridan Knowles</persName>'s
+            <title type="play" xml:id="TheSecretary">'The Secretary'</title>, the title role. The following season,
+            1843–4, <persName ref="#JamesAnderson">Mr. Anderson</persName> was engaged at
+            <placeName type="theatre" ref="#CoventGardenTheatre">Covent Garden Theatre</placeName>,
+            playing Shakespearian characters alternately with
+            <persName xml:id="Vandenhoff"><surname>Vandenhoff</surname></persName> and
+            <persName ref="#Phelps"><surname>Phelps</surname></persName>,
+            viz., Othello, Iago, Cassio, &amp;c.
+            On October 20, 1845, at a
+            performance of <persName ref="#LordLytton">Lord Lytton</persName>'s play of
+            <title type="play" xml:id="LadyOfLyons">'The Lady of Lyons'</title> at the
+            <placeName type="theatre" ref="#HaymarketTheatre">Haymarket Theatre</placeName>,
+            <persName ref="#JamesAnderson">Mr. Anderson</persName> sustained the part of Claude
+            Melnotte with care and tact.</p>
+
+          <p>During the years 1846–7, and part of the year 1848,
+            <persName ref="#JamesAnderson">Mr. Anderson</persName>
+            fulfilled various engagements in the United States, opening in
+            the part of Othello at the
+            <placeName type="theatre" xml:id="ParkTheatreNY">Park Theatre, New York</placeName>.
+            Returning to England in 1848 he made a professional tour of the provinces
+            in the early part of 1849, in company with
+            <persName xml:id="MissHuddart">Miss Huddart</persName>
+            (<persName xml:id="MrsWarner"><roleName>Mrs.</roleName> <surname>Warner</surname></persName>),
+            acting with great success in Birmingham, Manchester,
+            Liverpool, Dublin, Edinburgh, and Glasgow. Following this he
+            became manager of the
+            <placeName type="theatre" ref="#DruryLaneTheatre">Theatre Royal, Drury Lane</placeName>,
+            and "opened" December 26, 1849, with
+            Shakespeare's <title type="play" ref="#MerchantOfVenice">'Merchant of Venice'</title>,
+            and the pantomime of
+            <title type="play" xml:id="GoodQueenBess">'Good Queen Bess'</title>.
+            Among his company were included
+            <persName ref="#Vandenhoff">Mr. Vandenhoff</persName> and
+            <persName xml:id="MrsNisbett"><roleName>Mrs.</roleName> <surname>Nisbett</surname></persName>.</p>
+
+          <p>In the year 1850 <persName ref="#JamesAnderson">Mr. Anderson</persName> produced various plays at
+            <placeName type="theatre" ref="#DruryLaneTheatre">Drury Lane Theatre</placeName>,
+            principally of the Shakespearian and poetic drama —
+            <title type="play" ref="#AsYouLikeIt">'As You Like It'</title>;
+            <title type="play" xml:id="Othello">'Othello'</title>;
+            <title type="play" xml:id="TheHunchback">'The Hunchback'</title>;
+            <persName xml:id="BeaumontAndFletcher">Beaumont and Fletcher</persName>'s
+            <title type="play" xml:id="ElderBrother">'The Elder Brother; or, Love at First Sight'</title>;
+            <persName xml:id="Blanche"><surname>Blanche</surname></persName>'s
+            adaptation of <persName xml:id="Schiller"><surname>Schiller</surname></persName>'s
+            <title type="play" xml:id="Fiesco">'Fiesco'</title>, &amp;c. In the following year, on
+            January 16, he produced an original comedy,
+            <title type="play" xml:id="OldLoveAndNew">'The Old Love and the New'</title>
+            (<persName xml:id="Sullivan"><surname>Sullivan</surname></persName>),
+            in which he played the part of Captain Sidney Courtoun.
+            His next production was a drama entitled
+            <title type="play" xml:id="AzaelTheProdigal">'Azael, the Prodigal'</title>,
+            founded on
+            <persName xml:id="Scribe">M. Scribe</persName> and
+            <persName xml:id="Auber"><surname>Auber</surname></persName>'s
+            <title type="play" xml:id="LEnfantProdigue">'L'Enfant Prodigue'</title>.
+            The English adaptation of this play, first performed at
+            <placeName type="theatre" ref="#DruryLaneTheatre">Drury Lane</placeName>
+            on Wednesday, February 19, 1851. <persName ref="#JamesAnderson">Mr. Anderson</persName> played Azael,
+            the son; <persName ref="#Vandenhoff">Mr. Vandenhoff</persName> the part of Reuben, the father.
+            In April, 1851, the bill was changed, and the management produced
+            <title type="play" xml:id="QueenOfSpades">'The Queen of Spades'</title>
+            (<persName ref="#DionBoucicault">Boucicault</persName>), founded on a French piece,
+            <title type="play" xml:id="LaDameDePique">'La Dame de Pique'</title>.
+            In June 1851 <persName ref="#JamesAnderson">Mr. Anderson</persName> produced another successful
+            play, viz., <persName xml:id="Lovell"><surname>Lovell</surname></persName>'s
+            <title type="play" xml:id="Ingomar">'Ingomar'</title>,
+            in which he sustained the title role. On the 24th of the same month
+            <persName ref="#JamesAnderson">Mr. Anderson</persName> retired from the management of
+            <placeName type="theatre" ref="#DruryLaneTheatre">Drury Lane Theatre</placeName>.</p>
+
+          <p><persName ref="#JamesAnderson">Mr. Anderson</persName> began his career as a "star" actor at the
+            <placeName type="theatre" xml:id="BritanniaTheatre">Britannia Theatre</placeName>, under the management of
+            <persName xml:id="SamLane"><roleName>Mr.</roleName> <forename>Sam</forename> <surname>Lane</surname></persName>,
+            November 3, 1851. Afterwards he went to the
+            <placeName type="theatre" xml:id="CityOfLondonTheatre">City of London Theatre</placeName>.
+            In 1853 he fulfilled an engagement at the
+            <placeName type="theatre" xml:id="StrandTheatre">Strand Theatre</placeName>,
+            appearing there Monday, January 17, in a piece
+            originally produced at the <placeName type="theatre" ref="#CityOfLondonTheatre">City of London Theatre</placeName>,
+            and written by <persName xml:id="JohnWilkins"><forename>John</forename> <surname>Wilkins</surname></persName>,
+            under the title <title type="play" xml:id="Civilization">'Civilization'</title>.
+            The play was founded on <persName xml:id="Voltaire"><surname>Voltaire</surname></persName>'s
+            <title type="play" xml:id="LIngenu">'L'Ingénu'</title>.</p>
+
+          <p>In the year 1853 <persName ref="#JamesAnderson">Mr. Anderson</persName> again went to America, and
+            opened at the old
+            <placeName type="theatre" xml:id="BroadwayTheatre">Broadway Theatre in New York</placeName>.
+            In 1854 he had returned to England and was acting at the
+            <placeName type="theatre" xml:id="StandardTheatre">Standard Theatre, London</placeName>.
+            And he continued to perform at the same theatre, renamed the
+            <placeName type="theatre" xml:id="NewNationalStandardTheatre">New National Standard Theatre</placeName>.
+            In November 1856 he revisited the United States, playing for some part of the time at
+            <placeName type="theatre" xml:id="WallacksTheatre">Wallack's Theatre, New York</placeName>.
+            In 1863 <persName ref="#JamesAnderson">Mr. Anderson</persName> joined
+            <persName xml:id="RichardShepherd"><roleName>Mr.</roleName> <forename>Richard</forename> <surname>Shepherd</surname></persName>
+            as part manager at the
+            <placeName type="theatre" ref="#SurreyTheatre">Surrey Theatre</placeName>,
+            which was unfortunately destroyed by fire in February 1865.
+            During this joint management <persName ref="#JamesAnderson">Mr. Anderson</persName> produced his own stirring drama of
+            <title type="play" xml:id="TheScottishChief">'The Scottish Chief'</title>,
+            and Shakespeare's
+            <title type="play" xml:id="SecondPartKingHenryVI">'Second Part of King Henry VI'</title>
+            (the Wars of the Roses). In 1873–4 he once again appeared on
+            the boards of <placeName type="theatre" ref="#DruryLaneTheatre">Drury Lane</placeName>,
+            as Antony (<title type="play" xml:id="AntonyAndCleopatra">'Antony and Cleopatra'</title>),
+            and as Richard Cœur de Lion in an adaptation of
+            <persName xml:id="WalterScott"><forename>Sir</forename> <forename>Walter</forename> <surname>Scott</surname></persName>'s
+            <title type="play" xml:id="Talisman">'Talisman'</title>.</p>
+        </div>
+
+        <!-- ============================================================ -->
+        <div type="entry" xml:id="andrews_albert_garcia">
+          <head><persName xml:id="AlbertAndrews"><surname>ANDREWS</surname>, <forename>ALBERT</forename> <forename>GARCIA</forename></persName></head>
+          <p>, was born at Buffalo, New York, U.S.A., and was educated in France and at the College of
+            the City of New York. He has been more or less engaged in
+            dramatic affairs since boyhood, under the guidance and instruction
+            of his father, the late
+            <persName xml:id="MAAndrews"><forename>M.</forename> <forename>A.</forename> <surname>Andrews</surname></persName>,
+            who was for some years professionally connected with the
+            <placeName type="theatre" ref="#HaymarketTheatre">Haymarket Theatre</placeName>.
+            <persName ref="#AlbertAndrews">Mr. Andrews</persName>'s first important appearance on the stage was at the
+            <placeName type="theatre" xml:id="GaietyDublin">Gaiety Theatre, Dublin</placeName>,
+            with the so-called 'Chippendale Comedy Company,' on April 17, 1876.
+            He then became a member of the "stock" company at the
+            <placeName type="theatre" ref="#TheatreRoyalNewcastle">Theatre Royal, Newcastle-on-Tyne</placeName>.
+            Subsequently, June 1877, he joined the Haymarket company on tour,
+            and "opened" as Crabtree in
+            <title type="play" xml:id="SchoolForScandal">'The School for Scandal'</title>,
+            to <persName xml:id="JBBuckstone"><forename>Mr.</forename> <forename>J.</forename> <forename>B.</forename> <surname>Buckstone</surname></persName>'s
+            Sir Benjamin Backbite. Whilst with the same company
+            <persName ref="#AlbertAndrews">Mr. Andrews</persName> played such characters as Careless, Fag, and David in
+            <title type="play" ref="#TheRivals">'The Rivals'</title>;
+            Cool in <title type="play" ref="#LondonAssurance">'London Assurance'</title>;
+            Captain Smart in
+            <title type="play" xml:id="OverlandRoute">'Overland Route'</title>, &amp;c.
+            His first appearance on the London stage was made December 1877 at the
+            <placeName type="theatre" ref="#NewNationalStandardTheatre">National Standard Theatre</placeName>
+            in the aforesaid part of Captain Smart. Subsequently he was engaged
+            by the management of the
+            <placeName type="theatre" xml:id="LyceumTheatre">Lyceum Theatre</placeName>
+            to play in the revival by
+            <persName xml:id="HenryIrving"><roleName>Mr.</roleName> <forename>Henry</forename> <surname>Irving</surname></persName>
+            of <title type="play" xml:id="LouisXI">'Louis XI.'</title>,
+            and sustained therein the character of The Dauphin, March 9, 1878.
+            <persName ref="#AlbertAndrews">Mr. Andrews</persName> is still (1879) a member of the company of the same theatre,
+            having recently personated the part of Second Gravedigger in the revival of
+            <title type="play" xml:id="Hamlet">'Hamlet'</title>.</p>
+        </div>
+
+        <!-- ============================================================ -->
+        <div type="entry" xml:id="anson_george_william">
+          <head><persName xml:id="GeorgeAnson"><surname>ANSON</surname>, <forename>GEORGE</forename> <forename>WILLIAM</forename></persName>,
+            son of the undermentioned <persName xml:id="JohnWilliamAnson"><forename>John</forename> <forename>William</forename> <surname>Anson</surname></persName></head>
+          <p>, was born in Montrose, N.B., November 25, 1847. He first appeared on the stage in December 1865 at the
+            <placeName type="theatre" ref="#TheatreRoyalEdinburgh">Theatre Royal, Edinburgh</placeName>,
+            and had achieved some success in the provinces (notably at Liverpool) as a "character actor"
+            previous to his début in London, which took place at the
+            <placeName type="theatre" ref="#OlympicTheatre">Olympic Theatre</placeName>,
+            October 4, 1873, in the part of Minadab in
+            <persName ref="#HJByron">H. J. Byron</persName>'s four-act comedy
+            <title type="play" xml:id="SourGrapes">'Sour Grapes'</title>.
+            In the following year, in February, he performed the role of Verges in a revival at the
+            <placeName type="theatre" ref="#OlympicTheatre">Olympic Theatre</placeName>
+            of Shakespeare's
+            <title type="play" xml:id="MuchAdoAboutNothing">'Much Ado About Nothing'</title>,
+            <persName xml:id="Righton"><roleName>Mr.</roleName> <surname>Righton</surname></persName> playing Dogberry,
+            <persName xml:id="GNeville"><roleName>Mr.</roleName> <forename>G.</forename> <surname>Neville</surname></persName> Benedick,
+            and <persName xml:id="MissFowler">Miss Fowler</persName> Beatrice.
+            At the same theatre, in March of the same year (1874), on the occasion of the first
+            performance of <persName xml:id="TomTaylor"><forename>Tom</forename> <surname>Taylor</surname></persName>'s
+            four-act historical drama, entitled
+            <title type="play" xml:id="LadyClancarty">'Lady Clancarty; or, Wedded and Wooed'</title>,
+            <persName ref="#GeorgeAnson">Mr. Anson</persName> sustained the part of Scum Goodman.
+            In this drama <persName xml:id="MissCavendish">Miss Cavendish</persName> "created" the leading rôle,
+            and <persName ref="#MissFowler">Miss Fowler</persName> the character of Lady Betty Noel.
+            <persName ref="#GeorgeAnson">Mr. Anson</persName> was likewise in the original cast
+            (1) of <title type="play" xml:id="TheTwoOrphans">'The Two Orphans'</title>,
+            "drama in six acts and eight tableaux" adapted from the French
+            <title type="play" xml:id="LesDeuxOrphelines">'Les Deux Orphelines'</title>,
+            produced at the <placeName type="theatre" ref="#OlympicTheatre">Olympic Theatre</placeName>,
+            Monday, September 14, 1874; and
+            (2) of <persName ref="#Albery">Mr. Albery</persName>'s five-act comedy
+            <title type="play" xml:id="TheSpendthrift">'The Spendthrift; or, the Scrivener's Daughter'</title>,
+            first performed at the same theatre in May 1875.</p>
+
+          <p><persName ref="#GeorgeAnson">Mr. Anson</persName> performed also in revivals of
+            <title type="play" xml:id="TicketOfLeaveMan">'The Ticket-of-Leave Man'</title>
+            and <title type="play" xml:id="HenryDunbar">'Henry Dunbar'</title> at the
+            <placeName type="theatre" ref="#OlympicTheatre">Olympic</placeName>.
+            'Henry Dunbar; or, a Daughter's Trial,' a four-act drama by
+            <persName ref="#TomTaylor">Tom Taylor</persName>, founded on
+            <persName xml:id="MissBraddon">Miss Braddon</persName>'s novel,
+            was first produced at the same theatre in December 1865.
+            At that time <persName xml:id="KateTerry"><forename>Miss</forename> <forename>Kate</forename> <surname>Terry</surname></persName>
+            (<persName xml:id="MrsArthurLewis"><roleName>Mrs.</roleName> <forename>Arthur</forename> <surname>Lewis</surname></persName>)
+            had not quitted the stage, and the play obtained a measure of success to which her acting
+            as Margaret Wentworth the heroine, and that of
+            <persName xml:id="HenryNeville"><roleName>Mr.</roleName> <forename>Henry</forename> <surname>Neville</surname></persName>
+            as the so-called Henry Dunbar, largely contributed.</p>
+
+          <p>In 1875–6 <persName ref="#GeorgeAnson">Mr. Anson</persName> was engaged at the
+            <placeName type="theatre" xml:id="CourtTheatre">Court Theatre</placeName>,
+            and appeared there in burlesque with considerable éclat, and in a revival of the comedy
+            <title type="play" xml:id="NewMenAndOldAcres">'New Men and Old Acres'</title>.
+            In 1877–8 he had returned to the
+            <placeName type="theatre" ref="#OlympicTheatre">Olympic Theatre</placeName>;
+            and on Monday, June 10 of the latter year was in the original cast of Messrs.
+            <persName ref="#TomTaylor">Tom Taylor</persName> and
+            <persName xml:id="PaulMeritt"><forename>Paul</forename> <surname>Meritt</surname></persName>'s
+            three-act domestic drama
+            <title type="play" xml:id="LoveOrLife">'Love or Life'</title>.
+            In the summer season of 1879 <persName ref="#GeorgeAnson">Mr. Anson</persName> was engaged at the
+            <placeName type="theatre" ref="#HaymarketTheatre">Haymarket Theatre</placeName>,
+            and appeared there in April in
+            <persName xml:id="WGWills"><roleName>Mr.</roleName> <forename>W.</forename> <forename>G.</forename> <surname>Wills</surname></persName>'s
+            unsuccessful five-act comedy
+            <title type="play" xml:id="Ellen">'Ellen; or, Love's Cunning'</title>,
+            subsequently revised by the author and reproduced at the same theatre as a three-act
+            comedy under the title of
+            <title type="play" xml:id="Brag">'Brag'</title>.
+            The characters which secured most notice were those of Tom Pye, most amusingly played by
+            <persName xml:id="CharlesKelly"><roleName>Mr.</roleName> <forename>Charles</forename> <surname>Kelly</surname></persName>;
+            a Jesuit Priest, superbly acted by <persName ref="#GeorgeAnson">Mr. Anson</persName> himself;
+            and Lady Breezy, performed by
+            <persName xml:id="MissBHenri">Miss B. Henri</persName>.
+            <persName xml:id="FlorenceTerry"><forename>Miss</forename> <forename>Florence</forename> <surname>Terry</surname></persName>
+            "created" the title role. Following the withdrawal of
+            <title type="play" ref="#Brag">'Brag'</title>,
+            <persName ref="#DionBoucicault">Mr. Boucicault</persName>'s Adelphi drama
+            <title type="play" xml:id="LifeOfAnActress">'The Life of an Actress'</title>
+            was placed on the <placeName type="theatre" ref="#HaymarketTheatre">Haymarket</placeName> stage,
+            <persName ref="#GeorgeAnson">Mr. Anson</persName> undertaking the role of Grimaldi.
+            He has been recently (July 1879) appearing in this character at the
+            <placeName type="theatre" xml:id="FollyTheatre">Folly Theatre, London</placeName>.</p>
+        </div>
+
+        <!-- ============================================================ -->
+        <div type="entry" xml:id="anson_john_william">
+          <head><persName ref="#JohnWilliamAnson"><surname>ANSON</surname>, <forename>JOHN</forename> <forename>WILLIAM</forename></persName>,
+            father of the above-named</head>
+          <p>, was born in London, July 31, 1817. At the age of twenty he joined the Cambridge
+            "Garrick Amateur Club," and in 1843 entered the dramatic profession,
+            first appearing at the
+            <placeName type="theatre" xml:id="TheatreRoyalBath">Theatre Royal, Bath</placeName>,
+            as Lissardo in the comedy of
+            <title type="play" xml:id="TheWonder">'The Wonder'</title>.
+            His début being a success, <persName ref="#JohnWilliamAnson">Mr. Anson</persName> joined the Ryde and Southampton,
+            and afterwards the York, and later, the Belfast "circuits."
+            For some considerable period of his earlier career
+            <persName ref="#JohnWilliamAnson">Mr. Anson</persName> was manager of the Dundee, Perth, Montrose, and Inverness theatrical companies.
+            He made his first appearance in London in 1853, as a member of
+            <persName xml:id="WCooke"><roleName>Mr.</roleName> <forename>W.</forename> <surname>Cooke</surname></persName>'s
+            dramatic company, then playing at
+            <placeName type="theatre" xml:id="AstleysTheatre">Astley's</placeName>.
+            At that theatre <persName ref="#JohnWilliamAnson">Mr. Anson</persName> appeared in a dramatic piece entitled
+            <title type="play" xml:id="BattleOfTheAlma">'The Battle of the Alma'</title>;
+            and subsequently sustained there the character of Falstaff;
+            and during a revival of
+            <title type="play" xml:id="RobRoy">'Rob Roy'</title>
+            the part of Bailie Nicol Jarvie.
+            For many years <persName ref="#JohnWilliamAnson">Mr. Anson</persName> was connected with the
+            <placeName type="theatre" xml:id="AdelphiTheatre">Adelphi Theatre</placeName>
+            under the lesseeship of
+            <persName xml:id="BenjaminWebster"><forename>Mr.</forename> <forename>Benjamin</forename> <surname>Webster</surname></persName>.</p>
+        </div>
+
+        <!-- ============================================================ -->
+        <div type="entry" xml:id="appleby_thomas_bilton">
+          <head><persName xml:id="ThomasAppleby"><surname>APPLEBY</surname>, <forename>THOMAS</forename> <forename>BILTON</forename></persName></head>
+          <p>, was born at Howdon (Newcastle-on-Tyne). He began his professional career August 3,
+            1866, at the
+            <placeName type="theatre" xml:id="TheatreRoyalDundee">Theatre Royal, Dundee</placeName>,
+            under the management of
+            <persName xml:id="EDLyons"><roleName>Mr.</roleName> <forename>E.</forename> <forename>D.</forename> <surname>Lyons</surname></persName>,
+            "opening" there as Wormwood in
+            <title type="play" xml:id="TheLotteryTicket">'The Lottery Ticket'</title>.
+            Afterwards he fulfilled engagements at the
+            <placeName type="theatre" xml:id="TheatresRoyalGlasgowEdinburgh">Theatres Royal, Glasgow and Edinburgh</placeName>,
+            and at the
+            <placeName type="theatre" xml:id="TyneTheatre">Tyne Theatre (Newcastle-on-Tyne)</placeName>,
+            where, at its first performance in England,
+            <persName ref="#ThomasAppleby">Mr. Appleby</persName> played the part of Sadlove in
+            <persName ref="#DionBoucicault">Boucicault</persName>'s drama
+            <title type="play" xml:id="Elfie">'Elfie; or, the Cherry Tree Inn'</title>.
+            On March 4, 1872, he joined the late
+            <persName xml:id="LJSefton"><roleName>Mr.</roleName> <forename>L.</forename> <forename>J.</forename> <surname>Sefton</surname></persName>'s
+            company at the
+            <placeName type="theatre" xml:id="TheatreRoyalLeeds">Theatre Royal, Leeds</placeName>,
+            selected to play
+            <title type="play" xml:id="PygmalionAndGalatea">'Pygmalion and Galatea'</title>
+            throughout the provinces, and sustained the part of Chrysos.
+            <persName ref="#ThomasAppleby">Mr. Appleby</persName> played at the same theatre the title rôle in
+            <persName xml:id="Burnand"><surname>Burnand</surname></persName>'s burlesque
+            <title type="play" xml:id="KingKokatoo">'King Kokatoo; or, Who is Who, and Which is Which?'</title>
+            afterwards altered and produced at the
+            <placeName type="theatre" xml:id="OperaComique">Opéra Comique, London</placeName>,
+            under the title of
+            <title type="play" xml:id="KissiKissi">'Kissi-Kissi'</title>.</p>
+        </div>
+
+      </div><!-- end of entries -->
+
+      <div type="index">
+        <head>INDEX</head>
+        <!-- The index lists are preserved here in a simplified list form;
+             each name is tagged as a persName. Page numbers follow in <ref>. -->
+        <list type="index">
+          <item><persName><surname>Holt</surname>, C.</persName> <ref>182</ref></item>
+          <item><persName><surname>Honey</surname>, G.</persName> <ref>183</ref></item>
+          <item><persName><surname>Howe</surname>, H.</persName> <ref>185</ref></item>
+          <item><persName><forename>Emma</forename> <surname>Howson</surname></persName> <ref>188</ref></item>
+          <item><persName>J. —</persName> <ref>189</ref></item>
+          <item><persName><forename>Henrietta</forename> <surname>Hudspeth</surname></persName> <ref>190</ref></item>
+          <item><persName><forename>Marie</forename> <surname>Illington</surname></persName> <ref>191</ref></item>
+          <item><persName><forename>Alice</forename> <surname>Ingram</surname></persName> <ref>191</ref></item>
+          <item><persName><surname>Irish</surname>, F. W.</persName> <ref>192</ref></item>
+          <item><persName><forename>Henry</forename> <surname>Irving</surname></persName> <ref>192</ref></item>
+          <item><persName><forename>Kathleen</forename> <surname>Irwin</surname></persName> <ref>208</ref></item>
+          <item><persName><surname>James</surname>, D.</persName> <ref>209</ref></item>
+          <item><persName><forename>Clara</forename> <surname>Jecks</surname></persName> <ref>210</ref></item>
+          <item><persName><surname>Jefferson</surname>, J.</persName> <ref>211</ref></item>
+          <item><persName><surname>Johnson</surname>, S.</persName> <ref>214</ref></item>
+          <item><persName><surname>Johnston</surname>, J.</persName> <ref>215</ref></item>
+          <item><persName><forename>Fanny</forename> <surname>Josephs</surname></persName> <ref>216</ref></item>
+          <item><persName><roleName>Mrs.</roleName> C. <surname>Kean</surname></persName> <ref>217</ref></item>
+          <item><persName><roleName>Mrs.</roleName> <surname>Keeley</surname></persName> <ref>225</ref></item>
+          <item><persName><surname>Kelly</surname>, C.</persName> <ref>229</ref></item>
+          <item><persName><forename>Francis</forename> <surname>Kemble</surname></persName> <ref>231</ref></item>
+          <item><persName>H. <surname>Kemble</surname></persName> <ref>234</ref></item>
+          <item><persName><roleName>Mrs.</roleName> W. H. <surname>Kendal</surname></persName> <ref>235</ref></item>
+          <item><persName>W. H. <surname>Kendal</surname></persName> <ref>238</ref></item>
+          <item><persName><forename>Rosa</forename> <surname>Kenney</surname></persName> <ref>240</ref></item>
+          <item><persName>T. C. <surname>King</surname></persName> <ref>240</ref></item>
+          <item><persName>W. <surname>Lacy</surname></persName> <ref>242</ref></item>
+          <item><persName><forename>Sophie</forename> <surname>Larkin</surname></persName> <ref>243</ref></item>
+          <item><persName><forename>Pattie</forename> <surname>Laverne</surname></persName> <ref>243</ref></item>
+          <item><persName><forename>Kate</forename> <surname>Lawler</surname></persName> <ref>245</ref></item>
+          <item><persName>E. <surname>Leathes</surname></persName> <ref>245</ref></item>
+          <item><persName><forename>Carlotta</forename> <surname>Leclercq</surname></persName> <ref>245</ref></item>
+          <item><persName><forename>Rose</forename> <surname>Leclercq</surname></persName> <ref>247</ref></item>
+          <item><persName><forename>Margaret</forename> <surname>Leighton</surname></persName> <ref>249</ref></item>
+          <item><persName><forename>Roma</forename> <surname>Le Thière</surname></persName> <ref>250</ref></item>
+          <item><persName><forename>Marie</forename> <surname>Litton</surname></persName> <ref>251</ref></item>
+          <item><persName><forename>Constance</forename> <surname>Loseby</surname></persName> <ref>251</ref></item>
+          <item><persName>A. <surname>Lyle</surname></persName> <ref>252</ref></item>
+          <item><persName>E. D. <surname>Lyons</surname></persName> <ref>252</ref></item>
+          <item><persName>R. C. <surname>Lyons</surname></persName> <ref>252</ref></item>
+          <item><persName>W. <surname>Macintosh</surname></persName> <ref>254</ref></item>
+          <item><persName>F. H. <surname>Macklin</surname></persName> <ref>254</ref></item>
+          <item><persName>J. <surname>Maclean</surname></persName> <ref>255</ref></item>
+          <item><persName><forename>Elise</forename> <surname>Maisey</surname></persName> <ref>255</ref></item>
+          <item><persName>C. <surname>Marius</surname></persName> <ref>256</ref></item>
+          <item><persName>R. B. <surname>Markby</surname></persName> <ref>256</ref></item>
+          <item><persName><forename>Alice</forename> <surname>Marriott</surname></persName> <ref>257</ref></item>
+          <item><persName>F. <surname>Marshall</surname></persName> <ref>257</ref></item>
+          <item><persName>H. <surname>Marston</surname></persName> <ref>258</ref></item>
+          <item><persName><forename>Rose</forename> <surname>Massey</surname></persName> <ref>259</ref></item>
+          <item><persName><roleName>Mrs.</roleName> C. <surname>Mathews</surname></persName> <ref>260</ref></item>
+          <item><persName>T. <surname>Mead</surname></persName> <ref>260</ref></item>
+          <item><persName><roleName>Mrs.</roleName> A. <surname>Mellon</surname></persName> <ref>261</ref></item>
+          <item><persName>F. <surname>Mervin</surname></persName> <ref>264</ref></item>
+          <item><persName><forename>Ellen</forename> <surname>Meyrick</surname></persName> <ref>264</ref></item>
+          <item><persName><forename>Louise</forename> <surname>Moodie</surname></persName> <ref>264</ref></item>
+          <item><persName>W. <surname>Morgan</surname></persName> <ref>267</ref></item>
+          <item><persName><forename>Kate</forename> <surname>Munroe</surname></persName> <ref>267</ref></item>
+          <item><persName><forename>Alma</forename> <surname>Murray</surname></persName> <ref>267</ref></item>
+          <item><persName>D. <surname>Murray</surname></persName> <ref>268</ref></item>
+          <item><persName>G. <surname>Murray</surname></persName> <ref>268</ref></item>
+          <item><persName><roleName>Mrs.</roleName> G. <surname>Murray</surname></persName> <ref>269</ref></item>
+          <item><persName><roleName>Mrs.</roleName> Leigh <surname>Murray</surname></persName> <ref>269</ref></item>
+          <item><persName><forename>Lilian</forename> <surname>Neilson</surname></persName> <ref>271</ref></item>
+          <item><persName><forename>Henry</forename> <surname>Neville</surname></persName> <ref>275</ref></item>
+          <item><persName>F. <surname>Norton</surname></persName> <ref>276</ref></item>
+          <item><persName><forename>Isabella</forename> <surname>Pateman</surname></persName> <ref>277</ref></item>
+          <item><persName>R. <surname>Pateman</surname></persName> <ref>278</ref></item>
+          <item><persName><forename>Kate</forename> <surname>Pattison</surname></persName> <ref>278</ref></item>
+          <item><persName>H. <surname>Paulton</surname></persName> <ref>278</ref></item>
+          <item><persName><roleName>Miss</roleName> <surname>Pauncefort</surname></persName> <ref>279</ref></item>
+          <item><persName><forename>Kate</forename> <surname>Phillips</surname></persName> <ref>279</ref></item>
+          <item><persName>A. W. <surname>Pinero</surname></persName> <ref>279</ref></item>
+          <item><persName>H. M. <surname>Pitt</surname></persName> <ref>280</ref></item>
+          <item><persName>C. <surname>Power</surname></persName> <ref>280</ref></item>
+          <item><persName>G. <surname>Power</surname></persName> <ref>281</ref></item>
+          <item><persName>L. <surname>Rayne</surname></persName> <ref>282</ref></item>
+          <item><persName>W. <surname>Redmund</surname></persName> <ref>282</ref></item>
+          <item><persName><roleName>Mrs.</roleName> G. <surname>Reed</surname></persName> <ref>282</ref></item>
+          <item><persName>W. <surname>Reeve</surname></persName> <ref>284</ref></item>
+          <item><persName><forename>Cicely</forename> <surname>Richards</surname></persName> <ref>285</ref></item>
+          <item><persName>E. <surname>Righton</surname></persName> <ref>285</ref></item>
+          <item><persName>G. <surname>Rignold</surname></persName> <ref>286</ref></item>
+          <item><persName><forename>Susan</forename> <surname>Rignold</surname></persName> <ref>287</ref></item>
+          <item><persName>W. <surname>Rignold</surname></persName> <ref>287</ref></item>
+          <item><persName>E. <surname>Robson</surname></persName> <ref>288</ref></item>
+          <item><persName><forename>Mary</forename> <surname>Rorke</surname></persName> <ref>288</ref></item>
+          <item><persName><forename>Amy</forename> <surname>Roselle</surname></persName> <ref>288</ref></item>
+          <item><persName><forename>Julia</forename> <surname>Roselle</surname></persName> <ref>289</ref></item>
+          <item><persName>W. <surname>Rousby</surname></persName> <ref>289</ref></item>
+          <item><persName>E. <surname>Royce</surname></persName> <ref>290</ref></item>
+          <item><persName>H. <surname>Russell</surname></persName> <ref>291</ref></item>
+          <item><persName>J. <surname>Ryder</surname></persName> <ref>291</ref></item>
+          <item><persName><forename>Rachel</forename> <surname>Sanger</surname></persName> <ref>295</ref></item>
+          <item><persName><forename>Kate</forename> <surname>Santley</surname></persName> <ref>295</ref></item>
+          <item><persName><forename>Charlotte</forename> <surname>Saunders</surname></persName> <ref>296</ref></item>
+          <item><persName><forename>Eliza</forename> <surname>Saville</surname></persName> <ref>297</ref></item>
+          <item><persName><forename>Kate</forename> <surname>Saville</surname></persName> <ref>298</ref></item>
+          <item><persName><roleName>Mrs.</roleName> <surname>Scott-Siddons</surname></persName> <ref>299</ref></item>
+          <item><persName><forename>Amy</forename> <surname>Sedgwick</surname></persName> <ref>301</ref></item>
+          <item><persName>J. G. <surname>Shore</surname></persName> <ref>305</ref></item>
+          <item><persName>H. <surname>Sinclair</surname></persName> <ref>306</ref></item>
+          <item><persName>E. A. <surname>Sothern</surname></persName> <ref>306</ref></item>
+          <item><persName>L. E. <surname>Sothern</surname></persName> <ref>311</ref></item>
+          <item><persName>R. <surname>Soutar</surname></persName> <ref>312</ref></item>
+          <item><persName>H. <surname>Standing</surname></persName> <ref>312</ref></item>
+          <item><persName><forename>Adeline</forename> <surname>Stanhope</surname></persName> <ref>312</ref></item>
+          <item><persName><forename>Alma</forename> <surname>Stanley</surname></persName> <ref>312</ref></item>
+          <item><persName><roleName>Mrs.</roleName> <surname>Stephens</surname></persName> <ref>313</ref></item>
+          <item><persName>W. H. <surname>Stephens</surname></persName> <ref>315</ref></item>
+          <item><persName><forename>Julia</forename> <surname>Stewart</surname></persName> <ref>315</ref></item>
+          <item><persName>A. <surname>Stirling</surname></persName> <ref>316</ref></item>
+          <item><persName><roleName>Mrs.</roleName> A. <surname>Stirling</surname></persName> <ref>316</ref></item>
+          <item><persName><roleName>Mrs.</roleName> <surname>Stirling</surname></persName> <ref>317</ref></item>
+          <item><persName><forename>Fanny</forename> <surname>Stirling</surname></persName> <ref>319</ref></item>
+          <item><persName><forename>Florence</forename> <surname>St. John</surname></persName> <ref>320</ref></item>
+          <item><persName>C. <surname>Sugden</surname></persName> <ref>321</ref></item>
+          <item><persName>B. <surname>Sullivan</surname></persName> <ref>322</ref></item>
+          <item><persName><forename>Ada</forename> <surname>Swanborough</surname></persName> <ref>326</ref></item>
+          <item><persName>T. <surname>Swinbourne</surname></persName> <ref>327</ref></item>
+          <item><persName><forename>Frederica</forename> <surname>Taylor</surname></persName> <ref>329</ref></item>
+          <item><persName>J. G. <surname>Taylor</surname></persName> <ref>329</ref></item>
+          <item><persName>O. <surname>Tearle</surname></persName> <ref>330</ref></item>
+          <item><persName>H. R. <surname>Teesdale</surname></persName> <ref>330</ref></item>
+          <item><persName>R. <surname>Temple</surname></persName> <ref>331</ref></item>
+          <item><persName>W. <surname>Terriss</surname></persName> <ref>331</ref></item>
+          <item><persName><forename>Edward</forename> <surname>Terry</surname></persName> <ref>332</ref></item>
+          <item><persName><forename>Ellen</forename> <surname>Terry</surname></persName> <ref>333</ref></item>
+          <item><persName><forename>Florence</forename> <surname>Terry</surname></persName> <ref>347</ref></item>
+          <item><persName><forename>Kate</forename> <surname>Terry</surname></persName> <ref>339</ref></item>
+          <item><persName><forename>Marion</forename> <surname>Terry</surname></persName> <ref>346</ref></item>
+          <item><persName><forename>Lydia</forename> <surname>Thompson</surname></persName> <ref>347</ref></item>
+          <item><persName><forename>Emily</forename> <surname>Thorne</surname></persName> <ref>348</ref></item>
+          <item><persName><forename>Sarah</forename> <surname>Thorne</surname></persName> <ref>348</ref></item>
+          <item><persName>T. <surname>Thorne</surname></persName> <ref>349</ref></item>
+          <item><persName>G. S. <surname>Titheradge</surname></persName> <ref>350</ref></item>
+          <item><persName>J. L. <surname>Toole</surname></persName> <ref>350</ref></item>
+          <item><persName>F. <surname>Tyars</surname></persName> <ref>355</ref></item>
+          <item><persName>C. <surname>Vandenhoff</surname></persName> <ref>356</ref></item>
+          <item><persName><forename>Kate</forename> <surname>Vaughan</surname></persName> <ref>357</ref></item>
+          <item><persName><forename>Lottie</forename> <surname>Venne</surname></persName> <ref>357</ref></item>
+          <item><persName>H. <surname>Vezin</surname></persName> <ref>357</ref></item>
+          <item><persName><roleName>Mrs.</roleName> <surname>Vezin</surname></persName> <ref>362</ref></item>
+          <item><persName>F. <surname>Vokes</surname></persName> <ref>366</ref></item>
+          <item><persName>F. M. <surname>Vokes</surname></persName> <ref>366</ref></item>
+          <item><persName><forename>Jessie</forename> <surname>Vokes</surname></persName> <ref>366</ref></item>
+          <item><persName><forename>Rosina</forename> <surname>Vokes</surname></persName> <ref>367</ref></item>
+          <item><persName><forename>Victoria</forename> <surname>Vokes</surname></persName> <ref>367</ref></item>
+          <item><persName>J. <surname>Vollaire</surname></persName> <ref>367</ref></item>
+          <item><persName><roleName>Miss</roleName> <surname>Wadman</surname></persName> <ref>368</ref></item>
+          <item><persName><forename>Ellen</forename> <surname>Wallis</surname></persName> <ref>368</ref></item>
+          <item><persName><forename>Genevieve</forename> <surname>Ward</surname></persName> <ref>368</ref></item>
+          <item><persName>J. F. <surname>Warden</surname></persName> <ref>370</ref></item>
+          <item><persName><roleName>Mrs.</roleName> <surname>Warden</surname></persName> <ref>370</ref></item>
+          <item><persName>C. <surname>Warner</surname></persName> <ref>371</ref></item>
+          <item><persName>A. H. <surname>Waiten</surname></persName> <ref>373</ref></item>
+          <item><persName>B. <surname>Webster</surname></persName> <ref>374</ref></item>
+          <item><persName>T. E. <surname>Wenman</surname></persName> <ref>381</ref></item>
+          <item><persName>H. <surname>Westland</surname></persName> <ref>381</ref></item>
+          <item><persName>H. <surname>Wigan</surname></persName> <ref>382</ref></item>
+          <item><persName><roleName>Mrs.</roleName> A. <surname>Wigan</surname></persName> <ref>383</ref></item>
+          <item><persName><forename>Louise</forename> <surname>Willes</surname></persName> <ref>384</ref></item>
+          <item><persName><roleName>Mrs.</roleName> John <surname>Wood</surname></persName> <ref>384</ref></item>
+          <item><persName>C. <surname>Wyndham</surname></persName> <ref>386</ref></item>
+          <item><persName><forename>Sophie</forename> <surname>Young</surname></persName> <ref>387</ref></item>
+        </list>
+      </div>
+
+      <div type="appendix">
+        <head>APPENDIX</head>
+        <list type="index">
+          <item><persName><roleName>Mdlle.</roleName> <surname>Beatrice</surname></persName> <ref>388</ref></item>
+          <item><persName><forename>John</forename> <surname>Clarke</surname></persName> <ref>390</ref></item>
+          <item><persName>E. <surname>Falconer</surname></persName> <ref>392</ref></item>
+          <item><persName>C. <surname>Fechter</surname></persName> <ref>395</ref></item>
+          <item><persName><forename>Adelaide</forename> <surname>Kemble</surname></persName> <ref>402</ref></item>
+          <item><persName>C. J. <surname>Mathews</surname></persName> <ref>405</ref></item>
+          <item><persName><forename>John</forename> <surname>Parry</surname></persName> <ref>410</ref></item>
+          <item><persName><roleName>Mrs.</roleName> H. <surname>Paul</surname></persName> <ref>414</ref></item>
+          <item><persName>S. <surname>Phelps</surname></persName> <ref>414</ref></item>
+          <item><persName><roleName>Mrs.</roleName> <surname>Rousby</surname></persName> <ref>421</ref></item>
+          <item><persName>A. G. <surname>Wigan</surname></persName> <ref>423</ref></item>
+        </list>
+      </div>
+
+    </body>
+  </text>
+</TEI>
