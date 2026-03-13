@@ -1,0 +1,2354 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L1323" xml:lang="en">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title>Lost and Found: TEI edition</title>
+    <author ref="lacyp:W0194"><persName>Mrs George E. March</persName><idno type="wikidata">Q7934272</idno></author>
+    <respStmt>
+     <resp>TEI conversion</resp>
+     <name>Lou Burnard</name>
+    </respStmt>
+   </titleStmt>
+   <publicationStmt>
+    <distributor>Privately distributed by the Digital Lacy Project</distributor>
+    <idno type="LAE">L1323</idno>
+    <availability>
+     <licence target="https://creativecommons.org/publicdomain/zero/1.0/">The Lacy Project waives
+      all rights to the TEI encoding applied to this material, which it believes to be in the public
+      domain. You may copy, modify, distribute, or perform this work freely. </licence>
+    </availability>
+   </publicationStmt>
+   <sourceDesc>
+    <bibl type="originalSource" n="89.3"><author n="W0194">March, George E.</author>
+     <title type="main">Lost and Found</title>
+     <title type="sub">An Operetta in one act</title>
+     <title type="music">The Music Composed by Virginia Gabriel</title>
+     <extent>28 pp (UM copy: 116 - 144)<measure type="pp" quantity="25"/>
+      <measure type="spCount" quantity="367"/>
+      <measure type="spvCount" quantity="97"/>
+      <measure type="txWords" quantity="7358"/>
+      <measure type="spWords" quantity="6424"/>
+      <measure type="stWords" quantity="934"/>
+     </extent>
+     <title level="s"> Lacy's Acting Edition, volume 89, No. 1323</title><idno type="nic"
+      >N15432</idno><idno type="vpp">Vol89iiiLost</idno></bibl>
+    <bibl type="surrogate" subtype="copytext"><ref
+      target="https://babel.hathitrust.org/cgi/pt?id=mdp.39015067453418&amp;seq=116 ">UM from
+      HT</ref><ref target="local:Vol89/L1323/L1323-um.pdf"/></bibl>
+    <listEvent>
+     <event type="firstPerf" when="1870-06-27" source="text" where="Alexandra">
+      <desc>Premiered at Royal Alexandra Theatre, Liverpool 27 June 1870; Nicoll date
+       1870-02-05</desc>
+     </event>
+    </listEvent>
+   </sourceDesc>
+  </fileDesc>
+  <profileDesc>
+   <!--S 1 OpereMusic Oa. OPERA-->
+   <textClass>
+    <catRef target="#sizeS"/>
+    <catRef target="#act1"/>
+    <catRef target="nic:Oa."/>
+    <keywords>
+     <term>OPERA</term>
+    </keywords>
+   </textClass>
+   <particDesc>
+    <listPerson>
+     <person xml:id="L1323_M1">
+      <persName type="role">The Baron</persName>
+      <persName type="spkr" n="2">B.</persName>
+      <persName type="spkr" n="5">Baron</persName>
+      <persName type="spkr" n="81">Baron.</persName>
+     </person>
+     <person xml:id="L1323_M2">
+      <persName type="role">Leonard</persName>
+      <persName type="spkr" n="112">Leon.</persName>
+     </person>
+     <person xml:id="L1323_M3">
+      <persName type="role">Jean Pierre</persName>
+      <persName type="spkr" n="1">Jean Pierre.</persName>
+      <persName type="spkr" n="64">Jean.</persName>
+     </person>
+     <person xml:id="L1323_F4">
+      <persName type="role">Madelina</persName>
+      <persName type="spkr" n="2">M.</persName>
+      <persName type="spkr" n="95">Mad.</persName>
+     </person>
+     <person xml:id="L1323_mult">
+      <persName type="role">[Multiple speakers]</persName>
+      <persName type="spkr" n="1">All.</persName>
+      <persName type="spkr" n="1">Leon &amp; Mad.</persName>
+     </person>
+    </listPerson>
+   </particDesc>
+  </profileDesc>
+  <revisionDesc>
+   <change when="2026-03-13">Add wikidata link to titleStmt where possible</change>
+   <change when="2026-03-13">Hand edited and checked against UM copy</change>
+   <change when="2026-03-12">TEI autotagging by Gemini Pro 2.5</change>
+  </revisionDesc>
+ </teiHeader>
+ <text>
+  <front>
+   <titlePage>
+
+    <titlePart type="main">Lost and Found</titlePart>
+    <titlePart type="sub">An Operetta in one act,</titlePart>
+
+    <byline>written by <docAuthor>GEORGE MARCH,</docAuthor> (Member of the Dramatic Authors'
+     Society.) </byline>
+    <byline>the music composed by <docAuthor>VIRGINIA GABRIEL.</docAuthor>
+    </byline>
+    <docImprint>Thomas Hailes Lacy, Theatrical Publisher, 89, Strand. London.</docImprint>
+   </titlePage>
+   <pb n="2"/>
+   <performance>
+    <head>Lost and Found</head>
+
+    <p>First Performed at the Royal Alexandra Theatre, Liverpool, June 27, 1870.</p>
+    <castList>
+     <head>Characters</head>
+     <castItem><role gender="M">The Baron</role>
+      <roleDesc>Baritone. </roleDesc><actor>Mr H. Bennett</actor></castItem>
+     <castItem><role gender="M">Leonard</role><roleDesc>(An Artist) Tenor.</roleDesc><actor>Mr
+       Loredan</actor></castItem>
+     <castItem><role gender="M">Jean Pierre</role><roleDesc> (Gamekeeper to Baron) Baritone.
+       </roleDesc><actor>Mr Wenman</actor></castItem>
+     <castItem><role gender="F">Madelina</role><roleDesc>Soprano.</roleDesc><actor>Miss
+       D'Este</actor></castItem>
+    </castList>
+   </performance>
+   <set>
+    <p>Scene - A Chateau in Brittany. Period - Louis XV.</p>
+    <p>Time in Performance, One Hour.</p>
+   </set>
+   <div type="costume">
+    <list>
+     <item><label>Baron</label>. - Brown velvet long-skirted coat, trimmed with gold lace, brown
+      velvet breeches, High brown leather gaiters, powdered wig, and three-cornered gold laced
+      hat.</item>
+     <item>
+      <label>Leonard</label>Green velvet coat with small gold braid, white waistcoat, velvet
+      breeches, black boots with russet tops, powder, three-cornered hat.</item>
+     <item>
+      <label>Jean</label>Bound jacket, red hair tied into a tail, waistcoat, old velveteen breeches,
+      grey stockings and thick half boots or sabots.</item>
+     <item>
+      <label>Madelina</label>First Dress : Neat dress of a peasant, stuff petticoats, colored
+      stockings, apron, and breton cap. Second Dress : Elegant brocade or satin dress of a Marquise,
+      powder, fan, &amp;c.</item>
+    </list>
+   </div>
+   <pb n="3"/>
+
+   <note>
+    <p>The Music of Lost and Found is Published by Messrs. Duff &amp; Stewart, 147, Oxford Street,
+     and may be had of all Music Sellers complete for 10s. 6d., nett.</p>
+    <p>
+     <title> Day after day</title><title>In the sun shaded valley</title><title>Thinkest
+      thou</title><title>The Corrigaun sat</title><title>Leave me</title></p>
+    <p>4s. each. <stage>(half price allowed.)</stage></p>
+   </note>
+
+
+  </front>
+
+  <body>
+
+   <div type="act" n="I">
+    <head>LOST AND FOUND.</head>
+    <stage>Scene.— Hall in a Chateau in Brittany, with doors R. and L., and open folding door C.
+     leading to grounds. Window at R. 2 E. with table in front of window. Screen L. at back</stage>
+    <stage>As the Curtain rises, Baron enters C.from L. in shooting costume, with gun, &amp;c, and
+     Leonard follows carrying sketch book under his arm.</stage>
+    <div type="scene">
+     <sp who="#L1323_M1">
+      <speaker>Baron.</speaker>
+      <stage>(R.)</stage>
+      <p>You are the last person I should have ever thought of meeting in the wilds of Brittany.</p>
+     </sp>
+     <sp who="#L1323_M2">
+      <speaker>Leon.</speaker>
+      <stage> (L.)</stage>
+      <p>Meeting you is almost as great a surprise to me, my dear Baron. I had not the remotest idea
+       that I was trespassing on your property. You're here for the shooting, I see.</p>
+     </sp>
+     <sp who="#L1323_M1">
+      <speaker>Baron.</speaker>
+      <p>Yes—Sport has always been a mania with me. But what are you doing in this part of the world
+       ?</p>
+     </sp>
+     <sp who="#L1323_M2">
+      <speaker>Leon.</speaker>
+      <p>Studying my profession <stage>(points to sketch book)</stage> in a walking tour round the
+       world, commencing with Brittany.</p>
+     </sp>
+     <sp who="#L1323_M1">
+      <speaker>Baron.</speaker>
+      <p>I remember now, you're a painter. That picture you painted of my wife when you were
+       recommended by the Marquise de Beaulieu, ought to have made your fortune. She was sixty-three
+       at the time, and you made her look thirty-six. Such talent must surely bring you plenty of
+       customers—among the <hi>old </hi>noblesse.</p>
+     </sp>
+     <sp who="#L1323_M2">
+      <speaker>Leon.</speaker>
+      <p>But I assure you, the Baroness–</p>
+     </sp>
+     <sp who="#L1323_M1">
+      <speaker>Baron.</speaker>
+      <p>Appeared even <hi>more</hi> charming—drawn by you, than <hi>painted</hi> by herself—But the
+       Marquise de Beaulieu— there was a charming little woman if you like, <stage>(Leonard
+        starts)</stage> but what's the matter ?</p>
+     </sp>
+     <pb n="4"/>
+     <sp who="#L1323_M2">
+      <speaker>Leon.</speaker>
+      <p>Oh, nothing! <stage>(eagerly)</stage> Did you know her well ?</p>
+     </sp>
+     <sp who="#L1323_M1">
+      <speaker>Baron.</speaker>
+      <p>She was a connection of my wife's, and we were thrown a good deal together, at one time. I
+       remember making rather a fool of myself about her, I made her a—declaration!</p>
+     </sp>
+     <sp who="#L1323_M2">
+      <speaker>Leon.</speaker>
+      <p><hi>You</hi> did ? how did she take it ?</p>
+     </sp>
+     <sp who="#L1323_M1">
+      <speaker>Baron.</speaker>
+      <p>Burst out laughing in my face, and told me to go home to my young and pretty wife, whose
+       picture she had just seen at your studio. I wonder she'd any laughing in her, married as she
+       was to a man so unsuited to her. The Marquis's life was spent in eating, drinking and
+       gambling; with these three little expensive weaknesses he consumed a great part of her large
+       fortune, and no doubt the whole would have gone if he had not been drawn into a quarrel, and
+       killed in a duel. His adversary, who banks with me, wrote me an account of it all yesterday,
+       and to-day the whole story's in the paper,<stage> (takes paper from pocket and points out,
+        reading) </stage>" At Calcutta,—killed in a duel, after a supper—three months ago—gambling
+       quarrel."</p>
+     </sp>
+     <sp who="#L1323_M2">
+      <speaker>Leon.</speaker>
+      <p>With all these details it must be true. Oh! why did he not live a little longer, so that I
+       might have avenged her wrongs!</p>
+     </sp>
+     <sp who="#L1323_M1">
+      <speaker>Baron.</speaker>
+      <stage>(aside)</stage>
+      <p>Or die a little sooner. So that he could have married the widow, <stage>(aloud)</stage> But
+       what makes you take up her cause so warmly ?</p>
+     </sp>
+     <sp who="#L1323_M2">
+      <speaker>Leon.</speaker>
+      <p>Because when on earth to me she was an angel, a ministering angel. Poor and unknown, with
+       no one to patronize me, I was dying of want in a miserable garret. My last picture had just
+       been refused at the Exhibition— in a fit of despair I took up a knife, cut it to atoms, and
+       was on the point of putting an end to my wretched existence, when I heard a knock at my
+       door.</p>
+     </sp>
+     <sp who="#L1323_M1">
+      <speaker>Baron.</speaker>
+      <stage>(aside)</stage>
+      <p>Suicide postponed <hi>sine die</hi>.</p>
+     </sp>
+     <sp who="#L1323_M2">
+      <speaker>Leon.</speaker>
+      <p>On opening it, I found a lady, accompanied by a servant in livery. She had heard me raving,
+       from the room next door, (where she had been on a mission of charity,) for she said to me in
+       the kindest manner " You are a painter I understand." The next day she gave me her first
+       sitting ; from that moment a future seemed open to me. She gave me fresh orders, paying me in
+       advance,
+       <pb n="5"/>to enable me to visit Italy, to study the old masters. I spent a year in Rome and
+       then returned to Paris, to see her, as I hoped, and to hear as I thought, her sweet voice
+       once more, when to my utter dismay I heard she was no more ; and now my only comfort is to
+       speak of her—I have no other—not even her likeness to look at.</p>
+     </sp>
+     <spGrp>
+      <head>SONG.</head>
+      <sp who="#L1323_M2">
+       <l>Day after day I've tried to paint</l>
+       <l>That image that I love so well,</l>
+       <l>Each effort is, alas! more faint,</l>
+       <l>The reason why I cannot tell;</l>
+       <l>For in my heart I see quite plain</l>
+       <l>The face of her I love so well,</l>
+       <l>Yet all my efforts are but vain—</l>
+       <l>The reason why I cannot tell.</l>
+       <l>Night after night I see her face,</l>
+       <l>Her drooping eyes and golden hair ;</l>
+       <l>When daylight dawns I cannot trace</l>
+       <l>Her form—'t must be she is too fair.</l>
+       <l>No angel from the soft blue sky</l>
+       <l>With her in beauty can compare,</l>
+       <l>That is perhaps the reason why</l>
+       <l>I fail—-'t must be she is too fair.</l>
+      </sp>
+     </spGrp>
+     <sp who="#L1323_M1">
+      <speaker>Baron.</speaker>
+      <p>Ah! I see you love her, and I don't wonder at it. But what should you say if I were to show
+       her to you once more—not in a picture but in the flesh ? I have only been here two days, and
+       yesterday I met a village girl called Madelina, a dairymaid, I fancy, who is —the very image
+       of the Marquise, she lives down at the farm, with her aunt; but she comes here twice a day
+       with milk for the use of the house, <stage>(looking towards C.)</stage> I think I hear her
+       coming now. <stage>(points to screen)</stage> If we stand behind that screen, she wont see
+       us, and you can have a good look at her.</p>
+     </sp>
+     <stage>They hide behind screen, Baron having thrown news paper on table.</stage>
+     <stage>Enter Madelina C. from L. with pails of milk, singing.</stage>
+     <sp who="#L1323_F4">
+      <l>In the sun-shaded valley beneath the hill,</l>
+      <l>By the side of the silvery mountain rill,</l>
+      <l>Like a happy fay</l>
+      <pb n="6"/>
+      <l>Do I love to stray,</l>
+      <l>Going and coming wherever I will.</l>
+      <l>By the bank where the violet modestly grows,</l>
+      <l>Under the leaf of the yellow primrose,</l>
+      <l>Where the fern and brake</l>
+      <l>A good shelter make,</l>
+      <l>There when I'm weary I love to repose.</l>
+      <l>Homeward at twilight my way do I wend,</l>
+      <l>With the milk white heifer I love to tend,</l>
+      <l>Free from ev'ry care,</l>
+      <l>As free as the air,</l>
+      <l>A happy and careless life do I spend.</l>
+     </sp>
+     <stage>(Leonard and Baron come from behind screen.)</stage>
+     <sp who="#L1323_M2">
+      <speaker>Leon.</speaker>
+      <stage>(who has been contemplating her with an expression of sadness and
+       astonishment.)</stage>
+      <p>The same features, same eyes, same expression—I almost believe it is she. <stage>(going up
+        to her)</stage> Surely it must be !</p>
+     </sp>
+     <sp who="#L1323_F4">
+      <speaker>Mad.</speaker>
+      <stage> (curtseying)</stage>
+      <p>What is it, good sir ?</p>
+     </sp>
+     <sp who="#L1323_M1">
+      <speaker>Baron.</speaker>
+      <p>Well, my lovely one, so you've brought the milk, don't spill it as you did yesterday,
+        <stage>[pats her shoulder]</stage></p>
+     </sp>
+     <sp who="#L1323_F4">
+      <speaker>Mad.</speaker>
+      <p>Sir!</p>
+     </sp>
+     <sp who="#L1323_M2">
+      <speaker>Leon.</speaker>
+      <stage>(throwing himself into chair)</stage>
+      <p>It is not she after all.</p>
+     </sp>
+     <sp who="#L1323_M1">
+      <speaker>Baron.</speaker>
+      <p>Do I look so very alarming ?</p>
+     </sp>
+     <sp who="#L1323_F4">
+      <speaker>Mad.</speaker>
+      <p>Terribly ! You frightened me so yesterday that I spilt ever so much milk, twenty sous
+       worth, aunt says, and its to be stopped out of my wages.</p>
+     </sp>
+     <sp who="#L1323_M1">
+      <speaker>Baron.</speaker>
+      <p>Your aunt's a barbarian, but you shan't suffer for my fault. Here, <stage>(offering
+        money)</stage> Stay! but on one condition.</p>
+     </sp>
+     <sp who="#L1323_F4">
+      <speaker>Mad.</speaker>
+      <p>I'll have no conditions.</p>
+     </sp>
+     <sp who="#L1323_M1">
+      <speaker>Baron.</speaker>
+      <p>She likes the look of it.</p>
+     </sp>
+     <sp who="#L1323_F4">
+      <speaker>Mad.</speaker>
+      <stage>(pointing to money)</stage>
+      <p>Why that's gold, sir; you've made a mistake.</p>
+     </sp>
+     <sp who="#L1323_M1">
+      <speaker>Baron.</speaker>
+      <p>No mistake at all; take it to buy ribbons.</p>
+     </sp>
+     <sp who="#L1323_M2">
+      <speaker>Leon.</speaker>
+      <stage>(rising)</stage>
+      <p>The form and features are hers; but the manner and voice, oh how different!</p>
+     </sp>
+     <stage>[Exit Leonard, R.]</stage>
+     <pb n="7"/>
+     <sp who="#L1323_F4">
+      <speaker>Mad.</speaker>
+      <p>What is the matter, sir, with that young gentleman, have I frightened him ?</p>
+     </sp>
+     <sp who="#L1323_M1">
+      <speaker>Baron.</speaker>
+      <p>No, quite the contrary; the fact is, you're the image of a great lady — a Marquise, he once
+       loved, but to whom he never dared tell his love.</p>
+     </sp>
+     <sp who="#L1323_F4">
+      <speaker>Mad.</speaker>
+      <p>Why does'nt he tell her now ?</p>
+     </sp>
+     <sp who="#L1323_M1">
+      <speaker>Baron.</speaker>
+      <p>Because she is dead, poor woman. But the most extraordinary thing is that he goes on
+       worshipping, her now she's dead, and refuses to be consoled for her loss.</p>
+     </sp>
+     <sp who="#L1323_F4">
+      <speaker>Mad.</speaker>
+      <p>Poor young man !</p>
+     </sp>
+     <sp who="#L1323_M1">
+      <speaker>Baron.</speaker>
+      <p>Oh ! he thinks it romantic.</p>
+     </sp>
+     <spGrp>
+      <head>DUET.</head>
+      <sp who="#L1323_M1">
+       <speaker>B.</speaker>
+
+       <l>He's a painter, a poet, which means he's a muff,</l>
+       <l>One whose head is choke full of all sorts of queer stuff;</l>
+       <l>"Imagination" they call it, but I</l>
+       <l>Could never make out what they mean to imply.</l>
+
+      </sp>
+      <sp who="#L1323_F4">
+       <speaker>M.</speaker>
+
+       <l>Must a painter, a poet, be likewise a muff ?</l>
+       <l>Must his head be quite full of all sorts of queer stuff?</l>
+       <l>"Imagination " they call it, and why ?</l>
+       <l>I wonder what such a long word can imply ?</l>
+
+      </sp>
+      <sp who="#L1323_M1">
+       <speaker>B.</speaker>
+
+       <l>They gaze at the stars, and they sigh to the moon,</l>
+       <l>And look melancholy from morning till noon;</l>
+       <l>Shun the world, call on no one, unless it's their Muse,</l>
+       <l>And when they are asked to be jolly, refuse.</l>
+
+      </sp>
+      <sp who="#L1323_F4">
+       <speaker>M.</speaker>
+
+       <l>To gaze at the stars, and to sigh to the moon,</l>
+       <l>To listen to verses from morning to noon;</l>
+       <l>How pleasant that sounds ! If I were but a Muse,</l>
+       <l>And <hi>he</hi> called on me, I could nothing refuse.</l>
+
+      </sp>
+     </spGrp>
+     <sp who="#L1323_F4">
+      <speaker>Mad.</speaker>
+      <p><hi>You</hi> have none of that imagination, sir, I am sure, in your head.</p>
+     </sp>
+     <sp who="#L1323_M1">
+      <speaker>Baron.</speaker>
+      <p>No, thank heaven, I, Madelina, am a practical man.</p>
+     </sp>
+     <sp who="#L1323_F4">
+      <speaker>Mad.</speaker>
+      <p>But this great lady ?</p>
+     </sp>
+     <sp who="#L1323_M1">
+      <speaker>Baron.</speaker>
+      <p>You'd like to hear all about her, would'nt you?</p>
+     </sp>
+     <sp who="#L1323_F4">
+      <speaker>Mad.</speaker>
+      <p>Yes. Was she pretty ?</p>
+     </sp>
+     <sp who="#L1323_M1">
+      <speaker>Baron.</speaker>
+      <stage>(politely)</stage>
+      <p>I have already said she was like you.</p>
+     </sp>
+     <sp who="#L1323_F4">
+      <speaker>Mad.</speaker>
+      <stage>(looking as if she only half understood)</stage>
+      <p>I suppose that's called a compliment. I don't get many at home. My cousin Jean Pierre, he's
+       a regular bear, and
+       <pb n="8"/>yet he's found some one to love him. It's true she's no great things, except in
+       size, and has red hair, and a squint. They call her the Infant, down here.</p>
+     </sp>
+     <stage>Jean Pierre is heard disputing outside</stage>
+     <sp who="#L1323_M1">
+      <speaker>Baron.</speaker>
+      <p>I am sure I wish him joy. But here he comes, I recognize his <stage>(ironically)</stage>
+       good-tempered voice, I am sorry for the Infant.</p>
+     </sp>
+     <sp who="#L1323_M3">
+      <speaker>Jean.</speaker>
+      <stage>(talking outside)</stage>
+      <p>Well, if you don't choose to stand anything, in goes your name to the mayor.</p>
+     </sp>
+     <stage>Jean enters C.from l.</stage>
+     <sp who="#L1323_M1">
+      <speaker>Baron.</speaker>
+      <p>What is it, Jean Pierre ?</p>
+     </sp>
+     <sp who="#L1323_M3">
+      <speaker>Jean.</speaker>
+      <p>Good gracious! the Baron ! <stage>(coming down R.C., aloud)</stage> Nothing, sir, only an
+       idle fellow I caught in the wood, setting wires I believe, tho' I didn't exactly catch him in
+       the act. I've my dooty to perform, so I've made up my mind to have up every single fellow
+       who—</p>
+     </sp>
+     <sp who="#L1323_M1">
+      <speaker>Baron.</speaker>
+      <p>Won't stand something handsome, eh ?</p>
+     </sp>
+     <sp who="#L1323_M3">
+      <speaker>Jean.</speaker>
+      <p>Who's been saying that ? some ill-natured person I know. I should'nt wonder if it were
+       cousin Madelina; oh ! how I do hate that girl.</p>
+     </sp>
+     <sp who="#L1323_F4">
+      <speaker>Mad.</speaker>
+      <p>Hate me! why I should like to know ?</p>
+     </sp>
+     <sp who="#L1323_M1">
+      <speaker>Baron.</speaker>
+      <p>Why indeed ?</p>
+     </sp>
+     <spGrp>
+      <head>SONG—Jean.</head>
+      <sp who="#L1323_M3">
+       <lg>
+        <l>Why do I hate her ? I'll soon tell you why,</l>
+        <l>'Cause she is haughty, and thinks herself high;</l>
+        <l>Whereas to my mind, she is naught but a minx,</l>
+        <l>That's my plain opinion; I says what I thinks.</l>
+        <l>Why did she, leaving her friends down at Nantes,</l>
+        <l>Come here and quarter herself at her aunt's ?</l>
+        <l>Nobody axed her, so what right had she</l>
+        <l>To come here at all interfering with me ?</l>
+       </lg>
+       <lg>
+        <l>She don't do no work 'cause her hands is too white,</l>
+        <l>So I've to do double, which aint at all right.</l>
+        <l>She's naught but an upstart, so why pray should she,</l>
+        <l>Go showing her airs and her graces to me ?</l>
+        <l>Afore she come here I was always helped fust,</l>
+        <l>At dinner and supper I now gets the worst ?</l>
+        <l>I fares much the same both at breakfast and tea,</l>
+        <l>And that's why I've took such a dislike to she.</l>
+       </lg>
+       <pb n="9"/>
+       <lg>
+        <l>I've no taste for work, for the which I'm not made,</l>
+        <l>The coves as docs least is the ones that's best paid;</l>
+        <l>Whatever they says of the famed "Busy Bee,"</l>
+        <l>I'm sure that his life would'nt ever suit me.</l>
+        <l>When I sees master's lackeys, well dressed, and well fed,</l>
+        <l>Warmed and washed, an ambition comes into my head;</l>
+        <l>And I thinks to myself how I should like to be,</l>
+        <l>What ignorant folks call a pampered flun<hi>key</hi>.</l>
+       </lg>
+      </sp>
+     </spGrp>
+     <sp who="#L1323_M1">
+      <speaker>Baron.</speaker>
+      <stage>(laughing)</stage>
+      <p>What! you really aspire to be—</p>
+     </sp>
+     <sp who="#L1323_M3">
+      <speaker>Jean.</speaker>
+      <p>A flunkey; so if your honour would like to take me to Paris, and give me an independent
+       sitivation.</p>
+     </sp>
+     <sp who="#L1323_M1">
+      <speaker>Baron.</speaker>
+      <p>I'll think it over—speak to me about it later. <stage>(to Madelina who is leaving)</stage>
+       Where are you off to ?</p>
+     </sp>
+     <sp who="#L1323_F4">
+      <speaker>Mad.</speaker>
+      <p>To the dairy to help aunt make the cheese.</p>
+     </sp>
+     <sp who="#L1323_M3">
+      <speaker>Jean.</speaker>
+      <p>And who's to cook my dinner I should like to know ?</p>
+     </sp>
+     <sp who="#L1323_M1">
+      <speaker>Baron.</speaker>
+      <p>Why don't you go and dine in the kitchen ?</p>
+     </sp>
+     <sp who="#L1323_M3">
+      <speaker>Jean.</speaker>
+      <p>As super-numery—ah! that I will.</p>
+     </sp>
+     <sp who="#L1323_M1">
+      <speaker>Baron.</speaker>
+      <p>Yes, go Jean Pierre and have thy fill.</p>
+     </sp>
+     <sp who="#L1323_M3">
+      <speaker>Jean.</speaker>
+      <p>Ah! that I will.</p>
+     </sp>
+     <spGrp>
+      <head>TRIO.</head>
+      <sp who="#L1323_M3">
+       <speaker>Jean.</speaker>
+
+       <l>To the kitchen I'll go,</l>
+       <l>To the regions below,</l>
+       <l>Where they serve up such jolly good fare,</l>
+       <l>My time I'll not waste,</l>
+       <l>For I'm longing to taste</l>
+       <l>All the good things they live on down there.</l>
+
+       <stage>goes up L.</stage>
+      </sp>
+      <sp who="#L1323_F4">
+       <speaker>Mad.</speaker>
+
+       <l>How I wish he would go</l>
+       <l>To the regions below,</l>
+       <l>The nasty cross ill-mannered bear;</l>
+       <l>Why wont he make haste ?</l>
+       <l>Why thus his time waste ?</l>
+       <l>He's enough to make any saint swear!</l>
+
+       <stage>goes up R.</stage>
+      </sp>
+      <pb n="10"/>
+      <sp who="#L1323_M1">
+       <speaker>Baron.</speaker>
+
+       <l>To the devil pray go,</l>
+       <l>As she hints, you're <hi>de trop</hi>,</l>
+       <l>Of this fact you don't seem quite aware ;</l>
+       <l>Why don't you make haste ?</l>
+       <l>Why thus your time waste ?</l>
+       <l>When your dinner is waiting down there.</l>
+
+      </sp>
+      <stage>Exeunt Jean R. D., Madelina C. D.</stage>
+     </spGrp>
+     <sp who="#L1323_M1">
+      <speaker>Baron.</speaker>
+      <p>She's charming. How I do wish the Baroness would take her to Paris as lady's maid. I do
+       like to see pretty faces about the house; I fear this one will be almost too pretty for the
+       Baroness, <stage>(perceiving Leonard who enters from C. D. in a reverie)</stage> But here's
+       the sentimental young gentleman again—up in the clouds, as usual, <stage>(aloud)</stage> Well
+       my young friend, I hope you feel better.</p>
+     </sp>
+     <sp who="#L1323_M2">
+      <speaker>Leon.</speaker>
+      <stage>(starting from reverie, shaking his head)</stage>
+      <p>More wretched than ever—this fatal likeness—far from being a comfort to me, is only a
+       source of pain. The features are hers, it is her living image, cast as it were in the same
+       mould; the outward form is hers, but the soul and mind, alas ! are only Madelina's.</p>
+     </sp>
+     <sp who="#L1323_M1">
+      <speaker>Baron.</speaker>
+      <p>Whoever the outward form belongs to, it's remarkably attractive. If you don't take care
+       you'll be caught by it yet.</p>
+     </sp>
+     <sp who="#L1323_M2">
+      <speaker>Leon.</speaker>
+      <p><hi>I</hi>—caught ?</p>
+     </sp>
+     <sp who="#L1323_M1">
+      <speaker>Baron.</speaker>
+      <p>I'll make a bet!</p>
+     </sp>
+     <sp who="#L1323_M2">
+      <speaker>Leon.</speaker>
+      <p><hi>I</hi>-—forget the Marquise ! compare a mere woman with that angel! <hi>I</hi> have a
+       single thought for anyone else! No, Baron ! the sight of this girl gives me only painful
+       emotions.</p>
+     </sp>
+     <sp who="#L1323_M1">
+      <speaker>Baron.</speaker>
+      <p>I am sorry for that, for more reasons than one.</p>
+     </sp>
+     <sp who="#L1323_M2">
+      <speaker>Leon.</speaker>
+      <p>What may they be ?</p>
+     </sp>
+     <sp who="#L1323_M1">
+      <speaker>Baron.</speaker>
+      <p>I was going to ask you to do me a favour.</p>
+     </sp>
+     <sp who="#L1323_M2">
+      <speaker>Leon.</speaker>
+      <p>I am at your service.</p>
+     </sp>
+     <sp who="#L1323_M1">
+      <speaker>Baron.</speaker>
+      <p>My wife would be so pleased to have a likeness of the Marquise, who you know was a relation
+       of hers ; and I want you to paint one, a <hi>pendant</hi> to the Baroness's portrait. You
+       could do it in two or three sittings.</p>
+     </sp>
+     <sp who="#L1323_M2">
+      <speaker>Leon.</speaker>
+      <stage>(excited)</stage>
+      <p>Yes! you are right, it is the only chance left of getting a likeness of her.</p>
+     </sp>
+     <sp who="#L1323_M1">
+      <speaker>Baron.</speaker>
+      <p>Come then.</p>
+      <stage>goes towards l. d.</stage>
+     </sp>
+     <pb n="11"/>
+     <sp who="#L1323_M2">
+      <speaker>Leon.</speaker>
+      <stage>(following the Baron when he perceives Madelina entering from C. D., he starts.
+       Madelina places tray of cream, cheese R. C.)</stage>
+      <p>Ah !</p>
+     </sp>
+     <sp who="#L1323_M1">
+      <speaker>Baron.</speaker>
+      <stage> (coming back through L. D.)</stage>
+      <p>Why what's the matter ? <stage>(Leonard points out Madelina. taking hold of Leonard’S
+        hand.)</stage> How you tremble, boy !</p>
+     </sp>
+     <sp who="#L1323_M2">
+      <speaker>Leon.</speaker>
+      <p>Seeing her fills me with emotion I cannot control. What is she doing here ?</p>
+     </sp>
+     <sp who="#L1323_M1">
+      <speaker>Baron.</speaker>
+      <p>She's only on her way to the dairy.</p>
+     </sp>
+     <sp who="#L1323_M2">
+      <speaker>Leon.</speaker>
+      <stage>(shocked)</stage>
+      <p>Oh! don't talk about it!</p>
+     </sp>
+     <sp who="#L1323_M1">
+      <speaker>Baron.</speaker>
+      <p>Too matter of fact I suppose — too material! no sentiment, or poetry to be squeezed out
+       of—buttermilk, eh! Well, well, I must go and wash my hands, for <hi>I'</hi>m unsentimental
+       enough to want my dinner. Good bye for the present.</p>
+      <stage>exit Baron, R.</stage>
+     </sp>
+     <stage>Madelina has placed her cream cheeses on table and sits R. Leonard contemplates her for
+      a few seconds.</stage>
+     <spGrp>
+      <head>DUET.</head>
+      <sp who="#L1323_F4">
+       <speaker>Mad.</speaker>
+
+       <l>What you still here ? then 'tis not true</l>
+       <l>The sight of me so troubles you.</l>
+
+      </sp>
+      <sp who="#L1323_M2">
+       <speaker>Leon.</speaker>
+
+       <l>Too true it is thy presence gives me pain.</l>
+
+      </sp>
+      <sp who="#L1323_F4">
+       <speaker>Mad.</speaker>
+
+       <l>Then why come near me, Sir ?—pray do explain.</l>
+
+      </sp>
+      <sp who="#L1323_M2">
+       <speaker>Leon.</speaker>
+
+       <l>Some strange fascination</l>
+       <l>Attracts me to thee,</l>
+       <l>Altho' the sensation</l>
+       <l>Is painful to me ;</l>
+       <l>But what this can be</l>
+       <l>Is a secret to thee.</l>
+
+      </sp>
+      <sp who="#L1323_F4">
+       <speaker>Mad.</speaker>
+
+       <l>That some fascination</l>
+       <l>Attracts him to me,</l>
+       <l>I've no hesitation</l>
+       <l>In owning I see,</l>
+       <l>But what can there be</l>
+       <l>So attractive in me ?</l>
+
+      </sp>
+      <sp who="#L1323_M2">
+       <speaker>Leon.</speaker>
+       <stage> (warmly.)</stage>
+       <l> 'Tis that I love thee, my adored Louise.</l>
+      </sp>
+      <sp who="#L1323_F4">
+       <speaker>Mad.</speaker>
+       <l>My name is Madelina, if you please.</l>
+      </sp>
+      <sp who="#L1323_M2">
+       <speaker>Leon.</speaker>
+       <l>Beloved image of that one, so dear.</l>
+      </sp>
+      <sp who="#L1323_F4">
+       <speaker>Mad.</speaker>
+       <stage> (aside)</stage>
+       <l>I wonder why I tremble when he's near ?</l>
+      </sp>
+      <pb n="12"/>
+      <sp who="#L1323_M2">
+       <speaker>Leon.</speaker>
+       <stage>(taking her hand)</stage>
+
+       <l>What ails thee dear Louise what ails thee pray ?</l>
+       <l>Why dost thou turn thy face from me away ?</l>
+
+      </sp>
+      <sp who="#L1323_F4">
+       <speaker>Mad.</speaker>
+       <l>I ne'er before, Sir, heard such words as these.</l>
+      </sp>
+      <sp who="#L1323_M2">
+       <speaker>Leon.</speaker>
+       <p>They were intended for–</p>
+      </sp>
+      <sp who="#L1323_F4">
+       <speaker>Mad.</speaker>
+
+       <l>The dead Marquise.</l>
+       <l>How should a girl like me, Sir, know ?</l>
+       <l>How could I tell that this were so ?</l>
+       <l>I thought that when 'twas placed in thine,</l>
+       <l>The hand that felt that clasp, was mine!</l>
+       <l>But since you say it is not so,</l>
+       <l>I shall, of course, in future know</l>
+       <l>That when my hand is pressed by thine,</l>
+       <l>It is another's hand—not mine.</l>
+
+      </sp>
+      <sp who="#L1323_M2">
+       <speaker>Leon.</speaker>
+       <l>You really felt ?</l>
+      </sp>
+      <sp who="#L1323_F4">
+       <speaker>Mad.</speaker>
+       <l>I felt you press my hand.</l>
+      </sp>
+      <sp who="#L1323_M2">
+       <speaker>Leon.</speaker>
+       <l>But what it meant ?</l>
+      </sp>
+      <sp who="#L1323_F4">
+       <speaker>Mad.</speaker>
+       <l>I did not understand.</l>
+      </sp>
+      <sp who="#L1323_M2">
+       <speaker>Leon.</speaker>
+       <stage> (warmly.)</stage>
+       <l>Such innocence, I never met before, </l>
+       <l>Dear Madelina, I'll ne'er leave thee more.</l>
+      </sp>
+      <sp who="#L1323_F4">
+       <speaker>Mad.</speaker>
+       <p>Not leave me more !</p>
+      </sp>
+      <sp who="#L1323_M2">
+       <speaker>Leon.</speaker>
+       <p>Do pray this favour grant!</p>
+      </sp>
+      <sp who="#L1323_F4">
+       <speaker>Mad.</speaker>
+       <p>I don't object—but, you must ask my aunt.</p>
+      </sp>
+      <sp who="#L1323_M2">
+       <speaker>Leon.</speaker>
+       <p>Tell me one thing, and frankly, dear, I pray;</p>
+       <p>Hast thou a sweetheart ?</p>
+      </sp>
+      <sp who="#L1323_F4">
+       <speaker>Mad.</speaker>
+       <p>Sweetheart! Must I say ?</p>
+      </sp>
+      <sp who="#L1323_M2">
+       <speaker>Leon.</speaker>
+       <p>At your age, there's no doubt.</p>
+      </sp>
+      <sp who="#L1323_F4">
+       <speaker>Mad.</speaker>
+       <p>I've not one, yet—</p>
+      </sp>
+      <sp who="#L1323_M2">
+       <speaker>Leon.</speaker>
+       <p>She says this with a feeling of regret.</p>
+      </sp>
+      <sp who="#L1323_F4">
+       <speaker>Mad.</speaker>
+       <l>At least I thought not—till just now you pressed</l>
+       <l>—My hand—</l>
+      </sp>
+      <sp who="#L1323_M2">
+       <speaker>Leon.</speaker>
+       <p>No <hi>hers</hi>—</p>
+      </sp>
+      <sp who="#L1323_F4">
+       <speaker>Mad.</speaker>
+       <p>Well, <hi>hers</hi>, in thine caressed.</p>
+      </sp>
+      <sp who="#L1323_M2">
+       <speaker>Leon.</speaker>
+       <p>That gave you some new thought, I well could see.</p>
+      </sp>
+      <sp who="#L1323_F4">
+       <speaker>Mad.</speaker>
+       <p>It made me wonder what this love could be.</p>
+
+       <l>When you began to speak</l>
+       <l>Of things unknown to me,</l>
+       <l>My fancy tried to seek</l>
+       <l>What this word " love " could be.</l>
+
+      </sp>
+      <sp who="#L1323_M2">
+       <speaker>Leon.</speaker>
+       <l>When to thine heart this wish for knowledge came.</l>
+       <l>You thought of someone—come, tell me his name.</l>
+      </sp>
+      <pb n="13"/>
+      <sp who="#L1323_F4">
+       <speaker>Mad.</speaker>
+       <l>His name! oh, no! his name I dare not tell.</l>
+      </sp>
+      <sp who="#L1323_M2">
+       <speaker>Leon.</speaker>
+       <p>Say—in this village does thy lover dwell ?</p>
+      </sp>
+      <sp who="#L1323_F4">
+       <speaker>Mad.</speaker>
+       <l>Yes, he dwells here—but I can say no more,</l>
+       <l>So ask me not.</l>
+      </sp>
+      <sp who="#L1323_M2">
+       <speaker>Leon.</speaker>
+       <l>Oh tell me I implore!</l>
+      </sp>
+      <sp who="#L1323_F4">
+       <speaker>Mad.</speaker>
+
+       <l>Reveal his name I can't,</l>
+       <l>That name I dare not tell;</l>
+       <l>But hither, <stage>(points to C. d.)</stage> comes my aunt,</l>
+       <l>So I must say farewell.</l>
+
+      </sp>
+      <sp who="#L1323_M2">
+       <speaker>Leon.</speaker>
+
+       <l>Oh, do this favour grant,</l>
+       <l>His name I pray thee, tell;</l>
+       <l>But hither comes your aunt,</l>
+       <l>So we must say farewell.</l>
+
+      </sp>
+      <sp who="#L1323_mult">
+       <speaker>Leon &amp; Mad.</speaker>
+       <p>Farewell, farewell, &amp;c, &amp;c.</p>
+      </sp>
+      <stage>exit Madelina. R.</stage>
+     </spGrp>
+     <sp who="#L1323_M2">
+      <speaker>Leon.</speaker>
+      <p>Yes, poor child, I will undertake to secure your happiness. It is a duty I owe to
+       Louise—and one I promise to perform in remembrance—of her. As soon as I learn her lover's
+       name, I'll speak to the Baron about it—and if necessary, I will sell every picture I paint to
+       provide her with a marriage portion,</p>
+      <stage>sits down to draw at table R. 2 E., with his back turned to R.</stage>
+     </sp>
+     <stage>Enter Baron from R. U. E. followed by Jean Pierre, they don't notice Leonard
+      drawing.</stage>
+     <sp who="#L1323_M1">
+      <speaker>Baron.</speaker>
+      <stage>(coming C.)</stage>
+      <p>I tell you I know it, for a fact.</p>
+     </sp>
+     <sp who="#L1323_M3">
+      <speaker>Jean.</speaker>
+      <p>Cousin Madelina,—loves me ?</p>
+     </sp>
+     <sp who="#L1323_M2">
+      <speaker>Leon.</speaker>
+      <stage>(Jumping up excited.)</stage>
+      <p>Good heavens! this is the man!</p>
+     </sp>
+     <sp who="#L1323_M1">
+      <speaker>Baron</speaker>
+      <stage>(to Leonard.)</stage>
+      <p>Ah! you're at work, I didn't see you. We shan't interrupt you, we're only talking over some
+       business—quite uninteresting to you.</p>
+     </sp>
+     <sp who="#L1323_M2">
+      <speaker>Leon.</speaker>
+      <stage>(aside.)</stage>
+      <p>Uninteresting to me ! Fancy my gentle Madelina loving a boor like that.</p>
+     </sp>
+     <stage>[sits down and listens while he pretends to draw.</stage>
+     <sp who="#L1323_M3">
+      <speaker>Jean.</speaker>
+      <p>Now I comes to think on it, may be you're right after all, and tho' I've no fancy for she,
+       that's no reason she shouldn't be sweet on me. She would'nt be the fust in the village who's
+       made up to Jean Pierre, and been disappointed, <stage>[swaggers.]</stage></p>
+     </sp>
+     <sp who="#L1323_M2">
+      <speaker>Leon.</speaker>
+      <stage>(aside.)</stage>
+      <p>The conceited Ape!</p>
+     </sp>
+     <pb n="14"/>
+     <sp who="#L1323_M3">
+      <speaker>Jean.</speaker>
+      <p>But suppose this here be true—what's the good on't?</p>
+     </sp>
+     <sp who="#L1323_M1">
+      <speaker>Baron.</speaker>
+      <p>If you'll listen I'll tell you. You wanted me this morning to take you into my service.</p>
+     </sp>
+     <sp who="#L1323_M3">
+      <speaker>Jean.</speaker>
+      <stage>(wiping his mouth.)</stage>
+      <p>I wants it all the more since I've been in the kitchen.</p>
+     </sp>
+     <sp who="#L1323_M1">
+      <speaker>Baron.</speaker>
+      <p>Well you see, I'm a very straight-laced kind of a master. I'm a married man myself, and
+       wont have any unmarried men in my house.</p>
+     </sp>
+     <sp who="#L1323_M3">
+      <speaker>Jean.</speaker>
+      <p>Then we shann't fall out there—for this very morning I promised marriage to a young woman,
+       a remarkably fine young woman, they call her the infant down here, for a joke, 'cause she's
+       so full grown, and her father's going to give her two hundred crowns.</p>
+     </sp>
+     <sp who="#L1323_M1">
+      <speaker>Baron.</speaker>
+      <p>The remarkably fine young woman won't suit me. I don't want any prize cattle in my
+       establishment, besides they tell me she squints and I dislike a squint.</p>
+     </sp>
+     <sp who="#L1323_M3">
+      <speaker>Jean.</speaker>
+      <p>But she's got two hundred crowns.</p>
+     </sp>
+     <sp who="#L1323_M1">
+      <speaker>Baron.</speaker>
+      <p>And carotty hair.</p>
+     </sp>
+     <sp who="#L1323_M3">
+      <speaker>Jean.</speaker>
+      <p>But she's got two hundred crowns.</p>
+     </sp>
+     <sp who="#L1323_M1">
+      <speaker>Baron.</speaker>
+      <p>Your wife will of course accompany you to Paris—where my house is renowned for its elegance
+       and refinement. I like my servants to be as little unrefined as possible, and that is the
+       reason I have selected Madelina; therefore, whether she suits you or not, you don't enter my
+       service unless you marry her. I'll give you five minutes to decide.</p>
+     </sp>
+     <sp who="#L1323_M3">
+      <speaker>Jean Pierre.</speaker>
+      <stage>(meditating.)</stage>
+      <p>Yes. No. Yes. No. When in doubt toss up.</p>
+      <stage>goes to table tossing up money.</stage>
+     </sp>
+     <spGrp>
+      <head>DUET.</head>
+      <sp who="#L1323_M3">
+       <speaker>Jean.</speaker>
+
+       <l>This matter's worth thinking of Jean Pierre, my lad;</l>
+       <l>After all Madelina's not half so bad.</l>
+
+       <stage>comes down c</stage>
+      </sp>
+      <sp who="#L1323_M2">
+       <speaker>Leon.</speaker>
+       <stage>(R. slipping bank note into Jean's hand.)</stage>
+
+       <l>There's a note you may keep, on condition you wed</l>
+       <l>The Infant—</l>
+
+      </sp>
+      <sp who="#L1323_M3">
+       <speaker>Jean.</speaker>
+
+       <l>What, marry the infant instead. ?</l>
+
+      </sp>
+      <sp who="#L1323_M2">
+       <speaker>Leon.</speaker>
+
+       <l>'Tis for five hundred francs.</l>
+
+      </sp>
+      <sp who="#L1323_M3">
+       <speaker>Jean.</speaker>
+       <stage> (taking note and looking at it.)</stage>
+       <l>On the safest of Banks !</l>
+       <l>You don't mean it really ?</l>
+
+      </sp>
+      <pb n="15"/>
+      <sp who="#L1323_M2">
+       <speaker>Leon.</speaker>
+
+       <l>I really do.</l>
+
+      </sp>
+      <sp who="#L1323_M3">
+       <speaker>Jean.</speaker>
+       <stage>(pockets note.)</stage>
+
+       <l>Thanks.</l>
+       <l>"This infant I've promised to many you see,</l>
+       <l>And nothing's so dear as my honour to me,</l>
+       <l>Then she's two hundred crowns, 'tis a tidy amount,</l>
+       <l>Of which little sum I've had part on account.</l>
+
+      </sp>
+      <sp who="#L1323_M1">
+       <speaker>Baron.</speaker>
+       <stage>(surprised.)</stage>
+       <l>She has two hundred crowns ?</l>
+      </sp>
+      <sp who="#L1323_M3">
+       <speaker>Jean.</speaker>
+       <l>Yes, she's two hundred crowns.</l>
+      </sp>
+      <sp who="#L1323_M1">
+       <speaker>Baron.</speaker>
+       <l>You don't mean that really ?</l>
+      </sp>
+      <sp who="#L1323_M3">
+       <speaker>Jean.</speaker>
+       <l>I really do.</l>
+      </sp>
+      <sp who="#L1323_M1">
+       <speaker>Baron.</speaker>
+       <stage>(leading Jean aside.)</stage>
+
+       <l>Zounds !</l>
+       <l>That honour you boast of will turn out I fear,</l>
+       <l>Not only to you, but to me rather dear,</l>
+       <l><stage>(taking purse from his pocket.)</stage> Take this purse, but one single condition I
+        make,</l>
+       <l>That for better or worse, Madelina you take.</l>
+
+      </sp>
+      <sp who="#L1323_M3">
+       <speaker>Jean.</speaker>
+
+       <l>Yes for better or worse,</l>
+       <l>In exchange for this purse,</l>
+
+       <stage>(pockets purse.)</stage>
+      </sp>
+      <sp who="#L1323_M1">
+       <speaker>Baron.</speaker>
+       <l>You don't seem to mind it.</l>
+      </sp>
+      <sp who="#L1323_M3">
+       <speaker>Jean.</speaker>
+       <l>No quite the reverse.</l>
+      </sp>
+     </spGrp>
+     <sp who="#L1323_M1">
+      <speaker>Baron.</speaker>
+      <p>But here she comes. Go and make her happy. I shall expect to hear this evening that its all
+       settled.</p>
+     </sp>
+     <stage>exit R. U. E. ogling Madelina as she enters R.</stage>
+     <sp who="#L1323_M2">
+      <speaker>Leon.</speaker>
+      <stage> (aside, drawing at table.)</stage>
+      <p>I have at any rate saved her, in spite of the Baron, from marrying a boor who would have
+       rendered her life unbearable.</p>
+     </sp>
+     <sp who="#L1323_M3">
+      <speaker>Jean.</speaker>
+      <stage>(going up to Mad.)</stage>
+      <p>Are you looking for me, my pretty cousin, Eh ?</p>
+     </sp>
+     <sp who="#L1323_F4">
+      <speaker>Mad.</speaker>
+      <p>No, Jean Pierre; I'm looking for the housekeeper, who wants to see me.</p>
+     </sp>
+     <sp who="#L1323_M3">
+      <speaker>Jean.</speaker>
+      <stage>(seizing her hand which she takes away.)</stage>
+      <p>That's a good joke, but it won't do. Why you're all of a tremble. I understand it,—so I
+       shall come to the pint at once. I love you.</p>
+     </sp>
+     <sp who="#L1323_F4">
+      <speaker>Mad.</speaker>
+      <stage> (who has been staring with astonishment at him, indignantly.)</stage>
+      <p>How dare you speak to me like that. ?</p>
+     </sp>
+     <sp who="#L1323_M3">
+      <speaker>Jean.</speaker>
+      <p>I offer you marriage on the spot.</p>
+     </sp>
+     <sp who="#L1323_M2">
+      <speaker>Leon.</speaker>
+      <stage> (getting up very indignant, and coming down.)</stage>
+      <p>You! Jean Pierre! offer her marriage, when you have promised to marry the "Infant," and
+       have been paid for it!</p>
+     </sp>
+     <pb n="16"/>
+     <sp who="#L1323_M3">
+      <speaker>Jean.</speaker>
+      <p>Five hundred francs! <stage>(giving them back.)</stage> I return 'em; my affections are not
+       to be bought, I love little Madelina, and her alone, and I offer her my hand and fortune.</p>
+     </sp>
+     <sp who="#L1323_M2">
+      <speaker>Leon.</speaker>
+      <p>Don't believe him, Madelina.</p>
+     </sp>
+     <stage>goes back to drawing table.</stage>
+     <sp who="#L1323_M3">
+      <speaker>Jean.</speaker>
+      <p>There's no mistake about it. The Baron has given me twice as much as you, on condition, I
+       marry Madelina.</p>
+     </sp>
+     <sp who="#L1323_F4">
+      <speaker>Mad.</speaker>
+      <p>But I wont have it I tell you.</p>
+     </sp>
+     <spGrp>
+      <head>DUET.</head>
+      <sp who="#L1323_M3">
+       <speaker>Jean.</speaker>
+
+       <l>You're wrong in refusing,</l>
+       <l>To hesitate choosing.</l>
+
+      </sp>
+      <sp who="#L1323_F4">
+       <speaker>Mad.</speaker>
+       <stage> (laughing.)</stage>
+
+       <l>A husband who is such a catch,</l>
+
+       <stage>(laughs.)</stage>
+      </sp>
+      <sp who="#L1323_M3">
+       <speaker>Jean.</speaker>
+
+       <l>A fortune like this, dear,</l>
+       <l>'Tis folly to miss, dear.</l>
+
+      </sp>
+      <sp who="#L1323_F4">
+       <speaker>Mad.</speaker>
+
+       <l>I dont think that we're a good match.</l>
+
+       <stage>(Jean tries to squeeze her hand.)</stage>
+      </sp>
+      <sp who="#L1323_F4">
+       <speaker>Mad.</speaker>
+       <stage>(angry.)</stage>
+
+       <l>Its no use your teasing,</l>
+       <l>Or both my hands squeezing,</l>
+
+      </sp>
+      <sp who="#L1323_M3">
+       <speaker>Jean.</speaker>
+
+       <l>Just think of the chance that you lose.</l>
+
+      </sp>
+      <sp who="#L1323_F4">
+       <speaker>Mad.</speaker>
+
+       <l>Don't try with your mammon,</l>
+       <l>A poor girl to gammon.</l>
+
+      </sp>
+      <sp who="#L1323_M3">
+       <speaker>Jean.</speaker>
+
+       <l>My offer you're wrong to refuse.</l>
+
+      </sp>
+     </spGrp>
+     <sp who="#L1323_M2">
+      <speaker>Leon.</speaker>
+      <stage> (clapping his hands, comes down.)</stage>
+      <p>Quite right, Madelina. I'd see him at the bottom of the sea before I'd marry him. You're
+       quite right.</p>
+     </sp>
+     <sp who="#L1323_M3">
+      <speaker>Jean.</speaker>
+      <p>Quite wrong. Its a downright robbery, trying to deprive me of a fortune and a career, but
+       for all you may both say, she <hi>shall</hi> be my wife.</p>
+     </sp>
+     <sp who="#L1323_F4">
+      <speaker>Mad.</speaker>
+      <p>Shall she.</p>
+     </sp>
+     <sp who="#L1323_M3">
+      <speaker>Jean.</speaker>
+      <p>Why not ?</p>
+     </sp>
+     <sp who="#L1323_F4">
+      <speaker>Mad.</speaker>
+      <p>Because I don't like you.</p>
+     </sp>
+     <sp who="#L1323_M3">
+      <speaker>Jean.</speaker>
+      <stage>(smiling.)</stage>
+      <p>I knows better nor that.</p>
+     </sp>
+     <sp who="#L1323_F4">
+      <speaker>Mad.</speaker>
+      <p>Because I dislike you—will <hi>that</hi> do ?</p>
+     </sp>
+     <sp who="#L1323_M3">
+      <speaker>Jean.</speaker>
+      <p>Who'll believe that ? Say if you like, that there is others who—perhaps at this moment, you
+       may be a hankering after; others—strangers, like this gentleman here.</p>
+     </sp>
+     <sp who="#L1323_F4">
+      <speaker>Mad.</speaker>
+      <p>The idea of such a thing!</p>
+     </sp>
+     <pb n="17"/>
+     <sp who="#L1323_M2">
+      <speaker>Leon.</speaker>
+      <p>Why she's seen me to-day for the first time!</p>
+     </sp>
+     <sp who="#L1323_M3">
+      <speaker>Jean.</speaker>
+      <p>But<hi> not</hi> for the first time to-day!</p>
+     </sp>
+     <sp who="#L1323_F4">
+      <speaker>Mad.</speaker>
+      <p>Will you be quiet, Jean Pierre ?</p>
+     </sp>
+     <sp who="#L1323_M3">
+      <speaker>Jean.</speaker>
+      <p>I saw her behind the fir-trees this morning, a pushing back the branches that she might
+       have a good look at you, when you were sitting on the bank drawing, she never took her eyes
+       off you.</p>
+     </sp>
+     <sp who="#L1323_F4">
+      <speaker>Mad.</speaker>
+      <p>Pray don't believe him, he's a wicked story-teller.</p>
+     </sp>
+     <sp who="#L1323_M3">
+      <speaker>Jean.</speaker>
+      <p>And when I caught her at these here games, she blushed with shame—and was all of a
+       flurry.</p>
+     </sp>
+     <sp who="#L1323_F4">
+      <speaker>Mad.</speaker>
+      <p>Don't believe him—I had only that moment perceived you.</p>
+     </sp>
+     <sp who="#L1323_M3">
+      <speaker>Jean.</speaker>
+      <p>She'd been there ever such a long time, you know that, very well, and I'll let everybody
+       else know, shame on you—running after a gentleman in that way!</p>
+     </sp>
+     <spGrp>
+      <head>TRIO.</head>
+      <sp who="#L1323_M3">
+       <speaker>Jean.</speaker>
+
+       <l>Yes, your shame</l>
+       <l>I'll proclaim,</l>
+       <l>Down your pride I'll bring.</l>
+       <l>I won't spare</l>
+       <l>You, I swear,</l>
+       <l>You shall feel my sting.</l>
+
+      </sp>
+      <sp who="#L1323_F4">
+       <speaker>Mad.</speaker>
+
+       <l>What a shame,</l>
+       <l>To defame</l>
+       <l>Me, for such a thing.</l>
+       <l>'T isn't fair</l>
+       <l>I declare,</l>
+       <l>Shame on me to bring.</l>
+
+      </sp>
+      <sp who="#L1323_M2">
+       <speaker>Leon.</speaker>
+       <stage>(coming C. between Jean and Madelina.)</stage>
+
+       <l>There's no shame</l>
+       <l>To proclaim,</l>
+       <l>Let him use his sting.</l>
+       <l>If he dare</l>
+       <l>He could ne'er,</l>
+       <l>Shame upon you bring.</l>
+
+      </sp>
+      <sp who="#L1323_M3">
+       <speaker>Jean.</speaker>
+
+       <l>You'd better change before it is too late.</l>
+
+      </sp>
+      <sp who="#L1323_F4">
+       <speaker>Mad.</speaker>
+
+       <l>What marry you, a man I loathe and hate!</l>
+
+      </sp>
+      <sp who="#L1323_M2">
+       <speaker>Leon.</speaker>
+
+       <l>I can't imagine a more dreadful fate.</l>
+
+      </sp>
+      <pb n="18"/>
+      <sp who="#L1323_M3">
+       <speaker>Jean.</speaker>
+
+       <l>Change your mind,</l>
+       <l>Or you'll find</l>
+       <l>You are up a tree,</l>
+       <l>For I swear</l>
+       <l>And declare,</l>
+       <l>You<hi> shall</hi> marry me.</l>
+
+      </sp>
+      <sp who="#L1323_F4">
+       <speaker>Mad.</speaker>
+
+       <l>Change my mind ?</l>
+       <l>No, you'll find</l>
+       <l>You can't frighten me.</l>
+       <l>I don't care,</l>
+       <l>You can ne'er</l>
+       <l>Make me marry thee.</l>
+
+      </sp>
+      <sp who="#L1323_M2">
+       <speaker>Leon.</speaker>
+
+       <l>Never mind,</l>
+       <l>You will find,</l>
+       <l>A true friend in me.</l>
+       <l>Ill he'll fare,</l>
+       <l>If he dare</l>
+       <l>Try to marry thee.</l>
+
+      </sp>
+     </spGrp>
+     <sp who="#L1323_M3">
+      <speaker>Jean.</speaker>
+      <stage> (going off.)</stage>
+      <p>I'll go and find the Baron, and then we'll see.</p>
+      <stage>exit Jean R. U. E.</stage>
+     </sp>
+     <sp who="#L1323_F4">
+      <speaker>Mad.</speaker>
+      <stage>(stands very dejected.)</stage>
+     </sp>
+     <sp who="#L1323_M2">
+      <speaker>Leon.</speaker>
+      <p>What makes you look so unhappy ? Come and tell me all about it.</p>
+      <stage>moves two chairs to front.</stage>
+     </sp>
+     <sp who="#L1323_F4">
+      <speaker>Mad.</speaker>
+      <p>He'll go and say all sorts of things about me.</p>
+     </sp>
+     <sp who="#L1323_M2">
+      <speaker>Leon.</speaker>
+      <stage>(making Madelina sit down)</stage>
+      <p>Never mind, no one will believe him.</p>
+      <stage>(sits down.)</stage>
+     </sp>
+     <sp who="#L1323_F4">
+      <speaker>Mad.</speaker>
+      <p><hi>You</hi> already believe that this morning I was hiding to look at you.</p>
+     </sp>
+     <sp who="#L1323_M2">
+      <speaker>Leon.</speaker>
+      <p>Wasn't it true ?</p>
+     </sp>
+     <sp who="#L1323_F4">
+      <speaker>Mad.</speaker>
+      <p>Yes; but quite innocently. We don't see many new faces down here, and I was merely saying
+       to myself— " Who can that be, painting on the bank there ? "</p>
+     </sp>
+     <sp who="#L1323_M2">
+      <speaker>Leon.</speaker>
+      <p>I quite believe you.</p>
+     </sp>
+     <sp who="#L1323_F4">
+      <speaker>Mad.</speaker>
+      <p>I hope you don't think it was anything else, for one can't be good for much, if one gives
+       one's thoughts to —a—person, who all the time he is speaking to you—is thinking of somebody
+       else; who looks at you without seeing you, and who says " I love you," when all the time he
+       means some one else—for you do love some one.</p>
+     </sp>
+     <pb n="19"/>
+     <sp who="#L1323_M2">
+      <speaker>Leon.</speaker>
+      <p>She is, alas! no more.</p>
+     </sp>
+     <sp who="#L1323_F4">
+      <speaker>Mad.</speaker>
+      <stage>(sighing)</stage>
+      <p>That's all the worse; beauty fades, youth withers, but memory is an evergreen!</p>
+     </sp>
+     <sp who="#L1323_M2">
+      <speaker>Leon.</speaker>
+      <stage>(astonished.)</stage>
+      <p>What a sentiment! how did you get hold of that?</p>
+     </sp>
+     <sp who="#L1323_F4">
+      <speaker>Mad.</speaker>
+      <p>I am sure I do'nt know.</p>
+     </sp>
+     <sp who="#L1323_M2">
+      <speaker>Leon.</speaker>
+      <p>Altho' of course you know you are pretty, Madelina. I don't think you have any idea how
+       charming you are. I assure you, you are very nearly as attractive as—</p>
+     </sp>
+     <sp who="#L1323_F4">
+      <speaker>Mad.</speaker>
+      <p>The Marquise ?</p>
+     </sp>
+     <sp who="#L1323_M2">
+      <speaker>Leon.</speaker>
+      <stage>(embarrassed.)</stage>
+      <p>Yes; but in a different way.</p>
+     </sp>
+     <sp who="#L1323_F4">
+      <speaker>Mad.</speaker>
+      <stage> (sighing.)</stage>
+      <p>Ah! if I could only become like her, and a lady! but of course with a country girl that is
+       impossible. She was<hi> very, very</hi> pretty, I suppose ?</p>
+     </sp>
+     <sp who="#L1323_M2">
+      <speaker>Leon.</speaker>
+      <p>She had some qualities you, Madelina, do not possess; such as distinction, grace, &amp;c.
+       But you, on the other hand, are more tender, more a child of nature—and then her eyes—</p>
+     </sp>
+     <sp who="#L1323_F4">
+      <speaker>Mad.</speaker>
+      <p>Were of a different colour?</p>
+     </sp>
+     <sp who="#L1323_M2">
+      <speaker>Leon.</speaker>
+      <p>No. The very same, but their expression was that of pride, or rather of coldness and
+       indifference, whereas yours beam with tenderness. Then you are without name or fortune. The
+       Marquise was well born and rich. It was that indeed which caused me to shun rather than seek
+       her society; the thought that she could imagine I loved her for her wealth and station was
+       intolerable to me.</p>
+     </sp>
+     <sp who="#L1323_F4">
+      <speaker>Mad.</speaker>
+      <stage>(with joy)</stage>
+      <p>Then you never told her you loved her ?</p>
+     </sp>
+     <sp who="#L1323_M2">
+      <speaker>Leon.</speaker>
+      <p>Never ! with you, I had more courage.</p>
+     </sp>
+     <sp who="#L1323_F4">
+      <speaker>Mad.</speaker>
+      <p>Because what you said was not meant for me.</p>
+     </sp>
+     <sp who="#L1323_M2">
+      <speaker>Leon.</speaker>
+      <p>Oh, yes it was, partly ; I have a great affection for you, and should like to see you happy
+       ; I wish I could find some one worthy of you.</p>
+     </sp>
+     <sp who="#L1323_F4">
+      <speaker>Mad.</speaker>
+      <p>Thank you, sir, <stage>(gets up.)</stage> I prefer remaining as I am.</p>
+      <stage>places chair back</stage>
+     </sp>
+     <sp who="#L1323_M2">
+      <speaker>Leon.</speaker>
+      <p>What, never marry ?</p>
+     </sp>
+     <sp who="#L1323_F4">
+      <speaker>Mad.</speaker>
+      <p>Never.</p>
+     </sp>
+     <sp who="#L1323_M2">
+      <speaker>Leon.</speaker>
+      <p>Why.</p>
+     </sp>
+     <sp who="#L1323_F4">
+      <speaker>Mad.</speaker>
+      <p>That's my secret,—but <hi>you</hi>, sir.</p>
+     </sp>
+     <sp who="#L1323_M2">
+      <speaker>Leon.</speaker>
+      <stage>(horrified.)</stage>
+      <p>I! unfaithful to her !</p>
+     </sp>
+     <pb n="20"/>
+     <stage>gets up and places chair at back L. contemplates Madelina during symphony; advancing
+      towards her as air commences.</stage>
+     <stage>SONG.</stage>
+     <sp who="#L1323_M2">
+      <speaker>Leon.</speaker>
+
+      <l>Thinkest thou that I could ever</l>
+      <l>Turn my thoughts from her above ?</l>
+      <l>Thinkest thou I could e'er sever</l>
+      <l>Links that bind me to my love ?</l>
+      <l>While her image stands beside me,</l>
+      <l>And her spirit hovers near;</l>
+      <l>Spirit that may some day guide me</l>
+      <l>To her in some happy sphere ;</l>
+      <l>Spirit that may now be watching</l>
+      <l>From some Aidenn far above—</l>
+      <l>Watching if my heart be worthy—</l>
+      <l>Worthy of her future love.</l>
+
+     </sp>
+     <sp who="#L1323_M2">
+      <speaker>Leon.</speaker>
+      <p>No, Madelina, I shall never marry, the only affection my heart will ever admit will be a
+       brother's love for you.</p>
+     </sp>
+     <sp who="#L1323_F4">
+      <speaker>Mad.</speaker>
+      <p>If you really have any friendship for me, leave this place to-day, and never see me
+       again.</p>
+     </sp>
+     <sp who="#L1323_M2">
+      <speaker>Leon.</speaker>
+      <p>What give up my only happiness, Madelina ?</p>
+     </sp>
+     <sp who="#L1323_F4">
+      <speaker>Mad.</speaker>
+      <p>Your happiness, alas! I am but the reflection of it.</p>
+     </sp>
+     <sp who="#L1323_M2">
+      <speaker>Leon.</speaker>
+      <p>What matters it—if it gives me an interest in life—and helps to console me for her
+       loss.</p>
+     </sp>
+     <sp who="#L1323_F4">
+      <speaker>Mad.</speaker>
+      <p>For pity's sake—leave me—leave me ere it is too late.</p>
+     </sp>
+     <stage>DUET.</stage>
+     <sp who="#L1323_F4">
+      <speaker>Mad.</speaker>
+
+      <l>Leave me while 'tis yet unbroken,</l>
+      <l>Leave me—I implore ;</l>
+      <l>And the words I may have spoken</l>
+      <l>Think of never more.</l>
+      <l>Think no more of Madelina,</l>
+      <l>Faithful to thy fond Marquise;</l>
+      <l>Would to heaven I had been a</l>
+      <l>Lady—like thy loved Louise!</l>
+
+     </sp>
+     <pb n="21"/>
+     <sp who="#L1323_M2">
+      <speaker>Leon.</speaker>
+
+      <l>Take not back—what thou hast spoken,</l>
+      <l>But thy soul out-pour</l>
+      <l>To a heart that will, tho' broken,</l>
+      <l>Love thee evermore.</l>
+      <l>Let me love thee, Madelina,</l>
+      <l>Image of the fond Marquise,</l>
+      <l>Thanking heaven I have seen a</l>
+      <l>Likeness of my loved Louise.</l>
+      <p>Yes Madelina let me love you—with a brother's love— let me be——</p>
+     </sp>
+     <sp who="#L1323_F4">
+      <speaker>Mad.</speaker>
+      <p>No, it is too late, you should not have spoken of this—<hi>other</hi> love. Leave me I
+       implore, remember your promise.</p>
+     </sp>
+     <sp who="#L1323_M2">
+      <speaker>Leon.</speaker>
+      <stage>(sorrowfully)</stage>
+      <p>You insist? Then farewell, but before I leave—you <hi>too</hi> must grant me one favour—let
+       me <stage>(kneels down and presses her hand to his lips.)</stage> Let me as a brother—</p>
+     </sp>
+     <stage>at this moment Baron followed by Jean enters from R.U. E. and discover Leonard on his
+      knees.</stage>
+     <sp who="#L1323_M3">
+      <speaker>Jean.</speaker>
+      <stage> (entering.)</stage>
+      <p>Ah! what do I see ?</p>
+      <stage>[Madelina runs off R.]</stage>
+     </sp>
+     <sp who="#L1323_M1">
+      <speaker>Baron.</speaker>
+      <stage>(coming in behind Jean.)</stage>
+      <p>What's the matter ?</p>
+     </sp>
+     <sp who="#L1323_M3">
+      <speaker>Jean.</speaker>
+      <p>Why Madelina, my intended, whom you gave me your purse to marry—</p>
+     </sp>
+     <sp who="#L1323_M1">
+      <speaker>Baron.</speaker>
+      <stage>(impatiently.)</stage>
+      <p>Well?</p>
+     </sp>
+     <sp who="#L1323_M3">
+      <speaker>Jean.</speaker>
+      <p>Was being kissed by that gentleman.</p>
+      <stage>[points to Leonard.</stage>
+     </sp>
+     <sp who="#L1323_M1">
+      <speaker>Baron.</speaker>
+      <stage>(aside to quiet him.)</stage>
+      <p>Say nothing about it, you shall have a thousand francs more.</p>
+     </sp>
+     <sp who="#L1323_M3">
+      <speaker>Jean.</speaker>
+      <p>That's another thing.</p>
+     </sp>
+     <sp who="#L1323_M1">
+      <speaker>Baron.</speaker>
+      <stage>(sarcastically to Leonard)</stage>
+      <p>So, so , my melancholy swain. In spite of your grief you appear to allow yourself—</p>
+     </sp>
+     <sp who="#L1323_M2">
+      <speaker>Leon.</speaker>
+      <p>This sarcasm is thrown away, Baron. I don't deny the emotion I felt at the sight of this
+       young girl; you know the cause, but however great the interest or affection she inspires me
+       with, may be, it will not detain me a single day more in this country; and having made up my
+       mind to go, I was taking leave of Madelina—with her permission.</p>
+     </sp>
+     <sp who="#L1323_M3">
+      <speaker>Jean.</speaker>
+      <p>Oh! if it was taking leave, that's another pair of shoes ; there are circumstances—</p>
+     </sp>
+     <sp who="#L1323_M1">
+      <speaker>Baron.</speaker>
+      <p>Extenuating circumstances—</p>
+     </sp>
+     <sp who="#L1323_M3">
+      <speaker>Jean.</speaker>
+      <stage>(to Leonard.)</stage>
+      <p>As that's the case, sir, I'm sure I axe your pardon, <stage>(aside.)</stage> I think I
+       ought to have damages.</p>
+     </sp>
+     <sp who="#L1323_M1">
+      <speaker>Baron.</speaker>
+      <stage> (to Leonard.)</stage>
+      <p>Yes, my dear fellow, pardon us for having for one moment supposed that you had other
+       intentions.</p>
+     </sp>
+     <sp who="#L1323_M2">
+      <speaker>Leon.</speaker>
+      <p>My <hi>only</hi> intention is to proceed on my journey.</p>
+     </sp>
+     <sp who="#L1323_M1">
+      <speaker>Baron.</speaker>
+      <p>To-day ?</p>
+     </sp>
+     <sp who="#L1323_M2">
+      <speaker>Leon.</speaker>
+      <p>Immediately.</p>
+     </sp>
+     <sp who="#L1323_M1">
+      <speaker>Baron.</speaker>
+      <p>You forget you made me a promise, a promise I won't let you break; my wife will be so
+       pleased, and she's coming down here to-morrow. You know you promised me a portrait of the
+       Marquise.</p>
+     </sp>
+     <sp who="#L1323_M2">
+      <speaker>Leon.</speaker>
+      <p>True, but though I confess the idea pleased me this morning, I am less inclined to carry it
+       out now; then I've none of my things here, I left them at the village inn.</p>
+     </sp>
+     <sp who="#L1323_M1">
+      <speaker>Baron.</speaker>
+      <p>We'll soon have them fetched for you. That's Jean Pierre's business, <stage>(to
+        Jean.)</stage> Run quick and bring the gentleman's painting things.</p>
+     </sp>
+     <sp who="#L1323_M3">
+      <speaker>Jean.</speaker>
+      <p>You'll excuse me, sir, but under present circumstances, which don't happen to be
+       extenuating, I say —you'll excuse me if I don't <hi>think</hi> it right—if I don't
+        altogether—<hi>think</hi>—</p>
+     </sp>
+     <sp who="#L1323_M1">
+      <speaker>Baron.</speaker>
+      <p><hi>Think</hi>? what the devil do you mean Sir? what business has a fellow like you to
+        <hi>think</hi> ?</p>
+     </sp>
+     <sp who="#L1323_M3">
+      <speaker>Jean.</speaker>
+      <p>That's a good joke! How's a man to help thinking? why you can't prevent yourself thinking
+       that I've no business to think, any more than I can help thinking I have—</p>
+     </sp>
+     <sp who="#L1323_M1">
+      <speaker>Baron.</speaker>
+      <p>If you must ape your betters, do it at any rate on the way to the Inn, and make haste and
+       bring back the gentleman's painting things, for he wants to be off.</p>
+     </sp>
+     <sp who="#L1323_M3">
+      <speaker>Jean.</speaker>
+      <p>And to get me off that he may take leave again. <stage>(aside.)</stage> Now if he'd stand
+       something—I'd risk it, but if he wont stand anything—if he can't behave better than a common
+       painter, or a glazier, I'm not going to have him taking leave of my intended all day, no, nor
+       fetch his painting things neither.</p>
+     </sp>
+     <sp who="#L1323_M2">
+      <speaker>Leon.</speaker>
+      <stage>(aside.)</stage>
+      <p>I suppose he wants something for his trouble, something on account, he has a decidedly
+       commercial mind.</p>
+      <stage>pulls out some money to give him.</stage>
+     </sp>
+     <sp who="#L1323_M1">
+      <speaker>Baron.</speaker>
+      <p>Leave him alone for that, he'll never lose a chance of extorting money out of someone. I am
+       almost sorry now that I have promised to take him to Paris, he'll want me to stand something
+       every time I look at Madelina, and so unless her beauty vanishes, my weekly bills will
+       increase so rapidly that the Baroness may think it necessary to look into the accounts,
+        <stage>(turning round and seeing Jean putting money Leonard has given him into his
+        pocket.)</stage> Ah! I can see by his face that he has been levying his black mail. Never
+       mind I'll deduct it all out of his wages some day. <stage>(to Jean.)</stage> You've nothing
+       to stay for now.</p>
+     </sp>
+     <sp who="#L1323_M3">
+      <speaker>Jean.</speaker>
+      <p>I'm off, but no leave taking, mind, while I'm away, <stage>(going off.)</stage> I'll be
+       back in a brace of shakes—you'll keep your eye on him master, wont you ?</p>
+      <stage>[exit, to L. C.</stage>
+     </sp>
+     <sp who="#L1323_M1">
+      <speaker>Baron.</speaker>
+      <p>He'll soon be back unless, he finds someone, to pay him to stay, but that's not likely, so
+       you will soon be able to set to work.] If you've positively made up our mind about it, you
+       shall go after you’ve done this, but I didn’t fancy all my plan being knocked on the head.
+      </p>
+     </sp>
+     <sp who="#L1323_M2">
+      <speaker>Leon.</speaker>
+      <p> All your plan? </p>
+     </sp>
+     <sp who="#L1323_M1">
+      <speaker>Baron.</speaker>
+      <p> Yes, I had an idea—a capital idea. </p>
+     </sp>
+     <sp who="#L1323_M2">
+      <speaker>Leon.</speaker>
+      <stage> (rather surprised.)</stage>
+      <p> Ah! </p>
+     </sp>
+     <sp who="#L1323_M1">
+      <speaker>Baron.</speaker>
+      <p> Touching this portrait— I’ve given orders to the old housekeeper to unpack one of the
+       Baroness’ boxes which arrived just now, take out the prettiest gown she can find, and dress
+       up Madelina as a great lady, as a Marquise, so as to render the likeness even more striking,
+       if possible. You will then have a perfect copy to work from ; one’s only got to mention the
+       Marquise and you are worked up in a minute. You no longer refuse, Eh? I'll tell you how to
+       take her—it will be quite new—with a basket of flowers in her hand.</p>
+     </sp>
+     <sp who="#L1323_M2">
+      <speaker>Leon.</speaker>
+      <p>Ah yes, she loved them so.</p>
+     </sp>
+     <sp who="#L1323_M1">
+      <speaker>Baron.</speaker>
+      <p>I'll go and gather some in the garden,</p>
+      <stage>exit C. D.</stage>
+     </sp>
+     <stage>DUET.*</stage>
+     <sp who="#L1323_M1">
+      <speaker>Baron.</speaker>
+      <l>Yes, we'll have plenty of flowers all round,</l>
+      <l>With garlands we'll bind up her hair,</l>
+      <l>I know with sweet flowers my gardens abound,</l>
+      <l>A bouquet I'll run and prepare,</l>
+      <stage>about to leave</stage>
+     </sp>
+     <sp who="#L1323_M2">
+      <speaker>Leon.</speaker>
+      <stage> (detaining him.)</stage>
+      <l>Tho' with sweet flowers your gardens abound,</l>
+      <l>Tho' tended with every care ;</l>
+      <l>No flower that grows there will ever be found</l>
+      <l>With that one—now dead—to compare.</l>
+     </sp>
+     <sp who="#L1323_M1">
+      <speaker>Baron</speaker>
+      <l>The lily, the rose, and the pansy grow there,</l>
+     </sp>
+     <sp who="#L1323_M2">
+      <speaker>Leon.</speaker>
+      <l>The lily may boast that no flower's so fair.</l>
+     </sp>
+     <sp who="#L1323_M1">
+      <speaker>Baron</speaker>
+      <l>And hollyhocks, pink, white, and red,</l>
+     </sp>
+     <sp who="#L1323_M2">
+      <speaker>Leon.</speaker>
+      <l>The roses their perfume may spread,</l>
+     </sp>
+     <sp who="#L1323_M1">
+      <speaker>Baron</speaker>
+      <l>In fact I believe there's a perfect parterre,</l>
+     </sp>
+     <sp who="#L1323_M2">
+      <speaker>Leon.</speaker>
+      <l>But none of those flowers can ever compare,</l>
+     </sp>
+     <sp who="#L1323_M1">
+      <speaker>Baron</speaker>
+      <l>With flowers whereever you tread,</l>
+     </sp>
+     <sp who="#L1323_M2">
+      <speaker>Leon.</speaker>
+      <l>With that one that blooms overhead.</l>
+     </sp>
+     <stage>[exit Baron L.]</stage>
+     <sp who="#L1323_M2">
+      <speaker>Leon.</speaker>
+      <p>The moment I have finished the portrait, I will leave. It is right that I should do so.
+        <stage>(looks R. as Madelina comes in R. D. dressed as a Marquise, drawing back
+        astonished.)</stage> What do I see ? I am either mad—or it <hi>is</hi> Louise. In heaven's
+       name say you <hi>are</hi> Louise.</p>
+     </sp>
+     <sp who="#L1323_F4">
+      <speaker>Mad.</speaker>
+      <stage>(shaking her head.)</stage>
+      <p>Alas ! I am but Madelina, whom they have dressed up like this. Tell me, pray, what it all
+       means.</p>
+     </sp>
+     <sp who="#L1323_M2">
+      <speaker>Leon.</speaker>
+      <p>It means that I am to paint your portrait for them, as I promised,
+        <stage>(excited.)</stage> No, they shall never have it. But <stage>(looking round.)</stage>
+       let me take a pencil sketch of you as you are,—for myself, for myself alone.</p>
+     </sp>
+     <sp who="#L1323_F4">
+      <speaker>Mad.</speaker>
+      <p>I thought you were going to leave the Chateau?</p>
+     </sp>
+     <sp who="#L1323_M2">
+      <speaker>Leon.</speaker>
+      <p>So I am, but not without a likeness of my lost love—I promise to go directly I have done
+       it.</p>
+     </sp>
+     <sp who="#L1323_F4">
+      <speaker>Mad.</speaker>
+      <p>You promise?</p>
+     </sp>
+     <sp who="#L1323_M2">
+      <speaker>Leon.</speaker>
+      <p>Yes, it wont take me long, and then I will leave you —The sketch will ever remind me of
+       this day—so fraught with pleasure and pain, <stage>(music, while he places a table to draw
+        at, Madelina throws herself into an awkward position.)</stage> No, that won't do, I should
+       like to take you in a more natural position, for instance as you were when I first saw you,
+       when you came in singing. Ah! if I could only catch
+       <pb n="25"/> your expression as it was then. Sing something to me, and I will try.</p>
+      <stage>places Madelina in attitude, standing. She shrinks almost imperceptibly, when he
+       touches her.</stage>
+     </sp>
+     <sp who="#L1323_F4">
+      <speaker>Mad.</speaker>
+      <p>Did the Marquise sing ?</p>
+     </sp>
+     <sp who="#L1323_M2">
+      <speaker>Leon.</speaker>
+      <p>Yes, quaint old ballads, charmingly.</p>
+     </sp>
+     <sp who="#L1323_F4">
+      <speaker>Mad.</speaker>
+      <p>I think I can sing a ballad, or legend they call it here, about a sort of fairy who used to
+       haunt the river side, many years ago.</p>
+     </sp>
+     <sp who="#L1323_M2">
+      <speaker>Leon.</speaker>
+      <p>Oh! do sing it. <stage>(aside.)</stage> Just what Louise would have sung.</p>
+     </sp>
+     <sp who="#L1323_F4">
+      <speaker>Mad.</speaker>
+      <p>I will.</p>
+     </sp>
+     <sp who="#L1323_M2">
+      <speaker>Leon.</speaker>
+      <p>Just stand up like that for a few minutes.</p>
+      <stage>places chair, and sits to draw while she is singing.</stage>
+     </sp>
+     <spGrp>
+      <head>SONG.—Madelina.</head>
+      <sp who="#L1323_F4">
+       <speaker>Mad.</speaker>
+       <lg>
+        <l>The Corrigaun sat by a fountain fair,</l>
+        <l>Combing and plaiting her yellow hair,</l>
+        <l>When a weary knight</l>
+        <l>Girt in armour bright,</l>
+        <l>Chanced that day</l>
+        <l>To wend his way</l>
+        <l>To the sparkling brink of this fountain fair.</l>
+       </lg>
+       <lg>
+        <l>" Whoever thou fool-hearted knight may'st be,"</l>
+        <l>Cried the Corrigaun, "thou shalt wed with me,!'</l>
+        <l>" Come and spend thy life</l>
+        <l>" With a fairy wife,"</l>
+        <l>But the knight replied—</l>
+        <l>" A long-loved bride</l>
+        <l>" Is waiting and watching at home for me."</l>
+       </lg>
+       <lg>
+        <l>" No bride " she cried " shalt thou find to tell</l>
+        <l>" What happened to thee in this fairy dell."</l>
+        <l>Small heed did he pay</l>
+        <l>As he rode away—</l>
+        <l>Yet that night she died,</l>
+        <l>His long-loved bride,</l>
+        <l>Crushed by the weight of the Corrigaun's spell.</l>
+       </lg>
+      </sp>
+     </spGrp>
+     <sp who="#L1323_M2">
+      <speaker>Leon.</speaker>
+      <p>Brava! Brava! <stage>(aside.)</stage> How charming she is.</p>
+     </sp>
+     <sp who="#L1323_F4">
+      <speaker>Mad.</speaker>
+      <p>But you've not begun the picture.</p>
+     </sp>
+     <pb n="26"/>
+     <sp who="#L1323_M2">
+      <speaker>Leon.</speaker>
+      <p>I was listening.</p>
+     </sp>
+     <sp who="#L1323_F4">
+      <speaker>Mad.</speaker>
+      <p>You can't expect me to stand like this all day.</p>
+     </sp>
+     <sp who="#L1323_M2">
+      <speaker>Leon.</speaker>
+      <p>That's true, <stage>(pointing to an arm chair.)</stage> Sit down there and face me.
+        <stage>(she sits down fixing her eyes on the floor while he draws.)</stage> I won't keep you
+       ten minutes ; but don't fix your eyes on the ground, look <hi>straight</hi> at me.</p>
+     </sp>
+     <sp who="#L1323_F4">
+      <speaker>Mad.</speaker>
+      <stage>(looking at his eyes.)</stage>
+      <p>Like that?</p>
+     </sp>
+     <sp who="#L1323_M2">
+      <speaker>Leon.</speaker>
+      <p>Yes, like that; don't move,</p>
+      <stage>(draws.)</stage>
+     </sp>
+     <sp who="#L1323_F4">
+      <speaker>Mad.</speaker>
+      <p>Is that right ?</p>
+     </sp>
+     <sp who="#L1323_M2">
+      <speaker>Leon.</speaker>
+      <p>No, you mustn't look at me, it prevents me working.</p>
+     </sp>
+     <sp who="#L1323_F4">
+      <speaker>Mad.</speaker>
+      <p>Not look at you ? I must look somewhere.</p>
+     </sp>
+     <sp who="#L1323_M2">
+      <speaker>Leon.</speaker>
+      <stage>(getting up.)</stage>
+      <p>Stay! can you read?</p>
+     </sp>
+     <sp who="#L1323_F4">
+      <speaker>Mad.</speaker>
+      <stage> (hesitating.)</stage>
+      <p>No.</p>
+     </sp>
+     <sp who="#L1323_M2">
+      <speaker>Leon.</speaker>
+      <p>Never mind ; look as if you could, <stage>(takes newspaper which Baron has left on the
+        table, with the account of her husband's death, and gives it her.)</stage> Take this
+       paper.</p>
+      <stage>(he sits down again to draw. Madelina appears to be reading.)</stage>
+      <p>That's capital, don't move.</p>
+      <stage>(draws, while she gradually faints to musical accompaniment!)</stage>
+      <p>Good heavens ! what is the matter? She trembles—drops the paper—she is fainting ?</p>
+      <stage>(falls on his knees and takes her hand,)</stage>
+      <p>Speak Madelina ; what is it ?</p>
+     </sp>
+     <stage>[at this moment the Baron enters from L. with a bouquet, and Jean from C. with the
+      painting things.]</stage>
+     <sp who="#L1323_M3">
+      <speaker>Jean.</speaker>
+      <stage> (uttering a cry and dropping paint-box.)</stage>
+      <p>A pretty state of things again! no extenuating circumstances this time!</p>
+     </sp>
+     <sp who="#L1323_M1">
+      <speaker>Baron.</speaker>
+      <stage>(checking Jean.)</stage>
+      <p>Hold your row, will you !</p>
+     </sp>
+     <sp who="#L1323_M3">
+      <speaker>Jean.</speaker>
+      <p>Hold my row, while that gentleman remains on his knees to my intended. What do you think I
+       am made of?</p>
+     </sp>
+     <sp who="#L1323_M1">
+      <speaker>Baron.</speaker>
+      <stage> (aside)</stage>
+      <p>You shall have five hundred more. <stage>(aside)</stage> he'll ruin me.</p>
+     </sp>
+     <sp who="#L1323_M3">
+      <speaker>Jean.</speaker>
+      <p>That's another thing, after all, perhaps he is only taking leave, again.</p>
+     </sp>
+     <sp who="#L1323_M1">
+      <speaker>Baron.</speaker>
+      <stage>(aside.)</stage>
+      <p>I heartily wish he was.</p>
+     </sp>
+     <sp who="#L1323_M2">
+      <speaker>Leon.</speaker>
+      <stage> (still on his knees, turning to Baron.)</stage>
+      <p>Help ! for goodness sake. Can't you see that she is ill.</p>
+     </sp>
+     <pb n="27"/>
+     <sp who="#L1323_M1">
+      <speaker>Baron.</speaker>
+      <stage>(to Jean.)</stage>
+      <p>Quick, run and call some one.</p>
+     </sp>
+     <sp who="#L1323_M3">
+      <speaker>Jean.</speaker>
+      <p>Yes, but you'll look after them won't you? Keep your eye on that gentleman, if she should
+       come to while I'm away.</p>
+     </sp>
+     <stage>Baron goes off at L. D. sending off Jean. Madelina still in arm chair, Leonard still on
+      his knees before her.</stage>
+     <sp who="#L1323_M2">
+      <speaker>Leon.</speaker>
+      <p>She's coming to—she's coming to. <stage>(speaking low and tenderly to Madelina)</stage>
+       Farewell! Madelina, farewell!</p>
+     </sp>
+     <sp who="#L1323_F4">
+      <speaker>Mad.</speaker>
+      <stage>(taking hold of his arm and speaking low.)</stage>
+      <p>No! remain now.!</p>
+     </sp>
+     <sp who="#L1323_M2">
+      <speaker>Leon.</speaker>
+      <stage> (surprised.)</stage>
+      <p>What do you say ?</p>
+     </sp>
+     <sp who="#L1323_M1">
+      <speaker>Baron.</speaker>
+      <stage>(coming from l. d.)</stage>
+      <p>Well, is she better ?</p>
+     </sp>
+     <sp who="#L1323_F4">
+      <speaker>Mad.</speaker>
+      <stage>(seeing Baron near her.)</stage>
+      <p>Oh! it is nothing, Sir, only the heat, fatigue, and surprise.</p>
+     </sp>
+     <sp who="#L1323_M1">
+      <speaker>Baron.</speaker>
+      <p>Well, it wont do for me to interrupt your sitting, <stage>(to Leonard.)</stage> Pray go on.
+        <stage>(to Madelina.)</stage> But you mustn't sit like that, your attitude's ungraceful.
+       Bear in mind that nothing stamps a lady so much as style, <stage>(she gets up.)</stage> You
+       must stand—naturally—more at ease, <stage>(throws himself into a stiff attitude.)</stage>
+       like me. <stage>(Madelina imitates Baron's attitude.)</stage> That's capital—a first rate
+       imitation, one would hardly know you from a real lady. <stage>(ironically to Madelina, who
+        reads newspaper)</stage> And well, my dear Marquise—what's the news ?</p>
+     </sp>
+     <sp who="#L1323_F4">
+      <speaker>Mad.</speaker>
+      <stage>(taking him off)</stage>
+      <p>The most interesting my dear Baron.</p>
+     </sp>
+     <sp who="#L1323_M1">
+      <speaker>Baron.</speaker>
+      <stage>(laughing to Leonard.)</stage>
+      <p>First rate, upon my honor.</p>
+     </sp>
+     <sp who="#L1323_F4">
+      <speaker>Mad.</speaker>
+      <p>They say that the Marquise de Beaulieu, a lady well known in Paris, had recourse some time
+       ago to a stratagem, to free herself from an insupportable life, with her husband. She
+       positively spread the report of her own death!––</p>
+     </sp>
+     <sp who="#L1323_M2">
+      <speaker>Leon.</speaker>
+      <p>Good heavens ! they say that ?</p>
+     </sp>
+     <sp who="#L1323_M1">
+      <speaker>Baron.</speaker>
+      <stage>(laughing to Leonard.)</stage>
+      <p>Why she's making fun of you.</p>
+     </sp>
+     <sp who="#L1323_F4">
+      <speaker>Mad.</speaker>
+      <stage>(more seriously.)</stage>
+      <p>But in reality, concealed herself in the house of her old nurse in Brittany,</p>
+     </sp>
+     <pb n="28"/>
+     <sp who="#L1323_M2">
+      <speaker>Leon.</speaker>
+      <stage> (much excited.)</stage>
+      <p>Can this be true ?</p>
+     </sp>
+     <sp who="#L1323_F4">
+      <speaker>Mad.</speaker>
+      <p>Having made up her mind to pass the remainder of her days there in peace. The sudden death
+       however of the Marquis, has restored her once more to the world, <stage>(giving her hand to
+        Leonard.)</stage> and to liberty !</p>
+     </sp>
+     <sp who="#L1323_M2">
+      <speaker>Leon.</speaker>
+      <stage>(with much emotion, falling on his knees.)</stage>
+      <p>You are then Louise, my loved Louise.</p>
+     </sp>
+     <sp who="#L1323_M1">
+      <speaker>Baron.</speaker>
+      <stage>(falling on his knees the other side of her.)</stage>
+      <p>Forgive me—Marquise—pray.</p>
+     </sp>
+     <sp who="#L1323_F4">
+      <speaker>Mad.</speaker>
+      <stage>(to Baron.)</stage>
+      <p>On condition that for the future you behave better to your young and pretty wife.</p>
+     </sp>
+     <stage>Enter Jean,bringing glass of water; on seeing Baron and Leonard both on their knees to
+      Madelina, he utters a cry and spills water.</stage>
+     <stage>FINALE.</stage>
+     <sp who="#L1323_M3">
+      <speaker>Jean.</speaker>
+      <l>Two now, at once at my intended's feet!</l>
+      <l>I am undone, my ruin is complete.</l>
+     </sp>
+     <sp who="#L1323_M1">
+      <speaker>Baron.</speaker>
+      <stage>(getting up.)</stage>
+      <p>Intended stuff.</p>
+     </sp>
+     <sp who="#L1323_M3">
+      <speaker>Jean.</speaker>
+      <l>Why she's the girl you said,</l>
+      <l>Your mind you'd quite made up that I should wed.</l>
+     </sp>
+     <sp who="#L1323_M1">
+      <speaker>Baron.</speaker>
+      <p>We'll let you off.</p>
+     </sp>
+     <sp who="#L1323_M2">
+      <speaker>Leon.</speaker>
+      <stage> (getting up.)</stage>
+      <l>The marriage—</l>
+     </sp>
+     <sp who="#L1323_M3">
+      <speaker>Jean.</speaker>
+      <l>Will you ? thanks !</l>
+      <l>But I won't let you off that thousand francs.</l>
+     </sp>
+     <sp who="#L1323_F4">
+      <speaker>Mad.</speaker>
+      <stage> (coming C. to Jean.)</stage>
+      <l>As ransom <hi>I</hi> will pay thee every sou.</l>
+     </sp>
+     <sp who="#L1323_M3">
+      <speaker>Jean.</speaker>
+      <l>That's handsome, very handsome, miss, of you.</l>
+     </sp>
+     <sp who="#L1323_F4">
+      <speaker>Mad.</speaker>
+      <l>We both shall gain,</l>
+      <stage>(taking Leonard's hand.)</stage>
+      <l>And you my friend, who've proved,</l>
+      <l>That dead or living, me alone you loved,</l>
+      <l>How can I ever such true love repay ?</l>
+     </sp>
+     <sp who="#L1323_M1">
+      <speaker>Baron.</speaker>
+      <l>Leave it to him and he will find some way—</l>
+     </sp>
+     <sp who="#L1323_M2">
+      <speaker>Leon.</speaker>
+      <l>Leave it to me! I scarce know what to say—</l>
+      <l>For my love give me thine, is all I pray.</l>
+     </sp>
+     <sp who="#L1323_F4">
+      <speaker>Mad.</speaker>
+      <l>Which would you have love thee—the proud Marquise,</l>
+      <l>Or humble Madelina—tell me please?—</l>
+     </sp>
+     <sp who="#L1323_M2">
+      <speaker>Leon.</speaker>
+      <l>Between two natures—each so rare,</l>
+      <l>'Tis hard indeed to choose.</l>
+     </sp>
+     <sp who="#L1323_M1">
+      <speaker>Baron.</speaker>
+      <l>He loved them both—</l>
+     </sp>
+     <pb n="29"/>
+     <sp who="#L1323_M3">
+      <speaker>Jean.</speaker>
+      <l>So 'tis but fair—</l>
+     </sp>
+     <sp who="#L1323_F4">
+      <speaker>Mad.</speaker>
+      <stage> (giving both her hands to Leonard.)</stage>
+      <l>That he should neither lose.</l>
+      <l>So, take the pair, and with them share,</l>
+      <l>That heart to each so true;</l>
+      <l>'Twill be our care, that we may ne'er,</l>
+      <l>Be ought but true to you.</l>
+     </sp>
+     <sp who="#L1323_M2">
+      <speaker>Leon.</speaker>
+      <l>I'll take the pair, and with them share,</l>
+      <l>This heart, to each so true;</l>
+      <l>'Twill be my prayer that I may ne'er,</l>
+      <l>Be aught but true to you.</l>
+     </sp>
+     <sp who="#L1323_M1">
+      <speaker>Baron.</speaker>
+      <l>It is but fair that he should share,</l>
+      <l>His heart between the two;</l>
+      <l>If <hi>they</hi> can share, that's <hi>their</hi> affair,</l>
+      <l>With that I've naught to do.</l>
+     </sp>
+     <sp who="#L1323_M3">
+      <speaker>Jean.</speaker>
+      <l>If all be square, between the pair,</l>
+      <l>I've made a rare good <hi>coup</hi> ;</l>
+      <l>I've got my share, so I don't care.</l>
+      <l>A button what they do.</l>
+     </sp>
+     <sp who="#L1323_mult">
+      <speaker>All.</speaker>
+      <l>If all's well that ends well!</l>
+      <l>If all's well that ends well!</l>
+      <l>Friends ! ere we say farewell,</l>
+      <l>Pray, all our fears dispell,</l>
+      <l>Telling us by sign and sound,</l>
+      <l>That you approve of "Lost and Found."</l>
+     </sp>
+     <stage>R. Baron. Maddelina. Leonard. Jean, L.</stage>
+     <stage>CURTAIN.</stage>
+    </div>
+   </div>
+   <trailer>E. Rascol, Printer, Brydges Street, Covent Garden</trailer>
+  </body>
+ </text>
+</TEI>
