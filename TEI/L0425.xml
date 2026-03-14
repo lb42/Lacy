@@ -1,0 +1,2236 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L0425" xml:lang="en">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title>CRINOLINE.: TEI edition</title>
+    <author ref="lacyp:W0042"><persName>Robert B. Brough</persName><idno type="wikidata"
+      >Q7341877</idno></author>
+    <respStmt>
+     <resp>TEI conversion</resp>
+     <name>Lou Burnard</name>
+    </respStmt>
+   </titleStmt>
+   <publicationStmt>
+    <distributor>Privately distributed by the Digital Lacy Project</distributor>
+    <idno type="LAE">L0425</idno>
+    <availability>
+     <licence target="https://creativecommons.org/publicdomain/zero/1.0/">The Lacy Project waives
+      all rights to the TEI encoding applied to this material, which it believes to be in the public
+      domain. You may copy, modify, distribute, or perform this work freely. </licence>
+    </availability>
+   </publicationStmt>
+   <sourceDesc>
+    <bibl type="originalSource" n="29.5"><author n="W0042">Brough, Robert B.</author>
+     <title type="main">Crinoline</title>
+     <title type="sub">An Original Farce in one act</title>
+     <extent>19 pp (UM copy: 138 - 157)<measure type="pp" quantity="19"/>
+      <measure type="spCount" quantity="391"/>
+      <measure type="spvCount" quantity="0"/>
+      <measure type="txWords" quantity="8195"/>
+      <measure type="spWords" quantity="7149"/>
+      <measure type="stWords" quantity="1046"/>
+     </extent>
+     <title level="s"> Lacy's Acting Edition, volume 29, No. 0425</title><idno type="nic"
+      >N09827</idno><idno type="vpp">Vol29vCrinoline</idno></bibl>
+    <bibl type="surrogate" subtype="copytext"><ref
+      target="https://lb42.github.io/Lacy/Source/VPP/L0425-vpp.pdf">LoB from VPP</ref><ref
+      target="local:Vol29/L0425/L0425-vpp.pdf"/><ref target="local:Vol29/L0425/Vol29vCrinoline.pdf"
+     /></bibl>
+    <bibl type="surrogate"><ref
+      target="https://babel.hathitrust.org/cgi/pt?id=mdp.39015067453004&amp;seq=138 ">UM from
+      HT</ref><ref target="local:Vol29/L0425/L0425-um.pdf"/></bibl>
+    <listEvent>
+     <event type="LCP" when="1862-12-24" where="Olympic">
+      <desc>Licence sent 24 December for performance at the Olympic 18 December 1856. </desc>
+      <bibl type="msSource">BL ms LCP_52963.CC</bibl>
+     </event>
+     <event type="firstPerf" when="1856-12-18" source="textNic" where="Olympic">
+      <desc>Premiered at Royal Olympic Theatre 18 Dec. 1856</desc>
+     </event>
+    </listEvent>
+   </sourceDesc>
+  </fileDesc>
+  <profileDesc>
+   <!--S 1 Farce F. FARCE-->
+   <textClass>
+    <catRef target="#sizeS"/>
+    <catRef target="#act1"/>
+    <catRef target="nic:F."/>
+    <keywords>
+     <term>FARCE</term>
+    </keywords>
+   </textClass>
+   <particDesc>
+    <listPerson>
+     <person xml:id="L0425_M1">
+      <persName type="role">MR. COOBIDDY</persName>
+      <persName type="spkr" n="135">Coo.</persName>
+     </person>
+     <person xml:id="L0425_M2">
+      <persName type="role">CAPTAIN LE BROWN</persName>
+      <persName type="spkr" n="45">Captain.</persName>
+     </person>
+     <person xml:id="L0425_M3">
+      <persName type="role">JOHN LIPTROT</persName>
+      <persName type="spkr" n="5">John.</persName>
+     </person>
+     <person xml:id="L0425_M4">
+      <persName type="role">JACOB GRIMES</persName>
+      <persName type="spkr" n="9">Grimes.</persName>
+     </person>
+     <person xml:id="L0425_F5">
+      <persName type="role">MRS. COOBIDDY</persName>
+      <persName type="spkr" n="81">Mrs. C.</persName>
+     </person>
+     <person xml:id="L0425_F6">
+      <persName type="role">BELLA</persName>
+      <persName type="spkr" n="35">Bella.</persName>
+     </person>
+     <person xml:id="L0425_F7">
+      <persName type="role">MISS TITE</persName>
+      <persName type="spkr" n="7">Miss T.</persName>
+      <persName type="spkr" n="1">Miss Tite.</persName>
+     </person>
+     <person xml:id="L0425_F8">
+      <persName type="role">NANCY BITTERS</persName>
+
+      <persName type="spkr" n="73">Nancy.</persName>
+     </person>
+     <person xml:id="L0425_mult">
+      <persName type="role">[Multiple speakers]</persName>
+     </person>
+    </listPerson>
+   </particDesc>
+  </profileDesc>
+  <revisionDesc>
+   <change when="2026-03-14">Add wikidata link to titleStmt where possible</change>
+   <change when="2026-03-14">Hand edit and proofread against VPP original</change>
+   <change when="2026-02-12">TEI autotagging by Gemini Pro 2.5</change>
+  </revisionDesc>
+ </teiHeader>
+ <text>
+  <front>
+   <titlePage>
+    <titlePart type="main">Crinoline.</titlePart>
+    <titlePart type="sub">An original Farce, in one act.</titlePart>
+    <byline> by <docAuthor>ROBERT B. BROUGH</docAuthor> author of <title>"The Moustache Movement" "
+      </title><title>Medea," " </title><title>Lord Bateman," " </title><title>Kensington
+      Gardens</title>," &amp;c.; and (jointly) of " <title>The Enchanted Isle," "
+      </title><title>Sphinx" " </title><title>Mephistophiles" " </title><title>Camaralzaman and
+      Badoura" " </title><title>Last Edition of Ivanhoe," </title>&amp;c. &amp;c. &amp;c. </byline>
+    <docImprint> THOMAS HAILES LACY WELLINGTON STREET, STRAND, LONDON. </docImprint>
+   </titlePage>
+   <pb n="2"/>
+   <performance>
+    <head>Crinoline.</head>
+    <p>First Performed at the Royal Olympic Theatre, on Thursday, December 18th, 1856.</p>
+    <castList>
+     <head>Characters.</head>
+     <castItem>
+      <role gender="M">MR. COOBIDDY</role>
+      <roleDesc>(a Commercial Gentleman in the Manchester Trade, aged 29)</roleDesc>
+      <actor>Mr. F. Robson.</actor>
+     </castItem>
+     <castItem>
+      <role gender="M">CAPTAIN LE BROWN</role>
+      <roleDesc>(of the Blues, aged 26)</roleDesc>
+      <actor>Mr. G. VINING</actor>
+     </castItem>
+     <castItem>
+      <role gender="M">JOHN LIPTROT</role>
+      <roleDesc>(also an Officer of the Blues, aged 30)</roleDesc>
+      <actor>Mr. H. Cooper</actor>
+     </castItem>
+     <castItem>
+      <role gender="M">JACOB GRIMES</role>
+      <roleDesc>(a representative of the Industrial Interests)</roleDesc>
+      <actor>Mr. H.DANVERS</actor>
+     </castItem>
+     <castItem>
+      <role gender="F">MRS. COOBIDDY</role>
+      <roleDesc>(the Commercial Gent's Wife, aged 23)</roleDesc>
+      <actor>Miss Maskell.</actor>
+     </castItem>
+     <castItem>
+      <role gender="F">BELLA</role>
+      <roleDesc>(the Commercial Gent's Niece, aged 19)</roleDesc>
+      <actor>Miss Marston.</actor>
+      <actor>Miss Bromley.</actor>
+     </castItem>
+     <castItem>
+      <role gender="F">MISS TITE</role>
+      <roleDesc>(a fashionable Spinster, aged—?)</roleDesc>
+      <actor>Miss Stephens</actor>
+     </castItem>
+     <castItem>
+      <role gender="F">NANCY BITTERS</role>
+      <roleDesc>(a Domestic Servant, with an excellent character from her last place, but not so
+       well provided for her next, aged 37)</roleDesc>
+      <actor>Mr. J. Rogers</actor>
+     </castItem>
+    </castList>
+   </performance>
+   <set>
+    <p>Scene – LONDON, 1856.</p>
+
+    <p>Time of representation—48 minutes.</p>
+   </set>
+   <div type="costume">
+    <head>Costumes.</head>
+    <list>
+     <item><label>MR. COOBIDDY</label> Blue frock coat, grey vest, green plaid trousers.</item>
+     <item><label>LE BROWN</label> Very long skirted fashionable grey coat, grey plaid trousers, hat
+      and umbrella.</item>
+     <item><label>LIPTROT</label> Policeman's great coat, hat and trousers.</item>
+     <item><label>GRIMES</label> Moleskin jacket and trousers, vest, leather apron and paper
+      cap.</item>
+     <item><label>MRS. COOBIDDY</label> Figured muslin morning dress. Second Dress: Blue gauze ball
+      dress.</item>
+     <item><label>BELLA</label> White muslin dress and crimson sash.</item>
+     <item><label>NANCY BITTERS</label> Blue narrow striped cotton dress, black stuff petticoat,
+      white collar, check apron, and white cap. Second Dress: Grey three flounced crinoline dress,
+      with skirt to be torn off, shewing hoops, &amp;c.</item>
+     <item><label>MISS TITE</label> Fashionable three-flounced red silk dress, black velvet jacket,
+      and small bonnet.</item>
+    </list>
+   </div>
+  </front>
+  <pb n="3"/>
+  <body>
+   <head>CRINOLINE.</head>
+   <div type="scene">
+    <stage>SCENE—A Sitting Room in Mr. Coobiddy's House, furnished in the style of a comfortable
+     Suburban Villa; door,R. 2 E. ; door in flat, R.C; centre doors ; Window, L. 2 E. ; Closet, L. 2
+     E.</stage>
+    <stage>Mrs. Coobiddy and Miss Tite discovered seated. The latter in walking costume and dressed
+     up to the height of the prevailing fashion —large hooped skirt, tight waisted jacket, small
+     bonnet, &amp;c. (she is however very old and ugly)</stage>
+
+    <sp who="#L0425_F7">
+     <speaker>Miss T.</speaker>
+     <p>Oh, my dear, I assure you you must have one. It is indispensable, my love, <hi>dee rig
+       yewer</hi>—in fact. You cannot possibly show yourself in the street without one, <hi>toot le
+       mond</hi> wears them.</p>
+    </sp>
+    <sp who="#L0425_F5">
+     <speaker>Mrs. C.</speaker>
+     <stage>(R. C.)</stage>
+     <p>Well, for my own part, do you know I can't say that I greatly admire them.</p>
+    </sp>
+    <sp who="#L0425_F7">
+     <speaker>Miss Tite.</speaker>
+     <p>And pray, my dear, what can it matter whether you admire them or not ? I trust you are not
+      going to set up your individual opinion against the fashion. But you really surprise me by
+      your want of taste. Who can help admiring them ? Observe the majestic and graceful sway they
+      give to the figure while walking!</p>
+     <stage>(rises and walks up and down front of stage, wagging her skirt about
+      ridiculously)</stage>
+     <p>And when one has a waist<hi> biang tourney</hi> they give one an opportunity of showing it,
+      with the assistance of these dear delightful little jackets.</p>
+    </sp>
+    <sp who="#L0425_F5">
+     <speaker>Mrs. C.</speaker>
+     <p>My husband says the new fashions in dress make a lady look like a perfect bell.</p>
+    </sp>
+    <sp who="#L0425_F7">
+     <speaker>Miss T.</speaker>
+     <stage>(simpering)</stage>
+     <p>Oh, indeed! I am glad to find your husband a man of taste for once in his life.</p>
+    </sp>
+    <sp who="#L0425_F5">
+     <speaker>Mrs. C.</speaker>
+     <p>For once, indeed ! Well, upon my word! But he doesn't mean the sort of belle you do—he means
+      a bell like the great bell of St. Paul's, or Big Ben.</p>
+    </sp>
+    <sp who="#L0425_F7">
+     <speaker>Miss T.</speaker>
+     <p><hi>Quel monstré</hi> !</p>
+    </sp>
+    <sp who="#L0425_F5">
+     <speaker>Mrs. C.</speaker>
+     <stage>(aside)</stage>
+     <p>Oh ! I'm not going to have my dear Tom called names. And he says a little wringing—at the
+      neck would do you all good, for making such frights of yourselves.</p>
+    </sp>
+    <sp who="#L0425_F7">
+     <speaker>Miss T.</speaker>
+     <stage>(angrily)</stage>
+     <p>Your husband is a vulgar wretch.<hi> Et vooz etes un oter</hi>, ma'am.</p>
+    </sp>
+    <sp who="#L0425_F5">
+     <speaker>Mrs. C.</speaker>
+     <stage>(rising)</stage>
+     <p>But he says you look even more like the dome of St. Paul's than the bell, and that the
+      pinching in of your waists carries out the resemblance, for it reddens your nose and makes you
+      show a little cross at the top.</p>
+    </sp>
+    <pb n="4"/>
+    <sp who="#L0425_F7">
+     <speaker>Miss T.</speaker>
+     <p>Did I come here to be insulted ? <hi>Par deu toot!</hi> Not if I know it.</p>
+    </sp>
+    <sp who="#L0425_F5">
+     <speaker>Mrs. C.</speaker>
+     <stage>(warmly)</stage>
+     <p>Oh, then if you only came to insult me and my husband, as I have no intention to put up with
+      it, the sooner you get outside of my door the better, if you can squeeze yourself through
+      it.</p>
+    </sp>
+    <sp who="#L0425_F7">
+     <speaker>Miss T.</speaker>
+     <stage>(ironically)</stage>
+     <p>Exquisite breeding, really! You are positively a credit to your amiable and gentlemanly
+      husband, in the Manchester trade, <stage>(going up to C., Mrs. Coobiddy crosses to L.)</stage>
+      I will have the pleasure of leaving you to the enjoyment of his very refined society,
+       <stage>(snappishly)</stage> and wishing him good luck of his precious bargain.</p>
+    </sp>
+    <sp who="#L0425_F5">
+     <speaker>Mrs. C.</speaker>
+     <p>The same to your husband—and I wish you may get one.</p>
+    </sp>
+    <sp who="#L0425_F7">
+     <speaker>Miss T.</speaker>
+     <stage>(curtseying at C. D.)</stage>
+     <p><hi>Madame, jee voo soo wait be bong jour</hi>—and many of 'em !</p>
+    </sp>
+    <stage>(as Miss Tite is about to leave the room majestically, she is stuck fast in the doorway,
+     with Coobiddy, who is about to enter; a struggle ensues, Miss Tite screams)</stage>
+    <sp who="#L0425_M1">
+     <speaker>Coo.</speaker>
+     <p>Gently, my dear madam—one at a time, and perhaps we may manage it. <stage>(draws back—Miss
+       Tite passes him contemptuously, and Exit C. and L., Coobiddy stands in doorway, looking after
+       her and calling)</stage> The next time you feel inclined for a morning call, I should
+      recommend Buckingham Palace—my staircases are rather narrow.</p>
+     <stage>(stands looking after her)</stage>
+    </sp>
+    <sp who="#L0425_F5">
+     <speaker>Mrs. C.</speaker>
+     <stage>(seated, R. C, and glancing nervously towards door, R. flat)</stage>
+     <p>The old tabby! I'm glad I've got rid of her. If I had told her I had ordered one myself, she
+      would have thought I was imitating her.</p>
+    </sp>
+    <sp who="#L0425_M1">
+     <speaker>Coo.</speaker>
+     <stage>(calling off, L. C.)</stage>
+     <p>Take the street to the right, it's the broadest; you might meet a cab in the other, and the
+      consequences would be dreadful.</p>
+     <stage>(comes forward, looking back occasionally)</stage>
+    </sp>
+    <sp who="#L0425_F5">
+     <speaker>Mrs. C.</speaker>
+     <stage>(aside, still looking at door, R. flat)</stage>
+     <p>I wonder if the man would have the sense to escape by the lawn windows ? he must know the
+      importance of secrecy in such cases; and he seemed a very intelligent person—I don't hear any
+      noise. <stage>(turns to her husband, trying to appear unconcerned)</stage> Well, Tom dear, are
+      you obliged to start on your journey this afternoon ?</p>
+    </sp>
+    <sp who="#L0425_M1">
+     <speaker>Coo.</speaker>
+     <stage>(takes chair and sits, C.)</stage>
+     <p>Before I answer that question, Mrs. C, allow me to ask one.</p>
+    </sp>
+    <sp who="#L0425_F5">
+     <speaker>Mrs. C.</speaker>
+     <stage>(R. C.)</stage>
+     <p>Certainly, Tom. <stage>(aside)</stage> Can he suspect?</p>
+    </sp>
+    <sp who="#L0425_M1">
+     <speaker>Coo.</speaker>
+     <p>Are you deeply versed in the History of England ?</p>
+    </sp>
+    <sp who="#L0425_F5">
+     <speaker>Mrs. C.</speaker>
+     <p>I'm sure I don't know, Tom, I hope I learnt all that was proper, at Mrs. Backboard's.</p>
+    </sp>
+    <sp who="#L0425_M1">
+     <speaker>Coo.</speaker>
+     <p>I have no doubt but you did, with a great deal that wasn't into the bargain; but I do not
+      allude to the ninepenny Pinnock, or the three-and-sixpenny Goldsmith, of the early scholastic
+      period. I would simply ask you, if you are at all versed in the domestic manners of our
+      ancestors of the Elizabethan and previous epochs ?</p>
+    </sp>
+    <sp who="#L0425_F5">
+     <speaker>Mrs. C.</speaker>
+     <p>Oh ! If you are going to use hard words–</p>
+    </sp>
+    <sp who="#L0425_M1">
+     <speaker>Coo.</speaker>
+     <p>By no means, my love, I wish to complete your defective education, beginning where the
+      respected Mrs. Backboard appears
+      <pb n="5"/>to have left off. In the reign of Queen Elizabeth, my life, and previously—as you
+      may learn from the Annals of Stowe and others; it was customary for the most respectable
+      fathers of families, when their grown-up daughters misbehaved, or made fools of themselves, to
+      give the said grown-up daughters, a thundering good whacking.</p>
+    </sp>
+    <sp who="#L0425_F5">
+     <speaker>Mrs. C.</speaker>
+     <p>How very dreadful!</p>
+    </sp>
+    <sp who="#L0425_M1">
+     <speaker>Coo.</speaker>
+     <p>Ah ! you have no idea <hi>how</hi> dreadful! for the indignant parent was not legally
+      restricted, like the more frequently indignant husband, to a stick no thicker than his thumb;
+      so that the favourite weapon in such cases, was the mopstick. I assure you it did the young
+      ladies a world of good. I never regretted the decay of old English customs more than at the
+      present moment.</p>
+    </sp>
+    <sp who="#L0425_F5">
+     <speaker>Mrs. C.</speaker>
+     <p>Good heavens ! what do you mean ?</p>
+    </sp>
+    <sp who="#L0425_M1">
+     <speaker>Coo.</speaker>
+     <p>Well, it doesn't matter much ! I don't suppose that Miss Tite, who has just left us, at her
+      time of life, can be blessed with a father, young and strong enough to give her the thrashing
+      she requires. But I only know, if I had a wife, daughter or sister, capable of dressing
+      herself in imitation of a summer cabbage, with the stalk uppermost–</p>
+    </sp>
+    <sp who="#L0425_F5">
+     <speaker>Mrs. C.</speaker>
+     <stage>(coaxingly)</stage>
+     <p>Would you beat me with a mopstick, Tom ?</p>
+    </sp>
+    <sp who="#L0425_M1">
+     <speaker>Coo.</speaker>
+     <p>No, I don't say that; six months with hard labour is a consideration in these times; but I
+      would–</p>
+    </sp>
+    <sp who="#L0425_F5">
+     <speaker>Mrs. C.</speaker>
+     <stage>(as before)</stage>
+     <p>Apply for a deed of separation, Tom ?</p>
+    </sp>
+    <sp who="#L0425_M1">
+     <speaker>Coo.</speaker>
+     <p>There would be no occasion for that; we should be already separated three or four yards
+      either way;—if you wore one of those horsehair—I beg your pardon—They are made of horsehair, I
+      believe ?</p>
+    </sp>
+    <sp who="#L0425_F5">
+     <speaker>Mrs. C.</speaker>
+     <p>Of course, Tom. <stage>(aside)</stage> I dare not tell him the iron truth!</p>
+    </sp>
+    <sp who="#L0425_M1">
+     <speaker>Coo.</speaker>
+     <p>No; in that case I should simply claim a legal ratification of the matter. I should say, let
+      my wife enjoy her independent liberty within the territories of her horsehair—what do you call
+      it ?—and let me enjoy mine in single blessedness, at a considerable distance outside the
+      frontier.</p>
+    </sp>
+    <sp who="#L0425_F5">
+     <speaker>Mrs. C.</speaker>
+     <stage>(aside)</stage>
+     <p>I dare not tell him !</p>
+    </sp>
+    <sp who="#L0425_M1">
+     <speaker>Coo.</speaker>
+     <p>But then, I have no fear of you; you are a woman of sense or you could never have married
+      me—you are the nearest approach on earth to a perfect being, otherwise, how could I have
+      fallen in love with you? But I am uneasy about Bella.</p>
+    </sp>
+    <sp who="#L0425_F5">
+     <speaker>Mrs. C.</speaker>
+     <p>I am sure, Tom, you ought not to be; she is a dear good girl.</p>
+    </sp>
+    <sp who="#L0425_M1">
+     <speaker>Coo.</speaker>
+     <stage>(rises and crosses to R.)</stage>
+     <p>Very likely; but she is eighteen years of age, and is a fearful responsibility for a young
+      uncle only going on for his thirty. It was rather a mean proceeding on the part of my big
+      brother Joe, to die at all; he was forty-five, and ought to have known better.</p>
+    </sp>
+    <sp who="#L0425_F5">
+     <speaker>Mrs. C.</speaker>
+     <p>But I am sure, dear, Bella is all that we could wish.</p>
+    </sp>
+    <sp who="#L0425_M1">
+     <speaker>Coo.</speaker>
+     <p>I don't know—I don't know! <stage>(takes Mrs. Coobiddy forward, C.)</stage> She wants your
+      strength of character and purity of taste; I have already detected a baneful tendency on her
+      part to turn her front hair inside out, and gum it back, so as to shew the
+      <pb n="6"/> roots instead of the portion which nature intended to be visible. On the occasion
+      of giving her a paternal salute, I have found a good deal of her complexion come off on my
+      coat collar, causing me to remind myself of the jovial miller who resided on the banks of
+       <stage>(R.)</stage> the River Dee. Take my word for it, Maria, unless we look very sharp
+      after that girl, she'll come to Crinoline yet.</p>
+    </sp>
+    <sp who="#L0425_F5">
+     <speaker>Mrs. C.</speaker>
+     <stage>(L. ; aside)</stage>
+     <p>I wish he were not so prejudiced—I should like to tell him the whole truth.</p>
+    </sp>
+    <sp who="#L0425_M1">
+     <speaker>Coo.</speaker>
+     <p>However, I must be off, the train starts at six; I'm due at Manchester in the morning—and to
+      think you will be obliged to go to the party without me.</p>
+    </sp>
+    <sp who="#L0425_F5">
+     <speaker>Mrs. C.</speaker>
+     <p>Well, you may comfort yourself by knowing that I shan't at all enjoy myself, Tom.</p>
+    </sp>
+    <sp who="#L0425_M1">
+     <speaker>Coo.</speaker>
+     <p>There's something in that, to be sure; but it is hard when a fellow has a pretty little
+      wife, and a snug little home to be obliged to leave them for six months in the year.</p>
+    </sp>
+    <sp who="#L0425_F5">
+     <speaker>Mrs. C.</speaker>
+     <p>It is indeed, Tom. That horrid business !</p>
+    </sp>
+    <sp who="#L0425_M1">
+     <speaker>Coo.</speaker>
+     <p>Stop a bit! The business isn't so particularly horrid, after all; it pays the rent of the
+      snug little house, and stocks the wardrobe of the pretty little wife, not to mention such
+      minor considerations as legs of mutton, coals, boots, assessed taxes, and potatoes. On the
+      whole, I rather like the business than otherwise. Besides, Johnson has promised to take my
+      place as travelling partner, after Christmas.</p>
+    </sp>
+    <sp who="#L0425_F5">
+     <speaker>Mrs. C.</speaker>
+     <p>Oh, that will be delightful!</p>
+    </sp>
+    <sp who="#L0425_M1">
+     <speaker>Coo.</speaker>
+     <p>Won't it ? Then we shall begin to enjoy ourselves, if you like. Little trips in the
+      country.</p>
+    </sp>
+    <sp who="#L0425_F5">
+     <speaker>Mrs. C.</speaker>
+     <p>And now and then a box at the Opera.</p>
+    </sp>
+    <sp who="#L0425_M1">
+     <speaker>Coo.</speaker>
+     <p>Now and then ; but as a rule, I prefer Astley's. And lobster suppers!</p>
+    </sp>
+    <sp who="#L0425_F5">
+     <speaker>Mrs. C.</speaker>
+     <p>And pic-nics in the summer!</p>
+    </sp>
+    <sp who="#L0425_M1">
+     <speaker>Coo.</speaker>
+     <p>And you to tie on my shawl every morning, and give me a kiss, and wave your pocket
+      handkerchief to me when I'm top of the 'bus.</p>
+    </sp>
+    <sp who="#L0425_F5">
+     <speaker>Mrs. C.</speaker>
+     <p>And get such nice little dinners ready for you, by the time you come home in the
+      evening.</p>
+    </sp>
+    <sp who="#L0425_M1">
+     <speaker>Coo.</speaker>
+     <p>And then shrimps for tea.</p>
+    </sp>
+    <sp who="#L0425_F5">
+     <speaker>Mrs. C.</speaker>
+     <p>And muffins!</p>
+    </sp>
+    <sp who="#L0425_M1">
+     <speaker>Coo.</speaker>
+     <p>And cribbage, and you not objecting to smoke, and little drops of something warm after
+      supper. Oh, what a fairy-like existence !</p>
+    </sp>
+    <sp who="#L0425_F5">
+     <speaker>Mrs. C.</speaker>
+     <p>Delicious!</p>
+    </sp>
+    <sp who="#L0425_M1">
+     <speaker>Coo.</speaker>
+     <stage>(looking at watch)</stage>
+     <p>But, unfortunately, it isn't to come off till after Christmas—and it's five and twenty
+      minutes to six; I haven't a minute to lose. Eh! where the deuce is—oh, I know ! in that room
+      !</p>
+     <stage>(going quickly towards door of room in R. flat)</stage>
+    </sp>
+    <sp who="#L0425_F5">
+     <speaker>Mrs. C.</speaker>
+     <stage>(hastily intercepting him)</stage>
+     <p>What is it you want, dear?</p>
+    </sp>
+    <sp who="#L0425_M1">
+     <speaker>Coo.</speaker>
+     <p>Nothing; only my railway wrapper.</p>
+    </sp>
+    <sp who="#L0425_F5">
+     <speaker>Mrs. C.</speaker>
+     <p>It isn't there, dear ?</p>
+    </sp>
+    <sp who="#L0425_M1">
+     <speaker>Coo.</speaker>
+     <p>Oh, yes, it is; I spread it on the sofa when I went to take my nap to save the cover from my
+      boots.</p>
+     <stage>(going)</stage>
+    </sp>
+    <pb n="7"/>
+    <sp who="#L0425_F5">
+     <speaker>Mrs. C.</speaker>
+     <stage>(detaining him)</stage>
+     <p>Let me get it for you, dear!</p>
+    </sp>
+    <sp who="#L0425_M1">
+     <speaker>Coo.</speaker>
+     <p>Pooh ! I might have got it myself twenty times over by this time. <stage>(looking at
+       watch)</stage> It's only three and twenty minutes to six.</p>
+    </sp>
+    <sp who="#L0425_F5">
+     <speaker>Mrs. C.</speaker>
+     <stage>(detaining him)</stage>
+     <p>No, Tom—really—you can't go into that room just now.</p>
+    </sp>
+    <sp who="#L0425_M1">
+     <speaker>Coo.</speaker>
+     <p>Why not?</p>
+    </sp>
+    <sp who="#L0425_F5">
+     <speaker>Mrs. C.</speaker>
+     <p>Well, because you can't. In fact, there's somebody there.</p>
+    </sp>
+    <sp who="#L0425_M1">
+     <speaker>Coo.</speaker>
+     <p>Well, I don't suppose it's anybody I need be very much afraid of.</p>
+     <stage>(going)</stage>
+    </sp>
+    <sp who="#L0425_F5">
+     <speaker>Mrs. C.</speaker>
+     <p>No, indeed, Tom, you really must not. <stage>(aside)</stage> I must tell him a story. Bella
+      is there trying on a new frock-body with the dress maker.</p>
+    </sp>
+    <sp who="#L0425_M1">
+     <speaker>Coo.</speaker>
+     <p>Then why the deuce couldn't you say so before ? I don't want to see Bella trying on her new
+      frock-body with the dress maker. There's my old wrapper in the hall, quite good enough for
+      Manchester. By Jove, it only wants one and twenty minutes now! Come and help me on with my
+      great coat, and I'll kiss you in the passage.</p>
+     <stage>(going towards C. D.)</stage>
+    </sp>
+    <stage>Enter Bella, R. 2 E.</stage>
+    <sp who="#L0425_F6">
+     <speaker>Bella.</speaker>
+     <stage>(at door)</stage>
+     <p>Why, Uncle Tom, you're never going without saying good-bye to me, surely ?</p>
+    </sp>
+    <sp who="#L0425_M1">
+     <speaker>Coo.</speaker>
+     <p>Bella!</p>
+    </sp>
+    <sp who="#L0425_F5">
+     <speaker>Mrs. C.</speaker>
+     <stage>(L. aside)</stage>
+     <p>How very unfortunate !</p>
+    </sp>
+    <sp who="#L0425_M1">
+     <speaker>Coo.</speaker>
+     <stage>(C.)</stage>
+     <p>Isabella Coobiddy, come here! Why are you not in that room ?</p>
+    </sp>
+    <sp who="#L0425_F6">
+     <speaker>Bella.</speaker>
+     <p>In that room, Uncle ?</p>
+    </sp>
+    <sp who="#L0425_M1">
+     <speaker>Coo.</speaker>
+     <p>Yes, trying on a new frock-body with the dressmaker.</p>
+     <stage>(Mrs. Coobiddy makes signs to Bella)</stage>
+    </sp>
+    <sp who="#L0425_F6">
+     <speaker>Bella.</speaker>
+     <stage>(perplexed)</stage>
+     <p>The dressmaker ! Oh ! really—I—she's gone, Uncle, and I've come out.</p>
+    </sp>
+    <sp who="#L0425_M1">
+     <speaker>Coo.</speaker>
+     <p>May I ask how, Isabella Coobiddy? Up the chimney ? The unsullied purity of your muslin
+      belies the supposition. Out of the lawn windows ? It's raining cats and dogs, Isabella—though
+      I don't see any; and, as the sporting gentlemen say, you do not appear to have turned a
+      hair—and you haven't come through that door, Isabella, for I've been watching it. So, in
+      short—how about it?</p>
+    </sp>
+    <sp who="#L0425_F5">
+     <speaker>Mrs. C.</speaker>
+     <p>Well, Tom, if you must have the truth !</p>
+    </sp>
+    <sp who="#L0425_M1">
+     <speaker>Coo.</speaker>
+     <p>Well, if you happen to have such a thing about you, Mrs. C, I should like it.</p>
+    </sp>
+    <sp who="#L0425_F5">
+     <speaker>Mrs. C.</speaker>
+     <p>Well, then—I told you a story—there!</p>
+    </sp>
+    <sp who="#L0425_M1">
+     <speaker>Coo.</speaker>
+     <stage>(sits, C.)</stage>
+     <p>Mrs. Coobiddy, I had anticipated that portion of your narrative by my own unaided
+      intelligence—proceed !</p>
+    </sp>
+    <sp who="#L0425_F5">
+     <speaker>Mrs. C.</speaker>
+     <p>I have a particular reason for not wishing you to go into that room.</p>
+    </sp>
+    <sp who="#L0425_M1">
+     <speaker>Coo.</speaker>
+     <p>Well, let's hear if it's a good one.</p>
+    </sp>
+    <sp who="#L0425_F5">
+     <speaker>Mrs. C.</speaker>
+     <p>You mustn't ask me to tell it, Tom.</p>
+    </sp>
+    <sp who="#L0425_M1">
+     <speaker>Coo.</speaker>
+     <p>Oh ! you've another particular reason for keeping it dark, have you? Mrs. Coobiddy, I don't
+      like this.</p>
+    </sp>
+    <pb n="8"/>
+    <sp who="#L0425_F5">
+     <speaker>Mrs. C.</speaker>
+     <p>You surely cannot suspect me of anything wrong ?</p>
+    </sp>
+    <sp who="#L0425_M1">
+     <speaker>Coo.</speaker>
+     <stage>(aside)</stage>
+     <p>Well, it wouldn't do to confess it before a third party if I did. I don't say that.</p>
+    </sp>
+    <sp who="#L0425_F5">
+     <speaker>Mrs. C.</speaker>
+     <p>But you mean it, apparently, and I won't put with it! Here is the key of the room, sir; use
+      it or not as you think fit— only if you do, I warn you, I shall consider it an end to all
+      confidence between us. <stage>(aside)</stage> He'll never go in after that, surely !</p>
+    </sp>
+    <sp who="#L0425_M1">
+     <speaker>Coo.</speaker>
+     <stage>(rises, standing undecidedly, and looking wistfully at the key)</stage>
+     <p>Well, I like that—I do like that! As if I was the first to withhold confidence ! You know,
+      Maria, I have no secrets from you. Why, the other night, when I came home a little the worse,
+      I told you who I'd been with, and what I had taken.</p>
+    </sp>
+    <sp who="#L0425_F5">
+     <speaker>Mrs. C.</speaker>
+     <p>Pray, satisfy your doubts.</p>
+    </sp>
+    <sp who="#L0425_M1">
+     <speaker>Coo.</speaker>
+     <p>Stuff and nonsense! I have no doubts. There, take the key; what do I want with it ?</p>
+    </sp>
+    <sp who="#L0425_F5">
+     <speaker>Mrs. C.</speaker>
+     <p>I will only accept it with the assurance that you believe my little secret to be perfectly
+      harmless, as I give you my word it is.</p>
+    </sp>
+    <sp who="#L0425_M1">
+     <speaker>Coo.</speaker>
+     <p>Harmless ? of course it is. <stage>(coaxingly)</stage> But you might tell a fellow. I'm a
+      mighty inquisitive chap, I know; but I take after my mother.</p>
+    </sp>
+    <sp who="#L0425_F5">
+     <speaker>Mrs. C.</speaker>
+     <p>You have the remedy in your own hands. <stage>(aside)</stage> He'll never use it,
+      surely.</p>
+    </sp>
+    <sp who="#L0425_M1">
+     <speaker>Coo.</speaker>
+     <stage>(aside)</stage>
+     <p>I really don't know what to do.</p>
+    </sp>
+    <sp who="#L0425_F5">
+     <speaker>Mrs. C.</speaker>
+     <p>You had better decide, or you will miss the train. <stage>(aside)</stage> He's wavering.</p>
+    </sp>
+    <sp who="#L0425_M1">
+     <speaker>Coo.</speaker>
+     <stage>(gravely)</stage>
+     <p>Maria Coobiddy, I have decided. I believe that a suspicious husband is the most degraded of
+      characters; but as upon serious reflection I remember there is a large hole in my old wrapper,
+      and as it's nearly a quarter to six, I shall just go in and fetch my new one.</p>
+    </sp>
+    <stage>Unlocks door, R. F., and goes into room.</stage>
+    <sp who="#L0425_F5">
+     <speaker>Mrs. C.</speaker>
+     <stage>(falling hysterically into chair, C.)</stage>
+     <p>I didn't think he would do it. Bella, I am a ruined woman!</p>
+    </sp>
+    <sp who="#L0425_F6">
+     <speaker>Bella.</speaker>
+     <stage>(R.)</stage>
+     <p>Good gracious, aunt, how shocking!</p>
+    </sp>
+    <sp who="#L0425_F5">
+     <speaker>Mrs. C.</speaker>
+     <p>I know not what I say!—but it was all through you.</p>
+     <stage>(speaks in great agitation)</stage>
+    </sp>
+    <sp who="#L0425_F6">
+     <speaker>Bella.</speaker>
+     <p>Through me?</p>
+    </sp>
+    <sp who="#L0425_F5">
+     <speaker>Mrs. C.</speaker>
+     <p>Yes, I was envious of your superior youth and beauty;— in a moment of weakness I consented,
+      from a wish to rival you.</p>
+    </sp>
+    <sp who="#L0425_F6">
+     <speaker>Bella.</speaker>
+     <p>Well, I'm sure !—thank you. But I hope Captain Le Brown has more taste</p>
+    </sp>
+    <sp who="#L0425_F5">
+     <speaker>Mrs. C.</speaker>
+     <p>Do not think too harshly of me, Bella. You wouldn't have given way, I know—but I am justly
+      punished. He comes, and knows the worst.</p>
+    </sp>
+    <stage>Re-enter Coobiddy, R. D. F., he looks very grave and mysterious.</stage>
+    <sp who="#L0425_M1">
+     <speaker>Coo.</speaker>
+     <stage>(C.)</stage>
+     <p>Mrs. Coobiddy!</p>
+    </sp>
+    <sp who="#L0425_F5">
+     <speaker>Mrs. C.</speaker>
+     <stage>(R. C, trembling)</stage>
+     <p>Yes, Tom.</p>
+    </sp>
+    <sp who="#L0425_M1">
+     <speaker>Coo.</speaker>
+     <p>I have been in that blue chamber of mystery––</p>
+    </sp>
+    <sp who="#L0425_F5">
+     <speaker>Mrs. C.</speaker>
+     <p>I know, Tom.</p>
+    </sp>
+    <pb n="9"/>
+    <sp who="#L0425_M1">
+     <speaker>Coo.</speaker>
+     <p>And it is my duty to tell you that I have there discovered—</p>
+    </sp>
+    <sp who="#L0425_F5">
+     <speaker>Mrs. C.</speaker>
+     <p>Yes, Tom.</p>
+    </sp>
+    <sp who="#L0425_M1">
+     <speaker>Coo.</speaker>
+     <stage>(looking angrily at C. D. which has been agitated)</stage>
+     <p>What's the matter with that door ?</p>
+    </sp>
+    <sp who="#L0425_F5">
+     <speaker>Mrs. C.</speaker>
+     <stage>(C.)</stage>
+     <p>Which door?</p>
+    </sp>
+    <sp who="#L0425_M1">
+     <speaker>Coo.</speaker>
+     <p>That one.</p>
+    </sp>
+    <sp who="#L0425_F5">
+     <speaker>Mrs. C.</speaker>
+     <p>It's the wind, I suppose.</p>
+    </sp>
+    <sp who="#L0425_M1">
+     <speaker>Coo.</speaker>
+     <p>Then I wish the wind would mind it's own business, and not interrupt people at critical
+      moments. I say, that in that room I have discovered–</p>
+    </sp>
+    <sp who="#L0425_F5">
+     <speaker>Mrs. C.</speaker>
+     <p>I am listening, Tom.</p>
+    </sp>
+    <sp who="#L0425_M1">
+     <speaker>Coo.</speaker>
+     <p>Nothing whatever.</p>
+    </sp>
+    <sp who="#L0425_F5">
+     <speaker>Mrs. C.</speaker>
+     <stage>(looking up)</stage>
+     <p>No !</p>
+    </sp>
+    <sp who="#L0425_M1">
+     <speaker>Coo.</speaker>
+     <p>Not even my railway wrapper, which I now remember to have— <stage>(turning angrily towards
+       door, C.)</stage> Will you be quiet, wind?</p>
+    </sp>
+    <sp who="#L0425_F5">
+     <speaker>Mrs. C.</speaker>
+     <stage>(aside to Bella)</stage>
+     <p>He has escaped by the lawn window, to spare my shame. Devoted creature!—I could hug him for
+      it.</p>
+    </sp>
+    <sp who="#L0425_F6">
+     <speaker>Bella.</speaker>
+     <stage>(aside, r.)</stage>
+     <p>Well, I'm sure! A pretty sort of an aunt I've got!—and he to call himself a captain.</p>
+    </sp>
+    <sp who="#L0425_F5">
+     <speaker>Mrs. C.</speaker>
+     <stage>(aside to Bella)</stage>
+     <p>Oh, Bella, this shall be a warning to me!</p>
+    </sp>
+    <sp who="#L0425_F6">
+     <speaker>Bella.</speaker>
+     <stage>(in reply)</stage>
+     <p>I hope so, ma'am; but don't come too near me, if you please.</p>
+    </sp>
+    <sp who="#L0425_M1">
+     <speaker>Coo.</speaker>
+     <stage>(sternly)</stage>
+     <p>Well, madam !</p>
+    </sp>
+    <sp who="#L0425_F5">
+     <speaker>Mrs. C.</speaker>
+     <stage>(aside to Bella)</stage>
+     <p>Fear nothing, dear, we are quite safe now. <stage>(Bella bounces away from her
+       indignantly—to Coobiddy with forced laughter)</stage> Why, you stupid creature, don't you see
+      that––</p>
+    </sp>
+    <sp who="#L0425_M1">
+     <speaker>Coo.</speaker>
+     <p>I can't see anything while that confounded door keeps rattling so. <stage>(the movement of
+       the C. door ia suddenly stilled)</stage> Don't I see what ?</p>
+    </sp>
+    <sp who="#L0425_F5">
+     <speaker>Mrs. C.</speaker>
+     <stage>(giggling)</stage>
+     <p>That we have been making a fool of you ?</p>
+    </sp>
+    <sp who="#L0425_F6">
+     <speaker>Bella.</speaker>
+     <p>Don't say "we," if you please, Aunt.</p>
+    </sp>
+    <sp who="#L0425_M1">
+     <speaker>Coo.</speaker>
+     <p>You have been making a fool of me? Do you know, Mrs. Coobiddy, I had some suspicion to that
+      effect, from the beginning? and I feel by no means assured on the subject at present. I advise
+      you not to try it on again in any way—some ways especially. <stage>(looking angrily towards C.
+       D., which is again agitated)</stage> There must be something more in the wind than I know of;
+      that door was all right yesterday. I was about to say that it only wants twelve minutes to
+      six, and as I now remember having put my wrapper in this cupboard–</p>
+    </sp>
+    <stage>(crosses towards cupboard, L. 2 E.— Nancy Bitters who has been agitating the door C,
+     bursts into the room—runs down to L, and places her back against the cupboard, having
+     previously abstracted the key, which she conceals)</stage>
+    <sp who="#L0425_F8">
+     <speaker>Nancy.</speaker>
+     <stage>(hurriedly warding Coobiddy off from the cupboard)</stage>
+     <p>Quite a mistake, sir !—it ain't here, I took it up stairs myself. You had better all three
+      go up and rummage for it, or you'll miss the train, sir.</p>
+    </sp>
+    <sp who="#L0425_F5">
+     <speaker>Mrs. C.</speaker>
+     <stage>(R. C.)</stage>
+     <p>IS the woman mad ?</p>
+    </sp>
+    <sp who="#L0425_F6">
+     <speaker>Bella.</speaker>
+     <stage>(R.)</stage>
+     <p>If not, she's tipsy.</p>
+    </sp>
+    <pb n="10"/>
+    <sp who="#L0425_F8">
+     <speaker>Nancy.</speaker>
+     <stage>(up stage, L. C.)</stage>
+     <p>Ho, indeed! there's a chalk for both of you.</p>
+    </sp>
+    <sp who="#L0425_M1">
+     <speaker>Coo.</speaker>
+     <p>Nancy Bitters, will you allow me to come to that cupboard?</p>
+    </sp>
+    <sp who="#L0425_F8">
+     <speaker>Nancy.</speaker>
+     <stage>(withdrawing)</stage>
+     <p>Certainly, sir, if you wish it; but I warn you, you are wasting time.</p>
+    </sp>
+    <sp who="#L0425_M1">
+     <speaker>Coo.</speaker>
+     <p>1 will trouble you for the key.</p>
+    </sp>
+    <sp who="#L0425_F8">
+     <speaker>Nancy.</speaker>
+     <p>The key, sir ? Bless you, sir, the key of that there cupboard has been lost this
+      fortnight.</p>
+    </sp>
+    <sp who="#L0425_F6">
+     <speaker>Bella.</speaker>
+     <p>I saw her put it into her pocket not a minute ago.</p>
+    </sp>
+    <sp who="#L0425_F8">
+     <speaker>Nancy.</speaker>
+     <stage>(aside)</stage>
+     <p>You did, did you?—you'll owe me one more for that. Sir, I can only say this is not the first
+      time I've had to deplore that there young person's habit of speaking the untruth, and I'm sick
+      of shielding her.</p>
+    </sp>
+    <sp who="#L0425_F5">
+     <speaker>Mrs. C.</speaker>
+     <stage>(R. C.)</stage>
+     <p>You intolerable hussey ! how dare you? Mr. Coobiddy, force that cupboard door open; it's my
+      belief that the creature–</p>
+    </sp>
+    <sp who="#L0425_F8">
+     <speaker>Nancy.</speaker>
+     <p>Don't call me a creetur, Mrs. Coobiddy, or I'll let out upon you.</p>
+    </sp>
+    <sp who="#L0425_M1">
+     <speaker>Coo.</speaker>
+     <p>Woman, what do you mean ?</p>
+    </sp>
+    <sp who="#L0425_F8">
+     <speaker>Nancy.</speaker>
+     <p>Oh, you're agoing to call me names too, Mr. Coobiddy. I shan't open my mouth—though,
+      gracious knows I've kept it shut long enough. <stage>(aside)</stage> I'm safe for the sack, so
+      I may as well make 'em all uncomfortable. No, sir, not a word, if you was to trample me to
+      death with elephants.</p>
+    </sp>
+    <sp who="#L0425_F5">
+     <speaker>Mrs. C.</speaker>
+     <p>She has either got concealed in that closet some of my missing property, which I taxed her
+      with stealing this morning, or else one of her fellows.</p>
+    </sp>
+    <sp who="#L0425_F8">
+     <speaker>Nancy.</speaker>
+     <p>One of my fellows ? Ho, indeed! pray make sure, mim, that it ain't one of <hi>your</hi>
+      fellows, which I have concealed to screen you ? <stage>(aside)</stage> That was pretty well
+      thought on, considering the hurry of the moment</p>
+    </sp>
+    <sp who="#L0425_M1">
+     <speaker>Coo.</speaker>
+     <p>Anne Bitters ! spinster! explain yourself.</p>
+    </sp>
+    <sp who="#L0425_F8">
+     <speaker>Nancy.</speaker>
+     <p>Mr. Coobiddy, you're a <hi>pore</hi> creetur, sir, and has my warmest sympathies—that's what
+      you are.</p>
+    </sp>
+    <sp who="#L0425_F5">
+     <speaker>Mrs. C.</speaker>
+     <p>Mr. Coobiddy, will you force open that closet, or do you wish to hear me further
+      insulted?</p>
+    </sp>
+    <sp who="#L0425_M1">
+     <speaker>Coo.</speaker>
+     <p>Mrs. or Miss Bitters, unless you at once shut your mouth and open your cupboard, you'll see
+      what I will send you, which will most probably be in the form of a policeman.</p>
+    </sp>
+    <sp who="#L0425_F8">
+     <speaker>Nancy.</speaker>
+     <p>A policeman ! Ho, indeed!—that's your idea, is it ?</p>
+    </sp>
+    <sp who="#L0425_F5">
+     <speaker>Mrs. C.</speaker>
+     <p>Bella, open the front door, and scream for one.</p>
+    </sp>
+    <stage>(Bella is going up R. towards C. D.)</stage>
+    <sp who="#L0425_F8">
+     <speaker>Nancy.</speaker>
+     <p>Stop, mim.</p>
+     <stage>(Bella stops)</stage>
+     <p>You are determined on a policeman, are you, sir?</p>
+    </sp>
+    <sp who="#L0425_M1">
+     <speaker>Coo.</speaker>
+     <p>Emphatically.</p>
+    </sp>
+    <sp who="#L0425_F5">
+     <speaker>Mrs. C.</speaker>
+     <p>I should think so.</p>
+    </sp>
+    <sp who="#L0425_F6">
+     <speaker>Bella.</speaker>
+     <p>There's generally one at the area railings opposite, at this time of the afternoon.</p>
+    </sp>
+    <sp who="#L0425_F8">
+     <speaker>Nancy.</speaker>
+     <p>Stop, mim. <stage>(Bella stops)</stage> If you must have a policeman, and as it is as well
+      to keep scandal from getting beyond the premises — <stage>(opens cupboard, L. 3 E.)</stage>
+      John Liptrot, come out of that !</p>
+    </sp>
+    <pb n="11"/>
+    <stage>John Liptrot, a policeman, comes out, bowing confusedly.</stage>
+    <sp who="#L0425_F5">
+     <speaker>Mrs. C.</speaker>
+     <p>I knew it!</p>
+    </sp>
+    <sp who="#L0425_F6">
+     <speaker>Bella.</speaker>
+     <p>I was sure of it!</p>
+    </sp>
+    <sp who="#L0425_F5">
+     <speaker>Mrs. C.</speaker>
+     <p>Mr. Coobiddy, pay the wretch a month's wages, and send her about her business; but mind she
+      doesn't leave the house till I have examined her boxes.</p>
+    </sp>
+    <sp who="#L0425_F8">
+     <speaker>Nancy.</speaker>
+     <stage>(aside)</stage>
+     <p>Ho, indeed! you owe me one, and a few more, and I'll have 'em all out of you before I
+      go.</p>
+    </sp>
+    <sp who="#L0425_F5">
+     <speaker>Mrs. C.</speaker>
+     <p>Mr. Coobiddy, you will also please to take that policeman's number, and report him at
+      Scotland Yard. Bella, give me your arm ; we must not stay to be further insulted.</p>
+    </sp>
+    <sp who="#L0425_F6">
+     <speaker>Bella.</speaker>
+     <stage>(drawing back)</stage>
+     <p>Thank you, aunt;—there are certain matters to be explained between us.</p>
+    </sp>
+    <sp who="#L0425_F5">
+     <speaker>Mrs. C.</speaker>
+     <p>You goose ! I can explain everything. Come along.</p>
+    </sp>
+    <stage>Exeunt Bella and Mrs. Coobiddy, R. D 2 E.</stage>
+    <sp who="#L0425_M1">
+     <speaker>Coo.</speaker>
+     <p>Now, really, this is very annoying, I've missed the train, and I'm sure I don't know what to
+      do. Policeman, I suppose it would be a mere matter of form if I were to ask you to take
+      yourself into custody. <stage>(John touches his hat)</stage> But allow me to ask you as a
+      friend, whether you consider that cupboard a portion of your official beat ?</p>
+    </sp>
+    <sp who="#L0425_F8">
+     <speaker>Nancy.</speaker>
+     <stage>(nudges John not to speak—sentimentally)</stage>
+     <p>Surely a tender-hearted, loveable gentleman, like yourself, Mr. Coobiddy, wouldn't prevent a
+       <hi>pore</hi> gal from forming a honest attachment.</p>
+    </sp>
+    <sp who="#L0425_M1">
+     <speaker>Coo.</speaker>
+     <p>A poor girl! stop a bit! Anne Bitters, spinster. <stage>(sits, C.)</stage> Your outward
+      appearance gives me the idea of the ripest imaginable six-and-thirty.</p>
+    </sp>
+    <sp who="#L0425_F8">
+     <speaker>Nancy.</speaker>
+     <p>Four-and-twenty, I assure you, sir, we a fine grown <hi>fambly</hi> and matures early. Some
+      of us at forty would astonish you.</p>
+    </sp>
+    <sp who="#L0425_M1">
+     <speaker>Coo.</speaker>
+     <p>But what right has that policeman ?––</p>
+    </sp>
+    <sp who="#L0425_F8">
+     <speaker>Nancy.</speaker>
+     <stage>(aside to John)</stage>
+     <p>Say as I say, you fool! Well, sir, the fact is, if you must know, which I am loath to tell
+      it. He was called in.</p>
+    </sp>
+    <sp who="#L0425_M1">
+     <speaker>Coo.</speaker>
+     <p>Called in?</p>
+    </sp>
+    <sp who="#L0425_F8">
+     <speaker>Nancy.</speaker>
+     <p>Well, after all, it's my duty, and know it you must, sooner or later. I could not abear it
+      no longer, sir. I couldn't stand, to see a handsome, well-grown gentleman, like yourself, with
+      every quality to charm the<hi> hi</hi> and win the heart.</p>
+    </sp>
+    <sp who="#L0425_M3">
+     <speaker>John.</speaker>
+     <stage>(L. aside)</stage>
+     <p>Dror it mild, Anne!</p>
+    </sp>
+    <sp who="#L0425_F8">
+     <speaker>Nancy.</speaker>
+     <stage>(c.)</stage>
+     <p>And what's more, sir, I wouldn't. No ! I says, I can make every allowance for the
+      flightiness of a young married woman, and Mr. Coobiddy being absent on business, six months in
+      the year is certainly some excuse.</p>
+    </sp>
+    <sp who="#L0425_M1">
+     <speaker>Coo.</speaker>
+     <stage>(R.)</stage>
+     <p>Good heavens ! What do you mean ?</p>
+    </sp>
+    <sp who="#L0425_F8">
+     <speaker>Nancy.</speaker>
+     <p>Bless you, sir, I have spoken to her over and over again, like a mother—I mean like a sister
+      a year or two older; but, lor ! what could I do again officers in the army and navy, and
+      medical students–</p>
+    </sp>
+    <sp who="#L0425_M1">
+     <speaker>Coo.</speaker>
+     <stage>(aghast)</stage>
+     <p>Officers in the army !</p>
+    </sp>
+    <sp who="#L0425_F8">
+     <speaker>Nancy.</speaker>
+     <p>And navy, sir; but especially in the medical perfession.
+      <pb n="12"/>You have no idea of the goings on in your absence! but at last, mortal patience
+      could stand it no longer, and I was determined your property should be protected this time, so
+      I called in John.</p>
+    </sp>
+    <sp who="#L0425_M3">
+     <speaker>John.</speaker>
+     <p>Yes, sir—she called me in, sure enough.</p>
+    </sp>
+    <sp who="#L0425_M1">
+     <speaker>Coo.</speaker>
+     <p>My property, woman ! What do you mean ?</p>
+    </sp>
+    <sp who="#L0425_F8">
+     <speaker>Nancy.</speaker>
+     <p>Lord bless your blindness, sir! haven't you noticed a great falling off in your stock of
+      neat wines, bottled porter, and spirituous liquors ?</p>
+    </sp>
+    <sp who="#L0425_M1">
+     <speaker>Coo.</speaker>
+     <p>I have! I have !</p>
+    </sp>
+    <sp who="#L0425_F8">
+     <speaker>Nancy.</speaker>
+     <p>And an equally astonishing heaping up of butcher's and grocer's bills!</p>
+    </sp>
+    <sp who="#L0425_M1">
+     <speaker>Coo.</speaker>
+     <p>True! true!</p>
+    </sp>
+    <sp who="#L0425_F8">
+     <speaker>Nancy.</speaker>
+     <p>Bless you, sir, nothing was too good for them—game pies, anchovies, lobster salads, and the
+      choicest Hawannahs.</p>
+    </sp>
+    <sp who="#L0425_M1">
+     <speaker>Coo.</speaker>
+     <p>Oh! this is an infamous calumny! Scorpion !</p>
+    </sp>
+    <sp who="#L0425_F8">
+     <speaker>Nancy.</speaker>
+     <p>Well, I'm sure!</p>
+    </sp>
+    <sp who="#L0425_M1">
+     <speaker>Coo.</speaker>
+     <p>How dare you accuse an angel of innocence, like Mrs. Coobiddy?</p>
+    </sp>
+    <sp who="#L0425_F8">
+     <speaker>Nancy.</speaker>
+     <p>Oh dear, no, sir! not for worlds! If I'm to be called out of names–
+       <stage>(going—returns)</stage> A month's wages, if you please, and wishing you a pleasant
+      trip to the North.</p>
+    </sp>
+    <sp who="#L0425_M1">
+     <speaker>Coo.</speaker>
+     <stage>(aside)</stage>
+     <p>This is too horrible! I thought such things only happened in French novels; and yet that
+      mysterious room! Tell me, woman, as you hope to be married, had you any suspicion of anybody
+      being concealed in that apartment ?</p>
+    </sp>
+    <sp who="#L0425_F8">
+     <speaker>Nancy.</speaker>
+     <p>Had I ? <stage>(aside)</stage> What's the fool driving at ? Bless you, sir, there's always
+      somebody concealed there.</p>
+    </sp>
+    <sp who="#L0425_M1">
+     <speaker>Coo.</speaker>
+     <p>But I have looked in the room.</p>
+    </sp>
+    <sp who="#L0425_F8">
+     <speaker>Nancy.</speaker>
+     <p>Not under the sofa, sir! That's where they hide, in general—look again, sir!</p>
+    </sp>
+    <stage>Coobiddy rushes into the room, R. D. in flat.</stage>
+    <sp who="#L0425_F8">
+     <speaker>Nancy.</speaker>
+     <p>I believe I have put a spoke or two in Mrs. C.'s wheel! John Liptrot, go down in the
+      kitchen—you'll find a pidging pie on the dresser, and a humbrellar containing perquisites
+      under it; you'd batter be off with both.</p>
+    </sp>
+    <sp who="#L0425_M3">
+     <speaker>John.</speaker>
+     <p>Pigeon pies, Anne, is all in the way of business; but loaded umbrellas is larceny. I'll
+      attend to the pie!</p>
+    </sp>
+    <stage>Exit,, C. D.</stage>
+    <stage>Coobiddy rushes out of room, R. D. in flat, pale and agitated, with an open letter in his
+     hand.</stage>
+    <sp who="#L0425_M1">
+     <speaker>Coo.</speaker>
+     <p>Anne Bitters, spinster!</p>
+    </sp>
+    <sp who="#L0425_F8">
+     <speaker>Nancy.</speaker>
+     <p>Sir!</p>
+    </sp>
+    <sp who="#L0425_M1">
+     <speaker>Coo.</speaker>
+     <p>Can you read?</p>
+    </sp>
+    <sp who="#L0425_F8">
+     <speaker>Nancy.</speaker>
+     <p>Printing hand, sir.</p>
+    </sp>
+    <sp who="#L0425_M1">
+     <speaker>Coo.</speaker>
+     <p>Ah! this is written hand! I found it lying on the table. You will observe that this letter
+      is addressed to Mrs. Coobiddy; you can make that out ?</p>
+    </sp>
+    <sp who="#L0425_F8">
+     <speaker>Nancy.</speaker>
+     <p>Ah—m—yes, sir, perfectly.</p>
+    </sp>
+    <sp who="#L0425_M1">
+     <speaker>Coo.</speaker>
+     <stage>(R. C.)</stage>
+     <p>Now listen! <stage>(reads in a tragic voice)</stage> "Seeing as
+      <pb n="13"/> how the company, K. U. M., company, didn't seem inclined to slope, I hooked it
+      out of the lawn winders, W. I. N. D. E R. S., winders. I have took it with me. It shall be all
+      right. I'll be in time for you to go to the party, never fear; I'll be at the Hairey Gate, H.
+      A. I. R. E. Y., Hairey! at seven o'clock. I'll whistle 'Pop goes the weasel.' Your gal can let
+      me in. Bless you, I am up to these sort of dodges, having had a many such affairs on my hands,
+      and ope I know how to manage 'em with proper delicacy. Yours most E. F. efeckshunately, Jacob
+      Grimes." Now, who is Grimes ?</p>
+    </sp>
+    <sp who="#L0425_F8">
+     <speaker>Nancy.</speaker>
+     <p>One of the lot, sir.</p>
+    </sp>
+    <sp who="#L0425_M1">
+     <speaker>Coo.</speaker>
+     <p>The lot ?—oh, heavens !—What is Grimes ?</p>
+    </sp>
+    <sp who="#L0425_F8">
+     <speaker>Nancy.</speaker>
+     <p>In the dragoons, sir—a cornet.</p>
+    </sp>
+    <sp who="#L0425_M1">
+     <speaker>Coo.</speaker>
+     <p>A piston ?</p>
+    </sp>
+    <sp who="#L0425_F8">
+     <speaker>Nancy.</speaker>
+     <p>Oh dear no, sir; the real thing.</p>
+    </sp>
+    <sp who="#L0425_M1">
+     <speaker>Coo.</speaker>
+     <p>But you don't mean to say this execrable scrawl, and positively criminal orthography, are
+      the work of an officer in Her Majesty's service ?</p>
+    </sp>
+    <sp who="#L0425_F8">
+     <speaker>Nancy.</speaker>
+     <p>Lor bless you, sir ! haven't you read the divulgences in the newspapers, about officers
+      exasperating their H's, and spelling colonel with a K ?</p>
+    </sp>
+    <sp who="#L0425_M1">
+     <speaker>Coo.</speaker>
+     <p>True—too true! And this is the end of my dream of domestic life. Farewell to the lobster
+      suppers, the cribbage party in the summer, the pic-nic after tea, and the little drop of
+      something warm on the box seat of Astley's Italian omnibus—Coobiddy's occupation's gone !
+       <stage>(sinks in chair, C. then starts up)</stage> Anne Bitters, spinster!</p>
+    </sp>
+    <sp who="#L0425_F8">
+     <speaker>Nancy.</speaker>
+     <p>Sir?</p>
+    </sp>
+    <sp who="#L0425_M1">
+     <speaker>Coo.</speaker>
+     <p>What sort of a man is Grimes ?</p>
+    </sp>
+    <sp who="#L0425_F8">
+     <speaker>Nancy.</speaker>
+     <p>Ahem! —what you'd call a military looking sort of a man, sir,</p>
+    </sp>
+    <sp who="#L0425_M1">
+     <speaker>Coo.</speaker>
+     <p>Tall?</p>
+    </sp>
+    <sp who="#L0425_F8">
+     <speaker>Nancy.</speaker>
+     <p>Well, tallish.</p>
+    </sp>
+    <sp who="#L0425_M1">
+     <speaker>Coo.</speaker>
+     <p>Of gentlemanly but repulsive aspect ?</p>
+    </sp>
+    <sp who="#L0425_F8">
+     <speaker>Nancy.</speaker>
+     <p>That's him, sir.</p>
+    </sp>
+    <sp who="#L0425_M1">
+     <speaker>Coo.</speaker>
+     <p>The individual I allude to has an all-round collar, and a tendency to carrots.</p>
+    </sp>
+    <sp who="#L0425_F8">
+     <speaker>Nancy.</speaker>
+     <p>That's Grimes, sir.</p>
+    </sp>
+    <sp who="#L0425_M1">
+     <speaker>Coo.</speaker>
+     <p>He has a habit of twiddling his moustache, which I believe to be as false as himself.</p>
+    </sp>
+    <sp who="#L0425_F8">
+     <speaker>Nancy.</speaker>
+     <p>You've hit him off to a T, sir,</p>
+    </sp>
+    <sp who="#L0425_M1">
+     <speaker>Coo.</speaker>
+     <p>I'll hit him off to Jericho ! Why, I've noticed that fellow prowling about the house for the
+      last two days; I thought, perhaps, he lived in the neighbourhood. I trod on his toe as I
+      turned the comer, near the lawn gate, as I came in, and he begged my pardon —I hope I
+      scrunched his favourite corn. Anne Bitters!</p>
+    </sp>
+    <sp who="#L0425_F8">
+     <speaker>Nancy.</speaker>
+     <p>Sir.</p>
+    </sp>
+    <sp who="#L0425_M1">
+     <speaker>Coo.</speaker>
+     <p>Look at me.</p>
+    </sp>
+    <sp who="#L0425_F8">
+     <speaker>Nancy.</speaker>
+     <p>I do, sir—and a fine growed gentleman you are of your inches.</p>
+    </sp>
+    <sp who="#L0425_M1">
+     <speaker>Coo.</speaker>
+     <p>It is a question of inches. How much bigger do you suppose the infamous Grimes to be than
+      myself?</p>
+    </sp>
+    <sp who="#L0425_F8">
+     <speaker>Nancy.</speaker>
+     <p>Very trifling, sir; a foot-and-a-half, there or thereabouts.</p>
+    </sp>
+    <sp who="#L0425_M1">
+     <speaker>Coo.</speaker>
+     <p>But don't you think, armed with a righteous cause, and a
+      <pb n="14"/>thick stick, I should get the best of him in a fair stand-up fight, if I were to
+      come suddenly upon him behind ?</p>
+    </sp>
+    <sp who="#L0425_F8">
+     <speaker>Nancy.</speaker>
+     <p>No question on it.</p>
+    </sp>
+    <sp who="#L0425_M1">
+     <speaker>Coo.</speaker>
+     <p>Then I will submit my honour to the terrible ordeal of battle. I have pistols and other fire
+      irons on the premises : Grimes shall meet with a reception he little anticipates.
+       <stage>(looks at his watch)</stage> Five and twenty to seven. In five and twenty minutes the
+      hated melody of "Pop goes the weasel" will be sounded at my area railings—I think he said
+      seven. <stage>(consulting note)</stage> Yes—"at the hairey gate at seven o'clock." Oh,
+      domestic visions !—quiet evenings !—cold beef and pickles !</p>
+    </sp>
+    <sp who="#L0425_F8">
+     <speaker>Nancy.</speaker>
+     <p>Very natural on your part, sir; but be calm, sir.</p>
+    </sp>
+    <sp who="#L0425_M1">
+     <speaker>Coo.</speaker>
+     <p>By no means, Anne Bitters ! It would never do for me to be calm; I must get myself into a
+      terrible passion, or Grimes will probably have the best of me. I will exasperate myself by
+      reading his detested letter again. <stage>(looks at note)</stage> Heartless villain! "I am up
+      to these sort of dodges. having had many such affairs on my hands !" Don Giovanni! glorying in
+      his villany—boasting of it to his victim!</p>
+    </sp>
+    <sp who="#L0425_F8">
+     <speaker>Nancy.</speaker>
+     <stage>(aside)</stage>
+     <p>Well, there's one comfort, they'll remember me when I'm gone.</p>
+    </sp>
+    <sp who="#L0425_M1">
+     <speaker>Coo.</speaker>
+     <p>And he signs himself "Yours E. F.—efeckshunately."</p>
+    </sp>
+    <sp who="#L0425_F8">
+     <speaker>Nancy.</speaker>
+     <p>Well, of course he'd do that.</p>
+    </sp>
+    <sp who="#L0425_M1">
+     <speaker>Coo.</speaker>
+     <p>But I'll have his blood! yes! I've worked myself up to this proper pitch of ferocity—and
+      I'll have his blood, unless he should make very serious opposition. <stage>(looking again at
+       note)</stage> "I hooked it out of the lawn winders—I–" Good heavens ! Anne Bitters!</p>
+    </sp>
+    <sp who="#L0425_F8">
+     <speaker>Nancy.</speaker>
+     <p>Sir!</p>
+    </sp>
+    <sp who="#L0425_M1">
+     <speaker>Coo.</speaker>
+     <p>Here is a fearful passage unexplained—"I have took <hi>it</hi> with me.—<hi>It</hi> shall be
+      all right!" What does he mean by <hi>it</hi>?</p>
+    </sp>
+    <sp who="#L0425_F8">
+     <speaker>Nancy.</speaker>
+     <p>Pray don't ask me, sir; I've said quite as much as becomes me.</p>
+    </sp>
+    <sp who="#L0425_M1">
+     <speaker>Coo.</speaker>
+     <stage>(seizing her arm)</stage>
+     <p>Woman ! I will know all!</p>
+    </sp>
+    <sp who="#L0425_F8">
+     <speaker>Nancy.</speaker>
+     <p>Don't call me woman, Mr. Coobiddy! But remember you are addressing a female.</p>
+    </sp>
+    <sp who="#L0425_M1">
+     <speaker>Coo.</speaker>
+     <stage>(overcome)</stage>
+     <p>And to think at the present moment I might have been enjoying a quiet cup of tepid coffee at
+      the Wolverton Station <stage>(looking at watch)</stage> Nineteen minutes to seven! Anne
+      Bitters, is there a frying-pan in the kitchen ?</p>
+     <stage>(going up to C. D.)</stage>
+    </sp>
+    <sp who="#L0425_F8">
+     <speaker>Nancy.</speaker>
+     <p>Lor, yes, to be sure, sir; but what do you want with a frying-pan, sir ?</p>
+     <stage>(L,.)</stage>
+    </sp>
+    <sp who="#L0425_M1">
+     <speaker>Coo.</speaker>
+     <p>To dry some gunpowder!</p>
+    </sp>
+    <stage>Exit, C. D.</stage>
+    <sp who="#L0425_F8">
+     <speaker>Nancy.</speaker>
+     <stage>(solus)</stage>
+     <p>Well, I don't think they'll forget poor Nancy Bitters in a hurry, in this here afflicted
+      establishment; and I think I may as well go and look after my boxes.</p>
+     <stage>(going to C. D.)</stage>
+    </sp>
+    <stage>Captain Le Brown puts his head in at R. D. in flat.</stage>
+    <sp who="#L0425_M2">
+     <speaker>Captain.</speaker>
+     <stage>(cautiously)</stage>
+     <p>S—s—tt! Nancy!</p>
+    </sp>
+    <sp who="#L0425_F8">
+     <speaker>Nancy.</speaker>
+     <p>Who's there ? Be off! There's a policeman within call.</p>
+    </sp>
+    <sp who="#L0425_M2">
+     <speaker>Captain.</speaker>
+     <stage>(coming down)</stage>
+     <p>It's only I, Nancy!</p>
+    </sp>
+    <sp who="#L0425_F8">
+     <speaker>Nancy.</speaker>
+     <stage>(l.)</stage>
+     <p>Oh, it's you, Captain le Brown! And where did you come from ?</p>
+    </sp>
+    <pb n="15"/>
+    <sp who="#L0425_M2">
+     <speaker>Captain.</speaker>
+     <stage>(c.)</stage>
+     <p>Through the lawn windows; I have been watching for the opportunity for two days. Burglarious
+      as is the proceeding, it is justified by the exigencies of the case—I wished for an
+      opportunity of speaking to you alone.</p>
+    </sp>
+    <sp who="#L0425_F8">
+     <speaker>Nancy.</speaker>
+     <p>Keep your distance, Captain le Brown! I'm only a <hi>pore</hi> gal, but of reputable
+      parients. <stage>(aside)</stage> He is the supposed Grimes, evidently.</p>
+    </sp>
+    <sp who="#L0425_M2">
+     <speaker>Captain.</speaker>
+     <p>Pshaw! Nonsense! You know my devoted attachment to Miss Bella.</p>
+    </sp>
+    <sp who="#L0425_F8">
+     <speaker>Nancy.</speaker>
+     <p>Well, there's no accounting for tastes.</p>
+    </sp>
+    <sp who="#L0425_M2">
+     <speaker>Captain.</speaker>
+     <p>You know I had even gone so far as to defy the objections of my family to an union with a
+      tradesman's daughter, and to-day I had promised to declare myself to Mrs. Coobiddy's
+      family.</p>
+    </sp>
+    <sp who="#L0425_F8">
+     <speaker>Nancy.</speaker>
+     <p>Well, then, I wouldn't advise you to.</p>
+    </sp>
+    <sp who="#L0425_M2">
+     <speaker>Captain.</speaker>
+     <p>Thank you, I have no longer any such intention, unless it is in your power to clear up a
+      terrible suspicion.</p>
+    </sp>
+    <sp who="#L0425_F8">
+     <speaker>Nancy.</speaker>
+     <p>Then I assure you it isn't; so you may be prepared for the worst. <stage>(aside)</stage> As
+      I'm going away, I ain't going to clear up nothing.</p>
+    </sp>
+    <sp who="#L0425_M2">
+     <speaker>Captain.</speaker>
+     <p>You, perhaps, do not understand me ; I scarcely know how to express myself—the question is a
+      delicate one.</p>
+    </sp>
+    <sp who="#L0425_F8">
+     <speaker>Nancy.</speaker>
+     <p>Then pray don't ask it of me ; I am only a pore gal; but—</p>
+    </sp>
+    <sp who="#L0425_M2">
+     <speaker>Captain.</speaker>
+     <p>You said that before, Nancy. I have noticed, within the last two days, an individual coming
+      and going from this house, an individual who—I wish to put it as delicately as I can—though of
+      the male sex, is not what we usually call a gentleman.</p>
+    </sp>
+    <sp who="#L0425_F8">
+     <speaker>Nancy.</speaker>
+     <p>I should think not! <stage>(aside)</stage> What, in the name of Fate</p>
+    </sp>
+    <sp who="#L0425_M2">
+     <speaker>Captain.</speaker>
+     <p>From unmistakeable signs which that individual has carried about with him, I argue that his
+      visits have been to a lady residing in this house—you understand me.</p>
+    </sp>
+    <sp who="#L0425_F8">
+     <speaker>Nancy.</speaker>
+     <p>Perfectly. <stage>(aside)</stage> Blessed if I do !</p>
+    </sp>
+    <sp who="#L0425_M2">
+     <speaker>Captain.</speaker>
+     <p>Nancy Bitters, assure me that his visits have not been to the idol of my affections, and you
+      will not not only make me a happy man, but I will owe you another sovereign.</p>
+    </sp>
+    <sp who="#L0425_F8">
+     <speaker>Nancy.</speaker>
+     <p>You don't happen to have one about you, do you ?</p>
+    </sp>
+    <sp who="#L0425_M2">
+     <speaker>Captain.</speaker>
+     <p>Confound it, I am always forgetting my purse !</p>
+    </sp>
+    <sp who="#L0425_F8">
+     <speaker>Nancy.</speaker>
+     <p>Then don't flatter yourself—Miss Bella is the party.</p>
+    </sp>
+    <sp who="#L0425_M2">
+     <speaker>Captain.</speaker>
+     <p>I knew it. Enough! all is over ! I will fly to other climes, and forget her. <stage>(going
+       up towards door, R. F.)</stage> I could have overlooked an uncle in the Manchester trade—even
+      a father who had borne the stigma of wholesale grocery. But John Edward le Brown has too much
+      of the proud blood of his ancestors in his veins to marry a woman capable of– <stage>(trying
+       to open door, R. F.)</stage> What the devil's the matter with this door ?</p>
+    </sp>
+    <sp who="#L0425_F8">
+     <speaker>Nancy.</speaker>
+     <stage>(L.)</stage>
+     <p>Hadn't you better go out at the front door, Captain?</p>
+    </sp>
+    <sp who="#L0425_M2">
+     <speaker>Captain.</speaker>
+     <p>No, I would depart as I came; I would have nobody see me in this establishment—I would be
+      forgotten, or only remembered to be detested and reviled. Confound the latch!—and here's
+      somebody coming!</p>
+    </sp>
+    <stage>Nancy runs out, C. D.</stage>
+    <stage>Enter Bella, R. D. 2 E.</stage>
+    <sp who="#L0425_F6">
+     <speaker>Bella.</speaker>
+     <stage>(aside)</stage>
+     <p>I really cannot understand Aunt Maria; she seems perfectly innocent, and says she will
+      explain all this evening but— <stage>(seeing Captain at door, R. F., screams)</stage> Ah !</p>
+    </sp>
+    <pb n="16"/>
+    <sp who="#L0425_M2">
+     <speaker>Captain.</speaker>
+     <stage>(bowing confusedly)</stage>
+     <p>Madam, you observe—the—handle has come off in my hand, otherwise–</p>
+    </sp>
+    <sp who="#L0425_F6">
+     <speaker>Bella.</speaker>
+     <p>You would have escaped without my seeing you, Captain le Brown.</p>
+    </sp>
+    <sp who="#L0425_M2">
+     <speaker>Captain.</speaker>
+     <stage>(stiffly)</stage>
+     <p>I confess that I had no wish to incur the pain of an interview with yourself, madam.</p>
+     <stage>(coming down, L. C.)</stage>
+    </sp>
+    <sp who="#L0425_F6">
+     <speaker>Bella.</speaker>
+     <stage>(R.)</stage>
+     <p>No, I dare say not;—I will bring it to a close, sir, by informing you that I'm acquainted
+      with your motive for breaking into my uncle's house like a thief.</p>
+    </sp>
+    <sp who="#L0425_M2">
+     <speaker>Captain.</speaker>
+     <p>In that case the necessity of a great deal of explanation is saved. I need not inform you,
+      madam, that all is over between us.</p>
+    </sp>
+    <sp who="#L0425_F6">
+     <speaker>Bella.</speaker>
+     <p>I should think so, indeed, after your conduct.</p>
+    </sp>
+    <sp who="#L0425_M2">
+     <speaker>Captain.</speaker>
+     <p>My conduct, madam, though perhaps indiscreet, and even illegal, I consider thoroughly
+      justified by the excess of my love.</p>
+    </sp>
+    <sp who="#L0425_F6">
+     <speaker>Bella.</speaker>
+     <p>And you dare avow this to me ?</p>
+    </sp>
+    <sp who="#L0425_M2">
+     <speaker>Captain.</speaker>
+     <p>I dare avow it to all the world, but that I have no wish to expose you.</p>
+    </sp>
+    <sp who="#L0425_F6">
+     <speaker>Bella.</speaker>
+     <stage>(aside)</stage>
+     <p>The wretch ! He alludes to my love letters! And I believed this man to be the soul of
+      honour! But are there not others who have still more to dread from an exposure ? Have you no
+      consideration for my poor uncle's feelings ?</p>
+    </sp>
+    <sp who="#L0425_M2">
+     <speaker>Captain.</speaker>
+     <p>Not a bit! He oughtn't to allow such things in his family.</p>
+    </sp>
+    <sp who="#L0425_F6">
+     <speaker>Bella.</speaker>
+     <stage>(aside)</stage>
+     <p>I never heard of such a monster ! At least have some pity for my aunt ?</p>
+    </sp>
+    <sp who="#L0425_M2">
+     <speaker>Captain.</speaker>
+     <p>I don't care a—snuff for your aunt.</p>
+    </sp>
+    <sp who="#L0425_F6">
+     <speaker>Bella.</speaker>
+     <p>Ah!</p>
+    </sp>
+    <sp who="#L0425_M2">
+     <speaker>Captain.</speaker>
+     <p>If your aunt was to come here, I'd tell her that she's not fit to have the charge of young
+      people.</p>
+     <stage>(walking up and down stage)</stage>
+    </sp>
+    <sp who="#L0425_F6">
+     <speaker>Bella.</speaker>
+     <stage>(aside)</stage>
+     <p>What incredible heartlessness! Wretch! And whose fault is it if she isn't ?</p>
+    </sp>
+    <sp who="#L0425_M2">
+     <speaker>Captain.</speaker>
+     <p>How do I know ? perhaps she's a fool, and can't help it.</p>
+    </sp>
+    <sp who="#L0425_F6">
+     <speaker>Bella.</speaker>
+     <p>I can bear this no longer!</p>
+     <stage>(sinks in chair, C.)</stage>
+    </sp>
+    <stage>Enter Coobiddy, C. D., armed with a bludgeon and horse pistol.</stage>
+    <p>Oh, uncle! save me from that wretch! The destroyer of your happiness and mine!</p>
+    <sp who="#L0425_M1">
+     <speaker>Coo.</speaker>
+     <stage>(in a low voice)</stage>
+     <p>I am aware of it Bella, <stage>(to Captain)</stage> Grimes, you are before your time !</p>
+    </sp>
+    <sp who="#L0425_M2">
+     <speaker>Captain.</speaker>
+     <p>My name is not Grimes, sir! <stage>(going up to him)</stage> But that is of little
+      consequence. I should advise you to keep a better eye upon the female members of your
+      household than you have done.</p>
+    </sp>
+    <sp who="#L0425_M1">
+     <speaker>Coo.</speaker>
+     <stage>(C.)</stage>
+     <p>Oh, heavens! Do you think, Grimes ?</p>
+    </sp>
+    <sp who="#L0425_M2">
+     <speaker>Captain.</speaker>
+     <stage>(L.)</stage>
+     <p>My name is not Grimes, sir.</p>
+    </sp>
+    <sp who="#L0425_M1">
+     <speaker>Coo.</speaker>
+     <p>No matter! I ask is it your opinion, cornet ?</p>
+    </sp>
+    <sp who="#L0425_M2">
+     <speaker>Captain.</speaker>
+     <p>I was gazetted to a captaincy, last week.</p>
+    </sp>
+    <sp who="#L0425_M1">
+     <speaker>Coo.</speaker>
+     <p>I congratulate you ! I was about to ask you, Captain G., if you think <hi>you</hi> are the
+      proper person to lecture me on the moral state of my family ?</p>
+    </sp>
+    <sp who="#L0425_M2">
+     <speaker>Captain.</speaker>
+     <p>Why not, sir?</p>
+    </sp>
+    <sp who="#L0425_M1">
+     <speaker>Coo.</speaker>
+     <p>What, after you have brought misery and despair into it ?</p>
+    </sp>
+    <pb n="17"/>
+    <sp who="#L0425_M2">
+     <speaker>Captain.</speaker>
+     <p>It is the lady's fault, not mine, sir! I have found her to be unworthy of my affections, and
+      I renounce her.</p>
+    </sp>
+    <sp who="#L0425_M1">
+     <speaker>Coo.</speaker>
+     <stage>(aside)</stage>
+     <p>And to think that I dare not even hit him !</p>
+    </sp>
+    <sp who="#L0425_F6">
+     <speaker>Bella.</speaker>
+     <stage>(R.)</stage>
+     <p>This, then, is the poor wretch's reward for sacrificing her duty to her family.</p>
+    </sp>
+    <sp who="#L0425_M1">
+     <speaker>Coo.</speaker>
+     <stage>(aside)</stage>
+     <p>How beautifully she takes my part! Oh, what a miserable coward I am !</p>
+    </sp>
+    <sp who="#L0425_M2">
+     <speaker>Captain.</speaker>
+     <p>I am not aware that the lady made any great sacrifice she is perhaps to be pitied for the
+      loss she will experience, that is all.</p>
+    </sp>
+    <sp who="#L0425_F6">
+     <speaker>Bella.</speaker>
+     <stage>(falling on Coobiddy's neck)</stage>
+     <p>Oh! Uncle! And I have loved this man.</p>
+    </sp>
+    <sp who="#L0425_M1">
+     <speaker>Coo.</speaker>
+     <p>You ? On horror's head horrors—what do you call it ? This is more than I bargained for.</p>
+    </sp>
+    <sp who="#L0425_F6">
+     <speaker>Bella.</speaker>
+     <p>Yes, he was to have asked your consent to our marriage to-day, but for this frightful
+      discovery.</p>
+    </sp>
+    <sp who="#L0425_M1">
+     <speaker>Coo.</speaker>
+     <stage>(aside)</stage>
+     <p>His back is turned! Courage, Coobiddy, and at him !</p>
+     <stage>(moves to attack the Captain)</stage>
+    </sp>
+    <sp who="#L0425_M2">
+     <speaker>Captain.</speaker>
+     <stage>(turning round)</stage>
+     <p>Now then, what's the matter?</p>
+    </sp>
+    <sp who="#L0425_M1">
+     <speaker>Coo.</speaker>
+     <stage>(concealing weapons)</stage>
+     <p>N—nothing!</p>
+    </sp>
+    <sp who="#L0425_M2">
+     <speaker>Captain.</speaker>
+     <p>What are you doing with those ridiculous weapons ?</p>
+    </sp>
+    <sp who="#L0425_M1">
+     <speaker>Coo.</speaker>
+     <p>I was about to start for Manchester, and I always travel armed. <stage>(aside)</stage> Oh !
+      Dastard! Pitiful—Miserable Poltroon ! <stage>(beats himself with weapons)</stage> Oh, if I
+      could only exasperate myself to the proper pitch</p>
+     <stage>(crosses to R.)</stage>
+    </sp>
+    <sp who="#L0425_F6">
+     <speaker>Bella.</speaker>
+     <stage>(C, to Captain)</stage>
+     <p>Enough ! Let me beg of you to be gone! Leave this house whose peace you have destroyed! I
+      trust that years of penitence and atonement may reconcile you with your guilty conscience.</p>
+    </sp>
+    <sp who="#L0425_M2">
+     <speaker>Captain.</speaker>
+     <stage>(aside)</stage>
+     <p>By Jove, anybody would think I was the greatest scoundrel alive! I dare say I shall soon get
+      over it, madam.</p>
+     <stage>(bowing to withdraw)</stage>
+    </sp>
+    <sp who="#L0425_M1">
+     <speaker>Coo.</speaker>
+     <stage>(aside)</stage>
+     <p>He shan't escape me ! I'm warming up ! <stage>(goes up R., and gets to C. D.)</stage> Hold.
+      Grimes!</p>
+    </sp>
+    <sp who="#L0425_M2">
+     <speaker>Captain.</speaker>
+     <stage>(turning l.)</stage>
+     <p>I have told you, sir, that my name is not Grimes.</p>
+    </sp>
+    <sp who="#L0425_M1">
+     <speaker>Coo.</speaker>
+     <p>No matter! Allow me to tell you that I consider you the most infernally hardened scoundrel
+      on the face of the earth.</p>
+     <stage>(striking at his toes with bludgeon)</stage>
+    </sp>
+    <sp who="#L0425_M2">
+     <speaker>Captain.</speaker>
+     <p>Be moderate, sir.</p>
+    </sp>
+    <sp who="#L0425_M1">
+     <speaker>Coo.</speaker>
+     <p>I won't! my blood's up ! If you'd waited for your appointment at seven o'clock, I should
+      have been prepared to meet you; but you took a mean advantage by coming a quarter of an hour
+      too soon, before I had practised my courage.</p>
+    </sp>
+    <sp who="#L0425_M2">
+     <speaker>Captain.</speaker>
+     <stage>(astonished, to Bella, L.)</stage>
+     <p>Is your uncle mad ?</p>
+    </sp>
+    <sp who="#L0425_M1">
+     <speaker>Coo.</speaker>
+     <stage>(C. , wildly)</stage>
+     <p>No—yes, sir! Ramping mad! I have worked myself up by degrees, and will have it out, if you
+      please. You come here making love to my big brother's daughter!</p>
+    </sp>
+    <sp who="#L0425_M2">
+     <speaker>Captain.</speaker>
+     <p>Well, sir.</p>
+    </sp>
+    <sp who="#L0425_M1">
+     <speaker>Coo.</speaker>
+     <p>You're another, sir! It isn't well ! After having previously supplanted me in the affections
+      of my wife––</p>
+    </sp>
+    <sp who="#L0425_M2">
+     <speaker>Captain.</speaker>
+     <stage>(astounded)</stage>
+     <p>Your <hi>what</hi>?</p>
+    </sp>
+    <stage>Enter Mrs. Coobiddy, R. D., 2 E., in ball dress, without crinoline.</stage>
+    <sp who="#L0425_F5">
+     <speaker>Mrs. C.</speaker>
+     <stage>(R.)</stage>
+     <p>What, Tom dear, haven't you gone ? Bella, it is
+      <pb n="18"/>time you were dressed. <stage>(curtseying distantly to Captain)</stage> I don't
+      think I know this gentleman.</p>
+    </sp>
+    <sp who="#L0425_M2">
+     <speaker>Captain.</speaker>
+     <stage>(bowing politely)</stage>
+     <p>Madam !</p>
+    </sp>
+    <sp who="#L0425_M1">
+     <speaker>Coo.</speaker>
+     <stage>(C, excited)</stage>
+     <p>Oh ! I dare say ! It's too late in the day for that sort of gammon. Woman—I know him, and
+      all about him— He is your paramour, Grimes.</p>
+    </sp>
+    <sp who="#L0425_F5">
+     <speaker>Mrs. C.</speaker>
+     <p>Ah!</p>
+    </sp>
+    <sp who="#L0425_M2">
+     <speaker>Captain.</speaker>
+     <stage>(angrily, L.)</stage>
+     <p>I have told you, sir, repeatedly, that my name is not Grimes. I never saw this lady before,
+      in the whole course of my life.</p>
+    </sp>
+    <sp who="#L0425_M1">
+     <speaker>Coo.</speaker>
+     <p>Pickles!</p>
+    </sp>
+    <sp who="#L0425_F6">
+     <speaker>Bella.</speaker>
+     <stage>(R. C.)</stage>
+     <p>Uncle, not two minutes ago, he told me all about his extreme love for her, excusing his
+      conduct.</p>
+    </sp>
+    <sp who="#L0425_M2">
+     <speaker>Captain.</speaker>
+     <stage>(L.)</stage>
+     <p>Who—I?</p>
+    </sp>
+    <sp who="#L0425_F6">
+     <speaker>Bella.</speaker>
+     <p>And not two minutes afterwards you admitted you didn't care a snuff for her.</p>
+    </sp>
+    <sp who="#L0425_F5">
+     <speaker>Mrs. C.</speaker>
+     <stage>(R.)</stage>
+     <p>I vow I never set eyes on the man.</p>
+    </sp>
+    <sp who="#L0425_F6">
+     <speaker>Bella.</speaker>
+     <p>Oh, aunt! you know you confessed to me yourself, that in a moment of weakness you had
+      consented to be my rival.</p>
+    </sp>
+    <sp who="#L0425_M1">
+     <speaker>Coo.</speaker>
+     <stage>(C.)</stage>
+     <p>Answer that, ma'am!</p>
+    </sp>
+    <sp who="#L0425_F5">
+     <speaker>Mrs. C.</speaker>
+     <p>Good heavens!— what a fearful misunderstanding! <stage>(crossing to R. C.)</stage> Tom, I
+      can explain all when we are alone. This gentleman is an utter stranger to me.</p>
+    </sp>
+    <sp who="#L0425_M1">
+     <speaker>Coo.</speaker>
+     <p>Oh, I'm not to be humbugged! I've screwed my courage up to the sticking—what's o'name. I'm
+      not going to be at the trouble for nothing. Grimes, choose your weapons. <stage>(presenting
+       cudgel and pistol to Captain)</stage> I'll keep the pistol.</p>
+    </sp>
+    <sp who="#L0425_M2">
+     <speaker>Captain.</speaker>
+     <p>How often am I to tell you, sir, that my name is not Grimes ?</p>
+    </sp>
+    <sp who="#L0425_M1">
+     <speaker>Coo.</speaker>
+     <p>I don't care whether you write in your own name, or a false one. I have your letter, sir; I
+      found it in that room, sir—in that room, ma'am. You had taken it away with you—it would be all
+      right—you would be in time for her to go to the party—her gal was to let you in—you were to be
+      at the area railings, and whistle the melody of "Pop goes the weasel" at <stage>(a pause—a
+       clock strikes seven—dead silence—the tune of "Pop goes the weasel" is whistled outside,
+       C.—astonished)</stage> That signal! -can it be ? <stage>(to Captain)</stage> You then are not
+      Grimes.</p>
+    </sp>
+    <sp who="#L0425_M2">
+     <speaker>Captain.</speaker>
+     <p>You confounded idiot! haven't I told you so all along ?</p>
+    </sp>
+    <sp who="#L0425_M1">
+     <speaker>Coo.</speaker>
+     <p>No matter—there is a Grimes, and I'll have his blood.</p>
+    </sp>
+    <stage>Rushes out, C.D.</stage>
+    <sp who="#L0425_F5">
+     <speaker>Mrs. C.</speaker>
+     <p>Bella, has your uncle been taking anything ?</p>
+    </sp>
+    <sp who="#L0425_F6">
+     <speaker>Bella.</speaker>
+     <p>I don't know, aunt; there seems to be some fearful mistake.</p>
+    </sp>
+    <stage>Coobiddy re-enters C. D., dragging in Jacob Grimes by the throat, Grimes carries a lady's
+     iron hoop petticoat in his hand.</stage>
+    <sp who="#L0425_M1">
+     <speaker>Coo.</speaker>
+     <p>You don't escape me, villain ! You are not half so big as I expected. Your name is Grimes
+      ?</p>
+    </sp>
+    <sp who="#L0425_M4">
+     <speaker>Grimes.</speaker>
+     <p>In coorse it is—who said it wasn't?</p>
+    </sp>
+    <sp who="#L0425_M1">
+     <speaker>Coo.</speaker>
+     <p>Your plebeian disguise will not serve you! you have come here after a lady ?</p>
+    </sp>
+    <pb n="19"/>
+    <sp who="#L0425_M4">
+     <speaker>Grimes.</speaker>
+     <stage>(R. C.)</stage>
+     <p>In course I has! And as I have got three more ladies to go after on the same harrand, you be
+      so good as to let me be.</p>
+    </sp>
+    <sp who="#L0425_M1">
+     <speaker>Coo.</speaker>
+     <stage>(C.)</stage>
+     <p>Three more ladies! The hardened profligate! <stage>(looking at petticoat)</stage> And what
+      is this fearful instrument – a scaling ladder?</p>
+    </sp>
+    <sp who="#L0425_M4">
+     <speaker>Grimes.</speaker>
+     <p>Scaling ladder be blowed! It's that ere lady's iron hoop – <stage>(pointing to Mrs.
+       C.)</stage></p>
+    </sp>
+    <sp who="#L0425_F5">
+     <speaker>Mrs. C.</speaker>
+     <stage>(hiding her face)</stage>
+     <p>Spare me!</p>
+    </sp>
+    <sp who="#L0425_M2">
+     <speaker>Captain.</speaker>
+     <p>That lady's ?</p>
+    </sp>
+    <sp who="#L0425_M4">
+     <speaker>Grimes.</speaker>
+     <p>In course.</p>
+    </sp>
+    <sp who="#L0425_M2">
+     <speaker>Captain.</speaker>
+     <stage>(pointing to Bella)</stage>
+     <p>Not this lady's?</p>
+    </sp>
+    <sp who="#L0425_M4">
+     <speaker>Grimes.</speaker>
+     <p>No, she wouldn't have one at no price—though I offered her a beauty, a bargain.</p>
+    </sp>
+    <sp who="#L0425_M2">
+     <speaker>Captain.</speaker>
+     <p>Isabella Coobiddy, come to my arms, we may be happy yet!</p>
+    </sp>
+    <sp who="#L0425_F6">
+     <speaker>Bella.</speaker>
+     <stage>(L.)</stage>
+     <p>I see it all! Is it possible, John Edward le Brown, that you could have suspected ?</p>
+    </sp>
+    <sp who="#L0425_M2">
+     <speaker>Captain.</speaker>
+     <stage>(l. c.)</stage>
+     <p>How could I help it? I had seen the—the article in question going and coming from the
+      house—I naturally assumed that it was for you, and you wouldn't suppose me capable of marrying
+      a girl who would make such a guy of herself ?</p>
+    </sp>
+    <sp who="#L0425_F6">
+     <speaker>Bella.</speaker>
+     <p>John Edward, say no more ! I wouldn't wear one for a thousand a year.</p>
+     <stage>(they embrace and go up, L.)</stage>
+    </sp>
+    <sp who="#L0425_M1">
+     <speaker>Coo.</speaker>
+     <stage>(to Grimes)</stage>
+     <p>Representative of the industrial interests, come here! Is this your writing?</p>
+     <stage>(showing note)</stage>
+    </sp>
+    <sp who="#L0425_M4">
+     <speaker>Grimes.</speaker>
+     <p>In coorse it is.</p>
+    </sp>
+    <sp who="#L0425_M1">
+     <speaker>Coo.</speaker>
+     <p>Why did you address my wife as "yours most"—E F— "efeckshunately ?"</p>
+    </sp>
+    <sp who="#L0425_M4">
+     <speaker>Grimes.</speaker>
+     <p>Why, it's the regular thing, ain't it ?</p>
+    </sp>
+    <sp who="#L0425_M1">
+     <speaker>Coo.</speaker>
+     <p>By no means.</p>
+    </sp>
+    <sp who="#L0425_M4">
+     <speaker>Grimes.</speaker>
+     <p>It's the way I always writes to my old mother.</p>
+    </sp>
+    <sp who="#L0425_M1">
+     <speaker>Coo.</speaker>
+     <p>Lord, what a fool I've been, to be sure! To think <stage>(to Mrs. C.)</stage> I had a rival
+      concealed in that room, when it was only this ridiculous</p>
+     <stage>(showing petticoat)</stage>
+    </sp>
+    <sp who="#L0425_F5">
+     <speaker>Mrs. C.</speaker>
+     <p>Pray throw it out of the window, Tom, and say no more about it; I am very much ashamed of
+      myself indeed, but as you see, I've given up all idea of wearing it.</p>
+    </sp>
+    <sp who="#L0425_M1">
+     <speaker>Coo.</speaker>
+     <stage>(opening window L. 2 E. and throwing petticoat out)</stage>
+     <p>Hi! boys, here's a lot of hoops for you ! Bowl them along the pavement, so as to upset as
+      many women in preposterous petticoats as possible. <stage>(to Captain)</stage> Grimes, come to
+      my arms and call me Uncle!</p>
+     <stage>(Captain and Coobiddy are rushing into each other's arms —the real Grimes interposes—the
+      three embrace)</stage>
+    </sp>
+    <sp who="#L0425_M4">
+     <speaker>Grimes.</speaker>
+     <p>Uncle!</p>
+    </sp>
+    <sp who="#L0425_M1">
+     <speaker>Coo.</speaker>
+     <p>I didn't mean you, Grimes, but it's all the same ; I could embrace all the world, I feel so
+      happy—everything is now settled.</p>
+    </sp>
+    <stage>The C. door opens—enter Nancy Bitters in a splendid "Sunday out" costume—a silk shirt
+     highly flounced over a hooped petticoat of the most exaggerated dimensions.</stage>
+    <sp who="#L0425_F8">
+     <speaker>Nancy.</speaker>
+     <stage>(C.)</stage>
+     <p>I beg your parding, sir, there is a trifle of twenty shillings, a month's wages, not yet
+      settled, if you please.</p>
+    </sp>
+    <sp who="#L0425_F5">
+     <speaker>Mrs. C.</speaker>
+     <stage>(R.)</stage>
+     <p>What impudence!</p>
+    </sp>
+    <sp who="#L0425_F6">
+     <speaker>Bella.</speaker>
+     <stage>(l.)</stage>
+     <p>Did you ever see such a figure ?</p>
+    </sp>
+    <pb n="20"/>
+    <sp who="#L0425_F8">
+     <speaker>Nancy.</speaker>
+     <stage>(c.)</stage>
+     <p>Ho, indeed! perhaps other people may be allowed to wear iron what's-o'-names as well as some
+      people; I suppose I'm my own missus now, and can dress as I like? Mr. Coobiddy, I will thank
+      you to inspect my boxes which is in the lobby.</p>
+    </sp>
+    <sp who="#L0425_M1">
+     <speaker>Coo.</speaker>
+     <stage>(R. C, pointing out Nancy to his wife)</stage>
+     <p>My dear, you see what you might have come to, yourself, had it not been for the timely
+      interposition of Providence. Nancy !</p>
+    </sp>
+    <sp who="#L0425_F8">
+     <speaker>Nancy.</speaker>
+     <stage>(up C.)</stage>
+     <p>Miss Bitters, if you please, sir, being no longer in your service.</p>
+    </sp>
+    <sp who="#L0425_M1">
+     <speaker>Coo.</speaker>
+     <p>Then, Miss Bitters, I will do myself the pleasure you propose, with a view of hastening your
+      much desired departure.</p>
+    </sp>
+    <sp who="#L0425_F8">
+     <speaker>Nancy.</speaker>
+     <p>You'll find none of your property there, sir.</p>
+     <stage>(drops silver mug from under her dress)</stage>
+    </sp>
+    <sp who="#L0425_M1">
+     <speaker>Coo.</speaker>
+     <stage>(picking it up)</stage>
+     <p>It strikes me I find some of my property here.</p>
+    </sp>
+    <sp who="#L0425_F5">
+     <speaker>Mrs. C.</speaker>
+     <p>Why this is grandpapa's silver race cup !</p>
+    </sp>
+    <sp who="#L0425_F8">
+     <speaker>Nancy.</speaker>
+     <p>Ho ! indeed! It must have caught in my boot lace ! Good evening!</p>
+    </sp>
+    <sp who="#L0425_M1">
+     <speaker>Coo.</speaker>
+     <stage>(rushing to window, L., vociferating)</stage>
+     <p>Police!</p>
+    </sp>
+    <stage>John Liptrot appears at C. D., wiping his mouth, and a bone in his hand.</stage>
+    <sp who="#L0425_F8">
+     <speaker>Nancy.</speaker>
+     <p>John Liptrot, let me pass!</p>
+    </sp>
+    <sp who="#L0425_M3">
+     <speaker>John.</speaker>
+     <stage>(C.)</stage>
+     <p>Uncommon sorry, Anne! but if called in the way of business, I can't do it.</p>
+    </sp>
+    <sp who="#L0425_F8">
+     <speaker>Nancy.</speaker>
+     <stage>(c.)</stage>
+     <p>Do you want me to box your ears for you, as I've done many and many's the time ? What, you
+      won't, won't you ?</p>
+    </sp>
+    <stage>(struggling to get past John, who bars her passage; the Captain has put his foot on one
+     of her flounces, the skirt comes off, and discovers iron hoop petticoat with all sorts of spoil
+     tied to the hoops ; joints of meat, parasols, trinkets, bottles, grocery, &amp;c,
+     &amp;c.—general consternation)</stage>
+    <sp who="#L0425_F5">
+     <speaker>Mrs. C.</speaker>
+     <stage>(C.)</stage>
+     <p>And this is what comes of the fashion of wearing iron hoop petticoats!</p>
+    </sp>
+    <sp who="#L0425_M1">
+     <speaker>Coo.</speaker>
+     <stage>(C.)</stage>
+     <p>Off with her! to the lowest dungeons of the watch house !</p>
+    </sp>
+    <sp who="#L0425_F8">
+     <speaker>Nancy.</speaker>
+     <stage>(overwhelmed with shame)</stage>
+     <p>John Liptrot, are you going to protect me or are you not ?</p>
+    </sp>
+    <sp who="#L0425_M3">
+     <speaker>John.</speaker>
+     <p>Nancy Bitters! hear me! It ain't for the things you've took, a lenient jury might put 'em
+      all down as parkwisites, but if you think I'm going to keep on with a gal as is capable of
+      making a bird cage of herself, all I can say is, Nancy—not if I know it</p>
+     <stage>(going, C.)</stage>
+    </sp>
+    <sp who="#L0425_M1">
+     <speaker>Coo.</speaker>
+     <p>Stop ! On reflection, we won't punish her, we'll simply make use of her as a public example,
+       <stage>(brings her down)</stage> Not that I want to put a stop to this sort of thing, on the
+      contrary, we all hope, preposterous as it may be, you'll allow our Crinoline to continue the
+      fashion.</p>
+    </sp>
+    <stage>John Liptrot. Grimes, R. Mrs. C. Coobiddy. Nancy. Capt. Le B. Bella. L.</stage>
+    <stage>Curtain.</stage>
+
+   </div>
+   <trailer>Printed by Thomas Scott, Warwick-court, Holborn.</trailer>
+  </body>
+ </text>
+</TEI>
