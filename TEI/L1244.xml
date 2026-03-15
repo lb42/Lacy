@@ -1,0 +1,2215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L1244" xml:lang="en">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title>Glitter: TEI edition</title>
+    <author ref="lacyp:W0002"><persName>Gilbert A'Beckett, Esq.</persName><idno type="wikidata"
+      >Q2626481</idno></author>
+    <respStmt>
+     <resp>TEI conversion</resp>
+     <name>Lou Burnard</name>
+    </respStmt>
+   </titleStmt>
+   <publicationStmt>
+    <distributor>Privately distributed by the Digital Lacy Project</distributor>
+    <idno type="LAE">L1244</idno>
+    <availability>
+     <licence target="https://creativecommons.org/publicdomain/zero/1.0/">The Lacy Project waives
+      all rights to the TEI encoding applied to this material, which it believes to be in the public
+      domain. You may copy, modify, distribute, or perform this work freely. </licence>
+    </availability>
+   </publicationStmt>
+   <sourceDesc>
+    <bibl type="originalSource" n="83.14"><author n="W0002">A'Beckett, Gilbert Abbott</author>
+     <title type="main">Glitter</title>
+     <title type="sub">An Original Comedy in two acts</title>
+     <extent>25 pp (UM copy: 570 - 595)<measure type="pp" quantity="24"/>
+      <measure type="spCount" quantity="399"/>
+      <measure type="spvCount" quantity="0"/>
+      <measure type="txWords" quantity="8702"/>
+      <measure type="spWords" quantity="7487"/>
+      <measure type="stWords" quantity="1215"/>
+     </extent>
+     <title level="s"> Lacy's Acting Edition, volume 83, No. 1244</title><idno type="nic"
+      >N08629</idno><idno type="vpp">Vol83xivGlitter</idno></bibl>
+    <bibl type="surrogate" subtype="copytext"><ref
+      target="https://lb42.github.io/Lacy/Source/VPP/L1244-vpp.pdf">LoB from VPP</ref><ref
+      target="local:Vol83/L1244/L1244-vpp.pdf"/><ref target="local:Vol83/L1244/Vol83xivGlitter.pdf"
+     /></bibl>
+    <bibl type="surrogate"><ref
+      target="https://www.google.co.uk/books/edition/An_Original_Burlesque_Entitled_Christabe/9NgMAAAAYAAJ"
+      >Google Books</ref></bibl>
+    <bibl type="surrogate"><ref
+      target="https://babel.hathitrust.org/cgi/pt?id=mdp.39015067453434&amp;seq=570 ">UM from
+      HT</ref><ref target="local:Vol83/L1244/L1244-um.pdf"/></bibl>
+    <listEvent>
+     <event type="firstPerf" when="1868-12-26" source="textNic" where="St.James's">
+      <desc>Premiered at St.James's Theatre 26 Dec. 1868</desc>
+     </event>
+    </listEvent>
+   </sourceDesc>
+  </fileDesc>
+  <profileDesc>
+   <!--S 2 Comedy C. COMEDY-->
+   <textClass>
+    <catRef target="#sizeS"/>
+    <catRef target="#act2"/>
+    <catRef target="nic:C."/>
+    <keywords>
+     <term>COMEDY</term>
+    </keywords>
+   </textClass>
+   <particDesc>
+    <listPerson>
+     <person xml:id="L1244_M1">
+      <persName type="role">Edward Trevlyn</persName>
+      <persName type="spkr" n="46">Trevlyn.</persName>
+     </person>
+     <person xml:id="L1244_M2">
+      <persName type="role">Redcliffe</persName>
+      <persName type="spkr" n="28">Redcliffe.</persName>
+     </person>
+     <person xml:id="L1244_M3">
+      <persName type="role">Holdsworth</persName>
+      <persName type="spkr" n="34">Holds.</persName>
+     </person>
+     <person xml:id="L1244_M4">
+      <persName type="role">Cecil Mitford</persName>
+      <persName type="spkr" n="65">Cecil.</persName>
+     </person>
+     <person xml:id="L1244_M5">
+      <persName type="role">Mr. Julius Crawdust</persName>
+      <persName type="spkr" n="47">Craw.</persName>
+      <persName type="spkr" n="1">Crawdust.</persName>
+     </person>
+     <person xml:id="L1244_M6">
+      <persName type="role">Spinks</persName>
+      <persName type="spkr" n="7">Spinks.</persName>
+     </person>
+     <person xml:id="L1244_M7">
+      <persName type="role">O'Shanty</persName>
+      <persName type="spkr" n="10">O'Shanty.</persName>
+     </person>
+     <person xml:id="L1244_F8">
+      <persName type="role">Lucy Trevlyn</persName>
+      <persName type="spkr" n="84">Lucy.</persName>
+     </person>
+     <person xml:id="L1244_F9">
+      <persName type="role">Mrs. Trevlyn</persName>
+      <persName type="spkr" n="41">Mrs. T.</persName>
+     </person>
+     <person xml:id="L1244_F10">
+      <persName type="role">Lady Olivia Crawdust</persName>
+      <persName type="spkr" n="36">Lady O.</persName>
+     </person>
+     <person xml:id="L1244_Fmult">
+      <persName type="role">[Multiple speakers]</persName>
+     </person>
+    </listPerson>
+   </particDesc>
+  </profileDesc>
+  <revisionDesc>
+   <change when="2026-03-15">Add wikidata link to titleStmt where possible</change>
+   <change when="2026-03-15">Hand edit and check against VPP original</change>
+   <change when="2026-02-01">TEI autotagging by Gemini Pro 2.5</change>
+  </revisionDesc>
+ </teiHeader>
+ <text>
+  <front>
+   <titlePage>
+
+    <titlePart type="main">Glitter.</titlePart>
+    <titlePart type="sub">An Original Comedy, in two acts.</titlePart>
+
+    <byline>by <docAuthor>GILBERT A'BECKETT, Esq.,</docAuthor> [member of the dramatic authors'
+     society.] author of <title>Lending a Hand, </title><title>Ali Baba, </title><title>The Brigand,
+      </title><title>Terrible Hymen, </title><title>Diamonds and Hearts, </title><title>The Babes in
+      the Wood, </title><title>The Two Harlequins, </title><title>Red Hands, </title><title>Face to
+      Face</title>, &amp;c., &amp;c. </byline>
+    <docImprint>THOMAS HAILES LACY. 89, STRAND, LONDON.</docImprint>
+   </titlePage>
+   <pb n="2"/>
+   <performance>
+    <head>Glitter</head>
+    <p>As first performed at the St. James's Theatre, on the 26th December, 1868.</p>
+    <castList>
+     <head>CHARACTERS.</head>
+     <castItem>
+      <role gender="M">Edward Trevlyn</role>
+      <roleDesc>(a banker)</roleDesc>
+      <actor>Mr. Gaston Murray.</actor>
+     </castItem>
+     <castItem>
+      <role gender="M">Redcliffe</role>
+      <roleDesc>(his partner)</roleDesc>
+      <actor>Mr. George Jordan.</actor>
+     </castItem>
+     <castItem>
+      <role gender="M">Holdsworth</role>
+      <roleDesc>(uncle to Trevlyn)</roleDesc>
+      <actor>Mr. Flockton.</actor>
+     </castItem>
+     <castItem>
+      <role gender="M">Cecil Mitford</role>
+      <actor>Mr. Charles Coghlan.</actor>
+     </castItem>
+     <castItem>
+      <role gender="M">Mr. Julius Crawdust</role>
+      <actor>Mr. Arthur Williams.</actor>
+     </castItem>
+     <castItem>
+      <role gender="M">Spinks</role>
+      <actor>Mr. Allen.</actor>
+     </castItem>
+     <castItem>
+      <role gender="M">O'Shanty</role>
+      <actor>Mr. Speedy.</actor>
+     </castItem>
+     <castItem>
+      <role gender="F">Lucy Trevlyn</role>
+      <actor>Miss Lucy Rushton.</actor>
+     </castItem>
+     <castItem>
+      <role gender="F">Mrs. Trevlyn</role>
+      <roleDesc>(her sister-in-law)</roleDesc>
+      <actor>Miss Maria Simpson.</actor>
+     </castItem>
+     <castItem>
+      <role gender="F">Lady Olivia Crawdust</role>
+      <actor>Mrs. Poynter.</actor>
+     </castItem>
+    </castList>
+   </performance>
+
+   <set>
+    <p>Time in representation—One hour and twenty-five minutes.</p>
+    <p>Period and Costumes.—Modern.</p>
+   </set>
+  </front>
+
+  <body>
+   <head>Glitter.</head>
+   <div type="act">
+    <head>ACT I.</head>
+    <div type="scene">
+     <head>SCENE FIRST.—</head>
+     <stage> Garden of an old fashioned country house. Elizabethan and ivy-clad porch of door,
+      practicable, R. At back, shrubberies and flower-beds, gravel paths from which sweep up to
+      porch. A sundial at back, c, garden seats R. of L., statuary L.</stage>
+     <stage>Enter O'Shanty, R., preceding Lady Olivia and Mr. Crawdust.</stage>
+     <sp who="#L1244_M7">
+      <speaker>O'Shanty.</speaker>
+      <p>A minute, ma'am, and I'll fetch the master— it's just as likely he's in the garden with
+       Miss Lucy, but I'll take a look at his study first, <stage>(looks at card—makes it out with
+        difficulty)</stage> Mr.—Mr.—ah, Mr. Sawdust.</p>
+     </sp>
+     <sp who="#L1244_F10">
+      <speaker>Lady O.</speaker>
+      <p><stage>(with dignity)</stage> Crawdust!</p>
+     </sp>
+     <sp who="#L1244_M7">
+      <speaker>O'Shanty.</speaker>
+      <p>Ah, sure—there's the R, and I never saw him at all. <stage>(reads)</stage> "Mr. and –"</p>
+     </sp>
+     <sp who="#L1244_F10">
+      <speaker>Lady O.</speaker>
+      <p>Lady Olivia Crawdust!</p>
+     </sp>
+     <sp who="#L1244_M7">
+      <speaker>O'Shanty.</speaker>
+      <p>Yes, my lady; I'll fetch the master, my lady, if you'll just amuse yourself half a
+       minute—you'll find the suudial mighty interesting, my lady, <stage>(she gives him a look
+        which sends him into the house, R.)</stage></p>
+     </sp>
+     <sp who="#L1244_F10">
+      <speaker>Lady O.</speaker>
+      <p>Crawdust!</p>
+     </sp>
+     <sp who="#L1244_M5">
+      <speaker>Craw.</speaker>
+      <p>Your ladyship? <stage>(places paletot on seat, L.)</stage></p>
+     </sp>
+     <sp who="#L1244_F10">
+      <speaker>Lady O.</speaker>
+      <p>I ought never to have married you, Crawdust.</p>
+     </sp>
+     <sp who="#L1244_M5">
+      <speaker>Craw.</speaker>
+      <p>Yes, so you've been in the habit of observing.</p>
+     </sp>
+     <sp who="#L1244_F10">
+      <speaker>Lady O.</speaker>
+      <p>Often—I can't observe it too often, <stage>(looks about)</stage> Dear me—this place, with
+       its baronial, though unpolished aspect, recalls—as indeed does everything about me but
+       you—the lamented Sir Peter. Oh, to think that I should have united myself to–</p>
+     </sp>
+     <sp who="#L1244_M5">
+      <speaker>Craw.</speaker>
+      <p>A parvenu!— that's the word, isn't it? Fire away, old lady ; I didn't make £80,000 by
+       carrying my feelings in a silver paper bag, I can tell you. Trample on me! That's it—if it
+       don't exactly amuse you, it certainly don't hurt me, and I think it gives me an appetite.</p>
+     </sp>
+     <pb n="4"/>
+     <sp who="#L1244_F10">
+      <speaker>Lady O.</speaker>
+      <p>There again—his appetite!</p>
+     </sp>
+     <sp who="#L1244_M5">
+      <speaker>Craw.</speaker>
+      <p>And why not ? <stage>(looks at watch)</stage> No, I must be slow—it can't want four hours
+       to dinner ! <stage>(goes to dial)</stage> Not a blessed line on its face !</p>
+     </sp>
+     <sp who="#L1244_F10">
+      <speaker>Lady O.</speaker>
+      <p>Were you expecting to find one there—in the shade?</p>
+     </sp>
+     <sp who="#L1244_M5">
+      <speaker>Craw.</speaker>
+      <p><stage>(marked)</stage> Time's not a bad hand at lining faces— in the shade, too!</p>
+     </sp>
+     <sp who="#L1244_F10">
+      <speaker>Lady O.</speaker>
+      <p>Brute! <stage>(aside, then changing tone)</stage> What did you say this house was worth
+       ?</p>
+     </sp>
+     <sp who="#L1244_M5">
+      <speaker>Craw.</speaker>
+      <p>Well, I should think old Holdsworth must touch pretty well on—<stage>(thinks)</stage>—I'd
+       give him £6,000 a-year.</p>
+     </sp>
+     <sp who="#L1244_F10">
+      <speaker>Lady O.</speaker>
+      <p>No doubt they know an excellent set.</p>
+     </sp>
+     <stage rend="entrance">Enter O'Shanty, door, R.</stage>
+     <sp who="#L1244_M7">
+      <speaker>O'Shanty.</speaker>
+      <p>The master's nowhere in the house, so he must be in the grounds somewhere. It's as likely
+       as not he's feeding the pigs.</p>
+     </sp>
+     <sp who="#L1244_M5">
+      <speaker>Craw.</speaker>
+      <p>Funny, ain't it?</p>
+     </sp>
+     <sp who="#L1244_F10">
+      <speaker>Lady O.</speaker>
+      <p>The pigs ! A man with £6,000 a-year feeding the pigs!</p>
+     </sp>
+     <sp who="#L1244_M5">
+      <speaker>Craw.</speaker>
+      <p>Bless you, I've known people with twice the money do dirtier things than that.</p>
+     </sp>
+     <sp who="#L1244_M7">
+      <speaker>O'Shanty.</speaker>
+      <p>Have you really, sir ?</p>
+     </sp>
+     <sp who="#L1244_F10">
+      <speaker>Lady O.</speaker>
+      <p>Have the goodness to conduct me to the drawing-room, and inform your master that Lady
+       Olivia Crawdust is here.</p>
+     </sp>
+     <sp who="#L1244_M5">
+      <speaker>Craw.</speaker>
+      <p>And Mr. Crawdust. Tell him Tom Crawdust— he'll remember me—Crawdust's blacking.</p>
+     </sp>
+     <sp who="#L1244_F10">
+      <speaker>Lady O.</speaker>
+      <p><stage>(waiting for Crawdust up R.)</stage> Mr. Crawdust!</p>
+     </sp>
+     <stage rend="exit">exit Crawdust.</stage>
+     <sp who="#L1244_M7">
+      <speaker>O'Shanty.</speaker>
+      <p>An old friend, are you, sir? Sure he'll be as pleased to see you as the pigs themselves. To
+       the right, ma'am, the first door, and there you are.</p>
+     </sp>
+     <sp who="#L1244_F10">
+      <speaker>Lady O.</speaker>
+      <p>The blacking, too ! Oh, Sir Peter !</p>
+     </sp>
+     <stage rend="exit">exit, R.</stage>
+     <sp who="#L1244_M7">
+      <speaker>O'Shanty.</speaker>
+      <p>Some of your fine town people, them; it's not my taste, anyways—all that kind of regulation
+       step ! <stage>(imitates Lady Olivia)</stage> Ah, I wish Mr. Edward had been contented with
+       the old place and not taken that big thing of a house in the town yonder. Such doings—balls,
+       dinners, parties, dances, picnics—doing the fashionable, they calls it. I expect it will wind
+       up by their doing everybody—<stage>(looks off, l.)</stage> There's the master, <stage>(feels
+        in pocket)</stage> Where's the letter? <stage>(produces it)</stage> And now the
+       advertisement, <stage>(looks at card)</stage> Hi! master—<stage>(calls)</stage> you're
+       wanted—hi!</p>
+     </sp>
+     <pb n="5"/>
+     <stage rend="entrance">Enter Holdsworth, in gardening suit and carrying a rake, L.</stage>
+     <sp who="#L1244_M3">
+      <speaker>Holds.</speaker>
+      <p>A letter ? <stage>(takes it.)</stage></p>
+     </sp>
+     <sp who="#L1244_M7">
+      <speaker>O'Shanty.</speaker>
+      <p>Yes, sir, and them—<stage>(gives card)</stage> they're in the drawing-room. The gentleman
+       said you knew all about him, and something about his boots.</p>
+     </sp>
+     <sp who="#L1244_M3">
+      <speaker>Holds.</speaker>
+      <p>Ah, Crawdust and my lady—Isabel's new friend. <stage>(gives him rake)</stage> There,
+       John—go and send Miss Lucy here—you'll find her and Mr. Mitford at the bottom of the
+       lawn.</p>
+     </sp>
+     <sp who="#L1244_M7">
+      <speaker>O'Shanty.</speaker>
+      <p>All right, sir.</p>
+     </sp>
+     <stage rend="exit">exit, L.</stage>
+     <sp who="#L1244_M3">
+      <speaker>Holds.</speaker>
+      <p><stage>(examining letter)</stage> From Tarrant. Ah, Edward again. Bother the boy, he'll be
+       in some scrape before long. Well, perhaps it's as well he should buy his experience as
+       speedily as possible, for the rascal's determined to have it, and pay for it into the
+       bargain, <stage>(reads)</stage> What! as bad as that, eh ! Hollo, this is a serious piece of
+       business—"Failure of the Mexican Company, possibly a heavy run on the bank to-morrow—lots of
+       paper in the market, to say nothing of that confounded Redcliffe, with his turf engagements."
+       I've a shrewd suspicion that fellow's a scoundrel. But Edward, my boy—Edward, it's too bad of
+       you. I did not think, when I tacked your name to that of the proud old house, you would have
+       hit it so hard as this, <stage>(stands lost in the letter.)</stage></p>
+     </sp>
+     <sp who="#L1244_F8">
+      <speaker>Lucy.</speaker>
+      <p><stage>(without, l.)</stage> Gently, Mr. Mitford, gently. Oh, you'll never make a
+       gardener—yes, that's better. <stage rend="entrance">Enter Lucy, L.—she has on a garden dress,
+        gloves, &amp;c, and carries a broken plant in her hand.</stage> Ah, uncle, you wicked old
+       runaway, I shan't give you any more work—and you were to have done such wonders, and then
+       stepped on and broke my pet dahlia ! Look at it. <stage>(noticing his abstraction)</stage>
+       But uncle, dear—you're not well —what is it? <stage>(sees letter)</stage> Ah, that letter !
+        <stage>(taking it)</stage> No, you shan't be grieved and worried with these things. I know
+       the writing—you've had three in the last fortnight, and they always take the dear smile from
+       your face, <stage>(tears it)</stage> There, that's what I'd do to the writer—there !</p>
+     </sp>
+     <sp who="#L1244_M3">
+      <speaker>Holds.</speaker>
+      <p><stage>(tenderly)</stage> But, my dear, that's not at all business­like.</p>
+     </sp>
+     <sp who="#L1244_F8">
+      <speaker>Lucy.</speaker>
+      <p>Business or not, you shan't be fretted. I say, uncle dear, can't you tell Lucy what it is,
+       and let her fight these horrid people for you ? Do let her.</p>
+     </sp>
+     <sp who="#L1244_M3">
+      <speaker>Holds.</speaker>
+      <p>My darling, there's no one to fight, and that's
+       <pb n="6"/> the worst of it; bnt never mind, we must hope for the best.</p>
+     </sp>
+     <sp who="#L1244_F8">
+      <speaker>Lucy.</speaker>
+      <p>Won't you tell me ? Well, let me guess, do.</p>
+     </sp>
+     <sp who="#L1244_M3">
+      <speaker>Holds.</speaker>
+      <p>Guess?</p>
+     </sp>
+     <sp who="#L1244_F8">
+      <speaker>Lucy.</speaker>
+      <p>I'm sure I can. It's—Edward—isn't it ?</p>
+     </sp>
+     <sp who="#L1244_M3">
+      <speaker>Holds.</speaker>
+      <p>Who told you that ?</p>
+     </sp>
+     <sp who="#L1244_F8">
+      <speaker>Lucy.</speaker>
+      <p>You did, of course. Do you think I haven't noticed how anxiously you ask first one little
+       question, then another about him, how every postman's knock startles you, and how when his
+       name is mentioned, your dear face falls, and then do you think there has not been something
+       here that has whispered very softly to me, "Lucy, you must be more gentle and loving than
+       ever to your dear old uncle, and prove to him there is one heart, at least, that holds him
+       very, very dear!" <stage>(embraces him.)</stage></p>
+     </sp>
+     <sp who="#L1244_M3">
+      <speaker>Holds.</speaker>
+      <p>Your advice is taken already, darling, I won't keep all my trouble to myself.</p>
+     </sp>
+     <sp who="#L1244_F8">
+      <speaker>Lucy.</speaker>
+      <p>That's right; you'll give me half. You dear, selfish thing, not to have given it me long
+       ago ! Let's hear all about it!</p>
+     </sp>
+     <sp who="#L1244_M3">
+      <speaker>Holds.</speaker>
+      <p>Well then— <stage>(sees card in his hand)</stage> Good gracious! we've forgotten them
+       altogether! The Crawdusts !</p>
+     </sp>
+     <sp who="#L1244_F8">
+      <speaker>Lucy.</speaker>
+      <p><stage>(laughs)</stage> So we have! What a catastrophe! Suppose they should have run away
+       !</p>
+     </sp>
+     <sp who="#L1244_M3">
+      <speaker>Holds.</speaker>
+      <p>Quick, Lucy, into the drawing-room, and say I'm coming in a minute.</p>
+     </sp>
+     <sp who="#L1244_F8">
+      <speaker>Lucy.</speaker>
+      <p><stage>(taking off gloves, apron, &amp;c)</stage> Oh, I'm so untidy, quite unpresentable!
+       Dear me !</p>
+     </sp>
+     <stage rend="entrance">Enter Cecil Mitford, L., with a freshly dug-up geranium plant in his
+      hands—the plant has a large ball of earth to it.</stage>
+     <sp who="#L1244_M4">
+      <speaker>Cecil.</speaker>
+      <p>Here it is, Miss Trevlyn, I think I've got the roots ! I couldn't find any more in the
+       hole.</p>
+     </sp>
+     <sp who="#L1244_F8">
+      <speaker>Lucy.</speaker>
+      <p>Oh, that's capital! You're getting on.</p>
+     </sp>
+     <sp who="#L1244_M4">
+      <speaker>Cecil.</speaker>
+      <p>Rather slowly—never knew flowers were so heavy. Where shall I put it ? <stage>(looks
+        about.)</stage></p>
+     </sp>
+     <sp who="#L1244_F8">
+      <speaker>Lucy.</speaker>
+      <p>Anywhere you like—flower-pot—bed</p>
+     </sp>
+     <sp who="#L1244_M4">
+      <speaker>Cecil.</speaker>
+      <p>But I can't see a flower-pot—and, dear me, this is more substantial than it looks.</p>
+     </sp>
+     <sp who="#L1244_F8">
+      <speaker>Lucy.</speaker>
+      <p><stage>(absently)</stage> Can't see one, never mind, hold it till I come back—and here,
+       just hold these, there. <stage>(puts gloves, &amp;c, under his arm)</stage> Have you got them
+       ? That's right— now mind, don't drop the flowers, I'll be back in five minutes.</p>
+     </sp>
+     <stage rend="exit">exit into house, R.</stage>
+     <sp who="#L1244_M4">
+      <speaker>Cecil.</speaker>
+      <p><stage>(looking about, bewildered)</stage> Five minutes with this ? a fellow can't do it!
+       One might as well turn coal heaver at once!</p>
+     </sp>
+     <pb n="7"/>
+     <sp who="#L1244_M3">
+      <speaker>Holds.</speaker>
+      <p>And get the sack ? You wouldn't care about that, eh ?</p>
+     </sp>
+     <sp who="#L1244_M4">
+      <speaker>Cecil.</speaker>
+      <p>Well, no, I shouldn't, <stage>(aside)</stage> What does the old fellow mean about getting
+       the sack? A sort of joke, I suppose—it's more than this is ! Dear me, where shall I put it ?
+        <stage>(sees coat on chair)</stage> By Jove, the very thing ! <stage>(puts plant on
+        coat)</stage> There, 'pon my word, I don't think gardening's such fun as it looks,
+        <stage>(to Holdsworth, who is adding up memorandums in a note-book)</stage> Do you, Mr.
+       Holdsworth ? Making up a book, eh ? I gave that kind of thing up when I was fourteen.</p>
+     </sp>
+     <sp who="#L1244_M3">
+      <speaker>Holds.</speaker>
+      <p>And very wise, too. No, I'm not weighing the odds—at least, the odds you allude to.</p>
+     </sp>
+     <sp who="#L1244_M4">
+      <speaker>Cecil.</speaker>
+      <p>Dear me, that thing of yours is so like a book, you know, <stage>(takes out cigar, offers
+        case to Holdsworth)</stage> Have a weed? <stage>(lights cigar.)</stage></p>
+     </sp>
+     <sp who="#L1244_M3">
+      <speaker>Holds.</speaker>
+      <p>No, thank you. Talking of odds, haphazards, and dangerous games generally, can you give me
+       a bit of information, 1 wonder ?</p>
+     </sp>
+     <sp who="#L1244_M4">
+      <speaker>Cecil.</speaker>
+      <p>I should think so. But its some time since I've given serious attention to blind hookey,
+       and–</p>
+     </sp>
+     <sp who="#L1244_M3">
+      <speaker>Holds.</speaker>
+      <p>Well, you needn't rub up your reminiscences, but just answer me one question. You're an old
+       friend of Edward's—come now, is there any truth in what they say about—well, about the " pace
+       " he's been going at lately ?</p>
+     </sp>
+     <sp who="#L1244_M4">
+      <speaker>Cecil.</speaker>
+      <p>Well, as an old friend of Ted's, you know, I should say, well––</p>
+      <stage>(hesitates.)</stage>
+     </sp>
+
+     <sp who="#L1244_M3">
+      <speaker>Holds.</speaker>
+      <p>I understand—there is.</p>
+     </sp>
+     <sp who="#L1244_M4">
+      <speaker>Cecil.</speaker>
+      <p>You see Ted's such a careless fellow, so fond of driving four-in-hand, and that style of
+       thing. We used to call him "<hi>Tandem </hi>Teddy" up at Oxford, I started the idea, wasn't
+       bad, was it?</p>
+     </sp>
+     <sp who="#L1244_M3">
+      <speaker>Holds.</speaker>
+      <p>I'm afraid it was only too appropriate—he's been driving at a pretty pace ever since !
+       Well, what's the worst they say of him ? Out with it!</p>
+     </sp>
+     <sp who="#L1244_M4">
+      <speaker>Cecil.</speaker>
+      <p>Well, they say he's a confounded ass, that's the worst thing I've heard said of him. I once
+       said, when I was in a rage, that he didn't know how to dress, but I didn't mean it, you know,
+       I didn't mean it.</p>
+     </sp>
+     <sp who="#L1244_M3">
+      <speaker>Holds.</speaker>
+      <p>Well, now, not a word of this to anyone—to tell you the truth, things have come to a
+       crisis.</p>
+     </sp>
+     <sp who="#L1244_M4">
+      <speaker>Cecil.</speaker>
+      <p>Have they, really—by Jove, you don't say so ?</p>
+     </sp>
+     <sp who="#L1244_M3">
+      <speaker>Holds.</speaker>
+      <p>And I want the help of a third person. You are the kind of man to suit my purpose, and I'm
+       sure you'll lend me a hand, eh ?</p>
+     </sp>
+     <sp who="#L1244_M4">
+      <speaker>Cecil.</speaker>
+      <p>Charmed, quite charmed! With the greatest
+       <pb n="8"/>pleasure, 'pon my word ! I have a profound respect for the family, and—oh, I'm
+       charmed, quite charmed ! <stage>(aside)</stage> I wonder what's become of Miss Trevlyn ?
+        <stage>(looks about.)</stage></p>
+     </sp>
+     <sp who="#L1244_M3">
+      <speaker>Holds.</speaker>
+      <p>Well, then, I shall count upon you, and I'll tell you all about it later; you'll excuse me
+       now, I'm wanted in the drawing-room. Don't you go, I'll be back before you've finished your
+       cigar.</p>
+     </sp>
+     <stage rend="exit">exit, E.</stage>
+     <sp who="#L1244_M4">
+      <speaker>Cecil.</speaker>
+      <p>Um ! So I'm going to be of some use to the family. By Jove, I don't dislike the idea !
+       Befriending any relative of that charming girl is quite a pleasant sensation! <stage>(sits,
+        R.)</stage> The worst part of the business is the partner—his friend, Redcliffe—friend, yes,
+       he shows very friendly cards, generally—always hanging about Ted's wife, for instance. I
+       wouldn't mind interfering there, if I could get a chance—<hi>platonic attachment</hi>, I
+       think they call it—I wonder if any one ever horsewhipped Plato ? <stage>(rises)</stage> I
+       should think so. 'Pon my word, if he happened to be my personal friend, I should feel
+       inclined to kick him out of my house!</p>
+     </sp>
+     <stage rend="entrance">Enter Mrs. Trevlyn and Redcliffe at back, L. On seeing Cecil, Mrs.
+      Trevlyn leaves Redcliffe's arm, with a bow as they advance.</stage>
+     <sp who="#L1244_F9">
+      <speaker>Mrs. T.</speaker>
+      <p>Good morning, Mr. Mitford; do you know where I can find Lucy ? I want to speak to her
+       particularly. I hope we shall see you to-night.</p>
+     </sp>
+     <sp who="#L1244_M4">
+      <speaker>Cecil.</speaker>
+      <p>Oh, charmed, Mrs. Trevlyn. Glad to see you looking so well, it's rather an exertion this
+       walk, with your duties of hostess looming before you.</p>
+     </sp>
+     <sp who="#L1244_F9">
+      <speaker>Mrs. T.</speaker>
+      <p>Oh, I shall survive them, <stage>(laughs.)</stage></p>
+     </sp>
+     <sp who="#L1244_M4">
+      <speaker>Cecil.</speaker>
+      <p>And Ted ? I hope he's got over that cold he caught at the races ?</p>
+     </sp>
+     <sp who="#L1244_F9">
+      <speaker>Mrs. T.</speaker>
+      <p>I suppose so—but I see so little of him, I really forgot to ask. Hasn't he been here this
+       morning ?</p>
+     </sp>
+     <sp who="#L1244_M4">
+      <speaker>Cecil.</speaker>
+      <p>No ; I'm the only goods from town.</p>
+     </sp>
+     <sp who="#L1244_M2">
+      <speaker>Redcliffe.</speaker>
+      <p>I saw him half an hour ago, at the club, in the billiard-room.</p>
+     </sp>
+     <sp who="#L1244_M4">
+      <speaker>Cecil.</speaker>
+      <p><stage>(not heeding the remark)</stage> I think you'll find Miss Trevlyn in the house,
+       knocking a call on the head.</p>
+     </sp>
+     <sp who="#L1244_F9">
+      <speaker>Mrs. T.</speaker>
+      <p>Ah then, <hi>au revoir</hi>. <stage>(to Redcliffe)</stage> Only ten minutes, if you think
+       you can kill them.</p>
+     </sp>
+     <sp who="#L1244_M2">
+      <speaker>Redcliffe.</speaker>
+      <p><stage>(bows)</stage>
+       <hi>Tonjours a vous</hi> ! <stage rend="exit">(exit Mrs. Trevlyn, into house—after a
+        pause)</stage> Delightful old place, this!</p>
+     </sp>
+     <sp who="#L1244_M4">
+      <speaker>Cecil.</speaker>
+      <p>I beg your pardon.</p>
+     </sp>
+     <sp who="#L1244_M2">
+      <speaker>Redcliffe.</speaker>
+      <p>I remarked that this was a delightful old place.</p>
+     </sp>
+     <pb n="9"/>
+     <sp who="#L1244_M4">
+      <speaker>Cecil.</speaker>
+      <p>Oh, yes, delightful! yes ! <stage>(looks at Redcliffe, hesitates, and exits, R. u.
+        E.)</stage></p>
+     </sp>
+     <sp who="#L1244_M2">
+      <speaker>Redcliffe.</speaker>
+      <p><stage>(watching him)</stage> So, people are gossiping, are they ? And that hare-brained
+       ass has heard the buzz ! <stage>(leans against sun-dial, regarding the house)</stage> And
+       she, does she quite understand me? Bah! the whole world is more awake than she ! This
+       fool—even he has picked up the talk! <stage>(takes note book out—opens it)</stage> I thank
+       him for the hint—the time has come for action, <stage>(adds up memorandums)</stage> Five and
+       five are ten—twenty—thirty—forty—um—sixty-five thousand pounds gone ! A run upon the cash,
+       to- morrow—about eight thousand to meet all pretty calls. Business is business—and as that
+       trifle will be safer in my pocket-book, we must transfer it quietly—to-night. And she—the
+       Atlantic's broad enough—I wonder if she'd cross it—ruin if she stays—I'll try her.</p>
+     </sp>
+     <stage rend="entrance">Enter Lucy, Mrs. Trevlyn, Lady Olivia, and Crawdust, from house,
+      R.</stage>
+     <sp who="#L1244_F10">
+      <speaker>Lady O.</speaker>
+      <p>No, my dear, salmon colour and hollyhocks ! When I first captivated Sir Peter, it was with
+       salmon colour and hollyhocks; and our styles are precisely similar.</p>
+     </sp>
+     <sp who="#L1244_F9">
+      <speaker>Mrs. T.</speaker>
+      <p>No, white, dear, plain white and a blush rose, or perhaps two, if you like, and my Lucy
+       will look lovely !</p>
+     </sp>
+     <sp who="#L1244_F8">
+      <speaker>Lucy.</speaker>
+      <p>You'll drive your Lucy wild between you. There, I'll settle the matter—I believe in
+       gentlemen's tastes, so what do you say, Mr. Crawdust ?</p>
+     </sp>
+     <sp who="#L1244_M5">
+      <speaker>Craw.</speaker>
+      <p>Oh, fight shy of the salmon and sunflower, by all means!</p>
+     </sp>
+     <sp who="#L1244_F10">
+      <speaker>Lady O.</speaker>
+      <p>Hollyhock, sir !</p>
+     </sp>
+     <sp who="#L1244_M5">
+      <speaker>Craw.</speaker>
+      <p>Hollyhock, then! It's my opinion in <hi>some</hi> cases they'd both be equally
+       charming.</p>
+     </sp>
+     <sp who="#L1244_F10">
+      <speaker>Lady O.</speaker>
+      <p>Mr. Crawdust, dear, is not capable of giving an opinion; from his childhood upwards, his
+       favourite colour has been a ditch-green! Ah, Sir Peter's was damson! What do you say, Mr.
+       Redcliffe ?</p>
+     </sp>
+     <sp who="#L1244_M2">
+      <speaker>Redcliffe.</speaker>
+      <p>Mrs. Trevlyn's taste is mine ; the pure white —the blush rose—no combination could speak
+       more eloquently of this charming country spot!</p>
+     </sp>
+     <sp who="#L1244_F8">
+      <speaker>Lucy.</speaker>
+      <p>Then the white and roses are carried without a division. And you, Isabel, <stage>(to Mrs.
+        Trevlyn)</stage> what new wonder have you got from London ? <stage>(Lady Olivia, Craw­dust,
+        and Redcliffe retire up)</stage> Now tell me all about it.</p>
+     </sp>
+     <sp who="#L1244_F9">
+      <speaker>Mrs. T.</speaker>
+      <p>I've nothing to tell, dear, I leave it all to Masham; she chooses what she likes, and I'm
+       only too
+       <pb n="10"/>happy to submit. When one is out night after night these things weary to a degree
+       !</p>
+     </sp>
+     <sp who="#L1244_F8">
+      <speaker>Lucy.</speaker>
+      <p>What! you don't really care about dress ?</p>
+     </sp>
+     <sp who="#L1244_F9">
+      <speaker>Mrs. T.</speaker>
+      <p>No.</p>
+     </sp>
+     <sp who="#L1244_F8">
+      <speaker>Lucy.</speaker>
+      <p>Don't rave about the newest shade of magenta ?</p>
+     </sp>
+     <sp who="#L1244_F9">
+      <speaker>Mrs. T.</speaker>
+      <p>No.</p>
+     </sp>
+     <sp who="#L1244_F8">
+      <speaker>Lucy.</speaker>
+      <p>Nor go into hysterics with envy after every ball? Giving it all up ? Oh, this will be news
+       for Uncle Richard. Why, Isabel, how tired, how pale you look !</p>
+     </sp>
+     <sp who="#L1244_F9">
+      <speaker>Mrs. T.</speaker>
+      <p>Tired ! pale ! 1 feel as if this life would wear me out in time ! Look at me, Lucy dear, do
+       I look as merry as I used to, once ?</p>
+     </sp>
+     <sp who="#L1244_F8">
+      <speaker>Lucy.</speaker>
+      <p>No, darling.</p>
+     </sp>
+     <sp who="#L1244_F9">
+      <speaker>Mrs. T.</speaker>
+      <p>I am not happy—and sometimes I almost wish—</p>
+     </sp>
+     <sp who="#L1244_F8">
+      <speaker>Lucy.</speaker>
+      <p>Hush, darling! Why there are tears in your eyes ! Come, come, you know I get all the
+       secrets, and <stage>(tenderly)</stage> I'm a wonderful doctor. You came here with Mr.
+       Redcliffe, he is very amiable, very obliging, I dare say. <stage>(watching Mrs.
+        Trevlyn)</stage> He's a great favourite of yours ?</p>
+     </sp>
+     <sp who="#L1244_F9">
+      <speaker>Mrs. T.</speaker>
+      <p>Oh, yes, he is so kind, and so devoted to Edward —he manages the bank for him, and
+       everything ; and he says Edward's his best friend.</p>
+     </sp>
+     <sp who="#L1244_F8">
+      <speaker>Lucy.</speaker>
+      <p>He says that? And Edward's best friend must be yours, that's logic, isn't it, dear ?</p>
+     </sp>
+     <sp who="#L1244_M2">
+      <speaker>Redcliffe.</speaker>
+      <p><stage>(advances, looking at watch)</stage> I hope I'm not spoiling a pleasant tete-a-tete,
+       but it's ten minutes to one.</p>
+     </sp>
+     <sp who="#L1244_F9">
+      <speaker>Mrs. T.</speaker>
+      <p>So late ? And I promised to be at the Derwents for lunch; I am afraid, dear, I must run
+       away at once. <stage>(about to take Redcliffe's arm.)</stage></p>
+     </sp>
+     <sp who="#L1244_F8">
+      <speaker>Lucy.</speaker>
+      <p>Oh, no, no, not until you have seen what we done to the pigs. And Ponto, oh, you must see
+       Ponto !</p>
+     </sp>
+     <sp who="#L1244_M5">
+      <speaker>Craw.</speaker>
+      <p>Who's Ponto?</p>
+     </sp>
+     <sp who="#L1244_F8">
+      <speaker>Lucy.</speaker>
+      <p>My great big dog, of course ! Oh, you must see <hi>him.</hi> You like dogs, I can see it,
+       Mr. Crawdust.</p>
+     </sp>
+     <sp who="#L1244_M5">
+      <speaker>Craw.</speaker>
+      <p>Well, I can't say I do—is he chained up ?</p>
+     </sp>
+     <sp who="#L1244_F8">
+      <speaker>Lucy.</speaker>
+      <p>Oh, yes; the dear fellow, he's so lively ! I think that's the air down here, you know—one
+       can't help it.</p>
+     </sp>
+     <sp who="#L1244_M5">
+      <speaker>Craw.</speaker>
+      <p>Depends on situation ; I fancy the air at our end isn't quite so exhilarating.
+        <stage>(Redcliffe offers his arm to Mrs. Trevlyn.)</stage></p>
+     </sp>
+     <sp who="#L1244_F8">
+      <speaker>Lucy.</speaker>
+      <p>Come, Lady Olivia, Mr. Redcliffe will escort you if Mr. Crawdust won't. <stage>(Lady Olivia
+        advances delightedly to Redcliffe, who reluctantly offers her his arm.)</stage></p>
+     </sp>
+     <sp who="#L1244_M2">
+      <speaker>Redcliffe.</speaker>
+      <p><stage>(annoyed)</stage> With pleasure!</p>
+      <stage rend="exit">exit, R.U. E., with Lady Olivia.</stage>
+     </sp>
+     <pb n="11"/>
+     <sp who="#L1244_M5">
+      <speaker>Craw.</speaker>
+      <p><stage>(aside)</stage> Simpering and smirking with anybody but me ! Blowed if I won't see
+       the dog, too ! Dear me, I wish I'd stuck to the blacking!</p>
+     </sp>
+     <stage rend="exit">exit, R. u. E.</stage>
+     <sp who="#L1244_F8">
+      <speaker>Lucy.</speaker>
+      <p>Isabel, darling, do me a little favour, will you ?</p>
+     </sp>
+     <sp who="#L1244_F9">
+      <speaker>Mrs. T.</speaker>
+      <p>What is it ?</p>
+     </sp>
+     <sp who="#L1244_F8">
+      <speaker>Lucy.</speaker>
+      <p>Don't walk back with that Mr. Redcliffe.</p>
+     </sp>
+     <sp who="#L1244_F9">
+      <speaker>Mrs. T.</speaker>
+      <p>Why not?</p>
+     </sp>
+     <sp who="#L1244_F8">
+      <speaker>Lucy.</speaker>
+      <p>I don't like him.</p>
+     </sp>
+     <sp who="#L1244_F9">
+      <speaker>Mrs. T.</speaker>
+      <p>Don't like him ? Why not ?</p>
+     </sp>
+     <sp who="#L1244_F8">
+      <speaker>Lucy.</speaker>
+      <p>Don't know.</p>
+     </sp>
+     <sp who="#L1244_F9">
+      <speaker>Mrs. T.</speaker>
+      <p>But it would be so rude, without any excuse, too ; besides, it's such an absurd
+       request.</p>
+     </sp>
+     <sp who="#L1244_F8">
+      <speaker>Lucy.</speaker>
+      <p>Is it ? <stage>(pointedly.)</stage></p>
+     </sp>
+     <sp who="#L1244_F9">
+      <speaker>Mrs. T.</speaker>
+      <p>Yes, dear. And I must say I think it a little beyond your province to––</p>
+     </sp>
+     <sp who="#L1244_F8">
+      <speaker>Lucy.</speaker>
+      <p><stage>(stopping her)</stage> Love you ? like my own dear sister that you are!
+        <stage>(kisses her.)</stage></p>
+     </sp>
+     <sp who="#L1244_F9">
+      <speaker>Mrs. T.</speaker>
+      <p>But why do you wish this so particularly ?</p>
+     </sp>
+     <sp who="#L1244_F8">
+      <speaker>Lucy.</speaker>
+      <p>Didn't you tell me just now you were unhappy P Does not everything about you tell me of it
+       ? All these balls, parties, dinners, nights turned into days, days use­less as nights, don't
+       tell me they are your pleasure ! They weary you, distress you, wear you out.</p>
+     </sp>
+     <sp who="#L1244_F9">
+      <speaker>Mrs. T.</speaker>
+      <p>Heaven knows they do ! But anything is better than the miserable solitude my life would be
+       without them!</p>
+     </sp>
+     <sp who="#L1244_F8">
+      <speaker>Lucy.</speaker>
+      <p>I know, dear, Edward has been thoughtless— foolish, very foolish, but he loves you dearly!
+        <stage>(Mrs. Trevlyn smiles derisively)</stage> Oh, but he does though, dearly, and you
+       would not wound him, would you ?</p>
+     </sp>
+     <sp who="#L1244_F9">
+      <speaker>Mrs. T.</speaker>
+      <p>What do you mean, Lucy? What do you imply ?</p>
+     </sp>
+     <sp who="#L1244_F8">
+      <speaker>Lucy.</speaker>
+      <p>Nothing, dear, nothing ; but your way is difficult and hard just now; and you have need of
+       hope and courage; oh, darling, I know how much !</p>
+     </sp>
+     <stage rend="entrance">Enter Trevlyn, with bills, papers, &amp;c, hurriedly, L. U.E.</stage>
+     <sp who="#L1244_M1">
+      <speaker>Trevlyn.</speaker>
+      <p>Ah, Lucy, good morning! Where's Uncle Richard ? Is he at home ? <stage>(not noticing
+        Isabel.)</stage></p>
+     </sp>
+     <sp who="#L1244_F8">
+      <speaker>Lucy.</speaker>
+      <p>Yes, but what a hurry you're in ! Ah, of course business, that horrid "business." I have
+       half a mind to take all those papers away from you! <stage>(playfully.)</stage></p>
+     </sp>
+     <sp who="#L1244_M1">
+      <speaker>Trevlyn.</speaker>
+      <p>Did you say he was in ? <stage>(to himself)</stage> Curses on this fellow! Oh, what a fool
+       I've been to neglect this ! <stage>(to her)</stage> Where is uncle ?</p>
+     </sp>
+     <sp who="#L1244_F8">
+      <speaker>Lucy.</speaker>
+      <p>How cross you are ? Where is he ? In the house
+       <pb n="12"/>of course. But there, never mind, Ted, I 'm not angry; but you needn't speak so
+       sharply, about nothing, too !</p>
+     </sp>
+     <sp who="#L1244_M1">
+      <speaker>Trevlyn.</speaker>
+      <p><stage>(pre-occupied)</stage> I wish to heaven it were nothing. In the house, is he ? I
+       must see him at once !</p>
+     </sp>
+     <stage rend="exit">exit, R.</stage>
+     <sp who="#L1244_F9">
+      <speaker>Mrs. T.</speaker>
+      <p>You see, Lucy, not a word, not a look !</p>
+     </sp>
+     <sp who="#L1244_F8">
+      <speaker>Lucy.</speaker>
+      <p>I do ; but, never mind, darling, it will all come right in time! There, kiss me; you know I
+       love you, dear, but you do not know how devotedly !</p>
+     </sp>
+     <sp who="#L1244_F9">
+      <speaker>Mrs. T.</speaker>
+      <p>Dear girl! <stage>(kisses her—shouting without, and barking of dog heard.)</stage></p>
+     </sp>
+     <sp who="#L1244_M5">
+      <speaker>Craw.</speaker>
+      <p><stage>(without)</stage> Here! hi! hi! call him off, call him off! <stage>(enters, his coat
+        torn and dirty, hat broken, &amp;c.)</stage> I knew it! I felt it! The brute ! I hate dogs!
+       This sort of thing always happens whenever I go to look at a dog!</p>
+     </sp>
+     <sp who="#L1244_F8">
+      <speaker>Lucy.</speaker>
+      <p><stage>(laughs)</stage> Why, Mr. Crawdust, I'm afraid you're been making friends with Ponto
+       !</p>
+     </sp>
+     <sp who="#L1244_M5">
+      <speaker>Craw.</speaker>
+      <p>Friends! War to the knife ! Look at me ! The idea of keeping such a savage, ill-tempered
+       brute of a dog–</p>
+     </sp>
+     <sp who="#L1244_F8">
+      <speaker>Lucy.</speaker>
+      <p>Chained up! Poor Ponto; what would have become of you if he'd only got loose!
+        <stage>(laughs)</stage> But I'm really very sorry—I am, indeed—won't you have a clothes
+       brush?</p>
+     </sp>
+     <sp who="#L1244_M5">
+      <speaker>Craw.</speaker>
+      <p>Clothes brush! Ten pounds to my tailor's bill— that's what it will be ! The brute! I'm sure
+       he relished it!</p>
+     </sp>
+     <stage rend="entrance">Enter Lady Olivia, Redcliffe, and Cecil, R. U.E.</stage>
+     <sp who="#L1244_F10">
+      <speaker>Lady O.</speaker>
+      <p>Well, I'm not sorry; I never could bear you in that coat!</p>
+     </sp>
+     <sp who="#L1244_M5">
+      <speaker>Craw.</speaker>
+      <p>No, nor in anything else ! Where's my paletot ? Confound it, my coat! with a nasty slimy
+       heap of mould on it! Who's done this ? <stage>(knocks the plant off)</stage> Bah ! the
+       idea!</p>
+     </sp>
+     <sp who="#L1244_M4">
+      <speaker>Cecil.</speaker>
+      <p>Hollo! here, that's mine ! <stage>(picks it up.)</stage></p>
+     </sp>
+     <sp who="#L1244_M5">
+      <speaker>Craw.</speaker>
+      <p>Stuff, sir, it's mine !</p>
+     </sp>
+     <sp who="#L1244_M4">
+      <speaker>Cecil.</speaker>
+      <p>But I put it there !</p>
+     </sp>
+     <sp who="#L1244_M5">
+      <speaker>Craw.</speaker>
+      <p>What, the mess on my coat ?</p>
+     </sp>
+     <sp who="#L1244_M4">
+      <speaker>Cecil.</speaker>
+      <p>Coat! I thought it was a hearth-rug.</p>
+     </sp>
+     <sp who="#L1244_M5">
+      <speaker>Craw.</speaker>
+      <p>Hearth-rug! D'ye think I wear a hearth-rug, sir?</p>
+     </sp>
+     <sp who="#L1244_M4">
+      <speaker>Cecil.</speaker>
+      <p>'Pon my word, can't say.</p>
+     </sp>
+     <sp who="#L1244_M5">
+      <speaker>Craw.</speaker>
+      <p><stage>(putting on paletot)</stage> Here, Lady Olivia, come on, quick ! I want to go
+       home!</p>
+     </sp>
+     <sp who="#L1244_F8">
+      <speaker>Lucy.</speaker>
+      <p>What, hurry home in that fashion ? I shouldn't think of allowing Lady Olivia to be so
+       ill-treated, and
+       <pb n="13"/>shall hand her over to Mr. Redcliffe. <stage>(Lady Olivia advances smilingly to
+        Redcliffe, who hesitates to give his arm, and looks towards Mrs. Trevlyn.)</stage></p>
+     </sp>
+     <sp who="#L1244_F9">
+      <speaker>Mrs. T.</speaker>
+      <p>Don't consider me, Mr. Redcliffe, I'll take care of myself.</p>
+     </sp>
+     <sp who="#L1244_M2">
+      <speaker>Redcliffe.</speaker>
+      <p><stage>(bows)</stage> As you wish. You command, I obey. Good morning, Miss.Trevlyn.
+        <stage>(aside)</stage> Curse her!</p>
+     </sp>
+     <sp who="#L1244_F10">
+      <speaker>Lady O.</speaker>
+      <p>Bye, bye, dear! We shall meet to-night; remember salmon-colour !</p>
+     </sp>
+     <stage rend="exit">exit with Redcliffe, l.U. E.</stage>
+     <sp who="#L1244_F8">
+      <speaker>Lucy.</speaker>
+      <p>Good-bye! <stage>(to Mrs. Trevlyn)</stage> Good-bye, dear! You are a darling!
+        <stage>(kisses her)</stage> I will come early, and we'll have a long chat in your pet little
+       room, this evening. Now, Mr. Crawdust, if Ponto has left you an arm ?</p>
+     </sp>
+     <sp who="#L1244_M5">
+      <speaker>Craw.</speaker>
+      <p>It's a mercy he did! At your service, madam, <stage>(offers arm to Mrs. Trevlyn)</stage> if
+       you don't mind my hat!</p>
+     </sp>
+     <sp who="#L1244_F9">
+      <speaker>Mrs. T.</speaker>
+      <p>Good-bye, dear; remember, not later than nine!</p>
+     </sp>
+     <stage rend="exit">exit with Crawdust, L. U. E.</stage>
+     <sp who="#L1244_M4">
+      <speaker>Cecil.</speaker>
+      <p><stage>(holding plant)</stage> Where shall I put this, Miss Trevlyn ?</p>
+     </sp>
+     <stage rend="entrance">Enter O'Shanty, houses.</stage>
+     <sp who="#L1244_M7">
+      <speaker>O'Shanty.</speaker>
+      <p>Please, Miss Lucy, your uncle wants you in the study.</p>
+     </sp>
+     <sp who="#L1244_F8">
+      <speaker>Lucy.</speaker>
+      <p>I'm coming, John.</p>
+     </sp>
+     <stage rend="exit">exit O'Shanty.</stage>
+     <sp who="#L1244_M4">
+      <speaker>Cecil.</speaker>
+      <p>But, Miss Trevlyn, what had I better do with this?</p>
+     </sp>
+     <sp who="#L1244_F8">
+      <speaker>Lucy.</speaker>
+      <p>Oh, put it anywhere you like !</p>
+     </sp>
+     <stage rend="entrance">Enter Crawdust, hurriedly, L. U. E.</stage>
+     <sp who="#L1244_M5">
+      <speaker>Craw.</speaker>
+      <p>Mrs. Trevlyn's parasol—she's left her parasol!</p>
+     </sp>
+     <sp who="#L1244_F8">
+      <speaker>Lucy.</speaker>
+      <p><stage>(going off)</stage> There it is. <stage>(pointing to parasol, on seat, R.)</stage>
+       Give it him, Mr. Mitford.</p>
+     </sp>
+     <stage rend="exit">exit to house, R.</stage>
+     <sp who="#L1244_M4">
+      <speaker>Cecil.</speaker>
+      <p>Give it him—with pleasure ! <stage>(turns round, meets Crawdust eagerly advancing, gives
+        him the plant.)</stage></p>
+     </sp>
+     <sp who="#L1244_M5">
+      <speaker>Craw.</speaker>
+      <p>Confound it! What d'ye mean by this, sir? <stage>(dashing down the plant)</stage> D'ye take
+       me for a fool, sir ?</p>
+     </sp>
+     <stage rend="act_drop">act drop quick.</stage>
+    </div>
+    <trailer>End of act first</trailer>
+   </div>
+
+
+   <div type="act" n="II">
+    <head>Act II.</head>
+    <div type="scene">
+     <head>Scene.–</head>
+     <stage>A drawing-room, handsomely decorated. Folding doors at back, c, chain, tables, &amp;c,
+      about the scene. Ottoman, c.</stage>
+     <stage>Trevlyn, in evening dress, discovered reading letter.</stage>
+     <sp who="#L1244_M1">
+      <speaker>Trevlyn.</speaker>
+      <p>Impossible ! It can't be; he told me the securities were undeniable, and here I am let in
+       for £3,000
+       <pb n="14"/> to-morrow. The letter looks like business, and means pressure. I suppose that
+       Mexican failure has got wind, for no one seems inclined to wait. Poor Isabel, too! I wonder
+       if she suspects what a fool—worse—what a regular villain I've been to go headlong to ruin
+       like this. <stage>Enter Spinks, C.</stage> Ah, Spinks, I wanted you. Have you got everything
+       in first-rate style—silver, lustres, mirrors, dinners—all that sort of thing, eh ?</p>
+     </sp>
+     <sp who="#L1244_M6">
+      <speaker>Spinks.</speaker>
+      <p>Everything, sir. Mr. Platum says he's sure it will give you satisfaction—London couldn't
+       beat it—I never seed anything like it, sir—it's tip-top.</p>
+     </sp>
+     <sp who="#L1244_M1">
+      <speaker>Trevlyn.</speaker>
+      <p>That's all right, <stage>(knock and ring heard—exit Spinks, L. D.)</stage> Ah, Mitford at
+       last! I wonder what news he has got.</p>
+     </sp>
+     <stage>Enter Cecil, L. D.</stage>
+     <sp who="#L1244_M1">
+      <speaker>Trevlyn.</speaker>
+      <p>Well, old fellow—Clasper will wait, eh ?</p>
+     </sp>
+     <sp who="#L1244_M4">
+      <speaker>Cecil.</speaker>
+      <p>By Jove, he won't, though ! It's an ugly piece of business. The fellow's a regular
+       blackguard—one of those sixty per cent, scoundrels, you know,</p>
+     </sp>
+     <sp who="#L1244_M1">
+      <speaker>Trevlyn.</speaker>
+      <p>You don't mean to say he'll drive me into a corner ?</p>
+     </sp>
+     <sp who="#L1244_M4">
+      <speaker>Cecil.</speaker>
+      <p>I do, though; it's all over the place. You mustn't mind my telling you, old boy, but the
+       bank's in a shaky state, and is going to collapse or something of the sort to-morrow.</p>
+     </sp>
+     <sp who="#L1244_M1">
+      <speaker>Trevlyn.</speaker>
+      <p>You don't mean that, Cecil!</p>
+     </sp>
+     <sp who="#L1244_M4">
+      <speaker>Cecil.</speaker>
+      <p>I do—look here—<stage>(shows a letter)</stage> from Crawdust, dated this afternoon,
+        <stage>(laughs)</stage> You see old Blacking's heard it, and is on tolerable thorns in
+       consequence.</p>
+     </sp>
+     <sp who="#L1244_M1">
+      <speaker>Trevlyn.</speaker>
+      <p>The old scamp ! and he's coming to-night P</p>
+     </sp>
+     <sp who="#L1244_M4">
+      <speaker>Cecil.</speaker>
+      <p>Of course. Do you think Lady Olivia would be cut out of a fashionable event like this ? No,
+       not if it came off in the crater of Vesuvius ! <stage>(exit with Trevlyn, C. D.—knock and
+        ring heard.)</stage></p>
+     </sp>
+     <stage>Enter Spinks, preceding Lady Olivia and Mr. Crawdust, L. door.</stage>
+     <sp who="#L1244_M6">
+      <speaker>Spinks.</speaker>
+      <p><stage>(takes Crawdust's coat—gives number)</stage> Thank you, sir. No. 1, sir.</p>
+     </sp>
+     <sp who="#L1244_M5">
+      <speaker>Craw.</speaker>
+      <p>What! are we the first ?</p>
+     </sp>
+     <sp who="#L1244_M6">
+      <speaker>Spinks.</speaker>
+      <p>Yes, sir, the missus is not down yet, sir.</p>
+     </sp>
+     <sp who="#L1244_F10">
+      <speaker>Lady O.</speaker>
+      <p>I told you so. The idea of coming here, like a parcel of musicians, before the candles are
+       lighted! Another time I leave at my hour—half-past eleven!</p>
+     </sp>
+     <pb n="15"/>
+     <sp who="#L1244_M5">
+      <speaker>Craw.</speaker>
+      <p>Half-past eleven, when it says "nine" on the ticket?</p>
+     </sp>
+     <sp who="#L1244_F10">
+      <speaker>Lady O.</speaker>
+      <p><stage>(to Spinks with dignity)</stage> Tell your mistress that Mr. and Lady Olivia
+       Crawdust have arrived.</p>
+     </sp>
+     <sp who="#L1244_M6">
+      <speaker>Spinks.</speaker>
+      <p>Thank'ee, your ladyship. <stage>(exit, R.)</stage></p>
+     </sp>
+     <sp who="#L1244_M5">
+      <speaker>Craw.</speaker>
+      <p><stage>(sits, r.)</stage> Well, Trevlyn is going it and no mistake! But I've been even with
+       him—drew out my balance at a quarter to four, <stage>(looks round)</stage> All hired, I'll be
+       bound.</p>
+     </sp>
+     <sp who="#L1244_F10">
+      <speaker>Lady O.</speaker>
+      <p>Your sagacity does you credit. Everything from the candelabras down to the rout seats—is
+       evidently here at so much per foot.</p>
+     </sp>
+     <sp who="#L1244_M5">
+      <speaker>Craw.</speaker>
+      <p>Everything —even the company !</p>
+     </sp>
+     <sp who="#L1244_F10">
+      <speaker>Lady O.</speaker>
+      <p>I cannot think how, at such a crisis, they manage to get credit. They appear to have
+       plenty, to judge from the silver I noticed as I passed the dining­room.</p>
+     </sp>
+     <sp who="#L1244_M5">
+      <speaker>Craw.</speaker>
+      <p>I believe you. All the ancestors since the Flood might have been born with a silver spoon
+       in their mouths. Spoon! aye, with an entree dish, and a couple of soup ladles!</p>
+     </sp>
+     <sp who="#L1244_F10">
+      <speaker>Lady O.</speaker>
+      <p>I have never heard much about ancestors.</p>
+     </sp>
+     <sp who="#L1244_M5">
+      <speaker>Craw.</speaker>
+      <p>Haven't you ? Well, Trevlyn might have hired his respectability too—at least, in the shape
+       of pictures. I have known houses date back to William the Conqueror—in an afternoon. The
+       order has been sent out at three, and the forefathers have been at the front door—with the
+       rout seats before seven ! I've done it myself.</p>
+     </sp>
+     <sp who="#L1244_F10">
+      <speaker>Lady O.</speaker>
+      <p><stage>(rises)</stage> Never mind what you've done; it's enough for me that the founder of
+       Sir Peter's race was a distinguished Druid.</p>
+     </sp>
+     <sp who="#L1244_M5">
+      <speaker>Craw.</speaker>
+      <p>Oh, is it ? Then he must have had something remarkably stony in his composition when he
+       took a fancy to you ! <stage>(rises.)</stage></p>
+     </sp>
+     <sp who="#L1244_F10">
+      <speaker>Lady O.</speaker>
+      <p>Wretch ! but this comes of giving my hand to a trade—blacking ! what could come of such a
+       union, but vulgarity!</p>
+     </sp>
+     <sp who="#L1244_M5">
+      <speaker>Craw.</speaker>
+      <p>Vulgarity! Polish, Lady O., polish! <stage>(imitates cleaning a boot)</stage> Society has
+       got polish out of me for the last twenty years at a shilling a bottle.</p>
+     </sp>
+     <stage>Enter Spinks, R.</stage>
+     <sp who="#L1244_M6">
+      <speaker>Spinks.</speaker>
+      <p>Please my lady, missus says will my lady bring his lordship and her ladyship's self up to
+       the boudoir and take a cup of tea, until the parties begin to arrive ?</p>
+     </sp>
+     <sp who="#L1244_F10">
+      <speaker>Lady O.</speaker>
+      <p>A well instructed man, and knows his station. <stage>(to Crawdust)</stage> I am ready,
+       Julius, <stage>(waits for his arm.)</stage></p>
+     </sp>
+     <pb n="16"/>
+     <sp who="#L1244_M5">
+      <speaker>Craw.</speaker>
+      <p>Lordship! called me "his lordship!" Egad, I'll come it, too. <stage>(swaggers out with Lady
+        Olivia in an exaggerated style, R.)</stage></p>
+     </sp>
+     <sp who="#L1244_M6">
+      <speaker>Spinks.</speaker>
+      <p>Well, <hi>he</hi> don't look as if he'd got a coronet in his pocket. <stage>(exit,
+        R.)</stage></p>
+     </sp>
+     <stage>Re-enter Trevlyn and Cecil, C. D.</stage>
+     <sp who="#L1244_M1">
+      <speaker>Trevlyn.</speaker>
+      <p>This ball's a lucky thing in it's way, you see; it will quiet all the small talk, like
+       nothing else. But what's the good of quiet ? I must get money—must! And this Clasper shows
+       his teeth, eh ?</p>
+     </sp>
+     <sp who="#L1244_M4">
+      <speaker>Cecil.</speaker>
+      <p>Every one of them.</p>
+     </sp>
+     <sp who="#L1244_M1">
+      <speaker>Trevlyn.</speaker>
+      <p>What on earth's to be done ? I don't even know how we stand downstairs—and if there's a
+       heavy run to-morrow––</p>
+     </sp>
+     <sp who="#L1244_M4">
+      <speaker>Cecil.</speaker>
+      <p>You must meet it.</p>
+     </sp>
+     <stage>Enter Holdsworth, l.D.</stage>
+     <sp who="#L1244_M1">
+      <speaker>Trevlyn.</speaker>
+      <p>But how ?</p>
+     </sp>
+     <sp who="#L1244_M4">
+      <speaker>Cecil.</speaker>
+      <p><stage>(points to Holdsworth)</stage> That's the best way out of it, Ted ; take my
+       advice—make a clean breast of it.</p>
+     </sp>
+     <sp who="#L1244_M1">
+      <speaker>Trevlyn.</speaker>
+      <p>My uncle ? I can't. I tried this morning to break a little of the matter to him, but it was
+       too much for me—I could not do it. No, no, no—he must be the very last resource.</p>
+     </sp>
+     <sp who="#L1244_M3">
+      <speaker>Holds.</speaker>
+      <p>Now to read this young scape-grace a lesson. I think the time's come for it, too.
+        <stage>(to him)</stage> Ted, can I speak to you for five minutes, or are you too seriously
+       engaged <stage>(pointing to back)</stage> in this important business ?</p>
+     </sp>
+     <sp who="#L1244_M4">
+      <speaker>Cecil.</speaker>
+      <p><stage>(aside to Trevlyn)</stage> I told you so—he knows all about it. Courage, old boy !
+       think what a bore it would be, you know, to come a regular smash. I'll go and drink to your
+       success in a cup of tea—by Jove, I will! <stage>(exit C. D.</stage></p>
+     </sp>
+     <sp who="#L1244_M1">
+      <speaker>Trevlyn.</speaker>
+      <p><stage>(advancing, places chairs)</stage> I am at your service, uncle, <stage>(looks at
+        Holdsworth)</stage> But this dress—shan't you be here to night ?</p>
+     </sp>
+     <sp who="#L1244_M3">
+      <speaker>Holds.</speaker>
+      <p>No, my boy, I shan't. A precious time you choose for your entertainments. Not to mince
+       matters with you—I think you must be mad!</p>
+     </sp>
+     <sp who="#L1244_M1">
+      <speaker>Trevlyn.</speaker>
+      <p>Uncle !</p>
+     </sp>
+     <sp who="#L1244_M3">
+      <speaker>Holds.</speaker>
+      <p>The truth is, I've come to say a word to you, and it's on my conscience that I haven't said
+       it before ; but I've heard some news to-day that turns silence into sin, so speak out I must,
+       for things have come to a crisis at last.</p>
+     </sp>
+     <sp who="#L1244_M1">
+      <speaker>Trevlyn.</speaker>
+      <p>A crisis!</p>
+     </sp>
+     <pb n="17"/>
+     <sp who="#L1244_M3">
+      <speaker>Holds.</speaker>
+      <p>Yes, you've lost largely—I know all about it— your paper isn't worth a penny, and
+       to-morrow—from all sides—you'll be literally beseiged for gold. Don't deny it!</p>
+     </sp>
+     <sp who="#L1244_M1">
+      <speaker>Trevlyn.</speaker>
+      <p>Who has told you all this ?</p>
+     </sp>
+     <sp who="#L1244_M3">
+      <speaker>Holds.</speaker>
+      <p>It's the common story from mouth to mouth. Nor the only common story—not contented with
+       living at a ruinous rate yourself, letting your business go to the dogs</p>
+     </sp>
+     <sp who="#L1244_M1">
+      <speaker>Trevlyn.</speaker>
+      <p>Redcliffe's my right hand, and has done every­thing for me.</p>
+     </sp>
+     <sp who="#L1244_M3">
+      <speaker>Holds.</speaker>
+      <p>Your partner, eh ? A pretty right hand indeed! But it's all of a piece—you've neglected
+       everything ; first and foremost, your poor wife.</p>
+     </sp>
+     <sp who="#L1244_M1">
+      <speaker>Trevlyn.</speaker>
+      <p>Neglect! Why, what wrong have I done her? Has she not everything money can purchase ?</p>
+     </sp>
+     <sp who="#L1244_M3">
+      <speaker>Holds.</speaker>
+      <p>Or credit command ! Ah, it was an evil day when you took this great place to tinsel it from
+       top to toe.</p>
+     </sp>
+     <sp who="#L1244_M1">
+      <speaker>Trevlyn.</speaker>
+      <p>What more reasonable than to inhabit premises over my own bank ?</p>
+     </sp>
+     <sp who="#L1244_M3">
+      <speaker>Holds.</speaker>
+      <p>Premises fitter for a club house than mere man and wife. A pretty life, too !
+       Sham—everything sham, from the ceiling to the floor. Trappings, lights, servants, silver—not
+       your own, but hired to humbug your friends— friends hired too, like the wine they drink, and
+       the dazzle they sneer at, as unreal, as false, and as great a sham as the miserable gaslight
+       life you lead.</p>
+     </sp>
+     <sp who="#L1244_M1">
+      <speaker>Trevlyn.</speaker>
+      <p>Really uncle, there is a season for all things, and––</p>
+     </sp>
+     <sp who="#L1244_M3">
+      <speaker>Holds.</speaker>
+      <p>Hark you, my boy, I don't come to lecture, but to warn you. You are asleep—I must wake you.
+       If you will be reckless—if the crash must come, at least, look that the <hi>honour of your
+        home</hi> survives.</p>
+     </sp>
+     <sp who="#L1244_M1">
+      <speaker>Trevlyn.</speaker>
+      <p>What do you mean ?</p>
+     </sp>
+     <sp who="#L1244_M3">
+      <speaker>Holds.</speaker>
+      <p>Do you think a husband's neglect will not sometimes bear a bitter fruit ? Isabel––</p>
+     </sp>
+     <sp who="#L1244_M1">
+      <speaker>Trevlyn.</speaker>
+      <p>What of her ?</p>
+     </sp>
+     <sp who="#L1244_M3">
+      <speaker>Holds.</speaker>
+      <p>Nothing as yet, but your friend––</p>
+     </sp>
+     <sp who="#L1244_M1">
+      <speaker>Trevlyn.</speaker>
+      <p>Redcliffe ? <stage>(Holdsworth assents)</stage> The idea's absurd. Ha, ha ! what, Redcliffe
+       !</p>
+     </sp>
+     <sp who="#L1244_M3">
+      <speaker>Holds.</speaker>
+      <p>Why is he ever hanging about your house, night and day ?</p>
+     </sp>
+     <sp who="#L1244_M1">
+      <speaker>Trevlyn.</speaker>
+      <p>Oh, the thing's preposterous, <stage>(they rise.)</stage></p>
+     </sp>
+     <sp who="#L1244_M3">
+      <speaker>Holds.</speaker>
+      <p>As you will then ; I've had my say—perhaps an hour or two may tell a different tale. Now
+       listen, Edward, if trouble comes upon you, you know one friend to whom
+       <pb n="18"/>you'll never turn in vain. If you want money—well, I'll do my best, but as you
+       bear your father's name, keep that from disgrace. Remember, that once lost can never be
+       regained. <stage>(exit, L. d.)</stage></p>
+     </sp>
+     <sp who="#L1244_M1">
+      <speaker>Trevlyn.</speaker>
+      <p>But uncle—oh, he's a good, generous fellow. But what does he mean by talking in that way
+       about "my honour?" <stage>(muses)</stage> Isabel and Redcliffe—no, the things monstrous ; and
+       yet, if I thought that she—away with the unworthy suspicion ! she's truth itself, and
+        he—<stage>(musing)</stage> Well, now I come to look at certain little things I've noticed in
+       his conduct lately, from that point of view— <stage>(dance music heard without)</stage>
+       Begun, have they ? Happy re­union ! Music, dancing—why a tight-rope is safe work to this!
+        <stage>Enter Mrs. Trevlyn and Redcliffe, arm in arm, c.</stage> Hum, together ! Can uncle
+       have heard anything—can— <stage>(advances to them)</stage> Oh, here you are. I've been
+       looking for you everywhere. A word with you, Redcliffe.</p>
+     </sp>
+     <sp who="#L1244_F9">
+      <speaker>Mrs. T.</speaker>
+      <p>Then let it be a short, one, for our dance is half over already.</p>
+     </sp>
+     <sp who="#L1244_M1">
+      <speaker>Trevlyn.</speaker>
+      <p>Your dance must wait, <stage>(checks himself)</stage> I don't mean that, but can't you see
+       that I am worried—that I am not myself to night ?</p>
+     </sp>
+     <sp who="#L1244_F9">
+      <speaker>Mrs. T.</speaker>
+      <p>I see you are not, but that is nothing new.</p>
+     </sp>
+     <sp who="#L1244_M1">
+      <speaker>Trevlyn.</speaker>
+      <p>It's only this, Redcliffe: what have we available in the bank at this moment ?</p>
+     </sp>
+     <sp who="#L1244_M2">
+      <speaker>Redcliffe.</speaker>
+      <p><stage>(taken aback)</stage> Available? £25,000. <stage>(aside)</stage> Suspects !</p>
+     </sp>
+     <sp who="#L1244_M1">
+      <speaker>Trevlyn.</speaker>
+      <p>As much as that ? Are you sure ?</p>
+     </sp>
+     <sp who="#L1244_M2">
+      <speaker>Redcliffe.</speaker>
+      <p>Sure—of course. Ah, you've heard them talking of a run upon the place to-morrow. Provided
+       for, my dear sir—I've seen to it; we shall be ready for them at ten o'clock, to the minute !
+        <stage>(aside)</stage> On the scent, is he ? Well, we must hasten matters, that's all.
+        <stage>(to Mrs. Trevlyn)</stage> Shall we join the dancers ? <stage>(exit with Mrs. Trevlyn,
+        c.)</stage></p>
+     </sp>
+     <sp who="#L1244_M1">
+      <speaker>Trevlyn.</speaker>
+      <p>So you've seen to it, have you ? possibly. Something very odd about his manner to-night,
+        <stage>(looks at his watch)</stage> They won't miss me for half an hour—I'll just step down
+       and look into it myself. "Seen to it!" I'll see to it as well. <stage>(exit, L.
+       D.</stage></p>
+     </sp>
+     <stage>Enter Lucy, Cecil, Lady Olivia, Crawdust, and several Guests, C. D. They group
+      themselves, Lucy on C. ottoman, Cecil near her, Lady Olivia L., Guests R. and L.</stage>
+     <sp who="#L1244_M4">
+      <speaker>Cecil.</speaker>
+      <p><stage>(looking at engagement card)</stage> I think ours is the next, No. 7.</p>
+     </sp>
+     <pb n="19"/>
+     <sp who="#L1244_F8">
+      <speaker>Lucy.</speaker>
+      <p><stage>(same business)</stage> No. 7 ? Oh, I can't make it out at all, can you ?
+        <stage>(gives him her card)</stage> It's a valse, I think.</p>
+     </sp>
+     <sp who="#L1244_F10">
+      <speaker>Lady O.</speaker>
+      <p><stage>(in undertone to Crawdust)</stage> She <hi>thinks</hi> it's a valse. That girl's an
+       abominable flirt.</p>
+     </sp>
+     <sp who="#L1244_M5">
+      <speaker>Craw.</speaker>
+      <p>Is she, by Jove ? Then I shall go in for her.</p>
+     </sp>
+     <sp who="#L1244_F10">
+      <speaker>Lady O.</speaker>
+      <p>You'll do nothing of the kind.</p>
+     </sp>
+     <sp who="#L1244_M5">
+      <speaker>Craw.</speaker>
+      <p>Oh, I'm not going to hang about like a piece of stuffed furniture all the evening, I can
+       tell you. I shall dance, and get up an appetite !</p>
+     </sp>
+     <sp who="#L1244_F10">
+      <speaker>Lady O.</speaker>
+      <p>Crawdust, you are unusually vulgar this evening. Let me beg you will confine yourself to
+       two glasses of sherry,</p>
+     </sp>
+     <sp who="#L1244_M5">
+      <speaker>Craw.</speaker>
+      <p>Ditto, Lady Olivia! <stage>(looks at card)</stage> Let's see— ah, four and twenty's my
+       figure ! A gallow ! I can show them how to do that, <stage>(is about to do so, Lady Olivia
+        stops him.)</stage></p>
+     </sp>
+     <sp who="#L1244_F10">
+      <speaker>Lady O.</speaker>
+      <p>You'll stay with me. A man of your age too ! Now, Sir Peter––</p>
+     </sp>
+     <sp who="#L1244_M5">
+      <speaker>Craw.</speaker>
+      <p>Sir Peter be – <stage>(going.)</stage></p>
+     </sp>
+     <sp who="#L1244_F10">
+      <speaker>Lady O.</speaker>
+      <p><stage>(drops her fan)</stage> Julius, my fan.</p>
+     </sp>
+     <sp who="#L1244_M5">
+      <speaker>Craw.</speaker>
+      <p>Now, <stage>(picking up fan and giving it)</stage> look here— Sir Peter may have been a
+       more than ordinary fool, but when he walked out of this life he evidently knew what he was
+       about; <stage>(Lady Olivia turns away in disgust.)</stage></p>
+     </sp>
+     <sp who="#L1244_F8">
+      <speaker>Lucy.</speaker>
+      <p>And so you have found something to enjoy in the country at last ?</p>
+     </sp>
+     <sp who="#L1244_M4">
+      <speaker>Cecil.</speaker>
+      <p>Enjoy ! I should like to have a place, you know —farm-yard, a pig, and all that sort of
+       thing, and live on new laid eggs.</p>
+     </sp>
+     <sp who="#L1244_F8">
+      <speaker>Lucy.</speaker>
+      <p>And garden all day in lavender kid gloves. <stage>(laughs.)</stage></p>
+     </sp>
+     <sp who="#L1244_M4">
+      <speaker>Cecil.</speaker>
+      <p>Yea, 'pon my word, I should, if—if—<stage>(aside)</stage> I've half a mind to propose, 'pon
+       my word I have.</p>
+     </sp>
+     <sp who="#L1244_M5">
+      <speaker>Craw.</speaker>
+      <p><stage>(aside to Lady Olivia)</stage> If you want a scene—well, blow it, we'll have one ! I
+       will! there ! and I only wish somebody would walk off with you ! <stage>(approaches Lucy with
+        an exaggerated bow)</stage> I beg your pardon, Miss Trevlyn, for interrupting a pleasant
+       tete-a-tete, but might you object to having the condescension to give me the pleasure of—
+        <stage>(referring to card)</stage> we'll say No. 24?</p>
+     </sp>
+     <sp who="#L1244_F8">
+      <speaker>Lucy.</speaker>
+      <p>I'm very sorry, but my card is filled up.</p>
+     </sp>
+     <sp who="#L1244_M5">
+      <speaker>Craw.</speaker>
+      <p>24? The gallow, the gallow ?</p>
+     </sp>
+     <sp who="#L1244_F8">
+      <speaker>Lucy.</speaker>
+      <p>I'm afraid it's gone.</p>
+     </sp>
+     <sp who="#L1244_M5">
+      <speaker>Craw.</speaker>
+      <p><stage>(bows, retiring)</stage> Ah, well, better luck next time. <stage>(aside)</stage> I
+       suppose that fellow's got the whole four-and- twenty to himself!</p>
+     </sp>
+     <pb n="20"/>
+     <sp who="#L1244_F10">
+      <speaker>Lady O.</speaker>
+      <p><stage>(triumphantly)</stage> I'm really quite sorry ! it would have been so amusing to see
+       you dance !</p>
+     </sp>
+     <sp who="#L1244_M5">
+      <speaker>Craw.</speaker>
+      <p>Would it ? Not much chance of your affording me a similar entertainment!
+        <stage>(music—elderly gentleman advances to Lucy—she advances with him to Lady
+        Olivia.)</stage></p>
+     </sp>
+     <sp who="#L1244_F8">
+      <speaker>Lucy.</speaker>
+      <p>You will dance this valse, Lady Olivia P</p>
+     </sp>
+     <sp who="#L1244_F10">
+      <speaker>Lady O.</speaker>
+      <p><stage>(brightening and simpering)</stage> Oh yes, dear !</p>
+     </sp>
+     <sp who="#L1244_F8">
+      <speaker>Lucy.</speaker>
+      <p>Mr. Muffles—Lady Olivia Crawdust. <stage>(they bow— gentleman offers his arm, Lady Olivia
+        takes it.)</stage></p>
+     </sp>
+     <sp who="#L1244_F10">
+      <speaker>Lady O.</speaker>
+      <p><stage>(spitefully to Crawdust)</stage> Will you take my fan, dear ? <stage>(gives it him,
+        then exits triumphantly with Muffles, c.—Guests follow by degrees.)</stage></p>
+     </sp>
+     <sp who="#L1244_M5">
+      <speaker>Craw.</speaker>
+      <p><stage>(after pause)</stage> Hold, her fan while she simpers away with that middle-aged
+       porpoise! and be sneered at into the bargain ! I'll go and drink <hi>five</hi> glasses of
+       sherry! <stage>(exit, C.)</stage></p>
+     </sp>
+     <sp who="#L1244_M4">
+      <speaker>Cecil.</speaker>
+      <p>Quite refreshing to be alone ! That is, I'm a domestic sort of person, you know; I
+       like—that is—I don't care about balls, and all that sort of thing, you know.</p>
+     </sp>
+     <sp who="#L1244_F8">
+      <speaker>Lucy.</speaker>
+      <p><stage>(taking a book off R. table, abstractedly)</stage> Indeed ! <stage>(pause—during
+        which both appear uneasy, Lucy sits R., Cecil is about to speak, but hesitates nervously,
+        she appears absorbed in book.)</stage></p>
+     </sp>
+     <sp who="#L1244_M4">
+      <speaker>Cecil.</speaker>
+      <p>Novel?</p>
+     </sp>
+     <sp who="#L1244_F8">
+      <speaker>Lucy.</speaker>
+      <p>Yes. <stage>(still reading.)</stage></p>
+     </sp>
+     <sp who="#L1244_M4">
+      <speaker>Cecil.</speaker>
+      <p>Seems a good one.</p>
+     </sp>
+     <sp who="#L1244_F8">
+      <speaker>Lucy.</speaker>
+      <p>No, it's very stupid, <stage>(reads.)</stage></p>
+     </sp>
+     <sp who="#L1244_M4">
+      <speaker>Cecil.</speaker>
+      <p><stage>(aside)</stage> Seems to enjoy it, at any rate ! <stage>(after a pause, purposely to
+        open the conversation)</stage> Who—who's the old fellow over the sofa ? <stage>(looking at
+        picture)</stage> Uncommonly well done!</p>
+     </sp>
+     <sp who="#L1244_F8">
+      <speaker>Lucy.</speaker>
+      <p>Which?</p>
+     </sp>
+     <sp who="#L1244_M4">
+      <speaker>Cecil.</speaker>
+      <p>The old fellow with the walking-stick.</p>
+     </sp>
+     <sp who="#L1244_F8">
+      <speaker>Lucy.</speaker>
+      <p>Oh, that's my grandmother !</p>
+     </sp>
+     <sp who="#L1244_M4">
+      <speaker>Cecil.</speaker>
+      <p>Dear me, I beg her pardon, but these old things, you know, one can't make head or tail of
+       them.</p>
+     </sp>
+     <sp who="#L1244_F8">
+      <speaker>Lucy.</speaker>
+      <p>Especially when they are uncommonly well done ! <stage>(resumes book.)</stage></p>
+     </sp>
+     <sp who="#L1244_M4">
+      <speaker>Cecil.</speaker>
+      <p><stage>(aside)</stage> Doesn't seem to care about being sociable. I say, Miss Trevlyn.</p>
+     </sp>
+     <sp who="#L1244_F8">
+      <speaker>Lucy.</speaker>
+      <p>Yes.</p>
+     </sp>
+     <sp who="#L1244_M4">
+      <speaker>Cecil.</speaker>
+      <p>You don't happen to have the second volume there, do you?</p>
+     </sp>
+     <sp who="#L1244_F8">
+      <speaker>Lucy.</speaker>
+      <p>Oh, you may have this if you like, I don't want it.</p>
+     </sp>
+     <sp who="#L1244_M4">
+      <speaker>Cecil.</speaker>
+      <p>I thought you said it was so—stupid ?</p>
+     </sp>
+     <pb n="21"/>
+     <sp who="#L1244_F8">
+      <speaker>Lucy.</speaker>
+      <p>Yes, very; take it. <stage>(offers it.)</stage></p>
+     </sp>
+     <sp who="#L1244_M4">
+      <speaker>Cecil.</speaker>
+      <p>Thanks, you're very kind, really ! But don't let me rob you ! Ah, a good idea! I'll read it
+       out loud, and then it will do for both of us.</p>
+     </sp>
+     <sp who="#L1244_F8">
+      <speaker>Lucy.</speaker>
+      <p>I'm all attention.</p>
+     </sp>
+     <sp who="#L1244_M4">
+      <speaker>Cecil.</speaker>
+      <p><stage>(reads)</stage> "Who's "Frank"?</p>
+     </sp>
+     <sp who="#L1244_F8">
+      <speaker>Lucy.</speaker>
+      <p>Some one who's killed in the first volume.</p>
+     </sp>
+     <sp who="#L1244_M4">
+      <speaker>Cecil.</speaker>
+      <p>Ah, this is volume two! Oh, then it's his ghost; that's a good idea! <stage>(turns over
+        leaves)</stage> Let's see, I think I'll begin here, <stage>(reads)</stage> "Amy scarcely
+       spoke, but sat on the other side of the room, in pretended unconsciousness, while he, turning
+       first to one subject, and then to another, very plainly betrayed the nature of the secret,
+       which was at last on his lips. Both evidently felt that the time had come for an avowal."</p>
+     </sp>
+     <sp who="#L1244_F8">
+      <speaker>Lucy.</speaker>
+      <p>What stupid nonsense! Do find something exciting.</p>
+     </sp>
+     <sp who="#L1244_M4">
+      <speaker>Cecil.</speaker>
+      <p>Oh, but I like this, I think it's very exciting ! <stage>(resumes)</stage> "Come for an
+       avowal. With an ill-assumed nonchalance, <hi>she</hi> endeavoured to appear indifferent to
+       the situation." <hi>She</hi>—Amy, I suppose? Ah, yes. "While he behaved as most men do under
+       such circumstances, said nothing, and looked—a fool! "</p>
+     </sp>
+     <sp who="#L1244_F8">
+      <speaker>Lucy.</speaker>
+      <p>That's "Frank." Oh, it's not so bad, after all; quite amusing, go on.</p>
+     </sp>
+     <sp who="#L1244_M4">
+      <speaker>Cecil.</speaker>
+      <p>Go on ? It's trash ! The fellow who wrote that knows nothing about the circumstances,
+       nothing !</p>
+     </sp>
+     <sp who="#L1244_F8">
+      <speaker>Lucy.</speaker>
+      <p>What do you know about the circumstances ? I suppose you haven't spent all your leisure
+       time in making offers of marriage ?</p>
+     </sp>
+     <sp who="#L1244_M4">
+      <speaker>Cecil.</speaker>
+      <p>No, no, not exactly ; but I fancy I know the kind of thing one ought to do.</p>
+     </sp>
+     <sp who="#L1244_F8">
+      <speaker>Lucy.</speaker>
+      <p>That <hi>you</hi> would do ?</p>
+     </sp>
+     <sp who="#L1244_M4">
+      <speaker>Cecil.</speaker>
+      <p>Yes, that's it. Now just to illustrate the thing, imagine that I was going to make an offer
+       to you. <stage>(advancing to her with chair.)</stage></p>
+     </sp>
+     <sp who="#L1244_F8">
+      <speaker>Lucy.</speaker>
+      <p>No, no, not to me, the chair will do just as well.</p>
+     </sp>
+     <sp who="#L1244_M4">
+      <speaker>Cecil.</speaker>
+      <p>No, the chair won't do half as well. Placing myself near the object of my affections––</p>
+     </sp>
+     <sp who="#L1244_F8">
+      <speaker>Lucy.</speaker>
+      <p>Just to illustrate the thing ?</p>
+     </sp>
+     <sp who="#L1244_M4">
+      <speaker>Cecil.</speaker>
+      <p>Oh, of course ; I should tell her as well as I could, how, ever since I first set eyes on
+       her, all things have grown stale and unprofitable, how I don't care about showing at the
+       opera, about the shape of my hat, the price of my cigars, in fact, for all the more important
+       things of a fellow's life! Then, taking her hand ––<stage>(takes Lucy's hand.)</stage></p>
+     </sp>
+     <pb n="22"/>
+     <sp who="#L1244_F8">
+      <speaker>Lucy.</speaker>
+      <p>Just to illustrate the thing ?</p>
+     </sp>
+     <sp who="#L1244_M4">
+      <speaker>Cecil.</speaker>
+      <p>Of course, purely, purely. I would ask her to— to give up –</p>
+     </sp>
+     <sp who="#L1244_F8">
+      <speaker>Lucy.</speaker>
+      <p>All the pomps and vanities together ; say good­bye to ever little foible, even to her love
+       of universal admiration ?</p>
+     </sp>
+     <sp who="#L1244_M4">
+      <speaker>Cecil.</speaker>
+      <p>No, I shouldn't mind that.</p>
+     </sp>
+     <sp who="#L1244_F8">
+      <speaker>Lucy.</speaker>
+      <p>Well, and suppose she were to say, spite of all concessions, one short, little word ?</p>
+     </sp>
+     <sp who="#L1244_M4">
+      <speaker>Cecil.</speaker>
+      <p>Yes ?</p>
+     </sp>
+     <sp who="#L1244_F8">
+      <speaker>Lucy.</speaker>
+      <p>Or no !</p>
+     </sp>
+     <sp who="#L1244_M4">
+      <speaker>Cecil.</speaker>
+      <p>But, Miss Trevlyn—Lucy, you don't understand me, you know—this is what I want to say to
+       you, and in fact, I – </p>
+     </sp>
+     <stage>Enter Trevlyn hurriedly, L. D. , his hat on, and carrying a bunch of keys. Lucy and
+      Cecil both rise, embarrassed.</stage>
+     <sp who="#L1244_M1">
+      <speaker>Trevlyn.</speaker>
+      <p>Ah, Cecil, the very man I want! You will go for me. Here, old fellow, take my hat,
+        <stage>(puts it on Cecil's head)</stage> and run and fetch them at once!</p>
+     </sp>
+     <sp who="#L1244_M4">
+      <speaker>Cecil.</speaker>
+      <p>Fetch them at once, eh ? <stage>Trevlyn whispers him</stage> What ? By Jove ! you take a
+       fellow quite by surprise, you know, Ted!</p>
+     </sp>
+     <sp who="#L1244_M1">
+      <speaker>Trevlyn.</speaker>
+      <p>There's not a moment to lose! <stage>(hurries Cecil to L. D.)</stage></p>
+     </sp>
+     <sp who="#L1244_M4">
+      <speaker>Cecil.</speaker>
+      <p>You don't say so ? I'm sure I shall be delighted —with pleasure!</p>
+     </sp>
+     <sp who="#L1244_M1">
+      <speaker>Trevlyn.</speaker>
+      <p>Quick, there's a good fellow ! It's a matter of thousands! quick !</p>
+     </sp>
+     <sp who="#L1244_M4">
+      <speaker>Cecil.</speaker>
+      <p>Really, this is very annoying! I say, Miss Trevlyn, we must finish that novel another time
+       ! Yes, by Jove, another time ! <stage>(exit.</stage></p>
+     </sp>
+     <sp who="#L1244_F8">
+      <speaker>Lucy.</speaker>
+      <p>What is it, Edward? What has happened ?</p>
+     </sp>
+     <sp who="#L1244_M1">
+      <speaker>Trevlyn.</speaker>
+      <p>Simply this. One of our safes has been robbed of every farthing. I found a light below, and
+       the public door on the half lock.</p>
+     </sp>
+     <sp who="#L1244_F8">
+      <speaker>Lucy.</speaker>
+      <p><stage>(aside)</stage> And I saw Redcliffe coming from the cashier's room just now.</p>
+     </sp>
+     <sp who="#L1244_M1">
+      <speaker>Trevlyn.</speaker>
+      <p>I have rushed up to give the alarm, and now I'm going to look at the other. Where's
+       Redcliffe ? Find him—send him to me.</p>
+     </sp>
+     <sp who="#L1244_F8">
+      <speaker>Lucy.</speaker>
+      <p><stage>(thinking)</stage> He left about ten minutes since, to write a letter at the club,
+       so he said, and that he would be back directly, <stage>(aside)</stage> Oh, heaven! a terrible
+       suspicion! If this should mean danger to Isabel!</p>
+     </sp>
+     <pb n="23"/>
+     <sp who="#L1244_M1">
+      <speaker>Trevlyn.</speaker>
+      <p><stage>(noticing her emotion)</stage> Ha! you know some­thing !</p>
+     </sp>
+     <sp who="#L1244_F8">
+      <speaker>Lucy.</speaker>
+      <p><stage>(recovering herself)</stage> I? Oh, no. But you spoke of Redcliffe, you asked---</p>
+     </sp>
+     <sp who="#L1244_M1">
+      <speaker>Trevlyn.</speaker>
+      <p>Where he was. Yes ! <stage>(excited)</stage> Send for him I must see him at once!</p>
+     </sp>
+     <sp who="#L1244_F8">
+      <speaker>Lucy.</speaker>
+      <p>You are right, you ought to see him at once. But, Edward, promise me, if you should meet
+       with a surprise, a blow—a heavy one---</p>
+     </sp>
+     <sp who="#L1244_M1">
+      <speaker>Trevlyn.</speaker>
+      <p>A blow ! What do you mean ?</p>
+     </sp>
+     <sp who="#L1244_F8">
+      <speaker>Lucy.</speaker>
+      <p>Nothing as yet, but, if you do, you will bear it like a man ! <stage>(leans on
+        chair)</stage></p>
+     </sp>
+     <sp who="#L1244_M1">
+      <speaker>Trevlyn.</speaker>
+      <p>Lucy, you are faint. This sudden news, this robbery has upset you !</p>
+     </sp>
+     <sp who="#L1244_F8">
+      <speaker>Lucy.</speaker>
+      <p>Yes, yes, how foolish of me, to be sure! <stage>(laughs)</stage> There, there, I am better
+       now. <stage>(Trevlyn is about to ring bell)</stage> No, no, don't ring and alarm the whole
+       neighbour­hood with this ! You're not half a man of business! <stage>(takes opera cloak from
+        chair)</stage> Go, go, I will see to Redcliffe!</p>
+     </sp>
+     <sp who="#L1244_M1">
+      <speaker>Trevlyn.</speaker>
+      <p>You—what are you going to do ?</p>
+     </sp>
+     <sp who="#L1244_F8">
+      <speaker>Lucy.</speaker>
+      <p>Never mind ! men know how to fight—and storm —but when something's to be done, leave it to
+       a woman!</p>
+     </sp>
+     <sp who="#L1244_M1">
+      <speaker>Trevlyn.</speaker>
+      <p>But, Lucy.</p>
+     </sp>
+     <sp who="#L1244_F8">
+      <speaker>Lucy.</speaker>
+      <p>Do as you're bid, and don't look scared! Do I appear alarmed ? am I trembling ? Now, go !
+       go! <stage>(hurries him off)</stage> Oh, Isabel! dear Isabel, heaven watch over you
+        <stage>(exit R.—music heard.</stage></p>
+     </sp>
+     <stage>Enter Redcliffe, C, he has a small pocket-book.</stage>
+     <sp who="#L1244_M2">
+      <speaker>Redcliffe.</speaker>
+      <p>Not a moment to be lost! Trevlyn suspects, and to-morrow must discover all! <stage>(puts
+        book in breast pocket)</stage> So far, so good ! £5,000 ought to last a little time with
+       management. One stake is secured, now to win the other.</p>
+     </sp>
+     <stage>Enter Mrs. Trevlyn, C, she appears fatigued and sits on C. ottoman.</stage>
+     <sp who="#L1244_F9">
+      <speaker>Mrs. T.</speaker>
+      <p>I feel quite faint! give me my fan, I think I left it there.</p>
+     </sp>
+     <sp who="#L1244_M2">
+      <speaker>Redcliffe.</speaker>
+      <p><stage>(taking it from side table and giving it to her)</stage> You are ill, there rest a
+       little ! <stage>(goes up c, closes doors.)</stage></p>
+     </sp>
+     <sp who="#L1244_F9">
+      <speaker>Mrs. T.</speaker>
+      <p>'Tis nothing, and will pass off presently.</p>
+     </sp>
+     <sp who="#L1244_M2">
+      <speaker>Redcliffe.</speaker>
+      <p>You will kill yourself with all these routs an balls.</p>
+     </sp>
+     <sp who="#L1244_F9">
+      <speaker>Mrs. T.</speaker>
+      <p>No, it is not that</p>
+     </sp>
+     <pb n="24"/>
+     <sp who="#L1244_M2">
+      <speaker>Redcliffe.</speaker>
+      <p>Ah, would that I could weave around you an enchanted silence!</p>
+     </sp>
+     <sp who="#L1244_F9">
+      <speaker>Mrs. T.</speaker>
+      <p>Never mind the silence, you can talk to me—I can hear you.</p>
+     </sp>
+     <sp who="#L1244_M2">
+      <speaker>Redcliffe.</speaker>
+      <p>"Hear me?" And yet would you listen were I to speak of things more true than the unreal
+       phantom life you lead ? Would you turn away were I— in low, half-whispered accents—to tell
+       you of one, who, for weeks, for months, has known no happiness, but in the sunshine of your
+       presence, <stage>(she starts slightly)</stage> A friend !</p>
+     </sp>
+     <sp who="#L1244_F9">
+      <speaker>Mrs. T.</speaker>
+      <p>Ah, I have need of friends, indeed.</p>
+     </sp>
+     <sp who="#L1244_M2">
+      <speaker>Redcliffe.</speaker>
+      <p>Oh, would that he by word, or deed, could give some proof, some token of his sincerity, his
+       truth, his devotion!</p>
+     </sp>
+     <sp who="#L1244_F9">
+      <speaker>Mrs. T.</speaker>
+      <p>I chose my life! Heaven knows I take that choice, and bear it to the end.</p>
+     </sp>
+     <sp who="#L1244_M2">
+      <speaker>Redcliffe.</speaker>
+      <p>And can you look to this, and still drag on? Think, life without prospect, aim or hope!</p>
+     </sp>
+     <sp who="#L1244_F9">
+      <speaker>Mrs. T.</speaker>
+      <p>Why not ? Once, heaven knows, I looked into the bright vision of the coming years, and
+       saw—yes—all that lends to life its beauty, its enchantment. Fair paradise, so beautiful to my
+       fancy then, a paradise where love was enthroned for ever ! Love, true, never-dying love.</p>
+     </sp>
+     <sp who="#L1244_M2">
+      <speaker>Redcliffe.</speaker>
+      <p>And is it thus you talk ? You, so young, so beautiful—</p>
+     </sp>
+     <sp who="#L1244_F9">
+      <speaker>Mrs. T.</speaker>
+      <p>What do you mean ? <stage>(rises)</stage> This language, and to me ? Sir, you forget
+       yourself.</p>
+     </sp>
+     <sp who="#L1244_M2">
+      <speaker>Redcliffe.</speaker>
+      <p>Pardon me, if I have offended you, but you were giving me your confidence.</p>
+     </sp>
+     <sp who="#L1244_F9">
+      <speaker>Mrs. T.</speaker>
+      <p>True, I thank you for reminding me—I was— take care how you abuse it!</p>
+     </sp>
+     <sp who="#L1244_M2">
+      <speaker>Redcliffe.</speaker>
+      <p>Marble ! <stage>(aside)</stage> Forgive me, but am I not your friend ? and do I not know of
+       all your sufferings ? have I not seen the coldness, the neglect of one, who having robbed the
+       world of its most priceless jewel, flings it away, unvalued and forgotten! <stage>(watching
+        the effect of his words.)</stage></p>
+     </sp>
+     <sp who="#L1244_F9">
+      <speaker>Mrs. T.</speaker>
+      <p>There's something in his manner to-night, I know not what—that is horrible to me ! I will
+       end this ! <stage>(aside.)</stage></p>
+     </sp>
+     <sp who="#L1244_M2">
+      <speaker>Redcliffe.</speaker>
+      <p><stage>(aside)</stage> Touched her! <stage>(as she is about to speak)</stage> Forgotten !
+       yes, but not by all! I have watched you gaze to heaven, then give a weary sigh, and I have
+       watched and watched, till a sweet whisper seemed to say, 'tis her you worship, her you
+       love!</p>
+     </sp>
+     <sp who="#L1244_F9">
+      <speaker>Mrs. T.</speaker>
+      <p>At last! and this is what you, as my friend, say to my face—to me ?</p>
+     </sp>
+     <pb n="25"/>
+     <sp who="#L1244_M2">
+      <speaker>Redcliffe.</speaker>
+      <p>Oh, Isabel, yes, to you, and you must listen. You know not your own true happiness, it is
+       not here ; no, you must leave this place to-night.</p>
+     </sp>
+     <sp who="#L1244_F9">
+      <speaker>Mrs. T.</speaker>
+      <p>This was your meaning, was it ? Flight ? Back from me, villain ! <stage>(weeps)</stage> A
+       bitter lesson, this, but heaven be thanked for sending it! If I have dreamed too long, have,
+       in the midst of a husband's cold neglect, listened too much to words of comfort, friendship,
+       from another, if I have striven to charm away the weary desolation of my life by music, to
+       which I, an honourable wife, should have turned a deaf ear, Heaven knows I am awake at last!
+       Arthur Redcliffe, you are a villain! Leave this room, this house, for ever!</p>
+     </sp>
+     <sp who="#L1244_M2">
+      <speaker>Redcliffe.</speaker>
+      <p>Baffled ! but she must, by heaven, she shall! <stage>(aside)</stage> You are mad, Isabel,
+       fly while there is yet time! you must! <stage>(she screams as he is about to seize her, and
+        Trevlyn enters rapidly, c. D.)</stage></p>
+     </sp>
+     <sp who="#L1244_M1">
+      <speaker>Trevlyn.</speaker>
+      <p>Isabel! what is this ?</p>
+     </sp>
+     <sp who="#L1244_F9">
+      <speaker>Mrs. T.</speaker>
+      <p>Edward, my husband ! <stage>(rushes to him.)</stage></p>
+     </sp>
+     <sp who="#L1244_M2">
+      <speaker>Redcliffe.</speaker>
+      <p>What is this, eh ? An appointment—not of my making.</p>
+     </sp>
+     <sp who="#L1244_F9">
+      <speaker>Mrs. T.</speaker>
+      <p>Edward, I swear to heaven, 'tis false ! He has insulted me, has talked of love to me, your
+       wife, and now he would escape his chastisement by falsehood.</p>
+     </sp>
+     <sp who="#L1244_M1">
+      <speaker>Trevlyn.</speaker>
+      <p>Hound!</p>
+     </sp>
+     <sp who="#L1244_M2">
+      <speaker>Redcliffe.</speaker>
+      <p><stage>(springing on him)</stage> What! to my face ?</p>
+     </sp>
+     <sp who="#L1244_M1">
+      <speaker>Trevlyn.</speaker>
+      <p><stage>(grappling with, and flinging him back)</stage> Yes, hound! to your face !</p>
+     </sp>
+     <sp who="#L1244_M2">
+      <speaker>Redcliffe.</speaker>
+      <p>I'll have your life for this ! you'll hear from me. <stage>(is about to exit c. d., but is
+        met by Lucy who bars the way.)</stage></p>
+     </sp>
+     <sp who="#L1244_F8">
+      <speaker>Lucy.</speaker>
+      <p>Hear from you ! Men may have met with men and fought, but the poisoned, crawling adder that
+       hides and waits and wounds them unawares, they do not fight, they crush and stamp it from
+       their path.</p>
+     </sp>
+     <sp who="#L1244_M2">
+      <speaker>Redcliffe.</speaker>
+      <p>We shall meet again! <stage>(to Trevlyn, as he is moving again up stage.)</stage></p>
+     </sp>
+     <sp who="#L1244_F8">
+      <speaker>Lucy.</speaker>
+      <p><stage>(placing herself in his way)</stage> Yes, meet—but in a court of justice ! Edward,
+       this man has robbed you—he is the thief who has broken in below.</p>
+     </sp>
+     <sp who="#L1244_M2">
+      <speaker>Redcliffe.</speaker>
+      <p>A foul calumny ! a gross falsehood ! <stage>(is going off, c, but met by two Police
+        Detectives, Cecil, and Holdsworth—one of the Police seizes Redcliffe, and takes from his
+        breast pocket the pocket-book which he gives to Lucy.)</stage></p>
+     </sp>
+     <sp who="#L1244_F8">
+      <speaker>Lucy.</speaker>
+      <p>Then let this witness speak ! <stage>(gives it to Trevlyn.)</stage></p>
+     </sp>
+     <sp who="#L1244_M4">
+      <speaker>Cecil.</speaker>
+      <p><stage>(L.)</stage> I say, Ted, I should suggest they take that
+       <pb n="26"/> fellow downstairs. <stage>(Trevlyn assents)</stage> Oh, yes, take him
+       downstairs, downstairs!</p>
+     </sp>
+     <stage>(exeunt Detectives with Redcliffe, C.)</stage>
+     <sp who="#L1244_F9">
+      <speaker>Mrs. T.</speaker>
+      <p>Oh, Edward, dear husband, let this be a warning to us both! Pity me, and say that you
+       forgive me !</p>
+     </sp>
+     <sp who="#L1244_M1">
+      <speaker>Trevlyn.</speaker>
+      <p>Forgive, Isabel, that word is not for you, it is for me ! <stage>(voice of Crawdust, heard
+        without, c.)</stage></p>
+     </sp>
+     <sp who="#L1244_M5">
+      <speaker>Crawdust.</speaker>
+      <p>I tell you I will! Come in, Lady Olivia, come in!</p>
+     </sp>
+     <stage>Enter Crawdust with Lady Olivia, C.</stage>
+     <sp who="#L1244_M5">
+      <speaker>Craw.</speaker>
+      <p>Why didn't you tell the carriage to come at twelve, after the feed ? Who ever heard of
+       ordering it at three, like a morning paper! Hollo, hollo! <stage>(seeing the others)</stage>
+       What does all this mean ?</p>
+     </sp>
+     <sp who="#L1244_M3">
+      <speaker>Holds.</speaker>
+      <p>Why, that this is a meeting of good hearts and true!</p>
+     </sp>
+     <sp who="#L1244_M4">
+      <speaker>Cecil.</speaker>
+      <p>"Good hearts and true," I wish I could have thought of that just now. By Jove, I'll try it
+       to-morrow. <stage>(aside.)</stage></p>
+     </sp>
+     <sp who="#L1244_M5">
+      <speaker>Craw.</speaker>
+      <p>What! you all look happy ? How about the bank, eh?</p>
+     </sp>
+     <sp who="#L1244_M1">
+      <speaker>Trevlyn.</speaker>
+      <p>Firm as a rock! But you cannot be much interested in the matter, you are no longer on our
+       books.</p>
+     </sp>
+     <sp who="#L1244_F10">
+      <speaker>Lady O.</speaker>
+      <p><stage>(aside)</stage> What, not a fiasco? <stage>(very amiably to Mrs. Trevlyn, who turns
+        away)</stage> Ah, Isabel, my love, we knew there must be some mistake—I said to Julius––</p>
+     </sp>
+     <stage>Enter Spinks, L.D.</stage>
+     <sp who="#L1244_M6">
+      <speaker>Spinks.</speaker>
+      <p>Mr. and Mrs. Crawdust's carriage stops the way!</p>
+     </sp>
+     <sp who="#L1244_F10">
+      <speaker>Lady O.</speaker>
+      <p><stage>(enraged)</stage> What! insulted! If you had only the soul of the late Sir Peter!
+        <stage>(drives Crawdust out of the doorway, L.)</stage> Ugh, this is a vulgar house.
+        <stage>(exit L. D., Servant follows.)</stage></p>
+     </sp>
+     <sp who="#L1244_M3">
+      <speaker>Holds.</speaker>
+      <p>Gaslight friends, eh? Well, Edward, Isabel, what's it to be ? This base metal or the true ?
+       This town trickery, or ––</p>
+     </sp>
+     <sp who="#L1244_F8">
+      <speaker>Lucy.</speaker>
+      <p>The dear old country home ! We're all agreed!</p>
+     </sp>
+     <sp who="#L1244_M4">
+      <speaker>Cecil.</speaker>
+      <p>Oh, yes, decidedly ! all agreed!</p>
+     </sp>
+     <sp who="#L1244_F8">
+      <speaker>Lucy.</speaker>
+      <p>Fresh, honest, country air, and not this stifling atmosphere. A real healthy life, and not
+       a poisoned dream! A life that looks alone to the pure gold of truth, and once holding this,
+       values the unreal splendour of the world for what it is—mere tinselled falsehood—empty
+       GLITTER !</p>
+     </sp>
+     <stage>CURTAIN.</stage>
+    </div>
+   </div>
+
+  </body>
+ </text>
+</TEI>
