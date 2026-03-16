@@ -1,0 +1,1690 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L0765" xml:lang="en">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title>The Pretty Horsebreaker.: TEI edition</title>
+    <author ref="lacyp:W0043"><persName>William Brough</persName> <idno
+      type="wikidata">Q16065623</idno> </author>
+    <author ref="lacyp:W0121">and <persName>Andrew Halliday</persName><idno type="wikidata">Q4757217</idno> </author>
+    <respStmt>
+     <resp>TEI conversion</resp>
+     <name>Lou Burnard</name>
+    </respStmt>
+   </titleStmt>
+   <publicationStmt>
+    <distributor>Privately distributed by the Digital Lacy Project</distributor>
+    <idno type="LAE">L0765</idno>
+    <availability>
+     <licence target="https://creativecommons.org/publicdomain/zero/1.0/">The Lacy Project waives
+      all rights to the TEI encoding applied to this material, which it believes to be in the public
+      domain. You may copy, modify, distribute, or perform this work freely. </licence>
+    </availability>
+   </publicationStmt>
+   <sourceDesc>
+    <bibl type="originalSource" n="51.15"><author n="W0043">Brough, William</author>; <author
+      n="W0121">Halliday, Andrew</author>
+     <title type="main">The Pretty Horsebreaker</title>
+     <title type="sub">An Apropos Sketch in one act</title>
+     <extent>15 pp (UM copy: 516 - 531)<measure type="pp" quantity="15"/>
+      <measure type="spCount" quantity="306"/>
+      <measure type="spvCount" quantity="2"/>
+      <measure type="txWords" quantity="6046"/>
+      <measure type="spWords" quantity="5702"/>
+      <measure type="stWords" quantity="344"/>
+     </extent>
+     <title level="s"> Lacy's Acting Edition, volume 51, No. 0765</title><idno type="nic"
+      >N09861</idno><idno type="vpp">Vol51xvPretty</idno></bibl>
+    <bibl type="surrogate" subtype="copytext"><ref
+      target="https://lb42.github.io/Lacy/Source/VPP/L0765-vpp.pdf">LoB from VPP</ref><ref
+      target="local:Vol51/L0765/L0765-vpp.pdf"/><ref target="local:Vol51/L0765/Vol51xvPretty.pdf"
+     /></bibl>
+    <bibl type="surrogate"><ref
+      target="https://babel.hathitrust.org/cgi/pt?id=mdp.39015067453830&amp;seq=515">UM from
+      HT</ref><ref target="local:Vol51/L0765/L0765-um.pdf"/></bibl>
+    <listEvent>
+     <event type="LCP" when="1862-07-13" where="Adelphi">
+      <desc>Licence sent 13 July 1861 for performance at the Adelphi. </desc>
+      <bibl type="msSource">BL ms LCP_53005.Q</bibl>
+     </event>
+     <event type="firstPerf" when="1861-07-15" source="textNic" where="Adelphi">
+      <desc>Premiered at Royal Adelphi Theatre 15 July 1861</desc>
+     </event>
+    </listEvent>
+   </sourceDesc>
+  </fileDesc>
+  <profileDesc>
+   <!--S 1 Sketch F. FARCE-->
+   <textClass>
+    <catRef target="#sizeS"/>
+    <catRef target="#act1"/>
+    <catRef target="nic:F."/>
+    <keywords>
+     <term>FARCE</term>
+    </keywords>
+   </textClass>
+   <particDesc>
+    <listPerson>
+     <person xml:id="L0765_M1">
+      <persName type="role">Major Lollipop</persName>
+      <persName type="spkr" n="36">Major L.</persName>
+     </person>
+     <person xml:id="L0765_M2">
+      <persName type="role">Mr. Upton Spout</persName>
+      <persName type="spkr" n="101">Spout.</persName>
+      <persName type="spkr" n="1">Upton.</persName>
+     </person>
+     <person xml:id="L0765_M3">
+      <persName type="role">Footman</persName>
+      <persName type="spkr" n="7">Footman.</persName>
+     </person>
+     <person xml:id="L0765_F4">
+      <persName type="role">Lady Creamly Stilton</persName>
+      <persName type="spkr" n="50">Lady S.</persName>
+     </person>
+     <person xml:id="L0765_F5">
+      <persName type="role">Cherubina</persName>
+      <persName type="spkr" n="17">Cherub.</persName>
+      <persName type="spkr" n="1">Cherubina.</persName>
+     </person>
+     <person xml:id="L0765_F6">
+      <persName type="role">Seraphina</persName>
+      <persName type="spkr" n="4">Seraph.</persName>
+      <persName type="spkr" n="1">Seraphina.</persName>
+     </person>
+     <person xml:id="L0765_F7">
+      <persName type="role">Angelina</persName>
+      <persName type="spkr" n="3">Angel.</persName>
+      <persName type="spkr" n="1">Angelina.</persName>
+     </person>
+     <person xml:id="L0765_F8">
+      <persName type="role">Syrena</persName>
+     </person>
+     <person xml:id="L0765_F9">
+      <persName type="role">Georgina</persName>
+     </person>
+     <person xml:id="L0765_F10">
+      <persName type="role">Clementina</persName>
+     </person>
+     <person xml:id="L0765_F11">
+      <persName type="role">Concertina</persName>
+      <persName type="spkr" n="4">Concer.</persName>
+     </person>
+     <person xml:id="L0765_F12">
+      <persName type="role">Bella Sunnyside</persName>
+      <persName type="spkr" n="73">Bella.</persName>
+     </person>
+     <person xml:id="L0765_F13">
+      <persName type="role">Lady's Maid</persName>
+      <persName type="spkr" n="1">Maid.</persName>
+     </person>
+     <person xml:id="L0765_mult">
+      <persName type="role">[Multiple speakers]</persName>
+      <persName type="spkr" n="1">Cherub.|Seraph.|Angel.</persName>
+      <persName type="spkr" n="1">Girls.</persName>
+      <persName type="spkr" n="3">Omnes.</persName>
+      <persName type="spkr" n="1">Seraph.|Concer.|Angel.</persName>
+     </person>
+    </listPerson>
+   </particDesc>
+  </profileDesc>
+  <revisionDesc>
+   <change when="2026-03-16">Add wikidata link to titleStmt where possible</change>
+   <change when="2026-03-16">Hand edit checked against VPP page images</change>
+   <change when="2026-02-08">TEI autotagging by Gemini Pro 2.5</change>
+  </revisionDesc>
+ </teiHeader>
+ <text>
+  <front>
+   <titlePage>
+    <titlePart type="main">The Pretty Horsebreaker.</titlePart>
+    <titlePart type="sub">An Apropos Sketch, in one act.</titlePart>
+    <byline>by <docAuthor>WILLIAM BROUGH</docAuthor> and <docAuthor>ANDREW HALLIDAY.</docAuthor>
+     Author of <title>"The Census."</title>
+    </byline>
+    <docImprint> THOMAS HAILES LACY, 89, STRAND, (Opposite Southampton Street, Covent Garden,)
+     LONDON. </docImprint>
+   </titlePage>
+   <pb n="2"/>
+   <performance>
+    <head>The pretty horsebreaker.</head>
+    <p>First performed at the Royal Adelphi Theatre, (under the management of Mr. B. Webster) on
+     Monday, July 15th, 1861.</p>
+    <castList>
+     <castItem><role gender="M">Major Lollipop</role><actor>Mr. Paul Bedford.</actor></castItem>
+     <castItem><role gender="M">Mr. Upton Spout</role><actor>Mr. J. L. Toole.</actor></castItem>
+     <castItem><role gender="M">Footman</role><actor>Mr. Page.</actor></castItem>
+     <castItem><role gender="F">Lady Creamly Stilton</role><actor>Mrs.
+      Chatterley.</actor></castItem>
+     <castGroup>
+      <roleDesc>(Her Ladyship's Unmarried Daughters)</roleDesc>
+      <castItem><role gender="F">Cherubina</role><actor>Miss Kate Kelly.</actor></castItem>
+      <castItem><role gender="F">Seraphina</role><actor>Miss Laidlaw.</actor></castItem>
+      <castItem><role gender="F">Angelina</role><actor>Miss Emily Thorne.</actor></castItem>
+      <castItem><role gender="F">Syrena</role><actor>Miss Foote.</actor></castItem>
+      <castItem><role gender="F">Georgina</role><actor>Miss Hayman.</actor></castItem>
+      <castItem><role gender="F">Clementina</role><actor>Miss Bennett.</actor></castItem>
+      <castItem><role gender="F">Concertina</role><actor>Miss Stoker.</actor></castItem>
+     </castGroup>
+     <castItem><role gender="F">Bella Sunnyside</role><roleDesc>(their Country
+       Cousin)</roleDesc><actor>Miss Woolgar. (Mrs. Alfred Mellon.)</actor></castItem>
+     <castItem><role gender="F">Lady's Maid</role><actor>Miss Aldridge.</actor></castItem>
+    </castList>
+   </performance>
+   <div type="costume">
+    <p>Costumes of the Present Day.</p>
+   </div>
+  </front>
+  <pb n="3"/>
+  <body>
+   <head>The Pretty Horsebreaker.</head>
+   <div type="scene">
+    <stage>Scene.– Breakfast Room (Belgravia)—Lady Stilton and her Daughters discovered—Lady Stilton
+     at breakfast-table, reading 'Post'—Daughters about the room, on sofas, chairs, &amp;c.—one
+     practising at piano and counting time—Girls yawn, drop their books, and show weariness.</stage>
+    <sp who="#L0765_F6">
+     <speaker>Seraphina.</speaker>
+     <stage>(from sofa, throwing down book)</stage>
+     <p>Disgusting book! The hero and heroine don't get married after all.</p>
+    </sp>
+    <sp who="#L0765_F7">
+     <speaker>Angelina.</speaker>
+     <p>And I've got half through the second volume, and there's no sign, that I can see, of any
+      serious engagement yet.</p>
+    </sp>
+    <sp who="#L0765_F5">
+     <speaker>Cherubina.</speaker>
+     <p>My blessed sisters, I don't see any sign of serious engagements or marriage anywhere.</p>
+    </sp>
+    <sp who="#L0765_F4">
+     <speaker>Lady S.</speaker>
+     <p>Don't say that, Cherubina—novels, my dear, only reflect the age in which they are written.
+      There are plenty of marriages, but not of the right sort. Here are the marriages in the
+       <hi>Morning Post</hi> crowding the births and deaths right out into another column, and yet
+      not one name among them that we know.</p>
+    </sp>
+    <sp who="#L0765_F5">
+     <speaker>Cherub.</speaker>
+     <p>It's very sad, ma', isn't it?</p>
+    </sp>
+    <sp who="#L0765_F4">
+     <speaker>Lady S.</speaker>
+     <p>Sad, my dear; it's disgraceful. What the rising generation of the masculine gender and of
+      eligible condition are about, I don't know. Think, my dear children, of the way in which I
+      have brought you up—the high-priced governesses I have engaged for you—the parties I have
+      given for so many seasons. Cherubina, love, how many seasons is it since you first came out
+      ?</p>
+    </sp>
+    <sp who="#L0765_F5">
+     <speaker>Cherub.</speaker>
+     <p>Mamma, I'm astonished at your asking such a question!</p>
+    </sp>
+    <sp who="#L0765_F4">
+     <speaker>Lady S.</speaker>
+     <p>Well, my dear, I'm not about to go into unpleasant particulars; but I know I have brought
+      out one a season regularly for some years past, and you are all still on hand— not one of you
+      has gone off, nor do I see the slightest chance, unless this new-fledged millionaire, young
+      Upton Spout, should take a fancy to one of you. My dears, I am told he is a most estimable<hi>
+       parti</hi>.</p>
+    </sp>
+    <sp who="#L0765_F5">
+     <speaker>Cherub.</speaker>
+     <p>Oh, he's a darling, ma!</p>
+    </sp>
+    <sp who="#L0765_F7">
+     <speaker>Angel.</speaker>
+     <p>He's well enough, as young men go.</p>
+    </sp>
+    <sp who="#L0765_F4">
+     <speaker>Lady S.</speaker>
+     <p>As young men go, my love! Are you aware of the scarcity of the article? Why, there's hardly
+      a young man
+      <pb n="4"/>left—that is, what we may call a young man—one of condition and of matrimonial
+      tendencies.</p>
+    </sp>
+    <sp who="#L0765_F6">
+     <speaker>Seraph.</speaker>
+     <p>But mamma, dear, I'm in no hurry to get married —I can wait.</p>
+    </sp>
+    <sp who="#L0765_F4">
+     <speaker>Lady S.</speaker>
+     <p>My sweetest Seraphina, don't let me hear such dreadful sentiments from you again. It is
+      clear, my love, that you are singularly insensible of the ambition which should animate a
+      member of a high-born and numerous family of daughters. Don't want to marry, indeed! Where
+      would you all have been, had I entertained such sentiments in early life.</p>
+    </sp>
+    <sp who="#L0765_F6">
+     <speaker>Seraph.</speaker>
+     <p>But surely, mamma, there is no great hurry.</p>
+    </sp>
+    <sp who="#L0765_mult">
+     <speaker>Seraph.|Concer.|Angel.</speaker>
+     <p>No, mamma, there's no great hurry.</p>
+    </sp>
+    <sp who="#L0765_F5">
+     <speaker>Cherub.</speaker>
+     <p>My blessed sisters, speak for yourselves—I quite agree with our respected parent—it behoves
+      us all to make an effort.</p>
+    </sp>
+    <sp who="#L0765_F4">
+     <speaker>Lady S.</speaker>
+     <p>Cherubina, my love, I have no fault to find with you – you have made efforts – you have been
+      making efforts for some years.</p>
+    </sp>
+    <sp who="#L0765_F5">
+     <speaker>Cherub.</speaker>
+     <p>Well, mamma, I've done my best during the three seasons I've been out.</p>
+    </sp>
+    <sp who="#L0765_F7">
+     <speaker>Angel.</speaker>
+     <p>Three seasons—you mean eight!</p>
+    </sp>
+    <sp who="#L0765_F6">
+     <speaker>Seraph.</speaker>
+     <p>Twelve.</p>
+    </sp>
+    <sp who="#L0765_F5">
+     <speaker>Cherub.</speaker>
+     <p>You wicked stories.</p>
+    </sp>
+    <sp who="#L0765_F4">
+     <speaker>Lady S.</speaker>
+     <p>My sweetest infants, pray don't quarrel. An opportunity now presents itself for one of you.
+      I can't say which; but union, my dears, is strength. You must all unite your forces upon Mr.
+      Upton Spout, and, in fact, give a long pull, a strong pull, and a pull altogether.</p>
+    </sp>
+    <sp who="#L0765_F11">
+     <speaker>Concer.</speaker>
+     <stage>(coming forward)</stage>
+     <p>Must I pull, too, ma'.</p>
+    </sp>
+    <sp who="#L0765_F5">
+     <speaker>Cherub.</speaker>
+     <p>Don't be ridiculous, child.</p>
+    </sp>
+    <sp who="#L0765_F4">
+     <speaker>Lady S.</speaker>
+     <p>My dear Cherubina, it is very wrong of you to repress the zeal of your youngest sister in
+      the good cause. Yes—youngest blossom on the old ancestral tree—you are fourteen next birthday,
+      and you may pull away. <stage>(aside)</stage> I shall take her out of frock and trousers at
+      once.</p>
+    </sp>
+    <sp who="#L0765_F5">
+     <speaker>Cherub.</speaker>
+     <p>Do you think, ma, we shall see Mr. Upton Spout this morning.</p>
+    </sp>
+    <sp who="#L0765_F4">
+     <speaker>Lady S.</speaker>
+     <p>I've no doubt of it. Our dear friend, Major Lollipop, has promised to bring him round to
+      take you for a ride in the Park; so go and get ready—you, Cherubina, Seraphina and Angelina,
+      get your habits on ; the others dress for the carriage. Mr. Upton Spout, as you are aware, is
+      an accomplished horseman, and I think my three eldest jewels, when well mounted, will shine
+      with a lustre that will dazzle even his eyes.</p>
+    </sp>
+    <pb n="5"/>
+    <sp who="#L0765_F11">
+     <speaker>Concer.</speaker>
+     <p>Let me have my pony, ma ! I can ride just as well as Cherubina—cousin Bella taught me, and
+      she can ride better than any of us.</p>
+    </sp>
+    <sp who="#L0765_F5">
+     <speaker>Cherub.</speaker>
+     <p>Cousin Bella, indeed ! It strikes me she's only fit to be a riding mistress.</p>
+    </sp>
+    <sp who="#L0765_F11">
+     <speaker>Concer.</speaker>
+     <p>Oh, is she! She plays the piano better than you; and she can talk French better than you;
+      and she's kinder than you!</p>
+    </sp>
+    <sp who="#L0765_F4">
+     <speaker>Lady S.</speaker>
+     <p>There, there, no words, my sweetest cherubs; go, girls, and dress, and remember what I told
+      you, that these gentlemen, who are fond of horses, like to be talked to in their own
+      vernacular. So mind, dears, you must call the left the "near side," and the right the "off
+      side." When your horse "jibs," you mustn't call it "bolting," and you must bear in mind the
+      difference between "shying " and being "skittish."</p>
+    </sp>
+    <sp who="#L0765_F5">
+     <speaker>Cherub.</speaker>
+     <p>Oh yes, we've got all that by heart, mamma!</p>
+    </sp>
+    <sp who="#L0765_F4">
+     <speaker>Lady S.</speaker>
+     <p>Very well; go and get your habits on, for Mr. Spout, though a most worthy gentleman, is, I
+      am told, impatient, and doesn't like to be kept waiting.</p>
+    </sp>
+    <sp who="#L0765_F11">
+     <speaker>Concer.</speaker>
+     <p>I won't be a minute, ma'!</p>
+    </sp>
+    <sp who="#L0765_F5">
+     <speaker>Cherub.</speaker>
+     <p>Hold your tongue, do, child. Come along, my blessed sisters.</p>
+    </sp>
+    <stage>Exeunt R.</stage>
+    <sp who="#L0765_F4">
+     <speaker>Lady S.</speaker>
+     <p>That child really possesses more <hi>savoir faire</hi> than all her other sisters put
+      together. If she were only a year or two older, I would, in sporting parlance, declare to win
+      with her against the entire field !</p>
+    </sp>
+    <sp who="#L0765_F12">
+     <speaker>Bella.</speaker>
+     <stage>(singing without)</stage>
+     <lg>
+      <l>"I love the merry, merry sunshine,</l>
+      <l>It makes the heart so gay."</l>
+     </lg>
+    </sp>
+    <stage>Enter Bella, R.</stage>
+    <sp who="#L0765_F4">
+     <speaker>Lady S.</speaker>
+     <p>Upon my word! what right have you to love "the merry, merry sunshine ?" A poor relation, and
+      a dependent— one whom I have introduced to good society—to come into my presence in this
+      boisterous manner. It was all very well to conduct yourself in this way when you lived in the
+      country, but you should now learn the deportment of a young lady.</p>
+    </sp>
+    <sp who="#L0765_F12">
+     <speaker>Bella.</speaker>
+     <p>Well, my dear aunt, I beg your pardon; I do beg your pardon for being happy in the home
+      you've given me, but you know I'm naturally fond of fun. I can't repress my spirits, but I'm
+      sure I'm very grateful to you for your kindness.</p>
+    </sp>
+    <sp who="#L0765_F4">
+     <speaker>Lady S.</speaker>
+     <p>And very prettily you show your gratitude—galloping away with Mr. Upton Spout yesterday
+      before my very eyes in the Park.</p>
+    </sp>
+    <sp who="#L0765_F12">
+     <speaker>Bella.</speaker>
+     <p>Oh, aunt, I didn't—the horse you were kind enough to lend me was a more spirited one than I
+      expected, and it ran
+      <pb n="6"/>away with me—the gentleman followed to see that I didn't come to harm, though what
+      his name was I never knew to this moment, for you never introduced me.</p>
+    </sp>
+    <sp who="#L0765_F4">
+     <speaker>Lady S.</speaker>
+     <p>Introduce you, indeed ! Let me tell you, Miss Sunnyside, that though you are related to our
+      family, I take you out to act as companion to my daughters, not as their rival–</p>
+    </sp>
+    <sp who="#L0765_F12">
+     <speaker>Bella.</speaker>
+     <p>Their rival, I–</p>
+    </sp>
+    <sp who="#L0765_F4">
+     <speaker>Lady S.</speaker>
+     <p>Understand me, once for all, the charms you have, as my niece, entitle you to a home
+      here.</p>
+    </sp>
+    <sp who="#L0765_F12">
+     <speaker>Bella.</speaker>
+     <p>Well, if I'm in the way, aunt, I can get my own living as a governess.</p>
+    </sp>
+    <sp who="#L0765_F4">
+     <speaker>Lady S.</speaker>
+     <p>What, a relation of the Stilton's acting as a governess—I'm ashamed of you! I expect you to
+      stop here and superintend the education of your cousins—a governess indeed !</p>
+    </sp>
+    <sp who="#L0765_F12">
+     <speaker>Bella.</speaker>
+     <p>Well, aunt, I'm very happy as I am.</p>
+    </sp>
+    <sp who="#L0765_F4">
+     <speaker>Lady S.</speaker>
+     <p>Well then, mind for the future, when we have visitors, or when we meet anybody out of doors,
+      you are not to obtrude yourself.</p>
+    </sp>
+    <stage>Exit, R.</stage>
+    <sp who="#L0765_F12">
+     <speaker>Bella.</speaker>
+     <p>Oh dear no, Lady Stilton, it would never do for any member of your high and illustrious
+      family to be a governess —by no means—at least, that is, a paid one. Your poor relation may do
+      all the drudgery of governess work if she is not paid. That makes it quite a different matter.
+      However, why need I care? I know for her own pride's-sake, she'll never let me leave her, and
+      if she did—what then ? I can do very well without her help. And so the little gentlman, who
+      gallopped after me, is Mr. Upton Spout. I fancied I had seen him somewhere before. And now
+      that I remember, he is the identical little gentleman, who pulled me out of the ditch the day
+      I was out with the Berkshire hounds, and had that tumble. It wasn't romantic to be pulled out
+      of the mud ; but I suppose I ought to be just as grateful as if it had been the ocean. As for
+      Lady Stilton, I shan't let her ill temper damp my spirits, so in the absence of her prim
+      ladyship I repeat—</p>
+
+     <l>" I love the merry, merry sunshine,</l>
+     <l>It makes the heart so gay."</l>
+    </sp>
+    <stage>Enter Footman, L.</stage>
+    <sp who="#L0765_M3">
+     <speaker>Footman.</speaker>
+     <p>Major Lollipop.</p>
+    </sp>
+    <sp who="#L0765_F12">
+     <speaker>Bella.</speaker>
+     <p>Go and tell her ladyship the Major is here. <stage>Exit Footman, R.</stage> Well; I'm not to
+      intrude myself when company calls, and in the present instance, I must say obedience is a
+      pleasure. That horrid old Major, I hate the very sight of him, with his eternal "How d'ye do,
+      my dear madam, how d'ye do, how d'ye do, how d'ye do." So I'll leave the coast clear for him,
+      merely
+      <pb n="7"/> remarking before I go, as I think I observed before—<stage>(sings)</stage>
+     </p>
+     <l>"I love the merry, merry sunshine,</l>
+     <l>It makes the heart so gay."</l>
+     <stage>Exit, C. door.</stage>
+    </sp>
+
+    <stage>Enter Major Lollipop, in yachting dress, L.</stage>
+    <sp who="#L0765_M1">
+     <speaker>Major L.</speaker>
+     <stage>(imagining Lady S. present)</stage>
+     <p>How d'ye do, my dear madam, how d'ye do, how d'ye do ? Why, the dear creature isn't
+      here.</p>
+    </sp>
+    <stage>Enter Lady Stilton, R.</stage>
+    <sp who="#L0765_M1">
+     <speaker>Major L.</speaker>
+     <p>Ah, here she is! How d'ye do, my dear madam, how d'ye do, how d'ye do.</p>
+    </sp>
+    <sp who="#L0765_F4">
+     <speaker>Lady S.</speaker>
+     <p>My dear Major, what on earth is the meaning of this costume ?</p>
+    </sp>
+    <sp who="#L0765_M1">
+     <speaker>Major L.</speaker>
+     <p>Well, the fact is, madam, our young friend Spout is a regular Turk. After keeping me half
+      the night at billiards, he roused me out of my first sleep at seven o'clock this morning. He's
+      an early bird, Mr. Spout, and detests every one who is not as early in their habits as
+      himself.</p>
+    </sp>
+    <sp who="#L0765_F4">
+     <speaker>Lady S.</speaker>
+     <p>You don't say so. <stage>(rings bell)</stage></p>
+    </sp>
+    <stage>Enter Footman, L.</stage>
+    <sp who="#L0765_F4">
+     <speaker>Lady S.</speaker>
+     <p>Remove these breakfast things immediately. <stage>(he does so, L.)</stage></p>
+    </sp>
+    <sp who="#L0765_M1">
+     <speaker>Major L.</speaker>
+     <p>Yes, my dear madam, he roused me at seven to go yachting, and we military men, however brave
+      on the tented field, are not at all at home on the briny deep. The fact is, my dear madam, if
+      you will excuse the vulgarity of the confession, I feel queer—queer—here</p>
+    </sp>
+    <sp who="#L0765_F4">
+     <speaker>Lady S.</speaker>
+     <p>But you told me Mr. Spout intended going out on horseback to-day.</p>
+    </sp>
+    <sp who="#L0765_M1">
+     <speaker>Major L.</speaker>
+     <p>What our friend Spout intends, my dear madam, is one thing, and what our friend Spout does
+      is quite another. Never knows his own mind half-an-hour together, which he is perfectly
+      entitled not to do, my dear madam, being a man of wealth and family.</p>
+    </sp>
+    <sp who="#L0765_F4">
+     <speaker>Lady S.</speaker>
+     <p>Family, did you say, Major?</p>
+    </sp>
+    <sp who="#L0765_M1">
+     <speaker>Major L.</speaker>
+     <p>Family — undoubtedly, madam. As you are aware, Mr. Upton Spout's grandfather was a
+      pawnbroker, so we may pronounce his family quite the ticket. His ancestors came over
+      with––</p>
+    </sp>
+    <sp who="#L0765_F4">
+     <speaker>Lady S.</speaker>
+     <p>The Conqueror, I have no doubt.</p>
+    </sp>
+    <sp who="#L0765_M1">
+     <speaker>Major L.</speaker>
+     <p>Provided the Conqueror was short of ready money, I should say they did. Our friend, Upton
+      Spout, is descended from the illustrious family of the Lombards, and carries three golden
+      balls on his escutcheon. I have never seen his crest, but I have no doubt it was a weasel,
+      from that animal's inveterate habit of going pop.</p>
+    </sp>
+    <pb n="8"/>
+    <sp who="#L0765_F4">
+     <speaker>Lady S.</speaker>
+     <p>Yes, yes; I am aware that Mr. Spout's grandfather was engaged in commerce; but I believe
+      some of his relations were very high people.</p>
+    </sp>
+    <sp who="#L0765_M1">
+     <speaker>Major L.</speaker>
+     <p>Right, madam; the elder Spout stood in the relation of uncle to some of the most
+      distinguished persons in fashion, literature, science, and art.</p>
+    </sp>
+    <sp who="#L0765_F4">
+     <speaker>Lady S.</speaker>
+     <p>And he is not going out on horseback this morning?</p>
+    </sp>
+    <sp who="#L0765_M1">
+     <speaker>Major L.</speaker>
+     <p>No; he's changed his mind, and is going yachting. He's breakfasting at his club, and will be
+      here to fetch the ladies directly.</p>
+    </sp>
+    <sp who="#L0765_F4">
+     <speaker>Lady S.</speaker>
+     <p>Well, Major, between you and me, I'm rather glad of it, for I am afraid the people young men
+      are brought into contact with in Rotten Row––</p>
+    </sp>
+    <sp who="#L0765_M1">
+     <speaker>Major L.</speaker>
+     <p>Yes, I know—you mean the Pretty Horsebreakers —very dangerous, my dear madam, to young men
+      of property, and it strikes me that our young friend has already been attracted in that
+      quarter.</p>
+    </sp>
+    <sp who="#L0765_F4">
+     <speaker>Lady S.</speaker>
+     <p>Good gracious, I hope not. <stage>(rings bell)</stage></p>
+    </sp>
+    <stage>Enter Maid, R.</stage>
+    <sp who="#L0765_F4">
+     <speaker>Lady S.</speaker>
+     <p>Tell the young ladies to take off their habits instantly—we're going on the water.</p>
+    </sp>
+    <sp who="#L0765_F13">
+     <speaker>Maid.</speaker>
+     <p>Yes, my lady.</p>
+    </sp>
+    <stage>Exit, L.</stage>
+    <sp who="#L0765_F4">
+     <speaker>Lady S.</speaker>
+     <p>Major, you'll excuse me I know, I think I had better see to the girls myself—<hi>au
+       revoir</hi>, Major!</p>
+    </sp>
+    <stage>Exit, R.</stage>
+    <sp who="#L0765_M1">
+     <speaker>Major L.</speaker>
+     <p><hi>Au revoir</hi>, my dear madam, <hi>au revoir</hi>. He's a good fellow, our friend
+      Spout—his fortune, I'm told, is something fabulous, and he is just the sort of man who ought
+      to settle down in life, give pleasant little dinner parties, and keep a good cellar of old
+      port for his friends.</p>
+    </sp>
+    <stage>Enter Footman, L.</stage>
+    <sp who="#L0765_M3">
+     <speaker>Footman.</speaker>
+     <p>Mr. Upton Spout!</p>
+     <stage>Exit Footman, L.</stage>
+    </sp>
+    <stage>Enter Spout, L.</stage>
+    <sp who="#L0765_M1">
+     <speaker>Major L.</speaker>
+     <p>How d'ye do, my dear Upton, how d'ye do? <stage>(shakes hands)</stage></p>
+    </sp>
+    <sp who="#L0765_M2">
+     <speaker>Upton.</speaker>
+     <p>Well, much about the same as when you left me half an hour ago. <stage>(disengaging his
+       hand)</stage> There, that'll do. Now, where are the ladies ?—not dressed yet—I told you to
+      get them ready half an hour ago.</p>
+    </sp>
+    <sp who="#L0765_M1">
+     <speaker>Major L.</speaker>
+     <stage>(aside)</stage>
+     <p>He orders me about like a nabob ! <stage>(aloud)</stage> All right, my Upton, all right—the
+      dear creatures will be here directly. When I came in, they were just dressing for a ride––</p>
+    </sp>
+    <sp who="#L0765_M2">
+     <speaker>Spout.</speaker>
+     <p>A ride—don't talk of riding—it brings back the memory of that angel in a blue riding
+      habit—that galloped off with me and my affections in the Park yesterday.</p>
+    </sp>
+    <pb n="9"/>
+    <sp who="#L0765_M1">
+     <speaker>Major L.</speaker>
+     <p>Yes, yes, you told me all about her, my dear boy.</p>
+    </sp>
+    <sp who="#L0765_M2">
+     <speaker>Spout.</speaker>
+     <p>What nonsense you are talking; Major, I never told you all about her, I never could tell you
+      all about her. She was something to see, sir, not to tell about. She sat her horse, sir, like
+      a rock.</p>
+    </sp>
+    <sp who="#L0765_M1">
+     <speaker>Major L.</speaker>
+     <p>Yes, many of them do, dear boy.</p>
+    </sp>
+    <sp who="#L0765_M2">
+     <speaker>Spout.</speaker>
+     <p>No Ascot jockey could beat her style of riding— not even Rarey himself, the famous horse
+      breaker.</p>
+    </sp>
+    <sp who="#L0765_M1">
+     <speaker>Major L.</speaker>
+     <p>Ah, that's it, dear boy, these pretty horsebreakers, beware of them—they're breaking the
+      hearts of all the young fellows about town.</p>
+    </sp>
+    <sp who="#L0765_M2">
+     <speaker>Spout.</speaker>
+     <p>Now look here, Major, I'm not going to be lectured. If I choose to have my heart broken by a
+      pretty horsebreaker, it's my own look-out. Besides, if my heart is broken, I have money enough
+      to buy a new one, The best thing you can do, if you are my friend, is to find out who this
+      girl is— there, get along, don't spare expense, I'll stand the racket.</p>
+    </sp>
+    <sp who="#L0765_M1">
+     <speaker>Major L.</speaker>
+     <p>Pooh, pooh, dear boy, it's somebody that expects to pick you up.</p>
+    </sp>
+    <sp who="#L0765_M2">
+     <speaker>Spout.</speaker>
+     <p>Pick me up ? If I thought she wanted to pick me up, I'd tumble down directly. Oh, Major,
+      such eyes; such teeth; such a mouth ; such a nose, and such a pork-pie hat— that pork-pie hat
+      settled my hash.</p>
+    </sp>
+    <sp who="#L0765_M1">
+     <speaker>Major L.</speaker>
+     <p>Ah, dear boy, beware of the pork pies !</p>
+    </sp>
+    <sp who="#L0765_M2">
+     <speaker>Spout.</speaker>
+     <p>And you should have seen her loose habit flowing in graceful folds.</p>
+    </sp>
+    <sp who="#L0765_M1">
+     <speaker>Major L.</speaker>
+     <p>Yes, dear boy, that's the worst of it, the loose habits of these pretty horsebreakers are
+      only too graceful.</p>
+    </sp>
+    <sp who="#L0765_M2">
+     <speaker>Spout.</speaker>
+     <p>And didn't she go along at a spanking rate, and when I called out to her, if I should stop
+      her horse, she turns round in her saddle like Dick Turpin, and says to me, "No danger, old
+      fellow, I've been on horseback before to-day." That's the sort of girl for me, a girl that can
+      ride and talk— talk sense. <stage>(slaps Major in the stomach)</stage></p>
+    </sp>
+    <sp who="#L0765_M1">
+     <speaker>Major L.</speaker>
+     <p>Don't do that, Upton, I've been upon the water you know, and I feel queer.</p>
+    </sp>
+    <sp who="#L0765_M2">
+     <speaker>Spout.</speaker>
+     <p>Well, there go and tell the man to bring the yacht round to the bridge. I suppose I must
+      escort these ladies since I promised. I'll come round with them to the point.</p>
+    </sp>
+    <sp who="#L0765_M1">
+     <speaker>Major L.</speaker>
+     <p>Yes, come to the point with the girls, dear boy, come to the point with them––</p>
+    </sp>
+    <sp who="#L0765_M2">
+     <speaker>Spout.</speaker>
+     <p>Hollo ! here I say, Major, it strikes me you want to hook me into marrying. If I thought
+      that, I'd go away without seeing these swell friends of yours.</p>
+    </sp>
+    <sp who="#L0765_M1">
+     <speaker>Major L.</speaker>
+     <p>My dear boy, you wouldn't break through all the rules of good society.</p>
+    </sp>
+    <pb n="10"/>
+    <sp who="#L0765_M2">
+     <speaker>Spout.</speaker>
+     <p>Bother the rules of good society.—If I break them, I suppose I can afford to pay for
+      them.</p>
+    </sp>
+    <sp who="#L0765_M1">
+     <speaker>Major L.</speaker>
+     <p>No doubt, dear boy; but I'll be off and see about the boat. Don't forget to bring the dear
+      girls to the point.</p>
+    </sp>
+    <stage>Exit, L.</stage>
+    <sp who="#L0765_M2">
+     <speaker>Spout.</speaker>
+     <p>I don't feel half comfortable in these gilded salons —salons—that's the word. I feel as
+      thirsty as a coalheaver, and I suppose I daren't ask for beer if it was to save my life. I
+      would ring the bell for some, if I weren't afraid of a tremendous red-hot flunkey coming in
+      and frightening me. I can't think how it is, but in the presence of one of those magnificent
+      specimens of servile humanity, I always feel that I'm a little boy, and he's the beadle. Why
+      the deuce don't those girls come ? I shan't wait for them. Stop, I'll just send word to them
+      to make haste. I'll ring the bell and chance the flunkey. <stage>(rings bell)</stage> Ha, the
+      garden, and a lady among the flowers— charming sight! Eh, what?—no it isn't—can it be—do my
+      eyes deceive me ? Yes it is—as I live, it is the very girl that bolted from me in the park.
+      Hi, miss, you, what's your name? —here, come up.</p>
+    </sp>
+    <stage>Enter Footman, L.</stage>
+    <sp who="#L0765_M3">
+     <speaker>Footman.</speaker>
+     <p>Did you ring, sir?</p>
+    </sp>
+    <sp who="#L0765_M2">
+     <speaker>Spout.</speaker>
+     <p>Hold your tongue, you scoundrel, do; how dare you speak to a gentleman of property when you
+      see he is in this frantic state of excitement. <stage>(calling out of window)</stage> Here, I
+      say, come up—hi—by Jove, she's bolted from me again—I'll give chase. <stage>(gets on chair to
+       go out of window)</stage></p>
+    </sp>
+    <sp who="#L0765_M3">
+     <speaker>Footman.</speaker>
+     <p>Sir, consider</p>
+    </sp>
+    <sp who="#L0765_M2">
+     <speaker>Spout.</speaker>
+     <p>Hold your tongue, sir, I tell you !</p>
+    </sp>
+    <sp who="#L0765_M3">
+     <speaker>Footman.</speaker>
+     <p>The chair, sir.</p>
+    </sp>
+    <sp who="#L0765_M2">
+     <speaker>Spout.</speaker>
+     <p>Well, I suppose I can pay for washing it.</p>
+     <stage>(begins to get out)</stage>
+    </sp>
+    <sp who="#L0765_M3">
+     <speaker>Footman.</speaker>
+     <stage>(trying to stop him)</stage>
+     <p>Sir, sir, you'll break your neck.</p>
+    </sp>
+    <sp who="#L0765_M2">
+     <speaker>Spout.</speaker>
+     <p>Well, I can pay for mending it. <stage>(jumps out)</stage></p>
+    </sp>
+    <sp who="#L0765_M3">
+     <speaker>Footman.</speaker>
+     <p>The gentleman's evidently cracked — he'll be smashed to pieces. I'll go and pick up what's
+      left of him.</p>
+     <stage>Exit, L.</stage>
+    </sp>
+
+    <stage>Enter Spout, dragging in Bella, C. door.</stage>
+    <sp who="#L0765_M2">
+     <speaker>Spout.</speaker>
+     <p>No, no, you don't get away from me this time as you did yesterday. Come along, I've got
+      you.</p>
+    </sp>
+    <sp who="#L0765_F12">
+     <speaker>Bella.</speaker>
+     <p>Don't sir—this rudeness is unpardonable. Are you mad?</p>
+    </sp>
+    <sp who="#L0765_M2">
+     <speaker>Spout.</speaker>
+     <p>Mad—mad as a score of hatters. You—you have run away with all the wits I ever had.</p>
+    </sp>
+    <sp who="#L0765_F12">
+     <speaker>Bella.</speaker>
+     <p>Oh, nonsense; this language to one who is a perfect stranger to you!</p>
+    </sp>
+    <pb n="11"/>
+    <sp who="#L0765_M2">
+     <speaker>Spout.</speaker>
+     <p>Stranger ?—not a bit of it. Don't you remember me in the park yesterday?</p>
+    </sp>
+    <sp who="#L0765_F12">
+     <speaker>Bella.</speaker>
+     <p>On the high-mettled bay ?</p>
+    </sp>
+    <sp who="#L0765_M2">
+     <speaker>Spout.</speaker>
+     <p>Yes, on the high-mettled bay.</p>
+    </sp>
+    <sp who="#L0765_F12">
+     <speaker>Bella.</speaker>
+     <p>In a white hat and pink tie?</p>
+    </sp>
+    <sp who="#L0765_M2">
+     <speaker>Spout.</speaker>
+     <p>White hat and a pink necktie. Yes, that was me. What did you think of me ?</p>
+    </sp>
+    <sp who="#L0765_F12">
+     <speaker>Bella.</speaker>
+     <stage>(laughing)</stage>
+     <p>Well, if you want the truth, I thought you as comical-looking a little gentleman as I had
+      ever seen.</p>
+    </sp>
+    <sp who="#L0765_M2">
+     <speaker>Spout.</speaker>
+     <p>Ha, ha—and would you like to know what I thought of you?</p>
+    </sp>
+    <sp who="#L0765_F12">
+     <speaker>Bella.</speaker>
+     <p>I should be afraid to ask.</p>
+    </sp>
+    <sp who="#L0765_M2">
+     <speaker>Spout.</speaker>
+     <p>Don't—I thought you a stunner.</p>
+    </sp>
+    <sp who="#L0765_F12">
+     <speaker>Bella.</speaker>
+     <p>Oh, be off with your nonsense.</p>
+    </sp>
+    <sp who="#L0765_M2">
+     <speaker>Spout.</speaker>
+     <p>It's no nonsense. I repeat it. You are stunner—a perfect stunner. Look here—I offer you my
+      hand and heart on the spot.</p>
+    </sp>
+    <sp who="#L0765_F12">
+     <speaker>Bella.</speaker>
+     <p>Do you wish me to call Lady Stilton?</p>
+    </sp>
+    <sp who="#L0765_M2">
+     <speaker>Spout.</speaker>
+     <p>Oh, no; we can get on quite as well alone. Come, come, don't be angry—give us a kiss, and
+      make friends.</p>
+    </sp>
+    <sp who="#L0765_F12">
+     <speaker>Bella.</speaker>
+     <p>A kiss, you impertinent little man? I should like to see you try and take one.</p>
+    </sp>
+    <sp who="#L0765_M2">
+     <speaker>Spout.</speaker>
+     <p>Should you ?—then here goes.</p>
+    </sp>
+    <sp who="#L0765_F12">
+     <speaker>Bella.</speaker>
+     <p>If you come near me, I'll box your ears.</p>
+    </sp>
+    <sp who="#L0765_M2">
+     <speaker>Spout.</speaker>
+     <p>Do, do, I should like it—with that hand.</p>
+    </sp>
+    <sp who="#L0765_F12">
+     <speaker>Bella.</speaker>
+     <p>Are you aware, sir, to whom you are talking?</p>
+    </sp>
+    <sp who="#L0765_M2">
+     <speaker>Spout.</speaker>
+     <p>Not in the least—that's the very thing I've been anxious to know since yesterday. Who are
+      you?</p>
+    </sp>
+    <sp who="#L0765_F12">
+     <speaker>Bella.</speaker>
+     <p>Had I been honoured with a proper introduction, you might have learnt; but under the
+      circumstances, perhaps, you had better find out for yourself.</p>
+    </sp>
+    <sp who="#L0765_M2">
+     <speaker>Spout.</speaker>
+     <p>Well, judging by your yesterday's performance, I should be inclined to set you down as
+      connected with the horse-breaking interest; but the costume you have on at present would
+      induce me to pronounce you of the gardening persuasion.</p>
+    </sp>
+    <sp who="#L0765_F12">
+     <speaker>Bella.</speaker>
+     <p>Well, well, I shall leave you in your ignorance. I think I ought to be very angry with
+      you—if I were a proper young lady, I suppose I should.</p>
+    </sp>
+    <sp who="#L0765_M2">
+     <speaker>Spout.</speaker>
+     <p>But ain't you a proper young lady, then ?</p>
+    </sp>
+    <sp who="#L0765_F12">
+     <speaker>Bella.</speaker>
+     <p>Everybody tells me I'm not—they say I'm a regular hoyden; however, I forgive you—I know you
+      meant no harm, and a little bit of nonsense is quite refreshing now and then, in this stiff,
+      fashionable society. <stage>(going)</stage></p>
+    </sp>
+    <sp who="#L0765_M2">
+     <speaker>Spout.</speaker>
+     <p>Well, give us a kiss before you go.</p>
+    </sp>
+    <sp who="#L0765_F12">
+     <speaker>Bella.</speaker>
+     <p>Oh, you really must excuse me that; but there's my hand to show that we part friends—excuse
+      the garden glove.</p>
+    </sp>
+    <pb n="12"/>
+    <sp who="#L0765_M2">
+     <speaker>Spout.</speaker>
+     <stage>(seizes hand)</stage>
+     <p>Oh!</p>
+    </sp>
+    <sp who="#L0765_F12">
+     <speaker>Bella.</speaker>
+     <p>What's the matter ?</p>
+    </sp>
+    <sp who="#L0765_M2">
+     <speaker>Spout.</speaker>
+     <p>You asked me to excuse the glove, but you didn't tell me there were thorns in it.</p>
+    </sp>
+    <sp who="#L0765_F12">
+     <speaker>Bella.</speaker>
+     <p>Thorns? I'm so sorry ; but I've just been gathering some roses.</p>
+    </sp>
+    <sp who="#L0765_M2">
+     <speaker>Spout.</speaker>
+     <p>Have you? Give us a rose, and I'll forgive the thorn.</p>
+    </sp>
+    <sp who="#L0765_F12">
+     <speaker>Bella.</speaker>
+     <p>Are you so fond of flowers, then ?</p>
+    </sp>
+    <sp who="#L0765_M2">
+     <speaker>Spout.</speaker>
+     <p>I dote on them. Don't you ?</p>
+    </sp>
+    <sp who="#L0765_F12">
+     <speaker>Bella.</speaker>
+     <p>I adore them—but in crowded towns you never see flowers in perfection.</p>
+    </sp>
+    <sp who="#L0765_M2">
+     <speaker>Spout.</speaker>
+     <p>Don't you, by Jove-- there's a flower show on today, will you come ?</p>
+    </sp>
+    <sp who="#L0765_F12">
+     <speaker>Bella.</speaker>
+     <p>Oh, couldn't do it!</p>
+    </sp>
+    <sp who="#L0765_M2">
+     <speaker>Spout.</speaker>
+     <p>Oh yes, you can—look here, if you won't promise to come, I'll kiss you.</p>
+    </sp>
+    <sp who="#L0765_F12">
+     <speaker>Bella.</speaker>
+     <p>Will you!</p>
+    </sp>
+    <stage>(runs away from him—he chases her round the room, jumping over chairs, &amp;c.—she
+     escapes through door, C., and slams it in his face)</stage>
+    <sp who="#L0765_M2">
+     <speaker>Spout.</speaker>
+     <p>Oh, come I say, open the door.</p>
+    </sp>
+    <stage>Enter Lady Stilton, R.</stage>
+    <sp who="#L0765_F4">
+     <speaker>Lady S.</speaker>
+     <p>Why, Mr. Spout, whatever is the matter?</p>
+    </sp>
+    <sp who="#L0765_M2">
+     <speaker>Spout.</speaker>
+     <p>There, don't bother me. <stage>(turning, sees Lady Stilton, and immediately assumes the tone
+       of a drawling exquisite)</stage> Ah, beg pardon, Lady Stilton, delighted to see you, how d'ye
+      do ? <stage>(aside)</stage> That's the way to talk to the swells.</p>
+    </sp>
+    <sp who="#L0765_F4">
+     <speaker>Lady S.</speaker>
+     <p>I thought I heard a noise in this room.</p>
+    </sp>
+    <sp who="#L0765_M2">
+     <speaker>Spout.</speaker>
+     <p>Noise—ah, y-a-a-s—I—-a—dropped my handkerchief—ah, came down with a tremendous bang, I
+      assure you.</p>
+    </sp>
+    <sp who="#L0765_F4">
+     <speaker>Lady S.</speaker>
+     <p>I hope he has not been romping with any of the maid servants in my house—but young men will
+      be young men!</p>
+    </sp>
+    <sp who="#L0765_M2">
+     <speaker>Spout.</speaker>
+     <p>Young ladies pretty well this morning ?</p>
+    </sp>
+    <sp who="#L0765_F4">
+     <speaker>Lady S.</speaker>
+     <p>Thank you, Mr. Spout, they are very well, and here they are to answer for themselves.</p>
+    </sp>
+    <stage>Enter Daughters, R. Cherubina, Seraphina, Angelina, Syrena, Georgina, Clementina and
+     Concertina. (they all curtsey)</stage>
+    <sp who="#L0765_M2">
+     <speaker>Spout.</speaker>
+     <p>Remarkable fine family. <stage>(aside)</stage> I don't mean handsome but numerous.</p>
+    </sp>
+    <sp who="#L0765_F4">
+     <speaker>Lady S.</speaker>
+     <p>Oh, sir, you flatter my dear girls.</p>
+    </sp>
+    <sp who="#L0765_M2">
+     <speaker>Spout.</speaker>
+     <p>Not at all, your ladyship.</p>
+    </sp>
+    <sp who="#L0765_F4">
+     <speaker>Lady S.</speaker>
+     <p>You see, Mr. Spout, that all my daughters are most accomplished girls, they have had a most
+      expensive,
+      <pb n="13"/>education, and I am so fond of them all, that I shouldn't like to lose any of
+      them</p>
+    </sp>
+    <sp who="#L0765_M2">
+     <speaker>Spout.</speaker>
+     <p>No, of course not. <stage>(aside)</stage> She might lose two or three, without missing them
+      from the flock.</p>
+    </sp>
+    <sp who="#L0765_F4">
+     <speaker>Lady S.</speaker>
+     <p>You know I'm not one of those match-making mothers, that are always on the look out for
+      husbands for their daughters.</p>
+    </sp>
+    <sp who="#L0765_M2">
+     <speaker>Spout.</speaker>
+     <p>Obviously not, your ladyship.</p>
+    </sp>
+    <sp who="#L0765_F4">
+     <speaker>Lady S.</speaker>
+     <p>Some mother's notions are so extravagant! <hi>My</hi> idea of the provision for a young lady
+      settling down in life is an exceedingly moderate one.</p>
+    </sp>
+    <sp who="#L0765_M2">
+     <speaker>Spout.</speaker>
+     <p>Ah, yes, yes—couple of hundred pounds pin money. What do you think, Miss Cherubina ?</p>
+    </sp>
+    <sp who="#L0765_F5">
+     <speaker>Cherub.</speaker>
+     <p>Yes, a couple of hundred might do with proper management.</p>
+    </sp>
+    <sp who="#L0765_M2">
+     <speaker>Spout.</speaker>
+     <p>Ah ! and a house in Town, another in the country</p>
+    </sp>
+    <sp who="#L0765_F4">
+     <speaker>Lady S.</speaker>
+     <p>Of course.</p>
+    </sp>
+    <sp who="#L0765_M2">
+     <speaker>Spout.</speaker>
+     <p>Box at the opera—three or four carriages—two saddlehorses—two lady's maids, and something
+      under—say three score servants, male and female.</p>
+    </sp>
+    <sp who="#L0765_F4">
+     <speaker>Lady S.</speaker>
+     <p>Ah, Mr. Spout, how well you know the requirements of a respectable <hi>menage</hi>—but I'm
+      afraid I'm keeping you from your excursion on the water ?</p>
+    </sp>
+    <sp who="#L0765_M2">
+     <speaker>Spout.</speaker>
+     <p>Oh, not at all— <stage>(aside)</stage>—but she's keeping me from the flower show, where I
+      mean to take that pretty horse-riding gardener girl, spite of what she says.</p>
+    </sp>
+    <sp who="#L0765_F5">
+     <speaker>Cherub.</speaker>
+     <p>Is the wind favourable this morning, Mr. Spout ?</p>
+    </sp>
+    <sp who="#L0765_F6">
+     <speaker>Seraph.</speaker>
+     <p>Will it blow on the off side of the boat ?</p>
+    </sp>
+    <sp who="#L0765_F7">
+     <speaker>Angel.</speaker>
+     <p>Or on the near side ?</p>
+    </sp>
+    <sp who="#L0765_M2">
+     <speaker>Spout.</speaker>
+     <p>Excuse me, ladies, "starboard" and "larboard," if you please; "near" side and'"off" side
+      refer to horsemanship, ladies, not to navigation.</p>
+    </sp>
+    <sp who="#L0765_F5">
+     <speaker>Cherub.</speaker>
+     <p>How stupid of you, girls, and you all so fond of yachting.</p>
+    </sp>
+    <sp who="#L0765_F4">
+     <speaker>Lady S.</speaker>
+     <p>Oh yes; my darlings dote upon the water.</p>
+    </sp>
+    <sp who="#L0765_mult">
+     <speaker>Omnes.</speaker>
+     <p>Oh, that we do!</p>
+    </sp>
+    <sp who="#L0765_F5">
+     <speaker>Cherub.</speaker>
+     <p>I love the water better than anything in the world.</p>
+    </sp>
+    <sp who="#L0765_M2">
+     <speaker>Spout.</speaker>
+     <p>Sorry to hear it; for the fact is, I have changed my mind. What say you to the flower show
+      ?</p>
+    </sp>
+    <sp who="#L0765_mult">
+     <speaker>Omnes.</speaker>
+     <p>Oh, delightful!</p>
+    </sp>
+    <sp who="#L0765_F5">
+     <speaker>Cherub.</speaker>
+     <p>Oh, much better than boating!</p>
+    </sp>
+    <sp who="#L0765_mult">
+     <speaker>Omnes.</speaker>
+     <p>Much better, of course!</p>
+    </sp>
+    <sp who="#L0765_F4">
+     <speaker>Lady S.</speaker>
+     <p>Oh yes; my darlings dote so upon flowers. There, come along up stairs, girls, and take those
+      ridiculous jackets off immediately. Mr. Spout, you will excuse me for a moment, won't you?</p>
+    </sp>
+    <sp who="#L0765_M2">
+     <speaker>Spout.</speaker>
+     <p>Oh certainly, your ladyship with pleasure.</p>
+    </sp>
+    <stage>Exeunt Lady S. and her Daughters, R.</stage>
+    <sp who="#L0765_M2">
+     <speaker>Spout.</speaker>
+     <stage>(resuming his natural style)</stage>
+     <p>So much for that. Doing
+      <pb n="14"/> the swell is fearfully fatiguing. Bother this major, making these appointments
+      for me. I should have liked to go alone to the flower show, with that pretty horsebreaker, or
+      whatever she is. Two hundred a-year pin money, house in town, another in the country,
+      carriages, horses, servants, opera boxes—oh, it wouldn't run to it !</p>
+    </sp>
+    <sp who="#L0765_F12">
+     <speaker>Bella.</speaker>
+     <stage>(singing without)</stage>
+     <p>"I love the merry, merry sunshine."</p>
+    </sp>
+    <sp who="#L0765_M2">
+     <speaker>Spout.</speaker>
+     <p>Hollo—that voice—I know that voice—its my semi-equestrian, semi-floricultural divinity.</p>
+    </sp>
+    <stage>Enter Bella, C., in riding dress.</stage>
+    <sp who="#L0765_M2">
+     <speaker>Spout.</speaker>
+     <p>And, by Jupiter, in the identical blue riding habit.</p>
+    </sp>
+    <sp who="#L0765_F12">
+     <speaker>Bella.</speaker>
+     <p>Hollo—I beg your pardon—are you here still? I thought you had gone out with the ladies.</p>
+    </sp>
+    <sp who="#L0765_M2">
+     <speaker>Spout.</speaker>
+     <p>What young man of spirit and property would go out with ladies, when he can enjoy the
+      society of a pretty horsebreaker, by stopping where he is.</p>
+    </sp>
+    <sp who="#L0765_F12">
+     <speaker>Bella.</speaker>
+     <p>A horsebreaker—what you mean?</p>
+    </sp>
+    <sp who="#L0765_M2">
+     <speaker>Spout.</speaker>
+     <p>A horsebreaker—a heartbreaker—a general smasher up of me and all belonging to me—in that
+      pork-pie hat and blue riding habit. Oh!—give us a kiss—I should so like one in that dress.</p>
+    </sp>
+    <sp who="#L0765_F12">
+     <speaker>Bella.</speaker>
+     <p>Don't be ridiculous, little man.</p>
+    </sp>
+    <sp who="#L0765_M2">
+     <speaker>Spout.</speaker>
+     <p>Little gentleman, if you please—gentleman of property. Well, do give us something—a lock of
+      your hair—<stage>(she waives him off)</stage>—a little bit of the blue riding habit, as a
+      keepsake—or a quarter of your pork-pie. You won't give me a quarter of your pork-pie, and you
+      see the state of starvation I am in.</p>
+    </sp>
+    <sp who="#L0765_F12">
+     <speaker>Bella.</speaker>
+     <p>Starvation?</p>
+    </sp>
+    <sp who="#L0765_M2">
+     <speaker>Spout.</speaker>
+     <p>Yes; starving for true love and affection. Give us a kiss, or a box on the ear, or a black
+      eye, or some other mark of your affection.</p>
+    </sp>
+    <sp who="#L0765_F12">
+     <speaker>Bella.</speaker>
+     <p>Now, little man</p>
+    </sp>
+    <sp who="#L0765_M2">
+     <speaker>Spout.</speaker>
+     <p>Little gentleman—gentleman of property.</p>
+    </sp>
+    <sp who="#L0765_F12">
+     <speaker>Bella.</speaker>
+     <p>Well, little gentleman of property, what is your little motive?</p>
+    </sp>
+    <sp who="#L0765_M2">
+     <speaker>Spout.</speaker>
+     <p>Ah, that's the way to talk—that's what I call sense. She meant what is the little gentleman
+      of property's little game? Yes, that's it—here, take a chair, take a chair, and the little
+      gentleman of property will tell you his little game. <stage>(they take chairs)</stage></p>
+    </sp>
+    <sp who="#L0765_F12">
+     <speaker>Bella.</speaker>
+     <p>Well now.</p>
+    </sp>
+    <sp who="#L0765_M2">
+     <speaker>Spout.</speaker>
+     <p>Well, give us a kiss before we begin.</p>
+    </sp>
+    <sp who="#L0765_F12">
+     <speaker>Bella.</speaker>
+     <p>Sir, you really seem to be strangely ignorant of the usages of respectable society.</p>
+    </sp>
+    <sp who="#L0765_M2">
+     <speaker>Spout.</speaker>
+     <p>Respectable society! Well, if you call this respectable society, I don't think much of it.
+      What do <hi>you</hi> think of high life? Don't you think it is rather starched and stiff?</p>
+    </sp>
+    <pb n="15"/>
+    <sp who="#L0765_F12">
+     <speaker>Bella.</speaker>
+     <p>Well, it is rather starched and stiff as you say. I'm a country girl myself, and you know in
+      the country, folks don't mind a little bit of romping ; but that won't do here—but when people
+      are at Rome, they must do as Rome does.</p>
+    </sp>
+    <sp who="#L0765_M2">
+     <speaker>Spout.</speaker>
+     <p>Yes, but we're not at Rome, and if you could only tell me of any country where folks
+       <hi>could</hi> enjoy themselves as they please, the sooner we take two first-class tickets to
+      the happy spot the better—I'll pay the passage</p>
+    </sp>
+    <sp who="#L0765_F12">
+     <speaker>Bella.</speaker>
+     <p>This joking has gone far enough, Mr. Spout, I'll bid you good day.</p>
+    </sp>
+    <sp who="#L0765_M2">
+     <speaker>Spout.</speaker>
+     <p>Don't go for one moment. Just tell me what are your notions about settling down. Settle down
+      now and tell me.</p>
+    </sp>
+    <sp who="#L0765_F12">
+     <speaker>Bella.</speaker>
+     <p>Notions about settling down ?</p>
+    </sp>
+    <sp who="#L0765_M2">
+     <speaker>Spout.</speaker>
+     <p>Yes, in life. Would two hundred a-year pin money, a house in town, another in the country,
+      two or three carriages, a box at the opera––</p>
+    </sp>
+    <sp who="#L0765_F12">
+     <speaker>Bella.</speaker>
+     <p>Oh dear, oh dear, don't talk of town and country houses. If I ever thought of settling down,
+      the height of my ambition would be to have a nice little cottage––</p>
+    </sp>
+    <sp who="#L0765_M2">
+     <speaker>Spout.</speaker>
+     <p>Near a wood ?</p>
+    </sp>
+    <sp who="#L0765_F12">
+     <speaker>Bella.</speaker>
+     <p>Yes, if possible.</p>
+    </sp>
+    <sp who="#L0765_M2">
+     <speaker>Spout.</speaker>
+     <p>Within an easy carriage drive of town.</p>
+    </sp>
+    <sp who="#L0765_F12">
+     <speaker>Bella.</speaker>
+     <p>That I don't care about—so that the folks that I really loved were near enough for me to
+      drive round and see them in my little pony phaeton—and then I should like a little farm.</p>
+    </sp>
+    <sp who="#L0765_M2">
+     <speaker>Spout.</speaker>
+     <p>Yes, when a little farm we keep––</p>
+    </sp>
+    <sp who="#L0765_F12">
+     <speaker>Bella.</speaker>
+     <p>And a little cow––</p>
+    </sp>
+    <sp who="#L0765_M2">
+     <speaker>Spout.</speaker>
+     <p>Yes, and a little sheep––</p>
+    </sp>
+    <sp who="#L0765_F12">
+     <speaker>Bella.</speaker>
+     <p>And a little lamb––</p>
+    </sp>
+    <sp who="#L0765_M2">
+     <speaker>Spout.</speaker>
+     <p>And a little mint sauce––</p>
+    </sp>
+    <sp who="#L0765_F12">
+     <speaker>Bella.</speaker>
+     <p>And some little cocks and hens——</p>
+    </sp>
+    <sp who="#L0765_M2">
+     <speaker>Spout.</speaker>
+     <p>Yes, little cocks and hens––</p>
+    </sp>
+    <sp who="#L0765_F12">
+     <speaker>Bella.</speaker>
+     <p>So as always to have a good supply of fresh eggs––</p>
+    </sp>
+    <sp who="#L0765_M2">
+     <speaker>Spout.</speaker>
+     <p>And bacon ! so you'd want a little pig!</p>
+    </sp>
+    <sp who="#L0765_F12">
+     <speaker>Bella.</speaker>
+     <p>Oh, lots of little pigs.</p>
+    </sp>
+    <sp who="#L0765_M2">
+     <speaker>Spout.</speaker>
+     <p>Yes, lots of little pigs, and one little pig that goes squeak, squeak, squeak, all the way
+      home––</p>
+    </sp>
+    <sp who="#L0765_F12">
+     <speaker>Bella.</speaker>
+     <p>And keep ducks and drakes !</p>
+    </sp>
+    <sp who="#L0765_M2">
+     <speaker>Spout.</speaker>
+     <p>Yes, instead of making ducks and drakes of one's money. Ah! that's the sort of thing. Better
+      than keeping regiments of flunkeys dressed like beadles, carriages, saddle horses––</p>
+    </sp>
+    <sp who="#L0765_F12">
+     <speaker>Bella.</speaker>
+     <p>Stop, stop ! I must confess a weakness for a saddle horse.</p>
+    </sp>
+    <sp who="#L0765_M2">
+     <speaker>Spout.</speaker>
+     <p>By Jove, I should think so—in that blue riding habit, saddle horses I look upon as a
+      necessary of life.</p>
+    </sp>
+    <sp who="#L0765_F12">
+     <speaker>Bella.</speaker>
+     <p>Are you so fond of horse riding, then?</p>
+    </sp>
+    <sp who="#L0765_M2">
+     <speaker>Spout.</speaker>
+     <p>Oh, mad for it! <stage>(rides in chair)</stage></p>
+    </sp>
+    <pb n="16"/>
+    <sp who="#L0765_F12">
+     <speaker>Bella.</speaker>
+     <p>So am I! Nothing like a glorious ride across country, over hedges, ditches–</p>
+    </sp>
+    <sp who="#L0765_M2">
+     <speaker>Spout.</speaker>
+     <p>Stone fences, battlements, turnpike gates –</p>
+    </sp>
+    <sp who="#L0765_F12">
+     <speaker>Bella.</speaker>
+     <p>Brooks, canals, railway cuttings –</p>
+    </sp>
+    <sp who="#L0765_M2">
+     <speaker>Spout.</speaker>
+     <p>Electric telegraph wires, church steeples, agricultural labourers—anything that turns up
+      –</p>
+    </sp>
+    <sp who="#L0765_F12">
+     <speaker>Bella.</speaker>
+     <p>With the hounds in full cry leading you on –</p>
+    </sp>
+    <sp who="#L0765_M2">
+     <speaker>Spout.</speaker>
+
+     <p>Everybody round you shouting out like maniacs. Tally-ho! yoicks! yoicks! tally-ho !</p>
+
+    </sp>
+    <sp who="#L0765_F12">
+     <speaker>Bella.</speaker>
+     <p>Ah, that's the style!</p>
+    </sp>
+    <sp who="#L0765_M2">
+     <speaker>Spout.</speaker>
+     <p>Yes, that's the style—give us a kiss, and we'll go out for a ride.</p>
+    </sp>
+    <sp who="#L0765_F12">
+     <speaker>Bella.</speaker>
+     <p>Oh nonsense—ride with you, indeed! I only put my habit on to–</p>
+    </sp>
+    <sp who="#L0765_M2">
+     <speaker>Spout.</speaker>
+     <p>Oh, that blue riding habit!</p>
+    </sp>
+    <sp who="#L0765_F12">
+     <speaker>Bella.</speaker>
+     <p>To go out for a ride while the young ladies were away—you know that you're engaged to take
+      them out.</p>
+    </sp>
+    <sp who="#L0765_M2">
+     <speaker>Spout.</speaker>
+     <p>I cancel all engagements on the spot. Let us take a ride together instead.</p>
+    </sp>
+    <sp who="#L0765_F12">
+     <speaker>Bella.</speaker>
+     <stage>(laughing)</stage>
+     <p>What in that dress ?</p>
+    </sp>
+    <sp who="#L0765_M2">
+     <speaker>Spout.</speaker>
+     <p>You're right! Never shall that blue riding habit be degraded by the inappropriate
+      companionship of this villainous pea jacket. Wait half a minute, and I'll come back dressed
+      like Nimrod.</p>
+    </sp>
+    <sp who="#L0765_F12">
+     <speaker>Bella.</speaker>
+     <p>Nonsense, I tell you I mean to ride alone.</p>
+    </sp>
+    <sp who="#L0765_M2">
+     <speaker>Spout.</speaker>
+     <p>You shall—and I'll go with you. Will you wait until I have changed my dress ?</p>
+    </sp>
+    <sp who="#L0765_F12">
+     <speaker>Bella.</speaker>
+     <p>Certainly not!</p>
+    </sp>
+    <stage>Enter Major Lollipop, L.</stage>
+    <sp who="#L0765_M1">
+     <speaker>Major L.</speaker>
+     <p>Ah, how d'ye do—how d'ye do?</p>
+    </sp>
+    <sp who="#L0765_M2">
+     <speaker>Spout.</speaker>
+     <p>The very man I want! Here, Major—look after this young lady —don't, for your life, let her
+      go out of your sight till I come back.</p>
+    </sp>
+    <stage>Exit, L.</stage>
+    <sp who="#L0765_M1">
+     <speaker>Major L.</speaker>
+     <p>What's the matter with the dear boy ?—eh, what do I see ? Blue riding habit and pork-pie
+      hat. Surely, she's not the pretty horsebreaker.</p>
+    </sp>
+    <sp who="#L0765_F12">
+     <speaker>Bella.</speaker>
+     <stage>(tries to go)</stage>
+     <p>Major Lollipop, I'll trouble you to let me pass.</p>
+    </sp>
+    <sp who="#L0765_M1">
+     <speaker>Major L.</speaker>
+     <p>Couldn't think of it, dear girl. My friend Upton ordered me to keep you here till he came
+      back.</p>
+    </sp>
+    <sp who="#L0765_F12">
+     <speaker>Bella.</speaker>
+     <p>Major Lollipop, if you attempt to stop me, I shall horsewhip you.</p>
+    </sp>
+    <sp who="#L0765_M1">
+     <speaker>Major L.</speaker>
+     <p>Horsewhip a major in the army ?—impossible!</p>
+    </sp>
+    <sp who="#L0765_F12">
+     <speaker>Bella.</speaker>
+     <p>Well, I suppose you wouldn't have me call you out, would you?</p>
+    </sp>
+    <sp who="#L0765_M1">
+     <speaker>Major L.</speaker>
+     <p>Well, but dear girl, consider Mr. Spout.</p>
+    </sp>
+    <sp who="#L0765_F12">
+     <speaker>Bella.</speaker>
+     <p>I shall take Mr. Spout into due consideration, don't be afraid. <stage>(pushes past him, he
+       tries to stop her—she horsewhips him, and exit, C.)</stage></p>
+    </sp>
+    <sp who="#L0765_M1">
+     <speaker>Major L.</speaker>
+     <p>She's gone—what will the dear boy say ? I shouldn't wonder if he cut me.</p>
+    </sp>
+    <stage>Enter Lady Stilton, R.</stage>
+    <sp who="#L0765_M1">
+     <speaker>Major L.</speaker>
+     <p>Ah! How d'ye do, my dear madam, how d'ye do?</p>
+    </sp>
+    <sp who="#L0765_F4">
+     <speaker>Lady S.</speaker>
+     <p>Why, where's Mr. Spout ? I suppose he's gone to change his dress. And you, Major—surely
+      you're not going to the flower show in that pea jacket.</p>
+    </sp>
+    <sp who="#L0765_M1">
+     <speaker>Major L.</speaker>
+     <p>Flower show, my dear madam, I thought we were going yachting.</p>
+    </sp>
+    <sp who="#L0765_F4">
+     <speaker>Lady S.</speaker>
+     <p>Oh, that's all altered. Our friend is going to take the dear girls to the flower show
+      instead.</p>
+    </sp>
+    <sp who="#L0765_M1">
+     <speaker>Major L.</speaker>
+     <p>What a fickle person our friend is; he's as changeable as the weather; but as a man of
+      property, he has a perfect right to be fickle, and to change his mind as readily as he would a
+      ten pound note.</p>
+    </sp>
+    <stage>Enter Spout, dressed for riding, L.</stage>
+    <sp who="#L0765_M2">
+     <speaker>Spout.</speaker>
+     <p>Now then, Major. Hollo—where—where is she?</p>
+    </sp>
+    <sp who="#L0765_M1">
+     <speaker>Major L.</speaker>
+     <p>Where's who, my dear boy ?</p>
+    </sp>
+    <sp who="#L0765_M2">
+     <speaker>Spout.</speaker>
+     <p>She—she—where is she ?</p>
+    </sp>
+    <sp who="#L0765_F4">
+     <speaker>Lady S.</speaker>
+     <p>Which of them did you mean, my dear sir. They're all ready, waiting in the next room. Come
+      in, my dears. <stage>Enter Young Ladies, dressed for flower show, R.</stage> Here they are,
+      sir—Cherubina, Seraphina, Angelina, Syrena, Georgina, Clementina and Concertina, all ready for
+      the flower show.</p>
+    </sp>
+    <sp who="#L0765_M2">
+     <speaker>Spout.</speaker>
+     <p>Bother the flower show! I'm going riding.</p>
+    </sp>
+    <sp who="#L0765_mult">
+     <speaker>Cherub.|Seraph.|Angel.</speaker>
+     <p>Oh, ma', and you made us take our habits off!</p>
+    </sp>
+    <sp who="#L0765_M2">
+     <speaker>Spout.</speaker>
+     <p>Major, I left a treasure in your charge. What have you done with it? Refund.
+       <stage>(collaring him)</stage></p>
+    </sp>
+    <sp who="#L0765_M1">
+     <speaker>Major L.</speaker>
+     <p>Well, but my dear boy–</p>
+    </sp>
+    <sp who="#L0765_M2">
+     <speaker>Spout.</speaker>
+     <p>Go instantly and find her, if you prize my acquaintance or your own breath. Fine her, or I
+      shall cut the one and stop the other.</p>
+    </sp>
+    <sp who="#L0765_M1">
+     <speaker>Major L.</speaker>
+     <p>Find whom?</p>
+    </sp>
+    <sp who="#L0765_M2">
+     <speaker>Spout.</speaker>
+     <p>My pretty horsebreaker—be off!</p>
+     <stage>Exit Major L., C.</stage>
+    </sp>
+
+    <sp who="#L0765_F4">
+     <speaker>Lady S.</speaker>
+     <p>Your what—your pretty horsebreaker? I trust, sir, you will introduce nothing of the kind
+      within this circle!</p>
+    </sp>
+    <sp who="#L0765_F5">
+     <speaker>Cherub.</speaker>
+     <p>Hadn't we better leave the room, mamma?</p>
+    </sp>
+    <sp who="#L0765_M2">
+     <speaker>Spout.</speaker>
+     <p>Well, I don't want to be rude, but perhaps you had, and be kind enough to take your mother
+      with you.</p>
+    </sp>
+    <sp who="#L0765_F4">
+     <speaker>Lady S.</speaker>
+     <p>This insult! Mr. Spout, in one word, let me inform you, that your attentions towards my
+      family have been remarked. In common justice to me, sir, and my station, I must request that
+      you will immediately inform me, to which member of my family those intentions are directed
+      ?</p>
+    </sp>
+    <stage>Enter Major Lollipop with Bella, C.</stage>
+    <sp who="#L0765_M1">
+     <speaker>Major L.</speaker>
+     <p>I've got her, dear boy, I've caught the pretty horsebreaker!</p>
+    </sp>
+    <sp who="#L0765_F4">
+     <speaker>Lady S.</speaker>
+     <p>She! Bella Sunnyside, how dare you? Leave my house this instant!</p>
+    </sp>
+    <sp who="#L0765_M2">
+     <speaker>Spout.</speaker>
+     <p>Yes do, Bella Sunnyside, and come to mine.</p>
+    </sp>
+    <sp who="#L0765_F4">
+     <speaker>Lady S.</speaker>
+     <p>I'm horrified !</p>
+    </sp>
+    <sp who="#L0765_mult">
+     <speaker>Girls.</speaker>
+     <p>Oh !</p>
+    </sp>
+    <sp who="#L0765_F12">
+     <speaker>Bella.</speaker>
+     <p>Don't be angry, aunt—and you, my dear cousins.</p>
+    </sp>
+    <sp who="#L0765_M2">
+     <speaker>Spout.</speaker>
+     <p>Aunt—cousins—are you one of the family, Bella?</p>
+    </sp>
+    <sp who="#L0765_F12">
+     <speaker>Bella.</speaker>
+     <p>Well, yes I—I am a country cousin.</p>
+    </sp>
+    <sp who="#L0765_M2">
+     <speaker>Spout.</speaker>
+     <p>Huzza ! Lady Stilton, I obey, I make choice of one of the family—I choose—<stage>(all the
+       Girls come forward)</stage> my pretty horsebreaker. <stage>(goes and offers his hand to
+       Bella.)</stage></p>
+    </sp>
+    <sp who="#L0765_F12">
+     <speaker>Bella.</speaker>
+     <p>Me! You don't mean it ?</p>
+    </sp>
+    <sp who="#L0765_M2">
+     <speaker>Spout.</speaker>
+     <p>Don't I! Major, be off and get a license—take my purse—no matter what the cost may be, get
+      the very best they've got. There, Bella, does that look like meaning it?</p>
+    </sp>
+    <sp who="#L0765_F12">
+     <speaker>Bella.</speaker>
+     <p>But you haven't asked me yet if I'll have you.</p>
+    </sp>
+    <sp who="#L0765_M2">
+     <speaker>Spout.</speaker>
+     <p>Well, I'll ask you now—will you have me? Say yes</p>
+    </sp>
+    <sp who="#L0765_F12">
+     <speaker>Bella.</speaker>
+     <p>Well, you don't seem a bad sort of little man.</p>
+    </sp>
+    <sp who="#L0765_M2">
+     <speaker>Spout.</speaker>
+     <p>Little gentleman—little gentleman of property.</p>
+    </sp>
+    <sp who="#L0765_F12">
+     <speaker>Bella.</speaker>
+     <p>And I suppose I owe you some return for pulling me out of the ditch that day in
+      Berkshire.</p>
+    </sp>
+    <sp who="#L0765_M2">
+     <speaker>Spout.</speaker>
+     <p>Ditch! Berkshire! was it you, then? I thought I'd seen you somewhere. Then you will say
+      yes.</p>
+    </sp>
+    <sp who="#L0765_F12">
+     <speaker>Bella.</speaker>
+     <p>Well—yes.</p>
+    </sp>
+    <sp who="#L0765_F4">
+     <speaker>Lady S.</speaker>
+     <p>I'm disgusted !</p>
+    </sp>
+    <stage>(Girls turn away)</stage>
+    <sp who="#L0765_M2">
+     <speaker>Spout.</speaker>
+     <p>That's all right—and we'll be married at Saint George's, Hanover Square, to-morrow morning
+      and your cousins will be bridesmaids—and when they see the happy couple standing at the
+      altar––</p>
+    </sp>
+    <sp who="#L0765_F12">
+     <speaker>Bella.</speaker>
+     <p>Yes, when they see us standing at the altar, they may learn this lesson—that the surest way
+      to catch a husband, is not to run after him, but to let him run after us—as you ran after me
+      in the Park yesterday.</p>
+    </sp>
+    <sp who="#L0765_M2">
+     <speaker>Spout.</speaker>
+     <p>And a very good moral, too. What do you think ? <stage>(to Audience)</stage> Don't you think
+      it's a good moral? say yes. <stage>(to Bella)</stage> Now then, after that, you can have no
+      objection to give me a kiss. <stage>(he is seen struggling with her for a kiss as the curtain
+       falls)</stage></p>
+    </sp>
+    <stage>Curtain.,</stage>
+   </div>
+   <trailer>Printed by Thomas Scptt, 1, Warwick Court, Holburn</trailer>
+  </body>
+ </text>
+</TEI>
