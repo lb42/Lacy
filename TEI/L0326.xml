@@ -1,101 +1,145 @@
-<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L0326" xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L0326" xml:lang="en">
  <teiHeader>
   <fileDesc>
-   <titleStmt><title>THE STRANGER.: TEI edition</title><author ref="lacyp:W0163"><persName>Kotzebue, Augustus von</persName><idno type="wikidata">Q57242</idno></author><respStmt><resp>TEI conversion</resp><name>Lou Burnard</name></respStmt></titleStmt>
-   <publicationStmt><distributor>Privately distributed by the Digital Lacy Project</distributor><idno type="LAE">L0326</idno><availability><licence target="https://creativecommons.org/publicdomain/zero/1.0/">The Lacy Project waives all rights to the TEI encoding applied to this material, which it believes to be in the public domain. You may copy, modify, distribute, or perform this work freely. </licence></availability></publicationStmt>
-   <sourceDesc><bibl type="originalSource" n="22.11"><author n="W0163">Kotzebue, Augustus von</author>
-      <title type="main">The Stranger</title>
-      <title type="sub">A Drama in five acts</title>
-      <title type="source" n="#DE">Translated by Benjamin Thompson</title>
- <extent>55 pp<measure type="pp" quantity="56"/>
-  <measure type="spCount" quantity="827"/>
-  <measure type="spvCount" quantity="0"/>
-  <measure type="txWords" quantity="16759"/>
-  <measure type="spWords" quantity="15284"/>
-  <measure type="stWords" quantity="1475"/>
-  </extent>
-      <title level="s"> Lacy's Acting Edition, volume 22, No. 0326</title><idno type="nic">N80586</idno><idno type="vpp">Vol22xiStranger</idno></bibl><bibl type="surrogate" subtype="copytext"><ref target="https://lb42.github.io/Lacy/Source/VPP/L0326-vpp.pdf">LoB from VPP</ref><ref target="local:Vol22/L0326/L0326-vpp.pdf"/><ref target="local:Vol22/L0326/Vol22xiStranger.pdf"/></bibl><bibl type="surrogate"><ref target="https://archive.org/details/strangerdramainf0000kotz">UW
-       from IA</ref><ref target="local:Vol22/L0326/L0326-uw.pdf"/></bibl><bibl type="surrogate"><ref target="https://www.gutenberg.org/ebooks/20217">Gutenberg
-       transcription</ref></bibl><bibl type="surrogate"><ref target="https://babel.hathitrust.org/cgi/pt?id=mdp.39015053749829&amp;seq=401">UM from
-       HT</ref><ref target="local:Vol22/L0326/L0326-um.pdf"/></bibl><listEvent>
-      <event type="firstPerf" when="1798-03-24" source="nicTextStart" where="Drury">
-       <desc>Premiered at Theatre Royal, Drury Lane 24 March 1798</desc>
-      </event>
-     </listEvent></sourceDesc>
+   <titleStmt>
+    <title>The Stranger: TEI edition</title>
+    <author ref="lacyp:W0163"><persName>Kotzebue, Augustus von</persName><idno type="wikidata"
+      >Q57242</idno></author>
+    <respStmt>
+     <resp>TEI conversion</resp>
+     <name>Lou Burnard</name>
+    </respStmt>
+   </titleStmt>
+   <publicationStmt>
+    <distributor>Privately distributed by the Digital Lacy Project</distributor>
+    <idno type="LAE">L0326</idno>
+    <availability>
+     <licence target="https://creativecommons.org/publicdomain/zero/1.0/">The Lacy Project waives
+      all rights to the TEI encoding applied to this material, which it believes to be in the public
+      domain. You may copy, modify, distribute, or perform this work freely. </licence>
+    </availability>
+   </publicationStmt>
+   <sourceDesc>
+    <bibl type="originalSource" n="22.11"><author n="W0163">Kotzebue, Augustus von</author>
+     <title type="main">The Stranger</title>
+     <title type="sub">A Drama in five acts</title>
+     <title type="source" n="#DE">Translated by Benjamin Thompson</title>
+     <extent>55 pp<measure type="pp" quantity="56"/>
+      <measure type="spCount" quantity="827"/>
+      <measure type="spvCount" quantity="0"/>
+      <measure type="txWords" quantity="16759"/>
+      <measure type="spWords" quantity="15284"/>
+      <measure type="stWords" quantity="1475"/>
+     </extent>
+     <title level="s"> Lacy's Acting Edition, volume 22, No. 0326</title><idno type="nic"
+      >N80586</idno><idno type="vpp">Vol22xiStranger</idno></bibl>
+    <bibl type="surrogate" subtype="copytext"><ref
+      target="https://lb42.github.io/Lacy/Source/VPP/L0326-vpp.pdf">LoB from VPP</ref><ref
+      target="local:Vol22/L0326/L0326-vpp.pdf"/><ref target="local:Vol22/L0326/Vol22xiStranger.pdf"
+     /></bibl>
+    <bibl type="surrogate"><ref target="https://archive.org/details/strangerdramainf0000kotz">UW
+      from IA</ref><ref target="local:Vol22/L0326/L0326-uw.pdf"/></bibl>
+    <bibl type="surrogate"><ref target="https://www.gutenberg.org/ebooks/20217">Gutenberg
+      transcription</ref></bibl>
+    <bibl type="surrogate"><ref
+      target="https://babel.hathitrust.org/cgi/pt?id=mdp.39015053749829&amp;seq=401">UM from
+      HT</ref><ref target="local:Vol22/L0326/L0326-um.pdf"/></bibl>
+    <listEvent>
+     <event type="firstPerf" when="1798-03-24" source="nicTextStart" where="Drury">
+      <desc>Premiered at Theatre Royal, Drury Lane 24 March 1798</desc>
+     </event>
+    </listEvent>
+   </sourceDesc>
   </fileDesc>
-  
-  <profileDesc><!--L 5 Drama D. DRAMA--><textClass><catRef target="#sizeL"/><catRef target="#act5"/><catRef target="nic:D."/><keywords><term>DRAMA</term></keywords></textClass><particDesc><listPerson>
-  <person xml:id="L0326_M1">
-   <persName type="role">THE STRANGER</persName>
-   <persName type="spkr" n="152">Stran.</persName>
-   <persName type="spkr" n="1">Stranger.</persName>
-  </person>
-  <person xml:id="L0326_M2">
-   <persName type="role">BARON STEINFORT</persName>
-   <persName type="spkr" n="146">Baron.</persName>
-  </person>
-  <person xml:id="L0326_M3">
-   <persName type="role">COUNT WINTERSEN</persName>
-   <persName type="spkr" n="21">Count.</persName>
-  </person>
-  <person xml:id="L0326_M4">
-   <persName type="role">MR. SOLOMON</persName>
-   <persName type="spkr" n="57">Solom.</persName>
-   <persName type="spkr" n="1">Solomon.</persName>
-  </person>
-  <person xml:id="L0326_M5">
-   <persName type="role">PETER</persName>
-   <persName type="spkr" n="50">Peter.</persName>
-  </person>
-  <person xml:id="L0326_M6">
-   <persName type="role">FRANCIS</persName>
-   <persName type="spkr" n="147">Fran.</persName>
-   <persName type="spkr" n="1">Francis.</persName>
-  </person>
-  <person xml:id="L0326_M7">
-   <persName type="role">TOBIAS</persName>
-   <persName type="spkr" n="6">Tobi.</persName>
-   <persName type="spkr" n="13">Tobias.</persName>
-  </person>
-  <person xml:id="L0326_F8">
-   <persName type="role">MRS. HALLER</persName>
-   <persName type="spkr" n="121">Mrs. H.</persName>
-  </person>
-  <person xml:id="L0326_F9">
-   <persName type="role">COUNTESS WINTERSEN</persName>
-   <persName type="spkr" n="71">Countess.</persName>
-  </person>
-  <person xml:id="L0326_F10">
-   <persName type="role">CHARLOTTE</persName>
-   <persName type="spkr" n="33">Charl.</persName>
-  </person>
-  <person xml:id="L0326_F11">
-   <persName type="role">ANNETTE</persName>
-   <persName type="spkr" n="1">Ann.</persName>
-  </person>
-  <person xml:id="L0326_F12">
-   <persName type="role">SAVOYARD</persName>
-  </person>
-  <person xml:id="L0326_J13">
-   <persName type="role">COUNT'S CHILD</persName>
-  </person>
-  <person xml:id="L0326_J14">
-   <persName type="role">STRANGER'S SON</persName>
-  </person>
-  <person xml:id="L0326_J15">
-   <persName type="role">STRANGER'S DAUGHTER</persName>
-  </person>
-  <person xml:id="L0326_16">
-   <persName type="role">Servants, Peasants</persName>
-   <persName type="spkr" n="3">Wil.</persName>
-   <persName type="spkr" n="1">William.</persName>
-  </person>
-  <person xml:id="L0326_mult">
-   <persName type="role">[Multiple speakers]</persName>
-   <persName type="spkr" n="1">Children.</persName>
-  </person>
 
- </listPerson></particDesc></profileDesc><revisionDesc><change when="2026-03-02">Add wikidata link to titleStmt where possible</change>
+  <profileDesc>
+   <!--L 5 Drama D. DRAMA-->
+   <textClass>
+    <catRef target="#sizeL"/>
+    <catRef target="#act5"/>
+    <catRef target="nic:D."/>
+    <keywords>
+     <term>DRAMA</term>
+    </keywords>
+   </textClass>
+   <particDesc>
+    <listPerson>
+     <person xml:id="L0326_M1">
+      <persName type="role">THE STRANGER</persName>
+      <persName type="spkr" n="152">Stran.</persName>
+      <persName type="spkr" n="1">Stranger.</persName>
+     </person>
+     <person xml:id="L0326_M2">
+      <persName type="role">BARON STEINFORT</persName>
+      <persName type="spkr" n="146">Baron.</persName>
+     </person>
+     <person xml:id="L0326_M3">
+      <persName type="role">COUNT WINTERSEN</persName>
+      <persName type="spkr" n="21">Count.</persName>
+     </person>
+     <person xml:id="L0326_M4">
+      <persName type="role">MR. SOLOMON</persName>
+      <persName type="spkr" n="57">Solom.</persName>
+      <persName type="spkr" n="1">Solomon.</persName>
+     </person>
+     <person xml:id="L0326_M5">
+      <persName type="role">PETER</persName>
+      <persName type="spkr" n="50">Peter.</persName>
+     </person>
+     <person xml:id="L0326_M6">
+      <persName type="role">FRANCIS</persName>
+      <persName type="spkr" n="147">Fran.</persName>
+      <persName type="spkr" n="1">Francis.</persName>
+     </person>
+     <person xml:id="L0326_M7">
+      <persName type="role">TOBIAS</persName>
+      <persName type="spkr" n="6">Tobi.</persName>
+      <persName type="spkr" n="13">Tobias.</persName>
+     </person>
+     <person xml:id="L0326_F8">
+      <persName type="role">MRS. HALLER</persName>
+      <persName type="spkr" n="121">Mrs. H.</persName>
+     </person>
+     <person xml:id="L0326_F9">
+      <persName type="role">COUNTESS WINTERSEN</persName>
+      <persName type="spkr" n="71">Countess.</persName>
+     </person>
+     <person xml:id="L0326_F10">
+      <persName type="role">CHARLOTTE</persName>
+      <persName type="spkr" n="33">Charl.</persName>
+     </person>
+     <person xml:id="L0326_F11">
+      <persName type="role">ANNETTE</persName>
+      <persName type="spkr" n="1">Ann.</persName>
+     </person>
+     <person xml:id="L0326_F12">
+      <persName type="role">SAVOYARD</persName>
+     </person>
+     <person xml:id="L0326_J13">
+      <persName type="role">COUNT'S CHILD</persName>
+     </person>
+     <person xml:id="L0326_J14">
+      <persName type="role">STRANGER'S SON</persName>
+     </person>
+     <person xml:id="L0326_J15">
+      <persName type="role">STRANGER'S DAUGHTER</persName>
+     </person>
+     <person xml:id="L0326_16">
+      <persName type="role">Servants, Peasants</persName>
+      <persName type="spkr" n="3">Wil.</persName>
+      <persName type="spkr" n="1">William.</persName>
+     </person>
+     <person xml:id="L0326_mult">
+      <persName type="role">[Multiple speakers]</persName>
+      <persName type="spkr" n="1">Children.</persName>
+     </person>
+
+    </listPerson>
+   </particDesc>
+  </profileDesc>
+  <revisionDesc>
+   <change when="2026-03-02">Add wikidata link to titleStmt where possible</change>
    <change when="2026-01-24">Standardize header components</change>
    <change when="2026-01-23">Digital transcription via Gemini 2.5</change>
   </revisionDesc>
