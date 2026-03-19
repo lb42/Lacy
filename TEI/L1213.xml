@@ -1,0 +1,3642 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L1213" xml:lang="en">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title>The Scamps of London: TEI edition</title>
+    <author ref="lacyp:W0213"><persName>W. J. Moncrieff</persName><idno type="wikidata"
+      >Q8019332</idno></author>
+    <respStmt>
+     <resp>TEI conversion</resp>
+     <name>Lou Burnard</name>
+    </respStmt>
+   </titleStmt>
+   <publicationStmt>
+    <distributor>Privately distributed by the Digital Lacy Project</distributor>
+    <idno type="LAE">L1213</idno>
+    <availability>
+     <licence target="https://creativecommons.org/publicdomain/zero/1.0/">The Lacy Project waives
+      all rights to the TEI encoding applied to this material, which it believes to be in the public
+      domain. You may copy, modify, distribute, or perform this work freely. </licence>
+    </availability>
+   </publicationStmt>
+   <sourceDesc>
+    <bibl type="originalSource" n="81.13"><author n="W0213">Moncrieff, William
+      Thomas</author>;<author n="W0195">Marchant, Frederick</author>
+     <title type="main">The Scamps of London; or, The Cross Roads of Life!</title>
+     <title type="sub">A Drama of the Day</title>
+     <title type="source" n="#FR">Adapted from the French by W.T. Moncrieff</title>
+     <extent>44 pp (UM copy: 472 - 516)<measure type="pp" quantity="44"/>
+      <measure type="spCount" quantity="617"/>
+      <measure type="spvCount" quantity="0"/>
+      <measure type="txWords" quantity="13264"/>
+      <measure type="spWords" quantity="11116"/>
+      <measure type="stWords" quantity="2148"/>
+     </extent>
+     <title level="s"> Lacy's Acting Edition, volume 81, No. 1213</title><idno type="nic"
+      >N02608</idno><idno type="vpp">Vol81xiiiScamps</idno></bibl>
+    <bibl type="surrogate" subtype="copytext"><ref
+      target="https://lb42.github.io/Lacy/Source/VPP/L1213-vpp.pdf">LoB from VPP</ref><ref
+      target="local:Vol81/L1213/L1213-vpp.pdf"/><ref target="local:Vol81/L1213/Vol81xiiiScamps.pdf"
+     /></bibl>
+    <bibl type="surrogate"><ref target="https://babel.hathitrust.org/cgi/pt?id=uc1.31175035142226"
+      >UC from HT</ref></bibl>
+    <bibl type="surrogate"><ref
+      target="https://babel.hathitrust.org/cgi/pt?id=mdp.39015067453442&amp;seq=472 ">UM from
+      HT</ref><ref target="local:Vol81/L1213/L1213-um.pdf"/></bibl>
+    <listEvent>
+     <event type="firstPerf" when="1843-11-13" source="textNic" where="Sadler's">
+      <desc>Premiered at Theatre Royal, Sadler's Wells 13 Nov. 1843</desc>
+     </event>
+    </listEvent>
+   </sourceDesc>
+  </fileDesc>
+  <profileDesc>
+   <!--M 3 Drama M.D. MELODRAMA-->
+   <textClass>
+    <catRef target="#sizeM"/>
+    <catRef target="#act3"/>
+    <catRef target="nic:M.D."/>
+    <keywords>
+     <term>MELODRAMA</term>
+    </keywords>
+   </textClass>
+   <particDesc>
+    <listPerson>
+     <!-- role names taken from first perf -->
+     <!-- <person xml:id="L1213_1"><persName type="role">DEVEREUX, alias Fox SKINNER</persName>
+</person>
+<person xml:id="L1213_2"><persName type="role">MR. DORRINGTON</persName>
+</person>
+<person xml:id="L1213_3"><persName type="role">FRANK DANVERS</persName>
+</person>
+<person xml:id="L1213_4"><persName type="role">HERBERT DANVERS</persName>
+</person>
+<person xml:id="L1213_5"><persName type="role">MR. HAWKSWORTH SHABNER</persName>
+</person>
+<person xml:id="L1213_6"><persName type="role">BOB YORKNEY</persName>
+</person>
+<person xml:id="L1213_7"><persName type="role">TOM FOGG, alias Old Deady, alias The Animal, alias The Savage, alias ––</persName>
+</person>
+<person xml:id="L1213_8"><persName type="role">NED BRINDLE</persName>
+</person>
+<person xml:id="L1213_9"><persName type="role">JOE ONION</persName>
+</person>
+<person xml:id="L1213_10"><persName type="role">DICKEY SMITH</persName>
+</person>
+<person xml:id="L1213_11"><persName type="role">IKEY BATES</persName>
+</person>
+<person xml:id="L1213_12"><persName type="role">Waiter at the “Cat and Bagpipes” Tavern</persName>
+</person>
+<person xml:id="L1213_13"><persName type="role">Inspector of the XYZ Division</persName>
+</person>
+<person xml:id="L1213_14"><persName type="role">LOUISA</persName>
+</person>
+<person xml:id="L1213_15"><persName type="role">MISS CHARLOTTE WILLERS</persName>
+</person>
+<person xml:id="L1213_16"><persName type="role">MISS DORRINGTON</persName>
+</person>-->
+     <!-- role names taken from second perf -->
+     <person xml:id="L1213_M17">
+      <persName type="role">Fox Skinner</persName>
+      <persName type="spkr" n="138">Dever.</persName>
+     </person>
+     <person xml:id="L1213_M18">
+      <persName type="role">Mr Hawksworth Shabner</persName>
+      <persName type="spkr" n="37">Shabner.</persName>
+     </person>
+     <person xml:id="L1213_M19">
+      <persName type="role">Bob Yorkney</persName>
+      <persName type="spkr" n="68">Bob.</persName>
+     </person>
+     <person xml:id="L1213_M20">
+      <persName type="role">Joe Onion</persName>
+      <persName type="spkr" n="39">Onion.</persName>
+     </person>
+     <person xml:id="L1213_M21">
+      <persName type="role">Ned Brindle</persName>
+      <persName type="spkr" n="35">Ned.</persName>
+     </person>
+     <person xml:id="L1213_M22">
+      <persName type="role">Dick Smith</persName>
+      <persName type="spkr" n="10">Dick.</persName>
+     </person>
+     <person xml:id="L1213_M23">
+      <persName type="role">Ickey Bates</persName>
+      <persName type="spkr" n="2">Ikey.</persName>
+     </person>
+     <person xml:id="L1213_M24">
+      <persName type="role">Driver</persName>
+      <persName type="spkr" n="1">Cabman.</persName>
+     </person>
+     <person xml:id="L1213_M25">
+      <persName type="role">Polish</persName>
+     </person>
+     <person xml:id="L1213_M26">
+      <persName type="role">Jem and Joe</persName>
+     </person>
+     <person xml:id="L1213_M27">
+      <persName type="role">Beggar</persName>
+      <persName type="spkr" n="1">Woman.</persName>
+     </person>
+     <person xml:id="L1213_M28">
+      <persName type="role">Old Tom Fogg</persName>
+      <persName type="spkr" n="74">Fogg.</persName>
+     </person>
+     <person xml:id="L1213_M29">
+      <persName type="role">Frank Danvers</persName>
+      <persName type="spkr" n="92">Frank.</persName>
+     </person>
+     <person xml:id="L1213_M30">
+      <persName type="role">Herbert Danvers</persName>
+      <persName type="spkr" n="33">Herbert.</persName>
+     </person>
+     <person xml:id="L1213_M31">
+      <persName type="role">Sharpe</persName>
+      <persName type="spkr" n="2">Police.</persName>
+      <persName type="spkr" n="2">Serjeant.</persName>
+     </person>
+     <person xml:id="L1213_32">
+      <persName type="role">Mrs. and Misses Wealthy</persName>
+     </person>
+     <person xml:id="L1213_M33">
+      <persName type="role">Clarke</persName>
+     </person>
+     <person xml:id="L1213_M34">
+      <persName type="role">Waiter</persName>
+      <persName type="spkr" n="1">Waiter.</persName>
+     </person>
+     <person xml:id="L1213_M35">
+      <persName type="role">Servant</persName>
+     </person>
+     <person xml:id="L1213_F36">
+      <persName type="role">Louise</persName>
+      <persName type="spkr" n="56">Louisa.</persName>
+     </person>
+     <person xml:id="L1213_F37">
+      <persName type="role">Charlotte</persName>
+      <persName type="spkr" n="16">Charl.</persName>
+     </person>
+     <person xml:id="L1213_mult">
+      <persName type="role">[Multiple speakers]</persName>
+      <persName type="spkr" n="4">Dever. and Shabner.</persName>
+      <persName type="spkr" n="6">Omnes.</persName>
+     </person>
+    </listPerson>
+   </particDesc>
+  </profileDesc>
+  <revisionDesc>
+   <change when="2026-03-19">Add wikidata link to titleStmt where possible</change>
+   <change when="2026-03-19">Checked by hand against VPP page images</change>
+   <change when="2026-03-17">TEI autotagging by Gemini Pro 2.5</change>
+  </revisionDesc>
+ </teiHeader>
+ <text>
+  <front>
+   <titlePage>
+
+    <titlePart type="main">THE SCAMPS OF LONDON;</titlePart>
+    <titlePart type="sub">OR, THE CROSS ROADS OF LIFE!</titlePart>
+    <titlePart type="sub">A Drama of the Day.</titlePart>
+
+    <byline> Adapted from the French. By <docAuthor>W. J. MONCRIEFF</docAuthor> AUTHOR OF <title>Tom
+      and Jerry, </title><title>Spectre Bridegroom, </title><title>Bashful Man,
+      </title><title>Cataract of the Ganges, </title><title>Eugene Aram, </title><title>Lear of
+      Private Life, </title><title>Somnambulist, </title><title>Van Dieman's Land,
+      </title><title>Court of Queen Anne, </title><title>Green Dragon, </title><title>Hag of the
+      Glen, </title><title>Heart of London, </title><title>John Adams, </title><title>How to take up
+      a Bill, </title><title>Latude Lochinvar, </title><title>Man Wolf, </title><title>Monk's Cowl,
+      </title><title>One Fault, </title><title>Parson's Nose, </title><title>Lost Life,
+      </title><title>Sam Weller, </title><title>Mistress of the Mill, </title><title>Wagoner of
+      Westmoreland, </title><title>What's in a Name ? </title><title>Peer and the Peasant,
+      </title><title>Monsieur Tonson, </title><title>Cheque on my Banker</title>, &amp;c, &amp;c,
+     &amp;c. and re-arranged by <docAuthor>FREDERICK MARCHANT.</docAuthor>
+    </byline>
+
+    <docImprint>THOMAS HAILES LACY 89, STRAND, LONDON. </docImprint>
+   </titlePage>
+   <pb n="2"/>
+   <performance>
+    <p>First Performed at the Theatre Royal Sadler's Wells on November 13, 1843, an entirely new
+     National, Local, Characteristic, Metropolitan, Melo-dramatic Drama of the day, in Three Acts,
+     correctly exhibiting Life and Manners in innumerable novel and interesting phases, called The
+     SCAMPS OF LONDON; OR, THE CROSS ROADS OF LIFE! </p>
+    <p> The Ground work of the Drama is founded on the celebrated Play, <title>“LES
+      BOHEMIENS,</title>" and applied to the circumstances and realities of the present moment, by
+     the Author of "Tom and Jerry" &amp;c.</p>
+    <p> The New Scenery, (from actual authorities) by <name>Mr. F. FENTON</name> and Assistants. The
+     New Flash Medley Overture, and Slang Dramatic Music, by <name>Mr. W. MONTGOMERY</name>. The
+     action of the Piece arranged by <name>Mr. C. J. SMITH</name>. The Dresses by <name>Mr.
+      HAMPTON</name> and <name>Miss BAILEY</name>. The whole produced under the direction of
+      <name>Mr. H. MARSTON</name>. </p>
+    <p>LIFE, whether high or low, however it may vary in costume, is essentially the same in all
+     countries. The <hi>Bohemien</hi> and <hi>Truand</hi> of Paris find their counterparts in the
+      <hi>Greek</hi> and <hi>Scamp</hi> of London —The Terminus of the Birmingham Railway presents
+     much the same scenes as the <hi>Depot des Messageries</hi>, Rue Notre Dame des Victoires ; and
+     the Dry Arches of Waterloo Bridge have their parallel in the Barges and Arches of <hi>Pont St.
+      Marie</hi>, on the Seine:—The <hi>Estaminet des Geux</hi>, of the <hi>Marais</hi>, is kept in
+     countenance by the Rat's Castle, of the Rookery, Dyot Street, St. Giles's, now happily
+     demolished; while the Gardens of the<hi> Chatte Amoreuse</hi>, and the <hi>Carriere de Mont
+      Martre</hi>, are but other names for the many Pleasure Gardens and Saloons of our suburbs, and
+     the Brickfields in their vicinity. Without servilely copying his original, the Adapter (or
+     Author, or whatever he may be called) of the present piece, has suffered his Gallic precursors
+     to point out to him similar scenes in his own time and country, which, from personal knowledge,
+     he trusts he has been enabled to sketch with a truth and effect, which, while it amuses, may
+     not altogether fail to instruct. In a
+     <pb n="3"/> word, he has endeavoured to draw a “moral,” at the same time he hopes he has
+     “adorned a tale.” Let no one be startled at the Revelations of this Drama:—As Byron has justly
+     remarked, “Ne vrai n’est pas toujours le vrai semblable."— Fact has in no instance been
+     exaggerated for the sake of effect.</p>
+    <castList>
+     <castItem>
+      <role>DEVEREUX, alias Fox SKINNER</role>
+      <roleDesc>a Swell Cove out of luck, King of all the Scamps and Greeks in London</roleDesc>
+      <actor>Mr. H. MARSTON</actor>
+     </castItem>
+     <castItem>
+      <role>MR. DORRINGTON</role>
+      <roleDesc>a wealthy Liverpool Merchant, on a visit to London</roleDesc>
+      <actor>Mr. Romer.</actor>
+     </castItem>
+     <castItem>
+      <role>FRANK DANVERS</role>
+      <roleDesc>a British Naval officer, just arrived from the Indies</roleDesc>
+      <actor>Mr. Bird.</actor>
+     </castItem>
+     <castItem>
+      <role>HERBERT DANVERS</role>
+      <roleDesc>his Younger Brother, a ruined Roue, pigeoned by the Greeks</roleDesc>
+      <actor>Mr. Melvin.</actor>
+     </castItem>
+     <castItem>
+      <role>MR. HAWKSWORTH SHABNER</role>
+      <roleDesc>Principal Proprietor of a Silver Hell at the West End, Director of a Company—Capital
+       One Million, Bill Discounter, and Anythingarian where there’s anything to be got</roleDesc>
+      <actor>Mr. P. Williams.</actor>
+     </castItem>
+     <castItem>
+      <role>BOB YORKNEY</role>
+      <roleDesc>the Duffer, tired of the Lay</roleDesc>
+      <actor>Mr. W. H. Williams.</actor>
+     </castItem>
+     <castItem>
+      <role>TOM FOGG, alias Old Deady, alias The Animal, alias The Savage, alias ––</role>
+      <roleDesc>a Gin-drinking Vagabond suffering under delirium tremens</roleDesc>
+      <actor>Mr C.J. Smith</actor>
+     </castItem>
+     <castItem>
+      <role>NED BRINDLE</role>
+      <roleDesc>(the Magsman—a Half-and-half Cove)</roleDesc>
+      <actor>Mr. Coreno.</actor>
+     </castItem>
+     <castItem>
+      <role>JOE ONION</role>
+      <roleDesc>the Crocodile—an Out-and-out Cove, Cadger and Creature of Devereux’s</roleDesc>
+      <actor>Mr. C. Fenton.</actor>
+     </castItem>
+     <castItem>
+      <role>DICKEY SMITH</role>
+      <roleDesc>the “Wakeful Bird,” a young gentleman in no ways perticklar to a shade, picking up a
+       living how he can</roleDesc>
+      <actor>Master G. Maskell.</actor>
+     </castItem>
+     <castItem>
+      <role>IKEY BATES</role>
+      <roleDesc>Landlord of Rats’ Castl, otherwise the Dyot-street Hotel, Proprietor of twenty
+       two-penny dabs and a most respectable Bagatelle Board, having cut bumble-puppy as too
+       low</roleDesc>
+      <actor>Mr. Lamb.</actor>
+     </castItem>
+     <castItem>
+      <role>Waiter at the “Cat and Bagpipes” Tavern</role>
+      <actor>Mr. Smithson.</actor>
+     </castItem>
+     <castItem>
+      <role>Inspector of the XYZ Division</role>
+      <actor>Mr. FRANKS.</actor>
+     </castItem>
+     <castItem>
+      <role>LOUISA</role>
+      <roleDesc>(the Victim of an ill-requited attachment)</roleDesc>
+      <actor>Miss Caroline RANKLEY.</actor>
+     </castItem>
+     <castItem>
+      <role>MISS CHARLOTTE WILLERS</role>
+      <roleDesc>a young Lady with her Cat, &amp;c., from the Country, betrothed to Mr. Yorkney,
+       amusing her leisure hours in shoe-binding, waistcoat, and gaiter-making</roleDesc>
+      <actor>Mrs. R. Barnett.</actor>
+     </castItem>
+     <castItem>
+      <role>MISS DORRINGTON</role>
+      <roleDesc>(Daughter of Dorrington)</roleDesc>
+      <actor>Miss Stephens.</actor>
+     </castItem>
+    </castList>
+   </performance>
+   <pb n="4"/>
+   <performance>
+    <p>As Performed at the Royal Victoria Theatre (under the management of Mr. Cave) on Saturday,
+     September 19, 1868. </p>
+    <p> The New Scenery by <name>Mr. W. F. Robson</name> and Assistants. </p>
+    <p> Machinery by <name>Mr. James</name>. </p>
+    <p> New Medley Overture and Music to the Drama, by <name>Mr. Leonard Giorgi</name>. </p>
+    <p> The Piece Produced under the Superintendence of <name>Mr. Frederick Marchant</name>. </p>
+    <castList>
+     <castGroup>
+      <head>The Scamps</head>
+      <castItem>
+       <role gender="M">Fox Skinner</role>
+       <roleDesc>alias Devereux, alias "the Swell" - a true specimen of villainy, one of the real
+        Scamps of London</roleDesc>
+       <actor>Mr. Howard Russell</actor>
+      </castItem>
+      <castItem>
+       <role gender="M">Mr Hawksworth Shabner</role>
+       <roleDesc>a Moneylender, whose only thought is self – a lover of Mammon, and a Scamp in
+        Sheep's clothing</roleDesc>
+       <actor>Mr. M. Roberts</actor>
+      </castItem>
+
+      <castItem>
+       <role gender="M">Bob Yorkney</role>
+       <roleDesc>an indescribable, living by his wits, an unlicenced importer of fine Havannahs –
+        his heart n the right place, a Scamp from necessity, not inclination</roleDesc>
+       <actor>Mr. Fred Wright</actor>
+      </castItem>
+      <castItem>
+       <role gender="M">Joe Onion</role>
+       <roleDesc>a Night Bird, Sole Monarch of Waterloo Bridge, a knowing one, who pays neither rent
+        nor taxes – a long-shore Scamp</roleDesc>
+       <actor>Mr. J. Baker</actor>
+      </castItem>
+      <castItem>
+       <role gender="M">Ned Brindle</role>
+       <roleDesc>(his companion, one of the tip-top gang – a Scamp of tact</roleDesc>
+       <actor>Mr. J. Baker</actor>
+      </castItem>
+      <castItem>
+       <role gender="M">Dick Smith</role>
+       <roleDesc>whose talents are to be daily appreciated in the Public Streets – one musically
+        inclined – a Scamp of colour</roleDesc>
+       <actor>Mr. J. Johns</actor>
+      </castItem>
+      <castItem>
+       <role gender="M">Ickey Bates</role>
+       <roleDesc>(owner of a Low Tavern in Bermondsey – a Scamp of business</roleDesc>
+       <actor>Mr. Maynard</actor>
+      </castItem>
+      <castItem>
+       <role gender="M">Driver</role>
+       <roleDesc>(2,900 – a Scamp of extortion)</roleDesc>
+       <actor>Mr. Jonas</actor>
+      </castItem>
+      <castItem>
+       <role gender="M">Polish</role>
+       <roleDesc>(a Shoeblack – Everybody's Scamp</roleDesc>
+       <actor>Mr. James</actor>
+      </castItem>
+      <castItem>
+       <role gender="M">Jem and Joe</role>
+       <roleDesc>(Fusee Boys – Nature's Scamps</roleDesc>
+       <actor>Misses Platt and Hunt.</actor>
+      </castItem>
+      <castItem>
+       <role gender="M">Beggar</role>
+       <roleDesc>(a Lazy Scamp)</roleDesc>
+       <actor>Mr. Webb</actor>
+      </castItem>
+      <castItem>
+       <role gender="M">Old Tom Fogg</role>
+       <roleDesc>alias Deady, alias Savage – an old gin drinking Scamp, kicked about from pillar to
+        post, a man of suffering the Father of –––</roleDesc>
+       <actor>Mr. Frederick Marchant</actor>
+      </castItem>
+     </castGroup>
+     <pb n="5"/>
+
+     <castGroup>
+      <head>EVERY DAY CHARACTERS.</head>
+      <castItem>
+       <role gender="M">Frank Danvers</role>
+       <roleDesc>formerly a Naval Officer, just returned from India, the enemy of crime and
+        protector of his family honour</roleDesc>
+       <actor>Mr. F. Thomas</actor>
+      </castItem>
+      <castItem>
+       <role gender="M">Herbert Danvers</role>
+       <roleDesc>his Brother, a Gambler and Betrayer, the victim of Devereux and Shabner</roleDesc>
+       <actor>Mr. G. Carter</actor>
+      </castItem>
+      <castItem>
+       <role gender="M">Sharpe</role>
+       <roleDesc>(X Division, with a sharp eye to duty)</roleDesc>
+       <actor>Mr Fletcher</actor>
+      </castItem>
+      <castItem>
+       <role>Mrs. and Misses Wealthy</role>
+       <roleDesc>(Railway Passengers)</roleDesc>
+       <actor>Mrs. and Miss Saville and Miss Wolff.</actor>
+      </castItem>
+      <castItem>
+       <role gender="M">Clarke</role>
+       <roleDesc>(a Signalman)</roleDesc>
+       <actor>Mr. Reid</actor>
+      </castItem>
+      <castItem>
+       <role gender="M">Waiter</role>
+       <actor>Mr. Jones</actor>
+      </castItem>
+      <castItem>
+       <role gender="M">Servant</role>
+       <actor>Mr. Walworth</actor>
+      </castItem>
+      <castItem>
+       <role gender="F">Louise</role>
+       <roleDesc>(the Betrayed, abandoned by Herbert Danvers)</roleDesc>
+       <actor>Miss Marie Brewer</actor>
+      </castItem>
+      <castItem>
+       <role gender="F">Charlotte</role>
+       <roleDesc>(with a partiality for Bob Yorkney, a woman of feeling)</roleDesc>
+       <actor>Miss Jessie Francis</actor>
+      </castItem>
+     </castGroup>
+    </castList>
+   </performance>
+   <div type="programme">
+    <p>Waterloo Road—View of South Western Railway Station, Bridge, &amp;c.</p>
+    <p>Time, 8 o'clock at Night, Scamps for the Rail.</p>
+    <p>Apartment in an Hotel in Stamford Street.</p>
+
+    <p>SCAMPS IN A TAVERN.</p>
+
+    <p>DRY ARCHES of WATERLOO BRIDGE, With the River Thames and part of the Bridge, including the
+     Suicide Arch—by Night.</p>
+    <p>SCAMPS AT ROOST.</p>
+    <p>The Suicide—Bravery of Frank Danvers—the Night Birds of the River—Heroic Conduct of Old Tom
+     Fogg</p>
+    <p>Tableau.</p>
+
+    <p>Mr. Yorkney’s Front Attic in the Pollards, near Tower Street Police Station.</p>
+    <pb n="6"/>
+    <p>SCAMPS ON THE MEND.</p>
+    <p>ROOM IN AN HOTEL IN THE STRAND.</p>
+    <p>SCAMPS ON THE FLY KITE LAY.</p>
+    <p>WELL KNOWN PUBLIC HOUSE, and CONCERT ROOM, NEAR BERMONDSEY.</p>
+    <p>Introducing Mr. CHARLES STANLEY, the Great Comic Vocalist, from the Oxford and Canterbury
+     Music Halls.</p>
+    <p>SCAMPS ENJOYING THEMSELVES.</p>
+    <p>ROOM IN THE "IVY” PUBLIC HOUSE.</p>
+    <p>Devereux Tempts Fogg to Murder Louisa.</p>
+    <p>LONELY SPOT on the SOUTH WESTERN RAILWAY.</p>
+    <note>N.B. The incidents in this scene were suggested by an American Drama.</note>
+    <p>The Recognition—My Child! Villainy of Devereux—Fogg Wounded !</p>
+    <p>LOUISA PLACED UPON THE RAILS.</p>
+    <p>THE MAIL APPROACHES NEARER AND NEARER.</p>
+    <p>LOUISA SAVED BY FOGG.</p>
+    <p>THE EXPRESS TRAIN DASHES ALONG.</p>
+    <p>FEARFUL DEATH OF DEVEREUX.</p>
+    <p>THRILLING DENOUEMENT.</p>
+
+   </div>
+   <pb n="7"/>
+   <note>[Performance Free.]</note>
+  </front>
+
+  <body>
+   <head>Scamps of London.</head>
+   <div type="act">
+    <head>ACT I.</head>
+    <div type="scene">
+     <head>SCENE FIRST</head>
+     <stage>.—Exterior of South Western Railway station, and view of Waterloo Bridge. Time: Eight
+      o'clock at night. Gates of station, R. 2 E. music :"Riding on a Donkey," when scene is well
+      displayed, miniature train passes over railway bridge. Boys calling out, "Cigar lights, a
+      halfpenny a box," baked potatoe man, men with boards, policeman, and mob of people pass and
+      repass. Arrangement of this business to be left to the discretion of the stage
+      manager.</stage>
+     <stage>Enter Bob Yorkney, L., smoking a cigar.</stage>
+     <sp who="#L1213_M19">
+      <speaker>Bob.</speaker>
+      <p>Clear the way, there, you vagabonds, make room for a gentleman, <stage>(all laugh, he
+        blusters—they retire. At this moment, Ned Brindle, showily attired, swaggers down roadway
+        from R. U. E. Bob perceives him)</stage> Eh ! a swell, perhaps a customer. I'll try him.
+        <stage>(advances mysteriously to Brindle, and whispers him aside)</stage> Does your honour
+       want a box of prime Havannah's, vot vill smoke of themselves—or a piece of real Ingy.
+        <stage>(recognises him)</stage> Vot, Ned! No, yes. Vell, I'm blowed!</p>
+     </sp>
+     <sp who="#L1213_M21">
+      <speaker>Ned.</speaker>
+      <p><stage>(recognising Yorkney)</stage> What Bobby ! still at the old game, eh ? smoked
+       cabbage leaves; rummy Spitalfields wipes.</p>
+     </sp>
+     <sp who="#L1213_M19">
+      <speaker>Bob.</speaker>
+      <p>Yes, Ned—one must do summat for an honest
+       <pb n="8"/>livelihood. Flat catching's considered fair game all the world over, you know;
+       from the very top of St. James's-street, down to the bottom of St. Giles's.</p>
+     </sp>
+     <sp who="#L1213_M21">
+      <speaker>Ned.</speaker>
+      <p>Bob, you speak like a horicle—but how goes trade with you ? Fast or slow—on the gallop or
+       the grumble, old fellow.</p>
+     </sp>
+     <sp who="#L1213_M19">
+      <speaker>Bob.</speaker>
+      <p>Vy, trade's not so bad, Ned ; there's always a thing called a wictim a popping up,
+       somewhere in London. But you, Master Brindle, may I ask what game you're arter, figg'd out in
+       such spicy feathers as them ere—you ain't surely joined the swell mob, have you?</p>
+     </sp>
+     <sp who="#L1213_M21">
+      <speaker>Ned.</speaker>
+      <p>Hush, Bobby ; I'm exercising my abilities for the exclusive benefit of all her Majesty's
+       loyal subjects in general, and myself in particular. I'm here on the look out and pick up. If
+       I see a stranger arrive by the train I offer my services to trot him about town, get him the
+       best dinner, the best wine, the best bed, in short, take care he wants for nothing.</p>
+     </sp>
+     <sp who="#L1213_M19">
+      <speaker>Bob.</speaker>
+      <p>Except his blunt.</p>
+     </sp>
+     <sp who="#L1213_M21">
+      <speaker>Ned.</speaker>
+      <p>No, I'm grown sick of that caper now, old fellow; I've a great mind to turn honest!</p>
+     </sp>
+     <sp who="#L1213_M19">
+      <speaker>Bob.</speaker>
+      <p>And so have I! cut the Scamp's Club. I would too, if I could only got a fair chance.</p>
+     </sp>
+     <sp who="#L1213_M21">
+      <speaker>Ned.</speaker>
+      <p>By vich you means, I suppose £300 a-year !</p>
+     </sp>
+     <sp who="#L1213_M19">
+      <speaker>Bob.</speaker>
+      <p>Oh, no, Neddy, I'd be content with anything, so long as a fellow wasn't obliged to be a
+       Scamp, like you and I.</p>
+     </sp>
+     <sp who="#L1213_M21">
+      <speaker>Ned.</speaker>
+      <p>A Scamp, indeed ; I scorn the imputation, I work for my living, and. that's as much as any
+       other gentleman does.</p>
+     </sp>
+     <stage>Enter Shabner, L, u. E., disputing with a Cabman about his fare—all accost him, offering
+      their wares. He gets in a passion, at length calls "police." Policeman enters, Shabner
+      explains matters, and Policeman pushes Cabman off. Crowd disperse.</stage>
+     <sp who="#L1213_M18">
+      <speaker>Shabner.</speaker>
+      <p><stage>(looking at his watch)</stage> A quarter to eight. Skinner's letter, I beg his
+       pardon, Mr. Devereux, I mean, says he'll be here by the eight o'clock train, so that I'm just
+       in time, <stage>(walks up and down)</stage> Never was a place so infested with vagabonds, as
+       this is. I'll just step into the York hotel, here, and look at the papers to kill time.
+        <stage>(exit.</stage></p>
+     </sp>
+     <sp who="#L1213_M19">
+      <speaker>Bob.</speaker>
+      <p><stage>(comes down stage with Ned, having been observing Shabner)</stage> You know that
+       Covey, in course?</p>
+     </sp>
+     <pb n="9"/>
+     <sp who="#L1213_M21">
+      <speaker>Ned.</speaker>
+      <p>Not I, my pippin, who is he ?</p>
+     </sp>
+     <sp who="#L1213_M19">
+      <speaker>Bob.</speaker>
+      <p>Not know him? talk of Scamps, indeed! Why, that's the biggest Scamp on town—he's the
+       principal partner in all the silver hells at the West-end, and the managing director of half
+       the swindling societies in London he lends money, discounts bills, receives stolen goods, is
+       always ready for a plant, and alive to a cross, <stage>(eight o'clock strikes, and bell
+        rings, whistle of engine is heard, and train arrives. Passengers enter from station and
+        exit. Policemen pass, one sees a fusee-boy trying to pick a pocket, seizes and drags him
+        off, running against an apple woman and upsetting her. When they clear, Frank enters from
+        station, and crossing stage runs against Bob.)</stage></p>
+     </sp>
+     <sp who="#L1213_M19">
+      <speaker>Bob.</speaker>
+      <p>Beg your pardon, sir, I didn't see you.</p>
+     </sp>
+     <sp who="#L1213_M29">
+      <speaker>Frank.</speaker>
+      <p>But you made me feel you, though, friend. Eh? what my old acquaintance, Robert Yorkney ?
+        <stage>(recognising</stage></p>
+     </sp>
+     <sp who="#L1213_M19">
+      <speaker>Bob.</speaker>
+      <p>Yes, the werry identical; but surely you can never be the gentleman that's in the East
+       Indies—you can't be my old playmate, whom I so often whopped—you can never be Mr. Frank
+       Danvers !</p>
+     </sp>
+     <sp who="#L1213_M29">
+      <speaker>Frank.</speaker>
+      <p>His very self.</p>
+     </sp>
+     <sp who="#L1213_M19">
+      <speaker>Bob.</speaker>
+      <p>Well, I am amazed—how glad I am. Give us your fist. What can I do for you ? Can I clear
+       your trunks— get you a lodging—call you a cab ?</p>
+     </sp>
+     <sp who="#L1213_M29">
+      <speaker>Frank.</speaker>
+      <p>Thank you, thank you—the same warm hearted fellow as ever. For the present I only require
+       rest. I have just come up from Liverpool, after my return from the East Indies, where my
+       father died.</p>
+     </sp>
+     <sp who="#L1213_M19">
+      <speaker>Bob.</speaker>
+      <p>What made you go to India ? What made you turn sailor ?</p>
+     </sp>
+     <sp who="#L1213_M29">
+      <speaker>Frank.</speaker>
+      <p>A. romantic notion, I confess. Three years since I fell in with a young lady who seemed so
+       good, so pure, that I did not dare to speak of my passion to her. I resolved to make myself
+       worthy of her—to create myself a name. For this purpose I entered the navy, but after a brief
+       service, I returned to my father in the Indies, and closed his dying eyes. Riches beyond my
+       hopes were now my own, and I once more sought England, to lay my fame and fortune at the feet
+       of my Louisa!</p>
+     </sp>
+     <sp who="#L1213_M19">
+      <speaker>Bob.</speaker>
+      <p>Just as I wish to do to Charlotte, <stage>(aside)</stage> Go on.</p>
+     </sp>
+     <sp who="#L1213_M29">
+      <speaker>Frank.</speaker>
+      <p>Judge of my despair when I found that in my absence another had supplanted me, and that she
+       had fled her native place.</p>
+     </sp>
+     <pb n="10"/>
+     <sp who="#L1213_M19">
+      <speaker>Bob.</speaker>
+      <p>The cockatrice ! But you can serve the fellow out.</p>
+     </sp>
+     <sp who="#L1213_M29">
+      <speaker>Frank.</speaker>
+      <p>Oh, no, I—<stage>(aside)</stage> my brother—my brother! <stage>(aloud)</stage> I cannot
+       revenge myself on him.</p>
+     </sp>
+     <sp who="#L1213_M19">
+      <speaker>Bob.</speaker>
+      <p>Well, just as you like ; but I suppose you've come to London to catch them ?</p>
+     </sp>
+     <sp who="#L1213_M29">
+      <speaker>Frank.</speaker>
+      <p>No, no, I never told my love ; she broke no faith with me. Family affairs alone have
+       brought me here now.</p>
+     </sp>
+     <sp who="#L1213_M19">
+      <speaker>Bob.</speaker>
+      <p>Come to look after your brother, perhaps? Well, he certainly does want looking after ; he
+       played a devil of a game when he came into his property.</p>
+     </sp>
+     <sp who="#L1213_M29">
+      <speaker>Frank.</speaker>
+      <p>Ah, Herbert!</p>
+     </sp>
+     <sp who="#L1213_M19">
+      <speaker>Bob.</speaker>
+      <p>Oh, lord love you, yes. Horse-racing, and gaming into the bargain.</p>
+     </sp>
+     <sp who="#L1213_M29">
+      <speaker>Frank.</speaker>
+      <p>Gracious Heavens! What do you tell me ? Herbert–</p>
+     </sp>
+     <sp who="#L1213_M19">
+      <speaker>Bob.</speaker>
+      <p>Hasn't a mag left—not a scuddick; is obliged to live on his wits as much as any of us—dines
+       oftener with Duke Humphrey than anybody else, I believe.</p>
+     </sp>
+     <sp who="#L1213_M29">
+      <speaker>Frank.</speaker>
+      <p>Herbert! Herbert!</p>
+     </sp>
+     <sp who="#L1213_M19">
+      <speaker>Bob.</speaker>
+      <p>He's your brother, Mr. Frank ; but there isn't a bigger leg on the whole pavement.</p>
+     </sp>
+     <sp who="#L1213_M29">
+      <speaker>Frank.</speaker>
+      <p><stage>(aside)</stage> And she—Louisa! what's become of her ? A prey to want and misery,
+        <stage>(aloud)</stage> I must certainly see this unhappy Herbert. You must conduct me to
+       him.</p>
+     </sp>
+     <sp who="#L1213_M19">
+      <speaker>Bob.</speaker>
+      <p>That would be rather a difficult matter with a gentleman who lives at number nothing, in
+       nowhere street. But never mind; I rather suspect I shall be in his company before the night
+       is over.</p>
+     </sp>
+     <sp who="#L1213_M29">
+      <speaker>Frank.</speaker>
+      <p>And your residence ?</p>
+     </sp>
+     <sp who="#L1213_M19">
+      <speaker>Bob.</speaker>
+      <p><stage>(hesitatingly)</stage> Why, I—I—just now, I'm living rather <hi>select.</hi> My
+       lodgings at present are the Pollards ; No. 3. If you can't ring, for the want of a bell,
+       throw a stone at the door—there's no knocker; it will do quite as well.</p>
+     </sp>
+     <sp who="#L1213_M29">
+      <speaker>Frank.</speaker>
+      <p><stage>(writing in pocket-book)</stage> Enough, enough, my friend. I will but take a little
+       repose at the hotel here, and then join you at the place you have mentioned. You must conduct
+       me to my unhappy brother, and in return for this service you may command me. Farewell.</p>
+     </sp>
+     <stage>(exit into hotel, L.U. E.</stage>
+     <stage>(At Frank's exit, hurried music. Boys enter hooting Old-Fogg, who is drunk, and dressed
+      as a crossing-sweeper, with broom, &amp;c. Bob and a Policeman interpose and clear the stage
+      of the mob.)</stage>
+     <pb n="11"/>
+     <sp who="#L1213_M28">
+      <speaker>Fogg.</speaker>
+      <p>It's cold—very, bitter cold—my heart's ice, I want some gin to warm me ; if I could only
+       scrape a few coppers to get half a quartern, shouldn't I feel better, I fancied I saw Maria
+       Johnson to-night, her spirit flits before me, and I must have drink to still my dreadful
+       thoughts. Gin, yes, I love it—I could die for it.</p>
+     </sp>
+     <stage>Enter Devereux from station, and Shabner from L. U. E., meeting him. Ned, Dick, &amp;c,
+      &amp;c, all crowding round.</stage>
+     <sp who="#L1213_M21">
+      <speaker>Ned.</speaker>
+      <p>Want an honest fellow, your honour, to show you about town, and look arter your property ?
+       I know where all the good things are to be had.</p>
+     </sp>
+     <sp who="#L1213_M17">
+      <speaker>Dever.</speaker>
+      <p><stage>(bearing a small portmanteau)</stage> No ! I tell you.</p>
+     </sp>
+     <sp who="#L1213_M19">
+      <speaker>Bob.</speaker>
+      <p><stage>(aside)</stage> No go. I'll try my luck, <stage>(advancing mysteriously to Devereux,
+        and whispering)</stage> Want a reg'lar box of choice Havannahs, your honour, prime cost; or
+       a piece of real Bandanys—got them from a friend—let you have them by the way of
+       Cheapside.</p>
+     </sp>
+     <sp who="#L1213_M17">
+      <speaker>Dever.</speaker>
+      <p>Go to the devil with you fellow, <stage>(pushes Bob away.</stage></p>
+     </sp>
+     <sp who="#L1213_M19">
+      <speaker>Bob.</speaker>
+      <p>Well, that's civil, anyhow, <stage>(draws back. Fogg advances to Devereux, L.)</stage></p>
+     </sp>
+     <sp who="#L1213_M17">
+      <speaker>Dever.</speaker>
+      <p>What do you want ?</p>
+     </sp>
+     <sp who="#L1213_M28">
+      <speaker>Fogg.</speaker>
+      <p>Money to get gin. I'll carry your trunk there for it.</p>
+     </sp>
+     <sp who="#L1213_M17">
+      <speaker>Dever.</speaker>
+      <p>Go to the devil with you ! <stage>(pushes Fogg aside and X 's to L. All come
+       down.)</stage></p>
+     </sp>
+     <sp who="#L1213_M21">
+      <speaker>Ned.</speaker>
+      <p>What are you pushing the poor fellow in that way for ? just because you see he's only a
+       harmless idiot.</p>
+     </sp>
+     <sp who="#L1213_M19">
+      <speaker>Bob.</speaker>
+      <p><stage>(coming forward)</stage> Not so harmless as you may think for. Old Deady, the
+       savage, can be dangerous enough at times—a word will do it. Fogg, old fellow, do you see that
+       cove, there ? <stage>(points to Ned)</stage> Take care of yourself, <stage>(to
+       Ned.)</stage></p>
+     </sp>
+     <sp who="#L1213_M28">
+      <speaker>Fogg.</speaker>
+      <p><stage>(eagerly)</stage> Yes, has he got any more gin?</p>
+     </sp>
+     <sp who="#L1213_M19">
+      <speaker>Bob.</speaker>
+      <p>That's the chap that killed Maria Johnson.</p>
+     </sp>
+     <sp who="#L1213_M28">
+      <speaker>Fogg.</speaker>
+      <p><stage>(furiously with a wild cry)</stage> Maria Johnson—he— he—hell bird! <stage>(rushes
+        across fiercely on Ned, whom he seizes by the throat and, prostrates to the
+       earth.)</stage></p>
+     </sp>
+     <sp who="#L1213_M21">
+      <speaker>Ned.</speaker>
+      <p><stage>(striving to extricate himself)</stage> Hallo ! hallo ! what the devil—what are you
+       about ? Take him off, there. <stage>(Bob interposes.)</stage></p>
+     </sp>
+     <sp who="#L1213_M28">
+      <speaker>Fogg.</speaker>
+      <p>Away ! did he not kill Maria Johnson ? You've said it once—say it once more while he's in
+       my grasp, and––</p>
+     </sp>
+     <pb n="12"/>
+     <sp who="#L1213_M19">
+      <speaker>Bob.</speaker>
+      <p>Hold hard, it was only fun—let him go.</p>
+     </sp>
+     <sp who="#L1213_M28">
+      <speaker>Fogg.</speaker>
+      <p><stage>(releasing his hold)</stage> Fun! Maria's death—murder's no fun, at least it was not
+       fun once, <stage>(turns away.)</stage></p>
+     </sp>
+     <sp who="#L1213_M17">
+      <speaker>Dever.</speaker>
+      <p><stage>(aside)</stage> Maria Johnson ! this is strange. I must speak with this fellow.
+       Hallo ! <stage>(taps Fogg on shoulder)</stage> I've changed my mind, you shall carry my
+       trunk—I'll pay you well for it. <stage>(gives portmanteau.)</stage></p>
+     </sp>
+     <sp who="#L1213_M28">
+      <speaker>Fogg.</speaker>
+      <p>More blunt—more gin—more gin.</p>
+     </sp>
+     <sp who="#L1213_M17">
+      <speaker>Dever.</speaker>
+      <p>Take it into that hotel. Now Shabner, follow me. <stage>(exit with Shabner into hotel. Fogg
+        preceding with portmanteau. Music.)</stage></p>
+     </sp>
+     <sp who="#L1213_M21">
+      <speaker>Ned.</speaker>
+      <p>Confound the fellow, what a crack he's given me. I tell you what, Master Yorkney, I'll
+       thank you to stow all such jokes in future. I don't like them any more than the old savage
+       does.</p>
+     </sp>
+     <sp who="#L1213_M19">
+      <speaker>Bob.</speaker>
+      <p>Why it's only the delirium tremens.</p>
+     </sp>
+     <sp who="#L1213_M21">
+      <speaker>Ned.</speaker>
+      <p>Hang such delirious trimmings, I say. Well, I'm off to my lodgings—a dry arch, Waterloo
+       Bridge, tenant at will, rent easy, and no taxes.</p>
+     </sp>
+     <stage>Enter Charlotte, with birdcage, from station, a cat in basket, surrounded by Dick and
+      the Rabble.</stage>
+     <sp who="#L1213_M19">
+      <speaker>Bob.</speaker>
+      <p><stage>(to Charlotte)</stage> Let me assist you with your luggage, my duck.</p>
+     </sp>
+     <sp who="#L1213_M22">
+      <speaker>Dick.</speaker>
+      <p>I'll take care of the gentlewoman's things.</p>
+     </sp>
+     <sp who="#L1213_M24">
+      <speaker>Cabman.</speaker>
+      <p>Want a cab, ma'am ? <stage>(they all gather round Charlotte, who is alarmed.)</stage></p>
+     </sp>
+     <sp who="#L1213_F37">
+      <speaker>Charl.</speaker>
+      <p>Oh, la, they''ll tear me to pieces. Mr. Yorkney —gentleman—oh, mercy, they'll let my cat
+       out of the basket. Mr. Yorkney, if you was only a bit of a man–</p>
+     </sp>
+     <sp who="#L1213_M19">
+      <speaker>Bob.</speaker>
+      <p>A bit of a man! oh, devil it, I can't stand this. Give us a hand, Ned—get out you varmint,
+       stand off, these arn't for you. <stage>(Charlotte screams, Ned and Bob fight Cabmen, &amp;c.
+        Charlotte trying to keep her bandboxes, &amp;c. together, struggles to get her basket from
+        Dick ; it comes undone, a cat jumps out, and runs away. General cheveying. Bob floors
+        Dick,&amp;c. Charlotte continues screaming, and scene changes on confusion.
+       Music.)</stage></p>
+     </sp>
+    </div>
+    <div type="scene">
+     <head>SCENE SECOND.— Room in the York Hotel, (1st grooves.)</head>
+     <stage>Enter Devereux and Shabner, L.</stage>
+     <sp who="#L1213_M18">
+      <speaker>Shabner.</speaker>
+      <p>At length we are alone. Now then, my friend, for the grand secret. Let's to business at
+       once.</p>
+     </sp>
+     <pb n="13"/>
+     <sp who="#L1213_M17">
+      <speaker>Dever.</speaker>
+      <p>This it is, then: of the run of ill luck against me at Liverpool you've already heard.</p>
+     </sp>
+     <sp who="#L1213_M18">
+      <speaker>Shabner.</speaker>
+      <p>I have. On that occasion you sent me a Queen's head, politely inviting me, on the score of
+       old acquaintance, to set up your bank again—advance you a few hundreds on your personal
+       security.</p>
+     </sp>
+     <sp who="#L1213_M17">
+      <speaker>Dever.</speaker>
+      <p>Which you as politely refused to do. No matter. One evening, without blunt, and without
+       exactly knowing where to get any, I took a short walk to air my brains, and give my ideas a
+       turn. Passing a substantial mansion in rather a retired situation, I saw the master, followed
+       by his servants, starting on their way to church.</p>
+     </sp>
+     <sp who="#L1213_M18">
+      <speaker>Shabner.</speaker>
+      <p>You followed their example, of course ?</p>
+     </sp>
+     <sp who="#L1213_M17">
+      <speaker>Dever.</speaker>
+      <p>No. From one of the latter locking the door on the outside, I was perfectly convinced that
+       no one was left within. You can't think, my dear Shabner, what a queer feeling came over me
+       at the thought of the house being left totally unguarded.</p>
+     </sp>
+     <sp who="#L1213_M18">
+      <speaker>Shabner.</speaker>
+      <p>No doubt of it—so very careless.</p>
+     </sp>
+     <sp who="#L1213_M17">
+      <speaker>Dever.</speaker>
+      <p>Shocking. Directly they were out of sight, wanting a little exercise, I thought I'd try how
+       high I could jump ; when, confound me, if 1 didn't jump clean over the garden wall!</p>
+     </sp>
+     <sp who="#L1213_M18">
+      <speaker>Shabner.</speaker>
+      <p>How very curious; but you always had high notions.</p>
+     </sp>
+     <sp who="#L1213_M17">
+      <speaker>Dever.</speaker>
+      <p>Pleased with this proof of my gymnastic powers, I next tried if I could climb as well as I
+       could jump, and soon somehow managed to reach the balcony, which led into the back
+       drawing-room.</p>
+     </sp>
+     <sp who="#L1213_M18">
+      <speaker>Shabner.</speaker>
+      <p>Most interesting. Go on.</p>
+     </sp>
+     <sp who="#L1213_M17">
+      <speaker>Dever.</speaker>
+      <p>Admiring the furniture, I saw an escritoir—you know my fancy for such articles—it was
+       locked, but that, of course, to me was nothing—the well oiled bolt flew back–</p>
+     </sp>
+     <sp who="#L1213_M18">
+      <speaker>Shabner.</speaker>
+      <p>And you found——</p>
+     </sp>
+     <sp who="#L1213_M17">
+      <speaker>Dever.</speaker>
+      <p>A pile of sovereigns.</p>
+     </sp>
+     <sp who="#L1213_M18">
+      <speaker>Shabner.</speaker>
+      <p>How very imprudent to leave them there.</p>
+     </sp>
+     <sp who="#L1213_M17">
+      <speaker>Dever.</speaker>
+      <p>I thought so, and determined to teach them better tor the future, so I hastily wrapped the
+       yellow boys in the first piece of paper that presented itself, and——</p>
+     </sp>
+     <sp who="#L1213_M18">
+      <speaker>Shabner.</speaker>
+      <p>Made your way out a devilish sight quicker than you got in ; but this is nothing more than
+       an every day affair.</p>
+     </sp>
+     <sp who="#L1213_M17">
+      <speaker>Dever.</speaker>
+      <p>Not so fast, I have not done. An hour afterwards, wishing to ascertain the exact state of
+       my funds, I unfolded
+       <pb n="14"/> the paper, and from a few words on it in writing that caught my eye, was induced
+       to read further. It was a letter from the East Indies, and was signed Danvers.</p>
+     </sp>
+     <sp who="#L1213_M18">
+      <speaker>Shabner.</speaker>
+      <p>Danvers !</p>
+     </sp>
+     <sp who="#L1213_M17">
+      <speaker>Dever.</speaker>
+      <p>Yes, Danvers, the rich manufacturer of Manchester, who afterwards settled in the East
+       Indies, where he was joined by his eldest son. This letter was written by the old gentleman
+       to his former friend, the merchant Dorrington, the very person at whose house I made myself
+       so much at home––</p>
+     </sp>
+     <sp who="#L1213_M18">
+      <speaker>Shabner.</speaker>
+      <p>And for whose property you evinced so great a care—go on.</p>
+     </sp>
+     <sp who="#L1213_M17">
+      <speaker>Dever.</speaker>
+      <p>It accepted an offer made him by Dorrington to marry their children. The thought struck me
+       in a moment, that Danvers had <hi>two </hi>children, sons ; the youngest of whom we had
+       plucked, and that it wasn't likely, from the time that had elapsed, that Dorrington could
+       know either the one or the other, and therefore a little tin might be easily and safely
+       manufactured.</p>
+     </sp>
+     <sp who="#L1213_M18">
+      <speaker>Shabner.</speaker>
+      <p>I see it all! capital! Devereux, you certainly are a most extraordinarily clever
+       rascal.</p>
+     </sp>
+     <sp who="#L1213_M17">
+      <speaker>Dever.</speaker>
+      <p>Go slow—go slow! This opened the road to a mine of wealth. I had borrowed thirty
+       sovereigns, and wrapped them up in twenty thousand pounds.</p>
+     </sp>
+     <sp who="#L1213_M18">
+      <speaker>Shabner.</speaker>
+      <p>Proceed—proceed.</p>
+     </sp>
+     <sp who="#L1213_M17">
+      <speaker>Dever.</speaker>
+      <p>The next day I presented myself at the front door of the house, I had so lately entered by
+       the back. Mr. Dorrington received me very politely, the more so when he learnt I had just
+       arrived from the East Indies, and announced to him the return of his intended son-in-law.</p>
+     </sp>
+     <sp who="#L1213_M18">
+      <speaker>Shabner.</speaker>
+      <p>For whom you mean to palm off our young pal ? that scapegrace, his brother Herbert!</p>
+     </sp>
+     <sp who="#L1213_M17">
+      <speaker>Dever.</speaker>
+      <p>You've hit it. I told him the young man had departed for London, where he was detained by
+       some family affairs; which made Dorrington immediately determine to visit the capital with
+       his daughter, the intended bride, to meet him. Everything was arranged, there and then, they
+       are on their way, and now we've only to get our bridegroom ready, and the game's our own.</p>
+     </sp>
+     <sp who="#L1213_M18">
+      <speaker>Shabner.</speaker>
+      <p>You say <hi>we</hi> get him ready—<hi>our</hi> game ?</p>
+     </sp>
+     <sp who="#L1213_M17">
+      <speaker>Dever.</speaker>
+      <p>Of course—I mean to let you <hi>in</hi> for your regulars ; but you must unloose your purse
+       strings. Our protegé must have a bang up outfit—Cabriolet—tiger —</p>
+     </sp>
+     <pb n="15"/>
+     <sp who="#L1213_M18">
+      <speaker>Shabner.</speaker>
+      <p>He shall have some swell clothes—my own vehicle—and a fellow from one of my west end
+       establishments ; but let us first understand each other; what do you mean by regulars ? what
+       am I really to have for all this?</p>
+     </sp>
+     <sp who="#L1213_M17">
+      <speaker>Dever.</speaker>
+      <p>Oh, don't be afraid ; I shall bleed our man for a cool ten thousand, at least; the poor
+       devil will be glad of the chance, and you'll have your share of course.</p>
+     </sp>
+     <sp who="#L1213_M18">
+      <speaker>Shabner.</speaker>
+      <p>Well, on condition that I go <hi>halves</hi>—I don't mind advancing a hundred or so ; but
+       where the devil are we to bag our bird ?</p>
+     </sp>
+     <sp who="#L1213_M17">
+      <speaker>Dever.</speaker>
+      <p>Leave that to me; I have fellows who know where all the night birds in London roost. What !
+       do you forget that I'm another Otho—that I am emperor of all the modern Greeks ?</p>
+     </sp>
+     <sp who="#L1213_M18">
+      <speaker>Shabner.</speaker>
+      <p>Or London legs, rather !</p>
+     </sp>
+     <sp who="#L1213_M17">
+      <speaker>Dever.</speaker>
+      <p>Well, legs, if you like it better—scamps, anything, from the very top of the tree "to the
+       bottom, down below," as the song says. But dinner must be ready by this time. We'll pay our
+       respects to it instantly. Come, Shabner, the whole hog—neck or nothing. The clear ten
+       thousand</p>
+     </sp>
+     <sp who="#L1213_M18">
+      <speaker>Shabner.</speaker>
+      <p>Or the quarries at Portland! <stage>(exeunt, L.</stage></p>
+     </sp>
+    </div>
+    <div type="scene">
+     <head>SCENE THIRD.—</head>
+     <stage>Dry Arch, and part of Waterloo Bridge by moonlight. On the R. side is a flight of steps
+      that lead down from the bridge—on the other side is a part of the river Thames, with barges,
+      bridge, lamps, balustrades, &amp;c. At the rising of the curtain, Joe Onion, Dick Smith,
+      Cadgers, and Vagabonds, men, women, and children, are discovered. The stage is half dark—Joe
+      Onion is engaged arranging some straw in the dry arches. At the opening of scene, Nigger is
+      heard playing fiddle without; he enters, engages lodging.</stage>
+     <sp who="#L1213_M20">
+      <speaker>Onion.</speaker>
+      <p><stage>(coming forward)</stage> There, I've prepared all the feather beds—I haven't put too
+       much straw in my own mattrass—I don't want to use myself to luxuries. Are all the lodgers at
+       home, Dick, you young varmint ?</p>
+     </sp>
+     <sp who="#L1213_M22">
+      <speaker>Dick.</speaker>
+      <p>No—there wants Fogg—old Tom Fogg and the new one.</p>
+     </sp>
+     <sp who="#L1213_M20">
+      <speaker>Onion.</speaker>
+      <p>Ah, the stranger that has slept here these last eight nights—the swell cove, out of
+       luck—it's time that young fellow told us who he is—one ought to know who one keeps company
+       with, in case one should commit oneself.</p>
+     </sp>
+     <pb n="16"/>
+     <sp who="#L1213_mult">
+      <speaker>Omnes.</speaker>
+      <p>Ha, ha, ha!</p>
+     </sp>
+     <sp who="#L1213_M20">
+      <speaker>Onion.</speaker>
+      <p>Silence ! What are you laughing at ? Do you know who you are talking to? ain't I Joe Onion,
+       Eskewer, principal director of the London Cheap Lodging House, Dry Arches, Waterloo
+       Bridge—ain't there a whole company of us, a hundred and fifty shareholders, besides the
+       board? all the shares at premium. <stage>(Dick and Vagabonds draw back, abashed. Whistle from
+        above)</stage> Eh! I should know that whistle. Peace ! ladies and gentlemen of the
+       bridgeward, peace! while I challenge the watch-word—who's there ? <stage>(calling
+        out.)</stage></p>
+     </sp>
+     <sp who="#L1213_M21">
+      <speaker>Ned.</speaker>
+      <p><stage>(above)</stage> A friend !</p>
+     </sp>
+     <sp who="#L1213_M20">
+      <speaker>Onion.</speaker>
+      <p>'Tis that trump, Ned Brindle—what the devil brings him here? All right, Ned, come down.</p>
+     </sp>
+     <stage>Music.—Enter Ned Brindle, down steps.</stage>
+     <sp who="#L1213_M21">
+      <speaker>Ned.</speaker>
+      <p>Here I am, friends.</p>
+     </sp>
+     <sp who="#L1213_M20">
+      <speaker>Onion.</speaker>
+      <p>Come forward, Mr. Brindle ; ladies and gentlemen, allow me to introduce a most particular
+       friend of your Arch-deacon, your learned Judge of the Arches, Joe Onion, <stage>(all salute
+        Ned)</stage> Good evening to you, Ned— give us your famble—how are you, my trump ?</p>
+     </sp>
+     <sp who="#L1213_M21">
+      <speaker>Ned.</speaker>
+      <p>Why, no better than I should be ; I've failed today—a regular bankruptcy.</p>
+     </sp>
+     <sp who="#L1213_M20">
+      <speaker>Onion.</speaker>
+      <p>Ah ! I didn't see it in the <title>Gazette</title>—how was it ?</p>
+     </sp>
+     <sp who="#L1213_M21">
+      <speaker>Ned.</speaker>
+      <p>Why this : a flashy chap, with a pretty girl, got me to call a cab for them and did not
+        <hi>pay</hi> me—the injustice of mankind!</p>
+     </sp>
+     <sp who="#L1213_mult">
+      <speaker>Omnes.</speaker>
+      <p>Ha, ha, ha!</p>
+     </sp>
+     <sp who="#L1213_M21">
+      <speaker>Ned.</speaker>
+      <p>But that's not the worst of it. Because I haven't paid him his rent, my landlord's seized
+       upon me.</p>
+     </sp>
+     <sp who="#L1213_M20">
+      <speaker>Onion.</speaker>
+      <p>Seized upon you?</p>
+     </sp>
+     <sp who="#L1213_M21">
+      <speaker>Ned.</speaker>
+      <p>Yes, and thrust me into the street. Took my body, you know there was no goods, so I'm
+       obliged to come and ask a night's lodging of you.</p>
+     </sp>
+     <sp who="#L1213_M20">
+      <speaker>Onion.</speaker>
+      <p>With pleasure, Ned. I told you my house was always open to you.</p>
+     </sp>
+     <sp who="#L1213_M21">
+      <speaker>Ned.</speaker>
+      <p>You did—where is it ?</p>
+     </sp>
+     <sp who="#L1213_M20">
+      <speaker>Onion.</speaker>
+      <p>Why, here; quite dry and comfortable. We live like kings, supported by a pier on each side,
+       you see. Our drawing-room and kitchen are in one of these barges; and these are our
+       bed-rooms.</p>
+     </sp>
+     <sp who="#L1213_M21">
+      <speaker>Ned.</speaker>
+      <p>Is the rent high ?</p>
+     </sp>
+     <sp who="#L1213_M20">
+      <speaker>Onion.</speaker>
+      <p>Nothing a month, and no taxes, water-rate paid by the landlord, and come in at what hour
+       you like ?</p>
+     </sp>
+     <pb n="17"/>
+     <sp who="#L1213_M21">
+      <speaker>Ned.</speaker>
+      <p>Are you insured?</p>
+     </sp>
+     <sp who="#L1213_M20">
+      <speaker>Onion.</speaker>
+      <p>Yes; by the parish !</p>
+     </sp>
+     <sp who="#L1213_M21">
+      <speaker>Ned.</speaker>
+      <p>Then I'll take the ground floor.</p>
+     </sp>
+     <sp who="#L1213_M20">
+      <speaker>Onion.</speaker>
+      <p>You must pay your footing.</p>
+     </sp>
+     <sp who="#L1213_mult">
+      <speaker>Omnes.</speaker>
+      <p>Ay, ay—your footing !</p>
+     </sp>
+     <sp who="#L1213_M20">
+      <speaker>Onion.</speaker>
+      <p>And we'll enrol you in the archive.</p>
+     </sp>
+     <sp who="#L1213_M21">
+      <speaker>Ned.</speaker>
+      <p>Hush!</p>
+     </sp>
+     <sp who="#L1213_M22">
+      <speaker>Dick.</speaker>
+      <p><stage>(low)</stage> It's one of the police! <stage>(all retire cautiously.)</stage></p>
+     </sp>
+     <stage>Music. Policeman enters, all feign to sleep. He passes amongst them, holding lantern, to
+      their faces, at length he comes to a woman who is huddled up with a child in her arms.</stage>
+     <sp who="#L1213_M31">
+      <speaker>Police.</speaker>
+      <p>What's the matter with you, my good woman?</p>
+     </sp>
+     <sp who="#L1213_M27">
+      <speaker>Woman.</speaker>
+      <p>Oh, sir, I'm starving with the cold.</p>
+     </sp>
+     <sp who="#L1213_M31">
+      <speaker>Police.</speaker>
+      <p>You shan't do that; I've a drop of rum in my pocket, it will do you more good than me—take
+       it my poor woman, <stage>(she drinks)</stage> Good night; keep quiet, or you'll all have to
+       turn out.</p>
+     </sp>
+     <sp who="#L1213_mult">
+      <speaker>Omnes.</speaker>
+      <p>Good night, sir. <stage>(Policeman exits.</stage></p>
+     </sp>
+     <sp who="#L1213_M20">
+      <speaker>Onion.</speaker>
+      <p>Mum—you see we are well watched, as well as lighted, Ned, all free gratis for nothing.</p>
+     </sp>
+     <sp who="#L1213_M22">
+      <speaker>Dick.</speaker>
+      <p>Here's another cove coming down the steps— don't frighten yourselves—it's only the savage
+       !</p>
+     </sp>
+     <sp who="#L1213_M20">
+      <speaker>Onion.</speaker>
+      <p>What a wakeful bird you are, Dick, surely.</p>
+     </sp>
+     <stage>Music. Enter Fogg, down steps.</stage>
+     <sp who="#L1213_M20">
+      <speaker>Onion.</speaker>
+      <p>I tell you what, old Deady, if you keep such late hours as these, I shall be under the
+       necessity of locking you out.</p>
+     </sp>
+     <sp who="#L1213_M28">
+      <speaker>Fogg.</speaker>
+      <p>I couldn't help it; have you got any gin ? I've been at work !</p>
+     </sp>
+     <sp who="#L1213_M20">
+      <speaker>Onion.</speaker>
+      <p>Have you earned much to-day?</p>
+     </sp>
+     <sp who="#L1213_M28">
+      <speaker>Fogg.</speaker>
+      <p>Yes—yes ! I've had my fill—as much as I wanted.</p>
+     </sp>
+     <sp who="#L1213_M20">
+      <speaker>Onion.</speaker>
+      <p>Well, now then, as you've had your night-cap, a little daffy, and must want rest, you had
+       better go to bed ! you won't want any light, you can see by the sky lantern up above, there,
+        <stage>(pointing to the moon)</stage> Good night, old chap, you know your room—Davy's best
+       Wallsend, No. 2.</p>
+     </sp>
+     <sp who="#L1213_M28">
+      <speaker>Fogg.</speaker>
+      <p>Aye, aye! goodnight, <stage>(retires to barge.)</stage></p>
+     </sp>
+     <sp who="#L1213_M21">
+      <speaker>Ned.</speaker>
+      <p>Poor fellow ! I'm glad you're kind to him. I hope he'll find a snug berth, and that he
+       won't dream of Maria Johnson.</p>
+     </sp>
+     <sp who="#L1213_M28">
+      <speaker>Fogg.</speaker>
+      <p><stage>(overhearing, and starting up)</stage> Of whom ?</p>
+     </sp>
+     <sp who="#L1213_M21">
+      <speaker>Ned.</speaker>
+      <p>Oh, lord ! nobody, nobody, old chap, go to sleep —pleasant dreams to you—clap your head
+       under the
+       <pb n="18"/>yawning, you'll be as snug as a bug in a rug. <stage>(Fogg again
+        disappears.)</stage></p>
+     </sp>
+     <sp who="#L1213_M22">
+      <speaker>Dick.</speaker>
+      <p><stage>(looking up)</stage> Here's another cove coming, landlord—not a policeman—no, it's
+       the new 'un!</p>
+     </sp>
+     <stage>Music. Herbert Danvers, meanly attired, appears slowly coming down steps.</stage>
+     <sp who="#L1213_M20">
+      <speaker>Onion.</speaker>
+      <p>Our gentleman lodger! Bravo, Dick! you wakeful bird. You'll let nothing pass you.</p>
+     </sp>
+     <sp who="#L1213_M30">
+      <speaker>Herbert.</speaker>
+      <p><stage>(timidly, having descended)</stage> Excuse me, friends, if I intrude.</p>
+     </sp>
+     <sp who="#L1213_M20">
+      <speaker>Onion.</speaker>
+      <p>Intrude! not at all, ain't you one of <hi>us</hi> ? ain't you privileged—haven't you passed
+       eight nights with us ? and though you don't appear to sleep at your ease, we're not affronted
+       ; we don't think any the worse of you for that—you mustn't imagine, because you see our
+       friend, Ned Brindle, here, that your place is taken—your bed is kept for you—your apartment
+       is all ready.</p>
+     </sp>
+     <sp who="#L1213_M30">
+      <speaker>Herbert.</speaker>
+      <p>It was my own culpable folly that brought me to this misery and degradation—the wish to
+       appear above my real station, led me to contract debts. Abandoned by those who called
+       themselves my friends—hunted by the harpies of the law—I had no longer a home—my conscience
+       reproved me—you can enter into my feelings, <stage>(to Onion.)</stage></p>
+     </sp>
+     <sp who="#L1213_M20">
+      <speaker>Onion.</speaker>
+      <p>Well, never mind, sir,—bad luck now, better another time, you know.—Now you, sirs,
+        <stage>(to Vagabonds)</stage> if you wants any supper, now's your time—for I'm just going
+       into the dining-room, and it's only a penny a nob—so follow me to the next barge.—Now,
+       Ned!</p>
+     </sp>
+     <sp who="#L1213_mult">
+      <speaker>Omnes.</speaker>
+      <p>Hurrah ! hurrah !—the peck—the peck ! <stage>(music —exeunt Onion, Dick, and Vagabonds
+        tumultuously into barge, L.)</stage></p>
+     </sp>
+     <sp who="#L1213_M30">
+      <speaker>Herbert.</speaker>
+      <p>I must not join them—wretched as is their meal, I have no claim to it. How much longer will
+       this state of shame and suffering last?—For upwards of a week I have been a wanderer through
+       streets by day; an outcast here by night!—the most destitute among these miserable wretches
+       is far less to be pitied than am I!—they can sleep soundly—but I—oh ! Louisa, Louisa! cruelly
+       have I abandoned her—what must be her sufferings ?</p>
+     </sp>
+     <stage>Music. Re-enter Onion, Ned, Dick, &amp;c, wiping their mouths.</stage>
+     <sp who="#L1213_M20">
+      <speaker>Onion.</speaker>
+      <p>Well, we've had a capital snack—that bullock's liver was excellent—and those ingons
+       relished it so—we could have eaten a leetle bit more, perhaps, but however—</p>
+     </sp>
+     <pb n="19"/>
+     <sp who="#L1213_M22">
+      <speaker>Dick.</speaker>
+      <p>Hush ! hush!—there's a boat coming this way—I hear the oars.</p>
+     </sp>
+     <sp who="#L1213_M20">
+      <speaker>Onion.</speaker>
+      <p>That young dog lets nothing escape him.</p>
+     </sp>
+     <stage>Bob enters with Frank, R., they are enveloped in large cloaks, with capes, to conceal
+      their features—Herbert has retired to back</stage>
+     <sp who="#L1213_M21">
+      <speaker>Ned.</speaker>
+      <p>Hallo!—why hang me if that ain't Bob Yorkney— what the devil brings him here ?—I'll keep
+       close ! <stage>(draws back.)</stage></p>
+     </sp>
+     <sp who="#L1213_M19">
+      <speaker>Bob.</speaker>
+      <p>How are you, gentlemen ?—brought a friend with me, you see—don't let us disturb you.</p>
+     </sp>
+     <sp who="#L1213_M20">
+      <speaker>Onion.</speaker>
+      <p>Not a bit. of it—we can make room for you.</p>
+     </sp>
+     <sp who="#L1213_M29">
+      <speaker>Frank.</speaker>
+      <p><stage>(to Bob)</stage> Is it among these miserable wretches, then, that I shall find my
+       brother?—this was why you made me assume this disguise, was it—are you sure he is here ?</p>
+     </sp>
+     <sp who="#L1213_M19">
+      <speaker>Bob.</speaker>
+      <p>Yes; as sure as quarter day. I know that he has passed the last eight nights here—hut I
+       have some news for you—we are not the only chaps that are on the look out for him.</p>
+     </sp>
+     <sp who="#L1213_M29">
+      <speaker>Frank.</speaker>
+      <p>What say you ?</p>
+     </sp>
+     <sp who="#L1213_M19">
+      <speaker>Bob.</speaker>
+      <p>There are two others—those worthy and respectable gentlemen, Hawkesworth Shabner, Esq., and
+       Mr. Fox Skinner, alias Devereux, a gentleman, like myself, of three outs.</p>
+     </sp>
+     <sp who="#L1213_M29">
+      <speaker>Frank.</speaker>
+      <p>Great heaven ! what can be their purpose ? no good, I fear, but that we must find out. Let
+       us stay and watch—how shall we discover that they are here?</p>
+     </sp>
+     <sp who="#L1213_M19">
+      <speaker>Bob.</speaker>
+      <p>Hush ! <stage>(Onion comes down followed by Dick and the others.)</stage></p>
+     </sp>
+     <sp who="#L1213_M20">
+      <speaker>Onion.</speaker>
+      <p>There, your beds are all ready, so now you can go to roost whenever you like—if you want a
+       comfortable snooze, why, all I can say is—you're in luck.</p>
+     </sp>
+     <sp who="#L1213_M22">
+      <speaker>Dick.</speaker>
+      <p><stage>(aside)</stage> Stow magging—here's more coves coming.</p>
+     </sp>
+     <sp who="#L1213_M20">
+      <speaker>Onion.</speaker>
+      <p>Surely not the police ?—Perhaps, more lodgers. Apartments must be in request here.</p>
+     </sp>
+     <sp who="#L1213_M21">
+      <speaker>Ned.</speaker>
+      <p>No : they are too well togged to belong to our squad.</p>
+     </sp>
+     <sp who="#L1213_M19">
+      <speaker>Bob.</speaker>
+      <p><stage>(to Frank)</stage> I know them these are our men <stage>(draws Frank on one
+        side.)</stage></p>
+     </sp>
+     <stage>Enter Devereux and Shabner down steps, R.</stage>
+     <sp who="#L1213_M17">
+      <speaker>Dever.</speaker>
+      <p><stage>(coming forward)</stage> Two words, if you please my friends ?</p>
+     </sp>
+     <pb n="20"/>
+     <sp who="#L1213_M20">
+      <speaker>Onion.</speaker>
+      <p><stage>(frightened)</stage> Oh lord ! nothing wrong I hope, gentlemen, you don't want any
+       of––</p>
+     </sp>
+     <sp who="#L1213_M18">
+      <speaker>Shabner.</speaker>
+      <p>Don't be alarmed, we don't wish to disturb your midnight revels, here we are merely come in
+       search of some one!</p>
+     </sp>
+     <sp who="#L1213_M20">
+      <speaker>Onion.</speaker>
+      <p>Some one ! Don't know any person of that name, there's no gentleman of that name here.</p>
+     </sp>
+     <sp who="#L1213_M17">
+      <speaker>Dever.</speaker>
+      <p>It is a young man who has for some time tenanted this place, meanly attired, but of elegant
+       and distinguished manners and figure?</p>
+     </sp>
+     <sp who="#L1213_M20">
+      <speaker>Onion.</speaker>
+      <p>Elegant manners, distinguished figure, <stage>(aside)</stage> he must mean me ?
+        <stage>(aloud)</stage> What is the name of this young man sir perhaps I––</p>
+     </sp>
+     <sp who="#L1213_M17">
+      <speaker>Dever.</speaker>
+      <p>His name is Herbert Danvers !</p>
+     </sp>
+     <sp who="#L1213_M29">
+      <speaker>Frank.</speaker>
+      <stage>(aside)</stage>
+      <p>Herbert Danvers!</p>
+     </sp>
+     <sp who="#L1213_M30">
+      <speaker>Herbert.</speaker>
+      <stage>(at back, aside)</stage>
+      <p>My name! <stage>(aloud)</stage>Who wants me? who calls me? <stage>(coming
+       forward)</stage></p>
+     </sp>
+     <sp who="#L1213_mult">
+      <speaker>Dever. and Shabner.</speaker>
+      <stage>(aside)</stage>
+      <p>'Tis he!</p>
+     </sp>
+     <sp who="#L1213_M29">
+      <speaker>Frank.</speaker>
+      <stage>(aside)</stage>
+      <p>Found, found!</p>
+     </sp>
+     <sp who="#L1213_M30">
+      <speaker>Herbert.</speaker>
+      <stage>(recognizing Shabner and Devereux)</stage>
+      <p>Shabner, Devereux!</p>
+     </sp>
+     <sp who="#L1213_M20">
+      <speaker>Onion.</speaker>
+      <p><stage>(aside, significantly)</stage> They know each other.</p>
+     </sp>
+     <sp who="#L1213_M30">
+      <speaker>Herbert.</speaker>
+      <p><stage>(aside)</stage> These men! <stage>(aloud)</stage> What is it you want with me ? What
+       is your purpose in tracking me here ? <stage>(doggedly.)</stage></p>
+     </sp>
+     <sp who="#L1213_M17">
+      <speaker>Dever.</speaker>
+      <p>We'll tell you; but first you must chivy your friends, here. We can dispense with their
+       society at present.</p>
+     </sp>
+     <sp who="#L1213_M30">
+      <speaker>Herbert.</speaker>
+      <p>Leave us, friends, awhile.</p>
+     </sp>
+     <sp who="#L1213_M20">
+      <speaker>Onion.</speaker>
+      <p>A privy council. Oh, ve don't vant to poke our noses vere ve're not vished for, so ve'll
+       say ta, bye, bye ! Come, my friends, to bed, to bed ; it's time for all <hi>decent</hi>
+       people to be at roost; so <hi>alley-cooshay</hi>, as we says it in the modern Greek—this way,
+       ladies and gentlemen. Good night, my rum 'uns ! <stage>(exeunt singing "Champagne Charley,"
+        leaving Herbert, Shabner, and Devereux together. Bob and Frank, are on the
+       listen.</stage></p>
+     </sp>
+     <sp who="#L1213_M19">
+      <speaker>Bob.</speaker>
+      <p><stage>(aside to Frank)</stage> They've retired, so wont we, we can nose all here, snug
+       enough, lie close <stage>(they furtively conceal themselves on one side.)</stage></p>
+     </sp>
+     <sp who="#L1213_M30">
+      <speaker>Herbert.</speaker>
+      <p><stage>(looking round and seeing the coast clear.)</stage> Now then, you can speak freely
+       your purpose ? Do you come to triumph in the misery you have created ? Is it not
+       <pb n="21"/> enough that you have ruined me? That my prostration is the work of your
+       hands.</p>
+     </sp>
+     <sp who="#L1213_M17">
+      <speaker>Dever.</speaker>
+      <p>Not so fast, we've come to make all right again, to restore you to your former
+       position.</p>
+     </sp>
+     <sp who="#L1213_M30">
+      <speaker>Herbert.</speaker>
+      <p>Can it be possible ? You mock me, you know I have no money, no hope !</p>
+     </sp>
+     <sp who="#L1213_M18">
+      <speaker>Shabner.</speaker>
+      <p>You don't want any hope, you've only to accept the terms we come to offer you.</p>
+     </sp>
+     <sp who="#L1213_M17">
+      <speaker>Dever.</speaker>
+      <p>You shall again shine at the west end !</p>
+     </sp>
+     <sp who="#L1213_M18">
+      <speaker>Shabner.</speaker>
+      <p>Have your cabriolet—your tiger !</p>
+     </sp>
+     <sp who="#L1213_M17">
+      <speaker>Dever.</speaker>
+      <p>Your box at the opera, your stud at Newmarket, belong to Crockford's.</p>
+     </sp>
+     <sp who="#L1213_M18">
+      <speaker>Shabner.</speaker>
+      <p>Put up at the Clarendon, put in for the St. Leger, run for the Derby.</p>
+     </sp>
+     <sp who="#L1213_M30">
+      <speaker>Herbert.</speaker>
+      <p>And by what miracle ? I am bewildered.</p>
+     </sp>
+     <sp who="#L1213_M17">
+      <speaker>Dever.</speaker>
+      <p>No miracle at all. You have but to say the word, and our friend Shabner, here, becomes your
+       banker; you may draw on him for whatever tip you choose.</p>
+     </sp>
+     <sp who="#L1213_M18">
+      <speaker>Shabner.</speaker>
+      <p>Yes, any advances. I'll lend you three-and- sixpence, now, my tear.</p>
+     </sp>
+     <sp who="#L1213_M30">
+      <speaker>Herbert.</speaker>
+      <p>Exchange these rags for luxury and riches ! But what am I to do for all this.</p>
+     </sp>
+     <sp who="#L1213_M17">
+      <speaker>Dever.</speaker>
+      <p>That's our secret. To-morrow you shall know all, till then you must trust to us, you have
+       only to consent to be happy, without inquiring by what means. You know Shabner's rather too
+       much tin to run the risk of losing it, by mixing himself up in any move that's not exactly on
+       the square; say the word then, ten thousand a-year, four-in-hand, or breaking stones and the
+       union workhouse.</p>
+     </sp>
+     <sp who="#L1213_M30">
+      <speaker>Herbert.</speaker>
+      <p><stage>(hesitates)</stage> Ah !</p>
+     </sp>
+     <sp who="#L1213_M29">
+      <speaker>Frank.</speaker>
+      <p><stage>(aside)</stage> What horrid plot is this ? But I will tear him from them, <stage>(is
+        about rushing forward.)</stage></p>
+     </sp>
+     <sp who="#L1213_M19">
+      <speaker>Bob.</speaker>
+      <p><stage>(aside restraining him)</stage> No you wont. That's easier said than done. You'll
+       spoil all, if you don't mind ; you don't exactly know these gentlemen, I do. Leave them to
+       me, I'll cook their goose for them before I've done, or my name ain't Bob.</p>
+     </sp>
+     <sp who="#L1213_M29">
+      <speaker>Frank.</speaker>
+      <p><stage>(aside)</stage> Well, well, <stage>(draws back with Bob.)</stage></p>
+     </sp>
+     <sp who="#L1213_M17">
+      <speaker>Dever.</speaker>
+      <p><stage>(to Herbert)</stage> Have you decided ? That little bit of muslin of yours, think of
+       her !</p>
+     </sp>
+     <sp who="#L1213_M30">
+      <speaker>Herbert.</speaker>
+      <p>Ah! if I thought I could, without crime ; without dishonour.</p>
+     </sp>
+     <sp who="#L1213_M17">
+      <speaker>Dever.</speaker>
+      <p>We swear you can !</p>
+     </sp>
+     <sp who="#L1213_M19">
+      <speaker>Bob.</speaker>
+      <p><stage>(aside)</stage> Over the bender.</p>
+     </sp>
+     <sp who="#L1213_M17">
+      <speaker>Dever.</speaker>
+      <p>You're an indispensible agent in a scheme of the
+       <pb n="22"/>greatest magnitude, all depends upon you ; you have simply to accept.</p>
+     </sp>
+     <sp who="#L1213_M30">
+      <speaker>Herbert.</speaker>
+      <p>Enough ! Anything but misery like this ; tomorrow––</p>
+     </sp>
+     <sp who="#L1213_M17">
+      <speaker>Dever.</speaker>
+      <p>You shall know all, we've said it, you have done well. But you must quit this place, and
+       instantly. Yes, you must cast off these rags, a splended supper waits you ; wine, friends, a
+       couch of down—all, all!</p>
+     </sp>
+     <sp who="#L1213_M30">
+      <speaker>Herbert.</speaker>
+      <p>I'm yours ! Farewell this den ! for ever.</p>
+     </sp>
+     <sp who="#L1213_M17">
+      <speaker>Dever.</speaker>
+      <p><stage>(aside)</stage> We have him. <stage>(music—Herbert rushes up steps followed by
+        Devereux and Shabner—Bob and Frank steal forward, watching them.)</stage></p>
+     </sp>
+     <sp who="#L1213_M29">
+      <speaker>Frank.</speaker>
+      <p>He rushes on to destruction—it is some infamous conspiracy to which they lead him ; but
+       I'll unmask them! I'll––</p>
+     </sp>
+     <sp who="#L1213_M19">
+      <speaker>Bob.</speaker>
+      <p>You'll stay here, leave all to the cook, I tell you ; I'll follow them in double quick time
+       ; find out where they are going—you know whore I hang out—come to me in the morning, and if I
+       don't give you a good account of them, say I know nothing. I'll soon learn what lay they are
+       on, they are only a little a head of me, I'll be after them— good bye ! trust all to Bob.</p>
+     </sp>
+     <stage>(exit hastily up steps after Herbert, &amp;c.</stage>
+     <sp who="#L1213_M29">
+      <speaker>Frank.</speaker>
+      <p>Wretched Herbert! my misguided brother, to what have you consented ! Poor Louisa ! no
+       thought of thee in all his dreams of splendour, though for the last eight days I have
+       learned, he has abandoned thee ; left thee without a home, without a friend in this vast
+       desert, London ; peopled by hungry monsters. Unhappy girl! what has become of thee ! I would
+       so tenderly have watched over thee! <stage>(leans against L., and low music.)</stage></p>
+     </sp>
+     <stage>Enter Louisa wretchedly clad, R. 1 E.</stage>
+     <sp who="#L1213_F36">
+      <speaker>Louisa.</speaker>
+      <p>Alone ! alone in this wilderness of London—betrayed by him I loved, abandoned to the mercy
+       of a cruel, heartless world. What is to become of me, friendless, and alone! Oh, Herbert, you
+       have indeed been cruel. My brain whirls ! I have but one hope—yes, the river, to find beneath
+       it's rolling waters a suicide's grave, <stage>(she disappears R., and is seen directly on
+        wharf—she kneels. Lime light full upon her face)</stage> Oh, heaven, forgive my betrayer,
+       and pity and pardon me. <stage>(with a shriek, she leaps into the river.)</stage></p>
+     </sp>
+     <sp who="#L1213_M29">
+      <speaker>Frank.</speaker>
+      <p>What was that ?</p>
+     </sp>
+     <sp who="#L1213_mult">
+      <speaker>Omnes.</speaker>
+      <p><stage>(rising)</stage> What's the row ?</p>
+     </sp>
+     <pb n="23"/>
+     <sp who="#L1213_M29">
+      <speaker>Frank.</speaker>
+      <p>A woman in the water! I'll save or perish with her ! <stage>(he is seen to leap in river
+        from wharf—Omnes shout, Frank swims towards the shore, Louisa in his arms)</stage> Help me
+       or I sink. <stage>(Fogg seizes an oar, and holds it towards him, Frank catches it, and is
+        drawn ashore.)</stage></p>
+     </sp>
+     <sp who="#L1213_M28">
+      <speaker>Fogg.</speaker>
+      <p>They're saved, they're saved!</p>
+     </sp>
+     <stage>(Tableau—act drop quickly.</stage>
+    </div>
+    <trailer> END OF THE FIRST ACT. </trailer>
+   </div>
+
+   <div type="act">
+    <head>ACT II.</head>
+    <div type="scene">
+     <head>SCENE FIRST.—</head>
+     <stage> Bob's humble garret in the Pollard's (2nd grooves)—clock strikes five.</stage>
+     <stage>Bob Yorkney discovered at tub washing his linen.</stage>
+     <sp who="#L1213_M19">
+      <speaker>Bob.</speaker>
+      <p>Five o'clock! I've tracked my man, and lodged my lady. Yes, I have found out all Mr.
+       Herbert's moves for Master Frank, and got Charlotte a room below; so she's not much out in
+       supposing I am rather above her. If she said so much about their letting her cat out of the
+       basket, what the deuce will she say when I let the cat out of the bag, and disclose all ?
+       Every man his own laundress. <stage>(finishing his washing)</stage> Let me see what sort of a
+       morning it is. She must have retired by this time, <stage>(puts his head out of the window,
+        the door opens, and Charlotte peeps in.)</stage></p>
+     </sp>
+     <sp who="#L1213_F37">
+      <speaker>Charl.</speaker>
+      <p><stage>(aside)</stage> Heigho! I can't sleep, where is Mr. Yorkney ? Whether it is the
+       fleas bite one so or what, <stage>(sees Bob)</stage> Eh! up—looking out of window, that linen
+       just washed too ; I strongly suspect, let me convince myself ! <stage>(steals in and conceals
+        herself behind door. Bob leaves window and comes forward.)</stage></p>
+     </sp>
+     <sp who="#L1213_M19">
+      <speaker>Bob.</speaker>
+      <p>It's a beautiful morning. I must deceive Charlotte somehow ; she'll give me turnips to a
+       certainty, if she thinks I haven't got a servant, as I had before I ran through my fortune.
+       That scoundrel Jacques, my French tiger
+       <pb n="24"/>was once my right hand, and now I'll make my right hand my tiger ; tit for tat.
+       Let me practise a bit.</p>
+     </sp>
+     <sp who="#L1213_F37">
+      <speaker>Charl.</speaker>
+      <p><stage>(aside)</stage> Ho, ho ! this is it, is it Mr. Yorkney ?</p>
+     </sp>
+     <sp who="#L1213_M19">
+      <speaker>Bob.</speaker>
+      <p><stage>(foppishly)</stage> Jacques my good fellow, get my things ready to dress, bring me a
+       clean shirt. Ah, oui, mi lor <stage>(imitating French accent)</stage> 'dere is your chemise
+       blanche, your clean shirt, very good Jacques, let me put it on. <stage>(puts on false
+        collar.)</stage> There I've put on my clean shirt. Now, then, my boots, and my D'Orsay.
+       Voila, my lord, vos bottes et votre habit, bon bon. <stage>(takes queer coat and boots and
+        puts them on.)</stage> Now, then, Jacques, allez toute suite, and tell Mademoiselle, below
+       that––</p>
+     </sp>
+     <sp who="#L1213_F37">
+      <speaker>Charl.</speaker>
+      <p><stage>(coming forward)</stage> You need not trouble yourself sir. Mademoiselle knows
+       all.</p>
+     </sp>
+     <sp who="#L1213_M19">
+      <speaker>Bob.</speaker>
+      <p><stage>(aside, thunderstruck)</stage> The devil! <stage>(furtively slides socks, &amp;c,
+        from line and puts them, in his pocket.)</stage></p>
+     </sp>
+     <sp who="#L1213_F37">
+      <speaker>Charl.</speaker>
+      <p><stage>(ironically seeing him)</stage> You need not put your linen in your portmanteau. I
+       thought I heard you talking to your French tiger ?</p>
+     </sp>
+     <sp who="#L1213_M19">
+      <speaker>Bob.</speaker>
+      <p><stage>(aside)</stage> Tiger cat, she should have said, <stage>(aloud)</stage> No; only
+       practising. I have sent him for a draft I've drawn on my banker.</p>
+     </sp>
+     <sp who="#L1213_F37">
+      <speaker>Charl.</speaker>
+      <p>Aldgate pump!</p>
+     </sp>
+     <sp who="#L1213_M19">
+      <speaker>Bob.</speaker>
+      <p><stage>(aside)</stage> I thought she'd throw cold water on it, I'll confess all at, once.
+       Hear me, Charlotte, I'm a ruined homo, a muff, a flat, a Sam, a regular ass. The fact is I
+       haven't a feather to fly with, the truth must out. I have long been a regular scamp upon
+       town, and now be like all the rest of the world, and turn your back on me as soon as you
+       like.</p>
+     </sp>
+     <sp who="#L1213_F37">
+      <speaker>Charl.</speaker>
+      <p>No, Bob; you're naturally a good fellow, and capable of making a woman happy.</p>
+     </sp>
+     <sp who="#L1213_M19">
+      <speaker>Bob.</speaker>
+      <p>Happy! more than happy. I'll delight, transport you.</p>
+     </sp>
+     <sp who="#L1213_F37">
+      <speaker>Charl.</speaker>
+      <p>I don't want that exactly. In a word, forget all your former follies, be industrious, be
+       faithful, and my hand and fortune are still at your disposal.</p>
+     </sp>
+     <sp who="#L1213_M19">
+      <speaker>Bob.</speaker>
+      <p>Hurrah ! hurrah ! it's a bargain ; let me set my seal to it, you jade, <stage>(catches her
+        up, kisses her, and swings her round!)</stage></p>
+     </sp>
+     <sp who="#L1213_M29">
+      <speaker>Frank.</speaker>
+      <p><stage>(without)</stage> Yorkney, Yorkney ! <stage>(calling)</stage> Open— quick.</p>
+     </sp>
+     <sp who="#L1213_M19">
+      <speaker>Bob.</speaker>
+      <p>Eh! Mr. Danver's voice ! What screw's loose now? Excuse me my darling, <stage>(opens
+        door.)</stage></p>
+     </sp>
+     <pb n="25"/>
+     <stage>Enter Frank, followed by Tom Fogg, bearing in Louisa insensible, door in flat.</stage>
+     <sp who="#L1213_M29">
+      <speaker>Frank.</speaker>
+      <p>Thank heaven I've found you. I was afraid you'd not be here.</p>
+     </sp>
+     <sp who="#L1213_M19">
+      <speaker>Bob.</speaker>
+      <p>Don't be alarmed, I'm not out, I assure you. But what the deuce–</p>
+     </sp>
+     <sp who="#L1213_M29">
+      <speaker>Frank.</speaker>
+      <p>Let me implore your assistance, your protection for this poor unfortunate girl.</p>
+     </sp>
+     <sp who="#L1213_F37">
+      <speaker>Charl.</speaker>
+      <p>What am I to think, Mr. Yorkney ? But she is a woman—she wants our succour, I cannot
+       hesitate—a chair, Yorkney.</p>
+     </sp>
+     <sp who="#L1213_M19">
+      <speaker>Bob.</speaker>
+      <p>Here's the chair. <stage>(Yorkney brings chair, Charlotte assists Frank to place Louisa in
+        it.)</stage></p>
+     </sp>
+     <sp who="#L1213_F37">
+      <speaker>Charl.</speaker>
+      <p>How shall we revive her ? Some burnt paper— vinegar ?</p>
+     </sp>
+     <sp who="#L1213_M28">
+      <speaker>Fogg.</speaker>
+      <p><stage>(tenderly)</stage> A little gin.</p>
+     </sp>
+     <sp who="#L1213_M29">
+      <speaker>Frank.</speaker>
+      <p>Hush! she revives!</p>
+     </sp>
+     <sp who="#L1213_F37">
+      <speaker>Charl.</speaker>
+      <p>That pallid air, that wet dress. I guess how it has been, poor thing.</p>
+     </sp>
+     <sp who="#L1213_M29">
+      <speaker>Frank.</speaker>
+      <p>At this early hour, no house open ; this was my nearest hope for aid—you had given me your
+       address, and —soft—she opens her eyes. Pardon me, my friends, but I would spare her the
+       embarrassment, the shame––</p>
+     </sp>
+     <sp who="#L1213_F37">
+      <speaker>Charl.</speaker>
+      <p>Yes, yes, we will retire. When you want us you can call. Come, Mr. Yorkney.
+        <stage>(x's.)</stage></p>
+     </sp>
+     <sp who="#L1213_M19">
+      <speaker>Bob.</speaker>
+      <p>My darling!</p>
+     </sp>
+     <sp who="#L1213_F37">
+      <speaker>Charl.</speaker>
+      <p>No doubt it's some love affair. Oh, these monsters of men! Oh, Mr. Yorkney, if ever you
+       should—</p>
+     </sp>
+     <sp who="#L1213_M19">
+      <speaker>Bob.</speaker>
+      <p>Nonsense, my divinity ! I'll be as true as steel. <stage>(exeunt Charlotte and Bob, door in
+        flat.</stage></p>
+     </sp>
+     <sp who="#L1213_M28">
+      <speaker>Fogg.</speaker>
+      <p><stage>(aside)</stage> I'll remain here, in case they should want any gin got.
+        <stage>(draws back.)</stage></p>
+     </sp>
+     <sp who="#L1213_F36">
+      <speaker>Louisa.</speaker>
+      <p><stage>(reviving)</stage> Where am I ? What place is this ?</p>
+     </sp>
+     <sp who="#L1213_M29">
+      <speaker>Frank.</speaker>
+      <p>You are with friends, who love—who pity you. Friends who would make you happy.</p>
+     </sp>
+     <sp who="#L1213_F36">
+      <speaker>Louisa.</speaker>
+      <p>Happy ! oh, no—no—no! there is no longer happiness for me.</p>
+     </sp>
+     <sp who="#L1213_M29">
+      <speaker>Frank.</speaker>
+      <p>Nay, say not so, Louisa. Dear Louisa, look at me: do you not remember your old
+       acquaintance, Frank Danvers ?</p>
+     </sp>
+     <sp who="#L1213_F36">
+      <speaker>Louisa.</speaker>
+      <p>Ah, Frank!</p>
+     </sp>
+     <sp who="#L1213_M29">
+      <speaker>Frank.</speaker>
+      <p>Your friend, your protector, who never will forsake you.</p>
+     </sp>
+     <sp who="#L1213_F36">
+      <speaker>Louisa.</speaker>
+      <p>It is indeed Frank. But in what a moment do we meet again. I recollect it all now. Oh, why
+       did
+       <pb n="26"/> you snatch me from a death that would have terminated all my sorrows, all my
+       sufferings ?</p>
+     </sp>
+     <sp who="#L1213_M29">
+      <speaker>Frank.</speaker>
+      <p>Death ! Why talk of death ? Is there not hope on earth, and aid in heaven ?</p>
+     </sp>
+     <sp who="#L1213_F36">
+      <speaker>Louisa.</speaker>
+      <p>Hope—aid—you know not what I have endured; what agony, delirium, despair, or you would
+       pity.</p>
+     </sp>
+     <sp who="#L1213_M29">
+      <speaker>Frank.</speaker>
+      <p>I do—I do ! hapless Louisa!</p>
+     </sp>
+     <sp who="#L1213_F36">
+      <speaker>Louisa.</speaker>
+      <p>An orphan! friendless, and alone; there was but one on whom I placed reliance ; to him I
+       gave up all —my love, devotion, my life, my soul! but he deceived me—left me—what had I then
+       to do but die ? Cruel Herbert!</p>
+     </sp>
+     <sp who="#L1213_M29">
+      <speaker>Frank.</speaker>
+      <p>I know it all.</p>
+     </sp>
+     <sp who="#L1213_F36">
+      <speaker>Louisa.</speaker>
+      <p>He was the first who spoke to me in tenderness. I had no guide, no counsellor to warn me—he
+       swore to wed me, and I—I loved him far too truly to think he could mean falsely—I consented
+       to share his fate—I fled with him—it was a fault—a fault that heaven has visited in anger—how
+       keenly have I suffered—how bitterly have I repented.</p>
+     </sp>
+     <sp who="#L1213_M29">
+      <speaker>Frank.</speaker>
+      <p>Compose yourself; you've tasted the last drop of anguish now—there's yet bright days in
+       store for you. Oh, yes, believe it.</p>
+     </sp>
+     <sp who="#L1213_F36">
+      <speaker>Louisa.</speaker>
+      <p>When reckless extravagance had reduced our little means to their extremest verge I sought
+       by work to ward off poverty; the midnight lamp saw me at my embroidery ; I said nought's left
+       us now but love ; and till he wrenched that from me, I laboured happily. I dreamt not of
+       despair.</p>
+     </sp>
+     <sp who="#L1213_M29">
+      <speaker>Frank.</speaker>
+      <p>Great heaven ! and then––</p>
+     </sp>
+     <sp who="#L1213_F36">
+      <speaker>Louisa.</speaker>
+      <p>My energies forsook me—a day without employment brought want and famine.</p>
+     </sp>
+     <sp who="#L1213_M29">
+      <speaker>Frank.</speaker>
+      <p><stage>(aside)</stage> And I was revelling in luxury, I amassed riches for her—he entailed
+       but wretchedness and privation!</p>
+     </sp>
+     <sp who="#L1213_F36">
+      <speaker>Louisa.</speaker>
+      <p>Abandoned by the world—by him—you cannot wonder that, in a moment of distraction, I should
+       have sought to fly from all my sufferings fly from a world that had deserted me. I thought
+       upon my mother—I prayed to be forgiven—I breathed his name in pardon—I—I—you know the
+       rest.</p>
+     </sp>
+     <sp who="#L1213_M29">
+      <speaker>Frank.</speaker>
+      <p><stage>(hides his eyes)</stage> Oh, yes—yes—yes !</p>
+     </sp>
+     <sp who="#L1213_M28">
+      <speaker>Fogg.</speaker>
+      <p><stage>(aside)</stage> Poor thing—poor thing! and I've got no gin. <stage>(looks at Louisa,
+        wipes his eyes.)</stage></p>
+     </sp>
+     <sp who="#L1213_M29">
+      <speaker>Frank.</speaker>
+      <p>No more! no more ! All shall yet be well; you shall see Herbert—I will yet yield him to
+       your arms—he
+       <pb n="27"/> shall ratify his vows—yes, I swear he shall be your</p>
+     </sp>
+     <sp who="#L1213_F36">
+      <speaker>Louisa.</speaker>
+      <p>Ah should it be so—should he still love me— how shall I bless the generous friend that
+       saved me—give him to my knowledge, tell me who–</p>
+     </sp>
+     <sp who="#L1213_M29">
+      <speaker>Frank.</speaker>
+      <p>A thousand times I swore I would watch over —would preserve you; and heaven vouchsafed to
+       smile upon my vows. I have not sworn in vain.</p>
+     </sp>
+     <sp who="#L1213_F36">
+      <speaker>Louisa.</speaker>
+      <p>You—and was it you, then ?</p>
+     </sp>
+     <sp who="#L1213_M29">
+      <speaker>Frank.</speaker>
+      <p>Yes, Louisa; a providential chance 'twas which, at that moment led me to the spot, where,
+       aided by this poor fellow — <stage>(points to Fogg.)</stage></p>
+     </sp>
+     <sp who="#L1213_F36">
+      <speaker>Louisa.</speaker>
+      <p>I see it all—my gratitude ––<stage>(turning to Fogg.)</stage></p>
+     </sp>
+     <sp who="#L1213_M28">
+      <speaker>Fogg.</speaker>
+      <p>How could I help doing it when I was there ? A little gin!</p>
+     </sp>
+     <sp who="#L1213_M29">
+      <speaker>Frank.</speaker>
+      <p><stage>(aside to Louisa)</stage> He's a poor unfortunate fellow whose intellects are
+       deranged through excess of drinking.</p>
+     </sp>
+     <sp who="#L1213_F36">
+      <speaker>Louisa.</speaker>
+      <p>His features bear the mark of sorrow and of suffering ; it is only the unhappy that can
+       truly sympathise with those who have known anguish and misfortune. I can easily conceive that
+       he has suffered much.</p>
+     </sp>
+     <sp who="#L1213_M28">
+      <speaker>Fogg.</speaker>
+      <p>Suffered! Oh, yes, I have; I have, much, much.</p>
+     </sp>
+     <sp who="#L1213_M29">
+      <speaker>Frank.</speaker>
+      <p><stage>(x's to Fogg)</stage> Let the remembrance of the life you have saved——</p>
+     </sp>
+     <sp who="#L1213_M28">
+      <speaker>Fogg.</speaker>
+      <p>Remembrance ! Oh, no. When I think, I feel here, <stage>(pointing to his head)</stage> and
+       here, <stage>(pointing to his heart)</stage> and then I must have drink to drown its
+       bitterness ; and when there is no drink, I weep, I suffer, I am mad.</p>
+     </sp>
+     <sp who="#L1213_M29">
+      <speaker>Frank.</speaker>
+      <p>Poor fellow, that shall not be then ! Here's that which long will make you lose the memory
+       of your sorrows, <stage>(gives money.)</stage></p>
+     </sp>
+     <sp who="#L1213_M28">
+      <speaker>Fogg.</speaker>
+      <p>All this? It is too much, they'll take it from me, give me enough to last for two days, two
+       days, <stage>(takes half­crown piece from money and returns the rest. Frank, un­perceived,
+        slips money left into Fogg's coat pocket.)</stage> When this is gone I may not want any more
+       ; I may, perhaps, be dead!</p>
+     </sp>
+     <sp who="#L1213_F36">
+      <speaker>Louisa.</speaker>
+      <p>Dead ! Why despair thus ?</p>
+     </sp>
+     <sp who="#L1213_M28">
+      <speaker>Fogg.</speaker>
+      <p><stage>(quickly to Louisa)</stage>
+       <hi>You</hi> despaired !</p>
+     </sp>
+     <sp who="#L1213_F36">
+      <speaker>Louisa.</speaker>
+      <p>I was mad—I loved—and he––</p>
+     </sp>
+     <sp who="#L1213_M28">
+      <speaker>Fogg.</speaker>
+      <p>I have loved ! I was mad ! Yes, she—she, my wife, she's there, <stage>(looks up)</stage> I
+       cannot work, I cannot pray, it is too late. Liquor, liquor ! Gin, gin ! <stage>(rushes
+        out.)</stage></p>
+     </sp>
+     <sp who="#L1213_M29">
+      <speaker>Frank.</speaker>
+      <p>Unfortunate man.</p>
+     </sp>
+     <pb n="28"/>
+     <sp who="#L1213_F36">
+      <speaker>Louisa.</speaker>
+      <p>My heart bleeds for him.</p>
+     </sp>
+     <sp who="#L1213_M29">
+      <speaker>Frank.</speaker>
+      <p>But let me place you in safe hands ; Yorkney, Yorkney! <stage>(calling.)</stage></p>
+     </sp>
+     <stage>Re-enter Bob and Charlotte, hastily, door in flat.</stage>
+     <sp who="#L1213_M19">
+      <speaker>Bob.</speaker>
+      <p>Here we are, Mr. Frank. Oh, by-the-bye, I had forgot, I've some capital news for you; your
+       brother Herbert is not going to turn out so bad as we had given him credit for. I told you
+       I'd ferret them out.</p>
+     </sp>
+     <sp who="#L1213_F36">
+      <speaker>Louisa.</speaker>
+      <p>Whom said he ? Herbert! Herbert Danvers ?</p>
+     </sp>
+     <sp who="#L1213_M19">
+      <speaker>Bob.</speaker>
+      <p>Yes, Herbert Danvers, Miss, he's in luck ; the daughter of old Dorrington, the rich
+       Liverpool merchant, (a fellow worth half a million, they say) but, it seems, popped her
+       affections upon him, and this very day, I've learnt, he's going to sign the marriage
+       settlement.</p>
+     </sp>
+     <sp who="#L1213_F36">
+      <speaker>Louisa.</speaker>
+      <p>Married! Herbert married! great heavens. <stage>(sinks insensible into chair.)</stage></p>
+     </sp>
+     <sp who="#L1213_M29">
+      <speaker>Frank.</speaker>
+      <p><stage>(aside to Bob)</stage> Unlucky fellow, what have you done ? You have destroyed
+       her.</p>
+     </sp>
+     <sp who="#L1213_F37">
+      <speaker>Charl.</speaker>
+      <p>Robert, oh, if thought. Dear lady––</p>
+     </sp>
+     <sp who="#L1213_M29">
+      <speaker>Frank.</speaker>
+      <p>Louisa, Louisa ! look up; compose yourself. Gently, gently; so, so. She revives! No words,
+       all shall yet be right, <stage>(raising Louisa gently up, who revives, and sinks, in a flood
+        of tears, upon his shoulder—all are moved)</stage></p>
+     </sp>
+     <sp who="#L1213_M19">
+      <speaker>Bob.</speaker>
+      <p><stage>(aside)</stage> I begin to smell a rat. I've put my foot in it here, it seems, with
+       my fine news.</p>
+     </sp>
+     <sp who="#L1213_M29">
+      <speaker>Frank.</speaker>
+      <p>This marriage shall not take place, I swear it. It is some infamous plot, but I'll overturn
+       it all. I'll leave you in the care of this kind girl; there is my purse.</p>
+     </sp>
+     <sp who="#L1213_F37">
+      <speaker>Charl.</speaker>
+      <p>Let me conduct you to my room, Miss.</p>
+     </sp>
+     <sp who="#L1213_M29">
+      <speaker>Frank.</speaker>
+      <p>Yes, yes; Yorkney, you must with me—you know, it seems, where these base suborners are to
+       be found. Your's <hi>is</hi> intelligence.</p>
+     </sp>
+     <sp who="#L1213_M19">
+      <speaker>Bob.</speaker>
+      <p>I didn't leave them, after tracking them quick chisel, till I'd fairly housed them, and
+       learnt all about them.</p>
+     </sp>
+     <sp who="#L1213_M29">
+      <speaker>Frank.</speaker>
+      <p>Cheer up then, Louisa! cheer up—we will subvert them yet; cheer up—cheer up!</p>
+     </sp>
+     <sp who="#L1213_F36">
+      <speaker>Louisa.</speaker>
+      <p>Generous man! could I but think–</p>
+     </sp>
+     <sp who="#L1213_F37">
+      <speaker>Charl.</speaker>
+      <p>Oh, if Mr. Yorkney's to have a hand in it, Miss, you may account it done, bad as he is—I
+       can only tell him he doesn't have me! if he doesn't accomplish it.</p>
+     </sp>
+     <sp who="#L1213_M19">
+      <speaker>Bob.</speaker>
+      <p><stage>(kissing her)</stage> A bargain, my dear Charlotte— signed and sealed.</p>
+     </sp>
+     <pb n="29"/>
+     <sp who="#L1213_M29">
+      <speaker>Frank.</speaker>
+      <p>Dear Louisa ! all shall yet be well!</p>
+     </sp>
+     <stage>(exeunt Frank and Bob through door. Charlotte and Louisa cross stage after them, as
+      scene closes in.</stage>
+    </div>
+    <div type="scene">
+     <head>SCENE SECOND.—</head>
+     <stage>An elegant apartment in an hotel. (1st Grooves.) Table and chairs brought on.</stage>
+     <stage>Enter Herbert, Devereux, and Shabner. (Herbert has changed his dress, and is fashionably
+      attired.)</stage>
+     <sp who="#L1213_M30">
+      <speaker>Herbert.</speaker>
+      <p>Begin here. You promised this morning I should have a full explanation of everything—I now
+       demand it. What is all this—what is this fortune—what am I to do for it? <stage>(with
+        energy.)</stage></p>
+     </sp>
+     <sp who="#L1213_M18">
+      <speaker>Shabner.</speaker>
+      <p>Zounds ! don't fling your arms about in that manner, you'll burst the seams of my coat.</p>
+     </sp>
+     <sp who="#L1213_M30">
+      <speaker>Herbert.</speaker>
+      <p><stage>(impatiently)</stage> Your coat? your coat? I am then a puppet; there must be no
+       further delay—I must— I will know all, and that instantly.</p>
+     </sp>
+     <sp who="#L1213_M17">
+      <speaker>Dever.</speaker>
+      <p>Softly—softly; let's see what you have to complain of. Your daily vision—your nightly
+       dream, was to become one day the favourite of fortune, and to acquire riches; these visions
+       are now on the very point of being accomplished—you have but to accept them—they will be
+       given you.</p>
+     </sp>
+     <sp who="#L1213_M30">
+      <speaker>Herbert.</speaker>
+      <p>Yes; but at what price ? What am I to render in exchange for all this ?</p>
+     </sp>
+     <sp who="#L1213_M17">
+      <speaker>Dever.</speaker>
+      <p>Merely your signature to a marriage settlement.</p>
+     </sp>
+     <sp who="#L1213_M30">
+      <speaker>Herbert.</speaker>
+      <p>Marriage settlement! <hi>I</hi> marry! and Louisa never. <stage>(desperately.)</stage></p>
+     </sp>
+     <sp who="#L1213_M18">
+      <speaker>Shabner.</speaker>
+      <p>Zounds ! take care of my coat, there.</p>
+     </sp>
+     <sp who="#L1213_M17">
+      <speaker>Dever.</speaker>
+      <p><stage>(coolly)</stage> Louisa! and who is she? Some old flame, I suppose.</p>
+     </sp>
+     <sp who="#L1213_M30">
+      <speaker>Herbert.</speaker>
+      <p>No ; she is an angel of virtue and resignation, whom I have condemned to misery and
+       sorrow—to whom I have plighted my troth ! can I abandon her—never— never!</p>
+     </sp>
+     <sp who="#L1213_M17">
+      <speaker>Dever.</speaker>
+      <p>Would you, then, for a few ridiculous scruples, give up a fortune of thirty thousand pounds
+       ?</p>
+     </sp>
+     <sp who="#L1213_M30">
+      <speaker>Herbert.</speaker>
+      <p>Thirty thousand pounds !</p>
+     </sp>
+     <sp who="#L1213_M17">
+      <speaker>Dever.</speaker>
+      <p>Yes ; with which you might ensure the happiness of this Louisa of yours—of yourself, and of
+       two of your most attached friends. Whilst, if you refuse––</p>
+     </sp>
+     <sp who="#L1213_M18">
+      <speaker>Shabner.</speaker>
+      <p>I shall instantly sue you for what I have advanced.</p>
+     </sp>
+     <pb n="30"/>
+     <sp who="#L1213_M17">
+      <speaker>Dever.</speaker>
+      <p>You will return to the misery from which we have rescued you, to beggary, starvation, and
+       despair.</p>
+     </sp>
+     <sp who="#L1213_M30">
+      <speaker>Herbert.</speaker>
+      <p>Cruel alternative.</p>
+     </sp>
+     <sp who="#L1213_M17">
+      <speaker>Dever.</speaker>
+      <p>Why, as the marriage portion of Miss Dorrington will be thirty thousand pounds, you cannot
+       grudge us our third; a widow would have that, you know, while you'll have a wife and double
+       the share. In a word, you must sign an acknowledgment to pay us ten thousand pounds! and I
+       think you will confess that's liberal, <stage>(presents paper.)</stage></p>
+     </sp>
+     <sp who="#L1213_M30">
+      <speaker>Herbert.</speaker>
+      <p><stage>(reads it)</stage> You think that I will sign this ?</p>
+     </sp>
+     <sp who="#L1213_M17">
+      <speaker>Dever.</speaker>
+      <p>Certainly, you'll act jannock, surely ? You don't want to return to the dry arch of
+       Waterloo Bridge, do you ?</p>
+     </sp>
+     <sp who="#L1213_M30">
+      <speaker>Herbert.</speaker>
+      <p>Do not recall the memory of my sufferings— my degradation.</p>
+     </sp>
+     <sp who="#L1213_M17">
+      <speaker>Dever.</speaker>
+      <p>Sign then—you must—you are in our power.</p>
+     </sp>
+     <sp who="#L1213_M18">
+      <speaker>Shabner.</speaker>
+      <p><stage>(quickly)</stage> Yes, I can arrest you for what I've advanced, and you can't take
+       the benefit.</p>
+     </sp>
+     <sp who="#L1213_M30">
+      <speaker>Herbert.</speaker>
+      <p>It is too true. Ah, Louisa, 'tis not my act, but Fate's. Where is the pen ?</p>
+     </sp>
+     <sp who="#L1213_M17">
+      <speaker>Dever.</speaker>
+      <p><stage>(giving him one)</stage> Here. <stage>(Herbert goes to table and signs.)</stage></p>
+     </sp>
+     <sp who="#L1213_M17">
+      <speaker>Dever.</speaker>
+      <p><stage>(watching)</stage> 'Tis done, 'tis done !</p>
+     </sp>
+     <stage>Enter Frank L. U. E., cautiously observing them.</stage>
+     <sp who="#L1213_M18">
+      <speaker>Shabner.</speaker>
+      <p><stage>(aside)</stage> Five thousand! a pretty good morning's work; worth risking a few
+       pounds for.</p>
+     </sp>
+     <sp who="#L1213_M30">
+      <speaker>Herbert.</speaker>
+      <p><stage>(with paper)</stage> There, take it. <stage>(as he presents it to Devereux, Frank
+        rushes between them and seizes it.)</stage></p>
+     </sp>
+     <sp who="#L1213_M29">
+      <speaker>Frank.</speaker>
+      <p>Hold!</p>
+     </sp>
+     <sp who="#L1213_M30">
+      <speaker>Herbert.</speaker>
+      <p>Ah!</p>
+     </sp>
+     <sp who="#L1213_mult">
+      <speaker>Dever. and Shabner.</speaker>
+      <p>Confusion! who is this ?</p>
+     </sp>
+     <sp who="#L1213_M29">
+      <speaker>Frank.</speaker>
+      <p>This is an affair of moment, and requires a witness ! I have come to offer my services.</p>
+     </sp>
+     <sp who="#L1213_M30">
+      <speaker>Herbert.</speaker>
+      <p>Great heavens ! who do I see ?</p>
+     </sp>
+     <sp who="#L1213_M29">
+      <speaker>Frank.</speaker>
+      <p><stage>(aside)</stage> Hush ! silence, <stage>(to Devereux)</stage> You were about to
+       compromise this rash man; it is fit I make him acquainted with his real position.</p>
+     </sp>
+     <sp who="#L1213_M18">
+      <speaker>Shabner.</speaker>
+      <p>But, sir ––<stage>(affecting to bluster.)</stage></p>
+     </sp>
+     <sp who="#L1213_M29">
+      <speaker>Frank.</speaker>
+      <p><stage>(coolly)</stage> Permit me—'tis my duty—by-and-bye we will examine this instrument.
+        <stage>(puts paper in his pocket.)</stage></p>
+     </sp>
+     <sp who="#L1213_M17">
+      <speaker>Dever.</speaker>
+      <p><stage>(fiercely)</stage> 'Sdeath ! By-and-bye—impossible, sir ; it must be done now,
+       by-and-bye won't do.</p>
+     </sp>
+     <sp who="#L1213_M29">
+      <speaker>Frank.</speaker>
+      <p><stage>(coolly)</stage> I do not speak to <hi>you</hi>, now, sir.
+       <pb n="31"/><stage>(Shabner and Devereux stand electrified and abashed, and draw back—to
+        Herbert, ironically)</stage> As I find you here, surrounded by every luxury—she doubtless is
+       equally happy who confided to you her love—her life ! all, all!</p>
+     </sp>
+     <sp who="#L1213_M30">
+      <speaker>Herbert.</speaker>
+      <p>Happy! she shall be––</p>
+     </sp>
+     <sp who="#L1213_M29">
+      <speaker>Frank.</speaker>
+      <p><stage>(bitterly)</stage> Aye; she has been—so happy, that but for me, a few short hours
+       since, and she had lived no longer.</p>
+     </sp>
+     <sp who="#L1213_M30">
+      <speaker>Herbert.</speaker>
+      <p><stage>(much agitated)</stage> Gracious heaven! what say you ? Louisa––</p>
+     </sp>
+     <sp who="#L1213_M29">
+      <speaker>Frank.</speaker>
+      <p><stage>(with great emotion)</stage> Abandoned—heart broken —despairing—reason forsook her.
+       A prey to remorse and famine, if Heaven had not mercifully conducted me to the spot, and
+       given me strength to save her, she wouldn't to-day have wanted either my assistance, or your
+       truth!</p>
+     </sp>
+     <sp who="#L1213_M30">
+      <speaker>Herbert.</speaker>
+      <p><stage>(struck with remorse)</stage> Wretch that I am !</p>
+     </sp>
+     <sp who="#L1213_M17">
+      <speaker>Dever.</speaker>
+      <p><stage>(recovering his confusion, and coming forward)</stage> It was precisely to assist
+       her, that my friend Herbert, here—</p>
+     </sp>
+     <sp who="#L1213_M29">
+      <speaker>Frank.</speaker>
+      <p>I again repeat, I do not address myself to you, sir. <stage>(Devereux draws back,
+        confounded—to Herbert)</stage> You have heard my words; decide, what you will do—shall I
+       give you back this paper—will you now contract this brilliant union that is proposed to
+       you—marry this rich heiress—there will be no impediment. To-morrow, poor Louisa will be no
+       more! killed by your perfidy—your cruelty—you will only have to blush for having usurped a
+       name more valued, it would seem, than your own.</p>
+     </sp>
+     <sp who="#L1213_M30">
+      <speaker>Herbert.</speaker>
+      <p>Oh! no, no, no—I renounce this criminal alliance—I reject this unworthy fortune—I have no
+       longer ambition—Louisa and poverty, rather than riches and remorse.</p>
+     </sp>
+     <sp who="#L1213_M29">
+      <speaker>Frank.</speaker>
+      <p>I was not deceived—thanks, gracious heavens! I have not spoken in vain. Let us away from
+       this hateful place.</p>
+     </sp>
+     <sp who="#L1213_M30">
+      <speaker>Herbert.</speaker>
+      <p>Yes, yes; away, away!</p>
+     </sp>
+     <sp who="#L1213_M17">
+      <speaker>Dever.</speaker>
+      <p><stage>(desperately)</stage> Stay, sir; I would know by what authority––</p>
+     </sp>
+     <sp who="#L1213_M29">
+      <speaker>Frank.</speaker>
+      <p>By what authority ? <stage>(energetically)</stage> The authority of right over wrong—of
+       virtue over villainy. By what authority ? the strongest, the most sacred—self-preservation ;
+       I would not have <hi>MY NAME</hi> dishonoured!</p>
+     </sp>
+     <sp who="#L1213_mult">
+      <speaker>Dever. and Shabner.</speaker>
+      <stage>(astonished)</stage>
+      <p>Your name ?</p>
+     </sp>
+     <sp who="#L1213_M29">
+      <speaker>Frank.</speaker>
+      <p>Yes; I will conceal it no longer; Francis
+       <pb n="32"/>Danvers ! the real Bridegroom expected—the brother of your too credulous
+       victim—of the unhappy man you would have made your tool—you dupe.</p>
+     </sp>
+     <sp who="#L1213_mult">
+      <speaker>Dever. and Shabner.</speaker>
+      <stage>(thunderstruck)</stage>
+      <p>Brother!</p>
+     </sp>
+     <sp who="#L1213_M29">
+      <speaker>Frank.</speaker>
+      <p>Now Herbert, come.</p>
+     </sp>
+     <stage>(exeunt Frank and Herbert, L.</stage>
+     <sp who="#L1213_M17">
+      <speaker>Dever.</speaker>
+      <p><stage>(furiously)</stage> Malediction ; his brother—returned, just at this moment too,
+       when we'd accomplished all; cursed chance—I will not lose him yet. <stage>(rushes off,
+        L.)</stage></p>
+     </sp>
+     <sp who="#L1213_M18">
+      <speaker>Shabner.</speaker>
+      <p><stage>(sinks into chair)</stage> He's carried off my clothes, my jewelry, my union pin,
+       perhaps my cabriolet; I can't stand that—stop ; stop ! Hallo; hallo ! <stage>(rises hastily,
+        and rushes out after them.)</stage></p>
+     </sp>
+    </div>
+    <div type="scene">
+     <head>SCENE THIRD.— </head>
+     <stage>Interior of a low Concert Room in Bermondsey. Stage built, C., foot lights, &amp;c, bar,
+      R.—the room filled with people. Chairman announces whatever is required. Singers are engaged,
+      all applaud vociferously—at end, band plays "God save the Queen." Stage lights are put
+      out—some exeunt—roughs play at bagatelle table, L. Ned Brindle, who has been acting as
+      chairman, and Dick Smith as nigger among them. Shabner discovered giving directions. Waiter at
+      door.</stage>
+     <sp who="#L1213_M21">
+      <speaker>Ned.</speaker>
+      <p>You beat me, Joe; now you must give me my revenge.</p>
+     </sp>
+     <sp who="#L1213_M20">
+      <speaker>Onion.</speaker>
+      <p>I shan't refuse revenge to a friend.</p>
+     </sp>
+     <sp who="#L1213_M21">
+      <speaker>Ned.</speaker>
+      <p>Ha, ha! I'm sure you never did to an enemy.</p>
+     </sp>
+     <sp who="#L1213_M20">
+      <speaker>Onion.</speaker>
+      <p>We should always forgive our enemies.</p>
+     </sp>
+     <sp who="#L1213_M21">
+      <speaker>Ned.</speaker>
+      <p>Ha, ha ! hear the crocodile. Are you keeping a sharp look out there, Dick Smith ?</p>
+     </sp>
+     <sp who="#L1213_M22">
+      <speaker>Dick.</speaker>
+      <p>Aye, aye, old tar ; I'll score the tally, never fear.</p>
+     </sp>
+     <sp who="#L1213_M23">
+      <speaker>Ikey.</speaker>
+      <p>Mind, I shall expect every gemman, as is a gemman, and plays at bagatelle, to pay for the
+       table, and no mistake.</p>
+     </sp>
+     <sp who="#L1213_M21">
+      <speaker>Ned.</speaker>
+      <p>I'll owe it to you, Master Bates. Now Dick, place the red ball, and give me the cue, you
+       young warmint, do. Croky, old fellow, I'll play you three times round the board for a mag a
+       turn, and a pint to come in—the first five out of nine.</p>
+     </sp>
+     <sp who="#L1213_M20">
+      <speaker>Onion.</speaker>
+      <p>With all my heart.</p>
+     </sp>
+     <sp who="#L1213_M21">
+      <speaker>Ned.</speaker>
+      <p>Give us the chalk, Dick.</p>
+     </sp>
+     <sp who="#L1213_M22">
+      <speaker>Dick.</speaker>
+      <p>Oh, you've made up your mind to wall it, have you ; it's no go, Master Ned ; don't use
+       chalk only when I scores myself.</p>
+     </sp>
+     <pb n="33"/>
+     <sp who="#L1213_M21">
+      <speaker>Ned.</speaker>
+      <p>Nonsense, it's only the end of the cue that's a little greasy—don't hit flush. Now
+        then—<stage>(begins to play)</stage> twenty-four ; I'm in luck this evening—I shall make a
+       fortin, if I go on in this manner.</p>
+     </sp>
+     <stage>Enter Devereux door R. u. E. Players stop at their entrance —all rise and bow to
+      Devereux.</stage>
+     <sp who="#L1213_M17">
+      <speaker>Dever.</speaker>
+      <p>Go on, my friends, go on; never mind me, smoke your pipes, dispose of your lush, and play
+       out your game. Bates ! <stage>(calling.)</stage></p>
+     </sp>
+     <sp who="#L1213_M23">
+      <speaker>Ikey.</speaker>
+      <p>Sir ! <stage>(this is the waiter)</stage></p>
+     </sp>
+     <sp who="#L1213_M17">
+      <speaker>Dever.</speaker>
+      <p>A drop of the usual.</p>
+     </sp>
+     <stage>(Devereux and Shabner sit at table, players, &amp;c, resume their pursuits. Ikey returns
+      with liquor.)</stage>
+     <sp who="#L1213_M18">
+      <speaker>Shabner.</speaker>
+      <p>Well, now then for this move, that's to do. everything; for, I confess, my dear, Mr. Fox
+       Skinner, no offence to you, I do not exactly comprehend your designs.</p>
+     </sp>
+     <sp who="#L1213_M17">
+      <speaker>Dever.</speaker>
+      <p>That's very likely; I don't want you to comprehend me, I only ask you to assist me—it's a
+       bold push, a desperate scheme, I grant you, but––</p>
+     </sp>
+     <sp who="#L1213_M18">
+      <speaker>Shabner.</speaker>
+      <p>Well, if I can without compromising myself, manage to get out of the affair without
+       loss–</p>
+     </sp>
+     <sp who="#L1213_M17">
+      <speaker>Dever.</speaker>
+      <p>You can. This is my plan : to seize upon this idiot, Herbert, who has slipped through our
+       fingers, get possession of his bond for the the ten thousand, and then leave him to settle
+       matters with his brother how he can. I am aware there are obstacles to surmount—the brother
+       and the prior engagement, but I think they are to be got over.</p>
+     </sp>
+     <sp who="#L1213_M17">
+      <speaker>Dever.</speaker>
+      <p>Now then ;—first, for this brother—we shall soon have him in our power.</p>
+     </sp>
+     <sp who="#L1213_M18">
+      <speaker>Shabner.</speaker>
+      <p>I hope so. You know there is the money advanced, the clothes, the jewelry, and the
+       cabriolet, this Herbert has got—not but what can I get a warrant out against him for the
+       cab—that's felony, stealing.</p>
+     </sp>
+     <sp who="#L1213_M17">
+      <speaker>Dever.</speaker>
+      <p>Don't fret yourself—don't be in too great a hurry—wait till this brother comes. I've told
+       that half-and-half know-nothing noodle, Yorkney, that the honour of Herbert is in my
+        hands—<stage>(drinks)—</stage>and have made an appointment with this redoubtable brother to
+       meet me on, the subject here.</p>
+     </sp>
+     <sp who="#L1213_M22">
+      <speaker>Dick.</speaker>
+      <p>Forty-five is dead, and fifty acquitted—Mr. Brindle, you've sacked eleven deuce and a win,
+       besides all the trimmings.</p>
+     </sp>
+     <pb n="34"/>
+     <sp who="#L1213_M21">
+      <speaker>Ned.</speaker>
+      <p>Then I shall stand a Jemmy and sauce at Mother Potter's in the Cut; we shall find some old
+       acquaintance there. You'll join us, Onion, won't you? It's your tin, you know, that will pay
+       for the repairs.</p>
+     </sp>
+     <sp who="#L1213_M20">
+      <speaker>Onion.</speaker>
+      <p>No, no !—I've got some business, <hi>private</hi> ; there's something on foot. I'm employed
+       by Government;— <stage>(significantly.)</stage></p>
+     </sp>
+     <sp who="#L1213_M21">
+      <speaker>Ned.</speaker>
+      <p>Oh ! oh! that's a different matter; you're rising in the world. Well, I'll eat your share
+       for you.</p>
+     </sp>
+     <sp who="#L1213_M17">
+      <speaker>Dever.</speaker>
+      <p><stage>(rises)</stage> It is the hour I fixed ; he can't be long— <stage>(takes a cigar
+        from his pocket)</stage> Onion ! <stage>(calling.)</stage></p>
+     </sp>
+     <sp who="#L1213_M20">
+      <speaker>Onion.</speaker>
+      <p><stage>(approaches, and takes off cap)</stage> Sir ! to you.</p>
+     </sp>
+     <sp who="#L1213_M17">
+      <speaker>Dever.</speaker>
+      <p>A light.</p>
+     </sp>
+     <sp who="#L1213_M20">
+      <speaker>Onion.</speaker>
+      <p>Yes, governor; illuminate you. directly, sir.— <stage>(brings light and presents
+        it.)</stage></p>
+     </sp>
+     <sp who="#L1213_M17">
+      <speaker>Dever.</speaker>
+      <p>'Tis well; away, <stage>(begins to smoke. Onion bows and retires.)</stage></p>
+     </sp>
+     <stage>Enter Bob, R. U. E., stealing in, looks cautiously about.</stage>
+     <sp who="#L1213_M19">
+      <speaker>Bob.</speaker>
+      <p><stage>(aside)</stage> As I suspected—Rat's Castle, the Rookery. This is the Dyot-street
+       Hotel, is it? I thought I'd come and see. Eh ! there is Devereux all ready !</p>
+     </sp>
+     <sp who="#L1213_M17">
+      <speaker>Dever.</speaker>
+      <p><stage>(sees him—aside)</stage> Confusion! Yorkney here! What does he want ?
+        <stage>(aloud)</stage> Yorkney !</p>
+     </sp>
+     <sp who="#L1213_M19">
+      <speaker>Bob.</speaker>
+      <p>His own self, Mr. Devereux; just come to let you know, sir, that I have seen Mr. Frank
+       Danvers, and made an appointment with him. <stage>(aside)</stage> There's some infernal
+       mischief on foot. If I could only hide myself anywhere to spoil the plant.</p>
+     </sp>
+     <sp who="#L1213_M17">
+      <speaker>Dever.</speaker>
+      <p><stage>(aside)</stage> The specious scoundrel!</p>
+     </sp>
+     <sp who="#L1213_M18">
+      <speaker>Shabner.</speaker>
+      <p><stage>(to Devereux, in a marked manner)</stage> Well, you know our agreement; I shall
+       leave you now.</p>
+     </sp>
+     <sp who="#L1213_M17">
+      <speaker>Dever.</speaker>
+      <p>Good : Mr. Yorkney will accompany you—you can go together,
+       <stage>(significantly.)</stage></p>
+     </sp>
+     <sp who="#L1213_M19">
+      <speaker>Bob.</speaker>
+      <p><stage>(aside)</stage> The devil!</p>
+     </sp>
+     <sp who="#L1213_M17">
+      <speaker>Dever.</speaker>
+      <p><stage>(aside to Shabner)</stage> You must not lose sight of him. <stage>(hand organ heard
+        at a distance. Devereux listening, aside to Shabner)</stage> Hush! don't you hear that organ
+       ? it announces his approach—he is now in the next street.</p>
+     </sp>
+     <sp who="#L1213_M19">
+      <speaker>Bob.</speaker>
+      <p><stage>(aside)</stage> What devilry are those two pretty chickens hatching now ? <stage>(a
+        pause. A voice is heard crying "Baked 'taters, all hot!")</stage></p>
+     </sp>
+     <sp who="#L1213_M17">
+      <speaker>Dever.</speaker>
+      <p><stage>(still aside to Shabner)</stage> Ah! that cry! he's entering the street—didn't I
+       tell you so—our ten thousand pounds are safe ! <stage>(a clap of the hands heard near the
+        door, twice.)</stage></p>
+     </sp>
+     <pb n="35"/>
+     <sp who="#L1213_M19">
+      <speaker>Bob.</speaker>
+      <p><stage>(aside)</stage> A signal!</p>
+     </sp>
+     <sp who="#L1213_M17">
+      <speaker>Dever.</speaker>
+      <p><stage>(aside to Shabner)</stage> He's within a few paces of the house—that Dick Smith is,
+       indeed, a wakeful bird. <stage>(aloud)</stage> Away, quick, quick, <stage>(to Yorkney, who is
+        going the other way)</stage> No, not that way. Go out by the side door to prevent a cross
+       and jostle, <stage>(whispering Shabner.)</stage></p>
+     </sp>
+     <sp who="#L1213_M19">
+      <speaker>Bob.</speaker>
+      <p><stage>(aside)</stage> I don't know why—but I'm all in a tremble —never mind—I'll queer
+       them yet!</p>
+     </sp>
+     <stage>(exit Bob, following Shabner reluctantly; forced off by Devereux, R. Scarcely are they
+      gone when Frank enters, L. U. E., pauses a moment at the door, and looks around him.)</stage>
+     <sp who="#L1213_M29">
+      <speaker>Frank.</speaker>
+      <p>You have chosen a strange spot, methinks, for our meeting, sir !</p>
+     </sp>
+     <sp who="#L1213_M17">
+      <speaker>Dever.</speaker>
+      <p>It is not very inviting, certainly—but it is private—and our conference requires that we
+       should not be disturbed.</p>
+     </sp>
+     <sp who="#L1213_M29">
+      <speaker>Frank.</speaker>
+      <p>Right; when the honour of a brother—what is this fearful secret you would reveal to me?</p>
+     </sp>
+     <sp who="#L1213_M17">
+      <speaker>Dever.</speaker>
+      <p>Will you not come nearer, sir, and take a seat ? One would think, by your stopping at the
+       door, you were frightened!</p>
+     </sp>
+     <sp who="#L1213_M29">
+      <speaker>Frank.</speaker>
+      <p>Frightened! I? <stage>(comes down, Devereux advances.)</stage></p>
+     </sp>
+     <sp who="#L1213_M17">
+      <speaker>Dever.</speaker>
+      <p>'Tis well, sir; I knew you were a man of courage —we can now hear each other capitally.</p>
+     </sp>
+     <sp who="#L1213_M29">
+      <speaker>Frank.</speaker>
+      <p><stage>(observes Devereux)</stage> To the point, sir—to the point!</p>
+     </sp>
+     <sp who="#L1213_M17">
+      <speaker>Dever.</speaker>
+      <p><stage>(changing tone)</stage> I intend it. You this morning interfered in a little affair
+       that had been previously arranged between me and your brother, Herbert Danvers.</p>
+     </sp>
+     <sp who="#L1213_M29">
+      <speaker>Frank.</speaker>
+      <p>Yes; an infamous bargain—one I could in no way sanction.</p>
+     </sp>
+     <sp who="#L1213_M17">
+      <speaker>Dever.</speaker>
+      <p><stage>(insolently)</stage> Your sanction wasn't wanted, sir; it is sufficient the parties
+       to it were satisfied—your brother had given his word—and with men of honour their word is
+       their bond.</p>
+     </sp>
+     <sp who="#L1213_M29">
+      <speaker>Frank.</speaker>
+      <p>With men of <hi>honour</hi>, it may be so, but––</p>
+     </sp>
+     <sp who="#L1213_M17">
+      <speaker>Dever.</speaker>
+      <p>This irony is ill-timed, sir. I have listened patiently hitherto, neither dreading your
+       resentment, nor wishing your esteem ; I only desire to have the memorandum restored, of which
+       you, this morning, forcibly became the possessor, and which you now have there.
+        <stage>(points to Frank's pocket.)</stage></p>
+     </sp>
+     <sp who="#L1213_M29">
+      <speaker>Frank.</speaker>
+      <p>Indeed! you have been well informed; and is
+       <pb n="36"/> your purpose, in inviting me to this place, simply to obtain possession of this
+       document ?</p>
+     </sp>
+     <sp who="#L1213_M17">
+      <speaker>Dever.</speaker>
+      <p>It is.</p>
+     </sp>
+     <sp who="#L1213_M29">
+      <speaker>Frank.</speaker>
+      <p><stage>(drawing back)</stage> Then, sir, I wish you a very good evening.</p>
+     </sp>
+     <sp who="#L1213_M17">
+      <speaker>Dever.</speaker>
+      <p><stage>(seizing him by the arm)</stage> You do not go, sir!</p>
+     </sp>
+     <sp who="#L1213_M29">
+      <speaker>Frank.</speaker>
+      <p>Who shall hinder me? Away! <stage>(pushes him off, and advances to door, when he is stopped
+        by Onion, and Vagabonds, who seat themselves at different tables. Onion is smoking)</stage>
+       Ha, you are not alone it seems, no matter, I fear you not, this house is public. I can summon
+       aid—I will tell</p>
+     </sp>
+     <sp who="#L1213_M17">
+      <speaker>Dever.</speaker>
+      <p>And I will tell you something, you do not leave this room ? <stage>(seats himself
+        coolly.)</stage></p>
+     </sp>
+     <sp who="#L1213_M29">
+      <speaker>Frank.</speaker>
+      <p>This is too much. But these people—<stage>(pointing to Vagabonds, who are seated up
+        stage)</stage> though they seem poor, doubtless possess some manly feeling, they will not
+       tamely see me sacrificed. Friends—<stage>(advances to them)</stage> this man would rob me,
+       would force me. <stage>(Vagabonds all turn aside with a sneer)</stage> Ah, where am I ?
+        <stage>(astonished.)</stage></p>
+     </sp>
+     <sp who="#L1213_M17">
+      <speaker>Dever.</speaker>
+      <p>You see sir ; will you now resign that paper ?</p>
+     </sp>
+     <sp who="#L1213_M29">
+      <speaker>Frank.</speaker>
+      <p>Never! I see these men are creatures of your will, but still I may obtain that succour from
+       without which is denied within.</p>
+     </sp>
+     <sp who="#L1213_M17">
+      <speaker>Dever.</speaker>
+      <p><stage>(imperatively)</stage> Now, the writing.</p>
+     </sp>
+     <sp who="#L1213_M29">
+      <speaker>Frank.</speaker>
+      <p>Never! you must kill me, coward ere you obtain it, for I will only part from it with life
+       !</p>
+     </sp>
+     <sp who="#L1213_M17">
+      <speaker>Dever.</speaker>
+      <p>Kill you ! No, no, for the last time, will you give up that paper ?</p>
+     </sp>
+     <sp who="#L1213_M29">
+      <speaker>Frank.</speaker>
+      <p>No, no ! Never!</p>
+     </sp>
+     <sp who="#L1213_M17">
+      <speaker>Dever.</speaker>
+      <p>Then we must take it. <stage>(makes signal, Four Men advance, rush upon Frank, and begin to
+        rifle him.)</stage></p>
+     </sp>
+     <sp who="#L1213_M29">
+      <speaker>Frank.</speaker>
+      <p><stage>(struggling)</stage> Villians !—Help ! help ! rescue.</p>
+     </sp>
+     <sp who="#L1213_M20">
+      <speaker>Onion.</speaker>
+      <p>Here it is ? <stage>(gives paper to Devereux, which he has received from one of the
+        Vagabonds who has secured it.</stage></p>
+     </sp>
+     <sp who="#L1213_M17">
+      <speaker>Dever.</speaker>
+      <p>'Tis well, release the gentleman. <stage>(Vagabonds leave Frank and resume their
+        seats.)</stage></p>
+     </sp>
+     <sp who="#L1213_M29">
+      <speaker>Frank.</speaker>
+      <p>You shall one day dearly pay for this.</p>
+     </sp>
+     <sp who="#L1213_M17">
+      <speaker>Dever.</speaker>
+      <p>Not so fast sir, I have not done with you yet.</p>
+     </sp>
+     <sp who="#L1213_M29">
+      <speaker>Frank.</speaker>
+      <p>What more would you ?</p>
+     </sp>
+     <sp who="#L1213_M17">
+      <speaker>Dever.</speaker>
+      <p>You are man of honour, Mr. Danvers, and I know will never forfeit your word, much less your
+       oath.</p>
+     </sp>
+     <sp who="#L1213_M29">
+      <speaker>Frank.</speaker>
+      <p>Well, sir ?</p>
+     </sp>
+     <sp who="#L1213_M17">
+      <speaker>Dever.</speaker>
+      <p>You must therefore, swear by all you hold most cred on earth, never to disclose anything
+       that may have
+       <pb n="37"/>passed here, nor interfere with any project I may here-after put in
+       execution.</p>
+     </sp>
+     <sp who="#L1213_M29">
+      <speaker>Frank.</speaker>
+      <p>Monster! And let you tamely consummate the ruin and dishonour of my brother, become a
+       cowardly accomplice to this odious marriage you would force on him ? far rather perish. No,
+       by the ashes of my father, here I swear, that once beyond the bounds of these accursed walls,
+       I will, to all the world, proclaim this outrage—denounce your villainy.</p>
+     </sp>
+     <sp who="#L1213_M17">
+      <speaker>Dever.</speaker>
+      <p>Thanks for your candour, you mean this ?</p>
+     </sp>
+     <sp who="#L1213_M29">
+      <speaker>Frank.</speaker>
+      <p>The moment I depart from hence I swear to––</p>
+     </sp>
+     <sp who="#L1213_M17">
+      <speaker>Dever.</speaker>
+      <p>Then you shall never leave. To work, <stage>(to Vagabonds.)</stage></p>
+     </sp>
+     <sp who="#L1213_M29">
+      <speaker>Frank.</speaker>
+      <p>Good heavens ! what mean they ? What will become of me? <stage>(knocking heard at
+        door.</stage></p>
+     </sp>
+     <sp who="#L1213_M34">
+      <speaker>Waiter.</speaker>
+      <p>It's the police!</p>
+     </sp>
+     <sp who="#L1213_M18">
+      <speaker>Shabner.</speaker>
+      <p>I shall be ruined.</p>
+     </sp>
+     <sp who="#L1213_M17">
+      <speaker>Dever.</speaker>
+      <p>Quick! gag him, and sing, <stage>(in spite of his struggles, Frank is gagged and hidden by
+        Roughs. Serjeant and Policeman are admitted, as all sing "Walking in the Zoo."</stage></p>
+     </sp>
+     <sp who="#L1213_M31">
+      <speaker>Serjeant.</speaker>
+      <p>What's the meaning of all this noise ?</p>
+     </sp>
+     <sp who="#L1213_M20">
+      <speaker>Onion.</speaker>
+      <p>Only a little bit of an entertainment, as the old house is coming down, that's all sir.
+        <stage>(all sing.)</stage></p>
+     </sp>
+     <sp who="#L1213_M31">
+      <speaker>Serjeant.</speaker>
+      <p>Well, you might draw it a little milder. Good­night, <stage>(he exits—door
+       opens.)</stage></p>
+     </sp>
+     <sp who="#L1213_M17">
+      <speaker>Dever.</speaker>
+      <p>Now you are friendless.</p>
+     </sp>
+     <sp who="#L1213_M19">
+      <speaker>Bob.</speaker>
+      <p><stage>(rushing in)</stage> Not yet, my beauty, <stage>(general fight. Frank is being
+        forced down trap, L.)</stage></p>
+     </sp>
+     <sp who="#L1213_M17">
+      <speaker>Dever.</speaker>
+      <p>The papers safe. </p>
+      <stage>(old Fogg, who has been on un­seen all the time, seizes paper and exclaims—"It is—old
+       Fogg's got it!</stage>
+      <stage>(Tableau, and</stage>
+     </sp>
+
+     <trailer>END OF ACT SECOND.</trailer>
+    </div>
+   </div>
+
+   <div type="act">
+    <head>ACT III.</head>
+    <div type="scene">
+     <head>SCENE FIRST.—</head>
+     <stage>Room in the "Ivy" Public-house. (1st grooves.) Table and chairs.</stage>
+     <stage>Enter Devereux, L.</stage>
+     <sp who="#L1213_M17">
+      <speaker>Dever.</speaker>
+      <p>All goes well, Frank Danvers is safe enough. Louise must next be got rid of. I've sent for
+       old Fogg to assist one. Oh, here he comes.</p>
+     </sp>
+     <pb n="38"/>
+     <stage>Enter Fogg, L.</stage>
+     <sp who="#L1213_M17">
+      <speaker>Dever.</speaker>
+      <p>Sit down, Fogg, by-the-bye, what did you do with that paper you took from me.</p>
+     </sp>
+     <sp who="#L1213_M28">
+      <speaker>Fogg.</speaker>
+      <p>Destroyed it—tore it up.</p>
+     </sp>
+     <sp who="#L1213_M17">
+      <speaker>Dever.</speaker>
+      <p>You're sure ?</p>
+     </sp>
+     <sp who="#L1213_M28">
+      <speaker>Fogg.</speaker>
+      <p>Certain, <stage>(aside)</stage> Not I, Frank Danvers has got it safe enough,
+        <stage>(aloud)</stage> Yes, I tore it.</p>
+     </sp>
+     <sp who="#L1213_M17">
+      <speaker>Dever.</speaker>
+      <p>That's all right, then. Stop, I know you don't like to talk without drink, let us first
+       have some refreshment. Waiter, <stage>(calling.)</stage></p>
+     </sp>
+     <stage>Enter Waiter, L.</stage>
+     <sp who="#L1213_M28">
+      <speaker>Fogg.</speaker>
+      <p>Some gin ! <stage>(sits at table.)</stage></p>
+     </sp>
+     <sp who="#L1213_M17">
+      <speaker>Dever.</speaker>
+      <p>Bring some of your best Geneva, <stage>(exit Waiter. Aside)</stage> So far so good. The
+       brother safe ; Louisa, by the assistance of this drunkard, once removed, no obstacle will
+       then remain; old Dorrington is pacified, and—ah, the liquor. <stage>(Waiter brings on
+        decanter and glasses, and exit)</stage> Now then, to business, <stage>(fills, Fogg
+        drinks)</stage> What think you of this, eh ?</p>
+     </sp>
+     <sp who="#L1213_M28">
+      <speaker>Fogg.</speaker>
+      <p>Capital, best cordial gin! It warms me, fires me, does me good.</p>
+     </sp>
+     <sp who="#L1213_M17">
+      <speaker>Dever.</speaker>
+      <p>Another glass, and then we'll talk, <stage>(fills.)</stage></p>
+     </sp>
+     <sp who="#L1213_M28">
+      <speaker>Fogg.</speaker>
+      <p><stage>(drinks with great relish)</stage> Now I can speak.</p>
+     </sp>
+     <sp who="#L1213_M17">
+      <speaker>Dever.</speaker>
+      <p>Well, we'll talk of Maria Johnson.</p>
+     </sp>
+     <sp who="#L1213_M28">
+      <speaker>Fogg.</speaker>
+      <p><stage>(rising violently)</stage> Who ? oh, no, we must not talk of her, it maddens me.</p>
+     </sp>
+     <sp who="#L1213_M17">
+      <speaker>Dever.</speaker>
+      <p>Nay, nay, compose yourself, be calm, <stage>(makes him resume his seat)</stage> Listen to
+       me —mine are not idle words; I speak of her, because I knew her.</p>
+     </sp>
+     <sp who="#L1213_M28">
+      <speaker>Fogg.</speaker>
+      <p>You knew Maria ? you knew an angel then. Was she not beautiful ?</p>
+     </sp>
+     <sp who="#L1213_M17">
+      <speaker>Dever.</speaker>
+      <p>She was.</p>
+     </sp>
+     <sp who="#L1213_M28">
+      <speaker>Fogg.</speaker>
+      <p>And good as she was beautiful; too good, she died young.</p>
+     </sp>
+     <sp who="#L1213_M17">
+      <speaker>Dever.</speaker>
+      <p>Yes ; scarcely thirty-five.</p>
+     </sp>
+     <sp who="#L1213_M28">
+      <speaker>Fogg.</speaker>
+      <p>Right.</p>
+     </sp>
+     <sp who="#L1213_M17">
+      <speaker>Dever.</speaker>
+      <p>She lived at Esher—'twas her native village.</p>
+     </sp>
+     <sp who="#L1213_M28">
+      <speaker>Fogg.</speaker>
+      <p>It was.</p>
+     </sp>
+     <sp who="#L1213_M17">
+      <speaker>Dever.</speaker>
+      <p>And she would have been there now, and happy, had but her husband been left to watch over
+       and protect her.</p>
+     </sp>
+     <sp who="#L1213_M28">
+      <speaker>Fogg.</speaker>
+      <p><stage>(much moved)</stage> Oh, yes, yes!</p>
+     </sp>
+     <sp who="#L1213_M17">
+      <speaker>Dever.</speaker>
+      <p>But Fate willed otherwise; that husband was
+       <pb n="39"/>one day taken up, thrown into prison, tried, and condemned —for he was
+       guilty.</p>
+     </sp>
+     <sp who="#L1213_M28">
+      <speaker>Fogg.</speaker>
+      <p>No, no, not guilty—inocent, I say. <stage>(vehemently.)</stage></p>
+     </sp>
+     <sp who="#L1213_M17">
+      <speaker>Dever.</speaker>
+      <p>Innocent or guilty, it matters not.</p>
+     </sp>
+     <sp who="#L1213_M28">
+      <speaker>Fogg.</speaker>
+      <p>Innocent, I say. I ought to know—he starved, but never stole !</p>
+     </sp>
+     <sp who="#L1213_M17">
+      <speaker>Dever.</speaker>
+      <p><stage>(aside)</stage> I was right, <stage>(aloud)</stage> your name then, is Thomas
+       Johnson ?</p>
+     </sp>
+     <sp who="#L1213_M28">
+      <speaker>Fogg.</speaker>
+      <p>Yes, yes, with <hi>her</hi>, but since the savage—Deady Fogg, and half a hundred others
+       given in scorn.</p>
+     </sp>
+     <sp who="#L1213_M17">
+      <speaker>Dever.</speaker>
+      <p>Your judge transported you for fourteen years.</p>
+     </sp>
+     <sp who="#L1213_M28">
+      <speaker>Fogg.</speaker>
+      <p>Yes, they tore me from her, from my child, I left them destitute.</p>
+     </sp>
+     <sp who="#L1213_M17">
+      <speaker>Dever.</speaker>
+      <p>She must have suffered much!</p>
+     </sp>
+     <sp who="#L1213_M28">
+      <speaker>Fogg.</speaker>
+      <p>Much—much—'twas well she died.</p>
+     </sp>
+     <sp who="#L1213_M17">
+      <speaker>Dever.</speaker>
+      <p>She had been dead three years when you re­turned.</p>
+     </sp>
+     <sp who="#L1213_M28">
+      <speaker>Fogg.</speaker>
+      <p><stage>(deeply affected)</stage> Yes, yes,—three years.</p>
+     </sp>
+     <sp who="#L1213_M17">
+      <speaker>Dever.</speaker>
+      <p>And you have not forgiven the author of her death ?</p>
+     </sp>
+     <sp who="#L1213_M28">
+      <speaker>Fogg.</speaker>
+      <p><stage>(savagely)</stage> Forgive ! No, no—never, never !</p>
+     </sp>
+     <sp who="#L1213_M17">
+      <speaker>Dever.</speaker>
+      <p>Should you find that wretched person, what would you do ?</p>
+     </sp>
+     <sp who="#L1213_M28">
+      <speaker>Fogg.</speaker>
+      <p><stage>(with deadly determination)</stage> I would kill him.</p>
+     </sp>
+     <sp who="#L1213_M17">
+      <speaker>Dever.</speaker>
+      <p><stage>(insidiously)</stage> Come another glass, <stage>(Fogg drinks)</stage> I know that
+       person ?</p>
+     </sp>
+     <sp who="#L1213_M28">
+      <speaker>Fogg.</speaker>
+      <p><stage>(quickly)</stage> Ah!</p>
+     </sp>
+     <sp who="#L1213_M17">
+      <speaker>Dever.</speaker>
+      <p>It is a <hi>woman</hi> ?</p>
+     </sp>
+     <sp who="#L1213_M28">
+      <speaker>Fogg.</speaker>
+      <p>A woman ? What cause !</p>
+     </sp>
+     <sp who="#L1213_M17">
+      <speaker>Dever.</speaker>
+      <p>Jealousy !—jealousy of your Maria, because less beauteous, she envied—hated her !</p>
+     </sp>
+     <sp who="#L1213_M28">
+      <speaker>Fogg.</speaker>
+      <p><stage>(eagerly)</stage> Ah, well—this woman—this woman?</p>
+     </sp>
+     <sp who="#L1213_M17">
+      <speaker>Dever.</speaker>
+      <p>This very night, you may, perhaps, behold her.</p>
+     </sp>
+     <sp who="#L1213_M28">
+      <speaker>Fogg.</speaker>
+      <p><stage>(wildly)</stage> To-night?—where—where?</p>
+     </sp>
+     <sp who="#L1213_M17">
+      <speaker>Dever.</speaker>
+      <p>Not very distant. There is a lonely lane near the Clapham-road, close to the railway.</p>
+     </sp>
+     <sp who="#L1213_M28">
+      <speaker>Fogg.</speaker>
+      <p>Ah, the King's-cross—the—brickfields—I know them—the "Ivy," I know it well.</p>
+     </sp>
+     <sp who="#L1213_M17">
+      <speaker>Dever.</speaker>
+      <p>Should she pass that way, she will clap her hands in private signal, and will confess if
+       asked, she saw Maria Johnson die—by that you'll know her.</p>
+     </sp>
+     <sp who="#L1213_M28">
+      <speaker>Fogg.</speaker>
+      <p>Enough, nothing shall save her ? <stage>(going.)</stage></p>
+     </sp>
+     <sp who="#L1213_M17">
+      <speaker>Dever.</speaker>
+      <p>Stay, where are you going, <stage>(crosses.)</stage></p>
+     </sp>
+     <sp who="#L1213_M28">
+      <speaker>Fogg.</speaker>
+      <p><stage>(doggedly)</stage> To wait for her.</p>
+     </sp>
+     <sp who="#L1213_M17">
+      <speaker>Dever.</speaker>
+      <p>Stop! take that liquor with you? <stage>(points to decanter.)</stage></p>
+     </sp>
+     <pb n="40"/>
+     <sp who="#L1213_M28">
+      <speaker>Fogg.</speaker>
+      <p>No ! I will take this ? <stage>(takes knife from table)</stage> Good bye !—good bye !
+        <stage>(rushes off.)</stage></p>
+     </sp>
+     <sp who="#L1213_M17">
+      <speaker>Dever.</speaker>
+      <p>So that's accomplished ? That footstep ! Ah ! she comes!</p>
+     </sp>
+     <stage>Enter Louisa, R.</stage>
+     <sp who="#L1213_F36">
+      <speaker>Louisa.</speaker>
+      <p><stage>(aside)</stage> I have given them the slip, their revelry, their gaiety, ill
+       assimilated with my lonely thoughts. Now for this stranger ? What can he want with me ? He
+       spoke of Herbert!</p>
+     </sp>
+     <sp who="#L1213_M17">
+      <speaker>Dever.</speaker>
+      <p><stage>(advancing)</stage> Your servant, madam. I requested this interview by the desire of
+       a common friend, Mr. Francis Danvers !</p>
+     </sp>
+     <sp who="#L1213_F36">
+      <speaker>Louisa.</speaker>
+      <p>Ah, the generous, the devoted Frank! I hope no fatal accident––</p>
+     </sp>
+     <sp who="#L1213_M17">
+      <speaker>Dever.</speaker>
+      <p>No, madam; you have nothing to fear, at least on his account.</p>
+     </sp>
+     <sp who="#L1213_F36">
+      <speaker>Louisa.</speaker>
+      <p>For whom else, then ?</p>
+     </sp>
+     <sp who="#L1213_M17">
+      <speaker>Dever.</speaker>
+      <p>The unhappy Herbert!</p>
+     </sp>
+     <sp who="#L1213_F36">
+      <speaker>Louisa.</speaker>
+      <p>Great heavens!</p>
+     </sp>
+     <sp who="#L1213_M17">
+      <speaker>Dever.</speaker>
+      <p>He is obliged to conceal himself, to leave London. But I'll be brief. Heavy embarrassments,
+       which his poor brother and I have in vain endeavoured to meet, have brought on him the
+       harpies of the law. See madam, <stage>(showing bill)</stage> here is an acceptance drawn by
+       Mr. Shabner for ten thousand pounds, and there are others which he's now pursued for.</p>
+     </sp>
+     <sp who="#L1213_F36">
+      <speaker>Louisa.</speaker>
+      <p>Great heavens ! Oh, Herbert, Herbert! Yes ; 'tis too evident.</p>
+     </sp>
+     <sp who="#L1213_M17">
+      <speaker>Dever.</speaker>
+      <p>Mr. Frank wishes you immediately to leave this town for Liverpool—go by the rail—wait there
+       for Herbert —he'll join you there.</p>
+     </sp>
+     <sp who="#L1213_F36">
+      <speaker>Louisa.</speaker>
+      <p>Go without seeing him? Never; if he's in danger 'tis my duty to remain near him ; I will
+       not leave London unless in company with Herbert.</p>
+     </sp>
+     <sp who="#L1213_M17">
+      <speaker>Dever.</speaker>
+      <p>But should it be impossible, should his safety render it necessary that he should quit
+       London alone––</p>
+     </sp>
+     <sp who="#L1213_F36">
+      <speaker>Louisa.</speaker>
+      <p>You'll excuse my apparent want of confidence— but I repeat, that I will not leave London
+       without the fullest conviction that he will not marry another.</p>
+     </sp>
+     <sp who="#L1213_M17">
+      <speaker>Dever.</speaker>
+      <p>Well, then, you <hi>shall</hi> see him, there is where he is waiting.</p>
+     </sp>
+     <sp who="#L1213_F36">
+      <speaker>Louisa.</speaker>
+      <p><stage>(reading)</stage> "The railway, Clapham-road," ah, let me fly—you are certain I
+       shall find him there ?</p>
+     </sp>
+     <sp who="#L1213_M17">
+      <speaker>Dever.</speaker>
+      <p>Yes ; or a man who will conduct you to him—
+       <pb n="41"/>you'll find out this man, for it is necessary to use caution, by clapping your
+       hands thrice near the house, and repeating the mysterious sesame, we have agreed on— these
+       words "I saw Maria Johnson die!"</p>
+     </sp>
+     <sp who="#L1213_F36">
+      <speaker>Louisa.</speaker>
+      <p><stage>(starting, much agitated)</stage> Good heavens ! those words, those ominous
+       words—Maria Johnson!</p>
+     </sp>
+     <sp who="#L1213_M17">
+      <speaker>Dever.</speaker>
+      <p>Do they frighten you ?</p>
+     </sp>
+     <sp who="#L1213_F36">
+      <speaker>Louisa.</speaker>
+      <p>No, no—if <hi>Herbert</hi> has fixed on them.</p>
+     </sp>
+     <sp who="#L1213_M17">
+      <speaker>Dever.</speaker>
+      <p>He has!</p>
+     </sp>
+     <sp who="#L1213_F36">
+      <speaker>Louisa.</speaker>
+      <p>Then I'll repeat them.</p>
+     </sp>
+     <sp who="#L1213_M17">
+      <speaker>Dever.</speaker>
+      <p>Do, they'll bring you to his arms, <stage>(loud laugh without.)</stage></p>
+     </sp>
+     <sp who="#L1213_F36">
+      <speaker>Louisa.</speaker>
+      <p>Those sounds—they come. Adieu! I'll fly to meet him. <stage>(exit Louisa)</stage></p>
+     </sp>
+     <sp who="#L1213_M17">
+      <speaker>Dever.</speaker>
+      <p>What now shall cross me ? The brother lies in death among the ruins—that man will make sure
+       of the woman—let me complete my work—for fortune, Dorrington and Herbert. <stage>(exit at
+        back)</stage></p>
+     </sp>
+    </div>
+    <div type="scene">
+     <head>SCENE SECOND.— </head>
+     <stage>A gloomy cellar in the house of Shabner.</stage>
+     <stage>Enter Frank, R.</stage>
+     <sp who="#L1213_M29">
+      <speaker>Frank.</speaker>
+      <p>A prisoner here in this lonesome place, whilst the villain, Devereux, revels in his guilt;
+       no outlet—no means of escape. Oh, brother, brother, to what has thy folly and imprudence
+       brought thee! Could I but defeat the ruffians, and prevent the consummation of their base
+       designs. When I think that Herbert has consented to personate me, and in my name seeks to
+       bring destruction upon an innocent girl, my heart swells nigh to bursting. <stage>(noise
+        heard—music)</stage> What noise is that—it sounds if some one were trying to remove the
+       bricks of this wall—should it be deliverance! should it be a friend! Oh, heaven grant it—that
+       I may escape to save a brother from shame and ruin, and hurl a deadly retribution on the head
+       of Devereux. <stage>(chord as a portion of the wall falls in, and Bob Yorkney, smothered in
+        mud and dirt, falls through.)</stage></p>
+     </sp>
+     <sp who="#L1213_M19">
+      <speaker>Bob.</speaker>
+      <p>It's only me, governor ; are you dead ? because, if you are, say so, and save me from
+       wriggling through any further.</p>
+     </sp>
+     <sp who="#L1213_M29">
+      <speaker>Frank.</speaker>
+      <p>That voice—I cannot be mistaken—Yorkney.</p>
+     </sp>
+     <sp who="#L1213_M19">
+      <speaker>Bob.</speaker>
+      <p>Yes, Yorkney, who in spite of all those infernal blackguards did to prevent him, fought
+       through every
+       <pb n="42"/>obstacle, and is determined to snatch you from your enemies.</p>
+     </sp>
+     <sp who="#L1213_M29">
+      <speaker>Frank.</speaker>
+      <p>Thanks, thanks.</p>
+     </sp>
+     <sp who="#L1213_M19">
+      <speaker>Bob.</speaker>
+      <p>And I had a job to find you arter they put you down the trap. Lor, I had two or three
+       mills, was thrown out of the house like a dog, but I crawled through the sewers, for I knew
+       where they'd put you. I knocked in the wall, and here I am with a muscle as big as the dome
+       of St. Paul's, to floor any vagabond that dares molest you.</p>
+     </sp>
+     <sp who="#L1213_M29">
+      <speaker>Frank.</speaker>
+      <p>But the villain Devereux ?</p>
+     </sp>
+     <sp who="#L1213_M19">
+      <speaker>Bob.</speaker>
+      <p>I overheard him hire old Fogg to kill your brother's young woman—to-morrow Herbert's to be
+       married to Miss Dorrington, in your name, and your goose is supposed to be cooked.</p>
+     </sp>
+     <sp who="#L1213_M29">
+      <speaker>Frank.</speaker>
+      <p>Can you lead me to him ?</p>
+     </sp>
+     <sp who="#L1213_M19">
+      <speaker>Bob.</speaker>
+      <p>I can, but it's a lonely place.</p>
+     </sp>
+     <sp who="#L1213_M29">
+      <speaker>Frank.</speaker>
+      <p>No, matter, villany must not triumph—I will snatch my brother from infamy, and save a
+       confiding girl from despair. Come, Bob, and heaven will nerve the arm of Frank Danvers to
+       fight in the cause of Innocence, and punish the guilty as their crimes deserved,
+        <stage>(music— they exeunt through wall.)</stage></p>
+     </sp>
+    </div>
+    <div type="scene">
+     <head>SCENE THIRD.—</head>
+     <stage>The Railway, full set. Stage dark. Music.</stage>
+     <stage>Enter Fogg, he looks cautiously round.</stage>
+     <sp who="#L1213_M28">
+      <speaker>Fogg.</speaker>
+      <p>This is the spot. Yes, there is the crib, the "Ivy,"—no one is here—good, good—but will she
+       really come, this murderess ? Should I have been deceived—but no, no, 'tis clear, that man
+       knows all—I'll have revenge!—he says I ought to have it. <stage>(grasping his knife
+        firmly—walks about, agitated.)</stage></p>
+     </sp>
+     <stage>Music. Enter Louisa, cautiously looking round.</stage>
+     <sp who="#L1213_F36">
+      <speaker>Louisa.</speaker>
+      <p>What a gloomy spot. I shudder, my courage fails me.</p>
+     </sp>
+     <sp who="#L1213_M28">
+      <speaker>Fogg.</speaker>
+      <p>A woman! it must be her, let me see. <stage>(rapidly lays hold of her.)</stage></p>
+     </sp>
+     <sp who="#L1213_F36">
+      <speaker>Louisa.</speaker>
+      <p><stage>(shrieks)</stage> Ah ! who are you ? what would you ?</p>
+     </sp>
+     <sp who="#L1213_M28">
+      <speaker>Fogg.</speaker>
+      <p><stage>(surprised)</stage> Who do I see ? I know you, yes, yes, the bridge, 'twas you who
+       would have destroyed yourself.</p>
+     </sp>
+     <sp who="#L1213_F36">
+      <speaker>Louisa.</speaker>
+      <p>And you are he who helped to save me.</p>
+     </sp>
+     <sp who="#L1213_M28">
+      <speaker>Fogg.</speaker>
+      <p><stage>(wildly)</stage> But what do you here?</p>
+     </sp>
+     <pb n="43"/>
+     <sp who="#L1213_F36">
+      <speaker>Louisa.</speaker>
+      <p>I am in search of one—this should be the house.</p>
+     </sp>
+     <sp who="#L1213_M28">
+      <speaker>Fogg.</speaker>
+      <p>No, no, not <hi>that</hi>, away, away and leave me ; I, too, am waiting, expecting some one
+       ; you must not stay I could not before you–</p>
+     </sp>
+     <sp who="#L1213_F36">
+      <speaker>Louisa.</speaker>
+      <p><stage>(aside)</stage> He waiting, can he be the person who is to conduct me to Herbert ? I
+       must ascertain that—<stage>(goes to house.)</stage></p>
+     </sp>
+     <sp who="#L1213_M28">
+      <speaker>Fogg.</speaker>
+      <p><stage>(aside, agitated)</stage> Going there ? Great Heavens!</p>
+     </sp>
+     <sp who="#L1213_F36">
+      <speaker>Louisa.</speaker>
+      <p><stage>(aside)</stage> Now for the signal, <stage>(claps hands )</stage></p>
+     </sp>
+     <sp who="#L1213_M28">
+      <speaker>Fogg.</speaker>
+      <p>That signal—no, no, and yet what do you do there ? Why did you clap your hands ? Oh, if it
+       should be ? <stage>(seizes and brings her down.)</stage></p>
+     </sp>
+     <sp who="#L1213_F36">
+      <speaker>Louisa.</speaker>
+      <p>Ah! did I not say that I would see some one ?</p>
+     </sp>
+     <sp who="#L1213_M28">
+      <speaker>Fogg.</speaker>
+      <p><stage>(with strong emotion)</stage> Who, who ? there is nobody here but me—we are alone, I
+       tell you.</p>
+     </sp>
+     <sp who="#L1213_F36">
+      <speaker>Louisa.</speaker>
+      <p><stage>(aside)</stage> 'Tis plain he knows the secret, but waits the word—this is the man
+       that's to conduct me, I'll speak to him at once, <stage>(aloud)</stage> Listen, my friend :
+       "I saw Maria, Johnson Die!" <stage>(solemnly.)</stage></p>
+     </sp>
+     <sp who="#L1213_M28">
+      <speaker>Fogg.</speaker>
+      <p><stage>(with a wild shriek, raises knife)</stage> Ah, wretch !</p>
+     </sp>
+     <sp who="#L1213_F36">
+      <speaker>Louisa.</speaker>
+      <p><stage>(screams)</stage> Oh, mercy !</p>
+     </sp>
+     <sp who="#L1213_M28">
+      <speaker>Fogg.</speaker>
+      <p><stage>(furiously)</stage> Repeat it, repeat it! Had any other said those words but you—I
+       know not why I tremble—you did not—you did not—no, no, say no.</p>
+     </sp>
+     <sp who="#L1213_F36">
+      <speaker>Louisa.</speaker>
+      <p>You doubt my truth? Again I say "I saw Maria Johnson die! "</p>
+     </sp>
+     <sp who="#L1213_M28">
+      <speaker>Fogg.</speaker>
+      <p><stage>(with desperate energy)</stage> Then I no longer pity! Perish!</p>
+     </sp>
+     <sp who="#L1213_F36">
+      <speaker>Louisa.</speaker>
+      <p><stage>(falling on knees)</stage> Oh, mercy! Yes, I saw her die, she—she was my mother!</p>
+     </sp>
+     <sp who="#L1213_M28">
+      <speaker>Fogg.</speaker>
+      <p><stage>(drops knife)</stage> Your mother! your mother! Merciful Providence!</p>
+     </sp>
+     <sp who="#L1213_F36">
+      <speaker>Louisa.</speaker>
+      <p>That earnest gaze—what horrid mystery!</p>
+     </sp>
+     <sp who="#L1213_M28">
+      <speaker>Fogg.</speaker>
+      <p>Your mother ! I cannot speak, I'm stifling—joy —gratitude—girl, girl—that woman, Maria
+       Johnson your mother ! She was, she was !</p>
+     </sp>
+     <sp who="#L1213_F36">
+      <speaker>Louisa.</speaker>
+      <p>Oh, speak!</p>
+     </sp>
+     <sp who="#L1213_M28">
+      <speaker>Fogg.</speaker>
+      <p>My wife !</p>
+     </sp>
+     <sp who="#L1213_F36">
+      <speaker>Louisa.</speaker>
+      <p><stage>(throwing herself in his arms)</stage> Father, father ! <stage>(chord.)</stage></p>
+     </sp>
+     <sp who="#L1213_M28">
+      <speaker>Fogg.</speaker>
+      <p>Father ! that name heard once again! oh, it repays me all. Daughter, daughter !
+        <stage>(embraces her passionately.)</stage></p>
+     </sp>
+     <sp who="#L1213_F36">
+      <speaker>Louisa.</speaker>
+      <p>We never will part more.</p>
+     </sp>
+     <sp who="#L1213_M28">
+      <speaker>Fogg.</speaker>
+      <p>Never, never!</p>
+     </sp>
+     <sp who="#L1213_F36">
+      <speaker>Louisa.</speaker>
+      <p>My mother blessed you with her dying breath.
+       <pb n="44"/> She knew you were not guilty. She had obtained the proof. It cost her her life ;
+       the wretch for whose guilt you were condemned, to buy her silence and his safety murdered
+       her.</p>
+     </sp>
+     <sp who="#L1213_M28">
+      <speaker>Fogg.</speaker>
+      <p>Great heavens, my poor Maria!</p>
+     </sp>
+     <sp who="#L1213_F36">
+      <speaker>Louisa.</speaker>
+      <p>She had discovered the culprit, whose real name was Bernard Thornton.</p>
+     </sp>
+     <sp who="#L1213_M28">
+      <speaker>Fogg.</speaker>
+      <p>Bernard Thornton ? I do not know him—oh, if I did!</p>
+     </sp>
+     <sp who="#L1213_F36">
+      <speaker>Louisa.</speaker>
+      <p>She never ceased till she had traced him out— he knew this, and he murdered her.</p>
+     </sp>
+     <sp who="#L1213_M28">
+      <speaker>Fogg.</speaker>
+      <p>Oh, should I ever find that wretch ! aye, and that monster, Devereux—he who would have made
+       me kill my <hi>child</hi>!</p>
+     </sp>
+     <sp who="#L1213_F36">
+      <speaker>Louisa.</speaker>
+      <p>'Twas he who sent me here, and bade me speak those words, little suspecting who I really
+       was.</p>
+     </sp>
+     <sp who="#L1213_M28">
+      <speaker>Fogg.</speaker>
+      <p>I see it all—oh, villain! villain!</p>
+     </sp>
+     <sp who="#L1213_F36">
+      <speaker>Louisa.</speaker>
+      <p>Hush! I hear footsteps! Some one comes.</p>
+     </sp>
+     <sp who="#L1213_M28">
+      <speaker>Fogg.</speaker>
+      <p>Ah, 'tis himself—'tis Devereux. He would be certain that his work of blood was done. Leave
+       me, my child. <stage>(picks up knife.)</stage></p>
+     </sp>
+     <sp who="#L1213_F36">
+      <speaker>Louisa.</speaker>
+      <p><stage>(alarmed)</stage> What would you do, my father ?</p>
+     </sp>
+     <sp who="#L1213_M28">
+      <speaker>Fogg.</speaker>
+      <p>Leave me, I say, leave me. <stage>(Music—forces Louisa off, then hastens to meet Devereux,
+        who enters.)</stage></p>
+     </sp>
+     <sp who="#L1213_M17">
+      <speaker>Dever.</speaker>
+      <p>Is all finished ?</p>
+     </sp>
+     <sp who="#L1213_M28">
+      <speaker>Fogg.</speaker>
+      <p>Not all; one act of justice yet remains—your death. <stage>(seizes him.)</stage></p>
+     </sp>
+     <sp who="#L1213_M17">
+      <speaker>Dever.</speaker>
+      <p>Ah, madman!</p>
+     </sp>
+     <sp who="#L1213_F36">
+      <speaker>Louisa.</speaker>
+      <p><stage>(re-entering hastily)</stage> Great heaven! father, what would you do ?</p>
+     </sp>
+     <sp who="#L1213_M28">
+      <speaker>Fogg.</speaker>
+      <p>Away, my child. Die, villain!</p>
+     </sp>
+     <sp who="#L1213_M17">
+      <speaker>Dever.</speaker>
+      <p>So, Master Fogg, this is how you serve me, is it? but I'll soon make short work of you.</p>
+     </sp>
+     <sp who="#L1213_M28">
+      <speaker>Fogg.</speaker>
+      <p>Come on, villain, a father's arm is strong when he fights to protect his child.</p>
+     </sp>
+     <sp who="#L1213_M17">
+      <speaker>Dever.</speaker>
+      <p>Indeed. Take that! <stage>(suddenly stabs Fogg, who falls.)</stage></p>
+     </sp>
+     <sp who="#L1213_F36">
+      <speaker>Louisa.</speaker>
+      <p>Monster, you have killed him. Father, father! <stage>(crawling to him with a faint cry,
+        sinks senseless.)</stage></p>
+     </sp>
+     <sp who="#L1213_M17">
+      <speaker>Dever.</speaker>
+      <p>Now for my masterstroke, this girl once removed. Herbert and the fortune will be scarcely
+       mine. A thought—I have some chloroform in my pocket—it will prevent her further
+       interferences, <stage>(he draws from his pocket and places it to Louisa's nostrils)</stage>
+       Ha, ha! now for master stroke — the down express is due in a
+       <pb n="45"/>few minutes, and railway accidents are not at all impossible. <stage>(raises body
+        of Louisa, places her neck across the rail)</stage> So much for her—now to wait at a
+       distance the consummation of my plan. <stage>(music—he exits)</stage></p>
+     </sp>
+     <sp who="#L1213_M28">
+      <speaker>Fogg.</speaker>
+      <p><stage>(reviving)</stage> Where am I? I thought I had been stabbed, what fearful place is
+       this, and why have they brought me here. There is a mist before my eyes I cannot distinguish
+       an object, <stage>(the red signal light at back is changed to green)</stage> Where is my
+       child gone ? Oh, my old limbs are strengthless, nerveless, I cannot move, <stage>(train is
+        seen to pass at back —green lime light on Louisa)</stage> Oh, heaven, must I die, and not
+       again behold my child! <stage>(noise of train—red light on signal post by side of tunnel
+        changes to white)</stage> Where is she ? I can hear the rattling of the train—but still
+       cannot see my child, <stage>(red glare seen in the tunnel—he suddenly sees Louisa)</stage>
+       Ah, she is there, upon the rails—she will be dashed to pieces ! Oh, let me save her, let me
+       save her ! <stage>(train approaches; he just succeeds in rolling Louisa from it as train
+        dashes from tunnel and off.)</stage></p>
+     </sp>
+     <sp who="#L1213_M17">
+      <speaker>Dever.</speaker>
+      <p>Ha, ha! all is over. <stage>(Frank enters.)</stage></p>
+     </sp>
+     <sp who="#L1213_M29">
+      <speaker>Frank.</speaker>
+      <p>No, villain! you are deceived—from too great a distance to prevent it—I witnessed your
+       crime and you shall now answer to the laws for your attempt at murder ! Help! help!
+        <stage>(seizes him.)</stage></p>
+     </sp>
+     <sp who="#L1213_M17">
+      <speaker>Dever.</speaker>
+      <p>Unhand me, or by hell I'll shoot you like a dog ! <stage>(draws a pistol and points it at
+        Frank, who seizes the barrel —a violent struggle ensues.)</stage></p>
+     </sp>
+     <stage>Enter Yorkney, with Shabner, Railway Officials, &amp;c., with lanterns—the pistol goes
+      off, killing Devereux who falls dead—grand tableau—Fogg embracing Louisa— Herbert kneeling at
+      her feet, Frank standing with the pistol over Devereux.</stage>
+     <stage>CURTAIN.</stage>
+    </div>
+   </div>
+  </body>
+ </text>
+</TEI>
