@@ -1,0 +1,2563 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L0802" xml:lang="en">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title>Orange Blossoms: TEI edition</title>
+    <author ref="lacyp:W0337"><persName>J. P. Wooler</persName><idno type="wikidata"/></author>
+    <respStmt>
+     <resp>TEI conversion</resp>
+     <name>Lou Burnard</name>
+    </respStmt>
+   </titleStmt>
+   <publicationStmt>
+    <distributor>Privately distributed by the Digital Lacy Project</distributor>
+    <idno type="LAE">L0802</idno>
+    <availability>
+     <licence target="https://creativecommons.org/publicdomain/zero/1.0/">The Lacy Project waives
+      all rights to the TEI encoding applied to this material, which it believes to be in the public
+      domain. You may copy, modify, distribute, or perform this work freely. </licence>
+    </availability>
+   </publicationStmt>
+   <sourceDesc>
+    <bibl type="originalSource" n="54.7"><author n="W0337">Wooler, J.P.</author>
+     <title type="main">Orange Blossoms</title>
+     <title type="sub">An Original Comedietta in one Act</title>
+     <extent>25 pp (UM copy: 144 - 169)<measure type="pp" quantity="24"/>
+      <measure type="spCount" quantity="505"/>
+      <measure type="spvCount" quantity="1"/>
+      <measure type="txWords" quantity="8837"/>
+      <measure type="spWords" quantity="8164"/>
+      <measure type="stWords" quantity="673"/>
+     </extent>
+     <title level="s"> Lacy's Acting Edition, volume 54, No. 0802</title><idno type="nic"
+      >N20080</idno></bibl>
+    <bibl type="surrogate" subtype="copytext"><ref
+      target="https://babel.hathitrust.org/cgi/pt?id=mdp.39015067453822&amp;seq=144 ">UM from
+      HT</ref><ref target="local:Vol54/L0802/L0802-um.pdf"/></bibl>
+    <listEvent>
+     <event type="LCP" when="1862-02-15" where="Strand">
+      <desc>Licence sent 15 February 1862 for performance at the Strand. </desc>
+      <bibl type="msSource">BL ms LCP_53011.P</bibl>
+     </event>
+     <event type="firstPerf" when="1862-02-20" source="textNic" where="Strand">
+      <desc>Premiered at Royal Strand Theatre 20 Feb. 1862</desc>
+     </event>
+    </listEvent>
+   </sourceDesc>
+  </fileDesc>
+  <profileDesc>
+   <!--S 1 Comedietta Ca. COMEDIETTA-->
+   <textClass>
+    <catRef target="#sizeS"/>
+    <catRef target="#act1"/>
+    <catRef target="nic:Ca."/>
+    <keywords>
+     <term>COMEDIETTA</term>
+    </keywords>
+   </textClass>
+   <particDesc>
+    <listPerson>
+     <person xml:id="L0802_M1">
+      <persName type="role">Colonel Clarence</persName>
+      <persName type="spkr" n="71">Colonel.</persName>
+     </person>
+     <person xml:id="L0802_M2">
+      <persName type="role">Mr. Falcon Hope</persName>
+      <persName type="spkr" n="100">Falcon.</persName>
+     </person>
+     <person xml:id="L0802_M3">
+      <persName type="role">Mr. Septimus Symmetry</persName>
+      <persName type="spkr" n="178">Sym.</persName>
+     </person>
+     <person xml:id="L0802_F4">
+      <persName type="role">Violet Hope</persName>
+      <persName type="spkr" n="49">Violet.</persName>
+     </person>
+     <person xml:id="L0802_F5">
+      <persName type="role">Isabella Clarence</persName>
+      <persName type="spkr" n="72">Isabel.</persName>
+     </person>
+     <person xml:id="L0802_F6">
+      <persName type="role">Louisa</persName>
+      <persName type="spkr" n="33">Louisa.</persName>
+     </person>
+     <person xml:id="L0802_mult">
+      <persName type="role">[Multiple speakers]</persName>
+      <persName type="spkr" n="2">All.</persName>
+     </person>
+    </listPerson>
+   </particDesc>
+  </profileDesc>
+  <revisionDesc>
+   <change when="2026-03-20">Add wikidata link to titleStmt where possible</change>
+   <change when="2026-03-19">Hand checked against UM pdf</change>
+   <change when="2026-03-19">TEI autotagging by Gemini Pro 2.5</change>
+  </revisionDesc>
+ </teiHeader>
+ <text>
+  <front>
+   <titlePage>
+
+    <titlePart type="main">Orange Blossoms</titlePart>
+    <titlePart type="sub">An original Comedietta</titlePart>
+    <titlePart type="sub">In One Act</titlePart>
+
+    <byline>By <docAuthor>J. P. WOOLER, Esq.</docAuthor> Author of <title>Sisterly Service</title>
+     <title>Plots for Petticoats</title>
+     <title>Language of Flowers</title>
+     <title>Allow me to Apologize</title>
+     <title>Founded on Facts</title>
+     <title>A Twice-told Tale</title>
+     <title>Old Phil's Birthday</title>
+     <title>A Model Husband</title>
+     <title>I'll write to the Times</title>
+     <title>Love in Livery</title> &amp;c. </byline>
+    <docImprint> Thomas Hailes Lacy, 89, Strand, (Opposite Southampton Street, Covent Garden
+     Market,) London. </docImprint>
+
+   </titlePage>
+
+   <performance>
+    <head>Orange Blossoms</head>
+    <p> First produced at the Royal Strand Theatre, (under the management of Mr. Swanborough, Sen.,)
+     Thursday, February 20, 1862.</p>
+
+    <castList>
+     <head>Characters.</head>
+
+     <castItem>
+      <role gender="M">Colonel Clarence</role>
+      <actor>Mr. Ray</actor>
+     </castItem>
+     <castItem>
+      <role gender="M">Mr. Falcon Hope</role>
+      <actor>Mr. Belford</actor>
+     </castItem>
+     <castItem>
+      <role gender="M">Mr. Septimus Symmetry</role>
+      <actor>Mr. Clarke</actor>
+     </castItem>
+     <castItem>
+      <role gender="F">Violet Hope</role>
+      <roleDesc>(Wife to Hope)</roleDesc>
+      <actor>Miss K. Carson</actor>
+     </castItem>
+     <castItem>
+      <role gender="F">Isabella Clarence</role>
+      <roleDesc>(Wife to the Colonel)</roleDesc>
+      <actor>Miss Bufton</actor>
+     </castItem>
+     <castItem>
+      <role gender="F">Louisa</role>
+      <actor>Miss F. Josephs</actor>
+     </castItem>
+    </castList>
+   </performance>
+   <set>
+    <p>SCENE—SYMMETRY'S GARDEN.</p>
+    <p>TIME—THE PRESENT.</p>
+    <p>Costumes—MODERN.</p>
+   </set>
+  </front>
+  <pb n="3"/>
+  <body>
+   <note>[Mr. Lacy's List.]</note>
+   <head>Orange Blossoms</head>
+   <div type="scene">
+    <head>Scene.–</head>
+    <stage>Garden attached to Symmetry's House; Summer House, R. 2 E.; door and window practicable;
+     Shrubbery, L. C.; Terrace, L. 2 E., practicable; garden chairs placed about stage. </stage>
+    <stage>Symmetry discovered sitting on rail of garden chair, C., his feet in the seat, a letter
+     in his hand.</stage>
+    <sp who="#L0802_M3">
+     <speaker>Sym.</speaker>
+     <p><stage>coming down</stage> Upon my word, credit, honour, and reputation! this is too bad!
+      this perpetual and preposterous persecution of the free men of Great Britain by the unblushing
+      women of those three kingdoms, passes all bearing and beggars all belief. Here's poor Falcon
+      Hope fallen a victim to that designing coquette Violet Fane; not but that he brought the
+      mischief on his own fool's head – he was always chevying the girls about –but it is positively
+      a frightful state of things, and a stand must be made against it; these brigands in crinoline
+      and bandoline must be put down, and I must go into Parliament to do it, or hang me if I shan't
+      have some woman coming down to marry me next! Surely some law can be brought to work, to check
+      this monstrous and merciless marauding, upon the hearths and hearts of helpless British
+      bachelors; but laws generally are in a queer state, the laws of society are clearly out of
+      joint, the laws of nations are simply preposterous, and it's not clear to me, that the laws of
+      Nature don't want looking into. Still I've done my best to steer clear of the soft sex
+      myself–soft! <hi>I</hi> never saw anything soft in the sex; precious clear-headed,
+      sharp-sighted bandits I've found 'em all. Still, I left London, buried myself in the country,
+      and picked my neighbours; there isn't a pretty girl in the village–in fact, all the women
+      squint, except three, who're blind and can't, so I naturally thought I should be allowed to
+      exist in a comparative state of safety; and yet this week has annihilated all my hopes, not
+      only has that unutterable imbecile of a Clarence taken a house nearly next door, with that
+      sky-larking cousin of mine, his wife, but now, by way of piling up the agony, I receive this
+      impertinent and cold-blooded epistle. Let me see it once more. <stage>reads</stage> "Dear Sym,
+      You are aware of my having
+      <pb n="4"/> become the happiest dog in existence, by the fact of winning my darling Violet."
+      Poor, devil! "We have just returned from Paris, and before settling down to work, I have
+      determined to spend a few days with my old friend Symmetry, to whom I long to introduce my
+      dear little wife. Expect us to-morrow. Yours always, Falcon Hope. P.S. I shall bring little
+      Loo with me, as I know she will be as welcome as myself." Little Loo! who's little Loo? it
+      can't be a –no, his calamity has not befallen him long enough for that! then who the deuce is
+      little Loo? If I don't play my cards pretty cleverly, they'll <hi>loo</hi> me among 'em! Well,
+      if things come to the worst I can emigrate; I should be safe in some Ojibbeway settlement, and
+      that's what I shall have to do. –That villanous codicil! <stage>Ahem!</stage></p>
+    </sp>
+    <stage>Enter Isabella Clarence, R. 1 E.</stage>
+    <sp who="#L0802_F5">
+     <speaker>Isabel.</speaker>
+     <p>Well, here I am, cousin Septimus!</p>
+    </sp>
+    <sp who="#L0802_M3">
+     <speaker>Sym.</speaker>
+     <p>Yes, here you are– <stage>aside</stage> as we said at school; "bella horrida bella,"
+       <stage>aloud</stage> – and you're not the only misfortune that's to befal me to–day.</p>
+    </sp>
+    <sp who="#L0802_F5">
+     <speaker>Isabel.</speaker>
+     <p>Gallant as ever; what now?</p>
+    </sp>
+    <sp who="#L0802_M3">
+     <speaker>Sym.</speaker>
+     <p>Just run your eye over my wretched face, and the other over that horrid dispatch.</p>
+    </sp>
+    <sp who="#L0802_F5">
+     <speaker>Isabel.</speaker>
+     <p>As that would involve an absolute squint, cousin, I shall devote both my eyes to the letter,
+      with your permission. <stage>reads</stage></p>
+    </sp>
+    <sp who="#L0802_M3">
+     <speaker>Sym.</speaker>
+     <p><stage>aside</stage> I wonder where all this is to end; however, it's rather premature to
+      speculate upon that –it's only just begun.</p>
+    </sp>
+    <sp who="#L0802_F5">
+     <speaker>Isabel.</speaker>
+     <p>Why this is absolutely delightful, Septimus.</p>
+    </sp>
+    <sp who="#L0802_M3">
+     <speaker>Sym.</speaker>
+     <p>Is it?</p>
+    </sp>
+    <sp who="#L0802_F5">
+     <speaker>Isabel.</speaker>
+     <p>Poor Falcon Hope! how glad I shall be to see him again; you know he was somewhat smitten
+      with me once.</p>
+    </sp>
+    <sp who="#L0802_M3">
+     <speaker>Sym.</speaker>
+     <p>Was he? I'm not surprised; he seems fool enough for anything.</p>
+    </sp>
+    <sp who="#L0802_F5">
+     <speaker>Isabel.</speaker>
+     <p>Thank you. But whom did he marry? he calls her Violet; what was her other name?</p>
+    </sp>
+    <sp who="#L0802_M3">
+     <speaker>Sym.</speaker>
+     <p>Fane.</p>
+    </sp>
+    <sp who="#L0802_F5">
+     <speaker>Isabel.</speaker>
+     <p>Indeed! why this is better and better; oh! what a delicious meeting; why you must know that
+      my dear old Colonel proposed to her, before he saw me.</p>
+    </sp>
+    <sp who="#L0802_M3">
+     <speaker>Sym.</speaker>
+     <p>He seems rather partial to ladies, young enough to be his daughters; as some ladies I have
+      heard of, take fancies to men old enough to be their grandfathers.</p>
+    </sp>
+    <sp who="#L0802_F5">
+     <speaker>Isabel.</speaker>
+     <p>Very well aimed, cousin, but it misses the mark; bless you, you can't put me out of conceit
+      with my dear old husband; not that he's an hour older than I approve of, for to tell you a
+      very sober truth, Septimus, I admire gray hair, and were I free tomorrow, would rather marry a
+      man of fifty, than one of twenty.</p>
+    </sp>
+    <pb n="5"/>
+    <sp who="#L0802_M3">
+     <speaker>Sym.</speaker>
+     <p>Well, I can only reply, that you're a woman, and there's no understanding any one of the
+      sex; all I know is, the dear Colonel's a precious old ape.</p>
+    </sp>
+    <sp who="#L0802_F5">
+     <speaker>Isabel.</speaker>
+     <p>Cousin!</p>
+    </sp>
+    <sp who="#L0802_M3">
+     <speaker>Sym.</speaker>
+     <p>And tries to make love to every girl he meets.</p>
+    </sp>
+    <sp who="#L0802_F5">
+     <speaker>Isabel.</speaker>
+     <p>He is welcome to do so if it amuses him. It's no use, Septimus, you can't put me out of
+      temper. Now do you know what I've made up my mind to do?</p>
+    </sp>
+    <sp who="#L0802_M3">
+     <speaker>Sym.</speaker>
+     <p>That's good! No ma'am; what you've made up that very small parcel you call your mind for, I
+      do not know.</p>
+    </sp>
+    <sp who="#L0802_F5">
+     <speaker>Isabel.</speaker>
+     <p>Well, I've made up my mind to marry you.</p>
+    </sp>
+    <sp who="#L0802_M3">
+     <speaker>Sym.</speaker>
+     <p>The deuce you have! are you going to assassinate your other husband?</p>
+    </sp>
+    <sp who="#L0802_F5">
+     <speaker>Isabel.</speaker>
+     <p>Not yet.</p>
+    </sp>
+    <sp who="#L0802_M3">
+     <speaker>Sym.</speaker>
+     <p>Well, we can't have any bigamy, so how are you going to do it?</p>
+    </sp>
+    <sp who="#L0802_F5">
+     <speaker>Isabel.</speaker>
+     <p>You foolish fellow, you don't suppose I'm going to marry you myself; I mean I'll marry you
+      to some one else.</p>
+    </sp>
+    <sp who="#L0802_M3">
+     <speaker>Sym.</speaker>
+     <p>Will you? You're very kind I'm sure.</p>
+    </sp>
+    <sp who="#L0802_F5">
+     <speaker>Isabel.</speaker>
+     <p>Yes! depend upon it; I shall see you married before long.</p>
+    </sp>
+    <sp who="#L0802_M3">
+     <speaker>Sym.</speaker>
+     <p>You may see me hanged; it's much more likely –in fact its not improbable that I shall hang
+      myself, if this persecution is to go on.</p>
+    </sp>
+    <sp who="#L0802_F5">
+     <speaker>Isabel.</speaker>
+     <p>And pray in default of wife and family, may I take the liberty of asking, to whom you intend
+      to leave all your money?</p>
+    </sp>
+    <sp who="#L0802_M3">
+     <speaker>Sym.</speaker>
+     <p>I shall endow a college for decayed bachelors–for those heroes who have fought the good
+      fight and come off victorious. Stop a moment, there's one legacy I mean to leave, and that's
+      to a lady.</p>
+    </sp>
+    <sp who="#L0802_F5">
+     <speaker>Isabel.</speaker>
+     <p>A lady! you leave a legacy to a lady?</p>
+    </sp>
+    <sp who="#L0802_M3">
+     <speaker>Sym.</speaker>
+     <p>Yes! to the only woman I really respect on earth.</p>
+    </sp>
+    <sp who="#L0802_F5">
+     <speaker>Isabel.</speaker>
+     <p>How complimentary you are, cousin.</p>
+    </sp>
+    <sp who="#L0802_M3">
+     <speaker>Sym.</speaker>
+     <p>Am I? I beg your pardon, I didn't intend it. But it is a debt of gratitude I am bound to
+      discharge. I was once–I presume in a fit of temporary insanity–rash enough to propose to that
+      lady.</p>
+    </sp>
+    <sp who="#L0802_F5">
+     <speaker>Isabel.</speaker>
+     <p>Good gracious! and she?</p>
+    </sp>
+    <sp who="#L0802_M3">
+     <speaker>Sym.</speaker>
+     <p>The blessings of a grateful heart upon her, she refused me! I feel the heavy amount of
+      obligation I owe her, and shall feebly attempt to discharge it, by leaving her a thousand
+      pounds.</p>
+    </sp>
+    <sp who="#L0802_F5">
+     <speaker>Isabel.</speaker>
+     <p>Oh, cousin! why didn't you ask me, I'd have refused you for five hundred?</p>
+    </sp>
+    <sp who="#L0802_M3">
+     <speaker>Sym.</speaker>
+     <p>Then you'd have done it very reasonably, that's all I have to say; but I say, are you not
+      wasting your time here? you must have a great deal to do at home.</p>
+    </sp>
+    <sp who="#L0802_F5">
+     <speaker>Isabel.</speaker>
+     <p>Oh, bless you, no! Clarence and I intended spending
+      <pb n="6"/> the day with you; <stage>Sym. groans</stage> but, of course, as you have ladies
+      coming, you must have a lady to entertain them; therefore, while they remain, I shall oblige
+      you by taking up my abode here altogether.</p>
+    </sp>
+    <sp who="#L0802_M3">
+     <speaker>Sym.</speaker>
+     <p><stage>gives a slight scream</stage> What! do you mean to tell me that I am to be shut up
+      for a <hi>week</hi>, in the same house with two married women and one little Loo?</p>
+    </sp>
+    <sp who="#L0802_F5">
+     <speaker>Isabel.</speaker>
+     <p>Exactly! unless we can induce them to stay a <hi>fortnight</hi>!</p>
+    </sp>
+    <sp who="#L0802_M3">
+     <speaker>Sym.</speaker>
+     <p>Then I had better send for a keeper and a straight waistcoat at once, that's all.</p>
+    </sp>
+    <sp who="#L0802_F5">
+     <speaker>Isabel.</speaker>
+     <p>By-the-bye, who <hi>is</hi> little Loo?</p>
+    </sp>
+    <sp who="#L0802_M3">
+     <speaker>Sym.</speaker>
+     <p>Oh, what do I know or care about little Loo! I only hope they'll <hi>lose</hi> her on the
+      road.</p>
+    </sp>
+    <sp who="#L0802_F5">
+     <speaker>Isabel.</speaker>
+     <p>You are full of wit and humanity, cousin; but here comes my lord and master, so I'll take
+      myself off. <stage>crosses, L.</stage></p>
+    </sp>
+    <sp who="#L0802_M3">
+     <speaker>Sym.</speaker>
+     <p>I can't blame him for coming, when he affects so pleasant a diversion in my favour; and when
+      he has succeeded in the desirable manœuvre of taking <hi>you</hi> off, I trust that some
+      providential interference will take <hi>him</hi> off too.</p>
+    </sp>
+    <sp who="#L0802_F5">
+     <speaker>Isabel.</speaker>
+     <p>I shall take the liberty, in return for that highly complimentary remark, of superintending
+      the preparation of the best bed rooms in the house for your visitors– no thanks –and sans
+      adieu!–for I shall see that agreeable face of yours again very shortly.</p>
+    </sp>
+    <stage>Exit up terrace, L. 2 E.</stage>
+    <sp who="#L0802_M3">
+     <speaker>Sym.</speaker>
+     <p>Shall you? I think it doubtful. Now to be bored by Clarence and his twaddle–for next to
+      being talked to <hi>by</hi> a woman, the most objectionable thing is being talked to
+       <hi>about</hi> women, and he can talk of nothing else–ha! an idea! Surely, from what Isabel
+      told me about the previous attachments between these two couples, I can create some confusion
+      among 'em, and punish these men for forcing their wives upon me. I shall be on the look
+      out.</p>
+    </sp>
+    <stage>Enter Colonel Clarence, R. 1 E.</stage>
+    <sp who="#L0802_M1">
+     <speaker>Colonel.</speaker>
+     <p>I say, Symmetry, I'll swear I saw the skirt of a petticoat vanish past the shrubbery. Are
+      you stealing a march upon us after all, eh?</p>
+    </sp>
+    <sp who="#L0802_M3">
+     <speaker>Sym.</speaker>
+     <p>You did see a petticoat, Colonel, and one you ought to know and tremble at. It was your
+      wife.</p>
+    </sp>
+    <sp who="#L0802_M1">
+     <speaker>Colonel.</speaker>
+     <p>Oh, was it? <stage>aside</stage> And she ran away as I approached? I've often had my
+      suspicions of this woman-hater. I must keep an eye on him. <stage>aloud</stage> Well, my boy,
+      any news?</p>
+    </sp>
+    <sp who="#L0802_M3">
+     <speaker>Sym.</speaker>
+     <p>Yes, as disastrous news as need be. I've got some women coming to see me.</p>
+    </sp>
+    <sp who="#L0802_M1">
+     <speaker>Colonel.</speaker>
+     <p>Women? Electric sound!</p>
+    </sp>
+    <sp who="#L0802_M3">
+     <speaker>Sym.</speaker>
+     <p>Galvanic shock!</p>
+    </sp>
+    <pb n="7"/>
+    <sp who="#L0802_M1">
+     <speaker>Colonel.</speaker>
+     <p>Are they young–pretty?</p>
+    </sp>
+    <sp who="#L0802_M3">
+     <speaker>Sym.</speaker>
+     <p>You ought to be the best judge of that, as one of them was an old flame of yours.</p>
+    </sp>
+    <sp who="#L0802_M1">
+     <speaker>Colonel.</speaker>
+     <p>Ah! <stage>aside</stage> This is exciting.</p>
+    </sp>
+    <sp who="#L0802_M3">
+     <speaker>Sym.</speaker>
+     <p>I'm told so–or perhaps it was her mother.</p>
+    </sp>
+    <sp who="#L0802_M1">
+     <speaker>Colonel.</speaker>
+     <p>Sir!</p>
+    </sp>
+    <sp who="#L0802_M3">
+     <speaker>Sym.</speaker>
+     <p>Well, how can I tell? This, is a young woman, once known as Violet Fane.</p>
+    </sp>
+    <sp who="#L0802_M1">
+     <speaker>Colonel.</speaker>
+     <p>Violet Fane! <stage>aside</stage> Meet her again? <stage>aloud</stage> Mr. Symmetry, you
+      have broken the sealed tomb of the past.</p>
+    </sp>
+    <sp who="#L0802_M3">
+     <speaker>Sym.</speaker>
+     <p>Have I? Is there anything in it?</p>
+    </sp>
+    <sp who="#L0802_M1">
+     <speaker>Colonel.</speaker>
+     <p>Yes, sir–crushed affections, blighted hopes, and bitter memories. That young person, sir,
+      once rejected this hand–declined this person–renounced this heart.</p>
+    </sp>
+    <sp who="#L0802_M3">
+     <speaker>Sym.</speaker>
+     <p>No–did she, though?</p>
+    </sp>
+    <sp who="#L0802_M1">
+     <speaker>Colonel.</speaker>
+     <p>Symmetry, I am not quite certain that I ought to meet that young person.</p>
+    </sp>
+    <sp who="#L0802_M3">
+     <speaker>Sym.</speaker>
+     <p>Well, luckily for you, it's optional whether you do or not. I wish <hi>I</hi> could say the
+      same. I should certainly advise you to go home at once, and take your wife with you.</p>
+    </sp>
+    <sp who="#L0802_M1">
+     <speaker>Colonel.</speaker>
+     <p>No–that would be cowardly, despicable. I will brave destiny and see her.</p>
+    </sp>
+    <sp who="#L0802_M3">
+     <speaker>Sym.</speaker>
+     <p>I say, just allow me to observe that I don't see what destiny you have to brave, in
+      connexion with Mrs. Hope. I believe you have formed a matrimonial alliance with another lady,
+      and I, sir, as the cousin of that lady, cannot permit – Pshaw! – What do I care about it? Do
+      as you like–shoot the husband–marry the widow–get hanged for murder, or transported for
+      bigamy. What the deuce is it to me?</p>
+    </sp>
+    <sp who="#L0802_M1">
+     <speaker>Colonel.</speaker>
+     <p>This is strange language, Mr. Symmetry.</p>
+    </sp>
+    <sp who="#L0802_M3">
+     <speaker>Sym.</speaker>
+     <p>Well, then, don't compel me to ruffle my serene temper about a woman. See! you've brought
+      one upon us!</p>
+    </sp>
+    <stage>Enter Isabel from terrace, L. 2 E.</stage>
+    <sp who="#L0802_F5">
+     <speaker>Isabel.</speaker>
+     <p>Oh! cousin, they are coming; I saw them drive up to the gate, and I saw little Loo, and
+      she's the queerest looking thing! I told Charles to send them at once into the garden––isn't
+      it delightful, my dear Clarence? Of course you know all about it?</p>
+    </sp>
+    <sp who="#L0802_M1">
+     <speaker>Colonel.</speaker>
+     <p>Yes, my dear, yes. <stage>aside to Sym.</stage> It will not be necessary, Mr. Symmetry, to
+      mention any portion of our recent conversation to Mrs. Clarence.</p>
+    </sp>
+    <sp who="#L0802_M3">
+     <speaker>Sym.</speaker>
+     <p><stage>to him</stage> Don't be alarmed. <stage>aside</stage> I'll set 'em all by the ears,
+      if I can. <stage>aloud</stage> Why didn't you let 'em stay in the house: the ladies might like
+      to go to bed perhaps.</p>
+    </sp>
+    <sp who="#L0802_F5">
+     <speaker>Isabel.</speaker>
+     <p>Not they ––with such a fascinating host; see, here they come!</p>
+    </sp>
+    <sp who="#L0802_M3">
+     <speaker>Sym.</speaker>
+     <p>Oh! I'm not going to look fascinating; they shan't
+      <pb n="8"/> be forming any idea of my personal attractions. <stage>tumbles his hair,
+       &amp;c.</stage></p>
+    </sp>
+    <sp who="#L0802_F5">
+     <speaker>Isabel.</speaker>
+     <p>For goodness sake, cousin!</p>
+    </sp>
+    <stage>Enter Falcon Hope, Violet, and Louisa, down terrace, L. 2 E., in travelling
+     costumes.</stage>
+    <sp who="#L0802_M2">
+     <speaker>Falcon.</speaker>
+     <p>Ah, Symmetry, my dear fellow!</p>
+    </sp>
+    <sp who="#L0802_M3">
+     <speaker>Sym.</speaker>
+     <p>I'm very glad to see you, <stage>aside to him</stage> but why the plague couldn't you come
+      alone?</p>
+    </sp>
+    <sp who="#L0802_M2">
+     <speaker>Falcon.</speaker>
+     <p><stage>aside to him</stage> The old perverted taste, eh? found no girl agreeable yet.
+       <stage>aloud</stage> Allow me to introduce my wife to you–Violet, my love, Mr. Symmetry.</p>
+    </sp>
+    <sp who="#L0802_F4">
+     <speaker>Violet.</speaker>
+     <p><stage>aside</stage> Symmetry itself! What a fright!</p>
+    </sp>
+    <sp who="#L0802_M2">
+     <speaker>Falcon.</speaker>
+     <p>I have another friend here, Symmetry, my cousin Loo; Louisa, come here and be introduced,
+      will you?</p>
+    </sp>
+    <sp who="#L0802_F6">
+     <speaker>Louisa.</speaker>
+     <p>Yes, if you like –it isn't of any great consequence.</p>
+    </sp>
+    <sp who="#L0802_M3">
+     <speaker>Sym.</speaker>
+     <p><stage>aside</stage> Sensible girl that!</p>
+    </sp>
+    <sp who="#L0802_M2">
+     <speaker>Falcon.</speaker>
+     <p>You have friends here too, Symmetry; pray make us acquainted? <stage>seeing Isabel,
+       R.</stage> What, Miss Brandon!</p>
+    </sp>
+    <sp who="#L0802_F4">
+     <speaker>Violet.</speaker>
+     <p><stage>L. C.</stage> What, you know this lady, Falcon?</p>
+    </sp>
+    <sp who="#L0802_M2">
+     <speaker>Falcon.</speaker>
+     <p>No–yes–that is<stage>confused.</stage></p>
+    </sp>
+    <sp who="#L0802_M3">
+     <speaker>Sym.</speaker>
+     <p>This is not Miss Brandon, but the wife of that gentleman, Colonel Clarence.</p>
+    </sp>
+    <sp who="#L0802_F4">
+     <speaker>Violet.</speaker>
+     <p><stage>starts, seeing the Colonel, R. C., for the first time</stage> Colonel Clarence!</p>
+    </sp>
+    <sp who="#L0802_M2">
+     <speaker>Falcon.</speaker>
+     <p>You know this gentleman, Violet?</p>
+    </sp>
+    <sp who="#L0802_F4">
+     <speaker>Violet.</speaker>
+     <p><stage>confused</stage> No–yes–that is–<stage>aside</stage> how exceedingly awkward!</p>
+    </sp>
+    <sp who="#L0802_M2">
+     <speaker>Falcon.</speaker>
+     <p><stage>uneasily</stage> Ahem! <stage>gaily</stage> Oh, well; old friends–so much the better;
+      make the visit the more agreeable for my part. I was once fortunate enough to be acquainted
+      with Miss Brandon, but it was a mere flying acquaintance.</p>
+    </sp>
+    <sp who="#L0802_F5">
+     <speaker>Isabel.</speaker>
+     <p>Which Mrs. Clarence will be delighted to extend, Mr. Hope. <stage>they shake
+      hands</stage></p>
+    </sp>
+    <sp who="#L0802_M1">
+     <speaker>Colonel.</speaker>
+     <p><stage>aside</stage> Ahem! I once <stage>aloud</stage> also had the pleasure of a slight
+      acquaintance with Miss Fane. <stage>crosses to her</stage></p>
+    </sp>
+    <sp who="#L0802_F4">
+     <speaker>Violet.</speaker>
+     <p>Which Mrs. Hope is charmed to renew, colonel.</p>
+    </sp>
+    <sp who="#L0802_M2">
+     <speaker>Falcon.</speaker>
+     <p><stage>aside</stage> Ahem! <stage>a general restraint is visible.</stage></p>
+    </sp>
+    <sp who="#L0802_M3">
+     <speaker>Sym.</speaker>
+     <p><stage>aside</stage> It begins beautifully; the men are clearly out of temper, and the women
+      seem disposed to keep them there.</p>
+    </sp>
+    <sp who="#L0802_F5">
+     <speaker>Isabel.</speaker>
+     <p><stage>aside</stage> I must take an opportunity of seeing Violet Hope alone.</p>
+    </sp>
+    <sp who="#L0802_F4">
+     <speaker>Violet.</speaker>
+     <p><stage>aside</stage> I must manage to see Mrs. Clarence privately.</p>
+    </sp>
+    <sp who="#L0802_M3">
+     <speaker>Sym.</speaker>
+     <p><stage>aside</stage> I'll be hanged if I can think of anything to say, but I must go in for
+      something. <stage>aloud</stage> This isn't such an ugly den, is it?</p>
+    </sp>
+    <pb n="9"/>
+    <sp who="#L0802_M2">
+     <speaker>Falcon.</speaker>
+     <p>Delightful!</p>
+    </sp>
+    <sp who="#L0802_F4">
+     <speaker>Violet.</speaker>
+     <p>Delicious!</p>
+    </sp>
+    <stage>looking round</stage>
+    <sp who="#L0802_F6">
+     <speaker>Louisa.</speaker>
+     <p><stage>L.</stage> Much too nice a den for such a creature as a man.</p>
+    </sp>
+    <sp who="#L0802_M2">
+     <speaker>Falcon.</speaker>
+     <p>Louisa!</p>
+    </sp>
+    <sp who="#L0802_F4">
+     <speaker>Violet.</speaker>
+     <p>For shame!</p>
+    </sp>
+    <sp who="#L0802_M3">
+     <speaker>Sym.</speaker>
+     <p><stage>aside</stage> That's a most extraordinary young female–I begin to take quite an
+      interest in her.</p>
+    </sp>
+    <sp who="#L0802_F4">
+     <speaker>Violet.</speaker>
+     <p>You appear to be very fond of flowers, Mr. Symmetry.</p>
+    </sp>
+    <sp who="#L0802_M3">
+     <speaker>Sym.</speaker>
+     <p>Yes, ma'am, of all but orange blossoms.</p>
+    </sp>
+    <sp who="#L0802_M2">
+     <speaker>Falcon.</speaker>
+     <p>Never mind him, Violet–he's quite incurable; what with Symmetry's denunciations of women,
+      and little Loo's onslaughts upon men, we may expect some fun. But come, Sym, show us round the
+      grounds–the ladies will join us.</p>
+    </sp>
+    <sp who="#L0802_M3">
+     <speaker>Sym.</speaker>
+     <p><stage>aside to him, pulling his coat</stage> No, no; confound you, be quiet.</p>
+    </sp>
+    <sp who="#L0802_F5">
+     <speaker>Isabel.</speaker>
+     <p>I think you must excuse us at present–these ladies may have some change to make in their
+      dress. What say you, madam? <stage>crosses to Violet</stage></p>
+    </sp>
+    <sp who="#L0802_F4">
+     <speaker>Violet.</speaker>
+     <p>I would rather defer the pleasure until by-and-bye.</p>
+    </sp>
+    <sp who="#L0802_M3">
+     <speaker>Sym.</speaker>
+     <p><stage>to Falcon</stage> Come along at once; they'll change their minds in half a
+      minute.</p>
+    </sp>
+    <sp who="#L0802_F4">
+     <speaker>Violet.</speaker>
+     <p>We shall not be long, Falcon.</p>
+    </sp>
+    <sp who="#L0802_M3">
+     <speaker>Sym.</speaker>
+     <p>Oh, pray don't hurry.</p>
+    </sp>
+    <sp who="#L0802_F5">
+     <speaker>Isabel.</speaker>
+     <p>This way, ladies.</p>
+    </sp>
+    <stage>Exeunt Isabel, Violet, and Louisa, up terrace, L. 2 E.</stage>
+    <sp who="#L0802_M3">
+     <speaker>Sym.</speaker>
+     <p><stage>C.</stage> That's quite a relief, isn't it?</p>
+    </sp>
+    <sp who="#L0802_M2">
+     <speaker>Falcon.</speaker>
+     <p><stage>L.</stage> Relief, you reprobate!</p>
+    </sp>
+    <sp who="#L0802_M1">
+     <speaker>Colonel.</speaker>
+     <p><stage>R.</stage> The sun seems entirely extinguished!</p>
+    </sp>
+    <sp who="#L0802_M3">
+     <speaker>Sym.</speaker>
+     <p>Oh, never mind the sun, so that the daughters are extinguished.</p>
+    </sp>
+    <sp who="#L0802_M2">
+     <speaker>Falcon.</speaker>
+     <p>I say Sym, you've hit upon a nice North American Indian style of dressing your hair.</p>
+    </sp>
+    <sp who="#L0802_M3">
+     <speaker>Sym.</speaker>
+     <p>Yes, I may as well get into their ways at once; I shall be among 'em soon I fancy.</p>
+    </sp>
+    <sp who="#L0802_M2">
+     <speaker>Falcon.</speaker>
+     <p>What may you mean by that?</p>
+    </sp>
+    <sp who="#L0802_M3">
+     <speaker>Sym.</speaker>
+     <p>Well, I may as well tell you all about it, altho' I don't much like telling secrets to
+      married men; however, I'll risk it. You may have remarked that I have usually a good flow of
+      spirits? <stage>sits, C.</stage></p>
+    </sp>
+    <sp who="#L0802_M2">
+     <speaker>Falcon.</speaker>
+     <p>Certainly. <stage>seated, L. C.</stage></p>
+    </sp>
+    <sp who="#L0802_M1">
+     <speaker>Colonel.</speaker>
+     <p>Always cheerful. <stage>seated, R.</stage></p>
+    </sp>
+    <sp who="#L0802_M3">
+     <speaker>Sym.</speaker>
+     <p>All assumed; there is a canker, gentlemen, at my heart's core.</p>
+    </sp>
+    <sp who="#L0802_M2">
+     <speaker>Falcon.</speaker>
+     <p>What?</p>
+    </sp>
+    <sp who="#L0802_M1">
+     <speaker>Colonel.</speaker>
+     <p>Where?</p>
+    </sp>
+    <sp who="#L0802_M3">
+     <speaker>Sym.</speaker>
+     <p>Fact–tell you all about it. You know that old Guy Fawkes of an uncle of mine, who left me
+      all his property ?</p>
+    </sp>
+    <pb n="10"/>
+    <sp who="#L0802_M2">
+     <speaker>Falcon.</speaker>
+     <p>Certainly; my father made the will.</p>
+    </sp>
+    <sp who="#L0802_M3">
+     <speaker>Sym.</speaker>
+     <p>He did, and be hanged to him! Do you happen to know the fiendish codicil he attached to that
+      will?</p>
+    </sp>
+    <sp who="#L0802_M2">
+     <speaker>Falcon.</speaker>
+     <p><stage>aside</stage> Perfectly. <stage>aloud</stage> My dear Sym, how should I?</p>
+    </sp>
+    <sp who="#L0802_M3">
+     <speaker>Sym.</speaker>
+     <p>Well, the human mind is scarcely capable of conceiving such cold-blooded inhumanity; he
+      actually tacked this condition to his bequest–that if I did not marry before I was thirty-five
+      years of age, nearly the whole of the property goes to another person.</p>
+    </sp>
+    <sp who="#L0802_M1">
+     <speaker>Colonel.</speaker>
+     <p>Awkward.</p>
+    </sp>
+    <sp who="#L0802_M2">
+     <speaker>Falcon.</speaker>
+     <p><stage>aloud</stage> And who is the fortunate recipient, in case you don't marry?</p>
+    </sp>
+    <sp who="#L0802_M3">
+     <speaker>Sym.</speaker>
+     <p>Why, sir–to culminate his diabolical ingenuity–a woman, sir actually a woman–a certain Miss
+      Dudley, whom I never saw!</p>
+    </sp>
+    <sp who="#L0802_M2">
+     <speaker>Falcon.</speaker>
+     <p>And is Miss Dudley aware of this state of things?</p>
+    </sp>
+    <sp who="#L0802_M3">
+     <speaker>Sym.</speaker>
+     <p>No–she is to be kept in the dark till the time arrives.</p>
+    </sp>
+    <sp who="#L0802_M2">
+     <speaker>Falcon.</speaker>
+     <p>And how old are you now, pray?</p>
+    </sp>
+    <sp who="#L0802_M3">
+     <speaker>Sym.</speaker>
+     <p>Who–I–how old? Oh! rising thirty-four.</p>
+    </sp>
+    <sp who="#L0802_M2">
+     <speaker>Falcon.</speaker>
+     <p>Will you swear you are <hi>not</hi> thirty-five next week?</p>
+    </sp>
+    <sp who="#L0802_M3">
+     <speaker>Sym.</speaker>
+     <p>Certainly not–I'll swear I <hi>am.</hi></p>
+    </sp>
+    <sp who="#L0802_M2">
+     <speaker>Falcon.</speaker>
+     <p><stage>aside</stage> I know that. <stage>aloud</stage> And what do you purpose
+      doing–marrying?</p>
+    </sp>
+    <sp who="#L0802_M3">
+     <speaker>Sym.</speaker>
+     <p>Mar–– Don't be offensive, sir!</p>
+    </sp>
+    <sp who="#L0802_M1">
+     <speaker>Colonel.</speaker>
+     <p>Then, what the deuce do you mean to do?</p>
+    </sp>
+    <sp who="#L0802_M3">
+     <speaker>Sym.</speaker>
+     <p>Why, if there is any way of circumventing this female Dudley–</p>
+    </sp>
+    <sp who="#L0802_M2">
+     <speaker>Falcon.</speaker>
+     <p>Don't imagine it; my father is too careful to have left any loophole, and depend upon it, he
+      will see the matter properly carried out, for his own reputation's sake.</p>
+    </sp>
+    <sp who="#L0802_M3">
+     <speaker>Sym.</speaker>
+     <p>Then I shall go and join a tribe of Chocktaw Indians, get tattooed, and live comfortably;
+      but don't let's talk any more about it we've got the week before us, and we'll amuse
+      ourselves. <stage>aside</stage> I shall begin by making you two comfortable.</p>
+    </sp>
+    <sp who="#L0802_M1">
+     <speaker>Colonel.</speaker>
+     <p>Marry my young friend–marry, by all means.</p>
+    </sp>
+    <sp who="#L0802_M3">
+     <speaker>Sym.</speaker>
+     <p>Oh!–you've always some sensible advice to give; but even if I were maniac enough to
+      entertain the idea, how could I be sure of getting the right wife. Now here's a case in point.
+      My friend Hope, here, you know, was desperately in love with Isabel–</p>
+    </sp>
+    <sp who="#L0802_M1">
+     <speaker>Colonel.</speaker>
+     <p>What, sir?</p>
+    </sp>
+    <sp who="#L0802_M2">
+     <speaker>Falcon.</speaker>
+     <p><stage>aside to Sym.</stage> Hold your confounded tongue–do!</p>
+    </sp>
+    <sp who="#L0802_M3">
+     <speaker>Sym.</speaker>
+     <p>Oh, dear yes, Colonel, didn't you know that? it was the merest chance in the world that you
+      got her–I know she was extravagantly in love with Hope.</p>
+    </sp>
+    <sp who="#L0802_M2">
+     <speaker>Falcon.</speaker>
+     <p><stage>aside to Symmetry</stage> Are you crazy?</p>
+    </sp>
+    <pb n="11"/>
+    <sp who="#L0802_M1">
+     <speaker>Colonel.</speaker>
+     <p>This, I presume, sir, was the "flying acquaintance" you had with Miss Brandon?</p>
+    </sp>
+    <sp who="#L0802_M2">
+     <speaker>Falcon.</speaker>
+     <p>My dear Colonel, this is an egregious error on our friend's part. I certainly did meet Miss
+      Brandon, and might have been dazzled for the moment–but only for the moment, believe me.</p>
+    </sp>
+    <sp who="#L0802_M1">
+     <speaker>Colonel.</speaker>
+     <p>This is a delicate subject, and I hardly know how to treat it.</p>
+    </sp>
+    <sp who="#L0802_M2">
+     <speaker>Falcon.</speaker>
+     <p>Treat it as it deserves, Colonel–it is mere nonsense, be assured. Any partiality I may have
+      felt for Miss Brandon has long since been merged in my devotion to my wife.</p>
+    </sp>
+    <sp who="#L0802_M1">
+     <speaker>Colonel.</speaker>
+     <p>As a man of honour, sir, I am bound to believe you. <stage>aside</stage> I shall keep my eye
+      upon you, notwithstanding.</p>
+    </sp>
+    <sp who="#L0802_M3">
+     <speaker>Sym.</speaker>
+     <p>Yes, that's all very well, but there's another case in point–the Colonel, here, ought by
+      right to have married Miss Fane.</p>
+    </sp>
+    <sp who="#L0802_M2">
+     <speaker>Falcon.</speaker>
+     <p>Sir!</p>
+    </sp>
+    <sp who="#L0802_M1">
+     <speaker>Colonel.</speaker>
+     <p><stage>aside to Symmetry</stage> Can't you keep your fool's tongue quiet?</p>
+    </sp>
+    <sp who="#L0802_M3">
+     <speaker>Sym.</speaker>
+     <p>Bless you, yes–didn't you know that, my dear Hope? they were mad after each other.</p>
+    </sp>
+    <sp who="#L0802_M1">
+     <speaker>Colonel.</speaker>
+     <p><stage>aside to Symmetry</stage> Confound you! be still, will you?</p>
+    </sp>
+    <sp who="#L0802_M2">
+     <speaker>Falcon.</speaker>
+     <p>This, I presume, Colonel, was the "slight acquaintance" you spoke of?</p>
+    </sp>
+    <sp who="#L0802_M1">
+     <speaker>Colonel.</speaker>
+     <p>The fact is, Mr. Hope–I once that is to say––</p>
+    </sp>
+    <sp who="#L0802_M3">
+     <speaker>Sym.</speaker>
+     <p>Twice, perhaps–come, no shuffling–speak out.</p>
+    </sp>
+    <sp who="#L0802_M1">
+     <speaker>Colonel.</speaker>
+     <p><stage>aside to Symmetry</stage> I'll assassinate you, you booby!</p>
+    </sp>
+    <sp who="#L0802_M2">
+     <speaker>Falcon.</speaker>
+     <p><stage>laughingly</stage> Well, never mind–Symmetry has exposed us both, let it pass––we are
+      matched to our liking at last, <stage>aside</stage> I'll not lose sight of you, my gay
+      Colonel.</p>
+    </sp>
+    <sp who="#L0802_M3">
+     <speaker>Sym.</speaker>
+     <p>Well, now that I have put you on a friendly footing, and already demonstrated to you that
+      you have each of you married the wrong woman, let us go and look round the property.</p>
+    </sp>
+    <sp who="#L0802_M2">
+     <speaker>Falcon.</speaker>
+     <p>By all means. <stage>aside</stage> I can't think what on earth could have possessed Violet
+      to take any notice of that stick of a Colonel.</p>
+    </sp>
+    <sp who="#L0802_M1">
+     <speaker>Colonel.</speaker>
+     <p><stage>aside</stage> What could Isabel have seen in that puppy, I wonder.</p>
+    </sp>
+    <sp who="#L0802_M3">
+     <speaker>Sym.</speaker>
+     <p><stage>aside</stage> I haven't done amiss for a beginning–I see the makings of a very pretty
+      disturbance–I'll keep the game alive –I'll wake 'em up again presently. <stage>aloud</stage>
+      This way––you lively husbands!</p>
+    </sp>
+    <stage>Exeunt, R. U. E.</stage>
+    <pb n="12"/>
+    <stage>Re-enter Isabel and Violet down terrace, L. 2 E.</stage>
+    <sp who="#L0802_F5">
+     <speaker>Isabel.</speaker>
+     <p>Believe me, my dear Mrs. Hope, I am delighted, as Mr. Symmetry's cousin, to receive you in
+      his house, and shall do my best to entertain you.</p>
+    </sp>
+    <sp who="#L0802_F4">
+     <speaker>Violet.</speaker>
+     <p>Believe me, my dear madam, I am equally delighted with the fact of becoming your guest.</p>
+    </sp>
+    <sp who="#L0802_F5">
+     <speaker>Isabel.</speaker>
+     <p>I intend that you and I shall be very intimate friends.</p>
+    </sp>
+    <sp who="#L0802_F4">
+     <speaker>Violet.</speaker>
+     <p>An intention I shall only be too happy to second.</p>
+    </sp>
+    <sp who="#L0802_F5">
+     <speaker>Isabel.</speaker>
+     <p>And to show you how sincere I am, I am about to take the privilege of an old friend thus
+      early, by asking you a favour.</p>
+    </sp>
+    <sp who="#L0802_F4">
+     <speaker>Violet.</speaker>
+     <p>Dear me, how remarkable––do you know, I was about to ask one of you?</p>
+    </sp>
+    <sp who="#L0802_F5">
+     <speaker>Isabel.</speaker>
+     <p>No? <stage>aside</stage> What can she mean?</p>
+    </sp>
+    <sp who="#L0802_F4">
+     <speaker>Violet.</speaker>
+     <p>No! <stage>aside</stage> What can she want?</p>
+    </sp>
+    <sp who="#L0802_F5">
+     <speaker>Isabel.</speaker>
+     <p>The fact is <stage>aside</stage> This is a ridiculous position –––it isn't likely she ever
+      heard of her husband's attentions to me.</p>
+    </sp>
+    <sp who="#L0802_F4">
+     <speaker>Violet.</speaker>
+     <p>My object <stage>aside</stage> This is extremely embarrassing of course, she knows nothing
+      of Clarence's attentions to me.</p>
+    </sp>
+    <sp who="#L0802_F5">
+     <speaker>Isabel.</speaker>
+     <p>You said you wished to ask a favour –pray speak.</p>
+    </sp>
+    <sp who="#L0802_F4">
+     <speaker>Violet.</speaker>
+     <p>Pray let me have the pleasure of obliging you first.</p>
+    </sp>
+    <sp who="#L0802_F5">
+     <speaker>Isabel.</speaker>
+     <p>This will never do–let us be frank–I will set the example. I am perfectly aware that
+      previous to my marriage, Clarence had the good taste to make proposals to you.</p>
+    </sp>
+    <sp who="#L0802_F4">
+     <speaker>Violet.</speaker>
+     <p>You knew it? <stage>aside</stage> What a relief!</p>
+    </sp>
+    <sp who="#L0802_F5">
+     <speaker>Isabel.</speaker>
+     <p>Yes, and I know something else, of which you may be probably ignorant, namely, that before
+      your marriage, Mr. Hope had the bad taste to do me the same honour.</p>
+    </sp>
+    <sp who="#L0802_F4">
+     <speaker>Violet.</speaker>
+     <p><stage>coolly</stage> I was certainly quite ignorant of that, Mrs. Clarence.</p>
+    </sp>
+    <sp who="#L0802_F5">
+     <speaker>Isabel.</speaker>
+     <p>Oh, be very easy, my dear–if I had liked him, I should have married him – as I didn't, I
+      married somebody else. Now, we are both sensible women, and perfectly contented with the
+      husbands we have –is it not so?</p>
+    </sp>
+    <sp who="#L0802_F4">
+     <speaker>Violet.</speaker>
+     <p>On my side–undoubtedly.</p>
+    </sp>
+    <sp who="#L0802_F5">
+     <speaker>Isabel.</speaker>
+     <p><stage>holding out her hand</stage> And no worse friends, for having changed partners in the
+      fantastic dance of matrimony –eh?</p>
+    </sp>
+    <sp who="#L0802_F4">
+     <speaker>Violet.</speaker>
+     <p><stage>taking her hand</stage> Oh, no, no, my dear Mrs. Clarence, I was only a little fool
+      for a moment––forgive me, it is a frequent occurrence.</p>
+    </sp>
+    <sp who="#L0802_F5">
+     <speaker>Isabel.</speaker>
+     <p>Now, that we understand each other, let us to the business, or rather pleasure of a mutual
+      obligation–will you commence?</p>
+    </sp>
+    <pb n="13"/>
+    <sp who="#L0802_F4">
+     <speaker>Violet.</speaker>
+     <p>No–do you.</p>
+    </sp>
+    <sp who="#L0802_F5">
+     <speaker>Isabel.</speaker>
+     <p>Very well–you must promise not to be angry.</p>
+    </sp>
+    <sp who="#L0802_F4">
+     <speaker>Violet.</speaker>
+     <p>Gladly, for I shall have to exact the same promise from you.</p>
+    </sp>
+    <sp who="#L0802_F5">
+     <speaker>Isabel.</speaker>
+     <p>That's agreed, then, on either side. Well, you must know that during the trifling
+      intercourse between Mr. Hope and myself–</p>
+    </sp>
+    <sp who="#L0802_F4">
+     <speaker>Violet.</speaker>
+     <p>That is exactly as I should begin–substituting Colonel Clarence.</p>
+    </sp>
+    <sp who="#L0802_F5">
+     <speaker>Isabel.</speaker>
+     <p>I was indiscreet enough–</p>
+    </sp>
+    <sp who="#L0802_F4">
+     <speaker>Violet.</speaker>
+     <p>The very word–our stories commence quite harmoniously.</p>
+    </sp>
+    <sp who="#L0802_F5">
+     <speaker>Isabel.</speaker>
+     <p>Indiscreet enough to–</p>
+    </sp>
+    <sp who="#L0802_F4">
+     <speaker>Violet.</speaker>
+     <p>Enter into a correspondence; go on.</p>
+    </sp>
+    <sp who="#L0802_F5">
+     <speaker>Isabel.</speaker>
+     <p>Not at all, I never wrote the man a line in my life.</p>
+    </sp>
+    <sp who="#L0802_F4">
+     <speaker>Violet.</speaker>
+     <p>Good gracious! then what were you indiscreet enough to do?</p>
+    </sp>
+    <sp who="#L0802_F5">
+     <speaker>Isabel.</speaker>
+     <p>I was miserably weak enough to give him my portrait.</p>
+    </sp>
+    <sp who="#L0802_F4">
+     <speaker>Violet.</speaker>
+     <p>Oh! <stage>aside</stage> and I daren't say anything about it!</p>
+    </sp>
+    <sp who="#L0802_F5">
+     <speaker>Isabel.</speaker>
+     <p>Now, my dear Mrs. Hope, only get me back that stupid portrait, and I will do anything in the
+      wide world for you, in return.</p>
+    </sp>
+    <sp who="#L0802_F4">
+     <speaker>Violet.</speaker>
+     <p>I must be frank, also; I will take up your story at the word "indiscreet." I was indiscreet
+      enough to</p>
+    </sp>
+    <sp who="#L0802_F5">
+     <speaker>Isabel.</speaker>
+     <p>To give Clarence your likeness.</p>
+    </sp>
+    <sp who="#L0802_F4">
+     <speaker>Violet.</speaker>
+     <p>Never; not even a black profile.</p>
+    </sp>
+    <sp who="#L0802_F5">
+     <speaker>Isabel.</speaker>
+     <p>Then, what in mercy's name were you indiscreet enough to do?</p>
+    </sp>
+    <sp who="#L0802_F4">
+     <speaker>Violet.</speaker>
+     <p>To write him certain ridiculous, unmeaning letters. Oh! Mrs. Clarence, only get me back
+      those letters–</p>
+    </sp>
+    <sp who="#L0802_F5">
+     <speaker>Isabel.</speaker>
+     <p>Ha! ha! your letters for my portrait–a bargain! Now, it's just possible Mr. Hope may have
+      that portrait with him.</p>
+    </sp>
+    <sp who="#L0802_F4">
+     <speaker>Violet.</speaker>
+     <p>Oh, dear no, I am quite sure he couldn't do that.</p>
+    </sp>
+    <sp who="#L0802_F5">
+     <speaker>Isabel.</speaker>
+     <p>Bless you, men do those things! Clarence carries one or two about with him wherever he goes;
+      but he knows I am not jealous, so pray don't you be so.</p>
+    </sp>
+    <sp who="#L0802_F4">
+     <speaker>Violet.</speaker>
+     <p>Oh! bless you, not the least in the world. <stage>aside</stage> If he has!</p>
+    </sp>
+    <sp who="#L0802_F5">
+     <speaker>Isabel.</speaker>
+     <p>Now, look here, I have the privilege of all my dear husband's desks, &amp;c. I'll tell you
+      what we'll do–can you overlook Mr. Hope's dressing-case and trunks?</p>
+    </sp>
+    <sp who="#L0802_F4">
+     <speaker>Violet.</speaker>
+     <p>I have the keys of everything,</p>
+    </sp>
+    <sp who="#L0802_F5">
+     <speaker>Isabel.</speaker>
+     <p>Good, then we'll not lose a moment, you go and search for my portrait, whilst, I run home
+      and search for your letters.</p>
+    </sp>
+    <pb n="14"/>
+    <sp who="#L0802_F4">
+     <speaker>Violet.</speaker>
+     <p>Agreed.</p>
+    </sp>
+    <sp who="#L0802_F5">
+     <speaker>Isabel.</speaker>
+     <p>And as we may have no other opportunity of a private conversation, we may as well fix upon
+      some signal of success or failure in our search––I shall be in an agony till I know.</p>
+    </sp>
+    <sp who="#L0802_F4">
+     <speaker>Violet.</speaker>
+     <p>And I, in absolute despair!</p>
+    </sp>
+    <sp who="#L0802_F5">
+     <speaker>Isabel.</speaker>
+     <p>Let me see, I have it–a red rose shall be the signal of success, a white one of failure.</p>
+    </sp>
+    <sp who="#L0802_F4">
+     <speaker>Violet.</speaker>
+     <p>Agreed; but if I meet Falcon first, and he sees me with a flower, it's in his coat the next
+      moment.</p>
+    </sp>
+    <sp who="#L0802_F5">
+     <speaker>Isabel.</speaker>
+     <p>I'm full of ideas this morning, I have another, we'll make my cousin Symmetry our signal
+      post–we will each, when we meet him, present him with a rose, white or red, as it may be.</p>
+    </sp>
+    <sp who="#L0802_F4">
+     <speaker>Violet.</speaker>
+     <p>But he will never receive a flower from a lady.</p>
+    </sp>
+    <sp who="#L0802_F5">
+     <speaker>Isabel.</speaker>
+     <p>Bless you, he couldn't in common courtesy refuse one from you, and I'll make him take
+      mine.</p>
+    </sp>
+    <sp who="#L0802_F4">
+     <speaker>Violet.</speaker>
+     <p>So be it, then; had we not better proceed to work at once?</p>
+    </sp>
+    <sp who="#L0802_F5">
+     <speaker>Isabel.</speaker>
+     <p>The sooner the better; stay, to guard against contingencies, it will be as well if we
+      succeed to deposit our spoil in the summer house, there no one ever enters it–you can put the
+      picture in at that little window, as I will the letters; so we can take possession, without
+      suspicion, at any time.</p>
+    </sp>
+    <sp who="#L0802_F4">
+     <speaker>Violet.</speaker>
+     <p>I shall remember, and fortune grant us success!</p>
+    </sp>
+    <sp who="#L0802_F5">
+     <speaker>Isabel.</speaker>
+     <p>Amen to that sweet prayer.</p>
+    </sp>
+    <stage>Exit, R. 1 E., Violet up terrace, L. 2 E.</stage>
+    <stage>Re-enter Symmetry, R. U. E.</stage>
+    <sp who="#L0802_M3">
+     <speaker>Sym.</speaker>
+     <p>Thank goodness I've made my escape from those married men! their conversation, to say the
+      least of it, is of a highly objectionable character–in fact, it's hopeless twaddle; they talk
+      nothing but nonsense, and they don't even talk that well. Hilloa! here comes little Loo, the
+      "man-hater," as Falcon calls her, so much the better.</p>
+    </sp>
+    <stage>Enter Louisa down terrace, L. 2 E.</stage>
+    <sp who="#L0802_M3">
+     <speaker>Sym.</speaker>
+     <p>So, young lady, I've heard your character from the gentlemen.</p>
+    </sp>
+    <sp who="#L0802_F6">
+     <speaker>Louisa.</speaker>
+     <p>And I yours from the ladies; they were neither, I believe, worth hearing.</p>
+    </sp>
+    <sp who="#L0802_M3">
+     <speaker>Sym.</speaker>
+     <p>And you hate men, do you?</p>
+    </sp>
+    <sp who="#L0802_F6">
+     <speaker>Louisa.</speaker>
+     <p>As much as you hate women.</p>
+    </sp>
+    <sp who="#L0802_M3">
+     <speaker>Sym.</speaker>
+     <p>Then, of course, you hate me.</p>
+    </sp>
+    <sp who="#L0802_F6">
+     <speaker>Louisa.</speaker>
+     <p>Oh! I can just put up with you; there's not much of you, and what there is, is not of much
+      account.</p>
+    </sp>
+    <sp who="#L0802_M3">
+     <speaker>Sym.</speaker>
+     <p><stage>aside</stage> Upon my word, this little Loo's quite refreshing. <stage>aloud</stage>
+      I suppose you never mean to be married?</p>
+    </sp>
+    <pb n="15"/>
+    <sp who="#L0802_F6">
+     <speaker>Louisa.</speaker>
+     <p>Not till a "hot January," as Beatrice says.</p>
+    </sp>
+    <sp who="#L0802_M3">
+     <speaker>Sym.</speaker>
+     <p>Ah! that would have been a magnificent play if Shakespeare had not spoiled it by making
+      Benedict fool enough to marry Beatrice.</p>
+    </sp>
+    <sp who="#L0802_F6">
+     <speaker>Louisa.</speaker>
+     <p>Reverse it, and say if he had not made Beatrice fool enough to marry Benedict.</p>
+    </sp>
+    <sp who="#L0802_M3">
+     <speaker>Sym.</speaker>
+     <p>Let us accommodate matters by setting them both down as fools together.</p>
+    </sp>
+    <sp who="#L0802_F6">
+     <speaker>Louisa.</speaker>
+     <p>Just my opinion.</p>
+    </sp>
+    <sp who="#L0802_M3">
+     <speaker>Sym.</speaker>
+     <p><stage>aside</stage> I can get on magnificently with little Loo. <stage>aloud</stage> Falcon
+      and his wife agree tolerably well, eh?</p>
+    </sp>
+    <sp who="#L0802_F6">
+     <speaker>Louisa.</speaker>
+     <p>Indifferently so at present–the orange blossoms haven't faded yet.</p>
+    </sp>
+    <sp who="#L0802_M3">
+     <speaker>Sym.</speaker>
+     <p>Orange blossoms! Bah! I'd as soon see a woman with spring onions in her bonnet!</p>
+    </sp>
+    <sp who="#L0802_F6">
+     <speaker>Louisa.</speaker>
+     <p>Just my opinion.</p>
+    </sp>
+    <sp who="#L0802_M3">
+     <speaker>Sym.</speaker>
+     <p>We really agree in a most surprising manner. I must know more of you.</p>
+    </sp>
+    <sp who="#L0802_F6">
+     <speaker>Louisa.</speaker>
+     <p>You know enough; you'll like me less the more you know of me.</p>
+    </sp>
+    <sp who="#L0802_M3">
+     <speaker>Sym.</speaker>
+     <p>That's very possible; but do you know you're about the only woman whose visit I have ever
+      approved of.</p>
+    </sp>
+    <sp who="#L0802_F6">
+     <speaker>Louisa.</speaker>
+     <p>I am an involuntary visitor–they brought me here. I had no wish to come, be assured.</p>
+    </sp>
+    <sp who="#L0802_M3">
+     <speaker>Sym.</speaker>
+     <p>I like you all the better for it–that is, mind, I don't mean that I like you at all.
+       <stage>aside</stage> Sym, my fine fellow, you'd better pull up. <stage>aloud</stage> I
+      mean–</p>
+    </sp>
+    <sp who="#L0802_F6">
+     <speaker>Louisa.</speaker>
+     <p>It's very immaterial what. Have you anything more to say?</p>
+    </sp>
+    <sp who="#L0802_M3">
+     <speaker>Sym.</speaker>
+     <p>Not at present, I think. Oh!–stop–yes–you adhere to that resolution of yours–never marry. If
+      they would compel you, run away, and never be taken alive.</p>
+    </sp>
+    <sp who="#L0802_F6">
+     <speaker>Louisa.</speaker>
+     <p>Let me return that invaluable advice; and be assured if ever I should marry, I should do so
+      simply to be revenged on your whole sex, by the torture of that particular man I married.</p>
+    </sp>
+    <sp who="#L0802_M3">
+     <speaker>Sym.</speaker>
+     <p>Delightful candour!</p>
+    </sp>
+    <sp who="#L0802_F6">
+     <speaker>Louisa.</speaker>
+     <p>I'd thwart him–contradict him–plague him–worry him.</p>
+    </sp>
+    <sp who="#L0802_M3">
+     <speaker>Sym.</speaker>
+     <p><stage>aside</stage> Little Loo's a little devil.</p>
+    </sp>
+    <sp who="#L0802_F6">
+     <speaker>Louisa.</speaker>
+     <p>In short, I'd drive him mad–there!</p>
+    </sp>
+    <sp who="#L0802_M3">
+     <speaker>Sym.</speaker>
+     <p>You wouldn't have very far to drive him; he'd be half way there before he ventured upon
+      you.</p>
+    </sp>
+    <sp who="#L0802_F6">
+     <speaker>Louisa.</speaker>
+     <p>I'm afraid you'll think me very free and plain spoken, but its my nature; if you object to
+      it, say so, and I'll go back to town.</p>
+    </sp>
+    <sp who="#L0802_M3">
+     <speaker>Sym.</speaker>
+     <p>Object? Bless you, no–you have such correct views
+      <pb n="16"/> of things in general, and marriage in particular, it's quite delicious, and your
+      sentiments again agree with mine, for if by any unforeseen, and impossible concatenation of
+      diabolical circumstances I should be inveigled into marriage – You've heard of the wife
+      beatings in that healthy and moral village of London?</p>
+    </sp>
+    <sp who="#L0802_F6">
+     <speaker>Louisa.</speaker>
+     <p>To my shame and sorrow, yes.</p>
+    </sp>
+    <sp who="#L0802_M3">
+     <speaker>Sym.</speaker>
+     <p>Well, they're all trifles to what the woman would get who married me.</p>
+    </sp>
+    <sp who="#L0802_F6">
+     <speaker>Louisa.</speaker>
+     <p>I'm sure she would deserve all she received; and now, sir, good morning.</p>
+    </sp>
+    <sp who="#L0802_M3">
+     <speaker>Sym.</speaker>
+     <p>Good morning, miss; I think we quite understand each other, and we've had a very pleasant
+      and intellectual conversation. <stage>Exit Louisa up terrace, L. 2 E.</stage> I've quite
+      enjoyed it, upon my word; that little Loo is one of the most sensible girls I ever met with.
+      If all women were like her now, and had the same opinion of mankind, how swimmingly we should
+      all go on together. Now then, this won't do; here's another woman hunting me up–it's Mrs.
+      Hope, and hang me, if she hasn't got one of my choicest white roses in her hand–just like
+      'em–they can't keep their hands off anything.</p>
+    </sp>
+    <stage>Enter Violet down terrace, L. 2 E., with a white rose.</stage>
+    <sp who="#L0802_F4">
+     <speaker>Violet.</speaker>
+     <p><stage>aside</stage> I can't find it. I knew he would never carry that trumpery portrait
+      about with him. <stage>aloud</stage> Oh, my dear Mr. Symmetry, I was looking for you. You must
+      allow me to present you with this beautiful white rose; you can't refuse to wear it for my
+      sake! <stage>fastens it to his coat</stage></p>
+    </sp>
+    <sp who="#L0802_M3">
+     <speaker>Sym.</speaker>
+     <p><stage>aside</stage> No, I don't see well how I can, or I would. <stage>aloud</stage> I'm
+      sure I'm uncommonly flattered.</p>
+    </sp>
+    <sp who="#L0802_F4">
+     <speaker>Violet.</speaker>
+     <p>Oh, pray don't mention it; and above all, pray don't think of thanking me.</p>
+    </sp>
+    <sp who="#L0802_M3">
+     <speaker>Sym.</speaker>
+     <p><stage>aside</stage> I should like to blow you up for picking my flowers.</p>
+    </sp>
+    <sp who="#L0802_F4">
+     <speaker>Violet.</speaker>
+     <p>I'm sure you'll excuse my running away–</p>
+    </sp>
+    <sp who="#L0802_M3">
+     <speaker>Sym.</speaker>
+     <p>Oh, certainly.</p>
+    </sp>
+    <sp who="#L0802_F4">
+     <speaker>Violet.</speaker>
+     <p>As I have left little Loo in your pretty conservatory.</p>
+    </sp>
+    <stage>Exit up terrace, L. 2 E.</stage>
+    <sp who="#L0802_M3">
+     <speaker>Sym.</speaker>
+     <p>And a pretty conservatory it will be when little Loo comes out of it, I expect. Now, what
+      does this white rose mean? there's some design in it, I'll lay a wager. Eh? what? no! yes!
+      why, damn it! here's another woman bearing down, with another rose. Its my free and easy
+      cousin. Oh, I must get out of this!</p>
+    </sp>
+    <stage>Enter Isabella, R. 1 E., with red rose and packet of letters.</stage>
+    <pb n="17"/>
+    <sp who="#L0802_F5">
+     <speaker>Isabel.</speaker>
+     <p><stage>aside</stage> I've found these precious documents, and I
+      <pb n="17"/>dare say they were well worth looking for. <stage>aloud</stage> Ah, cous–What do I
+      see, a white rose? <stage>aside</stage> Then she has failed.</p>
+    </sp>
+    <sp who="#L0802_M3">
+     <speaker>Sym.</speaker>
+     <p><stage>warmly</stage> Yes, and I see a red rose. Now, I tell you what it is, Cousin Isabel,
+      I know I'm a mild man, I believe I am generally looked upon as a soft man, but if a pack of
+      mischievous females go about my grounds damaging my plants you'll see me in one of the most
+      stupendous passions––you will witness one of the most demoniac outbursts of fury–</p>
+    </sp>
+    <sp who="#L0802_F5">
+     <speaker>Isabel.</speaker>
+     <p>Don't get excited, my dear Septimus, but just put this rose in your coat, and compose
+      yourself you know how I love you.</p>
+    </sp>
+    <sp who="#L0802_M3">
+     <speaker>Sym.</speaker>
+     <p>Am I to be stuck all over with roses ?–if I do, I'm–</p>
+    </sp>
+    <sp who="#L0802_F5">
+     <speaker>Isabel.</speaker>
+     <p>Don't be a little ruffian! now just attend to me, if you don't put this rose in your coat
+      directly, sir, I'll sit by your side, and talk to you all the evening.</p>
+    </sp>
+    <sp who="#L0802_M3">
+     <speaker>Sym.</speaker>
+     <p><stage>eagerly</stage> Give it to me! <stage>fastens rose in his coat</stage> Life is still
+      sweet, even under this persecution.</p>
+    </sp>
+    <sp who="#L0802_F5">
+     <speaker>Isabel.</speaker>
+     <p><stage>aside</stage> Gracious! if I didn't leave Clarence's desk open. <stage>aloud</stage>
+      I think you'll excuse my running away, cousin?</p>
+    </sp>
+    <sp who="#L0802_M3">
+     <speaker>Sym.</speaker>
+     <p>I'm sure I will–good bye!</p>
+    </sp>
+    <sp who="#L0802_F5">
+     <speaker>Isabel.</speaker>
+     <p>Ta, ta, cousin! I declare you look quite handsome, <stage>he turns away, she slips letters
+       in the window of summer house</stage> and so good humoured–he! he! he!</p>
+    </sp>
+    <stage>Exit R. 1 E.</stage>
+    <sp who="#L0802_M3">
+     <speaker>Sym.</speaker>
+     <p>Confound these women! now what is the meaning of all this? first of all, the female Hope
+      brings me a white rose–then the female Clarence brings me a red rose–I suppose little Loo'll
+      bring me something presently––a moss rose, perhaps, or a wreath of orange blossoms, or a stick
+      of rhubarb from the kitchen garden! It's quite clear I'm being victimized. I see no way for
+      it, but to pack up a small portmanteau, steal out of the back door, and "wait for the waggon!"
+      and I'll go and do it. Ah!–catch it, Symmetry, my boy–an idea! and what an idea! beautiful!
+      Now, my rosy beauties, I'll spoil your little game, whatever it is. I'll just give–ah, here's
+      Falcon, that'll do very nicely. I'll begin with him–I'll entangle 'em.</p>
+    </sp>
+    <stage>Enter Falcon, R. U. E.</stage>
+    <sp who="#L0802_M2">
+     <speaker>Falcon.</speaker>
+     <p>Why, Symmetry, what the plague do you mean by running away from your friends in this manner?
+      What have you been about?</p>
+    </sp>
+    <sp who="#L0802_M3">
+     <speaker>Sym.</speaker>
+     <p>Oh, bless you, I've been making myself agreeable to the ladies.</p>
+    </sp>
+    <sp who="#L0802_M2">
+     <speaker>Falcon.</speaker>
+     <p>The deuce you have! Well, as you've been so laudably and unusually occupied, I cannot
+      complain.</p>
+    </sp>
+    <sp who="#L0802_M3">
+     <speaker>Sym.</speaker>
+     <p>Had a chat with little Loo.</p>
+    </sp>
+    <pb n="18"/>
+    <sp who="#L0802_M2">
+     <speaker>Falcon.</speaker>
+     <p>Sensible girl that!</p>
+    </sp>
+    <sp who="#L0802_M3">
+     <speaker>Sym.</speaker>
+     <p>I believe you.</p>
+    </sp>
+    <sp who="#L0802_M2">
+     <speaker>Falcon.</speaker>
+     <p>Rather strong minded, perhaps.</p>
+    </sp>
+    <sp who="#L0802_M3">
+     <speaker>Sym.</speaker>
+     <p>Well, rather.</p>
+    </sp>
+    <sp who="#L0802_M2">
+     <speaker>Falcon.</speaker>
+     <p>Now, she'd make you an excellent wife, Sym.</p>
+    </sp>
+    <sp who="#L0802_M3">
+     <speaker>Sym.</speaker>
+     <p>Yes, I dare say she would, thank you.</p>
+    </sp>
+    <sp who="#L0802_M2">
+     <speaker>Falcon.</speaker>
+     <p>I have always promised myself to get you a wife.</p>
+    </sp>
+    <sp who="#L0802_M3">
+     <speaker>Sym.</speaker>
+     <p>You're very kind; when I want one, I'll drop you a line. Then I've been doing floricultural
+      commissions for the other ladies.</p>
+    </sp>
+    <sp who="#L0802_M2">
+     <speaker>Falcon.</speaker>
+     <p>And I see they've not forgotten to reward you for your trouble.</p>
+    </sp>
+    <sp who="#L0802_M3">
+     <speaker>Sym.</speaker>
+     <p>Hush! You see this red rose?</p>
+    </sp>
+    <sp who="#L0802_M2">
+     <speaker>Falcon.</speaker>
+     <p>Clearly; and a very fine one it is.</p>
+    </sp>
+    <sp who="#L0802_M3">
+     <speaker>Sym.</speaker>
+     <p>Well–it's for you.</p>
+    </sp>
+    <sp who="#L0802_M2">
+     <speaker>Falcon.</speaker>
+     <p>For me! From whom?</p>
+    </sp>
+    <sp who="#L0802_M3">
+     <speaker>Sym.</speaker>
+     <p>Never mind that; you take it, and ask no questions.</p>
+    </sp>
+    <sp who="#L0802_M2">
+     <speaker>Falcon.</speaker>
+     <p>Oh, nonsense! I must know who sent it.</p>
+    </sp>
+    <sp who="#L0802_M3">
+     <speaker>Sym.</speaker>
+     <p>Well, I don't think the party who sent it ought to have sent it, and I ought not to have
+      brought it; but then a woman can't do as she ought, and I'm such an obliging blockhead.</p>
+    </sp>
+    <sp who="#L0802_M2">
+     <speaker>Falcon.</speaker>
+     <p>Well, but who is the sender?</p>
+    </sp>
+    <sp who="#L0802_M3">
+     <speaker>Sym.</speaker>
+     <p>Oh, if I must tell you. Here–Isabella Clarence,</p>
+    </sp>
+    <sp who="#L0802_M2">
+     <speaker>Falcon.</speaker>
+     <p><stage>taking it, aside</stage> Isabella, then, has not forgotten me; but it is too late–my
+      allegiance to Violet is not to be shaken. <stage>aloud</stage> I esteem the gift as from an
+      old friend–tell her–no, I'll tell her that myself. <stage>puts rose in his coat</stage> Well,
+      that other rose?</p>
+    </sp>
+    <sp who="#L0802_M3">
+     <speaker>Sym.</speaker>
+     <p>Oh, that's a secret; – you want to know a great deal too much at once. Let me give you a
+      piece of wholesome advice: never prick your fingers with the thorns of other people's
+      roses.</p>
+    </sp>
+    <sp who="#L0802_M2">
+     <speaker>Falcon.</speaker>
+     <p>Oh, I see; little Loo gave it you.</p>
+    </sp>
+    <sp who="#L0802_M3">
+     <speaker>Sym.</speaker>
+     <p>Well, she did give it me rather–in one sense–but she didn't give me this rose; the fact is,
+      as you are so preciously inquisitive, I had it from Mrs. Hope.</p>
+    </sp>
+    <sp who="#L0802_M2">
+     <speaker>Falcon.</speaker>
+     <p>Then why couldn't you say so at once? What harm is there in your wearing a rose given you by
+      my wife?</p>
+    </sp>
+    <sp who="#L0802_M3">
+     <speaker>Sym.</speaker>
+     <p>I don't suppose there'd be any particular harm if I wore a wreath of roses; but it isn't for
+      me.</p>
+    </sp>
+    <sp who="#L0802_M2">
+     <speaker>Falcon.</speaker>
+     <p>No! For whom then?</p>
+    </sp>
+    <sp who="#L0802_M3">
+     <speaker>Sym.</speaker>
+     <p>Well, you will know. I told you you'd better not; but if you will, it's not my fault it's
+      for Colonel Clarence.</p>
+    </sp>
+    <sp who="#L0802_M2">
+     <speaker>Falcon.</speaker>
+     <p>What, sir!–impossible!</p>
+    </sp>
+    <sp who="#L0802_M3">
+     <speaker>Sym.</speaker>
+     <p>Oh, you think it quite possible for Mrs. Clarence to send you a rose, but quite impossible
+      for Mrs. Hope to send one to Colonel Clarence?</p>
+    </sp>
+    <pb n="19"/>
+    <sp who="#L0802_M2">
+     <speaker>Falcon.</speaker>
+     <p>A different thing, sir, altogether! <stage>aside</stage> Can this be true?</p>
+    </sp>
+    <sp who="#L0802_M3">
+     <speaker>Sym.</speaker>
+     <p>Well, I look upon it as a mere tit for tat arrangement, but you know best; if you say it is
+      impossible, I dare say it is.</p>
+    </sp>
+    <sp who="#L0802_M2">
+     <speaker>Falcon.</speaker>
+     <p>Pooh, Sym, you're only joking.</p>
+    </sp>
+    <sp who="#L0802_M3">
+     <speaker>Sym.</speaker>
+     <p>Now just look at me attentively, and tell me candidly, whether I have the appearance of a
+      man who's given to joking.</p>
+    </sp>
+    <sp who="#L0802_M2">
+     <speaker>Falcon.</speaker>
+     <p>This is not to be borne, sir; if it be so, I know my course; if it be not so, lock to
+      yourself.</p>
+    </sp>
+    <stage>Exit angrily up terrace, L. 2 E.</stage>
+    <sp who="#L0802_M3">
+     <speaker>Sym.</speaker>
+     <p>Number one settled. I'll teach 'em how to upset a quiet gentleman's establishment, with
+      their wives, and little Loos, and roses, and orange blossoms, and–ha! here's Clarence.</p>
+    </sp>
+    <stage>Enter Colonel Clarence, R. U. E.</stage>
+    <sp who="#L0802_M1">
+     <speaker>Colonel.</speaker>
+     <p>Have you seen Isabella, Symmetry?</p>
+    </sp>
+    <sp who="#L0802_M3">
+     <speaker>Sym.</speaker>
+     <p>Gone home, Colonel.</p>
+    </sp>
+    <sp who="#L0802_M1">
+     <speaker>Colonel.</speaker>
+     <p>Oh! she'll soon be back, I suppose?</p>
+    </sp>
+    <sp who="#L0802_M3">
+     <speaker>Sym.</speaker>
+     <p>I'm afraid so.</p>
+    </sp>
+    <sp who="#L0802_M1">
+     <speaker>Colonel.</speaker>
+     <p>That's a very handsome white rose of yours.</p>
+    </sp>
+    <sp who="#L0802_M3">
+     <speaker>Sym.</speaker>
+     <p>It's no rose of mine.</p>
+    </sp>
+    <sp who="#L0802_M1">
+     <speaker>Colonel.</speaker>
+     <p>Indeed!</p>
+    </sp>
+    <sp who="#L0802_M3">
+     <speaker>Sym.</speaker>
+     <p>Don't make a noise–it's yours. <stage>gives it</stage></p>
+    </sp>
+    <sp who="#L0802_M1">
+     <speaker>Colonel.</speaker>
+     <p>Mine! To what lovely creature am I indebted for this precious gift ?</p>
+    </sp>
+    <sp who="#L0802_M3">
+     <speaker>Sym.</speaker>
+     <p>Why, to me, of course.</p>
+    </sp>
+    <sp who="#L0802_M1">
+     <speaker>Colonel.</speaker>
+     <p>Psha! Oh, I see, it's from that pretty little girl they call Louisa!</p>
+    </sp>
+    <sp who="#L0802_M3">
+     <speaker>Sym.</speaker>
+     <p>Go along, you old peacock! that pretty little girl they call Louisa, would be more likely to
+      send you a bunch of stinging nettles.</p>
+    </sp>
+    <sp who="#L0802_M1">
+     <speaker>Colonel.</speaker>
+     <p>Well, I must know who sent it, come.</p>
+    </sp>
+    <sp who="#L0802_M3">
+     <speaker>Sym.</speaker>
+     <p>Oh! very good, just as you please, only you'd better know nothing about it; why, you
+      irresistible old warrior, it's from Violet Hope.</p>
+    </sp>
+    <sp who="#L0802_M1">
+     <speaker>Colonel.</speaker>
+     <p>Is it possible! <stage>aside</stage> The charming Violet still holds me in her heart.
+       <stage>puts rose in his coat</stage> Unhappy woman, her repentance comes too late!
+       <stage>aloud</stage> Oh, Symmetry, you don't often find old friendships revived in this
+      tender and graceful manner!</p>
+    </sp>
+    <sp who="#L0802_M3">
+     <speaker>Sym.</speaker>
+     <p>Not often, only occasionally. I know a very recent case––</p>
+    </sp>
+    <sp who="#L0802_M1">
+     <speaker>Colonel.</speaker>
+     <p>Ah!</p>
+    </sp>
+    <sp who="#L0802_M3">
+     <speaker>Sym.</speaker>
+     <p>Yes, Isabel has just sent Falcon Hope a red rose.</p>
+    </sp>
+    <sp who="#L0802_M1">
+     <speaker>Colonel.</speaker>
+     <p>Who? Sent what? Am I to understand–</p>
+    </sp>
+    <sp who="#L0802_M3">
+     <speaker>Sym.</speaker>
+     <p>Precisely what I said, you'll see it in his button hole.</p>
+    </sp>
+    <sp who="#L0802_M1">
+     <speaker>Colonel.</speaker>
+     <p>And if I do, sir, I'll pluck it out, and force it down
+      <pb n="20"/> his throat; but, let me be calm–let me first ascertain the truth of this; you say
+      my wife has gone home, if you have deceived me, beware!</p>
+    </sp>
+    <stage>Exit passionately, R. 1 E.</stage>
+    <sp who="#L0802_M3">
+     <speaker>Sym.</speaker>
+     <p>Number two disposed of, and I think the quarrel a very pretty one as it stands; therefore, I
+      shall interfere in it no further. I'll just place myself in a place of observation–Ah! that
+      summer house is the very thing; I shall deposit myself in that private box, and enjoy an
+      uninterrupted view of the entire entertainment. Hilloa! here comes one of the play actors!
+      Walk up, ladies and gentlemen, just a going to begin. <stage>goes into summer house R., and
+       looks from window</stage></p>
+    </sp>
+    <stage>Enter Falcon highly excited, L. 2 E., down terrace.</stage>
+    <sp who="#L0802_M2">
+     <speaker>Falcon.</speaker>
+     <p>It was all true, I charged the perfidious woman with having had a white rose in her
+      possession, and she could not deny it; but by no threats, or entreaties, or commands, could I
+      make her confess for what purpose she procured it. Never mind, I have only now to blow out the
+      brains of that rascally old Colonel, and my business here, is at an end. I'm not sure that I
+      ought not to blow Symmetry's brains out too!</p>
+    </sp>
+    <sp who="#L0802_M3">
+     <speaker>Sym.</speaker>
+     <p>Hilloa! come I say!</p>
+    </sp>
+    <sp who="#L0802_M2">
+     <speaker>Falcon.</speaker>
+     <p>For daring to lend himself to such a piece of base disloyalty! However, first to find this
+      man Clarence.</p>
+    </sp>
+    <stage>Exit, R. 2 E.</stage>
+    <sp who="#L0802_M3">
+     <speaker>Sym.</speaker>
+     <p>I think I've got him up to fever heat and a degree or two over–good! here comes another of
+      the company, the heavy old man.</p>
+    </sp>
+    <stage>Enter Colonel, R. 1 E., in a rage.</stage>
+    <sp who="#L0802_M1">
+     <speaker>Colonel.</speaker>
+     <p>True, true! every damned word of it true! The brazen hussey owned to the having a red rose,
+      and when I threatened to annihilate her unless she told me why she gathered it, the baggage
+      laughed in my face, and said it was a secret––A secret! my honour a secret, in the hands of
+      that chattering little villain, Symmetry!</p>
+    </sp>
+    <sp who="#L0802_M3">
+     <speaker>Sym.</speaker>
+     <p><stage>aside</stage> Now then!</p>
+    </sp>
+    <sp who="#L0802_M1">
+     <speaker>Colonel.</speaker>
+     <p>But where is this fellow Hope? I'll shoot him like a dog! and as for Symmetry, I'll
+      horsewhip him within an inch of his life.</p>
+    </sp>
+    <sp who="#L0802_M3">
+     <speaker>Sym.</speaker>
+     <p><stage>aside</stage> The devil you will !</p>
+    </sp>
+    <stage>Enter Falcon, R. U. E.</stage>
+    <sp who="#L0802_M2">
+     <speaker>Falcon.</speaker>
+     <p>Nowhere to be seen–ha! so, sir, at last!</p>
+    </sp>
+    <sp who="#L0802_M1">
+     <speaker>Colonel.</speaker>
+     <p>Well met, sir; I have to demand of you an account of that red rose you wear in your
+      coat.</p>
+    </sp>
+    <sp who="#L0802_M2">
+     <speaker>Falcon.</speaker>
+     <p>You forestall me, sir; I was about to demand of you an account of that white rose you wear
+      so ostentatiously.</p>
+    </sp>
+    <pb n="21"/>
+    <sp who="#L0802_M3">
+     <speaker>Sym.</speaker>
+     <p><stage>aside</stage> Go it, York–go it, Lancaster!</p>
+    </sp>
+    <sp who="#L0802_M1">
+     <speaker>Colonel.</speaker>
+     <p>And suppose I refuse to render an account, sir.</p>
+    </sp>
+    <sp who="#L0802_M2">
+     <speaker>Falcon.</speaker>
+     <p>You are aware of the alternative, Colonel Clarence.</p>
+    </sp>
+    <sp who="#L0802_M1">
+     <speaker>Colonel.</speaker>
+     <p>I wear Her Majesty's uniform, sir, which is a sufficient answer.</p>
+    </sp>
+    <sp who="#L0802_M3">
+     <speaker>Sym.</speaker>
+     <p><stage>aside</stage> I must stop this.</p>
+    </sp>
+    <stage>Enter Louisa, L. U. E.</stage>
+    <sp who="#L0802_M2">
+     <speaker>Falcon.</speaker>
+     <p>Can you furnish the weapon ?</p>
+    </sp>
+    <sp who="#L0802_M1">
+     <speaker>Colonel.</speaker>
+     <p>If you will use mine.</p>
+    </sp>
+    <sp who="#L0802_M2">
+     <speaker>Falcon.</speaker>
+     <p>Unquestionably.</p>
+    </sp>
+    <sp who="#L0802_M1">
+     <speaker>Colonel.</speaker>
+     <p>Be kind enough to accompany me then.</p>
+    </sp>
+    <sp who="#L0802_M3">
+     <speaker>Sym.</speaker>
+     <p><stage>about to call out, sees Louisa</stage> Confound it; here's little Lou, again!</p>
+    </sp>
+    <sp who="#L0802_F6">
+     <speaker>Louisa.</speaker>
+     <p>Why, what on earth's the matter?</p>
+    </sp>
+    <sp who="#L0802_M2">
+     <speaker>Falcon.</speaker>
+     <p>Nothing that concerns you, Louisa–go away.</p>
+    </sp>
+    <sp who="#L0802_F6">
+     <speaker>Louisa.</speaker>
+     <p>Indeed I shall not, till I know the meaning of this strange conduct.</p>
+    </sp>
+    <sp who="#L0802_M1">
+     <speaker>Colonel.</speaker>
+     <p>My dear young lady, it will be sufficient for you to understand that I am dishonoured by the
+      rose Mr. Hope now wears.</p>
+    </sp>
+    <sp who="#L0802_M2">
+     <speaker>Falcon.</speaker>
+     <p>And I equally so by that worn by Colonel Clarence.</p>
+    </sp>
+    <sp who="#L0802_F6">
+     <speaker>Louisa.</speaker>
+     <p>Oh, if that's the only cause of quarrel, shake hands.</p>
+    </sp>
+    <sp who="#L0802_M3">
+     <speaker>Sym.</speaker>
+     <p><stage>(aside)</stage> Bravo, little Lou!</p>
+    </sp>
+    <sp who="#L0802_F6">
+     <speaker>Louisa.</speaker>
+     <p>For you are quarrelling about things that don't concern you.</p>
+    </sp>
+    <sp who="#L0802_M1">
+     <speaker>Colonel.</speaker>
+     <p>What!</p>
+    </sp>
+    <sp who="#L0802_M2">
+     <speaker>Falcon.</speaker>
+     <p>What!</p>
+    </sp>
+    <sp who="#L0802_F6">
+     <speaker>Louisa.</speaker>
+     <p>I myself saw both those roses given to Mr. Symmetry.</p>
+    </sp>
+    <sp who="#L0802_M2">
+     <speaker>Falcon.</speaker>
+     <p>I am perfectly aware of that, but they were not for him.</p>
+    </sp>
+    <sp who="#L0802_F6">
+     <speaker>Louisa.</speaker>
+     <p>I beg your pardon; I heard Mrs. Hope say, "My dear Mr. Symmetry, you cannot refuse to wear
+      this rose, for my sake;" and Mrs. Clarence said, "Put this rose in your coat and compose
+      yourself–you know how I love you."</p>
+    </sp>
+    <stage>(Colonel and Falcon stare at each other in amazement)</stage>
+    <sp who="#L0802_M3">
+     <speaker>Sym.</speaker>
+     <p><stage>(aside)</stage> That little Lou 'll be the death of me.</p>
+    </sp>
+    <sp who="#L0802_F6">
+     <speaker>Louisa.</speaker>
+     <p>Now, gentlemen, you can of course do as you please; but if you must fight, you at least know
+      who should be your antagonist.</p>
+    </sp>
+    <stage>Exit, L. 1 E.</stage>
+    <sp who="#L0802_M3">
+     <speaker>Sym.</speaker>
+     <p><stage>(aside)</stage> I'll strangle that little Lou, if I'm hanged for it.</p>
+    </sp>
+    <sp who="#L0802_M1">
+     <speaker>Colonel.</speaker>
+     <p>It appears we have been a trifle too hasty in this matter, Mr. Hope.</p>
+    </sp>
+    <sp who="#L0802_M2">
+     <speaker>Falcon.</speaker>
+     <p>We have, Colonel; and I, as the younger, frankly ask your pardon.</p>
+    </sp>
+    <sp who="#L0802_M1">
+     <speaker>Colonel.</speaker>
+     <p>You are an honourable young man, sir, and I ask yours with all my heart. <stage>(they shake
+       hands)</stage></p>
+    </sp>
+    <pb n="22"/>
+    <sp who="#L0802_M2">
+     <speaker>Falcon.</speaker>
+     <p>So this Mr. Symmetry, this woman-hater, has dared to tamper with us in this way.</p>
+    </sp>
+    <sp who="#L0802_M1">
+     <speaker>Colonel.</speaker>
+     <p>I have long suspected him; I believe his expressed antipathy to the sex to be sheer
+      hypocrisy and assumed, merely to cloak the vilest enormities.</p>
+    </sp>
+    <sp who="#L0802_M3">
+     <speaker>Sym.</speaker>
+     <p><stage>(aside)</stage> O you do, do you, you scurrilous old imbecile!</p>
+    </sp>
+    <sp who="#L0802_M2">
+     <speaker>Falcon.</speaker>
+     <p>Our views with regard to him are identical.</p>
+    </sp>
+    <sp who="#L0802_M1">
+     <speaker>Colonel.</speaker>
+     <p>I understand you–certainly.</p>
+    </sp>
+    <sp who="#L0802_M3">
+     <speaker>Sym.</speaker>
+     <p><stage>(aside)</stage> I don't.</p>
+    </sp>
+    <sp who="#L0802_M2">
+     <speaker>Falcon.</speaker>
+     <p>The only question is which shall have the first shot at him.</p>
+    </sp>
+    <sp who="#L0802_M1">
+     <speaker>Colonel.</speaker>
+     <p>I claim that, by virtue of seniority.</p>
+    </sp>
+    <sp who="#L0802_M3">
+     <speaker>Sym.</speaker>
+     <p><stage>(aside)</stage> Oh, you stupid old fool!</p>
+    </sp>
+    <sp who="#L0802_M2">
+     <speaker>Falcon.</speaker>
+     <p>I think it is rather due to me as a guest.</p>
+    </sp>
+    <sp who="#L0802_M3">
+     <speaker>Sym.</speaker>
+     <p><stage>(aside)</stage> Oh, settle it as you please, pray.</p>
+    </sp>
+    <sp who="#L0802_M1">
+     <speaker>Colonel.</speaker>
+     <p>I cannot consent to waive my right.</p>
+    </sp>
+    <sp who="#L0802_M3">
+     <speaker>Sym.</speaker>
+     <p><stage>(aside)</stage> Perhaps you'd like to come on both at once.</p>
+    </sp>
+    <sp who="#L0802_M2">
+     <speaker>Falcon.</speaker>
+     <p>Well, let us each go in search of him. Whichever is lucky enough to meet him first shall
+      take precedence.</p>
+    </sp>
+    <sp who="#L0802_M1">
+     <speaker>Colonel.</speaker>
+     <p>Agreed; but we may as well change roses first. <stage>(they do so)</stage> I'll take this
+      path.</p>
+    </sp>
+    <stage>Exit, R. 1 E.</stage>
+    <sp who="#L0802_M2">
+     <speaker>Falcon.</speaker>
+     <p>And I this.</p>
+    </sp>
+    <stage>Exit, L. 1 E.</stage>
+    <sp who="#L0802_M3">
+     <speaker>Sym.</speaker>
+     <stage>(comes out with packet of letters in his hand, and sings very softly)</stage>
+     <l>"Come open your gates, and let me gang free,</l>
+     <l>For I darena stay longer in Bonny Dundee."</l>
+     <p>Well, I think I've done it now; I've certainly put this handsome foot of mine pretty deeply
+      into it. I must be off; I should like to tumble across little Loo, though, before I go.
+      I'd–I'd I'd–what's this packet? "Letters from Violet." Why, I found 'em among the tools in the
+      summer house; she must have been in correspondence with the gardener! She's a beauty! but I
+      can't stop to overhaul 'em now, I shall have the Philistines upon me. <stage>(as he is going,
+       L. 1 E. meets Falcon)</stage> Oh!</p>
+    </sp>
+    <sp who="#L0802_M2">
+     <speaker>Falcon.</speaker>
+     <p>Stop, sir!</p>
+    </sp>
+    <sp who="#L0802_M3">
+     <speaker>Sym.</speaker>
+     <p>Can't–violent hurry! <stage>(as he is about to run off, R. 1 E., meets Colonel)</stage>
+      Ah!</p>
+    </sp>
+    <sp who="#L0802_M1">
+     <speaker>Colonel.</speaker>
+     <p>Stop, sir!</p>
+    </sp>
+    <sp who="#L0802_M2">
+     <speaker>Falcon.</speaker>
+     <p>Don Juan!</p>
+    </sp>
+    <sp who="#L0802_M1">
+     <speaker>Colonel.</speaker>
+     <p>Lovelace!</p>
+    </sp>
+    <sp who="#L0802_M2">
+     <speaker>Falcon.</speaker>
+     <p>Faublas!</p>
+    </sp>
+    <sp who="#L0802_M3">
+     <speaker>Sym.</speaker>
+     <p>Go on!–anybody else?</p>
+    </sp>
+    <sp who="#L0802_M1">
+     <speaker>Colonel.</speaker>
+     <p>Hypocrite!</p>
+    </sp>
+    <sp who="#L0802_M2">
+     <speaker>Falcon.</speaker>
+     <p>Traitor!</p>
+    </sp>
+    <sp who="#L0802_M1">
+     <speaker>Colonel.</speaker>
+     <p>Is this your friendship?</p>
+    </sp>
+    <sp who="#L0802_M2">
+     <speaker>Falcon.</speaker>
+     <p>Is this your hospitality?</p>
+    </sp>
+    <pb n="23"/>
+    <sp who="#L0802_M3">
+     <speaker>Sym.</speaker>
+     <p>I wish to gracious you'd all of you go back to London.</p>
+    </sp>
+    <sp who="#L0802_M2">
+     <speaker>Falcon.</speaker>
+     <p>This rose was given to you, sir, by my wife.</p>
+    </sp>
+    <sp who="#L0802_M1">
+     <speaker>Colonel.</speaker>
+     <p>And this by mine.</p>
+    </sp>
+    <sp who="#L0802_M3">
+     <speaker>Sym.</speaker>
+     <p>Yes; and I wish both your wives would let my roses alone.</p>
+    </sp>
+    <sp who="#L0802_M2">
+     <speaker>Falcon.</speaker>
+     <p>He admits it!</p>
+    </sp>
+    <sp who="#L0802_M1">
+     <speaker>Colonel.</speaker>
+     <p>Unblushingly!</p>
+    </sp>
+    <sp who="#L0802_M3">
+     <speaker>Sym.</speaker>
+     <p>Of course I do.</p>
+    </sp>
+    <sp who="#L0802_M2">
+     <speaker>Falcon.</speaker>
+     <p>Roses are not given without a motive, sir.</p>
+    </sp>
+    <sp who="#L0802_M3">
+     <speaker>Sym.</speaker>
+     <p>Well, then, go and ask the women what the motive was.</p>
+    </sp>
+    <sp who="#L0802_M2">
+     <speaker>Falcon.</speaker>
+     <p>This bravado will not serve your turn, sir. You have been guilty of a gross violation of
+      friendship and honour, and shall answer it.</p>
+    </sp>
+    <sp who="#L0802_M1">
+     <speaker>Colonel.</speaker>
+     <p>Yes, sir; gross violation–friendship–honour– answer it!</p>
+    </sp>
+    <sp who="#L0802_M3">
+     <speaker>Sym.</speaker>
+     <p>Now I tell you what it is, gentlemen, I'm not a going to be bullied on my own freehold
+      property–if I only had a lease of the place I wouldn't stand it! What do you two maniacs
+      want?</p>
+    </sp>
+    <sp who="#L0802_M1">
+     <speaker>Colonel.</speaker>
+     <p>Satisfaction!</p>
+    </sp>
+    <sp who="#L0802_M2">
+     <speaker>Falcon.</speaker>
+     <p>Satisfaction!</p>
+    </sp>
+    <sp who="#L0802_M3">
+     <speaker>Sym.</speaker>
+     <p>Well, I like that–you bring your wives and your little Lou here; they scour my plantations,
+      like female Cossacks– pilfer my roses, and thrust them into my button holes, and now you ask
+      for satisfaction; damme, I'll go in for damages.</p>
+    </sp>
+    <sp who="#L0802_M2">
+     <speaker>Falcon.</speaker>
+     <p>Well, after all this bluster, sir, I presume you are prepared to fight?</p>
+    </sp>
+    <sp who="#L0802_M3">
+     <speaker>Sym.</speaker>
+     <p>Just like your presumption, sir; I'm prepared for nothing of the sort.
+       <stage>(aside)</stage> I'm prepared to run away, if I see an opening.</p>
+    </sp>
+    <sp who="#L0802_M1">
+     <speaker>Colonel.</speaker>
+     <p>Come sir, enough of this.</p>
+    </sp>
+    <sp who="#L0802_M3">
+     <speaker>Sym.</speaker>
+     <p>Quite enough–rather too much; let's have no more of it.</p>
+    </sp>
+    <sp who="#L0802_M2">
+     <speaker>Falcon.</speaker>
+     <p>You don't escape me thus, sir.</p>
+    </sp>
+    <sp who="#L0802_M1">
+     <speaker>Colonel.</speaker>
+     <p>Nor me, I promise you.</p>
+    </sp>
+    <sp who="#L0802_M3">
+     <speaker>Sym.</speaker>
+     <p>Now I tell you what it is; if I work myself into a passion, if I give way to the stupendous
+      and ungovernable frenzy of anger, if I open the floodgates of my temper, and set free the
+      resistless torrent of my overwhelming fury, if in short, you put my all-round collar up, I
+      shall pulverize the pair of you! <stage>(Falcon and Colonel laugh disdainfully)</stage> Oh,
+      you will have it then, you've done it now; I'm only a little one I know, who cares; if I don't
+      demolish–crush–spiflicate–annihilate, and sweep you both from the face of the earth, I–I wish
+      I may be married; there. <stage>(takes off coat)</stage> It's no use your attempting to run
+      away.</p>
+    </sp>
+    <sp who="#L0802_M2">
+     <speaker>Falcon.</speaker>
+     <p>If you've no objection, we'll fight like gentlemen, not like costermongers.</p>
+    </sp>
+    <pb n="24"/>
+    <sp who="#L0802_M3">
+     <speaker>Sym.</speaker>
+     <p>Oh, I've frightened you, have I? I thought I should stop your blustering; but as I am
+      strong, I can be merciful.</p>
+    </sp>
+    <sp who="#L0802_M2">
+     <speaker>Falcon.</speaker>
+     <p>The man's mad!</p>
+    </sp>
+    <sp who="#L0802_M1">
+     <speaker>Colonel.</speaker>
+     <p>Raving!</p>
+    </sp>
+    <sp who="#L0802_M3">
+     <speaker>Sym.</speaker>
+     <p>What! my clemency disdained? then away with it, Colonel; in consequence of the excessive
+      disproportion of your years–I mean nothing offensive–years, not ears, I may forgive you.</p>
+    </sp>
+    <sp who="#L0802_M1">
+     <speaker>Colonel.</speaker>
+     <p>Bah!</p>
+    </sp>
+    <sp who="#L0802_M3">
+     <speaker>Sym.</speaker>
+     <p><stage>(to Falcon)</stage> But for you, sir, I defy you to mortal British combat; weapons,
+      these! <stage>(holding out fists)</stage> time this, and mind what I say before hand, sir.
+       <stage>(shaking packet of letters in his face)</stage> The polishing you will receive!</p>
+    </sp>
+    <sp who="#L0802_M2">
+     <speaker>Falcon.</speaker>
+     <p>What do I see? "Letters from Violet!"</p>
+    </sp>
+    <sp who="#L0802_M1">
+     <speaker>Colonel.</speaker>
+     <p><stage>(aside)</stage> Mine! by heaven! The miscreant has broken open my desk!</p>
+    </sp>
+    <sp who="#L0802_M2">
+     <speaker>Falcon.</speaker>
+     <p>Give up those letters, sir.</p>
+    </sp>
+    <sp who="#L0802_M3">
+     <speaker>Sym.</speaker>
+     <p>Never, with life.</p>
+    </sp>
+    <sp who="#L0802_M2">
+     <speaker>Falcon.</speaker>
+     <p>Your life I'll have then, if I blow you into a thousand fragments! I will have those
+      letters. Colonel, fetch the pistols.</p>
+    </sp>
+    <stage>Enter Isabella and Violet, L. 2 E., down terrace.</stage>
+    <sp who="#L0802_M1">
+     <speaker>Colonel.</speaker>
+     <p><stage>(aside)</stage> I must shoot him, or–</p>
+    </sp>
+    <sp who="#L0802_F5">
+     <speaker>Isabel.</speaker>
+     <p>Pistols! <stage>(Colonel and Falcon, turn away from their wives)</stage></p>
+    </sp>
+    <sp who="#L0802_M3">
+     <speaker>Sym.</speaker>
+     <p>Yes, ladies! you have succeeded in fulfilling the mission of women; you have brought with
+      you confusion, mischief, discord, ruin and bloodshed! I am the victim of two wives, belonging
+      to my friends; of two roses belonging to myself; and of one little Lou, belonging to no one in
+      particular.</p>
+    </sp>
+    <sp who="#L0802_F5">
+     <speaker>Isabel.</speaker>
+     <p>Oh, nonsense! <stage>(to Violet)</stage> May I tell?</p>
+    </sp>
+    <sp who="#L0802_F4">
+     <speaker>Violet.</speaker>
+     <p>Oh, yes, and I?</p>
+    </sp>
+    <sp who="#L0802_F5">
+     <speaker>Isabel.</speaker>
+     <p>Certainly! <stage>(goes to Colonel)</stage></p>
+    </sp>
+    <sp who="#L0802_M1">
+     <speaker>Colonel.</speaker>
+     <p><stage>(turns away)</stage> Hussey!</p>
+    </sp>
+    <sp who="#L0802_F5">
+     <speaker>Isabel.</speaker>
+     <p>Come here, Clarence, come here I say, directly. <stage>(takes him up)</stage></p>
+    </sp>
+    <sp who="#L0802_F4">
+     <speaker>Violet.</speaker>
+     <p>Falcon, dear.</p>
+    </sp>
+    <sp who="#L0802_M2">
+     <speaker>Falcon.</speaker>
+     <p>Traitress!</p>
+    </sp>
+    <sp who="#L0802_F4">
+     <speaker>Violet.</speaker>
+     <p>One word only. <stage>(takes him up)</stage></p>
+    </sp>
+    <sp who="#L0802_M3">
+     <speaker>Sym.</speaker>
+     <p><stage>(aside)</stage> What are they up to now? the concoction of some other diabolical
+      plot, I wager. I shan't stay here to be shot; a favourable opportunity now offers for a run,
+      and so here goes. <stage>(running off, L. 1 E., meets Louisa)</stage> Oh, here's little Loo
+      again!</p>
+    </sp>
+    <sp who="#L0802_F6">
+     <speaker>Louisa.</speaker>
+     <p>Dear me, Mr. Symmetry, where are you going in such a hurry?</p>
+    </sp>
+    <pb n="25"/>
+    <sp who="#L0802_M2">
+     <speaker>Falcon.</speaker>
+     <p><stage>(aside to Violet)</stage> Oh, is that all? Stop, sir, we haven't quite done with you
+      yet. <stage>(whispers Colonel who makes signs of assent)</stage>
+      <stage>(aloud to Sym.)</stage> Colonel, a word. These wretched women have made a full
+      confession.</p>
+    </sp>
+    <sp who="#L0802_M3">
+     <speaker>Sym.</speaker>
+     <p>Oh, have they?</p>
+    </sp>
+    <sp who="#L0802_M2">
+     <speaker>Falcon.</speaker>
+     <p>And there are two courses open to you; you will have either to exchange shots with Colonel
+      Clarence and myself, or else–</p>
+    </sp>
+    <sp who="#L0802_M1">
+     <speaker>Colonel.</speaker>
+     <p>Yes, sir, or else–</p>
+    </sp>
+    <sp who="#L0802_M3">
+     <speaker>Sym.</speaker>
+     <p>Well, out with it, what else?</p>
+    </sp>
+    <sp who="#L0802_M2">
+     <speaker>Falcon.</speaker>
+     <p>You will marry.</p>
+    </sp>
+    <sp who="#L0802_M3">
+     <speaker>Sym.</speaker>
+     <p>What! Perhaps you'll be good enough to go and fetch the pistols.</p>
+    </sp>
+    <sp who="#L0802_F4">
+     <speaker>Violet.</speaker>
+     <p>You had better marry, sir.</p>
+    </sp>
+    <sp who="#L0802_F5">
+     <speaker>Isabel.</speaker>
+     <p>Consider, cousin, it's a painful thing to be shot.</p>
+    </sp>
+    <sp who="#L0802_M3">
+     <speaker>Sym.</speaker>
+     <p>Get away, both of you! shoot me and bury me in the stable–the women never go there.</p>
+    </sp>
+    <sp who="#L0802_M2">
+     <speaker>Falcon.</speaker>
+     <p>Go and fetch the pistols, Colonel.</p>
+    </sp>
+    <stage>Exit Colonel, R. 1 E.</stage>
+    <sp who="#L0802_M3">
+     <speaker>Sym.</speaker>
+     <p>Well; but stop a minute, suppose, I say I'll mar–ry –I can't get the word out–who the deuce
+       <hi>am</hi> I to marry?</p>
+    </sp>
+    <sp who="#L0802_M2">
+     <speaker>Falcon.</speaker>
+     <p>What do you say to little Loo?</p>
+    </sp>
+    <sp who="#L0802_M3">
+     <speaker>Sym.</speaker>
+     <p>Oh, little Loo, again! <stage>(aside)</stage> An idea! I know she won't marry, so I can get
+      out of it that way. <stage>(aloud)</stage> Now, if I'm refused, it's the same thing, of
+      course?</p>
+    </sp>
+    <sp who="#L0802_M2">
+     <speaker>Falcon.</speaker>
+     <p>Of course!</p>
+    </sp>
+    <sp who="#L0802_M3">
+     <speaker>Sym.</speaker>
+     <p><stage>(c.)</stage> Very well. <stage>(to Louisa, L. C.)</stage> Now, miss, you see the fix
+      I'm in, and if–– <stage>(turning away)</stage> No, I'll do it by post.</p>
+    </sp>
+    <sp who="#L0802_M2">
+     <speaker>Falcon.</speaker>
+     <p>Won't do.</p>
+    </sp>
+    <sp who="#L0802_M3">
+     <speaker>Sym.</speaker>
+     <p>Won't it? well then, miss–<stage>(turns away)</stage> No, I'm hanged if I know how to go to
+      work, and there's an end of it.</p>
+    </sp>
+    <sp who="#L0802_M2">
+     <speaker>Falcon.</speaker>
+     <p>You must kneel down.</p>
+    </sp>
+    <sp who="#L0802_F4">
+     <speaker>Violet.</speaker>
+     <p>Certainly.</p>
+    </sp>
+    <sp who="#L0802_F5">
+     <speaker>Isabel.</speaker>
+     <p>That's the position.</p>
+    </sp>
+    <sp who="#L0802_M3">
+     <speaker>Sym.</speaker>
+     <p>Go along with you, I shan't!</p>
+    </sp>
+    <sp who="#L0802_M2">
+     <speaker>Falcon.</speaker>
+     <p>Very good, the pistols will soon be here.</p>
+    </sp>
+    <sp who="#L0802_M3">
+     <speaker>Sym.</speaker>
+     <p><stage>(aside)</stage> It's no use kicking, they're too many for me, so here goes.
+       <stage>(kneels)</stage> Here's a position for the head of the house of Symmetry.
+       <stage>(aloud)</stage> Now, miss, driven to desperation, and forced by an inconceivable
+      species of persecution into this painful position. I say, let's go on to the grass, these
+      stones are so precious sharp!</p>
+    </sp>
+    <sp who="#L0802_M2">
+     <speaker>Falcon.</speaker>
+     <p>It'll do very well, only be sharp yourself.</p>
+    </sp>
+    <sp who="#L0802_M3">
+     <speaker>Sym.</speaker>
+     <p>You see before you, miss, an orphan, and a man of independent property; the victim of an act
+      of ruffianism, from which there is no escape, but by the perpetration of this act of idiotcy;
+      under these circumstances, miss, I have to make you an offer of my hand; either of 'em, right
+      or left, I don't care which, what do you say? be quick please.</p>
+    </sp>
+    <sp who="#L0802_F6">
+     <speaker>Louisa.</speaker>
+     <p>Well, sir, considering there's very little of you, and not fearing I shall ever love you too
+      violently–</p>
+    </sp>
+    <sp who="#L0802_M3">
+     <speaker>Sym.</speaker>
+     <p><stage>(rising)</stage> You see, she refuses.</p>
+    </sp>
+    <sp who="#L0802_F6">
+     <speaker>Louisa.</speaker>
+     <p>But more particularly, to save you from being shot, I consent.</p>
+    </sp>
+    <stage>Re–enter Colonel, R. 1. E. with pistols.</stage>
+    <sp who="#L0802_M3">
+     <speaker>Sym.</speaker>
+     <p>Eh! catch me somebody; <stage>(falls into Falcon's arms)</stage> but no–I won't have it,
+      little Loo's gone crazy; I will not, I–<stage>(turning R., meets Colonel, who offers
+       pistols)</stage> but you don't know what she'll do to me; she told me herself. <stage>(goes
+       to Louisa, sternly)</stage> Woman! do you know what you're doing?</p>
+    </sp>
+    <sp who="#L0802_F6">
+     <speaker>Louisa.</speaker>
+     <p>Perfectly; I am singular in my notions, and maybe overstepping the bounds of prudence and
+      maidenly propriety; but it is to save a worthy man from an aimless and joyless existence, to
+      which a false prejudice is condemning him.</p>
+    </sp>
+    <sp who="#L0802_M3">
+     <speaker>Sym.</speaker>
+     <p>False prejudice?</p>
+    </sp>
+    <sp who="#L0802_F6">
+     <speaker>Louisa.</speaker>
+     <p>Yes, sir; the defamers of women are generally either fools or libertines; depend upon it,
+      the highest honour of a man's home, the purest part of a man's possessions, the highest lustre
+      of a man's life is, the love of a true and honest woman.</p>
+    </sp>
+    <sp who="#L0802_M2">
+     <speaker>Falcon.</speaker>
+     <p>And now permit me to observe, that this proceeding was a necessity on Mr. Symmetry's part,
+      for in the event of his remaining unmarried beyond this week, all his property would be
+      forfeited to–</p>
+    </sp>
+    <sp who="#L0802_M3">
+     <speaker>Sym.</speaker>
+     <p>Oh, never mind her name!</p>
+    </sp>
+    <sp who="#L0802_M2">
+     <speaker>Falcon.</speaker>
+     <p><stage>(taking Louisa's hand)</stage> To this lady, Miss Louisa Dudley.</p>
+    </sp>
+    <sp who="#L0802_mult">
+     <speaker>All.</speaker>
+     <p>What!</p>
+    </sp>
+    <sp who="#L0802_M3">
+     <speaker>Sym.</speaker>
+     <p>Little Loo, Miss Dudley!</p>
+    </sp>
+    <sp who="#L0802_M2">
+     <speaker>Falcon.</speaker>
+     <p>Yes, by his uncle's will. It was a bit of deception on my part, Sym, to bring her here, but
+      you will understand and appreciate my intention.</p>
+    </sp>
+    <sp who="#L0802_F6">
+     <speaker>Louisa.</speaker>
+     <p>Oh, is it so? no man but a malicious or a foolish one would make such a will, therefore, Mr.
+      Symmetry, I release you from your engagement.</p>
+    </sp>
+    <sp who="#L0802_mult">
+     <speaker>All.</speaker>
+     <p>No, no, no!</p>
+    </sp>
+    <sp who="#L0802_F6">
+     <speaker>Louisa.</speaker>
+     <p>And rest assured you shall remain in full possession of your property.</p>
+    </sp>
+    <sp who="#L0802_M3">
+     <speaker>Sym.</speaker>
+     <p>What, a woman, and so magnanimous! then I say no, no, no, too. <stage>(takes Louisa's hand
+       and comes forward)</stage> Don't you think I'm right? <stage>(to audience)</stage> Never
+      mind, don't answer– I'll risk it! and you'll shortly see or hear of me in the neighbourhood of
+      Hanover Square, in company with "Little Loo," whose bonnet on that occasion, will be decorated
+      with Orange Blossoms.</p>
+    </sp>
+    <stage>Colonel, Isabella. Symmetry. Louisa. Falcon. Violet. R.</stage>
+    <stage>Curtain.</stage>
+   </div>
+
+
+  </body>
+ </text>
+</TEI>
