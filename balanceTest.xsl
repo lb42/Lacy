@@ -12,10 +12,25 @@
  <xsl:template match="body">
   <xsl:variable name="lacyTot" select="count(//div[@type = 'work'])"/>
   <xsl:variable name="vppTot"
-   select="count(//div[@type = 'work' and bibl[@type = 'origin']/idno[@type = 'vpp']])"/>
+   select="count(//div[@type = 'work' and bibl[@type = 'originalSource']/idno[@type = 'vpp']])"/>
   <xsl:variable name="teiTot" select="count(//div[@type = 'work' and @subtype eq 'TEI'])"/>
 
 <xsl:message>Totals :  of  <xsl:value-of select="$lacyTot"/> Lacy titles, <xsl:value-of select="$vppTot"/> are in VPP; and <xsl:value-of select="$teiTot"/> in TEI</xsl:message>
+  
+  <xsl:message>TEI per Volume counts: </xsl:message>
+  <xsl:variable name="zeroVols"  select="//*:div[@type='volume'][count(*:div[@type='work' and @subtype='TEI']) eq 0]/substring-before(@n,'/')"/>
+  <xsl:message><xsl:value-of select="concat( count($zeroVols), ' (',string-join($zeroVols,' '),') have 0 TEI titles')"/></xsl:message>
+  <xsl:variable name="oneVols"  select="//*:div[@type='volume'][count(*:div[@type='work' and @subtype='TEI']) eq 1]/substring-before(@n,'/')"/>
+  <xsl:message><xsl:value-of select="concat( count($oneVols), ' (',string-join($oneVols,' '),') have 1 TEI title')"/></xsl:message>
+  <xsl:variable name="twoVols"  select="//*:div[@type='volume'][count(*:div[@type='work' and @subtype='TEI']) eq 2]/substring-before(@n,'/')"/>
+  <xsl:message><xsl:value-of select="concat( count($twoVols), ' (',string-join($twoVols,' '),') have 2 TEI title')"/></xsl:message>
+  <xsl:variable name="threeVols"  select="//*:div[@type='volume'][count(*:div[@type='work' and @subtype='TEI']) eq 3]/substring-before(@n,'/')"/>
+  <xsl:message><xsl:value-of select="concat( count($threeVols), ' (',string-join($threeVols,' '),') have 3 TEI titles')"/></xsl:message>
+  <xsl:variable name="fourVols"  select="//*:div[@type='volume'][count(*:div[@type='work' and @subtype='TEI']) ge 4]/substring-before(@n,'/')"/>
+  <xsl:message><xsl:value-of select="concat( count($fourVols), ' (',string-join($fourVols,' '),') have 4+ TEI titles')"/></xsl:message>
+  
+  
+  
   <xsl:message>Checking balance for ...</xsl:message>
 
   <!-- define the types to count -->
