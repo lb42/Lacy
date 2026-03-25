@@ -1,0 +1,3139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L1126" xml:lang="en">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title>The Sleeping Hare: TEI edition</title>
+    <author ref="lacyp:W0084"><persName>Dilley, Joseph J.</persName><idno type="wikidata"/></author>
+    <respStmt>
+     <resp>TEI conversion</resp>
+     <name>Lou Burnard</name>
+    </respStmt>
+   </titleStmt>
+   <publicationStmt>
+    <distributor>Privately distributed by the Digital Lacy Project</distributor>
+    <idno type="LAE">L1126</idno>
+    <availability>
+     <licence target="https://creativecommons.org/publicdomain/zero/1.0/">The Lacy Project waives
+      all rights to the TEI encoding applied to this material, which it believes to be in the public
+      domain. You may copy, modify, distribute, or perform this work freely. </licence>
+    </availability>
+   </publicationStmt>
+   <sourceDesc>
+    <bibl type="originalSource" n="76.1"><author n="W0084">Dilley, Joseph J.</author>
+     <title type="main">The Sleeping Hare</title>
+     <title type="sub">A Comedy in two acts</title>
+     <extent>35 pp (UM copy: 10 - 45)<measure type="pp" quantity="33"/>
+      <measure type="spCount" quantity="594"/>
+      <measure type="spvCount" quantity="3"/>
+      <measure type="txWords" quantity="11067"/>
+      <measure type="spWords" quantity="10036"/>
+      <measure type="stWords" quantity="1031"/>
+     </extent>
+     <title level="s"> Lacy's Acting Edition, volume 76, No. 1126</title><idno type="nic"
+      >N11716</idno></bibl>
+    <bibl type="surrogate" subtype="copytext"><ref
+      target="https://babel.hathitrust.org/cgi/pt?id=mdp.39015067453608&amp;seq=10 ">UM from
+      HT</ref><ref target="local:Vol76/L1126/L1126-um.pdf"/></bibl>
+    <listEvent>
+     <event type="firstPerf" when="1868-04-06" source="textNic" where="Cavendish">
+      <desc>Premiered at Cavendish [amat] 6 Apr 1868</desc>
+     </event>
+    </listEvent>
+   </sourceDesc>
+  </fileDesc>
+  <profileDesc>
+   <!--M 2 Comedy C. COMEDY-->
+   <textClass>
+    <catRef target="#sizeM"/>
+    <catRef target="#act2"/>
+    <catRef target="nic:C."/>
+    <keywords>
+     <term>COMEDY</term>
+    </keywords>
+   </textClass>
+   <particDesc>
+    <listPerson>
+     <person xml:id="L1126_M1">
+      <persName type="role">SIR WILLIAM STARLING, BART</persName>
+      <persName type="spkr" n="59">Sir W.</persName>
+     </person>
+     <person xml:id="L1126_M2">
+      <persName type="role">MR. SAMPSON STARLING</persName>
+      <persName type="spkr" n="79">Sampson.</persName>
+     </person>
+     <person xml:id="L1126_M3">
+      <persName type="role">PHILIP AINSLIE</persName>
+      <persName type="spkr" n="122">Ainslie.</persName>
+     </person>
+     <person xml:id="L1126_M4">
+      <persName type="role">THE HON. HERBERT WYNNE</persName>
+      <persName type="spkr" n="56">Wynne.</persName>
+     </person>
+     <person xml:id="L1126_M5">
+      <persName type="role">HARRY ROCKET</persName>
+      <persName type="spkr" n="47">Rocket.</persName>
+     </person>
+     <person xml:id="L1126_M6">
+      <persName type="role">SNUDGE</persName>
+      <persName type="spkr" n="30">Snudge.</persName>
+     </person>
+     <person xml:id="L1126_F7">
+      <persName type="role">LADY STARLING</persName>
+      <persName type="spkr" n="53">Lady S.</persName>
+     </person>
+     <person xml:id="L1126_F8">
+      <persName type="role">EDITH</persName>
+      <persName type="spkr" n="144">Edith.</persName>
+     </person>
+     <person xml:id="L1126_F9">
+      <persName type="role">MARY</persName>
+      <persName type="spkr" n="1">Mary.</persName>
+     </person>
+     <person xml:id="L1126_mult">
+      <persName type="role">[Multiple speakers]</persName>
+      <persName type="spkr" n="2">All.</persName>
+     </person>
+     <person xml:id="L1126_M10">
+      <persName type="role">[Servant]</persName>
+      <persName type="spkr" n="1">Serv.</persName>
+     </person>
+    </listPerson>
+   </particDesc>
+  </profileDesc>
+  <revisionDesc>
+   <change when="2026-03-25">Add wikidata link to titleStmt where possible</change>
+   <change when="2026-03-25">Hand edited to match UM edition </change>
+   <change when="2026-03-24">TEI autotagging by Gemini Pro 2.5</change>
+
+  </revisionDesc>
+ </teiHeader>
+ <text>
+  <front>
+   <titlePage>
+
+    <titlePart type="main">THE SLEEPING HARE</titlePart>
+    <titlePart type="sub">A Comedy, IN TWO ACTS.</titlePart>
+
+    <byline>BY <docAuthor>JOSEPH J. DILLEY, Esq.</docAuthor> author of
+      <title>Carronne,</title><title>In the Toils,</title>etc., etc.</byline>
+    <docImprint>
+     <publisher>THOMAS HAILES LACY</publisher>
+     <pubPlace>89, STRAND, LONDON.</pubPlace>
+    </docImprint>
+   </titlePage>
+   <castList>
+    <head>CHARACTERS.</head>
+    <castItem>
+     <role gender="M">SIR WILLIAM STARLING, BART</role>
+    </castItem>
+    <castItem>
+     <role gender="M">MR. SAMPSON STARLING</role>
+     <roleDesc>(brother to Lady Starling.)</roleDesc>
+    </castItem>
+    <castItem>
+     <role gender="M">PHILIP AINSLIE</role>
+     <roleDesc>(ward to Sir William.)</roleDesc>
+    </castItem>
+    <castItem>
+     <role gender="M">THE HON. HERBERT WYNNE</role>
+    </castItem>
+    <castItem>
+     <role gender="M">HARRY ROCKET</role>
+     <roleDesc>friend to Ainslie.</roleDesc>
+    </castItem>
+    <castItem>
+     <role gender="M">SNUDGE</role>
+    </castItem>
+    <castItem>
+     <role gender="F">LADY STARLING</role>
+    </castItem>
+    <castItem>
+     <role gender="F">EDITH</role>
+     <roleDesc>(her daughter.)</roleDesc>
+    </castItem>
+    <castItem>
+     <role gender="F">MARY</role>
+    </castItem>
+   </castList>
+   <div type="costume">
+    <head>Costumes</head>
+    <p>Modern: but as six years is supposed to pass between the acts, a total change in dress and
+     appearance is important.</p>
+   </div>
+  </front>
+  <pb n="3"/>
+  <body>
+   <div type="act" n="1">
+    <head>ACT I.</head>
+    <div type="scene" n="1">
+     <head>SCENE FIRST.</head>
+     <stage>Breakfast room in Starling House-doors R. 2E. and L. 2E.-centre, glass doors opening on
+      lawn. Edith seated at a small table, R., The Honourable Herbert Wynne standing beside, while
+      she turns over the leaves of a photographic album. Sir William and Lady Starling are seated
+      further up, both reading papers-Sampson at the back, at an escritoire with his back to the
+      audience, writing papers, &amp;c., scattered before, and small coloured diagrams of monkeys
+      and other beasts pinned up before him.</stage>
+     <sp who="#L1126_M4">
+      <speaker>Wynne.</speaker>
+      <p>Yes, a capital carte. Lord Potterboy looks positively handsome.</p>
+     </sp>
+     <sp who="#L1126_F8">
+      <speaker>Edith.</speaker>
+      <p>What a good humour the sun must have been in to have made his lordship look beautiful.</p>
+     </sp>
+     <sp who="#L1126_F7">
+      <speaker>Lady S.</speaker>
+      <p>Mr. Sampson.</p>
+     </sp>
+     <sp who="#L1126_M2">
+      <speaker>Sampson.</speaker>
+      <stage>(not looking up)</stage>
+      <p>Well ?</p>
+     </sp>
+     <sp who="#L1126_F7">
+      <speaker>Lady S.</speaker>
+      <p>I have an advertisement to read you. Will you please attend to me.</p>
+     </sp>
+     <sp who="#L1126_M2">
+      <speaker>Sampson.</speaker>
+      <p>By all means; excuse my going on.</p>
+     </sp>
+     <sp who="#L1126_F7">
+      <speaker>Lady S.</speaker>
+      <stage>(reading)</stage>
+      <p>"In the press, and will be ready shortly, Birds, Beasts, and Fishes, an illustrated
+       compendium––"</p>
+     </sp>
+     <sp who="#L1126_M2">
+      <speaker>Sampson.</speaker>
+      <p>Ah! yes, by Beagle, a conceited old ass.</p>
+     </sp>
+     <sp who="#L1126_F7">
+      <speaker>Lady S.</speaker>
+      <stage>(continuing)</stage>
+      <p>"Birds, Beasts, and Fishes, an illustrated compendium of Natural History; written by Mr.
+       Samuel Beagle."</p>
+     </sp>
+     <sp who="#L1126_M2">
+      <speaker>Sampson.</speaker>
+      <p>Thank you <stage>(turning round)</stage> a miserable compiler, without a particle of
+       originality. His book's only so many dry dishes of facts, served up under Latin names. Pray,
+       don't bother me again. I've just got well hold of the chimpanzee.</p>
+     </sp>
+     <pb n="4"/>
+     <sp who="#L1126_M1">
+      <speaker>Sir W.</speaker>
+      <p>Have you quite done with that outside, my dear ?</p>
+     </sp>
+     <sp who="#L1126_F7">
+      <speaker>Lady S.</speaker>
+      <p>Oh! quite. <stage>(they exchange papers)</stage></p>
+     </sp>
+     <sp who="#L1126_M2">
+      <speaker>Sampson.</speaker>
+      <stage>(measuring one of the outlines with compasses)</stage>
+      <p>Forty-four inches from his nose to the tip of his tail.</p>
+     </sp>
+     <sp who="#L1126_F8">
+      <speaker>Edith.</speaker>
+      <p>One of the best I have seen of you, Mr. Wynne.</p>
+     </sp>
+     <sp who="#L1126_M4">
+      <speaker>Wynne.</speaker>
+      <p>You flatter me.</p>
+     </sp>
+     <sp who="#L1126_F8">
+      <speaker>Edith.</speaker>
+      <p>Not at all, if the likeness does not.</p>
+     </sp>
+     <sp who="#L1126_M2">
+      <speaker>Sampson.</speaker>
+      <stage>(at his work)</stage>
+      <p>"Hair long and silky–brain small."</p>
+     </sp>
+     <sp who="#L1126_M4">
+      <speaker>Wynne.</speaker>
+      <p>A photographer once told me that his greatest difficulty was to catch an expression.</p>
+     </sp>
+     <sp who="#L1126_F8">
+      <speaker>Edith.</speaker>
+      <p>Of course. If an artist could only make stupid people look like men of sense, what a
+       business he might have.</p>
+     </sp>
+     <sp who="#L1126_M4">
+      <speaker>Wynne.</speaker>
+      <p>Yes, yes. I met an old lady at Bath last season who had a most remarkable ––<stage>(stoops
+        to pick up Miss Starling's handkerchief.)</stage></p>
+     </sp>
+     <sp who="#L1126_M2">
+      <speaker>Sampson.</speaker>
+      <p>"Tail, tail, long and supple."</p>
+     </sp>
+     <sp who="#L1126_M4">
+      <speaker>Wynne.</speaker>
+      <stage>(continuing)</stage>
+      <p>A most remarkable set of features, as hard as a jailer's, and they brought her out as
+       chubby as a doll.</p>
+     </sp>
+     <sp who="#L1126_F8">
+      <speaker>Edith.</speaker>
+      <p>Dear me, what a marvellous change! Oh! papa, what have you done with Miss Gimp?</p>
+     </sp>
+     <sp who="#L1126_M1">
+      <speaker>Sir W.</speaker>
+      <p>Really, Edith, what should I do with Miss Gimp?</p>
+     </sp>
+     <sp who="#L1126_F8">
+      <speaker>Edith.</speaker>
+      <p>Oh! nonsense, papa; you know what I mean. What have you done with her carte?</p>
+     </sp>
+     <sp who="#L1126_F7">
+      <speaker>Lady S.</speaker>
+      <p>Not so loud, my dear Edith, if you please. You seem to have no pride whatever. Miss Gimp is
+       an old maid with only her piety to recommend her. You will be asking for the likeness of your
+       papa's greengrocer next.</p>
+     </sp>
+     <sp who="#L1126_F8">
+      <speaker>Edith.</speaker>
+      <p>I am sure she is very lady-like and sweet tempered. Is she not, Mr. Sampson ?</p>
+     </sp>
+     <sp who="#L1126_M2">
+      <speaker>Sampson.</speaker>
+      <stage>(as before)</stage>
+      <p>"She will defend her offspring to the last extremity, and when enraged" <stage>(all
+        laugh)</stage> Eh ? Miss Gimp. Oh yes, but she's poor, you know.</p>
+     </sp>
+     <sp who="#L1126_F8">
+      <speaker>Edith.</speaker>
+      <p>Poor! But you have not told me what you have done with her likeness.</p>
+     </sp>
+     <sp who="#L1126_F7">
+      <speaker>Lady S.</speaker>
+      <p><hi>I</hi> have thrown it behind the fire, my dear, in company with Mr. Ainslie's.</p>
+     </sp>
+     <sp who="#L1126_F8">
+      <speaker>Edith.</speaker>
+      <p>With Mr. Ainslie's! Surely, mamma, you have not done that. I shall never be able to
+       look—Miss Gimp in the face again.</p>
+     </sp>
+     <sp who="#L1126_M1">
+      <speaker>Sir W.</speaker>
+      <p>Enough, Edith; Lady Starling was quite right.
+       <pb n="5"/>You ought to have too much pride to concern yourself about a penniless
+       school-teacher.</p>
+     </sp>
+     <sp who="#L1126_F7">
+      <speaker>Lady S.</speaker>
+      <p>And a depraved scapegrace.</p>
+     </sp>
+     <sp who="#L1126_M2">
+      <speaker>Sampson.</speaker>
+      <p>Eh? Ainslie? Nonsense, the boy's a little wild, that's all. An untamed buffalo.</p>
+     </sp>
+     <sp who="#L1126_F7">
+      <speaker>Lady S.</speaker>
+      <p>Buffalo, indeed!</p>
+     </sp>
+     <sp who="#L1126_M1">
+      <speaker>Sir W.</speaker>
+      <p>Ainslie's bad, radically bad, brother. If <hi>I</hi> can make nothing of him he
+        <hi>must</hi> be wrong. He has been in the house six years, and has'nt breakfasted with the
+       family twenty times.</p>
+     </sp>
+     <sp who="#L1126_M2">
+      <speaker>Sampson.</speaker>
+      <p>What shameful depravity!</p>
+     </sp>
+     <sp who="#L1126_F7">
+      <speaker>Lady S.</speaker>
+      <p>He has'nt a particle of pride.</p>
+     </sp>
+     <sp who="#L1126_M2">
+      <speaker>Sampson.</speaker>
+      <p>But plenty of pluck.</p>
+     </sp>
+     <sp who="#L1126_F7">
+      <speaker>Lady S.</speaker>
+      <p>A bear, altogether a bear. Look at his companions.</p>
+     </sp>
+     <sp who="#L1126_M4">
+      <speaker>Wynne.</speaker>
+      <p>He's confoundedly clumsy. He once trod on my left foot–right in the middle of the
+       season–and I could'nt waltz for a week.</p>
+     </sp>
+     <sp who="#L1126_M2">
+      <speaker>Sampson.</speaker>
+      <p>Shocking! You'll be well rid of him, brother.</p>
+     </sp>
+     <sp who="#L1126_M1">
+      <speaker>Sir W.</speaker>
+      <p>I hope so.</p>
+     </sp>
+     <sp who="#L1126_M2">
+      <speaker>Sampson.</speaker>
+      <p>Eh! why he's twenty-one to-day: when does he go?</p>
+     </sp>
+     <sp who="#L1126_M1">
+      <speaker>Sir W.</speaker>
+      <p>I shall pay him his father's legacy to-night, and he shall leave Starling House
+       to-morrow.</p>
+     </sp>
+     <sp who="#L1126_F7">
+      <speaker>Lady S.</speaker>
+      <p>What will he do, I wonder. Spend his money, and then take to writing for the papers, or
+       some other such vulgar occupation.</p>
+     </sp>
+     <sp who="#L1126_M1">
+      <speaker>Sir W.</speaker>
+      <p>Heaven forbid, my dear. Think of the disgrace.</p>
+     </sp>
+     <sp who="#L1126_F7">
+      <speaker>Lady S.</speaker>
+      <p>Or purchase the goodwill of a cheesmonger's, and turn tradesman.</p>
+     </sp>
+     <sp who="#L1126_M1">
+      <speaker>Sir W.</speaker>
+      <p>To think of a ward of the Starling's weighing out a pound of mild cheshire. Why it would
+       compromise the family for a century. <stage>(Edith hides her face in a book.)</stage></p>
+     </sp>
+     <sp who="#L1126_M4">
+      <speaker>Wynne.</speaker>
+      <p>Or become one of those strolling vagabonds they call actors. What a capital clown Mr.
+       Ainslie would make.</p>
+     </sp>
+     <sp who="#L1126_M2">
+      <speaker>Sampson.</speaker>
+      <p>Capital, my dear sir. It costs a clever man very little trouble to play the fool; the
+       difficulty is for a fool to act like a man of sense.</p>
+     </sp>
+     <sp who="#L1126_M4">
+      <speaker>Wynne.</speaker>
+      <p>Yes, of course. <stage>(Aside)</stage> What an odd file it is.</p>
+     </sp>
+     <sp who="#L1126_F7">
+      <speaker>Lady S.</speaker>
+      <p>Mr. Sampson.</p>
+     </sp>
+     <sp who="#L1126_M2">
+      <speaker>Sampson.</speaker>
+      <p>Don't speak to me. These monkeys bother me more than enough.</p>
+     </sp>
+     <sp who="#L1126_M4">
+      <speaker>Wynne.</speaker>
+      <p>May I tempt you to a stroll in the shrubbery, Miss Starling?</p>
+     </sp>
+     <pb n="6"/>
+     <sp who="#L1126_F8">
+      <speaker>Edith.</speaker>
+      <p>The air's chilly I am afraid, or else–</p>
+     </sp>
+     <sp who="#L1126_F7">
+      <speaker>Lady S.</speaker>
+      <p>Edith! my dear.</p>
+     </sp>
+     <sp who="#L1126_F8">
+      <speaker>Edith.</speaker>
+      <p>Oh! certainly. The air has become extremely balmy, Mr. Wynne, and I shall be happy to
+       accompany you.</p>
+     </sp>
+     <stage>(Loud ring heard)</stage>
+     <sp who="#L1126_M2">
+      <speaker>Sampson.</speaker>
+      <stage>(aside)</stage>
+      <p>There's Ainslie! Now for a scene.</p>
+     </sp>
+     <sp who="#L1126_F8">
+      <speaker>Edith.</speaker>
+      <p>And yet I don't know that I ought to risk your delicate health. On second thoughts, I will
+       finish my chapter.</p>
+     </sp>
+     <sp who="#L1126_M3">
+      <speaker>Ainslie.</speaker>
+      <stage>(outside)</stage>
+      <p>And I say, Johnson, make Rocket jolly; no half measures mind; the largest bottle in the
+       cellar with a belly like Bacchus's.</p>
+     </sp>
+     <sp who="#L1126_M4">
+      <speaker>Wynne.</speaker>
+      <p>Can I persuade you?</p>
+     </sp>
+     <sp who="#L1126_F8">
+      <speaker>Edith.</speaker>
+      <stage>(coldly)</stage>
+      <p>Not now, thank you. <stage>(Watches behind her book for Ainslie.)</stage></p>
+     </sp>
+     <sp who="#L1126_F7">
+      <speaker>Lady S.</speaker>
+      <p>Pray get rid of him, my dear, as soon as possible.</p>
+     </sp>
+     <stage>Enter Philip Ainslie L., rather carelessly dressed. He walks to the fireplace, and looks
+      round the room. Sir William and Lady Starling cover up their faces in their papers. Wynne
+      turns the back of his chair towards him, and Sampson goes on with his work.</stage>
+     <sp who="#">
+      <stage>(He speaks a little thickly, as though he had been drinking.)</stage>
+      <p>Good morning everybody. How d'ye do Mr. Sampson ? <stage>(seeing Edith he bows to her with
+        great gravity)</stage> Now, Sir William; how about this business of ours? <stage>(Sir
+        William does not reply)</stage> Put that lively paper down and attend to me. If you make a
+       nightcap of the "Times" in this way, you'll get dreaming of the leaders, and wake up more
+       ponderously dull than ever.</p>
+     </sp>
+     <sp who="#L1126_M1">
+      <speaker>Sir W.</speaker>
+      <p>You forget, sir, to whom you are speaking.</p>
+     </sp>
+     <sp who="#L1126_M3">
+      <speaker>Ainslie.</speaker>
+      <p>No, I don't my worthy guardian. A few more hours and I can snap my fingers at you.</p>
+     </sp>
+     <sp who="#L1126_M1">
+      <speaker>Sir W.</speaker>
+      <p>If you have no respect for me, Mr. Ainslie, have some for the family. There are ladies
+       present.</p>
+     </sp>
+     <sp who="#L1126_M3">
+      <speaker>Ainslie.</speaker>
+      <p>Of course. But they're behind the "Times." For once in my life, I feel exceedingly
+       business-like, so we'll take the matter up at once.</p>
+     </sp>
+     <sp who="#L1126_M1">
+      <speaker>Sir W.</speaker>
+      <p>I have told you I am occupied. You must wait upon me by and bye.</p>
+     </sp>
+     <sp who="#L1126_M3">
+      <speaker>Ainslie.</speaker>
+      <p>I'll wait upon you now. We'll have a settlement here. But I'm in no hurry. <stage>(Sits
+        astride chair)</stage> Finish your article and I'll amuse the ladies with a song. Ladies,
+       your most obedient: what shall it be?</p>
+     </sp>
+     <sp who="#L1126_M1">
+      <speaker>Sir W.</speaker>
+      <p>What is it you want, sir?</p>
+     </sp>
+     <pb n="7"/>
+     <sp who="#L1126_M3">
+      <speaker>Ainslie.</speaker>
+      <p>Ha! Ha! I thought so. Want? Money, Sir William, money. My father's legacy, to the uttermost
+       farthing.</p>
+     </sp>
+     <sp who="#L1126_M1">
+      <speaker>Sir W.</speaker>
+      <p>You're a graceless young rascal, sir.</p>
+     </sp>
+     <sp who="#L1126_M3">
+      <speaker>Ainslie.</speaker>
+      <p>Like the hungry monk with his dinner before him.</p>
+     </sp>
+     <sp who="#L1126_M1">
+      <speaker>Sir W.</speaker>
+      <p>And have been so from the first.</p>
+     </sp>
+     <sp who="#L1126_M3">
+      <speaker>Ainslie.</speaker>
+      <p>From the very day I set foot in this house.</p>
+     </sp>
+     <sp who="#L1126_M1">
+      <speaker>Sir W.</speaker>
+      <p>Enough, sir; words are wasted on you. <stage>(Rings bell)</stage></p>
+     </sp>
+     <sp who="#L1126_M3">
+      <speaker>Ainslie.</speaker>
+      <p>And jokes on you.</p>
+     </sp>
+     <sp who="#L1126_M2">
+      <speaker>Sampson.</speaker>
+      <stage>(at his work)</stage>
+      <p>"These brutes have savage natures, but gentle usage seldom fails to tame them."</p>
+     </sp>
+     <stage>Enter Snudge, L., he wears black sleeves, and calico jacket; leather apron.</stage>
+     <sp who="#L1126_M1">
+      <speaker>Sir W.</speaker>
+      <p>How's this–where's Johnson ?</p>
+     </sp>
+     <sp who="#L1126_M6">
+      <speaker>Snudge.</speaker>
+      <p>I'd rather not say, sir.</p>
+     </sp>
+     <sp who="#L1126_M1">
+      <speaker>Sir W.</speaker>
+      <p>How! When I put a question to my servants, I expect a reply.</p>
+     </sp>
+     <sp who="#L1126_M6">
+      <speaker>Snudge.</speaker>
+      <p>Well, sir, I think he's in the wine cellar, with Mr. Rocket.</p>
+     </sp>
+     <sp who="#L1126_M1">
+      <speaker>Sir W.</speaker>
+      <p>What's he doing there!</p>
+     </sp>
+     <sp who="#L1126_M6">
+      <speaker>Snudge.</speaker>
+      <p>I don't know, sir. As they went down I heard Mr. Rocket say, that he'd toss Johnson for the
+       first kiss off Mary.</p>
+     </sp>
+     <sp who="#L1126_M3">
+      <speaker>Ainslie.</speaker>
+      <p>What, the new maid? Bravo! Rocket. A man of taste, Sir William. Mary's pretty for a
+       sovereign.</p>
+     </sp>
+     <sp who="#L1126_M1">
+      <speaker>Sir W.</speaker>
+      <p>I must discharge that man.</p>
+     </sp>
+     <sp who="#L1126_M6">
+      <speaker>Snudge.</speaker>
+      <p>I wish you would, sir.</p>
+     </sp>
+     <sp who="#L1126_F7">
+      <speaker>Lady S.</speaker>
+      <p>Kissing our servants under our very noses.</p>
+     </sp>
+     <sp who="#L1126_M6">
+      <speaker>Snudge.</speaker>
+      <p>Under our very noses!</p>
+     </sp>
+     <sp who="#L1126_M1">
+      <speaker>Sir W.</speaker>
+      <p>Tell him to turn that fellow, Rocket, out; and wait upon me. But stay. You'll find a black
+       desk on my study table, Snudge, bring it me. <stage>(Snudge exits, R.)</stage></p>
+     </sp>
+     <sp who="#L1126_F7">
+      <speaker>Lady S.</speaker>
+      <p>Edith, my dear, your papa is about to conduct some business with this person. Take Mr.
+       Wynne's arm if you please.</p>
+     </sp>
+     <sp who="#L1126_M4">
+      <speaker>Wynne.</speaker>
+      <stage>(starting up)</stage>
+      <p>Oh! delighted, I am sure.</p>
+     </sp>
+     <sp who="#L1126_F8">
+      <speaker>Edith.</speaker>
+      <stage>(saddened)</stage>
+      <p>Certainly, mamma.</p>
+     </sp>
+     <sp who="#L1126_M3">
+      <speaker>Ainslie.</speaker>
+      <p>Pray don't go, ladies, on my account. Wynne, don't take those whiskers away, they're an
+       ornament to the room.</p>
+     </sp>
+     <pb n="8"/>
+     <sp who="#L1126_F8">
+      <speaker>Edith.</speaker>
+      <stage>(aside)</stage>
+      <p>Worse and worse.</p>
+     </sp>
+     <sp who="#L1126_M4">
+      <speaker>Wynne.</speaker>
+      <p>An amusing dog. Sir William, <hi>au revoir</hi>. Miss Starling, may I ––<stage>(She takes
+        his arm, and they exit, C.)</stage></p>
+     </sp>
+     <sp who="#L1126_F7">
+      <speaker>Lady S.</speaker>
+      <p>And when you have rid the room, Sir William, of its present odour of the cigar divan and
+       the music hall, I will rejoin you. <stage>(She sails by Ainslie, and as she does so, flirts
+        her handkerchief about and then places it to her face)</stage> Pah! what a disgusting smell
+       of smoke.</p>
+     </sp>
+     <stage>(Exit Lady Starling, R.)</stage>
+     <sp who="#L1126_M3">
+      <speaker>Ainslie.</speaker>
+      <stage>(taking out his handkerchief)</stage>
+      <p>Pah! what an overpowering smell of patchouli.</p>
+     </sp>
+     <stage>Snudge enters R., places desk before Sir William, and exits, L.</stage>
+     <sp who="#L1126_M1">
+      <speaker>Sir W.</speaker>
+      <p>Now understand me, Mr. Ainslie, I make this settlement on the distinct understanding that
+       you never darken my doors again.</p>
+     </sp>
+     <sp who="#L1126_M3">
+      <speaker>Ainslie.</speaker>
+      <p>Now understand me, Sir William, you make this settlement because you are compelled, as one
+       of my father's executors, to do so. It's as well to be correct.</p>
+     </sp>
+     <sp who="#L1126_M1">
+      <speaker>Sir W.</speaker>
+      <p>Sign these papers, if you please. Stay, I must have a witness.</p>
+     </sp>
+     <sp who="#L1126_M3">
+      <speaker>Ainslie.</speaker>
+      <p>Twenty, if you like. Harry Rocket's the boy –he'll sign anything.</p>
+     </sp>
+     <sp who="#L1126_M1">
+      <speaker>Sir W.</speaker>
+      <p>I'll have none of your drunken revellers in this room, sir. I think I told you never to
+       bring that man within my doors again.</p>
+     </sp>
+     <sp who="#L1126_M3">
+      <speaker>Ainslie.</speaker>
+      <p>Rocket drunk! impossible. He has just joined the Band of Hope, set up a pump in his own
+       garden, and signed a three years' contract with the milkman–Rocket drunk–never! <stage>(Rings
+        bell.)</stage></p>
+     </sp>
+     <sp who="#L1126_M1">
+      <speaker>Sir W.</speaker>
+      <p>What are you pulling that bell for, sir?</p>
+     </sp>
+     <sp who="#L1126_M3">
+      <speaker>Ainslie.</speaker>
+      <p>To make it ring, of course. <stage>Enter Snudge, L.</stage> Snudge, tell Rocket I want to
+       see him.</p>
+     </sp>
+     <sp who="#L1126_M1">
+      <speaker>Sir W.</speaker>
+      <p>Snudge, remain where you are!</p>
+     </sp>
+     <sp who="#L1126_M3">
+      <speaker>Ainslie.</speaker>
+      <p>Oh! I see, he's your witness. Very well, but mine must be a gentleman, Sir William,
+        <stage>(rings bell again)</stage> even if he's drunk. <stage>Enter Mary, L.</stage> Ah!
+       here's a belle of another sort. Shall I ring her ?
+       <pb n="9"/>
+       <stage>(advances to her, but Snudge interposes)</stage> Oh! ho! I see. Mary, there's a Rocket
+       downstairs, send it up.</p>
+     </sp>
+     <sp who="#L1126_F9">
+      <speaker>Mary.</speaker>
+      <p>A what, sir?</p>
+     </sp>
+     <sp who="#L1126_M1">
+      <speaker>Sir W.</speaker>
+      <p>Mary, shut the door and remain where you are. <stage>(She closes door.)</stage></p>
+     </sp>
+     <sp who="#L1126_M2">
+      <speaker>Sampson.</speaker>
+      <stage>(waking up from a brown study)</stage>
+      <p>Brother, just a word. Mr. Ainslie has a right to select his own witness; you to control
+       your own servants. You know I never interfere, but perhaps I can assist you both. You want a
+       signature, Mr. Ainslie, will mine do?</p>
+     </sp>
+     <sp who="#L1126_M3">
+      <speaker>Ainslie.</speaker>
+      <stage>(rather abashed)</stage>
+      <p>You are very good. Now, Snudge, offer Mary your arm; and Mary, have nothing more to do with
+       rockets, they're dangerous fireworks.</p>
+     </sp>
+     <sp who="#L1126_M1">
+      <speaker>Sir W.</speaker>
+      <p>Snudge, Mary, leave the room. <stage>(Exeunt Snudge and Mary, L.)</stage> Now, sir,
+        <stage>(to Ainslie)</stage> sign that, and count these fifteen hundreds, and ten fifties.
+       Brother, place yours here. <stage>(They sign)</stage> Are they right?</p>
+     </sp>
+     <sp who="#L1126_M3">
+      <speaker>Ainslie.</speaker>
+      <p>Quite. And now, failing a friend, I congratulate myself. Philip Ainslie! you're your own
+       master at last.</p>
+     </sp>
+     <sp who="#L1126_M1">
+      <speaker>Sir W.</speaker>
+      <p>Everywhere but in this house, sir. The sooner you leave it for ever, the better I shall be
+       pleased. Brother, I want to speak to you.</p>
+     </sp>
+     <stage>(Exit, R.)</stage>
+     <sp who="#L1126_M2">
+      <speaker>Sampson.</speaker>
+      <p>Mr. Ainslie, good bye! I wish you success. You are young, and, for a little while, rich.
+       While your money lasts you will despise advice, when it is gone, you may welcome it. If you
+       should come to learn that good counsel is better than cash, and a fair name of more value
+       than the wealth of a world, come to me, I shall be glad to see you.</p>
+     </sp>
+     <stage>(Exit, R.)</stage>
+     <sp who="#L1126_M3">
+      <speaker>Ainslie.</speaker>
+      <p>That's a prime old fellow, although his name is Starling. It's long since I heard anything
+       like civility in this house, excepting from Snudge. A great fool, that boy–he likes and
+       serves me as though I were the most sober and worthy fellow in the world.</p>
+     </sp>
+     <stage>Enter Edith, L., scarf and hat on.</stage>
+     <sp who="#L1126_F8">
+      <speaker>Edith.</speaker>
+      <p>Oh! I beg your pardon. Mr. Sampson ?</p>
+     </sp>
+     <sp who="#L1126_M3">
+      <speaker>Ainslie.</speaker>
+      <p>He has just left the room to have a chat with his amiable brother. <stage>(He saunters
+        away, she hesitating at the door)</stage> Oh! I beg your pardon, I am very rude, I know, but
+       what can be expected from a scamp like me. Can I help you at all?</p>
+     </sp>
+     <sp who="#L1126_F8">
+      <speaker>Edith.</speaker>
+      <p>Thank you. These are some books I promised
+       <pb n="10"/>to get for him this morning. I will leave them on his desk. <stage>(X's and
+        places books there)</stage> You leave us to-morrow, Mr. Ainslie.</p>
+     </sp>
+     <sp who="#L1126_M3">
+      <speaker>Ainslie.</speaker>
+      <p>Yes, I'm glad– that is—I am sorry to say I do.</p>
+     </sp>
+     <sp who="#L1126_F8">
+      <speaker>Edith.</speaker>
+      <p>Your first thought was the truer one.</p>
+     </sp>
+     <sp who="#L1126_M3">
+      <speaker>Ainslie.</speaker>
+      <p>Honestly, Miss Starling, it was. From the baronet down to the buttons, leaving out Snudge,
+       there's no one I care a rush for.</p>
+     </sp>
+     <sp who="#L1126_F8">
+      <speaker>Edith.</speaker>
+      <p>Your candour is quite charming.</p>
+     </sp>
+     <sp who="#L1126_M3">
+      <speaker>Ainslie.</speaker>
+      <p>Quite.</p>
+     </sp>
+     <sp who="#L1126_F8">
+      <speaker>Edith.</speaker>
+      <p>Not one! what a benighted household we are.</p>
+     </sp>
+     <sp who="#L1126_M3">
+      <speaker>Ainslie.</speaker>
+      <p>No, for the feeling's mutual. If I were to die to-morrow, there's not a soul in the house
+       that would spend a shilling on a hat-band for me.</p>
+     </sp>
+     <sp who="#L1126_F8">
+      <speaker>Edith.</speaker>
+      <p>Mr. Ainslie, you are too bitter.</p>
+     </sp>
+     <sp who="#L1126_M3">
+      <speaker>Ainslie.</speaker>
+      <p>Miss Starling, I have been made so. I have been taught to hate kindness, to resent a loving
+       word as I would a blow. I have learnt to return scorn for scorn.</p>
+     </sp>
+     <sp who="#L1126_F8">
+      <speaker>Edith.</speaker>
+      <p>People would not dare to scorn you, Mr. Ainslie, if your conduct commanded their
+       respect.</p>
+     </sp>
+     <sp who="#L1126_M3">
+      <speaker>Ainslie.</speaker>
+      <p>Just so. Everybody else is an angel, and I am –at the other extreme.</p>
+     </sp>
+     <sp who="#L1126_F8">
+      <speaker>Edith.</speaker>
+      <p>Mr. Ainslie!</p>
+     </sp>
+     <sp who="#L1126_M3">
+      <speaker>Ainslie.</speaker>
+      <p>For the six years, Miss Starling, that I have lived in this house, what has been my
+       experience? Nothing but contempt and neglect. My nature was rugged, granted–the greater the
+       need for wise, and loving culture. You foster the rank, unwholesome weed amongst your
+       flowers, and then cry out that the sight of it offends you. No, I have sought my happiness
+       elsewhere, and have found it. Out of doors I have been hailed with shouts of welcome,
+       praised, flattered, respected even. Neglected at home, courted abroad; before me the
+       alternative of two things, a shameful endurance of contempt, or a reckless dissipation; a
+       schoolboy's restraint, or a free man's revelry, and you wonder at my choice.</p>
+     </sp>
+     <sp who="#L1126_F8">
+      <speaker>Edith.</speaker>
+      <p>No, Mr. Ainslie, you excuse, but do not justify yourself. But I have no right to speak to
+       you thus, you have chosen your way, and no words of mine will turn you from it.</p>
+     </sp>
+     <sp who="#L1126_M3">
+      <speaker>Ainslie.</speaker>
+      <p>You speak truly, it is too late.</p>
+     </sp>
+     <sp who="#L1126_F8">
+      <speaker>Edith.</speaker>
+      <p>And I only spoke to you that you might not leave us with too much bitterness in your heart.
+       I have failed, and am sorry–good bye!</p>
+     </sp>
+     <stage>(Exit Edith, R.)</stage>
+     <sp who="#L1126_M3">
+      <speaker>Ainslie.</speaker>
+      <p>Quite a little Maria Edgworth. She dislikes
+       <pb n="11"/>me, or pities me, which is worse. Well, it matters little, and now for Snudge,
+       the only being in the house who's weak enough to like me.</p>
+     </sp>
+     <sp who="#L1126_M3">
+      <speaker>Ainslie.</speaker>
+      <p>What, Rocket!</p>
+     </sp>
+     <stage>Enter Rocket, L.</stage>
+     <sp who="#L1126_M5">
+      <speaker>Rocket.</speaker>
+      <p>Yes, Rocket. What on earth have you been doing for the last half hour? Why, I'd guarantee
+       to clear out the Bank of England in five minutes, if they'd give me the chance.</p>
+     </sp>
+     <sp who="#L1126_M5">
+      <speaker>Rocket.</speaker>
+      <p>Never mind, my boy; you could afford to listen to a dozen lectures for a couple of
+       thousand. I've taken diluted "Watts on the Mind" six times a day for a fiver. She was a good
+       creature, that old aunt of mine, but frightfully prosy. What's the programme ?</p>
+     </sp>
+     <sp who="#L1126_M3">
+      <speaker>Ainslie.</speaker>
+      <p>Programme! perish the word! What has a man with two thousand pounds in his pocket to do
+       with a programme? We'll be confoundedly irregular, sir.</p>
+     </sp>
+     <sp who="#L1126_M5">
+      <speaker>Rocket.</speaker>
+      <p>Right; a man with money can mix his champagne with ginger beer, and get praised for his
+       taste.</p>
+     </sp>
+     <sp who="#L1126_M3">
+      <speaker>Ainslie.</speaker>
+      <p>Ha! ha! it must be something quite new. What say you to bonneting a bishop?</p>
+     </sp>
+     <sp who="#L1126_M5">
+      <speaker>Rocket.</speaker>
+      <p>No. We'll knock over a brewer's drayman, and make the crowd drunk.</p>
+     </sp>
+     <sp who="#L1126_M3">
+      <speaker>Ainslie.</speaker>
+      <p>And preach temperance after, from the empty cart.</p>
+     </sp>
+     <sp who="#L1126_M5">
+      <speaker>Rocket.</speaker>
+      <p>We'll preach first, and make them drunk afterwards. Precept adorned by practice.</p>
+     </sp>
+     <sp who="#L1126_M3">
+      <speaker>Ainslie.</speaker>
+      <p>A pint of beer, and a moral maxim gratis!</p>
+     </sp>
+     <sp who="#L1126_M5">
+      <speaker>Rocket.</speaker>
+      <p>Interspersed with edifying songs, "How doth the little busy bee" with a humming chorus
+       would go like wildfire–eh ?</p>
+     </sp>
+     <sp who="#L1126_M3">
+      <speaker>Ainslie.</speaker>
+      <p>We'll do just as we please. The world's before us, let's enjoy it while we can. We'll dance
+       to its maddest music, join in its loudest songs, drain Pleasure's lips of her kisses, wear
+       all women's colours, and fight for none. Come along, Rocket! to-day's our own, to-morrow
+       never comes.</p>
+     </sp>
+     <stage>(Exit with Rocket, L.)</stage>
+     <stage>Enter Edith, followed by Lady Starling, R.</stage>
+     <sp who="#L1126_F7">
+      <speaker>Lady S.</speaker>
+      <p>But Mr. Wynne has money, my dear.</p>
+     </sp>
+     <pb n="12"/>
+     <sp who="#L1126_F8">
+      <speaker>Edith.</speaker>
+      <p>And no brains, mamma.</p>
+     </sp>
+     <sp who="#L1126_F7">
+      <speaker>Lady S.</speaker>
+      <p>Position now, and a title in the future.</p>
+     </sp>
+     <sp who="#L1126_F8">
+      <speaker>Edith.</speaker>
+      <p>Very likely, but I prefer sense to either.</p>
+     </sp>
+     <sp who="#L1126_F7">
+      <speaker>Lady S.</speaker>
+      <p>What do I hear? A daughter of mine preferring sense to a title! Why, child, you are getting
+       quite vulgar.</p>
+     </sp>
+     <sp who="#L1126_F8">
+      <speaker>Edith.</speaker>
+      <p>I can be no match for a future lord, then.</p>
+     </sp>
+     <sp who="#L1126_F7">
+      <speaker>Lady S.</speaker>
+      <p>Mr. Wynne, you say, offered you his hand yesterday for the second time. Take care, he may
+       not give you a third chance. He is rich, well bred, good looking——</p>
+     </sp>
+     <sp who="#L1126_F8">
+      <speaker>Edith.</speaker>
+      <p>Mamma, I will hear no more! there must be some limit to this. As I must endure the future,
+       so I claim to choose the present, I am no child, and once for all, I will not marry this
+       fool! <stage>(seats herself at table.)</stage></p>
+     </sp>
+     <sp who="#L1126_F7">
+      <speaker>Lady S.</speaker>
+      <p>Mercy on us, a fool! The Honourable Mr. Wynne a fool!</p>
+     </sp>
+     <stage>Enter Sampson, R., with books.</stage>
+     <sp who="#L1126_M2">
+      <speaker>Sampson.</speaker>
+      <p>Most accurate description, go on, my lady, go on, let's have his points.</p>
+     </sp>
+     <sp who="#L1126_F7">
+      <speaker>Lady S.</speaker>
+      <p>Brother, you are a brute!"</p>
+     </sp>
+     <sp who="#L1126_M2">
+      <speaker>Sampson.</speaker>
+      <p>Am I? You couldn't have paid me a higher compliment. I'm fond of brutes.</p>
+     </sp>
+     <sp who="#L1126_F7">
+      <speaker>Lady S.</speaker>
+      <p>Stuff! Edith, you shall hear of this. The Honourable Mr. Wynne a fool! A future lord a
+       fool! Was there ever such impiety. <stage>(Exit Lady Starling, R. Sampson walks to his
+        table.)</stage></p>
+     </sp>
+     <sp who="#L1126_M2">
+      <speaker>Sampson.</speaker>
+      <p>What has been the matter, Edith ?</p>
+     </sp>
+     <sp who="#L1126_F8">
+      <speaker>Edith.</speaker>
+      <p>Only this; mamma wants me to marry a donkey, and I won't.</p>
+     </sp>
+     <sp who="#L1126_M2">
+      <speaker>Sampson.</speaker>
+      <p>Mamma is very cruel. Do you object to donkeys generally, or to this donkey in
+       particular?</p>
+     </sp>
+     <sp who="#L1126_F8">
+      <speaker>Edith.</speaker>
+      <p>I hate you all, there!</p>
+     </sp>
+     <sp who="#L1126_M2">
+      <speaker>Sampson.</speaker>
+      <p>A very catholic sentiment. But I don't think you do. Like the rest of the girls, you've a
+       four-footed favourite somewhere, only he's a bit more presentable, and wears his ears a
+       trifle shorter than the rest of us.</p>
+     </sp>
+     <sp who="#L1126_F8">
+      <speaker>Edith.</speaker>
+      <p>You, at least, can bear with me. From morning till night I must listen to his praises. He
+       is handsome, rich, well-bred, clever–the Fates help me!–I have refused him once, but
+       settlements, pin money, jewellery are dinned into my ears, till I begin to believe after all
+       that love's a something that can be bought and paid for like a yard of ribbon.</p>
+     </sp>
+     <pb n="13"/>
+     <sp who="#L1126_M2">
+      <speaker>Sampson.</speaker>
+      <p>The poets say no, Edith; but the world says yes; and the world's oftener right. So you've
+       banished all the donkeys. Isn't there a corner in that little heart of yours where a thistle
+       could be munched?</p>
+     </sp>
+     <sp who="#L1126_F8">
+      <speaker>Edith.</speaker>
+      <p>Not one. What nonsense, uncle!</p>
+     </sp>
+     <sp who="#L1126_M2">
+      <speaker>Sampson.</speaker>
+      <p>Not one! <stage>(aside)</stage> I don't believe it. <stage>(walking to his desk)</stage> By
+       the way, I didn't tell you the news.</p>
+     </sp>
+     <sp who="#L1126_F8">
+      <speaker>Edith.</speaker>
+      <p>What news?</p>
+     </sp>
+     <sp who="#L1126_M2">
+      <speaker>Sampson.</speaker>
+      <stage>(absently)</stage>
+      <p>Ainslie.</p>
+     </sp>
+     <sp who="#L1126_F8">
+      <speaker>Edith.</speaker>
+      <stage>(starting)</stage>
+      <p>What, uncle!</p>
+     </sp>
+     <sp who="#L1126_M2">
+      <speaker>Sampson.</speaker>
+      <stage>(aside)</stage>
+      <p>Ha, ha! trapped. <stage>(aloud)</stage> No, no, what did I say? Raker, my dog Raker.</p>
+     </sp>
+     <sp who="#L1126_F8">
+      <speaker>Edith.</speaker>
+      <p>Oh !</p>
+     </sp>
+     <sp who="#L1126_M2">
+      <speaker>Sampson.</speaker>
+      <p>Oh!</p>
+     </sp>
+     <sp who="#L1126_F8">
+      <speaker>Edith.</speaker>
+      <p>Poor fellow !</p>
+     </sp>
+     <sp who="#L1126_M2">
+      <speaker>Sampson.</speaker>
+      <p>Poor fellow! Edith, I'm a bit of an antediluvian, I know; but there isn't a particle of
+       idle curiosity about me. I want you to be very serious for a moment, while I ask you a
+       question.</p>
+     </sp>
+     <sp who="#L1126_F8">
+      <speaker>Edith.</speaker>
+      <p>As serious as a woman can be.</p>
+     </sp>
+     <sp who="#L1126_M2">
+      <speaker>Sampson.</speaker>
+      <p>Will you promise to answer me?</p>
+     </sp>
+     <sp who="#L1126_F8">
+      <speaker>Edith.</speaker>
+      <p>I'll try.</p>
+     </sp>
+     <sp who="#L1126_M2">
+      <speaker>Sampson.</speaker>
+      <p>You don't like the name of Wynne. It doesn't read well, eh? Suppose we turn to the errata
+       and for Wynne read Ainslie, eh?</p>
+     </sp>
+     <stage>Enter Ainslie, L., at hearing his name he stops abruptly, and then walks slowly to
+      back.</stage>
+     <sp who="#L1126_F8">
+      <speaker>Edith.</speaker>
+      <p>Uncle !</p>
+     </sp>
+     <sp who="#L1126_M2">
+      <speaker>Sampson.</speaker>
+      <p>What would your answer be then?</p>
+     </sp>
+     <sp who="#L1126_F8">
+      <speaker>Edith.</speaker>
+      <p>Oh! uncle.</p>
+     </sp>
+     <sp who="#L1126_M2">
+      <speaker>Sampson.</speaker>
+      <p><hi>That's</hi> no reply.</p>
+     </sp>
+     <sp who="#L1126_F8">
+      <speaker>Edith.</speaker>
+      <p>And you expect me to answer you.</p>
+     </sp>
+     <sp who="#L1126_M2">
+      <speaker>Sampson.</speaker>
+      <p>I do, most certainly.</p>
+     </sp>
+     <sp who="#L1126_F8">
+      <speaker>Edith.</speaker>
+      <p>It was cruel to make me promise.</p>
+     </sp>
+     <sp who="#L1126_M2">
+      <speaker>Sampson.</speaker>
+      <p>Cruel stuff! Now don't let your cheeks tell tales if your lips can contradict them. Do you
+       like this Mr. Ainslie ?</p>
+     </sp>
+     <sp who="#L1126_F8">
+      <speaker>Edith.</speaker>
+      <p>You must keep my secret if I tell you that I do.</p>
+     </sp>
+     <sp who="#L1126_M2">
+      <speaker>Sampson.</speaker>
+      <p>That is, you think you love him?</p>
+     </sp>
+     <sp who="#L1126_F8">
+      <speaker>Edith.</speaker>
+      <p>Yes.</p>
+     </sp>
+     <pb n="14"/>
+     <sp who="#L1126_M2">
+      <speaker>Sampson.</speaker>
+      <p>I was right. I guessed it–I guessed it. Bless the girl; and how long's this mischief been
+       going on?</p>
+     </sp>
+     <sp who="#L1126_F8">
+      <speaker>Edith.</speaker>
+      <p>Forgive me, uncle. Till to-day, I scarcely dared to own it even to myself. But now that Mr.
+       Ainslie has gone. <stage>(bursts into tears)</stage> You will spare me now, I know.</p>
+     </sp>
+     <stage>(Exit hastily, R.)</stage>
+     <sp who="#L1126_M2">
+      <speaker>Sampson.</speaker>
+      <p>Poor Edith. If ever a man deserved a kicking––</p>
+     </sp>
+     <sp who="#L1126_M3">
+      <speaker>Ainslie.</speaker>
+      <stage>(coming down, L.)</stage>
+      <p>Philip Ainslie does.</p>
+     </sp>
+     <sp who="#L1126_M2">
+      <speaker>Sampson.</speaker>
+      <p>What, Ainslie! You here in this room!</p>
+     </sp>
+     <sp who="#L1126_M3">
+      <speaker>Ainslie.</speaker>
+      <p>Even so.</p>
+     </sp>
+     <sp who="#L1126_M2">
+      <speaker>Sampson.</speaker>
+      <p>You have heard all? </p>
+     </sp>
+     <sp who="#L1126_M3">
+      <speaker>Ainslie.</speaker>
+      <p>I have.</p>
+     </sp>
+     <sp who="#L1126_M2">
+      <speaker>Sampson.</speaker>
+      <p>You are a mean, pitiful fox sir! Out of my sight!</p>
+     </sp>
+     <sp who="#L1126_M3">
+      <speaker>Ainslie.</speaker>
+      <p>You see I do not stir.</p>
+     </sp>
+     <sp who="#L1126_M2">
+      <speaker>Sampson.</speaker>
+      <p>What right had you here?</p>
+     </sp>
+     <sp who="#L1126_M3">
+      <speaker>Ainslie.</speaker>
+      <p>The best of rights.</p>
+     </sp>
+     <sp who="#L1126_M2">
+      <speaker>Sampson.</speaker>
+      <p>You listened designedly.</p>
+     </sp>
+     <sp who="#L1126_M3">
+      <speaker>Ainslie.</speaker>
+      <p>No. On my soul, no!</p>
+     </sp>
+     <sp who="#L1126_M2">
+      <speaker>Sampson.</speaker>
+      <p>But you <hi>did</hi> listen.</p>
+     </sp>
+     <sp who="#L1126_M3">
+      <speaker>Ainslie.</speaker>
+      <p>I admit it. That money <stage>(pointing to notes)</stage> is mine. I returned to fetch it.
+       As I entered I heard my name spoken. My feet were leaden as I stood. I stayed, and learnt
+       all.</p>
+     </sp>
+     <sp who="#L1126_M2">
+      <speaker>Sampson.</speaker>
+      <p>Prompted by a most contemptible vanity! Sir, I was hasty just now, but I'm not unjust. Your
+       own conscience must judge you in this thing. But your duty now is as clear as noon-day. You
+       must quit this place at once.</p>
+     </sp>
+     <sp who="#L1126_M3">
+      <speaker>Ainslie.</speaker>
+      <p>I know it.</p>
+     </sp>
+     <sp who="#L1126_M2">
+      <speaker>Sampson.</speaker>
+      <p>If you take any mean advantage by look, sound, or gesture of a secret so learnt, you are no
+       honest man, sir.</p>
+     </sp>
+     <sp who="#L1126_M3">
+      <speaker>Ainslie.</speaker>
+      <p>Heaven help me! I fear I am none as it is.</p>
+     </sp>
+     <sp who="#L1126_M2">
+      <speaker>Sampson.</speaker>
+      <p>She is a mere child. In a month she will forget you altogether. <stage>(shaking his
+        hands)</stage> Now, good bye, go immediately. I'll find her, and keep her engaged till you
+       have left. Mind, on your honour, not a word!</p>
+     </sp>
+     <stage>(Exit Sampson, R.)</stage>
+     <sp who="#L1126_M3">
+      <speaker>Ainslie.</speaker>
+      <p>Heavens! how I am altered. She loves me. Can it be possible? What a blind fool I must have
+       been. Loves me! My cheeks should flame with crimson as I speak. A reveller–a gambler–an idle,
+       aimless straw upon the stream of life, and yet she loves me! Is there no chance–no hope?
+       Shall I hear this and fold my hands
+       <pb n="15"/> and wait for ruin? There must be hope; it is not too late. A wild hope rushes
+       through my veins, and fires me with a novel strength. I am not yet lost. Out of the ashes of
+       the past there rises my new self–recreate of love. Another life's before me! Loves me–loves
+       me; no sound so sweet in all the world, even though 'twere false, and true–Heavens! she is
+       here.</p>
+     </sp>
+     <stage>Enter Edith, R.</stage>
+     <sp who="#L1126_F8">
+      <speaker>Edith.</speaker>
+      <p>I am so glad you are not gone, Mr. Ainslie. Did you think I was offended this morning?</p>
+     </sp>
+     <sp who="#L1126_M3">
+      <speaker>Ainslie.</speaker>
+      <stage>(aside)</stage>
+      <p>Not a word—not a breath!</p>
+     </sp>
+     <sp who="#L1126_F8">
+      <speaker>Edith.</speaker>
+      <p>You were mistaken if you thought so, and to prove it, I am here to shake hands with you
+       before you go.</p>
+     </sp>
+     <sp who="#L1126_M3">
+      <speaker>Ainslie.</speaker>
+      <stage>(aside)</stage>
+      <p>Heaven, help me! Good bye, Miss Starling. <stage>(takes her hand.)</stage></p>
+     </sp>
+     <sp who="#L1126_F8">
+      <speaker>Edith.</speaker>
+      <p>Why do you turn your head away? Haven't you forgiven me?</p>
+     </sp>
+     <sp who="#L1126_M3">
+      <speaker>Ainslie.</speaker>
+      <stage>(aside)</stage>
+      <p>Forgiven <hi>her</hi>! <stage>(drops her hand, and paces the stage.)</stage></p>
+     </sp>
+     <sp who="#L1126_F8">
+      <speaker>Edith.</speaker>
+      <p>I see I am annoying you. Had I known</p>
+     </sp>
+     <sp who="#L1126_M3">
+      <speaker>Ainslie.</speaker>
+      <p>Do not go, Miss Starling, I am absent, confused. I told you an hour ago, that I would
+       resent a word of love as I would a blow. In my boastfulness, I lied. It has been spoken, and
+       has conquered me.</p>
+     </sp>
+     <sp who="#L1126_F8">
+      <speaker>Edith.</speaker>
+      <p>What do you mean?</p>
+     </sp>
+     <sp who="#L1126_M3">
+      <speaker>Ainslie.</speaker>
+      <p>Miss Starling, I know all.</p>
+     </sp>
+     <sp who="#L1126_F8">
+      <speaker>Edith.</speaker>
+      <p>Sir!</p>
+     </sp>
+     <sp who="#L1126_M3">
+      <speaker>Ainslie.</speaker>
+      <p>All! I was here–in this room–and heard you say––</p>
+     </sp>
+     <sp who="#L1126_F8">
+      <speaker>Edith.</speaker>
+      <p>Stop, Mr. Ainslie! Give your meanness its proper name. You played the spy. Leave me,
+       sir.</p>
+     </sp>
+     <sp who="#L1126_M3">
+      <speaker>Ainslie.</speaker>
+      <p>I do not heed your reproach. I was here by chance. I could not stir to save my life—another
+       moment and I learnt all.</p>
+     </sp>
+     <sp who="#L1126_F8">
+      <speaker>Edith.</speaker>
+      <p>I will hear no more, sir.</p>
+     </sp>
+     <sp who="#L1126_M3">
+      <speaker>Ainslie.</speaker>
+      <p>You <hi>must</hi> listen. I cannot leave you thus without a word. Your secret is now mine.
+       You cannot recall it if you would. <stage>(she is about to go)</stage> Nay, hear me; not a
+       word shall escape me that a devotee might not breathe to his saint; you shall be to me as a
+       star, for ever visible, yet for ever out of reach. But look at me. Give me but a word, a
+       breath to seal my new-found joy. I shall go mad else. Miss Starling, you love me!</p>
+     </sp>
+     <pb n="16"/>
+     <sp who="#L1126_F8">
+      <speaker>Edith.</speaker>
+      <p>You cannot think so, or you would never proclaim it so rudely to my face. The man who had
+       heard such a confession would have imposed eternal silence on his lips; would have gone out
+       into the world with its echoes lingering in his ears, and have worked until he became worthy
+       of the sweet message love had brought him. Treading no path that duty did not mark, holding
+       no aims that honour did not sanction, exulting in the new purpose given to his existence, he
+       would have striven until the secret he had learnt should have ceased to reproach him, until
+       he had retrieved the honour he had lost. Your ears have played you false, sir.</p>
+     </sp>
+     <sp who="#L1126_M3">
+      <speaker>Ainslie.</speaker>
+      <p>Tell me you repent your words–that they were idle, false; but do not seek to deceive me
+       thus. Duty! what is it to me in presence of such joy? Miss Starling –Edith!</p>
+     </sp>
+     <sp who="#L1126_F8">
+      <speaker>Edith.</speaker>
+      <p>Silence, sir.</p>
+     </sp>
+     <sp who="#L1126_M3">
+      <speaker>Ainslie.</speaker>
+      <p>Nay, let me speak. Like dawn to the sick man, your confession––</p>
+     </sp>
+     <sp who="#L1126_F8">
+      <speaker>Edith.</speaker>
+      <p>You will compel me to teach you a lesson that I may regret.</p>
+     </sp>
+     <sp who="#L1126_M3">
+      <speaker>Ainslie.</speaker>
+      <p>I am mad, drunk with a sudden sense of a bliss that has overwhelmed me. Tell me at least
+       that your regard for me.</p>
+     </sp>
+     <sp who="#L1126_F8">
+      <speaker>Edith.</speaker>
+      <p>Leave me, sir, I command you.</p>
+     </sp>
+     <sp who="#L1126_M3">
+      <speaker>Ainslie.</speaker>
+      <p>I cannot–will not; the world shall share my joy, shall hear––</p>
+     </sp>
+     <sp who="#L1126_F8">
+      <speaker>Edith.</speaker>
+      <p>Not a single word more, sir. You have offended me beyond recall. <stage>Enter Wynne, L.,
+        and Sampson, R.</stage> You shall see, sir, how Edith Starling can rebuke presumption.</p>
+     </sp>
+     <sp who="#L1126_M2">
+      <speaker>Sampson.</speaker>
+      <p>Edith! Ainslie! What does this mean?</p>
+     </sp>
+     <sp who="#L1126_F8">
+      <speaker>Edith.</speaker>
+      <p>Do not speak to me, uncle. My pride has suffered a wound that must be healed at once, or my
+       self-respect will die. Mr. Wynne! yesterday, for the second time you offered me your
+       hand.</p>
+     </sp>
+     <sp who="#L1126_M4">
+      <speaker>Wynne.</speaker>
+      <p>Can you mean –?</p>
+     </sp>
+     <sp who="#L1126_F8">
+      <speaker>Edith.</speaker>
+      <p>In your presence, Mr. Sampson, and <stage>(indicating Ainslie)</stage> in this gentleman's,
+       I accept your offer. <stage>(extends her hand to him,)</stage></p>
+     </sp>
+     <stage>R.</stage>
+     <sp who="#L1126_M4">
+      <speaker>Wynne.</speaker>
+      <stage>(taking it)</stage>
+      <p>Edith, a thousand thanks.</p>
+     </sp>
+     <sp who="#L1126_M3">
+      <speaker>Ainslie.</speaker>
+      <stage>(aghast)</stage>
+      <p>God help me! What have I done!</p>
+     </sp>
+     <stage>Wynne. Sampson. Edith. Ainslie.</stage>
+    </div>
+    <trailer>End of act I.</trailer>
+   </div>
+   <pb n="17" xml:id="pb_17_25"/>
+   <div type="act">
+    <note>Six years have elapsed.</note>
+    <head>ACT II.</head>
+    <div type="scene">
+     <head>SCENE FIRST.-Handsome Chambers, doors R. and L.</head>
+     <stage>Snudge discovered with newspaper. He is dressed in plain livery, and is rather
+      tanned.</stage>
+     <sp who="#L1126_M6">
+      <speaker>Snudge.</speaker>
+      <stage>(at the top of his voice)</stage>
+      <p>Leave it on the landing. That woman has no respect for me. I've been all the way to Africa
+       and back; lived for six years amongst a lot of wild beasts, and dirty blacks, and she treats
+       me as though I'd only taken a two-penny steamer to Pimlico and back. I must read her this
+       paragraph, <stage>(taking up "Times,")</stage> and see if that will make her a little more
+       civil. <stage>(reads)</stage> "By the steamer "Palmetto" which reached Plymouth on the 8th,
+       there arrived Mr. Philip Ainslie, owner of some very large farms in Natal, and member of the
+       Colonial Legislature. He has been chosen as a special commissioner to the Home Government on
+       the subject of the disputed Crown Lands in the Colony." There! there! We look well on paper.
+       There's only one thing; they've left me out. I suppose "Snudge" would'nt look well in print.
+       There's something in that. If Shakespeare's name had been Snudge, he would'nt have written a
+       line; or if he had, the critics would have told him he'd mistaken his vocation, and ought to
+       have stuck to his calf-killing. What a lot of crime would have been prevented if he had.
+       Hamlet would'nt have skewered poor Polonius; Cleopatra would never have spoilt her skin with
+       a nasty little asp; and Desdemona might have brought up a large coloured family, and have
+       died quietly with her head <hi>on</hi> a bolster, instead of <hi>under</hi> one.
+        <stage>(knock)</stage> Hallo! who's this? Visitors for the Commissioner I daresay: we must
+       assert ourselves. Come in!</p>
+     </sp>
+     <stage>Enter Rocket, L.</stage>
+     <sp who="#L1126_M5">
+      <speaker>Rocket.</speaker>
+      <p>Is there a gentleman here–</p>
+     </sp>
+     <sp who="#L1126_M6">
+      <speaker>Snudge.</speaker>
+      <p>I can't see one, sir.</p>
+     </sp>
+     <sp who="#L1126_M5">
+      <speaker>Rocket.</speaker>
+      <p>Don't be impertinent you young dog–of the name of Ainslie. <stage>(aside)</stage> It's
+       Snudge for a sovereign.</p>
+     </sp>
+     <sp who="#L1126_M6">
+      <speaker>Snudge.</speaker>
+      <stage>(aside)</stage>
+      <p>Why it's Rocket for a shilling. Ah! when a man's up in the world his friends soon find him
+       out! he looks as though he'd dropped in on that old friend of his–Bacchus–last night.
+        <stage>(aloud)</stage> The Commisioner is engaged on very particular business.</p>
+     </sp>
+     <pb n="18"/>
+     <sp who="#L1126_M5">
+      <speaker>Rocket.</speaker>
+      <p>Of course he is, I know all about that. But he'll see me. Tell him a very old friend of his
+       is here.</p>
+     </sp>
+     <sp who="#L1126_M6">
+      <speaker>Snudge.</speaker>
+      <p>He'd rush out and embrace you, I daresay, but it can't be done. You can leave your
+       name.</p>
+     </sp>
+     <sp who="#L1126_M5">
+      <speaker>Rocket.</speaker>
+      <p>No, I'll wait. I want to kill an hour or two.</p>
+     </sp>
+     <sp who="#L1126_M6">
+      <speaker>Snudge.</speaker>
+      <p>Oh! you'll wait, will you? then I won't.</p>
+     </sp>
+     <sp who="#L1126_M5">
+      <speaker>Rocket.</speaker>
+      <p>I'm used to it. Been waiting since I was sixteen for an heiress who has'nt turned up yet.
+       You're not going?</p>
+     </sp>
+     <sp who="#L1126_M6">
+      <speaker>Snudge.</speaker>
+      <p>Yes. You won't be lonely, will you?</p>
+     </sp>
+     <sp who="#L1126_M5">
+      <speaker>Rocket.</speaker>
+      <p>Lonely! That's rather good. Never lonely but once in my life: had to wait at a railway
+       station for two hours, and got shut up with two wits, and a low comedian. Frightfully dull!
+       Off?</p>
+     </sp>
+     <sp who="#L1126_M6">
+      <speaker>Snudge.</speaker>
+      <p>Yes.</p>
+     </sp>
+     <sp who="#L1126_M5">
+      <speaker>Rocket.</speaker>
+      <p>Don't go.</p>
+     </sp>
+     <sp who="#L1126_M6">
+      <speaker>Snudge.</speaker>
+      <p>What do you mean?</p>
+     </sp>
+     <sp who="#L1126_M5">
+      <speaker>Rocket.</speaker>
+      <p>Those two hours taught me a lesson. Look here! <stage>(takes large flask from his pocket,
+        removes glass from water bottle, mixes, sits on table and lights cigar.)</stage> I always
+       carry this in self defence. The man who can't appreciate good liquor is a reproach to
+       civilization–there's no excuse for a fellow who gets drunk on Cape sherry–he deserves his
+       fate; but a bottle of good wine is a most proper obstacle to sobriety. Sit down.
+        <stage>(Snudge sits beside him on table.)</stage> Smoke? <stage>(offering a
+       cigar.)</stage></p>
+     </sp>
+     <sp who="#L1126_M6">
+      <speaker>Snudge.</speaker>
+      <p>Never. <stage>(takes a cigar and lights it.)</stage></p>
+     </sp>
+     <sp who="#L1126_M5">
+      <speaker>Rocket.</speaker>
+      <p>Drink?</p>
+     </sp>
+     <sp who="#L1126_M6">
+      <speaker>Snudge.</speaker>
+      <p>Nothing but toast and water.</p>
+     </sp>
+     <sp who="#L1126_M5">
+      <speaker>Rocket.</speaker>
+      <p>Good tipple, but heady. Try this.</p>
+     </sp>
+     <sp who="#L1126_M6">
+      <speaker>Snudge.</speaker>
+      <p>Thank you. Your health.</p>
+     </sp>
+     <sp who="#L1126_M5">
+      <speaker>Rocket.</speaker>
+      <p>Thank you. Yours. What do you think of it?</p>
+     </sp>
+     <sp who="#L1126_M6">
+      <speaker>Snudge.</speaker>
+      <p>I'll tell you when I've had a second pull.</p>
+     </sp>
+     <sp who="#L1126_M5">
+      <speaker>Rocket.</speaker>
+      <p>Ha! ha! I thought so. Nothing like old brandy to make a fellow social. Now, where's the
+       Commissioner?</p>
+     </sp>
+     <sp who="#L1126_M6">
+      <speaker>Snudge.</speaker>
+      <p>Out.</p>
+     </sp>
+     <sp who="#L1126_M5">
+      <speaker>Rocket.</speaker>
+      <p>No. I say now–</p>
+     </sp>
+     <sp who="#L1126_M6">
+      <speaker>Snudge.</speaker>
+      <p>Fact.</p>
+     </sp>
+     <sp who="#L1126_M5">
+      <speaker>Rocket.</speaker>
+      <p>Is it? Then we'll get drunk so as to be in a proper condition to receive him when he comes
+       back. <stage>(snatch of song)</stage> Fond of music ?</p>
+     </sp>
+     <sp who="#L1126_M6">
+      <speaker>Snudge.</speaker>
+      <p>Think I was, indeed. Play the Jew's-harp like an Italian.</p>
+     </sp>
+     <sp who="#L1126_M5">
+      <speaker>Rocket.</speaker>
+      <p>Ha! ha. As cool as ever. It's no use keeping
+       <pb n="19"/>it up any longer. <stage>(slapping his back)</stage> I know you, brown as you
+       are.</p>
+     </sp>
+     <sp who="#L1126_M6">
+      <speaker>Snudge.</speaker>
+      <p>And I you.</p>
+     </sp>
+     <sp who="#L1126_M5">
+      <speaker>Rocket.</speaker>
+      <p>Snudge!</p>
+     </sp>
+     <sp who="#L1126_M6">
+      <speaker>Snudge.</speaker>
+      <p>Rocket! <stage>(they both laugh)</stage></p>
+     </sp>
+     <sp who="#L1126_M5">
+      <speaker>Rocket.</speaker>
+      <p>They said you'd gone to the lions long ago.</p>
+     </sp>
+     <sp who="#L1126_M6">
+      <speaker>Snudge.</speaker>
+      <p>And they sent you to the dogs years back.</p>
+     </sp>
+     <sp who="#L1126_M5">
+      <speaker>Rocket.</speaker>
+      <p>Ha ha! Ainslie's grown rich, has'nt he?</p>
+     </sp>
+     <sp who="#L1126_M6">
+      <speaker>Snudge.</speaker>
+      <p>Enormous. How's Mary?</p>
+     </sp>
+     <sp who="#L1126_M5">
+      <speaker>Rocket.</speaker>
+      <p>Married Binks the butcher. How did he get the tin ?</p>
+     </sp>
+     <sp who="#L1126_M6">
+      <speaker>Snudge.</speaker>
+      <p>Farming. Anything happened to the Baronet ?</p>
+     </sp>
+     <sp who="#L1126_M5">
+      <speaker>Rocket.</speaker>
+      <p>Nothing but the gout. Where's his land?</p>
+     </sp>
+     <sp who="#L1126_M6">
+      <speaker>Snudge.</speaker>
+      <p>In Corado. How's old Sampson?</p>
+     </sp>
+     <sp who="#L1126_M5">
+      <speaker>Rocket.</speaker>
+      <p>Half blind. His Natural History's gone through seven editions, and now he can't tell a cat
+       from a dog.</p>
+     </sp>
+     <sp who="#L1126_M6">
+      <speaker>Snudge.</speaker>
+      <p>And so she's married. Poor Mary!</p>
+     </sp>
+     <sp who="#L1126_M5">
+      <speaker>Rocket.</speaker>
+      <p>Poor butcher you mean. She's turned out a vixen. Here's to woman, as truthful as her
+       charms, as constant as her temper! <stage>(drinks and passes glass)</stage></p>
+     </sp>
+     <sp who="#L1126_M6">
+      <speaker>Snudge.</speaker>
+      <p>Here's to Mary's memory!</p>
+     </sp>
+     <sp who="#L1126_M5">
+      <speaker>Rocket.</speaker>
+      <p>Don't kill her yet: you used to hate that butcher.</p>
+     </sp>
+     <sp who="#L1126_M6">
+      <speaker>Snudge.</speaker>
+      <p>You are right, revenge is sweet. She shall live!</p>
+     </sp>
+     <sp who="#L1126_M5">
+      <speaker>Rocket.</speaker>
+      <p>Long life to Mary! <stage>(sings)</stage></p>
+      <l>Drink to her who long</l>
+      <l>Hath made the butcher sigh,</l>
+      <l>The girl who gave to Binks</l>
+      <l>What Snudge would never buy.</l>
+      <stage>(they both laugh)</stage>
+      <p>You haven't seen the Bacchanalian Polka? My own invention; look here <stage>(takes the
+        tumbler and dances round the room.)</stage> Did it for twenty minutes once for a wager, and
+       never spilt a drop. When everything else fails, I'm going to bring it out at one of the music
+       halls. "The Glass-Aqueous-Terpsichorean Sensation Feat." Ha ha! <stage>(Snudge takes up water
+        bottle and joins Rocket–they dance together.)</stage></p>
+     </sp>
+     <stage>Enter Sampson, L., he wears green spectacles.</stage>
+     <sp who="#L1126_M2">
+      <speaker>Sampson.</speaker>
+      <p>Bless my soul! What's this?</p>
+     </sp>
+     <sp who="#L1126_M6">
+      <speaker>Snudge.</speaker>
+      <stage>(aside)</stage>
+      <p>Birds, Beasts, and Fishes, by all that's fatal. If he sees me now, our dignity's gone for
+       ever. <stage>(to
+        <pb n="20"/> Rocket)</stage> Yes, sir, I'll go directly. By all means, yes sir.
+        <stage>(aside)</stage> What a fright the old boy's grown.</p>
+     </sp>
+     <stage>Exit Snudge, L.</stage>
+     <sp who="#L1126_M2">
+      <speaker>Sampson.</speaker>
+      <stage>(aside)</stage>
+      <p>Is it possible! Bless us, how he's changed; or rather, I should say, how little he has
+       changed. <stage>(aloud)</stage> Mr. Ainslie, I believe.</p>
+     </sp>
+     <sp who="#L1126_M5">
+      <speaker>Rocket.</speaker>
+      <stage>(aside)</stage>
+      <p>He takes me for Philip. <stage>(aloud)</stage> Your belief's most orthodox, sir, and I
+       won't contradict you. Sit down.</p>
+     </sp>
+     <sp who="#L1126_M2">
+      <speaker>Sampson.</speaker>
+      <stage>(aside)</stage>
+      <p>And this is the Special Commissioner! If this man represents Natal, they must be the most
+       drunken herd of vagabonds on the face of the earth.</p>
+     </sp>
+     <sp who="#L1126_M5">
+      <speaker>Rocket.</speaker>
+      <p>Don't be bashful, my dear sir. Come inside, and I'll give you a song. What shall it be?
+       I'll tell you what, I'm hard up. I'll teach you my "Glass-Aqueous
+       Terpsichorean-Sensation-Feat" for a "fiver". With those spectacles on, it would be an immense
+       hit. <stage>(sings)</stage></p>
+     </sp>
+     <sp who="#L1126_M2">
+      <speaker>Sampson.</speaker>
+      <stage>(aside)</stage>
+      <p>Now, dear me; I came here to get some information about beasts in their wild state, and,
+       upon my life, I find a civilized beast whose brutishness all the jungles in the world
+       could'nt match.</p>
+     </sp>
+     <sp who="#L1126_M5">
+      <speaker>Rocket.</speaker>
+      <p>Mr. Sampson Starling, you're a very proper and well-behaved old boy!</p>
+     </sp>
+     <sp who="#L1126_M2">
+      <speaker>Sampson.</speaker>
+      <p>Sir, you have grown rich it seems, only to become more debased than you were before. There,
+       sir; <stage>(tossing a note on to the table)</stage> that's an invitation from Sir William,
+       to Starling House to-night. If the note were mine, I should pitch it behind the fire.</p>
+     </sp>
+     <sp who="#L1126_M5">
+      <speaker>Rocket.</speaker>
+      <p>No; I couldn't do that. I'll go, upon my honour. Excuse me now, late this morning. Fresh as
+       paint in an hour.</p>
+     </sp>
+     <sp who="#L1126_M2">
+      <speaker>Sampson.</speaker>
+      <p>Yes, and smell as loudly. Good morning.</p>
+     </sp>
+     <sp who="#L1126_M5">
+      <speaker>Rocket.</speaker>
+      <stage>(bowing profoundly)</stage>
+      <p>Good morning, sir. <stage>(Exit Sampson, L.)</stage> An uncommonly curious old boy. But
+       he's acted like a trump, and I'm bound to swear he's the jolliest old cock in Christendom. I
+       shan't wait for Ainslie. Snudge shew me out! I say, Snudge!</p>
+     </sp>
+     <stage>Exit, L., leaving note on the table.</stage>
+     <stage>Enter Ainslie, R.-he is also browned, and wears a short beard.</stage>
+     <sp who="#L1126_M3">
+      <speaker>Ainslie.</speaker>
+      <p>Yes, yes, you've done quite right. Thank you, thank you. Their necks couldn't be more
+       elastic if I owned the whole continent. No power so great
+       <pb n="21"/> as that of gold. It makes the vulgar man a gentleman–the clown a philosopher–the
+       fool a genius. If I had come back to England as bankrupt of means and reputation as when I
+       left it, not a soul would have found me out. They read their lessons, like the Chinese,
+       backwards, and make success create the intellect, instead of intellect the success. What's
+       this? a note. <stage>(opens it and reads)</stage> From Sir William. I said they should ask
+        <hi>me</hi>. At last! Would they have known me, had I surprised them? Not they–love or hate
+       have sharp eyes enough, but contempt is as blind as a bat. Well, it matters little. My day of
+       victory has dawned at last. I shall be recompensed for my exile, for I have redeemed my
+       father's name: I can look Sir William in the face!</p>
+     </sp>
+     <stage>Exit L.</stage>
+    </div>
+    <div type="scene">
+     <head>SCENE SECOND.-Drawing-room in Starling House-</head>
+     <stage>The Hon. Herbert Wynne discovered with the "Times."</stage>
+     <sp who="#L1126_M4">
+      <speaker>Wynne.</speaker>
+      <p>I knew how it would be. That confounded paragraph will upset everything. They must needs
+       invite him here, as if a card wouldn't have done as well. It is all very well to talk about
+       the freedom of the press, but I –I begin to think a newspaper's a nuisance. These literary
+       fellows are frightfully low. What's the use of brains if a man hasn't got manners.
+        <stage>(reads)</stage> So it's six years—and I have been waiting for a date from woman's
+       lips all the while. People are beginning to laugh at me. I heard a low vulgar fellow whisper
+       at Lady Cram's the other night that I was like a Bill, accepted, but not taken up. It's
+       deuced unpleasant. And now, just as I had induced her to look at the almanack at last, back
+       comes Ainslie. He'll make mischief, I swear; these rough boisterous beggars always do. If I
+       could only get her to settle the thing! I've got a head-ache, I think, or an idea! I don't
+       know which. <stage>(profoundly)</stage> It <hi>is</hi> an idea–it's very odd, but I must get
+       rid of it somehow. One can't be bothered with things of that sort. Let me see; she's noble
+       and disinterested–I am rich–if I tell her I am ruined and want to break the engagement for
+       her sake, she won't hear of it. She's so confoundedly good, that to escape the mere thought
+       of being selfish, she'd marry me at once. It's a glorious notion! Here she comes; I'll do it
+       at once. I ought to look confoundedly miserable.</p>
+     </sp>
+     <stage>Enter Edith, with a book L. from R.</stage>
+     <sp who="#L1126_M4">
+      <speaker>Wynne.</speaker>
+      <p>Good afternoon. Allow me. <stage>(offers seat)</stage></p>
+     </sp>
+     <pb n="22"/>
+     <sp who="#L1126_F8">
+      <speaker>Edith.</speaker>
+      <p>Thank you. <stage>(seats herself)</stage></p>
+     </sp>
+     <sp who="#L1126_M4">
+      <speaker>Wynne.</speaker>
+      <stage>(fidgetting round her)</stage>
+      <p>Book, I think?</p>
+     </sp>
+     <sp who="#L1126_F8">
+      <speaker>Edith.</speaker>
+      <p>Your penetration's most marvellous, sir. It is a book.</p>
+     </sp>
+     <sp who="#L1126_M4">
+      <speaker>Wynne.</speaker>
+      <p>It is not a–not a–dictionary ?</p>
+     </sp>
+     <sp who="#L1126_F8">
+      <speaker>Edith.</speaker>
+      <p>You talk very oddly, Mr. Wynne.</p>
+     </sp>
+     <sp who="#L1126_M4">
+      <speaker>Wynne.</speaker>
+      <p>I feel odd, Miss Starling. I've had an idea–no, hang it a head-ache. I was reading
+       yesterday myself: I got hold of a Bradshaw.</p>
+     </sp>
+     <sp who="#L1126_F8">
+      <speaker>Edith.</speaker>
+      <p>Dear me. Your notion of light literature is a very strange one. This is a volume of
+       poems.</p>
+     </sp>
+     <sp who="#L1126_M4">
+      <speaker>Wynne.</speaker>
+      <p>Poems! Oh, yes. Of course, you read poetry?</p>
+     </sp>
+     <sp who="#L1126_F8">
+      <speaker>Edith.</speaker>
+      <p>Sometimes. When it's either very good or very bad, exceedingly clever, or abominably
+       stupid.</p>
+     </sp>
+     <sp who="#L1126_M4">
+      <speaker>Wynne.</speaker>
+      <p>And this is?</p>
+     </sp>
+     <sp who="#L1126_F8">
+      <speaker>Edith.</speaker>
+      <p>Very stupid. I'll tell you what I have been reading. A sentimental scribbler imagines
+       himself eaten up with a hidden love, and pours out his woes. Sit down, Mr. Wynne, you shall
+       hear it. It's capital fun, and you must promise me to laugh heartily. <stage>(he brings
+        chair, and lounges on back of it)</stage> None but the very maddest of poets could have
+       written such stuff as this. <stage>(reads with forced mirth)</stage> "To love thee and be
+       dumb; never by look or word." Nay, we shall miss the point of it if we laugh too soon. I'll
+       read it as the poor poet himself would read it, were he here—is this the tone? <stage>(reads
+        with great tenderness–Wynne listening with interest)</stage></p>
+      <l>To love thee and be dumb; never by look or word</l>
+      <l>To break the silence set upon my soul;</l>
+      <l>To crush the voice that struggles to be heard,</l>
+      <l>Unmov'd to gaze on the forbidden goal.</l>
+      <l>To stand within the vestibule of bliss,</l>
+      <l>Only to grasp the shadow of delight;</l>
+      <l>To see and touch, but never taste the peace,</l>
+      <l>Daily to live in an eternal night.</l>
+      <l>Awake to dream of Love's undying song</l>
+      <l>With expectation, near akin to pain;</l>
+      <l>To hear its echoes as they float along,</l>
+      <l>But ne'er to catch its full melodious strain.</l>
+      <l>To sit and look into thine eyes, and yearn</l>
+      <l>To tell thee all my closely–hoarded thought,</l>
+      <l>And still to know that I must calmly learn</l>
+      <l>To meet thy steadfast gaze, yet utter nought.</l>
+      <l>To watch the earnest smile upon thy face,</l>
+      <l>And picture joys that never can be born;</l>
+      <pb n="23"/>
+      <l>Or gem the Future with thy gentle grace,</l>
+      <l>As weepers decorate the dead they mourn.</l>
+      <l>To know there is no hope; hourly to feel</l>
+      <l>That Destiny forbids a word—a breath :</l>
+      <l>This bitter task is mine, until the seal</l>
+      <l>Is broken by the welcome hand of death.</l>
+
+      <p>There, sir! you don't laugh. <stage>(aside–rising)</stage> Ah! these poets. 'Tis well they
+       find a language for us in our agony, our poor dumb hearts would break else. Why, Mr.
+       Wynne!</p>
+     </sp>
+     <sp who="#L1126_M4">
+      <speaker>Wynne.</speaker>
+      <stage>(who is standing in the middle of the room with his head bent down)</stage>
+      <p>Miss Starling, I too have a secret.</p>
+     </sp>
+     <sp who="#L1126_F8">
+      <speaker>Edith.</speaker>
+      <p>A secret!</p>
+     </sp>
+     <sp who="#L1126_M4">
+      <speaker>Wynne.</speaker>
+      <p>Which I can keep no longer. You are gazing upon a ruined man.</p>
+     </sp>
+     <sp who="#L1126_F8">
+      <speaker>Edith.</speaker>
+      <p>What, sir?</p>
+     </sp>
+     <sp who="#L1126_M4">
+      <speaker>Wynne.</speaker>
+      <p>That is–comparatively ruined. A week ago, I was worth thousands, now you may put me down in
+       hundreds. Painful as it is to have to say so, the–the–hang it–what's the Bank ? the Abingdon
+       Bank has failed, and nearly everything has gone.</p>
+     </sp>
+     <sp who="#L1126_F8">
+      <speaker>Edith.</speaker>
+      <p>Is this true, Mr. Wynne ?</p>
+     </sp>
+     <sp who="#L1126_M4">
+      <speaker>Wynne.</speaker>
+      <p>I wish it were not. A thousand times I have tried to tell you, but have wanted courage. I
+       love you as much as ever, but as I am poor, I must ask you to release me from our
+       engagement.</p>
+     </sp>
+     <sp who="#L1126_F8">
+      <speaker>Edith.</speaker>
+      <p>Are you in earnest?</p>
+     </sp>
+     <sp who="#L1126_M4">
+      <speaker>Wynne.</speaker>
+      <stage>(with hesitation)</stage>
+      <p>It shall never be said that I took advantage of a promise to entangle a woman in an unequal
+       match.</p>
+     </sp>
+     <sp who="#L1126_F8">
+      <speaker>Edith.</speaker>
+      <p>You wrong me greatly, Mr. Wynne; I am not so mercenary as you seem to think me. I am truly
+       sorry for your loss, and you must understand that you will have no release from me.</p>
+     </sp>
+     <sp who="#L1126_M4">
+      <speaker>Wynne.</speaker>
+      <p>Miss Starling, I know your noble disposition, but I am determined not to profit by it. I
+       cannot make you miserable for life. We must break off this engagement. As for me, I cannot
+       well be more wretched than I am.</p>
+     </sp>
+     <stage>Exit, L.</stage>
+     <sp who="#L1126_F8">
+      <speaker>Edith.</speaker>
+      <p>There's something honourable in that man, after all. How I have mistaken him. I should
+       despise myself indeed, if, accepting him when rich, I dismissed him directly he became poor.
+       Ah! me, this love! Even this butterfly, this dainty, delicate gentleman is moved by it to
+       some nobility. Yes, I must be firm; my dreams must end
+       <pb n="24"/> to-day. I will marry him, fop though he be, and bury my dead hopes beneath the
+       altar. <stage>(seats herself and reads)</stage></p>
+     </sp>
+     <stage>Enter Sir William, Lady Starling and Sampson, R.</stage>
+     <sp who="#L1126_M1">
+      <speaker>Sir W.</speaker>
+      <stage>(laughing)</stage>
+      <p>Most amusing–dancing with his servant!</p>
+     </sp>
+     <sp who="#L1126_M2">
+      <speaker>Sampson.</speaker>
+      <p>With a glass of brandy and water in his hand.</p>
+     </sp>
+     <sp who="#L1126_M1">
+      <speaker>Sir W.</speaker>
+      <p>How clever, my dear?</p>
+     </sp>
+     <sp who="#L1126_F7">
+      <speaker>Lady S.</speaker>
+      <p>Marvellous. The whimsicality of genius.</p>
+     </sp>
+     <sp who="#L1126_M2">
+      <speaker>Sampson.</speaker>
+      <p>Not quite tipsy, you know.</p>
+     </sp>
+     <sp who="#">
+      <speaker>Lady S.| Sir W.</speaker>
+      <stage>(together)</stage>
+      <p>Oh, dear no!</p>
+     </sp>
+     <sp who="#L1126_M2">
+      <speaker>Sampson.</speaker>
+      <p>Just enough to be good company.</p>
+     </sp>
+     <sp who="#L1126_M1">
+      <speaker>Sir W.</speaker>
+      <p>The very best. A polka with his servant.</p>
+     </sp>
+     <sp who="#L1126_F7">
+      <speaker>Lady S.</speaker>
+      <p>A caprice of his, I declare. Edith, my dear, your uncle has seen Mr. Ainslie.</p>
+     </sp>
+     <sp who="#L1126_M1">
+      <speaker>Sir W.</speaker>
+      <p>And found him in the most glorious spirits.</p>
+     </sp>
+     <sp who="#L1126_M2">
+      <speaker>Sampson.</speaker>
+      <p>Infecting the very air. I smelt brandy on the first landing.</p>
+     </sp>
+     <sp who="#L1126_M1">
+      <speaker>Sir W.</speaker>
+      <p>Overflowing with wit, my dear.</p>
+     </sp>
+     <sp who="#L1126_F8">
+      <speaker>Edith.</speaker>
+      <stage>(still reading)</stage>
+      <p>Of course, papa.</p>
+     </sp>
+     <sp who="#L1126_F7">
+      <speaker>Lady S.</speaker>
+      <p>And with all his old humour.</p>
+     </sp>
+     <sp who="#L1126_M1">
+      <speaker>Sir W.</speaker>
+      <p>As diverting as an actor, eh, Sampson ?</p>
+     </sp>
+     <sp who="#L1126_M2">
+      <speaker>Sampson.</speaker>
+      <p>Yes. <stage>(aside)</stage> And as drunk as a prince. Memories are vulgar things when a
+       man's grown rich.</p>
+     </sp>
+     <sp who="#L1126_F7">
+      <speaker>Lady S.</speaker>
+      <p>And he has promised to call. Why, my dear, you show no interest.</p>
+     </sp>
+     <sp who="#L1126_F8">
+      <speaker>Edith.</speaker>
+      <p>Probably because I feel none, mamma.</p>
+     </sp>
+     <sp who="#L1126_F7">
+      <speaker>Lady S.</speaker>
+      <p>He was a brave boy, I knew he would be heard of.</p>
+     </sp>
+     <sp who="#L1126_M1">
+      <speaker>Sir W.</speaker>
+      <p>I was sure there was something in him.</p>
+     </sp>
+     <sp who="#L1126_M2">
+      <speaker>Sampson.</speaker>
+      <p>So was I <stage>(aside)</stage> this morning.</p>
+     </sp>
+     <sp who="#L1126_F7">
+      <speaker>Lady S.</speaker>
+      <p>My dear, did I not always say he was clever ?</p>
+     </sp>
+     <sp who="#L1126_M2">
+      <speaker>Sampson.</speaker>
+      <stage>(aside)</stage>
+      <p>They'll swear he was pious, soon.</p>
+     </sp>
+     <sp who="#L1126_M1">
+      <speaker>Sir W.</speaker>
+      <p>How's he looking, brother ?</p>
+     </sp>
+     <sp who="#L1126_M2">
+      <speaker>Sampson.</speaker>
+      <p>Well, he looked green through these confounded spectacles, but to your eyes he'll appear a
+       trifle yellow, I daresay. <stage>(knock and ring heard)</stage> Eh? there he is; you'll be
+       able to judge for yourselves.</p>
+     </sp>
+     <stage>Enter Servant, with card on salver, L.</stage>
+     <sp who="#L1126_M10">
+      <speaker>Serv.</speaker>
+      <p>Mr. Philip Ainslie <stage>(Edith rises to go.)</stage></p>
+     </sp>
+     <sp who="#L1126_M1">
+      <speaker>Sir W.</speaker>
+      <p>Show him up at once. <stage>(to Edith)</stage> My dear, remain here.</p>
+     </sp>
+     <pb n="25"/>
+     <sp who="#L1126_F7">
+      <speaker>Lady S.</speaker>
+      <p>On the instant. I will receive him.</p>
+     </sp>
+     <sp who="#L1126_M1">
+      <speaker>Sir W.</speaker>
+      <p>No, excuse me––</p>
+     </sp>
+     <sp who="#L1126_M2">
+      <speaker>Sampson.</speaker>
+      <p>They're as eager to show him in, as they were once to kick him out.</p>
+     </sp>
+     <stage>Enter Servant, ushering in Ainslie, L., who is followed by Rocket.</stage>
+     <sp who="#L1126_M1">
+      <speaker>Sir W.</speaker>
+      <stage>(shaking hands with him)</stage>
+      <p>Ah! Mr. Ainslie, time changes men and manners. The fortunate can afford to be generous.
+       Welcome back to England.</p>
+     </sp>
+     <sp who="#L1126_F7">
+      <speaker>Lady S.</speaker>
+      <p>And to Starling House. Edith, my dear, this is Mr. Ainslie. <stage>(Edith rises, and bows
+        to Ainslie)</stage> A friend, I presume? <stage>(indicating Rocket.)</stage></p>
+     </sp>
+     <sp who="#L1126_M3">
+      <speaker>Ainslie.</speaker>
+      <p>No, this gentleman happened to follow me up-stairs. Mr. Sampson is well, I hope ?</p>
+     </sp>
+     <sp who="#L1126_M5">
+      <speaker>Rocket.</speaker>
+      <stage>(to Sampson)</stage>
+      <p>Good afternoon, sir; you did me the honour––</p>
+     </sp>
+     <sp who="#L1126_M2">
+      <speaker>Sampson.</speaker>
+      <p>Of course. I hope you are quite recovered, Mr. Ainslie ?</p>
+     </sp>
+     <sp who="#L1126_M5">
+      <speaker>Rocket.</speaker>
+      <p>Quite. Two bottles of soda, and a red-herring. Finest thing in the world.</p>
+     </sp>
+     <sp who="#L1126_M3">
+      <speaker>Ainslie.</speaker>
+      <stage>(with Sir W. and Lady S.)</stage>
+      <p>Greatly changed, I am afraid, for Mr. Sampson doesn't seem to remember me.</p>
+     </sp>
+     <sp who="#L1126_M2">
+      <speaker>Sampson.</speaker>
+      <stage>(to Rocket, after peering curiously at Ainslie)</stage>
+      <p>A friend I presume–introduce him.</p>
+     </sp>
+     <sp who="#L1126_M5">
+      <speaker>Rocket.</speaker>
+      <p>With all the pleasure in the world. <stage>(x's to L. c.)</stage> Hang it, what's the
+       fellow's name. Ah–Mr. Smith Robinson, Mr. Sampson Starling–Mr. Sampson Starling, Mr. Smith
+       Robinson.</p>
+     </sp>
+     <sp who="#L1126_M3">
+      <speaker>Ainslie.</speaker>
+      <p>You are very good, sir, but <stage>(looking round)</stage> perhaps I should like an
+       introduction to this gentleman.</p>
+     </sp>
+     <sp who="#L1126_M2">
+      <speaker>Sampson.</speaker>
+      <p>Of course. <stage>(indicating Rocket)</stage> Mr. Ainslie, Mr. Smith Robinson–Mr. Smith
+       Robinson, Mr. Ainslie.</p>
+     </sp>
+     <sp who="#L1126_M3">
+      <speaker>Ainslie.</speaker>
+      <p>There's really a trifling mistake somewhere. I thought my name was– What! Rocket!</p>
+     </sp>
+     <sp who="#L1126_M5">
+      <speaker>Rocket.</speaker>
+      <p>Is it possible? Ainslie !</p>
+     </sp>
+     <sp who="#L1126_M3">
+      <speaker>Ainslie.</speaker>
+      <p>And as incorrigibly cool as ever. I must shake hands with you. <stage>(they shake
+        hands–looking to Sampson and Rocket)</stage> I begin to understand it. You called on me this
+       morning? </p>
+     </sp>
+     <sp who="#L1126_M5">
+      <speaker>Rocket.</speaker>
+      <p>Of course I did.</p>
+     </sp>
+     <sp who="#L1126_M3">
+      <speaker>Ainslie.</speaker>
+      <p>And Mr. Sampson mistook–pardon me, Sir William–an old friend of mine, you may remember him,
+       <pb n="26"/>Mr. Harry Rocket, and a very pleasant fellow unless time has spoilt him.</p>
+     </sp>
+     <sp who="#L1126_M1">
+      <speaker>Sir W.</speaker>
+      <p>Oh! any friend of Mr. Ainslie's?</p>
+     </sp>
+     <sp who="#L1126_F7">
+      <speaker>Lady S.</speaker>
+      <p>Any friend of Mr. Ainslie's? Mr. Sampson, what a blunder you made.</p>
+     </sp>
+     <sp who="#L1126_F8">
+      <speaker>Edith.</speaker>
+      <p>Not quite tipsy, you know, uncle! <stage>(they laugh at him.)</stage></p>
+     </sp>
+     <sp who="#L1126_F7">
+      <speaker>Lady S.</speaker>
+      <p>Dear, dear, not to remember Mr. Ainslie's features.</p>
+     </sp>
+     <sp who="#L1126_M3">
+      <speaker>Ainslie.</speaker>
+      <p>Your eyes wrong you, my dear sir, for you are looking exceedingly well.</p>
+     </sp>
+     <sp who="#L1126_M2">
+      <speaker>Sampson.</speaker>
+      <p>Ha! ha! the beasts have knocked me about a bit–seven editions, you know. Dear me, how I
+       have been slandering you. I said you were drunk, this morning.</p>
+     </sp>
+     <sp who="#L1126_M3">
+      <speaker>Ainslie.</speaker>
+      <stage>(looking round)</stage>
+      <p>A good joke. It does'nt seem to have injured me much in the eyes of your friends.</p>
+     </sp>
+     <sp who="#L1126_M1">
+      <speaker>Sir W.</speaker>
+      <p>We didn't credit it, Mr. Ainslie</p>
+     </sp>
+     <sp who="#L1126_F7">
+      <speaker>Lady S.</speaker>
+      <p>Not for one moment. We knew you better–things have changed.</p>
+     </sp>
+     <sp who="#L1126_M2">
+      <speaker>Sampson.</speaker>
+      <stage>(aside)</stage>
+      <p>What frightful hypocrisy !</p>
+     </sp>
+     <sp who="#L1126_F8">
+      <speaker>Edith.</speaker>
+      <p>It is a little too bad that Mr. Ainslie should be made answerable for <hi>other</hi>
+       people's follies.</p>
+     </sp>
+     <sp who="#L1126_M3">
+      <speaker>Ainslie.</speaker>
+      <p>I could meet them though, Miss Starling, by a draft on the past, drawn by memory–eh, Sir
+       William?</p>
+     </sp>
+     <sp who="#L1126_M1">
+      <speaker>Sir W.</speaker>
+      <p>Absurd. But it was odd that Sampson should take it into his head that the first tipsy man
+       he met must be you. That is––</p>
+     </sp>
+     <sp who="#L1126_M3">
+      <speaker>Ainslie.</speaker>
+      <stage>(laughing heartily)</stage>
+      <p>Most odd. He can have no memory.</p>
+     </sp>
+     <sp who="#">
+      <speaker>Sir W. | Lady S.</speaker>
+      <stage>(together)</stage>
+      <p>None at all.</p>
+     </sp>
+     <sp who="#L1126_M5">
+      <speaker>Rocket.</speaker>
+      <stage>(who has been sauntering about–aside)</stage>
+      <p>This is very slow. Almost as bad as the two wits and the low comedian. I'd give a sovereign
+       for a weed. <stage>(x's to Edith –looking at some water colours on the wall)</stage> You
+       paint, Miss Starling?</p>
+     </sp>
+     <sp who="#L1126_F8">
+      <speaker>Edith.</speaker>
+      <p>I use a pencil now and then, Mr. Rocket. Our sex <hi>must</hi> paint a little, you
+       know.</p>
+     </sp>
+     <sp who="#L1126_M5">
+      <speaker>Rocket.</speaker>
+      <p>Their only fault, madam, is that they affect one tint too much. They would be better
+       artists if they changed their colours oftener.</p>
+     </sp>
+     <sp who="#L1126_F8">
+      <speaker>Edith.</speaker>
+      <p>Nay, there would be no art in it at all, if we changed our colours, Mr. Rocket. <stage>(to
+        Ainslie, who has joined them)</stage> What say you, Mr. Ainslie?</p>
+     </sp>
+     <sp who="#L1126_M3">
+      <speaker>Ainslie.</speaker>
+      <p>The rouge pot, madam, is a great moral preservative.
+       <pb n="27"/> The woman who is possessed of one does nothing that she can blush for.</p>
+     </sp>
+     <sp who="#L1126_M1">
+      <speaker>Sir W.</speaker>
+      <p>Capital.</p>
+     </sp>
+     <sp who="#L1126_F7">
+      <speaker>Lady S.</speaker>
+      <p>Excellent.</p>
+     </sp>
+     <sp who="#L1126_F8">
+      <speaker>Edith.</speaker>
+      <p>Then they're of no use to the men?</p>
+     </sp>
+     <sp who="#L1126_M3">
+      <speaker>Ainslie.</speaker>
+      <p>None at all, we sin too openly. Our hearts are so black that there's no fear of our red
+       cheeks betraying us.</p>
+     </sp>
+     <sp who="#L1126_M1">
+      <speaker>Sir W.</speaker>
+      <p>Excellent.</p>
+     </sp>
+     <sp who="#L1126_F7">
+      <speaker>Lady S.</speaker>
+      <p>So exceedingly polished! We were proposing my dear Mr. Ainslie, to adjourn to the
+       conservatory–the air is cooler there –will you join us?</p>
+     </sp>
+     <sp who="#L1126_M3">
+      <speaker>Ainslie.</speaker>
+      <p>I am at your service, my lady.</p>
+     </sp>
+     <sp who="#L1126_F7">
+      <speaker>Lady S.</speaker>
+      <p>Brother, in Mr. Wynne's absence, you must take Edith. Sir William, your arm. <stage>(takes
+        it)</stage> Was there ever such a change?</p>
+     </sp>
+     <sp who="#L1126_M1">
+      <speaker>Sir W.</speaker>
+      <p>Never. I can scarcely believe my eyes.</p>
+     </sp>
+     <stage>Exeunt Sir William and Lady Starling, C. to R.</stage>
+     <sp who="#L1126_M2">
+      <speaker>Sampson.</speaker>
+      <p>I'm sure I can't trust mine. Mr. Rocket, I was rude to you this morning.</p>
+     </sp>
+     <sp who="#L1126_M5">
+      <speaker>Rocket.</speaker>
+      <p>Not at all. You were as civil, sir, as I was sober. You are an exceedingly pleasant old
+       boy, sir, take my arm. <stage>(offers his arm.)</stage></p>
+     </sp>
+     <sp who="#L1126_M2">
+      <speaker>Sampson.</speaker>
+      <p>I'll read you my "Treatise on Vultures," sir; that shall be my apology, come along.</p>
+     </sp>
+     <stage>Sampson takes his arm, and together exeunt, C. to R.</stage>
+     <sp who="#L1126_M3">
+      <speaker>Ainslie.</speaker>
+      <stage>(calling after him)</stage>
+      <p>Mr. Sampson! <stage>(after a moment's pause–to Edith)</stage> Perhaps you will permit me,
+       then ?</p>
+     </sp>
+     <sp who="#L1126_F8">
+      <speaker>Edith.</speaker>
+      <p>Thank you, Mr. Ainslie, I remain here.</p>
+     </sp>
+     <sp who="#L1126_M3">
+      <speaker>Ainslie.</speaker>
+      <stage>(aside)</stage>
+      <p>This is unfortunate. <stage>(a pause.)</stage></p>
+     </sp>
+     <sp who="#L1126_F8">
+      <speaker>Edith.</speaker>
+      <stage>(aside)</stage>
+      <p>He is as proud as ever.</p>
+     </sp>
+     <sp who="#L1126_M3">
+      <speaker>Ainslie.</speaker>
+      <stage>(aside)</stage>
+      <p>If I were honest now, I should fly like a thief. She has grown very beautiful.</p>
+     </sp>
+     <sp who="#L1126_F8">
+      <speaker>Edith.</speaker>
+      <p>You have been successful in Natal, Mr. Ainslie ?</p>
+     </sp>
+     <sp who="#L1126_M3">
+      <speaker>Ainslie.</speaker>
+      <p>In some things, Miss Starling; I have gained a little money and a deal of experience.</p>
+     </sp>
+     <sp who="#L1126_F8">
+      <speaker>Edith.</speaker>
+      <p>The latter of which few people care to use, till they have spent the former.</p>
+     </sp>
+     <sp who="#L1126_M3">
+      <speaker>Ainslie.</speaker>
+      <p>Perhaps. But mine is not so much experience of other people, as of myself. For the last six
+       years I have been measuring my strength against the world.</p>
+     </sp>
+     <sp who="#L1126_F8">
+      <speaker>Edith.</speaker>
+      <p>And have come out nobly. Forgive me for not congratulating you before. Your triumph has
+       been a great one.</p>
+     </sp>
+     <pb n="28"/>
+     <sp who="#L1126_M3">
+      <speaker>Ainslie.</speaker>
+      <p>I am pleased to hear you say so. But you do not know the incentive under which it has been
+       won ?</p>
+     </sp>
+     <sp who="#L1126_F8">
+      <speaker>Edith.</speaker>
+      <p>No, how should I?</p>
+     </sp>
+     <sp who="#L1126_M3">
+      <speaker>Ainslie.</speaker>
+      <p>May I tell it you?</p>
+     </sp>
+     <sp who="#L1126_F8">
+      <speaker>Edith.</speaker>
+      <p>If you will.</p>
+     </sp>
+     <sp who="#L1126_M3">
+      <speaker>Ainslie.</speaker>
+      <p>Yourself, Miss Starling.</p>
+     </sp>
+     <sp who="#L1126_F8">
+      <speaker>Edith.</speaker>
+      <p>Mr. Ainslie !</p>
+     </sp>
+     <sp who="#L1126_M3">
+      <speaker>Ainslie.</speaker>
+      <p>Even so. The past was a perpetual reproach to me. I have struggled to become what I am,
+       that I might redeem the name I had disgraced–that I might vindicate myself in your eyes.</p>
+     </sp>
+     <sp who="#L1126_F8">
+      <speaker>Edith.</speaker>
+      <p>You know I should not listen to this.</p>
+     </sp>
+     <sp who="#L1126_M3">
+      <speaker>Ainslie.</speaker>
+      <p>Let me speak now, and I will be silent for ever. Out of this conflict I have emerged an
+       altered man, with increased self-reliance, stronger purpose, heightened powers. But for you I
+       should never have entered upon it. My life would have been an idle, aimless holiday, my death
+       a lonely disgrace. You have long since learnt to laugh at the girlish folly––</p>
+     </sp>
+     <sp who="#L1126_F8">
+      <speaker>Edith.</speaker>
+      <stage>(aside)</stage>
+      <p>Heaven help me!</p>
+     </sp>
+     <sp who="#L1126_M3">
+      <speaker>Ainslie.</speaker>
+      <p>Which once moved you. But its influence over my life has been none the less real, that your
+       love–forgive me was only a pleasant self-deceit. For six years your name has been my
+       watchword. The toil which has won me wealth, has been endured as in your sight. Under delay,
+       defeat, mistrust, in the labour of the long day, in the watch of the weary night, with
+       nothing behind me but the memory of a mis-spent life, nothing before me but a distant hope. I
+       have looked forward to this hour, this moment, when I could stand before you an honest, if
+       not a great man, and with no blush on my face, say to you, this is your work!</p>
+     </sp>
+     <sp who="#L1126_F8">
+      <speaker>Edith.</speaker>
+      <p>You are mistaken, Mr. Ainslie; no man could so change his nature, not for the applause of a
+       world. Your energies were stirred within you under a certain influence, that is all. You
+        <hi>worked</hi> that you might vindicate yourself, you <hi>succeeded</hi> because of the
+       powers you always possessed.</p>
+     </sp>
+     <sp who="#L1126_M3">
+      <speaker>Ainslie.</speaker>
+      <p>No! I should be false to myself if I shrunk from telling you how much I owe you–how the
+       courage, the patience, the endurance, the weapons with which I have fought, were your
+       gifts.</p>
+     </sp>
+     <sp who="#L1126_F8">
+      <speaker>Edith.</speaker>
+      <p>Nay, not so. You give too much credit to an idle sentence––</p>
+     </sp>
+     <sp who="#L1126_M3">
+      <speaker>Ainslie.</speaker>
+      <stage>(aside)</stage>
+      <p>I was right, then.</p>
+     </sp>
+     <pb n="29"/>
+     <sp who="#L1126_F8">
+      <speaker>Edith.</speaker>
+      <p>I was pleased–nay, proud–when I heard of your success, but none of it is due to me. The
+       powers which you have exerted so nobly, were always yours; they were only rusting in your
+       soul for lack of use.</p>
+     </sp>
+     <sp who="#L1126_M3">
+      <speaker>Ainslie.</speaker>
+      <p>And would have rusted there for ever but for you. May I speak to you as to a sister ?</p>
+     </sp>
+     <sp who="#L1126_F8">
+      <speaker>Edith.</speaker>
+      <p>Can you doubt it?</p>
+     </sp>
+     <sp who="#L1126_M3">
+      <speaker>Ainslie.</speaker>
+      <p>I am told you are going to marry Mr. Wynne.</p>
+     </sp>
+     <sp who="#L1126_F8">
+      <speaker>Edith.</speaker>
+      <stage>(aside)</stage>
+      <p>My heart will break.</p>
+     </sp>
+     <sp who="#L1126_M3">
+      <speaker>Ainslie.</speaker>
+      <p>You accepted him, forgive me for reminding you again of that day six years ago. I must ask
+       you one question, does he still love you?</p>
+     </sp>
+     <sp who="#L1126_F8">
+      <speaker>Edith.</speaker>
+      <p>Mr. Ainslie!</p>
+     </sp>
+     <sp who="#L1126_M3">
+      <speaker>Ainslie.</speaker>
+      <p>Rebuke me by your silence if I have offended you.</p>
+     </sp>
+     <sp who="#L1126_F8">
+      <speaker>Edith.</speaker>
+      <p>Nay, I have nothing to rebuke. He does love me– –at least he tells me so.</p>
+     </sp>
+     <sp who="#L1126_M3">
+      <speaker>Ainslie.</speaker>
+      <p>I am satisfied. I was only fearful lest this delay might indicate his indifference to your
+       love.</p>
+     </sp>
+     <sp who="#L1126_F8">
+      <speaker>Edith.</speaker>
+      <stage>(aside)</stage>
+      <p>My love!</p>
+     </sp>
+     <sp who="#L1126_M3">
+      <speaker>Ainslie.</speaker>
+      <p>She is silent. She <hi>does</hi> love him.</p>
+     </sp>
+     <sp who="#L1126_F8">
+      <speaker>Edith.</speaker>
+      <stage>(aside)</stage>
+      <p>His heart must be stone. <stage>(aloud)</stage> So much so, that to be very frank with you,
+       Mr. Wynne disclosed to me this morning that he had become suddenly penniless, and asked me to
+       release him from our engagement.</p>
+     </sp>
+     <sp who="#L1126_M3">
+      <speaker>Ainslie.</speaker>
+      <p>You did not?</p>
+     </sp>
+     <sp who="#L1126_F8">
+      <speaker>Edith.</speaker>
+      <p>Could you suppose me guilty of such baseness?</p>
+     </sp>
+     <sp who="#L1126_M3">
+      <speaker>Ainslie.</speaker>
+      <p>Forgive me, I was surprised. He has lost you say––</p>
+     </sp>
+     <sp who="#L1126_F8">
+      <speaker>Edith.</speaker>
+      <p>Nearly everything.</p>
+     </sp>
+     <sp who="#L1126_M3">
+      <speaker>Ainslie.</speaker>
+      <p>Thank heaven!</p>
+     </sp>
+     <sp who="#L1126_F8">
+      <speaker>Edith.</speaker>
+      <p>What do you say?</p>
+     </sp>
+     <sp who="#L1126_M3">
+      <speaker>Ainslie.</speaker>
+      <p>For the opportunity it has given him to show the depth of his regard for you,
+        <stage>(aside)</stage> and of mine too. <stage>(aloud)</stage> From this time henceforth,
+       under your own letters patent, Miss Starling, I constitute myself prime champion and defender
+       of your happiness, <stage>(aside)</stage> which I shall best serve by running away
+       directly.</p>
+     </sp>
+     <sp who="#L1126_F8">
+      <speaker>Edith.</speaker>
+      <stage>(aside)</stage>
+      <p>And begin by making me supremely miserable. <stage>(Lady Starling is heard outside, "Edith!
+        Edith!")</stage> Mamma is calling me. For the present, good bye–will you join us
+       presently?</p>
+     </sp>
+     <sp who="#L1126_M3">
+      <speaker>Ainslie.</speaker>
+      <stage>(bowing)</stage>
+      <p>By all means.</p>
+     </sp>
+     <sp who="#L1126_F7">
+      <speaker>Lady S.</speaker>
+      <stage>(outside)</stage>
+      <p>Edith! Edith! Where are you?</p>
+     </sp>
+     <stage>(runs off, C. to R.)</stage>
+     <sp who="#L1126_F8">
+      <speaker>Edith.</speaker>
+      <p>Here, mamma. <stage>(runs off, C. to R.</stage></p>
+     </sp>
+     <pb n="30"/>
+     <stage>Wynne has entered R. as Edith was leaving.</stage>
+     <sp who="#L1126_M4">
+      <speaker>Wynne.</speaker>
+      <p>Sir!</p>
+     </sp>
+     <sp who="#L1126_M3">
+      <speaker>Ainslie.</speaker>
+      <p>Sir!</p>
+     </sp>
+     <sp who="#L1126_M4">
+      <speaker>Wynne.</speaker>
+      <p>Your name's Ainslie, sir, I think.</p>
+     </sp>
+     <sp who="#L1126_M3">
+      <speaker>Ainslie.</speaker>
+      <p>At your service.</p>
+     </sp>
+     <sp who="#L1126_M4">
+      <speaker>Wynne.</speaker>
+      <p>Then, sir, you will be pleased to consider yourself struck.</p>
+     </sp>
+     <sp who="#L1126_M3">
+      <speaker>Ainslie.</speaker>
+      <p>So I am—with your appearance, but the blow's a light one.</p>
+     </sp>
+     <sp who="#L1126_M4">
+      <speaker>Wynne.</speaker>
+      <p>Well, sir, and do you not resent it?</p>
+     </sp>
+     <sp who="#L1126_M3">
+      <speaker>Ainslie.</speaker>
+      <p>If you wish it. You will be pleased to consider <hi>your</hi>self struck.</p>
+     </sp>
+     <sp who="#L1126_M4">
+      <speaker>Wynne.</speaker>
+      <p>This is folly. I am not to be so gulled. I demand an explanation of your presence here with
+       Miss Starling, and–and–satisfaction, sir.</p>
+     </sp>
+     <sp who="#L1126_M3">
+      <speaker>Ainslie.</speaker>
+      <p>By all means. Anything for peace–swords or pistols, sir? I'll run you through, or shoot you
+       with the greatest pleasure in the world; only if you have a choice, say so.</p>
+     </sp>
+     <sp who="#L1126_M4">
+      <speaker>Wynne.</speaker>
+      <p>Pooh! pooh! sir, pistols!</p>
+     </sp>
+     <sp who="#L1126_M3">
+      <speaker>Ainslie.</speaker>
+      <p>Then I'll shoot you. You shall hear from me.</p>
+     </sp>
+     <stage>Exit Ainslie, L.</stage>
+     <sp who="#L1126_M4">
+      <speaker>Wynne.</speaker>
+      <p>Those confounded newspapers have ruined my peace of mind for ever. A fellow had no business
+       to turn up like this, after everybody had forgotten him. At all events I struck him. Here's
+       Edith, I'll–I'll be stern.</p>
+     </sp>
+     <stage>Enter Edith, C. from R.</stage>
+     <sp who="#L1126_F8">
+      <speaker>Edith.</speaker>
+      <p>Mamma has sent me to look for you, Mr. Wynne. Mercy on me, what ails you?</p>
+     </sp>
+     <sp who="#L1126_M4">
+      <speaker>Wynne.</speaker>
+      <p>Hence, madam! What has happened, sir? <stage>(walks slowly across stage, followed by
+        Edith.)</stage></p>
+     </sp>
+     <sp who="#L1126_F8">
+      <speaker>Edith.</speaker>
+      <p>Why, what do you mean, sir? Is that the way to address your betrothed?</p>
+     </sp>
+     <sp who="#L1126_M4">
+      <speaker>Wynne.</speaker>
+      <p>You have deceived me; guilt is written on your brow.</p>
+     </sp>
+     <sp who="#L1126_F8">
+      <speaker>Edith.</speaker>
+      <p>Mercy! What folly's this?</p>
+     </sp>
+     <sp who="#L1126_M4">
+      <speaker>Wynne.</speaker>
+      <p>Folly, madam, folly! With whom did I see you not five minutes since? Folly,
+        <stage>(aside)</stage> it's precious unpleasant folly, I know that.</p>
+     </sp>
+     <sp who="#L1126_F8">
+      <speaker>Edith.</speaker>
+      <p>Jealous! Oh! dear, save these lovers. You saw me speaking to Mr. Ainslie.</p>
+     </sp>
+     <pb n="31"/>
+     <sp who="#L1126_M4">
+      <speaker>Wynne.</speaker>
+      <p>Had you stayed five minutes longer, madam, you might have seen <hi>me</hi> speaking to him;
+        <hi>me</hi>. <stage>(folding his arms.)</stage></p>
+     </sp>
+     <sp who="#L1126_F8">
+      <speaker>Edith.</speaker>
+      <p>So, you're going to quarrel. How very pretty, how flattering to be fought for by two such
+       gallant knights. But there, enough of this, I have a word to whisper to you that will make
+       you forget a thousand jealousies. You say you love me ?</p>
+     </sp>
+     <sp who="#L1126_M4">
+      <speaker>Wynne.</speaker>
+      <stage>(sulkily)</stage>
+      <p>You know I adore you.</p>
+     </sp>
+     <sp who="#L1126_F8">
+      <speaker>Edith.</speaker>
+      <p>Marry me, then, at once?</p>
+     </sp>
+     <sp who="#L1126_M4">
+      <speaker>Wynne.</speaker>
+      <p>What! In spite of my poverty?</p>
+     </sp>
+     <sp who="#L1126_F8">
+      <speaker>Edith.</speaker>
+      <p>Because of your poverty; nothing need be known of it, and my portion will be enough for
+       both.</p>
+     </sp>
+     <sp who="#L1126_M4">
+      <speaker>Wynne.</speaker>
+      <p>Enough for both! I must be dreaming.</p>
+     </sp>
+     <sp who="#L1126_F8">
+      <speaker>Edith.</speaker>
+      <p>I accept you freely, willingly, but with one condition.</p>
+     </sp>
+     <sp who="#L1126_M4">
+      <speaker>Wynne.</speaker>
+      <p>Oh! and that is–</p>
+     </sp>
+     <sp who="#L1126_F8">
+      <speaker>Edith.</speaker>
+      <p>That you must not look for love from me.</p>
+     </sp>
+     <sp who="#L1126_M4">
+      <speaker>Wynne.</speaker>
+      <p>That's of no consequence.</p>
+     </sp>
+     <sp who="#L1126_F8">
+      <speaker>Edith.</speaker>
+      <p>Sir!</p>
+     </sp>
+     <sp who="#L1126_M4">
+      <speaker>Wynne.</speaker>
+      <p>That is, you'll like me when you–you get used to me. <stage>(aside)</stage> That idea of
+       mine has worked beautifully. She'll be confoundedly disappointed when I tell her I haven't
+       lost any money.</p>
+     </sp>
+     <sp who="#L1126_F8">
+      <speaker>Edith.</speaker>
+      <p>If, knowing this, you will still marry me, I am yours. <stage>(aside)</stage> I shall have
+       ended this agony at least.</p>
+     </sp>
+     <stage>Enter Servant, L. with letter, which he presents to Wynne.</stage>
+     <sp who="#L1126_M4">
+      <speaker>Wynne.</speaker>
+      <p>Ah! a letter. Yes, Ainslie's message of course.</p>
+     </sp>
+     <sp who="#L1126_F8">
+      <speaker>Edith.</speaker>
+      <p>You seem agitated.</p>
+     </sp>
+     <sp who="#L1126_M4">
+      <speaker>Wynne.</speaker>
+      <p>No, not at all. <stage>(aside)</stage> It's very heavy.</p>
+     </sp>
+     <sp who="#L1126_F8">
+      <speaker>Edith.</speaker>
+      <p>You want to open it, I see. You may do so. <stage>(retires back.)</stage></p>
+     </sp>
+     <sp who="#L1126_M4">
+      <speaker>Wynne.</speaker>
+      <p>What–what did he say? "Then I'll shoot you, you shall hear from me." He couldn't be so
+       cold-blooded as to send me–a–a grenade in—a cream laid envelope. <stage>(holds it
+        out.)</stage></p>
+     </sp>
+     <sp who="#L1126_F8">
+      <speaker>Edith.</speaker>
+      <stage>(at the back)</stage>
+      <p>Why, Mr. Wynne, anybody would think from your fierceness that it was a challenge.</p>
+     </sp>
+     <sp who="#L1126_M4">
+      <speaker>Wynne.</speaker>
+      <p>A good joke. <stage>(opens it carefully)</stage> By Jove!</p>
+     </sp>
+     <sp who="#L1126_F8">
+      <speaker>Edith.</speaker>
+      <p>What is the matter?</p>
+     </sp>
+     <sp who="#L1126_M4">
+      <speaker>Wynne.</speaker>
+      <p>Ainslie gone!</p>
+     </sp>
+     <sp who="#L1126_F8">
+      <speaker>Edith.</speaker>
+      <p>Gone! Thank Heaven. <stage>(sinks into a chair.)</stage></p>
+     </sp>
+     <sp who="#L1126_M4">
+      <speaker>Wynne.</speaker>
+      <p>There! I'll swear she loves him after all. Let's see. <stage>(reads aside)</stage> "My dear
+       Mr. Wynne, I promised you
+       <pb n="32"/> you should hear from me. I learnt this morning, by chance that your affairs had
+       become embarrassed, and that only one thing is wanting to complete your happiness with your
+       future wife–money. Of that I have at present a superfluity, and I beg of you to accept the
+       enclosed colonial notes, &amp;c., as a loan until your affairs are arranged. As I abhor
+       thanks, and as I have a very strong reason for keeping away from Sir William's, I shall not
+       probably see you again–If I do not, pray believe me, yours most sincerely, PHILIP AINSLIE.
+       "</p>
+     </sp>
+     <sp who="#L1126_F8">
+      <speaker>Edith.</speaker>
+      <stage>(aside)</stage>
+      <p>It must be something very serious. He seems positively concerned.</p>
+     </sp>
+     <sp who="#L1126_M4">
+      <speaker>Wynne.</speaker>
+      <stage>(aside)</stage>
+      <p>Now, I don't like this–I'm hanged if it doesn't make a fellow feel like a selfish snob.
+        <stage>(reads)</stage> "A strong reason for keeping away." Yes, he loves her, and finding
+       she's pledged to me, has too much honour to stay in her society. And I don't want this money;
+       and if I did, I couldn't keep it. I'm not sure whether I'm not open to prosecution for
+       obtaining money under false pretences. I'll give up the whole business. No, it is too late.
+       Too late! It is not, it shall not be. What a triumph it would be if for only once in a
+       generation, a Wynne could do something useful.</p>
+     </sp>
+     <stage>Exit Wynne, C. to R.</stage>
+     <sp who="#L1126_F8">
+      <speaker>Edith.</speaker>
+      <stage>(calling after him)</stage>
+      <p>Mr. Wynne! Why what has happened to him. He was never so aroused before. So he has gone.
+       'Tis better so. Heaven knows I have repented bitterly enough of my one folly, and here my
+       penance ends. I have been a spur to him in his career–no more. Fool that I was to think he
+       could love me–to gauge his heart by mine.</p>
+     </sp>
+     <stage>Enter Ainslie, L.</stage>
+     <sp who="#L1126_M3">
+      <speaker>Ainslie.</speaker>
+      <p>I am disturbing you, Miss Starling.</p>
+     </sp>
+     <sp who="#L1126_F8">
+      <speaker>Edith.</speaker>
+      <p>Again! No, I was just recovering from the surprise of seeing Mr. Wynne in earnest about
+       something.</p>
+     </sp>
+     <sp who="#L1126_M3">
+      <speaker>Ainslie.</speaker>
+      <stage>(aside)</stage>
+      <p>He has received my letter, then. I have no time to lose. An hour ago, Miss Starling, I came
+       here with one object, that of vindicating myself in the eyes of those who once despised me.
+       That attained, I have no need to remain. I am here to wish you good bye.</p>
+     </sp>
+     <sp who="#L1126_F8">
+      <speaker>Edith.</speaker>
+      <p>So soon?</p>
+     </sp>
+     <sp who="#L1126_M3">
+      <speaker>Ainslie.</speaker>
+      <p>Something has happened which compels me to leave. I want to tell you how much and how often
+       I shall think of you, and to confess how poor were the words
+       <pb n="33"/>with which I strove just now to thank you for the good you have wrought in
+       me.</p>
+     </sp>
+     <sp who="#L1126_F8">
+      <speaker>Edith.</speaker>
+      <p>Rather, how poor was the service you have so freely acknowledged.</p>
+     </sp>
+     <sp who="#L1126_M3">
+      <speaker>Ainslie.</speaker>
+      <p>There is but one thing more. On that day which I left Starling House, I was guilty of an
+       unmanly insult. In my vile pride and vanity, I brought the blushes to your pure cheeks.</p>
+     </sp>
+     <sp who="#L1126_F8">
+      <speaker>Edith.</speaker>
+      <p>I pray you, Mr. Ainslie, do not speak of it.</p>
+     </sp>
+     <sp who="#L1126_M3">
+      <speaker>Ainslie.</speaker>
+      <p>The lesson you read me then was well deserved. I sinned, and have repented, but I want to
+       hear from your own lips that you forgive me.</p>
+     </sp>
+     <sp who="#L1126_F8">
+      <speaker>Edith.</speaker>
+      <p>I have nothing to forgive. You were not yourself, you were carried away by the––</p>
+     </sp>
+     <sp who="#L1126_M3">
+      <speaker>Ainslie.</speaker>
+      <p>I do not ask for excuses, Miss Starling, but for forgiveness.</p>
+     </sp>
+     <sp who="#L1126_F8">
+      <speaker>Edith.</speaker>
+      <p>What can I say? That day has borne such good fruit that I cannot regret what happened.</p>
+     </sp>
+     <sp who="#L1126_M3">
+      <speaker>Ainslie.</speaker>
+      <p>Not regret that I overheard those words ?</p>
+     </sp>
+     <sp who="#L1126_F8">
+      <speaker>Edith.</speaker>
+      <p>Never. Oh! what have I said ?</p>
+     </sp>
+     <sp who="#L1126_M3">
+      <speaker>Ainslie.</speaker>
+      <p>Miss Starling, what can you mean? Are you in earnest ?</p>
+     </sp>
+     <sp who="#L1126_F8">
+      <speaker>Edith.</speaker>
+      <p>Oh! spare me–you have surprised me, I am confused.</p>
+     </sp>
+     <sp who="#L1126_M3">
+      <speaker>Ainslie.</speaker>
+      <p>Withdraw what you have said, and I am dumb for ever, <stage>(a pause)</stage> You cannot?
+       Oh! Edith, let me call you so –you have raised hopes that I thought I had laid aside for
+       ever. Till now despair had frozen up the passions of my soul–one word of yours has set them
+       free, and their fierce torrents overwhelm me. <stage>(she is about to speak)</stage> Nay, you
+       must listen, if you kill me with your scorn afterwards. My love was born of yours that day.
+       While I thought your words were the offspring of an idle coquetry –long since forgotten and
+       regretted–I spoke not a syllable. Now, when the mask is torn from your heart, I must tell you
+       all. For six years, my soul has fed on the love it has cherished for you; I have clung to it
+       as my salvation, worked under its impulses, lived in the hopes it inspired, suffered under
+       the sweet comfort it brought me. I have had no aim but to become worthy of you, no hope but
+       to make you mine.</p>
+     </sp>
+     <sp who="#L1126_F8">
+      <speaker>Edith.</speaker>
+      <p>Not another word–not one more.</p>
+     </sp>
+     <sp who="#L1126_M3">
+      <speaker>Ainslie.</speaker>
+      <p>I return, and find you still bound to the man into whose arms I so madly forced you. You
+       would sacrifice yourself to that hasty promise. 'Twas born of
+       <pb n="34"/> pride and anger, and cannot bind you. It must not–shall not be. If you marry
+       this man, your life will be one perpetual falsehood, a miserable history of self-torture and
+       unavailing repentance. Edith! hear me! you love me! Let your lips deny it if they dare. By
+       all that can influence you, I entreat you to rend asunder these self-forged chains, to be
+       true to yourself–to let your own real nature speak. Do this, or bid me leave you for ever</p>
+     </sp>
+     <sp who="#L1126_F8">
+      <speaker>Edith.</speaker>
+      <p>It is too late. I have no choice.</p>
+     </sp>
+     <sp who="#L1126_M3">
+      <speaker>Ainslie.</speaker>
+      <p>You must speak.</p>
+     </sp>
+     <sp who="#L1126_F8">
+      <speaker>Edith.</speaker>
+      <p>You do not know all. I am doubly pledged now.</p>
+     </sp>
+     <sp who="#L1126_M3">
+      <speaker>Ainslie.</speaker>
+      <p>Then, farewell!</p>
+     </sp>
+     <sp who="#L1126_F8">
+      <speaker>Edith.</speaker>
+      <p>Philip! <stage>(reproachfully)</stage></p>
+     </sp>
+     <sp who="#L1126_M3">
+      <speaker>Ainslie.</speaker>
+      <p>Speak, then! <stage>(voices outside)</stage> Mr. Wynne–I could have wished nothing
+       better.</p>
+     </sp>
+     <stage>Enter Sir William, followed by Wynne and Lady Starling. C. from R.</stage>
+     <sp who="#L1126_M1">
+      <speaker>Sir W.</speaker>
+      <p>No, sir, here in the presence of the girl you have so wronged,</p>
+     </sp>
+     <sp who="#L1126_F7">
+      <speaker>Lady S.</speaker>
+      <p>And in mine, too. <stage>(to Edith)</stage> My dear, injured darling, come to your mother's
+       arms.</p>
+     </sp>
+     <sp who="#L1126_M1">
+      <speaker>Sir W.</speaker>
+      <p>Now, sir, your explanation.</p>
+     </sp>
+     <sp who="#L1126_F7">
+      <speaker>Lady S.</speaker>
+      <p>Be calm, my dear Edith, be calm.</p>
+     </sp>
+     <sp who="#L1126_M4">
+      <speaker>Wynne.</speaker>
+      <p>Now, don't put a fellow out. I've been more unsettled to-day than I've been for ten
+       years.</p>
+     </sp>
+     <sp who="#L1126_M1">
+      <speaker>Sir W.</speaker>
+      <stage>(C.)</stage>
+      <p>You refuse to marry my daughter.</p>
+     </sp>
+     <sp who="#L1126_M3">
+      <speaker>Ainslie.</speaker>
+      <stage>(L.)</stage>
+      <p>What!</p>
+     </sp>
+     <sp who="#L1126_F8">
+      <speaker>Edith.</speaker>
+      <stage>(R.)</stage>
+      <p>Refuse to marry me!</p>
+     </sp>
+     <sp who="#L1126_F7">
+      <speaker>Lady S.</speaker>
+      <p>Never mind, my darling. He may break your heart, but you'll get damages, my dear.</p>
+     </sp>
+     <sp who="#L1126_M1">
+      <speaker>Sir W.</speaker>
+      <p>Your answer, sir.</p>
+     </sp>
+     <sp who="#L1126_M4">
+      <speaker>Wynne.</speaker>
+      <p>I do, most assuredly.</p>
+     </sp>
+     <sp who="#L1126_M1">
+      <speaker>Sir W.</speaker>
+      <p>He does.</p>
+     </sp>
+     <sp who="#L1126_F7">
+      <speaker>Lady S.</speaker>
+      <p>Most assuredly!</p>
+     </sp>
+     <sp who="#L1126_M3">
+      <speaker>Ainslie.</speaker>
+      <p>What mystery is this?</p>
+     </sp>
+     <sp who="#L1126_F8">
+      <speaker>Edith.</speaker>
+      <p>I think I can explain all, papa, in one word. Mr. Wynne has become poor, and is too noble
+       to insist on our engagement.</p>
+     </sp>
+     <sp who="#L1126_F7">
+      <speaker>Lady S.</speaker>
+      <p>Hush! That is only his artifice, my darling; I know these men !</p>
+     </sp>
+     <sp who="#L1126_M4">
+      <speaker>Wynne.</speaker>
+      <p>You are right, my lady. No, I have deceived you, Miss Starling.</p>
+     </sp>
+     <sp who="#L1126_F8">
+      <speaker>Edith.</speaker>
+      <p>Deceived me?</p>
+     </sp>
+     <stage>R. Edith. Lady S. Sir W. Wynne. Ainslie. L.</stage>
+     <sp who="#L1126_F7">
+      <speaker>Lady S.</speaker>
+      <p>What did I say, my dear!</p>
+     </sp>
+     <sp who="#L1126_M4">
+      <speaker>Wynne.</speaker>
+      <p>I pretended to be poor, only that I might by my seeming unselfishness, induce you to marry
+       me at once.</p>
+     </sp>
+     <sp who="#L1126_M3">
+      <speaker>Ainslie.</speaker>
+      <p>Then you have lost no money, sir?</p>
+     </sp>
+     <sp who="#L1126_M4">
+      <speaker>Wynne.</speaker>
+      <p>None at all. Allow me to return you yours. So much nobleness touched even my heart. Sir
+       William, if you could read this note, you would understand why I cannot marry your daughter.
+       There stands the man who has the better right to her. <stage>(pointing to
+       Ainslie)</stage></p>
+     </sp>
+     <sp who="#L1126_M1">
+      <speaker>Sir W.</speaker>
+      <p>Edith, Mr. Ainslie; what is the meaning of this ?</p>
+     </sp>
+     <sp who="#L1126_M3">
+      <speaker>Ainslie.</speaker>
+      <p>That Mr. Wynne is a noble fellow, Sir William. For a trifling service I proposed to render
+       him, he has renounced his claim to your daughter's hand.</p>
+     </sp>
+     <sp who="#L1126_F7">
+      <speaker>Lady S.</speaker>
+      <p>This is a more disgraceful than ever. Is a daughter of mine to be tossed about from one man
+       to another like a bundle of firewood?</p>
+     </sp>
+     <sp who="#L1126_M1">
+      <speaker>Sir W.</speaker>
+      <p>I must have this explained. A word with you, Mr. Ainslie. <stage>(they go up)</stage></p>
+     </sp>
+     <sp who="#L1126_F8">
+      <speaker>Edith.</speaker>
+      <p>Let me speak, mamma.</p>
+     </sp>
+     <sp who="#L1126_F7">
+      <speaker>Lady S.</speaker>
+      <p>Not one word, my child: they'll use it in evidence against you.</p>
+     </sp>
+     <stage>Enter Rocket and Sampson, arm-in-arm, C. from R.</stage>
+     <sp who="#L1126_M2">
+      <speaker>Sampson.</speaker>
+      <p>Ainslie, your friend's a most accomplished and learned gentleman. He has listened to my
+       treatise for the last twenty minutes without saying a word.</p>
+     </sp>
+     <sp who="#L1126_M5">
+      <speaker>Rocket.</speaker>
+      <p>I know when a man of genius is speaking, your science was most profound, and your cigars
+       excellent.</p>
+     </sp>
+     <sp who="#L1126_M2">
+      <speaker>Sampson.</speaker>
+      <p>You enjoyed my Vulture?</p>
+     </sp>
+     <sp who="#L1126_M5">
+      <speaker>Rocket.</speaker>
+      <p>Almost as much as your claret. What came out of your mouth was as delightful as that which
+       you put into mine. <stage>(Sir William and Ainslie come down.)</stage></p>
+     </sp>
+     <sp who="#L1126_M1">
+      <speaker>Sir W.</speaker>
+      <p>You say she loves you?</p>
+     </sp>
+     <sp who="#L1126_M3">
+      <speaker>Ainslie.</speaker>
+      <p>Let her own lips answer you.</p>
+     </sp>
+     <sp who="#L1126_M1">
+      <speaker>Sir W.</speaker>
+      <stage>(to Edith)</stage>
+      <p>My dear, I am not quite clear as to the notice I shall be compelled to take of Mr. Wynne's
+       conduct, but Mr. Ainslie has offered his hand to you. Between two such eligible gentlemen, I
+       should not think of fettering you. My dear, it is for you to choose.</p>
+     </sp>
+     <sp who="#L1126_F8">
+      <speaker>Edith.</speaker>
+      <p>Papa!</p>
+     </sp>
+     <sp who="#L1126_M1">
+      <speaker>Sir W.</speaker>
+      <p>How is Mr. Ainslie to interpret that?</p>
+     </sp>
+     <sp who="#L1126_M3">
+      <speaker>Ainslie.</speaker>
+      <stage>(taking her hand)</stage>
+      <p>I'll read my fate within her eyes– the dumb treasury of the sweetest language ever
+       spoken.</p>
+     </sp>
+     <sp who="#L1126_F8">
+      <speaker>Edith.</speaker>
+      <p>Then take their message. <stage>(looks up into his face.)</stage></p>
+     </sp>
+     <pb n="36"/>
+     <sp who="#L1126_F7">
+      <speaker>Lady S.</speaker>
+      <p>Good gracious, child!</p>
+     </sp>
+     <sp who="#L1126_M3">
+      <speaker>Ainslie.</speaker>
+      <p>Edith, I have laid bare my heart to you. Am I to have <hi>no</hi> return.</p>
+     </sp>
+     <sp who="#L1126_F8">
+      <speaker>Edith.</speaker>
+      <p>What need I say? I have never forgotten you–I have loved you from the first.</p>
+     </sp>
+     <sp who="#L1126_M1">
+      <speaker>Sir W.</speaker>
+      <stage>(to Lady Starling.)</stage>
+      <p>I tell you, my dear, it's a capital match.</p>
+     </sp>
+     <sp who="#L1126_F7">
+      <speaker>Lady S.</speaker>
+      <p>Oh! of course. My own daughter's to be bargained away, in five minutes without a word to
+       her mother.</p>
+     </sp>
+     <stage>(Wynne joins Sampson and Rocket.)</stage>
+     <sp who="#L1126_M2">
+      <speaker>Sampson.</speaker>
+      <p>The girl's quite right. The woman who can't change her mind's a disgrace to her sex. But
+       let us hear all about it.</p>
+     </sp>
+     <sp who="#L1126_M5">
+      <speaker>Rocket.</speaker>
+      <p>We'll have the whole story over another bottle of claret.</p>
+     </sp>
+     <sp who="#L1126_M2">
+      <speaker>Sampson.</speaker>
+      <p>Your head's like a camel's stomach, sir, full of nothing but liquor.</p>
+     </sp>
+     <sp who="#L1126_M5">
+      <speaker>Rocket.</speaker>
+      <p>You wrong me, my dear sir. There isn't a liquor in the world that could get into my
+       head.</p>
+     </sp>
+     <sp who="#L1126_M1">
+      <speaker>Sir W.</speaker>
+      <p>Ha! ha! Capital.</p>
+     </sp>
+     <sp who="#L1126_M2">
+      <speaker>Sampson.</speaker>
+      <p>Brother, you're a chameleon.</p>
+     </sp>
+     <sp who="#L1126_F8">
+      <speaker>Edith.</speaker>
+      <p>Uncle's going to re-christen us–zoologically.</p>
+     </sp>
+     <sp who="#L1126_M2">
+      <speaker>Sampson.</speaker>
+      <p>You're a magpie, miss, to begin with.</p>
+     </sp>
+     <sp who="#L1126_F8">
+      <speaker>Edith.</speaker>
+      <p>Oh! thank you! And what's mamma, and Mr. Wynne, and Mr. Ainslie pray?</p>
+     </sp>
+     <sp who="#L1126_M2">
+      <speaker>Sampson.</speaker>
+      <p>Not so fast, chatterer. Mamma shall be a cooing Dove, Mr. Wynne a penitent Jackdaw, and Mr.
+       Ainslie––</p>
+     </sp>
+     <sp who="#L1126_mult">
+      <speaker>All.</speaker>
+      <p>Well?</p>
+     </sp>
+     <sp who="#L1126_M2">
+      <speaker>Sampson.</speaker>
+      <p>I know what he <hi>was</hi>–</p>
+     </sp>
+     <sp who="#L1126_mult">
+      <speaker>All.</speaker>
+      <p>Well ?</p>
+     </sp>
+     <sp who="#L1126_M2">
+      <speaker>Sampson.</speaker>
+      <p>A Sleeping Hare.</p>
+     </sp>
+     <sp who="#L1126_F8">
+      <speaker>Edith.</speaker>
+      <l>A Sleeping Hare! But Hares don't always sleep,</l>
+      <l>Though the poor Tortoises, who can but creep</l>
+      <l>Still to themselves the flatt'ring fable fit,</l>
+      <l>And think their dulness better far than wit;</l>
+      <l>Proudly themselves with genius they compare</l>
+      <l>And show the mighty inch they'll pass the hare,</l>
+      <l>Forgetting, as they labour o'er the ground,</l>
+      <l>The HARE may wake and pass them at a bound.</l>
+
+     </sp>
+     <stage>CURTAIN.</stage>
+    </div>
+   </div>
+  </body>
+ </text>
+</TEI>
