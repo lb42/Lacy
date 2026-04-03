@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L1038" xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L1038" xml:lang="en">
  <teiHeader>
   <fileDesc>
    <titleStmt>
@@ -30,10 +29,8 @@
       <measure type="spWords" quantity="4788"/>
       <measure type="stWords" quantity="851"/>
      </extent>
-     <title level="s"> Lacy's Acting Edition, volume 70, No. 1038</title><idno type="nic"
-      >N13600</idno><idno type="vpp">Vol70iiiPhotographic</idno></bibl>
-    <bibl type="surrogate" subtype="copytext"><ref
-      target="https://babel.hathitrust.org/cgi/pt?id=mdp.39015067453624&amp;seq=100 ">UM from
+     <title level="s"> Lacy's Acting Edition, volume 70, No. 1038</title><idno type="nic">N13600</idno><idno type="vpp">Vol70iiiPhotographic</idno></bibl>
+    <bibl type="surrogate" subtype="copytext"><ref target="https://babel.hathitrust.org/cgi/pt?id=mdp.39015067453624&amp;seq=100 ">UM from
       HT</ref><ref target="local:Vol70/L1038/L1038-um.pdf"/></bibl>
     <listEvent>
      <event type="firstPerf" when="1865-11-04" source="textNic" where="Victoria">
@@ -43,7 +40,7 @@
    </sourceDesc>
   </fileDesc>
   <profileDesc>
-   <!--S 1 Farce F. FARCE-->
+   
    <textClass>
     <catRef target="#sizeS"/>
     <catRef target="#act1"/>
@@ -52,35 +49,33 @@
      <term>FARCE</term>
     </keywords>
    </textClass>
-   <particDesc>
-    <listPerson>
-     <person xml:id="L1038_M1">
-      <persName type="role">MICHAEL ANGELO CHROME.</persName>
-      <persName type="spkr" n="79">M. Angelo.</persName>
-     </person>
-     <person xml:id="L1038_M2">
-      <persName type="role">EBENEZER STAGGERS</persName>
-      <persName type="spkr" n="83">Staggers.</persName>
-     </person>
-     <person xml:id="L1038_M3">
-      <persName type="role">BOB CROPP</persName>
-      <persName type="spkr" n="45">Bob.</persName>
-     </person>
-     <person xml:id="L1038_F4">
-      <persName type="role">MISS DIANA DUFF</persName>
-      <persName type="spkr" n="20">Diana.</persName>
-     </person>
-     <person xml:id="L1038_F5">
-      <persName type="role">MISS CAROLINE CROPP</persName>
-      <persName type="spkr" n="27">Caroline.</persName>
-     </person>
-     <person xml:id="L1038_mult">
-      <persName type="role">[Multiple speakers]</persName>
-     </person>
-    </listPerson>
-   </particDesc>
+   <particDesc><listPerson>
+  <person xml:id="L1038_M1">
+   <persName type="role">Michael Angelo Chrome</persName>
+   <persName type="spkr" n="79">M. Angelo.</persName>
+  </person>
+  <person xml:id="L1038_M2">
+   <persName type="role">Ebenezer Staggers</persName>
+   <persName type="spkr" n="83">Staggers.</persName>
+  </person>
+  <person xml:id="L1038_M3">
+   <persName type="role">Bob Cropp</persName>
+   <persName type="spkr" n="45">Bob.</persName>
+  </person>
+  <person xml:id="L1038_F4">
+   <persName type="role">Miss Diana Duff</persName>
+   <persName type="spkr" n="20">Diana.</persName>
+  </person>
+  <person xml:id="L1038_F5">
+   <persName type="role">Miss Caroline Cropp</persName>
+   <persName type="spkr" n="27">Caroline.</persName>
+  </person>
+  <person xml:id="L1038_mult">
+   <persName type="role">[Multiple speakers]</persName>
+  </person>
+ </listPerson></particDesc>
   </profileDesc>
-  <revisionDesc>
+  <revisionDesc><change when="2026-04-03">Rewrite all particDescs</change>
    <change when="2026-03-14">Add wikidata link to titleStmt where possible</change>
    <change when="2026-02-12">TEI autotagging by Gemini Pro 2.5</change>
   </revisionDesc>

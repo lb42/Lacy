@@ -1,11 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L0664" xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L0664" xml:lang="en">
  <teiHeader>
   <fileDesc>
    <titleStmt>
     <title>Pork Chops, or A Dream at Home : TEI edition</title>
-    <author ref="lacyp:W0035"><persName>Blanchard, E. L.</persName><idno type="wikidata"
-      >Q5344152</idno></author>
+    <author ref="lacyp:W0035"><persName>Blanchard, E. L.</persName><idno type="wikidata">Q5344152</idno></author>
     <respStmt>
      <resp>TEI conversion</resp>
      <name>Lou Burnard</name>
@@ -32,12 +30,9 @@
       <measure type="spWords" quantity="2810"/>
       <measure type="stWords" quantity="578"/>
      </extent>
-     <title level="s"> Lacy's Acting Edition, volume 45, No. 0664</title><idno type="nic"
-      >N00465</idno></bibl>
-    <bibl type="surrogate"><ref target="https://hdl.handle.net/2027/iau.31858024123287"
-      >Hathi_Trust</ref></bibl>
-    <bibl type="surrogate" subtype="copytext"><ref
-      target="https://babel.hathitrust.org/cgi/pt?id=mdp.39015067453541&amp;seq=106 ">UM from
+     <title level="s"> Lacy's Acting Edition, volume 45, No. 0664</title><idno type="nic">N00465</idno></bibl>
+    <bibl type="surrogate"><ref target="https://hdl.handle.net/2027/iau.31858024123287">Hathi_Trust</ref></bibl>
+    <bibl type="surrogate" subtype="copytext"><ref target="https://babel.hathitrust.org/cgi/pt?id=mdp.39015067453541&amp;seq=106 ">UM from
       HT</ref><ref target="local:Vol45/L0664/L0664-um.pdf"/></bibl>
     <listEvent>
      <event type="firstPerf" when="1843-02-13" source="textNic" where="Olympic">
@@ -48,7 +43,7 @@
   </fileDesc>
 
   <profileDesc>
-   <!--S 1 ExtravaganDramaMusic Ext. SPECTACLE-->
+   
    <textClass>
     <catRef target="#sizeS"/>
     <catRef target="#act1"/>
@@ -57,37 +52,31 @@
      <term>SPECTACLE</term>
     </keywords>
    </textClass>
-   <particDesc>
-    <listPerson>
-     <person xml:id="L0664_M1">
-      <persName type="role">SEPTIMUS SNOOKS, a Gentleman connected with the
-       Press—vulgo—Penny-a-liner—with the “Life of a Vagabond.”</persName>
-      <persName type="spkr" n="64">Snooks.</persName>
-     </person>
-     <person xml:id="L0664_M2">
-      <persName type="role">DARKEYE DABBS, a returned Convict, and Professor of
-       Housebreaking</persName>
-      <persName type="spkr" n="39">Dabbs.</persName>
-     </person>
-     <person xml:id="L0664_M3">
-      <persName type="role">PHIL PILFER</persName>
-        
-      <persName type="spkr" n="8">Phil.</persName>
-     </person>
-     <person xml:id="L0664_F4">
-      <persName type="role">MISS CHIPPINGTON CHUBB, daughter to her mother, and heiress apparent to
-       the house of her parent</persName>
-      <persName type="spkr" n="26">Miss C.</persName>
-      <persName type="spkr" n="2">Miss Chubb.</persName>
-     </person>
-     <person xml:id="L0664_mult">
-      <persName type="role">[Multiple speakers]</persName>
-      <persName type="spkr" n="1">All.</persName>
-     </person>
-    </listPerson>
-   </particDesc>
+   <particDesc><listPerson>
+  <person xml:id="L0664_M1">
+   <persName type="role">Septimus Snooks</persName>
+   <persName type="spkr" n="64">Snooks.</persName>
+  </person>
+  <person xml:id="L0664_M2">
+   <persName type="role">Darkeye Dabbs</persName>
+   <persName type="spkr" n="39">Dabbs.</persName>
+  </person>
+  <person xml:id="L0664_M3">
+   <persName type="role">Phil Pilfer</persName>
+   <persName type="spkr" n="8">Phil.</persName>
+  </person>
+  <person xml:id="L0664_F4">
+   <persName type="role">Miss Chippington Chubb</persName>
+   <persName type="spkr" n="26">Miss C.</persName>
+   <persName type="spkr" n="2">Miss Chubb.</persName>
+  </person>
+  <person xml:id="L0664_mult">
+   <persName type="role">[Multiple speakers]</persName>
+   <persName type="spkr" n="1">All.</persName>
+  </person>
+ </listPerson></particDesc>
   </profileDesc>
-  <revisionDesc>
+  <revisionDesc><change when="2026-04-03">Rewrite all particDescs</change>
    <change when="2026-03-02">Add wikidata link to titleStmt where possible</change>
    <change when="2026-02-27">Add wikidata link to titleStmt where possible</change>
    <change when="2023-05-19">Header confected</change>

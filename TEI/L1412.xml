@@ -1,11 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L1412" xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L1412" xml:lang="en">
  <teiHeader>
   <fileDesc>
    <titleStmt>
     <title>Never Reckon Your Chickens &amp;c.: TEI edition</title>
-    <author ref="lacyp:W0260"><persName>Reeve, Wybert</persName><idno type="wikidata"
-      >Q21538183</idno></author>
+    <author ref="lacyp:W0260"><persName>Reeve, Wybert</persName><idno type="wikidata">Q21538183</idno></author>
     <respStmt>
      <resp>TEI conversion</resp>
      <name>Lou Burnard</name>
@@ -31,10 +29,8 @@
       <measure type="spWords" quantity="4465"/>
       <measure type="stWords" quantity="1197"/>
      </extent>
-     <title level="s"> Lacy's Acting Edition, volume 95, No. 1412</title><idno type="nic"
-      >N17399</idno></bibl>
-    <bibl type="surrogate" subtype="copytext"><ref
-      target="http://lb42.github.io/Lacy/Source/Vol95/L1411-lb.pdf">LB from LB</ref></bibl>
+     <title level="s"> Lacy's Acting Edition, volume 95, No. 1412</title><idno type="nic">N17399</idno></bibl>
+    <bibl type="surrogate" subtype="copytext"><ref target="http://lb42.github.io/Lacy/Source/Vol95/L1411-lb.pdf">LB from LB</ref></bibl>
     <listEvent>
      <event type="firstPerf" when="1871-12-26" source="textNic" where="Olympic">
       <desc>Premiered at Olympic Theatre 26 Dec. 1871</desc>
@@ -45,7 +41,7 @@
 
 
   <profileDesc>
-   <!--S 1 Farce F. FARCE-->
+   
    <textClass>
     <catRef target="#sizeS"/>
     <catRef target="#act1"/>
@@ -54,45 +50,43 @@
      <term>FARCE</term>
     </keywords>
    </textClass>
-   <particDesc>
-    <listPerson>
-     <person xml:id="L1412_M1">
-      <persName type="role">Mr. Jonathan Glubb</persName>
-      <persName type="spkr" n="71">Glubb.</persName>
-     </person>
-     <person xml:id="L1412_M2">
-      <persName type="role">Mr. John Tinkler</persName>
-      <persName type="spkr" n="1">Tinkler.</persName>
-      <persName type="spkr" n="52">Tink.</persName>
-     </person>
-     <person xml:id="L1412_M3">
-      <persName type="role"> Simon</persName>
-      <persName type="spkr" n="35">Simon.</persName>
-     </person>
-     <person xml:id="L1412_F4">
-      <persName type="role">*Miss Jane Glubb </persName>
-      <persName type="spkr" n="47">Jane.</persName>
-     </person>
-     <person xml:id="L1412_F5">
-      <persName type="role">*Miss Sarah Glubb</persName>
-      <persName type="spkr" n="20">Sarah.</persName>
-     </person>
-     <person xml:id="L1412_F6">
-      <persName type="role">*Maggie Glubb </persName>
-      <persName type="spkr" n="23">Maggie.</persName>
-     </person>
-     <person xml:id="L1412_F7">
-      <persName type="role">Mary</persName>
-      <persName type="spkr" n="38">Mary.</persName>
-     </person>
-     <!--<person xml:id="L1412_Mult">
+   <particDesc><listPerson>
+<person xml:id="L1412_M1">
+<persName type="role">Mr. Jonathan Glubb</persName>
+<persName type="spkr" n="71">Glubb.</persName>
+</person>
+<person xml:id="L1412_M2">
+<persName type="role">Mr. John Tinkler</persName>
+<persName type="spkr" n="1">Tinkler.</persName>
+<persName type="spkr" n="52">Tink.</persName>
+</person>
+<person xml:id="L1412_M3">
+<persName type="role"> Simon</persName>
+<persName type="spkr" n="35">Simon.</persName>
+</person>
+<person xml:id="L1412_F4">
+<persName type="role">*Miss Jane Glubb </persName>
+<persName type="spkr" n="47">Jane.</persName>
+</person>
+<person xml:id="L1412_F5">
+<persName type="role">*Miss Sarah Glubb</persName>
+<persName type="spkr" n="20">Sarah.</persName>
+</person>
+<person xml:id="L1412_F6">
+<persName type="role">*Maggie Glubb </persName>
+<persName type="spkr" n="23">Maggie.</persName>
+</person>
+<person xml:id="L1412_F7">
+<persName type="role">Mary</persName>
+<persName type="spkr" n="38">Mary.</persName>
+</person>
+<!--<person xml:id="L1412_Mult">
 <persName type="spkr" n="5">Jane|Sarah.</persName>
 <persName type="spkr" n="2">Jane | Sarah.</persName>
 </person>-->
-    </listPerson>
-   </particDesc>
+</listPerson></particDesc>
   </profileDesc>
-  <revisionDesc>
+  <revisionDesc><change when="2026-04-03">Rewrite all particDescs</change>
    <change when="2026-02-24">Add wikidata link to titleStmt where possible</change>
    <change when="2026-01-11">Standardize header components</change>
    <change when="2026-01-10">Metadata refreshed from catalogue and Partix folder</change>
@@ -146,11 +140,9 @@
      </castItem>
      <castItem><role gender="F">*Miss Sarah Glubb</role>
       <roleDesc>(affecting Poetry </roleDesc><actor sex="F">Mrs. Robson. </actor></castItem>
-     <castItem><role gender="F">*Maggie Glubb </role><roleDesc>(a Romp) </roleDesc><actor sex="F"
-       >Miss Amy Steinberg.</actor></castItem>
+     <castItem><role gender="F">*Maggie Glubb </role><roleDesc>(a Romp) </roleDesc><actor sex="F">Miss Amy Steinberg.</actor></castItem>
      <castItem><role gender="F">Mary</role>
-      <roleDesc>a Servant, with the proverbial weaknesses of her sex and position)</roleDesc><actor
-       sex="F"> Miss Sutherland.</actor>
+      <roleDesc>a Servant, with the proverbial weaknesses of her sex and position)</roleDesc><actor sex="F"> Miss Sutherland.</actor>
      </castItem>
     </castList>
 

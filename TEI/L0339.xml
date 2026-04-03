@@ -1,11 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L0339" xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L0339" xml:lang="en">
  <teiHeader>
   <fileDesc>
    <titleStmt>
     <title>The Four Sisters: TEI edition</title>
-    <author ref="lacyp:W0029"><persName>Bernard, Bayle</persName><idno type="wikidata"
-      >Q8005227</idno></author>
+    <author ref="lacyp:W0029"><persName>Bernard, Bayle</persName><idno type="wikidata">Q8005227</idno></author>
     <respStmt>
      <resp>TEI conversion</resp>
      <name>Lou Burnard</name>
@@ -31,12 +29,10 @@
       <measure type="spWords" quantity="6488"/>
       <measure type="stWords" quantity="554"/>
      </extent>
-     <title level="s"> Lacy's Acting Edition, volume 23, No. 0339</title><idno type="nic"
-      >N00398</idno></bibl>
+     <title level="s"> Lacy's Acting Edition, volume 23, No. 0339</title><idno type="nic">N00398</idno></bibl>
     <bibl type="surrogate"><ref target="https://archive.org/details/foursistersorigi0000bern">UW
       from IA</ref><ref target="local:Vol23/L0339/L0339-uw.pdf"/></bibl>
-    <bibl type="surrogate" subtype="copytext"><ref
-      target="https://babel.hathitrust.org/cgi/pt?id=mdp.39015067453160&amp;seq=374 ">UM from
+    <bibl type="surrogate" subtype="copytext"><ref target="https://babel.hathitrust.org/cgi/pt?id=mdp.39015067453160&amp;seq=374 ">UM from
       HT</ref><ref target="local:Vol23/L0339/L0339-um.pdf"/></bibl>
     <listEvent>
      <event type="firstPerf" when="1832-05-03" source="text" where="Strand">
@@ -48,7 +44,7 @@
 
 
   <profileDesc>
-   <!--S 1 Farce F. FARCE-->
+   
    <textClass>
     <catRef target="#sizeS"/>
     <catRef target="#act1"/>
@@ -57,37 +53,35 @@
      <term>FARCE</term>
     </keywords>
    </textClass>
-   <particDesc>
-    <listPerson>
-     <person xml:id="L0339_M1">
-      <persName type="role">MR. MERTON</persName>
-      <persName type="spkr" n="24">Merton.</persName>
-     </person>
-     <person xml:id="L0339_M2">
-      <persName type="role">BEAUCHAMP</persName>
-      <persName type="spkr" n="171">Beau.</persName>
-     </person>
-     <person xml:id="L0339_M3">
-      <persName type="role">SNAFFLE</persName>
-      <persName type="spkr" n="70">Snaf.</persName>
-     </person>
-     <person xml:id="L0339_M4">
-      <persName type="role">WAITER</persName>
-      <persName type="spkr" n="4">Waiter.</persName>
-      <persName type="spkr" n="1">Servant.</persName>
-     </person>
-     <person xml:id="L0339_F5">
-      <persName type="role">CAROLINE MERTON</persName>
-      <persName type="spkr" n="101">Carry.</persName>
-     </person>
-     <person xml:id="L0339_F6">
-      <persName type="role">SUSAN</persName>
-      <persName type="spkr" n="23">Susan.</persName>
-     </person>
-    </listPerson>
-   </particDesc>
+   <particDesc><listPerson>
+  <person xml:id="L0339_M1">
+   <persName type="role">Mr. Merton</persName>
+   <persName type="spkr" n="24">Merton.</persName>
+  </person>
+  <person xml:id="L0339_M2">
+   <persName type="role">Beauchamp</persName>
+   <persName type="spkr" n="171">Beau.</persName>
+  </person>
+  <person xml:id="L0339_M3">
+   <persName type="role">Snaffle</persName>
+   <persName type="spkr" n="70">Snaf.</persName>
+  </person>
+  <person xml:id="L0339_M4">
+   <persName type="role">Waiter</persName>
+   <persName type="spkr" n="4">Waiter.</persName>
+   <persName type="spkr" n="1">Servant.</persName>
+  </person>
+  <person xml:id="L0339_F5">
+   <persName type="role">Caroline Merton</persName>
+   <persName type="spkr" n="101">Carry.</persName>
+  </person>
+  <person xml:id="L0339_F6">
+   <persName type="role">Susan</persName>
+   <persName type="spkr" n="23">Susan.</persName>
+  </person>
+ </listPerson></particDesc>
   </profileDesc>
-  <revisionDesc>
+  <revisionDesc><change when="2026-04-03">Rewrite all particDescs</change>
    <change when="2026-03-19">Add wikidata link to titleStmt where possible</change>
    <change when="2026-01-26">Standardize header components</change>
    <change when="2026-01-26">TEI autotagging by Gemini Pro 2.5</change>

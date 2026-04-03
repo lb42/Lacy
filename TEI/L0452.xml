@@ -1,11 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L0452" xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L0452" xml:lang="en">
  <teiHeader>
   <fileDesc>
    <titleStmt>
     <title>"Fearful Tragedy in the Seven Dials": TEI edition</title>
-    <author ref="lacyp:W0278"><persName>Selby, Charles</persName><idno type="wikidata"
-      >Q16065988</idno></author>
+    <author ref="lacyp:W0278"><persName>Selby, Charles</persName><idno type="wikidata">Q16065988</idno></author>
     <respStmt>
      <resp>TEI conversion</resp>
      <name>Lou Burnard</name>
@@ -31,17 +29,10 @@
       <measure type="spWords" quantity="4039"/>
       <measure type="stWords" quantity="1963"/>
      </extent>
-     <title level="s"> Lacy's Acting Edition, volume 31, No. 0452</title><idno type="nic"
-      >N17991</idno><idno type="vpp">Vol31iiFearful</idno></bibl>
-    <bibl type="surrogate" subtype="copytext"><ref
-      target="https://lb42.github.io/Lacy/Source/VPP/L0452-vpp.pdf">LoB from VPP</ref><ref
-      target="local:Vol31/L0452/L0452-vpp.pdf"/><ref target="local:Vol31/L0452/Vol31iiFearful.pdf"
-     /></bibl>
-    <bibl type="surrogate"><ref
-      target="https://www.google.co.uk/books/edition/Fearful_Tragedy_in_the_Seven_Dials_etc_M/VddZAAAAcAAJ"
-      >Google Books</ref></bibl>
-    <bibl type="surrogate"><ref
-      target="https://babel.hathitrust.org/cgi/pt?id=mdp.39015067453301&amp;seq=70 ">UM from
+     <title level="s"> Lacy's Acting Edition, volume 31, No. 0452</title><idno type="nic">N17991</idno><idno type="vpp">Vol31iiFearful</idno></bibl>
+    <bibl type="surrogate" subtype="copytext"><ref target="https://lb42.github.io/Lacy/Source/VPP/L0452-vpp.pdf">LoB from VPP</ref><ref target="local:Vol31/L0452/L0452-vpp.pdf"/><ref target="local:Vol31/L0452/Vol31iiFearful.pdf"/></bibl>
+    <bibl type="surrogate"><ref target="https://www.google.co.uk/books/edition/Fearful_Tragedy_in_the_Seven_Dials_etc_M/VddZAAAAcAAJ">Google Books</ref></bibl>
+    <bibl type="surrogate"><ref target="https://babel.hathitrust.org/cgi/pt?id=mdp.39015067453301&amp;seq=70 ">UM from
       HT</ref><ref target="local:Vol31/L0452/L0452-um.pdf"/></bibl>
     <listEvent>
      <event type="LCP" when="1862-04-30" where="Adelphi">
@@ -55,7 +46,7 @@
    </sourceDesc>
   </fileDesc>
   <profileDesc>
-   <!--S 1 Interlude F. FARCE-->
+   
    <textClass>
     <catRef target="#sizeS"/>
     <catRef target="#act1"/>
@@ -64,35 +55,33 @@
      <term>FARCE</term>
     </keywords>
    </textClass>
-   <particDesc>
-    <listPerson>
-     <person xml:id="L0452_1">
-      <persName type="role">Mr. Timothy Slumpington</persName>
-      <persName type="spkr" n="107">Slump.</persName>
-     </person>
-     <person xml:id="L0452_2">
-      <persName type="role">Mr. Muggleton Mulligatawney</persName>
-      <persName type="spkr" n="58">Mul.</persName>
-     </person>
-     <person xml:id="L0452_3">
-      <persName type="role">Mr. Twigley</persName>
-      <persName type="spkr" n="14">Twigley.</persName>
-     </person>
-     <person xml:id="L0452_4">
-      <persName type="role">Jacob Weazle</persName>
-      <persName type="spkr" n="23">Jacob.</persName>
-     </person>
-     <person xml:id="L0452_5">
-      <persName type="role">Mrs. Slumpington</persName>
-      <persName type="spkr" n="43">Mrs. S.</persName>
-     </person>
-     <person xml:id="L0452_mult">
-      <persName type="role">[Multiple speakers]</persName>
-     </person>
-    </listPerson>
-   </particDesc>
+   <particDesc><listPerson>
+  <person xml:id="L0452_1">
+   <persName type="role">Mr. Timothy Slumpington</persName>
+   <persName type="spkr" n="107">Slump.</persName>
+  </person>
+  <person xml:id="L0452_2">
+   <persName type="role">Mr. Muggleton Mulligatawney</persName>
+   <persName type="spkr" n="58">Mul.</persName>
+  </person>
+  <person xml:id="L0452_3">
+   <persName type="role">Mr. Twigley</persName>
+   <persName type="spkr" n="14">Twigley.</persName>
+  </person>
+  <person xml:id="L0452_4">
+   <persName type="role">Jacob Weazle</persName>
+   <persName type="spkr" n="23">Jacob.</persName>
+  </person>
+  <person xml:id="L0452_5">
+   <persName type="role">Mrs. Slumpington</persName>
+   <persName type="spkr" n="43">Mrs. S.</persName>
+  </person>
+  <person xml:id="L0452_mult">
+   <persName type="role">[Multiple speakers]</persName>
+  </person>
+ </listPerson></particDesc>
   </profileDesc>
-  <revisionDesc>
+  <revisionDesc><change when="2026-04-03">Rewrite all particDescs</change>
    <change when="2026-03-16">Add wikidata link to titleStmt where possible</change>
    <change when="2026-03-16">Checked against VPP page images</change>
    <change when="2026-02-12">TEI autotagging by Gemini Pro 2.5</change>

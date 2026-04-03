@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L0802" xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L0802" xml:lang="en">
  <teiHeader>
   <fileDesc>
    <titleStmt>
@@ -30,10 +29,8 @@
       <measure type="spWords" quantity="8164"/>
       <measure type="stWords" quantity="673"/>
      </extent>
-     <title level="s"> Lacy's Acting Edition, volume 54, No. 0802</title><idno type="nic"
-      >N20080</idno></bibl>
-    <bibl type="surrogate" subtype="copytext"><ref
-      target="https://babel.hathitrust.org/cgi/pt?id=mdp.39015067453822&amp;seq=144 ">UM from
+     <title level="s"> Lacy's Acting Edition, volume 54, No. 0802</title><idno type="nic">N20080</idno></bibl>
+    <bibl type="surrogate" subtype="copytext"><ref target="https://babel.hathitrust.org/cgi/pt?id=mdp.39015067453822&amp;seq=144 ">UM from
       HT</ref><ref target="local:Vol54/L0802/L0802-um.pdf"/></bibl>
     <listEvent>
      <event type="LCP" when="1862-02-15" where="Strand">
@@ -47,7 +44,7 @@
    </sourceDesc>
   </fileDesc>
   <profileDesc>
-   <!--S 1 Comedietta Ca. COMEDIETTA-->
+   
    <textClass>
     <catRef target="#sizeS"/>
     <catRef target="#act1"/>
@@ -56,40 +53,38 @@
      <term>COMEDIETTA</term>
     </keywords>
    </textClass>
-   <particDesc>
-    <listPerson>
-     <person xml:id="L0802_M1">
-      <persName type="role">Colonel Clarence</persName>
-      <persName type="spkr" n="71">Colonel.</persName>
-     </person>
-     <person xml:id="L0802_M2">
-      <persName type="role">Mr. Falcon Hope</persName>
-      <persName type="spkr" n="100">Falcon.</persName>
-     </person>
-     <person xml:id="L0802_M3">
-      <persName type="role">Mr. Septimus Symmetry</persName>
-      <persName type="spkr" n="178">Sym.</persName>
-     </person>
-     <person xml:id="L0802_F4">
-      <persName type="role">Violet Hope</persName>
-      <persName type="spkr" n="49">Violet.</persName>
-     </person>
-     <person xml:id="L0802_F5">
-      <persName type="role">Isabella Clarence</persName>
-      <persName type="spkr" n="72">Isabel.</persName>
-     </person>
-     <person xml:id="L0802_F6">
-      <persName type="role">Louisa</persName>
-      <persName type="spkr" n="33">Louisa.</persName>
-     </person>
-     <person xml:id="L0802_mult">
-      <persName type="role">[Multiple speakers]</persName>
-      <persName type="spkr" n="2">All.</persName>
-     </person>
-    </listPerson>
-   </particDesc>
+   <particDesc><listPerson>
+  <person xml:id="L0802_M1">
+   <persName type="role">Colonel Clarence</persName>
+   <persName type="spkr" n="71">Colonel.</persName>
+  </person>
+  <person xml:id="L0802_M2">
+   <persName type="role">Mr. Falcon Hope</persName>
+   <persName type="spkr" n="100">Falcon.</persName>
+  </person>
+  <person xml:id="L0802_M3">
+   <persName type="role">Mr. Septimus Symmetry</persName>
+   <persName type="spkr" n="178">Sym.</persName>
+  </person>
+  <person xml:id="L0802_F4">
+   <persName type="role">Violet Hope</persName>
+   <persName type="spkr" n="49">Violet.</persName>
+  </person>
+  <person xml:id="L0802_F5">
+   <persName type="role">Isabella Clarence</persName>
+   <persName type="spkr" n="72">Isabel.</persName>
+  </person>
+  <person xml:id="L0802_F6">
+   <persName type="role">Louisa</persName>
+   <persName type="spkr" n="33">Louisa.</persName>
+  </person>
+  <person xml:id="L0802_mult">
+   <persName type="role">[Multiple speakers]</persName>
+   <persName type="spkr" n="2">All.</persName>
+  </person>
+</listPerson></particDesc>
   </profileDesc>
-  <revisionDesc>
+  <revisionDesc><change when="2026-04-03">Rewrite all particDescs</change>
    <change when="2026-03-20">Add wikidata link to titleStmt where possible</change>
    <change when="2026-03-19">Hand checked against UM pdf</change>
    <change when="2026-03-19">TEI autotagging by Gemini Pro 2.5</change>

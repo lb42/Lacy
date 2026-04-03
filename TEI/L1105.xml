@@ -1,11 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L1105" xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L1105" xml:lang="en">
  <teiHeader>
   <fileDesc>
    <titleStmt>
     <title>An Atrocious Criminal: TEI edition</title>
-    <author ref="lacyp:W0283"><persName>Simpson, John Palgrave </persName><idno type="wikidata"
-      >Q6251798</idno></author>
+    <author ref="lacyp:W0283"><persName>Simpson, John Palgrave </persName><idno type="wikidata">Q6251798</idno></author>
     <respStmt>
      <resp>TEI conversion</resp>
      <name>Lou Burnard</name>
@@ -31,10 +29,8 @@
       <measure type="spWords" quantity="6131"/>
       <measure type="stWords" quantity="951"/>
      </extent>
-     <title level="s"> Lacy's Acting Edition, volume 74, No. 1105</title><idno type="nic"
-      >N18207</idno><idno type="vpp">Vol74xAtrocious</idno></bibl>
-    <bibl type="surrogate" subtype="copytext"><ref
-      target="https://babel.hathitrust.org/cgi/pt?id=mdp.39015067453764&amp;seq=354 ">UM from
+     <title level="s"> Lacy's Acting Edition, volume 74, No. 1105</title><idno type="nic">N18207</idno><idno type="vpp">Vol74xAtrocious</idno></bibl>
+    <bibl type="surrogate" subtype="copytext"><ref target="https://babel.hathitrust.org/cgi/pt?id=mdp.39015067453764&amp;seq=354 ">UM from
       HT</ref><ref target="local:Vol74/L1105/L1105-um.pdf"/></bibl>
     <listEvent>
      <event type="firstPerf" when="1867-02-18" source="textNic" where="Olympic">
@@ -45,7 +41,7 @@
   </fileDesc>
 
   <profileDesc>
-   <!--S 1 Farce F. FARCE-->
+   
    <textClass>
     <catRef target="#sizeS"/>
     <catRef target="#act1"/>
@@ -54,42 +50,40 @@
      <term>FARCE</term>
     </keywords>
    </textClass>
-   <particDesc>
-    <listPerson>
-     <person xml:id="L1105_M1">
-      <persName type="role">HANS FLICKER VON FLICKERDORF</persName>
-      <persName type="spkr" n="139">Hans.</persName>
-     </person>
-     <person xml:id="L1105_M2">
-      <persName type="role">FLORIAN HAHNENKAMM</persName>
-      <persName type="spkr" n="44">Flor.</persName>
-      <persName type="spkr" n="1">Florian Hahnenkamm.</persName>
-     </person>
-     <person xml:id="L1105_M3">
-      <persName type="role">BOCK</persName>
-      <persName type="spkr" n="36">Bock.</persName>
-     </person>
-     <person xml:id="L1105_F4">
-      <persName type="role">CUNIGUNDA LIPPMAN</persName>
-      <persName type="spkr" n="77">Cuni.</persName>
-     </person>
-     <person xml:id="L1105_F5">
-      <persName type="role">MINNA VON ROSEN</persName>
-      <persName type="spkr" n="63">Minna.</persName>
-     </person>
-     <person xml:id="L1105_F6">
-      <persName type="role">LISA</persName>
-      <persName type="spkr" n="1">Lisa</persName>
-      <persName type="spkr" n="68">Lisa.</persName>
-     </person>
-     <person xml:id="L1105_mult">
-      <persName type="role">[Multiple speakers]</persName>
-      <persName type="spkr" n="2">Minna and Cuni.</persName>
-     </person>
-    </listPerson>
-   </particDesc>
+   <particDesc><listPerson>
+  <person xml:id="L1105_M1">
+   <persName type="role">Hans Flicker Von Flickerdorf</persName>
+   <persName type="spkr" n="139">Hans.</persName>
+  </person>
+  <person xml:id="L1105_M2">
+   <persName type="role">Florian Hahnenkamm</persName>
+   <persName type="spkr" n="44">Flor.</persName>
+   <persName type="spkr" n="1">Florian Hahnenkamm.</persName>
+  </person>
+  <person xml:id="L1105_M3">
+   <persName type="role">Bock</persName>
+   <persName type="spkr" n="36">Bock.</persName>
+  </person>
+  <person xml:id="L1105_F4">
+   <persName type="role">Cunigunda Lippman</persName>
+   <persName type="spkr" n="77">Cuni.</persName>
+  </person>
+  <person xml:id="L1105_F5">
+   <persName type="role">Minna Von Rosen</persName>
+   <persName type="spkr" n="63">Minna.</persName>
+  </person>
+  <person xml:id="L1105_F6">
+   <persName type="role">Lisa</persName>
+   <persName type="spkr" n="1">Lisa</persName>
+   <persName type="spkr" n="68">Lisa.</persName>
+  </person>
+  <person xml:id="L1105_mult">
+   <persName type="role">[Multiple speakers]</persName>
+   <persName type="spkr" n="2">Minna and Cuni.</persName>
+  </person>
+ </listPerson></particDesc>
   </profileDesc>
-  <revisionDesc>
+  <revisionDesc><change when="2026-04-03">Rewrite all particDescs</change>
    <change when="2026-03-02">Add wikidata link to titleStmt where possible</change>
    <change when="2026-02-08">Standardize header components</change>
    <change when="2026-02-01">TEI autotagging by Gemini Pro 2.5</change>

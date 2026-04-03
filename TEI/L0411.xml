@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L0411" xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L0411" xml:lang="en">
  <teiHeader>
   <fileDesc>
    <titleStmt>
@@ -30,14 +29,9 @@
       <measure type="spWords" quantity="7896"/>
       <measure type="stWords" quantity="497"/>
      </extent>
-     <title level="s"> Lacy's Acting Edition, volume 28, No. 0411</title><idno type="nic"
-      >N20073</idno><idno type="vpp">Vol28viWrite</idno></bibl>
-    <bibl type="surrogate" subtype="copytext"><ref
-      target="https://lb42.github.io/Lacy/Source/VPP/L0411-vpp.pdf">LoB from VPP</ref><ref
-      target="local:Vol28/L0411/L0411-vpp.pdf"/><ref target="local:Vol28/L0411/Vol28viWrite.pdf"
-     /></bibl>
-    <bibl type="surrogate"><ref
-      target="https://babel.hathitrust.org/cgi/pt?id=mdp.39015067453012&amp;seq=268 ">UM from
+     <title level="s"> Lacy's Acting Edition, volume 28, No. 0411</title><idno type="nic">N20073</idno><idno type="vpp">Vol28viWrite</idno></bibl>
+    <bibl type="surrogate" subtype="copytext"><ref target="https://lb42.github.io/Lacy/Source/VPP/L0411-vpp.pdf">LoB from VPP</ref><ref target="local:Vol28/L0411/L0411-vpp.pdf"/><ref target="local:Vol28/L0411/Vol28viWrite.pdf"/></bibl>
+    <bibl type="surrogate"><ref target="https://babel.hathitrust.org/cgi/pt?id=mdp.39015067453012&amp;seq=268 ">UM from
       HT</ref><ref target="local:Vol28/L0411/L0411-um.pdf"/></bibl>
     <listEvent>
      <event type="LCP" when="1862-10-16" where="Sadlers">
@@ -52,7 +46,7 @@
   </fileDesc>
 
   <profileDesc>
-   <!--S 1 Farce F. FARCE-->
+   
    <textClass>
     <catRef target="#sizeS"/>
     <catRef target="#act1"/>
@@ -61,42 +55,40 @@
      <term>FARCE</term>
     </keywords>
    </textClass>
-   <particDesc>
-    <listPerson>
-     <person xml:id="L0411_M1">
-      <persName type="role">THE HON. HENRY HUNTLEY</persName>
-      <persName type="spkr" n="85">Hunt.</persName>
-      <persName type="spkr" n="2">Huntley.</persName>
-     </person>
-     <person xml:id="L0411_M2">
-      <persName type="role">SIR HARRY HARFORD, BART.</persName>
-      <persName type="spkr" n="47">Sir H.</persName>
-      <persName type="spkr" n="1">Sir R.</persName>
-     </person>
-     <person xml:id="L0411_M3">
-      <persName type="role">MR. PUNCTILIO BLOCK</persName>
-      <persName type="spkr" n="117">Block.</persName>
-     </person>
-     <person xml:id="L0411_M4">
-      <persName type="role">SERVANT</persName>
-      <persName type="spkr" n="6">Servant.</persName>
-     </person>
-     <person xml:id="L0411_M5">
-      <persName type="role">CABMAN</persName>
-      <persName type="spkr" n="2">Cabman.</persName>
-     </person>
-     <person xml:id="L0411_F6">
-      <persName type="role">THE HON. MRS. HUNTLEY</persName>
-      <persName type="spkr" n="59">Mrs. H.</persName>
-     </person>
-     <person xml:id="L0411_F7">
-      <persName type="role">MARIA BLAND</persName>
-      <persName type="spkr" n="91">Maria.</persName>
-     </person>
-    </listPerson>
-   </particDesc>
+   <particDesc><listPerson>
+  <person xml:id="L0411_M1">
+   <persName type="role">The Hon. Henry Huntley</persName>
+   <persName type="spkr" n="85">Hunt.</persName>
+   <persName type="spkr" n="2">Huntley.</persName>
+  </person>
+  <person xml:id="L0411_M2">
+   <persName type="role">Sir Harry Harford, Bart</persName>
+   <persName type="spkr" n="47">Sir H.</persName>
+   <persName type="spkr" n="1">Sir R.</persName>
+  </person>
+  <person xml:id="L0411_M3">
+   <persName type="role">Mr. Punctilio Block</persName>
+   <persName type="spkr" n="117">Block.</persName>
+  </person>
+  <person xml:id="L0411_M4">
+   <persName type="role">Servant</persName>
+   <persName type="spkr" n="6">Servant.</persName>
+  </person>
+  <person xml:id="L0411_M5">
+   <persName type="role">Cabman</persName>
+   <persName type="spkr" n="2">Cabman.</persName>
+  </person>
+  <person xml:id="L0411_F6">
+   <persName type="role">The Hon. Mrs. Huntley</persName>
+   <persName type="spkr" n="59">Mrs. H.</persName>
+  </person>
+  <person xml:id="L0411_F7">
+   <persName type="role">Maria Bland</persName>
+   <persName type="spkr" n="91">Maria.</persName>
+  </person>
+ </listPerson></particDesc>
   </profileDesc>
-  <revisionDesc>
+  <revisionDesc><change when="2026-04-03">Rewrite all particDescs</change>
    <change when="2026-03-02">Add wikidata link to titleStmt where possible</change>
    <change when="2026-02-11">Standardize header components</change>
    <change when="2026-02-11">Copy edited by LB</change>

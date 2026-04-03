@@ -1,11 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L1324" xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L1324" xml:lang="en">
  <teiHeader>
   <fileDesc>
    <titleStmt>
     <title>A Night of Suspense : TEI edition</title>
-    <author ref="lacyp:W0011"><persName>[Anon.]</persName><idno type="wikidata"
-     >Q4233718</idno></author>
+    <author ref="lacyp:W0011"><persName>[Anon.]</persName><idno type="wikidata">Q4233718</idno></author>
     <respStmt>
      <resp>TEI conversion</resp>
      <name>Lou Burnard</name>
@@ -31,14 +29,9 @@
       <measure type="spWords" quantity="2177"/>
       <measure type="stWords" quantity="1024"/>
      </extent>
-     <title level="s"> Lacy's Acting Edition, volume 89, No. 1324</title><idno type="nic"
-      >N06978</idno><idno type="vpp">Vol89ivNight</idno></bibl>
-    <bibl type="surrogate" subtype="copytext"><ref
-      target="https://lb42.github.io/Lacy/Source/VPP/L1324-vpp.pdf">LoB from VPP</ref><ref
-      target="local:Vol89/L1324/L1324-vpp.pdf"/><ref target="local:Vol89/L1324/Vol89ivNight.pdf"
-     /></bibl>
-    <bibl type="surrogate"><ref
-      target="https://babel.hathitrust.org/cgi/pt?id=mdp.39015067453418&amp;seq=146 ">UM from
+     <title level="s"> Lacy's Acting Edition, volume 89, No. 1324</title><idno type="nic">N06978</idno><idno type="vpp">Vol89ivNight</idno></bibl>
+    <bibl type="surrogate" subtype="copytext"><ref target="https://lb42.github.io/Lacy/Source/VPP/L1324-vpp.pdf">LoB from VPP</ref><ref target="local:Vol89/L1324/L1324-vpp.pdf"/><ref target="local:Vol89/L1324/Vol89ivNight.pdf"/></bibl>
+    <bibl type="surrogate"><ref target="https://babel.hathitrust.org/cgi/pt?id=mdp.39015067453418&amp;seq=146 ">UM from
       HT</ref><ref target="local:Vol89/L1324/L1324-um.pdf"/></bibl>
     <listEvent>
      <event type="firstPerf" when="1843-08-21" source="textNic" where="Strand">
@@ -49,7 +42,7 @@
   </fileDesc>
 
   <profileDesc>
-   <!--S 1 X Ba. BURLETTA-->
+   
    <textClass>
     <catRef target="#sizeS"/>
     <catRef target="#act1"/>
@@ -58,16 +51,13 @@
      <term>BURLETTA</term>
     </keywords>
    </textClass>
-   <particDesc>
-    <listPerson>
-     <person xml:id="L1324_F1">
-      <persName type="role">Clara</persName>
-      <persName type="spkr" n="1">Clara</persName>
-     </person>
-    </listPerson>
-   </particDesc>
+   <particDesc><listPerson>
+  <person xml:id="L1324_F1"><persName type="role">Clara</persName><persName type="spkr" n="1">Clara</persName>
+</person>
+
+</listPerson></particDesc>
   </profileDesc>
-  <revisionDesc>
+  <revisionDesc><change when="2026-04-03">Rewrite all particDescs</change>
    <change when="2026-03-02">Add wikidata link to titleStmt where possible</change>
    <change when="2026-02-03">Standardize header components</change>
    <change when="2026-02-01">TEI autotagging by Gemini Pro 2.5</change>

@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L1323" xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L1323" xml:lang="en">
  <teiHeader>
   <fileDesc>
    <titleStmt>
@@ -31,10 +30,8 @@
       <measure type="spWords" quantity="6424"/>
       <measure type="stWords" quantity="934"/>
      </extent>
-     <title level="s"> Lacy's Acting Edition, volume 89, No. 1323</title><idno type="nic"
-      >N15432</idno><idno type="vpp">Vol89iiiLost</idno></bibl>
-    <bibl type="surrogate" subtype="copytext"><ref
-      target="https://babel.hathitrust.org/cgi/pt?id=mdp.39015067453418&amp;seq=116 ">UM from
+     <title level="s"> Lacy's Acting Edition, volume 89, No. 1323</title><idno type="nic">N15432</idno><idno type="vpp">Vol89iiiLost</idno></bibl>
+    <bibl type="surrogate" subtype="copytext"><ref target="https://babel.hathitrust.org/cgi/pt?id=mdp.39015067453418&amp;seq=116 ">UM from
       HT</ref><ref target="local:Vol89/L1323/L1323-um.pdf"/></bibl>
     <listEvent>
      <event type="firstPerf" when="1870-06-27" source="text" where="Alexandra">
@@ -45,7 +42,7 @@
    </sourceDesc>
   </fileDesc>
   <profileDesc>
-   <!--S 1 OpereMusic Oa. OPERA-->
+   
    <textClass>
     <catRef target="#sizeS"/>
     <catRef target="#act1"/>
@@ -54,37 +51,35 @@
      <term>OPERA</term>
     </keywords>
    </textClass>
-   <particDesc>
-    <listPerson>
-     <person xml:id="L1323_M1">
-      <persName type="role">The Baron</persName>
-      <persName type="spkr" n="2">B.</persName>
-      <persName type="spkr" n="5">Baron</persName>
-      <persName type="spkr" n="81">Baron.</persName>
-     </person>
-     <person xml:id="L1323_M2">
-      <persName type="role">Leonard</persName>
-      <persName type="spkr" n="112">Leon.</persName>
-     </person>
-     <person xml:id="L1323_M3">
-      <persName type="role">Jean Pierre</persName>
-      <persName type="spkr" n="1">Jean Pierre.</persName>
-      <persName type="spkr" n="64">Jean.</persName>
-     </person>
-     <person xml:id="L1323_F4">
-      <persName type="role">Madelina</persName>
-      <persName type="spkr" n="2">M.</persName>
-      <persName type="spkr" n="95">Mad.</persName>
-     </person>
-     <person xml:id="L1323_mult">
-      <persName type="role">[Multiple speakers]</persName>
-      <persName type="spkr" n="1">All.</persName>
-      <persName type="spkr" n="1">Leon &amp; Mad.</persName>
-     </person>
-    </listPerson>
-   </particDesc>
+   <particDesc><listPerson>
+  <person xml:id="L1323_M1">
+   <persName type="role">The Baron</persName>
+   <persName type="spkr" n="2">B.</persName>
+   <persName type="spkr" n="5">Baron</persName>
+   <persName type="spkr" n="81">Baron.</persName>
+  </person>
+  <person xml:id="L1323_M2">
+   <persName type="role">Leonard</persName>
+   <persName type="spkr" n="112">Leon.</persName>
+  </person>
+  <person xml:id="L1323_M3">
+   <persName type="role">Jean Pierre</persName>
+   <persName type="spkr" n="1">Jean Pierre.</persName>
+   <persName type="spkr" n="64">Jean.</persName>
+  </person>
+  <person xml:id="L1323_F4">
+   <persName type="role">Madelina</persName>
+   <persName type="spkr" n="2">M.</persName>
+   <persName type="spkr" n="95">Mad.</persName>
+  </person>
+  <person xml:id="L1323_mult">
+   <persName type="role">[Multiple speakers]</persName>
+   <persName type="spkr" n="1">All.</persName>
+   <persName type="spkr" n="1">Leon &amp; Mad.</persName>
+  </person>
+ </listPerson></particDesc>
   </profileDesc>
-  <revisionDesc>
+  <revisionDesc><change when="2026-04-03">Rewrite all particDescs</change>
    <change when="2026-03-13">Add wikidata link to titleStmt where possible</change>
    <change when="2026-03-13">Hand edited and checked against UM copy</change>
    <change when="2026-03-12">TEI autotagging by Gemini Pro 2.5</change>

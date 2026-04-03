@@ -1,11 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L1499" xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L1499" xml:lang="en">
  <teiHeader>
   <fileDesc>
    <titleStmt>
     <title>A Husband in Clover: TEI edition</title>
-    <author ref="lacyp:W0207"><persName>Merivale, H.C.</persName><idno type="wikidata"
-      >Q5739629</idno></author>
+    <author ref="lacyp:W0207"><persName>Merivale, H.C.</persName><idno type="wikidata">Q5739629</idno></author>
     <respStmt>
      <resp>TEI conversion</resp>
      <name>Lou Burnard</name>
@@ -31,10 +29,8 @@
       <measure type="spWords" quantity="4124"/>
       <measure type="stWords" quantity="1409"/>
      </extent>
-     <title level="s"> Lacy's Acting Edition, volume 100, No. 1499</title><idno type="nic"
-      >N15765</idno></bibl>
-    <bibl type="surrogate" subtype="copytext"><ref
-      target="https://hdl.handle.net/2027/uiug.30112067297652">UIU from HT</ref></bibl>
+     <title level="s"> Lacy's Acting Edition, volume 100, No. 1499</title><idno type="nic">N15765</idno></bibl>
+    <bibl type="surrogate" subtype="copytext"><ref target="https://hdl.handle.net/2027/uiug.30112067297652">UIU from HT</ref></bibl>
     <listEvent>
      <event type="firstPerf" when="1873-12-26" source="textNic" where="Lyceum">
       <desc>Premiered at Royal Lyceum Theatre 26 Dec. 1873</desc>
@@ -45,7 +41,7 @@
 
 
   <profileDesc>
-   <!--S 1 Farce Ca. COMEDIETTA-->
+   
    <textClass>
     <catRef target="#sizeS"/>
     <catRef target="#act1"/>
@@ -54,21 +50,17 @@
      <term>COMEDIETTA</term>
     </keywords>
    </textClass>
-   <particDesc>
-    <listPerson>
-     <person xml:id="L1499_M1">
-      <persName type="role">Horace</persName>
-      <persName type="spkr" n="118">Horace.</persName>
-     </person>
-     <person xml:id="L1499_F2">
-      <persName type="role">Lydia</persName>
-      <persName type="spkr" n="118">Lydia.</persName>
-     </person>
+   <particDesc><listPerson>
+  <person xml:id="L1499_M1"><persName type="role">Horace</persName>
+   <persName type="spkr" n="118">Horace.</persName>
+</person>
+  <person xml:id="L1499_F2"><persName type="role">Lydia</persName>
+   <persName type="spkr" n="118">Lydia.</persName>
+</person>
 
-    </listPerson>
-   </particDesc>
+</listPerson></particDesc>
   </profileDesc>
-  <revisionDesc>
+  <revisionDesc><change when="2026-04-03">Rewrite all particDescs</change>
    <change when="2026-02-24">Add wikidata link to titleStmt where possible</change>
    <change when="2026-01-11">Standardize header components</change>
    <change when="2026-01-10">Metadata refreshed from catalogue and Partix folder</change>

@@ -1,11 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L1093" xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L1093" xml:lang="en">
  <teiHeader>
   <fileDesc>
    <titleStmt>
     <title>Incompatibility of Temper: TEI edition</title>
-    <author ref="lacyp:W0300"><persName>Suter, William E.</persName><idno type="wikidata"
-      >Q109412935</idno></author>
+    <author ref="lacyp:W0300"><persName>Suter, William E.</persName><idno type="wikidata">Q109412935</idno></author>
     <respStmt>
      <resp>TEI conversion</resp>
      <name>Lou Burnard</name>
@@ -31,10 +29,8 @@
       <measure type="spWords" quantity="3165"/>
       <measure type="stWords" quantity="333"/>
      </extent>
-     <title level="s"> Lacy's Acting Edition, volume 73, No. 1093</title><idno type="nic"
-      >N18834</idno></bibl>
-    <bibl type="surrogate" subtype="copytext"><ref
-      target="https://babel.hathitrust.org/cgi/pt?id=mdp.39015067453616&amp;seq=358 ">UM from
+     <title level="s"> Lacy's Acting Edition, volume 73, No. 1093</title><idno type="nic">N18834</idno></bibl>
+    <bibl type="surrogate" subtype="copytext"><ref target="https://babel.hathitrust.org/cgi/pt?id=mdp.39015067453616&amp;seq=358 ">UM from
       HT</ref><ref target="local:Vol73/L1093/L1093-um.pdf"/></bibl>
     <listEvent>
      <event type="firstPerf" source="text">
@@ -46,7 +42,7 @@
 
 
   <profileDesc>
-   <!--S 1 Farce F FARCE-->
+   
    <textClass>
     <catRef target="#sizeS"/>
     <catRef target="#act1"/>
@@ -55,28 +51,26 @@
      <term>FARCE</term>
     </keywords>
    </textClass>
-   <particDesc>
-    <listPerson>
-     <person xml:id="L1093_M1">
-      <persName type="role">MR. WORRITT</persName>
-      <persName type="spkr" n="85">Mr. W.</persName>
-     </person>
-     <person xml:id="L1093_F2">
-      <persName type="role">MRS. WORRITT</persName>
-      <persName type="spkr" n="81">Mrs. W.</persName>
-     </person>
-     <person xml:id="L1093_F3">
-      <persName type="role">SELINA SWEETNER</persName>
-      <persName type="spkr" n="47">Selina.</persName>
-     </person>
-     <person xml:id="L1093_mult">
-      <persName type="role">[Multiple speakers]</persName>
-      <persName type="spkr" n="2">Mr. W. | Mrs. W.</persName>
-     </person>
-    </listPerson>
-   </particDesc>
+   <particDesc><listPerson>
+  <person xml:id="L1093_M1">
+   <persName type="role">Mr. Worritt</persName>
+   <persName type="spkr" n="85">Mr. W.</persName>
+  </person>
+  <person xml:id="L1093_F2">
+   <persName type="role">Mrs. Worritt</persName>
+   <persName type="spkr" n="81">Mrs. W.</persName>
+  </person>
+  <person xml:id="L1093_F3">
+   <persName type="role">Selina Sweetner</persName>
+   <persName type="spkr" n="47">Selina.</persName>
+  </person>
+  <person xml:id="L1093_mult">
+   <persName type="role">[Multiple speakers]</persName>
+   <persName type="spkr" n="2">Mr. W. | Mrs. W.</persName>
+  </person>
+</listPerson></particDesc>
   </profileDesc>
-  <revisionDesc>
+  <revisionDesc><change when="2026-04-03">Rewrite all particDescs</change>
    <change when="2026-03-02">Add wikidata link to titleStmt where possible</change>
    <change when="2026-01-11">Standardize header components</change>
    <change when="2026-01-10">Metadata refreshed from catalogue and Partix folder</change>
