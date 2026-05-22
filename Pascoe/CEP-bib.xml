@@ -1,19 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_basic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_basic.rng" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
  <teiHeader>
   <fileDesc>
    <titleStmt>
     <title>Charles Eyre Pascoe: a bibliography</title>
-    <respStmt><resp>Compiled by </resp><name>Lou Burnard</name></respStmt></titleStmt>
+    <respStmt>
+     <resp>Compiled by </resp>
+     <name>Lou Burnard</name>
+    </respStmt>
+   </titleStmt>
    <publicationStmt>
     <p>Unpublished draft</p>
    </publicationStmt>
    <sourceDesc>
-    <p>Derived from online catalogues of the Hathi Trust and the Bodleian Library.</p>
+    <p>Derived from online catalogues of Hathi Trust, the Bodleian Library, the British Library, and the Library Hub</p>
    </sourceDesc>
   </fileDesc>
   <revisionDesc>
@@ -22,291 +23,332 @@
  </teiHeader>
  <text>
   <body>
-   <p>This short bibliography lists in publication date order printed works attributed to Pascoe now available online. Some of these titles are effectively serials, reappearing annually with some modification but essentially the same content. The list does not include all such re-issues, but just those which are readily available online. The links given are mostly to the Hathi Trust catalogue. </p><p>Please raise an issue on the Github repository if you identify any errors or ommissions. </p>
-   
-<listBibl xmlns="http://www.tei-c.org/ns/1.0">
- <bibl><date>1874</date><title>The prohibitory law of Massachusetts versus the licensing law of
-   England : with an account of the latter / by Charles E. Pascoe</title><publisher>Massachusetts:
-   Press of Rockwell &amp; Churchill, 1874</publisher><ref
-   target="https://hdl.handle.net/2027/hvd.hwh1zw">prohibitoryLaw_1874</ref>
+   <p>This short bibliography lists in order of publication date most printed works attributed to
+    Pascoe which are now available online. Some of these titles are effectively serials, reappearing
+    annually with some modification but essentially the same content. The list does not include all
+    such re-issues. Download links are included where possible. Where a title is not available
+    online, I have indicated its shelf mark in the British Library, or a link to its entry in the
+    Bodleian catalogue. </p>
 
- </bibl>
- <bibl><date>1874</date><title>A London directory for American travellers for 1874. Containing the
-   fullest information, in the best form for reference, respecting all that is valuable in
-   connection with a visit to London. With an appendix. By Charles E.
-   Pascoe</title><publisher>Massachusetts: Lee and Shepard; Lee, Shepard, and Dillingham,
-   1874</publisher><ref target="https://hdl.handle.net/2027/hvd.hn3b4s">londonGuide_1874</ref>
- </bibl>
- <bibl><date>1877</date><title>A practical handbook to the principal schools of England, based for
-   the most part on the statutes, schemes, and regulations made under the Public Schools' Acts by
-   the Public Schools Commissioners; ... A handy guide for the use of parents, guardians, and others
-   interested in the education of boys.</title><publisher>Samposon Low, Marston, Searle &amp;
-   Rivington</publisher><ref target="https://books.google.com/books?id=cbpSjN5Sfo4C"
-   >practicalHbkSchools_1877</ref>
-  <!--http://purl.ox.ac.uk/uuid/7a6efa166b484c74a4c6ffe746f57f09--></bibl>
- <bibl><date>1877</date><title>The illustrated handbook to the supplementary art galleries of London
-   : spring exhibitions, 1877 </title><publisher>London : Hardwicke and Bogue</publisher><ref
-   target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/7dk4e1/alma990152007990107026"
-   >illusGalleries_1877</ref></bibl>
- <bibl><date>1878</date><title>A practical handbook to the principal professions : compiled from
-   authentic sources, and based on the most recent regulations concerning admission to the Navy,
-   Army, and Civil Services (Home and Indian), the legal and medical professions, the professions of
-   a civil engineer, architect, and artist, and the mercantile marine / by Charles Eyre
-   Pascoe</title><publisher>England: Hardwicke and Bogue, 1878</publisher><ref
-   target="https://hdl.handle.net/2027/coo1.ark:/13960/t3dz0t90z">practicalHbkProfessions_1878</ref>
-  <!--  target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/1tvub46/cdi_hathitrust_hathifiles_coo1_ark_13960_t3dz0t90z"
--->
- </bibl>
- <bibl><date>1879</date><title>Schools for girls and colleges for women : a handbook of female
-   education chiefly designed for the use of persons of the upper middle class : together with some
-   chapters on the higher employment of women </title><publisher>London : Hardwicke and
-   Bogue</publisher><ref
-   target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/7dk4e1/alma991026915540107026"
-   >schoolsForGirls_1879</ref></bibl>
- <bibl><date>1879</date><title>Dramatic notes : an illustrated handbook of the London theatres 1879
-   </title><publisher>London: David Bogue: 3, St. Martin's Place, Trafalgar
-   Square.</publisher><ref target="https://hdl.handle.net/2027/uc1.$b429270"
-   >dramaticNotes_1879</ref>
-  <!-- target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/7dk4e1/alma990234343420107026"
-  Bodleian closed stack</bibl>--></bibl>
+   <p>Please raise an issue on the Github repository if you spot any errors or omissions. </p>
 
- <bibl><date>1879</date><title>The dramatic list; a record of the principal performances of living
-   actors and actresses of the British stage. With criticisms from contemporary journals. Comp. and
-   ed. by Charles Eyre Pascoe</title><publisher>London: Hardwicke and Bogue, 1879</publisher><ref
-   target="https://hdl.handle.net/2027/uc1.32106001685715">theDramaticList_1879</ref>
-  <!-- target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/1tvub46/cdi_hathitrust_hathifiles_uc2_ark_13960_t7fq9tv0j"
-   <ref
-    target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/1tvub46/cdi_hathitrust_hathifiles_uc1_32106001685715"
-   /><ref
-    target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/7dk4e1/alma990143245330107026"
-   />-->
- </bibl>
- <bibl><date>1880</date><title>The dramatic list : a record of the performances of living
-   actors and actresses of the British stage. Edited by Charles Eyre Pascoe. Second edition, revised and enlarged.</title><publisher>London: David Bogue, 1880</publisher>
-  <ref target="https://hdl.handle.net/2027/mdp.39015091112881">theDramaticList_1880</ref>
-  <!--    target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/1tvub46/cdi_hathitrust_hathifiles_mdp_39015091112881"
-    >https://hdl.handle.net/2027/mdp.39015091112881</ref><ref
-    target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/1tvub46/cdi_hathitrust_hathifiles_coo1_ark_13960_t5v700x0f"
-   /><ref
-    target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/1tvub46/cdi_hathitrust_hathifiles_umn_319510024557620"
-   />-->
- </bibl>
+   <div>
+    <head>Published reference works and guides available online</head>
+    <listBibl>
+     <bibl><date>1874</date><title>The prohibitory law of Massachusetts versus the licensing law of
+       England : with an account of the latter / by Charles E. Pascoe</title><publisher>Boston:
+       Press of Rockwell &amp; Churchill, 1874</publisher><ref
+       target="https://hdl.handle.net/2027/hvd.hwh1zw">prohibitoryLaw_1874</ref>
+     </bibl>
+     <bibl><date>1874</date><title>A London directory for American travellers for 1874. Containing
+       the fullest information, in the best form for reference, respecting all that is valuable in
+       connection with a visit to London. With an appendix. By Charles E. Pascoe</title><publisher>
+       Boston: Lee and Shepard; Lee, Shepard, and Dillingham, 1874</publisher><ref
+       target="https://hdl.handle.net/2027/hvd.hn3b4s">londonGuide_1874</ref>
+     </bibl>
+     <bibl><date>1877</date><title>A practical handbook to the principal schools of England, based
+       for the most part on the statutes, schemes, and regulations made under the Public Schools'
+       Acts by the Public Schools Commissioners; ... A handy guide for the use of parents,
+       guardians, and others interested in the education of boys.</title><publisher>London: Sampson
+       Low, Marston, Searle &amp; Rivington</publisher><ref
+       target="https://books.google.com/books?id=cbpSjN5Sfo4C">practicalHbkSchools_1877</ref>
+     </bibl>
+     <bibl><date>1877</date><title>The illustrated handbook to the supplementary art galleries of
+       London : spring exhibitions, 1877 </title><publisher>London : Hardwicke and
+       Bogue</publisher><ref target="https://books.google.co.uk/books?id=duhk8wlh6f4C"
+       >illusGalleries_1877</ref></bibl>
+     <bibl><date>1878</date><title>A practical handbook to the principal professions : compiled from
+       authentic sources, and based on the most recent regulations concerning admission to the Navy,
+       Army, and Civil Services (Home and Indian), the legal and medical professions, the
+       professions of a civil engineer, architect, and artist, and the mercantile marine / by
+       Charles Eyre Pascoe</title><publisher>England: Hardwicke and Bogue, 1878</publisher><ref
+       target="https://hdl.handle.net/2027/coo1.ark:/13960/t3dz0t90z"
+       >practicalHbkProfessions_1878</ref>
+     </bibl>
+     <bibl><date>1879</date><title>Schools for girls and colleges for women : a handbook of female
+       education chiefly designed for the use of persons of the upper middle class : together with
+       some chapters on the higher employment of women </title><publisher>London : Hardwicke and
+       Bogue</publisher><ref
+       target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/7dk4e1/alma991026915540107026"
+       >schoolsForGirls_1879</ref>; <ref target="https://doi.org/10.1017/CBO9781107338159">CUP
+       reprint</ref></bibl>
+     <bibl><date>1879</date><title>Dramatic notes : an illustrated handbook of the London theatres
+       1879 </title><publisher>London: David Bogue: 3, St. Martin's Place, Trafalgar
+       Square.</publisher><ref target="https://hdl.handle.net/2027/uc1.$b429270"
+       >dramaticNotes_1879</ref>
+     </bibl>
 
- <bibl><date>1881</date><title>Everyday Life in our Public Schools. Sketched by head-scholars ... to
-   which is added ... with a glossary of some words... Edited by Charles Eyre Pascoe. New and
-   revised edition with 24 illustrations.</title><publisher>Griffith &amp; Farran </publisher><ref
-   target="https://hdl.handle.net/2027/uc1.31158007107856">everydayLife_1881</ref></bibl>
+     <bibl><date>1879</date><title>The dramatic list; a record of the principal performances of
+       living actors and actresses of the British stage. With criticisms from contemporary journals.
+       Comp. and ed. by Charles Eyre Pascoe</title><publisher>London: Hardwicke and Bogue,
+       1879</publisher><ref target="https://hdl.handle.net/2027/uc1.32106001685715"
+       >theDramaticList_1879</ref>
+     </bibl>
+     <bibl><date>1880</date><title>The dramatic list : a record of the performances of living actors
+       and actresses of the British stage. Edited by Charles Eyre Pascoe. Second edition, revised
+       and enlarged.</title><publisher>London: David Bogue, 1880</publisher>
+      <ref target="https://hdl.handle.net/2027/mdp.39015091112881">theDramaticList_1880</ref>
+     </bibl>
 
- <bibl><date>1884</date><title>Where shall I educate my son? A manual for parents of moderate means
-   / By Charles Eyre Pascoe</title><publisher>England: Houlston and sons, 1884</publisher>
-  <ref target="https://hdl.handle.net/2027/mdp.39015062727741">whereShall_1884</ref>
-  <!--  target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/1tvub46/cdi_hathitrust_hathifiles_mdp_39015062727741"
--->
- </bibl>
- <bibl><date>1885</date><title>London of to-day : an illustrated handbook for the
-   season</title><publisher>Boston: Roberts Brothers</publisher>
-  <ref target="https://hdl.handle.net/2027/nyp.33433071387207">londonToday_1885</ref>
-  <!-- londonToday_1885_SL.pdf is Bodleian copy with imprint of 
+     <bibl><date>1881</date><title>Everyday Life in our Public Schools. Sketched by head-scholars
+       ... to which is added ... with a glossary of some words... Edited by Charles Eyre Pascoe. New
+       and revised edition with 24 illustrations.</title><publisher>Griffith &amp; Farran
+       </publisher><ref target="https://hdl.handle.net/2027/uc1.31158007107856"
+       >everydayLife_1881</ref></bibl>
+
+     <bibl><date>1884</date><title>Where shall I educate my son? A manual for parents of moderate
+       means / By Charles Eyre Pascoe</title><publisher>London: Houlston and sons, 1884</publisher>
+      <ref target="https://hdl.handle.net/2027/mdp.39015062727741">whereShall_1884</ref>
+     </bibl>
+     <bibl><date>1885</date><title>London of to-day : an illustrated handbook for the
+       season</title><publisher>Boston: Roberts Brothers</publisher>
+      <ref target="https://hdl.handle.net/2027/nyp.33433071387207">londonToday_1885</ref>
+      <!-- londonToday_1885_SL.pdf is Bodleian copy of same work with imprint of 
    Sampson Low, Marston, Searle, & Ribington -->
- </bibl>
+     </bibl>
 
- <bibl><date>1886</date><title>London of to-day : an illustrated handbook for the season.. Second
-   Year of Publication, and Third Edition</title>
-  <publisher>London: Sampson, Low, Marston, Searle &amp; Rivington, 1886</publisher>
-  <ref target="http://purl.ox.ac.uk/uuid/7c47adf21c9744938dbf48fccfa8dbcc"
-  >londonToday_1886</ref></bibl>
- <bibl><date>1887</date><title>The joyous neighbourhood of Covent Garden : a literary souvenir of
-   the Tavistock Hotel, done in celebration of its hundredth anniversary / by Charles Eyre Pascoe.
-   The illus. contributed by John Jellicoe</title><publisher>England: Chiswick Press,
-   1887</publisher><ref target="https://hdl.handle.net/2027/nnc1.1000419826"
-   >joyousNeighbourhood_1887</ref>
-  <!--  target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/1tvub46/cdi_hathitrust_hathifiles_nnc1_1000419826"
--->
- </bibl>
- <bibl><date>1888</date><title>London of to-day; an illustrated handbook for the season... The
-   Fourth Annual Edition, completely revised, with numerous additional illustrations</title>
-  <publisher>Boston: Roberts Brothers.</publisher>
-  <ref target="https://hdl.handle.net/2027/hvd.32044020618609">londonToday_1888</ref>
-  <!--   target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/1tvub46/cdi_hathitrust_hathifiles_hvd_32044020618609"
--->
- </bibl>
- <bibl><date>1889</date><title>London of to-day; an illustrated handbook for the season 1889... The
-   Fifth Annual Edition, with numerous additional illustrations</title>
-  <publisher>Boston: Roberts Brothers.</publisher>
-  <ref target="https://hdl.handle.net/2027/uiug.30112098057190"/>
-  <!-- so title page: but catalogued as 1887 Sampson Low publication 
-   target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/1tvub46/cdi_hathitrust_hathifiles_uiug_30112098057190"
-  
-  <ref
-    target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/1tvub46/cdi_hathitrust_hathifiles_hvd_32044020618609"
-   />
-   -->
- </bibl>
+     <bibl><date>1886</date><title>London of to-day : an illustrated handbook for the season..
+       Second Year of Publication, and Third Edition</title>
+      <publisher>London: Sampson, Low, Marston, Searle &amp; Rivington, 1886</publisher>
+      <ref target="http://purl.ox.ac.uk/uuid/7c47adf21c9744938dbf48fccfa8dbcc"
+       >londonToday_1886</ref></bibl>
 
- <bibl><date>1889</date><title>Brighton of to-day : an illustrated book for all seasons, but more
-   particularly those of 1889 / by Charles Eyre Pascoe</title><publisher>England: Hamilton, Adams
-   &amp; Co., 1889</publisher><ref target="https://hdl.handle.net/2027/oxu1.604139568"
-   >brightonToday_1889</ref>
-  <!--   target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/1tvub46/cdi_hathitrust_hathifiles_oxu1_604139568"-->
-  <!-- 128 pp, many adverts -->
- </bibl>
+     <bibl><date>1887</date><title>"The joyous neighbourhood of Covent Garden" : a literary souvenir
+       of the Tavistock Hotel, done in celebration of its hundredth anniversary / by Charles Eyre
+       Pascoe. The illus. contributed by John Jellicoe</title><publisher>London: Chiswick Press,
+       1887</publisher><ref target="https://hdl.handle.net/2027/nnc1.1000419826"
+       >joyousNeighbourhood_1887</ref>
+     </bibl>
 
- <bibl><date>1889</date><title>Everyday life in our public schools : sketched by head-scholars of
-   Eton, Winchester, Westminster, Shrewsbury, Harrow, Rugby, Charterhouse. To which is added a brief
-   notice of St. Paul's and Merchant Taylors' schools, and Christ's hospital ; with a glossary of
-   some words in common use in those schools / edited by Charles Eyre Pascoe; with 24
-   illustrations</title><publisher>England: Griffith and Farran ; E.P. Dutton,
-   [188-?]</publisher><ref target="https://hdl.handle.net/2027/uc1.31158007107856"
-   >everydayLife_1881</ref>
-  <!-- target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/1tvub46/cdi_hathitrust_hathifiles_uc1_31158007107856"
-   <ref
-    target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/7dk4e1/alma990205550430107026"
-   />
---></bibl>
+     <bibl><date>1888</date><title>London of to-day; an illustrated handbook for the season... The
+       Fourth Annual Edition, completely revised, with numerous additional illustrations</title>
+      <publisher>Boston: Roberts Brothers.</publisher>
+      <ref target="https://hdl.handle.net/2027/hvd.32044020618609">londonToday_1888</ref>
+     </bibl>
+     <bibl><date>1889</date><title>London of to-day; an illustrated handbook for the season 1889...
+       The Fifth Annual Edition, with numerous additional illustrations</title>
+      <publisher>Boston: Roberts Brothers.</publisher>
+      <ref target="https://hdl.handle.net/2027/uiug.30112098057190"/>londonToday_1889</bibl>
+     <!-- wrongly catalogued as 1887 in HathiTrust -->
+
+     <bibl><date>1889</date><title>Brighton of to-day : an illustrated book for all seasons, but
+       more particularly those of 1889 / by Charles Eyre Pascoe</title><publisher>London: Hamilton,
+       Adams &amp; Co., 1889</publisher><ref target="https://hdl.handle.net/2027/oxu1.604139568"
+       >brightonToday_1889</ref>
+     </bibl>
+
+     <bibl><date>1889</date><title>Everyday life in our public schools : sketched by head-scholars
+       of Eton, Winchester, Westminster, Shrewsbury, Harrow, Rugby, Charterhouse. To which is added
+       a brief notice of St. Paul's and Merchant Taylors' schools, and Christ's hospital ; with a
+       glossary of some words in common use in those schools / edited by Charles Eyre Pascoe; with
+       24 illustrations</title><publisher>London: Griffith and Farran ; E.P. Dutton,
+       [188-?]</publisher><ref target="https://hdl.handle.net/2027/uc1.31158007107856"
+       >everydayLife_1881</ref>
+     </bibl>
 
 
- <bibl><date>1890</date><title>London of to-day. An illustrated handbook for the season
-   1890</title><publisher>England: Simpkin, Marshall, Hamilton, Kent, &amp; Co., Ld.,
-   1890</publisher><ref
-   target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/1tvub46/cdi_hathitrust_hathifiles_nnc1_0043691099"
-  /></bibl>
+     <bibl><date>1890</date><title>London of to-day. An illustrated handbook for the season 1890...
+       The sixth Annual Edition, revised and in part rewritten, and comprising numerous additional
+       illustrations.</title>
+      <publisher>London: Simpkin, Marshall, Hamilton, Kent, &amp; Co., Ld., and all booksellers.
+       1890</publisher><ref target="https://hdl.handle.net/2027/nnc1.0043691099"
+       >londonToday_1890</ref>
+     </bibl>
 
 
- <bibl><date>[1891]</date><title>Eastbourne, Hastings, and St. Leonard's : a pocket-book of local
-   information for visitors </title><publisher>London : Hazell, Watson and Viney</publisher><ref
-   target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/7dk4e1/alma990143216050107026"
-   >Bodleian offsite storage</ref></bibl>
 
- <bibl><date>1891</date><title>London of to-day</title><publisher>Massachusetts: Roberts brothers,
-   1891</publisher><ref
-   target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/1tvub46/cdi_hathitrust_hathifiles_uc1_31970003956163"
-  /></bibl>
+     <bibl><date>1891</date><title>London of to-day an illustrated handbook for the season 1891...
+       The Seventh Annual Edition, revised and in part rewritten, and comprising numerous additional
+       illustrations.</title>
+      <publisher>London: Simpkin, Marshall, Hamilton, Kent, &amp; Co., Ld., and all booksellers.
+       1891</publisher>
+      <!-- so title page. Hathi records say publisher is Boston: Roberts-->
+      <ref target="https://hdl.handle.net/2027/uc1.31970003956163">londonToday1891</ref>
+     </bibl>
 
- <bibl><date>1891</date><title>Brighton; a pocket-book of local information for visitors.
-   Illustrated by Holland Tringham and W. Luker, jun</title><publisher>England: Hazell, Watson, and
-   Viney </publisher><ref target="https://hdl.handle.net/2027/oxu1.604250689"
-   >brightonPocket_1891</ref>
-  <!--target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/1tvub46/cdi_hathitrust_hathifiles_hvd_hn3b5s"
-   <ref
-    target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/1tvub46/cdi_hathitrust_hathifiles_oxu1_604250689"
-   />
-    target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/7dk4e1/alma990143244150107026"
-   -->
-  <!-- 80 pp -->
- </bibl>
- <bibl><date>1891</date><title>The American roads through England. Special ed. for use of visitors
-   at the Adelphi hotel, Liverpool</title><publisher>England</publisher>
-  <ref target="https://hdl.handle.net/2027/oxu1.604253580">americanRoadSpecial_1891</ref>
-  <!--   target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/1tvub46/cdi_hathitrust_hathifiles_oxu1_604253580"
--->
- </bibl>
- <bibl><date>1891</date><title>The American roads through England; a pocket-book of matter-of-fact
-   information. Compiled for the use of American travellers</title><publisher>England: Hazell,
-   Watson, and Viney, Ld.</publisher>
-  <ref target="https://hdl.handle.net/2027/hvd.32044024495145">americanRoads_1891</ref>
-  <!--   target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/1tvub46/cdi_hathitrust_hathifiles_hvd_32044024495145"
--->
- </bibl>
- <bibl><date>1891</date><title>The roads to Paris, from
-   London</title><publisher>England</publisher><ref
-   target="https://hdl.handle.net/2027/oxu1.602378084">roadstoParis_1891</ref>
-  <!-- target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/1tvub46/cdi_hathitrust_hathifiles_oxu1_602378084"
--->
- </bibl>
- <bibl><date>1892</date><title>London of today: an illustrated handbook for the season, 1892...
-   Eighth Annual Edition</title><publisher>England: Simpkin, 1892</publisher>
-  <ref target="https://hdl.handle.net/2027/nyp.33433066656111">londonToday_1892</ref>
-  <!--   target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/1tvub46/cdi_hathitrust_hathifiles_nyp_33433066656111"
--->
- </bibl>
- <bibl><date>1893</date><title>London of To-day. An illustrated handbook for the season,
-   1893</title><publisher>Massachusetts: Roberts Bros. 1893</publisher><ref
-   target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/1tvub46/cdi_hathitrust_hathifiles_msu_31293107610929"
-  /></bibl>
- <bibl><date>1893</date><title>An illustrated souvenir of Victoria House, the head-quarters of the
-   Royal commission for Great Britain at the World's Columbian exposition, Chicago,
-   1893</title><publisher>England</publisher><ref
-   target="https://hdl.handle.net/2027/mdp.39015063934189">victoriaHouse_1893</ref>
-  <!-- target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/1tvub46/cdi_hathitrust_hathifiles_mdp_39015063934189"
--->
- </bibl>
- <bibl><date>1893</date><title>London's world's fair for 1893</title><publisher>England:
-   1893</publisher><ref target="https://hdl.handle.net/2027/oxu1.605460636">londonsWorlds_1893</ref>
-  <!-- target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/1tvub46/cdi_hathitrust_hathifiles_oxu1_605460636"-->
- </bibl>
- <!--<bibl><date>1897</date><title>London of to-day. An illustrated handbook for the season
-   1897. </title><publisher>England: Bemrose &amp; sons, ltd.</publisher></bibl>
- 
--->
- <bibl><date>1897</date><title>London of today; an illustrated handbook for the season 1897. The
-   Thirteenth Yearly Edition.</title><publisher>England: Bemrose</publisher>
-  <ref target="https://hdl.handle.net/2027/nyp.33433069355695">londonToday_1897</ref>
-  <!--   target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/1tvub46/cdi_hathitrust_hathifiles_nyp_33433069355695"
-  <ref
-    target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/1tvub46/cdi_hathitrust_hathifiles_hvd_hn6hsf"
-   />
-   -->
- </bibl>
- <bibl><date>1898</date><title>Descriptive and pictorial account of Cromer, Sheringham, Mundesley,
-   and the Broads </title><publisher>London : "London of To-day"</publisher><ref
-   target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/7dk4e1/alma990137501410107026"
-   >Bodleian closed stack</ref><!-- 16 pp --></bibl>
- <bibl><date>1898</date><title>Descriptive and pictorial account of Scarborough, Whitby, Filey and
-   Bridlington </title><publisher>London : "London of To-day"</publisher><ref
-   target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/7dk4e1/alma990135709200107026"
-   >Bodleian closed stack</ref></bibl>
+     <bibl><date>1891</date><title>Brighton; a pocket-book of local information for visitors.
+       Illustrated by Holland Tringham and W. Luker, jun</title><publisher>London: Hazell, Watson,
+       and Viney </publisher><ref target="https://hdl.handle.net/2027/oxu1.604250689"
+       >brightonPocket_1891</ref>
+     </bibl>
+     <bibl><date>1891</date><title>The American roads through England: An Illustrated Pocket-book of
+       Matter-of-fact Information; ... (Special Edition for use of visitors at the Adelphi hotel,
+       Liverpool) </title><publisher>England: Hazell, Watson, and Viney, Ld.</publisher>
+      <ref target="https://hdl.handle.net/2027/oxu1.604253580">americanRoadSpecial_1891</ref>
+     </bibl>
+     <bibl><date>1891</date><title>The American roads through England; a pocket-book of
+       matter-of-fact information. Compiled for the use of American
+       travellers</title><publisher>England: Hazell, Watson, and Viney, Ld.</publisher>
+      <ref target="https://hdl.handle.net/2027/hvd.32044024495145">americanRoads_1891</ref>
+     </bibl>
+     <bibl><date>1891</date><title>The roads to Paris, from London: A Pocket-book for those who are
+       unfamiliar with them. Compiled by Charles Eyre Pascoe. Illustrated by H.
+       Tringham.</title><publisher>London: Hazell, Watson, and Viney, Ld.</publisher><ref
+       target="https://hdl.handle.net/2027/oxu1.602378084">roadstoParis_1891</ref>
+     </bibl>
+     <bibl><date>1892</date><title>London of today: an illustrated handbook for the season, 1892...
+       The Eighth Annual Edition, revised and in large part re-written, and comprising additional
+       Illustrations.</title><publisher>London: Simpkin, Marshall, Hamilton, Kent, &amp; Co., Ld.,
+       and all booksellers 1892</publisher>
+      <ref target="https://hdl.handle.net/2027/nyp.33433066656111">londonToday_1892</ref>
+     </bibl>
+     <bibl><date>1893</date><title>London of To-day. An illustrated handbook for the season, 1893...
+       The Ninth Annual Edition, revised and in large part re-written, and comprising additional
+       Illustrations.</title><publisher>Boston: Roberts Brothers. 1893</publisher><ref
+       target="https://hdl.handle.net/2027/msu.31293107610929">londonToday_1893</ref>
+     </bibl>
+     <bibl><date>1893</date><title>An illustrated souvenir of Victoria House, the head-quarters of
+       the Royal commission for Great Britain at the World's Columbian exposition, Chicago,
+       1893</title><publisher>England</publisher><ref
+       target="https://hdl.handle.net/2027/mdp.39015063934189">victoriaHouse_1893</ref>` </bibl>
+     <bibl><date>1893</date><title>London's world's fair for 1893 and Great Social, Politgical, and
+       Moral Expososition. The Spirit of the Age at a glance. Explained by Charles Eyre Pascoe and
+       Illustrated by Fred. Pegram</title><publisher>London: Samspon Low, Marston &amp; Company
+       Limited. </publisher><ref target="https://hdl.handle.net/2027/oxu1.605460636"
+       >londonsWorlds_1893</ref>
+     </bibl>
 
- <bibl><date>1902</date><title>London of today, handbook for the season 1902 / by Charles Eyre
-   Pascoe</title><publisher>London : Simpkin, Marshall, Hamilton, Adams, Kent,
-   [1902?]</publisher><ref target="https://hdl.handle.net/2027/uc2.ark:/13960/t9h41xj7d"
-   >londonToday_1902</ref>
-  <!--  target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/1tvub46/cdi_hathitrust_hathifiles_uc2_ark_13960_t9h41xj7d"
--->
- </bibl>
+     <bibl><date>1897</date><title>The London Season. The monthly edition of “London of To-Day.” NS.
+       vol. 3. no. 25-27. May-July 1897.</title><ref>BL P.P.2496.r.</ref></bibl>
 
- <bibl><date>1902</date><title>The pageant &amp; ceremony of the coronation of Their Majesties King
-   Edward the Seventh and Queen Alexandra, by Charles Eyre Pascoe</title><publisher>New York
-   (State): D. Appleton &amp; company, 1902</publisher><ref
-   target="https://hdl.handle.net/2027/yale.39002001749234">pageantCeremony_1902</ref>
-  <!--   target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/1tvub46/cdi_hathitrust_hathifiles_yale_39002001749234"-->
- </bibl>
+     <bibl><date>1897</date><title>London of To-day; an illustrated handbook for the season 1897.
+       The Thirteenth Yearly Edition.Shilling souvenir edition, sixtieth year of the Queen's Reign.
+       </title><publisher>London: Bemrose &amp; sons Limited... and at the Office of "Lonmdon of
+       To-Day," Hastings House, Norfolk Street, Strand, W.C.</publisher>
+      <ref target="https://hdl.handle.net/2027/nyp.33433069355695">londonToday_1897</ref>
+     </bibl>
 
- <bibl><date>1906</date><title>[Application to Royal Literary Fund] Charles Eyre Pascoe B 1842</title><ref
-   target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/1tvub46/cdi_gale_digitalcollections_AHHXKK910557078"
-  /></bibl>
 
- <bibl><date>1908</date>
-  <title>No. 10, Downing Street, Whitehall: its history and associations ... The illustrations in
-   colour, and other sketches, by Charles E. Flower, etc.</title>
-  <publisher>Duckworth &amp; Co </publisher>
-  <ref target="https://archive.org/details/nodowningstreet02pascgoog">tenDowning_1908</ref>
- </bibl>
+     <bibl><date>1902</date><title>London of today, handbook for the season 1902 / by Charles Eyre
+       Pascoe [17th edition]</title><publisher>London : Simpkin, Marshall, Hamilton, Adams, Kent
+       &amp; Co., Ltd. Paternoster Row, E.C.</publisher><ref
+       target="https://hdl.handle.net/2027/uc2.ark:/13960/t9h41xj7d">londonToday_1902</ref>
+     </bibl>
 
- <bibl><date>1909</date><title>The Chambers of commerce year-book, ed. by C.E.
-   Pascoe.</title><publisher>York; Vol. 1.</publisher><ref
-   target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/7dk4e1/alma990140552360107026"
-   >Bodleian offsite storage</ref></bibl>
+     <bibl><date>1902</date><title>The pageant &amp; ceremony of the coronation of Their Majesties
+       King Edward the Seventh and Queen Alexandra, by Charles Eyre Pascoe</title><publisher>New
+       York (State): D. Appleton &amp; company, 1902</publisher><ref
+       target="https://hdl.handle.net/2027/yale.39002001749234">pageantCeremony_1902</ref>
+     </bibl>
+     <bibl><date>1908</date>
+      <title>No. 10, Downing Street, Whitehall: its history and associations ... The illustrations
+       in colour, and other sketches, by Charles E. Flower. A Memory of Great NMames and an
+       Inheritance of Great Examples.</title>
+      <publisher>London: Duckworth &amp; Co </publisher>
+      <ref target="https://archive.org/details/nodowningstreet02pascgoog">tenDowning_1908</ref>
+     </bibl>
 
- <bibl><date>1909</date><title>York historic pageant : souvenir</title><publisher>England: Ben
-   Johnson, 1909</publisher><ref target="https://hdl.handle.net/2027/mdp.39015073249222"
-   >yorkPageant_1909</ref>
-  <!--
-   target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/1tvub46/cdi_hathitrust_hathifiles_mdp_39015073249222"
--->
- </bibl>
- <bibl><date>1911</date>
-  <title>The portrait book of our kings and queens, 1066-1911. Done in commemoration of the
-   coronation of their Majesties King George V and Queen Mary. With supplementary notes on the
-   ceremony. Edited by T. Leman Hare. The Historical and coronation Notes by Charles Eyre
-   Pascoe</title>
-  <publisher>London and Edinburgh: T.C. &amp; E.C. Jack </publisher>
-  <ref target="https://archive.org/details/31383025675458">portraitBk_1911.pdf</ref></bibl>
 
- <bibl><date>[1912]</date><title>Lovely May and leafy June : a seasonable suggestion: to many
-   thousands of admirers of merrie England </title><publisher>(London and Tunbridge Wells) :
-   Photochrom. Co. Ltd.</publisher><ref
-   target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/7dk4e1/alma990143215130107026"
-   >Bodleian offsite storage</ref></bibl>
+     <bibl><date>1909</date><title>York historic pageant : souvenir</title><publisher>England: Ben
+       Johnson, 1909</publisher><ref target="https://hdl.handle.net/2027/mdp.39015073249222"
+       >yorkPageant_1909</ref>
+     </bibl>
+     <bibl><date>1911</date>
+      <title>The portrait book of our kings and queens, 1066-1911. Done in commemoration of the
+       coronation of their Majesties King George V and Queen Mary. With supplementary notes on the
+       ceremony. Edited by T. Leman Hare. The Historical and coronation Notes by Charles Eyre
+       Pascoe</title>
+      <publisher>London and Edinburgh: T.C. &amp; E.C. Jack </publisher>
+      <ref target="https://archive.org/details/31383025675458">portraitBk_1911.pdf</ref></bibl>
 
-</listBibl>
-  </body></text></TEI>
+
+    </listBibl>
+   </div>
+
+   <div>
+    <head>Pocket Guides and pamphlets not available online</head>
+    <bibl><date>[1891]</date><title>Eastbourne, Hastings, and St. Leonard's : a pocket-book of local
+      information for visitors </title><publisher>London : Hazell, Watson and Viney</publisher><ref
+      target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/7dk4e1/alma990143216050107026"
+      >Bodleian offsite storage</ref><ref>BL 10360.a.14</ref></bibl>
+
+    <bibl><date>1898</date><title>Descriptive and pictorial account of Cromer, Sheringham,
+      Mundesley, and the Broads </title><publisher>London : "London of To-day"</publisher><ref
+      target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/7dk4e1/alma990137501410107026"
+      >Bodleian closed stack</ref><!-- 16 pp --></bibl>
+    <bibl><date>1898</date><title>Descriptive and pictorial account of Scarborough, Whitby, Filey
+      and Bridlington </title><publisher>London : "London of To-day"</publisher><ref
+      target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/7dk4e1/alma990135709200107026"
+      >Bodleian closed stack</ref></bibl>
+    <bibl><date>1898</date><title>Holiday Leaflets Illustrated. Great Northern Series ... Written
+      and arranged by C. E. Pascoe, etc. no. 1-5.</title><publisher>London: Office of 'London of
+      To-Day'</publisher><ref>BL 10347.e.48.</ref> (Contents: Three Days in the Dukeries; Cromer,
+     Sheringham, Mondesley, and the Broads; A trip into Lincolnshire: Skegness, Mablethorpe,
+     Sutton-on-Sea, and Woodhall Spa; An excursion into Yorkshire: Scarborough, Whitby, Filey, and
+     Bridlington; Some Northern Health Resorts: Harrogate, Ilkley, and Ben Rhydding)</bibl>
+
+    <bibl><date>1909</date><title>The Chambers of Commerce Year-Book. A directory of places in the
+      United Kingdom where they are instituted, and a record of their aims and work. Supplemented by
+      specially contributed articles and other information. Edited by Charles Eyre Pascoe. vol. 1.
+      Jan. 1908-Jan. 1909.</title><publisher>York; Vol. 1.</publisher><ref
+      target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/7dk4e1/alma990140552360107026"
+      >Bodleian offsite storage</ref><ref>BL P.P.2501.gf.</ref></bibl>
+
+    <bibl><date>1911</date><title>English Notes for American Acceptance. An unconventional
+      guide-book to the north of England, offered to Americans [illustrated]</title>
+     <publisher>York: Great Northern &amp; North Eastern Railway Companies</publisher><ref> BL
+      010368.w.135.</ref></bibl>
+
+    <bibl><date>1912</date><title>Lovely May and leafy June : a seasonable suggestion: to many
+      thousands of admirers of merrie England </title><distributor>York : North Eastern Railway
+      Company</distributor>
+     <publisher>(London and Tunbridge Wells) : Photochrome. Co. Ltd.</publisher><ref
+      target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/7dk4e1/alma990143215130107026"
+      >Bodleian offsite storage</ref></bibl>
+
+    <bibl><date>1912</date><title>Dickens in Yorkshire : being notes of a journey to the delightful
+      village of Dotheboys, near Greta Bridge.</title>
+     <publisher>London : Sir Isaac Pitman &amp; Sons</publisher><ref>BL 10369.r.4</ref>
+    </bibl>
+   </div>
+   <div>
+    <head>Periodical contributions</head>
+    <p>Pascoe was a prolific contributor to magazines, both American and English. Many of these contributions (notably the two series contributed to the <title>Leisure Hour</title>) were subsequently recycled in a book or guide, but many others have yet to be traced. </p>
+    <listBibl>
+     <bibl> “In Memoriam: Temple Bar.” Illus. New York: Appleton’s journal. vol 2 (1877) pp 75-81 </bibl>
+     <bibl>“An English By-Lane”, New York: Appleton’s journal. Vol 1 (1876) pp 231-233 </bibl>
+     <bibl> `Christ’s Hospital’ (“Great Public Schools of England” series) The Leisure hour (Mar 1,
+      1879): issue 1418 pp 135-140. </bibl>
+     <bibl> `The Charterhouse School’ (“Great Public Schools of England” series) The Leisure hour
+      (Jul 26, 1879): Issue 1439, pp 471-475. </bibl>
+     <bibl> `St Paul’s School’ (“Great Public Schools of England” series) The Leisure hour (Nov 29,
+      1879): Issue 1457, pp 763-766. </bibl>
+     <bibl> `Merchant Taylors’ School (“Great Public Schools of England” series) The Leisure
+      hour(Dec 13, 1879): Issue 1459, pp 796-800.</bibl>
+     <bibl>`A Ramble round Windsor’ The Leisure hour (Apr 1887): pp 251-260. </bibl>
+     <bibl>`The Queen’s Homes. Introductory - the Queen's Household’ The Leisure hour (Jan 1888): pp. 16-21; </bibl>
+     <bibl>`The Queen’s Homes: Kensington Palace’ The Leisure hour (Feb 1888) pp 115-123; </bibl>
+     <bibl>`The Queen’s Homes: Frogmore House’. Illus Victor Prout. The Leisure Hour (Mar 1888) pp 167-174.  </bibl>
+     <bibl>`The Queen’s Homes: Claremont’ The Leisure hour (Apr 1888: 237-241; </bibl>
+     <bibl>`The Queen’s Homes: Buckingham Palace’ The Leisure hour (May 1888) pp 317-324. ; </bibl>
+     <bibl>`Downing Street: the Official Residence of the First Lord of the Treasury. With
+      Illustrations by Philip Norman. The Leisure hour, (Jun 1888) pp 374-384. </bibl>
+      <bibl>`The Queen’s Homes: Windsor Castle’The Leisure hour (Aug 1888) pp 515-524. </bibl>
+     <bibl>`The Queen’s Homes: Osborne’ The Leisure hour (Sep 1888) pp 598-604. </bibl>
+     <bibl>`The Queen’s Homes: Balmoral' The Leisure hour (Nov 1888) pp  753-759.</bibl>
+       </listBibl>
+    <listBibl>
+     <head>Newspaper correspondence</head>
+     <bibl> 1884 “American Payments to English Authors” letter in The Athenaeum; London Iss. 2976, 
+      (Nov 8, 1884): 592-592. [media/pascoe1884AthPayments-1.png][media/pascoe1884AthPayments-2.png] </bibl>
+     <bibl> 1884 `Buying a house’ The Leisure hour, Jan. 1877-Oct. 1903; London (May 1884): 294-298.
+      [buyingHouse1884.pdf]</bibl>
+     <bibl> 1886 Letter complaining about performance hours Daily News, 1886
+      [media/pascoe1886dailynewsLetter.png]</bibl>
+     <bibl> 1889 Discussion of Maybrick case [media/pascoe1889Maybrick.png] </bibl>
+     <bibl> 1896 “A word for the skipper” letter to Daily News
+      [media/pascoe1896dailynewsletter.png]</bibl>
+     <bibl> 1896 “A literary Londoner in Liverpool” letter to Liverpool Daily Post, 25 May 1896
+      [https://www.newspapers.com/image/796699159/] [media/pascoe1896liverpool.png] </bibl>
+    </listBibl>
+    <listBibl>
+     <head>Other material</head>
+     <bibl><date>1906</date><title>[Application to Royal Literary Fund] Charles Eyre Pascoe B
+       1842</title><ref
+       target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/1tvub46/cdi_gale_digitalcollections_AHHXKK910557078"
+      /></bibl>
+    </listBibl>
+   </div>
+  </body>
+ </text>
+</TEI>
