@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+ xmlns:xi="http://www.w3.org/2001/XInclude"
+ >
  <teiHeader>
   <fileDesc>
    <titleStmt>
@@ -44,7 +46,13 @@
        the fullest information, in the best form for reference, respecting all that is valuable in
        connection with a visit to London. With an appendix. By Charles E. Pascoe</title><publisher>
        Boston: Lee and Shepard; Lee, Shepard, and Dillingham, 1874</publisher><ref
-       target="https://hdl.handle.net/2027/hvd.hn3b4s">londonGuide_1874</ref>
+       target="https://hdl.handle.net/2027/hvd.hn3b4s">londonDirectory_1874</ref>
+     </bibl>
+     <bibl><date>1876</date><title>A London Guide and Directory for American travellers ... with a large new map of London
+     By Charles Eyre Pascoe. 1876. Fifth edition.</title><publisher>
+        London: Simpkin, Marshall, and Co.,  Stationers' Hall Court</publisher><ref
+         target="https://books.google.co.uk/books?id=gF1f7cA8TbEC">londonDirectory_1876</ref>
+      <!-- wrongly dated 1874 -->
      </bibl>
      <bibl><date>1877</date><title>A practical handbook to the principal schools of England, based
        for the most part on the statutes, schemes, and regulations made under the Public Schools'
@@ -56,14 +64,16 @@
      <bibl><date>1877</date><title>The illustrated handbook to the supplementary art galleries of
        London : spring exhibitions, 1877 </title><publisher>London : Hardwicke and
        Bogue</publisher><ref target="https://books.google.co.uk/books?id=duhk8wlh6f4C"
-       >illusGalleries_1877</ref></bibl>
+       >illusGalleries_1877</ref>
+      <ref target="#R0000">[Review in <title>the Examiner</title>]</ref></bibl>
      <bibl><date>1878</date><title>A practical handbook to the principal professions : compiled from
        authentic sources, and based on the most recent regulations concerning admission to the Navy,
        Army, and Civil Services (Home and Indian), the legal and medical professions, the
        professions of a civil engineer, architect, and artist, and the mercantile marine / by
        Charles Eyre Pascoe</title><publisher>England: Hardwicke and Bogue, 1878</publisher><ref
        target="https://hdl.handle.net/2027/coo1.ark:/13960/t3dz0t90z"
-       >practicalHbkProfessions_1878</ref>
+        >practicalHbkProfessions_1878</ref>[Reviews: <ref target="#R0002"> Spectator, 1878-10</ref>
+      <ref target="#R0003">[Pall Mall Gazette, 1878-08-26]</ref>]
      </bibl>
      <bibl><date>1879</date><title>Schools for girls and colleges for women : a handbook of female
        education chiefly designed for the use of persons of the upper middle class : together with
@@ -71,11 +81,11 @@
        Bogue</publisher><ref
        target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/7dk4e1/alma991026915540107026"
        >schoolsForGirls_1879</ref>; <ref target="https://doi.org/10.1017/CBO9781107338159">CUP
-       reprint</ref></bibl>
+       reprint</ref> [Reviews in <ref target="#R0005">Basingstoke and North Hampshire Gazette, 1879-05-03</ref>; <ref target="#R0006">Pall Mall Gazette, 1979-06-07</ref>; <ref target="#R0009">Examiner, 1879-10-18</ref>]</bibl>
      <bibl><date>1879</date><title>Dramatic notes : an illustrated handbook of the London theatres
        1879 </title><publisher>London: David Bogue: 3, St. Martin's Place, Trafalgar
        Square.</publisher><ref target="https://hdl.handle.net/2027/uc1.$b429270"
-       >dramaticNotes_1879</ref>
+       >dramaticNotes_1879</ref>[Reviews: <ref target="#R0010">Literary Examiner, 1880-02-21</ref>]
      </bibl>
      <!-- the second issue, dated 1880 was edited by Wm H Rideing and reorganised ; the third edition had no editor but kept the
       organisation by date; Brereton took over editorshop for the 1886 volume (see preface) ; Cecil Howard for the 1891 (see preface)-->
@@ -84,12 +94,13 @@
        living actors and actresses of the British stage. With criticisms from contemporary journals.
        Comp. and ed. by Charles Eyre Pascoe</title><publisher>London: Hardwicke and Bogue,
        1879</publisher><ref target="https://hdl.handle.net/2027/uc1.32106001685715"
-       >theDramaticList_1879</ref>
+       >theDramaticList_1879</ref> [Reviews: <ref target="#R0001">Morning Post, 1878-12-27</ref>; <ref target="#R0004">Boston Evening Transcript, 1879-01-18</ref>; <ref target="#R0007">The Era, 1979-12-21</ref>]
      </bibl>
      <bibl><date>1880</date><title>The dramatic list : a record of the performances of living actors
        and actresses of the British stage. Edited by Charles Eyre Pascoe. Second edition, revised
        and enlarged.</title><publisher>London: David Bogue, 1880</publisher>
       <ref target="https://hdl.handle.net/2027/mdp.39015091112881">theDramaticList_1880</ref>
+      [Reviews: <ref target="#R0008">Literary Examiner, 1880-01-10</ref>]
      </bibl>
 
      <bibl><date>1881</date><title>Everyday Life in our Public Schools. Sketched by head-scholars
@@ -104,17 +115,20 @@
      </bibl>
      <bibl><date>1885</date><title>London of to-day : an illustrated handbook for the
        season</title><publisher>Boston: Roberts Brothers</publisher>
-      <ref target="https://hdl.handle.net/2027/nyp.33433071387207">londonToday_1885</ref>
-      <!-- londonToday_1885_SL.pdf is Bodleian copy of same work with imprint of 
-   Sampson Low, Marston, Searle, & Ribington -->
+      <ref target="https://hdl.handle.net/2027/nyp.33433071387207">londonToday_1885</ref>      
      </bibl>
-
+     
+     <bibl><date>1885</date><title>London of to-day : an illustrated handbook for the
+       season</title>   <publisher>London: Sampson, Low, Marston, Searle &amp; Rivington, 1885</publisher>     
+      <ref target="http://purl.ox.ac.uk/uuid/ec567766037a46f6b0b9947db1ebff43">londonToday_1885_SL</ref> 
+     </bibl>
+     
      <bibl><date>1886</date><title>London of to-day : an illustrated handbook for the season..
        Second Year of Publication, and Third Edition</title>
       <publisher>London: Sampson, Low, Marston, Searle &amp; Rivington, 1886</publisher>
       <ref target="http://purl.ox.ac.uk/uuid/7c47adf21c9744938dbf48fccfa8dbcc"
-       >londonToday_1886</ref></bibl>
-
+       >londonToday_1886</ref> [Reviews: <ref target="#R00012">Illustrated London News, 1887-05-07</ref>]</bibl>
+<!-- 1887 3rd ed Boston -->
      <bibl><date>1887</date><title>"The joyous neighbourhood of Covent Garden" : a literary souvenir
        of the Tavistock Hotel, done in celebration of its hundredth anniversary / by Charles Eyre
        Pascoe. The illus. contributed by John Jellicoe</title><publisher>London: Chiswick Press,
@@ -126,11 +140,13 @@
        Fourth Annual Edition, completely revised, with numerous additional illustrations</title>
       <publisher>Boston: Roberts Brothers.</publisher>
       <ref target="https://hdl.handle.net/2027/hvd.32044020618609">londonToday_1888</ref>
+      [Reviews: <ref target="#R00013">Pall Mall Gazette, 1888-05-17</ref>]
      </bibl>
      <bibl><date>1889</date><title>London of to-day; an illustrated handbook for the season 1889...
        The Fifth Annual Edition, with numerous additional illustrations</title>
       <publisher>Boston: Roberts Brothers.</publisher>
-      <ref target="https://hdl.handle.net/2027/uiug.30112098057190"/>londonToday_1889</bibl>
+      <ref target="https://hdl.handle.net/2027/uiug.30112098057190">londonToday_1889</ref>
+     </bibl>
      <!-- wrongly catalogued as 1887 in HathiTrust -->
 
      <bibl><date>1889</date><title>Brighton of to-day : an illustrated book for all seasons, but
@@ -164,13 +180,13 @@
       <publisher>London: Simpkin, Marshall, Hamilton, Kent, &amp; Co., Ld., and all booksellers.
        1891</publisher>
       <!-- so title page. Hathi records say publisher is Boston: Roberts-->
-      <ref target="https://hdl.handle.net/2027/uc1.31970003956163">londonToday1891</ref>
+      <ref target="https://hdl.handle.net/2027/uc1.31970003956163">londonToday_1891</ref>
      </bibl>
 
      <bibl><date>1891</date><title>Brighton; a pocket-book of local information for visitors.
        Illustrated by Holland Tringham and W. Luker, jun</title><publisher>London: Hazell, Watson,
        and Viney </publisher><ref target="https://hdl.handle.net/2027/oxu1.604250689"
-       >brightonPocket_1891</ref>
+       >brightonPocket_1891</ref> [Reviews : <ref target="#R0014">Illustrated London News 1890-11-15</ref>; <ref target="#R0015">Times, 1890-10-30]</ref>
      </bibl>
      <bibl><date>1891</date><title>The American roads through England: An Illustrated Pocket-book of
        Matter-of-fact Information; ... (Special Edition for use of visitors at the Adelphi hotel,
@@ -185,7 +201,7 @@
      <bibl><date>1891</date><title>The roads to Paris, from London: A Pocket-book for those who are
        unfamiliar with them. Compiled by Charles Eyre Pascoe. Illustrated by H.
        Tringham.</title><publisher>London: Hazell, Watson, and Viney, Ld.</publisher><ref
-       target="https://hdl.handle.net/2027/oxu1.602378084">roadstoParis_1891</ref>
+        target="https://hdl.handle.net/2027/oxu1.602378084">roadstoParis_1891</ref>[Reviews : <ref target="#R0014">Illustrated London News 1890-11-15</ref>; <ref target="#R0015">Times, 1890-10-30</ref>]
      </bibl>
      <bibl><date>1892</date><title>London of today: an illustrated handbook for the season, 1892...
        The Eighth Annual Edition, revised and in large part re-written, and comprising additional
@@ -206,14 +222,14 @@
        Moral Expososition. The Spirit of the Age at a glance. Explained by Charles Eyre Pascoe and
        Illustrated by Fred. Pegram</title><publisher>London: Samspon Low, Marston &amp; Company
        Limited. </publisher><ref target="https://hdl.handle.net/2027/oxu1.605460636"
-       >londonsWorlds_1893</ref>
+       >londonsWorlds_1893</ref>[Reviews: <ref target="#R0016">Daily Graphic, 1893-05-01</ref>]
      </bibl>
 
      <bibl><date>1897</date><title>The London Season. The monthly edition of “London of To-Day.” NS.
        vol. 3. no. 25-27. May-July 1897.</title><ref>BL P.P.2496.r.</ref></bibl>
 
      <bibl><date>1897</date><title>London of To-day; an illustrated handbook for the season 1897.
-       The Thirteenth Yearly Edition.Shilling souvenir edition, sixtieth year of the Queen's Reign.
+       The Thirteenth Yearly Edition. Shilling souvenir edition, sixtieth year of the Queen's Reign.
        </title><publisher>London: Bemrose &amp; sons Limited... and at the Office of "London of
        To-Day," Hastings House, Norfolk Street, Strand, W.C.</publisher>
       <ref target="https://hdl.handle.net/2027/nyp.33433069355695">londonToday_1897</ref>
@@ -230,6 +246,7 @@
        King Edward the Seventh and Queen Alexandra, by Charles Eyre Pascoe</title><publisher>New
        York (State): D. Appleton &amp; company, 1902</publisher><ref
        target="https://hdl.handle.net/2027/yale.39002001749234">pageantCeremony_1902</ref>
+      [Reviews: <ref target="#R0091">Boston Evening Transcript? 1902?</ref>; <ref target="#R0020">Gentlewoman and Modern Life, 1902-04-05</ref>
      </bibl>
      <bibl><date>1908</date>
       <title>No. 10, Downing Street, Whitehall: its history and associations ... The illustrations
@@ -259,6 +276,7 @@
     <head>Pocket Guides and pamphlets not available online</head>
     
     <bibl><date>1889</date><title>Folkestone of to-day : an illustrated book for visitors; season 1889 / By Charles Eyre Pascoe. Illustrated by H. Tringham.</title><publisher>London : Hamilton, Adams, and Co. [</publisher></bibl>
+    
     <bibl><date>[1891]</date><title>Eastbourne, Hastings, and St. Leonard's : a pocket-book of local
       information for visitors </title><publisher>London : Hazell, Watson and Viney</publisher><ref
       target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/7dk4e1/alma990143216050107026"
@@ -280,7 +298,8 @@
      Bridlington; Some Northern Health Resorts: Harrogate, Ilkley, and Ben Rhydding)</bibl>
     
     <bibl><date>1899</date><title>The Golf Grounds of the South-west: A Gossiping Summary of Their Various Attractions</title>
-     <publisher>Published at the office of "London of To-Day,"</publisher></bibl><!-- found on google books -->
+     <publisher>Published at the office of "London of To-Day,"</publisher>
+    [Review : <ref target="#R0018">Sketch, 1899-07-19</ref>] </bibl><!-- found on google books -->
     
     <bibl><title>Twelfth night: a plea for an old custom / (written by Charles Eyre Pascoe. Illustrated by John Jellicoe.).</title><publisher>Fullers, Limited.</publisher></bibl><!-- found in libraries hub, but no date -->
     
@@ -310,6 +329,7 @@
     <bibl><date>1912</date><title>Dickens in Yorkshire : being notes of a journey to the delightful
       village of Dotheboys, near Greta Bridge.</title>
      <publisher>London : Sir Isaac Pitman &amp; Sons</publisher><ref>BL 10369.r.4</ref>
+     [Review: <ref target="#R0021">Weekly Examiner, 1912-06-22</ref>]
     </bibl>
    </div>
    <div>
@@ -376,8 +396,7 @@ SummaryCharles Eyre Pascoe resigned as editor of foreign intelligence on the Glo
      <bibl> 1896 “A literary Londoner in Liverpool” letter to <title>Liverpool Daily Post</title>, (25 May 1896) page 7
       <!--[https://www.newspapers.com/image/796699159/] [media/pascoe1896liverpool.png]--></bibl>
       <bibl>1896 “Is it fact or flourish of phrases?” letter to <title>Daily News</title>, (Oct 15 1896) Issue 15772, p.3 [media/1896-10-15-DailyNews_p3_Letter.png]</bibl>
-      <!-- Daily News 26 apr 1898 ting each party to the quarrel fight ith light out without to bothered by cheers or hisses either sale of the area. Yours faithteliv, CHARLES EYRE PASCOE. An epitome of American Press opinion, such as Mr. -->
-      
+      <!-- Daily News 26 apr 1898 letting each party to the quarrel fight ith light out without to bothered by cheers or hisses either sale of the area. Yours faithteliv, CHARLES EYRE PASCOE. An epitome of American Press opinion, such as Mr. -->
      <bibl>1899 “The Transvaal Crisis”  letters to <title>Daily News</title>  Sep 30 1899 Issue 16698, p.6 ; Dec 30 1899, p.9; Jan 3, 1900, p.3 </bibl>
       <!--     
       <bibl>1900 [	Mr Bryn Roberts blames the war on Britain's attempts to force reforms on President Kruger; Mr Charles Eyre Pascoe considers voting Tory for the first time. ] North Wales Chronicle, June 16 1900 "Mr CharlesEyrePascoe, a Radical, writes in the " Westminster Gazette: "-" If (among others) were convinced (not, however, by Mr Bryn... "</bibl>-->
@@ -388,10 +407,12 @@ SummaryCharles Eyre Pascoe resigned as editor of foreign intelligence on the Glo
        1842</title><ref
        target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/1tvub46/cdi_gale_digitalcollections_AHHXKK910557078"
         >Archives of the Royal Literary Fund 2739. World Microfilms. Nineteenth Century Collections Online</ref></bibl>
-      <bibl><date>1912</date><title>Barking of Dogs and sudden Death</title> [Report of Pascoe's death from the <title>Sutton and Cheam Advertiser,</title> 15 Nov 1912, page 5.] <ref target="https://lb42.github.io/Pascoe/CEP-death.html">Transcription of the report</ref> 
+      <bibl><date>1912</date><title>Barking of Dogs and sudden Death</title> [Report of Pascoe's death from the <title>Sutton and Cheam Advertiser,</title> 15 Nov 1912, page 5.] <ref target="https://lb42.github.io/Pascoe/CEP-death.html">[Transcription]</ref> 
        <!--  "Death of Mr. Charles Eyre Pascoe". Westminster Gazette (Tuesday 12 November 1912): 14. 12 November 1912. --></bibl>
     </listBibl></div>
    
   </body>
+
  </text>
+<xi:include href="CEP-reviews.xml"/>
 </TEI>
