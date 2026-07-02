@@ -1,0 +1,1598 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L0678" xml:lang="en">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title>The Warlock of the Glen: TEI edition</title>
+    <author ref="lacyp:W0319"><persName>C. E. Walker, Esq.</persName><idno type="wikidata"
+     /></author>
+    <respStmt>
+     <resp>TEI conversion</resp>
+     <name>Lou Burnard</name>
+    </respStmt>
+   </titleStmt>
+   <publicationStmt>
+    <distributor>Privately distributed by the Digital Lacy Project</distributor>
+    <idno type="LAE">L0678</idno>
+    <availability>
+     <licence target="https://creativecommons.org/publicdomain/zero/1.0/">The Lacy Project waives
+      all rights to the TEI encoding applied to this material, which it believes to be in the public
+      domain. You may copy, modify, distribute, or perform this work freely. </licence>
+    </availability>
+   </publicationStmt>
+   <sourceDesc>
+    <bibl type="originalSource" n="46.3"><author n="W0319">Walker, C.E.</author>
+     <title type="main">The Warlock of the Glen</title>
+     <title type="sub">A Melodrama in two acts</title>
+     <extent>21 pp (UM copy: 87 - 108)<measure type="pp" quantity="22"/>
+      <measure type="spCount" quantity="240"/>
+      <measure type="spvCount" quantity="1"/>
+      <measure type="txWords" quantity="6859"/>
+      <measure type="spWords" quantity="5336"/>
+      <measure type="stWords" quantity="1523"/>
+     </extent>
+     <title level="s"> Lacy's Acting Edition, volume 46, No. 0678</title><idno type="nic"
+      >N03857</idno></bibl>
+    <bibl type="surrogate" subtype="copytext"><ref
+      target="https://babel.hathitrust.org/cgi/pt?id=mdp.39015067453699&amp;seq=87 ">UM from
+      HT</ref><ref target="local:Vol46/L0678/L0678-um.pdf"/></bibl>
+    <listEvent>
+     <event type="firstPerf" when="1820-12-02" source="textNic" where="Covent">
+      <desc>Premiered at Theatre Royal, Covent Garden 2 Dec. 1820</desc>
+     </event>
+    </listEvent>
+   </sourceDesc>
+  </fileDesc>
+  <profileDesc>
+   <!--S 2 drama M.D. MELODRAMA-->
+   <textClass>
+    <catRef target="#sizeS"/>
+    <catRef target="#act2"/>
+    <catRef target="nic:M.D."/>
+    <keywords>
+     <term>MELODRAMA</term>
+    </keywords>
+   </textClass>
+   <particDesc>
+    <listPerson>
+     <person xml:id="L0678_M1">
+      <persName type="role">Clanronald</persName>
+      <persName type="spkr" n="18">Clan.</persName>
+      <persName type="spkr" n="1">Clanronald</persName>
+     </person>
+     <person xml:id="L0678_M2">
+      <persName type="role">Adelbert</persName>
+      <persName type="spkr" n="7">Adel.</persName>
+     </person>
+     <person xml:id="L0678_M3">
+      <persName type="role">Matthew</persName>
+      <persName type="spkr" n="33">Warl.</persName>
+      <persName type="spkr" n="4">Warlock</persName>
+      <persName type="spkr" n="2">Glen.</persName>
+     </person>
+     <person xml:id="L0678_M4">
+      <persName type="role">Andrew</persName>
+      <persName type="spkr" n="52">Andrew</persName>
+     </person>
+     <person xml:id="L0678_M5">
+      <persName type="role">Sandie</persName>
+      <persName type="spkr" n="31">Sandie</persName>
+     </person>
+     <person xml:id="L0678_M6">
+      <persName type="role">Murdock</persName>
+      <persName type="spkr" n="10">Murd.</persName>
+     </person>
+     <person xml:id="L0678_M7">
+      <persName type="role">Ruthven</persName>
+      <persName type="spkr" n="10">Ruth.</persName>
+      <persName type="spkr" n="2">Ruthven</persName>
+     </person>
+     <person xml:id="L0678_M8">
+      <persName type="role">Donald</persName>
+      <persName type="spkr" n="4">Donald</persName>
+     </person>
+     <person xml:id="L0678_F9">
+      <persName type="role">Adela</persName>
+      <persName type="spkr" n="33">Countess</persName>
+     </person>
+     <person xml:id="L0678_F10">
+      <persName type="role">Marian</persName>
+      <persName type="spkr" n="12">Marian</persName>
+     </person>
+     <person xml:id="L0678_F11">
+      <persName type="role">Mause</persName>
+      <persName type="spkr" n="14">Mause</persName>
+     </person>
+     <person xml:id="L0678_mult">
+      <persName type="role">[Multiple speakers]</persName>
+      <persName type="spkr" n="1">All</persName>
+     </person>
+     <person xml:id="L0678_M12">
+      <persName type="role">[Allen]</persName>
+      <persName type="spkr" n="4">Allen</persName>
+     </person>
+    </listPerson>
+   </particDesc>
+  </profileDesc>
+  <revisionDesc>
+   <change when="2026-07-02">Add wikidata link to titleStmt where possible</change>
+   <change when="2026-07-01">Checked against UM copy; hand edited</change>
+   <change when="2026-01-03">Auto-tagged by Gemini 3.0 (Flash 2.5)</change>
+  </revisionDesc>
+ </teiHeader>
+ <text>
+  <front>
+   <pb n="0"/>
+   <figure>
+    <graphic url="media/L0678-frontispiece.png"/>
+    <head>Andrew, rushing on:—By all my fears it is my leddys bairn! have at ve baith ve precious
+     pair of villians! Scene 2 Act 2.</head>
+   </figure>
+   <pb n="1"/>
+   <titlePage>
+    <docTitle>
+     <titlePart type="main">The Warlock of the Glen</titlePart>
+     <titlePart type="sub">A Melodrama in two acts</titlePart>
+    </docTitle>
+    <byline>By</byline>
+    <docAuthor>C. E. Walker, Esq.</docAuthor>
+    <byline>Author of <title>Wallace, </title><title>Caswallon</title>, &amp;c. &amp;c.</byline>
+    <docImprint>London. Thomas Hailes Lacy, 89, Strand, W.C., (Opposite Southampton Street, Covent
+     Garden Market)</docImprint>
+   </titlePage>
+   <pb n="3"/>
+   <performance>
+    <head>Warlock of the Glen</head>
+    <p>First performed at the Theatre Royal Covent Garden, December 2, 1820.</p>
+    <castList>
+     <head>Characters.</head>
+     <castItem>
+      <role gender="M">Clanronald</role>
+      <roleDesc>Usurping Laird of Glencairn</roleDesc>
+      <actor>Mr. Connor</actor>
+     </castItem>
+     <castItem>
+      <role gender="M">Adelbert</role>
+      <roleDesc>the Rightful Heir, his Infant Nephew, aged 6 years</roleDesc>
+      <actor>Master Boden</actor>
+     </castItem>
+     <castItem>
+      <role gender="M">Matthew</role>
+      <roleDesc>Rightful Laird of Glencairn, under the disguise of the Warlock of the
+       Glen</roleDesc>
+      <actor>Mr. Abbott</actor>
+     </castItem>
+     <castItem>
+      <role gender="M">Andrew</role>
+      <roleDesc>a Fisherman</roleDesc>
+      <actor>Mr. Farley</actor>
+     </castItem>
+     <castItem>
+      <role gender="M">Sandie</role>
+      <roleDesc>a Peasant</roleDesc>
+      <actor>Mr. Blanchard</actor>
+     </castItem>
+     <castGroup>
+      <roleDesc>two Ruffians in the interest of Glencairn</roleDesc>
+      <castItem>
+       <role gender="M">Murdock</role>
+       <actor>Mr. Jefferies </actor>
+      </castItem>
+      <castItem>
+       <role gender="M">Ruthven</role>
+       <actor> Mr. Comer</actor>
+      </castItem>
+     </castGroup>
+     <castItem>
+      <role gender="M">Donald</role>
+      <actor>Mr. Atkins</actor>
+     </castItem>
+     <castItem>
+      <role gender="F">Adela</role>
+      <roleDesc>Countess of Glencairn, and mother to Adelbert</roleDesc>
+      <actor>Mrs. Faucit</actor>
+     </castItem>
+     <castItem>
+      <role gender="F">Marian</role>
+      <roleDesc>Wife to Sandie</roleDesc>
+      <actor>Miss Beaumont</actor>
+     </castItem>
+     <castItem>
+      <role gender="F">Mause</role>
+      <roleDesc>Mother to Sandie</roleDesc>
+      <actor>Mrs. Sterling</actor>
+     </castItem>
+     <castGroup>
+      <roleDesc>Peasants, Vassals, &amp;c,</roleDesc>
+     </castGroup>
+    </castList>
+   </performance>
+   <p>Time Of Representation.—1 hour and 15 minutes.</p>
+   <div type="costume">
+    <head>Costumes.</head>
+    <list>
+     <item><hi rend="bold">Clanronald.</hi>—Scotch armour dress, scarf, fleshings, sandals,
+      broadsword, &amp;c. </item>
+     <item><hi rend="bold">The Warlock.</hi>—Ragged Scotch jacket, trunks, belt, fleshings, sandals,
+      long black wig and beard, large cloak and a rugged branch. 2nd dress.—Handsome Scottish dress,
+      fleshings, sandals, &amp;c., boots, dark wig. </item>
+     <item><hi rend="bold">Adelbert.</hi> Scotch dress, fleshings, sandals and scarf. </item>
+     <item><hi rend="bold">Andrew.</hi> Fisherman's rough blue jacket, Scotch kilt, high boots, and
+      plaid bonnet. </item>
+     <item><hi rend="bold">Sandie.</hi>—Scotch peasant's dress. </item>
+     <item><hi rend="bold">Murdock And Ruthven.</hi>—Breastplates, kilts, with scarfs and bonnets. </item>
+     <item><hi rend="bold">Donald.</hi>—Scotch peasant's dress. </item>
+     <item><hi rend="bold">Adela.</hi>—Handsome Scotch dress. </item>
+     <item><hi rend="bold">Marian.</hi>—Scotch peasant's dress.</item>
+     <item>
+      <hi rend="bold">Mause.</hi> Old woman's Scotch dress.</item>
+    </list>
+   </div>
+  </front>
+  <pb n="3"/>
+  <body>
+   <div type="act" n="1">
+    <head>Act First.</head>
+    <div type="scene" n="1">
+     <head>Scene First.—A Narrow Creek of the Sea.</head>
+     <stage>Fisherman's hut, R. 2 E.—set waters and ground pieces across—set return rock, R. 3 E.,
+      with platform—set return rock with raking platform on L. 3 E.</stage>
+     <stage> Boat appears from R. to C.—Andrew drawing up nets with Davie—paddles to shore.</stage>
+     <sp who="#L0678_M4">
+      <speaker>Andrew</speaker>
+      <p>Nae luck, nae luck, Davie, this cast; and sae we'll e'en gie ower, and haul up the auld
+       cable to land. <stage>(he leaps out, hauls the boat to land, and assists Davie to hang up the
+        nets)</stage> Past one o' the clock, and the lovers na' returned frae the kirk. Aweel,
+       they'll be here anon; for ye ken we are to have a wee bit of junketting and merry-making upon
+       the occasion. Aha, Davie! it does a body muckle gude to see the winsome bairns frolicking
+       around ye, in aw the sunshine of youth and innocence. Ye ken, mon, our days are ower—lang
+       syne, indeed! there was never a Highlander in aw the bonny set o' them would hae surpassed
+       Andrew Mucklestane. Aweel, I maun gang to work a wee bit. Thae auld rotten deals, like their
+       master, are somewhat warped wi' the wind and the sea, and maun be repaired o' necessity again
+       the evening tide. There, ye may take the rest o' the tackle wi' ye—'twill dry well eneugh
+       within.</p>
+     </sp>
+     <stage>Exit Davie into the hut, R. 2 E. </stage>
+     <stage>Andrew takes a hammer and busies himself repairing the boat, at the same time humming a
+      Scotch ballad)</stage>
+     <pb n="4"/>
+     <sp who="#L0678_M4">
+      <l>O thou—whatever title suit thee,</l>
+      <l>Auld Satan, Hornie, Nick, or Clootie,</l>
+      <l>Wha in your cavern, grim and sooty,</l>
+      <l>Closed under hatches;</l>
+      <l>Spanges about the brimstone cootie,</l>
+      <l>To scaud poor wratches.</l>
+
+      <stage>The Warlock enters down platform, L. 3 E. unperceived—his appearance bespeaks the most
+       abject poverty; his garments, composed of tattered plaids, are carelessly thrown around him,
+       his hair, long and thin, falls over his face, which, together with a matted beard and bushy
+       eyebrows, renders his appearance most terrific—he advances towards Andrew, and leaning on a
+       long staff, gazes attentively at him—Andrew, unconscious of being observed, continues his
+       work and his song, till, accidentally turning round, he sees the Warlock standing, L. C. and
+       starts back.</stage>
+      <p>Nay, sure!—yes, but it is. Why, Mattie, how the de'il— What does your coming hither
+       portend?</p>
+     </sp>
+     <sp who="#L0678_M3">
+      <speaker>Warl.</speaker>
+      <p>Woe to the house of Glencairn!</p>
+     </sp>
+     <sp who="#L0678_M4">
+      <speaker>Andrew</speaker>
+      <p>Mair's the pity. For, d'ye ken, what a heavy dispensation's hanging ower the house
+       already?</p>
+     </sp>
+     <sp who="#L0678_M3">
+      <speaker>Warl.</speaker>
+      <p>I do. The Laird Clanronald usurps the birthright of his infant nephew, and, to secure it,
+       wooes his brother's widow.</p>
+     </sp>
+     <sp who="#L0678_M4">
+      <speaker>Andrew</speaker>
+      <p>Ah, puir leddy! it's a sair change wi' her nooadays! she niver held up the head o' her,
+       sin' her laird's departure for the wars, where he fell among the slain.</p>
+     </sp>
+     <sp who="#L0678_M3">
+      <speaker>Warl.</speaker>
+      <p>He fell not in the wars, but by the assassin's steel on his return.</p>
+     </sp>
+     <sp who="#L0678_M4">
+      <speaker>Andrew</speaker>
+      <p>True, it was sae whispered—but naebody kenned when or where; sure enough there weir nae
+       witness.</p>
+     </sp>
+     <sp who="#L0678_M3">
+      <speaker>Warl.</speaker>
+      <p>There was a witness—I myself beheld the deed!</p>
+     </sp>
+     <sp who="#L0678_M4">
+      <speaker>Andrew</speaker>
+      <p>You—you a witness! O, my conscience, Mattie, I believe ye ha' to do wi' Satan! Indeed,
+       folks do say, ye have mair dealings wi' him than mere words—else hoo do ye come by aw' that
+       siller, which o' times ye are sae lavish wi'? Aweel it's nae affair o' mine; ainly ye'll do
+       me the justice to say I niver received ony o' it; for ye ken I minded the auld proverb, which
+       saith, "What's got ower the deevil's back, is spent unde his belly." <stage>(a distant strain
+        of music is heard, L. U. E. with marriage bells, &amp;c. the Warlock starts, and is going,
+        R.)</stage> How noo, Mattie—whither awa'? It's nae but the chiels returning fra' the
+       wedding.</p>
+     </sp>
+     <sp who="#L0678_M3">
+      <speaker>Warl.</speaker>
+      <p>Then must I not be seen. My business is with you alone. Come hither! <stage>(beckoning him
+        authoritatively)</stage> You must
+       <pb n="5"/> promise—nay, swear to meet me to-night upon the moor, by the ruins of the abbey,
+       as the castle clock shall toll the hour of twelve.</p>
+     </sp>
+     <sp who="#L0678_M4">
+      <speaker>Andrew</speaker>
+      <p>Meet you on the muir! Mercy o' me, I'd as soon think of meeting auld Nick! for ye ken that
+       said twelve o' the clock, inasmuch as it is midnight, is an awfu' time to meet sic a
+       gaberlunzie as the likes o' you; and particularly when a third, and far less agreeable
+       companion than yoursel, Mattie—I speak in respect of Satan—might pop upon us, and claim ac-
+       quaintanceship.</p>
+     </sp>
+     <sp who="#L0678_M3">
+      <speaker>Warl.</speaker>
+      <p>Then mark my words, for surely as I speak, shall it befall you. Ne'er shall you know an
+       hour of peace your boats shall be wrecked—your house, and all that it contains, burned to the
+       ground; yourself reduced to beggary, wander an outcast from your native land, and call on
+       death in vain to ease your pangs, if you obey not my injunctions. Mark me I've said it, and
+       I've sworn it—I, Matthew of the Glen, that ne'er was know to break my word!</p>
+     </sp>
+     <sp who="#L0678_M4">
+      <speaker>Andrew</speaker>
+      <p>Haud your clavers, for the love o' gudeness, Mattie you terrify me. Yet what for should I
+       fear? the de'il can't ha' any reasonable claim upon me; and as to his imps, and the likes o'
+       them, I'm sure sma' pleasure can it gie to skelp and worry a puir man like me; therefore I'll
+       meet you.</p>
+     </sp>
+     <sp who="#L0678_M3">
+      <speaker>Warl.</speaker>
+      <p>Swear!</p>
+     </sp>
+     <sp who="#L0678_M4">
+      <speaker>Andrew</speaker>
+      <p><stage>(proudly)</stage>I've said it—ye hae my word—a Highlander's word—be satisfied.</p>
+     </sp>
+     <sp who="#L0678_M3">
+      <speaker>Warl.</speaker>
+      <p>Enough; I'll trust you! <stage>(Music—He waves his staff, disappears, R. 3
+        [A-Z][A-Z]+E.)</stage></p>
+     </sp>
+     <stage>Enter Highland Lads and Lasses, decorated with favours, over platform, L. 3 E., dancing,
+      preceding Sandie and Marian.</stage>
+     <sp who="#L0678_M5">
+      <speaker>Sandie</speaker>
+      <p>Well, here we are, Master Mucklestane, fast as the kirk can make us; as happy and handsome
+       a couple as ever plighted faith.</p>
+     </sp>
+     <sp who="#L0678_M4">
+      <speaker>Andrew</speaker>
+      <p>Ah, my bonnie bairn, gie ye joy! <stage>(shaking his hand)</stage> By your leave, bonny
+       lassie. <stage>(saluting her)</stage> Welcome, chiels, welcome. But ye dinna ken what an
+       unco' strange visitor I hae had; nae less a personage than "Mat o' the Glen!"</p>
+     </sp>
+     <sp who="#L0678_mult">
+      <speaker>All</speaker>
+      <p>"Mat o' the Glen!"</p>
+     </sp>
+     <sp who="#L0678_M5">
+      <speaker>Sandie</speaker>
+      <p>Has that awful gaberlunzie appeared again? for certain, his coming bodes no good.</p>
+     </sp>
+     <sp who="#L0678_M4">
+      <speaker>Andrew</speaker>
+      <p>O' my conscience, ye may weel say sae. But ye'll be the mair surprised when I tell ye he
+       appointed me to be—
+       <pb n="6"/>
+       <stage>The Warlock, wrapped in a large cloak, who has entered unobserved, advances behind him
+        and whispers "Silent!" then disappears, L. 2 E. unseen by the rest.</stage> When he
+       appointed me to be "silent." <stage>(terrified)</stage> It wa' himself. Wha but him? wha but
+       him?</p>
+     </sp>
+     <sp who="#L0678_M5">
+      <speaker>Sandie</speaker>
+      <p>But who, Andrew?</p>
+     </sp>
+     <sp who="#L0678_M4">
+      <speaker>Andrew</speaker>
+      <p>The the—de'il, I believe; and noo it's out. <stage>(all laugh)</stage></p>
+     </sp>
+     <sp who="#L0678_M5">
+      <speaker>Sandie</speaker>
+      <p>Why, the mon looks for all the world as though he had seen a bogle.</p>
+     </sp>
+     <sp who="#L0678_M4">
+      <speaker>Andrew</speaker>
+      <p>Whisht! hae a care o' yoursel'—he's within hearing.</p>
+     </sp>
+     <sp who="#L0678_M5">
+      <speaker>Sandie</speaker>
+      <p>He! whom do you mean?</p>
+     </sp>
+     <sp who="#L0678_M4">
+      <speaker>Andrew</speaker>
+      <p><stage>(recovering himself)</stage> Oh, naebody, naebody! I was but communing wi' mysel'.
+       But come, ye dinna forget the dance, sirs! The music, there the music! strike up, Donald, and
+       foot it lightly.</p>
+     </sp>
+     <stage>Music. A lively Scotch reel. At the conclusion the Countess Adela screams without, L. 3
+      E., and enters, bearing her Child in her arms, descends the rock, L. 3 E., and rushes into the
+      midst—the music and dance pause abruptly.</stage>
+     <sp who="#L0678_F9">
+      <speaker>Countess</speaker>
+      <p><stage>(C.)</stage>Oh, save me! protect my child!</p>
+     </sp>
+     <sp who="#L0678_F10">
+      <speaker>Marian</speaker>
+      <p><stage>(L. C.)</stage>'Tis the Countess of Glencain. I know her well—she, who, they say,
+       through grief for her lost lord, became distracted.</p>
+     </sp>
+     <sp who="#L0678_F9">
+      <speaker>Countess</speaker>
+      <p>Distracted! oh, credit not the vile reports of sinful men, invented for the worst of
+       purposes! attribute not a mother's terrors to the wild ravings of a disordered mind. I am not
+       mad. This is my child I hold my child that they wonld tear from me, and murder. Oh, Heaven, I
+       am too sensible of my unhappy state!</p>
+     </sp>
+     <sp who="#L0678_M4">
+      <speaker>Andrew</speaker>
+      <p>Unfortunate leddy! what can we do for ye?—auld Andrew speaks to ye, be wha has ken'd ye in
+       fair weather and in foul; and wha niver will desert ye while this gude arm can wield a
+       claymore.</p>
+     </sp>
+     <sp who="#L0678_F9">
+      <speaker>Countess</speaker>
+      <p>Men of Glencairn, I call upon you as a mistress—as a mother! Behold this boy, your late
+       revered master's son—the rightful heir of Glencairn. I call upon you to protect him! Oh, save
+       him from his unnatural uncle, who, not content with usurpation, would stamp his claim to
+       these dominions in blood—the heart's blood of this poor child.</p>
+     </sp>
+     <sp who="#L0678_M4">
+      <speaker>Andrew</speaker>
+      <p>Ah, my dear leddy, an we had as gude power as we hae gude will and gude cause! but ye ken
+       the laird's
+       <pb n="7"/> unco potent, and I fear me, might claim a right o' guardianship ower the bairn;
+       and, in that case—</p>
+     </sp>
+     <sp who="#L0678_F9">
+      <speaker>Countess</speaker>
+      <p>A right of guardianship! he, the usurper! sooner would I plunge the boy into the roaring
+       tide—sooner consign him to the mercy of the waves than to his savage uncle's power. Andrew,
+       you once were foremost in zeal to the house of Glencairn; then— Oh, if you still have the
+       heart—the courage to assist your master's wife, exert it now. My father's castle stands but
+       three leagues hence; could I reach, the doors would open to protect me. What need of words?
+       your fishing boat would be a secret and secure conveyance. Will you—Oh, will you aid a fallen
+       wretch like me, whose means accord not with her wishes to reward you?</p>
+     </sp>
+     <sp who="#L0678_M4">
+      <speaker>Andrew</speaker>
+      <p>Reward? what for an act o' duty? Leddy, I hae but little phrase wi' me; but this I maun
+       say, that he wha will na lend a helping hand to a leddy in distress may wear the form o' a
+       mon, but maun hae the heart o' a demon.</p>
+     </sp>
+     <sp who="#L0678_F9">
+      <speaker>Countess</speaker>
+      <p>Generous man, accept a mother's thanks.</p>
+     </sp>
+     <sp who="#L0678_M4">
+      <speaker>Andrew</speaker>
+      <p>Come, neebors, disperse yoursel's, each to his ain hame, and look ye keep close counsel
+       about what ye hae heard, for, ye ken, it's ill o' the vassal's mooth that betrays the bread
+       it eats.</p>
+     </sp>
+     <sp who="#L0678_M5">
+      <speaker>Sandie</speaker>
+      <p>Never fear; we know our duty, and will abide by it. Come along, Marian. <stage>(Music.
+        Exeunt Sandie, Marian, and Peasants, R. 3 E.)</stage></p>
+     </sp>
+     <sp who="#L0678_M4">
+      <speaker>Andrew</speaker>
+      <p>Come, my pretty bairn, and only let me see the stoutest he will hurt a hair belonging of
+       ye, while auld Andrew can wag a finger in your defence.</p>
+     </sp>
+     <stage>Re-enter Sandie, R. 3 E.</stage>
+     <sp who="#L0678_M5">
+      <speaker>Sandie</speaker>
+      <p>Andrew! Maister Andrew—</p>
+     </sp>
+     <sp who="#L0678_M4">
+      <speaker>Andrew</speaker>
+      <p>How now? What the de'il ails ye? Canna ye speak, mon?</p>
+     </sp>
+     <sp who="#L0678_M5">
+      <speaker>Sandie</speaker>
+      <p>There are two of the laird's black-visaged gentry coming along the beach; I ken them from
+       the rocks. Should they be in pursuit of the countess—</p>
+     </sp>
+     <sp who="#L0678_F9">
+      <speaker>Countess</speaker>
+      <p><stage>(snatching her child)</stage> Oh, yes! I know them well—the agents of the fell
+       Clanronald's power! Whither can I fly?</p>
+     </sp>
+     <sp who="#L0678_M4">
+      <speaker>Andrew</speaker>
+      <p>I hae it; betake yoursel' to the wood, and make your way as secretly as ye can to the
+       eastern cliff; in an hoor hence my boat shall be in readiness. Sandie will be your guide—he
+       kens the way fu' weel.</p>
+     </sp>
+     <sp who="#L0678_M5">
+      <speaker>Sandie</speaker>
+      <p>Ay, that I do, uncle; and a precious abode of unclean spirits it is. But never fear; I'll
+       bring you safely
+       <pb n="8"/> through, in spite of all the hobgoblins, bogles, and worriecoows in
+       Christendom.</p>
+     </sp>
+     <sp who="#L0678_M4">
+      <speaker>Andrew</speaker>
+      <p>That's a bra'e lad. Ha! they are here! Make haste, my bonny leddy, for the love o'
+       gudeness; I will manage to detain them.</p>
+     </sp>
+     <stage>Music. The Countess, attended by Sandie, hurries out with the Child, R. 1 E. while
+      Andrew appears as if busily engaged with his nets, R. 2 E.</stage>
+     <stage>Enter Ruthven and Murdock, down platform, L. 3 E.</stage>
+     <sp who="#L0678_M7">
+      <speaker>Ruth.</speaker>
+      <p>I am certain she must have passed this way.</p>
+     </sp>
+     <sp who="#L0678_M6">
+      <speaker>Murd.</speaker>
+      <p>Let us question the fisherman; he may know something.</p>
+     </sp>
+     <sp who="#L0678_M7">
+      <speaker>Ruth.</speaker>
+      <p>Hollo, old fellow! <stage>(going up and slapping him on the back)</stage></p>
+     </sp>
+     <sp who="#L0678_M4">
+      <speaker>Andrew</speaker>
+      <p>Fellow! familiar eneugh at first sight, methinks. What want ye wi' Andrew Mucklestane?
+        <stage>(coming forward)</stage></p>
+     </sp>
+     <sp who="#L0678_M7">
+      <speaker>Ruth.</speaker>
+      <p><stage>(C.)</stage>We want a lady that—</p>
+     </sp>
+     <sp who="#L0678_M4">
+      <speaker>Andrew</speaker>
+      <p>Ye want a leddy; aweel, mon, I canna satisfy ye.</p>
+     </sp>
+     <sp who="#L0678_M6">
+      <speaker>Murd.</speaker>
+      <p><stage>(L.)</stage>An unfortunate maniac, that contrived this morning to elude the
+       vigilance of her keepers.</p>
+     </sp>
+     <sp who="#L0678_M4">
+      <speaker>Andrew</speaker>
+      <p>Hoot awa'! that wa' niver a fault o' mine. What for do ye tax me, mon? Ye dinna tak' it
+       into your stupid heeds that I ha' run off wi' a lunatic?</p>
+     </sp>
+     <sp who="#L0678_M6">
+      <speaker>Murd.</speaker>
+      <p>No, no, friend; but we suspect that you have given her concealment. Answer; have you not
+       seen such a person as we describe pass this way? Answer, or tremble at the consequence. Know
+       you not whence we come?</p>
+     </sp>
+     <sp who="#L0678_M4">
+      <speaker>Andrew</speaker>
+      <p>Ay, as weel as I do know where ye'll gang ain day or ither. But be ye laird or loon, gentle
+       or simple, I'll just tell ye I'm na minded to let my tongue bring me into trouble.</p>
+     </sp>
+     <sp who="#L0678_M6">
+      <speaker>Murd.</speaker>
+      <p>Indeed! then we'll make so bold as to search your cottage. <stage>(they are proceeding to
+        the hut, R. when Andrew, seizing an oar, stations himself before the door.)</stage></p>
+     </sp>
+     <sp who="#L0678_M4">
+      <speaker>Andrew</speaker>
+      <p>Hauld, aback! or, by St. Andrew, my respectable namesake, I'll mak sae bold, as to dismiss
+       ye, and wi' shirts fu' o' sair banes into the bargain.</p>
+     </sp>
+     <stage>Enter Clanronald and Two Vassals, down platform, L. 3 E.</stage>
+     <sp who="#L0678_M1">
+      <speaker>Clan.</speaker>
+      <p>How now! my officers threatened! Slave, retire, nor dare to oppose my servants in the
+       performance of their duty.</p>
+     </sp>
+     <sp who="#L0678_M4">
+      <speaker>Andrew</speaker>
+      <p>The laird! then I maun yield to necessity—I ken
+       <pb n="9"/> my distance, and never shall it be said o' Andrew Mucklestane he forgot his duty
+       to the hoose o' Glencairn. <stage>He retires; Clanronald waves his hand to Ruthven and
+        Murdock, who enter the hut, R. 2 E. followed by Andrew.</stage></p>
+     </sp>
+     <sp who="#L0678_M1">
+      <speaker>Clan.</speaker>
+      <p>Confusion! to be thus baffled by a woman! frustrated in all my deep-laid schemes of
+       aggrandisement! What boots it to have crushed the serpent, if the young adder still survive
+       to sting my future peace? Yet wherefore should I rack my soul with fears? They cannot long
+       escape me; and once more in my power, some means shall soon be found to make the lady mine.
+       What, though she scorns my offers—force shall effect my purpose. <stage>Re-enter Ruthven and
+        Murdock from hut, R. 2 E.</stage> No welcome tidings yet? <stage>(they shahe their
+        heads)</stage> 'Tis very strange. Perchance she may have sought the forest, as promising the
+       best concealment. Follow me instantly; I swear never to know a moment's rest till these
+       accursed fugitives be found. <stage>Exit, followed by Vassals, R.</stage></p>
+     </sp>
+     <sp who="#L0678_M4">
+      <speaker>Andrew</speaker>
+      <p>Ah, gang thy ways—auld Beelzebub will claw ye at last. Puir leddy! I maun na forget ye! na,
+       na; let aw the warld desert ye, auld Andrew will stand by ye, sink or swim. <stage>(Music.
+        Leaps into boat and pushes from shore to R.)</stage></p>
+     </sp>
+    </div>
+    <div type="scene" n="2">
+     <head>Scene Second. A Romantic Glen (2nd Grooves.) amid the rocks.</head>
+     <stage>A cavern, L. C., concealed by overhanging brambles, practicable—bank on R. Lights half
+      down.</stage>
+     <stage>Enter Donald and Allen, L. 1 E. bearing a basket of provisions, flagon, &amp;c.</stage>
+     <sp who="#L0678_M12">
+      <speaker>Allen</speaker>
+      <p>See, this is the spot, and there the cave where he is supposed to dwell—so place the
+       provisions at the entrance, and away. I would not ha' him find us loitering here for a' the
+       gude things we ha' brought to appease him. <stage>(puts basket down at mouth of the cave, L.
+        C.)</stage></p>
+     </sp>
+     <sp who="#L0678_M8">
+      <speaker>Donald</speaker>
+      <p>Tut, man! he has nae power to harm honest folk like us! Here has he dwelt six lang years,
+       and never injured mortal man that I ever heard of. <stage>(aside)</stage> 'Tis as weel to
+       speak respectfully of the auld deeirt, in case he should overhear.</p>
+     </sp>
+     <sp who="#L0678_M12">
+      <speaker>Allen</speaker>
+      <p>Why, you won't pretend to deny he has dealings with evil spirits, brings blight upon the
+       corn, and murrain among the cattle—nay, and I'll warrant me, had a hand in the death of our
+       good laird, wha disappeared in sic a strange manner, just aboot the time this Mattie was
+       first seen.</p>
+     </sp>
+     <sp who="#L0678_M8">
+      <speaker>Donald</speaker>
+      <p>Pooh, nonsense! dinna believe a word of it. For
+       <pb n="10"/> my part, I can't see what folks have to fear in him. I dare swear he is a
+       civil-spoken sort of a body after all.</p>
+     </sp>
+     <sp who="#L0678_M12">
+      <speaker>Allen</speaker>
+      <p>Hark! I hear footsteps—he's coming! Run—run, fellow!</p>
+     </sp>
+     <sp who="#L0678_M8">
+      <speaker>Donald</speaker>
+      <p><stage>(frightened)</stage> Coming! you don't say so!</p>
+     </sp>
+     <sp who="#L0678_M12">
+      <speaker>Allen</speaker>
+      <p>Why, you seem alarmed! He has nae power over honest folks, you know.</p>
+     </sp>
+     <sp who="#L0678_M8">
+      <speaker>Donald</speaker>
+      <p>Ay, very true! but we are none of us perfect, you ken. At any rate, I'm off.
+        <stage>Music—Exeunt, L. 1 E.</stage></p>
+     </sp>
+     <stage>Enter Sandie and the Countess, with her Child, R. 1 E.</stage>
+     <sp who="#L0678_M5">
+      <speaker>Sandie</speaker>
+      <p>Nay, bear up, madam, we must be near the cliff.</p>
+     </sp>
+     <sp who="#L0678_F9">
+      <speaker>Countess</speaker>
+      <p>No more—I can no more—my wearied feet refuse their office, and exhausted nature sinks
+       within me.</p>
+     </sp>
+     <sp who="#L0678_M5">
+      <speaker>Sandie</speaker>
+      <p>Then sit awhile upon this bank, and recruit your strength.</p>
+     </sp>
+     <sp who="#L0678_F9">
+      <speaker>Countess</speaker>
+      <p>Rest here, my precious burden. <stage>(Countess and Child sit on bank, R.)</stage> O, while
+       you remain to me I am not wholly wretched.</p>
+     </sp>
+     <sp who="#L0678_M2">
+      <speaker>Adel.</speaker>
+      <p>Dear mother, I'm sadly hungry.</p>
+     </sp>
+     <sp who="#L0678_M5">
+      <speaker>Sandie</speaker>
+      <p>Say you so? <stage>(looking round)</stage> Eh? as I live, a basket of provisions and a
+       flagon of wine. Egad, this is rare luck!</p>
+     </sp>
+     <sp who="#L0678_F9">
+      <speaker>Countess</speaker>
+      <p>Mysterious Providence! Some unknown supplies our wants. <stage>(taking the basket from
+        Sandie)</stage></p>
+     </sp>
+     <sp who="#L0678_M5">
+      <speaker>Sandie</speaker>
+      <p>O, ay—some unknown! Madam, madam! do not eat for your life! This is the Warlock's cave we
+       had better be gone!</p>
+     </sp>
+     <sp who="#L0678_F9">
+      <speaker>Countess</speaker>
+      <p>In sooth, not yet. It could be no unkind spirit has sent us these. There, my child.
+        <stage>(giving food)</stage></p>
+     </sp>
+     <sp who="#L0678_M5">
+      <speaker>Sandie</speaker>
+      <p>Oh, madam, you don't know half their tricks! What if it should be poisoned? Why, odds life,
+       you won't eat! Eh? Now if I dared—there's nobody by—so here goes. <stage>(sits down on stage,
+        near bank, and eats)</stage> I'faith, it's excellent. Here, my little dear, take a sup of
+       this, it will warm your little heart. What, you won't? Then I will. <stage>(drinks)</stage>
+       Egad, your spirits live daintily. Whiskey, as I'm a sinner.</p>
+     </sp>
+     <sp who="#L0678_F9">
+      <speaker>Countess</speaker>
+      <p>Where are your fears now, Sandie?</p>
+     </sp>
+     <sp who="#L0678_M5">
+      <speaker>Sandie</speaker>
+      <p><stage>(drinking)</stage> Going, going, gone! <stage>(turns the flagon topsy-turvy)</stage>
+       quite gone!. By my valour, I feel as bold as a lion. Let 'em come on a whole legion of
+       spirits, damme if I budge.</p>
+     </sp>
+     <sp who="#L0678_M2">
+      <speaker>Adel.</speaker>
+      <p>How coldly the wind blows around us!</p>
+     </sp>
+     <sp who="#L0678_F9">
+      <speaker>Countess</speaker>
+      <p>Say'st thou, my child? Then, perchance, this cavern will afford us shelter. <stage>(they
+        cross towards the cave, L. C.)</stage></p>
+     </sp>
+     <sp who="#L0678_M3">
+      <speaker>Warlock</speaker>
+      <p><stage>(without, L. C.)</stage> Back, back!</p>
+     </sp>
+     <sp who="#L0678_M5">
+      <speaker>Sandie</speaker>
+      <p><stage>(starting up)</stage> Heaven help us! what voice was that?
+       <pb n="11"/></p>
+     </sp>
+     <sp who="#L0678_F9">
+      <speaker>Countess</speaker>
+      <p>It issued from the cavern.</p>
+     </sp>
+     <sp who="#L0678_M3">
+      <speaker>Warlock</speaker>
+      <p><stage>(within, L. C.)</stage> Who dares disturb the solitude of the Warlock?</p>
+     </sp>
+     <sp who="#L0678_M5">
+      <speaker>Sandie</speaker>
+      <p>The Warlock! <stage>(trembling)</stage> Oh dear, oh dear! then it is all up with us!</p>
+     </sp>
+     <stage>Music—The Warlock darts from the cave, L. C. and starts at beholding the
+      Countess.</stage>
+     <sp who="#L0678_M3">
+      <speaker>Warl.</speaker>
+      <p>Ha, a woman!</p>
+     </sp>
+     <sp who="#L0678_F9">
+      <speaker>Countess</speaker>
+      <p><stage>(R. C.)</stage> Yes, and a mother. As thou art human, let that word disarm thee of
+       the power to harm us.</p>
+     </sp>
+     <sp who="#L0678_M3">
+      <speaker>Warl.</speaker>
+      <p><stage>(crosses to Sandie)</stage> And who art thou?</p>
+     </sp>
+     <sp who="#L0678_M5">
+      <speaker>Sandie</speaker>
+      <p><stage>(R. falling on his knees)</stage> I'm neither a father or a mother yet—I'm only a
+       miserable wretch, not worth your notice, for I am just married — Oh, spare me spare me, for
+       I'm punished enough for one day !</p>
+     </sp>
+     <sp who="#L0678_M3">
+      <speaker>Warl.</speaker>
+      <p>Fly! hence! begone!</p>
+     </sp>
+     <sp who="#L0678_M5">
+      <speaker>Sandie</speaker>
+      <p>With all the pleasure in life! <stage>He runs out, R. 1 E.</stage></p>
+     </sp>
+     <sp who="#L0678_F9">
+      <speaker>Countess</speaker>
+      <p>What may this mean? Nay, do not tremble so, my child.</p>
+     </sp>
+     <sp who="#L0678_M3">
+      <speaker>Warl.</speaker>
+      <p>Thy child! thine! Ha, let me look upon him. <stage>(he crosses, and grasps the Child with
+        fervour)</stage></p>
+     </sp>
+     <sp who="#L0678_F9">
+      <speaker>Countess</speaker>
+      <p><stage>(R.)</stage> Oh, Heaven! what would you do?</p>
+     </sp>
+     <sp who="#L0678_M2">
+      <speaker>Adel.</speaker>
+      <p><stage>(L.)</stage> Do not fear, mother! I'm sure he will not harm me!</p>
+     </sp>
+     <sp who="#L0678_M3">
+      <speaker>Warl.</speaker>
+      <p>Harm you! not for worlds! or if I did, it could be but with kindness. <stage>(passing him
+        across to R. C.)</stage> There, take him—tear him from me, while yet these arms can loose
+       their hold, or my heart bursts not in the struggle.</p>
+     </sp>
+     <sp who="#L0678_F9">
+      <speaker>Countess</speaker>
+      <p>Alas, unhappy man! his wits are crazed!</p>
+     </sp>
+     <sp who="#L0678_M3">
+      <speaker>Warl.</speaker>
+      <p>Not so! I know thee well—thee and thy sorrows. Adela of Glencairn, dangers beset you, guilt
+       is busy to confound you—but fear not, for I will protect you. In the hour of peril, when all
+       other earthly means have failed, call upon me, I will be near to help thee—I, Matthew of the
+       Glen, who never was known to break my word.</p>
+     </sp>
+     <sp who="#L0678_F9">
+      <speaker>Countess</speaker>
+      <p>Thanks, thanks! Come, my child, let us proceed. Oh, surely Heaven will look down with pity,
+       and save this innocent from the fell grasp of his pursuers! Generous man, adieu!
+        <stage>Music—Exit with the Child, L. 1 E.</stage></p>
+     </sp>
+     <sp who="#L0678_M3">
+      <speaker>Warl.</speaker>
+      <p><stage>(gazing intently after them)</stage> They take the way towards the cliff. Now I may
+       follow unseen and unsuspected. Oh, nature, yet– yet a little longer! bear me up to raise the
+       fallen and confound the guilty. <stage>Music—Exit, L. 1 E.</stage></p>
+     </sp>
+    </div>
+    <pb n="12"/>
+    <div type="scene" n="3">
+     <head>Scene Third.— View of the Sea and Rocky Shore.</head>
+     <stage>A huge cliff, with platform, which projects over the water, R. 4 E.— rock on L.—set
+      waters and ground pieces. Lights half down.</stage>
+     <stage>Music—Enter the Countess, leading her Child, L. 3 E.</stage>
+     <sp who="#L0678_F9">
+      <speaker>Countess</speaker>
+      <p>This is the place! Cheer up, my lovely boy, our toils are passed. There stands the cliff,
+       from whose dizzy height so oft, in happy years, I have gazed upon the fearful deep.
+        <stage>(looks towards the sea)</stage> It must be past the time Andrew appointed—he said an
+       hour! surely he meant not to deceive us! Ah, no, I know him well! the good old man could
+       never play a faithless part—he will be here anon.</p>
+     </sp>
+     <sp who="#L0678_M7">
+      <speaker>Ruthven</speaker>
+      <p><stage>(without, L. U. E. distant)</stage> Hollo !</p>
+     </sp>
+     <sp who="#L0678_F9">
+      <speaker>Countess</speaker>
+      <p>What noise was that? <stage>(she listens fearfully)</stage> Oh, 'twas but the wave dashing
+       against the shore. A mother's terrors imagine danger in every passing breeze.</p>
+     </sp>
+     <sp who="#L0678_M7">
+      <speaker>Ruthven</speaker>
+      <p><stage>(without, L. U. E.—louder)</stage> Hollo!</p>
+     </sp>
+     <sp who="#L0678_F9">
+      <speaker>Countess</speaker>
+      <p>Gracious Heaven! surely that was more than fancy! I heard voices!</p>
+     </sp>
+     <sp who="#L0678_M1">
+      <speaker>Clanronald</speaker>
+      <p><stage>(without, L.)</stage> To the cliff! Search among the rocks!</p>
+     </sp>
+     <sp who="#L0678_F9">
+      <speaker>Countess</speaker>
+      <p>Oh heavens! my pursuers! <stage>(Music—She catches up the Child, and, staggering to rock,
+        R. falls exhausted against it)</stage></p>
+     </sp>
+     <stage>Enter Clanronald, Ruthven, and Murdock, L. 3 E.</stage>
+     <sp who="#L0678_M1">
+      <speaker>Clan.</speaker>
+      <p>Ha, madam, have I discovered you? Now tear the child from her embrace.</p>
+     </sp>
+     <stage>She screams, and clings to the Boy—they advance to take it, when, at the moment, the
+      Warlock appears on the cliff, R. and waves them back.</stage>
+     <sp who="#L0678_M3">
+      <speaker>Warl.</speaker>
+      <p>Forbear! <stage>(Tableau)</stage></p>
+     </sp>
+     <sp who="#L0678_M1">
+      <speaker>Clan.</speaker>
+      <p><stage>(L.)</stage> Who dares to dictate to Clanronald?</p>
+     </sp>
+     <sp who="#L0678_M3">
+      <speaker>Warl.</speaker>
+      <p>I dare! I, Matthew of the Glen!</p>
+     </sp>
+     <sp who="#L0678_M1">
+      <speaker>Clan.</speaker>
+      <p>Insolent! think you the superstitious tales of peasants have any influence on me? Mummery
+       all! Retire, or dread my anger!</p>
+     </sp>
+     <sp who="#L0678_M3">
+      <speaker>Warl.</speaker>
+      <p>Ha, dost thou menace, and dare to doubt the power that I possess to awe the guilty? Then
+       mark, and let thy stubborn soul shrink in the dread conviction of my truth, while I proclaim
+       thee "Fratricide!" Is not thy nature satiate with blood? <stage>(thunder)</stage> Beware! the
+       wrath of Heaven hangs over thee! tempt not its vengeance further. <stage>He
+        disappears—Clanronald remains petrified for a time, till, recovering his self-command, he
+        exclaims in a tone of determined authority)</stage></p>
+     </sp>
+     <pb n="13"/>
+     <sp who="#L0678_M1">
+      <speaker>Clan.</speaker>
+      <p>Why look ye idly on– has the weird madman's words made statues of you? Seize the child, I
+       say!</p>
+     </sp>
+     <sp who="#L0678_F9">
+      <speaker>Countess</speaker>
+      <p>Stand off approach me not! my griefs have made me desperate! You dare not tear him from me!
+       Dare not? Oh, no! you will not—you could not do it! If 'tis his wealth you covet, take it
+       all– enjoy it, if you can, so you but spare his life! The scene I have just witnessed shall
+       never be revealed—I and my child will fly to some distant land, and never return to trouble
+       you.</p>
+     </sp>
+     <sp who="#L0678_M1">
+      <speaker>Clan.</speaker>
+      <p>How passing fair is supplicating woman!</p>
+     </sp>
+     <sp who="#L0678_F9">
+      <speaker>Countess</speaker>
+      <p><stage>(starting indignantly from the ground)</stage> Ha, do you mock my sufferings? Man, I
+       have borne much—Heaven truly knows how much! But pause ere you inflict a wound beyond a
+       mother's power to endure! <stage>(with dignity)</stage> Dare to divide me from my child, and
+       I denounce you to the world—a murderer!</p>
+     </sp>
+     <sp who="#L0678_M1">
+      <speaker>Clan.</speaker>
+      <p>These are the frantic exclamations of a maniac! <stage>(seizing the Child, and throwing him
+        to L.)</stage> There, fellows, take the boy—away with him to the castle.</p>
+     </sp>
+     <sp who="#L0678_M2">
+      <speaker>Adel.</speaker>
+      <p>O mother – mother! save me from these wicked men! <stage>Exit Murdock with the Child, L. 2
+        E.</stage></p>
+     </sp>
+     <sp who="#L0678_F9">
+      <speaker>Countess</speaker>
+      <p>I come, my child! I follow you! <stage>(endeavours to pass Clanronald, who seizes her– the
+        Countess recovering, endeavours feebly to escape)</stage></p>
+     </sp>
+     <sp who="#L0678_M1">
+      <speaker>Clan.</speaker>
+      <p>Nay, lady, your efforts are in vain.</p>
+     </sp>
+     <sp who="#L0678_F9">
+      <speaker>Countess</speaker>
+      <p>Off, monster! murderer! Let me pass! <stage>(looking round, she misses the Boy, and gives a
+        loud scream)</stage> My child! Gone—for ever gone! Oh, horrible! My husband, and my infant,
+       too—both dead! murdered by thy blood-stained hand! But there's a way left yet! Thus I escape
+       from you! <stage>Music—She breaks from his hold, and rushes out, R. 2 E.—she reappears upon
+        the cliff, R. 4 E. and plunges into the water; at this moment Andrew is seen in his fishing
+        boat, making towards the cliff, from L. U. E.</stage></p>
+     </sp>
+     <stage>Warlock enters from R. 4 E.</stage>
+     <sp who="#L0678_M3">
+      <speaker>Warl.</speaker>
+      <p>Now, Andrew—the boat! the boat!</p>
+     </sp>
+     <stage>Tableau. Boat, with Andrew and Countess. Warlock on cliff. Clan. and Vassals.</stage>
+     <trailer>End Of Act First.</trailer>
+    </div>
+   </div>
+   <pb n="14"/>
+   <div type="act" n="2">
+    <head>Act Second.</head>
+    <div type="scene" n="1">
+     <head>Scene First.—</head>
+     <stage>Interior of a Cottage. (3rd Grooves.) Table set for supper on L. C.—lamp on table—one
+      rustic chair on R. C. —three stools on L.—door L. C. practicable, backed by dark wood.
+      Thunder, lightning, and rain. </stage>
+     <stage>Sandie, Marian, and Mause discovered at supper table on L.</stage>
+     <sp who="#L0678_F11">
+      <speaker>Mause</speaker>
+      <p>Mercy on us, what a night is this! it blows, rains, thunders, and lightens enough to blow
+       in the casement. Heaven help the poor countess !</p>
+     </sp>
+     <sp who="#L0678_M5">
+      <speaker>Sandie</speaker>
+      <p>Ah, I'll warrant me you may spare your prayers, good mother! by this time she's past all
+       earthly help. Why, to judge by his looks, "Mat o' the Glen" wouldn't make above one meal of
+       her!</p>
+     </sp>
+     <sp who="#L0678_F11">
+      <speaker>Mause</speaker>
+      <p>The voracious cormorant!</p>
+     </sp>
+     <sp who="#L0678_F10">
+      <speaker>Marian</speaker>
+      <p>Why, you don't think he devoured her, Sandie?</p>
+     </sp>
+     <sp who="#L0678_M5">
+      <speaker>Sandie</speaker>
+      <p>Ah, that did he, body and breeches, I'll be bound for him. It wasn't for nothing he sent me
+       out of the way.</p>
+     </sp>
+     <sp who="#L0678_F11">
+      <speaker>Mause</speaker>
+      <p>Depend upon it, children, this is an awful season! Have I not heard creaking noises all
+       night? and the owl screech, and the raven crook, and sic like unnatural bodements? My life
+       on't, the devil is going his rounds. Heaven shield us from his unwholesome clutch!</p>
+     </sp>
+     <sp who="#L0678_F10">
+      <speaker>Marian</speaker>
+      <p>But go on, good mother—you were telling us of the poor Laird of Glencairn.</p>
+     </sp>
+     <sp who="#L0678_F11">
+      <speaker>Mause</speaker>
+      <p>Very true. Ay, it's just now six years agone, last Candlemas, that he took leave of his
+       lady, and left his home for the wars, whence, poor man, he was never fated to return.</p>
+     </sp>
+     <sp who="#L0678_F10">
+      <speaker>Marian</speaker>
+      <p>And what is it supposed became of him?</p>
+     </sp>
+     <sp who="#L0678_F11">
+      <speaker>Mause</speaker>
+      <p>Oh, you may well ask! but nobody can answer that. It was given out, indeed, he fell in the
+       field of battle, while some go so far as to say he was privately set upon and murdered.</p>
+     </sp>
+     <sp who="#L0678_F10">
+      <speaker>Marian</speaker>
+      <p>Murdered!</p>
+     </sp>
+     <sp who="#L0678_M5">
+      <speaker>Sandie</speaker>
+      <p>And was it not suspected that—</p>
+     </sp>
+     <sp who="#L0678_F11">
+      <speaker>Mause</speaker>
+      <p>Whist, my bairn, speak lower! for walls have ears now-a-days. True, it was suspected that
+       the present laird— <stage>(a loud clap of thunder)</stage> Mercy on us! what a hurly-burly
+       was there!</p>
+     </sp>
+     <sp who="#L0678_M4">
+      <speaker>Andrew</speaker>
+      <p><stage>(without, R. c.)</stage> Hollo !</p>
+     </sp>
+     <pb n="15"/>
+     <sp who="#L0678_M5">
+      <speaker>Sandie</speaker>
+      <p>Hush! Didn't I hear a voice? <stage>(the cottage door is shaken)</stage> Again! <stage>(All
+        frightened)</stage> What can it be? <stage>(a violent thumping at the door, accompanied with
+        thunder and lightning)</stage></p>
+     </sp>
+     <sp who="#L0678_F11">
+      <speaker>Mause</speaker>
+      <p>Oh, it's his ghost—it's his ghost! Oh, I shall faint, I know I shall!</p>
+     </sp>
+     <sp who="#L0678_M4">
+      <speaker>Andrew</speaker>
+      <p><stage>(without)</stage> Open the door!</p>
+     </sp>
+     <sp who="#L0678_M5">
+      <speaker>Sandie</speaker>
+      <p>Ah, you may hollo till you are hoarse—you'll find no entrance here, unless it's through the
+       keyhole.</p>
+     </sp>
+     <stage>The door is burst open with a loud crash, and Andrew enters, R. C. bearing the
+      Countess—all scream.</stage>
+     <sp who="#L0678_F10">
+      <speaker>Marian</speaker>
+      <p>Why, 'tis my uncle—'tis Andrew!</p>
+     </sp>
+     <sp who="#L0678_M5">
+      <speaker>Sandie</speaker>
+      <p><stage>(recovering)</stage> Good faith, so it is! a woman too!</p>
+     </sp>
+     <sp who="#L0678_M4">
+      <speaker>Andrew</speaker>
+      <p>Ay, a woman. It's nae the first I hae had in my arms, that let me tell ye. Gie us a chair,
+       wull ye? <stage>(they give him a chair—he places the Countess upon it)</stage></p>
+     </sp>
+     <sp who="#L0678_F10">
+      <speaker>Marian</speaker>
+      <p>Heavens! the countess! and dripping wet!</p>
+     </sp>
+     <sp who="#L0678_M4">
+      <speaker>Andrew</speaker>
+      <p>Aweel, lassie, ye'll nae be fashed o' that neither, when I tell ye she's but just come out
+       o' the sea.</p>
+     </sp>
+     <sp who="#L0678_F11">
+      <speaker>Mause</speaker>
+      <p>Pray tell us—I long to hear how it all came about.</p>
+     </sp>
+     <sp who="#L0678_M4">
+      <speaker>Andrew</speaker>
+      <p>Dinna ye ask, woman—dinna ye ask; but I fear she was flying frae cruel, wicked men.</p>
+     </sp>
+     <sp who="#L0678_M5">
+      <speaker>Sandie</speaker>
+      <p>Oh, Mattie, Mattie! this is your handy work!</p>
+     </sp>
+     <sp who="#L0678_F10">
+      <speaker>Marian</speaker>
+      <p>Then where is the child?</p>
+     </sp>
+     <sp who="#L0678_M4">
+      <speaker>Andrew</speaker>
+      <p>The child! <stage>(he starts, and appears violently agitated)</stage> Did you say the
+       child? <stage>(with a look of frenzy, he clasps his hands together, exclaiming)</stage> Gone!
+       lost and gone! I hae left him struggling in the waves! <stage>(he throws himself on a stool,
+        leans his head on the table, and appears overcome with grief—they go up to him)</stage></p>
+     </sp>
+     <sp who="#L0678_F10">
+      <speaker>Marian</speaker>
+      <p><stage>(crosses to him)</stage> Andrew; dear uncle, be pacified.</p>
+     </sp>
+     <sp who="#L0678_M4">
+      <speaker>Andrew</speaker>
+      <p><stage>(repelling them)</stage> Be quiet, will ye? be quiet. I tell ye I hae murdered him!
+       I loved him better than my ain heart's bluid, and I hae murdered him!</p>
+     </sp>
+     <sp who="#L0678_F10">
+      <speaker>Marian</speaker>
+      <p>Do not take on so do not think of it!</p>
+     </sp>
+     <sp who="#L0678_M4">
+      <speaker>Andrew</speaker>
+      <p>Nae think o' it? but I maun think o' it. What can I tell his mither when she comes to
+       hersel', and asks for her bairn? Hoo—hoo can I answer her? Oh, this auld heart, that hae
+       weathered out sae mony a gale, maun find this tug too much! Yet what for do I stand clavering
+       here? I'll seek for him, gin he war fifty fathom deep; I'll pluck him frae the waves,
+       and—</p>
+     </sp>
+     <sp who="#L0678_M3">
+      <speaker>Warlock</speaker>
+      <p><stage>(without, exclaims)</stage> Andrew Mucklestane! the clock has struck! <stage>(All
+        start)</stage></p>
+     </sp>
+     <sp who="#L0678_F11">
+      <speaker>Mause</speaker>
+      <p>St. Bridget defend us! That was no earthly voice!</p>
+     </sp>
+     <pb n="16"/>
+     <sp who="#L0678_M4">
+      <speaker>Andrew</speaker>
+      <p>It is –it's Mattie! Ah, he'll gie me speerings o' the bairn! Coming, Mattie, coming.
+        <stage>He rushes out, D. R. C.</stage></p>
+     </sp>
+     <sp who="#L0678_F10">
+      <speaker>Marian</speaker>
+      <p>Follow him, for Heaven's sake, Sandie! He knows not what he does.</p>
+     </sp>
+     <sp who="#L0678_M5">
+      <speaker>Sandie</speaker>
+      <p>Follow him?—fcllow a madman? odds flesh! that's sooner said than done. I'll see the road he
+       takes, however, if that will please you. <stage>Exit door, R. с.</stage></p>
+     </sp>
+     <sp who="#L0678_F11">
+      <speaker>Mause</speaker>
+      <p>Come ye hither, child, the lady's coming to herself. <stage>(the Countess opens her eyes,
+        but fixes them on vacancy)</stage></p>
+     </sp>
+     <sp who="#L0678_F10">
+      <speaker>Marian</speaker>
+      <p>How terrible she looks! Lady, dear lady, do you not know us?</p>
+     </sp>
+     <sp who="#L0678_F9">
+      <speaker>Countess</speaker>
+      <p>Know you? Yes, you are the murderers of my child! But he is in heaven now, where you can
+       never reach him.</p>
+     </sp>
+     <sp who="#L0678_F11">
+      <speaker>Mause</speaker>
+      <p>Poor insensible thing—her wits are clean gone!</p>
+     </sp>
+     <sp who="#L0678_F9">
+      <speaker>Countess</speaker>
+      <p>See, he stretches out his little arms to me he smiles on me his smile was ever beautiful! I
+       come to you, my child! Why do you hold me down? Tis cruel to keep me from my babe.</p>
+     </sp>
+     <stage>Sandie rushes in from door, R. C.</stage>
+     <sp who="#L0678_M5">
+      <speaker>Sandie</speaker>
+      <p>Here's a business!</p>
+     </sp>
+     <sp who="#L0678_F11">
+      <speaker>Mause</speaker>
+      <p>Why, what's the matter, Sandie?</p>
+     </sp>
+     <sp who="#L0678_M5">
+      <speaker>Sandie</speaker>
+      <p>The laird! the laird! He's coming with a troop at his heels! the countess will be carried
+       from us.</p>
+     </sp>
+     <sp who="#L0678_F11">
+      <speaker>Mause</speaker>
+      <p>We shall be all murdered! Come this way, my lady! <stage>(endeavouring to lead her off, R.,
+        she resists.)</stage></p>
+     </sp>
+     <sp who="#L0678_F9">
+      <speaker>Countess</speaker>
+      <p>No, I will meet him.</p>
+     </sp>
+     <stage>Enter Clanronald, Ruthven, Murdock, and Two Vassals from D. R. C., bearing
+      torches.</stage>
+     <sp who="#L0678_M1">
+      <speaker>Clan.</speaker>
+      <p><stage>(L. C.)</stage> Behold the object of our search in a peasant's cottage! Quick!
+       secure her!</p>
+     </sp>
+     <sp who="#L0678_F9">
+      <speaker>Countess</speaker>
+      <p>Ha, fratricide! Dost thou dare to tear him from me? Where is my child? my child, thou
+       infant murderer? <stage>(her strength fails, and she falls into Ruthven'S arms,
+       R.)</stage></p>
+     </sp>
+     <sp who="#L0678_M1">
+      <speaker>Clan.</speaker>
+      <p>Convey her to the castle instantly, and prepare the nuptial rites—this very hour shall our
+       marriage be consummated.</p>
+     </sp>
+     <sp who="#L0678_M5">
+      <speaker>Sandie</speaker>
+      <p>My laird, allow me to observe that taking a leddy agin her will is not exactly—</p>
+     </sp>
+     <sp who="#L0678_M1">
+      <speaker>Clan.</speaker>
+      <p>Utter another word, and you shall become for life the tenant of my castle's deepest
+       dungeon—begone!</p>
+     </sp>
+     <sp who="#L0678_M5">
+      <speaker>Sandie</speaker>
+      <p>Poor dear lady! my heart aches for her, doomed to the arms of such a bear.</p>
+     </sp>
+     <sp who="#L0678_F11">
+      <speaker>Mause</speaker>
+      <p>A bear—a Hottentot! ugh!</p>
+     </sp>
+     <stage>Exeunt Sandie, Mause, and Marian, reluctantly, L.</stage>
+     <pb n="17"/>
+     <sp who="#L0678_M1">
+      <p><stage>(aside)</stage> Murdock, to you I give the charge to see the brat safely disposed
+       of. You may throw him beside the ruins of the abbey; there let him moulder beside his
+       father's bones. Away! <stage>Murdock bows assent, and Clanronald with his train, bearing the
+        Countess, exeunt through D. R. C.</stage></p>
+     </sp>
+    </div>
+    <div type="scene" n="2">
+     <head>Scene Second. —</head>
+     <stage>The Moor, by midnight. (1st and 2nd grooves) On R. the ruins of an abbey, surrounded by
+      a few withered trees; the wind is heard at intervals, and the thunder as dying away in the
+      distance; lights down.</stage>
+     <stage>Enter Andrew, L. 2 E. fearfully looking round him.</stage>
+     <sp who="#L0678_M4">
+      <speaker>Andrew</speaker>
+      <p>Mattie! Mattie! what for dinna ye answer me, mon? Is it creditable, think ye, to invite
+       folk to meet ye in your ain drawing room, as it were, and after aw, na appear to bid 'em
+       welcome? <stage>(the bell, shaken by the wind, tolls)</stage> Wha gangs there? speak! Ye had
+       better, <stage>(drawing his hanger)</stage> or, by the word of a Highlander, ye sall niver
+       wag the saucy tongue o' ye again. What a goustie place is this—ony company war preferable to
+       this dreadful stillness. Why, Mattie, I say—canny Mattie! bonny Mattie! where i' the name of
+       all the bogles and worriecows hae ye betaken yoursel?</p>
+     </sp>
+     <stage>The Warlock steals on, L. 2 E. unobserved by Andrew.</stage>
+     <sp who="#L0678_M3">
+      <speaker>Warl.</speaker>
+      <p>Peace! I charge you.</p>
+     </sp>
+     <sp who="#L0678_M4">
+      <speaker>Andrew</speaker>
+      <p>Sae ye are come at last. But what gars ye glow'r a hint ye o' that gate? Ye hae na' brought
+       wi' ye ony companion, it is to be hoped worse than yoursel?</p>
+     </sp>
+     <sp who="#L0678_M3">
+      <speaker>Warl.</speaker>
+      <p>Murder is abroad!</p>
+     </sp>
+     <sp who="#L0678_M4">
+      <speaker>Andrew</speaker>
+      <p><stage>(trembling)</stage> Mur-murder! ye dinna say sae! For the love o' gudeness, dinna
+       mak' jeer o' me. Ye terrify me, Mattie!</p>
+     </sp>
+     <sp who="#L0678_M3">
+      <speaker>Warl.</speaker>
+      <p>They come this way—the demons! Retire; conceal yourself among the ruins.</p>
+     </sp>
+     <sp who="#L0678_M4">
+      <speaker>Andrew</speaker>
+      <p>Demons coming this way? My certes, Mattie, tak' me wi' ye—ye're preferable to a demon, ony
+       day o' the week. <stage>They retire behind the ruins, R. 2 E.</stage></p>
+     </sp>
+     <stage>Enter Ruthven and Murdock, L. 2 E. bearing the Child, wrapped in a large cloak..</stage>
+     <sp who="#L0678_M6">
+      <speaker>Murd.</speaker>
+      <p>This is the place! beneath those stones rots the father's body. Come, Ruthven, despatch.
+        <stage>(they remove the cloak, and set down the Child)</stage></p>
+     </sp>
+     <sp who="#L0678_M2">
+      <speaker>Adel.</speaker>
+      <p>Where are you taking me? all is so dark around.</p>
+     </sp>
+     <pb n="18"/>
+     <sp who="#L0678_M7">
+      <speaker>Ruth.</speaker>
+      <p>Are you frightened, boy?</p>
+     </sp>
+     <sp who="#L0678_M2">
+      <speaker>Adel.</speaker>
+      <p> I should be, were I not going to my mother. Pray let us make haste –this is such a
+       frightful place.</p>
+     </sp>
+
+     <sp who="#L0678_M6">
+      <speaker>Murd.</speaker>
+      <p>Pshaw! we trifle time. Come, Ruthven, draw your poignard while I go scoop a grave among the
+       rubbish.</p>
+     </sp>
+     <sp who="#L0678_M7">
+      <speaker>Ruth.</speaker>
+      <p>By Heaven! he clings to me in confidence. I cannot harm him.</p>
+     </sp>
+     <sp who="#L0678_M6">
+      <speaker>Murd.</speaker>
+      <p>What, have you scruples? pshaw! away with them. What beholds us?</p>
+     </sp>
+     <sp who="#L0678_M3">
+      <speaker>Warlock</speaker>
+      <p><stage>(from the abbey)</stage> The eye of Heaven!</p>
+     </sp>
+     <sp who="#L0678_M7">
+      <speaker>Ruth.</speaker>
+      <p>Some one spoke. Would I were quit of this.</p>
+     </sp>
+     <sp who="#L0678_M6">
+      <speaker>Murd.</speaker>
+      <p>Fancy, all.</p>
+     </sp>
+     <sp who="#L0678_M7">
+      <speaker>Ruth.</speaker>
+      <p>It might have been; but, as I'm a living man, it seemed the warning of Glencairn!</p>
+     </sp>
+     <sp who="#L0678_M6">
+      <speaker>Murd.</speaker>
+      <p>Coward! art thou afraid of ghosts?</p>
+     </sp>
+     <sp who="#L0678_M7">
+      <speaker>Ruth.</speaker>
+      <p>I know not how it is, but my nature revolts from killing a child.</p>
+     </sp>
+     <sp who="#L0678_M2">
+      <speaker>Adel.</speaker>
+      <p>You certainly do not mean to kill me! and yet you look so frowningly. Pray do not hurt me!
+        <stage>(kneeling)</stage></p>
+     </sp>
+     <sp who="#L0678_M7">
+      <speaker>Ruth.</speaker>
+      <p>In faith, I cannot.</p>
+     </sp>
+     <sp who="#L0678_M6">
+      <speaker>Murd.</speaker>
+      <p>Away, then, thou slave to conscience! leave me to do the job; but expect not to share in
+       the reward.</p>
+     </sp>
+     <sp who="#L0678_M7">
+      <speaker>Ruth.</speaker>
+      <p>Leave you to the full reward? never! This to prevent it! <stage>(he is preparing to plunge
+        the poignard into him, when Andrew rushes out, exclaiming.)</stage></p>
+     </sp>
+     <sp who="#L0678_M4">
+      <speaker>Andrew</speaker>
+      <p>It is my leddy's bairn! Have at ye baith, ye precious pair of villains! <stage>Music. He
+        attacks them furiously, and drives them off, L. 2 E.</stage></p>
+     </sp>
+     <stage> At this moment the Warlock darts from the ruins, snatches up the Child, and exclaiming,
+      "Mine! mine!" rushes out, R. 1 E. Re-enter Andrew, L. 2 E.</stage>
+     <sp who="#L0678_M4">
+      <speaker>Andrew</speaker>
+      <p>Ye hae gotten it noo, or I hae mistaken my weapon—a decent wame fu' o' steel And now for
+       the bairn; gude faith, how pleased his mither wul be! Come, my little dear! <stage>(turns
+        round)</stage> Ha, gane! then Mattie has gotten his claws on him. Mattie, for the love of
+       gudeness, mon, dinna harm the child. Mattie! Mattie! Mattie! <stage>(Music.—Exit, R. 2 E. he
+        is heard calling without, then re-enters, R. 1 E.)</stage> It's aw vain! the de'il a blink
+       hae I had o' him; he is gane—gane for ever! sae I'll niver waste my een with greeting; I'll
+       bear it as an auld seamen ooght. <stage>(wiping his eyes)</stage> Pshaw! this hulk is rotten,
+       and the salt water oozes through in spite o' me. Would I could see this Mattie once again—but
+       once! and if ever I took these bull dogs frae his ill-boding throat till I had shaken aw the
+       breath out o' his ault farrant carcass, say I'm nae Highlander.</p>
+     </sp>
+     <pb n="19"/>
+     <stage>Enter the Warlock, R. 2 E.</stage>
+     <sp who="#L0678_M3">
+      <speaker>Warl.</speaker>
+      <p><stage>(striking his staff on the ground)</stage> What would you with the Warlock of the
+       Glen?.</p>
+     </sp>
+     <sp who="#L0678_M4">
+      <speaker>Andrew</speaker>
+      <p>Ha, you here! tell me, where is the boy? Nae, niver bend your scornfu' eyes o' me; I'd
+       speak my mind, gin you were twice as frightfu', and that's na' in nature. Speak! tell me what
+       hae ye done wi' the bairn, or I'll wring it frae your saul, ye unearthly mortal.</p>
+     </sp>
+     <sp who="#L0678_M3">
+      <speaker>Warl.</speaker>
+      <p>Be satisfied—the boy is safe.</p>
+     </sp>
+     <sp who="#L0678_M4">
+      <speaker>Andrew</speaker>
+      <p>But does he live? only tell me that he lives.</p>
+     </sp>
+     <sp who="#L0678_M3">
+      <speaker>Warl.</speaker>
+      <p>He still lives.</p>
+     </sp>
+     <sp who="#L0678_M4">
+      <speaker>Andrew</speaker>
+      <p>Bless ye—bless ye! <stage>(he is overcome by joy, and falls at the Warlock's feet)</stage>
+       Mattie, ye have brought me to my knees. I niver thought to hae bent sae low to mortal man,
+       much less to—but I hae done! Mattie, ye hae ta'en a load o' anguish off frae my heart, and
+       mony thanks to ye for the favour.</p>
+     </sp>
+     <sp who="#L0678_M3">
+      <speaker>Warl.</speaker>
+      <p><stage>(aside)</stage> I can resist no longer! <stage>(then with tone of his voice and
+        manner altered)</stage> Rise, Andrew, rise, and hear me! Whom dost thou think I am? I know
+       thou say'st, "The Warlock! a weird recluse!" but look upon me. <stage>(removing his hair,
+        &amp;c.)</stage> Andrew! has thou forgotten Glencairn?</p>
+     </sp>
+     <sp who="#L0678_M4">
+      <speaker>Andrew</speaker>
+      <p>Alive! na, sure! Yes, but it is! my een dinna deceive me it is the laird himsel'!
+        <stage>(kneels)</stage></p>
+     </sp>
+     <sp who="#L0678_M3">
+      <speaker>Warl.</speaker>
+      <p>My poor, faithful servant!</p>
+     </sp>
+     <sp who="#L0678_M4">
+      <speaker>Andrew</speaker>
+      <p>But he's alive! I hae him! I touch him! Oh, my auld heart will burst! But the Countess—the
+       bairn! the—ha, ha, ha!—you, Mattie! you the laird!</p>
+     </sp>
+     <sp who="#L0678_M3">
+      <speaker>Warl.</speaker>
+      <p>Yes, Andrew, for these six long years, beneath the garb of misery, have I dragged out a
+       wretched being. Such were the terms imposed on me by the repentant who preserved my life.</p>
+     </sp>
+     <sp who="#L0678_M4">
+      <speaker>Andrew</speaker>
+      <p>Your life?</p>
+     </sp>
+     <sp who="#L0678_M3">
+      <speaker>Warl.</speaker>
+      <p>Even so. When the fell poignard of a villain brother struck me to the earth, his myrmidon,
+       commissioned to entomb my body, discovered the vital spark was not extinct within me, and
+       with a soul less hardened than his master's, removed me to a cave, where, day by day, I
+       gained fresh strength; and he there extorted, as the price of life, an oath that I would
+       never to mortal man reveal myself, till he should be no more; that oath I have kept
+       inviolate, till yesterday, stung by remorse for all his numerous sins, the wretch expired and
+       freed me from restraint.</p>
+     </sp>
+     <sp who="#L0678_M4">
+      <speaker>Andrew</speaker>
+      <p>Oh, happy day! then ye'll return amang us?</p>
+     </sp>
+     <pb n="20"/>
+     <sp who="#L0678_M3">
+      <speaker>Warl.</speaker>
+      <p>I shall return to claim again my long-lost rights; but we must proceed with caution. Will
+       you assist me?</p>
+     </sp>
+     <sp who="#L0678_M4">
+      <speaker>Andrew</speaker>
+      <p>With my life.</p>
+     </sp>
+     <sp who="#L0678_M3">
+      <speaker>Warl.</speaker>
+      <p>The knowledge of a secret entrance to the castle will aid my purpose well; thither must we
+       proceed without delay; for I have formed a scheme, which, if I err not, shall confound the
+       guilty, even in the fulness of their triumph. Come, come! <stage>Exit L. 1 E.</stage></p>
+     </sp>
+    </div>
+    <div type="scene" n="3">
+     <head>Scene Third.—</head>
+     <stage>Interior of a Gothic Chapel, brilliantly illuminated. (3rd and 5th grooves) Large
+      practicable door, C. backed with altar lighted, and steps. </stage>
+     <stage>Music.—Clanronald, Ruthven, and Servants discovered.</stage>
+     <sp who="#L0678_M1">
+      <speaker>Clan.</speaker>
+      <p>Ay, this looks well; these nuptial torches blaze with becoming splendour. Quick; lead the
+       countess hither. <stage>Exeunt Ruthven and Murdock, R. 1 E.</stage> Now, now, Clanronald,
+       thou hast arrived at fortune's pinnacle. But by what means? no matter! let dotards shrink at
+       the qualms of conscience; I spurn at its dominion! <stage>(a strain of music is heard,
+        R)</stage> Ha, that peal proclaims my bride's approach. She comes to crown my dearest
+       wishes. <stage>(Music, forte)</stage>
+       <stage>Enter the Countess, R. 1., with Ruthven and Murdock, attended by Ladies.</stage> This
+       is well, madam! I am joyed to find that reason has assumed it sway, and you no longer shrink
+       from the calls of love.</p>
+     </sp>
+     <sp who="#L0678_F9">
+      <speaker>Countess</speaker>
+      <p>Deceive not thyself, Clanronald. I swear before these witnesses, who will record my words,
+       never to pronounce vows that bind me to a murderer.</p>
+     </sp>
+     <sp who="#L0678_M1">
+      <speaker>Clan.</speaker>
+      <p>I'll hear no more! force shall effect –this way, to the altar. <stage>(dragging her to the
+        C. doors, she struggles)</stage></p>
+     </sp>
+     <sp who="#L0678_F9">
+      <speaker>Countess</speaker>
+      <p>Just Heaven! is there no help? no hope? Ha! <stage>(with a sudden burst of
+        recollection)</stage> I call upon the Warlock of the Glen!</p>
+     </sp>
+     <sp who="#L0678_M1">
+      <speaker>Clan.</speaker>
+      <p>Indeed! Let him appear to save thee, if he can. <stage>(he has, by this time, reached the
+        folding doors, when they open suddenly; the altar is discovered illuminated, before which
+        stands the Warlock; Clanronald looses his hold of the Countess, and staggers back, L.—all
+        express amazement—tableau)</stage> Wherefore art thou here?</p>
+     </sp>
+     <sp who="#L0678_M3">
+      <speaker>Warl.</speaker>
+      <p>To tell thee thou hast filled up the measure of thy guilt. Thy murdered victims cry for
+       justice on thee. Villain!</p>
+     </sp>
+     <pb n="21"/>
+     <sp who="#L0678_M1">
+      <speaker>Clan.</speaker>
+      <p>I will not hear thee. Ho, there! seize that vile impostor!</p>
+     </sp>
+
+     <stage>Murdock and Ruthven, R. advance to seize him—the Warlock waves them back.</stage>
+     <sp who="#L0678_M3">
+      <speaker>Warl.</speaker>
+      <p><stage>(to Clanronald, L.)</stage> Obdurate! dost thou still doubt my power? then will I
+       raise a witness thou canst not, dar'st not question. Behold! <stage>(throwing off the Warlock
+        habit, and appearing as Glencairn)</stage> Thy brother!</p>
+     </sp>
+     <stage>Clanronald is thunderstruck—the Countess, with a scream of joy, rushes into the arms of
+      her husband. Vassals enter R. and L.</stage>
+     <sp who="#L0678_M3">
+      <speaker>Glen.</speaker>
+      <p>My wife! my Adela!</p>
+     </sp>
+     <sp who="#L0678_M1">
+      <speaker>Clan.</speaker>
+      <p>Ha! do the dead rise against me? Could not the grave withhold its prey? Why—why is this? I
+       struck him to the earth! Thou shalt not triumph! this dagger failed me once, but now —
+        <stage>(attempts to stab Glencairn, but is seized by the Countess, and disarmed by Two
+        Vassals, L.)</stage></p>
+     </sp>
+     <sp who="#L0678_M3">
+      <speaker>Glen.</speaker>
+      <p>Hold thy desperate hand! and rather, by repentance, seek atonement and forgiveness for thy
+       crimes.</p>
+     </sp>
+     <sp who="#L0678_M1">
+      <speaker>Clan.</speaker>
+      <p>Never will I repent! and even in my fall, I triumph, for your only child, the infant is
+       dead—he has perished by my orders!</p>
+     </sp>
+     <stage>Enter Andrew with the Child, L. 3 E.</stage>
+     <sp who="#L0678_M4">
+      <speaker>Andrew</speaker>
+      <p>It's a lie! it's a lie! The bairn is here! safe and sound! I hae gotten him, and I'll gie
+       him to his mother.</p>
+     </sp>
+     <sp who="#L0678_F9">
+      <speaker>Countess</speaker>
+      <p>My husband and my child, too, alive—both alive! Just heaven, I thank thee! <stage>(Music.
+        She raises her hands—Glencairn embraces her— Andrew kneels with the Child, L.
+       C.)</stage></p>
+     </sp>
+     <stage>Ladies Countess Adel. Glen. Andrew. Clan. Vassals.</stage>
+     <stage>Curtain</stage>
+     <note type="source"><list>
+       <head>Stage Directions</head>
+       <item>R. means Right of the Stage facing the Audience;</item>
+       <item> L. Left; </item>
+       <item>C. Centre; </item>
+       <item>R.C. Right of Centre; </item>
+       <item>D.F. Door in the Flat; or Scene running across the back of the Stage; </item>
+       <item>C.D.F Centre Door in Flat; </item>
+       <item>D.R.C Right Door in Flat; </item>
+       <item>L.C.F. Left Door in the Flatl</item>
+       <item> R.D. Right Door; </item>
+       <item> L.D. Left Door; </item>
+       <item>2 E. Second Entrance;</item>
+       <item> U.E. Upper Entrance.</item>
+      </list>
+     </note>
+    </div>
+   </div>
+  </body>
+ </text>
+</TEI>
