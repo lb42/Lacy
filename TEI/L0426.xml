@@ -1,29 +1,64 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id='L0426'>
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L0426" xml:lang="en">
   <teiHeader>
     <fileDesc>
-      <titleStmt>
-        <title>THE CAPTAIN IS NOT A-MISS</title>
-        <author>EGERTON WILKS</author>
-      </titleStmt>
-      <publicationStmt><p>Digital transcription via Gemini 2.5</p></publicationStmt>
-      <sourceDesc><p>Manuscript L1410</p></sourceDesc>
+      <titleStmt><title>The Captain Is Not A-Miss: TEI edition</title><author ref="lacyp:W0330"><persName>Wilks, Thomas Egerton</persName><idno type="wikidata">Q52154778</idno></author><respStmt><resp>TEI conversion</resp><name>Lou Burnard</name></respStmt></titleStmt>
+      <publicationStmt><distributor>Privately distributed by the Digital Lacy Project</distributor><idno type="LAE">L0426</idno><availability><licence target="https://creativecommons.org/publicdomain/zero/1.0/">The Lacy Project waives all rights to the TEI encoding applied to this material, which it believes to be in the public domain. You may copy, modify, distribute, or perform this work freely. </licence></availability></publicationStmt>
+      <sourceDesc><bibl type="originalSource" n="29.6"><author n="W0330">Wilks, Thomas Egerton</author>
+      <title type="main">The Captain is not A-Miss</title>
+      <title type="sub">A Farce in one Act</title>
+ <extent>17 pp (UM copy: 160 - 177)<measure type="pp" quantity="17"/>
+  <measure type="spCount" quantity="346"/>
+  <measure type="spvCount" quantity="1"/>
+  <measure type="txWords" quantity="5592"/>
+  <measure type="spWords" quantity="5201"/>
+  <measure type="stWords" quantity="391"/>
+  </extent>
+      <title level="s"> Lacy's Acting Edition, volume 29, No. 0426</title><idno type="nic">N03956</idno><idno type="vpp">Vol29viCaptain</idno></bibl><bibl type="surrogate" subtype="copytext"><ref target="https://lb42.github.io/Lacy/Source/VPP/L0426-vpp.pdf">LoB from VPP</ref><ref target="local:Vol29/L0426/L0426-vpp.pdf"/><ref target="local:Vol29/L0426/Vol29viCaptain.pdf"/></bibl><bibl type="surrogate"><ref target="https://archive.org/details/captainisnotamis0000wilk">UW
+       from IA</ref><ref target="local:Vol29/L0426/L0426-uw.pdf"/></bibl><bibl type="surrogate"><ref target="https://babel.hathitrust.org/cgi/pt?id=mdp.39015067453004&amp;seq=160 ">UM from
+       HT</ref><ref target="local:Vol29/L0426/L0426-um.pdf"/></bibl><listEvent>
+      <event type="firstPerf" when="1836-04-18" source="textNic" where="English">
+       <desc>Premiered at English Opera House 18 April 1836</desc>
+      </event>
+     </listEvent></sourceDesc>
     </fileDesc>
-  <revisionDesc>
-  <change when='2026-04-23'>Manually edited and checked against pages</change>
-    <change when='2026-02-12'>TEI autotagging by Gemini Pro 2.5</change>
+  <profileDesc><!--S 1 Farce O.F. FARCE--><textClass><catRef target="#sizeS"/><catRef target="#act1"/><catRef target="nic:O.F."/><keywords><term>FARCE</term></keywords></textClass><particDesc><listPerson>
+<person xml:id="L0426_M1"><persName type="role">GENERAL STORMWELL</persName>
+<persName type="spkr" n="43">General.</persName>
+</person>
+<person xml:id="L0426_M2"><persName type="role">CAPTAIN DARING</persName><persName type="spkr" n="78">Daring.</persName>
+</person>
+<person xml:id="L0426_M3"><persName type="role">JOHN STOCK</persName><persName type="spkr" n="40">John.</persName>
+</person>
+<person xml:id="L0426_M4"><persName type="role">HALBERT</persName>
+<persName type="spkr" n="21">Halbert.</persName>
+</person>
+<person xml:id="L0426_M5"><persName type="role">ROLAND TUNLEY</persName><persName type="spkr" n="42">Roland.</persName>
+</person>
+<person xml:id="L0426_F6"><persName type="role">EMILY</persName>
+<persName type="spkr" n="48">Emily.</persName>
+</person>
+<person xml:id="L0426_F7"><persName type="role">FANNY</persName>
+<persName type="spkr" n="37">Fanny.</persName>
+</person>
+<person xml:id="L0426_F8"><persName type="role">MARY</persName>
+<persName type="spkr" n="36">Mary.</persName>
+</person>
+
+</listPerson></particDesc></profileDesc><revisionDesc><change when="2026-07-02">Add wikidata link to titleStmt where possible</change>
+  <change when="2026-04-23">Manually edited and checked against pages</change>
+    <change when="2026-02-12">TEI autotagging by Gemini Pro 2.5</change>
   </revisionDesc>
   </teiHeader>
     <text>
 <front>
   <titlePage>
     <docTitle>
-      <titlePart type="main">THE CAPTAIN IS NOT A-MISS</titlePart>
-      <titlePart type="sub">A FARCE IN ONE ACT</titlePart>
+      <titlePart type="main">The Captain Is Not A-Miss</titlePart>
+      <titlePart type="sub">A Farce In One Act</titlePart>
     </docTitle>
     <byline>By
-      <docAuthor>THOMAS EGERTON WILKS</docAuthor>
-     AUTHOR OF
+      <docAuthor>Thomas Egerton Wilks</docAuthor>
+     Author Of
             <title>Eily O'Connor</title>
           <title>The Red Crow</title>
           <title>Wenlock of Wenlock</title>
@@ -41,53 +76,53 @@
           <title>Bamboozling,</title> &amp;c.
     </byline>
     <docImprint>
-      THOMAS HAILES LACY
-      WELLINGTON STREET. STRAND. LONDON.
+      Thomas Hailes Lacy
+      Wellington Street. Strand. London.
     </docImprint>
   </titlePage>
 <pb n="2"/>
     <performance>
-    <head>THE CAPTAIN IS NOT A-MISS.</head>
+    <head>The Captain Is Not A-Miss.</head>
       <p>First produced at the English Opera House On April 18th, 1836.</p>
    
     
-  <castList><head>CHARACTERS.</head>
+  <castList><head>Characters.</head>
   
       <castItem>
-        <role gender="M">GENERAL STORMWELL</role>
+        <role gender="M">General Stormwell</role>
         <roleDesc>Costume: Blue military frock, trousers, boots, military cap.</roleDesc>
-        <actor>MR. W. BENNET.</actor>
+        <actor>Mr. W. Bennet.</actor>
       </castItem>
       <castItem>
-        <role gender="M">CAPTAIN DARING</role>
-        <actor>MR. HEMMING.</actor>
+        <role gender="M">Captain Daring</role>
+        <actor>Mr. Hemming.</actor>
       </castItem>
       <castItem>
-        <role gender="M">JOHN STOCK</role>
+        <role gender="M">John Stock</role>
         <roleDesc>(his Tiger)</roleDesc>
-        <actor>MR. OXBERRY.</actor>
+        <actor>Mr. Oxberry.</actor>
       </castItem>
       <castItem>
-        <role gender="M">HALBERT</role>
-        <actor>MR. ROMER.</actor>
+        <role gender="M">Halbert</role>
+        <actor>Mr. Romer.</actor>
       </castItem>
       <castItem>
-        <role gender="M">ROLAND TUNLEY</role>
-        <actor>MR. WILLIAMS.</actor>
+        <role gender="M">Roland Tunley</role>
+        <actor>Mr. Williams.</actor>
       </castItem>
       <castItem>           
-        <role gender="F">EMILY</role>
+        <role gender="F">Emily</role>
         <roleDesc>(disguised as Captain Daring)</roleDesc>
-        <actor>MRS. NISBETT.</actor>
+        <actor>Mrs. Nisbett.</actor>
       </castItem>
       <castItem>
-        <role gender="F">FANNY</role>
+        <role gender="F">Fanny</role>
         <roleDesc>(disguised as his Tiger)</roleDesc>
-        <actor>MISS. MORDAUNT.</actor>
+        <actor>Miss. Mordaunt.</actor>
       </castItem>
       <castItem>
-        <role gender="F">MARY</role>
-        <actor>MISS SHAW.</actor>
+        <role gender="F">Mary</role>
+        <actor>Miss Shaw.</actor>
       </castItem>
     </castList></performance>
   
@@ -111,107 +146,107 @@
 <pb n="3"/>
 <div type="act" n="I">
    <div type="scene">
-      <stage>SCENE.—Picturesque Landscape. An Inn, called the "Black Eagle," L. 3 E.</stage>
+      <stage>Scene.—Picturesque Landscape. An Inn, called the "Black Eagle," L. 3 E.</stage>
       <stage>Enter Roland and Mary from house.</stage>
-      <sp>
+      <sp who="#L0426_M5">
          <speaker>Roland.</speaker>
          <p>What do I hear? complain of my wine ! Say that my wine isn't good ?</p>
       </sp>
-      <sp>
+      <sp who="#L0426_F8">
          <speaker>Mary.</speaker>
          <p>Indeed he does, father, and what's more, says he won't drink it.</p>
       </sp>
-      <sp>
+      <sp who="#L0426_M5">
          <speaker>Roland.</speaker>
          <p>Was ever such a thing heard of ?</p>
       </sp>
-      <sp>
+      <sp who="#L0426_F8">
          <speaker>Mary.</speaker>
          <p>Why, to speak the truth, father, I think the wine has not a good flavour, and there can be no doubt but that it is sour.</p>
       </sp>
-      <sp>
+      <sp who="#L0426_M5">
          <speaker>Roland.</speaker>
          <p>What has flavour and sourness to do with it? I'm sure I charge him the very highest price I possibly can, and what more does he want, I wonder ?</p>
       </sp>
-      <sp>
+      <sp who="#L0426_F8">
          <speaker>Mary.</speaker>
          <p>I know what he does not want.</p>
       </sp>
-      <sp>
+      <sp who="#L0426_M5">
          <speaker>Roland.</speaker>
          <p>What's that ?</p>
       </sp>
-      <sp>
+      <sp who="#L0426_F8">
          <speaker>Mary.</speaker>
          <p>The stomach ache, and that's why he won't drink your wine.</p>
       </sp>
-      <sp>
+      <sp who="#L0426_M5">
          <speaker>Roland.</speaker>
          <p>Nonsense, wench; there's another reason much more influential; the fact of the matter is, he is some new-made officer, proud of his regimentals, and fancying himself as such folks always do at first, the greatest man in the world, he thinks he displays his consequence by grumbling at my wine.</p>
       </sp>
-      <sp>
+      <sp who="#L0426_F8">
          <speaker>Mary.</speaker>
          <p><stage>(aside.)</stage> At least he displays his taste. Well, but father, you must humour him, for he and his servant have been staying at our hotel these three days past, and may, perhaps, remain three days more.</p>
       </sp>
-      <sp>
+      <sp who="#L0426_M5">
          <speaker>Roland.</speaker>
          <p>Yes, yes, I'll humour him—I'll suit his taste—I'll change the wine for him; the next bottle he has shall be half wine and water, see whether that will better please his palate —oh, Mary, he's but a mere fop.</p>
       </sp>
-      <sp>
+      <sp who="#L0426_F8">
          <speaker>Mary.</speaker>
          <p>He's a very nice fellow; he might be a little bigger, certainly, but he's a very pretty little man, and so is his servant.</p>
       </sp><pb n="4"/>
-      <sp>
+      <sp who="#L0426_M5">
          <speaker>Roland.</speaker>
          <p>There is something mysterious about them, they have now been for three days at the "Black Eagle," and I haven't even discovered their names, and I suspect—I suspect—</p>
       </sp>
-      <sp>
+      <sp who="#L0426_F8">
          <speaker>Mary.</speaker>
          <p>Oh, gracious! What father ?</p>
       </sp>
-      <sp>
+      <sp who="#L0426_M5">
          <speaker>Roland.</speaker>
          <p>What I suspect.</p>
       </sp>
-      <sp>
+      <sp who="#L0426_F8">
          <speaker>Mary.</speaker>
          <p>Oh, I thought you had found out all about them.</p>
       </sp>
-      <sp>
+      <sp who="#L0426_M5">
          <speaker>Roland.</speaker>
          <p>Not a bit at present, but I shall endeavour to do so; I consider it the duty of an hotel keeper to know the business of every frequenter of his house, as well as he knows his own ; such knowledge is very serviceable, it guides one a good deal in making out the bill.</p>
       </sp>
-      <sp>
+      <sp who="#L0426_F8">
          <speaker>Mary.</speaker>
          <p>Well, at all events, this young officer pays his bills.</p>
       </sp>
-      <sp>
+      <sp who="#L0426_M5">
          <speaker>Roland.</speaker>
          <p>Pays his bills ? Why of course he does, if he did not see how soon the Black Eagle would look black at him. No, no, I have my suspicions about him ; I cannot help thinking that there's an intrigue in the business.</p>
       </sp>
-      <sp>
+      <sp who="#L0426_F8">
          <speaker>Mary.</speaker>
          <p>Why do you ? oh, how nice.</p>
       </sp>
-      <sp>
+      <sp who="#L0426_M5">
          <speaker>Roland.</speaker>
          <p>Nice! Nonsense! I'll have nothing of the sort here—nice, indeed!</p>
       </sp>
-      <sp>
+      <sp who="#L0426_F8">
          <speaker>Mary.</speaker>
          <p>Well, I'm sure a little love making is very pleasant, and very funny, especially when there's such a nice young man engaged in it—since he's been staying here almost every girl in the village has fallen in love with him, and so have I amongst the rest.</p>
       </sp>
-      <sp>
+      <sp who="#L0426_M5">
          <speaker>Roland.</speaker>
          <p>Why, you impudent baggage ! How dare you say such a thing! but mark me, Miss Mary—I'll have no flirting— no nonsense. I'm going now to look after my poultry in the farm yard; and if that young spark should chance to come this way, call to me. <stage>Exit, R.H.</stage></p>
       </sp>
-      <sp>
+      <sp who="#L0426_F8">
          <speaker>Mary.</speaker>
          <p>Ah, father may say what he likes, but the officer is a very nice young man !</p>
       </sp>
       <spGrp>
-         <head>SONG. - MARY.</head>
-         <sp>
+         <head>Song. - Mary.</head>
+         <sp who="#">
             <l>There's an arch little imp whose throne is a rose,</l>
             <l>In the bud I am told they had bound him ;</l>
             <l>But lost is the rogue when the flower it blows—</l>
@@ -228,1310 +263,1310 @@
             <l>From flowers, &amp;c.</l>
          </sp>
       </spGrp>
-      <sp>
+      <sp who="#L0426_F8">
          <speaker>Mary.</speaker>
          <p>Oh, here be comes—father! and what a nice smart fellow he is ! <stage>(Roland re-enters.)</stage></p>
       </sp>
       <stage>Enter Emily, disguised as Captain Daring, and Fanny as John Stock, his Valet, L. H. U. E.</stage>
-      <sp>
+      <sp who="#L0426_F6">
          <speaker>Emily.</speaker>
          <p><stage>(L. C.)</stage> Ha, ha! the idea of drinking such wine as that, how very absurd! Isn't it, John ?</p>
       </sp>
-      <sp>
+      <sp who="#L0426_F7">
          <speaker>Fanny.</speaker>
          <p><stage>(L.)</stage> Oh, quite ridiculous, my la—captain.</p>
       </sp>
-      <sp>
+      <sp who="#L0426_F6">
          <speaker>Emily.</speaker>
          <p>Ah! master innkeeper, how could you dream of placing such an essence of sour krout before me ? you have the wrong man to deal with, believe me—I know what wine is, and I ought to do so, for I have drank hogsheads, ay and mean to drink hogsheads more, hem! damme! <stage>(aside.)</stage> Well done assurance.</p>
       </sp>
-      <sp>
+      <sp who="#L0426_F7">
          <speaker>Fanny.</speaker>
          <p>So say I.</p>
       </sp>
-      <sp>
+      <sp who="#L0426_M5">
          <speaker>Roland.</speaker>
          <p><stage>(crosses to c.)</stage> I'm sorry your lordship doesn't like the wine, I'll change it—<stage>(aside.)</stage>—or water it.</p>
       </sp>
-      <sp>
+      <sp who="#L0426_F6">
          <speaker>Emily.</speaker>
          <p>No, no ! I'll have no more of it, for the last glass I unfortunately swallowed has left so disagreeable a taste on my lips, that really, hem ! really nothing but a kiss will remove it. <stage>(kisses Mary.)</stage></p>
       </sp>
-      <sp>
+      <sp who="#L0426_F8">
          <speaker>Mary.</speaker>
          <p>Thank you, sir.</p>
       </sp>
-      <sp>
+      <sp who="#L0426_F7">
          <speaker>Fanny.</speaker>
          <p><stage>(aside.)</stage> My mistress is certainly a most extraordinary woman.</p>
       </sp>
-      <sp>
+      <sp who="#L0426_M5">
          <speaker>Roland.</speaker>
          <p>The wine shall be changed, sir, without delay.</p>
       </sp>
-      <sp>
+      <sp who="#L0426_F6">
          <speaker>Emily.</speaker>
          <p>As pretty as ever, Mary.</p>
       </sp>
-      <sp>
+      <sp who="#L0426_F8">
          <speaker>Mary.</speaker>
          <p><stage>(curtsey.)</stage> Yes, sir.</p>
       </sp>
-      <sp>
+      <sp who="#L0426_F7">
          <speaker>Fanny.</speaker>
          <p>How well my lady plays the gentleman; I see she's doomed to wear the breeches.</p>
       </sp>
-      <sp>
+      <sp who="#L0426_M5">
          <speaker>Roland.</speaker>
          <p>Come along Mary, come along, I say, here are more guests approaching.</p>
       </sp>
-      <sp>
+      <sp who="#L0426_F8">
          <speaker>Mary.</speaker>
          <p>Yes, father, I'm coming; oh, the nice little creature.</p>
       </sp>
       <stage>Exit with Roland, into house, L. U. E.</stage>
-      <sp>
+      <sp who="#L0426_F6">
          <speaker>Emily.</speaker>
          <p>Well, Fanny, how do I manage my new disguise?</p>
       </sp>
-      <sp>
+      <sp who="#L0426_F7">
          <speaker>Fanny.</speaker>
          <p>Oh, excellently, but my lady—</p>
       </sp>
-      <sp>
+      <sp who="#L0426_F6">
          <speaker>Emily.</speaker>
          <p>Hush, hush! you musn't call me my lady—remember I'm a gentleman now, and sport as pretty a moustache as any Palais Royal lounger can boast of. I don't mind telling you, because you are in my confidence, but the real truth is, I am <pb n="6"/>as complete a coward as ever woman was—but this alarm must be carefully concealed, otherwise our incognito will be discovered.</p>
       </sp>
-      <sp>
+      <sp who="#L0426_F7">
          <speaker>Fanny.</speaker>
          <p>Oh, I'll preserve my incognito as you call it as long as ever I can, but, if ever it should come to fighting, away will go my courage and my incognito together.</p>
       </sp>
-      <sp>
+      <sp who="#L0426_F6">
          <speaker>Emily.</speaker>
          <p>By the bye, Fanny, don't you forget your name.</p>
       </sp>
-      <sp>
+      <sp who="#L0426_F7">
          <speaker>Fanny.</speaker>
          <p>No, no, I am your valet, John Stock.</p>
       </sp>
-      <sp>
+      <sp who="#L0426_F6">
          <speaker>Emily.</speaker>
          <p>Right, and I am Captain Daring.</p>
       </sp>
-      <sp>
+      <sp who="#L0426_F7">
          <speaker>Fanny.</speaker>
          <p>But pray, my lady, how came you to fix upon these names for us?</p>
       </sp>
-      <sp>
+      <sp who="#L0426_F6">
          <speaker>Emily.</speaker>
          <p>Chance, chance all; when I determined to adopt this dress for a disguise, I happened to find in the pocket this card, which probably belonged to its former owner, see—on it is the name of Captain Daring, and on the back is written in pencil John Stock, which most likely is the name of his valet, and at all events will do for you.</p>
       </sp>
-      <sp>
+      <sp who="#L0426_F7">
          <speaker>Fanny.</speaker>
          <p>I wonder what your guardian, the poor old general thinks of our absence.</p>
       </sp>
-      <sp>
+      <sp who="#L0426_F6">
          <speaker>Emily.</speaker>
          <p>He is miserable enough, I warrant, and now that it is too late, regrets his harshness towards me; the idea of wanting me to marry a man whom I had never seen, with whose name even, I was unacquainted, and of whom all I was told was, that he had the honour to be nephew to the general!</p>
       </sp>
-      <sp>
+      <sp who="#L0426_F7">
          <speaker>Fanny.</speaker>
          <p>Oh, monstrous! I'm sure you shewed a very proper spirit in running away.</p>
       </sp>
-      <sp>
+      <sp who="#L0426_F6">
          <speaker>Emily.</speaker>
          <p>To be sure I did, and have now only to pass four more months, and then my minority will be over, and my guardian's power must cease. So, in this disguise, which surely cannot be detected, we will quietly abide in some sequestered village like this, until the time comes for us to return to gayer scenes.</p>
       </sp>
-      <sp>
+      <sp who="#L0426_F7">
          <speaker>Fanny.</speaker>
          <p>Who would dream of finding the sentimental Miss Emily, disguised as a brave, careless, dashing young officer, or the admired Fanny, figuring away as the soldier's valet.</p>
       </sp>
-      <sp>
+      <sp who="#L0426_F6">
          <speaker>Emily.</speaker>
          <p>Ha, ha! I see you are not averse to paying yourself a slight compliment, Fanny.</p>
       </sp>
-      <sp>
+      <sp who="#L0426_F7">
          <speaker>Fanny.</speaker>
          <p>Indeed, I am not, my lady, for the truth is, this ugly dress does so hide and disfigure the charms of ones person, that if I didn't occasionally compliment myself, I shouldn't have a civil word said to me from morning till night.</p>
       </sp>
-      <sp>
+      <sp who="#L0426_F6">
          <speaker>Emily.</speaker>
          <p>Now let us see how we can manage our assumed characters; suppose we were equals, and suppose we quarrel. Now for it, ahem! Sir—r—r do you mean to insult me,<pb n="7"/> sir—r—r, I who have winged my 20's in duels, slain my 50's in skirmishes, and my 100's in general battles, sir—r—r—r, how dare you say so, sir ?</p>
       </sp>
-      <sp>
+      <sp who="#L0426_F7">
          <speaker>Fanny.</speaker>
          <p>I dare say anything, sir—r—r.</p>
       </sp>
-      <sp>
+      <sp who="#L0426_F6">
          <speaker>Emily.</speaker>
          <p>That's excellent. That may be, sir, but sir, you must expect to be called to an account for your words, sir.</p>
       </sp>
-      <sp>
+      <sp who="#L0426_F7">
          <speaker>Fanny.</speaker>
          <p>When required by a gentleman to do so, I shall not disregard the summons.</p>
       </sp>
-      <sp>
+      <sp who="#L0426_F6">
          <speaker>Emily.</speaker>
          <p>That expression must be atoned for, draw.</p>
       </sp>
-      <sp>
+      <sp who="#L0426_F7">
          <speaker>Fanny.</speaker>
          <p>I haven't got a sword.</p>
       </sp>
-      <sp>
+      <sp who="#L0426_F6">
          <speaker>Emily.</speaker>
          <p>And I don't think I can get mine out. <stage>(fumbles at sword.)</stage></p>
       </sp>
-      <sp>
+      <sp who="#L0426_F7">
          <speaker>Fanny.</speaker>
          <p>You don't manage that very well.</p>
       </sp>
-      <sp>
+      <sp who="#L0426_F6">
          <speaker>Emily.</speaker>
          <p>Wait an instant, and I—<stage>(draws sword and flourishes it about.)</stage></p>
       </sp>
-      <sp>
+      <sp who="#L0426_F7">
          <speaker>Fanny.</speaker>
          <p><stage>(screaming and retreating.)</stage> Oh, I surrender, I surrender!</p>
       </sp>
-      <sp>
+      <sp who="#L0426_F6">
          <speaker>Emily.</speaker>
          <p>You must beg my pardon, sir.</p>
       </sp>
-      <sp>
+      <sp who="#L0426_F7">
          <speaker>Fanny.</speaker>
          <p>Oh, I do, I do, only put that ugly looking thing away. <stage>(gun fired without, both scream—Emily drops sword.)</stage> Oh, gracious goodness, how it frightened me.</p>
       </sp>
-      <sp>
+      <sp who="#L0426_F6">
          <speaker>Emily.</speaker>
          <p>And so it did me; but see, see yonder comes a gentleman and his servant. Fanny, give me that sword; remember what I told you, keep up your disguise well, and above all don't forget that a bold face is half the battle.</p>
       </sp>
       <stage>Enter Daring, with a gun, followed by John, R. H.</stage>
-      <sp>
+      <sp who="#L0426_M2">
          <speaker>Daring.</speaker>
          <p>Take my gun, John, I shall shoot no more to day ; and—ah! here, just at the right moment is a tavern, and a welcome sight it is, for I am both weary and thirsty.</p>
       </sp>
-      <sp>
+      <sp who="#L0426_M3">
          <speaker>John.</speaker>
          <p>Ditto, ditto.</p>
       </sp>
-      <sp>
+      <sp who="#L0426_M2">
          <speaker>Daring.</speaker>
          <p>A stranger here, and a brother soldier, I perceive. Good day, sir. <stage>(both bow.)</stage></p>
       </sp>
-      <sp>
+      <sp who="#L0426_F6">
          <speaker>Emily.</speaker>
          <p>Good day to you—you have been sporting I perceive.</p>
       </sp>
-      <sp>
+      <sp who="#L0426_M2">
          <speaker>Daring.</speaker>
          <p>Why, yes, a little. The truth is, after an absence of several years from England, I am now on my return to London, but as I have few friends there whom I am very anxious to see, and many in this part of the country at whose houses I am welcome, I proceed very leisurely on my journey. Are you a stranger here ?</p>
       </sp>
-      <sp>
+      <sp who="#L0426_F6">
          <speaker>Emily.</speaker>
          <p>Oh no! I have only stolen away for a few days from the enervating pleasures of the capital, to recruit health amid rural scenes and enjoyments.</p>
       </sp>
-      <sp>
+      <sp who="#L0426_M2">
          <speaker>Daring.</speaker>
          <p>I am glad chance has directed me hither, and shall <pb n="8"/>be most happy to make an acquaintance with one who I see is in the same profession as myself.</p>
       </sp>
-      <sp>
+      <sp who="#L0426_F6">
          <speaker>Emily.</speaker>
          <p>The happiness will be mutual, I assure you. Yes, I am a brother soldier, as you call it, and let me tell you I have seen hard service, too.</p>
       </sp>
-      <sp>
+      <sp who="#L0426_M2">
          <speaker>Daring.</speaker>
          <p>Indeed! I should scarcely have fancied so from your appearance.</p>
       </sp>
-      <sp>
+      <sp who="#L0426_F6">
          <speaker>Emily.</speaker>
          <p>Oh, appearances—hem ! are very deceptive.</p>
       </sp>
-      <sp>
+      <sp who="#L0426_M2">
          <speaker>Daring.</speaker>
          <p>Yes, that's true,</p>
       </sp>
-      <sp>
+      <sp who="#L0426_F7">
          <speaker>Fanny.</speaker>
          <p><stage>(aside.)</stage> Yes, and so you'd think if you knew all.</p>
       </sp>
-      <sp>
+      <sp who="#L0426_F6">
          <speaker>Emily.</speaker>
          <p>Why, let me tell you, I have been in fifty-three engagements.</p>
       </sp>
-      <sp>
+      <sp who="#L0426_M2">
          <speaker>Daring.</speaker>
          <p><stage>(R. C.)</stage> Is it possible ?</p>
       </sp>
-      <sp>
+      <sp who="#L0426_F7">
          <speaker>Fanny.</speaker>
          <p>Oh, good gracious!</p>
       </sp>
-      <sp>
+      <sp who="#L0426_F6">
          <speaker>Emily.</speaker>
          <p>Indeed,'tis true—<stage>(aside.)</stage>—or false. Yes, hundreds have fallen beneath my victorious blade; my timely arival has thrice decided the fate of battles. I have received the personal thanks of my sovereign, and a splendid piece of plate from my grateful countrymen.</p>
       </sp>
-      <sp>
+      <sp who="#L0426_M2">
          <speaker>Daring.</speaker>
          <p>Then, sir, you have mixed in the highest society ?</p>
       </sp>
-      <sp>
+      <sp who="#L0426_F6">
          <speaker>Emily.</speaker>
          <p>The highest of all.</p>
       </sp>
-      <sp>
+      <sp who="#L0426_M2">
          <speaker>Daring.</speaker>
          <p>Indeed!</p>
       </sp>
-      <sp>
+      <sp who="#L0426_F6">
          <speaker>Emily.</speaker>
          <p>Ah, indeed, that's nothing to what I could tell you. And then the women—the dear lovely women, adore me ; the men envy me, and, in fact, there are few more distinguished men in his majesty's army. <stage>(aside.)</stage> Ahem! well done spirit— hey Fanny?</p>
       </sp>
-      <sp>
+      <sp who="#L0426_F7">
          <speaker>Fanny.</speaker>
          <p>Oh, it's astonishing!</p>
       </sp>
-      <sp>
+      <sp who="#L0426_M2">
          <speaker>Daring.</speaker>
          <p>This young fellow is either much older or more experienced than he looks, or else he is nothing but a new edition of Baron Munchausen, abridged and altered—I'll ascertain which. Well, sir, I am most happy to meet you, and by the bye, whom have I the honour of addressing ?</p>
       </sp>
-      <sp>
+      <sp who="#L0426_F6">
          <speaker>Emily.</speaker>
          <p>Ahem ! I—I am Captain Daring.</p>
       </sp>
-      <sp>
+      <sp who="#L0426_M2">
          <speaker>Daring.</speaker>
          <p>Captain Daring!</p>
       </sp>
-      <sp>
+      <sp who="#L0426_F6">
          <speaker>Emily.</speaker>
          <p>Yes, Captain Ernest Daring.</p>
       </sp>
-      <sp>
+      <sp who="#L0426_M2">
          <speaker>Daring.</speaker>
          <p>Captain Ernest Daring !</p>
       </sp>
-      <sp>
+      <sp who="#L0426_F6">
          <speaker>Emily.</speaker>
          <p>Yes, and there is my card. <stage>(gives it.)</stage></p>
       </sp>
-      <sp>
+      <sp who="#L0426_M2">
          <speaker>Daring.</speaker>
          <p>Your card! <stage>(aside.)</stage> Zounds and the devil—why, it's just like my card. <stage>(they go up.)</stage></p>
       </sp>
-      <sp>
+      <sp who="#L0426_M3">
          <speaker>John.</speaker>
          <p><stage>(R.)</stage> I say, young man, as our masters are becoming acquainted, we may as well do the same.</p>
       </sp>
-      <sp>
+      <sp who="#L0426_F7">
          <speaker>Fanny.</speaker>
          <p>Oh, with all my heart, I'm not above speaking to anybody.</p>
       </sp>
-      <sp>
+      <sp who="#L0426_M3">
          <speaker>John.</speaker>
          <p>You're a very smart little fellow yourself, and your master's not amiss,</p>
       </sp><pb n="9"/>
-      <sp>
+      <sp who="#L0426_F7">
          <speaker>Fanny.</speaker>
          <p><stage>(aside.)</stage> Not amiss ? That's more than you know.</p>
       </sp>
-      <sp>
+      <sp who="#L0426_M3">
          <speaker>John.</speaker>
          <p>Pray what may your name be ?</p>
       </sp>
-      <sp>
+      <sp who="#L0426_F7">
          <speaker>Fanny.</speaker>
          <p>My name is John Stock.</p>
       </sp>
-      <sp>
+      <sp who="#L0426_M3">
          <speaker>John.</speaker>
          <p>John Stock! I wonder if he comes from the same stock as myself!</p>
       </sp>
-      <sp>
+      <sp who="#L0426_F7">
          <speaker>Fanny.</speaker>
          <p>And that's my master. I have the honour to be valet to Captain Ernest Daring.</p>
       </sp>
-      <sp>
+      <sp who="#L0426_M3">
          <speaker>John.</speaker>
          <p>Valet to Captain Ernest Daring ?</p>
       </sp>
-      <sp>
+      <sp who="#L0426_F7">
          <speaker>Fanny.</speaker>
          <p>Precisely so. <stage>(aside.)</stage> He believes every word.</p>
       </sp>
-      <sp>
+      <sp who="#L0426_F6">
          <speaker>Emily.</speaker>
          <p><stage>(advances, l. c.)</stage> I think I've astonished my young spark here. I'm charmed!</p>
       </sp>
-      <sp>
+      <sp who="#L0426_F7">
          <speaker>Fanny.</speaker>
          <p><stage>(L.)</stage> I'm delighted !</p>
       </sp>
-      <sp>
+      <sp who="#L0426_M2">
          <speaker>Daring.</speaker>
          <p><stage>(R. C.)</stage> I'm astonished !</p>
       </sp>
-      <sp>
+      <sp who="#L0426_M3">
          <speaker>John.</speaker>
          <p><stage>(R.)</stage> I'm struck dumb!</p>
       </sp>
       <stage>Enter Roland, from house, L. H. 3 E.</stage>
-      <sp>
+      <sp who="#L0426_M5">
          <speaker>Roland.</speaker>
          <p>Dinner is laid out, gentlemen. The wine has been changed, sir—<stage>(to Emily.)</stage>—and everything is now comfortable and worthy of the Black Eagle and its celebrated landlord.</p>
       </sp>
-      <sp>
+      <sp who="#L0426_F6">
          <speaker>Emily.</speaker>
          <p>Then I go to dinner. Sir, will you honour me with your company?</p>
       </sp>
-      <sp>
+      <sp who="#L0426_M2">
          <speaker>Daring.</speaker>
          <p>With pleasure; but excuse me for a moment, I would speak with my servant.</p>
       </sp>
-      <sp>
+      <sp who="#L0426_F6">
          <speaker>Emily.</speaker>
          <p>Certainly. Follow me, John.</p>
       </sp>
       <stage>Exeunt Emily, Fanny, and Roland, into house.</stage>
-      <sp>
+      <sp who="#L0426_M3">
          <speaker>John.</speaker>
          <p>Oh, master! I've such an extraordinary thing to tell you.</p>
       </sp>
-      <sp>
+      <sp who="#L0426_M2">
          <speaker>Daring.</speaker>
          <p>Nothing to what I have to tell you.</p>
       </sp>
-      <sp>
+      <sp who="#L0426_M3">
          <speaker>John.</speaker>
          <p>Isn't it though. Why, do you know, sir—</p>
       </sp>
-      <sp>
+      <sp who="#L0426_M2">
          <speaker>Daring.</speaker>
          <p>Yes, and do you know—</p>
       </sp>
-      <sp>
+      <sp who="#L0426_M3">
          <speaker>John.</speaker>
          <p>That—that man's name is John Stock.</p>
       </sp>
-      <sp>
+      <sp who="#L0426_M2">
          <speaker>Daring.</speaker>
          <p>What, the valet ?</p>
       </sp>
-      <sp>
+      <sp who="#L0426_M3">
          <speaker>John.</speaker>
          <p>The valet's name is John Stock.</p>
       </sp>
-      <sp>
+      <sp who="#L0426_M2">
          <speaker>Daring.</speaker>
          <p>And the master is, Captain Ernest Daring. Oh, this is past belief—the world's turned upside down, and chaos is come down again. <stage>(they both walk about.)</stage></p>
       </sp>
-      <sp>
+      <sp who="#L0426_M3">
          <speaker>John.</speaker>
          <p>As Shakespeare says—"He who steals my purse, steals trash, but he that filches from me my good name, robs me of that which is not worth two-pence, and don't leave a halfpenny in my pocket."</p>
       </sp>
-      <sp>
+      <sp who="#L0426_M2">
          <speaker>Daring.</speaker>
          <p>That is either some paltry attempt at jesting or impudent deception ; if it be the latter, I'll teach the impertinent jackanapes how to trifle with me.</p>
       </sp>
-      <sp>
+      <sp who="#L0426_M3">
          <speaker>John.</speaker>
          <p>And if the little valet presumes to take the liberty of stealing my name, I shall take the liberty of dusting his jacket. <stage>(noise of whip cracking without.</stage></p>
       </sp><pb n="10"/>
       <stage>Enter Roland, from house, L. H.</stage>
-      <sp>
+      <sp who="#L0426_M5">
          <speaker>Roland.</speaker>
          <p>More travellers ! that's all right—the Black Eagle is a thriving bird. Most worthy sir, what name shall I have the honour of placing amid my list of arrivals ?</p>
       </sp>
-      <sp>
+      <sp who="#L0426_M2">
          <speaker>Daring.</speaker>
          <p>I am Captain Daring, and Captain Ernest Daring I mean to remain, in spite of every one.</p>
       </sp>
-      <sp>
+      <sp who="#L0426_M3">
          <speaker>John.</speaker>
          <p><stage>(crosses C.)</stage> And I am John Stock, the captain's valet, and not a living soul shall pursuade me I am not myself.</p>
       </sp>
-      <sp>
+      <sp who="#L0426_M5">
          <speaker>Roland.</speaker>
          <p>Enough, sir, I will enter your names immediately.</p>
       </sp>
       <stage>(looks and speaks off.) This way, gentlemen—this way.</stage>
       <stage>(Emily appears at door.</stage>
-      <sp>
+      <sp who="#L0426_F6">
          <speaker>Emily.</speaker>
          <p>Come, sir, I am waiting for you.</p>
       </sp>
-      <sp>
+      <sp who="#L0426_M2">
          <speaker>Daring.</speaker>
          <p>Sir, you are very polite, I attend you. Now to find out the truth.</p>
       </sp>
-      <sp>
+      <sp who="#L0426_F6">
          <speaker>Emily.</speaker>
          <p>And now, sir, permit me to lead the way to where the welcome meal awaits us. But, first, I really must tell you such a famous joke. I—ha, ha, ha! I can scarcely speak for laughing—ha, ha, ha! do you know that I—ha, ha, ha! <stage>(General speaks without.)</stage> Oh, my good gracious! my guardian—I'm off. <stage>Exit suddenly into house.</stage></p>
       </sp>
-      <sp>
+      <sp who="#L0426_M2">
          <speaker>Daring.</speaker>
          <p>Why, what the devil does all this mean ?</p>
       </sp>
-      <sp>
+      <sp who="#L0426_M3">
          <speaker>John.</speaker>
          <p>Now you've hit it—it is the devil, and nothing else.</p>
       </sp>
-      <sp>
+      <sp who="#L0426_M2">
          <speaker>Daring.</speaker>
          <p>Silence, sir, and follow me. I must unravel this mystery—upon that I am determined. <stage>Exit into house, L. H.</stage></p>
       </sp>
-      <sp>
+      <sp who="#L0426_M3">
          <speaker>John.</speaker>
          <p>Yes, and I'm determined upon something too—I'm determined to ascertain whether the world is really fortunate enough to have two men like my master, and two John Stockses, like myself. <stage>Exit into house.</stage></p>
       </sp>
       <stage>Enter General Stormwell and Halbert, R. H. U. E.</stage>
-      <sp>
+      <sp who="#L0426_M5">
          <speaker>Roland.</speaker>
          <p>Welcome, sir, to the Black Eagle. Permit me to assure you that everything here is of the finest quality—wines of the most delicious flavour; coffee, superb ; capons, delicious ; soups most eminent—</p>
       </sp>
-      <sp>
+      <sp who="#L0426_M1">
          <speaker>General.</speaker>
          <p>Will you permit me to speak, sir?</p>
       </sp>
-      <sp>
+      <sp who="#L0426_M5">
          <speaker>Roland.</speaker>
          <p>Most certainly, sir. All I wish you to understand is, that the wines and refreshments generally, of the Black Eagle, are of the most superlative description.</p>
       </sp>
-      <sp>
+      <sp who="#L0426_M1">
          <speaker>General.</speaker>
          <p>That's what all innkeepers say.</p>
       </sp>
-      <sp>
+      <sp who="#L0426_M5">
          <speaker>Roland.</speaker>
          <p>Yes, but most innkeepers are very great boasters. Now I never say anything but the truth, and though I don't wish you to think me vain, I really must say that—</p>
       </sp>
-      <sp>
+      <sp who="#L0426_M1">
          <speaker>General.</speaker>
          <p>Halbert, stop that fellow's mouth. <stage>(crosses r. h.)</stage></p>
       </sp>
-      <sp>
+      <sp who="#L0426_M4">
          <speaker>Halbert.</speaker>
          <p>Silence ! fall back. <stage>(puts him back.)</stage></p>
       </sp><pb n="11"/>
-      <sp>
+      <sp who="#L0426_M1">
          <speaker>General.</speaker>
          <p>now, hear me. Have you any one staying here ?</p>
       </sp>
-      <sp>
+      <sp who="#L0426_M5">
          <speaker>Roland.</speaker>
          <p>Sir, the Black Eagle has always plenty of visitors, and how is that to be wondered at, when we consider how amply the larder is provided—how well the cellars are filled— how speedily all wants are supplied, and how polite and obliging the host is. <stage>(bows.)</stage></p>
       </sp>
-      <sp>
+      <sp who="#L0426_M1">
          <speaker>General.</speaker>
          <p>I shall go mad! Silence, you'll talk me to death! Hence, and let me see your list of guests. Away— fetch it.</p>
       </sp>
-      <sp>
+      <sp who="#L0426_M5">
          <speaker>Roland.</speaker>
          <p>Sir, you shall be obeyed; but ere I go, permit me to enumerate what I can place before you for dinner. First of all—</p>
       </sp>
-      <sp>
+      <sp who="#L0426_M1">
          <speaker>General.</speaker>
          <p>Halbert?</p>
       </sp>
-      <sp>
+      <sp who="#L0426_M4">
          <speaker>Halbert.</speaker>
          <p><stage>(to Roland.)</stage> Right about face—<stage>(turns him round.)</stage>—quick march! <stage>(walks him up to house, pushes him in, then returns.)</stage></p>
       </sp>
-      <sp>
+      <sp who="#L0426_M1">
          <speaker>General.</speaker>
          <p>Yes, Halbert, as I was telling you, I have little or no doubt but what I shall recover my ward.</p>
       </sp>
-      <sp>
+      <sp who="#L0426_M4">
          <speaker>Halbert.</speaker>
          <p>As how, General ?</p>
       </sp>
-      <sp>
+      <sp who="#L0426_M1">
          <speaker>General.</speaker>
          <p>Why because I have discovered the disguise in which she escaped—the name which she has assumed—the route she has taken.</p>
       </sp>
-      <sp>
+      <sp who="#L0426_M4">
          <speaker>Halbert.</speaker>
          <p>Then I presume she will have to take a retrograde movement.</p>
       </sp>
-      <sp>
+      <sp who="#L0426_M1">
          <speaker>General.</speaker>
          <p>Precisely so ; the fact is, that one of her attendants who did not think herself sufficiently rewarded by her mistress, has betrayed the secret to me.</p>
       </sp>
-      <sp>
+      <sp who="#L0426_M4">
          <speaker>Halbert.</speaker>
          <p>A deserter.</p>
       </sp>
-      <sp>
+      <sp who="#L0426_M1">
          <speaker>General.</speaker>
          <p>And I have discovered that the forward puss purchased the dress of an officer, and assuming the name of Captain Daring, took this road, while the slut, Fanny, likewise dressed as a man, accompanied her as her valet.</p>
       </sp>
-      <sp>
+      <sp who="#L0426_M4">
          <speaker>Halbert.</speaker>
          <p>Such things are against all military regulations.</p>
       </sp>
-      <sp>
+      <sp who="#L0426_M1">
          <speaker>General.</speaker>
          <p>Now, as I approached towards this house, I noticed some person or persons at the door wearing military dresses, and it strikes me that this may be her, so we will examine the innkeeper's list of guests—and here he comes.</p>
       </sp>
       <stage>Enter Mary from house, with book.</stage>
-      <sp>
+      <sp who="#L0426_M1">
          <speaker>General.</speaker>
          <p>No, as I live, a very pretty litle girl instead.</p>
       </sp>
-      <sp>
+      <sp who="#L0426_M4">
          <speaker>Halbert.</speaker>
          <p>Very pretty, indeed! <stage>(gives military salute to Mary.)</stage></p>
       </sp>
-      <sp>
+      <sp who="#L0426_F8">
          <speaker>Mary.</speaker>
          <p><stage>(curtseying.)</stage> If you please, sir, this is our present list of names. <stage>(presents book to halbert.)</stage></p>
       </sp>
-      <sp>
+      <sp who="#L0426_M1">
          <speaker>General.</speaker>
          <p>Give it to me, child.</p>
       </sp><pb n="12"/>
-      <sp>
+      <sp who="#L0426_F8">
          <speaker>Mary.</speaker>
          <p>To you? oh, very well—only I thought your master would like to look at it first.</p>
       </sp>
-      <sp>
+      <sp who="#L0426_M1">
          <speaker>General.</speaker>
          <p><stage>(takes paper.)</stage> My master ? Zounds! what do you mean ?</p>
       </sp>
-      <sp>
+      <sp who="#L0426_M4">
          <speaker>Halbert.</speaker>
          <p>That's my master, and I'm his servant.</p>
       </sp>
-      <sp>
+      <sp who="#L0426_F8">
          <speaker>Mary.</speaker>
          <p>Oh, dear sir, I'm sure I beg pardon. I'm very sorry, I thought you were master.</p>
       </sp>
-      <sp>
+      <sp who="#L0426_M1">
          <speaker>General.</speaker>
          <p>And why did you think he was master ?</p>
       </sp>
-      <sp>
+      <sp who="#L0426_F8">
          <speaker>Mary.</speaker>
          <p>Because he was the most polite, sir.</p>
       </sp>
-      <sp>
+      <sp who="#L0426_M1">
          <speaker>General.</speaker>
          <p>Humph! that's a very poor compliment—let it pass. I must examine my list first. Eh ? as I live, the very name! Captain Ernest daring!</p>
       </sp>
-      <sp>
+      <sp who="#L0426_F8">
          <speaker>Mary.</speaker>
          <p>Yes, sir ; the captain has just arrived here with his servant, John Stock.</p>
       </sp>
-      <sp>
+      <sp who="#L0426_M1">
          <speaker>General.</speaker>
          <p>Do you hear that, Halbert ?</p>
       </sp>
-      <sp>
+      <sp who="#L0426_M4">
          <speaker>Halbert.</speaker>
          <p>Yes, General!</p>
       </sp>
-      <sp>
+      <sp who="#L0426_M1">
          <speaker>General.</speaker>
          <p>The bold wench shall find that I am not to be trifled with.</p>
       </sp>
-      <sp>
+      <sp who="#L0426_F8">
          <speaker>Mary.</speaker>
          <p>Why, who, or what does he mean ?</p>
       </sp>
-      <sp>
+      <sp who="#L0426_M1">
          <speaker>General.</speaker>
          <p>What do you think of this, Halbert ?</p>
       </sp>
-      <sp>
+      <sp who="#L0426_M4">
          <speaker>Halbert.</speaker>
          <p>I think you had better take her home as soon as possible.</p>
       </sp>
-      <sp>
+      <sp who="#L0426_F8">
          <speaker>Mary.</speaker>
          <p><stage>(aside.)</stage> Take her home! I'm dying with curiosity.</p>
       </sp>
-      <sp>
+      <sp who="#L0426_M1">
          <speaker>General.</speaker>
          <p>And so I will. I'll teach her how to go about in men's clothes! I'll teach her how to assume the name of so brave an officer as Captain Daring !</p>
       </sp>
-      <sp>
+      <sp who="#L0426_F8">
          <speaker>Mary.</speaker>
          <p>Why, my good gracious! Then Captain Daring is nothing but a woman in disguise. Oh, my goodness ! <hi>won't</hi> I have some fun with her! <stage>Exit R.H.</stage></p>
       </sp>
-      <sp>
+      <sp who="#L0426_M1">
          <speaker>General.</speaker>
          <p>I'll confide the secret to the talkative innkeeper. In case she resists, he must assist us.</p>
       </sp>
-      <sp>
+      <sp who="#L0426_M4">
          <speaker>Halbert.</speaker>
          <p>He is here.</p>
       </sp>
       <stage>Enter Roland from house.</stage>
-      <sp>
+      <sp who="#L0426_M5">
          <speaker>Roland.</speaker>
          <p>Now, most worthy sir, refreshments are prepared as delicious in quality as they are abundant in quantity—as elegant in appearance as they are substantial in—</p>
       </sp>
-      <sp>
+      <sp who="#L0426_M1">
          <speaker>General.</speaker>
          <p>Silence! silence, I say. Listen to me. You have a captain in your house at this moment.</p>
       </sp>
-      <sp>
+      <sp who="#L0426_M5">
          <speaker>Roland.</speaker>
          <p>Sir, I have; and though I don't wish to be thought a boaster, I must say that the company frequenting my house is of the very first—</p>
       </sp>
-      <sp>
+      <sp who="#L0426_M1">
          <speaker>General.</speaker>
          <p>Silence ! That pretended captain is—</p>
       </sp>
-      <sp>
+      <sp who="#L0426_M5">
          <speaker>Roland.</speaker>
          <p>Is a particular friend of mine—very often does me the honour of a call, and is—</p>
       </sp>
-      <sp>
+      <sp who="#L0426_M1">
          <speaker>General.</speaker>
          <p>And is a runaway ward of mine—a woman under <pb n="13"/>age in disguise ; a wilful girl, whom I mean to take back with me instantly, and afterwards punish you for harbouring her.</p>
       </sp>
-      <sp>
+      <sp who="#L0426_M5">
          <speaker>Roland.</speaker>
          <p>A girl in disguise ! punish me for harbouring her. Worthy sir, I never saw her before to-day, I assure you.</p>
       </sp>
-      <sp>
+      <sp who="#L0426_M4">
          <speaker>Halbert.</speaker>
          <p>Ahem! a retreat is necessary.</p>
       </sp>
-      <sp>
+      <sp who="#L0426_M5">
          <speaker>Roland.</speaker>
          <p>Be merciful, great sir ; I did not know her ladyship was a woman—I took her for a man.</p>
       </sp>
-      <sp>
+      <sp who="#L0426_M4">
          <speaker>Halbert.</speaker>
          <p>Pah ! take a woman to be a man ? impossible.</p>
       </sp>
-      <sp>
+      <sp who="#L0426_M5">
          <speaker>Roland.</speaker>
          <p>And as to what I said about her coming here often —why that was quite a mistake.</p>
       </sp>
-      <sp>
+      <sp who="#L0426_M1">
          <speaker>General.</speaker>
          <p>Silence! you will not mend your cause by chattering. Find this deceitful girl—instantly send her to me. Follow me, Halbert, and see that the carriage is quite in readiness—once secured, we'll lose no time in transferring her to a more fitting residence than a public tavern.</p>
       </sp>
       <stage>Exeunt, followed by Halbert, R. H. U. E.</stage>
-      <sp>
+      <sp who="#L0426_M5">
          <speaker>Roland.</speaker>
          <p>Well, who could possibly have thought that Captain Daring was nothing but a woman dressed like a man ! She must be a very tall big girl, and his mustachios must be false, too ! What a deceitful world we live in. Hallo! here my lady comes. Now to let her see I am up to snuff.</p>
       </sp>
       <stage>Enter Captain Daring, from the house.</stage>
-      <sp>
+      <sp who="#L0426_M2">
          <speaker>Daring.</speaker>
          <p>Well, really this is a most astonishing sort of a house. I cannot understand half that occurs. There's that young officer will insist that his name is Ernest Daring, and really asserts it with such apparent sincerity, that I begin to think it must be so, and that I've mistaken myself for somebody else.</p>
       </sp>
-      <sp>
+      <sp who="#L0426_M5">
          <speaker>Roland.</speaker>
          <p><stage>(aside—L.)</stage> What a strapping hussey ! I say—ahem —you understand—</p>
       </sp>
-      <sp>
+      <sp who="#L0426_M2">
          <speaker>Daring.</speaker>
          <p><stage>(R.)</stage> No, I'll be hanged if I do!</p>
       </sp>
-      <sp>
+      <sp who="#L0426_M5">
          <speaker>Roland.</speaker>
          <p>I've found it all out.</p>
       </sp>
-      <sp>
+      <sp who="#L0426_M2">
          <speaker>Daring.</speaker>
          <p>Have you really ?</p>
       </sp>
-      <sp>
+      <sp who="#L0426_M5">
          <speaker>Roland.</speaker>
          <p>I know who you are.</p>
       </sp>
-      <sp>
+      <sp who="#L0426_M2">
          <speaker>Daring.</speaker>
          <p>Well, I'm glad to hear it—for I began to think I did not know myself.</p>
       </sp>
-      <sp>
+      <sp who="#L0426_M5">
          <speaker>Roland.</speaker>
          <p>Your name isn't Daring.</p>
       </sp>
-      <sp>
+      <sp who="#L0426_M2">
          <speaker>Daring.</speaker>
          <p>The devil it isn't.</p>
       </sp>
-      <sp>
+      <sp who="#L0426_M5">
          <speaker>Roland.</speaker>
          <p>You are not what you seem.</p>
       </sp>
-      <sp>
+      <sp who="#L0426_M2">
          <speaker>Daring.</speaker>
          <p>Indeed! then have the goodness to tell me who I am.</p>
       </sp>
-      <sp>
+      <sp who="#L0426_M5">
          <speaker>Roland.</speaker>
          <p>I know.</p>
       </sp>
-      <sp>
+      <sp who="#L0426_M2">
          <speaker>Daring.</speaker>
          <p>Well, tell me, for I should like to know.</p>
       </sp>
-      <sp>
+      <sp who="#L0426_M5">
          <speaker>Roland.</speaker>
          <p>He, he, he! I say, where did you buy those moustachios? they're very good imitations of real ones.</p>
       </sp><pb n="14"/>
-      <sp>
+      <sp who="#L0426_M2">
          <speaker>Daring.</speaker>
          <p>My mustachios not real! why, you impudent—</p>
       </sp>
-      <sp>
+      <sp who="#L0426_M5">
          <speaker>Roland.</speaker>
          <p>Hush—hush! don't pretend to be angry—I know all about it. Oh, you sly puss!</p>
       </sp>
-      <sp>
+      <sp who="#L0426_M2">
          <speaker>Daring.</speaker>
          <p>Puss ! you scoundrel! <stage>(seizes him.)</stage> Speak ! tell me what you mean, or I'll shake you to atoms! <stage>(shakes him.)</stage></p>
       </sp>
-      <sp>
+      <sp who="#L0426_M5">
          <speaker>Roland.</speaker>
          <p>Here's a virago! let me go.</p>
       </sp>
-      <sp>
+      <sp who="#L0426_M2">
          <speaker>Daring.</speaker>
          <p>Explain your words—let me know what you mean ?</p>
       </sp>
-      <sp>
+      <sp who="#L0426_M5">
          <speaker>Roland.</speaker>
          <p>I will—I will, only let me go.</p>
       </sp>
-      <sp>
+      <sp who="#L0426_M2">
          <speaker>Daring.</speaker>
          <p>There, then—now.</p>
       </sp>
-      <sp>
+      <sp who="#L0426_M5">
          <speaker>Roland.</speaker>
          <p>You've almost shaken me to pieces! I now feel that I was mistaken ; but really, the truth is, I—I thought you were a woman.</p>
       </sp>
-      <sp>
+      <sp who="#L0426_M2">
          <speaker>Daring.</speaker>
          <p>A woman; Why you insolent jackanapes! Away —quit my sight, or I shall certainly kill you !</p>
       </sp>
-      <sp>
+      <sp who="#L0426_M5">
          <speaker>Roland.</speaker>
          <p>I go, sir—I'll go. Well if this is a woman, all I can say is, that she's a very masculine one; <stage>Exit into house.</stage></p>
       </sp>
-      <sp>
+      <sp who="#L0426_M2">
          <speaker>Daring.</speaker>
          <p>To think that I should ever live to be taken for a woman ! but I'll penetrate to the bottom of this mystery—I'll find out what it all means. Take me for a woman ! S'death! it's enough to drive one mad.</p>
       </sp>
       <stage>Enter Mary, R. H.</stage>
-      <sp>
+      <sp who="#L0426_F8">
          <speaker>Mary.</speaker>
          <p>There she is. Now to let her see that I have discovered her. Hist, hist, captain !</p>
       </sp>
-      <sp>
+      <sp who="#L0426_M2">
          <speaker>Daring.</speaker>
          <p>Well, my dear, what do you want ?</p>
       </sp>
-      <sp>
+      <sp who="#L0426_F8">
          <speaker>Mary.</speaker>
          <p>I have something particular to say to you.</p>
       </sp>
-      <sp>
+      <sp who="#L0426_M2">
          <speaker>Daring.</speaker>
          <p>Speak on then—something strange I suppose.</p>
       </sp>
-      <sp>
+      <sp who="#L0426_F8">
          <speaker>Mary.</speaker>
          <p>Well, then. Hum, hum! pray spare my blushes, but the fact is, I'm a very innocent young person, that—La, what a pretty mustachios! <stage>(pulls them.)</stage></p>
       </sp>
-      <sp>
+      <sp who="#L0426_M2">
          <speaker>Daring.</speaker>
          <p>Upon my word this is making rather free for an innocent young woman.</p>
       </sp>
-      <sp>
+      <sp who="#L0426_F8">
          <speaker>Mary.</speaker>
          <p>Do you know I quite love you.</p>
       </sp>
-      <sp>
+      <sp who="#L0426_M2">
          <speaker>Daring.</speaker>
          <p>Do you, really ?</p>
       </sp>
-      <sp>
+      <sp who="#L0426_F8">
          <speaker>Mary.</speaker>
          <p>Indeed I do—I really doat upon you!</p>
       </sp>
-      <sp>
+      <sp who="#L0426_M2">
          <speaker>Daring.</speaker>
          <p>Indeed! She's very pretty; well, there's a comfort in that.</p>
       </sp>
-      <sp>
+      <sp who="#L0426_F8">
          <speaker>Mary.</speaker>
          <p>Do you love me ?</p>
       </sp>
-      <sp>
+      <sp who="#L0426_M2">
          <speaker>Daring.</speaker>
          <p>Why, how can I help it? It's natural to love, when one is loved. <stage>(putting his arm round her waist.)</stage> 'Pon my soul, this is the best part of the affair—she's a very nice girl.</p>
       </sp>
-      <sp>
+      <sp who="#L0426_F8">
          <speaker>Mary.</speaker>
          <p>What assurance the mynx has ! You may kiss me, if you like.</p>
       </sp>
-      <sp>
+      <sp who="#L0426_M2">
          <speaker>Daring.</speaker>
          <p>May I ? a thousand thanks! <stage>(kisses her.)</stage></p>
       </sp>
-      <sp>
+      <sp who="#L0426_F8">
          <speaker>Mary.</speaker>
          <p><stage>(shrinking from him.)</stage> Oh my good gracious! If that was a woman's kiss I'll be hanged!</p>
       </sp><pb n="15"/>
-      <sp>
+      <sp who="#L0426_M2">
          <speaker>Daring.</speaker>
          <p>What did you say ?</p>
       </sp>
-      <sp>
+      <sp who="#L0426_F8">
          <speaker>Mary.</speaker>
          <p>And now I look at him again, I'm sure he's not a woman. What a fool I've been making of myself! good day, sir, good day.</p>
       </sp>
-      <sp>
+      <sp who="#L0426_M2">
          <speaker>Daring.</speaker>
          <p>Stay. After what you have told me—</p>
       </sp>
-      <sp>
+      <sp who="#L0426_F8">
          <speaker>Mary.</speaker>
          <p>What I have told is nothing, don't believe a word of it; the truth is, I—I thought—</p>
       </sp>
-      <sp>
+      <sp who="#L0426_M2">
          <speaker>Daring.</speaker>
          <p>Thought what?</p>
       </sp>
-      <sp>
+      <sp who="#L0426_F8">
          <speaker>Mary.</speaker>
          <p>I thought—ha, ha! why, really—ha, ha, ha !</p>
       </sp>
-      <sp>
+      <sp who="#L0426_M2">
          <speaker>Daring.</speaker>
          <p>Out with it. you thought—</p>
       </sp>
-      <sp>
+      <sp who="#L0426_F8">
          <speaker>Mary.</speaker>
          <p>I thought—he, he, he! I thought you were a woman —he, he ! <stage>Exit into house.</stage></p>
       </sp>
-      <sp>
+      <sp who="#L0426_M2">
          <speaker>Daring.</speaker>
          <p>A woman ! fire and fury, I shall go mad! What, I—I to come down to a little obscure country village—and for what ? to be taken by everybody for a woman in disguise ! Oh, it's barbarous! John Stock, I say!</p>
       </sp>
       <stage>Enter John Stock, from house.</stage>
-      <sp>
+      <sp who="#L0426_M3">
          <speaker>John.</speaker>
          <p>Oh, captain!</p>
       </sp>
-      <sp>
+      <sp who="#L0426_M2">
          <speaker>Daring.</speaker>
          <p>Oh, John!</p>
       </sp>
-      <sp>
+      <sp who="#L0426_M3">
          <speaker>John.</speaker>
          <p>Oh, such a strange thing!</p>
       </sp>
-      <sp>
+      <sp who="#L0426_M2">
          <speaker>Daring.</speaker>
          <p>Such an extraordinary affair!</p>
       </sp>
-      <sp>
+      <sp who="#L0426_M3">
          <speaker>John.</speaker>
          <p>Such a wonderful circumstance!</p>
       </sp>
-      <sp>
+      <sp who="#L0426_M2">
          <speaker>Daring.</speaker>
          <p>Why, John do you know—</p>
       </sp>
-      <sp>
+      <sp who="#L0426_M3">
          <speaker>John.</speaker>
          <p>Oh, sir, do you know—</p>
       </sp>
-      <sp>
+      <sp who="#L0426_M2">
          <speaker>Daring.</speaker>
          <p>They take me me for a woman!</p>
       </sp>
-      <sp>
+      <sp who="#L0426_M3">
          <speaker>John.</speaker>
          <p>So they do me !</p>
       </sp>
       <stage>Enter General and Halbert, R. U. E.</stage>
-      <sp>
+      <sp who="#L0426_M1">
          <speaker>General.</speaker>
          <p><stage>(shaking stick at them.)</stage> There they are. Oh, you impudent sluts!</p>
       </sp>
-      <sp>
+      <sp who="#L0426_M4">
          <speaker>Halbert.</speaker>
          <p><stage>(shaking his stick.)</stage> Oh, fie upon them !</p>
       </sp>
-      <sp>
+      <sp who="#L0426_M2">
          <speaker>Daring.</speaker>
          <p>I shall take some desperate step to set this matter right, I feel I shall.</p>
       </sp>
-      <sp>
+      <sp who="#L0426_M3">
          <speaker>John.</speaker>
          <p>And I'm determined to let 'em know I'm no woman.</p>
       </sp>
-      <sp>
+      <sp who="#L0426_M1">
          <speaker>General.</speaker>
          <p>Ha, ha! there you are, are you ?</p>
       </sp>
-      <sp>
+      <sp who="#L0426_M2">
          <speaker>Daring.</speaker>
          <p>And who the devil's this? Yes, old gentleman, here we are.</p>
       </sp>
-      <sp>
+      <sp who="#L0426_M1">
          <speaker>General.</speaker>
          <p>I'm glad I've found you.</p>
       </sp>
-      <sp>
+      <sp who="#L0426_M2">
          <speaker>Daring.</speaker>
          <p>What does this old gentleman mean, John ?</p>
       </sp>
-      <sp>
+      <sp who="#L0426_M3">
          <speaker>John.</speaker>
          <p>Don't ask me ; I think they're all mad about here.</p>
       </sp>
-      <sp>
+      <sp who="#L0426_M1">
          <speaker>General.</speaker>
          <p>How well she has disguised herself, Halbert.</p>
       </sp>
-      <sp>
+      <sp who="#L0426_M4">
          <speaker>Halbert.</speaker>
          <p>Oh, very well, indeed, and who'd take that punchy drummer-boy sort of fellow for the pretty Fanny ?</p>
       </sp>
-      <sp>
+      <sp who="#L0426_M1">
          <speaker>General.</speaker>
          <p>I shall try mild words first of all. Oh, you silly —silly creatures!</p>
       </sp><pb n="16"/>
-      <sp>
+      <sp who="#L0426_M2">
          <speaker>Daring.</speaker>
          <p>Silly creatures!</p>
       </sp>
-      <sp>
+      <sp who="#L0426_M3">
          <speaker>John.</speaker>
          <p>The old gentleman's been drinking.</p>
       </sp>
-      <sp>
+      <sp who="#L0426_M1">
          <speaker>General.</speaker>
          <p>If you only knew the uneasiness you have caused My wife—</p>
       </sp>
-      <sp>
+      <sp who="#L0426_M2">
          <speaker>Daring.</speaker>
          <p>His wife!</p>
       </sp>
-      <sp>
+      <sp who="#L0426_M3">
          <speaker>John.</speaker>
          <p>Oh, oh! captain, you've been at it again.</p>
       </sp>
-      <sp>
+      <sp who="#L0426_M2">
          <speaker>Daring.</speaker>
          <p>'Pon my soul, I don't know anything about it.</p>
       </sp>
-      <sp>
+      <sp who="#L0426_M1">
          <speaker>General.</speaker>
          <p>But as my wife says, I suppose we must overlook all little indiscretions.</p>
       </sp>
-      <sp>
+      <sp who="#L0426_M2">
          <speaker>Daring.</speaker>
          <p>Hem!</p>
       </sp>
-      <sp>
+      <sp who="#L0426_M3">
          <speaker>John.</speaker>
          <p>Hem!</p>
       </sp>
-      <sp>
+      <sp who="#L0426_M1">
          <speaker>General.</speaker>
          <p>So come home to my house, and my wife will welcome you with the kiss of affection.</p>
       </sp>
-      <sp>
+      <sp who="#L0426_M2">
          <speaker>Daring.</speaker>
          <p>What an old fool! why, pray for whom do you take me?</p>
       </sp>
-      <sp>
+      <sp who="#L0426_M1">
          <speaker>General.</speaker>
          <p>Take you ? why for what you are. Oh, you naughty—naughty girls! <stage>(Emily and Fanny appear at door.)</stage></p>
       </sp>
-      <sp>
+      <sp who="#L0426_M4">
          <speaker>Halbert.</speaker>
          <p>Oh, fie—fie!</p>
       </sp>
-      <sp>
+      <sp who="#L0426_M2">
          <speaker>Daring.</speaker>
          <p>Girls! this is not to be borne.</p>
       </sp>
-      <sp>
+      <sp who="#L0426_M3">
          <speaker>John.</speaker>
          <p>Girls! this is not to be endured.</p>
       </sp>
-      <sp>
+      <sp who="#L0426_M2">
          <speaker>Daring.</speaker>
          <p><stage>(to general.)</stage> You old villain, I'll make you repent this insolence.</p>
       </sp>
-      <sp>
+      <sp who="#L0426_M3">
          <speaker>John.</speaker>
          <p><stage>(to halbert.)</stage> You walking stick of a man, I'll teach you to repent this insolence.</p>
       </sp>
-      <sp>
+      <sp who="#L0426_M1">
          <speaker>General.</speaker>
          <p>What consummate assurance. Oh, you young hussies!</p>
       </sp>
-      <sp>
+      <sp who="#L0426_M2">
          <speaker>Daring.</speaker>
          <p>Hussies! Zounds ! I cannot stand it any longer.</p>
       </sp>
-      <sp>
+      <sp who="#L0426_M3">
          <speaker>John.</speaker>
          <p>Hussies! Oh, you scoundrels!</p>
       </sp>
-      <sp>
+      <sp who="#L0426_F6">
          <speaker>Emily.</speaker>
          <p><stage>(coming down C.)</stage> Hey! Hollo! I must interfere here, or my old guardian may get the worst of this encounter. Hold, gentlemen, hold ! what can this violence mean ?</p>
       </sp>
-      <sp>
+      <sp who="#L0426_M1">
          <speaker>General.</speaker>
          <p>Hollo! what do I see ? I say, Halbert, do you see these two ?</p>
       </sp>
-      <sp>
+      <sp who="#L0426_M4">
          <speaker>Halbert.</speaker>
          <p><stage>(R.)</stage> I do.</p>
       </sp>
-      <sp>
+      <sp who="#L0426_M1">
          <speaker>General.</speaker>
          <p><stage>(R. C.)</stage> I smell a rat.</p>
       </sp>
-      <sp>
+      <sp who="#L0426_M4">
          <speaker>Halbert.</speaker>
          <p>I smell two rats.</p>
       </sp>
-      <sp>
+      <sp who="#L0426_M2">
          <speaker>Daring.</speaker>
          <p><stage>(L. C.)</stage> Violence! if you knew half I have met with since I came to this accursed inn, you would not wonder at any violence. First, you rob me of my name—</p>
       </sp>
-      <sp>
+      <sp who="#L0426_M3">
          <speaker>John.</speaker>
          <p>And <hi>you</hi> rob me of mine.</p>
       </sp>
-      <sp>
+      <sp who="#L0426_F6">
          <speaker>Emily.</speaker>
          <p><stage>(aside.)</stage> La! how unfortunate!</p>
       </sp>
-      <sp>
+      <sp who="#L0426_F7">
          <speaker>Fanny.</speaker>
          <p><stage>(l. of John—aside.)</stage> How vexatious!</p>
       </sp>
-      <sp>
+      <sp who="#L0426_M1">
          <speaker>General.</speaker>
          <p>Do you hear that, Halbert?</p>
       </sp>
-      <sp>
+      <sp who="#L0426_M4">
          <speaker>Halbert.</speaker>
          <p>I do.</p>
       </sp>
-      <sp>
+      <sp who="#L0426_M2">
          <speaker>Daring.</speaker>
          <p>Then the tavern keeper and his daughter insult</p>
       </sp><pb n="16"/>
-      <sp>
+      <sp who="#L0426_M3">
          <speaker>John.</speaker>
          <p>So they do me.</p>
       </sp>
-      <sp>
+      <sp who="#L0426_M2">
          <speaker>Daring.</speaker>
          <p>Then this old gentleman takes me for a woman, and calls me a hussey.</p>
       </sp>
-      <sp>
+      <sp who="#L0426_M3">
          <speaker>John.</speaker>
          <p>And tells <hi>me</hi> I'm a naughty girl.</p>
       </sp>
-      <sp>
+      <sp who="#L0426_M2">
          <speaker>Daring.</speaker>
          <p><stage>(draws.)</stage> But I'll bear it no longer—I will know the truth. So come, sir, as you were the first offender, I'll fight you first. <stage>(takes stage to C.)</stage></p>
       </sp>
-      <sp>
+      <sp who="#L0426_F6">
          <speaker>Emily.</speaker>
          <p>Oh, really, I can't fight!</p>
       </sp>
-      <sp>
+      <sp who="#L0426_F7">
          <speaker>Fanny.</speaker>
          <p>Oh, you must, my lady, or we shall be discovered.</p>
       </sp>
-      <sp>
+      <sp who="#L0426_M3">
          <speaker>John.</speaker>
          <p>And you and I will have a turn this way.</p>
       </sp>
       <stage>(squares at Fanny.</stage>
-      <sp>
+      <sp who="#L0426_F7">
          <speaker>Fanny.</speaker>
          <p>Oh, really, I never could think of fighting.</p>
       </sp>
-      <sp>
+      <sp who="#L0426_F6">
          <speaker>Emily.</speaker>
          <p><stage>(to Fanny.)</stage> Oh, really, you must—you must Fanny, or we shall be discovered. Only see how I'll manage it. <stage>crosses to Daring.)</stage> Sir, your conduct is so extraordinary, that I must really say that if it be not amended I shall certainly answer you with a tongue of steel. <stage>(pointing to sword.)</stage> What do you think of that, Fanny ?</p>
       </sp>
-      <sp>
+      <sp who="#L0426_F7">
          <speaker>Fanny.</speaker>
          <p>Oh, it's excellent! you really inspire me. <stage>(to John.)</stage> Sir, if you insult me again, I shall certainly knock you down with my little finger.</p>
       </sp>
-      <sp>
+      <sp who="#L0426_M3">
          <speaker>John.</speaker>
          <p>I'll give you such a licking in a minute. <stage>(pulls of coat.)</stage></p>
       </sp>
-      <sp>
+      <sp who="#L0426_M2">
          <speaker>Daring.</speaker>
          <p>Without delay I will be satisfied. Will you explain, sir?</p>
       </sp>
-      <sp>
+      <sp who="#L0426_F6">
          <speaker>Emily.</speaker>
          <p>I shall explain nothing. <stage>(to Fanny.)</stage> Guardian is watching, and nothing but self-possession can save us !</p>
       </sp>
-      <sp>
+      <sp who="#L0426_M2">
          <speaker>Daring.</speaker>
          <p><stage>(to Emily.)</stage> Then defend yourself!</p>
       </sp>
-      <sp>
+      <sp who="#L0426_M3">
          <speaker>John.</speaker>
          <p><stage>(to Fanny.)</stage> And defend yourself.</p>
       </sp>
-      <sp>
+      <sp who="#L0426_F6">
          <speaker>Emily.</speaker>
          <p>Oh, what shall we do ?</p>
       </sp>
-      <sp>
+      <sp who="#L0426_F7">
          <speaker>Fanny.</speaker>
          <p>Run away!</p>
       </sp>
-      <sp>
+      <sp who="#L0426_F6">
          <speaker>Emily.</speaker>
          <p>Impossible!</p>
       </sp>
-      <sp>
+      <sp who="#L0426_M2">
          <speaker>Daring.</speaker>
          <p>Coward, will you not draw.</p>
       </sp>
-      <sp>
+      <sp who="#L0426_F6">
          <speaker>Emily.</speaker>
          <p>Oh dear, oh dear ! I don't think I can get my sword out. <stage>(draws with difficulty, crosses blades with Daring, who disarms her—she and Fanny fall on their knees, C.)</stage> Mercy, good captain—mercy.</p>
       </sp>
-      <sp>
+      <sp who="#L0426_F7">
          <speaker>Fanny.</speaker>
          <p>Mercy, good valet—mercy.</p>
       </sp>
-      <sp>
+      <sp who="#L0426_M2">
          <speaker>Daring.</speaker>
          <p>Cowardly fellow ! beg your life.</p>
       </sp>
-      <sp>
+      <sp who="#L0426_F6">
          <speaker>Emily.</speaker>
          <p>I do—I do beg my life.</p>
       </sp>
-      <sp>
+      <sp who="#L0426_F7">
          <speaker>Fanny.</speaker>
          <p>So do I mine.</p>
       </sp>
-      <sp>
+      <sp who="#L0426_M2">
          <speaker>Daring.</speaker>
          <p>And why should it be spared ?</p>
       </sp>
-      <sp>
+      <sp who="#L0426_F6">
          <speaker>Emily.</speaker>
          <p>Because—because I'm a woman.</p>
       </sp>
-      <sp>
+      <sp who="#L0426_M3">
          <speaker>John.</speaker>
          <p>A real woman ! it can't be?</p>
       </sp>
-      <sp>
+      <sp who="#L0426_F7">
          <speaker>Fanny.</speaker>
          <p>Yes, and so am I.</p>
       </sp>
-      <sp>
+      <sp who="#L0426_M2">
          <speaker>Daring.</speaker>
          <p>Is this possible ?</p>
       </sp>
-      <sp>
+      <sp who="#L0426_M1">
          <speaker>General.</speaker>
          <p>Oh, yes—yes—it's possible enough. I see it all now. These are the girls I have been in search of.</p>
       </sp><pb n="18"/>
-      <sp>
+      <sp who="#L0426_F6">
          <speaker>Emily.</speaker>
          <p>Please may I get up, because, if I may, I will explain now.</p>
       </sp>
-      <sp>
+      <sp who="#L0426_M2">
          <speaker>Daring.</speaker>
          <p>Rise, madam, I beg.</p>
       </sp>
-      <sp>
+      <sp who="#L0426_M3">
          <speaker>John.</speaker>
          <p><stage>(to Fanny.)</stage> Rise, madam, I request.</p>
       </sp>
-      <sp>
+      <sp who="#L0426_M1">
          <speaker>General.</speaker>
          <p><stage>(R.)</stage> And may I beg and request to know the meaning of this extraordinary conduct!</p>
       </sp>
-      <sp>
+      <sp who="#L0426_F6">
          <speaker>Emily.</speaker>
          <p>Can you not guess ? Listen, captain. This gentleman is my guardian, and because I refused to marry as he commanded, he sought to make me a prisoner. I'm a man of spirit—I mean, I'm a woman of spirit, so I put on this dress and ran away.</p>
       </sp>
-      <sp>
+      <sp who="#L0426_M3">
          <speaker>John.</speaker>
          <p>And you pray.</p>
       </sp>
-      <sp>
+      <sp who="#L0426_F7">
          <speaker>Fanny.</speaker>
          <p>And I'm a man of spirit—I mean I'm a woman of spirit, so I followed the example of my master—I mean my mistress.</p>
       </sp>
-      <sp>
+      <sp who="#L0426_M4">
          <speaker>Halbert.</speaker>
          <p><stage>(r. h.)</stage> Ha, ha, ha! <stage>(laughing suddenly.)</stage></p>
       </sp>
-      <sp>
+      <sp who="#L0426_M1">
          <speaker>General.</speaker>
          <p>Why Halbert, what are you laughing at.</p>
       </sp>
-      <sp>
+      <sp who="#L0426_M4">
          <speaker>Halbert.</speaker>
          <p>I'm laughing to think you should have been forty four years in the army, and not be able to tell the difference between a man and a woman.</p>
       </sp>
-      <sp>
+      <sp who="#L0426_M1">
          <speaker>General.</speaker>
          <p>Silence, sir. Now Emily, I will tell you something of which you are not aware, the dress you wear, and the very name you have assumed, are the property of the very man, I wished you to marry—yes, my nephew Captain Daring.</p>
       </sp>
-      <sp>
+      <sp who="#L0426_M2">
          <speaker>Daring.</speaker>
          <p>Captain Daring ! that's me isn't it John ?</p>
       </sp>
-      <sp>
+      <sp who="#L0426_M3">
          <speaker>John.</speaker>
          <p>To be sure it is sir. Ah' I see we are coming to ourselves at last.</p>
       </sp>
-      <sp>
+      <sp who="#L0426_M2">
          <speaker>Daring.</speaker>
          <p>Then you, sir, are General Stormwell?</p>
       </sp>
-      <sp>
+      <sp who="#L0426_M1">
          <speaker>General.</speaker>
          <p>The same, and right glad am I once more to greet my nephew. <stage>(they shake hands.)</stage></p>
       </sp>
-      <sp>
+      <sp who="#L0426_M3">
          <speaker>John.</speaker>
          <p><stage>(L. H.)</stage> I say, young lady, they're all making it up, so we may as well shake hands.</p>
       </sp>
-      <sp>
+      <sp who="#L0426_F7">
          <speaker>Fanny.</speaker>
          <p>Oh! I have no objection, you are a spirited little fellow.</p>
       </sp>
-      <sp>
+      <sp who="#L0426_M2">
          <speaker>Daring.</speaker>
          <p><stage>(crosses to Emily.)</stage> I fear this mode of introduction, madam, will not lead you to think very favourably of me.</p>
       </sp>
-      <sp>
+      <sp who="#L0426_F6">
          <speaker>Emily.</speaker>
          <p>Well, I don't know that exactly. You have behaved very honourably, and really, all things duly considered, I think you are not amiss, but now I have a request myself to make, to which I hope I may obtain a favourable reply, and that is to intreat our friends here, not to look coldly on our efforts to amuse, nor take our little chapter of follies and mistakes amiss.</p>
       </sp>
       <stage>Halbert. General. Emily. Daring. Fanny. John.</stage>
       <stage>R. H. L. H.</stage>
-      <stage>CURTAIN.</stage>
+      <stage>Curtain.</stage>
    </div>
 </div>
 
