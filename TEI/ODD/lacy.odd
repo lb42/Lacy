@@ -220,6 +220,8 @@ indicated</desc>
 <elementRef key="name" minOccurs="0" maxOccurs="unbounded"/>
 <elementRef key="date"/>
 </sequence>
+<sequence> <elementRef key="persName"/>
+ <elementRef key="idno"/></sequence>
 <textNode/>
 </alternate>
 </content>
@@ -270,6 +272,9 @@ there are multiple authors. Not permitted outside the header.</p>
 <valItem ident="origin">
 <desc>the description documents the printed source of the work</desc>
 </valItem>
+ <valItem ident="originalSource">
+  <desc>the description documents the printed source of the work</desc>
+ </valItem>
 <valItem ident="msSource">
 <desc>the description documents a manuscript source for the work</desc>
 </valItem>

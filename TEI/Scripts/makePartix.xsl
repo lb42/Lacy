@@ -8,7 +8,7 @@ version="2.0">
 <!-- generate listPerson for all named roles in TEI plays -->
 
 <xsl:template match="/">
-<xsl:variable name="context" select="."/>
+<xsl:variable name="context" select="//t:body"/>
 <xsl:variable name="theId" select="t:TEI/@xml:id"/>
 
 <particDesc xmlns="http://www.tei-c.org/ns/1.0">

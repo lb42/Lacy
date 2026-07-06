@@ -1,0 +1,2512 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L0926" xml:lang="en">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title>Katharine And Petruchio: TEI edition</title>
+    <author ref="lacyp:W0106"><persName>David Garrick</persName><idno type="wikidata"
+     >Q222390</idno></author>
+    <respStmt>
+     <resp>TEI conversion</resp>
+     <name>Lou Burnard</name>
+    </respStmt>
+   </titleStmt>
+   <publicationStmt>
+    <distributor>Privately distributed by the Digital Lacy Project</distributor>
+    <idno type="LAE">L0926</idno>
+    <availability>
+     <licence target="https://creativecommons.org/publicdomain/zero/1.0/">The Lacy Project waives
+      all rights to the TEI encoding applied to this material, which it believes to be in the public
+      domain. You may copy, modify, distribute, or perform this work freely. </licence>
+    </availability>
+   </publicationStmt>
+   <sourceDesc>
+    <bibl type="originalSource" n="62.11"><author n="W0106">Garrick, David</author>
+     <title type="main">Katherine and Petruchio</title>
+     <title type="sub">A Comedy in three acts</title>
+     <title type="source" n="#EN">Altered from "The Taming of the Shrew” by William
+      Shakespeare</title>
+     <extent>39 pp (UM copy: 401 - 440)<measure type="pp" quantity="39"/>
+      <measure type="spCount" quantity="330"/>
+      <measure type="spvCount" quantity="265"/>
+      <measure type="txWords" quantity="8184"/>
+      <measure type="spWords" quantity="7508"/>
+      <measure type="stWords" quantity="676"/>
+     </extent>
+     <title level="s"> Lacy's Acting Edition, volume 62, No. 0926</title><idno type="nic"
+      >N80276</idno></bibl>
+    <bibl type="surrogate" subtype="copytext"><ref
+      target="https://babel.hathitrust.org/cgi/pt?id=mdp.39015067453640&amp;seq=401 ">UM from
+      HT</ref><ref target="local:Vol62/L0926/L0926-um.pdf"/></bibl>
+    <listEvent>
+     <event type="firstPerf" when="1756-03-18" source="nicoll" where="Unknown">
+      <desc>Premiered at Unknown n.d.</desc>
+     </event>
+     <event type="firstPerf" when="1838" source="text">
+      <desc>Premiered at Covent Garden, 1838.</desc>
+     </event>
+    </listEvent>
+   </sourceDesc>
+  </fileDesc>
+  <profileDesc>
+   <!--M 3 Comedy F. FARCE-->
+   <textClass>
+    <catRef target="#sizeM"/>
+    <catRef target="#act3"/>
+    <catRef target="nic:F."/>
+    <keywords>
+     <term>FARCE</term>
+    </keywords>
+   </textClass>
+   <particDesc>
+    <listPerson>
+     <person xml:id="L0926_M1">
+      <persName type="role">Petruchio</persName>
+      <persName type="spkr" n="94">Petru.</persName>
+      <persName type="spkr" n="2">Petruchio.</persName>
+     </person>
+     <person xml:id="L0926_M2">
+      <persName type="role">Baptista</persName>
+      <persName type="spkr" n="35">Baptis.</persName>
+      <persName type="spkr" n="1">Baptista.</persName>
+     </person>
+     <person xml:id="L0926_M3">
+      <persName type="role">Hortensio</persName>
+      <persName type="spkr" n="7">Horten.</persName>
+     </person>
+     <person xml:id="L0926_M4">
+      <persName type="role">Music-Master</persName>
+      <persName type="spkr" n="5">Master.</persName>
+     </person>
+     <person xml:id="L0926_M5">
+      <persName type="role">Tailor</persName>
+      <persName type="spkr" n="13">Tailor.</persName>
+     </person>
+     <person xml:id="L0926_M6">
+      <persName type="role">Biondello</persName>
+      <persName type="spkr" n="9">Bion.</persName>
+     </person>
+     <person xml:id="L0926_M7">
+      <persName type="role">Pedro </persName>
+      <persName type="spkr" n="6">Pedro.</persName>
+     </person>
+     <person xml:id="L0926_M8">
+      <persName type="role">Grumio </persName>
+      <persName type="spkr" n="41">Grumio.</persName>
+     </person>
+     <person xml:id="L0926_M9">
+      <persName type="role">Walter </persName>
+      <persName type="spkr" n="3">Walter.</persName>
+     </person>
+     <person xml:id="L0926_M10">
+      <persName type="role">Nathaniel </persName>
+      <persName type="spkr" n="3">Nath.</persName>
+     </person>
+     <person xml:id="L0926_M11">
+      <persName type="role">Gregory </persName>
+      <persName type="spkr" n="1">Greg.</persName>
+     </person>
+     <person xml:id="L0926_M12">
+      <persName type="role">Gabriel </persName>
+      <persName type="spkr" n="1">Gabriel.</persName>
+     </person>
+     <person xml:id="L0926_F13">
+      <persName type="role">Katharine </persName>
+      <persName type="spkr" n="67">Kath.</persName>
+     </person>
+     <person xml:id="L0926_F14">
+      <persName type="role">Bianca</persName>
+      <persName type="spkr" n="4">Bianca.</persName>
+     </person>
+     <person xml:id="L0926_F15">
+      <persName type="role">Curtis </persName>
+      <persName type="spkr" n="12">Curtis.</persName>
+     </person>
+     <person xml:id="L0926_mult">
+      <persName type="role">[Multiple speakers]</persName>
+      <persName type="spkr" n="1">All The Servts.</persName>
+     </person>
+     <person xml:id="L0926_misc">
+      <persName type="role">[Misc]</persName>
+      <persName type="spkr" n="1">Adam.</persName>
+      <persName type="spkr" n="2">Ralph.</persName>
+     </person>
+    </listPerson>
+   </particDesc>
+  </profileDesc>
+  <revisionDesc>
+   <change when="2026-07-06">Add wikidata link to titleStmt where possible</change>
+   <change when="2026-07-05">Checked against UM text; fixed to use multiple @perfs</change>
+   <change when="2025-12-18">Initial tagging by Gemini Pro</change>
+  </revisionDesc>
+ </teiHeader>
+ <text>
+  <front>
+   <pb n="1"/>
+   <figure>
+    <graphic url="media/L0926_fig0.png"/>
+    <head>Petru. There take it to you, trenchers, cups and all. Act II., Scene 1 </head>
+   </figure>
+   <pb n="3"/>
+   <titlePage>
+    <titlePart type="main">Katharine And Petruchio</titlePart>
+    <titlePart type="sub">. A Comedy, In Three Acts.</titlePart>
+    <byline>Altered By David Garrick, From The Taming Of A Shrew, By William Shakespeare.</byline>
+    <byline>With Illustrations By R. Cruikshank.</byline>
+    <docImprint>Thomas Hailes Lacy, 89, Strand, London.</docImprint>
+   </titlePage>
+
+   <performance xml:id="L0926P1">
+    <p>Covent Garden, 1838</p>
+   </performance>
+   <performance xml:id="L0926P2">
+    <p>Olympic April, 1864</p>
+   </performance>
+   <performance xml:id="L0926P3">
+    <p>Surrey, April, 1864</p>
+   </performance>
+   <performance xml:id="L0926P4">
+    <p>Marylebone, April, 1864</p>
+   </performance>
+
+   <castList>
+    <head>Characters.</head>
+    <castItem><role gender="M">Petruchio</role>
+     <actor perf="#L0926P1">Mr. Vining.</actor>
+     <actor perf="#L0926P2">Mr. H. Neville.</actor>
+     <actor perf="#L0926P3">Mr. J. Anderson.</actor>
+     <actor perf="#L0926P4">Mr. J. Dixon.</actor>
+    </castItem>
+    <castGroup>
+     <roleDesc> (Gentlemen of Padua)</roleDesc>
+     <castItem><role gender="M">Baptista</role><actor perf="#L0926P1">Mr. Tilbury.</actor><actor
+       perf="#L0926P2">Mr. Maclean.</actor><actor perf="#L0926P3">Mr. C. Butler.</actor><actor
+       perf="#L0926P4">Mr. Thomson.</actor>
+     </castItem>
+     <castItem><role gender="M">Hortensio</role><actor perf="#L0926P1">Mr. Roberts.</actor><actor
+       perf="#L0926P2">Mr. H. Cooper.</actor><actor perf="#L0926P3">Mr. Allbrook.</actor>
+      <actor perf="#L0926P4">Mr. Wilson.</actor>
+     </castItem>
+    </castGroup>
+    <castItem><role gender="M">Music-Master</role><actor perf="#L0926P1">Mr. Yarnold.</actor>
+     <actor perf="#L0926P2">Mr. Rivers.</actor><actor perf="#L0926P3">Mr. Dalton.</actor>
+     <actor perf="#L0926P4">Mr. Baker.</actor>
+    </castItem>
+    <castItem><role gender="M">Tailor</role><actor perf="#L0926P1">Mr. Meadows.</actor>
+     <actor perf="#L0926P2">Mr. H. Wigan.</actor>
+     <actor perf="#L0926P3">Mr. Wrighт.</actor>
+     <actor perf="#L0926P4">Mr. Skinner.</actor>
+    </castItem>
+    <castGroup>
+     <roleDesc> (Baptista's Servants)</roleDesc>
+     <castItem><role gender="M">Biondello</role><actor perf="#L0926P1">Mr. Bender.</actor>
+      <actor perf="#L0926P2">Mr. R. Soutar.</actor>
+      <actor perf="#L0926P3">Mr. Fitzpatrick.</actor>
+      <actor perf="#L0926P4">Mr. Herne.</actor>
+     </castItem>
+     <castItem><role gender="M">Pedro </role><actor perf="#L0926P1">Mr. Payne.</actor>
+      <actor perf="#L0926P2">Mr. Franks.</actor>
+      <actor perf="#L0926P3">Mr. Cracknell.</actor>
+      <actor perf="#L0926P4">Mr. Daniels.</actor></castItem>
+    </castGroup>
+    <castGroup>
+     <roleDesc>(Petruchio's Servants)</roleDesc>
+     <castItem><role gender="M">Grumio </role><actor perf="#L0926P1">Mr. Harley.</actor>
+      <actor perf="#L0926P2">Mr. Atkins.</actor>
+      <actor perf="#L0926P3">Mr. T. Thorne.</actor>
+     </castItem>
+     <castItem><role gender="M">Walter </role><actor perf="#L0926P1">Mr. Sharpe.</actor>
+      <actor perf="#L0926P2">Mr. Bologna.</actor></castItem>
+     <castItem><role gender="M">Nathaniel </role><actor perf="#L0926P1">Mr. C. J. Smith.</actor>
+      <actor perf="#L0926P3">Mr. Davy.</actor>
+     </castItem>
+     <castItem><role gender="M">Gregory </role><actor perf="#L0926P1">Mr. Paulo.</actor>
+      <actor perf="#L0926P3">Mr. Pritchard.</actor>
+      <actor perf="#L0926P4">Mr. Walters.</actor>
+     </castItem>
+     <castItem><role gender="M">Gabriel </role><actor perf="#L0926P1">Mr. Brady.</actor>
+      <actor perf="#L0926P3">Mr. Dardy.</actor>
+      <actor perf="#L0926P4">Mr. Markes.</actor>
+     </castItem>
+    </castGroup>
+    <castItem><role gender="F">Katharine </role><roleDesc>(Daughter to Baptista)</roleDesc>
+     <actor perf="#L0926P1">Mrs. Warner.</actor>
+     <actor perf="#L0926P2">Miss Hughes.</actor>
+     <actor perf="#L0926P3">Miss Pauncefort.</actor>
+     <actor perf="#L0926P4">Miss J. Seaman.</actor>
+    </castItem>
+    <castItem><role gender="F">Bianca</role><roleDesc> (her Sister, married to Hortensio)</roleDesc>
+     <actor perf="#L0926P1">Miss E. Phillips.</actor>
+     <actor perf="#L0926P2">Miss F. Haydon.</actor>
+     <actor perf="#L0926P3">Rhodes.</actor>
+     <actor perf="#L0926P4">Miss G. Davis.</actor>
+    </castItem>
+    <castItem><role gender="F">Curtis </role><roleDesc>(Housekeeper to Petruchio)</roleDesc>
+     <actor perf="#L0926P1">Mrs. Garrick.</actor>
+     <actor perf="#L0926P2">Mrs. Stephens.</actor>
+     <actor perf="#L0926P3">Mrs. C. Foster.</actor>
+     <actor perf="#L0926P4">Mrs. Hannan.</actor>
+    </castItem>
+
+    <castItem><roleDesc>Ladies, Gentlemen and Servants.</roleDesc></castItem>
+   </castList>
+
+   <set>
+    <p>Scene:—Padua.</p>
+    <p>Time in Performance:—1 hour and 20 minutes.</p>
+   </set>
+   <pb n="5"/>
+   <div type="costume">
+    <head>Costumes.</head>
+    <p><label>Petruchio.</label>—Green velvet doublet, trunks, and cloak, embroidered and slashed,
+     white pantaloons; sword, hat, plume, and boots. Second Dress: White jerkin, red cuffs, ruff,
+     torn cloak, old blue full breeches, one red stocking, one flesh stocking, one boot, one shoe,
+     sword fastened with rape, drab hat and broken feather, whip.</p>
+    <p><label>Baptista.</label>—Black velvet shape, crimson puffs, embroidered trimmings, ruff,
+     crimson pantaloons, hatand plume, sword, shoes, &amp;c.</p>
+    <p><label>Hortensio.</label>—White shape, slashed with blue, ruff, sword, hat and plume,
+     shoes.</p>
+    <p><label>Musio-Master.</label>—Black shape, white pantaloons, boots.</p>
+    <p><label>Grumio.</label>—An old black jacket and breeches, patched; crimson cloak, patched;
+     coloured leggings, one boot, hay band round the other leg, high-crowned hat, with playing card
+     stuck in it, and one feather; sword, and whip.</p>
+    <p><label>Biondello.</label>—Purple shape, trimmed; red stockings, shoes.</p>
+    <p><label>Pedro.</label>—The same.</p>
+    <p><label>Tailor.</label>—Black doublet, tailor's measure sown on the shoulder; red breeches,
+     old stockings, shoes, small hat.</p>
+    <p><label>Walter, Nathaniel, Gregory, Gabriel, and two other Servants.</label>—Drab shapes,
+     trimmed with green, green leggings, shoes, and white jacket and apron for the cook.</p>
+    <p><label>Six Gentlemen.</label>—Shaped dresses, embroidered—scarves, white pantaloons, ruffs,
+     hat and plumes, shoes.</p>
+    <p><label>Katharine.</label>—White satin dress, trimmed with pink satin; hat and white feathers,
+     (see Lacy's Female Costumes, plate 94) Second Dress: Bridal wreath, and veil. Third Dress: Same
+     as first.</p>
+    <p><label>Bianca.</label>—Satin dress, embroidered; hat and feathers.</p>
+    <p><label>Curtis.</label>—Dark gown, coif, cap and apron.</p>
+   </div>
+
+   <div type="liminal">
+    <head>Glossary of obsolete words,</head>
+    <head>And of words varying from their ordinary signification.</head>
+    <list>
+     <item>"Amort."—Sad, melancholy.</item>
+     <item>"Bug." A bugbear, a frightful object.</item>
+     <item>"Chape." A little thin plate of silver or iron at the point of the scabbard of a
+      sword.</item>
+     <item>"Fret." The stop of a musical instrument which regulates the vibration of the
+      string.</item>
+     <item>"Haggard."—A wild hawk.</item>
+     <item>"Jack." A term of contempt.</item>
+     <item>"Ray." To agitatė.</item>
+     <item>"Scurril."—Scurrilous, abusive.</item>
+     <item>"Shrewd."—Having the qualities of a shrew.</item>
+    </list>
+   </div>
+   <pb n="6"/>
+   <div type="liminal">
+    <head>Remarks.</head>
+    <p>The <title>Taming of the Shrew</title>, in its original form, was thought too long for the
+     stage; and, although generally admitted to be "a very excellent piece of work," the audience,
+     imitating the example of old Sly's son of Burton Heath, began before the performance was
+     concluded to nod, and wish with Christophero, that "'twere done". David Garrick, therefore,
+     thought that he might, without much offence to the admirers of Shakspere, apply to it the
+     pruning knife: and, without pronouncing an opinion in regard to the alterations then made, it
+     may be mentioned that the comedy eseaped from the hands of the operator as it is now produced
+     under the title of "<title>Katharine and Petruchio</title>". The design of the play has been
+     taken from "<title>A pleasaunt Conceited Historie called the Taming of a Shrew</title>;" but
+     very learned critics have from time to time been discovering similar stories published in
+     different forms and under various titles; and it is quite possible that some persevering
+     antiquary may yet be fortunate enough to find out the original tale from which all the others
+     are derived. Should such be discovered, of course it will be made public property, and added to
+     the pile of valuable and important relics already collected and printed in order to illustrate
+     and explain the obscure passages of the poet. When we read the plays of Shakespeare with the
+     comments of the legion of learned and unlearned critics, we are induced to think, if we do not
+     consider the matter with some attention, that the author's acquaintance with men and manners,
+     and his skill in giving expression to every emotion of the mind, are less wonderful than his
+     retentive memory, which must have enabled him to make use of ideas from almost every author of
+     celebrity whose works could be procured in the sixteenth century. A host of erudite
+     commentators having employed themselves in searching for passages in books in all languages,
+     from which they in their wisdom considered it probable that Shakespeare borrowed the most
+     admired portions of his poetry, it is not very surprising that, on viewing the extensive
+     collection they have made, we should for an instant be led to regard the poet as a mere
+     imitator or successful collector of the ideas of others, and not in reality possessed of that
+     genius generally ascribed to him; but when we begin to examine the subject, we not only find
+     that the passages supposed to bear a resemblance to each other are in many cases dissimilar,
+     but we are convinced that it must have been impossible for Shakespeare to have consulted the
+     works from which he is alleged to have drawn his inspiration. In regard to the Taming of the
+     <pb n="7"/>Shrew, various opinions have been entertained, and one eritic, whose opinion is
+     entitled to some degree of respect, has expressed his belief that it is not the production of
+     Shakespeare but of some older poet; however, as he has told us that he has formed his judgment
+     from internal evidence only, we think the conclusion at which he has arrived entirely
+     unwarranted. There are many parts of the comedy which bear evident marks of the bold pen of
+     Shakespeare, and could have been written by no other poet. Although he has taken the title and
+     general design from the old play before referred to, there is very little similarity in the
+     language, and it is only in a few instances that a trace of the original can be discovered. </p>
+    <p>The Introduction bears more resemblance to the old play than any other part of the comedy;
+     and, in order to show exactly to what extent Shakespeare has been indebted to the anonymous
+     author, we may quote a portion from the beginning, which is not the worst part of the original
+     play. It commences as follows:—</p>
+    <quote>
+     <stage>Enter Tapster, beating out of his doors Slie drunken.)</stage>
+     <sp who="#">
+      <speaker>Tapster.</speaker>
+      <l>You whoreson drunken slave, you had best be gone,</l>
+      <l>And empty your drunken panch somewhere else,</l>
+      <l>For in this house you shall not rest to-night.</l>
+      <stage>Exit Tapster.)</stage>
+
+     </sp>
+     <sp who="#">
+      <speaker>Slie.</speaker>
+      <l>Tilly Vally, by crisee, Tapster, Ile fese you anone,</l>
+      <l>Fills the tother pot, and all's paid for: looke you</l>
+      <l>I doe drink it of mine own instigation.</l>
+      <l>Heere Ile lie awhile: why, Tapster, I say,</l>
+      <l>Fill's a fresh cushen heere,</l>
+      <l>Heigh ho! heere's good warme lying.</l>
+      <stage>(he falles asleepe))</stage>
+     </sp>
+     <stage>Enter a Nobleman and his Men from hunting.)</stage>
+     <sp who="#">
+      <speaker>Lord.</speaker>
+      <l>Now that the gloomy shadow of the night,</l>
+      <l>Longing to view <hi>Orion's</hi> drisling lookes,</l>
+      <l>Leapes from th' Antartieke world unto the skie,</l>
+      <l>And dims the welkin with her pitchie breath,</l>
+      <l>And darksome night oreshades the cristall heavens,</l>
+      <l>Heere break we off our hunting for to-night.</l>
+      <l>Couple uppe the hounds and let us hie us home,</l>
+      <l>And bid the huntsman see them meated well,</l>
+      <l>For they have all deserv'd it well to daie.</l>
+      <l>But soft, what sleepy fellow is this lies heere ?</l>
+      <l>Or is he dead, see one what doeth lacke?</l>
+     </sp>
+     <sp who="#">
+      <speaker>Servingman.</speaker>
+      <l>My Lord, 'tis nothing but a drunken sleepe,</l>
+      <l>His head is too heavie for his bodie.</l>
+      <l>And he hath drunke so much that he can go no furder.</l>
+     </sp></quote>
+    <p>The Lord desires his servants to convey Slie to his house, and gives them instructions as to
+     their behaviour to him similar to those in Shakespeare's play; and so soon as he is carried off
+     the stage, a servant announces the arrival of the players. They, also, receive directions from
+     the Lord, and it is arranged that "The Taming of a Shrew" should be performed by them in
+     presence of Slie: Pope has here inserted in his edition a speech of one of the
+     <pb n="8"/> players, which, however, is now generally left out. He introduces it after the 1st
+     Player assures the Lord that they will contain themselves were Christopero "the veriest antic
+     in the world," and it was as follows:—</p>
+    <quote>
+     <sp who="#">
+      <speaker>San.</speaker>
+      <p>(to the other Player)</p>
+      <p>Go, get a dishclout to make cleane your shoes, and Ile speak for the properties.
+        <stage>Exit Plaier.)</stage> My Lord, we must have a shoulder of mutton for a propertie, and
+       a little vinegre to make our Diuell rore.</p>
+     </sp></quote>
+    <p>The shoulder of mutton, the vinegar to make the "diuell rore," and every thing necessary for
+     the performance of the play being obtained, Slie is brought in again.</p>
+    <quote><stage>Enter two with a table and a banquet on it, and two other with Slie asleepe in a
+      chaire, richly apparelled, and the musicke plaieing.)</stage>
+     <sp who="#">
+      <speaker>One.</speaker>
+      <l>So, Sirha, now go call my Lord,</l>
+      <l>And tell him all things are ready as he wild it.</l>
+     </sp>
+     <sp who="#">
+      <speaker>Another.</speaker>
+      <l>Set thou some wine upon the boord,</l>
+      <l>And then Ile go fetch my Lord presently.</l>
+     </sp>
+     <stage>Enter the Lord and his Men,)</stage>
+     <sp who="#">
+      <speaker>Lord.</speaker>
+      <l>How now, what is all things readie ?</l>
+     </sp>
+     <sp who="#">
+      <speaker>One.</speaker>
+      <l>Yea, my Lord.</l>
+     </sp>
+     <sp who="#">
+      <speaker>Lord.</speaker>
+      <l>Then sound the musicke and I'll wake him strait,</l>
+      <l>And see you doe as earst I gave in charge.—</l>
+      <l>My, Lord, my Lord! He sleepes soundly. My Lord.</l>
+     </sp>
+     <sp who="#">
+      <speaker>Slie.</speaker>
+      <l>Tapster, gives a little small ale: Heigh ho!</l>
+     </sp>
+     <sp who="#">
+      <speaker>Lord.</speaker>
+      <l>Heeres wine, my Lord, the purest of the grape.</l>
+     </sp>
+     <sp who="#">
+      <speaker>Slie.</speaker>
+      <l>For which Lord ?</l>
+     </sp>
+     <sp who="#">
+      <speaker>Lord.</speaker>
+      <l>For your honor, my Lord,</l>
+     </sp>
+     <sp who="#">
+      <speaker>Slie.</speaker>
+      <l>Who I, am I a Lord? Jesus! What fine apparell have I got?</l>
+     </sp></quote>
+    <p>Being at length satisfied that he is not Slie but a Lord, the players are introduced, and the
+     play proceeds. In the course of the performance he is much pleased with the "foole," and
+     frequently inquires after him during his absence. The length of the play, however, renders it
+     tedious, and before it is finished Slie falls asleep, and the Lord desires his attendants to
+     carry him away, and lay him down at the ale-house door where they first discovered him. At the
+     end of the play Slie is accordingly brought in, and Tapster again appears.</p>
+    <quote><sp who="#">
+      <speaker>Tapster.</speaker>
+      <l>Now that the darksome night is overpast,</l>
+      <l>And dawning day appears in cristall skie,</l>
+      <l>Now must I haste abrode; but soft, who's this?</l>
+      <l>What, <hi>Slie?</hi> o wondrous! hath he laine heere all night?.</l>
+      <l>Ile wake him, I think hee's starved by this,</l>
+      <l>But that his belly was so stufft with ale:</l>
+      <l>What now, <hi>Slie!</hi> awake, for shame!</l>
+     </sp>
+     <sp who="#">
+      <speaker>Slie.</speaker>
+      <p>Sim (one of the persons who attended upon him), give's some more wine; what, all the
+       plaiers gone? am not I a Lord?</p>
+     </sp>
+     <pb n="9"/>
+     <sp who="#">
+      <speaker>Tapster.</speaker>
+      <l>A Lord with a murrin: Come, art thou drunken still?</l>
+     </sp>
+     <sp who="#">
+      <speaker>Slie.</speaker>
+      <p>Who's this? Tapster? o Lord! Sirha, I have had the bravest dreame to-night that ever thou
+       heardest in all thy life.</p>
+     </sp>
+     <sp who="#">
+      <speaker>Tapster.</speaker>
+      <l>Yea, mary; but you had best get you home,</l>
+      <l>For your wife will course you for dreaming here to-night.</l>
+     </sp>
+     <sp who="#">
+      <speaker>Slie.</speaker>
+      <l>Will she? I know how to tame a shrew,</l>
+      <l>I dreamt upon it all this night till now,</l>
+      <l>And thou hast wakt me out of the best dreame.</l>
+      <l>That ever I had in my life; but I'll to my wife presently,</l>
+      <l>And tame her too, if she anger me.</l>
+     </sp>
+     <sp who="#">
+      <speaker>Tapster.</speaker>
+      <l>Nay, tarry, Slie, for Ile go home with thee,</l>
+      <l>And heare the rest that thou hast dreamt to-night.</l>
+     </sp>
+     <stage>Exeunt Omnes.)</stage>
+    </quote>
+    <p>Shakespeare does not introduce Sly after the first scene in the play, but Pope, by inserting
+     several passages from the original, brings him on the stage again, which must certainly be
+     allowed to make the piece more consistent and complete. He has given the concluding scene
+     (which however, he has quoted very incorrectly), with the exception of a few lines. </p>
+    <p>The reason given for the supposition that The Taming of the Shrew is not the production of
+     Shakespeare, might, in our opinion, he stated with as much propriety in regard to any of his
+     other plays, and would be as just in the one case as in the other. No one can say that it is
+     not well written; none can assert that the characters introduced are not drawn by the hand of
+     genius, and no one has ventured to lay his finger upon a particular passage and deliberately
+     tell us that it is unworthy of Shakspeare. There may be some parts of the play inferior to
+     others, but where is there a production of any kind in which you will not find one idea more
+     happily expressed and more appropriately used, and followed out with more tact and delicacy
+     than another? Such instances are to be found in the works of every author, and they may be
+     pointed out in The Taming of the Shrew; but still there is nothing to justify the conclusion
+     that it was not written by Shakespeare. </p>
+    <p>It is impossible to say when the original play of "<title>The Taming of a Shrew</title>" was
+     written, but it is supposed that it was acted at some of the theatres with which Shakespeare
+     was connected, a few years before the production of his own play. It was entered on the
+     Stationers' books in the year 1594, and printed in quarto in 1607. </p>
+    <p>Malone, in an attempt to ascertain the order of Shakespeare's plays, states that he considers
+      <title>The Taming of the Shrew</title>, to have been produced in the year 1596.</p>
+   </div>
+  </front>
+  <pb n="10"/>
+  <body>
+   <head>Katherine and Petruchio</head>
+   <div type="act" n="1">
+    <head>Act I.</head>
+    <div type="scene" n="1">
+     <head>Scene First.—A Hall in Baptista's House, in Padua.</head>
+     <stage>Enter Baptista and Petruchio, R.)</stage>
+     <sp who="#L0926_M2">
+      <speaker>Baptista.</speaker>
+      <stage>L.C.)</stage>
+      <l>Thus have I, 'gainst my own self-interest,</l>
+      <l>Repeated all the worst you're to expect:</l>
+      <l>From my shrew daughter Katharine: if you'll venture,</l>
+      <l>Maugre my plain and honest declaration,</l>
+      <l>You have my free consent, —win her and wed her.</l>
+
+     </sp>
+     <sp who="#L0926_M1">
+      <speaker>Petruchio.</speaker>
+      <stage>R.C.)</stage>
+      <l>Signior Baptista, thus it stands with me:—</l>
+      <l>Antonio, my father is deceas'd;</l>
+      <l>You knew him well, and, knowing him, know me,</l>
+      <l>Left solely heir to all his lands and goods,</l>
+      <l>Which I have better'd rather than decreas'd;</l>
+      <l>And I have thrust myself into the world,</l>
+      <l>Haply to wive and thrive, as best I may.</l>
+      <l>My business asketh haste, old signior,</l>
+      <l>And every day I cannot come to woo;</l>
+      <l>Let specialities be therefore drawn between us,</l>
+      <l>That covenants may be kept on either hand.</l>
+
+     </sp>
+     <sp who="#L0926_M2">
+      <speaker>Baptis.</speaker>
+      <l>Yes, when the special thing is well obtained,</l>
+      <l>My daughter's love; for that is all in all...</l>
+     </sp>
+     <sp who="#L0926_M1">
+      <speaker>Petru.</speaker>
+      <l>Why, that is nothing; for I tell you, father,</l>
+      <l>I am as peremptory as she proud-minded;</l>
+      <l>And where two raging fires meet together,</l>
+      <l>They do consume the thing that feeds their fury.</l>
+      <l>Though little fire grows great with little wind,</l>
+      <l>Yet extreme gusts will blow out fire and all.</l>
+      <l>So I to her, and so she yields to me;</l>
+      <l>For I am rough, and woo not like a babe.</l>
+     </sp>
+     <pb n="11"/>
+     <sp who="#L0926_M2">
+      <speaker>Baptis.</speaker>
+      <l>And will you woo her, sir?</l>
+     </sp>
+     <sp who="#L0926_M1">
+      <speaker>Petru.</speaker>
+      <l>Why came I hither, but to that intent?</l>
+      <l>Think you a little din can daunt mine ears?</l>
+      <l>Have I not in my time heard lions roar?</l>
+      <l>Have I not heard great ordnance in the field,</l>
+      <l>And heaven's artillery thunder in the skies?</l>
+      <l>Have I not in the pitched battle heard</l>
+      <l>Loud 'larums, neighing steeds, and trumpets' clang?</l>
+      <l>And do you tell me of a woman's tongue,</l>
+      <l>That gives not half so great a blow to the ear</l>
+      <l>As will a chesnut in a farmer's fire?</l>
+      <l>Tush, tush! fear boys with bugs.</l>
+     </sp>
+     <sp who="#L0926_M2">
+      <speaker>Baptis.</speaker>
+      <l>Then thou'rt the man.</l>
+      <l>The man for Katharine and her father too;</l>
+      <l>That shall she know, and know my mind at once.</l>
+      <l>I'll portion her above her gentler sister,</l>
+      <l>New-married to Hortensio;</l>
+      <l>And if, with scurril taunt and squeamish pride,</l>
+      <l>She make a mouth, and will not taste her fortune,</l>
+      <l>I'll turn her forth to seek it in the world;</l>
+      <l>Nor henceforth shall she know her father's doors.</l>
+     </sp>
+     <sp who="#L0926_M1">
+      <speaker>Petru.</speaker>
+      <l>Say'st thou me so? Then, as your daughter, signior,</l>
+      <l>Is rich enough to be Petruchio's wife,</l>
+      <l>Be she as curs'd as Socrates' Xantippe,</l>
+      <l>She moves me not a whit; were she as rough</l>
+      <l>As are the swelling Adriatic seas,</l>
+      <l>I come to wive it wealthily in Padua;</l>
+      <l>If wealthily, then happily in Padua.</l>
+     </sp>
+     <sp who="#L0926_M2">
+      <speaker>Baptis.</speaker>
+      <l>Well may'st thou woo, and happy be thy speed!</l>
+      <l>But be thou armed for some unhappy words.</l>
+     </sp>
+     <sp who="#L0926_M1">
+      <speaker>Petru.</speaker>
+      <l>Ay, to the proof; as mountains are for winds,</l>
+      <l>That shake not, though they blow perpetually.</l>
+      <stage>(Katharine and the Music Master make a noise without, R.)</stage>
+
+     </sp>
+     <sp who="#L0926_M4">
+      <speaker>Master.</speaker>
+      <p><stage>(without, R.)</stage> Help, help!</p>
+     </sp>
+     <sp who="#L0926_F13">
+      <speaker>Kath.</speaker>
+      <p>
+       <stage>(without)</stage> Out of the house, you scraping fool! </p>
+     </sp>
+     <sp who="#L0926_M1">
+      <speaker>Petru.</speaker>
+      <l>What noise is that?</l>
+     </sp>
+     <sp who="#L0926_M2">
+      <speaker>Baptis.</speaker>
+      <l>O, nothing; this is nothing.</l>
+      <l>My daughter, Katharine, and her music master;</l>
+      <l>This is the third I've had within this month:</l>
+      <l>She is an enemy to harmony.</l>
+      <pb n="12"/>
+      <figure>
+       <graphic url="media/L0926_fig1.png"/>
+       <head>Baptis. How now, my friend, why dost thou look so pale?</head>
+      </figure>
+      <pb n="13"/>
+      <stage>(Enter Music Master, with his forehead bleeding, and a broken lute in his hand, his
+       face pale, R.—he runs across to L.)</stage>
+
+      <l>How now, my friend, why dost thou look so pale?</l>
+     </sp>
+     <sp who="#L0926_M4">
+      <speaker>Master.</speaker>
+      <stage>(L.)</stage>
+      <l>For fear, I promise you, if I do look pale.</l>
+     </sp>
+     <sp who="#L0926_M2">
+      <speaker>Baptis.</speaker>
+      <stage>(C.)</stage>
+      <l>What, will my daughter prove a good musician?</l>
+     </sp>
+     <sp who="#L0926_M4">
+      <speaker>Master.</speaker>
+      <l>I think, she'll sooner prove a soldier;</l>
+      <l>Iron may hold with her, but never lutes.</l>
+     </sp>
+     <sp who="#L0926_M2">
+      <speaker>Baptis.</speaker>
+      <l>Why, then thou canst not break her to the lute ?</l>
+     </sp>
+     <sp who="#L0926_M4">
+      <speaker>Master.</speaker>
+      <l>Why no; for she hath broke the lute to me.</l>
+      <l>I did but tell her she mistook her frets,</l>
+      <l>And bow'd her hand to teach her fingering,</l>
+      <l>When, with a most impatient devilish spirit,</l>
+      <l>"Frets, call you these?" quoth she: "I'll fret your fool's cap!"</l>
+      <l>And, with that word, she struck me on the head,</l>
+      <l>And through the instrument my pate made way;</l>
+      <l>And there I stood amazed for awhile,</l>
+      <l>As on a pillory, looking through the lute:</l>
+      <l>While she did call me rascal fiddler,</l>
+      <l>And—twangling Jack; with twenty such vile terms,</l>
+      <l>As she had studied to misuse me so.</l>
+     </sp>
+     <sp who="#L0926_M1">
+      <speaker>Petru.</speaker>
+      <stage>(R.)</stage>
+      <l>Now, by the world, it is a lusty wench;</l>
+      <l>I love her ten times more than e'er I did:</l>
+      <l>O, how I long to have a grapple with her!</l>
+     </sp>
+     <sp who="#L0926_M4">
+      <speaker>Master.</speaker>
+      <l>I would not have another grapple with her, </l>
+      <l>To purchase Padua: for what is past, </l>
+      <l>I'm paid sufficiently: if, at your leisure, </l>
+      <l>You think my broken fortunes, head, and lute </l>
+      <l>Deserve some reparation, you know where </l>
+      <l>To enquire for me; and so, good gentlemen, </l>
+      <l>I am your much disorder'd, broken-pated, humble servant.</l>
+     </sp>
+     <stage>(Exit Music Master, L.)</stage>
+     <sp who="#L0926_M2">
+      <speaker>Baptis.</speaker>
+      <l>What, are you mov'd, Petruchio? Do you flinch ?</l>
+     </sp>
+     <sp who="#L0926_M1">
+      <speaker>Petru.</speaker>
+      <l>I'm more and more impatient, sir; and long</l>
+      <l>To be a partner in these favourite pleasures.</l>
+     </sp>
+     <sp who="#L0926_M2">
+      <speaker>Baptis.</speaker>
+      <l>O, by all means, sir. <stage>(crosses, R.)</stage> Will you go with me,</l>
+      <l>Or shall I send my daughter, Kate, to you?</l>
+     </sp>
+     <pb n="14"/>
+     <sp who="#L0926_M1">
+      <speaker>Petru.</speaker>
+      <l>I pray you do, I will attend her here.</l>
+      <stage>(Exit Baptista, R.)</stage>
+      <l>Since that her father is so resolute,</l>
+      <l>I'll woo her with some spirit when she comes :—</l>
+      <l>Say, that she rail; why then I'll tell her plain,</l>
+      <l>She sings as sweetly as a nightingale :—</l>
+      <l>Say, that she frown; I'll say she looks as clear.</l>
+      <l>As morning roses newly wash'd with dew:—</l>
+      <l>If she do bid me pack, I'll give her thanks,</l>
+      <l>As though she bid me stay by her a week :—</l>
+      <l>If she deny to wed, I'll crave the day</l>
+      <l>When I shall ask the banns, and when be married.</l>
+     </sp>
+     <sp who="#L0926_F13">
+      <speaker>Kath.</speaker>
+      <stage>(without, R.)</stage>
+      <l>Sir, —father, —surely—</l>
+     </sp>
+     <sp who="#L0926_M2">
+      <speaker>Baptis.</speaker>
+      <stage>(without, R.)</stage>
+      <l>Hence, Kate —ne'er tell me.</l>
+     </sp>
+     <sp who="#L0926_M1">
+      <speaker>Petru.</speaker>
+      <l>O, here she comes; and now, Petruchio, speak.</l>
+      <stage>(retires up stage)</stage>
+     </sp>
+     <stage>(Enter Katharine, R.)</stage>
+
+     <sp who="#L0926_F13">
+      <speaker>Kath.</speaker>
+      <l>How? turn'd adrift, nor know my father's house?</l>
+      <l>Reduc'd to this, or none? The maid's last prayer?</l>
+      <l>Sent to be woo'd like bear unto the stake?</l>
+      <l>Trim wooing like to be! <stage>(looks round)</stage> And he the bear;</l>
+      <l>For I shall bait him. Yet the man's a man.</l>
+     </sp>
+     <sp who="#L0926_M1">
+      <speaker>Petru.</speaker>
+      <stage>(L.C.)</stage>
+      <l>Kate in a calm?—Maids must not be wooers.</l>
+      <l>Good morrow, Kate; for that's your name, I hear.</l>
+
+     </sp>
+     <sp who="#L0926_F13">
+      <speaker>Kath.</speaker>
+      <l>Well have you heard, but impudently said:</l>
+      <l>They call me Katharine, that do talk of me.</l>
+     </sp>
+     <sp who="#L0926_M1">
+      <speaker>Petru.</speaker>
+      <l>You lie, in faith; for you are call'd plain Kate,</l>
+      <l>And bonny Kate, and sometimes Kate the curst;</l>
+      <l>But Kate –the prettiest Kate in Christendom—</l>
+      <l>Take this of me, Kate of my consolation :—</l>
+      <l>Hearing thy mildness prais'd in every town,</l>
+      <l>Thy virtue spoke of, and thy beauty sounded,</l>
+      <l>Thy affability, and bashful modesty,</l>
+      <l>Yet not so deeply as to thee belongs,</l>
+      <l>Myself am mov'd to woo thee for my wife.</l>
+     </sp>
+     <sp who="#L0926_F13">
+      <speaker>Kath.</speaker>
+      <l>Mov'd in good time! Let him that mov'd you hither,</l>
+      <l>Remove you hence: I knew you at the first</l>
+      <l>You were a moveable.</l>
+     </sp>
+     <pb n="15"/>
+     <figure>
+      <graphic url="media/L0926_fig2.png"/>
+      <head>Petru. I swear I'll cuff you, if you strike again.</head>
+     </figure>
+     <pb n="16"/>
+     <sp who="#L0926_M1">
+      <speaker>Petru.</speaker>
+      <l>A moveable! Why, what's that?</l>
+     </sp>
+     <sp who="#L0926_F13">
+      <speaker>Kath.</speaker>
+      <l>A joint-stool.</l>
+     </sp>
+     <sp who="#L0926_M1">
+      <speaker>Petru.</speaker>
+      <l>Thou hast hit it; come, sit on me.</l>
+      <stage>(kneels, offering his L. knee)</stage>
+     </sp>
+     <sp who="#L0926_F13">
+      <speaker>Kath.</speaker>
+      <l>Asses are made to bear, and so are you.</l>
+     </sp>
+     <sp who="#L0926_M1">
+      <speaker>Petru.</speaker>
+      <l>Women are made to bear, and so are you.</l>
+      <l>Alas, good Kate! I will not burden thee;</l>
+      <l>For, knowing thee to be but young and light––</l>
+     </sp>
+     <sp who="#L0926_F13">
+      <speaker>Kath.</speaker>
+
+      <l>Too light for such a swain as you to catch.</l>
+      <stage>(going, L.)</stage>
+     </sp>
+     <sp who="#L0926_M1">
+      <speaker>Petru.</speaker>
+      <l>Come, come, you wasp; i'faith, you are too angry.</l>
+     </sp>
+     <sp who="#L0926_F13">
+      <speaker>Kath.</speaker>
+      <l>If I be waspish, best beware my sting.</l>
+     </sp>
+     <sp who="#L0926_M1">
+      <speaker>Petru.</speaker>
+      <l>My remedy is, then, to pluck it out.</l>
+     </sp>
+     <sp who="#L0926_F13">
+      <speaker>Kath.</speaker>
+      <l>Ay, if the fool could find out where it lies.</l>
+     </sp>
+     <sp who="#L0926_M1">
+      <speaker>Petru.</speaker>
+      <l>The fool knows where the honey lies, sweet Kate.</l>
+     </sp>
+     <sp who="#L0926_F13">
+      <speaker>Kath.</speaker>
+      <l>'Tis not for drones to taste.</l>
+     </sp>
+     <sp who="#L0926_M1">
+      <speaker>Petru.</speaker>
+      <p>That will I try.</p>
+      <stage>(offers to kiss her—she strikes him)</stage>
+      <l>I swear I'll cuff you, if you strike again.</l>
+      <l>Nay, come, Kate, come; you must not look so sour.</l>
+     </sp>
+     <sp who="#L0926_F13">
+      <speaker>Kath.</speaker>
+      <l>How can I help it, when I see that face?</l>
+      <l>But I'll be shocked no longer with the sight.</l>
+      <stage>(going, R.)</stage>
+     </sp>
+     <sp who="#L0926_M1">
+      <speaker>Petru.</speaker>
+      <l>Nay, hear you, Kate; in sooth you 'scape not so.</l>
+     </sp>
+     <sp who="#L0926_F13">
+      <speaker>Kath.</speaker>
+      <l>I chafe you, if I tarry; let me go.</l>
+     </sp>
+     <sp who="#L0926_M1">
+      <speaker>Petru.</speaker>
+      <l>No, not a whit; I find you passing gentle.</l>
+      <l>'Twas told me, you were rough, and coy, and sullen;</l>
+      <l>But now I find report a very liar.<stage>(she frowns)</stage></l>
+      <l>Thou canst not frown, <stage>(she looks askance)</stage> thou canst not look askance,
+        <stage>(she bites her lip)</stage></l>
+      <l>Nor bite the lip, as angry wenches will;</l>
+      <l>Nor hast thou pleasure to be cross in talk;</l>
+      <l>But thou with mildness entertain'st thy wooers</l>
+      <l>With gentle conference, soft and affable.</l>
+     </sp>
+     <sp who="#L0926_F13">
+      <speaker>Kath.</speaker>
+      <p>This is beyond all patience.</p>
+      <stage>(walks angrily across the stage to and fro)</stage>
+      <l>Don't provoke me!</l>
+     </sp>
+     <sp who="#L0926_M1">
+      <speaker>Petru.</speaker>
+      <l>Why does the world report that Kate doth limp?</l>
+      <l>O, slanderous world! Kate, like the hazel-twig,</l>
+      <l>Is straight and slender, and as brown in hue</l>
+      <l>As hazel-nuts, and sweeter than the kernels.</l>
+      <l>Thou dost not limp; —so, let me see thee walk.</l>
+      <l>Walk, walk, walk.</l>
+     </sp>
+     <pb n="17"/>
+     <sp who="#L0926_F13">
+      <speaker>Kath.</speaker>
+      <stage>(she stops suddenly, L.)</stage>
+      <l>Go, fool, and whom thou keep'st command.</l>
+     </sp>
+     <sp who="#L0926_M1">
+      <speaker>Petru.</speaker>
+      <l>Did ever Dian so become a grove,</l>
+      <l>As Kate this chamber with her princely gait?</l>
+      <l>O, be thou Dian, and let her be Kate;</l>
+      <l>And then let Kate be chaste, and Dian sportful!</l>
+     </sp>
+     <sp who="#L0926_F13">
+      <speaker>Kath.</speaker>
+      <l>Where did you study all this goodly speech?</l>
+     </sp>
+     <sp who="#L0926_M1">
+      <speaker>Petru.</speaker>
+      <l>Study !</l>
+      <l>It is extempore, from my mother-wit.</l>
+     </sp>
+     <sp who="#L0926_F13">
+      <speaker>Kath.</speaker>
+      <l>A witty mother! witless else her son.</l>
+     </sp>
+     <sp who="#L0926_M1">
+      <speaker>Petru.</speaker>
+      <l>Am I not wise?</l>
+     </sp>
+     <sp who="#L0926_F13">
+      <speaker>Kath.</speaker>
+      <l>Yes, in your own conceit;</l>
+      <l>Keep yourself warm with that, or else you'll freeze.</l>
+     </sp>
+     <sp who="#L0926_M1">
+      <speaker>Petru.</speaker>
+      <l>Or rather, warm me in thy arms, my Kate!</l>
+      <l>And therefore, setting all this chat aside,</l>
+      <l>Thus, in plain terms:—Your father has consented</l>
+      <l>That you shall be my wife; your dowry 'greed on;</l>
+      <l>And, will you, nill you, I will marry you.</l>
+     </sp>
+     <sp who="#L0926_F13">
+      <speaker>Kath.</speaker>
+      <l>Whether I will or no?—O, fortune's spite!</l>
+     </sp>
+     <sp who="#L0926_M1">
+      <speaker>Petru.</speaker>
+      <l>Nay, Kate, I am a husband to your turn;</l>
+      <l>For, by this light, whereby I see thy beauty—</l>
+      <l>Thy beauty, that doth make me love thee well—</l>
+      <l>Thou must be married to no man but me;</l>
+      <l>For I am he that's born to tame you, Kate.</l>
+     </sp>
+     <sp who="#L0926_F13">
+      <speaker>Kath.</speaker>
+      <p>That will admit dispute, my saucy groom.</p>
+      <stage>(crosses R.)</stage>
+     </sp>
+     <sp who="#L0926_M1">
+      <speaker>Petru.</speaker>
+      <l>Here comes your father: never make denial;</l>
+      <l>I must, and will, have Katharine to my wife.</l>
+      <stage>(Enter Baptista, R.)</stage>
+     </sp>
+     <sp who="#L0926_M2">
+      <speaker>Baptis.</speaker>
+      <stage>(C.)</stage>
+      <l>Now, signior, now; how speed you with my daughter?</l>
+     </sp>
+     <sp who="#L0926_M1">
+      <speaker>Petru.</speaker>
+      <stage>(L.)</stage>
+      <l>How should I speed, but well, sir? How, but well?</l>
+      <l>It were impossible I should speed amiss.</l>
+     </sp>
+     <sp who="#L0926_M2">
+      <speaker>Baptis.</speaker>
+      <l>Why, how now, daughter Katharine? in your dumps?</l>
+     </sp>
+     <sp who="#L0926_F13">
+      <speaker>Kath.</speaker>
+      <stage>(R.)</stage>
+      <l>Call you me daughter? Now, I promise you,</l>
+      <l>You have showed a tender fatherly regard,</l>
+      <l>To wish me wed to one half lunatic;</l>
+      <l>A mad-cap ruffian, and a swearing Jack,</l>
+      <l>That thinks with oaths to face the matter out.</l>
+     </sp>
+     <pb n="18"/>
+     <sp who="#L0926_M2">
+      <speaker>Baptis.</speaker>
+      <l>Better this Jack than starve; and that's your portion.</l>
+     </sp>
+     <sp who="#L0926_M1">
+      <speaker>Petru.</speaker>
+      <l>Father, 'tis thus: yourself, and all the world</l>
+      <l>That talked of her, have talked amiss of her,</l>
+      <l>If she be curst, it is for policy;</l>
+      <l>For she's not froward, but modest as the dove;</l>
+      <l>She is not hot, but temperate as the morn;</l>
+      <l>For patience, she will prove a second Grissel;</l>
+      <l>And, to conclude, we 'greed so well together,</l>
+      <l>We've fixed to-morrow for the wedding-day.</l>
+     </sp>
+     <sp who="#L0926_F13">
+      <speaker>Kath.</speaker>
+      <l>I'll see thee hanged to morrow first—to-morrow!</l>
+     </sp>
+     <sp who="#L0926_M2">
+      <speaker>Baptis.</speaker>
+      <l>Petruchio, hark: she says, she'll see thee hanged first.</l>
+     </sp>
+     <sp who="#L0926_M1">
+      <speaker>Petru.</speaker>
+      <l>What's that to you?</l>
+      <l>If she and I be pleased, what's that to you?</l>
+      <l>'Tis bargained 'twixt us twain, being alone,</l>
+      <l>That she shall still be curst in company.</l>
+     </sp>
+     <sp who="#L0926_F13">
+      <speaker>Kath.</speaker>
+      <stage>(aside)</stage>
+      <l>A plague upon his impudence! I'm vexed;</l>
+      <l>I'll marry my revenge, but I will tame him.</l>
+     </sp>
+     <sp who="#L0926_M1">
+      <speaker>Petru.</speaker>
+      <l>I tell you, 'tis incredible to believe</l>
+      <l>How much she loves me. <stage>(Katharine exclaiming, "Oh!")</stage> O, the kindest
+       Kate!</l>
+      <l>She hung about my neck; <stage>(Katharine again "Oh!")</stage> and kiss on kiss,
+        <stage>(Katharine again, "Oh!" and walks up and down the stage angrily, R.)</stage></l>
+      <l>She vied so fast, protesting oath on oath,</l>
+      <l>That, in a twink, she won me to her love.</l>
+      <l>O, you are novices! 'tis a world to see</l>
+      <l>How tame, when men and women are alone.</l>
+      <l>Give me thy hand, Kate. <stage>(crosses R.C.)</stage> I will now away,</l>
+      <l>To buy apparel for my gentle bride.</l>
+      <l>Father, provide the feast, and bid the guests.</l>
+     </sp>
+     <sp who="#L0926_M2">
+      <speaker>Baptis.</speaker>
+      <l>What dost thou say, my Katharine? Give thy hand.</l>
+     </sp>
+     <sp who="#L0926_F13">
+      <speaker>Kath.</speaker>
+      <l>Never to man shall Katharine give her hand;</l>
+      <l>Here 'tis and let him take it, an he dare.</l>
+     </sp>
+     <sp who="#L0926_M1">
+      <speaker>Petru.</speaker>
+      <l>Were it the fore-foot of an angry bear,</l>
+      <l>I'd shake it off; but, as it's Kate's, I kiss it.</l>
+     </sp>
+     <sp who="#L0926_F13">
+      <speaker>Kath.</speaker>
+      <stage>(aside)</stage>
+      <l>You'll kiss it closer, ere our moon be wan'd.</l>
+     </sp>
+     <sp who="#L0926_M2">
+      <speaker>Baptis.</speaker>
+      <l>Heaven send you joy, Petruchio! —'tis a match.</l>
+     </sp>
+     <sp who="#L0926_M1">
+      <speaker>Petru.</speaker>
+      <l>Father and wife, adieu! I must away</l>
+      <l>Unto my country house, and stir my grooms,</l>
+      <pb n="19"/>
+      <l>Scour off their country rust, and make 'em fine,</l>
+      <l>For the reception of my Katharine.<stage>(crosses L.)</stage></l>
+      <l> We will have rings, and things, and fine array, —</l>
+      <l>To-morrow, Kate, shall be our wedding-day.</l>
+      <stage>(Exit Petruchio, L.)</stage>
+     </sp>
+     <sp who="#L0926_M2">
+      <speaker>Baptis.</speaker>
+      <l>Well, daughter, though the man be somewhat wild,</l>
+      <l>And thereto frantic, yet his means are great.</l>
+      <l>Thou hast done well to seize the first kind offer;</l>
+      <l>For, by thy mother's soul, 'twill be the last.</l>
+     </sp>
+     <sp who="#L0926_F13">
+      <speaker>Kath.</speaker>
+      <l>My duty, sir, hath followed your command.</l>
+     </sp>
+     <sp who="#L0926_M2">
+      <speaker>Baptis.</speaker>
+      <l>Art thou in earnest? Hast no trick behind?</l>
+      <l>I'll take thee at thy word, and send to invite</l>
+      <l>My son in-law, Hortensio, and thy sister,</l>
+      <l>And all our friends, to grace thy nuptials, Kate.</l>
+      <stage>(Exit Baptista, L.)</stage>
+     </sp>
+     <sp who="#L0926_F13">
+      <speaker>Kath.</speaker>
+      <l>Why, yes; sister Bianca now shall see,</l>
+      <l>The poor abandoned Katharine, as she calls me,</l>
+      <l>Can make her husband stoop unto her lure,</l>
+      <l>And hold her head as high, and be as proud,</l>
+      <l>As she, or e'er a wife in Padua.</l>
+      <l>As double as my portion be my scorn!</l>
+      <l>Look to your seat, Petruchio, or I throw you.</l>
+      <l>Katharine shall tame this haggard; or, if she fails,</l>
+      <l>Shall tie her tongue up, and pare down her nails.</l>
+      <stage>(Exit, R.)</stage>
+     </sp>
+     <figure>
+      <graphic url="media/L0926_fig3.png" height="30%"/>
+     </figure>
+     <trailer>(End Of Act 1.)</trailer>
+    </div>
+   </div>
+   <pb n="20"/>
+   <div type="act" n="2">
+    <head>Act II.</head>
+    <div type="scene" n="1">
+     <head>Scene First.—Baptista's House, as before.</head>
+     <stage>Katharine, Bianca, Baptista, Hortensio, Gentlemen, and Ladies discovered, in wedding
+      dresses.</stage>
+     <sp who="#L0926_M2">
+      <speaker>Baptis.</speaker>
+      <l>Signior Hortensio, this is the 'pointed day,</l>
+      <l>That Katharine and Petruchio should be married;</l>
+      <l>And yet we hear not of our son-in-law.</l>
+      <l>What says Hortensio to this shame of ours?</l>
+     </sp>
+     <sp who="#L0926_F13">
+      <speaker>Kath.</speaker>
+      <l>No shame but mine; I must, forsooth, be forced</l>
+      <l>To give my hand, opposed against my heart,</l>
+      <l>Unto a mad-brain rudesby, full of spleen;</l>
+      <l>Who woo'd in haste, and means to wed at leisure.</l>
+      <l>Now must the world point at poor Katharine,</l>
+      <l>And say, "Lo! there is mad Petruchio's wife,</l>
+      <l>If it would please him come and marry her."</l>
+     </sp>
+     <sp who="#L0926_F14">
+      <speaker>Bianca.</speaker>
+      <l>Such hasty matches seldom end in good.</l>
+     </sp>
+     <sp who="#L0926_M3">
+      <speaker>Horten.</speaker>
+      <l>Patience, good Katharine, and Bianca too;</l>
+      <l>Upon my life, Petruchio means but well,</l>
+      <l>Whatever fortune stays him from his word;</l>
+      <l>Though he be blunt, I know him passing wise;</l>
+      <l>Though he be merry, yet withal he's honest.</l>
+     </sp>
+     <sp who="#L0926_F13">
+      <speaker>Kath.</speaker>
+      <l>'Would I had never seen his honesty!</l>
+      <l>O! I could tear my flesh for very madness.</l>
+      <stage>(Exit Katharine, R.)</stage>
+     </sp>
+     <sp who="#L0926_M2">
+      <speaker>Baptis.</speaker>
+      <l>Follow your sister, girl, and comfort her.</l>
+      <stage>(Exit Bianca, R.)</stage>
+      <l>I cannot blame thee now to weep and rage;</l>
+      <l>For such an injury would vex a saint,</l>
+      <l>Much more a shrew of thy impatient humour.</l>
+      <stage>Enter Biondello, L.</stage>
+     </sp>
+     <sp who="#L0926_M6">
+      <speaker>Bion.</speaker>
+      <p>Master, master, news; and such news as you never heard of.</p>
+     </sp>
+     <sp who="#L0926_M2">
+      <speaker>Baptis.</speaker>
+      <p>Is Petruchio come?</p>
+     </sp>
+     <sp who="#L0926_M6">
+      <speaker>Bion.</speaker>
+      <p>Why, no, sir.</p>
+     </sp>
+     <sp who="#L0926_M2">
+      <speaker>Baptis.</speaker>
+      <l>What then?</l>
+     </sp>
+     <sp who="#L0926_M6">
+      <speaker>Bion.</speaker>
+      <p>He is coming; but how? – Why, in a new hat, and an old jerkin; a pair of old breeches,
+       thrice turned:
+       <pb n="21"/> a pair of boots that have been candle-cases, one buckled, another laced; an old
+       rusty sword ta'en out of the town armoury, with a broken hilt and chapeless. His horse hipped
+       with an old mothy saddle, the stirrups of no kindred: besides, possessed with the glanders,
+       and like to mose in the chine; troubled with the lampass, infected with the farcy, full of
+       wind-galls, sped with spavins, raied with the yellows, past cure of the fives, stark spoiled
+       with the staggers, begnawn with the bots; swayed in the back, and shoulder-shotten; ne'er
+       legged before, and with a half-checked bit, and a headstall of sheep's leather; which being
+       restrained to keep him from stumbling, hath been often burst, and now repaired with knots;
+       one girt six times pieced, and a woman's crupper of velure, which hath two letters for her
+       name, fairly set down in studs, and here and there pieced with packthread.</p>
+     </sp>
+     <sp who="#L0926_M2">
+      <speaker>Baptis.</speaker>
+      <l>Who comes with him?</l>
+     </sp>
+     <sp who="#L0926_M6">
+      <speaker>Bion.</speaker>
+      <p>O, sir, his lackey, for all the world caparisoned like the horse; with a linen stock on one
+       leg, and a kersey boot-hose on the other, gartered with a red and blue list; an old hat, and
+       the humour of forty fancies pricked in't for a feather: a monster, a very monster in apparel;
+       and not like a Christian footboy, or a gentleman's lackey.</p>
+      <stage>(Petruchio is heard cracking his whip, L.)</stage>
+
+     </sp>
+     <sp who="#L0926_M1">
+      <speaker>Petru.</speaker>
+      <l>Holla! holla!</l>
+     </sp>
+     <stage>(Exit Biondello, R.)</stage>
+     <sp who="#L0926_M2">
+      <speaker>Baptis.</speaker>
+      <l>I am glad he is come, howsoe'er he comes.</l>
+      <stage>Enter Petruchio and Grumio, fantastically habited, L.—they cross over to R. and back to
+       L., smacking their whips.</stage>
+     </sp>
+     <sp who="#L0926_M1">
+      <speaker>Petru.</speaker>
+      <l>Hoa! Where be these gallants? Who is at home?</l>
+     </sp>
+     <sp who="#L0926_M2">
+      <speaker>Baptis.</speaker>
+      <l>You are welcome, sir.</l>
+     </sp>
+     <sp who="#L0926_M1">
+      <speaker>Petru.</speaker>
+      <l>Well am I come, then, sir.</l>
+     </sp>
+     <sp who="#L0926_M2">
+      <speaker>Baptis.</speaker>
+      <l>Not so well apparelled as I wish you were.</l>
+     </sp>
+     <sp who="#L0926_M1">
+      <speaker>Petru.</speaker>
+      <stage>(R.)</stage>
+      <l>Were it better I should rush in thus.</l>
+      <l>But where is Kate? Where is my lovely bride ?</l>
+      <l>How does my father? Gentles, methinks you frown:</l>
+      <l>And wherefore gaze this goodly company,</l>
+      <l>As if they saw some wondrous monument,</l>
+      <l>Some comet, or unusual prodigy.</l>
+     </sp>
+     <sp who="#L0926_M2">
+      <speaker>Baptis.</speaker>
+      <l>Why, sir, you know this is your wedding day;</l>
+      <pb n="22"/>
+      <l>First were we sad, fearing you would not come;</l>
+      <l>Now sadder, that you come so unprovided.</l>
+      <l>Fie! doff this habit, shame to your estate,</l>
+      <l>An eye-sore to our solemn festival.</l>
+     </sp>
+     <sp who="#L0926_M3">
+      <speaker>Horten.</speaker>
+      <stage>(R.C.)</stage>
+      <l>And tell us what occasion of import</l>
+      <l>Hath all so long detained you from your wife,</l>
+      <l>And sent you hither so unlike yourself?</l>
+     </sp>
+     <sp who="#L0926_M1">
+      <speaker>Petru.</speaker>
+      <l>Tedious it were to tell, and harsh to hear;</l>
+      <l>Let it suffice, I'm come to keep my word.</l>
+      <l>But where is Kate? I stay too long from her;</l>
+      <l>The morning wears, 'tis time we were at church.</l>
+     </sp>
+     <sp who="#L0926_M3">
+      <speaker>Horten.</speaker>
+      <l>See not your bride in these unreverent robes;</l>
+      <l>Go to my chamber, put on clothes of mine.</l>
+     </sp>
+     <sp who="#L0926_M1">
+      <speaker>Petru.</speaker>
+      <l>Not I, believe me; thus I'll visit her.</l>
+     </sp>
+     <sp who="#L0926_M2">
+      <speaker>Baptis.</speaker>
+      <l>But thus, I trust, you will not marry her.</l>
+     </sp>
+     <sp who="#L0926_M1">
+      <speaker>Petru.</speaker>
+      <l>Good sooth, even thus; therefore have done with words;</l>
+      <l>To me she's married, not unto my clothes:</l>
+      <l>Could I repair what she will wear in me,</l>
+      <l>As I could change these poor accoutrements,</l>
+      <l>'Twere well for Kate, and better for myself.</l>
+      <l>But what a fool am I to chat with you,</l>
+      <l>When I should bid good-morrow to my bride,</l>
+      <l>And seal the title with a loving kiss !</l>
+      <l>What, ho! my Kate! my Kate!</l>
+      <stage>(crosses, c., cracking his whip)</stage>
+     </sp>
+     <sp who="#L0926_M8">
+      <speaker>Grumio.</speaker>
+      <l>What, ho! why Kate! why Kate!</l>
+      <stage>(Petruchio turns, cuts him, and goes off, R.—Grumio rubs his legs, and limps off after
+       him)</stage>
+     </sp>
+     <sp who="#L0926_M3">
+      <speaker>Horten.</speaker>
+      <l>He hath some meaning in this mad attire.</l>
+     </sp>
+     <sp who="#L0926_M2">
+      <speaker>Baptis.</speaker>
+      <l>Let's after him, and see the event of this.</l>
+      <stage>(Exeunt, R.)</stage>
+      <stage>A pause, then enter Grumio, R.</stage>
+     </sp>
+     <sp who="#L0926_M8">
+      <speaker>Grumio.</speaker>
+      <p>He's gone swearing to the church with her. I would sooner have led her to the gallows. If
+       he can but hold it, 'tis well:—And if I know anything of myself and my master, no two men
+       were ever born with such qualities to tame women. When madam goes home, we must look for
+       another guise-master than we have had. We shall see old coil between 'em. If I can spy into
+       <pb n="23"/> futurity a little, there will be much clatter among the moveables, and some
+       practice for the surgeons. By this, the parson has given 'em his licence to fall together by
+       the ears.</p>
+      <stage>(Enter Pedro hastily, L.)</stage>
+     </sp>
+     <sp who="#L0926_M7">
+      <speaker>Pedro.</speaker>
+      <p>Grumio, your master bid me find you out, and speed you to his country house, to prepare for
+       his reception; and, if he finds not things as he expects 'em, according to the directions
+       that he gave you, you know, he says, what follows. This message he delivered before his
+       bride, even in her way to church, and shook his whip in token of his love.</p>
+     </sp>
+     <sp who="#L0926_M8">
+      <speaker>Grumio.</speaker>
+      <p>I understand it, sir; and will convey the same token to my horse immediately, that he may
+       take to his heels, in order to save my bones and his own ribs.</p>
+      <stage>(Exit Grumio, running, L.)</stage>
+     </sp>
+     <sp who="#L0926_M7">
+      <speaker>Pedro.</speaker>
+      <l>So odd a master, and so fit a man,</l>
+      <l>Were never seen in Padua before.</l>
+      <stage>Enter Biondello hastily, R.</stage>
+      <l>Now, Biondello, came you from the church?</l>
+     </sp>
+     <sp who="#L0926_M6">
+      <speaker>Bion.</speaker>
+      <l>As willingly as e'er I came from school.</l>
+     </sp>
+     <sp who="#L0926_M7">
+      <speaker>Pedro.</speaker>
+      <l>And is the bride and bridegroom coming home?</l>
+     </sp>
+     <sp who="#L0926_M6">
+      <speaker>Bion.</speaker>
+      <l>A bridegroom, say you? 'tis a groom indeed,</l>
+      <l>A grumbling groom, and that the girl shall find.</l>
+     </sp>
+     <sp who="#L0926_M7">
+      <speaker>Pedro.</speaker>
+      <l>Curster than she? why, 'tis impossible.</l>
+     </sp>
+     <sp who="#L0926_M6">
+      <speaker>Bion.</speaker>
+      <l>Why, he's a devil, a devil, a very fiend.</l>
+     </sp>
+     <sp who="#L0926_M7">
+      <speaker>Pedro.</speaker>
+      <l>Why, she's a devil, a devil, the devil's dam.</l>
+     </sp>
+     <sp who="#L0926_M6">
+      <speaker>Bion.</speaker>
+      <l>Tut! she's a lamb, a dove, a fool to him.</l>
+      <l>I'll tell you, brother Pedro. When the priest</l>
+      <l>Should ask—If Katharine should be his wife?</l>
+      <l>"Ay, by gog's-wouns," quoth he; and swore so loud,</l>
+      <l>That, all amazed, the priest let fall the book;</l>
+      <l>And, as he stooped again to take it up,</l>
+      <l>The mad-brained bridegroom took him such a cuff,</l>
+      <l>That down fell priest and book, and book and priest.</l>
+      <l>"Now take them up," quoth he, "if any list."</l>
+     </sp>
+     <sp who="#L0926_M7">
+      <speaker>Pedro.</speaker>
+      <l>What said the wench when he arose again?</l>
+     </sp>
+     <sp who="#L0926_M6">
+      <speaker>Bion.</speaker>
+      <l>Trembled and shook; for why, he stamped and swore,</l>
+      <l>As if the vicar meant to cozen him.</l>
+      <pb n="24"/>
+      <figure>
+       <graphic url="media/L0926_fig4.png"/>
+       <head>Bion.
+        <l>The mad-brained bridegroom took him such a cuff,</l>
+        <l>That down fell priest and book, and book and priest.</l>. </head>
+      </figure>
+      <pb n="25"/>
+      <l>But after many ceremonies done,</l>
+      <l>He calls for wine. "A health," quoth he, as if</l>
+      <l>He had been aboard, carousing to his mates</l>
+      <l>After a storm; quaffed off the muscadel,</l>
+      <l>And threw the sops all in the sexton's face;</l>
+      <l>Having no other reason</l>
+      <l>But that his beard grew thin and hungerly,</l>
+      <l>And seemed to ask him sops, as he was drinking.</l>
+      <l>This done, he took the bride about the neck,</l>
+      <l>And kissed her lips with such a clamourous smack,</l>
+      <l>That, at the parting, all the church did echo.</l>
+      <l>I, seeing this, came thence for very shame;</l>
+      <l>And after me, I know, the rout is coming.</l>
+      <stage>(music, R.)</stage>
+      <l>Hark, hark! I hear the minstrels play.—</l>
+      <l>Such a mad marriage never was before.</l>
+      <stage>Exeunt Pedro and Biondello, L.</stage>
+     </sp>
+     <stage>Enter Gentlemen, Ladies, Bianca, Hortensio, Baptista, Petruchio, singing and dancing,
+      Katharine, Ladies and Gentlemen, R., they pass round the stage to R.</stage>
+
+     <sp who="#L0926_M1">
+      <speaker>Petru.</speaker>
+      <l>Gentlemen and friends, I thank you for your pains;</l>
+      <l>I know you think to dine with me to-day,</l>
+      <l>And have prepared great store of wedding cheer;</l>
+      <l>But so it is, my haste doth call me hence;</l>
+      <l>And therefore here I mean to take my leave.</l>
+     </sp>
+     <sp who="#L0926_M2">
+      <speaker>Baptis.</speaker>
+      <l>Is't possible, you will away to-night?</l>
+     </sp>
+     <sp who="#L0926_M1">
+      <speaker>Petru.</speaker>
+      <l>I must away to-day, before night come.</l>
+      <l>Make it no wonder; if you knew my business,</l>
+      <l>You would entreat me rather go than stay.</l>
+      <l>And, honest company, I thank you all,</l>
+      <l>That have beheld me give away myself</l>
+      <l>To this most patient, sweet, and virtuous wife.</l>
+      <l>Dine with my father, drink a health to me;</l>
+      <l>For I must hence, and farewell to you all.</l>
+     </sp>
+     <sp who="#L0926_M3">
+      <speaker>Horten.</speaker>
+      <l>Let me entreat you stay till after dinner.</l>
+     </sp>
+     <sp who="#L0926_M1">
+      <speaker>Petru.</speaker>
+      <l>It may not be.</l>
+     </sp>
+     <sp who="#L0926_F14">
+      <speaker>Bianca.</speaker>
+      <l>Let me entreat you that my sister stay.</l>
+      <l>I came on purpose to attend the wedding,</l>
+      <l>And pass this day in mirth and festival.</l>
+     </sp>
+     <sp who="#L0926_M1">
+      <speaker>Petru.</speaker>
+      <l>It cannot be.</l>
+     </sp>
+     <sp who="#L0926_F13">
+      <speaker>Kath.</speaker>
+      <l>Let me entreat you.</l>
+     </sp>
+     <pb n="26"/>
+     <sp who="#L0926_M1">
+      <speaker>Petru.</speaker>
+      <l>I am content.</l>
+     </sp>
+     <sp who="#L0926_F13">
+      <speaker>Kath.</speaker>
+      <l>Are you content to stay?</l>
+     </sp>
+     <sp who="#L0926_M1">
+      <speaker>Petru.</speaker>
+      <l>I am content you shall entreat me stay;</l>
+      <l>But yet not stay, entreat me how you can.</l>
+     </sp>
+     <sp who="#L0926_F13">
+      <speaker>Kath.</speaker>
+      <l>Now, if you love me, stay.</l>
+     </sp>
+     <sp who="#L0926_M1">
+      <speaker>Petru.</speaker>
+      <l>My horses, there!<stage>(crosses, L.)</stage> What, ho, my horses, there !</l>
+     </sp>
+     <sp who="#L0926_F13">
+      <speaker>Kath.</speaker>
+      <l>Nay, then,</l>
+      <l>Do what thou canst, I will not go to-day;</l>
+      <l>No, nor to-morrow; nor till I please myself.</l>
+      <l>The door is open, sir; there lies your way;</l>
+      <l>You may be jogging, whiles your boots are green;</l>
+      <l>For me, I'll not begone, till I please myself :—</l>
+      <l>'Tis like, you'll prove a jolly surly groom,</l>
+      <l>That take it on you at the first so roundly.</l>
+     </sp>
+     <sp who="#L0926_M2">
+      <speaker>Baptis.</speaker>
+      <l>Nay, Kate, content thee. Pr'ythee be not angry.</l>
+     </sp>
+     <sp who="#L0926_F13">
+      <speaker>Kath.</speaker>
+      <l>I will be angry!</l>
+      <stage>(fiercely)</stage>
+      <l>Father, be quiet; he shall stay my leisure.</l>
+     </sp>
+     <sp who="#L0926_M3">
+      <speaker>Horten.</speaker>
+      <stage>(up stage c.)</stage>
+      <l>Ay, marry, sir: now it begins to work.</l>
+     </sp>
+     <sp who="#L0926_F13">
+      <speaker>Kath.</speaker>
+      <l>Gentlemen, forward to the bridal dinner:</l>
+      <l>I see a woman may be made a fool,</l>
+      <l>If she had not a spirit to resist.</l>
+     </sp>
+     <sp who="#L0926_M1">
+      <speaker>Petru.</speaker>
+      <l>They shall go forward, Kate, at thy command.</l>
+      <l>Obey the bride, you that attend on her;</l>
+      <l>Go to the feast, revel and domineer;</l>
+      <l>Be mad and merry, – or go hang yourselves;</l>
+      <l>But for my bonny Kate, she must with me.<stage>(seizes her)</stage></l>
+      <l> Nay, look not big, nor stamp, nor stare, nor fret;</l>
+      <l>I will be master of what is mine own:</l>
+      <l>She is my goods, my chattels; she is my house,</l>
+      <l>My household-stuff, my field, my barn,</l>
+      <l>My horse, my ox, my ass, my anything.</l>
+      <l>
+       <stage>(she screams—he throws her round to L.)</stage> And here she stands, touch her whoever
+       dare;</l>
+      <l>I'll bring my action on the proudest he,</l>
+      <l>That stops my way in Padua. <stage>(the Company draw their swords)</stage> Petruchio,</l>
+      <l>Draw forth thy weapon, thou'rt beset with thieves;</l>
+      <l>Rescue thy wife, then, if thou be a man.</l>
+      <l>Fear not, sweet wench: they shall not touch thee, Kate,</l>
+      <pb n="27"/>
+      <l>I'll buckler thee against a million, Kate.</l>
+      <stage>(Petruchio takes her on his L. shoulder, and goes off waving his sword, L., followed by
+       the Company)</stage>
+     </sp>
+    </div>
+
+    <div type="scene" n="2">
+     <head>Scene Second.—Hall of Petruchio's Country House.</head>
+     <stage>Table and chairs.</stage>
+     <stage>Enter Grumio, L.</stage>
+     <sp who="#L0926_M8">
+      <speaker>Grumio.</speaker>
+      <p>What, hoa! Curtis! Fie, fie, on all jades! and all mad masters! and all foul ways! Was ever
+       man so beaten? Was ever man so ray'd? Was ever man so weary? I am sent before to make a fire,
+       and they are coming after to warm them.—Curtis! Now, were not I a little pot, and soon hot,
+       my very lips might freeze to my teeth, my tongue to the roof of my mouth, my heart in my
+       belly, ere I should come by a fire to thaw me: But I, with blowing the fire, shall warm
+       myself: for, considering the weather, a taller man than I will take cold.—Holla hoa!
+       Curtis!</p>
+      <stage>Enter Curtis, R.</stage>
+     </sp>
+     <sp who="#L0926_F15">
+      <speaker>Curtis.</speaker>
+      <p>Who is that, calls so coldly?</p>
+     </sp>
+     <sp who="#L0926_M8">
+      <speaker>Grumio.</speaker>
+      <p>A piece of ice: if thou doubt it, thou may'st slide from my shoulder to my heel, with no
+       greater a sun, but my head and my neck. A fire, good Curtis.</p>
+     </sp>
+     <sp who="#L0926_F15">
+      <speaker>Curtis.</speaker>
+      <p>Is my master and his wife coming, Grumio?</p>
+     </sp>
+     <sp who="#L0926_M8">
+      <speaker>Grumio.</speaker>
+      <p>O, ay, Curtis, ay; and therefore fire, fire; cast on no water.</p>
+     </sp>
+     <sp who="#L0926_F15">
+      <speaker>Curtis.</speaker>
+      <p>Is she so hot a shrew as she's reported?</p>
+     </sp>
+     <sp who="#L0926_M8">
+      <speaker>Grumio.</speaker>
+      <p>She was, good Curtis, before this frost: but thou know'st winter tames man, woman, and
+       beast. Where's the cook? Is supper ready, the house trimmed, the serving men in their best
+       clothes, and every officer his wedding garments on? Be the Jacks fair within, the Jills fair
+       without, the carpets laid, and everything in order?</p>
+     </sp>
+     <sp who="#L0926_F15">
+      <speaker>Curtis.</speaker>
+      <p>All ready; and therefore, I pray thee, what news?</p>
+     </sp>
+     <sp who="#L0926_M8">
+      <speaker>Grumio.</speaker>
+      <p>First, know my horse is tired; my master and mistress fallen out.</p>
+     </sp>
+     <pb n="28"/>
+     <sp who="#L0926_F15">
+      <speaker>Curtis.</speaker>
+      <p>How?</p>
+     </sp>
+     <sp who="#L0926_M8">
+      <speaker>Grumio.</speaker>
+      <p>Out of their saddles into the dirt; and thereby hangs a tale.</p>
+     </sp>
+     <sp who="#L0926_F15">
+      <speaker>Curtis.</speaker>
+      <p>Let's ha't, good Grumio.</p>
+     </sp>
+     <sp who="#L0926_M8">
+      <speaker>Grumio.</speaker>
+      <p>Lend thine ear.</p>
+     </sp>
+     <sp who="#L0926_F15">
+      <speaker>Curtis.</speaker>
+      <p>Here.</p>
+     </sp>
+     <sp who="#L0926_M8">
+      <speaker>Grumio.</speaker>
+      <p>There!</p>
+      <stage>(boxes her ear)</stage>
+     </sp>
+     <sp who="#L0926_F15">
+      <speaker>Curtis.</speaker>
+      <p><stage>(rubbing her ear)</stage> This is to feel a tale, not to hear a tale.</p>
+     </sp>
+     <sp who="#L0926_M8">
+      <speaker>Grumio.</speaker>
+      <p>And therefore 'tis called a sensible tale! and this cuff was but to knock at your ear, and
+       beseech listening. Now I begin: imprimis, we came down a foul hill, my master riding behind
+       my mistress—</p>
+     </sp>
+     <sp who="#L0926_F15">
+      <speaker>Curtis.</speaker>
+      <p>Both on one horse?</p>
+     </sp>
+     <sp who="#L0926_M8">
+      <speaker>Grumio.</speaker>
+      <p>What's that to thee? Tell thou the tale. But hadst thou not crossed me, thou should'st have
+       heard how her horse fell, and she under her horse; thou should'st have heard in how miry a
+       place; how she was bemoiled; how he left her with the horse upon her; how he beat me because
+       her horse stumbled; how she waded through the dirt to pluck him off me; how he swore; how she
+       prayed –that never prayed before; how I cried; how the horses ran away; how her bridle was
+       burst, how I lost my crupper; how my mistress lost her slippers, tore and bemired her
+       garments, limped to the farm house, put on Rebecca's old shoes and petticoat; with many
+       things of worthy memory, which now shall die in oblivion, and thou return unexperienced to
+       thy grave.</p>
+     </sp>
+     <sp who="#L0926_F15">
+      <speaker>Curtis.</speaker>
+      <p>By this reckoning, he is more shrew than she.</p>
+     </sp>
+     <sp who="#L0926_M8">
+      <speaker>Grumio.</speaker>
+      <p>Ay, for the nonce; and that thou and the proudest of you all shall find, when he comes
+       home. But what talk I of this? Call forth Nathaniel, Gabriel, Gregory, Adam, Walter, Ralph,
+       and the rest. Are they all ready?</p>
+     </sp>
+     <sp who="#L0926_F15">
+      <speaker>Curtis.</speaker>
+      <p>They are. Do you hear, ho?—Nathaniel, Gabriel, Gregory, where are you?</p>
+      <stage>Enter Nathaniel, Gabriel, Gregory, Adam, Walter, and Ralph, R.</stage>
+     </sp>
+     <sp who="#L0926_M10">
+      <speaker>Nath.</speaker>
+      <p>Welcome home, Grumio.</p>
+     </sp>
+     <sp who="#L0926_M12">
+      <speaker>Gabriel.</speaker>
+      <p>How now, Grumio?</p>
+     </sp>
+     <sp who="#L0926_M11">
+      <speaker>Greg.</speaker>
+      <p>What, Grumio?</p>
+     </sp>
+     <pb n="29"/>
+     <sp who="#L0926_misc">
+      <speaker>Adam.</speaker>
+      <p>Fellow Grumio!</p>
+     </sp>
+     <sp who="#L0926_M9">
+      <speaker>Walter.</speaker>
+      <l>How now, old lad!</l>
+     </sp>
+     <sp who="#L0926_misc">
+      <speaker>Ralph.</speaker>
+      <p>Ha, Grumio!</p>
+     </sp>
+     <sp who="#L0926_M8">
+      <speaker>Grumio.</speaker>
+      <p>Welcome, you; —how now, you; —what, you; —fellow, you; and thus much for greeting. Now, my
+       spruce companions, is all ready, and all things neat?</p>
+     </sp>
+     <sp who="#L0926_M10">
+      <speaker>Nath.</speaker>
+      <p>All things is ready. How near is our master?</p>
+     </sp>
+     <sp who="#L0926_M8">
+      <speaker>Grumio.</speaker>
+      <p>E'en at hand; alighted by this; and therefore be not—</p>
+     </sp>
+     <sp who="#L0926_M1">
+      <speaker>Petruchio.</speaker>
+      <p><stage>(without, L.)</stage> Holloa!</p>
+     </sp>
+     <sp who="#L0926_M8">
+      <speaker>Grumio.</speaker>
+      <p>Cock's passion, silence! I hear my master.</p>
+      <stage>(Enter Petruchio and Katharine, L.)</stage>
+     </sp>
+     <sp who="#L0926_M1">
+      <speaker>Petru.</speaker>
+      <l>Where be these knaves? What, no man at the door</l>
+      <l>To hold my stirrup, nor to take my horse!</l>
+      <l>Where is Nathaniel, Gregory, Adam?</l>
+     </sp>
+     <sp who="#L0926_mult">
+      <speaker>All The Servts.</speaker>
+      <l>Here, here, sir; here, sir!</l>
+     </sp>
+     <sp who="#L0926_M1">
+      <speaker>Petru.</speaker>
+      <l>Here, sir! here, sir! here, sir!</l>
+      <l>You logger-headed and unpolished grooms!</l>
+      <l>What, no attendance? no regard? no duty?</l>
+      <l>Where is the foolish knave I sent before?</l>
+     </sp>
+     <sp who="#L0926_M8">
+      <speaker>Grumio.</speaker>
+      <l>Here, sir; as foolish as I was before.</l>
+     </sp>
+     <sp who="#L0926_M1">
+      <speaker>Petru.</speaker>
+      <l>Thou peasant swain! thou stupid malt-horse drudge!</l>
+      <l>Did I not bid thee meet me in the park,</l>
+      <l>And bring along these rascal knaves with thee?</l>
+     </sp>
+     <sp who="#L0926_M8">
+      <speaker>Grumio.</speaker>
+      <l>Nathaniel's coat, sir, was not fully made; </l>
+      <l>And Gabriel's pumps were all unpinked i' the heel; </l>
+      <l>There was no link to colour Peter's hat, </l>
+      <l>And Walter's dagger was not come from sheathing; </l>
+      <l>There were none fine but Adam, Ralph, and Gregory. </l>
+      <l>The rest were ragged, old, and beggarly. </l>
+      <l>Yet, as they are, here are they come to meet you.</l>
+     </sp>
+     <sp who="#L0926_M1">
+      <speaker>Petru.</speaker>
+      <l>Go, rascals, go, and fetch my supper in.</l>
+     </sp>
+     <sp who="#L0926_M8">
+      <speaker>Grumio.</speaker>
+      <l>The supper, the supper!</l>
+      <stage>Exeunt all the Servants but Grumio, R.</stage>
+     </sp>
+     <sp who="#L0926_M1">
+      <speaker>Petru.</speaker>
+      <l>Here, take my boots off. Sit down, Kate, and welcome.</l>
+      <stage>(gives Katharine a chair, R. and sits himself L. C.)</stage>
+      <pb n="30"/>
+      <stage>Enter the Cook, Nathaniel, Gabriel, Walter, and Ralph, with the supper, R.</stage>
+      <l>Pull off my boots. — Nay, good sweet Kate, be merry.</l>
+      <l>Some water for my hands—some water, Grumio.</l>
+      <stage>Exit Grumio, R.</stage>
+     </sp>
+     <stage>Enter Gregory, with slippers, and pulls off his boot, R.</stage>
+
+     <sp who="#L0926_M1">
+      <speaker>Petru.</speaker>
+      <stage>(sings)</stage>
+      <l>"It was the friar of orders grey,</l>
+      <l>As he forth walked on his way,—"</l>
+      <l>Out, out, you rogue! you pluck my foot awry!</l>
+      <l>Take that, and mend the plucking off the other.</l>
+      <stage>(beats him)</stage>
+      <l>Some water here. –Be merry, Kate.—What, ho!</l>
+      <l>Shall I have some water?</l>
+      <stage>Enter Grumio—and Adam with a basin of water, running, R.—Adam falls and breaks the
+       basin.</stage>
+      <l>You careless villain will you let it fall?</l>
+      <stage>(beats him)</stage>
+     </sp>
+     <sp who="#L0926_F13">
+      <speaker>Kath.</speaker>
+      <l>Patience, I pray you; 'twas a fault unwilling.</l>
+     </sp>
+     <sp who="#L0926_M1">
+      <speaker>Petru.</speaker>
+      <l>A blundering, beetle-headed, flap-ear'd knave!</l>
+      <l>What ho! my supper.</l>
+     </sp>
+     <sp who="#L0926_M8">
+      <speaker>Grumio.</speaker>
+      <l>Supper, supper!</l>
+     </sp>
+     <sp who="#L0926_M1">
+      <speaker>Petru.</speaker>
+      <l>Come, Kate, sit down; I know you have a stomach.</l>
+     </sp>
+     <sp who="#L0926_F13">
+      <speaker>Kath.</speaker>
+      <l>Indeed I have;</l>
+      <l>And never was repast so welcome to me.</l>
+      <stage>(they sit)</stage>
+     </sp>
+     <sp who="#L0926_M1">
+      <speaker>Petru.</speaker>
+      <l>Will you say grace, sweet Kate, or else shall I?—</l>
+      <l>What is this?</l>
+     </sp>
+     <sp who="#L0926_M9">
+      <speaker>Walter.</speaker>
+      <l>Mutton.</l>
+     </sp>
+     <sp who="#L0926_M1">
+      <speaker>Petru.</speaker>
+      <l>Who brought it?</l>
+     </sp>
+     <sp who="#L0926_M9">
+      <speaker>Walter.</speaker>
+      <l><stage>(pointing to the Cook)</stage>The cook./</l>
+     </sp>
+     <sp who="#L0926_misc">
+      <speaker>Ralph.</speaker>
+      <l>No; <hi>he</hi> did.</l>
+      <stage>(pointing to Walter)</stage>
+     </sp>
+     <sp who="#L0926_M1">
+      <speaker>Petru.</speaker>
+
+      <l>'Tis burnt, and so is all the meat.</l>
+      <l>Where is the rascal cook?</l>
+     </sp>
+     <sp who="#L0926_M8">
+      <speaker>Grumio.</speaker>
+      <p>Cook, cook!</p>
+      <stage>(they thrust the Cook forward)</stage>
+     </sp>
+     <sp who="#L0926_M1">
+      <speaker>Petru.</speaker>
+      <l>How durst you, villain, bring it from the dresser,</l>
+      <l>And serve it thus to me, that love it not?</l>
+      <l>There, take it to you, trenchers, cups, and all.</l>
+      <stage>(throws the meat at the Cook, and the dishes, &amp;c., about the stage)</stage>
+      <pb n="31"/>
+      <figure>
+       <graphic url="media/L0926_fig5.png"/>
+       <head>Petru. There, take it to you, trenchers, cups, and all..</head>
+      </figure>
+      <pb n="32"/>
+      <l>You heedless joltheads, and unmanner'd slaves!</l>
+      <l>What, do you grumble? I'll be with you straight.</l>
+      <stage>(horsewhips the Servants till they run off R. and L.)</stage>
+     </sp>
+     <sp who="#L0926_F13">
+      <speaker>Kath.</speaker>
+      <l>I pray you, husband, be not so disquiet;</l>
+      <l>The meat was well, and well I could have eat,</l>
+      <l>If you were so disposed; I'm sick with fasting.</l>
+     </sp>
+     <sp who="#L0926_M1">
+      <speaker>Petru.</speaker>
+      <l>I tell thee, Kate, 'twas burnt and dried away;</l>
+      <l>And I expressly am forbid to touch it,</l>
+      <l>For it engenders choler, planteth anger;</l>
+      <l>And better 'twere that both of us did fast—</l>
+      <l>Since, of ourselves, ourselves are choleric</l>
+      <l>Than feed it with such over-roasted flesh.</l>
+      <l>Be patient; to-morrow it shall be mended,</l>
+      <l>And, for this night, we'll fast for company.</l>
+      <l>Come, I will show thee to thy bridal chamber.</l>
+     </sp>
+     <sp who="#L0926_F13">
+      <speaker>Kath.</speaker>
+      <l>Fast?—Go to bed without my supper, thus?</l>
+     </sp>
+     <sp who="#L0926_M1">
+      <speaker>Petru.</speaker>
+      <l>"Tis the unwholesom'st thing i' the world, sweet Kate!</l>
+      <l>Come, I will show thee to thy bridal chamber.</l>
+      <stage>Exeunt, R. 1 E.</stage>
+     </sp>
+     <stage>Enter Grumio, Walter, Gabriel, Nathaniel, Gregory, Ralph, and Adam, R. U. E. and
+      L.</stage>
+
+     <sp who="#L0926_M10">
+      <speaker>Nath.</speaker>
+      <p>Why, Grumio, didst thou ever see the like?</p>
+     </sp>
+     <sp who="#L0926_M8">
+      <speaker>Grumio.</speaker>
+      <p>He kills her in her own humour. I did not think so good and kind a master could have put on
+       so resolute a bearing. <stage>Enter Curtis, R. 1 E.)</stage> Where is he, Curtis?</p>
+     </sp>
+     <sp who="#L0926_F15">
+      <speaker>Curtis.</speaker>
+      <p>In her chamber, making a sermon of patience to her; and all the while he rails, and swears
+       at such a rate, that she, poor soul, knows not which way to stand, to look, to speak; but
+       sits as one new-waking from a dream. Away, away! for he is coming hither.</p>
+      <stage>Exeunt, L.</stage>
+     </sp>
+     <stage>Enter Petruchio, R.</stage>
+
+     <sp who="#L0926_M1">
+      <speaker>Petru.</speaker>
+      <l>Thus have I politicly begun my reign,</l>
+      <l>And 'tis my hope to end successfully;</l>
+      <l>As with the meat, some undeserved fault</l>
+      <l>I'll find about the making of the bed;</l>
+      <pb n="33"/>
+      <l>And here I'll fling the pillow, there the bolster,</l>
+      <l>This way the coverlet, that way the sheets:—</l>
+      <l>Ay, and amid this hurly, I'll pretend</l>
+      <l>That all is done in reverend care of her;</l>
+      <l>And, in conclusion, she shall watch all night:</l>
+      <l>And if she chance to nod, I'll rail and brawl,</l>
+      <l>And with the clamour keep her still awake.</l>
+      <l>This is a way to kill a wife with kindness,</l>
+      <l>And thus I'll curb her mad and headstrong humour.</l>
+      <l>He that knows better how to tame a shrew,</l>
+      <l>Now let him speak, 'twere charity to shew.</l>
+      <stage>Exit, R.</stage>
+     </sp>
+     <trailer>(End Of Act II.)</trailer>
+     <figure>
+      <graphic url="media/L0926_fig6.png" height="30%"/>
+     </figure>
+    </div>
+   </div>
+   <pb n="34"/>
+   <div type="act" n="3">
+    <head>Act III.</head>
+    <div type="scene" n="1">
+     <head>Scene. The same as the last.</head>
+     <stage>Enter Grumio, followed by Katharine, R.</stage>
+     <sp who="#L0926_M8">
+      <speaker>Grumio.</speaker>
+      <l>No, no, forsooth; I dare not, for my life.</l>
+     </sp>
+     <sp who="#L0926_F13">
+      <speaker>Kath.</speaker>
+      <l>The more my wrong, the more his spite appears:</l>
+      <l>What, did he marry me to famish me?</l>
+      <l>But that, which spites me more than all these wants,</l>
+      <l>He does it under name of perfect love;</l>
+      <l>As who would say– if I should sleep or eat,</l>
+      <l>'Twere deadly sickness, or else present death!—</l>
+      <l>I pr'ythee go, and get me some repast;</l>
+      <l>I care not what, so it be wholesome food.</l>
+     </sp>
+     <sp who="#L0926_M8">
+      <speaker>Grumio.</speaker>
+      <l>What say you to a neat's foot?</l>
+     </sp>
+     <sp who="#L0926_F13">
+      <speaker>Kath.</speaker>
+      <l>'Tis passing good; I pr'ythee let me have it.</l>
+     </sp>
+     <sp who="#L0926_M8">
+      <speaker>Grumio.</speaker>
+      <l>I fear it is too phlegmatic a meat:</l>
+      <l>How say you to a fat tripe finely boil'd?</l>
+     </sp>
+     <sp who="#L0926_F13">
+      <speaker>Kath.</speaker>
+      <l>I like it well; good Grumio, fetch it me.</l>
+     </sp>
+     <sp who="#L0926_M8">
+      <speaker>Grumio.</speaker>
+      <l>I cannot tell; I fear 'tis choleric.</l>
+      <l>What say you to a piece of beef and mustard?</l>
+     </sp>
+     <sp who="#L0926_F13">
+      <speaker>Kath.</speaker>
+      <l>A dish that I do love to feed upon.</l>
+     </sp>
+     <sp who="#L0926_M8">
+      <speaker>Grumio.</speaker>
+      <l>Ay, but the mustard is too hot a little.</l>
+     </sp>
+     <sp who="#L0926_F13">
+      <speaker>Kath.</speaker>
+      <l>Why, then, the beef, and let the mustard rest.</l>
+     </sp>
+     <sp who="#L0926_M8">
+      <speaker>Grumio.</speaker>
+      <l>Nay, that I will not; you shall have the mustard,</l>
+      <l>Or else you get no beef of Grumio.</l>
+     </sp>
+     <sp who="#L0926_F13">
+      <speaker>Kath.</speaker>
+      <l>Then both, or one, or any thing thou wilt.</l>
+     </sp>
+     <sp who="#L0926_M8">
+      <speaker>Grumio.</speaker>
+      <l>Why, then, the mustard, dame, without the beef.</l>
+     </sp>
+     <sp who="#L0926_F13">
+      <speaker>Kath.</speaker>
+      <l>Go, get thee gone, thou false deluding slave.</l>
+      <l><stage>(beats him)</stage> That feed'st me only with the name of meat.</l>
+     </sp>
+     <stage>Enter Petruchio, L.</stage>
+
+     <sp who="#L0926_M1">
+      <speaker>Petru.</speaker>
+      <l>Holloa! how fares my Kate?</l>
+      <l>What, sweeting, all amort? Mistress, what cheer?</l>
+     </sp>
+     <sp who="#L0926_F13">
+      <speaker>Kath.</speaker>
+      <l>'Faith, as cold as can be.</l>
+     </sp>
+     <sp who="#L0926_M1">
+      <speaker>Petru.</speaker>
+      <l>Pluck up thy spirits, look cheerfully upon me;</l>
+      <l>For now, my honey-love, we are refreshed.</l>
+     </sp>
+     <sp who="#L0926_F13">
+      <speaker>Kath.</speaker>
+      <l>Refreshed! with what?</l>
+     </sp>
+     <sp who="#L0926_M1">
+      <speaker>Petru.</speaker>
+      <l>We will return unto thy father's house,</l>
+      <pb n="35"/>
+      <l>And revel it as bravely as the best,</l>
+      <l>With silken coats, and caps, and golden rings,</l>
+      <l>With ruffs, and cuffs, and farthingales, and things;</l>
+      <l>Look up, my love; the tailor stays thy leisure,</l>
+      <l>To deck thy body with his rustling treasure.</l>
+      <l>Tailor, come in!</l>
+      <stage>(Petruchio sits, L., Katharine, R.)</stage>
+      <stage>Enter Tailor, carrying a large band-box, L.</stage>
+      <l>Where are these ornaments?</l>
+     </sp>
+     <sp who="#L0926_M5">
+      <speaker>Tailor.</speaker>
+      <stage>(who stutters)</stage>
+      <l>Here is the cap your worship. did bespeak.</l>
+     </sp>
+     <sp who="#L0926_M1">
+      <speaker>Petru.</speaker>
+      <l>The what?</l>
+     </sp>
+     <sp who="#L0926_M5">
+      <speaker>Tailor.</speaker>
+      <p><stage>(as before)</stage> The cap.</p>
+     </sp>
+     <sp who="#L0926_M1">
+      <speaker>Petru.</speaker>
+      <l>Why, this was moulded on a porringer;</l>
+      <l>A velvet dish! Fie, fie! 'tis lewd and filthy:</l>
+      <l>Why, 'tis a cockle, or a walnut-shell,</l>
+      <l>A knack, a toy, a trick, a baby's cap.</l>
+      <l>Away with it, and let me have a bigger.</l>
+     </sp>
+     <sp who="#L0926_F13">
+      <speaker>Kath.</speaker>
+      <l>I'll have no bigger; this doth fit the time,</l>
+      <l>And gentlewomen wear such caps as these.</l>
+     </sp>
+     <sp who="#L0926_M1">
+      <speaker>Petru.</speaker>
+      <stage>(aside)</stage>
+      <l>When you are gentle, you shall have one too.</l>
+      <l>'Tis a mere bauble; say no more about it.</l>
+     </sp>
+     <sp who="#L0926_F13">
+      <speaker>Kath.</speaker>
+      <l>Why, sir, I trust I may have leave to speak;</l>
+      <l>And speak I will; I am no child, no babe;</l>
+      <l>Your betters have endured me say my mind.</l>
+      <l>And if you cannot, best you stop your ears.</l>
+     </sp>
+     <sp who="#L0926_M1">
+      <speaker>Petru.</speaker>
+      <l>Thou say'st true, Kate; it is a paltry cap.</l>
+      <l>I love thee well, in that thou lik'st it not.</l>
+     </sp>
+     <sp who="#L0926_F13">
+      <speaker>Kath.</speaker>
+      <l>Love me, or love me not, I like the cap;</l>
+      <l>And I will have it; or I will have none.</l>
+     </sp>
+     <sp who="#L0926_M1">
+      <speaker>Petru.</speaker>
+      <p>The gown! Why, ay.—Come, tailor, let us see't.</p>
+      <stage>(the Tailor shews the gown)</stage>
+      <l>O, mercy, heaven! What masking stuff is here!</l>
+      <l>What's this? A sleeve? 'Tis like a demi-cannon.</l>
+      <l>All up and down, carved like an apple tart!</l>
+      <l>Here's snip, and nip, and cut, and slish, and slash,</l>
+      <l>Like to a censer in a barber's shop,</l>
+      <l>Why, what i' the devil's name, tailor, call'st thou this?</l>
+     </sp>
+     <sp who="#L0926_M8">
+      <speaker>Grumio.</speaker>
+      <p><stage>(aside, R.)</stage> I see she's like to have neither cap nor gown.</p>
+     </sp>
+     <sp who="#L0926_M5">
+      <speaker>Tailor.</speaker>
+      <l>You bid me make it orderly and well,</l>
+      <pb n="36"/>
+      <l>According to the fashion of the time.</l>
+     </sp>
+     <sp who="#L0926_M1">
+      <speaker>Petru.</speaker>
+      <l>Marry, and did; but, if you be remembered,</l>
+      <l>I did not bid you mar it to the time.</l>
+      <l>Go, hop me over every kennel home;</l>
+      <l>For you shall hop without my custom, sir.</l>
+      <l>Hence, make your best of it; I'll none of it.</l>
+     </sp>
+     <sp who="#L0926_F13">
+      <speaker>Kath.</speaker>
+      <l>I never saw a better fashioned gown,</l>
+      <l>More quaint, more pleasing, nor more commendable</l>
+      <l>Belike, you mean to make a puppet of me.</l>
+     </sp>
+     <sp who="#L0926_M1">
+      <speaker>Petru.</speaker>
+      <l>Why, true; he means to make a puppet of thee.</l>
+     </sp>
+     <sp who="#L0926_M5">
+      <speaker>Tailor.</speaker>
+      <l>She says, your worship means to make a puppet of her.</l>
+     </sp>
+     <sp who="#L0926_M1">
+      <speaker>Petru.</speaker>
+      <l>O, most monstrous arrogance! Thou liest, thou thread!</l>
+      <l>Thou thimble! <stage>(driving the Tailor to L. corner)</stage></l>
+      <l>Thou yard, three-quarters, half-yard, quarter, nail!</l>
+      <l>Thou flea, thou nit, thou winter-cricket, thou—</l>
+      <l>Braved in mine own house with a skein of thread!</l>
+      <l>Away, thou rag, thou quantity, thou remnant;</l>
+      <l>Or I shall so be-mete thee with thy yard,</l>
+      <l>As thou shalt think on prating whilst thou liv'st!</l>
+      <l>I tell thee, I, that thou hast marred the gown.</l>
+     </sp>
+     <sp who="#L0926_M5">
+      <speaker>Tailor.</speaker>
+      <stage>(who has shrunk on his knees)</stage>
+      <l>Your worship is deceived; the gown is made</l>
+      <l>Just as my master had direction.</l>
+      <l>Grumio gave order how it should be done.</l>
+     </sp>
+     <sp who="#L0926_M8">
+      <speaker>Grumio.</speaker>
+      <stage>(kneels, R.)</stage>
+      <l>I gave him no order, I gave him the stuff.</l>
+      <l>How should it be made?</l>
+     </sp>
+     <sp who="#L0926_M5">
+      <speaker>Tailor.</speaker>
+      <l>But how did you desire it should be made ?</l>
+     </sp>
+     <sp who="#L0926_M8">
+      <speaker>Grumio.</speaker>
+      <l>Marry, sir, with needle and thread.</l>
+      <l>How should it be made?</l>
+     </sp>
+     <sp who="#L0926_M5">
+      <speaker>Tailor.</speaker>
+      <l>But how did you not request to have it cut.</l>
+     </sp>
+     <sp who="#L0926_M8">
+      <speaker>Grumio.</speaker>
+      <p>Though thou hast faced many things, face not me. I say unto thee, I bid thy master cut out
+       the gown; but I did not bid him to cut it to pieces: ergo, thou liest.</p>
+     </sp>
+     <sp who="#L0926_M5">
+      <speaker>Tailor.</speaker>
+      <l>Why, here is the note of the fashion to testify.</l>
+     </sp>
+     <sp who="#L0926_M1">
+      <speaker>Petru.</speaker>
+      <l>Read it.</l>
+     </sp>
+     <sp who="#L0926_M5">
+      <speaker>Tailor.</speaker>
+      <p>"Imprimis, a loose-bodied gown."</p>
+      <stage>(Petruchio turns angrily to Grumio)</stage>
+     </sp>
+     <sp who="#L0926_M8">
+      <speaker>Grumio.</speaker>
+      <p>Master, if ever I said loose-bodied gown, sew me in the skirts of it, and beat me to death
+       with a bottom of brown thread: —I said a gown.</p>
+     </sp>
+     <pb n="37"/>
+     <figure>
+      <graphic url="media/L0926_fig7.png"/>
+      <head>Grumio. I am for thee straight: come on, you parchment shred! </head>
+     </figure>
+
+     <pb n="38"/>
+     <sp who="#L0926_M1">
+      <speaker>Petru.</speaker>
+      <stage>(to Tailor)</stage>
+      <p>Proceed.</p>
+     </sp>
+     <sp who="#L0926_M5">
+      <speaker>Tailor.</speaker>
+      <p>"With a small compassed cape."</p>
+     </sp>
+     <sp who="#L0926_M8">
+      <speaker>Grumio.</speaker>
+      <p>I confess the cape.</p>
+     </sp>
+     <sp who="#L0926_M5">
+      <speaker>Tailor.</speaker>
+      <p>"With a trunk sleeve."</p>
+     </sp>
+     <sp who="#L0926_M8">
+      <speaker>Grumio.</speaker>
+      <p>I confess two sleeves.</p>
+     </sp>
+     <sp who="#L0926_M5">
+      <speaker>Tailor.</speaker>
+      <p>"The sleeves curiously cut."</p>
+     </sp>
+     <sp who="#L0926_M1">
+      <speaker>Petru.</speaker>
+      <p>Ay, there's the villany.</p>
+      <stage>(threateningly to Grumio)</stage>
+     </sp>
+     <sp who="#L0926_M8">
+      <speaker>Grumio.</speaker>
+      <p>Error i' the bill, sir; error i' the bill:—I commanded the sleeves should be cut out, and
+       sewed up again; and that I'll prove upon thee, though thy little finger be armed in a
+       thimble.</p>
+     </sp>
+     <sp who="#L0926_M5">
+      <speaker>Tailor.</speaker>
+      <l>This is true that I say, and I had thee in a place where—thou should'st know it.</l>
+     </sp>
+     <sp who="#L0926_M8">
+      <speaker>Grumio.</speaker>
+      <p>I am for thee straight: come on, you parchment shred!</p>
+      <stage>(they fight)</stage>
+     </sp>
+     <sp who="#L0926_M1">
+      <speaker>Petru.</speaker>
+      <l>What, chickens spar in presence of the kite!</l>
+      <l>I'll swoop upon you both: Out, out, ye vermin !</l>
+      <stage>(Petruchio beats the Tailor off, L.—Grumio retires a little behind, laughing at
+       him—Katharine has hidden behind table, he leads her forward)</stage>
+     </sp>
+     <sp who="#L0926_F13">
+      <speaker>Kath.</speaker>
+      <l>For heaven's sake, sir, have patience! How you fright me!</l>
+      <stage>(crying)</stage>
+     </sp>
+     <sp who="#L0926_M1">
+      <speaker>Petru.</speaker>
+      <l>Well, come, my Katharine; we will now away,</l>
+      <l>To feast and sport us at thy father's house—</l>
+      <l>Go, call my men, and bring our horses out.</l>
+      <stage>Exit Grumio, L.</stage>
+     </sp>
+     <sp who="#L0926_F13">
+      <speaker>Kath.</speaker>
+      <l>O, happy hearing! Let us straight be gone;</l>
+      <l>I cannot tarry here another day.</l>
+     </sp>
+     <sp who="#L0926_M1">
+      <speaker>Petru.</speaker>
+      <l>Cannot, my Kate? O, yes; indeed you can.</l>
+     </sp>
+     <sp who="#L0926_F13">
+      <speaker>Kath.</speaker>
+      <l>Indeed, I cannot.</l>
+     </sp>
+     <sp who="#L0926_M1">
+      <speaker>Petru.</speaker>
+      <l>O, yes, you could, my Katharine; if I wish'd it.</l>
+     </sp>
+     <sp who="#L0926_F13">
+      <speaker>Kath.</speaker>
+      <l>I tell you, I'll not stay another moment.</l>
+      <stage>Enter Grumio, running, L.</stage>
+     </sp>
+     <sp who="#L0926_M8">
+      <speaker>Grumio.</speaker>
+      <l>The horses, sir, are ready, and–</l>
+     </sp>
+     <sp who="#L0926_M1">
+      <speaker>Petru.</speaker>
+      <l>Put up:—On second thoughts, 'tis now too late;</l>
+      <l>For look, how bright and goodly shines the moon.</l>
+     </sp>
+     <sp who="#L0926_F13">
+      <speaker>Kath.</speaker>
+      <l>The moon? the sun :—It is not moonlight now.</l>
+     </sp>
+     <sp who="#L0926_M1">
+      <speaker>Petru.</speaker>
+      <l>I say, it is the moon that shines so bright.</l>
+     </sp>
+     <sp who="#L0926_F13">
+      <speaker>Kath.</speaker>
+      <l>I know, it is the sun that shines so bright.</l>
+     </sp>
+     <pb n="39"/>
+     <sp who="#L0926_M1">
+      <speaker>Petru.</speaker>
+      <l>Now, by my mother's son, and that's myself,</l>
+      <l>It shall be moon, or star, or what I list,</l>
+      <l>Or ere I journey to your father's house/</l>
+      <l>Go you, and put the horses up again.</l>
+      <l>Evermore cross'd. amd cross'd! nothing but cross'd! <stage>(crosses, R.)</stage></l>
+     </sp>
+     <sp who="#L0926_M8">
+      <speaker>Grumio.</speaker>
+      <stage>(aside to Katherine)</stage>
+      <l>Say as he says: or we shall never go. <stage>(retires up)</stage></l>
+     </sp>
+     <sp who="#L0926_F13">
+      <speaker>Kath.</speaker>
+      <l>I see, 'tis vain to struggle with my bonds.</l>
+      <l>Sir, be it moon, or sun, or what you please;</l>
+      <l>And oif you please to call it a rush candle,</l>
+      <l>Henceforth I vow it shall be sop for me.</l>
+     </sp>
+     <sp who="#L0926_M1">
+      <speaker>Petru.</speaker>
+      <l>I say, it is the moon that shines so bright.</l>
+     </sp>
+     <sp who="#L0926_F13">
+      <speaker>Kath.</speaker>
+      <l>I know it is the moon.</l>
+     </sp>
+     <sp who="#L0926_M1">
+      <speaker>Petru.</speaker>
+      <l>Nay, then you lie; it is the blessed sun.</l>
+     </sp>
+     <sp who="#L0926_F13">
+      <speaker>Kath.</speaker>
+      <l>Just as you please: it is the blessed sun.</l>
+      <l>But sun it is not, when you say it is not;</l>
+      <l>And the moon changes, even as your mind.</l>
+      <l>What you will have it nam'd, even that it is,</l>
+      <l>And so it shall be for your Katharine.</l>
+     </sp>
+     <sp who="#L0926_M1">
+      <speaker>Petru.</speaker>
+      <l>Get out the horses. <stage>(Exit Grumio, L.)</stage> Thus the bowl shall run,</l>
+      <l>And not unluckily against the bias. <stage>(crosses, c.)</stage></l>
+      <l>But soft, what company is coming here,</l>
+      <l>And stops our journey?</l>
+      <stage>Enter Baptista, Bianca, and Hortensio, L.</stage>
+      <l>Good morrow, gentle mistress. <stage>(to Baptista)</stage> Where away?</l>
+      <l>Tell me, sweet Kate, and tell me truly, too,</l>
+      <l>Hast thou beheld a fresher gentlewoman?</l>
+      <l>What stars do spangle heaven with such beauty,</l>
+      <l>As those two eyes become that heavenly face?</l>
+      <l>Fair lovely maid, once more good day to thee:</l>
+      <l>Sweet Kate, embrace her for her beauty's sake!</l>
+     </sp>
+     <sp who="#L0926_M2">
+      <speaker>Baptis.</speaker>
+      <stage>(L. C.)</stage>
+      <l>How now? Embrace me for my beauty's sake!</l>
+      <l>What is all this?</l>
+     </sp>
+     <sp who="#L0926_F13">
+      <speaker>Kath.</speaker>
+      <stage>(crosses, C., to Baptista)</stage>
+      <l>Young budding virgin, fair, and fresh, and sweet,</l>
+      <l>Whither away; or where is thy abode?</l>
+      <pb n="40"/>
+      <l>Happy the parents of so fair a child !</l>
+      <l>Happier the man whom favourable stars</l>
+      <l>Allot thee for his lovely bedfellow!</l>
+     </sp>
+     <sp who="#L0926_M2">
+      <speaker>Baptis.</speaker>
+      <l>What mummery is this!</l>
+     </sp>
+     <sp who="#L0926_M1">
+      <speaker>Petru.</speaker>
+      <stage>(R. C.)</stage>
+      <l>Why, how now, Kate? I hope thou art not mad.</l>
+      <l>This is Baptista, our old reverend father;</l>
+      <l>And not a maiden, as thou say'st he is.</l>
+     </sp>
+     <sp who="#L0926_F13">
+      <speaker>Kath.</speaker>
+      <stage>(c.)</stage>
+      <l>Pardon, dear father, my mistaking eyes,</l>
+      <l>That have been so bedazzled with the–– <stage>(hesitating)</stage></l>
+     </sp>
+     <sp who="#L0926_M1">
+      <speaker>Petru.</speaker>
+      <l>The sun.</l>
+     </sp>
+     <sp who="#L0926_F13">
+      <speaker>Kath.</speaker>
+      <l>The sun,</l>
+      <l>That every thing I look on seemeth green:</l>
+      <l>Now I perceive, thou art my reverend father.</l>
+      <l>Pardon, I pray thee, for my mad mistaking. <stage>(kneels)</stage></l>
+     </sp>
+     <sp who="#L0926_M2">
+      <speaker>Baptis.</speaker>
+      <l>Rise, rise, my child. What strange vagary's this?</l>
+      <l>I came to see thee, with my son and daughter.</l>
+      <l>How lik'st thou wedlock? Art not alter'd, Kate?</l>
+     </sp>
+     <sp who="#L0926_M1">
+      <speaker>Petru.</speaker>
+      <l>Chang'd for the better much: art not, my Kate?</l>
+     </sp>
+     <sp who="#L0926_F13">
+      <speaker>Kath.</speaker>
+      <l>Indeed I am almost transform'd to stone.</l>
+      <l>So good a master cannot choose but mend me.</l>
+     </sp>
+     <sp who="#L0926_M3">
+      <speaker>Horten.</speaker>
+      <p>Here is a wonder, if you talk of wonders.</p>
+      <stage>(going down with Bianca, R.)</stage>
+     </sp>
+     <sp who="#L0926_F14">
+      <speaker>Bianca.</speaker>
+      <l>And so it is; I wonder what it bodes.</l>
+     </sp>
+     <sp who="#L0926_M1">
+      <speaker>Petru.</speaker>
+      <l>Marry, peace it bodes, and love, and quiet life</l>
+      <l>And awful rule, and right supremacy:</l>
+      <l>And, to be short, what not, that's sweet and happy?</l>
+     </sp>
+     <sp who="#L0926_F14">
+      <speaker>Bianca.</speaker>
+      <l>Was ever woman's spirit broke so soon!</l>
+      <l>What is the matter, Kate? Hold up thy head;</l>
+      <l>Nor lose our sex's best prerogative,</l>
+      <l>To wish, and have our will.</l>
+     </sp>
+     <sp who="#L0926_M1">
+      <speaker>Petru.</speaker>
+      <stage>(C.)</stage>
+      <l>Peace, brawler, peace!</l>
+      <l>Or I will give the meek Hortensio,</l>
+      <l>Your husband there, my taming recipe.</l>
+      <l>Katharine, I charge thee, tell this headstrong woman</l>
+      <l>What duty 'tis she owes her lord and husband.</l>
+     </sp>
+     <sp who="#L0926_F13">
+      <speaker>Kath.</speaker>
+      <stage>(L.C.)</stage>
+      <l>Such duty as the subject owes the prince,</l>
+      <l>Even such a woman oweth to her husband.</l>
+      <l>Thy husband is thy lord, thy life, thy keeper;</l>
+      <l>One that cares for thee,</l>
+      <l>And for thy maintenance: commits his body</l>
+      <pb n="41"/>
+      <l>To painful labour, both by sea and land,</l>
+      <l>To watch the night in storms, the day in cold,</l>
+      <l>While thou liest warm at home, secure and safe;</l>
+      <l>And craves no other tribute at thy hands,</l>
+      <l>But love, fair looks, and true obedience;</l>
+      <l>Too little payment for so great a debt.</l>
+     </sp>
+     <sp who="#L0926_M1">
+      <speaker>Petru.</speaker>
+      <l>Well said, my Kate! You'll learn that lesson, lady.</l>
+     </sp>
+     <sp who="#L0926_M2">
+      <speaker>Baptis.</speaker>
+      <stage>(L.)</stage>
+      <l>Now joy betide thee, son Petruchio!</l>
+      <l>And fair befall thee, my now gentle Katharine!</l>
+      <l>Go home with me along, and I will add</l>
+      <l>Another fortune to another daughter:</l>
+      <l>For thou art chang'd as thou hadst never been.</l>
+     </sp>
+     <sp who="#L0926_M1">
+      <speaker>Petru.</speaker>
+      <l>My fortune is sufficient: here's my wealth.</l>
+      <l>Kiss me, my Kate; and, since thou art become</l>
+      <l>So prudent, kind, and dutiful a wife,</l>
+      <l>Petruchio here shall doff the lordly husband;</l>
+      <l>An honest mask, which I throw off with pleasure.</l>
+      <l>Far hence all rudeness, wilfulness, and noise,</l>
+      <l>And be our future lives one gentle stream</l>
+      <l>Of mutual love, compliance, and regard!</l>
+     </sp>
+     <sp who="#L0926_F13">
+      <speaker>Kath.</speaker>
+      <l>Nay, then, I'm all unworthy of thy love,</l>
+      <l>And look with blushes on my former self.</l>
+      <l>How shameful 'tis when women are so simple,</l>
+      <l>To offer war, where they should kneel for peace;</l>
+      <l>Or seek for rule, supremacy, and sway,</l>
+      <l>Where bound to love, to honour, and obey!</l>
+     </sp>
+     <stage>Hortensio, Bianca. Petruchio. Katharine. Baptista.</stage>
+     <stage>Curtain.</stage>
+     <figure>
+      <graphic url="media/L0926_fig8.png" height="25%"/>
+     </figure>
+    </div>
+   </div>
+
+  </body>
+ </text>
+</TEI>
