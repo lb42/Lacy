@@ -1,0 +1,2252 @@
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L0666" xml:lang="en">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title>Christmas Eve: TEI edition</title>
+    <author ref="lacyp:W0101"><persName>Fitzball, Edward</persName><idno type="wikidata">Q1292199</idno></author>
+    <respStmt>
+     <resp>TEI conversion</resp>
+     <name>Lou Burnard</name>
+    </respStmt>
+   </titleStmt>
+   <publicationStmt>
+    <distributor>Privately distributed by the Digital Lacy Project</distributor>
+    <idno type="LAE">L0666</idno>
+    <availability>
+     <licence target="https://creativecommons.org/publicdomain/zero/1.0/">The Lacy Project waives
+      all rights to the TEI encoding applied to this material, which it believes to be in the public
+      domain. You may copy, modify, distribute, or perform this work freely. </licence>
+    </availability>
+   </publicationStmt>
+   <sourceDesc>
+    <bibl type="originalSource" n="45.6"><author n="W0101">Fitzball, Edward</author>
+     <title type="main">Christmas Eve; or, The Duel in the Snow</title>
+     <title type="sub">An Original Domestic Drama in three acts</title>
+     <extent>27 pp (UM copy: 138 - 165)<measure type="pp" quantity="27"/>
+      <measure type="spCount" quantity="369"/>
+      <measure type="spvCount" quantity="0"/>
+      <measure type="txWords" quantity="8939"/>
+      <measure type="spWords" quantity="7114"/>
+      <measure type="stWords" quantity="1825"/>
+     </extent>
+     <title level="s"> Lacy's Acting Edition, volume 45, No. 0666</title><idno type="nic">N12397</idno><idno type="vpp">Vol45viChristmas</idno></bibl>
+    <bibl type="surrogate" subtype="copytext"><ref target="https://lb42.github.io/Lacy/Source/VPP/L0666-vpp.pdf">LoB from VPP</ref><ref target="local:Vol45/L0666/L0666-vpp.pdf"/><ref target="local:Vol45/L0666/Vol45viChristmas.pdf"/></bibl>
+    <bibl type="surrogate"><ref target="https://hdl.handle.net/2027/hvd.32044086857497">HVD from
+      HT</ref></bibl>
+    <bibl type="surrogate"><ref target="https://babel.hathitrust.org/cgi/pt?id=mdp.39015067453541&amp;seq=138 ">UM from
+      HT</ref><ref target="local:Vol45/L0666/L0666-um.pdf"/></bibl>
+    <listEvent>
+     <event type="LCP" when="1862-03-09" where="Drury">
+      <desc>Licence sent 9 March 1860 for performance at the Theatre Royal, Drury Lane. </desc>
+      <bibl type="msSource">BL ms LCP_52990.O</bibl>
+     </event>
+     <event type="firstPerf" when="1860-03-12" source="textNic" where="Drury">
+      <desc>Premiered at Theatre Royal, Drury Lane 12 March 1860</desc>
+     </event>
+    </listEvent>
+   </sourceDesc>
+  </fileDesc>
+
+  <profileDesc>
+   
+   <textClass>
+    <catRef target="#sizeS"/>
+    <catRef target="#act3"/>
+    <catRef target="nic:D."/>
+    <keywords>
+     <term>DRAMA</term>
+    </keywords>
+   </textClass>
+   <particDesc><listPerson>
+  <person xml:id="L0666_M1">
+   <persName type="role">Sir Charles Andry</persName>
+   <persName type="spkr" n="73">Sir C.</persName>
+  </person>
+  <person xml:id="L0666_M2">
+   <persName type="role">Captain Dartford</persName>
+   <persName type="spkr" n="1">Captain Dartford.</persName>
+   <persName type="spkr" n="59">Captain.</persName>
+  </person>
+  <person xml:id="L0666_M3">
+   <persName type="role">Thomas Titmouse</persName>
+   <persName type="spkr" n="1">Til.</persName>
+   <persName type="spkr" n="64">Tit.</persName>
+  </person>
+  <person xml:id="L0666_M4">
+   <persName type="role">Moncton</persName>
+   <persName type="spkr" n="4">Moncton.</persName>
+  </person>
+  <person xml:id="L0666_M5">
+   <persName type="role">Eustache</persName>
+   <persName type="spkr" n="5">Eust.</persName>
+  </person>
+  <person xml:id="L0666_M6">
+   <persName type="role">Valet</persName>
+   <persName type="spkr" n="4">Valet.</persName>
+  </person>
+  <person xml:id="L0666_M7">
+   <persName type="role">Masqueraders, Ladies, Gentlemen, Servants, Gens'darmes, &amp;c</persName>
+  </person>
+  <person xml:id="L0666_F8">
+   <persName type="role">Lady Andry</persName>
+   <persName type="spkr" n="21">Lady A.</persName>
+  </person>
+  <person xml:id="L0666_F9">
+   <persName type="role">Emily Lonsdale</persName>
+   <persName type="spkr" n="1">Eeily.</persName>
+   <persName type="spkr" n="63">Emily.</persName>
+  </person>
+  <person xml:id="L0666_F10">
+   <persName type="role">Gimp</persName>
+   <persName type="spkr" n="73">Gimp.</persName>
+  </person>
+   </listPerson></particDesc>
+  </profileDesc>
+  <revisionDesc><change when="2026-04-03">Rewrite all particDescs</change>
+   <change when="2026-03-02">Add wikidata link to titleStmt where possible</change>
+   <change when="2026-02-05">Standardize header components</change>
+   <change when="2026-02-04">Hand edited</change>
+   <change when="2026-02-01">TEI autotagging by Gemini Pro 2.5</change>
+  </revisionDesc>
+ </teiHeader>
+ <text>
+  <front>
+   <titlePage>
+
+    <titlePart type="main">CHRISTMAS EVE</titlePart>
+    <titlePart type="sub">OR THE DUEL IN THE SNOW</titlePart>
+    <titlePart type="sub">An original Domestic Drama IN THREE ACTS</titlePart>
+    <byline>BY <docAuthor>EDWARD FITZBALL, Esq.</docAuthor> AUTHOR OF
+      <title>Lurline—</title><title>Jonathan Bradford—</title><title>Alice
+      May—</title><title>Esmeralda— </title><title>Carmithan—</title><title>Azael the
+      Prodigal</title>, &amp;c. &amp;c.&amp;c.</byline>
+    <docImprint> THOMAS HAILES LACY, 89, STRAND, (Opposite Southampton Street, Covent Garden
+     Market.) LONDON. </docImprint>
+   </titlePage>
+   <pb n="2"/>
+   <performance>
+    <head>Christmas Eve, or The Duel in the Snow</head>
+    <p>First produced at the Theatre Royal Drury Lane, March I2th, 1860.</p>
+
+    <castList>
+     <head>CHARACTERS.</head>
+     <castItem>
+      <role gender="M">SIR CHARLES ANDRY</role>
+      <actor>Mr. Emery</actor>
+     </castItem>
+     <castItem>
+      <role gender="M">CAPTAIN DARTFORD</role>
+      <actor>Mr. C. Verner.</actor>
+     </castItem>
+     <castItem>
+      <role gender="M">THOMAS TITMOUSE</role>
+      <actor>Mr. R. Roxby.</actor>
+     </castItem>
+     <castItem>
+      <role gender="M">MONCTON</role>
+      <roleDesc>friend to Andry</roleDesc>
+      <actor>Mr. Douglas.</actor>
+     </castItem>
+     <castItem>
+      <role gender="M">EUSTACHE</role>
+      <roleDesc>friend to Dartford</roleDesc>
+      <actor>Mr. Warren.</actor>
+     </castItem>
+     <castItem>
+      <role gender="M">VALET</role>
+      <roleDesc>to Dartford</roleDesc>
+      <actor>Mr. PARKER.</actor>
+     </castItem>
+     <castItem>
+      <role gender="M">Masqueraders, Ladies, Gentlemen, Servants, Gens'darmes, &amp;c.</role>
+     </castItem>
+     <castItem>
+      <role gender="F">LADY ANDRY</role>
+      <actor>Mrs. Dowton.</actor>
+     </castItem>
+     <castItem>
+      <role gender="F">EMILY LONSDALE</role>
+      <actor>Miss PAGE.</actor>
+     </castItem>
+     <castItem>
+      <role gender="F">GIMP</role>
+      <actor>Miss E. Howard.</actor>
+     </castItem>
+    </castList>
+   </performance>
+   <set>
+    <p>ACT I. England. ACT II.—Switzerland. ACT III. Paris.</p>
+    <p> TIME IN REPRESENTATION—1 hour, 25 minutes.</p>
+   </set>
+   <div type="costume">
+    <head>COSTUMES.</head>
+    <list>
+     <item><label>Sir Charles</label>.—Evening dress. 2nd dress.—Shooting dress and leathern
+      gaiters, moustache. 3rd dress.—Walking dress. 4th dress.— Pierrot's dress.</item>
+     <item><label>Dartford</label>.—Evening dress, moustache. 2nd dress.—Travelling dress. 3rd
+      dress.—Full American Indian's dress.</item>
+     <item><label>Titmouse</label>.—Black coat and trousers, white cravat, waistcoat and stockings,
+      shoes. 2nd dress.—Undress livery 3rd dress.—Wolf's head, and gloves like paws, long brown
+      cloak.</item>
+     <item><label>Moncton</label>.—Crispin's dress. (See the frontispice of Love and
+      Fortune.)</item>
+     <item><label>Eustache</label>.—Arlequin's dress.</item>
+     <item><label>Lady A</label>.—Fashionable evening costume.</item>
+     <item><label>Emily</label>.—Boating or travelling dress. 2nd dress.—Fashionable afternoon
+      dress.</item>
+     <item><label>Gimp</label>.—Dress of a smart lady's maid.</item>
+    </list>
+   </div>
+
+  </front>
+  <pb n="3"/>
+  <body>
+   <head>CHRISTMAS EVE, OR THE DUEL IN THE SNOW.</head>
+   <div type="act">
+    <head>ACT FIRST.</head>
+    <div type="scene">
+     <head>SCENE.—An Elegant Apartment in the House of Sir Charles Andry. Folding doors—doors, R.
+      and L. 2 E.—tables, R. and l.—sofas, chairs—sideboards, r. and l. with decanters of
+      wine—glass, &amp;c. on L.</head>
+     <stage>Music—Thomas Titmouse and Gimp discovered, at R. table, telling fortunes by the
+      cards.</stage>
+     <sp who="#L0666_F10">
+      <speaker>Gimp.</speaker>
+      <p>As truly as this is Christmas Eve, I tell you Mr. Thomas, these are the wedding cards;
+       you'll speedily be most advantageously married!</p>
+     </sp>
+     <sp who="#L0666_M3">
+      <speaker>Tit.</speaker>
+      <p>Is it to a lady of fortune and quality I am to be united, like what master, Sir Charles,
+       is?</p>
+     </sp>
+     <sp who="#L0666_F10">
+      <speaker>Gimp.</speaker>
+      <p>The nine of spades interdicts that at once, Mr. Thomas ; an immense legacy—a
+        <hi>thumping</hi> legacy, will fall to you soon after marriage, by the hand of your
+       wife.</p>
+     </sp>
+     <sp who="#L0666_M3">
+      <speaker>Til.</speaker>
+      <p>My wife! will she be uncommon handsome ?—What colour will her eyes be ?</p>
+     </sp>
+     <sp who="#L0666_F10">
+      <speaker>Gimp.</speaker>
+      <p>Exactly <hi>like mine</hi>, Mr. Thomas.</p>
+     </sp>
+     <sp who="#L0666_M3">
+      <speaker>Tit.</speaker>
+      <p>Um! them's no great shakes! Grey!—that's none so handsome. And her hair?</p>
+     </sp>
+     <sp who="#L0666_F10">
+      <speaker>Gimp.</speaker>
+      <p>Just an escape from auburn, <hi>like mine</hi>, also.</p>
+     </sp>
+     <sp who="#L0666_M3">
+      <speaker>Tit.</speaker>
+      <p>That's a great escape, indeed ! What some folks call <hi>red</hi>!</p>
+     </sp>
+     <pb n="4"/>
+     <sp who="#L0666_F10">
+      <speaker>Gimp.</speaker>
+      <p>Vulgar folks! But certainly, no gentleman of taste or discernment, like you are, Mr.
+       Thomas.</p>
+     </sp>
+     <sp who="#L0666_M3">
+      <speaker>Tit.</speaker>
+      <stage>(coming down, R. aside)</stage>
+      <p>How well she knows me. Well, Miss Gimp, I don't think I'm the man to confer my hand, nor my
+       heart neither, on a marchioness, nor a countess, for paltry money.</p>
+     </sp>
+     <sp who="#L0666_F10">
+      <speaker>Gimp.</speaker>
+      <stage>(L.)</stage>
+      <p>Money, though very necessary to buy pretty caps and bonnets, does not always purchase
+       happiness, as Madame de <hi>Ginless</hi> says.</p>
+     </sp>
+     <sp who="#L0666_M3">
+      <speaker>Tit.</speaker>
+      <p>How learned she is! No—as you photographically observe, Miss Gimp, money does not always
+       buy happiness, for hinstance, Sir Charles Andry! he married missus for money— what's the
+       consequence ? He'd like to see her at Novy Scoshy! If I, his confidential walley, dust speak
+       a bit of my mind, only I scorns to blab master's secrets—no, no, honner! honner ! that's my
+       motter !</p>
+     </sp>
+     <sp who="#L0666_F10">
+      <speaker>Gimp.</speaker>
+      <p>A secret, did you say, Mr. Thomas?</p>
+     </sp>
+     <sp who="#L0666_M3">
+      <speaker>Tit.</speaker>
+      <p>Yes, a secret! If I knowed that my master, Sir Charles Andry, was over head and ears in
+       love, which I does, and with a pretty young woman, not his own wife, would I blab ? no! as I
+       said 'afore, Miss Gimp, honner! honner ! <stage>(beating his breast)</stage> —here's your
+       reserwoir !</p>
+     </sp>
+     <sp who="#L0666_F10">
+      <speaker>Gimp.</speaker>
+      <p>A pretty woman ! not missus ?</p>
+     </sp>
+     <sp who="#L0666_M3">
+      <speaker>Tit.</speaker>
+      <p>Can you wonder at it! He's not more than thirty, and she's between fifty and sixty, if
+       she's a day. If rich, elderly old ladies will force us boys to marry 'em, what has they to
+       expect ? unconstancy!</p>
+     </sp>
+     <sp who="#L0666_F10">
+      <speaker>Gimp.</speaker>
+      <stage>(sighing)</stage>
+      <p>Ah, poor, dear, infatuated elderly old lady, as you sensibly observe poor missus is, Mr.
+       T—what could she expect?</p>
+     </sp>
+     <sp who="#L0666_M3">
+      <speaker>Tit.</speaker>
+      <p>Hot water, and kept biling. <stage>(they laugh)</stage>
+      </p>
+     </sp>
+     <sp who="#L0666_F10">
+      <speaker>Gimp.</speaker>
+      <p>You are so witty, Mr. Thomas—really it's like looking into a jest book to hear you talk.
+       But you say master's in love with somebody ? <stage>(apart)</stage> —if it should be me! Are
+       you impenetrably bent on keeping that a profound secret, Mr. Thomas?</p>
+     </sp>
+     <sp who="#L0666_M3">
+      <speaker>Tit.</speaker>
+      <p>Yes, here ! Locked up here till death do us part, as the walentine book says.</p>
+     </sp>
+     <sp who="#L0666_F10">
+      <speaker>Gimp.</speaker>
+      <stage>(coaxing)</stage>
+      <p>Even from me, dear Thomas ?</p>
+     </sp>
+     <sp who="#L0666_M3">
+      <speaker>Tit.</speaker>
+      <p>Wheedling minx! I've half a mind—no, I won't—no, not even to you, Miss Gimp, shall that
+       which is a solemn trust be confiscated. <stage>(looking round)</stage>
+      </p>
+     </sp>
+     <sp who="#L0666_F10">
+      <speaker>Gimp.</speaker>
+      <p>I don't believe it's true, then.</p>
+     </sp>
+     <sp who="#L0666_M3">
+      <speaker>Tit.</speaker>
+      <p>Not true? Didn't I place the gummy side of the enwelope over a tumbler glass of hot water,
+       and read the whole
+       <pb n="5"/> of master's letter of declaration to the lady over and over again ?</p>
+     </sp>
+     <sp who="#L0666_F10">
+      <speaker>Gimp.</speaker>
+      <p>So this is your solemn trust, is it, you perfidious spy ? Now if you don't immediately
+       repeat me every word, I'll go instantly and inform my lady. <stage>(going, R.)</stage>
+      </p>
+     </sp>
+     <sp who="#L0666_M3">
+      <speaker>Tit.</speaker>
+      <stage>(detaining her)</stage>
+      <p>You won't, sure ! My hair's on end.</p>
+     </sp>
+     <sp who="#L0666_F10">
+      <speaker>Gimp.</speaker>
+      <p>I will—so you'd better begin. What's the lady's name?—How did it happen ?—When did it take
+       place ?</p>
+     </sp>
+     <sp who="#L0666_M3">
+      <speaker>Tit.</speaker>
+      <p>Don't go on so ! it's like having to answer to six bells bells at once, and cry " Coming,
+       coming," from morning till night.</p>
+     </sp>
+     <sp who="#L0666_F10">
+      <speaker>Gimp.</speaker>
+      <p>Go on—her name?</p>
+     </sp>
+     <sp who="#L0666_M3">
+      <speaker>Tit.</speaker>
+      <p>Well, then, her name is Miss— <stage>(bell rings violently at door)</stage>
+      </p>
+     </sp>
+     <sp who="#L0666_F10">
+      <speaker>Gimp.</speaker>
+      <p>Lord! there's my lady. <stage>Runs out R.</stage>
+      </p>
+     </sp>
+     <sp who="#L0666_M3">
+      <speaker>Tit.</speaker>
+      <p>Or maybe it's master, returned from the party. <stage>(looks at his watch)</stage> Scarcely
+       twelve by Bennett. Missus hasn't been pleased—I predicts a squall.</p>
+     </sp>
+     <stage>Bell rings more violently—Titmouse goes out C. to L.</stage>
+     <stage>Enter Sir Charles Andry in ball costume, C. from L. pale and excited, followed by
+      Titmouse.</stage>
+     <sp who="#L0666_M1">
+      <speaker>Sir C.</speaker>
+      <p>How you creep! were you asleep, sir? Bring me a glass of water—cold—cold as ice. Then
+       remove your ugly face. <stage>throws down hat, gloves, &amp;c., and sits R. at table</stage>
+      </p>
+     </sp>
+     <sp who="#L0666_M3">
+      <speaker>Tit.</speaker>
+      <p>Ugly face! poor master, he's either fuddled or gone mad ! <stage>Exit C. to L.</stage>
+      </p>
+     </sp>
+     <sp who="#L0666_M1">
+      <speaker>Sir C.</speaker>
+      <stage>seated R.</stage>
+      <p>Dear Amelia ! how beautiful she looked to-night! that last sigh did it. As I handed her
+       down to supper, her cheeks all rosy blushes—her eyes all radiant fire— her small hand glowing
+       in mine—I could no longer conceal my deep, intense emotion. I told her all my love—all my
+       suffering for her sake. She did not reject my passion—angel as she is—so young, so beautiful,
+       so innocent, so— Oh, misery— despair! and I a married man! It was too much for both our
+       feelings—she was compelled to retire. After her departure, the place became
+       insupportable.</p>
+     </sp>
+     <stage>Re-enter Titmouse, C. from L. with tray, jug of water, and tumbler—he fills tumbler,
+      which he places on table, R., then placing the water and tray on sideboard, L.</stage>
+     <sp who="#L0666_M3">
+      <speaker>Tit.</speaker>
+      <stage>at sideboard</stage>
+      <p>Summat's wrong here! master's in a reverie! <stage>helps himself to wine, L.</stage> It's
+       too much for my system. <stage>drinking—he comes forward with decanter of wine and
+        <pb n="6"/> wineglass, which he places on table, R.</stage> Shall I bring your slippers, Sir
+       Charles? your warnished boots pinches your feet perhaps.</p>
+     </sp>
+     <sp who="#L0666_M1">
+      <speaker>Sir C.</speaker>
+      <p>Get out, rascal, or by Jove—</p>
+     </sp>
+     <sp who="#L0666_M3">
+      <speaker>Tit.</speaker>
+      <p>Oh, whenever it comes to Jove, I never thinks it safe to remain. <stage>(going up)</stage>
+       Directly I gets signs of a better place, I gives him warning, and no mistake! <stage>Exit C.
+        to L.</stage>
+      </p>
+     </sp>
+     <sp who="#L0666_M1">
+      <speaker>Sir C.</speaker>
+      <p>How absurd in me to fly into a passion with an ignorant rascal like that, as if he, too,
+       were leagued against my happiness. Happiness ! what word is that ? alas—alas ! my tongue—my
+       heart is on fire! Oh, Emily— Emily! if we had only met ere I became the husband of another!
+       My wife— wife ! when I compare her to you, my divine Emily, my very soul sickens. Curse on
+       this gold—this human bait, to the trap of earthly misery and despair. Would I had died ere I
+       resigned my young life's liberty to gold's fascinations. <stage>(bell, R.)</stage>
+      </p>
+     </sp>
+     <stage>Enter Titmouse C. from L.</stage>
+     <sp who="#L0666_M1">
+      <speaker>Sir C.</speaker>
+      <p>Who's that ?</p>
+     </sp>
+     <sp who="#L0666_M3">
+      <speaker>Tit.</speaker>
+      <p>It's my lady, Sir Charles! escorted from the party by Captain Dartford. <stage>(goes
+        up)</stage>
+      </p>
+     </sp>
+     <sp who="#L0666_M1">
+      <speaker>Sir C.</speaker>
+      <p>So soon ! not a moment of escape is left me. <stage>(rising)</stage>
+      </p>
+     </sp>
+     <stage>Enter Lady Andry and Captain Dartford, C. from L. in grand costume. Gimp enters from R.
+      at the same time.</stage>
+     <sp who="#L0666_F8">
+      <speaker>Lady A.</speaker>
+      <stage>(coming down, L.)</stage>
+      <p>Dearest love, why did you quit the supper table so abruptly ? Ah, I see your pale look—you
+       are indisposed. Left hurriedly, not to alarm my tenderness, dear Charles!</p>
+     </sp>
+     <sp who="#L0666_M2">
+      <speaker>Captain.</speaker>
+      <stage>(laughing—aside, R.)</stage>
+      <p>Oh !</p>
+      <stage>(concealing his face in his cap—Gimp comes L. C. and receives Lady Andry's
+       shawl.)</stage>
+     </sp>
+     <sp who="#L0666_F8">
+      <speaker>Lady A.</speaker>
+      <p>What's the matter, Charles?</p>
+     </sp>
+     <sp who="#L0666_M1">
+      <speaker>Sir C.</speaker>
+      <stage>(C.)</stage>
+      <p>A sort of spasm.</p>
+     </sp>
+     <sp who="#L0666_M2">
+      <speaker>Captain.</speaker>
+      <stage>(apart, laughing, R.)</stage>
+      <p>A sort of spasm? an affection of the heart—eh, Andry ?</p>
+     </sp>
+     <sp who="#L0666_F8">
+      <speaker>Lady A.</speaker>
+      <p>You will expose yourself to those vile draughts. I noticed that you looked flushed—excited.
+       Then you must go into the hall to assist that flirt, Emily Lonsdale on with her Cashmere. It
+       was very imprudent of you, Charles, and you so warm.</p>
+     </sp>
+     <sp who="#L0666_M2">
+      <speaker>Captain.</speaker>
+      <p>Very warm, indeed! naughty boy !</p>
+     </sp>
+     <sp who="#L0666_M3">
+      <speaker>Tit.</speaker>
+      <stage>(aside, up c.)</stage>
+      <p>It's exact what I said. That sly God, Cubit, is a devil amongst shawls, Cashmeres
+       especially.</p>
+      <stage>(laughing.)</stage>
+     </sp>
+     <pb n="7"/>
+     <sp who="#L0666_M1">
+      <speaker>Sir C.</speaker>
+      <stage>(turning)</stage>
+      <p>What are you grinning at, scoundrel ?— quit the room.</p>
+     </sp>
+     <sp who="#L0666_M3">
+      <speaker>Tit.</speaker>
+      <p>I leaves this day week—no, this day month : I forgot the Christmas-boxes. <stage>Exit C. to
+        L.</stage>
+      </p>
+     </sp>
+     <sp who="#L0666_M1">
+      <speaker>Sir C.</speaker>
+      <stage>(C.)</stage>
+      <p>I shall be better on the instant. I grieve that I have destroyed your pleasure. But why
+       quit thus early, so happy a party, on my account.</p>
+     </sp>
+     <sp who="#L0666_F8">
+      <speaker>Lady A.</speaker>
+      <p>No scene can be happy to me, dear Charles, where you are not!</p>
+     </sp>
+     <sp who="#L0666_M2">
+      <speaker>Captain.</speaker>
+      <stage>(aside)</stage>
+      <p>A—hem !</p>
+     </sp>
+     <sp who="#L0666_F8">
+      <speaker>Lady A.</speaker>
+      <stage>(aside)</stage>
+      <p>Traitor ! <stage>(to Sir Charles)</stage> Keep up your spirits. <stage>(crossing)</stage>
+       Captain Dartford, I will but disembarass myself of my diamonds, and return directly.</p>
+     </sp>
+     <stage>Exit R. D. followed by Gimp with Lady Andry's shawl.</stage>
+     <sp who="#L0666_M1">
+      <speaker>Sir C.</speaker>
+      <stage>(crossing to R.)</stage>
+      <p>Oh, pray don't hurry yourself, my love. Indeed I am better already.
+        <stage>(despairingly)</stage> I wish I were dead, Dartford ! I'm in love—lost—irretrievably
+       lost— lost in love ! <stage>(drinking some water, and sits R. of table, R.)</stage>
+      </p>
+     </sp>
+     <sp who="#L0666_M2">
+      <speaker>Captain.</speaker>
+      <stage>(seating himself L. of R. table)</stage>
+      <p>Ah, my dear fellow, I am irretrievably worse off than that. I am lost in debt.</p>
+     </sp>
+     <sp who="#L0666_M1">
+      <speaker>Sir C.</speaker>
+      <p>Pshaw !</p>
+     </sp>
+     <sp who="#L0666_M2">
+      <speaker>Captain.</speaker>
+      <p>You may pshaw ! as you please; but the ugly paw of a sheriff's officer, armed with a writ,
+       is even worse than that of an elderly wife, armed with her marriage certificate, and her
+       money bags, although one does not care a military button about her.</p>
+     </sp>
+     <sp who="#L0666_M1">
+      <speaker>Sir C.</speaker>
+      <p>Sir, you doubt—</p>
+     </sp>
+     <sp who="#L0666_M2">
+      <speaker>Captain.</speaker>
+      <p>Nothing! Even had you not just confessed ; why, to prove to you that I think being in debt
+       ten thousand times worse than being overhead and ears in love, see, I absolutely, (in a state
+       of almost insanity,) I confess, I purchased this phial of poison ; and determined on reaching
+       home to put a period to my wretched ennui! luckily, I took a bottle of soda water instead.
+        <stage>(shows phial)</stage> And all this distraction for a paltry two hundred pounds! Even
+       now, the thought so excites my desperation that— <stage>(putting phial to his lips)</stage>
+      </p>
+     </sp>
+     <sp who="#L0666_M1">
+      <speaker>Sir C.</speaker>
+      <stage>(rising, and snatching it from him)</stage>
+      <p>Dartford, hold! are you mad ? I'll give you a cheque—stay, here's a bill of exchange for
+       fifty pounds more than the amount. <stage>(giving one from his pocket book)</stage> You can
+       repay me at your leisure.</p>
+     </sp>
+     <sp who="#L0666_M2">
+      <speaker>Captain.</speaker>
+      <stage>(aside)</stage>
+      <p>I never have any leisure ! <stage>(aloud)</stage> My dear Andry I am truly grateful for
+       this act of generosity. I stand reproved! you have made me half wild with joy—you are a good
+       fellow, Andry ! But your wife returns—far be it from me to tresspass on your domestic
+       happiness. <stage>(looking at his
+        <pb n="8"/>watch)</stage> The tables will be all made up—I'm off to the club ! adio ! adio !
+        <stage>Exit C. to L.</stage>
+      </p>
+     </sp>
+     <sp who="#L0666_M1">
+      <speaker>Sir C.</speaker>
+      <stage>(sits L. of R. table)</stage>
+      <p>Domestic happiness! domestic curse! " He jests at scars, who never felt a wound."
+        <stage>(looking at phial)</stage> Poison! labelled " poison!" I was a mere boy when she
+       first beheld me—proud, poor, penniless, thrown upon the world's sympathy—sympathy ! the
+       world's sympathy. <stage>(looking at phial)</stage> " Poison!" I was a poet—the world's
+       sympathy gave me fame, but no money; she assisted me, and mistook gratitude for
+       love—everybody saw the great advantage, they said, I had gained--everybody urged me on. If I
+       loved her not, then, I loved no other. I cast myself at the feet of the golden idol, it's
+       weight crushed my heart—we were married—she and I— paired, not matched. I, at once, rich,
+       affluent, envied, miserable! she had interest—the poor poet became a baronet! all this I owe
+       to my wife ! and yet, I cannot love her. Her jealousy, her suspicions, reproaches, fall like
+       drops of poison into my soul—watched—no thought, no action, is my own. A galley slave,
+       chained with a golden chain—esteem becomes apathy, dislike, almost hate. And now I love—love
+       to frenzy another! my brain burns, my mind wanders. <stage>(putting his hand on
+        phial)</stage> Poison ! This comes to me in the very moment of my deep despair! sweet
+       oblivious antidote! Men call thee poison !—Anguish names thee tranquility ! come !</p>
+      <stage>(pours the poison into the tumbler of water on R. table, and is about to
+       drink—)</stage>
+     </sp>
+     <stage>Enter Lady Andry from R. D.</stage>
+     <sp who="#L0666_F8">
+      <speaker>Lady A.</speaker>
+      <stage>(coming down L., of Andry)</stage>
+      <p>Drink no more tonight—it is monstrous ! And now that we are alone together, let us speak!
+       The injured wife—the base, ungrateful, perfidious husband! <stage>(wrathfully)</stage>
+      </p>
+     </sp>
+     <sp who="#L0666_M1">
+      <speaker>Sir C.</speaker>
+      <stage>(rising)</stage>
+      <p>Perfidious!</p>
+     </sp>
+     <sp who="#L0666_F8">
+      <speaker>Lady A.</speaker>
+      <p>Ay, perfidious! know you this minature ?</p>
+     </sp>
+     <sp who="#L0666_M1">
+      <speaker>Sir C.</speaker>
+      <p>Mine!</p>
+     </sp>
+     <sp who="#L0666_F8">
+      <speaker>Lady A.</speaker>
+      <p>Yes, yours ! A present from the husband of Lady Andry to Miss Lonsdale. One of her
+       satellites purloined it from her, and brought it me—a welcome present, was it not? Am I not
+       an injured wife? Is she not a base—</p>
+     </sp>
+     <sp who="#L0666_M1">
+      <speaker>Sir C.</speaker>
+      <p>No ! Oh, for Heaven's sake, polute not the purity of her name. I alone am culpable—she is
+       blameless—indeed she believes me unmarried!</p>
+     </sp>
+     <sp who="#L0666_F8">
+      <speaker>Lady A.</speaker>
+      <p>'Tis false! I went to her house—I explained all— I cast myself at her feet—she mocked me,
+       taunted me with my age. She insolently bade me gaze into her looking glass—the
+       <pb n="9"/>proud, arrogant!—but her beauty shall fade, as mine has faded ; and her cold,
+       unfeeling heart, know too late, what it is to be betrayed, and spurned, as I am.</p>
+     </sp>
+     <sp who="#L0666_M1">
+      <speaker>Sir C.</speaker>
+      <p>Oh, for pity's sake !</p>
+     </sp>
+     <sp who="#L0666_F8">
+      <speaker>Lady A.</speaker>
+      <p>Pity is too holy a feeling to descend on her, who rends in twain the sacred links which
+       Heaven has joined together.</p>
+     </sp>
+     <sp who="#L0666_M1">
+      <speaker>Sir C.</speaker>
+      <p>Be calm, I entreat! I—</p>
+     </sp>
+     <sp who="#L0666_F8">
+      <speaker>Lady A.</speaker>
+      <p>Calm ! when I think of her audacity in avowing her love for you, a married man, my husband
+       !</p>
+     </sp>
+     <sp who="#L0666_M1">
+      <speaker>Sir C.</speaker>
+      <stage>(joyfully)</stage>
+      <p>Did she then confess—</p>
+     </sp>
+     <sp who="#L0666_F8">
+      <speaker>Lady A.</speaker>
+      <p>Nay, calm your transports—at least, suppress them in <hi>my</hi> presence ! The bird in his
+       golden cage shall not be so easily set free as she imagines.</p>
+     </sp>
+     <sp who="#L0666_M1">
+      <speaker>Sir C.</speaker>
+      <p>You have, in marrying me, deceived, at least yourself. Take again wealth, rank—all that you
+       have conferred. Give me back my poverty, and my liberty! brand me with ingratitude, and
+       banish me for ever from your sight for ever! I cannot love you—then teach me to respect you,
+       by the magnanimity of your conduct, for it is true, I love another!</p>
+     </sp>
+     <sp who="#L0666_F8">
+      <speaker>Lady A.</speaker>
+      <p>You confess it ?</p>
+     </sp>
+     <sp who="#L0666_M1">
+      <speaker>Sir C.</speaker>
+      <p>I do!</p>
+     </sp>
+     <sp who="#L0666_F8">
+      <speaker>Lady A.</speaker>
+      <stage>(r. c.)</stage>
+      <p>Madman! You know not half my resolution ; the serpent coils not round its prey with more
+       tenacity than I to your destiny. Think you by this open acknowledgment of your guilt, to
+       drive me to desperation ? I am nerved with a woman's strongest weapon—endurance! that shall
+       be my weapon ! no dagger—no poison !</p>
+     </sp>
+     <sp who="#L0666_M1">
+      <speaker>Sir C.</speaker>
+      <stage>(l. glancing at table)</stage>
+      <p>Poison!</p>
+     </sp>
+     <sp who="#L0666_F8">
+      <speaker>Lady A.</speaker>
+      <p>I could weep at my own folly, which has brought me to this degradation, but I will not—no,
+       I laugh—laugh, both at her and you ! Think hereafter, as you pass through the gay, gilded
+       scenes of the future, bowed down by years, with your wife on your arm, how the laughing world
+       will sneer at you! shall I not be revenged ? Ha, ha, ha! My tongue cleaves to the roof of my
+       mouth! water—water! <stage>Sir Charles advances to the sideboard, L.</stage> no, not from
+       your hand—it would kill me! <stage>(she sinks on chair L. of R. table, and drinks the
+        poisoned water from the tumbler)</stage>
+      </p>
+     </sp>
+     <sp who="#L0666_M1">
+      <speaker>Sir C.</speaker>
+      <stage>(up stage, at sideboard, L.—turns suddenly, seeing her drink—rushes forward to
+       C.)</stage>
+      <p>Horror, oh, horror!</p>
+     </sp>
+     <sp who="#L0666_F8">
+      <speaker>Lady A.</speaker>
+      <stage>(rising, and turning to him)</stage>
+      <p>Why stand you there transfixed—why is your face so deadly pale—what is the meaning of that
+       wild, glassy gaze ?</p>
+     </sp>
+     <pb n="10"/>
+     <sp who="#L0666_M1">
+      <speaker>Sir C.</speaker>
+      <stage>(half choked, and pointing to table, R.)</stage>
+      <p>Poison!</p>
+     </sp>
+     <sp who="#L0666_F8">
+      <speaker>Lady A.</speaker>
+      <stage>(snatching up phial)</stage>
+      <p>Poison! Ah, I see! <stage>(calmly)</stage> I'm poisoned—poisoned ! <stage>(gazing at
+        him)</stage>
+      </p>
+     </sp>
+     <sp who="#L0666_M1">
+      <speaker>Sir C.</speaker>
+      <stage>(greatly excited)</stage>
+      <p>Oh, not by me! I swear it! not by me! <stage>(calling)</stage> Help ! <stage>Music
+        piano—which continues till end of Act</stage>
+      </p>
+     </sp>
+     <sp who="#L0666_F8">
+      <speaker>Lady A.</speaker>
+      <p>Call no assistance! It is in vain—listen to me! Misery and disappointment in you have
+       broken my heart—I fear not death—I will die—it will be a relief.</p>
+     </sp>
+     <sp who="#L0666_M1">
+      <speaker>Sir C.</speaker>
+      <p>I am innocent !</p>
+     </sp>
+     <sp who="#L0666_F8">
+      <speaker>Lady A.</speaker>
+      <p>I accuse you not—it is of her I speak—she will rejoice in my destruction. Let her
+       rejoice—she will weep, when I shall be at peace. Marry her at your peril! if you do, at the
+       nuptials—at the altar—in the bridal chamber—everywhere—I will be the dark, denouncing shadow
+       between you and happiness ! I will be a blight upon her as she has been on me! <stage>(sinks
+        on chair L. of R. table—clock begins to strike twelve)</stage> This is Christmas Eve !
+       Listen—the clock strikes twelve ! A solemn hour for a dying wife's prediction. If you marry
+       that woman, she shall prove as faithless to you as you have proved to me. She, who has
+       changed your heart, who loves you not, shall prove your scourge—your deadly scourge—your
+       destruction ! And on this very night of Christmas eve, the clock striking twelve, as now,
+       your falsehood shall be deeply punished —I avenged! Remember my prediction! I die!
+        <stage>(dies)</stage>
+      </p>
+     </sp>
+     <sp who="#L0666_M1">
+      <speaker>Sir C.</speaker>
+      <stage>(going to her, and raising her head)</stage>
+      <p>I am innocent! What, gone! Help—help! This horrible phial! what will they not suspect?
+        <stage>(conceals it)</stage> Terrible passion! I am already stricken!</p>
+     </sp>
+     <stage>Enter Thomas and Gimp, C. from L.—as they approach towards Lady Andry, he motions them
+      back, and buries his face in his hands.—Tableau.</stage>
+     <trailer>END OF ACT THE FIRST.</trailer>
+    </div>
+
+    <note>Eight months is supposed to elapse between First and Second Acts.</note>
+    <pb n="11"/>
+    <div type="act">
+     <head>ACT SECOND.</head>
+     <div type="scene">
+      <head>SCENE.—An Elegant Villa in Switzerland. Large opening, c. looking on a lake, and
+       mountains—doors, R. and L.—carpet down—chairs—tables, R. and L.—writing materials on R.
+       table.</head>
+      <stage>Gimp, differently dressed, discovered, arranging some flowers.</stage>
+      <sp who="#L0666_F10">
+       <speaker>Gimp.</speaker>
+       <p>Ah, this is something like life! Since master has married Miss Emily Lonsdale, and came
+        here to reside in Switzerland, nothing but gaiety! such balls—such fêtes—such excursions on
+        the lake ! something like, to what it was in old missus's time ! Above all, I do love a
+        moonlight night row on the lake ! It makes one feel all over so romantic and Lalla Rookish!
+        Then Mr. Thomas has become so sentimental ! if he would only pop the question—if he would
+        only take the hint from his master, Sir Charles, and not let the grass grow under his feet,
+        while he's deliberating about getting married. <stage>(piccolo heard, L.)</stage> Oh, there
+        he is—practising his piccolo, to play " The Merry Swiss Boy " on the lake. Charm­ing ! if it
+        were only a <hi>leetle</hi> in time, and not quite so shrill.</p>
+      </sp>
+      <stage>Enter Titmouse, playing a piccolo, L. door.</stage>
+      <sp who="#L0666_M3">
+       <speaker>Tit.</speaker>
+       <p><stage>(down, L.)</stage> Commongy vous! That means what o'clock is it ? How do you think
+        I succeed with my piccolo ? Music is the food of love, as Hovid says.</p>
+      </sp>
+      <sp who="#L0666_F10">
+       <speaker>Gimp.</speaker>
+       <p><stage>(R.)</stage>Food! I'm sure, then, it does not apply to you, for you are always
+        hungry, and eat like a buffalo. I wish I could say as much for master, but perhaps it's
+        love—his appetite falls off daily.</p>
+      </sp>
+      <sp who="#L0666_M3">
+       <speaker>Tit.</speaker>
+       <p>Ah, too much happiness is as bad as too little. Single blessedness is in favour of a good
+        digestion, I think.</p>
+      </sp>
+      <sp who="#L0666_F10">
+       <speaker>Gimp.</speaker>
+       <p>On my word, sir, you are vastly polite to a lady, ain't you ? Don't all the poets agree
+        that the world's happiness is entirely due to our sex ?</p>
+      </sp>
+      <sp who="#L0666_M3">
+       <speaker>Tit.</speaker>
+       <p>Well, certainly, I must confess we owes them the sewing on of our shirt buttons.</p>
+      </sp>
+      <sp who="#L0666_F10">
+       <speaker>Gimp.</speaker>
+       <p>Shirtbuttons! and is that all, sir?</p>
+      </sp>
+      <sp who="#L0666_M3">
+       <speaker>Tit.</speaker>
+       <p>No—there's the starching of dickies.</p>
+      </sp>
+      <sp who="#L0666_F10">
+       <speaker>Gimp.</speaker>
+       <p>Dickies, monster ! I hope my lady don't hear you.</p>
+      </sp>
+      <sp who="#L0666_M3">
+       <speaker>Tit.</speaker>
+       <p>And if she did? what does she understand about collars or dickies, or shirtbuttons ? she's
+        a forgiving lady—a generous
+        <pb n="12"/> lady! No paying for breakages with her—money's nothing— and good-tempered—not
+         like<hi> some </hi>people.</p>
+      </sp>
+      <sp who="#L0666_F10">
+       <speaker>Gimp.</speaker>
+       <p>Good tempered! I wish you could see her face in the glass, when her crinoline
+         <hi>will</hi> swag !</p>
+      </sp>
+      <sp who="#L0666_M3">
+       <speaker>Tit.</speaker>
+       <p>Well, that's enough to provoke an angel! But isn't it a delightful thing to see her and
+        master seated, side by side on the sofa, like a couple of love birds, a billing and cooing,
+        and taking their coffee.</p>
+      </sp>
+      <sp who="#L0666_F10">
+       <speaker>Gimp.</speaker>
+       <p>I wonder, then, you don't take the hint, turn love bird yourself, and begin billing and
+        cooing also ?</p>
+      </sp>
+      <sp who="#L0666_M3">
+       <speaker>Tit.</speaker>
+       <p>So I will when I've saved money enough to buy a cage to live in.</p>
+      </sp>
+      <sp who="#L0666_F10">
+       <speaker>Gimp.</speaker>
+       <p>Cage—stuff! As Mrs. Glass says—" Catch your bird first, then talk of cage."</p>
+      </sp>
+      <sp who="#L0666_M3">
+       <speaker>Tit.</speaker>
+       <p>But, after all, although Sir Charles and my lady do look so happy, and so much better
+        suited to each other—and this was a decided love match—I suspects, as Doctor Startle'em
+        says, " There's a skeleton behind the door."</p>
+      </sp>
+      <sp who="#L0666_F10">
+       <speaker>Gimp.</speaker>
+       <p><stage>A what ? And pray what do you draw that horrible conclusion from ?</stage></p>
+      </sp>
+      <sp who="#L0666_M3">
+       <speaker>Tit.</speaker>
+       <p><stage>Master's looks.</stage></p>
+      </sp>
+      <sp who="#L0666_F10">
+       <speaker>Gimp.</speaker>
+       <p>When?</p>
+      </sp>
+      <sp who="#L0666_M3">
+       <speaker>Tit.</speaker>
+       <p>When he's shaving.</p>
+      </sp>
+      <sp who="#L0666_F10">
+       <speaker>Gimp.</speaker>
+       <p>Mercy on us! when he's shaving ?</p>
+      </sp>
+      <sp who="#L0666_M3">
+       <speaker>Tit.</speaker>
+       <p>Yes—especially when the water's cold, and the razor won't cut.</p>
+      </sp>
+      <sp who="#L0666_F10">
+       <speaker>Gimp.</speaker>
+       <p>Bah!</p>
+      </sp>
+      <sp who="#L0666_M3">
+       <speaker>Tit.</speaker>
+       <p>Then he's taken such a mortal dislike to music—can't even bear to hear me run up a hoctave
+        on my piccolo. <stage>(plays very shrill)</stage></p>
+      </sp>
+      <sp who="#L0666_F10">
+       <speaker>Gimp.</speaker>
+       <p><stage>Oh, for mercy's sake!</stage></p>
+      </sp>
+      <sp who="#L0666_M3">
+       <speaker>Tit.</speaker>
+       <p>Why, you're going mad, too!—don't like music !</p>
+      </sp>
+      <sp who="#L0666_F10">
+       <speaker>Gimp.</speaker>
+       <p>Call <hi>that</hi> music ? My teeth are all on edge !</p>
+      </sp>
+      <sp who="#L0666_M3">
+       <speaker>Tit.</speaker>
+       <p>Her teeth on edge! She'll bite me next. But talking of master—don't be alarmed; and far be
+        it, Gimp, from a trust­worthy servant, like me, to let the cat out of master's bag.
+         <stage>(whispers) But do you know, I always thought old missus died very suddenly—eh
+         ?</stage></p>
+      </sp>
+      <sp who="#L0666_F10">
+       <speaker>Gimp.</speaker>
+       <p><stage>Eh?</stage></p>
+      </sp>
+      <sp who="#L0666_M3">
+       <speaker>Tit.</speaker>
+       <p>Eh?</p>
+      </sp>
+      <sp who="#L0666_F10">
+       <speaker>Gimp.</speaker>
+       <p>Well!</p>
+      </sp>
+      <sp who="#L0666_M3">
+       <speaker>Tit.</speaker>
+       <p>Well!</p>
+      </sp>
+      <sp who="#L0666_F10">
+       <speaker>Gimp.</speaker>
+       <p>Suddenly!</p>
+      </sp>
+      <sp who="#L0666_M3">
+       <speaker>Tit.</speaker>
+       <p>Suddenly! I said suddenly! there was no coroner's conquest. She was a regular tartar. He
+        was glad enough to get rid of her, no doubt.</p>
+      </sp>
+      <pb n="13"/>
+      <sp who="#L0666_F10">
+       <speaker>Gimp.</speaker>
+       <p>And get married to somebody else.</p>
+      </sp>
+      <sp who="#L0666_M3">
+       <speaker>Tit.</speaker>
+       <p>You've hit it.</p>
+      </sp>
+      <sp who="#L0666_F10">
+       <speaker>Gimp.</speaker>
+       <p>Hit what ? <stage>(Titmouse whispers)</stage></p>
+      </sp>
+      <sp who="#L0666_F10">
+       <speaker>Gimp.</speaker>
+       <p><stage>(shrieking)</stage>Fearful! I'll run and communicate your dark suspicions to my
+         lady.<stage>(crossing to R.)</stage></p>
+      </sp>
+      <sp who="#L0666_M3">
+       <speaker>Tit.</speaker>
+       <p><stage>(holding her)</stage>Do you want to see me hanged ? look at this innocent and
+        pitiful face—would you see it grinning through the fatal noose?</p>
+      </sp>
+      <sp who="#L0666_F10">
+       <speaker>Gimp.</speaker>
+       <p>I would not keep such a dreadful secret for anyone <stage>(pausing)</stage> except my
+         <hi>husband.</hi></p>
+      </sp>
+      <sp who="#L0666_M3">
+       <speaker>Tit.</speaker>
+       <p>That noose is better than t'other. Hold your tongue, and I'll marry you next Friday!
+         <stage>(aside)</stage> I've signed my death­warrant, and Friday's a pleasant day to put it
+        in force.</p>
+      </sp>
+      <sp who="#L0666_F10">
+       <speaker>Gimp.</speaker>
+       <p>At last I've caught him. <stage>(aloud)</stage> Well, since you are so pressing, I accept
+        you—there's my cheek,<stage>(offers her cheek for him to kiss)</stage></p>
+      </sp>
+      <sp who="#L0666_M3">
+       <speaker>Tit.</speaker>
+       <p><stage>(kisses her)</stage>Her cheek is like a ripe peach. When one is married, we can
+        have peaches every day.</p>
+      </sp>
+      <stage>Enter Sir Charles Andry, L. D. clad in the costume of the country. Gimp runs out, R. 1
+       E.</stage>
+      <sp who="#L0666_M1">
+       <speaker>Sir C.</speaker>
+       <p>Where's Lady Andry ?</p>
+      </sp>
+      <sp who="#L0666_M3">
+       <speaker>Tit.</speaker>
+       <p><stage>(R.)</stage>Her ladyship went out about an hour since, Sir Charles, with Captain
+        Dartford, to take a row on the lake.<stage>(going up and looking off, L.)</stage>There they
+        are now. Oh, no, it's only the black duck.</p>
+      </sp>
+      <sp who="#L0666_M1">
+       <speaker>Sir C.</speaker>
+       <p><stage>(crossing to R.)</stage>Blockhead! bring me my gun.</p>
+      </sp>
+      <sp who="#L0666_M3">
+       <speaker>Tit.</speaker>
+       <p><stage>(L.)</stage>I wonder whether he's going to shoot himself, or the duck? His new
+        wife's folly, and extravagance quite upsets him Poor master! well, I suppose, if he does
+        shoot himself, we shall be left the best of mourning.</p>
+      </sp>
+      <stage>Exit L. D.</stage>
+      <sp who="#L0666_M1">
+       <speaker>Sir C.</speaker>
+       <p><stage>Ah, mine is indeed a dreary fate. I killed her not—it was destiny. What, then, is
+         this remorse which haunts me ? a shadowy, and denouncing form which floats constantly
+         before me in my loneliest hours ? memory will not forgo it—I am no murderer. If my new wife
+         loves me not, 'tis destiny, not retribution. Yet 'tis plain she loves me not— never loved
+         me—her tenderness was a cheat—her pretended fondness a mockery. She that raised me from
+         obscurity, indigence—she—she that I despised, loved me, and—and I—</stage></p>
+      </sp>
+      <stage>Enter Titmouse, L. D., with a gun, intent on its examination— he runs against Sir
+       Charles.</stage>
+      <sp who="#L0666_M1">
+       <speaker>Sir C.</speaker>
+       <p>Idiot! <stage>(takes the gun)</stage>here, take this money.<stage>(feeling in his
+         pocket</stage></p>
+      </sp>
+      <sp who="#L0666_M3">
+       <speaker>Tit.</speaker>
+       <p><stage>He's going to bribe me, and make it up for calling me a hidiot.</stage></p>
+      </sp>
+      <pb n="14"/>
+      <sp who="#L0666_M1">
+       <speaker>Sir C.</speaker>
+       <p>Here are ten crowns. <stage>(opening a purse)</stage></p>
+      </sp>
+      <sp who="#L0666_M3">
+       <speaker>Tit.</speaker>
+       <p>Oh, thank you, Sir Charles—I really feel two large tears gushing down, one on each cheek,
+        as big as marbles. Ten crowns ! <stage>(holding his hand)</stage></p>
+      </sp>
+      <sp who="#L0666_M1">
+       <speaker>Sir C.</speaker>
+       <p>Take them to the poor widow who lives in the white cottage yonder. Her child is ill, I
+        hear. Don't say from whom the money comes.</p>
+      </sp>
+      <sp who="#L0666_M3">
+       <speaker>Tit.</speaker>
+       <p>Oh, depend on it, Sir Charles, she'll never be the wiser for me. <stage>(aside) I'll give
+         her one crown, and keep nine for myself—Charity begins at home. Poor dear widow, I'll go to
+         her directly, Sir Charles.</stage></p>
+      </sp>
+      <sp who="#L0666_M1">
+       <speaker>Sir C.</speaker>
+       <p><stage>(offering, but withdrawing the money — crossing to L.)</stage> On second thoughts,
+        I'll not trouble you, but throw the purse in at the lattice myself as I pass.</p>
+      </sp>
+      <stage>Exit L. D.</stage>
+      <sp who="#L0666_M3">
+       <speaker>Tit.</speaker>
+       <p>Well I never! throw it in at the window ! what a catch for the whimpering hussey. But I'll
+        be a wasp in her hive. I'll go and demand the purse, and pretend I threw it in, in a fit of
+        delirious tremens.</p>
+      </sp>
+      <sp who="#L0666_M2">
+       <speaker>Captain Dartford.</speaker>
+       <p><stage>Hillo, Thomas! come this way rascal!</stage></p>
+      </sp>
+      <sp who="#L0666_M3">
+       <speaker>Tit.</speaker>
+       <p><stage>Who's that that knows me ?</stage></p>
+      </sp>
+      <sp who="#L0666_M2">
+       <speaker>Captain.</speaker>
+       <p>If you wouldn't have the oar broken on your head, you'll use all despatch to assist your
+        lady ashore.</p>
+      </sp>
+      <sp who="#L0666_M3">
+       <speaker>Tit.</speaker>
+       <p>'Tis the captain—confound him for detaining me, when I felt them ten crowns at my finger's
+        ends.</p>
+      </sp>
+      <stage>Boat comes on from L. to C, with Dartford and Emily—drag net hanging over the edge of
+       the boat, and two fishing~rods alongside.</stage>
+      <sp who="#L0666_M3">
+       <speaker>Tit.</speaker>
+       <p><stage>(assisting Emily awkwardly)</stage> Take care, my lady, you don't make a false
+        step.</p>
+      </sp>
+      <sp who="#L0666_M2">
+       <speaker>Captain.</speaker>
+       <p>Fellow! <stage>(strikes him out of the way — Titmouse falls backwards into the boar —
+         Captain lleads her forward, R.)</stage> I hope,<hi> dear</hi>—beg pardon—Lady Andry, you've
+        not sprained your ancle, through that blundering blockhead's stupidity.</p>
+      </sp>
+      <sp who="#L0666_F9">
+       <speaker>Emily.</speaker>
+       <p><stage>(L.)</stage> Oh, no—don't be angry with poor Thomas. He thought to be very
+         polite.<stage>(laughing)</stage>Where's your master, Thomas?</p>
+      </sp>
+      <sp who="#L0666_M3">
+       <speaker>Tit.</speaker>
+       <p><stage>Gone to shoot himself, my la— Oh, dear no—gone to shoot by himself, I mean. I'm so
+         excited when I think of them ten crowns, I don't know what I'm talking about.</stage></p>
+      </sp>
+      <stage>Carries out fishing tackle, R., leaving one rod and line near table, R.</stage>
+      <sp who="#L0666_F9">
+       <speaker>Emily.</speaker>
+       <p>Rambling abroad again on his wild excursions—in his strange humours—caring little with
+        whom I associate, and less for my society.</p>
+      </sp>
+      <pb n="15"/>
+      <sp who="#L0666_M2">
+       <speaker>Captain.</speaker>
+       <p><stage>(R.C., tenderly)</stage> Do you complain of that?</p>
+      </sp>
+      <sp who="#L0666_F9">
+       <speaker>Emily.</speaker>
+       <p>A neglected wife always complains, under all circumstances: however she amuses
+        herself—however she finds the absence of a husband a relief— still it is her prerogative to
+        complain. It serves to fill up ennui, and gives her an interest in the eyes of the
+        world.</p>
+      </sp>
+      <sp who="#L0666_M2">
+       <speaker>Captain.</speaker>
+       <p>And in the hearts of her adorers. You, beautiful Emily, require no deeper interest than
+        your charming self — why else am I your devoted slave ?—why will you still refuse to listen
+        to me ? why longer entrust your happiness to a husband who, if ever he did esteem you, does
+        so no longer—who, if the whispers of the world are to be believed, was anything but grateful
+        to his first wife ; who can tell—I shudder while I think of it—what the caprice of an
+        instant may effect—a mere suspicion perhaps, might induce him to perpetrate on your adorable
+        self. You understand my feelings—my apprehensions !</p>
+      </sp>
+      <sp who="#L0666_F9">
+       <speaker>Emily.</speaker>
+       <p>Alas, yes! I understand but too well. His harsh manner every day becomes insupportable.
+        'Tis true he refuses me nothing. My diamonds are the most brilliant—-my carriage the most
+        elegant, yet still—</p>
+      </sp>
+      <sp who="#L0666_M2">
+       <speaker>Captain.</speaker>
+       <p>Without a congeniality of soul, there can be no love—no real felicity. Wealth cannot
+        purchase it. Yes, sweet Emily, there is more joy in adoring eyes than in the glory of a
+        diadem—more music in the melody of fond lips than in the sweetest serenade on yonder lake.
+        All this happiness is yours— why decline it? I offer it at your feet. Will you let me
+        expire, whose only fault, if fault it be,—love, and loving only you.</p>
+       <stage>(kneeling)</stage>
+      </sp>
+      <sp who="#L0666_F9">
+       <speaker>Emily.</speaker>
+       <p>Rise! if you should be observed, I tremble for your life. My husband is, of late, very
+        suspicious—irritable beyond measure. If he should return with his gun in his hand—rise, for
+        pity sake, dear Harry.</p>
+      </sp>
+      <sp who="#L0666_M2">
+       <speaker>Captain.</speaker>
+       <p><stage>(apart)</stage>
+        <hi>Dear Harry</hi> ! she's mine ! Rise, charming Emily! oh, never, till you confirm my
+        happiness, suffer me to hope—if not, let your tyrant kill me. I can expire but too gladly at
+        your feet. You will see him trample on me—I care not—I shall die for you.</p>
+      </sp>
+      <stage>Enter Gimp, hastily, R. D.</stage>
+      <sp who="#L0666_F10">
+       <speaker>Gimp.</speaker>
+       <p><stage>(confused)</stage> Oh, I beg pardon—I'm going another way.</p>
+      </sp>
+      <sp who="#L0666_M2">
+       <speaker>Captain.</speaker>
+       <p><stage>(taking up the fishing line, without rising)</stage> Confound this fly! at last
+        I've got it on my hook.</p>
+      </sp>
+      <sp who="#L0666_F10">
+       <speaker>Gimp.</speaker>
+       <p>Sir Charles, my lady !</p>
+      </sp>
+      <sp who="#L0666_F9">
+       <speaker>Emily.</speaker>
+       <p>Where?</p>
+      </sp>
+      <sp who="#L0666_F10">
+       <speaker>Gimp.</speaker>
+       <p>In the avenue, my lady! I thought, <stage>(suspiciously)</stage>
+        <pb n="16"/> perhaps, he might prevent the captain trying to get his fly on the hook.</p>
+      </sp>
+      <sp who="#L0666_M2">
+       <speaker>Captain.</speaker>
+       <p>Thank you ! <stage>(aside)</stage> It's fast enough now.<stage>(rising)</stage></p>
+      </sp>
+      <sp who="#L0666_F9">
+       <speaker>Emily.</speaker>
+       <p>To avoid a matrimonial <hi>tête-à-tête</hi>, I will go to my apartment. <stage>(Captain
+         hands her off, R.—Gimp crosses to L.)</stage></p>
+      </sp>
+      <sp who="#L0666_M2">
+       <speaker>Captain.</speaker>
+       <p><stage>(L.C., flirting with and seizing Gimp's hand)</stage>Charming Gimp !</p>
+      </sp>
+      <sp who="#L0666_F10">
+       <speaker>Gimp.</speaker>
+       <p><stage>(L.)</stage> La, sir!</p>
+      </sp>
+      <sp who="#L0666_M2">
+       <speaker>Captain.</speaker>
+       <p>I love you, Gimp.</p>
+      </sp>
+      <sp who="#L0666_F10">
+       <speaker>Gimp.</speaker>
+       <p>Good gracious!</p>
+      </sp>
+      <sp who="#L0666_M2">
+       <speaker>Captain.</speaker>
+       <p>Your hand is velvet—no doubt your lips distil nectar.</p>
+      </sp>
+      <sp who="#L0666_F10">
+       <speaker>Gimp.</speaker>
+       <p>I'm all confusion.</p>
+      </sp>
+      <sp who="#L0666_M2">
+       <speaker>Captain.</speaker>
+       <p>There's a sovereign for you, Gimp.</p>
+      </sp>
+      <sp who="#L0666_F10">
+       <speaker>Gimp.</speaker>
+       <p>I couldn't think of taking it. <stage>(takes it)</stage></p>
+      </sp>
+      <sp who="#L0666_M2">
+       <speaker>Captain.</speaker>
+       <p>And if that does'nt seal your lips, let this. <stage>(kisses her—aside) What a deal of
+         time is lost in making love to women.</stage><stage>(he enters the boat at back and rows
+         off L.—Gimp watching him gets to R.)</stage></p>
+      </sp>
+      <sp who="#L0666_F10">
+       <speaker>Gimp.</speaker>
+       <p>Well, there is something in them military men after all.</p>
+      </sp>
+      <sp who="#L0666_M3">
+       <speaker>Tit.</speaker>
+       <p><stage>(who has entered and concealed himself behind, advancing l.)</stage> Is there ? I
+        seed you—maybe you'd like a hat and feathers, a long pair of gilt spurs. He, he, he! A
+        sword—he, he, he!</p>
+      </sp>
+      <sp who="#L0666_F10">
+       <speaker>Gimp.</speaker>
+       <p>Sir!</p>
+      </sp>
+      <sp who="#L0666_M3">
+       <speaker>Tit.</speaker>
+       <p>O, don't sir me, with your large goggle eyes, that way ! I'm only Thomas the footman—I'm
+        no military captain—I ain't got no sovereigns to give you.</p>
+      </sp>
+      <sp who="#L0666_F10">
+       <speaker>Gimp.</speaker>
+       <p>Sovereigns !</p>
+      </sp>
+      <sp who="#L0666_M3">
+       <speaker>Tit.</speaker>
+       <p>Yes, sovereigns! I ain't deaf, nor I ain't blind.</p>
+      </sp>
+      <sp who="#L0666_F10">
+       <speaker>Gimp.</speaker>
+       <p>You're a fool!</p>
+      </sp>
+      <sp who="#L0666_M3">
+       <speaker>Tit.</speaker>
+       <p>I was—I was a fool, but I ain't so now ! I've done with you—go to your captain, who thinks
+        your hand velvet, and your lips nectar—I calls 'em small beer. I shan't ax for your
+        hand.</p>
+      </sp>
+      <sp who="#L0666_F10">
+       <speaker>Gimp.</speaker>
+       <p>Take it then without axing, brute!</p>
+      </sp>
+      <stage>Boxes his ears and exit R. D.</stage>
+      <sp who="#L0666_M3">
+       <speaker>Tit.</speaker>
+       <p>If she should go in her spite now, and tell master what I said on him behind his back, on
+        my suspicions about old missus! Here, Gimp, my darling! <stage>(approaches door
+        R.)</stage></p>
+      </sp>
+      <stage>Enter Lady Andry, R.</stage>
+      <sp who="#L0666_F8">
+       <speaker>Lady A.</speaker>
+       <p>What's the matter ?</p>
+      </sp>
+      <sp who="#L0666_M3">
+       <speaker>Tit.</speaker>
+       <p>Nothing, my lady! only I—that is, Gimp—small beer.</p>
+      </sp>
+      <stage>Exit L. D.</stage>
+      <sp who="#L0666_F8">
+       <speaker>Lady A.</speaker>
+       <p>What ails that fellow ? What ails myself ?—if I
+        <pb n="17"/>could reflect, I might well ask that question of my heart. Heart! have I a heart
+        ? indeed, I scarcely know. <stage>(sits pensively L. of R. table)</stage> I made a grand
+        mistake in marrying Andry. If I had only known Harry Dartford loved me! Why did he want the
+        courage to tell me so, till <hi>after</hi> I had become another's, and that
+         other—<stage>(sighs)</stage> How unlike the husband I anticipated! Instead of the gay,
+        volatile, fashionable, Sir Charles Andry, he sinks into the melancholy, dreary, morose
+        tyrant. Harry Dartford, who adores me, is more gay, more joyous than ever! I am miserable,
+        buried alive in these dreary mountains, lost to the world, lost to myself, lost to Dartford!
+         <stage>Sir Charles enters L. D. a book in his hand—he goes beside her, while she is
+         speaking, without her perceiving him.</stage> On looking into my heart, I now distinctly
+        perceive, what Harry says is true. I never loved Andry, only he was the fashion, and my
+        girlish vanity felt gratified, that when he became a widower, and women of beauty, rank,
+        fortune, aspired to his hand—he was the fashion, the rage—I triumphed over all—their
+        mortification was my glory ; I became Lady Andry, yet I loved not the man.</p>
+      </sp>
+      <sp who="#L0666_M1">
+       <speaker>Sir C.</speaker>
+       <p><stage>(he lets the book fall in astonishment)</stage> Amazement!</p>
+      </sp>
+      <sp who="#L0666_F9">
+       <speaker>Emily.</speaker>
+       <p>You there, Sir Charles? How you frightened me!</p>
+      </sp>
+      <sp who="#L0666_M1">
+       <speaker>Sir C.</speaker>
+       <p>No doubt, madam! An unwilling listener to your <hi>outward</hi> reflections—an astonished
+        one ! And pray, who is this man who gives a wife such excellent counsel ? Not your husband's
+         <hi>friend</hi>, Harry Dartford, surely?</p>
+      </sp>
+      <sp who="#L0666_F9">
+       <speaker>Emily.</speaker>
+       <p>I shall make no confession, sir, so torture me as you please. What you have meanly stooped
+        to overhear, you know —make the most of it. <stage>(scornfully)</stage></p>
+      </sp>
+      <sp who="#L0666_M1">
+       <speaker>Sir C.</speaker>
+       <p>I am your husband, madam—I insist on an immediate explanation.</p>
+      </sp>
+      <sp who="#L0666_F9">
+       <speaker>Emily.</speaker>
+       <p><stage>(rising)</stage> Husband!<stage>(scornfully)</stage> In what sense ? A ring and a
+        license, which, when a man does one of our sex the honor to confer upon her, he calls
+        himself her husband. A fine term, truly, to chain you for life to a man, who, from the hour
+        he secures your hand, forgets that you have a heart, and all those treacherous endearments
+        which made you his. Till we were married you could smile, worship, worship<hi> me</hi>—even
+        my defects were beauties.—Once united, how changed the picture! My society lost its charm,
+        my beauty its magic—every instant brought some new neglect—-your words became austere—your
+        manner mysterious and terrifying.</p>
+      </sp>
+      <sp who="#L0666_M1">
+       <speaker>Sir C.</speaker>
+       <p><stage>But this Harry—who is he?</stage></p>
+      </sp>
+      <pb n="18"/>
+      <sp who="#L0666_F9">
+       <speaker>Emily.</speaker>
+       <p><stage>(R.)</stage> A <hi>phantom</hi> which haunts me, perhaps as the phantom which
+        haunts <hi>you</hi>.</p>
+      </sp>
+      <sp who="#L0666_M1">
+       <speaker>Sir C.</speaker>
+       <p>Silence! <stage>(looking about hurriedly)</stage></p>
+      </sp>
+      <sp who="#L0666_F9">
+       <speaker>Emily.</speaker>
+       <p>Do <hi>I</hi> ever demand an explanation of you, or inquire whose image it is rises before
+        you, startles you in your dreams, makes your eyes glare on vacancy, and your lips paler than
+        marble? Amusing to a young wife is it not, alone with you at all hours—at the dead of night,
+        in these dim mountains of Switzerland, far away from her home and her friend.</p>
+      </sp>
+      <sp who="#L0666_M1">
+       <speaker>Sir C.</speaker>
+       <p>Silence ! I insist, I—</p>
+      </sp>
+      <sp who="#L0666_F9">
+       <speaker>Emily.</speaker>
+       <p>No, I will not be silent! you have awakened the intensest chord of feeling, let it thrill
+        on. I insist, on immediately returning to England, to my native land. We two are ill suited
+        to each other, let us separate.</p>
+      </sp>
+      <sp who="#L0666_M1">
+       <speaker>Sir C.</speaker>
+       <p>Separate? no, madam, you shall not escape me, so ! <stage>(furiously)</stage> But who is
+        this man ? Is it Captain Dartford ? tell me ! <stage>(grasping her wrist)</stage>I
+         <hi>will</hi> know !—that your homeward course to England, which takes place to-morrow, may
+        be over his corpse. Thomas ! <stage>(calling)</stage></p>
+      </sp>
+      <stage>Enter Thomas Titmouse, L. D.</stage>
+      <sp who="#L0666_M3">
+       <speaker>Tit.</speaker>
+       <p>Here, sir!</p>
+      </sp>
+      <sp who="#L0666_M1">
+       <speaker>Sir C.</speaker>
+       <p>Where are my pistols?</p>
+      </sp>
+      <sp who="#L0666_M3">
+       <speaker>Tit.</speaker>
+       <p>In the town yonder, Sir Charles, at the gunsmith's!</p>
+      </sp>
+      <sp who="#L0666_M1">
+       <speaker>Sir C.</speaker>
+       <p>Ah, true, I forgot. I told the man not to give them to any one but myself. <stage>(aside
+         to Emily)</stage> Dartford dies, ere daybreak.</p>
+      </sp>
+      <stage>Exit L. D., followed by Thomas.—Stage begins to darken.</stage>
+      <sp who="#L0666_F9">
+       <speaker>Emily.</speaker>
+       <p><stage>(who has sunk into chair r. c.—calling) </stage> Gimp! Gimp!</p>
+      </sp>
+      <stage>Enter Gimp, R. D.</stage>
+      <sp who="#L0666_F10">
+       <speaker>Gimp.</speaker>
+       <p>Yes, my lady !</p>
+      </sp>
+      <sp who="#L0666_F9">
+       <speaker>Emily.</speaker>
+       <p>I am dreadfully excited!</p>
+      </sp>
+      <sp who="#L0666_F10">
+       <speaker>Gimp.</speaker>
+       <p>So am I, my lady—I'm all of a shiver. I listened, and heard how master went on—the monster
+        ! the men, are all monsters—Thomas is a monster.</p>
+      </sp>
+      <sp who="#L0666_F9">
+       <speaker>Emily.</speaker>
+       <p><stage>(rising, agitated)</stage> How long would it take you, to run to Captain
+        Dartford's, to warn him, that his life is in danger ?</p>
+      </sp>
+      <sp who="#L0666_F10">
+       <speaker>Gimp.</speaker>
+       <p>Ten minutes.</p>
+      </sp>
+      <sp who="#L0666_F9">
+       <speaker>Emily.</speaker>
+       <p>Fly then!</p>
+      </sp>
+      <sp who="#L0666_F10">
+       <speaker>Gimp.</speaker>
+       <p><stage>(as she goes up c.)</stage> As good luck will have it, here is the captain, my
+        lady.
+        <pb n="19"/>
+        <stage>The boat appears C. from L., with Captain Dartford—he lands.</stage> Ah! he's a nice
+        young man if you like.</p>
+      </sp>
+      <sp who="#L0666_M2">
+       <speaker>Captain.</speaker>
+       <p><stage>Beloved Emily ! whence this agitation ?</stage></p>
+      </sp>
+      <sp who="#L0666_F9">
+       <speaker>Emily.</speaker>
+       <p><stage>All is discovered, Harry—fly or you are lost. My frantic husband is gone for his
+         pistols, to deprive you of your life.</stage></p>
+       <stage>(moon rises</stage>
+      </sp>
+      <sp who="#L0666_M2">
+       <speaker>Captain.</speaker>
+       <p>He deprives me of life, while he deprives me, of you!</p>
+      </sp>
+      <sp who="#L0666_F9">
+       <speaker>Emily.</speaker>
+       <p>Can I not urge you to quit Switzerland ?</p>
+      </sp>
+      <sp who="#L0666_M2">
+       <speaker>Captain.</speaker>
+       <p>Yes, if you share my flight—if not, death !</p>
+      </sp>
+      <sp who="#L0666_F9">
+       <speaker>Emily.</speaker>
+       <p><stage>(tenderly taking his hand)</stage> Oh, Harry ! Harry!</p>
+      </sp>
+      <sp who="#L0666_F10">
+       <speaker>Gimp.</speaker>
+       <p><stage>(L.)</stage> Do go, my lady, I'll go with you, and leave both the monsters, Thomas
+        and master, to shoot one another. I'll go and get my bonnet.</p>
+      </sp>
+      <stage>Exit L. D.</stage>
+      <sp who="#L0666_M2">
+       <speaker>Captain.</speaker>
+       <p>Night advances! I have a boat at hand, we can cross the lake, and be beyond pursuit in
+        half an hour—happy, happy in each other, for ever !</p>
+      </sp>
+      <sp who="#L0666_F9">
+       <speaker>Emily.</speaker>
+       <p>Dare I—I <stage>(leans on him)</stage> my heart—</p>
+      </sp>
+      <sp who="#L0666_M2">
+       <speaker>Captain.</speaker>
+       <p>Dearest Amelia! Hence! to remain with him, who, quite misunderstands a heart like yours,
+        is fearful.</p>
+      </sp>
+      <stage>Gimp peeps on at door, L.</stage>
+      <sp who="#L0666_F10">
+       <speaker>Gimp.</speaker>
+       <p>Good gracious—master's coming ! to shoot everyone of us, no doubt!
+         <stage>(retires)</stage></p>
+      </sp>
+      <sp who="#L0666_F9">
+       <speaker>Emily.</speaker>
+       <p>What can I do ?</p>
+      </sp>
+      <sp who="#L0666_M2">
+       <speaker>Captain.</speaker>
+       <p>If you would not see, either Andry, or myself lifeless at your feet, Emily, this is the
+        moment. <stage>(Music—piano)</stage></p>
+      </sp>
+      <sp who="#L0666_F9">
+       <speaker>Emily.</speaker>
+       <p>An instant! <stage>(runs and writes something on R. table)</stage> Now, providence ! any
+        where ! <stage>(giving her hand)</stage></p>
+      </sp>
+      <sp who="#L0666_M2">
+       <speaker>Captain.</speaker>
+       <p>Dear, confiding angel! <stage>(aside)</stage> The game is mine ! <stage>(leads her up to
+         boat, and assists her in, &amp;c.)</stage></p>
+      </sp>
+      <stage>Enter Gimp, L. D., as the Captain is about to row off, with her shawl and
+       bonnet.</stage>
+      <sp who="#L0666_F10">
+       <speaker>Gimp.</speaker>
+       <p>Oh, run away with me also !</p>
+      </sp>
+      <stage>Captain assists Gimp into the boat, and they disappear L.</stage>
+      <stage>Music increases, wind heard, and approach of distant storm—thunder, lightning, &amp;c.
+       —Enter Sir Charles, L. D., with a case of pistols—he crosses, and places them on the table,
+       R., opens case, takes out pistols, placing them on table, his eye meets the sheet of paper,
+       written by Emily.</stage>
+      <sp who="#L0666_M1">
+       <speaker>Sir C.</speaker>
+       <p>What's here? her writing! <stage>(reads)</stage> "I cannot love
+        <pb n="20"/> you—I love another—forget me."<stage>(paper falls from his hand)</stage> The
+        prediction ! ungrateful heart, thy punishment commences ! Alone, left, all —all alone—she
+        loves me not. The prediction ! the prediction!</p>
+       <stage>(he sinks L., of R. table—covering his face with his hands.—Music, forte—storm
+        encreases, loud thunder, lightning, wind, rain, &amp;c. &amp;c., as the drop
+        descends)</stage>
+      </sp>
+     </div>
+     <trailer>End of Act Second</trailer>
+    </div>
+
+    <div type="act">
+     <head>ACT THIRD.</head>
+     <div type="scene">
+      <head>SCENE FIRST.—Inside of a Handsome House near Paris.</head>
+      <stage>Fire place R., with fire burning, door of entrance, L. 2 E., window L., with curtains
+       to draw—sofa near the fire, with table —a portfolio with writing materials—tables each side
+       of c., doors, chairs, &amp;c.—masquerade dresses spread over chairs, and about the
+       room.</stage>
+      <stage>Gimp discovered.</stage>
+      <sp who="#L0666_F10">
+       <speaker>Gimp.</speaker>
+       <p><stage>(surveying the dresses)</stage> Christmas comes but once a year, as they say in
+        England—and here is Christmas Eve once again ; how differently they do these things here. In
+        England the men get tipsey, while women beat up plum puddings for to-morrow's indigestion.
+        Here, we are to have a bal masque! My lady, is to go as Venus. The captain, as some wild
+        Indian chief, and I, as little Red Riding Hood—how delightful! I wonder if that wretch,
+        Thomas, ever was at a masquerade ? He's drinking vile beer, no doubt, and smoking filthy
+        pipes of tobacco with his low companions, at home—or maybe, kissing some forward minx under
+        the mistletoe. He hasn't sense, nor gentility enough to go to a bal masque.—He has forgotten
+        me, I dare say.—I have forgotten him, entirely—or, maybe, he's dead of a broken heart, for
+        the loss of me. Poor Thomas!</p>
+       <stage>(wiping her eyes.</stage>
+       <stage>SONG.—Gimp. (introduced)</stage>
+      </sp>
+      <stage>Enter Emily, R., much changed, and simply attired.</stage>
+      <sp who="#L0666_F10">
+       <speaker>Gimp.</speaker>
+       <p>Oh, my lady, do look at these <hi>sweet</hi> costumes!</p>
+      </sp>
+      <sp who="#L0666_F9">
+       <speaker>Emily.</speaker>
+       <p><stage>(with indifference, and seating herself on sofa near the fire)</stage> They are
+        very handsome. Is coffee ready?</p>
+      </sp>
+      <pb n="21"/>
+      <sp who="#L0666_F10">
+       <speaker>Gimp.</speaker>
+       <p>Oh, yes, my lady, I'll bring it directly. <stage>(going, L.)</stage> She's in a hurry to
+        put on her splendid dress.</p>
+      </sp>
+      <stage>Exit, L. D.</stage>
+      <sp who="#L0666_F9">
+       <speaker>Emily.</speaker>
+       <p><stage>(shivering)</stage> How cold it is to-night ! <stage>(wrapping her shawl round
+         her)</stage> The wind whistles round this house in strange tones—tones that sound like
+        voices—as if the house were haunted. <stage>(starting)</stage> Ugh! who's there ? nothing !
+        I did not formerly feel thus chilly! <stage>(looking at fire)</stage> There are faces in the
+        fire—there's one staring at me, very like— Is some one coming with the lamp ? I hate being
+        alone in the dark ! <stage>Enter Valet, L. D., with a lamp lighted, which he places on
+         table, R.</stage> Is Captain Dartford at home?</p>
+      </sp>
+      <sp who="#L0666_M6">
+       <speaker>Valet.</speaker>
+       <p>Yes, my lady, my master's in his room, dressing for the masquerade.</p>
+      </sp>
+      <stage>Exit, L. d.</stage>
+      <sp who="#L0666_F9">
+       <speaker>Emily.</speaker>
+       <p>Masquerade! Life is all a masquerade, I think—an ever changing set of faces ! No
+        tranquility—no sincerity—no real love ! I know not how it happens—my spirits become so dull,
+        Harry is buoyant as ever—his temper, too, is amiable— mine, I confess, at times, is a little
+        capricious. But then, I've had so much to annoy and vex me—I fret about trifles. If Harry
+        could only leave off his bad habit of gambling! that frightens me, and— There's that face
+        staring at me again! Gimp—Gimp! are you coming ? <stage>(nervously)</stage></p>
+      </sp>
+      <stage>Enter Gimp, L. D. ushering in Valet, who places coffee on table, R.—draws the curtains
+       of window, L., and exits, L. D.</stage>
+      <sp who="#L0666_F10">
+       <speaker>Gimp.</speaker>
+       <p>Did you call, my lady ?</p>
+      </sp>
+      <sp who="#L0666_F9">
+       <speaker>Emily.</speaker>
+       <p>Yes—look there! <stage>(pointing)</stage> Did you never see a face resembling that in the
+        fire ?</p>
+      </sp>
+      <sp who="#L0666_F10">
+       <speaker>Gimp.</speaker>
+       <p>Well, I declare, if it isn't just like Sir Charles. How it stares at you, my lady ! Ha,
+        ha, ha!</p>
+      </sp>
+      <sp who="#L0666_F9">
+       <speaker>Emily.</speaker>
+       <p><stage>(shuddering)</stage> Ugh! <stage>(falls back on sofa)</stage></p>
+      </sp>
+      <sp who="#L0666_F10">
+       <speaker>Gimp.</speaker>
+       <p>Oh, my lady, what's the matter ? How pale you turn—shall I—<stage>(going L.)</stage></p>
+      </sp>
+      <sp who="#L0666_F9">
+       <speaker>Emily.</speaker>
+       <p>Remain where you are—the cold makes me shiver.</p>
+      </sp>
+      <sp who="#L0666_F10">
+       <speaker>Gimp.</speaker>
+       <p><stage>(aside)</stage> And that face !</p>
+      </sp>
+      <sp who="#L0666_F9">
+       <speaker>Emily.</speaker>
+       <p>Let me have the coffee. <stage>(Gimp serves it)</stage> You may now go and prepare for the
+        masquerade, since you have been given a ticket.</p>
+      </sp>
+      <sp who="#L0666_F10">
+       <speaker>Gimp.</speaker>
+       <p>Thank you, my lady. <stage>(going)</stage> She little thinks the ticket was given me by
+        the captain. <stage>(returning)</stage> Would you like to see my dress, my lady ? Little Red
+        Riding Hood. But
+        <pb n="22"/> no doubt you are anxious to see the dress of the captain. Oh, it's
+        beautiful.</p>
+      </sp>
+      <sp who="#L0666_F9">
+       <speaker>Emily.</speaker>
+       <p>Indeed! is it? you appear to know.</p>
+      </sp>
+      <sp who="#L0666_F10">
+       <speaker>Gimp.</speaker>
+       <p>Oh yes, I peeped through the keyhole. Yes, he's going as some great Indian chief, with a
+        great war club in his hand. Everybody will be struck.</p>
+      </sp>
+      <sp who="#L0666_F9">
+       <speaker>Emily.</speaker>
+       <p><stage>(smiling)</stage> With the war club.</p>
+      </sp>
+      <sp who="#L0666_F10">
+       <speaker>Gimp.</speaker>
+       <p>No, my lady—with master! that, I see, brings the smile back again to your face. How glad I
+        am. Now I'll go dress. Ah, here is the captain. Isn't he magnificent?</p>
+      </sp>
+      <stage>Enter Captain Dartford, L. D., in a Indian costume— Gimp gets down, L., admiring his
+       dress.</stage>
+      <sp who="#L0666_M2">
+       <speaker>Captain.</speaker>
+       <p><stage>(spouting and flourishing war club)</stage> Spirits of the past—to the hunting
+        grounds of my fathers, I will have vengeance—I will have—<stage>(seeing Gimp, L.)</stage> A
+        cup of coffee, Gimp.</p>
+       <stage>(he goes up to table, R.</stage>
+      </sp>
+      <sp who="#L0666_F10">
+       <speaker>Gimp.</speaker>
+       <p><stage>(placing the coffee)</stage> Here it is, sir! <stage>(aside)</stage> He's a very
+        demigogue.</p>
+      </sp>
+      <stage>Exit R.</stage>
+      <sp who="#L0666_M2">
+       <speaker>Captain.</speaker>
+       <p><stage>(standing at table, R., and stirring his coffee)</stage> How charmingly you look,
+        Emily—the expression of your mouth is sweet as—sugar, dearest!</p>
+      </sp>
+      <sp who="#L0666_F9">
+       <speaker>Emily.</speaker>
+       <p>Will you never have a serious moment, Harry ?</p>
+      </sp>
+      <sp who="#L0666_M2">
+       <speaker>Captain.</speaker>
+       <p>Ha, ha, ha! serious—I? impossible! but you smile in spite of yourself. You are in better
+        humour again. You look perfectly angelic! Have you any money, Emily, dear?</p>
+      </sp>
+      <sp who="#L0666_F9">
+       <speaker>Emily.</speaker>
+       <p>Money, Harry! no, you know I have not. I ob- obtained the last by the sale of my diamonds,
+        forwarded me by my husband. I lent you all yesterday—where is it?</p>
+      </sp>
+      <sp who="#L0666_M2">
+       <speaker>Captain.</speaker>
+       <p>Lost, last night, every rap! confound that <hi>rouge-et-noir</hi>! my exchequer completely
+        cleaned out.</p>
+      </sp>
+      <sp who="#L0666_F9">
+       <speaker>Emily.</speaker>
+       <p>Five hundred napoleons!</p>
+      </sp>
+      <sp who="#L0666_M2">
+       <speaker>Captain.</speaker>
+       <p>Fortune of war—fortune of war!</p>
+      </sp>
+      <sp who="#L0666_F9">
+       <speaker>Emily.</speaker>
+       <p>All at a single sitting!</p>
+      </sp>
+      <sp who="#L0666_M2">
+       <speaker>Captain.</speaker>
+       <p>But suppose I had won ?</p>
+      </sp>
+      <sp who="#L0666_F9">
+       <speaker>Emily.</speaker>
+       <p><stage>(sighs)</stage> You seldom do.</p>
+      </sp>
+      <sp who="#L0666_M2">
+       <speaker>Captain.</speaker>
+       <p>Yes, yes, sometimes.</p>
+      </sp>
+      <sp who="#L0666_F9">
+       <speaker>Eeily.</speaker>
+       <p><stage>(alarmed)</stage> You never tell me of your winnings—I only hear of your losses.
+        What is to be done ? to-morrow is Christmas day! The landlord will expect his rent—our
+        furniture may be seized.</p>
+      </sp>
+      <sp who="#L0666_M2">
+       <speaker>Captain.</speaker>
+       <p><stage>(with indifference)</stage> It might—I have a splendid idea ! you shall write to
+        your husband.</p>
+      </sp>
+      <pb n="23"/>
+      <sp who="#L0666_F9">
+       <speaker>Emily.</speaker>
+       <p>Write to my husband ? I! for what ?</p>
+      </sp>
+      <sp who="#L0666_M2">
+       <speaker>Captain.</speaker>
+       <p><stage>(calmly)</stage> Money.</p>
+      </sp>
+      <sp who="#L0666_F9">
+       <speaker>Emily.</speaker>
+       <p>Am I in my senses? Do I hear aright?</p>
+      </sp>
+      <sp who="#L0666_M2">
+       <speaker>Captain.</speaker>
+       <p>Certainly. Get up a fine penitent story —say that I have left you in the deepest
+        distress—Andry is very soft hearted! by the next post he'll remit you a thousand pounds.
+        Write to-night—write now—here are pen and ink.</p>
+      </sp>
+      <sp who="#L0666_F9">
+       <speaker>Emily.</speaker>
+       <p><stage>(rising—scornfully)</stage> Cruel! Never! I would prefer to go out into yonder cold
+        street, and wander barefoot through the deep snow, begging my bread from door to door, than
+        put pen to paper to insult or deceive again the husband, I have so deeply injured.
+         <stage>(coming forward, R.)</stage></p>
+      </sp>
+      <sp who="#L0666_M2">
+       <speaker>Captain.</speaker>
+       <p><stage>(lighting a cigarette)</stage> Oh, very well—as you please. <stage>(coming down,
+         L.)</stage> On my word, Emily, I think you'll go on the stage yet, and play Juno in a
+        thunder storm.</p>
+      </sp>
+      <sp who="#L0666_F9">
+       <speaker>Emily.</speaker>
+       <p>Wretch that I am—I deserve all this! <stage>(putting her handkerchief to her
+        eyes)</stage></p>
+      </sp>
+      <sp who="#L0666_M2">
+       <speaker>Captain.</speaker>
+       <p>Before you commence a new scene—hadn't you better change your dress?</p>
+      </sp>
+      <sp who="#L0666_F9">
+       <speaker>Emily.</speaker>
+       <p>Change my dress! for what ?</p>
+      </sp>
+      <sp who="#L0666_M2">
+       <speaker>Captain.</speaker>
+       <p>The bal masque. <stage>(looking at watch)</stage> Past eleven o'clock, by Jove! my friends
+        will soon be here.</p>
+      </sp>
+      <sp who="#L0666_F9">
+       <speaker>Emily.</speaker>
+       <p>I go to no masquerade to-night. Christmas eve is too solem an advent for me.</p>
+      </sp>
+      <sp who="#L0666_M2">
+       <speaker>Captain.</speaker>
+       <p>Oh, well, if you are ss capricious, I must go by myself. Mademoiselle Entre is to be
+        there, from the ballet of the Grand Opera.</p>
+      </sp>
+      <sp who="#L0666_F9">
+       <speaker>Emily.</speaker>
+       <p>Oh, with all my heart. <stage>(bitterly)</stage> A vile creature.</p>
+      </sp>
+      <sp who="#L0666_M2">
+       <speaker>Captain.</speaker>
+       <p>Her pas last night immortalised her !</p>
+      </sp>
+      <sp who="#L0666_F9">
+       <speaker>Emily.</speaker>
+       <p>Heaven grant me endurance—I can no longer listen.</p>
+      </sp>
+      <stage>Exit, R.1 E.</stage>
+      <sp who="#L0666_M2">
+       <speaker>Captain.</speaker>
+       <p>Tears won't do for me! Ha, ha, ha! I'm not married, thank the gods! I shall make a great
+        hit to-night.</p>
+       <stage>(flourishing his club).</stage>
+      </sp>
+      <stage>Enter Valet, L. door.</stage>
+      <sp who="#L0666_M6">
+       <speaker>Valet.</speaker>
+       <p><stage>(announcing)</stage> Monsieur Eustache, and masqueraders.</p>
+      </sp>
+      <sp who="#L0666_M2">
+       <speaker>Captain.</speaker>
+       <p>Show them all up.</p>
+      </sp>
+      <stage>Enter Eustache and Four Masqueraders L. D.</stage>
+      <sp who="#L0666_M5">
+       <speaker>Eust.</speaker>
+       <p>We are come for you, dear fellow. The light of the grand saloon wouldn't burn without your
+        wit to keep it in a blaze!</p>
+      </sp>
+      <sp who="#L0666_M2">
+       <speaker>Captain.</speaker>
+       <p>Allons!</p>
+      </sp>
+      <sp who="#L0666_M5">
+       <speaker>Eust.</speaker>
+       <p>Et madame ?</p>
+      </sp>
+      <pb n="24"/>
+      <sp who="#L0666_M2">
+       <speaker>Captain.</speaker>
+       <p>Oh, she's indisposed—her sight's affected, a malady called green eyes. <stage>(All
+         laugh)</stage></p>
+      </sp>
+      <sp who="#L0666_M5">
+       <speaker>Eust.</speaker>
+       <p>Oh,jealous! Ha, ha, ha ! green eyes! poor lady! Jealous ! Oh! ha, ha, ha ! if she only
+        knew half! Green eyes! Ha, ha, ha!</p>
+      </sp>
+      <stage>Exeunt, laughing, L. D.</stage>
+      <stage>Emily re-enters, R. 1 E., wiping her eyes.</stage>
+      <sp who="#L0666_F9">
+       <speaker>Emily.</speaker>
+       <p>Gone! This night, then, Christmas Eve, I shall have to my own reflections. Dare I
+        reflect?—write to him? His very pity would sting my heart to death. Death ! and he, for
+        whose sake I madly sacrificed all—honour, fortune—he is gone carousing forth—does not even
+        make a merit of concealing his indifference—threatens to forsake me! perhaps return no more!
+        Alone—desolate, the criminal wife—the forsaken mistress ! What is to be done? What become of
+        me ? My furniture seized—in a foreign land—penniless, friendless, houseless !
+        infamy—want—perhaps starvation ! <stage>(burying her face in her hands—door bell rings
+         violently—pause)</stage></p>
+      </sp>
+      <stage>Enter Valet, L. D.</stage>
+      <sp who="#L0666_M6">
+       <speaker>Valet.</speaker>
+       <p>A gentleman, who has been assailed by robbers, my lady—the police are bringing him in.</p>
+      </sp>
+      <sp who="#L0666_F9">
+       <speaker>Emily.</speaker>
+       <p>And welcome ! Place him in that chair. <stage>(pointing to one, L. C.—she retires to sofa,
+         R.)</stage></p>
+      </sp>
+      <stage>Officers bring Sir Charles in, L. D.—he is much changed— his hair white—they place him
+       in chair, L. C.</stage>
+      <sp who="#L0666_M1">
+       <speaker>Sir C.</speaker>
+       <p><stage>(faintly)</stage> Thanks, friends—I am quite restored— thanks for your
+        interference—there's for your pains. <stage>(gives money)</stage> Leave me !</p>
+      </sp>
+      <stage>Exeunt Officers and Valet, L. D.</stage>
+      <sp who="#L0666_F9">
+       <speaker>Emily.</speaker>
+       <p><stage>(advancing from R.)</stage> You are not hurt, I hope, sir ?</p>
+      </sp>
+      <sp who="#L0666_M1">
+       <speaker>Sir C.</speaker>
+       <p><stage>(rising)</stage> Heavens, that voice ! Emily!</p>
+      </sp>
+      <sp who="#L0666_F9">
+       <speaker>Emily.</speaker>
+       <p>My husband ! <stage>(rushing to him)</stage> Charles ! curse me ! <stage>(falls at his
+         feet.</stage></p>
+      </sp>
+      <sp who="#L0666_M1">
+       <speaker>Sir C.</speaker>
+       <p>Oh, Emily—curse you! I—never ! Rise—I—unhappy rencontre—I'll begone.</p>
+      </sp>
+      <sp who="#L0666_F9">
+       <speaker>Emily.</speaker>
+       <p>No, no ! Heaven has conducted you hither to pardon a poor contrite wretch ! Leave me not
+        till you have pronounced forgiveness—forgiveness! <stage>(detaining him—kneeling with
+         clasped and upraised hands)</stage></p>
+      </sp>
+      <sp who="#L0666_M1">
+       <speaker>Sir C.</speaker>
+       <p>I see that you are changed—much changed! that you have suffered terribly! I—I forgive you
+        ! Farewell!</p>
+      </sp>
+      <sp who="#L0666_F9">
+       <speaker>Emily.</speaker>
+       <p>One moment—only one—to speak my gratitude on this injured hand. <stage>(kissing his
+         hand)</stage> Bless you—bless you!</p>
+      </sp>
+      <pb n="25"/>
+      <sp who="#L0666_M1">
+       <speaker>Sir C.</speaker>
+       <p>Release me! Let me go!</p>
+      </sp>
+      <sp who="#L0666_F9">
+       <speaker>Emily.</speaker>
+       <p>Oh, if you knew what I had endured ! What remorse—the atonement of my tears! How I had
+        been beguiled —every word, thought, look of yours, perverted into a crime!</p>
+      </sp>
+      <sp who="#L0666_M1">
+       <speaker>Sir C.</speaker>
+       <p>A crime!</p>
+      </sp>
+      <sp who="#L0666_F9">
+       <speaker>Emily.</speaker>
+       <p>Ay—he made a charge against you, invented, doubtless, by his own false heart, to terrify
+        me into compliance with his infamous designs—and when your brow became cloudy, your eye
+        wild, I dreaded the fate of her, who—</p>
+      </sp>
+      <sp who="#L0666_M1">
+       <speaker>Sir C.</speaker>
+       <p><stage>(hoarsely)</stage> Was poisoned!</p>
+      </sp>
+      <sp who="#L0666_F9">
+       <speaker>Emily.</speaker>
+       <p>So he said—but falsely.</p>
+      </sp>
+      <sp who="#L0666_M1">
+       <speaker>Sir C.</speaker>
+       <p>No—truly!</p>
+      </sp>
+      <sp who="#L0666_F9">
+       <speaker>Emily.</speaker>
+       <p>Horror!</p>
+      </sp>
+      <sp who="#L0666_M1">
+       <speaker>Sir C.</speaker>
+       <p>Poisoned, but not by me! No, it was a fatal mistake—she herself did it. I have sometimes
+        thought that a word of mine of mine might have averted her doom, but the bright image of
+        your fatal beauty rose before my bewildered eyes—my heart—my brain—I was torpid! and the
+        fatal deed was accomplished ere I could speak—let him accuse me as he will, I am
+        innocent—save in base ingratitude to one who truly loved me, and raised me from poverty to
+        wealth—I deserve my fate!</p>
+      </sp>
+      <sp who="#L0666_F9">
+       <speaker>Emily.</speaker>
+       <p>I am the culprit—and am punished; am steeped in shame, misery, poverty.</p>
+      </sp>
+      <sp who="#L0666_M1">
+       <speaker>Sir C.</speaker>
+       <p>Poverty!</p>
+      </sp>
+      <sp who="#L0666_F9">
+       <speaker>Emily.</speaker>
+       <p>He has lost all; and will leave me desolate—to starve—die! It is for you to exult, and
+        leave me too.</p>
+      </sp>
+      <sp who="#L0666_M1">
+       <speaker>Sir C.</speaker>
+       <p>Eternal torments seize him !—Where is he?</p>
+      </sp>
+      <sp who="#L0666_F9">
+       <speaker>Emily.</speaker>
+       <p><stage>(holding him)</stage> Do not seek to be revenged—spare me the dreadful conviction
+        that your <hi>blood</hi> also has been shed for me!</p>
+      </sp>
+      <sp who="#L0666_M1">
+       <speaker>Sir C.</speaker>
+       <p>His life alone can efface this injury. <stage>(going)</stage></p>
+      </sp>
+      <sp who="#L0666_F9">
+       <speaker>Emily.</speaker>
+       <p>Do not attempt to follow him! No, no—you shall not—I—I—strength forsakes me! <stage>(sinks
+         into chair, L.)</stage></p>
+      </sp>
+      <sp who="#L0666_M1">
+       <speaker>Sir C.</speaker>
+       <p>Tell me—where is the villain ?</p>
+      </sp>
+      <stage>Enter Valet, L. D.</stage>
+      <sp who="#L0666_M6">
+       <speaker>Valet.</speaker>
+       <p>Master sent for his ticket to the Bal Masque, left on the table.</p>
+      </sp>
+      <sp who="#L0666_M1">
+       <speaker>Sir C.</speaker>
+       <p><stage>(going to table, R.)</stage> Ah, here 'tis. He's there, is he ? An Indian chief—so!
+         <stage>(Gives ticket to Valet, who goes out, L. D.</stage> He shall not outlive this night!
+         <stage>(turning)</stage> Still unconscious! She shall not sink in poverty ! So, let her
+        feel my last vengeance ! <stage>(places purse in her hand)</stage> For her,
+        <hi>life</hi>—for him, <hi>death</hi> !</p>
+      </sp>
+      <stage>Rushes out, L. D.</stage>
+      <sp who="#L0666_F9">
+       <speaker>Emily.</speaker>
+       <p><stage>(recovering)</stage> Where am I? a dream? No — this
+        <pb n="26"/> money! <stage>(rising)</stage> Ah! where is he ? which way is he gone ? It may
+        not be too late! If I could only save him—I—atonement! Andry—Andry ! Help—help !</p>
+      </sp>
+      <stage>Music piano—Rushes out, L. d.</stage>
+     </div>
+     <div type="scene">
+      <head>SCENE SECOND.—The Grand Saloon of the Masquerade­arch and pillars with large curtains to
+       draw. (1st grooves)</head>
+      <stage>Music of Gallop—forte as scene opens, but piano during the dialogue.</stage>
+      <stage>Enter Gimp, L. 1 E. dressed as Little Red Riding Hood.</stage>
+      <sp who="#L0666_F10">
+       <speaker>Gimp.</speaker>
+       <p>How delightful! I declare I feel exactly as if I were capering amongst fairies. My feet
+        scarcely touch the ground. I wish I'd come as Cinderella, in glass slippers—they would have
+        rattled so. If that simpleton, Thomas, could have seen me pirouetting with a nobleman—a
+        prince in disguise, as I'm sure my partner was—it would punish him pretty well.</p>
+       <stage>(curtains are raised and discover the interior of the Grand Opera—the boxes filled and
+        the stage covered with Masqueraders.</stage>
+      </sp>
+      <stage>Enter Thomas, R. 1 E., with wolf's head as a mask, and a large brown cloak.</stage>
+      <sp who="#L0666_M3">
+       <speaker>Tit.</speaker>
+       <p>I'm a wolf in sheep's clothing. <stage>(lifts his mask)</stage> If I could only find a
+        pretty little Red Riding Hood, Gimp might go to the —— as soon as she pleased. <stage>(sees
+         Gimp)</stage> Oh, here's one—I must seize upon and begin to <hi>devour</hi> her at once.
+        How d'ye do, miss ? Come to your granny, dear.</p>
+      </sp>
+      <sp who="#L0666_F10">
+       <speaker>Gimp.</speaker>
+       <p>Oh I shall faint! I'm sure it's a real wolf by its ugly paws ! Help! Oh, I'm sure it's a
+        wolf! <stage>(screams)</stage></p>
+      </sp>
+      <sp who="#L0666_M3">
+       <speaker>Tit.</speaker>
+       <p>Don't be frightened! Hold your tongue! <stage>(lifting his mask)</stage> Don't you know
+        me?</p>
+      </sp>
+      <sp who="#L0666_F10">
+       <speaker>Gimp.</speaker>
+       <p>Thomas!</p>
+      </sp>
+      <sp who="#L0666_M3">
+       <speaker>Tit.</speaker>
+       <p>Gimp! I must devour you—come into my arms. <stage>(kisses her violently)</stage></p>
+      </sp>
+      <stage>Enter Eustache and Captain, from the inner room.</stage>
+      <sp who="#L0666_M5">
+       <speaker>Eust.</speaker>
+       <p><stage>(R. C., laughing)</stage> The wolf is devouring Little Red Riding Hood already.</p>
+      </sp>
+      <sp who="#L0666_M2">
+       <speaker>Captain.</speaker>
+       <p><stage>(R., looking about)</stage> My new divinity is not here.</p>
+      </sp>
+      <sp who="#L0666_F10">
+       <speaker>Gimp.</speaker>
+       <p><stage>(L. C.)</stage> The captain's voice !</p>
+      </sp>
+      <sp who="#L0666_M3">
+       <speaker>Tit.</speaker>
+       <p><stage>(R.)</stage> The villain! I'd just like to throttle him. If I'd a sword, or even a
+        spit, I'd run—</p>
+      </sp>
+      <sp who="#L0666_F10">
+       <speaker>Gimp.</speaker>
+       <p>You'd better gallop.</p>
+      </sp>
+      <stage>They gallop through archway, and the curtains are closed— Music gradually dies
+       away.</stage>
+      <pb n="27"/>
+      <sp who="#L0666_M2">
+       <speaker>Captain.</speaker>
+       <p>What's o'clock!</p>
+      </sp>
+      <sp who="#L0666_M5">
+       <speaker>Eust.</speaker>
+       <p>Just past eleven.</p>
+      </sp>
+      <sp who="#L0666_M2">
+       <speaker>Captain.</speaker>
+       <p>Someone—<stage>(turning, L.)</stage> she, perhaps.</p>
+      </sp>
+      <stage>Enter Andry, L. 1 L., in costume of Pierrot, masked, meeting Captain—Moncton
+       following.</stage>
+      <sp who="#L0666_M1">
+       <speaker>Sir C.</speaker>
+       <p><stage>(hoarsely)</stage> ' Tis he!</p>
+      </sp>
+      <sp who="#L0666_M4">
+       <speaker>Moncton.</speaker>
+       <p>Shall I insult him ?</p>
+      </sp>
+      <sp who="#L0666_M1">
+       <speaker>Sir C.</speaker>
+       <p>No, stay ! <stage>(to Captain)</stage> fellow, throw off that mask !</p>
+      </sp>
+      <sp who="#L0666_M2">
+       <speaker>Captain.</speaker>
+       <p>Who is has the temerity to address such insolence to me ? let him first throw off his own
+        mask.</p>
+      </sp>
+      <sp who="#L0666_M1">
+       <speaker>Sir C.</speaker>
+       <p><stage>(L.)</stage> Villain, <stage>(unmasks)</stage> 'tis done!</p>
+      </sp>
+      <sp who="#L0666_M2">
+       <speaker>Captain.</speaker>
+       <p><stage>(R.)</stage> Andry!</p>
+      </sp>
+      <sp who="#L0666_M1">
+       <speaker>Sir C.</speaker>
+       <p>Changed as I am, you recognise me—you will not fail to understand what I, an injured
+        husband, am here to demand.</p>
+      </sp>
+      <sp who="#L0666_M2">
+       <speaker>Captain.</speaker>
+       <p>Satisfaction !</p>
+      </sp>
+      <sp who="#L0666_M1">
+       <speaker>Sir C.</speaker>
+       <p>Without a moment's delay! follow, a coach is waiting outside.</p>
+      </sp>
+      <sp who="#L0666_M2">
+       <speaker>Captain.</speaker>
+       <p>To-night? the snow is falling fast!</p>
+      </sp>
+      <sp who="#L0666_M1">
+       <speaker>Sir C.</speaker>
+       <p>So much the better ! the stain of your infamous blood will the sooner be effaced.</p>
+      </sp>
+      <sp who="#L0666_M2">
+       <speaker>Captain.</speaker>
+       <p>No, no ; to-morrow—at any hour or place. Besides, I have no sword.</p>
+      </sp>
+      <sp who="#L0666_M4">
+       <speaker>Moncton.</speaker>
+       <p>I have swords in the carriage.</p>
+      </sp>
+      <sp who="#L0666_M2">
+       <speaker>Captain.</speaker>
+       <p>You rush on your own destruction. My hand is fatal !</p>
+      </sp>
+      <sp who="#L0666_M1">
+       <speaker>Sir C.</speaker>
+       <p>Your last moments are numbered.</p>
+      </sp>
+      <stage>They hurry out, L. 1 E.</stage>
+     </div>
+     <div type="scene">
+      <head>SCENE LAST.—A Park in the Snow—cloth down—snow falling.</head>
+      <stage>Sir Charles Andry and Moncton, Captain and Eustache enter, L. U. E.</stage>
+      <sp who="#L0666_M2">
+       <speaker>Captain.</speaker>
+       <p><stage>(r.)</stage> A word in extenuation !</p>
+      </sp>
+      <sp who="#L0666_M1">
+       <speaker>Sir C.</speaker>
+       <p>No, not one—give him the choice of swords.</p>
+       <stage>(Moncton gives swords, &amp;c.</stage>
+      </sp>
+      <sp who="#L0666_M2">
+       <speaker>Captain.</speaker>
+       <p>I owe you redress. But can I combat with an assassin?</p>
+      </sp>
+      <sp who="#L0666_M1">
+       <speaker>Sir C.</speaker>
+       <p>I am no assassin ! my wife perished by her own hand —you well know it—you, my
+        confidante—my <hi>friend</hi> ! How my wife died I have sworn—I swear it again—perhaps in
+        this, my last hour. You have made that foul lie subservient
+        <pb n="28"/> to your villany in the seduction of my second wife. Defend your life!</p>
+      </sp>
+      <stage>They fight—Sir Charles in the onset is wounded—at length succeeds in killing Captain,
+       who falls into Eustache's arms, and is supported by him up L. C., for tableau.</stage>
+      <sp who="#L0666_M2">
+       <speaker>Captain.</speaker>
+       <p>Punished deservedly!</p>
+      </sp>
+      <sp who="#L0666_M1">
+       <speaker>Sir C.</speaker>
+       <p>Emily, you are avenged! <stage>(holding up sword)</stage></p>
+      </sp>
+      <stage>Enter Emily, wild and hurriedly, L. U. E.—then running to Charles.</stage>
+      <sp who="#L0666_F9">
+       <speaker>Emily.</speaker>
+       <p>Dear husband!</p>
+      </sp>
+      <sp who="#L0666_M1">
+       <speaker>Sir C.</speaker>
+       <p>A burning fever in my throat—a sudden faintness.</p>
+       <stage>(falls in Moncton's arms—Picture—(see plate)—Church clock begins to strike
+        twelve.</stage>
+      </sp>
+      <sp who="#L0666_F9">
+       <speaker>Emily.</speaker>
+       <p>Alas! you bleed!</p>
+      </sp>
+      <sp who="#L0666_M1">
+       <speaker>Sir C.</speaker>
+       <p>Ah ! what night is this?</p>
+      </sp>
+      <sp who="#L0666_M4">
+       <speaker>Moncton.</speaker>
+       <p>Christmas Eve!</p>
+      </sp>
+      <sp who="#L0666_M1">
+       <speaker>Sir C.</speaker>
+       <p>And the hour?</p>
+      </sp>
+      <sp who="#L0666_M4">
+       <speaker>Moncton.</speaker>
+       <p>Twelve!</p>
+      </sp>
+      <sp who="#L0666_F9">
+       <speaker>Emily.</speaker>
+       <p>Help—oh, help!</p>
+      </sp>
+      <sp who="#L0666_M1">
+       <speaker>Sir C.</speaker>
+       <p>Cry not for help—'tis vain! Christmas Eve—the hour of twelve ! Wife, you are avenged! the
+        prediction is accomplished!</p>
+       <stage>(Music.—dies—Picture.)</stage>
+      </sp>
+      <stage>(r. curtain. L.)</stage>
+     </div>
+    </div>
+   </div>
+  </body>
+  <back>
+   <head>Stage Directions</head>
+   <p>R. means Right ; L. Left; C Centre; R.C, Right of Centre; L. C. Left of Centre ; D. F. Door in
+    the Flat ; or Scene running across the back of the Stage; C.D. F. Centre Door in the Flat;
+    D.R.C. Right Door in the Flat ; L.C.F. Left Door in the Flat ; R.D. Right Door; L. D. Left Door;
+    2 E. Second Entrance U. E. Upper Entrance. </p>
+   <p> The Reader is supposed to be on the Stage, facing the Audience.</p>
+  </back>
+ </text>
+</TEI>
