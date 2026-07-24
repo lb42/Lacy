@@ -12,7 +12,7 @@
  <xsl:template match="body">
   <xsl:variable name="lacyTot" select="count(//div[@type = 'work'])"/>
   <xsl:variable name="vppTot"
-   select="count(//div[@type = 'work' and bibl[@type = 'printSource']/idno[@type = 'vpp']])"/>
+   select="count(//div[@type = 'work' and bibl[@type = 'originalSource']/idno[@type = 'vpp']])"/>
   <xsl:variable name="teiTot" select="count(//div[@type = 'work' and @subtype eq 'TEI'])"/>
   <xsl:variable name="types"
    select="distinct-values(//div[@type = 'work']/tokenize(@ana, '_')[last()])"/>
@@ -46,7 +46,7 @@ total,</xsl:text>
    <xsl:variable name="t" select="concat('_', .)"/>
    <xsl:if test="string-length($t) gt 1">
     <xsl:value-of
-     select="format-number(count($root/div/div[@type = 'work' and ends-with(@ana, $t) and bibl[@type = 'printSource']/idno[@type = 'vpp']]) div $vppTot, '#.##')"
+     select="format-number(count($root/div/div[@type = 'work' and ends-with(@ana, $t) and bibl[@type = 'originalSource']/idno[@type = 'vpp']]) div $vppTot, '#.##')"
     />
    </xsl:if>
    <xsl:if test="not(position() = last())">

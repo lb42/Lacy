@@ -16,7 +16,7 @@ version="2.0">
 <xsl:text>
 </xsl:text>
 
-<xsl:for-each select="//t:role">
+<xsl:for-each select="//*:role">
 <xsl:if test="not(@gender)">
 <xsl:message><xsl:value-of select="."/> : please assign a gender to this role and try again</xsl:message>
 </xsl:if>
