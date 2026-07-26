@@ -12,13 +12,22 @@
 
    <!-- plots number of titles per volume in each of 3 size categories -->
  
- <xsl:template match="body">     <xsl:text>['vol', 'pp &lt; 25', 'pp 25 - 49', 'pp 50+',
- </xsl:text>
+ <xsl:template match="body">    
+  
+  <xsl:variable name="totSmall" select="count(//div[@type='work' and starts-with(@ana,'S') and not(bibl/@subtype='replaced')])"/>
+  <xsl:variable name="totMed" select="count(//div[@type='work' and starts-with(@ana,'M') and not(bibl/@subtype='replaced')])"/>
+  <xsl:variable name="totLarge" select="count(//div[@type='work' and starts-with(@ana,'L') and not(bibl/@subtype='replaced')])"/>
+  
+  <xsl:value-of select="concat('Totals: ', $totSmall, ',', $totMed, ',', $totLarge)"/>
+  
+  <xsl:text>
+'vol', 'yr' , 'S: pp &lt; 25', 'M: pp 25 - 49', 'L: pp 50+',
+ </xsl:text> 
          <xsl:for-each select="child::div[@type='volume']">
           <xsl:sort select="number(substring-before(@n,'/'))"/>
           <xsl:variable name="vol"><xsl:value-of select="substring-before(@n,'/')"/></xsl:variable>
-            <xsl:variable name="volYr"><xsl:value-of select="substring-after(@n,'/')"/></xsl:variable>          
-         <xsl:text>'</xsl:text> <xsl:value-of select="$vol"/> <xsl:text>', </xsl:text> 
+            <xsl:variable name="volYr"><xsl:value-of select="substring-after(@n,'/')"/></xsl:variable>  
+            <xsl:value-of select="$vol"/> <xsl:text>, </xsl:text> <xsl:value-of select="$volYr"/> <xsl:text>, </xsl:text> 
          <xsl:value-of select="count(child::div[@type='work' and starts-with(@ana,'S') and not(bibl/@subtype='replaced')])"/><xsl:text>,</xsl:text>
           <xsl:value-of select="count(child::div[@type='work' and starts-with(@ana,'M') and not(bibl/@subtype='replaced')])"/><xsl:text>,</xsl:text>
           <xsl:value-of select="count(child::div[@type='work' and starts-with(@ana,'L') and not(bibl/@subtype='replaced')])"/>
