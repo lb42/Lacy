@@ -16,7 +16,7 @@
 
   <xsl:text>['vol', 'age &lt; 5', 'age 5 - 19', 'age 20+'],
  </xsl:text>
-         <xsl:for-each select="div">
+         <xsl:for-each select="div[@type='volume']">
          <xsl:sort select="number(substring-before(@n,'/'))"/>
             <xsl:variable name="vol"><xsl:value-of select="substring-before(@n,'/')"/></xsl:variable>
             <xsl:variable name="volYr"><xsl:value-of select="substring-after(@n,'/')"/></xsl:variable>
@@ -25,9 +25,9 @@
             <xsl:variable name="low3" select="1700"/>
 
          <xsl:text>['</xsl:text> <xsl:value-of select="$vol"/> <xsl:text>', </xsl:text> 
-             <xsl:value-of select="count(bibl[not(@status='replaced') and eventName[@type='firstPerf']/@notAfter >= $low1 and  eventName[@type='firstPerf']/@notAfter &lt;= $volYr])"/><xsl:text>,</xsl:text>
-             <xsl:value-of select="count(bibl[not(@status='replaced') and eventName[@type='firstPerf']/@notAfter >= $low2  and eventName[@type='firstPerf']/@notAfter  &lt;= $low1])"/><xsl:text>,</xsl:text>
-             <xsl:value-of select="count(bibl[not(@status='replaced') and eventName[@type='firstPerf']/@notAfter >= $low3 and eventName[@type='firstPerf']/@notAfter &lt;= $low2])"/><xsl:text>]</xsl:text>
+             <xsl:value-of select="count(bibl[not(@status='replaced') and event[@type='firstPerf']/@notAfter >= $low1 and  event[@type='firstPerf']/@notAfter &lt;= $volYr])"/><xsl:text>,</xsl:text>
+             <xsl:value-of select="count(bibl[not(@status='replaced') and event[@type='firstPerf']/@notAfter >= $low2  and event[@type='firstPerf']/@notAfter  &lt;= $low1])"/><xsl:text>,</xsl:text>
+             <xsl:value-of select="count(bibl[not(@status='replaced') and event[@type='firstPerf']/@notAfter >= $low3 and event[@type='firstPerf']/@notAfter &lt;= $low2])"/><xsl:text>]</xsl:text>
           <xsl:if test="not(position()=last())"><xsl:text>,</xsl:text></xsl:if>
           <xsl:text>
 </xsl:text>
