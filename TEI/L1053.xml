@@ -1,0 +1,1867 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L1053" xml:lang="en">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>TROMB-AL-CA-ZAR: TEI edition</title>
+<author ref="lacyp:W0296"><persName>Stephenson, C. H. </persName><idno
+type="wikidata"/></author>
+<respStmt>
+<resp>TEI conversion</resp>
+<name>Lou Burnard</name>
+</respStmt>
+</titleStmt>
+<publicationStmt>
+<distributor>Privately distributed by the Digital Lacy Project</distributor>
+<idno type="LAE">L1053</idno>
+<availability>
+<licence target="https://creativecommons.org/publicdomain/zero/1.0/">The Lacy
+Project waives all rights to the TEI encoding applied to this material, which it
+believes to be in the public domain. You may copy, modify, distribute, or
+perform this work freely. </licence>
+</availability>
+</publicationStmt>
+<sourceDesc>
+<bibl type="originalSource" n="71.3"><author n="W0296">Stephenson, C.H.</author>
+<title type="main">Tromb-Al-Ca-Zar; or, The Adventures of an Orphan
+Troupe</title>
+<title type="sub">A Musical Extravaganza in one act</title>
+<title type="source" n="#FR">Adapted from the French. Music by Jacques
+Offenbach</title>
+<relatedItem type="source">
+<bibl> The 1856 Offenbach original: https://www.youtube.com/watch?v=x1xBv6cbJaI;
+https://operascribe.com/2017/08/15/tromb-al-ca-zar-jacques-offenbach/</bibl>
+</relatedItem>
+<extent>21 pp (UM copy: 104 - 125)<measure type="pp" quantity="18"/>
+<measure type="spCount" quantity="287"/>
+<measure type="spvCount" quantity="102"/>
+<measure type="txWords" quantity="4292"/>
+<measure type="spWords" quantity="3420"/>
+<measure type="stWords" quantity="872"/>
+</extent>
+<title level="s"> Lacy's Acting Edition, volume 71, No. 1053</title><idno
+type="nic">N18653</idno></bibl>
+<bibl type="surrogate" subtype="copytext"><ref
+target="https://babel.hathitrust.org/cgi/pt?id=mdp.39015067453772&amp;seq=104 "
+>UM from HT</ref><ref target="local:Vol71/L1053/L1053-um.pdf"/></bibl>
+<listEvent>
+<event type="LCP" when="1862-05-16" where="Lyceum">
+<desc>Licence sent 16 May 1860 for performance at the Lyceum. </desc>
+<bibl type="msSource">BL ms LCP_52993.K</bibl>
+</event>
+<event type="firstPerf" when="1870-08-22" source="textNic" where="Gaiety">
+<desc>Premiered at Gaiety 22 Aug 1870</desc>
+</event>
+</listEvent>
+</sourceDesc>
+</fileDesc>
+<profileDesc>
+<!--S 1 MusicExtravaganMusic Ext. SPECTACLE-->
+<textClass>
+<catRef target="#sizeS"/>
+<catRef target="#act1"/>
+<catRef target="nic:Ext."/>
+<keywords>
+<term>SPECTACLE</term>
+</keywords>
+</textClass>
+<particDesc>
+<listPerson>
+<person xml:id="L1053_M1">
+<persName type="role">IGNACE</persName>
+<persName type="spkr" n="45">Ignace.</persName>
+</person>
+<person xml:id="L1053_M2">
+<persName type="role">BEAUJOLAIS</persName>
+<persName type="spkr" n="5">Beau.</persName>
+<persName type="spkr" n="93">Beaujolais.</persName>
+</person>
+<person xml:id="L1053_M3">
+<persName type="role">VERTPANNE</persName>
+<persName type="spkr" n="2">Vert.</persName>
+<persName type="spkr" n="64">Vertpanne.</persName>
+</person>
+<person xml:id="L1053_F4">
+<persName type="role">GIGOLETTE</persName>
+<persName type="spkr" n="1">Gigo.</persName>
+<persName type="spkr" n="49">Gigolette.</persName>
+
+</person>
+<person xml:id="L1053_mult">
+<persName type="role">[Multiple speakers]</persName>
+<persName type="spkr" n="19">All.</persName>
+<persName type="spkr" n="1">Beaujolais.|Vertpanne.</persName>
+<persName type="spkr" n="1">Gigolette.|Vertpanne.</persName>
+<persName type="spkr" n="6">Omnes.</persName>
+<persName type="spkr" n="1">Vertpanne.|Gigolette.</persName>
+</person>
+
+
+
+
+
+
+
+</listPerson>
+</particDesc>
+</profileDesc>
+<revisionDesc>
+<change when="2026-07-28">Add wikidata link to titleStmt where possible</change>
+
+<change when="2026-07-19">TEI autotagging by Gemini Pro 2.5</change>
+</revisionDesc>
+</teiHeader>
+<text>
+<front>
+<titlePage>
+<docTitle>
+<titlePart type="main">TROMB-AL-CA-ZAR</titlePart>
+<titlePart type="sub">or, The Adventures of an Operatic Troupe.</titlePart>
+<titlePart>A Musical Extravaganza, in one act.</titlePart>
+</docTitle>
+<byline>Adapted from the French by <docAuthor> C. H. Stephenson</docAuthor>
+Music by <docAuthor>J. Offenbach.</docAuthor>
+</byline>
+<docImprint> Thomas Hailes Lacy, Theatrical Publisher, London. </docImprint>
+</titlePage>
+<castList>
+<head>Characters.</head>
+<castItem>
+<role gender="M">IGNACE</role>
+<roleDesc>a simple innkeeper on the sea-shore.</roleDesc>
+</castItem>
+<castGroup>
+<castItem>
+<role gender="M">BEAUJOLAIS</role>
+<roleDesc>Primo Tenore.</roleDesc>
+</castItem>
+<castItem>
+<role gender="M">VERTPANNE</role>
+<roleDesc>Primo Buffo.</roleDesc>
+</castItem>
+<castItem>
+<role gender="F">GIGOLETTE</role>
+<roleDesc>Prima Buffa.</roleDesc>
+</castItem>
+<roleDesc>Belonging to a travelling Opera Troupe.</roleDesc>
+<castItem>
+<roleDesc>Ballet and Chorus</roleDesc>
+</castItem>
+</castGroup>
+</castList>
+<div type="costume">
+<list>
+<item>
+<label>IGNACE.</label>Striped cap, white apron, brown cloth jacket, full trunks,
+grey stockings, shoes.</item>
+<item>The Company, as described, in dresses partly modern, partly
+theatrical.</item>
+</list>
+</div>
+<note type="orig">The Music may be had of the Publisher, on sale or hire.</note>
+
+
+</front>
+<pb n="3"/>
+
+<body>
+<note>(Mr. Lacy's Second List.)</note>
+<head>Tromb-Al-Ca-Zar.</head>
+<div type="act" n="I">
+
+<div type="scene">
+<stage>SCENE.—A Rude and Picturesque Interior of a Franco-Spanish Inn. Near the
+sea coast, Lower Pyrenees—doors R. and L., one at the back—practicable window,
+L. U. E.—an old-fashioned flour-bin stands beneath it a cupboard to R. of C.
+D.—rude chairs and table—Curtain rises to the last four bars of
+overture.</stage>
+<stage>Ignace enters from D. L. H., rain heard without.</stage>
+<sp who="#L1053_M1">
+<speaker>Ignace.</speaker>
+<p>Murder, how it is raining! The hens have not laid a single egg this morning;
+here am I with an inn, and no customers—nobody to help me to eat and drink the
+provisions; but worst of all, I am dying with fear, that the guerillas under the
+fierce Tromb-al-ca-zar, will cross the frontier and butcher us all in cold blood
+by way of amusement. <stage>(the door at back opens with a bang, and discovers
+Vertpanne standing in a short black mantle.)</stage> Murder! wh—o—o—o are
+yoo—o—ou? whe—e—e—re do you co—o—o—me from—and— wh—a—a—at do you wa—a—nt— are
+you lawyer or thief?</p>
+</sp>
+<sp who="#L1053_M3">
+<speaker>Vertpanne.</speaker>
+<p>Neither one or the other, my friend. <stage>(runs a roulade of bass
+notes.)</stage> St. Peter be praised, my lower G is all right.</p>
+</sp>
+<sp who="#L1053_M1">
+<speaker>Ignace.</speaker>
+<p><stage>(aside.)</stage> What a fierce-looking fellow—he must be a brigand;
+perhaps the great Tromb-al-ca-zar himself. <stage>(timidly.)</stage> I beg
+pardon, sir, will you take anything?</p>
+</sp>
+<sp who="#L1053_M3">
+<speaker>Vertpanne.</speaker>
+<p><stage>(sharply.)</stage> No, my good man, no! <stage>(aside.)</stage> For
+good reasons too. I've empty pockets—</p>
+</sp>
+<sp who="#L1053_M1">
+<speaker>Ignace.</speaker>
+<p><stage>(aside.)</stage> Not take anything! he can't be a thief then.</p>
+</sp>
+<sp who="#L1053_M3">
+<speaker>Vertpanne.</speaker>
+<p>Listen. I have just come from the neighbouring town, where I believed I
+should have made <pb n="4"/>a splendid move by carrying off all the money the
+people possessed—</p>
+</sp>
+<sp who="#L1053_M1">
+<speaker>Ignace.</speaker>
+<p><stage>(aside.)</stage> Murder! I've got the cold shivers.</p>
+</sp>
+<sp who="#L1053_M3">
+<speaker>Vertpanne.</speaker>
+<p>But, in the very nick of time, when we thought to share a nice little sum
+each, we were obliged to make our escape with empty hands.</p>
+</sp>
+<sp who="#L1053_M1">
+<speaker>Ignace.</speaker>
+<p>We? who?</p>
+</sp>
+<sp who="#L1053_M3">
+<speaker>Vertpanne.</speaker>
+<p>Myself and <hi>troupe</hi>.</p>
+</sp>
+<sp who="#L1053_M1">
+<speaker>Ignace.</speaker>
+<p><stage>(aside.)</stage> Troop! It's the ferocious Tromb-al-ca-zar himself,
+without a doubt.</p>
+</sp>
+<sp who="#L1053_M3">
+<speaker>Vertpanne.</speaker>
+<p>My poor comrades have tasted nothing since yesterday, not even a turnip
+radish</p>
+</sp>
+<sp who="#L1053_M1">
+<speaker>Ignace.</speaker>
+<p><stage>(pointing to table.)</stage> There's a carrot, if you would like to
+take <hi>it.</hi></p>
+</sp>
+<sp who="#L1053_M3">
+<speaker>Vertpanne.</speaker>
+<p>Be quiet—from you we demand nothing.</p>
+</sp>
+<sp who="#L1053_M1">
+<speaker>Ignace.</speaker>
+<p>Then I'll get it for you directly.</p>
+</sp>
+<sp who="#L1053_M3">
+<speaker>Vertpanne.</speaker>
+<p>No; the sons of Thespis know how to suffer privation—and sooner than beg for
+a dinner—</p>
+</sp>
+<sp who="#L1053_M1">
+<speaker>Ignace.</speaker>
+<p><stage>(aside.)</stage> They'd steal it, I dare say. What a family of thieves
+they must be.</p>
+</sp>
+<sp who="#L1053_M3">
+<speaker>Vertpanne.</speaker>
+<p>If we receive an invitation, that's another thing. We are always too polite
+to refuse.</p>
+</sp>
+<sp who="#L1053_M1">
+<speaker>Ignace.</speaker>
+<p><stage>(aside.)</stage> Well there must be a difference between begging or
+thieving a dinner, to being invited to one. I'll make a sacrifice, I'll invite
+him and his troupe to breakfast. I've got four sardines, perhaps they'll relish
+the joke.</p>
+</sp>
+<stage>(runs off quickly, D. L.)</stage>
+<sp who="#L1053_M3">
+<speaker>Vertpanne.</speaker>
+<p>But you must know, my young son of Comus—<stage>(taking off moustachios and
+putting them in his pocket)</stage>—that if you are inclined to do the polite to
+a troupe of stranded comedians—<stage>(misses him.)</stage> Why! he's gone!
+vanished through a vampire. I did wrong in telling him we were poor.</p>
+</sp>
+<stage>Beaujolais appears at window—Gigolette at C. D., with four ballet ladies
+behind her.</stage>
+<sp who="#L1053_M2">
+<speaker>Beaujolais.</speaker>
+<p><stage>(singing pomposo and ad lib.)</stage> “Behold! and gaze upon the
+ruined monastery," "To Cupid consecrated." Ah, my brave basso—what news?
+<stage>(jumps in, followed by four ballet gentlemen.)</stage> Advance, ye <pb
+n="5"/>disciples of the Drama—Gigolette, my principal warbler—<stage>(she
+advances)</stage>—Vertpanne, my—</p>
+</sp>
+<sp who="#L1053_M3">
+<speaker>Vertpanne.</speaker>
+<p>Buffo basso.</p>
+</sp>
+<sp who="#L1053_M2">
+<speaker>Beaujolais.</speaker>
+<p>And stock traitor.</p>
+</sp>
+<sp who="#L1053_M3">
+<speaker>Vertpanne.</speaker>
+<p>Clown or jester on the shortest notice.</p>
+</sp>
+<sp who="#L1053_M2">
+<speaker>Beaujolais.</speaker>
+<p>Roof of hospitality I salute thee. Beauties of the ballet, step forward.
+<stage>(they do so.)</stage></p>
+</sp>
+<sp who="#L1053_M3">
+<speaker>Vertpanne.</speaker>
+<p>Dumb, but trusty allies.</p>
+</sp>
+<sp who="#L1053_M2">
+<speaker>Beaujolais.</speaker>
+<p>Improbabilities in women. Now cut your sticks into the barn, until we see how
+the land lays. <stage>(all exeunt, c.)</stage> To think that we should be
+without even a mouthful of bread and cheese.</p>
+</sp>
+<sp who="#L1053_M3">
+<speaker>Vertpanne.</speaker>
+<p>Beaujolais, my boy, what's the matter with you?</p>
+</sp>
+<sp who="#L1053_M2">
+<speaker>Beaujolais.</speaker>
+<p>I cannot tell you, but I don't mind singing my miseries.</p>
+</sp>
+<spGrp>
+<head>SONG—Beaujolais. — No. 1.</head>
+<sp who="#L1053_M2">
+<speaker>Beaujolais.</speaker>
+
+<l>O horror! O despair! that lying weather glass too!</l>
+<l>'Gainst heavy rain and light police our chance looks odd,</l>
+<l>Stopping here we shall be stopp'd, where on then can we pass too,</l>
+<l>Yes, scamper off we must, or scamper on to quod.</l>
+<l>Yes I am Buridan—</l>
+<l>Don Cæsar de Bazan—</l>
+<l>Raoul—Marco Spada—</l>
+<l>Ruy Blas—Gustibelza—</l>
+<l>Yes, I am Buridan,</l>
+<l>Don Cæsar de Bazan.</l>
+<l>Buridan!</l>
+<l>Don Cæsar de Bazan.</l>
+<l>I'm corsair or bravo,</l>
+<l>Gaspardo, Fra Diavolo.</l>
+<l>Never demon seen was like me,</l>
+<l>The pink of diablerie;</l>
+<l>Yes, whene'er beheld</l>
+<l>I was first—rate held,</l>
+<l>Sublime, I may say, rather,</l>
+<l>As poinarding my father,</l>
+<l>Or poisoning my mother,</l>
+<l>Or garotting my brother,</l>
+<pb n="6"/>
+<l>Oh I was fine,</l>
+<l>Was divine,</l>
+<l>Divine!</l>
+<l>Yes, I am Buridan,</l>
+<l>Don Cæsar de Bazan,</l>
+<l>Raoul, Marco Spada,</l>
+<l>Ruy Blas, Gastibelza,</l>
+<l>Yes, I am Buridan!</l>
+<l>Don Cæsar de Bazan!</l>
+<l>Buridan!</l>
+<l>Don Cæsar de Bazan.<stage>(Presto.)</stage></l>
+<l>Don Cæsar, Don Cæsar, Don Cæsar de Bazan.—<stage>(Bis.)</stage></l>
+
+</sp>
+</spGrp>
+<sp who="#L1053_F4">
+<speaker>Gigolette.</speaker>
+<p><stage>(raising her dress, which is a Gitana's of brilliant colours)</stage>
+And to be exposed to such weather as this, it's enough to give one chilblains
+<stage>(takes off clogs and shawl)</stage></p>
+</sp>
+<sp who="#L1053_M2">
+<speaker>Beaujolais.</speaker>
+<p>Plague upon provincial play acting. </p>
+</sp>
+<sp who="#L1053_M3">
+<speaker>Vertpanne.</speaker>
+<p>Bah! you are always whining.</p>
+</sp>
+<sp who="#L1053_M2">
+<speaker>Beaujolais.</speaker>
+<p>Not without good reason. Consider our provincial poverty; without the aid of
+puffs—(and how are they to be raised? — the press will not puff us without
+money) we shall never make the public believe in us. Oh, my dramatic dreams!</p>
+</sp>
+<sp who="#L1053_F4">
+<speaker>Gigolette.</speaker>
+<p>How provoking to have to scamper from the hall of Orpheus, just, too, when I
+was becoming such a favourite. Why, the people <hi>was</hi> beginning to
+<hi>wusship</hi>.</p>
+</sp>
+<sp who="#L1053_M3">
+<speaker>Vertpanne.</speaker>
+<p>Gigolette, your inattention to conjugation will drive me mad. Listen to the
+inflection of the verb "to be"—I am, thou <hi>art</hi>, he, she, or it
+<hi>is</hi>, we, you, they <hi>were</hi> not <hi>was</hi>—and say worship, not
+<hi>wusship</hi>.</p>
+</sp>
+<sp who="#L1053_F4">
+<speaker>Gigolette.</speaker>
+<p>Oh, bother, it's all the same a hundred years after this. Didn't they call me
+their little Rachel —their grand history?</p>
+</sp>
+<sp who="#L1053_M3">
+<speaker>Vertpanne.</speaker>
+<p><stage>(furious)</stage>
+<hi>Rachel</hi>, not Rachel—and Ristori, not history.</p>
+</sp>
+<sp who="#L1053_M2">
+<speaker>Beaujolais.</speaker>
+<p>Well, she can call it history if she likes!</p>
+</sp>
+<sp who="#L1053_F4">
+<speaker>Gigolette.</speaker>
+<p>Of course I can. We are not all so perfect as the great Vertpanne.</p>
+</sp>
+<sp who="#L1053_M2">
+<speaker>Beaujolais.</speaker>
+<p>Though he will speak sometimes as if he had a cold in his lose.</p>
+</sp>
+<pb n="7"/>
+<sp who="#L1053_M3">
+<speaker>Vertpanne.</speaker>
+<p>Better do that than rush on the stage as you did the other night, and instead
+of saying "Princess, one word from you and I am saved," you shouted out,
+"Princess, one <hi>p</hi>hord from you and I am <hi>sh</hi>aved."</p>
+</sp>
+<sp who="#L1053_M2">
+<speaker>Beaujolais.</speaker>
+<p>Well, it created a sensation, and they are all the go just now. But do you
+think we can't do a bit of juggling in this inn?</p>
+</sp>
+<sp who="#L1053_M3">
+<speaker>Vertpanne.</speaker>
+<p>It's useless to disguise the truth, there's nothing to be had in the shape of
+eating and drinking.</p>
+</sp>
+<sp who="#L1053_M2">
+<speaker>Beaujolais.</speaker>
+<p>Then we must advertize to our stomachs, "The art and science of eating and
+drinking without money," or else post up "The magic pancake."</p>
+</sp>
+<sp who="#L1053_F4">
+<speaker>Gigolette.</speaker>
+<p>Or, "How to dine with Duke Humphrey," an English proverb in five acts.</p>
+</sp>
+<sp who="#L1053_M2">
+<speaker>Beaujolais.</speaker>
+<p>Even that would be better than running the risk of being swallowed by such a
+beast as the Crocodile of the Nile.</p>
+</sp>
+<sp who="#L1053_F4">
+<speaker>Gigolette.</speaker>
+<p>Like the one we saw exhibited at the fair the other day?</p>
+</sp>
+<sp who="#L1053_M2">
+<speaker>Beaujolais.</speaker>
+<p>Yes. But clear your pipes, my beauties, and let me see if we can get through
+our trio.</p>
+</sp>
+<spGrp>
+<head>Trio. —No. 2.</head>
+<sp who="#L1053_M2">
+<speaker>Beau.</speaker>
+
+<l>The crocodile unto the war went bouncing,</l>
+<l>He said to all his pretty little babes.</l>
+
+</sp>
+<sp who="#L1053_mult">
+<speaker>All.</speaker>
+
+<l>Good bye.</l>
+
+</sp>
+<sp who="#L1053_M2">
+<speaker>Beau.</speaker>
+
+<l>The crocodile fought well, but he got a famous trouncing,</l>
+<l>And on the banks of Nile, he dead doth lie.</l>
+
+</sp>
+<sp who="#L1053_mult">
+<speaker>All.</speaker>
+
+<l>And so good bye.</l>
+
+</sp>
+<sp who="#L1053_M2">
+<speaker>Beau.</speaker>
+
+<l>The cro, cro, cro, cro, cro, cro, cro, cro, cro, cro, cro crocodile,</l>
+<l>Dead on banks of Nile doth lie, and so good bye, and so good bye.</l>
+
+</sp>
+<sp who="#L1053_mult">
+<speaker>All.</speaker>
+
+<l>The cro, cro, cro, cro, cro, cro, cro, cro, cro, cro, cro, crocodile,</l>
+<l>Dead on banks of Nile doth lie, and so good bye, and so good bye.</l>
+
+</sp>
+<sp who="#L1053_M3">
+<speaker>Vert.</speaker>
+
+<l>If I a swallow were, with two wings I'd fly at ease,</l>
+<l>But now the wing I'd swallow is ducks' wing stew'd in peas,</l>
+<l>In green peas.</l>
+
+</sp>
+<sp who="#L1053_mult">
+<speaker>All.</speaker>
+
+<l>In green peas.</l>
+
+</sp>
+<sp who="#L1053_M3">
+<speaker>Vert.</speaker>
+
+<l>The cro, cro, cro, cro, cro, cro, cro, cro, cro, cro, cro, crocodile,</l>
+<l>Dead on banks of Nile doth lie, and so good bye.</l>
+
+</sp>
+<sp who="#L1053_mult">
+<speaker>All.</speaker>
+
+<l>And so good bye.</l>
+<l>The cro, cro, cro, cro, cro, cro, cro, cro, cro, cro, cro, crocodile,</l>
+<l>Dead on banks of Nile doth lie, and so good bye, and so good bye.</l>
+
+</sp>
+<sp who="#L1053_F4">
+<speaker>Gigo.</speaker>
+
+<l>If I a swallow were to a restaurant's I'd fly.</l>
+<l>And of his dainty stock soon a spectacle I'd make,</l>
+
+<pb n="8"/>
+<l>Dissolving views of viands choice, fowl and sav'ry pie,</l>
+<l>Dessert of fruits the rarest, with luscious wine and cake,</l>
+
+</sp>
+<sp who="#L1053_M2">
+<speaker>Beau.</speaker>
+
+<l>Wine and cake.</l>
+
+</sp>
+<sp who="#L1053_mult">
+<speaker>All.</speaker>
+
+<l>Wine and cake.</l>
+
+</sp>
+<sp who="#L1053_M2">
+<speaker>Beau.</speaker>
+
+<l>The cro, cro, cro, cro, cro, cro, cro, cro, cro, cro, cro, crocodile,</l>
+<l>Dead on banks of Nile doth lie, and so good bye, and so good bye.</l>
+
+</sp>
+<sp who="#L1053_mult">
+<speaker>All.</speaker>
+
+<l>The cro, cro, cro, cro, cro, cro, cro, cro, cro, cro, cro, crocodile,</l>
+<l>Dead on banks of Nile doth lie,</l>
+<l>And so good bye, and so good bye, so good bye, so good bye.</l>
+
+</sp>
+</spGrp>
+<sp who="#L1053_M3">
+<speaker>Vertpanne.</speaker>
+<p>Come, let us see if the coast is clear.</p>
+</sp>
+<sp who="#L1053_M2">
+<speaker>Beaujolais.</speaker>
+<p>'Tis time we were on the road to Bayonne.</p>
+</sp>
+<sp who="#L1053_M1">
+<speaker>Ignace.</speaker>
+<p><stage>(without, L.)</stage> Here—hi, which of you is going to help me with
+the breakfast—table?</p>
+</sp>
+<sp who="#L1053_mult">
+<speaker>Omnes.</speaker>
+<p>Breakfast!</p>
+</sp>
+<sp who="#L1053_M2">
+<speaker>Beaujolais.</speaker>
+<p>Delicious sound. <stage>(sings and dances with joy—Vertpanne runs and assists
+Ignace to bring on a table covered with eatables, they place it B.
+C.)</stage></p>
+</sp>
+<sp who="#L1053_M2">
+<speaker>Beaujolais.</speaker>
+<p>Eatables!</p>
+</sp>
+<sp who="#L1053_F4">
+<speaker>Gigolette.</speaker>
+<p>Its equal to the manna of the <hi>dessert</hi>.</p>
+</sp>
+<sp who="#L1053_M3">
+<speaker>Vertpanne.</speaker>
+<p><stage>(correcting her.)</stage>
+<hi>Desert</hi>, not dessert.</p>
+</sp>
+<sp who="#L1053_M2">
+<speaker>Beaujolais.</speaker>
+<p><stage>(to Ignace.)</stage> To think that we should have taken you for a
+miserly old crab fish.</p>
+</sp>
+<sp who="#L1053_M1">
+<speaker>Ignace.</speaker>
+<p>Your friend there said you were too polite to refuse when invited, so I
+invite you.</p>
+</sp>
+<sp who="#L1053_M2">
+<speaker>Beaujolais.</speaker>
+<p>And we accept. <stage>(bows.)</stage></p>
+</sp>
+<sp who="#L1053_M1">
+<speaker>Ignace.</speaker>
+<p>If you do not care to breakfast by yourselves, there's some very pleasant
+company ascending from the road below.</p>
+</sp>
+<sp who="#L1053_M2">
+<speaker>Beaujolais.</speaker>
+<p>Company?</p>
+</sp>
+<sp who="#L1053_M1">
+<speaker>Ignace.</speaker>
+<p>Yes, a troop of horse—police.</p>
+</sp>
+<sp who="#L1053_mult">
+<speaker>Omnes.</speaker>
+<p>What? Hey?</p>
+</sp>
+<sp who="#L1053_M2">
+<speaker>Beaujolais.</speaker>
+<p><stage>(listening.)</stage> I can hear their big hoofs on the ground.</p>
+</sp>
+<spGrp>
+<head>TRIO.—No. 3. (The three voices together.)</head>
+<sp who="#L1053_mult">
+<speaker>All.</speaker>
+
+<l>The police! that's a piece</l>
+<l>Of bad news, to amuse</l>
+<l>Our weak nerves, while time serves.</l>
+<l>We must cut from this hut,</l>
+<pb n="9"/>
+<l>In a crack, off we pack.</l>
+<l>'Tis no fun thus to run,</l>
+<l>When to eat we'd a treat.</l>
+<l>Yes I fear it's too clear,</l>
+<l>We must steer off from here,</l>
+<l>And must pack in a crack,</l>
+<l>In a crack, we must pack.</l>
+
+</sp>
+</spGrp>
+<stage>The ladies and gentlemen of the ballet rush on—Beaujolais intimates to
+them in Pantomime what threatens, they raise their arms in the air, clench their
+fists, shake them at C. D., then rush off melo—dramatically, D. R.)</stage>
+<sp who="#L1053_M1">
+<speaker>Ignace.</speaker>
+<p><stage>(who has stood in wonder at D. L.)</stage> What's their little game I
+wonder. They've all run off, I've a good mind to run too; but, first of all,
+I'll lock up the sardines. <stage>(puts them into cupboard at back.)</stage></p>
+</sp>
+<sp who="#L1053_F4">
+<speaker>Gigolette.</speaker>
+<p><stage>(re-entering, R. door.)</stage> Oh, dear! oh, dear! I wish we were
+safe at Bayonne—celebrated for its hams, gammons of bacon, cod liver oil, and
+sugar.</p>
+</sp>
+<sp who="#L1053_M1">
+<speaker>Ignace.</speaker>
+<p><stage>(turns and sees her.)</stage> Oh, the female thief has come back;
+what's her little game I wonder; I don't see any swords, daggers, pistols, or
+cannons. <stage>(aloud.)</stage> Hem! so it seems that you have no fear of the
+police, or prison either?</p>
+</sp>
+<sp who="#L1053_F4">
+<speaker>Gigolette.</speaker>
+<p>In our gipsy life we fear nothing. Listen, and learn a Gitana's joys :—</p>
+</sp>
+<spGrp>
+<head>SONG. No. 4.</head>
+<sp who="#L1053_F4">
+<speaker>Gigolette.</speaker>
+
+<l>The gipsy girl ah! <stage>(roulade.)</stage></l>
+<l>In song and smiles, ah, <stage>(roulade.)</stage></l>
+<l>A lovely pearl, ah, <stage>(roulade.)</stage></l>
+<l>The hour beguiles, ah, <stage>(roulade.)</stage></l>
+<l>At early dawn she with the lark is singing,</l>
+<l>In song and smile she opens day,</l>
+<l>As night draws on her voice thro' air is ringing,</l>
+<l>Not e'en sleep arrests her lay,</l>
+<l>Murm'ring notes her dreams betray,</l>
+<l>Till smiling slumber wakes to day, ah!</l>
+<pb n="10"/>
+<l>The gipsy girl! ah, <stage>(roulade.)</stage></l>
+<l>In song and smiles, ah, <stage>(roulade.)</stage></l>
+<l>A lovely pearl, ah, <stage>(roulade.)</stage></l>
+<l>The hour beguiles ah, <stage>(roulade.)</stage></l>
+<l>The hour beguiles ah !</l>
+<l>She makes the air with music ring,</l>
+<l>She'll smile and sing,</l>
+<l>And make the air with music ring,</l>
+<l>With music ring—with music ring.</l>
+<l>Undaunted by the thunder's roar, or lightning,</l>
+<l>On land or on the restless wave,</l>
+<l>Her voice and smile the murky tempest bright'ning;</l>
+<l>Fiercely as the storm may rave</l>
+<l>Fate she'll ever cheerly brave</l>
+<l>And ne'er for worthless pleasures crave.</l>
+<l>The gipsy girl &amp;c. <stage>to end.</stage></l>
+
+</sp>
+</spGrp>
+<sp who="#L1053_M2">
+<speaker>Beaujolais.</speaker>
+<p><stage>(behind.)</stage> All right, come along.</p>
+</sp>
+<sp who="#L1053_M1">
+<speaker>Ignace.</speaker>
+<p><stage>(aside.)</stage> The two principal scoundrels are returning.</p>
+</sp>
+<stage>Beaujolais and Vertpanne re—enter, door R.</stage>
+<sp who="#L1053_M2">
+<speaker>Beaujolais.</speaker>
+<p>Here he is. <stage>(advances and pinches Ignace by the ear.)</stage> I say
+host, don't you try any more of your little tricks about policemen, or if you do
+<stage>(kicks him.)</stage></p>
+</sp>
+<sp who="#L1053_M1">
+<speaker>Ignace.</speaker>
+<p>Depend upon it, I'll not—</p>
+</sp>
+<sp who="#L1053_mult">
+<speaker>Omnes.</speaker>
+<p>Come, let us to breakfast. <stage>(all sit at table.)</stage></p>
+</sp>
+<sp who="#L1053_M1">
+<speaker>Ignace.</speaker>
+<p>I suppose I had better produce the sardines again <stage>(fetches them from
+cupboard, Beaujolais serves out soup to Gigolette and Vertpanne, Ignace places
+sardines on the table with a bang.)</stage></p>
+</sp>
+<sp who="#L1053_M3">
+<speaker>Vertpanne.</speaker>
+<p>What have we here?</p>
+</sp>
+<sp who="#L1053_M1">
+<speaker>Ignace.</speaker>
+<p>Sardines.</p>
+</sp>
+<sp who="#L1053_M2">
+<speaker>Beaujolais.</speaker>
+<p>What! to soup?</p>
+</sp>
+<pb n="11"/>
+<sp who="#L1053_F4">
+<speaker>Gigolette.</speaker>
+<p>Sardines! give <hi>us</hi> one.</p>
+</sp>
+<sp who="#L1053_M3">
+<speaker>Vertpanne.</speaker>
+<p><stage>(correcting her)</stage> Give <hi>me</hi> not us.</p>
+</sp>
+<sp who="#L1053_F4">
+<speaker>Gigolette.</speaker>
+<p>Well, have it that way if you like—provided, I have something to eat.</p>
+</sp>
+<sp who="#L1053_M1">
+<speaker>Ignace.</speaker>
+<p>Those little fish are excellent.</p>
+</sp>
+<sp who="#L1053_F4">
+<speaker>Gigolette.</speaker>
+<p>They say little fish are sweetest.</p>
+</sp>
+<sp who="#L1053_M2">
+<speaker>Beaujolais.</speaker>
+<p>But these smell strong.</p>
+</sp>
+<sp who="#L1053_M1">
+<speaker>Ignace.</speaker>
+<p>Quite fresh I assure you. <stage>(aside.)</stage>—Last year.</p>
+</sp>
+<sp who="#L1053_M2">
+<speaker>Beaujolais.</speaker>
+<p>Why the oil is rancid. Have you nothing better.</p>
+</sp>
+<sp who="#L1053_M1">
+<speaker>Ignace.</speaker>
+<p>Yes, I've got a gammon of bacon.</p>
+</sp>
+<sp who="#L1053_M2">
+<speaker>Beaujolais.</speaker>
+<p><stage>(sings extempore.)</stage> "Produce your pig."</p>
+</sp>
+<sp who="#L1053_F4">
+<speaker>Gigolette.</speaker>
+<p><stage>(ditto.)</stage> "In perfect preservation."</p>
+</sp>
+<sp who="#L1053_M3">
+<speaker>Vertpanne.</speaker>
+<p>Why not give to us.</p>
+</sp>
+<sp who="#L1053_mult">
+<speaker>Omnes.</speaker>
+<p>Your gammon of bacon.</p>
+</sp>
+<stage>(They escort him to door with pomposity.—He enters the room, then returns
+with a gammon of bacon on a dish.—A mock march—Beaujolais, L., Vertpanne, R.,
+Gigolette in the rear, with their hands extended over the head of Ignace—they
+advance with comic solemnity to table.)</stage>
+<sp who="#L1053_M1">
+<speaker>Ignace.</speaker>
+<p><stage>(placing the dish.)</stage> The reason why I hesitated to offer you
+this preserved pig, was, because it is not home fed. It comes from Bayonne.</p>
+</sp>
+<sp who="#L1053_M2">
+<speaker>Beaujolais.</speaker>
+<p><stage>(smacking his lips.)</stage> From Bayonne, the land of promise.</p>
+</sp>
+<sp who="#L1053_M2">
+<speaker>Beaujolais.</speaker>
+
+<l>Let</l>
+
+</sp>
+<sp who="#L1053_M3">
+<speaker>Vertpanne.</speaker>
+
+<l>Us</l>
+
+</sp>
+<sp who="#L1053_M2">
+<speaker>Beaujolais.</speaker>
+
+<l>Then</l>
+
+</sp>
+<sp who="#L1053_F4">
+<speaker>Gigolette.</speaker>
+
+<l>This</l>
+
+</sp>
+<sp who="#L1053_mult">
+<speaker>All.</speaker>
+
+<l>ham lay on.</l>
+<l>Then go ahead,</l>
+
+</sp>
+<sp who="#L1053_M2">
+<speaker>Beaujolais.</speaker>
+
+<l>With knife and fork</l>
+
+</sp>
+<sp who="#L1053_M3">
+<speaker>Vertpanne.</speaker>
+
+<l>Draw a cork,</l>
+
+</sp>
+<sp who="#L1053_F4">
+<speaker>Gigolette.</speaker>
+
+<l>Bourdeaux red.</l>
+
+</sp>
+<sp who="#L1053_M2">
+<speaker>Beaujolais.</speaker>
+
+<l>And the ham of fam'd Bayonne,</l>
+
+</sp>
+<sp who="#L1053_M3">
+<speaker>Vertpanne.</speaker>
+
+<l>We'll at once</l>
+
+</sp>
+<sp who="#L1053_F4">
+<speaker>Gigolette.</speaker>
+
+<l>Fall upon.</l>
+
+</sp>
+<pb n="12"/>
+<sp who="#L1053_M2">
+<speaker>Beaujolais.</speaker>
+
+<l>Fall upon.</l>
+
+</sp>
+<sp who="#L1053_mult">
+<speaker>Vertpanne.|Gigolette.</speaker>
+
+<l>Upon</l>
+
+</sp>
+<stage>(Bis.)</stage>
+
+
+<sp who="#L1053_F4">
+<speaker>Gigolette.</speaker>
+<p>The land of <hi>Cane 'em</hi>.</p>
+</sp>
+<sp who="#L1053_M3">
+<speaker>Vertpanne.</speaker>
+<p><stage>(furious.)</stage> Canaan, not Cane 'em.</p>
+</sp>
+<sp who="#L1053_F4">
+<speaker>Gigolette.</speaker>
+<p>Well it's all the same so long as we get something to eat.</p>
+</sp>
+<sp who="#L1053_M2">
+<speaker>Beaujolais.</speaker>
+<p>Cease wrangling and salute the land.</p>
+</sp>
+<sp who="#L1053_F4">
+<speaker>Gigolette.</speaker>
+<p>Canaa' em—<stage>(all bow with mock reverence,</stage></p>
+</sp>
+<stage> Ignace steals off as they bow the second time, they resume their places
+at the table.)</stage>
+<spGrp>
+<head>TRIO. No. 5.</head>
+<sp who="#L1053_M2">
+<speaker>Beaujolais.</speaker>
+
+<l>See this ham from Bayonne,</l>
+
+</sp>
+<sp who="#L1053_mult">
+<speaker>All.</speaker>
+
+<l>From Bayonne, then let's lay on;</l>
+
+</sp>
+<sp who="#L1053_M2">
+<speaker>Beaujolais.</speaker>
+
+<l>'Tis a nosegay sweetly scented,</l>
+
+</sp>
+<sp who="#L1053_mult">
+<speaker>All.</speaker>
+
+<l>We're quite contented.</l>
+
+</sp>
+<sp who="#L1053_M2">
+<speaker>Beaujolais.</speaker>
+
+<l>It's good, good, good, wine too from the wood,</l>
+<l>With wine from the wood, oh, ain't it good;</l>
+<l>Wine's a relish rare, with ham of Bayonne.</l>
+
+</sp>
+<sp who="#L1053_M3">
+<speaker>Vertpanne.</speaker>
+
+<l>Then</l>
+
+</sp>
+<sp who="#L1053_M2">
+<speaker>Beaujolais.</speaker>
+
+<l>This</l>
+
+</sp>
+<sp who="#L1053_F4">
+<speaker>Gigolette.</speaker>
+
+<l>Ham</l>
+
+</sp>
+<sp who="#L1053_mult">
+<speaker>All.</speaker>
+
+<l>Of Bayonne lay on.</l>
+
+</sp>
+<sp who="#L1053_M2">
+<speaker>Beaujolais.</speaker>
+
+<l>Let</l>
+
+</sp>
+<sp who="#L1053_M3">
+<speaker>Vertpanne.</speaker>
+
+<l>Us</l>
+
+</sp>
+<sp who="#L1053_M2">
+<speaker>Beaujolais.</speaker>
+
+<l>Then</l>
+
+</sp>
+<sp who="#L1053_F4">
+<speaker>Gigolette.</speaker>
+
+<l>This</l>
+
+</sp>
+<sp who="#L1053_mult">
+<speaker>All.</speaker>
+
+<l>Ham lay on.</l>
+
+</sp>
+<sp who="#L1053_M2">
+<speaker>Beaujolais.</speaker>
+
+<l>With knife and fork, then go ahead.</l>
+
+</sp>
+<sp who="#L1053_M3">
+<speaker>Vertpanne.</speaker>
+
+<l>Draw a cork.</l>
+
+</sp>
+<sp who="#L1053_F4">
+<speaker>Gigolette.</speaker>
+
+<l>Bordeaux red.</l>
+
+</sp>
+<sp who="#L1053_M2">
+<speaker>Beaujolais.</speaker>
+
+<l>And the ham of fam'd Bayonne.</l>
+
+</sp>
+<sp who="#L1053_M3">
+<speaker>Vertpanne.</speaker>
+
+<l>We'll at once.</l>
+
+</sp>
+<sp who="#L1053_F4">
+<speaker>Gigolette.</speaker>
+
+<l>Fall upon.</l>
+
+</sp>
+<sp who="#L1053_M2">
+<speaker>Beaujolais.</speaker>
+
+<l>Fall</l>
+
+</sp>
+<sp who="#L1053_mult">
+<speaker>All.</speaker>
+
+<l>Upon.<stage>(Bis.)</stage></l>
+
+</sp>
+<pb n="13"/>
+<sp who="#L1053_M2">
+<speaker>Beaujolais.</speaker>
+
+<l>Fine Bourdeaux</l>
+<l>Quite the go,</l>
+<l>Good Moselle.</l>
+<l>I can tell</l>
+<l>Dame Cliquot</l>
+<l>Don't I know</l>
+<l>Of old Hock</l>
+<l>Take my stock,</l>
+<l>Frontignac</l>
+<l>Spanish sack</l>
+<l>Sherry fine</l>
+<l>Port divine,</l>
+<l>France or Spain</l>
+<l>Don't complain,</l>
+<l>All fall on</l>
+<l>With ham Bayonne.</l>
+</sp>
+<sp who="#L1053_mult">
+<speaker>Gigolette.|Vertpanne.</speaker>
+<l>To good wine I incline</l>
+<l>'Tis a stimulant to dine</l>
+<l>Besides a treat to fall on,</l>
+<l>With the ham of old Bayonne.</l>
+
+</sp>
+<sp who="#L1053_M3">
+<speaker>Vertpanne.</speaker>
+
+<l>We'll fall on, on the ham of Bayonne.</l>
+
+</sp>
+<sp who="#L1053_mult">
+<speaker>All.</speaker>
+
+<l>The ham of old Bayonne!</l>
+
+</sp>
+<stage>(2nd Couplet.)</stage>
+<sp who="#L1053_M2">
+<speaker>Beaujolais.</speaker>
+
+<l>Veal with forc'd meat is nice,</l>
+<l>And—</l>
+
+</sp>
+<sp who="#L1053_mult">
+<speaker>All.</speaker>
+
+<l>Lyons sausage stew'd with rice,</l>
+
+</sp>
+<sp who="#L1053_M2">
+<speaker>Beaujolais.</speaker>
+
+<l>In champagne the palate tickles,</l>
+
+</sp>
+<sp who="#L1053_mult">
+<speaker>All.</speaker>
+
+<l>Or sous'd in pickles.</l>
+
+</sp>
+<sp who="#L1053_M2">
+<speaker>Beaujolais.</speaker>
+
+<l>But not so good, e'en with wine from wood,</l>
+<l>You may take my word 'tis not so good,</l>
+<l>Nor a relish like the ham of Bayonne.</l>
+<l><stage>(Let us &amp;c., to conclusion.)</stage></l>
+
+</sp>
+</spGrp>
+
+<sp who="#L1053_M3">
+<speaker>Vertpanne.</speaker>
+<p>Come fill up your goblets, and Beaujolais don't do as you did the other night
+in Lucrezia Borgia.</p>
+</sp>
+<sp who="#L1053_M2">
+<speaker>Beaujolais.</speaker>
+<p>What! kick over the fatal draught instead of a super.</p>
+</sp>
+<sp who="#L1053_F4">
+<speaker>Gigolette.</speaker>
+<p>Ha, ha, ha, and when he wanted to die.</p>
+</sp>
+<pb n="14"/>
+<sp who="#L1053_M2">
+<speaker>Beaujolais.</speaker>
+<p>I was unable to fall into a chair thus and cry—"I die poisoned."
+<stage>(falls into chair.)</stage></p>
+</sp>
+<sp who="#L1053_M1">
+<speaker>Ignace.</speaker>
+<p><stage>(re—entering with a bottle.)</stage> Who's poisoned ?</p>
+</sp>
+<sp who="#L1053_mult">
+<speaker>Omnes.</speaker>
+<p><stage>(with terror.)</stage> Who's there?</p>
+</sp>
+<sp who="#L1053_M1">
+<speaker>Ignace.</speaker>
+<p>Me and a bottle of—</p>
+</sp>
+<sp who="#L1053_M2">
+<speaker>Beaujolais.</speaker>
+<p>What? cherry brandy ?</p>
+</sp>
+<sp who="#L1053_M1">
+<speaker>Ignace.</speaker>
+<p>Yes.</p>
+</sp>
+<sp who="#L1053_M2">
+<speaker>Beaujolais.</speaker>
+<p>From the Black forest? good, give it to me. <stage>(takes it, draws cork,
+etc.)</stage></p>
+</sp>
+<sp who="#L1053_M1">
+<speaker>Ignace.</speaker>
+<p>If I can only get them drunk, I'll hand them over to the police; I'll be on
+the watch for their tumbling under the table. <stage>(steals off
+slyly.)</stage></p>
+</sp>
+<sp who="#L1053_M2">
+<speaker>Beaujolais.</speaker>
+<p>Come, let us drink success to our appearance in Bayonne.
+<stage>(sings.)</stage></p>
+
+<l>Of wine, of wine,</l>
+<l>Oh brandy—wine's the best.</l>
+
+</sp>
+<sp who="#L1053_M3">
+<speaker>Vertpanne.</speaker>
+<stage>(sings.)</stage>
+
+<l>With tobacco</l>
+<l>We'll take our ease and rest.</l>
+
+</sp>
+<sp who="#L1053_F4">
+<speaker>Gigolette.</speaker>
+<p>A new bacchanalian song, words—</p>
+</sp>
+<sp who="#L1053_M3">
+<speaker>Vertpanne.</speaker>
+<p>By Monsieur Beaujolais, music—</p>
+</sp>
+<sp who="#L1053_M2">
+<speaker>Beaujolais.</speaker>
+<p>By Vertpanne, the great—— <stage>(drinks.)</stage></p>
+</sp>
+<sp who="#L1053_F4">
+<speaker>Gigolette.</speaker>
+<p>Buffalo.</p>
+</sp>
+<sp who="#L1053_M2">
+<speaker>Beaujolais.</speaker>
+<p>No, no, Buffo. <stage>(aside.)</stage> As a comedian, he's pretty fair; but
+as a musician, pah—he's <hi>tacet.</hi>
+<stage>(drinks.)</stage></p>
+</sp>
+<sp who="#L1053_M3">
+<speaker>Vertpanne.</speaker>
+<p>I shall object to our playing Tromb-al-ca-zar any more.</p>
+</sp>
+<sp who="#L1053_F4">
+<speaker>Gigolette.</speaker>
+<p>Why? <stage>(drinks.)</stage></p>
+</sp>
+<sp who="#L1053_M3">
+<speaker>Vertpanne.</speaker>
+<p>Why? didn't the great thief himself come last night and pounce upon all the
+money we had taken at the doors, and compel us to make our escape.</p>
+</sp>
+<sp who="#L1053_M2">
+<speaker>Beaujolais.</speaker>
+<p>Yes, in our stage toggery too.</p>
+</sp>
+<sp who="#L1053_M3">
+<speaker>Vertpanne.</speaker>
+<p>What the people of Bayonne will say to us I can't imagine.</p>
+</sp>
+<sp who="#L1053_M2">
+<speaker>Beaujolais.</speaker>
+<p>That's a wonder, for you have a thumping lot of brains there. <stage>(taps
+the back of his neck.)</stage> No, no I mean there. <stage>(taps his
+forehead.)</stage></p>
+</sp>
+<sp who="#L1053_M3">
+<speaker>Vertpanne.</speaker>
+<p><stage>(draws manuscript from his pocket.)</stage> Here's the blessed
+play—what shall we do with it—tear it up?</p>
+</sp>
+<sp who="#L1053_M2">
+<speaker>Beaujolais.</speaker>
+<p>No, I should think not. <stage>(snatches it—opens <pb n="15"/>it—Ignace
+appears watching—reads.)</stage> "Their Chief, Tromb-al-ca-zar."</p>
+</sp>
+<sp who="#L1053_M3">
+<speaker>Vertpanne.</speaker>
+<p>That's you.</p>
+</sp>
+<sp who="#L1053_M1">
+<speaker>Ignace.</speaker>
+<p><stage>(aside.)</stage> I thought so. The rest of the gang is not far off.
+<stage>(hides behind table.)</stage></p>
+</sp>
+<sp who="#L1053_M3">
+<speaker>Vertpanne.</speaker>
+<p>And I am your lieutenant Astolfio.</p>
+</sp>
+<sp who="#L1053_M2">
+<speaker>Beaujolais.</speaker>
+<p>Here's the very spot we were interrupted at. <stage>(lights his pipe which he
+has drawn from his boot.)</stage> Let us go through this bit. <stage>(drapes
+himself with table—cloth.)</stage> Gigolette, take your place outside the
+door.</p>
+</sp>
+<sp who="#L1053_F4">
+<speaker>Gigolette.</speaker>
+<p>What for?</p>
+</sp>
+<sp who="#L1053_M2">
+<speaker>Beaujolais.</speaker>
+<p>So that you may be ready with your complaint against the faithless betrayer
+of your heart, <stage>(she exits c.)</stage> now for it, <stage>(in a tragic
+tone.)</stage> "Think you this wretched hovel will prove a
+certain—safe—secure—refuge? What say you to our host; methinks he is a spy."</p>
+</sp>
+<sp who="#L1053_M1">
+<speaker>Ignace.</speaker>
+<p><stage>(aside behind table.)</stage> Me—a spy?</p>
+</sp>
+<sp who="#L1053_M2">
+<speaker>Beaujolais.</speaker>
+<p>"He shuns our company. What if we cut out his tongue ?"</p>
+</sp>
+<sp who="#L1053_M1">
+<speaker>Ignace.</speaker>
+<p><stage>(aside.)</stage> Oh dear! I wish I was out of this.</p>
+</sp>
+<sp who="#L1053_M2">
+<speaker>Beaujolais.</speaker>
+<p>"Or lodge a bullet in his brain."</p>
+</sp>
+<sp who="#L1053_M3">
+<speaker>Vertpanne.</speaker>
+<p>"Ah, what noise was that?"</p>
+</sp>
+<sp who="#L1053_M2">
+<speaker>Beaujolais.</speaker>
+<p><stage>(in his natural tone.)</stage> No, no, you fool, you don't say that
+till the girl comes to seek protection. <stage>(three loud knocks at C.
+D.)</stage> "Ha! some one taps softly at the door. Look to your pistols."
+<stage>(they cock their pistols, stamp their feet, walk to opposite corners,
+strike the hilts of their swords, return to C., Beaujolais goes to D. C., opens
+it, and leads down Gigolette with thick Spanish veil, and fan, Ignace watching
+them in fear.)</stage></p>
+</sp>
+<sp who="#L1053_M2">
+<speaker>Beaujolais.</speaker>
+<p><stage>(raising veil.)</stage> "Is'nt she a stunner."</p>
+</sp>
+<sp who="#L1053_M3">
+<speaker>Vertpanne.</speaker>
+<p><stage>(correcting him.)</stage> No, no, the text is, "Behold is she not
+beautiful?"</p>
+</sp>
+<sp who="#L1053_M2">
+<speaker>Beaujolais.</speaker>
+<p>Right you are. <stage>(in tragic tones.)</stage> "Behold is she not
+beautiful?" <stage>(to Gigolette who makes faces at him.)</stage> Don't make
+such an ugly face as that or I can't act, <stage>(in tragic tone.)</stage> Fair
+maid, declare thy wishes.</p>
+</sp>
+<pb n="16"/>
+<spGrp>
+<head>(QUARTETTE. No. 6.)</head>
+<stage>During the symphony, the two men consult in extravagant action—Gigolette
+goes up the stage, and with her hand upon her heart—she expresses, in rapid
+pantomine, her anxiety — Beaujolais motions her to approach—she does so as the
+music commences, Andante.</stage>
+<sp who="#L1053_F4">
+<speaker>Gigolette.</speaker>
+
+<l>I on a fine delightful summer's morn was straying,</l>
+
+</sp>
+<sp who="#L1053_M3">
+<speaker>Vertpanne.</speaker>
+
+<l>Morn was—</l>
+
+</sp>
+<sp who="#L1053_M2">
+<speaker>Beaujolais.</speaker>
+
+<l>Straying.</l>
+
+</sp>
+<sp who="#L1053_F4">
+<speaker>Gigolette.</speaker>
+
+<l>With downcast look as blushing maid may wear,</l>
+
+</sp>
+<sp who="#L1053_M3">
+<speaker>Vertpanne.</speaker>
+
+<l>Blushing maid—</l>
+
+</sp>
+<sp who="#L1053_M2">
+<speaker>Beaujolais.</speaker>
+
+<l>May wear.</l>
+
+</sp>
+<sp who="#L1053_F4">
+<speaker>Gigolette.</speaker>
+
+<l>On the shore my heart I lost while idly playing,</l>
+
+</sp>
+<sp who="#L1053_M3">
+<speaker>Vertpanne.</speaker>
+
+<l>Idly—</l>
+
+</sp>
+<sp who="#L1053_M2">
+<speaker>Beaujolais.</speaker>
+
+<l>Playing.</l>
+
+</sp>
+<sp who="#L1053_F4">
+<speaker>Gigolette.</speaker>
+
+<l>A youthful shepherd wand'ring found it there,</l>
+
+</sp>
+<sp who="#L1053_M3">
+<speaker>Vertpanne.</speaker>
+
+<l>Found—</l>
+
+</sp>
+<sp who="#L1053_M2">
+<speaker>Beaujolais.</speaker>
+
+<l>It there.</l>
+
+</sp>
+<sp who="#L1053_F4">
+<speaker>Gigolette.</speaker>
+
+<l>A heart's no poodle dog, lost kid, or donkey,</l>
+<l>To regain it then, what is one to do?</l>
+<l>Not send the bellman round as if 'twere a stray monkey,</l>
+<l>No heart have I now, but the youth has two.</l>
+
+</sp>
+<sp who="#L1053_mult">
+<speaker>All.</speaker>
+
+<l>To him then I said, give me yours in return now,</l>
+<l>He gave it, then basely stole it back from me,</l>
+<l>And bestow'd it elsewhere, oh, at that I burn now,</l>
+<l>Brigand, brigand, I demand an indem—dem—dem—nity.</l>
+
+</sp>
+<sp who="#L1053_M2">
+<speaker>Beaujolais.</speaker>
+
+<l>This crime so foul your heart sears,</l>
+<l>To him what shall we do?</l>
+
+</sp>
+<sp who="#L1053_F4">
+<speaker>Gigolette.</speaker>
+
+<l>Lop one, or both of his ears,</l>
+<l>Revenge for my virtue.</l>
+
+</sp>
+<sp who="#L1053_M3">
+<speaker>Vertpanne.</speaker>
+
+<l>Hu—u—um!</l>
+
+</sp>
+<sp who="#L1053_M2">
+<speaker>Beaujolais.</speaker>
+
+<l>Ha—a—ah!</l>
+
+</sp>
+<sp who="#L1053_M3">
+<speaker>Vertpanne.</speaker>
+
+<l>Ha—a—ah!</l>
+
+</sp>
+<sp who="#L1053_M2">
+<speaker>Beaujolais.</speaker>
+
+<l>Hu—u—um!</l>
+
+</sp>
+<pb n="17"/>
+<sp who="#L1053_mult">
+<speaker>All.</speaker>
+
+<l>Ah!</l>
+
+</sp>
+<sp who="#L1053_mult">
+<speaker>Beaujolais.|Vertpanne.</speaker>
+
+<l>Tromb-al-ca-zar makes oath as you command,</l>
+<l>On faith of robber, and of brigand.</l>
+
+</sp>
+
+<sp who="#L1053_M1">
+<speaker>Ignace.</speaker>
+<p><stage>(aside.)</stage> Tromb-al-ca-zar, Astolfio both ! Save me from your
+dreadful wrath.</p>
+</sp>
+<sp who="#L1053_F4">
+<speaker>Gigolette.</speaker>
+
+<l>You'll keep your oath.</l>
+
+</sp>
+<sp who="#L1053_M2">
+<speaker>Beaujolais.</speaker>
+
+<l>I'll keep my oath.</l>
+
+</sp>
+<sp who="#L1053_M3">
+<speaker>Vertpanne.</speaker>
+
+<l>We'll keep our oath.</l>
+
+</sp>
+<sp who="#L1053_M1">
+<speaker>Ignace.</speaker>
+
+<l>Tromb-al-ca-zar, Astolfio both !</l>
+<l>Save me from your dreadful wrath.</l>
+
+</sp>
+<sp who="#L1053_F4">
+<speaker>Gigolette.</speaker>
+
+<l>Ah, Tromb-al-ca-zar, I have your oath!</l>
+
+</sp>
+<sp who="#L1053_M2">
+<speaker>Beaujolais.</speaker>
+
+<l>Ah, Tromb-al-ca-zar gives you his oath!</l>
+
+</sp>
+<sp who="#L1053_M3">
+<speaker>Vertpanne.</speaker>
+
+<l>Ah, Tromb-al-ca-zar gives you his oath !</l>
+
+</sp>
+<sp who="#L1053_M1">
+<speaker>Ignace.</speaker>
+<stage>(aside)</stage>
+<l>Your dreadful wrath.</l>
+
+</sp>
+<stage>(The four voices together.)</stage>
+<sp who="#L1053_F4">
+<speaker>Gigolette.</speaker>
+
+<l>Yes, he makes oath at your command,</l>
+<l>In faith of robber and brigand,</l>
+<l>Faith of robber and brigand..</l>
+
+</sp>
+<sp who="#L1053_M2">
+<speaker>Beaujolais.</speaker>
+
+<l>Yes, he makes oath at my command,</l>
+<l>In faith of robber and brigand,</l>
+<l>Faith of robber and brigand,</l>
+
+</sp>
+<sp who="#L1053_M1">
+<speaker>Ignace.</speaker>
+
+<l>Tromb-al-ca-zar, dread brigand,</l>
+<l>And Astolfio, his right hand,</l>
+<l>Save me from your dreadful band.</l>
+
+</sp>
+<sp who="#L1053_M3">
+<speaker>Vertpanne.</speaker>
+
+<l>Yes, he makes oath at your command,</l>
+<l>In faith of robber and brigand,</l>
+<l>Faith of robber and brigand.</l>
+
+</sp>
+<stage>(Together—Presto.)</stage>
+<sp who="#L1053_F4">
+<speaker>Gigolette.</speaker>
+
+<l>Pay of vengeance all arrears,</l>
+<l>Lop at once off both his ears,</l>
+
+</sp>
+<sp who="#L1053_M2">
+<speaker>Beaujolais.</speaker>
+
+<l>Yes, we pay off his arrears,</l>
+<l>Lop at once the rascal's ears.</l>
+
+</sp>
+<sp who="#L1053_M1">
+<speaker>Ignace.</speaker>
+
+<l>Are they threats or only jeers,</l>
+<l>Will the villains lop my ears?</l>
+
+</sp>
+<sp who="#L1053_M3">
+<speaker>Vertpanne.</speaker>
+
+<l>Yes, we'll pay him full arrears,</l>
+<l>Come, lop at once the scoundrel's ears.</l>
+
+</sp>
+<note>(End of Quartette.)</note>
+</spGrp>
+<pb n="18"/>
+<stage>(Comic bus during last "ensemble" Ignace fearing from the actions and
+gesticulations that they are really about to cut off his ears.)</stage>
+<sp who="#L1053_M2">
+<speaker>Beaujolais.</speaker>
+<p>"His ears then will content thee?"</p>
+</sp>
+<sp who="#L1053_F4">
+<speaker>Gigolette.</speaker>
+<p>"Yes; so that I can nail them to the door—posts of my dwelling."</p>
+</sp>
+<sp who="#L1053_M2">
+<speaker>Beaujolais.</speaker>
+<p><stage>(in natural tone to her.)</stage> I'll lend you two tenpenny
+nails.</p>
+</sp>
+<sp who="#L1053_F4">
+<speaker>Gigolette.</speaker>
+<p><stage>(in natural tone.)</stage> Be quiet, do; how can I act. <stage>(in
+dramatic tone.)</stage> “Yes, I will hang them up as a warning to deluders."</p>
+</sp>
+<sp who="#L1053_M2">
+<speaker>Beaujolais.</speaker>
+<p>"We'll slice them for you. Astolfo, what ails thee? thy feet fret against the
+floor, thy legs <hi>totter</hi> and <hi>tremble</hi>?</p>
+</sp>
+<sp who="#L1053_M3">
+<speaker>Vertpanne.</speaker>
+<p><stage>(correcting him.)</stage> No, no, its totter and tremble, <stage>(in
+tragic tone.)</stage> "On mature deliberation I find this maid's vengeance is
+much too mild. <stage>(very loud.)</stage> It will be necessary to strike."</p>
+</sp>
+<sp who="#L1053_M2">
+<speaker>Beaujolais.</speaker>
+<p>"Speak low."</p>
+</sp>
+<sp who="#L1053_M1">
+<speaker>Ignace.</speaker>
+<p><stage>(catching the last words.)</stage> Oh, they will strike me low, will
+they?</p>
+</sp>
+<sp who="#L1053_M2">
+<speaker>Beaujolais.</speaker>
+<p>"Let him die by a fainting fit."</p>
+</sp>
+<sp who="#L1053_F4">
+<speaker>Gigolette.</speaker>
+<p>"No; boil him!"</p>
+</sp>
+<sp who="#L1053_M1">
+<speaker>Ignace.</speaker>
+<p>There's a ferocious female!</p>
+</sp>
+<sp who="#L1053_M2">
+<speaker>Beaujolais.</speaker>
+<p>"What say you to stealing his life with the silent steel—not the steel that
+strikes in the shades of midnight—but steel that glitters in the noonday sun
+?"</p>
+</sp>
+<sp who="#L1053_M3">
+<speaker>Vertpanne.</speaker>
+<p>"Well said, noble chieftain."</p>
+</sp>
+<sp who="#L1053_F4">
+<speaker>Gigolette.</speaker>
+<p>Yes! yes!"</p>
+</sp>
+<sp who="#L1053_M2">
+<speaker>Beaujolais.</speaker>
+<p>"Not by the knife of our guerillas, but by the nimble daggers of our gipsy
+girls." We will crown him with roses— and in the midst of the intoxicating
+dance."</p>
+</sp>
+<sp who="#L1053_M3">
+<speaker>Vertpanne.</speaker>
+<p>"Bah!"</p>
+</sp>
+<sp who="#L1053_M2">
+<speaker>Beaujolais.</speaker>
+<p><stage>(in astonishment.)</stage> "Bah!"</p>
+</sp>
+<sp who="#L1053_F4">
+<speaker>Gigolette.</speaker>
+<p><stage>(throwing herself on her knees extravcgantly)</stage> "Me, e, e, e, r,
+r, r, cy, o, o, o, h, m, e, e, r, r, r. cy!"</p>
+</sp>
+<sp who="#L1053_M2">
+<speaker>Beaujolais.</speaker>
+<p>"Fair girrrl—arrrise"</p>
+</sp>
+<sp who="#L1053_F4">
+<speaker>Gigolette.</speaker>
+<p><stage>(in her natural tone.)</stage> I don't care if I do, for it hurts my
+knees. <stage>(rises and resumes her acting.)</stage><pb n="19"/>But this
+faithless swain—what shall we do with him?"</p>
+</sp>
+<sp who="#L1053_M2">
+<speaker>Beaujolais.</speaker>
+<p>"Take him with us."</p>
+</sp>
+<sp who="#L1053_M3">
+<speaker>Vertpanne.</speaker>
+<p>"The very thing—we want a simpleton for our business."</p>
+</sp>
+<sp who="#L1053_M1">
+<speaker>Ignace.</speaker>
+<p><stage>(aside in the bin.)</stage> They want to make a decoy duck of me.
+<stage>(comes out of bin covered with flour.)</stage></p>
+</sp>
+<sp who="#L1053_M3">
+<speaker>Vertpanne.</speaker>
+<p>" As I live, there he is." <stage>(seeing Ignace)</stage></p>
+</sp>
+<sp who="#L1053_M2">
+<speaker>Beaujolais.</speaker>
+<p><stage>(in natural tone.)</stage> He looks as if he'd been making pancakes.
+Can you dance?</p>
+</sp>
+<sp who="#L1053_M1">
+<speaker>Ignace.</speaker>
+<p><stage>(stammering.)</stage> I can shuffle a little—but its very bad.</p>
+</sp>
+<sp who="#L1053_M2">
+<speaker>Beaujolais.</speaker>
+<p>Never mind, the ladies will keep you right: merry Zingari, jolly guerillas,
+appear.</p>
+</sp>
+<stage>(The ballet rush on and strike an attitude Ignace sinks down c., with
+fear)</stage>
+<sp who="#L1053_M1">
+<speaker>Ignace.</speaker>
+<p>Million murders, mercy, and I will enrol myself as one of brave
+Tromb-al-ca-zar's troupe.</p>
+</sp>
+<sp who="#L1053_M2">
+<speaker>Beaujolais.</speaker>
+<p><stage>(aside to Gigolette.)</stage> Here's fun, he takes us for real
+brigands instead of actors.</p>
+</sp>
+<sp who="#L1053_F4">
+<speaker>Gigolette.</speaker>
+<p>Let's keep him in ignorance of the truth.</p>
+</sp>
+<sp who="#L1053_M2">
+<speaker>Beaujolais.</speaker>
+<p>Now for the dance <stage>(stamps thrice with his foot.)</stage></p>
+</sp>
+<sp who="#L1053_M1">
+<speaker>Ignace.</speaker>
+<p><stage>(aside.)</stage> It's all up with me.</p>
+</sp>
+<stage>(During the symphony, the girls invite Ignace to dance by pantomimic
+action.)</stage>
+<sp who="#L1053_F4">
+<speaker>Gigolette.</speaker>
+<p><stage>(loudly.)</stage> Ah! where is the crown of roses ?</p>
+</sp>
+<stage>(Beaujolais throws it to her, having taken it from a carpet bag full of
+properties brought on by one of the men—Gigolette places it on the head of
+Ignace.)</stage>
+<sp who="#L1053_M1">
+<speaker>Ignace.</speaker>
+<p><stage>(aside)</stage> She's ornamenting the victim for the sacrifice. I
+shall look like a prize pig for the cattle show.</p>
+</sp>
+<stage>(Ballet begins to the waltz song—Ignace seeks to avoid the daggers that
+always appear to menace him at last he falls on his knees, c. struck by the
+blades which disappear in the hilts.)</stage>
+<pb n="20"/>
+<sp who="#L1053_M2">
+<speaker>Beaujolais.</speaker>
+<p><stage>(upon the pose)</stage> Strike.</p>
+</sp>
+<sp who="#L1053_M1">
+<speaker>Ignace.</speaker>
+<p>Murder! don't <stage>(large bell behind rings as if at a
+distance)</stage>.</p>
+</sp>
+<sp who="#L1053_M3">
+<speaker>Vertpanne.</speaker>
+<p>Ah, there's the bell of the steamer that is to convey us to Bayonne.</p>
+</sp>
+<sp who="#L1053_F4">
+<speaker>Gigolette.</speaker>
+<p>Now, children of the sock and buskin, gather up the properties; Bayonne is
+the province in which we must inaugurate our triumph of tenors.</p>
+</sp>
+<sp who="#L1053_M3">
+<speaker>Vertpanne.</speaker>
+<p>Our bassos—</p>
+</sp>
+<sp who="#L1053_F4">
+<speaker>Gigolette.</speaker>
+<p>And sopranos!</p>
+</sp>
+<sp who="#L1053_M2">
+<speaker>Beaujolais.</speaker>
+<p>If you forget a word or note of our cantata in praise of gammon——</p>
+</sp>
+<sp who="#L1053_M3">
+<speaker>Vertpanne.</speaker>
+<p>I'll cut off all your ears.</p>
+</sp>
+<sp who="#L1053_M1">
+<speaker>Ignace.</speaker>
+<p>What a fancy they have for people's ears.</p>
+</sp>
+<sp who="#L1053_M3">
+<speaker>Vertpanne.</speaker>
+<p>Yes, I'll crop you close as English bull-dogs.</p>
+</sp>
+<sp who="#L1053_M2">
+<speaker>Beaujolais.</speaker>
+<p><stage>(aside.)</stage> And pretty blackguards they look.</p>
+</sp>
+<sp who="#L1053_M3">
+<speaker>Vertpanne.</speaker>
+<p>Now, are you all ready?</p>
+</sp>
+<sp who="#L1053_M2">
+<speaker>Beaujolais.</speaker>
+<p>In a moment, patrons, please to proclaim a pleasing verdict on our musical
+absurdity, and let the comic criminals go free.</p>
+</sp>
+<sp who="#L1053_mult">
+<speaker>Omnes.</speaker>
+<p>Strike up the music.</p>
+</sp>
+<stage>(The orchestra strikes up "This gammon of good bacon"—Omnes sing refrain
+(No. 7.) each one helps him or herself to plates, dishes, goblets,
+etc.—Beaujolais strikes his sword into the gammon and elevates it as a
+standard—the ballet roll in a barrel of wine—they clink their cups—the girls
+strike their daggers against the plates, Ignace stands stupefied, c.
+—dance—grand tableau, and </stage>
+<stage>Curtain</stage>
+</div>
+</div>
+</body>
+</text>
+</TEI>
