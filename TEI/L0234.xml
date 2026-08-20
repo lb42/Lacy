@@ -1,0 +1,2424 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L0234" xml:lang="en">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Living Too Fast;: TEI edition</title>
+<author ref="lacyp:W0312"><persName>Adolphus Charles Troughton</persName><idno
+type="wikidata"/></author>
+<respStmt>
+<resp>TEI conversion</resp>
+<name>Lou Burnard</name>
+</respStmt>
+</titleStmt>
+<publicationStmt>
+<distributor>Privately distributed by the Digital Lacy Project</distributor>
+<idno type="LAE">L0234</idno>
+<availability>
+<licence target="https://creativecommons.org/publicdomain/zero/1.0/">The Lacy
+Project waives all rights to the TEI encoding applied to this material, which it
+believes to be in the public domain. You may copy, modify, distribute, or
+perform this work freely. </licence>
+</availability>
+</publicationStmt>
+<sourceDesc>
+<bibl type="originalSource" n="16.9"><author n="W0312">Troughton, Adolphus
+Charles</author>
+<title type="main">Living Too Fast; or, A Twelvemonth's Honeymoon</title>
+<title type="sub">A Comedietta in one act</title>
+<extent>33 pp (UM copy: 228 - 261)<measure type="pp" quantity="31"/>
+<measure type="spCount" quantity="418"/>
+<measure type="spvCount" quantity="0"/>
+<measure type="txWords" quantity="9013"/>
+<measure type="spWords" quantity="7888"/>
+<measure type="stWords" quantity="1125"/>
+</extent>
+<title level="s"> Lacy's Acting Edition, volume 16, No. 0234</title><idno
+type="nic">N19295</idno></bibl>
+<bibl type="surrogate"><ref
+target="https://hdl.handle.net/2027/hvd.32044086928785">HVD from HT</ref></bibl>
+<bibl type="surrogate"><ref
+target="https://babel.hathitrust.org/cgi/pt?id=hvd.32044086928785">HVD from
+HT</ref></bibl>
+<bibl type="surrogate" subtype="copytext"><ref
+target="https://babel.hathitrust.org/cgi/pt?id=mdp.39015067453038&amp;seq=228 "
+>UM from HT</ref><ref target="local:Vol16/L0234/L0234-um.pdf"/></bibl>
+<listEvent>
+<event type="LCP" when="1862-07-31" where="Princess">
+<desc>Licence sent 31 July for performance at the Princess’ 9 October 1854. </desc>
+<bibl type="msSource">BL ms LCP_52948.AA</bibl>
+</event>
+<event type="firstPerf" when="1854-10-09" source="textNic" where="Princess's">
+<desc>Premiered at Royal Princess's Theatre 9 Oct. 1854</desc>
+</event>
+</listEvent>
+</sourceDesc>
+</fileDesc>
+<profileDesc>
+<!--M 1 Comedietta F. FARCE-->
+<textClass>
+<catRef target="#sizeM"/>
+<catRef target="#act1"/>
+<catRef target="nic:F."/>
+<keywords>
+<term>FARCE</term>
+</keywords>
+</textClass>
+<particDesc>
+<listPerson>
+<person xml:id="L0234_1">
+<persName type="role">Mr. Charles Prudent</persName>
+<persName type="spkr" n="168">Pru.</persName>
+</person>
+<person xml:id="L0234_2">
+<persName type="role">Captain The Hon. Craven Plausible.</persName>
+<persName type="spkr" n="1">Captain Plausible.</persName>
+<persName type="spkr" n="57">Plau.</persName>
+</person>
+<person xml:id="L0234_3">
+<persName type="role">Mr. Cotton</persName>
+<persName type="spkr" n="46">Cot.</persName>
+<persName type="spkr" n="1">Cotton.</persName>
+</person>
+<person xml:id="L0234_4">
+<persName type="role">William</persName>
+<persName type="spkr" n="19">Wil.</persName>
+</person>
+<person xml:id="L0234_5">
+<persName type="role">Julia</persName>
+<persName type="spkr" n="122">Julia.</persName>
+</person>
+<person xml:id="L0234_6">
+<persName type="role">Mary</persName>
+<persName type="spkr" n="2">Mary.</persName>
+</person>
+<person xml:id="L0234_mult">
+<persName type="role">[Multiple speakers]</persName>
+<persName type="spkr" n="1">Julia and Pru.</persName>
+<persName type="spkr" n="1">Pru. and Julia</persName>
+</person>
+</listPerson>
+</particDesc>
+</profileDesc>
+<revisionDesc>
+<change when="2026-08-14">Add wikidata link to titleStmt where possible</change>
+<change when="2026-08-14">Checked against UM pages</change>
+<change when="2026-08-13">TEI autotagging by Gemini Pro 2.5</change>
+</revisionDesc>
+</teiHeader>
+<text>
+<front>
+<titlePage>
+<docTitle>
+<titlePart type="main">Living Too Fast;</titlePart>
+<titlePart type="sub">Or, A Twelvemonth's Honeymoon.</titlePart>
+<titlePart type="sub">A Comedietta, in one act.</titlePart>
+</docTitle>
+<byline>By <docAuthor>Adolphus Charles Troughton.</docAuthor></byline>
+<docImprint>Thomas Hailes Lacy, 89 Strand, (Opposite Southampton Street, Covent
+Garden Market, London.</docImprint>
+</titlePage>
+<pb n="2"/>
+<div type="liminal">
+<p>To Zouch Troughton, Esq., the author of "Nina Sforza," This Little Comedy is
+Affectionately dedicated, in remembrancwe of early days, and all their many
+dramatic associations, by his brother, The Author.</p>
+<p>Gillingham, Kent. Oct. 25th, 1854.</p>
+</div>
+<pb n="3"/>
+<performance>
+<head>Living too Fast or, a twelvemonths' honeymoon.</head>
+<p>First Performed at the Royal Princess's Theatre, Oct. 9th, 1854.</p>
+<castList>
+<head>Characters.</head>
+<castItem>
+<role>Mr. Charles Prudent</role>
+<actor>Mr. Walter Lacy.</actor>
+</castItem>
+<castItem>
+<role>Captain The Hon. Craven Plausible.</role>
+<actor>Mr. G. Everett.</actor>
+</castItem>
+<castItem>
+<role>Mr. Cotton</role>
+<actor>Mr. J. Chester.</actor>
+</castItem>
+<castItem>
+<role>William</role>
+<roleDesc>(Prudent's Servant)</roleDesc>
+<actor>Mr. Cormack.</actor>
+</castItem>
+<castItem>
+<role>Julia</role>
+<actor>Miss Murray.</actor>
+</castItem>
+<castItem>
+<role>Mary</role>
+<roleDesc>(Julia's Maid)</roleDesc>
+<actor>Miss J. Lovell.</actor>
+</castItem>
+</castList>
+</performance>
+<set>
+<p>Scene—Prudent's House In London.</p>
+</set>
+<div type="costume">
+<head>Costumes.</head>
+<list>
+<label>Prudent</label>
+<item>1st Dress, Black dress coat, waistcoat and trousers, black cravat. 2nd
+Dress, Morning gown. 3rd Dress, Frock coat, light vest.</item>
+<label>Plausible</label>
+<item>1st Dress, Black dress coat, waistcoat and trousers, white cravat. 2nd
+Dress, Walking dress.</item>
+<label>Cotton</label>
+<item>Green dress coat, drab trousers, boots, buff vest, broad-brimmed
+hat.</item>
+<label>William</label>
+<item>Page's dark suit.</item>
+<label>Julia</label>
+<item>1st Dress, Full ball dress. 2nd Dress, Morning dress.</item>
+<label>Mary</label>
+<item>Cotton dress.</item>
+</list>
+</div>
+<set>
+<p>Time in Performance, Forty-Three Minutes.</p>
+</set>
+</front>
+<pb n="5"/>
+<body>
+<head>Living too Fast; or, a twelvemonths' honeymoon.</head>
+<div type="act">
+<div type="scene">
+<stage>Scene.—A Drawing-Room elegantly furnished.—Fireplace C.—Doors R. and L.
+in flat—Doors R. and L. 3 E.—Window L.H. 2 E.—Tables, chairs, &amp;c.—Lamp
+burning.</stage>
+<stage>William discovered asleep in easy chair L. of R.H. table, an open
+newspaper lying at his feet.—Knock and Ring heard.</stage>
+<sp who="#L0234_4">
+<speaker>Wil.</speaker>
+<p>There's your mistress's bell, Mary, —why don't you answer it? <stage>William
+wakes, stretches himself, and picks up newspaper</stage> I dreamt I heard the
+bell ring. <stage>Knock and Bell violently.</stage> —Dreamt I heard it! It's the
+door bell. Ecod! they've come home, and nearly caught me asleep in the
+drawing-room!</p>
+</sp>
+<stage>Hurriedly folds the paper and puts it on table L.H., wheels easy chair up
+to fire, and runs off L.H.D.F.</stage>
+<stage>Enter Prudent and Julia as from a ball, William following, L.H.D.F.—Julia
+throws herself on ottoman C.—Prudent gives his hat, &amp;c., to William, who
+places them on side-table.</stage>
+<sp who="#L0234_1">
+<speaker>Pru.</speaker>
+<stage>(as he enters)</stage>
+<p>Were you asleep, Sir, that you kept us waiting in the cold?</p>
+</sp>
+<sp who="#L0234_4">
+<speaker>Wil.</speaker>
+<p>Asleep, Sir?—me, Sir? Not I, Sir!</p>
+<stage>(smothering a yawn)</stage>
+</sp>
+<pb n="6"/>
+<sp who="#L0234_1">
+<speaker>Pru.</speaker>
+<p>Hallo! you've let the fire out.</p>
+</sp>
+<sp who="#L0234_4">
+<speaker>Wil.</speaker>
+<p>No I didn't, Sir—it went out of itself.</p>
+</sp>
+<sp who="#L0234_1">
+<speaker>Pru.</speaker>
+<p>Ah! there's still a lingering spark or two. Now, William, a slight sprinkling
+of coals, and we may coax it up again.</p>
+</sp>
+<sp who="#L0234_4">
+<speaker>Wil.</speaker>
+<stage>(empties the skuttle on the fire)</stage>
+</sp>
+<sp who="#L0234_1">
+<speaker>Pru.</speaker>
+<p>Zounds! now you <hi>have</hi> put it out; so get out yourself.</p>
+</sp>
+<stage>Drives him out, L.H.D.F.</stage>
+<sp who="#L0234_5">
+<speaker>Julia.</speaker>
+<p>I am completely tired out.</p>
+</sp>
+<sp who="#L0234_1">
+<speaker>Pru.</speaker>
+<stage>sits on chair L.H.</stage>
+<p>So am I. By Jove! this constant night-work quite knocks one up.
+Soirée—ball!—ball—soirée!—night after night! I really must give it up, Where are
+we going to-morrow?</p>
+</sp>
+<sp who="#L0234_5">
+<speaker>Julia.</speaker>
+<p>Nowhere we shall spend a quiet evening together,—won't that be
+delightful?</p>
+<stage>(with a slight yawn)</stage>
+</sp>
+<sp who="#L0234_1">
+<speaker>Pru.</speaker>
+<stage>(yawning)</stage>
+<p>Very. We'll have a game at cribbage, or double-dummy, eh?—go to bed with the
+sparrows at <hi>seven</hi>, and rise with the lark at <hi>eleven</hi>.
+By-the-bye, Julia, how you <hi>did</hi> dance to-night!</p>
+</sp>
+<sp who="#L0234_5">
+<speaker>Julia.</speaker>
+<p>Didn't I?—like a madcap !</p>
+</sp>
+<sp who="#L0234_1">
+<speaker>Pru.</speaker>
+<p>Yes, uncommonly like a madcap. I don't believe you missed a single quadrille
+or polka.</p>
+</sp>
+<sp who="#L0234_5">
+<speaker>Julia.</speaker>
+<p>How could you tell?—you were in the card-room all the evening.</p>
+</sp>
+<sp who="#L0234_1">
+<speaker>Pru.</speaker>
+<p>Yes, playing at short whist—half-crown points; and as I had a partner who
+didn't know hearts from spades, and could scarcely tell clubs from diamonds, of
+course I lost my money. Don't be angry. <stage>(sits on ottoman L.H. of
+Julia)</stage> Though I lost my money, my heart was never in the game.
+No—<hi>my</hi> Queen of Hearts was in the quadrille. Upon my word, you danced
+enchantingly. I heard some fellows say—"Who is that beautiful girl opposite,
+with the white roses in her hair? What an exquisite creature!—what grace!—what a
+lovely form!" "Yes, gentlemen," thought I, "I perfectly agree with you about her
+form—and must be the best judge, because she is my wife."</p>
+<stage>(kisses her)</stage>
+</sp>
+<sp who="#L0234_5">
+<speaker>Julia.</speaker>
+<p>Nonsense, Charles, I don't believe you.</p>
+</sp>
+<sp who="#L0234_1">
+<speaker>Pru.</speaker>
+<p>Yes you do.</p>
+</sp>
+<pb n="7"/>
+<stage>Enter William at back, L.H.D.F.</stage>
+<sp who="#L0234_4">
+<speaker>Wil.</speaker>
+<p>I beg your pardon, Sir, but I thought you would like to see the evening
+papers.</p>
+<stage>(gives them to Prudent, and crosses behind to R.H. table)</stage>
+</sp>
+<sp who="#L0234_1">
+<speaker>Pru.</speaker>
+<p>The evening papers!—why, we shall have the "Times" here in an hour.</p>
+</sp>
+<sp who="#L0234_4">
+<speaker>Wil.</speaker>
+<stage>(taking up salver)</stage>
+<p>And if you please, Sir, a gentleman called in the evening and left this
+card.</p>
+</sp>
+<sp who="#L0234_5">
+<speaker>Julia.</speaker>
+<stage>(taking card)</stage>
+<p>Good gracious, Charles, look!</p>
+<stage>(showing Prudent the card)</stage>
+</sp>
+<sp who="#L0234_1">
+<speaker>Pru.</speaker>
+<p>Your uncle! I had no idea he was in town.</p>
+</sp>
+<sp who="#L0234_4">
+<speaker>Wil.</speaker>
+<p>The gentleman said he had only just arrived from Manchester, Sir. He called
+while you and my mistress were at Mrs. Orby's, and a very inquisitive gentleman
+he appeared to be, Sir—asked me fifty different questions in a breath.</p>
+</sp>
+<sp who="#L0234_1">
+<speaker>Pru.</speaker>
+<p>The deuce he did! — what about?</p>
+</sp>
+<sp who="#L0234_4">
+<speaker>Wil.</speaker>
+<p>All sorts of things, Sir; —what your style of living was—how many servants
+you kept—how often you received company and how often you went out—whether you
+attended Tattersall's, or the <hi>theatres</hi>, or any other such wicked
+places.</p>
+</sp>
+<sp who="#L0234_5">
+<speaker>Julia.</speaker>
+<p>Vey well: that will do.</p>
+</sp>
+<sp who="#L0234_1">
+<speaker>Pru.</speaker>
+<p>Take away the lamp, it's <hi>broad daylight</hi>!</p>
+</sp>
+<sp who="#L0234_4">
+<speaker>Wil.</speaker>
+<p>Yes, Ma'am.</p>
+<stage>(draws the curtains)</stage>
+</sp>
+<stage>Exit William with lamp, L.H.D.F.</stage>
+<sp who="#L0234_1">
+<speaker>Pru.</speaker>
+<stage>(to Julia, while William is drawing the curtains)</stage>
+<p>Don't you think it was rather singular of the old gentleman to cross-examine
+William in that magisterial sort of way? Hang it, we don't live in Bow
+Street!</p>
+</sp>
+<sp who="#L0234_5">
+<speaker>Julia.</speaker>
+<p>Nay, you know what a good kind uncle he is to us, and what an interest he
+takes in all our doings.</p>
+</sp>
+<sp who="#L0234_1">
+<speaker>Pru.</speaker>
+<p>Oh yes, Uncle Cotton's a capital old fellow! and devilish handsomely he came
+down with his bobbins on our marriage—there is no denying that.</p>
+</sp>
+<sp who="#L0234_2">
+<speaker>Captain Plausible.</speaker>
+<stage>(without, L.H. back)</stage>
+<p>Very well, very well—I will just step in, then, as they are not yet gone to
+bed.</p>
+</sp>
+<sp who="#L0234_1">
+<speaker>Pru.</speaker>
+<p>Our landlord!</p>
+</sp>
+<pb n="8"/>
+<sp who="#L0234_5">
+<speaker>Julia.</speaker>
+<p>The exquisite Captain Craven Plausible ! he's really very attentive,</p>
+</sp>
+<sp who="#L0234_1">
+<speaker>Pru.</speaker>
+<p>Particularly so—especially about quarter-day.</p>
+</sp>
+<stage>Enter Plausible in full ball costume, the fashion of the day,
+L.H.D.F.</stage>
+<sp who="#L0234_2">
+<speaker>Plau.</speaker>
+<stage>L.H.</stage>
+<p>Good morning! It was really too bad of you, Prudent, to steal away in that
+manner from the ball, when you promised me a seat home in your carriage.</p>
+</sp>
+<sp who="#L0234_1">
+<speaker>Pru.</speaker>
+<p>Pshaw! you were up to your ears at ecarté. Of course you won. By the bye,
+people say you always do win.</p>
+</sp>
+<sp who="#L0234_2">
+<speaker>Plau.</speaker>
+<p>No such thing. Of course, if the cards will run in my favour, I can't help
+that.</p>
+</sp>
+<sp who="#L0234_1">
+<speaker>Pru.</speaker>
+<p>Well, what with cards running in your favour, and five thousand a year into
+the bargain, I should feel disposed to set you down as a tolerably happy, jolly
+sort of fellow.</p>
+</sp>
+<sp who="#L0234_2">
+<speaker>Plau.</speaker>
+<p>Happy! Money is not always happiness.</p>
+</sp>
+<sp who="#L0234_1">
+<speaker>Pru.</speaker>
+<p>No, but it's rather an important ingredient. "Love in a cottage" is all very
+well, but quarter-day will come round, and then in comes the infernal landlord.
+I don't mean that—I— What were you about to observe ?</p>
+</sp>
+<sp who="#L0234_2">
+<speaker>Plau.</speaker>
+<p>That when a finely strung sensibility of disposition, ardently yearning for
+sympathy, is, by the force of circumstances, driven back upon itself, there to
+feed and prey, the soul, my friend, becomes a void—I repeat, the soul becomes a
+void.</p>
+</sp>
+<sp who="#L0234_mult">
+<speaker>Pru. and Julia</speaker>
+<p>Does it, indeed?</p>
+<stage>(yawning)</stage>
+</sp>
+<sp who="#L0234_1">
+<speaker>Pru.</speaker>
+<p>My dear, really it's very rude of you to yawn when our friend says his soul
+becomes a void. I don't exactly know what he means, but I presume that the fact
+of a gentleman's soul becoming a void is rather disagreeable than otherwise.</p>
+</sp>
+<sp who="#L0234_5">
+<speaker>Julia.</speaker>
+<p>And yet I should have thought that with Mrs. Plausible—</p>
+</sp>
+<sp who="#L0234_2">
+<speaker>Plau.</speaker>
+<p>My wife! And you can think so?—with that figure! fourteen stone! a beauty,
+too, of fifty! Poor Amanda! I don't blame her—I accuse nobody but myself, and
+the extreme sensibility of my disposition.</p>
+</sp>
+<sp who="#L0234_1">
+<speaker>Pru.</speaker>
+<p>How do you mean?</p>
+</sp>
+<pb n="9"/>
+<sp who="#L0234_2">
+<speaker>Plau.</speaker>
+<p>I admit it was a false step a strange infatuation, but what was I to do? A
+younger son, with nothing to exist upon but three hundred a year and my pay,
+which of course I never <hi>did</hi> exist upon. Besides, it was not altogether
+that; you know she doats—absolutely doats upon me, and, although youth, a
+tolerable person, and a good family, are no great things now-a-days without
+fortune, yet in my case—my unhappy case, they proved but too attractive; for
+when her husband died and left her five thousand a year, I may say she
+insisted—positively insisted, upon marrying me.</p>
+</sp>
+<stage>Prudent and Julia exchange looks.</stage>
+<sp who="#L0234_1">
+<speaker>Pru.</speaker>
+<p>Really, Plausible you'll excuse my smiling.</p>
+</sp>
+<sp who="#L0234_2">
+<speaker>Plau.</speaker>
+<p>No——I assure you——I am serious. And so, to save her life, victim of an
+overwrought excessive complaisance—my weak point—I yielded to her wishes. You
+know the rest: Amanda, happy and proud of her choice, enjoys the most
+extraordinary health, whilst I, enslaved with a golden chain, strive to keep up
+my spirits as well as I can. In town, when not on guard, I try to kill thought
+at the Opera, the French Plays, and in society, where I meet all the world,
+excepting my wife—who, indeed, I rarely meet at all; and in the country I
+endeavour to recruit exhausted nature with field sports. But, as I have already
+said, pleasure is not happiness, and your unfortunate friend is a miserable
+man!</p>
+</sp>
+<sp who="#L0234_5">
+<speaker>Julia.</speaker>
+<stage>(crosses to C.)</stage>
+<p>Well, Captain Plausible, you must come and see us as much you can, and we
+will try our best to console you won't we, Charles ?</p>
+</sp>
+<sp who="#L0234_2">
+<speaker>Plau.</speaker>
+<p>Ah, you are exceedingly kind; and by way of availing myself of your
+permission, I'll ask a dinner of you to-day; for, as I said before, "when the
+soul becomes a void".</p>
+</sp>
+<sp who="#L0234_1">
+<speaker>Pru.</speaker>
+<stage>R.H.</stage>
+<p>The best thing you can do is to fill up the vacuum with oceans of soup,
+pyramids of patties, and wine ad infinitum.</p>
+</sp>
+<sp who="#L0234_2">
+<speaker>Plau.</speaker>
+<p>Exactly. Besides I am a bachelor for the day; my wife dines out; and then
+<stage>(addressing Julia)</stage> there is something I want to talk to your
+husband about.</p>
+</sp>
+<sp who="#L0234_5">
+<speaker>Julia.</speaker>
+<p>Very well, you can settle the matter together, for <pb n="10"/>I must leave
+you to change my dress. By the way, I must ring up Mary.</p>
+<stage>(goes up C. to table R.H.)</stage>
+</sp>
+<sp who="#L0234_1">
+<speaker>Pru.</speaker>
+<p>Ring up Mary? what for? Poor Mary! let Mary indulge in her horizontal
+position—let me be Mary,</p>
+</sp>
+<sp who="#L0234_5">
+<speaker>Julia.</speaker>
+<stage>(laughs)</stage>
+<p>Oh, nonsense!</p>
+</sp>
+<stage>Julia runs off at door R.H.V.E.</stage>
+<sp who="#L0234_1">
+<speaker>Pru.</speaker>
+<p>Excuse me for a moment. Ha, ha! you'll find the evening papers on the
+table.</p>
+</sp>
+<stage>Exit, door R.H.U.E.</stage>
+<sp who="#L0234_2">
+<speaker>Plau.</speaker>
+<p>Lucky dog! I envy him. While he is fooling with <hi>his</hi> wife, I have the
+more leisure for thinking of mine —delightful occupation! <stage>(looks at his
+watch)</stage> Seven o'clock! the night flies faster with me than the
+day—wretched fellow that I am! <stage>(paces about the stage as though in
+thought, draws a chair and throws himself into it)</stage> If, now, I could but
+awaken an interest in the breast of this enchanting Mrs. Prudent—the dear
+fascinating Julia! But then she is so childishly attached to this silly husband
+of hers. <stage>(after a pause, starting from his chair)</stage> By Jove! I am
+downright in love with that woman—positively in love, and I can't help it—that's
+the melancholy part of it—I can't help it. But there's no being a moment alone
+with her they're such a loving couple, always together. Can anything be more
+absurd than husband and wife to be always together? Never mind, I dine here, and
+must watch my opportunity.</p>
+</sp>
+<stage>Re-enter Prudent in morning-gown.</stage>
+<sp who="#L0234_1">
+<speaker>Pru.</speaker>
+<stage>(R.C.)</stage>
+<p>Now, my good friend, I am entirely at your disposal.</p>
+</sp>
+<stage>They each take a chair and sit.</stage>
+<sp who="#L0234_2">
+<speaker>Plau.</speaker>
+<stage>L.C.</stage>
+<p>Well then, this is what I wanted to say to you. You must know, while you were
+at the club yesterday, I had a little private conversation with your wife. Don't
+be jealous.</p>
+</sp>
+<sp who="#L0234_1">
+<speaker>Pru.</speaker>
+<p>Of<hi> you</hi>?—oh dear no! Go on.</p>
+</sp>
+<sp who="#L0234_2">
+<speaker>Plau.</speaker>
+<p>She was lamenting to me that she had no conservatory over the leads, like
+most of my other houses in the square.</p>
+</sp>
+<sp who="#L0234_1">
+<speaker>Pru.</speaker>
+<p>Well ?</p>
+</sp>
+<sp who="#L0234_2">
+<speaker>Plau.</speaker>
+<p>Well then, if you are agreeable, I shall have all <pb n="11"/> the pleasure
+in life in running-up one for you. It is an excellent aspect, and there's plenty
+of room.</p>
+</sp>
+<sp who="#L0234_1">
+<speaker>Pru.</speaker>
+<p>Certainly, —a conservatory would be a great improvement, especially as we
+neither of us know a rose from a sunflower.</p>
+</sp>
+<sp who="#L0234_2">
+<speaker>Plau.</speaker>
+<p>Now, I thought that you and I could so arrange the matter between us—don't
+you see?—that you might anticipate her wishes with a little surprise, and I
+might—<hi>slightly</hi> raise your rent.</p>
+</sp>
+<sp who="#L0234_1">
+<speaker>Pru.</speaker>
+<p>To be sure of course!</p>
+</sp>
+<sp who="#L0234_2">
+<speaker>Plau.</speaker>
+<p>As a friend, I shall charge you a mere bagatelle —thirty or forty pounds
+a-year.</p>
+</sp>
+<sp who="#L0234_1">
+<speaker>Pru.</speaker>
+<p>Not more? I am afraid you're robbing yourself. Let me see. I pay you for the
+house at present, two hundred and sixty-five;—with the conservatory, which I
+don't care a straw about, it will be—</p>
+</sp>
+<sp who="#L0234_2">
+<speaker>Plau.</speaker>
+<p>In round numbers, say three hundred a-year. A mere trifle, I assure you, and
+not worth thinking about.</p>
+</sp>
+<sp who="#L0234_1">
+<speaker>Pru.</speaker>
+<p>Then <hi>don't</hi> think about it, you'll oblige me by not thinking about
+it. Besides, you know I am in daily expectation of being appointed to a capital
+place under Government.</p>
+</sp>
+<sp who="#L0234_2">
+<speaker>Plau.</speaker>
+<p>Oh indeed!</p>
+</sp>
+<sp who="#L0234_1">
+<speaker>Pru.</speaker>
+<p>Yes, it has been promised me for some time by the Secretary of the Home
+Department, he and my father were old college chums. By-the-bye though,
+Plausible, I must make a little request of you. It is not unlikely you may meet
+my wife's uncle Cotton at dinner to-day, he is just arrived in town.</p>
+</sp>
+<sp who="#L0234_2">
+<speaker>Plau.</speaker>
+<p>Cotton! A sort of Manchester manufacturer, is he not?</p>
+</sp>
+<sp who="#L0234_1">
+<speaker>Pru.</speaker>
+<p>Yes. Don't say anything to him about this addition to the house, or the three
+hundred a-year rent we pay you.</p>
+</sp>
+<sp who="#L0234_2">
+<speaker>Plau.</speaker>
+<p>Rent? My dear fellow, do people ever talk of such matters ?</p>
+</sp>
+<sp who="#L0234_1">
+<speaker>Pru.</speaker>
+<p>I wish they didn't. Cotton's an excellent old fellow—the best friend we have,
+indeed; but to confess the truth, since my marriage (it's always the case, you
+know) we have been living rather fast; and these steady-going business people in
+the country entertain rather <pb n="12"/>old-fashioned notions about expense. If
+a man happen to get a little in advance, they think nothing can save him from
+the dogs,—I mean the lawyers—it's the same thing. So not a word about the
+conservatory to Uncle Cotton; and as soon as I get this appointment—</p>
+</sp>
+<sp who="#L0234_2">
+<speaker>Plau.</speaker>
+<stage>(rises, and puts chair back)</stage>
+<p>In the meanwhile, if you find yourself in the least pressed, draw upon me. If
+you don't use me as a friend, I shall be seriously offended with you.</p>
+</sp>
+<sp who="#L0234_1">
+<speaker>Pru.</speaker>
+<p>Now really this is very handsome.</p>
+<stage>(puts chair back)</stage>
+</sp>
+<sp who="#L0234_2">
+<speaker>Plau.</speaker>
+<p>If you make any nonsensical scruples, I shall quarrel with you.</p>
+</sp>
+<sp who="#L0234_1">
+<speaker>Pru.</speaker>
+<p>No, I promise you— <stage>(shakes Plausible's hand)</stage> when matters
+become desperate, and I don't see a chance of paying anything to anybody, you'll
+be the first person I shall have recourse to.</p>
+</sp>
+<sp who="#L0234_2">
+<speaker>Plau.</speaker>
+<p>Eight o'clock, I suppose ?</p>
+</sp>
+<sp who="#L0234_1">
+<speaker>Pru.</speaker>
+<p>Yes.</p>
+</sp>
+<sp who="#L0234_2">
+<speaker>Plau.</speaker>
+<p>Good bye, then, till dinner-time. <stage>(going, returns)</stage> Do you go
+to the Opera to-night?</p>
+</sp>
+<sp who="#L0234_1">
+<speaker>Pru.</speaker>
+<p>No, I think not, my wife's tired, and we shall retire early.</p>
+</sp>
+<sp who="#L0234_2">
+<speaker>Plau.</speaker>
+<p>Ah! you're right. Well, I don't care much about the Opera myself.
+<stage>(going—returns)</stage> You ride in the Park this morning, I suppose?</p>
+</sp>
+<sp who="#L0234_1">
+<speaker>Pru.</speaker>
+<p>No, Julia remains at home, and I keep her company.</p>
+</sp>
+<sp who="#L0234_2">
+<speaker>Plau.</speaker>
+<stage>(aside)</stage>
+<p>Keep her company?—he does nothing else. I'll write—it will be the better way.
+<stage>(aloud)</stage> Good bye!</p>
+</sp>
+<sp who="#L0234_1">
+<speaker>Pru.</speaker>
+<p>Good bye! <stage>(passing near window)</stage> What a splendid morning! How I
+envy you your walk! The Park must be perfectly delicious! It isn't often I have
+an opportunity of seeing the sun rise—so I shall go to bed. <stage>Exit
+Plausible L.H.D.F.</stage> —That's the only way to get rid of him. <stage>Enter
+Julia, in morning costume, R.H.U.E.</stage> —Come, dear, I am as hungry as a
+hunter; so, since it's too late to go to bed, let us have breakfast.</p>
+</sp>
+<sp who="#L0234_5">
+<speaker>Julia.</speaker>
+<p>I have told them to get it ready. But look here. Don't talk about breakfast.
+Shut your mouth and open your eyes, and see what Julia'll send you.
+<stage>(taking letter from behind her)</stage> Look here—look here! Look at this
+great official seal! It's from Downing Street.</p>
+</sp>
+<sp who="#L0234_1">
+<speaker>Pru.</speaker>
+<stage>L.H., eagerly</stage>
+<p>Give it me—give it me! It's my place! I wonder what it is? Under Secretary of
+State perhaps—or Ranger of one of the Parks—or— Well, whatever it is, it comes
+just at the right moment; for, though I haven't had the courage to tell you so
+before, upon my word I was never more in want of money in my life.</p>
+</sp>
+<sp who="#L0234_5">
+<speaker>Julia.</speaker>
+<stage>(R.H., smiling)</stage>
+<p>Poor fellow! What! quite a bankrupt ?</p>
+</sp>
+<sp who="#L0234_1">
+<speaker>Pru.</speaker>
+<stage>(gaily)</stage>
+<p>Never mind! Here's my discharge—here's that will soon bring me through the
+Court! <stage>(reads)</stage> "My dear young friend"— His dear young friend!
+come, that's a good start, considering he never saw me. <stage>(reads)</stage>
+"No one more fully appreciates your undoubted talents—your noble qualities".</p>
+</sp>
+<sp who="#L0234_5">
+<speaker>Julia.</speaker>
+<stage>(laughs)</stage>
+</sp>
+<sp who="#L0234_1">
+<speaker>Pru.</speaker>
+<p>I don't see anything to laugh at, my dear;—you ought to feel intensely
+gratified that your husband's merits are properly appreciated. It isn't often
+the Home Secretary appreciates anything except the new Police.
+<stage>(reads)</stage> "Than I do." Ah! it's all right. He and my father, you
+know, were such sworn companions—such bosom friends. <stage>(reads)</stage> "But
+there are so many young men, highly recommended both for competency and
+character" —Of course. I'm very sorry to cut 'em out, poor devils! <stage>(reads
+broken sentences from the letter, his countenance and manner gradually changing
+as he proceeds)</stage> "The only place at present at my disposal," — Now for
+it!—" and which is not a very lucrative one," —Don't apologise, my dear friend!"
+I have this morning conferred on your old friend Harcourt, who, with a large and
+still—increasing family". <stage>(crushing letter)</stage> I never was more
+completely sold in all my life! What a scandalous piece of injustice!</p>
+</sp>
+<sp who="#L0234_5">
+<speaker>Julia.</speaker>
+<p>Disagreeable old gentleman, to raise our hopes just for the malicious
+pleasure of disappointing them! It's really too bad of him!</p>
+</sp>
+<pb n="14"/>
+<sp who="#L0234_1">
+<speaker>Pru.</speaker>
+<p>What shall I do to be revenged? I'll lampoon him in the papers—turn political
+economist, and write down all his measures!</p>
+</sp>
+<sp who="#L0234_5">
+<speaker>Julia.</speaker>
+<p>Never mind, dear——it isn't worth being angry about,——don't let it vex
+you.</p>
+</sp>
+<sp who="#L0234_1">
+<speaker>Pru.</speaker>
+<p>Why, it's a positive insult! Prefer Harcourt to me! You see, Julia, what it
+is to have no children. If we'd had a dozen or two, I should have got the
+place.</p>
+</sp>
+<sp who="#L0234_5">
+<speaker>Julia.</speaker>
+<p>Let the place go, dearest, rather than disturb you like this. After all, we
+have still our fifteen hundred a-year.</p>
+</sp>
+<sp who="#L0234_1">
+<speaker>Pru.</speaker>
+<p>Eh? yes, we have still that is, we <hi>had</hi> it last year—but now, I'm
+afraid—</p>
+</sp>
+<sp who="#L0234_5">
+<speaker>Julia.</speaker>
+<p>Afraid of what? Is anything the matter?</p>
+</sp>
+<sp who="#L0234_1">
+<speaker>Pru.</speaker>
+<p>Upon my word that's more than I can tell you——I keep no account of my
+expenditure.</p>
+</sp>
+<sp who="#L0234_5">
+<speaker>Julia.</speaker>
+<p>Nor I—that's the husband's occupation.</p>
+</sp>
+<sp who="#L0234_1">
+<speaker>Pru.</speaker>
+<p>Our principal occupation I think, Julia, for the last twelve months, has been
+making love, in which economical amusement I have spent, I believe, about twice
+my income.</p>
+</sp>
+<sp who="#L0234_5">
+<speaker>Julia.</speaker>
+<p>Twice your income?</p>
+</sp>
+<sp who="#L0234_1">
+<speaker>Pru.</speaker>
+<p>Yes, there or thereabouts. Well, how was I to help it? You know I counted all
+along upon this confounded place. How the deuce should I know it was necessary
+to have a large and increasing family?—and, in the meanwhile, what could be more
+delightful to me than anticipating all your wishes?</p>
+<stage>(putting his arm round her waist)</stage>
+</sp>
+<stage>Enter William, L.H.D.F., with breakfast—places it on table, and
+exit.</stage>
+<sp who="#L0234_5">
+<speaker>Julia.</speaker>
+<p>Yes, you have indeed been very kind to me; but never mind, all we've got to
+do is to hit upon some nice little plan of retrenchment, and then, with care and
+economy—</p>
+</sp>
+<sp who="#L0234_1">
+<speaker>Pru.</speaker>
+<p>Economy! Well, that will be something new, at all events.</p>
+</sp>
+<sp who="#L0234_5">
+<speaker>Julia.</speaker>
+<p>No mocking, Sir. Come, now, I'll tell you all about it.</p>
+</sp>
+<sp who="#L0234_1">
+<speaker>Pru.</speaker>
+<stage>(good humouredly)</stage>
+<p>But hadn't we better postpone it till after breakfast?—because you see the
+coffee's getting cold.</p>
+</sp>
+<pb n="15"/>
+<sp who="#L0234_5">
+<speaker>Julia.</speaker>
+<p>No, certainly not. What a greedy man you are! Why can't you eat and talk
+too?</p>
+</sp>
+<sp who="#L0234_1">
+<speaker>Pru.</speaker>
+<p>A capital suggestion! Come, sit down. <stage>(They sit down to
+breakfast)</stage> What shall I give you ? Now, economy for ever!</p>
+</sp>
+<sp who="#L0234_5">
+<speaker>Julia.</speaker>
+<p>What shall we begin upon?</p>
+</sp>
+<sp who="#L0234_1">
+<speaker>Pru.</speaker>
+<p>I shall begin with this cold roast beef.</p>
+</sp>
+<sp who="#L0234_5">
+<speaker>Julia.</speaker>
+<p>We must do away with all unnecessary expenses.</p>
+</sp>
+<sp who="#L0234_1">
+<speaker>Pru.</speaker>
+<p>I see—no more luxuries—some of that pheasant pie. For instance, cut down all
+tailors' and milliners' bills at one fell swoop.</p>
+</sp>
+<sp who="#L0234_5">
+<speaker>Julia.</speaker>
+<p>Oh no, that will never do—a handsome toilet has become one of the necessaries
+of life: we must study appearances <hi>so far</hi>, but we'll keep a quieter
+table—no more large dinners.</p>
+</sp>
+<sp who="#L0234_1">
+<speaker>Pru.</speaker>
+<p>I perfectly agree with you—no more large dinners. By the bye, you mustn't
+forget that we shall sit down seven or eight to-day, without counting Plausible,
+and your Uncle Cotton. Now let it be nicely done everything of the very best—but
+no expense.</p>
+</sp>
+<sp who="#L0234_5">
+<speaker>Julia.</speaker>
+<p>Of course, my dear.</p>
+</sp>
+<sp who="#L0234_1">
+<speaker>Pru.</speaker>
+<p>On second thoughts, I don't know what to say about no more dinners—if you go
+out you must receive in return—we cannot do otherwise.</p>
+</sp>
+<sp who="#L0234_5">
+<speaker>Julia.</speaker>
+<p>Do you think so?</p>
+</sp>
+<sp who="#L0234_1">
+<speaker>Pru.</speaker>
+<p>I have it! My valet—he has been impudent to me more than once.</p>
+</sp>
+<sp who="#L0234_5">
+<speaker>Julia.</speaker>
+<p>Nonsense! how can you possibly do without him? Just conceive the fatigue of
+brushing your own coat! Better discharge my maid.</p>
+</sp>
+<sp who="#L0234_1">
+<speaker>Pru.</speaker>
+<p>Send away Mary? Now that's taking advantage of my good nature, because I
+hooked-and-eyed you this morning.</p>
+</sp>
+<sp who="#L0234_5">
+<speaker>Julia.</speaker>
+<p>Stay! how ridiculous not to think of it before—we'll put down the
+carriage.</p>
+</sp>
+<sp who="#L0234_1">
+<speaker>Pru.</speaker>
+<p>What, part with my brougham and my beautiful greys? Why, you'll be riding in
+damp omnibusses, or going out on foot in bad weather, and catch your death of
+cold. Sell my carriage! No, anything in reason, but I can't do that. My country
+house if you like.</p>
+</sp>
+<sp who="#L0234_5">
+<speaker>Julia.</speaker>
+<p>No, Charles; the dear old place has a thousand <pb n="16"/>precious
+recollections. Why, it was there you first took me after our marriage! Think of
+our many evening walks upon the banks of the Wye—the terrace, and the gardens,
+and the orchards. Oh no, Charles! any thing in reason, but don't part with
+Bellevue.</p>
+</sp>
+<sp who="#L0234_1">
+<speaker>Pru.</speaker>
+<p>Not for the world, if it would give you pain. I would rather sell the coat
+off my back than part with a stone from the walls or a shrub from the
+garden.</p>
+</sp>
+<sp who="#L0234_5">
+<speaker>Julia.</speaker>
+<p>Dear, dear Charles! how good you are to me!</p>
+</sp>
+<sp who="#L0234_1">
+<speaker>Pru.</speaker>
+<p>Now, let us see how does our plan of retrenchment stand at present? Bellevue
+we keep.</p>
+</sp>
+<sp who="#L0234_5">
+<speaker>Julia.</speaker>
+<p>And the carriage.</p>
+</sp>
+<sp who="#L0234_1">
+<speaker>Pru.</speaker>
+<p>Your maid.</p>
+</sp>
+<sp who="#L0234_5">
+<speaker>Julia.</speaker>
+<p>Your valet.</p>
+</sp>
+<sp who="#L0234_1">
+<speaker>Pru.</speaker>
+<p>Give our dinners as usual,</p>
+</sp>
+<sp who="#L0234_5">
+<speaker>Julia.</speaker>
+<p>No alterations in dress.</p>
+</sp>
+<sp who="#L0234_1">
+<speaker>Pru.</speaker>
+<p>But in everything else, my dear Julia, I must beg—nay, if I could use a harsh
+word, I should say I must insist—upon the strictest, the most rigid economy.</p>
+</sp>
+<stage>Knock at door R.U.E.</stage>
+<sp who="#L0234_5">
+<speaker>Julia.</speaker>
+<p>Come in.</p>
+</sp>
+
+<stage>Enter Mary R.U.E.</stage>
+<sp who="#L0234_6">
+<speaker>Mary.</speaker>
+<p>Your dressmaker, Ma'am, wishes to see you.</p>
+</sp>
+<sp who="#L0234_5">
+<speaker>Julia.</speaker>
+<p><stage>(confused)</stage> My dressmaker? Oh yes! I know. Tell her to come
+again by-and-bye, and then I'll pay her.</p>
+</sp>
+<sp who="#L0234_6">
+<speaker>Mary.</speaker>
+<p>Yes, Ma'am.</p>
+</sp>
+<stage>Exit R.D.</stage>
+<sp who="#L0234_1">
+<speaker>Pru.</speaker>
+<p>Why not pay the woman at once?</p>
+</sp>
+<sp who="#L0234_5">
+<speaker>Julia.</speaker>
+<p><stage>(hesitating)</stage> Why, so I would, dear, if I had the money.</p>
+</sp>
+<sp who="#L0234_1">
+<speaker>Pru.</speaker>
+<p>How much is it?</p>
+</sp>
+<sp who="#L0234_5">
+<speaker>Julia.</speaker>
+<p>Well, dear, I think the account amounts to—nearly a hundred and fifty
+pounds.</p>
+</sp>
+<sp who="#L0234_1">
+<speaker>Pru.</speaker>
+<p>A hundred and fifty pounds? The devil! Some more of your economy!</p>
+</sp>
+<sp who="#L0234_5">
+<speaker>Julia.</speaker>
+<p>Surely you don't consider that too much in six months?</p>
+</sp>
+<sp who="#L0234_1">
+<speaker>Pru.</speaker>
+<p>Six months?</p>
+</sp>
+<sp who="#L0234_5">
+<speaker>Julia.</speaker>
+<p>Don't scold me. I was afraid to speak to you before about it, because I have
+given her what they call a <hi>bill</hi>. You know what I mean?</p>
+</sp>
+<pb n="17"/>
+<sp who="#L0234_1">
+<speaker>Pru.</speaker>
+<p>Yes, I have heard of such things. So you have given her a bill, eh?</p>
+</sp>
+<sp who="#L0234_5">
+<speaker>Julia.</speaker>
+<p>Yes, which comes due to-day, they call it coming due, don't they?</p>
+</sp>
+<sp who="#L0234_1">
+<speaker>Pru.</speaker>
+<p>Yes, I believe that's the expression.</p>
+</sp>
+<sp who="#L0234_5">
+<speaker>Julia.</speaker>
+<p>Wasn't that right? My dressmaker told me it was quite a common practice for
+young married ladies of fashion to give bills payable by their husbands.</p>
+</sp>
+<sp who="#L0234_1">
+<speaker>Pru.</speaker>
+<p><stage>(jumping up)</stage> Did she? I am very much obliged to her!</p>
+</sp>
+<sp who="#L0234_5">
+<speaker>Julia.</speaker>
+<p><stage>(rising and going R.)</stage> But if I have done wrong, it sha'n't
+happen again. You're angry with me, Charles.</p>
+</sp>
+<sp who="#L0234_1">
+<speaker>Pru.</speaker>
+<p><stage>(L.H.)</stage> I confess I am not pleased—far from it,—you can't
+expect I should be —a man in my position. Zounds! I am dunned myself to the tune
+of a thousand!</p>
+</sp>
+<sp who="#L0234_5">
+<speaker>Julia.</speaker>
+<p>What! have you been giving a bill too?</p>
+</sp>
+<sp who="#L0234_1">
+<speaker>Pru.</speaker>
+<p>One? Fifty!</p>
+</sp>
+<sp who="#L0234_5">
+<speaker>Julia.</speaker>
+<p>In debt? I'm astonished!</p>
+</sp>
+<sp who="#L0234_1">
+<speaker>Pru.</speaker>
+<p>Why, you're not going to reproach me, after what has just come to light?</p>
+</sp>
+<sp who="#L0234_5">
+<speaker>Julia.</speaker>
+<p>A year's income spent in advance, and a thousand pounds in debt beside.</p>
+</sp>
+<sp who="#L0234_1">
+<speaker>Pru.</speaker>
+<p>Eleven hundred and fifty, thanks to your little dressmaker's bill.</p>
+</sp>
+<sp who="#L0234_5">
+<speaker>Julia.</speaker>
+<p>To tradesmen and workpeople too, who are in want of the money.</p>
+</sp>
+<sp who="#L0234_1">
+<speaker>Pru.</speaker>
+<p>In want of it—who can enforce the payment of it!</p>
+</sp>
+<sp who="#L0234_5">
+<speaker>Julia.</speaker>
+<p>What's to be done?</p>
+</sp>
+<sp who="#L0234_1">
+<speaker>Pru.</speaker>
+<p>There's only one thing that I know of, and that I don't half like.</p>
+</sp>
+<sp who="#L0234_5">
+<speaker>Julia.</speaker>
+<p>What is it?</p>
+</sp>
+<sp who="#L0234_1">
+<speaker>Pru.</speaker>
+<p>Why, to have recourse to some of my rich relations; there's my aunt Lady
+Elizabeth—by the bye, she was to be here this morning. What say you to appealing
+to the old lady's generosity ?</p>
+</sp>
+<sp who="#L0234_5">
+<speaker>Julia.</speaker>
+<p>Lady Elizabeth! Oh, no—let us do without her if we possibly can, she is so
+haughty. Let us rather apply to my dear uncle Cotton.</p>
+</sp>
+<sp who="#L0234_1">
+<speaker>Pru.</speaker>
+<p>Well, I don't know.</p>
+</sp>
+<sp who="#L0234_5">
+<speaker>Julia.</speaker>
+<p>Oh, I am sure he'll assist us, and it's the most <pb n="18"/>fortunate
+accident in the world that brings him up to town at this critical moment.</p>
+</sp>
+<sp who="#L0234_1">
+<speaker>Pru.</speaker>
+<p>Yes, but to confess the truth, as old Cotton is always preaching economy to
+us; and having no particular fancy for old Cotton's lectures, I've been in the
+habit of writing to old Cotton every month for some time past, telling old
+Cotton that all was going on swimmingly. <stage>(aside)</stage> Swimmingly with
+a vengeance! <stage>(aloud)</stage> That we lived within our income: in fact,
+that we were laying by heaps of money.</p>
+</sp>
+<sp who="#L0234_5">
+<speaker>Julia.</speaker>
+<p>Mercy me, Charles! What could make you tell him such a story ?</p>
+</sp>
+<sp who="#L0234_1">
+<speaker>Pru.</speaker>
+<p>It wasn't altogether a fib at <hi>first</hi>. I thought I was saving—upon my
+life I did.</p>
+</sp>
+<stage>Enter William L.H.D.F.</stage>
+<sp who="#L0234_4">
+<speaker>Wil.</speaker>
+<p>The gentleman, Ma'am, who came last evening, has called again!</p>
+</sp>
+<sp who="#L0234_5">
+<speaker>Julia.</speaker>
+<p>My uncle! Take away the breakfast things, and shew him in immediately.</p>
+</sp>
+<sp who="#L0234_4">
+<speaker>Wil.</speaker>
+<p>Yes, Ma'am. <stage>(crosses to table R.c.)</stage> Lady Elizabeth Sackville
+is here also, and not knowing whether you would like to be disturbed, I have
+shewn her into the front drawing-room.</p>
+</sp>
+<sp who="#L0234_1">
+<speaker>Pru.</speaker>
+<p>Tell her Ladyship—I'll be with her directly.</p>
+</sp>
+<sp who="#L0234_4">
+<speaker>Wil.</speaker>
+<p>Yes, Sir.</p>
+</sp>
+<stage>Exit William R.D.F.</stage>
+<sp who="#L0234_1">
+<speaker>Pru.</speaker>
+<stage>(lingers as though unwilling to go)</stage>
+</sp>
+<sp who="#L0234_5">
+<speaker>Julia.</speaker>
+<p>Why don't you go to her?</p>
+</sp>
+<sp who="#L0234_1">
+<speaker>Pru.</speaker>
+<p>It's very extraordinary, now that it has come to the push, I feel as if I
+would as lieve face a she tiger. Pshaw! courage—It's only my aunt! <stage>(he
+makes an effort to go to door R.H.U.E., then stops)</stage> I can't do it!</p>
+</sp>
+<sp who="#L0234_5">
+<speaker>Julia.</speaker>
+<p>Shall I go for you?</p>
+</sp>
+<sp who="#L0234_1">
+<speaker>Pru.</speaker>
+<p>Do, there's an angel—you'll manage the old lady better than I should.</p>
+</sp>
+<sp who="#L0234_5">
+<speaker>Julia.</speaker>
+<p>There's nothing to frighten me, and yet I am shaking all over.</p>
+</sp>
+<sp who="#L0234_1">
+<speaker>Pru.</speaker>
+<p>Poor girl! don't tremble so. Come, then, you sha'n't go. <stage>(kisses
+her)</stage></p>
+</sp>
+<sp who="#L0234_5">
+<speaker>Julia.</speaker>
+<p>Oh yes I will that kiss has given me courage.</p>
+</sp>
+<pb n="19"/>
+<stage>Enter Cotton, L.H.D.F., introduced by William, who removes
+breakfast.</stage>
+<sp who="#L0234_3">
+<speaker>Cot.</speaker>
+<p><stage>(seeing the kiss)</stage> Well done, Charles! kiss her again my boy!
+My dear children, I'm delighted to see you—I'm delighted—</p>
+</sp>
+<stage>Julia and Prudent run to meet him, and both speak together.</stage>
+<sp who="#L0234_5">
+<speaker>Julia.</speaker>
+<p>My dear uncle, how d'ye do? I'm so glad to see you!</p>
+</sp>
+<sp who="#L0234_1">
+<speaker>Pru.</speaker>
+<p>How d'ye do? how d'ye do? We've been expecting you all the morning.</p>
+</sp>
+<sp who="#L0234_3">
+<speaker>Cot.</speaker>
+<p><stage>(c., warmly shaking hands with them)</stage> I'm delighted to find
+you're as loving as ever—as kind and affectionate at the close of your first
+year of marriage as you were during the honeymoon. Now that's as it should
+be—quite an example to the young people of the age. London, then, hasn't spoilt
+you. I thought true love was to be found nowhere but in the country.</p>
+</sp>
+<sp who="#L0234_1">
+<speaker>Pru.</speaker>
+<p><stage>(L.H.)</stage> The country! Manchester—eh?</p>
+</sp>
+<sp who="#L0234_5">
+<speaker>Julia.</speaker>
+<p><stage>(R.H.)</stage> I'm delighted you're here, now you'll stay dinner, of
+course.</p>
+</sp>
+<sp who="#L0234_3">
+<speaker>Cot.</speaker>
+<p>Yes, my dear, to be sure. Something quite plain—just one joint.</p>
+</sp>
+<sp who="#L0234_1">
+<speaker>Pru.</speaker>
+<p>One joint? you shall have a dozen! <stage>(to Julia)</stage> Hadn't you
+better go to my aunt ?</p>
+</sp>
+<sp who="#L0234_3">
+<speaker>Cot.</speaker>
+<p>Lady Elizabeth ?—we arrived together. <stage>(goes up, and places hat on L.H.
+table)</stage></p>
+</sp>
+<sp who="#L0234_5">
+<speaker>Julia.</speaker>
+<p><stage>(as she leaves, she presses Prudent's hand, and says to him
+aside)</stage> Remember, I go to do my utmost with your aunt—do you the like
+with my uncle. <stage>(aloud)</stage> Excuse me, uncle, a few minutes—I'll soon
+return again.</p>
+</sp>
+<stage>Exit R.D.F.</stage>
+<sp who="#L0234_3">
+<speaker>Cot.</speaker>
+<p><stage>(L.H., looking after her)</stage> Well, Prudent, are you contented
+with your wife?</p>
+</sp>
+<sp who="#L0234_1">
+<speaker>Pru.</speaker>
+<p><stage>(R.H.)</stage> Contented, my dear uncle? You're the best friend I have
+in the world for giving her to me?</p>
+</sp>
+<sp who="#L0234_3">
+<speaker>Cot.</speaker>
+<p>I'm rejoiced to hear you say so, for I won't deny at one time I was not
+without my anxieties as to the result of the match.</p>
+</sp>
+<pb n="20"/>
+<sp who="#L0234_1">
+<speaker>Pru.</speaker>
+<p>How could you doubt it?</p>
+</sp>
+<sp who="#L0234_3">
+<speaker>Cot.</speaker>
+<p>I don't allude to your family——That silly old woman, <stage>(pointing to
+R.D.F.)</stage> always cracking her stupid jokes at our expense, and turning all
+my Manchester friends into ridicule. However that was no fault of yours, it was
+not that which disturbed me, it was your youth and inexperience; with an income
+of fifteen hundred a year, you had contracted habits, and tastes, and ideas of
+expense, that would have required five thousand at least.</p>
+</sp>
+<sp who="#L0234_1">
+<speaker>Pru.</speaker>
+<p>Yes, I ought to have had five thousand. No, I don't mean</p>
+</sp>
+<sp who="#L0234_3">
+<speaker>Cot.</speaker>
+<p>I feared you'd never have the moral courage to retrench.</p>
+</sp>
+<sp who="#L0234_1">
+<speaker>Pru.</speaker>
+<p><stage>(aside)</stage> I'm gradually getting uncomfortable.</p>
+</sp>
+<sp who="#L0234_3">
+<speaker>Cot.</speaker>
+<p>Because I know the pernicious pride and false shame of people in the
+fashionable world. Having once started beyond their means, they consider
+themselves, as it were, compelled to go on. Many a man with sense enough to know
+better, has suffered himself to be entirely ruined through the silly fear and
+dread of his neighbours. I call such a man a fool.</p>
+</sp>
+<sp who="#L0234_1">
+<speaker>Pru.</speaker>
+<p><stage>(with embarassment)</stage> Yes. <stage>(aside)</stage> Pleasant!</p>
+</sp>
+<sp who="#L0234_3">
+<speaker>Cot.</speaker>
+<p>But you soon showed me by your letters that I was deceived in you—that you
+were a more sensible fellow than I took you to be.</p>
+</sp>
+<sp who="#L0234_1">
+<speaker>Pru.</speaker>
+<p>Yes. <stage>(aside)</stage> Cotton's lacerating my feelings to a fearful
+extent! <stage>(aloud)</stage> I assure you, I and my wife have been proposing
+all sorts of economical arrangements for the future—we've been calculating our
+expenses for the past year</p>
+</sp>
+<sp who="#L0234_3">
+<speaker>Cot.</speaker>
+<p>An excellent plan! an excellent plan!—and see how satisfactory the result has
+been: for I find by your letter of last week, that you are putting away
+money.</p>
+</sp>
+<sp who="#L0234_1">
+<speaker>Pru.</speaker>
+<p>Yes, we've managed to put away a good deal of money.</p>
+</sp>
+<sp who="#L0234_3">
+<speaker>Cot.</speaker>
+<p>So much the better. Now, my dear fellow, I dare say you'd like to consult me
+as to some little investment.</p>
+</sp>
+<sp who="#L0234_1">
+<speaker>Pru.</speaker>
+<p><stage>(aside)</stage> It must be a very little one. What shall I say to
+him?</p>
+</sp>
+<sp who="#L0234_3">
+<speaker>Cot.</speaker>
+<p>Now, if it meet your wish, this is what I have to <pb n="21"/>propose—I'll
+make it well worth your while. The fact is, I'm rather short just now.</p>
+</sp>
+<sp who="#L0234_1">
+<speaker>Pru.</speaker>
+<p><stage>(aside)</stage> It evidently runs in the family.
+<stage>(aloud)</stage> You astonish me! Why, I thought you were rich enough to
+buy up half Manchester. <stage>(aside)</stage> Zounds! he's not going to borrow
+of me!</p>
+</sp>
+<sp who="#L0234_3">
+<speaker>Cot.</speaker>
+<p>These late discontents among the work-people have so completely upset all
+manufacturing transactions, that things are quite at a stand-still with me: in
+short—to say nothing of some rather heavy losses I've had lately, from a quarter
+where I least expected it if I am not able to make up seventeen hundred pounds
+before night, I shall be put to an inconvenience that may seriously affect my
+credit on Change.</p>
+</sp>
+<sp who="#L0234_1">
+<speaker>Pru.</speaker>
+<p><stage>(aside)</stage> I wish I were at the bottom of the Thames!</p>
+</sp>
+<sp who="#L0234_3">
+<speaker>Cot.</speaker>
+<p>Unfortunately I have only a thousand pounds by me. Now it struck me, there's
+my nephew Prudent, living at his ease in London, with money in hand lying
+idle—Don't you see? <stage>(slapping Prudent on the shoulder)</stage></p>
+</sp>
+<sp who="#L0234_1">
+<speaker>Pru.</speaker>
+<p><stage>(trying to laugh)</stage> Yes. <stage>(aside)</stage> A deal you know
+about it!</p>
+</sp>
+<sp who="#L0234_3">
+<speaker>Cot.</speaker>
+<p>You'd have felt hurt if I had applied to any one else, wouldn't you?</p>
+</sp>
+<sp who="#L0234_1">
+<speaker>Pru.</speaker>
+<p><stage>(aside)</stage> Not at all. <stage>(aloud)</stage> Yes, of course I
+should.</p>
+</sp>
+<sp who="#L0234_3">
+<speaker>Cot.</speaker>
+<p>Now, what I want is seven hundred pounds—that's all.</p>
+</sp>
+<sp who="#L0234_1">
+<speaker>Pru.</speaker>
+<p>Oh, you're sure that's all? <stage>(aside)</stage> If it had been seven
+millions it would be precisely the same thing to me.</p>
+</sp>
+<sp who="#L0234_3">
+<speaker>Cot.</speaker>
+<p>And that's the sum, I believe, you have by you—at least so you wrote me
+word.</p>
+</sp>
+<sp who="#L0234_1">
+<speaker>Pru.</speaker>
+<p><stage>(greatly embarrassed)</stage> Did I?—yes, I believe I did.</p>
+</sp>
+<sp who="#L0234_3">
+<speaker>Cot.</speaker>
+<p>Very well then, are you disposed to accommodate me? What's the matter with
+you?</p>
+</sp>
+<sp who="#L0234_1">
+<speaker>Pru.</speaker>
+<p><stage>(with increasing embarrassment)</stage> Oh, nothing; only I was just
+going to explain—</p>
+</sp>
+<sp who="#L0234_3">
+<speaker>Cot.</speaker>
+<p>You needn't say another word. I see how it is you refuse.</p>
+</sp>
+<sp who="#L0234_1">
+<speaker>Pru.</speaker>
+<p>You do me injustice—indeed you do. You shall have the money, only give me
+time to arrange with my banker. <stage>(aside, and pointing over his shoulders
+to door R.F.)</stage>
+<pb n="22"/> My aunt; and what my wife is begging for <hi>us</hi> shall be given
+to my uncle. <stage>(aloud)</stage> My dear Sir, you may rely upon me.</p>
+</sp>
+<sp who="#L0234_3">
+<speaker>Cot.</speaker>
+<p>I thank you Charles, thank you. I beg your pardon for having misunderstood
+you. I hope I haven't wounded your feelings. I thank'ye my darling boy—I
+thank'ye. I'm up to the ears in business as you may suppose. I shall be closeted
+with my agent till twelve o'clock, so you can send the money after me. Good bye,
+good bye.</p>
+</sp>
+<sp who="#L0234_1">
+<speaker>Pru.</speaker>
+<p>Make yourself perfectly easy, I'll be sure to send; you may depend upon
+me.</p>
+</sp>
+<sp who="#L0234_3">
+<speaker>Cot.</speaker>
+<p>Thank'ye, thank'ye—excuse me to Julia. Good bye.</p>
+</sp>
+<stage>Exit Cotton, L.H.D.F.</stage>
+<sp who="#L0234_1">
+<speaker>Pru.</speaker>
+<p>A precious predicament I am in, upon my soul! Just at the very moment too
+that I was going to borrow money of him. <stage>(pointing to R.D.F.)</stage>
+There's my forlorn hope. <stage>Enter Julia, R.D.F., in a violent passion,
+crosses stage to L.H., and back to R.H.</stage> —Well, have you settled the
+business for me?</p>
+</sp>
+<sp who="#L0234_5">
+<speaker>Julia.</speaker>
+<p>Settled? Oh yes, the business is quite settled !</p>
+</sp>
+<sp who="#L0234_1">
+<speaker>Pru.</speaker>
+<p>What's the matter? you're agitated.</p>
+</sp>
+<sp who="#L0234_5">
+<speaker>Julia.</speaker>
+<p>Agitated! I'm in a towering passion! Oh, what a creature! if you only knew
+what I have had to put up with! When I told her of our difficulties, and of the
+sum you were in such pressing want of (I never asked her to lend it us)—if you
+had only seen the insolent airs she put on! First, she told me she was rather
+short—</p>
+</sp>
+<sp who="#L0234_1">
+<speaker>Pru.</speaker>
+<p><stage>(L.H.)</stage> Ha, I knew it—I said it ran in the family. Well?</p>
+</sp>
+<sp who="#L0234_5">
+<speaker>Julia.</speaker>
+<p><stage>(R.H.)</stage> Then she told me it was all my extravagance that had
+occasioned your embarrassment. She said we needn't think to come begging of her,
+for that she wouldn't lend us so much as a shilling. I wouldn't have minded
+that—but, oh Charles! what do you think she said of me?—spiteful old woman!</p>
+</sp>
+<sp who="#L0234_1">
+<speaker>Pru.</speaker>
+<p>Never mind what she said—perhaps she called you ugly.</p>
+</sp>
+<pb n="23"/>
+<sp who="#L0234_5">
+<speaker>Julia.</speaker>
+<p>No, I shouldn't have minded that because it's an obvious absurdity—but she
+told me that I never loved you, and that I only married you for position. I
+couldn't bear that, and I retorted everything that a belied and wounded spirit
+could suggest, —that we could easily dispense with her favours, for that we had
+many good and kind friends to trust to—and so we parted, both of us, sworn
+foes.</p>
+</sp>
+<sp who="#L0234_1">
+<speaker>Pru.</speaker>
+<p>Regular Turk and Russian—eh? You did quite right, Julia, to resent her
+impertinence, but don't you think you went a little too far?</p>
+</sp>
+<sp who="#L0234_5">
+<speaker>Julia.</speaker>
+<p>There now! if you're not going to take her part! Why should we put up with
+her insults, when we've my dear uncle still left us ?</p>
+</sp>
+<sp who="#L0234_1">
+<speaker>Pru.</speaker>
+<p>Your uncle ?</p>
+</sp>
+<sp who="#L0234_5">
+<speaker>Julia.</speaker>
+<p>Of course—you've told him all?</p>
+</sp>
+<sp who="#L0234_1">
+<speaker>Pru.</speaker>
+<p>No, I haven't; you see there's a certain delicacy in these matters. I did
+sound him.</p>
+</sp>
+<sp who="#L0234_5">
+<speaker>Julia.</speaker>
+<p>Wouldn't he hear what you had to say to him?</p>
+</sp>
+<sp who="#L0234_1">
+<speaker>Pru.</speaker>
+<p>No, no; you mistake. <stage>(confused)</stage> The fact is, he's in
+difficulties himself. He wants to borrow seven hundred pounds of me, and what's
+more astonishing still, I've promised him the money.</p>
+</sp>
+<sp who="#L0234_5">
+<speaker>Julia.</speaker>
+<p>Promised to lend him seven hundred pounds, when you haven't as many
+pence?</p>
+</sp>
+<sp who="#L0234_1">
+<speaker>Pru.</speaker>
+<p>You've brought things to a pretty pass, —you know my only hope was in my
+aunt, and now you've turned her out of the house. <stage>(goes up and flings
+himself on divan)</stage></p>
+</sp>
+<sp who="#L0234_5">
+<speaker>Julia.</speaker>
+<p><stage>(wringing her hands)</stage> Oh dear, oh dear! forgive me, Charles! I
+see now for your sake I ought to have been more patient—I should have put up
+with her rudeness, her contempt. <stage>(sinks into chair L. of R.H. table,
+crying)</stage></p>
+</sp>
+<sp who="#L0234_1">
+<speaker>Pru.</speaker>
+<p>No, no; if I had been there I should have done the same thing myself if it
+had been my uncle instead of my aunt, perhaps worse—I might have kicked him.
+What on earth are we to do?</p>
+</sp>
+<sp who="#L0234_5">
+<speaker>Julia.</speaker>
+<p>Have you no other relations you could apply to ?</p>
+</sp>
+<sp who="#L0234_1">
+<speaker>Pru.</speaker>
+<p>What, to meet with the same treatment all over again? My relations! no, I
+have had enough of my relations!—rather than have recourse to them again, I'll
+quit London this very night. London! damn London! I hate it.</p>
+</sp>
+<pb n="24"/>
+<sp who="#L0234_5">
+<speaker>Julia.</speaker>
+<p>Oh, money, money! well may it be called the root of all evil! How unhappy I
+am!</p>
+</sp>
+<sp who="#L0234_1">
+<speaker>Pru.</speaker>
+<p>We'll go down to Bellevue.</p>
+</sp>
+<sp who="#L0234_5">
+<speaker>Julia.</speaker>
+<p>Ah, yes! in the country we shall be able to lay by—</p>
+</sp>
+<sp who="#L0234_1">
+<speaker>Pru.</speaker>
+<p>I'll cut down all my wood—turn farmer, and crop the entire park—convert my
+gardens into meadows, and graze sheep in them! Anything and everything for the
+sake of making money! There'll be no temptation there for us to run into
+extravagance!</p>
+</sp>
+<sp who="#L0234_5">
+<speaker>Julia.</speaker>
+<p>Yes, you're right. <stage>(drying her eyes)</stage> I dare say we shall be
+very happy there—when we get accustomed to it.</p>
+</sp>
+<stage>Enter William, L.H.D.F.</stage>
+<sp who="#L0234_4">
+<speaker>Wil.</speaker>
+<p><stage>(R.H.)</stage> If you please, Ma'am, you're wanted.</p>
+</sp>
+<sp who="#L0234_5">
+<speaker>Julia.</speaker>
+<p><stage>(L.H.)</stage> Who by ?</p>
+</sp>
+<sp who="#L0234_4">
+<speaker>Wil.</speaker>
+<p>The dressmaker.</p>
+</sp>
+<sp who="#L0234_5">
+<speaker>Julia.</speaker>
+<p><stage>(aside to Prudent)</stage> She has come with her bill again.</p>
+</sp>
+<sp who="#L0234_4">
+<speaker>Wil.</speaker>
+<p>The coachmaker has called again, Sir. He says he is sorry to press you, but
+would be much obliged if you would let him have his account.</p>
+</sp>
+<sp who="#L0234_1">
+<speaker>Pru.</speaker>
+<p><stage>(c,)</stage> Ha, ha! it never rains but it pours. I'll take trifling
+odds, we have all our tradespeople upon us in a body.</p>
+</sp>
+<sp who="#L0234_4">
+<speaker>Wil.</speaker>
+<p>And please, Sir, there's the jeweller, and the upholsterer, and the——</p>
+</sp>
+<sp who="#L0234_1">
+<speaker>Pru.</speaker>
+<p>I thought so. Show them all into my study, and tell them to wait till I come.
+<stage>(aside)</stage> I wish they would.</p>
+</sp>
+<stage>Exit William, L.H.D.F.</stage>
+<sp who="#L0234_5">
+<speaker>Julia.</speaker>
+<p><stage>(whispering as though afraid of being heard)</stage> What do you mean
+to do?</p>
+</sp>
+<sp who="#L0234_1">
+<speaker>Pru.</speaker>
+<p><stage>(whispering also)</stage> How should I know? This is the first time I
+ever found myself in such a detestable dilemma.</p>
+</sp>
+<sp who="#L0234_5">
+<speaker>Julia.</speaker>
+<p>Can't you ask for more time?</p>
+</sp>
+<sp who="#L0234_1">
+<speaker>Pru.</speaker>
+<p>Yes, but these are not the only creditors; and think of having to expose the
+state of our affairs to the whole bevy of them to confess our inability to pay.
+My face burns at the bare idea!</p>
+</sp>
+<pb n="25"/>
+<sp who="#L0234_5">
+<speaker>Julia.</speaker>
+<p>Hush hush, for heaven's sake! Here comes William.</p>
+</sp>
+<stage>Enter William, L.H.D.F.</stage>
+<sp who="#L0234_4">
+<speaker>Wil.</speaker>
+<p>Captain Plausible is in the next room, and has asked to see my mistress. He
+says if you are engaged, Sir, he will not disturb you.</p>
+</sp>
+<sp who="#L0234_1">
+<speaker>Pru.</speaker>
+<p>Very well.</p>
+</sp>
+<stage>Exit William, L.H.D.F.</stage>
+<sp who="#L0234_5">
+<speaker>Julia.</speaker>
+<p>I'm in the humour to receive visitors, truly!</p>
+</sp>
+<sp who="#L0234_1">
+<speaker>Pru.</speaker>
+<p>Plausible! <stage>(after a pause)</stage> Why, he this very morning offered
+to lend me money to any amount.</p>
+</sp>
+<sp who="#L0234_5">
+<speaker>Julia.</speaker>
+<p>Indeed! how very kind of him.</p>
+</sp>
+<stage>Enter Plausible, L.D.F., in walking costume.</stage>
+<sp who="#L0234_2">
+<speaker>Plau.</speaker>
+<p><stage>(aside)</stage> Ah! confound it—she is not alone! it is well I
+provided myself with a letter.</p>
+</sp>
+<sp who="#L0234_1">
+<speaker>Pru.</speaker>
+<p><stage>(warmly)</stage> My dear fellow! you are the very man we were wishing
+for.</p>
+</sp>
+<sp who="#L0234_5">
+<speaker>Julia.</speaker>
+<p><stage>(catching Prudent's manner)</stage> Oh! I'm sure we are always
+delighted to see Captain Plausible.</p>
+</sp>
+<sp who="#L0234_2">
+<speaker>Plau.</speaker>
+<p><stage>(bowing to Julia)</stage> It makes me very happy to hear you say so.
+<stage>(slightly confused)</stage> I ventured to look in before dinner to—</p>
+</sp>
+<sp who="#L0234_1">
+<speaker>Pru.</speaker>
+<p><stage>(taking him up)</stage> To see my wife. I know—</p>
+</sp>
+<sp who="#L0234_2">
+<speaker>Plau.</speaker>
+<p><stage>(L.H., aside)</stage> What does he mean by that now?</p>
+</sp>
+<sp who="#L0234_5">
+<speaker>Julia.</speaker>
+<p><stage>(R.H., slightly inclining her head to Plausible, As though in
+acknowledgment of the attention)</stage> You were going to observe—</p>
+</sp>
+<sp who="#L0234_2">
+<speaker>Plau.</speaker>
+<p>Yes, exactly. I was going to observe that I had done myself the honour of
+calling about—about the conservatory. <stage>(aside)</stage> If I could but get
+rid of her husband now.</p>
+</sp>
+<sp who="#L0234_5">
+<speaker>Julia.</speaker>
+<p>There will be no occasion to trouble you; we have decided upon doing without
+it.</p>
+</sp>
+<sp who="#L0234_2">
+<speaker>Plau.</speaker>
+<p><stage>(surprised)</stage> How so? I thought</p>
+</sp>
+<sp who="#L0234_1">
+<speaker>Pru.</speaker>
+<p><stage>(c.)</stage> I will tell you. You very generously offered this morning
+to lend me money; now, if you could accommodate me for a little while—</p>
+</sp>
+<sp who="#L0234_2">
+<speaker>Plau.</speaker>
+<p>As long as you like. How much do you want?</p>
+</sp>
+
+<pb n="26"/>
+<sp who="#L0234_5">
+<speaker>Julia.</speaker>
+<p>A very large sum indeed, eleven hundred and fifty pounds.</p>
+</sp>
+<sp who="#L0234_2">
+<speaker>Plau.</speaker>
+<stage>(aside)</stage>
+<p>The deuce—that's more than I bargained for.</p>
+</sp>
+<sp who="#L0234_1">
+<speaker>Pru.</speaker>
+<p>Eleven hundred and fifty! You forget your uncle.</p>
+</sp>
+<sp who="#L0234_5">
+<speaker>Julia.</speaker>
+<p>Ah, yes. An uncle, Captain Plausible, to whom we owe everything, and who,
+like yourself, is a tried and valued friend.</p>
+</sp>
+<sp who="#L0234_1">
+<speaker>Pru.</speaker>
+<p>Seven hundred pounds.</p>
+</sp>
+<sp who="#L0234_2">
+<speaker>Plau.</speaker>
+<p>Eleven hundred and fifty, and seven hundred, make eighteen hundred and
+fifty.</p>
+</sp>
+<sp who="#L0234_1">
+<speaker>Pru.</speaker>
+<p>Say two thousand pounds, and take a mortgage upon my place in the country,
+which has been valued at twenty thousand pounds.</p>
+</sp>
+<sp who="#L0234_2">
+<speaker>Plau.</speaker>
+<p>Between friends there's no occasion for security; just sign me an
+acknowledgment of the debt, and we won't talk about mortgaging Bellevue.</p>
+</sp>
+<sp who="#L0234_1">
+<speaker>Pru.</speaker>
+<p>You're a deuced good fellow, Plausible.</p>
+</sp>
+<sp who="#L0234_2">
+<speaker>Plau.</speaker>
+<p>Very well. <stage>(takes out pocket book)</stage> Here are checks for five
+hundred pounds, rents I have just received, and I'll arrange with my lawyer for
+the rest.</p>
+</sp>
+<sp who="#L0234_1">
+<speaker>Pru.</speaker>
+<p>Now, then, I'll write and tell your uncle that the seven hundred pounds will
+be ready for him—</p>
+</sp>
+<sp who="#L0234_2">
+<speaker>Plau.</speaker>
+<p>In an hour's time.</p>
+</sp>
+<sp who="#L0234_1">
+<speaker>Pru.</speaker>
+<p>I thank you. Now, then, for my friends in the study there. A few short hours
+and I shall be out of debt except to friendship <stage>(shaking
+hands)</stage>—excuse me a moment, Now, Mrs. Furbelow, respectable coachmaker,
+I'm quite at your service.</p>
+</sp>
+<stage>Exit into study, L.H.D.U.E.</stage>
+<sp who="#L0234_2">
+<speaker>Plau.</speaker>
+<p>Will you allow me to ring the bell?</p>
+</sp>
+<sp who="#L0234_5">
+<speaker>Julia.</speaker>
+<p>Certainly.</p>
+</sp>
+<sp who="#L0234_2">
+<speaker>Plau.</speaker>
+<p>I'm fairly established now—confidential friend of the family. <stage>(takes
+chair from R. of table and goes to Julia's L.H.)</stage></p>
+</sp>
+<stage>Enter William, L.H.D.F.</stage>
+<sp who="#L0234_2">
+<speaker>Plau.</speaker>
+<p>I expect my servant here presently, when he comes be so good as to tell him
+to bring round my cabriolet, without loss of time.</p>
+</sp>
+<pb n="27"/>
+<sp who="#L0234_4">
+<speaker>Wil.</speaker>
+<p>Yes, Sir.</p>
+</sp>
+<stage>Exit William, L.H.D.F.</stage>
+<sp who="#L0234_5">
+<speaker>Julia.</speaker>
+<p>Captain Plausible! your generous friendship has laid us under a lasting
+obligation.</p>
+</sp>
+<sp who="#L0234_2">
+<speaker>Plau.</speaker>
+<stage>(aside)</stage>
+<p>She's handsomer than ever—egad, I must strike while the iron's hot.
+<stage>(aloud)</stage> Your friendship at least, my dear Mrs. Prudent serves to
+console me under disappointments which—</p>
+</sp>
+<sp who="#L0234_5">
+<speaker>Julia.</speaker>
+<stage>(with interest)</stage>
+<p>Disappointments! I must not ask you to confide them to me.</p>
+</sp>
+<sp who="#L0234_2">
+<speaker>Plau.</speaker>
+<p>Confide them to you? Alas! I must not—such is my hard fate, that there alone
+where I might find relief I dare not seek it. <stage>(rises burying his face in
+his handkerchief)</stage></p>
+</sp>
+<sp who="#L0234_5">
+<speaker>Julia.</speaker>
+<stage>(moved at his affected grief)</stage>
+<p>And why not? Are we not friends? Speak I entreat of you, and whatever you
+tell me shall, if you wish it, be kept secret both by myself and husband.</p>
+</sp>
+<sp who="#L0234_2">
+<speaker>Plau.</speaker>
+<stage>(L.H. muttering behind his handkerchief)</stage>
+<p>Confound her husband!</p>
+</sp>
+<sp who="#L0234_5">
+<speaker>Julia.</speaker>
+<p>What did you say?</p>
+</sp>
+<sp who="#L0234_2">
+<speaker>Plau.</speaker>
+<stage>(looking anxiously about him)</stage>
+<p>But if it were a secret—a secret that could only be entrusted to a
+woman—to—in one word—I am in love!</p>
+</sp>
+<sp who="#L0234_5">
+<speaker>Julia.</speaker>
+<stage>(drawing back R.H.)</stage>
+<p>This is not a proper confidence from a married man.</p>
+</sp>
+<sp who="#L0234_2">
+<speaker>Plau.</speaker>
+<p>Oh! if you would but befriend me with her—intercede for me!</p>
+</sp>
+<sp who="#L0234_5">
+<speaker>Julia.</speaker>
+<p>Do I know her?</p>
+</sp>
+<sp who="#L0234_2">
+<speaker>Plau.</speaker>
+<p>Since then you deign to ask me, emboldened by the question—</p>
+</sp>
+<stage>Enter William, L.D.F.</stage>
+<sp who="#L0234_4">
+<speaker>Wil.</speaker>
+<p>The cabriolet is at the door, Sir.</p>
+</sp>
+<stage>Exit William, L.D.F.</stage>
+<sp who="#L0234_2">
+<speaker>Plau.</speaker>
+<stage>(aside)</stage>
+<p>I wish his neck were under the wheel! <stage>(aloud)</stage> Pray pardon me,
+this ill-timed interruption has so completely unhinged me that I—I cannot speak
+to you, but in this paper <stage>(giving her a letter)</stage> you will find—
+<pb n="28"/> disordered as my own soul—thoughts—you— I fly to serve you, and
+seek but one reward. Read! but, for heaven's sake, prudence—farewell.
+<stage>(aside)</stage> I've done it! she has taken the letter.</p>
+</sp>
+<stage>Bows profoundly and exits L.H.D.F.</stage>
+<sp who="#L0234_5">
+<speaker>Julia.</speaker>
+<p>What is the meaning of all this? I don't wonder at his confusion with his
+particular manner and his sentimentality, the very servant seemed to be staring
+at us. I don't at all like this confidence of his. However, as I have taken the
+letter, I suppose I may as well read it. <stage>(reads letter)</stage></p>
+</sp>
+<stage>Enter Prudent, gaily, in walking costume, L.D.U.E.</stage>
+<sp who="#L0234_1">
+<speaker>Pru.</speaker>
+<p>Come, I've cleared the house of two of them, and shall soon get rid of the
+rest.</p>
+</sp>
+<sp who="#L0234_5">
+<speaker>Julia.</speaker>
+<stage>(with amazement)</stage>
+<p>Am I in my right senses? I scarcely believe the evidence of my own eyes.</p>
+</sp>
+<sp who="#L0234_1">
+<speaker>Pru.</speaker>
+<p>Why, what is the matter, Julia?</p>
+</sp>
+<sp who="#L0234_5">
+<speaker>Julia.</speaker>
+<stage>(running to him, and giving him the letter)</stage>
+<p>Do not ask me, but read. What have I done—what have I done to expose myself
+to such a cruel insult?</p>
+</sp>
+<sp who="#L0234_1">
+<speaker>Pru.</speaker>
+<stage>(glancing at the handwriting)</stage>
+<p>Insult from Plausible! <stage>(reads)</stage> What is this? "I have loved you
+long, devotedly, though silently, and only sought an opportunity of declaring my
+passion." The impudent scoundrel. <stage>(hastily folds letter, and
+going)</stage></p>
+</sp>
+<sp who="#L0234_5">
+<speaker>Julia.</speaker>
+<stage>(stopping him)</stage>
+<p>Charles, where are you going?</p>
+</sp>
+<sp who="#L0234_1">
+<speaker>Pru.</speaker>
+<p>To annihilate him—sweep him off the surface of the earth.</p>
+</sp>
+<sp who="#L0234_5">
+<speaker>Julia.</speaker>
+<p>No, Charles, he is beneath your anger.</p>
+</sp>
+<sp who="#L0234_1">
+<speaker>Pru.</speaker>
+<p>So he is, but I'll kill him nevertheless.</p>
+</sp>
+<sp who="#L0234_5">
+<speaker>Julia.</speaker>
+<p>Pshaw! The first thing to be thought of is to instantly return his five
+hundred pounds.</p>
+</sp>
+<sp who="#L0234_1">
+<speaker>Pru.</speaker>
+<p>How can I return what I have this moment paid away?</p>
+</sp>
+<sp who="#L0234_5">
+<speaker>Julia.</speaker>
+<p>What are we to do then?</p>
+</sp>
+<sp who="#L0234_1">
+<speaker>Pru.</speaker>
+<p>Nothing; we are helpless, disgraced, insulted, ruined. <stage>(pacing stage,
+crosses R. and L.H., in violent agitation)</stage></p>
+</sp>
+<pb n="29"/>
+<sp who="#L0234_5">
+<speaker>Julia.</speaker>
+<p>Dear Charles, this violent agitation will throw you into a fever.</p>
+</sp>
+<sp who="#L0234_1">
+<speaker>Pru.</speaker>
+<p>But it's all your fault; whoever heard of giving a bill to a milliner?</p>
+</sp>
+<sp who="#L0234_5">
+<speaker>Julia.</speaker>
+<p>My fault, Sir—you would never had any occasion to borrow if you hadn't spent
+every farthing of your own long before it came due.</p>
+</sp>
+<sp who="#L0234_1">
+<speaker>Pru.</speaker>
+<p>Yes, ma'am, but who was the cause of this extravagance? you had always some
+want, some caprice or other.</p>
+</sp>
+<sp who="#L0234_5">
+<speaker>Julia.</speaker>
+<p>Now that you are ashamed of your folly, you try to throw all the blame upon
+me. <stage>(bursts into tears)</stage> This is unworthy of you, Charles.</p>
+</sp>
+<sp who="#L0234_1">
+<speaker>Pru.</speaker>
+<p>Forgive me, Julia, don't cry. I'm half distracted, and don't know what I say.
+I shall be better after I've killed Plausible.</p>
+</sp>
+<sp who="#L0234_3">
+<speaker>Cotton.</speaker>
+<stage>(without)</stage>
+<p>Never mind, young man, I'll find the way.</p>
+</sp>
+<stage>Enter Cotton, L.D.F.</stage>
+<sp who="#L0234_1">
+<speaker>Pru.</speaker>
+<p>Dry up your tears—here comes uncle.</p>
+</sp>
+<sp who="#L0234_3">
+<speaker>Cot.</speaker>
+<stage>(L.H.)</stage>
+<p>Heyday, what's the matter? this is a change indeed—quarrelling!</p>
+</sp>
+<sp who="#L0234_5">
+<speaker>Julia.</speaker>
+<stage>(R.H.)</stage>
+<p>No! it was nothing. <stage>(affectionately taking his hand)</stage> There!
+peace is restored now.</p>
+</sp>
+<sp who="#L0234_3">
+<speaker>Cot.</speaker>
+<stage>(in a melancholy tone)</stage>
+<p>So much the better. There are troubles enough in the world, without our
+unnecessarily adding to the number.</p>
+</sp>
+<sp who="#L0234_1">
+<speaker>Pru.</speaker>
+<stage>(c., aside to Julia)</stage>
+<p>He has come for the seven hundred pounds! What am I to say to him?
+<stage>(aloud)</stage> I am sorry to inform you the money has not arrived yet,
+but I suppose it will be here soon, <stage>(aside)</stage> though where it's to
+come from heaven only knows.</p>
+</sp>
+<sp who="#L0234_3">
+<speaker>Cot.</speaker>
+<p>You haven't the money, then, as you led me to expect, either in the house or
+at your banker's?</p>
+</sp>
+<sp who="#L0234_1">
+<speaker>Pru.</speaker>
+<p>No; unfortunately I have been called upon unexpectedly to pay some rather
+heavy bills, but that will make no difference.</p>
+</sp>
+<sp who="#L0234_3">
+<speaker>Cot.</speaker>
+<stage>(crosses c.)</stage>
+<p>Come now, be candid with me—there's something wrong; you are suffering me to
+put you to an inconvenience.</p>
+</sp>
+<pb n="30"/>
+<sp who="#L0234_5">
+<speaker>Julia.</speaker>
+<p>No, not in the least.</p>
+</sp>
+<stage>Pru. (looks at her)</stage>
+<sp who="#L0234_3">
+<speaker>Cot.</speaker>
+<p>Then you have been borrowing money?</p>
+</sp>
+<sp who="#L0234_1">
+<speaker>Pru.</speaker>
+<stage>(looking at Julia)</stage>
+<p>No, indeed, no.</p>
+</sp>
+<stage>Julia. (looks at him)</stage>
+<sp who="#L0234_3">
+<speaker>Cot.</speaker>
+<stage>(taking Prudent by the hand)</stage>
+<p>Then, my dear boy, I have guessed your secret. From a manly independent
+spirit, which I admire exceedingly, you have determined to trust for this money
+to no one but yourself; and to accommodate me you have been making great
+personal sacrifices—you have been parting with some of your comforts and
+enjoyments—sold your horses and carriages—given up your country house,
+perhaps—parted with your pictures— <stage>(after a pause, with deep
+dejection)</stage> I am grateful to you for the efforts you have made to serve
+me, and appreciate them to the full; but they come too late—the money would be
+useless to me now if I had it.</p>
+</sp>
+<sp who="#L0234_5">
+<speaker>Julia.</speaker>
+<stage>(with astonishment)</stage>
+<p>Useless?</p>
+</sp>
+<sp who="#L0234_1">
+<speaker>Pru.</speaker>
+<stage>(also with astonishment)</stage>
+<p>Useless? The idea of seven hundred pounds being useless!</p>
+</sp>
+<sp who="#L0234_3">
+<speaker>Cot.</speaker>
+<p>I was ignorant of it this morning; but through the totally unexpected failure
+of two of the largest houses in the trade, I have lost one hundred thousand
+pounds, and unless I can command five-and-twenty thousand to meet immediate
+claims, my insolvency will be declared. It's all over! I'm a ruined man! I'm a
+ruined man! <stage>(goes up, flings himself on divan, c., and lays his head on
+back of chair—Julia consoles him)</stage></p>
+</sp>
+<sp who="#L0234_1">
+<speaker>Pru.</speaker>
+<stage>(suddenly)</stage>
+<p>When must the money be forthcoming?</p>
+</sp>
+<sp who="#L0234_3">
+<speaker>Cot.</speaker>
+<p>To-morrow. I shall never survive the disgrace! The credit of our house has
+been maintained with spotless integrity for three whole generations. I can't
+bear it I shall blow out my brains!</p>
+</sp>
+<sp who="#L0234_1">
+<speaker>Pru.</speaker>
+<stage>(soothingly)</stage>
+<p>Yes, do—I mean, don't.</p>
+</sp>
+<sp who="#L0234_5">
+<speaker>Julia.</speaker>
+<stage>(trying to afford consolation)</stage>
+<p>Oh, for heaven's sake, uncle, don't talk so! bear up—bear up!</p>
+</sp>
+<sp who="#L0234_1">
+<speaker>Pru.</speaker>
+<p>Give way like this? a man of your superior mind?</p>
+</sp>
+<sp who="#L0234_3">
+<speaker>Cot.</speaker>
+<stage>(looking up)</stage>
+<p>But is there any help to be had?</p>
+</sp>
+<sp who="#L0234_1">
+<speaker>Pru.</speaker>
+<p>We don't know. <stage>(after a moment's reflection)</stage> Ah, I have it!
+Remain till my return—I am not without hope.</p>
+</sp>
+<pb n="31"/>
+<sp who="#L0234_5">
+<speaker>Julia.</speaker>
+<stage>(rising—aside to Prudent)</stage>
+<p>What are you going to do?</p>
+</sp>
+<sp who="#L0234_1">
+<speaker>Pru.</speaker>
+<p>Is it possible, when he talked of selling the horses and furniture, that it
+didn't strike you?</p>
+</sp>
+<sp who="#L0234_5">
+<speaker>Julia.</speaker>
+<p>What! really sell them?</p>
+</sp>
+<sp who="#L0234_1">
+<speaker>Pru.</speaker>
+<p>Yes; carriage—horses—houses—furniture—Bellevue, everything shall go; it will
+fetch — Don't leave your uncle. I shall be back again presently.</p>
+</sp>
+<stage>Snatches his hat, and hurries out L.D.F.</stage>
+<sp who="#L0234_3">
+<speaker>Cot.</speaker>
+<stage>(with letter in his hand, advances)</stage>
+<p>Well, my only consolation is, that you are happier than I am, and that you
+strive to govern your family with care and economy.</p>
+</sp>
+<sp who="#L0234_5">
+<speaker>Julia.</speaker>
+<stage>(aside—confused)</stage>
+<p>I can scarcely contain myself! If he knew all, he wouldn't talk to me so.</p>
+</sp>
+<stage>Enter Plausible L.D.F.</stage>
+<sp who="#L0234_5">
+<speaker>Julia.</speaker>
+<p>That detestable man come back! He will expose everything! How am I to get rid
+of him before my husband returns?</p>
+</sp>
+<sp who="#L0234_2">
+<speaker>Plau.</speaker>
+<stage>(L.H., to Julia)</stage>
+<p>Faithful to my word, I have the honour to hand you a copy of the deed—you
+will find everything in proper form. <stage>(giving Julia deed)</stage></p>
+</sp>
+<sp who="#L0234_3">
+<speaker>Cot.</speaker>
+<stage>(R.C.)</stage>
+<p>What is that paper, Julia?</p>
+</sp>
+<sp who="#L0234_5">
+<speaker>Julia.</speaker>
+<stage>(overcome with confusion)</stage>
+<p>I can no longer disguise the truth. We have been borrowing money of
+this—gentleman! <stage>(with spirit)</stage> But we have no longer any occasion
+for his services. Let this show how far I am in earnest. <stage>(tears
+deed)</stage></p>
+</sp>
+<sp who="#L0234_2">
+<speaker>Plau.</speaker>
+<p>How, Ma'am!—this proceeding—</p>
+</sp>
+<sp who="#L0234_5">
+<speaker>Julia.</speaker>
+<p>Is the least you merit after the insult you have dared to show me.</p>
+</sp>
+<sp who="#L0234_3">
+<speaker>Cot.</speaker>
+<p>Insult, my child?</p>
+</sp>
+<sp who="#L0234_5">
+<speaker>Julia.</speaker>
+<p>Under the base pretence of serving his friend, he would have betrayed the
+wife. <stage>(goes up c. and down R.)</stage></p>
+</sp>
+<sp who="#L0234_3">
+<speaker>Cot.</speaker>
+<stage>(crosses to c.)</stage>
+<p>In the absence, young gentleman, of this lady's husband, I must request you
+to leave the house, or, old as I am, hang me if I don't kick you out!</p>
+</sp>
+<sp who="#L0234_2">
+<speaker>Plau.</speaker>
+<p>Kick? Really, Sir, this language is scarcely in accordance with the tone of
+good society. You are probably not aware that I am Mr. Prudent's landlord?</p>
+</sp>
+<pb n="32"/>
+<sp who="#L0234_3">
+<speaker>Cot.</speaker>
+<p>Will you leave the house, Sir?</p>
+</sp>
+<sp who="#L0234_5">
+<speaker>Julia.</speaker>
+<stage>(alarmed)</stage>
+<p>Uncle—dear uncle!</p>
+</sp>
+<sp who="#L0234_2">
+<speaker>Plau.</speaker>
+<p>Your uncle? I beg your pardon!—then he is sacred from my anger.</p>
+</sp>
+<sp who="#L0234_3">
+<speaker>Cot.</speaker>
+<p>Will you leave the house?</p>
+</sp>
+<sp who="#L0234_5">
+<speaker>Julia.</speaker>
+<p>I am sorry to say, uncle, there is a little account to settle.</p>
+</sp>
+<sp who="#L0234_3">
+<speaker>Cot.</speaker>
+<p>Make out your claim, Sir!—what is the amount of your debt?</p>
+</sp>
+<sp who="#L0234_2">
+<speaker>Plau.</speaker>
+<p>That I am not obliged to explain to you.</p>
+</sp>
+<sp who="#L0234_3">
+<speaker>Cot.</speaker>
+<p>But I insist upon your telling me immediately.</p>
+</sp>
+<sp who="#L0234_2">
+<speaker>Plau.</speaker>
+<p>Well, Sir, since you insist, five hundred pounds.</p>
+</sp>
+<stage>Cotton, after a moment's silence, looks at Julia, who averts her face in
+confusion—He then takes out his pocket—book, and draws from it a cheque.</stage>
+<sp who="#L0234_3">
+<speaker>Cot.</speaker>
+<p>There is a cheque to that amount. <stage>(gives it to him)</stage></p>
+</sp>
+<sp who="#L0234_2">
+<speaker>Plau.</speaker>
+<p>I feel quite at a loss to understand all this. <stage>(aside)</stage>
+However, I've got back my money.</p>
+</sp>
+<stage>Enter Prudent hastily, L.D.F., Julia runs up behind Cotton to meet
+him.</stage>
+<sp who="#L0234_1">
+<speaker>Pru.</speaker>
+<stage>(L.C.)</stage>
+<p>It's all right, my dear sir, the money will be ready to-morrow morning.
+There's to be a sale here of all our plate and pictures, jewellery, horses,
+&amp;c., and another at Robins's—Bellevue's as good as gone, and my lawyer will
+advance the five-and-twenty thousand pounds.</p>
+</sp>
+<sp who="#L0234_3">
+<speaker>Cot.</speaker>
+<p>This is indeed good news—I have saved him in spite of himself.
+<stage>(crossing to R.H. corner)</stage></p>
+</sp>
+<sp who="#L0234_1">
+<speaker>Pru.</speaker>
+<stage>(seeing Plausible)</stage>
+<p>You here, Sir? I have a different account to settle with you—here are your
+five hundred pounds. <stage>(offers notes)</stage></p>
+</sp>
+<sp who="#L0234_2">
+<speaker>Plau.</speaker>
+<stage>(L.H., refusing them)</stage>
+<p>No, you mistake—the money is now due to that gentleman.
+<stage>(aside)</stage> What the deuce, are they going to pay me twice over?</p>
+</sp>
+<sp who="#L0234_5">
+<speaker>Julia.</speaker>
+<stage>(R.C.)</stage>
+<p>Yes, Charles, the debt is now discharged.</p>
+</sp>
+<sp who="#L0234_2">
+<speaker>Plau.</speaker>
+<p>And all that remains for me to do, is to give you an acknowledgment in full.
+<stage>(goes to table, L.C., and writes)</stage></p>
+</sp>
+<sp who="#L0234_1">
+<speaker>Pru.</speaker>
+<p>What are we all about?—will any one have the kindness to explain?</p>
+</sp>
+<pb n="33"/>
+<sp who="#L0234_3">
+<speaker>Cot.</speaker>
+<p>That will I. <stage>(crosses to c.)</stage> I was perfectly well aware of
+your many fine qualities, but I was equally aware that, in another year or two,
+these <hi>very fine qualities</hi> would have utterly ruined you; so I trusted
+to you doing for me what I was perfectly certain you wouldn't be persuaded to do
+for <hi>yourself</hi>. Generous-hearted fellow that you are—you have shewn me
+that I didn't reckon without my host.</p>
+</sp>
+<sp who="#L0234_1">
+<speaker>Pru.</speaker>
+<p>Eh? I see. You're not ruined after all?—</p>
+</sp>
+<sp who="#L0234_3">
+<speaker>Cot.</speaker>
+<p>No, nor you either.</p>
+</sp>
+<sp who="#L0234_1">
+<speaker>Pru.</speaker>
+<p>Uncle, I thank you for the lesson. <stage>(shaking hands)</stage> You're our
+only friend.</p>
+</sp>
+<sp who="#L0234_3">
+<speaker>Cot.</speaker>
+<p>As soon as we have got over the sale, you shall come down to us in the
+country, and the remainder of the five-and-twenty thousand pounds shall bear
+liberal interest in the business. Are you agreed?</p>
+</sp>
+<sp who="#L0234_1">
+<speaker>Pru.</speaker>
+<p>I embrace the offer with all my heart. I'll become a man of business—plunge
+into trade—open a shop—set up a stall at the corner of the street,—I don't care
+what; but an idle gentleman I'll be no more!</p>
+</sp>
+<sp who="#L0234_3">
+<speaker>Cot.</speaker>
+<p>And when you've grown older and wiser, you can return again, you know, to
+town.</p>
+</sp>
+<sp who="#L0234_2">
+<speaker>Plau.</speaker>
+<stage>(coming forward from table L.H.)</stage>
+<p>Certainly, we shall be delighted to see you, and if, in the meantime, there
+is any thing I can do for you, just drop me a line.</p>
+</sp>
+<sp who="#L0234_1">
+<speaker>Pru.</speaker>
+<p>I shall drop you over the bannister if you don't go.</p>
+</sp>
+<sp who="#L0234_2">
+<speaker>Plau.</speaker>
+<p>Don't put yourself to the slightest inconvenience on my account.
+<stage>(looks at watch)</stage> Dear me, I had no idea of the time. I have the
+honour to wish you good morning.</p>
+</sp>
+<stage>Exit L.D.F., bowing profoundly—all laugh.</stage>
+<sp who="#L0234_1">
+<speaker>Pru.</speaker>
+<p>The coxcomb! To think I should ever have been deceived by such a
+charlatan!</p>
+</sp>
+<sp who="#L0234_5">
+<speaker>Julia.</speaker>
+<p>Well, uncle, you have fairly saved your naughty nephew.</p>
+</sp>
+<sp who="#L0234_3">
+<speaker>Cot.</speaker>
+<p>Yes, and my no less naughty niece.</p>
+</sp>
+<sp who="#L0234_1">
+<speaker>Pru.</speaker>
+<p>Yes, Julia, my dear, you certainly have been very much to blame.</p>
+</sp>
+<sp who="#L0234_5">
+<speaker>Julia.</speaker>
+<p>I am sure, Charles, it has been much more your fault than mine. <stage>(to
+Audience)</stage> I appeal to the ladies.</p>
+</sp>
+<sp who="#L0234_1">
+<speaker>Pru.</speaker>
+<p>And I to the gentlemen.</p>
+</sp>
+<pb n="34"/>
+<sp who="#L0234_5">
+<speaker>Julia.</speaker>
+<p>What! <hi>divide</hi> the house? No—rather let us hope that on this occasion
+it will unanimously sanction the <hi>moral</hi> of our little play, that
+husbands and wives who wish their happiness to last, must practice caution—</p>
+</sp>
+<sp who="#L0234_1">
+<speaker>Pru.</speaker>
+<p>Prudence—</p>
+</sp>
+<sp who="#L0234_mult">
+<speaker>Julia and Pru.</speaker>
+<p>And not live too fast!</p>
+</sp>
+<stage>Cotton.<lb/>Julia.<lb/>Prudent.<lb/>R.<lb/>L.<lb/>Curtain.</stage>
+</div>
+</div>
+</body>
+</text>
+</TEI>
