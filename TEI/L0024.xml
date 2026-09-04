@@ -1,0 +1,1805 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L0024" xml:lang="en">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Jack In The Green;: TEI edition</title>
+<author ref="lacyp:W0171">
+<persName>Lemon, Mark</persName>
+<idno type="wikidata">Q680327</idno>
+</author>
+<respStmt>
+<resp>TEI conversion</resp>
+<name>Lou Burnard</name>
+</respStmt>
+</titleStmt>
+<publicationStmt>
+<distributor>Privately distributed by the Digital Lacy Project</distributor>
+<idno type="LAE">L0024</idno>
+<availability>
+<licence target="https://creativecommons.org/publicdomain/zero/1.0/">The Lacy
+Project waives all rights to the TEI encoding applied to this material, which it
+believes to be in the public domain. You may copy, modify, distribute, or
+perform this work freely. </licence>
+</availability>
+</publicationStmt>
+<sourceDesc>
+<bibl type="originalSource" n="2.9">
+<author n="W0171">Lemon, Mark</author>
+<title type="main">Jack in the Green; or, Hints on Etiquette</title>
+<title type="sub">An Original Farce in the Vulgar Tongue</title>
+<extent>18 pp (UM copy: 260 - 278)<measure type="pp" quantity="16"/>
+<measure type="spCount" quantity="305"/>
+<measure type="spvCount" quantity="1"/>
+<measure type="txWords" quantity="6236"/>
+<measure type="spWords" quantity="5661"/>
+<measure type="stWords" quantity="575"/>
+</extent>
+<title level="s"> Lacy's Acting Edition, volume 2, No. 0024</title>
+<idno type="nic">N14869</idno>
+<idno type="vpp">Vol02ixJack</idno>
+</bibl>
+<bibl type="surrogate" subtype="copytext">
+<ref target="https://lb42.github.io/Lacy/Source/VPP/L0024-vpp.pdf">LoB from
+VPP</ref>
+<ref target="local:Vol02/L0024/L0024-vpp.pdf"/>
+<ref target="local:Vol02/L0024/Vol02ixJack.pdf"/>
+</bibl>
+<bibl type="surrogate">
+<ref
+target="https://babel.hathitrust.org/cgi/pt?id=mdp.39015048540481&amp;seq=260 "
+>UM from HT</ref>
+<ref target="local:Vol02/L0024/L0024-um.pdf"/>
+</bibl>
+<listEvent>
+<event type="firstPerf" when="1850-05-23" source="textNic" where="Adelphi">
+<desc>Premiered at Royal Adelphi Theatre 23 May 1850</desc>
+</event>
+</listEvent>
+</sourceDesc>
+</fileDesc>
+<profileDesc>
+<!--S 0 Farce F. FARCE-->
+<textClass>
+<catRef target="#sizeS"/>
+<catRef target="#act0"/>
+<catRef target="nic:F."/>
+<keywords>
+<term>FARCE</term>
+</keywords>
+</textClass>
+<particDesc>
+<listPerson>
+<person xml:id="L0024_M1">
+<persName type="role">Mr. Durham</persName>
+<persName type="spkr" n="60">Dur.</persName>
+</person>
+<person xml:id="L0024_M2">
+<persName type="role">Jonas White</persName>
+<persName type="spkr" n="47">Jon.</persName>
+</person>
+<person xml:id="L0024_M3">
+<persName type="role">Fluey</persName>
+<persName type="spkr" n="8">Flu.</persName>
+</person>
+<person xml:id="L0024_M4">
+<persName type="role">Bob Bryanstone</persName>
+<persName type="spkr" n="95">Bry.</persName>
+</person>
+<person xml:id="L0024_M5">
+<persName type="role">John</persName>
+<persName type="spkr" n="7">John.</persName>
+</person>
+<person xml:id="L0024_M6">
+<persName type="role">Thomas</persName>
+<persName type="spkr" n="1">Thomas.</persName>
+</person>
+<person xml:id="L0024_F7">
+<persName type="role">Miss Durham</persName>
+<persName type="spkr" n="22">Miss D.</persName>
+</person>
+<person xml:id="L0024_F8">
+<persName type="role">Mrs. White</persName>
+<persName type="spkr" n="24">Mrs. W.</persName>
+</person>
+<person xml:id="L0024_F9">
+<persName type="role">Emma White</persName>
+<persName type="spkr" n="37">Emma.</persName>
+</person>
+<person xml:id="L0024_M10">
+<persName type="role">[Un-named Servant]</persName>
+<persName type="spkr" n="2">Serv.</persName>
+</person>
+<person xml:id="L0024_mult">
+<persName type="role">[Multiple speakers]</persName>
+<persName type="spkr" n="1">All.</persName>
+</person>
+</listPerson>
+</particDesc>
+</profileDesc>
+<revisionDesc>
+<change when="2026-08-31">Add wikidata link to titleStmt where possible</change>
+<change when="2026-08-30">Hand edited, checked against VPP source</change>
+<change when="2026-08-31">TEI autotagging by Gemini Pro 2.5</change>
+</revisionDesc>
+</teiHeader>
+<text>
+<front>
+<titlePage>
+<docTitle>
+<titlePart type="main">Jack In The Green;</titlePart>
+<titlePart type="sub">Or, Hints on Etiquette.</titlePart>
+<titlePart type="sub"> An original farce, in the Vulgar Tongue.</titlePart>
+</docTitle>
+<byline>By <docAuthor>Mark Lemon</docAuthor>, Author Of <title>" Gwyneth
+Vaughan," </title><title>" Hearts are Trumps," </title><title>" What Will The
+World Say," </title><title>" Domestic Economy,"</title> &amp;c. &amp;c.</byline>
+<docImprint> T. Hailes Lacy Wellington Street, Strand, London. </docImprint>
+</titlePage>
+<pb n="2"/>
+<performance>
+<p>First performed at the Royal Adelphi Theatre, on Thursday, May 23, 1850.</p>
+<castList>
+<head>Dramatis Personae</head>
+<castItem>
+<role gender="M">Mr. Durham</role>
+<actor>Mr. Boyce</actor>
+</castItem>
+<castItem>
+<role gender="M">Jonas White</role>
+<roleDesc>(a chimney sweep)</roleDesc>
+<actor>Mr. P. Bedford</actor>
+</castItem>
+<castItem>
+<role gender="M">Fluey</role>
+<roleDesc>(his man)</roleDesc>
+<actor>Mr. J. Sanders</actor>
+</castItem>
+<castItem>
+<role gender="M">Bob Bryanstone</role>
+<roleDesc>(a small coal dealer)</roleDesc>
+<actor>Mr. Wright</actor>
+</castItem>
+<castItem>
+<role gender="M">John</role>
+<actor>Mr. Linton</actor>
+</castItem>
+<castItem>
+<role gender="M">Thomas</role>
+<actor>Mr. Brown</actor>
+</castItem>
+<castItem>
+<role gender="F">Miss Durham</role>
+<actor>Miss E. Harding</actor>
+</castItem>
+<castItem>
+<role gender="F">Mrs. White</role>
+<actor>Mrs. Laws</actor>
+</castItem>
+<castItem>
+<role gender="F">Emma White</role>
+<actor>Miss E. Chaplin</actor>
+</castItem>
+</castList>
+<p>Time of Representation—50 Minutes.</p>
+</performance>
+<div type="costumes">
+<head>Costumes</head>
+<list type="costumes">
+<item><label>Mr. Durham</label>&gt;—Plain morning dress.</item>
+<item><label>Jonas White</label>&gt;—Velveteen knee breeches and coat.</item>
+<item><label>Fluey</label>&gt;—Ditto.</item>
+<item><label>Bryanstone</label>&gt;—First dress—Cord jacket and trousers;
+fantail hat. Second dress—Very gaudy waistcoat; blue coat and brass buttons;
+knee breeches, shoes, and gaiters.</item>
+<item><label>Miss Durham</label>&gt;—First dress—Morning robe. Second—Rich
+dress.</item>
+<item><label>Mrs. White</label>&gt;—Common costume of the day.</item>
+<item><label>Emma</label>&gt;—Ditto; gaudy shawl and bonnet.</item>
+</list>
+</div>
+<pb n="3"/>
+</front>
+
+<body>
+
+
+<div type="scene">
+<head>Scene I.</head>
+<stage>Interior of Jonas White's house. Peter Fluey is standing on his hands
+against the wall. Jonas is polishing a brass ladle. Emma is sewing the leaves on
+a " Jack in the Green," which is placed on a table R. Mrs. White is embroidering
+a coat with gilt paper L. The tables are covered with pieces of ribbons,
+coloured paper, &amp;c.</stage>
+<sp who="#L0024_M3">
+<speaker>Flu.</speaker>
+<p>I say, master, I think I can walk now.</p>
+</sp>
+<sp who="#L0024_M2">
+<speaker>Jon.</speaker>
+<p>Then try, Fluey, try ; your legs and arms was given you for that purpose.</p>
+</sp>
+<sp who="#L0024_M3">
+<speaker>Flu.</speaker>
+<stage>(walking on his hands)</stage>
+<p>Look there, governor. Shall I try a flip-flap ?</p>
+</sp>
+<sp who="#L0024_M2">
+<speaker>Jon.</speaker>
+<p>Try, Fluey, try ; every flip-flap on May-day's worth a ha'penny.
+<stage>(Fluey tries, and fails.)</stage> Do it again, Fluey. Perseverance
+conquers all things.</p>
+</sp>
+<sp who="#L0024_M3">
+<speaker>Flu.</speaker>
+<p>Well, gov'nor, I think I'll give over for the present; I've been standing on
+my head so long, that the world seems regularly turn'd upside down.</p>
+</sp>
+<sp who="#L0024_M2">
+<speaker>Jon.</speaker>
+<p>Well, take a turn or two in the yard, Fluey ; or, stay —go and see if the man
+who plays the orchestra is ready for to-morrow. When he was here this morning,
+he said that his little boy had stuffed up all the pipes of his mouth-organ with
+grey peas and cobblers' wax, and he was afraid had spiled the harmony.</p>
+</sp>
+<sp who="#L0024_M3">
+<speaker>Flu.</speaker>
+<p>I will, gov'nor, for I hardly know if I stand on my heels or my head.</p>
+<stage>Staggers off L. U. E.</stage>
+</sp>
+<sp who="#L0024_F8">
+<speaker>Mrs. W.</speaker>
+<p>Ah, Fluey is proud of his profession. He has a proper reverence for the first
+of May, and all its privileges.</p>
+</sp>
+<sp who="#L0024_M2">
+<speaker>Jon.</speaker>
+<p>You're right, my dear—he's not like some people as I could mention, who
+thinks chimley sweeping low, and considers small coals and wegetables more
+haristocratick.</p>
+</sp>
+<sp who="#L0024_F8">
+<speaker>Mrs. W.</speaker>
+<p><hi>He </hi>couldn't wear such a thing as this <stage>(holds up the
+coat)</stage> , tho' it's the moral of the sheriff's footman as I saw behind the
+carriages.</p>
+</sp>
+<sp who="#L0024_M2">
+<speaker>Jon.</speaker>
+<p>Oh, no ! <hi>he's</hi> too genteel for that, <hi>he</hi> is.</p>
+</sp>
+<sp who="#L0024_F9">
+<speaker>Emma.</speaker>
+<p>Father! mother! I wonder you can be so unkind, <pb n="4"/>I do—Bob Bryanstone
+don't deserve to be abused, and especially by us, I am sure. Who takes us out on
+a Sunday in his cart ?—Bob Bryanstone. Who, when father was ill, sat up with him
+night after night ?—Bob Bryanstone. Who—</p>
+</sp>
+<sp who="#L0024_M2">
+<speaker>Jon.</speaker>
+<p>There, there, Emma; I was wrong—your mother was wrong.</p>
+</sp>
+<sp who="#L0024_F8">
+<speaker>Mrs. W.</speaker>
+<p>No, she wasn't. You may be wrong, if you like, and own it, but I never
+will.</p>
+</sp>
+<sp who="#L0024_M2">
+<speaker>Jon.</speaker>
+<p>You never do, my dear.</p>
+</sp>
+<sp who="#L0024_F8">
+<speaker>Mrs. W.</speaker>
+<p>Mr. Bryanstone is a good fellow enough—at times—but I hate his pride ; he
+doesn't mind being " Jack in the Green," because then he's in fog.</p>
+</sp>
+<sp who="#L0024_M2">
+<speaker>Jon.</speaker>
+<p><hi>Incog</hi>, my dear ; <hi>cog</hi>, not fog.</p>
+</sp>
+<sp who="#L0024_F8">
+<speaker>Mrs. W.</speaker>
+<p>Well, it's all the same. So poor old Fluey has been obliged to take to clown,
+and give up his old part of Jack, because Mr. Bryanstone won't do nothing else.
+Ain't that true, Emma ?</p>
+</sp>
+<sp who="#L0024_F9">
+<speaker>Emma.</speaker>
+<p>Quite, mother ; and it is because my dear Bob is going to be Jack in the
+Green, that not a finger but mine shall stitch a leaf on it.</p>
+</sp>
+<sp who="#L0024_F8">
+<speaker>Mrs. W.</speaker>
+<p>Oh, there's a herowine for you, Mr. White. I tell you, Hemmar, it's my
+opinion you stopp'd at that day-school a quarter too long.</p>
+</sp>
+<sp who="#L0024_F9">
+<speaker>Emma.</speaker>
+<p>Never mind, mother. Bryanstone likes me for it —and here he comes.</p>
+</sp>
+<stage>Enter Bob Bryanstone, door L. 2nd E.</stage>
+<sp who="#L0024_M4">
+<speaker>Bry.</speaker>
+<p>Good mornin', Mr. White—good mornin', Mrs. White—Hemma, good mornin'.</p>
+</sp>
+<sp who="#L0024_F9">
+<speaker>Emma.</speaker>
+<p>Good morning. See, I've nearly finished it.</p>
+</sp>
+<sp who="#L0024_F8">
+<speaker>Mrs. W.</speaker>
+<p>Ah, Mr. Bryanstone, it's a pity you wouldn't give your thoughts to My Lord.
+<stage>(Shows coat.)</stage> There's a garment, as might have been the
+coronation robe of George IV.</p>
+</sp>
+<sp who="#L0024_M4">
+<speaker>Bry.</speaker>
+<p>I say, Mr. White—I've been thinking—you'll excuse what I'm going to say,
+though ?</p>
+</sp>
+<sp who="#L0024_M2">
+<speaker>Jon.</speaker>
+<p>Certainly.</p>
+</sp>
+<sp who="#L0024_M4">
+<speaker>Bry.</speaker>
+<p>I've been thinking, Mr. White, that since the legislature has put down
+chimbley sweepers, and helevated your profession into Ramonuring, whether this
+going out on May-day isn't the wrong side of respectable ?</p>
+</sp>
+<sp who="#L0024_M2">
+<speaker>Jon.</speaker>
+<p>What?</p>
+</sp>
+<sp who="#L0024_F8">
+<speaker>Mrs. W.</speaker>
+<p>What?</p>
+</sp>
+<sp who="#L0024_F9">
+<speaker>Emma.</speaker>
+<p>Oh, Bryanstone, when I'm to be " my lady."</p>
+</sp>
+<sp who="#L0024_M4">
+<speaker>Bry.</speaker>
+<p>Not with my consent, Hemma ; I couldn't abear to see you in a frock and
+trousers, covered with hartificial flowers, and flourishing a brass ladle—I
+couldn't.</p>
+</sp>
+<sp who="#L0024_F8">
+<speaker>Mrs. W.</speaker>
+<p>Mr. Bryanstone, if you've come here to set my child—</p>
+</sp>
+<sp who="#L0024_M2">
+<speaker>Jon.</speaker>
+<p>Hush, my dear, this is a masculine matter. Just listen to me. Hem ! Mr.
+Bryanstone—</p>
+</sp>
+<pb n="5"/>
+<sp who="#L0024_M4">
+<speaker>Bry.</speaker>
+<p>Sir to you.</p>
+</sp>
+<sp who="#L0024_M2">
+<speaker>Jon.</speaker>
+<p>Among the proudest institutions of this favoured country is—chimbley
+sweeping—which, when I was a little boy, and swept copper flues, I looked upon
+as part of our glorious constitution, whatever that may be. Since then
+innowation has done its work—first, they nail'd brass door plates on to our
+foreheads—</p>
+</sp>
+<sp who="#L0024_F9">
+<speaker>Emma.</speaker>
+<p>La! father. How cruel!</p>
+</sp>
+<sp who="#L0024_M4">
+<speaker>Bry.</speaker>
+<p>Hush, Hemma, he's only flowery.</p>
+</sp>
+<sp who="#L0024_M2">
+<speaker>Jon.</speaker>
+<p>Then they took away our brushes and scrapers—wiped us out of the London
+Directory, and made us into Ramoneurers.</p>
+</sp>
+<sp who="#L0024_M4">
+<speaker>Bry.</speaker>
+<p>And he prefers sweep, Emma—he objects to your being the daughter of a
+Ramoneur.</p>
+</sp>
+<sp who="#L0024_M2">
+<speaker>Jon.</speaker>
+<p>I do. Sweep I was born—sweep I was bred—and sweep I will die.</p>
+</sp>
+<sp who="#L0024_F8">
+<speaker>Mrs. W.</speaker>
+<p>Bravo, old man!</p>
+</sp>
+<sp who="#L0024_M2">
+<speaker>Jon.</speaker>
+<p>Sweeps and the first of May seems as natural as plum pudding on Christmas
+day, and by that I stands.</p>
+</sp>
+<sp who="#L0024_M4">
+<speaker>Bry.</speaker>
+<p>And quite right, Mr. White. But as I'm not a sweep —ramoneurer—now, I can't
+be blamed if your sooty notions don't suit me.</p>
+</sp>
+<sp who="#L0024_F9">
+<speaker>Emma.</speaker>
+<p>Why not, Bob: what harm can there be in your doing as father does ?</p>
+</sp>
+<sp who="#L0024_F8">
+<speaker>Mrs. W.</speaker>
+<p>What, indeed! A better man than ever stood in his shoes.</p>
+</sp>
+<sp who="#L0024_M4">
+<speaker>Bry.</speaker>
+<p>I've no doubt Lord Montague was told the same thing, Mrs. White.</p>
+</sp>
+<sp who="#L0024_F8">
+<speaker>Mrs. W.</speaker>
+<p>And who's Lord Montague, I should like to know?</p>
+</sp>
+<sp who="#L0024_M2">
+<speaker>Jon.</speaker>
+<p>The only nobleman as was ever know'd to belong to our profession.</p>
+</sp>
+<sp who="#L0024_M4">
+<speaker>Bry.</speaker>
+<p>At present, Mrs. White. I—I have been in the line.</p>
+</sp>
+<sp who="#L0024_F8">
+<speaker>Mrs. W.</speaker>
+<p>Well, what's that to do with it ?</p>
+</sp>
+<sp who="#L0024_M4">
+<speaker>Bry.</speaker>
+<p>Do you know my story, Mrs. White ?</p>
+</sp>
+<sp who="#L0024_F9">
+<speaker>Emma.</speaker>
+<p>No, Bob, do tell us.</p>
+</sp>
+<sp who="#L0024_M4">
+<speaker>Bry.</speaker>
+<p>I'm speaking to your mam—your mother.</p>
+</sp>
+<sp who="#L0024_F8">
+<speaker>Mrs. W.</speaker>
+<p>Well, since I must speak, I've heard you were a fondling.</p>
+</sp>
+<sp who="#L0024_M4">
+<speaker>Bry.</speaker>
+<p>No, ma'am, not a fondling—I was not left like a basket of game at anybody's
+door. I don't look upon myself as a fondling—I consider I'm a pledge.</p>
+</sp>
+<sp who="#L0024_F9">
+<speaker>Emma.</speaker>
+<p>A pledge!</p>
+</sp>
+<sp who="#L0024_M4">
+<speaker>Bry.</speaker>
+<p>Yes, dear, a pledge of affection, that is some day to be redeemed.</p>
+</sp>
+<sp who="#L0024_M2">
+<speaker>Jon.</speaker>
+<p>I don't understand you.</p>
+</sp>
+<sp who="#L0024_M4">
+<speaker>Bry.</speaker>
+<p>I don't see how you should, at present. You remember old Brown, the kind old
+fellow as brought me up.</p>
+</sp>
+<sp who="#L0024_M2">
+<speaker>Jon.</speaker>
+<p>Of course I do ; we was fellow 'prentices together.</p>
+</sp>
+<sp who="#L0024_M4">
+<speaker>Bry.</speaker>
+<p>Do you know how I came into his possession ?</p>
+</sp>
+<pb n="6"/>
+<sp who="#L0024_M2">
+<speaker>Jon.</speaker>
+<p>No ; he and me had a quarrel about a chimbley that was on fire, and we never
+spoke arterwards. How was it ?</p>
+</sp>
+<sp who="#L0024_M4">
+<speaker>Bry.</speaker>
+<p>On the 1st of April, 1825, old Brown was crying Sweep ! in Bryanstone
+Square―</p>
+</sp>
+<sp who="#L0024_M2">
+<speaker>Jon.</speaker>
+<p>Ah! we mus'n't cry now.</p>
+</sp>
+<sp who="#L0024_F9">
+<speaker>Emma.</speaker>
+<p>Be quiet, father.</p>
+</sp>
+<sp who="#L0024_M4">
+<speaker>Bry.</speaker>
+<p>When a remarkable fine woman appeared on a sudden, holding in her hand a
+remarkable handsome child.</p>
+</sp>
+<sp who="#L0024_F9">
+<speaker>Emma.</speaker>
+<p>Dear me, how strange—it's as good as a penny novel.</p>
+</sp>
+<sp who="#L0024_M4">
+<speaker>Bry.</speaker>
+<p>" My good man," says the remarkable fine woman, " will you keep your eye on
+the little boy for five minutes ?" pinting at the same time to the remarkable
+handsome child in her hand. Old Brown agreed to do so.</p>
+</sp>
+<sp who="#L0024_F9">
+<speaker>Emma.</speaker>
+<p>Well, go on.</p>
+</sp>
+<sp who="#L0024_M4">
+<speaker>Bry.</speaker>
+<p>Old Brown kept keeping his eye on that child for two and twenty years, for
+the remarkable fine woman never came to look arter it any more. Mr. White ! Mrs.
+White! Emma! that child stands afore you.</p>
+</sp>
+<sp who="#L0024_mult">
+<speaker>All.</speaker>
+<p>You !</p>
+</sp>
+<sp who="#L0024_F8">
+<speaker>Mrs. W.</speaker>
+<p>And who was the wretch of a mother ?</p>
+</sp>
+<sp who="#L0024_M4">
+<speaker>Bry.</speaker>
+<p>At present that's like the drainage of London—that's to be found out ; as I
+couldn't talk, I couldn't tell old Brown my name and direction ; so he called me
+Bob, after himself, and Bryanstone, after the place of my diskivery.</p>
+</sp>
+<sp who="#L0024_F9">
+<speaker>Emma.</speaker>
+<p>But, Bob, what has that to do with Lord Montague ?</p>
+</sp>
+<sp who="#L0024_F8">
+<speaker>Mrs. W.</speaker>
+<p>That's what I want to know.</p>
+</sp>
+<sp who="#L0024_M4">
+<speaker>Bry.</speaker>
+<p>This : it was always old Brown's opinion, that I'm not in my proper
+<hi>spear</hi>, and as old Brown left me all he had in the world, I've come in
+to that opinion into the bargain.</p>
+</sp>
+<sp who="#L0024_M2">
+<speaker>Jon.</speaker>
+<p>But what made him think so ?</p>
+</sp>
+<sp who="#L0024_M4">
+<speaker>Bry.</speaker>
+<p>What! Why, Brown had swept in the best families, and he always said there was
+a particular mark about people in high life. Now, I've a particular mark—here,
+on my right arm.</p>
+</sp>
+<sp who="#L0024_F8">
+<speaker>Mrs. W.</speaker>
+<p>La, what is it ?</p>
+</sp>
+<sp who="#L0024_M4">
+<speaker>Bry.</speaker>
+<p>Why, it's uncommon like a duck and green peas, and that's not a dish for the
+wulgar.</p>
+</sp>
+<sp who="#L0024_M2">
+<speaker>Jon.</speaker>
+<p>No, that's rather haristocratick, I acknowledge.</p>
+</sp>
+<sp who="#L0024_M4">
+<speaker>Bry.</speaker>
+<p>Every day I looks into the <hi>Times</hi> newspaper, to see if I'm " wanted,"
+but at present nothing's come up to my description. I called in at the
+public-house next door before I came in, but the paper was in hand ; so, if
+Hemma wouldn't mind fetching a pot of beer, and borrowing the paper, we can look
+over it together.</p>
+</sp>
+<sp who="#L0024_F9">
+<speaker>Emma.</speaker>
+<p>I'll go, Bob, with pleasure. La, what fun it would be if you should turn out
+a real nobleman after all.</p>
+</sp>
+<stage>Exit D. L., 2nd E.</stage>
+<sp who="#L0024_M4">
+<speaker>Bry.</speaker>
+<p>That's i t ; now, you see, Mr. White, what's my reason for not wishing to be
+" My Lord" on the 1st of May. If <pb n="7"/>I should take my seat in the House
+of Peers, I shouldn't like to be called Lord Chummy.</p>
+</sp>
+<stage>Re-enter Emma, with beer and newspaper, at D. L. 2nd E.</stage>
+<sp who="#L0024_F9">
+<speaker>Emma.</speaker>
+<p>Here's the paper, Bob, and the porter.</p>
+</sp>
+<sp who="#L0024_M4">
+<speaker>Bry.</speaker>
+<p>Hand that to your parents <stage>(she gives beer to Jonas.)</stage>
+</p>
+</sp>
+<sp who="#L0024_M2">
+<speaker>Jon.</speaker>
+<p>Well, my lord, here's wishing you may live till you come into your title and
+property—ha, ha— <stage>(drinks.)</stage>
+</p>
+</sp>
+<sp who="#L0024_M4">
+<speaker>Bry.</speaker>
+<stage>(reads)</stage>
+<p>" No door mat to-night"—that's nothing. " Edward, please to send back the key
+of the tea caddy,"—that's nothing, either. " To Parish Clerks : Wanted, the
+register of the marriage of William Wiggins, shoemaker, and"—that don't concern
+me. Eh! what's this ? " If the young man who was consigned 25 years ago to the
+care of an individual in Bryanstone Square,"—that's me ; here, give me some
+porter, <stage>(drinks)</stage> " and who has a singular mark upon the right
+arm," Duck and green peas is singular! " will be prudent, his claim to title and
+fortune will be acknowledged. He will hear from—a—friend" <stage>(appears
+overpowered.)</stage>
+</p>
+</sp>
+<sp who="#L0024_F9">
+<speaker>Emma.</speaker>
+<p>He's owned at last. O dear, how glad I am.</p>
+</sp>
+<sp who="#L0024_M4">
+<speaker>Bry.</speaker>
+<stage>(recovering)</stage>
+<p>Where's the paper ? <stage>(reads rapidly)</stage> " If the young man who was
+consigned 25 years ago to an individual"—O, if old Brown could but know this! if
+he could only but see me in my coronet and coat of arms ! if he could hear me
+drink health in red port wine <stage>(walks about.)</stage>
+</p>
+</sp>
+<sp who="#L0024_F8">
+<speaker>Mrs. W.</speaker>
+<stage>(to Jonas)</stage>
+<p>His head's turned.</p>
+</sp>
+<sp who="#L0024_M4">
+<speaker>Bry.</speaker>
+<p>I'll give away my coals and taturs to the poor-—I'll shut up the shop ; no, I
+won't, I'll pay some poor devil a shilling to do it. Eh, Hemma, I'm a cut above
+that now, I fancy ?</p>
+</sp>
+<sp who="#L0024_F9">
+<speaker>Emma.</speaker>
+<p>Yes, Bob.</p>
+</sp>
+<sp who="#L0024_M2">
+<speaker>Jon.</speaker>
+<stage>(ironically)</stage>
+<p>Lord Bob, my dear.</p>
+</sp>
+<sp who="#L0024_M4">
+<speaker>Bry.</speaker>
+<p>Why, Hemma, you don't seem pleased at my good luck—why, you're crying!</p>
+</sp>
+<sp who="#L0024_F9">
+<speaker>Emma.</speaker>
+<p>Am I, Bob ? Lord Bob, I mean.</p>
+</sp>
+<sp who="#L0024_M4">
+<speaker>Bry.</speaker>
+<p>What's the matter ? Speak, Hemma.</p>
+</sp>
+<sp who="#L0024_F9">
+<speaker>Emma.</speaker>
+<p>Why, I was thinking that now you're a nobleman you will think me beneath you,
+and that's a hard thought from one, you have loved long and truly.</p>
+</sp>
+<sp who="#L0024_M4">
+<speaker>Bry.</speaker>
+<p>Think you beneath me, Hemma! Never, never! if I wear a hermine robe you shall
+wear a hermine tippet. If I wear a golden coronet you shall wear Prince of
+Wales's feathers, I'll make you a lady, Hemma, if they make me a lord.</p>
+</sp>
+<sp who="#L0024_F9">
+<speaker>Emma.</speaker>
+<stage>(embracing him)</stage>
+<p>Oh, Bob ! Bob ! Bobby !</p>
+</sp>
+<stage>Enter Servant, D. 2nd E. L.</stage>
+<sp who="#L0024_M10">
+<speaker>Serv.</speaker>
+<p>I beg pardon, is Mr. Bryanstone here ?</p>
+</sp>
+<sp who="#L0024_M4">
+<speaker>Bry.</speaker>
+<p>Yes, here he is, at your service.</p>
+</sp>
+<sp who="#L0024_M10">
+<speaker>Serv.</speaker>
+<stage>(takes off hat)</stage>
+<p>A letter from my master, sir, Mr. Durham.</p>
+</sp>
+<stage>Exit.</stage>
+<sp who="#L0024_M4">
+<speaker>Bry.</speaker>
+<p>Mr. Durham! that's the kind gent. in the Temple, <pb n="8"/>as I serves with
+coals, half a sack a week reg'lar, and pays ready money. I suppose he's heard of
+my good luck <stage>(reads note deliberately)</stage> , "There's an
+advertisement in the Times to-day, which nearly concerns you." I should think
+so. "I am the friend alluded to." Him is he ? "Come to me directly at 21,
+Bellevue Square, and bring with you the young woman of whom I have heard you
+speak so often." That's you, Hemma—Mr. Durham's my confident adviser. "I inclose
+you ten pounds, so that you may both make a good appearance.—Charles Durham."
+Huzza! there's no mistake in this. Come, get ready directly.</p>
+</sp>
+<sp who="#L0024_F9">
+<speaker>Emma.</speaker>
+<p>La, Bob, I wonder what he wants me for.</p>
+</sp>
+<sp who="#L0024_M4">
+<speaker>Bry.</speaker>
+<p>That's his business. Good bye, White—good bye, Mrs. White. <stage>(Kisses
+her. Emma puts on bonnet and shawl.)</stage> Come, Hemma, make haste.</p>
+</sp>
+<sp who="#L0024_M2">
+<speaker>Jon.</speaker>
+<p>But, I say— you'll still be "Jack in the Green " ?</p>
+</sp>
+<sp who="#L0024_M4">
+<speaker>Bry.</speaker>
+<p>The devil take Jack in the Green! You don't suppose I'm going to put an
+extinguisher upon myself. Come, Hemma!</p>
+</sp>
+<stage>Exeunt L. 2nd E.</stage>
+<sp who="#L0024_M2">
+<speaker>Jon.</speaker>
+<p>Here, Emma, come back! You sha'n't marry a man who sends "Jack in the Green "
+to the devil.</p>
+</sp>
+<stage>Exit D. 2nd E. L.</stage>
+</div>
+<div type="scene">
+<head>Scene II.—A Room in Mr. Durham's House.</head>
+<stage>Enter Miss Durham L. H. 1st E.</stage>
+<sp who="#L0024_F7">
+<speaker>Miss D.</speaker>
+<stage>(with note)</stage>
+<p>How very inconsiderate of Charles to invite some "very particular persons "
+here, when he knows papa and mamma are both at Hastings ; but here is my brother
+to clear up the mystery.</p>
+</sp>
+<stage>Enter Mr. Durham L. H. 1st E.</stage>
+<sp who="#L0024_M1">
+<speaker>Dur.</speaker>
+<p>Well, Julia, my dear. <stage>(Kisses her.)</stage>
+</p>
+</sp>
+<sp who="#L0024_F7">
+<speaker>Miss D.</speaker>
+<p>You naughty boy, what is the meaning of all this ? Why have you not invited
+your particular friends to your club or your chambers ?</p>
+</sp>
+<sp who="#L0024_M1">
+<speaker>Dur.</speaker>
+<p>Because I should have thrown away my time and my dinner. By your assistance,
+July, I intend to-day to work a great moral revolution.</p>
+</sp>
+<sp who="#L0024_F7">
+<speaker>Miss D.</speaker>
+<p>What do you mean, Charles ?</p>
+</sp>
+<sp who="#L0024_M1">
+<speaker>Dur.</speaker>
+<p>You remember last winter I had the good fortune to fall through the ice in
+St. James's Park ?</p>
+</sp>
+<sp who="#L0024_F7">
+<speaker>Miss D.</speaker>
+<p>Shall I ever forget it! We were all frightened nearly to death.</p>
+</sp>
+<sp who="#L0024_M1">
+<speaker>Dur.</speaker>
+<p>I told you that a brave fellow dragged me out at the risk of his own
+life.</p>
+</sp>
+<pb n="9"/>
+<sp who="#L0024_F7">
+<speaker>Miss D.</speaker>
+<p>Yes, he was a poor man that dealt in coals and vegetables.</p>
+</sp>
+<sp who="#L0024_M1">
+<speaker>Dur.</speaker>
+<p>Now, that is one of the particular friends I have invited here to-day.</p>
+</sp>
+<sp who="#L0024_F7">
+<speaker>Miss D.</speaker>
+<p>Indeed! I should have thought, though he is entitled to your gratitude, that
+you could have acknowledged your obligation in some way more agreeable to
+him.</p>
+</sp>
+<sp who="#L0024_M1">
+<speaker>Dur.</speaker>
+<p>I think to serve him materially by doing as I propose. You must know that he
+has made me his confidant. He tells me he is prospering in his business—that he
+loves a young woman in the same sphere as himself, one who is calculated to make
+him a good wife,—and yet he is discontented and unhappy.</p>
+</sp>
+<sp who="#L0024_F7">
+<speaker>Miss D.</speaker>
+<p>How so ?</p>
+</sp>
+<sp who="#L0024_M1">
+<speaker>Dur.</speaker>
+<p>Because he believes himself to be a nobleman in disguise.</p>
+</sp>
+<sp who="#L0024_F7">
+<speaker>Miss D.</speaker>
+<p>Ha ! ha! on what reason, pray ?</p>
+</sp>
+<sp who="#L0024_M1">
+<speaker>Dur.</speaker>
+<p>Simply because he was abandoned when a child in the neighbourhood of
+Bryanstone Square. The old man—a sweep—who charged himself with his nurture,
+always entertained this opinion, and contrived to instil the same absurd notion
+into poor Bob's head. I have a plan to-day to free him from this bugbear, if you
+will aid me.</p>
+</sp>
+<sp who="#L0024_F7">
+<speaker>Miss D.</speaker>
+<p>Willingly, dear Charles ; what do you want me to do?</p>
+</sp>
+<sp who="#L0024_M1">
+<speaker>Dur.</speaker>
+<p>Simply to make yourself as much of a very fine lady as you possibly can, and
+receive my friend Bryanstone and his young "ooman," as he calls her. I have put
+an advertisement in the Times, which I know he has read, and I have sent for him
+here, and if I can effect his cure I shall be heartily glad, for he is a very
+worthy fellow, I assure you.</p>
+</sp>
+<sp who="#L0024_F7">
+<speaker>Miss D.</speaker>
+<p>I will get ready immediately, and trust that your plan will not fail from any
+deficiency on my part.</p>
+</sp>
+<stage>Exit R. H. 1st E.</stage>
+<sp who="#L0024_M1">
+<speaker>Dur.</speaker>
+<p>Oh, I have no fear of that.</p>
+</sp>
+<stage>Enter John L. 1st E.</stage>
+<sp who="#L0024_M1">
+<speaker>Dur.</speaker>
+<p>Now, John, you will follow my directions—be particularly respectful to these
+visitors, and if you conduct yourself properly without giggling, or any other
+impertinence, I will give you half a sovereign.</p>
+</sp>
+<sp who="#L0024_M5">
+<speaker>John.</speaker>
+<p>You may depend upon me, sir.</p>
+</sp>
+<sp who="#L0024_M1">
+<speaker>Dur.</speaker>
+<p>Was not that the bell ?</p>
+</sp>
+<sp who="#L0024_M5">
+<speaker>John.</speaker>
+<p>Yes, sir ; do you think they'll come with a ring ?</p>
+</sp>
+<sp who="#L0024_M1">
+<speaker>Dur.</speaker>
+<p>Most likely; go and see who it is at the door. <stage>(Exit John.)</stage>
+Poor Bob, it will be rather a cruel experiment if it fails, but the end I have
+in view justifies the means. Now to assume the<hi> arbiter
+elegantiarum</hi>.</p>
+</sp>
+<stage>Enter John L. H. 1st E., followed by Bob and Emma. Bob is dressed in full
+costermonger costume, and Emma has a very fine shawl and bonnet.</stage>
+<sp who="#L0024_M5">
+<speaker>John.</speaker>
+<p>Mr. Bryanstone and Miss White.</p>
+</sp>
+<stage>Exit John, after placing chairs.</stage>
+<stage>Bob and Emma bow and curtsey.</stage>
+<sp who="#L0024_M1">
+<speaker>Dur.</speaker>
+<p>Ah, Bryanstone, I'm very glad to see you. Miss White, I am happy to make your
+acquaintance.</p>
+</sp>
+<sp who="#L0024_M4">
+<speaker>Bry.</speaker>
+<p>You're werry kind, I'm sure, sir.</p>
+</sp>
+<sp who="#L0024_M1">
+<speaker>Dur.</speaker>
+<p>I am glad to be first to congratulate you on your prospect of good fortune.
+<stage>(To Emma)</stage> Pray be seated. <stage>(Emma, after a moment, sits R.
+on the edge of the chair.)</stage> Bryanstone, take a seat.</p>
+</sp>
+<sp who="#L0024_M4">
+<speaker>Bry.</speaker>
+<stage>(looking at the taberet on chair)</stage>
+<p>What, is this to sit down upon ?</p>
+</sp>
+<sp who="#L0024_M1">
+<speaker>Dur.</speaker>
+<p>Certainly.</p>
+</sp>
+<sp who="#L0024_M4">
+<speaker>Bry.</speaker>
+<p>Why, it looks to me fine enough for a Sunday waistcoat. <stage>(Spreads his
+pocket handkerchief on the chair, and sits C.)</stage>
+</p>
+</sp>
+<sp who="#L0024_M1">
+<speaker>Dur.</speaker>
+<stage>(L.)</stage>
+<p>I dare say you are anxious to know to whom you are <hi>supposed</hi> to be
+allied ?</p>
+</sp>
+<sp who="#L0024_M4">
+<speaker>Bry.</speaker>
+<p>What, who my unnatural parents was ? Why, yes, sir.</p>
+</sp>
+<sp who="#L0024_M1">
+<speaker>Dur.</speaker>
+<p>Did you ever hear of the Earl of Eaglesdown ?</p>
+</sp>
+<sp who="#L0024_M4">
+<speaker>Bry.</speaker>
+<p>I can't say as I have. My acquaintance hasn't run much in that line at
+present.</p>
+</sp>
+<sp who="#L0024_M1">
+<speaker>Dur.</speaker>
+<p>You are conjectured to be an Eaglesdown.</p>
+</sp>
+<sp who="#L0024_M4">
+<speaker>Bry.</speaker>
+<p>Me!</p>
+</sp>
+<sp who="#L0024_F9">
+<speaker>Emma.</speaker>
+<p>What, Bob?</p>
+</sp>
+<sp who="#L0024_M1">
+<speaker>Dur.</speaker>
+<p>The heir of that illustrious house was stolen by his nurse. A recent
+confession made by the unhappy delinquent, points you out as the missing
+individual.</p>
+</sp>
+<sp who="#L0024_M4">
+<speaker>Bry.</speaker>
+<p>My eye! Did she say anything about the duck and green peas ?</p>
+</sp>
+<sp who="#L0024_M1">
+<speaker>Dur.</speaker>
+<p>There your imagination has deceived you. The mark to which you allude, was
+supposed to resemble a phoenix, the family crest of the Countess Eaglesdown.</p>
+</sp>
+<sp who="#L0024_M4">
+<speaker>Bry.</speaker>
+<p>Lord bless me! I never know'd that noblemen's children was engraved with the
+family crest, like silver spoons, afore.</p>
+</sp>
+<sp who="#L0024_M1">
+<speaker>Dur.</speaker>
+<p>It was a singular coincidence. I have arranged with the Earl to introduce you
+to him to-morrow, should some inquiries now making corroborate our present
+expectations. I was therefore anxious to see you, that I might give you a few
+Hints on Etiquette, necessary to be observed on your introduction to his
+lordship, who is a most particular man.</p>
+</sp>
+<sp who="#L0024_M4">
+<speaker>Bry.</speaker>
+<p>Hints on what, did you say ?</p>
+</sp>
+<pb n="11"/>
+<sp who="#L0024_M1">
+<speaker>Dur.</speaker>
+<p>Etiquette—the mode of conducting yourself properly.</p>
+</sp>
+<sp who="#L0024_M4">
+<speaker>Bry.</speaker>
+<p>Oh, I see, Hemma. We're to have a sort of rehearsal, the same as they're to
+have at home to-night with the drum and shovels, and the "Jack in the
+Green."</p>
+</sp>
+<sp who="#L0024_F9">
+<speaker>Emma.</speaker>
+<p>Oh !</p>
+</sp>
+<sp who="#L0024_M1">
+<speaker>Dur.</speaker>
+<p>My dear Bryanstone, make as few allusions as possible to your old avocations.
+The Earl is a remarkably proud man.</p>
+</sp>
+<sp who="#L0024_M4">
+<speaker>Bry.</speaker>
+<p>Is he ? But I suppose he'll be glad to see me—he can't find a son every
+day.</p>
+</sp>
+<sp who="#L0024_F9">
+<speaker>Emma.</speaker>
+<p>'Specially such a one as you, Bob.</p>
+</sp>
+<sp who="#L0024_M4">
+<speaker>Bry.</speaker>
+<p>Thank you, Hemma. If he puts your vally upon me he won't think much of the
+Bank of England. I suppose he knows about my bringings up ?</p>
+</sp>
+<sp who="#L0024_M1">
+<speaker>Dur.</speaker>
+<p>I ventured to hint that you were a member of the Coal Exchange, and had
+speculated in vegetables ; but he seemed so pained at the avowal, that I did not
+enter into particulars. It was to spare him as much as possible that I wish to
+drill you a little. I sent you some money, in order that you might make a proper
+appearance. Why have you not done so ?</p>
+</sp>
+<sp who="#L0024_M4">
+<speaker>Bry.</speaker>
+<p>Why, haven't I done so, sir? <stage>(exhibits himself.)</stage> Surely, you
+don't call this nothing! Why, this is the new cut in Westminster!</p>
+</sp>
+<sp who="#L0024_M1">
+<speaker>Dur.</speaker>
+<p>I'm afraid your taste and the Earl's will not agree.</p>
+</sp>
+<sp who="#L0024_M4">
+<speaker>Bry.</speaker>
+<p>Werry well, I can't help that. If he's been brought up in ignorance of what's
+the kick, I can't help it.</p>
+</sp>
+<sp who="#L0024_M1">
+<speaker>Dur.</speaker>
+<p>And pray, is Miss White's bonnet and shawl her own selection ?</p>
+</sp>
+<sp who="#L0024_M4">
+<speaker>Bry.</speaker>
+<p>No, them's mine ; and I should like to see any Earless in the kingdom look
+better or finer for the money.</p>
+</sp>
+<sp who="#L0024_M1">
+<speaker>Dur.</speaker>
+<p>To look prettier than Miss White is impossible ; but my friend, Lady
+Routlead, must instruct her better as to dress.</p>
+</sp>
+<sp who="#L0024_F9">
+<speaker>Emma.</speaker>
+<p>I'm sure, sir, I don't see what there's to find fault with. Bob likes me as I
+am, and I shouldn't like to be altered.</p>
+</sp>
+<sp who="#L0024_M4">
+<speaker>Bry.</speaker>
+<p>And I shouldn't like it either, Hemma. Don't you fret: I've a better opinion
+of the Earl of Eaglesdown—that is, if he is my father.</p>
+</sp>
+<sp who="#L0024_M1">
+<speaker>Dur.</speaker>
+<p>But what shall we do till dinner-time ? Can you play at billiards ?</p>
+</sp>
+<sp who="#L0024_M4">
+<speaker>Bry.</speaker>
+<p>Why no, sir, I never tried billiards ; but if you've a good dry skittle
+ground handy, I'm your man.</p>
+</sp>
+<sp who="#L0024_M1">
+<speaker>Dur.</speaker>
+<p>Hush, my good fellow ; if you were to mention skittles in the Earl's hearing,
+you'd bring on a fit of apoplexy.</p>
+</sp>
+<stage>Enter Miss Durham, R. H. 1st E.</stage>
+<sp who="#L0024_M1">
+<speaker>Dur.</speaker>
+<p>Oh, here is Lady Routlead. This is Mr. Bryanstone—and this, Miss White.</p>
+</sp>
+<pb n="12"/>
+<sp who="#L0024_F7">
+<speaker>Miss D.</speaker>
+<stage>(haughtily)</stage>
+<p>Oh! the young persons in whose welfare you take an interest: Very
+<hi>gauche</hi>.</p>
+</sp>
+<sp who="#L0024_M4">
+<speaker>Bry.</speaker>
+<stage>(aside)</stage>
+<p>What's that?</p>
+</sp>
+<sp who="#L0024_M1">
+<speaker>Dur.</speaker>
+<p>Awkward—that's what your ladyship means ?</p>
+</sp>
+<sp who="#L0024_F7">
+<speaker>Miss D.</speaker>
+<p>Yes. <stage>(examines Emma.)</stage>
+</p>
+</sp>
+<sp who="#L0024_M1">
+<speaker>Dur.</speaker>
+<p>Your bow is not the thing. The Earl would be horrified. Try something more in
+this way <stage>(bows.)</stage>
+</p>
+</sp>
+<sp who="#L0024_M4">
+<speaker>Bry.</speaker>
+<p>That's nothing like what old Thrasher taught us at the Free School; however,
+I'll try <stage>(he does so, and imitates grotesquely.)</stage>
+</p>
+</sp>
+<sp who="#L0024_F7">
+<speaker>Miss D.</speaker>
+<p>Curtsey again, my dear. <stage>(Emma does so.)</stage> Oh, frightful!</p>
+</sp>
+<sp who="#L0024_F9">
+<speaker>Emma.</speaker>
+<p>Please, my lady, we always does so in Westminster.</p>
+</sp>
+<sp who="#L0024_F7">
+<speaker>Miss D.</speaker>
+<p>You should curtsey thus <stage>(curtseys.)</stage>
+</p>
+</sp>
+
+<sp who="#L0024_M4">
+<speaker>Bry.</speaker>
+<stage>(smiling)</stage>
+<p>I beg your ladyship's pardon, but I think it's you as is wrong this time ;
+cos I've seen a hundred of 'em at once do it this way <stage>(curtseys,)</stage>
+when they've met the parson a going to church. I won't stand up for my bow, but
+I must for Hemma's curtsey.</p>
+</sp>
+<sp who="#L0024_M1">
+<speaker>Dur.</speaker>
+<p>Her ladyship's right. The Earl would faint to be bobbed at in that way.</p>
+</sp>
+<sp who="#L0024_F7">
+<speaker>Miss D.</speaker>
+<p>Why, what an odious bonnet. Take it off, child, do, and let us see your
+natural advantages.</p>
+</sp>
+<sp who="#L0024_F9">
+<speaker>Emma.</speaker>
+<stage>(to Bry.)</stage>
+<p>Eh, Bob?</p>
+</sp>
+<sp who="#L0024_M4">
+<speaker>Bry.</speaker>
+<p>Take it off, dear—take it off. We'll have our pen'orth out o' that as we walk
+home by and bye.</p>
+</sp>
+<sp who="#L0024_F7">
+<speaker>Miss D.</speaker>
+<p>I suppose your friends are totally without accomplishments ?</p>
+</sp>
+<sp who="#L0024_M1">
+<speaker>Dur.</speaker>
+<p>I presume so. Do you sing or play, Miss White ?</p>
+</sp>
+<sp who="#L0024_F9">
+<speaker>Emma.</speaker>
+<p>No, sir, I don't, but Bob is always asked to take the chair at his club.</p>
+</sp>
+<sp who="#L0024_M1">
+<speaker>Dur.</speaker>
+<p>Oho! that's fortunate, as the Earl of Eaglesdown is particularly fond of
+music: Will you allow us to hear you?</p>
+</sp>
+<sp who="#L0024_M4">
+<speaker>Bry.</speaker>
+<p>Well, I never like to stop harmony, but I can't sing standing up, and I
+should like—<stage>(pauses).</stage></p>
+</sp>
+<sp who="#L0024_F7">
+<speaker>Miss D.</speaker>
+<stage>(going to piano)</stage>
+<p>Oh, the accompaniment.</p>
+</sp>
+<sp who="#L0024_M4">
+<speaker>Bry.</speaker>
+<p>Yes, my lady ; but it ain't the piany—the accompaniments I require, is a
+pipe, and a glass of gin and water.</p>
+</sp>
+<sp who="#L0024_F7">
+<speaker>Miss D.</speaker>
+<p>Oh, shocking.</p>
+</sp>
+<sp who="#L0024_M4">
+<speaker>Bry.</speaker>
+<p>Why, them's thought to be the genteel thing in Westminster; however, if it's
+painful to your nerves, I'll fancy this here pen a pipe, and this inkstand the
+"cold without." Will you be kind enough to knock the table, and cry—"Silence,—a
+song from Mr. Bryanstone." I can't start without.</p>
+<stage>All sit.</stage>
+</sp>
+<sp who="#L0024_M1">
+<speaker>Dur.</speaker>
+<stage>(strikes table)</stage>
+<p>Silence—a song from Mr. Bryanstone.</p>
+<stage>Bryanstone illustrates a gentleman in the agony of song.</stage>
+</sp>
+<pb n="13"/>
+<spGrp>
+<head>Song.</head>
+<sp who="#L0024_M4">
+<l>There is a young 'ooman I knows very well,</l>
+<l>Fal de ral la ! Falderal la !</l>
+<l>But where she resid-ès I don't mean to tell.</l>
+<l>Fal de ral la! Fal de ral la.</l>
+<l>The first time I seed her was in Greenwich Park,</l>
+<l>Fal de ral, &amp;c.</l>
+<l>When me and Bill Simmons was out for a lark.</l>
+<l>Fal de ral, &amp;c.</l>
+<l>Says I to her, "Miss, will you jine us at tea?"</l>
+<l>Fal de ral, &amp;c.</l>
+<l>But she turn'd up her nose at Bill Simmons and me.</l>
+<l>Fal de ral, &amp;c. "</l>
+<l>Says I, that young 'ooman'g as pretty as good,</l>
+<l>Fal de ral, &amp;c.</l>
+<l>I ax'd if she'd marry, she said that she would.</l>
+<l>Fal de ral, &amp;c.</l>
+<l>So the very next Sunday as ever expires,</l>
+<l>Fal de ral, &amp;c.</l>
+<l>We're to be axed in the church, as the law it requires.</l>
+<l>Fal de ral, &amp;c.</l>
+<l>Now all you young 'oomen be guided by she,</l>
+<l>Fal de ral, &amp;c</l>
+<l>Don't jine every fellow as asks you to tea:</l>
+<l>Fal de ral, &amp;c.</l>
+<l>For modesty's prized by the poor and the rich,</l>
+<l>Fal de ral, &amp;c.</l>
+<l>And if you are bold you'll be treated as sich.</l>
+<l>Fal de ral, &amp;c,</l>
+</sp>
+</spGrp>
+<sp who="#L0024_M1">
+<speaker>Dur.</speaker>
+<stage>(shakes his head)</stage>
+<p>I'm afraid the Earl will object to that.</p>
+</sp>
+<sp who="#L0024_M4">
+<speaker>Bry.</speaker>
+<p>Object to that! why, I'm hangcored every night at our club. Object to that!
+why, I suppose, Jenny Lind wouldn't please him.</p>
+</sp>
+<sp who="#L0024_F9">
+<speaker>Emma.</speaker>
+<p>I only wish the Earl could see them standing round the parlour window of the
+Red Lion, on Club night, when Bob sings that song. Oh, it's melting.</p>
+</sp>
+<sp who="#L0024_M1">
+<speaker>Dur.</speaker>
+<p>I don't doubt its effect at the Club, my dear ; but you yourself can imagine
+there must be a difference between the society of the Earl of Eaglesdown and the
+visitors at the Red Lion.</p>
+</sp>
+<sp who="#L0024_M4">
+<speaker>Bry.</speaker>
+<p>Werry good, sir ; I never thought of that afore.</p>
+</sp>
+<stage>The doors at back are opened, and a table laid for dinner is wheeled
+on.</stage>
+<stage>Enter John and Thomas.</stage>
+<sp who="#L0024_M5">
+<speaker>John.</speaker>
+<p>Dinner, sir.</p>
+</sp>
+<stage>N.B. The business here must be ad libitum.</stage>
+<sp who="#L0024_M1">
+<speaker>Dur.</speaker>
+<p>Mr. Bryanstone, will you hand her ladyship ?</p>
+</sp>
+<pb n="14"/>
+<sp who="#L0024_M4">
+<speaker>Bry.</speaker>
+<p>No, thank you, Mr. Durham. Hemma and me have had our victuals.</p>
+</sp>
+<sp who="#L0024_M1">
+<speaker>Dur.</speaker>
+<p>Nay, I can take no refusal. It has been ordered expressly upon your
+account.</p>
+</sp>
+<sp who="#L0024_M4">
+<speaker>Bry.</speaker>
+<stage>All sit. Miss D. fills soup plates, which John and Thomas hand to Emma.
+Bry. seeing napkin in plate</stage>
+<p>I say, young man, somebody's left a towel here.</p>
+</sp>
+<sp who="#L0024_F9">
+<speaker>Emma.</speaker>
+<p>Thank you, sir <stage>(then to Bry.)</stage></p>
+</sp>
+<sp who="#L0024_M4">
+<speaker>Bry.</speaker>
+<p>Thank you, sir. You're very good, I'm sure.</p>
+</sp>
+<stage>Bry. makes a great noise in eating. Mr. D. calling him from table, he
+brings his soup-plate with him.</stage>
+<sp who="#L0024_M1">
+<speaker>Dur.</speaker>
+<p>You should eat with less noise—the Earl of Eaglesdown would be shocked.</p>
+<stage>Returns to seat.</stage>
+</sp>
+<sp who="#L0024_M4">
+<speaker>Bry.</speaker>
+<stage>(following)</stage>
+<p>Well, I never know'd there was a noble way of eating afore.</p>
+</sp>
+<sp who="#L0024_F7">
+<speaker>Miss D.</speaker>
+<p>Do you not like mulligatawny ?</p>
+</sp>
+<sp who="#L0024_F9">
+<speaker>Emma.</speaker>
+<stage>(simply)</stage>
+<p>No, my lady, I like pea-soup better.</p>
+</sp>
+<sp who="#L0024_M5">
+<speaker>John.</speaker>
+<stage>(to Bry.)</stage>
+<p>More soup, sir ?</p>
+</sp>
+<sp who="#L0024_M4">
+<speaker>Bry.</speaker>
+<p>If you please, sir ; and I'll thank you to stir it up, ma'am, and give us
+some of the thick.</p>
+</sp>
+<sp who="#L0024_M1">
+<speaker>Dur.</speaker>
+<stage>(coming down)</stage>
+<p>Bryanstone !</p>
+</sp>
+<sp who="#L0024_M4">
+<speaker>Bry.</speaker>
+<p>What's up now, I wonder!</p>
+</sp>
+<sp who="#L0024_M1">
+<speaker>Dur.</speaker>
+<p>It is not usual to take soup twice. You delay the <hi>entrees</hi>, and they
+may be spoiled. The Earl would be pained to see you
+<stage>(returns).</stage></p>
+</sp>
+<sp who="#L0024_M4">
+<speaker>Bry.</speaker>
+<p>Well, I don't see what's the use of being born with a silver spoon in your
+mouth, if you're not to use it <stage>(returns).</stage></p>
+</sp>
+<stage>Mr. D. serves fish. John fills wine-glasses.</stage>
+<sp who="#L0024_M5">
+<speaker>John.</speaker>
+<p>Sherry, Punch, or Madeira, sir ?</p>
+</sp>
+<sp who="#L0024_M4">
+<speaker>Bry.</speaker>
+<p>Thank ye, sir ; I suppose I must take the three. Ladies and gentlemen, your
+health—<stage>(does so, and empties them. Thomas gives him fish.)</stage> Thank
+you, sir.</p>
+</sp>
+<sp who="#L0024_M6">
+<speaker>Thomas.</speaker>
+<p>Sauce, sir ?</p>
+</sp>
+<sp who="#L0024_M4">
+<speaker>Bry.</speaker>
+<p>You're very good. <stage>(Helps himself . John hands dish.)</stage> Why, I'm
+blow'd if here isn't cowcumber. Cowcumber, Hemma? <stage>(helps her across
+table)</stage> You haven't sich a thing as a inion ?</p>
+</sp>
+<sp who="#L0024_M5">
+<speaker>John.</speaker>
+<p>No, sir.</p>
+</sp>
+<sp who="#L0024_M1">
+<speaker>Dur.</speaker>
+<p>Oh dear no.</p>
+</sp>
+<stage>Bry. begins to eat, Mr. D. stops him, and comes forward.</stage>
+<sp who="#L0024_M4">
+<speaker>Bry.</speaker>
+<p>Why, what's wrong now?</p>
+</sp>
+<sp who="#L0024_M1">
+<speaker>Dur.</speaker>
+<p>My dear fellow, you really must not eat your fish with a knife. The Earl
+would disinherit you if you were twenty times his son.</p>
+</sp>
+<sp who="#L0024_M4">
+<speaker>Bry.</speaker>
+<p>Then I give it up. If I ain't to make a noise over<pb n="15"/> my soup, or
+have a inion with my cowcumber, or eat my fish with a knife and fork, why I give
+it up.</p>
+<stage>Walks about.</stage>
+</sp>
+<sp who="#L0024_M1">
+<speaker>Dur.</speaker>
+<p>Nay, my good fellow, I am only telling you―</p>
+</sp>
+<sp who="#L0024_M4">
+<speaker>Bry.</speaker>
+<p>I know, I know, it's very kind of you, but you have taken away my
+appetite.</p>
+</sp>
+<sp who="#L0024_M1">
+<speaker>Dur.</speaker>
+<p>Now, I desire you will resume your chair.</p>
+</sp>
+<sp who="#L0024_M4">
+<speaker>Bry.</speaker>
+<p>It can't be done, sir. I couldn't eat biled fowl if you placed it before
+me.</p>
+</sp>
+<sp who="#L0024_M1">
+<speaker>Dur.</speaker>
+<stage>(aside)</stage>
+<p>Bravo!</p>
+</sp>
+<sp who="#L0024_F7">
+<speaker>Miss D.</speaker>
+<p>As there seems to be some altercation going on, we will leave the room, my
+dear. Mr. Durham, we feel our presence is not wanted.</p>
+</sp>
+<sp who="#L0024_M1">
+<speaker>Dur.</speaker>
+<p>My dear Lady Routlead.</p>
+</sp>
+<sp who="#L0024_F7">
+<speaker>Miss D.</speaker>
+<p>No apologies ; Miss White and I will retire into the next room.</p>
+</sp>
+<sp who="#L0024_F9">
+<speaker>Emma.</speaker>
+<p>Oh, my lady, do you think they are going to fight ?</p>
+</sp>
+<sp who="#L0024_F7">
+<speaker>Miss D.</speaker>
+<p>Oh, no, Mr. Durham is too much of a gentleman.</p>
+</sp>
+<stage>Exit R.</stage>
+<sp who="#L0024_F9">
+<speaker>Emma.</speaker>
+<p>But Bob isn't. You'll excuse me, but I'd rather remain here.</p>
+</sp>
+<sp who="#L0024_M1">
+<speaker>Dur.</speaker>
+<p>I am sorry to have annoyed you, Bryanstone.</p>
+</sp>
+<sp who="#L0024_M4">
+<speaker>Bry.</speaker>
+<p>It's not you, sir ; it's very kind of you to take all this trouble with me,
+but when I thinks I've found the father I've been looking for all my life, and
+hears that he'll cut me off with a shilling, because I eats fish with a knife,
+why I gives it up.</p>
+</sp>
+<sp who="#L0024_M1">
+<speaker>Dur.</speaker>
+<p>Why, it surely must have occurred to you that different classes of society
+have different customs ; that what is quite right and proper in one sphere of
+life, may be very objectionable in another.</p>
+</sp>
+<sp who="#L0024_M4">
+<speaker>Bry.</speaker>
+<p>No, it didn't; did it to you, Hemma ?</p>
+</sp>
+<sp who="#L0024_F9">
+<speaker>Emma.</speaker>
+<p>No, Bob. I never thought about it.</p>
+<stage>Puts on bonnet and shawl.</stage>
+</sp>
+<sp who="#L0024_M1">
+<speaker>Dur.</speaker>
+<p>Well, well, I dare say you will soon accustom yourself to the change. I will
+see the Earl presently, and hear how matters have proceeded. So good day for the
+present.</p>
+</sp>
+<sp who="#L0024_M4">
+<speaker>Bry.</speaker>
+<p>Come, Hemma, I'll go and have a pipe with your father—it may be the last I
+shall ever smoke, Hemma. I begin to think I rather wish my Duck and Green Peas
+hadn't turn'd out a Phoenix.</p>
+</sp>
+<stage>Exeunt L. H. 1st E.</stage>
+<sp who="#L0024_M1">
+<speaker>Dur.</speaker>
+<p>Capital! I think my patient is in the crisis of his disorder.</p>
+</sp>
+<stage>Exit R. H. 1st E.</stage>
+</div>
+<div type="scene">
+<head>Scene III.—Inside of Jonas White's house.</head>
+<stage>Jonas discovered dressed in a coat laced with paper, and a cocked hat
+similarly decorated. Fluey partly as Clown ; Mrs. White has a brass ladle. They
+are seated, looking very disconsolate. "The Drum and Mouth Organ" at back
+smoking a pipe. The "Jack in the Green " on the table in the centre of the
+room.</stage>
+<sp who="#L0024_F8">
+<speaker>Mrs. W.</speaker>
+<p>Well, Jonas, how have you got on ?</p>
+</sp>
+<sp who="#L0024_M2">
+<speaker>Jon.</speaker>
+<p>Oh, no how ! I can't get a "Jack" under 7s. 6d., tho' I finds my own "Green;"
+and as for "a Lady," she's not to be had for love nor money. There's only one
+thing to be done, as I see.</p>
+</sp>
+<sp who="#L0024_F8">
+<speaker>Mrs. W.</speaker>
+<p>What's that ?</p>
+</sp>
+<sp who="#L0024_M2">
+<speaker>Jon.</speaker>
+<p>Why, you must put on the frock and trousers, and be "my Lady " yourself.</p>
+</sp>
+<sp who="#L0024_F8">
+<speaker>Mrs. W.</speaker>
+<p>Me, Jonas! At my time of life! No, rather than that we'll dress up old
+Fluey.</p>
+</sp>
+<sp who="#L0024_M2">
+<speaker>Jon.</speaker>
+<p>He'll never consent to shave off his whiskers, I know he won't. Is the
+orchestra come ?</p>
+</sp>
+<sp who="#L0024_F8">
+<speaker>Mrs. W.</speaker>
+<p>Yes, but his mouth organ's sadly out of tune.</p>
+</sp>
+<sp who="#L0024_M2">
+<speaker>Jon.</speaker>
+<p>Emma come back ?</p>
+</sp>
+<sp who="#L0024_F8">
+<speaker>Mrs. W.</speaker>
+<p>No, not yet, but she's so taken up with that Bryanstone that she'll turn up
+her nose at the ladle. A hungrateful girl—but I'll disown her, I will.</p>
+</sp>
+<sp who="#L0024_M2">
+<speaker>Jon.</speaker>
+<p>Well, we must make the best on it. It's enough to break an old sweep's heart,
+it is—to see how the profession is going to the dogs. I always said machinery
+would be the ruin of the country, and them Ramoneurs is a doing of it.</p>
+</sp>
+<sp who="#L0024_M3">
+<speaker>Flu.</speaker>
+<p>This ain't very promising for to-morrow. Here we are on the 30th April as
+glum and as melancholy as if there was no 1st of May to follow.</p>
+</sp>
+<sp who="#L0024_M2">
+<speaker>Jon.</speaker>
+<p>It's all along of her.</p>
+</sp>
+<sp who="#L0024_M3">
+<speaker>Flu.</speaker>
+<p>What her?</p>
+</sp>
+<sp who="#L0024_M2">
+<speaker>Jon.</speaker>
+<p>Why, Em-mer. I thought my heart was made of fire brick, but it's butter,
+Fluey. It's butter, and it's running away as tho' my bosom was a helliptic
+stove, and my heart was a melting afore it.</p>
+</sp>
+<sp who="#L0024_F8">
+<speaker>Mrs. W.</speaker>
+<stage>(goes to Jonas)</stage>
+<p>Jonas, I know you're werry bad —I know you are. Whenever you get flowery it's
+always a bad sign. The girl will come back again ; she always was a tolerable
+dootiful child, and she's our own flesh and blood, Jonas, and loves us, I'm sure
+she do.</p>
+</sp>
+<sp who="#L0024_M2">
+<speaker>Jon.</speaker>
+<p>Don't go on that way, Sally, don't, unless you want me to belie my natur, and
+be as great a old woman as you are.</p>
+</sp>
+<sp who="#L0024_M3">
+<speaker>Flu.</speaker>
+<p>I say, gov'nor, here she is, and Bob Bryanstone with her.</p>
+</sp>
+<sp who="#L0024_M2">
+<speaker>Jon.</speaker>
+<p>Is she ? then you and the orchestra go into the back kitchen. I'll let her
+know what parental sewerity means.</p>
+</sp>
+<pb n="17"/>
+<sp who="#L0024_M3">
+<speaker>Flu.</speaker>
+<p>I say, gov'nor, draw it mild, she is a good girl, and Bob ain't a bad
+one.</p>
+</sp>
+<stage>Exit R. H. E.</stage>
+<sp who="#L0024_M2">
+<speaker>Jon.</speaker>
+<p>Now, then, to be like the man I saw at the the-a-tre —what's his name ? Him
+as wore his hair up in front— Brutus! Brutus ! Just notice me.</p>
+</sp>
+<stage>Enter Bryanstone and Emma, L. 2nd E.</stage>
+<sp who="#L0024_F9">
+<speaker>Emma.</speaker>
+<p>Well, here I'm come back again, father.</p>
+</sp>
+<sp who="#L0024_M2">
+<speaker>Jon.</speaker>
+<p>Like a bad shilling, cos nobody won't have you. Why, you look out of sorts,
+"my lord !"</p>
+</sp>
+<sp who="#L0024_M4">
+<speaker>Bry.</speaker>
+<p>Well, I ain't in spirits, Mr. White.</p>
+</sp>
+<sp who="#L0024_M2">
+<speaker>Jon.</speaker>
+<p>Oh, there's a little mistake, is there ? You ain't the identical fondling
+they was looking for ?</p>
+</sp>
+<sp who="#L0024_M4">
+<speaker>Bry.</speaker>
+<p>Yes I am.</p>
+</sp>
+<sp who="#L0024_M2">
+<speaker>Jon.</speaker>
+<p>Only they won't own you, I suppose ?</p>
+</sp>
+<sp who="#L0024_M4">
+<speaker>Bry.</speaker>
+<p>Yes, they does—I'm a Heaglesdown.</p>
+</sp>
+<sp who="#L0024_M2">
+<speaker>Jon.</speaker>
+<p>A what ? Well, I've swept the House of Lords for these ten years, and never
+heard of that title before.</p>
+</sp>
+<sp who="#L0024_M4">
+<speaker>Bry.</speaker>
+<p>No, that's because the Earl my father has shut himself out of the world, on
+account of losing me.</p>
+</sp>
+<sp who="#L0024_M2">
+<speaker>Jon.</speaker>
+<p>Well, what is the matter then ? If you are owned why ain't you jolly ? You've
+been a wishing to be a nobleman all your life, and now you is one.</p>
+</sp>
+<sp who="#L0024_M4">
+<speaker>Bry.</speaker>
+<p>True, Mr. White—but I don't think the place will suit me. It's not so easy to
+be a nobleman, I can tell you ; what they had to go through I'd no idea on. High
+life's a good deal like your May-day coat, Mr. White, it's not all gold as
+glitters. Lords and ladies look happy enough, but you don't know their
+privations.</p>
+</sp>
+<sp who="#L0024_M2">
+<speaker>Jon.</speaker>
+<p>Why, with lots of money what privations can they know ?</p>
+</sp>
+<sp who="#L0024_M4">
+<speaker>Bry.</speaker>
+<p>No skittles.</p>
+</sp>
+<sp who="#L0024_M2">
+<speaker>Jon.</speaker>
+<p>No skittles !</p>
+</sp>
+<sp who="#L0024_M4">
+<speaker>Bry.</speaker>
+<p>Not allowed ; all that part of my education will be throw'd away. No knives
+and forks—</p>
+</sp>
+<sp who="#L0024_M2">
+<speaker>Jon.</speaker>
+<p>You astoundes me!</p>
+</sp>
+<sp who="#L0024_M4">
+<speaker>Bry.</speaker>
+<p>Eat their fish with the fingers. If you only mention a pipe, the lords turn
+up their eyes, and the ladies burst their stay-laces.</p>
+</sp>
+<sp who="#L0024_M2">
+<speaker>Jon.</speaker>
+<p>And this is a civilised country! Bob, I was very angry with you this mornin',
+but I can't bear malice to a man in misfortin. Bob, I forgive you and pities
+you.</p>
+</sp>
+<sp who="#L0024_M4">
+<speaker>Bry.</speaker>
+<p>Thank you, Mr. White. Hemma's father forgives me!</p>
+</sp>
+<sp who="#L0024_F9">
+<speaker>Emma.</speaker>
+<stage>(who has been putting her new bonnet on Mrs. White, runs and kisses
+Jonas)</stage>
+<p>I knew he would!</p>
+</sp>
+<sp who="#L0024_M2">
+<speaker>Jon.</speaker>
+<p>Father, did you say ? <hi>that</hi> requires consideration. Emmer, do you
+know what you'll have to give up if you becomes a lady ?</p>
+</sp>
+<pb n="18"/>
+<sp who="#L0024_F9">
+<speaker>Emma.</speaker>
+<p>Yes, father. All I've ever cared about, except you and mother and Bob.</p>
+</sp>
+<sp who="#L0024_M2">
+<speaker>Jon.</speaker>
+<p>That's enough ; so you know what you're about. I've done a parent's duty.</p>
+</sp>
+<stage>Enter Mr. Durham, D. L. 2nd E.</stage>
+<sp who="#L0024_M1">
+<speaker>Dur.</speaker>
+<p>I'm glad I've met with you, Bob, for I found you had not been home since you
+left me.</p>
+</sp>
+<sp who="#L0024_M4">
+<speaker>Bry.</speaker>
+<p>Why, no, sir, I came here for a little consolation under my good fortune.</p>
+</sp>
+<sp who="#L0024_M1">
+<speaker>Dur.</speaker>
+<p>I'm afraid I've got some bad news, Bob.</p>
+</sp>
+<sp who="#L0024_M4">
+<speaker>Bry.</speaker>
+<p>What's the Earl in a hurry to see me? I suppose all the folks in Belgrave
+Square will be at the windows to see me embrace my noble father on the
+doorstep.</p>
+</sp>
+<sp who="#L0024_M1">
+<speaker>Dur.</speaker>
+<p>I'm afraid such an event is not likely to occur.</p>
+</sp>
+<sp who="#L0024_M4">
+<speaker>Bry.</speaker>
+<p>Oh, what, you've told him about the coals and the taturs, and he's ashamed of
+<hi>me</hi>. Well, he can leave me alone if he likes. It seems, Mr. Durham, that
+I have been doing wrong all my life, as a lord, tho' I have acted quite right as
+a costermonger. In Westminster I'm respected and respectable—in Belgrave Square
+I should be despised and woted vulgar ; so if the Earl won't advertise after me,
+I won't after him, I promise you.</p>
+</sp>
+<sp who="#L0024_M1">
+<speaker>Dur.</speaker>
+<p>What! would you abandon your noble father, the Earl of Eaglesdown ?</p>
+</sp>
+<sp who="#L0024_M4">
+<speaker>Bry.</speaker>
+<p>Why, considering he abandoned me for two and twenty years, I don't think it
+will break his heart if I do.</p>
+</sp>
+<sp who="#L0024_M1">
+<speaker>Dur.</speaker>
+<p>I'm delighted to hear this, for upon further inquiries a person has been
+found with the Phœnix distinctly visible.</p>
+</sp>
+<sp who="#L0024_M4">
+<speaker>Bry.</speaker>
+<p>Hurrah! hurrah! mine's a duck and green peas after all. I'm only a
+fondling—old Bob Brown's fondling. I'd not be a lord again if they'd give me a
+hundred a year. Here's the coat and the—<stage>(about to pull it
+off.)</stage></p>
+</sp>
+<sp who="#L0024_M1">
+<speaker>Dur.</speaker>
+<p>No, Bob, you must consider those as a present from me, and in return allow me
+to dance at your wedding.</p>
+</sp>
+<stage>Exit L. H. D. 2nd E.</stage>
+<sp who="#L0024_M4">
+<speaker>Bry.</speaker>
+<p>You shall, sir, and have a span new shovel and broom to beat time with.
+<stage>(To Jonas)</stage> Father, you will be a father to me. Mother
+<stage>(embracing Mrs. White)</stage>, you'll nurse me over again. Hemma, you'll
+be a wife to me! Where's the music? Where's old Fluey? <stage>(Jonas calls them
+on.)</stage> Get the shovels—Hemma, get the ladle—and here goes for "Jack in the
+Green."</p>
+</sp>
+<stage>Music. Enter Boys with shovels. Bob puts his head out of the hole in the
+Green.</stage>
+<sp who="#L0024_M4">
+<speaker>Bry.</speaker>
+<p>Stop a minute. I think <stage>(comes down)</stage> a farce and a song are all
+the better for a moral—and mine's this—Be content with your station in life,
+whatever it may be ; make <pb n="19"/>the most of the little you have, and never
+envy those who have more ; think kindly of those below you—for a warm heart and
+good intentions may be found in a"Jack in the Green." Play up, my boy!</p>
+</sp>
+<stage>Music and Dance.</stage>
+<stage>Curtain.</stage>
+</div>
+<trailer>Printed by G. R. Cowie, Ivy-Lanem Paternoster-row.</trailer>
+</body>
+</text>
+</TEI>
