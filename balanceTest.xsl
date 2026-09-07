@@ -16,6 +16,14 @@
   <xsl:variable name="teiTot" select="count(//div[@type = 'work' and @subtype eq 'TEI'])"/>
 
 <xsl:message>Totals :  of  <xsl:value-of select="$lacyTot"/> Lacy titles, <xsl:value-of select="$vppTot"/> are in VPP; and <xsl:value-of select="$teiTot"/> in TEI</xsl:message>
+
+<xsl:variable name="smallCount" select="count(//div[type='work' and starts-with(@type,'S')])"/>
+ <xsl:variable name="smallCountT" select="count(//div[type='work' and starts-with(@type,'S') and @subtype='TEI'] )"/>
+
+ <xsl:message>Of <xsl:value-of select="$smallCount"/> short plays ( <xsl:value-of select="round(($smallCount div $lacyTot) * 100)"/>% )
+ <xsl:value-of select="$smallCountT"/> are in TEI ( <xsl:value-of select="round(($smallCountT div $teiTot) * 100)"/>% )
+ 
+ </xsl:message>
   
   <xsl:message>TEI per Volume counts: </xsl:message>
   <xsl:variable name="zeroVols"  select="//*:div[@type='volume'][count(*:div[@type='work' and @subtype='TEI']) eq 0]/substring-before(@n,'/')"/>
