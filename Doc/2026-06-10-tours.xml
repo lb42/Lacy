@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Chaine editorial du Digital Lacy projet</title>
+<author>Lou Burnard</author>
+</titleStmt>
+<editionStmt>
+<edition>
+<date>20268-06-10</date>
+</edition>
+</editionStmt>
+<publicationStmt>
+<p/>
+</publicationStmt>
+<sourceDesc>
+<p>d</p>
+</sourceDesc>
+</fileDesc>
+<revisionDesc>
+<listChange>
+<change when="2026-06-10">Drafted in TEI</change>
+</listChange>
+</revisionDesc>
+</teiHeader>
+
+<text>
+<body>
+
+<div type="slide">
+
+<p>Le projet <ref target="https://lb42.github.io/Lacy/">Digital Lacy</ref> vise la numérisation en TEI-XML et mise à
+disposition d'une grande édition de 1500 pièces dramatiques anglais du 19è
+siècle.</p>
+<figure><graphic url="https://lb42.github.io/Lacy/media/THLacy.jpg" width="400px"/>
+</figure>
+<p> Pour 80% des titres, l'édition de Thomas Hailes Lacy (1809-1873) fournit
+l'unique témoin du texte, à part le manuscrit soumis à l'Office du Lord
+Chamberlain pour licencement du spectacle. Peut-être 2% des titres sont toujours
+reconnus au theatre de nos jours. </p>
+</div>
+<div type="slide"><head>Par exemple...</head><figure><graphic url="https://lb42.github.io/Talks/toursNiv2/media/L0426tp-img.png" width="600px"/></figure></div>
+<div type="slide">
+<head>Le workflow</head>
+<p>Notre chaine éditoriale procède en quatre étapes: </p>
+<list>
+<item>1. Etablissement d'un texte brut, représentant tous les mots de la pièce
+telle qu'elle se présente dans la version imprimée par Lacy. </item>
+<item> 2. Enrichissement automatisé de ce texte avec des balises XML-TEI,
+distinguant ainsi la structure du texte, les didascalies, les énoncés, les
+paragraphes, les vers etc. </item>
+<item> 3. Validation et correction de cette proto-version TEI; relecture sous
+controle des pages images originels. </item>
+<item> 4. Ajout des métadonnées concernant l'édition; normalisation des
+indications d'énonceure.s </item>
+</list>
+</div>
+<div type="slide">
+<head>Extraction de texte</head>
+<p>Un projet anterieure (Le Victorian Plays Project) a produit des versions PDF
+avec transcription fidèle respectant plus ou moins la mise en forme de quelques
+300 des imprimés. Pour ne pas perdre tout cet effort, nous avons dans un premier
+temps créé des versions DOCX de ces versions, en utilisant l'OCR de Abbyy (merci
+Humanum). </p>
+<p>Pour la plupart des autres textes, seule la version archivale (par ex chez
+HathiTrust) est disponible. Mais cette version archival est souvent disponible
+dans une version texte brut, de fidelité variable. </p>
+</div>
+
+<div type="slide">
+<head>Enrichissement automatisée</head>
+<p>On a experimenté plusieurs méthodes de balisage automatique:</p>
+<list>
+<item>par transformation XSLT du XML contenu par les fichiers format DOCX</item>
+<item>en utilisant un LLM/MLL (à savoir, Gemini Pro) pour (a) refaire
+l'OCRisation des fichiers PDF, et (b) ensuite d'ajouter les balises XML</item>
+<item>en utilisant le meme LLM uniquement pour ajouter les balises XML dans une
+version pure texte</item>
+</list>
+<p>A ma surprise, la troisième methode semble de loin la plus efficace.</p>
+</div>
+<div type="slide"><head>Par exemple...</head><figure><graphic url="https://lb42.github.io/Talks/toursNiv2/media/L0426tp-img.png" width="600px"/></figure></div>
+<div type="slide"><figure><head>texte brut</head><graphic url="https://lb42.github.io/Talks/toursNiv2/media/L0426tp-txt.png"/></figure></div>
+<div type="slide"><figure><head>structuré par gemini</head><graphic url="https://lb42.github.io/Talks/toursNiv2/media/L0426tp-final.png"/></figure></div>
+<div type="slide"><figure><head>corrigé</head><graphic url="https://lb42.github.io/Talks/toursNiv2/media/L0426tp-tei.png"/></figure></div>
+<div type="slide">
+<head>Validation</head>
+<p>Par ce mot j'entends ... </p>
+<list>
+<item>Le balisage du document conforme-t-il à un schéma TEI ? </item>
+<item>Le contenu textuel est il correct (aucune phrase perdue, malplacée,
+hallucinée... )?</item>
+<item>Le contenu textuel est-il complète et cohérent? pour assurer cela,
+j'ajoute les balises de saut de page; et les mots en italique (mais pas tous);
+je normalise les noms des locuteurs en casse mixte, car les petites majuscules
+utilisées dans la source sont diversement transcrites en majuscules ou dans un
+mélange aléatoire de casse; je distingue les tirets des tirets cadratins; je
+corrige la césure de fin de ligne; je réunis des discours fragmentés par un saut
+de page ou une mise en scène.... </item>
+<item>... et j'effectue des vérifications plus spécialisées du contenu (la page de
+titre est-elle complète ? Les informations des représentations sont-elles
+correctement étiquetées ? Les sexes sont-ils indiqués pour chaque rôle dans la
+castList ? Les éléments divers comme les listes de costumes, les notes de décor,
+etc. sont-ils correctement étiquetés ? Et (et c'est la partie essentielle) je
+lis le texte attentivement.</item>
+</list>
+<p>Est-ce qu'on pourrait enseigner un LLM à effectuer tout cela? Sans
+doute, mais à mon avis il restera toujours le besoin de lire attentivement le
+texte.</p>
+</div><div type="slide"><head>Enrichissement des metadonnees</head>
+<p>Le projet dispose d'un ensemble assez complet de descriptions bibliographiques des titres de l'édition originelle, déjà transformée en TEI. En plus, on génère une liste bien structurée des roles figurant dans chaque pièce, à partir des notices de partition et les labels d'énoncés. Ces informations sont ajoutées dans l'entête TEI. </p>
+</div><div type="slide"><head>Etat actuel du projet</head>
+<p>Aujourdhui, nous avons effectué à peu près 10% des titres, c'est à dire  <ref target="https://lb42.github.io/Lacy/report.html">155 titres</ref> ...</p></div>
+</body>
+</text>
+</TEI>
