@@ -7,9 +7,11 @@
 
 <!-- make particLists from speaker and castItem tags--> 
   <xsl:template match="teiHeader"/>
- <xsl:template match="text">
+ 
+ <xsl:template match="*:text">
   <xsl:variable name="root" select="."/>
   <xsl:variable name="id" select="ancestor::TEI/@xml:id"/>
+  <xsl:message>ID IS <xsl:value-of select="$id"/></xsl:message>
   <particDesc xmlns="http://www.tei-c.org/ns/1.0" n="{$id}">
  <xsl:comment>   Roles in cast List  </xsl:comment>
    <listPerson type="roles">
